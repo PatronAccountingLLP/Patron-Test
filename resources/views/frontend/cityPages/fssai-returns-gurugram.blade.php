@@ -1,161 +1,12 @@
 
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>FSSAI Annual Return Gurugram - Form D1, D2 & Due Date</title>
-    <meta name="description" content="FSSAI returns filing in Gurugram. Form D1 annual by May 31. Form D2 dairy. FoSCoS portal. Rs 100/day penalty. License renewal. Call +91 945 945 6700.">
-    <link rel="canonical" href="/fssai-returns/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="FSSAI Annual Return Gurugram - Form D1, D2 & Due Date">
-    <meta property="og:description" content="FSSAI returns filing in Gurugram. Form D1 annual by May 31. Form D2 dairy. FoSCoS portal. Rs 100/day penalty. License renewal. Call +91 945 945 6700.">
-    <meta property="og:url" content="/fssai-returns/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="FSSAI Annual Return Gurugram - Form D1, D2 & Due Date">
-    <meta name="twitter:description" content="FSSAI returns filing in Gurugram. Form D1 annual by May 31. Form D2 dairy. FoSCoS portal. Rs 100/day penalty. License renewal. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "FSSAI Returns in Gurugram | Form D1 D2",
-      "description": "FSSAI returns filing in Gurugram. Form D1 annual by May 31. Form D2 dairy. FoSCoS portal. Rs 100/day penalty. License renewal. Call +91 945 945 6700.",
-      "url": "https://www.patronaccounting.com/fssai-returns/gurugram",
-      "serviceType": "FSSAI Returns in Gurugram | Form D1 D2",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/fssai-returns/gurugram",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "minPrice": "999",
-          "maxPrice": "1999",
-          "priceCurrency": "INR"
-        }
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "FSSAI Returns Filing: Form D1 and D2",
-          "item": "https://www.patronaccounting.com/fssai-returns"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "FSSAI Returns in Gurugram | Form D1 D2",
-          "item": "https://www.patronaccounting.com/fssai-returns/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "When must FSSAI returns be filed?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Form D1 (Annual) by May 31 each year on FoSCoS portal for all manufacturing, processing, and importing FBOs. Form D2 (Half-Yearly) by October 31 and April 30 for milk and dairy manufacturers. Penalty: Rs 100 per day of delay, maximum 5 times the annual license fee."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does FSSAI return filing cost?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Form D1 annual: Rs 1,999-4,999. Form D2 dairy (per period): Rs 1,999-3,999. NIL return: Rs 999-1,999. Multi-license (per additional): Rs 1,499-2,999. Retroactive filing with penalty: Rs 2,999-7,999 plus penalty amount. Call +91 945 945 6700 for a detailed quote."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens if FSSAI returns are not filed?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. Check All Licenses: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Must cloud kitchens file FSSAI returns?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Cloud kitchens that prepare and deliver food are classified as food manufacturers under FSSAI regulations. If they hold a State or Central FSSAI license, Form D1 annual return must be filed by May 31 every year. Being delivery-only does not exempt from filing. Many cloud kitchens discover this only when they try to renew their license."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is a NIL return in FSSAI?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A NIL return must be filed on FoSCoS even when zero production or sales occurred during the reporting period. If the FSSAI license is active, the return is mandatory regardless of activity. Filing NIL ensures no gap in the filing record and prevents license renewal blockage."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do I need separate returns for each FSSAI license?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Each FSSAI license requires its own separate return filing. An FBO with 3 licenses (3 different units or categories) must file 3 separate Form D1 returns. Filing one combined return covering multiple licenses is an error. Missing a return for any single license blocks renewal for that license."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Are restaurants required to file FSSAI returns?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Restaurants that only serve food and do not manufacture or pack for retail sale are generally exempt from annual return filing. However, if a restaurant also manufactures or packs food products for sale (e.g., packaged sauces, pre-made meals for retail), Form D1 is required for that manufacturing/packing activity. Quick Answers Kab file karna hai? Form D1: May 31 har saal. Form D2 (dairy): October 31 aur April 30. FoSCoS portal pe online. Late penalty Rs 100/din. Cloud kitchen ko file karna hai? Haan. Cloud kitchen food manufacturer hai FSSAI mein. License hai toh annual return mandatory. Delivery-only se exemption nahi. Zero production mein bhi? Haan. NIL return file karo FoSCoS pe. License active hai toh return mandatory - production ho ya na ho."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -679,7 +530,161 @@ section ul li:not(.nav-item) { font-size: 14px; }
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'Join Community'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>FSSAI Annual Return Gurugram - Form D1, D2 & Due Date</title>
+    <meta name="description" content="FSSAI returns filing in Gurugram. Form D1 annual by May 31. Form D2 dairy. FoSCoS portal. Rs 100/day penalty. License renewal. Call +91 945 945 6700.">
+    <link rel="canonical" href="/fssai-returns/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="FSSAI Annual Return Gurugram - Form D1, D2 & Due Date">
+    <meta property="og:description" content="FSSAI returns filing in Gurugram. Form D1 annual by May 31. Form D2 dairy. FoSCoS portal. Rs 100/day penalty. License renewal. Call +91 945 945 6700.">
+    <meta property="og:url" content="/fssai-returns/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="FSSAI Annual Return Gurugram - Form D1, D2 & Due Date">
+    <meta name="twitter:description" content="FSSAI returns filing in Gurugram. Form D1 annual by May 31. Form D2 dairy. FoSCoS portal. Rs 100/day penalty. License renewal. Call +91 945 945 6700.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "FSSAI Returns in Gurugram | Form D1 D2",
+      "description": "FSSAI returns filing in Gurugram. Form D1 annual by May 31. Form D2 dairy. FoSCoS portal. Rs 100/day penalty. License renewal. Call +91 945 945 6700.",
+      "url": "https://www.patronaccounting.com/fssai-returns/gurugram",
+      "serviceType": "FSSAI Returns in Gurugram | Form D1 D2",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.patronaccounting.com/fssai-returns/gurugram",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": "999",
+          "maxPrice": "1999",
+          "priceCurrency": "INR"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "FSSAI Returns Filing: Form D1 and D2",
+          "item": "https://www.patronaccounting.com/fssai-returns"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "FSSAI Returns in Gurugram | Form D1 D2",
+          "item": "https://www.patronaccounting.com/fssai-returns/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "When must FSSAI returns be filed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Form D1 (Annual) by May 31 each year on FoSCoS portal for all manufacturing, processing, and importing FBOs. Form D2 (Half-Yearly) by October 31 and April 30 for milk and dairy manufacturers. Penalty: Rs 100 per day of delay, maximum 5 times the annual license fee."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does FSSAI return filing cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Form D1 annual: Rs 1,999-4,999. Form D2 dairy (per period): Rs 1,999-3,999. NIL return: Rs 999-1,999. Multi-license (per additional): Rs 1,499-2,999. Retroactive filing with penalty: Rs 2,999-7,999 plus penalty amount. Call +91 945 945 6700 for a detailed quote."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if FSSAI returns are not filed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. Check All Licenses: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Must cloud kitchens file FSSAI returns?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Cloud kitchens that prepare and deliver food are classified as food manufacturers under FSSAI regulations. If they hold a State or Central FSSAI license, Form D1 annual return must be filed by May 31 every year. Being delivery-only does not exempt from filing. Many cloud kitchens discover this only when they try to renew their license."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a NIL return in FSSAI?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A NIL return must be filed on FoSCoS even when zero production or sales occurred during the reporting period. If the FSSAI license is active, the return is mandatory regardless of activity. Filing NIL ensures no gap in the filing record and prevents license renewal blockage."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need separate returns for each FSSAI license?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Each FSSAI license requires its own separate return filing. An FBO with 3 licenses (3 different units or categories) must file 3 separate Form D1 returns. Filing one combined return covering multiple licenses is an error. Missing a return for any single license blocks renewal for that license."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are restaurants required to file FSSAI returns?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Restaurants that only serve food and do not manufacture or pack for retail sale are generally exempt from annual return filing. However, if a restaurant also manufactures or packs food products for sale (e.g., packaged sauces, pre-made meals for retail), Form D1 is required for that manufacturing/packing activity. Quick Answers Kab file karna hai? Form D1: May 31 har saal. Form D2 (dairy): October 31 aur April 30. FoSCoS portal pe online. Late penalty Rs 100/din. Cloud kitchen ko file karna hai? Haan. Cloud kitchen food manufacturer hai FSSAI mein. License hai toh annual return mandatory. Delivery-only se exemption nahi. Zero production mein bhi? Haan. NIL return file karo FoSCoS pe. License active hai toh return mandatory - production ho ya na ho."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1604,7 +1609,6 @@ var tocWrapper=document.getElementById('tocWrapper');document.getElementById('to
 
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

@@ -1,146 +1,12 @@
 
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Net Worth Certificate for RERA Registration in Mumbai 2026 | Patron Accounting</title>
-    <meta name="description" content="CA-certified promoter net worth certificate for RERA project registration under the RERA Act 2016, with 3-year financials review. From INR 7,999.">
-    <link rel="canonical" href="/net-worth-certificate-for-rera-registration/mumbai">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Net Worth Certificate for RERA Registration 2026 | Patron Accounting">
-    <meta property="og:description" content="CA-certified promoter net worth certificate for RERA project registration under the RERA Act 2016, with 3-year financials review. From INR 7,999.">
-    <meta property="og:url" content="/net-worth-certificate-for-rera-registration/mumbai">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Net Worth Certificate for RERA Registration 2026 | Patron Accounting">
-    <meta name="twitter:description" content="CA-certified promoter net worth certificate for RERA project registration under the RERA Act 2016, with 3-year financials review. From INR 7,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/mumbai/#service",
-        "name": "Net Worth Certificate for RERA Registration",
-        "description": "CA-certified promoter net worth certificate for RERA project registration under the Real Estate (Regulation and Development) Act 2016, with a review of three years of financials and validation of the 70 percent Separate Bank Account under Section 4(2)(l)(D), issued with a mandatory UDIN.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/mumbai" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Net worth", "sameAs": "https://en.wikipedia.org/wiki/Net_worth" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Net Worth Certificate for RERA Registration Service Plans",
-            "itemListElement": [
-                { "@type": "Offer", "name": "Net Worth Certificate for RERA Registration (UDIN-verified)", "priceCurrency": "INR", "price": "7999", "description": "CA-certified promoter net worth with a review of three years of financials and validation of the 70 percent Separate Bank Account under Section 4(2)(l)(D), in the state RERA format, with a UDIN." }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/mumbai/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
-            { "@type": "ListItem", "position": 3, "name": "Net Worth Certificate for RERA Registration", "item": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/mumbai" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/mumbai/#faq",
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "mainEntity": [
-            { "@type": "Question", "name": "Is a net worth certificate required for RERA registration?", "acceptedAnswer": { "@type": "Answer", "text": "A CA certificate is mandatory for RERA project registration, and the promoter must submit a statement of assets and liabilities showing net worth, along with financial statements for the last three years. Without the CA certification, the project cannot be registered. The certificate demonstrates the promoter's financial standing to the state RERA authority and supports the project's credibility with allottees." } },
-            { "@type": "Question", "name": "What is the 70 percent rule under RERA?", "acceptedAnswer": { "@type": "Answer", "text": "Section 4(2)(l)(D) of the RERA Act, 2016 requires the promoter to deposit 70 percent of the amounts realised from allottees into a Separate Bank Account maintained in a scheduled bank. These funds can only be used for construction and land cost of that project, and can be withdrawn in proportion to the percentage of completion, certified by an architect, an engineer and a Chartered Accountant." } },
-            { "@type": "Question", "name": "What is the difference between Form 3 and Form 5 under RERA?", "acceptedAnswer": { "@type": "Answer", "text": "Form 3 is the CA certificate for withdrawal of funds from the Separate Bank Account, certifying the cost incurred and the proportion to total estimated project cost. Form 5 is the CA annual audit certificate on project fund utilisation, which the promoter must obtain within six months after the end of every financial year. Both are issued by a practising Chartered Accountant." } },
-            { "@type": "Question", "name": "Can the same CA certify and audit a RERA project?", "acceptedAnswer": { "@type": "Answer", "text": "No. Under RERA, the Chartered Accountant who issues certificates at registration or for withdrawals becomes a representative of the promoter and cannot also perform the project audit. The certification and audit roles must be handled by two distinct CAs. Patron Accounting keeps these roles separate so your RERA compliance stays valid and free of conflict." } },
-            { "@type": "Question", "name": "How much does a RERA net worth certificate cost?", "acceptedAnswer": { "@type": "Answer", "text": "At Patron Accounting, a RERA net worth certificate starts from Rs 7,999 (exclusive of GST and government charges). The fee reflects the review of three years of audited financials, the promoter net worth certification, and the Separate Bank Account validation that RERA registration requires. Final fees are confirmed after a review of your financials and the project scope." } },
-            { "@type": "Question", "name": "Which documents are needed for RERA registration financials?", "acceptedAnswer": { "@type": "Answer", "text": "The promoter needs the firm or company PAN, Income Tax Returns and financial statements for the last three years, the audited balance sheet and profit and loss account, details of past projects in the last five years, and a copy of the cheque for the Separate Bank Account opened for the project. The CA reviews these to certify net worth and validate the account." } },
-            { "@type": "Question", "name": "Does the certificate format differ by state RERA?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. While the RERA Act, 2016 is central, each state RERA authority prescribes its own forms and certificate formats. For example, MahaRERA uses Form A and Form B with a Format A declaration, and Karnataka RERA has a notified CA certificate format. Patron Accounting prepares the certificate in the format your specific state authority expects, including MahaRERA for Mumbai projects." } }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/mumbai",
-        "name": "Net Worth Certificate for RERA Registration",
-        "description": "CA-certified promoter net worth certificate for RERA project registration under the RERA Act 2016, with 3-year financials review. From INR 7,999.",
-        "url": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/mumbai",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/mumbai/#service" },
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/mumbai/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How to Obtain a Net Worth Certificate for RERA Registration",
-        "description": "Five steps to obtain a CA promoter net worth certificate for RERA: engagement, document submission, verification, net worth and Separate Bank Account validation, and certification with UDIN.",
-        "totalTime": "P5D",
-        "step": [
-            { "@type": "HowToStep", "name": "Engagement", "text": "Confirm the state RERA authority, the project and the promoter entity type." },
-            { "@type": "HowToStep", "name": "Document submission", "text": "Share ITRs and financial statements for 3 years, PAN, project details and the Separate Bank Account cheque." },
-            { "@type": "HowToStep", "name": "Verification", "text": "The CA verifies assets, liabilities and the SBA setup under SA 500 (Audit Evidence)." },
-            { "@type": "HowToStep", "name": "Net worth and SBA validation", "text": "The CA certifies the promoter net worth and confirms the 70 percent account under Section 4(2)(l)(D)." },
-            { "@type": "HowToStep", "name": "Certification and UDIN", "text": "The CA signs, seals and generates the UDIN, issuing the certificate for the RERA application." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Net Worth Certificate for RERA Registration Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Promoter", "description": "The builder or developer registering the real estate project with the RERA authority." },
-            { "@type": "DefinedTerm", "name": "Separate Bank Account (SBA)", "description": "The designated account holding 70 percent of allottee funds under Section 4(2)(l)(D)." },
-            { "@type": "DefinedTerm", "name": "Form 3", "description": "The CA certificate for withdrawal of funds from the Separate Bank Account in proportion to project completion." },
-            { "@type": "DefinedTerm", "name": "Form 5", "description": "The CA annual audit certificate on project fund utilisation, due within six months of the financial year end." },
-            { "@type": "DefinedTerm", "name": "Net worth", "description": "The promoter's total assets minus liabilities, certified to show financial standing at registration." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -754,7 +620,146 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Net Worth Certificate for RERA Registration in Mumbai 2026 | Patron Accounting</title>
+    <meta name="description" content="CA-certified promoter net worth certificate for RERA project registration under the RERA Act 2016, with 3-year financials review. From INR 7,999.">
+    <link rel="canonical" href="/net-worth-certificate-for-rera-registration/mumbai">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Net Worth Certificate for RERA Registration 2026 | Patron Accounting">
+    <meta property="og:description" content="CA-certified promoter net worth certificate for RERA project registration under the RERA Act 2016, with 3-year financials review. From INR 7,999.">
+    <meta property="og:url" content="/net-worth-certificate-for-rera-registration/mumbai">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Net Worth Certificate for RERA Registration 2026 | Patron Accounting">
+    <meta name="twitter:description" content="CA-certified promoter net worth certificate for RERA project registration under the RERA Act 2016, with 3-year financials review. From INR 7,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/mumbai/#service",
+        "name": "Net Worth Certificate for RERA Registration",
+        "description": "CA-certified promoter net worth certificate for RERA project registration under the Real Estate (Regulation and Development) Act 2016, with a review of three years of financials and validation of the 70 percent Separate Bank Account under Section 4(2)(l)(D), issued with a mandatory UDIN.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/mumbai" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Net worth", "sameAs": "https://en.wikipedia.org/wiki/Net_worth" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Net Worth Certificate for RERA Registration Service Plans",
+            "itemListElement": [
+                { "@type": "Offer", "name": "Net Worth Certificate for RERA Registration (UDIN-verified)", "priceCurrency": "INR", "price": "7999", "description": "CA-certified promoter net worth with a review of three years of financials and validation of the 70 percent Separate Bank Account under Section 4(2)(l)(D), in the state RERA format, with a UDIN." }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/mumbai/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
+            { "@type": "ListItem", "position": 3, "name": "Net Worth Certificate for RERA Registration", "item": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/mumbai" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/mumbai/#faq",
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "mainEntity": [
+            { "@type": "Question", "name": "Is a net worth certificate required for RERA registration?", "acceptedAnswer": { "@type": "Answer", "text": "A CA certificate is mandatory for RERA project registration, and the promoter must submit a statement of assets and liabilities showing net worth, along with financial statements for the last three years. Without the CA certification, the project cannot be registered. The certificate demonstrates the promoter's financial standing to the state RERA authority and supports the project's credibility with allottees." } },
+            { "@type": "Question", "name": "What is the 70 percent rule under RERA?", "acceptedAnswer": { "@type": "Answer", "text": "Section 4(2)(l)(D) of the RERA Act, 2016 requires the promoter to deposit 70 percent of the amounts realised from allottees into a Separate Bank Account maintained in a scheduled bank. These funds can only be used for construction and land cost of that project, and can be withdrawn in proportion to the percentage of completion, certified by an architect, an engineer and a Chartered Accountant." } },
+            { "@type": "Question", "name": "What is the difference between Form 3 and Form 5 under RERA?", "acceptedAnswer": { "@type": "Answer", "text": "Form 3 is the CA certificate for withdrawal of funds from the Separate Bank Account, certifying the cost incurred and the proportion to total estimated project cost. Form 5 is the CA annual audit certificate on project fund utilisation, which the promoter must obtain within six months after the end of every financial year. Both are issued by a practising Chartered Accountant." } },
+            { "@type": "Question", "name": "Can the same CA certify and audit a RERA project?", "acceptedAnswer": { "@type": "Answer", "text": "No. Under RERA, the Chartered Accountant who issues certificates at registration or for withdrawals becomes a representative of the promoter and cannot also perform the project audit. The certification and audit roles must be handled by two distinct CAs. Patron Accounting keeps these roles separate so your RERA compliance stays valid and free of conflict." } },
+            { "@type": "Question", "name": "How much does a RERA net worth certificate cost?", "acceptedAnswer": { "@type": "Answer", "text": "At Patron Accounting, a RERA net worth certificate starts from Rs 7,999 (exclusive of GST and government charges). The fee reflects the review of three years of audited financials, the promoter net worth certification, and the Separate Bank Account validation that RERA registration requires. Final fees are confirmed after a review of your financials and the project scope." } },
+            { "@type": "Question", "name": "Which documents are needed for RERA registration financials?", "acceptedAnswer": { "@type": "Answer", "text": "The promoter needs the firm or company PAN, Income Tax Returns and financial statements for the last three years, the audited balance sheet and profit and loss account, details of past projects in the last five years, and a copy of the cheque for the Separate Bank Account opened for the project. The CA reviews these to certify net worth and validate the account." } },
+            { "@type": "Question", "name": "Does the certificate format differ by state RERA?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. While the RERA Act, 2016 is central, each state RERA authority prescribes its own forms and certificate formats. For example, MahaRERA uses Form A and Form B with a Format A declaration, and Karnataka RERA has a notified CA certificate format. Patron Accounting prepares the certificate in the format your specific state authority expects, including MahaRERA for Mumbai projects." } }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/mumbai",
+        "name": "Net Worth Certificate for RERA Registration",
+        "description": "CA-certified promoter net worth certificate for RERA project registration under the RERA Act 2016, with 3-year financials review. From INR 7,999.",
+        "url": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/mumbai",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/mumbai/#service" },
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/mumbai/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Obtain a Net Worth Certificate for RERA Registration",
+        "description": "Five steps to obtain a CA promoter net worth certificate for RERA: engagement, document submission, verification, net worth and Separate Bank Account validation, and certification with UDIN.",
+        "totalTime": "P5D",
+        "step": [
+            { "@type": "HowToStep", "name": "Engagement", "text": "Confirm the state RERA authority, the project and the promoter entity type." },
+            { "@type": "HowToStep", "name": "Document submission", "text": "Share ITRs and financial statements for 3 years, PAN, project details and the Separate Bank Account cheque." },
+            { "@type": "HowToStep", "name": "Verification", "text": "The CA verifies assets, liabilities and the SBA setup under SA 500 (Audit Evidence)." },
+            { "@type": "HowToStep", "name": "Net worth and SBA validation", "text": "The CA certifies the promoter net worth and confirms the 70 percent account under Section 4(2)(l)(D)." },
+            { "@type": "HowToStep", "name": "Certification and UDIN", "text": "The CA signs, seals and generates the UDIN, issuing the certificate for the RERA application." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Net Worth Certificate for RERA Registration Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Promoter", "description": "The builder or developer registering the real estate project with the RERA authority." },
+            { "@type": "DefinedTerm", "name": "Separate Bank Account (SBA)", "description": "The designated account holding 70 percent of allottee funds under Section 4(2)(l)(D)." },
+            { "@type": "DefinedTerm", "name": "Form 3", "description": "The CA certificate for withdrawal of funds from the Separate Bank Account in proportion to project completion." },
+            { "@type": "DefinedTerm", "name": "Form 5", "description": "The CA annual audit certificate on project fund utilisation, due within six months of the financial year end." },
+            { "@type": "DefinedTerm", "name": "Net worth", "description": "The promoter's total assets minus liabilities, certified to show financial standing at registration." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1485,22 +1490,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
-<!-- ============================================
-     CONSULTATION FORM - Country Dropdown + Validation + Bigin Integration
-     ============================================ -->
-{{-- Enquiry form markup + JS now in partials/enquiry-form.blade.php --}}
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1523,8 +1516,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1561,7 +1552,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (stable, not live date)
 (function(){
@@ -1572,3 +1562,24 @@ window.addEventListener('scroll', function() {
     if(el2)el2.textContent=dateStr;
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+<!-- ============================================
+     CONSULTATION FORM - Country Dropdown + Validation + Bigin Integration
+     ============================================ -->
+{{-- Enquiry form markup + JS now in partials/enquiry-form.blade.php --}}
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

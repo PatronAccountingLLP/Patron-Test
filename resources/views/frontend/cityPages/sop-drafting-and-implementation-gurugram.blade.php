@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,213 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>SOP Drafting in Gurugram 2026 | Patron Accounting</title>
-    <meta name="description" content="Stop guesswork on payouts and approvals. CA-built finance SOPs, approval grids, and IFC for Cyber City and Manesar firms. From INR 24,999 one-time.">
-    <link rel="canonical" href="/sop-drafting-and-implementation/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="SOP Drafting in Gurugram 2026 | Patron Accounting">
-    <meta property="og:description" content="Stop guesswork on payouts and approvals. CA-built finance SOPs, approval grids, and IFC for Cyber City and Manesar firms. From INR 24,999 one-time.">
-    <meta property="og:url" content="/sop-drafting-and-implementation/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="SOP Drafting in Gurugram 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Stop guesswork on payouts and approvals. CA-built finance SOPs, approval grids, and IFC for Cyber City and Manesar firms. From INR 24,999 one-time.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/sop-drafting-and-implementation/gurugram#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "SOP Drafting and Implementation",
-          "item": "https://www.patronaccounting.com/sop-drafting-and-implementation"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "SOP Drafting and Implementation in Gurugram",
-          "item": "https://www.patronaccounting.com/sop-drafting-and-implementation/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/sop-drafting-and-implementation/gurugram#faq",
-      "datePublished": "2026-06-23T08:00:00+05:30",
-      "dateModified": "2026-06-23T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Why does a scaling Gurugram company need finance SOPs?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A finance SOP puts in writing how an accounting task runs, who starts it, and who approves it. For a Cyber City ITES firm or a Manesar auto-ancillary maker the set installs maker-checker review, real duty separation, and a repeatable close, so the finance function stays solid as staff and transaction volumes rise."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What does an SOP engagement cost in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Work begins From INR 24,999 (one-time, Exl GST and Govt. Charges). The figure follows the process count, team size, approval layers, and the platform you run. Cyber City SaaS firms and Manesar manufacturers get a fixed-scope quote before any drafting starts, so the cost is agreed up front rather than after the fact."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does maker-checker function inside an SOP?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "It means whoever raises an entry, the maker, cannot also authorise or post it, the checker handles that. We build it into every Gurugram SOP via approval grids and duty separation across custody, authorisation, recording, and reconciliation, so no single person can carry a transaction the whole way through."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Must private companies in Gurugram keep IFC in place?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Section 134(5)(e) of the Companies Act 2013 requires the board to confirm adequate internal financial controls. The auditor's reporting under Section 143(3)(i) is relaxed for One Person and small companies, and for private companies under INR 50 crore turnover and INR 25 crore borrowings, per MCA notification GSR 583(E)."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can SOPs handle marketplace and D2C payout reconciliation in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, and it is a frequent need for MG Road and Sohna Road brands. We write settlement-reconciliation SOPs that tie gateway and marketplace reports to the bank before revenue is recognised, with maker-checker review on refunds and chargebacks. We also document procurement, payroll, GST reconciliation, and the close, each with controls and limits."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How soon can an SOP project finish in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The core set normally takes 2 to 4 weeks to draft, with go-live and coaching adding 2 to 6 more. A multi-entity Manesar manufacturer with layered approvals sits at the longer end, while a single-entity Cyber City SaaS firm finishes faster. Process count and the software in use both affect the timing."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What most often keeps an SOP from working?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Usually shared passwords. Once logins are swapped, system controls are bypassed and one person ends up filling both maker and checker roles, which defeats duty separation. We prevent it with individual credentials, an enforced approval grid, and a strict no-sharing policy established during go-live and coaching."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Where do Gurugram firms file, and do SOPs track the key dates?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Gurugram falls under Haryana GST, while company filings route through the shared RoC Delhi. We build GST returns, TDS, PF, and ESI dates into the SOP calendar and the close checklist, each gated by a checker before filing. That cuts missed deadlines and leaves a clean trail for the Haryana GST authorities and RoC Delhi."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/sop-drafting-and-implementation/gurugram#service",
-      "name": "SOP Drafting and Implementation in Gurugram",
-      "description": "Finance and accounting SOP drafting and implementation in Gurugram. Patron Accounting documents procure-to-pay, order-to-cash, payroll, and month-end close processes with maker-checker controls, approval matrices, internal financial controls, and segregation of duties for growing Cyber City, Udyog Vihar, Manesar, and MG Road SMEs.",
-      "serviceType": "Finance SOP Drafting and Internal Financial Controls Implementation",
-      "url": "https://www.patronaccounting.com/sop-drafting-and-implementation/gurugram",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#localbusiness-gurugram"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Standard operating procedure",
-          "sameAs": "https://en.wikipedia.org/wiki/Standard_operating_procedure"
-        },
-        {
-          "@type": "Thing",
-          "name": "Internal control",
-          "sameAs": "https://en.wikipedia.org/wiki/Internal_control"
-        },
-        {
-          "@type": "Thing",
-          "name": "Separation of duties",
-          "sameAs": "https://en.wikipedia.org/wiki/Separation_of_duties"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Finance SOP Plans in Gurugram",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "price": "24999",
-            "priceSpecification": {
-              "@type": "UnitPriceSpecification",
-              "priceCurrency": "INR",
-              "price": "24999",
-              "unitText": "one-time"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Finance SOP Drafting and Implementation"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness-gurugram",
-      "name": "Patron Accounting LLP - Gurugram",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/sop-drafting-and-implementation/gurugram",
-      "telephone": "+91-969-993-6369",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Gurugram",
-        "addressRegion": "Haryana",
-        "postalCode": "122002",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -820,7 +612,222 @@
         .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
 
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>SOP Drafting in Gurugram 2026 | Patron Accounting</title>
+    <meta name="description" content="Stop guesswork on payouts and approvals. CA-built finance SOPs, approval grids, and IFC for Cyber City and Manesar firms. From INR 24,999 one-time.">
+    <link rel="canonical" href="/sop-drafting-and-implementation/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="SOP Drafting in Gurugram 2026 | Patron Accounting">
+    <meta property="og:description" content="Stop guesswork on payouts and approvals. CA-built finance SOPs, approval grids, and IFC for Cyber City and Manesar firms. From INR 24,999 one-time.">
+    <meta property="og:url" content="/sop-drafting-and-implementation/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="SOP Drafting in Gurugram 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Stop guesswork on payouts and approvals. CA-built finance SOPs, approval grids, and IFC for Cyber City and Manesar firms. From INR 24,999 one-time.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/sop-drafting-and-implementation/gurugram#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SOP Drafting and Implementation",
+          "item": "https://www.patronaccounting.com/sop-drafting-and-implementation"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "SOP Drafting and Implementation in Gurugram",
+          "item": "https://www.patronaccounting.com/sop-drafting-and-implementation/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/sop-drafting-and-implementation/gurugram#faq",
+      "datePublished": "2026-06-23T08:00:00+05:30",
+      "dateModified": "2026-06-23T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does a scaling Gurugram company need finance SOPs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A finance SOP puts in writing how an accounting task runs, who starts it, and who approves it. For a Cyber City ITES firm or a Manesar auto-ancillary maker the set installs maker-checker review, real duty separation, and a repeatable close, so the finance function stays solid as staff and transaction volumes rise."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does an SOP engagement cost in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Work begins From INR 24,999 (one-time, Exl GST and Govt. Charges). The figure follows the process count, team size, approval layers, and the platform you run. Cyber City SaaS firms and Manesar manufacturers get a fixed-scope quote before any drafting starts, so the cost is agreed up front rather than after the fact."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does maker-checker function inside an SOP?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It means whoever raises an entry, the maker, cannot also authorise or post it, the checker handles that. We build it into every Gurugram SOP via approval grids and duty separation across custody, authorisation, recording, and reconciliation, so no single person can carry a transaction the whole way through."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Must private companies in Gurugram keep IFC in place?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Section 134(5)(e) of the Companies Act 2013 requires the board to confirm adequate internal financial controls. The auditor's reporting under Section 143(3)(i) is relaxed for One Person and small companies, and for private companies under INR 50 crore turnover and INR 25 crore borrowings, per MCA notification GSR 583(E)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can SOPs handle marketplace and D2C payout reconciliation in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, and it is a frequent need for MG Road and Sohna Road brands. We write settlement-reconciliation SOPs that tie gateway and marketplace reports to the bank before revenue is recognised, with maker-checker review on refunds and chargebacks. We also document procurement, payroll, GST reconciliation, and the close, each with controls and limits."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How soon can an SOP project finish in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The core set normally takes 2 to 4 weeks to draft, with go-live and coaching adding 2 to 6 more. A multi-entity Manesar manufacturer with layered approvals sits at the longer end, while a single-entity Cyber City SaaS firm finishes faster. Process count and the software in use both affect the timing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What most often keeps an SOP from working?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Usually shared passwords. Once logins are swapped, system controls are bypassed and one person ends up filling both maker and checker roles, which defeats duty separation. We prevent it with individual credentials, an enforced approval grid, and a strict no-sharing policy established during go-live and coaching."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where do Gurugram firms file, and do SOPs track the key dates?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gurugram falls under Haryana GST, while company filings route through the shared RoC Delhi. We build GST returns, TDS, PF, and ESI dates into the SOP calendar and the close checklist, each gated by a checker before filing. That cuts missed deadlines and leaves a clean trail for the Haryana GST authorities and RoC Delhi."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/sop-drafting-and-implementation/gurugram#service",
+      "name": "SOP Drafting and Implementation in Gurugram",
+      "description": "Finance and accounting SOP drafting and implementation in Gurugram. Patron Accounting documents procure-to-pay, order-to-cash, payroll, and month-end close processes with maker-checker controls, approval matrices, internal financial controls, and segregation of duties for growing Cyber City, Udyog Vihar, Manesar, and MG Road SMEs.",
+      "serviceType": "Finance SOP Drafting and Internal Financial Controls Implementation",
+      "url": "https://www.patronaccounting.com/sop-drafting-and-implementation/gurugram",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#localbusiness-gurugram"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Standard operating procedure",
+          "sameAs": "https://en.wikipedia.org/wiki/Standard_operating_procedure"
+        },
+        {
+          "@type": "Thing",
+          "name": "Internal control",
+          "sameAs": "https://en.wikipedia.org/wiki/Internal_control"
+        },
+        {
+          "@type": "Thing",
+          "name": "Separation of duties",
+          "sameAs": "https://en.wikipedia.org/wiki/Separation_of_duties"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Finance SOP Plans in Gurugram",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "price": "24999",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "INR",
+              "price": "24999",
+              "unitText": "one-time"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Finance SOP Drafting and Implementation"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness-gurugram",
+      "name": "Patron Accounting LLP - Gurugram",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/sop-drafting-and-implementation/gurugram",
+      "telephone": "+91-969-993-6369",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Gurugram",
+        "addressRegion": "Haryana",
+        "postalCode": "122002",
+        "addressCountry": "IN"
+      },
+      "parentOrganization": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1571,7 +1578,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

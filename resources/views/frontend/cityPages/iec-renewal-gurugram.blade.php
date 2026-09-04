@@ -1,161 +1,12 @@
 
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>IEC Code Renewal Gurugram - DGFT Process & Deadline</title>
-    <meta name="description" content="IEC renewal in Gurugram. Mandatory annual update April-June. Avoid deactivation. Free confirmation on DGFT portal. Call +91 945 945 6700.">
-    <link rel="canonical" href="/iec-renewal/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="IEC Code Renewal Gurugram - DGFT Process & Deadline">
-    <meta property="og:description" content="IEC renewal in Gurugram. Mandatory annual update April-June. Avoid deactivation. Free confirmation on DGFT portal. Call +91 945 945 6700.">
-    <meta property="og:url" content="/iec-renewal/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="IEC Code Renewal Gurugram - DGFT Process & Deadline">
-    <meta name="twitter:description" content="IEC renewal in Gurugram. Mandatory annual update April-June. Avoid deactivation. Free confirmation on DGFT portal. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "IEC Renewal in Gurugram | Annual DGFT Update",
-      "description": "IEC renewal in Gurugram. Mandatory annual update April-June. Avoid deactivation. Free confirmation on DGFT portal. Call +91 945 945 6700.",
-      "url": "https://www.patronaccounting.com/iec-renewal/gurugram",
-      "serviceType": "IEC Renewal in Gurugram | Annual DGFT Update",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/iec-renewal/gurugram",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "minPrice": "200",
-          "maxPrice": "999",
-          "priceCurrency": "INR"
-        }
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "IEC Renewal: Deadline and Process",
-          "item": "https://www.patronaccounting.com/iec-renewal"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "IEC Renewal in Gurugram | Annual DGFT Update",
-          "item": "https://www.patronaccounting.com/iec-renewal/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "When must IEC be updated annually?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Every year between April 1 and June 30 on the DGFT portal (dgft.gov.in). This is mandatory for ALL IEC holders - active or dormant - even if absolutely no details have changed. If the June 30 deadline is missed, the IEC is automatically deactivated on July 1, blocking all import and export operations until the pending update is completed."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does IEC renewal cost?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Government fee: FREE for confirmation (no changes). Rs 200 + GST if details are modified. Professional fee: Rs 999 to Rs 2,999. Annual export compliance bundle (IEC + AD Code + GST LUT): Rs 2,999 to Rs 4,999. Call +91 945 945 6700 for a detailed quote."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens if I miss the June 30 deadline?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. Update AD Code and GST LUT: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do I need to update even if nothing has changed?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. The annual confirmation is mandatory even with zero changes. Login to dgft.gov.in, review each section (general info, directors, bank details, contact), confirm, authenticate with Aadhaar OTP or DSC, and submit. The process takes 5 minutes. It is free (no government fee). No documents are needed for a simple confirmation."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do I reactivate a deactivated IEC?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Login to dgft.gov.in, navigate to the IEC update section, complete the pending annual update (review and confirm all sections), authenticate with Aadhaar OTP or DSC, and submit. Reactivation is typically immediate. Verify on ICEGATE that your IEC shows active status. Then resume filing Shipping Bills and Bills of Entry."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What export incentives are blocked by deactivated IEC?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "RoDTEP (Remission of Duties and Taxes on Exported Products), duty drawback, IGST refund on exports, and all DGFT scheme benefits. Banks may also refuse trade-related forex transactions until IEC is reactivated. For Gurugram manufacturers, these incentives can be Rs 8-15 lakh annually - all blocked by a missed 5-minute update."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is IEC renewal the same as IEC registration?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. IEC registration is a one-time process for obtaining a new Import Export Code from DGFT. IEC renewal (annual update) is the mandatory yearly confirmation of existing IEC details on the DGFT portal. IEC has lifetime validity and never expires, but it must be confirmed annually between April 1 and June 30 to remain active. They are separate compliance requirements. Quick Answers Kab update karna hai? Har saal April 1 se June 30 ke beech DGFT portal pe. Deadline miss kari toh July 1 ko IEC deactivate ho jayega. April ke pehle hafte mein kar lo - 5 minute lagta hai. Kuch badla nahi toh bhi karna hai? Haan. Mandatory hai. Sirf login karo, har section confirm karo, submit karo. Free hai. Koi document nahi chahiye. Bas Aadhaar OTP ya DSC se sign karo. Deactivate ho gaya toh? DGFT portal pe jao, pending update complete karo, submit karo. Turant reactivate ho jayega. Lekin jab tak deactivated hai, koi import-export nahi ho sakta."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -679,7 +530,161 @@ section ul li:not(.nav-item) { font-size: 14px; }
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'Join Community'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>IEC Code Renewal Gurugram - DGFT Process & Deadline</title>
+    <meta name="description" content="IEC renewal in Gurugram. Mandatory annual update April-June. Avoid deactivation. Free confirmation on DGFT portal. Call +91 945 945 6700.">
+    <link rel="canonical" href="/iec-renewal/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="IEC Code Renewal Gurugram - DGFT Process & Deadline">
+    <meta property="og:description" content="IEC renewal in Gurugram. Mandatory annual update April-June. Avoid deactivation. Free confirmation on DGFT portal. Call +91 945 945 6700.">
+    <meta property="og:url" content="/iec-renewal/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="IEC Code Renewal Gurugram - DGFT Process & Deadline">
+    <meta name="twitter:description" content="IEC renewal in Gurugram. Mandatory annual update April-June. Avoid deactivation. Free confirmation on DGFT portal. Call +91 945 945 6700.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "IEC Renewal in Gurugram | Annual DGFT Update",
+      "description": "IEC renewal in Gurugram. Mandatory annual update April-June. Avoid deactivation. Free confirmation on DGFT portal. Call +91 945 945 6700.",
+      "url": "https://www.patronaccounting.com/iec-renewal/gurugram",
+      "serviceType": "IEC Renewal in Gurugram | Annual DGFT Update",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.patronaccounting.com/iec-renewal/gurugram",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": "200",
+          "maxPrice": "999",
+          "priceCurrency": "INR"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "IEC Renewal: Deadline and Process",
+          "item": "https://www.patronaccounting.com/iec-renewal"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "IEC Renewal in Gurugram | Annual DGFT Update",
+          "item": "https://www.patronaccounting.com/iec-renewal/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "When must IEC be updated annually?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Every year between April 1 and June 30 on the DGFT portal (dgft.gov.in). This is mandatory for ALL IEC holders - active or dormant - even if absolutely no details have changed. If the June 30 deadline is missed, the IEC is automatically deactivated on July 1, blocking all import and export operations until the pending update is completed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does IEC renewal cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Government fee: FREE for confirmation (no changes). Rs 200 + GST if details are modified. Professional fee: Rs 999 to Rs 2,999. Annual export compliance bundle (IEC + AD Code + GST LUT): Rs 2,999 to Rs 4,999. Call +91 945 945 6700 for a detailed quote."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if I miss the June 30 deadline?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. Update AD Code and GST LUT: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need to update even if nothing has changed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The annual confirmation is mandatory even with zero changes. Login to dgft.gov.in, review each section (general info, directors, bank details, contact), confirm, authenticate with Aadhaar OTP or DSC, and submit. The process takes 5 minutes. It is free (no government fee). No documents are needed for a simple confirmation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I reactivate a deactivated IEC?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Login to dgft.gov.in, navigate to the IEC update section, complete the pending annual update (review and confirm all sections), authenticate with Aadhaar OTP or DSC, and submit. Reactivation is typically immediate. Verify on ICEGATE that your IEC shows active status. Then resume filing Shipping Bills and Bills of Entry."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What export incentives are blocked by deactivated IEC?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "RoDTEP (Remission of Duties and Taxes on Exported Products), duty drawback, IGST refund on exports, and all DGFT scheme benefits. Banks may also refuse trade-related forex transactions until IEC is reactivated. For Gurugram manufacturers, these incentives can be Rs 8-15 lakh annually - all blocked by a missed 5-minute update."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is IEC renewal the same as IEC registration?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. IEC registration is a one-time process for obtaining a new Import Export Code from DGFT. IEC renewal (annual update) is the mandatory yearly confirmation of existing IEC details on the DGFT portal. IEC has lifetime validity and never expires, but it must be confirmed annually between April 1 and June 30 to remain active. They are separate compliance requirements. Quick Answers Kab update karna hai? Har saal April 1 se June 30 ke beech DGFT portal pe. Deadline miss kari toh July 1 ko IEC deactivate ho jayega. April ke pehle hafte mein kar lo - 5 minute lagta hai. Kuch badla nahi toh bhi karna hai? Haan. Mandatory hai. Sirf login karo, har section confirm karo, submit karo. Free hai. Koi document nahi chahiye. Bas Aadhaar OTP ya DSC se sign karo. Deactivate ho gaya toh? DGFT portal pe jao, pending update complete karo, submit karo. Turant reactivate ho jayega. Lekin jab tak deactivated hai, koi import-export nahi ho sakta."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1604,7 +1609,6 @@ var tocWrapper=document.getElementById('tocWrapper');document.getElementById('to
 
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

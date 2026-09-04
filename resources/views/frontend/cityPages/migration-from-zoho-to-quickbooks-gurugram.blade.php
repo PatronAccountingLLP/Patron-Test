@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,208 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>Zoho-QuickBooks Migration Gurugram 2026 | Patron Accounting</title>
-    <meta name="description" content="Zoho Books to QuickBooks Online migration in Gurugram from INR 9,999. CA-led re-map, GST rebuild, trial balance match for Cyber City and Manesar.">
-    <link rel="canonical" href="/migration-from-zoho-to-quickbooks/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Zoho-QuickBooks Migration Gurugram 2026 | Patron Accounting">
-    <meta property="og:description" content="Zoho Books to QuickBooks Online migration in Gurugram from INR 9,999. CA-led re-map, GST rebuild, trial balance match for Cyber City and Manesar.">
-    <meta property="og:url" content="/migration-from-zoho-to-quickbooks/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Zoho-QuickBooks Migration Gurugram 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Zoho Books to QuickBooks Online migration in Gurugram from INR 9,999. CA-led re-map, GST rebuild, trial balance match for Cyber City and Manesar.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/migration-from-zoho-to-quickbooks/gurugram#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Zoho to QuickBooks Migration",
-          "item": "https://www.patronaccounting.com/migration-from-zoho-to-quickbooks"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Zoho to QuickBooks Migration in Gurugram",
-          "item": "https://www.patronaccounting.com/migration-from-zoho-to-quickbooks/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/migration-from-zoho-to-quickbooks/gurugram#faq",
-      "datePublished": "2026-06-23T08:00:00+05:30",
-      "dateModified": "2026-06-23T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What does a Zoho Books to QuickBooks Online migration involve in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "For a Gurugram entity it is a controlled transfer from Zoho Books to QuickBooks Online with the audit trail kept whole. Patron exports masters and transactions, rebuilds the chart of accounts, loads opening balances, sets up India GST and GSTIN, and verifies that the QuickBooks trial balance matches the closing Zoho figure before a CA signs off."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does Zoho to QuickBooks migration cost in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Fees start at Starting from INR 9,999 (Exl GST and Govt. Charges). The total depends on the years of history moved, the count of GSTINs and ledgers, and whether you take opening balances only or the full transaction set. A Cyber City ITES firm or a Manesar manufacturer receives a fixed-scope quote before work starts."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does my Zoho Books history and GST setup transfer to QuickBooks?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Contacts, suppliers, items, the chart of accounts, and prior invoices and bills move into QuickBooks Online, and we rebuild GST rates, place-of-supply rules, and GSTIN details there. GSTR-1 and GSTR-3B you have filed remain on the GST portal, while QuickBooks output is aligned to those formats so Gurugram filings keep reconciling cleanly."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why do Gurugram subsidiaries of US parents move to QuickBooks?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Most US-headquartered groups already run QuickBooks Online at the parent. When the Gurugram India subsidiary joins the same platform, the group consolidates from one chart of accounts, and the finance team in Cyber City or on Sohna Road no longer re-keys Zoho figures into the holding company file each close."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does a Zoho to QuickBooks migration take in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A single-GSTIN Cyber City ITES firm moving opening balances only is usually live in 5 to 7 working days. A Manesar manufacturer carrying one to two years of history with inventory and several GSTINs typically takes 3 to 6 weeks. The timeline depends on how clean the Zoho Books data is and how quickly exports are shared."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is the trial balance reconciled after a Gurugram migration?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Always. We set the closing Zoho Books trial balance beside the opening QuickBooks Online trial balance, compare account by account, and post adjustments until they agree. A Patron CA signs the migration off only after debits equal credits and the two systems tally to the rupee."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you rebuild GST rates and HSN or SAC codes in QuickBooks?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. QuickBooks Online India supports GST, so we reconstruct CGST, SGST, and IGST combinations, set place-of-supply defaults, and tag HSN or SAC codes on items. Because Gurugram sits under Haryana GST, we configure the correct state place-of-supply, plus zero-rated and reverse-charge handling, so invoices comply under the CGST Act 2017."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Will the Gurugram team face downtime during the switch?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Practically none. We choose a clean cut-over at a month or quarter close and keep Zoho Books open read-only for reference while QuickBooks Online is built and checked. The Gurugram team starts posting in QuickBooks only after the trial balance reconciles, so billing and GST filing keep running."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/migration-from-zoho-to-quickbooks/gurugram#service",
-      "name": "Zoho to QuickBooks Migration in Gurugram",
-      "description": "Zoho Books to QuickBooks Online migration in Gurugram covering data export, chart-of-accounts re-mapping, opening balances, masters, historical transactions, India GST configuration, and trial balance reconciliation. Patron Accounting moves Cyber City, Udyog Vihar, and Manesar entities onto QuickBooks for clean group reporting.",
-      "serviceType": "Zoho Books to QuickBooks Online Migration",
-      "url": "https://www.patronaccounting.com/migration-from-zoho-to-quickbooks/gurugram",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#localbusiness-gurugram"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "QuickBooks",
-          "sameAs": "https://en.wikipedia.org/wiki/QuickBooks"
-        },
-        {
-          "@type": "Thing",
-          "name": "Goods and Services Tax (India)",
-          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Zoho to QuickBooks Migration Plans in Gurugram",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "price": "9999",
-            "priceSpecification": {
-              "@type": "UnitPriceSpecification",
-              "priceCurrency": "INR",
-              "price": "9999",
-              "unitText": "starting migration fee"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Zoho Books to QuickBooks Online Migration"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness-gurugram",
-      "name": "Patron Accounting LLP - Gurugram",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/migration-from-zoho-to-quickbooks/gurugram",
-      "telephone": "+91-9699936369",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Gurugram",
-        "addressRegion": "Haryana",
-        "postalCode": "122002",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -815,7 +612,217 @@
         .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
 
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>Zoho-QuickBooks Migration Gurugram 2026 | Patron Accounting</title>
+    <meta name="description" content="Zoho Books to QuickBooks Online migration in Gurugram from INR 9,999. CA-led re-map, GST rebuild, trial balance match for Cyber City and Manesar.">
+    <link rel="canonical" href="/migration-from-zoho-to-quickbooks/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Zoho-QuickBooks Migration Gurugram 2026 | Patron Accounting">
+    <meta property="og:description" content="Zoho Books to QuickBooks Online migration in Gurugram from INR 9,999. CA-led re-map, GST rebuild, trial balance match for Cyber City and Manesar.">
+    <meta property="og:url" content="/migration-from-zoho-to-quickbooks/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Zoho-QuickBooks Migration Gurugram 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Zoho Books to QuickBooks Online migration in Gurugram from INR 9,999. CA-led re-map, GST rebuild, trial balance match for Cyber City and Manesar.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/migration-from-zoho-to-quickbooks/gurugram#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Zoho to QuickBooks Migration",
+          "item": "https://www.patronaccounting.com/migration-from-zoho-to-quickbooks"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Zoho to QuickBooks Migration in Gurugram",
+          "item": "https://www.patronaccounting.com/migration-from-zoho-to-quickbooks/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/migration-from-zoho-to-quickbooks/gurugram#faq",
+      "datePublished": "2026-06-23T08:00:00+05:30",
+      "dateModified": "2026-06-23T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does a Zoho Books to QuickBooks Online migration involve in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For a Gurugram entity it is a controlled transfer from Zoho Books to QuickBooks Online with the audit trail kept whole. Patron exports masters and transactions, rebuilds the chart of accounts, loads opening balances, sets up India GST and GSTIN, and verifies that the QuickBooks trial balance matches the closing Zoho figure before a CA signs off."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does Zoho to QuickBooks migration cost in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fees start at Starting from INR 9,999 (Exl GST and Govt. Charges). The total depends on the years of history moved, the count of GSTINs and ledgers, and whether you take opening balances only or the full transaction set. A Cyber City ITES firm or a Manesar manufacturer receives a fixed-scope quote before work starts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does my Zoho Books history and GST setup transfer to QuickBooks?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Contacts, suppliers, items, the chart of accounts, and prior invoices and bills move into QuickBooks Online, and we rebuild GST rates, place-of-supply rules, and GSTIN details there. GSTR-1 and GSTR-3B you have filed remain on the GST portal, while QuickBooks output is aligned to those formats so Gurugram filings keep reconciling cleanly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why do Gurugram subsidiaries of US parents move to QuickBooks?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most US-headquartered groups already run QuickBooks Online at the parent. When the Gurugram India subsidiary joins the same platform, the group consolidates from one chart of accounts, and the finance team in Cyber City or on Sohna Road no longer re-keys Zoho figures into the holding company file each close."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does a Zoho to QuickBooks migration take in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A single-GSTIN Cyber City ITES firm moving opening balances only is usually live in 5 to 7 working days. A Manesar manufacturer carrying one to two years of history with inventory and several GSTINs typically takes 3 to 6 weeks. The timeline depends on how clean the Zoho Books data is and how quickly exports are shared."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the trial balance reconciled after a Gurugram migration?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Always. We set the closing Zoho Books trial balance beside the opening QuickBooks Online trial balance, compare account by account, and post adjustments until they agree. A Patron CA signs the migration off only after debits equal credits and the two systems tally to the rupee."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you rebuild GST rates and HSN or SAC codes in QuickBooks?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. QuickBooks Online India supports GST, so we reconstruct CGST, SGST, and IGST combinations, set place-of-supply defaults, and tag HSN or SAC codes on items. Because Gurugram sits under Haryana GST, we configure the correct state place-of-supply, plus zero-rated and reverse-charge handling, so invoices comply under the CGST Act 2017."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will the Gurugram team face downtime during the switch?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Practically none. We choose a clean cut-over at a month or quarter close and keep Zoho Books open read-only for reference while QuickBooks Online is built and checked. The Gurugram team starts posting in QuickBooks only after the trial balance reconciles, so billing and GST filing keep running."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/migration-from-zoho-to-quickbooks/gurugram#service",
+      "name": "Zoho to QuickBooks Migration in Gurugram",
+      "description": "Zoho Books to QuickBooks Online migration in Gurugram covering data export, chart-of-accounts re-mapping, opening balances, masters, historical transactions, India GST configuration, and trial balance reconciliation. Patron Accounting moves Cyber City, Udyog Vihar, and Manesar entities onto QuickBooks for clean group reporting.",
+      "serviceType": "Zoho Books to QuickBooks Online Migration",
+      "url": "https://www.patronaccounting.com/migration-from-zoho-to-quickbooks/gurugram",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#localbusiness-gurugram"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "QuickBooks",
+          "sameAs": "https://en.wikipedia.org/wiki/QuickBooks"
+        },
+        {
+          "@type": "Thing",
+          "name": "Goods and Services Tax (India)",
+          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Zoho to QuickBooks Migration Plans in Gurugram",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "price": "9999",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "INR",
+              "price": "9999",
+              "unitText": "starting migration fee"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Zoho Books to QuickBooks Online Migration"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness-gurugram",
+      "name": "Patron Accounting LLP - Gurugram",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/migration-from-zoho-to-quickbooks/gurugram",
+      "telephone": "+91-9699936369",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Gurugram",
+        "addressRegion": "Haryana",
+        "postalCode": "122002",
+        "addressCountry": "IN"
+      },
+      "parentOrganization": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1563,7 +1570,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

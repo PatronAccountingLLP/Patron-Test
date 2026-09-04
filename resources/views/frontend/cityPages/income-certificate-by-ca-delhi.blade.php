@@ -1,173 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Income Certificate by CA in Delhi 2026 | Patron Accounting</title>
-    <meta name="description" content="Income Certificate by a CA with UDIN, attesting your annual income for visa, loan, and insurance. Distinct from ITR and Form 16. From INR 1,999.">
-    <link rel="canonical" href="/income-certificate-by-ca/delhi">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Income Certificate by CA 2026 | Patron Accounting">
-    <meta property="og:description" content="Income Certificate by a CA with UDIN, attesting your annual income for visa, loan, and insurance. Distinct from ITR and Form 16. From INR 1,999.">
-    <meta property="og:url" content="/income-certificate-by-ca/delhi">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Income Certificate by CA 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Income Certificate by a CA with UDIN, attesting your annual income for visa, loan, and insurance. Distinct from ITR and Form 16. From INR 1,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/income-certificate-by-ca/delhi/#service",
-        "name": "Income Certificate by CA in Delhi",
-        "description": "Preparation and CA attestation of an income certificate, a statement of an individual's or family's annual income across specified years, for visa applications, bank loans, and insurance, consolidating salary, business, professional, and rental income, with a mandatory 18-digit UDIN. Distinct from the ITR, Form 16, and the government income certificate.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/income-certificate-by-ca/delhi" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Income", "sameAs": "https://en.wikipedia.org/wiki/Income" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Income Certificate by CA Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": { "@type": "Service", "name": "Income certificate attestation by a CA" },
-                    "priceCurrency": "INR",
-                    "price": "1999",
-                    "description": "Starting from INR 1,999 (excl. GST and govt. charges)"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/income-certificate-by-ca/delhi/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
-            { "@type": "ListItem", "position": 3, "name": "Income Certificate by CA", "item": "https://www.patronaccounting.com/income-certificate-by-ca/delhi" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/income-certificate-by-ca/delhi/#faq",
-        "datePublished": "2026-06-09T08:00:00+05:30",
-        "dateModified": "2026-06-09T08:00:00+05:30",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "What is an income certificate by CA?",
-                "acceptedAnswer": { "@type": "Answer", "text": "It is a statement of your income for specified years, prepared and attested by a practising Chartered Accountant on letterhead with a UDIN. It is used as income proof for visas, loans, and insurance, and consolidates your income from all sources into one certified figure." }
-            },
-            {
-                "@type": "Question",
-                "name": "Who can issue an income certificate by CA?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Only a practising Chartered Accountant registered with ICAI, holding a valid Certificate of Practice. The certificate carries the CA's seal, firm registration number, and an 18-digit UDIN that the recipient can verify on the ICAI portal. A self-declared income statement has no such standing." }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the difference between an income certificate and an ITR?",
-                "acceptedAnswer": { "@type": "Answer", "text": "An ITR is the income-tax return you file with the department. An income certificate is a CA's attestation of your income, often relied on by embassies and lenders who want a professional's certified figure. The two are frequently submitted together, the ITR as the filing and the certificate as the attestation." }
-            },
-            {
-                "@type": "Question",
-                "name": "Can a CA issue a family income certificate?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Yes. For student visas in particular, a family income certificate showing the combined income of parents or family members is common, to demonstrate the ability to fund studies abroad. It is usually paired with a net worth certificate for a fuller picture of financial capacity." }
-            },
-            {
-                "@type": "Question",
-                "name": "Is the CA income certificate the same as the government income certificate?",
-                "acceptedAnswer": { "@type": "Answer", "text": "No. The government income certificate is issued by revenue authorities such as a Tehsildar or SDM, for purposes like EWS, scholarships, and reservation. The CA income certificate is a professional attestation for visa, loan, and similar private uses. They are different documents from different issuers." }
-            },
-            {
-                "@type": "Question",
-                "name": "How long is an income certificate valid?",
-                "acceptedAnswer": { "@type": "Answer", "text": "There is no universal validity. Embassies, banks, and insurers set their own acceptable date range, often within a few months. Check the requirement of the body you are submitting to before getting the certificate prepared." }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/income-certificate-by-ca/delhi",
-        "name": "Income Certificate by CA in Delhi",
-        "description": "Income Certificate by a CA with UDIN, attesting your annual income for visa, loan, and insurance. Distinct from ITR and Form 16. From INR 1,999.",
-        "url": "https://www.patronaccounting.com/income-certificate-by-ca/delhi",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/income-certificate-by-ca/delhi/#service" },
-        "datePublished": "2026-06-09T08:00:00+05:30",
-        "dateModified": "2026-06-09T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/income-certificate-by-ca/delhi/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How an Income Certificate by CA Is Prepared",
-        "description": "The five-step process to a CA-attested income certificate: tell us the purpose, share income records, CA review and consolidation, issue with UDIN, and delivery.",
-        "totalTime": "P2D",
-        "step": [
-            { "@type": "HowToStep", "name": "Tell us the purpose", "text": "Visa, loan, or insurance - and any format the recipient specifies." },
-            { "@type": "HowToStep", "name": "Share income records", "text": "Salary slips, ITR or computation, business financials, rent receipts." },
-            { "@type": "HowToStep", "name": "CA review", "text": "The CA verifies the records and consolidates your income by source." },
-            { "@type": "HowToStep", "name": "Issue with UDIN", "text": "The certificate is prepared on letterhead and a UDIN is generated." },
-            { "@type": "HowToStep", "name": "Delivery", "text": "You receive the certificate, with scan and physical copy as needed." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Income Certificate by CA Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Income certificate", "description": "A CA-attested statement of income for specified years." },
-            { "@type": "DefinedTerm", "name": "Family income certificate", "description": "The combined income of family members, common for student visas." },
-            { "@type": "DefinedTerm", "name": "UDIN", "description": "18-digit number mandatory on every CA certificate since 1 July 2019." },
-            { "@type": "DefinedTerm", "name": "Computation of income", "description": "The income summary behind the ITR, often relied on for the certificate." },
-            { "@type": "DefinedTerm", "name": "Form 16", "description": "An employer's certificate of salary paid and TDS deducted - a different document." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -781,7 +618,175 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Income Certificate by CA in Delhi 2026 | Patron Accounting</title>
+    <meta name="description" content="Income Certificate by a CA with UDIN, attesting your annual income for visa, loan, and insurance. Distinct from ITR and Form 16. From INR 1,999.">
+    <link rel="canonical" href="/income-certificate-by-ca/delhi">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Income Certificate by CA 2026 | Patron Accounting">
+    <meta property="og:description" content="Income Certificate by a CA with UDIN, attesting your annual income for visa, loan, and insurance. Distinct from ITR and Form 16. From INR 1,999.">
+    <meta property="og:url" content="/income-certificate-by-ca/delhi">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Income Certificate by CA 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Income Certificate by a CA with UDIN, attesting your annual income for visa, loan, and insurance. Distinct from ITR and Form 16. From INR 1,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/income-certificate-by-ca/delhi/#service",
+        "name": "Income Certificate by CA in Delhi",
+        "description": "Preparation and CA attestation of an income certificate, a statement of an individual's or family's annual income across specified years, for visa applications, bank loans, and insurance, consolidating salary, business, professional, and rental income, with a mandatory 18-digit UDIN. Distinct from the ITR, Form 16, and the government income certificate.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/income-certificate-by-ca/delhi" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Income", "sameAs": "https://en.wikipedia.org/wiki/Income" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Income Certificate by CA Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": { "@type": "Service", "name": "Income certificate attestation by a CA" },
+                    "priceCurrency": "INR",
+                    "price": "1999",
+                    "description": "Starting from INR 1,999 (excl. GST and govt. charges)"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/income-certificate-by-ca/delhi/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
+            { "@type": "ListItem", "position": 3, "name": "Income Certificate by CA", "item": "https://www.patronaccounting.com/income-certificate-by-ca/delhi" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/income-certificate-by-ca/delhi/#faq",
+        "datePublished": "2026-06-09T08:00:00+05:30",
+        "dateModified": "2026-06-09T08:00:00+05:30",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is an income certificate by CA?",
+                "acceptedAnswer": { "@type": "Answer", "text": "It is a statement of your income for specified years, prepared and attested by a practising Chartered Accountant on letterhead with a UDIN. It is used as income proof for visas, loans, and insurance, and consolidates your income from all sources into one certified figure." }
+            },
+            {
+                "@type": "Question",
+                "name": "Who can issue an income certificate by CA?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Only a practising Chartered Accountant registered with ICAI, holding a valid Certificate of Practice. The certificate carries the CA's seal, firm registration number, and an 18-digit UDIN that the recipient can verify on the ICAI portal. A self-declared income statement has no such standing." }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the difference between an income certificate and an ITR?",
+                "acceptedAnswer": { "@type": "Answer", "text": "An ITR is the income-tax return you file with the department. An income certificate is a CA's attestation of your income, often relied on by embassies and lenders who want a professional's certified figure. The two are frequently submitted together, the ITR as the filing and the certificate as the attestation." }
+            },
+            {
+                "@type": "Question",
+                "name": "Can a CA issue a family income certificate?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Yes. For student visas in particular, a family income certificate showing the combined income of parents or family members is common, to demonstrate the ability to fund studies abroad. It is usually paired with a net worth certificate for a fuller picture of financial capacity." }
+            },
+            {
+                "@type": "Question",
+                "name": "Is the CA income certificate the same as the government income certificate?",
+                "acceptedAnswer": { "@type": "Answer", "text": "No. The government income certificate is issued by revenue authorities such as a Tehsildar or SDM, for purposes like EWS, scholarships, and reservation. The CA income certificate is a professional attestation for visa, loan, and similar private uses. They are different documents from different issuers." }
+            },
+            {
+                "@type": "Question",
+                "name": "How long is an income certificate valid?",
+                "acceptedAnswer": { "@type": "Answer", "text": "There is no universal validity. Embassies, banks, and insurers set their own acceptable date range, often within a few months. Check the requirement of the body you are submitting to before getting the certificate prepared." }
+            }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/income-certificate-by-ca/delhi",
+        "name": "Income Certificate by CA in Delhi",
+        "description": "Income Certificate by a CA with UDIN, attesting your annual income for visa, loan, and insurance. Distinct from ITR and Form 16. From INR 1,999.",
+        "url": "https://www.patronaccounting.com/income-certificate-by-ca/delhi",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/income-certificate-by-ca/delhi/#service" },
+        "datePublished": "2026-06-09T08:00:00+05:30",
+        "dateModified": "2026-06-09T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/income-certificate-by-ca/delhi/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How an Income Certificate by CA Is Prepared",
+        "description": "The five-step process to a CA-attested income certificate: tell us the purpose, share income records, CA review and consolidation, issue with UDIN, and delivery.",
+        "totalTime": "P2D",
+        "step": [
+            { "@type": "HowToStep", "name": "Tell us the purpose", "text": "Visa, loan, or insurance - and any format the recipient specifies." },
+            { "@type": "HowToStep", "name": "Share income records", "text": "Salary slips, ITR or computation, business financials, rent receipts." },
+            { "@type": "HowToStep", "name": "CA review", "text": "The CA verifies the records and consolidates your income by source." },
+            { "@type": "HowToStep", "name": "Issue with UDIN", "text": "The certificate is prepared on letterhead and a UDIN is generated." },
+            { "@type": "HowToStep", "name": "Delivery", "text": "You receive the certificate, with scan and physical copy as needed." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Income Certificate by CA Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Income certificate", "description": "A CA-attested statement of income for specified years." },
+            { "@type": "DefinedTerm", "name": "Family income certificate", "description": "The combined income of family members, common for student visas." },
+            { "@type": "DefinedTerm", "name": "UDIN", "description": "18-digit number mandatory on every CA certificate since 1 July 2019." },
+            { "@type": "DefinedTerm", "name": "Computation of income", "description": "The income summary behind the ITR, often relied on for the certificate." },
+            { "@type": "DefinedTerm", "name": "Form 16", "description": "An employer's certificate of salary paid and TDS deducted - a different document." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1598,17 +1603,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1631,8 +1629,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1669,7 +1665,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1 (Schema Standard v2.1 / Rule 36): visible "Last Updated" mirrors schema dateModified
 // (9 June 2026) as a STABLE value - never live new Date().
@@ -1681,3 +1676,19 @@ window.addEventListener('scroll', function() {
     if (el2) el2.textContent = dateStr;
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

@@ -1,147 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>GST Registration Revocation 2026: REG-21 | Patron Accounting</title>
-    <meta name="description" content="Revoke an officer cancelled GSTIN through Form REG-21 within 90 days (extendable to 270). Returns, dues and late fees cleared. Starting at Rs 4,999.">
-    <link rel="canonical" href="/gst-registration-revocation">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="GST Registration Revocation 2026: REG-21 | Patron Accounting">
-    <meta property="og:description" content="Revoke an officer cancelled GSTIN through Form REG-21 within 90 days (extendable to 270). Returns, dues and late fees cleared. Starting at Rs 4,999.">
-    <meta property="og:url" content="/gst-registration-revocation">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="GST Registration Revocation 2026: REG-21 | Patron Accounting">
-    <meta name="twitter:description" content="Revoke an officer cancelled GSTIN through Form REG-21 within 90 days (extendable to 270). Returns, dues and late fees cleared. Starting at Rs 4,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/gst-registration-revocation/#service",
-        "name": "GST Registration Revocation in India",
-        "description": "Patron Accounting LLP files Form GST REG-21 for revocation of suo motu cancelled GST registration under Section 30 of the CGST Act, 2017 read with Rule 23 of the CGST Rules, 2017. The service covers diagnostic of REG-19 cancellation order, reconstruction of pending GSTR-1 and GSTR-3B, settlement of Section 47 late fee and Section 50 interest, Aadhaar authentication, REG-24 SCN defence, Commissioner extension representation under the proviso to Section 30(1), and Section 107 appeal where the revocation window has lapsed.",
-        "serviceType": "Tax Compliance Service",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-registration-revocation" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [
-            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
-            { "@type": "Thing", "name": "Central Board of Indirect Taxes and Customs", "sameAs": "https://en.wikipedia.org/wiki/Central_Board_of_Indirect_Taxes_and_Customs" }
-        ],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "GST Registration Revocation Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "GST Registration Revocation - Form REG-21 End to End",
-                    "priceCurrency": "INR",
-                    "price": "4999",
-                    "description": "Single GSTIN, up to 12 pending returns, REG-21 filing, and REG-23 SCN defence"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/gst-registration-revocation/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
-            { "@type": "ListItem", "position": 3, "name": "GST Registration Revocation", "item": "https://www.patronaccounting.com/gst-registration-revocation" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/gst-registration-revocation/#faq",
-        "datePublished": "2026-05-26T08:00:00+05:30",
-        "dateModified": "2026-06-01T08:00:00+05:30",
-        "mainEntity": [
-
-            {
-                "@type": "Question",
-                "name": "How to revoke a cancelled GST registration?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Log in to www.gst.gov.in. Navigate to Services then Registration then Application for Revocation of Cancellation of Registration. File all pending GSTR-1 and GSTR-3B and clear dues. Enter detailed reasons for revocation in Form GST REG-21, attach documents, complete Aadhaar OTP authentication under Rule 10B and submit using DSC or EVC. The proper officer issues Form GST REG-22 revocation order within 30 days under Rule 23 of the CGST Rules, 2017."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the time limit for GST revocation?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Under Section 30(1) of the CGST Act, 2017 read with Rule 23(1) of the CGST Rules, 2017, the application in Form GST REG-21 must be filed within 90 days of the date of service of the Form REG-19 cancellation order. The Commissioner or an officer not below the rank of Additional or Joint Commissioner can extend this period for a further 180 days for sufficient cause shown and reasons recorded in writing, giving a maximum of 270 days."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is Form GST REG-21?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Form GST REG-21 is the application form prescribed under Rule 23(1) of the CGST Rules, 2017 for revocation of an officer-led cancellation of GST registration under Section 30 of the CGST Act, 2017. It is filed on the GST common portal with Aadhaar OTP authentication, supporting documents and detailed reasons for restoration of the GSTIN."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can I revoke a voluntary GST cancellation?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "No. Revocation under Section 30 of the CGST Act, 2017 is available only where the cancellation was suo motu under Section 29(2) by the proper officer. A voluntary cancellation filed by the taxpayer in Form GST REG-16 under Section 29(1) cannot be revoked. If business resumes, the taxpayer must file a fresh GST registration in Form GST REG-01 under Rule 8."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What if the 90 day window for revocation has lapsed?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Apply to the Commissioner or an officer not below the rank of Additional or Joint Commissioner under the proviso to Section 30(1) of the CGST Act, 2017 for an extension of up to 180 more days, citing sufficient cause for the delay such as illness, fraud by ex-employee, force majeure or late service of REG-19. Total maximum window is 270 days. Beyond 270 days, the only remedy is Section 107 appeal within 3 months (1 month condonable) of the cancellation order."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Do I need to file all pending returns before applying for revocation?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. The proviso to Rule 23(1) of the CGST Rules, 2017 expressly bars the filing of Form GST REG-21 where the registration has been cancelled for failure to furnish returns, unless all such returns are furnished and any amount due as tax, interest, late fee and penalty for that period is paid. The portal validates this at the time of REG-21 submission and rejects applications that do not meet the condition."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the difference between revocation and fresh re-registration?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Revocation under Section 30 in Form REG-21 restores the original GSTIN and the registration is deemed valid from the date of cancellation. Past invoices remain valid and Input Tax Credit continuity is preserved. Fresh re-registration under Rule 8 in Form GST REG-01 issues a new GSTIN with a new effective date. Past invoices stand void and there is no continuity of past compliance. Revocation is the preferred route within the 270 day window."
-                }
-            }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -755,7 +618,149 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>GST Registration Revocation 2026: REG-21 | Patron Accounting</title>
+    <meta name="description" content="Revoke an officer cancelled GSTIN through Form REG-21 within 90 days (extendable to 270). Returns, dues and late fees cleared. Starting at Rs 4,999.">
+    <link rel="canonical" href="/gst-registration-revocation">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="GST Registration Revocation 2026: REG-21 | Patron Accounting">
+    <meta property="og:description" content="Revoke an officer cancelled GSTIN through Form REG-21 within 90 days (extendable to 270). Returns, dues and late fees cleared. Starting at Rs 4,999.">
+    <meta property="og:url" content="/gst-registration-revocation">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GST Registration Revocation 2026: REG-21 | Patron Accounting">
+    <meta name="twitter:description" content="Revoke an officer cancelled GSTIN through Form REG-21 within 90 days (extendable to 270). Returns, dues and late fees cleared. Starting at Rs 4,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/gst-registration-revocation/#service",
+        "name": "GST Registration Revocation in India",
+        "description": "Patron Accounting LLP files Form GST REG-21 for revocation of suo motu cancelled GST registration under Section 30 of the CGST Act, 2017 read with Rule 23 of the CGST Rules, 2017. The service covers diagnostic of REG-19 cancellation order, reconstruction of pending GSTR-1 and GSTR-3B, settlement of Section 47 late fee and Section 50 interest, Aadhaar authentication, REG-24 SCN defence, Commissioner extension representation under the proviso to Section 30(1), and Section 107 appeal where the revocation window has lapsed.",
+        "serviceType": "Tax Compliance Service",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-registration-revocation" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [
+            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
+            { "@type": "Thing", "name": "Central Board of Indirect Taxes and Customs", "sameAs": "https://en.wikipedia.org/wiki/Central_Board_of_Indirect_Taxes_and_Customs" }
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "GST Registration Revocation Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "GST Registration Revocation - Form REG-21 End to End",
+                    "priceCurrency": "INR",
+                    "price": "4999",
+                    "description": "Single GSTIN, up to 12 pending returns, REG-21 filing, and REG-23 SCN defence"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/gst-registration-revocation/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
+            { "@type": "ListItem", "position": 3, "name": "GST Registration Revocation", "item": "https://www.patronaccounting.com/gst-registration-revocation" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/gst-registration-revocation/#faq",
+        "datePublished": "2026-05-26T08:00:00+05:30",
+        "dateModified": "2026-06-01T08:00:00+05:30",
+        "mainEntity": [
+
+            {
+                "@type": "Question",
+                "name": "How to revoke a cancelled GST registration?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Log in to www.gst.gov.in. Navigate to Services then Registration then Application for Revocation of Cancellation of Registration. File all pending GSTR-1 and GSTR-3B and clear dues. Enter detailed reasons for revocation in Form GST REG-21, attach documents, complete Aadhaar OTP authentication under Rule 10B and submit using DSC or EVC. The proper officer issues Form GST REG-22 revocation order within 30 days under Rule 23 of the CGST Rules, 2017."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the time limit for GST revocation?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Under Section 30(1) of the CGST Act, 2017 read with Rule 23(1) of the CGST Rules, 2017, the application in Form GST REG-21 must be filed within 90 days of the date of service of the Form REG-19 cancellation order. The Commissioner or an officer not below the rank of Additional or Joint Commissioner can extend this period for a further 180 days for sufficient cause shown and reasons recorded in writing, giving a maximum of 270 days."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is Form GST REG-21?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Form GST REG-21 is the application form prescribed under Rule 23(1) of the CGST Rules, 2017 for revocation of an officer-led cancellation of GST registration under Section 30 of the CGST Act, 2017. It is filed on the GST common portal with Aadhaar OTP authentication, supporting documents and detailed reasons for restoration of the GSTIN."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can I revoke a voluntary GST cancellation?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No. Revocation under Section 30 of the CGST Act, 2017 is available only where the cancellation was suo motu under Section 29(2) by the proper officer. A voluntary cancellation filed by the taxpayer in Form GST REG-16 under Section 29(1) cannot be revoked. If business resumes, the taxpayer must file a fresh GST registration in Form GST REG-01 under Rule 8."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What if the 90 day window for revocation has lapsed?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Apply to the Commissioner or an officer not below the rank of Additional or Joint Commissioner under the proviso to Section 30(1) of the CGST Act, 2017 for an extension of up to 180 more days, citing sufficient cause for the delay such as illness, fraud by ex-employee, force majeure or late service of REG-19. Total maximum window is 270 days. Beyond 270 days, the only remedy is Section 107 appeal within 3 months (1 month condonable) of the cancellation order."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Do I need to file all pending returns before applying for revocation?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. The proviso to Rule 23(1) of the CGST Rules, 2017 expressly bars the filing of Form GST REG-21 where the registration has been cancelled for failure to furnish returns, unless all such returns are furnished and any amount due as tax, interest, late fee and penalty for that period is paid. The portal validates this at the time of REG-21 submission and rejects applications that do not meet the condition."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the difference between revocation and fresh re-registration?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Revocation under Section 30 in Form REG-21 restores the original GSTIN and the registration is deemed valid from the date of cancellation. Past invoices remain valid and Input Tax Credit continuity is preserved. Fresh re-registration under Rule 8 in Form GST REG-01 issues a new GSTIN with a new effective date. Past invoices stand void and there is no continuity of past compliance. Revocation is the preferred route within the 270 day window."
+                }
+            }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1701,17 +1706,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1734,8 +1732,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1772,7 +1768,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1783,4 +1778,20 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+
 

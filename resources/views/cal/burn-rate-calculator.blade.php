@@ -1,197 +1,6 @@
 
 @extends('layouts.app')
-@section('meta')
-<title>Burn Rate Calculator | Startup Cash Runway in Months</title>
-<meta name="description" content="Free burn rate calculator for startups: enter starting cash, ending cash & months to get gross burn, net burn and cash runway. India benchmarks. Try now!">
-<meta name="robots" content="index, follow">
-<meta name="theme-color" content="#15365f">
-<link rel="canonical" href="https://www.patronaccounting.com/tools/burn-rate-calculator">
-
-<meta property="og:title" content="Burn Rate Calculator — Cash Runway in Months">
-<meta property="og:description" content="Calculate gross burn, net burn, cash runway and breakeven month in rupees with India-specific startup benchmarks. Free, instant, no signup.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.patronaccounting.com/tools/burn-rate-calculator">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="1200">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-<meta property="og:site_name" content="Patron Accounting">
-<meta property="og:locale" content="en_IN">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Burn Rate Calculator — Cash Runway in Months">
-<meta name="twitter:description" content="Calculate gross burn, net burn, cash runway and breakeven month in rupees with India startup benchmarks. Free & instant.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-
-<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
-<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
-@endsection
-@section('schema')
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "Burn Rate Calculator",
-  "description": "Burn Rate Calculator computes a startup's monthly gross burn rate, net burn rate, cash runway in months and projected breakeven month from cash balance, expenses, revenue and growth, with figures shown in Indian rupees.",
-  "url": "https://www.patronaccounting.com/tools/burn-rate-calculator",
-  "applicationCategory": "BusinessApplication",
-  "inLanguage": "en-IN",
-  "isAccessibleForFree": true,
-  "operatingSystem": "Any",
-  "datePublished": "2026-06-05T08:00:00+05:30",
-  "dateModified": "2026-06-05T08:00:00+05:30",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "INR"
-  },
-  "reviewedBy": {
-    "@type": "Person",
-    "@id": "https://patronaccounting.com/#founder",
-    "name": "CA Sundram Gupta",
-    "jobTitle": "Founder & Chartered Accountant",
-    "url": "https://www.patronaccounting.com/contact-page",
-    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-    "hasCredential": [{
-      "@type": "EducationalOccupationalCredential",
-      "credentialCategory": "Professional Certification",
-      "name": "Chartered Accountant (CA)",
-      "recognizedBy": {
-        "@type": "Organization",
-        "name": "Institute of Chartered Accountants of India",
-        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-      }
-    }]
-  },
-  "publisher": { "@id": "https://patronaccounting.com/#organization" },
-  "provider": {
-    "@id": "https://patronaccounting.com/#organization"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "Burn Rate Calculator", "item": "https://www.patronaccounting.com/tools/burn-rate-calculator"}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is burn rate for a startup?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Burn rate is the speed at which a startup spends its cash reserves each month. Gross burn is total monthly operating expenses, while net burn is expenses minus revenue, which is the actual cash leaving your bank account. Investors track net burn closely because it directly determines how many months of runway a company has left before it needs to raise again."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do you calculate burn rate?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Gross burn rate equals total monthly cash expenses such as salaries, rent and software. Net burn rate equals monthly expenses minus monthly revenue. Alternatively, subtract your ending cash balance from your opening balance over a period and divide by the number of months. Our calculator does both methods instantly and shows the result in rupees with your runway in months."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the difference between gross burn and net burn?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Gross burn is the total cash you spend each month regardless of income, covering every operating cost. Net burn subtracts your revenue from those expenses, showing the true monthly cash depletion. A pre-revenue startup has identical gross and net burn. Once you earn revenue, net burn falls below gross burn and is the figure that drives your real cash runway."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How is startup runway calculated?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Runway equals your current cash balance divided by your monthly net burn rate. For example, ₹50 lakh in the bank with ₹5 lakh net monthly burn gives 10 months of runway. If your revenue exceeds expenses you have negative net burn, meaning you are cash-flow positive and your runway is effectively unlimited at current performance."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a healthy runway for Indian startups in 2026?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "With fundraising rounds in India now taking 3 to 9 months or longer to close, founders are advised to maintain 18 to 24 months of runway after a raise. Start your next fundraise with at least 9 to 12 months of cash remaining and never let runway fall below 6 months during an active raise, as low runway weakens negotiating leverage."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the burn multiple?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Burn multiple equals net burn divided by net new annual recurring revenue (ARR) added in the same period. It measures how efficiently you convert spending into revenue. In 2026 a burn multiple below 1.5x is considered excellent for Series A readiness, while a multiple above 2x to 3x signals capital inefficiency and makes raising the next round significantly harder."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How can a startup reduce its burn rate?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common levers include trimming non-essential headcount, renegotiating SaaS and vendor contracts, moving to variable or outsourced functions, pausing low-ROI marketing and deferring capital expenditure. Increasing revenue or collecting receivables faster also cuts net burn. Indian startups often extend runway with venture debt from lenders like Trifecta or InnoVen instead of diluting equity in a down market."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why do investors ask about burn rate?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Burn rate tells investors how disciplined a founder is with capital and how long the company can survive without new funding. A high burn with short runway is a red flag suggesting the startup may run out of cash before hitting milestones. Founders who can explain their burn, runway and the milestones each rupee buys are viewed as responsible stewards of capital."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is burn rate measured before or after tax?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Burn rate is a cash metric, so it is based on actual cash leaving your bank account, including any GST, TDS and advance tax payments you make. It is not an accrual or post-tax accounting figure. For accuracy, base burn on your bank statements and cash flow statement rather than the profit and loss account, which contains non-cash items like depreciation."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does revenue growth extend my runway?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. If revenue grows month on month while expenses stay flat, net burn shrinks each month and runway stretches beyond a simple cash-divided-by-burn estimate. Eventually revenue may overtake expenses, giving you a breakeven month after which you stop burning cash. Our calculator models a monthly growth rate to project this breakeven point and a more realistic runway."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What costs should be included in burn rate?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Include all recurring cash outflows: salaries and contractor fees, office rent, cloud and software subscriptions, marketing spend, professional fees, statutory dues and loan repayments. Payroll typically accounts for 60 to 75 percent of a startup's burn. Exclude one-off non-recurring items when measuring the steady monthly rate, but track them separately as they still consume cash."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is this burn rate calculator free to use?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, the Patron Accounting Burn Rate Calculator is completely free with no signup required. All calculations run in your browser and nothing is stored on our servers. It is built for Indian founders, displays results in rupees with lakh and crore formatting, and includes 2026 stage-wise benchmarks to help you interpret your runway."
-      }
-    }
-  ]
-}
-</script>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-@endsection
+@push('styles')
 <style>
         :root {
             --primary: #15365f;
@@ -721,6 +530,200 @@ a:focus-visible {
 
 
         </style>
+@endpush
+
+@section('meta')
+<title>Burn Rate Calculator | Startup Cash Runway in Months</title>
+<meta name="description" content="Free burn rate calculator for startups: enter starting cash, ending cash & months to get gross burn, net burn and cash runway. India benchmarks. Try now!">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#15365f">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/burn-rate-calculator">
+
+<meta property="og:title" content="Burn Rate Calculator — Cash Runway in Months">
+<meta property="og:description" content="Calculate gross burn, net burn, cash runway and breakeven month in rupees with India-specific startup benchmarks. Free, instant, no signup.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/burn-rate-calculator">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+<meta property="og:site_name" content="Patron Accounting">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Burn Rate Calculator — Cash Runway in Months">
+<meta name="twitter:description" content="Calculate gross burn, net burn, cash runway and breakeven month in rupees with India startup benchmarks. Free & instant.">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
+@endsection
+@section('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Burn Rate Calculator",
+  "description": "Burn Rate Calculator computes a startup's monthly gross burn rate, net burn rate, cash runway in months and projected breakeven month from cash balance, expenses, revenue and growth, with figures shown in Indian rupees.",
+  "url": "https://www.patronaccounting.com/tools/burn-rate-calculator",
+  "applicationCategory": "BusinessApplication",
+  "inLanguage": "en-IN",
+  "isAccessibleForFree": true,
+  "operatingSystem": "Any",
+  "datePublished": "2026-06-05T08:00:00+05:30",
+  "dateModified": "2026-06-05T08:00:00+05:30",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "INR"
+  },
+  "reviewedBy": {
+    "@type": "Person",
+    "@id": "https://patronaccounting.com/#founder",
+    "name": "CA Sundram Gupta",
+    "jobTitle": "Founder & Chartered Accountant",
+    "url": "https://www.patronaccounting.com/contact-page",
+    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+    "hasCredential": [{
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Professional Certification",
+      "name": "Chartered Accountant (CA)",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Institute of Chartered Accountants of India",
+        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+      }
+    }]
+  },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
+  "provider": {
+    "@id": "https://patronaccounting.com/#organization"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "Burn Rate Calculator", "item": "https://www.patronaccounting.com/tools/burn-rate-calculator"}
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is burn rate for a startup?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Burn rate is the speed at which a startup spends its cash reserves each month. Gross burn is total monthly operating expenses, while net burn is expenses minus revenue, which is the actual cash leaving your bank account. Investors track net burn closely because it directly determines how many months of runway a company has left before it needs to raise again."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you calculate burn rate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Gross burn rate equals total monthly cash expenses such as salaries, rent and software. Net burn rate equals monthly expenses minus monthly revenue. Alternatively, subtract your ending cash balance from your opening balance over a period and divide by the number of months. Our calculator does both methods instantly and shows the result in rupees with your runway in months."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between gross burn and net burn?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Gross burn is the total cash you spend each month regardless of income, covering every operating cost. Net burn subtracts your revenue from those expenses, showing the true monthly cash depletion. A pre-revenue startup has identical gross and net burn. Once you earn revenue, net burn falls below gross burn and is the figure that drives your real cash runway."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is startup runway calculated?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Runway equals your current cash balance divided by your monthly net burn rate. For example, ₹50 lakh in the bank with ₹5 lakh net monthly burn gives 10 months of runway. If your revenue exceeds expenses you have negative net burn, meaning you are cash-flow positive and your runway is effectively unlimited at current performance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a healthy runway for Indian startups in 2026?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "With fundraising rounds in India now taking 3 to 9 months or longer to close, founders are advised to maintain 18 to 24 months of runway after a raise. Start your next fundraise with at least 9 to 12 months of cash remaining and never let runway fall below 6 months during an active raise, as low runway weakens negotiating leverage."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the burn multiple?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Burn multiple equals net burn divided by net new annual recurring revenue (ARR) added in the same period. It measures how efficiently you convert spending into revenue. In 2026 a burn multiple below 1.5x is considered excellent for Series A readiness, while a multiple above 2x to 3x signals capital inefficiency and makes raising the next round significantly harder."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can a startup reduce its burn rate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Common levers include trimming non-essential headcount, renegotiating SaaS and vendor contracts, moving to variable or outsourced functions, pausing low-ROI marketing and deferring capital expenditure. Increasing revenue or collecting receivables faster also cuts net burn. Indian startups often extend runway with venture debt from lenders like Trifecta or InnoVen instead of diluting equity in a down market."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why do investors ask about burn rate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Burn rate tells investors how disciplined a founder is with capital and how long the company can survive without new funding. A high burn with short runway is a red flag suggesting the startup may run out of cash before hitting milestones. Founders who can explain their burn, runway and the milestones each rupee buys are viewed as responsible stewards of capital."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is burn rate measured before or after tax?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Burn rate is a cash metric, so it is based on actual cash leaving your bank account, including any GST, TDS and advance tax payments you make. It is not an accrual or post-tax accounting figure. For accuracy, base burn on your bank statements and cash flow statement rather than the profit and loss account, which contains non-cash items like depreciation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does revenue growth extend my runway?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. If revenue grows month on month while expenses stay flat, net burn shrinks each month and runway stretches beyond a simple cash-divided-by-burn estimate. Eventually revenue may overtake expenses, giving you a breakeven month after which you stop burning cash. Our calculator models a monthly growth rate to project this breakeven point and a more realistic runway."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What costs should be included in burn rate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Include all recurring cash outflows: salaries and contractor fees, office rent, cloud and software subscriptions, marketing spend, professional fees, statutory dues and loan repayments. Payroll typically accounts for 60 to 75 percent of a startup's burn. Exclude one-off non-recurring items when measuring the steady monthly rate, but track them separately as they still consume cash."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is this burn rate calculator free to use?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the Patron Accounting Burn Rate Calculator is completely free with no signup required. All calculations run in your browser and nothing is stored on our servers. It is built for Indian founders, displays results in rupees with lakh and crore formatting, and includes 2026 stage-wise benchmarks to help you interpret your runway."
+      }
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation">
     <div class="toc-nav-inner">

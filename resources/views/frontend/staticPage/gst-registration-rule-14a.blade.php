@@ -1,147 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Rule 14A GST Registration 2026: 3 Days | Patron Accounting</title>
-    <meta name="description" content="Rule 14A grants Aadhaar based GST registration in 3 working days for B2B taxpayers with monthly output tax below Rs 2.5 lakh. Starting at Rs 1,499.">
-    <link rel="canonical" href="/gst-registration-rule-14a">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Rule 14A GST Registration 2026: 3 Days | Patron Accounting">
-    <meta property="og:description" content="Rule 14A grants Aadhaar based GST registration in 3 working days for B2B taxpayers with monthly output tax below Rs 2.5 lakh. Starting at Rs 1,499.">
-    <meta property="og:url" content="/gst-registration-rule-14a">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Rule 14A GST Registration 2026: 3 Days | Patron Accounting">
-    <meta name="twitter:description" content="Rule 14A grants Aadhaar based GST registration in 3 working days for B2B taxpayers with monthly output tax below Rs 2.5 lakh. Starting at Rs 1,499.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/gst-registration-rule-14a/#service",
-        "name": "GST Registration Under Rule 14A in India",
-        "description": "Patron Accounting LLP provides end to end Rule 14A GST registration filing for small B2B taxpayers with monthly output tax below Rs 2,50,000. The service covers self assessment, FORM GST REG-01 Part B filing with Rule 14A opt in, Aadhaar authentication coordination and FORM GST REG-32 exit support.",
-        "serviceType": "Tax Registration Service",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-registration-rule-14a" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [
-            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
-            { "@type": "Thing", "name": "Central Board of Indirect Taxes and Customs", "sameAs": "https://en.wikipedia.org/wiki/Central_Board_of_Indirect_Taxes_and_Customs" }
-        ],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Rule 14A GST Registration Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "Rule 14A GST Registration - End to End Filing",
-                    "priceCurrency": "INR",
-                    "price": "1499",
-                    "description": "Self assessment, FORM GST REG-01 Part B filing with Rule 14A opt in, and Aadhaar authentication coordination"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/gst-registration-rule-14a/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
-            { "@type": "ListItem", "position": 3, "name": "Rule 14A GST Registration", "item": "https://www.patronaccounting.com/gst-registration-rule-14a" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/gst-registration-rule-14a/#faq",
-        "datePublished": "2026-05-26T08:00:00+05:30",
-        "dateModified": "2026-06-01T08:00:00+05:30",
-        "mainEntity": [
-
-            {
-                "@type": "Question",
-                "name": "What is Rule 14A in GST registration?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Rule 14A of the CGST Rules, 2017 is an optional Aadhaar based fast track GST registration scheme that grants a GSTIN within 3 working days for applicants whose monthly output tax on B2B supplies stays below Rs 2,50,000. It was inserted by Notification 18/2025-Central Tax dated 31 October 2025 and is effective from 1 November 2025."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Who is eligible for GST registration under Rule 14A?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Any taxpayer applying through FORM GST REG-01 whose self assessed monthly output tax on supplies to registered persons does not exceed Rs 2,50,000 across CGST, SGST or UTGST, IGST and compensation cess. Aadhaar authentication of the Primary Authorised Signatory and one Promoter or Partner is mandatory, except for persons notified under Section 25(6D) of the CGST Act."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the threshold limit under Rule 14A?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "The threshold is Rs 2,50,000 of total monthly output tax payable on supplies to registered persons (B2B). It is calculated across CGST, SGST or UTGST, IGST and compensation cess for that month. Output tax on B2C supplies to unregistered persons is excluded from this calculation."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How can I withdraw from Rule 14A registration?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "File FORM GST REG-32 on the GST portal. Before 1 April 2026, you must have filed returns for at least 3 months; on or after 1 April 2026, at least 1 tax period. No amendment, cancellation or Section 29 proceeding should be pending. On approval, FORM GST REG-33 is issued and you may report B2B output tax above Rs 2,50,000 from the first day of the succeeding month."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What happens if my B2B output tax crosses Rs 2.5 lakh under Rule 14A?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "You must apply for withdrawal in FORM GST REG-32 before continuing supplies that breach the limit. Operating under Rule 14A while exceeding the threshold exposes you to cancellation under Section 29 of the CGST Act and a penalty under Section 122 of up to Rs 10,000 or an amount equal to the tax evaded, whichever is higher."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Is Rule 14A registration different from regular GST registration?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. The application is still through FORM GST REG-01, but Part B has a new field where you opt in to Rule 14A. Approval is fully system driven under Rule 9A within 3 working days, physical verification is generally waived for low risk cases, and you cannot hold multiple Rule 14A registrations in the same State or UT under the same PAN."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Is Aadhaar authentication mandatory for Rule 14A?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. Notification 18/2025-Central Tax inserted instruction 8A in FORM GST REG-01 stating that any person opting for Rule 14A must undergo OTP based Aadhaar authentication. The only exception is for persons notified under Section 25(6D) of the CGST Act, 2017, such as a department or local authority."
-                }
-            }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -755,7 +618,149 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Rule 14A GST Registration 2026: 3 Days | Patron Accounting</title>
+    <meta name="description" content="Rule 14A grants Aadhaar based GST registration in 3 working days for B2B taxpayers with monthly output tax below Rs 2.5 lakh. Starting at Rs 1,499.">
+    <link rel="canonical" href="/gst-registration-rule-14a">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Rule 14A GST Registration 2026: 3 Days | Patron Accounting">
+    <meta property="og:description" content="Rule 14A grants Aadhaar based GST registration in 3 working days for B2B taxpayers with monthly output tax below Rs 2.5 lakh. Starting at Rs 1,499.">
+    <meta property="og:url" content="/gst-registration-rule-14a">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Rule 14A GST Registration 2026: 3 Days | Patron Accounting">
+    <meta name="twitter:description" content="Rule 14A grants Aadhaar based GST registration in 3 working days for B2B taxpayers with monthly output tax below Rs 2.5 lakh. Starting at Rs 1,499.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/gst-registration-rule-14a/#service",
+        "name": "GST Registration Under Rule 14A in India",
+        "description": "Patron Accounting LLP provides end to end Rule 14A GST registration filing for small B2B taxpayers with monthly output tax below Rs 2,50,000. The service covers self assessment, FORM GST REG-01 Part B filing with Rule 14A opt in, Aadhaar authentication coordination and FORM GST REG-32 exit support.",
+        "serviceType": "Tax Registration Service",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-registration-rule-14a" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [
+            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
+            { "@type": "Thing", "name": "Central Board of Indirect Taxes and Customs", "sameAs": "https://en.wikipedia.org/wiki/Central_Board_of_Indirect_Taxes_and_Customs" }
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Rule 14A GST Registration Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "Rule 14A GST Registration - End to End Filing",
+                    "priceCurrency": "INR",
+                    "price": "1499",
+                    "description": "Self assessment, FORM GST REG-01 Part B filing with Rule 14A opt in, and Aadhaar authentication coordination"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/gst-registration-rule-14a/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
+            { "@type": "ListItem", "position": 3, "name": "Rule 14A GST Registration", "item": "https://www.patronaccounting.com/gst-registration-rule-14a" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/gst-registration-rule-14a/#faq",
+        "datePublished": "2026-05-26T08:00:00+05:30",
+        "dateModified": "2026-06-01T08:00:00+05:30",
+        "mainEntity": [
+
+            {
+                "@type": "Question",
+                "name": "What is Rule 14A in GST registration?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Rule 14A of the CGST Rules, 2017 is an optional Aadhaar based fast track GST registration scheme that grants a GSTIN within 3 working days for applicants whose monthly output tax on B2B supplies stays below Rs 2,50,000. It was inserted by Notification 18/2025-Central Tax dated 31 October 2025 and is effective from 1 November 2025."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Who is eligible for GST registration under Rule 14A?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Any taxpayer applying through FORM GST REG-01 whose self assessed monthly output tax on supplies to registered persons does not exceed Rs 2,50,000 across CGST, SGST or UTGST, IGST and compensation cess. Aadhaar authentication of the Primary Authorised Signatory and one Promoter or Partner is mandatory, except for persons notified under Section 25(6D) of the CGST Act."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the threshold limit under Rule 14A?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The threshold is Rs 2,50,000 of total monthly output tax payable on supplies to registered persons (B2B). It is calculated across CGST, SGST or UTGST, IGST and compensation cess for that month. Output tax on B2C supplies to unregistered persons is excluded from this calculation."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How can I withdraw from Rule 14A registration?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "File FORM GST REG-32 on the GST portal. Before 1 April 2026, you must have filed returns for at least 3 months; on or after 1 April 2026, at least 1 tax period. No amendment, cancellation or Section 29 proceeding should be pending. On approval, FORM GST REG-33 is issued and you may report B2B output tax above Rs 2,50,000 from the first day of the succeeding month."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What happens if my B2B output tax crosses Rs 2.5 lakh under Rule 14A?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "You must apply for withdrawal in FORM GST REG-32 before continuing supplies that breach the limit. Operating under Rule 14A while exceeding the threshold exposes you to cancellation under Section 29 of the CGST Act and a penalty under Section 122 of up to Rs 10,000 or an amount equal to the tax evaded, whichever is higher."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is Rule 14A registration different from regular GST registration?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. The application is still through FORM GST REG-01, but Part B has a new field where you opt in to Rule 14A. Approval is fully system driven under Rule 9A within 3 working days, physical verification is generally waived for low risk cases, and you cannot hold multiple Rule 14A registrations in the same State or UT under the same PAN."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is Aadhaar authentication mandatory for Rule 14A?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Notification 18/2025-Central Tax inserted instruction 8A in FORM GST REG-01 stating that any person opting for Rule 14A must undergo OTP based Aadhaar authentication. The only exception is for persons notified under Section 25(6D) of the CGST Act, 2017, such as a department or local authority."
+                }
+            }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1640,17 +1645,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1673,8 +1671,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1711,7 +1707,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1722,4 +1717,20 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+
 

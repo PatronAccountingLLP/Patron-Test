@@ -1,196 +1,8 @@
 @extends('layouts.app')
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
-@section('meta')
-    <title>CTC Structure Calculator | Code on Wages 50% Basic Rule</title>
-    <meta name="description" content="Free CTC structure calculator for the Code on Wages 50% basic rule: see PF, gratuity and take-home pay before vs after restructuring. CA-built tool. Try now!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/ctc-structure-calculator">
-    <meta property="og:title" content="CTC Structure Calculator — Code on Wages 2025">
-    <meta property="og:description" content="Restructure CTC under the 50% basic rule. Compare old vs new salary structure — PF, gratuity, take-home, employer cost.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/ctc-structure-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="CTC Structure Calculator — Code on Wages 2025">
-    <meta name="twitter:description" content="Restructure CTC under 50% basic rule. Old vs new comparison. Free CA tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-    <meta name="theme-color" content="#15365f">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "CTC Structure Calculator (Code on Wages 2025)",
-      "description": "CTC Structure Calculator restructures employee compensation under the Code on Wages 2019 effective 21 November 2025 which mandates that basic pay plus dearness allowance plus retaining allowance must constitute at least fifty percent of total cost to company. The tool takes monthly or annual CTC city classification metro or non-metro old basic percentage typically thirty to forty percent and applicable Provident Fund and Employee State Insurance settings as inputs and produces a side-by-side comparison of old structure versus new compliant structure. The old structure uses the legacy split of low basic (twenty-five to forty percent) high HRA and high special allowance designed to minimize Provident Fund liability under the Employees Provident Funds and Miscellaneous Provisions Act 1952 and gratuity accrual under Payment of Gratuity Act 1972. The new structure recalibrates basic to fifty percent of CTC adjusts HRA to fifty percent of basic for metro cities Mumbai Delhi Kolkata Chennai or forty percent for non-metro cities reduces special allowance accordingly and recomputes employer Provident Fund contribution at twelve percent of basic capped at fifteen thousand rupees for mandatory tier and uncapped at actual basic for voluntary above-threshold tier and gratuity accrual at four point eight one percent of basic. The tool computes employee Provident Fund deduction at twelve percent of basic professional tax based on state slab Maharashtra two hundred or two thousand five hundred rupees per month other states two hundred rupees and TDS estimate using new tax regime slabs for FY 2025-26 and FY 2026-27. Output displays old versus new monthly basic HRA special allowance gratuity employer Provident Fund total CTC employee Provident Fund deduction in-hand monthly salary employer total cost and impact summary covering take-home reduction usually five to seven percent monthly employer cost increase usually five to fifteen percent annual gratuity accrual increase and twenty-five-year PF corpus impact at eight percent compounded interest. Suitable for HR and payroll teams restructuring salary frameworks for Code on Wages compliance CFOs budgeting for the cost increase and individual employees understanding the impact on take-home pay.",
-      "url": "https://www.patronaccounting.com/tools/ctc-structure-calculator",
-      "applicationCategory": "FinanceApplication",
-      "operatingSystem": "Any",
-      "datePublished": "2026-05-08T08:00:00+05:30",
-      "dateModified": "2026-05-08T08:00:00+05:30",
-      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
-      "author": {
-        "@type": "Person",
-        "@id": "https://patronaccounting.com/#founder",
-        "name": "CA Sundram Gupta",
-        "jobTitle": "Founder & Chartered Accountant",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Institute of Chartered Accountants of India",
-            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-          }
-        }]
-      },
-      "publisher": { "@id": "https://patronaccounting.com/#organization" },
-      "provider": { "@id": "https://patronaccounting.com/#organization" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "CTC Structure Calculator", "item": "https://www.patronaccounting.com/tools/ctc-structure-calculator"}
-      ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "datePublished": "2026-05-08T08:00:00+05:30",
-      "dateModified": "2026-05-08T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is the 50 percent basic rule under Code on Wages 2019?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The Code on Wages 2019 effective 21 November 2025 mandates that basic pay plus dearness allowance plus retaining allowance must constitute at least 50 percent of total CTC. Excluded items such as HRA conveyance overtime bonus and employer Provident Fund cannot exceed 50 percent of total remuneration. Where excluded items exceed 50 percent the excess is automatically added back to wages and treated as basic for Provident Fund and gratuity computation. This effectively floors basic at 50 percent."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why does take-home salary drop under the new wage code?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "When basic increases from typical 30 percent to mandated 50 percent of CTC the employee Provident Fund deduction also increases since PF is computed at 12 percent of basic. For an employee with 10 lakh CTC the basic moves from 3 lakh to 5 lakh annually and PF deduction increases from 36000 to 60000 reducing monthly take-home by approximately 4500 to 5500 rupees. The amount goes into the EPF retirement corpus where it earns interest annually."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does the wage code affect employer cost?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Employer statutory cost typically increases by 5 to 15 percent depending on existing salary structure. The increase comes from higher employer Provident Fund at 12 percent on the new higher basic and higher gratuity accrual at 4.81 percent on the new basic. Companies with low basic structures around 25 to 30 percent of CTC see the largest cost increase. CFOs should budget at least 5 percent buffer in compensation lines."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What components count as wages and which are excluded?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Wages under the Code on Wages 2019 include basic pay dearness allowance and retaining allowance. Excluded items are statutory bonus House Rent Allowance conveyance allowance sum paid for special expenses overtime allowance commission accommodation amenities gratuity payable on termination Provident Fund and Pension Fund contributions employer social security contributions and one-time gifts. The exclusion cap is 50 percent of total remuneration above which excess flows back into wages and triggers higher PF and gratuity."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is gratuity affected by the new wage code?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Gratuity is computed on basic pay plus dearness allowance under the Payment of Gratuity Act 1972. With basic increasing to 50 percent of CTC the gratuity entitlement on separation increases proportionately. For an employee with 10 lakh CTC completing 10 years of service gratuity rises from approximately 1.73 lakh to 2.88 lakh. The Code on Social Security 2020 also reduced the continuous-service requirement from five to one year for fixed-term employees making more workers eligible."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is HRA still allowed in the new structure?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes HRA continues as a salary component under the new wage code. HRA is among the excluded items that fall outside wages so it does not contribute to PF or gratuity computation. Best-practice HRA is 50 percent of basic for metro cities Mumbai Delhi Kolkata Chennai and 40 percent of basic for non-metro cities. HRA exemption under Section 10(13A) of the Income Tax Act continues to be available against rent paid subject to lowest-of-three computation."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does PF apply to all employees under the new code?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Provident Fund is mandatory for employees with basic salary up to 15000 rupees per month. Above this threshold PF is voluntary at employee election but most large employers continue PF at actual basic. Under the new wage code with mandated 50 percent basic many employees who were previously below 15000 now cross the threshold making them mandatorily covered. PF can be capped at 15000 or on actual basic depending on company policy."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the deadline for restructuring salaries?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The Code on Wages 2019 came into force on 21 November 2025 and applies to all wage payments from that date. However transitional implementation has been gradual due to state rules notification timelines. Most employers are restructuring salaries with effect from the appraisal cycle in April 2026 when annual increments are processed. The EPFO can audit and recalculate PF wages with retrospective effect for non-compliant structures so early restructuring is recommended."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do small companies handle the wage code transition?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Small companies with low headcount can implement the wage code transition through their next payroll cycle. The standard approach is to keep gross CTC unchanged and reallocate components to comply with the 50 percent basic rule. This protects total compensation while ensuring statutory compliance. Companies needing payroll software updates should engage their vendor for Code on Wages compliance patches. The Patron payroll team handles transitions for companies of all sizes."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Are existing employee contracts affected?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes existing employment contracts must be aligned with the new wage definition. The standard practice is to issue revised salary breakup letters showing the new component-wise structure while keeping the gross CTC unchanged. Employee consent is generally required where the take-home pay reduces materially. Most courts have upheld restructuring done in good faith for statutory compliance even where take-home reduces. HR teams should communicate transparently and provide clear before-and-after comparisons to employees."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does the wage code change income tax computation?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The wage code does not change income tax slabs or rates but it indirectly affects taxable income. Higher employee Provident Fund deduction reduces net taxable income since PF contribution up to 1.5 lakh qualifies under Section 80C in the old regime. Higher employer Provident Fund contribution above 7.5 lakh annually became taxable as perquisite per Finance Act 2020. Employees on the new tax regime where 80C is unavailable may see slightly higher tax outgo as the PF benefit is forgone."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is statutory bonus calculated under the new code?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Statutory bonus under the Payment of Bonus Act 1965 continues as before but is computed on the wage definition under the Code on Wages. Employees earning up to 21000 rupees per month basic plus DA are eligible for bonus between 8.33 percent and 20 percent of wages. Under the new wage code more employees may cross the 21000 threshold and become bonus-ineligible. Net effect varies by salary structure."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can an employer keep the old structure if employees consent?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. The 50 percent basic rule under the Code on Wages 2019 is a statutory minimum and cannot be waived by employee consent or contract. The Employees Provident Fund Organisation can recalculate PF wages on the higher basic and demand the difference with interest under Section 7Q of the EPF Act if structures are non-compliant. Penalty under Section 14B can also apply. Employers must restructure to comply regardless of employee preference for higher take-home."
-          }
-        }
-      ]
-    }
-    </script>
-@endsection
-
 <style>
         :root {
             --primary: #15365f;
@@ -456,7 +268,195 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 }
 
 </style>
+@endpush
 
+@section('meta')
+    <title>CTC Structure Calculator | Code on Wages 50% Basic Rule</title>
+    <meta name="description" content="Free CTC structure calculator for the Code on Wages 50% basic rule: see PF, gratuity and take-home pay before vs after restructuring. CA-built tool. Try now!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/ctc-structure-calculator">
+    <meta property="og:title" content="CTC Structure Calculator — Code on Wages 2025">
+    <meta property="og:description" content="Restructure CTC under the 50% basic rule. Compare old vs new salary structure — PF, gratuity, take-home, employer cost.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/ctc-structure-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="CTC Structure Calculator — Code on Wages 2025">
+    <meta name="twitter:description" content="Restructure CTC under 50% basic rule. Old vs new comparison. Free CA tool.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+    <meta name="theme-color" content="#15365f">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "CTC Structure Calculator (Code on Wages 2025)",
+      "description": "CTC Structure Calculator restructures employee compensation under the Code on Wages 2019 effective 21 November 2025 which mandates that basic pay plus dearness allowance plus retaining allowance must constitute at least fifty percent of total cost to company. The tool takes monthly or annual CTC city classification metro or non-metro old basic percentage typically thirty to forty percent and applicable Provident Fund and Employee State Insurance settings as inputs and produces a side-by-side comparison of old structure versus new compliant structure. The old structure uses the legacy split of low basic (twenty-five to forty percent) high HRA and high special allowance designed to minimize Provident Fund liability under the Employees Provident Funds and Miscellaneous Provisions Act 1952 and gratuity accrual under Payment of Gratuity Act 1972. The new structure recalibrates basic to fifty percent of CTC adjusts HRA to fifty percent of basic for metro cities Mumbai Delhi Kolkata Chennai or forty percent for non-metro cities reduces special allowance accordingly and recomputes employer Provident Fund contribution at twelve percent of basic capped at fifteen thousand rupees for mandatory tier and uncapped at actual basic for voluntary above-threshold tier and gratuity accrual at four point eight one percent of basic. The tool computes employee Provident Fund deduction at twelve percent of basic professional tax based on state slab Maharashtra two hundred or two thousand five hundred rupees per month other states two hundred rupees and TDS estimate using new tax regime slabs for FY 2025-26 and FY 2026-27. Output displays old versus new monthly basic HRA special allowance gratuity employer Provident Fund total CTC employee Provident Fund deduction in-hand monthly salary employer total cost and impact summary covering take-home reduction usually five to seven percent monthly employer cost increase usually five to fifteen percent annual gratuity accrual increase and twenty-five-year PF corpus impact at eight percent compounded interest. Suitable for HR and payroll teams restructuring salary frameworks for Code on Wages compliance CFOs budgeting for the cost increase and individual employees understanding the impact on take-home pay.",
+      "url": "https://www.patronaccounting.com/tools/ctc-structure-calculator",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Any",
+      "datePublished": "2026-05-08T08:00:00+05:30",
+      "dateModified": "2026-05-08T08:00:00+05:30",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
+      "author": {
+        "@type": "Person",
+        "@id": "https://patronaccounting.com/#founder",
+        "name": "CA Sundram Gupta",
+        "jobTitle": "Founder & Chartered Accountant",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Institute of Chartered Accountants of India",
+            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+          }
+        }]
+      },
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": { "@id": "https://patronaccounting.com/#organization" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "CTC Structure Calculator", "item": "https://www.patronaccounting.com/tools/ctc-structure-calculator"}
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "datePublished": "2026-05-08T08:00:00+05:30",
+      "dateModified": "2026-05-08T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the 50 percent basic rule under Code on Wages 2019?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Code on Wages 2019 effective 21 November 2025 mandates that basic pay plus dearness allowance plus retaining allowance must constitute at least 50 percent of total CTC. Excluded items such as HRA conveyance overtime bonus and employer Provident Fund cannot exceed 50 percent of total remuneration. Where excluded items exceed 50 percent the excess is automatically added back to wages and treated as basic for Provident Fund and gratuity computation. This effectively floors basic at 50 percent."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does take-home salary drop under the new wage code?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "When basic increases from typical 30 percent to mandated 50 percent of CTC the employee Provident Fund deduction also increases since PF is computed at 12 percent of basic. For an employee with 10 lakh CTC the basic moves from 3 lakh to 5 lakh annually and PF deduction increases from 36000 to 60000 reducing monthly take-home by approximately 4500 to 5500 rupees. The amount goes into the EPF retirement corpus where it earns interest annually."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does the wage code affect employer cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Employer statutory cost typically increases by 5 to 15 percent depending on existing salary structure. The increase comes from higher employer Provident Fund at 12 percent on the new higher basic and higher gratuity accrual at 4.81 percent on the new basic. Companies with low basic structures around 25 to 30 percent of CTC see the largest cost increase. CFOs should budget at least 5 percent buffer in compensation lines."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What components count as wages and which are excluded?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Wages under the Code on Wages 2019 include basic pay dearness allowance and retaining allowance. Excluded items are statutory bonus House Rent Allowance conveyance allowance sum paid for special expenses overtime allowance commission accommodation amenities gratuity payable on termination Provident Fund and Pension Fund contributions employer social security contributions and one-time gifts. The exclusion cap is 50 percent of total remuneration above which excess flows back into wages and triggers higher PF and gratuity."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is gratuity affected by the new wage code?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gratuity is computed on basic pay plus dearness allowance under the Payment of Gratuity Act 1972. With basic increasing to 50 percent of CTC the gratuity entitlement on separation increases proportionately. For an employee with 10 lakh CTC completing 10 years of service gratuity rises from approximately 1.73 lakh to 2.88 lakh. The Code on Social Security 2020 also reduced the continuous-service requirement from five to one year for fixed-term employees making more workers eligible."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is HRA still allowed in the new structure?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes HRA continues as a salary component under the new wage code. HRA is among the excluded items that fall outside wages so it does not contribute to PF or gratuity computation. Best-practice HRA is 50 percent of basic for metro cities Mumbai Delhi Kolkata Chennai and 40 percent of basic for non-metro cities. HRA exemption under Section 10(13A) of the Income Tax Act continues to be available against rent paid subject to lowest-of-three computation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does PF apply to all employees under the new code?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Provident Fund is mandatory for employees with basic salary up to 15000 rupees per month. Above this threshold PF is voluntary at employee election but most large employers continue PF at actual basic. Under the new wage code with mandated 50 percent basic many employees who were previously below 15000 now cross the threshold making them mandatorily covered. PF can be capped at 15000 or on actual basic depending on company policy."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the deadline for restructuring salaries?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Code on Wages 2019 came into force on 21 November 2025 and applies to all wage payments from that date. However transitional implementation has been gradual due to state rules notification timelines. Most employers are restructuring salaries with effect from the appraisal cycle in April 2026 when annual increments are processed. The EPFO can audit and recalculate PF wages with retrospective effect for non-compliant structures so early restructuring is recommended."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do small companies handle the wage code transition?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Small companies with low headcount can implement the wage code transition through their next payroll cycle. The standard approach is to keep gross CTC unchanged and reallocate components to comply with the 50 percent basic rule. This protects total compensation while ensuring statutory compliance. Companies needing payroll software updates should engage their vendor for Code on Wages compliance patches. The Patron payroll team handles transitions for companies of all sizes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are existing employee contracts affected?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes existing employment contracts must be aligned with the new wage definition. The standard practice is to issue revised salary breakup letters showing the new component-wise structure while keeping the gross CTC unchanged. Employee consent is generally required where the take-home pay reduces materially. Most courts have upheld restructuring done in good faith for statutory compliance even where take-home reduces. HR teams should communicate transparently and provide clear before-and-after comparisons to employees."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does the wage code change income tax computation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The wage code does not change income tax slabs or rates but it indirectly affects taxable income. Higher employee Provident Fund deduction reduces net taxable income since PF contribution up to 1.5 lakh qualifies under Section 80C in the old regime. Higher employer Provident Fund contribution above 7.5 lakh annually became taxable as perquisite per Finance Act 2020. Employees on the new tax regime where 80C is unavailable may see slightly higher tax outgo as the PF benefit is forgone."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is statutory bonus calculated under the new code?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Statutory bonus under the Payment of Bonus Act 1965 continues as before but is computed on the wage definition under the Code on Wages. Employees earning up to 21000 rupees per month basic plus DA are eligible for bonus between 8.33 percent and 20 percent of wages. Under the new wage code more employees may cross the 21000 threshold and become bonus-ineligible. Net effect varies by salary structure."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can an employer keep the old structure if employees consent?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. The 50 percent basic rule under the Code on Wages 2019 is a statutory minimum and cannot be waived by employee consent or contract. The Employees Provident Fund Organisation can recalculate PF wages on the higher basic and demand the difference with interest under Section 7Q of the EPF Act if structures are non-compliant. Penalty under Section 14B can also apply. Employers must restructure to comply regardless of employee preference for higher take-home."
+          }
+        }
+      ]
+    }
+    </script>
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Tool navigation">
     <div class="toc-nav-inner">

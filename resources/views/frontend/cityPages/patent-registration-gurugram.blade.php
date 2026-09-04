@@ -1,161 +1,12 @@
 
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Patent Registration Gurugram - Filing, Fees & Exam</title>
-    <meta name="description" content="File patent in Gurugram. Inventions, software, products. Patents Act 1970. Provisional filing, examination, 20-year protection. Call +91 945 945 6700.">
-    <link rel="canonical" href="/patent-registration/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Patent Registration Gurugram - Filing, Fees & Exam">
-    <meta property="og:description" content="File patent in Gurugram. Inventions, software, products. Patents Act 1970. Provisional filing, examination, 20-year protection. Call +91 945 945 6700.">
-    <meta property="og:url" content="/patent-registration/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Patent Registration Gurugram - Filing, Fees & Exam">
-    <meta name="twitter:description" content="File patent in Gurugram. Inventions, software, products. Patents Act 1970. Provisional filing, examination, 20-year protection. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "Patent Registration in Gurugram | Invention IP",
-      "description": "File patent in Gurugram. Inventions, software, products. Patents Act 1970. Provisional filing, examination, 20-year protection. Call +91 945 945 6700.",
-      "url": "https://www.patronaccounting.com/patent-registration/gurugram",
-      "serviceType": "Patent Registration in Gurugram | Invention IP",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/patent-registration/gurugram",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "minPrice": "1600",
-          "maxPrice": "25000",
-          "priceCurrency": "INR"
-        }
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Patent Registration in India: Process, Fees and Guide",
-          "item": "https://www.patronaccounting.com/patent-registration"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Patent Registration in Gurugram | Invention IP",
-          "item": "https://www.patronaccounting.com/patent-registration/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What can be patented in India?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Any novel invention that has an inventive step (not obvious to a person skilled in the art) and is capable of industrial application. This includes products, processes, methods, compositions, and apparatus. Section 3 of the Patents Act lists exclusions: business methods per se, computer programs per se, mathematical methods, abstract theories, therapeutic methods, and plants/animals."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does patent registration cost in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Government fees (e-filing): Startup/Individual - Rs 1,600 (filing) + Rs 4,000 (examination) = Rs 5,600 total. Company - Rs 8,000 (filing) + Rs 20,000 (examination) = Rs 28,000 total. Professional fees for drafting and prosecution: Rs 25,000 to Rs 1,50,000 depending on complexity. Call +91 945 945 6700 for a detailed quote."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does patent registration take in India?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Standard route: 2-4 years total. Expedited route (startups): 12 months possible. Process: provisional filing (immediate), publication (18 months), examination request (within 48 months), FER issuance and response (6-12 months), grant. Missing any deadline can result in application abandonment."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can software be patented in India?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Software 'per se' cannot be patented under Section 3(k) of the Patents Act. However, software inventions that produce a technical effect - solving a technical problem through technical means with industrial applicability - are patentable under the CRI (Computer-Related Inventions) Guidelines. The key is drafting: the specification must emphasize the technical contribution, not the algorithm."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does a patent last?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "20 years from the filing date. This period is subject to annual renewal fees - if the renewal fee is not paid, the patent lapses. After 20 years, the invention enters the public domain and can be freely used by anyone. No extension of the 20-year term is possible in India."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is expedited examination for startups?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "DPIIT-recognized startups can file Form 18A requesting expedited examination. This places the application in a faster queue, enabling patent grant within 12 months instead of the standard 2-4 years. Startups also get reduced government fees. The SIPP (Startups Intellectual Property Protection) scheme provides facilitator fee support from the government."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between patent and copyright for software?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patent protects the inventive method or process (how software solves a technical problem) for 20 years. Copyright protects the expression (the actual source code) for lifetime + 60 years. They can coexist: patent the novel technical method, copyright the code implementation. Patent requires novelty and examination. Copyright is automatic and needs no examination. Quick Answers Patent kitne saal ka hota hai? 20 saal filing date se. Har saal renewal fee dena padta hai. Fee nahi di toh patent lapse ho jayega. 20 saal ke baad invention public domain mein aa jaata hai. Software ka patent ho sakta hai? Software per se ka nahi (Section 3(k)). Lekin software invention jismein technical effect ho - technical problem ka technical solution jo industry mein use ho sake - woh patentable hai CRI Guidelines ke under. Drafting important hai. Startup ko kya benefit milta hai? DPIIT startups: sabse kam fees (Rs 1,600 filing), expedited examination (12 mahine mein grant possible), SIPP scheme mein facilitator fee government deti hai. Bahut cost-effective."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -679,7 +530,161 @@ section ul li:not(.nav-item) { font-size: 14px; }
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'Join Community'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Patent Registration Gurugram - Filing, Fees & Exam</title>
+    <meta name="description" content="File patent in Gurugram. Inventions, software, products. Patents Act 1970. Provisional filing, examination, 20-year protection. Call +91 945 945 6700.">
+    <link rel="canonical" href="/patent-registration/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Patent Registration Gurugram - Filing, Fees & Exam">
+    <meta property="og:description" content="File patent in Gurugram. Inventions, software, products. Patents Act 1970. Provisional filing, examination, 20-year protection. Call +91 945 945 6700.">
+    <meta property="og:url" content="/patent-registration/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Patent Registration Gurugram - Filing, Fees & Exam">
+    <meta name="twitter:description" content="File patent in Gurugram. Inventions, software, products. Patents Act 1970. Provisional filing, examination, 20-year protection. Call +91 945 945 6700.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "Patent Registration in Gurugram | Invention IP",
+      "description": "File patent in Gurugram. Inventions, software, products. Patents Act 1970. Provisional filing, examination, 20-year protection. Call +91 945 945 6700.",
+      "url": "https://www.patronaccounting.com/patent-registration/gurugram",
+      "serviceType": "Patent Registration in Gurugram | Invention IP",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.patronaccounting.com/patent-registration/gurugram",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": "1600",
+          "maxPrice": "25000",
+          "priceCurrency": "INR"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Patent Registration in India: Process, Fees and Guide",
+          "item": "https://www.patronaccounting.com/patent-registration"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Patent Registration in Gurugram | Invention IP",
+          "item": "https://www.patronaccounting.com/patent-registration/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What can be patented in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Any novel invention that has an inventive step (not obvious to a person skilled in the art) and is capable of industrial application. This includes products, processes, methods, compositions, and apparatus. Section 3 of the Patents Act lists exclusions: business methods per se, computer programs per se, mathematical methods, abstract theories, therapeutic methods, and plants/animals."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does patent registration cost in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Government fees (e-filing): Startup/Individual - Rs 1,600 (filing) + Rs 4,000 (examination) = Rs 5,600 total. Company - Rs 8,000 (filing) + Rs 20,000 (examination) = Rs 28,000 total. Professional fees for drafting and prosecution: Rs 25,000 to Rs 1,50,000 depending on complexity. Call +91 945 945 6700 for a detailed quote."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does patent registration take in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Standard route: 2-4 years total. Expedited route (startups): 12 months possible. Process: provisional filing (immediate), publication (18 months), examination request (within 48 months), FER issuance and response (6-12 months), grant. Missing any deadline can result in application abandonment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can software be patented in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Software 'per se' cannot be patented under Section 3(k) of the Patents Act. However, software inventions that produce a technical effect - solving a technical problem through technical means with industrial applicability - are patentable under the CRI (Computer-Related Inventions) Guidelines. The key is drafting: the specification must emphasize the technical contribution, not the algorithm."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does a patent last?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "20 years from the filing date. This period is subject to annual renewal fees - if the renewal fee is not paid, the patent lapses. After 20 years, the invention enters the public domain and can be freely used by anyone. No extension of the 20-year term is possible in India."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is expedited examination for startups?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "DPIIT-recognized startups can file Form 18A requesting expedited examination. This places the application in a faster queue, enabling patent grant within 12 months instead of the standard 2-4 years. Startups also get reduced government fees. The SIPP (Startups Intellectual Property Protection) scheme provides facilitator fee support from the government."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between patent and copyright for software?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patent protects the inventive method or process (how software solves a technical problem) for 20 years. Copyright protects the expression (the actual source code) for lifetime + 60 years. They can coexist: patent the novel technical method, copyright the code implementation. Patent requires novelty and examination. Copyright is automatic and needs no examination. Quick Answers Patent kitne saal ka hota hai? 20 saal filing date se. Har saal renewal fee dena padta hai. Fee nahi di toh patent lapse ho jayega. 20 saal ke baad invention public domain mein aa jaata hai. Software ka patent ho sakta hai? Software per se ka nahi (Section 3(k)). Lekin software invention jismein technical effect ho - technical problem ka technical solution jo industry mein use ho sake - woh patentable hai CRI Guidelines ke under. Drafting important hai. Startup ko kya benefit milta hai? DPIIT startups: sabse kam fees (Rs 1,600 filing), expedited examination (12 mahine mein grant possible), SIPP scheme mein facilitator fee government deti hai. Bahut cost-effective."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1608,7 +1613,6 @@ var tocWrapper=document.getElementById('tocWrapper');document.getElementById('to
 
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

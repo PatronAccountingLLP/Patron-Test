@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,208 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>Inventory Accounting in Delhi 2026 | Patron Accounting</title>
-    <meta name="description" content="Get stock valuation, costing and reconciliation for Delhi SMEs from INR 7,499/mo. CA-led AS 2 inventory work for Okhla, Karol Bagh and Nehru Place firms.">
-    <link rel="canonical" href="/inventory-accounting-costing-services/delhi">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Inventory Accounting in Delhi 2026 | Patron Accounting">
-    <meta property="og:description" content="Get stock valuation, costing and reconciliation for Delhi SMEs from INR 7,499/mo. CA-led AS 2 inventory work for Okhla, Karol Bagh and Nehru Place firms.">
-    <meta property="og:url" content="/inventory-accounting-costing-services/delhi">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Inventory Accounting in Delhi 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Get stock valuation, costing and reconciliation for Delhi SMEs from INR 7,499/mo. CA-led AS 2 inventory work for Okhla, Karol Bagh and Nehru Place firms.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/inventory-accounting-costing-services/delhi#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Inventory Accounting and Costing Services",
-          "item": "https://www.patronaccounting.com/inventory-accounting-costing-services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Inventory Accounting and Costing Services in Delhi",
-          "item": "https://www.patronaccounting.com/inventory-accounting-costing-services/delhi"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/inventory-accounting-costing-services/delhi#faq",
-      "datePublished": "2026-06-23T08:00:00+05:30",
-      "dateModified": "2026-06-23T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What does inventory accounting and costing mean for a Delhi business?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "It is the discipline of putting a correct value on the stock you hold and tracking every movement, so closing inventory and cost of goods sold are right. In Delhi that spans AS 2 or Ind AS 2 valuation, godown reconciliation, BOM costing, and ageing reviews for Karol Bagh traders and Okhla or Mayapuri manufacturers."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does Delhi charge profession tax on the staff who handle my stock?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Unlike Maharashtra, where PTRC and PTEC apply, Delhi levies no profession tax, so your warehouse and store-keeping payroll carries no such deduction. Patron still keeps stock-handling wages booked correctly, because that labour cost feeds into BOM, overhead allocation, and the true cost of goods you sell."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Under AS 2 and Ind AS 2, which valuation methods can I use?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Only two cost formulas are permitted, FIFO and weighted average, with stock carried at the lower of cost and net realisable value. LIFO is barred, and whichever method you pick must stay the same year after year. Patron settles on the formula that fits your Delhi trading or manufacturing model and applies it consistently."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is BOM costing handled for an Okhla manufacturing unit?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "For Okhla, Mayapuri, or Bawana SME factories, Patron builds a bill of materials for each finished item, then loads raw material, labour, and factory overhead onto every unit. Work in progress and finished goods are then valued accurately, and job or process costing is chosen to mirror how the unit actually runs production."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do you reconcile SKUs for a high-volume Karol Bagh trader?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Karol Bagh, Connaught Place, and Chandni Chowk traders often run thousands of SKUs with cash-heavy buying, so book and physical stock drift apart fast. Patron counts each godown, traces every variance back to purchases, sales, or recording slips, and posts approved adjustments so quantities tie out cleanly at the period close."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How are inter-godown stock transfers across NCR accounted for?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Delhi distributors moving stock between godowns and into the wider NCR need each transfer recorded so no quantity is lost or double-counted. Patron books branch transfers, keeps godown-wise valuation intact, and reconciles movement against e-way and delivery records, giving you one accurate stock position across every location at close."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Will wrong stock valuation hit my GST and income tax in Delhi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, because closing stock feeds straight into taxable profit, so a flawed value misstates your income tax. Section 145A also requires inventory to be valued inclusive of tax. Reliable stock records protect your GST input credit and survive scrutiny, and Patron ties them back to your books on the GST portal."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What does inventory accounting cost for a Delhi business?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Pricing opens at Starting from INR 7,499/mo (Exl GST and Govt. Charges). Where it lands depends on how many SKUs and godowns you hold, the costing method, and whether you trade, manufacture, or retail. Nehru Place and Okhla clients are given a fixed-scope quote before any work is started."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/inventory-accounting-costing-services/delhi#service",
-      "name": "Inventory Accounting and Costing Services in Delhi",
-      "description": "Inventory accounting and costing in Delhi covers FIFO and weighted average valuation under AS 2 and Ind AS 2, stock reconciliation, job, process and standard costing, BOM, COGS, and stock ageing. Patron Accounting serves traders, manufacturers, and retailers in Nehru Place, Okhla, and the industrial estates.",
-      "serviceType": "Inventory Accounting and Costing",
-      "url": "https://www.patronaccounting.com/inventory-accounting-costing-services/delhi",
-      "areaServed": {
-        "@type": "City",
-        "name": "Delhi",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Delhi"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#localbusiness-delhi"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Inventory",
-          "sameAs": "https://en.wikipedia.org/wiki/Inventory"
-        },
-        {
-          "@type": "Thing",
-          "name": "Cost accounting",
-          "sameAs": "https://en.wikipedia.org/wiki/Cost_accounting"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Inventory Accounting Plans in Delhi",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "price": "7499",
-            "priceSpecification": {
-              "@type": "UnitPriceSpecification",
-              "priceCurrency": "INR",
-              "price": "7499",
-              "unitText": "per month"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Inventory Accounting and Costing per Month"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness-delhi",
-      "name": "Patron Accounting LLP - Delhi",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/inventory-accounting-costing-services/delhi",
-      "telephone": "+91-9699936369",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Delhi"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Delhi",
-        "addressRegion": "Delhi",
-        "postalCode": "110085",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -815,7 +612,217 @@
         .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
 
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>Inventory Accounting in Delhi 2026 | Patron Accounting</title>
+    <meta name="description" content="Get stock valuation, costing and reconciliation for Delhi SMEs from INR 7,499/mo. CA-led AS 2 inventory work for Okhla, Karol Bagh and Nehru Place firms.">
+    <link rel="canonical" href="/inventory-accounting-costing-services/delhi">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Inventory Accounting in Delhi 2026 | Patron Accounting">
+    <meta property="og:description" content="Get stock valuation, costing and reconciliation for Delhi SMEs from INR 7,499/mo. CA-led AS 2 inventory work for Okhla, Karol Bagh and Nehru Place firms.">
+    <meta property="og:url" content="/inventory-accounting-costing-services/delhi">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Inventory Accounting in Delhi 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Get stock valuation, costing and reconciliation for Delhi SMEs from INR 7,499/mo. CA-led AS 2 inventory work for Okhla, Karol Bagh and Nehru Place firms.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/inventory-accounting-costing-services/delhi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Inventory Accounting and Costing Services",
+          "item": "https://www.patronaccounting.com/inventory-accounting-costing-services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Inventory Accounting and Costing Services in Delhi",
+          "item": "https://www.patronaccounting.com/inventory-accounting-costing-services/delhi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/inventory-accounting-costing-services/delhi#faq",
+      "datePublished": "2026-06-23T08:00:00+05:30",
+      "dateModified": "2026-06-23T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does inventory accounting and costing mean for a Delhi business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is the discipline of putting a correct value on the stock you hold and tracking every movement, so closing inventory and cost of goods sold are right. In Delhi that spans AS 2 or Ind AS 2 valuation, godown reconciliation, BOM costing, and ageing reviews for Karol Bagh traders and Okhla or Mayapuri manufacturers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Delhi charge profession tax on the staff who handle my stock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Unlike Maharashtra, where PTRC and PTEC apply, Delhi levies no profession tax, so your warehouse and store-keeping payroll carries no such deduction. Patron still keeps stock-handling wages booked correctly, because that labour cost feeds into BOM, overhead allocation, and the true cost of goods you sell."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Under AS 2 and Ind AS 2, which valuation methods can I use?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Only two cost formulas are permitted, FIFO and weighted average, with stock carried at the lower of cost and net realisable value. LIFO is barred, and whichever method you pick must stay the same year after year. Patron settles on the formula that fits your Delhi trading or manufacturing model and applies it consistently."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is BOM costing handled for an Okhla manufacturing unit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For Okhla, Mayapuri, or Bawana SME factories, Patron builds a bill of materials for each finished item, then loads raw material, labour, and factory overhead onto every unit. Work in progress and finished goods are then valued accurately, and job or process costing is chosen to mirror how the unit actually runs production."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you reconcile SKUs for a high-volume Karol Bagh trader?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Karol Bagh, Connaught Place, and Chandni Chowk traders often run thousands of SKUs with cash-heavy buying, so book and physical stock drift apart fast. Patron counts each godown, traces every variance back to purchases, sales, or recording slips, and posts approved adjustments so quantities tie out cleanly at the period close."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How are inter-godown stock transfers across NCR accounted for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Delhi distributors moving stock between godowns and into the wider NCR need each transfer recorded so no quantity is lost or double-counted. Patron books branch transfers, keeps godown-wise valuation intact, and reconciles movement against e-way and delivery records, giving you one accurate stock position across every location at close."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will wrong stock valuation hit my GST and income tax in Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, because closing stock feeds straight into taxable profit, so a flawed value misstates your income tax. Section 145A also requires inventory to be valued inclusive of tax. Reliable stock records protect your GST input credit and survive scrutiny, and Patron ties them back to your books on the GST portal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does inventory accounting cost for a Delhi business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pricing opens at Starting from INR 7,499/mo (Exl GST and Govt. Charges). Where it lands depends on how many SKUs and godowns you hold, the costing method, and whether you trade, manufacture, or retail. Nehru Place and Okhla clients are given a fixed-scope quote before any work is started."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/inventory-accounting-costing-services/delhi#service",
+      "name": "Inventory Accounting and Costing Services in Delhi",
+      "description": "Inventory accounting and costing in Delhi covers FIFO and weighted average valuation under AS 2 and Ind AS 2, stock reconciliation, job, process and standard costing, BOM, COGS, and stock ageing. Patron Accounting serves traders, manufacturers, and retailers in Nehru Place, Okhla, and the industrial estates.",
+      "serviceType": "Inventory Accounting and Costing",
+      "url": "https://www.patronaccounting.com/inventory-accounting-costing-services/delhi",
+      "areaServed": {
+        "@type": "City",
+        "name": "Delhi",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Delhi"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#localbusiness-delhi"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Inventory",
+          "sameAs": "https://en.wikipedia.org/wiki/Inventory"
+        },
+        {
+          "@type": "Thing",
+          "name": "Cost accounting",
+          "sameAs": "https://en.wikipedia.org/wiki/Cost_accounting"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Inventory Accounting Plans in Delhi",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "price": "7499",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "INR",
+              "price": "7499",
+              "unitText": "per month"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Inventory Accounting and Costing per Month"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness-delhi",
+      "name": "Patron Accounting LLP - Delhi",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/inventory-accounting-costing-services/delhi",
+      "telephone": "+91-9699936369",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Delhi"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Delhi",
+        "addressRegion": "Delhi",
+        "postalCode": "110085",
+        "addressCountry": "IN"
+      },
+      "parentOrganization": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1568,7 +1575,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

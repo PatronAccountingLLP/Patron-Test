@@ -1,146 +1,12 @@
 
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>CMA Data Preparation and Certification in Mumbai 2026 | Patron Accounting</title>
-    <meta name="description" content="CA-prepared and certified CMA data for bank loans: 7 statements, MPBF and ratios in IBA format for working capital and term loans. From INR 9,999.">
-    <link rel="canonical" href="/cma-data-preparation-and-certification/mumbai">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="CMA Data Preparation and Certification 2026 | Patron Accounting">
-    <meta property="og:description" content="CA-prepared and certified CMA data for bank loans: 7 statements, MPBF and ratios in IBA format for working capital and term loans. From INR 9,999.">
-    <meta property="og:url" content="/cma-data-preparation-and-certification/mumbai">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="CMA Data Preparation and Certification 2026 | Patron Accounting">
-    <meta name="twitter:description" content="CA-prepared and certified CMA data for bank loans: 7 statements, MPBF and ratios in IBA format for working capital and term loans. From INR 9,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/cma-data-preparation-and-certification/mumbai/#service",
-        "name": "CMA Data Preparation and Certification in India",
-        "description": "CA-prepared and certified Credit Monitoring Arrangement (CMA) data for bank loans, comprising all 7 statements in IBA format with Maximum Permissible Bank Finance computed under the Tandon Committee method and key ratio analysis, for working capital limits, term loans and renewals.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/cma-data-preparation-and-certification/mumbai" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Working capital", "sameAs": "https://en.wikipedia.org/wiki/Working_capital" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "CMA Data Preparation and Certification Service Plans",
-            "itemListElement": [
-                { "@type": "Offer", "name": "CMA Data Preparation and Certification (7 statements, IBA format)", "priceCurrency": "INR", "price": "9999", "description": "Full CA-led preparation and certification of all 7 CMA statements with MPBF under the Tandon method and ratio analysis, in IBA format, with UDIN where the bank requires it." }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/cma-data-preparation-and-certification/mumbai/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
-            { "@type": "ListItem", "position": 3, "name": "CMA Data Preparation and Certification", "item": "https://www.patronaccounting.com/cma-data-preparation-and-certification/mumbai" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/cma-data-preparation-and-certification/mumbai/#faq",
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "mainEntity": [
-            { "@type": "Question", "name": "What is CMA data and why do banks need it?", "acceptedAnswer": { "@type": "Answer", "text": "CMA data, or Credit Monitoring Arrangement data, is a standardised financial report a borrower submits to its bank to appraise a working capital or term loan. It presents historical and projected financials in a fixed format so the bank can assess financial health, repayment capacity and the limit to sanction. Banks require it for working capital limits, term loans, project loans and renewals to make and monitor credit decisions." } },
-            { "@type": "Question", "name": "What are the 7 statements in CMA data?", "acceptedAnswer": { "@type": "Answer", "text": "CMA data has 7 statements: particulars of existing and proposed bank facilities, the operating statement, analysis of the balance sheet, a comparative statement of current assets and liabilities, computation of Maximum Permissible Bank Finance, the fund flow statement, and ratio analysis. The statements must cross-tie, meaning the figures in one must correctly flow into the others for the report to be credible." } },
-            { "@type": "Question", "name": "What is MPBF and how is it calculated?", "acceptedAnswer": { "@type": "Answer", "text": "Maximum Permissible Bank Finance, or MPBF, is the ceiling a bank will fund for working capital. Under the Tandon Committee Method II, MPBF equals the working capital gap minus 25 percent of total current assets, which gives a minimum current ratio of 1.33 to 1. Method I uses 25 percent of the working capital gap. Banks generally base the sanction amount on Method II." } },
-            { "@type": "Question", "name": "When is CMA data required?", "acceptedAnswer": { "@type": "Answer", "text": "Banks require CMA data when sanctioning a new working capital limit, a term loan or a project loan, when renewing an existing limit, when enhancing a limit, or during a takeover of facilities by another bank. As a practical matter, larger proposals, for example working capital above a few crore or term loans above Rs 2 crore, almost always require a detailed CMA, though banks apply their own thresholds." } },
-            { "@type": "Question", "name": "How much does CMA data preparation cost?", "acceptedAnswer": { "@type": "Answer", "text": "At Patron Accounting, CMA data preparation and certification starts from Rs 9,999 (exclusive of GST and government charges). This is positioned at the professional floor for CA-led work and reflects full preparation and certification of all 7 statements with MPBF and ratio analysis. DIY software is cheaper but does not include CA review or certification. Final fees depend on loan size and projection years." } },
-            { "@type": "Question", "name": "Does CMA data need to be certified by a CA?", "acceptedAnswer": { "@type": "Answer", "text": "While not every bank insists on certification, a CA-prepared and certified CMA carries far more credibility, because the banker gets independent assurance that the financials and projections are sound and that the statements cross-tie. For larger proposals, banks often expect CA-certified data. We prepare the CMA and certify it with a UDIN where the bank requires it." } },
-            { "@type": "Question", "name": "Can projections in CMA data be too optimistic?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, and overly optimistic projections are a common reason proposals are questioned or rejected. Banks compare projections against past performance and industry norms, and against actuals at renewal. We build defensible projections grounded in your order book, capacity and history, so the MPBF and the limit applied for stand up to appraisal scrutiny rather than inviting cuts." } }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/cma-data-preparation-and-certification/mumbai",
-        "name": "CMA Data Preparation and Certification in India",
-        "description": "CA-prepared and certified CMA data for bank loans: 7 statements, MPBF and ratios in IBA format for working capital and term loans. From INR 9,999.",
-        "url": "https://www.patronaccounting.com/cma-data-preparation-and-certification/mumbai",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/cma-data-preparation-and-certification/mumbai/#service" },
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/cma-data-preparation-and-certification/mumbai/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How to Prepare CMA Data",
-        "description": "Five steps to prepare CA-certified CMA data: engagement, document submission, verification, modelling the 7 statements and MPBF, and certification and delivery.",
-        "totalTime": "P5D",
-        "step": [
-            { "@type": "HowToStep", "name": "Engagement", "text": "Confirm the facility type, amount applied for and the bank's format." },
-            { "@type": "HowToStep", "name": "Document submission", "text": "Share audited financials, GST and bank statements, and business plans." },
-            { "@type": "HowToStep", "name": "Verification", "text": "Figures verified against records under SA 500 (Audit Evidence) where certification is required." },
-            { "@type": "HowToStep", "name": "Modelling", "text": "Build the 7 statements, projections and MPBF, ensuring all statements cross-tie." },
-            { "@type": "HowToStep", "name": "Certification and delivery", "text": "Certify with a UDIN where required and deliver the banker-ready report." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "CMA Data Preparation and Certification Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "MPBF", "description": "Maximum Permissible Bank Finance, the ceiling a bank funds for working capital." },
-            { "@type": "DefinedTerm", "name": "Working Capital Gap", "description": "Current assets minus current liabilities other than bank borrowing." },
-            { "@type": "DefinedTerm", "name": "IBA format", "description": "The Indian Banks' Association standard layout banks expect for CMA data." },
-            { "@type": "DefinedTerm", "name": "DSCR", "description": "Debt Service Coverage Ratio, a key measure of repayment capacity for term loans." },
-            { "@type": "DefinedTerm", "name": "Current ratio", "description": "Current assets to current liabilities, with around 1.33:1 the benchmark." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -754,7 +620,146 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>CMA Data Preparation and Certification in Mumbai 2026 | Patron Accounting</title>
+    <meta name="description" content="CA-prepared and certified CMA data for bank loans: 7 statements, MPBF and ratios in IBA format for working capital and term loans. From INR 9,999.">
+    <link rel="canonical" href="/cma-data-preparation-and-certification/mumbai">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="CMA Data Preparation and Certification 2026 | Patron Accounting">
+    <meta property="og:description" content="CA-prepared and certified CMA data for bank loans: 7 statements, MPBF and ratios in IBA format for working capital and term loans. From INR 9,999.">
+    <meta property="og:url" content="/cma-data-preparation-and-certification/mumbai">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="CMA Data Preparation and Certification 2026 | Patron Accounting">
+    <meta name="twitter:description" content="CA-prepared and certified CMA data for bank loans: 7 statements, MPBF and ratios in IBA format for working capital and term loans. From INR 9,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/cma-data-preparation-and-certification/mumbai/#service",
+        "name": "CMA Data Preparation and Certification in India",
+        "description": "CA-prepared and certified Credit Monitoring Arrangement (CMA) data for bank loans, comprising all 7 statements in IBA format with Maximum Permissible Bank Finance computed under the Tandon Committee method and key ratio analysis, for working capital limits, term loans and renewals.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/cma-data-preparation-and-certification/mumbai" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Working capital", "sameAs": "https://en.wikipedia.org/wiki/Working_capital" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "CMA Data Preparation and Certification Service Plans",
+            "itemListElement": [
+                { "@type": "Offer", "name": "CMA Data Preparation and Certification (7 statements, IBA format)", "priceCurrency": "INR", "price": "9999", "description": "Full CA-led preparation and certification of all 7 CMA statements with MPBF under the Tandon method and ratio analysis, in IBA format, with UDIN where the bank requires it." }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/cma-data-preparation-and-certification/mumbai/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
+            { "@type": "ListItem", "position": 3, "name": "CMA Data Preparation and Certification", "item": "https://www.patronaccounting.com/cma-data-preparation-and-certification/mumbai" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/cma-data-preparation-and-certification/mumbai/#faq",
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "mainEntity": [
+            { "@type": "Question", "name": "What is CMA data and why do banks need it?", "acceptedAnswer": { "@type": "Answer", "text": "CMA data, or Credit Monitoring Arrangement data, is a standardised financial report a borrower submits to its bank to appraise a working capital or term loan. It presents historical and projected financials in a fixed format so the bank can assess financial health, repayment capacity and the limit to sanction. Banks require it for working capital limits, term loans, project loans and renewals to make and monitor credit decisions." } },
+            { "@type": "Question", "name": "What are the 7 statements in CMA data?", "acceptedAnswer": { "@type": "Answer", "text": "CMA data has 7 statements: particulars of existing and proposed bank facilities, the operating statement, analysis of the balance sheet, a comparative statement of current assets and liabilities, computation of Maximum Permissible Bank Finance, the fund flow statement, and ratio analysis. The statements must cross-tie, meaning the figures in one must correctly flow into the others for the report to be credible." } },
+            { "@type": "Question", "name": "What is MPBF and how is it calculated?", "acceptedAnswer": { "@type": "Answer", "text": "Maximum Permissible Bank Finance, or MPBF, is the ceiling a bank will fund for working capital. Under the Tandon Committee Method II, MPBF equals the working capital gap minus 25 percent of total current assets, which gives a minimum current ratio of 1.33 to 1. Method I uses 25 percent of the working capital gap. Banks generally base the sanction amount on Method II." } },
+            { "@type": "Question", "name": "When is CMA data required?", "acceptedAnswer": { "@type": "Answer", "text": "Banks require CMA data when sanctioning a new working capital limit, a term loan or a project loan, when renewing an existing limit, when enhancing a limit, or during a takeover of facilities by another bank. As a practical matter, larger proposals, for example working capital above a few crore or term loans above Rs 2 crore, almost always require a detailed CMA, though banks apply their own thresholds." } },
+            { "@type": "Question", "name": "How much does CMA data preparation cost?", "acceptedAnswer": { "@type": "Answer", "text": "At Patron Accounting, CMA data preparation and certification starts from Rs 9,999 (exclusive of GST and government charges). This is positioned at the professional floor for CA-led work and reflects full preparation and certification of all 7 statements with MPBF and ratio analysis. DIY software is cheaper but does not include CA review or certification. Final fees depend on loan size and projection years." } },
+            { "@type": "Question", "name": "Does CMA data need to be certified by a CA?", "acceptedAnswer": { "@type": "Answer", "text": "While not every bank insists on certification, a CA-prepared and certified CMA carries far more credibility, because the banker gets independent assurance that the financials and projections are sound and that the statements cross-tie. For larger proposals, banks often expect CA-certified data. We prepare the CMA and certify it with a UDIN where the bank requires it." } },
+            { "@type": "Question", "name": "Can projections in CMA data be too optimistic?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, and overly optimistic projections are a common reason proposals are questioned or rejected. Banks compare projections against past performance and industry norms, and against actuals at renewal. We build defensible projections grounded in your order book, capacity and history, so the MPBF and the limit applied for stand up to appraisal scrutiny rather than inviting cuts." } }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/cma-data-preparation-and-certification/mumbai",
+        "name": "CMA Data Preparation and Certification in India",
+        "description": "CA-prepared and certified CMA data for bank loans: 7 statements, MPBF and ratios in IBA format for working capital and term loans. From INR 9,999.",
+        "url": "https://www.patronaccounting.com/cma-data-preparation-and-certification/mumbai",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/cma-data-preparation-and-certification/mumbai/#service" },
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/cma-data-preparation-and-certification/mumbai/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Prepare CMA Data",
+        "description": "Five steps to prepare CA-certified CMA data: engagement, document submission, verification, modelling the 7 statements and MPBF, and certification and delivery.",
+        "totalTime": "P5D",
+        "step": [
+            { "@type": "HowToStep", "name": "Engagement", "text": "Confirm the facility type, amount applied for and the bank's format." },
+            { "@type": "HowToStep", "name": "Document submission", "text": "Share audited financials, GST and bank statements, and business plans." },
+            { "@type": "HowToStep", "name": "Verification", "text": "Figures verified against records under SA 500 (Audit Evidence) where certification is required." },
+            { "@type": "HowToStep", "name": "Modelling", "text": "Build the 7 statements, projections and MPBF, ensuring all statements cross-tie." },
+            { "@type": "HowToStep", "name": "Certification and delivery", "text": "Certify with a UDIN where required and deliver the banker-ready report." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "CMA Data Preparation and Certification Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "MPBF", "description": "Maximum Permissible Bank Finance, the ceiling a bank funds for working capital." },
+            { "@type": "DefinedTerm", "name": "Working Capital Gap", "description": "Current assets minus current liabilities other than bank borrowing." },
+            { "@type": "DefinedTerm", "name": "IBA format", "description": "The Indian Banks' Association standard layout banks expect for CMA data." },
+            { "@type": "DefinedTerm", "name": "DSCR", "description": "Debt Service Coverage Ratio, a key measure of repayment capacity for term loans." },
+            { "@type": "DefinedTerm", "name": "Current ratio", "description": "Current assets to current liabilities, with around 1.33:1 the benchmark." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1511,17 +1516,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1544,8 +1542,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1582,7 +1578,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (stable, not live date)
 (function(){
@@ -1593,3 +1588,19 @@ window.addEventListener('scroll', function() {
     if(el2)el2.textContent=dateStr;
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

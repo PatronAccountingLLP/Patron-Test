@@ -1,155 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>GST Returns for Trading Industry 2026 | Patron Accounting</title>
-    <meta name="description" content="GST returns for traders - wholesale/retail B2B vs B2C, stock transfer Rule 28, B2CL INR 1 lakh threshold. Starting from INR 1,499 per month.">
-    <link rel="canonical" href="/gst-returns-for-trading-industry">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="GST Returns for Trading Industry 2026 | Patron Accounting">
-    <meta property="og:description" content="GST returns for traders - wholesale/retail B2B vs B2C, stock transfer Rule 28, B2CL INR 1 lakh threshold. Starting from INR 1,499 per month.">
-    <meta property="og:url" content="/gst-returns-for-trading-industry">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="GST Returns for Trading Industry 2026 | Patron Accounting">
-    <meta name="twitter:description" content="GST returns for traders - wholesale/retail B2B vs B2C, stock transfer Rule 28, B2CL INR 1 lakh threshold. Starting from INR 1,499 per month.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/gst-returns-for-trading-industry/#service",
-        "name": "GST Returns for Trading Industry",
-        "description": "Monthly managed GST compliance for wholesale and retail traders, distributors, FMCG dealers, e-commerce sellers, and multi-state stockists. Covers B2B/B2CL/B2CS invoicing under Rule 59 post 1 August 2024 INR 1 lakh threshold, stock transfer Rule 28 valuation under Schedule I Entry 2, Table 12 HSN Summary split post May 2025, e-invoice from INR 5 crore turnover, composition scheme at 1% for traders, IMS daily discipline, and full GSTR-1/GSTR-3B filing.",
-        "serviceType": "GST Compliance for Trading Industry",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-returns-for-trading-industry" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [
-            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
-            { "@type": "Thing", "name": "Retail", "sameAs": "https://en.wikipedia.org/wiki/Retail" }
-        ],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "GST Returns for Trading Industry Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "Monthly GST Returns - Single GSTIN Trader",
-                    "priceCurrency": "INR",
-                    "price": "1499",
-                    "description": "Monthly GSTR-1 and GSTR-3B filing with B2B / B2CL / B2CS tagging and HSN compliance for a single-GSTIN trader"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/gst-returns-for-trading-industry/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
-            { "@type": "ListItem", "position": 3, "name": "GST Returns for Trading Industry", "item": "https://www.patronaccounting.com/gst-returns-for-trading-industry" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/gst-returns-for-trading-industry/#faq",
-        "datePublished": "2026-05-27T08:00:00+05:30",
-        "dateModified": "2026-06-01T08:00:00+05:30",
-        "mainEntity": [
-
-            {
-                "@type": "Question",
-                "name": "What returns must a trader file each month?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "A trader registered under the regular scheme files GSTR-1 by the 11th of the following month (or 13th if under QRMP) and GSTR-3B by the 20th (or 22nd / 24th for QRMP based on the State group). Composition traders file CMP-08 quarterly by 18th and annual GSTR-4 by 30 April. Annual GSTR-9 is due by 31 December; GSTR-9C reconciliation applies if aggregate turnover exceeds INR 5 crore."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the difference between B2B, B2CL, and B2CS in GSTR-1?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "B2B is supply to a registered recipient with GSTIN, reported invoice-wise in Table 4 regardless of value. B2CL is inter-state supply to an unregistered person with invoice value above INR 1 lakh (threshold reduced from INR 2.5 lakh effective 1 August 2024 per Rule 59(4)), reported invoice-wise in Table 5. B2CS is consolidated state-wise by tax rate in Table 7 - covers all intra-state supplies to unregistered (any value) plus inter-state to unregistered up to INR 1 lakh."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Is stock transfer between branches taxable under GST?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "It depends on the GSTIN. Movement of goods within the same GSTIN (same state, single registration) is pure inventory movement and not reported. Movement between different GSTINs under the same PAN - whether across states or within the same state with multiple registrations - is treated as supply between distinct persons under Schedule I Entry 2 and Section 25, taxable even without consideration. Tax invoice, Rule 28 valuation, e-way bill, and GSTR-1 / 3B reporting are all required."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How is stock transfer valued under GST?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Per Rule 28 of the CGST Rules, valuation follows a hierarchy - Open Market Value (OMV), value of goods of like kind and quality, Rule 30 cost plus 10 percent, and Rule 31 reasonable means. The second proviso to Rule 28 provides that where the recipient GSTIN is eligible for full input tax credit, the invoice value declared is deemed to be the OMV. There is also an optional method - 90 percent of the price at which goods are subsequently sold to an unrelated customer."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the e-invoice threshold for traders?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "E-invoice through the Invoice Reference Portal (IRP) is mandatory for any registered person whose aggregate turnover in any preceding financial year from FY 2017-18 onwards exceeds INR 5 crore. This threshold was set by Notification 10/2023-Central Tax dated 10 May 2023 effective 1 August 2023. The IRN must be generated before issuance of the invoice to the recipient. Failure to generate IRN renders the invoice non-est and the recipient cannot claim ITC."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can a trader opt for composition scheme?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, traders with aggregate turnover up to INR 1.5 crore (INR 75 lakh for special category States) in the preceding FY can opt for composition under Section 10 of the CGST Act at a rate of 1 percent of turnover. Composition restrictions - cannot supply inter-state, cannot supply through e-commerce TCS operator, cannot claim ITC, must issue Bill of Supply (not tax invoice), and file CMP-08 quarterly + GSTR-4 annually."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the Invoice Management System (IMS)?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "IMS is a facility introduced on the GST portal effective October 2024 that allows recipients to take action on inward invoices flowing into GSTR-2B. For each invoice, the recipient can accept (auto-flows to GSTR-2B), reject (does not flow), or keep pending (deferred to next period). The accepted invoices form the recipient ITC base in GSTR-3B. Daily IMS discipline is essential post Rule 36(4) 100 percent match requirement under Notification 17/2024-CT."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the cost of monthly GST returns for trading at Patron Accounting?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Starting from INR 1,499 per month (Exclusive of GST and government charges) for single-GSTIN trader compliance. Monthly returns plus multi-state stock transfer setup package starts from INR 2,999 per month. Composition vs Regular modelling, e-invoice + e-way bill integration, multi-state multi-GSTIN trader compliance, and DRC-01C / IMS mismatch reply are quoted separately based on scope."
-                }
-            }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -763,7 +618,157 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>GST Returns for Trading Industry 2026 | Patron Accounting</title>
+    <meta name="description" content="GST returns for traders - wholesale/retail B2B vs B2C, stock transfer Rule 28, B2CL INR 1 lakh threshold. Starting from INR 1,499 per month.">
+    <link rel="canonical" href="/gst-returns-for-trading-industry">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="GST Returns for Trading Industry 2026 | Patron Accounting">
+    <meta property="og:description" content="GST returns for traders - wholesale/retail B2B vs B2C, stock transfer Rule 28, B2CL INR 1 lakh threshold. Starting from INR 1,499 per month.">
+    <meta property="og:url" content="/gst-returns-for-trading-industry">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GST Returns for Trading Industry 2026 | Patron Accounting">
+    <meta name="twitter:description" content="GST returns for traders - wholesale/retail B2B vs B2C, stock transfer Rule 28, B2CL INR 1 lakh threshold. Starting from INR 1,499 per month.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/gst-returns-for-trading-industry/#service",
+        "name": "GST Returns for Trading Industry",
+        "description": "Monthly managed GST compliance for wholesale and retail traders, distributors, FMCG dealers, e-commerce sellers, and multi-state stockists. Covers B2B/B2CL/B2CS invoicing under Rule 59 post 1 August 2024 INR 1 lakh threshold, stock transfer Rule 28 valuation under Schedule I Entry 2, Table 12 HSN Summary split post May 2025, e-invoice from INR 5 crore turnover, composition scheme at 1% for traders, IMS daily discipline, and full GSTR-1/GSTR-3B filing.",
+        "serviceType": "GST Compliance for Trading Industry",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-returns-for-trading-industry" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [
+            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
+            { "@type": "Thing", "name": "Retail", "sameAs": "https://en.wikipedia.org/wiki/Retail" }
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "GST Returns for Trading Industry Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "Monthly GST Returns - Single GSTIN Trader",
+                    "priceCurrency": "INR",
+                    "price": "1499",
+                    "description": "Monthly GSTR-1 and GSTR-3B filing with B2B / B2CL / B2CS tagging and HSN compliance for a single-GSTIN trader"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/gst-returns-for-trading-industry/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
+            { "@type": "ListItem", "position": 3, "name": "GST Returns for Trading Industry", "item": "https://www.patronaccounting.com/gst-returns-for-trading-industry" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/gst-returns-for-trading-industry/#faq",
+        "datePublished": "2026-05-27T08:00:00+05:30",
+        "dateModified": "2026-06-01T08:00:00+05:30",
+        "mainEntity": [
+
+            {
+                "@type": "Question",
+                "name": "What returns must a trader file each month?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "A trader registered under the regular scheme files GSTR-1 by the 11th of the following month (or 13th if under QRMP) and GSTR-3B by the 20th (or 22nd / 24th for QRMP based on the State group). Composition traders file CMP-08 quarterly by 18th and annual GSTR-4 by 30 April. Annual GSTR-9 is due by 31 December; GSTR-9C reconciliation applies if aggregate turnover exceeds INR 5 crore."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the difference between B2B, B2CL, and B2CS in GSTR-1?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "B2B is supply to a registered recipient with GSTIN, reported invoice-wise in Table 4 regardless of value. B2CL is inter-state supply to an unregistered person with invoice value above INR 1 lakh (threshold reduced from INR 2.5 lakh effective 1 August 2024 per Rule 59(4)), reported invoice-wise in Table 5. B2CS is consolidated state-wise by tax rate in Table 7 - covers all intra-state supplies to unregistered (any value) plus inter-state to unregistered up to INR 1 lakh."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is stock transfer between branches taxable under GST?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "It depends on the GSTIN. Movement of goods within the same GSTIN (same state, single registration) is pure inventory movement and not reported. Movement between different GSTINs under the same PAN - whether across states or within the same state with multiple registrations - is treated as supply between distinct persons under Schedule I Entry 2 and Section 25, taxable even without consideration. Tax invoice, Rule 28 valuation, e-way bill, and GSTR-1 / 3B reporting are all required."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How is stock transfer valued under GST?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Per Rule 28 of the CGST Rules, valuation follows a hierarchy - Open Market Value (OMV), value of goods of like kind and quality, Rule 30 cost plus 10 percent, and Rule 31 reasonable means. The second proviso to Rule 28 provides that where the recipient GSTIN is eligible for full input tax credit, the invoice value declared is deemed to be the OMV. There is also an optional method - 90 percent of the price at which goods are subsequently sold to an unrelated customer."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the e-invoice threshold for traders?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "E-invoice through the Invoice Reference Portal (IRP) is mandatory for any registered person whose aggregate turnover in any preceding financial year from FY 2017-18 onwards exceeds INR 5 crore. This threshold was set by Notification 10/2023-Central Tax dated 10 May 2023 effective 1 August 2023. The IRN must be generated before issuance of the invoice to the recipient. Failure to generate IRN renders the invoice non-est and the recipient cannot claim ITC."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can a trader opt for composition scheme?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, traders with aggregate turnover up to INR 1.5 crore (INR 75 lakh for special category States) in the preceding FY can opt for composition under Section 10 of the CGST Act at a rate of 1 percent of turnover. Composition restrictions - cannot supply inter-state, cannot supply through e-commerce TCS operator, cannot claim ITC, must issue Bill of Supply (not tax invoice), and file CMP-08 quarterly + GSTR-4 annually."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the Invoice Management System (IMS)?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "IMS is a facility introduced on the GST portal effective October 2024 that allows recipients to take action on inward invoices flowing into GSTR-2B. For each invoice, the recipient can accept (auto-flows to GSTR-2B), reject (does not flow), or keep pending (deferred to next period). The accepted invoices form the recipient ITC base in GSTR-3B. Daily IMS discipline is essential post Rule 36(4) 100 percent match requirement under Notification 17/2024-CT."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the cost of monthly GST returns for trading at Patron Accounting?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Starting from INR 1,499 per month (Exclusive of GST and government charges) for single-GSTIN trader compliance. Monthly returns plus multi-state stock transfer setup package starts from INR 2,999 per month. Composition vs Regular modelling, e-invoice + e-way bill integration, multi-state multi-GSTIN trader compliance, and DRC-01C / IMS mismatch reply are quoted separately based on scope."
+                }
+            }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1624,17 +1629,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1657,8 +1655,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1695,7 +1691,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1706,4 +1701,20 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+
 

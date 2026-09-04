@@ -1,204 +1,8 @@
 @extends('layouts.app')
-@section('meta')
-
-<title>CARO 2020 Self-Assessment | Applicability &amp; 21 Clauses</title>
-<meta name="description" content="CARO 2020 self-assessment tool: check if the Companies Auditor's Report Order applies to your company and score readiness across all 21 clauses. Free CA tool.">
-<meta name="robots" content="index, follow">
-<link rel="canonical" href="https://www.patronaccounting.com/tools/caro-2020-self-assessment">
-
-<meta property="og:title" content="CARO 2020 Self-Assessment Tool — Free Applicability Check">
-<meta property="og:description" content="Check whether CARO 2020 applies to your company and score audit readiness across all 21 reporting clauses. Free, instant, India-specific.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.patronaccounting.com/tools/caro-2020-self-assessment">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="1200">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-<meta property="og:site_name" content="Patron Accounting LLP">
-<meta property="og:locale" content="en_IN">
-<meta name="theme-color" content="#15365f">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="CARO 2020 Self-Assessment Tool — Free Applicability Check">
-<meta name="twitter:description" content="Check whether CARO 2020 applies to your company and score audit readiness across all 21 reporting clauses.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-
-<link rel="icon" href="https://www.patronaccounting.com/favicon.ico">
-<link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-@endsection
-@section('schema')
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "CARO 2020 Self-Assessment Tool",
-  "description": "The CARO 2020 Self-Assessment Tool determines whether the Companies (Auditor's Report) Order 2020 applies to a company under Section 143(11) of the Companies Act 2013, applying the OPC, small company, banking, insurance, Section 8 and three-condition private company exemption tests, and scores audit readiness across all 21 reporting clauses.",
-  "url": "https://www.patronaccounting.com/tools/caro-2020-self-assessment",
-  "applicationCategory": "BusinessApplication",
-  "operatingSystem": "Any",
-  "inLanguage": "en-IN",
-  "isAccessibleForFree": true,
-  "datePublished": "2026-05-16T08:00:00+05:30",
-  "dateModified": "2026-05-16T08:00:00+05:30",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "INR"
-  },
-  "reviewedBy": {
-    "@type": "Person",
-    "@id": "https://patronaccounting.com/#founder",
-    "name": "CA Sundram Gupta",
-    "jobTitle": "Founder & Chartered Accountant",
-    "url": "https://www.patronaccounting.com/contact-page",
-    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-    "hasCredential": [{
-      "@type": "EducationalOccupationalCredential",
-      "credentialCategory": "Professional Certification",
-      "name": "Chartered Accountant (CA)",
-      "recognizedBy": {
-        "@type": "Organization",
-        "name": "Institute of Chartered Accountants of India",
-        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-      }
-    }]
-  },
-  "publisher": { "@id": "https://patronaccounting.com/#organization" },
-  "provider": { "@id": "https://patronaccounting.com/#organization" }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "CARO 2020 Self-Assessment Tool", "item": "https://www.patronaccounting.com/tools/caro-2020-self-assessment"}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the CARO 2020 Self-Assessment Tool?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "It is a free tool that first determines whether the Companies (Auditor's Report) Order 2020 applies to your company by running the statutory exemption tests, and then lets you score your readiness across all 21 CARO 2020 reporting clauses. It produces an applicability verdict and a clause-by-clause readiness percentage to guide audit preparation."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is CARO 2020?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CARO 2020 is the Companies (Auditor's Report) Order 2020, issued by the Ministry of Corporate Affairs under Section 143(11) of the Companies Act 2013. It requires statutory auditors to report on 21 specific matters, from property and inventory to fraud, going concern and CSR, and applies for financial years commencing on or after 1 April 2021."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which companies are exempt from CARO 2020?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CARO 2020 does not apply to banking companies, insurance companies, Section 8 companies, One Person Companies, small companies, and certain private companies that satisfy all three thresholds: paid-up capital plus reserves not over 1 crore, borrowings not over 1 crore at any time in the year, and revenue not over 10 crore. All other companies, including foreign companies, are covered."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How is a small company defined for CARO 2020?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A small company under Section 2(85) is exempt from CARO 2020. The CARO Guidance Note caps the small company thresholds at paid-up capital not exceeding 4 crore and last reported turnover not exceeding 40 crore. A company breaching either ceiling, or that is a public company or subsidiary of one, is not a small company and may fall under CARO 2020."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does CARO 2020 apply to private limited companies?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "It depends. A private company is exempt only if it is not a holding or subsidiary of a public company and satisfies all three conditions: paid-up capital plus reserves and surplus not over 1 crore on the balance sheet date, total borrowings from banks or financial institutions not over 1 crore at any point in the year, and total revenue not over 10 crore. Breaching any one triggers CARO 2020."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How many clauses are there in CARO 2020?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CARO 2020 contains 21 clauses, up from 16 in CARO 2016. Seven new clauses were added and existing clauses redrafted for more detailed auditor comment. They cover property, plant and equipment, inventory, loans and investments, deposits, statutory dues, fraud, internal audit, related party transactions, going concern, CSR and consolidated reporting, among others."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does CARO 2020 apply to an LLP?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. CARO 2020 applies only to companies registered under the Companies Act 2013, including foreign companies under Section 2(42). A Limited Liability Partnership is registered under the LLP Act 2008 and is outside the scope of CARO 2020, although LLPs have their own audit requirements based on turnover and contribution thresholds."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is CARO 2020 applicable to consolidated financial statements?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Partly. Unlike CARO 2016, CARO 2020 has clause 21, which requires the auditor of consolidated financial statements to report whether there are any qualifications or adverse remarks in the CARO reports of the companies included in the consolidation, along with the relevant paragraph numbers. The other 20 clauses are reported on standalone financial statements."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "From which financial year is CARO 2020 effective?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "After deferral, CARO 2020 became applicable for statutory audits of financial years commencing on or after 1 April 2021, that is financial year 2021-22 onwards. It replaced CARO 2016. Auditors should always refer to the rules and thresholds relevant to the financial year under audit, as exemption limits can be revised by notification."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Who issues CARO 2020 and under which section?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CARO 2020 was issued by the Ministry of Corporate Affairs on 25 February 2020 under Section 143(11) of the Companies Act 2013, after consultation with the National Financial Reporting Authority. The Institute of Chartered Accountants of India has issued a detailed Guidance Note to assist auditors in applying the Order's 21 clauses."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does this tool give a legally binding CARO opinion?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. The tool provides an indicative applicability verdict and a readiness score for planning purposes only. The final determination of CARO 2020 applicability and the clause-by-clause reporting is the statutory auditor's responsibility, based on the company's actual books, group structure and the rules for the specific financial year. Confirm with a Chartered Accountant."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does the tool store my company data?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. The CARO 2020 Self-Assessment Tool runs entirely in your browser. The company type, threshold figures and clause answers you enter are never transmitted to any server or stored anywhere. Refreshing the page clears all inputs, so you can assess applicability and readiness confidentially before engaging an auditor."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the CARO 2020 Self-Assessment Tool free?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, it is completely free with no sign-up or usage limit. Patron Accounting LLP provides it as a planning aid for directors, finance teams and auditors preparing for statutory audit. For a full CARO 2020 audit and clause-by-clause reporting, our Chartered Accountants conduct statutory audits across India."
-      }
-    }
-  ]
-}
-</script>
-
-@endsection
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
 <style>
 
         :root {
@@ -1283,6 +1087,204 @@ a:focus-visible {
 }
 
 </style>
+@endpush
+
+@section('meta')
+
+<title>CARO 2020 Self-Assessment | Applicability &amp; 21 Clauses</title>
+<meta name="description" content="CARO 2020 self-assessment tool: check if the Companies Auditor's Report Order applies to your company and score readiness across all 21 clauses. Free CA tool.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/caro-2020-self-assessment">
+
+<meta property="og:title" content="CARO 2020 Self-Assessment Tool — Free Applicability Check">
+<meta property="og:description" content="Check whether CARO 2020 applies to your company and score audit readiness across all 21 reporting clauses. Free, instant, India-specific.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/caro-2020-self-assessment">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+<meta property="og:site_name" content="Patron Accounting LLP">
+<meta property="og:locale" content="en_IN">
+<meta name="theme-color" content="#15365f">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="CARO 2020 Self-Assessment Tool — Free Applicability Check">
+<meta name="twitter:description" content="Check whether CARO 2020 applies to your company and score audit readiness across all 21 reporting clauses.">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+@endsection
+@section('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "CARO 2020 Self-Assessment Tool",
+  "description": "The CARO 2020 Self-Assessment Tool determines whether the Companies (Auditor's Report) Order 2020 applies to a company under Section 143(11) of the Companies Act 2013, applying the OPC, small company, banking, insurance, Section 8 and three-condition private company exemption tests, and scores audit readiness across all 21 reporting clauses.",
+  "url": "https://www.patronaccounting.com/tools/caro-2020-self-assessment",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Any",
+  "inLanguage": "en-IN",
+  "isAccessibleForFree": true,
+  "datePublished": "2026-05-16T08:00:00+05:30",
+  "dateModified": "2026-05-16T08:00:00+05:30",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "INR"
+  },
+  "reviewedBy": {
+    "@type": "Person",
+    "@id": "https://patronaccounting.com/#founder",
+    "name": "CA Sundram Gupta",
+    "jobTitle": "Founder & Chartered Accountant",
+    "url": "https://www.patronaccounting.com/contact-page",
+    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+    "hasCredential": [{
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Professional Certification",
+      "name": "Chartered Accountant (CA)",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Institute of Chartered Accountants of India",
+        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+      }
+    }]
+  },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
+  "provider": { "@id": "https://patronaccounting.com/#organization" }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "CARO 2020 Self-Assessment Tool", "item": "https://www.patronaccounting.com/tools/caro-2020-self-assessment"}
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the CARO 2020 Self-Assessment Tool?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It is a free tool that first determines whether the Companies (Auditor's Report) Order 2020 applies to your company by running the statutory exemption tests, and then lets you score your readiness across all 21 CARO 2020 reporting clauses. It produces an applicability verdict and a clause-by-clause readiness percentage to guide audit preparation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is CARO 2020?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CARO 2020 is the Companies (Auditor's Report) Order 2020, issued by the Ministry of Corporate Affairs under Section 143(11) of the Companies Act 2013. It requires statutory auditors to report on 21 specific matters, from property and inventory to fraud, going concern and CSR, and applies for financial years commencing on or after 1 April 2021."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which companies are exempt from CARO 2020?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CARO 2020 does not apply to banking companies, insurance companies, Section 8 companies, One Person Companies, small companies, and certain private companies that satisfy all three thresholds: paid-up capital plus reserves not over 1 crore, borrowings not over 1 crore at any time in the year, and revenue not over 10 crore. All other companies, including foreign companies, are covered."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is a small company defined for CARO 2020?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A small company under Section 2(85) is exempt from CARO 2020. The CARO Guidance Note caps the small company thresholds at paid-up capital not exceeding 4 crore and last reported turnover not exceeding 40 crore. A company breaching either ceiling, or that is a public company or subsidiary of one, is not a small company and may fall under CARO 2020."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does CARO 2020 apply to private limited companies?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It depends. A private company is exempt only if it is not a holding or subsidiary of a public company and satisfies all three conditions: paid-up capital plus reserves and surplus not over 1 crore on the balance sheet date, total borrowings from banks or financial institutions not over 1 crore at any point in the year, and total revenue not over 10 crore. Breaching any one triggers CARO 2020."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many clauses are there in CARO 2020?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CARO 2020 contains 21 clauses, up from 16 in CARO 2016. Seven new clauses were added and existing clauses redrafted for more detailed auditor comment. They cover property, plant and equipment, inventory, loans and investments, deposits, statutory dues, fraud, internal audit, related party transactions, going concern, CSR and consolidated reporting, among others."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does CARO 2020 apply to an LLP?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. CARO 2020 applies only to companies registered under the Companies Act 2013, including foreign companies under Section 2(42). A Limited Liability Partnership is registered under the LLP Act 2008 and is outside the scope of CARO 2020, although LLPs have their own audit requirements based on turnover and contribution thresholds."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is CARO 2020 applicable to consolidated financial statements?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Partly. Unlike CARO 2016, CARO 2020 has clause 21, which requires the auditor of consolidated financial statements to report whether there are any qualifications or adverse remarks in the CARO reports of the companies included in the consolidation, along with the relevant paragraph numbers. The other 20 clauses are reported on standalone financial statements."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "From which financial year is CARO 2020 effective?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "After deferral, CARO 2020 became applicable for statutory audits of financial years commencing on or after 1 April 2021, that is financial year 2021-22 onwards. It replaced CARO 2016. Auditors should always refer to the rules and thresholds relevant to the financial year under audit, as exemption limits can be revised by notification."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who issues CARO 2020 and under which section?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CARO 2020 was issued by the Ministry of Corporate Affairs on 25 February 2020 under Section 143(11) of the Companies Act 2013, after consultation with the National Financial Reporting Authority. The Institute of Chartered Accountants of India has issued a detailed Guidance Note to assist auditors in applying the Order's 21 clauses."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does this tool give a legally binding CARO opinion?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The tool provides an indicative applicability verdict and a readiness score for planning purposes only. The final determination of CARO 2020 applicability and the clause-by-clause reporting is the statutory auditor's responsibility, based on the company's actual books, group structure and the rules for the specific financial year. Confirm with a Chartered Accountant."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does the tool store my company data?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The CARO 2020 Self-Assessment Tool runs entirely in your browser. The company type, threshold figures and clause answers you enter are never transmitted to any server or stored anywhere. Refreshing the page clears all inputs, so you can assess applicability and readiness confidentially before engaging an auditor."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the CARO 2020 Self-Assessment Tool free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, it is completely free with no sign-up or usage limit. Patron Accounting LLP provides it as a planning aid for directors, finance teams and auditors preparing for statutory audit. For a full CARO 2020 audit and clause-by-clause reporting, our Chartered Accountants conduct statutory audits across India."
+      }
+    }
+  ]
+}
+</script>
+
+@endsection
 @section('content')
 
 <nav class="toc-nav" aria-label="Page Navigation">

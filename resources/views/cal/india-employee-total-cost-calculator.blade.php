@@ -1,210 +1,8 @@
 @extends('layouts.app')
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
-@section('meta')
-    <title>Employee Total Cost Calculator India | True CTC</title>
-    <meta name="description" content="Calculate the true total cost of an India employee, covering salary, PF, ESI, gratuity, benefits and overhead. Reveals 10-20% hidden loading above CTC. Free!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/india-employee-total-cost-calculator">
-    <meta property="og:title" content="India Employee Total Cost Calculator — Actual CTC 2026">
-    <meta property="og:description" content="Decompose the offer letter. Computes statutory loading + benefits + overhead beyond headline CTC. Surfaces true employer cost. Free CA tool.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/india-employee-total-cost-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="India Employee Total Cost Calculator — Actual CTC 2026">
-    <meta name="twitter:description" content="True total cost of hiring in India: salary + statutory + benefits + overhead. Free CA-built tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-    <meta name="theme-color" content="#15365f">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebApplication",
-      "name": "India Employee Total Cost Calculator (Actual CTC)",
-      "description": "India Employee Total Cost Calculator computes the actual all-in cost incurred by an Indian employer for one full-time employee, broken down across the cash component paid to the employee, statutory employer contributions remitted under Indian law, and indirect overhead absorbed by the employer including benefits, equipment, office space, learning and development, and administrative allocation. The tool incorporates the four Labour Codes effective from 21 November 2025 — the Code on Wages, 2019, the Industrial Relations Code, 2020, the Code on Social Security, 2020 and the Occupational Safety, Health and Working Conditions Code, 2020 — replacing twenty-nine pre-existing labour statutes. The tool reflects the unified definition of wages under Section 2(y) of the Code on Wages requiring that basic pay, dearness allowance and retaining allowance constitute at least fifty per cent of the total remuneration, with allowances exceeding fifty per cent of the total deemed to be wages for the purpose of statutory contribution computation. The tool computes Employees Provident Fund employer contribution at twelve per cent of wages on the statutory ceiling basis, Employees State Insurance employer contribution at three point two five per cent of gross wages where the gross wage is at or below twenty one thousand rupees per month, gratuity provision at four point eight one per cent of wages on the actuarial accrual basis under the Code on Social Security, statutory bonus at eight point three three per cent of wages under the Payment of Bonus Act, 1965 where applicable, professional tax at state-specific rates capped at two thousand five hundred rupees per annum under Article 276 of the Constitution of India, and Labour Welfare Fund contribution at state-specific annual rates. The tool computes employer-borne indirect costs including group health insurance premium across self-only, employee-plus-spouse and family floater coverage, equipment amortisation for laptops and peripherals over a thirty-six month useful life, allocated office space cost on a per-desk basis where applicable to the working mode, learning and development allocation, variable pay accrual, and administrative overhead representing the proportionate share of human resources, payroll and finance team cost attributable to one employee. The tool computes the loading percentage representing the gap between the headline CTC offered to the candidate and the true total cost incurred by the employer.",
-      "url": "https://www.patronaccounting.com/tools/india-employee-total-cost-calculator",
-      "applicationCategory": "FinanceApplication",
-      "operatingSystem": "Any",
-      "datePublished": "2026-05-08T08:00:00+05:30",
-      "dateModified": "2026-05-08T08:00:00+05:30",
-      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
-      "author": {
-        "@type": "Person",
-        "@id": "https://patronaccounting.com/#founder",
-        "name": "CA Sundram Gupta",
-        "jobTitle": "Founder & Chartered Accountant",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Institute of Chartered Accountants of India",
-            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-          }
-        }]
-      },
-      "publisher": { "@id": "https://patronaccounting.com/#organization" },
-      "provider": {"@id": "https://patronaccounting.com/#organization"}
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "India Employee Total Cost Calculator", "item": "https://www.patronaccounting.com/tools/india-employee-total-cost-calculator"}
-      ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is the difference between CTC and total cost of employment?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "CTC or Cost to Company is the headline number stated in the offer letter, typically including basic, dearness allowance, HRA, special allowance, and employer PF contribution. Total cost of employment goes further — it adds gratuity provision, statutory bonus, professional tax, Labour Welfare Fund, group health insurance, equipment amortisation, office space cost, learning and development budget, and proportionate HR and admin overhead. The gap between headline CTC and total cost typically ranges from 8% to 25%."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What hidden costs are not in the offer letter CTC?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Most offer letters exclude: gratuity provision at 4.81% of basic, statutory bonus where applicable, professional tax and Labour Welfare Fund, group health insurance premium of ₹500 to ₹1,500 per month, equipment amortisation of ₹1,500 to ₹3,000 per month for laptops and peripherals, allocated office space cost of ₹10,000 to ₹30,000 per month for office-based roles, learning and development budget of ₹1,000 to ₹5,000 per month, and 3 to 8 per cent administrative overhead representing HR, payroll and finance team allocation."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why must basic salary be at least 50% of CTC?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The Wages Code 2019 effective 21 November 2025 mandates that basic pay plus dearness allowance plus retaining allowance constitute at least 50% of total remuneration. Where excluded allowances such as HRA, conveyance and special allowance exceed 50% of total CTC, the excess is deemed to be wages for statutory purposes. This forces employers to restructure salary packages — earlier structures with 30-35% basic and 65-70% allowances are no longer compliant. The change raises PF and gratuity calculation bases substantially."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What statutory contributions does an Indian employer pay?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Indian employer statutory contributions include Provident Fund at 12% of wages with EDLI and admin charges, Employees State Insurance at 3.25% of gross wages where gross is ₹21,000 per month or below, gratuity provision at 4.81% of wages on actuarial accrual basis, statutory bonus at 8.33% to 20% of wages under the Payment of Bonus Act for eligible employees, professional tax at state-specific rates capped at ₹2,500 per year, and Labour Welfare Fund contribution at state-specific annual rates."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much should I budget for office space per employee?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Office space allocation per employee depends on city and Grade. For Grade A office space, expect ₹15,000 to ₹30,000 per desk per month in Mumbai, Bengaluru and Gurugram; ₹10,000 to ₹20,000 in Pune, Hyderabad and Chennai; ₹6,000 to ₹12,000 in tier-2 cities. Coworking memberships start at ₹8,000 per seat per month with full amenities. The cost includes rent, utilities, meeting rooms and pantry. For hybrid setups with 3 days office, allocate 60-70% of full-time desk cost."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the typical equipment cost per employee?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Equipment cost per employee in 2026 typically ranges from ₹60,000 to ₹1,50,000 depending on role. A standard knowledge worker laptop costs ₹70,000 to ₹1,00,000 with Windows or macOS. Add ₹15,000 to ₹25,000 for monitor, keyboard, mouse and headphones. Mobile allowances run ₹20,000 to ₹40,000 per phone every 2-3 years. Total equipment is typically amortised over 36 months, yielding ₹1,500 to ₹3,500 per month per employee. Premium roles or designers may need ₹1,50,000 to ₹2,50,000 setups."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do I calculate the loading percentage on CTC?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Loading percentage equals total cost minus headline CTC divided by headline CTC, expressed as a percentage. For a ₹15 lakh CTC employee with full benefits, office space and admin overhead, loading typically ranges from 12% to 22%, making the true cost ₹17 to ₹18.3 lakh per year. Remote employees with minimal benefits load at 5-8%; senior office-based employees with premium insurance load at 18-25%; junior employees in tier-2 cities load at 8-12%."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Should variable pay be included in total cost computation?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, variable pay should be included in total cost computation as a budgetary provision, not as discretionary spend. The Income Tax Act treats variable pay as part of salary for TDS under Section 192. For accounting, the expected variable component should be accrued monthly per Ind AS 19 or AS 15. For headcount budgeting, assume 100% achievement at target level — most companies plan and pay close to target. Build a 5-15% variable component into the total cost number."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the impact of work-from-home on total cost?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Full work-from-home reduces total cost by 12-18% versus office-based employment by eliminating allocated office space cost. However, employers should add internet allowance of ₹1,000 to ₹3,000 per month and electricity allowance for full-remote employees. Equipment cost stays the same or slightly higher (need to ship setup to home). Hybrid arrangements with 3 days office save 30-40% of full-office cost. The tax treatment of these allowances depends on whether they qualify as reimbursement under specific Income Tax exemptions."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the take-home pay for a ₹15 LPA CTC employee?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "For a ₹15 lakh CTC employee under the new tax regime FY 2025-26, monthly take-home is approximately ₹95,000 to ₹1,05,000. The gross monthly is ₹1,25,000. Deductions include employer PF ₹1,800 (excluded from gross), employee PF ₹1,800, professional tax ₹200 (state-dependent), and TDS under Section 192 of approximately ₹15,000-₹20,000 per month based on annual tax of ₹1.8-₹2.4 lakh. Old regime take-home is similar after standard deductions and 80C investments."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is gratuity calculated for accounting provision?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Gratuity provision is accounted at 4.81% of monthly wages, derived from the formula: 15 days wages divided by 26 working days, then divided by 12 months. This is the actuarial accrual matching the gratuity entitlement under the Payment of Gratuity Act 1972, now subsumed under the Code on Social Security 2020. Companies must accrue this as an unfunded liability or fund it through approved gratuity trust. Under Ind AS 19, the valuation captures full Defined Benefit Obligation."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What HR and admin overhead should I allocate per employee?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "HR and admin overhead allocation depends on company size. For startups under 20 employees, allocate 5-8% of total salary cost. For mid-size companies of 20-200 employees, 3-5% is typical. For larger companies above 200 employees, the allocation drops to 2-3%. The overhead covers HR team salary, payroll software, recruitment fees amortised, training infrastructure, employee engagement programmes, and POSH committee operations."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Are statutory bonus and ex-gratia bonus the same?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Statutory bonus is mandated under the Payment of Bonus Act 1965, applies to employees with monthly salary up to ₹21,000, in establishments with 20 or more employees, at minimum 8.33% to maximum 20% of salary capped at ₹7,000 per month for computation. Ex-gratia bonus is voluntary, applied to employees above the ₹21,000 threshold or in establishments not covered by the Act. For total cost computation, statutory bonus is mandatory budget; ex-gratia is discretionary but customary in organised sector firms."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Should I budget for notice period buyout reserve?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, prudent employers budget a notice period reserve equal to 1-3 months of total compensation. This reserve covers terminated employees serving notice, employees who buy out notice, and replacement hire onboarding overlap. The reserve typically equals 8-15% of annual cost, expensed monthly as accrual. For high-attrition roles or fixed-term employees with gratuity obligations, reserve at the higher end of the range."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does the new wages definition affect TDS computation?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The Code on Wages 2019 unified wages definition does not directly change Income Tax Act salary definition under Section 17. TDS under Section 192 continues to be computed on taxable salary including basic, allowances, perquisites and profits in lieu of salary. However, the Wages Code's broader base for PF and gratuity creates a higher PF contribution that the employee can claim as deduction, and a higher gratuity provision that affects the employee's eventual tax-free gratuity ceiling under Section 10(10)."
-          }
-        }
-      ]
-    }
-    </script>
-@endsection
-
 <style>
         :root {
             --primary: #15365f;
@@ -501,7 +299,209 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 }
 
 </style>
+@endpush
 
+@section('meta')
+    <title>Employee Total Cost Calculator India | True CTC</title>
+    <meta name="description" content="Calculate the true total cost of an India employee, covering salary, PF, ESI, gratuity, benefits and overhead. Reveals 10-20% hidden loading above CTC. Free!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/india-employee-total-cost-calculator">
+    <meta property="og:title" content="India Employee Total Cost Calculator — Actual CTC 2026">
+    <meta property="og:description" content="Decompose the offer letter. Computes statutory loading + benefits + overhead beyond headline CTC. Surfaces true employer cost. Free CA tool.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/india-employee-total-cost-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="India Employee Total Cost Calculator — Actual CTC 2026">
+    <meta name="twitter:description" content="True total cost of hiring in India: salary + statutory + benefits + overhead. Free CA-built tool.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+    <meta name="theme-color" content="#15365f">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "India Employee Total Cost Calculator (Actual CTC)",
+      "description": "India Employee Total Cost Calculator computes the actual all-in cost incurred by an Indian employer for one full-time employee, broken down across the cash component paid to the employee, statutory employer contributions remitted under Indian law, and indirect overhead absorbed by the employer including benefits, equipment, office space, learning and development, and administrative allocation. The tool incorporates the four Labour Codes effective from 21 November 2025 — the Code on Wages, 2019, the Industrial Relations Code, 2020, the Code on Social Security, 2020 and the Occupational Safety, Health and Working Conditions Code, 2020 — replacing twenty-nine pre-existing labour statutes. The tool reflects the unified definition of wages under Section 2(y) of the Code on Wages requiring that basic pay, dearness allowance and retaining allowance constitute at least fifty per cent of the total remuneration, with allowances exceeding fifty per cent of the total deemed to be wages for the purpose of statutory contribution computation. The tool computes Employees Provident Fund employer contribution at twelve per cent of wages on the statutory ceiling basis, Employees State Insurance employer contribution at three point two five per cent of gross wages where the gross wage is at or below twenty one thousand rupees per month, gratuity provision at four point eight one per cent of wages on the actuarial accrual basis under the Code on Social Security, statutory bonus at eight point three three per cent of wages under the Payment of Bonus Act, 1965 where applicable, professional tax at state-specific rates capped at two thousand five hundred rupees per annum under Article 276 of the Constitution of India, and Labour Welfare Fund contribution at state-specific annual rates. The tool computes employer-borne indirect costs including group health insurance premium across self-only, employee-plus-spouse and family floater coverage, equipment amortisation for laptops and peripherals over a thirty-six month useful life, allocated office space cost on a per-desk basis where applicable to the working mode, learning and development allocation, variable pay accrual, and administrative overhead representing the proportionate share of human resources, payroll and finance team cost attributable to one employee. The tool computes the loading percentage representing the gap between the headline CTC offered to the candidate and the true total cost incurred by the employer.",
+      "url": "https://www.patronaccounting.com/tools/india-employee-total-cost-calculator",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Any",
+      "datePublished": "2026-05-08T08:00:00+05:30",
+      "dateModified": "2026-05-08T08:00:00+05:30",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
+      "author": {
+        "@type": "Person",
+        "@id": "https://patronaccounting.com/#founder",
+        "name": "CA Sundram Gupta",
+        "jobTitle": "Founder & Chartered Accountant",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Institute of Chartered Accountants of India",
+            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+          }
+        }]
+      },
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": {"@id": "https://patronaccounting.com/#organization"}
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "India Employee Total Cost Calculator", "item": "https://www.patronaccounting.com/tools/india-employee-total-cost-calculator"}
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the difference between CTC and total cost of employment?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CTC or Cost to Company is the headline number stated in the offer letter, typically including basic, dearness allowance, HRA, special allowance, and employer PF contribution. Total cost of employment goes further — it adds gratuity provision, statutory bonus, professional tax, Labour Welfare Fund, group health insurance, equipment amortisation, office space cost, learning and development budget, and proportionate HR and admin overhead. The gap between headline CTC and total cost typically ranges from 8% to 25%."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What hidden costs are not in the offer letter CTC?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most offer letters exclude: gratuity provision at 4.81% of basic, statutory bonus where applicable, professional tax and Labour Welfare Fund, group health insurance premium of ₹500 to ₹1,500 per month, equipment amortisation of ₹1,500 to ₹3,000 per month for laptops and peripherals, allocated office space cost of ₹10,000 to ₹30,000 per month for office-based roles, learning and development budget of ₹1,000 to ₹5,000 per month, and 3 to 8 per cent administrative overhead representing HR, payroll and finance team allocation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why must basic salary be at least 50% of CTC?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Wages Code 2019 effective 21 November 2025 mandates that basic pay plus dearness allowance plus retaining allowance constitute at least 50% of total remuneration. Where excluded allowances such as HRA, conveyance and special allowance exceed 50% of total CTC, the excess is deemed to be wages for statutory purposes. This forces employers to restructure salary packages — earlier structures with 30-35% basic and 65-70% allowances are no longer compliant. The change raises PF and gratuity calculation bases substantially."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What statutory contributions does an Indian employer pay?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Indian employer statutory contributions include Provident Fund at 12% of wages with EDLI and admin charges, Employees State Insurance at 3.25% of gross wages where gross is ₹21,000 per month or below, gratuity provision at 4.81% of wages on actuarial accrual basis, statutory bonus at 8.33% to 20% of wages under the Payment of Bonus Act for eligible employees, professional tax at state-specific rates capped at ₹2,500 per year, and Labour Welfare Fund contribution at state-specific annual rates."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much should I budget for office space per employee?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Office space allocation per employee depends on city and Grade. For Grade A office space, expect ₹15,000 to ₹30,000 per desk per month in Mumbai, Bengaluru and Gurugram; ₹10,000 to ₹20,000 in Pune, Hyderabad and Chennai; ₹6,000 to ₹12,000 in tier-2 cities. Coworking memberships start at ₹8,000 per seat per month with full amenities. The cost includes rent, utilities, meeting rooms and pantry. For hybrid setups with 3 days office, allocate 60-70% of full-time desk cost."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the typical equipment cost per employee?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Equipment cost per employee in 2026 typically ranges from ₹60,000 to ₹1,50,000 depending on role. A standard knowledge worker laptop costs ₹70,000 to ₹1,00,000 with Windows or macOS. Add ₹15,000 to ₹25,000 for monitor, keyboard, mouse and headphones. Mobile allowances run ₹20,000 to ₹40,000 per phone every 2-3 years. Total equipment is typically amortised over 36 months, yielding ₹1,500 to ₹3,500 per month per employee. Premium roles or designers may need ₹1,50,000 to ₹2,50,000 setups."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I calculate the loading percentage on CTC?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Loading percentage equals total cost minus headline CTC divided by headline CTC, expressed as a percentage. For a ₹15 lakh CTC employee with full benefits, office space and admin overhead, loading typically ranges from 12% to 22%, making the true cost ₹17 to ₹18.3 lakh per year. Remote employees with minimal benefits load at 5-8%; senior office-based employees with premium insurance load at 18-25%; junior employees in tier-2 cities load at 8-12%."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should variable pay be included in total cost computation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, variable pay should be included in total cost computation as a budgetary provision, not as discretionary spend. The Income Tax Act treats variable pay as part of salary for TDS under Section 192. For accounting, the expected variable component should be accrued monthly per Ind AS 19 or AS 15. For headcount budgeting, assume 100% achievement at target level — most companies plan and pay close to target. Build a 5-15% variable component into the total cost number."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the impact of work-from-home on total cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Full work-from-home reduces total cost by 12-18% versus office-based employment by eliminating allocated office space cost. However, employers should add internet allowance of ₹1,000 to ₹3,000 per month and electricity allowance for full-remote employees. Equipment cost stays the same or slightly higher (need to ship setup to home). Hybrid arrangements with 3 days office save 30-40% of full-office cost. The tax treatment of these allowances depends on whether they qualify as reimbursement under specific Income Tax exemptions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the take-home pay for a ₹15 LPA CTC employee?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For a ₹15 lakh CTC employee under the new tax regime FY 2025-26, monthly take-home is approximately ₹95,000 to ₹1,05,000. The gross monthly is ₹1,25,000. Deductions include employer PF ₹1,800 (excluded from gross), employee PF ₹1,800, professional tax ₹200 (state-dependent), and TDS under Section 192 of approximately ₹15,000-₹20,000 per month based on annual tax of ₹1.8-₹2.4 lakh. Old regime take-home is similar after standard deductions and 80C investments."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is gratuity calculated for accounting provision?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gratuity provision is accounted at 4.81% of monthly wages, derived from the formula: 15 days wages divided by 26 working days, then divided by 12 months. This is the actuarial accrual matching the gratuity entitlement under the Payment of Gratuity Act 1972, now subsumed under the Code on Social Security 2020. Companies must accrue this as an unfunded liability or fund it through approved gratuity trust. Under Ind AS 19, the valuation captures full Defined Benefit Obligation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What HR and admin overhead should I allocate per employee?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "HR and admin overhead allocation depends on company size. For startups under 20 employees, allocate 5-8% of total salary cost. For mid-size companies of 20-200 employees, 3-5% is typical. For larger companies above 200 employees, the allocation drops to 2-3%. The overhead covers HR team salary, payroll software, recruitment fees amortised, training infrastructure, employee engagement programmes, and POSH committee operations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are statutory bonus and ex-gratia bonus the same?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Statutory bonus is mandated under the Payment of Bonus Act 1965, applies to employees with monthly salary up to ₹21,000, in establishments with 20 or more employees, at minimum 8.33% to maximum 20% of salary capped at ₹7,000 per month for computation. Ex-gratia bonus is voluntary, applied to employees above the ₹21,000 threshold or in establishments not covered by the Act. For total cost computation, statutory bonus is mandatory budget; ex-gratia is discretionary but customary in organised sector firms."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I budget for notice period buyout reserve?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, prudent employers budget a notice period reserve equal to 1-3 months of total compensation. This reserve covers terminated employees serving notice, employees who buy out notice, and replacement hire onboarding overlap. The reserve typically equals 8-15% of annual cost, expensed monthly as accrual. For high-attrition roles or fixed-term employees with gratuity obligations, reserve at the higher end of the range."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does the new wages definition affect TDS computation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Code on Wages 2019 unified wages definition does not directly change Income Tax Act salary definition under Section 17. TDS under Section 192 continues to be computed on taxable salary including basic, allowances, perquisites and profits in lieu of salary. However, the Wages Code's broader base for PF and gratuity creates a higher PF contribution that the employee can claim as deduction, and a higher gratuity provision that affects the employee's eventual tax-free gratuity ceiling under Section 10(10)."
+          }
+        }
+      ]
+    }
+    </script>
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation">
     <div class="toc-nav-inner">

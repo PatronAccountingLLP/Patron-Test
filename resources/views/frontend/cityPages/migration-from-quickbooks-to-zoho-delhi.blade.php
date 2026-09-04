@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,213 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>QuickBooks to Zoho Migration Delhi 2026 | Patron Accounting</title>
-    <meta name="description" content="Switch from QuickBooks Online to Zoho Books in Delhi from INR 9,999. CA-led QBO export, GST re-mapping, and zero-difference tie-out for Nehru Place firms.">
-    <link rel="canonical" href="/migration-from-quickbooks-to-zoho/delhi">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="QuickBooks to Zoho Migration Delhi 2026 | Patron Accounting">
-    <meta property="og:description" content="Switch from QuickBooks Online to Zoho Books in Delhi from INR 9,999. CA-led QBO export, GST re-mapping, and zero-difference tie-out for Nehru Place firms.">
-    <meta property="og:url" content="/migration-from-quickbooks-to-zoho/delhi">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="QuickBooks to Zoho Migration Delhi 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Switch from QuickBooks Online to Zoho Books in Delhi from INR 9,999. CA-led QBO export, GST re-mapping, and zero-difference tie-out for Nehru Place firms.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/migration-from-quickbooks-to-zoho/delhi#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Migration from QuickBooks to Zoho",
-          "item": "https://www.patronaccounting.com/migration-from-quickbooks-to-zoho"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "QuickBooks to Zoho Migration in Delhi",
-          "item": "https://www.patronaccounting.com/migration-from-quickbooks-to-zoho/delhi"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/migration-from-quickbooks-to-zoho/delhi#faq",
-      "datePublished": "2026-06-23T08:00:00+05:30",
-      "dateModified": "2026-06-23T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Why should a Delhi business leave QuickBooks Online for Zoho Books?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Once Intuit pulled its India QuickBooks plans, QBO stopped delivering India GST, e-invoicing, GSTR filing and local bank feeds within the software. Zoho Books was designed around Indian compliance, so Nehru Place IT resellers and Okhla manufacturers are shifting their ledgers across to keep filing and reporting in one place."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What does QuickBooks to Zoho migration cost for a Delhi firm?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Our fees begin at Starting from INR 9,999 (Exl GST and Govt. Charges). The exact figure depends on the years of QBO history you carry over, how many ledgers and GSTINs are involved, your transaction count relative to the 50,000-per-module cap, and whether you adopt Zoho Books alone or full Zoho One. You receive a fixed quote upfront."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do Nehru Place IT resellers move clean data out of QuickBooks Online?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "For a Nehru Place reseller we download the QBO data as a ZIP covering the chart of accounts, customer, vendor and item masters and the transaction history, together with a trial balance and ageing reports cut to the same date. Those exported QuickBooks reports stay the benchmark we tie your Delhi Zoho Books file back to."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Will my QuickBooks closing balances reconcile in Zoho Books?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "They will. Opening balances plus receivables and payables are lifted from your QBO Customer Balance Detail and Supplier Balance Detail reports, after which we verify that the net gap between the QuickBooks closing balance and the Zoho Books closing balance lands at zero for each account before a Chartered Accountant signs it off."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does a Connaught Place agency billing overseas clients handle GST in Zoho?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Before any transaction loads, QuickBooks tax codes are re-mapped to Indian GST inside Zoho Books. For a Connaught Place agency invoicing foreign clients we configure GSTIN, HSN and SAC codes, the GSP link, e-invoicing, export and zero-rated treatment and GSTR-2B matching under the CGST Act 2017, so past entries carry correct CGST, SGST or IGST."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the 50,000-per-module cap and how does it affect Karol Bagh traders?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Zoho's DIY migration loads a maximum of 50,000 transactions per module, covering invoices, bills, payments and expenses separately. A high-volume Karol Bagh trader can blow past that ceiling, so Patron splits the import into batches or trims older history, making sure no invoice or payment is quietly lost during the Delhi move."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does QuickBooks to Zoho migration take for an Okhla business?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A single-GSTIN Nehru Place firm shifting opening balances and the current year is typically live within 3 to 7 working days. An Okhla manufacturer dragging multi-year QBO history across several GSTINs runs 3 to 6 weeks. The deciding factors are transaction volume against the per-module cap and how fast your reports reach us."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I still access my QuickBooks Online records after switching to Zoho?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. The QuickBooks Online ZIP and reports you exported are retained for the 6-year period required under Rule 6F(5) of the Income Tax Rules. You choose how much QBO history actually enters Zoho Books, ranging from opening balances alone up to several years of invoices, bills and journal entries."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/migration-from-quickbooks-to-zoho/delhi#service",
-      "name": "QuickBooks to Zoho Migration in Delhi",
-      "description": "QuickBooks Online to Zoho Books migration in Delhi exports your QBO data, re-maps the chart of accounts, carries opening balances, masters and historical transactions across, and rebuilds Indian GST. Patron Accounting reconciles closing balances for Nehru Place, Okhla, and Karol Bagh businesses.",
-      "serviceType": "QuickBooks Online to Zoho Books Migration",
-      "url": "https://www.patronaccounting.com/migration-from-quickbooks-to-zoho/delhi",
-      "areaServed": {
-        "@type": "City",
-        "name": "Delhi",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Delhi"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#localbusiness-delhi"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Accounting software",
-          "sameAs": "https://en.wikipedia.org/wiki/Accounting_software"
-        },
-        {
-          "@type": "Thing",
-          "name": "QuickBooks",
-          "sameAs": "https://en.wikipedia.org/wiki/QuickBooks"
-        },
-        {
-          "@type": "Thing",
-          "name": "Goods and Services Tax (India)",
-          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "QuickBooks to Zoho Migration Plans in Delhi",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "price": "9999",
-            "priceSpecification": {
-              "@type": "UnitPriceSpecification",
-              "priceCurrency": "INR",
-              "price": "9999",
-              "unitText": "starting from"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "QuickBooks Online to Zoho Books Migration"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness-delhi",
-      "name": "Patron Accounting LLP - Delhi",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/migration-from-quickbooks-to-zoho/delhi",
-      "telephone": "+91-9699936369",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Delhi"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Delhi",
-        "addressRegion": "Delhi",
-        "postalCode": "110085",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -820,7 +612,222 @@
         .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
 
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>QuickBooks to Zoho Migration Delhi 2026 | Patron Accounting</title>
+    <meta name="description" content="Switch from QuickBooks Online to Zoho Books in Delhi from INR 9,999. CA-led QBO export, GST re-mapping, and zero-difference tie-out for Nehru Place firms.">
+    <link rel="canonical" href="/migration-from-quickbooks-to-zoho/delhi">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="QuickBooks to Zoho Migration Delhi 2026 | Patron Accounting">
+    <meta property="og:description" content="Switch from QuickBooks Online to Zoho Books in Delhi from INR 9,999. CA-led QBO export, GST re-mapping, and zero-difference tie-out for Nehru Place firms.">
+    <meta property="og:url" content="/migration-from-quickbooks-to-zoho/delhi">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="QuickBooks to Zoho Migration Delhi 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Switch from QuickBooks Online to Zoho Books in Delhi from INR 9,999. CA-led QBO export, GST re-mapping, and zero-difference tie-out for Nehru Place firms.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/migration-from-quickbooks-to-zoho/delhi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Migration from QuickBooks to Zoho",
+          "item": "https://www.patronaccounting.com/migration-from-quickbooks-to-zoho"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "QuickBooks to Zoho Migration in Delhi",
+          "item": "https://www.patronaccounting.com/migration-from-quickbooks-to-zoho/delhi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/migration-from-quickbooks-to-zoho/delhi#faq",
+      "datePublished": "2026-06-23T08:00:00+05:30",
+      "dateModified": "2026-06-23T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why should a Delhi business leave QuickBooks Online for Zoho Books?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Once Intuit pulled its India QuickBooks plans, QBO stopped delivering India GST, e-invoicing, GSTR filing and local bank feeds within the software. Zoho Books was designed around Indian compliance, so Nehru Place IT resellers and Okhla manufacturers are shifting their ledgers across to keep filing and reporting in one place."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does QuickBooks to Zoho migration cost for a Delhi firm?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our fees begin at Starting from INR 9,999 (Exl GST and Govt. Charges). The exact figure depends on the years of QBO history you carry over, how many ledgers and GSTINs are involved, your transaction count relative to the 50,000-per-module cap, and whether you adopt Zoho Books alone or full Zoho One. You receive a fixed quote upfront."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do Nehru Place IT resellers move clean data out of QuickBooks Online?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For a Nehru Place reseller we download the QBO data as a ZIP covering the chart of accounts, customer, vendor and item masters and the transaction history, together with a trial balance and ageing reports cut to the same date. Those exported QuickBooks reports stay the benchmark we tie your Delhi Zoho Books file back to."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will my QuickBooks closing balances reconcile in Zoho Books?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "They will. Opening balances plus receivables and payables are lifted from your QBO Customer Balance Detail and Supplier Balance Detail reports, after which we verify that the net gap between the QuickBooks closing balance and the Zoho Books closing balance lands at zero for each account before a Chartered Accountant signs it off."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does a Connaught Place agency billing overseas clients handle GST in Zoho?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Before any transaction loads, QuickBooks tax codes are re-mapped to Indian GST inside Zoho Books. For a Connaught Place agency invoicing foreign clients we configure GSTIN, HSN and SAC codes, the GSP link, e-invoicing, export and zero-rated treatment and GSTR-2B matching under the CGST Act 2017, so past entries carry correct CGST, SGST or IGST."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the 50,000-per-module cap and how does it affect Karol Bagh traders?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Zoho's DIY migration loads a maximum of 50,000 transactions per module, covering invoices, bills, payments and expenses separately. A high-volume Karol Bagh trader can blow past that ceiling, so Patron splits the import into batches or trims older history, making sure no invoice or payment is quietly lost during the Delhi move."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does QuickBooks to Zoho migration take for an Okhla business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A single-GSTIN Nehru Place firm shifting opening balances and the current year is typically live within 3 to 7 working days. An Okhla manufacturer dragging multi-year QBO history across several GSTINs runs 3 to 6 weeks. The deciding factors are transaction volume against the per-module cap and how fast your reports reach us."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I still access my QuickBooks Online records after switching to Zoho?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The QuickBooks Online ZIP and reports you exported are retained for the 6-year period required under Rule 6F(5) of the Income Tax Rules. You choose how much QBO history actually enters Zoho Books, ranging from opening balances alone up to several years of invoices, bills and journal entries."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/migration-from-quickbooks-to-zoho/delhi#service",
+      "name": "QuickBooks to Zoho Migration in Delhi",
+      "description": "QuickBooks Online to Zoho Books migration in Delhi exports your QBO data, re-maps the chart of accounts, carries opening balances, masters and historical transactions across, and rebuilds Indian GST. Patron Accounting reconciles closing balances for Nehru Place, Okhla, and Karol Bagh businesses.",
+      "serviceType": "QuickBooks Online to Zoho Books Migration",
+      "url": "https://www.patronaccounting.com/migration-from-quickbooks-to-zoho/delhi",
+      "areaServed": {
+        "@type": "City",
+        "name": "Delhi",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Delhi"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#localbusiness-delhi"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Accounting software",
+          "sameAs": "https://en.wikipedia.org/wiki/Accounting_software"
+        },
+        {
+          "@type": "Thing",
+          "name": "QuickBooks",
+          "sameAs": "https://en.wikipedia.org/wiki/QuickBooks"
+        },
+        {
+          "@type": "Thing",
+          "name": "Goods and Services Tax (India)",
+          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "QuickBooks to Zoho Migration Plans in Delhi",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "price": "9999",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "INR",
+              "price": "9999",
+              "unitText": "starting from"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "QuickBooks Online to Zoho Books Migration"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness-delhi",
+      "name": "Patron Accounting LLP - Delhi",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/migration-from-quickbooks-to-zoho/delhi",
+      "telephone": "+91-9699936369",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Delhi"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Delhi",
+        "addressRegion": "Delhi",
+        "postalCode": "110085",
+        "addressCountry": "IN"
+      },
+      "parentOrganization": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1569,7 +1576,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

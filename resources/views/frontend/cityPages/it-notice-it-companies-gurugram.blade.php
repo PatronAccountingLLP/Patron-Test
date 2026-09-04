@@ -1,225 +1,12 @@
 
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>IT Notice for IT Companies Gurugram: CA Reply</title>
-    <meta name="description" content="Income tax notice for your Gurugram IT/software company on TP, SEZ, ESOP, or Sec 195? Patron's CA team files reply and defends. Starting Rs 4,999.">
-    <link rel="canonical" href="/it-notice-it-companies/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="IT Notice for IT Companies Gurugram 2026: CA Reply | Patron Accounting">
-    <meta property="og:description" content="Income tax notice for your Gurugram IT/software company on TP, SEZ, ESOP, or Sec 195? Patron's CA team files reply and defends. Starting Rs 4,999.">
-    <meta property="og:url" content="/it-notice-it-companies/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="IT Notice for IT Companies Gurugram 2026: CA Reply | Patron Accounting">
-    <meta name="twitter:description" content="Income tax notice for your Gurugram IT/software company on TP, SEZ, ESOP, or Sec 195? Patron's CA team files reply and defends. Starting Rs 4,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/it-notice-it-companies/gurugram#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Income Tax Notice Services",
-          "item": "https://www.patronaccounting.com/income-tax-notice/gurugram"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "IT Notice for IT Companies Gurugram",
-          "item": "https://www.patronaccounting.com/it-notice-it-companies/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/it-notice-it-companies/gurugram#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is an income tax notice for an IT company in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "An income tax notice for a Gurugram IT/software company is any of Sections 142(1) call for information, 143(2) scrutiny, 143(3) / 144B faceless assessment, 92CA TP reference, 147/148 reassessment, 156 demand, or 271 penalty. Notices route through PCIT Faridabad (covering Gurugram corporate cases) or PCIT Gurugram, with TPO Chandigarh or TPO Delhi handling Section 92CA references, ReFAC Chandigarh or NaFAC HQ Delhi for Section 144B faceless - all under the Pr CCIT NWR Chandigarh apex. Substantive HC appeals go to Punjab and Haryana HC, NOT Delhi HC."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why do Gurugram IT cases route through Chandigarh and not Delhi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Despite Gurugram being part of the NCR and physically adjacent to Delhi, Haryana is administratively part of the North West Region (NWR) of the Income Tax Department. The Pr CCIT NWR is headquartered at Chandigarh. Hence all corporate income tax cases of Haryana including Gurugram route through Pr CCIT NWR Chandigarh, with ITAT appeals to ITAT Chandigarh bench and HC appeals to Punjab and Haryana HC at Chandigarh. This is the single most important jurisdictional fact for Gurugram IT companies and a common source of confusion."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the Mavenir India ruling and why does it matter for Gurugram IT companies?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Mavenir India (P.) Ltd. v DCIT (Punjab and Haryana HC, 11 December 2024, CWP 2367 of 2019 O&M) is a landmark TP procedural ruling. The HC held that where the ITAT remanded a matter to the TPO to pass a fresh order under Section 92CA(3), and the AO then passed the final order under Section 143(3) WITHOUT first passing a draft order as mandated under Section 144C, the final order is not sustainable in law. For Gurugram IT companies facing similar procedural defects in TP remand cases, this Punjab Haryana HC precedent is directly applicable and binding."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Where does the Section 92CA TPO reference for my Gurugram IT case go?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Gurugram Section 92CA TPO references route to TPO Chandigarh or TPO Delhi depending on case allocation by the CBDT. Both forums are familiar with Gurugram IT-sector TP fact patterns. For the DRP route under Section 144C, the panel is DRP Delhi (no NWR-specific DRP). For substantive appeal, ITAT Chandigarh bench handles direct appeals, not ITAT Delhi. Patron represents at all four forums (TPO Chandigarh, TPO Delhi, DRP Delhi, ITAT Chandigarh)."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does Section 195 TDS work for Gurugram MNC IT companies post Engineering Analysis Centre?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Engineering Analysis Centre of Excellence Pvt Ltd v CIT (2021) Supreme Court ruled that payments for off-the-shelf or shrink-wrap software for internal use are NOT royalty under Section 9(1)(vi). Therefore no Section 195 TDS is required. For Gurugram IT companies importing enterprise software from Microsoft, Oracle, Adobe, AWS, Salesforce, ServiceNow, and others for internal operational use - this is the defence position. We segregate software payments into copyrighted-article (no TDS) vs copyright-transfer (TDS) categories."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is ESOP perquisite tax handled for Gurugram MNC employees?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Gurugram has India's third-largest MNC concentration, so foreign-parent ESOPs are very common. Under Section 17(2)(vi), the perquisite equals FMV at allotment minus exercise price - taxed as salary at exercise with Section 192 TDS deducted by the employer. For DPIIT-recognised startup employees, Section 191A defers TDS to the earliest of 5 years, sale, or exit. Foreign-parent ESOPs additionally need Schedule FA reporting in the ITR. We handle both the Indian-side perquisite and the foreign asset reporting."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does Patron represent at Punjab and Haryana High Court for Gurugram IT tax matters?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Punjab and Haryana High Court at Chandigarh is the substantive HC forum for Gurugram tax matters - it produced the Mavenir India December 2024 precedent on TP + Section 144C procedural ordering. Patron coordinates with senior counsel at the Punjab Haryana HC for substantial questions of law - typically for material TP adjustments where procedural defects exist, novel Section 10AA SEZ disputes, large Section 195 demands, or DPIIT 80-IAC denials warranting principle-of-law clarification."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What documents do I need for a Gurugram IT-company tax notice reply?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Copy of the notice with DIN; ITR-6 acknowledgement; audited financials and Form 3CD; Form 3CEB TP audit report and the TP study/benchmarking report; Form 56F and SEZ Letter of Approval for Section 10AA cases; DPIIT recognition certificate and Form 1 for Section 80-IAC; ESOP register and Form 16/24Q for ESOP perquisite reconciliation; Form 15CA/15CB and software licensing agreements for Section 195/Engineering Analysis Centre defence; and cross-border AE service agreements plus the group transfer pricing policy for TP."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/it-notice-it-companies/gurugram#localbusiness",
-      "name": "Patron Accounting LLP - Gurugram (IT-Sector Income Tax Notice Defence)",
-      "url": "https://www.patronaccounting.com/it-notice-it-companies/gurugram",
-      "telephone": "+91-945-945-6700",
-      "email": "sales@patronaccounting.com",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "[OFFICE ADDRESS - to be filled by Patron team before publish]",
-        "addressLocality": "Gurugram",
-        "addressRegion": "Haryana",
-        "postalCode": "[PIN CODE]",
-        "addressCountry": "IN"
-      },
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram"
-      },
-      "priceRange": "Rs 4,999 to Rs 1,50,000",
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/it-notice-it-companies/gurugram#service",
-      "name": "Income Tax Notice Reply and Defence for Gurugram IT and Software Companies",
-      "url": "https://www.patronaccounting.com/it-notice-it-companies/gurugram",
-      "description": "CA-led income tax notice reply and defence for Gurugram IT/software companies, GCCs, SaaS firms and DPIIT startups - Transfer Pricing (Sec 92-92F) at TPO Chandigarh/Delhi, Section 10AA SEZ, ESOP perquisite TDS, Section 195 software TDS (Engineering Analysis Centre), Section 80-IAC DPIIT startup holiday, Section 144B faceless, DRP Delhi, ITAT Chandigarh and Punjab Haryana HC. From Rs 4,999.",
-      "serviceType": "Income Tax Notice Reply and Litigation - IT Sector",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "AdministrativeArea",
-          "name": "Haryana, India"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Transfer pricing",
-          "sameAs": "https://en.wikipedia.org/wiki/Transfer_pricing"
-        },
-        {
-          "@type": "Thing",
-          "name": "Income tax in India",
-          "sameAs": "https://en.wikipedia.org/wiki/Income_tax_in_India"
-        },
-        {
-          "@type": "Thing",
-          "name": "Gurgaon",
-          "sameAs": "https://en.wikipedia.org/wiki/Gurgaon"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Gurugram IT-Sector Tax Notice Service Tiers",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "name": "Section 142(1) Information Reply (single-issue)",
-            "price": "4999",
-            "priceCurrency": "INR",
-            "description": "Single-issue reply to a call for information."
-          },
-          {
-            "@type": "Offer",
-            "name": "Section 92CA TPO Representation (Simple)",
-            "price": "25000",
-            "priceCurrency": "INR",
-            "description": "Single international transaction, TNMM defence."
-          },
-          {
-            "@type": "Offer",
-            "name": "DRP Delhi (Section 144C) Objections and Hearing",
-            "price": "30000",
-            "priceCurrency": "INR",
-            "description": "Objections plus DRP Delhi hearing representation for TP-eligible variations."
-          }
-        ]
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -897,7 +684,225 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 }
 @media (max-width:768px) {section .content-text ul li:not(.nav-item){flex-wrap:wrap;}
 section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;max-width:100%;margin-bottom:2px;}}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>IT Notice for IT Companies Gurugram: CA Reply</title>
+    <meta name="description" content="Income tax notice for your Gurugram IT/software company on TP, SEZ, ESOP, or Sec 195? Patron's CA team files reply and defends. Starting Rs 4,999.">
+    <link rel="canonical" href="/it-notice-it-companies/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="IT Notice for IT Companies Gurugram 2026: CA Reply | Patron Accounting">
+    <meta property="og:description" content="Income tax notice for your Gurugram IT/software company on TP, SEZ, ESOP, or Sec 195? Patron's CA team files reply and defends. Starting Rs 4,999.">
+    <meta property="og:url" content="/it-notice-it-companies/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="IT Notice for IT Companies Gurugram 2026: CA Reply | Patron Accounting">
+    <meta name="twitter:description" content="Income tax notice for your Gurugram IT/software company on TP, SEZ, ESOP, or Sec 195? Patron's CA team files reply and defends. Starting Rs 4,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/it-notice-it-companies/gurugram#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Income Tax Notice Services",
+          "item": "https://www.patronaccounting.com/income-tax-notice/gurugram"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "IT Notice for IT Companies Gurugram",
+          "item": "https://www.patronaccounting.com/it-notice-it-companies/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/it-notice-it-companies/gurugram#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is an income tax notice for an IT company in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An income tax notice for a Gurugram IT/software company is any of Sections 142(1) call for information, 143(2) scrutiny, 143(3) / 144B faceless assessment, 92CA TP reference, 147/148 reassessment, 156 demand, or 271 penalty. Notices route through PCIT Faridabad (covering Gurugram corporate cases) or PCIT Gurugram, with TPO Chandigarh or TPO Delhi handling Section 92CA references, ReFAC Chandigarh or NaFAC HQ Delhi for Section 144B faceless - all under the Pr CCIT NWR Chandigarh apex. Substantive HC appeals go to Punjab and Haryana HC, NOT Delhi HC."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why do Gurugram IT cases route through Chandigarh and not Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Despite Gurugram being part of the NCR and physically adjacent to Delhi, Haryana is administratively part of the North West Region (NWR) of the Income Tax Department. The Pr CCIT NWR is headquartered at Chandigarh. Hence all corporate income tax cases of Haryana including Gurugram route through Pr CCIT NWR Chandigarh, with ITAT appeals to ITAT Chandigarh bench and HC appeals to Punjab and Haryana HC at Chandigarh. This is the single most important jurisdictional fact for Gurugram IT companies and a common source of confusion."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the Mavenir India ruling and why does it matter for Gurugram IT companies?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mavenir India (P.) Ltd. v DCIT (Punjab and Haryana HC, 11 December 2024, CWP 2367 of 2019 O&M) is a landmark TP procedural ruling. The HC held that where the ITAT remanded a matter to the TPO to pass a fresh order under Section 92CA(3), and the AO then passed the final order under Section 143(3) WITHOUT first passing a draft order as mandated under Section 144C, the final order is not sustainable in law. For Gurugram IT companies facing similar procedural defects in TP remand cases, this Punjab Haryana HC precedent is directly applicable and binding."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where does the Section 92CA TPO reference for my Gurugram IT case go?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gurugram Section 92CA TPO references route to TPO Chandigarh or TPO Delhi depending on case allocation by the CBDT. Both forums are familiar with Gurugram IT-sector TP fact patterns. For the DRP route under Section 144C, the panel is DRP Delhi (no NWR-specific DRP). For substantive appeal, ITAT Chandigarh bench handles direct appeals, not ITAT Delhi. Patron represents at all four forums (TPO Chandigarh, TPO Delhi, DRP Delhi, ITAT Chandigarh)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does Section 195 TDS work for Gurugram MNC IT companies post Engineering Analysis Centre?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Engineering Analysis Centre of Excellence Pvt Ltd v CIT (2021) Supreme Court ruled that payments for off-the-shelf or shrink-wrap software for internal use are NOT royalty under Section 9(1)(vi). Therefore no Section 195 TDS is required. For Gurugram IT companies importing enterprise software from Microsoft, Oracle, Adobe, AWS, Salesforce, ServiceNow, and others for internal operational use - this is the defence position. We segregate software payments into copyrighted-article (no TDS) vs copyright-transfer (TDS) categories."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is ESOP perquisite tax handled for Gurugram MNC employees?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gurugram has India's third-largest MNC concentration, so foreign-parent ESOPs are very common. Under Section 17(2)(vi), the perquisite equals FMV at allotment minus exercise price - taxed as salary at exercise with Section 192 TDS deducted by the employer. For DPIIT-recognised startup employees, Section 191A defers TDS to the earliest of 5 years, sale, or exit. Foreign-parent ESOPs additionally need Schedule FA reporting in the ITR. We handle both the Indian-side perquisite and the foreign asset reporting."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Patron represent at Punjab and Haryana High Court for Gurugram IT tax matters?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Punjab and Haryana High Court at Chandigarh is the substantive HC forum for Gurugram tax matters - it produced the Mavenir India December 2024 precedent on TP + Section 144C procedural ordering. Patron coordinates with senior counsel at the Punjab Haryana HC for substantial questions of law - typically for material TP adjustments where procedural defects exist, novel Section 10AA SEZ disputes, large Section 195 demands, or DPIIT 80-IAC denials warranting principle-of-law clarification."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What documents do I need for a Gurugram IT-company tax notice reply?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Copy of the notice with DIN; ITR-6 acknowledgement; audited financials and Form 3CD; Form 3CEB TP audit report and the TP study/benchmarking report; Form 56F and SEZ Letter of Approval for Section 10AA cases; DPIIT recognition certificate and Form 1 for Section 80-IAC; ESOP register and Form 16/24Q for ESOP perquisite reconciliation; Form 15CA/15CB and software licensing agreements for Section 195/Engineering Analysis Centre defence; and cross-border AE service agreements plus the group transfer pricing policy for TP."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/it-notice-it-companies/gurugram#localbusiness",
+      "name": "Patron Accounting LLP - Gurugram (IT-Sector Income Tax Notice Defence)",
+      "url": "https://www.patronaccounting.com/it-notice-it-companies/gurugram",
+      "telephone": "+91-945-945-6700",
+      "email": "sales@patronaccounting.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "[OFFICE ADDRESS - to be filled by Patron team before publish]",
+        "addressLocality": "Gurugram",
+        "addressRegion": "Haryana",
+        "postalCode": "[PIN CODE]",
+        "addressCountry": "IN"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram"
+      },
+      "priceRange": "Rs 4,999 to Rs 1,50,000",
+      "parentOrganization": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/it-notice-it-companies/gurugram#service",
+      "name": "Income Tax Notice Reply and Defence for Gurugram IT and Software Companies",
+      "url": "https://www.patronaccounting.com/it-notice-it-companies/gurugram",
+      "description": "CA-led income tax notice reply and defence for Gurugram IT/software companies, GCCs, SaaS firms and DPIIT startups - Transfer Pricing (Sec 92-92F) at TPO Chandigarh/Delhi, Section 10AA SEZ, ESOP perquisite TDS, Section 195 software TDS (Engineering Analysis Centre), Section 80-IAC DPIIT startup holiday, Section 144B faceless, DRP Delhi, ITAT Chandigarh and Punjab Haryana HC. From Rs 4,999.",
+      "serviceType": "Income Tax Notice Reply and Litigation - IT Sector",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "AdministrativeArea",
+          "name": "Haryana, India"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Transfer pricing",
+          "sameAs": "https://en.wikipedia.org/wiki/Transfer_pricing"
+        },
+        {
+          "@type": "Thing",
+          "name": "Income tax in India",
+          "sameAs": "https://en.wikipedia.org/wiki/Income_tax_in_India"
+        },
+        {
+          "@type": "Thing",
+          "name": "Gurgaon",
+          "sameAs": "https://en.wikipedia.org/wiki/Gurgaon"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Gurugram IT-Sector Tax Notice Service Tiers",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "Section 142(1) Information Reply (single-issue)",
+            "price": "4999",
+            "priceCurrency": "INR",
+            "description": "Single-issue reply to a call for information."
+          },
+          {
+            "@type": "Offer",
+            "name": "Section 92CA TPO Representation (Simple)",
+            "price": "25000",
+            "priceCurrency": "INR",
+            "description": "Single international transaction, TNMM defence."
+          },
+          {
+            "@type": "Offer",
+            "name": "DRP Delhi (Section 144C) Objections and Hearing",
+            "price": "30000",
+            "priceCurrency": "INR",
+            "description": "Objections plus DRP Delhi hearing representation for TP-eligible variations."
+          }
+        ]
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1786,7 +1791,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 </script>
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

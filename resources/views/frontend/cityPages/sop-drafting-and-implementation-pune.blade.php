@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,213 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>SOP Drafting in Pune 2026 | Patron Accounting</title>
-    <meta name="description" content="Finance SOP drafting and implementation in Pune from INR 24,999 one-time. CA-led maker-checker controls, IFC, and close checklists for Hinjewadi SMEs.">
-    <link rel="canonical" href="/sop-drafting-and-implementation/pune">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="SOP Drafting in Pune 2026 | Patron Accounting">
-    <meta property="og:description" content="Finance SOP drafting and implementation in Pune from INR 24,999 one-time. CA-led maker-checker controls, IFC, and close checklists for Hinjewadi SMEs.">
-    <meta property="og:url" content="/sop-drafting-and-implementation/pune">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="SOP Drafting in Pune 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Finance SOP drafting and implementation in Pune from INR 24,999 one-time. CA-led maker-checker controls, IFC, and close checklists for Hinjewadi SMEs.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/sop-drafting-and-implementation/pune#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "SOP Drafting and Implementation",
-          "item": "https://www.patronaccounting.com/sop-drafting-and-implementation"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "SOP Drafting and Implementation in Pune",
-          "item": "https://www.patronaccounting.com/sop-drafting-and-implementation/pune"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/sop-drafting-and-implementation/pune#faq",
-      "datePublished": "2026-06-23T08:00:00+05:30",
-      "dateModified": "2026-06-23T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What are finance SOPs and why do Pune SMEs need them?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Finance SOPs are written standard operating procedures that define how each accounting task is done, who initiates it, and who approves it. For growing Pune SMEs in Hinjewadi or Chakan they enforce maker-checker controls, segregation of duties, and a repeatable month-end close so the finance function does not break as the team scales."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does SOP drafting and implementation cost in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patron Accounting charges From INR 24,999 (one-time, Exl GST and Govt. Charges). The final fee depends on the number of processes documented, team size, approval layers, and the accounting software in use. Hinjewadi SaaS firms and Chakan manufacturers receive a fixed-scope quote before drafting begins."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the maker-checker principle in a finance SOP?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Maker-checker means the person who initiates a transaction, the maker, cannot be the same person who authorises or records it, the checker. Patron builds this into every Pune SOP through approval matrices and segregation of duties across custody, authorisation, record-keeping, and reconciliation, so no single person controls a full transaction."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Are internal financial controls mandatory for Pune private companies?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Under Section 134(5)(e) of the Companies Act 2013 the board must confirm adequate internal financial controls. Auditor reporting under Section 143(3)(i) is relaxed for small and One Person Companies and private companies with turnover below INR 50 crore and borrowings below INR 25 crore, per MCA notification GSR 583(E)."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which finance processes do you document in an SOP for Pune businesses?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patron documents procure-to-pay, order-to-cash, expense and petty cash, payroll, bank and GST reconciliation, fixed assets, and the month-end close checklist. Each SOP states purpose, scope, roles, step-by-step procedure, controls, and approval limits, tailored to how your Pune team in Hinjewadi or the MIDC belts actually works."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does SOP drafting and implementation take in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A focused set of core finance SOPs is usually drafted in 2 to 4 weeks, with implementation and team training over a further 2 to 6 weeks. A multi-entity Chakan manufacturer with several approval layers takes longer than a single-entity Hinjewadi SaaS firm, depending on process count and software."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the most common reason finance SOPs fail in Indian SMEs?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The most common failure is password sharing, where staff bypass system controls and one person effectively performs both maker and checker roles, defeating segregation of duties. Patron addresses this with role-based access, an approval matrix, and a zero-tolerance access policy built into the implementation and training phase."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do finance SOPs cover GST, TDS, and statutory deadlines for Pune firms?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Patron embeds GST return, TDS, PTRC and PTEC, and PF and ESI deadlines into the SOP calendar and the month-end close checklist, with maker-checker review before filing. This reduces missed Pune compliance deadlines and gives a clear audit trail for the GST Commissionerate Pune and RoC Pune."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/sop-drafting-and-implementation/pune#service",
-      "name": "SOP Drafting and Implementation in Pune",
-      "description": "Finance and accounting SOP drafting and implementation in Pune. Patron Accounting documents procure-to-pay, order-to-cash, payroll, and month-end close processes with maker-checker controls, approval matrices, internal financial controls, and segregation of duties for growing Hinjewadi, Magarpatta, and Chakan SMEs.",
-      "serviceType": "Finance SOP Drafting and Internal Financial Controls Implementation",
-      "url": "https://www.patronaccounting.com/sop-drafting-and-implementation/pune",
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Maharashtra"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#localbusiness-pune"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Standard operating procedure",
-          "sameAs": "https://en.wikipedia.org/wiki/Standard_operating_procedure"
-        },
-        {
-          "@type": "Thing",
-          "name": "Internal control",
-          "sameAs": "https://en.wikipedia.org/wiki/Internal_control"
-        },
-        {
-          "@type": "Thing",
-          "name": "Separation of duties",
-          "sameAs": "https://en.wikipedia.org/wiki/Separation_of_duties"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Finance SOP Plans in Pune",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "price": "24999",
-            "priceSpecification": {
-              "@type": "UnitPriceSpecification",
-              "priceCurrency": "INR",
-              "price": "24999",
-              "unitText": "one-time"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Finance SOP Drafting and Implementation"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness-pune",
-      "name": "Patron Accounting LLP - Pune",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/sop-drafting-and-implementation/pune",
-      "telephone": "+91-969-993-6369",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Pune",
-        "addressRegion": "Maharashtra",
-        "postalCode": "411014",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -820,7 +612,222 @@
         .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
 
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>SOP Drafting in Pune 2026 | Patron Accounting</title>
+    <meta name="description" content="Finance SOP drafting and implementation in Pune from INR 24,999 one-time. CA-led maker-checker controls, IFC, and close checklists for Hinjewadi SMEs.">
+    <link rel="canonical" href="/sop-drafting-and-implementation/pune">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="SOP Drafting in Pune 2026 | Patron Accounting">
+    <meta property="og:description" content="Finance SOP drafting and implementation in Pune from INR 24,999 one-time. CA-led maker-checker controls, IFC, and close checklists for Hinjewadi SMEs.">
+    <meta property="og:url" content="/sop-drafting-and-implementation/pune">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="SOP Drafting in Pune 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Finance SOP drafting and implementation in Pune from INR 24,999 one-time. CA-led maker-checker controls, IFC, and close checklists for Hinjewadi SMEs.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/sop-drafting-and-implementation/pune#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SOP Drafting and Implementation",
+          "item": "https://www.patronaccounting.com/sop-drafting-and-implementation"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "SOP Drafting and Implementation in Pune",
+          "item": "https://www.patronaccounting.com/sop-drafting-and-implementation/pune"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/sop-drafting-and-implementation/pune#faq",
+      "datePublished": "2026-06-23T08:00:00+05:30",
+      "dateModified": "2026-06-23T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What are finance SOPs and why do Pune SMEs need them?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Finance SOPs are written standard operating procedures that define how each accounting task is done, who initiates it, and who approves it. For growing Pune SMEs in Hinjewadi or Chakan they enforce maker-checker controls, segregation of duties, and a repeatable month-end close so the finance function does not break as the team scales."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does SOP drafting and implementation cost in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patron Accounting charges From INR 24,999 (one-time, Exl GST and Govt. Charges). The final fee depends on the number of processes documented, team size, approval layers, and the accounting software in use. Hinjewadi SaaS firms and Chakan manufacturers receive a fixed-scope quote before drafting begins."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the maker-checker principle in a finance SOP?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Maker-checker means the person who initiates a transaction, the maker, cannot be the same person who authorises or records it, the checker. Patron builds this into every Pune SOP through approval matrices and segregation of duties across custody, authorisation, record-keeping, and reconciliation, so no single person controls a full transaction."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are internal financial controls mandatory for Pune private companies?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Under Section 134(5)(e) of the Companies Act 2013 the board must confirm adequate internal financial controls. Auditor reporting under Section 143(3)(i) is relaxed for small and One Person Companies and private companies with turnover below INR 50 crore and borrowings below INR 25 crore, per MCA notification GSR 583(E)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which finance processes do you document in an SOP for Pune businesses?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patron documents procure-to-pay, order-to-cash, expense and petty cash, payroll, bank and GST reconciliation, fixed assets, and the month-end close checklist. Each SOP states purpose, scope, roles, step-by-step procedure, controls, and approval limits, tailored to how your Pune team in Hinjewadi or the MIDC belts actually works."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does SOP drafting and implementation take in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A focused set of core finance SOPs is usually drafted in 2 to 4 weeks, with implementation and team training over a further 2 to 6 weeks. A multi-entity Chakan manufacturer with several approval layers takes longer than a single-entity Hinjewadi SaaS firm, depending on process count and software."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the most common reason finance SOPs fail in Indian SMEs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most common failure is password sharing, where staff bypass system controls and one person effectively performs both maker and checker roles, defeating segregation of duties. Patron addresses this with role-based access, an approval matrix, and a zero-tolerance access policy built into the implementation and training phase."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do finance SOPs cover GST, TDS, and statutory deadlines for Pune firms?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Patron embeds GST return, TDS, PTRC and PTEC, and PF and ESI deadlines into the SOP calendar and the month-end close checklist, with maker-checker review before filing. This reduces missed Pune compliance deadlines and gives a clear audit trail for the GST Commissionerate Pune and RoC Pune."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/sop-drafting-and-implementation/pune#service",
+      "name": "SOP Drafting and Implementation in Pune",
+      "description": "Finance and accounting SOP drafting and implementation in Pune. Patron Accounting documents procure-to-pay, order-to-cash, payroll, and month-end close processes with maker-checker controls, approval matrices, internal financial controls, and segregation of duties for growing Hinjewadi, Magarpatta, and Chakan SMEs.",
+      "serviceType": "Finance SOP Drafting and Internal Financial Controls Implementation",
+      "url": "https://www.patronaccounting.com/sop-drafting-and-implementation/pune",
+      "areaServed": {
+        "@type": "City",
+        "name": "Pune",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Maharashtra"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#localbusiness-pune"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Standard operating procedure",
+          "sameAs": "https://en.wikipedia.org/wiki/Standard_operating_procedure"
+        },
+        {
+          "@type": "Thing",
+          "name": "Internal control",
+          "sameAs": "https://en.wikipedia.org/wiki/Internal_control"
+        },
+        {
+          "@type": "Thing",
+          "name": "Separation of duties",
+          "sameAs": "https://en.wikipedia.org/wiki/Separation_of_duties"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Finance SOP Plans in Pune",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "price": "24999",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "INR",
+              "price": "24999",
+              "unitText": "one-time"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Finance SOP Drafting and Implementation"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness-pune",
+      "name": "Patron Accounting LLP - Pune",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/sop-drafting-and-implementation/pune",
+      "telephone": "+91-969-993-6369",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Pune"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Pune",
+        "addressRegion": "Maharashtra",
+        "postalCode": "411014",
+        "addressCountry": "IN"
+      },
+      "parentOrganization": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1571,7 +1578,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

@@ -1,186 +1,11 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Rights Issue of Shares Section 62 in 2026 | Patron Accounting</title>
-    <meta name="description" content="Raise capital via a rights issue under Section 62(1)(a) with a pro-rata letter of offer, renunciation and PAS-3 filing. Expert CA help. From INR 24,999.">
-    <link rel="canonical" href="/rights-issue-of-shares-section-62-1-a">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Rights Issue of Shares Section 62 in 2026 | Patron Accounting">
-    <meta property="og:description" content="Raise capital via a rights issue under Section 62(1)(a) with a pro-rata letter of offer, renunciation and PAS-3 filing. Expert CA help. From INR 24,999.">
-    <meta property="og:url" content="/rights-issue-of-shares-section-62-1-a">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Rights Issue of Shares Section 62 in 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Raise capital via a rights issue under Section 62(1)(a) with a pro-rata letter of offer, renunciation and PAS-3 filing. Expert CA help. From INR 24,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/rights-issue-of-shares-section-62-1-a/#service",
-        "name": "Rights Issue of Shares under Section 62(1)(a)",
-        "description": "Rights issue services from Patron Accounting LLP cover the offer of further shares to existing equity shareholders in proportion to their holding under Section 62(1)(a) of the Companies Act, 2013, including the structuring of the issue size, price and entitlement ratio and the setting of the record date, the drafting of the letter of offer with the number of shares, price, offer period and renunciation right and its dispatch at least three days before opening, the processing of acceptances, renunciations and applications for additional shares over the 15-to-30-day offer window, the allotment Board meeting within 60 days of receipt of money and the PAS-3 filing within 30 days of allotment, the issue of share certificates and the updating of the register of members and depository, and optional valuation and FEMA compliance where a non-resident participates or renounces, noting that a rights issue needs no special resolution and no mandatory registered-valuer report.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/rights-issue-of-shares-section-62-1-a" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Rights issue", "sameAs": "https://en.wikipedia.org/wiki/Rights_issue" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Rights Issue Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "Rights Issue (Section 62(1)(a)) Service",
-                    "priceCurrency": "INR",
-                    "price": "24999",
-                    "description": "End-to-end rights issue covering the structuring, the letter of offer, renunciation handling, allotment and the PAS-3 filing, exclusive of GST and government charges. Any SH-7 increase in authorised capital with its MCA fee and stamp duty, an optional valuation, and FEMA filings for non-resident participants are charged on an actual basis."
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/rights-issue-of-shares-section-62-1-a/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Company Compliance", "item": "https://www.patronaccounting.com/corporate-compliance-services" },
-            { "@type": "ListItem", "position": 3, "name": "Rights Issue", "item": "https://www.patronaccounting.com/rights-issue-of-shares-section-62-1-a" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/rights-issue-of-shares-section-62-1-a/#faq",
-        "datePublished": "2026-06-03T08:00:00+05:30",
-        "dateModified": "2026-06-04T08:00:00+05:30",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "What is a rights issue of shares under Section 62(1)(a)?",
-                "acceptedAnswer": { "@type": "Answer", "text": "A rights issue under Section 62(1)(a) of the Companies Act, 2013 is an offer of further shares to a company's existing equity shareholders, in proportion to their current holding, made through a letter of offer. It is used to raise fresh capital from current members while keeping their proportionate ownership intact if they take up their full entitlement." }
-            },
-            {
-                "@type": "Question",
-                "name": "How long must the rights issue offer stay open?",
-                "acceptedAnswer": { "@type": "Answer", "text": "The letter of offer must stay open for not less than 15 days and not more than 30 days from the date of the offer. If a shareholder does not accept within this period, the offer is deemed declined. A private company may keep the offer open for a shorter period if 90 percent of its members give consent in writing or electronically." }
-            },
-            {
-                "@type": "Question",
-                "name": "What is renunciation in a rights issue?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Renunciation is the shareholder's right to transfer the rights entitlement to another person, whether or not that person is a member, instead of subscribing themselves. Unless the Articles provide otherwise, the letter of offer is deemed to include this right of renunciation, which makes a rights issue a flexible way to bring in new participants." }
-            },
-            {
-                "@type": "Question",
-                "name": "Does a rights issue require a valuation report?",
-                "acceptedAnswer": { "@type": "Answer", "text": "No. A rights issue under Section 62(1)(a) does not require a valuation report from a registered valuer, and the Board has discretion over the price. A valuation may still be useful to support the pricing, and it becomes relevant where a renunciation involves a non-resident, because FEMA pricing rules then apply." }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the difference between a rights issue and preferential allotment?",
-                "acceptedAnswer": { "@type": "Answer", "text": "A rights issue is offered pro rata to existing shareholders and needs only a Board resolution, with no mandatory valuer report. A preferential allotment under Section 62(1)(c) is made to select persons, who may include outsiders, and requires a special resolution, a valuation report for unlisted companies, and compliance with the private placement conditions of Section 42." }
-            },
-            {
-                "@type": "Question",
-                "name": "What forms are filed for a rights issue?",
-                "acceptedAnswer": { "@type": "Answer", "text": "The key filing is PAS-3, the return of allotment, filed with the Registrar within 30 days of allotment. MGT-14 is filed for the board resolution where the company is required to do so. Where the authorised capital must first be increased, Form SH-7 is filed. No prospectus is required for a rights issue." }
-            },
-            {
-                "@type": "Question",
-                "name": "Can a rights issue be made by a private company?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Yes. Both private and public companies can make a rights issue under Section 62. A private company also has the flexibility to keep the offer open for a shorter period with the consent of 90 percent of its members, and it commonly uses the renunciation route to admit new investors without following the full private placement process." }
-            },
-            {
-                "@type": "Question",
-                "name": "What happens to shares not taken up in a rights issue?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Shares that are not subscribed, the unsubscribed portion, may be allotted by the Board at its discretion in a manner that is not disadvantageous to the shareholders and the company. This flexibility is one reason companies prefer a rights issue, although the disposal must stay within the rights issue framework rather than becoming a preferential offer." }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/rights-issue-of-shares-section-62-1-a",
-        "name": "Rights Issue of Shares under Section 62(1)(a)",
-        "description": "Raise capital via a rights issue under Section 62(1)(a) with a pro-rata letter of offer, renunciation and PAS-3 filing. Expert CA help. From INR 24,999.",
-        "url": "https://www.patronaccounting.com/rights-issue-of-shares-section-62-1-a",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/rights-issue-of-shares-section-62-1-a/#service" },
-        "datePublished": "2026-06-03T08:00:00+05:30",
-        "dateModified": "2026-06-04T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/rights-issue-of-shares-section-62-1-a/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "Rights Issue Process: Step by Step",
-        "description": "How a rights issue under Section 62(1)(a) is carried out, from checking capital and the Articles through the letter of offer and renunciation to allotment and the PAS-3 filing.",
-        "totalTime": "P45D",
-        "step": [
-            { "@type": "HowToStep", "name": "Check capital and Articles", "text": "Confirm the authorised capital covers the issue and the Articles permit the rights issue." },
-            { "@type": "HowToStep", "name": "Board approval", "text": "Hold a Board meeting to approve the rights issue, the price, the ratio and the letter of offer, on at least 7 days' notice." },
-            { "@type": "HowToStep", "name": "Dispatch the letter of offer", "text": "Send the letter of offer to shareholders at least 3 days before opening, keeping it open for 15 to 30 days." },
-            { "@type": "HowToStep", "name": "Collect responses", "text": "Receive acceptances, renunciations and applications for additional shares within the offer period." },
-            { "@type": "HowToStep", "name": "Receive money and allot", "text": "Receive the application money and hold a Board meeting to allot the shares, within 60 days of receipt." },
-            { "@type": "HowToStep", "name": "File PAS-3", "text": "File PAS-3 with the ROC within 30 days of allotment, with the list of allottees." },
-            { "@type": "HowToStep", "name": "Issue certificates", "text": "Issue share certificates, update the register and intimate the depository for demat shares." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Rights Issue Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Letter of Offer", "description": "The notice to existing shareholders setting out the entitlement, price and offer period." },
-            { "@type": "DefinedTerm", "name": "Entitlement Ratio", "description": "The proportion of new shares offered against existing holding, for example one for five." },
-            { "@type": "DefinedTerm", "name": "Renunciation", "description": "Transfer of the right to subscribe to another person, whether or not a member." },
-            { "@type": "DefinedTerm", "name": "Record Date", "description": "The date on which shareholders are identified for the rights offer." },
-            { "@type": "DefinedTerm", "name": "Unsubscribed Portion", "description": "Shares not taken up, which the Board may allot in a manner not disadvantageous." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -794,7 +619,187 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Rights Issue of Shares Section 62 in 2026 | Patron Accounting</title>
+    <meta name="description" content="Raise capital via a rights issue under Section 62(1)(a) with a pro-rata letter of offer, renunciation and PAS-3 filing. Expert CA help. From INR 24,999.">
+    <link rel="canonical" href="/rights-issue-of-shares-section-62-1-a">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Rights Issue of Shares Section 62 in 2026 | Patron Accounting">
+    <meta property="og:description" content="Raise capital via a rights issue under Section 62(1)(a) with a pro-rata letter of offer, renunciation and PAS-3 filing. Expert CA help. From INR 24,999.">
+    <meta property="og:url" content="/rights-issue-of-shares-section-62-1-a">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Rights Issue of Shares Section 62 in 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Raise capital via a rights issue under Section 62(1)(a) with a pro-rata letter of offer, renunciation and PAS-3 filing. Expert CA help. From INR 24,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/rights-issue-of-shares-section-62-1-a/#service",
+        "name": "Rights Issue of Shares under Section 62(1)(a)",
+        "description": "Rights issue services from Patron Accounting LLP cover the offer of further shares to existing equity shareholders in proportion to their holding under Section 62(1)(a) of the Companies Act, 2013, including the structuring of the issue size, price and entitlement ratio and the setting of the record date, the drafting of the letter of offer with the number of shares, price, offer period and renunciation right and its dispatch at least three days before opening, the processing of acceptances, renunciations and applications for additional shares over the 15-to-30-day offer window, the allotment Board meeting within 60 days of receipt of money and the PAS-3 filing within 30 days of allotment, the issue of share certificates and the updating of the register of members and depository, and optional valuation and FEMA compliance where a non-resident participates or renounces, noting that a rights issue needs no special resolution and no mandatory registered-valuer report.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/rights-issue-of-shares-section-62-1-a" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Rights issue", "sameAs": "https://en.wikipedia.org/wiki/Rights_issue" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Rights Issue Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "Rights Issue (Section 62(1)(a)) Service",
+                    "priceCurrency": "INR",
+                    "price": "24999",
+                    "description": "End-to-end rights issue covering the structuring, the letter of offer, renunciation handling, allotment and the PAS-3 filing, exclusive of GST and government charges. Any SH-7 increase in authorised capital with its MCA fee and stamp duty, an optional valuation, and FEMA filings for non-resident participants are charged on an actual basis."
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/rights-issue-of-shares-section-62-1-a/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Company Compliance", "item": "https://www.patronaccounting.com/corporate-compliance-services" },
+            { "@type": "ListItem", "position": 3, "name": "Rights Issue", "item": "https://www.patronaccounting.com/rights-issue-of-shares-section-62-1-a" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/rights-issue-of-shares-section-62-1-a/#faq",
+        "datePublished": "2026-06-03T08:00:00+05:30",
+        "dateModified": "2026-06-04T08:00:00+05:30",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is a rights issue of shares under Section 62(1)(a)?",
+                "acceptedAnswer": { "@type": "Answer", "text": "A rights issue under Section 62(1)(a) of the Companies Act, 2013 is an offer of further shares to a company's existing equity shareholders, in proportion to their current holding, made through a letter of offer. It is used to raise fresh capital from current members while keeping their proportionate ownership intact if they take up their full entitlement." }
+            },
+            {
+                "@type": "Question",
+                "name": "How long must the rights issue offer stay open?",
+                "acceptedAnswer": { "@type": "Answer", "text": "The letter of offer must stay open for not less than 15 days and not more than 30 days from the date of the offer. If a shareholder does not accept within this period, the offer is deemed declined. A private company may keep the offer open for a shorter period if 90 percent of its members give consent in writing or electronically." }
+            },
+            {
+                "@type": "Question",
+                "name": "What is renunciation in a rights issue?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Renunciation is the shareholder's right to transfer the rights entitlement to another person, whether or not that person is a member, instead of subscribing themselves. Unless the Articles provide otherwise, the letter of offer is deemed to include this right of renunciation, which makes a rights issue a flexible way to bring in new participants." }
+            },
+            {
+                "@type": "Question",
+                "name": "Does a rights issue require a valuation report?",
+                "acceptedAnswer": { "@type": "Answer", "text": "No. A rights issue under Section 62(1)(a) does not require a valuation report from a registered valuer, and the Board has discretion over the price. A valuation may still be useful to support the pricing, and it becomes relevant where a renunciation involves a non-resident, because FEMA pricing rules then apply." }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the difference between a rights issue and preferential allotment?",
+                "acceptedAnswer": { "@type": "Answer", "text": "A rights issue is offered pro rata to existing shareholders and needs only a Board resolution, with no mandatory valuer report. A preferential allotment under Section 62(1)(c) is made to select persons, who may include outsiders, and requires a special resolution, a valuation report for unlisted companies, and compliance with the private placement conditions of Section 42." }
+            },
+            {
+                "@type": "Question",
+                "name": "What forms are filed for a rights issue?",
+                "acceptedAnswer": { "@type": "Answer", "text": "The key filing is PAS-3, the return of allotment, filed with the Registrar within 30 days of allotment. MGT-14 is filed for the board resolution where the company is required to do so. Where the authorised capital must first be increased, Form SH-7 is filed. No prospectus is required for a rights issue." }
+            },
+            {
+                "@type": "Question",
+                "name": "Can a rights issue be made by a private company?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Yes. Both private and public companies can make a rights issue under Section 62. A private company also has the flexibility to keep the offer open for a shorter period with the consent of 90 percent of its members, and it commonly uses the renunciation route to admit new investors without following the full private placement process." }
+            },
+            {
+                "@type": "Question",
+                "name": "What happens to shares not taken up in a rights issue?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Shares that are not subscribed, the unsubscribed portion, may be allotted by the Board at its discretion in a manner that is not disadvantageous to the shareholders and the company. This flexibility is one reason companies prefer a rights issue, although the disposal must stay within the rights issue framework rather than becoming a preferential offer." }
+            }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/rights-issue-of-shares-section-62-1-a",
+        "name": "Rights Issue of Shares under Section 62(1)(a)",
+        "description": "Raise capital via a rights issue under Section 62(1)(a) with a pro-rata letter of offer, renunciation and PAS-3 filing. Expert CA help. From INR 24,999.",
+        "url": "https://www.patronaccounting.com/rights-issue-of-shares-section-62-1-a",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/rights-issue-of-shares-section-62-1-a/#service" },
+        "datePublished": "2026-06-03T08:00:00+05:30",
+        "dateModified": "2026-06-04T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/rights-issue-of-shares-section-62-1-a/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "Rights Issue Process: Step by Step",
+        "description": "How a rights issue under Section 62(1)(a) is carried out, from checking capital and the Articles through the letter of offer and renunciation to allotment and the PAS-3 filing.",
+        "totalTime": "P45D",
+        "step": [
+            { "@type": "HowToStep", "name": "Check capital and Articles", "text": "Confirm the authorised capital covers the issue and the Articles permit the rights issue." },
+            { "@type": "HowToStep", "name": "Board approval", "text": "Hold a Board meeting to approve the rights issue, the price, the ratio and the letter of offer, on at least 7 days' notice." },
+            { "@type": "HowToStep", "name": "Dispatch the letter of offer", "text": "Send the letter of offer to shareholders at least 3 days before opening, keeping it open for 15 to 30 days." },
+            { "@type": "HowToStep", "name": "Collect responses", "text": "Receive acceptances, renunciations and applications for additional shares within the offer period." },
+            { "@type": "HowToStep", "name": "Receive money and allot", "text": "Receive the application money and hold a Board meeting to allot the shares, within 60 days of receipt." },
+            { "@type": "HowToStep", "name": "File PAS-3", "text": "File PAS-3 with the ROC within 30 days of allotment, with the list of allottees." },
+            { "@type": "HowToStep", "name": "Issue certificates", "text": "Issue share certificates, update the register and intimate the depository for demat shares." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Rights Issue Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Letter of Offer", "description": "The notice to existing shareholders setting out the entitlement, price and offer period." },
+            { "@type": "DefinedTerm", "name": "Entitlement Ratio", "description": "The proportion of new shares offered against existing holding, for example one for five." },
+            { "@type": "DefinedTerm", "name": "Renunciation", "description": "Transfer of the right to subscribe to another person, whether or not a member." },
+            { "@type": "DefinedTerm", "name": "Record Date", "description": "The date on which shareholders are identified for the rights offer." },
+            { "@type": "DefinedTerm", "name": "Unsubscribed Portion", "description": "Shares not taken up, which the Board may allot in a manner not disadvantageous." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1567,17 +1572,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1600,8 +1598,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1638,7 +1634,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1 (corrected): Last Updated mirrors schema dateModified — STABLE hardcoded date, never live new Date()
 (function() {
@@ -1649,3 +1644,19 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

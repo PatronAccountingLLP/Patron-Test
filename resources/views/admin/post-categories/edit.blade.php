@@ -112,9 +112,7 @@
         </div>
     </div>
 </div>
-@endsection
 
-@push('scripts')
 <script>
     // Auto-generate slug from name (but only if slug is empty or auto-generated)
     document.getElementById('name').addEventListener('input', function() {
@@ -150,4 +148,8 @@
         }
     });
 </script>
+@endsection
+
+@push('scripts')
+
 @endpush

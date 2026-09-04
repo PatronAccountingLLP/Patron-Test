@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,208 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>Zoho to QuickBooks Migration Pune 2026 | Patron Accounting</title>
-    <meta name="description" content="Zoho Books to QuickBooks Online migration in Pune from INR 9,999. CA-led data export, COA re-map, GST config for Hinjewadi and Chakan firms.">
-    <link rel="canonical" href="/migration-from-zoho-to-quickbooks/pune">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Zoho to QuickBooks Migration Pune 2026 | Patron Accounting">
-    <meta property="og:description" content="Zoho Books to QuickBooks Online migration in Pune from INR 9,999. CA-led data export, COA re-map, GST config for Hinjewadi and Chakan firms.">
-    <meta property="og:url" content="/migration-from-zoho-to-quickbooks/pune">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Zoho to QuickBooks Migration Pune 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Zoho Books to QuickBooks Online migration in Pune from INR 9,999. CA-led data export, COA re-map, GST config for Hinjewadi and Chakan firms.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/migration-from-zoho-to-quickbooks/pune#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Zoho to QuickBooks Migration",
-          "item": "https://www.patronaccounting.com/migration-from-zoho-to-quickbooks"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Zoho to QuickBooks Migration in Pune",
-          "item": "https://www.patronaccounting.com/migration-from-zoho-to-quickbooks/pune"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/migration-from-zoho-to-quickbooks/pune#faq",
-      "datePublished": "2026-06-23T08:00:00+05:30",
-      "dateModified": "2026-06-23T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What does a Zoho Books to QuickBooks Online migration involve in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "It moves your Pune entity off Zoho Books and onto QuickBooks Online with the books intact. Patron exports masters and transactions from Zoho, re-maps the chart of accounts, loads opening balances, reconfigures India GST and GSTIN settings, then reconciles the QuickBooks trial balance against the final Zoho trial balance before sign-off."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does Zoho to QuickBooks migration cost in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patron Accounting charges Starting from INR 9,999 (Exl GST and Govt. Charges). The final fee depends on how many transaction years you carry over, the number of GSTINs, ledger count, and whether full history or opening balances only are migrated. Hinjewadi SaaS firms and Chakan manufacturers get a fixed-scope quote first."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Will my Zoho Books history and GST data survive the move to QuickBooks?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Patron carries customers, vendors, items, the chart of accounts, and historical invoices and bills into QuickBooks Online, then re-creates GST tax rates, place-of-supply logic, and GSTIN settings. Filed GSTR-1 and GSTR-3B data stays on the GST portal; we align QuickBooks output formats so future filings reconcile cleanly."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why are Pune subsidiaries of US parents switching from Zoho to QuickBooks?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Most US-headquartered groups run QuickBooks Online at the parent. When the Pune India subsidiary also moves to QuickBooks, the group reports on one chart of accounts and one system, so month-end consolidation and audit reviews stop relying on manual Zoho-to-QuickBooks re-keying for Hinjewadi and Magarpatta entities."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does a Zoho to QuickBooks migration take for a Pune business?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "An opening-balances-only move for a single-GSTIN Hinjewadi startup is usually done in 5 to 7 working days. Carrying one to two years of history for a Chakan manufacturer with inventory and multiple GSTINs typically takes 3 to 6 weeks, depending on data quality in Zoho Books and how fast exports are shared."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you reconcile the trial balance after migrating to QuickBooks in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Always. We run the closing trial balance in Zoho Books and the opening trial balance in QuickBooks Online side by side, account by account, and post adjusting entries until every balance agrees. A Patron CA signs off only once debits equal credits and the two systems match to the rupee."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can you migrate GST tax rates and HSN or SAC codes into QuickBooks?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. QuickBooks Online India supports GST, so we re-build CGST, SGST, and IGST rate combinations, set place-of-supply defaults, and tag HSN or SAC codes on items. For a Pune trader or SaaS exporter, we also configure zero-rated and reverse-charge handling so invoices comply under the CGST Act 2017."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is there downtime during the Zoho to QuickBooks switch in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We pick a clean cut-over date, usually a month or quarter end. Zoho Books stays live and read-only for reference while QuickBooks Online is built and verified. Your Pune team only starts posting in QuickBooks after the trial balance reconciles, so day-to-day billing and GST filing continue without a gap."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/migration-from-zoho-to-quickbooks/pune#service",
-      "name": "Zoho to QuickBooks Migration in Pune",
-      "description": "Zoho Books to QuickBooks Online migration in Pune covering data export, chart-of-accounts re-mapping, opening balances, masters, historical transactions, India GST configuration, and trial balance reconciliation. Patron Accounting moves Hinjewadi, Magarpatta, and Chakan entities onto QuickBooks for clean group reporting.",
-      "serviceType": "Zoho Books to QuickBooks Online Migration",
-      "url": "https://www.patronaccounting.com/migration-from-zoho-to-quickbooks/pune",
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Maharashtra"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#localbusiness-pune"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "QuickBooks",
-          "sameAs": "https://en.wikipedia.org/wiki/QuickBooks"
-        },
-        {
-          "@type": "Thing",
-          "name": "Goods and Services Tax (India)",
-          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Zoho to QuickBooks Migration Plans in Pune",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "price": "9999",
-            "priceSpecification": {
-              "@type": "UnitPriceSpecification",
-              "priceCurrency": "INR",
-              "price": "9999",
-              "unitText": "starting migration fee"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Zoho Books to QuickBooks Online Migration"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness-pune",
-      "name": "Patron Accounting LLP - Pune",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/migration-from-zoho-to-quickbooks/pune",
-      "telephone": "+91-9699936369",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Pune",
-        "addressRegion": "Maharashtra",
-        "postalCode": "411014",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -815,7 +612,217 @@
         .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
 
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>Zoho to QuickBooks Migration Pune 2026 | Patron Accounting</title>
+    <meta name="description" content="Zoho Books to QuickBooks Online migration in Pune from INR 9,999. CA-led data export, COA re-map, GST config for Hinjewadi and Chakan firms.">
+    <link rel="canonical" href="/migration-from-zoho-to-quickbooks/pune">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Zoho to QuickBooks Migration Pune 2026 | Patron Accounting">
+    <meta property="og:description" content="Zoho Books to QuickBooks Online migration in Pune from INR 9,999. CA-led data export, COA re-map, GST config for Hinjewadi and Chakan firms.">
+    <meta property="og:url" content="/migration-from-zoho-to-quickbooks/pune">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Zoho to QuickBooks Migration Pune 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Zoho Books to QuickBooks Online migration in Pune from INR 9,999. CA-led data export, COA re-map, GST config for Hinjewadi and Chakan firms.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/migration-from-zoho-to-quickbooks/pune#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Zoho to QuickBooks Migration",
+          "item": "https://www.patronaccounting.com/migration-from-zoho-to-quickbooks"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Zoho to QuickBooks Migration in Pune",
+          "item": "https://www.patronaccounting.com/migration-from-zoho-to-quickbooks/pune"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/migration-from-zoho-to-quickbooks/pune#faq",
+      "datePublished": "2026-06-23T08:00:00+05:30",
+      "dateModified": "2026-06-23T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does a Zoho Books to QuickBooks Online migration involve in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It moves your Pune entity off Zoho Books and onto QuickBooks Online with the books intact. Patron exports masters and transactions from Zoho, re-maps the chart of accounts, loads opening balances, reconfigures India GST and GSTIN settings, then reconciles the QuickBooks trial balance against the final Zoho trial balance before sign-off."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does Zoho to QuickBooks migration cost in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patron Accounting charges Starting from INR 9,999 (Exl GST and Govt. Charges). The final fee depends on how many transaction years you carry over, the number of GSTINs, ledger count, and whether full history or opening balances only are migrated. Hinjewadi SaaS firms and Chakan manufacturers get a fixed-scope quote first."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will my Zoho Books history and GST data survive the move to QuickBooks?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Patron carries customers, vendors, items, the chart of accounts, and historical invoices and bills into QuickBooks Online, then re-creates GST tax rates, place-of-supply logic, and GSTIN settings. Filed GSTR-1 and GSTR-3B data stays on the GST portal; we align QuickBooks output formats so future filings reconcile cleanly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why are Pune subsidiaries of US parents switching from Zoho to QuickBooks?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most US-headquartered groups run QuickBooks Online at the parent. When the Pune India subsidiary also moves to QuickBooks, the group reports on one chart of accounts and one system, so month-end consolidation and audit reviews stop relying on manual Zoho-to-QuickBooks re-keying for Hinjewadi and Magarpatta entities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does a Zoho to QuickBooks migration take for a Pune business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An opening-balances-only move for a single-GSTIN Hinjewadi startup is usually done in 5 to 7 working days. Carrying one to two years of history for a Chakan manufacturer with inventory and multiple GSTINs typically takes 3 to 6 weeks, depending on data quality in Zoho Books and how fast exports are shared."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you reconcile the trial balance after migrating to QuickBooks in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Always. We run the closing trial balance in Zoho Books and the opening trial balance in QuickBooks Online side by side, account by account, and post adjusting entries until every balance agrees. A Patron CA signs off only once debits equal credits and the two systems match to the rupee."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you migrate GST tax rates and HSN or SAC codes into QuickBooks?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. QuickBooks Online India supports GST, so we re-build CGST, SGST, and IGST rate combinations, set place-of-supply defaults, and tag HSN or SAC codes on items. For a Pune trader or SaaS exporter, we also configure zero-rated and reverse-charge handling so invoices comply under the CGST Act 2017."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there downtime during the Zoho to QuickBooks switch in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We pick a clean cut-over date, usually a month or quarter end. Zoho Books stays live and read-only for reference while QuickBooks Online is built and verified. Your Pune team only starts posting in QuickBooks after the trial balance reconciles, so day-to-day billing and GST filing continue without a gap."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/migration-from-zoho-to-quickbooks/pune#service",
+      "name": "Zoho to QuickBooks Migration in Pune",
+      "description": "Zoho Books to QuickBooks Online migration in Pune covering data export, chart-of-accounts re-mapping, opening balances, masters, historical transactions, India GST configuration, and trial balance reconciliation. Patron Accounting moves Hinjewadi, Magarpatta, and Chakan entities onto QuickBooks for clean group reporting.",
+      "serviceType": "Zoho Books to QuickBooks Online Migration",
+      "url": "https://www.patronaccounting.com/migration-from-zoho-to-quickbooks/pune",
+      "areaServed": {
+        "@type": "City",
+        "name": "Pune",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Maharashtra"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#localbusiness-pune"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "QuickBooks",
+          "sameAs": "https://en.wikipedia.org/wiki/QuickBooks"
+        },
+        {
+          "@type": "Thing",
+          "name": "Goods and Services Tax (India)",
+          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Zoho to QuickBooks Migration Plans in Pune",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "price": "9999",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "INR",
+              "price": "9999",
+              "unitText": "starting migration fee"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Zoho Books to QuickBooks Online Migration"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness-pune",
+      "name": "Patron Accounting LLP - Pune",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/migration-from-zoho-to-quickbooks/pune",
+      "telephone": "+91-9699936369",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Pune"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Pune",
+        "addressRegion": "Maharashtra",
+        "postalCode": "411014",
+        "addressCountry": "IN"
+      },
+      "parentOrganization": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1567,7 +1574,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

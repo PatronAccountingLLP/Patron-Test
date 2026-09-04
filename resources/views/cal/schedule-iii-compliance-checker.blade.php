@@ -1,204 +1,8 @@
 @extends('layouts.app')
-@section('meta')
-
-<title>Schedule III Compliance Checker | Disclosure Audit</title>
-<meta name="description" content="Schedule III Compliance Checker: find your applicable Division and score all 16 mandatory FY 2021-22 financial statement disclosures. Check compliance free!">
-<meta name="robots" content="index, follow">
-<link rel="canonical" href="https://www.patronaccounting.com/tools/schedule-iii-compliance-checker">
-
-<meta property="og:title" content="Schedule III Compliance Checker — Free Disclosure Tool">
-<meta property="og:description" content="Identify your applicable Schedule III Division and score the 16 mandatory FY 2021-22 financial statement disclosure requirements. Free, instant, India-specific.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.patronaccounting.com/tools/schedule-iii-compliance-checker">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="1200">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-<meta property="og:site_name" content="Patron Accounting LLP">
-<meta property="og:locale" content="en_IN">
-<meta name="theme-color" content="#15365f">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Schedule III Compliance Checker — Free Disclosure Tool">
-<meta name="twitter:description" content="Identify your applicable Schedule III Division and score the 16 mandatory FY 2021-22 financial statement disclosure requirements.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-
-<link rel="icon" href="https://www.patronaccounting.com/favicon.ico">
-<link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-
-@endsection
-@section('schema')
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "Schedule III Compliance Checker",
-  "description": "The Schedule III Compliance Checker identifies whether Division I, II or III of Schedule III to the Companies Act 2013 applies to a company based on its accounting framework, and scores compliance against the 16 mandatory additional financial statement disclosures introduced by MCA Notification G.S.R. 207(E) effective FY 2021-22.",
-  "url": "https://www.patronaccounting.com/tools/schedule-iii-compliance-checker",
-  "applicationCategory": "BusinessApplication",
-  "operatingSystem": "Any",
-  "inLanguage": "en-IN",
-  "isAccessibleForFree": true,
-  "datePublished": "2026-05-16T08:00:00+05:30",
-  "dateModified": "2026-05-16T08:00:00+05:30",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "INR"
-  },
-  "reviewedBy": {
-    "@type": "Person",
-    "@id": "https://patronaccounting.com/#founder",
-    "name": "CA Sundram Gupta",
-    "jobTitle": "Founder & Chartered Accountant",
-    "url": "https://www.patronaccounting.com/contact-page",
-    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-    "hasCredential": [{
-      "@type": "EducationalOccupationalCredential",
-      "credentialCategory": "Professional Certification",
-      "name": "Chartered Accountant (CA)",
-      "recognizedBy": {
-        "@type": "Organization",
-        "name": "Institute of Chartered Accountants of India",
-        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-      }
-    }]
-  },
-  "publisher": { "@id": "https://patronaccounting.com/#organization" },
-  "provider": { "@id": "https://patronaccounting.com/#organization" }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "Schedule III Compliance Checker", "item": "https://www.patronaccounting.com/tools/schedule-iii-compliance-checker"}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the Schedule III Compliance Checker?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "It is a free tool that first identifies which Division of Schedule III to the Companies Act 2013 applies to your company based on its accounting framework, and then scores compliance against the 16 mandatory additional disclosures introduced by the MCA 2021 amendment. It produces a Division verdict and a disclosure readiness percentage."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is Schedule III of the Companies Act 2013?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Schedule III prescribes the general format for the balance sheet, statement of profit and loss and notes for company financial statements, ensuring uniformity. It has three divisions: Division I for Accounting Standards (Indian GAAP), Division II for Ind AS, and Division III for NBFCs that apply Ind AS. The format is supported by ICAI guidance notes."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which Division of Schedule III applies to my company?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Division I applies to companies preparing financial statements under the Companies (Accounting Standards) Rules, that is Indian GAAP. Division II applies to companies that follow Indian Accounting Standards (Ind AS). Division III applies to Non-Banking Financial Companies required to comply with Ind AS. The applicable Division depends on the accounting framework the company is required to follow."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What changed in Schedule III from FY 2021-22?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MCA Notification G.S.R. 207(E) dated 24 March 2021 added numerous disclosures effective for financial years commencing on or after 1 April 2021. These include promoter shareholding, mandatory rounding off, ageing schedules for receivables and payables, title deeds, loans to promoters, benami property, ratios, CSR and crypto-currency, applicable across Divisions I, II and III."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is rounding off of figures now mandatory?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Earlier rounding off was optional and based on turnover. From FY 2021-22, companies must round off figures in the financial statements, and the criterion is Total Income instead of turnover. The rounding multiple depends on the total income band specified in Schedule III. A company can no longer present absolute unrounded figures."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What ageing schedules does Schedule III now require?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Schedule III now requires ageing schedules for trade receivables, trade payables, capital work-in-progress and intangible assets under development. Trade payables are classified into MSME, others, disputed MSME and disputed others, with ageing buckets of less than 1 year, 1 to 2 years, 2 to 3 years and more than 3 years, plus unbilled and not-due columns."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the promoter shareholding disclosure?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Companies must now disclose, in the notes to share capital, the shares held by each promoter at the end of the financial year and the percentage change during the year, in a tabular format for each class of shares. Earlier only shareholders holding more than 5 percent were disclosed; the amendment extends disclosure to all promoters under the Companies Act definition."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does Schedule III require disclosure of loans to promoters?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Companies must disclose loans and advances in the nature of loans granted to promoters, directors, key managerial personnel and related parties, whether severally or jointly, that are repayable on demand or without specifying terms or period of repayment, along with the percentage these loans bear to total loans and advances."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do the Schedule III amendments link to CARO 2020?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Many 2021 Schedule III disclosures, such as title deeds, benami property, struck-off companies, wilful default and undisclosed income, mirror CARO 2020 reporting clauses. The MCA aligned the two frameworks so the financial statements and the auditor's report present consistent information, improving transparency and reducing the scope for mismatched disclosure."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Are crypto-currency disclosures required under Schedule III?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. If a company traded or invested in crypto-currency or virtual currency during the financial year, it must disclose in the notes the profit or loss on such transactions, the amount of currency held at the reporting date, and any deposits or advances from any person for trading or investing in crypto-currency, as part of the FY 2021-22 amendments."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does this tool give a binding Schedule III opinion?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. The tool gives an indicative Division verdict and a disclosure readiness score for planning only. The binding determination of the applicable Division and the completeness of Schedule III disclosures rest with the preparer and the statutory auditor, based on the company's actual accounting framework and the rules for the specific financial year. Confirm with a Chartered Accountant."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does the tool store my company data?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. The Schedule III Compliance Checker runs entirely in your browser. The accounting framework selection and disclosure answers you enter are never transmitted to any server or stored anywhere. Refreshing the page clears all inputs, so you can assess your Schedule III readiness confidentially before finalising financial statements or engaging an auditor."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the Schedule III Compliance Checker free?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, it is completely free with no sign-up or usage limit. Patron Accounting LLP provides it as a planning aid for directors, finance teams and auditors preparing financial statements. For a full Schedule III compliant financial statement preparation and statutory audit, our Chartered Accountants work with companies across India."
-      }
-    }
-  ]
-}
-</script>
-@endsection
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
 <style>
 
         :root {
@@ -1282,6 +1086,204 @@ a:focus-visible {
 }
 
 </style>
+@endpush
+
+@section('meta')
+
+<title>Schedule III Compliance Checker | Disclosure Audit</title>
+<meta name="description" content="Schedule III Compliance Checker: find your applicable Division and score all 16 mandatory FY 2021-22 financial statement disclosures. Check compliance free!">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/schedule-iii-compliance-checker">
+
+<meta property="og:title" content="Schedule III Compliance Checker — Free Disclosure Tool">
+<meta property="og:description" content="Identify your applicable Schedule III Division and score the 16 mandatory FY 2021-22 financial statement disclosure requirements. Free, instant, India-specific.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/schedule-iii-compliance-checker">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+<meta property="og:site_name" content="Patron Accounting LLP">
+<meta property="og:locale" content="en_IN">
+<meta name="theme-color" content="#15365f">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Schedule III Compliance Checker — Free Disclosure Tool">
+<meta name="twitter:description" content="Identify your applicable Schedule III Division and score the 16 mandatory FY 2021-22 financial statement disclosure requirements.">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+
+@endsection
+@section('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Schedule III Compliance Checker",
+  "description": "The Schedule III Compliance Checker identifies whether Division I, II or III of Schedule III to the Companies Act 2013 applies to a company based on its accounting framework, and scores compliance against the 16 mandatory additional financial statement disclosures introduced by MCA Notification G.S.R. 207(E) effective FY 2021-22.",
+  "url": "https://www.patronaccounting.com/tools/schedule-iii-compliance-checker",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Any",
+  "inLanguage": "en-IN",
+  "isAccessibleForFree": true,
+  "datePublished": "2026-05-16T08:00:00+05:30",
+  "dateModified": "2026-05-16T08:00:00+05:30",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "INR"
+  },
+  "reviewedBy": {
+    "@type": "Person",
+    "@id": "https://patronaccounting.com/#founder",
+    "name": "CA Sundram Gupta",
+    "jobTitle": "Founder & Chartered Accountant",
+    "url": "https://www.patronaccounting.com/contact-page",
+    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+    "hasCredential": [{
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Professional Certification",
+      "name": "Chartered Accountant (CA)",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Institute of Chartered Accountants of India",
+        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+      }
+    }]
+  },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
+  "provider": { "@id": "https://patronaccounting.com/#organization" }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "Schedule III Compliance Checker", "item": "https://www.patronaccounting.com/tools/schedule-iii-compliance-checker"}
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the Schedule III Compliance Checker?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It is a free tool that first identifies which Division of Schedule III to the Companies Act 2013 applies to your company based on its accounting framework, and then scores compliance against the 16 mandatory additional disclosures introduced by the MCA 2021 amendment. It produces a Division verdict and a disclosure readiness percentage."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is Schedule III of the Companies Act 2013?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Schedule III prescribes the general format for the balance sheet, statement of profit and loss and notes for company financial statements, ensuring uniformity. It has three divisions: Division I for Accounting Standards (Indian GAAP), Division II for Ind AS, and Division III for NBFCs that apply Ind AS. The format is supported by ICAI guidance notes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which Division of Schedule III applies to my company?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Division I applies to companies preparing financial statements under the Companies (Accounting Standards) Rules, that is Indian GAAP. Division II applies to companies that follow Indian Accounting Standards (Ind AS). Division III applies to Non-Banking Financial Companies required to comply with Ind AS. The applicable Division depends on the accounting framework the company is required to follow."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What changed in Schedule III from FY 2021-22?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MCA Notification G.S.R. 207(E) dated 24 March 2021 added numerous disclosures effective for financial years commencing on or after 1 April 2021. These include promoter shareholding, mandatory rounding off, ageing schedules for receivables and payables, title deeds, loans to promoters, benami property, ratios, CSR and crypto-currency, applicable across Divisions I, II and III."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is rounding off of figures now mandatory?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Earlier rounding off was optional and based on turnover. From FY 2021-22, companies must round off figures in the financial statements, and the criterion is Total Income instead of turnover. The rounding multiple depends on the total income band specified in Schedule III. A company can no longer present absolute unrounded figures."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What ageing schedules does Schedule III now require?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Schedule III now requires ageing schedules for trade receivables, trade payables, capital work-in-progress and intangible assets under development. Trade payables are classified into MSME, others, disputed MSME and disputed others, with ageing buckets of less than 1 year, 1 to 2 years, 2 to 3 years and more than 3 years, plus unbilled and not-due columns."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the promoter shareholding disclosure?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Companies must now disclose, in the notes to share capital, the shares held by each promoter at the end of the financial year and the percentage change during the year, in a tabular format for each class of shares. Earlier only shareholders holding more than 5 percent were disclosed; the amendment extends disclosure to all promoters under the Companies Act definition."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Schedule III require disclosure of loans to promoters?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Companies must disclose loans and advances in the nature of loans granted to promoters, directors, key managerial personnel and related parties, whether severally or jointly, that are repayable on demand or without specifying terms or period of repayment, along with the percentage these loans bear to total loans and advances."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do the Schedule III amendments link to CARO 2020?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Many 2021 Schedule III disclosures, such as title deeds, benami property, struck-off companies, wilful default and undisclosed income, mirror CARO 2020 reporting clauses. The MCA aligned the two frameworks so the financial statements and the auditor's report present consistent information, improving transparency and reducing the scope for mismatched disclosure."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are crypto-currency disclosures required under Schedule III?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. If a company traded or invested in crypto-currency or virtual currency during the financial year, it must disclose in the notes the profit or loss on such transactions, the amount of currency held at the reporting date, and any deposits or advances from any person for trading or investing in crypto-currency, as part of the FY 2021-22 amendments."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does this tool give a binding Schedule III opinion?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The tool gives an indicative Division verdict and a disclosure readiness score for planning only. The binding determination of the applicable Division and the completeness of Schedule III disclosures rest with the preparer and the statutory auditor, based on the company's actual accounting framework and the rules for the specific financial year. Confirm with a Chartered Accountant."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does the tool store my company data?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The Schedule III Compliance Checker runs entirely in your browser. The accounting framework selection and disclosure answers you enter are never transmitted to any server or stored anywhere. Refreshing the page clears all inputs, so you can assess your Schedule III readiness confidentially before finalising financial statements or engaging an auditor."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the Schedule III Compliance Checker free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, it is completely free with no sign-up or usage limit. Patron Accounting LLP provides it as a planning aid for directors, finance teams and auditors preparing financial statements. For a full Schedule III compliant financial statement preparation and statutory audit, our Chartered Accountants work with companies across India."
+      }
+    }
+  ]
+}
+</script>
+@endsection
 @section('content')
 
 <nav class="toc-nav" aria-label="Page Navigation">

@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,208 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>Year-End Closing in Mumbai 2026 | Patron Accounting</title>
-    <meta name="description" content="Mumbai 31 March FY finalisation from INR 14,999/yr. CA-supervised ledger scrutiny, Schedule III schedules, and audit liaison for BKC and Bhiwandi firms.">
-    <link rel="canonical" href="/year-end-closing-finalisation-services/mumbai">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Year-End Closing in Mumbai 2026 | Patron Accounting">
-    <meta property="og:description" content="Mumbai 31 March FY finalisation from INR 14,999/yr. CA-supervised ledger scrutiny, Schedule III schedules, and audit liaison for BKC and Bhiwandi firms.">
-    <meta property="og:url" content="/year-end-closing-finalisation-services/mumbai">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Year-End Closing in Mumbai 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Mumbai 31 March FY finalisation from INR 14,999/yr. CA-supervised ledger scrutiny, Schedule III schedules, and audit liaison for BKC and Bhiwandi firms.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/year-end-closing-finalisation-services/mumbai#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Year-End Closing and Finalisation Services",
-          "item": "https://www.patronaccounting.com/year-end-closing-finalisation-services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Year-End Closing and Finalisation Services in Mumbai",
-          "item": "https://www.patronaccounting.com/year-end-closing-finalisation-services/mumbai"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/year-end-closing-finalisation-services/mumbai#faq",
-      "datePublished": "2026-06-23T08:00:00+05:30",
-      "dateModified": "2026-06-23T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is year-end closing and finalisation for a Mumbai business?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "It is the work of bringing a Mumbai company's books to a true and fair position at 31 March: posting closing and adjusting journals, raising accruals, prepaids, depreciation, and provisions, reading every ledger, and drawing the supporting workings. Patron then finalises the accounts in the Schedule III format under the Companies Act 2013 so they are ready for audit."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does year-end finalisation cost in Mumbai?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Engagements open at INR 14,999/yr (Exl GST and Govt. Charges). Where it lands depends on turnover, ledger volume, the number of fixed assets, and whether an audit follows. A BKC finance firm and a Bhiwandi 3PL operator each get a fixed-scope quote in writing before any closing work starts."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "When must the financial year be closed in India?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "India's financial year closes on 31 March, and books are wrapped shortly after so accounts can be finalised, audited if needed, and returns lodged. A Mumbai company then holds its AGM and files AOC-4 and MGT-7 with RoC Mumbai, while the Section 44AB tax audit report and the ITR carry their own later due dates."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What adjusting entries are passed during year-end closing?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The usual set runs to accrued income and expenses, prepaids, depreciation on both statutory bases, provisions for doubtful debts and tax, closing stock valuation, and the regrouping of advances and loans. Each one carries its own working, so a Mumbai auditor can follow any figure back to source without a second request."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does year-end closing take in Mumbai?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A single-entity BKC finance or services firm with clean books usually closes in 1 to 2 weeks. A Bhiwandi warehousing business with stock, several GSTINs, and a full asset register runs 3 to 5 weeks. The driver is how current the books were on 31 March and how fast confirmations and bank statements come back."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you liaise with our statutory auditor during finalisation?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We do. Patron hands the auditor a clean trial balance, ledger workings, the asset register, and reconciliations, then answers queries and books the adjustments both sides agree. For Mumbai companies this trims the audit timeline and spares management most of the usual to-and-fro with the audit team."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you handle Maharashtra PTRC and PTEC dues during the Mumbai close?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Unlike Delhi, Maharashtra levies profession tax, so for Mumbai employers we reconcile PTRC and PTEC ledgers, confirm monthly deductions and the annual PTEC payment are booked, and provide for any shortfall at 31 March. These dues are then shown correctly under statutory liabilities in the Schedule III balance sheet."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is year-end closing needed if my Mumbai company is not audited?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "It still is. Audit or no audit, a correct ITR, an accurate advance-tax and MAT computation, and credible numbers for Mumbai banks and investors all rest on a proper close. Skipping the closing journals and provisions understates tax and exposes proprietors, firms, and LLPs to Section 271A penalty risk."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/year-end-closing-finalisation-services/mumbai#service",
-      "name": "Year-End Closing and Finalisation Services in Mumbai",
-      "description": "Year-end book closing and finalisation in Mumbai covers closing and adjusting entries, accruals, prepayments, depreciation, provisions, ledger scrutiny, and Schedule III schedules for the 31 March FY close. Patron Accounting delivers audit-ready accounts and audit liaison for BKC, Lower Parel, and Bhiwandi businesses.",
-      "serviceType": "Year-End Closing and Financial Statement Finalisation",
-      "url": "https://www.patronaccounting.com/year-end-closing-finalisation-services/mumbai",
-      "areaServed": {
-        "@type": "City",
-        "name": "Mumbai",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Maharashtra"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#localbusiness-mumbai"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Financial statement",
-          "sameAs": "https://en.wikipedia.org/wiki/Financial_statement"
-        },
-        {
-          "@type": "Thing",
-          "name": "Depreciation",
-          "sameAs": "https://en.wikipedia.org/wiki/Depreciation"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Year-End Closing Plans in Mumbai",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "price": "14999",
-            "priceSpecification": {
-              "@type": "UnitPriceSpecification",
-              "priceCurrency": "INR",
-              "price": "14999",
-              "unitText": "per year"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Year-End Closing and Finalisation per Financial Year"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness-mumbai",
-      "name": "Patron Accounting LLP - Mumbai",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/year-end-closing-finalisation-services/mumbai",
-      "telephone": "+91-9699936369",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Mumbai"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Mumbai",
-        "addressRegion": "Maharashtra",
-        "postalCode": "400020",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -830,7 +627,217 @@
         .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
 
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>Year-End Closing in Mumbai 2026 | Patron Accounting</title>
+    <meta name="description" content="Mumbai 31 March FY finalisation from INR 14,999/yr. CA-supervised ledger scrutiny, Schedule III schedules, and audit liaison for BKC and Bhiwandi firms.">
+    <link rel="canonical" href="/year-end-closing-finalisation-services/mumbai">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Year-End Closing in Mumbai 2026 | Patron Accounting">
+    <meta property="og:description" content="Mumbai 31 March FY finalisation from INR 14,999/yr. CA-supervised ledger scrutiny, Schedule III schedules, and audit liaison for BKC and Bhiwandi firms.">
+    <meta property="og:url" content="/year-end-closing-finalisation-services/mumbai">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Year-End Closing in Mumbai 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Mumbai 31 March FY finalisation from INR 14,999/yr. CA-supervised ledger scrutiny, Schedule III schedules, and audit liaison for BKC and Bhiwandi firms.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/year-end-closing-finalisation-services/mumbai#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Year-End Closing and Finalisation Services",
+          "item": "https://www.patronaccounting.com/year-end-closing-finalisation-services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Year-End Closing and Finalisation Services in Mumbai",
+          "item": "https://www.patronaccounting.com/year-end-closing-finalisation-services/mumbai"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/year-end-closing-finalisation-services/mumbai#faq",
+      "datePublished": "2026-06-23T08:00:00+05:30",
+      "dateModified": "2026-06-23T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is year-end closing and finalisation for a Mumbai business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is the work of bringing a Mumbai company's books to a true and fair position at 31 March: posting closing and adjusting journals, raising accruals, prepaids, depreciation, and provisions, reading every ledger, and drawing the supporting workings. Patron then finalises the accounts in the Schedule III format under the Companies Act 2013 so they are ready for audit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does year-end finalisation cost in Mumbai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Engagements open at INR 14,999/yr (Exl GST and Govt. Charges). Where it lands depends on turnover, ledger volume, the number of fixed assets, and whether an audit follows. A BKC finance firm and a Bhiwandi 3PL operator each get a fixed-scope quote in writing before any closing work starts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When must the financial year be closed in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "India's financial year closes on 31 March, and books are wrapped shortly after so accounts can be finalised, audited if needed, and returns lodged. A Mumbai company then holds its AGM and files AOC-4 and MGT-7 with RoC Mumbai, while the Section 44AB tax audit report and the ITR carry their own later due dates."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What adjusting entries are passed during year-end closing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The usual set runs to accrued income and expenses, prepaids, depreciation on both statutory bases, provisions for doubtful debts and tax, closing stock valuation, and the regrouping of advances and loans. Each one carries its own working, so a Mumbai auditor can follow any figure back to source without a second request."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does year-end closing take in Mumbai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A single-entity BKC finance or services firm with clean books usually closes in 1 to 2 weeks. A Bhiwandi warehousing business with stock, several GSTINs, and a full asset register runs 3 to 5 weeks. The driver is how current the books were on 31 March and how fast confirmations and bank statements come back."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you liaise with our statutory auditor during finalisation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We do. Patron hands the auditor a clean trial balance, ledger workings, the asset register, and reconciliations, then answers queries and books the adjustments both sides agree. For Mumbai companies this trims the audit timeline and spares management most of the usual to-and-fro with the audit team."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you handle Maharashtra PTRC and PTEC dues during the Mumbai close?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Unlike Delhi, Maharashtra levies profession tax, so for Mumbai employers we reconcile PTRC and PTEC ledgers, confirm monthly deductions and the annual PTEC payment are booked, and provide for any shortfall at 31 March. These dues are then shown correctly under statutory liabilities in the Schedule III balance sheet."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is year-end closing needed if my Mumbai company is not audited?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It still is. Audit or no audit, a correct ITR, an accurate advance-tax and MAT computation, and credible numbers for Mumbai banks and investors all rest on a proper close. Skipping the closing journals and provisions understates tax and exposes proprietors, firms, and LLPs to Section 271A penalty risk."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/year-end-closing-finalisation-services/mumbai#service",
+      "name": "Year-End Closing and Finalisation Services in Mumbai",
+      "description": "Year-end book closing and finalisation in Mumbai covers closing and adjusting entries, accruals, prepayments, depreciation, provisions, ledger scrutiny, and Schedule III schedules for the 31 March FY close. Patron Accounting delivers audit-ready accounts and audit liaison for BKC, Lower Parel, and Bhiwandi businesses.",
+      "serviceType": "Year-End Closing and Financial Statement Finalisation",
+      "url": "https://www.patronaccounting.com/year-end-closing-finalisation-services/mumbai",
+      "areaServed": {
+        "@type": "City",
+        "name": "Mumbai",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Maharashtra"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#localbusiness-mumbai"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Financial statement",
+          "sameAs": "https://en.wikipedia.org/wiki/Financial_statement"
+        },
+        {
+          "@type": "Thing",
+          "name": "Depreciation",
+          "sameAs": "https://en.wikipedia.org/wiki/Depreciation"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Year-End Closing Plans in Mumbai",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "price": "14999",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "INR",
+              "price": "14999",
+              "unitText": "per year"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Year-End Closing and Finalisation per Financial Year"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness-mumbai",
+      "name": "Patron Accounting LLP - Mumbai",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/year-end-closing-finalisation-services/mumbai",
+      "telephone": "+91-9699936369",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Mumbai"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Mumbai",
+        "addressRegion": "Maharashtra",
+        "postalCode": "400020",
+        "addressCountry": "IN"
+      },
+      "parentOrganization": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1581,7 +1588,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

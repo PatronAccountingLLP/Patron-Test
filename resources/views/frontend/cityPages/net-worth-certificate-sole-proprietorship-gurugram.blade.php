@@ -1,156 +1,11 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Net Worth for Proprietorship Gurugram - CA Attested</title>
-    <meta name="description" content="CA-certified net worth certificate for sole proprietors in Gurugram. Personal + business combined, UDIN, visa, loan, tender, franchise. Same-day. INR 1,499.">
-    <link rel="canonical" href="/net-worth-certificate-sole-proprietorship/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Net Worth for Proprietorship Gurugram - CA Attested">
-    <meta property="og:description" content="CA-certified net worth certificate for sole proprietors in Gurugram. Personal + business combined, UDIN, visa, loan, tender, franchise. Same-day. INR 1,499.">
-    <meta property="og:url" content="/net-worth-certificate-sole-proprietorship/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Net Worth for Proprietorship Gurugram - CA Attested">
-    <meta name="twitter:description" content="CA-certified net worth certificate for sole proprietors in Gurugram. Personal + business combined, UDIN, visa, loan, tender, franchise. Same-day. INR 1,499.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "Net Worth Certificate Sole Proprietorship Gurugram",
-      "description": "CA-certified net worth certificate for sole proprietors in Gurugram. Personal + business combined, UDIN, visa, loan, tender, franchise. Same-day. INR 1,499.",
-      "url": "/net-worth-certificate-sole-proprietorship/gurugram",
-      "serviceType": "Net Worth Certificate Sole Proprietorship Gurugram",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "/",
-        "logo": "/images/site-logo.svg"
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Net Worth Certificate Sole Proprietorship Guide",
-          "item": "https://www.patronaccounting.com/net-worth-certificate-sole-proprietorship"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Net Worth Certificate Sole Proprietorship Gurugram",
-          "item": "https://www.patronaccounting.com/net-worth-certificate-sole-proprietorship/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is sole proprietorship net worth certificate?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A CA-certified document stating the total financial worth of a sole proprietor by combining ALL personal assets and ALL business assets, and deducting ALL personal and business liabilities. Since sole proprietorship has no separate legal identity under Indian law, personal and business are combined into one net worth figure. The certificate carries mandatory UDIN for verification."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is it different from individual net worth?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "For a sole proprietor, it is essentially the same: personal + business combined. The difference is that the certificate identifies the proprietor as running a business (mentioning proprietorship name, Udyam/MSME registration if applicable) alongside personal assets. Patron formats appropriately based on whether the purpose is visa, tender, or loan."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I get it without formal accounts?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Many Gurugram sole proprietors (freelancers, small traders, e-commerce sellers) do not maintain formal P&L or balance sheet. Patron's CA certifies from ITR-3/ITR-4, bank statements, and asset documents. The certificate includes a disclosure about the basis of certification. This is accepted by banks and embassies."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is personal property included?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Since sole proprietorship has no separate legal identity, your personal property (Gurugram flat, investments, gold, savings) is fully included. This is the key advantage: your personal Gurugram property significantly boosts the net worth shown. A registered valuer's report is recommended for current market value."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does sole proprietor net worth certificate cost?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Standard certificate from INR 1,499. Visa dual-currency from INR 2,999. Family student visa from INR 3,499. Tender/loan format from INR 2,499. Property valuation + net worth from INR 4,999. Same-day urgent from INR 3,499. Transparent pricing with no hidden charges."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does it take?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Standard: 1-2 working days from document submission. Same-day: certificate by evening if documents submitted by 12 PM. Property valuation + net worth: 3-5 working days. Patron prioritises visa interview dates and tender deadlines."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is UDIN mandatory on net worth certificate?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. UDIN (Unique Document Identification Number) has been mandatory on all CA certificates since 1 February 2019 per ICAI circular. A certificate without UDIN may be rejected by embassies, banks, or tender authorities. Every Patron certificate carries UDIN verifiable at udin.icai.org."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I use sole proprietor net worth for franchise?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Franchisors (food chains, retail brands, dealerships, petrol pumps) require proof of financial capacity. The sole proprietor's combined personal + business net worth satisfies this requirement. Patron formats the certificate to highlight the total financial capacity the franchisor is looking for. Quick Answers Sole proprietor ka net worth certificate kya hai? Proprietor ke personal aur business dono assets aur liabilities combine karke jo net worth nikalta hai uska CA certified document. Personal property include hoti hai? Haan. Sole proprietorship mein proprietor aur business ek hi hai, toh Gurugram flat, gold, investments sab include hota hai. Formal books nahi hain toh? ITR, bank statements aur asset documents se CA certify kar deta hai. Patron mein yeh regularly hota hai."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -816,7 +671,157 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'Join Community'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Net Worth for Proprietorship Gurugram - CA Attested</title>
+    <meta name="description" content="CA-certified net worth certificate for sole proprietors in Gurugram. Personal + business combined, UDIN, visa, loan, tender, franchise. Same-day. INR 1,499.">
+    <link rel="canonical" href="/net-worth-certificate-sole-proprietorship/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Net Worth for Proprietorship Gurugram - CA Attested">
+    <meta property="og:description" content="CA-certified net worth certificate for sole proprietors in Gurugram. Personal + business combined, UDIN, visa, loan, tender, franchise. Same-day. INR 1,499.">
+    <meta property="og:url" content="/net-worth-certificate-sole-proprietorship/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Net Worth for Proprietorship Gurugram - CA Attested">
+    <meta name="twitter:description" content="CA-certified net worth certificate for sole proprietors in Gurugram. Personal + business combined, UDIN, visa, loan, tender, franchise. Same-day. INR 1,499.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "Net Worth Certificate Sole Proprietorship Gurugram",
+      "description": "CA-certified net worth certificate for sole proprietors in Gurugram. Personal + business combined, UDIN, visa, loan, tender, franchise. Same-day. INR 1,499.",
+      "url": "/net-worth-certificate-sole-proprietorship/gurugram",
+      "serviceType": "Net Worth Certificate Sole Proprietorship Gurugram",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Patron Accounting LLP",
+        "url": "/",
+        "logo": "/images/site-logo.svg"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Net Worth Certificate Sole Proprietorship Guide",
+          "item": "https://www.patronaccounting.com/net-worth-certificate-sole-proprietorship"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Net Worth Certificate Sole Proprietorship Gurugram",
+          "item": "https://www.patronaccounting.com/net-worth-certificate-sole-proprietorship/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is sole proprietorship net worth certificate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A CA-certified document stating the total financial worth of a sole proprietor by combining ALL personal assets and ALL business assets, and deducting ALL personal and business liabilities. Since sole proprietorship has no separate legal identity under Indian law, personal and business are combined into one net worth figure. The certificate carries mandatory UDIN for verification."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is it different from individual net worth?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For a sole proprietor, it is essentially the same: personal + business combined. The difference is that the certificate identifies the proprietor as running a business (mentioning proprietorship name, Udyam/MSME registration if applicable) alongside personal assets. Patron formats appropriately based on whether the purpose is visa, tender, or loan."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I get it without formal accounts?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Many Gurugram sole proprietors (freelancers, small traders, e-commerce sellers) do not maintain formal P&L or balance sheet. Patron's CA certifies from ITR-3/ITR-4, bank statements, and asset documents. The certificate includes a disclosure about the basis of certification. This is accepted by banks and embassies."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is personal property included?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Since sole proprietorship has no separate legal identity, your personal property (Gurugram flat, investments, gold, savings) is fully included. This is the key advantage: your personal Gurugram property significantly boosts the net worth shown. A registered valuer's report is recommended for current market value."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does sole proprietor net worth certificate cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Standard certificate from INR 1,499. Visa dual-currency from INR 2,999. Family student visa from INR 3,499. Tender/loan format from INR 2,499. Property valuation + net worth from INR 4,999. Same-day urgent from INR 3,499. Transparent pricing with no hidden charges."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Standard: 1-2 working days from document submission. Same-day: certificate by evening if documents submitted by 12 PM. Property valuation + net worth: 3-5 working days. Patron prioritises visa interview dates and tender deadlines."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is UDIN mandatory on net worth certificate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. UDIN (Unique Document Identification Number) has been mandatory on all CA certificates since 1 February 2019 per ICAI circular. A certificate without UDIN may be rejected by embassies, banks, or tender authorities. Every Patron certificate carries UDIN verifiable at udin.icai.org."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I use sole proprietor net worth for franchise?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Franchisors (food chains, retail brands, dealerships, petrol pumps) require proof of financial capacity. The sole proprietor's combined personal + business net worth satisfies this requirement. Patron formats the certificate to highlight the total financial capacity the franchisor is looking for. Quick Answers Sole proprietor ka net worth certificate kya hai? Proprietor ke personal aur business dono assets aur liabilities combine karke jo net worth nikalta hai uska CA certified document. Personal property include hoti hai? Haan. Sole proprietorship mein proprietor aur business ek hi hai, toh Gurugram flat, gold, investments sab include hota hai. Formal books nahi hain toh? ITR, bank statements aur asset documents se CA certify kar deta hai. Patron mein yeh regularly hota hai."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1852,7 +1857,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

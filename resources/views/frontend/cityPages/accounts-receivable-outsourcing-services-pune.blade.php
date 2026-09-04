@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,208 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>AR Outsourcing in Pune 2026 | Patron Accounting</title>
-    <meta name="description" content="Accounts receivable outsourcing in Pune from INR 7,499/mo (Exl GST and Govt. Charges). CA-led invoicing, collections, and ageing for Hinjewadi firms.">
-    <link rel="canonical" href="/accounts-receivable-outsourcing-services/pune">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="AR Outsourcing in Pune 2026 | Patron Accounting">
-    <meta property="og:description" content="Accounts receivable outsourcing in Pune from INR 7,499/mo (Exl GST and Govt. Charges). CA-led invoicing, collections, and ageing for Hinjewadi firms.">
-    <meta property="og:url" content="/accounts-receivable-outsourcing-services/pune">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="AR Outsourcing in Pune 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Accounts receivable outsourcing in Pune from INR 7,499/mo (Exl GST and Govt. Charges). CA-led invoicing, collections, and ageing for Hinjewadi firms.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services/pune#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Accounts Receivable Outsourcing Services",
-          "item": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Accounts Receivable Outsourcing Services in Pune",
-          "item": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services/pune"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services/pune#faq",
-      "datePublished": "2026-06-23T08:00:00+05:30",
-      "dateModified": "2026-06-23T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is accounts receivable outsourcing for a Pune business?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "AR outsourcing means Patron handles your customer invoicing, collections, dunning, ageing analysis, and receipt application end to end. For Pune firms it covers GST-compliant tax invoices under the CGST Act 2017, credit control, and AR reconciliation, so your team gets paid faster without hiring an in-house collections desk."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does AR outsourcing cost in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patron Accounting charges Starting from INR 7,499/mo (Exl GST and Govt. Charges). The final fee depends on invoice volume, number of customers, GST registrations, and the level of collections follow-up needed. Hinjewadi SaaS firms and Chakan manufacturers receive a fixed monthly quote before work begins."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does outsourced collections reduce my DSO in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patron runs a structured dunning calendar, sends timely reminders before and after the due date, and escalates overdue accounts through your approved credit policy. Disciplined follow-up and clean ageing analysis typically cut Days Sales Outstanding by 10 to 25 days for Pune SMEs within a few cycles."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you raise GST-compliant invoices for Pune customers?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Every sales invoice carries the correct GSTIN, HSN or SAC code, place of supply, and CGST, SGST, or IGST split under the CGST Act 2017. Where e-invoicing applies, we generate the IRN and QR code so your output GST on sales reconciles cleanly with GSTR-1."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is AR ageing analysis and why does it matter?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Ageing analysis buckets unpaid invoices by how overdue they are, typically 0-30, 31-60, 61-90, and 90 plus days. It shows which Pune customers are slow, where cash is stuck, and which accounts need escalation, so you can protect working capital and decide credit limits with real data."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do you apply receipts and reconcile AR in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We match each customer payment to the correct invoice, post part-payments and TDS deductions, and reconcile the AR ledger to the bank and to Form 26AS where TDS is involved. This keeps customer balances accurate so reminders never go to a customer who has already paid."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you work inside Tally, Zoho Books, or our ERP for Pune AR?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Patron manages receivables directly inside Tally, Zoho Books, QuickBooks, or Xero, whichever your Pune business uses. We raise invoices, log receipts, and maintain the ageing report in your own system, so your data stays in one place and audit trails remain intact."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Will you talk to our customers during collections?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Only within limits you approve. Patron sends reminder emails, statements, and dunning messages under your brand, and can make polite follow-up calls per your credit policy. Sensitive or disputed accounts are always flagged back to you before any firm escalation, so client relationships stay protected."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services/pune#service",
-      "name": "Accounts Receivable Outsourcing Services in Pune",
-      "description": "Accounts receivable outsourcing in Pune covers customer invoicing, collections, dunning, ageing analysis, credit control, receipt application, GST output on sales, and AR reconciliation. Patron Accounting helps Hinjewadi, Magarpatta, and Chakan businesses cut DSO and protect working capital.",
-      "serviceType": "Accounts Receivable Outsourcing and Collections Management",
-      "url": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services/pune",
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Maharashtra"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#localbusiness-pune"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Accounts receivable",
-          "sameAs": "https://en.wikipedia.org/wiki/Accounts_receivable"
-        },
-        {
-          "@type": "Thing",
-          "name": "Goods and Services Tax (India)",
-          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "AR Outsourcing Plans in Pune",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "price": "7499",
-            "priceSpecification": {
-              "@type": "UnitPriceSpecification",
-              "priceCurrency": "INR",
-              "price": "7499",
-              "unitText": "per month"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Accounts Receivable Outsourcing per Month"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness-pune",
-      "name": "Patron Accounting LLP - Pune",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services/pune",
-      "telephone": "+91-9699936369",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Pune",
-        "addressRegion": "Maharashtra",
-        "postalCode": "411014",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -815,7 +612,217 @@
         .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
 
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>AR Outsourcing in Pune 2026 | Patron Accounting</title>
+    <meta name="description" content="Accounts receivable outsourcing in Pune from INR 7,499/mo (Exl GST and Govt. Charges). CA-led invoicing, collections, and ageing for Hinjewadi firms.">
+    <link rel="canonical" href="/accounts-receivable-outsourcing-services/pune">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="AR Outsourcing in Pune 2026 | Patron Accounting">
+    <meta property="og:description" content="Accounts receivable outsourcing in Pune from INR 7,499/mo (Exl GST and Govt. Charges). CA-led invoicing, collections, and ageing for Hinjewadi firms.">
+    <meta property="og:url" content="/accounts-receivable-outsourcing-services/pune">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="AR Outsourcing in Pune 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Accounts receivable outsourcing in Pune from INR 7,499/mo (Exl GST and Govt. Charges). CA-led invoicing, collections, and ageing for Hinjewadi firms.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services/pune#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Accounts Receivable Outsourcing Services",
+          "item": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Accounts Receivable Outsourcing Services in Pune",
+          "item": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services/pune"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services/pune#faq",
+      "datePublished": "2026-06-23T08:00:00+05:30",
+      "dateModified": "2026-06-23T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is accounts receivable outsourcing for a Pune business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AR outsourcing means Patron handles your customer invoicing, collections, dunning, ageing analysis, and receipt application end to end. For Pune firms it covers GST-compliant tax invoices under the CGST Act 2017, credit control, and AR reconciliation, so your team gets paid faster without hiring an in-house collections desk."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does AR outsourcing cost in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patron Accounting charges Starting from INR 7,499/mo (Exl GST and Govt. Charges). The final fee depends on invoice volume, number of customers, GST registrations, and the level of collections follow-up needed. Hinjewadi SaaS firms and Chakan manufacturers receive a fixed monthly quote before work begins."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does outsourced collections reduce my DSO in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patron runs a structured dunning calendar, sends timely reminders before and after the due date, and escalates overdue accounts through your approved credit policy. Disciplined follow-up and clean ageing analysis typically cut Days Sales Outstanding by 10 to 25 days for Pune SMEs within a few cycles."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you raise GST-compliant invoices for Pune customers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Every sales invoice carries the correct GSTIN, HSN or SAC code, place of supply, and CGST, SGST, or IGST split under the CGST Act 2017. Where e-invoicing applies, we generate the IRN and QR code so your output GST on sales reconciles cleanly with GSTR-1."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is AR ageing analysis and why does it matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ageing analysis buckets unpaid invoices by how overdue they are, typically 0-30, 31-60, 61-90, and 90 plus days. It shows which Pune customers are slow, where cash is stuck, and which accounts need escalation, so you can protect working capital and decide credit limits with real data."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you apply receipts and reconcile AR in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We match each customer payment to the correct invoice, post part-payments and TDS deductions, and reconcile the AR ledger to the bank and to Form 26AS where TDS is involved. This keeps customer balances accurate so reminders never go to a customer who has already paid."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you work inside Tally, Zoho Books, or our ERP for Pune AR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Patron manages receivables directly inside Tally, Zoho Books, QuickBooks, or Xero, whichever your Pune business uses. We raise invoices, log receipts, and maintain the ageing report in your own system, so your data stays in one place and audit trails remain intact."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will you talk to our customers during collections?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Only within limits you approve. Patron sends reminder emails, statements, and dunning messages under your brand, and can make polite follow-up calls per your credit policy. Sensitive or disputed accounts are always flagged back to you before any firm escalation, so client relationships stay protected."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services/pune#service",
+      "name": "Accounts Receivable Outsourcing Services in Pune",
+      "description": "Accounts receivable outsourcing in Pune covers customer invoicing, collections, dunning, ageing analysis, credit control, receipt application, GST output on sales, and AR reconciliation. Patron Accounting helps Hinjewadi, Magarpatta, and Chakan businesses cut DSO and protect working capital.",
+      "serviceType": "Accounts Receivable Outsourcing and Collections Management",
+      "url": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services/pune",
+      "areaServed": {
+        "@type": "City",
+        "name": "Pune",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Maharashtra"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#localbusiness-pune"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Accounts receivable",
+          "sameAs": "https://en.wikipedia.org/wiki/Accounts_receivable"
+        },
+        {
+          "@type": "Thing",
+          "name": "Goods and Services Tax (India)",
+          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "AR Outsourcing Plans in Pune",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "price": "7499",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "INR",
+              "price": "7499",
+              "unitText": "per month"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Accounts Receivable Outsourcing per Month"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness-pune",
+      "name": "Patron Accounting LLP - Pune",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services/pune",
+      "telephone": "+91-9699936369",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Pune"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Pune",
+        "addressRegion": "Maharashtra",
+        "postalCode": "411014",
+        "addressCountry": "IN"
+      },
+      "parentOrganization": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1566,7 +1573,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

@@ -1,174 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Form 15CA 15CB for Foreign Remittance in Delhi 2026 | Patron Accounting</title>
-    <meta name="description" content="Form 15CA and 15CB by a CA with UDIN for foreign remittances above Rs 5 lakh. Section 195 and DTAA tax determination. From INR 2,499 per remittance.">
-    <link rel="canonical" href="/foreign-remittance-certificate-15ca-15cb/delhi">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Form 15CA 15CB for Foreign Remittance 2026 | Patron Accounting">
-    <meta property="og:description" content="Form 15CA and 15CB by a CA with UDIN for foreign remittances above Rs 5 lakh. Section 195 and DTAA tax determination. From INR 2,499 per remittance.">
-    <meta property="og:url" content="/foreign-remittance-certificate-15ca-15cb/delhi">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Form 15CA 15CB for Foreign Remittance 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Form 15CA and 15CB by a CA with UDIN for foreign remittances above Rs 5 lakh. Section 195 and DTAA tax determination. From INR 2,499 per remittance.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/foreign-remittance-certificate-15ca-15cb/delhi/#service",
-        "name": "Foreign Remittance Certificate (15CA / 15CB) in Delhi",
-        "description": "Preparation of Form 15CB (CA tax-determination certificate) and filing support for Form 15CA for payments to non-residents, covering taxability, TDS rate, and DTAA under Section 195 and Rule 37BB, required when the remittance is taxable and exceeds Rs 5 lakh, with a mandatory 18-digit UDIN. Forms renumbered 145/146 from 1 April 2026.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/foreign-remittance-certificate-15ca-15cb/delhi" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Tax deducted at source", "sameAs": "https://en.wikipedia.org/wiki/Tax_deduction_at_source" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Foreign Remittance Certificate (15CA / 15CB) Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": { "@type": "Service", "name": "Form 15CB certificate and 15CA filing" },
-                    "priceCurrency": "INR",
-                    "price": "2499",
-                    "description": "Starting from INR 2,499 per remittance (excl. GST and govt. charges)"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/foreign-remittance-certificate-15ca-15cb/delhi/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "FDI Compliance", "item": "https://www.patronaccounting.com/fdi-compliance" },
-            { "@type": "ListItem", "position": 3, "name": "Foreign Remittance Certificate (15CA / 15CB)", "item": "https://www.patronaccounting.com/foreign-remittance-certificate-15ca-15cb/delhi" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/foreign-remittance-certificate-15ca-15cb/delhi/#faq",
-        "datePublished": "2026-06-09T08:00:00+05:30",
-        "dateModified": "2026-06-09T08:00:00+05:30",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "When is Form 15CB required?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Form 15CB, the CA certificate, is required when the payment to a non-resident is chargeable to tax in India and the aggregate to the same non-resident exceeds Rs 5 lakh in the financial year. At or below Rs 5 lakh, only Part A of Form 15CA is filed, with no CA certificate." }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the difference between Form 15CA and Form 15CB?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Form 15CA is the remitter's own declaration filed online before the remittance. Form 15CB is a Chartered Accountant's certificate confirming taxability, the TDS rate, and DTAA treatment. Where required, the 15CB is obtained first and its details flow into Part C of the 15CA." }
-            },
-            {
-                "@type": "Question",
-                "name": "Are Forms 15CA and 15CB changing in 2026?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Yes. From 1 April 2026, Form 15CA is renumbered Form 145 and Form 15CB is renumbered Form 146. The threshold, the four parts, and the Rule 37BB exemption list remain unchanged, only the numbers differ. Remittances before that date stay valid under 15CA and 15CB." }
-            },
-            {
-                "@type": "Question",
-                "name": "Which payments are exempt under Rule 37BB?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Rule 37BB lists specified payments, expanded to 33 items, for which neither 15CA nor 15CB is required, such as certain personal remittances for travel, education, and other listed purposes. Banks refer to this list by purpose code, and we confirm whether your payment is exempt." }
-            },
-            {
-                "@type": "Question",
-                "name": "Is there a penalty for not filing 15CA or 15CB?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Yes. Section 271-I imposes a penalty of up to Rs 1 lakh per form for failing to file or for furnishing incorrect information. Banks will also not release the remittance without the required forms, so accurate, timely filing matters on both counts." }
-            },
-            {
-                "@type": "Question",
-                "name": "Who can issue Form 15CB?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Only a practising Chartered Accountant registered with ICAI, holding a valid Certificate of Practice. The certificate carries the CA's seal, firm registration number, and an 18-digit UDIN that the bank and the income-tax department can verify online." }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/foreign-remittance-certificate-15ca-15cb/delhi",
-        "name": "Foreign Remittance Certificate (15CA / 15CB) in Delhi",
-        "description": "Form 15CA and 15CB by a CA with UDIN for foreign remittances above Rs 5 lakh. Section 195 and DTAA tax determination. From INR 2,499 per remittance.",
-        "url": "https://www.patronaccounting.com/foreign-remittance-certificate-15ca-15cb/delhi",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/foreign-remittance-certificate-15ca-15cb/delhi/#service" },
-        "datePublished": "2026-06-09T08:00:00+05:30",
-        "dateModified": "2026-06-09T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/foreign-remittance-certificate-15ca-15cb/delhi/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How Form 15CA and 15CB Are Prepared and Filed",
-        "description": "The six-step process for a foreign remittance: share remittance details, check applicability, collect DTAA documents, issue Form 15CB, file Form 15CA, and hand the forms to the bank.",
-        "totalTime": "P2D",
-        "step": [
-            { "@type": "HowToStep", "name": "Share remittance details", "text": "Tell us the purpose, amount, country, and the non-resident's details." },
-            { "@type": "HowToStep", "name": "Check applicability", "text": "We confirm taxability, the threshold, and whether Rule 37BB exempts the payment." },
-            { "@type": "HowToStep", "name": "Collect DTAA documents", "text": "Where treaty benefit applies, we obtain the TRC and Form 10F." },
-            { "@type": "HowToStep", "name": "Issue Form 15CB", "text": "The CA determines the rate and issues the certificate with UDIN, where required." },
-            { "@type": "HowToStep", "name": "File Form 15CA", "text": "The correct part is filed on the income-tax e-filing portal." },
-            { "@type": "HowToStep", "name": "Hand to the bank", "text": "The forms go to your authorised dealer bank to release the remittance." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Foreign Remittance Certificate (15CA / 15CB) Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Section 195", "description": "The Income-tax provision governing TDS on payments to non-residents." },
-            { "@type": "DefinedTerm", "name": "Rule 37BB", "description": "The rule prescribing 15CA/15CB and listing specified payments that need no forms." },
-            { "@type": "DefinedTerm", "name": "DTAA", "description": "Double Taxation Avoidance Agreement, which can reduce the applicable TDS rate." },
-            { "@type": "DefinedTerm", "name": "TRC and Form 10F", "description": "Documents the non-resident provides to claim DTAA benefit." },
-            { "@type": "DefinedTerm", "name": "Forms 145 / 146", "description": "The renumbered 15CA / 15CB, effective 1 April 2026, substance unchanged." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -782,7 +618,176 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Form 15CA 15CB for Foreign Remittance in Delhi 2026 | Patron Accounting</title>
+    <meta name="description" content="Form 15CA and 15CB by a CA with UDIN for foreign remittances above Rs 5 lakh. Section 195 and DTAA tax determination. From INR 2,499 per remittance.">
+    <link rel="canonical" href="/foreign-remittance-certificate-15ca-15cb/delhi">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Form 15CA 15CB for Foreign Remittance 2026 | Patron Accounting">
+    <meta property="og:description" content="Form 15CA and 15CB by a CA with UDIN for foreign remittances above Rs 5 lakh. Section 195 and DTAA tax determination. From INR 2,499 per remittance.">
+    <meta property="og:url" content="/foreign-remittance-certificate-15ca-15cb/delhi">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Form 15CA 15CB for Foreign Remittance 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Form 15CA and 15CB by a CA with UDIN for foreign remittances above Rs 5 lakh. Section 195 and DTAA tax determination. From INR 2,499 per remittance.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/foreign-remittance-certificate-15ca-15cb/delhi/#service",
+        "name": "Foreign Remittance Certificate (15CA / 15CB) in Delhi",
+        "description": "Preparation of Form 15CB (CA tax-determination certificate) and filing support for Form 15CA for payments to non-residents, covering taxability, TDS rate, and DTAA under Section 195 and Rule 37BB, required when the remittance is taxable and exceeds Rs 5 lakh, with a mandatory 18-digit UDIN. Forms renumbered 145/146 from 1 April 2026.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/foreign-remittance-certificate-15ca-15cb/delhi" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Tax deducted at source", "sameAs": "https://en.wikipedia.org/wiki/Tax_deduction_at_source" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Foreign Remittance Certificate (15CA / 15CB) Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": { "@type": "Service", "name": "Form 15CB certificate and 15CA filing" },
+                    "priceCurrency": "INR",
+                    "price": "2499",
+                    "description": "Starting from INR 2,499 per remittance (excl. GST and govt. charges)"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/foreign-remittance-certificate-15ca-15cb/delhi/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "FDI Compliance", "item": "https://www.patronaccounting.com/fdi-compliance" },
+            { "@type": "ListItem", "position": 3, "name": "Foreign Remittance Certificate (15CA / 15CB)", "item": "https://www.patronaccounting.com/foreign-remittance-certificate-15ca-15cb/delhi" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/foreign-remittance-certificate-15ca-15cb/delhi/#faq",
+        "datePublished": "2026-06-09T08:00:00+05:30",
+        "dateModified": "2026-06-09T08:00:00+05:30",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "When is Form 15CB required?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Form 15CB, the CA certificate, is required when the payment to a non-resident is chargeable to tax in India and the aggregate to the same non-resident exceeds Rs 5 lakh in the financial year. At or below Rs 5 lakh, only Part A of Form 15CA is filed, with no CA certificate." }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the difference between Form 15CA and Form 15CB?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Form 15CA is the remitter's own declaration filed online before the remittance. Form 15CB is a Chartered Accountant's certificate confirming taxability, the TDS rate, and DTAA treatment. Where required, the 15CB is obtained first and its details flow into Part C of the 15CA." }
+            },
+            {
+                "@type": "Question",
+                "name": "Are Forms 15CA and 15CB changing in 2026?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Yes. From 1 April 2026, Form 15CA is renumbered Form 145 and Form 15CB is renumbered Form 146. The threshold, the four parts, and the Rule 37BB exemption list remain unchanged, only the numbers differ. Remittances before that date stay valid under 15CA and 15CB." }
+            },
+            {
+                "@type": "Question",
+                "name": "Which payments are exempt under Rule 37BB?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Rule 37BB lists specified payments, expanded to 33 items, for which neither 15CA nor 15CB is required, such as certain personal remittances for travel, education, and other listed purposes. Banks refer to this list by purpose code, and we confirm whether your payment is exempt." }
+            },
+            {
+                "@type": "Question",
+                "name": "Is there a penalty for not filing 15CA or 15CB?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Yes. Section 271-I imposes a penalty of up to Rs 1 lakh per form for failing to file or for furnishing incorrect information. Banks will also not release the remittance without the required forms, so accurate, timely filing matters on both counts." }
+            },
+            {
+                "@type": "Question",
+                "name": "Who can issue Form 15CB?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Only a practising Chartered Accountant registered with ICAI, holding a valid Certificate of Practice. The certificate carries the CA's seal, firm registration number, and an 18-digit UDIN that the bank and the income-tax department can verify online." }
+            }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/foreign-remittance-certificate-15ca-15cb/delhi",
+        "name": "Foreign Remittance Certificate (15CA / 15CB) in Delhi",
+        "description": "Form 15CA and 15CB by a CA with UDIN for foreign remittances above Rs 5 lakh. Section 195 and DTAA tax determination. From INR 2,499 per remittance.",
+        "url": "https://www.patronaccounting.com/foreign-remittance-certificate-15ca-15cb/delhi",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/foreign-remittance-certificate-15ca-15cb/delhi/#service" },
+        "datePublished": "2026-06-09T08:00:00+05:30",
+        "dateModified": "2026-06-09T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/foreign-remittance-certificate-15ca-15cb/delhi/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How Form 15CA and 15CB Are Prepared and Filed",
+        "description": "The six-step process for a foreign remittance: share remittance details, check applicability, collect DTAA documents, issue Form 15CB, file Form 15CA, and hand the forms to the bank.",
+        "totalTime": "P2D",
+        "step": [
+            { "@type": "HowToStep", "name": "Share remittance details", "text": "Tell us the purpose, amount, country, and the non-resident's details." },
+            { "@type": "HowToStep", "name": "Check applicability", "text": "We confirm taxability, the threshold, and whether Rule 37BB exempts the payment." },
+            { "@type": "HowToStep", "name": "Collect DTAA documents", "text": "Where treaty benefit applies, we obtain the TRC and Form 10F." },
+            { "@type": "HowToStep", "name": "Issue Form 15CB", "text": "The CA determines the rate and issues the certificate with UDIN, where required." },
+            { "@type": "HowToStep", "name": "File Form 15CA", "text": "The correct part is filed on the income-tax e-filing portal." },
+            { "@type": "HowToStep", "name": "Hand to the bank", "text": "The forms go to your authorised dealer bank to release the remittance." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Foreign Remittance Certificate (15CA / 15CB) Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Section 195", "description": "The Income-tax provision governing TDS on payments to non-residents." },
+            { "@type": "DefinedTerm", "name": "Rule 37BB", "description": "The rule prescribing 15CA/15CB and listing specified payments that need no forms." },
+            { "@type": "DefinedTerm", "name": "DTAA", "description": "Double Taxation Avoidance Agreement, which can reduce the applicable TDS rate." },
+            { "@type": "DefinedTerm", "name": "TRC and Form 10F", "description": "Documents the non-resident provides to claim DTAA benefit." },
+            { "@type": "DefinedTerm", "name": "Forms 145 / 146", "description": "The renumbered 15CA / 15CB, effective 1 April 2026, substance unchanged." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1627,17 +1632,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1660,8 +1658,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1698,7 +1694,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1 (Schema Standard v2.1 / Rule 36): visible "Last Updated" mirrors schema dateModified
 // (9 June 2026) as a STABLE value - never live new Date().
@@ -1710,3 +1705,19 @@ window.addEventListener('scroll', function() {
     if (el2) el2.textContent = dateStr;
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

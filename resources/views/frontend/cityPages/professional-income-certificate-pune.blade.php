@@ -1,143 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Professional Income Certificate by CA 2026 | Patron Accounting</title>
-    <meta name="description" content="CA professional income certificate in Pune for doctors, lawyers, and consultants. Practice income attested with UDIN for visa and loans. From INR 1,999.">
-    <link rel="canonical" href="/professional-income-certificate/pune">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Professional Income Certificate by CA 2026 | Patron Accounting">
-    <meta property="og:description" content="CA professional income certificate in Pune for doctors, lawyers, and consultants. Practice income attested with UDIN for visa and loans. From INR 1,999.">
-    <meta property="og:url" content="/professional-income-certificate/pune">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Professional Income Certificate by CA 2026 | Patron Accounting">
-    <meta name="twitter:description" content="CA professional income certificate in Pune for doctors, lawyers, and consultants. Practice income attested with UDIN for visa and loans. From INR 1,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/professional-income-certificate/pune/#service",
-        "name": "Professional Income Certificate in Pune",
-        "description": "CA professional income certificate in Pune attesting the practice income of doctors, lawyers, consultants, Chartered Accountants, architects, and other specified professionals under Section 44AA, for visa, loan, and credentialing purposes, drawn from ITR-4 and practice records and issued with a mandatory 18-digit UDIN by ICAI-registered Chartered Accountants.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/professional-income-certificate/pune" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Profession", "sameAs": "https://en.wikipedia.org/wiki/Profession" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Professional Income Certificate Service Plans",
-            "itemListElement": [
-                { "@type": "Offer", "name": "Professional Income Certificate", "price": "1999", "priceCurrency": "INR", "description": "Starting from INR 1,999 (Exl GST and Govt. Charges)" }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/professional-income-certificate/pune/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
-            { "@type": "ListItem", "position": 3, "name": "Professional Income Certificate", "item": "https://www.patronaccounting.com/professional-income-certificate/pune" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/professional-income-certificate/pune/#faq",
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "mainEntity": [
-            { "@type": "Question", "name": "What is a professional income certificate?", "acceptedAnswer": { "@type": "Answer", "text": "It is a certificate issued by a practising Chartered Accountant attesting the income a professional earns from their practice for a specified period, after reviewing records such as the ITR-4, computation of income, bank statements, and practice receipts. It is meant for professionals like doctors, lawyers, consultants, Chartered Accountants, and architects, and carries the CA\u0027s signature, seal, membership number, and a mandatory 18-digit UDIN." } },
-{ "@type": "Question", "name": "Who is a professional income certificate for?", "acceptedAnswer": { "@type": "Answer", "text": "It is for practising professionals in the specified professions under Section 44AA(1) of the Income-tax Act, including medical, legal, engineering, architectural, accountancy, technical consultancy, and interior decoration. Independent doctors, advocates, IT and management consultants, architects, and CAs use it to prove their practice income for visas, loans, empanelment, and credentialing, especially when they file under presumptive taxation without full books." } },
-{ "@type": "Question", "name": "How does it relate to Section 44ADA?", "acceptedAnswer": { "@type": "Answer", "text": "Section 44ADA lets eligible professionals declare 50% of gross receipts as income under presumptive taxation, without maintaining detailed books, with a turnover limit of Rs 50 lakh, or Rs 75 lakh where cash receipts are within 5% of total. Because such professionals do not keep full books, a CA-attested professional income certificate is the cleanest way to evidence their actual practice income for an embassy, lender, or professional body." } },
-{ "@type": "Question", "name": "Which professionals are eligible under presumptive taxation?", "acceptedAnswer": { "@type": "Answer", "text": "The Section 44ADA presumptive scheme is available to a resident individual or a resident partnership firm engaged in a specified profession, but not to a Limited Liability Partnership or a company. Eligible professions include medical, legal, engineering, architectural, accountancy, technical consultancy, and interior decoration. Eligible professionals file ITR-4 and pay 100% of their advance tax by 15 March." } },
-{ "@type": "Question", "name": "What is the difference between a professional income certificate and a general income certificate?", "acceptedAnswer": { "@type": "Answer", "text": "A general income certificate attests an individual\u0027s total income from all sources, while a professional income certificate focuses on income from a practice or profession. The professional version is tailored to doctors, lawyers, consultants, and similar professionals, and ties to the specified professions under Section 44AA. Where an institution specifically wants proof of practice income, the professional income certificate is the precise document; otherwise the general one suffices." } },
-{ "@type": "Question", "name": "How fast can Patron Accounting issue it in Pune?", "acceptedAnswer": { "@type": "Answer", "text": "With your PAN, ITR-4, and bank statements ready, we typically issue the professional income certificate the same day or within one working day, with priority handling for visa or credentialing deadlines. We reconcile your practice receipts to your return, present your actual income clearly, and deliver in the required format, including dual currency for visas. Our Pune team works with professionals both in-person and remotely." } }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/professional-income-certificate/pune",
-        "name": "Professional Income Certificate in Pune",
-        "description": "CA professional income certificate in Pune for doctors, lawyers, and consultants. Practice income attested with UDIN for visa and loans. From INR 1,999.",
-        "url": "https://www.patronaccounting.com/professional-income-certificate/pune",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/professional-income-certificate/pune/#service" },
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/professional-income-certificate/pune/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How a Professional Income Certificate Is Issued",
-        "description": "The step-by-step process Patron Accounting follows to verify practice income and issue a UDIN-backed professional income certificate in Pune.",
-        "totalTime": "P1D",
-        "step": [
-            { "@type": "HowToStep", "position": 1, "name": "Confirm purpose and period", "text": "Confirm the profession, the purpose (visa, loan, credentialing), and the period and format." },
-{ "@type": "HowToStep", "position": 2, "name": "Collect documents", "text": "Collect PAN, ITR-4, computation of income, bank statements, and practice receipts." },
-{ "@type": "HowToStep", "position": 3, "name": "Verify receipts", "text": "Verify professional receipts and income under SA 500 (Audit Evidence), reconciling to the return." },
-{ "@type": "HowToStep", "position": 4, "name": "Determine presented income", "text": "Determine the presented income, considering the presumptive position where applicable." },
-{ "@type": "HowToStep", "position": 5, "name": "Issue with UDIN", "text": "Issue the professional income certificate with the certification statement and UDIN." },
-{ "@type": "HowToStep", "position": 6, "name": "Deliver in format", "text": "Deliver in the required format, including dual-currency for visas where needed." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Professional Income Certificate Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Professional income certificate", "description": "A CA attestation of a professional\u0027s practice income, drawn from ITR-4 and practice records, carrying a UDIN." },
-{ "@type": "DefinedTerm", "name": "Section 44ADA", "description": "Presumptive taxation letting eligible professionals declare 50% of gross receipts as income." },
-{ "@type": "DefinedTerm", "name": "Section 44AA(1) professions", "description": "Specified professions: legal, medical, engineering, architectural, accountancy, technical consultancy, interior decoration." },
-{ "@type": "DefinedTerm", "name": "ITR-4 (Sugam)", "description": "The income tax return form used by professionals opting for presumptive taxation." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -751,7 +618,145 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Professional Income Certificate by CA 2026 | Patron Accounting</title>
+    <meta name="description" content="CA professional income certificate in Pune for doctors, lawyers, and consultants. Practice income attested with UDIN for visa and loans. From INR 1,999.">
+    <link rel="canonical" href="/professional-income-certificate/pune">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Professional Income Certificate by CA 2026 | Patron Accounting">
+    <meta property="og:description" content="CA professional income certificate in Pune for doctors, lawyers, and consultants. Practice income attested with UDIN for visa and loans. From INR 1,999.">
+    <meta property="og:url" content="/professional-income-certificate/pune">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Professional Income Certificate by CA 2026 | Patron Accounting">
+    <meta name="twitter:description" content="CA professional income certificate in Pune for doctors, lawyers, and consultants. Practice income attested with UDIN for visa and loans. From INR 1,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/professional-income-certificate/pune/#service",
+        "name": "Professional Income Certificate in Pune",
+        "description": "CA professional income certificate in Pune attesting the practice income of doctors, lawyers, consultants, Chartered Accountants, architects, and other specified professionals under Section 44AA, for visa, loan, and credentialing purposes, drawn from ITR-4 and practice records and issued with a mandatory 18-digit UDIN by ICAI-registered Chartered Accountants.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/professional-income-certificate/pune" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Profession", "sameAs": "https://en.wikipedia.org/wiki/Profession" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Professional Income Certificate Service Plans",
+            "itemListElement": [
+                { "@type": "Offer", "name": "Professional Income Certificate", "price": "1999", "priceCurrency": "INR", "description": "Starting from INR 1,999 (Exl GST and Govt. Charges)" }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/professional-income-certificate/pune/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
+            { "@type": "ListItem", "position": 3, "name": "Professional Income Certificate", "item": "https://www.patronaccounting.com/professional-income-certificate/pune" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/professional-income-certificate/pune/#faq",
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "mainEntity": [
+            { "@type": "Question", "name": "What is a professional income certificate?", "acceptedAnswer": { "@type": "Answer", "text": "It is a certificate issued by a practising Chartered Accountant attesting the income a professional earns from their practice for a specified period, after reviewing records such as the ITR-4, computation of income, bank statements, and practice receipts. It is meant for professionals like doctors, lawyers, consultants, Chartered Accountants, and architects, and carries the CA\u0027s signature, seal, membership number, and a mandatory 18-digit UDIN." } },
+{ "@type": "Question", "name": "Who is a professional income certificate for?", "acceptedAnswer": { "@type": "Answer", "text": "It is for practising professionals in the specified professions under Section 44AA(1) of the Income-tax Act, including medical, legal, engineering, architectural, accountancy, technical consultancy, and interior decoration. Independent doctors, advocates, IT and management consultants, architects, and CAs use it to prove their practice income for visas, loans, empanelment, and credentialing, especially when they file under presumptive taxation without full books." } },
+{ "@type": "Question", "name": "How does it relate to Section 44ADA?", "acceptedAnswer": { "@type": "Answer", "text": "Section 44ADA lets eligible professionals declare 50% of gross receipts as income under presumptive taxation, without maintaining detailed books, with a turnover limit of Rs 50 lakh, or Rs 75 lakh where cash receipts are within 5% of total. Because such professionals do not keep full books, a CA-attested professional income certificate is the cleanest way to evidence their actual practice income for an embassy, lender, or professional body." } },
+{ "@type": "Question", "name": "Which professionals are eligible under presumptive taxation?", "acceptedAnswer": { "@type": "Answer", "text": "The Section 44ADA presumptive scheme is available to a resident individual or a resident partnership firm engaged in a specified profession, but not to a Limited Liability Partnership or a company. Eligible professions include medical, legal, engineering, architectural, accountancy, technical consultancy, and interior decoration. Eligible professionals file ITR-4 and pay 100% of their advance tax by 15 March." } },
+{ "@type": "Question", "name": "What is the difference between a professional income certificate and a general income certificate?", "acceptedAnswer": { "@type": "Answer", "text": "A general income certificate attests an individual\u0027s total income from all sources, while a professional income certificate focuses on income from a practice or profession. The professional version is tailored to doctors, lawyers, consultants, and similar professionals, and ties to the specified professions under Section 44AA. Where an institution specifically wants proof of practice income, the professional income certificate is the precise document; otherwise the general one suffices." } },
+{ "@type": "Question", "name": "How fast can Patron Accounting issue it in Pune?", "acceptedAnswer": { "@type": "Answer", "text": "With your PAN, ITR-4, and bank statements ready, we typically issue the professional income certificate the same day or within one working day, with priority handling for visa or credentialing deadlines. We reconcile your practice receipts to your return, present your actual income clearly, and deliver in the required format, including dual currency for visas. Our Pune team works with professionals both in-person and remotely." } }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/professional-income-certificate/pune",
+        "name": "Professional Income Certificate in Pune",
+        "description": "CA professional income certificate in Pune for doctors, lawyers, and consultants. Practice income attested with UDIN for visa and loans. From INR 1,999.",
+        "url": "https://www.patronaccounting.com/professional-income-certificate/pune",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/professional-income-certificate/pune/#service" },
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/professional-income-certificate/pune/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How a Professional Income Certificate Is Issued",
+        "description": "The step-by-step process Patron Accounting follows to verify practice income and issue a UDIN-backed professional income certificate in Pune.",
+        "totalTime": "P1D",
+        "step": [
+            { "@type": "HowToStep", "position": 1, "name": "Confirm purpose and period", "text": "Confirm the profession, the purpose (visa, loan, credentialing), and the period and format." },
+{ "@type": "HowToStep", "position": 2, "name": "Collect documents", "text": "Collect PAN, ITR-4, computation of income, bank statements, and practice receipts." },
+{ "@type": "HowToStep", "position": 3, "name": "Verify receipts", "text": "Verify professional receipts and income under SA 500 (Audit Evidence), reconciling to the return." },
+{ "@type": "HowToStep", "position": 4, "name": "Determine presented income", "text": "Determine the presented income, considering the presumptive position where applicable." },
+{ "@type": "HowToStep", "position": 5, "name": "Issue with UDIN", "text": "Issue the professional income certificate with the certification statement and UDIN." },
+{ "@type": "HowToStep", "position": 6, "name": "Deliver in format", "text": "Deliver in the required format, including dual-currency for visas where needed." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Professional Income Certificate Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Professional income certificate", "description": "A CA attestation of a professional\u0027s practice income, drawn from ITR-4 and practice records, carrying a UDIN." },
+{ "@type": "DefinedTerm", "name": "Section 44ADA", "description": "Presumptive taxation letting eligible professionals declare 50% of gross receipts as income." },
+{ "@type": "DefinedTerm", "name": "Section 44AA(1) professions", "description": "Specified professions: legal, medical, engineering, architectural, accountancy, technical consultancy, interior decoration." },
+{ "@type": "DefinedTerm", "name": "ITR-4 (Sugam)", "description": "The income tax return form used by professionals opting for presumptive taxation." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1414,17 +1419,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1447,8 +1445,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1485,7 +1481,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1496,3 +1491,19 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

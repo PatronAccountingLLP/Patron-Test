@@ -1,182 +1,5 @@
 @extends('layouts.app')
-@section('meta')
-<title>ESOP Capital Gains Calculator | LTCG &amp; STCG on Sale</title>
-<meta name="description" content="ESOP capital gains calculator: gain on sale = sale price minus FMV at exercise, with post-July-2024 LTCG and STCG rates for listed &amp; unlisted shares. Free!">
-<meta name="robots" content="index, follow">
-<meta name="theme-color" content="#15365f">
-<link rel="canonical" href="https://www.patronaccounting.com/tools/esop-capital-gains-calculator">
-
-<meta property="og:title" content="ESOP Capital Gains Calculator — LTCG & STCG 2026">
-<meta property="og:description" content="Compute capital gains tax when you sell ESOP shares: gain = sale price minus FMV at exercise, with post-July-2024 LTCG and STCG rates for listed and unlisted shares.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.patronaccounting.com/tools/esop-capital-gains-calculator">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="1200">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-<meta property="og:site_name" content="Patron Accounting">
-<meta property="og:locale" content="en_IN">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="ESOP Capital Gains Calculator — LTCG & STCG 2026">
-<meta name="twitter:description" content="Capital gains tax on selling ESOP shares: gain = sale price minus FMV at exercise, post-July-2024 LTCG/STCG rates. Free & instant.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-
-<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
-<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
-@endsection
-
-@section('schema')
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "ESOP Capital Gains Calculator",
-  "description": "ESOP Capital Gains Calculator computes the capital gains tax payable when an employee sells shares acquired through ESOPs. The capital gain is the sale price less the fair market value on the exercise date, which is the cost of acquisition because that FMV was already taxed as a perquisite. It classifies the gain as short term or long term from the holding period, applies the post 23 July 2024 rates — for listed equity 20 percent short term and 12.5 percent long term above the 1.25 lakh exemption, and for unlisted equity slab rate short term and 12.5 percent long term without indexation — and adds health and education cess.",
-  "url": "https://www.patronaccounting.com/tools/esop-capital-gains-calculator",
-  "applicationCategory": "BusinessApplication",
-  "inLanguage": "en-IN",
-  "isAccessibleForFree": true,
-  "operatingSystem": "Any",
-  "datePublished": "2026-06-05T08:00:00+05:30",
-  "dateModified": "2026-06-05T08:00:00+05:30",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "INR"
-  },
-  "reviewedBy": {
-    "@type": "Person",
-    "@id": "https://patronaccounting.com/#founder",
-    "name": "CA Sundram Gupta",
-    "jobTitle": "Founder & Chartered Accountant",
-    "url": "https://www.patronaccounting.com/contact-page",
-    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-    "hasCredential": [{
-      "@type": "EducationalOccupationalCredential",
-      "credentialCategory": "Professional Certification",
-      "name": "Chartered Accountant (CA)",
-      "recognizedBy": {
-        "@type": "Organization",
-        "name": "Institute of Chartered Accountants of India",
-        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-      }
-    }]
-  },
-  "publisher": { "@id": "https://patronaccounting.com/#organization" },
-  "provider": {
-    "@id": "https://patronaccounting.com/#organization"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "ESOP Capital Gains Calculator", "item": "https://www.patronaccounting.com/tools/esop-capital-gains-calculator"}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How are capital gains on ESOP shares taxed?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When you sell shares acquired through ESOPs, the capital gain is the sale price less the fair market value on the exercise date, multiplied by the number of shares. That FMV is the cost of acquisition because it was already taxed as a salary perquisite at exercise. The gain is then taxed as short term or long term depending on the holding period and whether the shares are listed or unlisted, at the rates applicable on the date of sale."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the cost of acquisition for ESOP shares?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The cost of acquisition is the fair market value of the share on the exercise date, not the exercise price you paid. This is because the difference between the exercise FMV and the exercise price was already taxed as a perquisite under salary at exercise. Using the exercise FMV as the cost ensures the same gain is not taxed twice — only the appreciation after exercise is taxed as capital gains on sale."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the holding period for ESOP shares?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The holding period runs from the date of exercise, when the shares are allotted, to the date of sale. For listed shares the gain is long term if held for more than 12 months, otherwise short term. For unlisted shares the threshold is 24 months. The vesting and grant periods do not count; only the period the shares are actually held after exercise determines the short or long term classification."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the capital gains rates on listed ESOP shares?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For listed equity shares sold on or after 23 July 2024 with STT paid, short term capital gains (held 12 months or less) are taxed at 20 percent, and long term capital gains (held more than 12 months) at 12.5 percent on the amount exceeding the 1.25 lakh annual exemption. Health and education cess of 4 percent applies on the tax. These rates were revised upward from 15 percent and 10 percent by the Finance Act 2024."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the capital gains rates on unlisted ESOP shares?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For unlisted shares, short term capital gains (held 24 months or less) are added to total income and taxed at the applicable slab rate. Long term capital gains (held more than 24 months) are taxed at 12.5 percent without indexation for transfers on or after 23 July 2024, the indexation benefit having been removed by the Finance Act 2024. The 1.25 lakh exemption applies to listed equity, not to unlisted shares."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the 1.25 lakh LTCG exemption?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For long term capital gains on listed equity shares, the first 1.25 lakh of such gains in a financial year is exempt from tax, and only the excess is taxed at 12.5 percent. This exemption was raised from 1 lakh by the Finance Act 2024. It applies per financial year across all listed equity LTCG, so spreading sales across years can help use more than one year's exemption. It does not apply to unlisted shares."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is there double taxation on ESOPs at exercise and sale?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. ESOP taxation is in two stages but the same gain is not taxed twice. At exercise, the gap between the exercise price and the FMV is taxed as a salary perquisite. At sale, only the further appreciation above that exercise FMV is taxed as capital gains, because the FMV becomes the cost of acquisition. So the perquisite covers the gain up to exercise, and capital gains cover the gain after exercise — two different slices."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How are foreign ESOP shares taxed on sale?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Shares of a foreign parent are generally treated like unlisted shares for holding period, so long term needs more than 24 months, with long term gains at 12.5 percent and short term at slab rate. The gain is computed in rupees using the appropriate exchange rates. Foreign shareholdings must be disclosed in Schedule FA of the income tax return, and any foreign tax paid may be claimed as a credit by filing Form 67. Residency status at sale should also be checked."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I reduce ESOP capital gains tax?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Planning options include holding listed shares beyond 12 months (or unlisted beyond 24 months) to access the lower long term rate, spreading sales across financial years to use the 1.25 lakh exemption more than once, and harvesting capital losses to set off against gains. Long term gains may also be reinvested under Sections 54F or 54EC subject to conditions. These depend on your situation, so confirm with a tax professional before acting."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the ESOP Capital Gains Calculator free?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, the Patron Accounting ESOP Capital Gains Calculator is completely free with no signup required. All calculations run in your browser and nothing is stored on our servers. It computes the capital gain as sale price less FMV at exercise, classifies it as short or long term from your holding period, and applies the current post July 2024 rates for listed and unlisted shares with the 1.25 lakh exemption and cess. It is indicative; confirm the final position with a professional."
-      }
-    }
-  ]
-}
-</script>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-@endsection
-
+@push('styles')
 <style>
         :root {
             --primary: #15365f;
@@ -693,6 +516,185 @@ a:focus-visible {
 
 
         </style>
+@endpush
+
+@section('meta')
+<title>ESOP Capital Gains Calculator | LTCG &amp; STCG on Sale</title>
+<meta name="description" content="ESOP capital gains calculator: gain on sale = sale price minus FMV at exercise, with post-July-2024 LTCG and STCG rates for listed &amp; unlisted shares. Free!">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#15365f">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/esop-capital-gains-calculator">
+
+<meta property="og:title" content="ESOP Capital Gains Calculator — LTCG & STCG 2026">
+<meta property="og:description" content="Compute capital gains tax when you sell ESOP shares: gain = sale price minus FMV at exercise, with post-July-2024 LTCG and STCG rates for listed and unlisted shares.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/esop-capital-gains-calculator">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+<meta property="og:site_name" content="Patron Accounting">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ESOP Capital Gains Calculator — LTCG & STCG 2026">
+<meta name="twitter:description" content="Capital gains tax on selling ESOP shares: gain = sale price minus FMV at exercise, post-July-2024 LTCG/STCG rates. Free & instant.">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
+@endsection
+
+@section('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "ESOP Capital Gains Calculator",
+  "description": "ESOP Capital Gains Calculator computes the capital gains tax payable when an employee sells shares acquired through ESOPs. The capital gain is the sale price less the fair market value on the exercise date, which is the cost of acquisition because that FMV was already taxed as a perquisite. It classifies the gain as short term or long term from the holding period, applies the post 23 July 2024 rates — for listed equity 20 percent short term and 12.5 percent long term above the 1.25 lakh exemption, and for unlisted equity slab rate short term and 12.5 percent long term without indexation — and adds health and education cess.",
+  "url": "https://www.patronaccounting.com/tools/esop-capital-gains-calculator",
+  "applicationCategory": "BusinessApplication",
+  "inLanguage": "en-IN",
+  "isAccessibleForFree": true,
+  "operatingSystem": "Any",
+  "datePublished": "2026-06-05T08:00:00+05:30",
+  "dateModified": "2026-06-05T08:00:00+05:30",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "INR"
+  },
+  "reviewedBy": {
+    "@type": "Person",
+    "@id": "https://patronaccounting.com/#founder",
+    "name": "CA Sundram Gupta",
+    "jobTitle": "Founder & Chartered Accountant",
+    "url": "https://www.patronaccounting.com/contact-page",
+    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+    "hasCredential": [{
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Professional Certification",
+      "name": "Chartered Accountant (CA)",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Institute of Chartered Accountants of India",
+        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+      }
+    }]
+  },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
+  "provider": {
+    "@id": "https://patronaccounting.com/#organization"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "ESOP Capital Gains Calculator", "item": "https://www.patronaccounting.com/tools/esop-capital-gains-calculator"}
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How are capital gains on ESOP shares taxed?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "When you sell shares acquired through ESOPs, the capital gain is the sale price less the fair market value on the exercise date, multiplied by the number of shares. That FMV is the cost of acquisition because it was already taxed as a salary perquisite at exercise. The gain is then taxed as short term or long term depending on the holding period and whether the shares are listed or unlisted, at the rates applicable on the date of sale."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the cost of acquisition for ESOP shares?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cost of acquisition is the fair market value of the share on the exercise date, not the exercise price you paid. This is because the difference between the exercise FMV and the exercise price was already taxed as a perquisite under salary at exercise. Using the exercise FMV as the cost ensures the same gain is not taxed twice — only the appreciation after exercise is taxed as capital gains on sale."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the holding period for ESOP shares?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The holding period runs from the date of exercise, when the shares are allotted, to the date of sale. For listed shares the gain is long term if held for more than 12 months, otherwise short term. For unlisted shares the threshold is 24 months. The vesting and grant periods do not count; only the period the shares are actually held after exercise determines the short or long term classification."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the capital gains rates on listed ESOP shares?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For listed equity shares sold on or after 23 July 2024 with STT paid, short term capital gains (held 12 months or less) are taxed at 20 percent, and long term capital gains (held more than 12 months) at 12.5 percent on the amount exceeding the 1.25 lakh annual exemption. Health and education cess of 4 percent applies on the tax. These rates were revised upward from 15 percent and 10 percent by the Finance Act 2024."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the capital gains rates on unlisted ESOP shares?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For unlisted shares, short term capital gains (held 24 months or less) are added to total income and taxed at the applicable slab rate. Long term capital gains (held more than 24 months) are taxed at 12.5 percent without indexation for transfers on or after 23 July 2024, the indexation benefit having been removed by the Finance Act 2024. The 1.25 lakh exemption applies to listed equity, not to unlisted shares."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the 1.25 lakh LTCG exemption?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For long term capital gains on listed equity shares, the first 1.25 lakh of such gains in a financial year is exempt from tax, and only the excess is taxed at 12.5 percent. This exemption was raised from 1 lakh by the Finance Act 2024. It applies per financial year across all listed equity LTCG, so spreading sales across years can help use more than one year's exemption. It does not apply to unlisted shares."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there double taxation on ESOPs at exercise and sale?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. ESOP taxation is in two stages but the same gain is not taxed twice. At exercise, the gap between the exercise price and the FMV is taxed as a salary perquisite. At sale, only the further appreciation above that exercise FMV is taxed as capital gains, because the FMV becomes the cost of acquisition. So the perquisite covers the gain up to exercise, and capital gains cover the gain after exercise — two different slices."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How are foreign ESOP shares taxed on sale?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Shares of a foreign parent are generally treated like unlisted shares for holding period, so long term needs more than 24 months, with long term gains at 12.5 percent and short term at slab rate. The gain is computed in rupees using the appropriate exchange rates. Foreign shareholdings must be disclosed in Schedule FA of the income tax return, and any foreign tax paid may be claimed as a credit by filing Form 67. Residency status at sale should also be checked."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I reduce ESOP capital gains tax?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Planning options include holding listed shares beyond 12 months (or unlisted beyond 24 months) to access the lower long term rate, spreading sales across financial years to use the 1.25 lakh exemption more than once, and harvesting capital losses to set off against gains. Long term gains may also be reinvested under Sections 54F or 54EC subject to conditions. These depend on your situation, so confirm with a tax professional before acting."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the ESOP Capital Gains Calculator free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the Patron Accounting ESOP Capital Gains Calculator is completely free with no signup required. All calculations run in your browser and nothing is stored on our servers. It computes the capital gain as sale price less FMV at exercise, classifies it as short or long term from your holding period, and applies the current post July 2024 rates for listed and unlisted shares with the 1.25 lakh exemption and cess. It is indicative; confirm the final position with a professional."
+      }
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation">
     <div class="toc-nav-inner">

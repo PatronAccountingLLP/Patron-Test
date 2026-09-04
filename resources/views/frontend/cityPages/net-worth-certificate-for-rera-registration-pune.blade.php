@@ -1,143 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Net Worth Certificate for RERA Registration 2026 | Patron Accounting</title>
-    <meta name="description" content="CA net worth certificate for RERA promoter registration in Pune. Audited financials, escrow validation, MahaRERA-ready, UDIN-verified. From INR 7,999.">
-    <link rel="canonical" href="/net-worth-certificate-for-rera-registration/pune">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Net Worth Certificate for RERA Registration 2026 | Patron Accounting">
-    <meta property="og:description" content="CA net worth certificate for RERA promoter registration in Pune. Audited financials, escrow validation, MahaRERA-ready, UDIN-verified. From INR 7,999.">
-    <meta property="og:url" content="/net-worth-certificate-for-rera-registration/pune">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Net Worth Certificate for RERA Registration 2026 | Patron Accounting">
-    <meta name="twitter:description" content="CA net worth certificate for RERA promoter registration in Pune. Audited financials, escrow validation, MahaRERA-ready, UDIN-verified. From INR 7,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/pune/#service",
-        "name": "Net Worth Certificate for RERA Registration in Pune",
-        "description": "CA-certified promoter net worth certificate for RERA project registration in Pune, drawn from audited financials and submitted with the MahaRERA application alongside validation of the 70 percent designated escrow account under Section 4(2)(l)(D) of the RERA Act 2016, issued with a mandatory 18-digit UDIN.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/pune" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Net worth", "sameAs": "https://en.wikipedia.org/wiki/Net_worth" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Net Worth Certificate for RERA Registration Service Plans",
-            "itemListElement": [
-                { "@type": "Offer", "name": "Net Worth Certificate for RERA Registration", "price": "7999", "priceCurrency": "INR", "description": "Starting from INR 7,999 (Exl GST and Govt. Charges)" }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/pune/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
-            { "@type": "ListItem", "position": 3, "name": "Net Worth Certificate for RERA Registration", "item": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/pune" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/pune/#faq",
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "mainEntity": [
-            { "@type": "Question", "name": "Is a net worth certificate required for RERA registration?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. A promoter registering a real estate project must disclose financial standing, including a statement of assets and liabilities showing net worth drawn from audited financial statements for the last three years. In Maharashtra this is filed with MahaRERA. The net worth certificate, certified by a Chartered Accountant with a UDIN, is part of the financial disclosure the authority reviews to assess capacity to complete the project." } },
-{ "@type": "Question", "name": "What is the 70 percent rule in RERA?", "acceptedAnswer": { "@type": "Answer", "text": "Under Section 4(2)(l)(D) of the RERA Act, 2016, a promoter must deposit 70 percent of amounts received from allottees in a separate designated bank account for each project. The money can be withdrawn only for construction and land cost in proportion to project completion, certified by a CA, engineer, and architect. The rule prevents diversion of buyers\u0027 funds." } },
-{ "@type": "Question", "name": "What is the difference between Form B, Form 3, and Form 5?", "acceptedAnswer": { "@type": "Answer", "text": "Form B is the promoter\u0027s declaration filed at registration. Form 3 is the CA certificate on project cost and the amount withdrawable from the 70 percent designated account. Form 5 is the annual CA audit report on project fund utilisation, obtained within six months after each financial year end. The net worth certificate supports the registration alongside these forms." } },
-{ "@type": "Question", "name": "What happens if a promoter sells before RERA registration?", "acceptedAnswer": { "@type": "Answer", "text": "Selling, advertising, or booking before registration contravenes Section 3 of the RERA Act, 2016. The penalty under Section 59 can be up to 10 percent of the estimated project cost, with further fine or imprisonment for continued default. The CA declaration confirming no advance was taken before registration is part of the document set." } },
-{ "@type": "Question", "name": "Can a partnership firm or individual promoter get this certificate?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Promoters can be companies, LLPs, partnership firms, or individuals, and each must disclose net worth from audited financials at registration. For firms and LLPs the audited profit and loss account, balance sheet, and related statements are used. The CA prepares the net worth certificate in the promoter\u0027s name, reflecting the entity\u0027s audited financial position as on the certificate date." } },
-{ "@type": "Question", "name": "How fast can Patron Accounting issue it in Pune?", "acceptedAnswer": { "@type": "Answer", "text": "For Pune promoters with audited financials ready, we typically issue the net worth certificate within two to five working days, with priority turnaround for MahaRERA deadlines. Our team also supports the 70 percent escrow validation, Form 3, and Form 5. We work both in-person at our Pune office and remotely, supporting developers across the city and the wider Maharashtra market." } }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/pune",
-        "name": "Net Worth Certificate for RERA Registration in Pune",
-        "description": "CA net worth certificate for RERA promoter registration in Pune. Audited financials, escrow validation, MahaRERA-ready, UDIN-verified. From INR 7,999.",
-        "url": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/pune",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/pune/#service" },
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/pune/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How a RERA Net Worth Certificate Is Issued",
-        "description": "The step-by-step process Patron Accounting follows to verify audited financials and issue a UDIN-backed promoter net worth certificate for MahaRERA registration in Pune.",
-        "totalTime": "P5D",
-        "step": [
-            { "@type": "HowToStep", "position": 1, "name": "Confirm project and promoter", "text": "Confirm the project, promoter entity (company, LLP, firm, individual), and the state RERA (MahaRERA for Pune)." },
-{ "@type": "HowToStep", "position": 2, "name": "Collect documents", "text": "Collect audited financials (3 years), project cost estimate, bank details, PAN, and entity documents." },
-{ "@type": "HowToStep", "position": 3, "name": "Verify and compute net worth", "text": "Verify assets and liabilities under SA 500 (Audit Evidence) and SA 505 (External Confirmations) and compute net worth." },
-{ "@type": "HowToStep", "position": 4, "name": "Validate escrow", "text": "Validate the 70 percent designated account arrangement under Section 4(2)(l)(D) and the no-advance declaration." },
-{ "@type": "HowToStep", "position": 5, "name": "Issue with UDIN", "text": "Issue the net worth certificate with UDIN, and support Form 3 and Form 5 as required." },
-{ "@type": "HowToStep", "position": 6, "name": "Support application", "text": "Support the MahaRERA online application and respond to authority queries on financial capacity." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Net Worth Certificate for RERA Registration Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Promoter", "description": "The developer or person constructing or selling the real estate project under RERA." },
-{ "@type": "DefinedTerm", "name": "Designated RERA account", "description": "The separate bank account holding 70 percent of allottee receivables under Section 4(2)(l)(D)." },
-{ "@type": "DefinedTerm", "name": "Form 3", "description": "The CA certificate on project cost and withdrawal from the 70 percent designated account." },
-{ "@type": "DefinedTerm", "name": "Form 5", "description": "The annual CA audit report on project fund utilisation, due within six months of the financial year end." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -751,7 +618,145 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Net Worth Certificate for RERA Registration 2026 | Patron Accounting</title>
+    <meta name="description" content="CA net worth certificate for RERA promoter registration in Pune. Audited financials, escrow validation, MahaRERA-ready, UDIN-verified. From INR 7,999.">
+    <link rel="canonical" href="/net-worth-certificate-for-rera-registration/pune">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Net Worth Certificate for RERA Registration 2026 | Patron Accounting">
+    <meta property="og:description" content="CA net worth certificate for RERA promoter registration in Pune. Audited financials, escrow validation, MahaRERA-ready, UDIN-verified. From INR 7,999.">
+    <meta property="og:url" content="/net-worth-certificate-for-rera-registration/pune">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Net Worth Certificate for RERA Registration 2026 | Patron Accounting">
+    <meta name="twitter:description" content="CA net worth certificate for RERA promoter registration in Pune. Audited financials, escrow validation, MahaRERA-ready, UDIN-verified. From INR 7,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/pune/#service",
+        "name": "Net Worth Certificate for RERA Registration in Pune",
+        "description": "CA-certified promoter net worth certificate for RERA project registration in Pune, drawn from audited financials and submitted with the MahaRERA application alongside validation of the 70 percent designated escrow account under Section 4(2)(l)(D) of the RERA Act 2016, issued with a mandatory 18-digit UDIN.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/pune" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Net worth", "sameAs": "https://en.wikipedia.org/wiki/Net_worth" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Net Worth Certificate for RERA Registration Service Plans",
+            "itemListElement": [
+                { "@type": "Offer", "name": "Net Worth Certificate for RERA Registration", "price": "7999", "priceCurrency": "INR", "description": "Starting from INR 7,999 (Exl GST and Govt. Charges)" }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/pune/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
+            { "@type": "ListItem", "position": 3, "name": "Net Worth Certificate for RERA Registration", "item": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/pune" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/pune/#faq",
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "mainEntity": [
+            { "@type": "Question", "name": "Is a net worth certificate required for RERA registration?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. A promoter registering a real estate project must disclose financial standing, including a statement of assets and liabilities showing net worth drawn from audited financial statements for the last three years. In Maharashtra this is filed with MahaRERA. The net worth certificate, certified by a Chartered Accountant with a UDIN, is part of the financial disclosure the authority reviews to assess capacity to complete the project." } },
+{ "@type": "Question", "name": "What is the 70 percent rule in RERA?", "acceptedAnswer": { "@type": "Answer", "text": "Under Section 4(2)(l)(D) of the RERA Act, 2016, a promoter must deposit 70 percent of amounts received from allottees in a separate designated bank account for each project. The money can be withdrawn only for construction and land cost in proportion to project completion, certified by a CA, engineer, and architect. The rule prevents diversion of buyers\u0027 funds." } },
+{ "@type": "Question", "name": "What is the difference between Form B, Form 3, and Form 5?", "acceptedAnswer": { "@type": "Answer", "text": "Form B is the promoter\u0027s declaration filed at registration. Form 3 is the CA certificate on project cost and the amount withdrawable from the 70 percent designated account. Form 5 is the annual CA audit report on project fund utilisation, obtained within six months after each financial year end. The net worth certificate supports the registration alongside these forms." } },
+{ "@type": "Question", "name": "What happens if a promoter sells before RERA registration?", "acceptedAnswer": { "@type": "Answer", "text": "Selling, advertising, or booking before registration contravenes Section 3 of the RERA Act, 2016. The penalty under Section 59 can be up to 10 percent of the estimated project cost, with further fine or imprisonment for continued default. The CA declaration confirming no advance was taken before registration is part of the document set." } },
+{ "@type": "Question", "name": "Can a partnership firm or individual promoter get this certificate?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Promoters can be companies, LLPs, partnership firms, or individuals, and each must disclose net worth from audited financials at registration. For firms and LLPs the audited profit and loss account, balance sheet, and related statements are used. The CA prepares the net worth certificate in the promoter\u0027s name, reflecting the entity\u0027s audited financial position as on the certificate date." } },
+{ "@type": "Question", "name": "How fast can Patron Accounting issue it in Pune?", "acceptedAnswer": { "@type": "Answer", "text": "For Pune promoters with audited financials ready, we typically issue the net worth certificate within two to five working days, with priority turnaround for MahaRERA deadlines. Our team also supports the 70 percent escrow validation, Form 3, and Form 5. We work both in-person at our Pune office and remotely, supporting developers across the city and the wider Maharashtra market." } }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/pune",
+        "name": "Net Worth Certificate for RERA Registration in Pune",
+        "description": "CA net worth certificate for RERA promoter registration in Pune. Audited financials, escrow validation, MahaRERA-ready, UDIN-verified. From INR 7,999.",
+        "url": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/pune",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/pune/#service" },
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/pune/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How a RERA Net Worth Certificate Is Issued",
+        "description": "The step-by-step process Patron Accounting follows to verify audited financials and issue a UDIN-backed promoter net worth certificate for MahaRERA registration in Pune.",
+        "totalTime": "P5D",
+        "step": [
+            { "@type": "HowToStep", "position": 1, "name": "Confirm project and promoter", "text": "Confirm the project, promoter entity (company, LLP, firm, individual), and the state RERA (MahaRERA for Pune)." },
+{ "@type": "HowToStep", "position": 2, "name": "Collect documents", "text": "Collect audited financials (3 years), project cost estimate, bank details, PAN, and entity documents." },
+{ "@type": "HowToStep", "position": 3, "name": "Verify and compute net worth", "text": "Verify assets and liabilities under SA 500 (Audit Evidence) and SA 505 (External Confirmations) and compute net worth." },
+{ "@type": "HowToStep", "position": 4, "name": "Validate escrow", "text": "Validate the 70 percent designated account arrangement under Section 4(2)(l)(D) and the no-advance declaration." },
+{ "@type": "HowToStep", "position": 5, "name": "Issue with UDIN", "text": "Issue the net worth certificate with UDIN, and support Form 3 and Form 5 as required." },
+{ "@type": "HowToStep", "position": 6, "name": "Support application", "text": "Support the MahaRERA online application and respond to authority queries on financial capacity." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Net Worth Certificate for RERA Registration Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Promoter", "description": "The developer or person constructing or selling the real estate project under RERA." },
+{ "@type": "DefinedTerm", "name": "Designated RERA account", "description": "The separate bank account holding 70 percent of allottee receivables under Section 4(2)(l)(D)." },
+{ "@type": "DefinedTerm", "name": "Form 3", "description": "The CA certificate on project cost and withdrawal from the 70 percent designated account." },
+{ "@type": "DefinedTerm", "name": "Form 5", "description": "The annual CA audit report on project fund utilisation, due within six months of the financial year end." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1390,22 +1395,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
-<!-- ============================================
-     CONSULTATION FORM — Country Dropdown + Validation + Bigin Integration
-     ============================================ -->
-{{-- Enquiry form markup + JS now in partials/enquiry-form.blade.php --}}
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1428,8 +1421,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1466,7 +1457,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1477,3 +1467,24 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+<!-- ============================================
+     CONSULTATION FORM — Country Dropdown + Validation + Bigin Integration
+     ============================================ -->
+{{-- Enquiry form markup + JS now in partials/enquiry-form.blade.php --}}
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

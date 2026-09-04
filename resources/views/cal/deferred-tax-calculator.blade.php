@@ -1,193 +1,8 @@
 @extends('layouts.app')
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
-@section('meta')
-    <title>Deferred Tax Calculator | DTA/DTL AS 22 & Ind AS 12</title>
-    <meta name="description" content="Deferred tax calculator: compute DTA & DTL under AS 22 / Ind AS 12 with FY 2025-26 corporate rates, surcharge & cess, plus journal entries. Free CA tool!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/deferred-tax-calculator">
-    <meta property="og:title" content="Deferred Tax Calculator (DTA/DTL) — AS 22 & Ind AS 12 — FY 2025-26">
-    <meta property="og:description" content="Calculate deferred tax assets and liabilities for Indian companies. Auto-effective rate (base + surcharge + cess), multi-line timing differences, journal entries.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/deferred-tax-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Deferred Tax Calculator (DTA/DTL) — AS 22 & Ind AS 12 — FY 2025-26">
-    <meta name="twitter:description" content="Auto-effective rate, multi-line timing differences, journal entries — for Indian companies under AS 22 / Ind AS 12.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "Deferred Tax Calculator (DTA/DTL)",
-      "description": "Deferred Tax Calculator computes Deferred Tax Asset (DTA) and Deferred Tax Liability (DTL) for Indian companies under Accounting Standard 22 (Indian GAAP) and Indian Accounting Standard 12 (Ind AS). The tool supports six tax regimes for FY 2025-26 / AY 2026-27 — domestic company at 25%, domestic company at 30%, Section 115BAA at 22%, Section 115BAB at 15%, foreign company at 35%, and custom rate — with automatic surcharge (0%/7%/12% domestic, 0%/2%/5% foreign, flat 10% for 115BAA/115BAB) and 4% Health and Education Cess to compute the effective tax rate. Timing or temporary differences supported include depreciation differences (Companies Act vs Income Tax Act), Section 43B disallowances (PF, ESI, GST, bonus, leave encashment), provision for doubtful debts, provision for gratuity, provision for leave encashment, provision for warranty, brought-forward business losses and unabsorbed depreciation, plus three custom line items. Output includes total DTA, total DTL, net position, detailed breakdown table and journal entry guidance.",
-      "url": "https://www.patronaccounting.com/tools/deferred-tax-calculator",
-      "applicationCategory": "FinanceApplication",
-      "operatingSystem": "Any",
-      "datePublished": "2026-05-07T08:00:00+05:30",
-      "dateModified": "2026-05-07T08:00:00+05:30",
-      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
-      "author": {
-        "@type": "Person",
-        "@id": "https://www.patronaccounting.com/#founder",
-        "name": "CA Sundram Gupta",
-        "jobTitle": "Founder & Chartered Accountant",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Institute of Chartered Accountants of India",
-            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-          }
-        }]
-      },
-      "publisher": { "@id": "https://www.patronaccounting.com/#organization" },
-      "provider": {"@id": "https://www.patronaccounting.com/#organization"}
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Deferred Tax Calculator", "item": "https://www.patronaccounting.com/tools/deferred-tax-calculator"}
-      ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is deferred tax — DTA and DTL?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Deferred tax is the tax effect of timing or temporary differences between book profit (per Companies Act and accounting standards) and taxable profit (per Income Tax Act, 1961). A Deferred Tax Asset arises when book profit is lower than taxable profit currently and tax savings will accrue in future years. A Deferred Tax Liability arises when book profit is higher than taxable profit currently and tax will be payable in future years when the difference reverses."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between AS 22 and Ind AS 12?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "AS 22 issued by ICAI follows the income statement approach and recognises deferred tax on timing differences between book profit and taxable profit. Ind AS 12, which is converged with IAS 12, follows the balance sheet approach and recognises deferred tax on temporary differences between the carrying amount of an asset or liability and its tax base. Both methods produce similar net deferred tax balances but presentation and recognition triggers differ."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are the most common DTA-creating items in India?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The most common DTA items are Section 43B disallowances (PF, ESI, GST, bonus and leave encashment paid after the due date), provision for doubtful debts (allowed only on actual write-off), provision for gratuity and leave encashment (allowed on actual payment basis), provision for warranty, brought-forward business losses and unabsorbed depreciation, voluntary retirement scheme expenses under Section 35DDA, and certain preliminary expenses spread over five years under Section 35D."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are the most common DTL-creating items in India?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The single largest source of DTL in India is the depreciation difference: Income Tax Act allows accelerated depreciation on the written-down value method while companies typically charge straight-line method depreciation in books, creating a DTL in early years of asset life that reverses later. Other DTL items include capitalisation differences for borrowing costs, deferred revenue expenditure written off over a longer period in books, and revaluation gains taxed only on disposal."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is virtual certainty for DTA recognition?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Under AS 22, DTA on unabsorbed depreciation and brought-forward business losses can be recognised only when there is virtual certainty supported by convincing evidence that sufficient future taxable income will be available against which the loss can be set off. Convincing evidence means binding export orders, signed sales contracts or robust forecasts based on confirmed business pipeline. General optimism or projections without supporting documents do not meet the virtual certainty test."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which tax rate should be used to compute DTA and DTL?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Under AS 22 and Ind AS 12, deferred tax assets and liabilities are measured using tax rates and laws that have been enacted or substantively enacted by the balance sheet date and that are expected to apply in the period when the asset is realised or liability is settled. The applicable rate must include base rate plus surcharge plus 4% Health and Education Cess to reflect the actual cash tax outflow on reversal."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Are surcharge and cess included in the deferred tax rate?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. The effective tax rate for deferred tax computation must include surcharge and Health and Education Cess because these are integral components of the income tax payable on reversal of the timing difference. For a Section 115BAA company, the rate is 22% plus 10% surcharge plus 4% cess equalling 25.168%. For a domestic company at 30% with income above ₹10 crore, the rate is 30% plus 12% surcharge plus 4% cess equalling 34.944%."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is MAT credit treated as a Deferred Tax Asset?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "MAT credit entitlement under Section 115JAA is recognised as a separate asset on the balance sheet, not as Deferred Tax Asset. Under AS 22, MAT credit does not arise from timing differences and is therefore outside the deferred tax framework. Under Ind AS 12, MAT credit is presented separately under Other Non-current Assets when there is convincing evidence of utilisation within the 15-year carry-forward window allowed under Section 115JAA."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between permanent and timing differences?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Permanent differences are items that affect either book profit or taxable profit but never both — examples include disallowed donations, fines and penalties, expenses on exempt income, and dividends from domestic companies pre-Finance Act 2020. They never reverse, so no deferred tax is created on them. Timing or temporary differences are items recognised in different periods between books and tax — they reverse over time and therefore give rise to DTA or DTL under AS 22 and Ind AS 12."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Where are DTA and DTL disclosed on the balance sheet?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Under AS 22, the net Deferred Tax Asset is shown after the head Investments on the asset side, and net Deferred Tax Liability is shown after the head Unsecured Loans on the liability side. Under Ind AS 12 and Schedule III Division II of the Companies Act, DTA and DTL are always classified as non-current and presented separately under Non-Current Assets and Non-Current Liabilities respectively, with set-off allowed only when there is a legally enforceable right."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the journal entry for creating DTA and DTL?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "To create a Deferred Tax Asset: Debit Deferred Tax Asset (balance sheet) and Credit Deferred Tax Expense or Profit and Loss Account, with the amount equal to the deductible timing difference multiplied by the effective tax rate. To create a Deferred Tax Liability: Debit Deferred Tax Expense or Profit and Loss Account and Credit Deferred Tax Liability (balance sheet). Reversals follow the opposite pattern when the underlying timing difference reverses in subsequent periods."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "When are DTA and DTL reversed?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Deferred tax balances reverse when the underlying timing difference reverses. For example, a DTL on depreciation reverses in later years of asset life when book depreciation exceeds tax depreciation. A DTA on Section 43B unpaid statutory dues reverses in the year the dues are actually paid and become tax-deductible. DTA on brought-forward losses reverses when those losses are absorbed against future taxable profits. The carrying amount must be reviewed each balance sheet date."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the foreign company tax rate for AY 2026-27?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "For Assessment Year 2026-27 corresponding to Financial Year 2025-26, foreign companies are taxed at a base rate of 35% on income earned in India, reduced from 40% by the Finance (No. 2) Act, 2024. Surcharge applies at 0% for income up to ₹1 crore, 2% for ₹1 to ₹10 crore, and 5% above ₹10 crore. Health and Education Cess is 4% on tax plus surcharge. Effective rates range from 36.4% to 38.22% depending on income bracket."
-          }
-        }
-      ]
-    }
-    </script>
-@endsection
-
 <style>
         :root {
             --primary: #1B4D3E;
@@ -413,7 +228,192 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
   section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;max-width:100%;margin-bottom:2px;}
 }
 </style>
+@endpush
 
+@section('meta')
+    <title>Deferred Tax Calculator | DTA/DTL AS 22 & Ind AS 12</title>
+    <meta name="description" content="Deferred tax calculator: compute DTA & DTL under AS 22 / Ind AS 12 with FY 2025-26 corporate rates, surcharge & cess, plus journal entries. Free CA tool!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/deferred-tax-calculator">
+    <meta property="og:title" content="Deferred Tax Calculator (DTA/DTL) — AS 22 & Ind AS 12 — FY 2025-26">
+    <meta property="og:description" content="Calculate deferred tax assets and liabilities for Indian companies. Auto-effective rate (base + surcharge + cess), multi-line timing differences, journal entries.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/deferred-tax-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Deferred Tax Calculator (DTA/DTL) — AS 22 & Ind AS 12 — FY 2025-26">
+    <meta name="twitter:description" content="Auto-effective rate, multi-line timing differences, journal entries — for Indian companies under AS 22 / Ind AS 12.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Deferred Tax Calculator (DTA/DTL)",
+      "description": "Deferred Tax Calculator computes Deferred Tax Asset (DTA) and Deferred Tax Liability (DTL) for Indian companies under Accounting Standard 22 (Indian GAAP) and Indian Accounting Standard 12 (Ind AS). The tool supports six tax regimes for FY 2025-26 / AY 2026-27 — domestic company at 25%, domestic company at 30%, Section 115BAA at 22%, Section 115BAB at 15%, foreign company at 35%, and custom rate — with automatic surcharge (0%/7%/12% domestic, 0%/2%/5% foreign, flat 10% for 115BAA/115BAB) and 4% Health and Education Cess to compute the effective tax rate. Timing or temporary differences supported include depreciation differences (Companies Act vs Income Tax Act), Section 43B disallowances (PF, ESI, GST, bonus, leave encashment), provision for doubtful debts, provision for gratuity, provision for leave encashment, provision for warranty, brought-forward business losses and unabsorbed depreciation, plus three custom line items. Output includes total DTA, total DTL, net position, detailed breakdown table and journal entry guidance.",
+      "url": "https://www.patronaccounting.com/tools/deferred-tax-calculator",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Any",
+      "datePublished": "2026-05-07T08:00:00+05:30",
+      "dateModified": "2026-05-07T08:00:00+05:30",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.patronaccounting.com/#founder",
+        "name": "CA Sundram Gupta",
+        "jobTitle": "Founder & Chartered Accountant",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Institute of Chartered Accountants of India",
+            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+          }
+        }]
+      },
+      "publisher": { "@id": "https://www.patronaccounting.com/#organization" },
+      "provider": {"@id": "https://www.patronaccounting.com/#organization"}
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Deferred Tax Calculator", "item": "https://www.patronaccounting.com/tools/deferred-tax-calculator"}
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is deferred tax — DTA and DTL?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Deferred tax is the tax effect of timing or temporary differences between book profit (per Companies Act and accounting standards) and taxable profit (per Income Tax Act, 1961). A Deferred Tax Asset arises when book profit is lower than taxable profit currently and tax savings will accrue in future years. A Deferred Tax Liability arises when book profit is higher than taxable profit currently and tax will be payable in future years when the difference reverses."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between AS 22 and Ind AS 12?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AS 22 issued by ICAI follows the income statement approach and recognises deferred tax on timing differences between book profit and taxable profit. Ind AS 12, which is converged with IAS 12, follows the balance sheet approach and recognises deferred tax on temporary differences between the carrying amount of an asset or liability and its tax base. Both methods produce similar net deferred tax balances but presentation and recognition triggers differ."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the most common DTA-creating items in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most common DTA items are Section 43B disallowances (PF, ESI, GST, bonus and leave encashment paid after the due date), provision for doubtful debts (allowed only on actual write-off), provision for gratuity and leave encashment (allowed on actual payment basis), provision for warranty, brought-forward business losses and unabsorbed depreciation, voluntary retirement scheme expenses under Section 35DDA, and certain preliminary expenses spread over five years under Section 35D."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the most common DTL-creating items in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The single largest source of DTL in India is the depreciation difference: Income Tax Act allows accelerated depreciation on the written-down value method while companies typically charge straight-line method depreciation in books, creating a DTL in early years of asset life that reverses later. Other DTL items include capitalisation differences for borrowing costs, deferred revenue expenditure written off over a longer period in books, and revaluation gains taxed only on disposal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is virtual certainty for DTA recognition?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under AS 22, DTA on unabsorbed depreciation and brought-forward business losses can be recognised only when there is virtual certainty supported by convincing evidence that sufficient future taxable income will be available against which the loss can be set off. Convincing evidence means binding export orders, signed sales contracts or robust forecasts based on confirmed business pipeline. General optimism or projections without supporting documents do not meet the virtual certainty test."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which tax rate should be used to compute DTA and DTL?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under AS 22 and Ind AS 12, deferred tax assets and liabilities are measured using tax rates and laws that have been enacted or substantively enacted by the balance sheet date and that are expected to apply in the period when the asset is realised or liability is settled. The applicable rate must include base rate plus surcharge plus 4% Health and Education Cess to reflect the actual cash tax outflow on reversal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are surcharge and cess included in the deferred tax rate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The effective tax rate for deferred tax computation must include surcharge and Health and Education Cess because these are integral components of the income tax payable on reversal of the timing difference. For a Section 115BAA company, the rate is 22% plus 10% surcharge plus 4% cess equalling 25.168%. For a domestic company at 30% with income above ₹10 crore, the rate is 30% plus 12% surcharge plus 4% cess equalling 34.944%."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is MAT credit treated as a Deferred Tax Asset?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "MAT credit entitlement under Section 115JAA is recognised as a separate asset on the balance sheet, not as Deferred Tax Asset. Under AS 22, MAT credit does not arise from timing differences and is therefore outside the deferred tax framework. Under Ind AS 12, MAT credit is presented separately under Other Non-current Assets when there is convincing evidence of utilisation within the 15-year carry-forward window allowed under Section 115JAA."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between permanent and timing differences?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Permanent differences are items that affect either book profit or taxable profit but never both — examples include disallowed donations, fines and penalties, expenses on exempt income, and dividends from domestic companies pre-Finance Act 2020. They never reverse, so no deferred tax is created on them. Timing or temporary differences are items recognised in different periods between books and tax — they reverse over time and therefore give rise to DTA or DTL under AS 22 and Ind AS 12."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where are DTA and DTL disclosed on the balance sheet?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under AS 22, the net Deferred Tax Asset is shown after the head Investments on the asset side, and net Deferred Tax Liability is shown after the head Unsecured Loans on the liability side. Under Ind AS 12 and Schedule III Division II of the Companies Act, DTA and DTL are always classified as non-current and presented separately under Non-Current Assets and Non-Current Liabilities respectively, with set-off allowed only when there is a legally enforceable right."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the journal entry for creating DTA and DTL?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "To create a Deferred Tax Asset: Debit Deferred Tax Asset (balance sheet) and Credit Deferred Tax Expense or Profit and Loss Account, with the amount equal to the deductible timing difference multiplied by the effective tax rate. To create a Deferred Tax Liability: Debit Deferred Tax Expense or Profit and Loss Account and Credit Deferred Tax Liability (balance sheet). Reversals follow the opposite pattern when the underlying timing difference reverses in subsequent periods."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When are DTA and DTL reversed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Deferred tax balances reverse when the underlying timing difference reverses. For example, a DTL on depreciation reverses in later years of asset life when book depreciation exceeds tax depreciation. A DTA on Section 43B unpaid statutory dues reverses in the year the dues are actually paid and become tax-deductible. DTA on brought-forward losses reverses when those losses are absorbed against future taxable profits. The carrying amount must be reviewed each balance sheet date."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the foreign company tax rate for AY 2026-27?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For Assessment Year 2026-27 corresponding to Financial Year 2025-26, foreign companies are taxed at a base rate of 35% on income earned in India, reduced from 40% by the Finance (No. 2) Act, 2024. Surcharge applies at 0% for income up to ₹1 crore, 2% for ₹1 to ₹10 crore, and 5% above ₹10 crore. Health and Education Cess is 4% on tax plus surcharge. Effective rates range from 36.4% to 38.22% depending on income bracket."
+          }
+        }
+      ]
+    }
+    </script>
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Tool navigation">
     <div class="toc-nav-inner">

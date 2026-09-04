@@ -1,173 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Net Worth Certificate for Companies in Delhi 2026: Fees and Process | Patron Accounting</title>
-    <meta name="description" content="Net Worth Certificate for Companies by CA with UDIN under Section 2(57) Companies Act 2013. Starting from INR 1,999. Pvt Ltd, OPC, Public. 1-3 day delivery.">
-    <link rel="canonical" href="/net-worth-certificate-for-companies/delhi">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Net Worth Certificate for Companies 2026: Fees and Process | Patron Accounting">
-    <meta property="og:description" content="Net Worth Certificate for Companies by CA with UDIN under Section 2(57) Companies Act 2013. Starting from INR 1,999. Pvt Ltd, OPC, Public. 1-3 day delivery.">
-    <meta property="og:url" content="/net-worth-certificate-for-companies/delhi">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Net Worth Certificate for Companies 2026: Fees and Process | Patron Accounting">
-    <meta name="twitter:description" content="Net Worth Certificate for Companies by CA with UDIN under Section 2(57) Companies Act 2013. Starting from INR 1,999. Pvt Ltd, OPC, Public. 1-3 day delivery.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-companies/delhi/#service",
-        "name": "Net Worth Certificate for Companies in Delhi",
-        "description": "CA-certified net worth certificate for companies computed under Section 2(57) of the Companies Act 2013 from the audited balance sheet, carrying a mandatory 18-digit UDIN, for SEBI, RBI, ROC, tender, banking, and investor purposes.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/net-worth-certificate-for-companies/delhi" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Net worth", "sameAs": "https://en.wikipedia.org/wiki/Net_worth" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Net Worth Certificate for Companies Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": { "@type": "Service", "name": "Company net worth certificate" },
-                    "priceCurrency": "INR",
-                    "price": "1999",
-                    "description": "Starting from INR 1,999 (excl. GST and govt. charges)"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-companies/delhi/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
-            { "@type": "ListItem", "position": 3, "name": "Net Worth Certificate for Companies", "item": "https://www.patronaccounting.com/net-worth-certificate-for-companies/delhi" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-companies/delhi/#faq",
-        "datePublished": "2026-06-09T08:00:00+05:30",
-        "dateModified": "2026-06-09T08:00:00+05:30",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "Who can issue a net worth certificate for a company?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Only a practising Chartered Accountant with a valid Certificate of Practice registered with ICAI can issue it. Company secretaries, cost accountants, and lawyers cannot certify a company's net worth for regulatory or financial purposes." }
-            },
-            {
-                "@type": "Question",
-                "name": "How is a company's net worth calculated?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Under Section 2(57) of the Companies Act, 2013: paid-up share capital plus reserves from profits and securities premium, minus accumulated losses, deferred expenditure, and miscellaneous expenditure not written off, as per the audited balance sheet. Revaluation reserves are excluded." }
-            },
-            {
-                "@type": "Question",
-                "name": "How much does a company net worth certificate cost?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Patron Accounting fees start from INR 1,999 excluding GST and government charges. The final amount depends on entity complexity, audit status, and urgency of the certificate." }
-            },
-            {
-                "@type": "Question",
-                "name": "Is a UDIN mandatory on the certificate?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Yes. Every CA-certified document, including a net worth certificate, must carry an 18-digit UDIN generated at udin.icai.org, mandatory since 1 July 2019. The requesting institution can verify it online." }
-            },
-            {
-                "@type": "Question",
-                "name": "Can it be used for SEBI registration?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Yes. SEBI intermediaries such as research analysts, investment advisers, and portfolio managers must submit a CA net worth certificate proving the minimum net worth their registration category requires." }
-            },
-            {
-                "@type": "Question",
-                "name": "How long is the certificate valid?",
-                "acceptedAnswer": { "@type": "Answer", "text": "There is no fixed statutory validity, but institutions usually require a recent reference date, typically within three months for banking and tender uses. A stale certificate is commonly rejected." }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-companies/delhi",
-        "name": "Net Worth Certificate for Companies in Delhi",
-        "description": "Net Worth Certificate for Companies by CA with UDIN under Section 2(57) Companies Act 2013. Starting from INR 1,999. Pvt Ltd, OPC, Public. 1-3 day delivery.",
-        "url": "https://www.patronaccounting.com/net-worth-certificate-for-companies/delhi",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-companies/delhi/#service" },
-        "datePublished": "2026-06-09T08:00:00+05:30",
-        "dateModified": "2026-06-09T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-companies/delhi/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How a Company Net Worth Certificate Is Prepared",
-        "description": "The six-step process to a CA-certified company net worth certificate: share documents, define the purpose, verify balances independently, compute net worth under Section 2(57), review the draft, and generate the UDIN.",
-        "totalTime": "P3D",
-        "step": [
-            { "@type": "HowToStep", "name": "Share documents", "text": "Provide the latest audited balance sheet, MCA filings, bank and FD statements, and loan schedules." },
-            { "@type": "HowToStep", "name": "Define the purpose", "text": "Confirm whether the certificate is for SEBI, RBI, ROC, tender, bank, or investor use, since wording differs." },
-            { "@type": "HowToStep", "name": "Independent verification", "text": "The CA confirms balances against source records under SA 500 and SA 505." },
-            { "@type": "HowToStep", "name": "Compute net worth", "text": "Apply Section 2(57): paid-up capital plus reserves minus accumulated losses and deferred expenditure, excluding revaluation reserves." },
-            { "@type": "HowToStep", "name": "Draft and review", "text": "The draft certificate is shared for your confirmation before signing." },
-            { "@type": "HowToStep", "name": "UDIN and final issue", "text": "The CA generates the 18-digit UDIN at udin.icai.org, signs, seals, and delivers the certificate." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Net Worth Certificate for Companies Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Net Worth (Section 2(57))", "description": "Paid-up share capital plus reserves from profits plus securities premium minus accumulated losses minus deferred and miscellaneous expenditure not written off, per the audited balance sheet." },
-            { "@type": "DefinedTerm", "name": "UDIN", "description": "18-digit Unique Document Identification Number, mandatory on every CA-certified document since 1 July 2019, verifiable at udin.icai.org." },
-            { "@type": "DefinedTerm", "name": "COP", "description": "Certificate of Practice under the Chartered Accountants Act, 1949 - only a CA holding a valid COP can certify net worth." },
-            { "@type": "DefinedTerm", "name": "SA 505", "description": "Standard on Auditing for external confirmations, applied when the CA independently confirms bank and loan balances." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -781,7 +618,175 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Net Worth Certificate for Companies in Delhi 2026: Fees and Process | Patron Accounting</title>
+    <meta name="description" content="Net Worth Certificate for Companies by CA with UDIN under Section 2(57) Companies Act 2013. Starting from INR 1,999. Pvt Ltd, OPC, Public. 1-3 day delivery.">
+    <link rel="canonical" href="/net-worth-certificate-for-companies/delhi">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Net Worth Certificate for Companies 2026: Fees and Process | Patron Accounting">
+    <meta property="og:description" content="Net Worth Certificate for Companies by CA with UDIN under Section 2(57) Companies Act 2013. Starting from INR 1,999. Pvt Ltd, OPC, Public. 1-3 day delivery.">
+    <meta property="og:url" content="/net-worth-certificate-for-companies/delhi">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Net Worth Certificate for Companies 2026: Fees and Process | Patron Accounting">
+    <meta name="twitter:description" content="Net Worth Certificate for Companies by CA with UDIN under Section 2(57) Companies Act 2013. Starting from INR 1,999. Pvt Ltd, OPC, Public. 1-3 day delivery.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-companies/delhi/#service",
+        "name": "Net Worth Certificate for Companies in Delhi",
+        "description": "CA-certified net worth certificate for companies computed under Section 2(57) of the Companies Act 2013 from the audited balance sheet, carrying a mandatory 18-digit UDIN, for SEBI, RBI, ROC, tender, banking, and investor purposes.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/net-worth-certificate-for-companies/delhi" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Net worth", "sameAs": "https://en.wikipedia.org/wiki/Net_worth" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Net Worth Certificate for Companies Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": { "@type": "Service", "name": "Company net worth certificate" },
+                    "priceCurrency": "INR",
+                    "price": "1999",
+                    "description": "Starting from INR 1,999 (excl. GST and govt. charges)"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-companies/delhi/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
+            { "@type": "ListItem", "position": 3, "name": "Net Worth Certificate for Companies", "item": "https://www.patronaccounting.com/net-worth-certificate-for-companies/delhi" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-companies/delhi/#faq",
+        "datePublished": "2026-06-09T08:00:00+05:30",
+        "dateModified": "2026-06-09T08:00:00+05:30",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Who can issue a net worth certificate for a company?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Only a practising Chartered Accountant with a valid Certificate of Practice registered with ICAI can issue it. Company secretaries, cost accountants, and lawyers cannot certify a company's net worth for regulatory or financial purposes." }
+            },
+            {
+                "@type": "Question",
+                "name": "How is a company's net worth calculated?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Under Section 2(57) of the Companies Act, 2013: paid-up share capital plus reserves from profits and securities premium, minus accumulated losses, deferred expenditure, and miscellaneous expenditure not written off, as per the audited balance sheet. Revaluation reserves are excluded." }
+            },
+            {
+                "@type": "Question",
+                "name": "How much does a company net worth certificate cost?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Patron Accounting fees start from INR 1,999 excluding GST and government charges. The final amount depends on entity complexity, audit status, and urgency of the certificate." }
+            },
+            {
+                "@type": "Question",
+                "name": "Is a UDIN mandatory on the certificate?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Yes. Every CA-certified document, including a net worth certificate, must carry an 18-digit UDIN generated at udin.icai.org, mandatory since 1 July 2019. The requesting institution can verify it online." }
+            },
+            {
+                "@type": "Question",
+                "name": "Can it be used for SEBI registration?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Yes. SEBI intermediaries such as research analysts, investment advisers, and portfolio managers must submit a CA net worth certificate proving the minimum net worth their registration category requires." }
+            },
+            {
+                "@type": "Question",
+                "name": "How long is the certificate valid?",
+                "acceptedAnswer": { "@type": "Answer", "text": "There is no fixed statutory validity, but institutions usually require a recent reference date, typically within three months for banking and tender uses. A stale certificate is commonly rejected." }
+            }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-companies/delhi",
+        "name": "Net Worth Certificate for Companies in Delhi",
+        "description": "Net Worth Certificate for Companies by CA with UDIN under Section 2(57) Companies Act 2013. Starting from INR 1,999. Pvt Ltd, OPC, Public. 1-3 day delivery.",
+        "url": "https://www.patronaccounting.com/net-worth-certificate-for-companies/delhi",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-companies/delhi/#service" },
+        "datePublished": "2026-06-09T08:00:00+05:30",
+        "dateModified": "2026-06-09T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-companies/delhi/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How a Company Net Worth Certificate Is Prepared",
+        "description": "The six-step process to a CA-certified company net worth certificate: share documents, define the purpose, verify balances independently, compute net worth under Section 2(57), review the draft, and generate the UDIN.",
+        "totalTime": "P3D",
+        "step": [
+            { "@type": "HowToStep", "name": "Share documents", "text": "Provide the latest audited balance sheet, MCA filings, bank and FD statements, and loan schedules." },
+            { "@type": "HowToStep", "name": "Define the purpose", "text": "Confirm whether the certificate is for SEBI, RBI, ROC, tender, bank, or investor use, since wording differs." },
+            { "@type": "HowToStep", "name": "Independent verification", "text": "The CA confirms balances against source records under SA 500 and SA 505." },
+            { "@type": "HowToStep", "name": "Compute net worth", "text": "Apply Section 2(57): paid-up capital plus reserves minus accumulated losses and deferred expenditure, excluding revaluation reserves." },
+            { "@type": "HowToStep", "name": "Draft and review", "text": "The draft certificate is shared for your confirmation before signing." },
+            { "@type": "HowToStep", "name": "UDIN and final issue", "text": "The CA generates the 18-digit UDIN at udin.icai.org, signs, seals, and delivers the certificate." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Net Worth Certificate for Companies Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Net Worth (Section 2(57))", "description": "Paid-up share capital plus reserves from profits plus securities premium minus accumulated losses minus deferred and miscellaneous expenditure not written off, per the audited balance sheet." },
+            { "@type": "DefinedTerm", "name": "UDIN", "description": "18-digit Unique Document Identification Number, mandatory on every CA-certified document since 1 July 2019, verifiable at udin.icai.org." },
+            { "@type": "DefinedTerm", "name": "COP", "description": "Certificate of Practice under the Chartered Accountants Act, 1949 - only a CA holding a valid COP can certify net worth." },
+            { "@type": "DefinedTerm", "name": "SA 505", "description": "Standard on Auditing for external confirmations, applied when the CA independently confirms bank and loan balances." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1597,22 +1602,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
-<!-- ============================================
-     CONSULTATION FORM — Country Dropdown + Validation + Bigin Integration
-     ============================================ -->
-{{-- Enquiry form markup + JS now in partials/enquiry-form.blade.php --}}
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1635,8 +1628,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1673,7 +1664,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1 (Schema Standard v2.1 / Rule 36): visible "Last Updated" mirrors schema dateModified
 // (9 June 2026) as a STABLE value - never live new Date().
@@ -1685,3 +1675,24 @@ window.addEventListener('scroll', function() {
     if (el2) el2.textContent = dateStr;
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+<!-- ============================================
+     CONSULTATION FORM — Country Dropdown + Validation + Bigin Integration
+     ============================================ -->
+{{-- Enquiry form markup + JS now in partials/enquiry-form.blade.php --}}
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

@@ -1,161 +1,12 @@
 
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Trademark Formality Fail Gurugram - Reply & Resubmit</title>
-    <meta name="description" content="Trademark formality check fail in Gurugram. Not a rejection. Reply via MIS-F within 30 days. Avoid abandoned status. Fix now. Call +91 945 945 6700.">
-    <link rel="canonical" href="/trademark-formality-check-fail/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Trademark Formality Fail Gurugram - Reply & Resubmit">
-    <meta property="og:description" content="Trademark formality check fail in Gurugram. Not a rejection. Reply via MIS-F within 30 days. Avoid abandoned status. Fix now. Call +91 945 945 6700.">
-    <meta property="og:url" content="/trademark-formality-check-fail/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Trademark Formality Fail Gurugram - Reply & Resubmit">
-    <meta name="twitter:description" content="Trademark formality check fail in Gurugram. Not a rejection. Reply via MIS-F within 30 days. Avoid abandoned status. Fix now. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "Trademark Formality Check Fail Gurugram | Fix & Reply",
-      "description": "Trademark formality check fail in Gurugram. Not a rejection. Reply via MIS-F within 30 days. Avoid abandoned status. Fix now. Call +91 945 945 6700.",
-      "url": "https://www.patronaccounting.com/trademark-formality-check-fail/gurugram",
-      "serviceType": "Trademark Formality Check Fail Gurugram | Fix & Reply",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/trademark-formality-check-fail/gurugram",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "minPrice": "900",
-          "maxPrice": "2999",
-          "priceCurrency": "INR"
-        }
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Trademark Formality Check Fail: Reasons & Reply Process",
-          "item": "https://www.patronaccounting.com/trademark-formality-check-fail"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Trademark Formality Check Fail Gurugram | Fix & Reply",
-          "item": "https://www.patronaccounting.com/trademark-formality-check-fail/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Is formality check fail a trademark rejection?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. 'Formalities Chk Fail' is a procedural/administrative deficiency, not a substantive rejection under Section 9 or Section 11 of the Trade Marks Act 1999. It means the Trademark Registry found a documentary or informational issue that can be corrected. Filing an MIS-F reply within 30 days addressing the deficiency saves the application."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does it cost to fix formality check fail?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "MIS-F reply with no amendment: no government fee. Professional fee: Rs 2,999-4,999. If Form TM-M is needed: Rs 900 (startup/individual) or Rs 1,800 (company/LLP) government fee plus Rs 4,999-7,999 professional. POA filing: Rs 1,499-2,499. Translation: Rs 1,999-3,499. Call +91 945 945 6700 for a detailed quote."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens if I miss the 30-day reply deadline?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. Monitor Status Change: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are the most common reasons for formality fail?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Wrong NICE Classification class (most frequent - e.g., Class 9 vs 42 for software). Missing Power of Attorney (Form TM-48) when filed through an agent. Missing translation/transliteration for non-English/Hindi brand names. Logo text not matching the brand name entered. Incorrect applicant details (name, address mismatch). Incomplete fee payment or corrupted document uploads."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do I file the MIS-F reply on the IP India portal?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Login to ipindia.gov.in. Navigate to Miscellaneous Reply, then select Reply to Formality Check (MIS-F). Enter your trademark application number. Upload the corrected or missing documents. If Form TM-M is required for amendments, file that separately with the applicable fee (Rs 900/Rs 1,800). Submit within the 30-day deadline."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long after reply does the status change?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "15 to 45 days after the MIS-F reply is filed, the Registry reviews the corrected documents. If satisfied, the status changes to 'Formalities Chk Pass' and the application enters the examination queue. Simple fixes (POA upload) resolve faster. Complex corrections (class change via TM-M) may take longer."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can an abandoned application be restored?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Restoration of abandoned trademark applications is limited and discretionary - the Registry is not obligated to restore. Success is not guaranteed. The better strategy is to file a fresh application immediately with correct documentation. Prevention through weekly portal monitoring during the first 2-3 months after filing is far more reliable than attempting restoration. Quick Answers Kya mera trademark reject ho gaya? Nahi. Formality check fail rejection NAHI hai. Ye procedural issue hai - documents missing hain ya galat class select kiya hai. 30 din mein fix kar sakte ho. Fix karo, application aage badhegi. Reply kaise file karna hai? IP India portal pe login karo > Miscellaneous Reply > Reply to Formality Check (MIS-F) > Application number dalo > Documents upload karo > Submit. Agar Form TM-M bola hai toh wo bhi file karo. 30 din miss kar diye toh? Application ABANDONED ho jayegi. Filing fee waste. Filing date gaya. Competitor ko priority mil jayegi. Naya application file karna padega. Isliye portal weekly check karo."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -679,7 +530,161 @@ section ul li:not(.nav-item) { font-size: 14px; }
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'Join Community'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Trademark Formality Fail Gurugram - Reply & Resubmit</title>
+    <meta name="description" content="Trademark formality check fail in Gurugram. Not a rejection. Reply via MIS-F within 30 days. Avoid abandoned status. Fix now. Call +91 945 945 6700.">
+    <link rel="canonical" href="/trademark-formality-check-fail/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Trademark Formality Fail Gurugram - Reply & Resubmit">
+    <meta property="og:description" content="Trademark formality check fail in Gurugram. Not a rejection. Reply via MIS-F within 30 days. Avoid abandoned status. Fix now. Call +91 945 945 6700.">
+    <meta property="og:url" content="/trademark-formality-check-fail/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Trademark Formality Fail Gurugram - Reply & Resubmit">
+    <meta name="twitter:description" content="Trademark formality check fail in Gurugram. Not a rejection. Reply via MIS-F within 30 days. Avoid abandoned status. Fix now. Call +91 945 945 6700.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "Trademark Formality Check Fail Gurugram | Fix & Reply",
+      "description": "Trademark formality check fail in Gurugram. Not a rejection. Reply via MIS-F within 30 days. Avoid abandoned status. Fix now. Call +91 945 945 6700.",
+      "url": "https://www.patronaccounting.com/trademark-formality-check-fail/gurugram",
+      "serviceType": "Trademark Formality Check Fail Gurugram | Fix & Reply",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.patronaccounting.com/trademark-formality-check-fail/gurugram",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": "900",
+          "maxPrice": "2999",
+          "priceCurrency": "INR"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Trademark Formality Check Fail: Reasons & Reply Process",
+          "item": "https://www.patronaccounting.com/trademark-formality-check-fail"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Trademark Formality Check Fail Gurugram | Fix & Reply",
+          "item": "https://www.patronaccounting.com/trademark-formality-check-fail/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is formality check fail a trademark rejection?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. 'Formalities Chk Fail' is a procedural/administrative deficiency, not a substantive rejection under Section 9 or Section 11 of the Trade Marks Act 1999. It means the Trademark Registry found a documentary or informational issue that can be corrected. Filing an MIS-F reply within 30 days addressing the deficiency saves the application."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does it cost to fix formality check fail?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "MIS-F reply with no amendment: no government fee. Professional fee: Rs 2,999-4,999. If Form TM-M is needed: Rs 900 (startup/individual) or Rs 1,800 (company/LLP) government fee plus Rs 4,999-7,999 professional. POA filing: Rs 1,499-2,499. Translation: Rs 1,999-3,499. Call +91 945 945 6700 for a detailed quote."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if I miss the 30-day reply deadline?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. Monitor Status Change: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the most common reasons for formality fail?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Wrong NICE Classification class (most frequent - e.g., Class 9 vs 42 for software). Missing Power of Attorney (Form TM-48) when filed through an agent. Missing translation/transliteration for non-English/Hindi brand names. Logo text not matching the brand name entered. Incorrect applicant details (name, address mismatch). Incomplete fee payment or corrupted document uploads."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I file the MIS-F reply on the IP India portal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Login to ipindia.gov.in. Navigate to Miscellaneous Reply, then select Reply to Formality Check (MIS-F). Enter your trademark application number. Upload the corrected or missing documents. If Form TM-M is required for amendments, file that separately with the applicable fee (Rs 900/Rs 1,800). Submit within the 30-day deadline."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long after reply does the status change?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "15 to 45 days after the MIS-F reply is filed, the Registry reviews the corrected documents. If satisfied, the status changes to 'Formalities Chk Pass' and the application enters the examination queue. Simple fixes (POA upload) resolve faster. Complex corrections (class change via TM-M) may take longer."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can an abandoned application be restored?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Restoration of abandoned trademark applications is limited and discretionary - the Registry is not obligated to restore. Success is not guaranteed. The better strategy is to file a fresh application immediately with correct documentation. Prevention through weekly portal monitoring during the first 2-3 months after filing is far more reliable than attempting restoration. Quick Answers Kya mera trademark reject ho gaya? Nahi. Formality check fail rejection NAHI hai. Ye procedural issue hai - documents missing hain ya galat class select kiya hai. 30 din mein fix kar sakte ho. Fix karo, application aage badhegi. Reply kaise file karna hai? IP India portal pe login karo > Miscellaneous Reply > Reply to Formality Check (MIS-F) > Application number dalo > Documents upload karo > Submit. Agar Form TM-M bola hai toh wo bhi file karo. 30 din miss kar diye toh? Application ABANDONED ho jayegi. Filing fee waste. Filing date gaya. Competitor ko priority mil jayegi. Naya application file karna padega. Isliye portal weekly check karo."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1605,7 +1610,6 @@ var tocWrapper=document.getElementById('tocWrapper');document.getElementById('to
 
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

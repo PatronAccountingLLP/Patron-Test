@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,208 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>Bank Reconciliation in Pune 2026 | Patron Accounting</title>
-    <meta name="description" content="Monthly bank and credit card reconciliation in Pune from INR 2,499/mo (Exl GST and Govt. Charges). CA-led matching for Hinjewadi and Chakan firms.">
-    <link rel="canonical" href="/bank-credit-card-reconciliation-services/pune">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Bank Reconciliation in Pune 2026 | Patron Accounting">
-    <meta property="og:description" content="Monthly bank and credit card reconciliation in Pune from INR 2,499/mo (Exl GST and Govt. Charges). CA-led matching for Hinjewadi and Chakan firms.">
-    <meta property="og:url" content="/bank-credit-card-reconciliation-services/pune">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Bank Reconciliation in Pune 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Monthly bank and credit card reconciliation in Pune from INR 2,499/mo (Exl GST and Govt. Charges). CA-led matching for Hinjewadi and Chakan firms.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services/pune#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Bank and Credit Card Reconciliation Services",
-          "item": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Bank and Credit Card Reconciliation Services in Pune",
-          "item": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services/pune"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services/pune#faq",
-      "datePublished": "2026-06-23T08:00:00+05:30",
-      "dateModified": "2026-06-23T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is bank and credit card reconciliation for a Pune business?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "It is the monthly process of matching your books against each bank and credit card statement, line by line, so closing balances agree. For Pune firms it captures unrecorded auto-debits, bank charges, gateway settlements, and duplicate entries, giving accurate ledgers for GST and income tax filing."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does bank reconciliation cost in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patron Accounting charges Starting from INR 2,499/mo (Exl GST and Govt. Charges). The final fee depends on the number of bank and card accounts, monthly transaction volume, and payment gateways used. Hinjewadi SaaS teams and Chakan manufacturers receive a fixed monthly quote before work begins."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How often should reconciliation be done in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Monthly reconciliation is the practical standard and is recommended before each GSTR-3B and GSTR-1 filing. High-volume Pune traders and e-commerce sellers often reconcile weekly. Doing it monthly keeps books audit-ready under Section 128 of the Companies Act 2013 and Section 44AA of the Income Tax Act."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can you reconcile multiple bank accounts and credit cards together?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Patron reconciles every current account, OD or CC account, and corporate credit card across all your banks in one monthly cycle. We match each account to its statement, post bank charges and interest, and produce a consolidated bank reconciliation statement per account for Pune businesses."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What does a bank reconciliation statement show?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A bank reconciliation statement explains the difference between your book balance and bank statement balance. It lists uncleared cheques, deposits in transit, bank charges, interest, and unrecorded auto-debits. Patron prepares a signed BRS per account each month so Pune founders can see exactly why the two balances differ."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which documents are needed for reconciliation in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "You share bank statements and credit card statements for the period, your Tally, Zoho Books, or QuickBooks data, payment gateway reports such as Razorpay or Stripe, and details of any loans or OD accounts. Patron matches these against your ledgers and flags any unmatched items for your confirmation."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you work inside Tally, Zoho Books, and QuickBooks?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Patron reconciles directly inside Tally, Zoho Books, QuickBooks, or Xero, whichever your Pune business uses. We use bank feeds where available, post missing entries, clear the reconciliation flag on matched items, and leave a clean closing balance ready for the next month."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why do book and bank balances not match?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Common reasons are uncleared cheques, deposits in transit, unrecorded bank charges and interest, auto-debits like EMIs and subscriptions, duplicate entries, and gateway fees deducted at settlement. Patron identifies each item, posts the missing ones, removes duplicates, and clears genuine timing differences so balances agree."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services/pune#service",
-      "name": "Bank and Credit Card Reconciliation Services in Pune",
-      "description": "Monthly bank and credit card reconciliation in Pune matches your books against every statement, captures unrecorded charges and auto-debits, removes duplicates, and clears un-reconciled items. Patron Accounting delivers a signed BRS per account for Hinjewadi, Magarpatta, and Chakan businesses.",
-      "serviceType": "Bank and Credit Card Reconciliation",
-      "url": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services/pune",
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Maharashtra"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#localbusiness-pune"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Bank reconciliation",
-          "sameAs": "https://en.wikipedia.org/wiki/Bank_reconciliation"
-        },
-        {
-          "@type": "Thing",
-          "name": "Bookkeeping",
-          "sameAs": "https://en.wikipedia.org/wiki/Bookkeeping"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Bank Reconciliation Plans in Pune",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "price": "2499",
-            "priceSpecification": {
-              "@type": "UnitPriceSpecification",
-              "priceCurrency": "INR",
-              "price": "2499",
-              "unitText": "per month"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Monthly Bank and Credit Card Reconciliation"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness-pune",
-      "name": "Patron Accounting LLP - Pune",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services/pune",
-      "telephone": "+91-9699936369",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Pune",
-        "addressRegion": "Maharashtra",
-        "postalCode": "411014",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -815,7 +612,217 @@
         .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
 
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>Bank Reconciliation in Pune 2026 | Patron Accounting</title>
+    <meta name="description" content="Monthly bank and credit card reconciliation in Pune from INR 2,499/mo (Exl GST and Govt. Charges). CA-led matching for Hinjewadi and Chakan firms.">
+    <link rel="canonical" href="/bank-credit-card-reconciliation-services/pune">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Bank Reconciliation in Pune 2026 | Patron Accounting">
+    <meta property="og:description" content="Monthly bank and credit card reconciliation in Pune from INR 2,499/mo (Exl GST and Govt. Charges). CA-led matching for Hinjewadi and Chakan firms.">
+    <meta property="og:url" content="/bank-credit-card-reconciliation-services/pune">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Bank Reconciliation in Pune 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Monthly bank and credit card reconciliation in Pune from INR 2,499/mo (Exl GST and Govt. Charges). CA-led matching for Hinjewadi and Chakan firms.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services/pune#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Bank and Credit Card Reconciliation Services",
+          "item": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Bank and Credit Card Reconciliation Services in Pune",
+          "item": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services/pune"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services/pune#faq",
+      "datePublished": "2026-06-23T08:00:00+05:30",
+      "dateModified": "2026-06-23T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is bank and credit card reconciliation for a Pune business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is the monthly process of matching your books against each bank and credit card statement, line by line, so closing balances agree. For Pune firms it captures unrecorded auto-debits, bank charges, gateway settlements, and duplicate entries, giving accurate ledgers for GST and income tax filing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does bank reconciliation cost in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patron Accounting charges Starting from INR 2,499/mo (Exl GST and Govt. Charges). The final fee depends on the number of bank and card accounts, monthly transaction volume, and payment gateways used. Hinjewadi SaaS teams and Chakan manufacturers receive a fixed monthly quote before work begins."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How often should reconciliation be done in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Monthly reconciliation is the practical standard and is recommended before each GSTR-3B and GSTR-1 filing. High-volume Pune traders and e-commerce sellers often reconcile weekly. Doing it monthly keeps books audit-ready under Section 128 of the Companies Act 2013 and Section 44AA of the Income Tax Act."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you reconcile multiple bank accounts and credit cards together?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Patron reconciles every current account, OD or CC account, and corporate credit card across all your banks in one monthly cycle. We match each account to its statement, post bank charges and interest, and produce a consolidated bank reconciliation statement per account for Pune businesses."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does a bank reconciliation statement show?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A bank reconciliation statement explains the difference between your book balance and bank statement balance. It lists uncleared cheques, deposits in transit, bank charges, interest, and unrecorded auto-debits. Patron prepares a signed BRS per account each month so Pune founders can see exactly why the two balances differ."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which documents are needed for reconciliation in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You share bank statements and credit card statements for the period, your Tally, Zoho Books, or QuickBooks data, payment gateway reports such as Razorpay or Stripe, and details of any loans or OD accounts. Patron matches these against your ledgers and flags any unmatched items for your confirmation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you work inside Tally, Zoho Books, and QuickBooks?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Patron reconciles directly inside Tally, Zoho Books, QuickBooks, or Xero, whichever your Pune business uses. We use bank feeds where available, post missing entries, clear the reconciliation flag on matched items, and leave a clean closing balance ready for the next month."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why do book and bank balances not match?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Common reasons are uncleared cheques, deposits in transit, unrecorded bank charges and interest, auto-debits like EMIs and subscriptions, duplicate entries, and gateway fees deducted at settlement. Patron identifies each item, posts the missing ones, removes duplicates, and clears genuine timing differences so balances agree."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services/pune#service",
+      "name": "Bank and Credit Card Reconciliation Services in Pune",
+      "description": "Monthly bank and credit card reconciliation in Pune matches your books against every statement, captures unrecorded charges and auto-debits, removes duplicates, and clears un-reconciled items. Patron Accounting delivers a signed BRS per account for Hinjewadi, Magarpatta, and Chakan businesses.",
+      "serviceType": "Bank and Credit Card Reconciliation",
+      "url": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services/pune",
+      "areaServed": {
+        "@type": "City",
+        "name": "Pune",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Maharashtra"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#localbusiness-pune"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Bank reconciliation",
+          "sameAs": "https://en.wikipedia.org/wiki/Bank_reconciliation"
+        },
+        {
+          "@type": "Thing",
+          "name": "Bookkeeping",
+          "sameAs": "https://en.wikipedia.org/wiki/Bookkeeping"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Bank Reconciliation Plans in Pune",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "price": "2499",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "INR",
+              "price": "2499",
+              "unitText": "per month"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Monthly Bank and Credit Card Reconciliation"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness-pune",
+      "name": "Patron Accounting LLP - Pune",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services/pune",
+      "telephone": "+91-9699936369",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Pune"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Pune",
+        "addressRegion": "Maharashtra",
+        "postalCode": "411014",
+        "addressCountry": "IN"
+      },
+      "parentOrganization": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1571,7 +1578,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

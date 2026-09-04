@@ -11,6 +11,11 @@
          at build time with this page's service pre-selected; the FAQ block is a
          CTA that scrolls to it, so there is one Bigin form per page. --}}
 @extends('layouts.service-app')
+@push('styles')
+<link rel="stylesheet" href="{{ asset('css/patron-cluster.css') }}?v={{ @filemtime(public_path('css/patron-cluster.css')) ?: '20260804' }}">
+<link rel="stylesheet" href="{{ asset('css/nwc-spec.css') }}?v={{ @filemtime(public_path('css/nwc-spec.css')) ?: '20260804' }}">
+@endpush
+
 
 @section('meta')
     <title>CA Certificate for RERA Promoter Net Worth in India</title>
@@ -183,8 +188,8 @@
 @endsection
 
 @push('styles')
-    <link rel="stylesheet" href="{{ asset('css/patron-cluster.css') }}?v={{ @filemtime(public_path('css/patron-cluster.css')) ?: '20260804' }}">
-    <link rel="stylesheet" href="{{ asset('css/nwc-spec.css') }}?v={{ @filemtime(public_path('css/nwc-spec.css')) ?: '20260804' }}">
+    
+    
 @endpush
 
 @section('content')

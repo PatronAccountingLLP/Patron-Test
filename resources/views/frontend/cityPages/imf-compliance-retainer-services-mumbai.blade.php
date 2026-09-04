@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,190 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>IMF Compliance Retainer: IRDAI Returns &amp; Accounting</title>
-    <meta name="description" content="Annual IMF compliance retainer from INR 24,999 (Exl GST & Govt. Charges): IRDAI returns, net worth certificate, PI renewal, ISP records & premium accounting.">
-    <link rel="canonical" href="/imf-compliance-retainer-services/mumbai">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="IMF Compliance Retainer: IRDAI Returns & Accounting">
-    <meta property="og:description" content="Annual IMF compliance retainer in Mumbai from INR 24,999 (Exl GST & Govt. Charges): IRDAI returns, net worth certificate, PI renewal, ISP records & premium accounting.">
-    <meta property="og:url" content="/imf-compliance-retainer-services/mumbai">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="IMF Compliance Retainer: IRDAI Returns & Accounting">
-    <meta name="twitter:description" content="Annual IMF compliance retainer in Mumbai from INR 24,999 (Exl GST & Govt. Charges): IRDAI returns, net worth certificate, PI renewal, ISP records & premium accounting.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "IMF Compliance Retainer Services in Mumbai",
-      "description": "Annual IMF compliance retainer in Mumbai from INR 24,999 (Exl GST and Govt. Charges): IRDAI returns, CA net worth certificate, professional indemnity renewal, ISP records and premium accounting for IRDAI-registered Insurance Marketing Firms.",
-      "url": "https://www.patronaccounting.com/imf-compliance-retainer-services/mumbai",
-      "serviceType": "IMF Annual Compliance Retainer",
-      "areaServed": {
-        "@type": "City",
-        "name": "Mumbai",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Maharashtra"
-        }
-      },
-      "provider": {
-        "@type": "LocalBusiness",
-        "@id": "https://www.patronaccounting.com/#localbusiness",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg",
-        "telephone": "+91-9459456700",
-        "email": "sales@patronaccounting.com",
-        "areaServed": {
-          "@type": "City",
-          "name": "Mumbai"
-        }
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/imf-compliance-retainer-services/mumbai",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "minPrice": "24999",
-          "priceCurrency": "INR"
-        }
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness",
-      "name": "Patron Accounting LLP",
-      "description": "Chartered Accountant and Company Secretary firm providing IMF (Insurance Marketing Firm) annual compliance retainer services to IRDAI-registered firms in Mumbai, Maharashtra and across India.",
-      "url": "https://www.patronaccounting.com/",
-      "logo": "https://www.patronaccounting.com/images/site-logo.svg",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "telephone": "+91-9459456700",
-      "email": "sales@patronaccounting.com",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Mumbai",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Maharashtra"
-        }
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "IMF Services",
-          "item": "https://www.patronaccounting.com/imf-services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "IMF Compliance Retainer Services in Mumbai",
-          "item": "https://www.patronaccounting.com/imf-compliance-retainer-services/mumbai"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "datePublished": "2026-06-30T08:00:00+05:30",
-      "dateModified": "2026-06-30T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "How much does an IMF compliance retainer cost per year in Mumbai?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patron's annual IMF compliance retainer in Mumbai starts from INR 24,999 (Exl GST and Govt. Charges). The final fee depends on transaction volume, number of ISPs and insurer tie-ups. Government charges such as the CA net worth certificate and professional indemnity premium are separate and paid directly by the IMF."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What does the IMF compliance retainer cover?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The retainer covers periodic IRDAI returns on the imf.irda.gov.in portal, the annual CA net worth certificate (within 3 months of FY close), professional indemnity cover renewal tracking, maintenance of client/policy and complaints registers, ISP and Principal Officer records, fit-and-proper monitoring, premium and commission accounting, monthly insurer remuneration reconciliation and quarterly bank reconciliation."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does it take to get my IMF compliant under the retainer?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We begin within 1-2 working days of onboarding by reviewing your registration, past filings and books. Routine periodic returns and reconciliations are then handled on their statutory cycle; the annual net worth certificate is delivered within the 3-month window after the financial year closes."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What documents do you need to start the retainer in Mumbai?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Your IRDAI IMF registration certificate, imf.irda.gov.in portal login, incorporation documents (with 'Insurance Marketing Firm' in the name), insurer consent letters, ISP and Principal Officer certificates, current professional indemnity policy, SBI account statements and your premium/commission and bank records for the period."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is my IMF still eligible if registration is now perpetual?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Since 5 February 2026 IMF registration is perpetual, so the earlier 3-year renewal is discontinued, but annual compliance has not gone away. You must still file IRDAI returns, maintain net worth (INR 10 lakh, or INR 5 lakh for a single aspirational district), renew professional indemnity cover and keep ISP records, or risk suspension or cancellation."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can Patron help if I am already non-compliant or facing suspension?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. We review overdue returns, lapsed net worth certificates or expired PI cover, regularise the records on the IMF portal and put a forward compliance calendar in place to avoid suspension or cancellation and the Section 102 penalty exposure of up to INR 1 crore."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you provide IMF compliance retainer services in Mumbai?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. IRDAI compliance is filed online, so we serve registered IMFs across Mumbai and the wider Maharashtra region, as well as Pune, Delhi, Gurugram and Tier-2/Tier-3 districts, entirely remotely with documents shared digitally."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the turnaround for the annual net worth certificate and returns?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The annual CA net worth certificate is issued within 3 months of the financial year close, and periodic IRDAI returns are filed within their respective due dates. Accounts are typically finalised within two months of the financial year-end, with quarterly bank reconciliations done on schedule."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -911,7 +726,199 @@
             }
         }
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>IMF Compliance Retainer: IRDAI Returns &amp; Accounting</title>
+    <meta name="description" content="Annual IMF compliance retainer from INR 24,999 (Exl GST & Govt. Charges): IRDAI returns, net worth certificate, PI renewal, ISP records & premium accounting.">
+    <link rel="canonical" href="/imf-compliance-retainer-services/mumbai">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="IMF Compliance Retainer: IRDAI Returns & Accounting">
+    <meta property="og:description" content="Annual IMF compliance retainer in Mumbai from INR 24,999 (Exl GST & Govt. Charges): IRDAI returns, net worth certificate, PI renewal, ISP records & premium accounting.">
+    <meta property="og:url" content="/imf-compliance-retainer-services/mumbai">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="IMF Compliance Retainer: IRDAI Returns & Accounting">
+    <meta name="twitter:description" content="Annual IMF compliance retainer in Mumbai from INR 24,999 (Exl GST & Govt. Charges): IRDAI returns, net worth certificate, PI renewal, ISP records & premium accounting.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "IMF Compliance Retainer Services in Mumbai",
+      "description": "Annual IMF compliance retainer in Mumbai from INR 24,999 (Exl GST and Govt. Charges): IRDAI returns, CA net worth certificate, professional indemnity renewal, ISP records and premium accounting for IRDAI-registered Insurance Marketing Firms.",
+      "url": "https://www.patronaccounting.com/imf-compliance-retainer-services/mumbai",
+      "serviceType": "IMF Annual Compliance Retainer",
+      "areaServed": {
+        "@type": "City",
+        "name": "Mumbai",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Maharashtra"
+        }
+      },
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://www.patronaccounting.com/#localbusiness",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg",
+        "telephone": "+91-9459456700",
+        "email": "sales@patronaccounting.com",
+        "areaServed": {
+          "@type": "City",
+          "name": "Mumbai"
+        }
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.patronaccounting.com/imf-compliance-retainer-services/mumbai",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": "24999",
+          "priceCurrency": "INR"
+        }
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness",
+      "name": "Patron Accounting LLP",
+      "description": "Chartered Accountant and Company Secretary firm providing IMF (Insurance Marketing Firm) annual compliance retainer services to IRDAI-registered firms in Mumbai, Maharashtra and across India.",
+      "url": "https://www.patronaccounting.com/",
+      "logo": "https://www.patronaccounting.com/images/site-logo.svg",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "telephone": "+91-9459456700",
+      "email": "sales@patronaccounting.com",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Mumbai",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Maharashtra"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "IMF Services",
+          "item": "https://www.patronaccounting.com/imf-services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "IMF Compliance Retainer Services in Mumbai",
+          "item": "https://www.patronaccounting.com/imf-compliance-retainer-services/mumbai"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "datePublished": "2026-06-30T08:00:00+05:30",
+      "dateModified": "2026-06-30T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much does an IMF compliance retainer cost per year in Mumbai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patron's annual IMF compliance retainer in Mumbai starts from INR 24,999 (Exl GST and Govt. Charges). The final fee depends on transaction volume, number of ISPs and insurer tie-ups. Government charges such as the CA net worth certificate and professional indemnity premium are separate and paid directly by the IMF."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does the IMF compliance retainer cover?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The retainer covers periodic IRDAI returns on the imf.irda.gov.in portal, the annual CA net worth certificate (within 3 months of FY close), professional indemnity cover renewal tracking, maintenance of client/policy and complaints registers, ISP and Principal Officer records, fit-and-proper monitoring, premium and commission accounting, monthly insurer remuneration reconciliation and quarterly bank reconciliation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to get my IMF compliant under the retainer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We begin within 1-2 working days of onboarding by reviewing your registration, past filings and books. Routine periodic returns and reconciliations are then handled on their statutory cycle; the annual net worth certificate is delivered within the 3-month window after the financial year closes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What documents do you need to start the retainer in Mumbai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Your IRDAI IMF registration certificate, imf.irda.gov.in portal login, incorporation documents (with 'Insurance Marketing Firm' in the name), insurer consent letters, ISP and Principal Officer certificates, current professional indemnity policy, SBI account statements and your premium/commission and bank records for the period."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is my IMF still eligible if registration is now perpetual?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Since 5 February 2026 IMF registration is perpetual, so the earlier 3-year renewal is discontinued, but annual compliance has not gone away. You must still file IRDAI returns, maintain net worth (INR 10 lakh, or INR 5 lakh for a single aspirational district), renew professional indemnity cover and keep ISP records, or risk suspension or cancellation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can Patron help if I am already non-compliant or facing suspension?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We review overdue returns, lapsed net worth certificates or expired PI cover, regularise the records on the IMF portal and put a forward compliance calendar in place to avoid suspension or cancellation and the Section 102 penalty exposure of up to INR 1 crore."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you provide IMF compliance retainer services in Mumbai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. IRDAI compliance is filed online, so we serve registered IMFs across Mumbai and the wider Maharashtra region, as well as Pune, Delhi, Gurugram and Tier-2/Tier-3 districts, entirely remotely with documents shared digitally."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the turnaround for the annual net worth certificate and returns?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The annual CA net worth certificate is issued within 3 months of the financial year close, and periodic IRDAI returns are filed within their respective due dates. Accounts are typically finalised within two months of the financial year-end, with quarterly bank reconciliations done on schedule."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1756,7 +1763,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

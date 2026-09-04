@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,208 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>Tally to Odoo Migration Gurugram 2026 | Patron Accounting</title>
-    <meta name="description" content="Tally to Odoo ERP migration in Gurugram from INR 9,999. CA-led account mapping, l10n_in GST, Inventory and Sales apps, and a Tally-matched trial balance.">
-    <link rel="canonical" href="/migration-from-tally-to-odoo/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Tally to Odoo Migration Gurugram 2026 | Patron Accounting">
-    <meta property="og:description" content="Tally to Odoo ERP migration in Gurugram from INR 9,999. CA-led account mapping, l10n_in GST, Inventory and Sales apps, and a Tally-matched trial balance.">
-    <meta property="og:url" content="/migration-from-tally-to-odoo/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Tally to Odoo Migration Gurugram 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Tally to Odoo ERP migration in Gurugram from INR 9,999. CA-led account mapping, l10n_in GST, Inventory and Sales apps, and a Tally-matched trial balance.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/migration-from-tally-to-odoo/gurugram#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Tally to Odoo Migration",
-          "item": "https://www.patronaccounting.com/migration-from-tally-to-odoo"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Tally to Odoo Migration in Gurugram",
-          "item": "https://www.patronaccounting.com/migration-from-tally-to-odoo/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/migration-from-tally-to-odoo/gurugram#faq",
-      "datePublished": "2026-06-23T08:00:00+05:30",
-      "dateModified": "2026-06-23T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What does Tally to Odoo migration involve for a Gurugram business?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "It is the managed move of your accounting from Tally into the Odoo ERP. For Gurugram firms it spans chart mapping to Odoo's Schedule III template, opening balances, partner and product masters, historical data, l10n_in GST setup, the Accounting, Inventory, Sales, and Purchase apps, and a trial balance reconciled to Tally before go-live."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does Tally to Odoo migration cost in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patron Accounting begins at Starting from INR 9,999 (Exl GST and Govt. Charges). The final amount depends on years migrated, transaction volume, GSTINs, and which Odoo apps you switch on. A Cyber City ITES firm and a Manesar manufacturer each get a fixed-scope quote before work starts."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does Odoo handle GST after migrating from Tally?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Odoo runs GST on the l10n_in localization. Patron loads your Haryana GSTIN, sets HSN and SAC codes, and configures fiscal positions for intra-state and inter-state supply so CGST, SGST, and IGST apply automatically under the CGST Act 2017. GSTR-1 and GSTR-3B reporting is switched on for your Gurugram entity."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does a Tally to Odoo migration take in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Gurugram migrations usually take 2 to 4 weeks, since Odoo is a full ERP, not just a ledger. A Cyber City ITES firm on the Accounting app alone can be live in 10 to 12 days. A Manesar IMT manufacturer adding Inventory and Manufacturing across several GSTINs sits at the longer end."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Should we use Odoo Community or Enterprise after migration?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "It hinges on the workflow. Community ships the base l10n_in chart and GST determination, while Enterprise adds e-invoicing, GSTR JSON generation, and advanced bank reconciliation. Patron steers Gurugram clients to the right edition during scoping so a Cyber City or Udyog Vihar team does not pay for features it will not use."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do Tally ledgers, vouchers, and cost centres map into Odoo?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Odoo mirrors Tally structures: a ledger becomes an Account, a group an Account Type, a voucher a Journal Entry, and a cost centre an Analytic Account. Patron writes out this mapping head by head before import, so a Gurugram company keeps its reporting structure intact inside Odoo."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is migration accuracy verified for a Gurugram company?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patron compares the Odoo trial balance, profit and loss, and balance sheet with the same Tally statements, then sample-tests ledgers, stock valuation, and GST figures. A Chartered Accountant signs off only once Odoo matches Tally for the migrated period, so your Gurugram books are audit-ready from go-live."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you train our Gurugram team on the Odoo modules after go-live?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Once reconciliation is done, Patron runs a handover on Accounting invoicing, Inventory stock moves, Sales quotations, and GST reports for your Gurugram finance and operations teams. Each app gets a short reference guide, and we stay reachable so the move from Tally to a full ERP stays manageable."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/migration-from-tally-to-odoo/gurugram#service",
-      "name": "Tally to Odoo Migration in Gurugram",
-      "description": "Tally to Odoo ERP migration in Gurugram covering chart mapping to the Schedule III template, opening balances, partner and product masters, historical data, l10n_in GST configuration, and the Accounting, Inventory, Sales, and Purchase apps, with a reconciled trial balance. Patron Accounting delivers CA-verified, audit-ready Odoo databases for Cyber City, Udyog Vihar, and Manesar businesses.",
-      "serviceType": "Tally to Odoo ERP Data Migration",
-      "url": "https://www.patronaccounting.com/migration-from-tally-to-odoo/gurugram",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#localbusiness-gurugram"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Odoo",
-          "sameAs": "https://en.wikipedia.org/wiki/Odoo"
-        },
-        {
-          "@type": "Thing",
-          "name": "Goods and Services Tax (India)",
-          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Tally to Odoo Migration Plans in Gurugram",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "price": "9999",
-            "priceSpecification": {
-              "@type": "UnitPriceSpecification",
-              "priceCurrency": "INR",
-              "price": "9999",
-              "unitText": "starting from"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Tally to Odoo ERP Migration"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness-gurugram",
-      "name": "Patron Accounting LLP - Gurugram",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/migration-from-tally-to-odoo/gurugram",
-      "telephone": "+91-9699936369",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Gurugram",
-        "addressRegion": "Haryana",
-        "postalCode": "122002",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -815,7 +612,217 @@
         .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
 
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>Tally to Odoo Migration Gurugram 2026 | Patron Accounting</title>
+    <meta name="description" content="Tally to Odoo ERP migration in Gurugram from INR 9,999. CA-led account mapping, l10n_in GST, Inventory and Sales apps, and a Tally-matched trial balance.">
+    <link rel="canonical" href="/migration-from-tally-to-odoo/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Tally to Odoo Migration Gurugram 2026 | Patron Accounting">
+    <meta property="og:description" content="Tally to Odoo ERP migration in Gurugram from INR 9,999. CA-led account mapping, l10n_in GST, Inventory and Sales apps, and a Tally-matched trial balance.">
+    <meta property="og:url" content="/migration-from-tally-to-odoo/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Tally to Odoo Migration Gurugram 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Tally to Odoo ERP migration in Gurugram from INR 9,999. CA-led account mapping, l10n_in GST, Inventory and Sales apps, and a Tally-matched trial balance.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/migration-from-tally-to-odoo/gurugram#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Tally to Odoo Migration",
+          "item": "https://www.patronaccounting.com/migration-from-tally-to-odoo"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Tally to Odoo Migration in Gurugram",
+          "item": "https://www.patronaccounting.com/migration-from-tally-to-odoo/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/migration-from-tally-to-odoo/gurugram#faq",
+      "datePublished": "2026-06-23T08:00:00+05:30",
+      "dateModified": "2026-06-23T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does Tally to Odoo migration involve for a Gurugram business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is the managed move of your accounting from Tally into the Odoo ERP. For Gurugram firms it spans chart mapping to Odoo's Schedule III template, opening balances, partner and product masters, historical data, l10n_in GST setup, the Accounting, Inventory, Sales, and Purchase apps, and a trial balance reconciled to Tally before go-live."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does Tally to Odoo migration cost in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patron Accounting begins at Starting from INR 9,999 (Exl GST and Govt. Charges). The final amount depends on years migrated, transaction volume, GSTINs, and which Odoo apps you switch on. A Cyber City ITES firm and a Manesar manufacturer each get a fixed-scope quote before work starts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does Odoo handle GST after migrating from Tally?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Odoo runs GST on the l10n_in localization. Patron loads your Haryana GSTIN, sets HSN and SAC codes, and configures fiscal positions for intra-state and inter-state supply so CGST, SGST, and IGST apply automatically under the CGST Act 2017. GSTR-1 and GSTR-3B reporting is switched on for your Gurugram entity."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does a Tally to Odoo migration take in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gurugram migrations usually take 2 to 4 weeks, since Odoo is a full ERP, not just a ledger. A Cyber City ITES firm on the Accounting app alone can be live in 10 to 12 days. A Manesar IMT manufacturer adding Inventory and Manufacturing across several GSTINs sits at the longer end."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should we use Odoo Community or Enterprise after migration?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It hinges on the workflow. Community ships the base l10n_in chart and GST determination, while Enterprise adds e-invoicing, GSTR JSON generation, and advanced bank reconciliation. Patron steers Gurugram clients to the right edition during scoping so a Cyber City or Udyog Vihar team does not pay for features it will not use."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do Tally ledgers, vouchers, and cost centres map into Odoo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Odoo mirrors Tally structures: a ledger becomes an Account, a group an Account Type, a voucher a Journal Entry, and a cost centre an Analytic Account. Patron writes out this mapping head by head before import, so a Gurugram company keeps its reporting structure intact inside Odoo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is migration accuracy verified for a Gurugram company?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patron compares the Odoo trial balance, profit and loss, and balance sheet with the same Tally statements, then sample-tests ledgers, stock valuation, and GST figures. A Chartered Accountant signs off only once Odoo matches Tally for the migrated period, so your Gurugram books are audit-ready from go-live."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you train our Gurugram team on the Odoo modules after go-live?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Once reconciliation is done, Patron runs a handover on Accounting invoicing, Inventory stock moves, Sales quotations, and GST reports for your Gurugram finance and operations teams. Each app gets a short reference guide, and we stay reachable so the move from Tally to a full ERP stays manageable."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/migration-from-tally-to-odoo/gurugram#service",
+      "name": "Tally to Odoo Migration in Gurugram",
+      "description": "Tally to Odoo ERP migration in Gurugram covering chart mapping to the Schedule III template, opening balances, partner and product masters, historical data, l10n_in GST configuration, and the Accounting, Inventory, Sales, and Purchase apps, with a reconciled trial balance. Patron Accounting delivers CA-verified, audit-ready Odoo databases for Cyber City, Udyog Vihar, and Manesar businesses.",
+      "serviceType": "Tally to Odoo ERP Data Migration",
+      "url": "https://www.patronaccounting.com/migration-from-tally-to-odoo/gurugram",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#localbusiness-gurugram"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Odoo",
+          "sameAs": "https://en.wikipedia.org/wiki/Odoo"
+        },
+        {
+          "@type": "Thing",
+          "name": "Goods and Services Tax (India)",
+          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Tally to Odoo Migration Plans in Gurugram",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "price": "9999",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "INR",
+              "price": "9999",
+              "unitText": "starting from"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Tally to Odoo ERP Migration"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness-gurugram",
+      "name": "Patron Accounting LLP - Gurugram",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/migration-from-tally-to-odoo/gurugram",
+      "telephone": "+91-9699936369",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Gurugram",
+        "addressRegion": "Haryana",
+        "postalCode": "122002",
+        "addressCountry": "IN"
+      },
+      "parentOrganization": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1563,7 +1570,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

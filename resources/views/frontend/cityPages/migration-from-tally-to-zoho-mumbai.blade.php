@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,208 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>Tally to Zoho Migration in Mumbai 2026 | Patron Accounting</title>
-    <meta name="description" content="Shift from Tally to Zoho Books in Mumbai starting at INR 9,999. CA-led ledger mapping, opening balance tie-out, and GST e-invoicing for BKC and Andheri firms.">
-    <link rel="canonical" href="/tally-to-zoho-migration/mumbai">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Tally to Zoho Migration in Mumbai 2026 | Patron Accounting">
-    <meta property="og:description" content="Shift from Tally to Zoho Books in Mumbai starting at INR 9,999. CA-led ledger mapping, opening balance tie-out, and GST e-invoicing for BKC and Andheri firms.">
-    <meta property="og:url" content="/tally-to-zoho-migration/mumbai">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Tally to Zoho Migration in Mumbai 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Shift from Tally to Zoho Books in Mumbai starting at INR 9,999. CA-led ledger mapping, opening balance tie-out, and GST e-invoicing for BKC and Andheri firms.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/migration-from-tally-to-zoho/mumbai#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Migration from Tally to Zoho",
-          "item": "https://www.patronaccounting.com/migration-from-tally-to-zoho"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Tally to Zoho Migration in Mumbai",
-          "item": "https://www.patronaccounting.com/tally-to-zoho-migration/mumbai"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/migration-from-tally-to-zoho/mumbai#faq",
-      "datePublished": "2026-06-23T08:00:00+05:30",
-      "dateModified": "2026-06-23T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "How much does a Tally to Zoho Books migration cost in Mumbai?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patron Accounting starts Starting from INR 9,999 (Exl GST and Govt. Charges). Your final quote scales with the years of history carried over, the count of ledgers and GSTINs, stock volume, and whether you take Zoho Books on its own or the full Zoho One suite. BKC and Lower Parel firms receive a fixed quote upfront."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Will my opening balances and trial balance tie out once we are on Zoho Books?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Opening balances are keyed in from your Tally trial balance as on 31 March or your chosen cut-off, after which we confirm the Opening Balance Adjustment account in Zoho Books reads zero. A two-point trial balance tie-out between Tally and Zoho Books then proves the debits and credits agree before we sign off."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can you configure GST and e-invoicing inside Zoho Books while migrating?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. We finish the Zoho Books GST setup end to end: GSTIN entry, HSN and SAC codes, GSP connection, e-invoicing, reverse charge where relevant, and GSTR-2B reconciliation under the CGST Act 2017. Everything is live and tested before the first Zoho invoice leaves your office, so nothing breaks at go-live."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "We are a BKC firm with several GSTINs and branches. Can Zoho Books handle that?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. For multi-GSTIN groups across BKC, Lower Parel, and Andheri, we map each registration to its own Zoho Books organisation or branch, keep place-of-supply rules correct, and reconcile every GSTIN separately. Inter-branch entries and consolidated reporting are set up so your auditor sees a clean, registration-wise view across Maharashtra GST."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do auditors and lenders in Mumbai accept books kept in Zoho Books?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Zoho Books produces a standard trial balance, profit and loss, balance sheet, and audit trail that Mumbai auditors and bankers accept. Because we tie the migrated ledgers back to your Tally closing figures, the prior-year comparatives match. We also retain the original Tally file so statutory audit and assessments have a verifiable source."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can you carry warehouse stock from Tally into Zoho for a Bhiwandi unit?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. For Bhiwandi and Dombivli warehousing and distribution operations, we move item masters, opening stock quantities and values, and tax mappings into Zoho Books or Zoho Inventory. The migrated stock summary is matched line by line to your Tally closing position so valuation carries on seamlessly past the cut-off date."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is it possible to migrate to Zoho Books in the middle of the financial year?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. A mid-year switch is common for Mumbai firms. We freeze a cut-off date, lift opening balances as on that date from Tally, and reconstruct the transactions from 1 April to the cut-off so the full-year figures stay intact. GST returns continue without a gap, and the year still closes cleanly inside Zoho Books."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Should an Andheri media or SaaS team pick Zoho Books or the full Zoho One suite?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Zoho Books alone fits teams that only need accounting, GST, and bank feeds. An Andheri or Powai media house or SaaS team already on Zoho CRM or Zoho People usually gains from Zoho One, where Books, Inventory, Expense, and Payroll share a single ledger and login. Patron recommends the right edition during scoping."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/migration-from-tally-to-zoho/mumbai#service",
-      "name": "Tally to Zoho Migration in Mumbai",
-      "description": "Tally to Zoho Books migration in Mumbai shifts your chart of accounts, masters, opening balances, and historical transactions into Zoho Books with GST setup, automated bank feeds, and trial balance reconciliation. Patron Accounting handles ledger mapping and validation for BKC, Andheri, Powai, and Bhiwandi businesses.",
-      "serviceType": "Tally to Zoho Books Migration",
-      "url": "https://www.patronaccounting.com/tally-to-zoho-migration/mumbai",
-      "areaServed": {
-        "@type": "City",
-        "name": "Mumbai",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Maharashtra"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#localbusiness-mumbai"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Accounting software",
-          "sameAs": "https://en.wikipedia.org/wiki/Accounting_software"
-        },
-        {
-          "@type": "Thing",
-          "name": "Goods and Services Tax (India)",
-          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Tally to Zoho Migration Plans in Mumbai",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "price": "9999",
-            "priceSpecification": {
-              "@type": "UnitPriceSpecification",
-              "priceCurrency": "INR",
-              "price": "9999",
-              "unitText": "starting from"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Tally to Zoho Books Migration"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness-mumbai",
-      "name": "Patron Accounting LLP - Mumbai",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/tally-to-zoho-migration/mumbai",
-      "telephone": "+91-9699936369",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Mumbai"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Mumbai",
-        "addressRegion": "Maharashtra",
-        "postalCode": "400020",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -815,7 +612,217 @@
         .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
 
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>Tally to Zoho Migration in Mumbai 2026 | Patron Accounting</title>
+    <meta name="description" content="Shift from Tally to Zoho Books in Mumbai starting at INR 9,999. CA-led ledger mapping, opening balance tie-out, and GST e-invoicing for BKC and Andheri firms.">
+    <link rel="canonical" href="/tally-to-zoho-migration/mumbai">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Tally to Zoho Migration in Mumbai 2026 | Patron Accounting">
+    <meta property="og:description" content="Shift from Tally to Zoho Books in Mumbai starting at INR 9,999. CA-led ledger mapping, opening balance tie-out, and GST e-invoicing for BKC and Andheri firms.">
+    <meta property="og:url" content="/tally-to-zoho-migration/mumbai">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Tally to Zoho Migration in Mumbai 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Shift from Tally to Zoho Books in Mumbai starting at INR 9,999. CA-led ledger mapping, opening balance tie-out, and GST e-invoicing for BKC and Andheri firms.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/migration-from-tally-to-zoho/mumbai#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Migration from Tally to Zoho",
+          "item": "https://www.patronaccounting.com/migration-from-tally-to-zoho"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Tally to Zoho Migration in Mumbai",
+          "item": "https://www.patronaccounting.com/tally-to-zoho-migration/mumbai"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/migration-from-tally-to-zoho/mumbai#faq",
+      "datePublished": "2026-06-23T08:00:00+05:30",
+      "dateModified": "2026-06-23T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much does a Tally to Zoho Books migration cost in Mumbai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patron Accounting starts Starting from INR 9,999 (Exl GST and Govt. Charges). Your final quote scales with the years of history carried over, the count of ledgers and GSTINs, stock volume, and whether you take Zoho Books on its own or the full Zoho One suite. BKC and Lower Parel firms receive a fixed quote upfront."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will my opening balances and trial balance tie out once we are on Zoho Books?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Opening balances are keyed in from your Tally trial balance as on 31 March or your chosen cut-off, after which we confirm the Opening Balance Adjustment account in Zoho Books reads zero. A two-point trial balance tie-out between Tally and Zoho Books then proves the debits and credits agree before we sign off."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you configure GST and e-invoicing inside Zoho Books while migrating?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We finish the Zoho Books GST setup end to end: GSTIN entry, HSN and SAC codes, GSP connection, e-invoicing, reverse charge where relevant, and GSTR-2B reconciliation under the CGST Act 2017. Everything is live and tested before the first Zoho invoice leaves your office, so nothing breaks at go-live."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "We are a BKC firm with several GSTINs and branches. Can Zoho Books handle that?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. For multi-GSTIN groups across BKC, Lower Parel, and Andheri, we map each registration to its own Zoho Books organisation or branch, keep place-of-supply rules correct, and reconcile every GSTIN separately. Inter-branch entries and consolidated reporting are set up so your auditor sees a clean, registration-wise view across Maharashtra GST."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do auditors and lenders in Mumbai accept books kept in Zoho Books?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Zoho Books produces a standard trial balance, profit and loss, balance sheet, and audit trail that Mumbai auditors and bankers accept. Because we tie the migrated ledgers back to your Tally closing figures, the prior-year comparatives match. We also retain the original Tally file so statutory audit and assessments have a verifiable source."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you carry warehouse stock from Tally into Zoho for a Bhiwandi unit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. For Bhiwandi and Dombivli warehousing and distribution operations, we move item masters, opening stock quantities and values, and tax mappings into Zoho Books or Zoho Inventory. The migrated stock summary is matched line by line to your Tally closing position so valuation carries on seamlessly past the cut-off date."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is it possible to migrate to Zoho Books in the middle of the financial year?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. A mid-year switch is common for Mumbai firms. We freeze a cut-off date, lift opening balances as on that date from Tally, and reconstruct the transactions from 1 April to the cut-off so the full-year figures stay intact. GST returns continue without a gap, and the year still closes cleanly inside Zoho Books."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should an Andheri media or SaaS team pick Zoho Books or the full Zoho One suite?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Zoho Books alone fits teams that only need accounting, GST, and bank feeds. An Andheri or Powai media house or SaaS team already on Zoho CRM or Zoho People usually gains from Zoho One, where Books, Inventory, Expense, and Payroll share a single ledger and login. Patron recommends the right edition during scoping."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/migration-from-tally-to-zoho/mumbai#service",
+      "name": "Tally to Zoho Migration in Mumbai",
+      "description": "Tally to Zoho Books migration in Mumbai shifts your chart of accounts, masters, opening balances, and historical transactions into Zoho Books with GST setup, automated bank feeds, and trial balance reconciliation. Patron Accounting handles ledger mapping and validation for BKC, Andheri, Powai, and Bhiwandi businesses.",
+      "serviceType": "Tally to Zoho Books Migration",
+      "url": "https://www.patronaccounting.com/tally-to-zoho-migration/mumbai",
+      "areaServed": {
+        "@type": "City",
+        "name": "Mumbai",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Maharashtra"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#localbusiness-mumbai"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Accounting software",
+          "sameAs": "https://en.wikipedia.org/wiki/Accounting_software"
+        },
+        {
+          "@type": "Thing",
+          "name": "Goods and Services Tax (India)",
+          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Tally to Zoho Migration Plans in Mumbai",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "price": "9999",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "INR",
+              "price": "9999",
+              "unitText": "starting from"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Tally to Zoho Books Migration"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness-mumbai",
+      "name": "Patron Accounting LLP - Mumbai",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/tally-to-zoho-migration/mumbai",
+      "telephone": "+91-9699936369",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Mumbai"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Mumbai",
+        "addressRegion": "Maharashtra",
+        "postalCode": "400020",
+        "addressCountry": "IN"
+      },
+      "parentOrganization": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1562,7 +1569,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

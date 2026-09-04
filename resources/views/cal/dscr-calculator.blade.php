@@ -1,194 +1,8 @@
 @extends('layouts.app')
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
-@section('meta')
-    <title>DSCR Calculator | Debt Service Coverage Ratio</title>
-    <meta name="description" content="Free DSCR calculator: compute Debt Service Coverage Ratio per Schedule III &amp; ICAI norms, with bank covenant benchmarks and project finance views. CA tool!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/dscr-calculator">
-    <meta property="og:title" content="DSCR Calculator — Schedule III India FY 2025-26">
-    <meta property="og:description" content="Compute DSCR per ICAI Schedule III Guidance Note. Bank covenant comparison (1.25 / 1.5 / 2.0), project finance DSCR, sample disclosure format. Free CA-reviewed tool.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/dscr-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="DSCR Calculator — Schedule III India FY 2025-26">
-    <meta name="twitter:description" content="DSCR with bank covenant benchmarks (1.25 / 1.5 / 2.0), Schedule III disclosure format, project finance views. Free CA tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-    <meta name="theme-color" content="#15365f">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebApplication",
-      "name": "DSCR Calculator (Debt Service Coverage Ratio)",
-      "description": "DSCR Calculator computes the Debt Service Coverage Ratio of an Indian company per Schedule III to the Companies Act, 2013 and the ICAI Guidance Note. The tool supports two modes: Schedule III mode (all interest, all principal, all lease payments) and Banking mode (long-term debt servicing only, used in bank loan covenants). Inputs include net profit after tax, depreciation and amortisation, interest expense, other non-cash expenses, principal repayments, and lease payments under Ind AS 116. Output includes the headline DSCR, earnings available for debt service, total debt service, color-coded leverage verdict against bank covenant benchmarks of 1.25 (standard), 1.5 (conservative) and 2.0 (strong), sector benchmark comparison across manufacturing, services, IT, project finance, real estate, NBFC and trading, year-over-year variance flagged against the 25 per cent Schedule III explanation threshold, sample Schedule III disclosure format with numerator and denominator definitions, project finance Average DSCR commentary, and SEBI LODR Regulation 34 (3) MDA disclosure guidance for listed entities.",
-      "url": "https://www.patronaccounting.com/tools/dscr-calculator",
-      "applicationCategory": "FinanceApplication",
-      "operatingSystem": "Any",
-      "datePublished": "2026-05-07T08:00:00+05:30",
-      "dateModified": "2026-05-19T08:00:00+05:30",
-      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
-      "author": {
-        "@type": "Person",
-        "@id": "https://patronaccounting.com/#founder",
-        "name": "CA Sundram Gupta",
-        "jobTitle": "Founder & Chartered Accountant",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Institute of Chartered Accountants of India",
-            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-          }
-        }]
-      },
-      "publisher": { "@id": "https://patronaccounting.com/#organization" },
-      "provider": {"@id": "https://patronaccounting.com/#organization"}
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "DSCR Calculator", "item": "https://www.patronaccounting.com/tools/dscr-calculator"}
-      ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is the Debt Service Coverage Ratio (DSCR)?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The Debt Service Coverage Ratio is a profitability-based solvency metric that compares earnings available for debt service to scheduled debt servicing for the year. It tells lenders, auditors and management whether operating earnings can cover interest plus principal plus lease repayments due in the period. A DSCR above 1.0 means earnings exceed debt service; below 1.0 signals shortfall. Banks typically require DSCR above 1.25 as a loan covenant for term loans in India."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the formula for DSCR under Schedule III in India?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Per the ICAI Guidance Note on Schedule III to the Companies Act, 2013, DSCR equals Earnings Available for Debt Service divided by Debt Service. Numerator = Net Profit After Tax plus Non-cash Operating Expenses (mainly Depreciation and Amortisation) plus Interest Expense plus Other Adjustments such as loss on sale of fixed assets. Denominator = Interest plus Lease Payments plus Principal Repayments due during the year. Net Profit After Tax excludes other comprehensive income items."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is DSCR disclosure mandatory in Indian financial statements?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Pursuant to MCA notification G.S.R. 207(E) dated 24 March 2021 amending Schedule III, every company under Division I, II and III must disclose eleven analytical ratios including DSCR in the notes to financial statements from FY 2021-22 onwards. The company must explain the items used in numerator and denominator, and provide a written explanation if the ratio changes by more than 25 per cent compared to the previous year. Statutory auditors verify both the calculation and the explanation."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is considered a good DSCR ratio in India?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Indian banks and financial institutions typically require a minimum DSCR of 1.25 to 1.50 for new term loans. A DSCR between 1.5 and 2.0 is considered comfortable, while above 2.0 indicates strong serviceability. Below 1.25 raises lender concern and below 1.0 means operating earnings cannot cover debt service without external funding. Project finance lenders look for Average DSCR above 1.30 with a minimum period DSCR floor of 1.10. Sector context matters significantly."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between Schedule III DSCR and Banking DSCR?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Schedule III DSCR uses all interest, all principal repayments and all lease payments in the denominator and the full earnings before interest and tax including non-operating items in the numerator. Banking DSCR is restricted to long-term debt servicing only, excluding short-term working capital interest from both sides. The two ratios can differ materially for companies with large cash credit utilisation. Always check whether your loan covenant references Schedule III DSCR or banking DSCR."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Should lease payments be included in DSCR calculation?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, under the ICAI Guidance Note on Schedule III, lease payments are explicitly included in the denominator alongside interest and principal repayments. This treatment captures the cash outflow burden of operating and finance leases recognised under Ind AS 116. Excluding lease payments would understate the debt service obligation. For companies with material lease portfolios such as airlines, retail chains and logistics, lease inclusion materially changes DSCR compared to pre-Ind AS 116 calculations."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is Average DSCR in project finance?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Average DSCR in project finance is the simple arithmetic mean of period DSCRs over the entire loan tenor. Lenders typically require Average DSCR above 1.30 along with a minimum period DSCR floor of 1.10 to ensure the project can service debt even in weak years. The metric is computed during financial closure using a project finance model with detailed annual cash flow projections, sensitivity analysis under P50, P75 and P90 scenarios, and approved by the lead bank's project appraisal team."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does DSCR differ from Interest Coverage Ratio?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Interest Coverage Ratio measures EBIT divided by interest expense alone — it tests if operating profit can cover interest payments. DSCR is broader, including principal repayments and lease payments in the denominator, testing whether cash earnings can cover total debt service. A company can have strong interest coverage of 4.0 but weak DSCR of 1.1 if principal repayments are large in the year. Lenders use both ratios — interest coverage for early-warning monitoring, DSCR for serviceability."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can DSCR be negative or below 1.0?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. A DSCR below 1.0 means earnings available for debt service are insufficient to cover scheduled debt repayments — the company must draw on cash reserves, fresh debt or equity to bridge the gap. A negative DSCR occurs when earnings available for debt service is itself negative, indicating operating losses even after adding back depreciation and interest. Both signal financial stress, may trigger SMA classification by banks, covenant breach, and possible RBI restructuring discussions or NCLT proceedings under IBC."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do listed companies need to disclose DSCR separately under SEBI rules?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Listed companies must disclose key financial ratios including DSCR in the Management Discussion and Analysis section of the annual report under SEBI LODR Regulation 34(3) read with Schedule V Part B. Companies with listed non-convertible debentures additionally disclose DSCR along with debt-equity ratio and asset cover ratio in half-yearly disclosures under Regulation 52, certified by the statutory auditor. The Schedule III note disclosure and SEBI MDA disclosure should be reconcilable to maintain consistency."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do I need to explain a DSCR change of more than 25 per cent?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Schedule III as amended on 24 March 2021 mandates that any change in the eleven prescribed ratios by more than 25 per cent versus the preceding year must carry a narrative explanation in the notes to accounts. Common DSCR explanations include balloon principal repayment falling due, decline in operating profit, fresh debt drawdown increasing interest cost, debt prepayment from IPO proceeds, or first-time application of Ind AS 116 with lease payments now included."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is DSCR calculated for new project term loan applications?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "For new term loans, banks compute Projected DSCR using forward-looking cash flow estimates over the loan tenor. The numerator is projected EBITDA less tax less working capital changes; the denominator is projected interest plus scheduled principal repayments per the loan amortisation schedule. Bank appraisal teams stress-test these projections under base case, downside and severe scenarios. The minimum acceptable Average DSCR is typically 1.30 to 1.50 depending on the project, sector and security cover offered to the lender."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Where on the financial statements do I find numbers for DSCR?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Net Profit After Tax is the bottom line of the Statement of Profit and Loss. Depreciation and amortisation is disclosed above PBT as a separate line. Interest expense sits within finance costs in the P&L. Principal repayments come from the borrowings note plus the cash flow statement under financing activities. Lease payments are disclosed in the Ind AS 116 lease note. Auditors agree these figures during statutory audit before signing off the Schedule III disclosure."
-          }
-        }
-      ]
-    }
-    </script>
-@endsection
-
 <style>
         :root {
             --primary: #15365f;
@@ -473,7 +287,193 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 }
 
 </style>
+@endpush
 
+@section('meta')
+    <title>DSCR Calculator | Debt Service Coverage Ratio</title>
+    <meta name="description" content="Free DSCR calculator: compute Debt Service Coverage Ratio per Schedule III &amp; ICAI norms, with bank covenant benchmarks and project finance views. CA tool!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/dscr-calculator">
+    <meta property="og:title" content="DSCR Calculator — Schedule III India FY 2025-26">
+    <meta property="og:description" content="Compute DSCR per ICAI Schedule III Guidance Note. Bank covenant comparison (1.25 / 1.5 / 2.0), project finance DSCR, sample disclosure format. Free CA-reviewed tool.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/dscr-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="DSCR Calculator — Schedule III India FY 2025-26">
+    <meta name="twitter:description" content="DSCR with bank covenant benchmarks (1.25 / 1.5 / 2.0), Schedule III disclosure format, project finance views. Free CA tool.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+    <meta name="theme-color" content="#15365f">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "DSCR Calculator (Debt Service Coverage Ratio)",
+      "description": "DSCR Calculator computes the Debt Service Coverage Ratio of an Indian company per Schedule III to the Companies Act, 2013 and the ICAI Guidance Note. The tool supports two modes: Schedule III mode (all interest, all principal, all lease payments) and Banking mode (long-term debt servicing only, used in bank loan covenants). Inputs include net profit after tax, depreciation and amortisation, interest expense, other non-cash expenses, principal repayments, and lease payments under Ind AS 116. Output includes the headline DSCR, earnings available for debt service, total debt service, color-coded leverage verdict against bank covenant benchmarks of 1.25 (standard), 1.5 (conservative) and 2.0 (strong), sector benchmark comparison across manufacturing, services, IT, project finance, real estate, NBFC and trading, year-over-year variance flagged against the 25 per cent Schedule III explanation threshold, sample Schedule III disclosure format with numerator and denominator definitions, project finance Average DSCR commentary, and SEBI LODR Regulation 34 (3) MDA disclosure guidance for listed entities.",
+      "url": "https://www.patronaccounting.com/tools/dscr-calculator",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Any",
+      "datePublished": "2026-05-07T08:00:00+05:30",
+      "dateModified": "2026-05-19T08:00:00+05:30",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
+      "author": {
+        "@type": "Person",
+        "@id": "https://patronaccounting.com/#founder",
+        "name": "CA Sundram Gupta",
+        "jobTitle": "Founder & Chartered Accountant",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Institute of Chartered Accountants of India",
+            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+          }
+        }]
+      },
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": {"@id": "https://patronaccounting.com/#organization"}
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "DSCR Calculator", "item": "https://www.patronaccounting.com/tools/dscr-calculator"}
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the Debt Service Coverage Ratio (DSCR)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Debt Service Coverage Ratio is a profitability-based solvency metric that compares earnings available for debt service to scheduled debt servicing for the year. It tells lenders, auditors and management whether operating earnings can cover interest plus principal plus lease repayments due in the period. A DSCR above 1.0 means earnings exceed debt service; below 1.0 signals shortfall. Banks typically require DSCR above 1.25 as a loan covenant for term loans in India."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the formula for DSCR under Schedule III in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Per the ICAI Guidance Note on Schedule III to the Companies Act, 2013, DSCR equals Earnings Available for Debt Service divided by Debt Service. Numerator = Net Profit After Tax plus Non-cash Operating Expenses (mainly Depreciation and Amortisation) plus Interest Expense plus Other Adjustments such as loss on sale of fixed assets. Denominator = Interest plus Lease Payments plus Principal Repayments due during the year. Net Profit After Tax excludes other comprehensive income items."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is DSCR disclosure mandatory in Indian financial statements?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Pursuant to MCA notification G.S.R. 207(E) dated 24 March 2021 amending Schedule III, every company under Division I, II and III must disclose eleven analytical ratios including DSCR in the notes to financial statements from FY 2021-22 onwards. The company must explain the items used in numerator and denominator, and provide a written explanation if the ratio changes by more than 25 per cent compared to the previous year. Statutory auditors verify both the calculation and the explanation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is considered a good DSCR ratio in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Indian banks and financial institutions typically require a minimum DSCR of 1.25 to 1.50 for new term loans. A DSCR between 1.5 and 2.0 is considered comfortable, while above 2.0 indicates strong serviceability. Below 1.25 raises lender concern and below 1.0 means operating earnings cannot cover debt service without external funding. Project finance lenders look for Average DSCR above 1.30 with a minimum period DSCR floor of 1.10. Sector context matters significantly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between Schedule III DSCR and Banking DSCR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Schedule III DSCR uses all interest, all principal repayments and all lease payments in the denominator and the full earnings before interest and tax including non-operating items in the numerator. Banking DSCR is restricted to long-term debt servicing only, excluding short-term working capital interest from both sides. The two ratios can differ materially for companies with large cash credit utilisation. Always check whether your loan covenant references Schedule III DSCR or banking DSCR."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should lease payments be included in DSCR calculation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, under the ICAI Guidance Note on Schedule III, lease payments are explicitly included in the denominator alongside interest and principal repayments. This treatment captures the cash outflow burden of operating and finance leases recognised under Ind AS 116. Excluding lease payments would understate the debt service obligation. For companies with material lease portfolios such as airlines, retail chains and logistics, lease inclusion materially changes DSCR compared to pre-Ind AS 116 calculations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Average DSCR in project finance?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Average DSCR in project finance is the simple arithmetic mean of period DSCRs over the entire loan tenor. Lenders typically require Average DSCR above 1.30 along with a minimum period DSCR floor of 1.10 to ensure the project can service debt even in weak years. The metric is computed during financial closure using a project finance model with detailed annual cash flow projections, sensitivity analysis under P50, P75 and P90 scenarios, and approved by the lead bank's project appraisal team."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does DSCR differ from Interest Coverage Ratio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Interest Coverage Ratio measures EBIT divided by interest expense alone — it tests if operating profit can cover interest payments. DSCR is broader, including principal repayments and lease payments in the denominator, testing whether cash earnings can cover total debt service. A company can have strong interest coverage of 4.0 but weak DSCR of 1.1 if principal repayments are large in the year. Lenders use both ratios — interest coverage for early-warning monitoring, DSCR for serviceability."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can DSCR be negative or below 1.0?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. A DSCR below 1.0 means earnings available for debt service are insufficient to cover scheduled debt repayments — the company must draw on cash reserves, fresh debt or equity to bridge the gap. A negative DSCR occurs when earnings available for debt service is itself negative, indicating operating losses even after adding back depreciation and interest. Both signal financial stress, may trigger SMA classification by banks, covenant breach, and possible RBI restructuring discussions or NCLT proceedings under IBC."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do listed companies need to disclose DSCR separately under SEBI rules?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Listed companies must disclose key financial ratios including DSCR in the Management Discussion and Analysis section of the annual report under SEBI LODR Regulation 34(3) read with Schedule V Part B. Companies with listed non-convertible debentures additionally disclose DSCR along with debt-equity ratio and asset cover ratio in half-yearly disclosures under Regulation 52, certified by the statutory auditor. The Schedule III note disclosure and SEBI MDA disclosure should be reconcilable to maintain consistency."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need to explain a DSCR change of more than 25 per cent?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Schedule III as amended on 24 March 2021 mandates that any change in the eleven prescribed ratios by more than 25 per cent versus the preceding year must carry a narrative explanation in the notes to accounts. Common DSCR explanations include balloon principal repayment falling due, decline in operating profit, fresh debt drawdown increasing interest cost, debt prepayment from IPO proceeds, or first-time application of Ind AS 116 with lease payments now included."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is DSCR calculated for new project term loan applications?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For new term loans, banks compute Projected DSCR using forward-looking cash flow estimates over the loan tenor. The numerator is projected EBITDA less tax less working capital changes; the denominator is projected interest plus scheduled principal repayments per the loan amortisation schedule. Bank appraisal teams stress-test these projections under base case, downside and severe scenarios. The minimum acceptable Average DSCR is typically 1.30 to 1.50 depending on the project, sector and security cover offered to the lender."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where on the financial statements do I find numbers for DSCR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Net Profit After Tax is the bottom line of the Statement of Profit and Loss. Depreciation and amortisation is disclosed above PBT as a separate line. Interest expense sits within finance costs in the P&L. Principal repayments come from the borrowings note plus the cash flow statement under financing activities. Lease payments are disclosed in the Ind AS 116 lease note. Auditors agree these figures during statutory audit before signing off the Schedule III disclosure."
+          }
+        }
+      ]
+    }
+    </script>
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation">
     <div class="toc-nav-inner">

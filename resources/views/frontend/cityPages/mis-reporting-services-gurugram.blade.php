@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,208 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>MIS Reporting Services in Gurugram 2026 | Patron Accounting</title>
-    <meta name="description" content="CA-built MIS dashboards for Cyber City and Manesar firms from INR 4,999/mo. Monthly, quarterly board packs with cash flow, KPI and margin analysis.">
-    <link rel="canonical" href="/mis-reporting-services/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="MIS Reporting Services in Gurugram 2026 | Patron Accounting">
-    <meta property="og:description" content="CA-built MIS dashboards for Cyber City and Manesar firms from INR 4,999/mo. Monthly, quarterly board packs with cash flow, KPI and margin analysis.">
-    <meta property="og:url" content="/mis-reporting-services/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="MIS Reporting Services in Gurugram 2026 | Patron Accounting">
-    <meta name="twitter:description" content="CA-built MIS dashboards for Cyber City and Manesar firms from INR 4,999/mo. Monthly, quarterly board packs with cash flow, KPI and margin analysis.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/mis-reporting-services/gurugram#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "MIS Reporting Services",
-          "item": "https://www.patronaccounting.com/mis-reporting-services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "MIS Reporting Services in Gurugram",
-          "item": "https://www.patronaccounting.com/mis-reporting-services/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/mis-reporting-services/gurugram#faq",
-      "datePublished": "2026-06-23T08:00:00+05:30",
-      "dateModified": "2026-06-23T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Why do Cyber City and Manesar businesses in Gurugram rely on MIS reporting?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Think of MIS reporting as the management lens over your ledgers. Delivered every month and quarter, it converts bookkeeping into something a Gurugram founder or CFO can steer by: P&L against plan, cash position, AR and AP ageing, and trending KPIs. A Cyber City GCC sees cost per FTE; a Manesar supplier watches OEM receivables. You lead with evidence, not hunches."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What does monthly MIS reporting in Gurugram cost?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Plans open at Starting from INR 4,999/mo (Exl GST and Govt. Charges). Where your quote lands depends on entity count, the spread of revenue lines, how many cost centres you run, and the depth of dashboard customisation. Every Gurugram startup and SME gets a locked monthly scope plus a sample pack to review before anything is signed."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which statements sit inside a monthly Gurugram MIS pack?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Each monthly pack carries a profit and loss with variance to budget, a cash flow summary, a balance sheet snapshot, receivables and payables ageing, expense plus cost-centre breakdowns, and a single-page KPI dashboard. Come quarter end, we layer on ratio analysis, segment views by Cyber City or Manesar unit, and written board commentary."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is MIS reporting different from plain bookkeeping?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Bookkeeping captures what happened; MIS explains what it means. Our Gurugram workflow locks and reconciles the ledgers first, then layers analysis on top: variances, ratios, cash movement, and KPI dashboards that point to where attention is needed next. The output is shaped for founders and boards, not for accountants buried in transaction detail."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "When will my Gurugram MIS pack land after month end?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Once bank and ledger reconciliations are signed off, most Gurugram clients have the monthly pack in hand inside 5 to 7 working days of close. Quarterly board packs follow within 10 working days of quarter end. We agree this calendar during onboarding, so the cadence stays predictable for Udyog Vihar and Manesar teams alike."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can the MIS pack be shaped for a Cyber City GCC or a board?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Absolutely. We build the pack around its reader: a lean KPI dashboard for founders, granular variance and cash schedules for CFOs and finance teams, and a polished board or investor edition for raises. Cyber City GCCs and SaaS clients get entity-wise consolidation, cost per FTE, burn, runway, MRR, and unit economics folded in."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What software powers the dashboards you deliver in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We pull straight from whatever you already run, Tally, Zoho Books, QuickBooks, or Xero, and render the output in Excel, Google Sheets, Power BI, or Zoho Analytics to suit your team. Because the link is to your live ledgers, each Gurugram cycle refreshes cleanly with no manual re-entry and no version drift."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Are quarterly packs useful for raising funds in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Very. The quarterly edition is purpose-built for boards and investors: ratio analysis, segment and cost-centre reporting, budget versus actual, and a narrative on results and outlook. For Gurugram startups heading into a round, we shape the pack to match diligence checklists so your data room is review-ready from day one."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/mis-reporting-services/gurugram#service",
-      "name": "MIS Reporting Services in Gurugram",
-      "description": "Monthly and quarterly MIS reporting in Gurugram by Patron Accounting. CA-built management dashboards, P&L versus budget, cash flow, ratio analysis, receivables and payables ageing, cost-centre and KPI packs for founders, CFOs, boards, and investors.",
-      "serviceType": "Management Information System (MIS) Reporting",
-      "url": "https://www.patronaccounting.com/mis-reporting-services/gurugram",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#localbusiness-gurugram"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Management information system",
-          "sameAs": "https://en.wikipedia.org/wiki/Management_information_system"
-        },
-        {
-          "@type": "Thing",
-          "name": "Financial statement",
-          "sameAs": "https://en.wikipedia.org/wiki/Financial_statement"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "MIS Reporting Plans in Gurugram",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "price": "4999",
-            "priceSpecification": {
-              "@type": "UnitPriceSpecification",
-              "priceCurrency": "INR",
-              "price": "4999",
-              "unitText": "per month"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Monthly MIS Reporting Pack"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness-gurugram",
-      "name": "Patron Accounting LLP - Gurugram",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/mis-reporting-services/gurugram",
-      "telephone": "+91-9699936369",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Gurugram",
-        "addressRegion": "Haryana",
-        "postalCode": "122002",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -830,7 +627,217 @@
         .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
 
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>MIS Reporting Services in Gurugram 2026 | Patron Accounting</title>
+    <meta name="description" content="CA-built MIS dashboards for Cyber City and Manesar firms from INR 4,999/mo. Monthly, quarterly board packs with cash flow, KPI and margin analysis.">
+    <link rel="canonical" href="/mis-reporting-services/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="MIS Reporting Services in Gurugram 2026 | Patron Accounting">
+    <meta property="og:description" content="CA-built MIS dashboards for Cyber City and Manesar firms from INR 4,999/mo. Monthly, quarterly board packs with cash flow, KPI and margin analysis.">
+    <meta property="og:url" content="/mis-reporting-services/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="MIS Reporting Services in Gurugram 2026 | Patron Accounting">
+    <meta name="twitter:description" content="CA-built MIS dashboards for Cyber City and Manesar firms from INR 4,999/mo. Monthly, quarterly board packs with cash flow, KPI and margin analysis.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/mis-reporting-services/gurugram#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "MIS Reporting Services",
+          "item": "https://www.patronaccounting.com/mis-reporting-services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "MIS Reporting Services in Gurugram",
+          "item": "https://www.patronaccounting.com/mis-reporting-services/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/mis-reporting-services/gurugram#faq",
+      "datePublished": "2026-06-23T08:00:00+05:30",
+      "dateModified": "2026-06-23T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why do Cyber City and Manesar businesses in Gurugram rely on MIS reporting?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Think of MIS reporting as the management lens over your ledgers. Delivered every month and quarter, it converts bookkeeping into something a Gurugram founder or CFO can steer by: P&L against plan, cash position, AR and AP ageing, and trending KPIs. A Cyber City GCC sees cost per FTE; a Manesar supplier watches OEM receivables. You lead with evidence, not hunches."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does monthly MIS reporting in Gurugram cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Plans open at Starting from INR 4,999/mo (Exl GST and Govt. Charges). Where your quote lands depends on entity count, the spread of revenue lines, how many cost centres you run, and the depth of dashboard customisation. Every Gurugram startup and SME gets a locked monthly scope plus a sample pack to review before anything is signed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which statements sit inside a monthly Gurugram MIS pack?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Each monthly pack carries a profit and loss with variance to budget, a cash flow summary, a balance sheet snapshot, receivables and payables ageing, expense plus cost-centre breakdowns, and a single-page KPI dashboard. Come quarter end, we layer on ratio analysis, segment views by Cyber City or Manesar unit, and written board commentary."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is MIS reporting different from plain bookkeeping?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bookkeeping captures what happened; MIS explains what it means. Our Gurugram workflow locks and reconciles the ledgers first, then layers analysis on top: variances, ratios, cash movement, and KPI dashboards that point to where attention is needed next. The output is shaped for founders and boards, not for accountants buried in transaction detail."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When will my Gurugram MIS pack land after month end?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Once bank and ledger reconciliations are signed off, most Gurugram clients have the monthly pack in hand inside 5 to 7 working days of close. Quarterly board packs follow within 10 working days of quarter end. We agree this calendar during onboarding, so the cadence stays predictable for Udyog Vihar and Manesar teams alike."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can the MIS pack be shaped for a Cyber City GCC or a board?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. We build the pack around its reader: a lean KPI dashboard for founders, granular variance and cash schedules for CFOs and finance teams, and a polished board or investor edition for raises. Cyber City GCCs and SaaS clients get entity-wise consolidation, cost per FTE, burn, runway, MRR, and unit economics folded in."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What software powers the dashboards you deliver in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We pull straight from whatever you already run, Tally, Zoho Books, QuickBooks, or Xero, and render the output in Excel, Google Sheets, Power BI, or Zoho Analytics to suit your team. Because the link is to your live ledgers, each Gurugram cycle refreshes cleanly with no manual re-entry and no version drift."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are quarterly packs useful for raising funds in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Very. The quarterly edition is purpose-built for boards and investors: ratio analysis, segment and cost-centre reporting, budget versus actual, and a narrative on results and outlook. For Gurugram startups heading into a round, we shape the pack to match diligence checklists so your data room is review-ready from day one."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/mis-reporting-services/gurugram#service",
+      "name": "MIS Reporting Services in Gurugram",
+      "description": "Monthly and quarterly MIS reporting in Gurugram by Patron Accounting. CA-built management dashboards, P&L versus budget, cash flow, ratio analysis, receivables and payables ageing, cost-centre and KPI packs for founders, CFOs, boards, and investors.",
+      "serviceType": "Management Information System (MIS) Reporting",
+      "url": "https://www.patronaccounting.com/mis-reporting-services/gurugram",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#localbusiness-gurugram"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Management information system",
+          "sameAs": "https://en.wikipedia.org/wiki/Management_information_system"
+        },
+        {
+          "@type": "Thing",
+          "name": "Financial statement",
+          "sameAs": "https://en.wikipedia.org/wiki/Financial_statement"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "MIS Reporting Plans in Gurugram",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "price": "4999",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "INR",
+              "price": "4999",
+              "unitText": "per month"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Monthly MIS Reporting Pack"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness-gurugram",
+      "name": "Patron Accounting LLP - Gurugram",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/mis-reporting-services/gurugram",
+      "telephone": "+91-9699936369",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Gurugram",
+        "addressRegion": "Haryana",
+        "postalCode": "122002",
+        "addressCountry": "IN"
+      },
+      "parentOrganization": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1578,7 +1585,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

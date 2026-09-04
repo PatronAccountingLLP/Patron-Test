@@ -1,160 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>DRC-01 and DRC-01A Reply 2026: GST SCN | Patron Accounting</title>
-    <meta name="description" content="DRC-01 SCN and DRC-01A pre-notice intimation response - 30-day window, DRC-03 payment, penalty optimization, DRC-06 reply. Patron from Rs 9,999.">
-    <link rel="canonical" href="/gst-drc-01-and-drc-01a-response">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="DRC-01 and DRC-01A Reply 2026: GST SCN | Patron Accounting">
-    <meta property="og:description" content="DRC-01 SCN and DRC-01A pre-notice intimation response - 30-day window, DRC-03 payment, penalty optimization, DRC-06 reply. Patron from Rs 9,999.">
-    <meta property="og:url" content="/gst-drc-01-and-drc-01a-response">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="DRC-01 and DRC-01A Reply 2026: GST SCN | Patron Accounting">
-    <meta name="twitter:description" content="DRC-01 SCN and DRC-01A pre-notice intimation response - 30-day window, DRC-03 payment, penalty optimization, DRC-06 reply. Patron from Rs 9,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/gst-drc-01-and-drc-01a-response/#service",
-        "name": "DRC-01 and DRC-01A Response and Reply Service in India",
-        "description": "Form-procedural workflow service for GST DRC-01 Show Cause Notice and DRC-01A pre-Show Cause Notice intimation response covering Day-1 form analysis within 24 hours, DRC-01A three-part structure handling (Part A officer intimation, Part B taxpayer reply, Part C closure) under Section 73(5), 74(5), and 74A(8) of the CGST Act, DRC-01 formal SCN response under Rule 142(1)(a) with rigid 30-day DRC-06 reply window management, strategic Form DRC-03 voluntary payment Cause-of-Payment selection across 11 options, penalty optimization from zero percent pre-SCN to 100 percent under Section 74(11), Form DRC-03A retroactive payment mapping, DRC-04 acknowledgement and DRC-05 closure pursuit, and DRC-08 rectification under Section 161, starting from INR 9,999 per form engagement.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-drc-01-and-drc-01a-response" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [
-            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
-            { "@type": "Thing", "name": "Tax assessment", "sameAs": "https://en.wikipedia.org/wiki/Tax_assessment" }
-        ],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "DRC-01 and DRC-01A Response Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "DRC-01A Part B Reply with DRC-03 Payment",
-                    "priceCurrency": "INR",
-                    "price": "9999",
-                    "description": "Pre-SCN intimation response and voluntary payment optimization"
-                },
-                {
-                    "@type": "Offer",
-                    "name": "DRC-01 SCN Standard Response (Section 73)",
-                    "priceCurrency": "INR",
-                    "price": "14999",
-                    "description": "DRC-06 reply within 30 days with hearing representation"
-                },
-                {
-                    "@type": "Offer",
-                    "name": "DRC-01 SCN Standard Response (Section 74)",
-                    "priceCurrency": "INR",
-                    "price": "19999",
-                    "description": "DRC-06 with Section 75(2) downgrade arguments and hearing"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/gst-drc-01-and-drc-01a-response/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
-            { "@type": "ListItem", "position": 3, "name": "DRC-01 and DRC-01A Response", "item": "https://www.patronaccounting.com/gst-drc-01-and-drc-01a-response" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/gst-drc-01-and-drc-01a-response/#faq",
-        "datePublished": "2026-05-27T08:00:00+05:30",
-        "dateModified": "2026-06-01T08:00:00+05:30",
-        "mainEntity": [
-
-            {
-                "@type": "Question",
-                "name": "What is the difference between DRC-01 and DRC-01A?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "DRC-01A is the pre-Show Cause Notice intimation issued under Section 73(5), Section 74(5), or Section 74A(8) of the CGST Act - it gives the taxpayer an opportunity to pay voluntarily via DRC-03 before formal SCN proceedings begin. DRC-01A has three parts - Part A (officer intimation), Part B (taxpayer reply), Part C (closure order). DRC-01A is NOT mandatory before DRC-01. DRC-01 is the formal Show Cause Notice summary issued under Rule 142(1)(a) starting the rigid 30-day reply clock via DRC-06."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is Form DRC-03 and when should I use it?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Form DRC-03 is the voluntary payment form on the GST portal used to intimate payment of tax, interest, and penalty before issuance of SCN or within 30 days of SCN. It has 11 Cause-of-Payment options including Voluntary, SCN, Annual Return, Audit, Inspection, Scrutiny, Intimation under DRC-01A, GSTR-1 vs 3B mismatch, GSTR-2B vs 3B mismatch, Reconciliation Statement, and Others. Critical: DRC-03 cannot be amended or withdrawn once filed."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the 30-day window in DRC-01?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "The 30-day window from the date of service of DRC-01 SCN is the most critical timeline in the GST demand framework. Within this window, the taxpayer can file DRC-03 voluntary payment at the reduced post-SCN penalty rate - 10 percent under Section 73(8) or 25 percent under Section 74(8). Once 30 days lapse, this reduced-penalty route closes. The taxpayer must then proceed to DRC-06 reply, hearing, and DRC-07 order."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can I make a partial DRC-03 payment against an SCN?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "No. The GST portal does not allow partial DRC-03 payment against a specific Show Cause Notice - the taxpayer must pay the full demanded amount or none. This is a portal-level restriction under Rule 142(2). However, strategic structuring is possible - file DRC-03 with Cause Voluntary for the accepted portion before the SCN response deadline, then file DRC-06 contesting the balance in the SCN reply. The voluntary payment can later be mapped via DRC-03A if needed for offsetting."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What happens if I file DRC-03 with the wrong Cause of Payment?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "DRC-03 cannot be amended or withdrawn once filed - if the wrong Cause of Payment was selected, the payment does not get auto-linked to the specific demand order. The correction tool is Form DRC-03A - introduced specifically for retroactive mapping of payments to demand orders. The taxpayer files DRC-03A on the GST portal mapping the prior DRC-03 ARN to the specific demand order number. Without DRC-03A correction, the demand may still appear outstanding despite the payment."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Is DRC-01A mandatory before DRC-01 SCN?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "No, DRC-01A is NOT mandatory before DRC-01 SCN - it is at the officer discretion. In non-fraud Section 73 cases, officers typically issue DRC-01A first as a procedural courtesy and to allow taxpayer voluntary closure. In fraud Section 74 cases, officers often proceed directly to DRC-01 SCN bypassing DRC-01A. The Madras High Court has held that ASMT-10 scrutiny is mandatory before DRC-01 SCN on matters subject to scrutiny - but DRC-01A intimation does not have the same statutory mandate."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can the DRC-01 reply window be extended beyond 30 days?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, the 30-day DRC-06 reply window can be extended on written request to the proper officer - this is at the officer discretion under Section 73(2) or 74(2). Extension requests are commonly granted for complex multi-year, multi-issue SCNs requiring deep reconciliation - typically 30 to 60 additional days. However, the 30-day window for DRC-03 voluntary payment at the reduced post-SCN penalty rate is statutory and cannot be extended - it is fixed by Section 73(8) and 74(8)."
-                }
-            }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -768,7 +618,162 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>DRC-01 and DRC-01A Reply 2026: GST SCN | Patron Accounting</title>
+    <meta name="description" content="DRC-01 SCN and DRC-01A pre-notice intimation response - 30-day window, DRC-03 payment, penalty optimization, DRC-06 reply. Patron from Rs 9,999.">
+    <link rel="canonical" href="/gst-drc-01-and-drc-01a-response">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="DRC-01 and DRC-01A Reply 2026: GST SCN | Patron Accounting">
+    <meta property="og:description" content="DRC-01 SCN and DRC-01A pre-notice intimation response - 30-day window, DRC-03 payment, penalty optimization, DRC-06 reply. Patron from Rs 9,999.">
+    <meta property="og:url" content="/gst-drc-01-and-drc-01a-response">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="DRC-01 and DRC-01A Reply 2026: GST SCN | Patron Accounting">
+    <meta name="twitter:description" content="DRC-01 SCN and DRC-01A pre-notice intimation response - 30-day window, DRC-03 payment, penalty optimization, DRC-06 reply. Patron from Rs 9,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/gst-drc-01-and-drc-01a-response/#service",
+        "name": "DRC-01 and DRC-01A Response and Reply Service in India",
+        "description": "Form-procedural workflow service for GST DRC-01 Show Cause Notice and DRC-01A pre-Show Cause Notice intimation response covering Day-1 form analysis within 24 hours, DRC-01A three-part structure handling (Part A officer intimation, Part B taxpayer reply, Part C closure) under Section 73(5), 74(5), and 74A(8) of the CGST Act, DRC-01 formal SCN response under Rule 142(1)(a) with rigid 30-day DRC-06 reply window management, strategic Form DRC-03 voluntary payment Cause-of-Payment selection across 11 options, penalty optimization from zero percent pre-SCN to 100 percent under Section 74(11), Form DRC-03A retroactive payment mapping, DRC-04 acknowledgement and DRC-05 closure pursuit, and DRC-08 rectification under Section 161, starting from INR 9,999 per form engagement.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-drc-01-and-drc-01a-response" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [
+            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
+            { "@type": "Thing", "name": "Tax assessment", "sameAs": "https://en.wikipedia.org/wiki/Tax_assessment" }
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "DRC-01 and DRC-01A Response Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "DRC-01A Part B Reply with DRC-03 Payment",
+                    "priceCurrency": "INR",
+                    "price": "9999",
+                    "description": "Pre-SCN intimation response and voluntary payment optimization"
+                },
+                {
+                    "@type": "Offer",
+                    "name": "DRC-01 SCN Standard Response (Section 73)",
+                    "priceCurrency": "INR",
+                    "price": "14999",
+                    "description": "DRC-06 reply within 30 days with hearing representation"
+                },
+                {
+                    "@type": "Offer",
+                    "name": "DRC-01 SCN Standard Response (Section 74)",
+                    "priceCurrency": "INR",
+                    "price": "19999",
+                    "description": "DRC-06 with Section 75(2) downgrade arguments and hearing"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/gst-drc-01-and-drc-01a-response/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
+            { "@type": "ListItem", "position": 3, "name": "DRC-01 and DRC-01A Response", "item": "https://www.patronaccounting.com/gst-drc-01-and-drc-01a-response" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/gst-drc-01-and-drc-01a-response/#faq",
+        "datePublished": "2026-05-27T08:00:00+05:30",
+        "dateModified": "2026-06-01T08:00:00+05:30",
+        "mainEntity": [
+
+            {
+                "@type": "Question",
+                "name": "What is the difference between DRC-01 and DRC-01A?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "DRC-01A is the pre-Show Cause Notice intimation issued under Section 73(5), Section 74(5), or Section 74A(8) of the CGST Act - it gives the taxpayer an opportunity to pay voluntarily via DRC-03 before formal SCN proceedings begin. DRC-01A has three parts - Part A (officer intimation), Part B (taxpayer reply), Part C (closure order). DRC-01A is NOT mandatory before DRC-01. DRC-01 is the formal Show Cause Notice summary issued under Rule 142(1)(a) starting the rigid 30-day reply clock via DRC-06."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is Form DRC-03 and when should I use it?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Form DRC-03 is the voluntary payment form on the GST portal used to intimate payment of tax, interest, and penalty before issuance of SCN or within 30 days of SCN. It has 11 Cause-of-Payment options including Voluntary, SCN, Annual Return, Audit, Inspection, Scrutiny, Intimation under DRC-01A, GSTR-1 vs 3B mismatch, GSTR-2B vs 3B mismatch, Reconciliation Statement, and Others. Critical: DRC-03 cannot be amended or withdrawn once filed."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the 30-day window in DRC-01?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The 30-day window from the date of service of DRC-01 SCN is the most critical timeline in the GST demand framework. Within this window, the taxpayer can file DRC-03 voluntary payment at the reduced post-SCN penalty rate - 10 percent under Section 73(8) or 25 percent under Section 74(8). Once 30 days lapse, this reduced-penalty route closes. The taxpayer must then proceed to DRC-06 reply, hearing, and DRC-07 order."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can I make a partial DRC-03 payment against an SCN?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No. The GST portal does not allow partial DRC-03 payment against a specific Show Cause Notice - the taxpayer must pay the full demanded amount or none. This is a portal-level restriction under Rule 142(2). However, strategic structuring is possible - file DRC-03 with Cause Voluntary for the accepted portion before the SCN response deadline, then file DRC-06 contesting the balance in the SCN reply. The voluntary payment can later be mapped via DRC-03A if needed for offsetting."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What happens if I file DRC-03 with the wrong Cause of Payment?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "DRC-03 cannot be amended or withdrawn once filed - if the wrong Cause of Payment was selected, the payment does not get auto-linked to the specific demand order. The correction tool is Form DRC-03A - introduced specifically for retroactive mapping of payments to demand orders. The taxpayer files DRC-03A on the GST portal mapping the prior DRC-03 ARN to the specific demand order number. Without DRC-03A correction, the demand may still appear outstanding despite the payment."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is DRC-01A mandatory before DRC-01 SCN?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No, DRC-01A is NOT mandatory before DRC-01 SCN - it is at the officer discretion. In non-fraud Section 73 cases, officers typically issue DRC-01A first as a procedural courtesy and to allow taxpayer voluntary closure. In fraud Section 74 cases, officers often proceed directly to DRC-01 SCN bypassing DRC-01A. The Madras High Court has held that ASMT-10 scrutiny is mandatory before DRC-01 SCN on matters subject to scrutiny - but DRC-01A intimation does not have the same statutory mandate."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can the DRC-01 reply window be extended beyond 30 days?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, the 30-day DRC-06 reply window can be extended on written request to the proper officer - this is at the officer discretion under Section 73(2) or 74(2). Extension requests are commonly granted for complex multi-year, multi-issue SCNs requiring deep reconciliation - typically 30 to 60 additional days. However, the 30-day window for DRC-03 voluntary payment at the reduced post-SCN penalty rate is statutory and cannot be extended - it is fixed by Section 73(8) and 74(8)."
+                }
+            }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1744,17 +1749,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1777,8 +1775,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1815,7 +1811,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1826,4 +1821,20 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+
 

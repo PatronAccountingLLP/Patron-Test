@@ -1,146 +1,12 @@
 
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Net Worth Certificate for Ireland Visa in Mumbai 2026 | Patron Accounting</title>
-    <meta name="description" content="CA-certified net worth certificate for Ireland visa in INR and EUR with UDIN. Supports the ISD EUR 10,000 funds proof. Starting from INR 1,999.">
-    <link rel="canonical" href="/net-worth-certificate-for-ireland-visa/mumbai">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Net Worth Certificate for Ireland Visa 2026 | Patron Accounting">
-    <meta property="og:description" content="CA-certified net worth certificate for Ireland visa in INR and EUR with UDIN. Supports the ISD EUR 10,000 funds proof. Starting from INR 1,999.">
-    <meta property="og:url" content="/net-worth-certificate-for-ireland-visa/mumbai">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Net Worth Certificate for Ireland Visa 2026 | Patron Accounting">
-    <meta name="twitter:description" content="CA-certified net worth certificate for Ireland visa in INR and EUR with UDIN. Supports the ISD EUR 10,000 funds proof. Starting from INR 1,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-ireland-visa/mumbai/#service",
-        "name": "Net Worth Certificate for Ireland Visa",
-        "description": "CA-certified net worth certificate for Irish Long Stay D and short-stay visa applicants, prepared in dual currency (INR and EUR) and issued with a mandatory UDIN, supporting the Immigration Service Delivery requirement to show access to EUR 10,000 for the first year of study.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/net-worth-certificate-for-ireland-visa/mumbai" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Travel visa", "sameAs": "https://en.wikipedia.org/wiki/Travel_visa" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Net Worth Certificate for Ireland Visa Service Plans",
-            "itemListElement": [
-                { "@type": "Offer", "name": "Net Worth Certificate for Ireland Visa (dual-currency, UDIN-verified)", "priceCurrency": "INR", "price": "1999", "description": "CA-certified net worth in INR and EUR at the RBI reference rate, supporting the Immigration Service Delivery requirement to show access to EUR 10,000 for the first year of study, with a UDIN." }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-ireland-visa/mumbai/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
-            { "@type": "ListItem", "position": 3, "name": "Net Worth Certificate for Ireland Visa", "item": "https://www.patronaccounting.com/net-worth-certificate-for-ireland-visa/mumbai" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-ireland-visa/mumbai/#faq",
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "mainEntity": [
-            { "@type": "Question", "name": "Is a net worth certificate required for an Ireland visa?", "acceptedAnswer": { "@type": "Answer", "text": "Irish immigration authorities do not name a net worth certificate as a mandatory item, but a CA-certified net worth certificate is a strong supporting document for the Long Stay D study visa. Immigration Service Delivery requires applicants to show access to at least EUR 10,000 for the first year of study, separate from tuition. A dual-currency certificate consolidates total family wealth behind that funds proof." } },
-            { "@type": "Question", "name": "How much money must I show for an Ireland student visa?", "acceptedAnswer": { "@type": "Answer", "text": "For courses of one year or longer, Immigration Service Delivery requires proof of access to at least EUR 10,000 for the first academic year, separate from tuition fees. For shorter courses of six to eight months, the requirement is EUR 833 per month, which equals EUR 4,998 for six months or EUR 6,665 for eight months. Dublin-based study can cost more in practice." } },
-            { "@type": "Question", "name": "Does the certificate need to be in EUR for Ireland?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, a dual-currency certificate in INR and EUR is preferred because Ireland uses the euro. The CA converts your net worth to EUR using the RBI reference rate on the date of certification. Presenting the figure in both currencies makes it easy for the visa officer to compare your wealth against the EUR 10,000 funds requirement. Patron Accounting issues every Ireland visa certificate in dual currency." } },
-            { "@type": "Question", "name": "Can I use an education loan or sponsor for the funds proof?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. An education loan sanction letter from a recognised bank counts as proof of funds, and a sponsor such as a parent or close relative can fund the application. The net worth certificate can include the sponsor's assets and works alongside the loan sanction letter and bank statements to present a complete financial picture for the Ireland visa." } },
-            { "@type": "Question", "name": "How much does an Ireland visa net worth certificate cost?", "acceptedAnswer": { "@type": "Answer", "text": "At Patron Accounting, an Ireland visa net worth certificate starts from Rs 1,999 (exclusive of GST and government charges). The final fee depends on the number of asset and liability classes the CA must verify and the turnaround required. Fees are confirmed after a quick review of your bank, investment and property documents." } },
-            { "@type": "Question", "name": "Can my parents' assets be included for a student visa?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. For Irish student visas, a sponsor's assets, usually parents or close relatives, can be included in the net worth certificate to demonstrate funding capacity. The CA verifies the sponsor's bank statements, property papers and investment proofs, and a sponsorship undertaking is generally attached. This strengthens the application where the student has limited assets of their own." } },
-            { "@type": "Question", "name": "How long does it take to get the certificate?", "acceptedAnswer": { "@type": "Answer", "text": "Most Ireland visa net worth certificates are issued within 1 to 2 working days once complete documents are received. Same-day issuance is possible where bank statements, investment proofs and property records are ready and the visa category is confirmed. Time the certificate close to your visa application, as Irish immigration assesses funds at the visa stage." } }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-ireland-visa/mumbai",
-        "name": "Net Worth Certificate for Ireland Visa",
-        "description": "CA-certified net worth certificate for Ireland visa in INR and EUR with UDIN. Supports the ISD EUR 10,000 funds proof. Starting from INR 1,999.",
-        "url": "https://www.patronaccounting.com/net-worth-certificate-for-ireland-visa/mumbai",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-ireland-visa/mumbai/#service" },
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-ireland-visa/mumbai/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How to Get a Net Worth Certificate for an Ireland Visa",
-        "description": "Five steps to obtain a dual-currency CA net worth certificate for an Ireland visa: confirm the visa category, submit documents, CA verification, net worth computation and EUR conversion, and certification with UDIN.",
-        "totalTime": "P2D",
-        "step": [
-            { "@type": "HowToStep", "name": "Confirm the visa category", "text": "Confirm the visa category (Long Stay D or short-stay C) and the funds proof you must show." },
-            { "@type": "HowToStep", "name": "Submit documents", "text": "Passport, bank statements, FD and investment proofs, property papers, admission letter and sponsor documents." },
-            { "@type": "HowToStep", "name": "CA verification", "text": "Each asset and liability is verified against records under SA 500 (Audit Evidence)." },
-            { "@type": "HowToStep", "name": "Net worth computation and currency conversion", "text": "The figure is converted to EUR at the RBI reference rate on the date of certification." },
-            { "@type": "HowToStep", "name": "Certification and UDIN", "text": "The CA signs, seals and generates the 18-digit UDIN, then issues the dual-currency certificate." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Net Worth Certificate for Ireland Visa Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Long Stay D Study Visa", "description": "The Irish national visa for courses longer than 90 days; the category that needs financial proof." },
-            { "@type": "DefinedTerm", "name": "Stamp 2 / Stamp 1G", "description": "Immigration permissions for non-EEA students (Stamp 2) and post-study stay (Stamp 1G)." },
-            { "@type": "DefinedTerm", "name": "IRP card", "description": "The Irish Residence Permit, registered after arrival; it replaced the older GNIB card." },
-            { "@type": "DefinedTerm", "name": "ILEP-approved institution", "description": "A college on the Interim List of Eligible Programmes, required for a study visa." },
-            { "@type": "DefinedTerm", "name": "UDIN", "description": "18-digit code generated at udin.icai.org, mandatory on every CA certificate since 1 July 2019." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -754,7 +620,146 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Net Worth Certificate for Ireland Visa in Mumbai 2026 | Patron Accounting</title>
+    <meta name="description" content="CA-certified net worth certificate for Ireland visa in INR and EUR with UDIN. Supports the ISD EUR 10,000 funds proof. Starting from INR 1,999.">
+    <link rel="canonical" href="/net-worth-certificate-for-ireland-visa/mumbai">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Net Worth Certificate for Ireland Visa 2026 | Patron Accounting">
+    <meta property="og:description" content="CA-certified net worth certificate for Ireland visa in INR and EUR with UDIN. Supports the ISD EUR 10,000 funds proof. Starting from INR 1,999.">
+    <meta property="og:url" content="/net-worth-certificate-for-ireland-visa/mumbai">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Net Worth Certificate for Ireland Visa 2026 | Patron Accounting">
+    <meta name="twitter:description" content="CA-certified net worth certificate for Ireland visa in INR and EUR with UDIN. Supports the ISD EUR 10,000 funds proof. Starting from INR 1,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-ireland-visa/mumbai/#service",
+        "name": "Net Worth Certificate for Ireland Visa",
+        "description": "CA-certified net worth certificate for Irish Long Stay D and short-stay visa applicants, prepared in dual currency (INR and EUR) and issued with a mandatory UDIN, supporting the Immigration Service Delivery requirement to show access to EUR 10,000 for the first year of study.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/net-worth-certificate-for-ireland-visa/mumbai" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Travel visa", "sameAs": "https://en.wikipedia.org/wiki/Travel_visa" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Net Worth Certificate for Ireland Visa Service Plans",
+            "itemListElement": [
+                { "@type": "Offer", "name": "Net Worth Certificate for Ireland Visa (dual-currency, UDIN-verified)", "priceCurrency": "INR", "price": "1999", "description": "CA-certified net worth in INR and EUR at the RBI reference rate, supporting the Immigration Service Delivery requirement to show access to EUR 10,000 for the first year of study, with a UDIN." }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-ireland-visa/mumbai/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
+            { "@type": "ListItem", "position": 3, "name": "Net Worth Certificate for Ireland Visa", "item": "https://www.patronaccounting.com/net-worth-certificate-for-ireland-visa/mumbai" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-ireland-visa/mumbai/#faq",
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "mainEntity": [
+            { "@type": "Question", "name": "Is a net worth certificate required for an Ireland visa?", "acceptedAnswer": { "@type": "Answer", "text": "Irish immigration authorities do not name a net worth certificate as a mandatory item, but a CA-certified net worth certificate is a strong supporting document for the Long Stay D study visa. Immigration Service Delivery requires applicants to show access to at least EUR 10,000 for the first year of study, separate from tuition. A dual-currency certificate consolidates total family wealth behind that funds proof." } },
+            { "@type": "Question", "name": "How much money must I show for an Ireland student visa?", "acceptedAnswer": { "@type": "Answer", "text": "For courses of one year or longer, Immigration Service Delivery requires proof of access to at least EUR 10,000 for the first academic year, separate from tuition fees. For shorter courses of six to eight months, the requirement is EUR 833 per month, which equals EUR 4,998 for six months or EUR 6,665 for eight months. Dublin-based study can cost more in practice." } },
+            { "@type": "Question", "name": "Does the certificate need to be in EUR for Ireland?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, a dual-currency certificate in INR and EUR is preferred because Ireland uses the euro. The CA converts your net worth to EUR using the RBI reference rate on the date of certification. Presenting the figure in both currencies makes it easy for the visa officer to compare your wealth against the EUR 10,000 funds requirement. Patron Accounting issues every Ireland visa certificate in dual currency." } },
+            { "@type": "Question", "name": "Can I use an education loan or sponsor for the funds proof?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. An education loan sanction letter from a recognised bank counts as proof of funds, and a sponsor such as a parent or close relative can fund the application. The net worth certificate can include the sponsor's assets and works alongside the loan sanction letter and bank statements to present a complete financial picture for the Ireland visa." } },
+            { "@type": "Question", "name": "How much does an Ireland visa net worth certificate cost?", "acceptedAnswer": { "@type": "Answer", "text": "At Patron Accounting, an Ireland visa net worth certificate starts from Rs 1,999 (exclusive of GST and government charges). The final fee depends on the number of asset and liability classes the CA must verify and the turnaround required. Fees are confirmed after a quick review of your bank, investment and property documents." } },
+            { "@type": "Question", "name": "Can my parents' assets be included for a student visa?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. For Irish student visas, a sponsor's assets, usually parents or close relatives, can be included in the net worth certificate to demonstrate funding capacity. The CA verifies the sponsor's bank statements, property papers and investment proofs, and a sponsorship undertaking is generally attached. This strengthens the application where the student has limited assets of their own." } },
+            { "@type": "Question", "name": "How long does it take to get the certificate?", "acceptedAnswer": { "@type": "Answer", "text": "Most Ireland visa net worth certificates are issued within 1 to 2 working days once complete documents are received. Same-day issuance is possible where bank statements, investment proofs and property records are ready and the visa category is confirmed. Time the certificate close to your visa application, as Irish immigration assesses funds at the visa stage." } }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-ireland-visa/mumbai",
+        "name": "Net Worth Certificate for Ireland Visa",
+        "description": "CA-certified net worth certificate for Ireland visa in INR and EUR with UDIN. Supports the ISD EUR 10,000 funds proof. Starting from INR 1,999.",
+        "url": "https://www.patronaccounting.com/net-worth-certificate-for-ireland-visa/mumbai",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-ireland-visa/mumbai/#service" },
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-ireland-visa/mumbai/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Get a Net Worth Certificate for an Ireland Visa",
+        "description": "Five steps to obtain a dual-currency CA net worth certificate for an Ireland visa: confirm the visa category, submit documents, CA verification, net worth computation and EUR conversion, and certification with UDIN.",
+        "totalTime": "P2D",
+        "step": [
+            { "@type": "HowToStep", "name": "Confirm the visa category", "text": "Confirm the visa category (Long Stay D or short-stay C) and the funds proof you must show." },
+            { "@type": "HowToStep", "name": "Submit documents", "text": "Passport, bank statements, FD and investment proofs, property papers, admission letter and sponsor documents." },
+            { "@type": "HowToStep", "name": "CA verification", "text": "Each asset and liability is verified against records under SA 500 (Audit Evidence)." },
+            { "@type": "HowToStep", "name": "Net worth computation and currency conversion", "text": "The figure is converted to EUR at the RBI reference rate on the date of certification." },
+            { "@type": "HowToStep", "name": "Certification and UDIN", "text": "The CA signs, seals and generates the 18-digit UDIN, then issues the dual-currency certificate." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Net Worth Certificate for Ireland Visa Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Long Stay D Study Visa", "description": "The Irish national visa for courses longer than 90 days; the category that needs financial proof." },
+            { "@type": "DefinedTerm", "name": "Stamp 2 / Stamp 1G", "description": "Immigration permissions for non-EEA students (Stamp 2) and post-study stay (Stamp 1G)." },
+            { "@type": "DefinedTerm", "name": "IRP card", "description": "The Irish Residence Permit, registered after arrival; it replaced the older GNIB card." },
+            { "@type": "DefinedTerm", "name": "ILEP-approved institution", "description": "A college on the Interim List of Eligible Programmes, required for a study visa." },
+            { "@type": "DefinedTerm", "name": "UDIN", "description": "18-digit code generated at udin.icai.org, mandatory on every CA certificate since 1 July 2019." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1485,22 +1490,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
-<!-- ============================================
-     CONSULTATION FORM - Country Dropdown + Validation + Bigin Integration
-     ============================================ -->
-{{-- Enquiry form markup + JS now in partials/enquiry-form.blade.php --}}
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1523,8 +1516,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1561,7 +1552,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (stable, not live date)
 (function(){
@@ -1572,3 +1562,24 @@ window.addEventListener('scroll', function() {
     if(el2)el2.textContent=dateStr;
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+<!-- ============================================
+     CONSULTATION FORM - Country Dropdown + Validation + Bigin Integration
+     ============================================ -->
+{{-- Enquiry form markup + JS now in partials/enquiry-form.blade.php --}}
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

@@ -1,196 +1,8 @@
 @extends('layouts.app')
-@section('meta')
-<title>Backlog Filing Cost Calculator | ROC Late Fee Tool 2026</title>
-<meta name="description" content="Free backlog filing cost calculator: estimate total ROC cost to clear pending AOC-4 & MGT-7A filings, with CCFS-2026 90% late-fee waiver savings. Calculate now!">
-<meta name="robots" content="index, follow">
-<link rel="canonical" href="https://www.patronaccounting.com/tools/backlog-filing-cost-calculator">
-
-<meta property="og:title" content="Backlog Filing Cost Calculator — ROC Late Fee Tool 2026">
-<meta property="og:description" content="Estimate the total cost of clearing pending AOC-4 and MGT-7A ROC filings for a small company, including CCFS-2026 90% late-fee waiver savings.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.patronaccounting.com/tools/backlog-filing-cost-calculator">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="1200">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-<meta property="og:site_name" content="Patron Accounting LLP">
-<meta property="og:locale" content="en_IN">
-<meta name="theme-color" content="#15365f">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Backlog Filing Cost Calculator — ROC Late Fee Tool 2026">
-<meta name="twitter:description" content="Estimate the total cost of clearing pending AOC-4 and MGT-7A ROC filings, including CCFS-2026 90% late-fee waiver savings.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-
-<link rel="icon" href="https://www.patronaccounting.com/favicon.ico">
-<link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-@endsection
-@section('schema')
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "Backlog Filing Cost Calculator",
-  "description": "The Backlog Filing Cost Calculator estimates the total Registrar of Companies cost for an Indian small company to clear pending AOC-4 and MGT-7A annual filings, computing normal filing fees by authorised capital slab plus the uncapped 100-rupee-per-day additional fee and the CCFS-2026 ninety percent late-fee waiver savings.",
-  "url": "https://www.patronaccounting.com/tools/backlog-filing-cost-calculator",
-  "applicationCategory": "BusinessApplication",
-  "operatingSystem": "Any",
-  "inLanguage": "en-IN",
-  "isAccessibleForFree": true,
-  "datePublished": "2026-05-16T08:00:00+05:30",
-  "dateModified": "2026-05-16T08:00:00+05:30",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "INR"
-  },
-  "reviewedBy": {
-    "@type": "Person",
-    "@id": "https://patronaccounting.com/#founder",
-    "name": "CA Sundram Gupta",
-    "jobTitle": "Founder & Chartered Accountant",
-    "url": "https://www.patronaccounting.com/contact-page",
-    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-    "hasCredential": [{
-      "@type": "EducationalOccupationalCredential",
-      "credentialCategory": "Professional Certification",
-      "name": "Chartered Accountant (CA)",
-      "recognizedBy": {
-        "@type": "Organization",
-        "name": "Institute of Chartered Accountants of India",
-        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-      }
-    }]
-  },
-  "publisher": { "@id": "https://patronaccounting.com/#organization" },
-  "provider": { "@id": "https://patronaccounting.com/#organization" }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "Backlog Filing Cost Calculator", "item": "https://www.patronaccounting.com/tools/backlog-filing-cost-calculator"}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the Backlog Filing Cost Calculator?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "It is a free tool that estimates the total Registrar of Companies cost to clear a small company's backlog of pending annual filings. It adds the normal filing fee for AOC-4 and MGT-7A across each pending financial year, the uncapped 100-rupee-per-day additional fee for delay, and shows what you would pay under the CCFS-2026 ninety percent waiver."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How is the ROC late fee calculated for AOC-4 and MGT-7A?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Since 1 July 2018, the additional fee for delayed AOC-4 and MGT-7 or MGT-7A is a flat 100 rupees per day per form, counted from the day after the statutory due date until the date of actual filing. There is no upper cap, so multi-year backlogs compound quickly. The normal filing fee is separate and depends on authorised share capital."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the CCFS-2026 scheme?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The Companies Compliance Facilitation Scheme 2026 is a one-time MCA amnesty notified by General Circular 01/2026. During the window of 15 April 2026 to 15 July 2026, eligible companies clearing pending annual filings pay only 10 percent of the accumulated additional fee, an effective 90 percent waiver, plus the normal filing fee. Verify eligibility before relying on it."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which forms does a small company need to file annually?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Every small company must file Form AOC-4 for financial statements and Form MGT-7A, the abridged annual return for one person and small companies, each financial year. AOC-4 is generally due within 30 days of the AGM and MGT-7A within 60 days. Even dormant or zero-revenue companies must file NIL returns to avoid daily additional fees."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the normal filing fee for AOC-4 and MGT-7A?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The normal fee follows authorised share capital slabs under the Companies (Registration Offices and Fees) Rules, 2014: 200 rupees up to 1 lakh, 300 for 1 to 5 lakh, 400 for 5 to 25 lakh, 500 for 25 lakh to 1 crore, and 600 above 1 crore, charged per form per year. The calculator applies the correct slab automatically."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does the daily late fee really have no maximum cap?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Correct. For annual return and financial statement forms under sections 92 and 137, the 100-rupee-per-day additional fee has had no ceiling since July 2018. A three-year delay on a single form can exceed 1 lakh rupees in additional fees alone. This uncapped structure is the main reason CCFS-2026 offers significant relief for chronic non-filers."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can a company that never filed since incorporation use CCFS-2026?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. CCFS-2026 applies regardless of how long filings have been overdue. A company incorporated several years ago that never filed annual returns or financial statements can clear all pending years within the scheme window by paying the normal fee plus only 10 percent of accumulated additional fees, subject to eligibility conditions in the circular."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What happens if I do not clear the backlog?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Continued non-filing leads to additional fees accumulating daily without limit, the company being marked Active-non-compliant, director disqualification under section 164(2), and possible strike-off under section 248. Adjudication penalties under sections 92 and 137 can also apply, separate from filing fees. Clearing the backlog protects directors and the company's legal status."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is CCFS-2026 available for all overdue forms?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The scheme primarily covers annual filings such as AOC-4, AOC-4 XBRL, AOC-4 CFS, MGT-7 and MGT-7A, along with certain other specified forms like ADT-1. Companies already issued a final strike-off notice or that have applied for voluntary strike-off may be excluded. Confirm form-level eligibility against the MCA circular before filing."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does the calculator store my company data?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. The calculator runs entirely in your browser. The figures you enter, such as authorised capital and delay days, are never transmitted to any server or stored. Refreshing the page clears all inputs, so you can estimate backlog cost confidentially before engaging a professional or filing on the MCA portal."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the late fee counted from the AGM date or the due date?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The additional fee is counted from the day after the statutory due date of the form, not from the AGM date and not from any extended date unless the specific MCA notification says so. AOC-4 is generally due 30 days after the AGM and MGT-7A 60 days after. Always verify the exact due date applicable to your financial year."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the Backlog Filing Cost Calculator free?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, it is completely free with no sign-up or usage limit. Patron Accounting LLP provides it as a planning aid for founders and small companies assessing backlog exposure before CCFS-2026 closes. For exact figures and end-to-end backlog filing, our Chartered Accountants and Company Secretaries can verify and file on your behalf."
-      }
-    }
-  ]
-}
-</script>
-@endsection
-
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
 <style>
 
         :root {
@@ -1297,6 +1109,195 @@ a:focus-visible {
 }
 
 </style>
+@endpush
+
+@section('meta')
+<title>Backlog Filing Cost Calculator | ROC Late Fee Tool 2026</title>
+<meta name="description" content="Free backlog filing cost calculator: estimate total ROC cost to clear pending AOC-4 & MGT-7A filings, with CCFS-2026 90% late-fee waiver savings. Calculate now!">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/backlog-filing-cost-calculator">
+
+<meta property="og:title" content="Backlog Filing Cost Calculator — ROC Late Fee Tool 2026">
+<meta property="og:description" content="Estimate the total cost of clearing pending AOC-4 and MGT-7A ROC filings for a small company, including CCFS-2026 90% late-fee waiver savings.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/backlog-filing-cost-calculator">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+<meta property="og:site_name" content="Patron Accounting LLP">
+<meta property="og:locale" content="en_IN">
+<meta name="theme-color" content="#15365f">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Backlog Filing Cost Calculator — ROC Late Fee Tool 2026">
+<meta name="twitter:description" content="Estimate the total cost of clearing pending AOC-4 and MGT-7A ROC filings, including CCFS-2026 90% late-fee waiver savings.">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+@endsection
+@section('schema')
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Backlog Filing Cost Calculator",
+  "description": "The Backlog Filing Cost Calculator estimates the total Registrar of Companies cost for an Indian small company to clear pending AOC-4 and MGT-7A annual filings, computing normal filing fees by authorised capital slab plus the uncapped 100-rupee-per-day additional fee and the CCFS-2026 ninety percent late-fee waiver savings.",
+  "url": "https://www.patronaccounting.com/tools/backlog-filing-cost-calculator",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Any",
+  "inLanguage": "en-IN",
+  "isAccessibleForFree": true,
+  "datePublished": "2026-05-16T08:00:00+05:30",
+  "dateModified": "2026-05-16T08:00:00+05:30",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "INR"
+  },
+  "reviewedBy": {
+    "@type": "Person",
+    "@id": "https://patronaccounting.com/#founder",
+    "name": "CA Sundram Gupta",
+    "jobTitle": "Founder & Chartered Accountant",
+    "url": "https://www.patronaccounting.com/contact-page",
+    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+    "hasCredential": [{
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Professional Certification",
+      "name": "Chartered Accountant (CA)",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Institute of Chartered Accountants of India",
+        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+      }
+    }]
+  },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
+  "provider": { "@id": "https://patronaccounting.com/#organization" }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "Backlog Filing Cost Calculator", "item": "https://www.patronaccounting.com/tools/backlog-filing-cost-calculator"}
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the Backlog Filing Cost Calculator?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It is a free tool that estimates the total Registrar of Companies cost to clear a small company's backlog of pending annual filings. It adds the normal filing fee for AOC-4 and MGT-7A across each pending financial year, the uncapped 100-rupee-per-day additional fee for delay, and shows what you would pay under the CCFS-2026 ninety percent waiver."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is the ROC late fee calculated for AOC-4 and MGT-7A?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Since 1 July 2018, the additional fee for delayed AOC-4 and MGT-7 or MGT-7A is a flat 100 rupees per day per form, counted from the day after the statutory due date until the date of actual filing. There is no upper cap, so multi-year backlogs compound quickly. The normal filing fee is separate and depends on authorised share capital."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the CCFS-2026 scheme?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Companies Compliance Facilitation Scheme 2026 is a one-time MCA amnesty notified by General Circular 01/2026. During the window of 15 April 2026 to 15 July 2026, eligible companies clearing pending annual filings pay only 10 percent of the accumulated additional fee, an effective 90 percent waiver, plus the normal filing fee. Verify eligibility before relying on it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which forms does a small company need to file annually?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Every small company must file Form AOC-4 for financial statements and Form MGT-7A, the abridged annual return for one person and small companies, each financial year. AOC-4 is generally due within 30 days of the AGM and MGT-7A within 60 days. Even dormant or zero-revenue companies must file NIL returns to avoid daily additional fees."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the normal filing fee for AOC-4 and MGT-7A?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The normal fee follows authorised share capital slabs under the Companies (Registration Offices and Fees) Rules, 2014: 200 rupees up to 1 lakh, 300 for 1 to 5 lakh, 400 for 5 to 25 lakh, 500 for 25 lakh to 1 crore, and 600 above 1 crore, charged per form per year. The calculator applies the correct slab automatically."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does the daily late fee really have no maximum cap?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Correct. For annual return and financial statement forms under sections 92 and 137, the 100-rupee-per-day additional fee has had no ceiling since July 2018. A three-year delay on a single form can exceed 1 lakh rupees in additional fees alone. This uncapped structure is the main reason CCFS-2026 offers significant relief for chronic non-filers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can a company that never filed since incorporation use CCFS-2026?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. CCFS-2026 applies regardless of how long filings have been overdue. A company incorporated several years ago that never filed annual returns or financial statements can clear all pending years within the scheme window by paying the normal fee plus only 10 percent of accumulated additional fees, subject to eligibility conditions in the circular."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if I do not clear the backlog?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Continued non-filing leads to additional fees accumulating daily without limit, the company being marked Active-non-compliant, director disqualification under section 164(2), and possible strike-off under section 248. Adjudication penalties under sections 92 and 137 can also apply, separate from filing fees. Clearing the backlog protects directors and the company's legal status."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is CCFS-2026 available for all overdue forms?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The scheme primarily covers annual filings such as AOC-4, AOC-4 XBRL, AOC-4 CFS, MGT-7 and MGT-7A, along with certain other specified forms like ADT-1. Companies already issued a final strike-off notice or that have applied for voluntary strike-off may be excluded. Confirm form-level eligibility against the MCA circular before filing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does the calculator store my company data?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The calculator runs entirely in your browser. The figures you enter, such as authorised capital and delay days, are never transmitted to any server or stored. Refreshing the page clears all inputs, so you can estimate backlog cost confidentially before engaging a professional or filing on the MCA portal."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the late fee counted from the AGM date or the due date?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The additional fee is counted from the day after the statutory due date of the form, not from the AGM date and not from any extended date unless the specific MCA notification says so. AOC-4 is generally due 30 days after the AGM and MGT-7A 60 days after. Always verify the exact due date applicable to your financial year."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the Backlog Filing Cost Calculator free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, it is completely free with no sign-up or usage limit. Patron Accounting LLP provides it as a planning aid for founders and small companies assessing backlog exposure before CCFS-2026 closes. For exact figures and end-to-end backlog filing, our Chartered Accountants and Company Secretaries can verify and file on your behalf."
+      }
+    }
+  ]
+}
+</script>
+@endsection
 @section('content')
 
 <nav class="toc-nav" aria-label="Page Navigation">

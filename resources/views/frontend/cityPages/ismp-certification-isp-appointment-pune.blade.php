@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,179 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>ISP Appointment & IMF Certification: Training, Exam & Rules</title>
-    <meta name="description" content="Get your ISPs and Principal Officer IMF-certified in Pune - 50hr/25hr IRDAI training, Insurance Institute of India exam, and end-to-end ISP appointment from">
-    <link rel="canonical" href="/ismp-certification-isp-appointment/pune">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="ISP Appointment & IMF Certification: Training, Exam & Rules">
-    <meta property="og:description" content="Get your ISPs and Principal Officer IMF-certified in Pune - 50hr/25hr IRDAI training, Insurance Institute of India exam, and end-to-end ISP appointment from INR 24,999.">
-    <meta property="og:url" content="/ismp-certification-isp-appointment/pune">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="ISP Appointment & IMF Certification: Training, Exam & Rules">
-    <meta name="twitter:description" content="Get your ISPs and Principal Officer IMF-certified in Pune - 50hr/25hr IRDAI training, Insurance Institute of India exam, and end-to-end ISP appointment from INR 24,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "IMF Services",
-          "item": "https://www.patronaccounting.com/imf-services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "ISMP Certification & ISP Appointment in Pune",
-          "item": "https://www.patronaccounting.com/ismp-certification-isp-appointment/pune"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "datePublished": "2026-06-30T08:00:00+05:30",
-      "dateModified": "2026-06-30T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "How much does ISP appointment and IMF certification cost in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patron's managed ISMP/ISP certification and appointment service starts at INR 24,999 (Exl GST and Govt. Charges). On top of our professional fee you pay the Insurance Institute of India training and examination charges directly; we confirm the exact, current III fees before you enrol."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does it take to certify and appoint an ISP?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Most candidates complete the 50-hour IMF training (or 25 hours if they hold a qualifying III/Actuaries/CII London/IIRM qualification), sit the IMF exam, and are appointed in roughly 3-6 weeks, depending on III training slots and exam scheduling. We fast-track enrolment and documentation to keep this on the shorter end."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What documents are needed to appoint an ISP?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "You need the ISP's Class 12 (or higher) mark sheet, PAN and Aadhaar/address proof showing residency in the IMF's registered state, passport photos, the IMF training-completion and exam pass certificates, and a Fit and Proper declaration. Patron prepares and reviews the full set before submission on imf.irda.gov.in."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Who is eligible to become an ISP?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The minimum qualification is a Class 12 pass from a recognised board, completion of the prescribed IMF training (50 hours, or 25 hours with a qualifying insurance qualification), and passing the IMF examination conducted by the Insurance Institute of India. The ISP must also be a resident of the state in which the IMF is registered."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can Patron help with both ISP and Principal Officer certification?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. We manage certification for the Principal Officer (50hr/25hr training plus the IMF exam, or exemption if a valid broker/corporate-agent/web-aggregator exam was passed within the preceding five years) and for every ISP you engage, then handle the IRDAI appointment and ongoing certificate management."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you provide ISP appointment services in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Training and the IMF exam are delivered through the Insurance Institute of India online/centre network nationwide, and we work with IMFs across Pune and the rest of Maharashtra - including Tier-2/Tier-3 and aspirational districts. We coordinate enrolment, exam and IRDAI filing for you wherever your registered office is."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the turnaround if an ISP leaves and I need a replacement?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "IRDAI requires an IMF to appoint a replacement ISP immediately and not later than 60 days from the death, termination or exit of an ISP, while ensuring service continuity for existing policyholders. Patron runs a priority track to get a certified replacement trained, examined and appointed well inside that 60-day window."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "name": "ISMP Certification & ISP Appointment in Pune",
-      "description": "Managed ISMP/ISP certification and Insurance Sales Person appointment for Insurance Marketing Firms in Pune - 50hr/25hr IRDAI training, Insurance Institute of India exam, and IRDAI appointment from INR 24,999 (Exl GST and Govt. Charges).",
-      "url": "https://www.patronaccounting.com/ismp-certification-isp-appointment/pune",
-      "serviceType": "ISMP Certification and ISP Appointment",
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Maharashtra"
-        }
-      },
-      "provider": {
-        "@type": "LocalBusiness",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg",
-        "telephone": "+91-945-945-6700",
-        "email": "sales@patronaccounting.com",
-        "priceRange": "INR",
-        "areaServed": {
-          "@type": "City",
-          "name": "Pune",
-          "containedInPlace": {
-            "@type": "State",
-            "name": "Maharashtra"
-          }
-        }
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "price": "24999",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/ismp-certification-isp-appointment/pune"
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "name": "Patron Accounting LLP",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/",
-      "telephone": "+91-945-945-6700",
-      "email": "sales@patronaccounting.com",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Maharashtra"
-        }
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         :root {
             --orange: #E8712C; --orange-dark: #D4621F; --orange-light: #FEF4EE; --orange-lighter: #FFF9F5;
@@ -406,7 +232,188 @@
         @media (max-width: 768px) { .content-section [style*="grid-template-columns: repeat(4"] { grid-template-columns: repeat(2, 1fr) !important; gap: 12px !important; } }
         @media (max-width: 480px) { .content-section [style*="grid-template-columns: repeat(4"] { grid-template-columns: 1fr !important; } }
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>ISP Appointment & IMF Certification: Training, Exam & Rules</title>
+    <meta name="description" content="Get your ISPs and Principal Officer IMF-certified in Pune - 50hr/25hr IRDAI training, Insurance Institute of India exam, and end-to-end ISP appointment from">
+    <link rel="canonical" href="/ismp-certification-isp-appointment/pune">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="ISP Appointment & IMF Certification: Training, Exam & Rules">
+    <meta property="og:description" content="Get your ISPs and Principal Officer IMF-certified in Pune - 50hr/25hr IRDAI training, Insurance Institute of India exam, and end-to-end ISP appointment from INR 24,999.">
+    <meta property="og:url" content="/ismp-certification-isp-appointment/pune">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ISP Appointment & IMF Certification: Training, Exam & Rules">
+    <meta name="twitter:description" content="Get your ISPs and Principal Officer IMF-certified in Pune - 50hr/25hr IRDAI training, Insurance Institute of India exam, and end-to-end ISP appointment from INR 24,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "IMF Services",
+          "item": "https://www.patronaccounting.com/imf-services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "ISMP Certification & ISP Appointment in Pune",
+          "item": "https://www.patronaccounting.com/ismp-certification-isp-appointment/pune"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "datePublished": "2026-06-30T08:00:00+05:30",
+      "dateModified": "2026-06-30T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much does ISP appointment and IMF certification cost in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patron's managed ISMP/ISP certification and appointment service starts at INR 24,999 (Exl GST and Govt. Charges). On top of our professional fee you pay the Insurance Institute of India training and examination charges directly; we confirm the exact, current III fees before you enrol."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to certify and appoint an ISP?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most candidates complete the 50-hour IMF training (or 25 hours if they hold a qualifying III/Actuaries/CII London/IIRM qualification), sit the IMF exam, and are appointed in roughly 3-6 weeks, depending on III training slots and exam scheduling. We fast-track enrolment and documentation to keep this on the shorter end."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What documents are needed to appoint an ISP?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You need the ISP's Class 12 (or higher) mark sheet, PAN and Aadhaar/address proof showing residency in the IMF's registered state, passport photos, the IMF training-completion and exam pass certificates, and a Fit and Proper declaration. Patron prepares and reviews the full set before submission on imf.irda.gov.in."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who is eligible to become an ISP?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The minimum qualification is a Class 12 pass from a recognised board, completion of the prescribed IMF training (50 hours, or 25 hours with a qualifying insurance qualification), and passing the IMF examination conducted by the Insurance Institute of India. The ISP must also be a resident of the state in which the IMF is registered."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can Patron help with both ISP and Principal Officer certification?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We manage certification for the Principal Officer (50hr/25hr training plus the IMF exam, or exemption if a valid broker/corporate-agent/web-aggregator exam was passed within the preceding five years) and for every ISP you engage, then handle the IRDAI appointment and ongoing certificate management."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you provide ISP appointment services in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Training and the IMF exam are delivered through the Insurance Institute of India online/centre network nationwide, and we work with IMFs across Pune and the rest of Maharashtra - including Tier-2/Tier-3 and aspirational districts. We coordinate enrolment, exam and IRDAI filing for you wherever your registered office is."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the turnaround if an ISP leaves and I need a replacement?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "IRDAI requires an IMF to appoint a replacement ISP immediately and not later than 60 days from the death, termination or exit of an ISP, while ensuring service continuity for existing policyholders. Patron runs a priority track to get a certified replacement trained, examined and appointed well inside that 60-day window."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "name": "ISMP Certification & ISP Appointment in Pune",
+      "description": "Managed ISMP/ISP certification and Insurance Sales Person appointment for Insurance Marketing Firms in Pune - 50hr/25hr IRDAI training, Insurance Institute of India exam, and IRDAI appointment from INR 24,999 (Exl GST and Govt. Charges).",
+      "url": "https://www.patronaccounting.com/ismp-certification-isp-appointment/pune",
+      "serviceType": "ISMP Certification and ISP Appointment",
+      "areaServed": {
+        "@type": "City",
+        "name": "Pune",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Maharashtra"
+        }
+      },
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg",
+        "telephone": "+91-945-945-6700",
+        "email": "sales@patronaccounting.com",
+        "priceRange": "INR",
+        "areaServed": {
+          "@type": "City",
+          "name": "Pune",
+          "containedInPlace": {
+            "@type": "State",
+            "name": "Maharashtra"
+          }
+        }
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "price": "24999",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.patronaccounting.com/ismp-certification-isp-appointment/pune"
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "name": "Patron Accounting LLP",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/",
+      "telephone": "+91-945-945-6700",
+      "email": "sales@patronaccounting.com",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Pune",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Maharashtra"
+        }
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1259,7 +1266,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

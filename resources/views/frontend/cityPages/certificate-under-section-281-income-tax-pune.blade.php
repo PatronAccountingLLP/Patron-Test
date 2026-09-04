@@ -1,143 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Certificate under Section 281 Income Tax 2026 | Patron Accounting</title>
-    <meta name="description" content="CA support in Pune for a Section 281 Income Tax certificate (NOC) before transferring property or shares. Form 34A filing with the AO. From INR 4,999.">
-    <link rel="canonical" href="/certificate-under-section-281-income-tax/pune">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Certificate under Section 281 Income Tax 2026 | Patron Accounting">
-    <meta property="og:description" content="CA support in Pune for a Section 281 Income Tax certificate (NOC) before transferring property or shares. Form 34A filing with the AO. From INR 4,999.">
-    <meta property="og:url" content="/certificate-under-section-281-income-tax/pune">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Certificate under Section 281 Income Tax 2026 | Patron Accounting">
-    <meta name="twitter:description" content="CA support in Pune for a Section 281 Income Tax certificate (NOC) before transferring property or shares. Form 34A filing with the AO. From INR 4,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/pune/#service",
-        "name": "Certificate under Section 281 (Income Tax) in Pune",
-        "description": "Support in Pune for obtaining a certificate under Section 281 of the Income-tax Act, the No Objection Certificate from the transferor's jurisdictional Assessing Officer that allows transfer of property, shares, or other assets during pending tax proceedings, prepared and filed in Form 34A under Rule 111A per CBDT Circular No. 04 of 2011, with the NOC valid for 180 days.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/pune" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Income Tax Act, 1961", "sameAs": "https://en.wikipedia.org/wiki/The_Income-tax_Act,_1961" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Section 281 Certificate Service Plans",
-            "itemListElement": [
-                { "@type": "Offer", "name": "Section 281 Income Tax Certificate (NOC)", "price": "4999", "priceCurrency": "INR", "description": "Starting from INR 4,999 (Exl GST and Govt. Charges)" }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/pune/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
-            { "@type": "ListItem", "position": 3, "name": "Section 281 Certificate", "item": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/pune" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/pune/#faq",
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "mainEntity": [
-            { "@type": "Question", "name": "What is a certificate under Section 281 of the Income Tax Act?", "acceptedAnswer": { "@type": "Answer", "text": "It is a No Objection Certificate, or prior permission, issued by the transferor\u0027s jurisdictional Assessing Officer under Section 281 of the Income-tax Act, 1961, allowing the transfer of an asset while tax proceedings or dues are pending. Without it, such a transfer can be held void as against the tax department\u0027s claims. It is applied for in Form 34A, follows CBDT Circular No. 04 of 2011, and once granted is valid for 180 days." } },
-{ "@type": "Question", "name": "When is a Section 281 certificate required?", "acceptedAnswer": { "@type": "Answer", "text": "It is required when a person with pending assessment or reassessment proceedings, or outstanding tax demands, wishes to transfer an asset such as property, shares, machinery, or securities. Buyers and banks in high-value property deals, and acquirers in mergers and secondary share transactions, routinely insist on the certificate as a condition precedent. Obtaining it protects the transfer from being declared void against the seller\u0027s tax liabilities." } },
-{ "@type": "Question", "name": "Who issues the Section 281 NOC?", "acceptedAnswer": { "@type": "Answer", "text": "The NOC is issued by the transferor\u0027s jurisdictional Assessing Officer, that is, the income tax officer assessing the seller, not the Tax Recovery Officer. The application is made in Form 34A under Rule 111A of the Income-tax Rules. The Central Board of Direct Taxes has laid down the procedure in Circular No. 04 of 2011, which may require the applicant to seek a stay of disputed demands and to indemnify outstanding demands before the NOC is granted." } },
-{ "@type": "Question", "name": "What happens if I transfer property without a Section 281 NOC?", "acceptedAnswer": { "@type": "Answer", "text": "If you transfer an asset while tax proceedings or dues are pending and without the NOC, the transfer can be declared void as against the tax department\u0027s claims, meaning the department can proceed against the asset to recover dues even after the sale. While courts have held that a sale is not automatically nullified in every case, the risk and litigation are significant, which is why buyers and banks insist on the certificate before completing high-value transactions." } },
-{ "@type": "Question", "name": "How is a Section 281 certificate obtained?", "acceptedAnswer": { "@type": "Answer", "text": "The transferor files Form 34A with their jurisdictional Assessing Officer, giving the asset and transaction details, the buyer\u0027s details, and the position on tax dues and pending proceedings. The application should be made at least 30 days before the transaction. The Assessing Officer reviews the dues, may require a stay of disputed demands and an indemnity for outstanding ones, and then issues the NOC, which is valid for 180 days from the date it is granted." } },
-{ "@type": "Question", "name": "How fast can Patron Accounting help in Pune?", "acceptedAnswer": { "@type": "Answer", "text": "We first assess your pending proceedings and outstanding demands, then prepare and file Form 34A with your jurisdictional Assessing Officer, ideally at least 30 days before the transaction. Processing commonly takes 30 to 60 days depending on the dues position, and we liaise with the officer and handle any stay or indemnity requirement so the NOC is in hand before closing. Our Pune team supports sellers and acquirers both in-person and remotely." } }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/pune",
-        "name": "Certificate under Section 281 (Income Tax) in Pune",
-        "description": "CA support in Pune for a Section 281 Income Tax certificate (NOC) before transferring property or shares. Form 34A filing with the AO. From INR 4,999.",
-        "url": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/pune",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/pune/#service" },
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/pune/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How to Obtain a Certificate under Section 281",
-        "description": "The step-by-step process Patron Accounting follows to file Form 34A and obtain the Section 281 NOC from the Assessing Officer in Pune.",
-        "totalTime": "P45D",
-        "step": [
-            { "@type": "HowToStep", "position": 1, "name": "Review proceedings and demands", "text": "Review the transferor\u0027s pending proceedings and outstanding demands." },
-{ "@type": "HowToStep", "position": 2, "name": "Confirm asset and transaction", "text": "Confirm the asset, the proposed transaction, and the transferee." },
-{ "@type": "HowToStep", "position": 3, "name": "Prepare Form 34A", "text": "Prepare Form 34A under Rule 111A with the asset, transaction, and dues details." },
-{ "@type": "HowToStep", "position": 4, "name": "File with the Assessing Officer", "text": "File the application with the jurisdictional Assessing Officer at least 30 days prior." },
-{ "@type": "HowToStep", "position": 5, "name": "Address stay or indemnity", "text": "Address any stay or indemnity requirement for disputed or outstanding demands." },
-{ "@type": "HowToStep", "position": 6, "name": "Obtain the NOC", "text": "Follow up with the AO and obtain the NOC, valid for 180 days." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Section 281 Certificate Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Section 281", "description": "Provision of the Income-tax Act, 1961 under which a transfer of assets during pending tax proceedings can be void against tax claims." },
-{ "@type": "DefinedTerm", "name": "Form 34A", "description": "The application, under Rule 111A, made to the Assessing Officer for prior permission to transfer an asset." },
-{ "@type": "DefinedTerm", "name": "Assessing Officer (AO)", "description": "The income tax officer assessing the transferor, who issues the Section 281 NOC (not the Tax Recovery Officer)." },
-{ "@type": "DefinedTerm", "name": "CBDT Circular No. 04 of 2011", "description": "The circular laying down the procedure for granting the Section 281 NOC, including stay and indemnity of demands." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -751,7 +618,145 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Certificate under Section 281 Income Tax 2026 | Patron Accounting</title>
+    <meta name="description" content="CA support in Pune for a Section 281 Income Tax certificate (NOC) before transferring property or shares. Form 34A filing with the AO. From INR 4,999.">
+    <link rel="canonical" href="/certificate-under-section-281-income-tax/pune">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Certificate under Section 281 Income Tax 2026 | Patron Accounting">
+    <meta property="og:description" content="CA support in Pune for a Section 281 Income Tax certificate (NOC) before transferring property or shares. Form 34A filing with the AO. From INR 4,999.">
+    <meta property="og:url" content="/certificate-under-section-281-income-tax/pune">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Certificate under Section 281 Income Tax 2026 | Patron Accounting">
+    <meta name="twitter:description" content="CA support in Pune for a Section 281 Income Tax certificate (NOC) before transferring property or shares. Form 34A filing with the AO. From INR 4,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/pune/#service",
+        "name": "Certificate under Section 281 (Income Tax) in Pune",
+        "description": "Support in Pune for obtaining a certificate under Section 281 of the Income-tax Act, the No Objection Certificate from the transferor's jurisdictional Assessing Officer that allows transfer of property, shares, or other assets during pending tax proceedings, prepared and filed in Form 34A under Rule 111A per CBDT Circular No. 04 of 2011, with the NOC valid for 180 days.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/pune" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Income Tax Act, 1961", "sameAs": "https://en.wikipedia.org/wiki/The_Income-tax_Act,_1961" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Section 281 Certificate Service Plans",
+            "itemListElement": [
+                { "@type": "Offer", "name": "Section 281 Income Tax Certificate (NOC)", "price": "4999", "priceCurrency": "INR", "description": "Starting from INR 4,999 (Exl GST and Govt. Charges)" }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/pune/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
+            { "@type": "ListItem", "position": 3, "name": "Section 281 Certificate", "item": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/pune" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/pune/#faq",
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "mainEntity": [
+            { "@type": "Question", "name": "What is a certificate under Section 281 of the Income Tax Act?", "acceptedAnswer": { "@type": "Answer", "text": "It is a No Objection Certificate, or prior permission, issued by the transferor\u0027s jurisdictional Assessing Officer under Section 281 of the Income-tax Act, 1961, allowing the transfer of an asset while tax proceedings or dues are pending. Without it, such a transfer can be held void as against the tax department\u0027s claims. It is applied for in Form 34A, follows CBDT Circular No. 04 of 2011, and once granted is valid for 180 days." } },
+{ "@type": "Question", "name": "When is a Section 281 certificate required?", "acceptedAnswer": { "@type": "Answer", "text": "It is required when a person with pending assessment or reassessment proceedings, or outstanding tax demands, wishes to transfer an asset such as property, shares, machinery, or securities. Buyers and banks in high-value property deals, and acquirers in mergers and secondary share transactions, routinely insist on the certificate as a condition precedent. Obtaining it protects the transfer from being declared void against the seller\u0027s tax liabilities." } },
+{ "@type": "Question", "name": "Who issues the Section 281 NOC?", "acceptedAnswer": { "@type": "Answer", "text": "The NOC is issued by the transferor\u0027s jurisdictional Assessing Officer, that is, the income tax officer assessing the seller, not the Tax Recovery Officer. The application is made in Form 34A under Rule 111A of the Income-tax Rules. The Central Board of Direct Taxes has laid down the procedure in Circular No. 04 of 2011, which may require the applicant to seek a stay of disputed demands and to indemnify outstanding demands before the NOC is granted." } },
+{ "@type": "Question", "name": "What happens if I transfer property without a Section 281 NOC?", "acceptedAnswer": { "@type": "Answer", "text": "If you transfer an asset while tax proceedings or dues are pending and without the NOC, the transfer can be declared void as against the tax department\u0027s claims, meaning the department can proceed against the asset to recover dues even after the sale. While courts have held that a sale is not automatically nullified in every case, the risk and litigation are significant, which is why buyers and banks insist on the certificate before completing high-value transactions." } },
+{ "@type": "Question", "name": "How is a Section 281 certificate obtained?", "acceptedAnswer": { "@type": "Answer", "text": "The transferor files Form 34A with their jurisdictional Assessing Officer, giving the asset and transaction details, the buyer\u0027s details, and the position on tax dues and pending proceedings. The application should be made at least 30 days before the transaction. The Assessing Officer reviews the dues, may require a stay of disputed demands and an indemnity for outstanding ones, and then issues the NOC, which is valid for 180 days from the date it is granted." } },
+{ "@type": "Question", "name": "How fast can Patron Accounting help in Pune?", "acceptedAnswer": { "@type": "Answer", "text": "We first assess your pending proceedings and outstanding demands, then prepare and file Form 34A with your jurisdictional Assessing Officer, ideally at least 30 days before the transaction. Processing commonly takes 30 to 60 days depending on the dues position, and we liaise with the officer and handle any stay or indemnity requirement so the NOC is in hand before closing. Our Pune team supports sellers and acquirers both in-person and remotely." } }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/pune",
+        "name": "Certificate under Section 281 (Income Tax) in Pune",
+        "description": "CA support in Pune for a Section 281 Income Tax certificate (NOC) before transferring property or shares. Form 34A filing with the AO. From INR 4,999.",
+        "url": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/pune",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/pune/#service" },
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/pune/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Obtain a Certificate under Section 281",
+        "description": "The step-by-step process Patron Accounting follows to file Form 34A and obtain the Section 281 NOC from the Assessing Officer in Pune.",
+        "totalTime": "P45D",
+        "step": [
+            { "@type": "HowToStep", "position": 1, "name": "Review proceedings and demands", "text": "Review the transferor\u0027s pending proceedings and outstanding demands." },
+{ "@type": "HowToStep", "position": 2, "name": "Confirm asset and transaction", "text": "Confirm the asset, the proposed transaction, and the transferee." },
+{ "@type": "HowToStep", "position": 3, "name": "Prepare Form 34A", "text": "Prepare Form 34A under Rule 111A with the asset, transaction, and dues details." },
+{ "@type": "HowToStep", "position": 4, "name": "File with the Assessing Officer", "text": "File the application with the jurisdictional Assessing Officer at least 30 days prior." },
+{ "@type": "HowToStep", "position": 5, "name": "Address stay or indemnity", "text": "Address any stay or indemnity requirement for disputed or outstanding demands." },
+{ "@type": "HowToStep", "position": 6, "name": "Obtain the NOC", "text": "Follow up with the AO and obtain the NOC, valid for 180 days." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Section 281 Certificate Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Section 281", "description": "Provision of the Income-tax Act, 1961 under which a transfer of assets during pending tax proceedings can be void against tax claims." },
+{ "@type": "DefinedTerm", "name": "Form 34A", "description": "The application, under Rule 111A, made to the Assessing Officer for prior permission to transfer an asset." },
+{ "@type": "DefinedTerm", "name": "Assessing Officer (AO)", "description": "The income tax officer assessing the transferor, who issues the Section 281 NOC (not the Tax Recovery Officer)." },
+{ "@type": "DefinedTerm", "name": "CBDT Circular No. 04 of 2011", "description": "The circular laying down the procedure for granting the Section 281 NOC, including stay and indemnity of demands." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1414,17 +1419,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1447,8 +1445,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1485,7 +1481,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1496,3 +1491,19 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

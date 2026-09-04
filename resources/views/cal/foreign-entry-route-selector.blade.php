@@ -1,180 +1,6 @@
 @extends('layouts.app')
-
-<title>India Entry Route Selector | Subsidiary, LLP, Branch, EOR</title>
-<meta name="description" content="India market entry route selector: pick the right structure for your foreign business, from wholly-owned subsidiary, LLP, branch, liaison/project office or EOR.">
-<meta name="robots" content="index, follow">
-<meta name="theme-color" content="#15365f">
+@push('styles')
 <link rel="canonical" href="https://www.patronaccounting.com/tools/foreign-entry-route-selector">
-@section('meta')
-<meta property="og:title" content="Foreign Entry Route Selector — India Market Entry 2026">
-<meta property="og:description" content="Answer a few questions and get a recommended India entry route — subsidiary, LLP, branch, liaison or project office, or EOR — with a full comparison.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.patronaccounting.com/tools/foreign-entry-route-selector">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="1200">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-<meta property="og:site_name" content="Patron Accounting">
-<meta property="og:locale" content="en_IN">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Foreign Entry Route Selector — India Market Entry 2026">
-<meta name="twitter:description" content="Find the right India entry route for your foreign business — subsidiary, LLP, branch, liaison/project office or EOR. Free &amp; instant.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-
-<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
-<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
-@endsection
-@section('schema')
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "Foreign Entry Route Selector",
-  "description": "Foreign Entry Route Selector helps a foreign company or investor choose how to enter the Indian market. It asks about the primary objective, whether the business needs to earn income in India, FDI sector route, timeline and permanence, then weighs these against the available structures — a wholly-owned subsidiary or private limited company, an LLP, a branch office, a liaison or representative office, a project office, and the employer-of-record model — and returns a recommended route with reasons and a full side-by-side comparison covering legal entity status, ability to earn income, RBI approval, control and best-fit use case.",
-  "url": "https://www.patronaccounting.com/tools/foreign-entry-route-selector",
-  "applicationCategory": "BusinessApplication",
-  "inLanguage": "en-IN",
-  "isAccessibleForFree": true,
-  "operatingSystem": "Any",
-  "datePublished": "2026-06-05T08:00:00+05:30",
-  "dateModified": "2026-06-05T08:00:00+05:30",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "INR"
-  },
-  "reviewedBy": {
-    "@type": "Person",
-    "@id": "https://patronaccounting.com/#founder",
-    "name": "CA Sundram Gupta",
-    "jobTitle": "Founder & Chartered Accountant",
-    "url": "https://www.patronaccounting.com/contact-page",
-    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-    "hasCredential": [{
-      "@type": "EducationalOccupationalCredential",
-      "credentialCategory": "Professional Certification",
-      "name": "Chartered Accountant (CA)",
-      "recognizedBy": {
-        "@type": "Organization",
-        "name": "Institute of Chartered Accountants of India",
-        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-      }
-    }]
-  },
-  "publisher": { "@id": "https://patronaccounting.com/#organization" },
-  "provider": {
-    "@id": "https://patronaccounting.com/#organization"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "Foreign Entry Route Selector", "item": "https://www.patronaccounting.com/tools/foreign-entry-route-selector"}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the ways a foreign company can enter India?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A foreign company can enter India as an incorporated Indian entity, either a wholly-owned subsidiary or joint venture private limited company or an LLP, or as an unincorporated presence of the foreign parent through a branch office, a liaison or representative office or a project office. A growing alternative for hiring a team quickly without forming an entity is the employer-of-record model. The incorporated routes are set up with the Registrar of Companies, while branch, liaison and project offices are established through an RBI approval route under FEMA."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the best entry route for most foreign companies?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For most foreign companies that intend to operate, hire and earn revenue in India over the long term, a wholly-owned subsidiary set up as a private limited company is the structure of choice. It is a separate Indian legal entity that can contract, hire, invoice, raise funding and grant ESOPs, it gives the parent full control, it carries the lowest corporate tax rate among revenue-generating entities, and it aligns cleanly with the FDI policy. It is generally cleaner and more credible with banks, customers and employees than a representative office."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the difference between a branch office and a liaison office?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A liaison or representative office is only a communication bridge between the foreign parent and Indian stakeholders. It cannot earn income or undertake any commercial activity, and all its expenses must be funded by the parent through inward remittance. A branch office, by contrast, is an extension of the parent that can carry out specified commercial activities and earn income, such as import and export, consultancy, research and technical support, though it cannot manufacture in India except in a Special Economic Zone. Both require RBI approval under FEMA through an authorised dealer bank."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "When should I choose a liaison office?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A liaison office suits a foreign company that wants to explore the Indian market, build contacts and understand demand before committing to a full operating presence, and that does not need to earn any income in India yet. Because it cannot trade or invoice and is funded entirely by the parent, it is a low-commitment listening post rather than an operating vehicle. Once the company is ready to actually transact, hire and bill customers, it typically graduates to a subsidiary or a branch office depending on whether it wants a separate Indian entity."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "When is a branch office the right choice?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A branch office fits a foreign company that wants to earn income from permitted activities such as import and export, consultancy, research or technical support, but prefers to operate as an extension of the parent rather than form a separate Indian company. The trade-off is that the parent remains fully liable for the branch and the branch cannot manufacture except in a Special Economic Zone. The parent must usually show a profit track record for the preceding five years and a net worth of at least one hundred thousand US dollars, and RBI approval is required."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a project office and when is it used?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A project office is a temporary setup that a foreign company establishes to execute a specific contract awarded to it by an Indian company, often in infrastructure or installation. It can carry out commercial activity that relates to that project, which is the key difference from a liaison office, and it is wound up once the project is complete. It is registered with the RBI and the Registrar of Companies. A project office is the natural choice when the foreign company has a single defined Indian contract rather than an open-ended plan to operate in the market."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can a foreign company use an LLP to enter India?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, but in a limited way. Foreign direct investment into an LLP is allowed under the automatic route only in sectors where 100 percent FDI is permitted and there are no performance-linked conditions. An LLP offers lower compliance than a company and can suit smaller advisory, consulting or professional-services models, but it has limited capital-market and exit optionality and cannot issue shares or ESOPs, so it is not a universal foreign-entry vehicle. Where equity funding, ESOPs or a clean exit might matter, a wholly-owned subsidiary is usually the better choice."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does an EOR fit into India entry?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "An employer of record lets a foreign company hire and run a team in India without first setting up its own entity, because the EOR is the legal employer on record while the workers report to the foreign company day to day. This cuts time-to-team from around sixty days to under two weeks, which is why many companies start with an EOR while incorporating a subsidiary in parallel, then transition the team across once the entity is live. It is the fastest way to get people on the ground when speed matters more than having an own-entity from day one."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does a subsidiary need RBI permission to be formed?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. A subsidiary is formed by incorporation with the Registrar of Companies and does not need RBI permission to be set up, though it must comply with the Companies Act and with sector-specific foreign investment rules. Whether 100 percent foreign ownership is allowed, and whether the investment follows the automatic route or needs government approval, depends on the sector. Branch, liaison and project offices are different, as they are established through an RBI approval route under FEMA via an authorised dealer bank rather than the company-incorporation route."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the Foreign Entry Route Selector free and is it advice?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, the Patron Accounting Foreign Entry Route Selector is completely free with no signup, and everything runs in your browser with nothing stored on our servers. It weighs your answers on objective, income needs, FDI route, timeline and permanence against the typical strengths of each structure and suggests the route that usually fits best, with reasons and a comparison. It is an educational planning aid, not legal, tax or FEMA advice; FDI rules, sector caps and RBI conditions change and depend on your specifics, so confirm the route with a professional before acting."
-      }
-    }
-  ]
-}
-</script>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-@endsection
 <style>
         :root {
             --primary: #15365f;
@@ -687,6 +513,183 @@ a:focus-visible {
 
 
         </style>
+@endpush
+
+@section('meta')
+<meta property="og:title" content="Foreign Entry Route Selector — India Market Entry 2026">
+<meta property="og:description" content="Answer a few questions and get a recommended India entry route — subsidiary, LLP, branch, liaison or project office, or EOR — with a full comparison.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/foreign-entry-route-selector">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+<meta property="og:site_name" content="Patron Accounting">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Foreign Entry Route Selector — India Market Entry 2026">
+<meta name="twitter:description" content="Find the right India entry route for your foreign business — subsidiary, LLP, branch, liaison/project office or EOR. Free &amp; instant.">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
+
+<title>India Entry Route Selector | Subsidiary, LLP, Branch, EOR</title>
+<meta name="description" content="India market entry route selector: pick the right structure for your foreign business, from wholly-owned subsidiary, LLP, branch, liaison/project office or EOR.">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#15365f">
+@endsection
+@section('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Foreign Entry Route Selector",
+  "description": "Foreign Entry Route Selector helps a foreign company or investor choose how to enter the Indian market. It asks about the primary objective, whether the business needs to earn income in India, FDI sector route, timeline and permanence, then weighs these against the available structures — a wholly-owned subsidiary or private limited company, an LLP, a branch office, a liaison or representative office, a project office, and the employer-of-record model — and returns a recommended route with reasons and a full side-by-side comparison covering legal entity status, ability to earn income, RBI approval, control and best-fit use case.",
+  "url": "https://www.patronaccounting.com/tools/foreign-entry-route-selector",
+  "applicationCategory": "BusinessApplication",
+  "inLanguage": "en-IN",
+  "isAccessibleForFree": true,
+  "operatingSystem": "Any",
+  "datePublished": "2026-06-05T08:00:00+05:30",
+  "dateModified": "2026-06-05T08:00:00+05:30",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "INR"
+  },
+  "reviewedBy": {
+    "@type": "Person",
+    "@id": "https://patronaccounting.com/#founder",
+    "name": "CA Sundram Gupta",
+    "jobTitle": "Founder & Chartered Accountant",
+    "url": "https://www.patronaccounting.com/contact-page",
+    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+    "hasCredential": [{
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Professional Certification",
+      "name": "Chartered Accountant (CA)",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Institute of Chartered Accountants of India",
+        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+      }
+    }]
+  },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
+  "provider": {
+    "@id": "https://patronaccounting.com/#organization"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "Foreign Entry Route Selector", "item": "https://www.patronaccounting.com/tools/foreign-entry-route-selector"}
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the ways a foreign company can enter India?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A foreign company can enter India as an incorporated Indian entity, either a wholly-owned subsidiary or joint venture private limited company or an LLP, or as an unincorporated presence of the foreign parent through a branch office, a liaison or representative office or a project office. A growing alternative for hiring a team quickly without forming an entity is the employer-of-record model. The incorporated routes are set up with the Registrar of Companies, while branch, liaison and project offices are established through an RBI approval route under FEMA."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the best entry route for most foreign companies?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For most foreign companies that intend to operate, hire and earn revenue in India over the long term, a wholly-owned subsidiary set up as a private limited company is the structure of choice. It is a separate Indian legal entity that can contract, hire, invoice, raise funding and grant ESOPs, it gives the parent full control, it carries the lowest corporate tax rate among revenue-generating entities, and it aligns cleanly with the FDI policy. It is generally cleaner and more credible with banks, customers and employees than a representative office."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between a branch office and a liaison office?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A liaison or representative office is only a communication bridge between the foreign parent and Indian stakeholders. It cannot earn income or undertake any commercial activity, and all its expenses must be funded by the parent through inward remittance. A branch office, by contrast, is an extension of the parent that can carry out specified commercial activities and earn income, such as import and export, consultancy, research and technical support, though it cannot manufacture in India except in a Special Economic Zone. Both require RBI approval under FEMA through an authorised dealer bank."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When should I choose a liaison office?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A liaison office suits a foreign company that wants to explore the Indian market, build contacts and understand demand before committing to a full operating presence, and that does not need to earn any income in India yet. Because it cannot trade or invoice and is funded entirely by the parent, it is a low-commitment listening post rather than an operating vehicle. Once the company is ready to actually transact, hire and bill customers, it typically graduates to a subsidiary or a branch office depending on whether it wants a separate Indian entity."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When is a branch office the right choice?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A branch office fits a foreign company that wants to earn income from permitted activities such as import and export, consultancy, research or technical support, but prefers to operate as an extension of the parent rather than form a separate Indian company. The trade-off is that the parent remains fully liable for the branch and the branch cannot manufacture except in a Special Economic Zone. The parent must usually show a profit track record for the preceding five years and a net worth of at least one hundred thousand US dollars, and RBI approval is required."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a project office and when is it used?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A project office is a temporary setup that a foreign company establishes to execute a specific contract awarded to it by an Indian company, often in infrastructure or installation. It can carry out commercial activity that relates to that project, which is the key difference from a liaison office, and it is wound up once the project is complete. It is registered with the RBI and the Registrar of Companies. A project office is the natural choice when the foreign company has a single defined Indian contract rather than an open-ended plan to operate in the market."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can a foreign company use an LLP to enter India?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, but in a limited way. Foreign direct investment into an LLP is allowed under the automatic route only in sectors where 100 percent FDI is permitted and there are no performance-linked conditions. An LLP offers lower compliance than a company and can suit smaller advisory, consulting or professional-services models, but it has limited capital-market and exit optionality and cannot issue shares or ESOPs, so it is not a universal foreign-entry vehicle. Where equity funding, ESOPs or a clean exit might matter, a wholly-owned subsidiary is usually the better choice."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does an EOR fit into India entry?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An employer of record lets a foreign company hire and run a team in India without first setting up its own entity, because the EOR is the legal employer on record while the workers report to the foreign company day to day. This cuts time-to-team from around sixty days to under two weeks, which is why many companies start with an EOR while incorporating a subsidiary in parallel, then transition the team across once the entity is live. It is the fastest way to get people on the ground when speed matters more than having an own-entity from day one."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does a subsidiary need RBI permission to be formed?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. A subsidiary is formed by incorporation with the Registrar of Companies and does not need RBI permission to be set up, though it must comply with the Companies Act and with sector-specific foreign investment rules. Whether 100 percent foreign ownership is allowed, and whether the investment follows the automatic route or needs government approval, depends on the sector. Branch, liaison and project offices are different, as they are established through an RBI approval route under FEMA via an authorised dealer bank rather than the company-incorporation route."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the Foreign Entry Route Selector free and is it advice?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the Patron Accounting Foreign Entry Route Selector is completely free with no signup, and everything runs in your browser with nothing stored on our servers. It weighs your answers on objective, income needs, FDI route, timeline and permanence against the typical strengths of each structure and suggests the route that usually fits best, with reasons and a comparison. It is an educational planning aid, not legal, tax or FEMA advice; FDI rules, sector caps and RBI conditions change and depend on your specifics, so confirm the route with a professional before acting."
+      }
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation">
     <div class="toc-nav-inner">

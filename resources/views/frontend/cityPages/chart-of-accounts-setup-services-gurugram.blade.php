@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,208 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>Chart of Accounts Setup Gurugram 2026 | Patron Accounting</title>
-    <meta name="description" content="Chart of accounts setup in Gurugram from INR 4,999 one-time. CA-led Schedule III ledger grouping, GST ledgers, and cost centres for Cyber City firms.">
-    <link rel="canonical" href="/chart-of-accounts-setup-services/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Chart of Accounts Setup Gurugram 2026 | Patron Accounting">
-    <meta property="og:description" content="Chart of accounts setup in Gurugram from INR 4,999 one-time. CA-led Schedule III ledger grouping, GST ledgers, and cost centres for Cyber City firms.">
-    <meta property="og:url" content="/chart-of-accounts-setup-services/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Chart of Accounts Setup Gurugram 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Chart of accounts setup in Gurugram from INR 4,999 one-time. CA-led Schedule III ledger grouping, GST ledgers, and cost centres for Cyber City firms.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/chart-of-accounts-setup-services/gurugram#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Chart of Accounts Setup Services",
-          "item": "https://www.patronaccounting.com/chart-of-accounts-setup-services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Chart of Accounts Setup Services in Gurugram",
-          "item": "https://www.patronaccounting.com/chart-of-accounts-setup-services/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/chart-of-accounts-setup-services/gurugram#faq",
-      "datePublished": "2026-06-23T08:00:00+05:30",
-      "dateModified": "2026-06-23T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is a chart of accounts setup for a Gurugram business?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A chart of accounts setup is the one-time design of every ledger your business uses, grouped under Schedule III of the Companies Act 2013. For Gurugram firms it covers asset, liability, income, and expense heads, GST ledgers, cost centres, and opening balances in Tally, Zoho Books, or QuickBooks so reporting is clean from day one."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does chart of accounts setup cost in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patron Accounting charges Starting from INR 4,999 (one-time, Exl GST and Govt. Charges). The final fee depends on the number of ledgers, cost centres, GST registrations, and whether opening balances need migration. Cyber City SaaS firms and Manesar IMT manufacturers receive a fixed scope quote before work begins."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is chart of accounts setup a one-time or monthly service?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "It is a one-time design and configuration service, not a recurring monthly fee. Once the chart of accounts is built per Schedule III, GST ledgers and cost centres are mapped, and opening balances are migrated, your Gurugram team or accountant continues monthly bookkeeping on the structure with no further setup charge."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does chart of accounts setup take in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Most setups take 3 to 7 working days. A new Cyber City startup with a single GSTIN is usually ready in 3 to 4 days. A Manesar IMT manufacturer with multiple cost centres, dimensions, and opening balances to migrate may take 6 to 7 working days, depending on data quality and the software used."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why must the chart of accounts follow Schedule III?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Schedule III of the Companies Act 2013 prescribes the format for the balance sheet and statement of profit and loss. Grouping ledgers to Schedule III heads from the start means financial statements, MCA filings, and audit schedules map directly without rework, which is essential for Gurugram companies filing with RoC Delhi."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which GST ledgers are created during the setup in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We create output and input ledgers for CGST, SGST, and IGST, plus reverse charge (RCM) and GST cess ledgers as needed under the CGST Act 2017. Haryana GST is configured for intra-state supply and IGST for inter-state, so input tax credit and liabilities post to the correct heads for every Gurugram transaction."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can you migrate opening balances during chart of accounts setup?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. We import opening balances from your last filed ITR, audited financials, or previous software into the new chart of accounts and validate that the opening trial balance ties out before sign-off. This lets Gurugram businesses restructure messy ledgers or switch software without a break in the accounting trail."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you set up the chart of accounts in Tally, Zoho, and QuickBooks?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Patron designs and configures the chart of accounts directly inside Tally, Zoho Books, or QuickBooks, whichever your Gurugram business uses. We map account groups, GST ledgers, cost centres, and dimensions, then hand over a documented structure with a short training session for your team."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/chart-of-accounts-setup-services/gurugram#service",
-      "name": "Chart of Accounts Setup Services in Gurugram",
-      "description": "Chart of accounts setup in Gurugram is the one-time design of a Schedule III ledger structure with GST ledgers, cost centres, dimensions, and opening balance migration in Tally, Zoho Books, or QuickBooks. Patron Accounting builds clean, audit-ready charts for Cyber City, Udyog Vihar, and Manesar IMT businesses.",
-      "serviceType": "Chart of Accounts Setup and Configuration",
-      "url": "https://www.patronaccounting.com/chart-of-accounts-setup-services/gurugram",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#localbusiness-gurugram"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Chart of accounts",
-          "sameAs": "https://en.wikipedia.org/wiki/Chart_of_accounts"
-        },
-        {
-          "@type": "Thing",
-          "name": "Goods and Services Tax (India)",
-          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Chart of Accounts Setup Plans in Gurugram",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "price": "4999",
-            "priceSpecification": {
-              "@type": "UnitPriceSpecification",
-              "priceCurrency": "INR",
-              "price": "4999",
-              "unitText": "one-time"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Chart of Accounts Setup (One-Time)"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness-gurugram",
-      "name": "Patron Accounting LLP - Gurugram",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/chart-of-accounts-setup-services/gurugram",
-      "telephone": "+91-9699936369",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Gurugram",
-        "addressRegion": "Haryana",
-        "postalCode": "122002",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -830,7 +627,217 @@
         .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
 
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>Chart of Accounts Setup Gurugram 2026 | Patron Accounting</title>
+    <meta name="description" content="Chart of accounts setup in Gurugram from INR 4,999 one-time. CA-led Schedule III ledger grouping, GST ledgers, and cost centres for Cyber City firms.">
+    <link rel="canonical" href="/chart-of-accounts-setup-services/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Chart of Accounts Setup Gurugram 2026 | Patron Accounting">
+    <meta property="og:description" content="Chart of accounts setup in Gurugram from INR 4,999 one-time. CA-led Schedule III ledger grouping, GST ledgers, and cost centres for Cyber City firms.">
+    <meta property="og:url" content="/chart-of-accounts-setup-services/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Chart of Accounts Setup Gurugram 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Chart of accounts setup in Gurugram from INR 4,999 one-time. CA-led Schedule III ledger grouping, GST ledgers, and cost centres for Cyber City firms.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/chart-of-accounts-setup-services/gurugram#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Chart of Accounts Setup Services",
+          "item": "https://www.patronaccounting.com/chart-of-accounts-setup-services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Chart of Accounts Setup Services in Gurugram",
+          "item": "https://www.patronaccounting.com/chart-of-accounts-setup-services/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/chart-of-accounts-setup-services/gurugram#faq",
+      "datePublished": "2026-06-23T08:00:00+05:30",
+      "dateModified": "2026-06-23T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a chart of accounts setup for a Gurugram business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A chart of accounts setup is the one-time design of every ledger your business uses, grouped under Schedule III of the Companies Act 2013. For Gurugram firms it covers asset, liability, income, and expense heads, GST ledgers, cost centres, and opening balances in Tally, Zoho Books, or QuickBooks so reporting is clean from day one."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does chart of accounts setup cost in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patron Accounting charges Starting from INR 4,999 (one-time, Exl GST and Govt. Charges). The final fee depends on the number of ledgers, cost centres, GST registrations, and whether opening balances need migration. Cyber City SaaS firms and Manesar IMT manufacturers receive a fixed scope quote before work begins."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is chart of accounts setup a one-time or monthly service?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is a one-time design and configuration service, not a recurring monthly fee. Once the chart of accounts is built per Schedule III, GST ledgers and cost centres are mapped, and opening balances are migrated, your Gurugram team or accountant continues monthly bookkeeping on the structure with no further setup charge."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does chart of accounts setup take in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most setups take 3 to 7 working days. A new Cyber City startup with a single GSTIN is usually ready in 3 to 4 days. A Manesar IMT manufacturer with multiple cost centres, dimensions, and opening balances to migrate may take 6 to 7 working days, depending on data quality and the software used."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why must the chart of accounts follow Schedule III?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Schedule III of the Companies Act 2013 prescribes the format for the balance sheet and statement of profit and loss. Grouping ledgers to Schedule III heads from the start means financial statements, MCA filings, and audit schedules map directly without rework, which is essential for Gurugram companies filing with RoC Delhi."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which GST ledgers are created during the setup in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We create output and input ledgers for CGST, SGST, and IGST, plus reverse charge (RCM) and GST cess ledgers as needed under the CGST Act 2017. Haryana GST is configured for intra-state supply and IGST for inter-state, so input tax credit and liabilities post to the correct heads for every Gurugram transaction."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you migrate opening balances during chart of accounts setup?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We import opening balances from your last filed ITR, audited financials, or previous software into the new chart of accounts and validate that the opening trial balance ties out before sign-off. This lets Gurugram businesses restructure messy ledgers or switch software without a break in the accounting trail."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you set up the chart of accounts in Tally, Zoho, and QuickBooks?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Patron designs and configures the chart of accounts directly inside Tally, Zoho Books, or QuickBooks, whichever your Gurugram business uses. We map account groups, GST ledgers, cost centres, and dimensions, then hand over a documented structure with a short training session for your team."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/chart-of-accounts-setup-services/gurugram#service",
+      "name": "Chart of Accounts Setup Services in Gurugram",
+      "description": "Chart of accounts setup in Gurugram is the one-time design of a Schedule III ledger structure with GST ledgers, cost centres, dimensions, and opening balance migration in Tally, Zoho Books, or QuickBooks. Patron Accounting builds clean, audit-ready charts for Cyber City, Udyog Vihar, and Manesar IMT businesses.",
+      "serviceType": "Chart of Accounts Setup and Configuration",
+      "url": "https://www.patronaccounting.com/chart-of-accounts-setup-services/gurugram",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#localbusiness-gurugram"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Chart of accounts",
+          "sameAs": "https://en.wikipedia.org/wiki/Chart_of_accounts"
+        },
+        {
+          "@type": "Thing",
+          "name": "Goods and Services Tax (India)",
+          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Chart of Accounts Setup Plans in Gurugram",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "price": "4999",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "INR",
+              "price": "4999",
+              "unitText": "one-time"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Chart of Accounts Setup (One-Time)"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness-gurugram",
+      "name": "Patron Accounting LLP - Gurugram",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/chart-of-accounts-setup-services/gurugram",
+      "telephone": "+91-9699936369",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Gurugram",
+        "addressRegion": "Haryana",
+        "postalCode": "122002",
+        "addressCountry": "IN"
+      },
+      "parentOrganization": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1577,7 +1584,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

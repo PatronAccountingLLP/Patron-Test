@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,208 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>Inventory Accounting in Pune 2026 | Patron Accounting</title>
-    <meta name="description" content="Inventory valuation and costing in Pune from INR 7,499/mo. CA-led FIFO, weighted average, stock reconciliation, and COGS for Chakan and MIDC firms.">
-    <link rel="canonical" href="/inventory-accounting-costing-services/pune">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Inventory Accounting in Pune 2026 | Patron Accounting">
-    <meta property="og:description" content="Inventory valuation and costing in Pune from INR 7,499/mo. CA-led FIFO, weighted average, stock reconciliation, and COGS for Chakan and MIDC firms.">
-    <meta property="og:url" content="/inventory-accounting-costing-services/pune">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Inventory Accounting in Pune 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Inventory valuation and costing in Pune from INR 7,499/mo. CA-led FIFO, weighted average, stock reconciliation, and COGS for Chakan and MIDC firms.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/inventory-accounting-costing-services/pune#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Inventory Accounting and Costing Services",
-          "item": "https://www.patronaccounting.com/inventory-accounting-costing-services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Inventory Accounting and Costing Services in Pune",
-          "item": "https://www.patronaccounting.com/inventory-accounting-costing-services/pune"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/inventory-accounting-costing-services/pune#faq",
-      "datePublished": "2026-06-23T08:00:00+05:30",
-      "dateModified": "2026-06-23T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is inventory accounting and costing for a Pune business?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Inventory accounting values your stock and records its movement so closing inventory and cost of goods sold are correct. For Pune firms it covers FIFO or weighted average valuation under AS 2 or Ind AS 2, stock reconciliation, BOM costing, and stock ageing for traders and Chakan and MIDC manufacturers."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does inventory accounting cost in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patron Accounting charges Starting from INR 7,499/mo (Exl GST and Govt. Charges). The final fee depends on SKU count, number of warehouses, costing method, and whether you run trading, manufacturing, or retail. Hinjewadi and Chakan businesses receive a fixed scope quote before work begins."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which inventory valuation methods are allowed under AS 2 and Ind AS 2?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "AS 2 and Ind AS 2 permit FIFO or the weighted average cost formula, and inventory is valued at the lower of cost and net realisable value. LIFO is not allowed. The chosen method must be applied consistently each year. Patron selects the right method for your Pune trading or manufacturing operation."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between job, process, and standard costing?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Job costing tracks cost per order and suits make-to-order Chakan units. Process costing averages cost across continuous production. Standard costing books a preset cost and posts variances separately. Patron sets up the method that matches how your Pune factory or trading business actually produces and sells."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does inventory valuation affect GST and income tax in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Closing stock directly affects taxable profit, so wrong valuation distorts your income tax. Section 145A of the Income Tax Act requires inventory to be valued inclusive of tax. Accurate stock records also support GST input tax credit and audit, which Patron reconciles against your books on the GST portal."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is stock ageing and dead-stock analysis?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Stock ageing sorts inventory by how long it has been held, flagging slow-moving and dead stock that ties up capital. Patron prepares ageing buckets, identifies obsolete SKUs, and recommends write-downs to net realisable value under AS 2 so your Pune balance sheet reflects true stock value."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you handle inventory accounting in Tally and Zoho Books for Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Patron sets up stock items, godowns, BOM, and costing directly inside Tally, Zoho Books, QuickBooks, or Xero, whichever your Pune business uses. We reconcile physical stock to book stock, post adjustments, and produce valuation and COGS reports each period."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How often should a Pune business reconcile physical stock to books?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Most Pune SMEs reconcile monthly, with a full physical count at year end before audit. Chakan and MIDC manufacturers with high-value stock often count quarterly. Patron schedules counts, investigates variances, and posts approved adjustments so book and physical stock always agree at close."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/inventory-accounting-costing-services/pune#service",
-      "name": "Inventory Accounting and Costing Services in Pune",
-      "description": "Inventory accounting and costing in Pune covers FIFO and weighted average valuation under AS 2 and Ind AS 2, stock reconciliation, job, process and standard costing, BOM, COGS, and stock ageing. Patron Accounting serves traders, manufacturers, and retailers in Hinjewadi, Chakan, and the MIDC belts.",
-      "serviceType": "Inventory Accounting and Costing",
-      "url": "https://www.patronaccounting.com/inventory-accounting-costing-services/pune",
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Maharashtra"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#localbusiness-pune"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Inventory",
-          "sameAs": "https://en.wikipedia.org/wiki/Inventory"
-        },
-        {
-          "@type": "Thing",
-          "name": "Cost accounting",
-          "sameAs": "https://en.wikipedia.org/wiki/Cost_accounting"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Inventory Accounting Plans in Pune",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "price": "7499",
-            "priceSpecification": {
-              "@type": "UnitPriceSpecification",
-              "priceCurrency": "INR",
-              "price": "7499",
-              "unitText": "per month"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Inventory Accounting and Costing per Month"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness-pune",
-      "name": "Patron Accounting LLP - Pune",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/inventory-accounting-costing-services/pune",
-      "telephone": "+91-9699936369",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Pune",
-        "addressRegion": "Maharashtra",
-        "postalCode": "411014",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -815,7 +612,217 @@
         .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
 
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>Inventory Accounting in Pune 2026 | Patron Accounting</title>
+    <meta name="description" content="Inventory valuation and costing in Pune from INR 7,499/mo. CA-led FIFO, weighted average, stock reconciliation, and COGS for Chakan and MIDC firms.">
+    <link rel="canonical" href="/inventory-accounting-costing-services/pune">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Inventory Accounting in Pune 2026 | Patron Accounting">
+    <meta property="og:description" content="Inventory valuation and costing in Pune from INR 7,499/mo. CA-led FIFO, weighted average, stock reconciliation, and COGS for Chakan and MIDC firms.">
+    <meta property="og:url" content="/inventory-accounting-costing-services/pune">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Inventory Accounting in Pune 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Inventory valuation and costing in Pune from INR 7,499/mo. CA-led FIFO, weighted average, stock reconciliation, and COGS for Chakan and MIDC firms.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/inventory-accounting-costing-services/pune#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Inventory Accounting and Costing Services",
+          "item": "https://www.patronaccounting.com/inventory-accounting-costing-services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Inventory Accounting and Costing Services in Pune",
+          "item": "https://www.patronaccounting.com/inventory-accounting-costing-services/pune"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/inventory-accounting-costing-services/pune#faq",
+      "datePublished": "2026-06-23T08:00:00+05:30",
+      "dateModified": "2026-06-23T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is inventory accounting and costing for a Pune business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Inventory accounting values your stock and records its movement so closing inventory and cost of goods sold are correct. For Pune firms it covers FIFO or weighted average valuation under AS 2 or Ind AS 2, stock reconciliation, BOM costing, and stock ageing for traders and Chakan and MIDC manufacturers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does inventory accounting cost in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patron Accounting charges Starting from INR 7,499/mo (Exl GST and Govt. Charges). The final fee depends on SKU count, number of warehouses, costing method, and whether you run trading, manufacturing, or retail. Hinjewadi and Chakan businesses receive a fixed scope quote before work begins."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which inventory valuation methods are allowed under AS 2 and Ind AS 2?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AS 2 and Ind AS 2 permit FIFO or the weighted average cost formula, and inventory is valued at the lower of cost and net realisable value. LIFO is not allowed. The chosen method must be applied consistently each year. Patron selects the right method for your Pune trading or manufacturing operation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between job, process, and standard costing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Job costing tracks cost per order and suits make-to-order Chakan units. Process costing averages cost across continuous production. Standard costing books a preset cost and posts variances separately. Patron sets up the method that matches how your Pune factory or trading business actually produces and sells."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does inventory valuation affect GST and income tax in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Closing stock directly affects taxable profit, so wrong valuation distorts your income tax. Section 145A of the Income Tax Act requires inventory to be valued inclusive of tax. Accurate stock records also support GST input tax credit and audit, which Patron reconciles against your books on the GST portal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is stock ageing and dead-stock analysis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Stock ageing sorts inventory by how long it has been held, flagging slow-moving and dead stock that ties up capital. Patron prepares ageing buckets, identifies obsolete SKUs, and recommends write-downs to net realisable value under AS 2 so your Pune balance sheet reflects true stock value."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you handle inventory accounting in Tally and Zoho Books for Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Patron sets up stock items, godowns, BOM, and costing directly inside Tally, Zoho Books, QuickBooks, or Xero, whichever your Pune business uses. We reconcile physical stock to book stock, post adjustments, and produce valuation and COGS reports each period."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How often should a Pune business reconcile physical stock to books?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most Pune SMEs reconcile monthly, with a full physical count at year end before audit. Chakan and MIDC manufacturers with high-value stock often count quarterly. Patron schedules counts, investigates variances, and posts approved adjustments so book and physical stock always agree at close."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/inventory-accounting-costing-services/pune#service",
+      "name": "Inventory Accounting and Costing Services in Pune",
+      "description": "Inventory accounting and costing in Pune covers FIFO and weighted average valuation under AS 2 and Ind AS 2, stock reconciliation, job, process and standard costing, BOM, COGS, and stock ageing. Patron Accounting serves traders, manufacturers, and retailers in Hinjewadi, Chakan, and the MIDC belts.",
+      "serviceType": "Inventory Accounting and Costing",
+      "url": "https://www.patronaccounting.com/inventory-accounting-costing-services/pune",
+      "areaServed": {
+        "@type": "City",
+        "name": "Pune",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Maharashtra"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#localbusiness-pune"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Inventory",
+          "sameAs": "https://en.wikipedia.org/wiki/Inventory"
+        },
+        {
+          "@type": "Thing",
+          "name": "Cost accounting",
+          "sameAs": "https://en.wikipedia.org/wiki/Cost_accounting"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Inventory Accounting Plans in Pune",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "price": "7499",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "INR",
+              "price": "7499",
+              "unitText": "per month"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Inventory Accounting and Costing per Month"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness-pune",
+      "name": "Patron Accounting LLP - Pune",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/inventory-accounting-costing-services/pune",
+      "telephone": "+91-9699936369",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Pune"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Pune",
+        "addressRegion": "Maharashtra",
+        "postalCode": "411014",
+        "addressCountry": "IN"
+      },
+      "parentOrganization": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1567,7 +1574,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

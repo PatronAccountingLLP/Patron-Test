@@ -1,196 +1,8 @@
 @extends('layouts.app')
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
-@section('meta')
-    <title>Current Ratio Calculator | Liquidity & Working Capital</title>
-    <meta name="description" content="Free current ratio calculator: compute current ratio, quick ratio, cash ratio & working capital, Schedule III aligned with benchmarks. CA-reviewed. Try now!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/current-ratio-calculator">
-    <meta property="og:title" content="Current Ratio Calculator — Free 2026">
-    <meta property="og:description" content="Compute current ratio, quick ratio, cash ratio and working capital from Schedule III components. Free CA-reviewed tool.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/current-ratio-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Current Ratio Calculator — Free 2026">
-    <meta name="twitter:description" content="Current ratio + quick ratio + cash ratio + working capital. Schedule III aligned. Free CA tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-    <meta name="theme-color" content="#15365f">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "Current Ratio Calculator",
-      "description": "Current Ratio Calculator computes the current ratio (current assets divided by current liabilities), quick ratio (acid test, excluding inventory and prepaid expenses), cash ratio (cash and equivalents divided by current liabilities) and working capital (current assets minus current liabilities) for Indian companies, LLPs and businesses. The tool supports Quick Mode (enter only totals) and Detailed Mode (enter eight current asset components and six current liability components based on Schedule III Division I and Division II of the Companies Act 2013). Output includes ratio interpretation by health zone (stressed below 1.0, tight 1.0-1.5, healthy 1.5-2.5, comfortable 2.5-3.0, idle above 3.0), industry benchmark comparison, working capital analysis and CARO 2020 Clause 3(xvii) reference. Suitable for CFO offices, lenders performing credit appraisal, auditors during analytical procedures under SA 520, investors evaluating liquidity, and CA students learning ratio analysis.",
-      "url": "https://www.patronaccounting.com/tools/current-ratio-calculator",
-      "applicationCategory": "FinanceApplication",
-      "operatingSystem": "Any",
-      "datePublished": "2026-05-07T08:00:00+05:30",
-      "dateModified": "2026-05-19T08:00:00+05:30",
-      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
-      "author": {
-        "@type": "Person",
-        "@id": "https://patronaccounting.com/#founder",
-        "name": "CA Sundram Gupta",
-        "jobTitle": "Founder & Chartered Accountant",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Institute of Chartered Accountants of India",
-            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-          }
-        }]
-      },
-      "publisher": { "@id": "https://patronaccounting.com/#organization" },
-      "provider": { "@id": "https://patronaccounting.com/#organization" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Current Ratio Calculator", "item": "https://www.patronaccounting.com/tools/current-ratio-calculator"}
-      ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "datePublished": "2026-05-07T08:00:00+05:30",
-      "dateModified": "2026-05-19T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is the current ratio?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The current ratio is a liquidity ratio measuring a company's ability to meet short-term obligations using short-term assets. It is calculated as Current Assets divided by Current Liabilities. A ratio above 1 indicates current assets exceed current liabilities. The current ratio is one of the financial ratios required to be disclosed under Schedule III amendments effective FY 2021-22, and is part of the auditor's reporting under CARO 2020 Clause 3(xvii) for material adverse changes."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is a good current ratio?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A current ratio between 1.5 and 2.5 is considered healthy for most industries — indicating sufficient buffer to meet short-term obligations without idle capital. Below 1.0 signals liquidity stress; 1.0 to 1.5 is tight but operable; above 3.0 may indicate underutilised assets or excess working capital. Industry context matters — services and IT companies often operate at 1.0-1.5 (low inventory), while manufacturing typically targets 1.5-2.5."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between current ratio and quick ratio?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Current ratio includes all current assets — including inventory and prepaid expenses. Quick ratio (acid test) excludes inventory and prepaid expenses, focusing only on assets readily convertible to cash. Quick Ratio = (Current Assets − Inventory − Prepaid Expenses) ÷ Current Liabilities. Quick ratio is more conservative and useful when inventory turnover is slow or prepaid expenses are large. A healthy quick ratio is typically 1.0 or above."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is working capital calculated?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Working Capital = Current Assets − Current Liabilities. It represents the absolute rupee buffer the business has to fund day-to-day operations. Positive working capital means current assets exceed current liabilities; negative working capital means short-term obligations exceed short-term resources. Working capital is a key metric for cash flow planning, credit appraisal by lenders, and inventory management. Net Working Capital Ratio = Working Capital ÷ Total Assets, used for comparing across company sizes."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why is current ratio important to lenders?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Banks and NBFCs use current ratio as a primary indicator of short-term solvency before sanctioning working capital loans, cash credit limits or letters of credit. Most lenders impose minimum current ratio covenants (typically 1.25 or 1.33) in loan agreements. Breaching the covenant during the loan period can trigger default events, accelerated repayment, or higher interest rates. Banks also stress-test the ratio under recessionary scenarios before final credit approval."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is included in current assets under Schedule III?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Schedule III of the Companies Act 2013 lists eight categories of current assets: Cash and Cash Equivalents (cash, demand deposits, short-term highly liquid investments), Bank Balances other than C&CE (deposits with maturity over 3 months but within 12 months), Current Investments, Trade Receivables, Inventories, Loans (current portion), Other Financial Assets (current), and Other Current Assets (advances, prepaid expenses, GST receivable, refunds due, etc.)."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is included in current liabilities under Schedule III?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Schedule III lists six categories of current liabilities: Borrowings (current — short-term loans plus current portion of long-term loans), Trade Payables (split between dues to MSMED-registered suppliers and others), Other Financial Liabilities (interest accrued, dividends payable), Other Current Liabilities (advances from customers, statutory dues, GST payable), Provisions (current — bonus, leave, warranty), and Current Tax Liabilities net of advance tax and TDS."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are typical industry benchmarks for current ratio?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Manufacturing typically targets 1.5 to 2.5 due to inventory and receivables. Trading and FMCG operate at 1.2 to 1.8 with high inventory turnover. IT and services often run at 1.0 to 1.5 with minimal inventory. Real estate and infrastructure can show 2.0 to 3.0+ due to project receivables. Banks and NBFCs do not use current ratio — they follow CRAR and liquidity coverage ratio frameworks. Always compare against industry peers, not absolute benchmarks."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What if the current ratio is too high?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A current ratio above 3.0 may signal inefficiency rather than strength — excess cash, slow-moving inventory, or uncollected receivables. It can mean the company is not deploying working capital productively to generate returns. Investors may interpret it negatively if cash is held idle while opportunities exist for capex, R&D, dividends or debt reduction. Auditors examine high current ratios as part of analytical procedures to identify potential overstatement of receivables or inventory."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is Schedule III classification of current vs non-current?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Schedule III defines current assets as those expected to be realised within 12 months from reporting date, held primarily for trading, or that are cash and cash equivalents. Current liabilities are those due within 12 months or that the company does not have an unconditional right to defer settlement beyond 12 months. The 12-month operating cycle is the default unless a longer normal cycle exists for the business. Division I applies to AS framework, Division II to Ind AS framework."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is cash ratio different from current ratio?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Cash Ratio is the most conservative liquidity ratio — only cash and cash equivalents divided by current liabilities. It excludes receivables, inventory and other current assets. Cash Ratio = (Cash + Cash Equivalents) ÷ Current Liabilities. A cash ratio above 0.5 indicates strong immediate liquidity. Lenders often examine cash ratio for distressed companies; investors use it for crisis scenario testing. Most healthy companies operate at 0.2 to 0.5 cash ratio."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How can a company improve its current ratio?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Strategies to improve current ratio include: convert short-term debt to long-term debt (reduces current liabilities), accelerate receivables collection, reduce slow-moving inventory, raise long-term equity or debt to strengthen current assets, defer non-essential current liabilities. Sale-and-leaseback of fixed assets can free up cash. Improving the ratio should be balanced — too aggressive a focus on the ratio can starve working capital and damage operations or supplier relationships."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are limitations of the current ratio?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Current ratio has several limitations: it ignores composition (inventory-heavy CA may overstate liquidity), uses point-in-time data (year-end window dressing possible), does not capture cash flow timing, treats all current liabilities as equally urgent, and can be manipulated through period-end cut-offs. A high ratio does not always indicate financial strength. The ratio should be analysed alongside quick ratio, cash flow from operations, debt-equity ratio, and trend over multiple periods for meaningful insight."
-          }
-        }
-      ]
-    }
-    </script>
-@endsection
-
 <style>
         :root {
             --primary: #15365f;
@@ -458,7 +270,195 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 }
 
 </style>
+@endpush
 
+@section('meta')
+    <title>Current Ratio Calculator | Liquidity & Working Capital</title>
+    <meta name="description" content="Free current ratio calculator: compute current ratio, quick ratio, cash ratio & working capital, Schedule III aligned with benchmarks. CA-reviewed. Try now!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/current-ratio-calculator">
+    <meta property="og:title" content="Current Ratio Calculator — Free 2026">
+    <meta property="og:description" content="Compute current ratio, quick ratio, cash ratio and working capital from Schedule III components. Free CA-reviewed tool.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/current-ratio-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Current Ratio Calculator — Free 2026">
+    <meta name="twitter:description" content="Current ratio + quick ratio + cash ratio + working capital. Schedule III aligned. Free CA tool.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+    <meta name="theme-color" content="#15365f">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Current Ratio Calculator",
+      "description": "Current Ratio Calculator computes the current ratio (current assets divided by current liabilities), quick ratio (acid test, excluding inventory and prepaid expenses), cash ratio (cash and equivalents divided by current liabilities) and working capital (current assets minus current liabilities) for Indian companies, LLPs and businesses. The tool supports Quick Mode (enter only totals) and Detailed Mode (enter eight current asset components and six current liability components based on Schedule III Division I and Division II of the Companies Act 2013). Output includes ratio interpretation by health zone (stressed below 1.0, tight 1.0-1.5, healthy 1.5-2.5, comfortable 2.5-3.0, idle above 3.0), industry benchmark comparison, working capital analysis and CARO 2020 Clause 3(xvii) reference. Suitable for CFO offices, lenders performing credit appraisal, auditors during analytical procedures under SA 520, investors evaluating liquidity, and CA students learning ratio analysis.",
+      "url": "https://www.patronaccounting.com/tools/current-ratio-calculator",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Any",
+      "datePublished": "2026-05-07T08:00:00+05:30",
+      "dateModified": "2026-05-19T08:00:00+05:30",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
+      "author": {
+        "@type": "Person",
+        "@id": "https://patronaccounting.com/#founder",
+        "name": "CA Sundram Gupta",
+        "jobTitle": "Founder & Chartered Accountant",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Institute of Chartered Accountants of India",
+            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+          }
+        }]
+      },
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": { "@id": "https://patronaccounting.com/#organization" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Current Ratio Calculator", "item": "https://www.patronaccounting.com/tools/current-ratio-calculator"}
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "datePublished": "2026-05-07T08:00:00+05:30",
+      "dateModified": "2026-05-19T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the current ratio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The current ratio is a liquidity ratio measuring a company's ability to meet short-term obligations using short-term assets. It is calculated as Current Assets divided by Current Liabilities. A ratio above 1 indicates current assets exceed current liabilities. The current ratio is one of the financial ratios required to be disclosed under Schedule III amendments effective FY 2021-22, and is part of the auditor's reporting under CARO 2020 Clause 3(xvii) for material adverse changes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a good current ratio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A current ratio between 1.5 and 2.5 is considered healthy for most industries — indicating sufficient buffer to meet short-term obligations without idle capital. Below 1.0 signals liquidity stress; 1.0 to 1.5 is tight but operable; above 3.0 may indicate underutilised assets or excess working capital. Industry context matters — services and IT companies often operate at 1.0-1.5 (low inventory), while manufacturing typically targets 1.5-2.5."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between current ratio and quick ratio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Current ratio includes all current assets — including inventory and prepaid expenses. Quick ratio (acid test) excludes inventory and prepaid expenses, focusing only on assets readily convertible to cash. Quick Ratio = (Current Assets − Inventory − Prepaid Expenses) ÷ Current Liabilities. Quick ratio is more conservative and useful when inventory turnover is slow or prepaid expenses are large. A healthy quick ratio is typically 1.0 or above."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is working capital calculated?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Working Capital = Current Assets − Current Liabilities. It represents the absolute rupee buffer the business has to fund day-to-day operations. Positive working capital means current assets exceed current liabilities; negative working capital means short-term obligations exceed short-term resources. Working capital is a key metric for cash flow planning, credit appraisal by lenders, and inventory management. Net Working Capital Ratio = Working Capital ÷ Total Assets, used for comparing across company sizes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is current ratio important to lenders?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Banks and NBFCs use current ratio as a primary indicator of short-term solvency before sanctioning working capital loans, cash credit limits or letters of credit. Most lenders impose minimum current ratio covenants (typically 1.25 or 1.33) in loan agreements. Breaching the covenant during the loan period can trigger default events, accelerated repayment, or higher interest rates. Banks also stress-test the ratio under recessionary scenarios before final credit approval."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is included in current assets under Schedule III?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Schedule III of the Companies Act 2013 lists eight categories of current assets: Cash and Cash Equivalents (cash, demand deposits, short-term highly liquid investments), Bank Balances other than C&CE (deposits with maturity over 3 months but within 12 months), Current Investments, Trade Receivables, Inventories, Loans (current portion), Other Financial Assets (current), and Other Current Assets (advances, prepaid expenses, GST receivable, refunds due, etc.)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is included in current liabilities under Schedule III?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Schedule III lists six categories of current liabilities: Borrowings (current — short-term loans plus current portion of long-term loans), Trade Payables (split between dues to MSMED-registered suppliers and others), Other Financial Liabilities (interest accrued, dividends payable), Other Current Liabilities (advances from customers, statutory dues, GST payable), Provisions (current — bonus, leave, warranty), and Current Tax Liabilities net of advance tax and TDS."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are typical industry benchmarks for current ratio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Manufacturing typically targets 1.5 to 2.5 due to inventory and receivables. Trading and FMCG operate at 1.2 to 1.8 with high inventory turnover. IT and services often run at 1.0 to 1.5 with minimal inventory. Real estate and infrastructure can show 2.0 to 3.0+ due to project receivables. Banks and NBFCs do not use current ratio — they follow CRAR and liquidity coverage ratio frameworks. Always compare against industry peers, not absolute benchmarks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if the current ratio is too high?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A current ratio above 3.0 may signal inefficiency rather than strength — excess cash, slow-moving inventory, or uncollected receivables. It can mean the company is not deploying working capital productively to generate returns. Investors may interpret it negatively if cash is held idle while opportunities exist for capex, R&D, dividends or debt reduction. Auditors examine high current ratios as part of analytical procedures to identify potential overstatement of receivables or inventory."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Schedule III classification of current vs non-current?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Schedule III defines current assets as those expected to be realised within 12 months from reporting date, held primarily for trading, or that are cash and cash equivalents. Current liabilities are those due within 12 months or that the company does not have an unconditional right to defer settlement beyond 12 months. The 12-month operating cycle is the default unless a longer normal cycle exists for the business. Division I applies to AS framework, Division II to Ind AS framework."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is cash ratio different from current ratio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cash Ratio is the most conservative liquidity ratio — only cash and cash equivalents divided by current liabilities. It excludes receivables, inventory and other current assets. Cash Ratio = (Cash + Cash Equivalents) ÷ Current Liabilities. A cash ratio above 0.5 indicates strong immediate liquidity. Lenders often examine cash ratio for distressed companies; investors use it for crisis scenario testing. Most healthy companies operate at 0.2 to 0.5 cash ratio."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can a company improve its current ratio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Strategies to improve current ratio include: convert short-term debt to long-term debt (reduces current liabilities), accelerate receivables collection, reduce slow-moving inventory, raise long-term equity or debt to strengthen current assets, defer non-essential current liabilities. Sale-and-leaseback of fixed assets can free up cash. Improving the ratio should be balanced — too aggressive a focus on the ratio can starve working capital and damage operations or supplier relationships."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are limitations of the current ratio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Current ratio has several limitations: it ignores composition (inventory-heavy CA may overstate liquidity), uses point-in-time data (year-end window dressing possible), does not capture cash flow timing, treats all current liabilities as equally urgent, and can be manipulated through period-end cut-offs. A high ratio does not always indicate financial strength. The ratio should be analysed alongside quick ratio, cash flow from operations, debt-equity ratio, and trend over multiple periods for meaningful insight."
+          }
+        }
+      ]
+    }
+    </script>
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Tool navigation">
     <div class="toc-nav-inner">

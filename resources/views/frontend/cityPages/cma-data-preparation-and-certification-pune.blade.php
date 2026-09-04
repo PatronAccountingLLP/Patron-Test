@@ -1,143 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>CMA Data Preparation and Certification 2026 | Patron Accounting</title>
-    <meta name="description" content="CA-prepared and certified CMA data for bank loans and working capital in Pune. RBI-format projections, MPBF, ratios. From INR 9,999.">
-    <link rel="canonical" href="/cma-data-preparation-and-certification/pune">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="CMA Data Preparation and Certification 2026 | Patron Accounting">
-    <meta property="og:description" content="CA-prepared and certified CMA data for bank loans and working capital in Pune. RBI-format projections, MPBF, ratios. From INR 9,999.">
-    <meta property="og:url" content="/cma-data-preparation-and-certification/pune">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="CMA Data Preparation and Certification 2026 | Patron Accounting">
-    <meta name="twitter:description" content="CA-prepared and certified CMA data for bank loans and working capital in Pune. RBI-format projections, MPBF, ratios. From INR 9,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/cma-data-preparation-and-certification/pune/#service",
-        "name": "CMA Data Preparation and Certification in Pune",
-        "description": "CA-prepared and certified CMA (Credit Monitoring Arrangement) data for working-capital and term-loan appraisal in Pune, including the full statement set, MPBF calculation, fund flow, and ratio analysis in the bank's prescribed format, built on audited financials and realistic projections.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/cma-data-preparation-and-certification/pune" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Working capital", "sameAs": "https://en.wikipedia.org/wiki/Working_capital" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "CMA Data Preparation and Certification Service Plans",
-            "itemListElement": [
-                { "@type": "Offer", "name": "CMA Data Preparation and Certification", "price": "9999", "priceCurrency": "INR", "description": "Starting from INR 9,999 (Exl GST and Govt. Charges)" }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/cma-data-preparation-and-certification/pune/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
-            { "@type": "ListItem", "position": 3, "name": "CMA Data Preparation and Certification", "item": "https://www.patronaccounting.com/cma-data-preparation-and-certification/pune" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/cma-data-preparation-and-certification/pune/#faq",
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "mainEntity": [
-            { "@type": "Question", "name": "What is CMA data and why do banks need it?", "acceptedAnswer": { "@type": "Answer", "text": "CMA data, or Credit Monitoring Arrangement data, is a structured set of historical and projected financial statements in a bank-prescribed format. Banks use it to appraise a working-capital or term-loan proposal, test whether the working-capital need is genuine and the projections realistic, and calculate the Maximum Permissible Bank Finance. Without CMA data a bank cannot complete its credit appraisal for larger facilities." } },
-{ "@type": "Question", "name": "What statements does a CMA report contain?", "acceptedAnswer": { "@type": "Answer", "text": "A CMA report typically contains particulars of existing and proposed limits, an operating statement of historical and projected profit and loss, an analysis of the balance sheet, a comparative statement of current assets and liabilities, the MPBF calculation, a fund flow statement, and ratio analysis. Together they give the bank a complete past, present, and future financial picture aligned with banking norms." } },
-{ "@type": "Question", "name": "When is CMA data required for a bank loan?", "acceptedAnswer": { "@type": "Answer", "text": "CMA data is commonly required for credit facilities of around Rs 2 crore and above, and for renewals or enhancements of existing limits, usually once a year. Many banks also ask for it on smaller loans. It applies to both term loans and working-capital facilities, and banks strongly prefer a CA-prepared and certified CMA report for credibility." } },
-{ "@type": "Question", "name": "What is MPBF in CMA data?", "acceptedAnswer": { "@type": "Answer", "text": "MPBF stands for Maximum Permissible Bank Finance, the maximum working-capital finance a bank can extend based on the borrower\u0027s financials. It is computed from the working-capital gap, the difference between current assets and current liabilities other than bank borrowings, using methods introduced by the Tandon Committee. The MPBF statement sets the upper limit of the facility." } },
-{ "@type": "Question", "name": "Is CMA data the same as a project report?", "acceptedAnswer": { "@type": "Answer", "text": "No. CMA data is a standardized set of financial statements and ratio analysis in a bank format, focused on working capital and MPBF. A detailed project report covers the whole viability of a new project, including narrative, technical, and feasibility analysis, with project returns. Banks demand CMA data for credit appraisal of working-capital and term loans, and a project report separately for new project finance. The two are complementary." } },
-{ "@type": "Question", "name": "Why use a CA instead of DIY CMA software in Pune?", "acceptedAnswer": { "@type": "Answer", "text": "DIY software tools produce uncertified templates, often with unrealistic projections or inconsistent statements that credit officers distrust, and they cannot certify the report. A CA prepares defensible projections from audited history, computes MPBF correctly, ensures the statements reconcile, and certifies the report in the bank\u0027s format. Our Pune team delivers a bank-ready, certified CMA report, working both in-person and remotely, improving the odds of a smooth sanction." } }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/cma-data-preparation-and-certification/pune",
-        "name": "CMA Data Preparation and Certification in Pune",
-        "description": "CA-prepared and certified CMA data for bank loans and working capital in Pune. RBI-format projections, MPBF, ratios. From INR 9,999.",
-        "url": "https://www.patronaccounting.com/cma-data-preparation-and-certification/pune",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/cma-data-preparation-and-certification/pune/#service" },
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/cma-data-preparation-and-certification/pune/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How CMA Data Is Prepared and Certified",
-        "description": "The step-by-step process Patron Accounting follows to build, certify, and deliver bank-format CMA data in Pune.",
-        "totalTime": "P4D",
-        "step": [
-            { "@type": "HowToStep", "position": 1, "name": "Understand the facility", "text": "Understand the facility sought (working capital, term loan, or both), the amount, and the bank\u0027s format." },
-{ "@type": "HowToStep", "position": 2, "name": "Collect financials", "text": "Collect 3 years audited financials, current-year provisional figures, and projection inputs." },
-{ "@type": "HowToStep", "position": 3, "name": "Build statements", "text": "Build the operating statement and projected balance sheets on realistic assumptions." },
-{ "@type": "HowToStep", "position": 4, "name": "Compute MPBF", "text": "Compute the working capital gap and MPBF, and prepare the comparative current assets and liabilities statement." },
-{ "@type": "HowToStep", "position": 5, "name": "Fund flow and ratios", "text": "Prepare the fund flow statement and full ratio analysis, then review for internal consistency." },
-{ "@type": "HowToStep", "position": 6, "name": "Certify and deliver", "text": "Certify the CMA report and deliver in the bank\u0027s format, supporting any lender queries." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "CMA Data Preparation and Certification Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "CMA data", "description": "Credit Monitoring Arrangement data - historical and projected financial statements in a bank-prescribed format." },
-{ "@type": "DefinedTerm", "name": "MPBF", "description": "Maximum Permissible Bank Finance - the working-capital-gap-based ceiling on bank finance." },
-{ "@type": "DefinedTerm", "name": "Tandon Committee", "description": "The 1974 committee that introduced inventory and receivable norms and the MPBF concept." },
-{ "@type": "DefinedTerm", "name": "Working capital gap", "description": "Current assets less current liabilities other than bank borrowings, the basis for MPBF." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -751,7 +618,145 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>CMA Data Preparation and Certification 2026 | Patron Accounting</title>
+    <meta name="description" content="CA-prepared and certified CMA data for bank loans and working capital in Pune. RBI-format projections, MPBF, ratios. From INR 9,999.">
+    <link rel="canonical" href="/cma-data-preparation-and-certification/pune">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="CMA Data Preparation and Certification 2026 | Patron Accounting">
+    <meta property="og:description" content="CA-prepared and certified CMA data for bank loans and working capital in Pune. RBI-format projections, MPBF, ratios. From INR 9,999.">
+    <meta property="og:url" content="/cma-data-preparation-and-certification/pune">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="CMA Data Preparation and Certification 2026 | Patron Accounting">
+    <meta name="twitter:description" content="CA-prepared and certified CMA data for bank loans and working capital in Pune. RBI-format projections, MPBF, ratios. From INR 9,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/cma-data-preparation-and-certification/pune/#service",
+        "name": "CMA Data Preparation and Certification in Pune",
+        "description": "CA-prepared and certified CMA (Credit Monitoring Arrangement) data for working-capital and term-loan appraisal in Pune, including the full statement set, MPBF calculation, fund flow, and ratio analysis in the bank's prescribed format, built on audited financials and realistic projections.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/cma-data-preparation-and-certification/pune" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Working capital", "sameAs": "https://en.wikipedia.org/wiki/Working_capital" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "CMA Data Preparation and Certification Service Plans",
+            "itemListElement": [
+                { "@type": "Offer", "name": "CMA Data Preparation and Certification", "price": "9999", "priceCurrency": "INR", "description": "Starting from INR 9,999 (Exl GST and Govt. Charges)" }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/cma-data-preparation-and-certification/pune/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
+            { "@type": "ListItem", "position": 3, "name": "CMA Data Preparation and Certification", "item": "https://www.patronaccounting.com/cma-data-preparation-and-certification/pune" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/cma-data-preparation-and-certification/pune/#faq",
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "mainEntity": [
+            { "@type": "Question", "name": "What is CMA data and why do banks need it?", "acceptedAnswer": { "@type": "Answer", "text": "CMA data, or Credit Monitoring Arrangement data, is a structured set of historical and projected financial statements in a bank-prescribed format. Banks use it to appraise a working-capital or term-loan proposal, test whether the working-capital need is genuine and the projections realistic, and calculate the Maximum Permissible Bank Finance. Without CMA data a bank cannot complete its credit appraisal for larger facilities." } },
+{ "@type": "Question", "name": "What statements does a CMA report contain?", "acceptedAnswer": { "@type": "Answer", "text": "A CMA report typically contains particulars of existing and proposed limits, an operating statement of historical and projected profit and loss, an analysis of the balance sheet, a comparative statement of current assets and liabilities, the MPBF calculation, a fund flow statement, and ratio analysis. Together they give the bank a complete past, present, and future financial picture aligned with banking norms." } },
+{ "@type": "Question", "name": "When is CMA data required for a bank loan?", "acceptedAnswer": { "@type": "Answer", "text": "CMA data is commonly required for credit facilities of around Rs 2 crore and above, and for renewals or enhancements of existing limits, usually once a year. Many banks also ask for it on smaller loans. It applies to both term loans and working-capital facilities, and banks strongly prefer a CA-prepared and certified CMA report for credibility." } },
+{ "@type": "Question", "name": "What is MPBF in CMA data?", "acceptedAnswer": { "@type": "Answer", "text": "MPBF stands for Maximum Permissible Bank Finance, the maximum working-capital finance a bank can extend based on the borrower\u0027s financials. It is computed from the working-capital gap, the difference between current assets and current liabilities other than bank borrowings, using methods introduced by the Tandon Committee. The MPBF statement sets the upper limit of the facility." } },
+{ "@type": "Question", "name": "Is CMA data the same as a project report?", "acceptedAnswer": { "@type": "Answer", "text": "No. CMA data is a standardized set of financial statements and ratio analysis in a bank format, focused on working capital and MPBF. A detailed project report covers the whole viability of a new project, including narrative, technical, and feasibility analysis, with project returns. Banks demand CMA data for credit appraisal of working-capital and term loans, and a project report separately for new project finance. The two are complementary." } },
+{ "@type": "Question", "name": "Why use a CA instead of DIY CMA software in Pune?", "acceptedAnswer": { "@type": "Answer", "text": "DIY software tools produce uncertified templates, often with unrealistic projections or inconsistent statements that credit officers distrust, and they cannot certify the report. A CA prepares defensible projections from audited history, computes MPBF correctly, ensures the statements reconcile, and certifies the report in the bank\u0027s format. Our Pune team delivers a bank-ready, certified CMA report, working both in-person and remotely, improving the odds of a smooth sanction." } }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/cma-data-preparation-and-certification/pune",
+        "name": "CMA Data Preparation and Certification in Pune",
+        "description": "CA-prepared and certified CMA data for bank loans and working capital in Pune. RBI-format projections, MPBF, ratios. From INR 9,999.",
+        "url": "https://www.patronaccounting.com/cma-data-preparation-and-certification/pune",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/cma-data-preparation-and-certification/pune/#service" },
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/cma-data-preparation-and-certification/pune/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How CMA Data Is Prepared and Certified",
+        "description": "The step-by-step process Patron Accounting follows to build, certify, and deliver bank-format CMA data in Pune.",
+        "totalTime": "P4D",
+        "step": [
+            { "@type": "HowToStep", "position": 1, "name": "Understand the facility", "text": "Understand the facility sought (working capital, term loan, or both), the amount, and the bank\u0027s format." },
+{ "@type": "HowToStep", "position": 2, "name": "Collect financials", "text": "Collect 3 years audited financials, current-year provisional figures, and projection inputs." },
+{ "@type": "HowToStep", "position": 3, "name": "Build statements", "text": "Build the operating statement and projected balance sheets on realistic assumptions." },
+{ "@type": "HowToStep", "position": 4, "name": "Compute MPBF", "text": "Compute the working capital gap and MPBF, and prepare the comparative current assets and liabilities statement." },
+{ "@type": "HowToStep", "position": 5, "name": "Fund flow and ratios", "text": "Prepare the fund flow statement and full ratio analysis, then review for internal consistency." },
+{ "@type": "HowToStep", "position": 6, "name": "Certify and deliver", "text": "Certify the CMA report and deliver in the bank\u0027s format, supporting any lender queries." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "CMA Data Preparation and Certification Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "CMA data", "description": "Credit Monitoring Arrangement data - historical and projected financial statements in a bank-prescribed format." },
+{ "@type": "DefinedTerm", "name": "MPBF", "description": "Maximum Permissible Bank Finance - the working-capital-gap-based ceiling on bank finance." },
+{ "@type": "DefinedTerm", "name": "Tandon Committee", "description": "The 1974 committee that introduced inventory and receivable norms and the MPBF concept." },
+{ "@type": "DefinedTerm", "name": "Working capital gap", "description": "Current assets less current liabilities other than bank borrowings, the basis for MPBF." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1417,17 +1422,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1450,8 +1448,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1488,7 +1484,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1499,3 +1494,19 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

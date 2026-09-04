@@ -1,160 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Capital Goods ITC 2026: Plant Machinery | Patron Accounting</title>
-    <meta name="description" content="GST ITC on capital goods under Section 16 CGST Act. Plant and machinery availment, Rule 43 reversal, Section 18(6) sale rules. Patron from Rs 4,999.">
-    <link rel="canonical" href="/gst-itc-on-capital-goods">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Capital Goods ITC 2026: Plant Machinery | Patron Accounting">
-    <meta property="og:description" content="GST ITC on capital goods under Section 16 CGST Act. Plant and machinery availment, Rule 43 reversal, Section 18(6) sale rules. Patron from Rs 4,999.">
-    <meta property="og:url" content="/gst-itc-on-capital-goods">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Capital Goods ITC 2026: Plant Machinery | Patron Accounting">
-    <meta name="twitter:description" content="GST ITC on capital goods under Section 16 CGST Act. Plant and machinery availment, Rule 43 reversal, Section 18(6) sale rules. Patron from Rs 4,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/gst-itc-on-capital-goods/#service",
-        "name": "GST ITC on Capital Goods: Plant and Machinery Advisory in India",
-        "description": "GST ITC on capital goods advisory under Section 16 of the CGST Act 2017 covering full-month availment, Section 16(3) depreciation linkage, Section 17(5)(d) plant and machinery carve-out post Finance Act 2025 (retrospective 1 July 2017), Rule 43 mixed-use 60-month reversal, Section 18(6) sale higher-of-three computation under Rule 40(2) and Rule 44(6), Rule 44 cancellation reversal, and IMS Import of Goods Bill of Entry reconciliation for imported capital goods starting from INR 4,999 per engagement.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-itc-on-capital-goods" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [
-            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
-            { "@type": "Thing", "name": "Capital good", "sameAs": "https://en.wikipedia.org/wiki/Capital_good" }
-        ],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "GST ITC on Capital Goods Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "Pre-Purchase Eligibility Scoping",
-                    "priceCurrency": "INR",
-                    "price": "4999",
-                    "description": "Up to 5 assets, Section 16/17 review, accounting policy memo"
-                },
-                {
-                    "@type": "Offer",
-                    "name": "Capital Goods Register Setup",
-                    "priceCurrency": "INR",
-                    "price": "9999",
-                    "description": "Single GSTIN, asset-level register, 60-month schedule, Rule 43 setup"
-                },
-                {
-                    "@type": "Offer",
-                    "name": "Rule 44 Cancellation Reversal",
-                    "priceCurrency": "INR",
-                    "price": "14999",
-                    "description": "Full asset-base reversal, GSTR-10 filing, audit-trail documentation"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/gst-itc-on-capital-goods/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
-            { "@type": "ListItem", "position": 3, "name": "GST ITC on Capital Goods", "item": "https://www.patronaccounting.com/gst-itc-on-capital-goods" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/gst-itc-on-capital-goods/#faq",
-        "datePublished": "2026-05-27T08:00:00+05:30",
-        "dateModified": "2026-06-01T08:00:00+05:30",
-        "mainEntity": [
-
-            {
-                "@type": "Question",
-                "name": "What is GST ITC on capital goods and how is it availed?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "GST ITC on capital goods is the input tax credit available under Section 16 of the CGST Act 2017 on goods capitalised in the books of account and used in the course or furtherance of business - typically machinery, computers, plant, equipment, and software. The full ITC is availed in the month of receipt of the asset, subject to the four Section 16(2) conditions - tax invoice, receipt of goods, supplier-paid tax, and recipient-filed return. The ITC is reported in GSTR-3B Table 4(A)(5)."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can a taxpayer claim both income tax depreciation and GST ITC on capital goods?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "No. Section 16(3) of the CGST Act prohibits claiming income tax depreciation on the GST component of capital goods that has been taken as ITC. The taxpayer must choose between (a) capitalising the full invoice including GST and claiming depreciation on the entire value, or (b) recording GST separately as ITC and capitalising only the pre-GST value for depreciation. The two cannot be combined."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Is ITC allowed on construction of factory buildings and warehouses?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "ITC on construction of immovable property on own account is blocked under Section 17(5)(d) of the CGST Act, except for plant and machinery. The Finance Act 2025 substituted plant or machinery with plant and machinery retrospectively from 1 July 2017, following the Supreme Court ruling in the Safari Retreats case. Apparatus, equipment, and machinery fixed by foundation or structural support remain eligible; civil structures, land, buildings, and pipelines outside factory premises are blocked."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What happens when capital goods are sold before 60 months?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Section 18(6) of the CGST Act requires the registered taxpayer to pay an amount equal to the higher of (a) ITC reduced by 5 percentage points per quarter from invoice date under Rule 40(2), (b) ITC for remaining useful life under Rule 44(6) pro-rata over 60 months, or (c) the GST on transaction value of the capital goods determined under Section 15. The higher of these amounts is the output tax liability for the period of sale, reported in GSTR-1 and GSTR-3B."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How is ITC on imported capital goods claimed?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "For imported capital goods, the IGST and Cess paid at customs are creditable via the Bill of Entry filed at ICEGATE. The ITC is reported in GSTR-3B Table 4(A)(2). Since October 2025, the IMS Import of Goods section on the GST portal allows BoE-level action and reconciliation, similar to the regular IMS workflow for domestic invoices. Bills of Entry must be accepted on IMS for ITC to flow to the electronic credit ledger."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How is Rule 43 applied to capital goods used commonly for taxable and exempt supplies?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "When a capital good is used commonly for taxable and exempt supplies, Rule 43 of the CGST Rules requires monthly proportionate reversal over the 60-month deemed useful life. Compute Tc as ITC on capital good divided by 60, sum Tc across all common-use assets to derive Tr, and apply Te as Tr multiplied by (E divided by F) where E is exempt supplies and F is total turnover. Te is added to output tax liability for each of the 60 months. Annual reconciliation is mandatory in September of next FY."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What happens to capital goods ITC on cancellation of GST registration?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Rule 44 of the CGST Rules requires reversal of capital goods ITC at the time of cancellation of registration. The reversal is computed on a pro-rata basis for the remaining useful life - taking useful life as 5 years or 60 months. For example, if a capital good has been in use for 4 years and the GSTIN is cancelled, the ITC for the remaining 1 year (12/60 of the original ITC) must be reversed in the final return GSTR-10."
-                }
-            }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -768,7 +618,162 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Capital Goods ITC 2026: Plant Machinery | Patron Accounting</title>
+    <meta name="description" content="GST ITC on capital goods under Section 16 CGST Act. Plant and machinery availment, Rule 43 reversal, Section 18(6) sale rules. Patron from Rs 4,999.">
+    <link rel="canonical" href="/gst-itc-on-capital-goods">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Capital Goods ITC 2026: Plant Machinery | Patron Accounting">
+    <meta property="og:description" content="GST ITC on capital goods under Section 16 CGST Act. Plant and machinery availment, Rule 43 reversal, Section 18(6) sale rules. Patron from Rs 4,999.">
+    <meta property="og:url" content="/gst-itc-on-capital-goods">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Capital Goods ITC 2026: Plant Machinery | Patron Accounting">
+    <meta name="twitter:description" content="GST ITC on capital goods under Section 16 CGST Act. Plant and machinery availment, Rule 43 reversal, Section 18(6) sale rules. Patron from Rs 4,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/gst-itc-on-capital-goods/#service",
+        "name": "GST ITC on Capital Goods: Plant and Machinery Advisory in India",
+        "description": "GST ITC on capital goods advisory under Section 16 of the CGST Act 2017 covering full-month availment, Section 16(3) depreciation linkage, Section 17(5)(d) plant and machinery carve-out post Finance Act 2025 (retrospective 1 July 2017), Rule 43 mixed-use 60-month reversal, Section 18(6) sale higher-of-three computation under Rule 40(2) and Rule 44(6), Rule 44 cancellation reversal, and IMS Import of Goods Bill of Entry reconciliation for imported capital goods starting from INR 4,999 per engagement.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-itc-on-capital-goods" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [
+            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
+            { "@type": "Thing", "name": "Capital good", "sameAs": "https://en.wikipedia.org/wiki/Capital_good" }
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "GST ITC on Capital Goods Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "Pre-Purchase Eligibility Scoping",
+                    "priceCurrency": "INR",
+                    "price": "4999",
+                    "description": "Up to 5 assets, Section 16/17 review, accounting policy memo"
+                },
+                {
+                    "@type": "Offer",
+                    "name": "Capital Goods Register Setup",
+                    "priceCurrency": "INR",
+                    "price": "9999",
+                    "description": "Single GSTIN, asset-level register, 60-month schedule, Rule 43 setup"
+                },
+                {
+                    "@type": "Offer",
+                    "name": "Rule 44 Cancellation Reversal",
+                    "priceCurrency": "INR",
+                    "price": "14999",
+                    "description": "Full asset-base reversal, GSTR-10 filing, audit-trail documentation"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/gst-itc-on-capital-goods/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
+            { "@type": "ListItem", "position": 3, "name": "GST ITC on Capital Goods", "item": "https://www.patronaccounting.com/gst-itc-on-capital-goods" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/gst-itc-on-capital-goods/#faq",
+        "datePublished": "2026-05-27T08:00:00+05:30",
+        "dateModified": "2026-06-01T08:00:00+05:30",
+        "mainEntity": [
+
+            {
+                "@type": "Question",
+                "name": "What is GST ITC on capital goods and how is it availed?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "GST ITC on capital goods is the input tax credit available under Section 16 of the CGST Act 2017 on goods capitalised in the books of account and used in the course or furtherance of business - typically machinery, computers, plant, equipment, and software. The full ITC is availed in the month of receipt of the asset, subject to the four Section 16(2) conditions - tax invoice, receipt of goods, supplier-paid tax, and recipient-filed return. The ITC is reported in GSTR-3B Table 4(A)(5)."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can a taxpayer claim both income tax depreciation and GST ITC on capital goods?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No. Section 16(3) of the CGST Act prohibits claiming income tax depreciation on the GST component of capital goods that has been taken as ITC. The taxpayer must choose between (a) capitalising the full invoice including GST and claiming depreciation on the entire value, or (b) recording GST separately as ITC and capitalising only the pre-GST value for depreciation. The two cannot be combined."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is ITC allowed on construction of factory buildings and warehouses?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "ITC on construction of immovable property on own account is blocked under Section 17(5)(d) of the CGST Act, except for plant and machinery. The Finance Act 2025 substituted plant or machinery with plant and machinery retrospectively from 1 July 2017, following the Supreme Court ruling in the Safari Retreats case. Apparatus, equipment, and machinery fixed by foundation or structural support remain eligible; civil structures, land, buildings, and pipelines outside factory premises are blocked."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What happens when capital goods are sold before 60 months?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Section 18(6) of the CGST Act requires the registered taxpayer to pay an amount equal to the higher of (a) ITC reduced by 5 percentage points per quarter from invoice date under Rule 40(2), (b) ITC for remaining useful life under Rule 44(6) pro-rata over 60 months, or (c) the GST on transaction value of the capital goods determined under Section 15. The higher of these amounts is the output tax liability for the period of sale, reported in GSTR-1 and GSTR-3B."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How is ITC on imported capital goods claimed?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "For imported capital goods, the IGST and Cess paid at customs are creditable via the Bill of Entry filed at ICEGATE. The ITC is reported in GSTR-3B Table 4(A)(2). Since October 2025, the IMS Import of Goods section on the GST portal allows BoE-level action and reconciliation, similar to the regular IMS workflow for domestic invoices. Bills of Entry must be accepted on IMS for ITC to flow to the electronic credit ledger."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How is Rule 43 applied to capital goods used commonly for taxable and exempt supplies?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "When a capital good is used commonly for taxable and exempt supplies, Rule 43 of the CGST Rules requires monthly proportionate reversal over the 60-month deemed useful life. Compute Tc as ITC on capital good divided by 60, sum Tc across all common-use assets to derive Tr, and apply Te as Tr multiplied by (E divided by F) where E is exempt supplies and F is total turnover. Te is added to output tax liability for each of the 60 months. Annual reconciliation is mandatory in September of next FY."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What happens to capital goods ITC on cancellation of GST registration?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Rule 44 of the CGST Rules requires reversal of capital goods ITC at the time of cancellation of registration. The reversal is computed on a pro-rata basis for the remaining useful life - taking useful life as 5 years or 60 months. For example, if a capital good has been in use for 4 years and the GSTIN is cancelled, the ITC for the remaining 1 year (12/60 of the original ITC) must be reversed in the final return GSTR-10."
+                }
+            }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1718,17 +1723,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1751,8 +1749,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1789,7 +1785,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1800,4 +1795,20 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+
 

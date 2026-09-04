@@ -1,160 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>ITC Reconciliation 2026: GSTR-2B vs 3B | Patron Accounting</title>
-    <meta name="description" content="Monthly GSTR-2B vs GSTR-3B reconciliation under Section 16 CGST Act. Catch ITC mismatches before hard-locking. Patron from Rs 4,999/mo.">
-    <link rel="canonical" href="/gst-itc-reconciliation-gstr-2b-vs-3b">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="ITC Reconciliation 2026: GSTR-2B vs 3B | Patron Accounting">
-    <meta property="og:description" content="Monthly GSTR-2B vs GSTR-3B reconciliation under Section 16 CGST Act. Catch ITC mismatches before hard-locking. Patron from Rs 4,999/mo.">
-    <meta property="og:url" content="/gst-itc-reconciliation-gstr-2b-vs-3b">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="ITC Reconciliation 2026: GSTR-2B vs 3B | Patron Accounting">
-    <meta name="twitter:description" content="Monthly GSTR-2B vs GSTR-3B reconciliation under Section 16 CGST Act. Catch ITC mismatches before hard-locking. Patron from Rs 4,999/mo.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/gst-itc-reconciliation-gstr-2b-vs-3b/#service",
-        "name": "GST ITC Reconciliation: GSTR-2B vs GSTR-3B in India",
-        "description": "Monthly GST input tax credit reconciliation between GSTR-2B and GSTR-3B under Section 16 of the CGST Act 2017 and Rule 36(4) of the CGST Rules. IMS dashboard action, three-way match with purchase register, Rule 37 and 37A reversal tracking, vendor compliance monitoring, and hard-locking compliance starting from INR 4,999 per month for regular GST taxpayers across India.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-itc-reconciliation-gstr-2b-vs-3b" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [
-            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
-            { "@type": "Thing", "name": "Input Tax Credit", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" }
-        ],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "ITC Reconciliation (GSTR-2B vs 3B) Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "Standard Monthly ITC Reconciliation",
-                    "priceCurrency": "INR",
-                    "price": "4999",
-                    "description": "Up to 100 invoices, GSTR-2B match, IMS action, GSTR-3B filing"
-                },
-                {
-                    "@type": "Offer",
-                    "name": "Growth Monthly",
-                    "priceCurrency": "INR",
-                    "price": "9999",
-                    "description": "Up to 500 invoices, Rule 37/37A tracker, vendor scorecard, ECRS ledger"
-                },
-                {
-                    "@type": "Offer",
-                    "name": "Enterprise Monthly",
-                    "priceCurrency": "INR",
-                    "price": "19999",
-                    "description": "500-2,000 invoices, multi-state GSTIN, BoE reconciliation, dedicated CA"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/gst-itc-reconciliation-gstr-2b-vs-3b/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
-            { "@type": "ListItem", "position": 3, "name": "ITC Reconciliation (GSTR-2B vs 3B)", "item": "https://www.patronaccounting.com/gst-itc-reconciliation-gstr-2b-vs-3b" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/gst-itc-reconciliation-gstr-2b-vs-3b/#faq",
-        "datePublished": "2026-05-27T08:00:00+05:30",
-        "dateModified": "2026-06-01T08:00:00+05:30",
-        "mainEntity": [
-
-            {
-                "@type": "Question",
-                "name": "What is GSTR-2B vs GSTR-3B reconciliation and why is it needed monthly?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "GSTR-2B vs GSTR-3B reconciliation is the monthly matching of the system-generated ITC statement (GSTR-2B available on the 14th) with the ITC claimed in GSTR-3B Table 4 (due on the 20th), against the purchase register in books. Under Rule 36(4) of the CGST Rules and Section 16 of the CGST Act, ITC is restricted to invoices reflected in GSTR-2B. Any mismatch leads to blocked ITC, interest, and Section 73 or 74 notices."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the GSTR-2B generation date and the reconciliation window?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "GSTR-2B is generated on the 14th of the month following the tax period under Rule 60 of the CGST Rules. The supplier filing cut-off for GSTR-1 is the 11th, and GSTR-3B is due on the 20th. This gives a reconciliation window of 6 working days from the 14th to the 20th. Under the QRMP scheme, GSTR-2B is generated quarterly and GSTR-3B is due on the 22nd or 24th."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How does IMS Invoice Management System change ITC reconciliation?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "IMS launched on 14 October 2024 introduced recipient-level action on each invoice, debit note, and credit note. From October 2025 per Notification 16/2025-Central Tax substituting Section 38, only invoices the recipient has accepted or deemed accepted on IMS flow into GSTR-2B and GSTR-3B. Rejected invoices do not generate ITC. Inaction is treated as deemed acceptance, so explicit rejection is required for duplicates or fraudulent entries."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is GSTR-3B hard-locking and how does it affect ITC claims?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "GSTR-3B hard-locking refers to the progressive restriction on manually editing Table 4 ITC values in GSTR-3B. With Section 38 substitution operational from October 2025 and the Rejected Records tab live since 18 February 2026, the GST portal pre-populates Table 4 from IMS-accepted records. Taxpayers can no longer claim ITC not reflected in 2B by manually entering values - the mismatch must be fixed before filing through IMS action or supplier follow-up."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is Rule 36(4) and how does it impact ITC claims?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Rule 36(4) of the CGST Rules 2017 restricts a registered taxpayer from claiming input tax credit beyond the amount reflected in GSTR-2B for the tax period. ITC on invoices not appearing in GSTR-2B cannot be claimed even if the invoice is in the books and the tax is paid. The rule was strengthened progressively from 2019 (110 percent of 2A) to the current strict 1 to 1 mapping with GSTR-2B post the IMS framework."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How does Section 16(4) time bar work for ITC?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Section 16(4) of the CGST Act sets the outer time limit for claiming ITC at the earlier of (a) 30 November of the financial year following the year in which the invoice was issued, or (b) the date of filing the annual return (GSTR-9) for that year. ITC not claimed by this deadline is permanently forfeited. Pending IMS records aging towards this cut-off must be actioned to either accept (and claim) or reject (and absorb the loss)."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What happens if a supplier does not file GSTR-1 on time?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "When a supplier does not file GSTR-1 by the 11th of the month, the invoice does not appear in the recipient GSTR-2B. The recipient cannot claim ITC on this invoice for the current period. If the supplier files in a later period, the invoice flows into a later GSTR-2B and the recipient can claim ITC then, subject to Section 16(4). Under Rule 37A, persistent supplier non-filing triggers an ITC reversal for the recipient."
-                }
-            }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -768,7 +618,162 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>ITC Reconciliation 2026: GSTR-2B vs 3B | Patron Accounting</title>
+    <meta name="description" content="Monthly GSTR-2B vs GSTR-3B reconciliation under Section 16 CGST Act. Catch ITC mismatches before hard-locking. Patron from Rs 4,999/mo.">
+    <link rel="canonical" href="/gst-itc-reconciliation-gstr-2b-vs-3b">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="ITC Reconciliation 2026: GSTR-2B vs 3B | Patron Accounting">
+    <meta property="og:description" content="Monthly GSTR-2B vs GSTR-3B reconciliation under Section 16 CGST Act. Catch ITC mismatches before hard-locking. Patron from Rs 4,999/mo.">
+    <meta property="og:url" content="/gst-itc-reconciliation-gstr-2b-vs-3b">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ITC Reconciliation 2026: GSTR-2B vs 3B | Patron Accounting">
+    <meta name="twitter:description" content="Monthly GSTR-2B vs GSTR-3B reconciliation under Section 16 CGST Act. Catch ITC mismatches before hard-locking. Patron from Rs 4,999/mo.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/gst-itc-reconciliation-gstr-2b-vs-3b/#service",
+        "name": "GST ITC Reconciliation: GSTR-2B vs GSTR-3B in India",
+        "description": "Monthly GST input tax credit reconciliation between GSTR-2B and GSTR-3B under Section 16 of the CGST Act 2017 and Rule 36(4) of the CGST Rules. IMS dashboard action, three-way match with purchase register, Rule 37 and 37A reversal tracking, vendor compliance monitoring, and hard-locking compliance starting from INR 4,999 per month for regular GST taxpayers across India.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-itc-reconciliation-gstr-2b-vs-3b" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [
+            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
+            { "@type": "Thing", "name": "Input Tax Credit", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" }
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "ITC Reconciliation (GSTR-2B vs 3B) Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "Standard Monthly ITC Reconciliation",
+                    "priceCurrency": "INR",
+                    "price": "4999",
+                    "description": "Up to 100 invoices, GSTR-2B match, IMS action, GSTR-3B filing"
+                },
+                {
+                    "@type": "Offer",
+                    "name": "Growth Monthly",
+                    "priceCurrency": "INR",
+                    "price": "9999",
+                    "description": "Up to 500 invoices, Rule 37/37A tracker, vendor scorecard, ECRS ledger"
+                },
+                {
+                    "@type": "Offer",
+                    "name": "Enterprise Monthly",
+                    "priceCurrency": "INR",
+                    "price": "19999",
+                    "description": "500-2,000 invoices, multi-state GSTIN, BoE reconciliation, dedicated CA"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/gst-itc-reconciliation-gstr-2b-vs-3b/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
+            { "@type": "ListItem", "position": 3, "name": "ITC Reconciliation (GSTR-2B vs 3B)", "item": "https://www.patronaccounting.com/gst-itc-reconciliation-gstr-2b-vs-3b" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/gst-itc-reconciliation-gstr-2b-vs-3b/#faq",
+        "datePublished": "2026-05-27T08:00:00+05:30",
+        "dateModified": "2026-06-01T08:00:00+05:30",
+        "mainEntity": [
+
+            {
+                "@type": "Question",
+                "name": "What is GSTR-2B vs GSTR-3B reconciliation and why is it needed monthly?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "GSTR-2B vs GSTR-3B reconciliation is the monthly matching of the system-generated ITC statement (GSTR-2B available on the 14th) with the ITC claimed in GSTR-3B Table 4 (due on the 20th), against the purchase register in books. Under Rule 36(4) of the CGST Rules and Section 16 of the CGST Act, ITC is restricted to invoices reflected in GSTR-2B. Any mismatch leads to blocked ITC, interest, and Section 73 or 74 notices."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the GSTR-2B generation date and the reconciliation window?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "GSTR-2B is generated on the 14th of the month following the tax period under Rule 60 of the CGST Rules. The supplier filing cut-off for GSTR-1 is the 11th, and GSTR-3B is due on the 20th. This gives a reconciliation window of 6 working days from the 14th to the 20th. Under the QRMP scheme, GSTR-2B is generated quarterly and GSTR-3B is due on the 22nd or 24th."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How does IMS Invoice Management System change ITC reconciliation?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "IMS launched on 14 October 2024 introduced recipient-level action on each invoice, debit note, and credit note. From October 2025 per Notification 16/2025-Central Tax substituting Section 38, only invoices the recipient has accepted or deemed accepted on IMS flow into GSTR-2B and GSTR-3B. Rejected invoices do not generate ITC. Inaction is treated as deemed acceptance, so explicit rejection is required for duplicates or fraudulent entries."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is GSTR-3B hard-locking and how does it affect ITC claims?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "GSTR-3B hard-locking refers to the progressive restriction on manually editing Table 4 ITC values in GSTR-3B. With Section 38 substitution operational from October 2025 and the Rejected Records tab live since 18 February 2026, the GST portal pre-populates Table 4 from IMS-accepted records. Taxpayers can no longer claim ITC not reflected in 2B by manually entering values - the mismatch must be fixed before filing through IMS action or supplier follow-up."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is Rule 36(4) and how does it impact ITC claims?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Rule 36(4) of the CGST Rules 2017 restricts a registered taxpayer from claiming input tax credit beyond the amount reflected in GSTR-2B for the tax period. ITC on invoices not appearing in GSTR-2B cannot be claimed even if the invoice is in the books and the tax is paid. The rule was strengthened progressively from 2019 (110 percent of 2A) to the current strict 1 to 1 mapping with GSTR-2B post the IMS framework."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How does Section 16(4) time bar work for ITC?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Section 16(4) of the CGST Act sets the outer time limit for claiming ITC at the earlier of (a) 30 November of the financial year following the year in which the invoice was issued, or (b) the date of filing the annual return (GSTR-9) for that year. ITC not claimed by this deadline is permanently forfeited. Pending IMS records aging towards this cut-off must be actioned to either accept (and claim) or reject (and absorb the loss)."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What happens if a supplier does not file GSTR-1 on time?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "When a supplier does not file GSTR-1 by the 11th of the month, the invoice does not appear in the recipient GSTR-2B. The recipient cannot claim ITC on this invoice for the current period. If the supplier files in a later period, the invoice flows into a later GSTR-2B and the recipient can claim ITC then, subject to Section 16(4). Under Rule 37A, persistent supplier non-filing triggers an ITC reversal for the recipient."
+                }
+            }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1701,17 +1706,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1734,8 +1732,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1772,7 +1768,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1783,4 +1778,20 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+
 

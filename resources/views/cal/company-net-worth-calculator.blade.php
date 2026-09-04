@@ -1,33 +1,4 @@
 @extends('layouts.app')
-
-@section('meta')
-<title>Company Net Worth Calculator for Section 2(57) Filings</title>
-<meta name="description" content="Add paid up capital and free reserves, strip out revaluation gains and accumulated losses, and see the company figure the Companies Act actually recognises.">
-<meta name="robots" content="index, follow">
-<meta name="theme-color" content="#15365f">
-<link rel="canonical" href="https://www.patronaccounting.com/tools/company-net-worth-calculator">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.patronaccounting.com/tools/company-net-worth-calculator">
-<meta property="og:title" content="Compute Your Company&#39;s Net Worth Correctly">
-<meta property="og:description" content="A free calculator applying the Section 2(57) inclusions and exclusions for you.">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="1200">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-<meta property="og:site_name" content="Patron Accounting LLP">
-<meta property="og:locale" content="en_IN">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Compute Your Company&#39;s Net Worth Correctly">
-<meta name="twitter:description" content="A free calculator applying the Section 2(57) inclusions and exclusions for you.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-<link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
-<link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-
-{{-- JSON-LD lives here, not in @section('schema'): layouts.app has no @yield('schema'). --}}
-@endsection
-
 @push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -389,6 +360,42 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 .ratio-card .r-formula{font-size:11px;color:var(--text-muted);margin:4px 0 8px}
 .ratio-card .r-read{font-size:12px;color:var(--text-secondary);line-height:1.55;margin-top:8px}
 </style>
+@endpush
+
+
+@section('meta')
+<title>Company Net Worth Calculator for Section 2(57) Filings</title>
+<meta name="description" content="Add paid up capital and free reserves, strip out revaluation gains and accumulated losses, and see the company figure the Companies Act actually recognises.">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#15365f">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/company-net-worth-calculator">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/company-net-worth-calculator">
+<meta property="og:title" content="Compute Your Company&#39;s Net Worth Correctly">
+<meta property="og:description" content="A free calculator applying the Section 2(57) inclusions and exclusions for you.">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+<meta property="og:site_name" content="Patron Accounting LLP">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Compute Your Company&#39;s Net Worth Correctly">
+<meta name="twitter:description" content="A free calculator applying the Section 2(57) inclusions and exclusions for you.">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+<link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+
+{{-- JSON-LD lives here, not in @section('schema'): layouts.app has no @yield('schema'). --}}
+@endsection
+
+@push('styles')
+
+
+
+
 @endpush
 
 @section('content')

@@ -1,155 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>GST Returns for Healthcare 2026: Exempt | Patron Accounting</title>
-    <meta name="description" content="GST returns for hospitals - Entry 74 exemption, 5% room rent above INR 5000, pharmacy, food, TPA insurance reconciliation. Starting from INR 1,499 per month.">
-    <link rel="canonical" href="/gst-returns-for-healthcare">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="GST Returns for Healthcare 2026: Exempt | Patron Accounting">
-    <meta property="og:description" content="GST returns for hospitals - Entry 74 exemption, 5% room rent above INR 5000, pharmacy, food, TPA insurance reconciliation. Starting from INR 1,499 per month.">
-    <meta property="og:url" content="/gst-returns-for-healthcare">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="GST Returns for Healthcare 2026: Exempt | Patron Accounting">
-    <meta name="twitter:description" content="GST returns for hospitals - Entry 74 exemption, 5% room rent above INR 5000, pharmacy, food, TPA insurance reconciliation. Starting from INR 1,499 per month.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/gst-returns-for-healthcare/#service",
-        "name": "GST Returns for Healthcare",
-        "description": "Monthly managed GST compliance for hospitals, nursing homes, diagnostic centres, and clinics covering Entry 74 healthcare exemption under Notification 12/2017-CTR, 5% GST on room rent above INR 5,000 per day under Notification 4/2022-CT(R), in-patient food composite supply, pharmacy taxable vs exempt distinction, cosmetic surgery 18%, TPA reconciliation, and Rule 42/43 common ITC reversal.",
-        "serviceType": "GST Compliance for Healthcare",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-returns-for-healthcare" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [
-            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
-            { "@type": "Thing", "name": "Healthcare in India", "sameAs": "https://en.wikipedia.org/wiki/Healthcare_in_India" }
-        ],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "GST Returns for Healthcare Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "Monthly GST Returns - Single Hospital / GSTIN",
-                    "priceCurrency": "INR",
-                    "price": "1499",
-                    "description": "Monthly GSTR-1 and GSTR-3B filing, an exempt vs taxable stream matrix, and a room rent threshold tracker for a single hospital or GSTIN"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/gst-returns-for-healthcare/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
-            { "@type": "ListItem", "position": 3, "name": "GST Returns for Healthcare", "item": "https://www.patronaccounting.com/gst-returns-for-healthcare" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/gst-returns-for-healthcare/#faq",
-        "datePublished": "2026-05-27T08:00:00+05:30",
-        "dateModified": "2026-06-01T08:00:00+05:30",
-        "mainEntity": [
-
-            {
-                "@type": "Question",
-                "name": "Are healthcare services exempt from GST?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. Entry 74 of Notification 12/2017-Central Tax (Rate) dated 28 June 2017 exempts healthcare services provided by a clinical establishment, an authorised medical practitioner, or paramedics under Heading 9993. The IGST exemption is provided under Entry 77 of Notification 9/2017-IT(R). Section 11 of the CGST Act read with the notification gives statutory authority for the exemption."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Is GST payable on hospital room rent?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Hospital room rent up to INR 5,000 per day per patient is part of the composite healthcare supply and exempt. Notification 4/2022-Central Tax (Rate) dated 13 July 2022, effective 18 July 2022, made room rent exceeding INR 5,000 per day taxable at 5 percent without input tax credit. Rooms in ICU, CCU, ICCU, or NICU remain exempt regardless of the charge level."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Do doctor consultancy fees in a hospital attract GST?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "No. Per CBIC Circular 32/06/2018-GST dated 12 February 2018, services provided by senior doctors, consultants, and technicians hired by a hospital, whether as employees or independent contractors, are healthcare services and exempt under Entry 74. The amount retained by the hospital from patient billing is part of the composite supply and equally exempt."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Is GST payable on in-patient food?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "No, provided the food is supplied as part of treatment and per the advice of the treating doctor or nutritionist. CBIC Circular 32/06/2018-GST FAQ treats such food as part of the composite healthcare supply, fully exempt. Food supplied in canteens to visitors or outsourced caterers not linked to dietary orders is taxable at the applicable catering rate."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Is hospital pharmacy taxable or exempt?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Pharmacy supply to in-patients as part of treatment is part of the composite healthcare supply and exempt. Pharmacy retail counter sales to general public or out-patients are taxable at the applicable medicine HSN rate (typically 5 percent or 12 percent). Many hospitals run the retail pharmacy under a separate GSTIN to keep records clean and claim ITC on pharmacy purchases."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Is cosmetic surgery taxable under GST?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. The definition of healthcare services in Para 2(zg) of Notification 12/2017-CTR excludes cosmetic surgery, plastic surgery, and hair transplant - these attract 18 percent GST. The exception is where the procedure is undertaken to restore or reconstruct anatomy or functions of the body affected due to congenital defects, developmental abnormalities, injury, or trauma. Reconstruction post-trauma remains exempt."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How is GST handled on TPA insurance reimbursement to hospitals?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "The hospital bill for healthcare services is exempt regardless of who pays - patient directly or TPA / insurance on behalf of patient. However, the TPA service fee that the TPA may charge to the hospital is a separate taxable supply at 18 percent under Heading 9971 / 9985. Reconciliation is done at the settlement level to keep the two flows distinct in GSTR-1 and GSTR-3B."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the cost of monthly GST returns for healthcare at Patron Accounting?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Starting from INR 1,499 per month (Exclusive of GST and government charges) for single-hospital / single-GSTIN basic compliance. Monthly returns plus Rule 42/43 plus TPA reconciliation package starts from INR 2,999 per month. Room rent system setup, pharmacy separation advisory, AYUSH clinical establishment registration, and DRC-01C reply are quoted separately based on scope."
-                }
-            }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -763,7 +618,157 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>GST Returns for Healthcare 2026: Exempt | Patron Accounting</title>
+    <meta name="description" content="GST returns for hospitals - Entry 74 exemption, 5% room rent above INR 5000, pharmacy, food, TPA insurance reconciliation. Starting from INR 1,499 per month.">
+    <link rel="canonical" href="/gst-returns-for-healthcare">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="GST Returns for Healthcare 2026: Exempt | Patron Accounting">
+    <meta property="og:description" content="GST returns for hospitals - Entry 74 exemption, 5% room rent above INR 5000, pharmacy, food, TPA insurance reconciliation. Starting from INR 1,499 per month.">
+    <meta property="og:url" content="/gst-returns-for-healthcare">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GST Returns for Healthcare 2026: Exempt | Patron Accounting">
+    <meta name="twitter:description" content="GST returns for hospitals - Entry 74 exemption, 5% room rent above INR 5000, pharmacy, food, TPA insurance reconciliation. Starting from INR 1,499 per month.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/gst-returns-for-healthcare/#service",
+        "name": "GST Returns for Healthcare",
+        "description": "Monthly managed GST compliance for hospitals, nursing homes, diagnostic centres, and clinics covering Entry 74 healthcare exemption under Notification 12/2017-CTR, 5% GST on room rent above INR 5,000 per day under Notification 4/2022-CT(R), in-patient food composite supply, pharmacy taxable vs exempt distinction, cosmetic surgery 18%, TPA reconciliation, and Rule 42/43 common ITC reversal.",
+        "serviceType": "GST Compliance for Healthcare",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-returns-for-healthcare" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [
+            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
+            { "@type": "Thing", "name": "Healthcare in India", "sameAs": "https://en.wikipedia.org/wiki/Healthcare_in_India" }
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "GST Returns for Healthcare Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "Monthly GST Returns - Single Hospital / GSTIN",
+                    "priceCurrency": "INR",
+                    "price": "1499",
+                    "description": "Monthly GSTR-1 and GSTR-3B filing, an exempt vs taxable stream matrix, and a room rent threshold tracker for a single hospital or GSTIN"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/gst-returns-for-healthcare/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
+            { "@type": "ListItem", "position": 3, "name": "GST Returns for Healthcare", "item": "https://www.patronaccounting.com/gst-returns-for-healthcare" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/gst-returns-for-healthcare/#faq",
+        "datePublished": "2026-05-27T08:00:00+05:30",
+        "dateModified": "2026-06-01T08:00:00+05:30",
+        "mainEntity": [
+
+            {
+                "@type": "Question",
+                "name": "Are healthcare services exempt from GST?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Entry 74 of Notification 12/2017-Central Tax (Rate) dated 28 June 2017 exempts healthcare services provided by a clinical establishment, an authorised medical practitioner, or paramedics under Heading 9993. The IGST exemption is provided under Entry 77 of Notification 9/2017-IT(R). Section 11 of the CGST Act read with the notification gives statutory authority for the exemption."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is GST payable on hospital room rent?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Hospital room rent up to INR 5,000 per day per patient is part of the composite healthcare supply and exempt. Notification 4/2022-Central Tax (Rate) dated 13 July 2022, effective 18 July 2022, made room rent exceeding INR 5,000 per day taxable at 5 percent without input tax credit. Rooms in ICU, CCU, ICCU, or NICU remain exempt regardless of the charge level."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Do doctor consultancy fees in a hospital attract GST?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No. Per CBIC Circular 32/06/2018-GST dated 12 February 2018, services provided by senior doctors, consultants, and technicians hired by a hospital, whether as employees or independent contractors, are healthcare services and exempt under Entry 74. The amount retained by the hospital from patient billing is part of the composite supply and equally exempt."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is GST payable on in-patient food?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No, provided the food is supplied as part of treatment and per the advice of the treating doctor or nutritionist. CBIC Circular 32/06/2018-GST FAQ treats such food as part of the composite healthcare supply, fully exempt. Food supplied in canteens to visitors or outsourced caterers not linked to dietary orders is taxable at the applicable catering rate."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is hospital pharmacy taxable or exempt?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Pharmacy supply to in-patients as part of treatment is part of the composite healthcare supply and exempt. Pharmacy retail counter sales to general public or out-patients are taxable at the applicable medicine HSN rate (typically 5 percent or 12 percent). Many hospitals run the retail pharmacy under a separate GSTIN to keep records clean and claim ITC on pharmacy purchases."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is cosmetic surgery taxable under GST?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. The definition of healthcare services in Para 2(zg) of Notification 12/2017-CTR excludes cosmetic surgery, plastic surgery, and hair transplant - these attract 18 percent GST. The exception is where the procedure is undertaken to restore or reconstruct anatomy or functions of the body affected due to congenital defects, developmental abnormalities, injury, or trauma. Reconstruction post-trauma remains exempt."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How is GST handled on TPA insurance reimbursement to hospitals?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The hospital bill for healthcare services is exempt regardless of who pays - patient directly or TPA / insurance on behalf of patient. However, the TPA service fee that the TPA may charge to the hospital is a separate taxable supply at 18 percent under Heading 9971 / 9985. Reconciliation is done at the settlement level to keep the two flows distinct in GSTR-1 and GSTR-3B."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the cost of monthly GST returns for healthcare at Patron Accounting?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Starting from INR 1,499 per month (Exclusive of GST and government charges) for single-hospital / single-GSTIN basic compliance. Monthly returns plus Rule 42/43 plus TPA reconciliation package starts from INR 2,999 per month. Room rent system setup, pharmacy separation advisory, AYUSH clinical establishment registration, and DRC-01C reply are quoted separately based on scope."
+                }
+            }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1627,17 +1632,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1660,8 +1658,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1698,7 +1694,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1709,4 +1704,20 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+
 

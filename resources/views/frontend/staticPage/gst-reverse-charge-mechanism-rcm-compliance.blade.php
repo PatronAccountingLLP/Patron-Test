@@ -1,155 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>GST RCM Compliance 2026: Sec 9(3)/(4) | Patron Accounting</title>
-    <meta name="description" content="Expert GST Reverse Charge Mechanism compliance under Section 9(3) and 9(4) - GTA, legal, director, sponsorship, import of services. Starting from INR 4,999.">
-    <link rel="canonical" href="/gst-reverse-charge-mechanism-rcm-compliance">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="GST RCM Compliance 2026: Sec 9(3)/(4) | Patron Accounting">
-    <meta property="og:description" content="Expert GST Reverse Charge Mechanism compliance under Section 9(3) and 9(4) - GTA, legal, director, sponsorship, import of services. Starting from INR 4,999.">
-    <meta property="og:url" content="/gst-reverse-charge-mechanism-rcm-compliance">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="GST RCM Compliance 2026: Sec 9(3)/(4) | Patron Accounting">
-    <meta name="twitter:description" content="Expert GST Reverse Charge Mechanism compliance under Section 9(3) and 9(4) - GTA, legal, director, sponsorship, import of services. Starting from INR 4,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/gst-reverse-charge-mechanism-rcm-compliance/#service",
-        "name": "GST Reverse Charge Mechanism (RCM) Compliance",
-        "description": "End-to-end Reverse Charge Mechanism compliance under Sections 9(3), 9(4), and 9(5) of the CGST Act and Sections 5(3), 5(4), 5(5) of the IGST Act. Covers GTA, legal, director, sponsorship, import of services, real estate 80 percent rule, Rule 47A 30-day self-invoicing, payment vouchers, GSTR-3B reporting, ITC recovery, and departmental representation.",
-        "serviceType": "GST Compliance Advisory",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-reverse-charge-mechanism-rcm-compliance" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [
-            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
-            { "@type": "Thing", "name": "Reverse charge", "sameAs": "https://en.wikipedia.org/wiki/Reverse_charge_mechanism" }
-        ],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "GST Reverse Charge Mechanism (RCM) Compliance Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "RCM Diagnostic (single entity, up to 50 vendors)",
-                    "priceCurrency": "INR",
-                    "price": "4999",
-                    "description": "Vendor-wise RCM diagnostic mapping Section 9(3)/(4)/(5) triggers with applicable rates, notification references, and ITC eligibility for a single entity with up to 50 vendors"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/gst-reverse-charge-mechanism-rcm-compliance/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
-            { "@type": "ListItem", "position": 3, "name": "GST Reverse Charge Mechanism (RCM) Compliance", "item": "https://www.patronaccounting.com/gst-reverse-charge-mechanism-rcm-compliance" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/gst-reverse-charge-mechanism-rcm-compliance/#faq",
-        "datePublished": "2026-05-27T08:00:00+05:30",
-        "dateModified": "2026-06-01T08:00:00+05:30",
-        "mainEntity": [
-
-            {
-                "@type": "Question",
-                "name": "What is Reverse Charge Mechanism (RCM) under GST?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Reverse Charge Mechanism is the GST regime where the recipient of a supply, not the supplier, is liable to pay GST. RCM applies under three triggers: Section 9(3) CGST for notified goods and services, Section 9(4) for specified purchases from unregistered suppliers, and Section 9(5) for e-commerce operator deemed-supplier scenarios. Sections 5(3) to 5(5) of the IGST Act mirror these for inter-state and import supplies."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Which services are covered under Section 9(3) RCM?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Notification 13/2017-CT(R) lists the notified services. The main entries are GTA, individual advocate or firm of advocates, arbitral tribunal, sponsorship, services by Central or State Government to business entity, director (other than employee) services, insurance agent, recovery agent, copyright transfer by author, RBI committee, direct selling agent, and SEBI lending scheme. Notification 10/2017-IT(R) adds import of services."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Is self-invoicing mandatory under RCM and what is the time limit?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, self-invoicing is mandatory for supplies from unregistered suppliers under Section 31(3)(f) CGST. Rule 47A, inserted by Notification 20/2024-CT dated 8 October 2024 and effective 1 November 2024, requires the self-invoice to be issued within 30 days from the date of receipt of the supply. A payment voucher must also be issued under Section 31(3)(g) at the time of payment."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can ITC be claimed on RCM payments?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, ITC on RCM is available under Section 16 read with Rule 36(1)(b) CGST Rules, provided the tax is paid in cash through the electronic cash ledger (Section 49(4) bars use of ITC) and the recipient holds a valid self-invoice or supplier invoice plus the payment voucher. Per Circular 211/5/2024-GST dated 26 June 2024, the relevant financial year for the Section 16(4) time limit is the FY of self-invoice issuance."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the time of supply for services received under RCM?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Per Section 13(3) of the CGST Act, amended via the Finance (No. 2) Act 2024, the time of supply for services under RCM is the earlier of the date on which payment is made or recorded in the recipient's books, or the date immediately following 60 days from the date of issue of invoice by the supplier (the 61st day). The earlier date triggers the GST liability."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Does RCM apply when a director receives sitting fees?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. Per Notification 13/2017-CT(R) entry 6 read with Circular 140/10/2020-GST, sitting fees, commission, or consultancy paid to a non-executive or independent director attract GST under RCM, with the company as recipient liable to pay. Salary paid to a whole-time, managing, or executive director under an employer-employee relationship is outside GST under Schedule III."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How does RCM work for real estate developers?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Under Notification 7/2019-CT(R), a real estate promoter must procure at least 80 percent of project input value (excluding land, FSI, TDR, electricity, and cement) from registered suppliers. Any shortfall attracts RCM at 18 percent. Cement procurement from unregistered suppliers attracts 28 percent RCM regardless of the 80 percent threshold. The compliance must be tracked monthly with an annual true-up."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the cost of RCM compliance support at Patron Accounting?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Starting from INR 4,999 (Exclusive of GST and government charges) for the RCM diagnostic engagement covering a single entity with up to 50 vendors. Self-invoice and payment voucher framework setup, monthly managed compliance, real estate 80 percent tracking, and import-of-services advisory are quoted separately based on scope. Government fees apply only for departmental filings if needed."
-                }
-            }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -763,7 +618,157 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>GST RCM Compliance 2026: Sec 9(3)/(4) | Patron Accounting</title>
+    <meta name="description" content="Expert GST Reverse Charge Mechanism compliance under Section 9(3) and 9(4) - GTA, legal, director, sponsorship, import of services. Starting from INR 4,999.">
+    <link rel="canonical" href="/gst-reverse-charge-mechanism-rcm-compliance">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="GST RCM Compliance 2026: Sec 9(3)/(4) | Patron Accounting">
+    <meta property="og:description" content="Expert GST Reverse Charge Mechanism compliance under Section 9(3) and 9(4) - GTA, legal, director, sponsorship, import of services. Starting from INR 4,999.">
+    <meta property="og:url" content="/gst-reverse-charge-mechanism-rcm-compliance">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GST RCM Compliance 2026: Sec 9(3)/(4) | Patron Accounting">
+    <meta name="twitter:description" content="Expert GST Reverse Charge Mechanism compliance under Section 9(3) and 9(4) - GTA, legal, director, sponsorship, import of services. Starting from INR 4,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/gst-reverse-charge-mechanism-rcm-compliance/#service",
+        "name": "GST Reverse Charge Mechanism (RCM) Compliance",
+        "description": "End-to-end Reverse Charge Mechanism compliance under Sections 9(3), 9(4), and 9(5) of the CGST Act and Sections 5(3), 5(4), 5(5) of the IGST Act. Covers GTA, legal, director, sponsorship, import of services, real estate 80 percent rule, Rule 47A 30-day self-invoicing, payment vouchers, GSTR-3B reporting, ITC recovery, and departmental representation.",
+        "serviceType": "GST Compliance Advisory",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-reverse-charge-mechanism-rcm-compliance" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [
+            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
+            { "@type": "Thing", "name": "Reverse charge", "sameAs": "https://en.wikipedia.org/wiki/Reverse_charge_mechanism" }
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "GST Reverse Charge Mechanism (RCM) Compliance Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "RCM Diagnostic (single entity, up to 50 vendors)",
+                    "priceCurrency": "INR",
+                    "price": "4999",
+                    "description": "Vendor-wise RCM diagnostic mapping Section 9(3)/(4)/(5) triggers with applicable rates, notification references, and ITC eligibility for a single entity with up to 50 vendors"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/gst-reverse-charge-mechanism-rcm-compliance/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
+            { "@type": "ListItem", "position": 3, "name": "GST Reverse Charge Mechanism (RCM) Compliance", "item": "https://www.patronaccounting.com/gst-reverse-charge-mechanism-rcm-compliance" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/gst-reverse-charge-mechanism-rcm-compliance/#faq",
+        "datePublished": "2026-05-27T08:00:00+05:30",
+        "dateModified": "2026-06-01T08:00:00+05:30",
+        "mainEntity": [
+
+            {
+                "@type": "Question",
+                "name": "What is Reverse Charge Mechanism (RCM) under GST?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Reverse Charge Mechanism is the GST regime where the recipient of a supply, not the supplier, is liable to pay GST. RCM applies under three triggers: Section 9(3) CGST for notified goods and services, Section 9(4) for specified purchases from unregistered suppliers, and Section 9(5) for e-commerce operator deemed-supplier scenarios. Sections 5(3) to 5(5) of the IGST Act mirror these for inter-state and import supplies."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Which services are covered under Section 9(3) RCM?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Notification 13/2017-CT(R) lists the notified services. The main entries are GTA, individual advocate or firm of advocates, arbitral tribunal, sponsorship, services by Central or State Government to business entity, director (other than employee) services, insurance agent, recovery agent, copyright transfer by author, RBI committee, direct selling agent, and SEBI lending scheme. Notification 10/2017-IT(R) adds import of services."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is self-invoicing mandatory under RCM and what is the time limit?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, self-invoicing is mandatory for supplies from unregistered suppliers under Section 31(3)(f) CGST. Rule 47A, inserted by Notification 20/2024-CT dated 8 October 2024 and effective 1 November 2024, requires the self-invoice to be issued within 30 days from the date of receipt of the supply. A payment voucher must also be issued under Section 31(3)(g) at the time of payment."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can ITC be claimed on RCM payments?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, ITC on RCM is available under Section 16 read with Rule 36(1)(b) CGST Rules, provided the tax is paid in cash through the electronic cash ledger (Section 49(4) bars use of ITC) and the recipient holds a valid self-invoice or supplier invoice plus the payment voucher. Per Circular 211/5/2024-GST dated 26 June 2024, the relevant financial year for the Section 16(4) time limit is the FY of self-invoice issuance."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the time of supply for services received under RCM?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Per Section 13(3) of the CGST Act, amended via the Finance (No. 2) Act 2024, the time of supply for services under RCM is the earlier of the date on which payment is made or recorded in the recipient's books, or the date immediately following 60 days from the date of issue of invoice by the supplier (the 61st day). The earlier date triggers the GST liability."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Does RCM apply when a director receives sitting fees?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Per Notification 13/2017-CT(R) entry 6 read with Circular 140/10/2020-GST, sitting fees, commission, or consultancy paid to a non-executive or independent director attract GST under RCM, with the company as recipient liable to pay. Salary paid to a whole-time, managing, or executive director under an employer-employee relationship is outside GST under Schedule III."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How does RCM work for real estate developers?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Under Notification 7/2019-CT(R), a real estate promoter must procure at least 80 percent of project input value (excluding land, FSI, TDR, electricity, and cement) from registered suppliers. Any shortfall attracts RCM at 18 percent. Cement procurement from unregistered suppliers attracts 28 percent RCM regardless of the 80 percent threshold. The compliance must be tracked monthly with an annual true-up."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the cost of RCM compliance support at Patron Accounting?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Starting from INR 4,999 (Exclusive of GST and government charges) for the RCM diagnostic engagement covering a single entity with up to 50 vendors. Self-invoice and payment voucher framework setup, monthly managed compliance, real estate 80 percent tracking, and import-of-services advisory are quoted separately based on scope. Government fees apply only for departmental filings if needed."
+                }
+            }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1612,17 +1617,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1645,8 +1643,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1683,7 +1679,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1694,4 +1689,20 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+
 

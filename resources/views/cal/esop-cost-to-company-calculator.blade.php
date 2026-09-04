@@ -1,215 +1,8 @@
 @extends('layouts.app')
-@section('meta')
-<title>ESOP Cost to Company Calculator | Ind AS 102 Expense</title>
-<meta name="description" content="ESOP cost-to-company calculator under Ind AS 102: get the P&amp;L expense, forfeiture-adjusted total and separate-grant vs straight-line year-wise working. Try now!">
-<meta name="robots" content="index, follow">
-<meta name="theme-color" content="#15365f">
-<link rel="canonical" href="https://www.patronaccounting.com/tools/esop-cost-to-company-calculator">
-
-<!-- Open Graph -->
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.patronaccounting.com/tools/esop-cost-to-company-calculator">
-<meta property="og:title" content="ESOP Cost to Company Calculator — Ind AS 102 Tool 2026">
-<meta property="og:description" content="Calculate ESOP cost-to-company under Ind AS 102: P&amp;L expense, forfeiture-adjusted total, separate-grant vs straight-line, year-by-year working.">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="1200">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-<meta property="og:site_name" content="Patron Accounting LLP">
-<meta property="og:locale" content="en_IN">
-
-<!-- Twitter -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="ESOP Cost to Company Calculator — Ind AS 102 Tool 2026">
-<meta name="twitter:description" content="Calculate ESOP cost-to-company under Ind AS 102: P&amp;L expense, forfeiture-adjusted total, year-by-year working.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-
-<!-- Favicons -->
-<link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
-<link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-@endsection
-
-@section('schema')
-<!-- Schema: SoftwareApplication -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "ESOP Cost to Company Calculator",
-  "description": "ESOP Cost to Company Calculator computes the annual P&L expense and total cost-to-company of employee stock options under Ind AS 102. Takes number of options granted, fair value per option, exercise price, vesting schedule, and expected forfeiture rate. Outputs forfeiture-adjusted total cost, separate-grant vs straight-line year-by-year expense breakdown, and cash versus accounting cost differentiation for Indian listed and unlisted companies.",
-  "url": "https://www.patronaccounting.com/tools/esop-cost-to-company-calculator",
-  "applicationCategory": "BusinessApplication",
-  "operatingSystem": "Any",
-  "inLanguage": "en-IN",
-  "isAccessibleForFree": true,
-  "datePublished": "2026-05-14T08:00:00+05:30",
-  "dateModified": "2026-05-14T08:00:00+05:30",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "INR"
-  },
-  "reviewedBy": {
-    "@type": "Person",
-    "@id": "https://patronaccounting.com/#founder",
-    "name": "CA Sundram Gupta",
-    "jobTitle": "Founder & Chartered Accountant",
-    "url": "https://www.patronaccounting.com/contact-page",
-    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-    "hasCredential": [{
-      "@type": "EducationalOccupationalCredential",
-      "credentialCategory": "Professional Certification",
-      "name": "Fellow Chartered Accountant (FCA)",
-      "recognizedBy": {
-        "@type": "Organization",
-        "name": "Institute of Chartered Accountants of India",
-        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-      }
-    }]
-  },
-  "publisher": {
-    "@id": "https://patronaccounting.com/#organization"
-  },
-  "provider": {
-    "@id": "https://patronaccounting.com/#organization"
-  }
-}
-</script>
-
-<!-- Schema: BreadcrumbList -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "ESOP Cost to Company Calculator", "item": "https://www.patronaccounting.com/tools/esop-cost-to-company-calculator"}
-  ]
-}
-</script>
-
-<!-- Schema: FAQPage -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the cost-to-company of an ESOP under Ind AS 102?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Under Ind AS 102 Share-Based Payment, the cost-to-company of an ESOP is the total fair value of the options granted, measured at the grant date using an option pricing model such as Black-Scholes or Binomial. This total fair value is recognised as an employee compensation expense in the Profit and Loss Account over the vesting period, with an equal credit to a Share Options Outstanding equity reserve."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the ESOP P&L expense a cash cost?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. The Ind AS 102 ESOP expense is a non-cash employee benefit cost. The corresponding credit goes to a Share Options Outstanding equity reserve, not to cash. Cash impact arises only at exercise when employees pay the exercise price to the company, which increases the share capital and securities premium. EBITDA is unaffected if ESOP expense is shown above the EBITDA line."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the difference between fair value and intrinsic value of an ESOP?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Intrinsic value is simply the Fair Market Value of the share minus the exercise price on the grant date. Fair value under Ind AS 102 is the full economic value of the option determined using Black-Scholes or Binomial models, factoring volatility, expected life, risk-free rate, and dividends. Fair value is always equal to or higher than intrinsic value and is mandatory under Ind AS 102."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Should I use the separate-grant or straight-line method for graded vesting?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Ind AS 102 and the ICAI Guidance Note on Accounting for Share-Based Payments (2020) require the separate-grant approach for graded vesting. Each tranche is treated as a separate award and expensed over its own vesting period. This front-loads the cost — about 52% of the total expense for a 4-year 25/25/25/25 vest is recognised in Year 1 versus 25% under straight-line."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does forfeiture affect the ESOP P&L expense?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "At each reporting date, the company revises its estimate of options expected to vest based on actual and expected forfeitures. The cumulative expense is adjusted to reflect only options likely to vest. Service-condition forfeitures (employee leaving) reduce expense. Market-condition forfeitures (share price not reaching a target) do not reverse expense already recognised, because market conditions are baked into grant-date fair value."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Who needs to apply Ind AS 102 in India?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Ind AS 102 applies to companies covered by the Ind AS roadmap notified by MCA — listed companies and unlisted companies with net worth above ₹250 crore. Other companies follow the ICAI Guidance Note on Accounting for Share-Based Payments (2020) under Indian GAAP. The principles are broadly similar but disclosure and measurement details vary. Both require fair-value expense recognition."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is fair value re-measured every year for ESOPs?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. For equity-settled share-based payments such as ESOPs, fair value is measured once at the grant date and not re-measured subsequently. Only the number of options expected to vest is revised. For cash-settled share-based payments such as Stock Appreciation Rights, the fair value of the liability is re-measured at each reporting date and at settlement, with changes recognised in profit or loss."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What inputs are needed for Black-Scholes ESOP valuation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Six inputs are mandatory under Ind AS 102: current share price (Fair Market Value at grant), exercise price, expected term of the option, expected volatility of the share price, risk-free interest rate (typically Indian government bond yield for matching maturity), and expected dividend yield. Unlisted companies estimate volatility using comparable listed peers' historical volatility, usually over 3 to 5 years."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does ESOP expense reduce taxable profit in India?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "ESOP expense recognised under Ind AS 102 is generally allowed as a tax-deductible employee compensation expense under Section 37(1) of the Income-tax Act, 1961, but only when actually incurred — typically at the time of exercise when the perquisite tax is triggered for the employee. Book expense recognised during the vesting period may need to be added back and deduction claimed at exercise. CA review is essential."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What disclosures does Ind AS 102 require for ESOPs?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Companies must disclose: a description of each share-based payment arrangement, the number and weighted average exercise prices of options outstanding/granted/vested/exercised/forfeited during the year, the weighted average remaining contractual life of options outstanding, the valuation model and inputs used (volatility, risk-free rate, expected term, dividend yield), and the total ESOP expense recognised in profit or loss for the period."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How are SAR (Stock Appreciation Rights) accounted for differently?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Stock Appreciation Rights are cash-settled share-based payments under Ind AS 102. Unlike ESOPs, the liability is re-measured at fair value at each reporting date and at settlement, with all changes routed through the Profit and Loss Account. SARs do not dilute equity but create a real cash outflow at settlement, making P&L volatility higher than for equity-settled ESOPs. The same Black-Scholes model is used with appropriate inputs."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does this calculator handle the fair-value input?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The calculator lets you enter fair value per option directly from your Black-Scholes or Binomial valuation report — the recommended Ind AS 102 path. If you do not have a valuer's report, you can use intrinsic value (FMV minus exercise price) as a rough approximation, but this understates the true cost. Always obtain a SEBI-registered Merchant Banker or IBBI-registered Valuer report for audit-ready financials."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is this ESOP Cost Calculator audit-ready?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "This calculator gives directional working in line with Ind AS 102 principles, useful for budgeting, board discussions, and preliminary cost estimation. It is not a substitute for a Black-Scholes valuation report by a registered valuer or merchant banker, which is mandatory for audit. Patron Accounting provides full ESOP valuation, accounting policy, and disclosure support to make financials audit-ready under Ind AS 102."
-      }
-    }
-  ]
-}
-</script>
-@endsection
-<!-- Google Fonts -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
 <style>
 :root {
     --primary: #15365f;
@@ -483,6 +276,220 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
     .faq-item { break-inside: avoid; }
 }
 </style>
+@endpush
+
+@section('meta')
+<title>ESOP Cost to Company Calculator | Ind AS 102 Expense</title>
+<meta name="description" content="ESOP cost-to-company calculator under Ind AS 102: get the P&amp;L expense, forfeiture-adjusted total and separate-grant vs straight-line year-wise working. Try now!">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#15365f">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/esop-cost-to-company-calculator">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/esop-cost-to-company-calculator">
+<meta property="og:title" content="ESOP Cost to Company Calculator — Ind AS 102 Tool 2026">
+<meta property="og:description" content="Calculate ESOP cost-to-company under Ind AS 102: P&amp;L expense, forfeiture-adjusted total, separate-grant vs straight-line, year-by-year working.">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+<meta property="og:site_name" content="Patron Accounting LLP">
+<meta property="og:locale" content="en_IN">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ESOP Cost to Company Calculator — Ind AS 102 Tool 2026">
+<meta name="twitter:description" content="Calculate ESOP cost-to-company under Ind AS 102: P&amp;L expense, forfeiture-adjusted total, year-by-year working.">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<!-- Favicons -->
+<link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+@endsection
+
+@section('schema')
+<!-- Schema: SoftwareApplication -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "ESOP Cost to Company Calculator",
+  "description": "ESOP Cost to Company Calculator computes the annual P&L expense and total cost-to-company of employee stock options under Ind AS 102. Takes number of options granted, fair value per option, exercise price, vesting schedule, and expected forfeiture rate. Outputs forfeiture-adjusted total cost, separate-grant vs straight-line year-by-year expense breakdown, and cash versus accounting cost differentiation for Indian listed and unlisted companies.",
+  "url": "https://www.patronaccounting.com/tools/esop-cost-to-company-calculator",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Any",
+  "inLanguage": "en-IN",
+  "isAccessibleForFree": true,
+  "datePublished": "2026-05-14T08:00:00+05:30",
+  "dateModified": "2026-05-14T08:00:00+05:30",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "INR"
+  },
+  "reviewedBy": {
+    "@type": "Person",
+    "@id": "https://patronaccounting.com/#founder",
+    "name": "CA Sundram Gupta",
+    "jobTitle": "Founder & Chartered Accountant",
+    "url": "https://www.patronaccounting.com/contact-page",
+    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+    "hasCredential": [{
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Professional Certification",
+      "name": "Fellow Chartered Accountant (FCA)",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Institute of Chartered Accountants of India",
+        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+      }
+    }]
+  },
+  "publisher": {
+    "@id": "https://patronaccounting.com/#organization"
+  },
+  "provider": {
+    "@id": "https://patronaccounting.com/#organization"
+  }
+}
+</script>
+
+<!-- Schema: BreadcrumbList -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "ESOP Cost to Company Calculator", "item": "https://www.patronaccounting.com/tools/esop-cost-to-company-calculator"}
+  ]
+}
+</script>
+
+<!-- Schema: FAQPage -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the cost-to-company of an ESOP under Ind AS 102?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Under Ind AS 102 Share-Based Payment, the cost-to-company of an ESOP is the total fair value of the options granted, measured at the grant date using an option pricing model such as Black-Scholes or Binomial. This total fair value is recognised as an employee compensation expense in the Profit and Loss Account over the vesting period, with an equal credit to a Share Options Outstanding equity reserve."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the ESOP P&L expense a cash cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The Ind AS 102 ESOP expense is a non-cash employee benefit cost. The corresponding credit goes to a Share Options Outstanding equity reserve, not to cash. Cash impact arises only at exercise when employees pay the exercise price to the company, which increases the share capital and securities premium. EBITDA is unaffected if ESOP expense is shown above the EBITDA line."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between fair value and intrinsic value of an ESOP?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Intrinsic value is simply the Fair Market Value of the share minus the exercise price on the grant date. Fair value under Ind AS 102 is the full economic value of the option determined using Black-Scholes or Binomial models, factoring volatility, expected life, risk-free rate, and dividends. Fair value is always equal to or higher than intrinsic value and is mandatory under Ind AS 102."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I use the separate-grant or straight-line method for graded vesting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ind AS 102 and the ICAI Guidance Note on Accounting for Share-Based Payments (2020) require the separate-grant approach for graded vesting. Each tranche is treated as a separate award and expensed over its own vesting period. This front-loads the cost — about 52% of the total expense for a 4-year 25/25/25/25 vest is recognised in Year 1 versus 25% under straight-line."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does forfeiture affect the ESOP P&L expense?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "At each reporting date, the company revises its estimate of options expected to vest based on actual and expected forfeitures. The cumulative expense is adjusted to reflect only options likely to vest. Service-condition forfeitures (employee leaving) reduce expense. Market-condition forfeitures (share price not reaching a target) do not reverse expense already recognised, because market conditions are baked into grant-date fair value."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who needs to apply Ind AS 102 in India?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ind AS 102 applies to companies covered by the Ind AS roadmap notified by MCA — listed companies and unlisted companies with net worth above ₹250 crore. Other companies follow the ICAI Guidance Note on Accounting for Share-Based Payments (2020) under Indian GAAP. The principles are broadly similar but disclosure and measurement details vary. Both require fair-value expense recognition."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is fair value re-measured every year for ESOPs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. For equity-settled share-based payments such as ESOPs, fair value is measured once at the grant date and not re-measured subsequently. Only the number of options expected to vest is revised. For cash-settled share-based payments such as Stock Appreciation Rights, the fair value of the liability is re-measured at each reporting date and at settlement, with changes recognised in profit or loss."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What inputs are needed for Black-Scholes ESOP valuation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Six inputs are mandatory under Ind AS 102: current share price (Fair Market Value at grant), exercise price, expected term of the option, expected volatility of the share price, risk-free interest rate (typically Indian government bond yield for matching maturity), and expected dividend yield. Unlisted companies estimate volatility using comparable listed peers' historical volatility, usually over 3 to 5 years."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does ESOP expense reduce taxable profit in India?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ESOP expense recognised under Ind AS 102 is generally allowed as a tax-deductible employee compensation expense under Section 37(1) of the Income-tax Act, 1961, but only when actually incurred — typically at the time of exercise when the perquisite tax is triggered for the employee. Book expense recognised during the vesting period may need to be added back and deduction claimed at exercise. CA review is essential."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What disclosures does Ind AS 102 require for ESOPs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Companies must disclose: a description of each share-based payment arrangement, the number and weighted average exercise prices of options outstanding/granted/vested/exercised/forfeited during the year, the weighted average remaining contractual life of options outstanding, the valuation model and inputs used (volatility, risk-free rate, expected term, dividend yield), and the total ESOP expense recognised in profit or loss for the period."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How are SAR (Stock Appreciation Rights) accounted for differently?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Stock Appreciation Rights are cash-settled share-based payments under Ind AS 102. Unlike ESOPs, the liability is re-measured at fair value at each reporting date and at settlement, with all changes routed through the Profit and Loss Account. SARs do not dilute equity but create a real cash outflow at settlement, making P&L volatility higher than for equity-settled ESOPs. The same Black-Scholes model is used with appropriate inputs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does this calculator handle the fair-value input?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The calculator lets you enter fair value per option directly from your Black-Scholes or Binomial valuation report — the recommended Ind AS 102 path. If you do not have a valuer's report, you can use intrinsic value (FMV minus exercise price) as a rough approximation, but this understates the true cost. Always obtain a SEBI-registered Merchant Banker or IBBI-registered Valuer report for audit-ready financials."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is this ESOP Cost Calculator audit-ready?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This calculator gives directional working in line with Ind AS 102 principles, useful for budgeting, board discussions, and preliminary cost estimation. It is not a substitute for a Black-Scholes valuation report by a registered valuer or merchant banker, which is mandatory for audit. Patron Accounting provides full ESOP valuation, accounting policy, and disclosure support to make financials audit-ready under Ind AS 102."
+      }
+    }
+  ]
+}
+</script>
+@endsection
+<!-- Google Fonts -->
+
+
+
+
+
 @section('content')
 
 <!-- TOC NAV -->

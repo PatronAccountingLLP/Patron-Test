@@ -1,200 +1,11 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Section 143(2) Notice Mumbai</title>
-    <meta name="description" content="Section 143(2) notice CA in Mumbai: scrutiny selection, Section 144B faceless, CIT(A) appeal, ITAT Mumbai. Rs 25K-50K. Call +91 945 945 6700.">
-    <link rel="canonical" href="/sec-143-2-notice/mumbai">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Section 143(2) Notice Mumbai 2026 | Patron Accounting">
-    <meta property="og:description" content="Section 143(2) notice CA in Mumbai: scrutiny selection, Section 144B faceless, CIT(A) appeal, ITAT Mumbai. Rs 25K-50K. Call +91 945 945 6700.">
-    <meta property="og:url" content="/sec-143-2-notice/mumbai">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Section 143(2) Notice Mumbai 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Section 143(2) notice CA in Mumbai: scrutiny selection, Section 144B faceless, CIT(A) appeal, ITAT Mumbai. Rs 25K-50K. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/sec-143-2-notice/mumbai#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Income Tax Notice Mumbai",
-          "item": "https://www.patronaccounting.com/income-tax-notice/mumbai"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Section 143(2) Notice Mumbai",
-          "item": "https://www.patronaccounting.com/sec-143-2-notice/mumbai"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/sec-143-2-notice/mumbai#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is Section 143(2) notice of Income Tax Act?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 143(2) of the Income Tax Act 1961 is the scrutiny selection notice issued by the Assessing Officer when the return filed under Section 139 is selected for detailed Section 143(3) assessment. It is NOT itself an inquiry or a demand - it is a notification that the case has been selected. The detailed scrutiny work happens under Section 143(3) within the Section 144B faceless framework. Selection is typically driven by CASS algorithm based on risk parameters."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the time limit for Section 143(2) notice?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Per the proviso to Section 143(2) as amended by Finance Act 2021 effective 1 April 2021, the notice must be served within 3 months from the end of the financial year in which the return is furnished. For an ITR filed during FY 2024-25, the Section 143(2) notice must be served by 30 June 2025. The 3-month limit is jurisdictional - non-compliance invalidates the entire assessment. Bombay HC has consistently struck down time-barred 143(2) notices in writ proceedings."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Section 143(2) vs Section 143(3) difference?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 143(2) is the SELECTION notice - it notifies the assessee that the case has been selected for scrutiny. It is NOT itself an inquiry, does NOT seek information and does NOT demand any tax. Section 143(3) is the ASSESSMENT ORDER - the final outcome of the scrutiny conducted under Section 144B faceless framework. Between the two, the FAU issues multiple Section 142(1) questionnaires and VC hearings happen. Section 143(3) typically comes 6 to 12 months after 143(2)."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does Section 144B faceless assessment work?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Under Section 144B faceless scheme operational from 13 August 2020, a Section 143(2)-selected case is allocated by NaFAC Delhi to a Faceless Assessing Unit which may be located anywhere in India. The Mumbai-based AO no longer assesses ordinary geographical cases. Workflow: NaFAC allocates to FAU, FAU issues Section 142(1) questionnaires through portal, assessee responds, multiple cycles over 6 to 12 months, VC hearings, final Section 143(3) order uploaded to portal."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which Mumbai IT charge covers BKC, Lower Parel and Andheri?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Mumbai has 30+ Principal CIT charges under the LARGEST IT Region in India - the exact charge depends on your PAN and assessment year. Ordinary geographical charges Mumbai-1 through Mumbai-30 cover BKC, Lower Parel, Andheri and other Mumbai metro areas. Large MNC Indian subsidiaries fall under Transfer Pricing charges. Non-residents fall under International Taxation charges. Section 132 search cases fall under Central Charges. The exact charge is named on the notice."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does a Section 143(2) CA cost in Mumbai?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patron Mumbai CA fees for Section 143(2) scrutiny handling range from Rs 25,000 to Rs 50,000 per matter due to multi-cycle Section 144B faceless workflow over 6 to 12 months. Limited Scrutiny single-issue starts at Rs 25,000. Complete Scrutiny with multiple issues at Rs 35,000. Compulsory Scrutiny or Central Charges at Rs 50,000. TP / international tax priced higher at Rs 1.5 lakh to Rs 10 lakh. ITAT Mumbai Bench and Bombay HC are co-located - no inter-city travel."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Where is the ITAT bench for Mumbai 143(3) appeals?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "ITAT Mumbai Bench at Pratishtha Bhavan M.K. Marg Mumbai is the LARGEST ITAT bench in India with multiple division benches operating in parallel. Second appeals from CIT(A) under Section 253 lie to ITAT Mumbai Bench within 60 days. It is CO-LOCATED with Bombay High Court Principal Seat and Mumbai IT charges - Mumbai assessees enjoy no inter-city travel for second appeals, unlike Pune assessees (150 km to Mumbai ITAT) or Gurugram assessees (45 km to Delhi ITAT)."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/sec-143-2-notice/mumbai#service",
-      "name": "Section 143(2) Notice CA in Mumbai - Scrutiny Selection and Faceless Assessment",
-      "url": "https://www.patronaccounting.com/sec-143-2-notice/mumbai",
-      "description": "Patron Accounting CA-led representation for Section 143(2) of Income Tax Act 1961 scrutiny selection notices issued by Mumbai IT Region 30+ Principal CIT charges, Section 144B faceless assessment workflow under NaFAC Delhi allocation, Section 142(1) inquiry response, Section 143(3) faceless assessment defence with VC hearing representation, Section 144C DRP objections for eligible assessees, CIT(A) appeal under Faceless Appeal Scheme 2021, ITAT Mumbai Bench representation at Pratishtha Bhavan M.K. Marg (largest ITAT bench in India, co-located with Bombay HC) and Bombay High Court Section 260A appeal at Principal Seat (also co-located). Starting from Rs 25,000 per matter.",
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      },
-      "areaServed": {
-        "@type": "City",
-        "name": "Mumbai",
-        "sameAs": "https://en.wikipedia.org/wiki/Mumbai"
-      },
-      "serviceType": "Section 143(2) Income Tax Scrutiny Selection Notice Reply and Section 144B Faceless Assessment Defence",
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Income Tax Act 1961",
-          "sameAs": "https://en.wikipedia.org/wiki/Income_Tax_Act,_1961"
-        },
-        {
-          "@type": "Thing",
-          "name": "Income tax in India",
-          "sameAs": "https://en.wikipedia.org/wiki/Income_tax_in_India"
-        },
-        {
-          "@type": "Thing",
-          "name": "Faceless assessment scheme",
-          "sameAs": "https://en.wikipedia.org/wiki/Faceless_Assessment_Scheme"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Section 143(2) Notice Mumbai Service Packages",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "name": "Limited Scrutiny Reply - Single-Issue Section 144B Faceless Workflow Mumbai",
-            "price": "25000",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/sec-143-2-notice/mumbai"
-          },
-          {
-            "@type": "Offer",
-            "name": "Complete Scrutiny Reply or Mid-Complex Limited Scrutiny Mumbai",
-            "price": "35000",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/sec-143-2-notice/mumbai"
-          },
-          {
-            "@type": "Offer",
-            "name": "Compulsory Scrutiny or Mumbai Central Charges Defence",
-            "price": "50000",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/sec-143-2-notice/mumbai"
-          },
-          {
-            "@type": "Offer",
-            "name": "TP / International Tax / BFSI Pharma MNC with Section 92CA Reference",
-            "price": "150000",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/sec-143-2-notice/mumbai"
-          }
-        ]
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -865,7 +676,201 @@ section[style*="background: var(--blue)"] .content-text,
 section[style*="background: var(--blue)"] .content-text p,
 section[style*="background: var(--blue)"] .content-text li,
 section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !important;}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Section 143(2) Notice Mumbai</title>
+    <meta name="description" content="Section 143(2) notice CA in Mumbai: scrutiny selection, Section 144B faceless, CIT(A) appeal, ITAT Mumbai. Rs 25K-50K. Call +91 945 945 6700.">
+    <link rel="canonical" href="/sec-143-2-notice/mumbai">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Section 143(2) Notice Mumbai 2026 | Patron Accounting">
+    <meta property="og:description" content="Section 143(2) notice CA in Mumbai: scrutiny selection, Section 144B faceless, CIT(A) appeal, ITAT Mumbai. Rs 25K-50K. Call +91 945 945 6700.">
+    <meta property="og:url" content="/sec-143-2-notice/mumbai">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Section 143(2) Notice Mumbai 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Section 143(2) notice CA in Mumbai: scrutiny selection, Section 144B faceless, CIT(A) appeal, ITAT Mumbai. Rs 25K-50K. Call +91 945 945 6700.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/sec-143-2-notice/mumbai#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Income Tax Notice Mumbai",
+          "item": "https://www.patronaccounting.com/income-tax-notice/mumbai"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Section 143(2) Notice Mumbai",
+          "item": "https://www.patronaccounting.com/sec-143-2-notice/mumbai"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/sec-143-2-notice/mumbai#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Section 143(2) notice of Income Tax Act?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 143(2) of the Income Tax Act 1961 is the scrutiny selection notice issued by the Assessing Officer when the return filed under Section 139 is selected for detailed Section 143(3) assessment. It is NOT itself an inquiry or a demand - it is a notification that the case has been selected. The detailed scrutiny work happens under Section 143(3) within the Section 144B faceless framework. Selection is typically driven by CASS algorithm based on risk parameters."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the time limit for Section 143(2) notice?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Per the proviso to Section 143(2) as amended by Finance Act 2021 effective 1 April 2021, the notice must be served within 3 months from the end of the financial year in which the return is furnished. For an ITR filed during FY 2024-25, the Section 143(2) notice must be served by 30 June 2025. The 3-month limit is jurisdictional - non-compliance invalidates the entire assessment. Bombay HC has consistently struck down time-barred 143(2) notices in writ proceedings."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Section 143(2) vs Section 143(3) difference?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 143(2) is the SELECTION notice - it notifies the assessee that the case has been selected for scrutiny. It is NOT itself an inquiry, does NOT seek information and does NOT demand any tax. Section 143(3) is the ASSESSMENT ORDER - the final outcome of the scrutiny conducted under Section 144B faceless framework. Between the two, the FAU issues multiple Section 142(1) questionnaires and VC hearings happen. Section 143(3) typically comes 6 to 12 months after 143(2)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does Section 144B faceless assessment work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under Section 144B faceless scheme operational from 13 August 2020, a Section 143(2)-selected case is allocated by NaFAC Delhi to a Faceless Assessing Unit which may be located anywhere in India. The Mumbai-based AO no longer assesses ordinary geographical cases. Workflow: NaFAC allocates to FAU, FAU issues Section 142(1) questionnaires through portal, assessee responds, multiple cycles over 6 to 12 months, VC hearings, final Section 143(3) order uploaded to portal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which Mumbai IT charge covers BKC, Lower Parel and Andheri?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mumbai has 30+ Principal CIT charges under the LARGEST IT Region in India - the exact charge depends on your PAN and assessment year. Ordinary geographical charges Mumbai-1 through Mumbai-30 cover BKC, Lower Parel, Andheri and other Mumbai metro areas. Large MNC Indian subsidiaries fall under Transfer Pricing charges. Non-residents fall under International Taxation charges. Section 132 search cases fall under Central Charges. The exact charge is named on the notice."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does a Section 143(2) CA cost in Mumbai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patron Mumbai CA fees for Section 143(2) scrutiny handling range from Rs 25,000 to Rs 50,000 per matter due to multi-cycle Section 144B faceless workflow over 6 to 12 months. Limited Scrutiny single-issue starts at Rs 25,000. Complete Scrutiny with multiple issues at Rs 35,000. Compulsory Scrutiny or Central Charges at Rs 50,000. TP / international tax priced higher at Rs 1.5 lakh to Rs 10 lakh. ITAT Mumbai Bench and Bombay HC are co-located - no inter-city travel."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where is the ITAT bench for Mumbai 143(3) appeals?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ITAT Mumbai Bench at Pratishtha Bhavan M.K. Marg Mumbai is the LARGEST ITAT bench in India with multiple division benches operating in parallel. Second appeals from CIT(A) under Section 253 lie to ITAT Mumbai Bench within 60 days. It is CO-LOCATED with Bombay High Court Principal Seat and Mumbai IT charges - Mumbai assessees enjoy no inter-city travel for second appeals, unlike Pune assessees (150 km to Mumbai ITAT) or Gurugram assessees (45 km to Delhi ITAT)."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/sec-143-2-notice/mumbai#service",
+      "name": "Section 143(2) Notice CA in Mumbai - Scrutiny Selection and Faceless Assessment",
+      "url": "https://www.patronaccounting.com/sec-143-2-notice/mumbai",
+      "description": "Patron Accounting CA-led representation for Section 143(2) of Income Tax Act 1961 scrutiny selection notices issued by Mumbai IT Region 30+ Principal CIT charges, Section 144B faceless assessment workflow under NaFAC Delhi allocation, Section 142(1) inquiry response, Section 143(3) faceless assessment defence with VC hearing representation, Section 144C DRP objections for eligible assessees, CIT(A) appeal under Faceless Appeal Scheme 2021, ITAT Mumbai Bench representation at Pratishtha Bhavan M.K. Marg (largest ITAT bench in India, co-located with Bombay HC) and Bombay High Court Section 260A appeal at Principal Seat (also co-located). Starting from Rs 25,000 per matter.",
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Mumbai",
+        "sameAs": "https://en.wikipedia.org/wiki/Mumbai"
+      },
+      "serviceType": "Section 143(2) Income Tax Scrutiny Selection Notice Reply and Section 144B Faceless Assessment Defence",
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Income Tax Act 1961",
+          "sameAs": "https://en.wikipedia.org/wiki/Income_Tax_Act,_1961"
+        },
+        {
+          "@type": "Thing",
+          "name": "Income tax in India",
+          "sameAs": "https://en.wikipedia.org/wiki/Income_tax_in_India"
+        },
+        {
+          "@type": "Thing",
+          "name": "Faceless assessment scheme",
+          "sameAs": "https://en.wikipedia.org/wiki/Faceless_Assessment_Scheme"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Section 143(2) Notice Mumbai Service Packages",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "Limited Scrutiny Reply - Single-Issue Section 144B Faceless Workflow Mumbai",
+            "price": "25000",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/sec-143-2-notice/mumbai"
+          },
+          {
+            "@type": "Offer",
+            "name": "Complete Scrutiny Reply or Mid-Complex Limited Scrutiny Mumbai",
+            "price": "35000",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/sec-143-2-notice/mumbai"
+          },
+          {
+            "@type": "Offer",
+            "name": "Compulsory Scrutiny or Mumbai Central Charges Defence",
+            "price": "50000",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/sec-143-2-notice/mumbai"
+          },
+          {
+            "@type": "Offer",
+            "name": "TP / International Tax / BFSI Pharma MNC with Section 92CA Reference",
+            "price": "150000",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/sec-143-2-notice/mumbai"
+          }
+        ]
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -2081,7 +2086,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 </script>
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

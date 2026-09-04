@@ -1,193 +1,9 @@
 @extends('layouts.service-app')
-
-@section('meta')
-    <meta name="theme-color" content="#15365f">
-    <title>ESOP Tax Calculator FY 2025-26 | Perquisite + Gains</title>
-    <meta name="description" content="ESOP tax calculator for FY 2025-26 (AY 2026-27): perquisite tax at exercise plus capital gains at sale, with startup deferral check. Free CA-reviewed tool!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/esop-tax-calculator">
-
-    <meta property="og:title" content="ESOP Tax Calculator — Perquisite + Capital Gains FY 2025-26">
-    <meta property="og:description" content="Compute ESOP perquisite tax at exercise plus capital gains at sale for FY 2025-26 with startup deferral handling and post-July-2024 capital gains rates.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/esop-tax-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="ESOP Tax Calculator — Perquisite + Capital Gains FY 2025-26">
-    <meta name="twitter:description" content="Two-stage ESOP tax: perquisite at exercise + capital gains at sale, with startup deferral handling for FY 2025-26.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-
-    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "ESOP Tax Calculator",
-      "description": "ESOP Tax Calculator computes the two-stage tax on Employee Stock Option Plans for FY 2025-26 (AY 2026-27): perquisite tax at exercise (FMV minus exercise price taxed as salary at slab rates under old or new regime) and capital gains tax at sale (Section 111A STCG or Section 112A LTCG for listed equity, slab or 12.5% for unlisted) with date-driven holding period detection, startup deferral check under Section 80-IAC for DPIIT-recognised startups, and pre-23-July-2024 versus post-pivot capital gains regime handling.",
-      "url": "https://www.patronaccounting.com/tools/esop-tax-calculator",
-      "applicationCategory": "BusinessApplication",
-      "operatingSystem": "Any",
-      "inLanguage": "en-IN",
-      "isAccessibleForFree": true,
-      "datePublished": "2026-05-06T08:00:00+05:30",
-      "dateModified": "2026-05-08T08:00:00+05:30",
-      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
-      "reviewedBy": {
-        "@type": "Person",
-        "@id": "https://patronaccounting.com/#founder",
-        "name": "CA Sundram Gupta",
-        "jobTitle": "Founder & Chartered Accountant",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Institute of Chartered Accountants of India",
-            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-          }
-        }]
-      },
-      "publisher": { "@id": "https://patronaccounting.com/#organization" },
-      "provider": {"@id": "https://patronaccounting.com/#organization"}
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "ESOP Tax Calculator", "item": "https://www.patronaccounting.com/tools/esop-tax-calculator"}
-      ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "How are ESOPs taxed in India?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "ESOPs in India are taxed in two stages. First, at exercise — the perquisite value (FMV on exercise date minus exercise price) is taxed as salary income at slab rates with TDS deducted by employer under Section 192. Second, at sale — capital gains arise on the difference between sale price and FMV at exercise. For listed equity, LTCG above ₹1.25L is taxed at 12.5%, STCG at 20%. For unlisted shares, holding period thresholds and rates differ."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the FMV used for ESOP perquisite calculation?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "For listed shares, FMV is the average of the highest and lowest prices on the recognised stock exchange on the exercise date. If shares are not traded that day, the previous trading day's average is used. For unlisted shares, FMV must be determined by a Category I SEBI-registered merchant banker as on the date of exercise. The merchant banker's valuation report is mandatory and the employer relies on it for TDS computation under Rule 3(8) of the Income Tax Rules."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the ESOP tax deferral for startup employees?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Under Section 192(1C), employees of eligible startups can defer ESOP perquisite tax. Tax becomes due at the earliest of: 48 months from end of assessment year of allotment, sale of shares, or cessation of employment. Eligibility requires the employer to be both DPIIT-recognised AND certified under Section 80-IAC by the Inter-Ministerial Board. Approximately 4,000 of 1.97 lakh DPIIT-recognised startups currently qualify. Tax is computed at allotment-year rates, not trigger-year rates."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is capital gains computed when ESOP shares are sold?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Capital gains equal sale price minus the FMV at exercise (which already paid perquisite tax). Holding period starts from the allotment date, not grant or vest. For listed shares: holding over 12 months gives LTCG taxed at 12.5% above ₹1.25L; under 12 months gives STCG at 20% under Section 111A. For unlisted shares: holding over 24 months gives LTCG at 12.5% no indexation; under 24 months gives STCG taxed at slab rates."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens if I exercised ESOPs before 23 July 2024 and sold after?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The Finance Act 2024 changed capital gains rates effective 23 July 2024. For sales on or after this date, the new rates apply: 12.5% LTCG and 20% STCG for listed equity, 12.5% no-indexation for property and unlisted shares. The exercise date does not matter for the capital gains regime — only the sale date determines which rates apply. Your perquisite tax was paid at exercise time at then-applicable slab rates, and capital gains are computed using the sale-date rules."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Are ESOPs from foreign parent companies taxed differently?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Foreign company ESOPs follow the same two-stage taxation structure but with additional reporting. Perquisite at exercise uses FMV on exercise date converted to INR at SBI reference rate. Capital gains use FMV at exercise as cost basis. Foreign shares must additionally be reported in Schedule FA of the ITR. Non-disclosure can trigger penalties under the Black Money Act. Foreign tax credit may be available under DTAA — file Form 67 before ITR to claim TDS deducted abroad."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is RSU taxation the same as ESOP taxation?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "RSUs (Restricted Stock Units) follow similar two-stage taxation but with key differences. There is no exercise event for RSUs — perquisite arises at vesting (no exercise price paid). The full FMV at vesting becomes the perquisite value taxed as salary. Capital gains at sale use FMV at vesting as cost basis. RSUs are common in MNCs and listed companies, ESOPs more common in startups. Holding period for capital gains starts from the vesting date for RSUs."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which ITR form should I file when I have ESOP income?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "If you have only salary including ESOP perquisite (already in Form 16), file ITR-1 only if all of the following are true: total income below ₹50 lakh, no capital gains, no holding of unlisted equity shares any time during the year, and no ESOP tax deferral availed. Most startup ESOP holders are disqualified from ITR-1 because startup shares are typically unlisted — even if you have not sold any shares yet, merely holding them disqualifies ITR-1. If you sold ESOP shares during the year, file ITR-2 (or HUF) to report capital gains. If you availed startup ESOP tax deferral under Section 80-IAC, file ITR-2 even if otherwise eligible for ITR-1. If you have business income or are a partner in a firm with ESOP income from another company, file ITR-3. For foreign company ESOPs, ITR-2 or ITR-3 with Schedule FA disclosure is mandatory regardless of income level."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I claim Section 87A rebate against ESOP perquisite tax?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes for the perquisite portion. The perquisite is taxed as salary at slab rates and is eligible for Section 87A rebate if your total taxable income is within the rebate threshold. New regime FY 2025-26: rebate up to ₹60,000 if income is at or below ₹12,00,000. Old regime: ₹12,500 if income is at or below ₹5,00,000. However, Section 87A rebate cannot be claimed against capital gains taxed at special rates under Sections 111A and 112A."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do I need to pay advance tax on ESOP gains?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes if your total tax liability after TDS exceeds ₹10,000. Perquisite tax at exercise is typically covered by employer TDS. However, capital gains at sale are not subject to TDS for residents, so you must include them in advance tax estimates. Per the Section 234C capital gains proviso, tax on unforeseen gains can be paid in the installment immediately following the sale to avoid interest. Use Patron's Advance Tax Calculator to plan installments."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the cost of acquisition for ESOP capital gains?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The cost of acquisition is the FMV on the exercise date — the same FMV used to compute the perquisite. This is critical to avoid double taxation. Using the exercise price (amount actually paid) instead of FMV is a common mistake that taxes the perquisite portion twice. Section 49(2AA) explicitly states this rule. Form 16 from the year of exercise shows the FMV — keep it for capital gains computation when you sell."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How will ESOP taxation change under the Income Tax Act 2025?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The Income Tax Act 2025, effective 1 April 2026, retains the substantive ESOP taxation framework with renumbered references. Section 17(2) perquisite treatment continues, Section 80-IAC startup deferral continues, and capital gains rates under Sections 111A/112A remain unchanged. The Tax Year concept replaces separate FY and AY for filings from April 2026 onwards. For FY 2025-26 returns, existing 1961 Act provisions apply."
-          }
-        }
-      ]
-    }
-    </script>
-@endsection
-
 @push('styles')
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-    <style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
         :root {
             --primary: #15365f; --primary-light: #1f4a7a; --primary-dark: #0a2240;
             --accent: #f26522; --accent-light: #ff8347;
@@ -434,6 +250,197 @@ button, .toggle-btn, .toggle-btn.active, .faq-question, .sidebar-link, .toc-nav 
     .schedule-table tbody td, .rate-table tbody td, .recon-table tbody td { padding: 8px 10px; }
 }
     </style>
+@endpush
+
+
+@section('meta')
+    <meta name="theme-color" content="#15365f">
+    <title>ESOP Tax Calculator FY 2025-26 | Perquisite + Gains</title>
+    <meta name="description" content="ESOP tax calculator for FY 2025-26 (AY 2026-27): perquisite tax at exercise plus capital gains at sale, with startup deferral check. Free CA-reviewed tool!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/esop-tax-calculator">
+
+    <meta property="og:title" content="ESOP Tax Calculator — Perquisite + Capital Gains FY 2025-26">
+    <meta property="og:description" content="Compute ESOP perquisite tax at exercise plus capital gains at sale for FY 2025-26 with startup deferral handling and post-July-2024 capital gains rates.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/esop-tax-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ESOP Tax Calculator — Perquisite + Capital Gains FY 2025-26">
+    <meta name="twitter:description" content="Two-stage ESOP tax: perquisite at exercise + capital gains at sale, with startup deferral handling for FY 2025-26.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "ESOP Tax Calculator",
+      "description": "ESOP Tax Calculator computes the two-stage tax on Employee Stock Option Plans for FY 2025-26 (AY 2026-27): perquisite tax at exercise (FMV minus exercise price taxed as salary at slab rates under old or new regime) and capital gains tax at sale (Section 111A STCG or Section 112A LTCG for listed equity, slab or 12.5% for unlisted) with date-driven holding period detection, startup deferral check under Section 80-IAC for DPIIT-recognised startups, and pre-23-July-2024 versus post-pivot capital gains regime handling.",
+      "url": "https://www.patronaccounting.com/tools/esop-tax-calculator",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Any",
+      "inLanguage": "en-IN",
+      "isAccessibleForFree": true,
+      "datePublished": "2026-05-06T08:00:00+05:30",
+      "dateModified": "2026-05-08T08:00:00+05:30",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
+      "reviewedBy": {
+        "@type": "Person",
+        "@id": "https://patronaccounting.com/#founder",
+        "name": "CA Sundram Gupta",
+        "jobTitle": "Founder & Chartered Accountant",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Institute of Chartered Accountants of India",
+            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+          }
+        }]
+      },
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": {"@id": "https://patronaccounting.com/#organization"}
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "ESOP Tax Calculator", "item": "https://www.patronaccounting.com/tools/esop-tax-calculator"}
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How are ESOPs taxed in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ESOPs in India are taxed in two stages. First, at exercise — the perquisite value (FMV on exercise date minus exercise price) is taxed as salary income at slab rates with TDS deducted by employer under Section 192. Second, at sale — capital gains arise on the difference between sale price and FMV at exercise. For listed equity, LTCG above ₹1.25L is taxed at 12.5%, STCG at 20%. For unlisted shares, holding period thresholds and rates differ."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the FMV used for ESOP perquisite calculation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For listed shares, FMV is the average of the highest and lowest prices on the recognised stock exchange on the exercise date. If shares are not traded that day, the previous trading day's average is used. For unlisted shares, FMV must be determined by a Category I SEBI-registered merchant banker as on the date of exercise. The merchant banker's valuation report is mandatory and the employer relies on it for TDS computation under Rule 3(8) of the Income Tax Rules."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the ESOP tax deferral for startup employees?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under Section 192(1C), employees of eligible startups can defer ESOP perquisite tax. Tax becomes due at the earliest of: 48 months from end of assessment year of allotment, sale of shares, or cessation of employment. Eligibility requires the employer to be both DPIIT-recognised AND certified under Section 80-IAC by the Inter-Ministerial Board. Approximately 4,000 of 1.97 lakh DPIIT-recognised startups currently qualify. Tax is computed at allotment-year rates, not trigger-year rates."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is capital gains computed when ESOP shares are sold?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Capital gains equal sale price minus the FMV at exercise (which already paid perquisite tax). Holding period starts from the allotment date, not grant or vest. For listed shares: holding over 12 months gives LTCG taxed at 12.5% above ₹1.25L; under 12 months gives STCG at 20% under Section 111A. For unlisted shares: holding over 24 months gives LTCG at 12.5% no indexation; under 24 months gives STCG taxed at slab rates."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if I exercised ESOPs before 23 July 2024 and sold after?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Finance Act 2024 changed capital gains rates effective 23 July 2024. For sales on or after this date, the new rates apply: 12.5% LTCG and 20% STCG for listed equity, 12.5% no-indexation for property and unlisted shares. The exercise date does not matter for the capital gains regime — only the sale date determines which rates apply. Your perquisite tax was paid at exercise time at then-applicable slab rates, and capital gains are computed using the sale-date rules."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are ESOPs from foreign parent companies taxed differently?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Foreign company ESOPs follow the same two-stage taxation structure but with additional reporting. Perquisite at exercise uses FMV on exercise date converted to INR at SBI reference rate. Capital gains use FMV at exercise as cost basis. Foreign shares must additionally be reported in Schedule FA of the ITR. Non-disclosure can trigger penalties under the Black Money Act. Foreign tax credit may be available under DTAA — file Form 67 before ITR to claim TDS deducted abroad."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is RSU taxation the same as ESOP taxation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "RSUs (Restricted Stock Units) follow similar two-stage taxation but with key differences. There is no exercise event for RSUs — perquisite arises at vesting (no exercise price paid). The full FMV at vesting becomes the perquisite value taxed as salary. Capital gains at sale use FMV at vesting as cost basis. RSUs are common in MNCs and listed companies, ESOPs more common in startups. Holding period for capital gains starts from the vesting date for RSUs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which ITR form should I file when I have ESOP income?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If you have only salary including ESOP perquisite (already in Form 16), file ITR-1 only if all of the following are true: total income below ₹50 lakh, no capital gains, no holding of unlisted equity shares any time during the year, and no ESOP tax deferral availed. Most startup ESOP holders are disqualified from ITR-1 because startup shares are typically unlisted — even if you have not sold any shares yet, merely holding them disqualifies ITR-1. If you sold ESOP shares during the year, file ITR-2 (or HUF) to report capital gains. If you availed startup ESOP tax deferral under Section 80-IAC, file ITR-2 even if otherwise eligible for ITR-1. If you have business income or are a partner in a firm with ESOP income from another company, file ITR-3. For foreign company ESOPs, ITR-2 or ITR-3 with Schedule FA disclosure is mandatory regardless of income level."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I claim Section 87A rebate against ESOP perquisite tax?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes for the perquisite portion. The perquisite is taxed as salary at slab rates and is eligible for Section 87A rebate if your total taxable income is within the rebate threshold. New regime FY 2025-26: rebate up to ₹60,000 if income is at or below ₹12,00,000. Old regime: ₹12,500 if income is at or below ₹5,00,000. However, Section 87A rebate cannot be claimed against capital gains taxed at special rates under Sections 111A and 112A."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need to pay advance tax on ESOP gains?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes if your total tax liability after TDS exceeds ₹10,000. Perquisite tax at exercise is typically covered by employer TDS. However, capital gains at sale are not subject to TDS for residents, so you must include them in advance tax estimates. Per the Section 234C capital gains proviso, tax on unforeseen gains can be paid in the installment immediately following the sale to avoid interest. Use Patron's Advance Tax Calculator to plan installments."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the cost of acquisition for ESOP capital gains?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The cost of acquisition is the FMV on the exercise date — the same FMV used to compute the perquisite. This is critical to avoid double taxation. Using the exercise price (amount actually paid) instead of FMV is a common mistake that taxes the perquisite portion twice. Section 49(2AA) explicitly states this rule. Form 16 from the year of exercise shows the FMV — keep it for capital gains computation when you sell."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How will ESOP taxation change under the Income Tax Act 2025?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Income Tax Act 2025, effective 1 April 2026, retains the substantive ESOP taxation framework with renumbered references. Section 17(2) perquisite treatment continues, Section 80-IAC startup deferral continues, and capital gains rates under Sections 111A/112A remain unchanged. The Tax Year concept replaces separate FY and AY for filings from April 2026 onwards. For FY 2025-26 returns, existing 1961 Act provisions apply."
+          }
+        }
+      ]
+    }
+    </script>
+@endsection
+
+@push('styles')
+    
+    
+    
+    
 @endpush
 
 @section('content')

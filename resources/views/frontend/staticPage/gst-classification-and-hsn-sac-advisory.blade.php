@@ -1,161 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>HSN/SAC Classification Advisory 2026 | Patron Accounting</title>
-    <meta name="description" content="Expert HSN/SAC classification opinion and GST rate determination by CA/CS to defuse rate disputes, demand notices, and ITC risk. Starting from INR 9,999.">
-    <link rel="canonical" href="/gst-classification-and-hsn-sac-advisory">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="HSN/SAC Classification Advisory 2026 | Patron Accounting">
-    <meta property="og:description" content="Expert HSN/SAC classification opinion and GST rate determination by CA/CS to defuse rate disputes, demand notices, and ITC risk. Starting from INR 9,999.">
-    <meta property="og:url" content="/gst-classification-and-hsn-sac-advisory">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="HSN/SAC Classification Advisory 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Expert HSN/SAC classification opinion and GST rate determination by CA/CS to defuse rate disputes, demand notices, and ITC risk. Starting from INR 9,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/gst-classification-and-hsn-sac-advisory/#service",
-        "name": "GST Classification and HSN/SAC Advisory in India",
-        "description": "Written HSN and SAC classification opinion and GST rate-of-tax determination by Chartered Accountants, applying the General Rules of Interpretation under the Customs Tariff Act 1975, CBIC notifications, and judicial precedent. Covers fresh classification, GST 2.0 rate mapping, advance ruling under Section 97 CGST, and departmental representation.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-classification-and-hsn-sac-advisory" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [
-            { "@type": "Thing", "name": "Harmonized System", "sameAs": "https://en.wikipedia.org/wiki/Harmonized_System" },
-            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" }
-        ],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "HSN/SAC Classification Advisory Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "Written Classification Opinion (per SKU group)",
-                    "priceCurrency": "INR",
-                    "price": "9999",
-                    "description": "GRI-backed HSN/SAC opinion with rate determination, up to 5 SKUs, in 5 to 10 working days"
-                },
-                {
-                    "@type": "Offer",
-                    "name": "GST Rate-of-Tax Determination (single product)",
-                    "priceCurrency": "INR",
-                    "price": "9999",
-                    "description": "Rate-of-tax opinion with the applicable CBIC rate notification cited, in 5 to 7 working days"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/gst-classification-and-hsn-sac-advisory/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
-            { "@type": "ListItem", "position": 3, "name": "HSN/SAC Classification Advisory", "item": "https://www.patronaccounting.com/gst-classification-and-hsn-sac-advisory" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/gst-classification-and-hsn-sac-advisory/#faq",
-        "datePublished": "2026-05-27T08:00:00+05:30",
-        "dateModified": "2026-06-01T08:00:00+05:30",
-        "mainEntity": [
-
-            {
-                "@type": "Question",
-                "name": "What is the difference between HSN code and SAC code under GST?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "HSN (Harmonized System of Nomenclature) is an internationally accepted 8-digit code that classifies goods and is used by over 200 countries. SAC (Service Accounting Code) is a 6-digit India-specific code developed by CBIC that classifies services under GST, where the first two digits are always 99. HSN is for goods; SAC is for services."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How many digits of HSN code are mandatory on a GST invoice?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Under Notification 78/2020-CT dated 15 October 2020, a registered person with aggregate turnover up to INR 5 crore in the preceding FY must mention 4 digits on B2B invoices. A registered person with turnover above INR 5 crore must mention 6 digits on all invoices. For exports, 8 digits are mandatory."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can the GST department change the HSN code that I have been using?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. The department can issue a scrutiny notice (ASMT-10), a pre-SCN intimation (DRC-01A), or an SCN under Sections 73, 74, or 74A CGST proposing reclassification. The taxpayer has the right to reply with GRI-based reasoning, trade parlance evidence, and case law, and to appeal under Section 107, Section 112 GSTAT, and writ jurisdiction."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Does the GST 2.0 reform of September 2025 change my HSN code?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "GST 2.0 changes the rate, not the HSN code itself in most cases. The rate restructure of 22 September 2025 moved 99% of old 12% items to 5% and approximately 90% of old 28% items to 18%, with a new 40% tier for sin and luxury goods. The HSN remains the same but the applicable rate from the CTR notification may have changed."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can I file an Advance Ruling application for HSN classification?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. Section 97(2)(a) of the CGST Act, 2017 expressly permits an advance ruling on the classification of goods or services. The application is filed in Form GST ARA-01 with a fee of INR 5,000 CGST and INR 5,000 SGST. The State AAR issues the ruling within 90 days and it is binding on the applicant and the jurisdictional officer in the same State."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the penalty for using an incorrect HSN code?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "There are three consequences: Section 122 CGST imposes up to INR 25,000 per invoice for incorrect particulars; tax shortfall is recoverable under Sections 73, 74, or 74A with 18 percent interest per annum and penalty up to the tax amount in fraud cases; and the recipient's ITC may be rejected. Voluntary correction under Section 73(5) before an SCN waives the penalty entirely."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How do I know if my classification opinion will protect me in an audit?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "A defensible opinion must cite the General Rules of Interpretation (GRI 1 to 6 of Customs Tariff Act 1975), the HSN Explanatory Notes, the applicable CBIC rate notification, and at least one supporting AAR, CESTAT, or court ruling. The Patron opinion includes all four and is signed by a Chartered Accountant with partner-level review."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the cost of HSN/SAC classification advisory at Patron Accounting?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Starting from INR 9,999 (Exclusive of GST and government charges) per SKU group for a written opinion. Advance ruling filing, rate-of-tax determination on multi-product portfolios, and HSN master mapping are quoted separately. Government fees for AAR are INR 10,000 in total (INR 5,000 CGST plus INR 5,000 SGST under Rule 104 CGST Rules)."
-                }
-            }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -769,7 +618,163 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>HSN/SAC Classification Advisory 2026 | Patron Accounting</title>
+    <meta name="description" content="Expert HSN/SAC classification opinion and GST rate determination by CA/CS to defuse rate disputes, demand notices, and ITC risk. Starting from INR 9,999.">
+    <link rel="canonical" href="/gst-classification-and-hsn-sac-advisory">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="HSN/SAC Classification Advisory 2026 | Patron Accounting">
+    <meta property="og:description" content="Expert HSN/SAC classification opinion and GST rate determination by CA/CS to defuse rate disputes, demand notices, and ITC risk. Starting from INR 9,999.">
+    <meta property="og:url" content="/gst-classification-and-hsn-sac-advisory">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="HSN/SAC Classification Advisory 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Expert HSN/SAC classification opinion and GST rate determination by CA/CS to defuse rate disputes, demand notices, and ITC risk. Starting from INR 9,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/gst-classification-and-hsn-sac-advisory/#service",
+        "name": "GST Classification and HSN/SAC Advisory in India",
+        "description": "Written HSN and SAC classification opinion and GST rate-of-tax determination by Chartered Accountants, applying the General Rules of Interpretation under the Customs Tariff Act 1975, CBIC notifications, and judicial precedent. Covers fresh classification, GST 2.0 rate mapping, advance ruling under Section 97 CGST, and departmental representation.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-classification-and-hsn-sac-advisory" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [
+            { "@type": "Thing", "name": "Harmonized System", "sameAs": "https://en.wikipedia.org/wiki/Harmonized_System" },
+            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" }
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "HSN/SAC Classification Advisory Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "Written Classification Opinion (per SKU group)",
+                    "priceCurrency": "INR",
+                    "price": "9999",
+                    "description": "GRI-backed HSN/SAC opinion with rate determination, up to 5 SKUs, in 5 to 10 working days"
+                },
+                {
+                    "@type": "Offer",
+                    "name": "GST Rate-of-Tax Determination (single product)",
+                    "priceCurrency": "INR",
+                    "price": "9999",
+                    "description": "Rate-of-tax opinion with the applicable CBIC rate notification cited, in 5 to 7 working days"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/gst-classification-and-hsn-sac-advisory/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
+            { "@type": "ListItem", "position": 3, "name": "HSN/SAC Classification Advisory", "item": "https://www.patronaccounting.com/gst-classification-and-hsn-sac-advisory" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/gst-classification-and-hsn-sac-advisory/#faq",
+        "datePublished": "2026-05-27T08:00:00+05:30",
+        "dateModified": "2026-06-01T08:00:00+05:30",
+        "mainEntity": [
+
+            {
+                "@type": "Question",
+                "name": "What is the difference between HSN code and SAC code under GST?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "HSN (Harmonized System of Nomenclature) is an internationally accepted 8-digit code that classifies goods and is used by over 200 countries. SAC (Service Accounting Code) is a 6-digit India-specific code developed by CBIC that classifies services under GST, where the first two digits are always 99. HSN is for goods; SAC is for services."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How many digits of HSN code are mandatory on a GST invoice?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Under Notification 78/2020-CT dated 15 October 2020, a registered person with aggregate turnover up to INR 5 crore in the preceding FY must mention 4 digits on B2B invoices. A registered person with turnover above INR 5 crore must mention 6 digits on all invoices. For exports, 8 digits are mandatory."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can the GST department change the HSN code that I have been using?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. The department can issue a scrutiny notice (ASMT-10), a pre-SCN intimation (DRC-01A), or an SCN under Sections 73, 74, or 74A CGST proposing reclassification. The taxpayer has the right to reply with GRI-based reasoning, trade parlance evidence, and case law, and to appeal under Section 107, Section 112 GSTAT, and writ jurisdiction."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Does the GST 2.0 reform of September 2025 change my HSN code?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "GST 2.0 changes the rate, not the HSN code itself in most cases. The rate restructure of 22 September 2025 moved 99% of old 12% items to 5% and approximately 90% of old 28% items to 18%, with a new 40% tier for sin and luxury goods. The HSN remains the same but the applicable rate from the CTR notification may have changed."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can I file an Advance Ruling application for HSN classification?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Section 97(2)(a) of the CGST Act, 2017 expressly permits an advance ruling on the classification of goods or services. The application is filed in Form GST ARA-01 with a fee of INR 5,000 CGST and INR 5,000 SGST. The State AAR issues the ruling within 90 days and it is binding on the applicant and the jurisdictional officer in the same State."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the penalty for using an incorrect HSN code?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "There are three consequences: Section 122 CGST imposes up to INR 25,000 per invoice for incorrect particulars; tax shortfall is recoverable under Sections 73, 74, or 74A with 18 percent interest per annum and penalty up to the tax amount in fraud cases; and the recipient's ITC may be rejected. Voluntary correction under Section 73(5) before an SCN waives the penalty entirely."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How do I know if my classification opinion will protect me in an audit?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "A defensible opinion must cite the General Rules of Interpretation (GRI 1 to 6 of Customs Tariff Act 1975), the HSN Explanatory Notes, the applicable CBIC rate notification, and at least one supporting AAR, CESTAT, or court ruling. The Patron opinion includes all four and is signed by a Chartered Accountant with partner-level review."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the cost of HSN/SAC classification advisory at Patron Accounting?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Starting from INR 9,999 (Exclusive of GST and government charges) per SKU group for a written opinion. Advance ruling filing, rate-of-tax determination on multi-product portfolios, and HSN master mapping are quoted separately. Government fees for AAR are INR 10,000 in total (INR 5,000 CGST plus INR 5,000 SGST under Rule 104 CGST Rules)."
+                }
+            }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1681,17 +1686,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1714,8 +1712,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1752,7 +1748,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1763,4 +1758,20 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+
 

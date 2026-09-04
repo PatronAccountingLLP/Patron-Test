@@ -1,186 +1,11 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>MBP-1 Director Interest Disclosure 2026 | Patron Accounting</title>
-    <meta name="description" content="File Form MBP-1 for director disclosure of interest under Section 184 at the first board meeting each year. Avoid the Rs 1 lakh penalty. From INR 999.">
-    <link rel="canonical" href="/mbp-1-director-interest-disclosure">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="MBP-1 Director Interest Disclosure 2026 | Patron Accounting">
-    <meta property="og:description" content="File Form MBP-1 for director disclosure of interest under Section 184 at the first board meeting each year. Avoid the Rs 1 lakh penalty. From INR 999.">
-    <meta property="og:url" content="/mbp-1-director-interest-disclosure">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="MBP-1 Director Interest Disclosure 2026 | Patron Accounting">
-    <meta name="twitter:description" content="File Form MBP-1 for director disclosure of interest under Section 184 at the first board meeting each year. Avoid the Rs 1 lakh penalty. From INR 999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/mbp-1-director-interest-disclosure/#service",
-        "name": "MBP-1 Director Interest Disclosure Services",
-        "description": "MBP-1 disclosure services from Patron Accounting LLP cover the director’s disclosure of interest under Section 184(1) of the Companies Act, 2013 read with Rule 9, including the drafting of an accurate Form MBP-1 for every director capturing all companies, bodies corporate, firms and associations of individuals of interest with shareholding details, the tracking of changes in directors’ interests and a fresh MBP-1 for the first board meeting after any change, the recording of each disclosure in the board minutes, the maintenance of the register of contracts under Section 189, the preservation of the signed disclosures in safe custody, and the integration of MBP-1 into the first board meeting of the financial year so this often-missed, non-e-filed disclosure is never overlooked.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/mbp-1-director-interest-disclosure" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Conflict of interest", "sameAs": "https://en.wikipedia.org/wiki/Conflict_of_interest" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "MBP-1 Disclosure Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "MBP-1 Director Interest Disclosure Service",
-                    "priceCurrency": "INR",
-                    "price": "999",
-                    "description": "MBP-1 director interest disclosure covering the drafting of the MBP-1 for each director, the recording of the disclosure in the board minutes and the updating of the register of contracts under Section 189, exclusive of GST and government charges. MBP-1 is given to the company and not e-filed with the ROC, so there is no MCA filing fee for the disclosure itself; non-compliance attracts a penalty of Rs 1,00,000 per director under Section 184(4)."
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/mbp-1-director-interest-disclosure/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Company Compliance", "item": "https://www.patronaccounting.com/corporate-compliance-services" },
-            { "@type": "ListItem", "position": 3, "name": "MBP-1 Disclosure", "item": "https://www.patronaccounting.com/mbp-1-director-interest-disclosure" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/mbp-1-director-interest-disclosure/#faq",
-        "datePublished": "2026-06-03T08:00:00+05:30",
-        "dateModified": "2026-06-04T08:00:00+05:30",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "What is Form MBP-1?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Form MBP-1 is the written notice through which every director discloses interest or concern in other companies, bodies corporate, firms or associations of individuals, including shareholding, to the Board, under Section 184(1) of the Companies Act, 2013. It helps the company identify and manage potential conflicts of interest." }
-            },
-            {
-                "@type": "Question",
-                "name": "When must MBP-1 be given?",
-                "acceptedAnswer": { "@type": "Answer", "text": "A director must give MBP-1 at the first board meeting in which the person participates as a director, at the first board meeting of every financial year, and at the first board meeting held after any change in the interest already disclosed. It is a recurring annual disclosure that also updates whenever a director's interests change." }
-            },
-            {
-                "@type": "Question",
-                "name": "Is MBP-1 filed with the ROC?",
-                "acceptedAnswer": { "@type": "Answer", "text": "No. MBP-1 is given by the director to the company and the Board, taken on record in the board minutes and the register of contracts, and preserved in the company's safe custody. It is not an e-form filed directly with the Registrar of Companies, which is one reason it is so often overlooked in routine compliance." }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the penalty for not giving MBP-1?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Under Section 184(4) of the Companies Act, 2013, a director who contravenes the disclosure requirement is liable to a penalty of Rs 1,00,000. Recent ROC adjudication orders have imposed this penalty on each director where the company failed to maintain MBP-1 disclosures, often discovered during inspection or secretarial audit." }
-            },
-            {
-                "@type": "Question",
-                "name": "What does a director disclose in MBP-1?",
-                "acceptedAnswer": { "@type": "Answer", "text": "In MBP-1 a director discloses interest or concern in any company, body corporate, firm or association of individuals, including the nature of interest and shareholding held. Where a director holds more than 2 percent of the paid-up capital of a body corporate, those particulars are recorded in the company's register of contracts under Section 189." }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the difference between MBP-1 and DIR-8?",
-                "acceptedAnswer": { "@type": "Answer", "text": "MBP-1 is the disclosure of a director's interest in other entities under Section 184(1). DIR-8 is a separate declaration confirming the director is not disqualified under Section 164(2). Both are given to the company at the first board meeting of the financial year, but they serve different compliance purposes and are not interchangeable." }
-            },
-            {
-                "@type": "Question",
-                "name": "Does MBP-1 apply to private companies?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Yes. The disclosure obligation under Section 184(1) applies to every director of every company, including private limited companies, one person companies and others. There is no exemption from the personal disclosure duty, and ROC adjudication orders confirm that private company directors are penalised for failing to maintain MBP-1." }
-            },
-            {
-                "@type": "Question",
-                "name": "How long must MBP-1 be preserved?",
-                "acceptedAnswer": { "@type": "Answer", "text": "MBP-1 disclosures must be kept in the safe custody of the company, and the related notices are generally preserved for eight years. Maintaining these records is important because ROC inspections and secretarial audits check whether MBP-1 has been given and recorded, and missing records have led to penalties on directors." }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/mbp-1-director-interest-disclosure",
-        "name": "MBP-1 Director Interest Disclosure Services",
-        "description": "File Form MBP-1 for director disclosure of interest under Section 184 at the first board meeting each year. Avoid the Rs 1 lakh penalty. From INR 999.",
-        "url": "https://www.patronaccounting.com/mbp-1-director-interest-disclosure",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/mbp-1-director-interest-disclosure/#service" },
-        "datePublished": "2026-06-03T08:00:00+05:30",
-        "dateModified": "2026-06-04T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/mbp-1-director-interest-disclosure/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "MBP-1 Disclosure Process: Step by Step",
-        "description": "How a director’s MBP-1 disclosure of interest is prepared, placed at the board meeting, recorded and preserved under Section 184.",
-        "totalTime": "P2D",
-        "step": [
-            { "@type": "HowToStep", "name": "Collect director details", "text": "Gather each director's interests in other entities and their shareholding." },
-            { "@type": "HowToStep", "name": "Draft MBP-1", "text": "Prepare a written MBP-1 for each director listing all entities of interest." },
-            { "@type": "HowToStep", "name": "Place at the board meeting", "text": "Submit the MBP-1 at the first board meeting of the financial year, or the first meeting after a change." },
-            { "@type": "HowToStep", "name": "Record in minutes", "text": "The Board takes note of the disclosures and records them in the meeting minutes." },
-            { "@type": "HowToStep", "name": "Update the register", "text": "Enter the disclosed interests in the register of contracts under Section 189." },
-            { "@type": "HowToStep", "name": "Preserve the records", "text": "Keep the signed MBP-1 disclosures in the company's safe custody." },
-            { "@type": "HowToStep", "name": "Repeat each year and on change", "text": "Refresh MBP-1 every financial year and whenever a director's interest changes." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "MBP-1 Disclosure Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Disclosure of Interest", "description": "A director's notice of interest in other entities, given to the Board to avoid conflict of interest." },
-            { "@type": "DefinedTerm", "name": "Section 184(1)", "description": "The general disclosure obligation, satisfied by MBP-1." },
-            { "@type": "DefinedTerm", "name": "Section 184(2)", "description": "The specific disclosure a director makes when the company enters a contract in which the director is interested." },
-            { "@type": "DefinedTerm", "name": "Register of Contracts", "description": "The register under Section 189 in which MBP-1 disclosures are recorded." },
-            { "@type": "DefinedTerm", "name": "DIR-8", "description": "A separate declaration of non-disqualification under Section 164(2), distinct from MBP-1." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -794,7 +619,187 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>MBP-1 Director Interest Disclosure 2026 | Patron Accounting</title>
+    <meta name="description" content="File Form MBP-1 for director disclosure of interest under Section 184 at the first board meeting each year. Avoid the Rs 1 lakh penalty. From INR 999.">
+    <link rel="canonical" href="/mbp-1-director-interest-disclosure">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="MBP-1 Director Interest Disclosure 2026 | Patron Accounting">
+    <meta property="og:description" content="File Form MBP-1 for director disclosure of interest under Section 184 at the first board meeting each year. Avoid the Rs 1 lakh penalty. From INR 999.">
+    <meta property="og:url" content="/mbp-1-director-interest-disclosure">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="MBP-1 Director Interest Disclosure 2026 | Patron Accounting">
+    <meta name="twitter:description" content="File Form MBP-1 for director disclosure of interest under Section 184 at the first board meeting each year. Avoid the Rs 1 lakh penalty. From INR 999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/mbp-1-director-interest-disclosure/#service",
+        "name": "MBP-1 Director Interest Disclosure Services",
+        "description": "MBP-1 disclosure services from Patron Accounting LLP cover the director’s disclosure of interest under Section 184(1) of the Companies Act, 2013 read with Rule 9, including the drafting of an accurate Form MBP-1 for every director capturing all companies, bodies corporate, firms and associations of individuals of interest with shareholding details, the tracking of changes in directors’ interests and a fresh MBP-1 for the first board meeting after any change, the recording of each disclosure in the board minutes, the maintenance of the register of contracts under Section 189, the preservation of the signed disclosures in safe custody, and the integration of MBP-1 into the first board meeting of the financial year so this often-missed, non-e-filed disclosure is never overlooked.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/mbp-1-director-interest-disclosure" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Conflict of interest", "sameAs": "https://en.wikipedia.org/wiki/Conflict_of_interest" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "MBP-1 Disclosure Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "MBP-1 Director Interest Disclosure Service",
+                    "priceCurrency": "INR",
+                    "price": "999",
+                    "description": "MBP-1 director interest disclosure covering the drafting of the MBP-1 for each director, the recording of the disclosure in the board minutes and the updating of the register of contracts under Section 189, exclusive of GST and government charges. MBP-1 is given to the company and not e-filed with the ROC, so there is no MCA filing fee for the disclosure itself; non-compliance attracts a penalty of Rs 1,00,000 per director under Section 184(4)."
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/mbp-1-director-interest-disclosure/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Company Compliance", "item": "https://www.patronaccounting.com/corporate-compliance-services" },
+            { "@type": "ListItem", "position": 3, "name": "MBP-1 Disclosure", "item": "https://www.patronaccounting.com/mbp-1-director-interest-disclosure" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/mbp-1-director-interest-disclosure/#faq",
+        "datePublished": "2026-06-03T08:00:00+05:30",
+        "dateModified": "2026-06-04T08:00:00+05:30",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is Form MBP-1?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Form MBP-1 is the written notice through which every director discloses interest or concern in other companies, bodies corporate, firms or associations of individuals, including shareholding, to the Board, under Section 184(1) of the Companies Act, 2013. It helps the company identify and manage potential conflicts of interest." }
+            },
+            {
+                "@type": "Question",
+                "name": "When must MBP-1 be given?",
+                "acceptedAnswer": { "@type": "Answer", "text": "A director must give MBP-1 at the first board meeting in which the person participates as a director, at the first board meeting of every financial year, and at the first board meeting held after any change in the interest already disclosed. It is a recurring annual disclosure that also updates whenever a director's interests change." }
+            },
+            {
+                "@type": "Question",
+                "name": "Is MBP-1 filed with the ROC?",
+                "acceptedAnswer": { "@type": "Answer", "text": "No. MBP-1 is given by the director to the company and the Board, taken on record in the board minutes and the register of contracts, and preserved in the company's safe custody. It is not an e-form filed directly with the Registrar of Companies, which is one reason it is so often overlooked in routine compliance." }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the penalty for not giving MBP-1?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Under Section 184(4) of the Companies Act, 2013, a director who contravenes the disclosure requirement is liable to a penalty of Rs 1,00,000. Recent ROC adjudication orders have imposed this penalty on each director where the company failed to maintain MBP-1 disclosures, often discovered during inspection or secretarial audit." }
+            },
+            {
+                "@type": "Question",
+                "name": "What does a director disclose in MBP-1?",
+                "acceptedAnswer": { "@type": "Answer", "text": "In MBP-1 a director discloses interest or concern in any company, body corporate, firm or association of individuals, including the nature of interest and shareholding held. Where a director holds more than 2 percent of the paid-up capital of a body corporate, those particulars are recorded in the company's register of contracts under Section 189." }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the difference between MBP-1 and DIR-8?",
+                "acceptedAnswer": { "@type": "Answer", "text": "MBP-1 is the disclosure of a director's interest in other entities under Section 184(1). DIR-8 is a separate declaration confirming the director is not disqualified under Section 164(2). Both are given to the company at the first board meeting of the financial year, but they serve different compliance purposes and are not interchangeable." }
+            },
+            {
+                "@type": "Question",
+                "name": "Does MBP-1 apply to private companies?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Yes. The disclosure obligation under Section 184(1) applies to every director of every company, including private limited companies, one person companies and others. There is no exemption from the personal disclosure duty, and ROC adjudication orders confirm that private company directors are penalised for failing to maintain MBP-1." }
+            },
+            {
+                "@type": "Question",
+                "name": "How long must MBP-1 be preserved?",
+                "acceptedAnswer": { "@type": "Answer", "text": "MBP-1 disclosures must be kept in the safe custody of the company, and the related notices are generally preserved for eight years. Maintaining these records is important because ROC inspections and secretarial audits check whether MBP-1 has been given and recorded, and missing records have led to penalties on directors." }
+            }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/mbp-1-director-interest-disclosure",
+        "name": "MBP-1 Director Interest Disclosure Services",
+        "description": "File Form MBP-1 for director disclosure of interest under Section 184 at the first board meeting each year. Avoid the Rs 1 lakh penalty. From INR 999.",
+        "url": "https://www.patronaccounting.com/mbp-1-director-interest-disclosure",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/mbp-1-director-interest-disclosure/#service" },
+        "datePublished": "2026-06-03T08:00:00+05:30",
+        "dateModified": "2026-06-04T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/mbp-1-director-interest-disclosure/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "MBP-1 Disclosure Process: Step by Step",
+        "description": "How a director’s MBP-1 disclosure of interest is prepared, placed at the board meeting, recorded and preserved under Section 184.",
+        "totalTime": "P2D",
+        "step": [
+            { "@type": "HowToStep", "name": "Collect director details", "text": "Gather each director's interests in other entities and their shareholding." },
+            { "@type": "HowToStep", "name": "Draft MBP-1", "text": "Prepare a written MBP-1 for each director listing all entities of interest." },
+            { "@type": "HowToStep", "name": "Place at the board meeting", "text": "Submit the MBP-1 at the first board meeting of the financial year, or the first meeting after a change." },
+            { "@type": "HowToStep", "name": "Record in minutes", "text": "The Board takes note of the disclosures and records them in the meeting minutes." },
+            { "@type": "HowToStep", "name": "Update the register", "text": "Enter the disclosed interests in the register of contracts under Section 189." },
+            { "@type": "HowToStep", "name": "Preserve the records", "text": "Keep the signed MBP-1 disclosures in the company's safe custody." },
+            { "@type": "HowToStep", "name": "Repeat each year and on change", "text": "Refresh MBP-1 every financial year and whenever a director's interest changes." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "MBP-1 Disclosure Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Disclosure of Interest", "description": "A director's notice of interest in other entities, given to the Board to avoid conflict of interest." },
+            { "@type": "DefinedTerm", "name": "Section 184(1)", "description": "The general disclosure obligation, satisfied by MBP-1." },
+            { "@type": "DefinedTerm", "name": "Section 184(2)", "description": "The specific disclosure a director makes when the company enters a contract in which the director is interested." },
+            { "@type": "DefinedTerm", "name": "Register of Contracts", "description": "The register under Section 189 in which MBP-1 disclosures are recorded." },
+            { "@type": "DefinedTerm", "name": "DIR-8", "description": "A separate declaration of non-disqualification under Section 164(2), distinct from MBP-1." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1567,17 +1572,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1600,8 +1598,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1638,7 +1634,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1 (corrected): Last Updated mirrors schema dateModified — STABLE hardcoded date, never live new Date()
 (function() {
@@ -1649,3 +1644,19 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

@@ -1,189 +1,5 @@
 @extends('layouts.app')
-
-@section('meta')
-<title>CMA Ratio Calculator | Bank Loan Ratios, DSCR & MPBF</title>
-<meta name="description" content="Free CMA ratio calculator for bank loans: get current ratio, DSCR, TOL/TNW, debt-equity and MPBF, each checked against CMA benchmark norms. Try now!">
-<meta name="robots" content="index, follow">
-<meta name="theme-color" content="#15365f">
-<link rel="canonical" href="https://www.patronaccounting.com/tools/cma-ratio-calculator">
-
-<meta property="og:title" content="CMA Ratio Calculator — Bank Loan Ratios & MPBF">
-<meta property="og:description" content="Enter your balance sheet and P&L figures to compute the key CMA ratios — current ratio, DSCR, ISCR, TOL/TNW, debt-equity — and MPBF, each benchmarked to bank norms.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.patronaccounting.com/tools/cma-ratio-calculator">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="1200">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-<meta property="og:site_name" content="Patron Accounting">
-<meta property="og:locale" content="en_IN">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="CMA Ratio Calculator — Bank Loan Ratios & MPBF">
-<meta name="twitter:description" content="Compute current ratio, DSCR, ISCR, TOL/TNW, debt-equity and MPBF for your CMA data, each benchmarked to bank norms. Free & instant.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-
-<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
-<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
-@endsection
-@section('schema')
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "CMA Ratio Calculator",
-  "description": "CMA Ratio Calculator computes the key financial ratios that banks assess in a Credit Monitoring Arrangement (CMA) data report — current ratio, debt-equity ratio, debt service coverage ratio (DSCR), interest service coverage ratio (ISCR) and TOL/TNW — along with the Maximum Permissible Bank Finance (MPBF) under the Tandon Committee second method, and benchmarks each result against standard bank lending norms.",
-  "url": "https://www.patronaccounting.com/tools/cma-ratio-calculator",
-  "applicationCategory": "BusinessApplication",
-  "inLanguage": "en-IN",
-  "isAccessibleForFree": true,
-  "operatingSystem": "Any",
-  "datePublished": "2026-06-05T08:00:00+05:30",
-  "dateModified": "2026-06-05T08:00:00+05:30",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "INR"
-  },
-  "reviewedBy": {
-    "@type": "Person",
-    "@id": "https://patronaccounting.com/#founder",
-    "name": "CA Sundram Gupta",
-    "jobTitle": "Founder & Chartered Accountant",
-    "url": "https://www.patronaccounting.com/contact-page",
-    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-    "hasCredential": [{
-      "@type": "EducationalOccupationalCredential",
-      "credentialCategory": "Professional Certification",
-      "name": "Chartered Accountant (CA)",
-      "recognizedBy": {
-        "@type": "Organization",
-        "name": "Institute of Chartered Accountants of India",
-        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-      }
-    }]
-  },
-  "publisher": { "@id": "https://patronaccounting.com/#organization" },
-  "provider": {
-    "@id": "https://patronaccounting.com/#organization"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "CMA Ratio Calculator", "item": "https://www.patronaccounting.com/tools/cma-ratio-calculator"}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is CMA data and why do banks need it?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CMA stands for Credit Monitoring Arrangement. It is a standardised set of financial statements — operating statement, balance sheet, fund flow, MPBF working and ratio analysis — that banks use to appraise a working capital or term loan. The lender reviews past and projected performance to judge repayment capacity and the maximum it can safely lend. CMA data is typically required for working capital limits and most business loans above a few lakh rupees."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which ratios matter most in a CMA report?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The ratios banks scrutinise most are the current ratio, debt service coverage ratio (DSCR), interest service coverage ratio (ISCR), total outside liabilities to tangible net worth (TOL/TNW) and the debt-equity ratio. Together they show liquidity, repayment capacity and leverage. This calculator computes each from your figures and flags whether it meets the commonly accepted benchmark a lender looks for."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a good current ratio for a bank loan?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Under the Tandon Committee norms that banks follow, the benchmark current ratio is 1.33, and ordinarily it should not fall below 1.17. A current ratio of 1.33 means the borrower funds at least 25% of current assets from long-term sources, which lenders view as a sign of healthy liquidity. A figure well below 1.17 usually weakens the loan proposal and may need restructuring before submission."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What DSCR do banks expect in CMA data?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For term loans the benchmark average debt service coverage ratio is around 1.50 and ordinarily not below 1.40, though many lenders accept a DSCR of at least 1.25 for individual years. DSCR measures whether profit plus depreciation and interest can cover loan instalments and interest. A DSCR below 1 means the business cannot service its debt from operations, which is a serious red flag for any lender."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the TOL/TNW ratio benchmark?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Total outside liabilities to tangible net worth (TOL/TNW) measures how leveraged the business is against its own funds. The commonly used benchmark is 4.00, and ordinarily it should not exceed 5.00. A lower TOL/TNW means the promoter has more skin in the game and the business relies less on outside borrowing, which strengthens the credit profile in a CMA appraisal."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is MPBF and how is it calculated?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MPBF stands for Maximum Permissible Bank Finance — the ceiling on working capital a bank can lend under the Tandon Committee norms. Under the widely used second method, MPBF equals 75% of the working capital gap, where the gap is current assets minus current liabilities other than bank borrowing. The borrower must fund the remaining 25% of current assets from long-term sources, which keeps the current ratio at about 1.33."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the difference between CMA data and a project report?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A project report is a broader business document covering the promoters, the project, the market, technical feasibility and financial projections, used mainly for new ventures or capital expenditure. CMA data is the structured financial statement format banks use to monitor and appraise credit, focused on operating statements, balance sheets, fund flow, MPBF and ratios. Many loan files include both — the project report for context and CMA data for the numbers."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the debt-equity ratio banks look for?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The debt-equity ratio compares borrowed funds to the promoter's own funds. For most term loans lenders prefer a debt-equity ratio of around 2:1 or lower, though acceptable levels vary by industry and loan type. A high debt-equity ratio signals aggressive leverage and higher risk, so improving promoter contribution before applying often helps the proposal. This calculator shows your ratio against a typical 2:1 reference."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I improve my ratios before applying for a loan?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Bringing in additional promoter capital, converting short-term borrowing to long-term funds, clearing slow-moving current liabilities and retaining profits all improve the current ratio, TOL/TNW and debt-equity. Structuring repayments to match cash flows improves DSCR. A CA preparing your CMA data can model these adjustments so the projected ratios meet bank norms before the proposal is submitted."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does this calculator replace a CA-prepared CMA report?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. This tool gives an indicative read on the headline ratios and MPBF so you can sense-check a proposal. A full CMA report requires multi-year operating statements, balance sheet projections, a fund flow statement and assumptions that satisfy the lender's format. A Chartered Accountant should prepare and review the complete CMA data before you submit it to the bank."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the CMA Ratio Calculator free?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, the Patron Accounting CMA Ratio Calculator is completely free with no signup required. All calculations run in your browser and nothing is stored on our servers. It computes the current ratio, DSCR, ISCR, TOL/TNW, debt-equity ratio and MPBF from your inputs and benchmarks each against the standard bank lending norms used in CMA appraisals."
-      }
-    }
-  ]
-}
-</script>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-@endsection
+@push('styles')
 <style>
         :root {
             --primary: #15365f;
@@ -695,6 +511,193 @@ a:focus-visible {
 
 
         </style>
+@endpush
+
+
+@section('meta')
+<title>CMA Ratio Calculator | Bank Loan Ratios, DSCR & MPBF</title>
+<meta name="description" content="Free CMA ratio calculator for bank loans: get current ratio, DSCR, TOL/TNW, debt-equity and MPBF, each checked against CMA benchmark norms. Try now!">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#15365f">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/cma-ratio-calculator">
+
+<meta property="og:title" content="CMA Ratio Calculator — Bank Loan Ratios & MPBF">
+<meta property="og:description" content="Enter your balance sheet and P&L figures to compute the key CMA ratios — current ratio, DSCR, ISCR, TOL/TNW, debt-equity — and MPBF, each benchmarked to bank norms.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/cma-ratio-calculator">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+<meta property="og:site_name" content="Patron Accounting">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="CMA Ratio Calculator — Bank Loan Ratios & MPBF">
+<meta name="twitter:description" content="Compute current ratio, DSCR, ISCR, TOL/TNW, debt-equity and MPBF for your CMA data, each benchmarked to bank norms. Free & instant.">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
+@endsection
+@section('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "CMA Ratio Calculator",
+  "description": "CMA Ratio Calculator computes the key financial ratios that banks assess in a Credit Monitoring Arrangement (CMA) data report — current ratio, debt-equity ratio, debt service coverage ratio (DSCR), interest service coverage ratio (ISCR) and TOL/TNW — along with the Maximum Permissible Bank Finance (MPBF) under the Tandon Committee second method, and benchmarks each result against standard bank lending norms.",
+  "url": "https://www.patronaccounting.com/tools/cma-ratio-calculator",
+  "applicationCategory": "BusinessApplication",
+  "inLanguage": "en-IN",
+  "isAccessibleForFree": true,
+  "operatingSystem": "Any",
+  "datePublished": "2026-06-05T08:00:00+05:30",
+  "dateModified": "2026-06-05T08:00:00+05:30",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "INR"
+  },
+  "reviewedBy": {
+    "@type": "Person",
+    "@id": "https://patronaccounting.com/#founder",
+    "name": "CA Sundram Gupta",
+    "jobTitle": "Founder & Chartered Accountant",
+    "url": "https://www.patronaccounting.com/contact-page",
+    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+    "hasCredential": [{
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Professional Certification",
+      "name": "Chartered Accountant (CA)",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Institute of Chartered Accountants of India",
+        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+      }
+    }]
+  },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
+  "provider": {
+    "@id": "https://patronaccounting.com/#organization"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "CMA Ratio Calculator", "item": "https://www.patronaccounting.com/tools/cma-ratio-calculator"}
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is CMA data and why do banks need it?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CMA stands for Credit Monitoring Arrangement. It is a standardised set of financial statements — operating statement, balance sheet, fund flow, MPBF working and ratio analysis — that banks use to appraise a working capital or term loan. The lender reviews past and projected performance to judge repayment capacity and the maximum it can safely lend. CMA data is typically required for working capital limits and most business loans above a few lakh rupees."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which ratios matter most in a CMA report?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The ratios banks scrutinise most are the current ratio, debt service coverage ratio (DSCR), interest service coverage ratio (ISCR), total outside liabilities to tangible net worth (TOL/TNW) and the debt-equity ratio. Together they show liquidity, repayment capacity and leverage. This calculator computes each from your figures and flags whether it meets the commonly accepted benchmark a lender looks for."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a good current ratio for a bank loan?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Under the Tandon Committee norms that banks follow, the benchmark current ratio is 1.33, and ordinarily it should not fall below 1.17. A current ratio of 1.33 means the borrower funds at least 25% of current assets from long-term sources, which lenders view as a sign of healthy liquidity. A figure well below 1.17 usually weakens the loan proposal and may need restructuring before submission."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What DSCR do banks expect in CMA data?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For term loans the benchmark average debt service coverage ratio is around 1.50 and ordinarily not below 1.40, though many lenders accept a DSCR of at least 1.25 for individual years. DSCR measures whether profit plus depreciation and interest can cover loan instalments and interest. A DSCR below 1 means the business cannot service its debt from operations, which is a serious red flag for any lender."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the TOL/TNW ratio benchmark?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Total outside liabilities to tangible net worth (TOL/TNW) measures how leveraged the business is against its own funds. The commonly used benchmark is 4.00, and ordinarily it should not exceed 5.00. A lower TOL/TNW means the promoter has more skin in the game and the business relies less on outside borrowing, which strengthens the credit profile in a CMA appraisal."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is MPBF and how is it calculated?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MPBF stands for Maximum Permissible Bank Finance — the ceiling on working capital a bank can lend under the Tandon Committee norms. Under the widely used second method, MPBF equals 75% of the working capital gap, where the gap is current assets minus current liabilities other than bank borrowing. The borrower must fund the remaining 25% of current assets from long-term sources, which keeps the current ratio at about 1.33."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between CMA data and a project report?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A project report is a broader business document covering the promoters, the project, the market, technical feasibility and financial projections, used mainly for new ventures or capital expenditure. CMA data is the structured financial statement format banks use to monitor and appraise credit, focused on operating statements, balance sheets, fund flow, MPBF and ratios. Many loan files include both — the project report for context and CMA data for the numbers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the debt-equity ratio banks look for?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The debt-equity ratio compares borrowed funds to the promoter's own funds. For most term loans lenders prefer a debt-equity ratio of around 2:1 or lower, though acceptable levels vary by industry and loan type. A high debt-equity ratio signals aggressive leverage and higher risk, so improving promoter contribution before applying often helps the proposal. This calculator shows your ratio against a typical 2:1 reference."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I improve my ratios before applying for a loan?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Bringing in additional promoter capital, converting short-term borrowing to long-term funds, clearing slow-moving current liabilities and retaining profits all improve the current ratio, TOL/TNW and debt-equity. Structuring repayments to match cash flows improves DSCR. A CA preparing your CMA data can model these adjustments so the projected ratios meet bank norms before the proposal is submitted."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does this calculator replace a CA-prepared CMA report?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. This tool gives an indicative read on the headline ratios and MPBF so you can sense-check a proposal. A full CMA report requires multi-year operating statements, balance sheet projections, a fund flow statement and assumptions that satisfy the lender's format. A Chartered Accountant should prepare and review the complete CMA data before you submit it to the bank."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the CMA Ratio Calculator free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the Patron Accounting CMA Ratio Calculator is completely free with no signup required. All calculations run in your browser and nothing is stored on our servers. It computes the current ratio, DSCR, ISCR, TOL/TNW, debt-equity ratio and MPBF from your inputs and benchmarks each against the standard bank lending norms used in CMA appraisals."
+      }
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation">
     <div class="toc-nav-inner">

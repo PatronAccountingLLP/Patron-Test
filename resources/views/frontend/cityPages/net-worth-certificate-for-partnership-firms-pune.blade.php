@@ -1,147 +1,11 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Net Worth Cert. - Partnership Firms Pune, CA Format</title>
-    <meta name="description" content="CA certified net worth certificate for partnership firms in Pune. Firm-level and partner-level. DEMAT, tender, bank loan, SEBI, partner entry/exit. UDIN verified. Same-day. Camp, MIDC. Call +91 945 945 6700.">
-    <link rel="canonical" href="/net-worth-certificate-for-partnership-firms/pune">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Net Worth Cert. - Partnership Firms Pune, CA Format">
-    <meta property="og:description" content="CA certified net worth certificate for partnership firms in Pune. Firm-level and partner-level. DEMAT, tender, bank loan, SEBI, partner entry/exit. UDIN verified. Same-day. Camp, MIDC. Call +91 945 945 6700.">
-    <meta property="og:url" content="/net-worth-certificate-for-partnership-firms/pune">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Net Worth Cert. - Partnership Firms Pune, CA Format">
-    <meta name="twitter:description" content="CA certified net worth certificate for partnership firms in Pune. Firm-level and partner-level. DEMAT, tender, bank loan, SEBI, partner entry/exit. UDIN verified. Same-day. Camp, MIDC. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "Net Worth Certificate for Partnership Firms Pune",
-      "description": "CA certified net worth certificate for partnership firms in Pune. Firm-level and partner-level. DEMAT, tender, bank loan, SEBI, partner entry/exit. UDIN verified. Same-day. Camp, MIDC. Call +91 945 945 6700.",
-      "url": "/net-worth-certificate-for-partnership-firms/pune",
-      "serviceType": "Net Worth Certificate for Partnership Firms Pune",
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Maharashtra"
-        }
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "/",
-        "logo": "/images/site-logo.svg"
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "url": "/net-worth-certificate-for-partnership-firms/pune",
-        "price": "2000"
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Net Worth Certificate for Partnership Firm",
-          "item": "https://www.patronaccounting.com/net-worth-certificate-for-partnership-firms"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Net Worth Certificate for Partnership Firms Pune",
-          "item": "https://www.patronaccounting.com/net-worth-certificate-for-partnership-firms/pune"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is net worth of a partnership firm?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Total firm assets minus total firm liabilities from balance sheet or books. Assets: fixed assets, inventory, receivables, bank, investments. Liabilities: bank loans, creditors, outstanding expenses. Net worth equals total of all partners' capital accounts combined. Certified by CA with UDIN. Used for DEMAT, tender, loan, partner entry/exit."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is partnership firm DEMAT account opened?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Per NSDL policy (2007/0009, March 2025 Master Circular), DEMAT account opened in names of authorised partners (minimum 2 as joint holders), not in firm name directly. Trading account can be in firm name. Securities belong to firm. Broker requires CA-certified firm net worth, partnership deed, firm PAN and partner KYC. Patron prepares in broker-required format."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between firm and partner net worth?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Firm-level: overall financial position (total assets minus external liabilities) = sum of all capital accounts. Partner-level: each individual partner's capital + current account + share of reserves. For entry/exit, partner-level may include revalued assets and self-generated goodwill not on balance sheet. Banks/brokers want firm-level; entry/exit requires partner-level with revaluation."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can an unregistered partnership get net worth certificate?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. CA prepares from firm's books, partnership deed (notarised), firm PAN, bank statements and IT returns. Certificate notes unregistered status. Accepted for most purposes (DEMAT, bank loan, tender). However, some government tenders may specifically require registered firm. Can register with Registrar of Firms Pune before obtaining certificate."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is goodwill computed for partner entry/exit?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Using one of three methods per partnership deed or partner agreement: (a) Super Profit (average actual profit minus normal profit times years' purchase), (b) Capitalisation of Super Profits (super profit divided by normal rate of return), (c) Average Profit (average profit times agreed years' purchase). Goodwill added to revalued NW to determine total firm value for entry/exit."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What documents are needed?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Partnership deed, firm PAN, latest balance sheet and P&L (audited if turnover >Rs 1 Cr), bank statements (all firm accounts), FD/investment records, property documents (if firm-owned), inventory/stock records, sundry debtors and creditors schedules, loan statements (bank + partner loans), and firm's IT returns 2-3 years. For partner-level: individual capital account statements. Quick Answers Partnership firm ka net worth kya hota hai? Firm ki total assets minus total liabilities = net worth. CA certify karta hai UDIN ke saath. DEMAT, loan, tender, partner entry/exit ke liye chahiye. Kitne mein milta hai? DEMAT: Rs 2,000. Tender/loan: Rs 3,000-5,000. Partner entry/exit: Rs 5,000-10,000. Same-day urgent available. Unregistered firm ka bhi ban sakta hai? Haan. Deed, PAN, bank statement, IT return se CA bana sakta hai."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -807,7 +671,148 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'Join Community'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Net Worth Cert. - Partnership Firms Pune, CA Format</title>
+    <meta name="description" content="CA certified net worth certificate for partnership firms in Pune. Firm-level and partner-level. DEMAT, tender, bank loan, SEBI, partner entry/exit. UDIN verified. Same-day. Camp, MIDC. Call +91 945 945 6700.">
+    <link rel="canonical" href="/net-worth-certificate-for-partnership-firms/pune">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Net Worth Cert. - Partnership Firms Pune, CA Format">
+    <meta property="og:description" content="CA certified net worth certificate for partnership firms in Pune. Firm-level and partner-level. DEMAT, tender, bank loan, SEBI, partner entry/exit. UDIN verified. Same-day. Camp, MIDC. Call +91 945 945 6700.">
+    <meta property="og:url" content="/net-worth-certificate-for-partnership-firms/pune">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Net Worth Cert. - Partnership Firms Pune, CA Format">
+    <meta name="twitter:description" content="CA certified net worth certificate for partnership firms in Pune. Firm-level and partner-level. DEMAT, tender, bank loan, SEBI, partner entry/exit. UDIN verified. Same-day. Camp, MIDC. Call +91 945 945 6700.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "Net Worth Certificate for Partnership Firms Pune",
+      "description": "CA certified net worth certificate for partnership firms in Pune. Firm-level and partner-level. DEMAT, tender, bank loan, SEBI, partner entry/exit. UDIN verified. Same-day. Camp, MIDC. Call +91 945 945 6700.",
+      "url": "/net-worth-certificate-for-partnership-firms/pune",
+      "serviceType": "Net Worth Certificate for Partnership Firms Pune",
+      "areaServed": {
+        "@type": "City",
+        "name": "Pune",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Maharashtra"
+        }
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Patron Accounting LLP",
+        "url": "/",
+        "logo": "/images/site-logo.svg"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "url": "/net-worth-certificate-for-partnership-firms/pune",
+        "price": "2000"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Net Worth Certificate for Partnership Firm",
+          "item": "https://www.patronaccounting.com/net-worth-certificate-for-partnership-firms"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Net Worth Certificate for Partnership Firms Pune",
+          "item": "https://www.patronaccounting.com/net-worth-certificate-for-partnership-firms/pune"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is net worth of a partnership firm?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Total firm assets minus total firm liabilities from balance sheet or books. Assets: fixed assets, inventory, receivables, bank, investments. Liabilities: bank loans, creditors, outstanding expenses. Net worth equals total of all partners' capital accounts combined. Certified by CA with UDIN. Used for DEMAT, tender, loan, partner entry/exit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is partnership firm DEMAT account opened?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Per NSDL policy (2007/0009, March 2025 Master Circular), DEMAT account opened in names of authorised partners (minimum 2 as joint holders), not in firm name directly. Trading account can be in firm name. Securities belong to firm. Broker requires CA-certified firm net worth, partnership deed, firm PAN and partner KYC. Patron prepares in broker-required format."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between firm and partner net worth?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Firm-level: overall financial position (total assets minus external liabilities) = sum of all capital accounts. Partner-level: each individual partner's capital + current account + share of reserves. For entry/exit, partner-level may include revalued assets and self-generated goodwill not on balance sheet. Banks/brokers want firm-level; entry/exit requires partner-level with revaluation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can an unregistered partnership get net worth certificate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. CA prepares from firm's books, partnership deed (notarised), firm PAN, bank statements and IT returns. Certificate notes unregistered status. Accepted for most purposes (DEMAT, bank loan, tender). However, some government tenders may specifically require registered firm. Can register with Registrar of Firms Pune before obtaining certificate."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is goodwill computed for partner entry/exit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Using one of three methods per partnership deed or partner agreement: (a) Super Profit (average actual profit minus normal profit times years' purchase), (b) Capitalisation of Super Profits (super profit divided by normal rate of return), (c) Average Profit (average profit times agreed years' purchase). Goodwill added to revalued NW to determine total firm value for entry/exit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What documents are needed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Partnership deed, firm PAN, latest balance sheet and P&L (audited if turnover >Rs 1 Cr), bank statements (all firm accounts), FD/investment records, property documents (if firm-owned), inventory/stock records, sundry debtors and creditors schedules, loan statements (bank + partner loans), and firm's IT returns 2-3 years. For partner-level: individual capital account statements. Quick Answers Partnership firm ka net worth kya hota hai? Firm ki total assets minus total liabilities = net worth. CA certify karta hai UDIN ke saath. DEMAT, loan, tender, partner entry/exit ke liye chahiye. Kitne mein milta hai? DEMAT: Rs 2,000. Tender/loan: Rs 3,000-5,000. Partner entry/exit: Rs 5,000-10,000. Same-day urgent available. Unregistered firm ka bhi ban sakta hai? Haan. Deed, PAN, bank statement, IT return se CA bana sakta hai."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1478,7 +1483,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

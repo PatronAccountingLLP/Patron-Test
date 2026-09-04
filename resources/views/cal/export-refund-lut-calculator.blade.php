@@ -1,210 +1,8 @@
 @extends('layouts.app')
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
-@section('meta')
-    <title>Export Refund Calculator LUT | Rule 89(4) Unutilised ITC</title>
-    <meta name="description" content="Export refund calculator for the LUT route: Rule 89(4) refund of unutilised ITC, with Adjusted Total Turnover and the 1.5x cap on goods. Free CA-reviewed tool!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/export-refund-lut-calculator">
-    <meta property="og:title" content="Export Refund Calculator (LUT Route) — Rule 89(4) GST Refund 2026">
-    <meta property="og:description" content="Compute GST export refund under Letter of Undertaking using Rule 89(4) formula. Net ITC, Adjusted Total Turnover, 1.5x cap, RFD-01 Statement-3A preview. Free CA tool.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/export-refund-lut-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Export Refund Calculator (LUT Route) — Rule 89(4) GST Refund 2026">
-    <meta name="twitter:description" content="Rule 89(4) refund formula, Net ITC, Adjusted Total Turnover, 1.5x cap, RFD-01 Statement-3A preview, time-bar check. Free CA tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-    <meta name="theme-color" content="#15365f">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebApplication",
-      "name": "Export Refund Calculator (LUT Route)",
-      "description": "Export Refund Calculator (LUT Route) computes the maximum admissible refund of unutilised Input Tax Credit for an Indian exporter making zero-rated supplies of goods or services without payment of Integrated Tax under a Letter of Undertaking, applying the formula prescribed under Rule 89(4) of the Central Goods and Services Tax Rules, 2017. The tool computes Refund Amount equal to the sum of zero-rated supply turnover of goods and services multiplied by Net ITC and divided by Adjusted Total Turnover, with the 1.5 times domestic-value cap on zero-rated supply of goods inserted by Notification No. 16/2020-Central Tax dated 23 March 2020. Net ITC is restricted to Input Tax Credit availed on inputs and input services during the relevant period and excludes capital goods Input Tax Credit and blocked credits under Section 17(5) of the CGST Act. Adjusted Total Turnover is computed in line with the amendment by Notification No. 14/2022-Central Tax read with Circular No. 197 of 2023 issued post the Supreme Court decision in Union of India versus VKC Footsteps India Private Limited. The calculator also shows the provisional refund of ninety per cent under Section 54(6), the sixty-day final-order window under Section 54(7), the six per cent interest entitlement under Section 56 for delayed sanction, the two-year limitation under Section 54(1) computed from the relevant date defined in Explanation (2) to Section 54, and a Statement-3A preview of the values to be entered in Form GST RFD-01 on the GST common portal.",
-      "url": "https://www.patronaccounting.com/tools/export-refund-lut-calculator",
-      "applicationCategory": "FinanceApplication",
-      "operatingSystem": "Any",
-      "datePublished": "2026-05-07T08:00:00+05:30",
-      "dateModified": "2026-05-19T08:00:00+05:30",
-      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
-      "author": {
-        "@type": "Person",
-        "@id": "https://patronaccounting.com/#founder",
-        "name": "CA Sundram Gupta",
-        "jobTitle": "Founder & Chartered Accountant",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Institute of Chartered Accountants of India",
-            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-          }
-        }]
-      },
-      "publisher": { "@id": "https://patronaccounting.com/#organization" },
-      "provider": {"@id": "https://patronaccounting.com/#organization"}
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Export Refund Calculator (LUT)", "item": "https://www.patronaccounting.com/tools/export-refund-lut-calculator"}
-      ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is the formula to calculate GST export refund under LUT?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Refund Amount equals the sum of Turnover of Zero-Rated Supply of Goods and Turnover of Zero-Rated Supply of Services, multiplied by Net ITC and divided by Adjusted Total Turnover. This formula is prescribed by Rule 89(4) of the CGST Rules, 2017. It applies when an exporter makes zero-rated supplies under a Letter of Undertaking without paying Integrated Tax and seeks refund of accumulated Input Tax Credit. The admissible refund cannot exceed the Electronic Credit Ledger balance."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is Net ITC under Rule 89(4) of the CGST Rules?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Net ITC means Input Tax Credit availed on inputs and input services during the relevant period for which refund is being claimed. Critically, ITC on capital goods is excluded from Net ITC for refund purposes under the LUT route. Blocked credits under Section 17(5) such as motor vehicles, food and beverages, and works contract for immovable property must also be excluded. Including capital goods or blocked credits is the most common cause of a deficiency memo in Form RFD-03."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the 1.5 times cap on zero-rated supply of goods?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Notification 16/2020-Central Tax dated 23 March 2020 amended Rule 89(4)(C) to cap the value of zero-rated supply of goods at 1.5 times the value of like goods supplied domestically by the same or a similarly placed supplier, whichever is less. The cap was inserted to prevent over-invoicing in fictitious refund claims. If your export invoice value exceeds 1.5 times the domestic value of comparable goods, the refund is computed on the capped figure rather than the declared export value."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is Adjusted Total Turnover and how is it computed?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Adjusted Total Turnover is the aggregate turnover in a State or Union Territory under Section 2(112), excluding the value of exempt supplies other than zero-rated supplies during the relevant period. The definition was amended by Notification 14/2022 dated 5 July 2022, aligned with the Supreme Court ruling in Union of India versus VKC Footsteps. CBIC Circular 197/2023 dated 17 July 2023 clarified the methodology. The figure is the denominator in the Rule 89(4) formula and must reconcile with GSTR-3B."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long do I have to file the LUT export refund claim?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 54(1) of the CGST Act prescribes a two-year limitation from the relevant date for filing the refund application in Form GST RFD-01. For export of goods, the relevant date is the date the goods leave India by ship, aircraft, post or land per Explanation 2 to Section 54. For export of services, it is the date of receipt of payment in convertible foreign exchange evidenced by FIRC or BRC. Beyond two years, the claim is permanently time-barred."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does the GST department take to sanction my refund?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 54(7) of the CGST Act requires the proper officer to issue the refund sanction order in Form RFD-06 within sixty days from the date of acknowledgement in Form RFD-02. Section 54(6) provides for a provisional refund of 90 per cent within seven days of acknowledgement for zero-rated supplies. If the refund is not sanctioned within sixty days, Section 56 entitles the applicant to interest at six per cent per annum from day 61 until actual payment."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is a Letter of Undertaking and how is it filed?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A Letter of Undertaking is a declaration filed in Form GST RFD-11 under Rule 96A of the CGST Rules, allowing a registered exporter to make zero-rated supplies without paying Integrated Tax upfront. It is filed online on the GST portal under Services, User Services. The LUT is valid only from 1 April to 31 March of the financial year and must be renewed annually. Exporters prosecuted for tax evasion exceeding 2.5 crore must furnish a bond with bank guarantee instead."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I file an LUT refund without an LUT in force?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Strictly no. If you export without an LUT in force, the supply is technically an Integrated Tax payable supply, not a zero-rated supply under bond or LUT. CBIC Circular 125/2019 dated 18 November 2019 permits ex-post-facto admission of LUT in cases of substantive compliance, at the proper officer's discretion. The safer practice is to file the LUT in Form RFD-11 on or before 1 April every financial year, since LUT validity runs only from 1 April to 31 March."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What changed in October 2024 regarding LUT export refunds?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Notification 20/2024-Central Tax effective 8 October 2024, issued post the 54th GST Council meeting, omitted Rule 96(10) along with Rule 89(4A) and Rule 89(4B) of the CGST Rules. The omission removed the bar on refund of unutilised ITC where the supplier had availed concessional benefits such as advance authorisation or EPCG. The change provides uniform treatment of exports made with payment of Integrated Tax and exports under LUT, removing significant compliance burden and litigation around the deemed export benefits chain."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is the export turnover of services computed under Rule 89(4)?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Rule 89(4)(D) computes Turnover of Zero-Rated Supply of Services as payments received during the relevant period for zero-rated services, plus payments received in advance in any prior period for which supply was completed in the relevant period, minus advances received during the relevant period for services not yet completed. Service exporters must reconcile this with FIRC or BRC realisation dates and cannot use mere invoice value. This is markedly different from goods exporters where shipping bill value is used."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What documents are required for an LUT refund claim?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "For the LUT refund under Form GST RFD-01 with Statement-3, you need a copy of the LUT in Form RFD-11, Statement-3 listing export invoices with shipping bill numbers and dates, GSTR-1 Table 6A and GSTR-3B for the period, copies of shipping bills with EGM for goods, FIRC or BRC for services, declaration that incidence of tax has not been passed on, validated bank account on the GST portal, and a CA certificate where refund exceeds two lakh rupees."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between LUT route and IGST-paid route refund?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Under the LUT route per Rule 89, the exporter does not pay Integrated Tax on exports and claims refund of accumulated unutilised Input Tax Credit through Form RFD-01 with Statement-3, processed manually by the proper officer. Under the IGST-paid route per Rule 96, the exporter charges IGST and the refund is automatic through ICEGATE matching of shipping bill and GSTR-1 data. The LUT route preserves working capital but takes longer; the IGST route is faster but blocks cash."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I claim ITC on capital goods through the LUT export refund?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. The definition of Net ITC in Rule 89(4)(B) explicitly restricts the credit to inputs and input services availed during the relevant period. Capital goods Input Tax Credit is not refundable under the LUT route and remains in the Electronic Credit Ledger for utilisation against domestic outward tax. This is a key disadvantage compared to the IGST-paid route under Rule 96, where the refund of IGST paid effectively liquidates capital goods ITC indirectly through the credit utilisation chain."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is provisional refund and how is the 90 per cent computed?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 54(6) read with Rule 91 mandates that 90 per cent of the refund claimed for zero-rated supplies be sanctioned provisionally in Form RFD-04 within seven days of acknowledgement in Form RFD-02. The provisional refund is granted without detailed scrutiny and is the working capital relief mechanism for exporters. The balance 10 per cent is sanctioned after detailed verification within the sixty-day final order window. Provisional sanction does not preclude later adjustment if scrutiny finds issues."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens if my refund exceeds my Electronic Credit Ledger balance?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The refund admissible cannot exceed the closing balance in the Electronic Credit Ledger at the end of the tax period for which refund is claimed, after GSTR-3B is filed. Even if the Rule 89(4) formula produces a higher number, the system caps the refund at the ledger balance. The applicant must therefore file GSTR-3B before initiating RFD-01, and reconcile any inter-period transfer between IGST, CGST and SGST balances before submission to avoid mismatches."
-          }
-        }
-      ]
-    }
-    </script>
-@endsection
-
 <style>
         :root {
             --primary: #15365f;
@@ -493,7 +291,209 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 }
 
 </style>
+@endpush
 
+@section('meta')
+    <title>Export Refund Calculator LUT | Rule 89(4) Unutilised ITC</title>
+    <meta name="description" content="Export refund calculator for the LUT route: Rule 89(4) refund of unutilised ITC, with Adjusted Total Turnover and the 1.5x cap on goods. Free CA-reviewed tool!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/export-refund-lut-calculator">
+    <meta property="og:title" content="Export Refund Calculator (LUT Route) — Rule 89(4) GST Refund 2026">
+    <meta property="og:description" content="Compute GST export refund under Letter of Undertaking using Rule 89(4) formula. Net ITC, Adjusted Total Turnover, 1.5x cap, RFD-01 Statement-3A preview. Free CA tool.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/export-refund-lut-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Export Refund Calculator (LUT Route) — Rule 89(4) GST Refund 2026">
+    <meta name="twitter:description" content="Rule 89(4) refund formula, Net ITC, Adjusted Total Turnover, 1.5x cap, RFD-01 Statement-3A preview, time-bar check. Free CA tool.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+    <meta name="theme-color" content="#15365f">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Export Refund Calculator (LUT Route)",
+      "description": "Export Refund Calculator (LUT Route) computes the maximum admissible refund of unutilised Input Tax Credit for an Indian exporter making zero-rated supplies of goods or services without payment of Integrated Tax under a Letter of Undertaking, applying the formula prescribed under Rule 89(4) of the Central Goods and Services Tax Rules, 2017. The tool computes Refund Amount equal to the sum of zero-rated supply turnover of goods and services multiplied by Net ITC and divided by Adjusted Total Turnover, with the 1.5 times domestic-value cap on zero-rated supply of goods inserted by Notification No. 16/2020-Central Tax dated 23 March 2020. Net ITC is restricted to Input Tax Credit availed on inputs and input services during the relevant period and excludes capital goods Input Tax Credit and blocked credits under Section 17(5) of the CGST Act. Adjusted Total Turnover is computed in line with the amendment by Notification No. 14/2022-Central Tax read with Circular No. 197 of 2023 issued post the Supreme Court decision in Union of India versus VKC Footsteps India Private Limited. The calculator also shows the provisional refund of ninety per cent under Section 54(6), the sixty-day final-order window under Section 54(7), the six per cent interest entitlement under Section 56 for delayed sanction, the two-year limitation under Section 54(1) computed from the relevant date defined in Explanation (2) to Section 54, and a Statement-3A preview of the values to be entered in Form GST RFD-01 on the GST common portal.",
+      "url": "https://www.patronaccounting.com/tools/export-refund-lut-calculator",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Any",
+      "datePublished": "2026-05-07T08:00:00+05:30",
+      "dateModified": "2026-05-19T08:00:00+05:30",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
+      "author": {
+        "@type": "Person",
+        "@id": "https://patronaccounting.com/#founder",
+        "name": "CA Sundram Gupta",
+        "jobTitle": "Founder & Chartered Accountant",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Institute of Chartered Accountants of India",
+            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+          }
+        }]
+      },
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": {"@id": "https://patronaccounting.com/#organization"}
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Export Refund Calculator (LUT)", "item": "https://www.patronaccounting.com/tools/export-refund-lut-calculator"}
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the formula to calculate GST export refund under LUT?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Refund Amount equals the sum of Turnover of Zero-Rated Supply of Goods and Turnover of Zero-Rated Supply of Services, multiplied by Net ITC and divided by Adjusted Total Turnover. This formula is prescribed by Rule 89(4) of the CGST Rules, 2017. It applies when an exporter makes zero-rated supplies under a Letter of Undertaking without paying Integrated Tax and seeks refund of accumulated Input Tax Credit. The admissible refund cannot exceed the Electronic Credit Ledger balance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Net ITC under Rule 89(4) of the CGST Rules?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Net ITC means Input Tax Credit availed on inputs and input services during the relevant period for which refund is being claimed. Critically, ITC on capital goods is excluded from Net ITC for refund purposes under the LUT route. Blocked credits under Section 17(5) such as motor vehicles, food and beverages, and works contract for immovable property must also be excluded. Including capital goods or blocked credits is the most common cause of a deficiency memo in Form RFD-03."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the 1.5 times cap on zero-rated supply of goods?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Notification 16/2020-Central Tax dated 23 March 2020 amended Rule 89(4)(C) to cap the value of zero-rated supply of goods at 1.5 times the value of like goods supplied domestically by the same or a similarly placed supplier, whichever is less. The cap was inserted to prevent over-invoicing in fictitious refund claims. If your export invoice value exceeds 1.5 times the domestic value of comparable goods, the refund is computed on the capped figure rather than the declared export value."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Adjusted Total Turnover and how is it computed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Adjusted Total Turnover is the aggregate turnover in a State or Union Territory under Section 2(112), excluding the value of exempt supplies other than zero-rated supplies during the relevant period. The definition was amended by Notification 14/2022 dated 5 July 2022, aligned with the Supreme Court ruling in Union of India versus VKC Footsteps. CBIC Circular 197/2023 dated 17 July 2023 clarified the methodology. The figure is the denominator in the Rule 89(4) formula and must reconcile with GSTR-3B."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long do I have to file the LUT export refund claim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 54(1) of the CGST Act prescribes a two-year limitation from the relevant date for filing the refund application in Form GST RFD-01. For export of goods, the relevant date is the date the goods leave India by ship, aircraft, post or land per Explanation 2 to Section 54. For export of services, it is the date of receipt of payment in convertible foreign exchange evidenced by FIRC or BRC. Beyond two years, the claim is permanently time-barred."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does the GST department take to sanction my refund?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 54(7) of the CGST Act requires the proper officer to issue the refund sanction order in Form RFD-06 within sixty days from the date of acknowledgement in Form RFD-02. Section 54(6) provides for a provisional refund of 90 per cent within seven days of acknowledgement for zero-rated supplies. If the refund is not sanctioned within sixty days, Section 56 entitles the applicant to interest at six per cent per annum from day 61 until actual payment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a Letter of Undertaking and how is it filed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Letter of Undertaking is a declaration filed in Form GST RFD-11 under Rule 96A of the CGST Rules, allowing a registered exporter to make zero-rated supplies without paying Integrated Tax upfront. It is filed online on the GST portal under Services, User Services. The LUT is valid only from 1 April to 31 March of the financial year and must be renewed annually. Exporters prosecuted for tax evasion exceeding 2.5 crore must furnish a bond with bank guarantee instead."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I file an LUT refund without an LUT in force?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Strictly no. If you export without an LUT in force, the supply is technically an Integrated Tax payable supply, not a zero-rated supply under bond or LUT. CBIC Circular 125/2019 dated 18 November 2019 permits ex-post-facto admission of LUT in cases of substantive compliance, at the proper officer's discretion. The safer practice is to file the LUT in Form RFD-11 on or before 1 April every financial year, since LUT validity runs only from 1 April to 31 March."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What changed in October 2024 regarding LUT export refunds?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Notification 20/2024-Central Tax effective 8 October 2024, issued post the 54th GST Council meeting, omitted Rule 96(10) along with Rule 89(4A) and Rule 89(4B) of the CGST Rules. The omission removed the bar on refund of unutilised ITC where the supplier had availed concessional benefits such as advance authorisation or EPCG. The change provides uniform treatment of exports made with payment of Integrated Tax and exports under LUT, removing significant compliance burden and litigation around the deemed export benefits chain."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the export turnover of services computed under Rule 89(4)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rule 89(4)(D) computes Turnover of Zero-Rated Supply of Services as payments received during the relevant period for zero-rated services, plus payments received in advance in any prior period for which supply was completed in the relevant period, minus advances received during the relevant period for services not yet completed. Service exporters must reconcile this with FIRC or BRC realisation dates and cannot use mere invoice value. This is markedly different from goods exporters where shipping bill value is used."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What documents are required for an LUT refund claim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For the LUT refund under Form GST RFD-01 with Statement-3, you need a copy of the LUT in Form RFD-11, Statement-3 listing export invoices with shipping bill numbers and dates, GSTR-1 Table 6A and GSTR-3B for the period, copies of shipping bills with EGM for goods, FIRC or BRC for services, declaration that incidence of tax has not been passed on, validated bank account on the GST portal, and a CA certificate where refund exceeds two lakh rupees."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between LUT route and IGST-paid route refund?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under the LUT route per Rule 89, the exporter does not pay Integrated Tax on exports and claims refund of accumulated unutilised Input Tax Credit through Form RFD-01 with Statement-3, processed manually by the proper officer. Under the IGST-paid route per Rule 96, the exporter charges IGST and the refund is automatic through ICEGATE matching of shipping bill and GSTR-1 data. The LUT route preserves working capital but takes longer; the IGST route is faster but blocks cash."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I claim ITC on capital goods through the LUT export refund?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. The definition of Net ITC in Rule 89(4)(B) explicitly restricts the credit to inputs and input services availed during the relevant period. Capital goods Input Tax Credit is not refundable under the LUT route and remains in the Electronic Credit Ledger for utilisation against domestic outward tax. This is a key disadvantage compared to the IGST-paid route under Rule 96, where the refund of IGST paid effectively liquidates capital goods ITC indirectly through the credit utilisation chain."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is provisional refund and how is the 90 per cent computed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 54(6) read with Rule 91 mandates that 90 per cent of the refund claimed for zero-rated supplies be sanctioned provisionally in Form RFD-04 within seven days of acknowledgement in Form RFD-02. The provisional refund is granted without detailed scrutiny and is the working capital relief mechanism for exporters. The balance 10 per cent is sanctioned after detailed verification within the sixty-day final order window. Provisional sanction does not preclude later adjustment if scrutiny finds issues."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if my refund exceeds my Electronic Credit Ledger balance?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The refund admissible cannot exceed the closing balance in the Electronic Credit Ledger at the end of the tax period for which refund is claimed, after GSTR-3B is filed. Even if the Rule 89(4) formula produces a higher number, the system caps the refund at the ledger balance. The applicant must therefore file GSTR-3B before initiating RFD-01, and reconcile any inter-period transfer between IGST, CGST and SGST balances before submission to avoid mismatches."
+          }
+        }
+      ]
+    }
+    </script>
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation">
     <div class="toc-nav-inner">

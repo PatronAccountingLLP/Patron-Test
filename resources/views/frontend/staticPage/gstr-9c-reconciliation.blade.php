@@ -1,146 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>GSTR-9C in 2026: GST Reconciliation | Patron Accounting</title>
-    <meta name="description" content="GSTR-9C is the self-certified GST reconciliation for turnover above Rs 5 crore under Section 44 CGST Act. Starting Rs 9,999. Due 31 December.">
-    <link rel="canonical" href="/gstr-9c-reconciliation">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="GSTR-9C in 2026: GST Reconciliation | Patron Accounting">
-    <meta property="og:description" content="GSTR-9C is the self-certified GST reconciliation for turnover above Rs 5 crore under Section 44 CGST Act. Starting Rs 9,999. Due 31 December.">
-    <meta property="og:url" content="/gstr-9c-reconciliation">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="GSTR-9C in 2026: GST Reconciliation | Patron Accounting">
-    <meta name="twitter:description" content="GSTR-9C is the self-certified GST reconciliation for turnover above Rs 5 crore under Section 44 CGST Act. Starting Rs 9,999. Due 31 December.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/gstr-9c-reconciliation/#service",
-        "name": "GSTR-9C Reconciliation for Rs 5 Crore+ Turnover in India",
-        "description": "GSTR-9C reconciliation service for registered taxpayers with PAN-level turnover above Rs 5 crore under Section 44(2) of the CGST Act 2017 and Rule 80(3) of the CGST Rules. Five-part reconciliation between audited financials and GSTR-9, ITC reconciliation under Rule 37 and Rule 37A, DRC-03 additional liability handling, and self-certified portal filing starting from INR 9,999 per engagement.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gstr-9c-reconciliation" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [
-            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
-            { "@type": "Thing", "name": "Reconciliation (accounting)", "sameAs": "https://en.wikipedia.org/wiki/Reconciliation_(accounting)" }
-        ],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "GSTR-9C Reconciliation Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "Standard GSTR-9C Reconciliation Engagement",
-                    "priceCurrency": "INR",
-                    "price": "9999",
-                    "description": "Single GSTIN, turnover Rs 5-25 crore, five-part reconciliation, DRC-03, and filing"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/gstr-9c-reconciliation/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
-            { "@type": "ListItem", "position": 3, "name": "GSTR-9C Reconciliation", "item": "https://www.patronaccounting.com/gstr-9c-reconciliation" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/gstr-9c-reconciliation/#faq",
-        "datePublished": "2026-05-27T08:00:00+05:30",
-        "dateModified": "2026-06-01T08:00:00+05:30",
-        "mainEntity": [
-
-            {
-                "@type": "Question",
-                "name": "What is GSTR-9C and who must file it?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "GSTR-9C is the annual self-certified reconciliation statement prescribed under Section 44(2) of the CGST Act 2017 read with Rule 80(3) of the CGST Rules. It must be filed by every registered taxpayer whose PAN-level aggregate turnover exceeds Rs 5 crore in the financial year. The statement reconciles audited annual financial statements with the GSTR-9 annual return across turnover, tax paid, and input tax credit, and is filed per GSTIN."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "When is the GSTR-9C due date?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "GSTR-9C is due on or before the 31st day of December following the end of the financial year under Rule 80(3) of the CGST Rules 2017. For example, GSTR-9C for FY 2025-26 is due by 31 December 2026. The statement must be filed with or after the GSTR-9 annual return for the same FY - the portal blocks GSTR-9C if any monthly or annual return is still open for that FY."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Is GSTR-9C self-certified or does it need a CA audit?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "GSTR-9C is self-certified by the registered taxpayer from FY 2020-21 onwards. The Finance Act 2021, operationalised through Notification 30/2021-Central Tax dated 30 July 2021, removed the earlier requirement of Chartered Accountant or Cost Accountant audit and certification. The authorised signatory of the entity now signs the declaration in Part VI of the form."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the turnover threshold for GSTR-9C?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "GSTR-9C is mandatory when the PAN-level aggregate annual turnover exceeds Rs 5 crore in the financial year, per Section 44(2) and Notification 30/2021-Central Tax. The threshold is more than Rs 5 crore, so a taxpayer with exactly Rs 5 crore is technically exempt while Rs 5.01 crore triggers mandatory filing. The threshold is assessed across all GSTINs under the same PAN consolidated India-wide, not per state."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How is additional liability identified in GSTR-9C paid?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Additional tax liability identified during GSTR-9C reconciliation, typically in Part V, is paid via Form DRC-03 on the GST portal before final filing. The annual return does not allow any input tax credit adjustment, so the shortfall must be paid in cash through the Electronic Cash Ledger. Interest at 18 percent per annum under Section 50 CGST Act applies from the original due date of the underlying tax liability."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the late fee for delayed GSTR-9C filing?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Late fee for GSTR-9C is governed by Section 47(2) of the CGST Act 2017 - Rs 50 to Rs 200 per day depending on the turnover slab, with the overall cap ranging from 0.04 percent to 0.50 percent of turnover in the state or union territory. CBIC has clarified that the GSTR-9 and GSTR-9C late fees are computed separately. Sustained non-filing also exposes the taxpayer to Section 61 scrutiny notices."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can GSTR-9C be revised after filing?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "No. GSTR-9C cannot be revised once filed. Any errors discovered post filing must be addressed by raising additional liability via DRC-03 or by writing to the proper officer for relief. The self-certification audit-trail becomes the primary defence in any subsequent scrutiny - working papers, source documents, and reconciliation logic should be retained for the 6-year statutory retention window."
-                }
-            }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -754,7 +618,148 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>GSTR-9C in 2026: GST Reconciliation | Patron Accounting</title>
+    <meta name="description" content="GSTR-9C is the self-certified GST reconciliation for turnover above Rs 5 crore under Section 44 CGST Act. Starting Rs 9,999. Due 31 December.">
+    <link rel="canonical" href="/gstr-9c-reconciliation">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="GSTR-9C in 2026: GST Reconciliation | Patron Accounting">
+    <meta property="og:description" content="GSTR-9C is the self-certified GST reconciliation for turnover above Rs 5 crore under Section 44 CGST Act. Starting Rs 9,999. Due 31 December.">
+    <meta property="og:url" content="/gstr-9c-reconciliation">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GSTR-9C in 2026: GST Reconciliation | Patron Accounting">
+    <meta name="twitter:description" content="GSTR-9C is the self-certified GST reconciliation for turnover above Rs 5 crore under Section 44 CGST Act. Starting Rs 9,999. Due 31 December.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/gstr-9c-reconciliation/#service",
+        "name": "GSTR-9C Reconciliation for Rs 5 Crore+ Turnover in India",
+        "description": "GSTR-9C reconciliation service for registered taxpayers with PAN-level turnover above Rs 5 crore under Section 44(2) of the CGST Act 2017 and Rule 80(3) of the CGST Rules. Five-part reconciliation between audited financials and GSTR-9, ITC reconciliation under Rule 37 and Rule 37A, DRC-03 additional liability handling, and self-certified portal filing starting from INR 9,999 per engagement.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gstr-9c-reconciliation" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [
+            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
+            { "@type": "Thing", "name": "Reconciliation (accounting)", "sameAs": "https://en.wikipedia.org/wiki/Reconciliation_(accounting)" }
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "GSTR-9C Reconciliation Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "Standard GSTR-9C Reconciliation Engagement",
+                    "priceCurrency": "INR",
+                    "price": "9999",
+                    "description": "Single GSTIN, turnover Rs 5-25 crore, five-part reconciliation, DRC-03, and filing"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/gstr-9c-reconciliation/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
+            { "@type": "ListItem", "position": 3, "name": "GSTR-9C Reconciliation", "item": "https://www.patronaccounting.com/gstr-9c-reconciliation" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/gstr-9c-reconciliation/#faq",
+        "datePublished": "2026-05-27T08:00:00+05:30",
+        "dateModified": "2026-06-01T08:00:00+05:30",
+        "mainEntity": [
+
+            {
+                "@type": "Question",
+                "name": "What is GSTR-9C and who must file it?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "GSTR-9C is the annual self-certified reconciliation statement prescribed under Section 44(2) of the CGST Act 2017 read with Rule 80(3) of the CGST Rules. It must be filed by every registered taxpayer whose PAN-level aggregate turnover exceeds Rs 5 crore in the financial year. The statement reconciles audited annual financial statements with the GSTR-9 annual return across turnover, tax paid, and input tax credit, and is filed per GSTIN."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "When is the GSTR-9C due date?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "GSTR-9C is due on or before the 31st day of December following the end of the financial year under Rule 80(3) of the CGST Rules 2017. For example, GSTR-9C for FY 2025-26 is due by 31 December 2026. The statement must be filed with or after the GSTR-9 annual return for the same FY - the portal blocks GSTR-9C if any monthly or annual return is still open for that FY."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is GSTR-9C self-certified or does it need a CA audit?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "GSTR-9C is self-certified by the registered taxpayer from FY 2020-21 onwards. The Finance Act 2021, operationalised through Notification 30/2021-Central Tax dated 30 July 2021, removed the earlier requirement of Chartered Accountant or Cost Accountant audit and certification. The authorised signatory of the entity now signs the declaration in Part VI of the form."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the turnover threshold for GSTR-9C?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "GSTR-9C is mandatory when the PAN-level aggregate annual turnover exceeds Rs 5 crore in the financial year, per Section 44(2) and Notification 30/2021-Central Tax. The threshold is more than Rs 5 crore, so a taxpayer with exactly Rs 5 crore is technically exempt while Rs 5.01 crore triggers mandatory filing. The threshold is assessed across all GSTINs under the same PAN consolidated India-wide, not per state."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How is additional liability identified in GSTR-9C paid?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Additional tax liability identified during GSTR-9C reconciliation, typically in Part V, is paid via Form DRC-03 on the GST portal before final filing. The annual return does not allow any input tax credit adjustment, so the shortfall must be paid in cash through the Electronic Cash Ledger. Interest at 18 percent per annum under Section 50 CGST Act applies from the original due date of the underlying tax liability."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the late fee for delayed GSTR-9C filing?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Late fee for GSTR-9C is governed by Section 47(2) of the CGST Act 2017 - Rs 50 to Rs 200 per day depending on the turnover slab, with the overall cap ranging from 0.04 percent to 0.50 percent of turnover in the state or union territory. CBIC has clarified that the GSTR-9 and GSTR-9C late fees are computed separately. Sustained non-filing also exposes the taxpayer to Section 61 scrutiny notices."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can GSTR-9C be revised after filing?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No. GSTR-9C cannot be revised once filed. Any errors discovered post filing must be addressed by raising additional liability via DRC-03 or by writing to the proper officer for relief. The self-certification audit-trail becomes the primary defence in any subsequent scrutiny - working papers, source documents, and reconciliation logic should be retained for the 6-year statutory retention window."
+                }
+            }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1685,17 +1690,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1718,8 +1716,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1756,7 +1752,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1767,4 +1762,20 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+
 

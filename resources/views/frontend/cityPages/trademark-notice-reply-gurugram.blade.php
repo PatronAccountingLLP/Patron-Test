@@ -1,161 +1,12 @@
 
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Trademark Cease & Desist Gurugram - Drafting & Reply</title>
-    <meta name="description" content="Trademark notice reply in Gurugram. Cease and desist defence. S30/S34/S47 defences. Reply within 15-30 days. Do not ignore. Call +91 945 945 6700.">
-    <link rel="canonical" href="/trademark-notice-reply/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Trademark Cease & Desist Gurugram - Drafting & Reply">
-    <meta property="og:description" content="Trademark notice reply in Gurugram. Cease and desist defence. S30/S34/S47 defences. Reply within 15-30 days. Do not ignore. Call +91 945 945 6700.">
-    <meta property="og:url" content="/trademark-notice-reply/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Trademark Cease & Desist Gurugram - Drafting & Reply">
-    <meta name="twitter:description" content="Trademark notice reply in Gurugram. Cease and desist defence. S30/S34/S47 defences. Reply within 15-30 days. Do not ignore. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "Trademark Cease & Desist Gurugram - Drafting & Reply",
-      "description": "Trademark notice reply in Gurugram. Cease and desist defence. S30/S34/S47 defences. Reply within 15-30 days. Do not ignore. Call +91 945 945 6700.",
-      "url": "https://www.patronaccounting.com/trademark-notice-reply/gurugram",
-      "serviceType": "Trademark Cease & Desist Gurugram - Drafting & Reply",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/trademark-notice-reply/gurugram",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "minPrice": "3000",
-          "maxPrice": "8000",
-          "priceCurrency": "INR"
-        }
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Trademark Notice Reply",
-          "item": "https://www.patronaccounting.com/trademark-notice-reply"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Trademark Cease & Desist Gurugram - Drafting & Reply",
-          "item": "https://www.patronaccounting.com/trademark-notice-reply/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What should I do when I receive a trademark notice?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Do not panic, do not ignore, and do not immediately comply. Acknowledge receipt within 2-3 days without admitting liability. Engage a professional for analysis of the claim and your available defences. Respond within the 15-30 day deadline with a strategic reply. The analysis cost of Rs 3,000-5,000 is negligible compared to a lawsuit (Rs 1 lakh+) or an unnecessary rebrand."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does trademark notice reply cost?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Notice analysis only: Rs 3,000-5,000. Standard reply with analysis: Rs 5,000-12,000. Counter-notice: Rs 5,000-10,000. Section 47 cancellation petition: Rs 8,000-15,000 plus government fee. Negotiation and settlement: Rs 10,000-20,000. Court defence if suit filed: Rs 15,000-40,000+. Call +91 945 945 6700 for a detailed quote."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What defences are available against a trademark notice?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. Monitor Response: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do I have to change my brand name after receiving a notice?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Not necessarily. Many cease and desist notices are unfounded, exaggerated, or sent by trademark trolls. If you have prior use (Section 34), operate in a different goods/services class, or the claimant's mark is dormant, your brand may be fully defensible. Always get professional analysis before making any decision. Do not rebrand out of fear."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens if I ignore the trademark notice?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The claimant almost certainly escalates to a lawsuit. They may seek an ex parte injunction - a court order granted without hearing your side. You may learn about it only when you receive the court order. Vacating an ex parte injunction is difficult, expensive, and time-consuming. Always respond to trademark notices within the deadline. Ignoring is the worst possible strategy."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I send a counter-notice to the claimant?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. If your analysis reveals that you have stronger trademark rights than the claimant - for example, you have prior continuous use, your mark is registered, or the claimant is the actual infringer - a counter-notice reverses the dynamic. It demands that the claimant cease using YOUR mark, putting them on the defensive."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is a Section 47 cancellation petition?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "If the claimant's registered trademark has not been used for 5 continuous years or more, you can file a cancellation petition with the Trademark Registry under Section 47 of the Trade Marks Act. If the cancellation succeeds, the claimant's registration is removed, eliminating the legal basis for their infringement claim against you. This can be filed alongside or before your notice reply as a parallel strategy."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -679,7 +530,161 @@ section ul li:not(.nav-item) { font-size: 14px; }
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'Join Community'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Trademark Cease & Desist Gurugram - Drafting & Reply</title>
+    <meta name="description" content="Trademark notice reply in Gurugram. Cease and desist defence. S30/S34/S47 defences. Reply within 15-30 days. Do not ignore. Call +91 945 945 6700.">
+    <link rel="canonical" href="/trademark-notice-reply/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Trademark Cease & Desist Gurugram - Drafting & Reply">
+    <meta property="og:description" content="Trademark notice reply in Gurugram. Cease and desist defence. S30/S34/S47 defences. Reply within 15-30 days. Do not ignore. Call +91 945 945 6700.">
+    <meta property="og:url" content="/trademark-notice-reply/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Trademark Cease & Desist Gurugram - Drafting & Reply">
+    <meta name="twitter:description" content="Trademark notice reply in Gurugram. Cease and desist defence. S30/S34/S47 defences. Reply within 15-30 days. Do not ignore. Call +91 945 945 6700.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "Trademark Cease & Desist Gurugram - Drafting & Reply",
+      "description": "Trademark notice reply in Gurugram. Cease and desist defence. S30/S34/S47 defences. Reply within 15-30 days. Do not ignore. Call +91 945 945 6700.",
+      "url": "https://www.patronaccounting.com/trademark-notice-reply/gurugram",
+      "serviceType": "Trademark Cease & Desist Gurugram - Drafting & Reply",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.patronaccounting.com/trademark-notice-reply/gurugram",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": "3000",
+          "maxPrice": "8000",
+          "priceCurrency": "INR"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Trademark Notice Reply",
+          "item": "https://www.patronaccounting.com/trademark-notice-reply"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Trademark Cease & Desist Gurugram - Drafting & Reply",
+          "item": "https://www.patronaccounting.com/trademark-notice-reply/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What should I do when I receive a trademark notice?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Do not panic, do not ignore, and do not immediately comply. Acknowledge receipt within 2-3 days without admitting liability. Engage a professional for analysis of the claim and your available defences. Respond within the 15-30 day deadline with a strategic reply. The analysis cost of Rs 3,000-5,000 is negligible compared to a lawsuit (Rs 1 lakh+) or an unnecessary rebrand."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does trademark notice reply cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Notice analysis only: Rs 3,000-5,000. Standard reply with analysis: Rs 5,000-12,000. Counter-notice: Rs 5,000-10,000. Section 47 cancellation petition: Rs 8,000-15,000 plus government fee. Negotiation and settlement: Rs 10,000-20,000. Court defence if suit filed: Rs 15,000-40,000+. Call +91 945 945 6700 for a detailed quote."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What defences are available against a trademark notice?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. Monitor Response: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I have to change my brand name after receiving a notice?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not necessarily. Many cease and desist notices are unfounded, exaggerated, or sent by trademark trolls. If you have prior use (Section 34), operate in a different goods/services class, or the claimant's mark is dormant, your brand may be fully defensible. Always get professional analysis before making any decision. Do not rebrand out of fear."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if I ignore the trademark notice?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The claimant almost certainly escalates to a lawsuit. They may seek an ex parte injunction - a court order granted without hearing your side. You may learn about it only when you receive the court order. Vacating an ex parte injunction is difficult, expensive, and time-consuming. Always respond to trademark notices within the deadline. Ignoring is the worst possible strategy."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I send a counter-notice to the claimant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. If your analysis reveals that you have stronger trademark rights than the claimant - for example, you have prior continuous use, your mark is registered, or the claimant is the actual infringer - a counter-notice reverses the dynamic. It demands that the claimant cease using YOUR mark, putting them on the defensive."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a Section 47 cancellation petition?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If the claimant's registered trademark has not been used for 5 continuous years or more, you can file a cancellation petition with the Trademark Registry under Section 47 of the Trade Marks Act. If the cancellation succeeds, the claimant's registration is removed, eliminating the legal basis for their infringement claim against you. This can be filed alongside or before your notice reply as a parallel strategy."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1605,7 +1610,6 @@ var tocWrapper=document.getElementById('tocWrapper');document.getElementById('to
 
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

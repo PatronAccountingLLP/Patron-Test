@@ -1,155 +1,11 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Copyright for Cinematograph Film Gurugram - OTT & Fees</title>
-    <meta name="description" content="Register cinematograph film copyright in Gurugram. Movies, web series, documentaries, ads. Producer rights, underlying works. Call +91 945 945 6700.">
-    <link rel="canonical" href="/copyright-registration-for-cinematographic-film/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Copyright for Cinematograph Film Gurugram - OTT & Fees">
-    <meta property="og:description" content="Register cinematograph film copyright in Gurugram. Movies, web series, documentaries, ads. Producer rights, underlying works. Call +91 945 945 6700.">
-    <meta property="og:url" content="/copyright-registration-for-cinematographic-film/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Copyright for Cinematograph Film Gurugram - OTT & Fees">
-    <meta name="twitter:description" content="Register cinematograph film copyright in Gurugram. Movies, web series, documentaries, ads. Producer rights, underlying works. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "Copyright for Cinematographic Film in Gurugram",
-      "description": "Register cinematograph film copyright in Gurugram. Movies, web series, documentaries, ads. Producer rights, underlying works. Call +91 945 945 6700.",
-      "url": "https://www.patronaccounting.com/copyright-registration-for-cinematographic-film/gurugram",
-      "serviceType": "Copyright for Cinematographic Film in Gurugram",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/copyright-registration-for-cinematographic-film/gurugram",
-        "price": "5000"
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Copyright for Cinematographic Film: Registration",
-          "item": "https://www.patronaccounting.com/copyright-registration-for-cinematographic-film"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Copyright for Cinematographic Film in Gurugram",
-          "item": "https://www.patronaccounting.com/copyright-registration-for-cinematographic-film/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Who is the first owner of copyright in a film?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The producer. Under Section 2(d)(v), the producer is defined as the 'author' of a cinematograph film. Under Section 17, the author is the first owner. However, the producer owns copyright in the composite film, not necessarily in the underlying works. Screenwriter, composer, and lyricist retain their respective copyrights unless they execute written assignment deeds. The 2012 Amendment further protects literary and musical work authors with inalienable royalty rights."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does film copyright registration cost?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Government fee: Rs 5,000 per cinematograph film. Professional fee: Rs 5,000 to Rs 10,000 (Form XIV preparation, underlying works documentation, certificate procurement). Underlying works assignment deeds: Rs 3,000 to Rs 5,000 per creator. Distribution agreements: Rs 8,000 to Rs 20,000 per window. Call +91 945 945 6700 for a detailed quote."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does film copyright last?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "60 years from the beginning of the calendar year following publication (Section 26). Publication means making the film available to the public. A film published in 2026 is protected until December 31, 2087. This is shorter than literary/artistic work copyright (lifetime + 60 years) because film copyright runs from publication, not the author's death."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What did the 2012 Amendment change for film creators?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The 2012 Amendment gave authors of literary works (screenwriters, dialogue writers) and musical works (composers, lyricists) included in films an inalienable right to receive equal royalties for exploitation in any form other than cinema-hall communication. This covers satellite, OTT streaming, digital distribution, mobile - essentially all modern exploitation windows. This royalty right cannot be assigned except to legal heirs or a copyright society."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does the client own a commissioned ad film?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No, by default. The production company (as producer) is the first owner of the ad film copyright under Section 17. Even though the client paid for the production, they do not automatically own the copyright. A written assignment deed from the production company to the client is required. Without this deed, the client cannot edit, re-cut, or reuse the ad without the production house's permission."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can web series episodes be registered separately?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Each episode qualifies as a separate cinematograph film and can be individually registered (Rs 5,000 per episode). Alternatively, an entire season can be registered as one work. Episode-level registration provides independent protection but costs more. Season-level registration is cost-effective but may create issues if episodes are licensed individually."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between film and sound recording copyright?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Film copyright (Section 14(d)) covers the visual recording including accompanying sound as a composite work. Sound recording copyright (Section 14(e)) covers audio recordings independently. The soundtrack embedded in a film has a separate copyright not subsumed by the film copyright (Section 13(4)). A film's music album can be exploited independently as a sound recording with its own copyright. Quick Answers Film ka copyright kiska hota hai? Producer ka. Section 2(d)(v) mein producer ko film ka 'author' maana gaya hai. Lekin screenplay writer, composer, lyricist ke apne copyrights alag rehte hain jab tak assignment deed na ho. Ad film client ki hai ya production house ki? Production house ki (producer). Client ne payment kiya toh bhi copyright producer ke paas hai jab tak written assignment deed na ho. Agreement mein clause zaroori hai. 2012 Amendment kya kehta hai? Lyricist aur composer ko film ke OTT/satellite/digital exploitation se equal royalty ka haq milta hai. Yeh right inalienable hai - assign nahi ho sakta (sirf legal heirs ya copyright society ko)."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -673,7 +529,156 @@ section ul li:not(.nav-item) { font-size: 14px; }
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'Join Community'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Copyright for Cinematograph Film Gurugram - OTT & Fees</title>
+    <meta name="description" content="Register cinematograph film copyright in Gurugram. Movies, web series, documentaries, ads. Producer rights, underlying works. Call +91 945 945 6700.">
+    <link rel="canonical" href="/copyright-registration-for-cinematographic-film/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Copyright for Cinematograph Film Gurugram - OTT & Fees">
+    <meta property="og:description" content="Register cinematograph film copyright in Gurugram. Movies, web series, documentaries, ads. Producer rights, underlying works. Call +91 945 945 6700.">
+    <meta property="og:url" content="/copyright-registration-for-cinematographic-film/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Copyright for Cinematograph Film Gurugram - OTT & Fees">
+    <meta name="twitter:description" content="Register cinematograph film copyright in Gurugram. Movies, web series, documentaries, ads. Producer rights, underlying works. Call +91 945 945 6700.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "Copyright for Cinematographic Film in Gurugram",
+      "description": "Register cinematograph film copyright in Gurugram. Movies, web series, documentaries, ads. Producer rights, underlying works. Call +91 945 945 6700.",
+      "url": "https://www.patronaccounting.com/copyright-registration-for-cinematographic-film/gurugram",
+      "serviceType": "Copyright for Cinematographic Film in Gurugram",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.patronaccounting.com/copyright-registration-for-cinematographic-film/gurugram",
+        "price": "5000"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Copyright for Cinematographic Film: Registration",
+          "item": "https://www.patronaccounting.com/copyright-registration-for-cinematographic-film"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Copyright for Cinematographic Film in Gurugram",
+          "item": "https://www.patronaccounting.com/copyright-registration-for-cinematographic-film/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Who is the first owner of copyright in a film?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The producer. Under Section 2(d)(v), the producer is defined as the 'author' of a cinematograph film. Under Section 17, the author is the first owner. However, the producer owns copyright in the composite film, not necessarily in the underlying works. Screenwriter, composer, and lyricist retain their respective copyrights unless they execute written assignment deeds. The 2012 Amendment further protects literary and musical work authors with inalienable royalty rights."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does film copyright registration cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Government fee: Rs 5,000 per cinematograph film. Professional fee: Rs 5,000 to Rs 10,000 (Form XIV preparation, underlying works documentation, certificate procurement). Underlying works assignment deeds: Rs 3,000 to Rs 5,000 per creator. Distribution agreements: Rs 8,000 to Rs 20,000 per window. Call +91 945 945 6700 for a detailed quote."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does film copyright last?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "60 years from the beginning of the calendar year following publication (Section 26). Publication means making the film available to the public. A film published in 2026 is protected until December 31, 2087. This is shorter than literary/artistic work copyright (lifetime + 60 years) because film copyright runs from publication, not the author's death."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What did the 2012 Amendment change for film creators?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The 2012 Amendment gave authors of literary works (screenwriters, dialogue writers) and musical works (composers, lyricists) included in films an inalienable right to receive equal royalties for exploitation in any form other than cinema-hall communication. This covers satellite, OTT streaming, digital distribution, mobile - essentially all modern exploitation windows. This royalty right cannot be assigned except to legal heirs or a copyright society."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does the client own a commissioned ad film?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No, by default. The production company (as producer) is the first owner of the ad film copyright under Section 17. Even though the client paid for the production, they do not automatically own the copyright. A written assignment deed from the production company to the client is required. Without this deed, the client cannot edit, re-cut, or reuse the ad without the production house's permission."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can web series episodes be registered separately?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Each episode qualifies as a separate cinematograph film and can be individually registered (Rs 5,000 per episode). Alternatively, an entire season can be registered as one work. Episode-level registration provides independent protection but costs more. Season-level registration is cost-effective but may create issues if episodes are licensed individually."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between film and sound recording copyright?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Film copyright (Section 14(d)) covers the visual recording including accompanying sound as a composite work. Sound recording copyright (Section 14(e)) covers audio recordings independently. The soundtrack embedded in a film has a separate copyright not subsumed by the film copyright (Section 13(4)). A film's music album can be exploited independently as a sound recording with its own copyright. Quick Answers Film ka copyright kiska hota hai? Producer ka. Section 2(d)(v) mein producer ko film ka 'author' maana gaya hai. Lekin screenplay writer, composer, lyricist ke apne copyrights alag rehte hain jab tak assignment deed na ho. Ad film client ki hai ya production house ki? Production house ki (producer). Client ne payment kiya toh bhi copyright producer ke paas hai jab tak written assignment deed na ho. Agreement mein clause zaroori hai. 2012 Amendment kya kehta hai? Lyricist aur composer ko film ke OTT/satellite/digital exploitation se equal royalty ka haq milta hai. Yeh right inalienable hai - assign nahi ho sakta (sirf legal heirs ya copyright society ko)."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1598,7 +1603,6 @@ var tocWrapper=document.getElementById('tocWrapper');document.getElementById('to
 
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

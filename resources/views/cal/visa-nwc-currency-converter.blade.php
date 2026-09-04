@@ -1,4 +1,10 @@
 @extends('layouts.app')
+@push('styles')
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+@endpush
+
 
 @section('meta')
 <title>Visa NWC Currency Converter | INR to USD/CAD/GBP/EUR</title>
@@ -27,161 +33,15 @@
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 @endsection
 @push('meta-content')
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "Visa NWC Currency Converter",
-  "description": "Visa NWC Currency Converter converts an Indian-rupee net worth figure into USD, CAD, GBP, EUR or AUD at a user-entered reference exchange rate for dual-currency net worth certificates used in visa and immigration applications, and checks the result against the Canada IRCC proof-of-funds threshold.",
-  "url": "/tools/visa-nwc-currency-converter",
-  "applicationCategory": "BusinessApplication",
-  "inLanguage": "en-IN",
-  "isAccessibleForFree": true,
-  "operatingSystem": "Any",
-  "datePublished": "2026-06-05T08:00:00+05:30",
-  "dateModified": "2026-06-05T08:00:00+05:30",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "INR"
-  },
-  "reviewedBy": {
-    "@type": "Person",
-    "@id": "/#founder",
-    "name": "CA Sundram Gupta",
-    "jobTitle": "Founder & Chartered Accountant",
-    "url": "/contact-page",
-    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-    "hasCredential": [{
-      "@type": "EducationalOccupationalCredential",
-      "credentialCategory": "Professional Certification",
-      "name": "Chartered Accountant (CA)",
-      "recognizedBy": {
-        "@type": "Organization",
-        "name": "Institute of Chartered Accountants of India",
-        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-      }
-    }]
-  },
-  "publisher": { "@id": "/#organization" },
-  "provider": {
-    "@id": "/#organization"
-  }
-}
-</script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "Visa NWC Currency Converter", "item": "/tools/visa-nwc-currency-converter"}
-  ]
-}
-</script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is a dual-currency net worth certificate?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A dual-currency net worth certificate states your assets, liabilities and total net worth in both Indian rupees and the destination country's currency, such as USD, CAD, GBP, EUR or AUD. The conversion uses the reference exchange rate on the certificate date. Consular officers prefer this format because they do not have to convert figures themselves when assessing your financial capacity."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which exchange rate is used in a visa net worth certificate?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Chartered Accountants typically use the RBI reference rate or the FBIL rate prevailing on the date the certificate is issued. The certificate states the rate and date used so the embassy can verify the conversion. This calculator lets you enter that reference rate and instantly see your net worth in the destination currency for a dual-currency certificate."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I convert my INR net worth to USD or CAD for a visa?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Divide your total net worth in rupees by the exchange rate for one unit of the foreign currency. For example, ₹50,00,000 at ₹83 per USD equals about USD 60,241. Enter your net worth and the reference rate into this converter and it does the maths instantly, formatting the result for inclusion in a dual-currency net worth certificate."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the Canada proof-of-funds requirement in 2026?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For study permit applicants outside Quebec, IRCC requires a single applicant to show living-cost funds of CAD 22,895, effective from 1 September 2025, in addition to first-year tuition and travel. The amount rises with each accompanying family member. This converter flags whether your converted net worth clears the single-applicant threshold as a quick reference."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is proof of funds the same as a net worth certificate?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. Proof of funds usually means liquid money shown in bank statements, while a net worth certificate states total wealth including property and investments minus liabilities. Most visa applications benefit from both: one shows immediate liquidity, the other shows overall financial stability. A CA prepares the net worth certificate with a UDIN for authenticity."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which currencies can I convert for a visa certificate?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "This converter supports the five currencies most commonly required on Indian visa net worth certificates: US dollar (USD), Canadian dollar (CAD), British pound (GBP), euro (EUR) for Schengen countries, and Australian dollar (AUD). You enter the reference rate for the currency your destination country uses, and the tool shows your net worth in that currency."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How recent should the exchange rate on the certificate be?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The rate should be the reference rate on or close to the certificate's issue date, and the certificate is generally expected to be prepared within three months of your visa application. Using a current rate keeps the converted figure defensible. A certificate dated close to your application reflects your most current financial position and is viewed more favourably."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does the converted figure need a CA's signature?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. For visa purposes the net worth certificate, including the dual-currency conversion, must be issued by a practising Chartered Accountant and carry a UDIN (Unique Document Identification Number). The UDIN lets the embassy verify the certificate online. This tool gives you the converted figure, but the final certificate must be CA-certified to be accepted."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why do embassies want a dual-currency format?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A single-currency certificate showing only rupees is incomplete for visa purposes because consular officers should not have to convert it themselves. Stating the value in the destination currency at a clear reference rate removes ambiguity and speeds up assessment. It also signals that the certificate was prepared with the specific visa application in mind."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I use this tool for a student visa sponsor's net worth?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. For student visas the net worth of parents or sponsors is usually required, not just the student's own assets. Enter the sponsor's total net worth in rupees and the destination-currency rate to get the converted figure. A CA can then prepare a family or sponsor net worth certificate covering parents and student together, which is the format most embassies expect."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is this visa NWC currency converter free?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, the Patron Accounting Visa NWC Currency Converter is completely free with no signup required. All calculations run in your browser and nothing is stored on our servers. It converts INR net worth into five destination currencies, formats the figures for a dual-currency certificate, and flags the Canada IRCC single-applicant proof-of-funds threshold for reference."
-      }
-    }
-  ]
-}
-</script>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+
+
+
+
+
 @endpush
 
 @section('content')
@@ -1100,5 +960,155 @@ a:focus-visible {
             link.classList.toggle('active', link.getAttribute('href') === '#' + current);
         });
     });
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Visa NWC Currency Converter",
+  "description": "Visa NWC Currency Converter converts an Indian-rupee net worth figure into USD, CAD, GBP, EUR or AUD at a user-entered reference exchange rate for dual-currency net worth certificates used in visa and immigration applications, and checks the result against the Canada IRCC proof-of-funds threshold.",
+  "url": "/tools/visa-nwc-currency-converter",
+  "applicationCategory": "BusinessApplication",
+  "inLanguage": "en-IN",
+  "isAccessibleForFree": true,
+  "operatingSystem": "Any",
+  "datePublished": "2026-06-05T08:00:00+05:30",
+  "dateModified": "2026-06-05T08:00:00+05:30",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "INR"
+  },
+  "reviewedBy": {
+    "@type": "Person",
+    "@id": "/#founder",
+    "name": "CA Sundram Gupta",
+    "jobTitle": "Founder & Chartered Accountant",
+    "url": "/contact-page",
+    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+    "hasCredential": [{
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Professional Certification",
+      "name": "Chartered Accountant (CA)",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Institute of Chartered Accountants of India",
+        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+      }
+    }]
+  },
+  "publisher": { "@id": "/#organization" },
+  "provider": {
+    "@id": "/#organization"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "Visa NWC Currency Converter", "item": "/tools/visa-nwc-currency-converter"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a dual-currency net worth certificate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A dual-currency net worth certificate states your assets, liabilities and total net worth in both Indian rupees and the destination country's currency, such as USD, CAD, GBP, EUR or AUD. The conversion uses the reference exchange rate on the certificate date. Consular officers prefer this format because they do not have to convert figures themselves when assessing your financial capacity."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which exchange rate is used in a visa net worth certificate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Chartered Accountants typically use the RBI reference rate or the FBIL rate prevailing on the date the certificate is issued. The certificate states the rate and date used so the embassy can verify the conversion. This calculator lets you enter that reference rate and instantly see your net worth in the destination currency for a dual-currency certificate."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I convert my INR net worth to USD or CAD for a visa?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Divide your total net worth in rupees by the exchange rate for one unit of the foreign currency. For example, ₹50,00,000 at ₹83 per USD equals about USD 60,241. Enter your net worth and the reference rate into this converter and it does the maths instantly, formatting the result for inclusion in a dual-currency net worth certificate."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the Canada proof-of-funds requirement in 2026?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For study permit applicants outside Quebec, IRCC requires a single applicant to show living-cost funds of CAD 22,895, effective from 1 September 2025, in addition to first-year tuition and travel. The amount rises with each accompanying family member. This converter flags whether your converted net worth clears the single-applicant threshold as a quick reference."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is proof of funds the same as a net worth certificate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Proof of funds usually means liquid money shown in bank statements, while a net worth certificate states total wealth including property and investments minus liabilities. Most visa applications benefit from both: one shows immediate liquidity, the other shows overall financial stability. A CA prepares the net worth certificate with a UDIN for authenticity."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which currencies can I convert for a visa certificate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This converter supports the five currencies most commonly required on Indian visa net worth certificates: US dollar (USD), Canadian dollar (CAD), British pound (GBP), euro (EUR) for Schengen countries, and Australian dollar (AUD). You enter the reference rate for the currency your destination country uses, and the tool shows your net worth in that currency."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How recent should the exchange rate on the certificate be?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The rate should be the reference rate on or close to the certificate's issue date, and the certificate is generally expected to be prepared within three months of your visa application. Using a current rate keeps the converted figure defensible. A certificate dated close to your application reflects your most current financial position and is viewed more favourably."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does the converted figure need a CA's signature?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. For visa purposes the net worth certificate, including the dual-currency conversion, must be issued by a practising Chartered Accountant and carry a UDIN (Unique Document Identification Number). The UDIN lets the embassy verify the certificate online. This tool gives you the converted figure, but the final certificate must be CA-certified to be accepted."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why do embassies want a dual-currency format?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A single-currency certificate showing only rupees is incomplete for visa purposes because consular officers should not have to convert it themselves. Stating the value in the destination currency at a clear reference rate removes ambiguity and speeds up assessment. It also signals that the certificate was prepared with the specific visa application in mind."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use this tool for a student visa sponsor's net worth?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. For student visas the net worth of parents or sponsors is usually required, not just the student's own assets. Enter the sponsor's total net worth in rupees and the destination-currency rate to get the converted figure. A CA can then prepare a family or sponsor net worth certificate covering parents and student together, which is the format most embassies expect."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is this visa NWC currency converter free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the Patron Accounting Visa NWC Currency Converter is completely free with no signup required. All calculations run in your browser and nothing is stored on our servers. It converts INR net worth into five destination currencies, formats the figures for a dual-currency certificate, and flags the Canada IRCC single-applicant proof-of-funds threshold for reference."
+      }
+    }
+  ]
+}
 </script>
 @endsection

@@ -1,182 +1,5 @@
 @extends('layouts.app')
-@section('meta')
-<title>ESOP vs RSU | Tax, Capital Gains & Net In-Hand Compared</title>
-<meta name="description" content="ESOP vs RSU comparison: perquisite tax, capital gains and net in-hand side by side, weighing ESOP exercise cost vs RSU free vesting at India rates today. Free!">
-<meta name="robots" content="index, follow">
-<meta name="theme-color" content="#15365f">
-<link rel="canonical" href="https://www.patronaccounting.com/tools/esop-vs-rsu-comparison">
-
-<meta property="og:title" content="ESOP vs RSU Comparison — Tax & Net In-Hand 2026">
-<meta property="og:description" content="Compare ESOPs and RSUs side by side: exercise cost, perquisite tax, capital gains and net in-hand, using India's post-July-2024 rates.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.patronaccounting.com/tools/esop-vs-rsu-comparison">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="1200">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-<meta property="og:site_name" content="Patron Accounting">
-<meta property="og:locale" content="en_IN">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="ESOP vs RSU Comparison — Tax & Net In-Hand 2026">
-<meta name="twitter:description" content="Compare ESOPs and RSUs side by side: exercise cost, perquisite tax, capital gains and net in-hand. Free & instant.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-
-<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
-<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
-@endsection
-
-@section('schema')
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "ESOP vs RSU Comparison",
-  "description": "ESOP vs RSU Comparison computes, side by side, the tax and net outcome of an employee stock option plan versus restricted stock units in India. For an ESOP it applies the exercise price and taxes the gap between the fair market value at exercise and the exercise price as a salary perquisite; for an RSU there is no exercise cost and the full fair market value at vesting is the perquisite. It then computes the capital gains on sale using the perquisite-date fair market value as cost, applies the post 23 July 2024 listed and unlisted rates, and shows the perquisite tax, capital gains tax, total tax and net in-hand for each instrument.",
-  "url": "https://www.patronaccounting.com/tools/esop-vs-rsu-comparison",
-  "applicationCategory": "BusinessApplication",
-  "inLanguage": "en-IN",
-  "isAccessibleForFree": true,
-  "operatingSystem": "Any",
-  "datePublished": "2026-06-05T08:00:00+05:30",
-  "dateModified": "2026-06-05T08:00:00+05:30",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "INR"
-  },
-  "reviewedBy": {
-    "@type": "Person",
-    "@id": "https://patronaccounting.com/#founder",
-    "name": "CA Sundram Gupta",
-    "jobTitle": "Founder & Chartered Accountant",
-    "url": "https://www.patronaccounting.com/contact-page",
-    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-    "hasCredential": [{
-      "@type": "EducationalOccupationalCredential",
-      "credentialCategory": "Professional Certification",
-      "name": "Chartered Accountant (CA)",
-      "recognizedBy": {
-        "@type": "Organization",
-        "name": "Institute of Chartered Accountants of India",
-        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-      }
-    }]
-  },
-  "publisher": { "@id": "https://patronaccounting.com/#organization" },
-  "provider": {
-    "@id": "https://patronaccounting.com/#organization"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "ESOP vs RSU Comparison", "item": "https://www.patronaccounting.com/tools/esop-vs-rsu-comparison"}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the difference between an ESOP and an RSU?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "An ESOP gives an employee the right to buy shares at a fixed exercise or strike price after vesting, so the employee benefits only if the share value is above that price and must pay the exercise cost. An RSU is a unit that converts into actual shares for free once vesting conditions are met, with no exercise price. So an ESOP carries leverage and an upfront cost at exercise, while an RSU behaves more like a deferred bonus paid in stock that always has some value."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How are ESOPs and RSUs taxed in India?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Both are taxed in two stages. At the first stage the perquisite is taxed as salary: for an ESOP it is the fair market value at exercise minus the exercise price, times the shares; for an RSU it is the full fair market value at vesting times the shares, since there is no exercise price. At the second stage, on sale, the gain over the perquisite-date fair market value is taxed as capital gains. The employer deducts TDS on the perquisite and reports it in Form 16."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why is the RSU perquisite usually higher than the ESOP perquisite?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Because an RSU has no exercise price to offset. The entire fair market value of the shares on the vesting date is treated as salary income. With an ESOP, only the gap between the fair market value and the exercise price is the perquisite, so the exercise price reduces the taxable amount. For the same number of shares and the same market value, the RSU perquisite, and the tax on it, is therefore typically larger than the ESOP perquisite."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the cost of acquisition for capital gains on ESOPs and RSUs?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For both instruments the cost of acquisition for capital gains is the fair market value used to compute the perquisite — the fair market value at exercise for ESOPs and at vesting for RSUs. That value was already taxed as salary, so only the appreciation above it is taxed again as capital gains on sale. Using this cost ensures the same gain is not taxed twice across the two stages."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What capital gains rates apply when the shares are sold?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For transfers on or after 23 July 2024, listed equity with STT paid is taxed at 20 percent short term if held twelve months or less, and 12.5 percent long term above the 1.25 lakh annual exemption if held more than twelve months. Unlisted shares are taxed at slab rate short term if held twenty-four months or less, and 12.5 percent long term without indexation if held more than twenty-four months. Health and education cess of 4 percent applies. These rules are identical for ESOP and RSU shares."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which is better, an ESOP or an RSU?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Neither is universally better; they suit different situations. ESOPs offer leverage — if the share price rises well above the exercise price the upside is amplified — but they cost cash to exercise and can become worthless if the price stays below the strike. RSUs always retain value as long as the share price is positive, behaving like a deferred stock bonus, but the full vesting value is taxed as salary upfront. Early-stage startups often use ESOPs; larger, stable companies often use RSUs."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can ESOP perquisite tax be deferred but not RSU tax?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The Section 192(1C) deferral applies to the ESOP perquisite for employees of eligible startups certified under Section 80-IAC, letting them postpone the TDS until the earliest of a set period, sale, or leaving. This deferral is framed around ESOP exercise. RSUs, which vest into shares automatically, are generally taxed at vesting in the normal way. Whether a specific RSU arrangement can access any deferral should be confirmed with a professional, as facts vary."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How are foreign RSUs from a US parent taxed for an Indian employee?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For an Indian resident, RSUs from a foreign parent are taxed in India at vesting as a salary perquisite on the fair market value, and again as capital gains on sale, using the vesting fair market value as cost. Foreign shares are treated like unlisted shares for the holding period. Any foreign tax paid may be relieved under the relevant Double Taxation Avoidance Agreement by filing Form 67, and the holdings must be disclosed in Schedule FA of the return."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does this tool compute exact tax?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "It gives an indicative comparison. It applies the slab rate you enter to the perquisite and the statutory capital gains rates to the sale gain, with cess, for both instruments. It does not model surcharge bands, other income, loss set-offs, the startup deferral timing or currency conversion for foreign awards. Use it to understand the relative difference between ESOPs and RSUs, and confirm the exact figures with a professional before acting."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the ESOP vs RSU Comparison tool free?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, the Patron Accounting ESOP vs RSU Comparison is completely free with no signup required. All calculations run in your browser and nothing is stored on our servers. It shows the exercise cost, perquisite tax, capital gains tax, total tax and net in-hand for an ESOP and an RSU side by side, using India's current post July 2024 capital gains rates. It is an indicative planning tool; confirm the final numbers with a professional before relying on them."
-      }
-    }
-  ]
-}
-</script>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-@endsection
-
+@push('styles')
 <style>
         :root {
             --primary: #15365f;
@@ -694,6 +517,185 @@ a:focus-visible {
 
 
         </style>
+@endpush
+
+@section('meta')
+<title>ESOP vs RSU | Tax, Capital Gains & Net In-Hand Compared</title>
+<meta name="description" content="ESOP vs RSU comparison: perquisite tax, capital gains and net in-hand side by side, weighing ESOP exercise cost vs RSU free vesting at India rates today. Free!">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#15365f">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/esop-vs-rsu-comparison">
+
+<meta property="og:title" content="ESOP vs RSU Comparison — Tax & Net In-Hand 2026">
+<meta property="og:description" content="Compare ESOPs and RSUs side by side: exercise cost, perquisite tax, capital gains and net in-hand, using India's post-July-2024 rates.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/esop-vs-rsu-comparison">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+<meta property="og:site_name" content="Patron Accounting">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ESOP vs RSU Comparison — Tax & Net In-Hand 2026">
+<meta name="twitter:description" content="Compare ESOPs and RSUs side by side: exercise cost, perquisite tax, capital gains and net in-hand. Free & instant.">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
+@endsection
+
+@section('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "ESOP vs RSU Comparison",
+  "description": "ESOP vs RSU Comparison computes, side by side, the tax and net outcome of an employee stock option plan versus restricted stock units in India. For an ESOP it applies the exercise price and taxes the gap between the fair market value at exercise and the exercise price as a salary perquisite; for an RSU there is no exercise cost and the full fair market value at vesting is the perquisite. It then computes the capital gains on sale using the perquisite-date fair market value as cost, applies the post 23 July 2024 listed and unlisted rates, and shows the perquisite tax, capital gains tax, total tax and net in-hand for each instrument.",
+  "url": "https://www.patronaccounting.com/tools/esop-vs-rsu-comparison",
+  "applicationCategory": "BusinessApplication",
+  "inLanguage": "en-IN",
+  "isAccessibleForFree": true,
+  "operatingSystem": "Any",
+  "datePublished": "2026-06-05T08:00:00+05:30",
+  "dateModified": "2026-06-05T08:00:00+05:30",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "INR"
+  },
+  "reviewedBy": {
+    "@type": "Person",
+    "@id": "https://patronaccounting.com/#founder",
+    "name": "CA Sundram Gupta",
+    "jobTitle": "Founder & Chartered Accountant",
+    "url": "https://www.patronaccounting.com/contact-page",
+    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+    "hasCredential": [{
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Professional Certification",
+      "name": "Chartered Accountant (CA)",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Institute of Chartered Accountants of India",
+        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+      }
+    }]
+  },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
+  "provider": {
+    "@id": "https://patronaccounting.com/#organization"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "ESOP vs RSU Comparison", "item": "https://www.patronaccounting.com/tools/esop-vs-rsu-comparison"}
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the difference between an ESOP and an RSU?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An ESOP gives an employee the right to buy shares at a fixed exercise or strike price after vesting, so the employee benefits only if the share value is above that price and must pay the exercise cost. An RSU is a unit that converts into actual shares for free once vesting conditions are met, with no exercise price. So an ESOP carries leverage and an upfront cost at exercise, while an RSU behaves more like a deferred bonus paid in stock that always has some value."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How are ESOPs and RSUs taxed in India?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Both are taxed in two stages. At the first stage the perquisite is taxed as salary: for an ESOP it is the fair market value at exercise minus the exercise price, times the shares; for an RSU it is the full fair market value at vesting times the shares, since there is no exercise price. At the second stage, on sale, the gain over the perquisite-date fair market value is taxed as capital gains. The employer deducts TDS on the perquisite and reports it in Form 16."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is the RSU perquisite usually higher than the ESOP perquisite?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Because an RSU has no exercise price to offset. The entire fair market value of the shares on the vesting date is treated as salary income. With an ESOP, only the gap between the fair market value and the exercise price is the perquisite, so the exercise price reduces the taxable amount. For the same number of shares and the same market value, the RSU perquisite, and the tax on it, is therefore typically larger than the ESOP perquisite."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the cost of acquisition for capital gains on ESOPs and RSUs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For both instruments the cost of acquisition for capital gains is the fair market value used to compute the perquisite — the fair market value at exercise for ESOPs and at vesting for RSUs. That value was already taxed as salary, so only the appreciation above it is taxed again as capital gains on sale. Using this cost ensures the same gain is not taxed twice across the two stages."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What capital gains rates apply when the shares are sold?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For transfers on or after 23 July 2024, listed equity with STT paid is taxed at 20 percent short term if held twelve months or less, and 12.5 percent long term above the 1.25 lakh annual exemption if held more than twelve months. Unlisted shares are taxed at slab rate short term if held twenty-four months or less, and 12.5 percent long term without indexation if held more than twenty-four months. Health and education cess of 4 percent applies. These rules are identical for ESOP and RSU shares."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which is better, an ESOP or an RSU?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Neither is universally better; they suit different situations. ESOPs offer leverage — if the share price rises well above the exercise price the upside is amplified — but they cost cash to exercise and can become worthless if the price stays below the strike. RSUs always retain value as long as the share price is positive, behaving like a deferred stock bonus, but the full vesting value is taxed as salary upfront. Early-stage startups often use ESOPs; larger, stable companies often use RSUs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can ESOP perquisite tax be deferred but not RSU tax?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Section 192(1C) deferral applies to the ESOP perquisite for employees of eligible startups certified under Section 80-IAC, letting them postpone the TDS until the earliest of a set period, sale, or leaving. This deferral is framed around ESOP exercise. RSUs, which vest into shares automatically, are generally taxed at vesting in the normal way. Whether a specific RSU arrangement can access any deferral should be confirmed with a professional, as facts vary."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How are foreign RSUs from a US parent taxed for an Indian employee?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For an Indian resident, RSUs from a foreign parent are taxed in India at vesting as a salary perquisite on the fair market value, and again as capital gains on sale, using the vesting fair market value as cost. Foreign shares are treated like unlisted shares for the holding period. Any foreign tax paid may be relieved under the relevant Double Taxation Avoidance Agreement by filing Form 67, and the holdings must be disclosed in Schedule FA of the return."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does this tool compute exact tax?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It gives an indicative comparison. It applies the slab rate you enter to the perquisite and the statutory capital gains rates to the sale gain, with cess, for both instruments. It does not model surcharge bands, other income, loss set-offs, the startup deferral timing or currency conversion for foreign awards. Use it to understand the relative difference between ESOPs and RSUs, and confirm the exact figures with a professional before acting."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the ESOP vs RSU Comparison tool free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the Patron Accounting ESOP vs RSU Comparison is completely free with no signup required. All calculations run in your browser and nothing is stored on our servers. It shows the exercise cost, perquisite tax, capital gains tax, total tax and net in-hand for an ESOP and an RSU side by side, using India's current post July 2024 capital gains rates. It is an indicative planning tool; confirm the final numbers with a professional before relying on them."
+      }
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation">
     <div class="toc-nav-inner">

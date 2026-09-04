@@ -1,33 +1,4 @@
 @extends('layouts.app')
-
-@section('meta')
-<title>Net Owned Fund (NOF) Calculator for NBFC Registration</title>
-<meta name="description" content="Apply the RBI formula to your balance sheet, deduct group company exposure above the permitted line, and see whether your NBFC clears its threshold.">
-<meta name="robots" content="index, follow">
-<meta name="theme-color" content="#15365f">
-<link rel="canonical" href="https://www.patronaccounting.com/tools/nof-calculator">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.patronaccounting.com/tools/nof-calculator">
-<meta property="og:title" content="Check Your NBFC Against the NOF Threshold">
-<meta property="og:description" content="A free calculator that applies the RBI net owned fund formula step by step.">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="1200">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-<meta property="og:site_name" content="Patron Accounting LLP">
-<meta property="og:locale" content="en_IN">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Check Your NBFC Against the NOF Threshold">
-<meta name="twitter:description" content="A free calculator that applies the RBI net owned fund formula step by step.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-<link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
-<link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-
-{{-- JSON-LD lives here, not in @section('schema'): layouts.app has no @yield('schema'). --}}
-@endsection
-
 @push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -389,6 +360,42 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 .ratio-card .r-formula{font-size:11px;color:var(--text-muted);margin:4px 0 8px}
 .ratio-card .r-read{font-size:12px;color:var(--text-secondary);line-height:1.55;margin-top:8px}
 </style>
+@endpush
+
+
+@section('meta')
+<title>Net Owned Fund (NOF) Calculator for NBFC Registration</title>
+<meta name="description" content="Apply the RBI formula to your balance sheet, deduct group company exposure above the permitted line, and see whether your NBFC clears its threshold.">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#15365f">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/nof-calculator">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/nof-calculator">
+<meta property="og:title" content="Check Your NBFC Against the NOF Threshold">
+<meta property="og:description" content="A free calculator that applies the RBI net owned fund formula step by step.">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+<meta property="og:site_name" content="Patron Accounting LLP">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Check Your NBFC Against the NOF Threshold">
+<meta name="twitter:description" content="A free calculator that applies the RBI net owned fund formula step by step.">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+<link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+
+{{-- JSON-LD lives here, not in @section('schema'): layouts.app has no @yield('schema'). --}}
+@endsection
+
+@push('styles')
+
+
+
+
 @endpush
 
 @section('content')

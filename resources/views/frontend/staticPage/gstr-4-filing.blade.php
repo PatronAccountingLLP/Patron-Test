@@ -1,154 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>GSTR-4 Filing 2026: Composition Annual | Patron Accounting</title>
-    <meta name="description" content="Annual GSTR-4 return filing for composition dealers by 30 June under Notification 12/2024-CT. Consolidates CMP-08. Starting at Rs 1,499 per year.">
-    <link rel="canonical" href="/gstr-4-filing">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="GSTR-4 Filing 2026: Composition Annual | Patron Accounting">
-    <meta property="og:description" content="Annual GSTR-4 return filing for composition dealers by 30 June under Notification 12/2024-CT. Consolidates CMP-08. Starting at Rs 1,499 per year.">
-    <meta property="og:url" content="/gstr-4-filing">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="GSTR-4 Filing 2026: Composition Annual | Patron Accounting">
-    <meta name="twitter:description" content="Annual GSTR-4 return filing for composition dealers by 30 June under Notification 12/2024-CT. Consolidates CMP-08. Starting at Rs 1,499 per year.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/gstr-4-filing/#service",
-        "name": "GSTR-4 Filing in India",
-        "description": "Patron Accounting LLP files Form GSTR-4 annual return for composition dealers under Section 10 of the CGST Act, 2017 read with Rule 62 of the CGST Rules, 2017. The service covers reconciliation of 4 quarterly CMP-08 returns with books, capture of inward supplies and reverse charge tax under Section 9(3) and 9(4) in Table 4, DRC-03 shortfall payment with Section 50 interest where applicable, GSTR-4 filing by 30 June per Notification 12/2024-CT dated 10 July 2024, and Form GST RFD-01 refund of negative liability where excess CMP-08 tax exists.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gstr-4-filing" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [
-            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
-            { "@type": "Thing", "name": "Central Board of Indirect Taxes and Customs", "sameAs": "https://en.wikipedia.org/wiki/Central_Board_of_Indirect_Taxes_and_Customs" }
-        ],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "GSTR-4 Filing Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "GSTR-4 Annual Return Filing - End to End (Single GSTIN)",
-                    "priceCurrency": "INR",
-                    "price": "1499",
-                    "description": "End-to-end composition annual return - CMP-08 reconciliation, RCM capture, GSTR-4 filing, and RFD-01 negative-liability refund"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/gstr-4-filing/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
-            { "@type": "ListItem", "position": 3, "name": "GSTR-4 Filing", "item": "https://www.patronaccounting.com/gstr-4-filing" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/gstr-4-filing/#faq",
-        "datePublished": "2026-05-26T08:00:00+05:30",
-        "dateModified": "2026-06-01T08:00:00+05:30",
-        "mainEntity": [
-
-            {
-                "@type": "Question",
-                "name": "Who is required to file GSTR-4?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Every taxpayer registered under the GST composition scheme (Section 10 of the CGST Act, 2017) for any part of a financial year must file Form GSTR-4 for that FY. This includes manufacturers, traders and restaurants under Section 10(1) with turnover up to Rs 1.5 crore (Rs 75 lakh in 8 special category states), and service providers under Section 10(2A) with turnover up to Rs 50 lakh. Composition dealers do not file GSTR-1, GSTR-3B or GSTR-9."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the due date for GSTR-4 filing?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "From FY 2024-25 onwards, GSTR-4 must be filed by 30 June of the financial year immediately following the relevant FY. For example, GSTR-4 for FY 2025-26 is due by 30 June 2026. This is per Notification 12/2024-Central Tax dated 10 July 2024, which permanently extended the deadline from 30 April to 30 June following the recommendation of the 53rd GST Council meeting."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can GSTR-4 be revised after filing?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "No. Form GSTR-4 once filed on the GST portal cannot be revised. Any errors discovered later must be corrected in the next financial year's GSTR-4 through appropriate disclosure, or the additional tax must be paid through Form DRC-03 with Section 50 interest. From July 2025 onwards, GSTR-4 also cannot be filed beyond 3 years from its original due date (GSTN advisory dated 7 June 2025)."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the late fee for late GSTR-4 filing?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Late fee under Section 47 of the CGST Act, 2017 for GSTR-4 is Rs 50 per day (Rs 25 CGST + Rs 25 SGST) for taxable returns, capped at a maximum of Rs 2,000 (Rs 1,000 CGST + Rs 1,000 SGST). For nil returns (no tax liability for the FY), the maximum late fee is Rs 500. Unpaid RCM tax disclosed in Table 4 also attracts interest under Section 50 at 18 percent per annum."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the difference between GSTR-4 and GSTR-9?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "GSTR-4 is the annual return for composition dealers under Section 10 of the CGST Act, 2017, due by 30 June of next FY. GSTR-9 is the annual return for regular taxpayers under Section 44, due by 31 December of next FY (mandatory if turnover above Rs 2 crore). The two forms cover different cohorts - a composition dealer files only GSTR-4; a regular taxpayer files only GSTR-9. A taxpayer who was composition for part of the year and regular for the rest files both for the respective periods."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Is GSTR-4 mandatory if there are no sales?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. Even if a composition dealer had no outward supplies in the financial year (or only had supplies for part of the year), Form GSTR-4 must still be filed. The nil return draws a reduced late fee maximum of Rs 500 (Rs 250 CGST + Rs 250 SGST) instead of Rs 2,000 for taxable returns, but the obligation to file remains."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the difference between GSTR-4 and CMP-08?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Form CMP-08 is a quarterly statement-cum-challan filed by composition dealers by the 18th of the month following each quarter end for self-assessed tax payment. Form GSTR-4 is the annual return that consolidates the 4 quarterly CMP-08 returns plus RCM tax, due by 30 June of the next FY. CMP-08 carries the tax payment during the year; GSTR-4 is the year-end consolidation, RCM disclosure and refund or shortfall reconciliation."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can a taxpayer who opted out of composition during the year file GSTR-4?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, and they must. If composition was withdrawn via Form CMP-04 (turnover crossed threshold or voluntary opt-out) or cancelled by the officer during the FY, GSTR-4 must still be filed for the part period of composition. The remaining period of the FY during which the taxpayer was a regular taxpayer is covered separately by GSTR-1, GSTR-3B and (if applicable) GSTR-9."
-                }
-            }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -762,7 +618,156 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>GSTR-4 Filing 2026: Composition Annual | Patron Accounting</title>
+    <meta name="description" content="Annual GSTR-4 return filing for composition dealers by 30 June under Notification 12/2024-CT. Consolidates CMP-08. Starting at Rs 1,499 per year.">
+    <link rel="canonical" href="/gstr-4-filing">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="GSTR-4 Filing 2026: Composition Annual | Patron Accounting">
+    <meta property="og:description" content="Annual GSTR-4 return filing for composition dealers by 30 June under Notification 12/2024-CT. Consolidates CMP-08. Starting at Rs 1,499 per year.">
+    <meta property="og:url" content="/gstr-4-filing">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GSTR-4 Filing 2026: Composition Annual | Patron Accounting">
+    <meta name="twitter:description" content="Annual GSTR-4 return filing for composition dealers by 30 June under Notification 12/2024-CT. Consolidates CMP-08. Starting at Rs 1,499 per year.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/gstr-4-filing/#service",
+        "name": "GSTR-4 Filing in India",
+        "description": "Patron Accounting LLP files Form GSTR-4 annual return for composition dealers under Section 10 of the CGST Act, 2017 read with Rule 62 of the CGST Rules, 2017. The service covers reconciliation of 4 quarterly CMP-08 returns with books, capture of inward supplies and reverse charge tax under Section 9(3) and 9(4) in Table 4, DRC-03 shortfall payment with Section 50 interest where applicable, GSTR-4 filing by 30 June per Notification 12/2024-CT dated 10 July 2024, and Form GST RFD-01 refund of negative liability where excess CMP-08 tax exists.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gstr-4-filing" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [
+            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
+            { "@type": "Thing", "name": "Central Board of Indirect Taxes and Customs", "sameAs": "https://en.wikipedia.org/wiki/Central_Board_of_Indirect_Taxes_and_Customs" }
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "GSTR-4 Filing Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "GSTR-4 Annual Return Filing - End to End (Single GSTIN)",
+                    "priceCurrency": "INR",
+                    "price": "1499",
+                    "description": "End-to-end composition annual return - CMP-08 reconciliation, RCM capture, GSTR-4 filing, and RFD-01 negative-liability refund"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/gstr-4-filing/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
+            { "@type": "ListItem", "position": 3, "name": "GSTR-4 Filing", "item": "https://www.patronaccounting.com/gstr-4-filing" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/gstr-4-filing/#faq",
+        "datePublished": "2026-05-26T08:00:00+05:30",
+        "dateModified": "2026-06-01T08:00:00+05:30",
+        "mainEntity": [
+
+            {
+                "@type": "Question",
+                "name": "Who is required to file GSTR-4?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Every taxpayer registered under the GST composition scheme (Section 10 of the CGST Act, 2017) for any part of a financial year must file Form GSTR-4 for that FY. This includes manufacturers, traders and restaurants under Section 10(1) with turnover up to Rs 1.5 crore (Rs 75 lakh in 8 special category states), and service providers under Section 10(2A) with turnover up to Rs 50 lakh. Composition dealers do not file GSTR-1, GSTR-3B or GSTR-9."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the due date for GSTR-4 filing?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "From FY 2024-25 onwards, GSTR-4 must be filed by 30 June of the financial year immediately following the relevant FY. For example, GSTR-4 for FY 2025-26 is due by 30 June 2026. This is per Notification 12/2024-Central Tax dated 10 July 2024, which permanently extended the deadline from 30 April to 30 June following the recommendation of the 53rd GST Council meeting."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can GSTR-4 be revised after filing?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No. Form GSTR-4 once filed on the GST portal cannot be revised. Any errors discovered later must be corrected in the next financial year's GSTR-4 through appropriate disclosure, or the additional tax must be paid through Form DRC-03 with Section 50 interest. From July 2025 onwards, GSTR-4 also cannot be filed beyond 3 years from its original due date (GSTN advisory dated 7 June 2025)."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the late fee for late GSTR-4 filing?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Late fee under Section 47 of the CGST Act, 2017 for GSTR-4 is Rs 50 per day (Rs 25 CGST + Rs 25 SGST) for taxable returns, capped at a maximum of Rs 2,000 (Rs 1,000 CGST + Rs 1,000 SGST). For nil returns (no tax liability for the FY), the maximum late fee is Rs 500. Unpaid RCM tax disclosed in Table 4 also attracts interest under Section 50 at 18 percent per annum."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the difference between GSTR-4 and GSTR-9?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "GSTR-4 is the annual return for composition dealers under Section 10 of the CGST Act, 2017, due by 30 June of next FY. GSTR-9 is the annual return for regular taxpayers under Section 44, due by 31 December of next FY (mandatory if turnover above Rs 2 crore). The two forms cover different cohorts - a composition dealer files only GSTR-4; a regular taxpayer files only GSTR-9. A taxpayer who was composition for part of the year and regular for the rest files both for the respective periods."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is GSTR-4 mandatory if there are no sales?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Even if a composition dealer had no outward supplies in the financial year (or only had supplies for part of the year), Form GSTR-4 must still be filed. The nil return draws a reduced late fee maximum of Rs 500 (Rs 250 CGST + Rs 250 SGST) instead of Rs 2,000 for taxable returns, but the obligation to file remains."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the difference between GSTR-4 and CMP-08?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Form CMP-08 is a quarterly statement-cum-challan filed by composition dealers by the 18th of the month following each quarter end for self-assessed tax payment. Form GSTR-4 is the annual return that consolidates the 4 quarterly CMP-08 returns plus RCM tax, due by 30 June of the next FY. CMP-08 carries the tax payment during the year; GSTR-4 is the year-end consolidation, RCM disclosure and refund or shortfall reconciliation."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can a taxpayer who opted out of composition during the year file GSTR-4?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, and they must. If composition was withdrawn via Form CMP-04 (turnover crossed threshold or voluntary opt-out) or cancelled by the officer during the FY, GSTR-4 must still be filed for the part period of composition. The remaining period of the FY during which the taxpayer was a regular taxpayer is covered separately by GSTR-1, GSTR-3B and (if applicable) GSTR-9."
+                }
+            }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1673,17 +1678,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1706,8 +1704,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1744,7 +1740,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1755,4 +1750,20 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+
 

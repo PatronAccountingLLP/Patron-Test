@@ -2085,7 +2085,6 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
 </div>
 
 </main>
-<!-- External JS Dependencies (loaded by master layout in production) -->
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

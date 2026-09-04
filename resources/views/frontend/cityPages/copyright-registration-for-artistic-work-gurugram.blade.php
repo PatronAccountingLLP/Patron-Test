@@ -1,161 +1,12 @@
 
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Copyright for Artistic Work Gurugram - Logos & Paintings</title>
-    <meta name="description" content="Register copyright for artistic work in Gurugram. Photographs, logos, designs, architecture, packaging. Section 2(c). Call +91 945 945 6700.">
-    <link rel="canonical" href="/copyright-registration-for-artistic-work/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Copyright for Artistic Work Gurugram - Logos & Paintings">
-    <meta property="og:description" content="Register copyright for artistic work in Gurugram. Photographs, logos, designs, architecture, packaging. Section 2(c). Call +91 945 945 6700.">
-    <meta property="og:url" content="/copyright-registration-for-artistic-work/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Copyright for Artistic Work Gurugram - Logos & Paintings">
-    <meta name="twitter:description" content="Register copyright for artistic work in Gurugram. Photographs, logos, designs, architecture, packaging. Section 2(c). Call +91 945 945 6700.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "Copyright for Artistic Work in Gurugram | Design IP",
-      "description": "Register copyright for artistic work in Gurugram. Photographs, logos, designs, architecture, packaging. Section 2(c). Call +91 945 945 6700.",
-      "url": "https://www.patronaccounting.com/copyright-registration-for-artistic-work/gurugram",
-      "serviceType": "Copyright for Artistic Work in Gurugram | Design IP",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/copyright-registration-for-artistic-work/gurugram",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "minPrice": "500",
-          "maxPrice": "3000",
-          "priceCurrency": "INR"
-        }
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Copyright for Artistic Work in India: Registration and Fees",
-          "item": "https://www.patronaccounting.com/copyright-registration-for-artistic-work"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Copyright for Artistic Work in Gurugram | Design IP",
-          "item": "https://www.patronaccounting.com/copyright-registration-for-artistic-work/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Does an artistic work need artistic quality for copyright?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Section 2(c)(i) explicitly states 'whether or not any such work possesses artistic quality.' A simple product photograph, a basic technical diagram, a rough sketch, or a functional map all qualify for copyright protection. The requirement is originality (independent creation by the author) not artistic merit. Even commercially utilitarian designs are protected as long as they are original expressions."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does artistic work copyright cost in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Government fee: Rs 500 per work for individuals, Rs 2,000 per work for companies. Professional fee: Rs 3,000 to Rs 5,000 per work (Form XIV preparation, filing, certificate). Photography portfolio (10+ works): Rs 1,500 to Rs 2,500 per work professional. Logo dual protection (copyright + trademark): Rs 500 + Rs 4,500 to Rs 9,000. Call +91 945 945 6700."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the Section 15 trap for packaging designs?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 15(2) of the Copyright Act provides that if a design registrable under the Designs Act 2000 has been applied to any article by an industrial process more than 50 times, it ceases to enjoy copyright protection. This means a packaging design (which is artistic) printed on 100,000 product units loses copyright unless also registered under the Designs Act. The original artwork (painting/illustration) retains copyright, but its industrial application on products does not. D2C brands must register under both Acts."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Who owns the copyright in commissioned photographs?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The photographer (author) is the first owner under Section 17, even if the business commissioned and paid for the photoshoot. There is no automatic transfer of copyright through payment. The business must obtain a written assignment deed from the photographer to own the copyright. Without the deed, the photographer can license the same images to competitors, register copyright in their own name, and prevent the business from using the photographs in ways not originally agreed. Always execute assignment deeds before or at the time of commissioning."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can a logo be protected by both copyright and trademark?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, and this dual protection is recommended. Copyright (as artistic work under Section 2(c)) protects the visual design for the author's lifetime + 60 years. Trademark (as device mark under the Trade Marks Act 1999) protects the logo's commercial use as a brand identifier for 10 years (renewable). Copyright prevents reproduction of the design itself. Trademark prevents use of a similar mark in the same goods/services class. Together, they provide maximum protection."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How should photographers protect a large portfolio?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Each photograph is a separate artistic work requiring its own Form XIV and fee. For commercial photographers with hundreds or thousands of images, prioritize registration: (1) highest-value commercial images (product photos, campaign images), (2) images most likely to be copied (e-commerce product photos), (3) signature works (portfolio highlights). Batch filing reduces professional fees per image. Maintain metadata (EXIF data, creation date, camera details) for all images as creation evidence."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does artistic work copyright last?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "For most artistic works (paintings, illustrations, logos, designs, sculptures): author's lifetime + 60 years from the year following the author's death. For photographs: 60 years from the year following publication. For anonymous or pseudonymous works: 60 years from publication. For joint authorship: lifetime of the last surviving author + 60 years. India's Berne Convention membership means this protection applies in 181+ countries. Quick Answers Product photo ka copyright kiski hai? Photographer ka. Section 17 ke under photographer first owner hai chahe business ne payment kiya ho. Assignment deed ke bina business ko copyright nahi milta. Deed zaroori hai. Logo ka copyright aur trademark dono chahiye? Haan. Copyright design protect karta hai (lifetime + 60 years). Trademark brand use protect karta hai (10 years, renewable). Dono saath mein maximum protection dete hain. Packaging design pe copyright khatam ho sakta hai? Haan. Section 15(2) ke under agar packaging design 50 se zyada baar industrial process se product pe print ho toh copyright khatam. Designs Act mein bhi register karo protection ke liye."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -679,7 +530,161 @@ section ul li:not(.nav-item) { font-size: 14px; }
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'Join Community'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Copyright for Artistic Work Gurugram - Logos & Paintings</title>
+    <meta name="description" content="Register copyright for artistic work in Gurugram. Photographs, logos, designs, architecture, packaging. Section 2(c). Call +91 945 945 6700.">
+    <link rel="canonical" href="/copyright-registration-for-artistic-work/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Copyright for Artistic Work Gurugram - Logos & Paintings">
+    <meta property="og:description" content="Register copyright for artistic work in Gurugram. Photographs, logos, designs, architecture, packaging. Section 2(c). Call +91 945 945 6700.">
+    <meta property="og:url" content="/copyright-registration-for-artistic-work/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Copyright for Artistic Work Gurugram - Logos & Paintings">
+    <meta name="twitter:description" content="Register copyright for artistic work in Gurugram. Photographs, logos, designs, architecture, packaging. Section 2(c). Call +91 945 945 6700.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "Copyright for Artistic Work in Gurugram | Design IP",
+      "description": "Register copyright for artistic work in Gurugram. Photographs, logos, designs, architecture, packaging. Section 2(c). Call +91 945 945 6700.",
+      "url": "https://www.patronaccounting.com/copyright-registration-for-artistic-work/gurugram",
+      "serviceType": "Copyright for Artistic Work in Gurugram | Design IP",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.patronaccounting.com/copyright-registration-for-artistic-work/gurugram",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": "500",
+          "maxPrice": "3000",
+          "priceCurrency": "INR"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Copyright for Artistic Work in India: Registration and Fees",
+          "item": "https://www.patronaccounting.com/copyright-registration-for-artistic-work"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Copyright for Artistic Work in Gurugram | Design IP",
+          "item": "https://www.patronaccounting.com/copyright-registration-for-artistic-work/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Does an artistic work need artistic quality for copyright?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Section 2(c)(i) explicitly states 'whether or not any such work possesses artistic quality.' A simple product photograph, a basic technical diagram, a rough sketch, or a functional map all qualify for copyright protection. The requirement is originality (independent creation by the author) not artistic merit. Even commercially utilitarian designs are protected as long as they are original expressions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does artistic work copyright cost in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Government fee: Rs 500 per work for individuals, Rs 2,000 per work for companies. Professional fee: Rs 3,000 to Rs 5,000 per work (Form XIV preparation, filing, certificate). Photography portfolio (10+ works): Rs 1,500 to Rs 2,500 per work professional. Logo dual protection (copyright + trademark): Rs 500 + Rs 4,500 to Rs 9,000. Call +91 945 945 6700."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the Section 15 trap for packaging designs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 15(2) of the Copyright Act provides that if a design registrable under the Designs Act 2000 has been applied to any article by an industrial process more than 50 times, it ceases to enjoy copyright protection. This means a packaging design (which is artistic) printed on 100,000 product units loses copyright unless also registered under the Designs Act. The original artwork (painting/illustration) retains copyright, but its industrial application on products does not. D2C brands must register under both Acts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who owns the copyright in commissioned photographs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The photographer (author) is the first owner under Section 17, even if the business commissioned and paid for the photoshoot. There is no automatic transfer of copyright through payment. The business must obtain a written assignment deed from the photographer to own the copyright. Without the deed, the photographer can license the same images to competitors, register copyright in their own name, and prevent the business from using the photographs in ways not originally agreed. Always execute assignment deeds before or at the time of commissioning."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a logo be protected by both copyright and trademark?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, and this dual protection is recommended. Copyright (as artistic work under Section 2(c)) protects the visual design for the author's lifetime + 60 years. Trademark (as device mark under the Trade Marks Act 1999) protects the logo's commercial use as a brand identifier for 10 years (renewable). Copyright prevents reproduction of the design itself. Trademark prevents use of a similar mark in the same goods/services class. Together, they provide maximum protection."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How should photographers protect a large portfolio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Each photograph is a separate artistic work requiring its own Form XIV and fee. For commercial photographers with hundreds or thousands of images, prioritize registration: (1) highest-value commercial images (product photos, campaign images), (2) images most likely to be copied (e-commerce product photos), (3) signature works (portfolio highlights). Batch filing reduces professional fees per image. Maintain metadata (EXIF data, creation date, camera details) for all images as creation evidence."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does artistic work copyright last?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For most artistic works (paintings, illustrations, logos, designs, sculptures): author's lifetime + 60 years from the year following the author's death. For photographs: 60 years from the year following publication. For anonymous or pseudonymous works: 60 years from publication. For joint authorship: lifetime of the last surviving author + 60 years. India's Berne Convention membership means this protection applies in 181+ countries. Quick Answers Product photo ka copyright kiski hai? Photographer ka. Section 17 ke under photographer first owner hai chahe business ne payment kiya ho. Assignment deed ke bina business ko copyright nahi milta. Deed zaroori hai. Logo ka copyright aur trademark dono chahiye? Haan. Copyright design protect karta hai (lifetime + 60 years). Trademark brand use protect karta hai (10 years, renewable). Dono saath mein maximum protection dete hain. Packaging design pe copyright khatam ho sakta hai? Haan. Section 15(2) ke under agar packaging design 50 se zyada baar industrial process se product pe print ho toh copyright khatam. Designs Act mein bhi register karo protection ke liye."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1608,7 +1613,6 @@ var tocWrapper=document.getElementById('tocWrapper');document.getElementById('to
 
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,208 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>MIS Reporting Services in Delhi 2026 | Patron Accounting</title>
-    <meta name="description" content="CA-led MIS reporting for Nehru Place and Okhla firms from INR 4,999/mo. Get monthly margin, cash and KPI dashboards built on your own ledgers.">
-    <link rel="canonical" href="/mis-reporting-services/delhi">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="MIS Reporting Services in Delhi 2026 | Patron Accounting">
-    <meta property="og:description" content="CA-led MIS reporting for Nehru Place and Okhla firms from INR 4,999/mo. Get monthly margin, cash and KPI dashboards built on your own ledgers.">
-    <meta property="og:url" content="/mis-reporting-services/delhi">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="MIS Reporting Services in Delhi 2026 | Patron Accounting">
-    <meta name="twitter:description" content="CA-led MIS reporting for Nehru Place and Okhla firms from INR 4,999/mo. Get monthly margin, cash and KPI dashboards built on your own ledgers.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/mis-reporting-services/delhi#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "MIS Reporting Services",
-          "item": "https://www.patronaccounting.com/mis-reporting-services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "MIS Reporting Services in Delhi",
-          "item": "https://www.patronaccounting.com/mis-reporting-services/delhi"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/mis-reporting-services/delhi#faq",
-      "datePublished": "2026-06-23T08:00:00+05:30",
-      "dateModified": "2026-06-23T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Why should a Delhi business invest in MIS reporting?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Think of MIS as the layer that converts entries into answers. Each month or quarter you receive dashboards covering profit against plan, cash position, debtor and creditor ageing and the KPIs you care about. A Nehru Place reseller or an Okhla unit can then spot a slipping margin or a stretched collection cycle early and act, instead of discovering it at year end."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What does monthly MIS cost for a Delhi firm, and does Delhi have professional tax?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Plans open at Starting from INR 4,999/mo (Exl GST and Govt. Charges), then scale with entity count, revenue lines, cost centres and dashboard customisation. Because Delhi (NCT) levies no professional tax, your payroll cost block stays simpler than in Maharashtra. Every Karol Bagh trader or Okhla unit sees a fixed scope and a sample pack before approving."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What goes inside a monthly Delhi MIS pack?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A typical monthly pack carries a profit and loss against budget, a cash movement summary, a snapshot balance sheet, debtor and creditor ageing, spend split by cost centre, and a single-page KPI view. Quarterly editions go further with ratio trends, segment splits and written board commentary. For a Nehru Place reseller we often add margin by product line and inventory ageing."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is MIS reporting different from bookkeeping for an Okhla manufacturer?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Bookkeeping captures what happened; MIS explains what it means. We first close and reconcile the ledgers of, say, an Okhla manufacturer, then layer on variance, ratios, cash flow and cost-centre dashboards. The result answers where working capital is locked and which lines earn their keep, presented so owners and boards can read it in minutes."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "When will my monthly Delhi MIS pack reach me?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Once your bank and ledger data is reconciled, the monthly pack normally lands inside 5 to 7 working days of close. Quarterly board editions follow within 10 working days of quarter end. We lock a delivery calendar during onboarding, so a Chandni Chowk wholesaler or a Mayapuri unit knows the exact date each cycle and never has to chase numbers."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can the Delhi MIS pack be shaped for different readers?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Absolutely. Each audience gets its own cut: founders see a lean KPI snapshot, finance teams get full variance and cash schedules, and a polished board or investor edition carries commentary for funding rounds. Software and startup clients also get burn, runway, MRR and unit economics, while a Nehru Place IT trader can track margin by product line instead."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which tools do you use to build MIS dashboards in Delhi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patron builds Delhi MIS reports from your existing accounting data in Tally, Zoho Books, QuickBooks, or Xero, and presents dashboards in Excel, Google Sheets, Power BI, or Zoho Analytics as preferred. We connect directly to your ledgers so reports stay accurate and refresh each cycle without manual rekeying."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do quarterly MIS packs help with board and investor reporting?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Quarterly MIS packs are built for boards and investors, with ratio analysis, segment and cost-centre reporting, budget versus actual, and written commentary on performance and outlook. For Delhi startups raising funds, Patron aligns the pack with diligence expectations so the data room is review-ready."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/mis-reporting-services/delhi#service",
-      "name": "MIS Reporting Services in Delhi",
-      "description": "Monthly and quarterly MIS reporting in Delhi by Patron Accounting. CA-built management dashboards, P&L versus budget, cash flow, ratio analysis, receivables and payables ageing, cost-centre and KPI packs for founders, CFOs, boards, and investors.",
-      "serviceType": "Management Information System (MIS) Reporting",
-      "url": "https://www.patronaccounting.com/mis-reporting-services/delhi",
-      "areaServed": {
-        "@type": "City",
-        "name": "Delhi",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Delhi"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#localbusiness-delhi"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Management information system",
-          "sameAs": "https://en.wikipedia.org/wiki/Management_information_system"
-        },
-        {
-          "@type": "Thing",
-          "name": "Financial statement",
-          "sameAs": "https://en.wikipedia.org/wiki/Financial_statement"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "MIS Reporting Plans in Delhi",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "price": "4999",
-            "priceSpecification": {
-              "@type": "UnitPriceSpecification",
-              "priceCurrency": "INR",
-              "price": "4999",
-              "unitText": "per month"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Monthly MIS Reporting Pack"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness-delhi",
-      "name": "Patron Accounting LLP - Delhi",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/mis-reporting-services/delhi",
-      "telephone": "+91-9699936369",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Delhi"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Delhi",
-        "addressRegion": "Delhi",
-        "postalCode": "110085",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -830,7 +627,217 @@
         .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
 
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>MIS Reporting Services in Delhi 2026 | Patron Accounting</title>
+    <meta name="description" content="CA-led MIS reporting for Nehru Place and Okhla firms from INR 4,999/mo. Get monthly margin, cash and KPI dashboards built on your own ledgers.">
+    <link rel="canonical" href="/mis-reporting-services/delhi">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="MIS Reporting Services in Delhi 2026 | Patron Accounting">
+    <meta property="og:description" content="CA-led MIS reporting for Nehru Place and Okhla firms from INR 4,999/mo. Get monthly margin, cash and KPI dashboards built on your own ledgers.">
+    <meta property="og:url" content="/mis-reporting-services/delhi">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="MIS Reporting Services in Delhi 2026 | Patron Accounting">
+    <meta name="twitter:description" content="CA-led MIS reporting for Nehru Place and Okhla firms from INR 4,999/mo. Get monthly margin, cash and KPI dashboards built on your own ledgers.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/mis-reporting-services/delhi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "MIS Reporting Services",
+          "item": "https://www.patronaccounting.com/mis-reporting-services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "MIS Reporting Services in Delhi",
+          "item": "https://www.patronaccounting.com/mis-reporting-services/delhi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/mis-reporting-services/delhi#faq",
+      "datePublished": "2026-06-23T08:00:00+05:30",
+      "dateModified": "2026-06-23T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why should a Delhi business invest in MIS reporting?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Think of MIS as the layer that converts entries into answers. Each month or quarter you receive dashboards covering profit against plan, cash position, debtor and creditor ageing and the KPIs you care about. A Nehru Place reseller or an Okhla unit can then spot a slipping margin or a stretched collection cycle early and act, instead of discovering it at year end."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does monthly MIS cost for a Delhi firm, and does Delhi have professional tax?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Plans open at Starting from INR 4,999/mo (Exl GST and Govt. Charges), then scale with entity count, revenue lines, cost centres and dashboard customisation. Because Delhi (NCT) levies no professional tax, your payroll cost block stays simpler than in Maharashtra. Every Karol Bagh trader or Okhla unit sees a fixed scope and a sample pack before approving."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What goes inside a monthly Delhi MIS pack?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A typical monthly pack carries a profit and loss against budget, a cash movement summary, a snapshot balance sheet, debtor and creditor ageing, spend split by cost centre, and a single-page KPI view. Quarterly editions go further with ratio trends, segment splits and written board commentary. For a Nehru Place reseller we often add margin by product line and inventory ageing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is MIS reporting different from bookkeeping for an Okhla manufacturer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bookkeeping captures what happened; MIS explains what it means. We first close and reconcile the ledgers of, say, an Okhla manufacturer, then layer on variance, ratios, cash flow and cost-centre dashboards. The result answers where working capital is locked and which lines earn their keep, presented so owners and boards can read it in minutes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When will my monthly Delhi MIS pack reach me?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Once your bank and ledger data is reconciled, the monthly pack normally lands inside 5 to 7 working days of close. Quarterly board editions follow within 10 working days of quarter end. We lock a delivery calendar during onboarding, so a Chandni Chowk wholesaler or a Mayapuri unit knows the exact date each cycle and never has to chase numbers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can the Delhi MIS pack be shaped for different readers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. Each audience gets its own cut: founders see a lean KPI snapshot, finance teams get full variance and cash schedules, and a polished board or investor edition carries commentary for funding rounds. Software and startup clients also get burn, runway, MRR and unit economics, while a Nehru Place IT trader can track margin by product line instead."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which tools do you use to build MIS dashboards in Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patron builds Delhi MIS reports from your existing accounting data in Tally, Zoho Books, QuickBooks, or Xero, and presents dashboards in Excel, Google Sheets, Power BI, or Zoho Analytics as preferred. We connect directly to your ledgers so reports stay accurate and refresh each cycle without manual rekeying."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do quarterly MIS packs help with board and investor reporting?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Quarterly MIS packs are built for boards and investors, with ratio analysis, segment and cost-centre reporting, budget versus actual, and written commentary on performance and outlook. For Delhi startups raising funds, Patron aligns the pack with diligence expectations so the data room is review-ready."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/mis-reporting-services/delhi#service",
+      "name": "MIS Reporting Services in Delhi",
+      "description": "Monthly and quarterly MIS reporting in Delhi by Patron Accounting. CA-built management dashboards, P&L versus budget, cash flow, ratio analysis, receivables and payables ageing, cost-centre and KPI packs for founders, CFOs, boards, and investors.",
+      "serviceType": "Management Information System (MIS) Reporting",
+      "url": "https://www.patronaccounting.com/mis-reporting-services/delhi",
+      "areaServed": {
+        "@type": "City",
+        "name": "Delhi",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Delhi"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#localbusiness-delhi"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Management information system",
+          "sameAs": "https://en.wikipedia.org/wiki/Management_information_system"
+        },
+        {
+          "@type": "Thing",
+          "name": "Financial statement",
+          "sameAs": "https://en.wikipedia.org/wiki/Financial_statement"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "MIS Reporting Plans in Delhi",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "price": "4999",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "INR",
+              "price": "4999",
+              "unitText": "per month"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Monthly MIS Reporting Pack"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness-delhi",
+      "name": "Patron Accounting LLP - Delhi",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/mis-reporting-services/delhi",
+      "telephone": "+91-9699936369",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Delhi"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Delhi",
+        "addressRegion": "Delhi",
+        "postalCode": "110085",
+        "addressCountry": "IN"
+      },
+      "parentOrganization": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1582,7 +1589,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

@@ -1,200 +1,11 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Section 148 Notice Pune: Reply</title>
-    <meta name="description" content="Section 148 notice CA in Pune: Section 148A reply, reassessment defence, CIT(A) appeal, ITAT Pune, Bombay HC writ. Rs 35K-75K. Call now.">
-    <link rel="canonical" href="/sec-148-notice/pune">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Section 148 Notice Pune 2026: Reply | Patron Accounting">
-    <meta property="og:description" content="Section 148 notice CA in Pune: Section 148A reply, reassessment defence, CIT(A) appeal, ITAT Pune, Bombay HC writ. Rs 35K-75K. Call now.">
-    <meta property="og:url" content="/sec-148-notice/pune">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Section 148 Notice Pune 2026: Reply | Patron Accounting">
-    <meta name="twitter:description" content="Section 148 notice CA in Pune: Section 148A reply, reassessment defence, CIT(A) appeal, ITAT Pune, Bombay HC writ. Rs 35K-75K. Call now.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/sec-148-notice/pune#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Income Tax Notice Pune",
-          "item": "https://www.patronaccounting.com/income-tax-notice/pune"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Section 148 Notice Pune",
-          "item": "https://www.patronaccounting.com/sec-148-notice/pune"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/sec-148-notice/pune#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is Section 148 notice of Income Tax Act?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 148 of the Income Tax Act 1961 is the reassessment notice issued by the Assessing Officer where income chargeable to tax has escaped assessment for any assessment year. Post Finance Act 2021 effective 1 April 2021, Section 148 issuance is mandatorily preceded by Section 148A pre-show-cause inquiry. The Section 148A workflow has four stages and Section 149 sets time limits of 3 years general or 10 years for asset-based escaped income above Rs 50 lakh."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Section 148 time limit - 3 years or 10 years?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Under Section 149 of the IT Act 1961, the general Section 148 time limit is 3 years from the end of the assessment year. The extended 10-year limit applies only where the AO has books, documents or other evidence revealing income escaping assessment represented by an ASSET above Rs 50 lakh in monetary terms - not mere expenses or income flows. TOLA Acts 2020 / 2021 created complex extensions for AYs 2013-14 to 2017-18 requiring careful arithmetic."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Difference between Section 148 and Section 148A?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 148 and Section 148A are two stages of the same reassessment process. Section 148A is the FIRST stage - pre-show-cause inquiry framework introduced by Finance Act 2021. Section 148 is the SECOND stage - the actual reassessment notice. If you have received Section 148A SCN, proceedings are still at pre-SCN stage. A successful Section 148A reply can terminate the matter without any Section 148 issuance - this is the highest-leverage intervention point in the lifecycle."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How to reply to Section 148A show cause notice in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Reply to Section 148A(b) SCN is filed via the e-filing portal within the window stated on the notice (not less than 7 days, not more than 30 days). The reply should address factual rebuttal with supporting documents, jurisdictional grounds including Section 149 time-bar and Section 151 sanction infirmity, legal grounds on reason-to-believe specificity, and merit defences. CA-signed reply maximises credibility and chance of Section 148A(d) termination."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I challenge Section 148 notice in High Court from Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes - Bombay High Court writ jurisdiction under Article 226 is heavily used for Section 148 challenges from Pune. The Principal Seat at Mumbai handles Pune Section 148 writs with inter-city travel of approximately 150 km. Grounds include Section 149 time-bar (particularly TOLA-extended notices for AYs 2013-14 to 2017-18), Section 151 sanction infirmity, lack of Section 148A compliance, mechanical reason-to-believe and jurisdictional defects."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does a Section 148 CA cost in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patron Pune Section 148 pricing is Rs 35,000 to Rs 75,000 per matter depending on complexity. Standard Section 148A reply Rs 35,000; mid-complex Section 148 with Section 144B workflow under Rs 50 lakh exposure Rs 50,000; complex Rs 50 lakh-3 crore or 10-year extended limit Rs 65,000; high-stake above Rs 3 crore or TOLA / Ashish Agarwal matters Rs 75,000+. Bombay HC writ priced separately Rs 1.5 lakh to Rs 5 lakh plus Mumbai travel."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Where is my Pune Assessing Officer located?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Pune Section 148 reassessment notices come from the Pune Region IT charges under Principal CCIT Pune oversight. Section 144B faceless framework means NaFAC Delhi allocates cases to a Faceless Assessing Unit anywhere in India - assessees interact via e-Proceedings portal not physical AO office. Verify your jurisdictional AO via PAN lookup on incometax.gov.in. ITAT Pune Bench is at Plot No. 5, Akurdi, Pune for second appeals - physical hearing tribunal."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/sec-148-notice/pune#service",
-      "name": "Section 148 Notice CA in Pune - Reassessment Reply, Defence and Appeal",
-      "url": "https://www.patronaccounting.com/sec-148-notice/pune",
-      "description": "Patron Accounting CA-led representation for Section 148 Income Tax Act 1961 reassessment notices in Pune - Section 148A pre-show-cause inquiry response within 7 to 30 days, Section 149 time-bar defence (3-year general and 10-year asset-above-Rs-50-lakh extended limits), Section 151 sanction infirmity challenge, TOLA Acts 2020/2021 arithmetic for AYs 2013-14 to 2017-18, SC Ashish Agarwal (4 May 2022) precedent application, Section 144B faceless reassessment workflow under NaFAC, Bombay High Court Article 226 writ jurisdiction at Principal Seat Mumbai (150 km inter-city), CIT(A) Faceless Appeal under Scheme 2021, ITAT Pune Bench physical representation at Plot No. 5 Akurdi and Bombay HC Section 260A appeals. Serving Pune City, PCMC Pimpri-Chinchwad, Hinjewadi IT belt, Kharadi corporate cluster, Wakad-Aundh, Hadapsar, Camp, Koregaon Park, Viman Nagar, Talegaon and Chakan auto-pharma belt. Starting at Rs 35,000 per matter.",
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      },
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune",
-        "sameAs": "https://en.wikipedia.org/wiki/Pune"
-      },
-      "serviceType": "Section 148 Income Tax Reassessment Notice Reply and Defence",
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Income Tax Act 1961",
-          "sameAs": "https://en.wikipedia.org/wiki/Income_Tax_Act,_1961"
-        },
-        {
-          "@type": "Thing",
-          "name": "Income tax in India",
-          "sameAs": "https://en.wikipedia.org/wiki/Income_tax_in_India"
-        },
-        {
-          "@type": "Thing",
-          "name": "Faceless assessment scheme",
-          "sameAs": "https://en.wikipedia.org/wiki/Faceless_Assessment_Scheme"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Section 148 Notice Pune Service Packages",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "name": "Standard Section 148A SCN Reply (Pre-SCN Termination Strategy)",
-            "price": "35000",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/sec-148-notice/pune"
-          },
-          {
-            "@type": "Offer",
-            "name": "Mid-Complex Section 148 + Section 144B Faceless Workflow under Rs 50 Lakh Exposure",
-            "price": "50000",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/sec-148-notice/pune"
-          },
-          {
-            "@type": "Offer",
-            "name": "Complex Section 148 Rs 50 Lakh-3 Crore Exposure or 10-Year Extended-Limit Case",
-            "price": "65000",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/sec-148-notice/pune"
-          },
-          {
-            "@type": "Offer",
-            "name": "High-Stake Section 148 above Rs 3 Crore or TOLA-Extended-Notice or Ashish Agarwal Deemed SCN",
-            "price": "75000",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/sec-148-notice/pune"
-          }
-        ]
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -865,7 +676,201 @@ section[style*="background: var(--blue)"] .content-text,
 section[style*="background: var(--blue)"] .content-text p,
 section[style*="background: var(--blue)"] .content-text li,
 section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !important;}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Section 148 Notice Pune: Reply</title>
+    <meta name="description" content="Section 148 notice CA in Pune: Section 148A reply, reassessment defence, CIT(A) appeal, ITAT Pune, Bombay HC writ. Rs 35K-75K. Call now.">
+    <link rel="canonical" href="/sec-148-notice/pune">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Section 148 Notice Pune 2026: Reply | Patron Accounting">
+    <meta property="og:description" content="Section 148 notice CA in Pune: Section 148A reply, reassessment defence, CIT(A) appeal, ITAT Pune, Bombay HC writ. Rs 35K-75K. Call now.">
+    <meta property="og:url" content="/sec-148-notice/pune">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Section 148 Notice Pune 2026: Reply | Patron Accounting">
+    <meta name="twitter:description" content="Section 148 notice CA in Pune: Section 148A reply, reassessment defence, CIT(A) appeal, ITAT Pune, Bombay HC writ. Rs 35K-75K. Call now.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/sec-148-notice/pune#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Income Tax Notice Pune",
+          "item": "https://www.patronaccounting.com/income-tax-notice/pune"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Section 148 Notice Pune",
+          "item": "https://www.patronaccounting.com/sec-148-notice/pune"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/sec-148-notice/pune#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Section 148 notice of Income Tax Act?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 148 of the Income Tax Act 1961 is the reassessment notice issued by the Assessing Officer where income chargeable to tax has escaped assessment for any assessment year. Post Finance Act 2021 effective 1 April 2021, Section 148 issuance is mandatorily preceded by Section 148A pre-show-cause inquiry. The Section 148A workflow has four stages and Section 149 sets time limits of 3 years general or 10 years for asset-based escaped income above Rs 50 lakh."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Section 148 time limit - 3 years or 10 years?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under Section 149 of the IT Act 1961, the general Section 148 time limit is 3 years from the end of the assessment year. The extended 10-year limit applies only where the AO has books, documents or other evidence revealing income escaping assessment represented by an ASSET above Rs 50 lakh in monetary terms - not mere expenses or income flows. TOLA Acts 2020 / 2021 created complex extensions for AYs 2013-14 to 2017-18 requiring careful arithmetic."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Difference between Section 148 and Section 148A?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 148 and Section 148A are two stages of the same reassessment process. Section 148A is the FIRST stage - pre-show-cause inquiry framework introduced by Finance Act 2021. Section 148 is the SECOND stage - the actual reassessment notice. If you have received Section 148A SCN, proceedings are still at pre-SCN stage. A successful Section 148A reply can terminate the matter without any Section 148 issuance - this is the highest-leverage intervention point in the lifecycle."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to reply to Section 148A show cause notice in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reply to Section 148A(b) SCN is filed via the e-filing portal within the window stated on the notice (not less than 7 days, not more than 30 days). The reply should address factual rebuttal with supporting documents, jurisdictional grounds including Section 149 time-bar and Section 151 sanction infirmity, legal grounds on reason-to-believe specificity, and merit defences. CA-signed reply maximises credibility and chance of Section 148A(d) termination."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I challenge Section 148 notice in High Court from Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes - Bombay High Court writ jurisdiction under Article 226 is heavily used for Section 148 challenges from Pune. The Principal Seat at Mumbai handles Pune Section 148 writs with inter-city travel of approximately 150 km. Grounds include Section 149 time-bar (particularly TOLA-extended notices for AYs 2013-14 to 2017-18), Section 151 sanction infirmity, lack of Section 148A compliance, mechanical reason-to-believe and jurisdictional defects."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does a Section 148 CA cost in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patron Pune Section 148 pricing is Rs 35,000 to Rs 75,000 per matter depending on complexity. Standard Section 148A reply Rs 35,000; mid-complex Section 148 with Section 144B workflow under Rs 50 lakh exposure Rs 50,000; complex Rs 50 lakh-3 crore or 10-year extended limit Rs 65,000; high-stake above Rs 3 crore or TOLA / Ashish Agarwal matters Rs 75,000+. Bombay HC writ priced separately Rs 1.5 lakh to Rs 5 lakh plus Mumbai travel."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where is my Pune Assessing Officer located?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pune Section 148 reassessment notices come from the Pune Region IT charges under Principal CCIT Pune oversight. Section 144B faceless framework means NaFAC Delhi allocates cases to a Faceless Assessing Unit anywhere in India - assessees interact via e-Proceedings portal not physical AO office. Verify your jurisdictional AO via PAN lookup on incometax.gov.in. ITAT Pune Bench is at Plot No. 5, Akurdi, Pune for second appeals - physical hearing tribunal."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/sec-148-notice/pune#service",
+      "name": "Section 148 Notice CA in Pune - Reassessment Reply, Defence and Appeal",
+      "url": "https://www.patronaccounting.com/sec-148-notice/pune",
+      "description": "Patron Accounting CA-led representation for Section 148 Income Tax Act 1961 reassessment notices in Pune - Section 148A pre-show-cause inquiry response within 7 to 30 days, Section 149 time-bar defence (3-year general and 10-year asset-above-Rs-50-lakh extended limits), Section 151 sanction infirmity challenge, TOLA Acts 2020/2021 arithmetic for AYs 2013-14 to 2017-18, SC Ashish Agarwal (4 May 2022) precedent application, Section 144B faceless reassessment workflow under NaFAC, Bombay High Court Article 226 writ jurisdiction at Principal Seat Mumbai (150 km inter-city), CIT(A) Faceless Appeal under Scheme 2021, ITAT Pune Bench physical representation at Plot No. 5 Akurdi and Bombay HC Section 260A appeals. Serving Pune City, PCMC Pimpri-Chinchwad, Hinjewadi IT belt, Kharadi corporate cluster, Wakad-Aundh, Hadapsar, Camp, Koregaon Park, Viman Nagar, Talegaon and Chakan auto-pharma belt. Starting at Rs 35,000 per matter.",
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Pune",
+        "sameAs": "https://en.wikipedia.org/wiki/Pune"
+      },
+      "serviceType": "Section 148 Income Tax Reassessment Notice Reply and Defence",
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Income Tax Act 1961",
+          "sameAs": "https://en.wikipedia.org/wiki/Income_Tax_Act,_1961"
+        },
+        {
+          "@type": "Thing",
+          "name": "Income tax in India",
+          "sameAs": "https://en.wikipedia.org/wiki/Income_tax_in_India"
+        },
+        {
+          "@type": "Thing",
+          "name": "Faceless assessment scheme",
+          "sameAs": "https://en.wikipedia.org/wiki/Faceless_Assessment_Scheme"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Section 148 Notice Pune Service Packages",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "Standard Section 148A SCN Reply (Pre-SCN Termination Strategy)",
+            "price": "35000",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/sec-148-notice/pune"
+          },
+          {
+            "@type": "Offer",
+            "name": "Mid-Complex Section 148 + Section 144B Faceless Workflow under Rs 50 Lakh Exposure",
+            "price": "50000",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/sec-148-notice/pune"
+          },
+          {
+            "@type": "Offer",
+            "name": "Complex Section 148 Rs 50 Lakh-3 Crore Exposure or 10-Year Extended-Limit Case",
+            "price": "65000",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/sec-148-notice/pune"
+          },
+          {
+            "@type": "Offer",
+            "name": "High-Stake Section 148 above Rs 3 Crore or TOLA-Extended-Notice or Ashish Agarwal Deemed SCN",
+            "price": "75000",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/sec-148-notice/pune"
+          }
+        ]
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -2124,7 +2129,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 </script>
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

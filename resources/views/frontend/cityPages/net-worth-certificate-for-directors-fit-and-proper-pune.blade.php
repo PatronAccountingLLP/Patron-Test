@@ -1,245 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Net Worth Certificate Director Fit Proper Pune 2026 | Patron</title>
-    <meta name="description" content="CA-certified net worth certificate for Pune directors. Fit and Proper format for SEBI, RBI, IRDAI compliance. UDIN, annual filing ready. Starting INR 2,499.">
-    <link rel="canonical" href="https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/pune">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Net Worth Certificate Director Fit Proper Pune 2026 | Patron">
-    <meta property="og:description" content="CA-certified net worth certificate for Pune directors. Fit and Proper format for SEBI, RBI, IRDAI compliance. UDIN, annual filing ready. Starting INR 2,499.">
-    <meta property="og:url" content="https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/pune">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Net Worth Certificate Director Fit Proper Pune 2026 | Patron">
-    <meta name="twitter:description" content="CA-certified net worth certificate for Pune directors. Fit and Proper format for SEBI, RBI, IRDAI compliance. UDIN, annual filing ready. Starting INR 2,499.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/pune/#service",
-        "name": "Net Worth Certificate for Directors (Fit and Proper) in Pune",
-        "description": "CA-certified net worth certificate for Pune directors. Fit and Proper format for SEBI, RBI, IRDAI compliance. UDIN, annual filing ready. Starting INR 2,499.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/pune" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Chartered Accountant", "sameAs": "https://en.wikipedia.org/wiki/Chartered_accountant" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Net Worth Certificate for Directors (Fit and Proper) Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Net Worth Certificate for Directors (Fit and Proper) in Pune"
-                    },
-                    "price": "2499",
-                    "priceCurrency": "INR",
-                    "url": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/pune"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/pune/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate for Directors (Fit and Proper)", "item": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper" },
-            { "@type": "ListItem", "position": 3, "name": "Pune", "item": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/pune" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/pune/#faq",
-        "datePublished": "2026-07-02T08:00:00+05:30",
-        "dateModified": "2026-07-02T08:00:00+05:30",
-        "mainEntity": [
-            {
-                    "@type": "Question",
-                    "name": "Why does a director need a fit and proper net worth certificate?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Directors of banks, NBFCs, listed companies, insurers, and SEBI-registered intermediaries are required by SEBI LODR Schedule II Part D, RBI Master Direction on Fit and Proper (Bank and NBFC), IRDAI Corporate Governance Guidelines, and Companies Act 2013 to demonstrate financial soundness, personal integrity, and absence of disqualifying proceedings. The CA-certified net worth certificate with director-specific disclosures is the standard evidence the regulator, stock exchange, and nomination and remuneration committee rely on at appointment, re-appointment, and annual review."
-                    }
-                },
-{
-                    "@type": "Question",
-                    "name": "What is the SEBI LODR Schedule II requirement for director NWC?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "SEBI LODR Regulations 2015 Schedule II Part D prescribes fit-and-proper criteria for promoters, KMPs and directors of listed entities, with quarterly disclosure to the stock exchange (within 7 days of quarter-end) and annual disclosure to the AGM. The certificate must cover personal net worth, substantial interest in companies under Section 184 Companies Act 2013, defaults to banks and FIs, criminal and disciplinary proceedings, regulatory orders, and sources of income. UDIN is mandatory."
-                    }
-                },
-{
-                    "@type": "Question",
-                    "name": "Who can issue a fit and proper net worth certificate for directors in Pune?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Only a practising Chartered Accountant in Pune holding a valid Certificate of Practice from ICAI can sign and issue the certificate. The CA generates an 18-digit UDIN at udin.icai.org, signs on firm letterhead with ICAI seal, and prints Membership Number and Firm Registration Number. SEBI, RBI, IRDAI examiners, stock exchanges (BSE, NSE), and nomination and remuneration committees at Bajaj Group, Bank of Maharashtra, Cosmos Bank, NBFCs, listed Pune-HQ companies, and IRDAI-regulated insurers verify the UDIN."
-                    }
-                },
-{
-                    "@type": "Question",
-                    "name": "What disclosures does an NBFC director need under RBI Master Direction?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "RBI Master Direction Scale Based Regulation 2023 Annex XXIII for NBFC directors requires (i) personal details including DIN, PAN, residential address, (ii) relevant relationships and relatives' substantial interest under Section 2(77) BRA, (iii) records of professional achievements, (iv) proceedings - criminal, disciplinary, and regulatory actions, (v) deed of covenants signed by the director, and (vi) annual confirmation of fit-and-proper status. Patron's Pune office prepares all of these in the regulator-prescribed format."
-                    }
-                },
-{
-                    "@type": "Question",
-                    "name": "Is UDIN mandatory on a director fit and proper net worth certificate?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Yes, UDIN is mandatory on every CA-issued net worth certificate since 1 July 2019, enforced by ICAI. The 18-digit Unique Document Identification Number is generated at udin.icai.org and printed on the certificate. SEBI examiners, RBI department of regulation, IRDAI compliance officers, stock exchange listing departments, and company nomination and remuneration committees verify the UDIN on the ICAI portal as a standard step. Certificates without UDIN are rejected and the director's fit-and-proper file is held back."
-                    }
-                },
-{
-                    "@type": "Question",
-                    "name": "How often does the fit and proper declaration need to be renewed?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Annual renewal is the default. SEBI LODR Schedule II Part D requires quarterly disclosure to the stock exchange and annual disclosure at the AGM. RBI Master Direction SBR Annex XXIII for NBFCs requires annual confirmation. RBI PSB 2019 Master Direction requires annual renewal at board re-appointment. IRDAI Corporate Governance Guidelines specify annual fit-and-proper confirmation. Patron tracks the annual renewal cycle for Pune-based directors and ensures the certificate is ready before the AGM, board re-appointment or regulator filing date."
-                    }
-                }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/pune",
-        "name": "Net Worth Certificate for Directors (Fit and Proper) in Pune",
-        "description": "CA-certified net worth certificate for Pune directors. Fit and Proper format for SEBI, RBI, IRDAI compliance. UDIN, annual filing ready. Starting INR 2,499.",
-        "url": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/pune",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/pune/#service" },
-        "datePublished": "2026-07-02T08:00:00+05:30",
-        "dateModified": "2026-07-02T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/pune/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How to Get a Net Worth Certificate for Directors (Fit and Proper)",
-        "description": "Step-by-step process to obtain a Net Worth Certificate for Directors (Fit and Proper) from Patron Accounting.",
-        "totalTime": "P3D",
-        "step": [
-            {
-                    "@type": "HowToStep",
-                    "position": 1,
-                    "name": "Engagement",
-                    "text": "Pune director or company secretary calls Patron Accounting, identifies the regulator (SEBI LODR, RBI Master Direction NBFC/PSB, IRDAI, Companies Act 2013), appointing entity (Bajaj Finance, Bank of Maharashtra, Cosmos Bank, Bharat Forge, etc.), and position (independent director, executive director, KMP). Engagement letter captures purpose under ICAI SA 200."
-                },
-{
-                    "@type": "HowToStep",
-                    "position": 2,
-                    "name": "Document collection",
-                    "text": "Upload PAN, Aadhaar, DIN reference, latest 3 years ITR with computation, personal bank statements (12 months), MF and demat statements, FD receipts, residential and commercial property documents (Pune IGR reckoner reference), gold and jewellery valuation, ESOP/RSU statements, board appointment letter, nomination and remuneration committee questionnaire, and CIBIL personal report."
-                },
-{
-                    "@type": "HowToStep",
-                    "position": 3,
-                    "name": "Substantial interest mapping",
-                    "text": "Patron CA cross-checks shareholding patterns of companies where the director or spouse or minor child holds beneficial interest exceeding Rs 5 lakh paid-up value or 10 percent of paid-up capital under Section 2(77) BRA. Patron also maps the director's listed-company shareholdings, unlisted-company beneficial interests, partnership and LLP interests, and trust beneficiary positions."
-                },
-{
-                    "@type": "HowToStep",
-                    "position": 4,
-                    "name": "Verification under SA 500 and SA 505",
-                    "text": "Patron CA cross-checks bank balances against statements, validates MF and demat holdings against statements, confirms Pune property at Maharashtra IGR ward rate, reconciles ITR with bank and investment statements. CIBIL report cross-checked for default flags. Public-record search for criminal and regulatory proceedings."
-                },
-{
-                    "@type": "HowToStep",
-                    "position": 5,
-                    "name": "Format alignment and draft",
-                    "text": "Patron extracts the regulator-specific format (SEBI LODR Schedule II Part D, RBI SBR Annex XXIII, RBI PSB 2019 Master Direction, IRDAI Corporate Governance, or Companies Act 2013 Section 149(6) declaration), lays out the personal NWC with all required disclosures - substantial interest, relatives, defaults, criminal and disciplinary, sources of income, tax disputes. Draft emailed within 48 hours."
-                },
-{
-                    "@type": "HowToStep",
-                    "position": 6,
-                    "name": "UDIN generation and final issue",
-                    "text": "Patron CA generates the 18-digit UDIN at udin.icai.org, signs on firm letterhead with ICAI seal, issues the final document. Soft copy emailed for board/regulator submission; hard copy collected from Patron Pune office or couriered to the company secretary within 3-4 working days. Annual renewal cycle tracked for incumbent directors."
-                }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Net Worth Certificate for Directors (Fit and Proper) Key Terms",
-        "definedTerm": [
-            {
-                    "@type": "DefinedTerm",
-                    "name": "UDIN",
-                    "description": "18-digit Unique Document Identification Number generated by the issuing CA at udin.icai.org for every certificate, mandatory since 1 July 2019."
-                },
-{
-                    "@type": "DefinedTerm",
-                    "name": "Fit and Proper",
-                    "description": "Regulatory test requiring directors of banks, NBFCs, insurers, listed companies and SEBI-regulated intermediaries to demonstrate integrity, financial soundness, qualifications, and absence of disqualifying proceedings. Applied at appointment, re-appointment, and on annual review."
-                },
-{
-                    "@type": "DefinedTerm",
-                    "name": "Substantial Interest",
-                    "description": "Under Section 2(77) of the Banking Regulation Act 1949 - holding a beneficial interest in shares of a company by an individual or his spouse or minor child, whether singly or together, exceeding Rs 5 lakh paid-up value or 10 percent of paid-up capital, whichever is less. Under Companies Act 2013, similar threshold for related-party disclosure under Section 184."
-                },
-{
-                    "@type": "DefinedTerm",
-                    "name": "RBI Master Direction SBR 2023 Annex XXIII",
-                    "description": "Annexure XXIII of the RBI Master Direction on Scale Based Regulation of NBFCs (dated 19 October 2023) prescribes the Fit and Proper criteria, deed of covenants, and annual declarations for directors of Base, Middle and Upper Layer NBFCs."
-                },
-{
-                    "@type": "DefinedTerm",
-                    "name": "SEBI LODR Schedule II Part D",
-                    "description": "Schedule II Part D of the SEBI Listing Obligations and Disclosure Requirements Regulations 2015 prescribes fit-and-proper criteria for promoters, KMPs and directors of listed entities, with quarterly and annual disclosure to the stock exchange and audit committee."
-                }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -853,7 +618,247 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Net Worth Certificate Director Fit Proper Pune 2026 | Patron</title>
+    <meta name="description" content="CA-certified net worth certificate for Pune directors. Fit and Proper format for SEBI, RBI, IRDAI compliance. UDIN, annual filing ready. Starting INR 2,499.">
+    <link rel="canonical" href="https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/pune">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Net Worth Certificate Director Fit Proper Pune 2026 | Patron">
+    <meta property="og:description" content="CA-certified net worth certificate for Pune directors. Fit and Proper format for SEBI, RBI, IRDAI compliance. UDIN, annual filing ready. Starting INR 2,499.">
+    <meta property="og:url" content="https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/pune">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Net Worth Certificate Director Fit Proper Pune 2026 | Patron">
+    <meta name="twitter:description" content="CA-certified net worth certificate for Pune directors. Fit and Proper format for SEBI, RBI, IRDAI compliance. UDIN, annual filing ready. Starting INR 2,499.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/pune/#service",
+        "name": "Net Worth Certificate for Directors (Fit and Proper) in Pune",
+        "description": "CA-certified net worth certificate for Pune directors. Fit and Proper format for SEBI, RBI, IRDAI compliance. UDIN, annual filing ready. Starting INR 2,499.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/pune" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Chartered Accountant", "sameAs": "https://en.wikipedia.org/wiki/Chartered_accountant" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Net Worth Certificate for Directors (Fit and Proper) Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Net Worth Certificate for Directors (Fit and Proper) in Pune"
+                    },
+                    "price": "2499",
+                    "priceCurrency": "INR",
+                    "url": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/pune"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/pune/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate for Directors (Fit and Proper)", "item": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper" },
+            { "@type": "ListItem", "position": 3, "name": "Pune", "item": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/pune" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/pune/#faq",
+        "datePublished": "2026-07-02T08:00:00+05:30",
+        "dateModified": "2026-07-02T08:00:00+05:30",
+        "mainEntity": [
+            {
+                    "@type": "Question",
+                    "name": "Why does a director need a fit and proper net worth certificate?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Directors of banks, NBFCs, listed companies, insurers, and SEBI-registered intermediaries are required by SEBI LODR Schedule II Part D, RBI Master Direction on Fit and Proper (Bank and NBFC), IRDAI Corporate Governance Guidelines, and Companies Act 2013 to demonstrate financial soundness, personal integrity, and absence of disqualifying proceedings. The CA-certified net worth certificate with director-specific disclosures is the standard evidence the regulator, stock exchange, and nomination and remuneration committee rely on at appointment, re-appointment, and annual review."
+                    }
+                },
+{
+                    "@type": "Question",
+                    "name": "What is the SEBI LODR Schedule II requirement for director NWC?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "SEBI LODR Regulations 2015 Schedule II Part D prescribes fit-and-proper criteria for promoters, KMPs and directors of listed entities, with quarterly disclosure to the stock exchange (within 7 days of quarter-end) and annual disclosure to the AGM. The certificate must cover personal net worth, substantial interest in companies under Section 184 Companies Act 2013, defaults to banks and FIs, criminal and disciplinary proceedings, regulatory orders, and sources of income. UDIN is mandatory."
+                    }
+                },
+{
+                    "@type": "Question",
+                    "name": "Who can issue a fit and proper net worth certificate for directors in Pune?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Only a practising Chartered Accountant in Pune holding a valid Certificate of Practice from ICAI can sign and issue the certificate. The CA generates an 18-digit UDIN at udin.icai.org, signs on firm letterhead with ICAI seal, and prints Membership Number and Firm Registration Number. SEBI, RBI, IRDAI examiners, stock exchanges (BSE, NSE), and nomination and remuneration committees at Bajaj Group, Bank of Maharashtra, Cosmos Bank, NBFCs, listed Pune-HQ companies, and IRDAI-regulated insurers verify the UDIN."
+                    }
+                },
+{
+                    "@type": "Question",
+                    "name": "What disclosures does an NBFC director need under RBI Master Direction?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "RBI Master Direction Scale Based Regulation 2023 Annex XXIII for NBFC directors requires (i) personal details including DIN, PAN, residential address, (ii) relevant relationships and relatives' substantial interest under Section 2(77) BRA, (iii) records of professional achievements, (iv) proceedings - criminal, disciplinary, and regulatory actions, (v) deed of covenants signed by the director, and (vi) annual confirmation of fit-and-proper status. Patron's Pune office prepares all of these in the regulator-prescribed format."
+                    }
+                },
+{
+                    "@type": "Question",
+                    "name": "Is UDIN mandatory on a director fit and proper net worth certificate?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, UDIN is mandatory on every CA-issued net worth certificate since 1 July 2019, enforced by ICAI. The 18-digit Unique Document Identification Number is generated at udin.icai.org and printed on the certificate. SEBI examiners, RBI department of regulation, IRDAI compliance officers, stock exchange listing departments, and company nomination and remuneration committees verify the UDIN on the ICAI portal as a standard step. Certificates without UDIN are rejected and the director's fit-and-proper file is held back."
+                    }
+                },
+{
+                    "@type": "Question",
+                    "name": "How often does the fit and proper declaration need to be renewed?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Annual renewal is the default. SEBI LODR Schedule II Part D requires quarterly disclosure to the stock exchange and annual disclosure at the AGM. RBI Master Direction SBR Annex XXIII for NBFCs requires annual confirmation. RBI PSB 2019 Master Direction requires annual renewal at board re-appointment. IRDAI Corporate Governance Guidelines specify annual fit-and-proper confirmation. Patron tracks the annual renewal cycle for Pune-based directors and ensures the certificate is ready before the AGM, board re-appointment or regulator filing date."
+                    }
+                }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/pune",
+        "name": "Net Worth Certificate for Directors (Fit and Proper) in Pune",
+        "description": "CA-certified net worth certificate for Pune directors. Fit and Proper format for SEBI, RBI, IRDAI compliance. UDIN, annual filing ready. Starting INR 2,499.",
+        "url": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/pune",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/pune/#service" },
+        "datePublished": "2026-07-02T08:00:00+05:30",
+        "dateModified": "2026-07-02T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/pune/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Get a Net Worth Certificate for Directors (Fit and Proper)",
+        "description": "Step-by-step process to obtain a Net Worth Certificate for Directors (Fit and Proper) from Patron Accounting.",
+        "totalTime": "P3D",
+        "step": [
+            {
+                    "@type": "HowToStep",
+                    "position": 1,
+                    "name": "Engagement",
+                    "text": "Pune director or company secretary calls Patron Accounting, identifies the regulator (SEBI LODR, RBI Master Direction NBFC/PSB, IRDAI, Companies Act 2013), appointing entity (Bajaj Finance, Bank of Maharashtra, Cosmos Bank, Bharat Forge, etc.), and position (independent director, executive director, KMP). Engagement letter captures purpose under ICAI SA 200."
+                },
+{
+                    "@type": "HowToStep",
+                    "position": 2,
+                    "name": "Document collection",
+                    "text": "Upload PAN, Aadhaar, DIN reference, latest 3 years ITR with computation, personal bank statements (12 months), MF and demat statements, FD receipts, residential and commercial property documents (Pune IGR reckoner reference), gold and jewellery valuation, ESOP/RSU statements, board appointment letter, nomination and remuneration committee questionnaire, and CIBIL personal report."
+                },
+{
+                    "@type": "HowToStep",
+                    "position": 3,
+                    "name": "Substantial interest mapping",
+                    "text": "Patron CA cross-checks shareholding patterns of companies where the director or spouse or minor child holds beneficial interest exceeding Rs 5 lakh paid-up value or 10 percent of paid-up capital under Section 2(77) BRA. Patron also maps the director's listed-company shareholdings, unlisted-company beneficial interests, partnership and LLP interests, and trust beneficiary positions."
+                },
+{
+                    "@type": "HowToStep",
+                    "position": 4,
+                    "name": "Verification under SA 500 and SA 505",
+                    "text": "Patron CA cross-checks bank balances against statements, validates MF and demat holdings against statements, confirms Pune property at Maharashtra IGR ward rate, reconciles ITR with bank and investment statements. CIBIL report cross-checked for default flags. Public-record search for criminal and regulatory proceedings."
+                },
+{
+                    "@type": "HowToStep",
+                    "position": 5,
+                    "name": "Format alignment and draft",
+                    "text": "Patron extracts the regulator-specific format (SEBI LODR Schedule II Part D, RBI SBR Annex XXIII, RBI PSB 2019 Master Direction, IRDAI Corporate Governance, or Companies Act 2013 Section 149(6) declaration), lays out the personal NWC with all required disclosures - substantial interest, relatives, defaults, criminal and disciplinary, sources of income, tax disputes. Draft emailed within 48 hours."
+                },
+{
+                    "@type": "HowToStep",
+                    "position": 6,
+                    "name": "UDIN generation and final issue",
+                    "text": "Patron CA generates the 18-digit UDIN at udin.icai.org, signs on firm letterhead with ICAI seal, issues the final document. Soft copy emailed for board/regulator submission; hard copy collected from Patron Pune office or couriered to the company secretary within 3-4 working days. Annual renewal cycle tracked for incumbent directors."
+                }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Net Worth Certificate for Directors (Fit and Proper) Key Terms",
+        "definedTerm": [
+            {
+                    "@type": "DefinedTerm",
+                    "name": "UDIN",
+                    "description": "18-digit Unique Document Identification Number generated by the issuing CA at udin.icai.org for every certificate, mandatory since 1 July 2019."
+                },
+{
+                    "@type": "DefinedTerm",
+                    "name": "Fit and Proper",
+                    "description": "Regulatory test requiring directors of banks, NBFCs, insurers, listed companies and SEBI-regulated intermediaries to demonstrate integrity, financial soundness, qualifications, and absence of disqualifying proceedings. Applied at appointment, re-appointment, and on annual review."
+                },
+{
+                    "@type": "DefinedTerm",
+                    "name": "Substantial Interest",
+                    "description": "Under Section 2(77) of the Banking Regulation Act 1949 - holding a beneficial interest in shares of a company by an individual or his spouse or minor child, whether singly or together, exceeding Rs 5 lakh paid-up value or 10 percent of paid-up capital, whichever is less. Under Companies Act 2013, similar threshold for related-party disclosure under Section 184."
+                },
+{
+                    "@type": "DefinedTerm",
+                    "name": "RBI Master Direction SBR 2023 Annex XXIII",
+                    "description": "Annexure XXIII of the RBI Master Direction on Scale Based Regulation of NBFCs (dated 19 October 2023) prescribes the Fit and Proper criteria, deed of covenants, and annual declarations for directors of Base, Middle and Upper Layer NBFCs."
+                },
+{
+                    "@type": "DefinedTerm",
+                    "name": "SEBI LODR Schedule II Part D",
+                    "description": "Schedule II Part D of the SEBI Listing Obligations and Disclosure Requirements Regulations 2015 prescribes fit-and-proper criteria for promoters, KMPs and directors of listed entities, with quarterly and annual disclosure to the stock exchange and audit committee."
+                }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1658,22 +1663,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
-<!-- ============================================
-     CONSULTATION FORM - Country Dropdown + Validation + Bigin Integration
-     ============================================ -->
-{{-- Enquiry form markup + JS now in partials/enquiry-form.blade.php --}}
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1696,8 +1689,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1734,5 +1725,24 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+<!-- ============================================
+     CONSULTATION FORM - Country Dropdown + Validation + Bigin Integration
+     ============================================ -->
+{{-- Enquiry form markup + JS now in partials/enquiry-form.blade.php --}}
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
 
 <!-- Last Updated hardcoded in markup per QC v2.1 (no view-time JS) -->

@@ -1,7 +1,4 @@
 @extends('admin.layouts.app')
-
-@section('page-title', 'Create Menu')
-
 @push('styles')
 <style>
     /* Page Background */
@@ -513,6 +510,13 @@
         box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
     }
 </style>
+@endpush
+
+
+@section('page-title', 'Create Menu')
+
+@push('styles')
+
 @endpush
 
 @section('content')

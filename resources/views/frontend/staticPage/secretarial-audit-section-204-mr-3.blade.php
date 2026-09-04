@@ -1,172 +1,11 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Secretarial Audit Section 204 and MR-3 2026 | Patron Accounting</title>
-    <meta name="description" content="Section 204 secretarial audit for listed and large companies. MR-3 report by a Practising Company Secretary, with peer review for listed entities.">
-    <link rel="canonical" href="/secretarial-audit-section-204-mr-3">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Secretarial Audit Section 204 and MR-3 2026 | Patron Accounting">
-    <meta property="og:description" content="Section 204 secretarial audit for listed and large companies. MR-3 report by a Practising Company Secretary, with peer review for listed entities.">
-    <meta property="og:url" content="/secretarial-audit-section-204-mr-3">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Secretarial Audit Section 204 and MR-3 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Section 204 secretarial audit for listed and large companies. MR-3 report by a Practising Company Secretary, with peer review for listed entities.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/secretarial-audit-section-204-mr-3/#service",
-        "name": "Secretarial Audit under Section 204 and Form MR-3",
-        "description": "Section 204 secretarial audit services from Patron Accounting LLP cover the secretarial audit mandated under Section 204 of the Companies Act, 2013 read with Rule 9 of the Companies (Appointment and Remuneration of Managerial Personnel) Rules, 2014, including the assessment of applicability against the listed, paid-up capital of 50 crore or more, turnover of 250 crore or more and bank or public financial institution borrowings of 100 crore or more tests, the engagement of a Practising Company Secretary and, for listed entities, a Peer Reviewed Company Secretary, the support for the Board resolution appointing the secretarial auditor and the MGT-14 filing, the compilation and review of records across the Companies Act, SEBI regulations, FEMA and other applicable laws, the support for the preparation of the Form MR-3 report and its annexure to the Board’s Report, and the remediation of the non-compliances the auditor flags. Fees are scoped per engagement.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/secretarial-audit-section-204-mr-3" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Corporate governance", "sameAs": "https://en.wikipedia.org/wiki/Corporate_governance" }]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/secretarial-audit-section-204-mr-3/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Company Compliance", "item": "https://www.patronaccounting.com/corporate-compliance-services" },
-            { "@type": "ListItem", "position": 3, "name": "Secretarial Audit", "item": "https://www.patronaccounting.com/secretarial-audit-section-204-mr-3" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/secretarial-audit-section-204-mr-3/#faq",
-        "datePublished": "2026-06-03T08:00:00+05:30",
-        "dateModified": "2026-06-04T08:00:00+05:30",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "What is a secretarial audit under Section 204?",
-                "acceptedAnswer": { "@type": "Answer", "text": "A secretarial audit under Section 204 of the Companies Act, 2013 is an independent verification of a company's compliance with corporate and securities laws and governance standards, conducted by a Practising Company Secretary. The auditor examines the company's records, board processes and compliances under the Companies Act, SEBI regulations, FEMA and other applicable laws, and reports in Form MR-3." }
-            },
-            {
-                "@type": "Question",
-                "name": "Which companies must have a secretarial audit?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Secretarial audit is mandatory for every listed company, every public company with a paid-up share capital of 50 crore or more or a turnover of 250 crore or more, and every company, including a private company, with outstanding loans or borrowings from banks or public financial institutions of 100 crore or more. The figures are tested as on the last date of the latest audited financial statement, and meeting any one test is enough." }
-            },
-            {
-                "@type": "Question",
-                "name": "What is Form MR-3?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Form MR-3 is the format in which the secretarial audit report is given. After examining the company's compliances, the Practising Company Secretary issues the report in Form MR-3, listing the laws reviewed, the compliance position and any qualifications or observations. The MR-3 report is then annexed to the Board's Report, so it forms part of the company's annual disclosures to its members." }
-            },
-            {
-                "@type": "Question",
-                "name": "Who can conduct a secretarial audit?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Only a Company Secretary in Practice, a member of the Institute of Company Secretaries of India holding a valid Certificate of Practice, can conduct a secretarial audit and sign the Form MR-3 report. For a listed entity, from 1 April 2025 under the SEBI LODR amendment, the secretarial auditor must additionally be a Peer Reviewed Company Secretary holding a valid peer review certificate from the ICSI." }
-            },
-            {
-                "@type": "Question",
-                "name": "How is a secretarial auditor appointed?",
-                "acceptedAnswer": { "@type": "Answer", "text": "The secretarial auditor is appointed by the Board of Directors by a resolution passed at a board meeting, and that resolution is filed with the Registrar of Companies in Form MGT-14 within 30 days of being passed. It is good practice to appoint the secretarial auditor at the start of the financial year, so the auditor can review compliance through the year rather than only at the end." }
-            },
-            {
-                "@type": "Question",
-                "name": "How does a secretarial audit differ from a statutory audit?",
-                "acceptedAnswer": { "@type": "Answer", "text": "A statutory audit under Section 139 examines the company's financial statements and is conducted by a Chartered Accountant. A secretarial audit under Section 204 examines the company's legal and governance compliance and is conducted by a Practising Company Secretary, reported in Form MR-3. They are complementary, and where both apply, the company coordinates them to align findings and avoid duplication." }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the peer review requirement for listed entities?",
-                "acceptedAnswer": { "@type": "Answer", "text": "From 1 April 2025, under the SEBI LODR Third Amendment Regulations, 2024, a listed entity's secretarial auditor must be a Peer Reviewed Company Secretary, that is a PCS who holds a valid peer review certificate issued by the ICSI. This is in addition to the Certificate of Practice requirement, and it applies specifically to listed entities, so listed companies should confirm their auditor's peer review status." }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the penalty for not conducting a secretarial audit?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Where a company fails to comply with the secretarial audit requirement, Section 204(4) provides for a penalty on the company, every officer of the company in default, and the company secretary in practice in default. Beyond the monetary penalty, a missing or qualified MR-3 reflects on the company's governance and can attract regulatory attention, so timely and clean compliance is important." }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/secretarial-audit-section-204-mr-3",
-        "name": "Secretarial Audit under Section 204 and Form MR-3",
-        "description": "Section 204 secretarial audit for listed and large companies. MR-3 report by a Practising Company Secretary, with peer review for listed entities.",
-        "url": "https://www.patronaccounting.com/secretarial-audit-section-204-mr-3",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/secretarial-audit-section-204-mr-3/#service" },
-        "datePublished": "2026-06-03T08:00:00+05:30",
-        "dateModified": "2026-06-04T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/secretarial-audit-section-204-mr-3/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "Section 204 Secretarial Audit Process: Step by Step",
-        "description": "How a Section 204 secretarial audit is carried out, from assessing applicability and appointing the Practising Company Secretary through compiling records and conducting the audit to issuing the Form MR-3 report.",
-        "totalTime": "P365D",
-        "step": [
-            { "@type": "HowToStep", "name": "Assess applicability", "text": "Test the listed status, paid-up capital, turnover and borrowings against the Section 204 criteria." },
-            { "@type": "HowToStep", "name": "Appoint the auditor", "text": "Pass a Board resolution appointing the Practising Company Secretary, and a Peer Reviewed CS for listed entities, and file MGT-14." },
-            { "@type": "HowToStep", "name": "Compile records", "text": "Gather the records and registers across the Companies Act, SEBI, FEMA and other applicable laws." },
-            { "@type": "HowToStep", "name": "Conduct the audit", "text": "The Practising Company Secretary examines the records, the board processes and the compliances." },
-            { "@type": "HowToStep", "name": "Address findings", "text": "Review the observations and remediate the non-compliances where possible." },
-            { "@type": "HowToStep", "name": "Issue MR-3", "text": "The auditor issues the Form MR-3 report, which is annexed to the Board's Report." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Secretarial Audit Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Section 204", "description": "The provision that mandates secretarial audit for listed and prescribed companies." },
-            { "@type": "DefinedTerm", "name": "MR-3", "description": "The form in which the secretarial audit report is given and annexed to the Board's Report." },
-            { "@type": "DefinedTerm", "name": "Practising Company Secretary", "description": "A member of the ICSI with a Certificate of Practice who can conduct the audit." },
-            { "@type": "DefinedTerm", "name": "Peer Reviewed CS", "description": "A PCS with a valid ICSI peer review certificate, required for listed entities from 1 April 2025." },
-            { "@type": "DefinedTerm", "name": "MGT-14", "description": "The form in which the Board resolution appointing the secretarial auditor is filed." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -780,7 +619,173 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Secretarial Audit Section 204 and MR-3 2026 | Patron Accounting</title>
+    <meta name="description" content="Section 204 secretarial audit for listed and large companies. MR-3 report by a Practising Company Secretary, with peer review for listed entities.">
+    <link rel="canonical" href="/secretarial-audit-section-204-mr-3">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Secretarial Audit Section 204 and MR-3 2026 | Patron Accounting">
+    <meta property="og:description" content="Section 204 secretarial audit for listed and large companies. MR-3 report by a Practising Company Secretary, with peer review for listed entities.">
+    <meta property="og:url" content="/secretarial-audit-section-204-mr-3">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Secretarial Audit Section 204 and MR-3 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Section 204 secretarial audit for listed and large companies. MR-3 report by a Practising Company Secretary, with peer review for listed entities.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/secretarial-audit-section-204-mr-3/#service",
+        "name": "Secretarial Audit under Section 204 and Form MR-3",
+        "description": "Section 204 secretarial audit services from Patron Accounting LLP cover the secretarial audit mandated under Section 204 of the Companies Act, 2013 read with Rule 9 of the Companies (Appointment and Remuneration of Managerial Personnel) Rules, 2014, including the assessment of applicability against the listed, paid-up capital of 50 crore or more, turnover of 250 crore or more and bank or public financial institution borrowings of 100 crore or more tests, the engagement of a Practising Company Secretary and, for listed entities, a Peer Reviewed Company Secretary, the support for the Board resolution appointing the secretarial auditor and the MGT-14 filing, the compilation and review of records across the Companies Act, SEBI regulations, FEMA and other applicable laws, the support for the preparation of the Form MR-3 report and its annexure to the Board’s Report, and the remediation of the non-compliances the auditor flags. Fees are scoped per engagement.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/secretarial-audit-section-204-mr-3" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Corporate governance", "sameAs": "https://en.wikipedia.org/wiki/Corporate_governance" }]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/secretarial-audit-section-204-mr-3/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Company Compliance", "item": "https://www.patronaccounting.com/corporate-compliance-services" },
+            { "@type": "ListItem", "position": 3, "name": "Secretarial Audit", "item": "https://www.patronaccounting.com/secretarial-audit-section-204-mr-3" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/secretarial-audit-section-204-mr-3/#faq",
+        "datePublished": "2026-06-03T08:00:00+05:30",
+        "dateModified": "2026-06-04T08:00:00+05:30",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is a secretarial audit under Section 204?",
+                "acceptedAnswer": { "@type": "Answer", "text": "A secretarial audit under Section 204 of the Companies Act, 2013 is an independent verification of a company's compliance with corporate and securities laws and governance standards, conducted by a Practising Company Secretary. The auditor examines the company's records, board processes and compliances under the Companies Act, SEBI regulations, FEMA and other applicable laws, and reports in Form MR-3." }
+            },
+            {
+                "@type": "Question",
+                "name": "Which companies must have a secretarial audit?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Secretarial audit is mandatory for every listed company, every public company with a paid-up share capital of 50 crore or more or a turnover of 250 crore or more, and every company, including a private company, with outstanding loans or borrowings from banks or public financial institutions of 100 crore or more. The figures are tested as on the last date of the latest audited financial statement, and meeting any one test is enough." }
+            },
+            {
+                "@type": "Question",
+                "name": "What is Form MR-3?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Form MR-3 is the format in which the secretarial audit report is given. After examining the company's compliances, the Practising Company Secretary issues the report in Form MR-3, listing the laws reviewed, the compliance position and any qualifications or observations. The MR-3 report is then annexed to the Board's Report, so it forms part of the company's annual disclosures to its members." }
+            },
+            {
+                "@type": "Question",
+                "name": "Who can conduct a secretarial audit?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Only a Company Secretary in Practice, a member of the Institute of Company Secretaries of India holding a valid Certificate of Practice, can conduct a secretarial audit and sign the Form MR-3 report. For a listed entity, from 1 April 2025 under the SEBI LODR amendment, the secretarial auditor must additionally be a Peer Reviewed Company Secretary holding a valid peer review certificate from the ICSI." }
+            },
+            {
+                "@type": "Question",
+                "name": "How is a secretarial auditor appointed?",
+                "acceptedAnswer": { "@type": "Answer", "text": "The secretarial auditor is appointed by the Board of Directors by a resolution passed at a board meeting, and that resolution is filed with the Registrar of Companies in Form MGT-14 within 30 days of being passed. It is good practice to appoint the secretarial auditor at the start of the financial year, so the auditor can review compliance through the year rather than only at the end." }
+            },
+            {
+                "@type": "Question",
+                "name": "How does a secretarial audit differ from a statutory audit?",
+                "acceptedAnswer": { "@type": "Answer", "text": "A statutory audit under Section 139 examines the company's financial statements and is conducted by a Chartered Accountant. A secretarial audit under Section 204 examines the company's legal and governance compliance and is conducted by a Practising Company Secretary, reported in Form MR-3. They are complementary, and where both apply, the company coordinates them to align findings and avoid duplication." }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the peer review requirement for listed entities?",
+                "acceptedAnswer": { "@type": "Answer", "text": "From 1 April 2025, under the SEBI LODR Third Amendment Regulations, 2024, a listed entity's secretarial auditor must be a Peer Reviewed Company Secretary, that is a PCS who holds a valid peer review certificate issued by the ICSI. This is in addition to the Certificate of Practice requirement, and it applies specifically to listed entities, so listed companies should confirm their auditor's peer review status." }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the penalty for not conducting a secretarial audit?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Where a company fails to comply with the secretarial audit requirement, Section 204(4) provides for a penalty on the company, every officer of the company in default, and the company secretary in practice in default. Beyond the monetary penalty, a missing or qualified MR-3 reflects on the company's governance and can attract regulatory attention, so timely and clean compliance is important." }
+            }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/secretarial-audit-section-204-mr-3",
+        "name": "Secretarial Audit under Section 204 and Form MR-3",
+        "description": "Section 204 secretarial audit for listed and large companies. MR-3 report by a Practising Company Secretary, with peer review for listed entities.",
+        "url": "https://www.patronaccounting.com/secretarial-audit-section-204-mr-3",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/secretarial-audit-section-204-mr-3/#service" },
+        "datePublished": "2026-06-03T08:00:00+05:30",
+        "dateModified": "2026-06-04T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/secretarial-audit-section-204-mr-3/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "Section 204 Secretarial Audit Process: Step by Step",
+        "description": "How a Section 204 secretarial audit is carried out, from assessing applicability and appointing the Practising Company Secretary through compiling records and conducting the audit to issuing the Form MR-3 report.",
+        "totalTime": "P365D",
+        "step": [
+            { "@type": "HowToStep", "name": "Assess applicability", "text": "Test the listed status, paid-up capital, turnover and borrowings against the Section 204 criteria." },
+            { "@type": "HowToStep", "name": "Appoint the auditor", "text": "Pass a Board resolution appointing the Practising Company Secretary, and a Peer Reviewed CS for listed entities, and file MGT-14." },
+            { "@type": "HowToStep", "name": "Compile records", "text": "Gather the records and registers across the Companies Act, SEBI, FEMA and other applicable laws." },
+            { "@type": "HowToStep", "name": "Conduct the audit", "text": "The Practising Company Secretary examines the records, the board processes and the compliances." },
+            { "@type": "HowToStep", "name": "Address findings", "text": "Review the observations and remediate the non-compliances where possible." },
+            { "@type": "HowToStep", "name": "Issue MR-3", "text": "The auditor issues the Form MR-3 report, which is annexed to the Board's Report." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Secretarial Audit Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Section 204", "description": "The provision that mandates secretarial audit for listed and prescribed companies." },
+            { "@type": "DefinedTerm", "name": "MR-3", "description": "The form in which the secretarial audit report is given and annexed to the Board's Report." },
+            { "@type": "DefinedTerm", "name": "Practising Company Secretary", "description": "A member of the ICSI with a Certificate of Practice who can conduct the audit." },
+            { "@type": "DefinedTerm", "name": "Peer Reviewed CS", "description": "A PCS with a valid ICSI peer review certificate, required for listed entities from 1 April 2025." },
+            { "@type": "DefinedTerm", "name": "MGT-14", "description": "The form in which the Board resolution appointing the secretarial auditor is filed." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1535,17 +1540,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1568,8 +1566,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1606,7 +1602,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1 (corrected): Last Updated mirrors schema dateModified — STABLE hardcoded date, never live new Date()
 (function() {
@@ -1617,3 +1612,19 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

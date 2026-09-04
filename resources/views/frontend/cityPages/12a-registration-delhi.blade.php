@@ -1,146 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>12A Registration in Delhi - Form 10A & Tax Exemption</title>
-    <meta name="description" content="CA-assisted 12A registration in Delhi for NGOs. Form 10A filing, tax exemption for trusts, societies and Section 8. Serving ITO, Civil Lines, Saket. Call +91 945 945 6700.">
-    <link rel="canonical" href="/12a-registration/delhi">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="12A Registration in Delhi - Form 10A & Tax Exemption">
-    <meta property="og:description" content="CA-assisted 12A registration in Delhi for NGOs. Form 10A filing, tax exemption for trusts, societies and Section 8. Serving ITO, Civil Lines, Saket. Call +91 945 945 6700.">
-    <meta property="og:url" content="/12a-registration/delhi">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="12A Registration in Delhi - Form 10A & Tax Exemption">
-    <meta name="twitter:description" content="CA-assisted 12A registration in Delhi for NGOs. Form 10A filing, tax exemption for trusts, societies and Section 8. Serving ITO, Civil Lines, Saket. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "12A Registration in Delhi - Form 10A & Tax Exemption",
-      "description": "CA-assisted 12A registration in Delhi for NGOs. Form 10A filing, tax exemption for trusts, societies and Section 8. Serving ITO, Civil Lines, Saket. Call +91 945 945 6700.",
-      "url": "https://www.patronaccounting.com/12a-registration/delhi",
-      "serviceType": "12A Registration in Delhi - Form 10A & Tax Exemption",
-      "areaServed": {
-        "@type": "City",
-        "name": "Delhi",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Delhi"
-        }
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/12a-registration/delhi",
-        "price": "5000"
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "12A Registration for NGOs - Form 10A & Income Tax Exemption",
-          "item": "https://www.patronaccounting.com/12a-registration"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "12A Registration in Delhi - Form 10A & Tax Exemption",
-          "item": "https://www.patronaccounting.com/12a-registration/delhi"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Who handles 12A registration for Delhi NGOs?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "For Delhi-based NGOs (being a metropolitan city), 12A applications are processed by the Principal Commissioner of Income Tax (Exemption) / Director of Income Tax (Exemption), New Delhi. The application is filed online through the Income Tax e-filing portal (incometax.gov.in) using Form 10A. The PCIT(E) reviews the application, may raise queries, and issues Form 10AC upon approval. Patron Accounting's Delhi CA team handles all e-filing and PCIT(E) coordination."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I apply for 12A online from Delhi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. 12A registration is filed 100% online through the Income Tax e-filing portal. The authorised signatory signs Form 10A using a Digital Signature Certificate or Electronic Verification Code. All documents are uploaded digitally. No physical visit to the PCIT(E) / DIT(E) office is required for filing. However, the PCIT(E) may summon the organisation for inquiry before granting registration. Patron's Delhi office in Rohini handles all e-filing and any in-person follow-up required."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does 12A registration cost in Delhi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "There is no government filing fee for Form 10A on the Income Tax e-filing portal. Patron's professional fee for 12A registration in Delhi starts from Rs 5,000 covering Form 10A preparation, document compilation, e-filing portal submission and PCIT(E) follow-up. The 12A + 80G combined bundle costs Rs 7,000 to Rs 12,000. DSC procurement costs Rs 1,000-1,500 if not already obtained. Call +91 945 945 6700 for a precise quote."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does 12A registration take in Delhi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Provisional 12A registration for new Delhi NGOs typically takes 15-30 working days from Form 10A submission. Regular registration and renewal for existing Delhi NGOs takes 30-90 days, depending on PCIT(E) workload and whether queries are raised. Document compilation takes 3-5 days with Patron's team. The total end-to-end timeline for provisional is 20-35 working days. Patron's accurate documentation minimises query cycles and processing delays."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is 12A registration permanent or does it need renewal?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Since the Finance Act 2020 (Section 12AB), 12A registration is no longer permanent. Provisional registration for new Delhi NGOs is valid for 3 years. Regular registration is valid for 5 years. Both must be renewed by filing Form 10AB at least 6 months before expiry. Failure to renew means the registration lapses and the NGO must apply afresh - losing tax exemption status in the interim. Patron tracks all renewal deadlines proactively."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens if a Delhi NGO does not have 12A registration?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Without 12A registration, a Delhi NGO's income - including donations, grants, CSR funds and operational income - is taxable at the maximum marginal rate (30% for non-individual assessees). The NGO cannot claim exemption under Sections 11 and 12. Additionally, without 12A, the NGO is not eligible for 80G registration, is ineligible for most government grants, and faces difficulties in CSR fundraising. Every Delhi NGO should apply for 12A immediately after incorporation."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -417,7 +281,148 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'Join Community'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>12A Registration in Delhi - Form 10A & Tax Exemption</title>
+    <meta name="description" content="CA-assisted 12A registration in Delhi for NGOs. Form 10A filing, tax exemption for trusts, societies and Section 8. Serving ITO, Civil Lines, Saket. Call +91 945 945 6700.">
+    <link rel="canonical" href="/12a-registration/delhi">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="12A Registration in Delhi - Form 10A & Tax Exemption">
+    <meta property="og:description" content="CA-assisted 12A registration in Delhi for NGOs. Form 10A filing, tax exemption for trusts, societies and Section 8. Serving ITO, Civil Lines, Saket. Call +91 945 945 6700.">
+    <meta property="og:url" content="/12a-registration/delhi">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="12A Registration in Delhi - Form 10A & Tax Exemption">
+    <meta name="twitter:description" content="CA-assisted 12A registration in Delhi for NGOs. Form 10A filing, tax exemption for trusts, societies and Section 8. Serving ITO, Civil Lines, Saket. Call +91 945 945 6700.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "12A Registration in Delhi - Form 10A & Tax Exemption",
+      "description": "CA-assisted 12A registration in Delhi for NGOs. Form 10A filing, tax exemption for trusts, societies and Section 8. Serving ITO, Civil Lines, Saket. Call +91 945 945 6700.",
+      "url": "https://www.patronaccounting.com/12a-registration/delhi",
+      "serviceType": "12A Registration in Delhi - Form 10A & Tax Exemption",
+      "areaServed": {
+        "@type": "City",
+        "name": "Delhi",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Delhi"
+        }
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.patronaccounting.com/12a-registration/delhi",
+        "price": "5000"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "12A Registration for NGOs - Form 10A & Income Tax Exemption",
+          "item": "https://www.patronaccounting.com/12a-registration"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "12A Registration in Delhi - Form 10A & Tax Exemption",
+          "item": "https://www.patronaccounting.com/12a-registration/delhi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Who handles 12A registration for Delhi NGOs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For Delhi-based NGOs (being a metropolitan city), 12A applications are processed by the Principal Commissioner of Income Tax (Exemption) / Director of Income Tax (Exemption), New Delhi. The application is filed online through the Income Tax e-filing portal (incometax.gov.in) using Form 10A. The PCIT(E) reviews the application, may raise queries, and issues Form 10AC upon approval. Patron Accounting's Delhi CA team handles all e-filing and PCIT(E) coordination."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I apply for 12A online from Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. 12A registration is filed 100% online through the Income Tax e-filing portal. The authorised signatory signs Form 10A using a Digital Signature Certificate or Electronic Verification Code. All documents are uploaded digitally. No physical visit to the PCIT(E) / DIT(E) office is required for filing. However, the PCIT(E) may summon the organisation for inquiry before granting registration. Patron's Delhi office in Rohini handles all e-filing and any in-person follow-up required."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does 12A registration cost in Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There is no government filing fee for Form 10A on the Income Tax e-filing portal. Patron's professional fee for 12A registration in Delhi starts from Rs 5,000 covering Form 10A preparation, document compilation, e-filing portal submission and PCIT(E) follow-up. The 12A + 80G combined bundle costs Rs 7,000 to Rs 12,000. DSC procurement costs Rs 1,000-1,500 if not already obtained. Call +91 945 945 6700 for a precise quote."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does 12A registration take in Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Provisional 12A registration for new Delhi NGOs typically takes 15-30 working days from Form 10A submission. Regular registration and renewal for existing Delhi NGOs takes 30-90 days, depending on PCIT(E) workload and whether queries are raised. Document compilation takes 3-5 days with Patron's team. The total end-to-end timeline for provisional is 20-35 working days. Patron's accurate documentation minimises query cycles and processing delays."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is 12A registration permanent or does it need renewal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Since the Finance Act 2020 (Section 12AB), 12A registration is no longer permanent. Provisional registration for new Delhi NGOs is valid for 3 years. Regular registration is valid for 5 years. Both must be renewed by filing Form 10AB at least 6 months before expiry. Failure to renew means the registration lapses and the NGO must apply afresh - losing tax exemption status in the interim. Patron tracks all renewal deadlines proactively."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if a Delhi NGO does not have 12A registration?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Without 12A registration, a Delhi NGO's income - including donations, grants, CSR funds and operational income - is taxable at the maximum marginal rate (30% for non-individual assessees). The NGO cannot claim exemption under Sections 11 and 12. Additionally, without 12A, the NGO is not eligible for 80G registration, is ineligible for most government grants, and faces difficulties in CSR fundraising. Every Delhi NGO should apply for 12A immediately after incorporation."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1218,7 +1223,6 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

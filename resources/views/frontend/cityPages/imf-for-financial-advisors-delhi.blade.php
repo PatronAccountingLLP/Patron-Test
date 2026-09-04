@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,170 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>IMF for Financial Advisors: Add Insurance Distribution</title>
-    <meta name="description" content="Are you a wealth or RIA advisor? Add IRDAI insurance distribution via an IMF — tie up with 6 insurers, 5-10 lakh net worth. Patron sets it up from INR 24,999.">
-    <link rel="canonical" href="/imf-for-financial-advisors/delhi">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="IMF for Financial Advisors: Add Insurance Distribution">
-    <meta property="og:description" content="Are you a wealth or RIA advisor? Add IRDAI insurance distribution via an IMF — tie up with 6 insurers, 5-10 lakh net worth. Patron sets it up from INR 24,999.">
-    <meta property="og:url" content="/imf-for-financial-advisors/delhi">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="IMF for Financial Advisors: Add Insurance Distribution">
-    <meta name="twitter:description" content="Are you a wealth or RIA advisor? Add IRDAI insurance distribution via an IMF — tie up with 6 insurers, 5-10 lakh net worth. Patron sets it up from INR 24,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "IMF for Financial Advisors in Delhi",
-      "description": "Insurance Marketing Firm (IMF) registration for wealth managers, RIAs and financial planners in Delhi. Add IRDAI insurance distribution with up to 2 life, 2 general and 2 health insurer tie-ups. Patron handles incorporation, IRDAI Form A and PO/ISP onboarding from INR 24,999.",
-      "url": "https://www.patronaccounting.com/imf-for-financial-advisors/delhi",
-      "serviceType": "Insurance Marketing Firm Registration for Financial Advisors",
-      "areaServed": {
-        "@type": "City",
-        "name": "Delhi",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Delhi"
-        }
-      },
-      "provider": {
-        "@type": "LocalBusiness",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg",
-        "telephone": "+91-9459456700",
-        "email": "sales@patronaccounting.com",
-        "priceRange": "INR",
-        "areaServed": {
-          "@type": "City",
-          "name": "Delhi"
-        }
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/imf-for-financial-advisors/delhi",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "minPrice": "24999",
-          "priceCurrency": "INR"
-        }
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "IMF Services",
-          "item": "https://www.patronaccounting.com/imf-services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "IMF for Financial Advisors in Delhi",
-          "item": "https://www.patronaccounting.com/imf-for-financial-advisors/delhi"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "datePublished": "2026-06-30T08:00:00+05:30",
-      "dateModified": "2026-06-30T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "How much does it cost a financial advisor to set up an IMF in Delhi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patron's IMF setup starts at INR 24,999 (Exl GST and Govt. Charges), covering incorporation guidance, IRDAI Form A and document drafting. On top of that you pay statutory costs - the IRDAI application fee of INR 5,000 (paid from an SBI account in the IMF's name), the CA net-worth certificate, and the Professional Indemnity premium."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does IMF registration take?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Plan for roughly 7-10 weeks end-to-end. Entity incorporation with the 'IMF' name takes 1-2 weeks, and IRDAI typically processes a complete Form A application in about 30-60 working days from clean submission. Missing PO or ISP exam certificates or insurer consent letters are the usual delays."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What documents do I need to register an IMF?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Form A, IRDAI NOC, ROC incorporation certificate (with 'Insurance Marketing Firm' or 'IMF' in the name), MoA/AoA and PAN, SBI account proof, CA net-worth certificate, Principal Officer and ISP exam plus qualification certificates, a 3-year business plan, organisation chart, office infrastructure photographs, insurer consent letters and Fit and Proper declarations."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Am I eligible as a financial or wealth advisor in Delhi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, if you register a Company, LLP or Co-operative Society with the required net worth (INR 10 lakh, or INR 5 lakh for a single aspirational district) and appoint a qualified Principal Officer. A graduate with 5 years of insurance or 10 years of financial-services experience qualifies as PO after 50 hours of IRDAI training and the IMF exam - so most established Delhi advisors qualify."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "I'm a SEBI RIA or mutual fund distributor - can I run an IMF too?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, but through a separate IMF entity. A SEBI RIA cannot earn product commissions in the advisory entity, so insurance distribution is housed in the IMF company, which can also solicit mutual funds and PFRDA pension products. We help structure the two cleanly to stay compliant."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can Patron Accounting handle the whole IMF setup for me?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. We run it end-to-end - IRDAI NOC, incorporating the IMF-named entity, Form A filing on imf.irda.gov.in, PO and ISP onboarding, net-worth certification, PI cover and insurer consent coordination - so you focus on advising clients, not paperwork."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you provide IMF registration in Delhi and nearby cities?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Patron supports IMF registration across Delhi NCR and India - Delhi, Gurugram, Mumbai, Pune, Bengaluru, Hyderabad and Tier 2/3 cities - fully online, with district selection (up to 3 within a state) handled as part of the application."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is the IMF licence renewable, and what is the turnaround for going live?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Since 5 February 2026 IMF registration is perpetual - the old 3-year renewal was discontinued - but you must file an annual CA net-worth certificate within 3 months of financial-year close and maintain PI cover. Once IRDAI grants registration and at least one ISP per office is appointed, you can begin soliciting business immediately."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -984,7 +819,179 @@
             }
         }
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>IMF for Financial Advisors: Add Insurance Distribution</title>
+    <meta name="description" content="Are you a wealth or RIA advisor? Add IRDAI insurance distribution via an IMF — tie up with 6 insurers, 5-10 lakh net worth. Patron sets it up from INR 24,999.">
+    <link rel="canonical" href="/imf-for-financial-advisors/delhi">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="IMF for Financial Advisors: Add Insurance Distribution">
+    <meta property="og:description" content="Are you a wealth or RIA advisor? Add IRDAI insurance distribution via an IMF — tie up with 6 insurers, 5-10 lakh net worth. Patron sets it up from INR 24,999.">
+    <meta property="og:url" content="/imf-for-financial-advisors/delhi">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="IMF for Financial Advisors: Add Insurance Distribution">
+    <meta name="twitter:description" content="Are you a wealth or RIA advisor? Add IRDAI insurance distribution via an IMF — tie up with 6 insurers, 5-10 lakh net worth. Patron sets it up from INR 24,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "IMF for Financial Advisors in Delhi",
+      "description": "Insurance Marketing Firm (IMF) registration for wealth managers, RIAs and financial planners in Delhi. Add IRDAI insurance distribution with up to 2 life, 2 general and 2 health insurer tie-ups. Patron handles incorporation, IRDAI Form A and PO/ISP onboarding from INR 24,999.",
+      "url": "https://www.patronaccounting.com/imf-for-financial-advisors/delhi",
+      "serviceType": "Insurance Marketing Firm Registration for Financial Advisors",
+      "areaServed": {
+        "@type": "City",
+        "name": "Delhi",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Delhi"
+        }
+      },
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg",
+        "telephone": "+91-9459456700",
+        "email": "sales@patronaccounting.com",
+        "priceRange": "INR",
+        "areaServed": {
+          "@type": "City",
+          "name": "Delhi"
+        }
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.patronaccounting.com/imf-for-financial-advisors/delhi",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": "24999",
+          "priceCurrency": "INR"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "IMF Services",
+          "item": "https://www.patronaccounting.com/imf-services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "IMF for Financial Advisors in Delhi",
+          "item": "https://www.patronaccounting.com/imf-for-financial-advisors/delhi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "datePublished": "2026-06-30T08:00:00+05:30",
+      "dateModified": "2026-06-30T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much does it cost a financial advisor to set up an IMF in Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patron's IMF setup starts at INR 24,999 (Exl GST and Govt. Charges), covering incorporation guidance, IRDAI Form A and document drafting. On top of that you pay statutory costs - the IRDAI application fee of INR 5,000 (paid from an SBI account in the IMF's name), the CA net-worth certificate, and the Professional Indemnity premium."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does IMF registration take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Plan for roughly 7-10 weeks end-to-end. Entity incorporation with the 'IMF' name takes 1-2 weeks, and IRDAI typically processes a complete Form A application in about 30-60 working days from clean submission. Missing PO or ISP exam certificates or insurer consent letters are the usual delays."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What documents do I need to register an IMF?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Form A, IRDAI NOC, ROC incorporation certificate (with 'Insurance Marketing Firm' or 'IMF' in the name), MoA/AoA and PAN, SBI account proof, CA net-worth certificate, Principal Officer and ISP exam plus qualification certificates, a 3-year business plan, organisation chart, office infrastructure photographs, insurer consent letters and Fit and Proper declarations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Am I eligible as a financial or wealth advisor in Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, if you register a Company, LLP or Co-operative Society with the required net worth (INR 10 lakh, or INR 5 lakh for a single aspirational district) and appoint a qualified Principal Officer. A graduate with 5 years of insurance or 10 years of financial-services experience qualifies as PO after 50 hours of IRDAI training and the IMF exam - so most established Delhi advisors qualify."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "I'm a SEBI RIA or mutual fund distributor - can I run an IMF too?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, but through a separate IMF entity. A SEBI RIA cannot earn product commissions in the advisory entity, so insurance distribution is housed in the IMF company, which can also solicit mutual funds and PFRDA pension products. We help structure the two cleanly to stay compliant."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can Patron Accounting handle the whole IMF setup for me?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We run it end-to-end - IRDAI NOC, incorporating the IMF-named entity, Form A filing on imf.irda.gov.in, PO and ISP onboarding, net-worth certification, PI cover and insurer consent coordination - so you focus on advising clients, not paperwork."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you provide IMF registration in Delhi and nearby cities?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Patron supports IMF registration across Delhi NCR and India - Delhi, Gurugram, Mumbai, Pune, Bengaluru, Hyderabad and Tier 2/3 cities - fully online, with district selection (up to 3 within a state) handled as part of the application."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the IMF licence renewable, and what is the turnaround for going live?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Since 5 February 2026 IMF registration is perpetual - the old 3-year renewal was discontinued - but you must file an annual CA net-worth certificate within 3 months of financial-year close and maintain PI cover. Once IRDAI grants registration and at least one ISP per office is appointed, you can begin soliciting business immediately."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1838,7 +1845,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

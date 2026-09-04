@@ -1,200 +1,11 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Section 148 Notice Mumbai: Reply</title>
-    <meta name="description" content="Section 148 reassessment notice in Mumbai? Patron CA team responds at 148A stage and represents you before Mumbai PCIT. Starting at Rs 3,499. Call now.">
-    <link rel="canonical" href="/sec-148-notice/mumbai">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Section 148 Notice Mumbai 2026: Reply | Patron Accounting">
-    <meta property="og:description" content="Section 148 reassessment notice in Mumbai? Patron CA team responds at 148A stage and represents you before Mumbai PCIT. Starting at Rs 3,499. Call now.">
-    <meta property="og:url" content="/sec-148-notice/mumbai">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Section 148 Notice Mumbai 2026: Reply | Patron Accounting">
-    <meta name="twitter:description" content="Section 148 reassessment notice in Mumbai? Patron CA team responds at 148A stage and represents you before Mumbai PCIT. Starting at Rs 3,499. Call now.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/sec-148-notice/mumbai#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Income Tax Notice Mumbai",
-          "item": "https://www.patronaccounting.com/income-tax-notice/mumbai"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Section 148 Notice Mumbai",
-          "item": "https://www.patronaccounting.com/sec-148-notice/mumbai"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/sec-148-notice/mumbai#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is a Section 148 notice in Mumbai?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A Section 148 notice in Mumbai is a formal reassessment notice issued by an Assessing Officer of the Pr CCIT Mumbai Region (or via NaFAC under the faceless scheme) directing a taxpayer to file a return for a past assessment year where income is believed to have escaped assessment. It is issued only after the mandatory Section 148A pre-notice procedure under Finance Act 2021 is complete."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the time limit for issuing a Section 148 notice after 1 September 2024?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "With effect from 1 September 2024 per Finance (No.2) Act 2024, a Section 148 notice can be issued within 3 years and 3 months from the end of the relevant assessment year if escaped income is less than Rs 50 lakh, and within 5 years and 3 months if escaped income is Rs 50 lakh or more. Notices beyond these windows are time-barred and Bombay HC has consistently quashed them."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do I respond to a Section 148A SCN in Mumbai?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Log in to incometax.gov.in, navigate to the e-Proceedings tab, locate the 148A SCN and file a written reply with annexures within 7 to 30 days. The reply should address each information item with documentary evidence, source-of-funds proofs and case law citations. Patron CA team handles this in 5 to 7 working days for Mumbai assessees with 58 percent closure rate at this stage."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can a Section 148 notice be challenged in Bombay High Court?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. A Section 148 notice can be challenged on three grounds - (1) time-limit defect under Section 149, (2) Section 151 approval from wrong authority, and (3) non-compliance with Section 148A procedure. Defective notices can be quashed by writ petition before the Bombay High Court at Fort, citing SC Rajeev Bansal (2024). Bombay HC is co-located with Aayakar Bhawan M.K. Road - no inter-city travel."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What documents are required for a Section 148 reply?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Core documents include the 148A SCN and annexures, original ITR for the relevant AY, Form 26AS, AIS, TIS, bank statements for the full FY, source-of-funds documents like sale deeds, FD receipts, gift deeds and loan agreements, capital gains computations, broker statements and any property documents for Mumbai real estate transactions in Bandra, Powai, Worli, Lower Parel or Malabar Hill. Patron provides a complete checklist after free 30-minute review."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the penalty for not responding to a Section 148 notice?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Three consequences follow non-response: best-judgement assessment under Section 144 based on AO available information, penalty of Rs 10,000 under Section 271(1)(b) for non-compliance, and interest under Section 234(3) at 1 percent per month for late return filing. Under-reporting attracts 50 percent penalty under Section 270A; mis-reporting attracts 200 percent. Combined demand can multiply 3 to 5 times original tax."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Where is my Mumbai Assessing Officer located?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Most Mumbai Assessing Officers operate from Aayakar Bhawan, M.K. Road, Churchgate, or from regional offices at Bandra-Kurla Complex, Andheri, Thane and Navi Mumbai. PCIT 1-15 handle corporate, CIT 16-33 non-corporate, PCIT 34-35 salary, CIT(TDS) withholding, CIT(IT) international tax, CCIT(Central) 1-2 search. Verify at incometaxmumbai.gov.in or via PAN lookup."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/sec-148-notice/mumbai#service",
-      "name": "Section 148 Notice CA in Mumbai - Reassessment Reply and Representation",
-      "url": "https://www.patronaccounting.com/sec-148-notice/mumbai",
-      "description": "Patron Accounting CA-led representation for Section 148 Income Tax Act 1961 reassessment notices in Mumbai - Section 148A Show Cause Notice reply drafting within 7 to 30 days, ITR-148 return filing, GKN Driveshafts written objections to recorded reasons, Section 149 time-limit and Section 151 approval audit, reassessment hearings at Aayakar Bhawan M.K. Road Churchgate and Bandra-Kurla Complex under Pr CCIT Mumbai PCIT 1-15 corporate, CIT 16-33 non-corporate, PCIT 34-35 salary, CIT(TDS), CIT(IT) international tax and CCIT(Central) 1-2 search charges, Bombay High Court Article 226 writ at Fort (co-located), CIT(A) Faceless Appeal under Section 246A and onward ITAT Mumbai Bench at Pratishtha Bhavan M.K. Marg representation (LARGEST ITAT in India, co-located). Starting from Rs 3,499.",
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      },
-      "areaServed": {
-        "@type": "City",
-        "name": "Mumbai",
-        "sameAs": "https://en.wikipedia.org/wiki/Mumbai"
-      },
-      "serviceType": "Section 148 Income Tax Reassessment Notice Reply and Defence",
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Income Tax Act 1961",
-          "sameAs": "https://en.wikipedia.org/wiki/Income_Tax_Act,_1961"
-        },
-        {
-          "@type": "Thing",
-          "name": "Income tax in India",
-          "sameAs": "https://en.wikipedia.org/wiki/Income_tax_in_India"
-        },
-        {
-          "@type": "Thing",
-          "name": "Faceless assessment scheme",
-          "sameAs": "https://en.wikipedia.org/wiki/Faceless_Assessment_Scheme"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Section 148 Notice Mumbai Service Packages",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "name": "Section 148A SCN Reply Drafting and Filing",
-            "price": "3499",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/sec-148-notice/mumbai"
-          },
-          {
-            "@type": "Offer",
-            "name": "ITR-148 Return Filing in Response to Section 148 Notice",
-            "price": "4999",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/sec-148-notice/mumbai"
-          },
-          {
-            "@type": "Offer",
-            "name": "GKN Driveshafts Written Objections to Recorded Reasons",
-            "price": "7500",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/sec-148-notice/mumbai"
-          },
-          {
-            "@type": "Offer",
-            "name": "Reassessment Hearing Representation at Mumbai PCIT and ITAT Mumbai",
-            "price": "12000",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/sec-148-notice/mumbai"
-          }
-        ]
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -865,7 +676,201 @@ section[style*="background: var(--blue)"] .content-text,
 section[style*="background: var(--blue)"] .content-text p,
 section[style*="background: var(--blue)"] .content-text li,
 section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !important;}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Section 148 Notice Mumbai: Reply</title>
+    <meta name="description" content="Section 148 reassessment notice in Mumbai? Patron CA team responds at 148A stage and represents you before Mumbai PCIT. Starting at Rs 3,499. Call now.">
+    <link rel="canonical" href="/sec-148-notice/mumbai">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Section 148 Notice Mumbai 2026: Reply | Patron Accounting">
+    <meta property="og:description" content="Section 148 reassessment notice in Mumbai? Patron CA team responds at 148A stage and represents you before Mumbai PCIT. Starting at Rs 3,499. Call now.">
+    <meta property="og:url" content="/sec-148-notice/mumbai">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Section 148 Notice Mumbai 2026: Reply | Patron Accounting">
+    <meta name="twitter:description" content="Section 148 reassessment notice in Mumbai? Patron CA team responds at 148A stage and represents you before Mumbai PCIT. Starting at Rs 3,499. Call now.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/sec-148-notice/mumbai#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Income Tax Notice Mumbai",
+          "item": "https://www.patronaccounting.com/income-tax-notice/mumbai"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Section 148 Notice Mumbai",
+          "item": "https://www.patronaccounting.com/sec-148-notice/mumbai"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/sec-148-notice/mumbai#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a Section 148 notice in Mumbai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Section 148 notice in Mumbai is a formal reassessment notice issued by an Assessing Officer of the Pr CCIT Mumbai Region (or via NaFAC under the faceless scheme) directing a taxpayer to file a return for a past assessment year where income is believed to have escaped assessment. It is issued only after the mandatory Section 148A pre-notice procedure under Finance Act 2021 is complete."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the time limit for issuing a Section 148 notice after 1 September 2024?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "With effect from 1 September 2024 per Finance (No.2) Act 2024, a Section 148 notice can be issued within 3 years and 3 months from the end of the relevant assessment year if escaped income is less than Rs 50 lakh, and within 5 years and 3 months if escaped income is Rs 50 lakh or more. Notices beyond these windows are time-barred and Bombay HC has consistently quashed them."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I respond to a Section 148A SCN in Mumbai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Log in to incometax.gov.in, navigate to the e-Proceedings tab, locate the 148A SCN and file a written reply with annexures within 7 to 30 days. The reply should address each information item with documentary evidence, source-of-funds proofs and case law citations. Patron CA team handles this in 5 to 7 working days for Mumbai assessees with 58 percent closure rate at this stage."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a Section 148 notice be challenged in Bombay High Court?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. A Section 148 notice can be challenged on three grounds - (1) time-limit defect under Section 149, (2) Section 151 approval from wrong authority, and (3) non-compliance with Section 148A procedure. Defective notices can be quashed by writ petition before the Bombay High Court at Fort, citing SC Rajeev Bansal (2024). Bombay HC is co-located with Aayakar Bhawan M.K. Road - no inter-city travel."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What documents are required for a Section 148 reply?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Core documents include the 148A SCN and annexures, original ITR for the relevant AY, Form 26AS, AIS, TIS, bank statements for the full FY, source-of-funds documents like sale deeds, FD receipts, gift deeds and loan agreements, capital gains computations, broker statements and any property documents for Mumbai real estate transactions in Bandra, Powai, Worli, Lower Parel or Malabar Hill. Patron provides a complete checklist after free 30-minute review."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the penalty for not responding to a Section 148 notice?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Three consequences follow non-response: best-judgement assessment under Section 144 based on AO available information, penalty of Rs 10,000 under Section 271(1)(b) for non-compliance, and interest under Section 234(3) at 1 percent per month for late return filing. Under-reporting attracts 50 percent penalty under Section 270A; mis-reporting attracts 200 percent. Combined demand can multiply 3 to 5 times original tax."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where is my Mumbai Assessing Officer located?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most Mumbai Assessing Officers operate from Aayakar Bhawan, M.K. Road, Churchgate, or from regional offices at Bandra-Kurla Complex, Andheri, Thane and Navi Mumbai. PCIT 1-15 handle corporate, CIT 16-33 non-corporate, PCIT 34-35 salary, CIT(TDS) withholding, CIT(IT) international tax, CCIT(Central) 1-2 search. Verify at incometaxmumbai.gov.in or via PAN lookup."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/sec-148-notice/mumbai#service",
+      "name": "Section 148 Notice CA in Mumbai - Reassessment Reply and Representation",
+      "url": "https://www.patronaccounting.com/sec-148-notice/mumbai",
+      "description": "Patron Accounting CA-led representation for Section 148 Income Tax Act 1961 reassessment notices in Mumbai - Section 148A Show Cause Notice reply drafting within 7 to 30 days, ITR-148 return filing, GKN Driveshafts written objections to recorded reasons, Section 149 time-limit and Section 151 approval audit, reassessment hearings at Aayakar Bhawan M.K. Road Churchgate and Bandra-Kurla Complex under Pr CCIT Mumbai PCIT 1-15 corporate, CIT 16-33 non-corporate, PCIT 34-35 salary, CIT(TDS), CIT(IT) international tax and CCIT(Central) 1-2 search charges, Bombay High Court Article 226 writ at Fort (co-located), CIT(A) Faceless Appeal under Section 246A and onward ITAT Mumbai Bench at Pratishtha Bhavan M.K. Marg representation (LARGEST ITAT in India, co-located). Starting from Rs 3,499.",
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Mumbai",
+        "sameAs": "https://en.wikipedia.org/wiki/Mumbai"
+      },
+      "serviceType": "Section 148 Income Tax Reassessment Notice Reply and Defence",
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Income Tax Act 1961",
+          "sameAs": "https://en.wikipedia.org/wiki/Income_Tax_Act,_1961"
+        },
+        {
+          "@type": "Thing",
+          "name": "Income tax in India",
+          "sameAs": "https://en.wikipedia.org/wiki/Income_tax_in_India"
+        },
+        {
+          "@type": "Thing",
+          "name": "Faceless assessment scheme",
+          "sameAs": "https://en.wikipedia.org/wiki/Faceless_Assessment_Scheme"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Section 148 Notice Mumbai Service Packages",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "Section 148A SCN Reply Drafting and Filing",
+            "price": "3499",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/sec-148-notice/mumbai"
+          },
+          {
+            "@type": "Offer",
+            "name": "ITR-148 Return Filing in Response to Section 148 Notice",
+            "price": "4999",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/sec-148-notice/mumbai"
+          },
+          {
+            "@type": "Offer",
+            "name": "GKN Driveshafts Written Objections to Recorded Reasons",
+            "price": "7500",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/sec-148-notice/mumbai"
+          },
+          {
+            "@type": "Offer",
+            "name": "Reassessment Hearing Representation at Mumbai PCIT and ITAT Mumbai",
+            "price": "12000",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/sec-148-notice/mumbai"
+          }
+        ]
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -2120,7 +2125,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 </script>
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

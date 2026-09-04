@@ -1,267 +1,11 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>GST Notice Restaurants Delhi</title>
-    <meta name="description" content="GST notice for your Delhi restaurant on Zomato/Swiggy or 5 vs 18 percent rate? Patron CA files DRC-06 reply at CGST Delhi Zone. Starting Rs 2,999.">
-    <link rel="canonical" href="/gst-notice-restaurants/delhi">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="GST Notice Restaurants Delhi 2026 | Patron Accounting">
-    <meta property="og:description" content="GST notice for your Delhi restaurant on Zomato/Swiggy or 5 vs 18 percent rate? Patron CA files DRC-06 reply at CGST Delhi Zone. Starting Rs 2,999.">
-    <meta property="og:url" content="/gst-notice-restaurants/delhi">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="GST Notice Restaurants Delhi 2026 | Patron Accounting">
-    <meta name="twitter:description" content="GST notice for your Delhi restaurant on Zomato/Swiggy or 5 vs 18 percent rate? Patron CA files DRC-06 reply at CGST Delhi Zone. Starting Rs 2,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-<script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/gst-notice-restaurants/delhi#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "GST Notice",
-          "item": "https://www.patronaccounting.com/gst-notice"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Restaurants",
-          "item": "https://www.patronaccounting.com/gst-notice-restaurants"
-        },
-        {
-          "@type": "ListItem",
-          "position": 4,
-          "name": "Delhi",
-          "item": "https://www.patronaccounting.com/gst-notice-restaurants/delhi"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/gst-notice-restaurants/delhi#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is a GST notice for a restaurant in Delhi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A GST notice for a Delhi restaurant is any of ASMT-10 scrutiny, ADT-01 audit, DRC-01A pre-SCN intimation, DRC-01 Section 73 or 74 SCN, or DRC-07 final order issued by one of the 4 CGST Commissionerates in Delhi CGST Zone (Delhi East at Central Revenue Building IP Estate, West, South at EIL Annexe Bhikaji Cama Place, North), the 2 Audit Commissionerates, or the Delhi GST Department of Trade and Taxes. Common triggers are Section 9(5) Zomato/Swiggy mis-reporting, 5 percent vs 18 percent rate classification, and composition transitions."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why do I get a GST notice for Zomato or Swiggy supplies?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Effective 1 January 2022, Section 9(5) of the CGST Act made ECOs like Zomato and Swiggy liable to pay 5 percent GST on restaurant supplies. Restaurants must report these in GSTR-3B Table 3.1.1(ii) - informational only - and NOT in Table 3.1(a). Including them in Table 3.1(a) causes double-tax and triggers the most common Delhi restaurant notice pattern, particularly for Okhla, Mayapuri, Dwarka, and Hauz Khas cloud kitchens and delivery-heavy outlets."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between 5 percent no-ITC and 18 percent with-ITC for restaurants?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Standalone restaurants, cloud kitchens, cafes, and QSRs charge 5 percent GST with no ITC under Notification 11/2017 CT(R). Hotel-restaurants located in specified premises - where any unit of accommodation has a declared room tariff of Rs 7,500 or more per unit per day - charge 18 percent GST with full ITC. Delhi's main specified-premises cluster is the Aerocity-Mahipalpur belt around IGI Airport, plus Khan Market, Vasant Kunj, and Connaught Place luxury hotels."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do I reply to a restaurant GST notice in Delhi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Log in to gst.gov.in, navigate to Services then User Services then View Additional Notices and Orders, locate the notice (DRC-01 / ASMT-10 / ADT-01), and file the appropriate reply form (DRC-06, ASMT-11, or ADT-02) within 30 days. Include Zomato/Swiggy settlement reconciliation, GSTR-3B Table-wise mapping, POS data, FSSAI license, hotel room-tariff history (for Aerocity/Khan Market specified-premises cases), and DRC-03 challan for any voluntary payment."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can my Delhi restaurant still avail composition scheme if I supply through Zomato or Swiggy?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes - restaurants supplying through ECOs remain eligible for composition scheme under Section 10 because the ECO is not required to collect TCS on Section 9(5) supplies (Section 10(2)(d) exclusion preserves composition). Turnover ceiling of Rs 1.5 crore continues to apply. Many Delhi standalone outlets stay in composition for simplicity while still operating on Swiggy and Zomato, particularly in Dwarka, Rohini, Pitampura, and Janakpuri suburban locations."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the penalty for restaurant GST mis-reporting?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "For non-fraud cases under Section 73 - tax + interest at 18 percent under Section 50 + 10 percent penalty under Section 73(9) or Rs 10,000 whichever is higher. NIL penalty is available if tax is paid before SCN under Section 73(5). For fraud cases under Section 74 - up to 100 percent penalty under Section 74(9), reducible to 15 or 25 percent on early payment. Section 128A waiver available for FY 2017-18 to 2019-20 non-fraud demands subject to conditions."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does Patron handle Delhi GST Department of Trade and Taxes as well as CGST restaurant notices?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Patron's Delhi office handles restaurant notices from all 4 CGST Commissionerates in Delhi CGST Zone (Delhi East, West, South at Bhikaji Cama Place, North), the 2 Audit Commissionerates, the 2 Appeals Commissionerates, and the Delhi GST Department of Trade and Taxes (Government of NCT of Delhi). The reply procedure, forms, and 30-day window are identical under cross-empowerment. GSTAT Principal Bench Delhi escalation handled in the same city."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "LegalService",
-      "@id": "https://www.patronaccounting.com/gst-notice-restaurants/delhi#legalservice",
-      "name": "GST Notice for Restaurants in Delhi - SCN Reply, Hearing and Appeal",
-      "description": "Specialist CA representation by Patron Accounting LLP for Delhi restaurant GST notices - covering Form DRC-01 SCN under Section 73 (non-fraud, 2 years 9 months from GSTR-9 due date), Section 74 (fraud, 4 years 6 months), and Section 74A (unified 42 months from FY 2024-25), Form ASMT-10 scrutiny under Section 61, Form ADT-01 audit under Section 65, Form DRC-01A pre-SCN intimation under Rule 142(1A). Authority coverage includes 4 CGST Executive Commissionerates (Delhi East at Central Revenue Building IP Estate New Delhi 110009, Delhi West, Delhi South at EIL Annexe Building 2nd and 3rd Floor Bhikaji Cama Place New Delhi 110066, Delhi North), 2 Audit Commissionerates (Audit-I and Audit-II Delhi), 2 Appeals Commissionerates per Notification 2/2017-CT, Delhi GST Department of Trade and Taxes (GoNCTD), Pr CCIT Central Tax Delhi at C.R. Building I.P. Estate New Delhi 110002, Appellate Authority Delhi for Section 107 first appeals (3 months, 10 percent pre-deposit capped at Rs 25 crore via Form APL-01), GSTAT Principal Bench at Delhi for Section 112 second appeals (apex tribunal forum co-located in Delhi, 3 months, 20 percent additional pre-deposit cumulative 30 percent capped at Rs 50 crore via Form APL-05). Three core notice scenarios: (1) Section 9(5) Zomato/Swiggy/ONDC ECO supplies GSTR-3B Table 3.1.1 mis-reporting effective 1 January 2022 per Notification 17/2021-CT(R) with Circular 167/23/2020 framework, Table 3.1.1(i) ECO side and Table 3.1.1(ii) restaurant informational side under Notification 14/2022 CT effective 1 August 2022; (2) 5 percent no-ITC vs 18 percent with-ITC specified-premises rate disputes for Aerocity Mahipalpur IGI Airport hotel belt plus Khan Market Vasant Kunj Connaught Place luxury hotel-restaurants tied to Rs 7,500 room tariff threshold under Notification 11/2017 CT(R); (3) Section 10 composition scheme transitions where Rs 1.5 crore turnover ceiling crossed mid-year. Delhi restaurant clusters covered: Aerocity Mahipalpur Khan Market Connaught Place Vasant Kunj luxury hotel-restaurants (specified premises), Hauz Khas Village Defence Colony GK1 GK2 standalone fine dining, Okhla Industrial Area Mayapuri Dwarka Rajouri Garden cloud kitchens, Saket Vasant Kunj Janakpuri mall food courts, South Ex Lajpat Nagar Greater Kailash mid-range outlets, Dwarka Rohini Pitampura residential dining, Connaught Place Karol Bagh heritage central. Section 17(5)(b) blocked credit on F&B inputs handling; FSSAI-linked turnover analytics defence; Section 65 audit representation; Section 128A waiver eligibility check for FY 2017-18 to 2019-20 non-fraud demands; Sections 9(5), 9(1), 10, 10(2)(d), 17(5)(b), 52, 61, 65, 73, 74, 74A, 107, 112, 122, 128A CGST Act. Patron Delhi pod handles same-day intake at Delhi office, time-bar audit, notice categorisation, Section 9(5) reconciliation, rate-classification defence, DRC-06 reply drafting on gst.gov.in within 30-day statutory window, hearing representation at all 4 CGST Commissionerates and Delhi GST Department of Trade and Taxes, Section 107 appeal at Appellate Authority Delhi, and Section 112 escalation at GSTAT Principal Bench Delhi (co-located apex tribunal). 500+ GST notice matters handled at 95 percent resolution rate; Delhi restaurant-sector closure-at-DRC-07 exceeds 90 percent.",
-      "serviceType": "Delhi Restaurant GST Notice Handling and Appellate Representation",
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      },
-      "areaServed": {
-        "@type": "City",
-        "name": "Delhi",
-        "sameAs": "https://en.wikipedia.org/wiki/Delhi"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Goods and Services Tax (India)",
-          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
-        },
-        {
-          "@type": "Thing",
-          "name": "Restaurant",
-          "sameAs": "https://en.wikipedia.org/wiki/Restaurant"
-        },
-        {
-          "@type": "Thing",
-          "name": "Delhi",
-          "sameAs": "https://en.wikipedia.org/wiki/Delhi"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Delhi Restaurant GST Notice CA Plans",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "name": "DRC-06 Reply Simple - Single Parameter Single FY",
-            "price": "2999",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/gst-notice-restaurants/delhi"
-          },
-          {
-            "@type": "Offer",
-            "name": "DRC-06 Reply Standard - Multi-Parameter Single FY",
-            "price": "6500",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/gst-notice-restaurants/delhi"
-          },
-          {
-            "@type": "Offer",
-            "name": "DRC-06 Reply Complex - Multi-FY Multi-Parameter",
-            "price": "9500",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/gst-notice-restaurants/delhi"
-          },
-          {
-            "@type": "Offer",
-            "name": "Specified Premises Opinion - Aerocity/Khan Market",
-            "price": "4500",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/gst-notice-restaurants/delhi"
-          },
-          {
-            "@type": "Offer",
-            "name": "Section 107 Appeal at Appellate Authority Delhi",
-            "price": "12000",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/gst-notice-restaurants/delhi"
-          }
-        ]
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/gst-notice-restaurants/delhi#localbusiness",
-      "name": "Patron Accounting LLP - Delhi Office (Restaurant GST Notice)",
-      "url": "https://www.patronaccounting.com/gst-notice-restaurants/delhi",
-      "telephone": "+91-945-945-6700",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Connaught Place",
-        "addressLocality": "New Delhi",
-        "addressRegion": "Delhi",
-        "postalCode": "110001",
-        "addressCountry": "IN"
-      },
-      "areaServed": [
-        {
-          "@type": "City",
-          "name": "Delhi"
-        },
-        {
-          "@type": "Place",
-          "name": "Aerocity"
-        },
-        {
-          "@type": "Place",
-          "name": "Mahipalpur"
-        },
-        {
-          "@type": "Place",
-          "name": "Khan Market"
-        },
-        {
-          "@type": "Place",
-          "name": "Vasant Kunj"
-        },
-        {
-          "@type": "Place",
-          "name": "Hauz Khas"
-        },
-        {
-          "@type": "Place",
-          "name": "Defence Colony"
-        },
-        {
-          "@type": "Place",
-          "name": "Okhla"
-        },
-        {
-          "@type": "Place",
-          "name": "Saket"
-        }
-      ],
-      "priceRange": "Rs 2,999 to Rs 35,000"
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -939,7 +683,268 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 }
 @media (max-width:768px) {section .content-text ul li:not(.nav-item){flex-wrap:wrap;}
 section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;max-width:100%;margin-bottom:2px;}}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>GST Notice Restaurants Delhi</title>
+    <meta name="description" content="GST notice for your Delhi restaurant on Zomato/Swiggy or 5 vs 18 percent rate? Patron CA files DRC-06 reply at CGST Delhi Zone. Starting Rs 2,999.">
+    <link rel="canonical" href="/gst-notice-restaurants/delhi">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="GST Notice Restaurants Delhi 2026 | Patron Accounting">
+    <meta property="og:description" content="GST notice for your Delhi restaurant on Zomato/Swiggy or 5 vs 18 percent rate? Patron CA files DRC-06 reply at CGST Delhi Zone. Starting Rs 2,999.">
+    <meta property="og:url" content="/gst-notice-restaurants/delhi">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GST Notice Restaurants Delhi 2026 | Patron Accounting">
+    <meta name="twitter:description" content="GST notice for your Delhi restaurant on Zomato/Swiggy or 5 vs 18 percent rate? Patron CA files DRC-06 reply at CGST Delhi Zone. Starting Rs 2,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/gst-notice-restaurants/delhi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "GST Notice",
+          "item": "https://www.patronaccounting.com/gst-notice"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Restaurants",
+          "item": "https://www.patronaccounting.com/gst-notice-restaurants"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Delhi",
+          "item": "https://www.patronaccounting.com/gst-notice-restaurants/delhi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/gst-notice-restaurants/delhi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a GST notice for a restaurant in Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A GST notice for a Delhi restaurant is any of ASMT-10 scrutiny, ADT-01 audit, DRC-01A pre-SCN intimation, DRC-01 Section 73 or 74 SCN, or DRC-07 final order issued by one of the 4 CGST Commissionerates in Delhi CGST Zone (Delhi East at Central Revenue Building IP Estate, West, South at EIL Annexe Bhikaji Cama Place, North), the 2 Audit Commissionerates, or the Delhi GST Department of Trade and Taxes. Common triggers are Section 9(5) Zomato/Swiggy mis-reporting, 5 percent vs 18 percent rate classification, and composition transitions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why do I get a GST notice for Zomato or Swiggy supplies?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Effective 1 January 2022, Section 9(5) of the CGST Act made ECOs like Zomato and Swiggy liable to pay 5 percent GST on restaurant supplies. Restaurants must report these in GSTR-3B Table 3.1.1(ii) - informational only - and NOT in Table 3.1(a). Including them in Table 3.1(a) causes double-tax and triggers the most common Delhi restaurant notice pattern, particularly for Okhla, Mayapuri, Dwarka, and Hauz Khas cloud kitchens and delivery-heavy outlets."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between 5 percent no-ITC and 18 percent with-ITC for restaurants?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Standalone restaurants, cloud kitchens, cafes, and QSRs charge 5 percent GST with no ITC under Notification 11/2017 CT(R). Hotel-restaurants located in specified premises - where any unit of accommodation has a declared room tariff of Rs 7,500 or more per unit per day - charge 18 percent GST with full ITC. Delhi's main specified-premises cluster is the Aerocity-Mahipalpur belt around IGI Airport, plus Khan Market, Vasant Kunj, and Connaught Place luxury hotels."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I reply to a restaurant GST notice in Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Log in to gst.gov.in, navigate to Services then User Services then View Additional Notices and Orders, locate the notice (DRC-01 / ASMT-10 / ADT-01), and file the appropriate reply form (DRC-06, ASMT-11, or ADT-02) within 30 days. Include Zomato/Swiggy settlement reconciliation, GSTR-3B Table-wise mapping, POS data, FSSAI license, hotel room-tariff history (for Aerocity/Khan Market specified-premises cases), and DRC-03 challan for any voluntary payment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can my Delhi restaurant still avail composition scheme if I supply through Zomato or Swiggy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes - restaurants supplying through ECOs remain eligible for composition scheme under Section 10 because the ECO is not required to collect TCS on Section 9(5) supplies (Section 10(2)(d) exclusion preserves composition). Turnover ceiling of Rs 1.5 crore continues to apply. Many Delhi standalone outlets stay in composition for simplicity while still operating on Swiggy and Zomato, particularly in Dwarka, Rohini, Pitampura, and Janakpuri suburban locations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the penalty for restaurant GST mis-reporting?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For non-fraud cases under Section 73 - tax + interest at 18 percent under Section 50 + 10 percent penalty under Section 73(9) or Rs 10,000 whichever is higher. NIL penalty is available if tax is paid before SCN under Section 73(5). For fraud cases under Section 74 - up to 100 percent penalty under Section 74(9), reducible to 15 or 25 percent on early payment. Section 128A waiver available for FY 2017-18 to 2019-20 non-fraud demands subject to conditions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Patron handle Delhi GST Department of Trade and Taxes as well as CGST restaurant notices?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Patron's Delhi office handles restaurant notices from all 4 CGST Commissionerates in Delhi CGST Zone (Delhi East, West, South at Bhikaji Cama Place, North), the 2 Audit Commissionerates, the 2 Appeals Commissionerates, and the Delhi GST Department of Trade and Taxes (Government of NCT of Delhi). The reply procedure, forms, and 30-day window are identical under cross-empowerment. GSTAT Principal Bench Delhi escalation handled in the same city."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LegalService",
+      "@id": "https://www.patronaccounting.com/gst-notice-restaurants/delhi#legalservice",
+      "name": "GST Notice for Restaurants in Delhi - SCN Reply, Hearing and Appeal",
+      "description": "Specialist CA representation by Patron Accounting LLP for Delhi restaurant GST notices - covering Form DRC-01 SCN under Section 73 (non-fraud, 2 years 9 months from GSTR-9 due date), Section 74 (fraud, 4 years 6 months), and Section 74A (unified 42 months from FY 2024-25), Form ASMT-10 scrutiny under Section 61, Form ADT-01 audit under Section 65, Form DRC-01A pre-SCN intimation under Rule 142(1A). Authority coverage includes 4 CGST Executive Commissionerates (Delhi East at Central Revenue Building IP Estate New Delhi 110009, Delhi West, Delhi South at EIL Annexe Building 2nd and 3rd Floor Bhikaji Cama Place New Delhi 110066, Delhi North), 2 Audit Commissionerates (Audit-I and Audit-II Delhi), 2 Appeals Commissionerates per Notification 2/2017-CT, Delhi GST Department of Trade and Taxes (GoNCTD), Pr CCIT Central Tax Delhi at C.R. Building I.P. Estate New Delhi 110002, Appellate Authority Delhi for Section 107 first appeals (3 months, 10 percent pre-deposit capped at Rs 25 crore via Form APL-01), GSTAT Principal Bench at Delhi for Section 112 second appeals (apex tribunal forum co-located in Delhi, 3 months, 20 percent additional pre-deposit cumulative 30 percent capped at Rs 50 crore via Form APL-05). Three core notice scenarios: (1) Section 9(5) Zomato/Swiggy/ONDC ECO supplies GSTR-3B Table 3.1.1 mis-reporting effective 1 January 2022 per Notification 17/2021-CT(R) with Circular 167/23/2020 framework, Table 3.1.1(i) ECO side and Table 3.1.1(ii) restaurant informational side under Notification 14/2022 CT effective 1 August 2022; (2) 5 percent no-ITC vs 18 percent with-ITC specified-premises rate disputes for Aerocity Mahipalpur IGI Airport hotel belt plus Khan Market Vasant Kunj Connaught Place luxury hotel-restaurants tied to Rs 7,500 room tariff threshold under Notification 11/2017 CT(R); (3) Section 10 composition scheme transitions where Rs 1.5 crore turnover ceiling crossed mid-year. Delhi restaurant clusters covered: Aerocity Mahipalpur Khan Market Connaught Place Vasant Kunj luxury hotel-restaurants (specified premises), Hauz Khas Village Defence Colony GK1 GK2 standalone fine dining, Okhla Industrial Area Mayapuri Dwarka Rajouri Garden cloud kitchens, Saket Vasant Kunj Janakpuri mall food courts, South Ex Lajpat Nagar Greater Kailash mid-range outlets, Dwarka Rohini Pitampura residential dining, Connaught Place Karol Bagh heritage central. Section 17(5)(b) blocked credit on F&B inputs handling; FSSAI-linked turnover analytics defence; Section 65 audit representation; Section 128A waiver eligibility check for FY 2017-18 to 2019-20 non-fraud demands; Sections 9(5), 9(1), 10, 10(2)(d), 17(5)(b), 52, 61, 65, 73, 74, 74A, 107, 112, 122, 128A CGST Act. Patron Delhi pod handles same-day intake at Delhi office, time-bar audit, notice categorisation, Section 9(5) reconciliation, rate-classification defence, DRC-06 reply drafting on gst.gov.in within 30-day statutory window, hearing representation at all 4 CGST Commissionerates and Delhi GST Department of Trade and Taxes, Section 107 appeal at Appellate Authority Delhi, and Section 112 escalation at GSTAT Principal Bench Delhi (co-located apex tribunal). 500+ GST notice matters handled at 95 percent resolution rate; Delhi restaurant-sector closure-at-DRC-07 exceeds 90 percent.",
+      "serviceType": "Delhi Restaurant GST Notice Handling and Appellate Representation",
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Delhi",
+        "sameAs": "https://en.wikipedia.org/wiki/Delhi"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Goods and Services Tax (India)",
+          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
+        },
+        {
+          "@type": "Thing",
+          "name": "Restaurant",
+          "sameAs": "https://en.wikipedia.org/wiki/Restaurant"
+        },
+        {
+          "@type": "Thing",
+          "name": "Delhi",
+          "sameAs": "https://en.wikipedia.org/wiki/Delhi"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Delhi Restaurant GST Notice CA Plans",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "DRC-06 Reply Simple - Single Parameter Single FY",
+            "price": "2999",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/gst-notice-restaurants/delhi"
+          },
+          {
+            "@type": "Offer",
+            "name": "DRC-06 Reply Standard - Multi-Parameter Single FY",
+            "price": "6500",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/gst-notice-restaurants/delhi"
+          },
+          {
+            "@type": "Offer",
+            "name": "DRC-06 Reply Complex - Multi-FY Multi-Parameter",
+            "price": "9500",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/gst-notice-restaurants/delhi"
+          },
+          {
+            "@type": "Offer",
+            "name": "Specified Premises Opinion - Aerocity/Khan Market",
+            "price": "4500",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/gst-notice-restaurants/delhi"
+          },
+          {
+            "@type": "Offer",
+            "name": "Section 107 Appeal at Appellate Authority Delhi",
+            "price": "12000",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/gst-notice-restaurants/delhi"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/gst-notice-restaurants/delhi#localbusiness",
+      "name": "Patron Accounting LLP - Delhi Office (Restaurant GST Notice)",
+      "url": "https://www.patronaccounting.com/gst-notice-restaurants/delhi",
+      "telephone": "+91-945-945-6700",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Connaught Place",
+        "addressLocality": "New Delhi",
+        "addressRegion": "Delhi",
+        "postalCode": "110001",
+        "addressCountry": "IN"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Delhi"
+        },
+        {
+          "@type": "Place",
+          "name": "Aerocity"
+        },
+        {
+          "@type": "Place",
+          "name": "Mahipalpur"
+        },
+        {
+          "@type": "Place",
+          "name": "Khan Market"
+        },
+        {
+          "@type": "Place",
+          "name": "Vasant Kunj"
+        },
+        {
+          "@type": "Place",
+          "name": "Hauz Khas"
+        },
+        {
+          "@type": "Place",
+          "name": "Defence Colony"
+        },
+        {
+          "@type": "Place",
+          "name": "Okhla"
+        },
+        {
+          "@type": "Place",
+          "name": "Saket"
+        }
+      ],
+      "priceRange": "Rs 2,999 to Rs 35,000"
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -2221,7 +2226,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 </script>
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,208 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>Tally to Zoho Migration in Delhi 2026 | Patron Accounting</title>
-    <meta name="description" content="Shift Tally to Zoho Books in Delhi from INR 9,999. CA-led ledger mapping, opening balance tie-out, and Delhi GST setup for Nehru Place and Okhla firms.">
-    <link rel="canonical" href="/migration-from-tally-to-zoho/delhi">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Tally to Zoho Migration in Delhi 2026 | Patron Accounting">
-    <meta property="og:description" content="Shift Tally to Zoho Books in Delhi from INR 9,999. CA-led ledger mapping, opening balance tie-out, and Delhi GST setup for Nehru Place and Okhla firms.">
-    <meta property="og:url" content="/migration-from-tally-to-zoho/delhi">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Tally to Zoho Migration in Delhi 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Shift Tally to Zoho Books in Delhi from INR 9,999. CA-led ledger mapping, opening balance tie-out, and Delhi GST setup for Nehru Place and Okhla firms.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/migration-from-tally-to-zoho/delhi#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Migration From Tally To Zoho",
-          "item": "https://www.patronaccounting.com/migration-from-tally-to-zoho"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Tally to Zoho Migration Services in Delhi",
-          "item": "https://www.patronaccounting.com/migration-from-tally-to-zoho/delhi"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/migration-from-tally-to-zoho/delhi#faq",
-      "datePublished": "2026-06-23T08:00:00+05:30",
-      "dateModified": "2026-06-23T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "How much does it cost to migrate from Tally to Zoho in Delhi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patron Accounting charges Starting from INR 9,999 (Exl GST and Govt. Charges). What you finally pay turns on the years of history brought across, the count of ledgers and GSTINs, stock volume, and whether you take Zoho Books on its own or the broader Zoho One suite. Nehru Place and Okhla firms receive a fixed quote up front."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Will my opening balances and trial balance match after moving to Zoho Books?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Opening balances are keyed from your Tally trial balance as on 31 March or the chosen cut-off, after which we verify the Opening Balance Adjustment account in Zoho Books reads zero. A two-point trial balance check across Tally and Zoho Books confirms debits and credits agree before any sign-off is given."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can you set up Delhi GST and e-invoicing in Zoho Books during migration?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. We finish the Zoho Books GST setup, record your Delhi GSTIN, attach HSN and SAC codes, link the GSP, switch on e-invoicing and reverse charge where due, and align GSTR-2B reconciliation under the CGST Act 2017. The whole GST stack is live before your first Zoho invoice leaves the building."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can you migrate a high-volume Nehru Place IT reseller without disrupting daily invoicing?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. For Nehru Place hardware and IT resellers raising hundreds of invoices a week, we agree a cut-off date, migrate masters and opening balances first, and configure Zoho Books in parallel with your live Tally. You keep billing in Tally until go-live day, then switch over once the trial balance ties out cleanly."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do you handle inventory for an Okhla or Mayapuri manufacturer moving to Zoho?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "For Okhla and Mayapuri production units we carry item masters, opening stock quantities and values, and tax mappings into Zoho Books or Zoho Inventory. Every stock summary is matched against the Tally closing position item by item, so valuation continues without a break and your factory accounting stays intact after the cut-off date."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can you migrate a Karol Bagh trading house that runs several GSTINs?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Karol Bagh and Connaught Place trading houses often hold multiple GSTINs across branches. We map each registration to its own Zoho Books organisation or branch, carry opening balances separately, and reconcile every GSTIN against its Tally figures so consolidated and branch-level reports both stand up after migration."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do I lose my Tally history after migrating to Zoho Books?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Your original Tally company file is left untouched and retained for the 6-year period under Rule 6F(5) of the Income Tax Rules. You decide how much history enters Zoho Books, ranging from opening balances alone to several years of invoices, bills, and journals rebuilt in the correct import sequence."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Should a Delhi business pick Zoho Books or the full Zoho One suite?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Zoho Books on its own fits firms that only want accounting, Delhi GST, and bank feeds. A Connaught Place office already running Zoho CRM or Zoho People usually gains from Zoho One, where Books, Inventory, Expense, and Payroll sit on one shared ledger. Patron weighs the fit with you during scoping before any licence is bought."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/migration-from-tally-to-zoho/delhi#service",
-      "name": "Tally to Zoho Migration in Delhi",
-      "description": "Tally to Zoho Books migration in Delhi moves your chart of accounts, masters, opening balances, and historical transactions into Zoho Books with Delhi GST setup, bank feeds, and trial balance reconciliation. Patron Accounting handles ledger mapping and validation for Nehru Place, Okhla, and Karol Bagh businesses.",
-      "serviceType": "Tally to Zoho Books Migration",
-      "url": "https://www.patronaccounting.com/migration-from-tally-to-zoho/delhi",
-      "areaServed": {
-        "@type": "City",
-        "name": "Delhi",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Delhi"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#localbusiness-delhi"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Accounting software",
-          "sameAs": "https://en.wikipedia.org/wiki/Accounting_software"
-        },
-        {
-          "@type": "Thing",
-          "name": "Goods and Services Tax (India)",
-          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Tally to Zoho Migration Plans in Delhi",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "price": "9999",
-            "priceSpecification": {
-              "@type": "UnitPriceSpecification",
-              "priceCurrency": "INR",
-              "price": "9999",
-              "unitText": "starting from"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Tally to Zoho Books Migration"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness-delhi",
-      "name": "Patron Accounting LLP - Delhi",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/migration-from-tally-to-zoho/delhi",
-      "telephone": "+91-9699936369",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Delhi"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Delhi",
-        "addressRegion": "Delhi",
-        "postalCode": "110085",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -815,7 +612,217 @@
         .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
 
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>Tally to Zoho Migration in Delhi 2026 | Patron Accounting</title>
+    <meta name="description" content="Shift Tally to Zoho Books in Delhi from INR 9,999. CA-led ledger mapping, opening balance tie-out, and Delhi GST setup for Nehru Place and Okhla firms.">
+    <link rel="canonical" href="/migration-from-tally-to-zoho/delhi">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Tally to Zoho Migration in Delhi 2026 | Patron Accounting">
+    <meta property="og:description" content="Shift Tally to Zoho Books in Delhi from INR 9,999. CA-led ledger mapping, opening balance tie-out, and Delhi GST setup for Nehru Place and Okhla firms.">
+    <meta property="og:url" content="/migration-from-tally-to-zoho/delhi">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Tally to Zoho Migration in Delhi 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Shift Tally to Zoho Books in Delhi from INR 9,999. CA-led ledger mapping, opening balance tie-out, and Delhi GST setup for Nehru Place and Okhla firms.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/migration-from-tally-to-zoho/delhi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Migration From Tally To Zoho",
+          "item": "https://www.patronaccounting.com/migration-from-tally-to-zoho"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Tally to Zoho Migration Services in Delhi",
+          "item": "https://www.patronaccounting.com/migration-from-tally-to-zoho/delhi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/migration-from-tally-to-zoho/delhi#faq",
+      "datePublished": "2026-06-23T08:00:00+05:30",
+      "dateModified": "2026-06-23T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much does it cost to migrate from Tally to Zoho in Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patron Accounting charges Starting from INR 9,999 (Exl GST and Govt. Charges). What you finally pay turns on the years of history brought across, the count of ledgers and GSTINs, stock volume, and whether you take Zoho Books on its own or the broader Zoho One suite. Nehru Place and Okhla firms receive a fixed quote up front."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will my opening balances and trial balance match after moving to Zoho Books?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Opening balances are keyed from your Tally trial balance as on 31 March or the chosen cut-off, after which we verify the Opening Balance Adjustment account in Zoho Books reads zero. A two-point trial balance check across Tally and Zoho Books confirms debits and credits agree before any sign-off is given."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you set up Delhi GST and e-invoicing in Zoho Books during migration?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We finish the Zoho Books GST setup, record your Delhi GSTIN, attach HSN and SAC codes, link the GSP, switch on e-invoicing and reverse charge where due, and align GSTR-2B reconciliation under the CGST Act 2017. The whole GST stack is live before your first Zoho invoice leaves the building."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you migrate a high-volume Nehru Place IT reseller without disrupting daily invoicing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. For Nehru Place hardware and IT resellers raising hundreds of invoices a week, we agree a cut-off date, migrate masters and opening balances first, and configure Zoho Books in parallel with your live Tally. You keep billing in Tally until go-live day, then switch over once the trial balance ties out cleanly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you handle inventory for an Okhla or Mayapuri manufacturer moving to Zoho?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For Okhla and Mayapuri production units we carry item masters, opening stock quantities and values, and tax mappings into Zoho Books or Zoho Inventory. Every stock summary is matched against the Tally closing position item by item, so valuation continues without a break and your factory accounting stays intact after the cut-off date."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you migrate a Karol Bagh trading house that runs several GSTINs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Karol Bagh and Connaught Place trading houses often hold multiple GSTINs across branches. We map each registration to its own Zoho Books organisation or branch, carry opening balances separately, and reconcile every GSTIN against its Tally figures so consolidated and branch-level reports both stand up after migration."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I lose my Tally history after migrating to Zoho Books?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Your original Tally company file is left untouched and retained for the 6-year period under Rule 6F(5) of the Income Tax Rules. You decide how much history enters Zoho Books, ranging from opening balances alone to several years of invoices, bills, and journals rebuilt in the correct import sequence."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should a Delhi business pick Zoho Books or the full Zoho One suite?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Zoho Books on its own fits firms that only want accounting, Delhi GST, and bank feeds. A Connaught Place office already running Zoho CRM or Zoho People usually gains from Zoho One, where Books, Inventory, Expense, and Payroll sit on one shared ledger. Patron weighs the fit with you during scoping before any licence is bought."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/migration-from-tally-to-zoho/delhi#service",
+      "name": "Tally to Zoho Migration in Delhi",
+      "description": "Tally to Zoho Books migration in Delhi moves your chart of accounts, masters, opening balances, and historical transactions into Zoho Books with Delhi GST setup, bank feeds, and trial balance reconciliation. Patron Accounting handles ledger mapping and validation for Nehru Place, Okhla, and Karol Bagh businesses.",
+      "serviceType": "Tally to Zoho Books Migration",
+      "url": "https://www.patronaccounting.com/migration-from-tally-to-zoho/delhi",
+      "areaServed": {
+        "@type": "City",
+        "name": "Delhi",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Delhi"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#localbusiness-delhi"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Accounting software",
+          "sameAs": "https://en.wikipedia.org/wiki/Accounting_software"
+        },
+        {
+          "@type": "Thing",
+          "name": "Goods and Services Tax (India)",
+          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Tally to Zoho Migration Plans in Delhi",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "price": "9999",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "INR",
+              "price": "9999",
+              "unitText": "starting from"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Tally to Zoho Books Migration"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness-delhi",
+      "name": "Patron Accounting LLP - Delhi",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/migration-from-tally-to-zoho/delhi",
+      "telephone": "+91-9699936369",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Delhi"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Delhi",
+        "addressRegion": "Delhi",
+        "postalCode": "110085",
+        "addressCountry": "IN"
+      },
+      "parentOrganization": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1564,7 +1571,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

@@ -1,4 +1,46 @@
 @extends('admin.layouts.app')
+@push('styles')
+<style>
+.subject-preview {
+    max-width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.table-warning {
+    background-color: rgba(255, 193, 7, 0.1) !important;
+}
+
+.admin-content-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.admin-content-header-left h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #495057;
+    margin-bottom: 0.5rem;
+}
+
+.admin-content-subtitle {
+    color: #6c757d;
+    margin-bottom: 0;
+}
+
+.admin-content-header-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+</style>
+@endpush
+
 
 @section('title', 'Contact Messages')
 
@@ -194,9 +236,7 @@
         @endif
     </div>
 </div>
-@endsection
 
-@push('scripts')
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     // Select all functionality
@@ -268,46 +308,12 @@ function bulkUpdateStatus(ids, action) {
     alert('Bulk status update functionality coming soon!');
 }
 </script>
+@endsection
+
+@push('scripts')
+
 @endpush
 
 @push('styles')
-<style>
-.subject-preview {
-    max-width: 300px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
 
-.table-warning {
-    background-color: rgba(255, 193, 7, 0.1) !important;
-}
-
-.admin-content-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 2rem;
-    padding-bottom: 1rem;
-    border-bottom: 1px solid #e9ecef;
-}
-
-.admin-content-header-left h1 {
-    font-size: 2rem;
-    font-weight: 600;
-    color: #495057;
-    margin-bottom: 0.5rem;
-}
-
-.admin-content-subtitle {
-    color: #6c757d;
-    margin-bottom: 0;
-}
-
-.admin-content-header-right {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-}
-</style>
 @endpush

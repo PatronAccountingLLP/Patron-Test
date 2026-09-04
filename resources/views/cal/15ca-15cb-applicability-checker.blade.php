@@ -1,182 +1,5 @@
 @extends('layouts.app')
-
-@section('meta')
-<title>Form 15CA & 15CB Applicability Checker | Rule 37BB</title>
-<meta name="description" content="Free Form 15CA & 15CB applicability checker for foreign remittances: see if 15CA Part A/B/C/D or a 15CB CA certificate applies under Rule 37BB. Check now!">
-<meta name="robots" content="index, follow">
-<meta name="theme-color" content="#15365f">
-<link rel="canonical" href="https://www.patronaccounting.com/tools/15ca-15cb-applicability-checker">
-
-<meta property="og:title" content="Form 15CA & 15CB Applicability Checker — Rule 37BB">
-<meta property="og:description" content="Answer 3 questions about your foreign remittance and instantly see whether Form 15CA (Part A/B/C/D) and a 15CB CA certificate are required under Rule 37BB.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.patronaccounting.com/tools/15ca-15cb-applicability-checker">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="1200">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-<meta property="og:site_name" content="Patron Accounting">
-<meta property="og:locale" content="en_IN">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Form 15CA & 15CB Applicability Checker — Rule 37BB">
-<meta name="twitter:description" content="Answer 3 questions on your foreign remittance to see if Form 15CA (Part A/B/C/D) and a 15CB CA certificate apply under Rule 37BB.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-
-<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
-<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
-@endsection
-
-@section('schema')
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "Form 15CA & 15CB Applicability Checker",
-  "description": "Form 15CA and 15CB Applicability Checker is a decision tool that takes the taxability of a foreign remittance, whether it appears on the Rule 37BB specified list, the aggregate amount during the financial year, and whether an Assessing Officer certificate has been obtained, and shows which compliance is required: no forms, Form 15CA Part A, Part B, Part C with a 15CB CA certificate, or Part D.",
-  "url": "https://www.patronaccounting.com/tools/15ca-15cb-applicability-checker",
-  "applicationCategory": "BusinessApplication",
-  "inLanguage": "en-IN",
-  "isAccessibleForFree": true,
-  "operatingSystem": "Any",
-  "datePublished": "2026-06-05T08:00:00+05:30",
-  "dateModified": "2026-06-05T08:00:00+05:30",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "INR"
-  },
-  "reviewedBy": {
-    "@type": "Person",
-    "@id": "https://patronaccounting.com/#founder",
-    "name": "CA Sundram Gupta",
-    "jobTitle": "Founder & Chartered Accountant",
-    "url": "https://www.patronaccounting.com/contact-page",
-    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-    "hasCredential": [{
-      "@type": "EducationalOccupationalCredential",
-      "credentialCategory": "Professional Certification",
-      "name": "Chartered Accountant (CA)",
-      "recognizedBy": {
-        "@type": "Organization",
-        "name": "Institute of Chartered Accountants of India",
-        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-      }
-    }]
-  },
-  "publisher": { "@id": "https://patronaccounting.com/#organization" },
-  "provider": {
-    "@id": "https://patronaccounting.com/#organization"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "Form 15CA & 15CB Applicability Checker", "item": "https://www.patronaccounting.com/tools/15ca-15cb-applicability-checker"}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "When is Form 15CA required for a foreign remittance?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Form 15CA is the declaration a remitter files electronically before paying a non-resident. It is needed whenever the payment is chargeable to tax in India. The specific part depends on the facts: Part A for taxable remittances up to 5 lakh in the year, Part B when an Assessing Officer certificate has been obtained, Part C when a 15CB certificate is used, and Part D when the sum is not chargeable to tax but is not on the Rule 37BB exempt list."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "When is Form 15CB required?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Form 15CB is a certificate from a Chartered Accountant that is required only when the remittance is chargeable to tax in India and the aggregate of remittances exceeds 5 lakh in the financial year, and no Assessing Officer certificate under Section 195(2), 195(3) or 197 has been obtained. In that case the remitter files Form 15CA Part C supported by the CA's 15CB. Below 5 lakh, or where an AO certificate exists, 15CB is not needed."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the ₹5 lakh threshold for 15CA and 15CB?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The 5 lakh figure is tested on the aggregate of remittances to non-residents during the financial year, not on a single transfer. If your total taxable remittances stay at or below 5 lakh, you file only Form 15CA Part A and no 15CB. Once the aggregate crosses 5 lakh and the sum is taxable, a 15CB certificate (with Part C) is required unless you hold an AO certificate, in which case Part B applies."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the four parts of Form 15CA?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Part A is for taxable remittances where the yearly aggregate does not exceed 5 lakh. Part B is for taxable remittances above 5 lakh where an Assessing Officer certificate under Section 195(2), 195(3) or 197 has been obtained. Part C is for taxable remittances above 5 lakh supported by a 15CB certificate from an accountant. Part D is for remittances that are not chargeable to tax and are not covered by the Rule 37BB specified list."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the Rule 37BB specified list?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Rule 37BB contains a specified list of 33 payment categories for which neither Form 15CA nor 15CB needs to be furnished. These include certain imports, personal remittances for travel, education and medical treatment, and other purposes that do not require RBI approval. Banks map these to RBI purpose codes. If your remittance matches a listed purpose, you can avoid both forms, though you should keep proof of the purpose code."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do I need any form if the remittance is not taxable in India?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "If the remittance is not chargeable to tax in India, no 15CB is required. If it is also covered by the Rule 37BB specified list, no forms are required at all. If it is not on that list, you still file Form 15CA Part D to declare that the sum is not chargeable to tax. Determining taxability under Sections 5 and 9 and the relevant DTAA is the part where a CA's view matters most."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is Form 15CA Part B and when does it apply?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Part B applies when a taxable remittance exceeds 5 lakh in the year and the remitter has obtained an order or certificate from the Assessing Officer under Section 195(2), 195(3) or 197 specifying a nil or lower rate of tax. Because the AO has already determined the rate, a separate 15CB certificate is not needed; the remitter simply files Part B quoting the AO order, and tax is deducted at the rate specified."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does a DTAA change whether 15CB is needed?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A Double Taxation Avoidance Agreement can reduce or eliminate Indian tax on a remittance, but the remittance can still be chargeable to tax in principle. Where the sum is taxable and exceeds 5 lakh, a 15CB certificate is generally still required, and the CA examines the DTAA to certify the correct rate. The treaty position, tax residency certificate and Form 10F all feed into that determination."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Are Form 15CA and 15CB being replaced in 2026?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Under the new income-tax framework, remittance reporting transitions to Forms 145 and 146 for remittances initiated on or after 1 April 2026, while the substance of the rules, the 5 lakh threshold, the four-part structure and the Rule 37BB exempt list remain the same. Forms 15CA and 15CB stay valid for remittances initiated before that date. This checker follows the established 15CA/15CB logic, which continues unchanged in substance."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is this 15CA/15CB applicability checker free?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, the Patron Accounting Form 15CA and 15CB Applicability Checker is completely free with no signup required. All logic runs in your browser and nothing is stored on our servers. It applies the Rule 37BB and Section 195 decision tree to tell you whether you need no forms, Form 15CA Part A, Part B, Part C with 15CB, or Part D. The final filing and any CA certificate should still be handled by a Chartered Accountant."
-      }
-    }
-  ]
-}
-</script>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-@endsection
+@push('styles')
 <style>
         :root {
             --primary: #15365f;
@@ -682,6 +505,186 @@ a:focus-visible {
 
 
         </style>
+@endpush
+
+
+@section('meta')
+<title>Form 15CA & 15CB Applicability Checker | Rule 37BB</title>
+<meta name="description" content="Free Form 15CA & 15CB applicability checker for foreign remittances: see if 15CA Part A/B/C/D or a 15CB CA certificate applies under Rule 37BB. Check now!">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#15365f">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/15ca-15cb-applicability-checker">
+
+<meta property="og:title" content="Form 15CA & 15CB Applicability Checker — Rule 37BB">
+<meta property="og:description" content="Answer 3 questions about your foreign remittance and instantly see whether Form 15CA (Part A/B/C/D) and a 15CB CA certificate are required under Rule 37BB.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/15ca-15cb-applicability-checker">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+<meta property="og:site_name" content="Patron Accounting">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Form 15CA & 15CB Applicability Checker — Rule 37BB">
+<meta name="twitter:description" content="Answer 3 questions on your foreign remittance to see if Form 15CA (Part A/B/C/D) and a 15CB CA certificate apply under Rule 37BB.">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
+@endsection
+
+@section('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Form 15CA & 15CB Applicability Checker",
+  "description": "Form 15CA and 15CB Applicability Checker is a decision tool that takes the taxability of a foreign remittance, whether it appears on the Rule 37BB specified list, the aggregate amount during the financial year, and whether an Assessing Officer certificate has been obtained, and shows which compliance is required: no forms, Form 15CA Part A, Part B, Part C with a 15CB CA certificate, or Part D.",
+  "url": "https://www.patronaccounting.com/tools/15ca-15cb-applicability-checker",
+  "applicationCategory": "BusinessApplication",
+  "inLanguage": "en-IN",
+  "isAccessibleForFree": true,
+  "operatingSystem": "Any",
+  "datePublished": "2026-06-05T08:00:00+05:30",
+  "dateModified": "2026-06-05T08:00:00+05:30",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "INR"
+  },
+  "reviewedBy": {
+    "@type": "Person",
+    "@id": "https://patronaccounting.com/#founder",
+    "name": "CA Sundram Gupta",
+    "jobTitle": "Founder & Chartered Accountant",
+    "url": "https://www.patronaccounting.com/contact-page",
+    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+    "hasCredential": [{
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Professional Certification",
+      "name": "Chartered Accountant (CA)",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Institute of Chartered Accountants of India",
+        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+      }
+    }]
+  },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
+  "provider": {
+    "@id": "https://patronaccounting.com/#organization"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "Form 15CA & 15CB Applicability Checker", "item": "https://www.patronaccounting.com/tools/15ca-15cb-applicability-checker"}
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "When is Form 15CA required for a foreign remittance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Form 15CA is the declaration a remitter files electronically before paying a non-resident. It is needed whenever the payment is chargeable to tax in India. The specific part depends on the facts: Part A for taxable remittances up to 5 lakh in the year, Part B when an Assessing Officer certificate has been obtained, Part C when a 15CB certificate is used, and Part D when the sum is not chargeable to tax but is not on the Rule 37BB exempt list."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When is Form 15CB required?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Form 15CB is a certificate from a Chartered Accountant that is required only when the remittance is chargeable to tax in India and the aggregate of remittances exceeds 5 lakh in the financial year, and no Assessing Officer certificate under Section 195(2), 195(3) or 197 has been obtained. In that case the remitter files Form 15CA Part C supported by the CA's 15CB. Below 5 lakh, or where an AO certificate exists, 15CB is not needed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the ₹5 lakh threshold for 15CA and 15CB?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The 5 lakh figure is tested on the aggregate of remittances to non-residents during the financial year, not on a single transfer. If your total taxable remittances stay at or below 5 lakh, you file only Form 15CA Part A and no 15CB. Once the aggregate crosses 5 lakh and the sum is taxable, a 15CB certificate (with Part C) is required unless you hold an AO certificate, in which case Part B applies."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the four parts of Form 15CA?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Part A is for taxable remittances where the yearly aggregate does not exceed 5 lakh. Part B is for taxable remittances above 5 lakh where an Assessing Officer certificate under Section 195(2), 195(3) or 197 has been obtained. Part C is for taxable remittances above 5 lakh supported by a 15CB certificate from an accountant. Part D is for remittances that are not chargeable to tax and are not covered by the Rule 37BB specified list."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the Rule 37BB specified list?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Rule 37BB contains a specified list of 33 payment categories for which neither Form 15CA nor 15CB needs to be furnished. These include certain imports, personal remittances for travel, education and medical treatment, and other purposes that do not require RBI approval. Banks map these to RBI purpose codes. If your remittance matches a listed purpose, you can avoid both forms, though you should keep proof of the purpose code."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need any form if the remittance is not taxable in India?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If the remittance is not chargeable to tax in India, no 15CB is required. If it is also covered by the Rule 37BB specified list, no forms are required at all. If it is not on that list, you still file Form 15CA Part D to declare that the sum is not chargeable to tax. Determining taxability under Sections 5 and 9 and the relevant DTAA is the part where a CA's view matters most."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is Form 15CA Part B and when does it apply?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Part B applies when a taxable remittance exceeds 5 lakh in the year and the remitter has obtained an order or certificate from the Assessing Officer under Section 195(2), 195(3) or 197 specifying a nil or lower rate of tax. Because the AO has already determined the rate, a separate 15CB certificate is not needed; the remitter simply files Part B quoting the AO order, and tax is deducted at the rate specified."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does a DTAA change whether 15CB is needed?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A Double Taxation Avoidance Agreement can reduce or eliminate Indian tax on a remittance, but the remittance can still be chargeable to tax in principle. Where the sum is taxable and exceeds 5 lakh, a 15CB certificate is generally still required, and the CA examines the DTAA to certify the correct rate. The treaty position, tax residency certificate and Form 10F all feed into that determination."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are Form 15CA and 15CB being replaced in 2026?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Under the new income-tax framework, remittance reporting transitions to Forms 145 and 146 for remittances initiated on or after 1 April 2026, while the substance of the rules, the 5 lakh threshold, the four-part structure and the Rule 37BB exempt list remain the same. Forms 15CA and 15CB stay valid for remittances initiated before that date. This checker follows the established 15CA/15CB logic, which continues unchanged in substance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is this 15CA/15CB applicability checker free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the Patron Accounting Form 15CA and 15CB Applicability Checker is completely free with no signup required. All logic runs in your browser and nothing is stored on our servers. It applies the Rule 37BB and Section 195 decision tree to tell you whether you need no forms, Form 15CA Part A, Part B, Part C with 15CB, or Part D. The final filing and any CA certificate should still be handled by a Chartered Accountant."
+      }
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation">
     <div class="toc-nav-inner">

@@ -1,143 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Net Worth Certificate for Germany Visa 2026 | Patron Accounting</title>
-    <meta name="description" content="Net Worth Certificate for Germany visa: dual-currency INR and EUR, UDIN-verified, by ICAI CAs. Supports blocked account and sponsor proof. From INR 1,999.">
-    <link rel="canonical" href="/net-worth-certificate-for-germany-visa/pune">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Net Worth Certificate for Germany Visa 2026 | Patron Accounting">
-    <meta property="og:description" content="Net Worth Certificate for Germany visa: dual-currency INR and EUR, UDIN-verified, by ICAI CAs. Supports blocked account and sponsor proof. From INR 1,999.">
-    <meta property="og:url" content="/net-worth-certificate-for-germany-visa/pune">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Net Worth Certificate for Germany Visa 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Net Worth Certificate for Germany visa: dual-currency INR and EUR, UDIN-verified, by ICAI CAs. Supports blocked account and sponsor proof. From INR 1,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-germany-visa/pune/#service",
-        "name": "Net Worth Certificate for Germany Visa in Pune",
-        "description": "CA-certified dual-currency net worth certificate in INR and EUR for German visa applications, supporting the blocked account and sponsor financial proof, converted at the RBI reference rate and issued with a mandatory 18-digit UDIN by ICAI-registered Chartered Accountants in Pune.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/net-worth-certificate-for-germany-visa/pune" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Net worth", "sameAs": "https://en.wikipedia.org/wiki/Net_worth" }, { "@type": "Thing", "name": "Travel visa", "sameAs": "https://en.wikipedia.org/wiki/Travel_visa" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Net Worth Certificate for Germany Visa Service Plans",
-            "itemListElement": [
-                { "@type": "Offer", "name": "Net Worth Certificate for Germany Visa", "price": "1999", "priceCurrency": "INR", "description": "Starting from INR 1,999 (Exl GST and Govt. Charges)" }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-germany-visa/pune/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
-            { "@type": "ListItem", "position": 3, "name": "Net Worth Certificate for Germany Visa", "item": "https://www.patronaccounting.com/net-worth-certificate-for-germany-visa/pune" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-germany-visa/pune/#faq",
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "mainEntity": [
-            { "@type": "Question", "name": "Do I need a net worth certificate or a blocked account for a Germany visa?", "acceptedAnswer": { "@type": "Answer", "text": "For a German student visa, the blocked account holding EUR 11,904 for the year is the primary proof of funds. A CA net worth certificate is a supporting document evidencing the financial standing of the applicant or sponsoring parent, useful for the parental-income route, sponsorship, and job-seeker or Opportunity Card applications. Many applicants submit both." } },
-{ "@type": "Question", "name": "How much money do I need to show for a German student visa in 2026?", "acceptedAnswer": { "@type": "Answer", "text": "For 2025 and the 2026 intakes, the standard requirement is EUR 11,904 per year, which is EUR 992 per month, deposited in a blocked account. The Opportunity Card requires about EUR 1,091 per month and the vocational training visa about EUR 959 per month if no salary is received. A net worth certificate supports but does not replace these thresholds." } },
-{ "@type": "Question", "name": "Should the net worth certificate be in dual currency for Germany?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. German consulates expect financial documents that clearly show value in EUR. Patron Accounting issues the certificate in dual currency, INR and EUR, converted at the RBI reference rate on the certificate date. An INR-only certificate is a common reason for queries or rejection, so the EUR conversion is included by default." } },
-{ "@type": "Question", "name": "Can my parents assets be included for my Germany student visa?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. For applications using the parental-income or sponsor route, the sponsor\u0027s assets are routinely included. The certificate consolidates the applicant and sponsor, states the relationship, and is usually accompanied by a sponsorship affidavit. This demonstrates that the family can fund studies and living costs in Germany." } },
-{ "@type": "Question", "name": "Is UDIN mandatory on the certificate?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. ICAI mandates an 18-digit UDIN on every CA-issued certificate, including net worth certificates for visa purposes. The UDIN is verifiable online at udin.icai.org, which makes the certificate tamper-evident. A certificate without a valid UDIN can be questioned or rejected by the consulate or VFS." } },
-{ "@type": "Question", "name": "How quickly can Patron Accounting issue it in Pune?", "acceptedAnswer": { "@type": "Answer", "text": "For Pune applicants with documents ready, we offer same-day express issuance ahead of embassy or VFS appointments. Standard issuance is one to two working days. We support both in-person collection at our Pune office and fully remote delivery, so students and sponsors anywhere can complete the file on time." } }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-germany-visa/pune",
-        "name": "Net Worth Certificate for Germany Visa in Pune",
-        "description": "Net Worth Certificate for Germany visa: dual-currency INR and EUR, UDIN-verified, by ICAI CAs. Supports blocked account and sponsor proof. From INR 1,999.",
-        "url": "https://www.patronaccounting.com/net-worth-certificate-for-germany-visa/pune",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-germany-visa/pune/#service" },
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-germany-visa/pune/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How a Germany Visa Net Worth Certificate Is Issued",
-        "description": "The step-by-step process Patron Accounting follows to verify assets and issue a UDIN-backed dual-currency net worth certificate for a German visa file in Pune.",
-        "totalTime": "P2D",
-        "step": [
-            { "@type": "HowToStep", "position": 1, "name": "Confirm visa type and route", "text": "Confirm visa type (student, job-seeker, Opportunity Card, Type D) and whether the file uses self, parental-income, or sponsor route." },
-{ "@type": "HowToStep", "position": 2, "name": "Collect documents", "text": "Collect bank statements (3 to 6 months), FD certificates, property papers, investment proofs, ITR, PAN, passport, and sponsor papers if applicable." },
-{ "@type": "HowToStep", "position": 3, "name": "Verify assets", "text": "Independent verification of assets and liabilities under SA 500 (Audit Evidence) and SA 505 (External Confirmations)." },
-{ "@type": "HowToStep", "position": 4, "name": "Compute and convert", "text": "Compute total assets minus total liabilities and convert to EUR at the RBI reference rate on the certificate date." },
-{ "@type": "HowToStep", "position": 5, "name": "Draft dual-currency certificate", "text": "Draft the dual-currency certificate with applicant and sponsor details and the relationship statement." },
-{ "@type": "HowToStep", "position": 6, "name": "Issue with UDIN", "text": "Generate UDIN at udin.icai.org, sign, seal, and deliver (PDF and physical)." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Net Worth Certificate for Germany Visa Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Blocked account (Sperrkonto)", "description": "A German account holding EUR 11,904, releasing EUR 992 per month after arrival - the primary proof of funds." },
-{ "@type": "DefinedTerm", "name": "Verpflichtungserklarung", "description": "A formal letter of commitment from a German resident sponsor." },
-{ "@type": "DefinedTerm", "name": "Dual-currency format", "description": "Asset and liability values shown in INR and EUR at the RBI reference rate on the certificate date." },
-{ "@type": "DefinedTerm", "name": "UDIN", "description": "18-digit number generated by the CA, mandatory and online-verifiable." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -751,7 +618,145 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Net Worth Certificate for Germany Visa 2026 | Patron Accounting</title>
+    <meta name="description" content="Net Worth Certificate for Germany visa: dual-currency INR and EUR, UDIN-verified, by ICAI CAs. Supports blocked account and sponsor proof. From INR 1,999.">
+    <link rel="canonical" href="/net-worth-certificate-for-germany-visa/pune">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Net Worth Certificate for Germany Visa 2026 | Patron Accounting">
+    <meta property="og:description" content="Net Worth Certificate for Germany visa: dual-currency INR and EUR, UDIN-verified, by ICAI CAs. Supports blocked account and sponsor proof. From INR 1,999.">
+    <meta property="og:url" content="/net-worth-certificate-for-germany-visa/pune">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Net Worth Certificate for Germany Visa 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Net Worth Certificate for Germany visa: dual-currency INR and EUR, UDIN-verified, by ICAI CAs. Supports blocked account and sponsor proof. From INR 1,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-germany-visa/pune/#service",
+        "name": "Net Worth Certificate for Germany Visa in Pune",
+        "description": "CA-certified dual-currency net worth certificate in INR and EUR for German visa applications, supporting the blocked account and sponsor financial proof, converted at the RBI reference rate and issued with a mandatory 18-digit UDIN by ICAI-registered Chartered Accountants in Pune.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/net-worth-certificate-for-germany-visa/pune" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Net worth", "sameAs": "https://en.wikipedia.org/wiki/Net_worth" }, { "@type": "Thing", "name": "Travel visa", "sameAs": "https://en.wikipedia.org/wiki/Travel_visa" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Net Worth Certificate for Germany Visa Service Plans",
+            "itemListElement": [
+                { "@type": "Offer", "name": "Net Worth Certificate for Germany Visa", "price": "1999", "priceCurrency": "INR", "description": "Starting from INR 1,999 (Exl GST and Govt. Charges)" }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-germany-visa/pune/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
+            { "@type": "ListItem", "position": 3, "name": "Net Worth Certificate for Germany Visa", "item": "https://www.patronaccounting.com/net-worth-certificate-for-germany-visa/pune" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-germany-visa/pune/#faq",
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "mainEntity": [
+            { "@type": "Question", "name": "Do I need a net worth certificate or a blocked account for a Germany visa?", "acceptedAnswer": { "@type": "Answer", "text": "For a German student visa, the blocked account holding EUR 11,904 for the year is the primary proof of funds. A CA net worth certificate is a supporting document evidencing the financial standing of the applicant or sponsoring parent, useful for the parental-income route, sponsorship, and job-seeker or Opportunity Card applications. Many applicants submit both." } },
+{ "@type": "Question", "name": "How much money do I need to show for a German student visa in 2026?", "acceptedAnswer": { "@type": "Answer", "text": "For 2025 and the 2026 intakes, the standard requirement is EUR 11,904 per year, which is EUR 992 per month, deposited in a blocked account. The Opportunity Card requires about EUR 1,091 per month and the vocational training visa about EUR 959 per month if no salary is received. A net worth certificate supports but does not replace these thresholds." } },
+{ "@type": "Question", "name": "Should the net worth certificate be in dual currency for Germany?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. German consulates expect financial documents that clearly show value in EUR. Patron Accounting issues the certificate in dual currency, INR and EUR, converted at the RBI reference rate on the certificate date. An INR-only certificate is a common reason for queries or rejection, so the EUR conversion is included by default." } },
+{ "@type": "Question", "name": "Can my parents assets be included for my Germany student visa?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. For applications using the parental-income or sponsor route, the sponsor\u0027s assets are routinely included. The certificate consolidates the applicant and sponsor, states the relationship, and is usually accompanied by a sponsorship affidavit. This demonstrates that the family can fund studies and living costs in Germany." } },
+{ "@type": "Question", "name": "Is UDIN mandatory on the certificate?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. ICAI mandates an 18-digit UDIN on every CA-issued certificate, including net worth certificates for visa purposes. The UDIN is verifiable online at udin.icai.org, which makes the certificate tamper-evident. A certificate without a valid UDIN can be questioned or rejected by the consulate or VFS." } },
+{ "@type": "Question", "name": "How quickly can Patron Accounting issue it in Pune?", "acceptedAnswer": { "@type": "Answer", "text": "For Pune applicants with documents ready, we offer same-day express issuance ahead of embassy or VFS appointments. Standard issuance is one to two working days. We support both in-person collection at our Pune office and fully remote delivery, so students and sponsors anywhere can complete the file on time." } }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-germany-visa/pune",
+        "name": "Net Worth Certificate for Germany Visa in Pune",
+        "description": "Net Worth Certificate for Germany visa: dual-currency INR and EUR, UDIN-verified, by ICAI CAs. Supports blocked account and sponsor proof. From INR 1,999.",
+        "url": "https://www.patronaccounting.com/net-worth-certificate-for-germany-visa/pune",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-germany-visa/pune/#service" },
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-germany-visa/pune/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How a Germany Visa Net Worth Certificate Is Issued",
+        "description": "The step-by-step process Patron Accounting follows to verify assets and issue a UDIN-backed dual-currency net worth certificate for a German visa file in Pune.",
+        "totalTime": "P2D",
+        "step": [
+            { "@type": "HowToStep", "position": 1, "name": "Confirm visa type and route", "text": "Confirm visa type (student, job-seeker, Opportunity Card, Type D) and whether the file uses self, parental-income, or sponsor route." },
+{ "@type": "HowToStep", "position": 2, "name": "Collect documents", "text": "Collect bank statements (3 to 6 months), FD certificates, property papers, investment proofs, ITR, PAN, passport, and sponsor papers if applicable." },
+{ "@type": "HowToStep", "position": 3, "name": "Verify assets", "text": "Independent verification of assets and liabilities under SA 500 (Audit Evidence) and SA 505 (External Confirmations)." },
+{ "@type": "HowToStep", "position": 4, "name": "Compute and convert", "text": "Compute total assets minus total liabilities and convert to EUR at the RBI reference rate on the certificate date." },
+{ "@type": "HowToStep", "position": 5, "name": "Draft dual-currency certificate", "text": "Draft the dual-currency certificate with applicant and sponsor details and the relationship statement." },
+{ "@type": "HowToStep", "position": 6, "name": "Issue with UDIN", "text": "Generate UDIN at udin.icai.org, sign, seal, and deliver (PDF and physical)." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Net Worth Certificate for Germany Visa Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Blocked account (Sperrkonto)", "description": "A German account holding EUR 11,904, releasing EUR 992 per month after arrival - the primary proof of funds." },
+{ "@type": "DefinedTerm", "name": "Verpflichtungserklarung", "description": "A formal letter of commitment from a German resident sponsor." },
+{ "@type": "DefinedTerm", "name": "Dual-currency format", "description": "Asset and liability values shown in INR and EUR at the RBI reference rate on the certificate date." },
+{ "@type": "DefinedTerm", "name": "UDIN", "description": "18-digit number generated by the CA, mandatory and online-verifiable." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1389,22 +1394,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
-<!-- ============================================
-     CONSULTATION FORM — Country Dropdown + Validation + Bigin Integration
-     ============================================ -->
-{{-- Enquiry form markup + JS now in partials/enquiry-form.blade.php --}}
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1427,8 +1420,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1465,7 +1456,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1476,3 +1466,24 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+<!-- ============================================
+     CONSULTATION FORM — Country Dropdown + Validation + Bigin Integration
+     ============================================ -->
+{{-- Enquiry form markup + JS now in partials/enquiry-form.blade.php --}}
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

@@ -1,55 +1,5 @@
 @extends('layouts.app')
-@section('meta')
-<title>ESOP Perquisite Tax Calculator | Section 17(2)(vi)</title>
-<meta name="description" content="ESOP perquisite tax calculator under Section 17(2)(vi): TDS at slab plus surcharge and cess, cash needed to exercise, 80-IAC deferral, foreign flags. Try now!">
-<meta name="robots" content="index, follow">
-<meta name="theme-color" content="#15365f">
-<link rel="canonical" href="https://www.patronaccounting.com/tools/esop-perquisite-tax-calculator">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.patronaccounting.com/tools/esop-perquisite-tax-calculator">
-<meta property="og:title" content="Section 17(2)(vi) Perquisite Tax Calculator — ESOP 2026">
-<meta property="og:description" content="Compute ESOP perquisite tax under Section 17(2)(vi): TDS, cash needed, 80-IAC deferral, foreign flags.">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="1200">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-<meta property="og:site_name" content="Patron Accounting LLP">
-<meta property="og:locale" content="en_IN">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Section 17(2)(vi) Perquisite Tax Calculator — ESOP 2026">
-<meta name="twitter:description" content="ESOP perquisite tax under Section 17(2)(vi): TDS, cash needed, 80-IAC deferral.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-<link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
-<link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-@endsection
-@section('schema')
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Section 17(2)(vi) Perquisite Tax Calculator","description":"Section 17(2)(vi) Perquisite Tax Calculator computes ESOP perquisite tax for Indian employees on exercise of stock options. Takes number of options exercised, Fair Market Value at exercise, exercise price, marginal slab rate, surcharge bracket, Section 80-IAC startup eligibility, and foreign-company flag. Outputs perquisite value, slab tax + surcharge + cess, total TDS, net cash needed to exercise, Section 192(1C) deferral mechanics, and foreign-company Schedule FA + Form 67 implications for FY 2025-26 (AY 2026-27).","url":"https://www.patronaccounting.com/tools/esop-perquisite-tax-calculator","applicationCategory":"BusinessApplication","operatingSystem":"Any","inLanguage":"en-IN","isAccessibleForFree":true,"datePublished":"2026-05-14T08:00:00+05:30","dateModified":"2026-05-14T08:00:00+05:30","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"reviewedBy":{"@type":"Person","@id":"https://patronaccounting.com/#founder","name":"CA Sundram Gupta","jobTitle":"Founder & Chartered Accountant","url":"https://www.patronaccounting.com/contact-page","sameAs":["https://www.linkedin.com/in/ca-sundram-gupta"],"hasCredential":[{"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"Fellow Chartered Accountant (FCA)","recognizedBy":{"@type":"Organization","name":"Institute of Chartered Accountants of India","sameAs":"https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"}}]},"publisher":{"@id":"https://patronaccounting.com/#organization"},"provider":{"@id":"https://patronaccounting.com/#organization"}}
-</script>
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.patronaccounting.com/"},{"@type":"ListItem","position":2,"name":"Free Tools","item":"https://www.patronaccounting.com/tools"},{"@type":"ListItem","position":3,"name":"Section 17(2)(vi) Perquisite Tax Calculator","item":"https://www.patronaccounting.com/tools/esop-perquisite-tax-calculator"}]}
-</script>
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
-{"@type":"Question","name":"What is Section 17(2)(vi) perquisite tax on ESOPs?","acceptedAnswer":{"@type":"Answer","text":"Section 17(2)(vi) of the Income-tax Act, 1961 taxes the value of any specified security or sweat equity share allotted by an employer to an employee free of cost or at a concessional price. For ESOPs, the perquisite value equals Fair Market Value of the share on the exercise date minus the exercise price paid, multiplied by the number of options exercised. This is added to salary income and taxed at applicable slab rates."}},
-{"@type":"Question","name":"How is the FMV determined for ESOP perquisite tax?","acceptedAnswer":{"@type":"Answer","text":"For listed company shares, FMV is the average of the opening and closing price on the exercise date on the recognised stock exchange with highest trading volume. For unlisted shares, FMV must be certified by a SEBI Category I Registered Merchant Banker on the exercise date under Rule 3(8)(iii) of the Income-tax Rules, 1962. The valuation must be dated within 180 days of the exercise event."}},
-{"@type":"Question","name":"Who deducts TDS on ESOP perquisite and when?","acceptedAnswer":{"@type":"Answer","text":"The employer deducts TDS under Section 192 of the Income-tax Act, 1961 at the time of exercise. The perquisite is added to the employee's salary for that month or spread across remaining months of the financial year, and TDS is computed on aggregate salary income at the applicable slab rates. The TDS is reflected in Form 16 and Form 24Q, and the employee claims credit in their ITR."}},
-{"@type":"Question","name":"What is the Section 192(1C) deferral for startup employees?","acceptedAnswer":{"@type":"Answer","text":"Section 192(1C) of the Income-tax Act, 1961 allows employees of eligible startups to defer the perquisite TDS to the earliest of: 48 months (Budget 2026 proposes extending to five years) from end of relevant assessment year, sale of shares, or cessation of employment. The tax amount remains the same — only the payment timing is deferred. The employer deducts TDS only when the deferral period ends."}},
-{"@type":"Question","name":"Which startups qualify for Section 80-IAC ESOP deferral?","acceptedAnswer":{"@type":"Answer","text":"Only startups holding both DPIIT recognition AND an Inter-Ministerial Board (IMB) Certificate under Section 80-IAC qualify for ESOP perquisite tax deferral under Section 192(1C). DPIIT recognition alone is not sufficient. The startup must be a private limited company or LLP, incorporated within the last 10 years, with annual turnover under ₹100 crore, and engaged in innovation, development or improvement of products or services."}},
-{"@type":"Question","name":"Does ESOP perquisite tax apply to foreign company ESOPs?","acceptedAnswer":{"@type":"Answer","text":"Yes. If an Indian employee receives ESOPs from a foreign parent company (such as a US-listed parent of an Indian subsidiary), Section 17(2)(vi) perquisite tax applies on the same FMV-minus-exercise-price basis. FMV is the foreign exchange price converted to INR at the SBI TT buying rate on the exercise date. Additionally, the foreign shares must be disclosed in Schedule FA of the ITR every year until disposed of."}},
-{"@type":"Question","name":"What is Form 67 and when must it be filed?","acceptedAnswer":{"@type":"Answer","text":"Form 67 is the statement of foreign tax credit (FTC) under Rule 128 of the Income-tax Rules, 1962. If foreign tax is paid on the same foreign-company ESOP income (e.g. US withholding tax), Form 67 must be filed online before the due date of the ITR to claim FTC under the relevant Double Taxation Avoidance Agreement. Without Form 67, the foreign tax credit claim is rejected during processing."}},
-{"@type":"Question","name":"What are the surcharge rates on ESOP perquisite?","acceptedAnswer":{"@type":"Answer","text":"Surcharge depends on total taxable income including ESOP perquisite. Under the new regime: 10% if income exceeds ₹50 lakh, 15% above ₹1 crore, and 25% above ₹2 crore (capped — the 37% rate is removed). Old regime adds 37% above ₹5 crore. Health and Education Cess of 4% applies on tax plus surcharge in all cases. The marginal relief provision may apply at slab boundaries."}},
-{"@type":"Question","name":"Can the employee pay perquisite tax in instalments?","acceptedAnswer":{"@type":"Answer","text":"The statute does not prescribe instalments — TDS is due at exercise. However, most employers spread the TDS recovery across remaining months of the financial year through payroll, with the employee's consent. If a single-month deduction would make net salary unreasonably low, the employer may seek a written undertaking to recover in instalments. The total tax for the year remains unchanged."}},
-{"@type":"Question","name":"What is the cash outflow needed to exercise an ESOP?","acceptedAnswer":{"@type":"Answer","text":"The total cash needed equals the exercise price multiplied by options exercised plus the perquisite TDS (unless Section 192(1C) deferral applies). For example, exercising 1,000 options at ₹10 strike with FMV ₹500 creates a perquisite of ₹4,90,000. At 30% slab plus 4% cess, TDS is ₹1,52,880. Cash needed equals ₹10,000 exercise price plus ₹1,52,880 TDS — ₹1,62,880 total."}},
-{"@type":"Question","name":"How is ESOP perquisite reported in the ITR?","acceptedAnswer":{"@type":"Answer","text":"The perquisite value already appears in Form 16 issued by the employer and pre-fills in the salary schedule of ITR-2 or ITR-3. The employee must file ITR-2 or ITR-3, never ITR-1, because ESOP holders typically have capital gains schedule entries. Foreign-company ESOP holders additionally fill Schedule FA (foreign assets) and Schedule TR for foreign tax relief, with Form 67 filed separately online."}},
-{"@type":"Question","name":"Are ESOPs taxed at the time of grant or vesting?","acceptedAnswer":{"@type":"Answer","text":"No tax arises at grant or at vesting. Section 17(2)(vi) perquisite tax is triggered only on exercise — when the employee actually pays the exercise price and the company allots shares. Subsequently, when the employee sells the shares, capital gains tax applies on the difference between sale price and FMV at exercise. The tax journey for an ESOP holder has two events: exercise (salary perquisite) and sale (capital gains)."}},
-{"@type":"Question","name":"Is this Perquisite Tax Calculator a substitute for a CA opinion?","acceptedAnswer":{"@type":"Answer","text":"No. This calculator gives directional perquisite tax computation under Section 17(2)(vi) using standard slab logic. Real-world ESOP taxation involves slab interaction with other salary income, marginal relief, surcharge thresholds, DTAA relief for foreign ESOPs, Form 67 timing, advance tax under Sections 234B and 234C, and Section 80-IAC verification. Always consult a Chartered Accountant before exercising material ESOP positions."}}
-]}
-</script>
-
-@endsection
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
@@ -227,6 +177,59 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
   section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;max-width:100%;margin-bottom:2px;}
 }
 </style>
+@endpush
+
+@section('meta')
+<title>ESOP Perquisite Tax Calculator | Section 17(2)(vi)</title>
+<meta name="description" content="ESOP perquisite tax calculator under Section 17(2)(vi): TDS at slab plus surcharge and cess, cash needed to exercise, 80-IAC deferral, foreign flags. Try now!">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#15365f">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/esop-perquisite-tax-calculator">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/esop-perquisite-tax-calculator">
+<meta property="og:title" content="Section 17(2)(vi) Perquisite Tax Calculator — ESOP 2026">
+<meta property="og:description" content="Compute ESOP perquisite tax under Section 17(2)(vi): TDS, cash needed, 80-IAC deferral, foreign flags.">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+<meta property="og:site_name" content="Patron Accounting LLP">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Section 17(2)(vi) Perquisite Tax Calculator — ESOP 2026">
+<meta name="twitter:description" content="ESOP perquisite tax under Section 17(2)(vi): TDS, cash needed, 80-IAC deferral.">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+<link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+@endsection
+@section('schema')
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Section 17(2)(vi) Perquisite Tax Calculator","description":"Section 17(2)(vi) Perquisite Tax Calculator computes ESOP perquisite tax for Indian employees on exercise of stock options. Takes number of options exercised, Fair Market Value at exercise, exercise price, marginal slab rate, surcharge bracket, Section 80-IAC startup eligibility, and foreign-company flag. Outputs perquisite value, slab tax + surcharge + cess, total TDS, net cash needed to exercise, Section 192(1C) deferral mechanics, and foreign-company Schedule FA + Form 67 implications for FY 2025-26 (AY 2026-27).","url":"https://www.patronaccounting.com/tools/esop-perquisite-tax-calculator","applicationCategory":"BusinessApplication","operatingSystem":"Any","inLanguage":"en-IN","isAccessibleForFree":true,"datePublished":"2026-05-14T08:00:00+05:30","dateModified":"2026-05-14T08:00:00+05:30","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"reviewedBy":{"@type":"Person","@id":"https://patronaccounting.com/#founder","name":"CA Sundram Gupta","jobTitle":"Founder & Chartered Accountant","url":"https://www.patronaccounting.com/contact-page","sameAs":["https://www.linkedin.com/in/ca-sundram-gupta"],"hasCredential":[{"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"Fellow Chartered Accountant (FCA)","recognizedBy":{"@type":"Organization","name":"Institute of Chartered Accountants of India","sameAs":"https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"}}]},"publisher":{"@id":"https://patronaccounting.com/#organization"},"provider":{"@id":"https://patronaccounting.com/#organization"}}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.patronaccounting.com/"},{"@type":"ListItem","position":2,"name":"Free Tools","item":"https://www.patronaccounting.com/tools"},{"@type":"ListItem","position":3,"name":"Section 17(2)(vi) Perquisite Tax Calculator","item":"https://www.patronaccounting.com/tools/esop-perquisite-tax-calculator"}]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"What is Section 17(2)(vi) perquisite tax on ESOPs?","acceptedAnswer":{"@type":"Answer","text":"Section 17(2)(vi) of the Income-tax Act, 1961 taxes the value of any specified security or sweat equity share allotted by an employer to an employee free of cost or at a concessional price. For ESOPs, the perquisite value equals Fair Market Value of the share on the exercise date minus the exercise price paid, multiplied by the number of options exercised. This is added to salary income and taxed at applicable slab rates."}},
+{"@type":"Question","name":"How is the FMV determined for ESOP perquisite tax?","acceptedAnswer":{"@type":"Answer","text":"For listed company shares, FMV is the average of the opening and closing price on the exercise date on the recognised stock exchange with highest trading volume. For unlisted shares, FMV must be certified by a SEBI Category I Registered Merchant Banker on the exercise date under Rule 3(8)(iii) of the Income-tax Rules, 1962. The valuation must be dated within 180 days of the exercise event."}},
+{"@type":"Question","name":"Who deducts TDS on ESOP perquisite and when?","acceptedAnswer":{"@type":"Answer","text":"The employer deducts TDS under Section 192 of the Income-tax Act, 1961 at the time of exercise. The perquisite is added to the employee's salary for that month or spread across remaining months of the financial year, and TDS is computed on aggregate salary income at the applicable slab rates. The TDS is reflected in Form 16 and Form 24Q, and the employee claims credit in their ITR."}},
+{"@type":"Question","name":"What is the Section 192(1C) deferral for startup employees?","acceptedAnswer":{"@type":"Answer","text":"Section 192(1C) of the Income-tax Act, 1961 allows employees of eligible startups to defer the perquisite TDS to the earliest of: 48 months (Budget 2026 proposes extending to five years) from end of relevant assessment year, sale of shares, or cessation of employment. The tax amount remains the same — only the payment timing is deferred. The employer deducts TDS only when the deferral period ends."}},
+{"@type":"Question","name":"Which startups qualify for Section 80-IAC ESOP deferral?","acceptedAnswer":{"@type":"Answer","text":"Only startups holding both DPIIT recognition AND an Inter-Ministerial Board (IMB) Certificate under Section 80-IAC qualify for ESOP perquisite tax deferral under Section 192(1C). DPIIT recognition alone is not sufficient. The startup must be a private limited company or LLP, incorporated within the last 10 years, with annual turnover under ₹100 crore, and engaged in innovation, development or improvement of products or services."}},
+{"@type":"Question","name":"Does ESOP perquisite tax apply to foreign company ESOPs?","acceptedAnswer":{"@type":"Answer","text":"Yes. If an Indian employee receives ESOPs from a foreign parent company (such as a US-listed parent of an Indian subsidiary), Section 17(2)(vi) perquisite tax applies on the same FMV-minus-exercise-price basis. FMV is the foreign exchange price converted to INR at the SBI TT buying rate on the exercise date. Additionally, the foreign shares must be disclosed in Schedule FA of the ITR every year until disposed of."}},
+{"@type":"Question","name":"What is Form 67 and when must it be filed?","acceptedAnswer":{"@type":"Answer","text":"Form 67 is the statement of foreign tax credit (FTC) under Rule 128 of the Income-tax Rules, 1962. If foreign tax is paid on the same foreign-company ESOP income (e.g. US withholding tax), Form 67 must be filed online before the due date of the ITR to claim FTC under the relevant Double Taxation Avoidance Agreement. Without Form 67, the foreign tax credit claim is rejected during processing."}},
+{"@type":"Question","name":"What are the surcharge rates on ESOP perquisite?","acceptedAnswer":{"@type":"Answer","text":"Surcharge depends on total taxable income including ESOP perquisite. Under the new regime: 10% if income exceeds ₹50 lakh, 15% above ₹1 crore, and 25% above ₹2 crore (capped — the 37% rate is removed). Old regime adds 37% above ₹5 crore. Health and Education Cess of 4% applies on tax plus surcharge in all cases. The marginal relief provision may apply at slab boundaries."}},
+{"@type":"Question","name":"Can the employee pay perquisite tax in instalments?","acceptedAnswer":{"@type":"Answer","text":"The statute does not prescribe instalments — TDS is due at exercise. However, most employers spread the TDS recovery across remaining months of the financial year through payroll, with the employee's consent. If a single-month deduction would make net salary unreasonably low, the employer may seek a written undertaking to recover in instalments. The total tax for the year remains unchanged."}},
+{"@type":"Question","name":"What is the cash outflow needed to exercise an ESOP?","acceptedAnswer":{"@type":"Answer","text":"The total cash needed equals the exercise price multiplied by options exercised plus the perquisite TDS (unless Section 192(1C) deferral applies). For example, exercising 1,000 options at ₹10 strike with FMV ₹500 creates a perquisite of ₹4,90,000. At 30% slab plus 4% cess, TDS is ₹1,52,880. Cash needed equals ₹10,000 exercise price plus ₹1,52,880 TDS — ₹1,62,880 total."}},
+{"@type":"Question","name":"How is ESOP perquisite reported in the ITR?","acceptedAnswer":{"@type":"Answer","text":"The perquisite value already appears in Form 16 issued by the employer and pre-fills in the salary schedule of ITR-2 or ITR-3. The employee must file ITR-2 or ITR-3, never ITR-1, because ESOP holders typically have capital gains schedule entries. Foreign-company ESOP holders additionally fill Schedule FA (foreign assets) and Schedule TR for foreign tax relief, with Form 67 filed separately online."}},
+{"@type":"Question","name":"Are ESOPs taxed at the time of grant or vesting?","acceptedAnswer":{"@type":"Answer","text":"No tax arises at grant or at vesting. Section 17(2)(vi) perquisite tax is triggered only on exercise — when the employee actually pays the exercise price and the company allots shares. Subsequently, when the employee sells the shares, capital gains tax applies on the difference between sale price and FMV at exercise. The tax journey for an ESOP holder has two events: exercise (salary perquisite) and sale (capital gains)."}},
+{"@type":"Question","name":"Is this Perquisite Tax Calculator a substitute for a CA opinion?","acceptedAnswer":{"@type":"Answer","text":"No. This calculator gives directional perquisite tax computation under Section 17(2)(vi) using standard slab logic. Real-world ESOP taxation involves slab interaction with other salary income, marginal relief, surcharge thresholds, DTAA relief for foreign ESOPs, Form 67 timing, advance tax under Sections 234B and 234C, and Section 80-IAC verification. Always consult a Chartered Accountant before exercising material ESOP positions."}}
+]}
+</script>
+
+@endsection
 @section('content')
 
 <nav class="toc-nav" aria-label="Page Navigation"><div class="toc-nav-inner">

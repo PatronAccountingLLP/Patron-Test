@@ -1,192 +1,6 @@
 @extends('layouts.app')
-@section('meta')
-
-    <title>Income Tax Calculator FY 2025-26 | Old vs New Regime</title>
-    <meta name="description" content="Income tax calculator FY 2025-26 (AY 2026-27): compute tax on salary, capital gains, rental income with deductions, surcharge, cess & TDS. Free, CA-reviewed!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/income-tax-calculator">
-
-    <meta property="og:title" content="Income Tax Calculator FY 2025-26 — Free CA-Reviewed Tool">
-    <meta property="og:description" content="Compute total income tax for FY 2025-26 across salary, capital gains, rental, with deductions, surcharge, cess, and net payable / refund after TDS.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/income-tax-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Income Tax Calculator FY 2025-26 — Free CA-Reviewed Tool">
-    <meta name="twitter:description" content="Compute total income tax for FY 2025-26 across all income types with TDS adjustment for net payable / refund.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-
-    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-
-
-@endsection
-@section('schema')
-
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "Income Tax Calculator",
-      "description": "Income Tax Calculator computes total income tax liability for FY 2025-26 (AY 2026-27) across salary, other income (interest/dividends), house property (rental income with home loan interest deduction), and capital gains (Section 112A LTCG equity 12.5% above ₹1.25L, Section 111A STCG equity 20%, Section 112 LTCG other 12.5%, slab-rate STCG other). Supports both old and new tax regimes via toggle, age-based exemptions, Section 87A rebate with marginal relief, surcharge tiers (10%/15%/25%/37%, capped at 25% under new regime), 4% cess, and TDS adjustment for net payable or refund. Routes business income, foreign income, NRI/RNOR, and crypto cases to specialized tools and CA consultation.",
-      "url": "https://www.patronaccounting.com/tools/income-tax-calculator",
-      "applicationCategory": "BusinessApplication",
-      "operatingSystem": "Any",
-      "inLanguage": "en-IN",
-      "isAccessibleForFree": true,
-      "datePublished": "2026-05-06T08:00:00+05:30",
-      "dateModified": "2026-05-08T08:00:00+05:30",
-      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
-      "reviewedBy": {
-        "@type": "Person",
-        "@id": "https://patronaccounting.com/#founder",
-        "name": "CA Sundram Gupta",
-        "jobTitle": "Founder & Chartered Accountant",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Institute of Chartered Accountants of India",
-            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-          }
-        }]
-      },
-      "publisher": { "@id": "https://patronaccounting.com/#organization" },
-      "provider": {"@id": "https://patronaccounting.com/#organization"}
-    }
-    </script>
-
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Income Tax Calculator", "item": "https://www.patronaccounting.com/tools/income-tax-calculator"}
-      ]
-    }
-    </script>
-
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "How is income tax calculated for FY 2025-26?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Income tax for FY 2025-26 is computed in stages: total all income heads (salary, house property, capital gains, other), apply standard deduction and (if old regime) Chapter VI-A deductions, compute slab tax on the remaining taxable income, apply Section 87A rebate if eligible, add tax on special-rate income (LTCG/STCG), apply surcharge if income exceeds ₹50 lakh, and finally add 4% health and education cess. Net tax payable equals total tax minus TDS already deducted."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between slab-rate and special-rate income?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Slab-rate income includes salary, house property, business income, and other sources — taxed using regime-specific slabs (5%/10%/15%/20%/25%/30%). Special-rate income is taxed at fixed rates regardless of slab — LTCG on listed equity at 12.5% above ₹1.25L (Section 112A), STCG on listed equity at 20% (Section 111A), LTCG on other assets at 12.5% (Section 112). Section 87A rebate applies only to slab-rate income, not to special-rate income."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does Section 87A rebate work in FY 2025-26?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 87A provides tax rebate to resident individuals. Under the new regime for FY 2025-26: rebate up to ₹60,000 if total taxable income (excluding special-rate income) does not exceed ₹12,00,000. Marginal relief applies between ₹12L and ~₹12.7L. Under the old regime: rebate up to ₹12,500 if income does not exceed ₹5,00,000. Capital gains taxed under Sections 111A and 112A do not qualify for the rebate even if total income is within the threshold."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "When does surcharge apply on income tax?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Surcharge applies when total taxable income exceeds ₹50 lakh. Rates: 10% above ₹50L, 15% above ₹1cr, 25% above ₹2cr. Old regime adds a 37% bracket above ₹5cr; new regime caps at 25%. Surcharge is computed on tax (before cess) and is subject to marginal relief at each boundary to ensure additional tax does not exceed additional income. Surcharge rates differ for income types — special-rate capital gains have separate surcharge tables."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the standard deduction for FY 2025-26?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Standard deduction is available to salaried employees and pensioners. Under the new regime for FY 2025-26: ₹75,000 (raised by Budget 2024 from ₹50,000). Under the old regime: ₹50,000 (unchanged since FY 2019-20). The deduction is automatic — no documentation required. Family pension recipients can claim ₹25,000 or one-third of pension whichever is lower under both regimes. Non-salaried taxpayers do not get the standard deduction."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How are capital gains taxed in FY 2025-26?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Capital gains rates from 23 July 2024 onwards: Listed equity LTCG (held over 12 months) under Section 112A — 12.5% above ₹1.25 lakh annual exemption. Listed equity STCG (held under 12 months) under Section 111A — 20% flat. Property/gold/debt mutual fund LTCG (held over 24 months) under Section 112 — 12.5% with no indexation. Other STCG — taxed at slab rates. Capital gains tax is not subject to Section 87A rebate."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is house property income calculated?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "For let-out property, gross rental income minus 30% standard deduction (Section 24(a)) minus home loan interest (Section 24(b)) gives net house property income. For self-occupied property, only home loan interest deduction up to ₹2 lakh is allowed (old regime only — new regime does not allow this for self-occupied). House property loss can be set off against other income up to ₹2 lakh; balance carries forward for 8 years."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between TDS and self-assessment tax?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "TDS (Tax Deducted at Source) is tax deducted by the payer (employer for salary, bank for FD interest) and deposited with the government on your behalf — appears in Form 26AS and AIS. Self-assessment tax is the balance you pay yourself before filing ITR if total tax exceeds TDS plus advance tax. If TDS exceeds your total tax liability, you get a refund. The calculator subtracts TDS to show net payable or refundable amount."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I use this calculator if I have business income?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. This calculator is designed for individuals with salary, house property, capital gains, and other income (interest/dividend). Business or professional income — including freelance, consulting, F&O trading, intraday, partnership share, and crypto — requires different treatment. Use Patron's Section 44ADA Calculator for presumptive professional income, or the ITR Form Selector to determine whether ITR-3 or ITR-4 applies. Consult a CA for complex cases."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Are slab rates changing for FY 2026-27?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Budget 2026 (presented February 2026) made no changes to slab rates, Section 87A rebate amounts, surcharge tiers, or cess. Both old and new regime slabs continue unchanged for FY 2026-27. The Income Tax Act 2025 effective 1 April 2026 retains the substantive tax structure with renumbered references. Section 115BAC moves to Section 202, but rates and thresholds remain the same. The FY toggle in the calculator reflects this — math is identical for both years."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does this calculator handle foreign income or NRI cases?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. NRI, RNOR, and foreign income cases involve residential status determination under Section 6, DTAA benefits, foreign tax credit via Form 67, Schedule FA disclosure, and Black Money Act compliance — none of which this calculator handles. The calculator routes such cases to the ITR Form Selector tool and CA consultation. Resident Indians with foreign company ESOPs/RSUs also need Schedule FA disclosure regardless of residency status."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is the new regime different from the old regime?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "New regime has lower slab rates (0/5/10/15/20/25/30% with ₹4L exemption) but disallows most deductions like 80C, 80D, HRA, and self-occupied home loan interest. Standard deduction is ₹75,000. Section 87A rebate up to ₹60K makes income up to ₹12L tax-free. Old regime has higher slabs (5/20/30%) but allows all Chapter VI-A deductions, HRA, home loan interest. To compare both, use Patron's Old vs New Regime Calculator."
-          }
-        }
-      ]
-    }
-    </script>
-@endsection
-   
-    <style>
+@push('styles')
+<style>
         :root {
             --primary: #15365f; --primary-light: #1f4a7a; --primary-dark: #0a2240;
             --accent: #f26522; --accent-light: #ff8347;
@@ -442,6 +256,194 @@ button, .toggle-btn, .toggle-btn.active, .faq-question, .sidebar-link, .toc-nav 
     .schedule-table tbody td, .rate-table tbody td, .recon-table tbody td { padding: 8px 10px; }
 }
     </style>
+@endpush
+
+@section('meta')
+
+    <title>Income Tax Calculator FY 2025-26 | Old vs New Regime</title>
+    <meta name="description" content="Income tax calculator FY 2025-26 (AY 2026-27): compute tax on salary, capital gains, rental income with deductions, surcharge, cess & TDS. Free, CA-reviewed!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/income-tax-calculator">
+
+    <meta property="og:title" content="Income Tax Calculator FY 2025-26 — Free CA-Reviewed Tool">
+    <meta property="og:description" content="Compute total income tax for FY 2025-26 across salary, capital gains, rental, with deductions, surcharge, cess, and net payable / refund after TDS.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/income-tax-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Income Tax Calculator FY 2025-26 — Free CA-Reviewed Tool">
+    <meta name="twitter:description" content="Compute total income tax for FY 2025-26 across all income types with TDS adjustment for net payable / refund.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+
+
+@endsection
+@section('schema')
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Income Tax Calculator",
+      "description": "Income Tax Calculator computes total income tax liability for FY 2025-26 (AY 2026-27) across salary, other income (interest/dividends), house property (rental income with home loan interest deduction), and capital gains (Section 112A LTCG equity 12.5% above ₹1.25L, Section 111A STCG equity 20%, Section 112 LTCG other 12.5%, slab-rate STCG other). Supports both old and new tax regimes via toggle, age-based exemptions, Section 87A rebate with marginal relief, surcharge tiers (10%/15%/25%/37%, capped at 25% under new regime), 4% cess, and TDS adjustment for net payable or refund. Routes business income, foreign income, NRI/RNOR, and crypto cases to specialized tools and CA consultation.",
+      "url": "https://www.patronaccounting.com/tools/income-tax-calculator",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Any",
+      "inLanguage": "en-IN",
+      "isAccessibleForFree": true,
+      "datePublished": "2026-05-06T08:00:00+05:30",
+      "dateModified": "2026-05-08T08:00:00+05:30",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
+      "reviewedBy": {
+        "@type": "Person",
+        "@id": "https://patronaccounting.com/#founder",
+        "name": "CA Sundram Gupta",
+        "jobTitle": "Founder & Chartered Accountant",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Institute of Chartered Accountants of India",
+            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+          }
+        }]
+      },
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": {"@id": "https://patronaccounting.com/#organization"}
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Income Tax Calculator", "item": "https://www.patronaccounting.com/tools/income-tax-calculator"}
+      ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How is income tax calculated for FY 2025-26?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Income tax for FY 2025-26 is computed in stages: total all income heads (salary, house property, capital gains, other), apply standard deduction and (if old regime) Chapter VI-A deductions, compute slab tax on the remaining taxable income, apply Section 87A rebate if eligible, add tax on special-rate income (LTCG/STCG), apply surcharge if income exceeds ₹50 lakh, and finally add 4% health and education cess. Net tax payable equals total tax minus TDS already deducted."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between slab-rate and special-rate income?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Slab-rate income includes salary, house property, business income, and other sources — taxed using regime-specific slabs (5%/10%/15%/20%/25%/30%). Special-rate income is taxed at fixed rates regardless of slab — LTCG on listed equity at 12.5% above ₹1.25L (Section 112A), STCG on listed equity at 20% (Section 111A), LTCG on other assets at 12.5% (Section 112). Section 87A rebate applies only to slab-rate income, not to special-rate income."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does Section 87A rebate work in FY 2025-26?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 87A provides tax rebate to resident individuals. Under the new regime for FY 2025-26: rebate up to ₹60,000 if total taxable income (excluding special-rate income) does not exceed ₹12,00,000. Marginal relief applies between ₹12L and ~₹12.7L. Under the old regime: rebate up to ₹12,500 if income does not exceed ₹5,00,000. Capital gains taxed under Sections 111A and 112A do not qualify for the rebate even if total income is within the threshold."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When does surcharge apply on income tax?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Surcharge applies when total taxable income exceeds ₹50 lakh. Rates: 10% above ₹50L, 15% above ₹1cr, 25% above ₹2cr. Old regime adds a 37% bracket above ₹5cr; new regime caps at 25%. Surcharge is computed on tax (before cess) and is subject to marginal relief at each boundary to ensure additional tax does not exceed additional income. Surcharge rates differ for income types — special-rate capital gains have separate surcharge tables."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the standard deduction for FY 2025-26?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Standard deduction is available to salaried employees and pensioners. Under the new regime for FY 2025-26: ₹75,000 (raised by Budget 2024 from ₹50,000). Under the old regime: ₹50,000 (unchanged since FY 2019-20). The deduction is automatic — no documentation required. Family pension recipients can claim ₹25,000 or one-third of pension whichever is lower under both regimes. Non-salaried taxpayers do not get the standard deduction."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How are capital gains taxed in FY 2025-26?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Capital gains rates from 23 July 2024 onwards: Listed equity LTCG (held over 12 months) under Section 112A — 12.5% above ₹1.25 lakh annual exemption. Listed equity STCG (held under 12 months) under Section 111A — 20% flat. Property/gold/debt mutual fund LTCG (held over 24 months) under Section 112 — 12.5% with no indexation. Other STCG — taxed at slab rates. Capital gains tax is not subject to Section 87A rebate."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is house property income calculated?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For let-out property, gross rental income minus 30% standard deduction (Section 24(a)) minus home loan interest (Section 24(b)) gives net house property income. For self-occupied property, only home loan interest deduction up to ₹2 lakh is allowed (old regime only — new regime does not allow this for self-occupied). House property loss can be set off against other income up to ₹2 lakh; balance carries forward for 8 years."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between TDS and self-assessment tax?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "TDS (Tax Deducted at Source) is tax deducted by the payer (employer for salary, bank for FD interest) and deposited with the government on your behalf — appears in Form 26AS and AIS. Self-assessment tax is the balance you pay yourself before filing ITR if total tax exceeds TDS plus advance tax. If TDS exceeds your total tax liability, you get a refund. The calculator subtracts TDS to show net payable or refundable amount."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I use this calculator if I have business income?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. This calculator is designed for individuals with salary, house property, capital gains, and other income (interest/dividend). Business or professional income — including freelance, consulting, F&O trading, intraday, partnership share, and crypto — requires different treatment. Use Patron's Section 44ADA Calculator for presumptive professional income, or the ITR Form Selector to determine whether ITR-3 or ITR-4 applies. Consult a CA for complex cases."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are slab rates changing for FY 2026-27?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Budget 2026 (presented February 2026) made no changes to slab rates, Section 87A rebate amounts, surcharge tiers, or cess. Both old and new regime slabs continue unchanged for FY 2026-27. The Income Tax Act 2025 effective 1 April 2026 retains the substantive tax structure with renumbered references. Section 115BAC moves to Section 202, but rates and thresholds remain the same. The FY toggle in the calculator reflects this — math is identical for both years."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does this calculator handle foreign income or NRI cases?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. NRI, RNOR, and foreign income cases involve residential status determination under Section 6, DTAA benefits, foreign tax credit via Form 67, Schedule FA disclosure, and Black Money Act compliance — none of which this calculator handles. The calculator routes such cases to the ITR Form Selector tool and CA consultation. Resident Indians with foreign company ESOPs/RSUs also need Schedule FA disclosure regardless of residency status."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the new regime different from the old regime?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "New regime has lower slab rates (0/5/10/15/20/25/30% with ₹4L exemption) but disallows most deductions like 80C, 80D, HRA, and self-occupied home loan interest. Standard deduction is ₹75,000. Section 87A rebate up to ₹60K makes income up to ₹12L tax-free. Old regime has higher slabs (5/20/30%) but allows all Chapter VI-A deductions, HRA, home loan interest. To compare both, use Patron's Old vs New Regime Calculator."
+          }
+        }
+      ]
+    }
+    </script>
+@endsection
 @section('content')
 
 <nav class="toc-nav" aria-label="Page Navigation">

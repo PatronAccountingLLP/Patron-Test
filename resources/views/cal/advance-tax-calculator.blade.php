@@ -1,191 +1,9 @@
 @extends('layouts.app')
-@section('meta')
-    <title>Advance Tax Calculator | 234B/234C FY 2025-26 & 2026-27</title>
-    <meta name="description" content="Advance Tax Calculator: quarterly installments, due dates & Section 234B/234C interest for FY 2025-26 and FY 2026-27. Free CA-reviewed tool. Calculate now!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/advance-tax-calculator">
-
-    <meta property="og:title" content="Advance Tax Calculator — Schedule + 234B/234C FY 2025-26">
-    <meta property="og:description" content="Compute quarterly advance tax installments and Section 234B/234C interest for FY 2025-26 with full regime and presumptive taxation support.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/advance-tax-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Advance Tax Calculator — Schedule + 234B/234C FY 2025-26">
-    <meta name="twitter:description" content="Quarterly advance tax installments + Section 234B/234C interest for FY 2025-26. Free CA-reviewed tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-
-    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-@endsection
-@section('schema')
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "Advance Tax Calculator",
-      "description": "Advance Tax Calculator computes quarterly advance tax installments, due dates under Section 211 of the Income Tax Act, and interest payable under Section 234B (default in payment of advance tax) and Section 234C (deferment of advance tax installments) for FY 2025-26 (AY 2026-27). Supports old and new tax regimes, salaried and business income, presumptive taxation under Sections 44AD/44ADA, and senior citizen exemptions. Provides a complete schedule with tolerance bands (12%/36%) for Q1 and Q2 plus exact 75%/100% thresholds for Q3/Q4.",
-      "url": "https://www.patronaccounting.com/tools/advance-tax-calculator",
-      "applicationCategory": "BusinessApplication",
-      "operatingSystem": "Any",
-      "inLanguage": "en-IN",
-      "isAccessibleForFree": true,
-      "datePublished": "2026-05-06T08:00:00+05:30",
-      "dateModified": "2026-05-08T08:00:00+05:30",
-      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
-      "reviewedBy": {
-        "@type": "Person",
-        "@id": "https://patronaccounting.com/#founder",
-        "name": "CA Sundram Gupta",
-        "jobTitle": "Founder & Chartered Accountant",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Institute of Chartered Accountants of India",
-            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-          }
-        }]
-      },
-      "publisher": { "@id": "https://patronaccounting.com/#organization" },
-      "provider": {"@id": "https://patronaccounting.com/#organization"}
-    }
-    </script>
-
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Advance Tax Calculator", "item": "https://www.patronaccounting.com/tools/advance-tax-calculator"}
-      ]
-    }
-    </script>
-
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is advance tax and who needs to pay it?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Advance tax is income tax paid in installments during the financial year on a pay-as-you-earn basis, instead of a single lump-sum at year-end. Under Section 208, you must pay advance tax if total tax liability after TDS exceeds ₹10,000 in a financial year. This applies to individuals, HUFs, partnership firms, companies, and professionals. Salaried persons usually have advance tax covered by employer TDS unless they have additional income from rent, capital gains, freelancing, or interest."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are the advance tax due dates for FY 2025-26?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "For FY 2025-26 (AY 2026-27), advance tax is paid in four installments under Section 211: 15th June 2025 (15% of total tax), 15th September 2025 (45% cumulative), 15th December 2025 (75% cumulative), and 15th March 2026 (100% of total tax). Any tax paid up to 31 March 2026 is still treated as advance tax for that year. Missing any deadline triggers interest under Section 234C."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is Section 234B interest calculated?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 234B applies if your total advance tax paid by 31 March is less than 90% of assessed tax. Interest is charged at 1% per month (simple interest) on the entire shortfall amount, calculated from 1 April of the assessment year until the date you pay the remaining tax or until self-assessment. Any part of a month counts as a full month under Rule 119A. The tax shortfall is rounded down to the nearest ₹100 before applying the rate."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is Section 234C interest calculated?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 234C levies interest for deferment of installments. For each of the first three installments (15 June, 15 September, 15 December), interest at 1% per month is charged for 3 months on the shortfall below the prescribed cumulative percentage. For the fourth installment (15 March), interest is charged for 1 month only. Tolerance bands apply: 12% paid by 15 June (instead of 15%) and 36% by 15 September (instead of 45%) avoid Section 234C interest for those quarters."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Are senior citizens exempt from advance tax?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, under Section 207(2), resident senior citizens aged 60 years or above with no income from business or profession are exempt from paying advance tax in installments. They can pay the entire tax in one shot before 31 March of the financial year. However, if a senior citizen has any business or professional income, advance tax rules apply normally with quarterly installments. Non-resident senior citizens do not qualify for this exemption."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does advance tax work for presumptive taxpayers under Section 44AD or 44ADA?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Taxpayers opting for presumptive taxation under Section 44AD (small businesses) or Section 44ADA (specified professionals) enjoy a simplified single-installment rule. Under Section 211(1)(b), the entire advance tax can be paid in one installment by 15 March of the financial year. No interest under Section 234C is charged for the first three quarters. However, Section 234B interest still applies if total advance tax paid is less than 90% of assessed tax by 31 March."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is TDS counted toward advance tax?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. TDS deducted by your employer (Section 192), bank (Section 194A), or any other deductor is counted as tax already paid. Advance tax liability is computed on the net amount: total tax minus TDS. If TDS already covers your full liability, no advance tax is required. This is why most salaried taxpayers without additional income do not need to pay advance tax — their TDS is enough."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I pay advance tax in a single installment instead of four quarterly installments?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, you can pay the entire estimated tax in one shot before 15 March (or even earlier). However, this only avoids Section 234B interest. You will still incur Section 234C interest for the missed first three quarters because installments were deferred. The most economical approach is to follow the quarterly schedule. Exception: presumptive taxpayers under 44AD/44ADA and senior citizens without business income can pay in one installment without 234C interest."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is Rule 119A and how does it affect interest calculation?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Rule 119A of the Income Tax Rules prescribes the standardised method for computing interest. Two key rules apply: (1) the tax amount is rounded down to the nearest multiple of ₹100, ignoring fractions below ₹100; and (2) any part of a month is treated as a full month. So if interest is due for 2 months and 5 days, you pay for 3 full months. These rules apply uniformly to Sections 234A, 234B, and 234C."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do I pay advance tax online?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Advance tax is paid through the Income Tax e-filing portal (incometax.gov.in) using Challan No. 280. Steps: (1) Log in or visit the e-Pay Tax page; (2) Select Challan 280; (3) Choose 'Advance Tax (100)' as the payment type; (4) Enter PAN, assessment year, and amount; (5) Pay via net banking, debit card, UPI, or NEFT/RTGS. Save the challan receipt — it is required when filing your ITR. The tax department updates Form 26AS within a few days of payment."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens if I overpay advance tax?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Overpaid advance tax becomes a refund when you file your ITR. The Income Tax Department processes refunds along with interest under Section 244A at 0.5% per month from 1 April of the assessment year until refund is issued. Refunds are credited to the bank account pre-validated on the e-filing portal. There is no penalty for overpayment, and revising downward in subsequent installments is allowed if your income estimate reduces during the year."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How will advance tax change under the Income Tax Act 2025?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The Income Tax Act 2025, effective 1 April 2026, retains the substance of Sections 208 (advance tax liability), 211 (installment schedule), 234B and 234C (interest provisions) with renumbered references. The 15-15-30-30-25 quarterly percentages, ₹10,000 threshold, 1% monthly interest rate, 90% safe harbour, and senior citizen exemption all continue. For FY 2025-26 returns filed in 2026, the existing provisions apply. Tax Year 2026-27 onwards uses the corresponding sections under the 2025 Act."
-          }
-        }
-      ]
-    }
-    </script>
-@endsection
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
-    <style>
+@push('styles')
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
         :root {
             --primary: #15365f; --primary-light: #1f4a7a; --primary-dark: #0a2240;
             --accent: #f26522; --accent-light: #ff8347;
@@ -459,7 +277,190 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
   section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;max-width:100%;margin-bottom:2px;}
 }
 </style>
+@endpush
 
+@section('meta')
+    <title>Advance Tax Calculator | 234B/234C FY 2025-26 & 2026-27</title>
+    <meta name="description" content="Advance Tax Calculator: quarterly installments, due dates & Section 234B/234C interest for FY 2025-26 and FY 2026-27. Free CA-reviewed tool. Calculate now!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/advance-tax-calculator">
+
+    <meta property="og:title" content="Advance Tax Calculator — Schedule + 234B/234C FY 2025-26">
+    <meta property="og:description" content="Compute quarterly advance tax installments and Section 234B/234C interest for FY 2025-26 with full regime and presumptive taxation support.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/advance-tax-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Advance Tax Calculator — Schedule + 234B/234C FY 2025-26">
+    <meta name="twitter:description" content="Quarterly advance tax installments + Section 234B/234C interest for FY 2025-26. Free CA-reviewed tool.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+@endsection
+@section('schema')
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Advance Tax Calculator",
+      "description": "Advance Tax Calculator computes quarterly advance tax installments, due dates under Section 211 of the Income Tax Act, and interest payable under Section 234B (default in payment of advance tax) and Section 234C (deferment of advance tax installments) for FY 2025-26 (AY 2026-27). Supports old and new tax regimes, salaried and business income, presumptive taxation under Sections 44AD/44ADA, and senior citizen exemptions. Provides a complete schedule with tolerance bands (12%/36%) for Q1 and Q2 plus exact 75%/100% thresholds for Q3/Q4.",
+      "url": "https://www.patronaccounting.com/tools/advance-tax-calculator",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Any",
+      "inLanguage": "en-IN",
+      "isAccessibleForFree": true,
+      "datePublished": "2026-05-06T08:00:00+05:30",
+      "dateModified": "2026-05-08T08:00:00+05:30",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
+      "reviewedBy": {
+        "@type": "Person",
+        "@id": "https://patronaccounting.com/#founder",
+        "name": "CA Sundram Gupta",
+        "jobTitle": "Founder & Chartered Accountant",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Institute of Chartered Accountants of India",
+            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+          }
+        }]
+      },
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": {"@id": "https://patronaccounting.com/#organization"}
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Advance Tax Calculator", "item": "https://www.patronaccounting.com/tools/advance-tax-calculator"}
+      ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is advance tax and who needs to pay it?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Advance tax is income tax paid in installments during the financial year on a pay-as-you-earn basis, instead of a single lump-sum at year-end. Under Section 208, you must pay advance tax if total tax liability after TDS exceeds ₹10,000 in a financial year. This applies to individuals, HUFs, partnership firms, companies, and professionals. Salaried persons usually have advance tax covered by employer TDS unless they have additional income from rent, capital gains, freelancing, or interest."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the advance tax due dates for FY 2025-26?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For FY 2025-26 (AY 2026-27), advance tax is paid in four installments under Section 211: 15th June 2025 (15% of total tax), 15th September 2025 (45% cumulative), 15th December 2025 (75% cumulative), and 15th March 2026 (100% of total tax). Any tax paid up to 31 March 2026 is still treated as advance tax for that year. Missing any deadline triggers interest under Section 234C."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is Section 234B interest calculated?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 234B applies if your total advance tax paid by 31 March is less than 90% of assessed tax. Interest is charged at 1% per month (simple interest) on the entire shortfall amount, calculated from 1 April of the assessment year until the date you pay the remaining tax or until self-assessment. Any part of a month counts as a full month under Rule 119A. The tax shortfall is rounded down to the nearest ₹100 before applying the rate."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is Section 234C interest calculated?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 234C levies interest for deferment of installments. For each of the first three installments (15 June, 15 September, 15 December), interest at 1% per month is charged for 3 months on the shortfall below the prescribed cumulative percentage. For the fourth installment (15 March), interest is charged for 1 month only. Tolerance bands apply: 12% paid by 15 June (instead of 15%) and 36% by 15 September (instead of 45%) avoid Section 234C interest for those quarters."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are senior citizens exempt from advance tax?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, under Section 207(2), resident senior citizens aged 60 years or above with no income from business or profession are exempt from paying advance tax in installments. They can pay the entire tax in one shot before 31 March of the financial year. However, if a senior citizen has any business or professional income, advance tax rules apply normally with quarterly installments. Non-resident senior citizens do not qualify for this exemption."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does advance tax work for presumptive taxpayers under Section 44AD or 44ADA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Taxpayers opting for presumptive taxation under Section 44AD (small businesses) or Section 44ADA (specified professionals) enjoy a simplified single-installment rule. Under Section 211(1)(b), the entire advance tax can be paid in one installment by 15 March of the financial year. No interest under Section 234C is charged for the first three quarters. However, Section 234B interest still applies if total advance tax paid is less than 90% of assessed tax by 31 March."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is TDS counted toward advance tax?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. TDS deducted by your employer (Section 192), bank (Section 194A), or any other deductor is counted as tax already paid. Advance tax liability is computed on the net amount: total tax minus TDS. If TDS already covers your full liability, no advance tax is required. This is why most salaried taxpayers without additional income do not need to pay advance tax — their TDS is enough."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I pay advance tax in a single installment instead of four quarterly installments?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, you can pay the entire estimated tax in one shot before 15 March (or even earlier). However, this only avoids Section 234B interest. You will still incur Section 234C interest for the missed first three quarters because installments were deferred. The most economical approach is to follow the quarterly schedule. Exception: presumptive taxpayers under 44AD/44ADA and senior citizens without business income can pay in one installment without 234C interest."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Rule 119A and how does it affect interest calculation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rule 119A of the Income Tax Rules prescribes the standardised method for computing interest. Two key rules apply: (1) the tax amount is rounded down to the nearest multiple of ₹100, ignoring fractions below ₹100; and (2) any part of a month is treated as a full month. So if interest is due for 2 months and 5 days, you pay for 3 full months. These rules apply uniformly to Sections 234A, 234B, and 234C."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I pay advance tax online?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Advance tax is paid through the Income Tax e-filing portal (incometax.gov.in) using Challan No. 280. Steps: (1) Log in or visit the e-Pay Tax page; (2) Select Challan 280; (3) Choose 'Advance Tax (100)' as the payment type; (4) Enter PAN, assessment year, and amount; (5) Pay via net banking, debit card, UPI, or NEFT/RTGS. Save the challan receipt — it is required when filing your ITR. The tax department updates Form 26AS within a few days of payment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if I overpay advance tax?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Overpaid advance tax becomes a refund when you file your ITR. The Income Tax Department processes refunds along with interest under Section 244A at 0.5% per month from 1 April of the assessment year until refund is issued. Refunds are credited to the bank account pre-validated on the e-filing portal. There is no penalty for overpayment, and revising downward in subsequent installments is allowed if your income estimate reduces during the year."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How will advance tax change under the Income Tax Act 2025?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Income Tax Act 2025, effective 1 April 2026, retains the substance of Sections 208 (advance tax liability), 211 (installment schedule), 234B and 234C (interest provisions) with renumbered references. The 15-15-30-30-25 quarterly percentages, ₹10,000 threshold, 1% monthly interest rate, 90% safe harbour, and senior citizen exemption all continue. For FY 2025-26 returns filed in 2026, the existing provisions apply. Tax Year 2026-27 onwards uses the corresponding sections under the 2025 Act."
+          }
+        }
+      ]
+    }
+    </script>
+@endsection
 @section('content')
 
 <nav class="toc-nav" aria-label="Page Navigation">

@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,208 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>Bank Reconciliation in Mumbai 2026 | Patron Accounting</title>
-    <meta name="description" content="Signed monthly BRS per account for Mumbai firms from INR 2,499/mo (Exl GST and Govt. Charges). CA team clears gateway and cheque gaps fast.">
-    <link rel="canonical" href="/bank-credit-card-reconciliation-services/mumbai">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Bank Reconciliation in Mumbai 2026 | Patron Accounting">
-    <meta property="og:description" content="Signed monthly BRS per account for Mumbai firms from INR 2,499/mo (Exl GST and Govt. Charges). CA team clears gateway and cheque gaps fast.">
-    <meta property="og:url" content="/bank-credit-card-reconciliation-services/mumbai">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Bank Reconciliation in Mumbai 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Signed monthly BRS per account for Mumbai firms from INR 2,499/mo (Exl GST and Govt. Charges). CA team clears gateway and cheque gaps fast.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services/mumbai#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Bank and Credit Card Reconciliation Services",
-          "item": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Bank and Credit Card Reconciliation Services in Mumbai",
-          "item": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services/mumbai"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services/mumbai#faq",
-      "datePublished": "2026-06-23T08:00:00+05:30",
-      "dateModified": "2026-06-23T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Do you handle Razorpay and Stripe gateway settlements for Powai startups?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. For Powai and Andheri SaaS teams we pull each Razorpay or Stripe settlement file, split it into gross sales, processor fees, refunds, and TCS, then tie the net payout to the bank deposit. This stops sales being overstated and ensures the gateway income on your books matches what actually landed in the account."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What will reconciliation cost for a Mumbai company?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Pricing opens at INR 2,499/mo (Exl GST and Govt. Charges) and scales with how many bank and card accounts you hold, your monthly transaction count, and the gateways involved. A BKC NBFC juggling several current accounts and a Bhiwandi warehouse with heavy cheque traffic each get a locked monthly figure quoted upfront, with no surprise add-ons later."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How frequently should a Mumbai firm reconcile its accounts?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A monthly cycle ahead of every GSTR-3B and GSTR-1 is the sensible baseline. Busy Andheri media houses and high-turnover Bhiwandi distributors often prefer a weekly pass to stay on top of cheque and NEFT flow. Reconciling each month keeps your records audit-ready under Companies Act 2013 Section 128 and Income Tax Act Section 44AA."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can several bank accounts and corporate cards be reconciled in one go?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Absolutely. Within a single monthly run we cover all your current, OD, CC, and corporate card accounts across every bank. Each account is tied back to its own statement, charges and interest are posted, and you receive a separate signed BRS per account plus a consolidated view, which suits multi-account BKC finance firms especially well."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What information does a bank reconciliation statement give you?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The BRS sets out, item by item, why your ledger balance and the bank statement balance differ. It captures uncleared cheques, deposits still in transit, bank charges, interest, and auto-debits you had not booked. Patron issues one signed BRS per account every month so Mumbai owners can trace each difference back to its source with confidence."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What records do you need to start in Mumbai?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Send the period's bank and credit card statements, your Tally, Zoho Books, or QuickBooks file, gateway exports from Razorpay, Stripe, or marketplaces, and any loan or OD account details. We reconcile all of it against your ledgers and return a short list of unmatched entries for you to confirm before sign-off, keeping the back-and-forth minimal."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does Patron reconcile inside our existing Tally or Zoho Books file?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. We work straight inside whatever your Mumbai business already runs, whether that is Tally, Zoho Books, QuickBooks, or Xero, so no migration is needed. Where a bank feed exists we use it, then post any missing entries, tick off matched items, and close the period with a tidy balance carried into the next month."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why does our book balance never agree with the bank?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The usual culprits are cheques not yet cleared, deposits in transit, charges and interest left unbooked, recurring auto-debits such as EMIs and subscriptions, double-entered vouchers, and gateway fees skimmed at settlement. Patron traces each one, records what is missing, strips duplicate entries, and settles genuine timing gaps so the two balances finally line up."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services/mumbai#service",
-      "name": "Bank and Credit Card Reconciliation Services in Mumbai",
-      "description": "Monthly bank and credit card reconciliation in Mumbai matches your books against every statement, captures unrecorded charges and auto-debits, removes duplicates, and clears un-reconciled items. Patron Accounting delivers a signed BRS per account for BKC, Andheri, and Powai businesses.",
-      "serviceType": "Bank and Credit Card Reconciliation",
-      "url": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services/mumbai",
-      "areaServed": {
-        "@type": "City",
-        "name": "Mumbai",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Maharashtra"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#localbusiness-mumbai"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Bank reconciliation",
-          "sameAs": "https://en.wikipedia.org/wiki/Bank_reconciliation"
-        },
-        {
-          "@type": "Thing",
-          "name": "Bookkeeping",
-          "sameAs": "https://en.wikipedia.org/wiki/Bookkeeping"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Bank Reconciliation Plans in Mumbai",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "price": "2499",
-            "priceSpecification": {
-              "@type": "UnitPriceSpecification",
-              "priceCurrency": "INR",
-              "price": "2499",
-              "unitText": "per month"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Monthly Bank and Credit Card Reconciliation"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness-mumbai",
-      "name": "Patron Accounting LLP - Mumbai",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services/mumbai",
-      "telephone": "+91-9699936369",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Mumbai"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Mumbai",
-        "addressRegion": "Maharashtra",
-        "postalCode": "400020",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -815,7 +612,217 @@
         .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
 
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>Bank Reconciliation in Mumbai 2026 | Patron Accounting</title>
+    <meta name="description" content="Signed monthly BRS per account for Mumbai firms from INR 2,499/mo (Exl GST and Govt. Charges). CA team clears gateway and cheque gaps fast.">
+    <link rel="canonical" href="/bank-credit-card-reconciliation-services/mumbai">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Bank Reconciliation in Mumbai 2026 | Patron Accounting">
+    <meta property="og:description" content="Signed monthly BRS per account for Mumbai firms from INR 2,499/mo (Exl GST and Govt. Charges). CA team clears gateway and cheque gaps fast.">
+    <meta property="og:url" content="/bank-credit-card-reconciliation-services/mumbai">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Bank Reconciliation in Mumbai 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Signed monthly BRS per account for Mumbai firms from INR 2,499/mo (Exl GST and Govt. Charges). CA team clears gateway and cheque gaps fast.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services/mumbai#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Bank and Credit Card Reconciliation Services",
+          "item": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Bank and Credit Card Reconciliation Services in Mumbai",
+          "item": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services/mumbai"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services/mumbai#faq",
+      "datePublished": "2026-06-23T08:00:00+05:30",
+      "dateModified": "2026-06-23T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Do you handle Razorpay and Stripe gateway settlements for Powai startups?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. For Powai and Andheri SaaS teams we pull each Razorpay or Stripe settlement file, split it into gross sales, processor fees, refunds, and TCS, then tie the net payout to the bank deposit. This stops sales being overstated and ensures the gateway income on your books matches what actually landed in the account."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What will reconciliation cost for a Mumbai company?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pricing opens at INR 2,499/mo (Exl GST and Govt. Charges) and scales with how many bank and card accounts you hold, your monthly transaction count, and the gateways involved. A BKC NBFC juggling several current accounts and a Bhiwandi warehouse with heavy cheque traffic each get a locked monthly figure quoted upfront, with no surprise add-ons later."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How frequently should a Mumbai firm reconcile its accounts?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A monthly cycle ahead of every GSTR-3B and GSTR-1 is the sensible baseline. Busy Andheri media houses and high-turnover Bhiwandi distributors often prefer a weekly pass to stay on top of cheque and NEFT flow. Reconciling each month keeps your records audit-ready under Companies Act 2013 Section 128 and Income Tax Act Section 44AA."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can several bank accounts and corporate cards be reconciled in one go?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. Within a single monthly run we cover all your current, OD, CC, and corporate card accounts across every bank. Each account is tied back to its own statement, charges and interest are posted, and you receive a separate signed BRS per account plus a consolidated view, which suits multi-account BKC finance firms especially well."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What information does a bank reconciliation statement give you?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The BRS sets out, item by item, why your ledger balance and the bank statement balance differ. It captures uncleared cheques, deposits still in transit, bank charges, interest, and auto-debits you had not booked. Patron issues one signed BRS per account every month so Mumbai owners can trace each difference back to its source with confidence."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What records do you need to start in Mumbai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send the period's bank and credit card statements, your Tally, Zoho Books, or QuickBooks file, gateway exports from Razorpay, Stripe, or marketplaces, and any loan or OD account details. We reconcile all of it against your ledgers and return a short list of unmatched entries for you to confirm before sign-off, keeping the back-and-forth minimal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Patron reconcile inside our existing Tally or Zoho Books file?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We work straight inside whatever your Mumbai business already runs, whether that is Tally, Zoho Books, QuickBooks, or Xero, so no migration is needed. Where a bank feed exists we use it, then post any missing entries, tick off matched items, and close the period with a tidy balance carried into the next month."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does our book balance never agree with the bank?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The usual culprits are cheques not yet cleared, deposits in transit, charges and interest left unbooked, recurring auto-debits such as EMIs and subscriptions, double-entered vouchers, and gateway fees skimmed at settlement. Patron traces each one, records what is missing, strips duplicate entries, and settles genuine timing gaps so the two balances finally line up."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services/mumbai#service",
+      "name": "Bank and Credit Card Reconciliation Services in Mumbai",
+      "description": "Monthly bank and credit card reconciliation in Mumbai matches your books against every statement, captures unrecorded charges and auto-debits, removes duplicates, and clears un-reconciled items. Patron Accounting delivers a signed BRS per account for BKC, Andheri, and Powai businesses.",
+      "serviceType": "Bank and Credit Card Reconciliation",
+      "url": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services/mumbai",
+      "areaServed": {
+        "@type": "City",
+        "name": "Mumbai",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Maharashtra"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#localbusiness-mumbai"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Bank reconciliation",
+          "sameAs": "https://en.wikipedia.org/wiki/Bank_reconciliation"
+        },
+        {
+          "@type": "Thing",
+          "name": "Bookkeeping",
+          "sameAs": "https://en.wikipedia.org/wiki/Bookkeeping"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Bank Reconciliation Plans in Mumbai",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "price": "2499",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "INR",
+              "price": "2499",
+              "unitText": "per month"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Monthly Bank and Credit Card Reconciliation"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness-mumbai",
+      "name": "Patron Accounting LLP - Mumbai",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services/mumbai",
+      "telephone": "+91-9699936369",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Mumbai"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Mumbai",
+        "addressRegion": "Maharashtra",
+        "postalCode": "400020",
+        "addressCountry": "IN"
+      },
+      "parentOrganization": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1571,7 +1578,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

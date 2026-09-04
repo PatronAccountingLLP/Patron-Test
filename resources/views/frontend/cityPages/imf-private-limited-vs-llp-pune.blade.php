@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,178 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>IMF Private Limited vs LLP: Which Entity to Choose</title>
-    <meta name="description" content="Compare Private Limited vs LLP for your IRDAI Insurance Marketing Firm in Pune: net worth, audit, tax, funding & compliance. Expert IMF setup from INR 24,999.">
-    <link rel="canonical" href="/imf-private-limited-vs-llp/pune">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="IMF Private Limited vs LLP: Which Entity to Choose">
-    <meta property="og:description" content="Compare Private Limited vs LLP for your IRDAI Insurance Marketing Firm in Pune: net worth, audit, tax, funding & compliance. Expert IMF setup from INR 24,999.">
-    <meta property="og:url" content="/imf-private-limited-vs-llp/pune">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="IMF Private Limited vs LLP: Which Entity to Choose">
-    <meta name="twitter:description" content="Compare Private Limited vs LLP for your IRDAI Insurance Marketing Firm in Pune: net worth, audit, tax, funding & compliance. Expert IMF setup from INR 24,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "IMF Services",
-          "item": "https://www.patronaccounting.com/imf-services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "IMF Private Limited vs LLP in Pune",
-          "item": "https://www.patronaccounting.com/imf-private-limited-vs-llp/pune"
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "name": "IMF Private Limited vs LLP Entity Setup in Pune",
-      "description": "Advisory and end-to-end setup for choosing between a Private Limited Company and an LLP for your IRDAI Insurance Marketing Firm in Pune, including entity incorporation and full IRDAI registration.",
-      "url": "https://www.patronaccounting.com/imf-private-limited-vs-llp/pune",
-      "serviceType": "Insurance Marketing Firm Entity Structuring and Registration",
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Maharashtra"
-        }
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/imf-private-limited-vs-llp/pune",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "minPrice": "24999",
-          "priceCurrency": "INR"
-        }
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "name": "Patron Accounting LLP",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/imf-private-limited-vs-llp/pune",
-      "telephone": "+919459456700",
-      "email": "sales@patronaccounting.com",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Maharashtra"
-        }
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Pune",
-        "addressRegion": "Maharashtra",
-        "addressCountry": "IN"
-      }
-    },
-    {
-      "@type": "FAQPage",
-      "datePublished": "2026-06-30T08:00:00+05:30",
-      "dateModified": "2026-06-30T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "How much does it cost to register an IMF as a Private Limited company or LLP?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patron handles end-to-end IMF setup (entity incorporation plus IRDAI registration) starting at INR 24,999 (Exl GST and Govt. Charges). On top of that the statutory IRDAI application fee is INR 5,000, paid from a State Bank of India account in the IMF's name, plus the cost of the CA net-worth certificate and Professional Indemnity cover. An LLP typically carries slightly lower government and ongoing compliance costs than a Private Limited company."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does it take to set up an IMF in either structure?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Entity incorporation (Private Limited or LLP) with the MCA usually takes about 7-12 working days, after which the IRDAI Form A filing on imf.irda.gov.in and approval follows. The full journey, including Principal Officer training and exam, typically runs a few weeks. Share your details with our team for a structure-specific timeline."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What documents are needed and do they differ between a company and an LLP?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Common documents include the ROC incorporation certificate (with 'Insurance Marketing Firm' in the name), PAN, CA net-worth certificate, SBI account proof, Principal Officer and ISP exam and qualification certificates, a 3-year business plan, org chart, infrastructure photos, insurer consent letters and Fit and Proper declarations. The only key difference: a Private Limited company submits its MoA and AoA, while an LLP submits its LLP Agreement."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Who is eligible to register an IMF and which entities are not allowed?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Only a Company (Companies Act 2013), an LLP (LLP Act 2008) or a Co-operative Society (Co-operative Societies Act 1912) can register as an IMF, with a net worth of INR 10 lakh (INR 5 lakh for a single aspirational district). Partnership firms, sole proprietorships and HUFs are not eligible."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can Patron help me decide and then register the entity I choose in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Our CA and CS team first assesses your funding, tax and compliance needs to recommend Private Limited or LLP, then incorporates the entity with the correct 'Insurance Marketing Firm' name and completes the full IRDAI registration on the IMF portal. One team handles both the entity choice and the licence for clients in Pune and across India."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you provide IMF entity setup in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. IMF incorporation and IRDAI registration are handled online via the MCA and imf.irda.gov.in portals, so we support clients across Pune, the rest of Maharashtra and India, including Tier 2, Tier 3 and aspirational-district locations. You do not need to visit any office in person."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I convert my IMF LLP into a Private Limited company later?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Conversion is possible in principle, but because the IRDAI registration and the mandatory 'Insurance Marketing Firm' name are tied to the original entity, an entity-type change can require fresh documentation and IRDAI intimation or re-registration. It is far cheaper to choose the right structure upfront, which is why we advise on it before incorporation."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         :root {
             --orange: #E8712C;
@@ -872,7 +699,187 @@
             }
         }
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>IMF Private Limited vs LLP: Which Entity to Choose</title>
+    <meta name="description" content="Compare Private Limited vs LLP for your IRDAI Insurance Marketing Firm in Pune: net worth, audit, tax, funding & compliance. Expert IMF setup from INR 24,999.">
+    <link rel="canonical" href="/imf-private-limited-vs-llp/pune">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="IMF Private Limited vs LLP: Which Entity to Choose">
+    <meta property="og:description" content="Compare Private Limited vs LLP for your IRDAI Insurance Marketing Firm in Pune: net worth, audit, tax, funding & compliance. Expert IMF setup from INR 24,999.">
+    <meta property="og:url" content="/imf-private-limited-vs-llp/pune">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="IMF Private Limited vs LLP: Which Entity to Choose">
+    <meta name="twitter:description" content="Compare Private Limited vs LLP for your IRDAI Insurance Marketing Firm in Pune: net worth, audit, tax, funding & compliance. Expert IMF setup from INR 24,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "IMF Services",
+          "item": "https://www.patronaccounting.com/imf-services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "IMF Private Limited vs LLP in Pune",
+          "item": "https://www.patronaccounting.com/imf-private-limited-vs-llp/pune"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "name": "IMF Private Limited vs LLP Entity Setup in Pune",
+      "description": "Advisory and end-to-end setup for choosing between a Private Limited Company and an LLP for your IRDAI Insurance Marketing Firm in Pune, including entity incorporation and full IRDAI registration.",
+      "url": "https://www.patronaccounting.com/imf-private-limited-vs-llp/pune",
+      "serviceType": "Insurance Marketing Firm Entity Structuring and Registration",
+      "areaServed": {
+        "@type": "City",
+        "name": "Pune",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Maharashtra"
+        }
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.patronaccounting.com/imf-private-limited-vs-llp/pune",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": "24999",
+          "priceCurrency": "INR"
+        }
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "name": "Patron Accounting LLP",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/imf-private-limited-vs-llp/pune",
+      "telephone": "+919459456700",
+      "email": "sales@patronaccounting.com",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Pune",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Maharashtra"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Pune",
+        "addressRegion": "Maharashtra",
+        "addressCountry": "IN"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "datePublished": "2026-06-30T08:00:00+05:30",
+      "dateModified": "2026-06-30T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much does it cost to register an IMF as a Private Limited company or LLP?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patron handles end-to-end IMF setup (entity incorporation plus IRDAI registration) starting at INR 24,999 (Exl GST and Govt. Charges). On top of that the statutory IRDAI application fee is INR 5,000, paid from a State Bank of India account in the IMF's name, plus the cost of the CA net-worth certificate and Professional Indemnity cover. An LLP typically carries slightly lower government and ongoing compliance costs than a Private Limited company."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to set up an IMF in either structure?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Entity incorporation (Private Limited or LLP) with the MCA usually takes about 7-12 working days, after which the IRDAI Form A filing on imf.irda.gov.in and approval follows. The full journey, including Principal Officer training and exam, typically runs a few weeks. Share your details with our team for a structure-specific timeline."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What documents are needed and do they differ between a company and an LLP?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Common documents include the ROC incorporation certificate (with 'Insurance Marketing Firm' in the name), PAN, CA net-worth certificate, SBI account proof, Principal Officer and ISP exam and qualification certificates, a 3-year business plan, org chart, infrastructure photos, insurer consent letters and Fit and Proper declarations. The only key difference: a Private Limited company submits its MoA and AoA, while an LLP submits its LLP Agreement."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who is eligible to register an IMF and which entities are not allowed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Only a Company (Companies Act 2013), an LLP (LLP Act 2008) or a Co-operative Society (Co-operative Societies Act 1912) can register as an IMF, with a net worth of INR 10 lakh (INR 5 lakh for a single aspirational district). Partnership firms, sole proprietorships and HUFs are not eligible."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can Patron help me decide and then register the entity I choose in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Our CA and CS team first assesses your funding, tax and compliance needs to recommend Private Limited or LLP, then incorporates the entity with the correct 'Insurance Marketing Firm' name and completes the full IRDAI registration on the IMF portal. One team handles both the entity choice and the licence for clients in Pune and across India."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you provide IMF entity setup in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. IMF incorporation and IRDAI registration are handled online via the MCA and imf.irda.gov.in portals, so we support clients across Pune, the rest of Maharashtra and India, including Tier 2, Tier 3 and aspirational-district locations. You do not need to visit any office in person."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I convert my IMF LLP into a Private Limited company later?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Conversion is possible in principle, but because the IRDAI registration and the mandatory 'Insurance Marketing Firm' name are tied to the original entity, an entity-type change can require fresh documentation and IRDAI intimation or re-registration. It is far cheaper to choose the right structure upfront, which is why we advise on it before incorporation."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1715,7 +1722,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

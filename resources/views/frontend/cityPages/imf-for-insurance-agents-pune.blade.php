@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,181 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>IMF for Insurance Agents: Upgrade From Agent to IMF</title>
-    <meta name="description" content="Insurance agent or POSP in Pune ready to go independent? Upgrade to an IRDAI Insurance Marketing Firm - eligibility, cost, documents, timeline and setup help.">
-    <link rel="canonical" href="/imf-for-insurance-agents/pune">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="IMF for Insurance Agents: Upgrade From Agent to IMF">
-    <meta property="og:description" content="Insurance agent or POSP in Pune ready to go independent? Upgrade to an IRDAI Insurance Marketing Firm - eligibility, cost, documents, timeline and setup help.">
-    <meta property="og:url" content="/imf-for-insurance-agents/pune">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="IMF for Insurance Agents: Upgrade From Agent to IMF">
-    <meta name="twitter:description" content="Insurance agent or POSP in Pune ready to go independent? Upgrade to an IRDAI Insurance Marketing Firm - eligibility, cost, documents, timeline and setup help.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "IMF Services",
-          "item": "https://www.patronaccounting.com/imf-services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "IMF for Insurance Agents in Pune",
-          "item": "https://www.patronaccounting.com/imf-for-insurance-agents/pune"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "datePublished": "2026-06-30T08:00:00+05:30",
-      "dateModified": "2026-06-30T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "How much does it cost to upgrade from an insurance agent to an IMF in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "IRDAI charges a non-refundable application fee of INR 5,000, payable from a State Bank of India (SBI) account held in the IMF's name. Patron's end-to-end agent-to-IMF setup - covering company/LLP incorporation, IRDAI registration and documentation - starts from INR 24,999 (Exl GST and Govt. Charges)."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does it take an agent in Pune to become an IMF?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Plan for roughly 7 to 10 weeks end to end. Forming the Company or LLP and preparing documents, business plan and infrastructure takes about 30 to 60 days, and IRDAI's review of the Form A application typically adds a few weeks. We run the steps in parallel to keep the timeline tight."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What documents do I need to convert my agency into an IMF?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Form A, ROC incorporation certificate (with 'Insurance Marketing Firm' in the name), MoA/AoA and PAN, SBI bank account, a CA net-worth certificate, Principal Officer and ISP exam and qualification certificates, a 3-year business plan with org chart and infrastructure photos, insurer consent letters, NOC and Fit and Proper declarations."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Am I eligible to become an IMF as an individual agent in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Not as an individual - an IMF must be a Company, LLP or Co-operative Society. You can leverage your existing client base and experience, but you first incorporate an entity, then appoint a qualified Principal Officer (and at least one ISP per office) before applying to IRDAI."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can you handle the entire agent-to-IMF process for me?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. We manage the full migration: entity incorporation with 'Insurance Marketing Firm' in the name, the CA net-worth certificate, Principal Officer and ISP onboarding, the IRDAI Form A filing on imf.irda.gov.in, insurer consent letters and ongoing compliance. Call +91 94594 56700 or WhatsApp us to start."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is IMF registration available in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. IMF registration is district-based (up to 3 districts within a state, with at least one aspirational district if you opt for more than one), and we set up IMFs for agents across Pune and other Maharashtra districts. Tell us your districts and we will map the right structure."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does the IMF licence expire like my agency code?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Once issued, IRDAI registration is now perpetual (the earlier 3-year renewal was discontinued from 5 February 2026), so the upgrade is a one-time setup with no licence-renewal cycle. You only maintain ongoing compliance - an annual CA net-worth certificate and Professional Indemnity cover (2x prior-year remuneration, minimum equal to net worth)."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is an IMF different from staying an agent or corporate agent?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A single-company agent or POSP sells for one insurer. An IMF works under open architecture - up to 2 life, 2 general and 2 health insurers (plus AIC and ECGC) - and can distribute other financial products through its ISPs. A corporate agent can tie up with more insurers per line but the IMF operates independently as your own firm with its own sales team."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "name": "IMF for Insurance Agents in Pune",
-      "description": "End-to-end agent-to-IMF upgrade in Pune - Company/LLP incorporation, IRDAI Insurance Marketing Firm registration, Principal Officer and ISP onboarding, and ongoing compliance for experienced agents, POSPs and corporate-agent sellers.",
-      "url": "https://www.patronaccounting.com/imf-for-insurance-agents/pune",
-      "serviceType": "IMF Registration for Insurance Agents",
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Maharashtra"
-        }
-      },
-      "provider": {
-        "@type": "LocalBusiness",
-        "name": "Patron Accounting LLP",
-        "@id": "https://www.patronaccounting.com/#localbusiness",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg",
-        "image": "https://www.patronaccounting.com/images/site-logo.svg",
-        "telephone": "+91-94594-56700",
-        "email": "sales@patronaccounting.com",
-        "priceRange": "INR",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "RTC Silver, Wagholi",
-          "addressLocality": "Pune",
-          "addressRegion": "Maharashtra",
-          "postalCode": "412207",
-          "addressCountry": "IN"
-        },
-        "areaServed": {
-          "@type": "City",
-          "name": "Pune"
-        }
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "price": "24999",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/imf-for-insurance-agents/pune",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "minPrice": "24999",
-          "priceCurrency": "INR"
-        }
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -772,7 +596,190 @@
             .content-section [style*="grid-template-columns: repeat(4"] { grid-template-columns: 1fr !important; }
         }
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>IMF for Insurance Agents: Upgrade From Agent to IMF</title>
+    <meta name="description" content="Insurance agent or POSP in Pune ready to go independent? Upgrade to an IRDAI Insurance Marketing Firm - eligibility, cost, documents, timeline and setup help.">
+    <link rel="canonical" href="/imf-for-insurance-agents/pune">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="IMF for Insurance Agents: Upgrade From Agent to IMF">
+    <meta property="og:description" content="Insurance agent or POSP in Pune ready to go independent? Upgrade to an IRDAI Insurance Marketing Firm - eligibility, cost, documents, timeline and setup help.">
+    <meta property="og:url" content="/imf-for-insurance-agents/pune">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="IMF for Insurance Agents: Upgrade From Agent to IMF">
+    <meta name="twitter:description" content="Insurance agent or POSP in Pune ready to go independent? Upgrade to an IRDAI Insurance Marketing Firm - eligibility, cost, documents, timeline and setup help.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "IMF Services",
+          "item": "https://www.patronaccounting.com/imf-services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "IMF for Insurance Agents in Pune",
+          "item": "https://www.patronaccounting.com/imf-for-insurance-agents/pune"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "datePublished": "2026-06-30T08:00:00+05:30",
+      "dateModified": "2026-06-30T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much does it cost to upgrade from an insurance agent to an IMF in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "IRDAI charges a non-refundable application fee of INR 5,000, payable from a State Bank of India (SBI) account held in the IMF's name. Patron's end-to-end agent-to-IMF setup - covering company/LLP incorporation, IRDAI registration and documentation - starts from INR 24,999 (Exl GST and Govt. Charges)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take an agent in Pune to become an IMF?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Plan for roughly 7 to 10 weeks end to end. Forming the Company or LLP and preparing documents, business plan and infrastructure takes about 30 to 60 days, and IRDAI's review of the Form A application typically adds a few weeks. We run the steps in parallel to keep the timeline tight."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What documents do I need to convert my agency into an IMF?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Form A, ROC incorporation certificate (with 'Insurance Marketing Firm' in the name), MoA/AoA and PAN, SBI bank account, a CA net-worth certificate, Principal Officer and ISP exam and qualification certificates, a 3-year business plan with org chart and infrastructure photos, insurer consent letters, NOC and Fit and Proper declarations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Am I eligible to become an IMF as an individual agent in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not as an individual - an IMF must be a Company, LLP or Co-operative Society. You can leverage your existing client base and experience, but you first incorporate an entity, then appoint a qualified Principal Officer (and at least one ISP per office) before applying to IRDAI."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you handle the entire agent-to-IMF process for me?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We manage the full migration: entity incorporation with 'Insurance Marketing Firm' in the name, the CA net-worth certificate, Principal Officer and ISP onboarding, the IRDAI Form A filing on imf.irda.gov.in, insurer consent letters and ongoing compliance. Call +91 94594 56700 or WhatsApp us to start."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is IMF registration available in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. IMF registration is district-based (up to 3 districts within a state, with at least one aspirational district if you opt for more than one), and we set up IMFs for agents across Pune and other Maharashtra districts. Tell us your districts and we will map the right structure."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does the IMF licence expire like my agency code?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Once issued, IRDAI registration is now perpetual (the earlier 3-year renewal was discontinued from 5 February 2026), so the upgrade is a one-time setup with no licence-renewal cycle. You only maintain ongoing compliance - an annual CA net-worth certificate and Professional Indemnity cover (2x prior-year remuneration, minimum equal to net worth)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is an IMF different from staying an agent or corporate agent?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A single-company agent or POSP sells for one insurer. An IMF works under open architecture - up to 2 life, 2 general and 2 health insurers (plus AIC and ECGC) - and can distribute other financial products through its ISPs. A corporate agent can tie up with more insurers per line but the IMF operates independently as your own firm with its own sales team."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "name": "IMF for Insurance Agents in Pune",
+      "description": "End-to-end agent-to-IMF upgrade in Pune - Company/LLP incorporation, IRDAI Insurance Marketing Firm registration, Principal Officer and ISP onboarding, and ongoing compliance for experienced agents, POSPs and corporate-agent sellers.",
+      "url": "https://www.patronaccounting.com/imf-for-insurance-agents/pune",
+      "serviceType": "IMF Registration for Insurance Agents",
+      "areaServed": {
+        "@type": "City",
+        "name": "Pune",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Maharashtra"
+        }
+      },
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Patron Accounting LLP",
+        "@id": "https://www.patronaccounting.com/#localbusiness",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg",
+        "image": "https://www.patronaccounting.com/images/site-logo.svg",
+        "telephone": "+91-94594-56700",
+        "email": "sales@patronaccounting.com",
+        "priceRange": "INR",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "RTC Silver, Wagholi",
+          "addressLocality": "Pune",
+          "addressRegion": "Maharashtra",
+          "postalCode": "412207",
+          "addressCountry": "IN"
+        },
+        "areaServed": {
+          "@type": "City",
+          "name": "Pune"
+        }
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "price": "24999",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.patronaccounting.com/imf-for-insurance-agents/pune",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": "24999",
+          "priceCurrency": "INR"
+        }
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1673,7 +1680,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

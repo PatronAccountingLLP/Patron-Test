@@ -1,66 +1,5 @@
 @extends('layouts.app')
-@section('meta')
-    <title>Cash Flow Statement Calculator | AS-3 &amp; Ind AS 7</title>
-    <meta name="description" content="Cash flow statement calculator: generate a statement per AS-3 and Ind AS 7 with operating, investing and financing activities for Indian firms. Try free now!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/cash-flow-calculator">
-    <meta property="og:title" content="Cash Flow Statement Calculator — Free Tool 2026">
-    <meta property="og:description" content="Generate cash flow statements per AS-3 and Ind AS 7 with operating, investing and financing activities for Indian businesses.">
-    <meta property="og:type" content="website">
-    <meta property="og:locale" content="en_IN">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/cash-flow-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Cash Flow Statement Calculator — Free Tool 2026">
-    <meta name="twitter:description" content="Generate cash flow statements per AS-3 / Ind AS 7 for Indian businesses. Free!">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-<script type="application/ld+json">
-    {
-      "@context": "https://schema.org", "@type": "WebApplication",
-      "name": "Cash Flow Statement Calculator India",
-      "description": "Cash Flow Statement Calculator generates formatted cash flow statements using the indirect method per AS-3 and Ind AS 7. Covers operating activities with non-cash adjustments, investing activities, and financing activities with automatic net cash flow and closing balance computation for Indian companies.",
-      "url": "https://www.patronaccounting.com/tools/cash-flow-calculator",
-      "applicationCategory": "UtilityApplication", "operatingSystem": "Any",
-      "datePublished": "2026-03-05", "dateModified": "2026-03-05",
-      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" },
-      "author": { "@type": "Person", "@id": "https://patronaccounting.com/#team", "name": "CA & CS Patron Accounting Team", "jobTitle": "Chartered Accountants & Company Secretaries", "url": "https://www.patronaccounting.com/contact-page", "sameAs": ["https://www.linkedin.com/company/patron-accounting"], "hasCredential": [{ "@type": "EducationalOccupationalCredential", "credentialCategory": "Professional Certification", "name": "Chartered Accountant (CA)", "recognizedBy": { "@type": "Organization", "name": "Institute of Chartered Accountants of India", "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India" } }] },
-      "publisher": { "@type": "Organization", "name": "Patron Accounting LLP", "url": "https://www.patronaccounting.com", "logo": { "@type": "ImageObject", "url": "https://www.patronaccounting.com/images/site-logo.svg" } },
-      "provider": { "@id": "https://patronaccounting.com/#organization" }
-    }
-    </script>
-<script type="application/ld+json">
-    { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-      {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-      {"@type": "ListItem", "position": 3, "name": "Cash Flow Statement Calculator", "item": "https://www.patronaccounting.com/tools/cash-flow-calculator"}
-    ]}
-    </script>
-<script type="application/ld+json">
-    { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
-      { "@type": "Question", "name": "What is a Cash Flow Statement?", "acceptedAnswer": { "@type": "Answer", "text": "A Cash Flow Statement tracks the actual movement of cash into and out of a business over a specific period. It is divided into three sections: operating activities covering day-to-day business cash flows, investing activities covering asset purchases and sales, and financing activities covering loans, equity, and dividends. It is mandatory under AS-3 and Ind AS 7 for Indian companies and complements the Balance Sheet and P&L Statement." } },
-      { "@type": "Question", "name": "What is the indirect method of preparing a Cash Flow Statement?", "acceptedAnswer": { "@type": "Answer", "text": "The indirect method starts with net profit from the P&L Statement and adjusts for non-cash items like depreciation, provisions, and unrealised gains. It then adjusts for changes in working capital including trade receivables, inventories, and trade payables to arrive at cash from operating activities. This is the most commonly used method in India as it reconciles profit with actual cash generated." } },
-      { "@type": "Question", "name": "Which companies must prepare a Cash Flow Statement in India?", "acceptedAnswer": { "@type": "Answer", "text": "Under the Companies Act 2013, all companies except One Person Companies and small companies with paid-up capital under Rs 50 lakhs and turnover under Rs 2 crore must prepare a Cash Flow Statement. Listed companies and Ind AS companies must follow Ind AS 7. Companies following Indian AS use AS-3. LLPs are not mandatorily required to prepare cash flow statements but may do so voluntarily." } },
-      { "@type": "Question", "name": "What are operating activities in a Cash Flow Statement?", "acceptedAnswer": { "@type": "Answer", "text": "Operating activities represent cash flows from the principal revenue-generating activities of the business. This includes cash received from customers, cash paid to suppliers and employees, income taxes paid, and interest paid on borrowings. Under the indirect method, you start with net profit and adjust for depreciation, working capital changes, and non-operating items to derive net cash from operations." } },
-      { "@type": "Question", "name": "What are investing activities in a Cash Flow Statement?", "acceptedAnswer": { "@type": "Answer", "text": "Investing activities cover cash flows from acquisition and disposal of long-term assets and investments. Cash outflows include purchase of property plant and equipment, purchase of investments, and loans given to third parties. Cash inflows include proceeds from sale of fixed assets, sale of investments, dividends received, and interest received. These activities indicate how much the company is investing for future growth." } },
-      { "@type": "Question", "name": "What are financing activities in a Cash Flow Statement?", "acceptedAnswer": { "@type": "Answer", "text": "Financing activities reflect cash flows related to the capital structure of the business. Cash inflows include proceeds from issue of shares, proceeds from long-term and short-term borrowings. Cash outflows include repayment of borrowings, dividend payments, and share buybacks. These flows show how the company finances its operations and growth through debt and equity." } },
-      { "@type": "Question", "name": "What is the difference between cash flow and profit?", "acceptedAnswer": { "@type": "Answer", "text": "Profit is an accounting measure calculated by subtracting expenses from revenues, including non-cash items like depreciation and provisions. Cash flow measures actual money moving in and out of the business. A company can be profitable but cash-poor if revenues are tied up in receivables or inventory. Conversely, a loss-making company can have positive cash flow from asset sales or borrowings." } },
-      { "@type": "Question", "name": "What is free cash flow and how is it calculated?", "acceptedAnswer": { "@type": "Answer", "text": "Free Cash Flow equals Cash from Operating Activities minus Capital Expenditure on property plant and equipment. It represents the cash available to the company after maintaining and expanding its asset base. FCF is used by investors to assess a company ability to pay dividends, reduce debt, or fund acquisitions. A consistently positive FCF indicates a financially healthy business." } },
-      { "@type": "Question", "name": "How does the Cash Flow Statement connect to the Balance Sheet?", "acceptedAnswer": { "@type": "Answer", "text": "The net increase or decrease in cash from the Cash Flow Statement directly explains the change in cash and cash equivalents between two Balance Sheet dates. Opening cash balance plus net cash flow from all three activities equals the closing cash balance, which must match the cash figure on the closing Balance Sheet. This reconciliation validates the accuracy of all three financial statements." } },
-      { "@type": "Question", "name": "What are common adjustments in the indirect method?", "acceptedAnswer": { "@type": "Answer", "text": "Common adjustments include adding back depreciation and amortisation as non-cash charges, adding back provisions for bad debts and gratuity, removing profit or loss on sale of assets and investments as they belong to investing activities, removing interest expense and income which may be classified differently, and adjusting for changes in working capital items like receivables, payables, and inventory." } },
-      { "@type": "Question", "name": "Is a Cash Flow Statement required for income tax filing?", "acceptedAnswer": { "@type": "Answer", "text": "The Cash Flow Statement is not directly required for income tax return filing. However, it is part of the financial statements filed with MCA in Form AOC-4 and is reviewed during statutory audit and tax audit under Section 44AB. For businesses seeking bank loans, lenders always require cash flow statements to assess repayment capacity. It is also critical for assessment proceedings under the Income Tax Act." } },
-      { "@type": "Question", "name": "Can a CA help prepare the Cash Flow Statement?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, a Chartered Accountant prepares the Cash Flow Statement as part of the complete financial statements package. The CA ensures compliance with AS-3 or Ind AS 7, verifies working capital adjustments, classifies activities correctly, and reconciles closing cash with the Balance Sheet. Patron Accounting prepares audit-ready financial statements including cash flow statements for Indian businesses." } }
-    ]}
-    </script>
-@endsection
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+@push('styles')
 <style>
 
         :root {
@@ -861,6 +800,70 @@
 .toggle-btn{font-size:13px;padding:10px 12px}
 }
 </style>
+@endpush
+
+@section('meta')
+    <title>Cash Flow Statement Calculator | AS-3 &amp; Ind AS 7</title>
+    <meta name="description" content="Cash flow statement calculator: generate a statement per AS-3 and Ind AS 7 with operating, investing and financing activities for Indian firms. Try free now!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/cash-flow-calculator">
+    <meta property="og:title" content="Cash Flow Statement Calculator — Free Tool 2026">
+    <meta property="og:description" content="Generate cash flow statements per AS-3 and Ind AS 7 with operating, investing and financing activities for Indian businesses.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_IN">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/cash-flow-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Cash Flow Statement Calculator — Free Tool 2026">
+    <meta name="twitter:description" content="Generate cash flow statements per AS-3 / Ind AS 7 for Indian businesses. Free!">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+@endsection
+
+@section('schema')
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org", "@type": "WebApplication",
+      "name": "Cash Flow Statement Calculator India",
+      "description": "Cash Flow Statement Calculator generates formatted cash flow statements using the indirect method per AS-3 and Ind AS 7. Covers operating activities with non-cash adjustments, investing activities, and financing activities with automatic net cash flow and closing balance computation for Indian companies.",
+      "url": "https://www.patronaccounting.com/tools/cash-flow-calculator",
+      "applicationCategory": "UtilityApplication", "operatingSystem": "Any",
+      "datePublished": "2026-03-05", "dateModified": "2026-03-05",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" },
+      "author": { "@type": "Person", "@id": "https://patronaccounting.com/#team", "name": "CA & CS Patron Accounting Team", "jobTitle": "Chartered Accountants & Company Secretaries", "url": "https://www.patronaccounting.com/contact-page", "sameAs": ["https://www.linkedin.com/company/patron-accounting"], "hasCredential": [{ "@type": "EducationalOccupationalCredential", "credentialCategory": "Professional Certification", "name": "Chartered Accountant (CA)", "recognizedBy": { "@type": "Organization", "name": "Institute of Chartered Accountants of India", "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India" } }] },
+      "publisher": { "@type": "Organization", "name": "Patron Accounting LLP", "url": "https://www.patronaccounting.com", "logo": { "@type": "ImageObject", "url": "https://www.patronaccounting.com/images/site-logo.svg" } },
+      "provider": { "@id": "https://patronaccounting.com/#organization" }
+    }
+    </script>
+<script type="application/ld+json">
+    { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+      {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+      {"@type": "ListItem", "position": 3, "name": "Cash Flow Statement Calculator", "item": "https://www.patronaccounting.com/tools/cash-flow-calculator"}
+    ]}
+    </script>
+<script type="application/ld+json">
+    { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+      { "@type": "Question", "name": "What is a Cash Flow Statement?", "acceptedAnswer": { "@type": "Answer", "text": "A Cash Flow Statement tracks the actual movement of cash into and out of a business over a specific period. It is divided into three sections: operating activities covering day-to-day business cash flows, investing activities covering asset purchases and sales, and financing activities covering loans, equity, and dividends. It is mandatory under AS-3 and Ind AS 7 for Indian companies and complements the Balance Sheet and P&L Statement." } },
+      { "@type": "Question", "name": "What is the indirect method of preparing a Cash Flow Statement?", "acceptedAnswer": { "@type": "Answer", "text": "The indirect method starts with net profit from the P&L Statement and adjusts for non-cash items like depreciation, provisions, and unrealised gains. It then adjusts for changes in working capital including trade receivables, inventories, and trade payables to arrive at cash from operating activities. This is the most commonly used method in India as it reconciles profit with actual cash generated." } },
+      { "@type": "Question", "name": "Which companies must prepare a Cash Flow Statement in India?", "acceptedAnswer": { "@type": "Answer", "text": "Under the Companies Act 2013, all companies except One Person Companies and small companies with paid-up capital under Rs 50 lakhs and turnover under Rs 2 crore must prepare a Cash Flow Statement. Listed companies and Ind AS companies must follow Ind AS 7. Companies following Indian AS use AS-3. LLPs are not mandatorily required to prepare cash flow statements but may do so voluntarily." } },
+      { "@type": "Question", "name": "What are operating activities in a Cash Flow Statement?", "acceptedAnswer": { "@type": "Answer", "text": "Operating activities represent cash flows from the principal revenue-generating activities of the business. This includes cash received from customers, cash paid to suppliers and employees, income taxes paid, and interest paid on borrowings. Under the indirect method, you start with net profit and adjust for depreciation, working capital changes, and non-operating items to derive net cash from operations." } },
+      { "@type": "Question", "name": "What are investing activities in a Cash Flow Statement?", "acceptedAnswer": { "@type": "Answer", "text": "Investing activities cover cash flows from acquisition and disposal of long-term assets and investments. Cash outflows include purchase of property plant and equipment, purchase of investments, and loans given to third parties. Cash inflows include proceeds from sale of fixed assets, sale of investments, dividends received, and interest received. These activities indicate how much the company is investing for future growth." } },
+      { "@type": "Question", "name": "What are financing activities in a Cash Flow Statement?", "acceptedAnswer": { "@type": "Answer", "text": "Financing activities reflect cash flows related to the capital structure of the business. Cash inflows include proceeds from issue of shares, proceeds from long-term and short-term borrowings. Cash outflows include repayment of borrowings, dividend payments, and share buybacks. These flows show how the company finances its operations and growth through debt and equity." } },
+      { "@type": "Question", "name": "What is the difference between cash flow and profit?", "acceptedAnswer": { "@type": "Answer", "text": "Profit is an accounting measure calculated by subtracting expenses from revenues, including non-cash items like depreciation and provisions. Cash flow measures actual money moving in and out of the business. A company can be profitable but cash-poor if revenues are tied up in receivables or inventory. Conversely, a loss-making company can have positive cash flow from asset sales or borrowings." } },
+      { "@type": "Question", "name": "What is free cash flow and how is it calculated?", "acceptedAnswer": { "@type": "Answer", "text": "Free Cash Flow equals Cash from Operating Activities minus Capital Expenditure on property plant and equipment. It represents the cash available to the company after maintaining and expanding its asset base. FCF is used by investors to assess a company ability to pay dividends, reduce debt, or fund acquisitions. A consistently positive FCF indicates a financially healthy business." } },
+      { "@type": "Question", "name": "How does the Cash Flow Statement connect to the Balance Sheet?", "acceptedAnswer": { "@type": "Answer", "text": "The net increase or decrease in cash from the Cash Flow Statement directly explains the change in cash and cash equivalents between two Balance Sheet dates. Opening cash balance plus net cash flow from all three activities equals the closing cash balance, which must match the cash figure on the closing Balance Sheet. This reconciliation validates the accuracy of all three financial statements." } },
+      { "@type": "Question", "name": "What are common adjustments in the indirect method?", "acceptedAnswer": { "@type": "Answer", "text": "Common adjustments include adding back depreciation and amortisation as non-cash charges, adding back provisions for bad debts and gratuity, removing profit or loss on sale of assets and investments as they belong to investing activities, removing interest expense and income which may be classified differently, and adjusting for changes in working capital items like receivables, payables, and inventory." } },
+      { "@type": "Question", "name": "Is a Cash Flow Statement required for income tax filing?", "acceptedAnswer": { "@type": "Answer", "text": "The Cash Flow Statement is not directly required for income tax return filing. However, it is part of the financial statements filed with MCA in Form AOC-4 and is reviewed during statutory audit and tax audit under Section 44AB. For businesses seeking bank loans, lenders always require cash flow statements to assess repayment capacity. It is also critical for assessment proceedings under the Income Tax Act." } },
+      { "@type": "Question", "name": "Can a CA help prepare the Cash Flow Statement?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, a Chartered Accountant prepares the Cash Flow Statement as part of the complete financial statements package. The CA ensures compliance with AS-3 or Ind AS 7, verifies working capital adjustments, classifies activities correctly, and reconciles closing cash with the Balance Sheet. Patron Accounting prepares audit-ready financial statements including cash flow statements for Indian businesses." } }
+    ]}
+    </script>
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation"><div class="toc-nav-inner">
         <a href="#calculator">Generator</a>

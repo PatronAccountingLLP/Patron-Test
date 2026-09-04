@@ -1,146 +1,12 @@
 
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Net Worth Certificate for Germany Visa in Mumbai 2026 | Patron Accounting</title>
-    <meta name="description" content="CA-certified net worth certificate for Germany visa in INR and EUR, with UDIN, dated within 1 month. Starting from INR 1,999. Type C and Type D.">
-    <link rel="canonical" href="/net-worth-certificate-for-germany-visa/mumbai">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Net Worth Certificate for Germany Visa 2026 | Patron Accounting">
-    <meta property="og:description" content="CA-certified net worth certificate for Germany visa in INR and EUR, with UDIN, dated within 1 month. Starting from INR 1,999. Type C and Type D.">
-    <meta property="og:url" content="/net-worth-certificate-for-germany-visa/mumbai">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Net Worth Certificate for Germany Visa 2026 | Patron Accounting">
-    <meta name="twitter:description" content="CA-certified net worth certificate for Germany visa in INR and EUR, with UDIN, dated within 1 month. Starting from INR 1,999. Type C and Type D.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-germany-visa/mumbai/#service",
-        "name": "Net Worth Certificate for Germany Visa",
-        "description": "CA-certified net worth certificate for German Type C and Type D visa applicants, prepared in dual currency (INR and EUR), dated within one month and issued with a mandatory UDIN as proof of financial means alongside the blocked account.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/net-worth-certificate-for-germany-visa/mumbai" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Travel visa", "sameAs": "https://en.wikipedia.org/wiki/Travel_visa" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Net Worth Certificate for Germany Visa Service Plans",
-            "itemListElement": [
-                { "@type": "Offer", "name": "Net Worth Certificate for Germany Visa (dual-currency, UDIN-verified)", "priceCurrency": "INR", "price": "1999", "description": "CA-certified net worth in INR and EUR at the RBI reference rate, dated within one month, as proof of financial means for German Type C and Type D visas alongside the blocked account, with a UDIN." }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-germany-visa/mumbai/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
-            { "@type": "ListItem", "position": 3, "name": "Net Worth Certificate for Germany Visa", "item": "https://www.patronaccounting.com/net-worth-certificate-for-germany-visa/mumbai" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-germany-visa/mumbai/#faq",
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "mainEntity": [
-            { "@type": "Question", "name": "Is a net worth certificate required for a Germany visa?", "acceptedAnswer": { "@type": "Answer", "text": "A net worth certificate is typically required for German long-stay Type D student, job seeker and work visas, and is recommended for self-funded Type C short-stay visas. Germany is among the strictest Schengen states on financial documentation, so consulates often prefer a CA-certified certificate over bank statements alone. It works alongside the blocked account (Sperrkonto) as proof of financial means." } },
-            { "@type": "Question", "name": "Does the certificate need to be in EUR for Germany?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. German consulates expect the net worth certificate in dual currency, showing the figure in both INR and EUR. The CA converts the net worth to EUR using the RBI reference rate on the date of certification. A certificate in INR only is frequently questioned, so Patron Accounting issues every Germany visa certificate in dual currency as standard." } },
-            { "@type": "Question", "name": "How recent must the certificate be for a German visa?", "acceptedAnswer": { "@type": "Answer", "text": "Germany is the strictest Schengen state on recency. The net worth certificate should generally be dated within one month of your visa application, unlike many embassies that accept certificates up to three months old. Time the certificate close to your consulate appointment so it reflects your current financial position and is not rejected for being outdated." } },
-            { "@type": "Question", "name": "Is the net worth certificate the same as the blocked account?", "acceptedAnswer": { "@type": "Answer", "text": "No. The blocked account (Sperrkonto) is a German bank account where you deposit EUR 11,904 for 2026, released at EUR 992 per month after arrival. The net worth certificate is a separate CA-certified document showing your total assets and liabilities. The certificate supports the visa application by proving overall financial strength beyond the Sperrkonto deposit." } },
-            { "@type": "Question", "name": "How much does a Germany visa net worth certificate cost?", "acceptedAnswer": { "@type": "Answer", "text": "At Patron Accounting, a Germany visa net worth certificate starts from Rs 1,999 (exclusive of GST and government charges). The final fee depends on the number of asset and liability classes the CA must verify and the turnaround required. Fees are confirmed after a quick review of your bank, investment and property documents." } },
-            { "@type": "Question", "name": "Can my parents' assets be included for a student visa?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. For German student visas, a sponsor's assets, usually parents or close relatives, can be included in the net worth certificate to demonstrate funding capacity. The CA verifies the sponsor's bank statements, property papers and investment proofs, and a sponsorship undertaking is generally attached. This strengthens the application where the student has limited assets of their own." } },
-            { "@type": "Question", "name": "How long does it take to get the certificate?", "acceptedAnswer": { "@type": "Answer", "text": "Most Germany visa net worth certificates are issued within 1 to 2 working days once complete documents are received. Same-day issuance is possible where bank statements, investment proofs and property records are ready and the visa category is confirmed. Because Germany requires a recent certificate, schedule it close to your consulate appointment." } }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-germany-visa/mumbai",
-        "name": "Net Worth Certificate for Germany Visa",
-        "description": "CA-certified net worth certificate for Germany visa in INR and EUR, with UDIN, dated within 1 month. Starting from INR 1,999. Type C and Type D.",
-        "url": "https://www.patronaccounting.com/net-worth-certificate-for-germany-visa/mumbai",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-germany-visa/mumbai/#service" },
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-germany-visa/mumbai/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How to Get a Net Worth Certificate for a Germany Visa",
-        "description": "Five steps to obtain a dual-currency CA net worth certificate for a Germany visa: identify the visa category, submit documents, CA verification, net worth computation and EUR conversion, and certification with UDIN.",
-        "totalTime": "P2D",
-        "step": [
-            { "@type": "HowToStep", "name": "Identify the visa category and consulate", "text": "Identify the visa category and consulate, and confirm whether the certificate is mandatory or recommended." },
-            { "@type": "HowToStep", "name": "Submit documents", "text": "Passport, bank statements, FD and investment proofs, property papers, admission letter and sponsor documents." },
-            { "@type": "HowToStep", "name": "CA verification", "text": "Each asset and liability is verified against records under SA 500 (Audit Evidence)." },
-            { "@type": "HowToStep", "name": "Net worth computation and currency conversion", "text": "The figure is converted to EUR at the RBI reference rate on the date of certification." },
-            { "@type": "HowToStep", "name": "Certification and UDIN", "text": "The CA signs, seals and generates the 18-digit UDIN, then issues the dual-currency certificate." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Net Worth Certificate for Germany Visa Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Sperrkonto (blocked account)", "description": "A German bank account where you deposit EUR 11,904 for 2026, released as EUR 992 per month after arrival." },
-            { "@type": "DefinedTerm", "name": "Type C visa", "description": "Short-stay Schengen visa up to 90 days; some German consulates accept bank statements, others prefer CA proof." },
-            { "@type": "DefinedTerm", "name": "Type D visa", "description": "German national long-stay visa for study, work or job search, where net worth proof is typically required." },
-            { "@type": "DefinedTerm", "name": "Verpflichtungserklaerung", "description": "A formal sponsorship undertaking by a German resident, sometimes accepted in place of a blocked account." },
-            { "@type": "DefinedTerm", "name": "UDIN", "description": "18-digit code generated at udin.icai.org, mandatory on every CA certificate since 1 July 2019." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -754,7 +620,146 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Net Worth Certificate for Germany Visa in Mumbai 2026 | Patron Accounting</title>
+    <meta name="description" content="CA-certified net worth certificate for Germany visa in INR and EUR, with UDIN, dated within 1 month. Starting from INR 1,999. Type C and Type D.">
+    <link rel="canonical" href="/net-worth-certificate-for-germany-visa/mumbai">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Net Worth Certificate for Germany Visa 2026 | Patron Accounting">
+    <meta property="og:description" content="CA-certified net worth certificate for Germany visa in INR and EUR, with UDIN, dated within 1 month. Starting from INR 1,999. Type C and Type D.">
+    <meta property="og:url" content="/net-worth-certificate-for-germany-visa/mumbai">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Net Worth Certificate for Germany Visa 2026 | Patron Accounting">
+    <meta name="twitter:description" content="CA-certified net worth certificate for Germany visa in INR and EUR, with UDIN, dated within 1 month. Starting from INR 1,999. Type C and Type D.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-germany-visa/mumbai/#service",
+        "name": "Net Worth Certificate for Germany Visa",
+        "description": "CA-certified net worth certificate for German Type C and Type D visa applicants, prepared in dual currency (INR and EUR), dated within one month and issued with a mandatory UDIN as proof of financial means alongside the blocked account.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/net-worth-certificate-for-germany-visa/mumbai" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Travel visa", "sameAs": "https://en.wikipedia.org/wiki/Travel_visa" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Net Worth Certificate for Germany Visa Service Plans",
+            "itemListElement": [
+                { "@type": "Offer", "name": "Net Worth Certificate for Germany Visa (dual-currency, UDIN-verified)", "priceCurrency": "INR", "price": "1999", "description": "CA-certified net worth in INR and EUR at the RBI reference rate, dated within one month, as proof of financial means for German Type C and Type D visas alongside the blocked account, with a UDIN." }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-germany-visa/mumbai/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
+            { "@type": "ListItem", "position": 3, "name": "Net Worth Certificate for Germany Visa", "item": "https://www.patronaccounting.com/net-worth-certificate-for-germany-visa/mumbai" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-germany-visa/mumbai/#faq",
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "mainEntity": [
+            { "@type": "Question", "name": "Is a net worth certificate required for a Germany visa?", "acceptedAnswer": { "@type": "Answer", "text": "A net worth certificate is typically required for German long-stay Type D student, job seeker and work visas, and is recommended for self-funded Type C short-stay visas. Germany is among the strictest Schengen states on financial documentation, so consulates often prefer a CA-certified certificate over bank statements alone. It works alongside the blocked account (Sperrkonto) as proof of financial means." } },
+            { "@type": "Question", "name": "Does the certificate need to be in EUR for Germany?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. German consulates expect the net worth certificate in dual currency, showing the figure in both INR and EUR. The CA converts the net worth to EUR using the RBI reference rate on the date of certification. A certificate in INR only is frequently questioned, so Patron Accounting issues every Germany visa certificate in dual currency as standard." } },
+            { "@type": "Question", "name": "How recent must the certificate be for a German visa?", "acceptedAnswer": { "@type": "Answer", "text": "Germany is the strictest Schengen state on recency. The net worth certificate should generally be dated within one month of your visa application, unlike many embassies that accept certificates up to three months old. Time the certificate close to your consulate appointment so it reflects your current financial position and is not rejected for being outdated." } },
+            { "@type": "Question", "name": "Is the net worth certificate the same as the blocked account?", "acceptedAnswer": { "@type": "Answer", "text": "No. The blocked account (Sperrkonto) is a German bank account where you deposit EUR 11,904 for 2026, released at EUR 992 per month after arrival. The net worth certificate is a separate CA-certified document showing your total assets and liabilities. The certificate supports the visa application by proving overall financial strength beyond the Sperrkonto deposit." } },
+            { "@type": "Question", "name": "How much does a Germany visa net worth certificate cost?", "acceptedAnswer": { "@type": "Answer", "text": "At Patron Accounting, a Germany visa net worth certificate starts from Rs 1,999 (exclusive of GST and government charges). The final fee depends on the number of asset and liability classes the CA must verify and the turnaround required. Fees are confirmed after a quick review of your bank, investment and property documents." } },
+            { "@type": "Question", "name": "Can my parents' assets be included for a student visa?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. For German student visas, a sponsor's assets, usually parents or close relatives, can be included in the net worth certificate to demonstrate funding capacity. The CA verifies the sponsor's bank statements, property papers and investment proofs, and a sponsorship undertaking is generally attached. This strengthens the application where the student has limited assets of their own." } },
+            { "@type": "Question", "name": "How long does it take to get the certificate?", "acceptedAnswer": { "@type": "Answer", "text": "Most Germany visa net worth certificates are issued within 1 to 2 working days once complete documents are received. Same-day issuance is possible where bank statements, investment proofs and property records are ready and the visa category is confirmed. Because Germany requires a recent certificate, schedule it close to your consulate appointment." } }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-germany-visa/mumbai",
+        "name": "Net Worth Certificate for Germany Visa",
+        "description": "CA-certified net worth certificate for Germany visa in INR and EUR, with UDIN, dated within 1 month. Starting from INR 1,999. Type C and Type D.",
+        "url": "https://www.patronaccounting.com/net-worth-certificate-for-germany-visa/mumbai",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-germany-visa/mumbai/#service" },
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-germany-visa/mumbai/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Get a Net Worth Certificate for a Germany Visa",
+        "description": "Five steps to obtain a dual-currency CA net worth certificate for a Germany visa: identify the visa category, submit documents, CA verification, net worth computation and EUR conversion, and certification with UDIN.",
+        "totalTime": "P2D",
+        "step": [
+            { "@type": "HowToStep", "name": "Identify the visa category and consulate", "text": "Identify the visa category and consulate, and confirm whether the certificate is mandatory or recommended." },
+            { "@type": "HowToStep", "name": "Submit documents", "text": "Passport, bank statements, FD and investment proofs, property papers, admission letter and sponsor documents." },
+            { "@type": "HowToStep", "name": "CA verification", "text": "Each asset and liability is verified against records under SA 500 (Audit Evidence)." },
+            { "@type": "HowToStep", "name": "Net worth computation and currency conversion", "text": "The figure is converted to EUR at the RBI reference rate on the date of certification." },
+            { "@type": "HowToStep", "name": "Certification and UDIN", "text": "The CA signs, seals and generates the 18-digit UDIN, then issues the dual-currency certificate." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Net Worth Certificate for Germany Visa Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Sperrkonto (blocked account)", "description": "A German bank account where you deposit EUR 11,904 for 2026, released as EUR 992 per month after arrival." },
+            { "@type": "DefinedTerm", "name": "Type C visa", "description": "Short-stay Schengen visa up to 90 days; some German consulates accept bank statements, others prefer CA proof." },
+            { "@type": "DefinedTerm", "name": "Type D visa", "description": "German national long-stay visa for study, work or job search, where net worth proof is typically required." },
+            { "@type": "DefinedTerm", "name": "Verpflichtungserklaerung", "description": "A formal sponsorship undertaking by a German resident, sometimes accepted in place of a blocked account." },
+            { "@type": "DefinedTerm", "name": "UDIN", "description": "18-digit code generated at udin.icai.org, mandatory on every CA certificate since 1 July 2019." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1485,22 +1490,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
-<!-- ============================================
-     CONSULTATION FORM - Country Dropdown + Validation + Bigin Integration
-     ============================================ -->
-{{-- Enquiry form markup + JS now in partials/enquiry-form.blade.php --}}
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1523,8 +1516,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1561,7 +1552,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (stable, not live date)
 (function(){
@@ -1572,3 +1562,24 @@ window.addEventListener('scroll', function() {
     if(el2)el2.textContent=dateStr;
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+<!-- ============================================
+     CONSULTATION FORM - Country Dropdown + Validation + Bigin Integration
+     ============================================ -->
+{{-- Enquiry form markup + JS now in partials/enquiry-form.blade.php --}}
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

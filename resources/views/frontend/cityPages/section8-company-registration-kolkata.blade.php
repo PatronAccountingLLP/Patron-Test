@@ -1,5 +1,41 @@
 @extends('layouts.service-app')
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet"><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">@section('meta')
+@push('styles')
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<style>
+/* Amount column — right-align only on tables with .table-amount class */
+        .table-amount td:last-child { color: var(--text-secondary); font-size: 14px; font-weight: 500; }
+/* ============================================
+           EXPERT ATTRIBUTION BOX (E-E-A-T) — Plan 3.1
+           ============================================ */
+        .expert-attribution-box {
+            background: #F9F9F9;
+            border: 1px solid var(--gray-200);
+            border-radius: var(--radius-md);
+            padding: 12px 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-bottom: 24px;
+        }
+/* ============================================
+           TOC NAVIGATION — Plan 2.2
+           ============================================ */
+        .toc-section {
+            background: var(--gray-50); border-bottom: 1px solid var(--gray-200);
+            padding: 20px 0; position: sticky; top: 100px; z-index: 50;
+        }
+/* Process Evidence Screenshot — Plan 3.2 */
+        .process-screenshot-details { margin-top: 14px; }
+</style>
+@include('partials.page-css', ['file' => 'css/site.css'])
+@endpush
+
+@section('meta')
     <title>Section 8 Company Registration in Kolkata – MOA, AOA &amp; Fees</title>
     <meta name="description" content="CA-assisted Section 8 non-profit incorporation in Kolkata. Companies Act 2013, RoC Nizam Palace, 12A, 80G, FCRA, CSR-1. Rs 12,999. Call +91 945 945 6700.">
     <link rel="canonical" href="/section8-company-registration/kolkata">
@@ -142,37 +178,6 @@
 </script>
 
 @endsection
-
-@include('partials.page-css', ['file' => 'css/site.css'])
-<style>
-/* Amount column — right-align only on tables with .table-amount class */
-        .table-amount td:last-child { color: var(--text-secondary); font-size: 14px; font-weight: 500; }
-/* ============================================
-           EXPERT ATTRIBUTION BOX (E-E-A-T) — Plan 3.1
-           ============================================ */
-        .expert-attribution-box {
-            background: #F9F9F9;
-            border: 1px solid var(--gray-200);
-            border-radius: var(--radius-md);
-            padding: 12px 20px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            flex-wrap: wrap;
-            margin-bottom: 24px;
-        }
-/* ============================================
-           TOC NAVIGATION — Plan 2.2
-           ============================================ */
-        .toc-section {
-            background: var(--gray-50); border-bottom: 1px solid var(--gray-200);
-            padding: 20px 0; position: sticky; top: 100px; z-index: 50;
-        }
-/* Process Evidence Screenshot — Plan 3.2 */
-        .process-screenshot-details { margin-top: 14px; }
-</style>
-
-
 
 @section('content')
 <main>
@@ -978,7 +983,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

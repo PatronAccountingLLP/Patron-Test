@@ -1,155 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>GST Returns for Financial Services 2026 | Patron Accounting</title>
-    <meta name="description" content="GST returns for banking, NBFC, insurance, MF - Rule 38 50% ITC option under Section 17(4), exempt interest under Entry 27. Starting from INR 1,999 per month.">
-    <link rel="canonical" href="/gst-returns-for-financial-services">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="GST Returns for Financial Services 2026 | Patron Accounting">
-    <meta property="og:description" content="GST returns for banking, NBFC, insurance, MF - Rule 38 50% ITC option under Section 17(4), exempt interest under Entry 27. Starting from INR 1,999 per month.">
-    <meta property="og:url" content="/gst-returns-for-financial-services">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="GST Returns for Financial Services 2026 | Patron Accounting">
-    <meta name="twitter:description" content="GST returns for banking, NBFC, insurance, MF - Rule 38 50% ITC option under Section 17(4), exempt interest under Entry 27. Starting from INR 1,999 per month.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/gst-returns-for-financial-services/#service",
-        "name": "GST Returns for Financial Services",
-        "description": "Monthly managed GST compliance for banks, NBFCs, insurance companies, mutual fund AMCs, stock brokers, and depository participants. Covers Section 17(4) Rule 38 vs Rule 42/43 election, Entry 27 interest exemption under Notification 12/2017-CTR, securities outside GST, Rule 32(2) foreign exchange valuation, insurance and MF distributor RCM under Notification 13/2017-CT(R), intra-PAN distinct person ITC, and full GSTR-1/GSTR-3B filing.",
-        "serviceType": "GST Compliance for Financial Services",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-returns-for-financial-services" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [
-            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
-            { "@type": "Thing", "name": "Financial services", "sameAs": "https://en.wikipedia.org/wiki/Financial_services" }
-        ],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "GST Returns for Financial Services Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "Monthly GST Returns - Single GSTIN, basic financial entity",
-                    "priceCurrency": "INR",
-                    "price": "1999",
-                    "description": "Monthly GSTR-1 and GSTR-3B filing, a revenue classification matrix, and a Rule 38 monthly working file for a single GSTIN"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/gst-returns-for-financial-services/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
-            { "@type": "ListItem", "position": 3, "name": "GST Returns for Financial Services", "item": "https://www.patronaccounting.com/gst-returns-for-financial-services" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/gst-returns-for-financial-services/#faq",
-        "datePublished": "2026-05-27T08:00:00+05:30",
-        "dateModified": "2026-06-01T08:00:00+05:30",
-        "mainEntity": [
-
-            {
-                "@type": "Question",
-                "name": "Is interest on bank deposits or loans taxable under GST?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "No. Under Entry 27 of Notification 12/2017-Central Tax (Rate) dated 28 June 2017, services by way of extending deposits, loans, or advances in so far as the consideration is represented by interest or discount are exempt. The only exception is interest involved in credit card services, which is taxable. Inter-bank and authorised dealer foreign currency transactions are also exempt under the same entry."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the Section 17(4) option for banks and NBFCs?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Section 17(4) of the CGST Act gives banking companies, financial institutions, and NBFCs engaged in supply of services by way of accepting deposits or extending loans or advances the option to either follow Section 17(2) proportionate ITC reversal under Rule 42/43, or avail 50 percent of eligible monthly ITC on inputs, capital goods, and input services under Rule 38, with the balance lapsing. Once exercised in a FY, the option cannot be withdrawn that year."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What does Rule 38 require?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Rule 38 of the CGST Rules sets the procedure for the 50 percent option. The bank or NBFC first excludes ITC on non-business inputs, ITC blocked under Section 17(5), and ITC ineligible due to place of supply rules. From the remaining balance, 50 percent is claimed and the other 50 percent is reversed in GSTR-3B Table 4(B)(1). For intra-PAN distinct person transactions, 100 percent ITC is available under the second proviso to Section 17(4)."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Is penal interest on EMI default taxable under GST?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "No, when charged by a bank or NBFC. Per CBIC Circular 102/21/2019-GST dated 28 June 2019, penal interest charged by a lender for default in EMI payment is in the nature of additional interest on the underlying lending service and is exempt under Entry 27. Only penal interest charged by a seller for delayed payment of consideration on supply of goods or services is taxable as additional consideration."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Are securities subject to GST?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "No. Section 2(101) of the CGST Act defines securities by reference to the Securities Contracts (Regulation) Act 1956. Section 2(52) excludes securities from the goods definition, and Section 2(102) excludes securities from the services definition. Sale or purchase of securities (shares, debentures, mutual fund units, bonds, derivatives) is outside the scope of GST. However, brokerage charged on securities transactions is a taxable service at 18 percent."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How is GST applied on foreign exchange transactions?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Rule 32(2) of the CGST Rules provides two options. Slab-based - minimum INR 250 for first INR 1 lakh; 0.5 percent for INR 1 lakh to INR 10 lakh (minimum INR 1,000); 0.1 percent above INR 10 lakh (minimum INR 5,500, maximum INR 60,000). Alternative is 1 percent of the gross amount of currency exchanged. The option once chosen cannot be changed in the same FY."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Are insurance agent and mutual fund distributor commissions under reverse charge?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. Notification 13/2017-Central Tax (Rate) Entry 7 specifies that services by an insurance agent to an insurance company are under RCM - the insurance company pays GST at 18 percent. Entry 7A specifies that services by a mutual fund distributor to an asset management company are under RCM - the AMC pays GST at 18 percent. The agent or distributor does not collect GST in the invoice."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the cost of monthly GST returns for financial services at Patron Accounting?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Starting from INR 1,999 per month (Exclusive of GST and government charges) for single-GSTIN basic financial entity compliance. Monthly returns plus Rule 38 plus insurance / MF RCM package starts from INR 3,999 per month. Section 17(4) election modelling, FX Rule 32(2) setup, multi-state banking compliance, and DRC-01C reply are quoted separately based on scope."
-                }
-            }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -763,7 +618,157 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>GST Returns for Financial Services 2026 | Patron Accounting</title>
+    <meta name="description" content="GST returns for banking, NBFC, insurance, MF - Rule 38 50% ITC option under Section 17(4), exempt interest under Entry 27. Starting from INR 1,999 per month.">
+    <link rel="canonical" href="/gst-returns-for-financial-services">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="GST Returns for Financial Services 2026 | Patron Accounting">
+    <meta property="og:description" content="GST returns for banking, NBFC, insurance, MF - Rule 38 50% ITC option under Section 17(4), exempt interest under Entry 27. Starting from INR 1,999 per month.">
+    <meta property="og:url" content="/gst-returns-for-financial-services">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GST Returns for Financial Services 2026 | Patron Accounting">
+    <meta name="twitter:description" content="GST returns for banking, NBFC, insurance, MF - Rule 38 50% ITC option under Section 17(4), exempt interest under Entry 27. Starting from INR 1,999 per month.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/gst-returns-for-financial-services/#service",
+        "name": "GST Returns for Financial Services",
+        "description": "Monthly managed GST compliance for banks, NBFCs, insurance companies, mutual fund AMCs, stock brokers, and depository participants. Covers Section 17(4) Rule 38 vs Rule 42/43 election, Entry 27 interest exemption under Notification 12/2017-CTR, securities outside GST, Rule 32(2) foreign exchange valuation, insurance and MF distributor RCM under Notification 13/2017-CT(R), intra-PAN distinct person ITC, and full GSTR-1/GSTR-3B filing.",
+        "serviceType": "GST Compliance for Financial Services",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-returns-for-financial-services" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [
+            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
+            { "@type": "Thing", "name": "Financial services", "sameAs": "https://en.wikipedia.org/wiki/Financial_services" }
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "GST Returns for Financial Services Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "Monthly GST Returns - Single GSTIN, basic financial entity",
+                    "priceCurrency": "INR",
+                    "price": "1999",
+                    "description": "Monthly GSTR-1 and GSTR-3B filing, a revenue classification matrix, and a Rule 38 monthly working file for a single GSTIN"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/gst-returns-for-financial-services/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
+            { "@type": "ListItem", "position": 3, "name": "GST Returns for Financial Services", "item": "https://www.patronaccounting.com/gst-returns-for-financial-services" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/gst-returns-for-financial-services/#faq",
+        "datePublished": "2026-05-27T08:00:00+05:30",
+        "dateModified": "2026-06-01T08:00:00+05:30",
+        "mainEntity": [
+
+            {
+                "@type": "Question",
+                "name": "Is interest on bank deposits or loans taxable under GST?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No. Under Entry 27 of Notification 12/2017-Central Tax (Rate) dated 28 June 2017, services by way of extending deposits, loans, or advances in so far as the consideration is represented by interest or discount are exempt. The only exception is interest involved in credit card services, which is taxable. Inter-bank and authorised dealer foreign currency transactions are also exempt under the same entry."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the Section 17(4) option for banks and NBFCs?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Section 17(4) of the CGST Act gives banking companies, financial institutions, and NBFCs engaged in supply of services by way of accepting deposits or extending loans or advances the option to either follow Section 17(2) proportionate ITC reversal under Rule 42/43, or avail 50 percent of eligible monthly ITC on inputs, capital goods, and input services under Rule 38, with the balance lapsing. Once exercised in a FY, the option cannot be withdrawn that year."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What does Rule 38 require?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Rule 38 of the CGST Rules sets the procedure for the 50 percent option. The bank or NBFC first excludes ITC on non-business inputs, ITC blocked under Section 17(5), and ITC ineligible due to place of supply rules. From the remaining balance, 50 percent is claimed and the other 50 percent is reversed in GSTR-3B Table 4(B)(1). For intra-PAN distinct person transactions, 100 percent ITC is available under the second proviso to Section 17(4)."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is penal interest on EMI default taxable under GST?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No, when charged by a bank or NBFC. Per CBIC Circular 102/21/2019-GST dated 28 June 2019, penal interest charged by a lender for default in EMI payment is in the nature of additional interest on the underlying lending service and is exempt under Entry 27. Only penal interest charged by a seller for delayed payment of consideration on supply of goods or services is taxable as additional consideration."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Are securities subject to GST?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No. Section 2(101) of the CGST Act defines securities by reference to the Securities Contracts (Regulation) Act 1956. Section 2(52) excludes securities from the goods definition, and Section 2(102) excludes securities from the services definition. Sale or purchase of securities (shares, debentures, mutual fund units, bonds, derivatives) is outside the scope of GST. However, brokerage charged on securities transactions is a taxable service at 18 percent."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How is GST applied on foreign exchange transactions?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Rule 32(2) of the CGST Rules provides two options. Slab-based - minimum INR 250 for first INR 1 lakh; 0.5 percent for INR 1 lakh to INR 10 lakh (minimum INR 1,000); 0.1 percent above INR 10 lakh (minimum INR 5,500, maximum INR 60,000). Alternative is 1 percent of the gross amount of currency exchanged. The option once chosen cannot be changed in the same FY."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Are insurance agent and mutual fund distributor commissions under reverse charge?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Notification 13/2017-Central Tax (Rate) Entry 7 specifies that services by an insurance agent to an insurance company are under RCM - the insurance company pays GST at 18 percent. Entry 7A specifies that services by a mutual fund distributor to an asset management company are under RCM - the AMC pays GST at 18 percent. The agent or distributor does not collect GST in the invoice."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the cost of monthly GST returns for financial services at Patron Accounting?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Starting from INR 1,999 per month (Exclusive of GST and government charges) for single-GSTIN basic financial entity compliance. Monthly returns plus Rule 38 plus insurance / MF RCM package starts from INR 3,999 per month. Section 17(4) election modelling, FX Rule 32(2) setup, multi-state banking compliance, and DRC-01C reply are quoted separately based on scope."
+                }
+            }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1627,17 +1632,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1660,8 +1658,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1698,7 +1694,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1709,4 +1704,20 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+
 

@@ -1,203 +1,8 @@
 @extends('layouts.app')
-@section('meta')
-<title>DIN Verifier | Director Identification Number Check</title>
-<meta name="description" content="Free DIN verifier: check a Director Identification Number's 8-digit format and structure offline, then follow a guided checklist for official MCA verification.">
-<meta name="robots" content="index, follow">
-<link rel="canonical" href="https://www.patronaccounting.com/tools/din-authenticity-verifier">
-
-<meta property="og:title" content="DIN Authenticity Verifier — Free DIN Format Check Tool">
-<meta property="og:description" content="Validate a Director Identification Number's 8-digit format and structure instantly, then follow a guided checklist for official MCA DIN verification. Free and India-specific.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.patronaccounting.com/tools/din-authenticity-verifier">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="1200">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-<meta property="og:site_name" content="Patron Accounting LLP">
-<meta property="og:locale" content="en_IN">
-<meta name="theme-color" content="#15365f">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="DIN Authenticity Verifier — Free DIN Format Check Tool">
-<meta name="twitter:description" content="Validate a Director Identification Number's 8-digit format instantly, then follow a guided checklist for official MCA verification.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-
-<link rel="icon" href="https://www.patronaccounting.com/favicon.ico">
-<link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-
-@endsection
-@section('schema')
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "DIN Authenticity Verifier",
-  "description": "The DIN Authenticity Verifier validates the format and structure of a Director Identification Number issued by the Ministry of Corporate Affairs under Section 153 of the Companies Act 2013, checking that it is a valid 8-digit numeric identifier, and then guides the user through the official MCA portal verification steps and a due-diligence checklist. It is an offline format pre-check, not a live MCA database lookup.",
-  "url": "https://www.patronaccounting.com/tools/din-authenticity-verifier",
-  "applicationCategory": "BusinessApplication",
-  "operatingSystem": "Any",
-  "inLanguage": "en-IN",
-  "isAccessibleForFree": true,
-  "datePublished": "2026-05-16T08:00:00+05:30",
-  "dateModified": "2026-05-16T08:00:00+05:30",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "INR"
-  },
-  "reviewedBy": {
-    "@type": "Person",
-    "@id": "https://patronaccounting.com/#founder",
-    "name": "CA Sundram Gupta",
-    "jobTitle": "Founder & Chartered Accountant",
-    "url": "https://www.patronaccounting.com/contact-page",
-    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-    "hasCredential": [{
-      "@type": "EducationalOccupationalCredential",
-      "credentialCategory": "Professional Certification",
-      "name": "Chartered Accountant (CA)",
-      "recognizedBy": {
-        "@type": "Organization",
-        "name": "Institute of Chartered Accountants of India",
-        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-      }
-    }]
-  },
-  "publisher": { "@id": "https://patronaccounting.com/#organization" },
-  "provider": { "@id": "https://patronaccounting.com/#organization" }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "DIN Authenticity Verifier", "item": "https://www.patronaccounting.com/tools/din-authenticity-verifier"}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the DIN Authenticity Verifier?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "It is a free tool that checks whether a Director Identification Number is in the correct format and structure issued by the Ministry of Corporate Affairs, and then guides you through the official MCA verification steps and a due-diligence checklist. It is an offline format pre-check that runs in your browser; it does not query the live MCA database."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a DIN?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A Director Identification Number is a unique 8-digit number allotted by the Ministry of Corporate Affairs to an individual who intends to become or is a director of an Indian company. It is issued under Section 153 of the Companies Act 2013, is person-specific, and has lifetime validity, similar to a PAN."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How many digits is a valid DIN?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A valid DIN is exactly 8 digits, entirely numeric, with no letters or special characters. Any value that is not an 8-digit number fails the format check. The verifier confirms the length and that all characters are digits, which is the first sanity check before an official MCA lookup."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can this tool confirm a DIN is genuine and active?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. The tool can only confirm the format is structurally valid. Whether a DIN actually exists, who it belongs to, and whether it is active, deactivated or disqualified can only be confirmed on the official MCA portal using the Enquire DIN Status and Verify DIN-PAN services. The tool routes you to these and provides a checklist."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I verify a DIN on the MCA portal?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Go to mca.gov.in, open MCA Services, then DIN Services. Use Enquire DIN Status to see whether the 8-digit DIN is approved, deactivated or disqualified, and use Verify DIN-PAN Details of Director to confirm the DIN matches the director's name, date of birth and PAN in the MCA database."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the possible DIN statuses?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common statuses include Approved or Active, Deactivated due to non-filing of DIR-3 KYC, Disqualified under Section 164, Lapsed, and Surrendered or Cancelled via Form DIR-5. A director with a deactivated or disqualified DIN cannot validly sign MCA forms or be appointed, so status matters as much as format."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why would a DIN be deactivated?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The most common reason is non-filing of the annual DIR-3 KYC, which must be filed by 30 September each year. A deactivated DIN cannot be used for any MCA filing until the KYC is filed with the applicable late fee and the DIN is reactivated. Disqualification under Section 164 is a separate, more serious status."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is PAN required to verify a DIN?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "To fully authenticate a DIN against a person, yes. The MCA Verify DIN-PAN service cross-checks the DIN against the director's name, date of birth and PAN. A format check alone does not tie a DIN to an individual, so for due diligence you should always complete the DIN-PAN match on the MCA portal."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why verify a director's DIN before a transaction?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Investors, lenders, auditors and counterparties verify a DIN to confirm the person is a validly identified, non-disqualified director before signing agreements, lending, or onboarding a vendor. A fabricated or deactivated DIN is a red flag for fraud or non-compliance, so DIN verification is a standard due-diligence step."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does a DIN ever expire?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The DIN itself has lifetime validity and is never re-issued to another person. However, it becomes unusable if it is deactivated for non-filing of DIR-3 KYC, or if the director is disqualified. So a DIN never expires as a number, but its usability depends on annual KYC compliance and the director's standing."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does this tool store the DIN I enter?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. The DIN Authenticity Verifier runs entirely in your browser. The DIN you enter is never transmitted to any server or stored anywhere. Refreshing the page clears the input, so you can run a confidential format pre-check before proceeding to official MCA verification."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the DIN format check legally conclusive?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. A passing format check only means the value could be a valid DIN structurally. It is not legal confirmation. The authoritative source is the MCA portal, and for legal or transactional reliance you should obtain and retain a screenshot or report of the MCA DIN status and DIN-PAN match, ideally reviewed by a professional."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the DIN Authenticity Verifier free?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, it is completely free with no sign-up or usage limit. Patron Accounting LLP provides it as a due-diligence aid for founders, finance teams and professionals. For full director compliance, DIR-3 KYC filing or handling an ROC notice, our Chartered Accountants and Company Secretaries assist companies across India."
-      }
-    }
-  ]
-}
-</script>
-@endsection
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
 <style>
 
         :root {
@@ -1142,6 +947,203 @@ a:focus-visible {
 }
 
 </style>
+@endpush
+
+@section('meta')
+<title>DIN Verifier | Director Identification Number Check</title>
+<meta name="description" content="Free DIN verifier: check a Director Identification Number's 8-digit format and structure offline, then follow a guided checklist for official MCA verification.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/din-authenticity-verifier">
+
+<meta property="og:title" content="DIN Authenticity Verifier — Free DIN Format Check Tool">
+<meta property="og:description" content="Validate a Director Identification Number's 8-digit format and structure instantly, then follow a guided checklist for official MCA DIN verification. Free and India-specific.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/din-authenticity-verifier">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+<meta property="og:site_name" content="Patron Accounting LLP">
+<meta property="og:locale" content="en_IN">
+<meta name="theme-color" content="#15365f">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="DIN Authenticity Verifier — Free DIN Format Check Tool">
+<meta name="twitter:description" content="Validate a Director Identification Number's 8-digit format instantly, then follow a guided checklist for official MCA verification.">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+
+@endsection
+@section('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "DIN Authenticity Verifier",
+  "description": "The DIN Authenticity Verifier validates the format and structure of a Director Identification Number issued by the Ministry of Corporate Affairs under Section 153 of the Companies Act 2013, checking that it is a valid 8-digit numeric identifier, and then guides the user through the official MCA portal verification steps and a due-diligence checklist. It is an offline format pre-check, not a live MCA database lookup.",
+  "url": "https://www.patronaccounting.com/tools/din-authenticity-verifier",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Any",
+  "inLanguage": "en-IN",
+  "isAccessibleForFree": true,
+  "datePublished": "2026-05-16T08:00:00+05:30",
+  "dateModified": "2026-05-16T08:00:00+05:30",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "INR"
+  },
+  "reviewedBy": {
+    "@type": "Person",
+    "@id": "https://patronaccounting.com/#founder",
+    "name": "CA Sundram Gupta",
+    "jobTitle": "Founder & Chartered Accountant",
+    "url": "https://www.patronaccounting.com/contact-page",
+    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+    "hasCredential": [{
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Professional Certification",
+      "name": "Chartered Accountant (CA)",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Institute of Chartered Accountants of India",
+        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+      }
+    }]
+  },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
+  "provider": { "@id": "https://patronaccounting.com/#organization" }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "DIN Authenticity Verifier", "item": "https://www.patronaccounting.com/tools/din-authenticity-verifier"}
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the DIN Authenticity Verifier?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It is a free tool that checks whether a Director Identification Number is in the correct format and structure issued by the Ministry of Corporate Affairs, and then guides you through the official MCA verification steps and a due-diligence checklist. It is an offline format pre-check that runs in your browser; it does not query the live MCA database."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a DIN?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A Director Identification Number is a unique 8-digit number allotted by the Ministry of Corporate Affairs to an individual who intends to become or is a director of an Indian company. It is issued under Section 153 of the Companies Act 2013, is person-specific, and has lifetime validity, similar to a PAN."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many digits is a valid DIN?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A valid DIN is exactly 8 digits, entirely numeric, with no letters or special characters. Any value that is not an 8-digit number fails the format check. The verifier confirms the length and that all characters are digits, which is the first sanity check before an official MCA lookup."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can this tool confirm a DIN is genuine and active?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The tool can only confirm the format is structurally valid. Whether a DIN actually exists, who it belongs to, and whether it is active, deactivated or disqualified can only be confirmed on the official MCA portal using the Enquire DIN Status and Verify DIN-PAN services. The tool routes you to these and provides a checklist."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I verify a DIN on the MCA portal?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Go to mca.gov.in, open MCA Services, then DIN Services. Use Enquire DIN Status to see whether the 8-digit DIN is approved, deactivated or disqualified, and use Verify DIN-PAN Details of Director to confirm the DIN matches the director's name, date of birth and PAN in the MCA database."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the possible DIN statuses?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Common statuses include Approved or Active, Deactivated due to non-filing of DIR-3 KYC, Disqualified under Section 164, Lapsed, and Surrendered or Cancelled via Form DIR-5. A director with a deactivated or disqualified DIN cannot validly sign MCA forms or be appointed, so status matters as much as format."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why would a DIN be deactivated?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The most common reason is non-filing of the annual DIR-3 KYC, which must be filed by 30 September each year. A deactivated DIN cannot be used for any MCA filing until the KYC is filed with the applicable late fee and the DIN is reactivated. Disqualification under Section 164 is a separate, more serious status."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is PAN required to verify a DIN?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "To fully authenticate a DIN against a person, yes. The MCA Verify DIN-PAN service cross-checks the DIN against the director's name, date of birth and PAN. A format check alone does not tie a DIN to an individual, so for due diligence you should always complete the DIN-PAN match on the MCA portal."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why verify a director's DIN before a transaction?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Investors, lenders, auditors and counterparties verify a DIN to confirm the person is a validly identified, non-disqualified director before signing agreements, lending, or onboarding a vendor. A fabricated or deactivated DIN is a red flag for fraud or non-compliance, so DIN verification is a standard due-diligence step."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does a DIN ever expire?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The DIN itself has lifetime validity and is never re-issued to another person. However, it becomes unusable if it is deactivated for non-filing of DIR-3 KYC, or if the director is disqualified. So a DIN never expires as a number, but its usability depends on annual KYC compliance and the director's standing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does this tool store the DIN I enter?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The DIN Authenticity Verifier runs entirely in your browser. The DIN you enter is never transmitted to any server or stored anywhere. Refreshing the page clears the input, so you can run a confidential format pre-check before proceeding to official MCA verification."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the DIN format check legally conclusive?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. A passing format check only means the value could be a valid DIN structurally. It is not legal confirmation. The authoritative source is the MCA portal, and for legal or transactional reliance you should obtain and retain a screenshot or report of the MCA DIN status and DIN-PAN match, ideally reviewed by a professional."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the DIN Authenticity Verifier free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, it is completely free with no sign-up or usage limit. Patron Accounting LLP provides it as a due-diligence aid for founders, finance teams and professionals. For full director compliance, DIR-3 KYC filing or handling an ROC notice, our Chartered Accountants and Company Secretaries assist companies across India."
+      }
+    }
+  ]
+}
+</script>
+@endsection
 @section('content')
 
 <nav class="toc-nav" aria-label="Page Navigation">

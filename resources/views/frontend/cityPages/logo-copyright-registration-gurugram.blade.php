@@ -1,160 +1,11 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Logo Copyright Registration Gurugram - Form XIV & Fees</title>
-    <meta name="description" content="Register logo copyright in Gurugram. Dual protection: copyright + trademark. Design IP, brand identity, assignment. Call +91 945 945 6700.">
-    <link rel="canonical" href="/logo-copyright-registration/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Logo Copyright Registration Gurugram - Form XIV & Fees">
-    <meta property="og:description" content="Register logo copyright in Gurugram. Dual protection: copyright + trademark. Design IP, brand identity, assignment. Call +91 945 945 6700.">
-    <meta property="og:url" content="/logo-copyright-registration/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Logo Copyright Registration Gurugram - Form XIV & Fees">
-    <meta name="twitter:description" content="Register logo copyright in Gurugram. Dual protection: copyright + trademark. Design IP, brand identity, assignment. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "Logo Copyright Registration in Gurugram | Brand IP",
-      "description": "Register logo copyright in Gurugram. Dual protection: copyright + trademark. Design IP, brand identity, assignment. Call +91 945 945 6700.",
-      "url": "https://www.patronaccounting.com/logo-copyright-registration/gurugram",
-      "serviceType": "Logo Copyright Registration in Gurugram | Brand IP",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/logo-copyright-registration/gurugram",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "minPrice": "500",
-          "maxPrice": "9000",
-          "priceCurrency": "INR"
-        }
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Logo Copyright Registration in India: Process and Fees",
-          "item": "https://www.patronaccounting.com/logo-copyright-registration"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Logo Copyright Registration in Gurugram | Brand IP",
-          "item": "https://www.patronaccounting.com/logo-copyright-registration/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Why do logos need both copyright and trademark?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Copyright protects the artistic design expression (lifetime + 60 years, no class limitation). Trademark protects the logo's commercial use as a brand identifier (10 years renewable, class-specific). Together they provide maximum protection. Without copyright, a competitor in a different class can copy the design. Without trademark, there's no commercial brand protection."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does logo dual registration cost in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Copyright: Rs 500 (individual) or Rs 2,000 (company). Trademark: Rs 4,500 per class (startup/MSME) or Rs 9,000 per class (company). Professional fee for dual filing: Rs 5,000 to Rs 12,000. Designer assignment deed: Rs 3,000 to Rs 5,000. Call +91 945 945 6700 for a detailed quote."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Who owns copyright in a logo designed by a freelancer?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The designer (Section 17 of the Copyright Act). The freelance designer is the first owner of the logo's copyright even if the business commissioned and paid for the design. A written assignment deed under Section 19 is required to transfer ownership to the business. Without this deed, the business does not own the design copyright."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can a brand name be copyrighted?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Names, slogans, and taglines cannot be copyrighted - they can only be trademarked. Copyright protects the artistic design elements of a logo (shapes, colors, arrangement). Trademark protects the name as a brand identifier. For complete protection, register the name as a word mark (trademark) and the logo design as both device mark (trademark) and artistic work (copyright)."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is Section 15 and how does it affect logo copyright?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 15 of the Copyright Act provides that if an artistic work (including a logo) is applied to products more than 50 times through an industrial process without Design Act registration, copyright protection may be lost for that industrial application. This affects D2C brands and manufacturers using logos on product packaging and merchandise. Consider Design Act registration alongside copyright if the logo appears on manufactured products."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can a logo be protected by both copyright and trademark?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. The artistic design elements get copyright protection under the Copyright Act (artistic work, lifetime + 60 years, no class limitation). The same logo as a brand identifier gets trademark protection under the Trade Marks Act (device mark, 10 years renewable, class-specific). These are different laws, different registries, and different rights. Both are recommended for complete protection."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does logo copyright and trademark last?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Copyright: creator's lifetime + 60 years. No renewal needed. Trademark: 10 years from filing, renewable indefinitely (pay renewal fee every 10 years). Copyright has no class limitation - protects the design in all contexts. Trademark is class-specific (45 Nice classes) - protects brand use in registered classes. Quick Answers Logo copyright aur trademark dono chahiye? Haan. Copyright design protect karta hai (life + 60 years, koi class limit nahi). Trademark commercial use protect karta hai (10 years, class-wise). Dono saath file karo maximum protection ke liye. Designer ne banaya toh ownership kiski? Designer ki. Section 17 ke under freelancer first owner hai. Business ko chahiye toh written assignment deed zaroori hai. Payment se copyright transfer nahi hota. Brand name copyright ho sakta hai? Nahi. Names, slogans, taglines copyright se protect nahi hote - sirf trademark se. Logo mein jo artistic design hai woh copyright se protect hota hai. Word mark aur device mark alag-alag register karo."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -678,7 +529,161 @@ section ul li:not(.nav-item) { font-size: 14px; }
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'Join Community'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Logo Copyright Registration Gurugram - Form XIV & Fees</title>
+    <meta name="description" content="Register logo copyright in Gurugram. Dual protection: copyright + trademark. Design IP, brand identity, assignment. Call +91 945 945 6700.">
+    <link rel="canonical" href="/logo-copyright-registration/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Logo Copyright Registration Gurugram - Form XIV & Fees">
+    <meta property="og:description" content="Register logo copyright in Gurugram. Dual protection: copyright + trademark. Design IP, brand identity, assignment. Call +91 945 945 6700.">
+    <meta property="og:url" content="/logo-copyright-registration/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Logo Copyright Registration Gurugram - Form XIV & Fees">
+    <meta name="twitter:description" content="Register logo copyright in Gurugram. Dual protection: copyright + trademark. Design IP, brand identity, assignment. Call +91 945 945 6700.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "Logo Copyright Registration in Gurugram | Brand IP",
+      "description": "Register logo copyright in Gurugram. Dual protection: copyright + trademark. Design IP, brand identity, assignment. Call +91 945 945 6700.",
+      "url": "https://www.patronaccounting.com/logo-copyright-registration/gurugram",
+      "serviceType": "Logo Copyright Registration in Gurugram | Brand IP",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.patronaccounting.com/logo-copyright-registration/gurugram",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": "500",
+          "maxPrice": "9000",
+          "priceCurrency": "INR"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Logo Copyright Registration in India: Process and Fees",
+          "item": "https://www.patronaccounting.com/logo-copyright-registration"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Logo Copyright Registration in Gurugram | Brand IP",
+          "item": "https://www.patronaccounting.com/logo-copyright-registration/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why do logos need both copyright and trademark?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Copyright protects the artistic design expression (lifetime + 60 years, no class limitation). Trademark protects the logo's commercial use as a brand identifier (10 years renewable, class-specific). Together they provide maximum protection. Without copyright, a competitor in a different class can copy the design. Without trademark, there's no commercial brand protection."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does logo dual registration cost in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Copyright: Rs 500 (individual) or Rs 2,000 (company). Trademark: Rs 4,500 per class (startup/MSME) or Rs 9,000 per class (company). Professional fee for dual filing: Rs 5,000 to Rs 12,000. Designer assignment deed: Rs 3,000 to Rs 5,000. Call +91 945 945 6700 for a detailed quote."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who owns copyright in a logo designed by a freelancer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The designer (Section 17 of the Copyright Act). The freelance designer is the first owner of the logo's copyright even if the business commissioned and paid for the design. A written assignment deed under Section 19 is required to transfer ownership to the business. Without this deed, the business does not own the design copyright."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a brand name be copyrighted?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Names, slogans, and taglines cannot be copyrighted - they can only be trademarked. Copyright protects the artistic design elements of a logo (shapes, colors, arrangement). Trademark protects the name as a brand identifier. For complete protection, register the name as a word mark (trademark) and the logo design as both device mark (trademark) and artistic work (copyright)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Section 15 and how does it affect logo copyright?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 15 of the Copyright Act provides that if an artistic work (including a logo) is applied to products more than 50 times through an industrial process without Design Act registration, copyright protection may be lost for that industrial application. This affects D2C brands and manufacturers using logos on product packaging and merchandise. Consider Design Act registration alongside copyright if the logo appears on manufactured products."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a logo be protected by both copyright and trademark?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The artistic design elements get copyright protection under the Copyright Act (artistic work, lifetime + 60 years, no class limitation). The same logo as a brand identifier gets trademark protection under the Trade Marks Act (device mark, 10 years renewable, class-specific). These are different laws, different registries, and different rights. Both are recommended for complete protection."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does logo copyright and trademark last?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Copyright: creator's lifetime + 60 years. No renewal needed. Trademark: 10 years from filing, renewable indefinitely (pay renewal fee every 10 years). Copyright has no class limitation - protects the design in all contexts. Trademark is class-specific (45 Nice classes) - protects brand use in registered classes. Quick Answers Logo copyright aur trademark dono chahiye? Haan. Copyright design protect karta hai (life + 60 years, koi class limit nahi). Trademark commercial use protect karta hai (10 years, class-wise). Dono saath file karo maximum protection ke liye. Designer ne banaya toh ownership kiski? Designer ki. Section 17 ke under freelancer first owner hai. Business ko chahiye toh written assignment deed zaroori hai. Payment se copyright transfer nahi hota. Brand name copyright ho sakta hai? Nahi. Names, slogans, taglines copyright se protect nahi hote - sirf trademark se. Logo mein jo artistic design hai woh copyright se protect hota hai. Word mark aur device mark alag-alag register karo."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1604,7 +1609,6 @@ var tocWrapper=document.getElementById('tocWrapper');document.getElementById('to
 
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

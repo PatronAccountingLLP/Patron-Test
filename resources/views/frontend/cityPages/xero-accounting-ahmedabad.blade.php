@@ -1,10 +1,11 @@
 @extends('layouts.service-app')
-
-
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="/css/patron-cluster.css">
+@endpush
 
 @section('meta')
     <title>Xero Bookkeeping and Accounting Services in Ahmedabad</title>
@@ -308,9 +309,6 @@
 }
 </script>
 @endsection
-
-<link rel="stylesheet" href="/css/patron-cluster.css">
-
 @section('content')
 <main>
 

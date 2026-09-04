@@ -1,174 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Capital Account Certificate under FEMA in Delhi 2026 | Patron Accounting</title>
-    <meta name="description" content="Capital Account Certificate by a CA with UDIN for FEMA reporting. Supports FC-GPR, ECB drawdown, and FC-TRS for FDI and foreign currency loans. From INR 2,499.">
-    <link rel="canonical" href="/capital-account-certificate/delhi">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Capital Account Certificate under FEMA 2026 | Patron Accounting">
-    <meta property="og:description" content="Capital Account Certificate by a CA with UDIN for FEMA reporting. Supports FC-GPR, ECB drawdown, and FC-TRS for FDI and foreign currency loans. From INR 2,499.">
-    <meta property="og:url" content="/capital-account-certificate/delhi">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Capital Account Certificate under FEMA 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Capital Account Certificate by a CA with UDIN for FEMA reporting. Supports FC-GPR, ECB drawdown, and FC-TRS for FDI and foreign currency loans. From INR 2,499.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/capital-account-certificate/delhi/#service",
-        "name": "Capital Account Certificate in Delhi",
-        "description": "CA certification of capital account transactions under FEMA, 1999, supporting RBI reporting such as FC-GPR for foreign direct investment, FC-TRS for transfer of capital instruments, and ECB reporting, filed via the FIRMS portal and AD Category-I bank, with a mandatory 18-digit UDIN.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/capital-account-certificate/delhi" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Foreign Exchange Management Act", "sameAs": "https://en.wikipedia.org/wiki/Foreign_Exchange_Management_Act" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Capital Account Certificate Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": { "@type": "Service", "name": "Capital account certificate for FEMA reporting" },
-                    "priceCurrency": "INR",
-                    "price": "2499",
-                    "description": "Starting from INR 2,499 (excl. GST and govt. charges)"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/capital-account-certificate/delhi/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "FDI Compliance", "item": "https://www.patronaccounting.com/fdi-compliance" },
-            { "@type": "ListItem", "position": 3, "name": "Capital Account Certificate", "item": "https://www.patronaccounting.com/capital-account-certificate/delhi" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/capital-account-certificate/delhi/#faq",
-        "datePublished": "2026-06-09T08:00:00+05:30",
-        "dateModified": "2026-06-09T08:00:00+05:30",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "What is a capital account transaction under FEMA?",
-                "acceptedAnswer": { "@type": "Answer", "text": "It is a transaction that alters assets or liabilities outside India for a resident, or inside India for a non-resident, such as foreign direct investment, External Commercial Borrowings, transfer of shares between residents and non-residents, and overseas direct investment. These are restricted unless permitted under FEMA." }
-            },
-            {
-                "@type": "Question",
-                "name": "What is a Capital Account Certificate?",
-                "acceptedAnswer": { "@type": "Answer", "text": "It is a Chartered Accountant's certificate attesting the details and FEMA compliance of a capital account transaction, used to support the statutory reporting such as FC-GPR for FDI, FC-TRS for transfers, and ECB reporting. It is not a single RBI form by that name but the CA-certification layer accompanying these filings." }
-            },
-            {
-                "@type": "Question",
-                "name": "When must Form FC-GPR be filed?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Form FC-GPR must be filed on the RBI FIRMS portal within 30 days of allotting shares to a foreign investor. Late filing is a compoundable FEMA contravention, so timely certification and filing matter to avoid penalties." }
-            },
-            {
-                "@type": "Question",
-                "name": "How are ECB transactions reported?",
-                "acceptedAnswer": { "@type": "Answer", "text": "External Commercial Borrowings are reported to the RBI through an AD Category-I bank in the monthly ECB-2 Return for as long as the borrowing is outstanding. Drawdown and related details are documented, and CA certification supports accurate reporting." }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the penalty for FEMA non-compliance?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Under Section 13 of FEMA, a contravention can attract a penalty of up to three times the sum involved where it is quantifiable, or up to Rs 2 lakh where it is not, along with daily fines for continuing default. Accurate, timely reporting is the way to avoid this." }
-            },
-            {
-                "@type": "Question",
-                "name": "Who can issue the Capital Account Certificate?",
-                "acceptedAnswer": { "@type": "Answer", "text": "A practising Chartered Accountant registered with ICAI, holding a valid Certificate of Practice. The certificate carries the CA's seal, firm registration number, and an 18-digit UDIN that the AD bank and the RBI can verify online." }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/capital-account-certificate/delhi",
-        "name": "Capital Account Certificate in Delhi",
-        "description": "Capital Account Certificate by a CA with UDIN for FEMA reporting. Supports FC-GPR, ECB drawdown, and FC-TRS for FDI and foreign currency loans. From INR 2,499.",
-        "url": "https://www.patronaccounting.com/capital-account-certificate/delhi",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/capital-account-certificate/delhi/#service" },
-        "datePublished": "2026-06-09T08:00:00+05:30",
-        "dateModified": "2026-06-09T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/capital-account-certificate/delhi/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How a Capital Account Certificate Is Issued and Filed",
-        "description": "The six-step process for CA certification and FEMA reporting of a capital account transaction: share the transaction, check compliance, coordinate valuation, issue the certificate, file on FIRMS, and maintain records.",
-        "totalTime": "P7D",
-        "step": [
-            { "@type": "HowToStep", "name": "Share the transaction", "text": "Tell us the type - FDI, ECB, or transfer - amount, parties, and dates." },
-            { "@type": "HowToStep", "name": "Check compliance", "text": "We confirm the route, sectoral limits, and FEMA pricing requirements." },
-            { "@type": "HowToStep", "name": "Coordinate valuation", "text": "Where needed, we arrange the Merchant Banker or CA valuation." },
-            { "@type": "HowToStep", "name": "Issue the certificate", "text": "The CA attests the transaction with a UDIN." },
-            { "@type": "HowToStep", "name": "File on FIRMS", "text": "The FC-GPR, FC-TRS, or ECB reporting is filed via the AD bank within the deadline." },
-            { "@type": "HowToStep", "name": "Maintain records", "text": "Documentation is kept for FEMA audit and the annual FLA return." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Capital Account Certificate Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Capital account transaction", "description": "One that alters cross-border assets or liabilities (FDI, ECB, transfers, ODI)." },
-            { "@type": "DefinedTerm", "name": "FC-GPR", "description": "Foreign Currency Gross Provisional Return - filed within 30 days of allotting shares to a foreign investor." },
-            { "@type": "DefinedTerm", "name": "FC-TRS", "description": "The form for transfer of capital instruments between residents and non-residents." },
-            { "@type": "DefinedTerm", "name": "ECB", "description": "External Commercial Borrowing - a foreign-currency loan, reported monthly via ECB-2." },
-            { "@type": "DefinedTerm", "name": "FIRMS portal", "description": "The RBI's online portal for FEMA reporting through the AD bank." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -782,7 +618,176 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Capital Account Certificate under FEMA in Delhi 2026 | Patron Accounting</title>
+    <meta name="description" content="Capital Account Certificate by a CA with UDIN for FEMA reporting. Supports FC-GPR, ECB drawdown, and FC-TRS for FDI and foreign currency loans. From INR 2,499.">
+    <link rel="canonical" href="/capital-account-certificate/delhi">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Capital Account Certificate under FEMA 2026 | Patron Accounting">
+    <meta property="og:description" content="Capital Account Certificate by a CA with UDIN for FEMA reporting. Supports FC-GPR, ECB drawdown, and FC-TRS for FDI and foreign currency loans. From INR 2,499.">
+    <meta property="og:url" content="/capital-account-certificate/delhi">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Capital Account Certificate under FEMA 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Capital Account Certificate by a CA with UDIN for FEMA reporting. Supports FC-GPR, ECB drawdown, and FC-TRS for FDI and foreign currency loans. From INR 2,499.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/capital-account-certificate/delhi/#service",
+        "name": "Capital Account Certificate in Delhi",
+        "description": "CA certification of capital account transactions under FEMA, 1999, supporting RBI reporting such as FC-GPR for foreign direct investment, FC-TRS for transfer of capital instruments, and ECB reporting, filed via the FIRMS portal and AD Category-I bank, with a mandatory 18-digit UDIN.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/capital-account-certificate/delhi" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Foreign Exchange Management Act", "sameAs": "https://en.wikipedia.org/wiki/Foreign_Exchange_Management_Act" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Capital Account Certificate Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": { "@type": "Service", "name": "Capital account certificate for FEMA reporting" },
+                    "priceCurrency": "INR",
+                    "price": "2499",
+                    "description": "Starting from INR 2,499 (excl. GST and govt. charges)"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/capital-account-certificate/delhi/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "FDI Compliance", "item": "https://www.patronaccounting.com/fdi-compliance" },
+            { "@type": "ListItem", "position": 3, "name": "Capital Account Certificate", "item": "https://www.patronaccounting.com/capital-account-certificate/delhi" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/capital-account-certificate/delhi/#faq",
+        "datePublished": "2026-06-09T08:00:00+05:30",
+        "dateModified": "2026-06-09T08:00:00+05:30",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is a capital account transaction under FEMA?",
+                "acceptedAnswer": { "@type": "Answer", "text": "It is a transaction that alters assets or liabilities outside India for a resident, or inside India for a non-resident, such as foreign direct investment, External Commercial Borrowings, transfer of shares between residents and non-residents, and overseas direct investment. These are restricted unless permitted under FEMA." }
+            },
+            {
+                "@type": "Question",
+                "name": "What is a Capital Account Certificate?",
+                "acceptedAnswer": { "@type": "Answer", "text": "It is a Chartered Accountant's certificate attesting the details and FEMA compliance of a capital account transaction, used to support the statutory reporting such as FC-GPR for FDI, FC-TRS for transfers, and ECB reporting. It is not a single RBI form by that name but the CA-certification layer accompanying these filings." }
+            },
+            {
+                "@type": "Question",
+                "name": "When must Form FC-GPR be filed?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Form FC-GPR must be filed on the RBI FIRMS portal within 30 days of allotting shares to a foreign investor. Late filing is a compoundable FEMA contravention, so timely certification and filing matter to avoid penalties." }
+            },
+            {
+                "@type": "Question",
+                "name": "How are ECB transactions reported?",
+                "acceptedAnswer": { "@type": "Answer", "text": "External Commercial Borrowings are reported to the RBI through an AD Category-I bank in the monthly ECB-2 Return for as long as the borrowing is outstanding. Drawdown and related details are documented, and CA certification supports accurate reporting." }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the penalty for FEMA non-compliance?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Under Section 13 of FEMA, a contravention can attract a penalty of up to three times the sum involved where it is quantifiable, or up to Rs 2 lakh where it is not, along with daily fines for continuing default. Accurate, timely reporting is the way to avoid this." }
+            },
+            {
+                "@type": "Question",
+                "name": "Who can issue the Capital Account Certificate?",
+                "acceptedAnswer": { "@type": "Answer", "text": "A practising Chartered Accountant registered with ICAI, holding a valid Certificate of Practice. The certificate carries the CA's seal, firm registration number, and an 18-digit UDIN that the AD bank and the RBI can verify online." }
+            }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/capital-account-certificate/delhi",
+        "name": "Capital Account Certificate in Delhi",
+        "description": "Capital Account Certificate by a CA with UDIN for FEMA reporting. Supports FC-GPR, ECB drawdown, and FC-TRS for FDI and foreign currency loans. From INR 2,499.",
+        "url": "https://www.patronaccounting.com/capital-account-certificate/delhi",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/capital-account-certificate/delhi/#service" },
+        "datePublished": "2026-06-09T08:00:00+05:30",
+        "dateModified": "2026-06-09T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/capital-account-certificate/delhi/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How a Capital Account Certificate Is Issued and Filed",
+        "description": "The six-step process for CA certification and FEMA reporting of a capital account transaction: share the transaction, check compliance, coordinate valuation, issue the certificate, file on FIRMS, and maintain records.",
+        "totalTime": "P7D",
+        "step": [
+            { "@type": "HowToStep", "name": "Share the transaction", "text": "Tell us the type - FDI, ECB, or transfer - amount, parties, and dates." },
+            { "@type": "HowToStep", "name": "Check compliance", "text": "We confirm the route, sectoral limits, and FEMA pricing requirements." },
+            { "@type": "HowToStep", "name": "Coordinate valuation", "text": "Where needed, we arrange the Merchant Banker or CA valuation." },
+            { "@type": "HowToStep", "name": "Issue the certificate", "text": "The CA attests the transaction with a UDIN." },
+            { "@type": "HowToStep", "name": "File on FIRMS", "text": "The FC-GPR, FC-TRS, or ECB reporting is filed via the AD bank within the deadline." },
+            { "@type": "HowToStep", "name": "Maintain records", "text": "Documentation is kept for FEMA audit and the annual FLA return." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Capital Account Certificate Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Capital account transaction", "description": "One that alters cross-border assets or liabilities (FDI, ECB, transfers, ODI)." },
+            { "@type": "DefinedTerm", "name": "FC-GPR", "description": "Foreign Currency Gross Provisional Return - filed within 30 days of allotting shares to a foreign investor." },
+            { "@type": "DefinedTerm", "name": "FC-TRS", "description": "The form for transfer of capital instruments between residents and non-residents." },
+            { "@type": "DefinedTerm", "name": "ECB", "description": "External Commercial Borrowing - a foreign-currency loan, reported monthly via ECB-2." },
+            { "@type": "DefinedTerm", "name": "FIRMS portal", "description": "The RBI's online portal for FEMA reporting through the AD bank." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1626,17 +1631,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1659,8 +1657,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1697,7 +1693,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1 (Schema Standard v2.1 / Rule 36): visible "Last Updated" mirrors schema dateModified
 // (9 June 2026) as a STABLE value - never live new Date().
@@ -1709,3 +1704,19 @@ window.addEventListener('scroll', function() {
     if (el2) el2.textContent = dateStr;
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

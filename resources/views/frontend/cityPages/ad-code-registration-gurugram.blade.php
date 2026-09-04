@@ -1,155 +1,11 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>AD Code Registration Gurugram - Customs & ICEGATE Process</title>
-    <meta name="description" content="Register AD code in Gurugram. Authorized dealer code for customs clearance. ICEGATE, shipping bill, export incentives. Call +91 945 945 6700.">
-    <link rel="canonical" href="/ad-code-registration/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="AD Code Registration Gurugram - Customs & ICEGATE Process">
-    <meta property="og:description" content="Register AD code in Gurugram. Authorized dealer code for customs clearance. ICEGATE, shipping bill, export incentives. Call +91 945 945 6700.">
-    <meta property="og:url" content="/ad-code-registration/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="AD Code Registration Gurugram - Customs & ICEGATE Process">
-    <meta name="twitter:description" content="Register AD code in Gurugram. Authorized dealer code for customs clearance. ICEGATE, shipping bill, export incentives. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "AD Code Registration in Gurugram | Export Customs",
-      "description": "Register AD code in Gurugram. Authorized dealer code for customs clearance. ICEGATE, shipping bill, export incentives. Call +91 945 945 6700.",
-      "url": "https://www.patronaccounting.com/ad-code-registration/gurugram",
-      "serviceType": "AD Code Registration in Gurugram | Export Customs",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/ad-code-registration/gurugram",
-        "price": "1999"
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "AD Code Registration in India: Process, Docs and ICEGATE",
-          "item": "https://www.patronaccounting.com/ad-code-registration"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "AD Code Registration in Gurugram | Export Customs",
-          "item": "https://www.patronaccounting.com/ad-code-registration/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is AD Code and why is it needed?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The AD Code (Authorized Dealer Code) is a 14-digit numerical identifier issued by your bank that links your bank account to the Indian Customs system through ICEGATE. Without an AD Code, you cannot generate a Shipping Bill (export) or file a Bill of Entry (import) on ICEGATE. It also ensures export incentives (RoDTEP, duty drawback, GST refunds) are credited directly to your bank account."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does AD Code registration cost?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Bank AD Code issuance: usually free or nominal bank charges. ICEGATE registration: free. Professional fee: Rs 1,999 to Rs 3,999. Complete export setup bundle (IEC + AD Code + ICEGATE + GST LUT + DSC): Rs 7,999 to Rs 14,999. Call +91 945 945 6700 for a detailed quote."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does AD Code registration take?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "3-7 working days total. Bank AD Code letter: 1-3 working days. ICEGATE portal registration and verification: 1-2 working days. All prerequisite documents (IEC, PAN, GST, bank details) must be ready before starting. Complete export setup (IEC + AD Code + GST LUT): 5-10 working days."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do I need separate AD Code registration at each customs port?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Under the recent CBIC reform, AD Code registered at one port is now valid at all customs locations across India. You select a primary port during ICEGATE registration (e.g., IGI Airport, ICD Garhi Harsaru, or ICD Tughlakabad for Gurugram exporters), but the AD Code works at any port. No separate per-port registration needed."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are the prerequisites for AD Code?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A valid Import Export Code (IEC) from DGFT is the primary prerequisite. You also need a current account with an RBI-authorized foreign exchange dealer bank (most nationalized and major private banks qualify). PAN card, GST registration, and company incorporation documents are also required. IEC can be obtained in 1-3 days from DGFT."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What export incentives does AD Code enable?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "RoDTEP (Remission of Duties and Taxes on Exported Products), duty drawback, IGST refund on exports, and DGFT scheme benefits are all credited directly to the AD Code-linked bank account. Without correct AD Code registration and bank account linkage, these incentives are delayed or lost entirely. For Gurugram manufacturers, these incentives can be Rs 8-15 lakh annually."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens if I change my bank after AD Code registration?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The AD Code must be updated on the ICEGATE portal through the modification process. The modification is done at the port of initial registration. If the AD Code is not updated, export incentives may be credited to the old bank account and customs documents will reference incorrect bank details. Always update AD Code immediately when changing banks or accounts. Quick Answers AD Code kya hai? 14-digit code jo bank deta hai. Customs clearance ke liye mandatory hai. Shipping Bill generate karne ke liye ICEGATE pe register karna padta hai. IEC pehle chahiye. Har port pe alag registration? Nahi. Ab ek port pe register karo, sab ports pe valid hai. Pehle alag-alag registration lagta tha, ab nahi. Lekin primary port select karna padta hai ICEGATE pe. Kitne din lagte hain? Total 3-7 working days. Bank se AD Code letter: 1-3 din. ICEGATE pe registration: 1-2 din. Sab documents ready hone chahiye pehle se."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -673,7 +529,156 @@ section ul li:not(.nav-item) { font-size: 14px; }
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'Join Community'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>AD Code Registration Gurugram - Customs & ICEGATE Process</title>
+    <meta name="description" content="Register AD code in Gurugram. Authorized dealer code for customs clearance. ICEGATE, shipping bill, export incentives. Call +91 945 945 6700.">
+    <link rel="canonical" href="/ad-code-registration/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="AD Code Registration Gurugram - Customs & ICEGATE Process">
+    <meta property="og:description" content="Register AD code in Gurugram. Authorized dealer code for customs clearance. ICEGATE, shipping bill, export incentives. Call +91 945 945 6700.">
+    <meta property="og:url" content="/ad-code-registration/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="AD Code Registration Gurugram - Customs & ICEGATE Process">
+    <meta name="twitter:description" content="Register AD code in Gurugram. Authorized dealer code for customs clearance. ICEGATE, shipping bill, export incentives. Call +91 945 945 6700.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "AD Code Registration in Gurugram | Export Customs",
+      "description": "Register AD code in Gurugram. Authorized dealer code for customs clearance. ICEGATE, shipping bill, export incentives. Call +91 945 945 6700.",
+      "url": "https://www.patronaccounting.com/ad-code-registration/gurugram",
+      "serviceType": "AD Code Registration in Gurugram | Export Customs",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.patronaccounting.com/ad-code-registration/gurugram",
+        "price": "1999"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "AD Code Registration in India: Process, Docs and ICEGATE",
+          "item": "https://www.patronaccounting.com/ad-code-registration"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "AD Code Registration in Gurugram | Export Customs",
+          "item": "https://www.patronaccounting.com/ad-code-registration/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is AD Code and why is it needed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The AD Code (Authorized Dealer Code) is a 14-digit numerical identifier issued by your bank that links your bank account to the Indian Customs system through ICEGATE. Without an AD Code, you cannot generate a Shipping Bill (export) or file a Bill of Entry (import) on ICEGATE. It also ensures export incentives (RoDTEP, duty drawback, GST refunds) are credited directly to your bank account."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does AD Code registration cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bank AD Code issuance: usually free or nominal bank charges. ICEGATE registration: free. Professional fee: Rs 1,999 to Rs 3,999. Complete export setup bundle (IEC + AD Code + ICEGATE + GST LUT + DSC): Rs 7,999 to Rs 14,999. Call +91 945 945 6700 for a detailed quote."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does AD Code registration take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "3-7 working days total. Bank AD Code letter: 1-3 working days. ICEGATE portal registration and verification: 1-2 working days. All prerequisite documents (IEC, PAN, GST, bank details) must be ready before starting. Complete export setup (IEC + AD Code + GST LUT): 5-10 working days."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need separate AD Code registration at each customs port?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Under the recent CBIC reform, AD Code registered at one port is now valid at all customs locations across India. You select a primary port during ICEGATE registration (e.g., IGI Airport, ICD Garhi Harsaru, or ICD Tughlakabad for Gurugram exporters), but the AD Code works at any port. No separate per-port registration needed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the prerequisites for AD Code?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A valid Import Export Code (IEC) from DGFT is the primary prerequisite. You also need a current account with an RBI-authorized foreign exchange dealer bank (most nationalized and major private banks qualify). PAN card, GST registration, and company incorporation documents are also required. IEC can be obtained in 1-3 days from DGFT."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What export incentives does AD Code enable?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "RoDTEP (Remission of Duties and Taxes on Exported Products), duty drawback, IGST refund on exports, and DGFT scheme benefits are all credited directly to the AD Code-linked bank account. Without correct AD Code registration and bank account linkage, these incentives are delayed or lost entirely. For Gurugram manufacturers, these incentives can be Rs 8-15 lakh annually."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if I change my bank after AD Code registration?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The AD Code must be updated on the ICEGATE portal through the modification process. The modification is done at the port of initial registration. If the AD Code is not updated, export incentives may be credited to the old bank account and customs documents will reference incorrect bank details. Always update AD Code immediately when changing banks or accounts. Quick Answers AD Code kya hai? 14-digit code jo bank deta hai. Customs clearance ke liye mandatory hai. Shipping Bill generate karne ke liye ICEGATE pe register karna padta hai. IEC pehle chahiye. Har port pe alag registration? Nahi. Ab ek port pe register karo, sab ports pe valid hai. Pehle alag-alag registration lagta tha, ab nahi. Lekin primary port select karna padta hai ICEGATE pe. Kitne din lagte hain? Total 3-7 working days. Bank se AD Code letter: 1-3 din. ICEGATE pe registration: 1-2 din. Sab documents ready hone chahiye pehle se."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1598,7 +1603,6 @@ var tocWrapper=document.getElementById('tocWrapper');document.getElementById('to
 
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

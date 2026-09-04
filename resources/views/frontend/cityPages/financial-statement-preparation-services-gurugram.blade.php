@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,208 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>Financial Statements Gurugram 2026 | Patron Accounting</title>
-    <meta name="description" content="Schedule III financials for Gurugram firms from INR 9,999 per set. CA-prepared Balance Sheet, P and L, and Cash Flow built for Cyber City and Manesar units.">
-    <link rel="canonical" href="/financial-statement-preparation-services/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Financial Statements Gurugram 2026 | Patron Accounting">
-    <meta property="og:description" content="Financial statement preparation in Gurugram from INR 9,999 per set. CA-led Balance Sheet, P and L, Cash Flow per Schedule III for Cyber City and Manesar firms.">
-    <meta property="og:url" content="/financial-statement-preparation-services/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Financial Statements Gurugram 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Financial statement preparation in Gurugram from INR 9,999 per set. CA-led Balance Sheet, P and L, Cash Flow per Schedule III for Cyber City and Manesar firms.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/financial-statement-preparation-services/gurugram#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Financial Statement Preparation Services",
-          "item": "https://www.patronaccounting.com/financial-statement-preparation-services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Financial Statement Preparation Services in Gurugram",
-          "item": "https://www.patronaccounting.com/financial-statement-preparation-services/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/financial-statement-preparation-services/gurugram#faq",
-      "datePublished": "2026-06-23T08:00:00+05:30",
-      "dateModified": "2026-06-23T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is covered when you prepare financial statements for a Gurugram company?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A full set covers four reports - the Balance Sheet, the Profit and Loss statement, the Cash Flow statement, and the Notes to Accounts - laid out in the Schedule III format of the Companies Act 2013. Patron applies the AS or Ind AS treatment that fits your Gurugram entity, whether it is a Cyber City exporter or a Manesar plant, so the set works for lenders, investors, and RoC submission."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are the fees for preparing financial statements in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Pricing opens at INR 9,999 per set (Exl GST and Govt. Charges). Where the figure lands depends on how many transactions sit in your books, whether AS or Ind AS governs the entity, how many schedules are involved, and how fast you need delivery. A Golf Course Road startup or a Manesar auto-component maker gets a fixed quote confirmed before we start."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Will Gurugram banks accept financial statements that are not audited?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "They will. For working capital, overdraft, and term loan reviews, banks and NBFCs regularly work off provisional or unaudited statements that a professional has drawn up. Patron builds a Schedule III set carrying management certification, the form that Gurugram credit teams - from Cyber City corporate desks to Sohna Road branches - rely on when they appraise a loan file."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "AS or Ind AS - which one applies to my Gurugram entity?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Most small and mid-sized firms report under Accounting Standards (AS). Indian Accounting Standards (Ind AS) kick in for listed companies and for larger ones that cross the net worth limits set out in the Companies (Ind AS) Rules 2015. Patron checks where your Gurugram company sits, confirms the right framework, and prepares the statements on that basis."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is a Cash Flow statement mandatory for a Gurugram company?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "For most companies, yes. The Companies Act 2013 treats the Cash Flow statement as a core part of the financials, exempting only One Person Companies, small companies, and dormant companies. When a Gurugram firm needs one for an RoC filing or a lender, Patron prepares it on the indirect method in line with AS 3 or Ind AS 7."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What records do you need from a Gurugram firm to prepare its financials?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Share your trial balance or accounting file along with bank statements, GST returns, the fixed asset register, loan schedules, and last year's financials. From these Patron assembles the Balance Sheet, Profit and Loss, Cash Flow, and Notes to Accounts. If anything is missing - say STPI or forex records for a Cyber City exporter - we flag it before the set is closed."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How quickly can financial statements be prepared in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "When a Gurugram SME hands over tidy books, the full Schedule III set is usually ready in 3 to 7 working days. Timelines stretch to 2 to 3 weeks if the ledgers need cleaning up first or if Ind AS adjustments come into play. IMT Manesar manufacturers carrying inventory and several GSTINs typically land at the slower end."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can you prepare financial statements for RoC and MCA filing in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Patron prepares Schedule III compliant statements with the Notes to Accounts and disclosures needed for AOC-4 and MGT-7 filing through RoC Delhi under the MCA. We align the format so your statutory auditor and company secretary can complete the annual filing without rework."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/financial-statement-preparation-services/gurugram#service",
-      "name": "Financial Statement Preparation Services in Gurugram",
-      "description": "Financial statement preparation in Gurugram covers the Balance Sheet, Profit and Loss, Cash Flow, and Notes to Accounts under Schedule III of the Companies Act 2013 and applicable AS or Ind AS. Patron Accounting prepares unaudited financials for SMEs in Cyber City, Udyog Vihar, and Manesar for banks, investors, and RoC filing.",
-      "serviceType": "Financial Statement Preparation",
-      "url": "https://www.patronaccounting.com/financial-statement-preparation-services/gurugram",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#localbusiness-gurugram"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Financial statement",
-          "sameAs": "https://en.wikipedia.org/wiki/Financial_statement"
-        },
-        {
-          "@type": "Thing",
-          "name": "Balance sheet",
-          "sameAs": "https://en.wikipedia.org/wiki/Balance_sheet"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Financial Statement Preparation Plans in Gurugram",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "price": "9999",
-            "priceSpecification": {
-              "@type": "UnitPriceSpecification",
-              "priceCurrency": "INR",
-              "price": "9999",
-              "unitText": "per set"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Financial Statement Set per Year"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness-gurugram",
-      "name": "Patron Accounting LLP - Gurugram",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/financial-statement-preparation-services/gurugram",
-      "telephone": "+91-9699936369",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Gurugram",
-        "addressRegion": "Haryana",
-        "postalCode": "122002",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -815,7 +612,217 @@
         .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
 
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>Financial Statements Gurugram 2026 | Patron Accounting</title>
+    <meta name="description" content="Schedule III financials for Gurugram firms from INR 9,999 per set. CA-prepared Balance Sheet, P and L, and Cash Flow built for Cyber City and Manesar units.">
+    <link rel="canonical" href="/financial-statement-preparation-services/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Financial Statements Gurugram 2026 | Patron Accounting">
+    <meta property="og:description" content="Financial statement preparation in Gurugram from INR 9,999 per set. CA-led Balance Sheet, P and L, Cash Flow per Schedule III for Cyber City and Manesar firms.">
+    <meta property="og:url" content="/financial-statement-preparation-services/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Financial Statements Gurugram 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Financial statement preparation in Gurugram from INR 9,999 per set. CA-led Balance Sheet, P and L, Cash Flow per Schedule III for Cyber City and Manesar firms.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/financial-statement-preparation-services/gurugram#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Financial Statement Preparation Services",
+          "item": "https://www.patronaccounting.com/financial-statement-preparation-services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Financial Statement Preparation Services in Gurugram",
+          "item": "https://www.patronaccounting.com/financial-statement-preparation-services/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/financial-statement-preparation-services/gurugram#faq",
+      "datePublished": "2026-06-23T08:00:00+05:30",
+      "dateModified": "2026-06-23T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is covered when you prepare financial statements for a Gurugram company?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A full set covers four reports - the Balance Sheet, the Profit and Loss statement, the Cash Flow statement, and the Notes to Accounts - laid out in the Schedule III format of the Companies Act 2013. Patron applies the AS or Ind AS treatment that fits your Gurugram entity, whether it is a Cyber City exporter or a Manesar plant, so the set works for lenders, investors, and RoC submission."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the fees for preparing financial statements in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pricing opens at INR 9,999 per set (Exl GST and Govt. Charges). Where the figure lands depends on how many transactions sit in your books, whether AS or Ind AS governs the entity, how many schedules are involved, and how fast you need delivery. A Golf Course Road startup or a Manesar auto-component maker gets a fixed quote confirmed before we start."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will Gurugram banks accept financial statements that are not audited?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "They will. For working capital, overdraft, and term loan reviews, banks and NBFCs regularly work off provisional or unaudited statements that a professional has drawn up. Patron builds a Schedule III set carrying management certification, the form that Gurugram credit teams - from Cyber City corporate desks to Sohna Road branches - rely on when they appraise a loan file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "AS or Ind AS - which one applies to my Gurugram entity?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most small and mid-sized firms report under Accounting Standards (AS). Indian Accounting Standards (Ind AS) kick in for listed companies and for larger ones that cross the net worth limits set out in the Companies (Ind AS) Rules 2015. Patron checks where your Gurugram company sits, confirms the right framework, and prepares the statements on that basis."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is a Cash Flow statement mandatory for a Gurugram company?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For most companies, yes. The Companies Act 2013 treats the Cash Flow statement as a core part of the financials, exempting only One Person Companies, small companies, and dormant companies. When a Gurugram firm needs one for an RoC filing or a lender, Patron prepares it on the indirect method in line with AS 3 or Ind AS 7."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What records do you need from a Gurugram firm to prepare its financials?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Share your trial balance or accounting file along with bank statements, GST returns, the fixed asset register, loan schedules, and last year's financials. From these Patron assembles the Balance Sheet, Profit and Loss, Cash Flow, and Notes to Accounts. If anything is missing - say STPI or forex records for a Cyber City exporter - we flag it before the set is closed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How quickly can financial statements be prepared in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "When a Gurugram SME hands over tidy books, the full Schedule III set is usually ready in 3 to 7 working days. Timelines stretch to 2 to 3 weeks if the ledgers need cleaning up first or if Ind AS adjustments come into play. IMT Manesar manufacturers carrying inventory and several GSTINs typically land at the slower end."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you prepare financial statements for RoC and MCA filing in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Patron prepares Schedule III compliant statements with the Notes to Accounts and disclosures needed for AOC-4 and MGT-7 filing through RoC Delhi under the MCA. We align the format so your statutory auditor and company secretary can complete the annual filing without rework."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/financial-statement-preparation-services/gurugram#service",
+      "name": "Financial Statement Preparation Services in Gurugram",
+      "description": "Financial statement preparation in Gurugram covers the Balance Sheet, Profit and Loss, Cash Flow, and Notes to Accounts under Schedule III of the Companies Act 2013 and applicable AS or Ind AS. Patron Accounting prepares unaudited financials for SMEs in Cyber City, Udyog Vihar, and Manesar for banks, investors, and RoC filing.",
+      "serviceType": "Financial Statement Preparation",
+      "url": "https://www.patronaccounting.com/financial-statement-preparation-services/gurugram",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#localbusiness-gurugram"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Financial statement",
+          "sameAs": "https://en.wikipedia.org/wiki/Financial_statement"
+        },
+        {
+          "@type": "Thing",
+          "name": "Balance sheet",
+          "sameAs": "https://en.wikipedia.org/wiki/Balance_sheet"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Financial Statement Preparation Plans in Gurugram",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "price": "9999",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "INR",
+              "price": "9999",
+              "unitText": "per set"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Financial Statement Set per Year"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness-gurugram",
+      "name": "Patron Accounting LLP - Gurugram",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/financial-statement-preparation-services/gurugram",
+      "telephone": "+91-9699936369",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Gurugram",
+        "addressRegion": "Haryana",
+        "postalCode": "122002",
+        "addressCountry": "IN"
+      },
+      "parentOrganization": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1562,7 +1569,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

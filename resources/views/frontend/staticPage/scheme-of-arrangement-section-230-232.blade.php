@@ -1,173 +1,11 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Scheme of Arrangement, Section 230 to 232, 2026 | Patron Accounting</title>
-    <meta name="description" content="Mergers, demergers and amalgamations through an NCLT scheme of arrangement under Sections 230 to 232, with creditor approvals and ROC filings.">
-    <link rel="canonical" href="/scheme-of-arrangement-section-230-232">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Scheme of Arrangement, Section 230 to 232, 2026 | Patron Accounting">
-    <meta property="og:description" content="Mergers, demergers and amalgamations through an NCLT scheme of arrangement under Sections 230 to 232, with creditor approvals and ROC filings.">
-    <meta property="og:url" content="/scheme-of-arrangement-section-230-232">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Scheme of Arrangement, Section 230 to 232, 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Mergers, demergers and amalgamations through an NCLT scheme of arrangement under Sections 230 to 232, with creditor approvals and ROC filings.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/scheme-of-arrangement-section-230-232/#service",
-        "name": "Scheme of Arrangement under Sections 230 to 232",
-        "description": "Scheme of arrangement services from Patron Accounting LLP cover the end-to-end execution of a merger, demerger, amalgamation or arrangement under Sections 230 to 232 of the Companies Act, 2013 read with the Companies (Compromises, Arrangements and Amalgamations) Rules, 2016, including the drafting of the scheme with the structure, the share exchange ratio and the appointed and effective dates, the coordination of the registered valuer’s report and the auditor’s certificate on the accounting treatment, the filing of the first motion in Form NCLT-1 and the convening of the creditor and member meetings or a dispensation where eligible, the service of the statutory notices on the Central Government, the Income Tax authority, the RBI, SEBI, the ROC, the stock exchanges and the Official Liquidator as applicable, the filing of the second motion petition and the obtaining of the NCLT sanction order, and the filing of the order with the Registrar to give the scheme effect together with the post-scheme implementation. Fees are quoted per deal.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/scheme-of-arrangement-section-230-232" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Scheme of arrangement", "sameAs": "https://en.wikipedia.org/wiki/Scheme_of_arrangement" }]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/scheme-of-arrangement-section-230-232/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Company Compliance", "item": "https://www.patronaccounting.com/corporate-compliance-services" },
-            { "@type": "ListItem", "position": 3, "name": "Scheme of Arrangement", "item": "https://www.patronaccounting.com/scheme-of-arrangement-section-230-232" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/scheme-of-arrangement-section-230-232/#faq",
-        "datePublished": "2026-06-03T08:00:00+05:30",
-        "dateModified": "2026-06-04T08:00:00+05:30",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "What is a scheme of arrangement?",
-                "acceptedAnswer": { "@type": "Answer", "text": "A scheme of arrangement is a court-supervised restructuring mechanism under Sections 230 to 232 of the Companies Act, 2013. It allows companies to merge, demerge, amalgamate, reorganise capital or compromise with creditors, with the scheme approved by the requisite majority of members and creditors and sanctioned by the NCLT, after which it becomes binding on all stakeholders by operation of law." }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the difference between a merger and a demerger?",
-                "acceptedAnswer": { "@type": "Answer", "text": "A merger or amalgamation combines two or more companies into a single entity, with the transferor company's undertaking transferred to the transferee company. A demerger splits an undertaking or division out of a company into a separate company, often to carve out a business for a sale or to ring-fence it. Both are carried out through a scheme of arrangement under Sections 230 to 232 with NCLT sanction." }
-            },
-            {
-                "@type": "Question",
-                "name": "What approval is needed for a scheme of arrangement?",
-                "acceptedAnswer": { "@type": "Answer", "text": "A scheme must be approved by a majority in number representing at least 75 percent in value of each class of members and of creditors who vote at the meetings directed by the NCLT. After this approval, the NCLT sanctions the scheme through the second motion. The Tribunal may dispense with a creditors' meeting where at least 90 percent of creditors in value agree to the scheme by affidavit." }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the role of the NCLT in a scheme?",
-                "acceptedAnswer": { "@type": "Answer", "text": "The National Company Law Tribunal supervises the entire scheme. On the first motion, it orders and directs the meetings of members and creditors. After the meetings and the statutory notices, it hears the second motion petition and, if satisfied, sanctions the scheme by an order. Section 231 also empowers the NCLT to supervise the implementation and to give directions or modifications as needed." }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the first motion and the second motion?",
-                "acceptedAnswer": { "@type": "Answer", "text": "The first motion is the application to the NCLT in Form NCLT-1 seeking directions to convene the meetings of members and creditors, or a dispensation from those meetings. After the meetings are held and the requisite majority obtained, and notices are served on the authorities, the second motion is the petition to the NCLT to sanction the scheme. The sanction order is then filed with the Registrar of Companies." }
-            },
-            {
-                "@type": "Question",
-                "name": "How long does a scheme of arrangement take?",
-                "acceptedAnswer": { "@type": "Answer", "text": "A scheme of arrangement is a multi-month process. The time depends on the complexity of the scheme, the number of companies and classes of stakeholders, the NCLT bench's schedule, and whether any authority or stakeholder raises objections. The drafting and valuation, the two NCLT motions, the meetings and the statutory notices each take time, so realistic planning of the timeline is important." }
-            },
-            {
-                "@type": "Question",
-                "name": "Who must be notified of a scheme?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Notice of the proposed scheme must be served on the Central Government through the Regional Director, the Income Tax authority, and where applicable the Reserve Bank of India, SEBI, the Registrar of Companies, the stock exchanges for a listed company, and the Official Liquidator. These authorities may file representations, which the NCLT considers before sanctioning the scheme, so addressing their observations is part of the process." }
-            },
-            {
-                "@type": "Question",
-                "name": "Is there a faster route for small or group mergers?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Yes. Section 233 provides a fast-track merger route for small companies and for a merger between a holding company and its wholly-owned subsidiary. It is approved by the Central Government, through the Regional Director, rather than requiring a full NCLT scheme, subject to approval by 90 percent of members and creditors. Section 234 separately provides for cross-border mergers involving a foreign company." }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/scheme-of-arrangement-section-230-232",
-        "name": "Scheme of Arrangement under Sections 230 to 232",
-        "description": "Mergers, demergers and amalgamations through an NCLT scheme of arrangement under Sections 230 to 232, with creditor approvals and ROC filings.",
-        "url": "https://www.patronaccounting.com/scheme-of-arrangement-section-230-232",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/scheme-of-arrangement-section-230-232/#service" },
-        "datePublished": "2026-06-03T08:00:00+05:30",
-        "dateModified": "2026-06-04T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/scheme-of-arrangement-section-230-232/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "Scheme of Arrangement Process: Step by Step",
-        "description": "How a scheme of arrangement under Sections 230 to 232 is executed, from drafting the scheme and obtaining the valuation through the two NCLT motions and the meetings to the sanction order and the ROC filing.",
-        "totalTime": "P180D",
-        "step": [
-            { "@type": "HowToStep", "name": "Draft the scheme", "text": "Prepare the scheme with the structure, share exchange ratio, appointed date, effective date and accounting treatment." },
-            { "@type": "HowToStep", "name": "Board approvals and valuation", "text": "Obtain board approvals, the registered valuer's report and the auditor's certificate on the accounting treatment." },
-            { "@type": "HowToStep", "name": "First motion", "text": "File the first motion in Form NCLT-1 for directions to convene meetings, or seek dispensation where creditors agree." },
-            { "@type": "HowToStep", "name": "Hold meetings", "text": "Hold the NCLT-directed meetings of members and creditors and obtain the requisite majority." },
-            { "@type": "HowToStep", "name": "Notices to authorities", "text": "Serve notice of the scheme on the Central Government, Income Tax, RBI, SEBI, ROC, stock exchanges and the Official Liquidator, as applicable." },
-            { "@type": "HowToStep", "name": "Second motion and sanction", "text": "File the second motion petition and obtain the NCLT sanction order on the scheme." },
-            { "@type": "HowToStep", "name": "File with ROC", "text": "File the sanction order with the ROC to give the scheme effect and complete the implementation." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Scheme of Arrangement Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Transferor company", "description": "The company whose undertaking or part of it is transferred under the scheme." },
-            { "@type": "DefinedTerm", "name": "Transferee company", "description": "The company that receives the undertaking under the scheme." },
-            { "@type": "DefinedTerm", "name": "Share exchange ratio", "description": "The ratio in which shares of the transferee are issued, set by a registered valuer." },
-            { "@type": "DefinedTerm", "name": "Appointed date", "description": "The date from which the scheme is effective for accounting and transfer." },
-            { "@type": "DefinedTerm", "name": "First and second motion", "description": "The application to convene meetings, then the petition to sanction the scheme." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -781,7 +619,174 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Scheme of Arrangement, Section 230 to 232, 2026 | Patron Accounting</title>
+    <meta name="description" content="Mergers, demergers and amalgamations through an NCLT scheme of arrangement under Sections 230 to 232, with creditor approvals and ROC filings.">
+    <link rel="canonical" href="/scheme-of-arrangement-section-230-232">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Scheme of Arrangement, Section 230 to 232, 2026 | Patron Accounting">
+    <meta property="og:description" content="Mergers, demergers and amalgamations through an NCLT scheme of arrangement under Sections 230 to 232, with creditor approvals and ROC filings.">
+    <meta property="og:url" content="/scheme-of-arrangement-section-230-232">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Scheme of Arrangement, Section 230 to 232, 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Mergers, demergers and amalgamations through an NCLT scheme of arrangement under Sections 230 to 232, with creditor approvals and ROC filings.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/scheme-of-arrangement-section-230-232/#service",
+        "name": "Scheme of Arrangement under Sections 230 to 232",
+        "description": "Scheme of arrangement services from Patron Accounting LLP cover the end-to-end execution of a merger, demerger, amalgamation or arrangement under Sections 230 to 232 of the Companies Act, 2013 read with the Companies (Compromises, Arrangements and Amalgamations) Rules, 2016, including the drafting of the scheme with the structure, the share exchange ratio and the appointed and effective dates, the coordination of the registered valuer’s report and the auditor’s certificate on the accounting treatment, the filing of the first motion in Form NCLT-1 and the convening of the creditor and member meetings or a dispensation where eligible, the service of the statutory notices on the Central Government, the Income Tax authority, the RBI, SEBI, the ROC, the stock exchanges and the Official Liquidator as applicable, the filing of the second motion petition and the obtaining of the NCLT sanction order, and the filing of the order with the Registrar to give the scheme effect together with the post-scheme implementation. Fees are quoted per deal.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/scheme-of-arrangement-section-230-232" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Scheme of arrangement", "sameAs": "https://en.wikipedia.org/wiki/Scheme_of_arrangement" }]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/scheme-of-arrangement-section-230-232/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Company Compliance", "item": "https://www.patronaccounting.com/corporate-compliance-services" },
+            { "@type": "ListItem", "position": 3, "name": "Scheme of Arrangement", "item": "https://www.patronaccounting.com/scheme-of-arrangement-section-230-232" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/scheme-of-arrangement-section-230-232/#faq",
+        "datePublished": "2026-06-03T08:00:00+05:30",
+        "dateModified": "2026-06-04T08:00:00+05:30",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is a scheme of arrangement?",
+                "acceptedAnswer": { "@type": "Answer", "text": "A scheme of arrangement is a court-supervised restructuring mechanism under Sections 230 to 232 of the Companies Act, 2013. It allows companies to merge, demerge, amalgamate, reorganise capital or compromise with creditors, with the scheme approved by the requisite majority of members and creditors and sanctioned by the NCLT, after which it becomes binding on all stakeholders by operation of law." }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the difference between a merger and a demerger?",
+                "acceptedAnswer": { "@type": "Answer", "text": "A merger or amalgamation combines two or more companies into a single entity, with the transferor company's undertaking transferred to the transferee company. A demerger splits an undertaking or division out of a company into a separate company, often to carve out a business for a sale or to ring-fence it. Both are carried out through a scheme of arrangement under Sections 230 to 232 with NCLT sanction." }
+            },
+            {
+                "@type": "Question",
+                "name": "What approval is needed for a scheme of arrangement?",
+                "acceptedAnswer": { "@type": "Answer", "text": "A scheme must be approved by a majority in number representing at least 75 percent in value of each class of members and of creditors who vote at the meetings directed by the NCLT. After this approval, the NCLT sanctions the scheme through the second motion. The Tribunal may dispense with a creditors' meeting where at least 90 percent of creditors in value agree to the scheme by affidavit." }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the role of the NCLT in a scheme?",
+                "acceptedAnswer": { "@type": "Answer", "text": "The National Company Law Tribunal supervises the entire scheme. On the first motion, it orders and directs the meetings of members and creditors. After the meetings and the statutory notices, it hears the second motion petition and, if satisfied, sanctions the scheme by an order. Section 231 also empowers the NCLT to supervise the implementation and to give directions or modifications as needed." }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the first motion and the second motion?",
+                "acceptedAnswer": { "@type": "Answer", "text": "The first motion is the application to the NCLT in Form NCLT-1 seeking directions to convene the meetings of members and creditors, or a dispensation from those meetings. After the meetings are held and the requisite majority obtained, and notices are served on the authorities, the second motion is the petition to the NCLT to sanction the scheme. The sanction order is then filed with the Registrar of Companies." }
+            },
+            {
+                "@type": "Question",
+                "name": "How long does a scheme of arrangement take?",
+                "acceptedAnswer": { "@type": "Answer", "text": "A scheme of arrangement is a multi-month process. The time depends on the complexity of the scheme, the number of companies and classes of stakeholders, the NCLT bench's schedule, and whether any authority or stakeholder raises objections. The drafting and valuation, the two NCLT motions, the meetings and the statutory notices each take time, so realistic planning of the timeline is important." }
+            },
+            {
+                "@type": "Question",
+                "name": "Who must be notified of a scheme?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Notice of the proposed scheme must be served on the Central Government through the Regional Director, the Income Tax authority, and where applicable the Reserve Bank of India, SEBI, the Registrar of Companies, the stock exchanges for a listed company, and the Official Liquidator. These authorities may file representations, which the NCLT considers before sanctioning the scheme, so addressing their observations is part of the process." }
+            },
+            {
+                "@type": "Question",
+                "name": "Is there a faster route for small or group mergers?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Yes. Section 233 provides a fast-track merger route for small companies and for a merger between a holding company and its wholly-owned subsidiary. It is approved by the Central Government, through the Regional Director, rather than requiring a full NCLT scheme, subject to approval by 90 percent of members and creditors. Section 234 separately provides for cross-border mergers involving a foreign company." }
+            }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/scheme-of-arrangement-section-230-232",
+        "name": "Scheme of Arrangement under Sections 230 to 232",
+        "description": "Mergers, demergers and amalgamations through an NCLT scheme of arrangement under Sections 230 to 232, with creditor approvals and ROC filings.",
+        "url": "https://www.patronaccounting.com/scheme-of-arrangement-section-230-232",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/scheme-of-arrangement-section-230-232/#service" },
+        "datePublished": "2026-06-03T08:00:00+05:30",
+        "dateModified": "2026-06-04T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/scheme-of-arrangement-section-230-232/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "Scheme of Arrangement Process: Step by Step",
+        "description": "How a scheme of arrangement under Sections 230 to 232 is executed, from drafting the scheme and obtaining the valuation through the two NCLT motions and the meetings to the sanction order and the ROC filing.",
+        "totalTime": "P180D",
+        "step": [
+            { "@type": "HowToStep", "name": "Draft the scheme", "text": "Prepare the scheme with the structure, share exchange ratio, appointed date, effective date and accounting treatment." },
+            { "@type": "HowToStep", "name": "Board approvals and valuation", "text": "Obtain board approvals, the registered valuer's report and the auditor's certificate on the accounting treatment." },
+            { "@type": "HowToStep", "name": "First motion", "text": "File the first motion in Form NCLT-1 for directions to convene meetings, or seek dispensation where creditors agree." },
+            { "@type": "HowToStep", "name": "Hold meetings", "text": "Hold the NCLT-directed meetings of members and creditors and obtain the requisite majority." },
+            { "@type": "HowToStep", "name": "Notices to authorities", "text": "Serve notice of the scheme on the Central Government, Income Tax, RBI, SEBI, ROC, stock exchanges and the Official Liquidator, as applicable." },
+            { "@type": "HowToStep", "name": "Second motion and sanction", "text": "File the second motion petition and obtain the NCLT sanction order on the scheme." },
+            { "@type": "HowToStep", "name": "File with ROC", "text": "File the sanction order with the ROC to give the scheme effect and complete the implementation." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Scheme of Arrangement Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Transferor company", "description": "The company whose undertaking or part of it is transferred under the scheme." },
+            { "@type": "DefinedTerm", "name": "Transferee company", "description": "The company that receives the undertaking under the scheme." },
+            { "@type": "DefinedTerm", "name": "Share exchange ratio", "description": "The ratio in which shares of the transferee are issued, set by a registered valuer." },
+            { "@type": "DefinedTerm", "name": "Appointed date", "description": "The date from which the scheme is effective for accounting and transfer." },
+            { "@type": "DefinedTerm", "name": "First and second motion", "description": "The application to convene meetings, then the petition to sanction the scheme." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1554,17 +1559,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1587,8 +1585,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1625,7 +1621,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1 (corrected): Last Updated mirrors schema dateModified — STABLE hardcoded date, never live new Date()
 (function() {
@@ -1636,3 +1631,19 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

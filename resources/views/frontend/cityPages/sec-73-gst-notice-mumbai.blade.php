@@ -1,200 +1,11 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Section 73 GST Notice Mumbai</title>
-    <meta name="description" content="Section 73 GST notice CA in Mumbai: SCN reply, hearing, Section 73(5) DRC-03, Section 107 appeal at Mumbai CGST. Rs 15K-50K. Call +91 945 945 6700.">
-    <link rel="canonical" href="/sec-73-gst-notice/mumbai">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Section 73 GST Notice Mumbai 2026 | Patron Accounting">
-    <meta property="og:description" content="Section 73 GST notice CA in Mumbai: SCN reply, hearing, Section 73(5) DRC-03, Section 107 appeal at Mumbai CGST. Rs 15K-50K. Call +91 945 945 6700.">
-    <meta property="og:url" content="/sec-73-gst-notice/mumbai">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Section 73 GST Notice Mumbai 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Section 73 GST notice CA in Mumbai: SCN reply, hearing, Section 73(5) DRC-03, Section 107 appeal at Mumbai CGST. Rs 15K-50K. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/sec-73-gst-notice/mumbai#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "GST Notice",
-          "item": "https://www.patronaccounting.com/gst-notice"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Section 73 GST Notice Mumbai",
-          "item": "https://www.patronaccounting.com/sec-73-gst-notice/mumbai"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/sec-73-gst-notice/mumbai#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is Section 73 of CGST Act?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 73 of the CGST Act 2017 is the show-cause notice provision for non-fraud GST demands - cases where tax has not been paid, short paid, erroneously refunded or ITC wrongly availed without fraud, wilful misstatement or suppression of facts. It covers routine demands like GSTR-2A vs GSTR-3B mismatch, HSN classification disputes, ITC reversal under Section 17(5) and Section 13 IGST place-of-supply (highly relevant in Mumbai BFSI)."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Section 73 vs Section 74 - what is the difference?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 73 applies to non-fraud demands; Section 74 applies where fraud, wilful misstatement or suppression of facts is alleged. Section 73 carries NIL penalty if paid early under Section 73(5) or 73(8), and 10 percent on adjudication. Section 74 carries 15 percent before SCN, 25 percent within 30 days of SCN and 100 percent on adjudication. CBIC Circular 31/05/2018-GST sets the distinguishing criteria."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the time limit for Section 73 notice in GST?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Under Section 73(2) the SCN must be issued at least 3 months before the Section 73(10) limit - effectively 2 years 9 months from the annual-return due date. Section 73(10) requires the order within 3 years of annual-return due date. These limits are subject to Section 168A extensions notified for FYs 2017-18 to 2020-21 via Notifications 09/2023-CT and 56/2023-CT - Mumbai assessees with old-period SCNs need careful date arithmetic for time-bar defence."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How to reply to Section 73 SCN in Mumbai?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Log in to gst.gov.in, navigate to Services then User Services then View Notices and Orders, download DRC-01 with DIN, and file reply within 30 days. If pre-SCN intimation in DRC-01A, evaluate Section 73(5) DRC-03 settlement (NIL penalty). If formal SCN, evaluate Section 73(8) DRC-03 within 30 days (NIL penalty) versus contest with comprehensive reply citing Bombay HC case law and statutory references."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which Mumbai CGST Commissionerate covers BKC / Lower Parel / Andheri?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Mumbai is organised into 7 CGST Commissionerates under the CGST Mumbai Zone of CBIC. BKC and Bandra-Khar-Santa Cruz-Goregaon-Malad fall under Mumbai West CGST. Lower Parel-Worli-Dadar-Sion-Matunga fall under Mumbai Central CGST. Andheri-Kurla-Powai-Vikhroli-SEEPZ fall under Mumbai East CGST. Fort-Colaba-Nariman Point-Mahalaxmi-Tardeo fall under Mumbai South CGST. Plus Thane, Belapur (Navi Mumbai) and Raigad (JNPT)."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does a Section 73 CA cost in Mumbai?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patron Mumbai CA fees for Section 73 GST notice handling range from Rs 15,000 to Rs 50,000 per notice depending on demand quantum and chosen path. DRC-01A pre-SCN Section 73(5) DRC-03 settlement starts at Rs 15,000. Mid-range SCN contests at Rs 20,000 to 35,000. Section 107 appeal at Rs 50,000+. GSTAT Western Bench Mumbai (co-located) and Bombay HC writ at Principal Seat (also co-located) reduce overall litigation cost for Mumbai assessees."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does Mumbai have its own GSTAT bench?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. The GSTAT Western Regional Bench is located at Mumbai under the post-2023 GSTAT operational rules - covering Maharashtra (including Pune), Goa, Daman and Diu, Dadra and Nagar Haveli. Mumbai assessees have a CO-LOCATED tribunal advantage - no inter-city travel unlike Pune (150 km) or Gurugram (250 km to Chandigarh) assessees. Bombay High Court Principal Seat is also co-located in Mumbai for writ petitions."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/sec-73-gst-notice/mumbai#service",
-      "name": "Section 73 GST Notice CA in Mumbai - Non-Fraud SCN Reply and Appeal",
-      "url": "https://www.patronaccounting.com/sec-73-gst-notice/mumbai",
-      "description": "Patron Accounting Section 73 GST notice handling for Mumbai taxpayers - covering DRC-01A pre-SCN voluntary payment strategy with Section 73(5) NIL-penalty playbook, DRC-06 SCN reply drafting within 30 days, Section 73(8) post-SCN payment within 30 days with NIL penalty, Section 73(9) adjudication penalty mitigation, hearing representation across Mumbai 7 CGST Commissionerates (East, West, South, Central, Thane, Belapur, Raigad) and Maharashtra State Tax Mazgaon, Section 107 first appeal at Mumbai Appellate Authority, Section 112 second appeal at GSTAT Western Bench Mumbai (co-located) and Bombay High Court writ at Principal Seat Mumbai (also co-located). Starting from Rs 2,999.",
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      },
-      "areaServed": {
-        "@type": "City",
-        "name": "Mumbai",
-        "sameAs": "https://en.wikipedia.org/wiki/Mumbai"
-      },
-      "serviceType": "Section 73 GST Show Cause Notice Reply and Adjudication Defence",
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Goods and Services Tax (India)",
-          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
-        },
-        {
-          "@type": "Thing",
-          "name": "Central Goods and Services Tax Act 2017",
-          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
-        },
-        {
-          "@type": "Thing",
-          "name": "Show cause notice",
-          "sameAs": "https://en.wikipedia.org/wiki/Show_cause_notice"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Section 73 GST Notice Mumbai Service Packages",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "name": "DRC-01A Pre-SCN with Section 73(5) DRC-03 Settlement Mumbai",
-            "price": "15000",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/sec-73-gst-notice/mumbai"
-          },
-          {
-            "@type": "Offer",
-            "name": "Section 73 SCN (up to Rs 10 lakh) with Section 73(8) Settlement or Contest Mumbai",
-            "price": "20000",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/sec-73-gst-notice/mumbai"
-          },
-          {
-            "@type": "Offer",
-            "name": "Section 73 SCN (Rs 10-50 lakh) Contested through Adjudication Mumbai",
-            "price": "35000",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/sec-73-gst-notice/mumbai"
-          },
-          {
-            "@type": "Offer",
-            "name": "Section 107 Appeal at Mumbai Appellate Authority or GSTAT Western Bench Mumbai",
-            "price": "50000",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/sec-73-gst-notice/mumbai"
-          }
-        ]
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -865,7 +676,201 @@ section[style*="background: var(--blue)"] .content-text,
 section[style*="background: var(--blue)"] .content-text p,
 section[style*="background: var(--blue)"] .content-text li,
 section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !important;}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Section 73 GST Notice Mumbai</title>
+    <meta name="description" content="Section 73 GST notice CA in Mumbai: SCN reply, hearing, Section 73(5) DRC-03, Section 107 appeal at Mumbai CGST. Rs 15K-50K. Call +91 945 945 6700.">
+    <link rel="canonical" href="/sec-73-gst-notice/mumbai">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Section 73 GST Notice Mumbai 2026 | Patron Accounting">
+    <meta property="og:description" content="Section 73 GST notice CA in Mumbai: SCN reply, hearing, Section 73(5) DRC-03, Section 107 appeal at Mumbai CGST. Rs 15K-50K. Call +91 945 945 6700.">
+    <meta property="og:url" content="/sec-73-gst-notice/mumbai">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Section 73 GST Notice Mumbai 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Section 73 GST notice CA in Mumbai: SCN reply, hearing, Section 73(5) DRC-03, Section 107 appeal at Mumbai CGST. Rs 15K-50K. Call +91 945 945 6700.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/sec-73-gst-notice/mumbai#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "GST Notice",
+          "item": "https://www.patronaccounting.com/gst-notice"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Section 73 GST Notice Mumbai",
+          "item": "https://www.patronaccounting.com/sec-73-gst-notice/mumbai"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/sec-73-gst-notice/mumbai#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Section 73 of CGST Act?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 73 of the CGST Act 2017 is the show-cause notice provision for non-fraud GST demands - cases where tax has not been paid, short paid, erroneously refunded or ITC wrongly availed without fraud, wilful misstatement or suppression of facts. It covers routine demands like GSTR-2A vs GSTR-3B mismatch, HSN classification disputes, ITC reversal under Section 17(5) and Section 13 IGST place-of-supply (highly relevant in Mumbai BFSI)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Section 73 vs Section 74 - what is the difference?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 73 applies to non-fraud demands; Section 74 applies where fraud, wilful misstatement or suppression of facts is alleged. Section 73 carries NIL penalty if paid early under Section 73(5) or 73(8), and 10 percent on adjudication. Section 74 carries 15 percent before SCN, 25 percent within 30 days of SCN and 100 percent on adjudication. CBIC Circular 31/05/2018-GST sets the distinguishing criteria."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the time limit for Section 73 notice in GST?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under Section 73(2) the SCN must be issued at least 3 months before the Section 73(10) limit - effectively 2 years 9 months from the annual-return due date. Section 73(10) requires the order within 3 years of annual-return due date. These limits are subject to Section 168A extensions notified for FYs 2017-18 to 2020-21 via Notifications 09/2023-CT and 56/2023-CT - Mumbai assessees with old-period SCNs need careful date arithmetic for time-bar defence."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to reply to Section 73 SCN in Mumbai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Log in to gst.gov.in, navigate to Services then User Services then View Notices and Orders, download DRC-01 with DIN, and file reply within 30 days. If pre-SCN intimation in DRC-01A, evaluate Section 73(5) DRC-03 settlement (NIL penalty). If formal SCN, evaluate Section 73(8) DRC-03 within 30 days (NIL penalty) versus contest with comprehensive reply citing Bombay HC case law and statutory references."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which Mumbai CGST Commissionerate covers BKC / Lower Parel / Andheri?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mumbai is organised into 7 CGST Commissionerates under the CGST Mumbai Zone of CBIC. BKC and Bandra-Khar-Santa Cruz-Goregaon-Malad fall under Mumbai West CGST. Lower Parel-Worli-Dadar-Sion-Matunga fall under Mumbai Central CGST. Andheri-Kurla-Powai-Vikhroli-SEEPZ fall under Mumbai East CGST. Fort-Colaba-Nariman Point-Mahalaxmi-Tardeo fall under Mumbai South CGST. Plus Thane, Belapur (Navi Mumbai) and Raigad (JNPT)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does a Section 73 CA cost in Mumbai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patron Mumbai CA fees for Section 73 GST notice handling range from Rs 15,000 to Rs 50,000 per notice depending on demand quantum and chosen path. DRC-01A pre-SCN Section 73(5) DRC-03 settlement starts at Rs 15,000. Mid-range SCN contests at Rs 20,000 to 35,000. Section 107 appeal at Rs 50,000+. GSTAT Western Bench Mumbai (co-located) and Bombay HC writ at Principal Seat (also co-located) reduce overall litigation cost for Mumbai assessees."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Mumbai have its own GSTAT bench?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The GSTAT Western Regional Bench is located at Mumbai under the post-2023 GSTAT operational rules - covering Maharashtra (including Pune), Goa, Daman and Diu, Dadra and Nagar Haveli. Mumbai assessees have a CO-LOCATED tribunal advantage - no inter-city travel unlike Pune (150 km) or Gurugram (250 km to Chandigarh) assessees. Bombay High Court Principal Seat is also co-located in Mumbai for writ petitions."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/sec-73-gst-notice/mumbai#service",
+      "name": "Section 73 GST Notice CA in Mumbai - Non-Fraud SCN Reply and Appeal",
+      "url": "https://www.patronaccounting.com/sec-73-gst-notice/mumbai",
+      "description": "Patron Accounting Section 73 GST notice handling for Mumbai taxpayers - covering DRC-01A pre-SCN voluntary payment strategy with Section 73(5) NIL-penalty playbook, DRC-06 SCN reply drafting within 30 days, Section 73(8) post-SCN payment within 30 days with NIL penalty, Section 73(9) adjudication penalty mitigation, hearing representation across Mumbai 7 CGST Commissionerates (East, West, South, Central, Thane, Belapur, Raigad) and Maharashtra State Tax Mazgaon, Section 107 first appeal at Mumbai Appellate Authority, Section 112 second appeal at GSTAT Western Bench Mumbai (co-located) and Bombay High Court writ at Principal Seat Mumbai (also co-located). Starting from Rs 2,999.",
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Mumbai",
+        "sameAs": "https://en.wikipedia.org/wiki/Mumbai"
+      },
+      "serviceType": "Section 73 GST Show Cause Notice Reply and Adjudication Defence",
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Goods and Services Tax (India)",
+          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
+        },
+        {
+          "@type": "Thing",
+          "name": "Central Goods and Services Tax Act 2017",
+          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
+        },
+        {
+          "@type": "Thing",
+          "name": "Show cause notice",
+          "sameAs": "https://en.wikipedia.org/wiki/Show_cause_notice"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Section 73 GST Notice Mumbai Service Packages",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "DRC-01A Pre-SCN with Section 73(5) DRC-03 Settlement Mumbai",
+            "price": "15000",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/sec-73-gst-notice/mumbai"
+          },
+          {
+            "@type": "Offer",
+            "name": "Section 73 SCN (up to Rs 10 lakh) with Section 73(8) Settlement or Contest Mumbai",
+            "price": "20000",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/sec-73-gst-notice/mumbai"
+          },
+          {
+            "@type": "Offer",
+            "name": "Section 73 SCN (Rs 10-50 lakh) Contested through Adjudication Mumbai",
+            "price": "35000",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/sec-73-gst-notice/mumbai"
+          },
+          {
+            "@type": "Offer",
+            "name": "Section 107 Appeal at Mumbai Appellate Authority or GSTAT Western Bench Mumbai",
+            "price": "50000",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/sec-73-gst-notice/mumbai"
+          }
+        ]
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -2068,7 +2073,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

@@ -1,194 +1,8 @@
 @extends('layouts.app')
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
-@section('meta')
-    <title>Debt to Equity Ratio Calculator | D/E & Benchmarks</title>
-    <meta name="description" content="Debt to equity ratio calculator: compute D/E per Schedule III & ICAI norms, with industry benchmarks and lease liability treatment. Free CA tool. Try now!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/debt-to-equity-calculator">
-    <meta property="og:title" content="Debt to Equity Ratio Calculator — Schedule III FY 2025-26">
-    <meta property="og:description" content="Compute D/E ratio per Schedule III & ICAI Guidance Note. Industry benchmarks, lease liability treatment under Ind AS 116, sample disclosure format. Free CA-reviewed tool.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/debt-to-equity-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Debt to Equity Ratio Calculator — Schedule III FY 2025-26">
-    <meta name="twitter:description" content="D/E ratio with industry benchmarks, lease liability treatment, Schedule III disclosure format. Free CA-reviewed tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-    <meta name="theme-color" content="#15365f">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebApplication",
-      "name": "Debt to Equity Ratio Calculator",
-      "description": "Debt to Equity Ratio Calculator computes the D/E ratio of an Indian company per Schedule III to the Companies Act, 2013 and the ICAI Guidance Note on Schedule III. The tool accepts long-term borrowings, current maturities of long-term debt, short-term borrowings, lease liabilities under Ind AS 116, equity share capital and other equity (reserves and surplus). Output includes the headline D/E ratio, total debt and total equity figures, separate long-term and short-term D/E breakdowns, debt-mix composition, color-coded leverage verdict against six industry benchmarks (manufacturing, services, IT, real estate, NBFC, trading), year-over-year variance flagged against the 25% Schedule III explanation threshold, sample Schedule III disclosure format with numerator and denominator definitions, and SEBI LODR Regulation 34(3) MDA disclosure guidance for listed entities.",
-      "url": "https://www.patronaccounting.com/tools/debt-to-equity-calculator",
-      "applicationCategory": "FinanceApplication",
-      "operatingSystem": "Any",
-      "datePublished": "2026-05-07T08:00:00+05:30",
-      "dateModified": "2026-05-19T08:00:00+05:30",
-      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
-      "author": {
-        "@type": "Person",
-        "@id": "https://patronaccounting.com/#founder",
-        "name": "CA Sundram Gupta",
-        "jobTitle": "Founder & Chartered Accountant",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Institute of Chartered Accountants of India",
-            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-          }
-        }]
-      },
-      "publisher": { "@id": "https://patronaccounting.com/#organization" },
-      "provider": {"@id": "https://patronaccounting.com/#organization"}
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Debt to Equity Ratio Calculator", "item": "https://www.patronaccounting.com/tools/debt-to-equity-calculator"}
-      ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is the Debt to Equity (D/E) ratio and what does it measure?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The Debt to Equity ratio is a leverage indicator that compares a company's total borrowings to its shareholders' equity. It measures how much of the asset base is financed by lenders versus owners. A D/E of 1.0 means equal funding from each source, while a higher value signals greater reliance on debt and higher financial risk. Banks, investors and rating agencies use this ratio to gauge solvency, repayment capacity and capital structure prudence."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the formula for Debt to Equity ratio under Schedule III in India?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Per the ICAI Guidance Note on Schedule III to the Companies Act, 2013, Debt-Equity Ratio = Total Debt divided by Shareholder's Equity. Total Debt comprises long-term borrowings, current maturities of long-term debt and short-term borrowings. Shareholder's Equity is equity share capital plus other equity (reserves, retained earnings, securities premium). Lease liabilities under Ind AS 116 are typically included in total debt as per ICAI views and EY benchmarking."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is disclosure of D/E ratio mandatory in Indian financial statements?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Pursuant to MCA notification dated 24 March 2021 amending Schedule III, every company covered under Division I, II and III must disclose eleven analytical ratios including the Debt-Equity Ratio in the notes to financial statements from FY 2021-22 onwards. The company must explain the items used in numerator and denominator, and provide a written explanation if the ratio changes by more than 25% compared to the previous year."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is considered a good Debt to Equity ratio in India?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "There is no single ideal D/E ratio because it varies sharply by industry. Asset-light service and IT companies typically operate below 0.5, manufacturing firms range 0.5 to 1.5, real estate and infrastructure companies often run 1.5 to 3.0, while NBFCs may exceed 5.0 because lending is their core business. As a general thumb-rule for non-financial Indian companies, a ratio under 1.0 is considered conservative and lender-friendly, while above 2.0 is treated as aggressive."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Should lease liabilities under Ind AS 116 be included in the D/E ratio?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "ICAI's Guidance Note and EY's reporting insights confirm that lease liabilities recognised under Ind AS 116 should be included in total debt for the Schedule III D/E ratio, since they represent contractual financial obligations with interest and principal components. Excluding them understates leverage. This treatment matters most for companies with significant operating leases such as retail chains, airlines, telecom and logistics, where post-Ind AS 116 D/E often jumps materially."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do I need to explain a change in my D/E ratio of more than 25%?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Schedule III amended via MCA notification G.S.R. 207(E) dated 24 March 2021 mandates that any change in the prescribed ratios by more than 25% compared to the preceding year must be accompanied by a narrative explanation in the notes to accounts. Auditors verify this explanation as part of statutory audit. Common explanations include fresh debt for capex, debt repayment from IPO proceeds, equity infusion or large dividend payouts that affect retained earnings."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between Debt to Equity and Debt Service Coverage Ratio?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Debt to Equity is a balance sheet ratio measuring the proportion of debt versus equity in capital structure. Debt Service Coverage Ratio (DSCR) is a profit-and-loss based ratio measuring whether operating earnings can cover interest plus principal repayments due in the year. A company can have moderate D/E but poor DSCR if profitability is weak, or high D/E but adequate DSCR if cash flows are strong. Both ratios are mandatory under Schedule III and must be read together."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is the D/E ratio calculated for NBFCs and banks?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "For NBFCs governed by RBI Master Directions and listed under Division III of Schedule III, the standard D/E ratio is replaced or supplemented by Capital to Risk-weighted Assets Ratio (CRAR), Tier I CRAR, Tier II CRAR and Liquidity Coverage Ratio. Banks are governed by Basel III norms requiring minimum capital adequacy of 9% (plus capital conservation buffer of 2.5%). For internal benchmarking, NBFC D/E ratios of 4 to 7 are common because borrowing is the core funding source."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between long-term D/E and total D/E?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Total Debt to Equity uses both short-term and long-term borrowings in the numerator. Long-term Debt to Equity considers only borrowings with maturity beyond 12 months, excluding working capital facilities, cash credit and overdrafts. Long-term D/E is a stricter solvency indicator favoured by term lenders and rating agencies, while total D/E gives a fuller picture of overall leverage including operating finance. Schedule III requires the total D/E format."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Are listed companies required to disclose D/E ratio separately under SEBI rules?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Under SEBI (LODR) Regulations 2015, Regulation 34(3) read with Schedule V, listed equity entities must disclose key financial ratios including Debt-Equity in the Management Discussion and Analysis section of the annual report, with explanations for significant changes. This is in addition to the Schedule III note disclosure. Listed debt entities follow Regulation 52 disclosure norms. The two disclosures must be reconcilable to maintain consistency across the annual report."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does a higher D/E ratio always mean a riskier company?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Not necessarily. A higher D/E in a capital-intensive industry like power, telecom, real estate or shipping is normal and often value-accretive because debt is cheaper than equity and offers a tax shield on interest. The risk emerges when the D/E exceeds peer benchmarks, when cash flows are insufficient to service debt (low DSCR), when interest rates rise sharply, or when borrowings carry restrictive covenants. Always read D/E with DSCR, interest coverage and industry context."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can D/E ratio be negative? What does that mean?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A negative D/E ratio occurs when shareholders' equity is negative, meaning accumulated losses and reserve drawdowns have eroded the equity base below zero. This is a serious red flag indicating insolvency risk and triggers IBC scrutiny under the Companies Act if net worth is fully eroded. The ratio loses arithmetic meaning here and the company should focus on equity infusion, debt restructuring or one-time settlement with lenders before computing the ratio in future periods."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Where on the balance sheet do I find debt and equity figures for the formula?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Under Ind AS Schedule III Division II, equity is reported under Equity Share Capital and Other Equity on the face of the balance sheet. Long-term borrowings sit under Non-Current Financial Liabilities; lease liabilities are now disclosed separately. Short-term borrowings appear under Current Financial Liabilities, and current maturities of long-term debt are disclosed as a sub-line under current borrowings. Auditors typically agree these figures with note schedules during statutory audit."
-          }
-        }
-      ]
-    }
-    </script>
-@endsection
-
 <style>
         :root {
             --primary: #15365f;
@@ -463,7 +277,193 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 }
 
 </style>
+@endpush
 
+@section('meta')
+    <title>Debt to Equity Ratio Calculator | D/E & Benchmarks</title>
+    <meta name="description" content="Debt to equity ratio calculator: compute D/E per Schedule III & ICAI norms, with industry benchmarks and lease liability treatment. Free CA tool. Try now!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/debt-to-equity-calculator">
+    <meta property="og:title" content="Debt to Equity Ratio Calculator — Schedule III FY 2025-26">
+    <meta property="og:description" content="Compute D/E ratio per Schedule III & ICAI Guidance Note. Industry benchmarks, lease liability treatment under Ind AS 116, sample disclosure format. Free CA-reviewed tool.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/debt-to-equity-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Debt to Equity Ratio Calculator — Schedule III FY 2025-26">
+    <meta name="twitter:description" content="D/E ratio with industry benchmarks, lease liability treatment, Schedule III disclosure format. Free CA-reviewed tool.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+    <meta name="theme-color" content="#15365f">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Debt to Equity Ratio Calculator",
+      "description": "Debt to Equity Ratio Calculator computes the D/E ratio of an Indian company per Schedule III to the Companies Act, 2013 and the ICAI Guidance Note on Schedule III. The tool accepts long-term borrowings, current maturities of long-term debt, short-term borrowings, lease liabilities under Ind AS 116, equity share capital and other equity (reserves and surplus). Output includes the headline D/E ratio, total debt and total equity figures, separate long-term and short-term D/E breakdowns, debt-mix composition, color-coded leverage verdict against six industry benchmarks (manufacturing, services, IT, real estate, NBFC, trading), year-over-year variance flagged against the 25% Schedule III explanation threshold, sample Schedule III disclosure format with numerator and denominator definitions, and SEBI LODR Regulation 34(3) MDA disclosure guidance for listed entities.",
+      "url": "https://www.patronaccounting.com/tools/debt-to-equity-calculator",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Any",
+      "datePublished": "2026-05-07T08:00:00+05:30",
+      "dateModified": "2026-05-19T08:00:00+05:30",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
+      "author": {
+        "@type": "Person",
+        "@id": "https://patronaccounting.com/#founder",
+        "name": "CA Sundram Gupta",
+        "jobTitle": "Founder & Chartered Accountant",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Institute of Chartered Accountants of India",
+            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+          }
+        }]
+      },
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": {"@id": "https://patronaccounting.com/#organization"}
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Debt to Equity Ratio Calculator", "item": "https://www.patronaccounting.com/tools/debt-to-equity-calculator"}
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the Debt to Equity (D/E) ratio and what does it measure?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Debt to Equity ratio is a leverage indicator that compares a company's total borrowings to its shareholders' equity. It measures how much of the asset base is financed by lenders versus owners. A D/E of 1.0 means equal funding from each source, while a higher value signals greater reliance on debt and higher financial risk. Banks, investors and rating agencies use this ratio to gauge solvency, repayment capacity and capital structure prudence."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the formula for Debt to Equity ratio under Schedule III in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Per the ICAI Guidance Note on Schedule III to the Companies Act, 2013, Debt-Equity Ratio = Total Debt divided by Shareholder's Equity. Total Debt comprises long-term borrowings, current maturities of long-term debt and short-term borrowings. Shareholder's Equity is equity share capital plus other equity (reserves, retained earnings, securities premium). Lease liabilities under Ind AS 116 are typically included in total debt as per ICAI views and EY benchmarking."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is disclosure of D/E ratio mandatory in Indian financial statements?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Pursuant to MCA notification dated 24 March 2021 amending Schedule III, every company covered under Division I, II and III must disclose eleven analytical ratios including the Debt-Equity Ratio in the notes to financial statements from FY 2021-22 onwards. The company must explain the items used in numerator and denominator, and provide a written explanation if the ratio changes by more than 25% compared to the previous year."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is considered a good Debt to Equity ratio in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There is no single ideal D/E ratio because it varies sharply by industry. Asset-light service and IT companies typically operate below 0.5, manufacturing firms range 0.5 to 1.5, real estate and infrastructure companies often run 1.5 to 3.0, while NBFCs may exceed 5.0 because lending is their core business. As a general thumb-rule for non-financial Indian companies, a ratio under 1.0 is considered conservative and lender-friendly, while above 2.0 is treated as aggressive."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should lease liabilities under Ind AS 116 be included in the D/E ratio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ICAI's Guidance Note and EY's reporting insights confirm that lease liabilities recognised under Ind AS 116 should be included in total debt for the Schedule III D/E ratio, since they represent contractual financial obligations with interest and principal components. Excluding them understates leverage. This treatment matters most for companies with significant operating leases such as retail chains, airlines, telecom and logistics, where post-Ind AS 116 D/E often jumps materially."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need to explain a change in my D/E ratio of more than 25%?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Schedule III amended via MCA notification G.S.R. 207(E) dated 24 March 2021 mandates that any change in the prescribed ratios by more than 25% compared to the preceding year must be accompanied by a narrative explanation in the notes to accounts. Auditors verify this explanation as part of statutory audit. Common explanations include fresh debt for capex, debt repayment from IPO proceeds, equity infusion or large dividend payouts that affect retained earnings."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between Debt to Equity and Debt Service Coverage Ratio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Debt to Equity is a balance sheet ratio measuring the proportion of debt versus equity in capital structure. Debt Service Coverage Ratio (DSCR) is a profit-and-loss based ratio measuring whether operating earnings can cover interest plus principal repayments due in the year. A company can have moderate D/E but poor DSCR if profitability is weak, or high D/E but adequate DSCR if cash flows are strong. Both ratios are mandatory under Schedule III and must be read together."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the D/E ratio calculated for NBFCs and banks?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For NBFCs governed by RBI Master Directions and listed under Division III of Schedule III, the standard D/E ratio is replaced or supplemented by Capital to Risk-weighted Assets Ratio (CRAR), Tier I CRAR, Tier II CRAR and Liquidity Coverage Ratio. Banks are governed by Basel III norms requiring minimum capital adequacy of 9% (plus capital conservation buffer of 2.5%). For internal benchmarking, NBFC D/E ratios of 4 to 7 are common because borrowing is the core funding source."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between long-term D/E and total D/E?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Total Debt to Equity uses both short-term and long-term borrowings in the numerator. Long-term Debt to Equity considers only borrowings with maturity beyond 12 months, excluding working capital facilities, cash credit and overdrafts. Long-term D/E is a stricter solvency indicator favoured by term lenders and rating agencies, while total D/E gives a fuller picture of overall leverage including operating finance. Schedule III requires the total D/E format."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are listed companies required to disclose D/E ratio separately under SEBI rules?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Under SEBI (LODR) Regulations 2015, Regulation 34(3) read with Schedule V, listed equity entities must disclose key financial ratios including Debt-Equity in the Management Discussion and Analysis section of the annual report, with explanations for significant changes. This is in addition to the Schedule III note disclosure. Listed debt entities follow Regulation 52 disclosure norms. The two disclosures must be reconcilable to maintain consistency across the annual report."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does a higher D/E ratio always mean a riskier company?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not necessarily. A higher D/E in a capital-intensive industry like power, telecom, real estate or shipping is normal and often value-accretive because debt is cheaper than equity and offers a tax shield on interest. The risk emerges when the D/E exceeds peer benchmarks, when cash flows are insufficient to service debt (low DSCR), when interest rates rise sharply, or when borrowings carry restrictive covenants. Always read D/E with DSCR, interest coverage and industry context."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can D/E ratio be negative? What does that mean?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A negative D/E ratio occurs when shareholders' equity is negative, meaning accumulated losses and reserve drawdowns have eroded the equity base below zero. This is a serious red flag indicating insolvency risk and triggers IBC scrutiny under the Companies Act if net worth is fully eroded. The ratio loses arithmetic meaning here and the company should focus on equity infusion, debt restructuring or one-time settlement with lenders before computing the ratio in future periods."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where on the balance sheet do I find debt and equity figures for the formula?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under Ind AS Schedule III Division II, equity is reported under Equity Share Capital and Other Equity on the face of the balance sheet. Long-term borrowings sit under Non-Current Financial Liabilities; lease liabilities are now disclosed separately. Short-term borrowings appear under Current Financial Liabilities, and current maturities of long-term debt are disclosed as a sub-line under current borrowings. Auditors typically agree these figures with note schedules during statutory audit."
+          }
+        }
+      ]
+    }
+    </script>
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation">
     <div class="toc-nav-inner">

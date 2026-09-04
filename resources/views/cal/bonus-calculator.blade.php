@@ -1,67 +1,5 @@
 @extends('layouts.app')
-@section('meta')
-    <title>Bonus Calculator | Payment of Bonus Act Statutory Bonus</title>
-    <meta name="description" content="Free statutory bonus calculator under the Payment of Bonus Act, 1965, from minimum 8.33% to maximum 20%, with eligibility and pro-rata working. Calculate now!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/bonus-calculator">
-    <meta property="og:title" content="Bonus Calculator — Payment of Bonus Act Statutory Bonus">
-    <meta property="og:description" content="Calculate statutory bonus under the Payment of Bonus Act — 8.33% to 20% with eligibility check.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/bonus-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Bonus Calculator — Payment of Bonus Act Statutory Bonus">
-    <meta name="twitter:description" content="Statutory bonus 8.33%-20% under the Bonus Act. Eligibility + pro-rata + tax. Calculate!">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-<script type="application/ld+json">
-    {
-      "@context": "https://schema.org", "@type": "WebApplication",
-      "name": "Bonus Calculator \u2014 Payment of Bonus Act",
-      "description": "Bonus Calculator computes statutory bonus under the Payment of Bonus Act, 1965 for eligible employees. Calculates minimum bonus at 8.33 percent and maximum at 20 percent of salary capped at Rs 7,000 per month or minimum wage whichever is higher. Checks eligibility against the Rs 21,000 salary ceiling, handles pro-rata for partial year service, and shows employer total cost for multiple employees.",
-      "url": "https://www.patronaccounting.com/tools/bonus-calculator",
-      "applicationCategory": "UtilityApplication", "operatingSystem": "Any",
-      "datePublished": "2026-03-05", "dateModified": "2026-03-05",
-      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" },
-      "author": { "@type": "Person", "@id": "https://patronaccounting.com/#team", "name": "CA & CS Patron Accounting Team", "jobTitle": "Chartered Accountants & Company Secretaries", "url": "https://www.patronaccounting.com/contact-page", "sameAs": ["https://www.linkedin.com/company/patron-accounting"], "hasCredential": [{ "@type": "EducationalOccupationalCredential", "credentialCategory": "Professional Certification", "name": "Chartered Accountant (CA)", "recognizedBy": { "@type": "Organization", "name": "Institute of Chartered Accountants of India", "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India" } }] },
-      "publisher": { "@type": "Organization", "name": "Patron Accounting LLP", "url": "https://www.patronaccounting.com", "logo": { "@type": "ImageObject", "url": "https://www.patronaccounting.com/images/site-logo.svg" } },
-      "provider": { "@id": "https://patronaccounting.com/#organization" }
-    }
-    </script>
-<script type="application/ld+json">
-    { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-      {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-      {"@type": "ListItem", "position": 3, "name": "Bonus Calculator", "item": "https://www.patronaccounting.com/tools/bonus-calculator"}
-    ]}
-    </script>
-<script type="application/ld+json">
-    { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
-      { "@type": "Question", "name": "What is statutory bonus under the Payment of Bonus Act?", "acceptedAnswer": { "@type": "Answer", "text": "Statutory bonus is a mandatory payment by employers to eligible employees under the Payment of Bonus Act, 1965. The minimum is 8.33 percent of salary (Basic plus DA) and maximum is 20 percent. It applies to establishments with 20 or more employees. Employees earning up to Rs 21,000 per month are eligible if they have worked for at least 30 days in the accounting year. It must be paid within 8 months of year-end." } },
-      { "@type": "Question", "name": "How is statutory bonus calculated?", "acceptedAnswer": { "@type": "Answer", "text": "Bonus is calculated on salary capped at Rs 7,000 per month or the applicable minimum wage, whichever is higher. If actual salary is below this cap, bonus is calculated on actual salary. Minimum bonus equals 8.33 percent of the calculation salary times 12 months. For partial year service, it is computed proportionately based on working days out of total working days. The minimum payable amount is Rs 100." } },
-      { "@type": "Question", "name": "Who is eligible for statutory bonus in India?", "acceptedAnswer": { "@type": "Answer", "text": "Employees earning Basic plus DA up to Rs 21,000 per month who have worked at least 30 days in the accounting year are eligible. The Act applies to factories with 10 or more employees and other establishments with 20 or more employees. Once applicable, the Act continues even if employee count drops below the threshold. Employees dismissed for fraud, misconduct, or sabotage are disqualified." } },
-      { "@type": "Question", "name": "What is the salary ceiling for bonus calculation?", "acceptedAnswer": { "@type": "Answer", "text": "There are two ceilings: the eligibility ceiling is Rs 21,000 per month (Basic plus DA) \u2014 employees above this are not covered by the Act. The calculation ceiling is Rs 7,000 per month or the applicable minimum wage, whichever is higher. Even if an employee earns Rs 18,000, the bonus is calculated on Rs 7,000 only. This means the maximum minimum bonus is Rs 6,996 per year (Rs 7,000 times 12 times 8.33 percent)." } },
-      { "@type": "Question", "name": "Is statutory bonus paid on gross salary or basic salary?", "acceptedAnswer": { "@type": "Answer", "text": "Statutory bonus is calculated on Basic Salary plus Dearness Allowance only, not on gross salary. HRA, special allowances, overtime, and other components are excluded from the bonus calculation base. The calculation base is further capped at Rs 7,000 per month or the applicable minimum wage for scheduled employment, whichever is higher. This cap applies regardless of the actual Basic plus DA earned." } },
-      { "@type": "Question", "name": "What is the difference between minimum and maximum bonus?", "acceptedAnswer": { "@type": "Answer", "text": "Minimum bonus of 8.33 percent is mandatory regardless of whether the company made profits or losses. Maximum bonus of 20 percent depends on the allocable surplus from the company profits. Allocable surplus is 60 percent of available surplus for non-banking companies and 67 percent for banking companies. If profits permit, the employer must pay up to 20 percent. The actual percentage depends on surplus computation under Sections 4 and 5 of the Act." } },
-      { "@type": "Question", "name": "How does pro-rata bonus work for partial year employment?", "acceptedAnswer": { "@type": "Answer", "text": "If an employee worked for less than the full accounting year, bonus is calculated proportionately. The formula is: Full Year Bonus times Actual Working Days divided by Total Working Days in the year (usually 240 or 260 depending on the establishment). An employee who worked 180 days out of 240 would receive 75 percent of the full year bonus. Employees must complete at least 30 days to be eligible." } },
-      { "@type": "Question", "name": "When must statutory bonus be paid?", "acceptedAnswer": { "@type": "Answer", "text": "The bonus must be paid within 8 months from the close of the accounting year. For companies with a March year-end, this means payment by 30th November. If a dispute is pending before any authority, the bonus must be paid within 1 month of the award becoming enforceable. Many employers include bonus as part of monthly CTC by dividing the annual bonus by 12, but the legal obligation is annual payment." } },
-      { "@type": "Question", "name": "Is statutory bonus taxable?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, statutory bonus is fully taxable as salary income in the hands of the employee. It is added to total salary for the year and taxed at the applicable income tax slab rate. TDS is deducted by the employer when paying the bonus. There is no separate exemption for statutory bonus under the Income Tax Act. The employer can claim bonus paid as a business expenditure deduction under Section 36(1)(ii)." } },
-      { "@type": "Question", "name": "What is the set-on and set-off concept in bonus calculation?", "acceptedAnswer": { "@type": "Answer", "text": "Set-on means carrying forward excess allocable surplus from a profitable year to the next year. Set-off means adjusting deficiency in allocable surplus from a loss year against future surplus. These adjustments are tracked over a rolling 4-year period. Employers maintain Form A for surplus computation and Form B for set-on and set-off details. This mechanism ensures employees benefit from cyclical profitability." } },
-      { "@type": "Question", "name": "What are the penalties for non-payment of bonus?", "acceptedAnswer": { "@type": "Answer", "text": "Non-payment of statutory bonus can result in imprisonment for up to 6 months or a fine up to Rs 1,000 or both under Section 28 of the Act. Additionally, the Chief Labour Commissioner can direct the employer to pay the bonus with interest. Employees can file complaints with the labour department. Employers must maintain Form A, B, C registers and file Form D annual return by 1st February each year." } },
-      { "@type": "Question", "name": "Does the bonus apply to contract or temporary employees?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, contract and temporary employees are eligible for statutory bonus if they meet the eligibility criteria: salary up to Rs 21,000, worked at least 30 days, and the establishment has 20 or more employees. Under the Code on Social Security 2020, even fixed-term employees are entitled to bonus on a pro-rata basis. The principal employer is liable for bonus of contract workers deployed through contractors." } },
-      { "@type": "Question", "name": "Can a CA help with bonus computation and compliance?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, a CA handles bonus calculation including allocable surplus computation, set-on and set-off adjustments, Form A B C register maintenance, Form D annual return filing, and ensures timely payment within the 8-month deadline. Patron Accounting provides complete payroll compliance including bonus calculation, EPF, ESI, and TDS for businesses across India." } }
-    ]}
-    </script>
-@endsection
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+@push('styles')
 <style>
 
         :root {
@@ -843,6 +781,71 @@
 .toggle-btn{font-size:13px;padding:10px 12px}
 }
 </style>
+@endpush
+
+@section('meta')
+    <title>Bonus Calculator | Payment of Bonus Act Statutory Bonus</title>
+    <meta name="description" content="Free statutory bonus calculator under the Payment of Bonus Act, 1965, from minimum 8.33% to maximum 20%, with eligibility and pro-rata working. Calculate now!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/bonus-calculator">
+    <meta property="og:title" content="Bonus Calculator — Payment of Bonus Act Statutory Bonus">
+    <meta property="og:description" content="Calculate statutory bonus under the Payment of Bonus Act — 8.33% to 20% with eligibility check.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/bonus-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Bonus Calculator — Payment of Bonus Act Statutory Bonus">
+    <meta name="twitter:description" content="Statutory bonus 8.33%-20% under the Bonus Act. Eligibility + pro-rata + tax. Calculate!">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+@endsection
+
+@section('schema')
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org", "@type": "WebApplication",
+      "name": "Bonus Calculator \u2014 Payment of Bonus Act",
+      "description": "Bonus Calculator computes statutory bonus under the Payment of Bonus Act, 1965 for eligible employees. Calculates minimum bonus at 8.33 percent and maximum at 20 percent of salary capped at Rs 7,000 per month or minimum wage whichever is higher. Checks eligibility against the Rs 21,000 salary ceiling, handles pro-rata for partial year service, and shows employer total cost for multiple employees.",
+      "url": "https://www.patronaccounting.com/tools/bonus-calculator",
+      "applicationCategory": "UtilityApplication", "operatingSystem": "Any",
+      "datePublished": "2026-03-05", "dateModified": "2026-03-05",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" },
+      "author": { "@type": "Person", "@id": "https://patronaccounting.com/#team", "name": "CA & CS Patron Accounting Team", "jobTitle": "Chartered Accountants & Company Secretaries", "url": "https://www.patronaccounting.com/contact-page", "sameAs": ["https://www.linkedin.com/company/patron-accounting"], "hasCredential": [{ "@type": "EducationalOccupationalCredential", "credentialCategory": "Professional Certification", "name": "Chartered Accountant (CA)", "recognizedBy": { "@type": "Organization", "name": "Institute of Chartered Accountants of India", "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India" } }] },
+      "publisher": { "@type": "Organization", "name": "Patron Accounting LLP", "url": "https://www.patronaccounting.com", "logo": { "@type": "ImageObject", "url": "https://www.patronaccounting.com/images/site-logo.svg" } },
+      "provider": { "@id": "https://patronaccounting.com/#organization" }
+    }
+    </script>
+<script type="application/ld+json">
+    { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+      {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+      {"@type": "ListItem", "position": 3, "name": "Bonus Calculator", "item": "https://www.patronaccounting.com/tools/bonus-calculator"}
+    ]}
+    </script>
+<script type="application/ld+json">
+    { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+      { "@type": "Question", "name": "What is statutory bonus under the Payment of Bonus Act?", "acceptedAnswer": { "@type": "Answer", "text": "Statutory bonus is a mandatory payment by employers to eligible employees under the Payment of Bonus Act, 1965. The minimum is 8.33 percent of salary (Basic plus DA) and maximum is 20 percent. It applies to establishments with 20 or more employees. Employees earning up to Rs 21,000 per month are eligible if they have worked for at least 30 days in the accounting year. It must be paid within 8 months of year-end." } },
+      { "@type": "Question", "name": "How is statutory bonus calculated?", "acceptedAnswer": { "@type": "Answer", "text": "Bonus is calculated on salary capped at Rs 7,000 per month or the applicable minimum wage, whichever is higher. If actual salary is below this cap, bonus is calculated on actual salary. Minimum bonus equals 8.33 percent of the calculation salary times 12 months. For partial year service, it is computed proportionately based on working days out of total working days. The minimum payable amount is Rs 100." } },
+      { "@type": "Question", "name": "Who is eligible for statutory bonus in India?", "acceptedAnswer": { "@type": "Answer", "text": "Employees earning Basic plus DA up to Rs 21,000 per month who have worked at least 30 days in the accounting year are eligible. The Act applies to factories with 10 or more employees and other establishments with 20 or more employees. Once applicable, the Act continues even if employee count drops below the threshold. Employees dismissed for fraud, misconduct, or sabotage are disqualified." } },
+      { "@type": "Question", "name": "What is the salary ceiling for bonus calculation?", "acceptedAnswer": { "@type": "Answer", "text": "There are two ceilings: the eligibility ceiling is Rs 21,000 per month (Basic plus DA) \u2014 employees above this are not covered by the Act. The calculation ceiling is Rs 7,000 per month or the applicable minimum wage, whichever is higher. Even if an employee earns Rs 18,000, the bonus is calculated on Rs 7,000 only. This means the maximum minimum bonus is Rs 6,996 per year (Rs 7,000 times 12 times 8.33 percent)." } },
+      { "@type": "Question", "name": "Is statutory bonus paid on gross salary or basic salary?", "acceptedAnswer": { "@type": "Answer", "text": "Statutory bonus is calculated on Basic Salary plus Dearness Allowance only, not on gross salary. HRA, special allowances, overtime, and other components are excluded from the bonus calculation base. The calculation base is further capped at Rs 7,000 per month or the applicable minimum wage for scheduled employment, whichever is higher. This cap applies regardless of the actual Basic plus DA earned." } },
+      { "@type": "Question", "name": "What is the difference between minimum and maximum bonus?", "acceptedAnswer": { "@type": "Answer", "text": "Minimum bonus of 8.33 percent is mandatory regardless of whether the company made profits or losses. Maximum bonus of 20 percent depends on the allocable surplus from the company profits. Allocable surplus is 60 percent of available surplus for non-banking companies and 67 percent for banking companies. If profits permit, the employer must pay up to 20 percent. The actual percentage depends on surplus computation under Sections 4 and 5 of the Act." } },
+      { "@type": "Question", "name": "How does pro-rata bonus work for partial year employment?", "acceptedAnswer": { "@type": "Answer", "text": "If an employee worked for less than the full accounting year, bonus is calculated proportionately. The formula is: Full Year Bonus times Actual Working Days divided by Total Working Days in the year (usually 240 or 260 depending on the establishment). An employee who worked 180 days out of 240 would receive 75 percent of the full year bonus. Employees must complete at least 30 days to be eligible." } },
+      { "@type": "Question", "name": "When must statutory bonus be paid?", "acceptedAnswer": { "@type": "Answer", "text": "The bonus must be paid within 8 months from the close of the accounting year. For companies with a March year-end, this means payment by 30th November. If a dispute is pending before any authority, the bonus must be paid within 1 month of the award becoming enforceable. Many employers include bonus as part of monthly CTC by dividing the annual bonus by 12, but the legal obligation is annual payment." } },
+      { "@type": "Question", "name": "Is statutory bonus taxable?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, statutory bonus is fully taxable as salary income in the hands of the employee. It is added to total salary for the year and taxed at the applicable income tax slab rate. TDS is deducted by the employer when paying the bonus. There is no separate exemption for statutory bonus under the Income Tax Act. The employer can claim bonus paid as a business expenditure deduction under Section 36(1)(ii)." } },
+      { "@type": "Question", "name": "What is the set-on and set-off concept in bonus calculation?", "acceptedAnswer": { "@type": "Answer", "text": "Set-on means carrying forward excess allocable surplus from a profitable year to the next year. Set-off means adjusting deficiency in allocable surplus from a loss year against future surplus. These adjustments are tracked over a rolling 4-year period. Employers maintain Form A for surplus computation and Form B for set-on and set-off details. This mechanism ensures employees benefit from cyclical profitability." } },
+      { "@type": "Question", "name": "What are the penalties for non-payment of bonus?", "acceptedAnswer": { "@type": "Answer", "text": "Non-payment of statutory bonus can result in imprisonment for up to 6 months or a fine up to Rs 1,000 or both under Section 28 of the Act. Additionally, the Chief Labour Commissioner can direct the employer to pay the bonus with interest. Employees can file complaints with the labour department. Employers must maintain Form A, B, C registers and file Form D annual return by 1st February each year." } },
+      { "@type": "Question", "name": "Does the bonus apply to contract or temporary employees?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, contract and temporary employees are eligible for statutory bonus if they meet the eligibility criteria: salary up to Rs 21,000, worked at least 30 days, and the establishment has 20 or more employees. Under the Code on Social Security 2020, even fixed-term employees are entitled to bonus on a pro-rata basis. The principal employer is liable for bonus of contract workers deployed through contractors." } },
+      { "@type": "Question", "name": "Can a CA help with bonus computation and compliance?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, a CA handles bonus calculation including allocable surplus computation, set-on and set-off adjustments, Form A B C register maintenance, Form D annual return filing, and ensures timely payment within the 8-month deadline. Patron Accounting provides complete payroll compliance including bonus calculation, EPF, ESI, and TDS for businesses across India." } }
+    ]}
+    </script>
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation"><div class="toc-nav-inner">
         <a href="#calculator">Calculator</a>

@@ -1,155 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>GST Returns for Manufacturers 2026: ITC | Patron Accounting</title>
-    <meta name="description" content="GST returns for manufacturers - ITC-04 job work, Rule 43 capital goods ITC, inverted duty refund under Section 54(3). Starting from INR 1,999 per month.">
-    <link rel="canonical" href="/gst-returns-for-manufacturers">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="GST Returns for Manufacturers 2026: ITC | Patron Accounting">
-    <meta property="og:description" content="GST returns for manufacturers - ITC-04 job work, Rule 43 capital goods ITC, inverted duty refund under Section 54(3). Starting from INR 1,999 per month.">
-    <meta property="og:url" content="/gst-returns-for-manufacturers">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="GST Returns for Manufacturers 2026: ITC | Patron Accounting">
-    <meta name="twitter:description" content="GST returns for manufacturers - ITC-04 job work, Rule 43 capital goods ITC, inverted duty refund under Section 54(3). Starting from INR 1,999 per month.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/gst-returns-for-manufacturers/#service",
-        "name": "GST Returns for Manufacturers",
-        "description": "Monthly managed GST compliance for manufacturers covering GSTR-1 and GSTR-3B filing, Form GST ITC-04 job work return under Section 143 CGST, capital goods ITC apportionment under Rule 43, common ITC reversal under Rule 42, inverted duty structure refund under Section 54(3) and Rule 89(5), mandatory ISD distribution from 1 April 2025, and DRC-01C mismatch defence.",
-        "serviceType": "GST Compliance for Manufacturers",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-returns-for-manufacturers" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [
-            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
-            { "@type": "Thing", "name": "Manufacturing", "sameAs": "https://en.wikipedia.org/wiki/Manufacturing" }
-        ],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "GST Returns for Manufacturers Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "Monthly GST Returns - Single GSTIN, basic manufacturer",
-                    "priceCurrency": "INR",
-                    "price": "1999",
-                    "description": "Monthly GSTR-1 and GSTR-3B filing with full ITC reconciliation against GSTR-2B for a single-GSTIN manufacturer"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/gst-returns-for-manufacturers/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
-            { "@type": "ListItem", "position": 3, "name": "GST Returns for Manufacturers", "item": "https://www.patronaccounting.com/gst-returns-for-manufacturers" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/gst-returns-for-manufacturers/#faq",
-        "datePublished": "2026-05-27T08:00:00+05:30",
-        "dateModified": "2026-06-01T08:00:00+05:30",
-        "mainEntity": [
-
-            {
-                "@type": "Question",
-                "name": "What is Form GST ITC-04 and when must it be filed?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Form GST ITC-04 is the job work return filed by the principal manufacturer under Rule 45(3) of the CGST Rules. Per Notification 35/2021-CT dated 24 September 2021, the frequency is half-yearly for principals with aggregate turnover above INR 5 crore (due 25 October for April-September and 25 April for October-March) and yearly for principals with turnover up to INR 5 crore (due 25 April)."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What happens if inputs sent for job work are not returned within 1 year?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Section 143(3) of the CGST Act deems such inputs to have been supplied by the principal to the job worker on the day the inputs were originally dispatched. The principal must declare the deemed supply in GSTR-1 and pay GST with interest at 18 percent per annum under Section 50. The 1-year period may be extended by the Commissioner on sufficient cause shown."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How is capital goods ITC apportioned under Rule 43?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Rule 43 of the CGST Rules treats capital goods as having a useful life of 60 months. The total ITC is apportioned monthly. Where capital goods are used partly for exempt or non-business supplies, a proportionate reversal is computed each month based on the ratio of exempt turnover to total turnover. The monthly reversal is posted in GSTR-3B Table 4(B)(1) with annual true-up."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can I claim refund of accumulated ITC due to inverted duty structure?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. Section 54(3)(ii) of the CGST Act read with Rule 89(5) allows refund of accumulated ITC where the input GST rate is higher than the output GST rate. Refund is claimed in Form GST RFD-01 using the formula: (Turnover of inverted-rated supply x Net ITC / Adjusted Total Turnover) minus Tax payable on inverted-rated supply. Net ITC includes only ITC on inputs per the Supreme Court ruling in VKC Footsteps India."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Are input services and capital goods included in the IDS refund formula?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "No. The Supreme Court in Union of India vs VKC Footsteps India Pvt Ltd (2021) upheld the Rule 89(5) formula limiting Net ITC to ITC on inputs (goods) only. Input services and capital goods are excluded from the IDS refund formula. The Supreme Court directed the GST Council to consider corrective action, but the formula remains unchanged as of the date of this content."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Is ISD registration mandatory for manufacturers from 1 April 2025?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. Per Notification 16/2024-Central Tax read with the Finance Act 2024, Section 20 of the CGST Act has been amended to make ISD distribution mandatory from 1 April 2025 for any registered person receiving tax invoices for common input services on behalf of distinct persons (different GSTINs of the same legal entity). Cross-charge for common input services is no longer permitted."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the time limit for claiming IDS refund?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Under Section 54(1) of the CGST Act, the refund application must be filed within 2 years from the relevant date. For inverted duty structure refunds, the relevant date is the last day of the financial year in which the claim arises. Notification 13/2022-CT dated 5 July 2022 excluded the period 1 March 2020 to 28 February 2022 from the limitation computation."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the cost of monthly GST returns for manufacturers at Patron Accounting?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Starting from INR 1,999 per month (Exclusive of GST and government charges) for single-GSTIN basic manufacturer compliance. Monthly returns plus ITC-04 plus Rule 43 reversal package starts from INR 2,999. ISD setup plus monthly GSTR-6 starts from INR 2,499. IDS refund filing, multi-plant compliance, and past-period catch-up are quoted separately based on scope."
-                }
-            }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -763,7 +618,157 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>GST Returns for Manufacturers 2026: ITC | Patron Accounting</title>
+    <meta name="description" content="GST returns for manufacturers - ITC-04 job work, Rule 43 capital goods ITC, inverted duty refund under Section 54(3). Starting from INR 1,999 per month.">
+    <link rel="canonical" href="/gst-returns-for-manufacturers">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="GST Returns for Manufacturers 2026: ITC | Patron Accounting">
+    <meta property="og:description" content="GST returns for manufacturers - ITC-04 job work, Rule 43 capital goods ITC, inverted duty refund under Section 54(3). Starting from INR 1,999 per month.">
+    <meta property="og:url" content="/gst-returns-for-manufacturers">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GST Returns for Manufacturers 2026: ITC | Patron Accounting">
+    <meta name="twitter:description" content="GST returns for manufacturers - ITC-04 job work, Rule 43 capital goods ITC, inverted duty refund under Section 54(3). Starting from INR 1,999 per month.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/gst-returns-for-manufacturers/#service",
+        "name": "GST Returns for Manufacturers",
+        "description": "Monthly managed GST compliance for manufacturers covering GSTR-1 and GSTR-3B filing, Form GST ITC-04 job work return under Section 143 CGST, capital goods ITC apportionment under Rule 43, common ITC reversal under Rule 42, inverted duty structure refund under Section 54(3) and Rule 89(5), mandatory ISD distribution from 1 April 2025, and DRC-01C mismatch defence.",
+        "serviceType": "GST Compliance for Manufacturers",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-returns-for-manufacturers" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [
+            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
+            { "@type": "Thing", "name": "Manufacturing", "sameAs": "https://en.wikipedia.org/wiki/Manufacturing" }
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "GST Returns for Manufacturers Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "Monthly GST Returns - Single GSTIN, basic manufacturer",
+                    "priceCurrency": "INR",
+                    "price": "1999",
+                    "description": "Monthly GSTR-1 and GSTR-3B filing with full ITC reconciliation against GSTR-2B for a single-GSTIN manufacturer"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/gst-returns-for-manufacturers/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
+            { "@type": "ListItem", "position": 3, "name": "GST Returns for Manufacturers", "item": "https://www.patronaccounting.com/gst-returns-for-manufacturers" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/gst-returns-for-manufacturers/#faq",
+        "datePublished": "2026-05-27T08:00:00+05:30",
+        "dateModified": "2026-06-01T08:00:00+05:30",
+        "mainEntity": [
+
+            {
+                "@type": "Question",
+                "name": "What is Form GST ITC-04 and when must it be filed?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Form GST ITC-04 is the job work return filed by the principal manufacturer under Rule 45(3) of the CGST Rules. Per Notification 35/2021-CT dated 24 September 2021, the frequency is half-yearly for principals with aggregate turnover above INR 5 crore (due 25 October for April-September and 25 April for October-March) and yearly for principals with turnover up to INR 5 crore (due 25 April)."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What happens if inputs sent for job work are not returned within 1 year?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Section 143(3) of the CGST Act deems such inputs to have been supplied by the principal to the job worker on the day the inputs were originally dispatched. The principal must declare the deemed supply in GSTR-1 and pay GST with interest at 18 percent per annum under Section 50. The 1-year period may be extended by the Commissioner on sufficient cause shown."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How is capital goods ITC apportioned under Rule 43?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Rule 43 of the CGST Rules treats capital goods as having a useful life of 60 months. The total ITC is apportioned monthly. Where capital goods are used partly for exempt or non-business supplies, a proportionate reversal is computed each month based on the ratio of exempt turnover to total turnover. The monthly reversal is posted in GSTR-3B Table 4(B)(1) with annual true-up."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can I claim refund of accumulated ITC due to inverted duty structure?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Section 54(3)(ii) of the CGST Act read with Rule 89(5) allows refund of accumulated ITC where the input GST rate is higher than the output GST rate. Refund is claimed in Form GST RFD-01 using the formula: (Turnover of inverted-rated supply x Net ITC / Adjusted Total Turnover) minus Tax payable on inverted-rated supply. Net ITC includes only ITC on inputs per the Supreme Court ruling in VKC Footsteps India."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Are input services and capital goods included in the IDS refund formula?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No. The Supreme Court in Union of India vs VKC Footsteps India Pvt Ltd (2021) upheld the Rule 89(5) formula limiting Net ITC to ITC on inputs (goods) only. Input services and capital goods are excluded from the IDS refund formula. The Supreme Court directed the GST Council to consider corrective action, but the formula remains unchanged as of the date of this content."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is ISD registration mandatory for manufacturers from 1 April 2025?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Per Notification 16/2024-Central Tax read with the Finance Act 2024, Section 20 of the CGST Act has been amended to make ISD distribution mandatory from 1 April 2025 for any registered person receiving tax invoices for common input services on behalf of distinct persons (different GSTINs of the same legal entity). Cross-charge for common input services is no longer permitted."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the time limit for claiming IDS refund?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Under Section 54(1) of the CGST Act, the refund application must be filed within 2 years from the relevant date. For inverted duty structure refunds, the relevant date is the last day of the financial year in which the claim arises. Notification 13/2022-CT dated 5 July 2022 excluded the period 1 March 2020 to 28 February 2022 from the limitation computation."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the cost of monthly GST returns for manufacturers at Patron Accounting?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Starting from INR 1,999 per month (Exclusive of GST and government charges) for single-GSTIN basic manufacturer compliance. Monthly returns plus ITC-04 plus Rule 43 reversal package starts from INR 2,999. ISD setup plus monthly GSTR-6 starts from INR 2,499. IDS refund filing, multi-plant compliance, and past-period catch-up are quoted separately based on scope."
+                }
+            }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1627,17 +1632,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1660,8 +1658,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1698,7 +1694,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1709,4 +1704,20 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+
 

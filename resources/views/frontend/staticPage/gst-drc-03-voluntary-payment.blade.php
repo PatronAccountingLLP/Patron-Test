@@ -1,146 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>DRC-03 Voluntary Payment 2026: GST Self-Disclosure | Patron Accounting</title>
-    <meta name="description" content="GST DRC-03 voluntary payment - self-disclosure for GSTR-1/3B and ITC mismatch, annual return reconciliation, audit findings. Patron from Rs 2,499.">
-    <link rel="canonical" href="/gst-drc-03-voluntary-payment">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="DRC-03 Voluntary Payment 2026: GST Self-Disclosure | Patron Accounting">
-    <meta property="og:description" content="GST DRC-03 voluntary payment - self-disclosure for GSTR-1/3B and ITC mismatch, annual return reconciliation, audit findings. Patron from Rs 2,499.">
-    <meta property="og:url" content="/gst-drc-03-voluntary-payment">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="DRC-03 Voluntary Payment 2026: GST Self-Disclosure | Patron Accounting">
-    <meta name="twitter:description" content="GST DRC-03 voluntary payment - self-disclosure for GSTR-1/3B and ITC mismatch, annual return reconciliation, audit findings. Patron from Rs 2,499.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/gst-drc-03-voluntary-payment/#service",
-        "name": "GST DRC-03 Voluntary Payment and Self-Disclosure Service in India",
-        "description": "Proactive GST DRC-03 voluntary payment and self-disclosure service under Rule 142(2) of the CGST Rules 2017 covering self-ascertained tax shortfall computation, strategic Cause-of-Payment selection across 11 portal options including Voluntary (pre-SCN under Section 73(5) zero penalty or Section 74(5) 15 percent), Annual Return, Audit, Investigation, Scrutiny, Intimation DRC-01A, Liability Mismatch GSTR-1 to GSTR-3B, ITC Mismatch GSTR-2A/2B to GSTR-3B with the Rule 36(4) 5 percent threshold, Reconciliation Statement, and Others, Cash-Only Rule compliance for Section 50 interest and penalty via Electronic Cash Ledger with PMT-06 pre-funding, PRN generation and Electronic Liability Register tracking, Form DRC-03A retroactive mapping for nine eligible Causes, and DRC-04 acknowledgement and DRC-05 closure pursuit, starting from INR 2,499 per filing engagement.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-drc-03-voluntary-payment" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [
-            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
-            { "@type": "Thing", "name": "Tax compliance", "sameAs": "https://en.wikipedia.org/wiki/Regulatory_compliance" }
-        ],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "DRC-03 Voluntary Payment Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "Single-Period DRC-03 Voluntary Payment",
-                    "priceCurrency": "INR",
-                    "price": "2499",
-                    "description": "Computation, Cause selection, filing, PRN tracking"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/gst-drc-03-voluntary-payment/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
-            { "@type": "ListItem", "position": 3, "name": "DRC-03 Voluntary Payment", "item": "https://www.patronaccounting.com/gst-drc-03-voluntary-payment" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/gst-drc-03-voluntary-payment/#faq",
-        "datePublished": "2026-05-27T08:00:00+05:30",
-        "dateModified": "2026-06-01T08:00:00+05:30",
-        "mainEntity": [
-
-            {
-                "@type": "Question",
-                "name": "What is Form GST DRC-03?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Form GST DRC-03 (Intimation of Voluntary Payment) is the GST portal application under Rule 142(2) of the CGST Rules 2017 for voluntary payment of tax, interest, and penalty by a registered taxpayer. It is used for self-ascertained payments before any Show Cause Notice, payments within 30 days of an SCN, GSTR-1 to GSTR-3B liability mismatch corrections, GSTR-2A or 2B to GSTR-3B ITC mismatch corrections, annual return reconciliation, audit findings, and several other scenarios. The form has 11 Cause-of-Payment options and generates a Payment Reference Number post-filing."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "When should I file DRC-03 voluntarily without any notice?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Proactive DRC-03 voluntary payment should be filed in eight strategic scenarios - self-ascertained tax shortfall identified during internal audit, GSTR-1 to GSTR-3B liability mismatch self-correction, GSTR-2B to GSTR-3B ITC mismatch (Rule 36(4) 5% excess), GSTR-9 annual return reconciliation differences, GSTR-9C reconciliation statement findings, Section 65 audit or Section 66 special audit findings, Section 67 inspection findings, and pre-emptive payment for high-risk compliance positions. Pre-SCN payment attracts zero penalty under Section 73(5) for non-fraud or 15 percent under Section 74(5) for fraud cases."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What are the 11 Cause-of-Payment options in DRC-03?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "The 11 Cause-of-Payment options in DRC-03 are: Voluntary (Before SCN), After SCN but before order, Annual Return, Audit, Investigation or Enforcement, Scrutiny, Intimation through DRC-01A, Liability Mismatch GSTR-1 to GSTR-3B (added February 2021), ITC Mismatch GSTR-2A or 2B to GSTR-3B (added February 2021), Reconciliation Statement, and Others or Order. Strategic selection is critical because DRC-03 cannot be amended once filed."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can I pay interest and penalty via ITC in DRC-03?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "No. The Cash-Only Rule under Rule 142 of the CGST Rules mandates that interest under Section 50 (18 percent per annum) and any penalty MUST be paid via Electronic Cash Ledger only - ITC utilization is not permitted for interest or penalty components. Tax can be paid via Electronic Credit Ledger (ITC) or Electronic Cash Ledger or a combination. If Electronic Cash Ledger does not have sufficient balance, the taxpayer must first deposit cash via Form GST PMT-06 before filing DRC-03."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can DRC-03 be amended or withdrawn after filing?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "No, DRC-03 cannot be amended or withdrawn once filed - the form is locked at the moment of submission with PRN generation. If the Cause-of-Payment was selected incorrectly, the corrective tool is Form DRC-03A introduced in 2024 or 2025. DRC-03A enables retroactive mapping of the prior DRC-03 to a specific demand order for nine eligible Causes - Audit, Voluntary, Enforcement, Intimation DRC-01A, SCN, Scrutiny, Liability Mismatch, ITC Mismatch, and Others."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the Rule 36(4) ITC excess and how is it self-corrected via DRC-03?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Rule 36(4) of the CGST Rules caps ITC claim in GSTR-3B at 105 percent of the ITC reflected in GSTR-2B for the period (i.e., 5 percent buffer over GSTR-2B). Excess ITC claimed beyond this threshold must be reversed with interest under Section 50 at 18 percent per annum. Self-correction via DRC-03 with Cause ITC Mismatch GSTR-2A 2B to GSTR-3B attracts zero penalty under Section 73(5) if filed before any SCN. Without self-correction, the department typically issues ASMT-10 scrutiny or DRC-01 SCN, escalating to 10-100 percent penalty exposure."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How long can I save a DRC-03 application before filing?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "A DRC-03 application can be saved at any stage of completion for a maximum of 15 days. If the application is not filed (submitted with PRN generation) within 15 days, the saved draft is automatically purged from the GST database. The taxpayer must then start fresh with re-entry of all data and re-computation of Section 50 interest accrual to the new proposed payment date."
-                }
-            }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -754,7 +618,148 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>DRC-03 Voluntary Payment 2026: GST Self-Disclosure | Patron Accounting</title>
+    <meta name="description" content="GST DRC-03 voluntary payment - self-disclosure for GSTR-1/3B and ITC mismatch, annual return reconciliation, audit findings. Patron from Rs 2,499.">
+    <link rel="canonical" href="/gst-drc-03-voluntary-payment">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="DRC-03 Voluntary Payment 2026: GST Self-Disclosure | Patron Accounting">
+    <meta property="og:description" content="GST DRC-03 voluntary payment - self-disclosure for GSTR-1/3B and ITC mismatch, annual return reconciliation, audit findings. Patron from Rs 2,499.">
+    <meta property="og:url" content="/gst-drc-03-voluntary-payment">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="DRC-03 Voluntary Payment 2026: GST Self-Disclosure | Patron Accounting">
+    <meta name="twitter:description" content="GST DRC-03 voluntary payment - self-disclosure for GSTR-1/3B and ITC mismatch, annual return reconciliation, audit findings. Patron from Rs 2,499.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/gst-drc-03-voluntary-payment/#service",
+        "name": "GST DRC-03 Voluntary Payment and Self-Disclosure Service in India",
+        "description": "Proactive GST DRC-03 voluntary payment and self-disclosure service under Rule 142(2) of the CGST Rules 2017 covering self-ascertained tax shortfall computation, strategic Cause-of-Payment selection across 11 portal options including Voluntary (pre-SCN under Section 73(5) zero penalty or Section 74(5) 15 percent), Annual Return, Audit, Investigation, Scrutiny, Intimation DRC-01A, Liability Mismatch GSTR-1 to GSTR-3B, ITC Mismatch GSTR-2A/2B to GSTR-3B with the Rule 36(4) 5 percent threshold, Reconciliation Statement, and Others, Cash-Only Rule compliance for Section 50 interest and penalty via Electronic Cash Ledger with PMT-06 pre-funding, PRN generation and Electronic Liability Register tracking, Form DRC-03A retroactive mapping for nine eligible Causes, and DRC-04 acknowledgement and DRC-05 closure pursuit, starting from INR 2,499 per filing engagement.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-drc-03-voluntary-payment" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [
+            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
+            { "@type": "Thing", "name": "Tax compliance", "sameAs": "https://en.wikipedia.org/wiki/Regulatory_compliance" }
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "DRC-03 Voluntary Payment Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "Single-Period DRC-03 Voluntary Payment",
+                    "priceCurrency": "INR",
+                    "price": "2499",
+                    "description": "Computation, Cause selection, filing, PRN tracking"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/gst-drc-03-voluntary-payment/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
+            { "@type": "ListItem", "position": 3, "name": "DRC-03 Voluntary Payment", "item": "https://www.patronaccounting.com/gst-drc-03-voluntary-payment" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/gst-drc-03-voluntary-payment/#faq",
+        "datePublished": "2026-05-27T08:00:00+05:30",
+        "dateModified": "2026-06-01T08:00:00+05:30",
+        "mainEntity": [
+
+            {
+                "@type": "Question",
+                "name": "What is Form GST DRC-03?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Form GST DRC-03 (Intimation of Voluntary Payment) is the GST portal application under Rule 142(2) of the CGST Rules 2017 for voluntary payment of tax, interest, and penalty by a registered taxpayer. It is used for self-ascertained payments before any Show Cause Notice, payments within 30 days of an SCN, GSTR-1 to GSTR-3B liability mismatch corrections, GSTR-2A or 2B to GSTR-3B ITC mismatch corrections, annual return reconciliation, audit findings, and several other scenarios. The form has 11 Cause-of-Payment options and generates a Payment Reference Number post-filing."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "When should I file DRC-03 voluntarily without any notice?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Proactive DRC-03 voluntary payment should be filed in eight strategic scenarios - self-ascertained tax shortfall identified during internal audit, GSTR-1 to GSTR-3B liability mismatch self-correction, GSTR-2B to GSTR-3B ITC mismatch (Rule 36(4) 5% excess), GSTR-9 annual return reconciliation differences, GSTR-9C reconciliation statement findings, Section 65 audit or Section 66 special audit findings, Section 67 inspection findings, and pre-emptive payment for high-risk compliance positions. Pre-SCN payment attracts zero penalty under Section 73(5) for non-fraud or 15 percent under Section 74(5) for fraud cases."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What are the 11 Cause-of-Payment options in DRC-03?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The 11 Cause-of-Payment options in DRC-03 are: Voluntary (Before SCN), After SCN but before order, Annual Return, Audit, Investigation or Enforcement, Scrutiny, Intimation through DRC-01A, Liability Mismatch GSTR-1 to GSTR-3B (added February 2021), ITC Mismatch GSTR-2A or 2B to GSTR-3B (added February 2021), Reconciliation Statement, and Others or Order. Strategic selection is critical because DRC-03 cannot be amended once filed."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can I pay interest and penalty via ITC in DRC-03?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No. The Cash-Only Rule under Rule 142 of the CGST Rules mandates that interest under Section 50 (18 percent per annum) and any penalty MUST be paid via Electronic Cash Ledger only - ITC utilization is not permitted for interest or penalty components. Tax can be paid via Electronic Credit Ledger (ITC) or Electronic Cash Ledger or a combination. If Electronic Cash Ledger does not have sufficient balance, the taxpayer must first deposit cash via Form GST PMT-06 before filing DRC-03."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can DRC-03 be amended or withdrawn after filing?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No, DRC-03 cannot be amended or withdrawn once filed - the form is locked at the moment of submission with PRN generation. If the Cause-of-Payment was selected incorrectly, the corrective tool is Form DRC-03A introduced in 2024 or 2025. DRC-03A enables retroactive mapping of the prior DRC-03 to a specific demand order for nine eligible Causes - Audit, Voluntary, Enforcement, Intimation DRC-01A, SCN, Scrutiny, Liability Mismatch, ITC Mismatch, and Others."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the Rule 36(4) ITC excess and how is it self-corrected via DRC-03?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Rule 36(4) of the CGST Rules caps ITC claim in GSTR-3B at 105 percent of the ITC reflected in GSTR-2B for the period (i.e., 5 percent buffer over GSTR-2B). Excess ITC claimed beyond this threshold must be reversed with interest under Section 50 at 18 percent per annum. Self-correction via DRC-03 with Cause ITC Mismatch GSTR-2A 2B to GSTR-3B attracts zero penalty under Section 73(5) if filed before any SCN. Without self-correction, the department typically issues ASMT-10 scrutiny or DRC-01 SCN, escalating to 10-100 percent penalty exposure."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How long can I save a DRC-03 application before filing?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "A DRC-03 application can be saved at any stage of completion for a maximum of 15 days. If the application is not filed (submitted with PRN generation) within 15 days, the saved draft is automatically purged from the GST database. The taxpayer must then start fresh with re-entry of all data and re-computation of Section 50 interest accrual to the new proposed payment date."
+                }
+            }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1724,17 +1729,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1757,8 +1755,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1795,7 +1791,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1806,4 +1801,20 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+
 

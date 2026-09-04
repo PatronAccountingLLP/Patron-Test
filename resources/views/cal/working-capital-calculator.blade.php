@@ -1,194 +1,8 @@
 @extends('layouts.app')
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
-@section('meta')
-    <title>Working Capital Calculator | Tandon MPBF &amp; Current Ratio</title>
-    <meta name="description" content="Working capital calculator: compute working capital, current ratio and MPBF under Tandon Committee Methods 1 &amp; 2, with Schedule III tie-in. Free CA tool!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/working-capital-calculator">
-    <meta property="og:title" content="Working Capital Calculator — Schedule III &amp; Tandon MPBF India 2026">
-    <meta property="og:description" content="Compute Working Capital, Current Ratio, Net Capital Turnover, Tandon Committee MPBF (Method 1 &amp; 2), Nayak Committee turnover method. Free CA-reviewed tool.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/working-capital-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Working Capital Calculator — Schedule III &amp; Tandon MPBF India 2026">
-    <meta name="twitter:description" content="WC, Current Ratio, MPBF per Tandon Committee Methods 1 &amp; 2, Nayak Committee turnover method, Schedule III ratios. Free CA tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-    <meta name="theme-color" content="#15365f">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebApplication",
-      "name": "Working Capital Calculator",
-      "description": "Working Capital Calculator computes Working Capital, Gross Working Capital, Working Capital Gap, Current Ratio, Quick Ratio and Net Capital Turnover Ratio for an Indian company aligned with Schedule III to the Companies Act, 2013. The tool also computes Maximum Permissible Bank Finance under Tandon Committee Method 1 (75 per cent of WC Gap) and Method 2 (75 per cent of Total Current Assets less Other Current Liabilities, the Chore Committee 1979 standard for borrowers with working capital limits exceeding fifty lakhs), plus the Nayak Committee turnover-method assessment used for MSME borrowers up to seven point five crore working capital limit. Two of the eleven Schedule III mandatory analytical ratios are direct outputs from this calculator namely Current Ratio and Net Capital Turnover Ratio. The MSE versus non-MSE trade payable split required under Schedule III Division II is supported with auto-flagging if MSE payables suggest MSMED Act Section 15 forty-five day rule breach. Industry benchmarks across IT, Manufacturing, FMCG, Retail, Pharma, Real Estate, Telecom and Services are referenced for verdict.",
-      "url": "https://www.patronaccounting.com/tools/working-capital-calculator",
-      "applicationCategory": "FinanceApplication",
-      "operatingSystem": "Any",
-      "datePublished": "2026-05-07T08:00:00+05:30",
-      "dateModified": "2026-05-19T08:00:00+05:30",
-      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
-      "author": {
-        "@type": "Person",
-        "@id": "https://patronaccounting.com/#founder",
-        "name": "CA Sundram Gupta",
-        "jobTitle": "Founder & Chartered Accountant",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Institute of Chartered Accountants of India",
-            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-          }
-        }]
-      },
-      "publisher": { "@id": "https://patronaccounting.com/#organization" },
-      "provider": {"@id": "https://patronaccounting.com/#organization"}
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Working Capital Calculator", "item": "https://www.patronaccounting.com/tools/working-capital-calculator"}
-      ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is Working Capital and how is it calculated?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Working Capital is the surplus of Current Assets over Current Liabilities — the cash and short-term resources available to fund day-to-day operations. The formula is Working Capital equals Current Assets less Current Liabilities. Gross Working Capital is total Current Assets, while Net Working Capital deducts Current Liabilities. A positive Working Capital indicates the company can comfortably meet short-term obligations. Negative Working Capital signals liquidity stress unless deliberately engineered (modern retail) through supplier credit dominance and rapid cash conversion."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Are Working Capital ratios disclosed under Schedule III?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Two of the eleven mandatory Schedule III analytical ratios are direct working-capital metrics — Current Ratio (Current Assets divided by Current Liabilities) and Net Capital Turnover Ratio (Revenue from Operations divided by Working Capital). Both are mandatory under MCA notification dated 24 March 2021, effective FY 2021-22. Material change of more than 25 per cent year-on-year requires written explanation in the notes to accounts. Quick Ratio is voluntary, often disclosed in MD&A by listed companies."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is Tandon Committee Method 2 for MPBF?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Tandon Committee Method 2 computes Maximum Permissible Bank Finance as 75 per cent of Total Current Assets less Other Current Liabilities (OCL excludes short-term bank borrowings). The borrower contributes 25 per cent of Total Current Assets from long-term funds, ensuring minimum Current Ratio of 1.33:1. The Chore Committee 1979 made Method 2 the standard for borrowers with working capital limits exceeding fifty lakhs from the banking system. Most Indian commercial banks follow Method 2 for mid-corporate working capital appraisal."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between Tandon Method 1 and Method 2?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Tandon Method 1 funds 75 per cent of Working Capital Gap (Current Assets less Other Current Liabilities), with the borrower contributing 25 per cent of the gap from long-term funds. Minimum Current Ratio is 1:1. Method 2 funds 75 per cent of Total Current Assets less Other Current Liabilities, requiring 25 per cent margin from total current assets. Minimum Current Ratio is 1.33:1. Method 2 is more conservative and is now standard. Method 1 is permitted only for sub-fifty-lakh facilities."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the Nayak Committee turnover method for working capital?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The Nayak Committee turnover method, formalised by RBI for MSME borrowers, computes working-capital requirement as 25 per cent of projected annual turnover, with banks funding 20 per cent (four-fifth of WC need) and the borrower contributing 5 per cent margin. The method applies to MSME working-capital limits up to seven point five crore rupees. It is simpler than Tandon Methods because it does not require detailed CMA data. Most public-sector banks default to Nayak below the threshold."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is a good Current Ratio for an Indian company?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A Current Ratio of 1.33 to 2.00 is generally considered healthy for Indian non-financial companies, providing comfortable short-term liquidity coverage. Below 1.33 signals liquidity stress and breaches typical bank covenant floors. Above 3.00 may indicate inefficient working-capital management — excess inventory, slow receivables, or idle cash. Industry benchmarking matters: IT services often show high Current Ratios due to limited inventory, while modern retail typically shows below 1.0 driven by extended supplier credit cycles."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is Net Capital Turnover Ratio?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Net Capital Turnover Ratio equals Revenue from Operations divided by Net Working Capital. It measures how efficiently the company generates revenue from its working-capital investment. Higher turnover means more revenue per rupee of working capital tied up. The ratio is one of eleven mandatory Schedule III analytical ratios introduced by MCA notification dated 24 March 2021. A change exceeding 25 per cent year-on-year requires written explanation in the notes to accounts of the audited financial statements."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does MSMED Act 2006 affect Current Liabilities?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Schedule III Division II requires separate disclosure of Trade Payables to Micro and Small Enterprises versus other suppliers. MSE payables outstanding beyond 45 days breach Section 15 of the MSMED Act 2006, attracting compound interest at three times the RBI bank rate under Section 16, tax disallowance under Section 43B(h) of Income Tax Act, and half-yearly Form MSME-1 reporting to MCA. A high MSE payable balance creates regulatory and tax exposure that must be disclosed."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is Working Capital Gap and how is it different from Working Capital?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Working Capital equals Current Assets less Current Liabilities (all of them). Working Capital Gap equals Current Assets less Other Current Liabilities, where Other Current Liabilities exclude short-term bank borrowings. The gap is the amount that needs financing — through long-term funds or bank borrowings. Banks use the Working Capital Gap concept when assessing eligible MPBF under Tandon Methods. The gap is structurally larger than Working Capital because bank borrowings are excluded from the deduction side."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Should excess Working Capital be reduced?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Excess Working Capital ties up funds that could earn higher returns elsewhere or repay expensive debt. A Current Ratio above 3.0 typically signals over-investment in inventory, slow receivables, or idle cash balances. Action items include inventory rationalisation under Ind AS 2, faster collection through TReDS or factoring, dividend distribution if cash is genuinely surplus, share buyback if shareholder return is preferred, or debt prepayment if leverage is high. Working capital should be sufficient, not abundant."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does Working Capital relate to Cash Conversion Cycle?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Working Capital and Cash Conversion Cycle are two views of the same operational reality. Working Capital is the absolute rupee amount of operating funds tied up. CCC is the duration in days for which they are tied up. The two are mathematically linked — Working Capital approximately equals Annual Revenue multiplied by CCC divided by 365. Reducing CCC reduces Working Capital tied up. Use Working Capital for absolute funding sizing and CCC for benchmarking efficiency across companies of different scales."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is Quick Ratio and when is it preferred over Current Ratio?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Quick Ratio (also called Acid-Test Ratio) equals Current Assets less Inventory divided by Current Liabilities. It is a stricter liquidity measure that ignores inventory because inventory cannot always be quickly converted to cash, especially specialised, slow-moving, or obsolete stock. Quick Ratio is preferred for industries where inventory is a large component of current assets — manufacturing, retail, pharma. A Quick Ratio above 1.0 indicates the company can meet short-term obligations without selling inventory."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which line items go into Current Assets and Current Liabilities under Schedule III?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Under Ind AS Schedule III Division II, Current Assets include Inventories, Current Investments, Trade Receivables, Cash and Cash Equivalents, Other Bank Balances, Loans, Other Financial Assets and Other Current Assets like prepaid expenses and GST credit receivable. Current Liabilities include Short-term Borrowings, Trade Payables (split MSE and non-MSE), Lease Liabilities, Other Financial Liabilities, Current Tax Liabilities, Provisions and Other Current Liabilities. Items expected to be settled within twelve months from the reporting date are classified as current."
-          }
-        }
-      ]
-    }
-    </script>
-@endsection
-
 <style>
         :root {
             --primary: #15365f;
@@ -493,7 +307,193 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 }
 
 </style>
+@endpush
 
+@section('meta')
+    <title>Working Capital Calculator | Tandon MPBF &amp; Current Ratio</title>
+    <meta name="description" content="Working capital calculator: compute working capital, current ratio and MPBF under Tandon Committee Methods 1 &amp; 2, with Schedule III tie-in. Free CA tool!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/working-capital-calculator">
+    <meta property="og:title" content="Working Capital Calculator — Schedule III &amp; Tandon MPBF India 2026">
+    <meta property="og:description" content="Compute Working Capital, Current Ratio, Net Capital Turnover, Tandon Committee MPBF (Method 1 &amp; 2), Nayak Committee turnover method. Free CA-reviewed tool.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/working-capital-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Working Capital Calculator — Schedule III &amp; Tandon MPBF India 2026">
+    <meta name="twitter:description" content="WC, Current Ratio, MPBF per Tandon Committee Methods 1 &amp; 2, Nayak Committee turnover method, Schedule III ratios. Free CA tool.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+    <meta name="theme-color" content="#15365f">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Working Capital Calculator",
+      "description": "Working Capital Calculator computes Working Capital, Gross Working Capital, Working Capital Gap, Current Ratio, Quick Ratio and Net Capital Turnover Ratio for an Indian company aligned with Schedule III to the Companies Act, 2013. The tool also computes Maximum Permissible Bank Finance under Tandon Committee Method 1 (75 per cent of WC Gap) and Method 2 (75 per cent of Total Current Assets less Other Current Liabilities, the Chore Committee 1979 standard for borrowers with working capital limits exceeding fifty lakhs), plus the Nayak Committee turnover-method assessment used for MSME borrowers up to seven point five crore working capital limit. Two of the eleven Schedule III mandatory analytical ratios are direct outputs from this calculator namely Current Ratio and Net Capital Turnover Ratio. The MSE versus non-MSE trade payable split required under Schedule III Division II is supported with auto-flagging if MSE payables suggest MSMED Act Section 15 forty-five day rule breach. Industry benchmarks across IT, Manufacturing, FMCG, Retail, Pharma, Real Estate, Telecom and Services are referenced for verdict.",
+      "url": "https://www.patronaccounting.com/tools/working-capital-calculator",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Any",
+      "datePublished": "2026-05-07T08:00:00+05:30",
+      "dateModified": "2026-05-19T08:00:00+05:30",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
+      "author": {
+        "@type": "Person",
+        "@id": "https://patronaccounting.com/#founder",
+        "name": "CA Sundram Gupta",
+        "jobTitle": "Founder & Chartered Accountant",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Institute of Chartered Accountants of India",
+            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+          }
+        }]
+      },
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": {"@id": "https://patronaccounting.com/#organization"}
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Working Capital Calculator", "item": "https://www.patronaccounting.com/tools/working-capital-calculator"}
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Working Capital and how is it calculated?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Working Capital is the surplus of Current Assets over Current Liabilities — the cash and short-term resources available to fund day-to-day operations. The formula is Working Capital equals Current Assets less Current Liabilities. Gross Working Capital is total Current Assets, while Net Working Capital deducts Current Liabilities. A positive Working Capital indicates the company can comfortably meet short-term obligations. Negative Working Capital signals liquidity stress unless deliberately engineered (modern retail) through supplier credit dominance and rapid cash conversion."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are Working Capital ratios disclosed under Schedule III?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Two of the eleven mandatory Schedule III analytical ratios are direct working-capital metrics — Current Ratio (Current Assets divided by Current Liabilities) and Net Capital Turnover Ratio (Revenue from Operations divided by Working Capital). Both are mandatory under MCA notification dated 24 March 2021, effective FY 2021-22. Material change of more than 25 per cent year-on-year requires written explanation in the notes to accounts. Quick Ratio is voluntary, often disclosed in MD&A by listed companies."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Tandon Committee Method 2 for MPBF?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tandon Committee Method 2 computes Maximum Permissible Bank Finance as 75 per cent of Total Current Assets less Other Current Liabilities (OCL excludes short-term bank borrowings). The borrower contributes 25 per cent of Total Current Assets from long-term funds, ensuring minimum Current Ratio of 1.33:1. The Chore Committee 1979 made Method 2 the standard for borrowers with working capital limits exceeding fifty lakhs from the banking system. Most Indian commercial banks follow Method 2 for mid-corporate working capital appraisal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between Tandon Method 1 and Method 2?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tandon Method 1 funds 75 per cent of Working Capital Gap (Current Assets less Other Current Liabilities), with the borrower contributing 25 per cent of the gap from long-term funds. Minimum Current Ratio is 1:1. Method 2 funds 75 per cent of Total Current Assets less Other Current Liabilities, requiring 25 per cent margin from total current assets. Minimum Current Ratio is 1.33:1. Method 2 is more conservative and is now standard. Method 1 is permitted only for sub-fifty-lakh facilities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the Nayak Committee turnover method for working capital?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Nayak Committee turnover method, formalised by RBI for MSME borrowers, computes working-capital requirement as 25 per cent of projected annual turnover, with banks funding 20 per cent (four-fifth of WC need) and the borrower contributing 5 per cent margin. The method applies to MSME working-capital limits up to seven point five crore rupees. It is simpler than Tandon Methods because it does not require detailed CMA data. Most public-sector banks default to Nayak below the threshold."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a good Current Ratio for an Indian company?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Current Ratio of 1.33 to 2.00 is generally considered healthy for Indian non-financial companies, providing comfortable short-term liquidity coverage. Below 1.33 signals liquidity stress and breaches typical bank covenant floors. Above 3.00 may indicate inefficient working-capital management — excess inventory, slow receivables, or idle cash. Industry benchmarking matters: IT services often show high Current Ratios due to limited inventory, while modern retail typically shows below 1.0 driven by extended supplier credit cycles."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Net Capital Turnover Ratio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Net Capital Turnover Ratio equals Revenue from Operations divided by Net Working Capital. It measures how efficiently the company generates revenue from its working-capital investment. Higher turnover means more revenue per rupee of working capital tied up. The ratio is one of eleven mandatory Schedule III analytical ratios introduced by MCA notification dated 24 March 2021. A change exceeding 25 per cent year-on-year requires written explanation in the notes to accounts of the audited financial statements."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does MSMED Act 2006 affect Current Liabilities?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Schedule III Division II requires separate disclosure of Trade Payables to Micro and Small Enterprises versus other suppliers. MSE payables outstanding beyond 45 days breach Section 15 of the MSMED Act 2006, attracting compound interest at three times the RBI bank rate under Section 16, tax disallowance under Section 43B(h) of Income Tax Act, and half-yearly Form MSME-1 reporting to MCA. A high MSE payable balance creates regulatory and tax exposure that must be disclosed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Working Capital Gap and how is it different from Working Capital?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Working Capital equals Current Assets less Current Liabilities (all of them). Working Capital Gap equals Current Assets less Other Current Liabilities, where Other Current Liabilities exclude short-term bank borrowings. The gap is the amount that needs financing — through long-term funds or bank borrowings. Banks use the Working Capital Gap concept when assessing eligible MPBF under Tandon Methods. The gap is structurally larger than Working Capital because bank borrowings are excluded from the deduction side."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should excess Working Capital be reduced?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Excess Working Capital ties up funds that could earn higher returns elsewhere or repay expensive debt. A Current Ratio above 3.0 typically signals over-investment in inventory, slow receivables, or idle cash balances. Action items include inventory rationalisation under Ind AS 2, faster collection through TReDS or factoring, dividend distribution if cash is genuinely surplus, share buyback if shareholder return is preferred, or debt prepayment if leverage is high. Working capital should be sufficient, not abundant."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does Working Capital relate to Cash Conversion Cycle?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Working Capital and Cash Conversion Cycle are two views of the same operational reality. Working Capital is the absolute rupee amount of operating funds tied up. CCC is the duration in days for which they are tied up. The two are mathematically linked — Working Capital approximately equals Annual Revenue multiplied by CCC divided by 365. Reducing CCC reduces Working Capital tied up. Use Working Capital for absolute funding sizing and CCC for benchmarking efficiency across companies of different scales."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Quick Ratio and when is it preferred over Current Ratio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Quick Ratio (also called Acid-Test Ratio) equals Current Assets less Inventory divided by Current Liabilities. It is a stricter liquidity measure that ignores inventory because inventory cannot always be quickly converted to cash, especially specialised, slow-moving, or obsolete stock. Quick Ratio is preferred for industries where inventory is a large component of current assets — manufacturing, retail, pharma. A Quick Ratio above 1.0 indicates the company can meet short-term obligations without selling inventory."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which line items go into Current Assets and Current Liabilities under Schedule III?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under Ind AS Schedule III Division II, Current Assets include Inventories, Current Investments, Trade Receivables, Cash and Cash Equivalents, Other Bank Balances, Loans, Other Financial Assets and Other Current Assets like prepaid expenses and GST credit receivable. Current Liabilities include Short-term Borrowings, Trade Payables (split MSE and non-MSE), Lease Liabilities, Other Financial Liabilities, Current Tax Liabilities, Provisions and Other Current Liabilities. Items expected to be settled within twelve months from the reporting date are classified as current."
+          }
+        }
+      ]
+    }
+    </script>
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation">
     <div class="toc-nav-inner">

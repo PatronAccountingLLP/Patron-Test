@@ -1,90 +1,5 @@
 @extends('layouts.app')
-@section('meta')
-    <title>Balance Sheet Generator India | Schedule III Format Online</title>
-    <meta name="description" content="Free balance sheet generator: create formatted balance sheets as per Schedule III of the Companies Act, 2013 for Indian businesses. Generate instantly online!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/balance-sheet-generator">
-    <meta property="og:title" content="Balance Sheet Generator India — Free Tool 2026">
-    <meta property="og:description" content="Balance Sheet Generator creates formatted balance sheets as per Schedule III of Companies Act, 2013 for Indian businesses.">
-    <meta property="og:type" content="website">
-    <meta property="og:locale" content="en_IN">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/balance-sheet-generator">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Balance Sheet Generator India — Free Tool 2026">
-    <meta name="twitter:description" content="Generate balance sheets per Schedule III of Companies Act for Indian businesses. Free!">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-<script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebApplication",
-      "name": "Balance Sheet Generator India",
-      "description": "Balance Sheet Generator creates formatted balance sheets as per Schedule III of the Companies Act, 2013. Supports non-current assets, current assets, equity, non-current liabilities, and current liabilities with automatic totals and balance verification for Indian companies including Private Limited, LLP, and OPC entities.",
-      "url": "https://www.patronaccounting.com/tools/balance-sheet-generator",
-      "applicationCategory": "UtilityApplication",
-      "operatingSystem": "Any",
-      "datePublished": "2026-03-05",
-      "dateModified": "2026-03-05",
-      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" },
-      "author": {
-        "@type": "Person",
-        "@id": "https://patronaccounting.com/#team",
-        "name": "CA & CS Patron Accounting Team",
-        "jobTitle": "Chartered Accountants & Company Secretaries",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/company/patron-accounting"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": { "@type": "Organization", "name": "Institute of Chartered Accountants of India", "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India" }
-        }]
-      },
-      "publisher": { "@type": "Organization", "name": "Patron Accounting LLP", "url": "https://www.patronaccounting.com", "logo": { "@type": "ImageObject", "url": "https://www.patronaccounting.com/images/site-logo.svg" } },
-      "provider": { "@id": "https://patronaccounting.com/#organization" }
-    }
-    </script>
-<script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Balance Sheet Generator", "item": "https://www.patronaccounting.com/tools/balance-sheet-generator"}
-      ]
-    }
-    </script>
-<script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        { "@type": "Question", "name": "What is a Balance Sheet?", "acceptedAnswer": { "@type": "Answer", "text": "A Balance Sheet is a financial statement showing a company's assets, liabilities, and shareholders equity at a specific date. Under the Companies Act, 2013, every Indian company must prepare a Balance Sheet as per Schedule III. The fundamental equation is Assets equals Liabilities plus Equity. It provides a snapshot of what the company owns and owes at the reporting date." } },
-        { "@type": "Question", "name": "What is the Balance Sheet format under Schedule III?", "acceptedAnswer": { "@type": "Answer", "text": "Schedule III prescribes a vertical format with two main sections. The first section covers Equity and Liabilities, including shareholders equity, non-current liabilities, and current liabilities. The second section covers Assets, including non-current assets and current assets. Both sections must balance. Division I applies to companies following Indian AS and Division II to Ind AS companies." } },
-        { "@type": "Question", "name": "What is the difference between current and non-current assets?", "acceptedAnswer": { "@type": "Answer", "text": "Current assets are expected to be realised or consumed within the operating cycle or 12 months, whichever is longer. Examples include cash, trade receivables, inventory, and short-term investments. Non-current assets are held for longer periods and include property plant and equipment, intangible assets, long-term investments, and deferred tax assets. Schedule III requires separate classification." } },
-        { "@type": "Question", "name": "What is the difference between current and non-current liabilities?", "acceptedAnswer": { "@type": "Answer", "text": "Current liabilities are due within the operating cycle or 12 months, including trade payables, short-term borrowings, current tax liabilities, and provisions. Non-current liabilities are due beyond 12 months, including long-term borrowings, deferred tax liabilities, and long-term provisions. Proper classification is critical for assessing liquidity ratios and compliance with Schedule III." } },
-        { "@type": "Question", "name": "What does shareholders equity include?", "acceptedAnswer": { "@type": "Answer", "text": "Shareholders equity includes share capital being the face value of issued shares both equity and preference, and reserves and surplus comprising securities premium, general reserve, retained earnings and profit and loss balance. Under Ind AS, it also includes other comprehensive income items. The Statement of Changes in Equity is mandatory under Division II of Schedule III." } },
-        { "@type": "Question", "name": "Why must a Balance Sheet always balance?", "acceptedAnswer": { "@type": "Answer", "text": "The Balance Sheet must balance because of the double-entry accounting system. Every transaction affects at least two accounts ensuring that Total Assets always equals Total Liabilities plus Total Equity. If it does not balance, there is an error in recording transactions, incorrect classification, or missing entries that must be identified and corrected before finalising financial statements." } },
-        { "@type": "Question", "name": "When must companies file the Balance Sheet with MCA?", "acceptedAnswer": { "@type": "Answer", "text": "Companies must file the Balance Sheet as part of financial statements in e-Form AOC-4 with the Registrar of Companies within 30 days of the Annual General Meeting. The AGM must be held within 6 months from the financial year end, typically by 30th September each year. Late filing attracts additional fees of Rs 100 per day under Section 403 of the Companies Act, 2013." } },
-        { "@type": "Question", "name": "What is the difference between a Balance Sheet and Profit and Loss Statement?", "acceptedAnswer": { "@type": "Answer", "text": "A Balance Sheet shows financial position at a specific date, listing assets, liabilities, and equity as a snapshot. A Profit and Loss Statement shows financial performance over a period, listing revenues and expenses. The net profit from the P and L Statement flows into the Balance Sheet as retained earnings under reserves and surplus, connecting the two statements." } },
-        { "@type": "Question", "name": "What are the key ratios derived from a Balance Sheet?", "acceptedAnswer": { "@type": "Answer", "text": "Key ratios include Current Ratio being current assets divided by current liabilities for liquidity assessment, Debt to Equity Ratio being total debt divided by shareholders equity for leverage assessment, Return on Equity being net profit divided by equity for profitability, and Net Worth being total assets minus total liabilities. Lenders use these ratios for credit assessment and loan approval." } },
-        { "@type": "Question", "name": "Can I use this generator for my small business or LLP?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, the generator works for all Indian business types. Companies registered under the Companies Act should use the Schedule III format. LLPs can use the simplified format for their Statement of Accounts under the LLP Act 2008. Sole proprietors and partnerships can use it for internal tracking, bank loan applications, and Income Tax Return preparation." } },
-        { "@type": "Question", "name": "What is Property Plant and Equipment on a Balance Sheet?", "acceptedAnswer": { "@type": "Answer", "text": "Property Plant and Equipment represents tangible long-term assets used in business operations. This includes land, buildings, plant and machinery, furniture and fixtures, vehicles, and office equipment. Under Schedule III, these are shown at cost less accumulated depreciation and impairment. Depreciation rates follow Schedule II of the Companies Act, 2013 for book purposes." } },
-        { "@type": "Question", "name": "Can a Chartered Accountant help prepare the Balance Sheet?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, a CA ensures the Balance Sheet complies with Accounting Standards and Schedule III. Under Section 143, the statutory auditor verifies accuracy and provides an audit opinion. For companies requiring audit, the Balance Sheet must be signed by the auditor. Patron Accounting prepares audit-ready financial statements for companies across India including Balance Sheet, P and L, and notes to accounts." } }
-      ]
-    }
-    </script>
-@endsection
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+@push('styles')
 <style>
 
         :root {
@@ -889,6 +804,94 @@
 .toggle-btn{font-size:13px;padding:10px 12px}
 }
 </style>
+@endpush
+
+@section('meta')
+    <title>Balance Sheet Generator India | Schedule III Format Online</title>
+    <meta name="description" content="Free balance sheet generator: create formatted balance sheets as per Schedule III of the Companies Act, 2013 for Indian businesses. Generate instantly online!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/balance-sheet-generator">
+    <meta property="og:title" content="Balance Sheet Generator India — Free Tool 2026">
+    <meta property="og:description" content="Balance Sheet Generator creates formatted balance sheets as per Schedule III of Companies Act, 2013 for Indian businesses.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_IN">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/balance-sheet-generator">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Balance Sheet Generator India — Free Tool 2026">
+    <meta name="twitter:description" content="Generate balance sheets per Schedule III of Companies Act for Indian businesses. Free!">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+@endsection
+
+@section('schema')
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Balance Sheet Generator India",
+      "description": "Balance Sheet Generator creates formatted balance sheets as per Schedule III of the Companies Act, 2013. Supports non-current assets, current assets, equity, non-current liabilities, and current liabilities with automatic totals and balance verification for Indian companies including Private Limited, LLP, and OPC entities.",
+      "url": "https://www.patronaccounting.com/tools/balance-sheet-generator",
+      "applicationCategory": "UtilityApplication",
+      "operatingSystem": "Any",
+      "datePublished": "2026-03-05",
+      "dateModified": "2026-03-05",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" },
+      "author": {
+        "@type": "Person",
+        "@id": "https://patronaccounting.com/#team",
+        "name": "CA & CS Patron Accounting Team",
+        "jobTitle": "Chartered Accountants & Company Secretaries",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/company/patron-accounting"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": { "@type": "Organization", "name": "Institute of Chartered Accountants of India", "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India" }
+        }]
+      },
+      "publisher": { "@type": "Organization", "name": "Patron Accounting LLP", "url": "https://www.patronaccounting.com", "logo": { "@type": "ImageObject", "url": "https://www.patronaccounting.com/images/site-logo.svg" } },
+      "provider": { "@id": "https://patronaccounting.com/#organization" }
+    }
+    </script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Balance Sheet Generator", "item": "https://www.patronaccounting.com/tools/balance-sheet-generator"}
+      ]
+    }
+    </script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "What is a Balance Sheet?", "acceptedAnswer": { "@type": "Answer", "text": "A Balance Sheet is a financial statement showing a company's assets, liabilities, and shareholders equity at a specific date. Under the Companies Act, 2013, every Indian company must prepare a Balance Sheet as per Schedule III. The fundamental equation is Assets equals Liabilities plus Equity. It provides a snapshot of what the company owns and owes at the reporting date." } },
+        { "@type": "Question", "name": "What is the Balance Sheet format under Schedule III?", "acceptedAnswer": { "@type": "Answer", "text": "Schedule III prescribes a vertical format with two main sections. The first section covers Equity and Liabilities, including shareholders equity, non-current liabilities, and current liabilities. The second section covers Assets, including non-current assets and current assets. Both sections must balance. Division I applies to companies following Indian AS and Division II to Ind AS companies." } },
+        { "@type": "Question", "name": "What is the difference between current and non-current assets?", "acceptedAnswer": { "@type": "Answer", "text": "Current assets are expected to be realised or consumed within the operating cycle or 12 months, whichever is longer. Examples include cash, trade receivables, inventory, and short-term investments. Non-current assets are held for longer periods and include property plant and equipment, intangible assets, long-term investments, and deferred tax assets. Schedule III requires separate classification." } },
+        { "@type": "Question", "name": "What is the difference between current and non-current liabilities?", "acceptedAnswer": { "@type": "Answer", "text": "Current liabilities are due within the operating cycle or 12 months, including trade payables, short-term borrowings, current tax liabilities, and provisions. Non-current liabilities are due beyond 12 months, including long-term borrowings, deferred tax liabilities, and long-term provisions. Proper classification is critical for assessing liquidity ratios and compliance with Schedule III." } },
+        { "@type": "Question", "name": "What does shareholders equity include?", "acceptedAnswer": { "@type": "Answer", "text": "Shareholders equity includes share capital being the face value of issued shares both equity and preference, and reserves and surplus comprising securities premium, general reserve, retained earnings and profit and loss balance. Under Ind AS, it also includes other comprehensive income items. The Statement of Changes in Equity is mandatory under Division II of Schedule III." } },
+        { "@type": "Question", "name": "Why must a Balance Sheet always balance?", "acceptedAnswer": { "@type": "Answer", "text": "The Balance Sheet must balance because of the double-entry accounting system. Every transaction affects at least two accounts ensuring that Total Assets always equals Total Liabilities plus Total Equity. If it does not balance, there is an error in recording transactions, incorrect classification, or missing entries that must be identified and corrected before finalising financial statements." } },
+        { "@type": "Question", "name": "When must companies file the Balance Sheet with MCA?", "acceptedAnswer": { "@type": "Answer", "text": "Companies must file the Balance Sheet as part of financial statements in e-Form AOC-4 with the Registrar of Companies within 30 days of the Annual General Meeting. The AGM must be held within 6 months from the financial year end, typically by 30th September each year. Late filing attracts additional fees of Rs 100 per day under Section 403 of the Companies Act, 2013." } },
+        { "@type": "Question", "name": "What is the difference between a Balance Sheet and Profit and Loss Statement?", "acceptedAnswer": { "@type": "Answer", "text": "A Balance Sheet shows financial position at a specific date, listing assets, liabilities, and equity as a snapshot. A Profit and Loss Statement shows financial performance over a period, listing revenues and expenses. The net profit from the P and L Statement flows into the Balance Sheet as retained earnings under reserves and surplus, connecting the two statements." } },
+        { "@type": "Question", "name": "What are the key ratios derived from a Balance Sheet?", "acceptedAnswer": { "@type": "Answer", "text": "Key ratios include Current Ratio being current assets divided by current liabilities for liquidity assessment, Debt to Equity Ratio being total debt divided by shareholders equity for leverage assessment, Return on Equity being net profit divided by equity for profitability, and Net Worth being total assets minus total liabilities. Lenders use these ratios for credit assessment and loan approval." } },
+        { "@type": "Question", "name": "Can I use this generator for my small business or LLP?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, the generator works for all Indian business types. Companies registered under the Companies Act should use the Schedule III format. LLPs can use the simplified format for their Statement of Accounts under the LLP Act 2008. Sole proprietors and partnerships can use it for internal tracking, bank loan applications, and Income Tax Return preparation." } },
+        { "@type": "Question", "name": "What is Property Plant and Equipment on a Balance Sheet?", "acceptedAnswer": { "@type": "Answer", "text": "Property Plant and Equipment represents tangible long-term assets used in business operations. This includes land, buildings, plant and machinery, furniture and fixtures, vehicles, and office equipment. Under Schedule III, these are shown at cost less accumulated depreciation and impairment. Depreciation rates follow Schedule II of the Companies Act, 2013 for book purposes." } },
+        { "@type": "Question", "name": "Can a Chartered Accountant help prepare the Balance Sheet?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, a CA ensures the Balance Sheet complies with Accounting Standards and Schedule III. Under Section 143, the statutory auditor verifies accuracy and provides an audit opinion. For companies requiring audit, the Balance Sheet must be signed by the auditor. Patron Accounting prepares audit-ready financial statements for companies across India including Balance Sheet, P and L, and notes to accounts." } }
+      ]
+    }
+    </script>
+@endsection
 @section('content')
 <!-- Sticky TOC Nav -->
     <nav class="toc-nav" aria-label="Page Navigation">

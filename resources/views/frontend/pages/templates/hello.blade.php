@@ -1,7 +1,4 @@
 @extends('layouts.app')
-
-@section('title', $page->title)
-
 @push('styles')
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap');
@@ -1887,6 +1884,13 @@
     }
 }
 </style>
+@endpush
+
+
+@section('title', $page->title)
+
+@push('styles')
+
 @endpush
 
 @section('content')

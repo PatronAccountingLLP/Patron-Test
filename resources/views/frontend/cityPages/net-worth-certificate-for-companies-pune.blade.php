@@ -1,143 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Net Worth Certificate for Companies 2026 | Patron Accounting</title>
-    <meta name="description" content="Net Worth Certificate for companies by ICAI-registered CAs with UDIN. For tenders, SEBI, loans and ROC. Pune and pan-India. Starting from INR 1,999.">
-    <link rel="canonical" href="/net-worth-certificate-for-companies/pune">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Net Worth Certificate for Companies 2026 | Patron Accounting">
-    <meta property="og:description" content="Net Worth Certificate for companies by ICAI-registered CAs with UDIN. For tenders, SEBI, loans and ROC. Pune and pan-India. Starting from INR 1,999.">
-    <meta property="og:url" content="/net-worth-certificate-for-companies/pune">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Net Worth Certificate for Companies 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Net Worth Certificate for companies by ICAI-registered CAs with UDIN. For tenders, SEBI, loans and ROC. Pune and pan-India. Starting from INR 1,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-companies/pune/#service",
-        "name": "Net Worth Certificate for Companies in Pune",
-        "description": "CA-certified net worth certificate for companies in Pune, computed under Section 2(57) of the Companies Act, 2013 and reconciled to the audited balance sheet, issued with a mandatory 18-digit UDIN for tenders, SEBI registration, bank loans, and investor due diligence.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/net-worth-certificate-for-companies/pune" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Net worth", "sameAs": "https://en.wikipedia.org/wiki/Net_worth" }, { "@type": "Thing", "name": "Companies Act, 2013", "sameAs": "https://en.wikipedia.org/wiki/Companies_Act_2013" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Net Worth Certificate for Companies Service Plans",
-            "itemListElement": [
-                { "@type": "Offer", "name": "Net Worth Certificate for Companies", "price": "1999", "priceCurrency": "INR", "description": "Starting from INR 1,999 (Exl GST and Govt. Charges)" }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-companies/pune/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
-            { "@type": "ListItem", "position": 3, "name": "Net Worth Certificate for Companies", "item": "https://www.patronaccounting.com/net-worth-certificate-for-companies/pune" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-companies/pune/#faq",
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "mainEntity": [
-            { "@type": "Question", "name": "Who can issue a net worth certificate for a company in India?", "acceptedAnswer": { "@type": "Answer", "text": "Only a practising Chartered Accountant holding a valid Certificate of Practice and registered with ICAI can issue and certify a company net worth certificate. The certificate must carry the CA signature, seal, membership number, firm registration number, and an 18-digit UDIN to be legally valid and accepted by banks, PSUs, and SEBI." } },
-{ "@type": "Question", "name": "How is a company net worth calculated?", "acceptedAnswer": { "@type": "Answer", "text": "For a company, net worth is computed under Section 2(57) of the Companies Act, 2013 as paid-up share capital plus reserves created out of profits and securities premium, minus accumulated losses, deferred expenditure, and miscellaneous expenditure not written off, as per the audited balance sheet. Revaluation and amalgamation reserves are excluded." } },
-{ "@type": "Question", "name": "Is UDIN mandatory on a company net worth certificate?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Since 1 July 2019, ICAI mandates an 18-digit UDIN on every CA-issued certificate. A certificate without a valid UDIN is invalid and is rejected by banks, tender authorities, and SEBI. The UDIN is verifiable online at udin.icai.org, making the certificate tamper-evident and traceable." } },
-{ "@type": "Question", "name": "What documents are required for a company net worth certificate?", "acceptedAnswer": { "@type": "Answer", "text": "The CA needs the latest audited balance sheet, board-approved financial statements, company PAN and MCA master data, schedules of reserves and accumulated losses, liability statements, and the purpose document such as a tender notice. Complete documents allow issuance within one to three working days." } },
-{ "@type": "Question", "name": "How long is a company net worth certificate valid?", "acceptedAnswer": { "@type": "Answer", "text": "There is no fixed statutory validity period. Most institutions prefer a certificate that reflects a recent reference date, commonly within three months. Tenders frequently specify an exact as-on date, so the certificate date should match the requirement. A stale reference date is a common reason for rejection." } },
-{ "@type": "Question", "name": "Can Patron Accounting issue it for a Pune-registered company on the same day?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. For Pune companies with audited accounts ready, we offer same-day express issuance for urgent tenders and SEBI applications. Standard issuance is one to three working days, and we support both in-person collection at our Pune office and fully remote delivery across India." } }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-companies/pune",
-        "name": "Net Worth Certificate for Companies in Pune",
-        "description": "Net Worth Certificate for companies by ICAI-registered CAs with UDIN. For tenders, SEBI, loans and ROC. Pune and pan-India. Starting from INR 1,999.",
-        "url": "https://www.patronaccounting.com/net-worth-certificate-for-companies/pune",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-companies/pune/#service" },
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-companies/pune/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How a Company Net Worth Certificate Is Issued",
-        "description": "The step-by-step process Patron Accounting follows to compute net worth under Section 2(57) and issue a UDIN-backed company net worth certificate in Pune.",
-        "totalTime": "P3D",
-        "step": [
-            { "@type": "HowToStep", "position": 1, "name": "Confirm purpose", "text": "Engagement and purpose confirmation - we record whether the certificate is for tender, SEBI, loan, or investor use, since the format differs." },
-{ "@type": "HowToStep", "position": 2, "name": "Collect documents", "text": "Document collection - audited balance sheet, board-approved financial statements, PAN, MCA master data, and supporting schedules." },
-{ "@type": "HowToStep", "position": 3, "name": "Verify figures", "text": "Independent verification - the CA verifies figures against records as required under SA 500 (Audit Evidence) and SA 505 (External Confirmations)." },
-{ "@type": "HowToStep", "position": 4, "name": "Compute net worth", "text": "Net worth computation under Section 2(57), Companies Act, 2013: paid-up capital plus reserves out of profits plus securities premium, less accumulated losses, deferred and miscellaneous expenditure not written off." },
-{ "@type": "HowToStep", "position": 5, "name": "Draft certificate", "text": "Certificate drafting on CA letterhead with the reference date and purpose statement." },
-{ "@type": "HowToStep", "position": 6, "name": "Issue with UDIN", "text": "UDIN generation at udin.icai.org and signing, seal, and delivery (PDF and physical as needed)." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Net Worth Certificate for Companies Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Paid-up share capital", "description": "The amount shareholders have actually paid against shares issued (Section 2(64))." },
-{ "@type": "DefinedTerm", "name": "Reserves out of profits", "description": "Free reserves and securities premium; excludes revaluation and amalgamation reserves." },
-{ "@type": "DefinedTerm", "name": "Net worth (Section 2(57))", "description": "Paid-up capital plus reserves out of profits, less accumulated losses and deferred expenditure, per the audited balance sheet." },
-{ "@type": "DefinedTerm", "name": "UDIN", "description": "18-digit Unique Document Identification Number generated by the CA, mandatory on every certificate." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -751,7 +618,145 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Net Worth Certificate for Companies 2026 | Patron Accounting</title>
+    <meta name="description" content="Net Worth Certificate for companies by ICAI-registered CAs with UDIN. For tenders, SEBI, loans and ROC. Pune and pan-India. Starting from INR 1,999.">
+    <link rel="canonical" href="/net-worth-certificate-for-companies/pune">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Net Worth Certificate for Companies 2026 | Patron Accounting">
+    <meta property="og:description" content="Net Worth Certificate for companies by ICAI-registered CAs with UDIN. For tenders, SEBI, loans and ROC. Pune and pan-India. Starting from INR 1,999.">
+    <meta property="og:url" content="/net-worth-certificate-for-companies/pune">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Net Worth Certificate for Companies 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Net Worth Certificate for companies by ICAI-registered CAs with UDIN. For tenders, SEBI, loans and ROC. Pune and pan-India. Starting from INR 1,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-companies/pune/#service",
+        "name": "Net Worth Certificate for Companies in Pune",
+        "description": "CA-certified net worth certificate for companies in Pune, computed under Section 2(57) of the Companies Act, 2013 and reconciled to the audited balance sheet, issued with a mandatory 18-digit UDIN for tenders, SEBI registration, bank loans, and investor due diligence.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/net-worth-certificate-for-companies/pune" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Net worth", "sameAs": "https://en.wikipedia.org/wiki/Net_worth" }, { "@type": "Thing", "name": "Companies Act, 2013", "sameAs": "https://en.wikipedia.org/wiki/Companies_Act_2013" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Net Worth Certificate for Companies Service Plans",
+            "itemListElement": [
+                { "@type": "Offer", "name": "Net Worth Certificate for Companies", "price": "1999", "priceCurrency": "INR", "description": "Starting from INR 1,999 (Exl GST and Govt. Charges)" }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-companies/pune/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
+            { "@type": "ListItem", "position": 3, "name": "Net Worth Certificate for Companies", "item": "https://www.patronaccounting.com/net-worth-certificate-for-companies/pune" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-companies/pune/#faq",
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "mainEntity": [
+            { "@type": "Question", "name": "Who can issue a net worth certificate for a company in India?", "acceptedAnswer": { "@type": "Answer", "text": "Only a practising Chartered Accountant holding a valid Certificate of Practice and registered with ICAI can issue and certify a company net worth certificate. The certificate must carry the CA signature, seal, membership number, firm registration number, and an 18-digit UDIN to be legally valid and accepted by banks, PSUs, and SEBI." } },
+{ "@type": "Question", "name": "How is a company net worth calculated?", "acceptedAnswer": { "@type": "Answer", "text": "For a company, net worth is computed under Section 2(57) of the Companies Act, 2013 as paid-up share capital plus reserves created out of profits and securities premium, minus accumulated losses, deferred expenditure, and miscellaneous expenditure not written off, as per the audited balance sheet. Revaluation and amalgamation reserves are excluded." } },
+{ "@type": "Question", "name": "Is UDIN mandatory on a company net worth certificate?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Since 1 July 2019, ICAI mandates an 18-digit UDIN on every CA-issued certificate. A certificate without a valid UDIN is invalid and is rejected by banks, tender authorities, and SEBI. The UDIN is verifiable online at udin.icai.org, making the certificate tamper-evident and traceable." } },
+{ "@type": "Question", "name": "What documents are required for a company net worth certificate?", "acceptedAnswer": { "@type": "Answer", "text": "The CA needs the latest audited balance sheet, board-approved financial statements, company PAN and MCA master data, schedules of reserves and accumulated losses, liability statements, and the purpose document such as a tender notice. Complete documents allow issuance within one to three working days." } },
+{ "@type": "Question", "name": "How long is a company net worth certificate valid?", "acceptedAnswer": { "@type": "Answer", "text": "There is no fixed statutory validity period. Most institutions prefer a certificate that reflects a recent reference date, commonly within three months. Tenders frequently specify an exact as-on date, so the certificate date should match the requirement. A stale reference date is a common reason for rejection." } },
+{ "@type": "Question", "name": "Can Patron Accounting issue it for a Pune-registered company on the same day?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. For Pune companies with audited accounts ready, we offer same-day express issuance for urgent tenders and SEBI applications. Standard issuance is one to three working days, and we support both in-person collection at our Pune office and fully remote delivery across India." } }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-companies/pune",
+        "name": "Net Worth Certificate for Companies in Pune",
+        "description": "Net Worth Certificate for companies by ICAI-registered CAs with UDIN. For tenders, SEBI, loans and ROC. Pune and pan-India. Starting from INR 1,999.",
+        "url": "https://www.patronaccounting.com/net-worth-certificate-for-companies/pune",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-companies/pune/#service" },
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-companies/pune/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How a Company Net Worth Certificate Is Issued",
+        "description": "The step-by-step process Patron Accounting follows to compute net worth under Section 2(57) and issue a UDIN-backed company net worth certificate in Pune.",
+        "totalTime": "P3D",
+        "step": [
+            { "@type": "HowToStep", "position": 1, "name": "Confirm purpose", "text": "Engagement and purpose confirmation - we record whether the certificate is for tender, SEBI, loan, or investor use, since the format differs." },
+{ "@type": "HowToStep", "position": 2, "name": "Collect documents", "text": "Document collection - audited balance sheet, board-approved financial statements, PAN, MCA master data, and supporting schedules." },
+{ "@type": "HowToStep", "position": 3, "name": "Verify figures", "text": "Independent verification - the CA verifies figures against records as required under SA 500 (Audit Evidence) and SA 505 (External Confirmations)." },
+{ "@type": "HowToStep", "position": 4, "name": "Compute net worth", "text": "Net worth computation under Section 2(57), Companies Act, 2013: paid-up capital plus reserves out of profits plus securities premium, less accumulated losses, deferred and miscellaneous expenditure not written off." },
+{ "@type": "HowToStep", "position": 5, "name": "Draft certificate", "text": "Certificate drafting on CA letterhead with the reference date and purpose statement." },
+{ "@type": "HowToStep", "position": 6, "name": "Issue with UDIN", "text": "UDIN generation at udin.icai.org and signing, seal, and delivery (PDF and physical as needed)." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Net Worth Certificate for Companies Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Paid-up share capital", "description": "The amount shareholders have actually paid against shares issued (Section 2(64))." },
+{ "@type": "DefinedTerm", "name": "Reserves out of profits", "description": "Free reserves and securities premium; excludes revaluation and amalgamation reserves." },
+{ "@type": "DefinedTerm", "name": "Net worth (Section 2(57))", "description": "Paid-up capital plus reserves out of profits, less accumulated losses and deferred expenditure, per the audited balance sheet." },
+{ "@type": "DefinedTerm", "name": "UDIN", "description": "18-digit Unique Document Identification Number generated by the CA, mandatory on every certificate." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1388,22 +1393,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
-<!-- ============================================
-     CONSULTATION FORM — Country Dropdown + Validation + Bigin Integration
-     ============================================ -->
-{{-- Enquiry form markup + JS now in partials/enquiry-form.blade.php --}}
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1426,8 +1419,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1464,7 +1455,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1475,3 +1465,24 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+<!-- ============================================
+     CONSULTATION FORM — Country Dropdown + Validation + Bigin Integration
+     ============================================ -->
+{{-- Enquiry form markup + JS now in partials/enquiry-form.blade.php --}}
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

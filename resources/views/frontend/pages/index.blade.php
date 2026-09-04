@@ -1,7 +1,4 @@
 @extends('layouts.app')
-
-@section('title', 'All Pages')
-
 @push('styles')
 <style>
     .pages-header {
@@ -55,6 +52,13 @@
         margin-bottom: 2rem;
     }
 </style>
+@endpush
+
+
+@section('title', 'All Pages')
+
+@push('styles')
+
 @endpush
 
 @section('content')

@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,208 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>Financial Statements Mumbai 2026 | Patron Accounting</title>
-    <meta name="description" content="Financial statement preparation in Mumbai from INR 9,999 per set. CA-led Balance Sheet, P and L, Cash Flow per Schedule III for BKC and Andheri firms.">
-    <link rel="canonical" href="/financial-statement-preparation-services/mumbai">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Financial Statements Mumbai 2026 | Patron Accounting">
-    <meta property="og:description" content="Financial statement preparation in Mumbai from INR 9,999 per set. CA-led Balance Sheet, P and L, Cash Flow per Schedule III for BKC and Andheri firms.">
-    <meta property="og:url" content="/financial-statement-preparation-services/mumbai">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Financial Statements Mumbai 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Financial statement preparation in Mumbai from INR 9,999 per set. CA-led Balance Sheet, P and L, Cash Flow per Schedule III for BKC and Andheri firms.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/financial-statement-preparation-services/mumbai#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Financial Statement Preparation Services",
-          "item": "https://www.patronaccounting.com/financial-statement-preparation-services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Financial Statement Preparation Services in Mumbai",
-          "item": "https://www.patronaccounting.com/financial-statement-preparation-services/mumbai"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/financial-statement-preparation-services/mumbai#faq",
-      "datePublished": "2026-06-23T08:00:00+05:30",
-      "dateModified": "2026-06-23T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What does financial statement preparation include for a Mumbai business?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A Mumbai set runs to four reports - the Balance Sheet, Profit and Loss, Cash Flow, and Notes to Accounts - presented in the Schedule III format of the Companies Act 2013. Patron applies the AS or Ind AS treatment that suits your entity, so a BKC finance firm or an Andheri studio gets a set ready for lenders, investors, and RoC."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does financial statement preparation cost in Mumbai?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patron Accounting charges Starting from INR 9,999/set (Exl GST and Govt. Charges). The final fee depends on transaction volume, whether AS or Ind AS applies, the number of schedules, and turnaround needed. BKC finance teams and Andheri SaaS firms receive a fixed quote before work begins."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Are unaudited financial statements valid for banks in Mumbai?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "They are. For working capital, OD, and term-loan reviews, banks and NBFCs commonly accept provisional or unaudited accounts drawn by a professional. Patron builds them to Schedule III with management certification - the form that corporate credit desks at BKC and Lower Parel branches rely on when appraising a Mumbai file."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does Maharashtra profession tax show up in my Mumbai financials?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Mumbai entities fall under Maharashtra's PTRC and PTEC, so professional tax deducted from salaries and the employer's own PTEC sit in the Notes and any unpaid amount appears as a current liability. Patron captures these alongside the usual TDS and GST disclosures, and separately confirms whether AS or Ind AS governs your entity."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is a Cash Flow statement compulsory for my Mumbai company?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "For most, yes. The Companies Act 2013 makes the Cash Flow statement part of the financials, sparing only One Person Companies, small companies, and dormant companies. Where your Mumbai entity needs one - for an RoC filing or a lender - Patron prepares it on the indirect method in line with AS 3 or Ind AS 7."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which documents are needed to prepare financial statements in Mumbai?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Hand over your trial balance or accounting file, every bank statement, GST returns, the fixed asset register, loan schedules, and last year's accounts. From these Patron builds the Balance Sheet, Profit and Loss, Cash Flow, and Notes to Accounts. If anything is short - such as warehouse stock records for a Bhiwandi unit - we flag it before closing the set."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does it take to prepare financial statements in Mumbai?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "For a Mumbai SME with clean books, a complete Schedule III set takes 3 to 7 working days. If the books need reconciliation first or Ind AS adjustments apply, it can take 2 to 3 weeks. Bhiwandi warehousing units with inventory and multiple GSTINs sit at the longer end of this range."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can you prepare financial statements for RoC and MCA filing in Mumbai?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Certainly. Patron draws up Schedule III statements with the Notes to Accounts and disclosures that AOC-4 and MGT-7 require for filing through RoC Mumbai under the MCA. We set the format up so your statutory auditor and company secretary close the annual return without any rework."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/financial-statement-preparation-services/mumbai#service",
-      "name": "Financial Statement Preparation Services in Mumbai",
-      "description": "Financial statement preparation in Mumbai covers the Balance Sheet, Profit and Loss, Cash Flow, and Notes to Accounts under Schedule III of the Companies Act 2013 and applicable AS or Ind AS. Patron Accounting prepares unaudited financials for SMEs in BKC, Andheri, and Powai for banks, investors, and RoC filing.",
-      "serviceType": "Financial Statement Preparation",
-      "url": "https://www.patronaccounting.com/financial-statement-preparation-services/mumbai",
-      "areaServed": {
-        "@type": "City",
-        "name": "Mumbai",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Maharashtra"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#localbusiness-mumbai"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Financial statement",
-          "sameAs": "https://en.wikipedia.org/wiki/Financial_statement"
-        },
-        {
-          "@type": "Thing",
-          "name": "Balance sheet",
-          "sameAs": "https://en.wikipedia.org/wiki/Balance_sheet"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Financial Statement Preparation Plans in Mumbai",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "price": "9999",
-            "priceSpecification": {
-              "@type": "UnitPriceSpecification",
-              "priceCurrency": "INR",
-              "price": "9999",
-              "unitText": "per set"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Financial Statement Set per Year"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness-mumbai",
-      "name": "Patron Accounting LLP - Mumbai",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/financial-statement-preparation-services/mumbai",
-      "telephone": "+91-9699936369",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Mumbai"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Mumbai",
-        "addressRegion": "Maharashtra",
-        "postalCode": "400020",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -815,7 +612,217 @@
         .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
 
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>Financial Statements Mumbai 2026 | Patron Accounting</title>
+    <meta name="description" content="Financial statement preparation in Mumbai from INR 9,999 per set. CA-led Balance Sheet, P and L, Cash Flow per Schedule III for BKC and Andheri firms.">
+    <link rel="canonical" href="/financial-statement-preparation-services/mumbai">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Financial Statements Mumbai 2026 | Patron Accounting">
+    <meta property="og:description" content="Financial statement preparation in Mumbai from INR 9,999 per set. CA-led Balance Sheet, P and L, Cash Flow per Schedule III for BKC and Andheri firms.">
+    <meta property="og:url" content="/financial-statement-preparation-services/mumbai">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Financial Statements Mumbai 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Financial statement preparation in Mumbai from INR 9,999 per set. CA-led Balance Sheet, P and L, Cash Flow per Schedule III for BKC and Andheri firms.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/financial-statement-preparation-services/mumbai#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Financial Statement Preparation Services",
+          "item": "https://www.patronaccounting.com/financial-statement-preparation-services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Financial Statement Preparation Services in Mumbai",
+          "item": "https://www.patronaccounting.com/financial-statement-preparation-services/mumbai"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/financial-statement-preparation-services/mumbai#faq",
+      "datePublished": "2026-06-23T08:00:00+05:30",
+      "dateModified": "2026-06-23T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does financial statement preparation include for a Mumbai business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Mumbai set runs to four reports - the Balance Sheet, Profit and Loss, Cash Flow, and Notes to Accounts - presented in the Schedule III format of the Companies Act 2013. Patron applies the AS or Ind AS treatment that suits your entity, so a BKC finance firm or an Andheri studio gets a set ready for lenders, investors, and RoC."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does financial statement preparation cost in Mumbai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patron Accounting charges Starting from INR 9,999/set (Exl GST and Govt. Charges). The final fee depends on transaction volume, whether AS or Ind AS applies, the number of schedules, and turnaround needed. BKC finance teams and Andheri SaaS firms receive a fixed quote before work begins."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are unaudited financial statements valid for banks in Mumbai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "They are. For working capital, OD, and term-loan reviews, banks and NBFCs commonly accept provisional or unaudited accounts drawn by a professional. Patron builds them to Schedule III with management certification - the form that corporate credit desks at BKC and Lower Parel branches rely on when appraising a Mumbai file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Maharashtra profession tax show up in my Mumbai financials?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Mumbai entities fall under Maharashtra's PTRC and PTEC, so professional tax deducted from salaries and the employer's own PTEC sit in the Notes and any unpaid amount appears as a current liability. Patron captures these alongside the usual TDS and GST disclosures, and separately confirms whether AS or Ind AS governs your entity."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is a Cash Flow statement compulsory for my Mumbai company?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For most, yes. The Companies Act 2013 makes the Cash Flow statement part of the financials, sparing only One Person Companies, small companies, and dormant companies. Where your Mumbai entity needs one - for an RoC filing or a lender - Patron prepares it on the indirect method in line with AS 3 or Ind AS 7."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which documents are needed to prepare financial statements in Mumbai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hand over your trial balance or accounting file, every bank statement, GST returns, the fixed asset register, loan schedules, and last year's accounts. From these Patron builds the Balance Sheet, Profit and Loss, Cash Flow, and Notes to Accounts. If anything is short - such as warehouse stock records for a Bhiwandi unit - we flag it before closing the set."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to prepare financial statements in Mumbai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For a Mumbai SME with clean books, a complete Schedule III set takes 3 to 7 working days. If the books need reconciliation first or Ind AS adjustments apply, it can take 2 to 3 weeks. Bhiwandi warehousing units with inventory and multiple GSTINs sit at the longer end of this range."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you prepare financial statements for RoC and MCA filing in Mumbai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Certainly. Patron draws up Schedule III statements with the Notes to Accounts and disclosures that AOC-4 and MGT-7 require for filing through RoC Mumbai under the MCA. We set the format up so your statutory auditor and company secretary close the annual return without any rework."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/financial-statement-preparation-services/mumbai#service",
+      "name": "Financial Statement Preparation Services in Mumbai",
+      "description": "Financial statement preparation in Mumbai covers the Balance Sheet, Profit and Loss, Cash Flow, and Notes to Accounts under Schedule III of the Companies Act 2013 and applicable AS or Ind AS. Patron Accounting prepares unaudited financials for SMEs in BKC, Andheri, and Powai for banks, investors, and RoC filing.",
+      "serviceType": "Financial Statement Preparation",
+      "url": "https://www.patronaccounting.com/financial-statement-preparation-services/mumbai",
+      "areaServed": {
+        "@type": "City",
+        "name": "Mumbai",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Maharashtra"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#localbusiness-mumbai"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Financial statement",
+          "sameAs": "https://en.wikipedia.org/wiki/Financial_statement"
+        },
+        {
+          "@type": "Thing",
+          "name": "Balance sheet",
+          "sameAs": "https://en.wikipedia.org/wiki/Balance_sheet"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Financial Statement Preparation Plans in Mumbai",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "price": "9999",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "INR",
+              "price": "9999",
+              "unitText": "per set"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Financial Statement Set per Year"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness-mumbai",
+      "name": "Patron Accounting LLP - Mumbai",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/financial-statement-preparation-services/mumbai",
+      "telephone": "+91-9699936369",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Mumbai"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Mumbai",
+        "addressRegion": "Maharashtra",
+        "postalCode": "400020",
+        "addressCountry": "IN"
+      },
+      "parentOrganization": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1566,7 +1573,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

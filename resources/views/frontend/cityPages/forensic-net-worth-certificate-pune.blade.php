@@ -1,143 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Forensic Net Worth Certificate by CA 2026 | Patron Accounting</title>
-    <meta name="description" content="CA forensic net worth certificate in Pune for divorce, inheritance, and asset disputes. Court-ready, investigated, UDIN-verified. From INR 2,499.">
-    <link rel="canonical" href="/forensic-net-worth-certificate/pune">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Forensic Net Worth Certificate by CA 2026 | Patron Accounting">
-    <meta property="og:description" content="CA forensic net worth certificate in Pune for divorce, inheritance, and asset disputes. Court-ready, investigated, UDIN-verified. From INR 2,499.">
-    <meta property="og:url" content="/forensic-net-worth-certificate/pune">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Forensic Net Worth Certificate by CA 2026 | Patron Accounting">
-    <meta name="twitter:description" content="CA forensic net worth certificate in Pune for divorce, inheritance, and asset disputes. Court-ready, investigated, UDIN-verified. From INR 2,499.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/forensic-net-worth-certificate/pune/#service",
-        "name": "Forensic Net Worth Certificate in Pune",
-        "description": "CA forensic net worth certificate in Pune, a net worth statement built on independent investigation that traces and verifies assets and liabilities, identifies undisclosed or undervalued holdings, and is structured as court-ready evidence for divorce, inheritance, and asset disputes, issued under the Chartered Accountants Act with a mandatory 18-digit UDIN.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/forensic-net-worth-certificate/pune" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Forensic accounting", "sameAs": "https://en.wikipedia.org/wiki/Forensic_accounting" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Forensic Net Worth Certificate Service Plans",
-            "itemListElement": [
-                { "@type": "Offer", "name": "Forensic Net Worth Certificate", "price": "2499", "priceCurrency": "INR", "description": "Starting from INR 2,499 (Exl GST and Govt. Charges), scaling with the depth of investigation" }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/forensic-net-worth-certificate/pune/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
-            { "@type": "ListItem", "position": 3, "name": "Forensic Net Worth Certificate", "item": "https://www.patronaccounting.com/forensic-net-worth-certificate/pune" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/forensic-net-worth-certificate/pune/#faq",
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "mainEntity": [
-            { "@type": "Question", "name": "What is a forensic net worth certificate?", "acceptedAnswer": { "@type": "Answer", "text": "It is a net worth certificate prepared by a Chartered Accountant on the basis of forensic verification, meaning the CA independently examines, traces, and corroborates the assets and liabilities rather than certifying figures the party simply declares. It is designed to be suitable for use in a court of law, documented to withstand challenge in disputes such as divorce, inheritance, or business matters, and carries a mandatory 18-digit UDIN." } },
-{ "@type": "Question", "name": "How is it different from a standard net worth certificate?", "acceptedAnswer": { "@type": "Answer", "text": "A standard net worth certificate computes total assets minus total liabilities on a date from the information the client provides, and is used for visas, loans, and tenders. A forensic net worth certificate adds an investigative layer: the CA traces transactions, reconciles records, examines business interests, and looks for undisclosed or undervalued assets. The forensic version is built as court-ready evidence, while the standard version is built for acceptance by an institution." } },
-{ "@type": "Question", "name": "When is a forensic net worth certificate needed?", "acceptedAnswer": { "@type": "Answer", "text": "It is needed in contested situations where a person\u0027s true financial position matters and may be disputed, such as a divorce or matrimonial settlement, an inheritance or succession dispute, or a partnership or family business dispute. It is also used where a party suspects undisclosed or undervalued assets and needs them traced and documented, or where a court, mediator, or counsel requires net worth evidence that can withstand challenge." } },
-{ "@type": "Question", "name": "Can a forensic net worth certificate uncover hidden assets?", "acceptedAnswer": { "@type": "Answer", "text": "A forensic engagement is designed to surface assets that have not been voluntarily declared, by tracing transactions across bank, investment, and property records, separating commingled funds, and examining closely held business interests. While no engagement can guarantee discovery of everything, the investigative approach and documented methodology give a far more reliable picture than declared figures alone, and the findings are recorded so they can be relied upon in a proceeding." } },
-{ "@type": "Question", "name": "Who can issue a forensic net worth certificate?", "acceptedAnswer": { "@type": "Answer", "text": "Only a practising Chartered Accountant with a valid Certificate of Practice can issue a net worth certificate in India, and it must carry an 18-digit UDIN. For a forensic version, the CA applies investigative and audit-evidence standards and documents the verification so the certificate is suitable for use in court. Self-declared statements have no standing in disputes, which is why an independently verified, UDIN-backed certificate is essential." } },
-{ "@type": "Question", "name": "How does Patron Accounting handle it in Pune?", "acceptedAnswer": { "@type": "Answer", "text": "We begin by understanding the dispute and what the court or counsel needs, then collect and trace the financial records, reconcile bank, investment, and property holdings, and examine business interests for undisclosed or undervalued assets. We compute the investigated net worth, document the basis and findings, and issue the certificate with a UDIN, structured for the proceeding. We treat every engagement confidentially and work with individuals and counsel in-person and remotely." } }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/forensic-net-worth-certificate/pune",
-        "name": "Forensic Net Worth Certificate in Pune",
-        "description": "CA forensic net worth certificate in Pune for divorce, inheritance, and asset disputes. Court-ready, investigated, UDIN-verified. From INR 2,499.",
-        "url": "https://www.patronaccounting.com/forensic-net-worth-certificate/pune",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/forensic-net-worth-certificate/pune/#service" },
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/forensic-net-worth-certificate/pune/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How a Forensic Net Worth Certificate Is Prepared",
-        "description": "The step-by-step process Patron Accounting follows to investigate, verify, and certify net worth as court-ready evidence in Pune.",
-        "totalTime": "P7D",
-        "step": [
-            { "@type": "HowToStep", "position": 1, "name": "Understand the dispute", "text": "Understand the dispute, the parties, and what the court or counsel requires." },
-{ "@type": "HowToStep", "position": 2, "name": "Collect records", "text": "Collect financial records, bank and investment statements, and property and business papers." },
-{ "@type": "HowToStep", "position": 3, "name": "Trace and reconcile", "text": "Trace and reconcile transactions, applying SA 500 (Audit Evidence) and SA 505 (External Confirmations)." },
-{ "@type": "HowToStep", "position": 4, "name": "Examine for hidden assets", "text": "Examine for undisclosed, undervalued, or commingled assets and value business interests." },
-{ "@type": "HowToStep", "position": 5, "name": "Compute investigated net worth", "text": "Compute the investigated net worth and document the basis and findings." },
-{ "@type": "HowToStep", "position": 6, "name": "Issue with UDIN", "text": "Issue the certificate with the verification statement and 18-digit UDIN, ready for the proceeding." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Forensic Net Worth Certificate Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Forensic net worth certificate", "description": "An investigated, court-grade net worth statement prepared by a CA on the basis of independent verification rather than declared figures." },
-{ "@type": "DefinedTerm", "name": "Asset tracing", "description": "Following transactions across bank, investment, and property records to surface undisclosed or commingled holdings." },
-{ "@type": "DefinedTerm", "name": "UDIN", "description": "The 18-digit Unique Document Identification Number that authenticates a certificate issued by a practising Chartered Accountant." },
-{ "@type": "DefinedTerm", "name": "SA 500 and SA 505", "description": "Standards on Auditing governing audit evidence and external confirmations that underpin the forensic verification." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -751,7 +618,145 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Forensic Net Worth Certificate by CA 2026 | Patron Accounting</title>
+    <meta name="description" content="CA forensic net worth certificate in Pune for divorce, inheritance, and asset disputes. Court-ready, investigated, UDIN-verified. From INR 2,499.">
+    <link rel="canonical" href="/forensic-net-worth-certificate/pune">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Forensic Net Worth Certificate by CA 2026 | Patron Accounting">
+    <meta property="og:description" content="CA forensic net worth certificate in Pune for divorce, inheritance, and asset disputes. Court-ready, investigated, UDIN-verified. From INR 2,499.">
+    <meta property="og:url" content="/forensic-net-worth-certificate/pune">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Forensic Net Worth Certificate by CA 2026 | Patron Accounting">
+    <meta name="twitter:description" content="CA forensic net worth certificate in Pune for divorce, inheritance, and asset disputes. Court-ready, investigated, UDIN-verified. From INR 2,499.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/forensic-net-worth-certificate/pune/#service",
+        "name": "Forensic Net Worth Certificate in Pune",
+        "description": "CA forensic net worth certificate in Pune, a net worth statement built on independent investigation that traces and verifies assets and liabilities, identifies undisclosed or undervalued holdings, and is structured as court-ready evidence for divorce, inheritance, and asset disputes, issued under the Chartered Accountants Act with a mandatory 18-digit UDIN.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/forensic-net-worth-certificate/pune" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Forensic accounting", "sameAs": "https://en.wikipedia.org/wiki/Forensic_accounting" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Forensic Net Worth Certificate Service Plans",
+            "itemListElement": [
+                { "@type": "Offer", "name": "Forensic Net Worth Certificate", "price": "2499", "priceCurrency": "INR", "description": "Starting from INR 2,499 (Exl GST and Govt. Charges), scaling with the depth of investigation" }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/forensic-net-worth-certificate/pune/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
+            { "@type": "ListItem", "position": 3, "name": "Forensic Net Worth Certificate", "item": "https://www.patronaccounting.com/forensic-net-worth-certificate/pune" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/forensic-net-worth-certificate/pune/#faq",
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "mainEntity": [
+            { "@type": "Question", "name": "What is a forensic net worth certificate?", "acceptedAnswer": { "@type": "Answer", "text": "It is a net worth certificate prepared by a Chartered Accountant on the basis of forensic verification, meaning the CA independently examines, traces, and corroborates the assets and liabilities rather than certifying figures the party simply declares. It is designed to be suitable for use in a court of law, documented to withstand challenge in disputes such as divorce, inheritance, or business matters, and carries a mandatory 18-digit UDIN." } },
+{ "@type": "Question", "name": "How is it different from a standard net worth certificate?", "acceptedAnswer": { "@type": "Answer", "text": "A standard net worth certificate computes total assets minus total liabilities on a date from the information the client provides, and is used for visas, loans, and tenders. A forensic net worth certificate adds an investigative layer: the CA traces transactions, reconciles records, examines business interests, and looks for undisclosed or undervalued assets. The forensic version is built as court-ready evidence, while the standard version is built for acceptance by an institution." } },
+{ "@type": "Question", "name": "When is a forensic net worth certificate needed?", "acceptedAnswer": { "@type": "Answer", "text": "It is needed in contested situations where a person\u0027s true financial position matters and may be disputed, such as a divorce or matrimonial settlement, an inheritance or succession dispute, or a partnership or family business dispute. It is also used where a party suspects undisclosed or undervalued assets and needs them traced and documented, or where a court, mediator, or counsel requires net worth evidence that can withstand challenge." } },
+{ "@type": "Question", "name": "Can a forensic net worth certificate uncover hidden assets?", "acceptedAnswer": { "@type": "Answer", "text": "A forensic engagement is designed to surface assets that have not been voluntarily declared, by tracing transactions across bank, investment, and property records, separating commingled funds, and examining closely held business interests. While no engagement can guarantee discovery of everything, the investigative approach and documented methodology give a far more reliable picture than declared figures alone, and the findings are recorded so they can be relied upon in a proceeding." } },
+{ "@type": "Question", "name": "Who can issue a forensic net worth certificate?", "acceptedAnswer": { "@type": "Answer", "text": "Only a practising Chartered Accountant with a valid Certificate of Practice can issue a net worth certificate in India, and it must carry an 18-digit UDIN. For a forensic version, the CA applies investigative and audit-evidence standards and documents the verification so the certificate is suitable for use in court. Self-declared statements have no standing in disputes, which is why an independently verified, UDIN-backed certificate is essential." } },
+{ "@type": "Question", "name": "How does Patron Accounting handle it in Pune?", "acceptedAnswer": { "@type": "Answer", "text": "We begin by understanding the dispute and what the court or counsel needs, then collect and trace the financial records, reconcile bank, investment, and property holdings, and examine business interests for undisclosed or undervalued assets. We compute the investigated net worth, document the basis and findings, and issue the certificate with a UDIN, structured for the proceeding. We treat every engagement confidentially and work with individuals and counsel in-person and remotely." } }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/forensic-net-worth-certificate/pune",
+        "name": "Forensic Net Worth Certificate in Pune",
+        "description": "CA forensic net worth certificate in Pune for divorce, inheritance, and asset disputes. Court-ready, investigated, UDIN-verified. From INR 2,499.",
+        "url": "https://www.patronaccounting.com/forensic-net-worth-certificate/pune",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/forensic-net-worth-certificate/pune/#service" },
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/forensic-net-worth-certificate/pune/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How a Forensic Net Worth Certificate Is Prepared",
+        "description": "The step-by-step process Patron Accounting follows to investigate, verify, and certify net worth as court-ready evidence in Pune.",
+        "totalTime": "P7D",
+        "step": [
+            { "@type": "HowToStep", "position": 1, "name": "Understand the dispute", "text": "Understand the dispute, the parties, and what the court or counsel requires." },
+{ "@type": "HowToStep", "position": 2, "name": "Collect records", "text": "Collect financial records, bank and investment statements, and property and business papers." },
+{ "@type": "HowToStep", "position": 3, "name": "Trace and reconcile", "text": "Trace and reconcile transactions, applying SA 500 (Audit Evidence) and SA 505 (External Confirmations)." },
+{ "@type": "HowToStep", "position": 4, "name": "Examine for hidden assets", "text": "Examine for undisclosed, undervalued, or commingled assets and value business interests." },
+{ "@type": "HowToStep", "position": 5, "name": "Compute investigated net worth", "text": "Compute the investigated net worth and document the basis and findings." },
+{ "@type": "HowToStep", "position": 6, "name": "Issue with UDIN", "text": "Issue the certificate with the verification statement and 18-digit UDIN, ready for the proceeding." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Forensic Net Worth Certificate Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Forensic net worth certificate", "description": "An investigated, court-grade net worth statement prepared by a CA on the basis of independent verification rather than declared figures." },
+{ "@type": "DefinedTerm", "name": "Asset tracing", "description": "Following transactions across bank, investment, and property records to surface undisclosed or commingled holdings." },
+{ "@type": "DefinedTerm", "name": "UDIN", "description": "The 18-digit Unique Document Identification Number that authenticates a certificate issued by a practising Chartered Accountant." },
+{ "@type": "DefinedTerm", "name": "SA 500 and SA 505", "description": "Standards on Auditing governing audit evidence and external confirmations that underpin the forensic verification." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1542,17 +1547,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1575,8 +1573,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1613,7 +1609,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1624,3 +1619,19 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

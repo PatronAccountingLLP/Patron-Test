@@ -1,174 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Stock Statement Certificate for CC and OD in Mumbai 2026 | Patron Accounting</title>
-    <meta name="description" content="Stock Statement Certificate for CC and OD borrowers. CA-prepared with drawing power computation, submitted monthly to protect your limit. From INR 1,999/mo.">
-    <link rel="canonical" href="/stock-statement-certificate/mumbai">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Stock Statement Certificate for CC and OD 2026 | Patron Accounting">
-    <meta property="og:description" content="Stock Statement Certificate for CC and OD borrowers. CA-prepared with drawing power computation, submitted monthly to protect your limit. From INR 1,999/mo.">
-    <meta property="og:url" content="/stock-statement-certificate/mumbai">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Stock Statement Certificate for CC and OD 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Stock Statement Certificate for CC and OD borrowers. CA-prepared with drawing power computation, submitted monthly to protect your limit. From INR 1,999/mo.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/stock-statement-certificate/mumbai/#service",
-        "name": "Stock Statement Certificate in Mumbai",
-        "description": "Monthly stock and book-debt statement prepared and certified by a Chartered Accountant for cash credit and overdraft borrowers, with drawing power computed on paid stock and eligible debtors after margins, filed in the bank's prescribed format with a mandatory 18-digit UDIN.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/stock-statement-certificate/mumbai" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Drawing power", "sameAs": "https://en.wikipedia.org/wiki/Cash_credit" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Stock Statement Certificate Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": { "@type": "Service", "name": "Monthly stock statement and drawing power certificate" },
-                    "priceCurrency": "INR",
-                    "price": "1999",
-                    "description": "Starting from INR 1,999 per month (excl. GST and govt. charges)"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/stock-statement-certificate/mumbai/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Statutory Audit", "item": "https://www.patronaccounting.com/statutory-audit" },
-            { "@type": "ListItem", "position": 3, "name": "Stock Statement Certificate", "item": "https://www.patronaccounting.com/stock-statement-certificate/mumbai" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/stock-statement-certificate/mumbai/#faq",
-        "datePublished": "2026-06-09T08:00:00+05:30",
-        "dateModified": "2026-06-09T08:00:00+05:30",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "How often must a stock statement be submitted?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Monthly for most CC and OD limits, especially above Rs 1 crore, and quarterly for smaller limits. The exact frequency is set in your sanction letter, and it is usually due within about 15 days of month-end. Always check your sanction terms." }
-            },
-            {
-                "@type": "Question",
-                "name": "How is drawing power calculated?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Drawing power equals eligible paid stock times one hundred percent minus the stock margin, plus eligible debtors times one hundred percent minus the debtor margin. Paid stock is total closing stock less creditors for stock purchases. Margins and the debtor cover period come from the sanction letter." }
-            },
-            {
-                "@type": "Question",
-                "name": "What happens if I submit the stock statement late or not at all?",
-                "acceptedAnswer": { "@type": "Answer", "text": "The bank can freeze or reduce drawing power, charge penal interest, and classify the account as irregular. If the outstanding exceeds the last computed drawing power for 90 days, the account can be classified as a non-performing asset." }
-            },
-            {
-                "@type": "Question",
-                "name": "What is paid stock?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Paid stock is total closing stock minus creditors for stock purchases, that is the stock you have actually paid for. Banks compute drawing power on paid stock so their charge covers only stock the borrower owns free of unpaid supplier dues." }
-            },
-            {
-                "@type": "Question",
-                "name": "Is a stock statement the same as a stock audit?",
-                "acceptedAnswer": { "@type": "Answer", "text": "No. The stock statement is submitted by the borrower, usually monthly, to compute drawing power. A stock audit is conducted by an auditor the bank appoints, periodically, to verify stock and the security. They serve different purposes." }
-            },
-            {
-                "@type": "Question",
-                "name": "Who can certify the stock statement?",
-                "acceptedAnswer": { "@type": "Answer", "text": "A practising Chartered Accountant registered with ICAI, holding a valid Certificate of Practice. The certificate carries the CA's seal, firm registration number, and an 18-digit UDIN that the bank can verify online." }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/stock-statement-certificate/mumbai",
-        "name": "Stock Statement Certificate in Mumbai",
-        "description": "Stock Statement Certificate for CC and OD borrowers. CA-prepared with drawing power computation, submitted monthly to protect your limit. From INR 1,999/mo.",
-        "url": "https://www.patronaccounting.com/stock-statement-certificate/mumbai",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/stock-statement-certificate/mumbai/#service" },
-        "datePublished": "2026-06-09T08:00:00+05:30",
-        "dateModified": "2026-06-09T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/stock-statement-certificate/mumbai/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How a Monthly Stock Statement Is Prepared and Certified",
-        "description": "The recurring monthly process for a CC or OD borrower: gather month-end stock and debtor data, compute paid stock, apply sanction-letter margins, compute drawing power, certify with UDIN, and file within the bank's window.",
-        "totalTime": "P2D",
-        "step": [
-            { "@type": "HowToStep", "name": "Gather month-end data", "text": "Collect category-wise stock, debtor ageing, and creditors for stock purchases as on month-end." },
-            { "@type": "HowToStep", "name": "Compute paid stock", "text": "Total closing stock less creditors for stock purchases gives the paid stock the bank uses." },
-            { "@type": "HowToStep", "name": "Apply margins", "text": "Apply the sanctioned stock and debtor margins and the debtor cover period." },
-            { "@type": "HowToStep", "name": "Compute drawing power", "text": "Drawing power is computed on eligible paid stock and eligible debtors after margins." },
-            { "@type": "HowToStep", "name": "Certify with UDIN", "text": "The statement is certified in the bank's format with an 18-digit UDIN where required." },
-            { "@type": "HowToStep", "name": "File on time", "text": "The statement is filed within the sanction-letter window, typically about 15 days from month-end." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Stock Statement Certificate Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Drawing Power (DP)", "description": "The amount actually available to draw, computed from eligible stock and debtors after margins." },
-            { "@type": "DefinedTerm", "name": "Paid stock", "description": "Total closing stock minus creditors for stock purchases; banks compute DP on this." },
-            { "@type": "DefinedTerm", "name": "Margin", "description": "The percentage the bank deducts from stock and debtor values, set in the sanction letter." },
-            { "@type": "DefinedTerm", "name": "Book debts", "description": "Eligible receivables, usually within a cover period, included in the DP calculation." },
-            { "@type": "DefinedTerm", "name": "CC / OD", "description": "Cash credit and overdraft working-capital limits secured against current assets." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -782,7 +618,176 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Stock Statement Certificate for CC and OD in Mumbai 2026 | Patron Accounting</title>
+    <meta name="description" content="Stock Statement Certificate for CC and OD borrowers. CA-prepared with drawing power computation, submitted monthly to protect your limit. From INR 1,999/mo.">
+    <link rel="canonical" href="/stock-statement-certificate/mumbai">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Stock Statement Certificate for CC and OD 2026 | Patron Accounting">
+    <meta property="og:description" content="Stock Statement Certificate for CC and OD borrowers. CA-prepared with drawing power computation, submitted monthly to protect your limit. From INR 1,999/mo.">
+    <meta property="og:url" content="/stock-statement-certificate/mumbai">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Stock Statement Certificate for CC and OD 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Stock Statement Certificate for CC and OD borrowers. CA-prepared with drawing power computation, submitted monthly to protect your limit. From INR 1,999/mo.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/stock-statement-certificate/mumbai/#service",
+        "name": "Stock Statement Certificate in Mumbai",
+        "description": "Monthly stock and book-debt statement prepared and certified by a Chartered Accountant for cash credit and overdraft borrowers, with drawing power computed on paid stock and eligible debtors after margins, filed in the bank's prescribed format with a mandatory 18-digit UDIN.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/stock-statement-certificate/mumbai" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Drawing power", "sameAs": "https://en.wikipedia.org/wiki/Cash_credit" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Stock Statement Certificate Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": { "@type": "Service", "name": "Monthly stock statement and drawing power certificate" },
+                    "priceCurrency": "INR",
+                    "price": "1999",
+                    "description": "Starting from INR 1,999 per month (excl. GST and govt. charges)"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/stock-statement-certificate/mumbai/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Statutory Audit", "item": "https://www.patronaccounting.com/statutory-audit" },
+            { "@type": "ListItem", "position": 3, "name": "Stock Statement Certificate", "item": "https://www.patronaccounting.com/stock-statement-certificate/mumbai" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/stock-statement-certificate/mumbai/#faq",
+        "datePublished": "2026-06-09T08:00:00+05:30",
+        "dateModified": "2026-06-09T08:00:00+05:30",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "How often must a stock statement be submitted?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Monthly for most CC and OD limits, especially above Rs 1 crore, and quarterly for smaller limits. The exact frequency is set in your sanction letter, and it is usually due within about 15 days of month-end. Always check your sanction terms." }
+            },
+            {
+                "@type": "Question",
+                "name": "How is drawing power calculated?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Drawing power equals eligible paid stock times one hundred percent minus the stock margin, plus eligible debtors times one hundred percent minus the debtor margin. Paid stock is total closing stock less creditors for stock purchases. Margins and the debtor cover period come from the sanction letter." }
+            },
+            {
+                "@type": "Question",
+                "name": "What happens if I submit the stock statement late or not at all?",
+                "acceptedAnswer": { "@type": "Answer", "text": "The bank can freeze or reduce drawing power, charge penal interest, and classify the account as irregular. If the outstanding exceeds the last computed drawing power for 90 days, the account can be classified as a non-performing asset." }
+            },
+            {
+                "@type": "Question",
+                "name": "What is paid stock?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Paid stock is total closing stock minus creditors for stock purchases, that is the stock you have actually paid for. Banks compute drawing power on paid stock so their charge covers only stock the borrower owns free of unpaid supplier dues." }
+            },
+            {
+                "@type": "Question",
+                "name": "Is a stock statement the same as a stock audit?",
+                "acceptedAnswer": { "@type": "Answer", "text": "No. The stock statement is submitted by the borrower, usually monthly, to compute drawing power. A stock audit is conducted by an auditor the bank appoints, periodically, to verify stock and the security. They serve different purposes." }
+            },
+            {
+                "@type": "Question",
+                "name": "Who can certify the stock statement?",
+                "acceptedAnswer": { "@type": "Answer", "text": "A practising Chartered Accountant registered with ICAI, holding a valid Certificate of Practice. The certificate carries the CA's seal, firm registration number, and an 18-digit UDIN that the bank can verify online." }
+            }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/stock-statement-certificate/mumbai",
+        "name": "Stock Statement Certificate in Mumbai",
+        "description": "Stock Statement Certificate for CC and OD borrowers. CA-prepared with drawing power computation, submitted monthly to protect your limit. From INR 1,999/mo.",
+        "url": "https://www.patronaccounting.com/stock-statement-certificate/mumbai",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/stock-statement-certificate/mumbai/#service" },
+        "datePublished": "2026-06-09T08:00:00+05:30",
+        "dateModified": "2026-06-09T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/stock-statement-certificate/mumbai/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How a Monthly Stock Statement Is Prepared and Certified",
+        "description": "The recurring monthly process for a CC or OD borrower: gather month-end stock and debtor data, compute paid stock, apply sanction-letter margins, compute drawing power, certify with UDIN, and file within the bank's window.",
+        "totalTime": "P2D",
+        "step": [
+            { "@type": "HowToStep", "name": "Gather month-end data", "text": "Collect category-wise stock, debtor ageing, and creditors for stock purchases as on month-end." },
+            { "@type": "HowToStep", "name": "Compute paid stock", "text": "Total closing stock less creditors for stock purchases gives the paid stock the bank uses." },
+            { "@type": "HowToStep", "name": "Apply margins", "text": "Apply the sanctioned stock and debtor margins and the debtor cover period." },
+            { "@type": "HowToStep", "name": "Compute drawing power", "text": "Drawing power is computed on eligible paid stock and eligible debtors after margins." },
+            { "@type": "HowToStep", "name": "Certify with UDIN", "text": "The statement is certified in the bank's format with an 18-digit UDIN where required." },
+            { "@type": "HowToStep", "name": "File on time", "text": "The statement is filed within the sanction-letter window, typically about 15 days from month-end." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Stock Statement Certificate Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Drawing Power (DP)", "description": "The amount actually available to draw, computed from eligible stock and debtors after margins." },
+            { "@type": "DefinedTerm", "name": "Paid stock", "description": "Total closing stock minus creditors for stock purchases; banks compute DP on this." },
+            { "@type": "DefinedTerm", "name": "Margin", "description": "The percentage the bank deducts from stock and debtor values, set in the sanction letter." },
+            { "@type": "DefinedTerm", "name": "Book debts", "description": "Eligible receivables, usually within a cover period, included in the DP calculation." },
+            { "@type": "DefinedTerm", "name": "CC / OD", "description": "Cash credit and overdraft working-capital limits secured against current assets." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1626,17 +1631,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1659,8 +1657,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1697,7 +1693,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1 (Schema Standard v2.1 / Rule 36): visible "Last Updated" mirrors schema dateModified
 // (9 June 2026) as a STABLE value - never live new Date().
@@ -1709,3 +1704,19 @@ window.addEventListener('scroll', function() {
     if (el2) el2.textContent = dateStr;
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

@@ -1,161 +1,12 @@
 
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>FSSAI License Renewal Gurugram - Process, Fees & Expiry</title>
-    <meta name="description" content="FSSAI license renewal in Gurugram. Avoid Rs 100/day penalty. New perpetual validity from April 2026. Annual returns. FoSCoS. Call +91 945 945 6700.">
-    <link rel="canonical" href="/fssai-renewal/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="FSSAI License Renewal Gurugram - Process, Fees & Expiry">
-    <meta property="og:description" content="FSSAI license renewal in Gurugram. Avoid Rs 100/day penalty. New perpetual validity from April 2026. Annual returns. FoSCoS. Call +91 945 945 6700.">
-    <meta property="og:url" content="/fssai-renewal/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="FSSAI License Renewal Gurugram - Process, Fees & Expiry">
-    <meta name="twitter:description" content="FSSAI license renewal in Gurugram. Avoid Rs 100/day penalty. New perpetual validity from April 2026. Annual returns. FoSCoS. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "FSSAI Renewal in Gurugram | Perpetual Validity",
-      "description": "FSSAI license renewal in Gurugram. Avoid Rs 100/day penalty. New perpetual validity from April 2026. Annual returns. FoSCoS. Call +91 945 945 6700.",
-      "url": "https://www.patronaccounting.com/fssai-renewal/gurugram",
-      "serviceType": "FSSAI Renewal in Gurugram | Perpetual Validity",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/fssai-renewal/gurugram",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "minPrice": "100",
-          "maxPrice": "2999",
-          "priceCurrency": "INR"
-        }
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "FSSAI Renewal in India: Process, Fees and Late Penalty",
-          "item": "https://www.patronaccounting.com/fssai-renewal"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "FSSAI Renewal in Gurugram | Perpetual Validity",
-          "item": "https://www.patronaccounting.com/fssai-renewal/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "When should I renew my FSSAI license?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The renewal window opens 120 days before your license expiry date on the FoSCoS portal. You must apply at least 30 days before expiry (Basic Registration) or 60 days before expiry (State/Central License). Late renewal after expiry attracts Rs 100 per day penalty. Renewal beyond 180 days post-expiry is not permitted - a completely fresh application is required."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does FSSAI renewal cost in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Government renewal fee: Rs 100/year (Basic), Rs 2,000-5,000/year (State), Rs 7,500/year (Central). Late penalty: Rs 100 per day from expiry. Professional fee: Rs 1,999 to Rs 8,000 depending on license type. Fresh application (post-180 days): higher professional fee. Call +91 945 945 6700."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is perpetual validity and what does it change?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. Renewed License Issued: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens if my FSSAI license has already expired?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Within 180 days of expiry: late renewal is possible with Rs 100 per day penalty. You must stop food business operations until the renewed license is issued. Beyond 180 days: renewal is not possible - a completely fresh application is required. Operating with an expired license violates Section 63 of the FSS Act (fines up to Rs 5 lakh)."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do I still need to file annual returns with perpetual validity?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Annual returns on the FoSCoS portal are mandatory regardless of license type and regardless of perpetual validity. Annual returns include turnover details, product categories, food safety compliance status, and business operation changes. Non-filing of annual returns can result in license suspension even with a perpetual validity license."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I migrate from Central to State License during renewal?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. If your annual turnover is below Rs 50 crore (new threshold from April 2026), you can migrate from Central License to State License during the renewal process via self-declaration on FoSCoS. This can reduce your government fees. The license number remains the same. The migration must be actively assessed - it does not happen automatically."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What if my license expired more than 180 days ago?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Renewal is not possible. You must file a completely fresh FSSAI application as if it were a first-time application. From April 2026, the new application will receive perpetual validity. All documentation is required again. Business must cease food operations until the new license is issued. The fresh application follows the full process including inspection. Quick Answers Kab renew karna chahiye? Expiry se 120 din pehle renewal window khulta hai. 30 din pehle (Basic) ya 60 din pehle (State/Central) last date hai. Late hua toh Rs 100/din penalty. 180 din ke baad fresh application lagana padega. Perpetual validity mein renewal nahi toh kya karna hai? Annual fee bharo (nahi bhari toh license suspend). Annual return file karo FoSCoS pe. Food safety standards maintain karo. Sirf renewal form band hua hai, compliance nahi. Expired ho gaya toh kya kare? 180 din ke andar hai toh late renewal karo with Rs 100/din penalty. Food business band rakho jab tak naya license nahi aata. 180 din ke baad fresh application lagao."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -679,7 +530,161 @@ section ul li:not(.nav-item) { font-size: 14px; }
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'Join Community'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>FSSAI License Renewal Gurugram - Process, Fees & Expiry</title>
+    <meta name="description" content="FSSAI license renewal in Gurugram. Avoid Rs 100/day penalty. New perpetual validity from April 2026. Annual returns. FoSCoS. Call +91 945 945 6700.">
+    <link rel="canonical" href="/fssai-renewal/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="FSSAI License Renewal Gurugram - Process, Fees & Expiry">
+    <meta property="og:description" content="FSSAI license renewal in Gurugram. Avoid Rs 100/day penalty. New perpetual validity from April 2026. Annual returns. FoSCoS. Call +91 945 945 6700.">
+    <meta property="og:url" content="/fssai-renewal/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="FSSAI License Renewal Gurugram - Process, Fees & Expiry">
+    <meta name="twitter:description" content="FSSAI license renewal in Gurugram. Avoid Rs 100/day penalty. New perpetual validity from April 2026. Annual returns. FoSCoS. Call +91 945 945 6700.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "FSSAI Renewal in Gurugram | Perpetual Validity",
+      "description": "FSSAI license renewal in Gurugram. Avoid Rs 100/day penalty. New perpetual validity from April 2026. Annual returns. FoSCoS. Call +91 945 945 6700.",
+      "url": "https://www.patronaccounting.com/fssai-renewal/gurugram",
+      "serviceType": "FSSAI Renewal in Gurugram | Perpetual Validity",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.patronaccounting.com/fssai-renewal/gurugram",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": "100",
+          "maxPrice": "2999",
+          "priceCurrency": "INR"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "FSSAI Renewal in India: Process, Fees and Late Penalty",
+          "item": "https://www.patronaccounting.com/fssai-renewal"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "FSSAI Renewal in Gurugram | Perpetual Validity",
+          "item": "https://www.patronaccounting.com/fssai-renewal/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "When should I renew my FSSAI license?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The renewal window opens 120 days before your license expiry date on the FoSCoS portal. You must apply at least 30 days before expiry (Basic Registration) or 60 days before expiry (State/Central License). Late renewal after expiry attracts Rs 100 per day penalty. Renewal beyond 180 days post-expiry is not permitted - a completely fresh application is required."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does FSSAI renewal cost in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Government renewal fee: Rs 100/year (Basic), Rs 2,000-5,000/year (State), Rs 7,500/year (Central). Late penalty: Rs 100 per day from expiry. Professional fee: Rs 1,999 to Rs 8,000 depending on license type. Fresh application (post-180 days): higher professional fee. Call +91 945 945 6700."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is perpetual validity and what does it change?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. Renewed License Issued: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if my FSSAI license has already expired?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Within 180 days of expiry: late renewal is possible with Rs 100 per day penalty. You must stop food business operations until the renewed license is issued. Beyond 180 days: renewal is not possible - a completely fresh application is required. Operating with an expired license violates Section 63 of the FSS Act (fines up to Rs 5 lakh)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I still need to file annual returns with perpetual validity?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Annual returns on the FoSCoS portal are mandatory regardless of license type and regardless of perpetual validity. Annual returns include turnover details, product categories, food safety compliance status, and business operation changes. Non-filing of annual returns can result in license suspension even with a perpetual validity license."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I migrate from Central to State License during renewal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. If your annual turnover is below Rs 50 crore (new threshold from April 2026), you can migrate from Central License to State License during the renewal process via self-declaration on FoSCoS. This can reduce your government fees. The license number remains the same. The migration must be actively assessed - it does not happen automatically."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if my license expired more than 180 days ago?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Renewal is not possible. You must file a completely fresh FSSAI application as if it were a first-time application. From April 2026, the new application will receive perpetual validity. All documentation is required again. Business must cease food operations until the new license is issued. The fresh application follows the full process including inspection. Quick Answers Kab renew karna chahiye? Expiry se 120 din pehle renewal window khulta hai. 30 din pehle (Basic) ya 60 din pehle (State/Central) last date hai. Late hua toh Rs 100/din penalty. 180 din ke baad fresh application lagana padega. Perpetual validity mein renewal nahi toh kya karna hai? Annual fee bharo (nahi bhari toh license suspend). Annual return file karo FoSCoS pe. Food safety standards maintain karo. Sirf renewal form band hua hai, compliance nahi. Expired ho gaya toh kya kare? 180 din ke andar hai toh late renewal karo with Rs 100/din penalty. Food business band rakho jab tak naya license nahi aata. 180 din ke baad fresh application lagao."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1604,7 +1609,6 @@ var tocWrapper=document.getElementById('tocWrapper');document.getElementById('to
 
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

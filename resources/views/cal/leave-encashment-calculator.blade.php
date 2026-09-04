@@ -1,67 +1,5 @@
 @extends('layouts.app')
-@section('meta')
-    <title>Leave Encashment Calculator | Exemption u/s 10(10AA)</title>
-    <meta name="description" content="Leave encashment calculator: compute the encashment amount and tax exemption under Section 10(10AA) for government and private employees. Free, instant!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/leave-encashment-calculator">
-    <meta property="og:title" content="Leave Encashment Calculator &mdash; Tax Exemption u/s 10(10AA)">
-    <meta property="og:description" content="Calculate leave encashment and tax exemption under Section 10(10AA) for retirement.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/leave-encashment-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Leave Encashment Calculator &mdash; Tax Exemption u/s 10(10AA)">
-    <meta name="twitter:description" content="Leave encashment + tax exemption under Section 10(10AA). Govt & private. Calculate!">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-<script type="application/ld+json">
-    {
-      "@context": "https://schema.org", "@type": "WebApplication",
-      "name": "Leave Encashment Calculator",
-      "description": "Leave Encashment Calculator computes the monetary value of unused earned leave and calculates tax exemption under Section 10(10AA) of the Income Tax Act. Supports government employees with full exemption and private sector employees with the 4-factor exemption computation including the Rs 25 lakh limit. Handles both retirement encashment and during-service encashment with correct tax treatment.",
-      "url": "https://www.patronaccounting.com/tools/leave-encashment-calculator",
-      "applicationCategory": "UtilityApplication", "operatingSystem": "Any",
-      "datePublished": "2026-03-05", "dateModified": "2026-03-05",
-      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" },
-      "author": { "@type": "Person", "@id": "https://patronaccounting.com/#team", "name": "CA & CS Patron Accounting Team", "jobTitle": "Chartered Accountants & Company Secretaries", "url": "https://www.patronaccounting.com/contact-page", "sameAs": ["https://www.linkedin.com/company/patron-accounting"], "hasCredential": [{ "@type": "EducationalOccupationalCredential", "credentialCategory": "Professional Certification", "name": "Chartered Accountant (CA)", "recognizedBy": { "@type": "Organization", "name": "Institute of Chartered Accountants of India", "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India" } }] },
-      "publisher": { "@type": "Organization", "name": "Patron Accounting LLP", "url": "https://www.patronaccounting.com", "logo": { "@type": "ImageObject", "url": "https://www.patronaccounting.com/images/site-logo.svg" } },
-      "provider": { "@id": "https://patronaccounting.com/#organization" }
-    }
-    </script>
-<script type="application/ld+json">
-    { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-      {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-      {"@type": "ListItem", "position": 3, "name": "Leave Encashment Calculator", "item": "https://www.patronaccounting.com/tools/leave-encashment-calculator"}
-    ]}
-    </script>
-<script type="application/ld+json">
-    { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
-      { "@type": "Question", "name": "How is leave encashment calculated?", "acceptedAnswer": { "@type": "Answer", "text": "Leave encashment is calculated using the formula: (Basic Salary plus DA) divided by 30 multiplied by the number of unused earned leave days. For example, if Basic plus DA is Rs 40,000 per month and you have 120 unused leave days, the encashment is Rs 40,000 divided by 30 times 120 equals Rs 1,60,000. Only earned leave or privilege leave is encashable \u2014 casual leave and sick leave are generally not." } },
-      { "@type": "Question", "name": "Is leave encashment taxable in India?", "acceptedAnswer": { "@type": "Answer", "text": "It depends on when you receive it. Leave encashment received during employment is fully taxable as salary income with no exemption. Leave encashment received on retirement or resignation is partially exempt under Section 10(10AA). Government employees get 100 percent exemption. Private employees get exemption up to the least of 4 computed amounts with a maximum limit of Rs 25 lakhs lifetime." } },
-      { "@type": "Question", "name": "What is Section 10(10AA) exemption for leave encashment?", "acceptedAnswer": { "@type": "Answer", "text": "Section 10(10AA) provides tax exemption on leave encashment received at retirement. For government employees, the entire amount is exempt. For private employees, the exempt amount is the least of: actual amount received, Rs 25 lakhs, 10 months average salary of last 10 months before retirement, and cash equivalent of unused leave at 30 days per completed year of service. This is a lifetime limit across all employers." } },
-      { "@type": "Question", "name": "What is the maximum leave encashment exemption limit?", "acceptedAnswer": { "@type": "Answer", "text": "The maximum exemption limit was increased from Rs 3 lakhs to Rs 25 lakhs by the Finance Budget 2023-24 effective from 1st April 2023. This Rs 25 lakh limit is a lifetime aggregate across all employers. If you received Rs 10 lakhs exemption from your previous employer, you can claim only Rs 15 lakhs from subsequent employers combined. Government employees have no monetary ceiling on exemption." } },
-      { "@type": "Question", "name": "How many leave days can be encashed?", "acceptedAnswer": { "@type": "Answer", "text": "Government employees can encash a maximum of 300 days (10 months) of earned leave at retirement. For private sector employees, the number depends on the employer leave policy. However, for tax exemption computation under Section 10(10AA), the maximum considered is 30 days per completed year of service. If you served 20 years, the maximum considered is 600 days even if your balance is higher." } },
-      { "@type": "Question", "name": "What salary is used for leave encashment calculation?", "acceptedAnswer": { "@type": "Answer", "text": "Leave encashment is calculated on Basic Salary plus Dearness Allowance (DA that forms part of retirement benefits) plus Commission if received as a fixed percentage of turnover. HRA, special allowances, and other components are not included. For the Section 10(10AA) exemption computation, the average salary of the last 10 months immediately preceding retirement is used." } },
-      { "@type": "Question", "name": "Is leave encashment on resignation exempt from tax?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, leave encashment received on resignation is eligible for exemption under Section 10(10AA), same as retirement. The exemption is calculated using the same 4-factor method with Rs 25 lakh lifetime limit. However, leave encashment received on termination due to misconduct may not qualify. The key distinction is between encashment during ongoing employment (fully taxable) versus at separation (partially exempt)." } },
-      { "@type": "Question", "name": "Can I claim leave encashment exemption under the new tax regime?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, the exemption under Section 10(10AA) for leave encashment on retirement or resignation is available under both old and new tax regimes. This is because Section 10 exemptions are not regime-specific deductions \u2014 they apply before computing taxable income. So even if you have opted for the new tax regime, your leave encashment on retirement qualifies for the same exemption computation." } },
-      { "@type": "Question", "name": "What happens to leave encashment if an employee dies?", "acceptedAnswer": { "@type": "Answer", "text": "Leave encashment received by the legal heirs or nominee of a deceased employee is completely tax-free. There is no monetary limit or exemption computation required. The full amount is exempt in the hands of the legal heir regardless of whether the employee was in government or private sector service. The nominee should be updated in the employment records to avoid settlement delays." } },
-      { "@type": "Question", "name": "How is leave encashment shown in Form 16?", "acceptedAnswer": { "@type": "Answer", "text": "Leave encashment is shown in Part B of Form 16 under the salary details. The total leave encashment amount appears under gross salary, and the exempt portion under Section 10(10AA) is shown separately in the exemption section. The difference (taxable portion) is included in the taxable salary. If your employer did not apply the exemption, you can claim it while filing your ITR and get the excess TDS refunded." } },
-      { "@type": "Question", "name": "Can I claim Section 89 relief on leave encashment?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, if leave encashment is received during employment and is fully taxable, you can claim relief under Section 89 read with Rule 21A to reduce the tax burden. You must complete at least 5 years of continuous service. File Form 10E online on the income tax portal before filing your ITR. Section 89 relief ensures you are not pushed into a higher tax bracket due to the lump sum receipt." } },
-      { "@type": "Question", "name": "What is the difference between earned leave and privilege leave encashment?", "acceptedAnswer": { "@type": "Answer", "text": "Earned Leave (EL) and Privilege Leave (PL) are essentially the same \u2014 different names used by different organisations and states. Both refer to paid leave earned through service that can be accumulated and encashed. Under the Factories Act, workers earn 1 day of leave for every 20 days worked. The nomenclature varies but the encashment calculation and tax treatment are identical for both." } },
-      { "@type": "Question", "name": "Can a CA help with leave encashment tax planning?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, a CA can compute the exact exemption under Section 10(10AA), advise on optimal timing of encashment for tax efficiency, file Form 10E for Section 89 relief, ensure correct reporting in ITR, and plan the encashment across multiple employers to maximise the Rs 25 lakh lifetime exemption. Patron Accounting provides ITR filing and tax planning services for salaried individuals across India." } }
-    ]}
-    </script>
-@endsection
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+@push('styles')
 <style>
 
         :root {
@@ -852,6 +790,71 @@
 .toggle-btn{font-size:13px;padding:10px 12px}
 }
 </style>
+@endpush
+
+@section('meta')
+    <title>Leave Encashment Calculator | Exemption u/s 10(10AA)</title>
+    <meta name="description" content="Leave encashment calculator: compute the encashment amount and tax exemption under Section 10(10AA) for government and private employees. Free, instant!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/leave-encashment-calculator">
+    <meta property="og:title" content="Leave Encashment Calculator &mdash; Tax Exemption u/s 10(10AA)">
+    <meta property="og:description" content="Calculate leave encashment and tax exemption under Section 10(10AA) for retirement.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/leave-encashment-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Leave Encashment Calculator &mdash; Tax Exemption u/s 10(10AA)">
+    <meta name="twitter:description" content="Leave encashment + tax exemption under Section 10(10AA). Govt & private. Calculate!">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+@endsection
+
+@section('schema')
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org", "@type": "WebApplication",
+      "name": "Leave Encashment Calculator",
+      "description": "Leave Encashment Calculator computes the monetary value of unused earned leave and calculates tax exemption under Section 10(10AA) of the Income Tax Act. Supports government employees with full exemption and private sector employees with the 4-factor exemption computation including the Rs 25 lakh limit. Handles both retirement encashment and during-service encashment with correct tax treatment.",
+      "url": "https://www.patronaccounting.com/tools/leave-encashment-calculator",
+      "applicationCategory": "UtilityApplication", "operatingSystem": "Any",
+      "datePublished": "2026-03-05", "dateModified": "2026-03-05",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" },
+      "author": { "@type": "Person", "@id": "https://patronaccounting.com/#team", "name": "CA & CS Patron Accounting Team", "jobTitle": "Chartered Accountants & Company Secretaries", "url": "https://www.patronaccounting.com/contact-page", "sameAs": ["https://www.linkedin.com/company/patron-accounting"], "hasCredential": [{ "@type": "EducationalOccupationalCredential", "credentialCategory": "Professional Certification", "name": "Chartered Accountant (CA)", "recognizedBy": { "@type": "Organization", "name": "Institute of Chartered Accountants of India", "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India" } }] },
+      "publisher": { "@type": "Organization", "name": "Patron Accounting LLP", "url": "https://www.patronaccounting.com", "logo": { "@type": "ImageObject", "url": "https://www.patronaccounting.com/images/site-logo.svg" } },
+      "provider": { "@id": "https://patronaccounting.com/#organization" }
+    }
+    </script>
+<script type="application/ld+json">
+    { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+      {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+      {"@type": "ListItem", "position": 3, "name": "Leave Encashment Calculator", "item": "https://www.patronaccounting.com/tools/leave-encashment-calculator"}
+    ]}
+    </script>
+<script type="application/ld+json">
+    { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+      { "@type": "Question", "name": "How is leave encashment calculated?", "acceptedAnswer": { "@type": "Answer", "text": "Leave encashment is calculated using the formula: (Basic Salary plus DA) divided by 30 multiplied by the number of unused earned leave days. For example, if Basic plus DA is Rs 40,000 per month and you have 120 unused leave days, the encashment is Rs 40,000 divided by 30 times 120 equals Rs 1,60,000. Only earned leave or privilege leave is encashable \u2014 casual leave and sick leave are generally not." } },
+      { "@type": "Question", "name": "Is leave encashment taxable in India?", "acceptedAnswer": { "@type": "Answer", "text": "It depends on when you receive it. Leave encashment received during employment is fully taxable as salary income with no exemption. Leave encashment received on retirement or resignation is partially exempt under Section 10(10AA). Government employees get 100 percent exemption. Private employees get exemption up to the least of 4 computed amounts with a maximum limit of Rs 25 lakhs lifetime." } },
+      { "@type": "Question", "name": "What is Section 10(10AA) exemption for leave encashment?", "acceptedAnswer": { "@type": "Answer", "text": "Section 10(10AA) provides tax exemption on leave encashment received at retirement. For government employees, the entire amount is exempt. For private employees, the exempt amount is the least of: actual amount received, Rs 25 lakhs, 10 months average salary of last 10 months before retirement, and cash equivalent of unused leave at 30 days per completed year of service. This is a lifetime limit across all employers." } },
+      { "@type": "Question", "name": "What is the maximum leave encashment exemption limit?", "acceptedAnswer": { "@type": "Answer", "text": "The maximum exemption limit was increased from Rs 3 lakhs to Rs 25 lakhs by the Finance Budget 2023-24 effective from 1st April 2023. This Rs 25 lakh limit is a lifetime aggregate across all employers. If you received Rs 10 lakhs exemption from your previous employer, you can claim only Rs 15 lakhs from subsequent employers combined. Government employees have no monetary ceiling on exemption." } },
+      { "@type": "Question", "name": "How many leave days can be encashed?", "acceptedAnswer": { "@type": "Answer", "text": "Government employees can encash a maximum of 300 days (10 months) of earned leave at retirement. For private sector employees, the number depends on the employer leave policy. However, for tax exemption computation under Section 10(10AA), the maximum considered is 30 days per completed year of service. If you served 20 years, the maximum considered is 600 days even if your balance is higher." } },
+      { "@type": "Question", "name": "What salary is used for leave encashment calculation?", "acceptedAnswer": { "@type": "Answer", "text": "Leave encashment is calculated on Basic Salary plus Dearness Allowance (DA that forms part of retirement benefits) plus Commission if received as a fixed percentage of turnover. HRA, special allowances, and other components are not included. For the Section 10(10AA) exemption computation, the average salary of the last 10 months immediately preceding retirement is used." } },
+      { "@type": "Question", "name": "Is leave encashment on resignation exempt from tax?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, leave encashment received on resignation is eligible for exemption under Section 10(10AA), same as retirement. The exemption is calculated using the same 4-factor method with Rs 25 lakh lifetime limit. However, leave encashment received on termination due to misconduct may not qualify. The key distinction is between encashment during ongoing employment (fully taxable) versus at separation (partially exempt)." } },
+      { "@type": "Question", "name": "Can I claim leave encashment exemption under the new tax regime?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, the exemption under Section 10(10AA) for leave encashment on retirement or resignation is available under both old and new tax regimes. This is because Section 10 exemptions are not regime-specific deductions \u2014 they apply before computing taxable income. So even if you have opted for the new tax regime, your leave encashment on retirement qualifies for the same exemption computation." } },
+      { "@type": "Question", "name": "What happens to leave encashment if an employee dies?", "acceptedAnswer": { "@type": "Answer", "text": "Leave encashment received by the legal heirs or nominee of a deceased employee is completely tax-free. There is no monetary limit or exemption computation required. The full amount is exempt in the hands of the legal heir regardless of whether the employee was in government or private sector service. The nominee should be updated in the employment records to avoid settlement delays." } },
+      { "@type": "Question", "name": "How is leave encashment shown in Form 16?", "acceptedAnswer": { "@type": "Answer", "text": "Leave encashment is shown in Part B of Form 16 under the salary details. The total leave encashment amount appears under gross salary, and the exempt portion under Section 10(10AA) is shown separately in the exemption section. The difference (taxable portion) is included in the taxable salary. If your employer did not apply the exemption, you can claim it while filing your ITR and get the excess TDS refunded." } },
+      { "@type": "Question", "name": "Can I claim Section 89 relief on leave encashment?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, if leave encashment is received during employment and is fully taxable, you can claim relief under Section 89 read with Rule 21A to reduce the tax burden. You must complete at least 5 years of continuous service. File Form 10E online on the income tax portal before filing your ITR. Section 89 relief ensures you are not pushed into a higher tax bracket due to the lump sum receipt." } },
+      { "@type": "Question", "name": "What is the difference between earned leave and privilege leave encashment?", "acceptedAnswer": { "@type": "Answer", "text": "Earned Leave (EL) and Privilege Leave (PL) are essentially the same \u2014 different names used by different organisations and states. Both refer to paid leave earned through service that can be accumulated and encashed. Under the Factories Act, workers earn 1 day of leave for every 20 days worked. The nomenclature varies but the encashment calculation and tax treatment are identical for both." } },
+      { "@type": "Question", "name": "Can a CA help with leave encashment tax planning?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, a CA can compute the exact exemption under Section 10(10AA), advise on optimal timing of encashment for tax efficiency, file Form 10E for Section 89 relief, ensure correct reporting in ITR, and plan the encashment across multiple employers to maximise the Rs 25 lakh lifetime exemption. Patron Accounting provides ITR filing and tax planning services for salaried individuals across India." } }
+    ]}
+    </script>
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation"><div class="toc-nav-inner">
         <a href="#calculator">Calculator</a>

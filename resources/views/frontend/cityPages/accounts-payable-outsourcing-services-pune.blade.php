@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,208 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>Accounts Payable Outsourcing Pune 2026 | Patron Accounting</title>
-    <meta name="description" content="Accounts payable outsourcing in Pune from INR 7,499/mo (Exl GST and Govt. Charges). CA-led invoice processing, 3-way match, TDS and vendor payment runs.">
-    <link rel="canonical" href="/accounts-payable-outsourcing-services/pune">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Accounts Payable Outsourcing Pune 2026 | Patron Accounting">
-    <meta property="og:description" content="Accounts payable outsourcing in Pune from INR 7,499/mo (Exl GST and Govt. Charges). CA-led invoice processing, 3-way match, TDS and vendor payment runs.">
-    <meta property="og:url" content="/accounts-payable-outsourcing-services/pune">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Accounts Payable Outsourcing Pune 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Accounts payable outsourcing in Pune from INR 7,499/mo (Exl GST and Govt. Charges). CA-led invoice processing, 3-way match, TDS and vendor payment runs.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/accounts-payable-outsourcing-services/pune#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Accounts Payable Outsourcing Services",
-          "item": "https://www.patronaccounting.com/accounts-payable-outsourcing-services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Accounts Payable Outsourcing Services in Pune",
-          "item": "https://www.patronaccounting.com/accounts-payable-outsourcing-services/pune"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/accounts-payable-outsourcing-services/pune#faq",
-      "datePublished": "2026-06-23T08:00:00+05:30",
-      "dateModified": "2026-06-23T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is accounts payable outsourcing for a Pune business?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Accounts payable outsourcing means Patron Accounting runs your full vendor-to-pay cycle: invoice capture, 3-way matching, vendor master upkeep, TDS deduction under the Income Tax Act, GST input credit checks, and scheduled payment runs. Pune SaaS firms in Hinjewadi and manufacturers in Chakan get controlled, audit-ready payables without an in-house AP team."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does accounts payable outsourcing cost in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patron Accounting charges Starting from INR 7,499/mo (Exl GST and Govt. Charges). The final fee depends on monthly invoice volume, number of vendors, GST registrations, and payment frequency. Hinjewadi startups and Chakan manufacturers receive a fixed monthly quote based on transaction count before onboarding begins."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is 3-way matching in accounts payable?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Three-way matching checks each vendor invoice against the purchase order and the goods receipt note before payment. Quantity, rate, and totals must agree. For a Chakan or Talegaon manufacturer this stops overbilling and duplicate payments, and it gives Pune auditors a clean trail under Section 128 of the Companies Act 2013."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is TDS on vendor payments handled in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patron deducts TDS at the correct section and rate at invoice booking, for example Section 194C on contractors or 194J on professional fees, deposits it by the 7th of the next month, and reconciles it for your quarterly 26Q. This protects expense deductions and avoids disallowance under Section 40(a)(ia) for Pune businesses."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you reconcile GST input tax credit on purchases?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Before any payment run, Patron matches each purchase invoice against GSTR-2B on the GST portal so only eligible input tax credit is claimed under the CGST Act 2017. Mismatched or missing vendor invoices are held and flagged, protecting Pune firms from ITC reversal and interest under Section 50."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which documents are needed to start AP outsourcing in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "You share vendor master data, purchase orders and goods receipt notes, vendor invoices and debit notes, GSTIN and PAN, bank details with payment authority limits, and your accounting file in Tally, Zoho Books, or QuickBooks. Patron sets up approval workflows and a vendor ageing report from day one."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you handle vendor reconciliation and ageing reports?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Patron reconciles each vendor ledger against statements, resolves open and disputed items, and delivers a payables ageing report every month split by 0-30, 31-60, 61-90, and 90-plus day buckets. This gives Pune founders clear visibility of cash outflow and overdue vendor balances before each payment cycle."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can you run vendor payments in Tally and Zoho Books for Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Patron operates inside Tally, Zoho Books, QuickBooks, or Xero, whichever your Pune business already uses. We post booked invoices, prepare payment batches for your approval, and never initiate a release without authorised sign-off, keeping segregation of duties and full audit traceability intact."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/accounts-payable-outsourcing-services/pune#service",
-      "name": "Accounts Payable Outsourcing Services in Pune",
-      "description": "Accounts payable outsourcing in Pune covers invoice processing, 3-way matching, vendor master management, TDS on payments, GST input credit reconciliation, and approved payment runs. Patron Accounting delivers controlled, audit-ready payables for Hinjewadi, Magarpatta, and Chakan businesses.",
-      "serviceType": "Accounts Payable Outsourcing and Invoice Processing",
-      "url": "https://www.patronaccounting.com/accounts-payable-outsourcing-services/pune",
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Maharashtra"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#localbusiness-pune"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Accounts payable",
-          "sameAs": "https://en.wikipedia.org/wiki/Accounts_payable"
-        },
-        {
-          "@type": "Thing",
-          "name": "Goods and Services Tax (India)",
-          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Accounts Payable Outsourcing Plans in Pune",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "price": "7499",
-            "priceSpecification": {
-              "@type": "UnitPriceSpecification",
-              "priceCurrency": "INR",
-              "price": "7499",
-              "unitText": "per month"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Accounts Payable Outsourcing per Month"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness-pune",
-      "name": "Patron Accounting LLP - Pune",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/accounts-payable-outsourcing-services/pune",
-      "telephone": "+91-9699936369",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Pune",
-        "addressRegion": "Maharashtra",
-        "postalCode": "411014",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -815,7 +612,217 @@
         .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
 
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>Accounts Payable Outsourcing Pune 2026 | Patron Accounting</title>
+    <meta name="description" content="Accounts payable outsourcing in Pune from INR 7,499/mo (Exl GST and Govt. Charges). CA-led invoice processing, 3-way match, TDS and vendor payment runs.">
+    <link rel="canonical" href="/accounts-payable-outsourcing-services/pune">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Accounts Payable Outsourcing Pune 2026 | Patron Accounting">
+    <meta property="og:description" content="Accounts payable outsourcing in Pune from INR 7,499/mo (Exl GST and Govt. Charges). CA-led invoice processing, 3-way match, TDS and vendor payment runs.">
+    <meta property="og:url" content="/accounts-payable-outsourcing-services/pune">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Accounts Payable Outsourcing Pune 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Accounts payable outsourcing in Pune from INR 7,499/mo (Exl GST and Govt. Charges). CA-led invoice processing, 3-way match, TDS and vendor payment runs.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/accounts-payable-outsourcing-services/pune#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Accounts Payable Outsourcing Services",
+          "item": "https://www.patronaccounting.com/accounts-payable-outsourcing-services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Accounts Payable Outsourcing Services in Pune",
+          "item": "https://www.patronaccounting.com/accounts-payable-outsourcing-services/pune"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/accounts-payable-outsourcing-services/pune#faq",
+      "datePublished": "2026-06-23T08:00:00+05:30",
+      "dateModified": "2026-06-23T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is accounts payable outsourcing for a Pune business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Accounts payable outsourcing means Patron Accounting runs your full vendor-to-pay cycle: invoice capture, 3-way matching, vendor master upkeep, TDS deduction under the Income Tax Act, GST input credit checks, and scheduled payment runs. Pune SaaS firms in Hinjewadi and manufacturers in Chakan get controlled, audit-ready payables without an in-house AP team."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does accounts payable outsourcing cost in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patron Accounting charges Starting from INR 7,499/mo (Exl GST and Govt. Charges). The final fee depends on monthly invoice volume, number of vendors, GST registrations, and payment frequency. Hinjewadi startups and Chakan manufacturers receive a fixed monthly quote based on transaction count before onboarding begins."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is 3-way matching in accounts payable?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Three-way matching checks each vendor invoice against the purchase order and the goods receipt note before payment. Quantity, rate, and totals must agree. For a Chakan or Talegaon manufacturer this stops overbilling and duplicate payments, and it gives Pune auditors a clean trail under Section 128 of the Companies Act 2013."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is TDS on vendor payments handled in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patron deducts TDS at the correct section and rate at invoice booking, for example Section 194C on contractors or 194J on professional fees, deposits it by the 7th of the next month, and reconciles it for your quarterly 26Q. This protects expense deductions and avoids disallowance under Section 40(a)(ia) for Pune businesses."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you reconcile GST input tax credit on purchases?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Before any payment run, Patron matches each purchase invoice against GSTR-2B on the GST portal so only eligible input tax credit is claimed under the CGST Act 2017. Mismatched or missing vendor invoices are held and flagged, protecting Pune firms from ITC reversal and interest under Section 50."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which documents are needed to start AP outsourcing in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You share vendor master data, purchase orders and goods receipt notes, vendor invoices and debit notes, GSTIN and PAN, bank details with payment authority limits, and your accounting file in Tally, Zoho Books, or QuickBooks. Patron sets up approval workflows and a vendor ageing report from day one."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you handle vendor reconciliation and ageing reports?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Patron reconciles each vendor ledger against statements, resolves open and disputed items, and delivers a payables ageing report every month split by 0-30, 31-60, 61-90, and 90-plus day buckets. This gives Pune founders clear visibility of cash outflow and overdue vendor balances before each payment cycle."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you run vendor payments in Tally and Zoho Books for Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Patron operates inside Tally, Zoho Books, QuickBooks, or Xero, whichever your Pune business already uses. We post booked invoices, prepare payment batches for your approval, and never initiate a release without authorised sign-off, keeping segregation of duties and full audit traceability intact."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/accounts-payable-outsourcing-services/pune#service",
+      "name": "Accounts Payable Outsourcing Services in Pune",
+      "description": "Accounts payable outsourcing in Pune covers invoice processing, 3-way matching, vendor master management, TDS on payments, GST input credit reconciliation, and approved payment runs. Patron Accounting delivers controlled, audit-ready payables for Hinjewadi, Magarpatta, and Chakan businesses.",
+      "serviceType": "Accounts Payable Outsourcing and Invoice Processing",
+      "url": "https://www.patronaccounting.com/accounts-payable-outsourcing-services/pune",
+      "areaServed": {
+        "@type": "City",
+        "name": "Pune",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Maharashtra"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#localbusiness-pune"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Accounts payable",
+          "sameAs": "https://en.wikipedia.org/wiki/Accounts_payable"
+        },
+        {
+          "@type": "Thing",
+          "name": "Goods and Services Tax (India)",
+          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Accounts Payable Outsourcing Plans in Pune",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "price": "7499",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "INR",
+              "price": "7499",
+              "unitText": "per month"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Accounts Payable Outsourcing per Month"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness-pune",
+      "name": "Patron Accounting LLP - Pune",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/accounts-payable-outsourcing-services/pune",
+      "telephone": "+91-9699936369",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Pune"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Pune",
+        "addressRegion": "Maharashtra",
+        "postalCode": "411014",
+        "addressCountry": "IN"
+      },
+      "parentOrganization": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1567,7 +1574,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

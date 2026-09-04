@@ -1,225 +1,12 @@
 
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>GST Notice Restaurants Gurugram: CA Reply</title>
-    <meta name="description" content="GST notice for your Gurugram restaurant on Zomato/Swiggy or 5% vs 18% rate? Patron's CA team files DRC-06 reply and defends. Starting Rs 2,999. Call today.">
-    <link rel="canonical" href="/gst-notice-restaurants/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="GST Notice Restaurants Gurugram 2026: CA Reply | Patron Accounting">
-    <meta property="og:description" content="GST notice for your Gurugram restaurant on Zomato/Swiggy or 5% vs 18% rate? Patron's CA team files DRC-06 reply and defends. Starting Rs 2,999. Call today.">
-    <meta property="og:url" content="/gst-notice-restaurants/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="GST Notice Restaurants Gurugram 2026: CA Reply | Patron Accounting">
-    <meta name="twitter:description" content="GST notice for your Gurugram restaurant on Zomato/Swiggy or 5% vs 18% rate? Patron's CA team files DRC-06 reply and defends. Starting Rs 2,999. Call today.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/gst-notice-restaurants/gurugram#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "GST Notice Services",
-          "item": "https://www.patronaccounting.com/gst-notice/gurugram"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "GST Notice Restaurants Gurugram",
-          "item": "https://www.patronaccounting.com/gst-notice-restaurants/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/gst-notice-restaurants/gurugram#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is a GST notice for a restaurant in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A GST notice for a Gurugram restaurant is any of ASMT-10 scrutiny, ADT-01 audit, DRC-01A pre-SCN intimation, DRC-01 Section 73 or 74 SCN, or DRC-07 final order issued by CGST Gurugram Commissionerate or GST Audit Commissionerate Gurugram (both at Mudit Square, Plot 24, Sector 32) under CGST Panchkula Zone, or by Haryana SGST DETC Gurugram East (Sector 34, Infocity-1) or DETC Gurugram West (Sector 32). Common triggers are Section 9(5) Zomato/Swiggy mis-reporting, 5% vs 18% rate classification, and composition transitions."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why do I get a GST notice for Zomato or Swiggy supplies?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Effective 1 January 2022, Section 9(5) of the CGST Act made ECOs like Zomato and Swiggy liable to pay 5% GST on restaurant supplies. Restaurants must report these in GSTR-3B Table 3.1.1(ii) - informational only - and NOT in Table 3.1(a). Including them in Table 3.1(a) causes double-tax and triggers the most common Gurugram restaurant notice pattern, especially for Udyog Vihar and Sector 49-50 cloud kitchens and DLF Phase III delivery-heavy outlets."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between 5% no-ITC and 18% with-ITC for restaurants?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Standalone restaurants, cloud kitchens, cafes, and QSRs charge 5% GST with no ITC under Notification 11/2017 CT(R). Hotel-restaurants located in specified premises - where any unit of accommodation has a declared room tariff of Rs 7,500 or more per unit per day - charge 18% GST with full ITC. Gurugram's specified-premises cluster is DLF Cyber Hub luxury hotel-restaurants, Golf Course Road premium hotels, Sohna Road resorts, and MG Road business hotels."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do I reply to a restaurant GST notice in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Log in to gst.gov.in, navigate to Services then User Services then View Additional Notices and Orders, locate the notice (DRC-01 / ASMT-10 / ADT-01), and file the appropriate reply form (DRC-06, ASMT-11, or ADT-02) within 30 days. Include Zomato/Swiggy settlement reconciliation, GSTR-3B Table-wise mapping, POS data, FSSAI license, hotel room-tariff history (for DLF Cyber Hub / Golf Course Road specified-premises cases), and DRC-03 challan for any voluntary payment."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Where is the GSTAT bench for Gurugram restaurant cases?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The GSTAT Haryana State Bench is located AT Gurugram itself, per Notification S.O. 3048(E) dated 31 July 2024. It covers Gurugram, Charkhi Dadri, Faridabad, Jhajjar, Mahendragarh, Nuh, Palwal, Panipat, Rewari, Rohtak, and Sonepat districts. A Hisar Circuit Bench covers northern Haryana. The GSTAT Principal Bench is at New Delhi for anti-profiteering and place-of-supply matters. Gurugram restaurants enjoy direct local access to their state tribunal."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the penalty for restaurant GST mis-reporting?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "For non-fraud cases under Section 73 - tax + interest at 18 percent under Section 50 + 10 percent penalty under Section 73(9) or Rs 10,000 whichever is higher. NIL penalty is available if tax is paid within 30 days of the SCN under Section 73(8). For fraud cases under Section 74 - up to 100 percent penalty under Section 74(9), reducible to 15 or 25 percent on early payment."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does Patron handle Haryana SGST as well as CGST restaurant notices?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Patron's Gurugram office handles restaurant notices from both CGST Gurugram Commissionerate and GST Audit Commissionerate Gurugram (at Mudit Square Plot 24 Sector 32) under CGST Panchkula Zone, and Haryana SGST DETC Gurugram East (Sector 34, Infocity-1) and DETC Gurugram West (Sector 32). The reply procedure, forms, and 30-day window are identical under cross-empowerment."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What documents do I need for a Gurugram restaurant GST notice reply?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Copy of the notice with DIN; GSTR-1 and GSTR-3B for all months of the disputed FY (with Table 3.1.1 visibility); GSTR-2A/2B; GSTR-9/9C if filed; Zomato and Swiggy settlement statements; ONDC statements if applicable; POS sales register with dine-in/takeaway/ECO breakup; FSSAI license; hotel room-tariff history for specified-premises cases; books of accounts; lease/rent agreements for RCM defence; and DRC-03 challans for any voluntary payments already made."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/gst-notice-restaurants/gurugram#localbusiness",
-      "name": "Patron Accounting LLP - Gurugram (Restaurant GST Notice Defence)",
-      "url": "https://www.patronaccounting.com/gst-notice-restaurants/gurugram",
-      "telephone": "+91-945-945-6700",
-      "email": "sales@patronaccounting.com",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "[OFFICE ADDRESS - to be filled by Patron team before publish]",
-        "addressLocality": "Gurugram",
-        "addressRegion": "Haryana",
-        "postalCode": "[PIN CODE]",
-        "addressCountry": "IN"
-      },
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram"
-      },
-      "priceRange": "Rs 2,999 to Rs 35,000",
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/gst-notice-restaurants/gurugram#service",
-      "name": "GST Notice Reply and Defence for Gurugram Restaurants",
-      "url": "https://www.patronaccounting.com/gst-notice-restaurants/gurugram",
-      "description": "CA-led GST notice reply and defence for Gurugram restaurants, cloud kitchens, QSRs and hotel-restaurants - Section 9(5) Zomato/Swiggy ECO reconciliation, 5% vs 18% specified-premises classification (DLF Cyber Hub, Golf Course Road, Sohna Road), DRC-01A/DRC-06/ASMT-11 reply drafting, Section 65 audit representation, and GSTAT Haryana State Bench appeals at Gurugram. From Rs 2,999.",
-      "serviceType": "GST Notice Reply and Litigation - Restaurants",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "AdministrativeArea",
-          "name": "Haryana, India"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Goods and Services Tax (India)",
-          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
-        },
-        {
-          "@type": "Thing",
-          "name": "Gurgaon",
-          "sameAs": "https://en.wikipedia.org/wiki/Gurgaon"
-        },
-        {
-          "@type": "Thing",
-          "name": "Restaurant",
-          "sameAs": "https://en.wikipedia.org/wiki/Restaurant"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Gurugram Restaurant GST Notice Service Tiers",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "name": "DRC-06 Reply (Simple)",
-            "price": "2999",
-            "priceCurrency": "INR",
-            "description": "Single-parameter restaurant notice, single FY."
-          },
-          {
-            "@type": "Offer",
-            "name": "DRC-06 Reply (Standard)",
-            "price": "6500",
-            "priceCurrency": "INR",
-            "description": "Multi-parameter Section 9(5) + rate dispute, single FY."
-          },
-          {
-            "@type": "Offer",
-            "name": "Specified Premises Opinion (DLF Cyber Hub / Golf Course Road)",
-            "price": "4500",
-            "priceCurrency": "INR",
-            "description": "Documentary 5% vs 18% classification opinion via room-tariff history."
-          }
-        ]
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -897,7 +684,225 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 }
 @media (max-width:768px) {section .content-text ul li:not(.nav-item){flex-wrap:wrap;}
 section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;max-width:100%;margin-bottom:2px;}}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>GST Notice Restaurants Gurugram: CA Reply</title>
+    <meta name="description" content="GST notice for your Gurugram restaurant on Zomato/Swiggy or 5% vs 18% rate? Patron's CA team files DRC-06 reply and defends. Starting Rs 2,999. Call today.">
+    <link rel="canonical" href="/gst-notice-restaurants/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="GST Notice Restaurants Gurugram 2026: CA Reply | Patron Accounting">
+    <meta property="og:description" content="GST notice for your Gurugram restaurant on Zomato/Swiggy or 5% vs 18% rate? Patron's CA team files DRC-06 reply and defends. Starting Rs 2,999. Call today.">
+    <meta property="og:url" content="/gst-notice-restaurants/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GST Notice Restaurants Gurugram 2026: CA Reply | Patron Accounting">
+    <meta name="twitter:description" content="GST notice for your Gurugram restaurant on Zomato/Swiggy or 5% vs 18% rate? Patron's CA team files DRC-06 reply and defends. Starting Rs 2,999. Call today.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/gst-notice-restaurants/gurugram#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "GST Notice Services",
+          "item": "https://www.patronaccounting.com/gst-notice/gurugram"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "GST Notice Restaurants Gurugram",
+          "item": "https://www.patronaccounting.com/gst-notice-restaurants/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/gst-notice-restaurants/gurugram#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a GST notice for a restaurant in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A GST notice for a Gurugram restaurant is any of ASMT-10 scrutiny, ADT-01 audit, DRC-01A pre-SCN intimation, DRC-01 Section 73 or 74 SCN, or DRC-07 final order issued by CGST Gurugram Commissionerate or GST Audit Commissionerate Gurugram (both at Mudit Square, Plot 24, Sector 32) under CGST Panchkula Zone, or by Haryana SGST DETC Gurugram East (Sector 34, Infocity-1) or DETC Gurugram West (Sector 32). Common triggers are Section 9(5) Zomato/Swiggy mis-reporting, 5% vs 18% rate classification, and composition transitions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why do I get a GST notice for Zomato or Swiggy supplies?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Effective 1 January 2022, Section 9(5) of the CGST Act made ECOs like Zomato and Swiggy liable to pay 5% GST on restaurant supplies. Restaurants must report these in GSTR-3B Table 3.1.1(ii) - informational only - and NOT in Table 3.1(a). Including them in Table 3.1(a) causes double-tax and triggers the most common Gurugram restaurant notice pattern, especially for Udyog Vihar and Sector 49-50 cloud kitchens and DLF Phase III delivery-heavy outlets."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between 5% no-ITC and 18% with-ITC for restaurants?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Standalone restaurants, cloud kitchens, cafes, and QSRs charge 5% GST with no ITC under Notification 11/2017 CT(R). Hotel-restaurants located in specified premises - where any unit of accommodation has a declared room tariff of Rs 7,500 or more per unit per day - charge 18% GST with full ITC. Gurugram's specified-premises cluster is DLF Cyber Hub luxury hotel-restaurants, Golf Course Road premium hotels, Sohna Road resorts, and MG Road business hotels."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I reply to a restaurant GST notice in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Log in to gst.gov.in, navigate to Services then User Services then View Additional Notices and Orders, locate the notice (DRC-01 / ASMT-10 / ADT-01), and file the appropriate reply form (DRC-06, ASMT-11, or ADT-02) within 30 days. Include Zomato/Swiggy settlement reconciliation, GSTR-3B Table-wise mapping, POS data, FSSAI license, hotel room-tariff history (for DLF Cyber Hub / Golf Course Road specified-premises cases), and DRC-03 challan for any voluntary payment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where is the GSTAT bench for Gurugram restaurant cases?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The GSTAT Haryana State Bench is located AT Gurugram itself, per Notification S.O. 3048(E) dated 31 July 2024. It covers Gurugram, Charkhi Dadri, Faridabad, Jhajjar, Mahendragarh, Nuh, Palwal, Panipat, Rewari, Rohtak, and Sonepat districts. A Hisar Circuit Bench covers northern Haryana. The GSTAT Principal Bench is at New Delhi for anti-profiteering and place-of-supply matters. Gurugram restaurants enjoy direct local access to their state tribunal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the penalty for restaurant GST mis-reporting?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For non-fraud cases under Section 73 - tax + interest at 18 percent under Section 50 + 10 percent penalty under Section 73(9) or Rs 10,000 whichever is higher. NIL penalty is available if tax is paid within 30 days of the SCN under Section 73(8). For fraud cases under Section 74 - up to 100 percent penalty under Section 74(9), reducible to 15 or 25 percent on early payment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Patron handle Haryana SGST as well as CGST restaurant notices?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Patron's Gurugram office handles restaurant notices from both CGST Gurugram Commissionerate and GST Audit Commissionerate Gurugram (at Mudit Square Plot 24 Sector 32) under CGST Panchkula Zone, and Haryana SGST DETC Gurugram East (Sector 34, Infocity-1) and DETC Gurugram West (Sector 32). The reply procedure, forms, and 30-day window are identical under cross-empowerment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What documents do I need for a Gurugram restaurant GST notice reply?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Copy of the notice with DIN; GSTR-1 and GSTR-3B for all months of the disputed FY (with Table 3.1.1 visibility); GSTR-2A/2B; GSTR-9/9C if filed; Zomato and Swiggy settlement statements; ONDC statements if applicable; POS sales register with dine-in/takeaway/ECO breakup; FSSAI license; hotel room-tariff history for specified-premises cases; books of accounts; lease/rent agreements for RCM defence; and DRC-03 challans for any voluntary payments already made."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/gst-notice-restaurants/gurugram#localbusiness",
+      "name": "Patron Accounting LLP - Gurugram (Restaurant GST Notice Defence)",
+      "url": "https://www.patronaccounting.com/gst-notice-restaurants/gurugram",
+      "telephone": "+91-945-945-6700",
+      "email": "sales@patronaccounting.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "[OFFICE ADDRESS - to be filled by Patron team before publish]",
+        "addressLocality": "Gurugram",
+        "addressRegion": "Haryana",
+        "postalCode": "[PIN CODE]",
+        "addressCountry": "IN"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram"
+      },
+      "priceRange": "Rs 2,999 to Rs 35,000",
+      "parentOrganization": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/gst-notice-restaurants/gurugram#service",
+      "name": "GST Notice Reply and Defence for Gurugram Restaurants",
+      "url": "https://www.patronaccounting.com/gst-notice-restaurants/gurugram",
+      "description": "CA-led GST notice reply and defence for Gurugram restaurants, cloud kitchens, QSRs and hotel-restaurants - Section 9(5) Zomato/Swiggy ECO reconciliation, 5% vs 18% specified-premises classification (DLF Cyber Hub, Golf Course Road, Sohna Road), DRC-01A/DRC-06/ASMT-11 reply drafting, Section 65 audit representation, and GSTAT Haryana State Bench appeals at Gurugram. From Rs 2,999.",
+      "serviceType": "GST Notice Reply and Litigation - Restaurants",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "AdministrativeArea",
+          "name": "Haryana, India"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Goods and Services Tax (India)",
+          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
+        },
+        {
+          "@type": "Thing",
+          "name": "Gurgaon",
+          "sameAs": "https://en.wikipedia.org/wiki/Gurgaon"
+        },
+        {
+          "@type": "Thing",
+          "name": "Restaurant",
+          "sameAs": "https://en.wikipedia.org/wiki/Restaurant"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Gurugram Restaurant GST Notice Service Tiers",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "DRC-06 Reply (Simple)",
+            "price": "2999",
+            "priceCurrency": "INR",
+            "description": "Single-parameter restaurant notice, single FY."
+          },
+          {
+            "@type": "Offer",
+            "name": "DRC-06 Reply (Standard)",
+            "price": "6500",
+            "priceCurrency": "INR",
+            "description": "Multi-parameter Section 9(5) + rate dispute, single FY."
+          },
+          {
+            "@type": "Offer",
+            "name": "Specified Premises Opinion (DLF Cyber Hub / Golf Course Road)",
+            "price": "4500",
+            "priceCurrency": "INR",
+            "description": "Documentary 5% vs 18% classification opinion via room-tariff history."
+          }
+        ]
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1775,7 +1780,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 </script>
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

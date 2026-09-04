@@ -1,181 +1,6 @@
 @extends('layouts.app')
-<title>DSC & DIN Requirement Checker | How Many You Need</title>
-<meta name="description" content="Free DSC & DIN requirement checker: find how many Digital Signature Certificates and DINs you need for a company or LLP, and which come free in SPICe+. Try now!">
-<meta name="robots" content="index, follow">
-<meta name="theme-color" content="#15365f">
+@push('styles')
 <link rel="canonical" href="https://www.patronaccounting.com/tools/dsc-din-requirement-checker">
-@section('meta')
-
-<meta property="og:title" content="DSC / DIN Requirement Checker — How Many You Need 2026">
-<meta property="og:description" content="Work out exactly how many DSCs and DINs you need for a company or LLP, which DINs are free in SPICe+/FiLLiP, and which need a separate DIR-3 filing.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.patronaccounting.com/tools/dsc-din-requirement-checker">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="1200">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-<meta property="og:site_name" content="Patron Accounting">
-<meta property="og:locale" content="en_IN">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="DSC / DIN Requirement Checker — How Many You Need 2026">
-<meta name="twitter:description" content="Find exactly how many DSCs and DINs you need, which are free in SPICe+/FiLLiP, and which need DIR-3. Free &amp; instant.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-
-<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
-<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
-
-@endsection
-@section('schema')
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "DSC / DIN Requirement Checker",
-  "description": "DSC and DIN Requirement Checker works out how many Digital Signature Certificates and Director Identification Numbers are needed to incorporate or change a company or LLP in India. From the scenario, the number of directors or designated partners, additional subscribers and how many people already hold a DIN, it computes the number of Class 3 DSCs required for all signatories, the number of new DINs needed, how many of those are allotted free within the SPICe Plus or FiLLiP form, and how many must be obtained separately through Form DIR-3 at a fee. It returns an itemised requirement summary with the indicative cost.",
-  "url": "https://www.patronaccounting.com/tools/dsc-din-requirement-checker",
-  "applicationCategory": "BusinessApplication",
-  "inLanguage": "en-IN",
-  "isAccessibleForFree": true,
-  "operatingSystem": "Any",
-  "datePublished": "2026-06-05T08:00:00+05:30",
-  "dateModified": "2026-06-05T08:00:00+05:30",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "INR"
-  },
-  "reviewedBy": {
-    "@type": "Person",
-    "@id": "https://patronaccounting.com/#founder",
-    "name": "CA Sundram Gupta",
-    "jobTitle": "Founder & Chartered Accountant",
-    "url": "https://www.patronaccounting.com/contact-page",
-    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-    "hasCredential": [{
-      "@type": "EducationalOccupationalCredential",
-      "credentialCategory": "Professional Certification",
-      "name": "Chartered Accountant (CA)",
-      "recognizedBy": {
-        "@type": "Organization",
-        "name": "Institute of Chartered Accountants of India",
-        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-      }
-    }]
-  },
-  "publisher": { "@id": "https://patronaccounting.com/#organization" },
-  "provider": {
-    "@id": "https://patronaccounting.com/#organization"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "DSC / DIN Requirement Checker", "item": "https://www.patronaccounting.com/tools/dsc-din-requirement-checker"}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the difference between a DSC and a DIN?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A Digital Signature Certificate is a cryptographic certificate that lets a person digitally sign forms on the MCA portal, and every director, designated partner and subscriber who signs incorporation documents needs a valid Class 3 DSC. A Director Identification Number is a unique eight-digit number the MCA allots to an individual so they can act as a director or designated partner. The DSC is a signing tool tied to the person, while the DIN is an identity number required to hold the office of director."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How many DSCs do I need to incorporate a company?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You need one Class 3 Digital Signature Certificate for every individual who signs the incorporation documents, which means every proposed director or designated partner plus any subscriber to the Memorandum who is not already a director. If a director is also a subscriber, one DSC covers both roles. This checker counts the distinct signatories from your inputs and tells you how many DSCs to obtain, each typically costing 800 to 2,500 rupees for two-year validity."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How many DINs are allotted free during incorporation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When you incorporate a new company through SPICe Plus, DINs are auto-allotted at no extra cost to up to three first directors, or up to five for a Producer Company. For a new LLP through FiLLiP, up to two designated partners get a DIN free. Any proposed directors or partners beyond these limits, and any director joining an existing company, must obtain a DIN separately through Form DIR-3, which carries a fee."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "When do I need to file Form DIR-3 for a DIN?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Form DIR-3 is used when a DIN cannot be allotted through the incorporation form. That happens in three situations: when more directors need a DIN than the free SPICe Plus or FiLLiP limit allows, when a person is being appointed as a director in a company that already exists, or when someone wants a DIN in advance. DIR-3 carries a government fee of 500 rupees per applicant, needs a Class 3 DSC and certification by a practising CA, CS or Cost Accountant."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does a person who already has a DIN need a new one?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. A DIN is allotted once and is valid for the lifetime of the holder as long as the annual DIR-3 KYC is filed, and Section 155 of the Companies Act prohibits holding more than one DIN. So an existing director who already has a DIN simply reuses it for the new company or appointment, and does not count towards the new DINs needed. This checker lets you enter how many people already hold a DIN so it does not over-count."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do LLP partners need a DIN or a DPIN?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Designated partners of an LLP need a Designated Partner Identification Number, but since 2011 the DPIN and DIN have been unified, so functionally they are the same eight-digit number. A person who already holds a DIN can use it as a designated partner without a fresh number. During LLP incorporation through FiLLiP, up to two designated partners get this number free; additional designated partners apply through Form DIR-3."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do proprietors and ordinary partners need a DSC or DIN?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A sole proprietor and partners in a traditional partnership firm do not need a DIN, because a DIN is only for directors of companies and designated partners of LLPs. They may still need a Class 3 DSC for some online filings such as GST or income tax in certain cases, but not for an MCA incorporation, since these structures are not incorporated through SPICe Plus or FiLLiP. This checker reflects that when you select the proprietorship or partnership scenario."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What class of DSC is required for MCA filings?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A Class 3 Digital Signature Certificate is required for MCA filings, including SPICe Plus, FiLLiP, DIR-3 and the annual DIR-3 KYC. Class 3 is the highest assurance level and is issued by licensed Certifying Authorities such as eMudhra, Capricorn, Sify and others. A DSC is usually valid for two years, after which it must be renewed, and you continue to use it for all future MCA filings, so it is best thought of as an ongoing tool rather than a one-time incorporation item."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How much do DSC and DIN cost?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A Class 3 DSC typically costs 800 to 2,500 rupees per person for two-year validity, depending on the Certifying Authority and whether a token is included. DIN allotted within SPICe Plus or FiLLiP during incorporation has no separate government fee. A DIN obtained separately through Form DIR-3 carries a government fee of 500 rupees per applicant, plus professional certification. This checker estimates the DSC and DIR-3 cost from the numbers you enter, as an indicative figure."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the DSC / DIN Requirement Checker free?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, the Patron Accounting DSC and DIN Requirement Checker is completely free with no signup required. All calculations run in your browser and nothing is stored on our servers. It tells you how many Class 3 DSCs and how many new DINs you need, how many DINs come free in the incorporation form, and how many need a separate DIR-3, with an indicative cost. It is a planning aid; confirm the exact requirement and current fees with a professional before filing."
-      }
-    }
-  ]
-}
-</script>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-@endsection
 <style>
         :root {
             --primary: #15365f;
@@ -691,6 +516,185 @@ a:focus-visible {
 
 
         </style>
+@endpush
+
+@section('meta')
+
+<meta property="og:title" content="DSC / DIN Requirement Checker — How Many You Need 2026">
+<meta property="og:description" content="Work out exactly how many DSCs and DINs you need for a company or LLP, which DINs are free in SPICe+/FiLLiP, and which need a separate DIR-3 filing.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/dsc-din-requirement-checker">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+<meta property="og:site_name" content="Patron Accounting">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="DSC / DIN Requirement Checker — How Many You Need 2026">
+<meta name="twitter:description" content="Find exactly how many DSCs and DINs you need, which are free in SPICe+/FiLLiP, and which need DIR-3. Free &amp; instant.">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
+
+
+<title>DSC & DIN Requirement Checker | How Many You Need</title>
+<meta name="description" content="Free DSC & DIN requirement checker: find how many Digital Signature Certificates and DINs you need for a company or LLP, and which come free in SPICe+. Try now!">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#15365f">
+@endsection
+@section('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "DSC / DIN Requirement Checker",
+  "description": "DSC and DIN Requirement Checker works out how many Digital Signature Certificates and Director Identification Numbers are needed to incorporate or change a company or LLP in India. From the scenario, the number of directors or designated partners, additional subscribers and how many people already hold a DIN, it computes the number of Class 3 DSCs required for all signatories, the number of new DINs needed, how many of those are allotted free within the SPICe Plus or FiLLiP form, and how many must be obtained separately through Form DIR-3 at a fee. It returns an itemised requirement summary with the indicative cost.",
+  "url": "https://www.patronaccounting.com/tools/dsc-din-requirement-checker",
+  "applicationCategory": "BusinessApplication",
+  "inLanguage": "en-IN",
+  "isAccessibleForFree": true,
+  "operatingSystem": "Any",
+  "datePublished": "2026-06-05T08:00:00+05:30",
+  "dateModified": "2026-06-05T08:00:00+05:30",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "INR"
+  },
+  "reviewedBy": {
+    "@type": "Person",
+    "@id": "https://patronaccounting.com/#founder",
+    "name": "CA Sundram Gupta",
+    "jobTitle": "Founder & Chartered Accountant",
+    "url": "https://www.patronaccounting.com/contact-page",
+    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+    "hasCredential": [{
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Professional Certification",
+      "name": "Chartered Accountant (CA)",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Institute of Chartered Accountants of India",
+        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+      }
+    }]
+  },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
+  "provider": {
+    "@id": "https://patronaccounting.com/#organization"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "DSC / DIN Requirement Checker", "item": "https://www.patronaccounting.com/tools/dsc-din-requirement-checker"}
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the difference between a DSC and a DIN?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A Digital Signature Certificate is a cryptographic certificate that lets a person digitally sign forms on the MCA portal, and every director, designated partner and subscriber who signs incorporation documents needs a valid Class 3 DSC. A Director Identification Number is a unique eight-digit number the MCA allots to an individual so they can act as a director or designated partner. The DSC is a signing tool tied to the person, while the DIN is an identity number required to hold the office of director."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many DSCs do I need to incorporate a company?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You need one Class 3 Digital Signature Certificate for every individual who signs the incorporation documents, which means every proposed director or designated partner plus any subscriber to the Memorandum who is not already a director. If a director is also a subscriber, one DSC covers both roles. This checker counts the distinct signatories from your inputs and tells you how many DSCs to obtain, each typically costing 800 to 2,500 rupees for two-year validity."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many DINs are allotted free during incorporation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "When you incorporate a new company through SPICe Plus, DINs are auto-allotted at no extra cost to up to three first directors, or up to five for a Producer Company. For a new LLP through FiLLiP, up to two designated partners get a DIN free. Any proposed directors or partners beyond these limits, and any director joining an existing company, must obtain a DIN separately through Form DIR-3, which carries a fee."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When do I need to file Form DIR-3 for a DIN?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Form DIR-3 is used when a DIN cannot be allotted through the incorporation form. That happens in three situations: when more directors need a DIN than the free SPICe Plus or FiLLiP limit allows, when a person is being appointed as a director in a company that already exists, or when someone wants a DIN in advance. DIR-3 carries a government fee of 500 rupees per applicant, needs a Class 3 DSC and certification by a practising CA, CS or Cost Accountant."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does a person who already has a DIN need a new one?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. A DIN is allotted once and is valid for the lifetime of the holder as long as the annual DIR-3 KYC is filed, and Section 155 of the Companies Act prohibits holding more than one DIN. So an existing director who already has a DIN simply reuses it for the new company or appointment, and does not count towards the new DINs needed. This checker lets you enter how many people already hold a DIN so it does not over-count."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do LLP partners need a DIN or a DPIN?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Designated partners of an LLP need a Designated Partner Identification Number, but since 2011 the DPIN and DIN have been unified, so functionally they are the same eight-digit number. A person who already holds a DIN can use it as a designated partner without a fresh number. During LLP incorporation through FiLLiP, up to two designated partners get this number free; additional designated partners apply through Form DIR-3."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do proprietors and ordinary partners need a DSC or DIN?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A sole proprietor and partners in a traditional partnership firm do not need a DIN, because a DIN is only for directors of companies and designated partners of LLPs. They may still need a Class 3 DSC for some online filings such as GST or income tax in certain cases, but not for an MCA incorporation, since these structures are not incorporated through SPICe Plus or FiLLiP. This checker reflects that when you select the proprietorship or partnership scenario."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What class of DSC is required for MCA filings?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A Class 3 Digital Signature Certificate is required for MCA filings, including SPICe Plus, FiLLiP, DIR-3 and the annual DIR-3 KYC. Class 3 is the highest assurance level and is issued by licensed Certifying Authorities such as eMudhra, Capricorn, Sify and others. A DSC is usually valid for two years, after which it must be renewed, and you continue to use it for all future MCA filings, so it is best thought of as an ongoing tool rather than a one-time incorporation item."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much do DSC and DIN cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A Class 3 DSC typically costs 800 to 2,500 rupees per person for two-year validity, depending on the Certifying Authority and whether a token is included. DIN allotted within SPICe Plus or FiLLiP during incorporation has no separate government fee. A DIN obtained separately through Form DIR-3 carries a government fee of 500 rupees per applicant, plus professional certification. This checker estimates the DSC and DIR-3 cost from the numbers you enter, as an indicative figure."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the DSC / DIN Requirement Checker free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the Patron Accounting DSC and DIN Requirement Checker is completely free with no signup required. All calculations run in your browser and nothing is stored on our servers. It tells you how many Class 3 DSCs and how many new DINs you need, how many DINs come free in the incorporation form, and how many need a separate DIR-3, with an indicative cost. It is a planning aid; confirm the exact requirement and current fees with a professional before filing."
+      }
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation">
     <div class="toc-nav-inner">

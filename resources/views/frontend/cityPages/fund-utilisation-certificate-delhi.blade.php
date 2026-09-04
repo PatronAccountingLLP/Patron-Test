@@ -1,174 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Fund Utilisation Certificate by CA in Delhi 2026 | Patron Accounting</title>
-    <meta name="description" content="Fund Utilisation Certificate by a CA with UDIN in GFR 12-A format. Proof that grant, CSR, or project funds were used as sanctioned. From INR 3,999.">
-    <link rel="canonical" href="/fund-utilisation-certificate/delhi">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Fund Utilisation Certificate by CA 2026 | Patron Accounting">
-    <meta property="og:description" content="Fund Utilisation Certificate by a CA with UDIN in GFR 12-A format. Proof that grant, CSR, or project funds were used as sanctioned. From INR 3,999.">
-    <meta property="og:url" content="/fund-utilisation-certificate/delhi">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Fund Utilisation Certificate by CA 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Fund Utilisation Certificate by a CA with UDIN in GFR 12-A format. Proof that grant, CSR, or project funds were used as sanctioned. From INR 3,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/fund-utilisation-certificate/delhi/#service",
-        "name": "Fund Utilisation Certificate in Delhi",
-        "description": "Preparation and CA certification of a fund utilisation certificate (utilisation certificate), confirming that grant, CSR, FCRA, or project funds were used for the sanctioned purpose, in Form GFR 12-A or the funder's format, disclosing funds received, expenditure, and unspent balance, with a mandatory 18-digit UDIN.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/fund-utilisation-certificate/delhi" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Grant (money)", "sameAs": "https://en.wikipedia.org/wiki/Grant_(money)" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Fund Utilisation Certificate Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": { "@type": "Service", "name": "Fund utilisation certificate by a CA" },
-                    "priceCurrency": "INR",
-                    "price": "3999",
-                    "description": "Starting from INR 3,999 (excl. GST and govt. charges)"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/fund-utilisation-certificate/delhi/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "NGO and Non Profit Accounting", "item": "https://www.patronaccounting.com/ngo-and-non-profit-accounting-services" },
-            { "@type": "ListItem", "position": 3, "name": "Fund Utilisation Certificate", "item": "https://www.patronaccounting.com/fund-utilisation-certificate/delhi" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/fund-utilisation-certificate/delhi/#faq",
-        "datePublished": "2026-06-09T08:00:00+05:30",
-        "dateModified": "2026-06-09T08:00:00+05:30",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "What is a fund utilisation certificate?",
-                "acceptedAnswer": { "@type": "Answer", "text": "It is a certified statement confirming that funds received for a specific project or grant were used for that purpose in line with the funder's terms. It shows the funds received, the expenditure incurred, and any unspent balance, and is commonly required before a further tranche is released or a project is closed." }
-            },
-            {
-                "@type": "Question",
-                "name": "What format is used for government grants?",
-                "acceptedAnswer": { "@type": "Answer", "text": "For grants from government bodies, the prescribed format is Form GFR 12-A under the General Financial Rules, with GFR 12-C for certain grants. It discloses the grant position at the start of the year, grants received, expenditure, and the unspent balance, with confirmation that the sanction conditions were met." }
-            },
-            {
-                "@type": "Question",
-                "name": "Who issues a utilisation certificate?",
-                "acceptedAnswer": { "@type": "Answer", "text": "It is commonly issued and certified by a practising Chartered Accountant with a UDIN, after examining the books, invoices, receipts, and bank statements against the sanction terms. The organisation's authorised signatory also certifies it in many formats, and a CA certificate adds independent assurance and verifiability." }
-            },
-            {
-                "@type": "Question",
-                "name": "Is a utilisation certificate needed for CSR funds?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Yes. Companies and their implementing partners commonly need a utilisation certificate to evidence that CSR project funds were spent on the approved activity. It supports CSR reporting and gives the company's board and committee assurance that the funds were properly used." }
-            },
-            {
-                "@type": "Question",
-                "name": "What happens to unspent funds?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Unspent funds are disclosed in the certificate and treated per the sanction terms, generally surrendered to the funder or carried forward for the same purpose where permitted. Proper disclosure of the unspent balance is a key part of the certificate and is closely checked by funders." }
-            },
-            {
-                "@type": "Question",
-                "name": "Who can certify a fund utilisation certificate?",
-                "acceptedAnswer": { "@type": "Answer", "text": "A practising Chartered Accountant registered with ICAI, holding a valid Certificate of Practice. The certificate carries the CA's seal, firm registration number, and an 18-digit UDIN that the funder or authority can verify online." }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/fund-utilisation-certificate/delhi",
-        "name": "Fund Utilisation Certificate in Delhi",
-        "description": "Fund Utilisation Certificate by a CA with UDIN in GFR 12-A format. Proof that grant, CSR, or project funds were used as sanctioned. From INR 3,999.",
-        "url": "https://www.patronaccounting.com/fund-utilisation-certificate/delhi",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/fund-utilisation-certificate/delhi/#service" },
-        "datePublished": "2026-06-09T08:00:00+05:30",
-        "dateModified": "2026-06-09T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/fund-utilisation-certificate/delhi/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How a Fund Utilisation Certificate Is Prepared",
-        "description": "The six-step process to a CA-certified utilisation certificate: share the sanction, provide expenditure records, reconcile and verify, account for unspent funds, certify with UDIN, and submit to the funder.",
-        "totalTime": "P7D",
-        "step": [
-            { "@type": "HowToStep", "name": "Share the sanction", "text": "Provide the grant or CSR sanction letter and its terms and budget." },
-            { "@type": "HowToStep", "name": "Provide expenditure records", "text": "Invoices, receipts, vouchers, and bank statements for the project." },
-            { "@type": "HowToStep", "name": "Reconcile and verify", "text": "We map expenditure to the sanctioned heads and verify against records." },
-            { "@type": "HowToStep", "name": "Account for unspent funds", "text": "Any balance is disclosed for surrender or carry-forward per the terms." },
-            { "@type": "HowToStep", "name": "Certify with UDIN", "text": "The certificate is issued in GFR 12-A or the funder's format, with UDIN." },
-            { "@type": "HowToStep", "name": "Submit to the funder", "text": "The certificate supports the next tranche or the project closure." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Fund Utilisation Certificate Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Utilisation certificate (UC)", "description": "Certified proof that sanctioned funds were used as intended." },
-            { "@type": "DefinedTerm", "name": "GFR 12-A", "description": "The prescribed government format under the General Financial Rules." },
-            { "@type": "DefinedTerm", "name": "Sanction conditions", "description": "The funder's terms governing how the money may be spent." },
-            { "@type": "DefinedTerm", "name": "Unspent balance", "description": "Funds not used, disclosed and surrendered or carried forward per the terms." },
-            { "@type": "DefinedTerm", "name": "UDIN", "description": "18-digit number mandatory on every CA certificate since 1 July 2019." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -782,7 +618,176 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Fund Utilisation Certificate by CA in Delhi 2026 | Patron Accounting</title>
+    <meta name="description" content="Fund Utilisation Certificate by a CA with UDIN in GFR 12-A format. Proof that grant, CSR, or project funds were used as sanctioned. From INR 3,999.">
+    <link rel="canonical" href="/fund-utilisation-certificate/delhi">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Fund Utilisation Certificate by CA 2026 | Patron Accounting">
+    <meta property="og:description" content="Fund Utilisation Certificate by a CA with UDIN in GFR 12-A format. Proof that grant, CSR, or project funds were used as sanctioned. From INR 3,999.">
+    <meta property="og:url" content="/fund-utilisation-certificate/delhi">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Fund Utilisation Certificate by CA 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Fund Utilisation Certificate by a CA with UDIN in GFR 12-A format. Proof that grant, CSR, or project funds were used as sanctioned. From INR 3,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/fund-utilisation-certificate/delhi/#service",
+        "name": "Fund Utilisation Certificate in Delhi",
+        "description": "Preparation and CA certification of a fund utilisation certificate (utilisation certificate), confirming that grant, CSR, FCRA, or project funds were used for the sanctioned purpose, in Form GFR 12-A or the funder's format, disclosing funds received, expenditure, and unspent balance, with a mandatory 18-digit UDIN.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/fund-utilisation-certificate/delhi" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Grant (money)", "sameAs": "https://en.wikipedia.org/wiki/Grant_(money)" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Fund Utilisation Certificate Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": { "@type": "Service", "name": "Fund utilisation certificate by a CA" },
+                    "priceCurrency": "INR",
+                    "price": "3999",
+                    "description": "Starting from INR 3,999 (excl. GST and govt. charges)"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/fund-utilisation-certificate/delhi/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "NGO and Non Profit Accounting", "item": "https://www.patronaccounting.com/ngo-and-non-profit-accounting-services" },
+            { "@type": "ListItem", "position": 3, "name": "Fund Utilisation Certificate", "item": "https://www.patronaccounting.com/fund-utilisation-certificate/delhi" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/fund-utilisation-certificate/delhi/#faq",
+        "datePublished": "2026-06-09T08:00:00+05:30",
+        "dateModified": "2026-06-09T08:00:00+05:30",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is a fund utilisation certificate?",
+                "acceptedAnswer": { "@type": "Answer", "text": "It is a certified statement confirming that funds received for a specific project or grant were used for that purpose in line with the funder's terms. It shows the funds received, the expenditure incurred, and any unspent balance, and is commonly required before a further tranche is released or a project is closed." }
+            },
+            {
+                "@type": "Question",
+                "name": "What format is used for government grants?",
+                "acceptedAnswer": { "@type": "Answer", "text": "For grants from government bodies, the prescribed format is Form GFR 12-A under the General Financial Rules, with GFR 12-C for certain grants. It discloses the grant position at the start of the year, grants received, expenditure, and the unspent balance, with confirmation that the sanction conditions were met." }
+            },
+            {
+                "@type": "Question",
+                "name": "Who issues a utilisation certificate?",
+                "acceptedAnswer": { "@type": "Answer", "text": "It is commonly issued and certified by a practising Chartered Accountant with a UDIN, after examining the books, invoices, receipts, and bank statements against the sanction terms. The organisation's authorised signatory also certifies it in many formats, and a CA certificate adds independent assurance and verifiability." }
+            },
+            {
+                "@type": "Question",
+                "name": "Is a utilisation certificate needed for CSR funds?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Yes. Companies and their implementing partners commonly need a utilisation certificate to evidence that CSR project funds were spent on the approved activity. It supports CSR reporting and gives the company's board and committee assurance that the funds were properly used." }
+            },
+            {
+                "@type": "Question",
+                "name": "What happens to unspent funds?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Unspent funds are disclosed in the certificate and treated per the sanction terms, generally surrendered to the funder or carried forward for the same purpose where permitted. Proper disclosure of the unspent balance is a key part of the certificate and is closely checked by funders." }
+            },
+            {
+                "@type": "Question",
+                "name": "Who can certify a fund utilisation certificate?",
+                "acceptedAnswer": { "@type": "Answer", "text": "A practising Chartered Accountant registered with ICAI, holding a valid Certificate of Practice. The certificate carries the CA's seal, firm registration number, and an 18-digit UDIN that the funder or authority can verify online." }
+            }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/fund-utilisation-certificate/delhi",
+        "name": "Fund Utilisation Certificate in Delhi",
+        "description": "Fund Utilisation Certificate by a CA with UDIN in GFR 12-A format. Proof that grant, CSR, or project funds were used as sanctioned. From INR 3,999.",
+        "url": "https://www.patronaccounting.com/fund-utilisation-certificate/delhi",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/fund-utilisation-certificate/delhi/#service" },
+        "datePublished": "2026-06-09T08:00:00+05:30",
+        "dateModified": "2026-06-09T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/fund-utilisation-certificate/delhi/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How a Fund Utilisation Certificate Is Prepared",
+        "description": "The six-step process to a CA-certified utilisation certificate: share the sanction, provide expenditure records, reconcile and verify, account for unspent funds, certify with UDIN, and submit to the funder.",
+        "totalTime": "P7D",
+        "step": [
+            { "@type": "HowToStep", "name": "Share the sanction", "text": "Provide the grant or CSR sanction letter and its terms and budget." },
+            { "@type": "HowToStep", "name": "Provide expenditure records", "text": "Invoices, receipts, vouchers, and bank statements for the project." },
+            { "@type": "HowToStep", "name": "Reconcile and verify", "text": "We map expenditure to the sanctioned heads and verify against records." },
+            { "@type": "HowToStep", "name": "Account for unspent funds", "text": "Any balance is disclosed for surrender or carry-forward per the terms." },
+            { "@type": "HowToStep", "name": "Certify with UDIN", "text": "The certificate is issued in GFR 12-A or the funder's format, with UDIN." },
+            { "@type": "HowToStep", "name": "Submit to the funder", "text": "The certificate supports the next tranche or the project closure." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Fund Utilisation Certificate Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Utilisation certificate (UC)", "description": "Certified proof that sanctioned funds were used as intended." },
+            { "@type": "DefinedTerm", "name": "GFR 12-A", "description": "The prescribed government format under the General Financial Rules." },
+            { "@type": "DefinedTerm", "name": "Sanction conditions", "description": "The funder's terms governing how the money may be spent." },
+            { "@type": "DefinedTerm", "name": "Unspent balance", "description": "Funds not used, disclosed and surrendered or carried forward per the terms." },
+            { "@type": "DefinedTerm", "name": "UDIN", "description": "18-digit number mandatory on every CA certificate since 1 July 2019." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1625,17 +1630,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1658,8 +1656,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1696,7 +1692,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1 (Schema Standard v2.1 / Rule 36): visible "Last Updated" mirrors schema dateModified
 // (9 June 2026) as a STABLE value - never live new Date().
@@ -1708,3 +1703,19 @@ window.addEventListener('scroll', function() {
     if (el2) el2.textContent = dateStr;
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

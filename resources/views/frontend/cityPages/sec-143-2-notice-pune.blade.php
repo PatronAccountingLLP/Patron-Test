@@ -1,200 +1,11 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Section 143(2) Notice Pune</title>
-    <meta name="description" content="Section 143(2) notice CA in Pune: scrutiny selection, Section 144B faceless, CIT(A) appeal, ITAT Pune. Rs 25K-50K. Call +91 945 945 6700.">
-    <link rel="canonical" href="/sec-143-2-notice/pune">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Section 143(2) Notice Pune 2026 | Patron Accounting">
-    <meta property="og:description" content="Section 143(2) notice CA in Pune: scrutiny selection, Section 144B faceless, CIT(A) appeal, ITAT Pune. Rs 25K-50K. Call +91 945 945 6700.">
-    <meta property="og:url" content="/sec-143-2-notice/pune">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Section 143(2) Notice Pune 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Section 143(2) notice CA in Pune: scrutiny selection, Section 144B faceless, CIT(A) appeal, ITAT Pune. Rs 25K-50K. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/sec-143-2-notice/pune#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Income Tax Notice Pune",
-          "item": "https://www.patronaccounting.com/income-tax-notice/pune"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Section 143(2) Notice Pune",
-          "item": "https://www.patronaccounting.com/sec-143-2-notice/pune"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/sec-143-2-notice/pune#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is Section 143(2) notice of Income Tax Act?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 143(2) of the Income Tax Act 1961 is the scrutiny selection notice issued by the Assessing Officer when the return filed under Section 139 is selected for detailed Section 143(3) assessment. It is NOT itself an inquiry or a demand - it is a notification that the case has been selected. The detailed scrutiny work happens under Section 143(3) within the Section 144B faceless framework. Selection is typically driven by CASS algorithm based on risk parameters."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the time limit for Section 143(2) notice?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Per the proviso to Section 143(2) as amended by Finance Act 2021 effective 1 April 2021, the notice must be served within 3 months from the end of the financial year in which the return is furnished. For an ITR filed during FY 2024-25, the Section 143(2) notice must be served by 30 June 2025. The 3-month limit is jurisdictional - non-compliance invalidates the entire assessment. Bombay HC has consistently struck down time-barred 143(2) notices in writ proceedings."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Section 143(2) vs Section 143(3) difference?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 143(2) is the SELECTION notice - it notifies the assessee that the case has been selected for scrutiny. It is NOT itself an inquiry, does NOT seek information and does NOT demand any tax. Section 143(3) is the ASSESSMENT ORDER - the final outcome of the scrutiny conducted under Section 144B faceless framework. Between the two, the FAU issues multiple Section 142(1) questionnaires and VC hearings happen. Section 143(3) typically comes 6 to 12 months after 143(2)."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does Section 144B faceless assessment work?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Under Section 144B faceless scheme operational from 13 August 2020, a Section 143(2)-selected case is allocated by NaFAC Delhi to a Faceless Assessing Unit which may be located anywhere in India. The Pune-based AO no longer assesses the case. Workflow: NaFAC allocates to FAU, FAU issues Section 142(1) questionnaires through portal, assessee responds, multiple cycles over 6 to 12 months, VC hearings, final Section 143(3) order uploaded to portal."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I challenge Section 143(2) notice for time-bar?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes - Section 143(2) time-bar is a jurisdictional defence. If the notice is served beyond the 3-month window from end of FY of ITR filing (Finance Act 2021 amendment), the entire assessment is invalid. The time-bar challenge can be raised within Section 143(3) workflow, in CIT(A) appeal under Section 246A, in ITAT Pune Bench appeal under Section 253, or via writ to Bombay HC Mumbai under Article 226. Bombay HC has consistently struck down time-barred notices."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Where is the ITAT bench for Pune 143(3) appeals?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "ITAT Pune Bench is located at Plot No. 5, Akurdi, Pune - a physical hearing tribunal covering Pune Region for second appeals under Section 253 within 60 days of CIT(A) order. Unlike Mumbai assessees who benefit from co-located Bombay HC at Principal Seat in Mumbai, Pune assessees travel approximately 150 km inter-city to Bombay HC for Section 260A appeals and Article 226 writs."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does a Section 143(2) CA cost in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patron Pune CA fees for Section 143(2) scrutiny range from Rs 25,000 to Rs 50,000 per matter due to multi-cycle Section 144B faceless workflow over 6 to 12 months. Limited Scrutiny single-issue starts at Rs 25,000. Mid-complex issues or Complete Scrutiny under Rs 50 lakh at Rs 35,000. Above Rs 50 lakh or Compulsory at Rs 50,000. TP cases higher at Rs 1.5 lakh to Rs 7.5 lakh. ITAT Pune appeal Rs 1 lakh to Rs 2.5 lakh."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/sec-143-2-notice/pune#service",
-      "name": "Section 143(2) Notice CA in Pune - Scrutiny Selection and Faceless Assessment",
-      "url": "https://www.patronaccounting.com/sec-143-2-notice/pune",
-      "description": "Patron Accounting CA-led representation for Section 143(2) of Income Tax Act 1961 scrutiny selection notices in Pune - Section 144B faceless assessment workflow under NaFAC Delhi allocation to Faceless Assessing Units anywhere in India, Section 142(1) inquiry response cycles, Section 143(3) faceless assessment defence with VC hearing representation through e-filing portal, CIT(A) appeal under Faceless Appeal Scheme 2021, ITAT Pune Bench representation at Plot No. 5 Akurdi physical hearing tribunal and Bombay High Court Section 260A appeal at Mumbai Principal Seat (150 km inter-city). Serving Pune City, PCMC, Hinjewadi IT belt, Kharadi corporate cluster, Wakad-Aundh, Hadapsar and Talegaon-Chakan. Starting from Rs 25,000 per matter.",
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      },
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune",
-        "sameAs": "https://en.wikipedia.org/wiki/Pune"
-      },
-      "serviceType": "Section 143(2) Income Tax Scrutiny Selection Notice Reply and Section 144B Faceless Assessment Defence",
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Income Tax Act 1961",
-          "sameAs": "https://en.wikipedia.org/wiki/Income_Tax_Act,_1961"
-        },
-        {
-          "@type": "Thing",
-          "name": "Income tax in India",
-          "sameAs": "https://en.wikipedia.org/wiki/Income_tax_in_India"
-        },
-        {
-          "@type": "Thing",
-          "name": "Faceless assessment scheme",
-          "sameAs": "https://en.wikipedia.org/wiki/Faceless_Assessment_Scheme"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Section 143(2) Notice Pune Service Packages",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "name": "Limited Scrutiny Reply - Single-Issue Section 144B Faceless Workflow Pune",
-            "price": "25000",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/sec-143-2-notice/pune"
-          },
-          {
-            "@type": "Offer",
-            "name": "Complete Scrutiny Reply or Mid-Complex Limited Scrutiny Pune",
-            "price": "35000",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/sec-143-2-notice/pune"
-          },
-          {
-            "@type": "Offer",
-            "name": "Compulsory Scrutiny or Complete Scrutiny Above Rs 50 Lakh Pune",
-            "price": "50000",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/sec-143-2-notice/pune"
-          },
-          {
-            "@type": "Offer",
-            "name": "ITAT Pune Bench Appeal at Akurdi (Section 253)",
-            "price": "100000",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/sec-143-2-notice/pune"
-          }
-        ]
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -865,7 +676,201 @@ section[style*="background: var(--blue)"] .content-text,
 section[style*="background: var(--blue)"] .content-text p,
 section[style*="background: var(--blue)"] .content-text li,
 section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !important;}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Section 143(2) Notice Pune</title>
+    <meta name="description" content="Section 143(2) notice CA in Pune: scrutiny selection, Section 144B faceless, CIT(A) appeal, ITAT Pune. Rs 25K-50K. Call +91 945 945 6700.">
+    <link rel="canonical" href="/sec-143-2-notice/pune">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Section 143(2) Notice Pune 2026 | Patron Accounting">
+    <meta property="og:description" content="Section 143(2) notice CA in Pune: scrutiny selection, Section 144B faceless, CIT(A) appeal, ITAT Pune. Rs 25K-50K. Call +91 945 945 6700.">
+    <meta property="og:url" content="/sec-143-2-notice/pune">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Section 143(2) Notice Pune 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Section 143(2) notice CA in Pune: scrutiny selection, Section 144B faceless, CIT(A) appeal, ITAT Pune. Rs 25K-50K. Call +91 945 945 6700.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/sec-143-2-notice/pune#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Income Tax Notice Pune",
+          "item": "https://www.patronaccounting.com/income-tax-notice/pune"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Section 143(2) Notice Pune",
+          "item": "https://www.patronaccounting.com/sec-143-2-notice/pune"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/sec-143-2-notice/pune#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Section 143(2) notice of Income Tax Act?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 143(2) of the Income Tax Act 1961 is the scrutiny selection notice issued by the Assessing Officer when the return filed under Section 139 is selected for detailed Section 143(3) assessment. It is NOT itself an inquiry or a demand - it is a notification that the case has been selected. The detailed scrutiny work happens under Section 143(3) within the Section 144B faceless framework. Selection is typically driven by CASS algorithm based on risk parameters."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the time limit for Section 143(2) notice?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Per the proviso to Section 143(2) as amended by Finance Act 2021 effective 1 April 2021, the notice must be served within 3 months from the end of the financial year in which the return is furnished. For an ITR filed during FY 2024-25, the Section 143(2) notice must be served by 30 June 2025. The 3-month limit is jurisdictional - non-compliance invalidates the entire assessment. Bombay HC has consistently struck down time-barred 143(2) notices in writ proceedings."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Section 143(2) vs Section 143(3) difference?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 143(2) is the SELECTION notice - it notifies the assessee that the case has been selected for scrutiny. It is NOT itself an inquiry, does NOT seek information and does NOT demand any tax. Section 143(3) is the ASSESSMENT ORDER - the final outcome of the scrutiny conducted under Section 144B faceless framework. Between the two, the FAU issues multiple Section 142(1) questionnaires and VC hearings happen. Section 143(3) typically comes 6 to 12 months after 143(2)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does Section 144B faceless assessment work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under Section 144B faceless scheme operational from 13 August 2020, a Section 143(2)-selected case is allocated by NaFAC Delhi to a Faceless Assessing Unit which may be located anywhere in India. The Pune-based AO no longer assesses the case. Workflow: NaFAC allocates to FAU, FAU issues Section 142(1) questionnaires through portal, assessee responds, multiple cycles over 6 to 12 months, VC hearings, final Section 143(3) order uploaded to portal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I challenge Section 143(2) notice for time-bar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes - Section 143(2) time-bar is a jurisdictional defence. If the notice is served beyond the 3-month window from end of FY of ITR filing (Finance Act 2021 amendment), the entire assessment is invalid. The time-bar challenge can be raised within Section 143(3) workflow, in CIT(A) appeal under Section 246A, in ITAT Pune Bench appeal under Section 253, or via writ to Bombay HC Mumbai under Article 226. Bombay HC has consistently struck down time-barred notices."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where is the ITAT bench for Pune 143(3) appeals?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ITAT Pune Bench is located at Plot No. 5, Akurdi, Pune - a physical hearing tribunal covering Pune Region for second appeals under Section 253 within 60 days of CIT(A) order. Unlike Mumbai assessees who benefit from co-located Bombay HC at Principal Seat in Mumbai, Pune assessees travel approximately 150 km inter-city to Bombay HC for Section 260A appeals and Article 226 writs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does a Section 143(2) CA cost in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patron Pune CA fees for Section 143(2) scrutiny range from Rs 25,000 to Rs 50,000 per matter due to multi-cycle Section 144B faceless workflow over 6 to 12 months. Limited Scrutiny single-issue starts at Rs 25,000. Mid-complex issues or Complete Scrutiny under Rs 50 lakh at Rs 35,000. Above Rs 50 lakh or Compulsory at Rs 50,000. TP cases higher at Rs 1.5 lakh to Rs 7.5 lakh. ITAT Pune appeal Rs 1 lakh to Rs 2.5 lakh."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/sec-143-2-notice/pune#service",
+      "name": "Section 143(2) Notice CA in Pune - Scrutiny Selection and Faceless Assessment",
+      "url": "https://www.patronaccounting.com/sec-143-2-notice/pune",
+      "description": "Patron Accounting CA-led representation for Section 143(2) of Income Tax Act 1961 scrutiny selection notices in Pune - Section 144B faceless assessment workflow under NaFAC Delhi allocation to Faceless Assessing Units anywhere in India, Section 142(1) inquiry response cycles, Section 143(3) faceless assessment defence with VC hearing representation through e-filing portal, CIT(A) appeal under Faceless Appeal Scheme 2021, ITAT Pune Bench representation at Plot No. 5 Akurdi physical hearing tribunal and Bombay High Court Section 260A appeal at Mumbai Principal Seat (150 km inter-city). Serving Pune City, PCMC, Hinjewadi IT belt, Kharadi corporate cluster, Wakad-Aundh, Hadapsar and Talegaon-Chakan. Starting from Rs 25,000 per matter.",
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Pune",
+        "sameAs": "https://en.wikipedia.org/wiki/Pune"
+      },
+      "serviceType": "Section 143(2) Income Tax Scrutiny Selection Notice Reply and Section 144B Faceless Assessment Defence",
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Income Tax Act 1961",
+          "sameAs": "https://en.wikipedia.org/wiki/Income_Tax_Act,_1961"
+        },
+        {
+          "@type": "Thing",
+          "name": "Income tax in India",
+          "sameAs": "https://en.wikipedia.org/wiki/Income_tax_in_India"
+        },
+        {
+          "@type": "Thing",
+          "name": "Faceless assessment scheme",
+          "sameAs": "https://en.wikipedia.org/wiki/Faceless_Assessment_Scheme"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Section 143(2) Notice Pune Service Packages",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "Limited Scrutiny Reply - Single-Issue Section 144B Faceless Workflow Pune",
+            "price": "25000",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/sec-143-2-notice/pune"
+          },
+          {
+            "@type": "Offer",
+            "name": "Complete Scrutiny Reply or Mid-Complex Limited Scrutiny Pune",
+            "price": "35000",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/sec-143-2-notice/pune"
+          },
+          {
+            "@type": "Offer",
+            "name": "Compulsory Scrutiny or Complete Scrutiny Above Rs 50 Lakh Pune",
+            "price": "50000",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/sec-143-2-notice/pune"
+          },
+          {
+            "@type": "Offer",
+            "name": "ITAT Pune Bench Appeal at Akurdi (Section 253)",
+            "price": "100000",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/sec-143-2-notice/pune"
+          }
+        ]
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -2070,7 +2075,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 </script>
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

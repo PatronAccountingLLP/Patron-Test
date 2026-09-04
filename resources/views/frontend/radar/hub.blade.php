@@ -17,7 +17,7 @@
 @endsection
 
 @push('styles')
-    @include('partials.page-css', ['file' => 'css/radar.css'])
+@include('partials.page-css', ['file' => 'css/radar.css'])
 @endpush
 
 @section('content')

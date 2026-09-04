@@ -1,192 +1,10 @@
 
 @extends('layouts.app')
-@section('meta')
-    <title>Old vs New Regime Calculator | Compare FY 2025-26 Tax</title>
-    <meta name="description" content="Old vs New Tax Regime Calculator: side-by-side comparison with break-even point for FY 2025-26 (AY 2026-27). Free CA-reviewed tool with savings.">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/old-vs-new-regime-calculator">
-
-    <meta property="og:title" content="Old vs New Tax Regime Calculator FY 2025-26 — Compare Side-by-Side">
-    <meta property="og:description" content="Compare Old and New tax regimes side-by-side for FY 2025-26 (AY 2026-27) with break-even analysis, deduction-aware savings, and personalised regime recommendation.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/old-vs-new-regime-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Old vs New Tax Regime Calculator FY 2025-26 — Compare Side-by-Side">
-    <meta name="twitter:description" content="Side-by-side regime comparison with break-even point for FY 2025-26. Find which regime saves more tax for you.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-
-    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-@endsection
-@section('schema')
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "Old vs New Tax Regime Calculator",
-      "description": "Old vs New Tax Regime Calculator compares income tax liability side-by-side under both regimes for FY 2025-26 (AY 2026-27). New regime: ₹4L-₹24L slabs (0/5/10/15/20/25/30%), ₹75K standard deduction, ₹60K Section 87A rebate up to ₹12L taxable income, surcharge capped at 25%. Old regime: ₹2.5L/₹3L/₹5L exemption by age, slabs 5/20/30%, ₹50K standard deduction, ₹12.5K Section 87A rebate up to ₹5L, all 80C/80D/HRA/home loan deductions allowed, surcharge up to 37%. Calculator computes tax including 4% cess, applies marginal relief, identifies the better regime, and shows the deduction break-even threshold (~₹3.75L) for personalised regime planning.",
-      "url": "https://www.patronaccounting.com/tools/old-vs-new-regime-calculator",
-      "applicationCategory": "BusinessApplication",
-      "operatingSystem": "Any",
-      "inLanguage": "en-IN",
-      "isAccessibleForFree": true,
-      "datePublished": "2026-05-06T08:00:00+05:30",
-      "dateModified": "2026-05-08T08:00:00+05:30",
-      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
-      "reviewedBy": {
-        "@type": "Person",
-        "@id": "https://patronaccounting.com/#founder",
-        "name": "CA Sundram Gupta",
-        "jobTitle": "Founder & Chartered Accountant",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Institute of Chartered Accountants of India",
-            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-          }
-        }]
-      },
-      "publisher": { "@id": "https://patronaccounting.com/#organization" },
-      "provider": {"@id": "https://patronaccounting.com/#organization"}
-    }
-    </script>
-
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Old vs New Regime Calculator", "item": "https://www.patronaccounting.com/tools/old-vs-new-regime-calculator"}
-      ]
-    }
-    </script>
-
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Which regime is better for FY 2025-26 — old or new?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "It depends on your deductions. The new regime has lower slab rates and a ₹60,000 Section 87A rebate making income up to ₹12 lakh effectively tax-free. The old regime allows HRA, 80C up to ₹1.5L, 80D, home loan interest, and other deductions but with higher slab rates. The break-even point is approximately ₹3.75 lakh in total deductions. Below that, new regime usually saves more. Above that, old regime may still win — particularly if you have a large home loan."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are the new regime tax slabs for FY 2025-26?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "New regime slabs for FY 2025-26 (AY 2026-27) under Section 115BAC: 0 to ₹4 lakh — Nil; ₹4 to ₹8 lakh — 5%; ₹8 to ₹12 lakh — 10%; ₹12 to ₹16 lakh — 15%; ₹16 to ₹20 lakh — 20%; ₹20 to ₹24 lakh — 25%; above ₹24 lakh — 30%. Slabs apply uniformly to all individuals regardless of age. Standard deduction ₹75,000 for salaried, plus 4% cess. Surcharge above ₹50L is capped at 25%."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are the old regime tax slabs for FY 2025-26?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Old regime slabs are unchanged for FY 2025-26. For individuals below 60: 0 to ₹2.5L — Nil; ₹2.5 to ₹5L — 5%; ₹5 to ₹10L — 20%; above ₹10L — 30%. Senior citizens (60-80): basic exemption up to ₹3 lakh. Super senior citizens (80+): up to ₹5 lakh. Standard deduction ₹50,000 for salaried, ₹50,000 for pensioners. All Chapter VI-A deductions (80C, 80D, 80E, 80G, etc.), HRA exemption, and home loan interest available. Surcharge up to 37% above ₹5 crore income."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is the new regime the default for FY 2025-26?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. The new regime is the default tax regime from FY 2024-25 under Section 115BAC of the Income Tax Act 1961. If you do not actively opt for the old regime, your employer will deduct TDS under the new regime. Salaried individuals can switch between regimes annually at the time of ITR filing. Business and professional income earners must exercise the option carefully using Form 10IEA — once opted in or out, switching back has restrictions."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What deductions are allowed in the new regime?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The new regime allows only a limited set of deductions: standard deduction of ₹75,000 for salaried employees and pensioners, employer NPS contribution under Section 80CCD(2) up to 14% of salary for government and 10% private, transport allowance for specially-abled, conveyance allowance for tour-related travel, and family pension deduction up to ₹25,000. HRA, LTA, Section 80C, 80D, 80E, home loan interest under Section 24(b), and most other deductions are NOT available."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is Section 87A rebate different between regimes?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 87A rebate amounts differ significantly. In the new regime for FY 2025-26: up to ₹60,000 rebate if total taxable income does not exceed ₹12,00,000. Marginal relief applies between ₹12L and ~₹12.7L of taxable income. In the old regime: up to ₹12,500 rebate if total taxable income does not exceed ₹5,00,000. Both rebates apply only to resident individuals. Capital gains taxed at special rates under Sections 111A and 112A do not qualify for the rebate."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the break-even deduction point between old and new regime?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The break-even deduction threshold is approximately ₹3.75 lakh for most income levels. Below this, the new regime almost always saves more tax due to its lower slabs and higher rebate. Above ₹3.75L in total deductions (sum of 80C, 80D, HRA exemption, home loan interest, NPS, LTA), the old regime starts saving more. For income above ₹15L with a home loan plus rent paid, the old regime often remains attractive. Use the calculator above for your specific case."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does surcharge differ between regimes?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Surcharge rates apply on tax (before cess) for high-income taxpayers. New regime: 10% above ₹50L, 15% above ₹1cr, 25% above ₹2cr (no further bracket — capped at 25%). Old regime: 10% above ₹50L, 15% above ₹1cr, 25% above ₹2cr, 37% above ₹5cr. The new regime is more attractive for ultra-high-net-worth individuals due to the 25% cap. Marginal relief applies at each surcharge boundary to ensure the increased tax does not exceed the additional income."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I switch between regimes every year?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "For salaried individuals without business income, yes — you can switch annually at ITR filing. Inform your employer at the start of the financial year for accurate TDS, but change at filing if better. For taxpayers with business or professional income, switching has restrictions under Section 115BAC(6) — once you opt out of the new regime, you can re-enter only once in your lifetime, and Form 10IEA must be filed. Plan carefully if you have business income."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does the new regime suit senior citizens?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "It depends. The new regime does not provide higher basic exemptions for seniors — uniform ₹4L threshold for all. However, the higher standard deduction and ₹60K Section 87A rebate often make it competitive. Old regime gives ₹3L exemption for 60-80 age group and ₹5L for 80+, plus 80TTB ₹50K interest deduction. For seniors with high medical premiums and FD interest, old regime can win. Run both calculations."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Are tax slabs changing for FY 2026-27?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Budget 2026 (presented February 2026) made no changes to slab rates, Section 87A rebate amounts, surcharge rates, or cess. Both the old and new regime slabs continue unchanged for FY 2026-27. The new Income Tax Act 2025 effective 1 April 2026 retains the substantive tax structure with renumbered references — Section 115BAC moves to Section 202, but rates and thresholds remain the same. Your regime decision logic for FY 2025-26 applies equally to FY 2026-27."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I claim home loan interest in the new regime?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Only for let-out (rented) property. Under the new regime, home loan interest under Section 24(b) is fully deductible against rental income from let-out property — no cap. However, for self-occupied property, Section 24(b) deduction up to ₹2 lakh is NOT available in the new regime. The old regime allows up to ₹2 lakh for self-occupied property and unlimited for let-out (with ₹2L house property loss set-off cap). Home loan borrowers with self-occupied property usually prefer old regime."
-          }
-        }
-      ]
-    }
-    </script>
-@endsection
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
-    <style>
+@push('styles')
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
         :root {
             --primary: #15365f; --primary-light: #1f4a7a; --primary-dark: #0a2240;
             --accent: #f26522; --accent-light: #ff8347;
@@ -429,6 +247,190 @@ button, .toggle-btn, .toggle-btn.active, .faq-question, .sidebar-link, .toc-nav 
     .schedule-table tbody td, .rate-table tbody td, .recon-table tbody td { padding: 8px 10px; }
 }
     </style>
+@endpush
+
+@section('meta')
+    <title>Old vs New Regime Calculator | Compare FY 2025-26 Tax</title>
+    <meta name="description" content="Old vs New Tax Regime Calculator: side-by-side comparison with break-even point for FY 2025-26 (AY 2026-27). Free CA-reviewed tool with savings.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/old-vs-new-regime-calculator">
+
+    <meta property="og:title" content="Old vs New Tax Regime Calculator FY 2025-26 — Compare Side-by-Side">
+    <meta property="og:description" content="Compare Old and New tax regimes side-by-side for FY 2025-26 (AY 2026-27) with break-even analysis, deduction-aware savings, and personalised regime recommendation.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/old-vs-new-regime-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Old vs New Tax Regime Calculator FY 2025-26 — Compare Side-by-Side">
+    <meta name="twitter:description" content="Side-by-side regime comparison with break-even point for FY 2025-26. Find which regime saves more tax for you.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+@endsection
+@section('schema')
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Old vs New Tax Regime Calculator",
+      "description": "Old vs New Tax Regime Calculator compares income tax liability side-by-side under both regimes for FY 2025-26 (AY 2026-27). New regime: ₹4L-₹24L slabs (0/5/10/15/20/25/30%), ₹75K standard deduction, ₹60K Section 87A rebate up to ₹12L taxable income, surcharge capped at 25%. Old regime: ₹2.5L/₹3L/₹5L exemption by age, slabs 5/20/30%, ₹50K standard deduction, ₹12.5K Section 87A rebate up to ₹5L, all 80C/80D/HRA/home loan deductions allowed, surcharge up to 37%. Calculator computes tax including 4% cess, applies marginal relief, identifies the better regime, and shows the deduction break-even threshold (~₹3.75L) for personalised regime planning.",
+      "url": "https://www.patronaccounting.com/tools/old-vs-new-regime-calculator",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Any",
+      "inLanguage": "en-IN",
+      "isAccessibleForFree": true,
+      "datePublished": "2026-05-06T08:00:00+05:30",
+      "dateModified": "2026-05-08T08:00:00+05:30",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
+      "reviewedBy": {
+        "@type": "Person",
+        "@id": "https://patronaccounting.com/#founder",
+        "name": "CA Sundram Gupta",
+        "jobTitle": "Founder & Chartered Accountant",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Institute of Chartered Accountants of India",
+            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+          }
+        }]
+      },
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": {"@id": "https://patronaccounting.com/#organization"}
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Old vs New Regime Calculator", "item": "https://www.patronaccounting.com/tools/old-vs-new-regime-calculator"}
+      ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Which regime is better for FY 2025-26 — old or new?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It depends on your deductions. The new regime has lower slab rates and a ₹60,000 Section 87A rebate making income up to ₹12 lakh effectively tax-free. The old regime allows HRA, 80C up to ₹1.5L, 80D, home loan interest, and other deductions but with higher slab rates. The break-even point is approximately ₹3.75 lakh in total deductions. Below that, new regime usually saves more. Above that, old regime may still win — particularly if you have a large home loan."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the new regime tax slabs for FY 2025-26?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "New regime slabs for FY 2025-26 (AY 2026-27) under Section 115BAC: 0 to ₹4 lakh — Nil; ₹4 to ₹8 lakh — 5%; ₹8 to ₹12 lakh — 10%; ₹12 to ₹16 lakh — 15%; ₹16 to ₹20 lakh — 20%; ₹20 to ₹24 lakh — 25%; above ₹24 lakh — 30%. Slabs apply uniformly to all individuals regardless of age. Standard deduction ₹75,000 for salaried, plus 4% cess. Surcharge above ₹50L is capped at 25%."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the old regime tax slabs for FY 2025-26?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Old regime slabs are unchanged for FY 2025-26. For individuals below 60: 0 to ₹2.5L — Nil; ₹2.5 to ₹5L — 5%; ₹5 to ₹10L — 20%; above ₹10L — 30%. Senior citizens (60-80): basic exemption up to ₹3 lakh. Super senior citizens (80+): up to ₹5 lakh. Standard deduction ₹50,000 for salaried, ₹50,000 for pensioners. All Chapter VI-A deductions (80C, 80D, 80E, 80G, etc.), HRA exemption, and home loan interest available. Surcharge up to 37% above ₹5 crore income."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the new regime the default for FY 2025-26?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The new regime is the default tax regime from FY 2024-25 under Section 115BAC of the Income Tax Act 1961. If you do not actively opt for the old regime, your employer will deduct TDS under the new regime. Salaried individuals can switch between regimes annually at the time of ITR filing. Business and professional income earners must exercise the option carefully using Form 10IEA — once opted in or out, switching back has restrictions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What deductions are allowed in the new regime?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The new regime allows only a limited set of deductions: standard deduction of ₹75,000 for salaried employees and pensioners, employer NPS contribution under Section 80CCD(2) up to 14% of salary for government and 10% private, transport allowance for specially-abled, conveyance allowance for tour-related travel, and family pension deduction up to ₹25,000. HRA, LTA, Section 80C, 80D, 80E, home loan interest under Section 24(b), and most other deductions are NOT available."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is Section 87A rebate different between regimes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 87A rebate amounts differ significantly. In the new regime for FY 2025-26: up to ₹60,000 rebate if total taxable income does not exceed ₹12,00,000. Marginal relief applies between ₹12L and ~₹12.7L of taxable income. In the old regime: up to ₹12,500 rebate if total taxable income does not exceed ₹5,00,000. Both rebates apply only to resident individuals. Capital gains taxed at special rates under Sections 111A and 112A do not qualify for the rebate."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the break-even deduction point between old and new regime?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The break-even deduction threshold is approximately ₹3.75 lakh for most income levels. Below this, the new regime almost always saves more tax due to its lower slabs and higher rebate. Above ₹3.75L in total deductions (sum of 80C, 80D, HRA exemption, home loan interest, NPS, LTA), the old regime starts saving more. For income above ₹15L with a home loan plus rent paid, the old regime often remains attractive. Use the calculator above for your specific case."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does surcharge differ between regimes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Surcharge rates apply on tax (before cess) for high-income taxpayers. New regime: 10% above ₹50L, 15% above ₹1cr, 25% above ₹2cr (no further bracket — capped at 25%). Old regime: 10% above ₹50L, 15% above ₹1cr, 25% above ₹2cr, 37% above ₹5cr. The new regime is more attractive for ultra-high-net-worth individuals due to the 25% cap. Marginal relief applies at each surcharge boundary to ensure the increased tax does not exceed the additional income."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I switch between regimes every year?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For salaried individuals without business income, yes — you can switch annually at ITR filing. Inform your employer at the start of the financial year for accurate TDS, but change at filing if better. For taxpayers with business or professional income, switching has restrictions under Section 115BAC(6) — once you opt out of the new regime, you can re-enter only once in your lifetime, and Form 10IEA must be filed. Plan carefully if you have business income."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does the new regime suit senior citizens?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It depends. The new regime does not provide higher basic exemptions for seniors — uniform ₹4L threshold for all. However, the higher standard deduction and ₹60K Section 87A rebate often make it competitive. Old regime gives ₹3L exemption for 60-80 age group and ₹5L for 80+, plus 80TTB ₹50K interest deduction. For seniors with high medical premiums and FD interest, old regime can win. Run both calculations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are tax slabs changing for FY 2026-27?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Budget 2026 (presented February 2026) made no changes to slab rates, Section 87A rebate amounts, surcharge rates, or cess. Both the old and new regime slabs continue unchanged for FY 2026-27. The new Income Tax Act 2025 effective 1 April 2026 retains the substantive tax structure with renumbered references — Section 115BAC moves to Section 202, but rates and thresholds remain the same. Your regime decision logic for FY 2025-26 applies equally to FY 2026-27."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I claim home loan interest in the new regime?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Only for let-out (rented) property. Under the new regime, home loan interest under Section 24(b) is fully deductible against rental income from let-out property — no cap. However, for self-occupied property, Section 24(b) deduction up to ₹2 lakh is NOT available in the new regime. The old regime allows up to ₹2 lakh for self-occupied property and unlimited for let-out (with ₹2L house property loss set-off cap). Home loan borrowers with self-occupied property usually prefer old regime."
+          }
+        }
+      ]
+    }
+    </script>
+@endsection
 @section('content')
 
 <nav class="toc-nav" aria-label="Page Navigation">

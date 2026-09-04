@@ -1,161 +1,12 @@
 
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Trademark Rectification Gurugram - TM-O & Grounds</title>
-    <meta name="description" content="Trademark rectification in Gurugram. S47 non-use cancellation. S57 rectification. Clear blocking marks. Defence. Delhi HC. Call +91 945 945 6700.">
-    <link rel="canonical" href="/trademark-rectification/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Trademark Rectification Gurugram - TM-O & Grounds">
-    <meta property="og:description" content="Trademark rectification in Gurugram. S47 non-use cancellation. S57 rectification. Clear blocking marks. Defence. Delhi HC. Call +91 945 945 6700.">
-    <meta property="og:url" content="/trademark-rectification/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Trademark Rectification Gurugram - TM-O & Grounds">
-    <meta name="twitter:description" content="Trademark rectification in Gurugram. S47 non-use cancellation. S57 rectification. Clear blocking marks. Defence. Delhi HC. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "Trademark Rectification in Gurugram | S47 S57",
-      "description": "Trademark rectification in Gurugram. S47 non-use cancellation. S57 rectification. Clear blocking marks. Defence. Delhi HC. Call +91 945 945 6700.",
-      "url": "https://www.patronaccounting.com/trademark-rectification/gurugram",
-      "serviceType": "Trademark Rectification in Gurugram | S47 S57",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/trademark-rectification/gurugram",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "minPrice": "3000",
-          "maxPrice": "15000",
-          "priceCurrency": "INR"
-        }
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Trademark Rectification: Process & Grounds",
-          "item": "https://www.patronaccounting.com/trademark-rectification"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Trademark Rectification in Gurugram | S47 S57",
-          "item": "https://www.patronaccounting.com/trademark-rectification/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Can a registered trademark be cancelled or removed?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Section 47 allows removal for non-use: if a mark has not been used for 5 continuous years from the date of registration, or was registered without bona fide intention to use. Section 57 allows rectification for contravention of conditions, entry without sufficient cause, mark wrongly remaining on the Register, error or defect, or fraud/misrepresentation. Any aggrieved person can file."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does trademark rectification cost?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Government fee: Rs 3,000 (e-filing Form TM-O). Professional: Rs 15,000-35,000 for filing. Defence against rectification: Rs 15,000-40,000. Evidence preparation: Rs 5,000-10,000. Hearing representation: Rs 8,000-15,000. Delhi HC filing: Rs 20,000-50,000 plus court fees. Call +91 945 945 6700 for a detailed quote."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Who bears the burden of proof in non-use cancellation?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. Hearing: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I clear a blocking mark for my trademark application?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. If your application faces a Section 11 objection citing a prior registered mark that is dormant or unused, you can file a Section 47 non-use cancellation petition. Once the blocking mark is cancelled, the S11 objection is lifted and your application proceeds to registration. This is one of the most common strategic uses of trademark rectification."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is rectification different from opposition?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Opposition is filed BEFORE a mark is registered (within the 4-month window after Trademark Journal publication). Rectification is filed AFTER a mark has already been registered. Rectification is costlier and takes longer than opposition (1-3 years vs several months). This is why Trademark Journal monitoring is important - filing opposition within the 4-month window prevents the need for costlier rectification."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Where do I file rectification for Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Before the Trademark Registry (the same office where the original mark was filed) or the Delhi High Court. For Haryana/Gurugram matters, the Delhi High Court has jurisdiction. Since IPAB was abolished in 2021, all appeals from Registrar decisions also go directly to the Delhi High Court."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does trademark rectification take?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "1 to 3 years from filing to decision. Filing and counter-statement phase: 3-6 months. Evidence stages via affidavits: 4-8 months. Hearing scheduling: 3-6 months. Registrar decision: 1-3 months after hearing. Appeal to Delhi High Court (if filed): additional 6-12 months. The evidence stage is typically the longest phase. Quick Answers Blocking mark hata sakte hain? Haan. Agar registered mark 5+ saal se use nahi hua (S47), ya fraud se registered hai (S57), toh cancellation petition file karke hata sakte ho. Registrar ya Delhi HC mein file karo. Mere mark pe rectification aaya toh? Counter-statement file karo with evidence of use - invoices, advertisements, products. Burden aap pe hai (owner) use prove karne ka. Strong evidence = mark safe. Opposition se alag kaise? Opposition registration se PEHLE (4 months window). Rectification registration ke BAAD. Rectification longer aur costlier hai. Isliye TM Journal monitoring rakho aur opposition time pe karo."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -679,7 +530,161 @@ section ul li:not(.nav-item) { font-size: 14px; }
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'Join Community'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Trademark Rectification Gurugram - TM-O & Grounds</title>
+    <meta name="description" content="Trademark rectification in Gurugram. S47 non-use cancellation. S57 rectification. Clear blocking marks. Defence. Delhi HC. Call +91 945 945 6700.">
+    <link rel="canonical" href="/trademark-rectification/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Trademark Rectification Gurugram - TM-O & Grounds">
+    <meta property="og:description" content="Trademark rectification in Gurugram. S47 non-use cancellation. S57 rectification. Clear blocking marks. Defence. Delhi HC. Call +91 945 945 6700.">
+    <meta property="og:url" content="/trademark-rectification/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Trademark Rectification Gurugram - TM-O & Grounds">
+    <meta name="twitter:description" content="Trademark rectification in Gurugram. S47 non-use cancellation. S57 rectification. Clear blocking marks. Defence. Delhi HC. Call +91 945 945 6700.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "Trademark Rectification in Gurugram | S47 S57",
+      "description": "Trademark rectification in Gurugram. S47 non-use cancellation. S57 rectification. Clear blocking marks. Defence. Delhi HC. Call +91 945 945 6700.",
+      "url": "https://www.patronaccounting.com/trademark-rectification/gurugram",
+      "serviceType": "Trademark Rectification in Gurugram | S47 S57",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.patronaccounting.com/trademark-rectification/gurugram",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": "3000",
+          "maxPrice": "15000",
+          "priceCurrency": "INR"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Trademark Rectification: Process & Grounds",
+          "item": "https://www.patronaccounting.com/trademark-rectification"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Trademark Rectification in Gurugram | S47 S57",
+          "item": "https://www.patronaccounting.com/trademark-rectification/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can a registered trademark be cancelled or removed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Section 47 allows removal for non-use: if a mark has not been used for 5 continuous years from the date of registration, or was registered without bona fide intention to use. Section 57 allows rectification for contravention of conditions, entry without sufficient cause, mark wrongly remaining on the Register, error or defect, or fraud/misrepresentation. Any aggrieved person can file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does trademark rectification cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Government fee: Rs 3,000 (e-filing Form TM-O). Professional: Rs 15,000-35,000 for filing. Defence against rectification: Rs 15,000-40,000. Evidence preparation: Rs 5,000-10,000. Hearing representation: Rs 8,000-15,000. Delhi HC filing: Rs 20,000-50,000 plus court fees. Call +91 945 945 6700 for a detailed quote."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who bears the burden of proof in non-use cancellation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. Hearing: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I clear a blocking mark for my trademark application?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. If your application faces a Section 11 objection citing a prior registered mark that is dormant or unused, you can file a Section 47 non-use cancellation petition. Once the blocking mark is cancelled, the S11 objection is lifted and your application proceeds to registration. This is one of the most common strategic uses of trademark rectification."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is rectification different from opposition?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Opposition is filed BEFORE a mark is registered (within the 4-month window after Trademark Journal publication). Rectification is filed AFTER a mark has already been registered. Rectification is costlier and takes longer than opposition (1-3 years vs several months). This is why Trademark Journal monitoring is important - filing opposition within the 4-month window prevents the need for costlier rectification."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where do I file rectification for Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Before the Trademark Registry (the same office where the original mark was filed) or the Delhi High Court. For Haryana/Gurugram matters, the Delhi High Court has jurisdiction. Since IPAB was abolished in 2021, all appeals from Registrar decisions also go directly to the Delhi High Court."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does trademark rectification take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "1 to 3 years from filing to decision. Filing and counter-statement phase: 3-6 months. Evidence stages via affidavits: 4-8 months. Hearing scheduling: 3-6 months. Registrar decision: 1-3 months after hearing. Appeal to Delhi High Court (if filed): additional 6-12 months. The evidence stage is typically the longest phase. Quick Answers Blocking mark hata sakte hain? Haan. Agar registered mark 5+ saal se use nahi hua (S47), ya fraud se registered hai (S57), toh cancellation petition file karke hata sakte ho. Registrar ya Delhi HC mein file karo. Mere mark pe rectification aaya toh? Counter-statement file karo with evidence of use - invoices, advertisements, products. Burden aap pe hai (owner) use prove karne ka. Strong evidence = mark safe. Opposition se alag kaise? Opposition registration se PEHLE (4 months window). Rectification registration ke BAAD. Rectification longer aur costlier hai. Isliye TM Journal monitoring rakho aur opposition time pe karo."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1605,7 +1610,6 @@ var tocWrapper=document.getElementById('tocWrapper');document.getElementById('to
 
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

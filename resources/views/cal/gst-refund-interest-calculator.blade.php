@@ -1,196 +1,8 @@
 @extends('layouts.app')
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
-@section('meta')
-    <title>GST Refund Interest Calculator | Section 56 at 6%/9%</title>
-    <meta name="description" content="GST refund interest calculator under Section 56: compute 6% or 9% interest on delayed refunds with the 60-day rule and two-tier doctrine. Free CA tool. Try now!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/gst-refund-interest-calculator">
-    <meta property="og:title" content="GST Refund Interest Calculator — Section 56 CGST 2026">
-    <meta property="og:description" content="Compute interest on delayed GST refunds at 6% or 9% under Section 56 CGST. Two-tier doctrine, 60-day rule, RFD forms. Free CA tool.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/gst-refund-interest-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="GST Refund Interest Calculator — Section 56 CGST 2026">
-    <meta name="twitter:description" content="Compute interest on delayed GST refunds at 6% or 9% under Section 56 CGST. Two-tier doctrine, 60-day rule. Free CA tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-    <meta name="theme-color" content="#15365f">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "GST Refund Interest Calculator (Section 56)",
-      "description": "GST Refund Interest Calculator computes statutory interest on delayed GST refunds under Section 56 of the Central Goods and Services Tax Act 2017. The tool supports both interest rates: 6% per annum for general delayed refunds under Section 54(5), and 9% per annum for refunds arising from orders of Adjudicating Authority, Appellate Authority, GST Appellate Tribunal, or Court that have attained finality. The two-tier interest computation framework established by Delhi High Court in Bansal International and confirmed by Bombay High Court in Lupin Limited is supported — 6% for the initial administrative delay period and 9% for the appellate-pursuant period. Inputs include refund amount, date of receipt of refund application in Form GST RFD-01, date of refund credit through Form GST RFD-05, and optional appellate application date for two-tier computation. Output includes 60-day exemption period end date, interest start date (day 61), days of delay, interest amount, and total amount due. Aligned with Notification 13/2017-Central Tax that fixed the rates, Rule 94 governing sanction, Circular 125/44/2019-GST clarifying computation methodology, and Notification 13/2025-Central Tax under GST 2.0 reforms reinforcing the 60-day rule and 7-day provisional refund timeline under Rule 91. Suitable for exporters claiming IGST refunds on zero-rated supplies, businesses with inverted duty structure refunds, taxpayers with excess cash ledger balance, deemed-export claimants, pre-deposit refund under Sections 107(6) and 112(8), and CA practitioners computing interest entitlement post Raghav Ventures judgment that confirmed automatic statutory entitlement without separate claim.",
-      "url": "https://www.patronaccounting.com/tools/gst-refund-interest-calculator",
-      "applicationCategory": "FinanceApplication",
-      "operatingSystem": "Any",
-      "datePublished": "2026-05-07T08:00:00+05:30",
-      "dateModified": "2026-05-19T08:00:00+05:30",
-      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
-      "author": {
-        "@type": "Person",
-        "@id": "https://patronaccounting.com/#founder",
-        "name": "CA Sundram Gupta",
-        "jobTitle": "Founder & Chartered Accountant",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Institute of Chartered Accountants of India",
-            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-          }
-        }]
-      },
-      "publisher": { "@id": "https://patronaccounting.com/#organization" },
-      "provider": { "@id": "https://patronaccounting.com/#organization" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "GST Refund Interest Calculator", "item": "https://www.patronaccounting.com/tools/gst-refund-interest-calculator"}
-      ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "datePublished": "2026-05-07T08:00:00+05:30",
-      "dateModified": "2026-05-19T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is Section 56 of the CGST Act?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 56 of the Central Goods and Services Tax Act 2017 mandates payment of interest to taxpayers when GST refunds are delayed beyond sixty days from receipt of the refund application. The provision came into force on 1 July 2017 via Notification 9/2017-Central Tax. The standard rate is 6% per annum, increasing to 9% where the refund arises pursuant to an order of an Adjudicating Authority, Appellate Authority, GST Appellate Tribunal, or Court that has attained finality."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "When does interest start accruing?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Interest accrues from the day immediately after expiry of sixty days from receipt of the refund application until the date the refund is credited to the applicant's bank account. If application is filed on 1 January, the 60-day period ends 1 March, and interest begins on 2 March (day 61). The terminal date is when payment advice in Form GST RFD-05 is given effect through electronic credit. Circular 125/44/2019-GST confirms this computation methodology."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between 6% and 9% interest?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "6% per annum applies to general delayed refunds under Section 54(5) where administrative delay alone is the cause. 9% per annum applies to refunds arising pursuant to orders of an Adjudicating Authority, Appellate Authority, Tribunal, or Court that have attained finality, when the post-order refund application is itself delayed beyond 60 days. Supreme Court in Union of India vs Willowood Chemicals (2022) confirmed 6% is the standard rate; 9% is reserved for genuinely appellate-pursuant claims, not general administrative delays."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is interest automatic or do I need to claim it?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Interest under Section 56 is statutory and automatic. Delhi HC in Raghav Ventures vs Commissioner of Delhi (2024) held that 6% interest is payable without any separate claim — even a waiver in the refund application cannot extinguish the statutory entitlement. The right vests automatically on the 61st day post-application. The department must compute and credit interest with the principal refund through Form GST RFD-05. In practice, taxpayers often file writ petitions when departments overlook this."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the two-tier interest doctrine?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The two-tier doctrine emerges from Delhi HC in Bansal International and Bombay HC in Lupin Limited. Where a refund is initially rejected and later allowed by an appellate forum, two distinct delay periods exist. The first period attracts 6% interest from day 61 of original application until day 60 of post-appeal application. The second period attracts 9% interest from day 61 of post-appeal application until refund credit. The doctrine ensures full compensation across the entire timeline."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Are weekends and holidays included?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Interest is computed on a daily basis as simple interest using the formula: Refund Amount × Rate × Days ÷ 365. All calendar days are counted including Saturdays, Sundays, and gazetted holidays. The day of application receipt is excluded from the 60-day count, and the day of refund credit is included in the delay period. The Delhi High Court has consistently rejected attempts to exclude administrative delay periods from the count, including delays caused by departmental investigations or red-flagging."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is provisional refund under Section 54(6)?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 54(6) read with Rule 91 prescribes that ninety percent of refund claimed on zero-rated supplies (exports) shall be granted on a provisional basis within seven days of generating acknowledgment in Form GST RFD-02. The provisional order is issued in Form GST RFD-04. Notification 13/2025-Central Tax under GST 2.0 reaffirmed this seven-day timeline. The remaining ten percent is released after final scrutiny. Provisional timing does not affect the 60-day clock for Section 56 interest."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which forms are involved in GST refund?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The refund process uses several forms. Form GST RFD-01 is the refund application filed by the taxpayer. RFD-02 is the acknowledgment generated by the system. RFD-03 is the deficiency memo issued for incomplete applications. RFD-04 is the provisional refund order under Section 54(6). RFD-05 is the payment advice through which refund and interest are credited. RFD-06 is the final refund sanction order. Rule 94 specifically governs sanction of interest on delayed refunds, which must accompany the principal refund through RFD-05."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can refund interest be denied for departmental delays?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Courts have consistently held that administrative delay does not justify denial of statutory interest. In Raghav Ventures (2024), Delhi HC directed payment of 6% interest despite department citing delays from risky-exporter red-flagging. Section 56 contains no exclusion for departmental investigation periods. Circular 16/2019 mandates investigation completion within 30 days. Periods where the applicant fails to respond to deficiency memos or provides invalid bank details may be excluded under Rule 94, but pure departmental inaction is not a valid exclusion."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does the 60-day clock interact with deficiency memos?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "If the proper officer issues a deficiency memo in Form GST RFD-03 within fifteen days of receipt, the original application is treated as not filed. The taxpayer must file a fresh application. The 60-day clock restarts from the fresh application date. Mere allegation of deficiency without RFD-03 within fifteen days does not stop the original clock. Late deficiency memos issued to reset the timeline have been judicially scrutinised and limited to genuinely deficient applications."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What types of refunds attract Section 56 interest?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "All refunds under Section 54 attract Section 56 interest if delayed. Common categories include zero-rated supply refunds (exports, SEZ supplies) under Section 16 IGST, inverted duty structure refunds (where input GST exceeds output GST), excess balance in electronic cash ledger, deemed-export refunds, refund of tax paid in error, and pre-deposit refunds under Sections 107(6) and 112(8) on appeal disposal. The 9% rate specifically applies when refund flows from appellate or judicial orders that have attained finality."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What did the Supreme Court hold in Willowood Chemicals?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "In Union of India vs Willowood Chemicals (2022), the Supreme Court reversed Gujarat HC's grant of 9% interest on delayed IGST refunds. The apex court held that where delay is administrative and not pursuant to an appellate order, the statutory rate is 6% under Section 56's principal provision. The 9% rate cannot be invoked merely because delay was lengthy or caused commercial hardship. The judgment narrowed 9% scope to refunds genuinely from finality orders, settling earlier divergent High Court positions."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What changed under GST 2.0 reforms?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Notification 13/2025-Central Tax dated 17 September 2025, issued post the 56th GST Council meeting, reinforced refund timelines under GST 2.0 reforms. Rule 91(2) was amended to mandate that the provisional refund order in Form GST RFD-04 be issued within seven days of acknowledgment in Form RFD-02. Notification 14/2025 introduced restrictions on provisional refunds for non-Aadhaar-authenticated taxpayers and for suppliers of pan masala, tobacco, and essential oils. Section 56 interest framework remained unchanged; the 6% and 9% rates continue."
-          }
-        }
-      ]
-    }
-    </script>
-@endsection
-
 <style>
         :root {
             --primary: #15365f;
@@ -435,7 +247,195 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 }
 
 </style>
+@endpush
 
+@section('meta')
+    <title>GST Refund Interest Calculator | Section 56 at 6%/9%</title>
+    <meta name="description" content="GST refund interest calculator under Section 56: compute 6% or 9% interest on delayed refunds with the 60-day rule and two-tier doctrine. Free CA tool. Try now!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/gst-refund-interest-calculator">
+    <meta property="og:title" content="GST Refund Interest Calculator — Section 56 CGST 2026">
+    <meta property="og:description" content="Compute interest on delayed GST refunds at 6% or 9% under Section 56 CGST. Two-tier doctrine, 60-day rule, RFD forms. Free CA tool.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/gst-refund-interest-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GST Refund Interest Calculator — Section 56 CGST 2026">
+    <meta name="twitter:description" content="Compute interest on delayed GST refunds at 6% or 9% under Section 56 CGST. Two-tier doctrine, 60-day rule. Free CA tool.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+    <meta name="theme-color" content="#15365f">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "GST Refund Interest Calculator (Section 56)",
+      "description": "GST Refund Interest Calculator computes statutory interest on delayed GST refunds under Section 56 of the Central Goods and Services Tax Act 2017. The tool supports both interest rates: 6% per annum for general delayed refunds under Section 54(5), and 9% per annum for refunds arising from orders of Adjudicating Authority, Appellate Authority, GST Appellate Tribunal, or Court that have attained finality. The two-tier interest computation framework established by Delhi High Court in Bansal International and confirmed by Bombay High Court in Lupin Limited is supported — 6% for the initial administrative delay period and 9% for the appellate-pursuant period. Inputs include refund amount, date of receipt of refund application in Form GST RFD-01, date of refund credit through Form GST RFD-05, and optional appellate application date for two-tier computation. Output includes 60-day exemption period end date, interest start date (day 61), days of delay, interest amount, and total amount due. Aligned with Notification 13/2017-Central Tax that fixed the rates, Rule 94 governing sanction, Circular 125/44/2019-GST clarifying computation methodology, and Notification 13/2025-Central Tax under GST 2.0 reforms reinforcing the 60-day rule and 7-day provisional refund timeline under Rule 91. Suitable for exporters claiming IGST refunds on zero-rated supplies, businesses with inverted duty structure refunds, taxpayers with excess cash ledger balance, deemed-export claimants, pre-deposit refund under Sections 107(6) and 112(8), and CA practitioners computing interest entitlement post Raghav Ventures judgment that confirmed automatic statutory entitlement without separate claim.",
+      "url": "https://www.patronaccounting.com/tools/gst-refund-interest-calculator",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Any",
+      "datePublished": "2026-05-07T08:00:00+05:30",
+      "dateModified": "2026-05-19T08:00:00+05:30",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
+      "author": {
+        "@type": "Person",
+        "@id": "https://patronaccounting.com/#founder",
+        "name": "CA Sundram Gupta",
+        "jobTitle": "Founder & Chartered Accountant",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Institute of Chartered Accountants of India",
+            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+          }
+        }]
+      },
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": { "@id": "https://patronaccounting.com/#organization" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "GST Refund Interest Calculator", "item": "https://www.patronaccounting.com/tools/gst-refund-interest-calculator"}
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "datePublished": "2026-05-07T08:00:00+05:30",
+      "dateModified": "2026-05-19T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Section 56 of the CGST Act?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 56 of the Central Goods and Services Tax Act 2017 mandates payment of interest to taxpayers when GST refunds are delayed beyond sixty days from receipt of the refund application. The provision came into force on 1 July 2017 via Notification 9/2017-Central Tax. The standard rate is 6% per annum, increasing to 9% where the refund arises pursuant to an order of an Adjudicating Authority, Appellate Authority, GST Appellate Tribunal, or Court that has attained finality."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When does interest start accruing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Interest accrues from the day immediately after expiry of sixty days from receipt of the refund application until the date the refund is credited to the applicant's bank account. If application is filed on 1 January, the 60-day period ends 1 March, and interest begins on 2 March (day 61). The terminal date is when payment advice in Form GST RFD-05 is given effect through electronic credit. Circular 125/44/2019-GST confirms this computation methodology."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between 6% and 9% interest?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "6% per annum applies to general delayed refunds under Section 54(5) where administrative delay alone is the cause. 9% per annum applies to refunds arising pursuant to orders of an Adjudicating Authority, Appellate Authority, Tribunal, or Court that have attained finality, when the post-order refund application is itself delayed beyond 60 days. Supreme Court in Union of India vs Willowood Chemicals (2022) confirmed 6% is the standard rate; 9% is reserved for genuinely appellate-pursuant claims, not general administrative delays."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is interest automatic or do I need to claim it?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Interest under Section 56 is statutory and automatic. Delhi HC in Raghav Ventures vs Commissioner of Delhi (2024) held that 6% interest is payable without any separate claim — even a waiver in the refund application cannot extinguish the statutory entitlement. The right vests automatically on the 61st day post-application. The department must compute and credit interest with the principal refund through Form GST RFD-05. In practice, taxpayers often file writ petitions when departments overlook this."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the two-tier interest doctrine?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The two-tier doctrine emerges from Delhi HC in Bansal International and Bombay HC in Lupin Limited. Where a refund is initially rejected and later allowed by an appellate forum, two distinct delay periods exist. The first period attracts 6% interest from day 61 of original application until day 60 of post-appeal application. The second period attracts 9% interest from day 61 of post-appeal application until refund credit. The doctrine ensures full compensation across the entire timeline."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are weekends and holidays included?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Interest is computed on a daily basis as simple interest using the formula: Refund Amount × Rate × Days ÷ 365. All calendar days are counted including Saturdays, Sundays, and gazetted holidays. The day of application receipt is excluded from the 60-day count, and the day of refund credit is included in the delay period. The Delhi High Court has consistently rejected attempts to exclude administrative delay periods from the count, including delays caused by departmental investigations or red-flagging."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is provisional refund under Section 54(6)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 54(6) read with Rule 91 prescribes that ninety percent of refund claimed on zero-rated supplies (exports) shall be granted on a provisional basis within seven days of generating acknowledgment in Form GST RFD-02. The provisional order is issued in Form GST RFD-04. Notification 13/2025-Central Tax under GST 2.0 reaffirmed this seven-day timeline. The remaining ten percent is released after final scrutiny. Provisional timing does not affect the 60-day clock for Section 56 interest."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which forms are involved in GST refund?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The refund process uses several forms. Form GST RFD-01 is the refund application filed by the taxpayer. RFD-02 is the acknowledgment generated by the system. RFD-03 is the deficiency memo issued for incomplete applications. RFD-04 is the provisional refund order under Section 54(6). RFD-05 is the payment advice through which refund and interest are credited. RFD-06 is the final refund sanction order. Rule 94 specifically governs sanction of interest on delayed refunds, which must accompany the principal refund through RFD-05."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can refund interest be denied for departmental delays?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Courts have consistently held that administrative delay does not justify denial of statutory interest. In Raghav Ventures (2024), Delhi HC directed payment of 6% interest despite department citing delays from risky-exporter red-flagging. Section 56 contains no exclusion for departmental investigation periods. Circular 16/2019 mandates investigation completion within 30 days. Periods where the applicant fails to respond to deficiency memos or provides invalid bank details may be excluded under Rule 94, but pure departmental inaction is not a valid exclusion."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does the 60-day clock interact with deficiency memos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If the proper officer issues a deficiency memo in Form GST RFD-03 within fifteen days of receipt, the original application is treated as not filed. The taxpayer must file a fresh application. The 60-day clock restarts from the fresh application date. Mere allegation of deficiency without RFD-03 within fifteen days does not stop the original clock. Late deficiency memos issued to reset the timeline have been judicially scrutinised and limited to genuinely deficient applications."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What types of refunds attract Section 56 interest?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "All refunds under Section 54 attract Section 56 interest if delayed. Common categories include zero-rated supply refunds (exports, SEZ supplies) under Section 16 IGST, inverted duty structure refunds (where input GST exceeds output GST), excess balance in electronic cash ledger, deemed-export refunds, refund of tax paid in error, and pre-deposit refunds under Sections 107(6) and 112(8) on appeal disposal. The 9% rate specifically applies when refund flows from appellate or judicial orders that have attained finality."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What did the Supreme Court hold in Willowood Chemicals?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In Union of India vs Willowood Chemicals (2022), the Supreme Court reversed Gujarat HC's grant of 9% interest on delayed IGST refunds. The apex court held that where delay is administrative and not pursuant to an appellate order, the statutory rate is 6% under Section 56's principal provision. The 9% rate cannot be invoked merely because delay was lengthy or caused commercial hardship. The judgment narrowed 9% scope to refunds genuinely from finality orders, settling earlier divergent High Court positions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What changed under GST 2.0 reforms?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Notification 13/2025-Central Tax dated 17 September 2025, issued post the 56th GST Council meeting, reinforced refund timelines under GST 2.0 reforms. Rule 91(2) was amended to mandate that the provisional refund order in Form GST RFD-04 be issued within seven days of acknowledgment in Form RFD-02. Notification 14/2025 introduced restrictions on provisional refunds for non-Aadhaar-authenticated taxpayers and for suppliers of pan masala, tobacco, and essential oils. Section 56 interest framework remained unchanged; the 6% and 9% rates continue."
+          }
+        }
+      ]
+    }
+    </script>
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Tool navigation">
     <div class="toc-nav-inner">

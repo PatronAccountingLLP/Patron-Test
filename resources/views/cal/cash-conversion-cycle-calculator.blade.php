@@ -1,194 +1,8 @@
 @extends('layouts.app')
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
-@section('meta')
-    <title>Cash Conversion Cycle Calculator | CCC, DIO, DSO, DPO</title>
-    <meta name="description" content="Cash conversion cycle calculator: compute CCC, DIO, DSO and DPO per ICAI Schedule III with industry benchmarks and MSMED Act 45-day check. Free CA tool.">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/cash-conversion-cycle-calculator">
-    <meta property="og:title" content="Cash Conversion Cycle Calculator — Schedule III FY 2025-26">
-    <meta property="og:description" content="Compute CCC, DIO, DSO, DPO per ICAI Schedule III. Industry benchmarks, MSMED Act 45-day rule check, working capital impact. Free CA-reviewed tool.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/cash-conversion-cycle-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Cash Conversion Cycle Calculator — Schedule III FY 2025-26">
-    <meta name="twitter:description" content="CCC = DIO + DSO − DPO with Schedule III ratios, MSMED Act check, working capital impact. Free CA tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-    <meta name="theme-color" content="#15365f">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebApplication",
-      "name": "Cash Conversion Cycle Calculator",
-      "description": "Cash Conversion Cycle Calculator computes the CCC of an Indian company per Schedule III to the Companies Act, 2013 and the ICAI Guidance Note. The tool accepts opening and closing trade receivables, inventory and trade payables, annual revenue and annual cost of goods sold, and produces Days Inventory Outstanding (DIO), Days Sales Outstanding (DSO), Days Payable Outstanding (DPO), the headline CCC in days, the operating cycle, working capital tied up at current sales run-rate, three Schedule III mandatory ratios (Inventory Turnover, Trade Receivables Turnover, Trade Payables Turnover) computed from the same inputs, color-coded leverage verdict against six industry benchmarks, MSMED Act Section 15 forty-five day payment rule check on the DPO, year-over-year variance flagged against the 25 per cent Schedule III explanation threshold, and a sample disclosure format ready for the notes to accounts.",
-      "url": "https://www.patronaccounting.com/tools/cash-conversion-cycle-calculator",
-      "applicationCategory": "FinanceApplication",
-      "operatingSystem": "Any",
-      "datePublished": "2026-05-07T08:00:00+05:30",
-      "dateModified": "2026-05-19T08:00:00+05:30",
-      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
-      "author": {
-        "@type": "Person",
-        "@id": "https://patronaccounting.com/#founder",
-        "name": "CA Sundram Gupta",
-        "jobTitle": "Founder & Chartered Accountant",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Institute of Chartered Accountants of India",
-            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-          }
-        }]
-      },
-      "publisher": { "@id": "https://patronaccounting.com/#organization" },
-      "provider": {"@id": "https://patronaccounting.com/#organization"}
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Cash Conversion Cycle Calculator", "item": "https://www.patronaccounting.com/tools/cash-conversion-cycle-calculator"}
-      ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is the Cash Conversion Cycle (CCC)?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The Cash Conversion Cycle is a working-capital efficiency metric showing the number of days between paying suppliers and collecting cash from customers. It combines Days Inventory Outstanding, Days Sales Outstanding and Days Payable Outstanding into a single measure. A shorter CCC means cash is tied up for fewer days; a negative CCC means the company collects from customers before it pays suppliers, which is a powerful working-capital advantage seen in retail giants and asset-light tech firms."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the formula for Cash Conversion Cycle?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "CCC = DIO + DSO − DPO. Days Inventory Outstanding equals Average Inventory divided by COGS multiplied by 365. Days Sales Outstanding equals Average Trade Receivables divided by Revenue multiplied by 365. Days Payable Outstanding equals Average Trade Payables divided by COGS multiplied by 365. Average balances use the simple mean of opening and closing balances. The first two components together (DIO plus DSO) are called the Operating Cycle. CCC equals Operating Cycle minus DPO."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Are CCC components disclosed in Schedule III financial statements?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Three of the eleven mandatory Schedule III analytical ratios are direct components of CCC — Inventory Turnover Ratio, Trade Receivables Turnover Ratio and Trade Payables Turnover Ratio. Each one converts to days as DIO, DSO and DPO respectively (Days = 365 / Turnover). Schedule III mandates disclosure of these three ratios from FY 2021-22 onwards under MCA notification dated 24 March 2021, with explanation required for any change exceeding 25 per cent year-on-year."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is a good Cash Conversion Cycle in India?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "There is no single ideal CCC because it varies by industry. IT services and software firms often run CCC of 60 to 90 days driven entirely by DSO. Manufacturing companies typically operate 60 to 120 days CCC. Retail and FMCG aim for 30 to 60 days, while modern retail with strong supplier leverage targets near-zero or negative CCC. A negative CCC means the company is being financed by suppliers — strongest working-capital position. Always benchmark against same-industry Indian peers."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does MSMED Act 2006 affect Days Payable Outstanding?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 15 of the MSMED Act 2006 caps payment to MSE suppliers at 45 days from acceptance (or 15 days if no written agreement). Section 16 imposes compound interest at three times the RBI bank rate for delays. Finance Act 2023 inserted Section 43B(h) of Income Tax Act disallowing deduction for late MSE payments until actually paid. A high DPO above 45 days driven by MSE dues triggers all three consequences."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is a negative Cash Conversion Cycle and is it always good?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A negative CCC means DPO exceeds DIO plus DSO — the company pays suppliers after collecting from customers, effectively using supplier credit as free working capital. Examples include modern retail and e-commerce platforms. While generally desirable, an extremely negative CCC achieved by stretching payables to MSE suppliers can trigger MSMED Act penalties, Section 43B(h) disallowance and supplier relationship damage. Sustainable negative CCC comes from speed and scale, not from delay tactics."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is Days Sales Outstanding (DSO) calculated?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "DSO equals Average Trade Receivables divided by Revenue multiplied by the number of days in the period (365 for annual). Average Trade Receivables is the simple mean of opening and closing trade receivables, sourced from the balance sheet. Revenue uses Revenue from Operations from the Statement of Profit and Loss. Some analysts use Credit Sales only instead of total Revenue if cash sales are material. Lower DSO means faster collection; higher DSO indicates slower collection or longer credit terms."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is Days Inventory Outstanding (DIO) calculated?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "DIO equals Average Inventory divided by Cost of Goods Sold multiplied by 365. Average Inventory is the mean of opening and closing inventory, including raw materials, work-in-progress and finished goods. COGS is derived from the P&L as Cost of Materials Consumed plus Changes in Inventory plus Manufacturing Expenses, or directly from the cost-of-goods-sold note. Lower DIO indicates faster inventory turns; higher DIO signals stocking issues, slow-moving inventory or extended production cycles requiring management review."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is Days Payable Outstanding (DPO) calculated?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "DPO equals Average Trade Payables divided by Purchases or COGS multiplied by 365. Average Trade Payables is the mean of opening and closing balances. The denominator should ideally be Purchases for the year, but COGS is commonly used as an approximation when Purchases are not separately disclosed. Higher DPO means longer credit periods from suppliers — beneficial for cash flow but capped at 45 days for MSE suppliers under Section 15 of the MSMED Act, with penalty interest for breach."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do I need to explain a CCC change of more than 25 per cent?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "CCC itself is not a Schedule III ratio, but its three components — Inventory Turnover, Trade Receivables Turnover and Trade Payables Turnover — are mandatory ratios. If any component changes by more than 25 per cent compared to the preceding year, the company must provide a written explanation in the notes to accounts under Schedule III. Common explanations include extended credit to drive sales, supply-chain disruption holding inventory, demand contraction, change in payment terms, or accounting reclassification."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is TReDS and how does it affect DSO?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "TReDS (Trade Receivables Discounting System) is an RBI-regulated electronic platform launched in 2018 enabling MSME suppliers to discount their invoices through banks and NBFCs at competitive rates. For the supplier, accepted invoices reduce DSO sharply because cash is realised within days of upload rather than waiting for buyer payment. For corporate buyers, TReDS strengthens supplier relationships and reduces the risk of MSMED Act delayed-payment interest. Three platforms are operational: RXIL, Mynd and Invoicemart."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does Cash Conversion Cycle affect bank working capital lending?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Banks size working-capital limits using the Tandon Committee framework or the Maximum Permissible Bank Finance (MPBF) method, both of which depend directly on inventory and receivables holding periods. A higher CCC translates into higher gross working capital and a larger eligible bank limit. Banks require quarterly stock and book debt statements to monitor that actual DIO and DSO match the sanctioned levels — drawings beyond CCC-implied requirements trigger irregularity charges, additional interest, or facility recall."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Where on the balance sheet do I find figures for CCC?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Under Ind AS Schedule III Division II, Inventory is reported under Current Assets — Inventories, with detailed sub-classification in the inventory note. Trade Receivables sit under Current Financial Assets, with ageing disclosed by current and beyond categories. Trade Payables appear under Current Financial Liabilities, with separate disclosure for MSE versus non-MSE suppliers. Revenue from Operations is the top line of the P&L; COGS appears as Cost of Materials Consumed plus Purchases plus Changes in Inventory plus Manufacturing Expenses."
-          }
-        }
-      ]
-    }
-    </script>
-@endsection
-
 <style>
         :root {
             --primary: #15365f;
@@ -474,7 +288,193 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 }
 
 </style>
+@endpush
 
+@section('meta')
+    <title>Cash Conversion Cycle Calculator | CCC, DIO, DSO, DPO</title>
+    <meta name="description" content="Cash conversion cycle calculator: compute CCC, DIO, DSO and DPO per ICAI Schedule III with industry benchmarks and MSMED Act 45-day check. Free CA tool.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/cash-conversion-cycle-calculator">
+    <meta property="og:title" content="Cash Conversion Cycle Calculator — Schedule III FY 2025-26">
+    <meta property="og:description" content="Compute CCC, DIO, DSO, DPO per ICAI Schedule III. Industry benchmarks, MSMED Act 45-day rule check, working capital impact. Free CA-reviewed tool.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/cash-conversion-cycle-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Cash Conversion Cycle Calculator — Schedule III FY 2025-26">
+    <meta name="twitter:description" content="CCC = DIO + DSO − DPO with Schedule III ratios, MSMED Act check, working capital impact. Free CA tool.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+    <meta name="theme-color" content="#15365f">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Cash Conversion Cycle Calculator",
+      "description": "Cash Conversion Cycle Calculator computes the CCC of an Indian company per Schedule III to the Companies Act, 2013 and the ICAI Guidance Note. The tool accepts opening and closing trade receivables, inventory and trade payables, annual revenue and annual cost of goods sold, and produces Days Inventory Outstanding (DIO), Days Sales Outstanding (DSO), Days Payable Outstanding (DPO), the headline CCC in days, the operating cycle, working capital tied up at current sales run-rate, three Schedule III mandatory ratios (Inventory Turnover, Trade Receivables Turnover, Trade Payables Turnover) computed from the same inputs, color-coded leverage verdict against six industry benchmarks, MSMED Act Section 15 forty-five day payment rule check on the DPO, year-over-year variance flagged against the 25 per cent Schedule III explanation threshold, and a sample disclosure format ready for the notes to accounts.",
+      "url": "https://www.patronaccounting.com/tools/cash-conversion-cycle-calculator",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Any",
+      "datePublished": "2026-05-07T08:00:00+05:30",
+      "dateModified": "2026-05-19T08:00:00+05:30",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
+      "author": {
+        "@type": "Person",
+        "@id": "https://patronaccounting.com/#founder",
+        "name": "CA Sundram Gupta",
+        "jobTitle": "Founder & Chartered Accountant",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Institute of Chartered Accountants of India",
+            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+          }
+        }]
+      },
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": {"@id": "https://patronaccounting.com/#organization"}
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Cash Conversion Cycle Calculator", "item": "https://www.patronaccounting.com/tools/cash-conversion-cycle-calculator"}
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the Cash Conversion Cycle (CCC)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Cash Conversion Cycle is a working-capital efficiency metric showing the number of days between paying suppliers and collecting cash from customers. It combines Days Inventory Outstanding, Days Sales Outstanding and Days Payable Outstanding into a single measure. A shorter CCC means cash is tied up for fewer days; a negative CCC means the company collects from customers before it pays suppliers, which is a powerful working-capital advantage seen in retail giants and asset-light tech firms."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the formula for Cash Conversion Cycle?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CCC = DIO + DSO − DPO. Days Inventory Outstanding equals Average Inventory divided by COGS multiplied by 365. Days Sales Outstanding equals Average Trade Receivables divided by Revenue multiplied by 365. Days Payable Outstanding equals Average Trade Payables divided by COGS multiplied by 365. Average balances use the simple mean of opening and closing balances. The first two components together (DIO plus DSO) are called the Operating Cycle. CCC equals Operating Cycle minus DPO."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are CCC components disclosed in Schedule III financial statements?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Three of the eleven mandatory Schedule III analytical ratios are direct components of CCC — Inventory Turnover Ratio, Trade Receivables Turnover Ratio and Trade Payables Turnover Ratio. Each one converts to days as DIO, DSO and DPO respectively (Days = 365 / Turnover). Schedule III mandates disclosure of these three ratios from FY 2021-22 onwards under MCA notification dated 24 March 2021, with explanation required for any change exceeding 25 per cent year-on-year."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a good Cash Conversion Cycle in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There is no single ideal CCC because it varies by industry. IT services and software firms often run CCC of 60 to 90 days driven entirely by DSO. Manufacturing companies typically operate 60 to 120 days CCC. Retail and FMCG aim for 30 to 60 days, while modern retail with strong supplier leverage targets near-zero or negative CCC. A negative CCC means the company is being financed by suppliers — strongest working-capital position. Always benchmark against same-industry Indian peers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does MSMED Act 2006 affect Days Payable Outstanding?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 15 of the MSMED Act 2006 caps payment to MSE suppliers at 45 days from acceptance (or 15 days if no written agreement). Section 16 imposes compound interest at three times the RBI bank rate for delays. Finance Act 2023 inserted Section 43B(h) of Income Tax Act disallowing deduction for late MSE payments until actually paid. A high DPO above 45 days driven by MSE dues triggers all three consequences."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a negative Cash Conversion Cycle and is it always good?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A negative CCC means DPO exceeds DIO plus DSO — the company pays suppliers after collecting from customers, effectively using supplier credit as free working capital. Examples include modern retail and e-commerce platforms. While generally desirable, an extremely negative CCC achieved by stretching payables to MSE suppliers can trigger MSMED Act penalties, Section 43B(h) disallowance and supplier relationship damage. Sustainable negative CCC comes from speed and scale, not from delay tactics."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is Days Sales Outstanding (DSO) calculated?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "DSO equals Average Trade Receivables divided by Revenue multiplied by the number of days in the period (365 for annual). Average Trade Receivables is the simple mean of opening and closing trade receivables, sourced from the balance sheet. Revenue uses Revenue from Operations from the Statement of Profit and Loss. Some analysts use Credit Sales only instead of total Revenue if cash sales are material. Lower DSO means faster collection; higher DSO indicates slower collection or longer credit terms."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is Days Inventory Outstanding (DIO) calculated?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "DIO equals Average Inventory divided by Cost of Goods Sold multiplied by 365. Average Inventory is the mean of opening and closing inventory, including raw materials, work-in-progress and finished goods. COGS is derived from the P&L as Cost of Materials Consumed plus Changes in Inventory plus Manufacturing Expenses, or directly from the cost-of-goods-sold note. Lower DIO indicates faster inventory turns; higher DIO signals stocking issues, slow-moving inventory or extended production cycles requiring management review."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is Days Payable Outstanding (DPO) calculated?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "DPO equals Average Trade Payables divided by Purchases or COGS multiplied by 365. Average Trade Payables is the mean of opening and closing balances. The denominator should ideally be Purchases for the year, but COGS is commonly used as an approximation when Purchases are not separately disclosed. Higher DPO means longer credit periods from suppliers — beneficial for cash flow but capped at 45 days for MSE suppliers under Section 15 of the MSMED Act, with penalty interest for breach."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need to explain a CCC change of more than 25 per cent?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CCC itself is not a Schedule III ratio, but its three components — Inventory Turnover, Trade Receivables Turnover and Trade Payables Turnover — are mandatory ratios. If any component changes by more than 25 per cent compared to the preceding year, the company must provide a written explanation in the notes to accounts under Schedule III. Common explanations include extended credit to drive sales, supply-chain disruption holding inventory, demand contraction, change in payment terms, or accounting reclassification."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is TReDS and how does it affect DSO?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "TReDS (Trade Receivables Discounting System) is an RBI-regulated electronic platform launched in 2018 enabling MSME suppliers to discount their invoices through banks and NBFCs at competitive rates. For the supplier, accepted invoices reduce DSO sharply because cash is realised within days of upload rather than waiting for buyer payment. For corporate buyers, TReDS strengthens supplier relationships and reduces the risk of MSMED Act delayed-payment interest. Three platforms are operational: RXIL, Mynd and Invoicemart."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does Cash Conversion Cycle affect bank working capital lending?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Banks size working-capital limits using the Tandon Committee framework or the Maximum Permissible Bank Finance (MPBF) method, both of which depend directly on inventory and receivables holding periods. A higher CCC translates into higher gross working capital and a larger eligible bank limit. Banks require quarterly stock and book debt statements to monitor that actual DIO and DSO match the sanctioned levels — drawings beyond CCC-implied requirements trigger irregularity charges, additional interest, or facility recall."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where on the balance sheet do I find figures for CCC?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under Ind AS Schedule III Division II, Inventory is reported under Current Assets — Inventories, with detailed sub-classification in the inventory note. Trade Receivables sit under Current Financial Assets, with ageing disclosed by current and beyond categories. Trade Payables appear under Current Financial Liabilities, with separate disclosure for MSE versus non-MSE suppliers. Revenue from Operations is the top line of the P&L; COGS appears as Cost of Materials Consumed plus Purchases plus Changes in Inventory plus Manufacturing Expenses."
+          }
+        }
+      ]
+    }
+    </script>
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation">
     <div class="toc-nav-inner">

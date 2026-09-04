@@ -1,154 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>GST Composition Scheme Registration 2026 | Patron Accounting</title>
-    <meta name="description" content="Opt into GST composition scheme via Form CMP-02 under Section 10 of the CGST Act. CMP-08 quarterly, GSTR-4 annually. Flat tax 1% to 6%. Starting at Rs 1,499.">
-    <link rel="canonical" href="/gst-composition-scheme-registration">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="GST Composition Scheme Registration 2026 | Patron Accounting">
-    <meta property="og:description" content="Opt into GST composition scheme via Form CMP-02 under Section 10 of the CGST Act. CMP-08 quarterly, GSTR-4 annually. Flat tax 1% to 6%. Starting at Rs 1,499.">
-    <meta property="og:url" content="/gst-composition-scheme-registration">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="GST Composition Scheme Registration 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Opt into GST composition scheme via Form CMP-02 under Section 10 of the CGST Act. CMP-08 quarterly, GSTR-4 annually. Flat tax 1% to 6%. Starting at Rs 1,499.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/gst-composition-scheme-registration/#service",
-        "name": "GST Composition Scheme Registration in India",
-        "description": "Patron Accounting LLP files Form GST CMP-02 for opt-in into the composition scheme under Section 10 of the CGST Act, 2017. The service covers eligibility diagnostic against Section 10(1), 10(2) and 10(2A), composition vs regular ROI modelling, CMP-02 filing within the 31 March window, Form GST ITC-03 stock-ITC reversal within 60 days, Bill of Supply template setup, quarterly Form GST CMP-08 by the 18th, annual Form GSTR-4 by 30 June and CMP-04 withdrawal where turnover crosses the threshold.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-composition-scheme-registration" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [
-            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
-            { "@type": "Thing", "name": "Central Board of Indirect Taxes and Customs", "sameAs": "https://en.wikipedia.org/wiki/Central_Board_of_Indirect_Taxes_and_Customs" }
-        ],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "GST Composition Scheme Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "GST Composition Scheme Opt-In via Form CMP-02 End to End",
-                    "priceCurrency": "INR",
-                    "price": "1499",
-                    "description": "Eligibility diagnostic, composition vs regular ROI modelling, CMP-02 filing, and Bill of Supply template setup"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/gst-composition-scheme-registration/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
-            { "@type": "ListItem", "position": 3, "name": "GST Composition Scheme", "item": "https://www.patronaccounting.com/gst-composition-scheme-registration" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/gst-composition-scheme-registration/#faq",
-        "datePublished": "2026-05-26T08:00:00+05:30",
-        "dateModified": "2026-06-01T08:00:00+05:30",
-        "mainEntity": [
-
-            {
-                "@type": "Question",
-                "name": "Who is eligible for the GST composition scheme?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "A registered taxpayer with aggregate turnover up to Rs 1.5 crore in the preceding financial year (Rs 75 lakh in 8 special category states) under Section 10(1) of the CGST Act, 2017 for goods, manufacturers and restaurants not serving alcohol. Service providers can opt under Section 10(2A) up to Rs 50 lakh. The taxpayer must not be in any Section 10(2) exclusion category - inter-state supplies, TCS marketplace, manufacturer of ice cream, pan masala, aerated waters, tobacco, casual taxable person or non-resident taxable person."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the turnover limit for GST composition scheme?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "For goods, manufacturers, traders, and restaurants without alcohol, the aggregate turnover threshold under Section 10(1) is Rs 1.5 crore in regular states and Rs 75 lakh in 8 special category states. For service providers under Section 10(2A) the threshold is Rs 50 lakh nationally. Aggregate turnover is computed under Section 2(6) of the CGST Act on all-India PAN basis including taxable, exempt and export supplies."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What are the tax rates under GST composition scheme?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Three flat rates under Section 10 of the CGST Act, 2017: 1 percent (0.5 percent CGST plus 0.5 percent SGST or UTGST) for goods manufacturers and traders; 5 percent (2.5 plus 2.5) for restaurants not serving alcoholic liquor; and 6 percent (3 plus 3) for service providers and mixed suppliers under Section 10(2A) read with Notification 2/2019. The rate applies to aggregate turnover of taxable supplies in the State."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can a composition dealer make inter-state supplies?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "No. Section 10(2)(c) of the CGST Act, 2017 categorically disqualifies any person making inter-state outward supplies of goods or services from the composition scheme. A single inter-state outward supply during the year voids composition for the entire period and triggers Section 10(5) demand at regular rates plus interest under Section 50 and penalty under Section 73 or 74. Inter-state inward supplies (purchases from other states) are allowed."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can a composition dealer claim Input Tax Credit?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "No. Composition dealers are not eligible for Input Tax Credit. Tax paid on inputs, input services and capital goods becomes part of cost. Section 18(4) read with Rule 44(1)(b) requires reversal of ITC on stock held on the day before transition through Form GST ITC-03. The trade-off is the flat 1 to 6 percent rate against the regular 5 to 28 percent slabs with ITC offset."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the difference between CMP-08 and GSTR-4?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Form GST CMP-08 is a quarterly statement-cum-challan for self-assessed tax payment, filed by the 18th of the month following each quarter. Form GSTR-4 is the annual return that consolidates the four CMP-08 returns plus inward supplies and RCM tax, filed by 30 June of the next financial year under Notification 12/2024-CT dated 10 July 2024. CMP-08 carries tax payment; GSTR-4 carries the year-end reconciliation."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How to opt for the composition scheme on the GST portal?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Existing taxpayers log in to the GST portal, navigate to Services then Registration then Application to Opt for Composition Levy, select the financial year and category (Section 10(1) for goods or Section 10(2A) for services), submit declarations confirming eligibility, and verify with DSC or EVC. The filing must be completed by 31 March of the preceding financial year. The scheme is effective from 1 April. Form GST ITC-03 stock-ITC reversal must follow within 60 days."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What happens if turnover exceeds the composition threshold during the year?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Under Section 10(3) of the CGST Act, 2017 composition lapses automatically on the day aggregate turnover crosses Rs 1.5 crore or Rs 50 lakh under 10(2A). The taxpayer must file Form GST CMP-04 within 7 days of the breach, pay tax at regular rates from the next day, and file Form GST ITC-01 within 30 days to claim ITC on closing stock under Section 18(1)(c) read with Rule 40. Regular GSTR-1 and GSTR-3B compliance begins prospectively."
-                }
-            }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -762,7 +618,156 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>GST Composition Scheme Registration 2026 | Patron Accounting</title>
+    <meta name="description" content="Opt into GST composition scheme via Form CMP-02 under Section 10 of the CGST Act. CMP-08 quarterly, GSTR-4 annually. Flat tax 1% to 6%. Starting at Rs 1,499.">
+    <link rel="canonical" href="/gst-composition-scheme-registration">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="GST Composition Scheme Registration 2026 | Patron Accounting">
+    <meta property="og:description" content="Opt into GST composition scheme via Form CMP-02 under Section 10 of the CGST Act. CMP-08 quarterly, GSTR-4 annually. Flat tax 1% to 6%. Starting at Rs 1,499.">
+    <meta property="og:url" content="/gst-composition-scheme-registration">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GST Composition Scheme Registration 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Opt into GST composition scheme via Form CMP-02 under Section 10 of the CGST Act. CMP-08 quarterly, GSTR-4 annually. Flat tax 1% to 6%. Starting at Rs 1,499.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/gst-composition-scheme-registration/#service",
+        "name": "GST Composition Scheme Registration in India",
+        "description": "Patron Accounting LLP files Form GST CMP-02 for opt-in into the composition scheme under Section 10 of the CGST Act, 2017. The service covers eligibility diagnostic against Section 10(1), 10(2) and 10(2A), composition vs regular ROI modelling, CMP-02 filing within the 31 March window, Form GST ITC-03 stock-ITC reversal within 60 days, Bill of Supply template setup, quarterly Form GST CMP-08 by the 18th, annual Form GSTR-4 by 30 June and CMP-04 withdrawal where turnover crosses the threshold.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-composition-scheme-registration" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [
+            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
+            { "@type": "Thing", "name": "Central Board of Indirect Taxes and Customs", "sameAs": "https://en.wikipedia.org/wiki/Central_Board_of_Indirect_Taxes_and_Customs" }
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "GST Composition Scheme Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "GST Composition Scheme Opt-In via Form CMP-02 End to End",
+                    "priceCurrency": "INR",
+                    "price": "1499",
+                    "description": "Eligibility diagnostic, composition vs regular ROI modelling, CMP-02 filing, and Bill of Supply template setup"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/gst-composition-scheme-registration/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
+            { "@type": "ListItem", "position": 3, "name": "GST Composition Scheme", "item": "https://www.patronaccounting.com/gst-composition-scheme-registration" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/gst-composition-scheme-registration/#faq",
+        "datePublished": "2026-05-26T08:00:00+05:30",
+        "dateModified": "2026-06-01T08:00:00+05:30",
+        "mainEntity": [
+
+            {
+                "@type": "Question",
+                "name": "Who is eligible for the GST composition scheme?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "A registered taxpayer with aggregate turnover up to Rs 1.5 crore in the preceding financial year (Rs 75 lakh in 8 special category states) under Section 10(1) of the CGST Act, 2017 for goods, manufacturers and restaurants not serving alcohol. Service providers can opt under Section 10(2A) up to Rs 50 lakh. The taxpayer must not be in any Section 10(2) exclusion category - inter-state supplies, TCS marketplace, manufacturer of ice cream, pan masala, aerated waters, tobacco, casual taxable person or non-resident taxable person."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the turnover limit for GST composition scheme?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "For goods, manufacturers, traders, and restaurants without alcohol, the aggregate turnover threshold under Section 10(1) is Rs 1.5 crore in regular states and Rs 75 lakh in 8 special category states. For service providers under Section 10(2A) the threshold is Rs 50 lakh nationally. Aggregate turnover is computed under Section 2(6) of the CGST Act on all-India PAN basis including taxable, exempt and export supplies."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What are the tax rates under GST composition scheme?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Three flat rates under Section 10 of the CGST Act, 2017: 1 percent (0.5 percent CGST plus 0.5 percent SGST or UTGST) for goods manufacturers and traders; 5 percent (2.5 plus 2.5) for restaurants not serving alcoholic liquor; and 6 percent (3 plus 3) for service providers and mixed suppliers under Section 10(2A) read with Notification 2/2019. The rate applies to aggregate turnover of taxable supplies in the State."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can a composition dealer make inter-state supplies?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No. Section 10(2)(c) of the CGST Act, 2017 categorically disqualifies any person making inter-state outward supplies of goods or services from the composition scheme. A single inter-state outward supply during the year voids composition for the entire period and triggers Section 10(5) demand at regular rates plus interest under Section 50 and penalty under Section 73 or 74. Inter-state inward supplies (purchases from other states) are allowed."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can a composition dealer claim Input Tax Credit?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No. Composition dealers are not eligible for Input Tax Credit. Tax paid on inputs, input services and capital goods becomes part of cost. Section 18(4) read with Rule 44(1)(b) requires reversal of ITC on stock held on the day before transition through Form GST ITC-03. The trade-off is the flat 1 to 6 percent rate against the regular 5 to 28 percent slabs with ITC offset."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the difference between CMP-08 and GSTR-4?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Form GST CMP-08 is a quarterly statement-cum-challan for self-assessed tax payment, filed by the 18th of the month following each quarter. Form GSTR-4 is the annual return that consolidates the four CMP-08 returns plus inward supplies and RCM tax, filed by 30 June of the next financial year under Notification 12/2024-CT dated 10 July 2024. CMP-08 carries tax payment; GSTR-4 carries the year-end reconciliation."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How to opt for the composition scheme on the GST portal?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Existing taxpayers log in to the GST portal, navigate to Services then Registration then Application to Opt for Composition Levy, select the financial year and category (Section 10(1) for goods or Section 10(2A) for services), submit declarations confirming eligibility, and verify with DSC or EVC. The filing must be completed by 31 March of the preceding financial year. The scheme is effective from 1 April. Form GST ITC-03 stock-ITC reversal must follow within 60 days."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What happens if turnover exceeds the composition threshold during the year?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Under Section 10(3) of the CGST Act, 2017 composition lapses automatically on the day aggregate turnover crosses Rs 1.5 crore or Rs 50 lakh under 10(2A). The taxpayer must file Form GST CMP-04 within 7 days of the breach, pay tax at regular rates from the next day, and file Form GST ITC-01 within 30 days to claim ITC on closing stock under Section 18(1)(c) read with Rule 40. Regular GSTR-1 and GSTR-3B compliance begins prospectively."
+                }
+            }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1700,17 +1705,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1733,8 +1731,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1771,7 +1767,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1782,4 +1777,20 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+
 

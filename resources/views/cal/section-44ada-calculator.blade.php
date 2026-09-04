@@ -1,191 +1,6 @@
 @extends('layouts.app')
-@section('meta')
-    <title>Section 44ADA Calculator | Presumptive Tax FY 2025-26</title>
-    <meta name="description" content="Section 44ADA Calculator: presumptive tax for professionals at 50% of receipts for FY 2025-26, with eligibility check and ₹50L/₹75L limits. Try free!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/section-44ada-calculator">
-
-    <meta property="og:title" content="Section 44ADA Calculator — Presumptive Tax FY 2025-26">
-    <meta property="og:description" content="Compute presumptive income at 50% of professional receipts under Section 44ADA — eligibility check, audit triggers, regime comparison for FY 2025-26.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/section-44ada-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Section 44ADA Calculator — Presumptive Tax FY 2025-26">
-    <meta name="twitter:description" content="Compute presumptive income at 50% of professional receipts under Section 44ADA — eligibility, audit triggers, regime comparison.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-
-    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-
-@endsection
-@section('schema')
-
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "Section 44ADA Calculator",
-      "description": "Section 44ADA Calculator computes presumptive taxable income for resident individual professionals and partnership firms at 50 percent of gross receipts under the Income Tax Act presumptive taxation scheme for FY 2025-26 (AY 2026-27), with eligibility verification against the ₹50 lakh standard threshold and ₹75 lakh enhanced threshold for digital-receipt professionals, side-by-side comparison with regular tax computation under old and new regimes, and audit/books-of-accounts trigger detection.",
-      "url": "https://www.patronaccounting.com/tools/section-44ada-calculator",
-      "applicationCategory": "BusinessApplication",
-      "operatingSystem": "Any",
-      "inLanguage": "en-IN",
-      "isAccessibleForFree": true,
-      "datePublished": "2026-05-06T08:00:00+05:30",
-      "dateModified": "2026-05-08T08:00:00+05:30",
-      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
-      "reviewedBy": {
-        "@type": "Person",
-        "@id": "https://patronaccounting.com/#founder",
-        "name": "CA Sundram Gupta",
-        "jobTitle": "Founder & Chartered Accountant",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Institute of Chartered Accountants of India",
-            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-          }
-        }]
-      },
-      "publisher": { "@id": "https://patronaccounting.com/#organization" },
-      "provider": {"@id": "https://patronaccounting.com/#organization"}
-    }
-    </script>
-
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Section 44ADA Calculator", "item": "https://www.patronaccounting.com/tools/section-44ada-calculator"}
-      ]
-    }
-    </script>
-
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is Section 44ADA presumptive taxation scheme?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 44ADA of the Income Tax Act 1961 is a presumptive taxation scheme for specified professionals. Eligible professionals can declare 50 percent of gross receipts as taxable income without maintaining detailed books of accounts or undergoing tax audit. The remaining 50 percent is deemed to cover all business expenses including depreciation. Personal Chapter VI-A deductions like Section 80C and 80D remain available."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Who is eligible to opt for Section 44ADA in FY 2025-26?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Resident individuals and partnership firms (excluding LLPs) engaged in specified professions can opt for Section 44ADA. Specified professions include legal, medical, engineering, architectural, accountancy, technical consultancy, interior decoration, film artists, IT and software, and authorised representatives. HUFs, LLPs, and companies are not eligible. Brokerage and commission income are specifically excluded."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the gross receipts limit for Section 44ADA in FY 2025-26?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The standard limit is ₹50 lakh of gross professional receipts in the financial year. The enhanced limit of ₹75 lakh applies if cash receipts during the year are 5 percent or less of total gross receipts, meaning at least 95 percent comes through banking channels — UPI, NEFT, account payee cheque, demand draft, electronic clearing, or other digital modes. The ₹75 lakh cap was introduced by Budget 2023, effective from FY 2023-24 onwards."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is presumptive income calculated under Section 44ADA?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Under Section 44ADA, taxable income is deemed to be 50 percent of gross professional receipts. For example, if your gross receipts are ₹40 lakh, your presumptive income is ₹20 lakh. You can declare a higher percentage if your actual profit is higher. The 50 percent deemed expense covers staff salary, rent, conveyance, depreciation, and all other professional costs — no further deduction is allowed."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Are books of accounts and tax audit required under Section 44ADA?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "If you declare 50 percent or more of gross receipts as income under Section 44ADA, you are exempt from maintaining books of accounts and from tax audit under Section 44AB. However, if you declare less than 50 percent and your total income exceeds the basic exemption limit, books of accounts under Section 44AA and tax audit under Section 44AB become mandatory. The audit deadline is 30 September of the assessment year."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I claim Section 80C and 80D deductions under Section 44ADA?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Chapter VI-A deductions such as Section 80C (₹1.5 lakh), 80D (medical insurance), 80CCD(1B) (NPS), 80E (education loan), and 80G (donations) remain available even when opting for Section 44ADA, provided you choose the old tax regime. Under the new tax regime, most of these deductions are unavailable. The presumptive income reduction at 50 percent is unrelated to personal Chapter VI-A deductions."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does advance tax work under Section 44ADA?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 44ADA professionals enjoy a special advance tax rule under Section 211(1)(b) — they can pay 100 percent of their advance tax in one installment by 15 March of the financial year, instead of the regular four quarterly installments (15 June, 15 September, 15 December, 15 March). Late payment attracts interest under Sections 234B and 234C. Use our Advance Tax Calculator to estimate your liability."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is there a lock-in period for opting in or out of Section 44ADA?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Unlike Section 44AD which has a 5-year lock-in, Section 44ADA has no lock-in. You can opt in or out every year based on whether the presumptive scheme produces lower tax than regular computation. If your actual professional expenses exceed 50 percent of receipts, regular taxation may be more beneficial. Switching back requires maintaining books and undergoing audit if income is below 50 percent."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which ITR form do I file under Section 44ADA?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "File ITR-4 (Sugam) if you opt for Section 44ADA and meet the additional conditions — resident, individual or partnership firm (not LLP) — note HUF is NOT eligible for 44ADA per Sec 44ADA(1), total income up to ₹50 lakh, no foreign assets or income, only one house property. If any condition fails, file ITR-3. The ITR forms for FY 2025-26 (AY 2026-27) are notified by CBDT typically in April. ITR-4 has been simplified for presumptive taxpayers with minimal disclosure requirements."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which professions qualify as 'specified professions' for Section 44ADA?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Specified professions under Section 44AA(1) include: legal practice (advocates, lawyers), medical (doctors, surgeons, dentists), engineering, architectural, accountancy (CA, CMA, CS in practice), technical consultancy, interior decoration, film artists (actors, directors, producers, music directors, etc.), authorised representatives, and information technology professionals. Other professions such as brokerage, real estate agents, or general consultancy are excluded."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can a salaried professional with side consulting income use Section 44ADA?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. A salaried professional with concurrent freelance or consulting income in a specified profession can use Section 44ADA for the consulting portion. Salary income is reported under Income from Salary, while consulting receipts are declared under Profits and Gains of Business or Profession with 50 percent treated as taxable income. File ITR-3 if combined income exceeds ITR-4 thresholds. Total income above ₹50 lakh forces ITR-3."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How will Section 44ADA change under the Income Tax Act 2025?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The Income Tax Act 2025, effective 1 April 2026, retains the substance of Section 44ADA with renumbered section references. For FY 2025-26 returns filed in 2026, the existing Section 44ADA under the 1961 Act applies. Tax Year 2026-27 (FY 2026-27 income onwards) uses the corresponding section under the 2025 Act. The 50 percent rate, ₹50 lakh and ₹75 lakh thresholds, eligible professions, and audit triggers remain unchanged in the transition."
-          }
-        }
-      ]
-    }
-    </script>
-
-@endsection
-    
-    <style>
+@push('styles')
+<style>
         :root {
             --primary: #15365f; --primary-light: #1f4a7a; --primary-dark: #0a2240;
             --accent: #f26522; --accent-light: #ff8347;
@@ -427,6 +242,193 @@ button, .toggle-btn, .toggle-btn.active, .faq-question, .sidebar-link, .toc-nav 
     .schedule-table tbody td, .rate-table tbody td, .recon-table tbody td { padding: 8px 10px; }
 }
     </style>
+@endpush
+
+@section('meta')
+    <title>Section 44ADA Calculator | Presumptive Tax FY 2025-26</title>
+    <meta name="description" content="Section 44ADA Calculator: presumptive tax for professionals at 50% of receipts for FY 2025-26, with eligibility check and ₹50L/₹75L limits. Try free!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/section-44ada-calculator">
+
+    <meta property="og:title" content="Section 44ADA Calculator — Presumptive Tax FY 2025-26">
+    <meta property="og:description" content="Compute presumptive income at 50% of professional receipts under Section 44ADA — eligibility check, audit triggers, regime comparison for FY 2025-26.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/section-44ada-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Section 44ADA Calculator — Presumptive Tax FY 2025-26">
+    <meta name="twitter:description" content="Compute presumptive income at 50% of professional receipts under Section 44ADA — eligibility, audit triggers, regime comparison.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+
+@endsection
+@section('schema')
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Section 44ADA Calculator",
+      "description": "Section 44ADA Calculator computes presumptive taxable income for resident individual professionals and partnership firms at 50 percent of gross receipts under the Income Tax Act presumptive taxation scheme for FY 2025-26 (AY 2026-27), with eligibility verification against the ₹50 lakh standard threshold and ₹75 lakh enhanced threshold for digital-receipt professionals, side-by-side comparison with regular tax computation under old and new regimes, and audit/books-of-accounts trigger detection.",
+      "url": "https://www.patronaccounting.com/tools/section-44ada-calculator",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Any",
+      "inLanguage": "en-IN",
+      "isAccessibleForFree": true,
+      "datePublished": "2026-05-06T08:00:00+05:30",
+      "dateModified": "2026-05-08T08:00:00+05:30",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
+      "reviewedBy": {
+        "@type": "Person",
+        "@id": "https://patronaccounting.com/#founder",
+        "name": "CA Sundram Gupta",
+        "jobTitle": "Founder & Chartered Accountant",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Institute of Chartered Accountants of India",
+            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+          }
+        }]
+      },
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": {"@id": "https://patronaccounting.com/#organization"}
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Section 44ADA Calculator", "item": "https://www.patronaccounting.com/tools/section-44ada-calculator"}
+      ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Section 44ADA presumptive taxation scheme?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 44ADA of the Income Tax Act 1961 is a presumptive taxation scheme for specified professionals. Eligible professionals can declare 50 percent of gross receipts as taxable income without maintaining detailed books of accounts or undergoing tax audit. The remaining 50 percent is deemed to cover all business expenses including depreciation. Personal Chapter VI-A deductions like Section 80C and 80D remain available."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who is eligible to opt for Section 44ADA in FY 2025-26?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Resident individuals and partnership firms (excluding LLPs) engaged in specified professions can opt for Section 44ADA. Specified professions include legal, medical, engineering, architectural, accountancy, technical consultancy, interior decoration, film artists, IT and software, and authorised representatives. HUFs, LLPs, and companies are not eligible. Brokerage and commission income are specifically excluded."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the gross receipts limit for Section 44ADA in FY 2025-26?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The standard limit is ₹50 lakh of gross professional receipts in the financial year. The enhanced limit of ₹75 lakh applies if cash receipts during the year are 5 percent or less of total gross receipts, meaning at least 95 percent comes through banking channels — UPI, NEFT, account payee cheque, demand draft, electronic clearing, or other digital modes. The ₹75 lakh cap was introduced by Budget 2023, effective from FY 2023-24 onwards."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is presumptive income calculated under Section 44ADA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under Section 44ADA, taxable income is deemed to be 50 percent of gross professional receipts. For example, if your gross receipts are ₹40 lakh, your presumptive income is ₹20 lakh. You can declare a higher percentage if your actual profit is higher. The 50 percent deemed expense covers staff salary, rent, conveyance, depreciation, and all other professional costs — no further deduction is allowed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are books of accounts and tax audit required under Section 44ADA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If you declare 50 percent or more of gross receipts as income under Section 44ADA, you are exempt from maintaining books of accounts and from tax audit under Section 44AB. However, if you declare less than 50 percent and your total income exceeds the basic exemption limit, books of accounts under Section 44AA and tax audit under Section 44AB become mandatory. The audit deadline is 30 September of the assessment year."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I claim Section 80C and 80D deductions under Section 44ADA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Chapter VI-A deductions such as Section 80C (₹1.5 lakh), 80D (medical insurance), 80CCD(1B) (NPS), 80E (education loan), and 80G (donations) remain available even when opting for Section 44ADA, provided you choose the old tax regime. Under the new tax regime, most of these deductions are unavailable. The presumptive income reduction at 50 percent is unrelated to personal Chapter VI-A deductions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does advance tax work under Section 44ADA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 44ADA professionals enjoy a special advance tax rule under Section 211(1)(b) — they can pay 100 percent of their advance tax in one installment by 15 March of the financial year, instead of the regular four quarterly installments (15 June, 15 September, 15 December, 15 March). Late payment attracts interest under Sections 234B and 234C. Use our Advance Tax Calculator to estimate your liability."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there a lock-in period for opting in or out of Section 44ADA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Unlike Section 44AD which has a 5-year lock-in, Section 44ADA has no lock-in. You can opt in or out every year based on whether the presumptive scheme produces lower tax than regular computation. If your actual professional expenses exceed 50 percent of receipts, regular taxation may be more beneficial. Switching back requires maintaining books and undergoing audit if income is below 50 percent."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which ITR form do I file under Section 44ADA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "File ITR-4 (Sugam) if you opt for Section 44ADA and meet the additional conditions — resident, individual or partnership firm (not LLP) — note HUF is NOT eligible for 44ADA per Sec 44ADA(1), total income up to ₹50 lakh, no foreign assets or income, only one house property. If any condition fails, file ITR-3. The ITR forms for FY 2025-26 (AY 2026-27) are notified by CBDT typically in April. ITR-4 has been simplified for presumptive taxpayers with minimal disclosure requirements."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which professions qualify as 'specified professions' for Section 44ADA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Specified professions under Section 44AA(1) include: legal practice (advocates, lawyers), medical (doctors, surgeons, dentists), engineering, architectural, accountancy (CA, CMA, CS in practice), technical consultancy, interior decoration, film artists (actors, directors, producers, music directors, etc.), authorised representatives, and information technology professionals. Other professions such as brokerage, real estate agents, or general consultancy are excluded."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a salaried professional with side consulting income use Section 44ADA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. A salaried professional with concurrent freelance or consulting income in a specified profession can use Section 44ADA for the consulting portion. Salary income is reported under Income from Salary, while consulting receipts are declared under Profits and Gains of Business or Profession with 50 percent treated as taxable income. File ITR-3 if combined income exceeds ITR-4 thresholds. Total income above ₹50 lakh forces ITR-3."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How will Section 44ADA change under the Income Tax Act 2025?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Income Tax Act 2025, effective 1 April 2026, retains the substance of Section 44ADA with renumbered section references. For FY 2025-26 returns filed in 2026, the existing Section 44ADA under the 1961 Act applies. Tax Year 2026-27 (FY 2026-27 income onwards) uses the corresponding section under the 2025 Act. The 50 percent rate, ₹50 lakh and ₹75 lakh thresholds, eligible professions, and audit triggers remain unchanged in the transition."
+          }
+        }
+      ]
+    }
+    </script>
+
+@endsection
 @section('content')
 
 <nav class="toc-nav" aria-label="Page Navigation">

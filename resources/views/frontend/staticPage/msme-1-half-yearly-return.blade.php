@@ -1,185 +1,11 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>MSME-1 Half-Yearly Return Filing 2026 | Patron Accounting</title>
-    <meta name="description" content="File Form MSME-1 by 31 Oct and 30 Apr if you owe Micro or Small suppliers beyond 45 days. Avoid the Section 405 penalty. Filing from INR 1,999.">
-    <link rel="canonical" href="/msme-1-half-yearly-return">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="MSME-1 Half-Yearly Return Filing 2026 | Patron Accounting">
-    <meta property="og:description" content="File Form MSME-1 by 31 Oct and 30 Apr if you owe Micro or Small suppliers beyond 45 days. Avoid the Section 405 penalty. Filing from INR 1,999.">
-    <meta property="og:url" content="/msme-1-half-yearly-return">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="MSME-1 Half-Yearly Return Filing 2026 | Patron Accounting">
-    <meta name="twitter:description" content="File Form MSME-1 by 31 Oct and 30 Apr if you owe Micro or Small suppliers beyond 45 days. Avoid the Section 405 penalty. Filing from INR 1,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/msme-1-half-yearly-return/#service",
-        "name": "MSME-1 Half-Yearly Return (Section 405)",
-        "description": "MSME-1 services from Patron Accounting LLP cover the half-yearly return under Section 405 of the Companies Act, 2013 and the Specified Companies Order, 2019, through which a company reports its outstanding payments to Micro and Small Enterprise suppliers beyond 45 days, including the identification of Micro and Small suppliers from their Udyam registrations, the 45-day payables ageing check at the half-year end, the preparation of the disclosure with supplier details, outstanding amounts and reasons for delay (including all transactions with a breaching supplier under the MCA V3 form), the filing of the return with the ROC within the 31 October or 30 April due date, the tracking of both half-years, and the assessment and clean-up of past missed filings.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/msme-1-half-yearly-return" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Small and medium-sized enterprises", "sameAs": "https://en.wikipedia.org/wiki/Small_and_medium-sized_enterprises" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "MSME-1 Filing Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "MSME-1 Half-Yearly Return Filing Service",
-                    "priceCurrency": "INR",
-                    "price": "1999",
-                    "description": "Per-filing MSME-1 half-yearly return covering the supplier identification from Udyam, the 45-day payables ageing check, the disclosure preparation and the filing within the 31 October or 30 April due date, exclusive of GST and government charges. A clean-up of multiple past missed periods, and any MCA additional fees, are scoped and charged separately."
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/msme-1-half-yearly-return/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Company Compliance", "item": "https://www.patronaccounting.com/corporate-compliance-services" },
-            { "@type": "ListItem", "position": 3, "name": "MSME-1 Filing", "item": "https://www.patronaccounting.com/msme-1-half-yearly-return" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/msme-1-half-yearly-return/#faq",
-        "datePublished": "2026-06-03T08:00:00+05:30",
-        "dateModified": "2026-06-04T08:00:00+05:30",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "What is Form MSME-1?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Form MSME-1 is a half-yearly return filed with the Registrar of Companies under Section 405 of the Companies Act, 2013, reporting a company's outstanding payments to Micro and Small Enterprise suppliers that have remained unpaid for more than 45 days from the acceptance of the goods or services. It was introduced to enforce timely payments to small suppliers and give the government visibility of delayed dues." }
-            },
-            {
-                "@type": "Question",
-                "name": "Who has to file MSME-1?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Any company that procures goods or services from a supplier registered as a Micro or Small Enterprise, and has a payment to that supplier outstanding beyond 45 days, must file MSME-1. This applies regardless of the company's size or type, so one-person, private, public, listed and unlisted companies are all covered if they have such overdue dues to Micro or Small suppliers." }
-            },
-            {
-                "@type": "Question",
-                "name": "What are the due dates for MSME-1?",
-                "acceptedAnswer": { "@type": "Answer", "text": "MSME-1 is a half-yearly return with two due dates each year. The return for the half-year from April to September must be filed by 31 October, and the return for the half-year from October to March must be filed by 30 April. The 45-day outstanding position is assessed at the end of each half-year, on 30 September and 31 March respectively." }
-            },
-            {
-                "@type": "Question",
-                "name": "Does MSME-1 cover Medium enterprises?",
-                "acceptedAnswer": { "@type": "Answer", "text": "No. MSME-1 covers only suppliers registered as Micro or Small Enterprises. Payments to Medium enterprise suppliers are not reported in MSME-1, even if they are overdue. The supplier's Micro or Small status is confirmed from its Udyam registration, so verifying each supplier's category is an important first step in deciding what to report." }
-            },
-            {
-                "@type": "Question",
-                "name": "Is a NIL MSME-1 return required?",
-                "acceptedAnswer": { "@type": "Answer", "text": "A return is not required if no payment to a Micro or Small supplier was outstanding beyond 45 days at the half-year end, for example where all such dues were paid within 45 days or were cleared before the period end, or where the company has no Micro or Small suppliers. However, the 45-day check should still be carried out each half-year so the position is confirmed." }
-            },
-            {
-                "@type": "Question",
-                "name": "What does the 45-day rule mean for MSME-1?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Under the MSMED Act, a buyer must pay a Micro or Small supplier within 45 days of acceptance or deemed acceptance of the goods or services. Where a payment remains outstanding beyond 45 days, the reporting obligation under MSME-1 is triggered. Under the MCA V3 form, if even one payment to a supplier breached 45 days during the half-year, all transactions with that supplier must be reported." }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the penalty for not filing MSME-1?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Non-filing of MSME-1, or filing incorrect information, attracts a penalty under Section 405(4) on the company and every officer in default. The penalty is a fixed amount together with a continuing daily penalty for the period the default continues, subject to an overall cap. Filing each half-yearly return on time is the simplest way to avoid the penalty and any related notice." }
-            },
-            {
-                "@type": "Question",
-                "name": "How is MSME-1 connected to income tax?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Separately from MSME-1, Section 43B(h) of the Income-tax Act provides that a deduction for an amount payable to a Micro or Small supplier is allowed only in the year the payment is actually made, where it is not paid within the time allowed under the MSMED Act. So a late MSME payment can both trigger MSME-1 reporting and defer the company's tax deduction, which makes timely payment doubly important." }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/msme-1-half-yearly-return",
-        "name": "MSME-1 Half-Yearly Return (Section 405)",
-        "description": "File Form MSME-1 by 31 Oct and 30 Apr if you owe Micro or Small suppliers beyond 45 days. Avoid the Section 405 penalty. Filing from INR 1,999.",
-        "url": "https://www.patronaccounting.com/msme-1-half-yearly-return",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/msme-1-half-yearly-return/#service" },
-        "datePublished": "2026-06-03T08:00:00+05:30",
-        "dateModified": "2026-06-04T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/msme-1-half-yearly-return/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "MSME-1 Process: Step by Step",
-        "description": "How the MSME-1 half-yearly return is prepared and filed, from listing Micro and Small suppliers to filing within the due date and repeating each half-year.",
-        "totalTime": "P2D",
-        "step": [
-            { "@type": "HowToStep", "name": "List MSME suppliers", "text": "Identify the Micro and Small suppliers from their Udyam registrations." },
-            { "@type": "HowToStep", "name": "Run the ageing", "text": "Check the payables to those suppliers for any amount outstanding beyond 45 days at the half-year end." },
-            { "@type": "HowToStep", "name": "Decide if a return is due", "text": "Confirm whether any MSME due crossed 45 days; if none did, no return is required." },
-            { "@type": "HowToStep", "name": "Compile the disclosure", "text": "Capture the supplier details, the outstanding amounts and the reasons for the delay, including all transactions with a breaching supplier." },
-            { "@type": "HowToStep", "name": "File the return", "text": "File MSME-1 with the ROC within the 31 October or 30 April due date." },
-            { "@type": "HowToStep", "name": "Record and repeat", "text": "Keep the working papers and repeat the check for the next half-year." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "MSME-1 Filing Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Micro and Small Enterprise", "description": "Suppliers registered as Micro or Small under the MSMED Act; Medium is excluded." },
-            { "@type": "DefinedTerm", "name": "45-day rule", "description": "Payment due within 45 days of acceptance, beyond which reporting is triggered." },
-            { "@type": "DefinedTerm", "name": "Udyam registration", "description": "The supplier's MSME registration that confirms its Micro or Small status." },
-            { "@type": "DefinedTerm", "name": "Half-year", "description": "April to September and October to March, each with its own due date." },
-            { "@type": "DefinedTerm", "name": "Specified company", "description": "Any company with outstanding MSME dues beyond 45 days that must file MSME-1." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -793,7 +619,186 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>MSME-1 Half-Yearly Return Filing 2026 | Patron Accounting</title>
+    <meta name="description" content="File Form MSME-1 by 31 Oct and 30 Apr if you owe Micro or Small suppliers beyond 45 days. Avoid the Section 405 penalty. Filing from INR 1,999.">
+    <link rel="canonical" href="/msme-1-half-yearly-return">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="MSME-1 Half-Yearly Return Filing 2026 | Patron Accounting">
+    <meta property="og:description" content="File Form MSME-1 by 31 Oct and 30 Apr if you owe Micro or Small suppliers beyond 45 days. Avoid the Section 405 penalty. Filing from INR 1,999.">
+    <meta property="og:url" content="/msme-1-half-yearly-return">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="MSME-1 Half-Yearly Return Filing 2026 | Patron Accounting">
+    <meta name="twitter:description" content="File Form MSME-1 by 31 Oct and 30 Apr if you owe Micro or Small suppliers beyond 45 days. Avoid the Section 405 penalty. Filing from INR 1,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/msme-1-half-yearly-return/#service",
+        "name": "MSME-1 Half-Yearly Return (Section 405)",
+        "description": "MSME-1 services from Patron Accounting LLP cover the half-yearly return under Section 405 of the Companies Act, 2013 and the Specified Companies Order, 2019, through which a company reports its outstanding payments to Micro and Small Enterprise suppliers beyond 45 days, including the identification of Micro and Small suppliers from their Udyam registrations, the 45-day payables ageing check at the half-year end, the preparation of the disclosure with supplier details, outstanding amounts and reasons for delay (including all transactions with a breaching supplier under the MCA V3 form), the filing of the return with the ROC within the 31 October or 30 April due date, the tracking of both half-years, and the assessment and clean-up of past missed filings.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/msme-1-half-yearly-return" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Small and medium-sized enterprises", "sameAs": "https://en.wikipedia.org/wiki/Small_and_medium-sized_enterprises" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "MSME-1 Filing Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "MSME-1 Half-Yearly Return Filing Service",
+                    "priceCurrency": "INR",
+                    "price": "1999",
+                    "description": "Per-filing MSME-1 half-yearly return covering the supplier identification from Udyam, the 45-day payables ageing check, the disclosure preparation and the filing within the 31 October or 30 April due date, exclusive of GST and government charges. A clean-up of multiple past missed periods, and any MCA additional fees, are scoped and charged separately."
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/msme-1-half-yearly-return/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Company Compliance", "item": "https://www.patronaccounting.com/corporate-compliance-services" },
+            { "@type": "ListItem", "position": 3, "name": "MSME-1 Filing", "item": "https://www.patronaccounting.com/msme-1-half-yearly-return" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/msme-1-half-yearly-return/#faq",
+        "datePublished": "2026-06-03T08:00:00+05:30",
+        "dateModified": "2026-06-04T08:00:00+05:30",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is Form MSME-1?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Form MSME-1 is a half-yearly return filed with the Registrar of Companies under Section 405 of the Companies Act, 2013, reporting a company's outstanding payments to Micro and Small Enterprise suppliers that have remained unpaid for more than 45 days from the acceptance of the goods or services. It was introduced to enforce timely payments to small suppliers and give the government visibility of delayed dues." }
+            },
+            {
+                "@type": "Question",
+                "name": "Who has to file MSME-1?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Any company that procures goods or services from a supplier registered as a Micro or Small Enterprise, and has a payment to that supplier outstanding beyond 45 days, must file MSME-1. This applies regardless of the company's size or type, so one-person, private, public, listed and unlisted companies are all covered if they have such overdue dues to Micro or Small suppliers." }
+            },
+            {
+                "@type": "Question",
+                "name": "What are the due dates for MSME-1?",
+                "acceptedAnswer": { "@type": "Answer", "text": "MSME-1 is a half-yearly return with two due dates each year. The return for the half-year from April to September must be filed by 31 October, and the return for the half-year from October to March must be filed by 30 April. The 45-day outstanding position is assessed at the end of each half-year, on 30 September and 31 March respectively." }
+            },
+            {
+                "@type": "Question",
+                "name": "Does MSME-1 cover Medium enterprises?",
+                "acceptedAnswer": { "@type": "Answer", "text": "No. MSME-1 covers only suppliers registered as Micro or Small Enterprises. Payments to Medium enterprise suppliers are not reported in MSME-1, even if they are overdue. The supplier's Micro or Small status is confirmed from its Udyam registration, so verifying each supplier's category is an important first step in deciding what to report." }
+            },
+            {
+                "@type": "Question",
+                "name": "Is a NIL MSME-1 return required?",
+                "acceptedAnswer": { "@type": "Answer", "text": "A return is not required if no payment to a Micro or Small supplier was outstanding beyond 45 days at the half-year end, for example where all such dues were paid within 45 days or were cleared before the period end, or where the company has no Micro or Small suppliers. However, the 45-day check should still be carried out each half-year so the position is confirmed." }
+            },
+            {
+                "@type": "Question",
+                "name": "What does the 45-day rule mean for MSME-1?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Under the MSMED Act, a buyer must pay a Micro or Small supplier within 45 days of acceptance or deemed acceptance of the goods or services. Where a payment remains outstanding beyond 45 days, the reporting obligation under MSME-1 is triggered. Under the MCA V3 form, if even one payment to a supplier breached 45 days during the half-year, all transactions with that supplier must be reported." }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the penalty for not filing MSME-1?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Non-filing of MSME-1, or filing incorrect information, attracts a penalty under Section 405(4) on the company and every officer in default. The penalty is a fixed amount together with a continuing daily penalty for the period the default continues, subject to an overall cap. Filing each half-yearly return on time is the simplest way to avoid the penalty and any related notice." }
+            },
+            {
+                "@type": "Question",
+                "name": "How is MSME-1 connected to income tax?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Separately from MSME-1, Section 43B(h) of the Income-tax Act provides that a deduction for an amount payable to a Micro or Small supplier is allowed only in the year the payment is actually made, where it is not paid within the time allowed under the MSMED Act. So a late MSME payment can both trigger MSME-1 reporting and defer the company's tax deduction, which makes timely payment doubly important." }
+            }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/msme-1-half-yearly-return",
+        "name": "MSME-1 Half-Yearly Return (Section 405)",
+        "description": "File Form MSME-1 by 31 Oct and 30 Apr if you owe Micro or Small suppliers beyond 45 days. Avoid the Section 405 penalty. Filing from INR 1,999.",
+        "url": "https://www.patronaccounting.com/msme-1-half-yearly-return",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/msme-1-half-yearly-return/#service" },
+        "datePublished": "2026-06-03T08:00:00+05:30",
+        "dateModified": "2026-06-04T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/msme-1-half-yearly-return/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "MSME-1 Process: Step by Step",
+        "description": "How the MSME-1 half-yearly return is prepared and filed, from listing Micro and Small suppliers to filing within the due date and repeating each half-year.",
+        "totalTime": "P2D",
+        "step": [
+            { "@type": "HowToStep", "name": "List MSME suppliers", "text": "Identify the Micro and Small suppliers from their Udyam registrations." },
+            { "@type": "HowToStep", "name": "Run the ageing", "text": "Check the payables to those suppliers for any amount outstanding beyond 45 days at the half-year end." },
+            { "@type": "HowToStep", "name": "Decide if a return is due", "text": "Confirm whether any MSME due crossed 45 days; if none did, no return is required." },
+            { "@type": "HowToStep", "name": "Compile the disclosure", "text": "Capture the supplier details, the outstanding amounts and the reasons for the delay, including all transactions with a breaching supplier." },
+            { "@type": "HowToStep", "name": "File the return", "text": "File MSME-1 with the ROC within the 31 October or 30 April due date." },
+            { "@type": "HowToStep", "name": "Record and repeat", "text": "Keep the working papers and repeat the check for the next half-year." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "MSME-1 Filing Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Micro and Small Enterprise", "description": "Suppliers registered as Micro or Small under the MSMED Act; Medium is excluded." },
+            { "@type": "DefinedTerm", "name": "45-day rule", "description": "Payment due within 45 days of acceptance, beyond which reporting is triggered." },
+            { "@type": "DefinedTerm", "name": "Udyam registration", "description": "The supplier's MSME registration that confirms its Micro or Small status." },
+            { "@type": "DefinedTerm", "name": "Half-year", "description": "April to September and October to March, each with its own due date." },
+            { "@type": "DefinedTerm", "name": "Specified company", "description": "Any company with outstanding MSME dues beyond 45 days that must file MSME-1." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1548,17 +1553,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1581,8 +1579,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1619,7 +1615,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1 (corrected): Last Updated mirrors schema dateModified — STABLE hardcoded date, never live new Date()
 (function() {
@@ -1630,3 +1625,19 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

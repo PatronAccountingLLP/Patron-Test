@@ -1,161 +1,12 @@
 
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>ESIC Return Filing Gurugram - Process, Due Date & Fees</title>
-    <meta name="description" content="ESIC returns filing in Gurugram. Monthly contribution by 15th. Half-yearly return Nov/May. CA certificate 40+. Self-certification. Call +91 945 945 6700.">
-    <link rel="canonical" href="/esic-returns/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="ESIC Return Filing Gurugram - Process, Due Date & Fees">
-    <meta property="og:description" content="ESIC returns filing in Gurugram. Monthly contribution by 15th. Half-yearly return Nov/May. CA certificate 40+. Self-certification. Call +91 945 945 6700.">
-    <meta property="og:url" content="/esic-returns/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="ESIC Return Filing Gurugram - Process, Due Date & Fees">
-    <meta name="twitter:description" content="ESIC returns filing in Gurugram. Monthly contribution by 15th. Half-yearly return Nov/May. CA certificate 40+. Self-certification. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "ESIC Return Filing Gurugram - Process, Due Date & Fees",
-      "description": "ESIC returns filing in Gurugram. Monthly contribution by 15th. Half-yearly return Nov/May. CA certificate 40+. Self-certification. Call +91 945 945 6700.",
-      "url": "https://www.patronaccounting.com/esic-returns/gurugram",
-      "serviceType": "ESIC Return Filing Gurugram - Process, Due Date & Fees",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/esic-returns/gurugram",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "minPrice": "1500",
-          "maxPrice": "3000",
-          "priceCurrency": "INR"
-        }
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Esic Returns",
-          "item": "https://www.patronaccounting.com/esic-returns"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "ESIC Return Filing Gurugram - Process, Due Date & Fees",
-          "item": "https://www.patronaccounting.com/esic-returns/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "When is ESIC return filing required?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Every ESI-registered establishment must file two types of returns: monthly contribution (by the 15th) and half-yearly return Form 5 (Apr-Sep by Nov 11/12, Oct-Mar by May 11/12). These are separate obligations. Making monthly payments does not satisfy the half-yearly return requirement."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does ESIC return filing cost?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Monthly filing: Rs 1,500-5,000/month. Half-yearly return: Rs 2,000-5,000 per return. CA certificate (40+): Rs 3,000-5,000. ESI+PF+payroll bundle: Rs 5,000-12,000/month. No government fee for return filing itself. Call +91 945 945 6700 for a detailed quote."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the CA certificate requirement?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. CA Certificate (40+ Employees): 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens if the half-yearly return is missed?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Missing the half-yearly return is a separate compliance violation even if all monthly ESI payments are current. ESIC issues a reconciliation notice, may assign an inspector for audit, and penalties apply. Many employers miss this because they confuse monthly payments with the separate half-yearly return obligation."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is self-certification in ESIC?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Self-certification is a mandatory declaration by ALL employers (regardless of employee count) confirming that ESI contributions have been correctly calculated and deposited. It is a checkbox on the ESIC portal completed at half-yearly return submission. Separate from the CA certificate which is only for 40+ employees."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is a NIL declaration in ESIC?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A NIL declaration must be filed for any month where no ESI-eligible employees exist. It confirms zero contribution for that month. Failure to file a NIL declaration is itself a compliance gap that creates irregularity in ESIC records and can trigger scrutiny during inspection."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are the penalties for late ESIC returns?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Late contributions: 12% interest per annum from the 16th. Delay of 6+ months: 5-25% damages under Regulation 31C. Criminal prosecution under Section 85: up to 2 years imprisonment and Rs 5,000 fine. These apply even when monthly payments are current but half-yearly return is missed."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -679,7 +530,161 @@ section ul li:not(.nav-item) { font-size: 14px; }
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'Join Community'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>ESIC Return Filing Gurugram - Process, Due Date & Fees</title>
+    <meta name="description" content="ESIC returns filing in Gurugram. Monthly contribution by 15th. Half-yearly return Nov/May. CA certificate 40+. Self-certification. Call +91 945 945 6700.">
+    <link rel="canonical" href="/esic-returns/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="ESIC Return Filing Gurugram - Process, Due Date & Fees">
+    <meta property="og:description" content="ESIC returns filing in Gurugram. Monthly contribution by 15th. Half-yearly return Nov/May. CA certificate 40+. Self-certification. Call +91 945 945 6700.">
+    <meta property="og:url" content="/esic-returns/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ESIC Return Filing Gurugram - Process, Due Date & Fees">
+    <meta name="twitter:description" content="ESIC returns filing in Gurugram. Monthly contribution by 15th. Half-yearly return Nov/May. CA certificate 40+. Self-certification. Call +91 945 945 6700.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "ESIC Return Filing Gurugram - Process, Due Date & Fees",
+      "description": "ESIC returns filing in Gurugram. Monthly contribution by 15th. Half-yearly return Nov/May. CA certificate 40+. Self-certification. Call +91 945 945 6700.",
+      "url": "https://www.patronaccounting.com/esic-returns/gurugram",
+      "serviceType": "ESIC Return Filing Gurugram - Process, Due Date & Fees",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.patronaccounting.com/esic-returns/gurugram",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": "1500",
+          "maxPrice": "3000",
+          "priceCurrency": "INR"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Esic Returns",
+          "item": "https://www.patronaccounting.com/esic-returns"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "ESIC Return Filing Gurugram - Process, Due Date & Fees",
+          "item": "https://www.patronaccounting.com/esic-returns/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "When is ESIC return filing required?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Every ESI-registered establishment must file two types of returns: monthly contribution (by the 15th) and half-yearly return Form 5 (Apr-Sep by Nov 11/12, Oct-Mar by May 11/12). These are separate obligations. Making monthly payments does not satisfy the half-yearly return requirement."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does ESIC return filing cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Monthly filing: Rs 1,500-5,000/month. Half-yearly return: Rs 2,000-5,000 per return. CA certificate (40+): Rs 3,000-5,000. ESI+PF+payroll bundle: Rs 5,000-12,000/month. No government fee for return filing itself. Call +91 945 945 6700 for a detailed quote."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the CA certificate requirement?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. CA Certificate (40+ Employees): 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if the half-yearly return is missed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Missing the half-yearly return is a separate compliance violation even if all monthly ESI payments are current. ESIC issues a reconciliation notice, may assign an inspector for audit, and penalties apply. Many employers miss this because they confuse monthly payments with the separate half-yearly return obligation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is self-certification in ESIC?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Self-certification is a mandatory declaration by ALL employers (regardless of employee count) confirming that ESI contributions have been correctly calculated and deposited. It is a checkbox on the ESIC portal completed at half-yearly return submission. Separate from the CA certificate which is only for 40+ employees."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a NIL declaration in ESIC?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A NIL declaration must be filed for any month where no ESI-eligible employees exist. It confirms zero contribution for that month. Failure to file a NIL declaration is itself a compliance gap that creates irregularity in ESIC records and can trigger scrutiny during inspection."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the penalties for late ESIC returns?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late contributions: 12% interest per annum from the 16th. Delay of 6+ months: 5-25% damages under Regulation 31C. Criminal prosecution under Section 85: up to 2 years imprisonment and Rs 5,000 fine. These apply even when monthly payments are current but half-yearly return is missed."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1603,7 +1608,6 @@ var tocWrapper=document.getElementById('tocWrapper');document.getElementById('to
 
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

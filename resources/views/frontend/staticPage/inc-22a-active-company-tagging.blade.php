@@ -1,186 +1,11 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>INC-22A ACTIVE Filing Services in 2026 | Patron Accounting</title>
-    <meta name="description" content="File Form INC-22A (ACTIVE) to tag your registered office and clear ACTIVE non-compliant status under Rule 25A. Avoid the Rs 10,000 penalty. From INR 2,499.">
-    <link rel="canonical" href="/inc-22a-active-company-tagging">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="INC-22A ACTIVE Filing Services in 2026 | Patron Accounting">
-    <meta property="og:description" content="File Form INC-22A (ACTIVE) to tag your registered office and clear ACTIVE non-compliant status under Rule 25A. Avoid the Rs 10,000 penalty. From INR 2,499.">
-    <meta property="og:url" content="/inc-22a-active-company-tagging">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="INC-22A ACTIVE Filing Services in 2026 | Patron Accounting">
-    <meta name="twitter:description" content="File Form INC-22A (ACTIVE) to tag your registered office and clear ACTIVE non-compliant status under Rule 25A. Avoid the Rs 10,000 penalty. From INR 2,499.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/inc-22a-active-company-tagging/#service",
-        "name": "INC-22A ACTIVE Filing Services for Companies",
-        "description": "INC-22A filing services from Patron Accounting LLP cover the complete Active Company Tagging Identities and Verification in Form INC-22A under Rule 25A of the Companies (Incorporation) Rules, 2014, including the pre-filing compliance check on AOC-4, MGT-7 and director DIN status, the guidance on compliant external and internal geo-tagged photographs of the registered office, the reconciliation of director, KMP and auditor details with MCA records, the web-based filing with email and mobile OTP verification and professional certification, the regularisation of companies marked ACTIVE non-compliant with the Rs 10,000 fee, and the recovery of the blocked SH-7, PAS-3, DIR-12, INC-22 and INC-28 filings, for a company incorporated on or before 31 December 2017.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/inc-22a-active-company-tagging" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Registered office", "sameAs": "https://en.wikipedia.org/wiki/Registered_office" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "INC-22A Filing Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "INC-22A ACTIVE Filing Service",
-                    "priceCurrency": "INR",
-                    "price": "2499",
-                    "description": "Single-form INC-22A (ACTIVE) filing covering the pre-filing compliance check, the geo-tagged photo guidance and the web-based INC-22A submission with OTP verification and professional certification, exclusive of GST and government charges. There is no MCA fee if filed within the original due date; filing after the deadline, including to regularise ACTIVE non-compliant status, attracts a fee of Rs 10,000."
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/inc-22a-active-company-tagging/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Company Compliance", "item": "https://www.patronaccounting.com/corporate-compliance-services" },
-            { "@type": "ListItem", "position": 3, "name": "INC-22A Filing", "item": "https://www.patronaccounting.com/inc-22a-active-company-tagging" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/inc-22a-active-company-tagging/#faq",
-        "datePublished": "2026-06-03T08:00:00+05:30",
-        "dateModified": "2026-06-04T08:00:00+05:30",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "What is Form INC-22A (ACTIVE)?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Form INC-22A, known as ACTIVE for Active Company Tagging Identities and Verification, is the MCA filing that verifies a company's registered office and key particulars under Rule 25A of the Companies (Incorporation) Rules, 2014. It was introduced on 21 February 2019 to identify shell companies and confirm that companies operate from genuine registered offices." }
-            },
-            {
-                "@type": "Question",
-                "name": "Who has to file INC-22A?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Every company incorporated on or before 31 December 2017 with active status must file Form INC-22A. This includes private, public, OPC and Section 8 companies. Companies struck off, under striking off, under liquidation, amalgamated or dissolved are exempt, as are companies incorporated on or after 1 January 2018." }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the penalty for not filing INC-22A?",
-                "acceptedAnswer": { "@type": "Answer", "text": "A company that does not file INC-22A is marked ACTIVE non-compliant under Section 12(9) of the Companies Act, 2013. To regularise this status and file INC-22A, the company must pay a fee of Rs 10,000. The non-compliant status also blocks several important MCA filings until the form is filed." }
-            },
-            {
-                "@type": "Question",
-                "name": "What does ACTIVE non-compliant status block?",
-                "acceptedAnswer": { "@type": "Answer", "text": "ACTIVE non-compliant status prevents a company from filing SH-7 for change in authorised capital, PAS-3 for return of allotment, DIR-12 for change in directors except cessation, INC-22 for change in registered office, and INC-28 for amalgamation or demerger. These filings resume only after INC-22A is filed and the company is ACTIVE Compliant." }
-            },
-            {
-                "@type": "Question",
-                "name": "Is INC-22A still an e-Form or web-based now?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Since 14 July 2025, INC-22A is filed only as a web-based form on the MCA portal, under the Companies (Incorporation) Amendment Rules, 2025 notified on 27 June 2025. The old downloadable e-Form is discontinued. The web form requires email and mobile OTP verification and certification by a practising professional." }
-            },
-            {
-                "@type": "Question",
-                "name": "Can I file INC-22A if my annual filings are pending?",
-                "acceptedAnswer": { "@type": "Answer", "text": "No. A company that has not filed its Financial Statements under Section 137 or Annual Returns under Section 92 is restricted from filing INC-22A until those returns are complete. The only exception is a company under a management dispute that has been recorded by the Registrar, which may file INC-22A despite pending returns." }
-            },
-            {
-                "@type": "Question",
-                "name": "What photos are required for INC-22A?",
-                "acceptedAnswer": { "@type": "Answer", "text": "INC-22A requires geo-tagged photographs of the registered office, showing both an external view with the company name board and full address, and an internal view with at least one director or authorised person present. Non-compliant or undated photos are a common cause of rejection, so the images must clearly evidence the office." }
-            },
-            {
-                "@type": "Question",
-                "name": "How do I remove ACTIVE non-compliant status?",
-                "acceptedAnswer": { "@type": "Answer", "text": "To remove ACTIVE non-compliant status, the company must first clear any pending AOC-4 and MGT-7 filings, then file the web-based INC-22A with the Rs 10,000 fee and compliant geo-tagged photos. Once the Registrar processes the form, the company is restored to ACTIVE Compliant and its blocked filings can resume." }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/inc-22a-active-company-tagging",
-        "name": "INC-22A ACTIVE Filing Services for Companies",
-        "description": "File Form INC-22A (ACTIVE) to tag your registered office and clear ACTIVE non-compliant status under Rule 25A. Avoid the Rs 10,000 penalty. From INR 2,499.",
-        "url": "https://www.patronaccounting.com/inc-22a-active-company-tagging",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/inc-22a-active-company-tagging/#service" },
-        "datePublished": "2026-06-03T08:00:00+05:30",
-        "dateModified": "2026-06-04T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/inc-22a-active-company-tagging/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "INC-22A Filing Process: Step by Step",
-        "description": "How Form INC-22A (ACTIVE) is filed, from clearing pending annual filings to submitting the web-based form with OTP and professional certification.",
-        "totalTime": "P2D",
-        "step": [
-            { "@type": "HowToStep", "name": "Clear pending annual filings", "text": "File any due AOC-4 and MGT-7, as INC-22A is restricted until these are complete." },
-            { "@type": "HowToStep", "name": "Verify DIN and DSC", "text": "Ensure all directors have approved DIN status and the signatory holds a valid DSC." },
-            { "@type": "HowToStep", "name": "Capture geo-tagged photos", "text": "Take compliant external and internal photos of the registered office with the name board visible." },
-            { "@type": "HowToStep", "name": "Open the web-based form", "text": "Log in to the MCA portal and access the web-based INC-22A under company filings." },
-            { "@type": "HowToStep", "name": "Enter and reconcile details", "text": "Confirm registered office, director, KMP and auditor details against MCA records." },
-            { "@type": "HowToStep", "name": "Verify OTP and certify", "text": "Complete email and mobile OTP verification and certify with a practising professional's DSC." },
-            { "@type": "HowToStep", "name": "Submit and save the SRN", "text": "Submit the form and record the Service Request Number and acknowledgement." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "INC-22A Filing Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "ACTIVE", "description": "Active Company Tagging Identities and Verification, the name of the INC-22A exercise." },
-            { "@type": "DefinedTerm", "name": "ACTIVE Compliant", "description": "The MCA status confirming a company has filed INC-22A and verified its office." },
-            { "@type": "DefinedTerm", "name": "ACTIVE Non-Compliant", "description": "The status flagged when INC-22A is not filed, which blocks several MCA filings." },
-            { "@type": "DefinedTerm", "name": "Geo-tagged Photo", "description": "A location-stamped photo of the registered office, external and internal, required in the form." },
-            { "@type": "DefinedTerm", "name": "Rule 25A", "description": "The rule in the Companies (Incorporation) Rules, 2014 that mandates INC-22A." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -794,7 +619,187 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>INC-22A ACTIVE Filing Services in 2026 | Patron Accounting</title>
+    <meta name="description" content="File Form INC-22A (ACTIVE) to tag your registered office and clear ACTIVE non-compliant status under Rule 25A. Avoid the Rs 10,000 penalty. From INR 2,499.">
+    <link rel="canonical" href="/inc-22a-active-company-tagging">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="INC-22A ACTIVE Filing Services in 2026 | Patron Accounting">
+    <meta property="og:description" content="File Form INC-22A (ACTIVE) to tag your registered office and clear ACTIVE non-compliant status under Rule 25A. Avoid the Rs 10,000 penalty. From INR 2,499.">
+    <meta property="og:url" content="/inc-22a-active-company-tagging">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="INC-22A ACTIVE Filing Services in 2026 | Patron Accounting">
+    <meta name="twitter:description" content="File Form INC-22A (ACTIVE) to tag your registered office and clear ACTIVE non-compliant status under Rule 25A. Avoid the Rs 10,000 penalty. From INR 2,499.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/inc-22a-active-company-tagging/#service",
+        "name": "INC-22A ACTIVE Filing Services for Companies",
+        "description": "INC-22A filing services from Patron Accounting LLP cover the complete Active Company Tagging Identities and Verification in Form INC-22A under Rule 25A of the Companies (Incorporation) Rules, 2014, including the pre-filing compliance check on AOC-4, MGT-7 and director DIN status, the guidance on compliant external and internal geo-tagged photographs of the registered office, the reconciliation of director, KMP and auditor details with MCA records, the web-based filing with email and mobile OTP verification and professional certification, the regularisation of companies marked ACTIVE non-compliant with the Rs 10,000 fee, and the recovery of the blocked SH-7, PAS-3, DIR-12, INC-22 and INC-28 filings, for a company incorporated on or before 31 December 2017.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/inc-22a-active-company-tagging" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Registered office", "sameAs": "https://en.wikipedia.org/wiki/Registered_office" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "INC-22A Filing Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "INC-22A ACTIVE Filing Service",
+                    "priceCurrency": "INR",
+                    "price": "2499",
+                    "description": "Single-form INC-22A (ACTIVE) filing covering the pre-filing compliance check, the geo-tagged photo guidance and the web-based INC-22A submission with OTP verification and professional certification, exclusive of GST and government charges. There is no MCA fee if filed within the original due date; filing after the deadline, including to regularise ACTIVE non-compliant status, attracts a fee of Rs 10,000."
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/inc-22a-active-company-tagging/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Company Compliance", "item": "https://www.patronaccounting.com/corporate-compliance-services" },
+            { "@type": "ListItem", "position": 3, "name": "INC-22A Filing", "item": "https://www.patronaccounting.com/inc-22a-active-company-tagging" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/inc-22a-active-company-tagging/#faq",
+        "datePublished": "2026-06-03T08:00:00+05:30",
+        "dateModified": "2026-06-04T08:00:00+05:30",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is Form INC-22A (ACTIVE)?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Form INC-22A, known as ACTIVE for Active Company Tagging Identities and Verification, is the MCA filing that verifies a company's registered office and key particulars under Rule 25A of the Companies (Incorporation) Rules, 2014. It was introduced on 21 February 2019 to identify shell companies and confirm that companies operate from genuine registered offices." }
+            },
+            {
+                "@type": "Question",
+                "name": "Who has to file INC-22A?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Every company incorporated on or before 31 December 2017 with active status must file Form INC-22A. This includes private, public, OPC and Section 8 companies. Companies struck off, under striking off, under liquidation, amalgamated or dissolved are exempt, as are companies incorporated on or after 1 January 2018." }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the penalty for not filing INC-22A?",
+                "acceptedAnswer": { "@type": "Answer", "text": "A company that does not file INC-22A is marked ACTIVE non-compliant under Section 12(9) of the Companies Act, 2013. To regularise this status and file INC-22A, the company must pay a fee of Rs 10,000. The non-compliant status also blocks several important MCA filings until the form is filed." }
+            },
+            {
+                "@type": "Question",
+                "name": "What does ACTIVE non-compliant status block?",
+                "acceptedAnswer": { "@type": "Answer", "text": "ACTIVE non-compliant status prevents a company from filing SH-7 for change in authorised capital, PAS-3 for return of allotment, DIR-12 for change in directors except cessation, INC-22 for change in registered office, and INC-28 for amalgamation or demerger. These filings resume only after INC-22A is filed and the company is ACTIVE Compliant." }
+            },
+            {
+                "@type": "Question",
+                "name": "Is INC-22A still an e-Form or web-based now?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Since 14 July 2025, INC-22A is filed only as a web-based form on the MCA portal, under the Companies (Incorporation) Amendment Rules, 2025 notified on 27 June 2025. The old downloadable e-Form is discontinued. The web form requires email and mobile OTP verification and certification by a practising professional." }
+            },
+            {
+                "@type": "Question",
+                "name": "Can I file INC-22A if my annual filings are pending?",
+                "acceptedAnswer": { "@type": "Answer", "text": "No. A company that has not filed its Financial Statements under Section 137 or Annual Returns under Section 92 is restricted from filing INC-22A until those returns are complete. The only exception is a company under a management dispute that has been recorded by the Registrar, which may file INC-22A despite pending returns." }
+            },
+            {
+                "@type": "Question",
+                "name": "What photos are required for INC-22A?",
+                "acceptedAnswer": { "@type": "Answer", "text": "INC-22A requires geo-tagged photographs of the registered office, showing both an external view with the company name board and full address, and an internal view with at least one director or authorised person present. Non-compliant or undated photos are a common cause of rejection, so the images must clearly evidence the office." }
+            },
+            {
+                "@type": "Question",
+                "name": "How do I remove ACTIVE non-compliant status?",
+                "acceptedAnswer": { "@type": "Answer", "text": "To remove ACTIVE non-compliant status, the company must first clear any pending AOC-4 and MGT-7 filings, then file the web-based INC-22A with the Rs 10,000 fee and compliant geo-tagged photos. Once the Registrar processes the form, the company is restored to ACTIVE Compliant and its blocked filings can resume." }
+            }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/inc-22a-active-company-tagging",
+        "name": "INC-22A ACTIVE Filing Services for Companies",
+        "description": "File Form INC-22A (ACTIVE) to tag your registered office and clear ACTIVE non-compliant status under Rule 25A. Avoid the Rs 10,000 penalty. From INR 2,499.",
+        "url": "https://www.patronaccounting.com/inc-22a-active-company-tagging",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/inc-22a-active-company-tagging/#service" },
+        "datePublished": "2026-06-03T08:00:00+05:30",
+        "dateModified": "2026-06-04T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/inc-22a-active-company-tagging/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "INC-22A Filing Process: Step by Step",
+        "description": "How Form INC-22A (ACTIVE) is filed, from clearing pending annual filings to submitting the web-based form with OTP and professional certification.",
+        "totalTime": "P2D",
+        "step": [
+            { "@type": "HowToStep", "name": "Clear pending annual filings", "text": "File any due AOC-4 and MGT-7, as INC-22A is restricted until these are complete." },
+            { "@type": "HowToStep", "name": "Verify DIN and DSC", "text": "Ensure all directors have approved DIN status and the signatory holds a valid DSC." },
+            { "@type": "HowToStep", "name": "Capture geo-tagged photos", "text": "Take compliant external and internal photos of the registered office with the name board visible." },
+            { "@type": "HowToStep", "name": "Open the web-based form", "text": "Log in to the MCA portal and access the web-based INC-22A under company filings." },
+            { "@type": "HowToStep", "name": "Enter and reconcile details", "text": "Confirm registered office, director, KMP and auditor details against MCA records." },
+            { "@type": "HowToStep", "name": "Verify OTP and certify", "text": "Complete email and mobile OTP verification and certify with a practising professional's DSC." },
+            { "@type": "HowToStep", "name": "Submit and save the SRN", "text": "Submit the form and record the Service Request Number and acknowledgement." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "INC-22A Filing Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "ACTIVE", "description": "Active Company Tagging Identities and Verification, the name of the INC-22A exercise." },
+            { "@type": "DefinedTerm", "name": "ACTIVE Compliant", "description": "The MCA status confirming a company has filed INC-22A and verified its office." },
+            { "@type": "DefinedTerm", "name": "ACTIVE Non-Compliant", "description": "The status flagged when INC-22A is not filed, which blocks several MCA filings." },
+            { "@type": "DefinedTerm", "name": "Geo-tagged Photo", "description": "A location-stamped photo of the registered office, external and internal, required in the form." },
+            { "@type": "DefinedTerm", "name": "Rule 25A", "description": "The rule in the Companies (Incorporation) Rules, 2014 that mandates INC-22A." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1567,17 +1572,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1600,8 +1598,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1638,7 +1634,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1 (corrected): Last Updated mirrors schema dateModified — STABLE hardcoded date, never live new Date()
 (function() {
@@ -1649,3 +1644,19 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

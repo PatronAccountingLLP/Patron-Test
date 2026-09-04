@@ -1,197 +1,5 @@
 @extends('layouts.app')
-
-@section('meta')
-<title>Inventory Turnover Calculator | Stock Ratio & DIO Days</title>
-<meta name="description" content="Free inventory turnover calculator: get your stock turnover ratio and days inventory outstanding (DIO) from COGS and average stock, with India benchmarks now!">
-<meta name="robots" content="index, follow">
-<meta name="theme-color" content="#15365f">
-<link rel="canonical" href="https://www.patronaccounting.com/tools/inventory-turnover-calculator">
-
-<meta property="og:title" content="Inventory Turnover Calculator — Ratio & Days Outstanding">
-<meta property="og:description" content="Calculate inventory turnover ratio and days inventory outstanding (DIO) instantly, with industry benchmarks for Indian businesses. Free, no signup.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.patronaccounting.com/tools/inventory-turnover-calculator">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="1200">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-<meta property="og:site_name" content="Patron Accounting">
-<meta property="og:locale" content="en_IN">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Inventory Turnover Calculator — Ratio & Days Outstanding">
-<meta name="twitter:description" content="Calculate inventory turnover ratio and days inventory outstanding (DIO) instantly, with India industry benchmarks. Free & instant.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-
-<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
-<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
-@endsection
-@section('schema')
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "Inventory Turnover Calculator",
-  "description": "Inventory Turnover Calculator computes a business's inventory (stock) turnover ratio and days inventory outstanding (DIO) from cost of goods sold and average inventory, and benchmarks the result against Indian industry averages.",
-  "url": "https://www.patronaccounting.com/tools/inventory-turnover-calculator",
-  "applicationCategory": "BusinessApplication",
-  "inLanguage": "en-IN",
-  "isAccessibleForFree": true,
-  "operatingSystem": "Any",
-  "datePublished": "2026-06-05T08:00:00+05:30",
-  "dateModified": "2026-06-05T08:00:00+05:30",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "INR"
-  },
-  "reviewedBy": {
-    "@type": "Person",
-    "@id": "https://patronaccounting.com/#founder",
-    "name": "CA Sundram Gupta",
-    "jobTitle": "Founder & Chartered Accountant",
-    "url": "https://www.patronaccounting.com/contact-page",
-    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-    "hasCredential": [{
-      "@type": "EducationalOccupationalCredential",
-      "credentialCategory": "Professional Certification",
-      "name": "Chartered Accountant (CA)",
-      "recognizedBy": {
-        "@type": "Organization",
-        "name": "Institute of Chartered Accountants of India",
-        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-      }
-    }]
-  },
-  "publisher": { "@id": "https://patronaccounting.com/#organization" },
-  "provider": {
-    "@id": "https://patronaccounting.com/#organization"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "Inventory Turnover Calculator", "item": "https://www.patronaccounting.com/tools/inventory-turnover-calculator"}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the inventory turnover ratio?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Inventory turnover ratio measures how many times a business sells and replaces its stock over a period, usually a year. It equals cost of goods sold divided by average inventory. A higher ratio signals fast-moving stock and efficient working capital, while a low ratio points to overstocking, slow sales or obsolete goods tying up cash that could be deployed elsewhere."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do you calculate inventory turnover ratio?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Divide cost of goods sold (COGS) by average inventory. Average inventory equals opening stock plus closing stock divided by two. For example, COGS of ₹10,00,000 and average inventory of ₹2,00,000 gives a turnover ratio of 5, meaning the business sold and replaced its stock five times during the period. Our calculator does this instantly in rupees."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is days inventory outstanding (DIO)?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Days inventory outstanding, also called days sales of inventory, is the average number of days stock is held before being sold. It equals 365 divided by the inventory turnover ratio. A turnover of 5 means DIO of about 73 days. Lower DIO generally means faster conversion of inventory into cash, which strengthens your cash flow and working capital position."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a good inventory turnover ratio in India?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "It depends heavily on the industry. FMCG and grocery often run 12 to 25 turns a year, general retail and e-commerce 5 to 10, electronics 6 to 10, apparel 5 to 8, furniture 3 to 5, and manufacturing around 5. Always benchmark against your own sector rather than a generic figure, since an ideal ratio for one industry can be poor for another."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Should I use COGS or sales in the formula?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Cost of goods sold is the more accurate numerator because inventory is recorded at cost, so both sides of the ratio are on a cost basis. Some businesses use net sales instead, which inflates the ratio because sales include a profit margin. For comparability with peers and audited accounts, use COGS divided by average inventory wherever possible."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How is average inventory calculated?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Average inventory equals opening inventory plus closing inventory divided by two. Using an average rather than a single point in time smooths out seasonal peaks and troughs, giving a more realistic ratio. For greater accuracy, businesses with seasonal demand can average monthly or quarterly inventory balances across the full period instead of just two figures."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is a high inventory turnover always good?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Not always. A high ratio usually reflects strong demand and tight stock management, but an extremely high turnover can signal insufficient safety stock, frequent stockouts and lost sales. The aim is the right balance for your category, not the highest possible number. Pair turnover with stockout data and customer fill rates before concluding your inventory is well managed."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What does a low inventory turnover ratio indicate?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A low ratio suggests weak sales, overstocking, poor demand forecasting or obsolete goods. Slow-moving inventory ties up working capital, increases storage and insurance costs, and raises the risk of write-downs. For lenders and auditors it is a red flag, since stock that cannot be sold quickly is a weaker form of current asset when assessing liquidity and solvency."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How can a business improve inventory turnover?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common levers include demand-based forecasting, tighter reorder points, clearing slow-moving SKUs through discounts, negotiating smaller and more frequent supplier deliveries, and adopting inventory software. Cutting dead stock and aligning purchasing with actual sales velocity frees up cash. Improving turnover directly shortens your cash conversion cycle and reduces working-capital finance costs."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does inventory turnover affect the cash conversion cycle?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Inventory turnover drives the days inventory outstanding component of the cash conversion cycle. Faster turnover means lower DIO, which shortens the time between paying suppliers and collecting cash from customers. A shorter cycle reduces the working capital you must finance, so improving inventory efficiency is one of the most direct ways to free up cash in a product business."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does CARO 2020 relate to inventory?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Under the Companies (Auditor's Report) Order 2020, auditors of eligible companies must report on physical verification of inventory and on whether quarterly stock statements filed with banks against working-capital limits agree with the books. Maintaining accurate, regularly verified inventory records is therefore both a management discipline and a statutory audit requirement for many Indian companies."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is this inventory turnover calculator free?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, the Patron Accounting Inventory Turnover Calculator is completely free with no signup required. All calculations run in your browser and nothing is stored on our servers. It displays results in rupees, computes both the turnover ratio and days inventory outstanding, and benchmarks your result against common Indian industry averages to help you interpret it."
-      }
-    }
-  ]
-}
-</script>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-@endsection
+@push('styles')
 <style>
         :root {
             --primary: #15365f;
@@ -721,6 +529,201 @@ a:focus-visible {
 
 
         </style>
+@endpush
+
+
+@section('meta')
+<title>Inventory Turnover Calculator | Stock Ratio & DIO Days</title>
+<meta name="description" content="Free inventory turnover calculator: get your stock turnover ratio and days inventory outstanding (DIO) from COGS and average stock, with India benchmarks now!">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#15365f">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/inventory-turnover-calculator">
+
+<meta property="og:title" content="Inventory Turnover Calculator — Ratio & Days Outstanding">
+<meta property="og:description" content="Calculate inventory turnover ratio and days inventory outstanding (DIO) instantly, with industry benchmarks for Indian businesses. Free, no signup.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/inventory-turnover-calculator">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+<meta property="og:site_name" content="Patron Accounting">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Inventory Turnover Calculator — Ratio & Days Outstanding">
+<meta name="twitter:description" content="Calculate inventory turnover ratio and days inventory outstanding (DIO) instantly, with India industry benchmarks. Free & instant.">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
+@endsection
+@section('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Inventory Turnover Calculator",
+  "description": "Inventory Turnover Calculator computes a business's inventory (stock) turnover ratio and days inventory outstanding (DIO) from cost of goods sold and average inventory, and benchmarks the result against Indian industry averages.",
+  "url": "https://www.patronaccounting.com/tools/inventory-turnover-calculator",
+  "applicationCategory": "BusinessApplication",
+  "inLanguage": "en-IN",
+  "isAccessibleForFree": true,
+  "operatingSystem": "Any",
+  "datePublished": "2026-06-05T08:00:00+05:30",
+  "dateModified": "2026-06-05T08:00:00+05:30",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "INR"
+  },
+  "reviewedBy": {
+    "@type": "Person",
+    "@id": "https://patronaccounting.com/#founder",
+    "name": "CA Sundram Gupta",
+    "jobTitle": "Founder & Chartered Accountant",
+    "url": "https://www.patronaccounting.com/contact-page",
+    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+    "hasCredential": [{
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Professional Certification",
+      "name": "Chartered Accountant (CA)",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Institute of Chartered Accountants of India",
+        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+      }
+    }]
+  },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
+  "provider": {
+    "@id": "https://patronaccounting.com/#organization"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "Inventory Turnover Calculator", "item": "https://www.patronaccounting.com/tools/inventory-turnover-calculator"}
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the inventory turnover ratio?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Inventory turnover ratio measures how many times a business sells and replaces its stock over a period, usually a year. It equals cost of goods sold divided by average inventory. A higher ratio signals fast-moving stock and efficient working capital, while a low ratio points to overstocking, slow sales or obsolete goods tying up cash that could be deployed elsewhere."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you calculate inventory turnover ratio?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Divide cost of goods sold (COGS) by average inventory. Average inventory equals opening stock plus closing stock divided by two. For example, COGS of ₹10,00,000 and average inventory of ₹2,00,000 gives a turnover ratio of 5, meaning the business sold and replaced its stock five times during the period. Our calculator does this instantly in rupees."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is days inventory outstanding (DIO)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Days inventory outstanding, also called days sales of inventory, is the average number of days stock is held before being sold. It equals 365 divided by the inventory turnover ratio. A turnover of 5 means DIO of about 73 days. Lower DIO generally means faster conversion of inventory into cash, which strengthens your cash flow and working capital position."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a good inventory turnover ratio in India?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It depends heavily on the industry. FMCG and grocery often run 12 to 25 turns a year, general retail and e-commerce 5 to 10, electronics 6 to 10, apparel 5 to 8, furniture 3 to 5, and manufacturing around 5. Always benchmark against your own sector rather than a generic figure, since an ideal ratio for one industry can be poor for another."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I use COGS or sales in the formula?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cost of goods sold is the more accurate numerator because inventory is recorded at cost, so both sides of the ratio are on a cost basis. Some businesses use net sales instead, which inflates the ratio because sales include a profit margin. For comparability with peers and audited accounts, use COGS divided by average inventory wherever possible."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is average inventory calculated?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Average inventory equals opening inventory plus closing inventory divided by two. Using an average rather than a single point in time smooths out seasonal peaks and troughs, giving a more realistic ratio. For greater accuracy, businesses with seasonal demand can average monthly or quarterly inventory balances across the full period instead of just two figures."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is a high inventory turnover always good?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not always. A high ratio usually reflects strong demand and tight stock management, but an extremely high turnover can signal insufficient safety stock, frequent stockouts and lost sales. The aim is the right balance for your category, not the highest possible number. Pair turnover with stockout data and customer fill rates before concluding your inventory is well managed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does a low inventory turnover ratio indicate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A low ratio suggests weak sales, overstocking, poor demand forecasting or obsolete goods. Slow-moving inventory ties up working capital, increases storage and insurance costs, and raises the risk of write-downs. For lenders and auditors it is a red flag, since stock that cannot be sold quickly is a weaker form of current asset when assessing liquidity and solvency."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can a business improve inventory turnover?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Common levers include demand-based forecasting, tighter reorder points, clearing slow-moving SKUs through discounts, negotiating smaller and more frequent supplier deliveries, and adopting inventory software. Cutting dead stock and aligning purchasing with actual sales velocity frees up cash. Improving turnover directly shortens your cash conversion cycle and reduces working-capital finance costs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does inventory turnover affect the cash conversion cycle?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Inventory turnover drives the days inventory outstanding component of the cash conversion cycle. Faster turnover means lower DIO, which shortens the time between paying suppliers and collecting cash from customers. A shorter cycle reduces the working capital you must finance, so improving inventory efficiency is one of the most direct ways to free up cash in a product business."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does CARO 2020 relate to inventory?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Under the Companies (Auditor's Report) Order 2020, auditors of eligible companies must report on physical verification of inventory and on whether quarterly stock statements filed with banks against working-capital limits agree with the books. Maintaining accurate, regularly verified inventory records is therefore both a management discipline and a statutory audit requirement for many Indian companies."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is this inventory turnover calculator free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the Patron Accounting Inventory Turnover Calculator is completely free with no signup required. All calculations run in your browser and nothing is stored on our servers. It displays results in rupees, computes both the turnover ratio and days inventory outstanding, and benchmarks your result against common Indian industry averages to help you interpret it."
+      }
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation">
     <div class="toc-nav-inner">

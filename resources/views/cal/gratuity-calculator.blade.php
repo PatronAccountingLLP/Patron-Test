@@ -1,67 +1,5 @@
 @extends('layouts.app')
-@section('meta')
-    <title>Gratuity Calculator India | Eligibility &amp; Payout</title>
-    <meta name="description" content="Gratuity calculator: compute your payout under the Payment of Gratuity Act, 1972 using the 15/26 formula, plus eligibility and tax exemption. Calculate free!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/gratuity-calculator">
-    <meta property="og:title" content="Gratuity Calculator India &mdash; Eligibility & Payout 2026">
-    <meta property="og:description" content="Calculate gratuity payout per Payment of Gratuity Act using the 15/26 formula. Check eligibility and tax exemption.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/gratuity-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Gratuity Calculator India &mdash; Eligibility & Payout 2026">
-    <meta name="twitter:description" content="Gratuity payout calculator per Payment of Gratuity Act 1972. 15/26 formula. Try now!">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-<script type="application/ld+json">
-    {
-      "@context": "https://schema.org", "@type": "WebApplication",
-      "name": "Gratuity Calculator India",
-      "description": "Gratuity Calculator computes the gratuity payout amount for Indian employees using the 15/26 formula under the Payment of Gratuity Act, 1972 for covered establishments and the 15/30 formula for non-covered establishments. Shows eligibility check, tax exemption computation under Section 10(10), and year rounding rules.",
-      "url": "https://www.patronaccounting.com/tools/gratuity-calculator",
-      "applicationCategory": "UtilityApplication", "operatingSystem": "Any",
-      "datePublished": "2026-03-05", "dateModified": "2026-03-05",
-      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" },
-      "author": { "@type": "Person", "@id": "https://patronaccounting.com/#team", "name": "CA & CS Patron Accounting Team", "jobTitle": "Chartered Accountants & Company Secretaries", "url": "https://www.patronaccounting.com/contact-page", "sameAs": ["https://www.linkedin.com/company/patron-accounting"], "hasCredential": [{ "@type": "EducationalOccupationalCredential", "credentialCategory": "Professional Certification", "name": "Chartered Accountant (CA)", "recognizedBy": { "@type": "Organization", "name": "Institute of Chartered Accountants of India", "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India" } }] },
-      "publisher": { "@type": "Organization", "name": "Patron Accounting LLP", "url": "https://www.patronaccounting.com", "logo": { "@type": "ImageObject", "url": "https://www.patronaccounting.com/images/site-logo.svg" } },
-      "provider": { "@id": "https://patronaccounting.com/#organization" }
-    }
-    </script>
-<script type="application/ld+json">
-    { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-      {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-      {"@type": "ListItem", "position": 3, "name": "Gratuity Calculator", "item": "https://www.patronaccounting.com/tools/gratuity-calculator"}
-    ]}
-    </script>
-<script type="application/ld+json">
-    { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
-      { "@type": "Question", "name": "How is gratuity calculated in India?", "acceptedAnswer": { "@type": "Answer", "text": "For establishments covered under the Payment of Gratuity Act 1972, gratuity is calculated as Last Drawn Salary (Basic plus DA) multiplied by 15, multiplied by Completed Years of Service, divided by 26. The divisor 26 represents working days in a month excluding Sundays. For establishments not covered under the Act, the divisor is 30 instead of 26, resulting in a lower payout amount." } },
-      { "@type": "Question", "name": "Who is eligible for gratuity in India?", "acceptedAnswer": { "@type": "Answer", "text": "An employee is eligible for gratuity after completing 5 years of continuous service with the same employer. The 5-year rule is waived in cases of death or disablement. Under the new Labour Codes, fixed-term contract employees become eligible after just 1 year if they have worked more than 240 days. The Act applies to establishments with 10 or more employees on any day in the preceding 12 months." } },
-      { "@type": "Question", "name": "What is the maximum gratuity amount in India?", "acceptedAnswer": { "@type": "Answer", "text": "The maximum tax-exempt gratuity limit is Rs 20 lakh for private sector employees under Section 10(10)(ii) of the Income Tax Act. For central and state government employees, the limit is Rs 25 lakh. Any gratuity received above these limits is treated as taxable income. The Rs 20 lakh limit applies across your entire working life, not per employer, so cumulative gratuity from multiple employers is considered." } },
-      { "@type": "Question", "name": "What does 15/26 mean in gratuity calculation?", "acceptedAnswer": { "@type": "Answer", "text": "The fraction 15 over 26 is the core of the gratuity formula. The number 15 represents half a month of wages (15 days of salary) as reward for each completed year of service. The number 26 represents the working days in a month excluding Sundays. This gives a slightly higher per-day rate than dividing by 30. For non-covered establishments, 15 over 30 is used instead." } },
-      { "@type": "Question", "name": "How are years of service rounded for gratuity?", "acceptedAnswer": { "@type": "Answer", "text": "If service in the final year exceeds 6 months, it is rounded up to the next full year. For example, 7 years and 8 months becomes 8 years for gratuity calculation. If it is 7 years and 4 months, it remains 7 years. Continuous service includes periods of leave, sickness, accident, layoff, and strikes. An employee is considered in continuous service if they have worked 240 days in a year or 190 days for underground workers." } },
-      { "@type": "Question", "name": "Is gratuity taxable in India?", "acceptedAnswer": { "@type": "Answer", "text": "For government employees, gratuity is fully exempt from income tax under Section 10(10)(i). For private sector employees covered under the Gratuity Act, the least of actual gratuity received, Rs 20 lakh, or the calculated eligible amount is tax-exempt under Section 10(10)(ii). For employees not covered under the Act, the least of actual gratuity, Rs 20 lakh, or half month salary for each year of service is exempt." } },
-      { "@type": "Question", "name": "Can an employer deny or forfeit gratuity?", "acceptedAnswer": { "@type": "Answer", "text": "An employer can forfeit gratuity partially or wholly under Section 4(6) of the Payment of Gratuity Act if the employee is terminated for wilful omission or negligence causing damage to employer property, or for riotous or disorderly conduct, or for any act that constitutes a criminal offence involving moral turpitude committed during the course of employment. In all other cases, gratuity cannot be denied." } },
-      { "@type": "Question", "name": "What is the gratuity formula for employees not covered under the Act?", "acceptedAnswer": { "@type": "Answer", "text": "For employees whose employer is not covered under the Payment of Gratuity Act (establishments with fewer than 10 employees), the formula is: Last Drawn Salary (Basic plus DA) multiplied by 15, multiplied by Years of Service, divided by 30. The divisor is 30 (calendar days) instead of 26 (working days), resulting in approximately 13 percent lower gratuity compared to covered employees." } },
-      { "@type": "Question", "name": "When must the employer pay gratuity?", "acceptedAnswer": { "@type": "Answer", "text": "Under Section 7(3) of the Payment of Gratuity Act, the employer must pay gratuity within 30 days from the date it becomes due. If the employer delays payment beyond 30 days, they must pay simple interest on the gratuity amount from the due date until the date of actual payment. The interest rate is notified by the government and is currently at 10 percent per annum on the delayed amount." } },
-      { "@type": "Question", "name": "Is gratuity part of CTC?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, most employers include gratuity as a component of CTC (Cost to Company), typically provisioned at 4.81 percent of basic salary annually. However, gratuity is not part of your monthly in-hand salary. It is a deferred benefit paid only upon separation after completing 5 years. For CTC to in-hand conversion, gratuity is subtracted along with employer PF to arrive at gross salary." } },
-      { "@type": "Question", "name": "What happens to gratuity if an employee dies before 5 years?", "acceptedAnswer": { "@type": "Answer", "text": "The 5-year continuous service requirement is waived in case of employee death or disablement due to accident or disease. Gratuity is paid to the nominee or legal heirs of the deceased employee based on the actual period of service, even if it is less than 5 years. The employer must make this payment within 30 days. Nomination must be filed in Form F within 30 days of completing one year of service." } },
-      { "@type": "Question", "name": "How does the new Labour Code affect gratuity?", "acceptedAnswer": { "@type": "Answer", "text": "Under the Code on Social Security 2020 and the proposed new Labour Codes, fixed-term contract employees become eligible for gratuity after just 1 year of service (compared to 5 years for permanent employees) if they have worked more than 240 days. The Code also proposes that basic salary must be at least 50 percent of gross wages, which would increase the gratuity calculation base for many employees." } },
-      { "@type": "Question", "name": "Can a CA help with gratuity calculation and compliance?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, a Chartered Accountant computes gratuity liability for financial statements per AS-15 or Ind AS 19, ensures actuarial valuation for gratuity provisioning, handles Form I filing for gratuity payment, and advises on tax implications. Patron Accounting provides complete payroll and gratuity compliance services for Indian businesses including actuarial valuations and exit settlement processing." } }
-    ]}
-    </script>
-@endsection
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+@push('styles')
 <style>
 
         :root {
@@ -842,6 +780,71 @@
 .toggle-btn{font-size:13px;padding:10px 12px}
 }
 </style>
+@endpush
+
+@section('meta')
+    <title>Gratuity Calculator India | Eligibility &amp; Payout</title>
+    <meta name="description" content="Gratuity calculator: compute your payout under the Payment of Gratuity Act, 1972 using the 15/26 formula, plus eligibility and tax exemption. Calculate free!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/gratuity-calculator">
+    <meta property="og:title" content="Gratuity Calculator India &mdash; Eligibility & Payout 2026">
+    <meta property="og:description" content="Calculate gratuity payout per Payment of Gratuity Act using the 15/26 formula. Check eligibility and tax exemption.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/gratuity-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Gratuity Calculator India &mdash; Eligibility & Payout 2026">
+    <meta name="twitter:description" content="Gratuity payout calculator per Payment of Gratuity Act 1972. 15/26 formula. Try now!">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+@endsection
+
+@section('schema')
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org", "@type": "WebApplication",
+      "name": "Gratuity Calculator India",
+      "description": "Gratuity Calculator computes the gratuity payout amount for Indian employees using the 15/26 formula under the Payment of Gratuity Act, 1972 for covered establishments and the 15/30 formula for non-covered establishments. Shows eligibility check, tax exemption computation under Section 10(10), and year rounding rules.",
+      "url": "https://www.patronaccounting.com/tools/gratuity-calculator",
+      "applicationCategory": "UtilityApplication", "operatingSystem": "Any",
+      "datePublished": "2026-03-05", "dateModified": "2026-03-05",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" },
+      "author": { "@type": "Person", "@id": "https://patronaccounting.com/#team", "name": "CA & CS Patron Accounting Team", "jobTitle": "Chartered Accountants & Company Secretaries", "url": "https://www.patronaccounting.com/contact-page", "sameAs": ["https://www.linkedin.com/company/patron-accounting"], "hasCredential": [{ "@type": "EducationalOccupationalCredential", "credentialCategory": "Professional Certification", "name": "Chartered Accountant (CA)", "recognizedBy": { "@type": "Organization", "name": "Institute of Chartered Accountants of India", "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India" } }] },
+      "publisher": { "@type": "Organization", "name": "Patron Accounting LLP", "url": "https://www.patronaccounting.com", "logo": { "@type": "ImageObject", "url": "https://www.patronaccounting.com/images/site-logo.svg" } },
+      "provider": { "@id": "https://patronaccounting.com/#organization" }
+    }
+    </script>
+<script type="application/ld+json">
+    { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+      {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+      {"@type": "ListItem", "position": 3, "name": "Gratuity Calculator", "item": "https://www.patronaccounting.com/tools/gratuity-calculator"}
+    ]}
+    </script>
+<script type="application/ld+json">
+    { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+      { "@type": "Question", "name": "How is gratuity calculated in India?", "acceptedAnswer": { "@type": "Answer", "text": "For establishments covered under the Payment of Gratuity Act 1972, gratuity is calculated as Last Drawn Salary (Basic plus DA) multiplied by 15, multiplied by Completed Years of Service, divided by 26. The divisor 26 represents working days in a month excluding Sundays. For establishments not covered under the Act, the divisor is 30 instead of 26, resulting in a lower payout amount." } },
+      { "@type": "Question", "name": "Who is eligible for gratuity in India?", "acceptedAnswer": { "@type": "Answer", "text": "An employee is eligible for gratuity after completing 5 years of continuous service with the same employer. The 5-year rule is waived in cases of death or disablement. Under the new Labour Codes, fixed-term contract employees become eligible after just 1 year if they have worked more than 240 days. The Act applies to establishments with 10 or more employees on any day in the preceding 12 months." } },
+      { "@type": "Question", "name": "What is the maximum gratuity amount in India?", "acceptedAnswer": { "@type": "Answer", "text": "The maximum tax-exempt gratuity limit is Rs 20 lakh for private sector employees under Section 10(10)(ii) of the Income Tax Act. For central and state government employees, the limit is Rs 25 lakh. Any gratuity received above these limits is treated as taxable income. The Rs 20 lakh limit applies across your entire working life, not per employer, so cumulative gratuity from multiple employers is considered." } },
+      { "@type": "Question", "name": "What does 15/26 mean in gratuity calculation?", "acceptedAnswer": { "@type": "Answer", "text": "The fraction 15 over 26 is the core of the gratuity formula. The number 15 represents half a month of wages (15 days of salary) as reward for each completed year of service. The number 26 represents the working days in a month excluding Sundays. This gives a slightly higher per-day rate than dividing by 30. For non-covered establishments, 15 over 30 is used instead." } },
+      { "@type": "Question", "name": "How are years of service rounded for gratuity?", "acceptedAnswer": { "@type": "Answer", "text": "If service in the final year exceeds 6 months, it is rounded up to the next full year. For example, 7 years and 8 months becomes 8 years for gratuity calculation. If it is 7 years and 4 months, it remains 7 years. Continuous service includes periods of leave, sickness, accident, layoff, and strikes. An employee is considered in continuous service if they have worked 240 days in a year or 190 days for underground workers." } },
+      { "@type": "Question", "name": "Is gratuity taxable in India?", "acceptedAnswer": { "@type": "Answer", "text": "For government employees, gratuity is fully exempt from income tax under Section 10(10)(i). For private sector employees covered under the Gratuity Act, the least of actual gratuity received, Rs 20 lakh, or the calculated eligible amount is tax-exempt under Section 10(10)(ii). For employees not covered under the Act, the least of actual gratuity, Rs 20 lakh, or half month salary for each year of service is exempt." } },
+      { "@type": "Question", "name": "Can an employer deny or forfeit gratuity?", "acceptedAnswer": { "@type": "Answer", "text": "An employer can forfeit gratuity partially or wholly under Section 4(6) of the Payment of Gratuity Act if the employee is terminated for wilful omission or negligence causing damage to employer property, or for riotous or disorderly conduct, or for any act that constitutes a criminal offence involving moral turpitude committed during the course of employment. In all other cases, gratuity cannot be denied." } },
+      { "@type": "Question", "name": "What is the gratuity formula for employees not covered under the Act?", "acceptedAnswer": { "@type": "Answer", "text": "For employees whose employer is not covered under the Payment of Gratuity Act (establishments with fewer than 10 employees), the formula is: Last Drawn Salary (Basic plus DA) multiplied by 15, multiplied by Years of Service, divided by 30. The divisor is 30 (calendar days) instead of 26 (working days), resulting in approximately 13 percent lower gratuity compared to covered employees." } },
+      { "@type": "Question", "name": "When must the employer pay gratuity?", "acceptedAnswer": { "@type": "Answer", "text": "Under Section 7(3) of the Payment of Gratuity Act, the employer must pay gratuity within 30 days from the date it becomes due. If the employer delays payment beyond 30 days, they must pay simple interest on the gratuity amount from the due date until the date of actual payment. The interest rate is notified by the government and is currently at 10 percent per annum on the delayed amount." } },
+      { "@type": "Question", "name": "Is gratuity part of CTC?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, most employers include gratuity as a component of CTC (Cost to Company), typically provisioned at 4.81 percent of basic salary annually. However, gratuity is not part of your monthly in-hand salary. It is a deferred benefit paid only upon separation after completing 5 years. For CTC to in-hand conversion, gratuity is subtracted along with employer PF to arrive at gross salary." } },
+      { "@type": "Question", "name": "What happens to gratuity if an employee dies before 5 years?", "acceptedAnswer": { "@type": "Answer", "text": "The 5-year continuous service requirement is waived in case of employee death or disablement due to accident or disease. Gratuity is paid to the nominee or legal heirs of the deceased employee based on the actual period of service, even if it is less than 5 years. The employer must make this payment within 30 days. Nomination must be filed in Form F within 30 days of completing one year of service." } },
+      { "@type": "Question", "name": "How does the new Labour Code affect gratuity?", "acceptedAnswer": { "@type": "Answer", "text": "Under the Code on Social Security 2020 and the proposed new Labour Codes, fixed-term contract employees become eligible for gratuity after just 1 year of service (compared to 5 years for permanent employees) if they have worked more than 240 days. The Code also proposes that basic salary must be at least 50 percent of gross wages, which would increase the gratuity calculation base for many employees." } },
+      { "@type": "Question", "name": "Can a CA help with gratuity calculation and compliance?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, a Chartered Accountant computes gratuity liability for financial statements per AS-15 or Ind AS 19, ensures actuarial valuation for gratuity provisioning, handles Form I filing for gratuity payment, and advises on tax implications. Patron Accounting provides complete payroll and gratuity compliance services for Indian businesses including actuarial valuations and exit settlement processing." } }
+    ]}
+    </script>
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation"><div class="toc-nav-inner">
         <a href="#calculator">Calculator</a>

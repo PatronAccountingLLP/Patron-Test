@@ -1,146 +1,12 @@
 
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Income Certificate by CA in Mumbai 2026: Format, Uses, Cost | Patron Accounting</title>
-    <meta name="description" content="CA-certified income certificate confirming your annual income for visa, loan, education and scheme use. UDIN-verified, ideal for self-employed. From INR 1,999.">
-    <link rel="canonical" href="/income-certificate-by-ca/mumbai">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Income Certificate by CA 2026: Format, Uses, Cost | Patron Accounting">
-    <meta property="og:description" content="CA-certified income certificate confirming your annual income for visa, loan, education and scheme use. UDIN-verified, ideal for self-employed. From INR 1,999.">
-    <meta property="og:url" content="/income-certificate-by-ca/mumbai">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Income Certificate by CA 2026: Format, Uses, Cost | Patron Accounting">
-    <meta name="twitter:description" content="CA-certified income certificate confirming your annual income for visa, loan, education and scheme use. UDIN-verified, ideal for self-employed. From INR 1,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/income-certificate-by-ca/mumbai/#service",
-        "name": "Income Certificate by CA in India",
-        "description": "CA-certified income certificate confirming an individual's or family's total annual income and its sources, prepared from ITR, bank statements and financials and issued with a UDIN, for visa applications, bank loans, education, scholarships and government schemes, especially for the self-employed.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/income-certificate-by-ca/mumbai" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Income", "sameAs": "https://en.wikipedia.org/wiki/Income" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Income Certificate by CA Service Plans",
-            "itemListElement": [
-                { "@type": "Offer", "name": "Income Certificate by CA (UDIN-verified)", "priceCurrency": "INR", "price": "1999", "description": "CA-certified statement of total annual income with a source-wise breakdown, prepared from ITR and financial records, with UDIN, for visa, loan, education and scheme use." }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/income-certificate-by-ca/mumbai/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
-            { "@type": "ListItem", "position": 3, "name": "Income Certificate by CA", "item": "https://www.patronaccounting.com/income-certificate-by-ca/mumbai" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/income-certificate-by-ca/mumbai/#faq",
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "mainEntity": [
-            { "@type": "Question", "name": "What is an income certificate by a CA?", "acceptedAnswer": { "@type": "Answer", "text": "It is an official document issued and signed by a practising Chartered Accountant that confirms a person's, or a family's, total annual income and its sources, such as salary, business, rent and investments. It is prepared after the CA verifies your ITR, bank statements and financials, and it carries the CA's signature, stamp, membership number and a UDIN. Embassies, banks and institutions accept it as credible income proof." } },
-            { "@type": "Question", "name": "How is an income certificate different from an ITR?", "acceptedAnswer": { "@type": "Answer", "text": "An ITR is the income tax return you file with the Income Tax Department; it is the underlying record of your income and tax. An income certificate by a CA summarises and certifies your total income in a clear, professional format, drawing on the ITR and other records. It is not a replacement for the ITR but presents your income for an embassy, bank or institution, and is often submitted together with the ITR." } },
-            { "@type": "Question", "name": "Is an income certificate the same as Form 16?", "acceptedAnswer": { "@type": "Answer", "text": "No. Form 16 is a certificate your employer issues showing salary paid and TDS deducted, and it applies only to salaried employees. An income certificate by a CA covers all income sources, including business, profession, rent and investments, and is issued by an independent Chartered Accountant. It is especially useful for the self-employed and freelancers who do not receive a Form 16 but still need to prove their income." } },
-            { "@type": "Question", "name": "Who needs an income certificate from a CA?", "acceptedAnswer": { "@type": "Answer", "text": "It is commonly needed by visa applicants, including students and tourists, often as a family income certificate alongside a net worth certificate; by loan applicants whose bank wants certified income proof; by self-employed people and freelancers without a Form 16; and by students applying for education loans or scholarships. It is also used for government scheme and subsidy applications that require income proof." } },
-            { "@type": "Question", "name": "What documents are required for an income certificate?", "acceptedAnswer": { "@type": "Answer", "text": "You need your PAN and Aadhaar, your Income Tax Returns for the last one to three years, bank statements showing income, and, depending on your situation, salary slips or business and profession financials, plus rent agreements or investment statements where relevant. For a family income certificate, we also need the family members' details. The CA verifies these and certifies your total income with a UDIN." } },
-            { "@type": "Question", "name": "How much does an income certificate by a CA cost?", "acceptedAnswer": { "@type": "Answer", "text": "At Patron Accounting, an income certificate starts from Rs 1,999 (exclusive of GST and government charges), an accessible, consumer-friendly fee for a UDIN-verified document. The final fee depends on the number of years covered, whether it is an individual or family certificate, and whether a supporting computation of income is needed. Fees are confirmed after a quick review of your documents." } },
-            { "@type": "Question", "name": "Is a CA income certificate different from a government income certificate?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. A government income certificate is issued by the revenue department or Tehsildar and is typically used for caste, EWS, subsidy and similar government purposes. An income certificate by a CA is issued by a Chartered Accountant and is the document embassies and banks generally accept for visas, loans and financial verification. The two serve different purposes, and you should provide the one your institution asks for." } }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/income-certificate-by-ca/mumbai",
-        "name": "Income Certificate by CA in India",
-        "description": "CA-certified income certificate confirming your annual income for visa, loan, education and scheme use. UDIN-verified, ideal for self-employed. From INR 1,999.",
-        "url": "https://www.patronaccounting.com/income-certificate-by-ca/mumbai",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/income-certificate-by-ca/mumbai/#service" },
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/income-certificate-by-ca/mumbai/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How to Obtain an Income Certificate by a CA",
-        "description": "Five steps to obtain a CA income certificate: confirm the purpose, share documents, verification, drafting, and certification with UDIN.",
-        "totalTime": "P1D",
-        "step": [
-            { "@type": "HowToStep", "name": "Tell us the purpose", "text": "Visa, loan, education, scholarship or scheme, and the period required." },
-            { "@type": "HowToStep", "name": "Share documents", "text": "PAN, Aadhaar, ITR, bank statements, salary slips or business financials." },
-            { "@type": "HowToStep", "name": "Verification", "text": "The CA verifies the records and computes total income under SA 500." },
-            { "@type": "HowToStep", "name": "Drafting", "text": "The certificate is prepared with the source-wise breakdown and the required format." },
-            { "@type": "HowToStep", "name": "Certification and UDIN", "text": "The CA signs, stamps and generates the UDIN, issuing the certificate." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Income Certificate by CA Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Annual income", "description": "Total income from all sources in a financial year." },
-            { "@type": "DefinedTerm", "name": "Source-wise breakdown", "description": "Income split by salary, business or profession, rent and investments." },
-            { "@type": "DefinedTerm", "name": "Family income certificate", "description": "A combined certificate covering family members, common for student visas." },
-            { "@type": "DefinedTerm", "name": "Computation of income", "description": "The working that derives taxable income, often issued with the certificate." },
-            { "@type": "DefinedTerm", "name": "UDIN", "description": "The 18-digit Unique Document Identification Number on every CA certificate." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -754,7 +620,146 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Income Certificate by CA in Mumbai 2026: Format, Uses, Cost | Patron Accounting</title>
+    <meta name="description" content="CA-certified income certificate confirming your annual income for visa, loan, education and scheme use. UDIN-verified, ideal for self-employed. From INR 1,999.">
+    <link rel="canonical" href="/income-certificate-by-ca/mumbai">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Income Certificate by CA 2026: Format, Uses, Cost | Patron Accounting">
+    <meta property="og:description" content="CA-certified income certificate confirming your annual income for visa, loan, education and scheme use. UDIN-verified, ideal for self-employed. From INR 1,999.">
+    <meta property="og:url" content="/income-certificate-by-ca/mumbai">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Income Certificate by CA 2026: Format, Uses, Cost | Patron Accounting">
+    <meta name="twitter:description" content="CA-certified income certificate confirming your annual income for visa, loan, education and scheme use. UDIN-verified, ideal for self-employed. From INR 1,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/income-certificate-by-ca/mumbai/#service",
+        "name": "Income Certificate by CA in India",
+        "description": "CA-certified income certificate confirming an individual's or family's total annual income and its sources, prepared from ITR, bank statements and financials and issued with a UDIN, for visa applications, bank loans, education, scholarships and government schemes, especially for the self-employed.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/income-certificate-by-ca/mumbai" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Income", "sameAs": "https://en.wikipedia.org/wiki/Income" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Income Certificate by CA Service Plans",
+            "itemListElement": [
+                { "@type": "Offer", "name": "Income Certificate by CA (UDIN-verified)", "priceCurrency": "INR", "price": "1999", "description": "CA-certified statement of total annual income with a source-wise breakdown, prepared from ITR and financial records, with UDIN, for visa, loan, education and scheme use." }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/income-certificate-by-ca/mumbai/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
+            { "@type": "ListItem", "position": 3, "name": "Income Certificate by CA", "item": "https://www.patronaccounting.com/income-certificate-by-ca/mumbai" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/income-certificate-by-ca/mumbai/#faq",
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "mainEntity": [
+            { "@type": "Question", "name": "What is an income certificate by a CA?", "acceptedAnswer": { "@type": "Answer", "text": "It is an official document issued and signed by a practising Chartered Accountant that confirms a person's, or a family's, total annual income and its sources, such as salary, business, rent and investments. It is prepared after the CA verifies your ITR, bank statements and financials, and it carries the CA's signature, stamp, membership number and a UDIN. Embassies, banks and institutions accept it as credible income proof." } },
+            { "@type": "Question", "name": "How is an income certificate different from an ITR?", "acceptedAnswer": { "@type": "Answer", "text": "An ITR is the income tax return you file with the Income Tax Department; it is the underlying record of your income and tax. An income certificate by a CA summarises and certifies your total income in a clear, professional format, drawing on the ITR and other records. It is not a replacement for the ITR but presents your income for an embassy, bank or institution, and is often submitted together with the ITR." } },
+            { "@type": "Question", "name": "Is an income certificate the same as Form 16?", "acceptedAnswer": { "@type": "Answer", "text": "No. Form 16 is a certificate your employer issues showing salary paid and TDS deducted, and it applies only to salaried employees. An income certificate by a CA covers all income sources, including business, profession, rent and investments, and is issued by an independent Chartered Accountant. It is especially useful for the self-employed and freelancers who do not receive a Form 16 but still need to prove their income." } },
+            { "@type": "Question", "name": "Who needs an income certificate from a CA?", "acceptedAnswer": { "@type": "Answer", "text": "It is commonly needed by visa applicants, including students and tourists, often as a family income certificate alongside a net worth certificate; by loan applicants whose bank wants certified income proof; by self-employed people and freelancers without a Form 16; and by students applying for education loans or scholarships. It is also used for government scheme and subsidy applications that require income proof." } },
+            { "@type": "Question", "name": "What documents are required for an income certificate?", "acceptedAnswer": { "@type": "Answer", "text": "You need your PAN and Aadhaar, your Income Tax Returns for the last one to three years, bank statements showing income, and, depending on your situation, salary slips or business and profession financials, plus rent agreements or investment statements where relevant. For a family income certificate, we also need the family members' details. The CA verifies these and certifies your total income with a UDIN." } },
+            { "@type": "Question", "name": "How much does an income certificate by a CA cost?", "acceptedAnswer": { "@type": "Answer", "text": "At Patron Accounting, an income certificate starts from Rs 1,999 (exclusive of GST and government charges), an accessible, consumer-friendly fee for a UDIN-verified document. The final fee depends on the number of years covered, whether it is an individual or family certificate, and whether a supporting computation of income is needed. Fees are confirmed after a quick review of your documents." } },
+            { "@type": "Question", "name": "Is a CA income certificate different from a government income certificate?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. A government income certificate is issued by the revenue department or Tehsildar and is typically used for caste, EWS, subsidy and similar government purposes. An income certificate by a CA is issued by a Chartered Accountant and is the document embassies and banks generally accept for visas, loans and financial verification. The two serve different purposes, and you should provide the one your institution asks for." } }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/income-certificate-by-ca/mumbai",
+        "name": "Income Certificate by CA in India",
+        "description": "CA-certified income certificate confirming your annual income for visa, loan, education and scheme use. UDIN-verified, ideal for self-employed. From INR 1,999.",
+        "url": "https://www.patronaccounting.com/income-certificate-by-ca/mumbai",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/income-certificate-by-ca/mumbai/#service" },
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/income-certificate-by-ca/mumbai/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Obtain an Income Certificate by a CA",
+        "description": "Five steps to obtain a CA income certificate: confirm the purpose, share documents, verification, drafting, and certification with UDIN.",
+        "totalTime": "P1D",
+        "step": [
+            { "@type": "HowToStep", "name": "Tell us the purpose", "text": "Visa, loan, education, scholarship or scheme, and the period required." },
+            { "@type": "HowToStep", "name": "Share documents", "text": "PAN, Aadhaar, ITR, bank statements, salary slips or business financials." },
+            { "@type": "HowToStep", "name": "Verification", "text": "The CA verifies the records and computes total income under SA 500." },
+            { "@type": "HowToStep", "name": "Drafting", "text": "The certificate is prepared with the source-wise breakdown and the required format." },
+            { "@type": "HowToStep", "name": "Certification and UDIN", "text": "The CA signs, stamps and generates the UDIN, issuing the certificate." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Income Certificate by CA Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Annual income", "description": "Total income from all sources in a financial year." },
+            { "@type": "DefinedTerm", "name": "Source-wise breakdown", "description": "Income split by salary, business or profession, rent and investments." },
+            { "@type": "DefinedTerm", "name": "Family income certificate", "description": "A combined certificate covering family members, common for student visas." },
+            { "@type": "DefinedTerm", "name": "Computation of income", "description": "The working that derives taxable income, often issued with the certificate." },
+            { "@type": "DefinedTerm", "name": "UDIN", "description": "The 18-digit Unique Document Identification Number on every CA certificate." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1511,17 +1516,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1544,8 +1542,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1582,7 +1578,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (stable, not live date)
 (function(){
@@ -1593,3 +1588,19 @@ window.addEventListener('scroll', function() {
     if(el2)el2.textContent=dateStr;
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

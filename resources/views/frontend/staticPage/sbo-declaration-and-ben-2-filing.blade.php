@@ -1,186 +1,11 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>SBO Declaration and BEN-2 Filing 2026 | Patron Accounting</title>
-    <meta name="description" content="Identify your significant beneficial owner under Section 90 and file BEN-2 with the ROC within 30 days of the BEN-1 declaration. From INR 4,999.">
-    <link rel="canonical" href="/sbo-declaration-and-ben-2-filing">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="SBO Declaration and BEN-2 Filing 2026 | Patron Accounting">
-    <meta property="og:description" content="Identify your significant beneficial owner under Section 90 and file BEN-2 with the ROC within 30 days of the BEN-1 declaration. From INR 4,999.">
-    <meta property="og:url" content="/sbo-declaration-and-ben-2-filing">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="SBO Declaration and BEN-2 Filing 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Identify your significant beneficial owner under Section 90 and file BEN-2 with the ROC within 30 days of the BEN-1 declaration. From INR 4,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/sbo-declaration-and-ben-2-filing/#service",
-        "name": "SBO Declaration and BEN-2 Filing (Section 90)",
-        "description": "SBO services from Patron Accounting LLP cover the identification and reporting of significant beneficial owners under Section 90 of the Companies Act, 2013 read with the Companies (Significant Beneficial Owners) Rules, 2018 as amended in 2019, including the mapping of the ownership chain through the corporate, LLP, trust or foreign layers to identify the significant beneficial owner, the application of the 10 percent beneficial interest and significant-influence tests to determine who is an SBO, the preparation of the BEN-1 declaration for the SBO to file with the company and confirmation of its receipt, the preparation and filing of the BEN-2 return with the Registrar within 30 days of the BEN-1 declaration, the set-up and maintenance of the register of significant beneficial owners in Form BEN-3, and the issue of the BEN-4 notice where a suspected SBO does not declare, with advice on an application to the National Company Law Tribunal where there is no satisfactory response.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/sbo-declaration-and-ben-2-filing" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Beneficial ownership", "sameAs": "https://en.wikipedia.org/wiki/Beneficial_ownership" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "SBO and BEN-2 Filing Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "SBO Declaration and BEN-2 Filing (Section 90) Service",
-                    "priceCurrency": "INR",
-                    "price": "4999",
-                    "description": "Per-event SBO identification and BEN-2 filing covering the ownership analysis, the SBO determination, the BEN-1 declaration, the BEN-2 filing and the BEN-3 register, exclusive of GST and government charges. MCA filing fees on BEN-2, a BEN-4 notice process, and any NCLT application are separate and charged on an actual basis."
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/sbo-declaration-and-ben-2-filing/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Company Compliance", "item": "https://www.patronaccounting.com/corporate-compliance-services" },
-            { "@type": "ListItem", "position": 3, "name": "SBO and BEN-2 Filing", "item": "https://www.patronaccounting.com/sbo-declaration-and-ben-2-filing" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/sbo-declaration-and-ben-2-filing/#faq",
-        "datePublished": "2026-06-03T08:00:00+05:30",
-        "dateModified": "2026-06-04T08:00:00+05:30",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "What is a significant beneficial owner under Section 90?",
-                "acceptedAnswer": { "@type": "Answer", "text": "A significant beneficial owner under Section 90 of the Companies Act, 2013 is an individual who ultimately owns or controls a company, holding not less than 10 percent of its shares, voting rights or right to dividend, directly or indirectly, or who exercises significant influence or control. The aim is transparency about who truly stands behind a company beyond the names on the share register." }
-            },
-            {
-                "@type": "Question",
-                "name": "What are Forms BEN-1 and BEN-2?",
-                "acceptedAnswer": { "@type": "Answer", "text": "BEN-1 is the declaration that a significant beneficial owner files with the reporting company, disclosing their beneficial interest. BEN-2 is the return that the company then files with the Registrar of Companies, reporting that declaration. The company also maintains a register of SBOs in Form BEN-3, and issues a notice in Form BEN-4 to any person it believes is or knows an SBO." }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the time limit to file BEN-2?",
-                "acceptedAnswer": { "@type": "Answer", "text": "On receiving a BEN-1 declaration from a significant beneficial owner, the reporting company must file the return in Form BEN-2 with the Registrar within 30 days. The SBO themselves must file BEN-1 with the company within 30 days of acquiring SBO status or of any change in their beneficial ownership. Both timelines are 30 days, running from different trigger points." }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the 10 percent threshold for an SBO?",
-                "acceptedAnswer": { "@type": "Answer", "text": "An individual is a significant beneficial owner if they hold, alone or together with or through others, not less than 10 percent of the shares, voting rights or right to dividend of the company, or exercise significant influence or control. The threshold is tested on the ultimate individual behind the holding, which is why indirect holdings through entities are central to the analysis." }
-            },
-            {
-                "@type": "Question",
-                "name": "Does every shareholder need to file an SBO declaration?",
-                "acceptedAnswer": { "@type": "Answer", "text": "No. A person holding shares purely in their own name as a direct holding is a member, not necessarily an SBO. SBO reporting focuses on the individual who holds a beneficial interest indirectly, through a company, LLP, trust or other entity, or who exercises significant influence or control. We analyse the ownership chain to identify exactly who, if anyone, is an SBO." }
-            },
-            {
-                "@type": "Question",
-                "name": "What happens if SBO filings are not made?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Failing to file BEN-1 or BEN-2 attracts penalties under Section 90 on both the significant beneficial owner and the company and its officers in default, with a continuing daily penalty. Non-filing is also a common trigger for a notice from the Registrar. Where a suspected SBO does not declare, the company can issue a BEN-4 notice and, if needed, apply to the NCLT." }
-            },
-            {
-                "@type": "Question",
-                "name": "Is SBO reporting mandatory and since when?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Yes. SBO reporting has been mandatory since the Companies (Significant Beneficial Owners) Rules came into effect, with the key amendment effective from 8 February 2019. Every company must take steps to identify any significant beneficial owner, obtain the BEN-1 declaration, file BEN-2 with the Registrar and maintain the BEN-3 register, on an ongoing basis as ownership changes." }
-            },
-            {
-                "@type": "Question",
-                "name": "How is SBO reporting connected to foreign ownership?",
-                "acceptedAnswer": { "@type": "Answer", "text": "SBO reporting often arises where a company's shares are held through a foreign company or other foreign entity, because the ultimate individual behind that chain may be a significant beneficial owner. In such cases the SBO analysis is closely linked to FDI compliance. We trace the chain through the foreign layers and handle both the SBO filing and the related FDI reporting." }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/sbo-declaration-and-ben-2-filing",
-        "name": "SBO Declaration and BEN-2 Filing (Section 90)",
-        "description": "Identify your significant beneficial owner under Section 90 and file BEN-2 with the ROC within 30 days of the BEN-1 declaration. From INR 4,999.",
-        "url": "https://www.patronaccounting.com/sbo-declaration-and-ben-2-filing",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/sbo-declaration-and-ben-2-filing/#service" },
-        "datePublished": "2026-06-03T08:00:00+05:30",
-        "dateModified": "2026-06-04T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/sbo-declaration-and-ben-2-filing/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "SBO and BEN-2 Process: Step by Step",
-        "description": "How significant beneficial ownership is reported under Section 90, from mapping the ownership chain and determining the SBO through the BEN-1 declaration and BEN-2 filing to the BEN-3 register and any BEN-4 notice.",
-        "totalTime": "P30D",
-        "step": [
-            { "@type": "HowToStep", "name": "Map the ownership", "text": "Trace the shareholding through every entity in the chain up to the ultimate individuals." },
-            { "@type": "HowToStep", "name": "Determine the SBO", "text": "Apply the 10 percent beneficial interest and significant-influence tests to identify the SBO." },
-            { "@type": "HowToStep", "name": "Obtain BEN-1", "text": "Have the SBO file the BEN-1 declaration with the company within 30 days of acquiring or changing status." },
-            { "@type": "HowToStep", "name": "File BEN-2", "text": "File the BEN-2 return with the ROC within 30 days of receiving the BEN-1 declaration." },
-            { "@type": "HowToStep", "name": "Maintain BEN-3", "text": "Record the SBO in the BEN-3 register and keep it updated." },
-            { "@type": "HowToStep", "name": "Issue BEN-4 if needed", "text": "Where a suspected SBO does not declare, issue the BEN-4 notice seeking information." },
-            { "@type": "HowToStep", "name": "Escalate to NCLT if needed", "text": "Where there is no satisfactory response, apply to the NCLT for directions on the shares." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "SBO and BEN-2 Filing Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "SBO", "description": "The individual with a 10 percent or more beneficial interest, directly or indirectly, in the company." },
-            { "@type": "DefinedTerm", "name": "Reporting Company", "description": "The company that must identify the SBO and file the BEN-2 return." },
-            { "@type": "DefinedTerm", "name": "BEN-1", "description": "The declaration the SBO gives to the reporting company." },
-            { "@type": "DefinedTerm", "name": "BEN-2", "description": "The return the company files with the ROC on receipt of BEN-1." },
-            { "@type": "DefinedTerm", "name": "Indirect Holding", "description": "Ownership held through other entities, central to identifying an SBO." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -794,7 +619,187 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>SBO Declaration and BEN-2 Filing 2026 | Patron Accounting</title>
+    <meta name="description" content="Identify your significant beneficial owner under Section 90 and file BEN-2 with the ROC within 30 days of the BEN-1 declaration. From INR 4,999.">
+    <link rel="canonical" href="/sbo-declaration-and-ben-2-filing">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="SBO Declaration and BEN-2 Filing 2026 | Patron Accounting">
+    <meta property="og:description" content="Identify your significant beneficial owner under Section 90 and file BEN-2 with the ROC within 30 days of the BEN-1 declaration. From INR 4,999.">
+    <meta property="og:url" content="/sbo-declaration-and-ben-2-filing">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="SBO Declaration and BEN-2 Filing 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Identify your significant beneficial owner under Section 90 and file BEN-2 with the ROC within 30 days of the BEN-1 declaration. From INR 4,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/sbo-declaration-and-ben-2-filing/#service",
+        "name": "SBO Declaration and BEN-2 Filing (Section 90)",
+        "description": "SBO services from Patron Accounting LLP cover the identification and reporting of significant beneficial owners under Section 90 of the Companies Act, 2013 read with the Companies (Significant Beneficial Owners) Rules, 2018 as amended in 2019, including the mapping of the ownership chain through the corporate, LLP, trust or foreign layers to identify the significant beneficial owner, the application of the 10 percent beneficial interest and significant-influence tests to determine who is an SBO, the preparation of the BEN-1 declaration for the SBO to file with the company and confirmation of its receipt, the preparation and filing of the BEN-2 return with the Registrar within 30 days of the BEN-1 declaration, the set-up and maintenance of the register of significant beneficial owners in Form BEN-3, and the issue of the BEN-4 notice where a suspected SBO does not declare, with advice on an application to the National Company Law Tribunal where there is no satisfactory response.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/sbo-declaration-and-ben-2-filing" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Beneficial ownership", "sameAs": "https://en.wikipedia.org/wiki/Beneficial_ownership" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "SBO and BEN-2 Filing Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "SBO Declaration and BEN-2 Filing (Section 90) Service",
+                    "priceCurrency": "INR",
+                    "price": "4999",
+                    "description": "Per-event SBO identification and BEN-2 filing covering the ownership analysis, the SBO determination, the BEN-1 declaration, the BEN-2 filing and the BEN-3 register, exclusive of GST and government charges. MCA filing fees on BEN-2, a BEN-4 notice process, and any NCLT application are separate and charged on an actual basis."
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/sbo-declaration-and-ben-2-filing/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Company Compliance", "item": "https://www.patronaccounting.com/corporate-compliance-services" },
+            { "@type": "ListItem", "position": 3, "name": "SBO and BEN-2 Filing", "item": "https://www.patronaccounting.com/sbo-declaration-and-ben-2-filing" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/sbo-declaration-and-ben-2-filing/#faq",
+        "datePublished": "2026-06-03T08:00:00+05:30",
+        "dateModified": "2026-06-04T08:00:00+05:30",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is a significant beneficial owner under Section 90?",
+                "acceptedAnswer": { "@type": "Answer", "text": "A significant beneficial owner under Section 90 of the Companies Act, 2013 is an individual who ultimately owns or controls a company, holding not less than 10 percent of its shares, voting rights or right to dividend, directly or indirectly, or who exercises significant influence or control. The aim is transparency about who truly stands behind a company beyond the names on the share register." }
+            },
+            {
+                "@type": "Question",
+                "name": "What are Forms BEN-1 and BEN-2?",
+                "acceptedAnswer": { "@type": "Answer", "text": "BEN-1 is the declaration that a significant beneficial owner files with the reporting company, disclosing their beneficial interest. BEN-2 is the return that the company then files with the Registrar of Companies, reporting that declaration. The company also maintains a register of SBOs in Form BEN-3, and issues a notice in Form BEN-4 to any person it believes is or knows an SBO." }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the time limit to file BEN-2?",
+                "acceptedAnswer": { "@type": "Answer", "text": "On receiving a BEN-1 declaration from a significant beneficial owner, the reporting company must file the return in Form BEN-2 with the Registrar within 30 days. The SBO themselves must file BEN-1 with the company within 30 days of acquiring SBO status or of any change in their beneficial ownership. Both timelines are 30 days, running from different trigger points." }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the 10 percent threshold for an SBO?",
+                "acceptedAnswer": { "@type": "Answer", "text": "An individual is a significant beneficial owner if they hold, alone or together with or through others, not less than 10 percent of the shares, voting rights or right to dividend of the company, or exercise significant influence or control. The threshold is tested on the ultimate individual behind the holding, which is why indirect holdings through entities are central to the analysis." }
+            },
+            {
+                "@type": "Question",
+                "name": "Does every shareholder need to file an SBO declaration?",
+                "acceptedAnswer": { "@type": "Answer", "text": "No. A person holding shares purely in their own name as a direct holding is a member, not necessarily an SBO. SBO reporting focuses on the individual who holds a beneficial interest indirectly, through a company, LLP, trust or other entity, or who exercises significant influence or control. We analyse the ownership chain to identify exactly who, if anyone, is an SBO." }
+            },
+            {
+                "@type": "Question",
+                "name": "What happens if SBO filings are not made?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Failing to file BEN-1 or BEN-2 attracts penalties under Section 90 on both the significant beneficial owner and the company and its officers in default, with a continuing daily penalty. Non-filing is also a common trigger for a notice from the Registrar. Where a suspected SBO does not declare, the company can issue a BEN-4 notice and, if needed, apply to the NCLT." }
+            },
+            {
+                "@type": "Question",
+                "name": "Is SBO reporting mandatory and since when?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Yes. SBO reporting has been mandatory since the Companies (Significant Beneficial Owners) Rules came into effect, with the key amendment effective from 8 February 2019. Every company must take steps to identify any significant beneficial owner, obtain the BEN-1 declaration, file BEN-2 with the Registrar and maintain the BEN-3 register, on an ongoing basis as ownership changes." }
+            },
+            {
+                "@type": "Question",
+                "name": "How is SBO reporting connected to foreign ownership?",
+                "acceptedAnswer": { "@type": "Answer", "text": "SBO reporting often arises where a company's shares are held through a foreign company or other foreign entity, because the ultimate individual behind that chain may be a significant beneficial owner. In such cases the SBO analysis is closely linked to FDI compliance. We trace the chain through the foreign layers and handle both the SBO filing and the related FDI reporting." }
+            }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/sbo-declaration-and-ben-2-filing",
+        "name": "SBO Declaration and BEN-2 Filing (Section 90)",
+        "description": "Identify your significant beneficial owner under Section 90 and file BEN-2 with the ROC within 30 days of the BEN-1 declaration. From INR 4,999.",
+        "url": "https://www.patronaccounting.com/sbo-declaration-and-ben-2-filing",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/sbo-declaration-and-ben-2-filing/#service" },
+        "datePublished": "2026-06-03T08:00:00+05:30",
+        "dateModified": "2026-06-04T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/sbo-declaration-and-ben-2-filing/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "SBO and BEN-2 Process: Step by Step",
+        "description": "How significant beneficial ownership is reported under Section 90, from mapping the ownership chain and determining the SBO through the BEN-1 declaration and BEN-2 filing to the BEN-3 register and any BEN-4 notice.",
+        "totalTime": "P30D",
+        "step": [
+            { "@type": "HowToStep", "name": "Map the ownership", "text": "Trace the shareholding through every entity in the chain up to the ultimate individuals." },
+            { "@type": "HowToStep", "name": "Determine the SBO", "text": "Apply the 10 percent beneficial interest and significant-influence tests to identify the SBO." },
+            { "@type": "HowToStep", "name": "Obtain BEN-1", "text": "Have the SBO file the BEN-1 declaration with the company within 30 days of acquiring or changing status." },
+            { "@type": "HowToStep", "name": "File BEN-2", "text": "File the BEN-2 return with the ROC within 30 days of receiving the BEN-1 declaration." },
+            { "@type": "HowToStep", "name": "Maintain BEN-3", "text": "Record the SBO in the BEN-3 register and keep it updated." },
+            { "@type": "HowToStep", "name": "Issue BEN-4 if needed", "text": "Where a suspected SBO does not declare, issue the BEN-4 notice seeking information." },
+            { "@type": "HowToStep", "name": "Escalate to NCLT if needed", "text": "Where there is no satisfactory response, apply to the NCLT for directions on the shares." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "SBO and BEN-2 Filing Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "SBO", "description": "The individual with a 10 percent or more beneficial interest, directly or indirectly, in the company." },
+            { "@type": "DefinedTerm", "name": "Reporting Company", "description": "The company that must identify the SBO and file the BEN-2 return." },
+            { "@type": "DefinedTerm", "name": "BEN-1", "description": "The declaration the SBO gives to the reporting company." },
+            { "@type": "DefinedTerm", "name": "BEN-2", "description": "The return the company files with the ROC on receipt of BEN-1." },
+            { "@type": "DefinedTerm", "name": "Indirect Holding", "description": "Ownership held through other entities, central to identifying an SBO." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1567,17 +1572,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1600,8 +1598,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1638,7 +1634,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1 (corrected): Last Updated mirrors schema dateModified — STABLE hardcoded date, never live new Date()
 (function() {
@@ -1649,3 +1644,19 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

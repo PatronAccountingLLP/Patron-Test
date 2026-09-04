@@ -1,161 +1,12 @@
 
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Trademark Opposition Gurugram - TM-O, Process & Timeline</title>
-    <meta name="description" content="Trademark opposition in Gurugram. File TM-O within 4 months. Defend counter-statement within 2 months. Evidence. Hearing. Appeal. Call +91 945 945 6700.">
-    <link rel="canonical" href="/trademark-opposition/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Trademark Opposition Gurugram - TM-O, Process & Timeline">
-    <meta property="og:description" content="Trademark opposition in Gurugram. File TM-O within 4 months. Defend counter-statement within 2 months. Evidence. Hearing. Appeal. Call +91 945 945 6700.">
-    <meta property="og:url" content="/trademark-opposition/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Trademark Opposition Gurugram - TM-O, Process & Timeline">
-    <meta name="twitter:description" content="Trademark opposition in Gurugram. File TM-O within 4 months. Defend counter-statement within 2 months. Evidence. Hearing. Appeal. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "Trademark Opposition in Gurugram | File & Defend",
-      "description": "Trademark opposition in Gurugram. File TM-O within 4 months. Defend counter-statement within 2 months. Evidence. Hearing. Appeal. Call +91 945 945 6700.",
-      "url": "https://www.patronaccounting.com/trademark-opposition/gurugram",
-      "serviceType": "Trademark Opposition in Gurugram | File & Defend",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/trademark-opposition/gurugram",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "minPrice": "2700",
-          "maxPrice": "8000",
-          "priceCurrency": "INR"
-        }
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Trademark Opposition in India: Process and Fees",
-          "item": "https://www.patronaccounting.com/trademark-opposition"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Trademark Opposition in Gurugram | File & Defend",
-          "item": "https://www.patronaccounting.com/trademark-opposition/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is the deadline for filing trademark opposition?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "4 months from the date of publication in the Trademark Journal. This deadline is strictly non-extendable by law. If you miss this window, the conflicting mark proceeds to registration, and your only remedy becomes a Section 57 rectification application - which is a full litigation process costing significantly more time and money than an opposition."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does trademark opposition cost?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Government fee: Rs 2,700 per class (e-filing Form TM-O). Professional: Rs 8,000-15,000 for filing opposition or counter-statement. Evidence preparation: Rs 5,000-10,000. Hearing representation: Rs 8,000-15,000. TM Journal monitoring: Rs 2,000-5,000 per class per year. Call +91 945 945 6700 for a detailed quote."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens if counter-statement is not filed within 2 months?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. Registrar Decision: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Who can file a trademark opposition?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Any person can file - individual, company, partnership, trust, or even a member of the public. No trademark registration is required to file an opposition. The opponent must have grounds under Section 9 (absolute), Section 11 (relative), bad faith, or other legal bases. Public interest standing is recognized."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does the entire opposition proceeding take?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "1 to 2+ years from filing to decision. Opposition filing and counter-statement phase: 6-8 months. Evidence stages (opponent, applicant, rejoinder): 5-6 months. Hearing scheduling and conduct: 3-6 months. Registrar's decision: 1-3 months after hearing. Appeal to Delhi High Court (if filed): additional 6-12 months."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can a frivolous opposition be dismissed early?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. If the opposition lacks genuine grounds and appears filed solely to delay registration, the applicant can request the Registrar to dismiss for lack of merit at the earliest hearing. A strong counter-statement that demonstrates the opposition is frivolous strengthens this request. However, even frivolous oppositions cause delay of several months."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the appeal process after opposition?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Appeal to the Delhi High Court within 3 months of the Registrar's order. Since IPAB was abolished in 2021, all trademark appeals go directly to the High Court. The HC can uphold, modify, or reverse the Registrar's decision. This is a full court proceeding with evidence and oral arguments. Quick Answers Kab file karna hai? TM Journal mein publication ke 4 mahine ke andar. Ye deadline extend NAHI hoti. Miss kiya toh mark register ho jayega. Weekly Journal monitoring rakho. Counter-statement nahi diya toh? Application ABANDONED ho jayegi. 2 mahine ka deadline hai - extend NAHI hota. Opposition notice milte hi turant professional se baat karo. Hearing mein kya hota hai? Registrar ke saamne dono parties oral arguments dete hain. Evidence present karte hain. Non-appearance = aapke against decision. Hamesha attend karo."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -679,7 +530,161 @@ section ul li:not(.nav-item) { font-size: 14px; }
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'Join Community'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Trademark Opposition Gurugram - TM-O, Process & Timeline</title>
+    <meta name="description" content="Trademark opposition in Gurugram. File TM-O within 4 months. Defend counter-statement within 2 months. Evidence. Hearing. Appeal. Call +91 945 945 6700.">
+    <link rel="canonical" href="/trademark-opposition/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Trademark Opposition Gurugram - TM-O, Process & Timeline">
+    <meta property="og:description" content="Trademark opposition in Gurugram. File TM-O within 4 months. Defend counter-statement within 2 months. Evidence. Hearing. Appeal. Call +91 945 945 6700.">
+    <meta property="og:url" content="/trademark-opposition/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Trademark Opposition Gurugram - TM-O, Process & Timeline">
+    <meta name="twitter:description" content="Trademark opposition in Gurugram. File TM-O within 4 months. Defend counter-statement within 2 months. Evidence. Hearing. Appeal. Call +91 945 945 6700.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "Trademark Opposition in Gurugram | File & Defend",
+      "description": "Trademark opposition in Gurugram. File TM-O within 4 months. Defend counter-statement within 2 months. Evidence. Hearing. Appeal. Call +91 945 945 6700.",
+      "url": "https://www.patronaccounting.com/trademark-opposition/gurugram",
+      "serviceType": "Trademark Opposition in Gurugram | File & Defend",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.patronaccounting.com/trademark-opposition/gurugram",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": "2700",
+          "maxPrice": "8000",
+          "priceCurrency": "INR"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Trademark Opposition in India: Process and Fees",
+          "item": "https://www.patronaccounting.com/trademark-opposition"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Trademark Opposition in Gurugram | File & Defend",
+          "item": "https://www.patronaccounting.com/trademark-opposition/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the deadline for filing trademark opposition?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "4 months from the date of publication in the Trademark Journal. This deadline is strictly non-extendable by law. If you miss this window, the conflicting mark proceeds to registration, and your only remedy becomes a Section 57 rectification application - which is a full litigation process costing significantly more time and money than an opposition."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does trademark opposition cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Government fee: Rs 2,700 per class (e-filing Form TM-O). Professional: Rs 8,000-15,000 for filing opposition or counter-statement. Evidence preparation: Rs 5,000-10,000. Hearing representation: Rs 8,000-15,000. TM Journal monitoring: Rs 2,000-5,000 per class per year. Call +91 945 945 6700 for a detailed quote."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if counter-statement is not filed within 2 months?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. Registrar Decision: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who can file a trademark opposition?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Any person can file - individual, company, partnership, trust, or even a member of the public. No trademark registration is required to file an opposition. The opponent must have grounds under Section 9 (absolute), Section 11 (relative), bad faith, or other legal bases. Public interest standing is recognized."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does the entire opposition proceeding take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "1 to 2+ years from filing to decision. Opposition filing and counter-statement phase: 6-8 months. Evidence stages (opponent, applicant, rejoinder): 5-6 months. Hearing scheduling and conduct: 3-6 months. Registrar's decision: 1-3 months after hearing. Appeal to Delhi High Court (if filed): additional 6-12 months."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a frivolous opposition be dismissed early?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. If the opposition lacks genuine grounds and appears filed solely to delay registration, the applicant can request the Registrar to dismiss for lack of merit at the earliest hearing. A strong counter-statement that demonstrates the opposition is frivolous strengthens this request. However, even frivolous oppositions cause delay of several months."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the appeal process after opposition?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Appeal to the Delhi High Court within 3 months of the Registrar's order. Since IPAB was abolished in 2021, all trademark appeals go directly to the High Court. The HC can uphold, modify, or reverse the Registrar's decision. This is a full court proceeding with evidence and oral arguments. Quick Answers Kab file karna hai? TM Journal mein publication ke 4 mahine ke andar. Ye deadline extend NAHI hoti. Miss kiya toh mark register ho jayega. Weekly Journal monitoring rakho. Counter-statement nahi diya toh? Application ABANDONED ho jayegi. 2 mahine ka deadline hai - extend NAHI hota. Opposition notice milte hi turant professional se baat karo. Hearing mein kya hota hai? Registrar ke saamne dono parties oral arguments dete hain. Evidence present karte hain. Non-appearance = aapke against decision. Hamesha attend karo."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1605,7 +1610,6 @@ var tocWrapper=document.getElementById('tocWrapper');document.getElementById('to
 
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

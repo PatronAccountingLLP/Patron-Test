@@ -1,189 +1,5 @@
 @extends('layouts.app')
-
-@section('meta')
-<title>Turnover Threshold Checker | GST, Audit &amp; MSME FY 25-26</title>
-<meta name="description" content="Turnover threshold checker FY 2025-26: enter turnover to see if GST registration, tax audit u/s 44AB, presumptive 44AD/44ADA or MSME limits apply. Free!">
-<meta name="robots" content="index, follow">
-<meta name="theme-color" content="#15365f">
-<link rel="canonical" href="https://www.patronaccounting.com/tools/turnover-threshold-checker">
-
-<meta property="og:title" content="Turnover Threshold Checker — GST, Audit & MSME FY 25-26">
-<meta property="og:description" content="Enter your annual turnover and instantly see which compliance thresholds apply: GST registration, tax audit u/s 44AB, presumptive taxation and MSME classification.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.patronaccounting.com/tools/turnover-threshold-checker">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="1200">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-<meta property="og:site_name" content="Patron Accounting">
-<meta property="og:locale" content="en_IN">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Turnover Threshold Checker — GST, Audit & MSME FY 25-26">
-<meta name="twitter:description" content="Enter turnover to see if GST registration, tax audit, presumptive scheme or MSME limits apply. Free & instant for FY 2025-26.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-
-<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
-<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
-@endsection
-@section('schema')
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "Turnover Threshold Checker",
-  "description": "Turnover Threshold Checker takes a business or professional's annual turnover, entity type, digital-transaction share and state category and instantly shows which Indian compliance thresholds are triggered for FY 2025-26: GST registration, tax audit under Section 44AB, presumptive taxation under Section 44AD/44ADA, and MSME (Udyam) classification.",
-  "url": "https://www.patronaccounting.com/tools/turnover-threshold-checker",
-  "applicationCategory": "BusinessApplication",
-  "inLanguage": "en-IN",
-  "isAccessibleForFree": true,
-  "operatingSystem": "Any",
-  "datePublished": "2026-06-05T08:00:00+05:30",
-  "dateModified": "2026-06-05T08:00:00+05:30",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "INR"
-  },
-  "reviewedBy": {
-    "@type": "Person",
-    "@id": "https://patronaccounting.com/#founder",
-    "name": "CA Sundram Gupta",
-    "jobTitle": "Founder & Chartered Accountant",
-    "url": "https://www.patronaccounting.com/contact-page",
-    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-    "hasCredential": [{
-      "@type": "EducationalOccupationalCredential",
-      "credentialCategory": "Professional Certification",
-      "name": "Chartered Accountant (CA)",
-      "recognizedBy": {
-        "@type": "Organization",
-        "name": "Institute of Chartered Accountants of India",
-        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-      }
-    }]
-  },
-  "publisher": { "@id": "https://patronaccounting.com/#organization" },
-  "provider": {
-    "@id": "https://patronaccounting.com/#organization"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "Turnover Threshold Checker", "item": "https://www.patronaccounting.com/tools/turnover-threshold-checker"}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the GST registration turnover limit in 2026?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For most states, GST registration becomes mandatory once aggregate turnover crosses 40 lakh for a supplier of goods or 20 lakh for a supplier of services in a financial year. In special category states the limits are lower, at 20 lakh for goods and 10 lakh for services. These limits are based on PAN-India aggregate turnover, not state-wise, and certain suppliers such as inter-state and e-commerce sellers must register regardless of turnover."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the tax audit limit under Section 44AB for FY 2025-26?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For businesses the tax audit threshold is turnover above 1 crore, extended to 10 crore when at least 95% of receipts and 95% of payments are non-cash. For specified professionals the threshold is gross receipts above 50 lakh, with no enhanced digital limit. A tax audit can also be triggered when a taxpayer opts out of the presumptive scheme and declares income below the deemed rate while having taxable income."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "When does the 10 crore tax audit limit apply instead of 1 crore?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The enhanced 10 crore turnover limit for business tax audit applies only when both cash receipts and cash payments are 5% or less of the respective totals, that is at least 95% of transactions are digital. If cash transactions exceed 5% on either side, the threshold drops back to 1 crore. The 95% test is assessed on the full year's transactions, so businesses must maintain digital discipline throughout the year."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the presumptive taxation turnover limit under 44AD?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A resident business can opt for presumptive taxation under Section 44AD if turnover is up to 2 crore, raised to 3 crore when cash receipts are 5% or less of total receipts. Income is declared at 8% of turnover, or 6% for digital receipts. The checker flags whether your turnover keeps you within the 44AD ceiling so you can plan whether to use the presumptive scheme."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the 44ADA limit for professionals?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Specified professionals such as doctors, lawyers, architects, engineers and accountants can use the presumptive scheme under Section 44ADA if gross receipts are up to 50 lakh, raised to 75 lakh when cash receipts are 5% or less of total receipts. At least 50% of receipts must be declared as income. If you declare less than 50% and have taxable income, a tax audit applies."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the revised MSME turnover limits for 2025?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Effective from 1 April 2025, MSME classification uses both investment and turnover. A micro enterprise has investment up to 2.5 crore and turnover up to 10 crore, a small enterprise up to 25 crore investment and 100 crore turnover, and a medium enterprise up to 125 crore investment and 500 crore turnover. Both conditions must be met; exports are excluded from turnover. This checker classifies you by turnover as an indicator."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is aggregate turnover the same as taxable turnover for GST?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. Aggregate turnover for GST includes taxable supplies, exempt supplies, exports and inter-state supplies under the same PAN across India, but excludes GST itself and inward supplies taxed under reverse charge. The registration thresholds are tested against aggregate turnover, so even exempt and export sales count towards the limit. This is wider than just your taxable sales figure."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do I have to register for GST if I am below the threshold?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Not compulsorily, but you can register voluntarily. Many B2B businesses register below the threshold to claim input tax credit and because large clients prefer GST-registered vendors. Some suppliers must register regardless of turnover, including those making inter-state taxable supplies, e-commerce operators and persons liable under reverse charge. The checker shows the turnover trigger; compulsory-registration categories apply separately."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What happens if I cross a threshold mid-year?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Thresholds are tested on turnover for the financial year, so crossing a limit during the year brings the obligation into effect. For GST you must apply for registration within 30 days of becoming liable. For tax audit the position is judged on the full-year turnover, and the audit report is generally due by 30 September of the assessment year. Acting early avoids late-registration and audit penalties."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does this checker replace advice from a CA?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. The Turnover Threshold Checker is an indicative planning tool based on FY 2025-26 limits. Real cases involve nuances such as compulsory GST categories, opt-out rules under the presumptive scheme, the composite MSME investment test, and entity-specific rules. A Chartered Accountant should confirm your exact obligations before you register, file or rely on a presumptive declaration."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the Turnover Threshold Checker free?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, the Patron Accounting Turnover Threshold Checker is completely free with no signup required. All calculations run in your browser and nothing is stored on our servers. It checks your turnover against GST registration, Section 44AB tax audit, Section 44AD/44ADA presumptive and MSME classification thresholds for FY 2025-26 and gives an instant, colour-coded summary."
-      }
-    }
-  ]
-}
-</script>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-@endsection
+@push('styles')
 <style>
         :root {
             --primary: #15365f;
@@ -690,6 +506,193 @@ a:focus-visible {
 
 
         </style>
+@endpush
+
+
+@section('meta')
+<title>Turnover Threshold Checker | GST, Audit &amp; MSME FY 25-26</title>
+<meta name="description" content="Turnover threshold checker FY 2025-26: enter turnover to see if GST registration, tax audit u/s 44AB, presumptive 44AD/44ADA or MSME limits apply. Free!">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#15365f">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/turnover-threshold-checker">
+
+<meta property="og:title" content="Turnover Threshold Checker — GST, Audit & MSME FY 25-26">
+<meta property="og:description" content="Enter your annual turnover and instantly see which compliance thresholds apply: GST registration, tax audit u/s 44AB, presumptive taxation and MSME classification.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/turnover-threshold-checker">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+<meta property="og:site_name" content="Patron Accounting">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Turnover Threshold Checker — GST, Audit & MSME FY 25-26">
+<meta name="twitter:description" content="Enter turnover to see if GST registration, tax audit, presumptive scheme or MSME limits apply. Free & instant for FY 2025-26.">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
+@endsection
+@section('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Turnover Threshold Checker",
+  "description": "Turnover Threshold Checker takes a business or professional's annual turnover, entity type, digital-transaction share and state category and instantly shows which Indian compliance thresholds are triggered for FY 2025-26: GST registration, tax audit under Section 44AB, presumptive taxation under Section 44AD/44ADA, and MSME (Udyam) classification.",
+  "url": "https://www.patronaccounting.com/tools/turnover-threshold-checker",
+  "applicationCategory": "BusinessApplication",
+  "inLanguage": "en-IN",
+  "isAccessibleForFree": true,
+  "operatingSystem": "Any",
+  "datePublished": "2026-06-05T08:00:00+05:30",
+  "dateModified": "2026-06-05T08:00:00+05:30",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "INR"
+  },
+  "reviewedBy": {
+    "@type": "Person",
+    "@id": "https://patronaccounting.com/#founder",
+    "name": "CA Sundram Gupta",
+    "jobTitle": "Founder & Chartered Accountant",
+    "url": "https://www.patronaccounting.com/contact-page",
+    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+    "hasCredential": [{
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Professional Certification",
+      "name": "Chartered Accountant (CA)",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Institute of Chartered Accountants of India",
+        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+      }
+    }]
+  },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
+  "provider": {
+    "@id": "https://patronaccounting.com/#organization"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "Turnover Threshold Checker", "item": "https://www.patronaccounting.com/tools/turnover-threshold-checker"}
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the GST registration turnover limit in 2026?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For most states, GST registration becomes mandatory once aggregate turnover crosses 40 lakh for a supplier of goods or 20 lakh for a supplier of services in a financial year. In special category states the limits are lower, at 20 lakh for goods and 10 lakh for services. These limits are based on PAN-India aggregate turnover, not state-wise, and certain suppliers such as inter-state and e-commerce sellers must register regardless of turnover."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the tax audit limit under Section 44AB for FY 2025-26?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For businesses the tax audit threshold is turnover above 1 crore, extended to 10 crore when at least 95% of receipts and 95% of payments are non-cash. For specified professionals the threshold is gross receipts above 50 lakh, with no enhanced digital limit. A tax audit can also be triggered when a taxpayer opts out of the presumptive scheme and declares income below the deemed rate while having taxable income."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When does the 10 crore tax audit limit apply instead of 1 crore?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The enhanced 10 crore turnover limit for business tax audit applies only when both cash receipts and cash payments are 5% or less of the respective totals, that is at least 95% of transactions are digital. If cash transactions exceed 5% on either side, the threshold drops back to 1 crore. The 95% test is assessed on the full year's transactions, so businesses must maintain digital discipline throughout the year."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the presumptive taxation turnover limit under 44AD?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A resident business can opt for presumptive taxation under Section 44AD if turnover is up to 2 crore, raised to 3 crore when cash receipts are 5% or less of total receipts. Income is declared at 8% of turnover, or 6% for digital receipts. The checker flags whether your turnover keeps you within the 44AD ceiling so you can plan whether to use the presumptive scheme."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the 44ADA limit for professionals?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Specified professionals such as doctors, lawyers, architects, engineers and accountants can use the presumptive scheme under Section 44ADA if gross receipts are up to 50 lakh, raised to 75 lakh when cash receipts are 5% or less of total receipts. At least 50% of receipts must be declared as income. If you declare less than 50% and have taxable income, a tax audit applies."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the revised MSME turnover limits for 2025?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Effective from 1 April 2025, MSME classification uses both investment and turnover. A micro enterprise has investment up to 2.5 crore and turnover up to 10 crore, a small enterprise up to 25 crore investment and 100 crore turnover, and a medium enterprise up to 125 crore investment and 500 crore turnover. Both conditions must be met; exports are excluded from turnover. This checker classifies you by turnover as an indicator."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is aggregate turnover the same as taxable turnover for GST?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Aggregate turnover for GST includes taxable supplies, exempt supplies, exports and inter-state supplies under the same PAN across India, but excludes GST itself and inward supplies taxed under reverse charge. The registration thresholds are tested against aggregate turnover, so even exempt and export sales count towards the limit. This is wider than just your taxable sales figure."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I have to register for GST if I am below the threshold?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not compulsorily, but you can register voluntarily. Many B2B businesses register below the threshold to claim input tax credit and because large clients prefer GST-registered vendors. Some suppliers must register regardless of turnover, including those making inter-state taxable supplies, e-commerce operators and persons liable under reverse charge. The checker shows the turnover trigger; compulsory-registration categories apply separately."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if I cross a threshold mid-year?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Thresholds are tested on turnover for the financial year, so crossing a limit during the year brings the obligation into effect. For GST you must apply for registration within 30 days of becoming liable. For tax audit the position is judged on the full-year turnover, and the audit report is generally due by 30 September of the assessment year. Acting early avoids late-registration and audit penalties."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does this checker replace advice from a CA?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The Turnover Threshold Checker is an indicative planning tool based on FY 2025-26 limits. Real cases involve nuances such as compulsory GST categories, opt-out rules under the presumptive scheme, the composite MSME investment test, and entity-specific rules. A Chartered Accountant should confirm your exact obligations before you register, file or rely on a presumptive declaration."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the Turnover Threshold Checker free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the Patron Accounting Turnover Threshold Checker is completely free with no signup required. All calculations run in your browser and nothing is stored on our servers. It checks your turnover against GST registration, Section 44AB tax audit, Section 44AD/44ADA presumptive and MSME classification thresholds for FY 2025-26 and gives an instant, colour-coded summary."
+      }
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation">
     <div class="toc-nav-inner">

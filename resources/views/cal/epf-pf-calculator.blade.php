@@ -1,67 +1,5 @@
 @extends('layouts.app')
-@section('meta')
-    <title>EPF Calculator India | PF Contribution &amp; Maturity</title>
-    <meta name="description" content="EPF calculator for India: get the monthly PF contribution split (employee, employer, EPS) and project your retirement corpus at 8.25% interest. Calculate now!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/epf-pf-calculator">
-    <meta property="og:title" content="EPF Calculator India &mdash; PF Contribution & Maturity 2026">
-    <meta property="og:description" content="Calculate monthly EPF contribution and project retirement corpus at 8.25% interest for FY 2025-26.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/epf-pf-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="EPF Calculator India &mdash; PF Contribution & Maturity 2026">
-    <meta name="twitter:description" content="Monthly EPF split + retirement corpus projection at 8.25%. FY 2025-26 updated!">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-<script type="application/ld+json">
-    {
-      "@context": "https://schema.org", "@type": "WebApplication",
-      "name": "EPF/PF Calculator India",
-      "description": "EPF Calculator computes the monthly Employee Provident Fund contribution split between employee share, employer EPF share, and EPS share. Also projects the total retirement corpus with compound interest at 8.25 percent per annum for FY 2025-26. Supports both statutory cap and actual basic salary PF calculations for Indian salaried employees.",
-      "url": "https://www.patronaccounting.com/tools/epf-pf-calculator",
-      "applicationCategory": "UtilityApplication", "operatingSystem": "Any",
-      "datePublished": "2026-03-05", "dateModified": "2026-03-05",
-      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" },
-      "author": { "@type": "Person", "@id": "https://patronaccounting.com/#team", "name": "CA & CS Patron Accounting Team", "jobTitle": "Chartered Accountants & Company Secretaries", "url": "https://www.patronaccounting.com/contact-page", "sameAs": ["https://www.linkedin.com/company/patron-accounting"], "hasCredential": [{ "@type": "EducationalOccupationalCredential", "credentialCategory": "Professional Certification", "name": "Chartered Accountant (CA)", "recognizedBy": { "@type": "Organization", "name": "Institute of Chartered Accountants of India", "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India" } }] },
-      "publisher": { "@type": "Organization", "name": "Patron Accounting LLP", "url": "https://www.patronaccounting.com", "logo": { "@type": "ImageObject", "url": "https://www.patronaccounting.com/images/site-logo.svg" } },
-      "provider": { "@id": "https://patronaccounting.com/#organization" }
-    }
-    </script>
-<script type="application/ld+json">
-    { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-      {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-      {"@type": "ListItem", "position": 3, "name": "EPF/PF Calculator", "item": "https://www.patronaccounting.com/tools/epf-pf-calculator"}
-    ]}
-    </script>
-<script type="application/ld+json">
-    { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
-      { "@type": "Question", "name": "How is EPF contribution calculated?", "acceptedAnswer": { "@type": "Answer", "text": "EPF contribution is calculated on Basic Salary plus Dearness Allowance. Employee contributes 12 percent which goes entirely to the EPF account. Employer also contributes 12 percent, but this is split as 8.33 percent to EPS (Employees Pension Scheme) capped at Rs 15,000 basic and the remaining 3.67 percent to the EPF account. Both contributions are mandatory under the EPF and MP Act 1952." } },
-      { "@type": "Question", "name": "What is the EPF interest rate for FY 2025-26?", "acceptedAnswer": { "@type": "Answer", "text": "The EPF interest rate for FY 2025-26 is 8.25 percent per annum as declared by EPFO. Interest is calculated monthly on the running EPF balance using a rate of 8.25 divided by 12 which equals 0.6875 percent per month. However, interest is credited to the account only once at the end of the financial year on 31st March. The rate is reviewed annually by the Central Board of Trustees." } },
-      { "@type": "Question", "name": "What is the difference between EPF and EPS?", "acceptedAnswer": { "@type": "Answer", "text": "EPF (Employee Provident Fund) is the savings component where both employee and employer contribute. The accumulated amount with interest is paid on retirement or resignation. EPS (Employee Pension Scheme) provides a monthly pension after retirement. Only the employer contributes 8.33 percent of basic salary (capped at Rs 15,000) to EPS. Employees need 10 years of service to qualify for EPS pension." } },
-      { "@type": "Question", "name": "What is the statutory wage ceiling for EPF?", "acceptedAnswer": { "@type": "Answer", "text": "The current statutory wage ceiling for EPF is Rs 15,000 per month for basic salary plus dearness allowance. Employees earning above Rs 15,000 basic can still be EPF members with contributions calculated on actual basic or restricted to the ceiling based on employer policy. For EPS pension calculation, the ceiling is strictly Rs 15,000 making maximum EPS contribution Rs 1,250 per month." } },
-      { "@type": "Question", "name": "Can I withdraw EPF before retirement?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, partial EPF withdrawal is allowed for specific purposes. You can withdraw for home purchase or construction after 5 years, medical emergencies without service requirement, marriage after 7 years, education of children after 7 years, and home loan repayment after 10 years. Full withdrawal is allowed after 2 months of unemployment or at age 58. Withdrawals within 5 years are taxable." } },
-      { "@type": "Question", "name": "Is EPF contribution eligible for tax deduction?", "acceptedAnswer": { "@type": "Answer", "text": "Employee EPF contribution qualifies for tax deduction under Section 80C up to Rs 1.5 lakh per year. Employer contribution is tax-exempt for the employee. Interest earned on EPF is tax-free up to Rs 2.5 lakh of annual employee contribution. For contributions exceeding Rs 2.5 lakh in a year, interest on the excess is taxable. These rules apply under both old and new tax regimes for 80C." } },
-      { "@type": "Question", "name": "How do I check my EPF balance online?", "acceptedAnswer": { "@type": "Answer", "text": "You can check EPF balance through the EPFO portal by logging in with your UAN (Universal Account Number) and downloading the e-Passbook. Other methods include sending an SMS with UAN to 7738299899, giving a missed call to 011-22901406 from your registered mobile number, or using the UMANG app. Your employer provides the UAN which links all your PF accounts across different employers." } },
-      { "@type": "Question", "name": "What is VPF and how does it work?", "acceptedAnswer": { "@type": "Answer", "text": "VPF (Voluntary Provident Fund) allows employees to contribute more than the mandatory 12 percent to their EPF account up to 100 percent of basic salary. VPF earns the same 8.25 percent interest rate as EPF. The employer is not required to match VPF contributions. VPF contributions qualify for Section 80C deduction. It is a safe investment option for risk-averse individuals seeking guaranteed returns." } },
-      { "@type": "Question", "name": "What happens to EPF when I change jobs?", "acceptedAnswer": { "@type": "Answer", "text": "When you change jobs, your EPF account can be transferred to the new employer through UAN-based online transfer on the EPFO portal. The process takes approximately 10 to 20 days. You do not need to withdraw and lose the continuity benefit. If you withdraw before 5 years of total service, the amount becomes taxable. It is always recommended to transfer rather than withdraw to maintain the tax-free status." } },
-      { "@type": "Question", "name": "How is EPF interest calculated monthly?", "acceptedAnswer": { "@type": "Answer", "text": "EPF interest is calculated monthly on the running balance. The annual rate of 8.25 percent is divided by 12 to get 0.6875 percent monthly rate. Each month the opening balance plus that month contributions earn interest at this rate. Interest is accumulated monthly but credited to the account only on 31st March. No interest is earned in the first month of contribution." } },
-      { "@type": "Question", "name": "What is the maximum EPS pension amount?", "acceptedAnswer": { "@type": "Answer", "text": "EPS pension is calculated as: Pensionable Salary times Pensionable Service divided by 70. With the current Rs 15,000 wage ceiling, maximum pensionable salary is Rs 15,000 and maximum pensionable service is 35 years. This gives a maximum monthly pension of Rs 7,500. The Supreme Court in 2022 allowed employees who opted for higher pension to contribute on actual salary, potentially increasing the pension amount." } },
-      { "@type": "Question", "name": "Who is eligible for EPF in India?", "acceptedAnswer": { "@type": "Answer", "text": "EPF is mandatory for establishments with 20 or more employees under the EPF and Miscellaneous Provisions Act, 1952. All employees earning basic salary plus DA up to Rs 15,000 per month must be enrolled. Employees earning above Rs 15,000 can be enrolled with employer consent. Once enrolled, an employee cannot opt out during the same employment. International workers in India are also covered." } },
-      { "@type": "Question", "name": "Can a CA help with EPF compliance for my business?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, a Chartered Accountant handles EPF registration, monthly contribution calculation, ECR filing on the EPFO portal, annual returns, and ensures compliance with the EPF Act. Patron Accounting provides complete payroll processing including EPF, ESI, professional tax computation, and monthly filing for businesses across India. We also assist with PF transfer and settlement claims for employees." } }
-    ]}
-    </script>
-@endsection
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+@push('styles')
 <style>
 
         :root {
@@ -840,6 +778,71 @@
 .toggle-btn{font-size:13px;padding:10px 12px}
 }
 </style>
+@endpush
+
+@section('meta')
+    <title>EPF Calculator India | PF Contribution &amp; Maturity</title>
+    <meta name="description" content="EPF calculator for India: get the monthly PF contribution split (employee, employer, EPS) and project your retirement corpus at 8.25% interest. Calculate now!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/epf-pf-calculator">
+    <meta property="og:title" content="EPF Calculator India &mdash; PF Contribution & Maturity 2026">
+    <meta property="og:description" content="Calculate monthly EPF contribution and project retirement corpus at 8.25% interest for FY 2025-26.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/epf-pf-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="EPF Calculator India &mdash; PF Contribution & Maturity 2026">
+    <meta name="twitter:description" content="Monthly EPF split + retirement corpus projection at 8.25%. FY 2025-26 updated!">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+@endsection
+
+@section('schema')
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org", "@type": "WebApplication",
+      "name": "EPF/PF Calculator India",
+      "description": "EPF Calculator computes the monthly Employee Provident Fund contribution split between employee share, employer EPF share, and EPS share. Also projects the total retirement corpus with compound interest at 8.25 percent per annum for FY 2025-26. Supports both statutory cap and actual basic salary PF calculations for Indian salaried employees.",
+      "url": "https://www.patronaccounting.com/tools/epf-pf-calculator",
+      "applicationCategory": "UtilityApplication", "operatingSystem": "Any",
+      "datePublished": "2026-03-05", "dateModified": "2026-03-05",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" },
+      "author": { "@type": "Person", "@id": "https://patronaccounting.com/#team", "name": "CA & CS Patron Accounting Team", "jobTitle": "Chartered Accountants & Company Secretaries", "url": "https://www.patronaccounting.com/contact-page", "sameAs": ["https://www.linkedin.com/company/patron-accounting"], "hasCredential": [{ "@type": "EducationalOccupationalCredential", "credentialCategory": "Professional Certification", "name": "Chartered Accountant (CA)", "recognizedBy": { "@type": "Organization", "name": "Institute of Chartered Accountants of India", "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India" } }] },
+      "publisher": { "@type": "Organization", "name": "Patron Accounting LLP", "url": "https://www.patronaccounting.com", "logo": { "@type": "ImageObject", "url": "https://www.patronaccounting.com/images/site-logo.svg" } },
+      "provider": { "@id": "https://patronaccounting.com/#organization" }
+    }
+    </script>
+<script type="application/ld+json">
+    { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+      {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+      {"@type": "ListItem", "position": 3, "name": "EPF/PF Calculator", "item": "https://www.patronaccounting.com/tools/epf-pf-calculator"}
+    ]}
+    </script>
+<script type="application/ld+json">
+    { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+      { "@type": "Question", "name": "How is EPF contribution calculated?", "acceptedAnswer": { "@type": "Answer", "text": "EPF contribution is calculated on Basic Salary plus Dearness Allowance. Employee contributes 12 percent which goes entirely to the EPF account. Employer also contributes 12 percent, but this is split as 8.33 percent to EPS (Employees Pension Scheme) capped at Rs 15,000 basic and the remaining 3.67 percent to the EPF account. Both contributions are mandatory under the EPF and MP Act 1952." } },
+      { "@type": "Question", "name": "What is the EPF interest rate for FY 2025-26?", "acceptedAnswer": { "@type": "Answer", "text": "The EPF interest rate for FY 2025-26 is 8.25 percent per annum as declared by EPFO. Interest is calculated monthly on the running EPF balance using a rate of 8.25 divided by 12 which equals 0.6875 percent per month. However, interest is credited to the account only once at the end of the financial year on 31st March. The rate is reviewed annually by the Central Board of Trustees." } },
+      { "@type": "Question", "name": "What is the difference between EPF and EPS?", "acceptedAnswer": { "@type": "Answer", "text": "EPF (Employee Provident Fund) is the savings component where both employee and employer contribute. The accumulated amount with interest is paid on retirement or resignation. EPS (Employee Pension Scheme) provides a monthly pension after retirement. Only the employer contributes 8.33 percent of basic salary (capped at Rs 15,000) to EPS. Employees need 10 years of service to qualify for EPS pension." } },
+      { "@type": "Question", "name": "What is the statutory wage ceiling for EPF?", "acceptedAnswer": { "@type": "Answer", "text": "The current statutory wage ceiling for EPF is Rs 15,000 per month for basic salary plus dearness allowance. Employees earning above Rs 15,000 basic can still be EPF members with contributions calculated on actual basic or restricted to the ceiling based on employer policy. For EPS pension calculation, the ceiling is strictly Rs 15,000 making maximum EPS contribution Rs 1,250 per month." } },
+      { "@type": "Question", "name": "Can I withdraw EPF before retirement?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, partial EPF withdrawal is allowed for specific purposes. You can withdraw for home purchase or construction after 5 years, medical emergencies without service requirement, marriage after 7 years, education of children after 7 years, and home loan repayment after 10 years. Full withdrawal is allowed after 2 months of unemployment or at age 58. Withdrawals within 5 years are taxable." } },
+      { "@type": "Question", "name": "Is EPF contribution eligible for tax deduction?", "acceptedAnswer": { "@type": "Answer", "text": "Employee EPF contribution qualifies for tax deduction under Section 80C up to Rs 1.5 lakh per year. Employer contribution is tax-exempt for the employee. Interest earned on EPF is tax-free up to Rs 2.5 lakh of annual employee contribution. For contributions exceeding Rs 2.5 lakh in a year, interest on the excess is taxable. These rules apply under both old and new tax regimes for 80C." } },
+      { "@type": "Question", "name": "How do I check my EPF balance online?", "acceptedAnswer": { "@type": "Answer", "text": "You can check EPF balance through the EPFO portal by logging in with your UAN (Universal Account Number) and downloading the e-Passbook. Other methods include sending an SMS with UAN to 7738299899, giving a missed call to 011-22901406 from your registered mobile number, or using the UMANG app. Your employer provides the UAN which links all your PF accounts across different employers." } },
+      { "@type": "Question", "name": "What is VPF and how does it work?", "acceptedAnswer": { "@type": "Answer", "text": "VPF (Voluntary Provident Fund) allows employees to contribute more than the mandatory 12 percent to their EPF account up to 100 percent of basic salary. VPF earns the same 8.25 percent interest rate as EPF. The employer is not required to match VPF contributions. VPF contributions qualify for Section 80C deduction. It is a safe investment option for risk-averse individuals seeking guaranteed returns." } },
+      { "@type": "Question", "name": "What happens to EPF when I change jobs?", "acceptedAnswer": { "@type": "Answer", "text": "When you change jobs, your EPF account can be transferred to the new employer through UAN-based online transfer on the EPFO portal. The process takes approximately 10 to 20 days. You do not need to withdraw and lose the continuity benefit. If you withdraw before 5 years of total service, the amount becomes taxable. It is always recommended to transfer rather than withdraw to maintain the tax-free status." } },
+      { "@type": "Question", "name": "How is EPF interest calculated monthly?", "acceptedAnswer": { "@type": "Answer", "text": "EPF interest is calculated monthly on the running balance. The annual rate of 8.25 percent is divided by 12 to get 0.6875 percent monthly rate. Each month the opening balance plus that month contributions earn interest at this rate. Interest is accumulated monthly but credited to the account only on 31st March. No interest is earned in the first month of contribution." } },
+      { "@type": "Question", "name": "What is the maximum EPS pension amount?", "acceptedAnswer": { "@type": "Answer", "text": "EPS pension is calculated as: Pensionable Salary times Pensionable Service divided by 70. With the current Rs 15,000 wage ceiling, maximum pensionable salary is Rs 15,000 and maximum pensionable service is 35 years. This gives a maximum monthly pension of Rs 7,500. The Supreme Court in 2022 allowed employees who opted for higher pension to contribute on actual salary, potentially increasing the pension amount." } },
+      { "@type": "Question", "name": "Who is eligible for EPF in India?", "acceptedAnswer": { "@type": "Answer", "text": "EPF is mandatory for establishments with 20 or more employees under the EPF and Miscellaneous Provisions Act, 1952. All employees earning basic salary plus DA up to Rs 15,000 per month must be enrolled. Employees earning above Rs 15,000 can be enrolled with employer consent. Once enrolled, an employee cannot opt out during the same employment. International workers in India are also covered." } },
+      { "@type": "Question", "name": "Can a CA help with EPF compliance for my business?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, a Chartered Accountant handles EPF registration, monthly contribution calculation, ECR filing on the EPFO portal, annual returns, and ensures compliance with the EPF Act. Patron Accounting provides complete payroll processing including EPF, ESI, professional tax computation, and monthly filing for businesses across India. We also assist with PF transfer and settlement claims for employees." } }
+    ]}
+    </script>
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation"><div class="toc-nav-inner">
         <a href="#calculator">Calculator</a>

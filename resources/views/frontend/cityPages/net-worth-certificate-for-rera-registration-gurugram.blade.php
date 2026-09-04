@@ -1,174 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Net Worth Certificate for RERA Registration in Gurugram 2026 | Patron Accounting</title>
-    <meta name="description" content="Net Worth Certificate for RERA registration by a CA with UDIN. Promoter net worth, audited financials, and escrow validation for state RERA. From INR 7,999.">
-    <link rel="canonical" href="/net-worth-certificate-for-rera-registration/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Net Worth Certificate for RERA Registration 2026 | Patron Accounting">
-    <meta property="og:description" content="Net Worth Certificate for RERA registration by a CA with UDIN. Promoter net worth, audited financials, and escrow validation for state RERA. From INR 7,999.">
-    <meta property="og:url" content="/net-worth-certificate-for-rera-registration/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Net Worth Certificate for RERA Registration 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Net Worth Certificate for RERA registration by a CA with UDIN. Promoter net worth, audited financials, and escrow validation for state RERA. From INR 7,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/gurugram/#service",
-        "name": "Net Worth Certificate for RERA Registration in Gurugram",
-        "description": "CA-certified net worth statement of a real estate promoter for RERA registration, prepared with audited financials and aligned to the state authority's prescribed format, supporting the 70 percent designated-account requirement under Section 4(2)(l)(D) of the RERA Act 2016, with a mandatory 18-digit UDIN.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/gurugram" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Real Estate (Regulation and Development) Act, 2016", "sameAs": "https://en.wikipedia.org/wiki/Real_Estate_(Regulation_and_Development)_Act,_2016" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Net Worth Certificate for RERA Registration Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": { "@type": "Service", "name": "RERA promoter net worth certificate" },
-                    "priceCurrency": "INR",
-                    "price": "7999",
-                    "description": "Starting from INR 7,999 (excl. GST and govt. charges)"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/gurugram/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Construction and Real Estate Accounting", "item": "https://www.patronaccounting.com/construction-and-real-estate-accounting-services" },
-            { "@type": "ListItem", "position": 3, "name": "Net Worth Certificate for RERA Registration", "item": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/gurugram" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/gurugram/#faq",
-        "datePublished": "2026-06-09T08:00:00+05:30",
-        "dateModified": "2026-06-09T08:00:00+05:30",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "What net worth is required for RERA registration?",
-                "acceptedAnswer": { "@type": "Answer", "text": "RERA does not fix a single national net-worth figure. The promoter submits audited financials of the last three years and a CA-certified net worth statement, and the state authority assesses financial capacity alongside the project funding plan and the mandatory escrow arrangement." }
-            },
-            {
-                "@type": "Question",
-                "name": "Is a CA certificate mandatory for RERA?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Yes. RERA relies on CA-certified documents, including the net worth statement, audited financials, and state-prescribed forms such as Form B. The certificate must carry the CA's seal and an 18-digit UDIN verifiable online." }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the 70 percent escrow rule under RERA?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Under Section 4(2)(l)(D) of the RERA Act, 2016, a promoter must deposit 70 percent of the money collected from buyers in a separate designated account, used only for that project's construction and land cost. Withdrawals require CA certification of proportionate progress." }
-            },
-            {
-                "@type": "Question",
-                "name": "Does the RERA requirement vary by state?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Yes. RERA is administered state by state, so the prescribed CA certificate format and specific financial requirements differ. MahaRERA, K-RERA, and UP RERA each have their own forms, and the certificate is prepared to match the relevant state authority." }
-            },
-            {
-                "@type": "Question",
-                "name": "Who must register under RERA?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Promoters who develop a project for sale and real estate agents who facilitate transactions must register. Promoters must register before advertising or selling, and registration thresholds such as land area or number of units vary by state." }
-            },
-            {
-                "@type": "Question",
-                "name": "Who issues the net worth certificate for RERA?",
-                "acceptedAnswer": { "@type": "Answer", "text": "A practising Chartered Accountant registered with ICAI, holding a valid Certificate of Practice. The certificate carries the CA's seal, firm registration number, and an 18-digit UDIN that the authority can verify online." }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/gurugram",
-        "name": "Net Worth Certificate for RERA Registration in Gurugram",
-        "description": "Net Worth Certificate for RERA registration by a CA with UDIN. Promoter net worth, audited financials, and escrow validation for state RERA. From INR 7,999.",
-        "url": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/gurugram",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/gurugram/#service" },
-        "datePublished": "2026-06-09T08:00:00+05:30",
-        "dateModified": "2026-06-09T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/gurugram/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How a RERA Net Worth Certificate Is Prepared",
-        "description": "The six-step process to a CA-certified RERA promoter net worth certificate: confirm the state authority, share audited financials, verify net worth, confirm the escrow setup, issue the certificates in the prescribed format, and generate the UDIN with filing support.",
-        "totalTime": "P3D",
-        "step": [
-            { "@type": "HowToStep", "name": "Confirm the state authority", "text": "Tell us which state RERA the project falls under, since forms differ." },
-            { "@type": "HowToStep", "name": "Share audited financials", "text": "Provide audited balance sheets and reports for the last three years." },
-            { "@type": "HowToStep", "name": "Verify net worth", "text": "The CA computes and verifies the promoter's statement of assets and liabilities." },
-            { "@type": "HowToStep", "name": "Confirm escrow setup", "text": "We validate the separate designated account for the 70 percent buyer-fund rule." },
-            { "@type": "HowToStep", "name": "Issue certificates", "text": "The net worth statement and any state form, such as Form B, are prepared in the prescribed format." },
-            { "@type": "HowToStep", "name": "UDIN and filing support", "text": "UDIN is generated and we support the state RERA portal submission." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Net Worth Certificate for RERA Registration Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Promoter", "description": "The person or entity developing a real estate project for sale - the party that must register." },
-            { "@type": "DefinedTerm", "name": "Designated account (escrow)", "description": "A separate project account holding 70 percent of buyer funds under Section 4(2)(l)(D)." },
-            { "@type": "DefinedTerm", "name": "Form B (and equivalents)", "description": "The CA-certified financial declaration prescribed by states such as Maharashtra and Karnataka." },
-            { "@type": "DefinedTerm", "name": "State RERA authority", "description": "The body administering RERA in each state (MahaRERA, K-RERA, UP RERA, and others)." },
-            { "@type": "DefinedTerm", "name": "UDIN", "description": "18-digit number mandatory on every CA certificate since 1 July 2019, verifiable at udin.icai.org." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -782,7 +618,176 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Net Worth Certificate for RERA Registration in Gurugram 2026 | Patron Accounting</title>
+    <meta name="description" content="Net Worth Certificate for RERA registration by a CA with UDIN. Promoter net worth, audited financials, and escrow validation for state RERA. From INR 7,999.">
+    <link rel="canonical" href="/net-worth-certificate-for-rera-registration/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Net Worth Certificate for RERA Registration 2026 | Patron Accounting">
+    <meta property="og:description" content="Net Worth Certificate for RERA registration by a CA with UDIN. Promoter net worth, audited financials, and escrow validation for state RERA. From INR 7,999.">
+    <meta property="og:url" content="/net-worth-certificate-for-rera-registration/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Net Worth Certificate for RERA Registration 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Net Worth Certificate for RERA registration by a CA with UDIN. Promoter net worth, audited financials, and escrow validation for state RERA. From INR 7,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/gurugram/#service",
+        "name": "Net Worth Certificate for RERA Registration in Gurugram",
+        "description": "CA-certified net worth statement of a real estate promoter for RERA registration, prepared with audited financials and aligned to the state authority's prescribed format, supporting the 70 percent designated-account requirement under Section 4(2)(l)(D) of the RERA Act 2016, with a mandatory 18-digit UDIN.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/gurugram" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Real Estate (Regulation and Development) Act, 2016", "sameAs": "https://en.wikipedia.org/wiki/Real_Estate_(Regulation_and_Development)_Act,_2016" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Net Worth Certificate for RERA Registration Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": { "@type": "Service", "name": "RERA promoter net worth certificate" },
+                    "priceCurrency": "INR",
+                    "price": "7999",
+                    "description": "Starting from INR 7,999 (excl. GST and govt. charges)"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/gurugram/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Construction and Real Estate Accounting", "item": "https://www.patronaccounting.com/construction-and-real-estate-accounting-services" },
+            { "@type": "ListItem", "position": 3, "name": "Net Worth Certificate for RERA Registration", "item": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/gurugram" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/gurugram/#faq",
+        "datePublished": "2026-06-09T08:00:00+05:30",
+        "dateModified": "2026-06-09T08:00:00+05:30",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What net worth is required for RERA registration?",
+                "acceptedAnswer": { "@type": "Answer", "text": "RERA does not fix a single national net-worth figure. The promoter submits audited financials of the last three years and a CA-certified net worth statement, and the state authority assesses financial capacity alongside the project funding plan and the mandatory escrow arrangement." }
+            },
+            {
+                "@type": "Question",
+                "name": "Is a CA certificate mandatory for RERA?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Yes. RERA relies on CA-certified documents, including the net worth statement, audited financials, and state-prescribed forms such as Form B. The certificate must carry the CA's seal and an 18-digit UDIN verifiable online." }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the 70 percent escrow rule under RERA?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Under Section 4(2)(l)(D) of the RERA Act, 2016, a promoter must deposit 70 percent of the money collected from buyers in a separate designated account, used only for that project's construction and land cost. Withdrawals require CA certification of proportionate progress." }
+            },
+            {
+                "@type": "Question",
+                "name": "Does the RERA requirement vary by state?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Yes. RERA is administered state by state, so the prescribed CA certificate format and specific financial requirements differ. MahaRERA, K-RERA, and UP RERA each have their own forms, and the certificate is prepared to match the relevant state authority." }
+            },
+            {
+                "@type": "Question",
+                "name": "Who must register under RERA?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Promoters who develop a project for sale and real estate agents who facilitate transactions must register. Promoters must register before advertising or selling, and registration thresholds such as land area or number of units vary by state." }
+            },
+            {
+                "@type": "Question",
+                "name": "Who issues the net worth certificate for RERA?",
+                "acceptedAnswer": { "@type": "Answer", "text": "A practising Chartered Accountant registered with ICAI, holding a valid Certificate of Practice. The certificate carries the CA's seal, firm registration number, and an 18-digit UDIN that the authority can verify online." }
+            }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/gurugram",
+        "name": "Net Worth Certificate for RERA Registration in Gurugram",
+        "description": "Net Worth Certificate for RERA registration by a CA with UDIN. Promoter net worth, audited financials, and escrow validation for state RERA. From INR 7,999.",
+        "url": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/gurugram",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/gurugram/#service" },
+        "datePublished": "2026-06-09T08:00:00+05:30",
+        "dateModified": "2026-06-09T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-rera-registration/gurugram/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How a RERA Net Worth Certificate Is Prepared",
+        "description": "The six-step process to a CA-certified RERA promoter net worth certificate: confirm the state authority, share audited financials, verify net worth, confirm the escrow setup, issue the certificates in the prescribed format, and generate the UDIN with filing support.",
+        "totalTime": "P3D",
+        "step": [
+            { "@type": "HowToStep", "name": "Confirm the state authority", "text": "Tell us which state RERA the project falls under, since forms differ." },
+            { "@type": "HowToStep", "name": "Share audited financials", "text": "Provide audited balance sheets and reports for the last three years." },
+            { "@type": "HowToStep", "name": "Verify net worth", "text": "The CA computes and verifies the promoter's statement of assets and liabilities." },
+            { "@type": "HowToStep", "name": "Confirm escrow setup", "text": "We validate the separate designated account for the 70 percent buyer-fund rule." },
+            { "@type": "HowToStep", "name": "Issue certificates", "text": "The net worth statement and any state form, such as Form B, are prepared in the prescribed format." },
+            { "@type": "HowToStep", "name": "UDIN and filing support", "text": "UDIN is generated and we support the state RERA portal submission." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Net Worth Certificate for RERA Registration Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Promoter", "description": "The person or entity developing a real estate project for sale - the party that must register." },
+            { "@type": "DefinedTerm", "name": "Designated account (escrow)", "description": "A separate project account holding 70 percent of buyer funds under Section 4(2)(l)(D)." },
+            { "@type": "DefinedTerm", "name": "Form B (and equivalents)", "description": "The CA-certified financial declaration prescribed by states such as Maharashtra and Karnataka." },
+            { "@type": "DefinedTerm", "name": "State RERA authority", "description": "The body administering RERA in each state (MahaRERA, K-RERA, UP RERA, and others)." },
+            { "@type": "DefinedTerm", "name": "UDIN", "description": "18-digit number mandatory on every CA certificate since 1 July 2019, verifiable at udin.icai.org." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1599,22 +1604,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
-<!-- ============================================
-     CONSULTATION FORM — Country Dropdown + Validation + Bigin Integration
-     ============================================ -->
-{{-- Enquiry form markup + JS now in partials/enquiry-form.blade.php --}}
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1637,8 +1630,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1675,7 +1666,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1 (Schema Standard v2.1 / Rule 36): visible "Last Updated" mirrors schema dateModified
 // (9 June 2026) as a STABLE value - never live new Date().
@@ -1687,3 +1677,24 @@ window.addEventListener('scroll', function() {
     if (el2) el2.textContent = dateStr;
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+<!-- ============================================
+     CONSULTATION FORM — Country Dropdown + Validation + Bigin Integration
+     ============================================ -->
+{{-- Enquiry form markup + JS now in partials/enquiry-form.blade.php --}}
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

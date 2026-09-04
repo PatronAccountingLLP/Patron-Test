@@ -1,192 +1,5 @@
 @extends('layouts.app')
-@section('meta')
-    <title>E-Way Bill Calculator India | Validity &amp; Distance</title>
-    <meta name="description" content="Free e-way bill calculator: compute validity by distance and cargo type under GST Rule 138, with the &#8377;50,000 threshold check for Indian businesses. Try now!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/e-way-bill-calculator">
-    <meta property="og:title" content="E-Way Bill Calculator India &mdash; Free Validity Tool 2026">
-    <meta property="og:description" content="E-Way Bill Calculator computes validity period based on distance and cargo type under GST Rule 138 for Indian businesses.">
-    <meta property="og:type" content="website">
-    <meta property="og:locale" content="en_IN">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/e-way-bill-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="E-Way Bill Calculator India &mdash; Free Validity Tool 2026">
-    <meta name="twitter:description" content="E-Way Bill Calculator computes validity and checks threshold under GST. Try now!">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-<script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebApplication",
-      "name": "E-Way Bill Calculator India",
-      "description": "E-Way Bill Calculator computes the validity period for e-way bills based on distance and cargo type under GST Rule 138. Checks whether consignment value exceeds the \u20B950,000 threshold, calculates days of validity for regular and over-dimensional cargo, and provides state-wise intra-state threshold information for Indian businesses.",
-      "url": "https://www.patronaccounting.com/tools/e-way-bill-calculator",
-      "applicationCategory": "UtilityApplication",
-      "operatingSystem": "Any",
-      "datePublished": "2026-03-05",
-      "dateModified": "2026-03-05",
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "INR"
-      },
-      "author": {
-        "@type": "Person",
-        "@id": "https://patronaccounting.com/#team",
-        "name": "CA & CS Patron Accounting Team",
-        "jobTitle": "Chartered Accountants & Company Secretaries",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/company/patron-accounting"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Institute of Chartered Accountants of India",
-            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-          }
-        }]
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://www.patronaccounting.com/images/site-logo.svg"
-        }
-      },
-      "provider": {
-        "@id": "https://patronaccounting.com/#organization"
-      }
-    }
-    </script>
-<script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "E-Way Bill Calculator", "item": "https://www.patronaccounting.com/tools/e-way-bill-calculator"}
-      ]
-    }
-    </script>
-<script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is an E-Way Bill under GST?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "An E-Way Bill is a mandatory electronic document required under GST for transporting goods worth more than \u20B950,000 within or across states in India. It is generated on the E-Way Bill portal before goods begin moving and must be carried by the transporter. The bill contains details of goods, consignor, consignee, and transporter, ensuring transparency and compliance in goods movement under Rule 138 of CGST Rules."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "When is an E-Way Bill required in India?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "An E-Way Bill is required when goods worth more than \u20B950,000 are transported inter-state. For intra-state movement, thresholds vary by state \u2014 Maharashtra and Delhi require it above \u20B91,00,000, while Tamil Nadu sets it at \u20B91,00,000. It is also mandatory regardless of value for inter-state movement of handicraft goods and goods sent for job work by a principal to a registered job worker."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is E-Way Bill validity calculated based on distance?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "E-Way Bill validity is calculated as one day for every 200 km or part thereof for regular cargo. For Over Dimensional Cargo, validity is one day for every 20 km or part thereof. Validity starts when Part B (vehicle details) is first updated. For example, a distance of 450 km gives 3 days validity for regular cargo (200 + 200 + 50 = 3 parts). Maximum distance allowed is 4,000 km per single bill."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is Over Dimensional Cargo (ODC) for E-Way Bill purposes?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Over Dimensional Cargo refers to goods that exceed the standard dimensions prescribed under Rule 93 of the Central Motor Vehicle Rules, 1989. This includes heavy industrial machinery, large structural components, wind turbine blades, and similar indivisible units. ODC moves slower and requires special handling, so E-Way Bill validity for ODC is one day per 20 km instead of the standard 200 km for regular cargo."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the penalty for not generating an E-Way Bill?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Under Section 129 of the CGST Act, transporting goods without a valid E-Way Bill attracts detention of goods and vehicle, plus a penalty of \u20B910,000 or the tax sought to be evaded, whichever is higher. The goods owner must pay the applicable tax and penalty to secure release. Repeat violations can lead to seizure and confiscation of goods under Section 130 of the CGST Act."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can an E-Way Bill be extended after it expires?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, the validity of an E-Way Bill can be extended if goods do not reach the destination within the validity period due to valid reasons like vehicle breakdown, natural calamity, or law-and-order issues. Only the transporter or the generator can extend validity through the E-Way Bill portal. Extension must be done before expiry or within 8 hours after expiry. The system now caps extensions at 360 days from original generation."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the maximum distance limit for an E-Way Bill?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The maximum distance that can be entered while generating an E-Way Bill on the portal is 4,000 km. The portal auto-calculates distance based on PIN codes of source and destination locations. Users can enter up to 10% more than the auto-calculated distance to account for actual route variations. For example, if the portal suggests 500 km, you can enter up to 550 km."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which goods are exempt from E-Way Bill requirements?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Key exemptions include goods transported by non-motorised conveyance, LPG for household supply, kerosene under PDS, postal baggage, natural or cultured pearls, precious metals and jewellery, currency, used personal and household effects, and goods specified under Annexure to Rule 138(14). Petroleum crude, high-speed diesel, petrol, natural gas, and aviation turbine fuel are also exempt as they fall outside the GST framework."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do I calculate distance for an E-Way Bill?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The E-Way Bill portal at ewaybillgst.gov.in provides a PIN-to-PIN distance calculator. Enter the source and destination PIN codes, and the system auto-calculates the approximate motorable distance using integrated map data. You can also use Google Maps or MapmyIndia to verify the route distance. The portal allows up to 10% additional distance over the auto-calculated figure to account for actual road conditions."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is E-Way Bill required for movement within the same city?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, an E-Way Bill is required for movement within the same city if the consignment value exceeds the applicable threshold. However, Part B of the E-Way Bill (vehicle details) is not mandatory when the distance between the consignor or consignee and the transporter is less than 50 km within the same state. Part A containing invoice details must still be generated in all cases."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are the 2026 updates to E-Way Bill rules?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Key 2026 updates include mandatory Multi-Factor Authentication (MFA) for portal access, a 180-day restriction preventing E-Way Bill generation for invoices older than 180 days, extension cap of 360 days from original generation, strict 6-digit HSN code enforcement for businesses with turnover above \u20B95 crore, and enhanced real-time tracking through integration with FASTag and RFID systems at toll plazas."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is a Consolidated E-Way Bill?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A Consolidated E-Way Bill (Form EWB-02) is generated by a transporter who is carrying multiple consignments in a single vehicle. Instead of managing separate E-Way Bills for each consignment, the transporter clubs individual E-Way Bill numbers into one consolidated bill. This simplifies compliance during transit and at checkpoints. Each underlying consignment must still have its own individual E-Way Bill generated."
-          }
-        }
-      ]
-    }
-    </script>
-@endsection
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+@push('styles')
 <style>
 
         :root {
@@ -982,6 +795,196 @@
 .toggle-btn{font-size:13px;padding:10px 12px}
 }
 </style>
+@endpush
+
+@section('meta')
+    <title>E-Way Bill Calculator India | Validity &amp; Distance</title>
+    <meta name="description" content="Free e-way bill calculator: compute validity by distance and cargo type under GST Rule 138, with the &#8377;50,000 threshold check for Indian businesses. Try now!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/e-way-bill-calculator">
+    <meta property="og:title" content="E-Way Bill Calculator India &mdash; Free Validity Tool 2026">
+    <meta property="og:description" content="E-Way Bill Calculator computes validity period based on distance and cargo type under GST Rule 138 for Indian businesses.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_IN">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/e-way-bill-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="E-Way Bill Calculator India &mdash; Free Validity Tool 2026">
+    <meta name="twitter:description" content="E-Way Bill Calculator computes validity and checks threshold under GST. Try now!">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+@endsection
+
+@section('schema')
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "E-Way Bill Calculator India",
+      "description": "E-Way Bill Calculator computes the validity period for e-way bills based on distance and cargo type under GST Rule 138. Checks whether consignment value exceeds the \u20B950,000 threshold, calculates days of validity for regular and over-dimensional cargo, and provides state-wise intra-state threshold information for Indian businesses.",
+      "url": "https://www.patronaccounting.com/tools/e-way-bill-calculator",
+      "applicationCategory": "UtilityApplication",
+      "operatingSystem": "Any",
+      "datePublished": "2026-03-05",
+      "dateModified": "2026-03-05",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "INR"
+      },
+      "author": {
+        "@type": "Person",
+        "@id": "https://patronaccounting.com/#team",
+        "name": "CA & CS Patron Accounting Team",
+        "jobTitle": "Chartered Accountants & Company Secretaries",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/company/patron-accounting"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Institute of Chartered Accountants of India",
+            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+          }
+        }]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.patronaccounting.com/images/site-logo.svg"
+        }
+      },
+      "provider": {
+        "@id": "https://patronaccounting.com/#organization"
+      }
+    }
+    </script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "E-Way Bill Calculator", "item": "https://www.patronaccounting.com/tools/e-way-bill-calculator"}
+      ]
+    }
+    </script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is an E-Way Bill under GST?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An E-Way Bill is a mandatory electronic document required under GST for transporting goods worth more than \u20B950,000 within or across states in India. It is generated on the E-Way Bill portal before goods begin moving and must be carried by the transporter. The bill contains details of goods, consignor, consignee, and transporter, ensuring transparency and compliance in goods movement under Rule 138 of CGST Rules."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is an E-Way Bill required in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An E-Way Bill is required when goods worth more than \u20B950,000 are transported inter-state. For intra-state movement, thresholds vary by state \u2014 Maharashtra and Delhi require it above \u20B91,00,000, while Tamil Nadu sets it at \u20B91,00,000. It is also mandatory regardless of value for inter-state movement of handicraft goods and goods sent for job work by a principal to a registered job worker."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is E-Way Bill validity calculated based on distance?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "E-Way Bill validity is calculated as one day for every 200 km or part thereof for regular cargo. For Over Dimensional Cargo, validity is one day for every 20 km or part thereof. Validity starts when Part B (vehicle details) is first updated. For example, a distance of 450 km gives 3 days validity for regular cargo (200 + 200 + 50 = 3 parts). Maximum distance allowed is 4,000 km per single bill."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Over Dimensional Cargo (ODC) for E-Way Bill purposes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Over Dimensional Cargo refers to goods that exceed the standard dimensions prescribed under Rule 93 of the Central Motor Vehicle Rules, 1989. This includes heavy industrial machinery, large structural components, wind turbine blades, and similar indivisible units. ODC moves slower and requires special handling, so E-Way Bill validity for ODC is one day per 20 km instead of the standard 200 km for regular cargo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the penalty for not generating an E-Way Bill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under Section 129 of the CGST Act, transporting goods without a valid E-Way Bill attracts detention of goods and vehicle, plus a penalty of \u20B910,000 or the tax sought to be evaded, whichever is higher. The goods owner must pay the applicable tax and penalty to secure release. Repeat violations can lead to seizure and confiscation of goods under Section 130 of the CGST Act."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can an E-Way Bill be extended after it expires?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, the validity of an E-Way Bill can be extended if goods do not reach the destination within the validity period due to valid reasons like vehicle breakdown, natural calamity, or law-and-order issues. Only the transporter or the generator can extend validity through the E-Way Bill portal. Extension must be done before expiry or within 8 hours after expiry. The system now caps extensions at 360 days from original generation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the maximum distance limit for an E-Way Bill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The maximum distance that can be entered while generating an E-Way Bill on the portal is 4,000 km. The portal auto-calculates distance based on PIN codes of source and destination locations. Users can enter up to 10% more than the auto-calculated distance to account for actual route variations. For example, if the portal suggests 500 km, you can enter up to 550 km."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which goods are exempt from E-Way Bill requirements?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Key exemptions include goods transported by non-motorised conveyance, LPG for household supply, kerosene under PDS, postal baggage, natural or cultured pearls, precious metals and jewellery, currency, used personal and household effects, and goods specified under Annexure to Rule 138(14). Petroleum crude, high-speed diesel, petrol, natural gas, and aviation turbine fuel are also exempt as they fall outside the GST framework."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I calculate distance for an E-Way Bill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The E-Way Bill portal at ewaybillgst.gov.in provides a PIN-to-PIN distance calculator. Enter the source and destination PIN codes, and the system auto-calculates the approximate motorable distance using integrated map data. You can also use Google Maps or MapmyIndia to verify the route distance. The portal allows up to 10% additional distance over the auto-calculated figure to account for actual road conditions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is E-Way Bill required for movement within the same city?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, an E-Way Bill is required for movement within the same city if the consignment value exceeds the applicable threshold. However, Part B of the E-Way Bill (vehicle details) is not mandatory when the distance between the consignor or consignee and the transporter is less than 50 km within the same state. Part A containing invoice details must still be generated in all cases."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the 2026 updates to E-Way Bill rules?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Key 2026 updates include mandatory Multi-Factor Authentication (MFA) for portal access, a 180-day restriction preventing E-Way Bill generation for invoices older than 180 days, extension cap of 360 days from original generation, strict 6-digit HSN code enforcement for businesses with turnover above \u20B95 crore, and enhanced real-time tracking through integration with FASTag and RFID systems at toll plazas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a Consolidated E-Way Bill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Consolidated E-Way Bill (Form EWB-02) is generated by a transporter who is carrying multiple consignments in a single vehicle. Instead of managing separate E-Way Bills for each consignment, the transporter clubs individual E-Way Bill numbers into one consolidated bill. This simplifies compliance during transit and at checkpoints. Each underlying consignment must still have its own individual E-Way Bill generated."
+          }
+        }
+      ]
+    }
+    </script>
+@endsection
 @section('content')
 <!-- Sticky TOC Nav -->
     <nav class="toc-nav" aria-label="Page Navigation">

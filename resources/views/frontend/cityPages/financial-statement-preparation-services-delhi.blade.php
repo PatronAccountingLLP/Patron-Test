@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,208 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>Financial Statements Delhi 2026 | Patron Accounting</title>
-    <meta name="description" content="Delhi financial statements from INR 9,999 per set. CA team builds Schedule III Balance Sheet, P and L and Cash Flow for Nehru Place and Okhla businesses.">
-    <link rel="canonical" href="/financial-statement-preparation-services/delhi">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Financial Statements Delhi 2026 | Patron Accounting">
-    <meta property="og:description" content="Delhi financial statements from INR 9,999 per set. CA team builds Schedule III Balance Sheet, P and L and Cash Flow for Nehru Place and Okhla businesses.">
-    <meta property="og:url" content="/financial-statement-preparation-services/delhi">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Financial Statements Delhi 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Delhi financial statements from INR 9,999 per set. CA team builds Schedule III Balance Sheet, P and L and Cash Flow for Nehru Place and Okhla businesses.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/financial-statement-preparation-services/delhi#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Financial Statement Preparation Services",
-          "item": "https://www.patronaccounting.com/financial-statement-preparation-services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Financial Statement Preparation Services in Delhi",
-          "item": "https://www.patronaccounting.com/financial-statement-preparation-services/delhi"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/financial-statement-preparation-services/delhi#faq",
-      "datePublished": "2026-06-23T08:00:00+05:30",
-      "dateModified": "2026-06-23T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What does financial statement preparation include for a Delhi business?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A Delhi set covers four reports - the Balance Sheet, Profit and Loss, Cash Flow, and Notes to Accounts - laid out to Schedule III of the Companies Act 2013. We measure each one under the AS or Ind AS that fits your company so the package is fit for bankers, investors, and the RoC straight away."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does financial statement preparation cost in Delhi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Pricing opens at INR 9,999 per set, with GST and government charges on top. Where it lands depends on transaction count, whether AS or Ind AS governs, how many schedules are involved, and the speed you need. A Nehru Place software house or a Karol Bagh trading firm gets a fixed quote before we start."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Will Delhi banks lend against unaudited financials?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "They will. For OD, cash credit, and term loans, banks and NBFCs across Delhi routinely work from professionally prepared, provisional or unaudited numbers. We deliver Schedule III statements carrying management certification, the form that credit teams at Connaught Place and Nehru Place branches assess without hesitation."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does Delhi levy profession tax on financial statements?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Unlike Maharashtra, Delhi imposes no state profession tax, so PTRC or PTEC entries never enter your statements here. We focus on the disclosures that do matter for a Delhi entity - GST reconciliation, borrowings, and related-party notes - and confirm the right AS or Ind AS framework before drafting."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is a Cash Flow statement mandatory for my Delhi company?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The Companies Act 2013 builds the Cash Flow statement into financial statements for every company bar One Person Companies, small companies, and dormant ones. When your Delhi entity does need it - for RoC filing or a lender - we prepare it on the indirect method under AS 3 or Ind AS 7."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which documents are needed to prepare financial statements in Delhi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Send us the trial balance or accounting file, every bank statement, your GST filings, the fixed asset register, loan schedules, and last year's accounts. From these we construct the Balance Sheet, Profit and Loss, Cash Flow, and Notes to Accounts, raising any gaps with you before the set is closed."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does it take to prepare financial statements in Delhi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "With clean books, a Delhi SME usually has a full Schedule III set in 3 to 7 working days. A reconciliation backlog or Ind AS adjustments can push that to 2 to 3 weeks. Okhla and Mayapuri units carrying stock across several GSTINs tend to take the longer route."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can you prepare financial statements for RoC and MCA filing in Delhi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Certainly. We build Schedule III statements with the Notes to Accounts and disclosures that AOC-4 and MGT-7 demand for filing with RoC Delhi under the MCA. The format is set up so your statutory auditor and company secretary close the annual return without any rework."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/financial-statement-preparation-services/delhi#service",
-      "name": "Financial Statement Preparation Services in Delhi",
-      "description": "Financial statement preparation in Delhi covers the Balance Sheet, Profit and Loss, Cash Flow, and Notes to Accounts under Schedule III of the Companies Act 2013 and applicable AS or Ind AS. Patron Accounting prepares unaudited financials for SMEs in Nehru Place, Okhla, and Connaught Place for banks, investors, and RoC filing.",
-      "serviceType": "Financial Statement Preparation",
-      "url": "https://www.patronaccounting.com/financial-statement-preparation-services/delhi",
-      "areaServed": {
-        "@type": "City",
-        "name": "Delhi",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Delhi"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#localbusiness-delhi"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Financial statement",
-          "sameAs": "https://en.wikipedia.org/wiki/Financial_statement"
-        },
-        {
-          "@type": "Thing",
-          "name": "Balance sheet",
-          "sameAs": "https://en.wikipedia.org/wiki/Balance_sheet"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Financial Statement Preparation Plans in Delhi",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "price": "9999",
-            "priceSpecification": {
-              "@type": "UnitPriceSpecification",
-              "priceCurrency": "INR",
-              "price": "9999",
-              "unitText": "per set"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Financial Statement Set per Year"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness-delhi",
-      "name": "Patron Accounting LLP - Delhi",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/financial-statement-preparation-services/delhi",
-      "telephone": "+91-9699936369",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Delhi"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Delhi",
-        "addressRegion": "Delhi",
-        "postalCode": "110085",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -815,7 +612,217 @@
         .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
 
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>Financial Statements Delhi 2026 | Patron Accounting</title>
+    <meta name="description" content="Delhi financial statements from INR 9,999 per set. CA team builds Schedule III Balance Sheet, P and L and Cash Flow for Nehru Place and Okhla businesses.">
+    <link rel="canonical" href="/financial-statement-preparation-services/delhi">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Financial Statements Delhi 2026 | Patron Accounting">
+    <meta property="og:description" content="Delhi financial statements from INR 9,999 per set. CA team builds Schedule III Balance Sheet, P and L and Cash Flow for Nehru Place and Okhla businesses.">
+    <meta property="og:url" content="/financial-statement-preparation-services/delhi">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Financial Statements Delhi 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Delhi financial statements from INR 9,999 per set. CA team builds Schedule III Balance Sheet, P and L and Cash Flow for Nehru Place and Okhla businesses.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/financial-statement-preparation-services/delhi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Financial Statement Preparation Services",
+          "item": "https://www.patronaccounting.com/financial-statement-preparation-services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Financial Statement Preparation Services in Delhi",
+          "item": "https://www.patronaccounting.com/financial-statement-preparation-services/delhi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/financial-statement-preparation-services/delhi#faq",
+      "datePublished": "2026-06-23T08:00:00+05:30",
+      "dateModified": "2026-06-23T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does financial statement preparation include for a Delhi business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Delhi set covers four reports - the Balance Sheet, Profit and Loss, Cash Flow, and Notes to Accounts - laid out to Schedule III of the Companies Act 2013. We measure each one under the AS or Ind AS that fits your company so the package is fit for bankers, investors, and the RoC straight away."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does financial statement preparation cost in Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pricing opens at INR 9,999 per set, with GST and government charges on top. Where it lands depends on transaction count, whether AS or Ind AS governs, how many schedules are involved, and the speed you need. A Nehru Place software house or a Karol Bagh trading firm gets a fixed quote before we start."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will Delhi banks lend against unaudited financials?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "They will. For OD, cash credit, and term loans, banks and NBFCs across Delhi routinely work from professionally prepared, provisional or unaudited numbers. We deliver Schedule III statements carrying management certification, the form that credit teams at Connaught Place and Nehru Place branches assess without hesitation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Delhi levy profession tax on financial statements?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Unlike Maharashtra, Delhi imposes no state profession tax, so PTRC or PTEC entries never enter your statements here. We focus on the disclosures that do matter for a Delhi entity - GST reconciliation, borrowings, and related-party notes - and confirm the right AS or Ind AS framework before drafting."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is a Cash Flow statement mandatory for my Delhi company?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Companies Act 2013 builds the Cash Flow statement into financial statements for every company bar One Person Companies, small companies, and dormant ones. When your Delhi entity does need it - for RoC filing or a lender - we prepare it on the indirect method under AS 3 or Ind AS 7."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which documents are needed to prepare financial statements in Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send us the trial balance or accounting file, every bank statement, your GST filings, the fixed asset register, loan schedules, and last year's accounts. From these we construct the Balance Sheet, Profit and Loss, Cash Flow, and Notes to Accounts, raising any gaps with you before the set is closed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to prepare financial statements in Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "With clean books, a Delhi SME usually has a full Schedule III set in 3 to 7 working days. A reconciliation backlog or Ind AS adjustments can push that to 2 to 3 weeks. Okhla and Mayapuri units carrying stock across several GSTINs tend to take the longer route."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you prepare financial statements for RoC and MCA filing in Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Certainly. We build Schedule III statements with the Notes to Accounts and disclosures that AOC-4 and MGT-7 demand for filing with RoC Delhi under the MCA. The format is set up so your statutory auditor and company secretary close the annual return without any rework."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/financial-statement-preparation-services/delhi#service",
+      "name": "Financial Statement Preparation Services in Delhi",
+      "description": "Financial statement preparation in Delhi covers the Balance Sheet, Profit and Loss, Cash Flow, and Notes to Accounts under Schedule III of the Companies Act 2013 and applicable AS or Ind AS. Patron Accounting prepares unaudited financials for SMEs in Nehru Place, Okhla, and Connaught Place for banks, investors, and RoC filing.",
+      "serviceType": "Financial Statement Preparation",
+      "url": "https://www.patronaccounting.com/financial-statement-preparation-services/delhi",
+      "areaServed": {
+        "@type": "City",
+        "name": "Delhi",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Delhi"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#localbusiness-delhi"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Financial statement",
+          "sameAs": "https://en.wikipedia.org/wiki/Financial_statement"
+        },
+        {
+          "@type": "Thing",
+          "name": "Balance sheet",
+          "sameAs": "https://en.wikipedia.org/wiki/Balance_sheet"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Financial Statement Preparation Plans in Delhi",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "price": "9999",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "INR",
+              "price": "9999",
+              "unitText": "per set"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Financial Statement Set per Year"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness-delhi",
+      "name": "Patron Accounting LLP - Delhi",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/financial-statement-preparation-services/delhi",
+      "telephone": "+91-9699936369",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Delhi"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Delhi",
+        "addressRegion": "Delhi",
+        "postalCode": "110085",
+        "addressCountry": "IN"
+      },
+      "parentOrganization": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1566,7 +1573,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

@@ -1,161 +1,12 @@
 
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Copyright for Musical Work Gurugram - Lyrics & Tune</title>
-    <meta name="description" content="Register musical work copyright in Gurugram. Compositions, melodies, scores, jingles. IPRS royalty. Separate from lyrics and recording. Call +91 945 945 6700.">
-    <link rel="canonical" href="/copyright-registration-for-musical-work/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Copyright for Musical Work Gurugram - Lyrics & Tune">
-    <meta property="og:description" content="Register musical work copyright in Gurugram. Compositions, melodies, scores, jingles. IPRS royalty. Separate from lyrics and recording. Call +91 945 945 6700.">
-    <meta property="og:url" content="/copyright-registration-for-musical-work/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Copyright for Musical Work Gurugram - Lyrics & Tune">
-    <meta name="twitter:description" content="Register musical work copyright in Gurugram. Compositions, melodies, scores, jingles. IPRS royalty. Separate from lyrics and recording. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "Copyright for Musical Work in Gurugram | Composer Rights",
-      "description": "Register musical work copyright in Gurugram. Compositions, melodies, scores, jingles. IPRS royalty. Separate from lyrics and recording. Call +91 945 945 6700.",
-      "url": "https://www.patronaccounting.com/copyright-registration-for-musical-work/gurugram",
-      "serviceType": "Copyright for Musical Work in Gurugram | Composer Rights",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/copyright-registration-for-musical-work/gurugram",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "minPrice": "500",
-          "maxPrice": "3000",
-          "priceCurrency": "INR"
-        }
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Copyright for Musical Work: Registration Guide",
-          "item": "https://www.patronaccounting.com/copyright-registration-for-musical-work"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Copyright for Musical Work in Gurugram | Composer Rights",
-          "item": "https://www.patronaccounting.com/copyright-registration-for-musical-work/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What qualifies as a musical work under the Copyright Act?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 2(p) defines musical work as work consisting of music and graphical notation - but explicitly excludes any words or actions intended to be sung, spoken, or performed with the music. This means lyrics are NOT part of musical work copyright. The musical work is the melody, harmony, and composition itself. The composer is the author and first owner."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does musical work copyright cost in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Government fee: Rs 500 per work for individuals, Rs 2,000 for companies. Professional fee: Rs 3,000 to Rs 6,000 per composition. Composer assignment deed: Rs 3,000 to Rs 5,000. Sync licensing agreement: Rs 5,000 to Rs 15,000. IPRS registration advisory: Rs 3,000 to Rs 5,000. Call +91 945 945 6700."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between musical work and sound recording?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Musical work (Section 2(p)) is the composition - the melody, harmony, and arrangement created by the composer. Sound recording (Section 2(xx)) is the recorded audio - the master recording produced by the label or recording producer. These are separate copyrights with different owners. The composer owns the composition. The label owns the recording. Both need separate registration."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is IPRS and why should composers register?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "IPRS (Indian Performing Right Society) is the statutory body that collects royalties when musical works are performed publicly - on radio, television, at events, in restaurants, on streaming platforms. IPRS membership enables passive royalty income for composers. This is separate from Copyright Office registration - both are needed for complete protection and revenue."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What did the 2012 Amendment change for film composers?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The 2012 Amendment gives composers whose musical works are included in films an inalienable right to receive equal royalties for exploitation in any form other than cinema-hall communication. This covers satellite broadcast, OTT streaming, digital distribution, and mobile. This right cannot be assigned except to legal heirs or a copyright society. Producers must account for this in distribution revenue."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Who owns a commissioned jingle or brand music?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The composer (first owner under Section 17). Even though the ad agency or brand paid for the jingle creation, copyright belongs to the composer unless a written assignment deed transfers ownership. Payment alone does not transfer copyright. Many Gurugram businesses wrongly assume paying for a jingle means owning it. Always execute assignment deeds when commissioning musical works."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does musical work copyright last?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Composer's lifetime plus 60 years from the beginning of the calendar year following the composer's death (Section 22). For joint compositions: 60 years from death of the last surviving composer. Anonymous compositions: 60 years from publication. India's Berne Convention membership ensures protection in 181+ countries. Quick Answers Musical work mein lyrics aate hain? Nahi. Section 2(p) explicitly kehta hai ki words (gaane ke bol) musical work mein nahi aate. Lyrics literary work hain S2(o) ke under. Dono alag register karo. Film ke liye compose kiya toh royalty milegi? Haan. 2012 Amendment ke baad composer ko cinema ke alawa sab exploitation (OTT, satellite, digital) pe equal royalty ka inalienable right hai. Assignment deed kuch bhi kahe, yeh right waive nahi ho sakta. Jingle ka copyright kiska? Composer ka. Jab tak written assignment deed na ho, commissioned jingle ka musical work copyright composer ke paas rehta hai. Payment se transfer nahi hota. Deed zaroori hai."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -679,7 +530,161 @@ section ul li:not(.nav-item) { font-size: 14px; }
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'Join Community'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Copyright for Musical Work Gurugram - Lyrics & Tune</title>
+    <meta name="description" content="Register musical work copyright in Gurugram. Compositions, melodies, scores, jingles. IPRS royalty. Separate from lyrics and recording. Call +91 945 945 6700.">
+    <link rel="canonical" href="/copyright-registration-for-musical-work/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Copyright for Musical Work Gurugram - Lyrics & Tune">
+    <meta property="og:description" content="Register musical work copyright in Gurugram. Compositions, melodies, scores, jingles. IPRS royalty. Separate from lyrics and recording. Call +91 945 945 6700.">
+    <meta property="og:url" content="/copyright-registration-for-musical-work/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Copyright for Musical Work Gurugram - Lyrics & Tune">
+    <meta name="twitter:description" content="Register musical work copyright in Gurugram. Compositions, melodies, scores, jingles. IPRS royalty. Separate from lyrics and recording. Call +91 945 945 6700.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "Copyright for Musical Work in Gurugram | Composer Rights",
+      "description": "Register musical work copyright in Gurugram. Compositions, melodies, scores, jingles. IPRS royalty. Separate from lyrics and recording. Call +91 945 945 6700.",
+      "url": "https://www.patronaccounting.com/copyright-registration-for-musical-work/gurugram",
+      "serviceType": "Copyright for Musical Work in Gurugram | Composer Rights",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.patronaccounting.com/copyright-registration-for-musical-work/gurugram",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": "500",
+          "maxPrice": "3000",
+          "priceCurrency": "INR"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Copyright for Musical Work: Registration Guide",
+          "item": "https://www.patronaccounting.com/copyright-registration-for-musical-work"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Copyright for Musical Work in Gurugram | Composer Rights",
+          "item": "https://www.patronaccounting.com/copyright-registration-for-musical-work/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What qualifies as a musical work under the Copyright Act?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 2(p) defines musical work as work consisting of music and graphical notation - but explicitly excludes any words or actions intended to be sung, spoken, or performed with the music. This means lyrics are NOT part of musical work copyright. The musical work is the melody, harmony, and composition itself. The composer is the author and first owner."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does musical work copyright cost in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Government fee: Rs 500 per work for individuals, Rs 2,000 for companies. Professional fee: Rs 3,000 to Rs 6,000 per composition. Composer assignment deed: Rs 3,000 to Rs 5,000. Sync licensing agreement: Rs 5,000 to Rs 15,000. IPRS registration advisory: Rs 3,000 to Rs 5,000. Call +91 945 945 6700."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between musical work and sound recording?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Musical work (Section 2(p)) is the composition - the melody, harmony, and arrangement created by the composer. Sound recording (Section 2(xx)) is the recorded audio - the master recording produced by the label or recording producer. These are separate copyrights with different owners. The composer owns the composition. The label owns the recording. Both need separate registration."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is IPRS and why should composers register?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "IPRS (Indian Performing Right Society) is the statutory body that collects royalties when musical works are performed publicly - on radio, television, at events, in restaurants, on streaming platforms. IPRS membership enables passive royalty income for composers. This is separate from Copyright Office registration - both are needed for complete protection and revenue."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What did the 2012 Amendment change for film composers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The 2012 Amendment gives composers whose musical works are included in films an inalienable right to receive equal royalties for exploitation in any form other than cinema-hall communication. This covers satellite broadcast, OTT streaming, digital distribution, and mobile. This right cannot be assigned except to legal heirs or a copyright society. Producers must account for this in distribution revenue."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who owns a commissioned jingle or brand music?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The composer (first owner under Section 17). Even though the ad agency or brand paid for the jingle creation, copyright belongs to the composer unless a written assignment deed transfers ownership. Payment alone does not transfer copyright. Many Gurugram businesses wrongly assume paying for a jingle means owning it. Always execute assignment deeds when commissioning musical works."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does musical work copyright last?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Composer's lifetime plus 60 years from the beginning of the calendar year following the composer's death (Section 22). For joint compositions: 60 years from death of the last surviving composer. Anonymous compositions: 60 years from publication. India's Berne Convention membership ensures protection in 181+ countries. Quick Answers Musical work mein lyrics aate hain? Nahi. Section 2(p) explicitly kehta hai ki words (gaane ke bol) musical work mein nahi aate. Lyrics literary work hain S2(o) ke under. Dono alag register karo. Film ke liye compose kiya toh royalty milegi? Haan. 2012 Amendment ke baad composer ko cinema ke alawa sab exploitation (OTT, satellite, digital) pe equal royalty ka inalienable right hai. Assignment deed kuch bhi kahe, yeh right waive nahi ho sakta. Jingle ka copyright kiska? Composer ka. Jab tak written assignment deed na ho, commissioned jingle ka musical work copyright composer ke paas rehta hai. Payment se transfer nahi hota. Deed zaroori hai."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1603,7 +1608,6 @@ var tocWrapper=document.getElementById('tocWrapper');document.getElementById('to
 
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

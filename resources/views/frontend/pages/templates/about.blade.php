@@ -1,12 +1,7 @@
  @extends('layouts.app')
-
-@section('title', $page->title)
-
 @push('styles')
-<!-- Slick Slider CSS -->
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
-
 <style>
 .about-hero {
     background: linear-gradient(135deg, #1e3a5f 0%, #2d5278 100%);
@@ -851,6 +846,17 @@ div#teamTabsContent {
 </style>
 @endpush
 
+
+@section('title', $page->title)
+
+@push('styles')
+<!-- Slick Slider CSS -->
+
+
+
+
+@endpush
+
 @section('content')
 <!-- Hero Section -->
 <section class="about-hero position-relative">
@@ -1586,9 +1592,7 @@ With technology-enabled workflows and expert oversight, Patron Accounting suppor
     </div>
 </section>
 @endif
-@endsection
 
-@push('scripts')
 <script>
 // Counter Animation
 function animateCounters() {
@@ -1714,8 +1718,14 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 </script>
-
-<!-- Slick Slider JS -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+@endsection
+
+@push('scripts')
+
+
+<!-- Slick Slider JS -->
+
+
 @endpush

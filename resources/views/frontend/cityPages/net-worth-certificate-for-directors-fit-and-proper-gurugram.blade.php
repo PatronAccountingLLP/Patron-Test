@@ -1,250 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>NWC Director Fit and Proper Gurugram 2026 | Patron</title>
-    <meta name="description" content="CA-certified net worth certificate for Gurugram directors. Fit and Proper format under SEBI, RBI, IRDAI. UDIN, annual filing ready. From INR 2,499.">
-    <link rel="canonical" href="https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="NWC Director Fit and Proper Gurugram 2026 | Patron">
-    <meta property="og:description" content="CA-certified net worth certificate for Gurugram directors. Fit and Proper format under SEBI, RBI, IRDAI. UDIN, annual filing ready. From INR 2,499.">
-    <meta property="og:url" content="https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="NWC Director Fit and Proper Gurugram 2026 | Patron">
-    <meta name="twitter:description" content="CA-certified net worth certificate for Gurugram directors. Fit and Proper format under SEBI, RBI, IRDAI. UDIN, annual filing ready. From INR 2,499.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/gurugram/#service",
-        "name": "Net Worth Certificate for Directors (Fit and Proper) in Gurugram",
-        "description": "CA-certified net worth certificate for Gurugram directors. Fit and Proper format under SEBI, RBI, IRDAI. UDIN, annual filing ready. From INR 2,499.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/gurugram" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Chartered Accountant", "sameAs": "https://en.wikipedia.org/wiki/Chartered_accountant" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Net Worth Certificate for Directors (Fit and Proper) Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Net Worth Certificate for Directors (Fit and Proper) in Gurugram"
-                    },
-                    "price": "2499",
-                    "priceCurrency": "INR",
-                    "url": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/gurugram"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/gurugram/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate for Directors (Fit and Proper)", "item": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper" },
-            { "@type": "ListItem", "position": 3, "name": "Gurugram", "item": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/gurugram" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/gurugram/#faq",
-        "datePublished": "2026-07-02T08:00:00+05:30",
-        "dateModified": "2026-07-02T08:00:00+05:30",
-        "mainEntity": [
-            {
-                    "@type": "Question",
-                    "name": "Why does a Gurugram director need a fit and proper net worth certificate?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Directors of Gurugram-HQ recently-listed unicorns (Zomato, PB Fintech, Hyundai Motor India, Medanta), auto OEM listed companies (Maruti Suzuki, Hero MotoCorp, Hyundai), healthcare listed (Max Healthcare, Medanta, Dr Lal PathLabs), telecom (Bharti Airtel), HFCs (Sammaan Capital, PNB HF), MNC India subsidiaries and SEBI intermediaries are required by SEBI LODR Schedule II Part D, RBI Master Direction (Bank/NBFC/HFC), IRDAI, and Companies Act 2013 to demonstrate financial soundness and personal integrity through a CA-certified NWC with director-specific disclosures."
-                    }
-                },
-{
-                    "@type": "Question",
-                    "name": "What does a recently-listed Gurugram unicorn director need under SEBI LODR Schedule II Part D?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Zomato (BSE/NSE 2021), PB Fintech (2021), Hyundai Motor India (2024), Medanta (2022) directors must file SEBI LODR Schedule II Part D fit-and-proper declarations to BSE and NSE within 7 days of every quarter-end plus annual disclosure at the AGM. Personal NWC, substantial interest schedule, related-party transactions under Section 184, defaults, criminal and disciplinary proceedings declarations required. First-time-listed nomination committees benefit from Patron's pre-audit checklist for Year 1 submissions."
-                    }
-                },
-{
-                    "@type": "Question",
-                    "name": "Who can issue a fit and proper net worth certificate for directors in Gurugram?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Only a practising Chartered Accountant in Gurugram holding a valid Certificate of Practice from ICAI can sign and issue the certificate. The CA generates an 18-digit UDIN at udin.icai.org, signs on firm letterhead with ICAI seal, and prints Membership Number and Firm Registration Number. SEBI, RBI, IRDAI examiners, BSE and NSE listing departments, and nomination and remuneration committees at Maruti Suzuki, Hero MotoCorp, Hyundai, Bharti Airtel, Zomato, PB Fintech, Medanta, Sammaan Capital, PNB HF and MNC subsidiaries verify the UDIN."
-                    }
-                },
-{
-                    "@type": "Question",
-                    "name": "What disclosures does a Maruti Suzuki or Hero MotoCorp board director need?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Maruti Suzuki India and Hero MotoCorp board directors file SEBI LODR Schedule II Part D, with auto-OEM-specific additions: significant ESOP and RSU vesting schedules at FMV, SEBI Insider Trading Regulations 2015 implications since executive directors have access to UPSI, tier-1 supplier related-party transaction declarations, and for Hyundai Motor India - Korean parent (Hyundai Motor Company, KOSPI listed) connection disclosures. Patron's Gurugram office prepares a separate ESOP/RSU schedule and the parent-connection schedule alongside the standard NWC."
-                    }
-                },
-{
-                    "@type": "Question",
-                    "name": "Is UDIN mandatory on a director fit and proper net worth certificate?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Yes, UDIN is mandatory on every CA-issued net worth certificate since 1 July 2019, enforced by ICAI. The 18-digit Unique Document Identification Number is generated at udin.icai.org and printed on the certificate. SEBI examiners, RBI department of regulation, IRDAI compliance officers, BSE and NSE listing departments, and nomination and remuneration committees at all Gurugram-HQ regulated entities verify the UDIN on the ICAI portal as a standard step. Certificates without UDIN are rejected."
-                    }
-                },
-{
-                    "@type": "Question",
-                    "name": "How is a NASDAQ-BSE-NSE dual-listed Gurugram director handled?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Genpact (NYSE listed), Hyundai Motor India (BSE/NSE plus Korean parent KOSPI), and historically MakeMyTrip (NASDAQ) directors face dual-jurisdictional disclosure: SEBI LODR Schedule II Part D for BSE/NSE plus SEC Form 20-F or equivalent for the foreign listing. US-India tax treaty position disclosure required for the director. Patron's Gurugram office packages SEBI LODR with the Form 20-F integration and addresses US tax treaty position, ensuring consistent disclosures across both jurisdictions."
-                    }
-                }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/gurugram",
-        "name": "Net Worth Certificate for Directors (Fit and Proper) in Gurugram",
-        "description": "CA-certified net worth certificate for Gurugram directors. Fit and Proper format under SEBI, RBI, IRDAI. UDIN, annual filing ready. From INR 2,499.",
-        "url": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/gurugram",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/gurugram/#service" },
-        "datePublished": "2026-07-02T08:00:00+05:30",
-        "dateModified": "2026-07-02T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/gurugram/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How to Get a Net Worth Certificate for Directors (Fit and Proper)",
-        "description": "Step-by-step process to obtain a Net Worth Certificate for Directors (Fit and Proper) from Patron Accounting.",
-        "totalTime": "P3D",
-        "step": [
-            {
-                    "@type": "HowToStep",
-                    "position": 1,
-                    "name": "Engagement",
-                    "text": "Gurugram director or company secretary calls Patron Accounting, identifies the regulator (SEBI LODR for BSE/NSE listed, RBI Master Direction for HFC/NBFC/Bank, IRDAI, Companies Act 2013 for independent director), appointing entity (Maruti Suzuki, Hero MotoCorp, Hyundai, Bharti Airtel, Zomato, PB Fintech, Medanta, Max Healthcare, Sammaan Capital, PNB HF, MNC subsidiary), and position. For recently-listed unicorn first-time submissions, additional pre-audit checklist engagement. Engagement letter captures purpose under ICAI SA 200."
-                },
-{
-                    "@type": "HowToStep",
-                    "position": 2,
-                    "name": "Document collection",
-                    "text": "Upload PAN, Aadhaar, DIN reference, latest 3-5 years ITR with computation, personal bank statements (12 months), MF and demat statements, FD receipts, Gurugram residential and commercial property documents (HSVP collector rate reference plus DLF/Camellias market valuation), gold and jewellery valuation, ESOP/RSU statements (significant for OEM and telecom executive directors), board appointment letter, nomination and remuneration committee questionnaire, CIBIL personal report, plus foreign-parent connection disclosure forms (for MNC subsidiary cases) or SEC Form 20-F filings (for NYSE/NASDAQ dual-listed)."
-                },
-{
-                    "@type": "HowToStep",
-                    "position": 3,
-                    "name": "Substantial interest mapping (aggregated)",
-                    "text": "Patron CA cross-checks shareholding patterns of companies where the director, spouse, and minor children jointly hold beneficial interest exceeding Rs 5 lakh paid-up or 10 percent under Section 2(77) BRA. For MNC subsidiary independent directors, additional check on foreign parent company shareholding and related-party transactions. For recently-listed unicorn directors, pre-IPO ESOP/RSU vesting schedule reviewed."
-                },
-{
-                    "@type": "HowToStep",
-                    "position": 4,
-                    "name": "Verification under SA 500 and SA 505 plus public",
-                    "text": "record search - Patron CA cross-checks bank balances, validates MF and demat holdings, confirms Gurugram property at HSVP collector rate plus DLF/Camellias market reference (where premium), reconciles ITR with bank and investment statements. CIBIL report cross-checked for default flags. Public-record search across SEBI, RBI, IRDAI, NCLT, court litigation, plus DoT/TRAI for telecom-director cases."
-                },
-{
-                    "@type": "HowToStep",
-                    "position": 5,
-                    "name": "Regulator",
-                    "text": "format alignment and draft - Patron extracts the regulator-specific format (SEBI LODR Schedule II Part D, RBI SBR Annex XXIII for HFC/NBFC, IRDAI Corporate Governance, Companies Act 2013 Section 149(6) Schedule IV for independent directors). For recently-listed unicorns, pre-audit checklist applied to flag common first-time-submission errors. For MNC subsidiary cases, foreign-parent connection schedule integrated. Draft emailed within 48 hours."
-                },
-{
-                    "@type": "HowToStep",
-                    "position": 6,
-                    "name": "UDIN generation and final issue",
-                    "text": "Patron CA generates the 18-digit UDIN at udin.icai.org, signs on firm letterhead with ICAI seal, issues the final document. Soft copy emailed for board/regulator submission; hard copy collected from Patron Gurugram office or couriered to company secretary within 3-4 working days. Annual renewal cycle tracked for incumbent directors with calendar alerts before each AGM, board re-appointment or SEBI quarterly disclosure date."
-                }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Net Worth Certificate for Directors (Fit and Proper) Key Terms",
-        "definedTerm": [
-            {
-                    "@type": "DefinedTerm",
-                    "name": "UDIN",
-                    "description": "18-digit Unique Document Identification Number generated by the issuing CA at udin.icai.org for every certificate, mandatory since 1 July 2019."
-                },
-{
-                    "@type": "DefinedTerm",
-                    "name": "Fit and Proper",
-                    "description": "Regulatory test requiring directors of banks, NBFCs, HFCs, insurers, listed companies and SEBI-regulated intermediaries to demonstrate integrity, financial soundness, qualifications, and absence of disqualifying proceedings."
-                },
-{
-                    "@type": "DefinedTerm",
-                    "name": "Substantial Interest",
-                    "description": "Under Section 2(77) of the Banking Regulation Act 1949 - holding a beneficial interest in shares of a company by an individual or his spouse or minor child, whether singly or together, exceeding Rs 5 lakh paid-up value or 10 percent of paid-up capital, whichever is less."
-                },
-{
-                    "@type": "DefinedTerm",
-                    "name": "Recently-Listed Unicorn Disclosure Gap",
-                    "description": "Gurugram has produced India's largest recent IPO cohort - Zomato (2021), PB Fintech (2021), Hyundai Motor India (2024, India's largest IPO ever), Medanta (2022). Their nomination and remuneration committees navigate SEBI LODR Schedule II Part D for the first time. Pre-audit checklist mitigates first-time submission errors."
-                },
-{
-                    "@type": "DefinedTerm",
-                    "name": "MNC India Subsidiary Foreign-Parent Disclosure",
-                    "description": "Independent directors of MNC India subsidiaries (Coca-Cola India, PepsiCo India, Nestle India listed, Diageo United Spirits) must disclose any connection to the foreign parent or its other subsidiaries globally under SEBI LODR related-party transaction provisions and Companies Act 2013 Section 184, plus any FATCA/CRS reporting connections."
-                },
-{
-                    "@type": "DefinedTerm",
-                    "name": "Sammaan Capital Limited",
-                    "description": "Formerly Indiabulls Housing Finance Limited; rebranded to Sammaan Capital in 2024. Listed HFC headquartered in Gurugram Sector 25-A. Directors continue to require RBI SBR Annex XXIII (since HFCs are now under RBI scale-based regulation post-2019 NHB-RBI transition) plus SEBI LODR Schedule II Part D."
-                }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -858,7 +618,252 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>NWC Director Fit and Proper Gurugram 2026 | Patron</title>
+    <meta name="description" content="CA-certified net worth certificate for Gurugram directors. Fit and Proper format under SEBI, RBI, IRDAI. UDIN, annual filing ready. From INR 2,499.">
+    <link rel="canonical" href="https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="NWC Director Fit and Proper Gurugram 2026 | Patron">
+    <meta property="og:description" content="CA-certified net worth certificate for Gurugram directors. Fit and Proper format under SEBI, RBI, IRDAI. UDIN, annual filing ready. From INR 2,499.">
+    <meta property="og:url" content="https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="NWC Director Fit and Proper Gurugram 2026 | Patron">
+    <meta name="twitter:description" content="CA-certified net worth certificate for Gurugram directors. Fit and Proper format under SEBI, RBI, IRDAI. UDIN, annual filing ready. From INR 2,499.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/gurugram/#service",
+        "name": "Net Worth Certificate for Directors (Fit and Proper) in Gurugram",
+        "description": "CA-certified net worth certificate for Gurugram directors. Fit and Proper format under SEBI, RBI, IRDAI. UDIN, annual filing ready. From INR 2,499.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/gurugram" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Chartered Accountant", "sameAs": "https://en.wikipedia.org/wiki/Chartered_accountant" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Net Worth Certificate for Directors (Fit and Proper) Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Net Worth Certificate for Directors (Fit and Proper) in Gurugram"
+                    },
+                    "price": "2499",
+                    "priceCurrency": "INR",
+                    "url": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/gurugram"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/gurugram/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate for Directors (Fit and Proper)", "item": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper" },
+            { "@type": "ListItem", "position": 3, "name": "Gurugram", "item": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/gurugram" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/gurugram/#faq",
+        "datePublished": "2026-07-02T08:00:00+05:30",
+        "dateModified": "2026-07-02T08:00:00+05:30",
+        "mainEntity": [
+            {
+                    "@type": "Question",
+                    "name": "Why does a Gurugram director need a fit and proper net worth certificate?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Directors of Gurugram-HQ recently-listed unicorns (Zomato, PB Fintech, Hyundai Motor India, Medanta), auto OEM listed companies (Maruti Suzuki, Hero MotoCorp, Hyundai), healthcare listed (Max Healthcare, Medanta, Dr Lal PathLabs), telecom (Bharti Airtel), HFCs (Sammaan Capital, PNB HF), MNC India subsidiaries and SEBI intermediaries are required by SEBI LODR Schedule II Part D, RBI Master Direction (Bank/NBFC/HFC), IRDAI, and Companies Act 2013 to demonstrate financial soundness and personal integrity through a CA-certified NWC with director-specific disclosures."
+                    }
+                },
+{
+                    "@type": "Question",
+                    "name": "What does a recently-listed Gurugram unicorn director need under SEBI LODR Schedule II Part D?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Zomato (BSE/NSE 2021), PB Fintech (2021), Hyundai Motor India (2024), Medanta (2022) directors must file SEBI LODR Schedule II Part D fit-and-proper declarations to BSE and NSE within 7 days of every quarter-end plus annual disclosure at the AGM. Personal NWC, substantial interest schedule, related-party transactions under Section 184, defaults, criminal and disciplinary proceedings declarations required. First-time-listed nomination committees benefit from Patron's pre-audit checklist for Year 1 submissions."
+                    }
+                },
+{
+                    "@type": "Question",
+                    "name": "Who can issue a fit and proper net worth certificate for directors in Gurugram?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Only a practising Chartered Accountant in Gurugram holding a valid Certificate of Practice from ICAI can sign and issue the certificate. The CA generates an 18-digit UDIN at udin.icai.org, signs on firm letterhead with ICAI seal, and prints Membership Number and Firm Registration Number. SEBI, RBI, IRDAI examiners, BSE and NSE listing departments, and nomination and remuneration committees at Maruti Suzuki, Hero MotoCorp, Hyundai, Bharti Airtel, Zomato, PB Fintech, Medanta, Sammaan Capital, PNB HF and MNC subsidiaries verify the UDIN."
+                    }
+                },
+{
+                    "@type": "Question",
+                    "name": "What disclosures does a Maruti Suzuki or Hero MotoCorp board director need?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Maruti Suzuki India and Hero MotoCorp board directors file SEBI LODR Schedule II Part D, with auto-OEM-specific additions: significant ESOP and RSU vesting schedules at FMV, SEBI Insider Trading Regulations 2015 implications since executive directors have access to UPSI, tier-1 supplier related-party transaction declarations, and for Hyundai Motor India - Korean parent (Hyundai Motor Company, KOSPI listed) connection disclosures. Patron's Gurugram office prepares a separate ESOP/RSU schedule and the parent-connection schedule alongside the standard NWC."
+                    }
+                },
+{
+                    "@type": "Question",
+                    "name": "Is UDIN mandatory on a director fit and proper net worth certificate?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, UDIN is mandatory on every CA-issued net worth certificate since 1 July 2019, enforced by ICAI. The 18-digit Unique Document Identification Number is generated at udin.icai.org and printed on the certificate. SEBI examiners, RBI department of regulation, IRDAI compliance officers, BSE and NSE listing departments, and nomination and remuneration committees at all Gurugram-HQ regulated entities verify the UDIN on the ICAI portal as a standard step. Certificates without UDIN are rejected."
+                    }
+                },
+{
+                    "@type": "Question",
+                    "name": "How is a NASDAQ-BSE-NSE dual-listed Gurugram director handled?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Genpact (NYSE listed), Hyundai Motor India (BSE/NSE plus Korean parent KOSPI), and historically MakeMyTrip (NASDAQ) directors face dual-jurisdictional disclosure: SEBI LODR Schedule II Part D for BSE/NSE plus SEC Form 20-F or equivalent for the foreign listing. US-India tax treaty position disclosure required for the director. Patron's Gurugram office packages SEBI LODR with the Form 20-F integration and addresses US tax treaty position, ensuring consistent disclosures across both jurisdictions."
+                    }
+                }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/gurugram",
+        "name": "Net Worth Certificate for Directors (Fit and Proper) in Gurugram",
+        "description": "CA-certified net worth certificate for Gurugram directors. Fit and Proper format under SEBI, RBI, IRDAI. UDIN, annual filing ready. From INR 2,499.",
+        "url": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/gurugram",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/gurugram/#service" },
+        "datePublished": "2026-07-02T08:00:00+05:30",
+        "dateModified": "2026-07-02T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/gurugram/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Get a Net Worth Certificate for Directors (Fit and Proper)",
+        "description": "Step-by-step process to obtain a Net Worth Certificate for Directors (Fit and Proper) from Patron Accounting.",
+        "totalTime": "P3D",
+        "step": [
+            {
+                    "@type": "HowToStep",
+                    "position": 1,
+                    "name": "Engagement",
+                    "text": "Gurugram director or company secretary calls Patron Accounting, identifies the regulator (SEBI LODR for BSE/NSE listed, RBI Master Direction for HFC/NBFC/Bank, IRDAI, Companies Act 2013 for independent director), appointing entity (Maruti Suzuki, Hero MotoCorp, Hyundai, Bharti Airtel, Zomato, PB Fintech, Medanta, Max Healthcare, Sammaan Capital, PNB HF, MNC subsidiary), and position. For recently-listed unicorn first-time submissions, additional pre-audit checklist engagement. Engagement letter captures purpose under ICAI SA 200."
+                },
+{
+                    "@type": "HowToStep",
+                    "position": 2,
+                    "name": "Document collection",
+                    "text": "Upload PAN, Aadhaar, DIN reference, latest 3-5 years ITR with computation, personal bank statements (12 months), MF and demat statements, FD receipts, Gurugram residential and commercial property documents (HSVP collector rate reference plus DLF/Camellias market valuation), gold and jewellery valuation, ESOP/RSU statements (significant for OEM and telecom executive directors), board appointment letter, nomination and remuneration committee questionnaire, CIBIL personal report, plus foreign-parent connection disclosure forms (for MNC subsidiary cases) or SEC Form 20-F filings (for NYSE/NASDAQ dual-listed)."
+                },
+{
+                    "@type": "HowToStep",
+                    "position": 3,
+                    "name": "Substantial interest mapping (aggregated)",
+                    "text": "Patron CA cross-checks shareholding patterns of companies where the director, spouse, and minor children jointly hold beneficial interest exceeding Rs 5 lakh paid-up or 10 percent under Section 2(77) BRA. For MNC subsidiary independent directors, additional check on foreign parent company shareholding and related-party transactions. For recently-listed unicorn directors, pre-IPO ESOP/RSU vesting schedule reviewed."
+                },
+{
+                    "@type": "HowToStep",
+                    "position": 4,
+                    "name": "Verification under SA 500 and SA 505 plus public",
+                    "text": "record search - Patron CA cross-checks bank balances, validates MF and demat holdings, confirms Gurugram property at HSVP collector rate plus DLF/Camellias market reference (where premium), reconciles ITR with bank and investment statements. CIBIL report cross-checked for default flags. Public-record search across SEBI, RBI, IRDAI, NCLT, court litigation, plus DoT/TRAI for telecom-director cases."
+                },
+{
+                    "@type": "HowToStep",
+                    "position": 5,
+                    "name": "Regulator",
+                    "text": "format alignment and draft - Patron extracts the regulator-specific format (SEBI LODR Schedule II Part D, RBI SBR Annex XXIII for HFC/NBFC, IRDAI Corporate Governance, Companies Act 2013 Section 149(6) Schedule IV for independent directors). For recently-listed unicorns, pre-audit checklist applied to flag common first-time-submission errors. For MNC subsidiary cases, foreign-parent connection schedule integrated. Draft emailed within 48 hours."
+                },
+{
+                    "@type": "HowToStep",
+                    "position": 6,
+                    "name": "UDIN generation and final issue",
+                    "text": "Patron CA generates the 18-digit UDIN at udin.icai.org, signs on firm letterhead with ICAI seal, issues the final document. Soft copy emailed for board/regulator submission; hard copy collected from Patron Gurugram office or couriered to company secretary within 3-4 working days. Annual renewal cycle tracked for incumbent directors with calendar alerts before each AGM, board re-appointment or SEBI quarterly disclosure date."
+                }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Net Worth Certificate for Directors (Fit and Proper) Key Terms",
+        "definedTerm": [
+            {
+                    "@type": "DefinedTerm",
+                    "name": "UDIN",
+                    "description": "18-digit Unique Document Identification Number generated by the issuing CA at udin.icai.org for every certificate, mandatory since 1 July 2019."
+                },
+{
+                    "@type": "DefinedTerm",
+                    "name": "Fit and Proper",
+                    "description": "Regulatory test requiring directors of banks, NBFCs, HFCs, insurers, listed companies and SEBI-regulated intermediaries to demonstrate integrity, financial soundness, qualifications, and absence of disqualifying proceedings."
+                },
+{
+                    "@type": "DefinedTerm",
+                    "name": "Substantial Interest",
+                    "description": "Under Section 2(77) of the Banking Regulation Act 1949 - holding a beneficial interest in shares of a company by an individual or his spouse or minor child, whether singly or together, exceeding Rs 5 lakh paid-up value or 10 percent of paid-up capital, whichever is less."
+                },
+{
+                    "@type": "DefinedTerm",
+                    "name": "Recently-Listed Unicorn Disclosure Gap",
+                    "description": "Gurugram has produced India's largest recent IPO cohort - Zomato (2021), PB Fintech (2021), Hyundai Motor India (2024, India's largest IPO ever), Medanta (2022). Their nomination and remuneration committees navigate SEBI LODR Schedule II Part D for the first time. Pre-audit checklist mitigates first-time submission errors."
+                },
+{
+                    "@type": "DefinedTerm",
+                    "name": "MNC India Subsidiary Foreign-Parent Disclosure",
+                    "description": "Independent directors of MNC India subsidiaries (Coca-Cola India, PepsiCo India, Nestle India listed, Diageo United Spirits) must disclose any connection to the foreign parent or its other subsidiaries globally under SEBI LODR related-party transaction provisions and Companies Act 2013 Section 184, plus any FATCA/CRS reporting connections."
+                },
+{
+                    "@type": "DefinedTerm",
+                    "name": "Sammaan Capital Limited",
+                    "description": "Formerly Indiabulls Housing Finance Limited; rebranded to Sammaan Capital in 2024. Listed HFC headquartered in Gurugram Sector 25-A. Directors continue to require RBI SBR Annex XXIII (since HFCs are now under RBI scale-based regulation post-2019 NHB-RBI transition) plus SEBI LODR Schedule II Part D."
+                }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1674,22 +1679,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
-<!-- ============================================
-     CONSULTATION FORM - Country Dropdown + Validation + Bigin Integration
-     ============================================ -->
-{{-- Enquiry form markup + JS now in partials/enquiry-form.blade.php --}}
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1712,8 +1705,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1750,5 +1741,24 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+<!-- ============================================
+     CONSULTATION FORM - Country Dropdown + Validation + Bigin Integration
+     ============================================ -->
+{{-- Enquiry form markup + JS now in partials/enquiry-form.blade.php --}}
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
 
 <!-- Last Updated hardcoded in markup per QC v2.1 (no view-time JS) -->

@@ -1,209 +1,11 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>IT Notice for IT Companies Pune: CA Reply</title>
-    <meta name="description" content="Income tax notice for your Pune IT or software company on TP, SEZ, ESOP, or Sec 195? Patron's CA team files reply and defends. Starting Rs 4,999.">
-    <link rel="canonical" href="/it-notice-it-companies/pune">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="IT Notice for IT Companies Pune 2026: CA Reply | Patron Accounting">
-    <meta property="og:description" content="Income tax notice for your Pune IT or software company on TP, SEZ, ESOP, or Sec 195? Patron's CA team files reply and defends. Starting Rs 4,999.">
-    <meta property="og:url" content="/it-notice-it-companies/pune">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="IT Notice for IT Companies Pune 2026: CA Reply | Patron Accounting">
-    <meta name="twitter:description" content="Income tax notice for your Pune IT or software company on TP, SEZ, ESOP, or Sec 195? Patron's CA team files reply and defends. Starting Rs 4,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-<script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/it-notice-it-companies/pune#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Income Tax Notice",
-          "item": "https://www.patronaccounting.com/income-tax-notice"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "IT Notice IT Companies Pune",
-          "item": "https://www.patronaccounting.com/it-notice-it-companies/pune"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/it-notice-it-companies/pune#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is an income tax notice for an IT company in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "An income tax notice for a Pune IT or software company is any of Sections 142(1) call for information, 143(2) scrutiny pre-cursor, 143(3) or 144B faceless assessment, 92CA TP reference, 147 or 148 reassessment, 156 demand, or 271 penalty issued by PCIT-1 through PCIT-4 Pune, TPO Pune, or ReFAC Pune under the Pr CCIT Pune Region at Aayakar Bhavan, Sadhu Vaswani Road. Common IT-sector triggers are TP adjustments, Section 10AA SEZ disputes for Magarpatta and Kharadi units, ESOP perquisite TDS, Section 195 software TDS, and Section 80-IAC startup holiday."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why do Pune IT companies face Transfer Pricing notices?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Pune Hinjewadi, Kharadi, and Magarpatta IT and software companies frequently operate as captive software development centres for foreign parents or as Indian arms of MNCs. Under Sections 92-92F, all international transactions with associated enterprises must be at arm's length. The TPO at Pune routinely picks captive cases via CASS, references them under Section 92CA, and proposes TP adjustments where the company's operating margin appears low versus comparable independent software services firms (typically operating margin 15-22% TNMM range)."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does Section 10AA SEZ tax holiday still apply for Pune IT/ITeS units?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes - Section 10AA continues for units that commenced operations before the sunset date (31 March 2020 for income tax holiday under new SEZ rules). Existing units in Magarpatta City Cybercity SEZ, Kharadi EON Free Zone, and others enjoy the 100-50-50 graduated deduction for 15 years. Notices arise on eligible export turnover computation, Form 56F certification gaps, commencement date disputes, and non-formation-by-splitting under Section 10AA(4)."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the Engineering Analysis Centre Supreme Court ruling and how does it help my Pune IT company?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "In Engineering Analysis Centre of Excellence Pvt Ltd v CIT (2021), the Supreme Court ruled that payments for off-the-shelf or shrink-wrap software purchased for internal use are NOT royalty under Section 9(1)(vi) of the Income-tax Act. Therefore, no Section 195 TDS is required for such foreign software purchases. This ruling is the backbone of TDS defence for Pune IT companies that import enterprise software from foreign vendors such as Microsoft, Oracle, Adobe, AWS for internal operational use."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is ESOP perquisite tax handled for Pune IT-startup employees?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Under Section 17(2)(vi), ESOP perquisite equals FMV at allotment minus exercise price - taxed as salary at exercise with Section 192 TDS deducted by employer. For DPIIT-recognised startups, Section 191A defers the TDS to the earliest of 5 years from end of relevant Tax Year, date of share sale by employee, or date of employee leaving the startup. Many Pune Aundh, Baner, Koregaon Park DPIIT-startups use this deferral to manage cash flow on illiquid startup shares."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the Section 92CA TPO process for a Pune IT company?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Where international transactions are reported in Form 3CEB, the AO may refer the case to the Transfer Pricing Officer (TPO) Pune under Section 92CA. The TPO has 21 months from end of relevant AY to determine the ALP. Process involves benchmarking submissions, hearing at the TPO office at Aayakar Bhavan Sadhu Vaswani Road, possible TP adjustment, draft order to the AO, and final assessment. For TP-eligible variations, the company can route via DRP (Section 144C) or CIT(A) appeal route."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does Patron handle Section 144B faceless assessments at Pune ReFAC?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Patron's Pune team regularly handles Section 144B faceless assessments through NaFAC and ReFAC Pune. We file detailed written submissions on the e-Filing portal under e-Proceedings, request video hearings where merited, prepare draft variation responses within 7-15 day windows, and represent at the faceless appeal stage. Section 144B is now the default scrutiny route for most Pune corporate cases including IT companies."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "LegalService",
-      "@id": "https://www.patronaccounting.com/it-notice-it-companies/pune#service",
-      "name": "Income Tax Notice Reply and Defence for Pune IT and Software Companies",
-      "description": "End-to-end CA representation for income tax notices issued to Pune IT companies, software firms, SaaS, GCCs, BPO/KPO/LPO, and DPIIT startups. Covers Transfer Pricing (Chapter X Sections 92-92F) defence before PCIT-1/2/3/4 Pune and TPO Pune for Hinjewadi RGIP captive software services, Section 10AA SEZ deduction defence for Magarpatta City Cybercity SEZ and Kharadi EON Free Zone IT/ITeS tenants, Section 80-IAC DPIIT startup tax holiday defence for Aundh, Baner, Koregaon Park startups, ESOP perquisite TDS under Section 17(2)(vi) and Section 191A deferral, Section 195 foreign software TDS defence post Engineering Analysis Centre v CIT (2021 SC), DRP Pune (Section 144C) representation, Section 144B faceless assessment at ReFAC Pune, and ITAT Pune bench appeals. Starting at Rs 4,999.",
-      "serviceType": "IT Sector Income Tax Notice Representation",
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      },
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune",
-        "sameAs": "https://en.wikipedia.org/wiki/Pune",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Maharashtra",
-          "sameAs": "https://en.wikipedia.org/wiki/Maharashtra"
-        }
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Transfer Pricing under Chapter X of the Income-tax Act 1961",
-          "sameAs": "https://en.wikipedia.org/wiki/Transfer_pricing"
-        },
-        {
-          "@type": "Thing",
-          "name": "Income-tax Act 1961",
-          "sameAs": "https://en.wikipedia.org/wiki/Income_Tax_Act,_1961"
-        },
-        {
-          "@type": "Thing",
-          "name": "Special Economic Zone (India)",
-          "sameAs": "https://en.wikipedia.org/wiki/Special_Economic_Zone_(India)"
-        },
-        {
-          "@type": "Thing",
-          "name": "Rajiv Gandhi Infotech Park, Hinjewadi",
-          "sameAs": "https://en.wikipedia.org/wiki/Rajiv_Gandhi_Infotech_Park"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "IT Sector Income Tax Notice Services in Pune",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "name": "Section 142(1) Information Reply for IT Company",
-            "price": "4999",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/it-notice-it-companies/pune"
-          },
-          {
-            "@type": "Offer",
-            "name": "Section 143(2) or 143(3) Scrutiny Reply",
-            "price": "9999",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/it-notice-it-companies/pune"
-          },
-          {
-            "@type": "Offer",
-            "name": "Section 92CA TPO Representation (Simple)",
-            "price": "25000",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/it-notice-it-companies/pune"
-          },
-          {
-            "@type": "Offer",
-            "name": "Section 10AA SEZ Defence (Magarpatta / Kharadi EON)",
-            "price": "15000",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/it-notice-it-companies/pune"
-          }
-        ]
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -881,7 +683,210 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 }
 @media (max-width:768px) {section .content-text ul li:not(.nav-item){flex-wrap:wrap;}
 section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;max-width:100%;margin-bottom:2px;}}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>IT Notice for IT Companies Pune: CA Reply</title>
+    <meta name="description" content="Income tax notice for your Pune IT or software company on TP, SEZ, ESOP, or Sec 195? Patron's CA team files reply and defends. Starting Rs 4,999.">
+    <link rel="canonical" href="/it-notice-it-companies/pune">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="IT Notice for IT Companies Pune 2026: CA Reply | Patron Accounting">
+    <meta property="og:description" content="Income tax notice for your Pune IT or software company on TP, SEZ, ESOP, or Sec 195? Patron's CA team files reply and defends. Starting Rs 4,999.">
+    <meta property="og:url" content="/it-notice-it-companies/pune">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="IT Notice for IT Companies Pune 2026: CA Reply | Patron Accounting">
+    <meta name="twitter:description" content="Income tax notice for your Pune IT or software company on TP, SEZ, ESOP, or Sec 195? Patron's CA team files reply and defends. Starting Rs 4,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/it-notice-it-companies/pune#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Income Tax Notice",
+          "item": "https://www.patronaccounting.com/income-tax-notice"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "IT Notice IT Companies Pune",
+          "item": "https://www.patronaccounting.com/it-notice-it-companies/pune"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/it-notice-it-companies/pune#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is an income tax notice for an IT company in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An income tax notice for a Pune IT or software company is any of Sections 142(1) call for information, 143(2) scrutiny pre-cursor, 143(3) or 144B faceless assessment, 92CA TP reference, 147 or 148 reassessment, 156 demand, or 271 penalty issued by PCIT-1 through PCIT-4 Pune, TPO Pune, or ReFAC Pune under the Pr CCIT Pune Region at Aayakar Bhavan, Sadhu Vaswani Road. Common IT-sector triggers are TP adjustments, Section 10AA SEZ disputes for Magarpatta and Kharadi units, ESOP perquisite TDS, Section 195 software TDS, and Section 80-IAC startup holiday."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why do Pune IT companies face Transfer Pricing notices?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pune Hinjewadi, Kharadi, and Magarpatta IT and software companies frequently operate as captive software development centres for foreign parents or as Indian arms of MNCs. Under Sections 92-92F, all international transactions with associated enterprises must be at arm's length. The TPO at Pune routinely picks captive cases via CASS, references them under Section 92CA, and proposes TP adjustments where the company's operating margin appears low versus comparable independent software services firms (typically operating margin 15-22% TNMM range)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Section 10AA SEZ tax holiday still apply for Pune IT/ITeS units?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes - Section 10AA continues for units that commenced operations before the sunset date (31 March 2020 for income tax holiday under new SEZ rules). Existing units in Magarpatta City Cybercity SEZ, Kharadi EON Free Zone, and others enjoy the 100-50-50 graduated deduction for 15 years. Notices arise on eligible export turnover computation, Form 56F certification gaps, commencement date disputes, and non-formation-by-splitting under Section 10AA(4)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the Engineering Analysis Centre Supreme Court ruling and how does it help my Pune IT company?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In Engineering Analysis Centre of Excellence Pvt Ltd v CIT (2021), the Supreme Court ruled that payments for off-the-shelf or shrink-wrap software purchased for internal use are NOT royalty under Section 9(1)(vi) of the Income-tax Act. Therefore, no Section 195 TDS is required for such foreign software purchases. This ruling is the backbone of TDS defence for Pune IT companies that import enterprise software from foreign vendors such as Microsoft, Oracle, Adobe, AWS for internal operational use."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is ESOP perquisite tax handled for Pune IT-startup employees?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under Section 17(2)(vi), ESOP perquisite equals FMV at allotment minus exercise price - taxed as salary at exercise with Section 192 TDS deducted by employer. For DPIIT-recognised startups, Section 191A defers the TDS to the earliest of 5 years from end of relevant Tax Year, date of share sale by employee, or date of employee leaving the startup. Many Pune Aundh, Baner, Koregaon Park DPIIT-startups use this deferral to manage cash flow on illiquid startup shares."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the Section 92CA TPO process for a Pune IT company?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Where international transactions are reported in Form 3CEB, the AO may refer the case to the Transfer Pricing Officer (TPO) Pune under Section 92CA. The TPO has 21 months from end of relevant AY to determine the ALP. Process involves benchmarking submissions, hearing at the TPO office at Aayakar Bhavan Sadhu Vaswani Road, possible TP adjustment, draft order to the AO, and final assessment. For TP-eligible variations, the company can route via DRP (Section 144C) or CIT(A) appeal route."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Patron handle Section 144B faceless assessments at Pune ReFAC?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Patron's Pune team regularly handles Section 144B faceless assessments through NaFAC and ReFAC Pune. We file detailed written submissions on the e-Filing portal under e-Proceedings, request video hearings where merited, prepare draft variation responses within 7-15 day windows, and represent at the faceless appeal stage. Section 144B is now the default scrutiny route for most Pune corporate cases including IT companies."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LegalService",
+      "@id": "https://www.patronaccounting.com/it-notice-it-companies/pune#service",
+      "name": "Income Tax Notice Reply and Defence for Pune IT and Software Companies",
+      "description": "End-to-end CA representation for income tax notices issued to Pune IT companies, software firms, SaaS, GCCs, BPO/KPO/LPO, and DPIIT startups. Covers Transfer Pricing (Chapter X Sections 92-92F) defence before PCIT-1/2/3/4 Pune and TPO Pune for Hinjewadi RGIP captive software services, Section 10AA SEZ deduction defence for Magarpatta City Cybercity SEZ and Kharadi EON Free Zone IT/ITeS tenants, Section 80-IAC DPIIT startup tax holiday defence for Aundh, Baner, Koregaon Park startups, ESOP perquisite TDS under Section 17(2)(vi) and Section 191A deferral, Section 195 foreign software TDS defence post Engineering Analysis Centre v CIT (2021 SC), DRP Pune (Section 144C) representation, Section 144B faceless assessment at ReFAC Pune, and ITAT Pune bench appeals. Starting at Rs 4,999.",
+      "serviceType": "IT Sector Income Tax Notice Representation",
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Pune",
+        "sameAs": "https://en.wikipedia.org/wiki/Pune",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Maharashtra",
+          "sameAs": "https://en.wikipedia.org/wiki/Maharashtra"
+        }
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Transfer Pricing under Chapter X of the Income-tax Act 1961",
+          "sameAs": "https://en.wikipedia.org/wiki/Transfer_pricing"
+        },
+        {
+          "@type": "Thing",
+          "name": "Income-tax Act 1961",
+          "sameAs": "https://en.wikipedia.org/wiki/Income_Tax_Act,_1961"
+        },
+        {
+          "@type": "Thing",
+          "name": "Special Economic Zone (India)",
+          "sameAs": "https://en.wikipedia.org/wiki/Special_Economic_Zone_(India)"
+        },
+        {
+          "@type": "Thing",
+          "name": "Rajiv Gandhi Infotech Park, Hinjewadi",
+          "sameAs": "https://en.wikipedia.org/wiki/Rajiv_Gandhi_Infotech_Park"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "IT Sector Income Tax Notice Services in Pune",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "Section 142(1) Information Reply for IT Company",
+            "price": "4999",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/it-notice-it-companies/pune"
+          },
+          {
+            "@type": "Offer",
+            "name": "Section 143(2) or 143(3) Scrutiny Reply",
+            "price": "9999",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/it-notice-it-companies/pune"
+          },
+          {
+            "@type": "Offer",
+            "name": "Section 92CA TPO Representation (Simple)",
+            "price": "25000",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/it-notice-it-companies/pune"
+          },
+          {
+            "@type": "Offer",
+            "name": "Section 10AA SEZ Defence (Magarpatta / Kharadi EON)",
+            "price": "15000",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/it-notice-it-companies/pune"
+          }
+        ]
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -2009,7 +2014,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 </script>
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

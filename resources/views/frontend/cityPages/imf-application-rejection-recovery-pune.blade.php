@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,177 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>IMF Application Rejection Recovery: Reapply Right</title>
-    <meta name="description" content="Got your IRDAI IMF application rejected in Pune? We diagnose the cause, fix deficiencies and resubmit. Net worth, Fit & Proper, consent letters. From INR">
-    <link rel="canonical" href="/imf-application-rejection-recovery/pune">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="IMF Application Rejection Recovery: Reapply Right">
-    <meta property="og:description" content="Got your IRDAI IMF application rejected in Pune? We diagnose the cause, fix deficiencies and resubmit. Net worth, Fit & Proper, consent letters. From INR 24,999.">
-    <meta property="og:url" content="/imf-application-rejection-recovery/pune">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="IMF Application Rejection Recovery: Reapply Right">
-    <meta name="twitter:description" content="Got your IRDAI IMF application rejected in Pune? We diagnose the cause, fix deficiencies and resubmit. Net worth, Fit & Proper, consent letters. From INR 24,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "IMF Application Rejection Recovery in Pune",
-      "description": "Specialist IRDAI IMF application rejection recovery in Pune. We diagnose why your Insurance Marketing Firm registration was refused, rectify deficiencies in net worth, Fit and Proper, entity name and insurer consent, and resubmit or reapply. From INR 24,999 (Exl GST and Govt. Charges).",
-      "url": "https://www.patronaccounting.com/imf-application-rejection-recovery/pune",
-      "serviceType": "IMF Application Rejection Recovery",
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Maharashtra"
-        }
-      },
-      "provider": {
-        "@type": "LocalBusiness",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg",
-        "image": "https://www.patronaccounting.com/images/site-logo.svg",
-        "telephone": "+91-9459456700",
-        "email": "sales@patronaccounting.com",
-        "priceRange": "From INR 24,999",
-        "areaServed": {
-          "@type": "City",
-          "name": "Pune",
-          "containedInPlace": {
-            "@type": "State",
-            "name": "Maharashtra"
-          }
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Pune",
-          "addressRegion": "Maharashtra",
-          "addressCountry": "IN"
-        }
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "price": "24999",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/imf-application-rejection-recovery/pune"
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "IMF Services",
-          "item": "https://www.patronaccounting.com/imf-services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "IMF Application Rejection Recovery in Pune",
-          "item": "https://www.patronaccounting.com/imf-application-rejection-recovery/pune"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "datePublished": "2026-06-30T08:00:00+05:30",
-      "dateModified": "2026-06-30T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "How much does IMF application rejection recovery cost in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patron's IMF rejection recovery engagement starts from INR 24,999 (Exl GST and Govt. Charges). This covers diagnosing the rejection reasons, rectifying the flagged documents, and resubmitting your application. The IRDAI application fee of INR 5,000 (non-refundable, paid from your SBI account in the IMF's name) is a government charge billed separately, and a fresh fee may apply if you have to file a new application."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does it take to recover and resubmit a rejected IMF application?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Once we have your rejection letter and existing documents, deficiency rectification typically takes 1-2 weeks, after which IRDAI takes roughly 30-60 days to review the resubmitted application. If a fresh application or an appeal before the Securities Appellate Tribunal is required, timelines extend. Submitting a complete, accurate package is the single biggest factor in fast approval."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What documents are needed to fix a rejected IMF application?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We typically need your IRDAI rejection or deficiency letter, the original Form A, ROC incorporation certificate (with 'Insurance Marketing Firm' in the name), MoA/AoA and PAN, the CA net-worth certificate and supporting SBI bank statement, Principal Officer or ISP qualification, training and exam certificates, the Fit and Proper declarations, the 3-year business plan with infrastructure photos, and insurer consent letters."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Am I still eligible to reapply after IRDAI rejects my IMF application?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "In most cases, yes. IRDAI must communicate refusal in writing with reasons and give a reasonable opportunity of being heard, so many rejections can be cured by rectifying deficiencies and resubmitting. If an appeal is not filed or is unsuccessful, you may submit a fresh application that IRDAI considers on its merits, provided you meet net worth, Fit and Proper and consent requirements."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can Patron help if IRDAI has already rejected my IMF registration in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Rejection recovery is exactly what this service is for. Our CA and CS team reads your rejection letter, maps each reason to a fix (net worth shortfall, entity name, missing insurer consent, Principal Officer Fit and Proper or training gaps, incomplete documents), and decides whether to rectify-and-resubmit, appeal before the Securities Appellate Tribunal, or file a fresh application."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you provide IMF rejection recovery in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. The IMF process runs entirely on the IRDAI portal at imf.irda.gov.in, so we support rejected applicants across Pune and the rest of India, including Mumbai, Delhi and Gurugram. The whole engagement is handled online, so your location in Pune does not affect our ability to help you recover a rejected application."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the turnaround if I just need deficiencies rectified?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "If IRDAI returned your application with a deficiency memo rather than an outright rejection, turnaround is fastest. We usually compile the corrected documents within 1-2 weeks of receiving everything, then resubmit through the IMF portal. IRDAI's review of the corrected application generally takes 30-60 days depending on completeness."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is the IRDAI IMF application fee refundable after rejection?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. The INR 5,000 IRDAI application fee is non-refundable and must be paid from a State Bank of India account held in the IMF's name. If your case requires filing a fresh application after rejection, a new INR 5,000 fee applies, which is why getting the resubmission right the first time matters."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -770,7 +598,186 @@
             }
         }
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>IMF Application Rejection Recovery: Reapply Right</title>
+    <meta name="description" content="Got your IRDAI IMF application rejected in Pune? We diagnose the cause, fix deficiencies and resubmit. Net worth, Fit & Proper, consent letters. From INR">
+    <link rel="canonical" href="/imf-application-rejection-recovery/pune">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="IMF Application Rejection Recovery: Reapply Right">
+    <meta property="og:description" content="Got your IRDAI IMF application rejected in Pune? We diagnose the cause, fix deficiencies and resubmit. Net worth, Fit & Proper, consent letters. From INR 24,999.">
+    <meta property="og:url" content="/imf-application-rejection-recovery/pune">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="IMF Application Rejection Recovery: Reapply Right">
+    <meta name="twitter:description" content="Got your IRDAI IMF application rejected in Pune? We diagnose the cause, fix deficiencies and resubmit. Net worth, Fit & Proper, consent letters. From INR 24,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "IMF Application Rejection Recovery in Pune",
+      "description": "Specialist IRDAI IMF application rejection recovery in Pune. We diagnose why your Insurance Marketing Firm registration was refused, rectify deficiencies in net worth, Fit and Proper, entity name and insurer consent, and resubmit or reapply. From INR 24,999 (Exl GST and Govt. Charges).",
+      "url": "https://www.patronaccounting.com/imf-application-rejection-recovery/pune",
+      "serviceType": "IMF Application Rejection Recovery",
+      "areaServed": {
+        "@type": "City",
+        "name": "Pune",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Maharashtra"
+        }
+      },
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg",
+        "image": "https://www.patronaccounting.com/images/site-logo.svg",
+        "telephone": "+91-9459456700",
+        "email": "sales@patronaccounting.com",
+        "priceRange": "From INR 24,999",
+        "areaServed": {
+          "@type": "City",
+          "name": "Pune",
+          "containedInPlace": {
+            "@type": "State",
+            "name": "Maharashtra"
+          }
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Pune",
+          "addressRegion": "Maharashtra",
+          "addressCountry": "IN"
+        }
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "price": "24999",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.patronaccounting.com/imf-application-rejection-recovery/pune"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "IMF Services",
+          "item": "https://www.patronaccounting.com/imf-services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "IMF Application Rejection Recovery in Pune",
+          "item": "https://www.patronaccounting.com/imf-application-rejection-recovery/pune"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "datePublished": "2026-06-30T08:00:00+05:30",
+      "dateModified": "2026-06-30T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much does IMF application rejection recovery cost in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patron's IMF rejection recovery engagement starts from INR 24,999 (Exl GST and Govt. Charges). This covers diagnosing the rejection reasons, rectifying the flagged documents, and resubmitting your application. The IRDAI application fee of INR 5,000 (non-refundable, paid from your SBI account in the IMF's name) is a government charge billed separately, and a fresh fee may apply if you have to file a new application."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to recover and resubmit a rejected IMF application?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Once we have your rejection letter and existing documents, deficiency rectification typically takes 1-2 weeks, after which IRDAI takes roughly 30-60 days to review the resubmitted application. If a fresh application or an appeal before the Securities Appellate Tribunal is required, timelines extend. Submitting a complete, accurate package is the single biggest factor in fast approval."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What documents are needed to fix a rejected IMF application?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We typically need your IRDAI rejection or deficiency letter, the original Form A, ROC incorporation certificate (with 'Insurance Marketing Firm' in the name), MoA/AoA and PAN, the CA net-worth certificate and supporting SBI bank statement, Principal Officer or ISP qualification, training and exam certificates, the Fit and Proper declarations, the 3-year business plan with infrastructure photos, and insurer consent letters."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Am I still eligible to reapply after IRDAI rejects my IMF application?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In most cases, yes. IRDAI must communicate refusal in writing with reasons and give a reasonable opportunity of being heard, so many rejections can be cured by rectifying deficiencies and resubmitting. If an appeal is not filed or is unsuccessful, you may submit a fresh application that IRDAI considers on its merits, provided you meet net worth, Fit and Proper and consent requirements."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can Patron help if IRDAI has already rejected my IMF registration in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Rejection recovery is exactly what this service is for. Our CA and CS team reads your rejection letter, maps each reason to a fix (net worth shortfall, entity name, missing insurer consent, Principal Officer Fit and Proper or training gaps, incomplete documents), and decides whether to rectify-and-resubmit, appeal before the Securities Appellate Tribunal, or file a fresh application."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you provide IMF rejection recovery in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The IMF process runs entirely on the IRDAI portal at imf.irda.gov.in, so we support rejected applicants across Pune and the rest of India, including Mumbai, Delhi and Gurugram. The whole engagement is handled online, so your location in Pune does not affect our ability to help you recover a rejected application."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the turnaround if I just need deficiencies rectified?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If IRDAI returned your application with a deficiency memo rather than an outright rejection, turnaround is fastest. We usually compile the corrected documents within 1-2 weeks of receiving everything, then resubmit through the IMF portal. IRDAI's review of the corrected application generally takes 30-60 days depending on completeness."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the IRDAI IMF application fee refundable after rejection?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. The INR 5,000 IRDAI application fee is non-refundable and must be paid from a State Bank of India account held in the IMF's name. If your case requires filing a fresh application after rejection, a new INR 5,000 fee applies, which is why getting the resubmission right the first time matters."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1650,7 +1657,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

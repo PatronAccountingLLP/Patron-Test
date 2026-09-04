@@ -1,200 +1,11 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Section 143(2) Notice Gurugram</title>
-    <meta name="description" content="Section 143(2) scrutiny notice in Gurugram? Patron CA team files e-Proceedings reply via NaFAC and defends before 143(3) order. Starting Rs 4,999.">
-    <link rel="canonical" href="/sec-143-2-notice/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Section 143(2) Notice Gurugram 2026 | Patron Accounting">
-    <meta property="og:description" content="Section 143(2) scrutiny notice in Gurugram? Patron CA team files e-Proceedings reply via NaFAC and defends before 143(3) order. Starting Rs 4,999.">
-    <meta property="og:url" content="/sec-143-2-notice/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Section 143(2) Notice Gurugram 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Section 143(2) scrutiny notice in Gurugram? Patron CA team files e-Proceedings reply via NaFAC and defends before 143(3) order. Starting Rs 4,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/sec-143-2-notice/gurugram#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Income Tax Notices",
-          "item": "https://www.patronaccounting.com/income-tax-notices"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Section 143(2) Notice Gurugram",
-          "item": "https://www.patronaccounting.com/sec-143-2-notice/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/sec-143-2-notice/gurugram#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is a Section 143(2) notice in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A Section 143(2) notice in Gurugram is a formal scrutiny initiation notice issued under the Income Tax Act, 1961 selecting your filed ITR for detailed examination. It comes through NaFAC (headquartered in Delhi) under the faceless assessment scheme, or in select cases through the jurisdictional Assessing Officer at Aayakar Bhawan HSIIDC Building, Udyog Vihar Phase V, under CCIT Panchkula and Pr CCIT NWR Chandigarh. It does not itself create a demand."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the time limit for issuing a Section 143(2) notice?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Under the proviso to Section 143(2), the notice must be served within 3 months from the end of the financial year in which the ITR was filed. For example, if you filed your ITR on 31 July 2025 for AY 2025-26, the FY of filing is 2025-26 ending 31 March 2026, so the latest valid 143(2) date is 30 June 2026. Notices beyond this window are time-barred and quashable via writ before the Punjab and Haryana High Court."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do I reply to a Section 143(2) notice in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Log in to incometax.gov.in. Navigate to Pending Actions or Worklist then E-Proceedings. Click View Notice for the 143(2). Click Submit Response, select Agree or Disagree, upload supporting documents (ITR, computation, Form 26AS, AIS, bank statements, investment proofs) and submit. Patron files this in 5 to 10 working days for Gurugram assessees, well inside the typical 15 to 30 day window."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are the 3 types of scrutiny under Section 143(2)?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Limited scrutiny (CASS-selected, restricted to specific issues like property sale or deduction mismatch - AO cannot widen scope without higher PCIT approval), complete scrutiny (CASS-selected, entire return examined including all heads) and manual scrutiny (selected under CBDT-defined criteria such as high-risk industry, survey-derived information or specific compliance triggers, with criteria changing annually)."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Where is the jurisdictional AO office for Gurugram 143(2) cases?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Jurisdictional AO cases in Gurugram (search, international tax, Central Charges) route through Aayakar Bhawan, HSIIDC Building, Udyog Vihar Phase V, Gurgaon - housing Pr CIT(C) Gurugram and DCIT Central Circle-I and II. General ITO ward operations route through Income Tax Office at B-42 Block M, Old DLF Colony, Sector 14, Gurugram 122001. Administrative oversight via CCIT Panchkula and Pr CCIT NWR Chandigarh."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the penalty for ignoring a Section 143(2) notice?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Three consequences follow non-response: best-judgement assessment under Section 144 based on available information (typically resulting in adverse additions), penalty of Rs 10,000 under Section 271(1)(b) for non-compliance and potential prosecution under Section 276CC for wilful default. The best-judgement assessment route almost always leads to substantially higher tax demand than a properly defended scrutiny in Gurugram."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can a Section 143(2) notice be challenged in High Court?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Generally no, because 143(2) is procedural and creates no liability. However, time-barred notices (beyond the 3-month window) can be quashed via writ before the Punjab and Haryana High Court (which has jurisdiction over Haryana matters). The Delhi HC has also ruled on jurisdictional questions - confirming in 2024 that 143(2) can validly be issued by AO, NaFAC and other prescribed income-tax authorities under Rule 12E."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/sec-143-2-notice/gurugram#service",
-      "name": "Section 143(2) Notice Reply and Scrutiny Defence in Gurugram",
-      "url": "https://www.patronaccounting.com/sec-143-2-notice/gurugram",
-      "description": "Patron Accounting Section 143(2) scrutiny notice handling for Gurugram taxpayers - covering initial notice analysis with limited / complete / manual scrutiny classification, time-bar audit under the 3-month proviso, e-Proceedings reply drafting on incometax.gov.in, multi-round Assessment Unit query responses via NaFAC, Section 144B faceless procedure with video conferencing hearing representation, physical hearings at Aayakar Bhawan HSIIDC Building, Udyog Vihar Phase V Gurgaon under Pr CIT(C) Gurugram and DCIT Central Circle-I / II, Section 144B(6) Show Cause Notice rebuttal, Section 143(3) final order analysis and Section 246A CIT(A) appeal at Form 35. Starting from Rs 4,999.",
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      },
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "sameAs": "https://en.wikipedia.org/wiki/Gurugram"
-      },
-      "serviceType": "Section 143(2) Income Tax Scrutiny Notice Reply and Assessment Defence",
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Income Tax Act 1961",
-          "sameAs": "https://en.wikipedia.org/wiki/Income_Tax_Act,_1961"
-        },
-        {
-          "@type": "Thing",
-          "name": "Income tax in India",
-          "sameAs": "https://en.wikipedia.org/wiki/Income_tax_in_India"
-        },
-        {
-          "@type": "Thing",
-          "name": "Faceless assessment scheme",
-          "sameAs": "https://en.wikipedia.org/wiki/Faceless_Assessment_Scheme"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Section 143(2) Notice Gurugram Service Packages",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "name": "Limited Scrutiny Reply - Single-Issue e-Proceedings Filing Gurugram",
-            "price": "4999",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/sec-143-2-notice/gurugram"
-          },
-          {
-            "@type": "Offer",
-            "name": "Complete Scrutiny Reply - Multi-Head 143(2) with Full Reconciliation Gurugram",
-            "price": "9500",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/sec-143-2-notice/gurugram"
-          },
-          {
-            "@type": "Offer",
-            "name": "Aayakar Bhawan HSIIDC Physical Hearing Representation Gurugram",
-            "price": "6500",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/sec-143-2-notice/gurugram"
-          },
-          {
-            "@type": "Offer",
-            "name": "Full Lifecycle Scrutiny Defence (143(2) to 143(3) Faceless Package)",
-            "price": "25000",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/sec-143-2-notice/gurugram"
-          }
-        ]
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -865,7 +676,201 @@ section[style*="background: var(--blue)"] .content-text,
 section[style*="background: var(--blue)"] .content-text p,
 section[style*="background: var(--blue)"] .content-text li,
 section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !important;}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Section 143(2) Notice Gurugram</title>
+    <meta name="description" content="Section 143(2) scrutiny notice in Gurugram? Patron CA team files e-Proceedings reply via NaFAC and defends before 143(3) order. Starting Rs 4,999.">
+    <link rel="canonical" href="/sec-143-2-notice/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Section 143(2) Notice Gurugram 2026 | Patron Accounting">
+    <meta property="og:description" content="Section 143(2) scrutiny notice in Gurugram? Patron CA team files e-Proceedings reply via NaFAC and defends before 143(3) order. Starting Rs 4,999.">
+    <meta property="og:url" content="/sec-143-2-notice/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Section 143(2) Notice Gurugram 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Section 143(2) scrutiny notice in Gurugram? Patron CA team files e-Proceedings reply via NaFAC and defends before 143(3) order. Starting Rs 4,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/sec-143-2-notice/gurugram#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Income Tax Notices",
+          "item": "https://www.patronaccounting.com/income-tax-notices"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Section 143(2) Notice Gurugram",
+          "item": "https://www.patronaccounting.com/sec-143-2-notice/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/sec-143-2-notice/gurugram#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a Section 143(2) notice in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Section 143(2) notice in Gurugram is a formal scrutiny initiation notice issued under the Income Tax Act, 1961 selecting your filed ITR for detailed examination. It comes through NaFAC (headquartered in Delhi) under the faceless assessment scheme, or in select cases through the jurisdictional Assessing Officer at Aayakar Bhawan HSIIDC Building, Udyog Vihar Phase V, under CCIT Panchkula and Pr CCIT NWR Chandigarh. It does not itself create a demand."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the time limit for issuing a Section 143(2) notice?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under the proviso to Section 143(2), the notice must be served within 3 months from the end of the financial year in which the ITR was filed. For example, if you filed your ITR on 31 July 2025 for AY 2025-26, the FY of filing is 2025-26 ending 31 March 2026, so the latest valid 143(2) date is 30 June 2026. Notices beyond this window are time-barred and quashable via writ before the Punjab and Haryana High Court."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I reply to a Section 143(2) notice in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Log in to incometax.gov.in. Navigate to Pending Actions or Worklist then E-Proceedings. Click View Notice for the 143(2). Click Submit Response, select Agree or Disagree, upload supporting documents (ITR, computation, Form 26AS, AIS, bank statements, investment proofs) and submit. Patron files this in 5 to 10 working days for Gurugram assessees, well inside the typical 15 to 30 day window."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the 3 types of scrutiny under Section 143(2)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Limited scrutiny (CASS-selected, restricted to specific issues like property sale or deduction mismatch - AO cannot widen scope without higher PCIT approval), complete scrutiny (CASS-selected, entire return examined including all heads) and manual scrutiny (selected under CBDT-defined criteria such as high-risk industry, survey-derived information or specific compliance triggers, with criteria changing annually)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where is the jurisdictional AO office for Gurugram 143(2) cases?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Jurisdictional AO cases in Gurugram (search, international tax, Central Charges) route through Aayakar Bhawan, HSIIDC Building, Udyog Vihar Phase V, Gurgaon - housing Pr CIT(C) Gurugram and DCIT Central Circle-I and II. General ITO ward operations route through Income Tax Office at B-42 Block M, Old DLF Colony, Sector 14, Gurugram 122001. Administrative oversight via CCIT Panchkula and Pr CCIT NWR Chandigarh."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the penalty for ignoring a Section 143(2) notice?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Three consequences follow non-response: best-judgement assessment under Section 144 based on available information (typically resulting in adverse additions), penalty of Rs 10,000 under Section 271(1)(b) for non-compliance and potential prosecution under Section 276CC for wilful default. The best-judgement assessment route almost always leads to substantially higher tax demand than a properly defended scrutiny in Gurugram."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a Section 143(2) notice be challenged in High Court?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Generally no, because 143(2) is procedural and creates no liability. However, time-barred notices (beyond the 3-month window) can be quashed via writ before the Punjab and Haryana High Court (which has jurisdiction over Haryana matters). The Delhi HC has also ruled on jurisdictional questions - confirming in 2024 that 143(2) can validly be issued by AO, NaFAC and other prescribed income-tax authorities under Rule 12E."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/sec-143-2-notice/gurugram#service",
+      "name": "Section 143(2) Notice Reply and Scrutiny Defence in Gurugram",
+      "url": "https://www.patronaccounting.com/sec-143-2-notice/gurugram",
+      "description": "Patron Accounting Section 143(2) scrutiny notice handling for Gurugram taxpayers - covering initial notice analysis with limited / complete / manual scrutiny classification, time-bar audit under the 3-month proviso, e-Proceedings reply drafting on incometax.gov.in, multi-round Assessment Unit query responses via NaFAC, Section 144B faceless procedure with video conferencing hearing representation, physical hearings at Aayakar Bhawan HSIIDC Building, Udyog Vihar Phase V Gurgaon under Pr CIT(C) Gurugram and DCIT Central Circle-I / II, Section 144B(6) Show Cause Notice rebuttal, Section 143(3) final order analysis and Section 246A CIT(A) appeal at Form 35. Starting from Rs 4,999.",
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "sameAs": "https://en.wikipedia.org/wiki/Gurugram"
+      },
+      "serviceType": "Section 143(2) Income Tax Scrutiny Notice Reply and Assessment Defence",
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Income Tax Act 1961",
+          "sameAs": "https://en.wikipedia.org/wiki/Income_Tax_Act,_1961"
+        },
+        {
+          "@type": "Thing",
+          "name": "Income tax in India",
+          "sameAs": "https://en.wikipedia.org/wiki/Income_tax_in_India"
+        },
+        {
+          "@type": "Thing",
+          "name": "Faceless assessment scheme",
+          "sameAs": "https://en.wikipedia.org/wiki/Faceless_Assessment_Scheme"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Section 143(2) Notice Gurugram Service Packages",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "Limited Scrutiny Reply - Single-Issue e-Proceedings Filing Gurugram",
+            "price": "4999",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/sec-143-2-notice/gurugram"
+          },
+          {
+            "@type": "Offer",
+            "name": "Complete Scrutiny Reply - Multi-Head 143(2) with Full Reconciliation Gurugram",
+            "price": "9500",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/sec-143-2-notice/gurugram"
+          },
+          {
+            "@type": "Offer",
+            "name": "Aayakar Bhawan HSIIDC Physical Hearing Representation Gurugram",
+            "price": "6500",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/sec-143-2-notice/gurugram"
+          },
+          {
+            "@type": "Offer",
+            "name": "Full Lifecycle Scrutiny Defence (143(2) to 143(3) Faceless Package)",
+            "price": "25000",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/sec-143-2-notice/gurugram"
+          }
+        ]
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -2133,7 +2138,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 </script>
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

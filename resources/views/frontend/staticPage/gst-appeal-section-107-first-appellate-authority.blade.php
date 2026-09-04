@@ -1,157 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Section 107 GST Appeal 2026: First Appeal | Patron Accounting</title>
-    <meta name="description" content="Section 107 first appeal to Commissioner Appeals - 3-month limit, 10% pre-deposit, APL-01 filing, hearing, Section 75(2) defence. Patron from Rs 19,999.">
-    <link rel="canonical" href="/gst-appeal-section-107-first-appellate-authority">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Section 107 GST Appeal 2026: First Appeal | Patron Accounting">
-    <meta property="og:description" content="Section 107 first appeal to Commissioner Appeals - 3-month limit, 10% pre-deposit, APL-01 filing, hearing, Section 75(2) defence. Patron from Rs 19,999.">
-    <meta property="og:url" content="/gst-appeal-section-107-first-appellate-authority">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Section 107 GST Appeal 2026: First Appeal | Patron Accounting">
-    <meta name="twitter:description" content="Section 107 first appeal to Commissioner Appeals - 3-month limit, 10% pre-deposit, APL-01 filing, hearing, Section 75(2) defence. Patron from Rs 19,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/gst-appeal-section-107-first-appellate-authority/#service",
-        "name": "Section 107 GST First Appeal and Commissioner Appeals Service in India",
-        "description": "Foundational litigation service for GST Section 107 first appellate authority covering APL-01 electronic appeal filing within the 3-month limitation from order communication with a 1-month condonable extension under Section 107(4) up to an absolute 4-month hard cap, before the Commissioner (Appeals) or Joint Commissioner (Appeals), 10 percent pre-deposit advisory under Section 107(6) with a maximum cap of Rs 20 crore per CGST and Rs 20 crore SGST, premium grounds of appeal drafting with the Section 75(2) downgrade defence as the primary lever, personal hearing representation under Section 116 within the maximum 3 adjournments per Section 107(8), APL-04 final order analysis, and the onward GSTAT route under Section 112, starting from INR 19,999 per appeal engagement.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-appeal-section-107-first-appellate-authority" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Section 107 GST Appeal Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "Standard Section 107 Appeal",
-                    "priceCurrency": "INR",
-                    "price": "19999",
-                    "description": "DRC-07 analysis, APL-01 filing, 1-2 hearings for demands below Rs 25 lakh"
-                },
-                {
-                    "@type": "Offer",
-                    "name": "Medium Section 107 Appeal",
-                    "priceCurrency": "INR",
-                    "price": "49999",
-                    "description": "Section 75(2) defence, premium grounds, 3-4 hearings for Rs 25 lakh to Rs 1 crore demands"
-                },
-                {
-                    "@type": "Offer",
-                    "name": "High-Value Section 107 Appeal",
-                    "priceCurrency": "INR",
-                    "price": "99999",
-                    "description": "Complex multi-issue grounds, 5+ hearings, senior partner involvement for Rs 1 crore to Rs 5 crore demands"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/gst-appeal-section-107-first-appellate-authority/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
-            { "@type": "ListItem", "position": 3, "name": "Section 107 GST Appeal", "item": "https://www.patronaccounting.com/gst-appeal-section-107-first-appellate-authority" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/gst-appeal-section-107-first-appellate-authority/#faq",
-        "datePublished": "2026-05-27T08:00:00+05:30",
-        "dateModified": "2026-06-01T08:00:00+05:30",
-        "mainEntity": [
-
-            {
-                "@type": "Question",
-                "name": "What is a Section 107 GST appeal?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "A Section 107 GST appeal is the first formal challenge by an aggrieved taxpayer against any order passed by an adjudicating authority under the CGST Act 2017 - typically a DRC-07 demand order under Section 73, 74, or 74A, a refund rejection order, a registration cancellation order, or other appealable orders. The appeal is filed electronically in Form APL-01 before the appellate authority (Commissioner or Joint Commissioner Appeals) within 3 months of order communication. The appeal admission is subject to mandatory 10 percent pre-deposit of disputed tax under Section 107(6), capped at Rs 20 crore per CGST and Rs 20 crore SGST."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the time limit for filing a Section 107 appeal?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "The time limit is 3 months from the date of communication of the order being appealed against. The appellate authority can condone an additional 1 month delay at its discretion with sufficient cause shown, taking the maximum to 4 months. Beyond 4 months, the statutory authority cannot condone the delay regardless of reason - the only remedy is a writ petition under Article 226 of the Constitution before the jurisdictional High Court. Multiple High Court rulings have confirmed this 4-month cap is absolute."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the 10 percent pre-deposit under Section 107?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Under Section 107(6) of the CGST Act, an appeal cannot be admitted unless the appellant pays 10 percent of the disputed tax amount as pre-deposit. The maximum cap is Rs 20 crore per CGST and Rs 20 crore SGST per appeal. Pre-deposit is paid via the GST portal during APL-01 filing - the preferred method is Electronic Cash Ledger per the Jyoti Construction case ruling. From April 2026, the GSTN has made the pre-deposit percentage field in APL-01 editable, allowing taxpayers to declare lower deposits where DRC-03 voluntary payments already exist."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is Form APL-01 vs APL-04?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Form APL-01 is the appeal filing form - filed electronically by the appellant on the GST portal. It contains statement of facts, grounds of appeal, disputed amounts, pre-deposit details, and supporting documents. Form APL-02 is the final acknowledgement issued by the appellate authority confirming admission of the appeal. Form APL-04 is the final order issued by the appellate authority disposing of the appeal under Section 107(11) - containing the operative conclusion, reasoning, and quantum analysis. APL-04 triggers the 3-month window for onward GSTAT appeal."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can a Section 74 demand be downgraded to Section 73 at appeal stage?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, under Section 75(2) of the CGST Act, if the appellate authority concludes that fraud, willful misstatement, or suppression of facts cannot be established by the proper officer, the demand under Section 74 must be treated as if raised under Section 73 - reducing penalty exposure from 100 percent to 10 percent. Section 107 first appellate stage is the LAST stage where this downgrade can be effected DIRECTLY without remand. The GSTAT Delhi Bench 2026 ruling confirmed that GSTAT cannot itself convert a Section 74 demand - the matter must be remanded to the Proper Officer for fresh determination."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What happens to recovery proceedings when I file Section 107 appeal?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "On filing the appeal and paying the 10 percent pre-deposit, recovery of the disputed amount is automatically stayed. The disputed demand is flagged as non-recoverable on the GST portal. The admitted portion which the taxpayer does not contest must be paid 100 percent before appeal filing - this is not eligible for stay. The stay continues throughout the Section 107 appeal pendency and, if onward GSTAT appeal is filed under Section 112 with additional 10 percent pre-deposit, the stay continues. Total pre-deposit across two stages is 20 percent of disputed tax for full recovery stay."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the disposal timeline for Section 107 appeals?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Section 107(13) of the CGST Act prescribes a 1-year aspirational disposal timeline from the date of appeal filing - but this is not a strict statutory deadline. In practice, Section 107 appeals are disposed within 12-24 months depending on the appellate authority workload, hearing scheduling, and case complexity. The maximum 3 adjournments per party under Section 107(8) limits delay tactics. High-value complex appeals can extend beyond 24 months. After APL-04, the onward GSTAT appeal under Section 112 adds another 18-36 months."
-                }
-            }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -765,7 +618,159 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Section 107 GST Appeal 2026: First Appeal | Patron Accounting</title>
+    <meta name="description" content="Section 107 first appeal to Commissioner Appeals - 3-month limit, 10% pre-deposit, APL-01 filing, hearing, Section 75(2) defence. Patron from Rs 19,999.">
+    <link rel="canonical" href="/gst-appeal-section-107-first-appellate-authority">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Section 107 GST Appeal 2026: First Appeal | Patron Accounting">
+    <meta property="og:description" content="Section 107 first appeal to Commissioner Appeals - 3-month limit, 10% pre-deposit, APL-01 filing, hearing, Section 75(2) defence. Patron from Rs 19,999.">
+    <meta property="og:url" content="/gst-appeal-section-107-first-appellate-authority">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Section 107 GST Appeal 2026: First Appeal | Patron Accounting">
+    <meta name="twitter:description" content="Section 107 first appeal to Commissioner Appeals - 3-month limit, 10% pre-deposit, APL-01 filing, hearing, Section 75(2) defence. Patron from Rs 19,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/gst-appeal-section-107-first-appellate-authority/#service",
+        "name": "Section 107 GST First Appeal and Commissioner Appeals Service in India",
+        "description": "Foundational litigation service for GST Section 107 first appellate authority covering APL-01 electronic appeal filing within the 3-month limitation from order communication with a 1-month condonable extension under Section 107(4) up to an absolute 4-month hard cap, before the Commissioner (Appeals) or Joint Commissioner (Appeals), 10 percent pre-deposit advisory under Section 107(6) with a maximum cap of Rs 20 crore per CGST and Rs 20 crore SGST, premium grounds of appeal drafting with the Section 75(2) downgrade defence as the primary lever, personal hearing representation under Section 116 within the maximum 3 adjournments per Section 107(8), APL-04 final order analysis, and the onward GSTAT route under Section 112, starting from INR 19,999 per appeal engagement.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-appeal-section-107-first-appellate-authority" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Section 107 GST Appeal Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "Standard Section 107 Appeal",
+                    "priceCurrency": "INR",
+                    "price": "19999",
+                    "description": "DRC-07 analysis, APL-01 filing, 1-2 hearings for demands below Rs 25 lakh"
+                },
+                {
+                    "@type": "Offer",
+                    "name": "Medium Section 107 Appeal",
+                    "priceCurrency": "INR",
+                    "price": "49999",
+                    "description": "Section 75(2) defence, premium grounds, 3-4 hearings for Rs 25 lakh to Rs 1 crore demands"
+                },
+                {
+                    "@type": "Offer",
+                    "name": "High-Value Section 107 Appeal",
+                    "priceCurrency": "INR",
+                    "price": "99999",
+                    "description": "Complex multi-issue grounds, 5+ hearings, senior partner involvement for Rs 1 crore to Rs 5 crore demands"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/gst-appeal-section-107-first-appellate-authority/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
+            { "@type": "ListItem", "position": 3, "name": "Section 107 GST Appeal", "item": "https://www.patronaccounting.com/gst-appeal-section-107-first-appellate-authority" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/gst-appeal-section-107-first-appellate-authority/#faq",
+        "datePublished": "2026-05-27T08:00:00+05:30",
+        "dateModified": "2026-06-01T08:00:00+05:30",
+        "mainEntity": [
+
+            {
+                "@type": "Question",
+                "name": "What is a Section 107 GST appeal?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "A Section 107 GST appeal is the first formal challenge by an aggrieved taxpayer against any order passed by an adjudicating authority under the CGST Act 2017 - typically a DRC-07 demand order under Section 73, 74, or 74A, a refund rejection order, a registration cancellation order, or other appealable orders. The appeal is filed electronically in Form APL-01 before the appellate authority (Commissioner or Joint Commissioner Appeals) within 3 months of order communication. The appeal admission is subject to mandatory 10 percent pre-deposit of disputed tax under Section 107(6), capped at Rs 20 crore per CGST and Rs 20 crore SGST."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the time limit for filing a Section 107 appeal?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The time limit is 3 months from the date of communication of the order being appealed against. The appellate authority can condone an additional 1 month delay at its discretion with sufficient cause shown, taking the maximum to 4 months. Beyond 4 months, the statutory authority cannot condone the delay regardless of reason - the only remedy is a writ petition under Article 226 of the Constitution before the jurisdictional High Court. Multiple High Court rulings have confirmed this 4-month cap is absolute."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the 10 percent pre-deposit under Section 107?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Under Section 107(6) of the CGST Act, an appeal cannot be admitted unless the appellant pays 10 percent of the disputed tax amount as pre-deposit. The maximum cap is Rs 20 crore per CGST and Rs 20 crore SGST per appeal. Pre-deposit is paid via the GST portal during APL-01 filing - the preferred method is Electronic Cash Ledger per the Jyoti Construction case ruling. From April 2026, the GSTN has made the pre-deposit percentage field in APL-01 editable, allowing taxpayers to declare lower deposits where DRC-03 voluntary payments already exist."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is Form APL-01 vs APL-04?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Form APL-01 is the appeal filing form - filed electronically by the appellant on the GST portal. It contains statement of facts, grounds of appeal, disputed amounts, pre-deposit details, and supporting documents. Form APL-02 is the final acknowledgement issued by the appellate authority confirming admission of the appeal. Form APL-04 is the final order issued by the appellate authority disposing of the appeal under Section 107(11) - containing the operative conclusion, reasoning, and quantum analysis. APL-04 triggers the 3-month window for onward GSTAT appeal."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can a Section 74 demand be downgraded to Section 73 at appeal stage?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, under Section 75(2) of the CGST Act, if the appellate authority concludes that fraud, willful misstatement, or suppression of facts cannot be established by the proper officer, the demand under Section 74 must be treated as if raised under Section 73 - reducing penalty exposure from 100 percent to 10 percent. Section 107 first appellate stage is the LAST stage where this downgrade can be effected DIRECTLY without remand. The GSTAT Delhi Bench 2026 ruling confirmed that GSTAT cannot itself convert a Section 74 demand - the matter must be remanded to the Proper Officer for fresh determination."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What happens to recovery proceedings when I file Section 107 appeal?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "On filing the appeal and paying the 10 percent pre-deposit, recovery of the disputed amount is automatically stayed. The disputed demand is flagged as non-recoverable on the GST portal. The admitted portion which the taxpayer does not contest must be paid 100 percent before appeal filing - this is not eligible for stay. The stay continues throughout the Section 107 appeal pendency and, if onward GSTAT appeal is filed under Section 112 with additional 10 percent pre-deposit, the stay continues. Total pre-deposit across two stages is 20 percent of disputed tax for full recovery stay."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the disposal timeline for Section 107 appeals?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Section 107(13) of the CGST Act prescribes a 1-year aspirational disposal timeline from the date of appeal filing - but this is not a strict statutory deadline. In practice, Section 107 appeals are disposed within 12-24 months depending on the appellate authority workload, hearing scheduling, and case complexity. The maximum 3 adjournments per party under Section 107(8) limits delay tactics. High-value complex appeals can extend beyond 24 months. After APL-04, the onward GSTAT appeal under Section 112 adds another 18-36 months."
+                }
+            }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1766,17 +1771,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1799,8 +1797,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1837,7 +1833,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1848,4 +1843,20 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+
 

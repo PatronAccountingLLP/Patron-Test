@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,208 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>Backlog Bookkeeping in Delhi 2026 | Patron Accounting</title>
-    <meta name="description" content="Behind on Delhi books? CA-led catch-up bookkeeping from INR 9,999 per month-of-backlog rebuilds ledgers and clears GST for Nehru Place, Okhla firms.">
-    <link rel="canonical" href="/backlog-bookkeeping-catch-up-services/delhi">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Backlog Bookkeeping in Delhi 2026 | Patron Accounting">
-    <meta property="og:description" content="Behind on Delhi books? CA-led catch-up bookkeeping from INR 9,999 per month-of-backlog rebuilds ledgers and clears GST for Nehru Place, Okhla firms.">
-    <meta property="og:url" content="/backlog-bookkeeping-catch-up-services/delhi">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Backlog Bookkeeping in Delhi 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Behind on Delhi books? CA-led catch-up bookkeeping from INR 9,999 per month-of-backlog rebuilds ledgers and clears GST for Nehru Place, Okhla firms.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services/delhi#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Backlog Bookkeeping and Catch-Up Services",
-          "item": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Backlog Bookkeeping and Catch-Up Services in Delhi",
-          "item": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services/delhi"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services/delhi#faq",
-      "datePublished": "2026-06-23T08:00:00+05:30",
-      "dateModified": "2026-06-23T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Does a Delhi business need PTRC or PTEC in its backlog catch-up?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Unlike Maharashtra or Karnataka, Delhi does not levy any state profession tax, so there is no PTRC or PTEC return to reconstruct. A Delhi catch-up instead concentrates on GST under the CGST Act 2017, TDS and Form 26AS, and income tax books under Section 44AA, leaving your reconstructed ledgers correctly scoped for the capital."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does a Nehru Place IT or electronics firm recover lost input tax credit during catch-up?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Hardware and software vendors in Nehru Place often miss claiming credit on bulk component and licence purchases. We pull every purchase invoice for the backlog months and tie it line by line to auto-drafted GSTR-2B on the portal, so eligible input tax credit under the CGST Act 2017 is captured before the claim window closes and is not silently forfeited."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can you rebuild books for an Okhla manufacturer running several GSTINs and stock?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Okhla and Mayapuri units frequently hold separate registrations plus inventory and job-work records. We reconstruct each GSTIN independently, post vendor and job-work bills against the right HSN codes, rebuild stock and purchase registers, then consolidate so the closing trial balance ties out cleanly ahead of any statutory audit."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Our Karol Bagh trading firm has thousands of invoices a month. Can the volume be cleared?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "It can. High-velocity Karol Bagh and Connaught Place traders are handled by importing bank feeds and invoice data in bulk, then categorising and de-duplicating in Tally or Zoho Books rather than keying entries one at a time. Receivable and payable ageing is rebuilt so overdue parties surface, and every account is reconciled month by month."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What does backlog bookkeeping cost for a Delhi firm?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Pricing opens at INR 9,999 per month-of-backlog (Exl GST and Govt. Charges). What you finally pay reflects how many transactions, bank accounts, and GST registrations are involved and how stale the records are. Before anyone starts posting, your Delhi business receives a fixed-scope quote, so the cost is known upfront with no running meter."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How many past years of Delhi books can be reconstructed?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "There is no hard ceiling, though Rule 6F(5) of the Income Tax Rules expects records to be kept for six years after the relevant year ends. In practice we rebuild anywhere from one to five years for Delhi SMEs, drawing on bank statements, saved invoices, and the GST return history already lodged on the portal to fill the gaps."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What GST late fees and interest apply to overdue Delhi returns?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 47 of the CGST Act 2017 sets the GSTR-3B late fee at INR 50 a day, split as INR 25 CGST and INR 25 SGST, dropping to INR 20 a day on nil returns and subject to the statutory cap. On top, Section 50 charges 18 percent a year on tax left unpaid. We calculate the precise figure and clear it during the catch-up."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is clearing the backlog worth it before a Delhi audit or ITR deadline?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Strongly, yes. Tidy books trim audit fees, head off Section 271A penalties for failing to keep accounts, and safeguard the GST credit and deductions you are entitled to. For Delhi companies staring at a statutory or tax audit date, finishing the catch-up first is what makes the eventual filing accurate and defensible."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services/delhi#service",
-      "name": "Backlog Bookkeeping and Catch-Up Services in Delhi",
-      "description": "Patron Accounting rebuilds neglected Delhi books, posting missing entries, tying out bank and GST records, and signing off audit-ready trial balances. Catch-up and cleanup cover Nehru Place IT firms, Karol Bagh and Connaught Place traders, and Okhla and Mayapuri manufacturers across Delhi NCR.",
-      "serviceType": "Backlog Bookkeeping and Catch-Up Bookkeeping",
-      "url": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services/delhi",
-      "areaServed": {
-        "@type": "City",
-        "name": "Delhi",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Delhi"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#localbusiness-delhi"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Bookkeeping",
-          "sameAs": "https://en.wikipedia.org/wiki/Bookkeeping"
-        },
-        {
-          "@type": "Thing",
-          "name": "Goods and Services Tax (India)",
-          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Backlog Bookkeeping Plans in Delhi",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "price": "9999",
-            "priceSpecification": {
-              "@type": "UnitPriceSpecification",
-              "priceCurrency": "INR",
-              "price": "9999",
-              "unitText": "per month-of-backlog"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Catch-Up Bookkeeping per Month-of-Backlog"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness-delhi",
-      "name": "Patron Accounting LLP - Delhi",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services/delhi",
-      "telephone": "+91-9699936369",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Delhi"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Delhi",
-        "addressRegion": "Delhi",
-        "postalCode": "110085",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -830,7 +627,217 @@
         .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
 
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>Backlog Bookkeeping in Delhi 2026 | Patron Accounting</title>
+    <meta name="description" content="Behind on Delhi books? CA-led catch-up bookkeeping from INR 9,999 per month-of-backlog rebuilds ledgers and clears GST for Nehru Place, Okhla firms.">
+    <link rel="canonical" href="/backlog-bookkeeping-catch-up-services/delhi">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Backlog Bookkeeping in Delhi 2026 | Patron Accounting">
+    <meta property="og:description" content="Behind on Delhi books? CA-led catch-up bookkeeping from INR 9,999 per month-of-backlog rebuilds ledgers and clears GST for Nehru Place, Okhla firms.">
+    <meta property="og:url" content="/backlog-bookkeeping-catch-up-services/delhi">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Backlog Bookkeeping in Delhi 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Behind on Delhi books? CA-led catch-up bookkeeping from INR 9,999 per month-of-backlog rebuilds ledgers and clears GST for Nehru Place, Okhla firms.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services/delhi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Backlog Bookkeeping and Catch-Up Services",
+          "item": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Backlog Bookkeeping and Catch-Up Services in Delhi",
+          "item": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services/delhi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services/delhi#faq",
+      "datePublished": "2026-06-23T08:00:00+05:30",
+      "dateModified": "2026-06-23T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Does a Delhi business need PTRC or PTEC in its backlog catch-up?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Unlike Maharashtra or Karnataka, Delhi does not levy any state profession tax, so there is no PTRC or PTEC return to reconstruct. A Delhi catch-up instead concentrates on GST under the CGST Act 2017, TDS and Form 26AS, and income tax books under Section 44AA, leaving your reconstructed ledgers correctly scoped for the capital."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does a Nehru Place IT or electronics firm recover lost input tax credit during catch-up?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hardware and software vendors in Nehru Place often miss claiming credit on bulk component and licence purchases. We pull every purchase invoice for the backlog months and tie it line by line to auto-drafted GSTR-2B on the portal, so eligible input tax credit under the CGST Act 2017 is captured before the claim window closes and is not silently forfeited."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you rebuild books for an Okhla manufacturer running several GSTINs and stock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Okhla and Mayapuri units frequently hold separate registrations plus inventory and job-work records. We reconstruct each GSTIN independently, post vendor and job-work bills against the right HSN codes, rebuild stock and purchase registers, then consolidate so the closing trial balance ties out cleanly ahead of any statutory audit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Our Karol Bagh trading firm has thousands of invoices a month. Can the volume be cleared?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It can. High-velocity Karol Bagh and Connaught Place traders are handled by importing bank feeds and invoice data in bulk, then categorising and de-duplicating in Tally or Zoho Books rather than keying entries one at a time. Receivable and payable ageing is rebuilt so overdue parties surface, and every account is reconciled month by month."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does backlog bookkeeping cost for a Delhi firm?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pricing opens at INR 9,999 per month-of-backlog (Exl GST and Govt. Charges). What you finally pay reflects how many transactions, bank accounts, and GST registrations are involved and how stale the records are. Before anyone starts posting, your Delhi business receives a fixed-scope quote, so the cost is known upfront with no running meter."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many past years of Delhi books can be reconstructed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There is no hard ceiling, though Rule 6F(5) of the Income Tax Rules expects records to be kept for six years after the relevant year ends. In practice we rebuild anywhere from one to five years for Delhi SMEs, drawing on bank statements, saved invoices, and the GST return history already lodged on the portal to fill the gaps."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What GST late fees and interest apply to overdue Delhi returns?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 47 of the CGST Act 2017 sets the GSTR-3B late fee at INR 50 a day, split as INR 25 CGST and INR 25 SGST, dropping to INR 20 a day on nil returns and subject to the statutory cap. On top, Section 50 charges 18 percent a year on tax left unpaid. We calculate the precise figure and clear it during the catch-up."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is clearing the backlog worth it before a Delhi audit or ITR deadline?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Strongly, yes. Tidy books trim audit fees, head off Section 271A penalties for failing to keep accounts, and safeguard the GST credit and deductions you are entitled to. For Delhi companies staring at a statutory or tax audit date, finishing the catch-up first is what makes the eventual filing accurate and defensible."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services/delhi#service",
+      "name": "Backlog Bookkeeping and Catch-Up Services in Delhi",
+      "description": "Patron Accounting rebuilds neglected Delhi books, posting missing entries, tying out bank and GST records, and signing off audit-ready trial balances. Catch-up and cleanup cover Nehru Place IT firms, Karol Bagh and Connaught Place traders, and Okhla and Mayapuri manufacturers across Delhi NCR.",
+      "serviceType": "Backlog Bookkeeping and Catch-Up Bookkeeping",
+      "url": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services/delhi",
+      "areaServed": {
+        "@type": "City",
+        "name": "Delhi",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Delhi"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#localbusiness-delhi"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Bookkeeping",
+          "sameAs": "https://en.wikipedia.org/wiki/Bookkeeping"
+        },
+        {
+          "@type": "Thing",
+          "name": "Goods and Services Tax (India)",
+          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Backlog Bookkeeping Plans in Delhi",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "price": "9999",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "INR",
+              "price": "9999",
+              "unitText": "per month-of-backlog"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Catch-Up Bookkeeping per Month-of-Backlog"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness-delhi",
+      "name": "Patron Accounting LLP - Delhi",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services/delhi",
+      "telephone": "+91-9699936369",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Delhi"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Delhi",
+        "addressRegion": "Delhi",
+        "postalCode": "110085",
+        "addressCountry": "IN"
+      },
+      "parentOrganization": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1584,7 +1591,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

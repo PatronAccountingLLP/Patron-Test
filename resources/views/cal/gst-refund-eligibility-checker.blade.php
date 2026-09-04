@@ -1,196 +1,8 @@
 @extends('layouts.app')
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
-@section('meta')
-    <title>GST Refund Eligibility Checker | Section 54 CGST Act</title>
-    <meta name="description" content="GST refund eligibility checker under Section 54: a 12-step decision tree covering exports, inverted duty, deemed exports, drawback &amp; export-duty rules. Free!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/gst-refund-eligibility-checker">
-    <meta property="og:title" content="GST Refund Eligibility Checker — Section 54 CGST 2026">
-    <meta property="og:description" content="Decision-tree tool to determine GST refund eligibility under Section 54. Zero-rated, IDS, deemed exports, Section 77, drawback rules. Free CA tool.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/gst-refund-eligibility-checker">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="GST Refund Eligibility Checker — Section 54 CGST 2026">
-    <meta name="twitter:description" content="Decision-tree tool for GST refund eligibility under Section 54. Free CA tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-    <meta name="theme-color" content="#15365f">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "GST Refund Eligibility Checker (Section 54)",
-      "description": "GST Refund Eligibility Checker is a decision-tree tool that determines whether a refund claim is eligible under Section 54 of the Central Goods and Services Tax Act 2017. The tool walks the practitioner through a structured sequence of branching questions covering all major refund categories: export of goods with payment of IGST or under LUT, export of services with foreign exchange receipt, supplies to Special Economic Zones, accumulated unutilised ITC due to inverted duty structure under Section 54(3)(ii), excess balance in electronic cash ledger under Section 49(6), excess tax paid in error including DRC-03 corrective payments, refund pursuant to appellate or court order under Explanation 2(d), pre-deposit refund under Sections 107(6) and 112(8), deemed exports under Section 147, supplies to UN agencies and embassies under Section 55, and wrong-head tax under Section 77. The tool applies all major statutory exclusions: drawback of central tax under Rule 89 second proviso, refund of IGST paid where benefit of Notifications 40/2017 41/2017 and 48/2017 was availed, exported goods subject to export duty under Section 54(15) including the Finance Act No 2 of 2024 amendment effective 16 August 2024 extending the restriction to IGST refunds, output supplies that are nil-rated or fully exempt, same goods at different rates due to GST Council rate change per Circular 135/2020 as amended by Circular 173/2022, input services and capital goods excluded from inverted duty refund per VKC Footsteps Supreme Court 2021 ruling, notified goods or services excluded from refund under Notification 5/2017, and minimum threshold of one thousand rupees under Rule 89(1). Each verdict cites the applicable statutory provision, lists specific conditions, and recommends the next action. Suitable for exporters, manufacturers, services providers, CA practitioners, GST consultants, tax-compliance teams, and businesses navigating refund claims under the CGST Act framework.",
-      "url": "https://www.patronaccounting.com/tools/gst-refund-eligibility-checker",
-      "applicationCategory": "FinanceApplication",
-      "operatingSystem": "Any",
-      "datePublished": "2026-05-07T08:00:00+05:30",
-      "dateModified": "2026-05-19T08:00:00+05:30",
-      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
-      "author": {
-        "@type": "Person",
-        "@id": "https://patronaccounting.com/#founder",
-        "name": "CA Sundram Gupta",
-        "jobTitle": "Founder & Chartered Accountant",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Institute of Chartered Accountants of India",
-            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-          }
-        }]
-      },
-      "publisher": { "@id": "https://patronaccounting.com/#organization" },
-      "provider": { "@id": "https://patronaccounting.com/#organization" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "GST Refund Eligibility Checker", "item": "https://www.patronaccounting.com/tools/gst-refund-eligibility-checker"}
-      ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "datePublished": "2026-05-07T08:00:00+05:30",
-      "dateModified": "2026-05-19T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Who can claim a GST refund under Section 54?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 54 of the CGST Act 2017 permits any registered person to claim refund of tax, interest, or any other amount paid. Common claimants include exporters of goods or services, SEZ suppliers, businesses with inverted duty structure, deemed-export suppliers, taxpayers with excess cash ledger balance, those who paid tax in error, and parties succeeding in appellate proceedings. UN agencies claim under Section 55. The application is filed in Form GST RFD-01 through the GST Portal."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What disqualifies a GST refund claim?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Several statutory exclusions apply. Export refunds are blocked where the supplier availed duty drawback of central tax or claimed IGST refund. Refunds are denied where exported goods are subject to export duty under Section 54(15), extended to IGST by Finance Act No 2 of 2024. Inverted duty refunds are blocked where outputs are nil-rated or exempt, where inputs and outputs are same goods at different rates per Circular 135/2020, and where goods are notified under Notification 5/2017."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Are zero-rated exports always refundable?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Zero-rated supplies are eligible under Section 16 of the IGST Act, but multiple conditions apply. The supplier must not have availed duty drawback. Goods must not be subject to export duty. Notifications 40/2017, 41/2017, and 48/2017 benefits availed at procurement may block IGST refund. BRC or FIRC is required for service exports. Failure to file GSTR-1 with valid shipping bill details prevents IGST refund through ICEGATE."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can input services be refunded under inverted duty?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. The Supreme Court in Union of India vs VKC Footsteps India (2021) upheld Rule 89(5) which restricts inverted duty refund to inputs only — input services and capital goods are excluded. The amended Rule 89(5) under Notification 14/2022 refined the formula to proportionately account for input-services ITC in output tax. The Supreme Court in Ascent Meditech (2025) held this amendment is curative and applies retrospectively, benefiting older claims."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the same-goods rule under Circular 135/2020?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Circular 135/05/2020-GST clarified that where inputs and outputs are the same goods but attract different rates due to a GST Council rate change, refund under Section 54(3)(ii) is not available. For example, if Goods X bought at 18% had its rate reduced to 12%, accumulated ITC cannot be refunded. Circular 173/05/2022-GST refined this — where the lower rate flows from a concessional notification (such as merchant exporter supplies at 0.1%), refund is available."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What about excess cash ledger balance refunds?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 54 first proviso permits refund of any balance in the electronic cash ledger under Section 49(6). Some High Courts hold this refund is not subject to the two-year time-bar since the balance is the taxpayer's asset and not tax paid. Conservative practice applies the two-year limit from deposit date. The refund is processed through Form RFD-01 under category Excess balance in electronic cash ledger and does not require unjust-enrichment certification."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is a Section 77 refund?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 77 provides for refund of tax paid under the wrong head — typically CGST/SGST paid where IGST was applicable, or vice versa. The taxpayer first pays the correct tax under the right head, then claims refund of the originally paid wrong-head tax. There is no interest on the corrective payment. The refund is filed via Form RFD-01 selecting the Section 77 category. The relevant date for limitation is the correct-head payment date."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Are deemed exports always eligible for refund?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Deemed-export refunds under Section 54 read with Section 147 are available only for supplies notified by the Government. Currently notified categories include supplies to EOUs, against Advance Authorisation, capital goods against EPCG Authorisation, and gold by specified banks/PSUs. Either supplier or recipient may claim — not both. The relevant date is the date of furnishing return relating to deemed exports under Explanation 2(b). Recipients must obtain a no-claim declaration."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens after I confirm eligibility?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "After confirming eligibility, the steps are: gather supporting documents (invoices, shipping bills, BRC/FIRC, GSTR-1, GSTR-3B), reconcile ITC against GSTR-2B, prepare Statement annexures, file Form RFD-01 on the GST Portal, track ARN and acknowledgment in RFD-02 within 15 days, respond to any RFD-03 deficiency memo, and follow up for final RFD-06 with RFD-05 payment advice. Reserve buffer time before the two-year time-bar."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is there a minimum refund amount?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Rule 89(1) provides that no refund shall be claimed if the amount is less than one thousand rupees. This threshold applies per refund application and per tax head. For amounts below threshold, credit remains in the electronic ledger but cannot be claimed. For accumulated small refunds across periods, taxpayers may club them in a single application if relevant date and category align. The threshold does not apply to UN-agency refunds under Section 55."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I claim refund if I missed the 2-year time-bar?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Generally no. Section 54(1) imposes a strict two-year limitation from the relevant date in Explanation 2. Once expired, the right to refund is extinguished per Mafatlal Industries doctrine. The only operative extension is the COVID-19 pause under Notification 13/2022-Central Tax, excluding 1 March 2020 to 28 February 2022. Writ petitions citing equity have largely failed. Use the Patron GST Refund Time-Bar Calculator for precise computation."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does this tool's verdict relate to the GST Portal?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The tool determines theoretical eligibility based on the statutory framework. The GST Portal accepts any technically valid application, but the proper officer applies the same statutory tests during scrutiny. A negative verdict indicates likely rejection through RFD-08 SCN. A positive verdict means the claim has sound statutory basis but does not guarantee approval — documentation, reconciliation, and procedural compliance still drive outcome. Use as preliminary diligence, not final determination."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does this cover refunds under the IGST Act?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Section 16 of the IGST Act read with Section 54 of the CGST Act governs refund of IGST paid on zero-rated supplies. The zero-rated branch covers both modes: refund of IGST paid through ICEGATE and refund of unutilised ITC for LUT exports. The tool also covers SEZ supplies, deemed exports, and inverted duty refunds where IGST applies. Section 56 interest applies uniformly across CGST, SGST, IGST, and UTGST refunds delayed beyond sixty days."
-          }
-        }
-      ]
-    }
-    </script>
-@endsection
-
 <style>
         :root {
             --primary: #15365f;
@@ -439,7 +251,195 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 }
 
 </style>
+@endpush
 
+@section('meta')
+    <title>GST Refund Eligibility Checker | Section 54 CGST Act</title>
+    <meta name="description" content="GST refund eligibility checker under Section 54: a 12-step decision tree covering exports, inverted duty, deemed exports, drawback &amp; export-duty rules. Free!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/gst-refund-eligibility-checker">
+    <meta property="og:title" content="GST Refund Eligibility Checker — Section 54 CGST 2026">
+    <meta property="og:description" content="Decision-tree tool to determine GST refund eligibility under Section 54. Zero-rated, IDS, deemed exports, Section 77, drawback rules. Free CA tool.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/gst-refund-eligibility-checker">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GST Refund Eligibility Checker — Section 54 CGST 2026">
+    <meta name="twitter:description" content="Decision-tree tool for GST refund eligibility under Section 54. Free CA tool.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+    <meta name="theme-color" content="#15365f">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "GST Refund Eligibility Checker (Section 54)",
+      "description": "GST Refund Eligibility Checker is a decision-tree tool that determines whether a refund claim is eligible under Section 54 of the Central Goods and Services Tax Act 2017. The tool walks the practitioner through a structured sequence of branching questions covering all major refund categories: export of goods with payment of IGST or under LUT, export of services with foreign exchange receipt, supplies to Special Economic Zones, accumulated unutilised ITC due to inverted duty structure under Section 54(3)(ii), excess balance in electronic cash ledger under Section 49(6), excess tax paid in error including DRC-03 corrective payments, refund pursuant to appellate or court order under Explanation 2(d), pre-deposit refund under Sections 107(6) and 112(8), deemed exports under Section 147, supplies to UN agencies and embassies under Section 55, and wrong-head tax under Section 77. The tool applies all major statutory exclusions: drawback of central tax under Rule 89 second proviso, refund of IGST paid where benefit of Notifications 40/2017 41/2017 and 48/2017 was availed, exported goods subject to export duty under Section 54(15) including the Finance Act No 2 of 2024 amendment effective 16 August 2024 extending the restriction to IGST refunds, output supplies that are nil-rated or fully exempt, same goods at different rates due to GST Council rate change per Circular 135/2020 as amended by Circular 173/2022, input services and capital goods excluded from inverted duty refund per VKC Footsteps Supreme Court 2021 ruling, notified goods or services excluded from refund under Notification 5/2017, and minimum threshold of one thousand rupees under Rule 89(1). Each verdict cites the applicable statutory provision, lists specific conditions, and recommends the next action. Suitable for exporters, manufacturers, services providers, CA practitioners, GST consultants, tax-compliance teams, and businesses navigating refund claims under the CGST Act framework.",
+      "url": "https://www.patronaccounting.com/tools/gst-refund-eligibility-checker",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Any",
+      "datePublished": "2026-05-07T08:00:00+05:30",
+      "dateModified": "2026-05-19T08:00:00+05:30",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
+      "author": {
+        "@type": "Person",
+        "@id": "https://patronaccounting.com/#founder",
+        "name": "CA Sundram Gupta",
+        "jobTitle": "Founder & Chartered Accountant",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Institute of Chartered Accountants of India",
+            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+          }
+        }]
+      },
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": { "@id": "https://patronaccounting.com/#organization" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "GST Refund Eligibility Checker", "item": "https://www.patronaccounting.com/tools/gst-refund-eligibility-checker"}
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "datePublished": "2026-05-07T08:00:00+05:30",
+      "dateModified": "2026-05-19T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Who can claim a GST refund under Section 54?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 54 of the CGST Act 2017 permits any registered person to claim refund of tax, interest, or any other amount paid. Common claimants include exporters of goods or services, SEZ suppliers, businesses with inverted duty structure, deemed-export suppliers, taxpayers with excess cash ledger balance, those who paid tax in error, and parties succeeding in appellate proceedings. UN agencies claim under Section 55. The application is filed in Form GST RFD-01 through the GST Portal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What disqualifies a GST refund claim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Several statutory exclusions apply. Export refunds are blocked where the supplier availed duty drawback of central tax or claimed IGST refund. Refunds are denied where exported goods are subject to export duty under Section 54(15), extended to IGST by Finance Act No 2 of 2024. Inverted duty refunds are blocked where outputs are nil-rated or exempt, where inputs and outputs are same goods at different rates per Circular 135/2020, and where goods are notified under Notification 5/2017."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are zero-rated exports always refundable?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Zero-rated supplies are eligible under Section 16 of the IGST Act, but multiple conditions apply. The supplier must not have availed duty drawback. Goods must not be subject to export duty. Notifications 40/2017, 41/2017, and 48/2017 benefits availed at procurement may block IGST refund. BRC or FIRC is required for service exports. Failure to file GSTR-1 with valid shipping bill details prevents IGST refund through ICEGATE."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can input services be refunded under inverted duty?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. The Supreme Court in Union of India vs VKC Footsteps India (2021) upheld Rule 89(5) which restricts inverted duty refund to inputs only — input services and capital goods are excluded. The amended Rule 89(5) under Notification 14/2022 refined the formula to proportionately account for input-services ITC in output tax. The Supreme Court in Ascent Meditech (2025) held this amendment is curative and applies retrospectively, benefiting older claims."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the same-goods rule under Circular 135/2020?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Circular 135/05/2020-GST clarified that where inputs and outputs are the same goods but attract different rates due to a GST Council rate change, refund under Section 54(3)(ii) is not available. For example, if Goods X bought at 18% had its rate reduced to 12%, accumulated ITC cannot be refunded. Circular 173/05/2022-GST refined this — where the lower rate flows from a concessional notification (such as merchant exporter supplies at 0.1%), refund is available."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What about excess cash ledger balance refunds?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 54 first proviso permits refund of any balance in the electronic cash ledger under Section 49(6). Some High Courts hold this refund is not subject to the two-year time-bar since the balance is the taxpayer's asset and not tax paid. Conservative practice applies the two-year limit from deposit date. The refund is processed through Form RFD-01 under category Excess balance in electronic cash ledger and does not require unjust-enrichment certification."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a Section 77 refund?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 77 provides for refund of tax paid under the wrong head — typically CGST/SGST paid where IGST was applicable, or vice versa. The taxpayer first pays the correct tax under the right head, then claims refund of the originally paid wrong-head tax. There is no interest on the corrective payment. The refund is filed via Form RFD-01 selecting the Section 77 category. The relevant date for limitation is the correct-head payment date."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are deemed exports always eligible for refund?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Deemed-export refunds under Section 54 read with Section 147 are available only for supplies notified by the Government. Currently notified categories include supplies to EOUs, against Advance Authorisation, capital goods against EPCG Authorisation, and gold by specified banks/PSUs. Either supplier or recipient may claim — not both. The relevant date is the date of furnishing return relating to deemed exports under Explanation 2(b). Recipients must obtain a no-claim declaration."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens after I confirm eligibility?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "After confirming eligibility, the steps are: gather supporting documents (invoices, shipping bills, BRC/FIRC, GSTR-1, GSTR-3B), reconcile ITC against GSTR-2B, prepare Statement annexures, file Form RFD-01 on the GST Portal, track ARN and acknowledgment in RFD-02 within 15 days, respond to any RFD-03 deficiency memo, and follow up for final RFD-06 with RFD-05 payment advice. Reserve buffer time before the two-year time-bar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there a minimum refund amount?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Rule 89(1) provides that no refund shall be claimed if the amount is less than one thousand rupees. This threshold applies per refund application and per tax head. For amounts below threshold, credit remains in the electronic ledger but cannot be claimed. For accumulated small refunds across periods, taxpayers may club them in a single application if relevant date and category align. The threshold does not apply to UN-agency refunds under Section 55."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I claim refund if I missed the 2-year time-bar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Generally no. Section 54(1) imposes a strict two-year limitation from the relevant date in Explanation 2. Once expired, the right to refund is extinguished per Mafatlal Industries doctrine. The only operative extension is the COVID-19 pause under Notification 13/2022-Central Tax, excluding 1 March 2020 to 28 February 2022. Writ petitions citing equity have largely failed. Use the Patron GST Refund Time-Bar Calculator for precise computation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does this tool's verdict relate to the GST Portal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The tool determines theoretical eligibility based on the statutory framework. The GST Portal accepts any technically valid application, but the proper officer applies the same statutory tests during scrutiny. A negative verdict indicates likely rejection through RFD-08 SCN. A positive verdict means the claim has sound statutory basis but does not guarantee approval — documentation, reconciliation, and procedural compliance still drive outcome. Use as preliminary diligence, not final determination."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does this cover refunds under the IGST Act?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Section 16 of the IGST Act read with Section 54 of the CGST Act governs refund of IGST paid on zero-rated supplies. The zero-rated branch covers both modes: refund of IGST paid through ICEGATE and refund of unutilised ITC for LUT exports. The tool also covers SEZ supplies, deemed exports, and inverted duty refunds where IGST applies. Section 56 interest applies uniformly across CGST, SGST, IGST, and UTGST refunds delayed beyond sixty days."
+          }
+        }
+      ]
+    }
+    </script>
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Tool navigation">
     <div class="toc-nav-inner">

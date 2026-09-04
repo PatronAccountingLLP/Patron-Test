@@ -1,179 +1,9 @@
 @extends('layouts.app')
-<title>Company Name Search | MCA Rule 8 Name Availability</title>
-<meta name="description" content="Free company name search: test a company or LLP name against MCA Rule 8 / 8A for suffix, prohibited words and similarity, then check live on MCA & IPIndia.">
-<meta name="robots" content="index, follow">
-<meta name="theme-color" content="#15365f">
+@push('styles')
 <link rel="canonical" href="https://www.patronaccounting.com/tools/company-name-search">
-@section('meta')
-<meta property="og:title" content="Company Name Search — MCA Rule 8 Name Checker 2026">
-<meta property="og:description" content="Test a proposed company or LLP name against MCA Rule 8 / 8A naming guidelines, then run the live availability check on the official MCA and IPIndia portals.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.patronaccounting.com/tools/company-name-search">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="1200">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-<meta property="og:site_name" content="Patron Accounting">
-<meta property="og:locale" content="en_IN">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Company Name Search — MCA Rule 8 Name Checker 2026">
-<meta name="twitter:description" content="Test a proposed company name against MCA Rule 8 / 8A naming rules, then check live on MCA & IPIndia. Free & instant.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-@section('schema')
-<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
-<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "Company Name Search",
-  "description": "Company Name Search is a name-compliance checker that tests a proposed company or LLP name against the MCA naming guidelines in Rule 8 and Rule 8A of the Companies (Incorporation) Rules, 2014, and Section 4(2) of the Companies Act, 2013. It checks for the mandatory entity suffix, restricted or prohibited words needing Central Government approval, names that are only a country or place, offensive content, and minor variations that do not create distinctiveness, then returns a rule-by-rule checklist. It cannot confirm live availability, so it links the user to the official MCA name-search, RUN and SPICe Plus services and the IPIndia trademark search for the binding check.",
-  "url": "https://www.patronaccounting.com/tools/company-name-search",
-  "applicationCategory": "BusinessApplication",
-  "inLanguage": "en-IN",
-  "isAccessibleForFree": true,
-  "operatingSystem": "Any",
-  "datePublished": "2026-06-05T08:00:00+05:30",
-  "dateModified": "2026-06-05T08:00:00+05:30",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "INR"
-  },
-  "reviewedBy": {
-    "@type": "Person",
-    "@id": "https://patronaccounting.com/#founder",
-    "name": "CA Sundram Gupta",
-    "jobTitle": "Founder & Chartered Accountant",
-    "url": "https://www.patronaccounting.com/contact-page",
-    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-    "hasCredential": [{
-      "@type": "EducationalOccupationalCredential",
-      "credentialCategory": "Professional Certification",
-      "name": "Chartered Accountant (CA)",
-      "recognizedBy": {
-        "@type": "Organization",
-        "name": "Institute of Chartered Accountants of India",
-        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-      }
-    }]
-  },
-  "publisher": { "@id": "https://patronaccounting.com/#organization" },
-  "provider": {
-    "@id": "https://patronaccounting.com/#organization"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "Company Name Search", "item": "https://www.patronaccounting.com/tools/company-name-search"}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can this tool confirm if a company name is available?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. This is a rules checker, not a live registry lookup. It tests your proposed name against the MCA naming guidelines — the mandatory suffix, prohibited words, place-only names and minor-variation traps — so you can fix obvious problems before applying. The binding availability check is done only by the Central Registration Centre when you file. Always confirm against the official MCA name-search and the IPIndia trademark database, which this tool links to, before relying on a name."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I actually check company name availability on the MCA?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Use the MCA V3 portal. For a new company you reserve the name through SPICe Plus Part A as part of incorporation, or through the RUN service for a standalone reservation; for an LLP you use RUN-LLP. The portal also has a Search Company or LLP Name feature to look for existing entities. A no-match result there does not guarantee approval, because the Registrar additionally checks phonetic similarity and trademarks, but it is the official starting point."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What makes a company name undesirable under Rule 8?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Under Rule 8 and Rule 8A of the Companies (Incorporation) Rules, 2014, a name is undesirable if it is identical or too similar to an existing company, LLP or registered trademark, including phonetic resemblance; uses restricted words without approval; suggests connection with the government or an embassy; is offensive; consists only of a country, state or city name; or matches a company dissolved within the last two years. Section 4(2) of the Companies Act also bars misleading names."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do minor spelling or spacing changes make a name unique?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. The Registrar ignores differences that do not create real distinctiveness — changes in spelling, spacing, punctuation, letter case, plural forms, word order, articles like The, And or Of, and common add-on words such as India, Global or Enterprises. So Bright Solar and Brite Solar, or Apex India and Apex, are treated as the same. To be distinct, a name needs a genuinely different coined or distinctive element, not a cosmetic tweak."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which words need special approval in a company name?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Certain words require prior Central Government approval or a regulator's no-objection — for example Bank, Insurance, Stock Exchange, Mutual Fund, National, Federal, Board, Republic, Municipal, and words implying state or government patronage. Words covered by the Emblems and Names (Prevention of Improper Use) Act, 1950 are restricted. This checker flags common restricted words so you know an approval or NOC may be needed, but the list the Registrar applies is broader."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What suffix must a company name end with?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A private company name must end with Private Limited, a public company with Limited, a one person company with OPC Private Limited, and a limited liability partnership with LLP. A Section 8 not-for-profit company is exempt from Limited or Private Limited and instead uses words like Foundation, Forum, Association, Federation or Council. This tool checks that your proposed name carries an appropriate suffix for the entity type you select."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does the company name need a trademark search too?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. A name that clears the MCA can still infringe a registered trademark, and the Registrar now checks the trademark database during name approval. You should search the IPIndia public trademark database for your proposed brand before committing, and ideally register the trademark after incorporation for full protection. Company name approval and trademark protection are separate processes, and clearing one does not clear the other."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What happens if my proposed name is rejected?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "If the Central Registration Centre rejects a name, you typically get one resubmission opportunity to fix minor defects, and the Registrar will consider your second proposed name if the first is refused. If both are denied you must file a fresh application with new names and pay the fee again. Because each rejection costs time and sometimes money, screening the name against the rules first, as this tool helps you do, reduces the chance of rejection."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Are the company name rules changing in 2026?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The MCA issued a public notice in April 2026 proposing to redraft Rule 8, Rule 8A and add a Rule 9A, with a table of factors ignored during similarity checks and a codified list of undesirable names. The public comment window has closed, and the amended rules take effect only on publication in the Official Gazette. The core principles this tool checks — suffix, prohibited words, distinctiveness and trademarks — remain the same in substance, so it stays useful through the change."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the Company Name Search tool free?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, the Patron Accounting Company Name Search tool is completely free with no signup required. All checks run in your browser and nothing is stored on our servers. It screens your proposed name against the MCA Rule 8 and Rule 8A naming guidelines and gives a rule-by-rule checklist, then links you to the official MCA and IPIndia portals for the live, binding check. It is an indicative screening aid; the final approval is decided by the Registrar."
-      }
-    }
-  ]
-}
-</script>
-@endsection
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
 <style>
         :root {
             --primary: #15365f;
@@ -699,6 +529,179 @@ a:focus-visible {
 
 
         </style>
+@endpush
+
+@section('meta')
+<meta property="og:title" content="Company Name Search — MCA Rule 8 Name Checker 2026">
+<meta property="og:description" content="Test a proposed company or LLP name against MCA Rule 8 / 8A naming guidelines, then run the live availability check on the official MCA and IPIndia portals.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/company-name-search">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+<meta property="og:site_name" content="Patron Accounting">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Company Name Search — MCA Rule 8 Name Checker 2026">
+<meta name="twitter:description" content="Test a proposed company name against MCA Rule 8 / 8A naming rules, then check live on MCA & IPIndia. Free & instant.">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<title>Company Name Search | MCA Rule 8 Name Availability</title>
+<meta name="description" content="Free company name search: test a company or LLP name against MCA Rule 8 / 8A for suffix, prohibited words and similarity, then check live on MCA & IPIndia.">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#15365f">
+@endsection
+@section('schema')
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Company Name Search",
+  "description": "Company Name Search is a name-compliance checker that tests a proposed company or LLP name against the MCA naming guidelines in Rule 8 and Rule 8A of the Companies (Incorporation) Rules, 2014, and Section 4(2) of the Companies Act, 2013. It checks for the mandatory entity suffix, restricted or prohibited words needing Central Government approval, names that are only a country or place, offensive content, and minor variations that do not create distinctiveness, then returns a rule-by-rule checklist. It cannot confirm live availability, so it links the user to the official MCA name-search, RUN and SPICe Plus services and the IPIndia trademark search for the binding check.",
+  "url": "https://www.patronaccounting.com/tools/company-name-search",
+  "applicationCategory": "BusinessApplication",
+  "inLanguage": "en-IN",
+  "isAccessibleForFree": true,
+  "operatingSystem": "Any",
+  "datePublished": "2026-06-05T08:00:00+05:30",
+  "dateModified": "2026-06-05T08:00:00+05:30",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "INR"
+  },
+  "reviewedBy": {
+    "@type": "Person",
+    "@id": "https://patronaccounting.com/#founder",
+    "name": "CA Sundram Gupta",
+    "jobTitle": "Founder & Chartered Accountant",
+    "url": "https://www.patronaccounting.com/contact-page",
+    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+    "hasCredential": [{
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Professional Certification",
+      "name": "Chartered Accountant (CA)",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Institute of Chartered Accountants of India",
+        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+      }
+    }]
+  },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
+  "provider": {
+    "@id": "https://patronaccounting.com/#organization"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "Company Name Search", "item": "https://www.patronaccounting.com/tools/company-name-search"}
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can this tool confirm if a company name is available?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. This is a rules checker, not a live registry lookup. It tests your proposed name against the MCA naming guidelines — the mandatory suffix, prohibited words, place-only names and minor-variation traps — so you can fix obvious problems before applying. The binding availability check is done only by the Central Registration Centre when you file. Always confirm against the official MCA name-search and the IPIndia trademark database, which this tool links to, before relying on a name."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I actually check company name availability on the MCA?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Use the MCA V3 portal. For a new company you reserve the name through SPICe Plus Part A as part of incorporation, or through the RUN service for a standalone reservation; for an LLP you use RUN-LLP. The portal also has a Search Company or LLP Name feature to look for existing entities. A no-match result there does not guarantee approval, because the Registrar additionally checks phonetic similarity and trademarks, but it is the official starting point."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What makes a company name undesirable under Rule 8?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Under Rule 8 and Rule 8A of the Companies (Incorporation) Rules, 2014, a name is undesirable if it is identical or too similar to an existing company, LLP or registered trademark, including phonetic resemblance; uses restricted words without approval; suggests connection with the government or an embassy; is offensive; consists only of a country, state or city name; or matches a company dissolved within the last two years. Section 4(2) of the Companies Act also bars misleading names."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do minor spelling or spacing changes make a name unique?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The Registrar ignores differences that do not create real distinctiveness — changes in spelling, spacing, punctuation, letter case, plural forms, word order, articles like The, And or Of, and common add-on words such as India, Global or Enterprises. So Bright Solar and Brite Solar, or Apex India and Apex, are treated as the same. To be distinct, a name needs a genuinely different coined or distinctive element, not a cosmetic tweak."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which words need special approval in a company name?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Certain words require prior Central Government approval or a regulator's no-objection — for example Bank, Insurance, Stock Exchange, Mutual Fund, National, Federal, Board, Republic, Municipal, and words implying state or government patronage. Words covered by the Emblems and Names (Prevention of Improper Use) Act, 1950 are restricted. This checker flags common restricted words so you know an approval or NOC may be needed, but the list the Registrar applies is broader."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What suffix must a company name end with?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A private company name must end with Private Limited, a public company with Limited, a one person company with OPC Private Limited, and a limited liability partnership with LLP. A Section 8 not-for-profit company is exempt from Limited or Private Limited and instead uses words like Foundation, Forum, Association, Federation or Council. This tool checks that your proposed name carries an appropriate suffix for the entity type you select."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does the company name need a trademark search too?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. A name that clears the MCA can still infringe a registered trademark, and the Registrar now checks the trademark database during name approval. You should search the IPIndia public trademark database for your proposed brand before committing, and ideally register the trademark after incorporation for full protection. Company name approval and trademark protection are separate processes, and clearing one does not clear the other."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if my proposed name is rejected?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If the Central Registration Centre rejects a name, you typically get one resubmission opportunity to fix minor defects, and the Registrar will consider your second proposed name if the first is refused. If both are denied you must file a fresh application with new names and pay the fee again. Because each rejection costs time and sometimes money, screening the name against the rules first, as this tool helps you do, reduces the chance of rejection."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are the company name rules changing in 2026?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The MCA issued a public notice in April 2026 proposing to redraft Rule 8, Rule 8A and add a Rule 9A, with a table of factors ignored during similarity checks and a codified list of undesirable names. The public comment window has closed, and the amended rules take effect only on publication in the Official Gazette. The core principles this tool checks — suffix, prohibited words, distinctiveness and trademarks — remain the same in substance, so it stays useful through the change."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the Company Name Search tool free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the Patron Accounting Company Name Search tool is completely free with no signup required. All checks run in your browser and nothing is stored on our servers. It screens your proposed name against the MCA Rule 8 and Rule 8A naming guidelines and gives a rule-by-rule checklist, then links you to the official MCA and IPIndia portals for the live, binding check. It is an indicative screening aid; the final approval is decided by the Registrar."
+      }
+    }
+  ]
+}
+</script>
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation">
     <div class="toc-nav-inner">

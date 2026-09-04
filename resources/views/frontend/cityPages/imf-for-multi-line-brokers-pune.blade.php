@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,171 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>IMF for Multi-Line Brokers: IMF vs Broking Licence</title>
-    <meta name="description" content="Comparing a broking licence with IMF registration in Pune? See net worth, fees, tie-ups and timelines for multi-line brokers, plus IRDAI setup from INR 24,999.">
-    <link rel="canonical" href="/imf-for-multi-line-brokers/pune">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="IMF for Multi-Line Brokers: IMF vs Broking Licence">
-    <meta property="og:description" content="Comparing a broking licence with IMF registration in Pune? See net worth, fees, tie-ups and timelines for multi-line brokers, plus IRDAI setup from INR 24,999.">
-    <meta property="og:url" content="/imf-for-multi-line-brokers/pune">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="IMF for Multi-Line Brokers: IMF vs Broking Licence">
-    <meta name="twitter:description" content="Comparing a broking licence with IMF registration in Pune? See net worth, fees, tie-ups and timelines for multi-line brokers, plus IRDAI setup from INR 24,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "IMF Registration for Multi-Line Brokers in Pune",
-      "description": "IRDAI Insurance Marketing Firm (IMF) registration in Pune as a lighter alternative to a broking licence for multi-line insurance brokers. End-to-end incorporation, net-worth certification and Form A filing from INR 24,999.",
-      "url": "https://www.patronaccounting.com/imf-for-multi-line-brokers/pune",
-      "serviceType": "IMF Registration for Multi-Line Brokers in Pune",
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Maharashtra"
-        }
-      },
-      "provider": {
-        "@type": "LocalBusiness",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg",
-        "telephone": "+91-9459456700",
-        "email": "sales@patronaccounting.com",
-        "areaServed": {
-          "@type": "City",
-          "name": "Pune"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Pune",
-          "addressRegion": "Maharashtra",
-          "addressCountry": "IN"
-        }
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "price": "24999",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/imf-for-multi-line-brokers/pune"
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "IMF Services",
-          "item": "https://www.patronaccounting.com/imf-services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "IMF for Multi-Line Brokers in Pune",
-          "item": "https://www.patronaccounting.com/imf-for-multi-line-brokers/pune"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "datePublished": "2026-06-30T08:00:00+05:30",
-      "dateModified": "2026-06-30T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "How much does it cost to set up an IMF instead of a broking licence?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The IRDAI application fee for an IMF is INR 5,000, paid from an SBI account in the firm's name, and the minimum net worth is INR 10 lakh (INR 5 lakh in a single aspirational district). A direct broking licence needs around INR 50 lakh net worth. Patron's IMF setup is from INR 24,999 (Exl GST and Govt. Charges)."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does IMF registration take?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Document preparation and incorporation typically run 30-60 days, and IRDAI's review of a complete Form A application generally takes a few more weeks, so a clean application is usually completed within roughly 7-10 weeks end to end."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What documents are required for IMF registration?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Form A, ROC incorporation certificate with 'Insurance Marketing Firm' in the name, MoA/AoA (or LLP agreement) and PAN, an SBI bank account, a CA net-worth certificate, Principal Officer and ISP qualification and exam certificates, a 3-year business plan with org chart and infrastructure photos, insurer consent letters, NOC and Fit & Proper declarations."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can a multi-line broker still distribute across several insurers as an IMF?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. An IMF can tie up with up to 2 life, 2 general and 2 health insurers, plus AIC and ECGC, and solicit other financial products through ISPs. It is not locked to a single insurer, so you keep genuine multi-line reach with far lower capital than a broking licence."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can you help me convert from broker to IMF or set one up from scratch in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Patron handles the full path for Pune firms: company or LLP incorporation with the mandatory 'Insurance Marketing Firm' name, SBI account opening, net-worth certification, Principal Officer and ISP onboarding, Form A filing on imf.irda.gov.in and follow-through to registration."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which cities do you support for IMF registration?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We register IMFs across India, including Pune, Mumbai, Delhi, Gurugram, Bengaluru, Hyderabad, Chennai and Tier 2-3 districts. The IMF can operate in up to 3 districts, and where more than one is chosen at least one must be an aspirational district."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do I have to renew my IMF registration like a broking licence?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Since 5 February 2026 IMF registration is perpetual and the earlier 3-year renewal was discontinued. You maintain ongoing compliance, including an annual CA net-worth certificate within 3 months of the financial year close and Professional Indemnity cover, but there is no fixed-term renewal."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Who qualifies as the Principal Officer for an IMF?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The Principal Officer must hold a recognised insurance qualification (Associate/Fellow of III, Institute of Actuaries or CII London), or a PG in insurance/risk, or be a graduate with 5 years' insurance or 10 years' financial-services experience, and must complete 50 hours of IRDAI training plus the IMF exam."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -894,7 +728,180 @@
             }
         }
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>IMF for Multi-Line Brokers: IMF vs Broking Licence</title>
+    <meta name="description" content="Comparing a broking licence with IMF registration in Pune? See net worth, fees, tie-ups and timelines for multi-line brokers, plus IRDAI setup from INR 24,999.">
+    <link rel="canonical" href="/imf-for-multi-line-brokers/pune">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="IMF for Multi-Line Brokers: IMF vs Broking Licence">
+    <meta property="og:description" content="Comparing a broking licence with IMF registration in Pune? See net worth, fees, tie-ups and timelines for multi-line brokers, plus IRDAI setup from INR 24,999.">
+    <meta property="og:url" content="/imf-for-multi-line-brokers/pune">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="IMF for Multi-Line Brokers: IMF vs Broking Licence">
+    <meta name="twitter:description" content="Comparing a broking licence with IMF registration in Pune? See net worth, fees, tie-ups and timelines for multi-line brokers, plus IRDAI setup from INR 24,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "IMF Registration for Multi-Line Brokers in Pune",
+      "description": "IRDAI Insurance Marketing Firm (IMF) registration in Pune as a lighter alternative to a broking licence for multi-line insurance brokers. End-to-end incorporation, net-worth certification and Form A filing from INR 24,999.",
+      "url": "https://www.patronaccounting.com/imf-for-multi-line-brokers/pune",
+      "serviceType": "IMF Registration for Multi-Line Brokers in Pune",
+      "areaServed": {
+        "@type": "City",
+        "name": "Pune",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Maharashtra"
+        }
+      },
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg",
+        "telephone": "+91-9459456700",
+        "email": "sales@patronaccounting.com",
+        "areaServed": {
+          "@type": "City",
+          "name": "Pune"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Pune",
+          "addressRegion": "Maharashtra",
+          "addressCountry": "IN"
+        }
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "price": "24999",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.patronaccounting.com/imf-for-multi-line-brokers/pune"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "IMF Services",
+          "item": "https://www.patronaccounting.com/imf-services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "IMF for Multi-Line Brokers in Pune",
+          "item": "https://www.patronaccounting.com/imf-for-multi-line-brokers/pune"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "datePublished": "2026-06-30T08:00:00+05:30",
+      "dateModified": "2026-06-30T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much does it cost to set up an IMF instead of a broking licence?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The IRDAI application fee for an IMF is INR 5,000, paid from an SBI account in the firm's name, and the minimum net worth is INR 10 lakh (INR 5 lakh in a single aspirational district). A direct broking licence needs around INR 50 lakh net worth. Patron's IMF setup is from INR 24,999 (Exl GST and Govt. Charges)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does IMF registration take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Document preparation and incorporation typically run 30-60 days, and IRDAI's review of a complete Form A application generally takes a few more weeks, so a clean application is usually completed within roughly 7-10 weeks end to end."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What documents are required for IMF registration?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Form A, ROC incorporation certificate with 'Insurance Marketing Firm' in the name, MoA/AoA (or LLP agreement) and PAN, an SBI bank account, a CA net-worth certificate, Principal Officer and ISP qualification and exam certificates, a 3-year business plan with org chart and infrastructure photos, insurer consent letters, NOC and Fit & Proper declarations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a multi-line broker still distribute across several insurers as an IMF?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. An IMF can tie up with up to 2 life, 2 general and 2 health insurers, plus AIC and ECGC, and solicit other financial products through ISPs. It is not locked to a single insurer, so you keep genuine multi-line reach with far lower capital than a broking licence."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you help me convert from broker to IMF or set one up from scratch in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Patron handles the full path for Pune firms: company or LLP incorporation with the mandatory 'Insurance Marketing Firm' name, SBI account opening, net-worth certification, Principal Officer and ISP onboarding, Form A filing on imf.irda.gov.in and follow-through to registration."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which cities do you support for IMF registration?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We register IMFs across India, including Pune, Mumbai, Delhi, Gurugram, Bengaluru, Hyderabad, Chennai and Tier 2-3 districts. The IMF can operate in up to 3 districts, and where more than one is chosen at least one must be an aspirational district."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I have to renew my IMF registration like a broking licence?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Since 5 February 2026 IMF registration is perpetual and the earlier 3-year renewal was discontinued. You maintain ongoing compliance, including an annual CA net-worth certificate within 3 months of the financial year close and Professional Indemnity cover, but there is no fixed-term renewal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who qualifies as the Principal Officer for an IMF?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Principal Officer must hold a recognised insurance qualification (Associate/Fellow of III, Institute of Actuaries or CII London), or a PG in insurance/risk, or be a graduate with 5 years' insurance or 10 years' financial-services experience, and must complete 50 hours of IRDAI training plus the IMF exam."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1746,7 +1753,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

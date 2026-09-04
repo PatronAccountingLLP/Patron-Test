@@ -1,160 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>GST ITC Advisory and Optimization 2026 | Patron Accounting</title>
-    <meta name="description" content="Premium GST ITC advisory and optimization covering Section 16-18, Rule 36(4), 37, 42, 43, audit defence, vendor vetting. Patron from Rs 9,999 one-time.">
-    <link rel="canonical" href="/gst-itc-advisory-and-optimization">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="GST ITC Advisory and Optimization 2026 | Patron Accounting">
-    <meta property="og:description" content="Premium GST ITC advisory and optimization covering Section 16-18, Rule 36(4), 37, 42, 43, audit defence, vendor vetting. Patron from Rs 9,999 one-time.">
-    <meta property="og:url" content="/gst-itc-advisory-and-optimization">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="GST ITC Advisory and Optimization 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Premium GST ITC advisory and optimization covering Section 16-18, Rule 36(4), 37, 42, 43, audit defence, vendor vetting. Patron from Rs 9,999 one-time.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/gst-itc-advisory-and-optimization/#service",
-        "name": "GST ITC Advisory and Optimization: Strategic Review in India",
-        "description": "Premium one-time strategic GST input tax credit advisory and optimization engagement covering six structural pillars - Section 16 eligibility, Section 17 apportionment and blocked credits, Section 18 special circumstances, Rule 36(4) GSTR-2B cap, Rule 37 and 37A reversals, and Rule 42 and 43 mixed-supply formulas of the CGST Act and Rules 2017. Includes pre-investment analysis, vendor compliance vetting across top 200 suppliers, ITC maximisation with 15 to 25 percent typical recovery uplift, Section 16(5) and 16(6) rectification under Notification 22/2024-Central Tax, and audit defence positioning across Section 61, 65, 66, 73, and 74 starting from INR 9,999 per engagement.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-itc-advisory-and-optimization" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [
-            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
-            { "@type": "Thing", "name": "Tax advisor", "sameAs": "https://en.wikipedia.org/wiki/Tax_advisor" }
-        ],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "GST ITC Advisory and Optimization Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "Standard Strategic Review",
-                    "priceCurrency": "INR",
-                    "price": "9999",
-                    "description": "Single GSTIN six-pillar audit, vendor scorecard, 90-day roadmap"
-                },
-                {
-                    "@type": "Offer",
-                    "name": "Comprehensive Review",
-                    "priceCurrency": "INR",
-                    "price": "24999",
-                    "description": "Single GSTIN multi-FY audit, Section 16(5) rectification, audit defence memo"
-                },
-                {
-                    "@type": "Offer",
-                    "name": "Multi-State Group Review",
-                    "priceCurrency": "INR",
-                    "price": "49999",
-                    "description": "Up to 5 GSTINs same PAN, consolidated scorecard, multi-state implementation"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/gst-itc-advisory-and-optimization/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
-            { "@type": "ListItem", "position": 3, "name": "GST ITC Advisory and Optimization", "item": "https://www.patronaccounting.com/gst-itc-advisory-and-optimization" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/gst-itc-advisory-and-optimization/#faq",
-        "datePublished": "2026-05-27T08:00:00+05:30",
-        "dateModified": "2026-06-01T08:00:00+05:30",
-        "mainEntity": [
-
-            {
-                "@type": "Question",
-                "name": "What is GST ITC advisory and optimization?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "GST ITC advisory and optimization is a premium one-time strategic consultancy engagement that audits and re-architects a registered taxpayer input tax credit framework across all six structural pillars - Section 16 eligibility, Section 17 apportionment and blocked credits, Section 18 special circumstances, Rule 36(4) GSTR-2B cap, Rule 37/37A reversals, and Rule 42/43 mixed-supply formulas. The engagement covers pre-investment analysis, vendor compliance vetting, ITC maximisation, Section 16(5)/(6) rectification, and audit defence positioning."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How is this different from monthly GST ITC compliance services?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Monthly compliance services focus on transactional execution - GSTR-2B reconciliation, GSTR-3B filing, monthly reversal entries. Strategic ITC advisory steps outside the monthly cycle and audits the architecture itself - cross-provision eligibility verification, vendor scorecard at top 200 supplier level, maximisation roadmap with quantified Rs uplift, retrospective rectification under Section 16(5)/(6), and audit defence across all open notices. Different scope, different stakeholder (CFO vs finance executive), different cadence."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What ITC recovery uplift can be expected from the engagement?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Across 1,500 plus strategic ITC reviews completed by Patron Accounting, the typical ITC recovery uplift ranges from 15 to 25 percent of the annual ITC base. Sources of uplift include under-claimed RCM under Section 9(3) and 9(4), missed import IGST via Bill of Entry, employee benefit ITC where statutory mandate applies, plant and machinery boundary clarity post Finance Act 2025, and Section 16(5) retrospective rectification of past demand orders for FY 2017-18 to 2020-21."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "When should a business engage the strategic ITC review?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Trigger events include pre-capex (Rs 5 crore plus machinery, factory, or warehouse purchase), pre-expansion (new state or new GSTIN), post-IMS framework launch (October 2024 conversion), post-acquisition or change in constitution under Section 18(3), post Section 61/73/74 notice for audit defence, annual CFO review before FY close, Section 16(5) rectification window for past demand orders, and vendor base overhaul for compliance enforcement."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What deliverables come with the engagement?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Deliverables include six-pillar ITC health report with red amber green scorecards, vendor compliance scorecard for top 200 suppliers with Rule 37A risk profile, ITC maximisation roadmap with quantified Rs uplift, Section 16(5)/(6) rectification filing pack with Annexure A and revised order tracking, audit defence memo for all open notices with reply drafts, 90-day implementation roadmap with weekly milestones, and executive summary for CFO and audit committee."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How does the engagement interact with our existing monthly compliance vendor?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "The strategic advisory is designed to complement, not replace, monthly compliance. The output (six-pillar health report, vendor scorecard, maximisation roadmap, audit defence memo, implementation roadmap) is delivered to your existing compliance team or external vendor with full handover. Patron can also transition to a monthly retainer for sustained execution if continuity is preferred."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the typical engagement timeline and pricing?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Single-GSTIN comprehensive engagements close in 15 to 20 working days at INR 9,999 starting fee. Multi-state group engagements covering up to 5 GSTINs same PAN run 25 to 30 working days at INR 49,999. Enterprise engagements with 5 plus GSTINs or pre-IPO due diligence are priced on request. Optional audit defence retainer transitions to INR 14,999 per month for sustained notice handling."
-                }
-            }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -768,7 +618,162 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>GST ITC Advisory and Optimization 2026 | Patron Accounting</title>
+    <meta name="description" content="Premium GST ITC advisory and optimization covering Section 16-18, Rule 36(4), 37, 42, 43, audit defence, vendor vetting. Patron from Rs 9,999 one-time.">
+    <link rel="canonical" href="/gst-itc-advisory-and-optimization">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="GST ITC Advisory and Optimization 2026 | Patron Accounting">
+    <meta property="og:description" content="Premium GST ITC advisory and optimization covering Section 16-18, Rule 36(4), 37, 42, 43, audit defence, vendor vetting. Patron from Rs 9,999 one-time.">
+    <meta property="og:url" content="/gst-itc-advisory-and-optimization">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GST ITC Advisory and Optimization 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Premium GST ITC advisory and optimization covering Section 16-18, Rule 36(4), 37, 42, 43, audit defence, vendor vetting. Patron from Rs 9,999 one-time.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/gst-itc-advisory-and-optimization/#service",
+        "name": "GST ITC Advisory and Optimization: Strategic Review in India",
+        "description": "Premium one-time strategic GST input tax credit advisory and optimization engagement covering six structural pillars - Section 16 eligibility, Section 17 apportionment and blocked credits, Section 18 special circumstances, Rule 36(4) GSTR-2B cap, Rule 37 and 37A reversals, and Rule 42 and 43 mixed-supply formulas of the CGST Act and Rules 2017. Includes pre-investment analysis, vendor compliance vetting across top 200 suppliers, ITC maximisation with 15 to 25 percent typical recovery uplift, Section 16(5) and 16(6) rectification under Notification 22/2024-Central Tax, and audit defence positioning across Section 61, 65, 66, 73, and 74 starting from INR 9,999 per engagement.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-itc-advisory-and-optimization" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [
+            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
+            { "@type": "Thing", "name": "Tax advisor", "sameAs": "https://en.wikipedia.org/wiki/Tax_advisor" }
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "GST ITC Advisory and Optimization Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "Standard Strategic Review",
+                    "priceCurrency": "INR",
+                    "price": "9999",
+                    "description": "Single GSTIN six-pillar audit, vendor scorecard, 90-day roadmap"
+                },
+                {
+                    "@type": "Offer",
+                    "name": "Comprehensive Review",
+                    "priceCurrency": "INR",
+                    "price": "24999",
+                    "description": "Single GSTIN multi-FY audit, Section 16(5) rectification, audit defence memo"
+                },
+                {
+                    "@type": "Offer",
+                    "name": "Multi-State Group Review",
+                    "priceCurrency": "INR",
+                    "price": "49999",
+                    "description": "Up to 5 GSTINs same PAN, consolidated scorecard, multi-state implementation"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/gst-itc-advisory-and-optimization/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
+            { "@type": "ListItem", "position": 3, "name": "GST ITC Advisory and Optimization", "item": "https://www.patronaccounting.com/gst-itc-advisory-and-optimization" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/gst-itc-advisory-and-optimization/#faq",
+        "datePublished": "2026-05-27T08:00:00+05:30",
+        "dateModified": "2026-06-01T08:00:00+05:30",
+        "mainEntity": [
+
+            {
+                "@type": "Question",
+                "name": "What is GST ITC advisory and optimization?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "GST ITC advisory and optimization is a premium one-time strategic consultancy engagement that audits and re-architects a registered taxpayer input tax credit framework across all six structural pillars - Section 16 eligibility, Section 17 apportionment and blocked credits, Section 18 special circumstances, Rule 36(4) GSTR-2B cap, Rule 37/37A reversals, and Rule 42/43 mixed-supply formulas. The engagement covers pre-investment analysis, vendor compliance vetting, ITC maximisation, Section 16(5)/(6) rectification, and audit defence positioning."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How is this different from monthly GST ITC compliance services?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Monthly compliance services focus on transactional execution - GSTR-2B reconciliation, GSTR-3B filing, monthly reversal entries. Strategic ITC advisory steps outside the monthly cycle and audits the architecture itself - cross-provision eligibility verification, vendor scorecard at top 200 supplier level, maximisation roadmap with quantified Rs uplift, retrospective rectification under Section 16(5)/(6), and audit defence across all open notices. Different scope, different stakeholder (CFO vs finance executive), different cadence."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What ITC recovery uplift can be expected from the engagement?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Across 1,500 plus strategic ITC reviews completed by Patron Accounting, the typical ITC recovery uplift ranges from 15 to 25 percent of the annual ITC base. Sources of uplift include under-claimed RCM under Section 9(3) and 9(4), missed import IGST via Bill of Entry, employee benefit ITC where statutory mandate applies, plant and machinery boundary clarity post Finance Act 2025, and Section 16(5) retrospective rectification of past demand orders for FY 2017-18 to 2020-21."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "When should a business engage the strategic ITC review?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Trigger events include pre-capex (Rs 5 crore plus machinery, factory, or warehouse purchase), pre-expansion (new state or new GSTIN), post-IMS framework launch (October 2024 conversion), post-acquisition or change in constitution under Section 18(3), post Section 61/73/74 notice for audit defence, annual CFO review before FY close, Section 16(5) rectification window for past demand orders, and vendor base overhaul for compliance enforcement."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What deliverables come with the engagement?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Deliverables include six-pillar ITC health report with red amber green scorecards, vendor compliance scorecard for top 200 suppliers with Rule 37A risk profile, ITC maximisation roadmap with quantified Rs uplift, Section 16(5)/(6) rectification filing pack with Annexure A and revised order tracking, audit defence memo for all open notices with reply drafts, 90-day implementation roadmap with weekly milestones, and executive summary for CFO and audit committee."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How does the engagement interact with our existing monthly compliance vendor?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The strategic advisory is designed to complement, not replace, monthly compliance. The output (six-pillar health report, vendor scorecard, maximisation roadmap, audit defence memo, implementation roadmap) is delivered to your existing compliance team or external vendor with full handover. Patron can also transition to a monthly retainer for sustained execution if continuity is preferred."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the typical engagement timeline and pricing?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Single-GSTIN comprehensive engagements close in 15 to 20 working days at INR 9,999 starting fee. Multi-state group engagements covering up to 5 GSTINs same PAN run 25 to 30 working days at INR 49,999. Enterprise engagements with 5 plus GSTINs or pre-IPO due diligence are priced on request. Optional audit defence retainer transitions to INR 14,999 per month for sustained notice handling."
+                }
+            }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1717,17 +1722,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1750,8 +1748,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1788,7 +1784,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1799,4 +1794,20 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+
 

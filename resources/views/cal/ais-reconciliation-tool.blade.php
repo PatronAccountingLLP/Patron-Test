@@ -1,212 +1,9 @@
 @extends('layouts.app')
-@section('meta')
-    <title>AIS Reconciliation Tool | Match AIS, 26AS & Bank 2026</title>
-    <meta name="description" content="Free AIS reconciliation tool: match AIS, Form 26AS and bank records to flag mismatches before ITR filing for AY 2026-27. Avoid notices. Reconcile now!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/ais-reconciliation-tool">
-
-    <!-- Open Graph -->
-    <meta property="og:title" content="AIS Reconciliation Tool — Match AIS, 26AS & Bank Records">
-    <meta property="og:description" content="Match your Annual Information Statement, Form 26AS, and bank records side by side to catch ITR mismatches before they trigger Section 143(1) notices.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/ais-reconciliation-tool">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="AIS Reconciliation Tool — Match AIS, 26AS & Bank Records">
-    <meta name="twitter:description" content="Match your Annual Information Statement, Form 26AS, and bank records side by side to catch ITR mismatches before they trigger notices.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-
-@endsection
-@section('schema')
-    <!-- Schema: WebApplication -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "AIS Reconciliation Tool",
-      "description": "AIS Reconciliation Tool compares your Annual Information Statement (AIS), Form 26AS, and bank or broker records side by side, flags mismatches, and generates an action checklist before you file your Income Tax Return for AY 2026-27.",
-      "url": "https://www.patronaccounting.com/tools/ais-reconciliation-tool",
-      "applicationCategory": "BusinessApplication",
-      "operatingSystem": "Any",
-      "inLanguage": "en-IN",
-      "isAccessibleForFree": true,
-      "datePublished": "2026-05-06T08:00:00+05:30",
-      "dateModified": "2026-05-08T08:00:00+05:30",
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "INR"
-      },
-      "reviewedBy": {
-        "@type": "Person",
-        "@id": "https://patronaccounting.com/#founder",
-        "name": "CA Sundram Gupta",
-        "jobTitle": "Founder & Chartered Accountant",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Institute of Chartered Accountants of India",
-            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-          }
-        }]
-      },
-      "publisher": { "@id": "https://patronaccounting.com/#organization" },
-      "provider": {
-        "@id": "https://patronaccounting.com/#organization"
-      }
-    }
-    </script>
-
-    <!-- Schema: BreadcrumbList -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "AIS Reconciliation Tool", "item": "https://www.patronaccounting.com/tools/ais-reconciliation-tool"}
-      ]
-    }
-    </script>
-
-    <!-- Schema: FAQPage -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is AIS reconciliation and why is it important before filing ITR?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "AIS reconciliation is the process of matching the Annual Information Statement on the Income Tax portal with Form 26AS and your own bank, broker, and salary records. It is critical because the department auto-processes returns under Section 143(1) by comparing your declared income against AIS data. Any mismatch can trigger an intimation, additional demand, defective return notice, or scrutiny."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between AIS, Form 26AS and TIS?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Form 26AS is now limited to TDS, TCS, advance tax, and refund credits linked to your PAN. AIS is a wider statement covering interest, dividends, securities trades, property transactions, foreign remittances, and SFT entries. TIS is the Taxpayer Information Summary, an aggregated category-wise total derived from AIS that is used to pre-fill your ITR."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Will Form 26AS still apply for FY 2025-26 ITR filing in 2026?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. For FY 2025-26 (Assessment Year 2026-27) returns filed in 2026, you will still see Form 26AS and AIS under the Income Tax Act 1961. Form 168 replaces Form 26AS only for Tax Year 2026-27 onwards (income from 1 April 2026). Pre-1 April 2026 proceedings continue under the old Act, forms, and nomenclature."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do I download AIS, Form 26AS and TIS from the Income Tax portal?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Log in to incometax.gov.in. To get AIS and TIS, go to Services then Annual Information Statement and click Proceed. To get Form 26AS, go to e-File then Income Tax Returns and click View Form 26AS, which redirects to the TRACES portal. AIS can be downloaded as PDF, JSON, or CSV. Form 26AS export is available as PDF or HTML."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What should I do if AIS shows income I never received?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Open the AIS section on the e-filing portal, locate the disputed transaction, and click Give Feedback. Mark it as Information is incorrect, Information relates to other PAN, Information is duplicate, or Income is not taxable, as applicable. Attach supporting documents and keep a screenshot of the feedback acknowledgement. The reporting source is notified and TIS updates automatically once processed."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What if my bank or broker records show more income than AIS?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Always declare income based on your own books and supporting documents, not on AIS alone. The Income Tax Department itself states AIS may not contain every item relevant to you. Under-reporting carries penalties up to 200 percent under Section 270A. If AIS understates your income, simply file the ITR with the higher figure backed by bank statements or contract notes."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I claim TDS that appears in AIS but is missing from Form 26AS?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The portal restricts TDS credit in your ITR to amounts reflected in Form 26AS. If TDS is in AIS but missing from Form 26AS, contact the deductor and ask them to file a revised TDS return with your correct PAN. Once the revised return is processed by CPC, the credit will appear in Form 26AS and you can claim it in your ITR."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens if I file my ITR without reconciling AIS first?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "CPC processes every return under Section 143(1) by matching declared income against AIS. If AIS shows higher income, you will receive an intimation adjusting your tax demand. Persistent mismatches can escalate to a defective return notice under Section 139(9), reassessment under Section 148, or full scrutiny under Section 143(3). Refunds are also withheld until mismatches are resolved."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does AIS feedback take to process?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "There is no fixed timeline. In practice, simple feedback such as duplicate entries or wrong PAN takes two to four weeks to reflect in TIS. Disputes that require the source entity, such as a bank or registrar, to revise its filing can take six to eight weeks. Always start reconciliation at least three to four weeks before your ITR due date to allow time for corrections."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I rectify my ITR after filing if I missed AIS reconciliation?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. You can file a revised return under Section 139(5) before 31 December 2026 for AY 2026-27, or an updated return (ITR-U) under Section 139(8A) within 48 months of the relevant assessment year on payment of additional tax. For arithmetic errors only, a Section 154 rectification is available. Filing voluntarily before a notice issues reduces penalty exposure significantly."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is Form 168 and when does it apply?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Form 168 is the new Annual Tax Statement notified under the Income Tax Rules 2026, replacing Form 26AS under the Income Tax Act 2025. It applies from 1 April 2026 for Tax Year 2026-27 onwards. Form 16 also becomes Form 130, and Form 16A becomes Form 131. Existing forms continue for FY 2025-26 returns and all earlier proceedings under transitional provisions."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does the Income Tax Department use AIS for Section 143(1) auto-processing?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. CPC Bengaluru runs every return through automated comparison against AIS, TIS, and Form 26AS. Any income reflected in AIS but not declared in your ITR triggers a prima facie adjustment under Section 143(1)(a). You receive an intimation with a 30-day window to respond. Failure to respond leads to a final order with tax demand, interest, and possible Section 270A penalty."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does this AIS Reconciliation Tool store or transmit my financial data?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. The tool runs entirely in your browser. No values you enter are sent to any server, saved to a database, or shared with third parties. The page contains no analytics on form fields. Once you close the tab, all data is cleared. You can run it offline after the page loads. For maximum privacy, use private or incognito browsing mode."
-          }
-        }
-      ]
-    }
-    </script>
-@endsection
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
-    <style>
+@push('styles')
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
         :root {
             --primary: #15365f;
             --primary-light: #1f4a7a;
@@ -1190,6 +987,211 @@ button, .toggle-btn, .toggle-btn.active, .faq-question, .sidebar-link, .toc-nav 
     .schedule-table tbody td, .rate-table tbody td, .recon-table tbody td { padding: 8px 10px; }
 }
     </style>
+@endpush
+
+@section('meta')
+    <title>AIS Reconciliation Tool | Match AIS, 26AS & Bank 2026</title>
+    <meta name="description" content="Free AIS reconciliation tool: match AIS, Form 26AS and bank records to flag mismatches before ITR filing for AY 2026-27. Avoid notices. Reconcile now!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/ais-reconciliation-tool">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="AIS Reconciliation Tool — Match AIS, 26AS & Bank Records">
+    <meta property="og:description" content="Match your Annual Information Statement, Form 26AS, and bank records side by side to catch ITR mismatches before they trigger Section 143(1) notices.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/ais-reconciliation-tool">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="AIS Reconciliation Tool — Match AIS, 26AS & Bank Records">
+    <meta name="twitter:description" content="Match your Annual Information Statement, Form 26AS, and bank records side by side to catch ITR mismatches before they trigger notices.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+
+@endsection
+@section('schema')
+    <!-- Schema: WebApplication -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "AIS Reconciliation Tool",
+      "description": "AIS Reconciliation Tool compares your Annual Information Statement (AIS), Form 26AS, and bank or broker records side by side, flags mismatches, and generates an action checklist before you file your Income Tax Return for AY 2026-27.",
+      "url": "https://www.patronaccounting.com/tools/ais-reconciliation-tool",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Any",
+      "inLanguage": "en-IN",
+      "isAccessibleForFree": true,
+      "datePublished": "2026-05-06T08:00:00+05:30",
+      "dateModified": "2026-05-08T08:00:00+05:30",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "INR"
+      },
+      "reviewedBy": {
+        "@type": "Person",
+        "@id": "https://patronaccounting.com/#founder",
+        "name": "CA Sundram Gupta",
+        "jobTitle": "Founder & Chartered Accountant",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Institute of Chartered Accountants of India",
+            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+          }
+        }]
+      },
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": {
+        "@id": "https://patronaccounting.com/#organization"
+      }
+    }
+    </script>
+
+    <!-- Schema: BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "AIS Reconciliation Tool", "item": "https://www.patronaccounting.com/tools/ais-reconciliation-tool"}
+      ]
+    }
+    </script>
+
+    <!-- Schema: FAQPage -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is AIS reconciliation and why is it important before filing ITR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AIS reconciliation is the process of matching the Annual Information Statement on the Income Tax portal with Form 26AS and your own bank, broker, and salary records. It is critical because the department auto-processes returns under Section 143(1) by comparing your declared income against AIS data. Any mismatch can trigger an intimation, additional demand, defective return notice, or scrutiny."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between AIS, Form 26AS and TIS?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Form 26AS is now limited to TDS, TCS, advance tax, and refund credits linked to your PAN. AIS is a wider statement covering interest, dividends, securities trades, property transactions, foreign remittances, and SFT entries. TIS is the Taxpayer Information Summary, an aggregated category-wise total derived from AIS that is used to pre-fill your ITR."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will Form 26AS still apply for FY 2025-26 ITR filing in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. For FY 2025-26 (Assessment Year 2026-27) returns filed in 2026, you will still see Form 26AS and AIS under the Income Tax Act 1961. Form 168 replaces Form 26AS only for Tax Year 2026-27 onwards (income from 1 April 2026). Pre-1 April 2026 proceedings continue under the old Act, forms, and nomenclature."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I download AIS, Form 26AS and TIS from the Income Tax portal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Log in to incometax.gov.in. To get AIS and TIS, go to Services then Annual Information Statement and click Proceed. To get Form 26AS, go to e-File then Income Tax Returns and click View Form 26AS, which redirects to the TRACES portal. AIS can be downloaded as PDF, JSON, or CSV. Form 26AS export is available as PDF or HTML."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I do if AIS shows income I never received?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Open the AIS section on the e-filing portal, locate the disputed transaction, and click Give Feedback. Mark it as Information is incorrect, Information relates to other PAN, Information is duplicate, or Income is not taxable, as applicable. Attach supporting documents and keep a screenshot of the feedback acknowledgement. The reporting source is notified and TIS updates automatically once processed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if my bank or broker records show more income than AIS?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Always declare income based on your own books and supporting documents, not on AIS alone. The Income Tax Department itself states AIS may not contain every item relevant to you. Under-reporting carries penalties up to 200 percent under Section 270A. If AIS understates your income, simply file the ITR with the higher figure backed by bank statements or contract notes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I claim TDS that appears in AIS but is missing from Form 26AS?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The portal restricts TDS credit in your ITR to amounts reflected in Form 26AS. If TDS is in AIS but missing from Form 26AS, contact the deductor and ask them to file a revised TDS return with your correct PAN. Once the revised return is processed by CPC, the credit will appear in Form 26AS and you can claim it in your ITR."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if I file my ITR without reconciling AIS first?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CPC processes every return under Section 143(1) by matching declared income against AIS. If AIS shows higher income, you will receive an intimation adjusting your tax demand. Persistent mismatches can escalate to a defective return notice under Section 139(9), reassessment under Section 148, or full scrutiny under Section 143(3). Refunds are also withheld until mismatches are resolved."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does AIS feedback take to process?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There is no fixed timeline. In practice, simple feedback such as duplicate entries or wrong PAN takes two to four weeks to reflect in TIS. Disputes that require the source entity, such as a bank or registrar, to revise its filing can take six to eight weeks. Always start reconciliation at least three to four weeks before your ITR due date to allow time for corrections."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I rectify my ITR after filing if I missed AIS reconciliation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. You can file a revised return under Section 139(5) before 31 December 2026 for AY 2026-27, or an updated return (ITR-U) under Section 139(8A) within 48 months of the relevant assessment year on payment of additional tax. For arithmetic errors only, a Section 154 rectification is available. Filing voluntarily before a notice issues reduces penalty exposure significantly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Form 168 and when does it apply?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Form 168 is the new Annual Tax Statement notified under the Income Tax Rules 2026, replacing Form 26AS under the Income Tax Act 2025. It applies from 1 April 2026 for Tax Year 2026-27 onwards. Form 16 also becomes Form 130, and Form 16A becomes Form 131. Existing forms continue for FY 2025-26 returns and all earlier proceedings under transitional provisions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does the Income Tax Department use AIS for Section 143(1) auto-processing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. CPC Bengaluru runs every return through automated comparison against AIS, TIS, and Form 26AS. Any income reflected in AIS but not declared in your ITR triggers a prima facie adjustment under Section 143(1)(a). You receive an intimation with a 30-day window to respond. Failure to respond leads to a final order with tax demand, interest, and possible Section 270A penalty."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does this AIS Reconciliation Tool store or transmit my financial data?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. The tool runs entirely in your browser. No values you enter are sent to any server, saved to a database, or shared with third parties. The page contains no analytics on form fields. Once you close the tab, all data is cleared. You can run it offline after the page loads. For maximum privacy, use private or incognito browsing mode."
+          }
+        }
+      ]
+    }
+    </script>
+@endsection
 @section('content')
 
 <!-- Sticky TOC Nav -->

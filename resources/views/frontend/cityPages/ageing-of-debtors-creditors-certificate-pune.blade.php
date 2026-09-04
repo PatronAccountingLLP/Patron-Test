@@ -1,143 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Ageing of Debtors and Creditors Certificate 2026 | Patron Accounting</title>
-    <meta name="description" content="CA debtors and creditors ageing certificate in Pune for due diligence and bank loans. Age-wise buckets, UDIN-verified. From INR 2,499.">
-    <link rel="canonical" href="/ageing-of-debtors-creditors-certificate/pune">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Ageing of Debtors and Creditors Certificate 2026 | Patron Accounting">
-    <meta property="og:description" content="CA debtors and creditors ageing certificate in Pune for due diligence and bank loans. Age-wise buckets, UDIN-verified. From INR 2,499.">
-    <meta property="og:url" content="/ageing-of-debtors-creditors-certificate/pune">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Ageing of Debtors and Creditors Certificate 2026 | Patron Accounting">
-    <meta name="twitter:description" content="CA debtors and creditors ageing certificate in Pune for due diligence and bank loans. Age-wise buckets, UDIN-verified. From INR 2,499.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/ageing-of-debtors-creditors-certificate/pune/#service",
-        "name": "Ageing of Debtors and Creditors Certificate in Pune",
-        "description": "CA-certified age-wise analysis of debtors and creditors in Pune, grouping receivables and payables into buckets such as 0-30, 31-60, 61-90, and over 90 days, identifying eligible and doubtful amounts for financial due diligence and bank working-capital appraisal, issued with a mandatory 18-digit UDIN.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/ageing-of-debtors-creditors-certificate/pune" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Accounts receivable", "sameAs": "https://en.wikipedia.org/wiki/Accounts_receivable" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Ageing of Debtors and Creditors Certificate Service Plans",
-            "itemListElement": [
-                { "@type": "Offer", "name": "Ageing of Debtors and Creditors Certificate", "price": "2499", "priceCurrency": "INR", "description": "Starting from INR 2,499 (Exl GST and Govt. Charges)" }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/ageing-of-debtors-creditors-certificate/pune/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
-            { "@type": "ListItem", "position": 3, "name": "Ageing of Debtors and Creditors Certificate", "item": "https://www.patronaccounting.com/ageing-of-debtors-creditors-certificate/pune" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/ageing-of-debtors-creditors-certificate/pune/#faq",
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "mainEntity": [
-            { "@type": "Question", "name": "What is an ageing of debtors and creditors certificate?", "acceptedAnswer": { "@type": "Answer", "text": "It is a Chartered Accountant\u0027s certificate presenting an age-wise classification of a business\u0027s sundry debtors and creditors as on a date, grouped by how long each amount has been outstanding, typically into 0-30, 31-60, 61-90, and over 90 day buckets. It identifies eligible and doubtful amounts and declares that the balances arose from genuine business transactions, with an 18-digit UDIN." } },
-{ "@type": "Question", "name": "Why do banks need a debtor ageing certificate?", "acceptedAnswer": { "@type": "Answer", "text": "Banks fund working-capital limits against receivables but treat only current debtors as good security. They typically count only debtors within a cover period, often 90 days, when computing drawing power, and exclude older or doubtful dues. A CA-certified ageing certificate gives the bank the eligible book-debt figure and confirms the receivables are genuine, supporting drawing power and CMA appraisal." } },
-{ "@type": "Question", "name": "How is a debtor ageing certificate used in due diligence?", "acceptedAnswer": { "@type": "Answer", "text": "In financial due diligence, a private equity investor or strategic acquirer uses debtor ageing to assess how quickly the business converts revenue into cash, the proportion of overdue or doubtful receivables, and customer concentration. The creditor ageing shows supplier payment discipline and reliance. Together they reveal working-capital quality and risks that balance-sheet totals hide, informing valuation and deal terms." } },
-{ "@type": "Question", "name": "What are ageing buckets?", "acceptedAnswer": { "@type": "Answer", "text": "Ageing buckets are time bands into which outstanding amounts are grouped based on how long they have been unpaid, commonly 0-30, 31-60, 61-90, and over 90 days, with some certificates using longer bands such as over six months. Splitting receivables and payables this way shows which dues are current, which are overdue, and which are doubtful, making collection priorities and credit risk clear." } },
-{ "@type": "Question", "name": "What is the difference between debtors and creditors ageing?", "acceptedAnswer": { "@type": "Answer", "text": "Debtors ageing analyses receivables, the money customers owe the business, and reveals collection speed and bad-debt risk. Creditors ageing analyses payables, the money the business owes suppliers, and reveals payment discipline and how long dues have remained outstanding. Both are used side by side to understand working capital, and a single ageing certificate often presents both with their respective buckets." } },
-{ "@type": "Question", "name": "How fast can Patron Accounting issue it in Pune?", "acceptedAnswer": { "@type": "Answer", "text": "For Pune businesses with reconciled debtor and creditor ledgers ready, we typically issue the ageing certificate within one to three working days, with express turnaround where the books are clean. Detailed due-diligence ageing with DSO and concentration analysis may take a little longer. We align the buckets to the bank\u0027s or investor\u0027s format and work both in-person and remotely across the city." } }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/ageing-of-debtors-creditors-certificate/pune",
-        "name": "Ageing of Debtors and Creditors Certificate in Pune",
-        "description": "CA debtors and creditors ageing certificate in Pune for due diligence and bank loans. Age-wise buckets, UDIN-verified. From INR 2,499.",
-        "url": "https://www.patronaccounting.com/ageing-of-debtors-creditors-certificate/pune",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/ageing-of-debtors-creditors-certificate/pune/#service" },
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/ageing-of-debtors-creditors-certificate/pune/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How an Ageing Certificate Is Prepared",
-        "description": "The step-by-step process Patron Accounting follows to classify debtors and creditors by age and issue a UDIN-backed ageing certificate in Pune.",
-        "totalTime": "P3D",
-        "step": [
-            { "@type": "HowToStep", "position": 1, "name": "Confirm purpose and date", "text": "Confirm the purpose (due diligence or lender) and the reference date and bucket structure required." },
-{ "@type": "HowToStep", "position": 2, "name": "Collect ledgers", "text": "Collect debtor and creditor ledgers, the invoice register, and sales and purchase data." },
-{ "@type": "HowToStep", "position": 3, "name": "Verify balances", "text": "Verify balances under SA 500 (Audit Evidence) and SA 505 (External Confirmations), reconciling to the books." },
-{ "@type": "HowToStep", "position": 4, "name": "Classify into buckets", "text": "Classify each outstanding amount into the correct age bucket and flag doubtful items." },
-{ "@type": "HowToStep", "position": 5, "name": "Compute eligibility / DSO", "text": "Compute eligible book debts for the lender, or DSO and concentration analysis for due diligence." },
-{ "@type": "HowToStep", "position": 6, "name": "Issue the certificate", "text": "Issue the certificate with the genuine-transaction statement and UDIN, in the required format." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Ageing of Debtors and Creditors Certificate Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Ageing certificate", "description": "A CA-certified age-wise classification of a business\u0027s sundry debtors and creditors as on a date." },
-{ "@type": "DefinedTerm", "name": "Ageing buckets", "description": "Time bands such as 0-30, 31-60, 61-90, and over 90 days into which outstanding amounts are grouped." },
-{ "@type": "DefinedTerm", "name": "Drawing power", "description": "The lending limit computed from eligible book debts, typically debtors within a 90-day cover period." },
-{ "@type": "DefinedTerm", "name": "DSO", "description": "Days Sales Outstanding - a measure of how quickly receivables are collected, used in due diligence." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -751,7 +618,145 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Ageing of Debtors and Creditors Certificate 2026 | Patron Accounting</title>
+    <meta name="description" content="CA debtors and creditors ageing certificate in Pune for due diligence and bank loans. Age-wise buckets, UDIN-verified. From INR 2,499.">
+    <link rel="canonical" href="/ageing-of-debtors-creditors-certificate/pune">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Ageing of Debtors and Creditors Certificate 2026 | Patron Accounting">
+    <meta property="og:description" content="CA debtors and creditors ageing certificate in Pune for due diligence and bank loans. Age-wise buckets, UDIN-verified. From INR 2,499.">
+    <meta property="og:url" content="/ageing-of-debtors-creditors-certificate/pune">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ageing of Debtors and Creditors Certificate 2026 | Patron Accounting">
+    <meta name="twitter:description" content="CA debtors and creditors ageing certificate in Pune for due diligence and bank loans. Age-wise buckets, UDIN-verified. From INR 2,499.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/ageing-of-debtors-creditors-certificate/pune/#service",
+        "name": "Ageing of Debtors and Creditors Certificate in Pune",
+        "description": "CA-certified age-wise analysis of debtors and creditors in Pune, grouping receivables and payables into buckets such as 0-30, 31-60, 61-90, and over 90 days, identifying eligible and doubtful amounts for financial due diligence and bank working-capital appraisal, issued with a mandatory 18-digit UDIN.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/ageing-of-debtors-creditors-certificate/pune" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Accounts receivable", "sameAs": "https://en.wikipedia.org/wiki/Accounts_receivable" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Ageing of Debtors and Creditors Certificate Service Plans",
+            "itemListElement": [
+                { "@type": "Offer", "name": "Ageing of Debtors and Creditors Certificate", "price": "2499", "priceCurrency": "INR", "description": "Starting from INR 2,499 (Exl GST and Govt. Charges)" }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/ageing-of-debtors-creditors-certificate/pune/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
+            { "@type": "ListItem", "position": 3, "name": "Ageing of Debtors and Creditors Certificate", "item": "https://www.patronaccounting.com/ageing-of-debtors-creditors-certificate/pune" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/ageing-of-debtors-creditors-certificate/pune/#faq",
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "mainEntity": [
+            { "@type": "Question", "name": "What is an ageing of debtors and creditors certificate?", "acceptedAnswer": { "@type": "Answer", "text": "It is a Chartered Accountant\u0027s certificate presenting an age-wise classification of a business\u0027s sundry debtors and creditors as on a date, grouped by how long each amount has been outstanding, typically into 0-30, 31-60, 61-90, and over 90 day buckets. It identifies eligible and doubtful amounts and declares that the balances arose from genuine business transactions, with an 18-digit UDIN." } },
+{ "@type": "Question", "name": "Why do banks need a debtor ageing certificate?", "acceptedAnswer": { "@type": "Answer", "text": "Banks fund working-capital limits against receivables but treat only current debtors as good security. They typically count only debtors within a cover period, often 90 days, when computing drawing power, and exclude older or doubtful dues. A CA-certified ageing certificate gives the bank the eligible book-debt figure and confirms the receivables are genuine, supporting drawing power and CMA appraisal." } },
+{ "@type": "Question", "name": "How is a debtor ageing certificate used in due diligence?", "acceptedAnswer": { "@type": "Answer", "text": "In financial due diligence, a private equity investor or strategic acquirer uses debtor ageing to assess how quickly the business converts revenue into cash, the proportion of overdue or doubtful receivables, and customer concentration. The creditor ageing shows supplier payment discipline and reliance. Together they reveal working-capital quality and risks that balance-sheet totals hide, informing valuation and deal terms." } },
+{ "@type": "Question", "name": "What are ageing buckets?", "acceptedAnswer": { "@type": "Answer", "text": "Ageing buckets are time bands into which outstanding amounts are grouped based on how long they have been unpaid, commonly 0-30, 31-60, 61-90, and over 90 days, with some certificates using longer bands such as over six months. Splitting receivables and payables this way shows which dues are current, which are overdue, and which are doubtful, making collection priorities and credit risk clear." } },
+{ "@type": "Question", "name": "What is the difference between debtors and creditors ageing?", "acceptedAnswer": { "@type": "Answer", "text": "Debtors ageing analyses receivables, the money customers owe the business, and reveals collection speed and bad-debt risk. Creditors ageing analyses payables, the money the business owes suppliers, and reveals payment discipline and how long dues have remained outstanding. Both are used side by side to understand working capital, and a single ageing certificate often presents both with their respective buckets." } },
+{ "@type": "Question", "name": "How fast can Patron Accounting issue it in Pune?", "acceptedAnswer": { "@type": "Answer", "text": "For Pune businesses with reconciled debtor and creditor ledgers ready, we typically issue the ageing certificate within one to three working days, with express turnaround where the books are clean. Detailed due-diligence ageing with DSO and concentration analysis may take a little longer. We align the buckets to the bank\u0027s or investor\u0027s format and work both in-person and remotely across the city." } }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/ageing-of-debtors-creditors-certificate/pune",
+        "name": "Ageing of Debtors and Creditors Certificate in Pune",
+        "description": "CA debtors and creditors ageing certificate in Pune for due diligence and bank loans. Age-wise buckets, UDIN-verified. From INR 2,499.",
+        "url": "https://www.patronaccounting.com/ageing-of-debtors-creditors-certificate/pune",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/ageing-of-debtors-creditors-certificate/pune/#service" },
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/ageing-of-debtors-creditors-certificate/pune/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How an Ageing Certificate Is Prepared",
+        "description": "The step-by-step process Patron Accounting follows to classify debtors and creditors by age and issue a UDIN-backed ageing certificate in Pune.",
+        "totalTime": "P3D",
+        "step": [
+            { "@type": "HowToStep", "position": 1, "name": "Confirm purpose and date", "text": "Confirm the purpose (due diligence or lender) and the reference date and bucket structure required." },
+{ "@type": "HowToStep", "position": 2, "name": "Collect ledgers", "text": "Collect debtor and creditor ledgers, the invoice register, and sales and purchase data." },
+{ "@type": "HowToStep", "position": 3, "name": "Verify balances", "text": "Verify balances under SA 500 (Audit Evidence) and SA 505 (External Confirmations), reconciling to the books." },
+{ "@type": "HowToStep", "position": 4, "name": "Classify into buckets", "text": "Classify each outstanding amount into the correct age bucket and flag doubtful items." },
+{ "@type": "HowToStep", "position": 5, "name": "Compute eligibility / DSO", "text": "Compute eligible book debts for the lender, or DSO and concentration analysis for due diligence." },
+{ "@type": "HowToStep", "position": 6, "name": "Issue the certificate", "text": "Issue the certificate with the genuine-transaction statement and UDIN, in the required format." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Ageing of Debtors and Creditors Certificate Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Ageing certificate", "description": "A CA-certified age-wise classification of a business\u0027s sundry debtors and creditors as on a date." },
+{ "@type": "DefinedTerm", "name": "Ageing buckets", "description": "Time bands such as 0-30, 31-60, 61-90, and over 90 days into which outstanding amounts are grouped." },
+{ "@type": "DefinedTerm", "name": "Drawing power", "description": "The lending limit computed from eligible book debts, typically debtors within a 90-day cover period." },
+{ "@type": "DefinedTerm", "name": "DSO", "description": "Days Sales Outstanding - a measure of how quickly receivables are collected, used in due diligence." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1415,17 +1420,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1448,8 +1446,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1486,7 +1482,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1497,3 +1492,19 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

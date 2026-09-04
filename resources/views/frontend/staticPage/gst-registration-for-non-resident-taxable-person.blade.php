@@ -1,155 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Non-Resident GST Registration 2026 Guide | Patron Accounting</title>
-    <meta name="description" content="Form GST REG-09 registration for foreign businesses operating in India temporarily. Indian authorised signatory plus advance tax. Starting at Rs 9,999.">
-    <link rel="canonical" href="/gst-registration-for-non-resident-taxable-person">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Non-Resident GST Registration 2026 Guide | Patron Accounting">
-    <meta property="og:description" content="Form GST REG-09 registration for foreign businesses operating in India temporarily. Indian authorised signatory plus advance tax. Starting at Rs 9,999.">
-    <meta property="og:url" content="/gst-registration-for-non-resident-taxable-person">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Non-Resident GST Registration 2026 Guide | Patron Accounting">
-    <meta name="twitter:description" content="Form GST REG-09 registration for foreign businesses operating in India temporarily. Indian authorised signatory plus advance tax. Starting at Rs 9,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/gst-registration-for-non-resident-taxable-person/#service",
-        "name": "GST Registration for Non-Resident Taxable Person in India",
-        "description": "Patron Accounting LLP files Form GST REG-09 for Non-Resident Taxable Person registration under Section 27 of the CGST Act, 2017 read with Rule 13 of the CGST Rules, 2017. The service covers route scoping (NRTP versus OIDAR versus CTP), Indian authorised signatory mandate, foreign document attestation, advance tax estimation, REG-09 filing, monthly GSTR-5 compliance under Section 39(5), Form REG-11 extension and Form GST RFD-01 refund recovery on completion.",
-        "serviceType": "Cross-Border Tax Registration Service",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-registration-for-non-resident-taxable-person" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [
-            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
-            { "@type": "Thing", "name": "Central Board of Indirect Taxes and Customs", "sameAs": "https://en.wikipedia.org/wiki/Central_Board_of_Indirect_Taxes_and_Customs" }
-        ],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Non-Resident Taxable Person Registration Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "Non-Resident Taxable Person GST Registration - Form REG-09 End to End",
-                    "priceCurrency": "INR",
-                    "price": "9999",
-                    "description": "Route scoping, Indian authorised signatory mandate, foreign document handling, advance tax estimation, and REG-09 filing"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/gst-registration-for-non-resident-taxable-person/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
-            { "@type": "ListItem", "position": 3, "name": "Non-Resident Taxable Person Registration", "item": "https://www.patronaccounting.com/gst-registration-for-non-resident-taxable-person" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/gst-registration-for-non-resident-taxable-person/#faq",
-        "datePublished": "2026-05-26T08:00:00+05:30",
-        "dateModified": "2026-06-01T08:00:00+05:30",
-        "mainEntity": [
-
-            {
-                "@type": "Question",
-                "name": "Who is a non-resident taxable person under GST?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "A Non-Resident Taxable Person under Section 2(77) of the CGST Act, 2017 is a person who occasionally undertakes transactions involving the supply of goods or services, or both, whether as principal or agent or in any other capacity, but who has no fixed place of business or residence in India. Registration is compulsory under Section 24(v) regardless of any aggregate turnover threshold. Application is filed in Form GST REG-09 under Rule 13 of the CGST Rules, 2017."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What documents are required for NRTP registration?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Self-attested copy of valid passport of the applicant or its authorised representative; foreign Tax Identification Number or unique identification number certificate from the home country for incorporated entities, or PAN if available; KYC of the Indian authorised signatory (PAN, Aadhaar, photograph) along with the Letter of Authorisation; proof of Indian principal place of business; Indian bank account proof; and advance tax challan acknowledgement."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Why is an Indian authorised signatory needed for NRTP GST?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Under Rule 13 of the CGST Rules, 2017, every application for NRTP registration must be duly signed and verified by an authorised representative holding a PAN in India. The signatory is a resident of India responsible for ongoing GST compliance, filing GSTR-5, responding to notices, and coordinating with the proper officer. The mandate is granted through a Letter of Authorisation from the foreign entity, accepted in writing by the signatory."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can NRTP claim Input Tax Credit on local purchases?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "No. The GST portal FAQ on Form GSTR-5 and Section 17 of the CGST Act, 2017 read with Rule 13 make it clear that NRTPs can avail Input Tax Credit only on goods imported from overseas. ITC is denied on local procurement of goods, on local procurement of services, and on import of services. Hotel stays, venue rental, local transport, and AV equipment hire generate pure GST cost with no credit recovery, which must be built into pricing."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the difference between NRTP and OIDAR registration?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "NRTP under Section 27 of the CGST Act covers foreign persons with physical operations in India such as exhibitions, projects, and equipment installation. Uses Form GST REG-09 and files Form GSTR-5 by the 13th. OIDAR under Section 14 of the IGST Act, 2017 covers foreign suppliers of digital services to non-taxable Indian consumers. Uses Form GST REG-10 and files Form GSTR-5A by the 20th, with nil return mandatory. No advance tax under OIDAR; ITC not available."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the validity of NRTP GST registration?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Under Section 27(1) of the CGST Act, 2017, the certificate is valid for the period specified in the application or 90 days from the effective date of registration, whichever is earlier. The proper officer may extend this by a further period not exceeding 90 days through Form GST REG-11 with additional advance tax, taking the total maximum validity to 180 days."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How to file GSTR-5 for non-resident taxable person?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Form GSTR-5 is filed monthly on the GST common portal by the 13th of the following month under Section 39(5) of the CGST Act, 2017. The return captures outward supplies, inward supplies which are mostly imports of goods, ITC on imported goods only, tax payable and tax paid through electronic cash ledger. The wrap-up GSTR-5 for the last tax period must be filed within 7 days of validity expiry."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can a non-resident taxable person opt for composition scheme?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "No. Section 10 of the CGST Act, 2017 expressly excludes Non-Resident Taxable Persons from the composition scheme. NRTPs must register and pay tax as regular taxable persons with advance tax deposit under Section 27(2). The exclusion reflects the temporary, episodic nature of NRTP activity, which is inconsistent with the composition regime designed for steady small businesses."
-                }
-            }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -763,7 +618,157 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Non-Resident GST Registration 2026 Guide | Patron Accounting</title>
+    <meta name="description" content="Form GST REG-09 registration for foreign businesses operating in India temporarily. Indian authorised signatory plus advance tax. Starting at Rs 9,999.">
+    <link rel="canonical" href="/gst-registration-for-non-resident-taxable-person">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Non-Resident GST Registration 2026 Guide | Patron Accounting">
+    <meta property="og:description" content="Form GST REG-09 registration for foreign businesses operating in India temporarily. Indian authorised signatory plus advance tax. Starting at Rs 9,999.">
+    <meta property="og:url" content="/gst-registration-for-non-resident-taxable-person">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Non-Resident GST Registration 2026 Guide | Patron Accounting">
+    <meta name="twitter:description" content="Form GST REG-09 registration for foreign businesses operating in India temporarily. Indian authorised signatory plus advance tax. Starting at Rs 9,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/gst-registration-for-non-resident-taxable-person/#service",
+        "name": "GST Registration for Non-Resident Taxable Person in India",
+        "description": "Patron Accounting LLP files Form GST REG-09 for Non-Resident Taxable Person registration under Section 27 of the CGST Act, 2017 read with Rule 13 of the CGST Rules, 2017. The service covers route scoping (NRTP versus OIDAR versus CTP), Indian authorised signatory mandate, foreign document attestation, advance tax estimation, REG-09 filing, monthly GSTR-5 compliance under Section 39(5), Form REG-11 extension and Form GST RFD-01 refund recovery on completion.",
+        "serviceType": "Cross-Border Tax Registration Service",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-registration-for-non-resident-taxable-person" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [
+            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
+            { "@type": "Thing", "name": "Central Board of Indirect Taxes and Customs", "sameAs": "https://en.wikipedia.org/wiki/Central_Board_of_Indirect_Taxes_and_Customs" }
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Non-Resident Taxable Person Registration Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "Non-Resident Taxable Person GST Registration - Form REG-09 End to End",
+                    "priceCurrency": "INR",
+                    "price": "9999",
+                    "description": "Route scoping, Indian authorised signatory mandate, foreign document handling, advance tax estimation, and REG-09 filing"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/gst-registration-for-non-resident-taxable-person/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
+            { "@type": "ListItem", "position": 3, "name": "Non-Resident Taxable Person Registration", "item": "https://www.patronaccounting.com/gst-registration-for-non-resident-taxable-person" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/gst-registration-for-non-resident-taxable-person/#faq",
+        "datePublished": "2026-05-26T08:00:00+05:30",
+        "dateModified": "2026-06-01T08:00:00+05:30",
+        "mainEntity": [
+
+            {
+                "@type": "Question",
+                "name": "Who is a non-resident taxable person under GST?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "A Non-Resident Taxable Person under Section 2(77) of the CGST Act, 2017 is a person who occasionally undertakes transactions involving the supply of goods or services, or both, whether as principal or agent or in any other capacity, but who has no fixed place of business or residence in India. Registration is compulsory under Section 24(v) regardless of any aggregate turnover threshold. Application is filed in Form GST REG-09 under Rule 13 of the CGST Rules, 2017."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What documents are required for NRTP registration?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Self-attested copy of valid passport of the applicant or its authorised representative; foreign Tax Identification Number or unique identification number certificate from the home country for incorporated entities, or PAN if available; KYC of the Indian authorised signatory (PAN, Aadhaar, photograph) along with the Letter of Authorisation; proof of Indian principal place of business; Indian bank account proof; and advance tax challan acknowledgement."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Why is an Indian authorised signatory needed for NRTP GST?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Under Rule 13 of the CGST Rules, 2017, every application for NRTP registration must be duly signed and verified by an authorised representative holding a PAN in India. The signatory is a resident of India responsible for ongoing GST compliance, filing GSTR-5, responding to notices, and coordinating with the proper officer. The mandate is granted through a Letter of Authorisation from the foreign entity, accepted in writing by the signatory."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can NRTP claim Input Tax Credit on local purchases?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No. The GST portal FAQ on Form GSTR-5 and Section 17 of the CGST Act, 2017 read with Rule 13 make it clear that NRTPs can avail Input Tax Credit only on goods imported from overseas. ITC is denied on local procurement of goods, on local procurement of services, and on import of services. Hotel stays, venue rental, local transport, and AV equipment hire generate pure GST cost with no credit recovery, which must be built into pricing."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the difference between NRTP and OIDAR registration?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "NRTP under Section 27 of the CGST Act covers foreign persons with physical operations in India such as exhibitions, projects, and equipment installation. Uses Form GST REG-09 and files Form GSTR-5 by the 13th. OIDAR under Section 14 of the IGST Act, 2017 covers foreign suppliers of digital services to non-taxable Indian consumers. Uses Form GST REG-10 and files Form GSTR-5A by the 20th, with nil return mandatory. No advance tax under OIDAR; ITC not available."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the validity of NRTP GST registration?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Under Section 27(1) of the CGST Act, 2017, the certificate is valid for the period specified in the application or 90 days from the effective date of registration, whichever is earlier. The proper officer may extend this by a further period not exceeding 90 days through Form GST REG-11 with additional advance tax, taking the total maximum validity to 180 days."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How to file GSTR-5 for non-resident taxable person?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Form GSTR-5 is filed monthly on the GST common portal by the 13th of the following month under Section 39(5) of the CGST Act, 2017. The return captures outward supplies, inward supplies which are mostly imports of goods, ITC on imported goods only, tax payable and tax paid through electronic cash ledger. The wrap-up GSTR-5 for the last tax period must be filed within 7 days of validity expiry."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can a non-resident taxable person opt for composition scheme?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No. Section 10 of the CGST Act, 2017 expressly excludes Non-Resident Taxable Persons from the composition scheme. NRTPs must register and pay tax as regular taxable persons with advance tax deposit under Section 27(2). The exclusion reflects the temporary, episodic nature of NRTP activity, which is inconsistent with the composition regime designed for steady small businesses."
+                }
+            }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1733,17 +1738,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1766,8 +1764,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1804,7 +1800,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1815,4 +1810,20 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+
 

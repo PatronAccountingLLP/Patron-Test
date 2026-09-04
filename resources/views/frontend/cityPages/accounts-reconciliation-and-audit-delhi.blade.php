@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,208 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>Accounts Reconciliation in Delhi 2026 | Patron Accounting</title>
-    <meta name="description" content="Accounts reconciliation and audit in Delhi from INR 14,999 (up to 1000 transactions). CA-led ledger, bank, GST 2B and books verification for Nehru Place firms.">
-    <link rel="canonical" href="/accounts-reconciliation-and-audit/delhi">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Accounts Reconciliation in Delhi 2026 | Patron Accounting">
-    <meta property="og:description" content="Accounts reconciliation and audit in Delhi from INR 14,999 (up to 1000 transactions). CA-led ledger, bank, GST 2B and books verification for Nehru Place firms.">
-    <meta property="og:url" content="/accounts-reconciliation-and-audit/delhi">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Accounts Reconciliation in Delhi 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Accounts reconciliation and audit in Delhi from INR 14,999 (up to 1000 transactions). CA-led ledger, bank, GST 2B and books verification for Nehru Place firms.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/delhi#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Accounts Reconciliation and Audit",
-          "item": "https://www.patronaccounting.com/accounts-reconciliation-and-audit"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Accounts Reconciliation and Audit in Delhi",
-          "item": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/delhi"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/delhi#faq",
-      "datePublished": "2026-06-23T08:00:00+05:30",
-      "dateModified": "2026-06-23T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What does accounts reconciliation and audit cover for a Delhi business?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Work includes tying out control accounts and ledgers, matching the bank statement, comparing GST 2A and 2B with books, and squaring vendor, customer, and inter-company balances, alongside an internal check of entries up to 1000 transactions. For Nehru Place and Karol Bagh firms, Patron pinpoints errors and firms up the audit trail before any GST notice or statutory audit appears."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does accounts reconciliation cost in Delhi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Fees begin at From INR 14,999 (up to 1000 transactions, Exl GST and Govt. Charges). The amount you settle on depends on the count of bank accounts, GSTINs, ledgers, and group companies in play. A Nehru Place IT vendor or an Okhla manufacturer is given a fixed-scope quote up front, with the price pinned down before reconciliation begins."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why must I reconcile GST 2B with my books in Delhi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The law, Section 16(2)(aa) of the CGST Act with Rule 36(4), permits ITC only where the supplier's invoice shows up in your GSTR-2B. Should GSTR-3B credit overshoot 2B past the limit, a DRC-01C intimation follows. Putting 2A and 2B beside the purchase register every period preserves the credit you are owed and avoids Section 50 interest."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between reconciliation and a statutory audit?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Reconciliation with internal verification establishes that ledger, bank, GST, and vendor balances tally and that postings are accurate. By contrast, a statutory or tax audit is a separate legal certification under the Companies Act 2013 or Section 44AB. Where the books are already reconciled, that audit runs quicker, costs less, and draws far fewer questions."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you check the audit trail and edit log of my accounting software?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Absolutely. Since 1 April 2023, Rule 3(1) of the Companies (Accounts) Rules has obliged every company to keep accounting software that records an audit trail of each edit. As we reconcile your Delhi books, Patron confirms that log is enabled, unaltered, and retained, and points out any voucher that was back-dated, modified, or deleted."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can you reconcile high-volume cash and trade books for Karol Bagh and Chandni Chowk traders?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Karol Bagh, Chandni Chowk, and Sadar Bazar traders run heavy invoice and part-cash flows across several current accounts. Patron reconciles each bank and cash book, matches the purchase register to GSTR-2B to protect ITC, and confirms supplier and customer ledgers tie out, so even a fast-moving wholesale business keeps clean, defensible records."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does an accounts reconciliation take in Delhi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "With one account and up to 1000 transactions, expect 3 to 7 working days. Several banks, multiple GSTINs, or group books push that to 2 to 3 weeks. Okhla and Mayapuri manufacturers carrying stock and a wide vendor base can take longer still, shaped by how quickly records reach us and the volume of entries to work through."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is profession tax part of reconciliation for a Delhi business?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Delhi does not levy profession tax, so there is no PTRC or PTEC to reconcile, unlike in Maharashtra. For Delhi firms, Patron instead concentrates on the TDS, GST, and payroll control accounts, checking that tax deducted ties to the challans paid and that salary and statutory ledgers agree with the bank for Nehru Place and Okhla employers."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/delhi#service",
-      "name": "Accounts Reconciliation and Audit in Delhi",
-      "description": "CA-led books reconciliation and audit in Delhi: control-account and ledger tie-outs, bank matching, GST 2A and 2B against the purchase register, vendor, customer, and inter-company checks, and internal verification of up to 1000 transactions. Patron Accounting resolves errors and secures a clean audit trail for Nehru Place IT, Okhla manufacturing, and Karol Bagh trading firms.",
-      "serviceType": "Accounts Reconciliation and Books Audit",
-      "url": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/delhi",
-      "areaServed": {
-        "@type": "City",
-        "name": "Delhi",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Delhi"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#localbusiness-delhi"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Reconciliation (accounting)",
-          "sameAs": "https://en.wikipedia.org/wiki/Reconciliation_(accounting)"
-        },
-        {
-          "@type": "Thing",
-          "name": "Goods and Services Tax (India)",
-          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Accounts Reconciliation Plans in Delhi",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "price": "14999",
-            "priceSpecification": {
-              "@type": "UnitPriceSpecification",
-              "priceCurrency": "INR",
-              "price": "14999",
-              "unitText": "up to 1000 transactions"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Accounts Reconciliation and Books Verification up to 1000 Transactions"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness-delhi",
-      "name": "Patron Accounting LLP - Delhi",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/delhi",
-      "telephone": "+91-9699936369",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Delhi"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Delhi",
-        "addressRegion": "Delhi",
-        "postalCode": "110085",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -815,7 +612,217 @@
         .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
 
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>Accounts Reconciliation in Delhi 2026 | Patron Accounting</title>
+    <meta name="description" content="Accounts reconciliation and audit in Delhi from INR 14,999 (up to 1000 transactions). CA-led ledger, bank, GST 2B and books verification for Nehru Place firms.">
+    <link rel="canonical" href="/accounts-reconciliation-and-audit/delhi">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Accounts Reconciliation in Delhi 2026 | Patron Accounting">
+    <meta property="og:description" content="Accounts reconciliation and audit in Delhi from INR 14,999 (up to 1000 transactions). CA-led ledger, bank, GST 2B and books verification for Nehru Place firms.">
+    <meta property="og:url" content="/accounts-reconciliation-and-audit/delhi">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Accounts Reconciliation in Delhi 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Accounts reconciliation and audit in Delhi from INR 14,999 (up to 1000 transactions). CA-led ledger, bank, GST 2B and books verification for Nehru Place firms.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/delhi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Accounts Reconciliation and Audit",
+          "item": "https://www.patronaccounting.com/accounts-reconciliation-and-audit"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Accounts Reconciliation and Audit in Delhi",
+          "item": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/delhi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/delhi#faq",
+      "datePublished": "2026-06-23T08:00:00+05:30",
+      "dateModified": "2026-06-23T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does accounts reconciliation and audit cover for a Delhi business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Work includes tying out control accounts and ledgers, matching the bank statement, comparing GST 2A and 2B with books, and squaring vendor, customer, and inter-company balances, alongside an internal check of entries up to 1000 transactions. For Nehru Place and Karol Bagh firms, Patron pinpoints errors and firms up the audit trail before any GST notice or statutory audit appears."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does accounts reconciliation cost in Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fees begin at From INR 14,999 (up to 1000 transactions, Exl GST and Govt. Charges). The amount you settle on depends on the count of bank accounts, GSTINs, ledgers, and group companies in play. A Nehru Place IT vendor or an Okhla manufacturer is given a fixed-scope quote up front, with the price pinned down before reconciliation begins."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why must I reconcile GST 2B with my books in Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The law, Section 16(2)(aa) of the CGST Act with Rule 36(4), permits ITC only where the supplier's invoice shows up in your GSTR-2B. Should GSTR-3B credit overshoot 2B past the limit, a DRC-01C intimation follows. Putting 2A and 2B beside the purchase register every period preserves the credit you are owed and avoids Section 50 interest."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between reconciliation and a statutory audit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reconciliation with internal verification establishes that ledger, bank, GST, and vendor balances tally and that postings are accurate. By contrast, a statutory or tax audit is a separate legal certification under the Companies Act 2013 or Section 44AB. Where the books are already reconciled, that audit runs quicker, costs less, and draws far fewer questions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you check the audit trail and edit log of my accounting software?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. Since 1 April 2023, Rule 3(1) of the Companies (Accounts) Rules has obliged every company to keep accounting software that records an audit trail of each edit. As we reconcile your Delhi books, Patron confirms that log is enabled, unaltered, and retained, and points out any voucher that was back-dated, modified, or deleted."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you reconcile high-volume cash and trade books for Karol Bagh and Chandni Chowk traders?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Karol Bagh, Chandni Chowk, and Sadar Bazar traders run heavy invoice and part-cash flows across several current accounts. Patron reconciles each bank and cash book, matches the purchase register to GSTR-2B to protect ITC, and confirms supplier and customer ledgers tie out, so even a fast-moving wholesale business keeps clean, defensible records."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does an accounts reconciliation take in Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "With one account and up to 1000 transactions, expect 3 to 7 working days. Several banks, multiple GSTINs, or group books push that to 2 to 3 weeks. Okhla and Mayapuri manufacturers carrying stock and a wide vendor base can take longer still, shaped by how quickly records reach us and the volume of entries to work through."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is profession tax part of reconciliation for a Delhi business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Delhi does not levy profession tax, so there is no PTRC or PTEC to reconcile, unlike in Maharashtra. For Delhi firms, Patron instead concentrates on the TDS, GST, and payroll control accounts, checking that tax deducted ties to the challans paid and that salary and statutory ledgers agree with the bank for Nehru Place and Okhla employers."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/delhi#service",
+      "name": "Accounts Reconciliation and Audit in Delhi",
+      "description": "CA-led books reconciliation and audit in Delhi: control-account and ledger tie-outs, bank matching, GST 2A and 2B against the purchase register, vendor, customer, and inter-company checks, and internal verification of up to 1000 transactions. Patron Accounting resolves errors and secures a clean audit trail for Nehru Place IT, Okhla manufacturing, and Karol Bagh trading firms.",
+      "serviceType": "Accounts Reconciliation and Books Audit",
+      "url": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/delhi",
+      "areaServed": {
+        "@type": "City",
+        "name": "Delhi",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Delhi"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#localbusiness-delhi"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Reconciliation (accounting)",
+          "sameAs": "https://en.wikipedia.org/wiki/Reconciliation_(accounting)"
+        },
+        {
+          "@type": "Thing",
+          "name": "Goods and Services Tax (India)",
+          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Accounts Reconciliation Plans in Delhi",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "price": "14999",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "INR",
+              "price": "14999",
+              "unitText": "up to 1000 transactions"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Accounts Reconciliation and Books Verification up to 1000 Transactions"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness-delhi",
+      "name": "Patron Accounting LLP - Delhi",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/delhi",
+      "telephone": "+91-9699936369",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Delhi"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Delhi",
+        "addressRegion": "Delhi",
+        "postalCode": "110085",
+        "addressCountry": "IN"
+      },
+      "parentOrganization": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1568,7 +1575,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

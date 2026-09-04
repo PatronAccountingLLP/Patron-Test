@@ -1,143 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Income Certificate by CA for Visa and Loans 2026 | Patron Accounting</title>
-    <meta name="description" content="CA income certificate in Pune for visa, loans, and self-employed income proof. Annual income attested with UDIN, distinct from ITR. From INR 1,999.">
-    <link rel="canonical" href="/income-certificate-by-ca/pune">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Income Certificate by CA for Visa and Loans 2026 | Patron Accounting">
-    <meta property="og:description" content="CA income certificate in Pune for visa, loans, and self-employed income proof. Annual income attested with UDIN, distinct from ITR. From INR 1,999.">
-    <meta property="og:url" content="/income-certificate-by-ca/pune">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Income Certificate by CA for Visa and Loans 2026 | Patron Accounting">
-    <meta name="twitter:description" content="CA income certificate in Pune for visa, loans, and self-employed income proof. Annual income attested with UDIN, distinct from ITR. From INR 1,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/income-certificate-by-ca/pune/#service",
-        "name": "Income Certificate by CA in Pune",
-        "description": "CA income certificate in Pune attesting an individual's total annual income itemised by source from salary, business, profession, rent, and investments, for visa, loan, education, government scheme, and tender purposes, drawn from the ITR and financial records and issued with a mandatory 18-digit UDIN by ICAI-registered Chartered Accountants.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/income-certificate-by-ca/pune" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Income", "sameAs": "https://en.wikipedia.org/wiki/Income" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Income Certificate by CA Service Plans",
-            "itemListElement": [
-                { "@type": "Offer", "name": "Income Certificate by CA", "price": "1999", "priceCurrency": "INR", "description": "Starting from INR 1,999 (Exl GST and Govt. Charges)" }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/income-certificate-by-ca/pune/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
-            { "@type": "ListItem", "position": 3, "name": "Income Certificate by CA", "item": "https://www.patronaccounting.com/income-certificate-by-ca/pune" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/income-certificate-by-ca/pune/#faq",
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "mainEntity": [
-            { "@type": "Question", "name": "What is an income certificate by a CA?", "acceptedAnswer": { "@type": "Answer", "text": "It is an official statement issued and signed by a practising Chartered Accountant confirming an individual\u0027s total income for a specified period, itemised by source such as salary, business, profession, rent, and investments. The CA prepares it after reviewing records like the ITR, computation of income, and bank statements, and signs it with a seal, membership number, and a mandatory 18-digit UDIN." } },
-{ "@type": "Question", "name": "How is an income certificate different from an ITR or Form 16?", "acceptedAnswer": { "@type": "Answer", "text": "An ITR is the return filed with the tax department, and Form 16 is the TDS certificate an employer issues for salary income. An income certificate by a CA is an independent attestation that consolidates income from all sources into a single verified statement. It is especially useful for self-employed people and freelancers who do not have a Form 16, presenting income in the certified format embassies and banks prefer." } },
-{ "@type": "Question", "name": "Who can issue an income certificate?", "acceptedAnswer": { "@type": "Answer", "text": "Only a practising Chartered Accountant who holds a valid Certificate of Practice and is registered with ICAI can issue a CA income certificate, and it must carry an 18-digit UDIN verifiable online. A self-declared income statement has no standing with embassies, banks, or institutions. This is distinct from the government income certificate issued by a revenue authority such as a tehsildar for caste or scholarship purposes." } },
-{ "@type": "Question", "name": "Is a CA income certificate useful for self-employed people?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, it is especially useful for self-employed individuals, business owners, and freelancers who do not receive salary slips or a Form 16. The CA reviews the ITR, computation of income, bank statements, and business financials, and issues a single attested statement of total annual income by source, giving lenders, embassies, and institutions a clear, credible income proof." } },
-{ "@type": "Question", "name": "What documents are needed for an income certificate?", "acceptedAnswer": { "@type": "Answer", "text": "Typically a PAN card, recent ITRs, the computation of income, and bank statements, plus salary slips or Form 16 for salaried income, or business profit and loss and financials for self-employed income. The CA reviews these, reconciles the income across sources, computes the total annual income, and issues the certificate. For a visa, a family income certificate combining parental income may be prepared, sometimes alongside a net worth certificate." } },
-{ "@type": "Question", "name": "How fast can Patron Accounting issue it in Pune?", "acceptedAnswer": { "@type": "Answer", "text": "With your PAN, ITR, and bank statements ready, we typically issue the income certificate the same day or within one working day, with priority handling for visa, loan, or scheme deadlines. We consolidate income across sources, reconcile to your return, and present it in the required format, including dual currency for visas where needed. Our Pune team works both in-person and remotely." } }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/income-certificate-by-ca/pune",
-        "name": "Income Certificate by CA in Pune",
-        "description": "CA income certificate in Pune for visa, loans, and self-employed income proof. Annual income attested with UDIN, distinct from ITR. From INR 1,999.",
-        "url": "https://www.patronaccounting.com/income-certificate-by-ca/pune",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/income-certificate-by-ca/pune/#service" },
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/income-certificate-by-ca/pune/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How an Income Certificate by CA Is Issued",
-        "description": "The step-by-step process Patron Accounting follows to verify income and issue a UDIN-backed income certificate in Pune.",
-        "totalTime": "P1D",
-        "step": [
-            { "@type": "HowToStep", "position": 1, "name": "Confirm purpose and period", "text": "Confirm the purpose (visa, loan, education, scheme) and the period and format required." },
-{ "@type": "HowToStep", "position": 2, "name": "Collect documents", "text": "Collect PAN, ITR, computation of income, bank statements, and salary or business proof." },
-{ "@type": "HowToStep", "position": 3, "name": "Verify each source", "text": "Verify income from each source under SA 500 (Audit Evidence), reconciling to the ITR and bank records." },
-{ "@type": "HowToStep", "position": 4, "name": "Compute total income", "text": "Compute total annual income and itemise it by source." },
-{ "@type": "HowToStep", "position": 5, "name": "Issue with UDIN", "text": "Issue the income certificate with the certification statement and UDIN." },
-{ "@type": "HowToStep", "position": 6, "name": "Deliver in format", "text": "Deliver in the required format, including dual-currency for visa where needed." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Income Certificate by CA Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Income certificate by CA", "description": "A practising Chartered Accountant\u0027s attested statement of an individual\u0027s total annual income, itemised by source, carrying a UDIN." },
-{ "@type": "DefinedTerm", "name": "UDIN", "description": "The 18-digit Unique Document Identification Number ICAI mandates on CA-issued certificates." },
-{ "@type": "DefinedTerm", "name": "Form 16", "description": "The TDS certificate an employer issues for salary income; distinct from a CA income certificate." },
-{ "@type": "DefinedTerm", "name": "Family income certificate", "description": "A CA income certificate combining household or parental income, often used for student visas." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -751,7 +618,145 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Income Certificate by CA for Visa and Loans 2026 | Patron Accounting</title>
+    <meta name="description" content="CA income certificate in Pune for visa, loans, and self-employed income proof. Annual income attested with UDIN, distinct from ITR. From INR 1,999.">
+    <link rel="canonical" href="/income-certificate-by-ca/pune">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Income Certificate by CA for Visa and Loans 2026 | Patron Accounting">
+    <meta property="og:description" content="CA income certificate in Pune for visa, loans, and self-employed income proof. Annual income attested with UDIN, distinct from ITR. From INR 1,999.">
+    <meta property="og:url" content="/income-certificate-by-ca/pune">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Income Certificate by CA for Visa and Loans 2026 | Patron Accounting">
+    <meta name="twitter:description" content="CA income certificate in Pune for visa, loans, and self-employed income proof. Annual income attested with UDIN, distinct from ITR. From INR 1,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/income-certificate-by-ca/pune/#service",
+        "name": "Income Certificate by CA in Pune",
+        "description": "CA income certificate in Pune attesting an individual's total annual income itemised by source from salary, business, profession, rent, and investments, for visa, loan, education, government scheme, and tender purposes, drawn from the ITR and financial records and issued with a mandatory 18-digit UDIN by ICAI-registered Chartered Accountants.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/income-certificate-by-ca/pune" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Income", "sameAs": "https://en.wikipedia.org/wiki/Income" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Income Certificate by CA Service Plans",
+            "itemListElement": [
+                { "@type": "Offer", "name": "Income Certificate by CA", "price": "1999", "priceCurrency": "INR", "description": "Starting from INR 1,999 (Exl GST and Govt. Charges)" }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/income-certificate-by-ca/pune/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
+            { "@type": "ListItem", "position": 3, "name": "Income Certificate by CA", "item": "https://www.patronaccounting.com/income-certificate-by-ca/pune" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/income-certificate-by-ca/pune/#faq",
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "mainEntity": [
+            { "@type": "Question", "name": "What is an income certificate by a CA?", "acceptedAnswer": { "@type": "Answer", "text": "It is an official statement issued and signed by a practising Chartered Accountant confirming an individual\u0027s total income for a specified period, itemised by source such as salary, business, profession, rent, and investments. The CA prepares it after reviewing records like the ITR, computation of income, and bank statements, and signs it with a seal, membership number, and a mandatory 18-digit UDIN." } },
+{ "@type": "Question", "name": "How is an income certificate different from an ITR or Form 16?", "acceptedAnswer": { "@type": "Answer", "text": "An ITR is the return filed with the tax department, and Form 16 is the TDS certificate an employer issues for salary income. An income certificate by a CA is an independent attestation that consolidates income from all sources into a single verified statement. It is especially useful for self-employed people and freelancers who do not have a Form 16, presenting income in the certified format embassies and banks prefer." } },
+{ "@type": "Question", "name": "Who can issue an income certificate?", "acceptedAnswer": { "@type": "Answer", "text": "Only a practising Chartered Accountant who holds a valid Certificate of Practice and is registered with ICAI can issue a CA income certificate, and it must carry an 18-digit UDIN verifiable online. A self-declared income statement has no standing with embassies, banks, or institutions. This is distinct from the government income certificate issued by a revenue authority such as a tehsildar for caste or scholarship purposes." } },
+{ "@type": "Question", "name": "Is a CA income certificate useful for self-employed people?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, it is especially useful for self-employed individuals, business owners, and freelancers who do not receive salary slips or a Form 16. The CA reviews the ITR, computation of income, bank statements, and business financials, and issues a single attested statement of total annual income by source, giving lenders, embassies, and institutions a clear, credible income proof." } },
+{ "@type": "Question", "name": "What documents are needed for an income certificate?", "acceptedAnswer": { "@type": "Answer", "text": "Typically a PAN card, recent ITRs, the computation of income, and bank statements, plus salary slips or Form 16 for salaried income, or business profit and loss and financials for self-employed income. The CA reviews these, reconciles the income across sources, computes the total annual income, and issues the certificate. For a visa, a family income certificate combining parental income may be prepared, sometimes alongside a net worth certificate." } },
+{ "@type": "Question", "name": "How fast can Patron Accounting issue it in Pune?", "acceptedAnswer": { "@type": "Answer", "text": "With your PAN, ITR, and bank statements ready, we typically issue the income certificate the same day or within one working day, with priority handling for visa, loan, or scheme deadlines. We consolidate income across sources, reconcile to your return, and present it in the required format, including dual currency for visas where needed. Our Pune team works both in-person and remotely." } }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/income-certificate-by-ca/pune",
+        "name": "Income Certificate by CA in Pune",
+        "description": "CA income certificate in Pune for visa, loans, and self-employed income proof. Annual income attested with UDIN, distinct from ITR. From INR 1,999.",
+        "url": "https://www.patronaccounting.com/income-certificate-by-ca/pune",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/income-certificate-by-ca/pune/#service" },
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/income-certificate-by-ca/pune/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How an Income Certificate by CA Is Issued",
+        "description": "The step-by-step process Patron Accounting follows to verify income and issue a UDIN-backed income certificate in Pune.",
+        "totalTime": "P1D",
+        "step": [
+            { "@type": "HowToStep", "position": 1, "name": "Confirm purpose and period", "text": "Confirm the purpose (visa, loan, education, scheme) and the period and format required." },
+{ "@type": "HowToStep", "position": 2, "name": "Collect documents", "text": "Collect PAN, ITR, computation of income, bank statements, and salary or business proof." },
+{ "@type": "HowToStep", "position": 3, "name": "Verify each source", "text": "Verify income from each source under SA 500 (Audit Evidence), reconciling to the ITR and bank records." },
+{ "@type": "HowToStep", "position": 4, "name": "Compute total income", "text": "Compute total annual income and itemise it by source." },
+{ "@type": "HowToStep", "position": 5, "name": "Issue with UDIN", "text": "Issue the income certificate with the certification statement and UDIN." },
+{ "@type": "HowToStep", "position": 6, "name": "Deliver in format", "text": "Deliver in the required format, including dual-currency for visa where needed." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Income Certificate by CA Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Income certificate by CA", "description": "A practising Chartered Accountant\u0027s attested statement of an individual\u0027s total annual income, itemised by source, carrying a UDIN." },
+{ "@type": "DefinedTerm", "name": "UDIN", "description": "The 18-digit Unique Document Identification Number ICAI mandates on CA-issued certificates." },
+{ "@type": "DefinedTerm", "name": "Form 16", "description": "The TDS certificate an employer issues for salary income; distinct from a CA income certificate." },
+{ "@type": "DefinedTerm", "name": "Family income certificate", "description": "A CA income certificate combining household or parental income, often used for student visas." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1414,17 +1419,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1447,8 +1445,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1485,7 +1481,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1496,3 +1491,19 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

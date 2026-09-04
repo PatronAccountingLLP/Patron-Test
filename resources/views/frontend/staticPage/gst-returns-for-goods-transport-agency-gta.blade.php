@@ -1,155 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>GST Returns for Goods Transport Agency GTA 2026 | Patron Accounting</title>
-    <meta name="description" content="GST returns for GTA - RCM 5% no ITC default, FCM 5%/18% with ITC post Sep 2025, Annexure V annual declaration. Starting from INR 1,499 per month.">
-    <link rel="canonical" href="/gst-returns-for-goods-transport-agency-gta">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="GST Returns for Goods Transport Agency GTA 2026 | Patron Accounting">
-    <meta property="og:description" content="GST returns for GTA - RCM 5% no ITC default, FCM 5%/18% with ITC post Sep 2025, Annexure V annual declaration. Starting from INR 1,499 per month.">
-    <meta property="og:url" content="/gst-returns-for-goods-transport-agency-gta">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="GST Returns for Goods Transport Agency GTA 2026 | Patron Accounting">
-    <meta name="twitter:description" content="GST returns for GTA - RCM 5% no ITC default, FCM 5%/18% with ITC post Sep 2025, Annexure V annual declaration. Starting from INR 1,499 per month.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/gst-returns-for-goods-transport-agency-gta/#service",
-        "name": "GST Returns for Goods Transport Agency (GTA)",
-        "description": "Monthly managed GST compliance for Goods Transport Agencies, fleet operators, B2B couriers, Container Train Operators, and multimodal transport businesses. Covers post-22 September 2025 framework (5% RCM default / 5% FCM Annexure V / 18% FCM Annexure V with full ITC), Annexure V annual declaration deemed continuing per 50th GST Council, Annexure III invoice declaration, consignment note compliance under Heading 9965, Notification 13/2017-CT(R) RCM recipients, Section 23 exemption, and full GSTR-1/GSTR-3B filing.",
-        "serviceType": "GST Compliance for Goods Transport Agency",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-returns-for-goods-transport-agency-gta" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [
-            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
-            { "@type": "Thing", "name": "Logistics", "sameAs": "https://en.wikipedia.org/wiki/Logistics" }
-        ],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "GST Returns for Goods Transport Agency (GTA) Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "Monthly GST Returns - Single GTA / GSTIN",
-                    "priceCurrency": "INR",
-                    "price": "1499",
-                    "description": "Monthly GSTR-1 and GSTR-3B filing, Annexure V filing, and customer master tagging for a single GTA or GSTIN"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/gst-returns-for-goods-transport-agency-gta/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
-            { "@type": "ListItem", "position": 3, "name": "GST Returns for Goods Transport Agency (GTA)", "item": "https://www.patronaccounting.com/gst-returns-for-goods-transport-agency-gta" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/gst-returns-for-goods-transport-agency-gta/#faq",
-        "datePublished": "2026-05-27T08:00:00+05:30",
-        "dateModified": "2026-06-01T08:00:00+05:30",
-        "mainEntity": [
-
-            {
-                "@type": "Question",
-                "name": "What are the GST rate options for a GTA?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Post 22 September 2025 (56th GST Council Meeting), a Goods Transport Agency has three options - (a) 5 percent under Reverse Charge as default (recipient pays per Notification 13/2017-CT(R)); (b) 5 percent under Forward Charge via Annexure V (GTA pays, no ITC); or (c) 18 percent under Forward Charge via Annexure V (GTA pays, full ITC). The 18 percent FCM option replaced the earlier 12 percent FCM option under GST 2.0 rate rationalisation."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is Annexure V and when must it be filed?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Annexure V is an online declaration filed by a GTA on the GST Portal opting for Forward Charge Mechanism for an FY. Format notified vide Notification 3/2022-CT(R) dated 13 July 2022. Deadline is 31 March of preceding FY (extended from 15 March per 50th GST Council 11 July 2023). Once filed, deemed continuing for future FYs unless reversed. New GTAs may file within 45 days of registration application or 1 month from registration certificate, whichever is later."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Who pays GST when a GTA is on RCM default?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Under Notification 13/2017-Central Tax (Rate) Entry 1, when a GTA does not opt for forward charge, the recipient pays GST under RCM at 5 percent no ITC where the recipient is any of the following - factory registered under Factories Act 1948, registered society or cooperative society, registered person under GST, body corporate, partnership firm (including AOP / BOI), or casual taxable person. Where the recipient does not fall in any of these categories, the GTA itself must pay under forward charge."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Is the 12 percent GTA option still available?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "No. The 12 percent FCM option was replaced by an 18 percent FCM option with full ITC pursuant to the recommendations of the 56th GST Council Meeting effective 22 September 2025, as part of the GST 2.0 rate rationalisation that consolidated the earlier 12 percent slab into the 5 percent merit and 18 percent normal slabs. The 5 percent no-ITC option (both under RCM and FCM) continues unchanged."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the consignment note and is it mandatory?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "The consignment note is the defining document of a Goods Transport Agency under Heading 9965 of Notification 11/2017-CTR. It contains prescribed details - serial number, name and address of consignor and consignee, registration number of the vehicle, description of goods, place of origin and destination, and the person liable to pay tax. Without a consignment note, the road transport service is not classified as GTA service."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Is a GTA required to register under GST if all customers are RCM recipients?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "No. Section 23(2) of the CGST Act read with Notification 5/2017-Central Tax dated 19 June 2017 exempts from registration any person engaged exclusively in supplying services on which the recipient is liable to pay tax under RCM. A GTA servicing only Notification 13/2017-CT(R) recipient categories is exempt from registration even if turnover exceeds the INR 20 lakh threshold. However, even one non-RCM customer triggers registration obligation."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the GST rate for Container Train Operators and multimodal transport?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Per the PIB FAQ on the 56th GST Council Meeting effective 22 September 2025, a Container Train Operator has the option of 5 percent with no ITC or 18 percent with full ITC. Multimodal transportation of goods (combining road, rail, water without air) attracts 5 percent GST with restricted ITC. Where the multimodal transport includes an air leg, the rate is 18 percent with full ITC. These are separate framework choices from the general GTA framework."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the cost of monthly GST returns for a GTA at Patron Accounting?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Starting from INR 1,499 per month (Exclusive of GST and government charges) for single-GTA / single-GSTIN compliance. Monthly returns plus Annexure V plus customer tagging package starts from INR 2,999 per month. Annexure V election modelling (5 percent vs 18 percent), multi-state multi-GSTIN GTA compliance, Section 23 registration exemption documentation, and DRC-01C reply are quoted separately based on scope."
-                }
-            }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -763,7 +618,157 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>GST Returns for Goods Transport Agency GTA 2026 | Patron Accounting</title>
+    <meta name="description" content="GST returns for GTA - RCM 5% no ITC default, FCM 5%/18% with ITC post Sep 2025, Annexure V annual declaration. Starting from INR 1,499 per month.">
+    <link rel="canonical" href="/gst-returns-for-goods-transport-agency-gta">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="GST Returns for Goods Transport Agency GTA 2026 | Patron Accounting">
+    <meta property="og:description" content="GST returns for GTA - RCM 5% no ITC default, FCM 5%/18% with ITC post Sep 2025, Annexure V annual declaration. Starting from INR 1,499 per month.">
+    <meta property="og:url" content="/gst-returns-for-goods-transport-agency-gta">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GST Returns for Goods Transport Agency GTA 2026 | Patron Accounting">
+    <meta name="twitter:description" content="GST returns for GTA - RCM 5% no ITC default, FCM 5%/18% with ITC post Sep 2025, Annexure V annual declaration. Starting from INR 1,499 per month.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/gst-returns-for-goods-transport-agency-gta/#service",
+        "name": "GST Returns for Goods Transport Agency (GTA)",
+        "description": "Monthly managed GST compliance for Goods Transport Agencies, fleet operators, B2B couriers, Container Train Operators, and multimodal transport businesses. Covers post-22 September 2025 framework (5% RCM default / 5% FCM Annexure V / 18% FCM Annexure V with full ITC), Annexure V annual declaration deemed continuing per 50th GST Council, Annexure III invoice declaration, consignment note compliance under Heading 9965, Notification 13/2017-CT(R) RCM recipients, Section 23 exemption, and full GSTR-1/GSTR-3B filing.",
+        "serviceType": "GST Compliance for Goods Transport Agency",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-returns-for-goods-transport-agency-gta" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [
+            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
+            { "@type": "Thing", "name": "Logistics", "sameAs": "https://en.wikipedia.org/wiki/Logistics" }
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "GST Returns for Goods Transport Agency (GTA) Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "Monthly GST Returns - Single GTA / GSTIN",
+                    "priceCurrency": "INR",
+                    "price": "1499",
+                    "description": "Monthly GSTR-1 and GSTR-3B filing, Annexure V filing, and customer master tagging for a single GTA or GSTIN"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/gst-returns-for-goods-transport-agency-gta/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
+            { "@type": "ListItem", "position": 3, "name": "GST Returns for Goods Transport Agency (GTA)", "item": "https://www.patronaccounting.com/gst-returns-for-goods-transport-agency-gta" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/gst-returns-for-goods-transport-agency-gta/#faq",
+        "datePublished": "2026-05-27T08:00:00+05:30",
+        "dateModified": "2026-06-01T08:00:00+05:30",
+        "mainEntity": [
+
+            {
+                "@type": "Question",
+                "name": "What are the GST rate options for a GTA?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Post 22 September 2025 (56th GST Council Meeting), a Goods Transport Agency has three options - (a) 5 percent under Reverse Charge as default (recipient pays per Notification 13/2017-CT(R)); (b) 5 percent under Forward Charge via Annexure V (GTA pays, no ITC); or (c) 18 percent under Forward Charge via Annexure V (GTA pays, full ITC). The 18 percent FCM option replaced the earlier 12 percent FCM option under GST 2.0 rate rationalisation."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is Annexure V and when must it be filed?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Annexure V is an online declaration filed by a GTA on the GST Portal opting for Forward Charge Mechanism for an FY. Format notified vide Notification 3/2022-CT(R) dated 13 July 2022. Deadline is 31 March of preceding FY (extended from 15 March per 50th GST Council 11 July 2023). Once filed, deemed continuing for future FYs unless reversed. New GTAs may file within 45 days of registration application or 1 month from registration certificate, whichever is later."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Who pays GST when a GTA is on RCM default?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Under Notification 13/2017-Central Tax (Rate) Entry 1, when a GTA does not opt for forward charge, the recipient pays GST under RCM at 5 percent no ITC where the recipient is any of the following - factory registered under Factories Act 1948, registered society or cooperative society, registered person under GST, body corporate, partnership firm (including AOP / BOI), or casual taxable person. Where the recipient does not fall in any of these categories, the GTA itself must pay under forward charge."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is the 12 percent GTA option still available?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No. The 12 percent FCM option was replaced by an 18 percent FCM option with full ITC pursuant to the recommendations of the 56th GST Council Meeting effective 22 September 2025, as part of the GST 2.0 rate rationalisation that consolidated the earlier 12 percent slab into the 5 percent merit and 18 percent normal slabs. The 5 percent no-ITC option (both under RCM and FCM) continues unchanged."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the consignment note and is it mandatory?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The consignment note is the defining document of a Goods Transport Agency under Heading 9965 of Notification 11/2017-CTR. It contains prescribed details - serial number, name and address of consignor and consignee, registration number of the vehicle, description of goods, place of origin and destination, and the person liable to pay tax. Without a consignment note, the road transport service is not classified as GTA service."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is a GTA required to register under GST if all customers are RCM recipients?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No. Section 23(2) of the CGST Act read with Notification 5/2017-Central Tax dated 19 June 2017 exempts from registration any person engaged exclusively in supplying services on which the recipient is liable to pay tax under RCM. A GTA servicing only Notification 13/2017-CT(R) recipient categories is exempt from registration even if turnover exceeds the INR 20 lakh threshold. However, even one non-RCM customer triggers registration obligation."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the GST rate for Container Train Operators and multimodal transport?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Per the PIB FAQ on the 56th GST Council Meeting effective 22 September 2025, a Container Train Operator has the option of 5 percent with no ITC or 18 percent with full ITC. Multimodal transportation of goods (combining road, rail, water without air) attracts 5 percent GST with restricted ITC. Where the multimodal transport includes an air leg, the rate is 18 percent with full ITC. These are separate framework choices from the general GTA framework."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the cost of monthly GST returns for a GTA at Patron Accounting?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Starting from INR 1,499 per month (Exclusive of GST and government charges) for single-GTA / single-GSTIN compliance. Monthly returns plus Annexure V plus customer tagging package starts from INR 2,999 per month. Annexure V election modelling (5 percent vs 18 percent), multi-state multi-GSTIN GTA compliance, Section 23 registration exemption documentation, and DRC-01C reply are quoted separately based on scope."
+                }
+            }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1624,17 +1629,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1657,8 +1655,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1695,7 +1691,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1706,4 +1701,20 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+
 

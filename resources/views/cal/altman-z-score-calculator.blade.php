@@ -1,204 +1,8 @@
 @extends('layouts.app')
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
-@section('meta')
-    <title>Altman Z-Score Calculator | Bankruptcy Risk Predictor</title>
-    <meta name="description" content="Free Altman Z-Score calculator: original, Z' (private) & Z'' (non-manufacturing) models to predict bankruptcy & financial distress risk. CA-reviewed. Try now!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/altman-z-score-calculator">
-    <meta property="og:title" content="Altman Z-Score Calculator — Bankruptcy Predictor 2026">
-    <meta property="og:description" content="Compute Altman Z-Score with all 3 versions: original, Z-prime (private), Z-double-prime (non-manufacturing/India). CA-reviewed tool.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/altman-z-score-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Altman Z-Score Calculator — Bankruptcy Predictor 2026">
-    <meta name="twitter:description" content="3 Z-Score versions: original, private, non-manufacturing. Bankruptcy distress predictor. Free CA tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-    <meta name="theme-color" content="#15365f">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "Altman Z-Score Calculator",
-      "description": "Altman Z-Score Calculator implements all three versions of Edward Altman's bankruptcy prediction model — the original 1968 Z-Score for public manufacturing companies, the Z-Prime Score for private manufacturing companies (book value of equity instead of market value), and the Z-Double-Prime Score for non-manufacturing companies and emerging markets including Indian listed and unlisted companies. The model uses five financial ratios for original and Z-Prime (Working Capital to Total Assets, Retained Earnings to Total Assets, EBIT to Total Assets, Equity to Total Liabilities, Sales to Total Assets) and four ratios for Z-Double-Prime (omitting Sales to Total Assets to neutralise industry asset-intensity differences). Output includes the Z-Score with zone classification (Safe Zone, Grey Zone, Distress Zone), component breakdown showing each weighted X variable contribution, recommended version selector based on company type, and integration with Standard on Auditing 570 Going Concern evaluation, CARO 2020 Clause 3(xix) reporting requirements, RBI early warning signals for stressed asset classification, and IBC 2016 distress filtering. Suitable for credit appraisal, audit going concern testing, equity research distress screening, and CFO early warning systems.",
-      "url": "https://www.patronaccounting.com/tools/altman-z-score-calculator",
-      "applicationCategory": "FinanceApplication",
-      "operatingSystem": "Any",
-      "datePublished": "2026-05-07T08:00:00+05:30",
-      "dateModified": "2026-05-19T08:00:00+05:30",
-      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
-      "author": {
-        "@type": "Person",
-        "@id": "https://patronaccounting.com/#founder",
-        "name": "CA Sundram Gupta",
-        "jobTitle": "Founder & Chartered Accountant",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Institute of Chartered Accountants of India",
-            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-          }
-        }]
-      },
-      "publisher": { "@id": "https://patronaccounting.com/#organization" },
-      "provider": { "@id": "https://patronaccounting.com/#organization" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Altman Z-Score Calculator", "item": "https://www.patronaccounting.com/tools/altman-z-score-calculator"}
-      ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "datePublished": "2026-05-07T08:00:00+05:30",
-      "dateModified": "2026-05-19T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is the Altman Z-Score?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The Altman Z-Score is a multivariate bankruptcy prediction model developed by Professor Edward Altman in 1968. It combines five weighted financial ratios into a single score that predicts the probability of corporate bankruptcy within two years. The original model achieved approximately 80-90% accuracy on historical US public manufacturing data. Three versions exist for different company types: original Z-Score, Z-Prime for private companies, and Z-Double-Prime for non-manufacturing and emerging market companies including Indian listed and unlisted firms."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are the three versions of Z-Score?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Three versions exist: Original Z-Score (1968) for public manufacturing companies — uses 5 ratios including Market Value of Equity. Z-Prime Score for private manufacturing companies — same 5 ratios but Book Value of Equity instead of market value. Z-Double-Prime Score for non-manufacturing companies and emerging markets — uses 4 ratios (drops Sales/Total Assets) to remove industry asset-intensity bias. The Z-Double-Prime is most commonly used for Indian listed and unlisted services, IT, retail and infrastructure companies."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What do the X variables in Z-Score mean?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "X1 = Working Capital ÷ Total Assets (liquidity). X2 = Retained Earnings ÷ Total Assets (cumulative profitability and age). X3 = EBIT ÷ Total Assets (operating productivity). X4 = Market or Book Value of Equity ÷ Total Liabilities (solvency cushion). X5 = Sales ÷ Total Assets (asset turnover, manufacturing only). Each captures a different distress signal — liquidity strain, accumulated losses, weak earnings power, undercapitalisation, or asset bloat. The weighted sum identifies companies likely to fail."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are the Z-Score zone thresholds?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Original Z-Score: Z > 2.99 Safe Zone, 1.81-2.99 Grey Zone, Z < 1.81 Distress Zone. Z-Prime: Z > 2.9 Safe, 1.23-2.9 Grey, Z < 1.23 Distress. Z-Double-Prime: Z > 2.6 Safe, 1.1-2.6 Grey, Z < 1.1 Distress. Companies in Distress Zone have historically shown ~85% bankruptcy probability within two years; Grey Zone is statistically ambiguous and warrants closer investigation; Safe Zone has very low historical bankruptcy rates but does not guarantee survival."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which Z-Score version should I use for Indian companies?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "For most Indian companies, the Z-Double-Prime is preferred as it was specifically designed for emerging markets and non-manufacturing businesses. Use Original Z-Score only for listed Indian manufacturing companies with reliable market capitalisation data. Use Z-Prime for unlisted manufacturing companies. Use Z-Double-Prime for IT, services, retail, real estate, infrastructure, banks, NBFCs and any company without clear manufacturing classification. Z-Double-Prime is also more robust to differences between Indian and US accounting practices."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does Z-Score relate to IBC distress signals?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The Insolvency and Bankruptcy Code 2016 enables creditors to file for corporate insolvency under Section 7 (financial creditors), Section 9 (operational creditors), or Section 10 (corporate applicant). While IBC triggers are based on actual default (not predicted), Z-Score serves as an early warning indicator — Distress Zone companies are statistically much more likely to default within 12-24 months. Banks use Z-Score alongside SMA (Special Mention Account) classification under RBI prudential norms for proactive stressed asset identification."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does Z-Score work for IT and service companies?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Standard Z-Score works poorly for service and IT companies because asset turnover (X5 = Sales/Total Assets) varies dramatically across industries, distorting the score. The Z-Double-Prime version was specifically created to address this — it removes X5 entirely and reweights the remaining four ratios. For IT and service companies, only use Z-Double-Prime. The Z-Double-Prime threshold zones (Safe greater than 2.6, Distress less than 1.1) are calibrated for non-manufacturing and emerging market businesses."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are the limitations of Z-Score?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Z-Score has several limitations: it relies on accounting numbers vulnerable to manipulation, uses historical data not forward-looking projections, was calibrated on US data from the 1960s-1990s with possible structural shifts since, treats all industries within a category uniformly, ignores qualitative factors (management, governance, regulatory environment), and does not capture cash flow timing. Use Z-Score as one screening tool among many — alongside cash flow analysis, debt service coverage, qualitative business assessment and IBC default tracking."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does RBI use distress prediction models?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "RBI's Prudential Framework for Resolution of Stressed Assets requires banks to identify incipient stress through Special Mention Account (SMA) classification — SMA-0 (1-30 days overdue), SMA-1 (31-60 days), SMA-2 (61-90 days). Beyond 90 days the account becomes a Non-Performing Asset (NPA). While SMA is based on actual payment delays, banks use complementary tools including Z-Score, Altman EM-Score, and CIBIL credit scores to identify likely stress before payment delays manifest. Early warning enables proactive restructuring or risk-based pricing."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does Z-Score apply to banks and NBFCs?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No — standard Z-Score does not apply to banks and NBFCs because their balance sheets are dominated by financial assets and deposits/borrowings, distorting all five ratios. Banks should use sector-specific frameworks: Capital Adequacy Ratio (CRAR), Liquidity Coverage Ratio (LCR), Net Stable Funding Ratio (NSFR) under RBI Basel III, Net Interest Margin (NIM), and Gross/Net NPA ratios. The CAMELS framework (Capital, Asset quality, Management, Earnings, Liquidity, Sensitivity) is the RBI standard for banking sector stress assessment."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is Working Capital defined for Z-Score?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Working Capital for Z-Score = Current Assets − Current Liabilities, computed from Schedule III balance sheet line items. Current Assets include Cash, Bank Balances, Current Investments, Trade Receivables, Inventories, and Other Current Assets. Current Liabilities include Trade Payables, Short-term Borrowings, Other Current Liabilities, Provisions (current), and Current Tax Liabilities. Working Capital may be negative for businesses with strong supplier credit cycles (FMCG, retail) — Z-Score correctly flags this as a potential liquidity concern even when the business is healthy."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What counts as Retained Earnings for Z-Score?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Retained Earnings for Z-Score = accumulated net profits of the company that have not been distributed as dividends. From Schedule III balance sheet, this is found under Reserves and Surplus, specifically the Surplus / Profit and Loss account balance. Excludes capital reserves, securities premium, debenture redemption reserve and other capital nature reserves. Companies with substantial accumulated losses (negative Retained Earnings) score very low on X2, correctly reflecting the long-term unprofitability and capital depletion that frequently precede bankruptcy."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does Z-Score connect to audit going concern under SA 570?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Standard on Auditing 570 (Going Concern) requires auditors to assess whether the entity will continue as a going concern for at least 12 months. Z-Score in the Distress Zone is a quantitative red flag that triggers detailed audit procedures under SA 570 Para 16 — review of management's going concern assessment, evaluation of mitigating factors, and possible Material Uncertainty paragraph in the audit report. CARO 2020 Clause 3(xix) requires reporting on material uncertainties affecting the company's ability to meet liabilities."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How accurate is Z-Score in predicting bankruptcy?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Original Altman research showed Z-Score predicting bankruptcy with ~72% accuracy two years before failure and ~95% accuracy one year before failure. Subsequent studies show degraded accuracy in modern markets — typically 60-75% one year out. Accuracy is highest in the Distress and Safe zones; the Grey Zone is ambiguous by design. Combine Z-Score with qualitative analysis, cash flow projections, and multi-period trend. Do not rely on a single reading for major decisions."
-          }
-        }
-      ]
-    }
-    </script>
-@endsection
-
 <style>
         :root {
             --primary: #15365f;
@@ -463,7 +267,203 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 }
 
 </style>
+@endpush
 
+@section('meta')
+    <title>Altman Z-Score Calculator | Bankruptcy Risk Predictor</title>
+    <meta name="description" content="Free Altman Z-Score calculator: original, Z' (private) & Z'' (non-manufacturing) models to predict bankruptcy & financial distress risk. CA-reviewed. Try now!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/altman-z-score-calculator">
+    <meta property="og:title" content="Altman Z-Score Calculator — Bankruptcy Predictor 2026">
+    <meta property="og:description" content="Compute Altman Z-Score with all 3 versions: original, Z-prime (private), Z-double-prime (non-manufacturing/India). CA-reviewed tool.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/altman-z-score-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Altman Z-Score Calculator — Bankruptcy Predictor 2026">
+    <meta name="twitter:description" content="3 Z-Score versions: original, private, non-manufacturing. Bankruptcy distress predictor. Free CA tool.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+    <meta name="theme-color" content="#15365f">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Altman Z-Score Calculator",
+      "description": "Altman Z-Score Calculator implements all three versions of Edward Altman's bankruptcy prediction model — the original 1968 Z-Score for public manufacturing companies, the Z-Prime Score for private manufacturing companies (book value of equity instead of market value), and the Z-Double-Prime Score for non-manufacturing companies and emerging markets including Indian listed and unlisted companies. The model uses five financial ratios for original and Z-Prime (Working Capital to Total Assets, Retained Earnings to Total Assets, EBIT to Total Assets, Equity to Total Liabilities, Sales to Total Assets) and four ratios for Z-Double-Prime (omitting Sales to Total Assets to neutralise industry asset-intensity differences). Output includes the Z-Score with zone classification (Safe Zone, Grey Zone, Distress Zone), component breakdown showing each weighted X variable contribution, recommended version selector based on company type, and integration with Standard on Auditing 570 Going Concern evaluation, CARO 2020 Clause 3(xix) reporting requirements, RBI early warning signals for stressed asset classification, and IBC 2016 distress filtering. Suitable for credit appraisal, audit going concern testing, equity research distress screening, and CFO early warning systems.",
+      "url": "https://www.patronaccounting.com/tools/altman-z-score-calculator",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Any",
+      "datePublished": "2026-05-07T08:00:00+05:30",
+      "dateModified": "2026-05-19T08:00:00+05:30",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
+      "author": {
+        "@type": "Person",
+        "@id": "https://patronaccounting.com/#founder",
+        "name": "CA Sundram Gupta",
+        "jobTitle": "Founder & Chartered Accountant",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Institute of Chartered Accountants of India",
+            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+          }
+        }]
+      },
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": { "@id": "https://patronaccounting.com/#organization" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Altman Z-Score Calculator", "item": "https://www.patronaccounting.com/tools/altman-z-score-calculator"}
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "datePublished": "2026-05-07T08:00:00+05:30",
+      "dateModified": "2026-05-19T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the Altman Z-Score?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Altman Z-Score is a multivariate bankruptcy prediction model developed by Professor Edward Altman in 1968. It combines five weighted financial ratios into a single score that predicts the probability of corporate bankruptcy within two years. The original model achieved approximately 80-90% accuracy on historical US public manufacturing data. Three versions exist for different company types: original Z-Score, Z-Prime for private companies, and Z-Double-Prime for non-manufacturing and emerging market companies including Indian listed and unlisted firms."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the three versions of Z-Score?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Three versions exist: Original Z-Score (1968) for public manufacturing companies — uses 5 ratios including Market Value of Equity. Z-Prime Score for private manufacturing companies — same 5 ratios but Book Value of Equity instead of market value. Z-Double-Prime Score for non-manufacturing companies and emerging markets — uses 4 ratios (drops Sales/Total Assets) to remove industry asset-intensity bias. The Z-Double-Prime is most commonly used for Indian listed and unlisted services, IT, retail and infrastructure companies."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What do the X variables in Z-Score mean?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "X1 = Working Capital ÷ Total Assets (liquidity). X2 = Retained Earnings ÷ Total Assets (cumulative profitability and age). X3 = EBIT ÷ Total Assets (operating productivity). X4 = Market or Book Value of Equity ÷ Total Liabilities (solvency cushion). X5 = Sales ÷ Total Assets (asset turnover, manufacturing only). Each captures a different distress signal — liquidity strain, accumulated losses, weak earnings power, undercapitalisation, or asset bloat. The weighted sum identifies companies likely to fail."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the Z-Score zone thresholds?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Original Z-Score: Z > 2.99 Safe Zone, 1.81-2.99 Grey Zone, Z < 1.81 Distress Zone. Z-Prime: Z > 2.9 Safe, 1.23-2.9 Grey, Z < 1.23 Distress. Z-Double-Prime: Z > 2.6 Safe, 1.1-2.6 Grey, Z < 1.1 Distress. Companies in Distress Zone have historically shown ~85% bankruptcy probability within two years; Grey Zone is statistically ambiguous and warrants closer investigation; Safe Zone has very low historical bankruptcy rates but does not guarantee survival."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which Z-Score version should I use for Indian companies?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For most Indian companies, the Z-Double-Prime is preferred as it was specifically designed for emerging markets and non-manufacturing businesses. Use Original Z-Score only for listed Indian manufacturing companies with reliable market capitalisation data. Use Z-Prime for unlisted manufacturing companies. Use Z-Double-Prime for IT, services, retail, real estate, infrastructure, banks, NBFCs and any company without clear manufacturing classification. Z-Double-Prime is also more robust to differences between Indian and US accounting practices."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does Z-Score relate to IBC distress signals?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Insolvency and Bankruptcy Code 2016 enables creditors to file for corporate insolvency under Section 7 (financial creditors), Section 9 (operational creditors), or Section 10 (corporate applicant). While IBC triggers are based on actual default (not predicted), Z-Score serves as an early warning indicator — Distress Zone companies are statistically much more likely to default within 12-24 months. Banks use Z-Score alongside SMA (Special Mention Account) classification under RBI prudential norms for proactive stressed asset identification."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Z-Score work for IT and service companies?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Standard Z-Score works poorly for service and IT companies because asset turnover (X5 = Sales/Total Assets) varies dramatically across industries, distorting the score. The Z-Double-Prime version was specifically created to address this — it removes X5 entirely and reweights the remaining four ratios. For IT and service companies, only use Z-Double-Prime. The Z-Double-Prime threshold zones (Safe greater than 2.6, Distress less than 1.1) are calibrated for non-manufacturing and emerging market businesses."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the limitations of Z-Score?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Z-Score has several limitations: it relies on accounting numbers vulnerable to manipulation, uses historical data not forward-looking projections, was calibrated on US data from the 1960s-1990s with possible structural shifts since, treats all industries within a category uniformly, ignores qualitative factors (management, governance, regulatory environment), and does not capture cash flow timing. Use Z-Score as one screening tool among many — alongside cash flow analysis, debt service coverage, qualitative business assessment and IBC default tracking."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does RBI use distress prediction models?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "RBI's Prudential Framework for Resolution of Stressed Assets requires banks to identify incipient stress through Special Mention Account (SMA) classification — SMA-0 (1-30 days overdue), SMA-1 (31-60 days), SMA-2 (61-90 days). Beyond 90 days the account becomes a Non-Performing Asset (NPA). While SMA is based on actual payment delays, banks use complementary tools including Z-Score, Altman EM-Score, and CIBIL credit scores to identify likely stress before payment delays manifest. Early warning enables proactive restructuring or risk-based pricing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Z-Score apply to banks and NBFCs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No — standard Z-Score does not apply to banks and NBFCs because their balance sheets are dominated by financial assets and deposits/borrowings, distorting all five ratios. Banks should use sector-specific frameworks: Capital Adequacy Ratio (CRAR), Liquidity Coverage Ratio (LCR), Net Stable Funding Ratio (NSFR) under RBI Basel III, Net Interest Margin (NIM), and Gross/Net NPA ratios. The CAMELS framework (Capital, Asset quality, Management, Earnings, Liquidity, Sensitivity) is the RBI standard for banking sector stress assessment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is Working Capital defined for Z-Score?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Working Capital for Z-Score = Current Assets − Current Liabilities, computed from Schedule III balance sheet line items. Current Assets include Cash, Bank Balances, Current Investments, Trade Receivables, Inventories, and Other Current Assets. Current Liabilities include Trade Payables, Short-term Borrowings, Other Current Liabilities, Provisions (current), and Current Tax Liabilities. Working Capital may be negative for businesses with strong supplier credit cycles (FMCG, retail) — Z-Score correctly flags this as a potential liquidity concern even when the business is healthy."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What counts as Retained Earnings for Z-Score?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Retained Earnings for Z-Score = accumulated net profits of the company that have not been distributed as dividends. From Schedule III balance sheet, this is found under Reserves and Surplus, specifically the Surplus / Profit and Loss account balance. Excludes capital reserves, securities premium, debenture redemption reserve and other capital nature reserves. Companies with substantial accumulated losses (negative Retained Earnings) score very low on X2, correctly reflecting the long-term unprofitability and capital depletion that frequently precede bankruptcy."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does Z-Score connect to audit going concern under SA 570?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Standard on Auditing 570 (Going Concern) requires auditors to assess whether the entity will continue as a going concern for at least 12 months. Z-Score in the Distress Zone is a quantitative red flag that triggers detailed audit procedures under SA 570 Para 16 — review of management's going concern assessment, evaluation of mitigating factors, and possible Material Uncertainty paragraph in the audit report. CARO 2020 Clause 3(xix) requires reporting on material uncertainties affecting the company's ability to meet liabilities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How accurate is Z-Score in predicting bankruptcy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Original Altman research showed Z-Score predicting bankruptcy with ~72% accuracy two years before failure and ~95% accuracy one year before failure. Subsequent studies show degraded accuracy in modern markets — typically 60-75% one year out. Accuracy is highest in the Distress and Safe zones; the Grey Zone is ambiguous by design. Combine Z-Score with qualitative analysis, cash flow projections, and multi-period trend. Do not rely on a single reading for major decisions."
+          }
+        }
+      ]
+    }
+    </script>
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Tool navigation">
     <div class="toc-nav-inner">

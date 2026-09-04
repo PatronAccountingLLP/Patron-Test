@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,188 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>IMF Registration: IRDAI License &amp; Company Setup</title>
-    <meta name="description" content="End-to-end IMF registration in Pune from INR 24,999 - MCA incorporation plus IRDAI Insurance Marketing Firm license. Eligibility, documents, fees and timeline.">
-    <link rel="canonical" href="/irda-imf-business-registration/pune">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta name="keywords" content="IMF registration, insurance marketing firm registration, IRDAI IMF registration, IMF business registration, IMF license registration online, IMF registration process, IMF registration fees, how to start an insurance marketing firm, IMF company incorporation, IRDAI NOC for IMF, IMF registration Pune">
-    <meta property="og:title" content="IMF Registration: IRDAI License &amp; Company Setup">
-    <meta property="og:description" content="End-to-end IMF registration in Pune from INR 24,999 - MCA incorporation plus IRDAI Insurance Marketing Firm license. Eligibility, documents, fees and timeline.">
-    <meta property="og:url" content="/irda-imf-business-registration/pune">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="IMF Registration: IRDAI License &amp; Company Setup">
-    <meta name="twitter:description" content="End-to-end IMF registration in Pune from INR 24,999 - MCA incorporation plus IRDAI Insurance Marketing Firm license. Eligibility, documents, fees and timeline.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "IRDA IMF Business Registration in Pune",
-      "description": "End-to-end Insurance Marketing Firm (IMF) registration in Pune - MCA company or LLP incorporation in the IMF name plus IRDAI registration on imf.irda.gov.in. Eligibility, documents, fees and timeline handled by Patron Accounting's CA and CS team.",
-      "url": "https://www.patronaccounting.com/irda-imf-business-registration/pune",
-      "serviceType": "Insurance Marketing Firm Registration",
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Maharashtra"
-        }
-      },
-      "provider": {
-        "@type": "LocalBusiness",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg",
-        "telephone": "+91-9459456700",
-        "email": "sales@patronaccounting.com",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Pune",
-          "addressRegion": "Maharashtra",
-          "addressCountry": "IN"
-        }
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "price": "24999",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/irda-imf-business-registration/pune"
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "name": "Patron Accounting LLP",
-      "url": "https://www.patronaccounting.com/",
-      "logo": "https://www.patronaccounting.com/images/site-logo.svg",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "telephone": "+91-9459456700",
-      "email": "sales@patronaccounting.com",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Pune",
-        "addressRegion": "Maharashtra",
-        "addressCountry": "IN"
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "IMF Services",
-          "item": "https://www.patronaccounting.com/imf-services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "IRDA IMF Business Registration in Pune",
-          "item": "https://www.patronaccounting.com/irda-imf-business-registration/pune"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "datePublished": "2026-06-30T08:00:00+05:30",
-      "dateModified": "2026-06-30T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "How much does IMF registration cost in India?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The IRDAI application fee is INR 5,000 (non-refundable), payable from an SBI account in the IMF's name, plus MCA incorporation charges and professional fees. Patron handles the complete end-to-end setup - MCA incorporation plus IRDAI registration - starting from INR 24,999 (Exl GST and Govt. Charges)."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does IMF registration take?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The full journey typically runs about 7-10 weeks: IRDAI NOC (around 30-60 days), then company or LLP name reservation and incorporation at MCA, followed by Form A filing on the IMF portal and IRDAI scrutiny. Timelines depend on document readiness and the Principal Officer clearing the IMF exam."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What documents are required for IMF registration?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Form A, IRDAI NOC, ROC incorporation certificate with 'Insurance Marketing Firm' or 'IMF' in the name, MoA/AoA or LLP agreement and PAN, an SBI bank account, a CA net-worth certificate, Principal Officer and ISP exam and qualification certificates, a 3-year business plan with organisation chart and infrastructure photos, insurer consent letters and Fit and Proper declarations."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Who is eligible to register an IMF?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A Company under the Companies Act, 2013, an LLP under the LLP Act, 2008, or a Co-operative Society can register, provided the entity name contains 'Insurance Marketing Firm' or 'IMF', it meets the net-worth requirement of INR 10 lakh (INR 5 lakh for a single aspirational district), and it appoints a qualified Principal Officer and at least one Insurance Sales Person."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can Patron Accounting handle both the company incorporation and the IRDAI registration in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Patron runs the complete engagement end-to-end - IRDAI NOC, MCA name reservation and SPICe+ or LLP incorporation in the correct 'IMF' name, SBI account and net-worth certificate coordination, and Form A filing on imf.irda.gov.in - so a Pune promoter deals with one team for the entire setup."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you provide IMF registration in Pune and across India?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Patron supports IMF registration in Pune and nationwide, including metros and Tier 2 and Tier 3 cities. Because the IMF model is district-based - a maximum of 3 districts, with at least one aspirational district if you choose more than one - we help you structure the area of operation correctly for Pune and the surrounding districts."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long is an IMF registration valid and do I need to renew it?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Since 5 February 2026, IMF registration is perpetual - the earlier 3-year renewal cycle has been discontinued under the Insurance Laws amendment (Sabka Bima Sabki Raksha). You must, however, maintain ongoing compliance such as the annual CA net-worth certificate within 3 months of financial-year close and continuous Professional Indemnity cover."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the turnaround to get started after I engage Patron?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We begin within 1-2 working days of receiving your KYC and basic details - starting the IRDAI NOC and MCA name check in parallel where possible - and keep the NOC, incorporation and IMF portal filing moving on a tracked timeline through to your registration certificate."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -895,7 +712,197 @@
             }
         }
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>IMF Registration: IRDAI License &amp; Company Setup</title>
+    <meta name="description" content="End-to-end IMF registration in Pune from INR 24,999 - MCA incorporation plus IRDAI Insurance Marketing Firm license. Eligibility, documents, fees and timeline.">
+    <link rel="canonical" href="/irda-imf-business-registration/pune">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="keywords" content="IMF registration, insurance marketing firm registration, IRDAI IMF registration, IMF business registration, IMF license registration online, IMF registration process, IMF registration fees, how to start an insurance marketing firm, IMF company incorporation, IRDAI NOC for IMF, IMF registration Pune">
+    <meta property="og:title" content="IMF Registration: IRDAI License &amp; Company Setup">
+    <meta property="og:description" content="End-to-end IMF registration in Pune from INR 24,999 - MCA incorporation plus IRDAI Insurance Marketing Firm license. Eligibility, documents, fees and timeline.">
+    <meta property="og:url" content="/irda-imf-business-registration/pune">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="IMF Registration: IRDAI License &amp; Company Setup">
+    <meta name="twitter:description" content="End-to-end IMF registration in Pune from INR 24,999 - MCA incorporation plus IRDAI Insurance Marketing Firm license. Eligibility, documents, fees and timeline.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "IRDA IMF Business Registration in Pune",
+      "description": "End-to-end Insurance Marketing Firm (IMF) registration in Pune - MCA company or LLP incorporation in the IMF name plus IRDAI registration on imf.irda.gov.in. Eligibility, documents, fees and timeline handled by Patron Accounting's CA and CS team.",
+      "url": "https://www.patronaccounting.com/irda-imf-business-registration/pune",
+      "serviceType": "Insurance Marketing Firm Registration",
+      "areaServed": {
+        "@type": "City",
+        "name": "Pune",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Maharashtra"
+        }
+      },
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg",
+        "telephone": "+91-9459456700",
+        "email": "sales@patronaccounting.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Pune",
+          "addressRegion": "Maharashtra",
+          "addressCountry": "IN"
+        }
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "price": "24999",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.patronaccounting.com/irda-imf-business-registration/pune"
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "name": "Patron Accounting LLP",
+      "url": "https://www.patronaccounting.com/",
+      "logo": "https://www.patronaccounting.com/images/site-logo.svg",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "telephone": "+91-9459456700",
+      "email": "sales@patronaccounting.com",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Pune"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Pune",
+        "addressRegion": "Maharashtra",
+        "addressCountry": "IN"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "IMF Services",
+          "item": "https://www.patronaccounting.com/imf-services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "IRDA IMF Business Registration in Pune",
+          "item": "https://www.patronaccounting.com/irda-imf-business-registration/pune"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "datePublished": "2026-06-30T08:00:00+05:30",
+      "dateModified": "2026-06-30T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much does IMF registration cost in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The IRDAI application fee is INR 5,000 (non-refundable), payable from an SBI account in the IMF's name, plus MCA incorporation charges and professional fees. Patron handles the complete end-to-end setup - MCA incorporation plus IRDAI registration - starting from INR 24,999 (Exl GST and Govt. Charges)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does IMF registration take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The full journey typically runs about 7-10 weeks: IRDAI NOC (around 30-60 days), then company or LLP name reservation and incorporation at MCA, followed by Form A filing on the IMF portal and IRDAI scrutiny. Timelines depend on document readiness and the Principal Officer clearing the IMF exam."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What documents are required for IMF registration?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Form A, IRDAI NOC, ROC incorporation certificate with 'Insurance Marketing Firm' or 'IMF' in the name, MoA/AoA or LLP agreement and PAN, an SBI bank account, a CA net-worth certificate, Principal Officer and ISP exam and qualification certificates, a 3-year business plan with organisation chart and infrastructure photos, insurer consent letters and Fit and Proper declarations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who is eligible to register an IMF?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Company under the Companies Act, 2013, an LLP under the LLP Act, 2008, or a Co-operative Society can register, provided the entity name contains 'Insurance Marketing Firm' or 'IMF', it meets the net-worth requirement of INR 10 lakh (INR 5 lakh for a single aspirational district), and it appoints a qualified Principal Officer and at least one Insurance Sales Person."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can Patron Accounting handle both the company incorporation and the IRDAI registration in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Patron runs the complete engagement end-to-end - IRDAI NOC, MCA name reservation and SPICe+ or LLP incorporation in the correct 'IMF' name, SBI account and net-worth certificate coordination, and Form A filing on imf.irda.gov.in - so a Pune promoter deals with one team for the entire setup."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you provide IMF registration in Pune and across India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Patron supports IMF registration in Pune and nationwide, including metros and Tier 2 and Tier 3 cities. Because the IMF model is district-based - a maximum of 3 districts, with at least one aspirational district if you choose more than one - we help you structure the area of operation correctly for Pune and the surrounding districts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long is an IMF registration valid and do I need to renew it?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Since 5 February 2026, IMF registration is perpetual - the earlier 3-year renewal cycle has been discontinued under the Insurance Laws amendment (Sabka Bima Sabki Raksha). You must, however, maintain ongoing compliance such as the annual CA net-worth certificate within 3 months of financial-year close and continuous Professional Indemnity cover."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the turnaround to get started after I engage Patron?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We begin within 1-2 working days of receiving your KYC and basic details - starting the IRDAI NOC and MCA name check in parallel where possible - and keep the NOC, incorporation and IMF portal filing moving on a tracked timeline through to your registration certificate."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1763,7 +1770,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

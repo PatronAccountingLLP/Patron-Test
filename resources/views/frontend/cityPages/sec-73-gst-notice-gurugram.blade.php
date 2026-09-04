@@ -1,200 +1,11 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Section 73 GST Notice Gurugram</title>
-    <meta name="description" content="Section 73 GST notice in Gurugram? Patron CA team files DRC-06 reply and defends before CGST Gurugram and Haryana SGST. Starting Rs 2,999. Call today.">
-    <link rel="canonical" href="/sec-73-gst-notice/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Section 73 GST Notice Gurugram 2026 | Patron Accounting">
-    <meta property="og:description" content="Section 73 GST notice in Gurugram? Patron CA team files DRC-06 reply and defends before CGST Gurugram and Haryana SGST. Starting Rs 2,999. Call today.">
-    <meta property="og:url" content="/sec-73-gst-notice/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Section 73 GST Notice Gurugram 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Section 73 GST notice in Gurugram? Patron CA team files DRC-06 reply and defends before CGST Gurugram and Haryana SGST. Starting Rs 2,999. Call today.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/sec-73-gst-notice/gurugram#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "GST Notice",
-          "item": "https://www.patronaccounting.com/gst-notice"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Section 73 GST Notice Gurugram",
-          "item": "https://www.patronaccounting.com/sec-73-gst-notice/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/sec-73-gst-notice/gurugram#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is a Section 73 GST notice in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A Section 73 GST notice in Gurugram is a non-fraud demand SCN issued under Section 73 of the CGST Act 2017 (or Haryana GST Act 2017) by your jurisdictional proper officer - either at CGST Gurugram Commissionerate (Mudit Square, Sector 32) under CGST Panchkula Zone, or at Haryana SGST DETC Gurugram East (Sector 34 Infocity-1) or DETC Gurugram West (Sector 32) - alleging short payment of tax or wrongful ITC without fraud."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much time do I have to reply to a Section 73 SCN in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Thirty days from the date of service of the DRC-01 SCN. The proper officer may grant extension on written request showing genuine cause. Critically, payment of tax and interest within this 30-day window under Section 73(8) attracts NIL penalty - making this the strongest cost-saving window available. Missing the window allows ex-parte DRC-07 order with full penalty plus 18 percent interest under Section 50."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the Section 128A waiver for Gurugram FY 17-18 to 19-20 cases?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 128A provides a once-only waiver of interest and penalty for non-fraud Section 73 demands relating to FY 2017-18, 2018-19 and 2019-20 if the tax is paid in full by 31 March 2025 (or extended date per CBIC). Many of Gurugram first-wave Section 73 SCNs from FY 17-18 and 18-19 are eligible. Patron coordinates the tax payment plus waiver application bundle for Gurugram assessees."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do I reply to DRC-01 in Gurugram via DRC-06?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Log in to gst.gov.in. Navigate to Services then User Services then View Additional Notices and Orders. Locate the DRC-01 and file Form DRC-06 within 30 days with parameter-wise response, GSTR reconciliations as annexures, supplier verification certificates, DRC-03 challan for any voluntary payment and a request for personal hearing at CGST Mudit Square or the relevant Haryana SGST DETC office."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens if I do not reply to a Section 73 SCN?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The proper officer passes an ex-parte DRC-07 final order based on the SCN allegations. Demand becomes fully payable with 10 percent penalty under Section 73(9) plus 18 percent interest under Section 50. You lose the Section 73(8) NIL-penalty exit and any Section 128A waiver eligibility. Recovery proceedings under Section 79 follow within 3 months of the DRC-07 order."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can a Section 73 notice be challenged in Punjab and Haryana High Court?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Generally appeal under Section 107 to the Appellate Authority is the right remedy. However, where the SCN is time-barred, lacks DIN, or is issued without jurisdiction (e.g. wrong commissionerate), writ before the Punjab and Haryana High Court is available under Article 226. The HC has heard multiple Haryana-origin Section 73 challenges since 2022 and Patron coordinates the writ brief with the litigation team."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does Patron handle Haryana SGST DETC Gurugram notices as well as CGST?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Patron Gurugram office handles Section 73 SCNs from both CGST Gurugram Commissionerate (under CGST Panchkula Zone) at Mudit Square and Haryana SGST DETC offices at Sector 34 Infocity-1 (Gurugram East) and Sector 32 (Gurugram West). The reply procedure, forms (DRC-01 to DRC-07) and 30-day window are identical under cross-empowerment between Central and State tax administrations."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/sec-73-gst-notice/gurugram#service",
-      "name": "Section 73 GST Notice Reply and DRC-06 Defence in Gurugram",
-      "url": "https://www.patronaccounting.com/sec-73-gst-notice/gurugram",
-      "description": "Patron Accounting Section 73 GST notice handling for Gurugram taxpayers - covering DRC-01A pre-SCN voluntary payment strategy, DRC-06 reply drafting within 30 days, Section 73(8) 30-day NIL-penalty decision support, Section 128A conditional waiver applications for FY 2017-18, 2018-19 and 2019-20, personal hearing representation at CGST Gurugram Commissionerate (Mudit Square, Sector 32) under CGST Panchkula Zone and Haryana SGST DETC Gurugram East / West offices, plus Section 107 appeal to Appellate Authority and GSTAT Allahabad bench representation. Starting from Rs 2,999.",
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      },
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "sameAs": "https://en.wikipedia.org/wiki/Gurugram"
-      },
-      "serviceType": "Section 73 GST Show Cause Notice Reply and Adjudication Defence",
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Goods and Services Tax (India)",
-          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
-        },
-        {
-          "@type": "Thing",
-          "name": "Central Goods and Services Tax Act 2017",
-          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
-        },
-        {
-          "@type": "Thing",
-          "name": "Show cause notice",
-          "sameAs": "https://en.wikipedia.org/wiki/Show_cause_notice"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Section 73 GST Notice Gurugram Service Packages",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "name": "DRC-06 Reply (Simple - Single-Parameter, Single FY) Gurugram",
-            "price": "2999",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/sec-73-gst-notice/gurugram"
-          },
-          {
-            "@type": "Offer",
-            "name": "DRC-06 Reply (Standard - Multi-Parameter, Single FY) with GSTR Reconciliation Gurugram",
-            "price": "6500",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/sec-73-gst-notice/gurugram"
-          },
-          {
-            "@type": "Offer",
-            "name": "Section 128A Waiver Bundle - Tax Payment plus Waiver Application plus Closure Tracking",
-            "price": "4500",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/sec-73-gst-notice/gurugram"
-          },
-          {
-            "@type": "Offer",
-            "name": "Section 107 Appeal Filing - APL-01 plus Grounds plus 10 Percent Pre-Deposit Support Gurugram",
-            "price": "12000",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/sec-73-gst-notice/gurugram"
-          }
-        ]
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -865,7 +676,201 @@ section[style*="background: var(--blue)"] .content-text,
 section[style*="background: var(--blue)"] .content-text p,
 section[style*="background: var(--blue)"] .content-text li,
 section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !important;}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Section 73 GST Notice Gurugram</title>
+    <meta name="description" content="Section 73 GST notice in Gurugram? Patron CA team files DRC-06 reply and defends before CGST Gurugram and Haryana SGST. Starting Rs 2,999. Call today.">
+    <link rel="canonical" href="/sec-73-gst-notice/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Section 73 GST Notice Gurugram 2026 | Patron Accounting">
+    <meta property="og:description" content="Section 73 GST notice in Gurugram? Patron CA team files DRC-06 reply and defends before CGST Gurugram and Haryana SGST. Starting Rs 2,999. Call today.">
+    <meta property="og:url" content="/sec-73-gst-notice/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Section 73 GST Notice Gurugram 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Section 73 GST notice in Gurugram? Patron CA team files DRC-06 reply and defends before CGST Gurugram and Haryana SGST. Starting Rs 2,999. Call today.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/sec-73-gst-notice/gurugram#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "GST Notice",
+          "item": "https://www.patronaccounting.com/gst-notice"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Section 73 GST Notice Gurugram",
+          "item": "https://www.patronaccounting.com/sec-73-gst-notice/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/sec-73-gst-notice/gurugram#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a Section 73 GST notice in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Section 73 GST notice in Gurugram is a non-fraud demand SCN issued under Section 73 of the CGST Act 2017 (or Haryana GST Act 2017) by your jurisdictional proper officer - either at CGST Gurugram Commissionerate (Mudit Square, Sector 32) under CGST Panchkula Zone, or at Haryana SGST DETC Gurugram East (Sector 34 Infocity-1) or DETC Gurugram West (Sector 32) - alleging short payment of tax or wrongful ITC without fraud."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much time do I have to reply to a Section 73 SCN in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Thirty days from the date of service of the DRC-01 SCN. The proper officer may grant extension on written request showing genuine cause. Critically, payment of tax and interest within this 30-day window under Section 73(8) attracts NIL penalty - making this the strongest cost-saving window available. Missing the window allows ex-parte DRC-07 order with full penalty plus 18 percent interest under Section 50."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the Section 128A waiver for Gurugram FY 17-18 to 19-20 cases?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 128A provides a once-only waiver of interest and penalty for non-fraud Section 73 demands relating to FY 2017-18, 2018-19 and 2019-20 if the tax is paid in full by 31 March 2025 (or extended date per CBIC). Many of Gurugram first-wave Section 73 SCNs from FY 17-18 and 18-19 are eligible. Patron coordinates the tax payment plus waiver application bundle for Gurugram assessees."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I reply to DRC-01 in Gurugram via DRC-06?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Log in to gst.gov.in. Navigate to Services then User Services then View Additional Notices and Orders. Locate the DRC-01 and file Form DRC-06 within 30 days with parameter-wise response, GSTR reconciliations as annexures, supplier verification certificates, DRC-03 challan for any voluntary payment and a request for personal hearing at CGST Mudit Square or the relevant Haryana SGST DETC office."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if I do not reply to a Section 73 SCN?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The proper officer passes an ex-parte DRC-07 final order based on the SCN allegations. Demand becomes fully payable with 10 percent penalty under Section 73(9) plus 18 percent interest under Section 50. You lose the Section 73(8) NIL-penalty exit and any Section 128A waiver eligibility. Recovery proceedings under Section 79 follow within 3 months of the DRC-07 order."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a Section 73 notice be challenged in Punjab and Haryana High Court?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Generally appeal under Section 107 to the Appellate Authority is the right remedy. However, where the SCN is time-barred, lacks DIN, or is issued without jurisdiction (e.g. wrong commissionerate), writ before the Punjab and Haryana High Court is available under Article 226. The HC has heard multiple Haryana-origin Section 73 challenges since 2022 and Patron coordinates the writ brief with the litigation team."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Patron handle Haryana SGST DETC Gurugram notices as well as CGST?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Patron Gurugram office handles Section 73 SCNs from both CGST Gurugram Commissionerate (under CGST Panchkula Zone) at Mudit Square and Haryana SGST DETC offices at Sector 34 Infocity-1 (Gurugram East) and Sector 32 (Gurugram West). The reply procedure, forms (DRC-01 to DRC-07) and 30-day window are identical under cross-empowerment between Central and State tax administrations."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/sec-73-gst-notice/gurugram#service",
+      "name": "Section 73 GST Notice Reply and DRC-06 Defence in Gurugram",
+      "url": "https://www.patronaccounting.com/sec-73-gst-notice/gurugram",
+      "description": "Patron Accounting Section 73 GST notice handling for Gurugram taxpayers - covering DRC-01A pre-SCN voluntary payment strategy, DRC-06 reply drafting within 30 days, Section 73(8) 30-day NIL-penalty decision support, Section 128A conditional waiver applications for FY 2017-18, 2018-19 and 2019-20, personal hearing representation at CGST Gurugram Commissionerate (Mudit Square, Sector 32) under CGST Panchkula Zone and Haryana SGST DETC Gurugram East / West offices, plus Section 107 appeal to Appellate Authority and GSTAT Allahabad bench representation. Starting from Rs 2,999.",
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "sameAs": "https://en.wikipedia.org/wiki/Gurugram"
+      },
+      "serviceType": "Section 73 GST Show Cause Notice Reply and Adjudication Defence",
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Goods and Services Tax (India)",
+          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
+        },
+        {
+          "@type": "Thing",
+          "name": "Central Goods and Services Tax Act 2017",
+          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
+        },
+        {
+          "@type": "Thing",
+          "name": "Show cause notice",
+          "sameAs": "https://en.wikipedia.org/wiki/Show_cause_notice"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Section 73 GST Notice Gurugram Service Packages",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "DRC-06 Reply (Simple - Single-Parameter, Single FY) Gurugram",
+            "price": "2999",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/sec-73-gst-notice/gurugram"
+          },
+          {
+            "@type": "Offer",
+            "name": "DRC-06 Reply (Standard - Multi-Parameter, Single FY) with GSTR Reconciliation Gurugram",
+            "price": "6500",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/sec-73-gst-notice/gurugram"
+          },
+          {
+            "@type": "Offer",
+            "name": "Section 128A Waiver Bundle - Tax Payment plus Waiver Application plus Closure Tracking",
+            "price": "4500",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/sec-73-gst-notice/gurugram"
+          },
+          {
+            "@type": "Offer",
+            "name": "Section 107 Appeal Filing - APL-01 plus Grounds plus 10 Percent Pre-Deposit Support Gurugram",
+            "price": "12000",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/sec-73-gst-notice/gurugram"
+          }
+        ]
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -2119,7 +2124,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 </script>
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

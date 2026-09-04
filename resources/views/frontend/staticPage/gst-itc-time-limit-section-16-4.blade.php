@@ -1,160 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Section 16(4) ITC Time Limit 2026 | Patron Accounting</title>
-    <meta name="description" content="Section 16(4) CGST Act caps ITC claim at 30 November of next FY or GSTR-9 date. Section 16(5)/(6) retrospective relief. Patron from Rs 2,499.">
-    <link rel="canonical" href="/gst-itc-time-limit-section-16-4">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Section 16(4) ITC Time Limit 2026 | Patron Accounting">
-    <meta property="og:description" content="Section 16(4) CGST Act caps ITC claim at 30 November of next FY or GSTR-9 date. Section 16(5)/(6) retrospective relief. Patron from Rs 2,499.">
-    <meta property="og:url" content="/gst-itc-time-limit-section-16-4">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Section 16(4) ITC Time Limit 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Section 16(4) CGST Act caps ITC claim at 30 November of next FY or GSTR-9 date. Section 16(5)/(6) retrospective relief. Patron from Rs 2,499.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/gst-itc-time-limit-section-16-4/#service",
-        "name": "GST ITC Time Limit: Section 16(4) Advisory in India",
-        "description": "GST ITC time limit advisory under Section 16(4) of the CGST Act 2017 covering the earlier of 30 November of next FY or GSTR-9 filing date cut-off. Includes pre-November pending sweep, Section 16(5) retrospective rectification for FY 2017-18 to 2020-21, Section 16(6) post-revocation reclaim, and demand notice defence under Notification 22/2024-Central Tax and Circular 237/31/2024-GST starting from INR 2,499 per engagement.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-itc-time-limit-section-16-4" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [
-            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
-            { "@type": "Thing", "name": "Input Tax Credit", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" }
-        ],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "ITC Time Limit Section 16(4) Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "Pre-30-November Sweep",
-                    "priceCurrency": "INR",
-                    "price": "2499",
-                    "description": "Current FY pending ITC scan, IMS dashboard cleanup, GSTR-3B claim push"
-                },
-                {
-                    "@type": "Offer",
-                    "name": "Comprehensive Year-End",
-                    "priceCurrency": "INR",
-                    "price": "4999",
-                    "description": "Multi-FY scan, early GSTR-9 impact mapping, audit-trail documentation"
-                },
-                {
-                    "@type": "Offer",
-                    "name": "Section 16(5) Rectification",
-                    "priceCurrency": "INR",
-                    "price": "9999",
-                    "description": "Past demand order audit, Annexure A filing, revised order tracking"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/gst-itc-time-limit-section-16-4/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
-            { "@type": "ListItem", "position": 3, "name": "ITC Time Limit Section 16(4)", "item": "https://www.patronaccounting.com/gst-itc-time-limit-section-16-4" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/gst-itc-time-limit-section-16-4/#faq",
-        "datePublished": "2026-05-27T08:00:00+05:30",
-        "dateModified": "2026-06-01T08:00:00+05:30",
-        "mainEntity": [
-
-            {
-                "@type": "Question",
-                "name": "What is the Section 16(4) time limit for claiming ITC?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Section 16(4) of the CGST Act 2017 sets the outer time limit for input tax credit availment as the earlier of (a) 30 November of the financial year following the FY to which the invoice or debit note pertains, or (b) the date of filing the GSTR-9 annual return for that FY. The pre-Finance Act 2022 deadline was 20 October (October GSTR-3B filing), but the Finance Act 2022 extended it to 30 November, effective from October 2022."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What happens to ITC not claimed by the Section 16(4) deadline?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "ITC not claimed by the Section 16(4) cut-off is permanently forfeited. The credit cannot be carried forward to a later FY, cannot be claimed via belated GSTR-3B for the prior FY, and is not refundable. If the taxpayer later claims it, the proper officer can issue a demand notice under Section 73 (non-fraud) or Section 74 (fraud) with reversal, interest at 18 to 24 percent under Section 50, and penalty under Section 122."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How does Section 16(5) help with FY 2017-18 to 2020-21 ITC?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Section 16(5), inserted via the Finance Act (No.2) 2024 retrospectively from 1 July 2017, provides relief for invoices and debit notes pertaining to FY 2017-18, 2018-19, 2019-20, and 2020-21. If the ITC was claimed in a GSTR-3B filed on or before 30 November 2021, the claim is validated retrospectively even if the standard Section 16(4) cut-off was crossed. CBIC operationalised this through Notification 17/2024-Central Tax dated 27 September 2024."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How does Section 16(6) work for revoked GST registrations?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Section 16(6), also inserted via the Finance Act (No.2) 2024, allows a registered taxpayer whose GST registration was cancelled and subsequently revoked to claim ITC for the cancellation-to-revocation gap period. The condition is that the pending GSTR-3B returns for that gap must be filed within 30 days of the revocation order. This is a narrow but powerful relief for businesses that suffered registration cancellation and reinstated their GSTIN."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can past demand orders denying ITC under Section 16(4) be rectified now?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, through the special rectification procedure under Notification 22/2024-Central Tax dated 8 October 2024 and Circular 237/31/2024-GST. Taxpayers with confirmed demand orders for FY 2017-18 to 2020-21 Section 16(4) denials can file electronic rectification requests with Annexure A. The proper officer issues a revised order in Form DRC-08 (for Section 73/74 orders) or Form GST APL-04 (for appellate orders) within 3 months."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can the tax already paid or ITC reversed be refunded under Section 16(5)/(6)?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "No. Section 150 of the Finance Act 2024 contains a no-refund restriction. Tax already discharged or ITC already reversed for periods now covered by retrospective Section 16(5)/(6) relief is not refundable. The relief operates as forward-looking protection against further demand and as cancellation of pending demand, but does not trigger refund of amounts already settled. This is a critical limitation for taxpayers who paid prior demands."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Does early GSTR-9 filing close the Section 16(4) window early?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. Section 16(4) uses the earlier of 30 November of the next FY or the GSTR-9 filing date. If a taxpayer files GSTR-9 on, say, 25 October of the next FY, that date becomes the binding cut-off. ITC cannot be claimed for invoices of the prior FY after 25 October even though 30 November has not yet arrived. Early GSTR-9 filers must complete their pending ITC sweep before the GSTR-9 lock."
-                }
-            }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -768,7 +618,162 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Section 16(4) ITC Time Limit 2026 | Patron Accounting</title>
+    <meta name="description" content="Section 16(4) CGST Act caps ITC claim at 30 November of next FY or GSTR-9 date. Section 16(5)/(6) retrospective relief. Patron from Rs 2,499.">
+    <link rel="canonical" href="/gst-itc-time-limit-section-16-4">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Section 16(4) ITC Time Limit 2026 | Patron Accounting">
+    <meta property="og:description" content="Section 16(4) CGST Act caps ITC claim at 30 November of next FY or GSTR-9 date. Section 16(5)/(6) retrospective relief. Patron from Rs 2,499.">
+    <meta property="og:url" content="/gst-itc-time-limit-section-16-4">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Section 16(4) ITC Time Limit 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Section 16(4) CGST Act caps ITC claim at 30 November of next FY or GSTR-9 date. Section 16(5)/(6) retrospective relief. Patron from Rs 2,499.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/gst-itc-time-limit-section-16-4/#service",
+        "name": "GST ITC Time Limit: Section 16(4) Advisory in India",
+        "description": "GST ITC time limit advisory under Section 16(4) of the CGST Act 2017 covering the earlier of 30 November of next FY or GSTR-9 filing date cut-off. Includes pre-November pending sweep, Section 16(5) retrospective rectification for FY 2017-18 to 2020-21, Section 16(6) post-revocation reclaim, and demand notice defence under Notification 22/2024-Central Tax and Circular 237/31/2024-GST starting from INR 2,499 per engagement.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-itc-time-limit-section-16-4" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [
+            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
+            { "@type": "Thing", "name": "Input Tax Credit", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" }
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "ITC Time Limit Section 16(4) Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "Pre-30-November Sweep",
+                    "priceCurrency": "INR",
+                    "price": "2499",
+                    "description": "Current FY pending ITC scan, IMS dashboard cleanup, GSTR-3B claim push"
+                },
+                {
+                    "@type": "Offer",
+                    "name": "Comprehensive Year-End",
+                    "priceCurrency": "INR",
+                    "price": "4999",
+                    "description": "Multi-FY scan, early GSTR-9 impact mapping, audit-trail documentation"
+                },
+                {
+                    "@type": "Offer",
+                    "name": "Section 16(5) Rectification",
+                    "priceCurrency": "INR",
+                    "price": "9999",
+                    "description": "Past demand order audit, Annexure A filing, revised order tracking"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/gst-itc-time-limit-section-16-4/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
+            { "@type": "ListItem", "position": 3, "name": "ITC Time Limit Section 16(4)", "item": "https://www.patronaccounting.com/gst-itc-time-limit-section-16-4" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/gst-itc-time-limit-section-16-4/#faq",
+        "datePublished": "2026-05-27T08:00:00+05:30",
+        "dateModified": "2026-06-01T08:00:00+05:30",
+        "mainEntity": [
+
+            {
+                "@type": "Question",
+                "name": "What is the Section 16(4) time limit for claiming ITC?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Section 16(4) of the CGST Act 2017 sets the outer time limit for input tax credit availment as the earlier of (a) 30 November of the financial year following the FY to which the invoice or debit note pertains, or (b) the date of filing the GSTR-9 annual return for that FY. The pre-Finance Act 2022 deadline was 20 October (October GSTR-3B filing), but the Finance Act 2022 extended it to 30 November, effective from October 2022."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What happens to ITC not claimed by the Section 16(4) deadline?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "ITC not claimed by the Section 16(4) cut-off is permanently forfeited. The credit cannot be carried forward to a later FY, cannot be claimed via belated GSTR-3B for the prior FY, and is not refundable. If the taxpayer later claims it, the proper officer can issue a demand notice under Section 73 (non-fraud) or Section 74 (fraud) with reversal, interest at 18 to 24 percent under Section 50, and penalty under Section 122."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How does Section 16(5) help with FY 2017-18 to 2020-21 ITC?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Section 16(5), inserted via the Finance Act (No.2) 2024 retrospectively from 1 July 2017, provides relief for invoices and debit notes pertaining to FY 2017-18, 2018-19, 2019-20, and 2020-21. If the ITC was claimed in a GSTR-3B filed on or before 30 November 2021, the claim is validated retrospectively even if the standard Section 16(4) cut-off was crossed. CBIC operationalised this through Notification 17/2024-Central Tax dated 27 September 2024."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How does Section 16(6) work for revoked GST registrations?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Section 16(6), also inserted via the Finance Act (No.2) 2024, allows a registered taxpayer whose GST registration was cancelled and subsequently revoked to claim ITC for the cancellation-to-revocation gap period. The condition is that the pending GSTR-3B returns for that gap must be filed within 30 days of the revocation order. This is a narrow but powerful relief for businesses that suffered registration cancellation and reinstated their GSTIN."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can past demand orders denying ITC under Section 16(4) be rectified now?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, through the special rectification procedure under Notification 22/2024-Central Tax dated 8 October 2024 and Circular 237/31/2024-GST. Taxpayers with confirmed demand orders for FY 2017-18 to 2020-21 Section 16(4) denials can file electronic rectification requests with Annexure A. The proper officer issues a revised order in Form DRC-08 (for Section 73/74 orders) or Form GST APL-04 (for appellate orders) within 3 months."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can the tax already paid or ITC reversed be refunded under Section 16(5)/(6)?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No. Section 150 of the Finance Act 2024 contains a no-refund restriction. Tax already discharged or ITC already reversed for periods now covered by retrospective Section 16(5)/(6) relief is not refundable. The relief operates as forward-looking protection against further demand and as cancellation of pending demand, but does not trigger refund of amounts already settled. This is a critical limitation for taxpayers who paid prior demands."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Does early GSTR-9 filing close the Section 16(4) window early?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Section 16(4) uses the earlier of 30 November of the next FY or the GSTR-9 filing date. If a taxpayer files GSTR-9 on, say, 25 October of the next FY, that date becomes the binding cut-off. ITC cannot be claimed for invoices of the prior FY after 25 October even though 30 November has not yet arrived. Early GSTR-9 filers must complete their pending ITC sweep before the GSTR-9 lock."
+                }
+            }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1713,17 +1718,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1746,8 +1744,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1784,7 +1780,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1795,4 +1790,20 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+
 

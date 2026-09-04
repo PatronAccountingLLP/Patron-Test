@@ -1,198 +1,5 @@
 @extends('layouts.app')
-
-@section('meta')
-<title>Accounting Ratio Calculator | Liquidity, DSCR & ROCE</title>
-<meta name="description" content="Free accounting ratio calculator: compute liquidity, solvency, profitability and activity ratios including current ratio, DSCR, ROCE and debt-equity. Try now!">
-<meta name="robots" content="index, follow">
-<meta name="theme-color" content="#15365f">
-<link rel="canonical" href="https://www.patronaccounting.com/tools/accounting-ratio-calculator">
-
-<meta property="og:title" content="Accounting Ratios Calculator — Liquidity, DSCR & ROCE">
-<meta property="og:description" content="Compute current, quick, debt-to-equity, ROE, net margin, inventory turnover and more in one calculator, with India benchmarks. Free, no signup.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.patronaccounting.com/tools/accounting-ratio-calculator">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="1200">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-<meta property="og:site_name" content="Patron Accounting">
-<meta property="og:locale" content="en_IN">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Accounting Ratios Calculator — Liquidity, DSCR & ROCE">
-<meta name="twitter:description" content="Liquidity, solvency, profitability and activity ratios in one free calculator, with India benchmarks. Instant results.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-
-<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
-<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
-@endsection
-
-@section('schema')
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "Accounting Ratio Calculator",
-  "description": "Accounting Ratio Calculator computes the core liquidity, solvency, profitability and activity ratios — including current ratio, quick ratio, debt-to-equity, net profit margin, return on equity and inventory turnover — from a single set of financial statement inputs, with results benchmarked for Indian businesses.",
-  "url": "https://www.patronaccounting.com/tools/accounting-ratio-calculator",
-  "applicationCategory": "BusinessApplication",
-  "inLanguage": "en-IN",
-  "isAccessibleForFree": true,
-  "operatingSystem": "Any",
-  "datePublished": "2026-06-05T08:00:00+05:30",
-  "dateModified": "2026-06-05T08:00:00+05:30",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "INR"
-  },
-  "reviewedBy": {
-    "@type": "Person",
-    "@id": "https://patronaccounting.com/#founder",
-    "name": "CA Sundram Gupta",
-    "jobTitle": "Founder & Chartered Accountant",
-    "url": "https://www.patronaccounting.com/contact-page",
-    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-    "hasCredential": [{
-      "@type": "EducationalOccupationalCredential",
-      "credentialCategory": "Professional Certification",
-      "name": "Chartered Accountant (CA)",
-      "recognizedBy": {
-        "@type": "Organization",
-        "name": "Institute of Chartered Accountants of India",
-        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-      }
-    }]
-  },
-  "publisher": { "@id": "https://patronaccounting.com/#organization" },
-  "provider": {
-    "@id": "https://patronaccounting.com/#organization"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "Accounting Ratio Calculator", "item": "https://www.patronaccounting.com/tools/accounting-ratio-calculator"}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is an accounting ratio?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "An accounting ratio expresses the relationship between two figures from the financial statements, such as current assets to current liabilities. Ratios turn raw numbers into comparable measures of liquidity, solvency, profitability and efficiency. They let owners, lenders and investors judge performance over time and against peers, and they form the backbone of financial statement analysis used in audits and credit decisions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the main types of accounting ratios?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Accounting ratios are usually grouped into four families. Liquidity ratios such as current and quick ratio measure short-term solvency. Solvency or leverage ratios such as debt-to-equity assess long-term stability. Profitability ratios such as net margin and ROE measure returns. Activity or turnover ratios such as inventory turnover measure how efficiently assets are used. This calculator covers all four groups."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How is the current ratio calculated?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Current ratio equals current assets divided by current liabilities. It measures whether a business can meet short-term obligations from short-term assets. A ratio around 1.5 to 2 is generally considered comfortable for most businesses, though the ideal varies by industry. A figure below 1 signals possible liquidity strain, while a very high ratio may mean idle assets that are not being used productively."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the difference between current ratio and quick ratio?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Both measure short-term liquidity, but the quick ratio is stricter. The current ratio includes all current assets, whereas the quick or acid-test ratio excludes inventory, which can be slow to convert into cash. Quick ratio equals current assets minus inventory, divided by current liabilities. A quick ratio above 1 suggests a business can cover its immediate liabilities without relying on selling stock."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a good debt-to-equity ratio?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Debt-to-equity equals total debt divided by shareholders' equity, showing how much a business is financed by borrowing versus owners' funds. A ratio around 1 to 2 is common for many Indian companies, but capital-intensive sectors run higher and asset-light businesses lower. A high ratio increases financial risk and interest burden, so lenders and investors read it alongside interest coverage and cash flow."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do you calculate net profit margin?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Net profit margin equals net profit divided by revenue, expressed as a percentage. It shows how many rupees of profit remain from every rupee of sales after all expenses, interest and tax. Margins vary widely by sector, so compare against industry peers rather than a universal target. Rising margins usually indicate better cost control or pricing power, while falling margins warrant investigation."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What does return on equity (ROE) tell you?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Return on equity equals net profit divided by shareholders' equity, expressed as a percentage. It measures how efficiently a company generates profit from the funds owners have invested. A higher ROE generally signals effective use of capital, but it can be inflated by heavy borrowing. The DuPont method breaks ROE into margin, asset turnover and leverage to reveal what is really driving the return."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why are accounting ratios important for a business?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Ratios convert financial statements into actionable insight. They help spot liquidity gaps, excessive leverage, margin erosion and operational inefficiency before they become crises. Banks use them to set lending terms, investors to value businesses, and management to set budgets and track trends. For Indian companies, ratios also support audit analysis and disclosures prepared under accounting standards issued by the ICAI."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Should I compare ratios to industry benchmarks?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. A ratio is only meaningful in context. A current ratio of 1.2 may be healthy for fast-moving retail but weak for manufacturing, and margins differ sharply across sectors. Always benchmark against your own industry and your own past trend rather than a single universal figure. Comparing year on year reveals direction, which is often more useful than any one snapshot."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the inventory turnover ratio?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Inventory turnover is an activity ratio equal to cost of goods sold divided by average inventory. It shows how many times stock is sold and replaced in a period. A higher ratio indicates fast-moving inventory and efficient working capital, while a low ratio suggests overstocking or slow sales. Dividing 365 by the ratio gives days inventory outstanding, the average days stock is held before sale."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can ratios be misleading?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, if read in isolation. Ratios depend on the quality of the underlying accounts, so inconsistent valuation, one-off items or seasonal timing can distort them. A single ratio rarely tells the full story; analysts read several together and across periods. They are a diagnostic starting point, not a verdict, and should be interpreted alongside cash flows, business context and professional judgement."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is this accounting ratio calculator free?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, the Patron Accounting Ratio Calculator is completely free with no signup required. All calculations run in your browser and nothing is stored on our servers. Enter your balance sheet and profit and loss figures once and it computes liquidity, solvency, profitability and activity ratios together, in rupees, with plain-language interpretation for each result to help you act on the numbers."
-      }
-    }
-  ]
-}
-</script>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-@endsection
+@push('styles')
 <style>
         :root {
             --primary: #15365f;
@@ -705,6 +512,202 @@ a:focus-visible {
 
 
         </style>
+@endpush
+
+
+@section('meta')
+<title>Accounting Ratio Calculator | Liquidity, DSCR & ROCE</title>
+<meta name="description" content="Free accounting ratio calculator: compute liquidity, solvency, profitability and activity ratios including current ratio, DSCR, ROCE and debt-equity. Try now!">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#15365f">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/accounting-ratio-calculator">
+
+<meta property="og:title" content="Accounting Ratios Calculator — Liquidity, DSCR & ROCE">
+<meta property="og:description" content="Compute current, quick, debt-to-equity, ROE, net margin, inventory turnover and more in one calculator, with India benchmarks. Free, no signup.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/accounting-ratio-calculator">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+<meta property="og:site_name" content="Patron Accounting">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Accounting Ratios Calculator — Liquidity, DSCR & ROCE">
+<meta name="twitter:description" content="Liquidity, solvency, profitability and activity ratios in one free calculator, with India benchmarks. Instant results.">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
+@endsection
+
+@section('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Accounting Ratio Calculator",
+  "description": "Accounting Ratio Calculator computes the core liquidity, solvency, profitability and activity ratios — including current ratio, quick ratio, debt-to-equity, net profit margin, return on equity and inventory turnover — from a single set of financial statement inputs, with results benchmarked for Indian businesses.",
+  "url": "https://www.patronaccounting.com/tools/accounting-ratio-calculator",
+  "applicationCategory": "BusinessApplication",
+  "inLanguage": "en-IN",
+  "isAccessibleForFree": true,
+  "operatingSystem": "Any",
+  "datePublished": "2026-06-05T08:00:00+05:30",
+  "dateModified": "2026-06-05T08:00:00+05:30",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "INR"
+  },
+  "reviewedBy": {
+    "@type": "Person",
+    "@id": "https://patronaccounting.com/#founder",
+    "name": "CA Sundram Gupta",
+    "jobTitle": "Founder & Chartered Accountant",
+    "url": "https://www.patronaccounting.com/contact-page",
+    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+    "hasCredential": [{
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Professional Certification",
+      "name": "Chartered Accountant (CA)",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Institute of Chartered Accountants of India",
+        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+      }
+    }]
+  },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
+  "provider": {
+    "@id": "https://patronaccounting.com/#organization"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "Accounting Ratio Calculator", "item": "https://www.patronaccounting.com/tools/accounting-ratio-calculator"}
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is an accounting ratio?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An accounting ratio expresses the relationship between two figures from the financial statements, such as current assets to current liabilities. Ratios turn raw numbers into comparable measures of liquidity, solvency, profitability and efficiency. They let owners, lenders and investors judge performance over time and against peers, and they form the backbone of financial statement analysis used in audits and credit decisions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main types of accounting ratios?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Accounting ratios are usually grouped into four families. Liquidity ratios such as current and quick ratio measure short-term solvency. Solvency or leverage ratios such as debt-to-equity assess long-term stability. Profitability ratios such as net margin and ROE measure returns. Activity or turnover ratios such as inventory turnover measure how efficiently assets are used. This calculator covers all four groups."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is the current ratio calculated?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Current ratio equals current assets divided by current liabilities. It measures whether a business can meet short-term obligations from short-term assets. A ratio around 1.5 to 2 is generally considered comfortable for most businesses, though the ideal varies by industry. A figure below 1 signals possible liquidity strain, while a very high ratio may mean idle assets that are not being used productively."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between current ratio and quick ratio?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Both measure short-term liquidity, but the quick ratio is stricter. The current ratio includes all current assets, whereas the quick or acid-test ratio excludes inventory, which can be slow to convert into cash. Quick ratio equals current assets minus inventory, divided by current liabilities. A quick ratio above 1 suggests a business can cover its immediate liabilities without relying on selling stock."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a good debt-to-equity ratio?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Debt-to-equity equals total debt divided by shareholders' equity, showing how much a business is financed by borrowing versus owners' funds. A ratio around 1 to 2 is common for many Indian companies, but capital-intensive sectors run higher and asset-light businesses lower. A high ratio increases financial risk and interest burden, so lenders and investors read it alongside interest coverage and cash flow."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you calculate net profit margin?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Net profit margin equals net profit divided by revenue, expressed as a percentage. It shows how many rupees of profit remain from every rupee of sales after all expenses, interest and tax. Margins vary widely by sector, so compare against industry peers rather than a universal target. Rising margins usually indicate better cost control or pricing power, while falling margins warrant investigation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does return on equity (ROE) tell you?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Return on equity equals net profit divided by shareholders' equity, expressed as a percentage. It measures how efficiently a company generates profit from the funds owners have invested. A higher ROE generally signals effective use of capital, but it can be inflated by heavy borrowing. The DuPont method breaks ROE into margin, asset turnover and leverage to reveal what is really driving the return."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why are accounting ratios important for a business?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ratios convert financial statements into actionable insight. They help spot liquidity gaps, excessive leverage, margin erosion and operational inefficiency before they become crises. Banks use them to set lending terms, investors to value businesses, and management to set budgets and track trends. For Indian companies, ratios also support audit analysis and disclosures prepared under accounting standards issued by the ICAI."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I compare ratios to industry benchmarks?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. A ratio is only meaningful in context. A current ratio of 1.2 may be healthy for fast-moving retail but weak for manufacturing, and margins differ sharply across sectors. Always benchmark against your own industry and your own past trend rather than a single universal figure. Comparing year on year reveals direction, which is often more useful than any one snapshot."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the inventory turnover ratio?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Inventory turnover is an activity ratio equal to cost of goods sold divided by average inventory. It shows how many times stock is sold and replaced in a period. A higher ratio indicates fast-moving inventory and efficient working capital, while a low ratio suggests overstocking or slow sales. Dividing 365 by the ratio gives days inventory outstanding, the average days stock is held before sale."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can ratios be misleading?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, if read in isolation. Ratios depend on the quality of the underlying accounts, so inconsistent valuation, one-off items or seasonal timing can distort them. A single ratio rarely tells the full story; analysts read several together and across periods. They are a diagnostic starting point, not a verdict, and should be interpreted alongside cash flows, business context and professional judgement."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is this accounting ratio calculator free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the Patron Accounting Ratio Calculator is completely free with no signup required. All calculations run in your browser and nothing is stored on our servers. Enter your balance sheet and profit and loss figures once and it computes liquidity, solvency, profitability and activity ratios together, in rupees, with plain-language interpretation for each result to help you act on the numbers."
+      }
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+@endsection
 @section('content')
 
 <nav class="toc-nav" aria-label="Page Navigation">

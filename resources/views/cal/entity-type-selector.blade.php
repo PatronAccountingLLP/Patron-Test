@@ -1,181 +1,6 @@
 @extends('layouts.app')
-<title>Business Structure Selector India | Pvt Ltd, LLP or OPC</title>
-<meta name="description" content="Free entity type selector for India. Answer 5 questions to get the best business structure ranked for you: Pvt Ltd, LLP, OPC, Partnership or Proprietorship.">
-<meta name="robots" content="index, follow">
-<meta name="theme-color" content="#15365f">
+@push('styles')
 <link rel="canonical" href="https://www.patronaccounting.com/tools/entity-type-selector">
-
-@section('meta')
-
-<meta property="og:title" content="Entity Type Selector — Best Business Structure India 2026">
-<meta property="og:description" content="Answer five quick questions and get a ranked recommendation of the best Indian business structure — Private Limited, LLP, OPC, Partnership or Proprietorship.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.patronaccounting.com/tools/entity-type-selector">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="1200">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-<meta property="og:site_name" content="Patron Accounting">
-<meta property="og:locale" content="en_IN">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Entity Type Selector — Best Business Structure India 2026">
-<meta name="twitter:description" content="Answer 5 questions and get a ranked recommendation of the best Indian business structure for you. Free &amp; instant.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-
-<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
-<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
-@endsection
-@section('schema')
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "Entity Type Selector",
-  "description": "Entity Type Selector recommends the most suitable Indian business structure from a founder's answers to five questions about the number of owners, fundraising plans, the need for limited liability, the appetite for compliance, and the priority on credibility and scale. It scores Private Limited Company, Limited Liability Partnership, One Person Company, Partnership Firm and Sole Proprietorship against the answers and returns a ranked recommendation with the best fit highlighted, along with a comparison of tax, compliance, ownership and funding suitability.",
-  "url": "https://www.patronaccounting.com/tools/entity-type-selector",
-  "applicationCategory": "BusinessApplication",
-  "inLanguage": "en-IN",
-  "isAccessibleForFree": true,
-  "operatingSystem": "Any",
-  "datePublished": "2026-06-05T08:00:00+05:30",
-  "dateModified": "2026-06-05T08:00:00+05:30",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "INR"
-  },
-  "reviewedBy": {
-    "@type": "Person",
-    "@id": "https://patronaccounting.com/#founder",
-    "name": "CA Sundram Gupta",
-    "jobTitle": "Founder & Chartered Accountant",
-    "url": "https://www.patronaccounting.com/contact-page",
-    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-    "hasCredential": [{
-      "@type": "EducationalOccupationalCredential",
-      "credentialCategory": "Professional Certification",
-      "name": "Chartered Accountant (CA)",
-      "recognizedBy": {
-        "@type": "Organization",
-        "name": "Institute of Chartered Accountants of India",
-        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-      }
-    }]
-  },
-  "publisher": { "@id": "https://patronaccounting.com/#organization" },
-  "provider": {
-    "@id": "https://patronaccounting.com/#organization"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "Entity Type Selector", "item": "https://www.patronaccounting.com/tools/entity-type-selector"}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Which business structure is best in India?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "There is no single best structure; it depends on your situation. A Private Limited Company suits startups planning to raise funding and issue ESOPs. An LLP suits multi-founder professional or service firms wanting limited liability with lighter compliance. A One Person Company suits a solo founder wanting a corporate structure. A Partnership or Sole Proprietorship suits small, self-funded businesses prioritising simplicity over liability protection. This selector ranks them against your answers."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does the entity type selector decide?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "It scores each structure against five factors: how many owners you have, whether you plan to raise external funding, how important limited liability is, your appetite for compliance, and how much you value credibility and scale. Each answer adds or removes points for the structures it favours, and the tool ranks them, highlighting the best fit. It is a guide to narrow the choice, not a substitute for tailored professional advice."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "When should I choose a Private Limited Company?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choose a Private Limited Company if you plan to raise venture capital or angel funding, issue ESOPs, or build a scalable, high-credibility business. It is registered under the Companies Act 2013 with two to two hundred shareholders, offers limited liability and 100 percent FDI under the automatic route, and is the structure investors expect. The trade-off is the highest compliance: board meetings, an AGM, annual ROC filings and a mandatory statutory audit regardless of turnover."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "When is an LLP the better choice?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "An LLP suits multi-founder professional and service firms — consultants, chartered accountants, architects, agencies — that want limited liability without the heavy compliance of a company. Under the LLP Act 2008 the key annual filings are Form 8 and Form 11, audit is required only if turnover exceeds 40 lakh rupees or contribution exceeds 25 lakh rupees, and there are no mandatory board or general meetings. Profit withdrawal is more tax-efficient, but LLPs are less suited to equity fundraising."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is an OPC good for a solo founder?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A One Person Company lets a single founder run a corporate entity with limited liability and better credibility than a proprietorship, under the Companies Act 2013. Since 2021 any Indian citizen, resident or not, can form one. The trade-offs are compliance similar to a Private Limited Company, only one shareholder so fundraising is limited, and mandatory conversion to a Private Limited Company if turnover crosses 2 crore rupees or paid-up capital crosses 50 lakh rupees."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What about a Partnership Firm or Sole Proprietorship?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A Partnership Firm and a Sole Proprietorship are the simplest and cheapest to start and run, with minimal regulatory compliance largely outside the MCA framework. The major drawback is unlimited liability, meaning the owners' personal assets are at risk, and lower credibility with banks, investors and large clients. They suit small, self-funded, low-risk businesses; as risk or scale grows, converting to an LLP or company is common."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How are the different structures taxed?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A Private Limited Company and an OPC are taxed as domestic companies, commonly at the concessional 22 percent rate plus surcharge and cess where conditions are met. An LLP and a Partnership Firm are taxed at 30 percent plus surcharge and cess, though partner remuneration and interest are deductible and profit withdrawal is tax-free in the partners' hands. A Sole Proprietorship is taxed at the individual's slab rate as part of personal income."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I change my structure later?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Businesses routinely convert as they grow — a Partnership to an LLP, an LLP to a Private Limited Company, or an OPC to a Private Limited Company, for example. Conversion involves MCA filings and some cost, and continuity of contracts, registrations and tax history needs care. It is often cleaner to pick a structure that fits the next two to three years rather than converting too soon, which is why matching the structure to your funding and scale plans matters."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does the selector account for fundraising plans?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Fundraising intent is one of the strongest factors. If you plan to raise venture capital or angel investment or to issue ESOPs, the selector weights heavily toward a Private Limited Company, because investors expect transferable shares and a clean equity structure. If you are self-funded or bootstrapped, the selector gives more weight to lighter structures like an LLP, OPC or proprietorship that reduce compliance cost."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the Entity Type Selector free?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, the Patron Accounting Entity Type Selector is completely free with no signup required. All logic runs in your browser and nothing is stored on our servers. It scores Private Limited, LLP, OPC, Partnership and Proprietorship against your answers and returns a ranked recommendation with a comparison. It is an indicative guide to narrow your options; the final choice should be confirmed with a professional who can weigh your specific facts."
-      }
-    }
-  ]
-}
-</script>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-@endsection
 <style>
         :root {
             --primary: #15365f;
@@ -689,6 +514,184 @@ a:focus-visible {
 
 
         </style>
+@endpush
+
+@section('meta')
+
+<meta property="og:title" content="Entity Type Selector — Best Business Structure India 2026">
+<meta property="og:description" content="Answer five quick questions and get a ranked recommendation of the best Indian business structure — Private Limited, LLP, OPC, Partnership or Proprietorship.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/entity-type-selector">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+<meta property="og:site_name" content="Patron Accounting">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Entity Type Selector — Best Business Structure India 2026">
+<meta name="twitter:description" content="Answer 5 questions and get a ranked recommendation of the best Indian business structure for you. Free &amp; instant.">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
+
+<title>Business Structure Selector India | Pvt Ltd, LLP or OPC</title>
+<meta name="description" content="Free entity type selector for India. Answer 5 questions to get the best business structure ranked for you: Pvt Ltd, LLP, OPC, Partnership or Proprietorship.">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#15365f">
+@endsection
+@section('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Entity Type Selector",
+  "description": "Entity Type Selector recommends the most suitable Indian business structure from a founder's answers to five questions about the number of owners, fundraising plans, the need for limited liability, the appetite for compliance, and the priority on credibility and scale. It scores Private Limited Company, Limited Liability Partnership, One Person Company, Partnership Firm and Sole Proprietorship against the answers and returns a ranked recommendation with the best fit highlighted, along with a comparison of tax, compliance, ownership and funding suitability.",
+  "url": "https://www.patronaccounting.com/tools/entity-type-selector",
+  "applicationCategory": "BusinessApplication",
+  "inLanguage": "en-IN",
+  "isAccessibleForFree": true,
+  "operatingSystem": "Any",
+  "datePublished": "2026-06-05T08:00:00+05:30",
+  "dateModified": "2026-06-05T08:00:00+05:30",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "INR"
+  },
+  "reviewedBy": {
+    "@type": "Person",
+    "@id": "https://patronaccounting.com/#founder",
+    "name": "CA Sundram Gupta",
+    "jobTitle": "Founder & Chartered Accountant",
+    "url": "https://www.patronaccounting.com/contact-page",
+    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+    "hasCredential": [{
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Professional Certification",
+      "name": "Chartered Accountant (CA)",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Institute of Chartered Accountants of India",
+        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+      }
+    }]
+  },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
+  "provider": {
+    "@id": "https://patronaccounting.com/#organization"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "Entity Type Selector", "item": "https://www.patronaccounting.com/tools/entity-type-selector"}
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Which business structure is best in India?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "There is no single best structure; it depends on your situation. A Private Limited Company suits startups planning to raise funding and issue ESOPs. An LLP suits multi-founder professional or service firms wanting limited liability with lighter compliance. A One Person Company suits a solo founder wanting a corporate structure. A Partnership or Sole Proprietorship suits small, self-funded businesses prioritising simplicity over liability protection. This selector ranks them against your answers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does the entity type selector decide?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It scores each structure against five factors: how many owners you have, whether you plan to raise external funding, how important limited liability is, your appetite for compliance, and how much you value credibility and scale. Each answer adds or removes points for the structures it favours, and the tool ranks them, highlighting the best fit. It is a guide to narrow the choice, not a substitute for tailored professional advice."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When should I choose a Private Limited Company?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Choose a Private Limited Company if you plan to raise venture capital or angel funding, issue ESOPs, or build a scalable, high-credibility business. It is registered under the Companies Act 2013 with two to two hundred shareholders, offers limited liability and 100 percent FDI under the automatic route, and is the structure investors expect. The trade-off is the highest compliance: board meetings, an AGM, annual ROC filings and a mandatory statutory audit regardless of turnover."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When is an LLP the better choice?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An LLP suits multi-founder professional and service firms — consultants, chartered accountants, architects, agencies — that want limited liability without the heavy compliance of a company. Under the LLP Act 2008 the key annual filings are Form 8 and Form 11, audit is required only if turnover exceeds 40 lakh rupees or contribution exceeds 25 lakh rupees, and there are no mandatory board or general meetings. Profit withdrawal is more tax-efficient, but LLPs are less suited to equity fundraising."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is an OPC good for a solo founder?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A One Person Company lets a single founder run a corporate entity with limited liability and better credibility than a proprietorship, under the Companies Act 2013. Since 2021 any Indian citizen, resident or not, can form one. The trade-offs are compliance similar to a Private Limited Company, only one shareholder so fundraising is limited, and mandatory conversion to a Private Limited Company if turnover crosses 2 crore rupees or paid-up capital crosses 50 lakh rupees."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What about a Partnership Firm or Sole Proprietorship?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A Partnership Firm and a Sole Proprietorship are the simplest and cheapest to start and run, with minimal regulatory compliance largely outside the MCA framework. The major drawback is unlimited liability, meaning the owners' personal assets are at risk, and lower credibility with banks, investors and large clients. They suit small, self-funded, low-risk businesses; as risk or scale grows, converting to an LLP or company is common."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How are the different structures taxed?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A Private Limited Company and an OPC are taxed as domestic companies, commonly at the concessional 22 percent rate plus surcharge and cess where conditions are met. An LLP and a Partnership Firm are taxed at 30 percent plus surcharge and cess, though partner remuneration and interest are deductible and profit withdrawal is tax-free in the partners' hands. A Sole Proprietorship is taxed at the individual's slab rate as part of personal income."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I change my structure later?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Businesses routinely convert as they grow — a Partnership to an LLP, an LLP to a Private Limited Company, or an OPC to a Private Limited Company, for example. Conversion involves MCA filings and some cost, and continuity of contracts, registrations and tax history needs care. It is often cleaner to pick a structure that fits the next two to three years rather than converting too soon, which is why matching the structure to your funding and scale plans matters."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does the selector account for fundraising plans?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Fundraising intent is one of the strongest factors. If you plan to raise venture capital or angel investment or to issue ESOPs, the selector weights heavily toward a Private Limited Company, because investors expect transferable shares and a clean equity structure. If you are self-funded or bootstrapped, the selector gives more weight to lighter structures like an LLP, OPC or proprietorship that reduce compliance cost."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the Entity Type Selector free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the Patron Accounting Entity Type Selector is completely free with no signup required. All logic runs in your browser and nothing is stored on our servers. It scores Private Limited, LLP, OPC, Partnership and Proprietorship against your answers and returns a ranked recommendation with a comparison. It is an indicative guide to narrow your options; the final choice should be confirmed with a professional who can weigh your specific facts."
+      }
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation">
     <div class="toc-nav-inner">

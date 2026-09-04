@@ -1,161 +1,12 @@
 
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Trademark Search Gurugram - Availability & Class Check</title>
-    <meta name="description" content="Trademark search report in Gurugram. Multi-database clearance. Wordmark, phonetic, Vienna Code. Risk-rated registrability opinion. Call +91 945 945 6700.">
-    <link rel="canonical" href="/trademark-search-report/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Trademark Search Gurugram - Availability & Class Check">
-    <meta property="og:description" content="Trademark search report in Gurugram. Multi-database clearance. Wordmark, phonetic, Vienna Code. Risk-rated registrability opinion. Call +91 945 945 6700.">
-    <meta property="og:url" content="/trademark-search-report/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Trademark Search Gurugram - Availability & Class Check">
-    <meta name="twitter:description" content="Trademark search report in Gurugram. Multi-database clearance. Wordmark, phonetic, Vienna Code. Risk-rated registrability opinion. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "Trademark Search Report in Gurugram | Clearance",
-      "description": "Trademark search report in Gurugram. Multi-database clearance. Wordmark, phonetic, Vienna Code. Risk-rated registrability opinion. Call +91 945 945 6700.",
-      "url": "https://www.patronaccounting.com/trademark-search-report/gurugram",
-      "serviceType": "Trademark Search Report in Gurugram | Clearance",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/trademark-search-report/gurugram",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "minPrice": "999",
-          "maxPrice": "7999",
-          "priceCurrency": "INR"
-        }
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Trademark Search Report: Process and Cost",
-          "item": "https://www.patronaccounting.com/trademark-search-report"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Trademark Search Report in Gurugram | Clearance",
-          "item": "https://www.patronaccounting.com/trademark-search-report/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Is a trademark search mandatory before filing?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A trademark search is not legally mandatory, but it is practically essential. Filing without a search is like investing lakhs in a brand without knowing if someone else already owns a similar name. The search costs Rs 3,999-7,999. Filing without a search and facing objection, opposition, or rebranding costs Rs 50,000-5,00,000+. The ROI of a search is unquestionable."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does a trademark search report cost?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Basic availability search (single class, same-day): Rs 999-2,499. Comprehensive multi-database report: Rs 3,999-7,999. Multi-class (per additional class): Rs 1,500-2,500. Vienna Code logo search: Rs 1,999-3,499. Search + filing bundle: Rs 7,999-14,999. Call +91 945 945 6700 for a detailed quote."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does a search report take?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. Filing Strategy Recommendation: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What databases are covered in a comprehensive search?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "IP India Trademark Registry (tmrsearch.ipindia.gov.in) for all Indian registered and pending marks. WIPO ROMARIN for international marks designating India under the Madrid Protocol. MCA (Ministry of Corporate Affairs) for company name conflicts. Common law sources: Google search, social media, e-commerce platforms (Amazon, Flipkart), and domain name registrations."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is phonetic search and why is it critical?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Phonetic search identifies marks that sound similar when spoken, regardless of spelling differences. For example, 'FlexiPay' and 'FlexyPey' are spelled differently but sound identical. Phonetic similarity is the most common reason for Section 11 examination objections in India. Self-conducted wordmark searches on the IP India portal completely miss these conflicts. Professional phonetic search is the most important component of a comprehensive search report."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens if the search finds conflicts?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Each conflict is risk-rated: high (identical or phonetically identical in same class - registration very unlikely), medium-high (visually or conceptually similar), medium (similar but in different class or expired), low (distant similarity). The report provides a filing strategy: proceed (clear), proceed with caution, modify the name (specific changes recommended), or abandon and choose an alternative. The strategy prevents wasted filing fees and brand investment."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I search for logo trademarks too?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. The Vienna Code search identifies visually similar logos and figurative elements using the Vienna International Classification system. This is essential for businesses filing device marks (logos) or composite marks (logo plus text). The search identifies registered logos with similar shapes, animals, symbols, or geometric patterns. Many businesses skip logo searches and face objections or opposition based on visual similarity. Quick Answers Search zaruri hai kya filing se pehle? Haan. Legally mandatory nahi hai lekin practically essential hai. Bina search ke filing karna = andhere mein teer maarna. Rs 4,000-8,000 search Rs 50,000-5 lakh ki rebranding/litigation se bachata hai. Free search kaafi hai? IP India portal pe basic wordmark search ho sakta hai. Lekin phonetic search, Madrid marks, MCA names, aur common law marks miss ho jaate hain. Comprehensive report chahiye. Search ke baad filing? Clear report = file with confidence. Conflicts milein = modify name/class. High risk = choose alternative name. Search + filing bundle sab ek saath karo."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -679,7 +530,161 @@ section ul li:not(.nav-item) { font-size: 14px; }
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'Join Community'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Trademark Search Gurugram - Availability & Class Check</title>
+    <meta name="description" content="Trademark search report in Gurugram. Multi-database clearance. Wordmark, phonetic, Vienna Code. Risk-rated registrability opinion. Call +91 945 945 6700.">
+    <link rel="canonical" href="/trademark-search-report/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Trademark Search Gurugram - Availability & Class Check">
+    <meta property="og:description" content="Trademark search report in Gurugram. Multi-database clearance. Wordmark, phonetic, Vienna Code. Risk-rated registrability opinion. Call +91 945 945 6700.">
+    <meta property="og:url" content="/trademark-search-report/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Trademark Search Gurugram - Availability & Class Check">
+    <meta name="twitter:description" content="Trademark search report in Gurugram. Multi-database clearance. Wordmark, phonetic, Vienna Code. Risk-rated registrability opinion. Call +91 945 945 6700.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "Trademark Search Report in Gurugram | Clearance",
+      "description": "Trademark search report in Gurugram. Multi-database clearance. Wordmark, phonetic, Vienna Code. Risk-rated registrability opinion. Call +91 945 945 6700.",
+      "url": "https://www.patronaccounting.com/trademark-search-report/gurugram",
+      "serviceType": "Trademark Search Report in Gurugram | Clearance",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.patronaccounting.com/trademark-search-report/gurugram",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": "999",
+          "maxPrice": "7999",
+          "priceCurrency": "INR"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Trademark Search Report: Process and Cost",
+          "item": "https://www.patronaccounting.com/trademark-search-report"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Trademark Search Report in Gurugram | Clearance",
+          "item": "https://www.patronaccounting.com/trademark-search-report/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is a trademark search mandatory before filing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A trademark search is not legally mandatory, but it is practically essential. Filing without a search is like investing lakhs in a brand without knowing if someone else already owns a similar name. The search costs Rs 3,999-7,999. Filing without a search and facing objection, opposition, or rebranding costs Rs 50,000-5,00,000+. The ROI of a search is unquestionable."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does a trademark search report cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Basic availability search (single class, same-day): Rs 999-2,499. Comprehensive multi-database report: Rs 3,999-7,999. Multi-class (per additional class): Rs 1,500-2,500. Vienna Code logo search: Rs 1,999-3,499. Search + filing bundle: Rs 7,999-14,999. Call +91 945 945 6700 for a detailed quote."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does a search report take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. Filing Strategy Recommendation: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What databases are covered in a comprehensive search?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "IP India Trademark Registry (tmrsearch.ipindia.gov.in) for all Indian registered and pending marks. WIPO ROMARIN for international marks designating India under the Madrid Protocol. MCA (Ministry of Corporate Affairs) for company name conflicts. Common law sources: Google search, social media, e-commerce platforms (Amazon, Flipkart), and domain name registrations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is phonetic search and why is it critical?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Phonetic search identifies marks that sound similar when spoken, regardless of spelling differences. For example, 'FlexiPay' and 'FlexyPey' are spelled differently but sound identical. Phonetic similarity is the most common reason for Section 11 examination objections in India. Self-conducted wordmark searches on the IP India portal completely miss these conflicts. Professional phonetic search is the most important component of a comprehensive search report."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if the search finds conflicts?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Each conflict is risk-rated: high (identical or phonetically identical in same class - registration very unlikely), medium-high (visually or conceptually similar), medium (similar but in different class or expired), low (distant similarity). The report provides a filing strategy: proceed (clear), proceed with caution, modify the name (specific changes recommended), or abandon and choose an alternative. The strategy prevents wasted filing fees and brand investment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I search for logo trademarks too?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The Vienna Code search identifies visually similar logos and figurative elements using the Vienna International Classification system. This is essential for businesses filing device marks (logos) or composite marks (logo plus text). The search identifies registered logos with similar shapes, animals, symbols, or geometric patterns. Many businesses skip logo searches and face objections or opposition based on visual similarity. Quick Answers Search zaruri hai kya filing se pehle? Haan. Legally mandatory nahi hai lekin practically essential hai. Bina search ke filing karna = andhere mein teer maarna. Rs 4,000-8,000 search Rs 50,000-5 lakh ki rebranding/litigation se bachata hai. Free search kaafi hai? IP India portal pe basic wordmark search ho sakta hai. Lekin phonetic search, Madrid marks, MCA names, aur common law marks miss ho jaate hain. Comprehensive report chahiye. Search ke baad filing? Clear report = file with confidence. Conflicts milein = modify name/class. High risk = choose alternative name. Search + filing bundle sab ek saath karo."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1604,7 +1609,6 @@ var tocWrapper=document.getElementById('tocWrapper');document.getElementById('to
 
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

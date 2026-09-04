@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,208 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>QuickBooks Migration Gurugram 2026 | Patron Accounting</title>
-    <meta name="description" content="Switch from Tally to QuickBooks Online in Gurugram from INR 9,999. CA-led ledger mapping, masters, GST setup, and reconciled books for Cyber City firms.">
-    <link rel="canonical" href="/migration-from-tally-to-quickbooks/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="QuickBooks Migration Gurugram 2026 | Patron Accounting">
-    <meta property="og:description" content="Switch from Tally to QuickBooks Online in Gurugram from INR 9,999. CA-led ledger mapping, masters, GST setup, and reconciled books for Cyber City firms.">
-    <meta property="og:url" content="/migration-from-tally-to-quickbooks/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="QuickBooks Migration Gurugram 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Switch from Tally to QuickBooks Online in Gurugram from INR 9,999. CA-led ledger mapping, masters, GST setup, and reconciled books for Cyber City firms.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/migration-from-tally-to-quickbooks/gurugram#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Tally to QuickBooks Migration",
-          "item": "https://www.patronaccounting.com/migration-from-tally-to-quickbooks"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Tally to QuickBooks Migration in Gurugram",
-          "item": "https://www.patronaccounting.com/migration-from-tally-to-quickbooks/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/migration-from-tally-to-quickbooks/gurugram#faq",
-      "datePublished": "2026-06-23T08:00:00+05:30",
-      "dateModified": "2026-06-23T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What does Tally to QuickBooks migration involve for a Gurugram business?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "It is a methodical hand-off of your books from Tally into QuickBooks Online. For a Gurugram firm we reconstruct the chart of accounts, carry over opening balances and the customer, supplier, and item masters, rebuild the transaction history, configure GST, and reconcile the trial balance so QuickBooks matches Tally before go-live."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does Tally to QuickBooks migration cost in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Fees open at Starting from INR 9,999 (Exl GST and Govt. Charges). Where they settle depends on the years moved, the transaction count, how many GSTINs apply, and whether stock masters feature. A Cyber City SaaS firm or a Manesar IMT manufacturer receives a fixed-scope quote before we begin."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Will my Haryana GSTIN and GST data still work in QuickBooks?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. We load your Haryana GSTIN, HSN and SAC codes, and tax rates into QuickBooks Online so each invoice splits CGST, SGST, and IGST correctly under the CGST Act 2017. Migrated purchases are matched to GSTR-2B, so your Gurugram firm's input tax credit keeps flowing without a break."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the turnaround for a Gurugram migration?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Reckon on 7 to 10 working days for most Gurugram jobs. A one-year Cyber City SaaS file with clean masters is usually live in about a week. A Manesar IMT manufacturer with several years of stock and multiple GSTINs runs to 2 to 4 weeks, depending on data quality and transaction volume."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I still run QuickBooks in India now that Intuit left in 2023?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. The plans Intuit withdrew in 2023 were the India-specific ones; the global QuickBooks Online edition stays available, and that is what we set up and configure for GST. For Gurugram clients we advise on the right edition, and we will steer you to Zoho Books instead when it suits your firm better."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What gets carried over from Tally into QuickBooks?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We carry the chart of accounts, opening balances, your customer and supplier masters, item or stock masters, and the transaction history of invoices, bills, receipts, and payments. Outstanding AR and AP, bank balances, and GST settings move too, so your Gurugram books resume from day one in QuickBooks."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do you verify the Gurugram migration is accurate?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "With a two-stage check. The QuickBooks trial balance, profit and loss, and balance sheet are set beside the same Tally statements, then we spot-test individual ledgers and GST totals. A chartered accountant signs off only once QuickBooks matches Tally across the migrated period."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Will you train our Gurugram team on QuickBooks after go-live?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Once reconciliation is finished, we run a handover for your Gurugram finance team on invoicing, GST reports, bank feeds, and month-end inside QuickBooks Online. A short reference guide is included, and we stay reachable for support so leaving Tally feels straightforward and assured."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/migration-from-tally-to-quickbooks/gurugram#service",
-      "name": "Tally to QuickBooks Migration in Gurugram",
-      "description": "Tally to QuickBooks Online migration in Gurugram covering chart of accounts mapping, opening balances, customer, vendor, and item masters, historical transactions, GST configuration, and trial balance reconciliation. Patron Accounting delivers CA-verified, audit-ready QuickBooks files for Cyber City, Udyog Vihar, and Manesar IMT businesses.",
-      "serviceType": "Tally to QuickBooks Online Data Migration",
-      "url": "https://www.patronaccounting.com/migration-from-tally-to-quickbooks/gurugram",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#localbusiness-gurugram"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "QuickBooks",
-          "sameAs": "https://en.wikipedia.org/wiki/QuickBooks"
-        },
-        {
-          "@type": "Thing",
-          "name": "Goods and Services Tax (India)",
-          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Tally to QuickBooks Migration Plans in Gurugram",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "price": "9999",
-            "priceSpecification": {
-              "@type": "UnitPriceSpecification",
-              "priceCurrency": "INR",
-              "price": "9999",
-              "unitText": "starting from"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Tally to QuickBooks Online Migration"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness-gurugram",
-      "name": "Patron Accounting LLP - Gurugram",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/migration-from-tally-to-quickbooks/gurugram",
-      "telephone": "+91-9699936369",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Gurugram",
-        "addressRegion": "Haryana",
-        "postalCode": "122002",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -815,7 +612,217 @@
         .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
 
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>QuickBooks Migration Gurugram 2026 | Patron Accounting</title>
+    <meta name="description" content="Switch from Tally to QuickBooks Online in Gurugram from INR 9,999. CA-led ledger mapping, masters, GST setup, and reconciled books for Cyber City firms.">
+    <link rel="canonical" href="/migration-from-tally-to-quickbooks/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="QuickBooks Migration Gurugram 2026 | Patron Accounting">
+    <meta property="og:description" content="Switch from Tally to QuickBooks Online in Gurugram from INR 9,999. CA-led ledger mapping, masters, GST setup, and reconciled books for Cyber City firms.">
+    <meta property="og:url" content="/migration-from-tally-to-quickbooks/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="QuickBooks Migration Gurugram 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Switch from Tally to QuickBooks Online in Gurugram from INR 9,999. CA-led ledger mapping, masters, GST setup, and reconciled books for Cyber City firms.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/migration-from-tally-to-quickbooks/gurugram#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Tally to QuickBooks Migration",
+          "item": "https://www.patronaccounting.com/migration-from-tally-to-quickbooks"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Tally to QuickBooks Migration in Gurugram",
+          "item": "https://www.patronaccounting.com/migration-from-tally-to-quickbooks/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/migration-from-tally-to-quickbooks/gurugram#faq",
+      "datePublished": "2026-06-23T08:00:00+05:30",
+      "dateModified": "2026-06-23T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does Tally to QuickBooks migration involve for a Gurugram business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is a methodical hand-off of your books from Tally into QuickBooks Online. For a Gurugram firm we reconstruct the chart of accounts, carry over opening balances and the customer, supplier, and item masters, rebuild the transaction history, configure GST, and reconcile the trial balance so QuickBooks matches Tally before go-live."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does Tally to QuickBooks migration cost in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fees open at Starting from INR 9,999 (Exl GST and Govt. Charges). Where they settle depends on the years moved, the transaction count, how many GSTINs apply, and whether stock masters feature. A Cyber City SaaS firm or a Manesar IMT manufacturer receives a fixed-scope quote before we begin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will my Haryana GSTIN and GST data still work in QuickBooks?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We load your Haryana GSTIN, HSN and SAC codes, and tax rates into QuickBooks Online so each invoice splits CGST, SGST, and IGST correctly under the CGST Act 2017. Migrated purchases are matched to GSTR-2B, so your Gurugram firm's input tax credit keeps flowing without a break."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the turnaround for a Gurugram migration?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reckon on 7 to 10 working days for most Gurugram jobs. A one-year Cyber City SaaS file with clean masters is usually live in about a week. A Manesar IMT manufacturer with several years of stock and multiple GSTINs runs to 2 to 4 weeks, depending on data quality and transaction volume."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I still run QuickBooks in India now that Intuit left in 2023?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The plans Intuit withdrew in 2023 were the India-specific ones; the global QuickBooks Online edition stays available, and that is what we set up and configure for GST. For Gurugram clients we advise on the right edition, and we will steer you to Zoho Books instead when it suits your firm better."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What gets carried over from Tally into QuickBooks?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We carry the chart of accounts, opening balances, your customer and supplier masters, item or stock masters, and the transaction history of invoices, bills, receipts, and payments. Outstanding AR and AP, bank balances, and GST settings move too, so your Gurugram books resume from day one in QuickBooks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you verify the Gurugram migration is accurate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "With a two-stage check. The QuickBooks trial balance, profit and loss, and balance sheet are set beside the same Tally statements, then we spot-test individual ledgers and GST totals. A chartered accountant signs off only once QuickBooks matches Tally across the migrated period."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will you train our Gurugram team on QuickBooks after go-live?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Once reconciliation is finished, we run a handover for your Gurugram finance team on invoicing, GST reports, bank feeds, and month-end inside QuickBooks Online. A short reference guide is included, and we stay reachable for support so leaving Tally feels straightforward and assured."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/migration-from-tally-to-quickbooks/gurugram#service",
+      "name": "Tally to QuickBooks Migration in Gurugram",
+      "description": "Tally to QuickBooks Online migration in Gurugram covering chart of accounts mapping, opening balances, customer, vendor, and item masters, historical transactions, GST configuration, and trial balance reconciliation. Patron Accounting delivers CA-verified, audit-ready QuickBooks files for Cyber City, Udyog Vihar, and Manesar IMT businesses.",
+      "serviceType": "Tally to QuickBooks Online Data Migration",
+      "url": "https://www.patronaccounting.com/migration-from-tally-to-quickbooks/gurugram",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#localbusiness-gurugram"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "QuickBooks",
+          "sameAs": "https://en.wikipedia.org/wiki/QuickBooks"
+        },
+        {
+          "@type": "Thing",
+          "name": "Goods and Services Tax (India)",
+          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Tally to QuickBooks Migration Plans in Gurugram",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "price": "9999",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "INR",
+              "price": "9999",
+              "unitText": "starting from"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Tally to QuickBooks Online Migration"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness-gurugram",
+      "name": "Patron Accounting LLP - Gurugram",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/migration-from-tally-to-quickbooks/gurugram",
+      "telephone": "+91-9699936369",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Gurugram",
+        "addressRegion": "Haryana",
+        "postalCode": "122002",
+        "addressCountry": "IN"
+      },
+      "parentOrganization": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1564,7 +1571,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

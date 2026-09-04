@@ -1,211 +1,7 @@
 
 @extends('layouts.app')
-@section('meta')
-
-    <title>Section 87A Rebate Calculator | FY 2025-26 Old &amp; New</title>
-    <meta name="description" content="Section 87A rebate calculator for FY 2025-26 (AY 2026-27): compute tax rebate under old (₹12,500) and new regime (₹60,000), with marginal relief. Free!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/section-87a-rebate-calculator">
-
-    <!-- Open Graph -->
-    <meta property="og:title" content="Section 87A Rebate Calculator — Old &amp; New Regime FY 2025-26">
-    <meta property="og:description" content="Calculate your Section 87A rebate under both regimes — ₹12,500 (old) and ₹60,000 (new) — with full marginal relief computation for FY 2025-26.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/section-87a-rebate-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Section 87A Rebate Calculator — Old &amp; New Regime FY 2025-26">
-    <meta name="twitter:description" content="Calculate your Section 87A rebate under both regimes — ₹12,500 (old) and ₹60,000 (new) — with full marginal relief computation.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-@endsection
-@section('schema')
-
-    <!-- Schema: WebApplication -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "Section 87A Rebate Calculator",
-      "description": "Section 87A Rebate Calculator computes the income tax rebate available to resident individuals under both the old tax regime (up to ₹12,500 for income up to ₹5 lakh) and the new tax regime (up to ₹60,000 for income up to ₹12 lakh) for FY 2025-26 (AY 2026-27), including marginal relief calculation.",
-      "url": "https://www.patronaccounting.com/tools/section-87a-rebate-calculator",
-      "applicationCategory": "BusinessApplication",
-      "operatingSystem": "Any",
-      "inLanguage": "en-IN",
-      "isAccessibleForFree": true,
-      "datePublished": "2026-05-06T08:00:00+05:30",
-      "dateModified": "2026-05-08T08:00:00+05:30",
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "INR"
-      },
-      "reviewedBy": {
-        "@type": "Person",
-        "@id": "https://patronaccounting.com/#founder",
-        "name": "CA Sundram Gupta",
-        "jobTitle": "Founder & Chartered Accountant",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Institute of Chartered Accountants of India",
-            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-          }
-        }]
-      },
-      "publisher": { "@id": "https://patronaccounting.com/#organization" },
-      "provider": {
-        "@id": "https://patronaccounting.com/#organization"
-      }
-    }
-    </script>
-
-    <!-- Schema: BreadcrumbList -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Section 87A Rebate Calculator", "item": "https://www.patronaccounting.com/tools/section-87a-rebate-calculator"}
-      ]
-    }
-    </script>
-
-    <!-- Schema: FAQPage -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is Section 87A and who can claim the rebate?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 87A of the Income Tax Act 1961 grants a direct tax rebate to resident individuals whose total income falls within specified thresholds. Only resident individuals qualify — non-residents, HUFs, partnership firms, LLPs, and companies cannot claim it. The rebate reduces the tax payable directly, separately under the old and new regimes, and is applied before the 4 percent health and education cess is added."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the Section 87A rebate amount under the new tax regime for FY 2025-26?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Under the new tax regime for FY 2025-26 (AY 2026-27), the maximum rebate is ₹60,000 for resident individuals whose total taxable income does not exceed ₹12,00,000. Budget 2025 raised the threshold from ₹7 lakh to ₹12 lakh and the rebate from ₹25,000 to ₹60,000. Effective tax liability becomes zero for income up to ₹12 lakh under the new regime."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the Section 87A rebate amount under the old tax regime for FY 2025-26?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The old regime rebate for FY 2025-26 remains ₹12,500 for resident individuals with total taxable income up to ₹5,00,000 after all deductions under Chapter VI-A (80C, 80D, 80G, etc.). Budget 2025 did not change this. The rebate brings effective tax to zero for income up to ₹5 lakh under the old regime, but standard deduction and HRA exemptions reduce gross income further."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is marginal relief under Section 87A?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Marginal relief ensures that taxpayers whose income marginally exceeds the rebate threshold are not penalised disproportionately. Under the new regime, when income exceeds ₹12 lakh, the additional tax payable is capped at the excess income above ₹12 lakh. This prevents a cliff effect where earning one extra rupee triggers ₹60,000 of tax. The relief phases out around ₹12.70 lakh of taxable income."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Up to what income is marginal relief available under Section 87A?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Marginal relief is fully available between ₹12,00,001 and approximately ₹12,70,588 of taxable income under the new regime for FY 2025-26. Beyond this break-even point, normal slab tax becomes lower than the relief cap and standard slab rates apply. For salaried individuals with the ₹75,000 standard deduction, gross salary up to ₹13.45 lakh effectively benefits from marginal relief or full rebate."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can NRIs claim the Section 87A rebate?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Section 87A is restricted to resident individuals as defined under Section 6 of the Income Tax Act 1961. Non-resident Indians (NRIs), residents but not ordinarily resident (RNOR), and any individual who fails the residency test for the financial year cannot claim the rebate, regardless of income level. NRIs must compute tax at full slab rates without any rebate adjustment under either regime."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can HUFs or firms claim Section 87A rebate?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Section 87A explicitly limits the rebate to individuals only. Hindu Undivided Families (HUFs), partnership firms, Limited Liability Partnerships (LLPs), Association of Persons (AOPs), Body of Individuals (BOIs), and companies are all excluded. These entities pay tax at applicable rates without any 87A relief, even if their total income falls below the rebate threshold that applies to individuals."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does Section 87A rebate apply to capital gains taxed at special rates?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The rebate applies to tax computed at slab rates only. Long-term capital gains on listed equity under Section 112A (12.5 percent above ₹1.25 lakh from 23 July 2024) and short-term capital gains under Section 111A (20 percent) are taxed at special rates and excluded from the 87A rebate. The same applies to lottery winnings under Section 115BB taxed at 30 percent."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is the Section 87A rebate calculated before or after health and education cess?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The rebate is applied before the 4 percent health and education cess. Compute slab tax first, deduct the Section 87A rebate (subject to the maximum), then add cess at 4 percent on the net tax. If the rebate fully extinguishes the slab tax, cess is also zero. Surcharge, where applicable, is also added before cess but never on income covered by the rebate."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can senior citizens claim Section 87A rebate?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, resident senior citizens (60 to 80 years) and super senior citizens (above 80) can claim Section 87A on the same income thresholds as other individuals. Under the old regime, super seniors already enjoy a basic exemption of ₹5 lakh, so the rebate is moot for income exactly at ₹5 lakh. Under the new regime, the ₹12 lakh threshold applies regardless of age band."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do I claim Section 87A rebate while filing my ITR?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The rebate is auto-calculated by the e-filing portal once you enter your total income and select the tax regime in your ITR. There is no separate field or form. Verify the computed rebate in the Tax Computation schedule of the ITR before submission. If the portal shows zero rebate but you qualify, recheck your residency declaration and special-rate income classification."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Did Section 87A change in Budget 2025?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Budget 2025 made a major revision under the new regime: the rebate threshold rose from ₹7 lakh to ₹12 lakh, and the maximum rebate from ₹25,000 to ₹60,000. Marginal relief was retained. The old regime rebate of ₹12,500 for income up to ₹5 lakh was unchanged. These changes apply from FY 2025-26 (AY 2026-27) onwards for all eligible resident individuals."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Will Section 87A continue under the Income Tax Act 2025?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. The substance of Section 87A is preserved under Section 156 of the Income Tax Act 2025, which becomes effective from 1 April 2026 (Tax Year 2026-27). For FY 2025-26 returns filed in 2026, the existing Section 87A of the 1961 Act applies. Thresholds and rebate amounts may be updated in subsequent Finance Acts; verify current numbers each filing year."
-          }
-        }
-      ]
-    }
-    </script>
-@endsection
-   
-    <style>
+@push('styles')
+<style>
         :root {
             --primary: #15365f;
             --primary-light: #1f4a7a;
@@ -955,6 +751,212 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
   section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;max-width:100%;margin-bottom:2px;}
 }
 </style>
+@endpush
+
+@section('meta')
+
+    <title>Section 87A Rebate Calculator | FY 2025-26 Old &amp; New</title>
+    <meta name="description" content="Section 87A rebate calculator for FY 2025-26 (AY 2026-27): compute tax rebate under old (₹12,500) and new regime (₹60,000), with marginal relief. Free!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/section-87a-rebate-calculator">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Section 87A Rebate Calculator — Old &amp; New Regime FY 2025-26">
+    <meta property="og:description" content="Calculate your Section 87A rebate under both regimes — ₹12,500 (old) and ₹60,000 (new) — with full marginal relief computation for FY 2025-26.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/section-87a-rebate-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Section 87A Rebate Calculator — Old &amp; New Regime FY 2025-26">
+    <meta name="twitter:description" content="Calculate your Section 87A rebate under both regimes — ₹12,500 (old) and ₹60,000 (new) — with full marginal relief computation.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+@endsection
+@section('schema')
+
+    <!-- Schema: WebApplication -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Section 87A Rebate Calculator",
+      "description": "Section 87A Rebate Calculator computes the income tax rebate available to resident individuals under both the old tax regime (up to ₹12,500 for income up to ₹5 lakh) and the new tax regime (up to ₹60,000 for income up to ₹12 lakh) for FY 2025-26 (AY 2026-27), including marginal relief calculation.",
+      "url": "https://www.patronaccounting.com/tools/section-87a-rebate-calculator",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Any",
+      "inLanguage": "en-IN",
+      "isAccessibleForFree": true,
+      "datePublished": "2026-05-06T08:00:00+05:30",
+      "dateModified": "2026-05-08T08:00:00+05:30",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "INR"
+      },
+      "reviewedBy": {
+        "@type": "Person",
+        "@id": "https://patronaccounting.com/#founder",
+        "name": "CA Sundram Gupta",
+        "jobTitle": "Founder & Chartered Accountant",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Institute of Chartered Accountants of India",
+            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+          }
+        }]
+      },
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": {
+        "@id": "https://patronaccounting.com/#organization"
+      }
+    }
+    </script>
+
+    <!-- Schema: BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Section 87A Rebate Calculator", "item": "https://www.patronaccounting.com/tools/section-87a-rebate-calculator"}
+      ]
+    }
+    </script>
+
+    <!-- Schema: FAQPage -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Section 87A and who can claim the rebate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 87A of the Income Tax Act 1961 grants a direct tax rebate to resident individuals whose total income falls within specified thresholds. Only resident individuals qualify — non-residents, HUFs, partnership firms, LLPs, and companies cannot claim it. The rebate reduces the tax payable directly, separately under the old and new regimes, and is applied before the 4 percent health and education cess is added."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the Section 87A rebate amount under the new tax regime for FY 2025-26?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under the new tax regime for FY 2025-26 (AY 2026-27), the maximum rebate is ₹60,000 for resident individuals whose total taxable income does not exceed ₹12,00,000. Budget 2025 raised the threshold from ₹7 lakh to ₹12 lakh and the rebate from ₹25,000 to ₹60,000. Effective tax liability becomes zero for income up to ₹12 lakh under the new regime."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the Section 87A rebate amount under the old tax regime for FY 2025-26?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The old regime rebate for FY 2025-26 remains ₹12,500 for resident individuals with total taxable income up to ₹5,00,000 after all deductions under Chapter VI-A (80C, 80D, 80G, etc.). Budget 2025 did not change this. The rebate brings effective tax to zero for income up to ₹5 lakh under the old regime, but standard deduction and HRA exemptions reduce gross income further."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is marginal relief under Section 87A?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Marginal relief ensures that taxpayers whose income marginally exceeds the rebate threshold are not penalised disproportionately. Under the new regime, when income exceeds ₹12 lakh, the additional tax payable is capped at the excess income above ₹12 lakh. This prevents a cliff effect where earning one extra rupee triggers ₹60,000 of tax. The relief phases out around ₹12.70 lakh of taxable income."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Up to what income is marginal relief available under Section 87A?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Marginal relief is fully available between ₹12,00,001 and approximately ₹12,70,588 of taxable income under the new regime for FY 2025-26. Beyond this break-even point, normal slab tax becomes lower than the relief cap and standard slab rates apply. For salaried individuals with the ₹75,000 standard deduction, gross salary up to ₹13.45 lakh effectively benefits from marginal relief or full rebate."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can NRIs claim the Section 87A rebate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Section 87A is restricted to resident individuals as defined under Section 6 of the Income Tax Act 1961. Non-resident Indians (NRIs), residents but not ordinarily resident (RNOR), and any individual who fails the residency test for the financial year cannot claim the rebate, regardless of income level. NRIs must compute tax at full slab rates without any rebate adjustment under either regime."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can HUFs or firms claim Section 87A rebate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Section 87A explicitly limits the rebate to individuals only. Hindu Undivided Families (HUFs), partnership firms, Limited Liability Partnerships (LLPs), Association of Persons (AOPs), Body of Individuals (BOIs), and companies are all excluded. These entities pay tax at applicable rates without any 87A relief, even if their total income falls below the rebate threshold that applies to individuals."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Section 87A rebate apply to capital gains taxed at special rates?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The rebate applies to tax computed at slab rates only. Long-term capital gains on listed equity under Section 112A (12.5 percent above ₹1.25 lakh from 23 July 2024) and short-term capital gains under Section 111A (20 percent) are taxed at special rates and excluded from the 87A rebate. The same applies to lottery winnings under Section 115BB taxed at 30 percent."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the Section 87A rebate calculated before or after health and education cess?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The rebate is applied before the 4 percent health and education cess. Compute slab tax first, deduct the Section 87A rebate (subject to the maximum), then add cess at 4 percent on the net tax. If the rebate fully extinguishes the slab tax, cess is also zero. Surcharge, where applicable, is also added before cess but never on income covered by the rebate."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can senior citizens claim Section 87A rebate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, resident senior citizens (60 to 80 years) and super senior citizens (above 80) can claim Section 87A on the same income thresholds as other individuals. Under the old regime, super seniors already enjoy a basic exemption of ₹5 lakh, so the rebate is moot for income exactly at ₹5 lakh. Under the new regime, the ₹12 lakh threshold applies regardless of age band."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I claim Section 87A rebate while filing my ITR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The rebate is auto-calculated by the e-filing portal once you enter your total income and select the tax regime in your ITR. There is no separate field or form. Verify the computed rebate in the Tax Computation schedule of the ITR before submission. If the portal shows zero rebate but you qualify, recheck your residency declaration and special-rate income classification."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Did Section 87A change in Budget 2025?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Budget 2025 made a major revision under the new regime: the rebate threshold rose from ₹7 lakh to ₹12 lakh, and the maximum rebate from ₹25,000 to ₹60,000. Marginal relief was retained. The old regime rebate of ₹12,500 for income up to ₹5 lakh was unchanged. These changes apply from FY 2025-26 (AY 2026-27) onwards for all eligible resident individuals."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will Section 87A continue under the Income Tax Act 2025?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The substance of Section 87A is preserved under Section 156 of the Income Tax Act 2025, which becomes effective from 1 April 2026 (Tax Year 2026-27). For FY 2025-26 returns filed in 2026, the existing Section 87A of the 1961 Act applies. Thresholds and rebate amounts may be updated in subsequent Finance Acts; verify current numbers each filing year."
+          }
+        }
+      ]
+    }
+    </script>
+@endsection
 @section('content')
 
 <nav class="toc-nav" aria-label="Page Navigation">

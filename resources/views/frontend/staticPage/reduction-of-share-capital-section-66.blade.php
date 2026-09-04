@@ -1,186 +1,11 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Reduction of Share Capital Section 66 in 2026 | Patron Accounting</title>
-    <meta name="description" content="Reduce share capital under Section 66 with a special resolution, NCLT confirmation, creditor process and RSC forms. Expert CA help. From INR 99,999.">
-    <link rel="canonical" href="/reduction-of-share-capital-section-66">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Reduction of Share Capital Section 66 in 2026 | Patron Accounting">
-    <meta property="og:description" content="Reduce share capital under Section 66 with a special resolution, NCLT confirmation, creditor process and RSC forms. Expert CA help. From INR 99,999.">
-    <meta property="og:url" content="/reduction-of-share-capital-section-66">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Reduction of Share Capital Section 66 in 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Reduce share capital under Section 66 with a special resolution, NCLT confirmation, creditor process and RSC forms. Expert CA help. From INR 99,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/reduction-of-share-capital-section-66/#service",
-        "name": "Reduction of Share Capital under Section 66",
-        "description": "Capital reduction services from Patron Accounting LLP cover the reduction of a company’s issued, subscribed or paid-up share capital under Section 66 of the Companies Act, 2013 read with the NCLT (Procedure for Reduction of Share Capital) Rules, 2016, including the feasibility assessment, accounting treatment and creditor review and the structuring of the reduction, the drafting of the board and special resolutions and the solvency and director declarations, the coordination of the auditor’s certificate that the accounting treatment conforms to Section 133, the preparation and filing of the RSC-1 application with the creditor list before the National Company Law Tribunal, the management of the RSC-2 and RSC-3 notices, the RSC-4 public notice and the RSC-5 affidavit and any objections within the three-month window, and the obtaining of the RSC-6 confirming order, its filing with the ROC within 30 days and the RSC-7 certificate of reduction.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/reduction-of-share-capital-section-66" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Share capital", "sameAs": "https://en.wikipedia.org/wiki/Share_capital" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Capital Reduction Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "Reduction of Share Capital (Section 66) Service",
-                    "priceCurrency": "INR",
-                    "price": "99999",
-                    "description": "Premium, NCLT-driven capital reduction covering the resolutions, the RSC-1 application, the creditor and public notices and the order stage through to the RSC-7 certificate, exclusive of GST and government charges. NCLT filing fees, newspaper publication costs, any valuation, and legal counsel for the hearing are separate and charged on an actual basis."
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/reduction-of-share-capital-section-66/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Company Compliance", "item": "https://www.patronaccounting.com/corporate-compliance-services" },
-            { "@type": "ListItem", "position": 3, "name": "Capital Reduction", "item": "https://www.patronaccounting.com/reduction-of-share-capital-section-66" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/reduction-of-share-capital-section-66/#faq",
-        "datePublished": "2026-06-03T08:00:00+05:30",
-        "dateModified": "2026-06-04T08:00:00+05:30",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "What is a reduction of share capital under Section 66?",
-                "acceptedAnswer": { "@type": "Answer", "text": "A reduction of share capital under Section 66 of the Companies Act, 2013 is a decrease in a company's issued, subscribed or paid-up capital, approved by a special resolution and confirmed by the National Company Law Tribunal. It is used to write off lost capital, pay off surplus capital or reduce the liability on partly-paid shares, with creditor protection built in." }
-            },
-            {
-                "@type": "Question",
-                "name": "Is NCLT approval required for a capital reduction?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Yes. A reduction of share capital under Section 66 is not effective unless it is confirmed by an order of the National Company Law Tribunal. The company passes a special resolution and then files an application in Form RSC-1, and the Tribunal confirms the reduction after the notice and objection process is complete. This NCLT confirmation is the defining feature of the route." }
-            },
-            {
-                "@type": "Question",
-                "name": "What forms are used for a capital reduction?",
-                "acceptedAnswer": { "@type": "Answer", "text": "The application to the NCLT is in Form RSC-1. The Tribunal gives notice in RSC-2 to the Registrar, SEBI and Central Government and in RSC-3 to creditors, the company publishes a public notice in RSC-4 and files the RSC-5 affidavit, the confirming order is in RSC-6, and the Registrar issues the certificate of reduction in RSC-7 after the order and minute are filed." }
-            },
-            {
-                "@type": "Question",
-                "name": "How are creditors protected in a capital reduction?",
-                "acceptedAnswer": { "@type": "Answer", "text": "The Tribunal will confirm a reduction only where the debt or claim of every creditor has been discharged, determined or secured, or the creditor's consent is obtained. Creditors receive notice in Form RSC-3 and can object within three months. Where every creditor is already secured or has consented, the Tribunal may dispense with the requirement of notice to creditors." }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the difference between a capital reduction and a buyback?",
-                "acceptedAnswer": { "@type": "Answer", "text": "A buyback under Section 68 is capped at 25 percent of capital and free reserves and needs no NCLT approval. A capital reduction under Section 66 can exceed that limit but requires a special resolution and an NCLT order. A buyback suits returning surplus cash within limits; a capital reduction suits structural changes, writing off losses and larger reductions." }
-            },
-            {
-                "@type": "Question",
-                "name": "How long does a capital reduction take?",
-                "acceptedAnswer": { "@type": "Answer", "text": "A capital reduction usually takes several months. After the special resolution and the RSC-1 application, the Tribunal issues notices, the company publishes the public notice, and there is a three-month window for objections before the order is made. The exact timeline depends on the NCLT's workload, the creditor position and whether any objections are raised." }
-            },
-            {
-                "@type": "Question",
-                "name": "Is an auditor's certificate required for a capital reduction?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Yes. The NCLT will not sanction a reduction unless the accounting treatment proposed by the company conforms to the accounting standards specified in Section 133, and a certificate to that effect from the company's auditor is filed with the Tribunal. The company must also confirm it is not in arrears in the repayment of deposits or the interest on them." }
-            },
-            {
-                "@type": "Question",
-                "name": "Can a capital reduction be part of a restructuring or M&A?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Yes. A capital reduction is frequently used within a larger restructuring or an acquisition, for example to realign the capital structure, write off losses before a merger, or return surplus capital. In such cases it is coordinated with the other steps of the transaction, which is why it is usually handled as a premium, advisory-led engagement." }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/reduction-of-share-capital-section-66",
-        "name": "Reduction of Share Capital under Section 66",
-        "description": "Reduce share capital under Section 66 with a special resolution, NCLT confirmation, creditor process and RSC forms. Expert CA help. From INR 99,999.",
-        "url": "https://www.patronaccounting.com/reduction-of-share-capital-section-66",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/reduction-of-share-capital-section-66/#service" },
-        "datePublished": "2026-06-03T08:00:00+05:30",
-        "dateModified": "2026-06-04T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/reduction-of-share-capital-section-66/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "Capital Reduction Process: Step by Step",
-        "description": "How a reduction of share capital under Section 66 is carried out, from the special resolution and RSC-1 application through the creditor process to the RSC-6 order and RSC-7 certificate.",
-        "totalTime": "P180D",
-        "step": [
-            { "@type": "HowToStep", "name": "Plan and check", "text": "Confirm the AOA permits reduction, decide the mode and the accounting treatment, and check the deposit position." },
-            { "@type": "HowToStep", "name": "Board and special resolution", "text": "Hold the Board meeting, then the general meeting to pass the special resolution for the reduction." },
-            { "@type": "HowToStep", "name": "File RSC-1 with the NCLT", "text": "File the RSC-1 application with the creditor list, the auditor's certificate and director declarations." },
-            { "@type": "HowToStep", "name": "Tribunal notices", "text": "The NCLT, within 15 days, issues notice in RSC-2 to the ROC, SEBI and Central Government and RSC-3 to creditors." },
-            { "@type": "HowToStep", "name": "Public notice and affidavit", "text": "Publish the RSC-4 notice in English and vernacular newspapers and file the RSC-5 affidavit within 7 days." },
-            { "@type": "HowToStep", "name": "Objection window", "text": "Allow the 3-month window for objections from creditors and authorities, and address any received." },
-            { "@type": "HowToStep", "name": "Order and filing", "text": "Obtain the RSC-6 confirming order, file it and the minute with the ROC within 30 days, and receive the RSC-7 certificate." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Capital Reduction Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Paid-Up Capital", "description": "The amount actually paid by shareholders, which the reduction lowers." },
-            { "@type": "DefinedTerm", "name": "NCLT Confirmation", "description": "The Tribunal order that sanctions the reduction, without which it is not effective." },
-            { "@type": "DefinedTerm", "name": "RSC-1", "description": "The application filed with the NCLT to confirm the reduction." },
-            { "@type": "DefinedTerm", "name": "Creditor Protection", "description": "The notice and objection process that safeguards creditors' claims." },
-            { "@type": "DefinedTerm", "name": "Auditor's Certificate", "description": "The certificate that the accounting treatment conforms to Section 133." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -794,7 +619,187 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Reduction of Share Capital Section 66 in 2026 | Patron Accounting</title>
+    <meta name="description" content="Reduce share capital under Section 66 with a special resolution, NCLT confirmation, creditor process and RSC forms. Expert CA help. From INR 99,999.">
+    <link rel="canonical" href="/reduction-of-share-capital-section-66">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Reduction of Share Capital Section 66 in 2026 | Patron Accounting">
+    <meta property="og:description" content="Reduce share capital under Section 66 with a special resolution, NCLT confirmation, creditor process and RSC forms. Expert CA help. From INR 99,999.">
+    <meta property="og:url" content="/reduction-of-share-capital-section-66">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Reduction of Share Capital Section 66 in 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Reduce share capital under Section 66 with a special resolution, NCLT confirmation, creditor process and RSC forms. Expert CA help. From INR 99,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/reduction-of-share-capital-section-66/#service",
+        "name": "Reduction of Share Capital under Section 66",
+        "description": "Capital reduction services from Patron Accounting LLP cover the reduction of a company’s issued, subscribed or paid-up share capital under Section 66 of the Companies Act, 2013 read with the NCLT (Procedure for Reduction of Share Capital) Rules, 2016, including the feasibility assessment, accounting treatment and creditor review and the structuring of the reduction, the drafting of the board and special resolutions and the solvency and director declarations, the coordination of the auditor’s certificate that the accounting treatment conforms to Section 133, the preparation and filing of the RSC-1 application with the creditor list before the National Company Law Tribunal, the management of the RSC-2 and RSC-3 notices, the RSC-4 public notice and the RSC-5 affidavit and any objections within the three-month window, and the obtaining of the RSC-6 confirming order, its filing with the ROC within 30 days and the RSC-7 certificate of reduction.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/reduction-of-share-capital-section-66" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Share capital", "sameAs": "https://en.wikipedia.org/wiki/Share_capital" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Capital Reduction Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "Reduction of Share Capital (Section 66) Service",
+                    "priceCurrency": "INR",
+                    "price": "99999",
+                    "description": "Premium, NCLT-driven capital reduction covering the resolutions, the RSC-1 application, the creditor and public notices and the order stage through to the RSC-7 certificate, exclusive of GST and government charges. NCLT filing fees, newspaper publication costs, any valuation, and legal counsel for the hearing are separate and charged on an actual basis."
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/reduction-of-share-capital-section-66/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Company Compliance", "item": "https://www.patronaccounting.com/corporate-compliance-services" },
+            { "@type": "ListItem", "position": 3, "name": "Capital Reduction", "item": "https://www.patronaccounting.com/reduction-of-share-capital-section-66" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/reduction-of-share-capital-section-66/#faq",
+        "datePublished": "2026-06-03T08:00:00+05:30",
+        "dateModified": "2026-06-04T08:00:00+05:30",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is a reduction of share capital under Section 66?",
+                "acceptedAnswer": { "@type": "Answer", "text": "A reduction of share capital under Section 66 of the Companies Act, 2013 is a decrease in a company's issued, subscribed or paid-up capital, approved by a special resolution and confirmed by the National Company Law Tribunal. It is used to write off lost capital, pay off surplus capital or reduce the liability on partly-paid shares, with creditor protection built in." }
+            },
+            {
+                "@type": "Question",
+                "name": "Is NCLT approval required for a capital reduction?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Yes. A reduction of share capital under Section 66 is not effective unless it is confirmed by an order of the National Company Law Tribunal. The company passes a special resolution and then files an application in Form RSC-1, and the Tribunal confirms the reduction after the notice and objection process is complete. This NCLT confirmation is the defining feature of the route." }
+            },
+            {
+                "@type": "Question",
+                "name": "What forms are used for a capital reduction?",
+                "acceptedAnswer": { "@type": "Answer", "text": "The application to the NCLT is in Form RSC-1. The Tribunal gives notice in RSC-2 to the Registrar, SEBI and Central Government and in RSC-3 to creditors, the company publishes a public notice in RSC-4 and files the RSC-5 affidavit, the confirming order is in RSC-6, and the Registrar issues the certificate of reduction in RSC-7 after the order and minute are filed." }
+            },
+            {
+                "@type": "Question",
+                "name": "How are creditors protected in a capital reduction?",
+                "acceptedAnswer": { "@type": "Answer", "text": "The Tribunal will confirm a reduction only where the debt or claim of every creditor has been discharged, determined or secured, or the creditor's consent is obtained. Creditors receive notice in Form RSC-3 and can object within three months. Where every creditor is already secured or has consented, the Tribunal may dispense with the requirement of notice to creditors." }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the difference between a capital reduction and a buyback?",
+                "acceptedAnswer": { "@type": "Answer", "text": "A buyback under Section 68 is capped at 25 percent of capital and free reserves and needs no NCLT approval. A capital reduction under Section 66 can exceed that limit but requires a special resolution and an NCLT order. A buyback suits returning surplus cash within limits; a capital reduction suits structural changes, writing off losses and larger reductions." }
+            },
+            {
+                "@type": "Question",
+                "name": "How long does a capital reduction take?",
+                "acceptedAnswer": { "@type": "Answer", "text": "A capital reduction usually takes several months. After the special resolution and the RSC-1 application, the Tribunal issues notices, the company publishes the public notice, and there is a three-month window for objections before the order is made. The exact timeline depends on the NCLT's workload, the creditor position and whether any objections are raised." }
+            },
+            {
+                "@type": "Question",
+                "name": "Is an auditor's certificate required for a capital reduction?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Yes. The NCLT will not sanction a reduction unless the accounting treatment proposed by the company conforms to the accounting standards specified in Section 133, and a certificate to that effect from the company's auditor is filed with the Tribunal. The company must also confirm it is not in arrears in the repayment of deposits or the interest on them." }
+            },
+            {
+                "@type": "Question",
+                "name": "Can a capital reduction be part of a restructuring or M&A?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Yes. A capital reduction is frequently used within a larger restructuring or an acquisition, for example to realign the capital structure, write off losses before a merger, or return surplus capital. In such cases it is coordinated with the other steps of the transaction, which is why it is usually handled as a premium, advisory-led engagement." }
+            }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/reduction-of-share-capital-section-66",
+        "name": "Reduction of Share Capital under Section 66",
+        "description": "Reduce share capital under Section 66 with a special resolution, NCLT confirmation, creditor process and RSC forms. Expert CA help. From INR 99,999.",
+        "url": "https://www.patronaccounting.com/reduction-of-share-capital-section-66",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/reduction-of-share-capital-section-66/#service" },
+        "datePublished": "2026-06-03T08:00:00+05:30",
+        "dateModified": "2026-06-04T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/reduction-of-share-capital-section-66/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "Capital Reduction Process: Step by Step",
+        "description": "How a reduction of share capital under Section 66 is carried out, from the special resolution and RSC-1 application through the creditor process to the RSC-6 order and RSC-7 certificate.",
+        "totalTime": "P180D",
+        "step": [
+            { "@type": "HowToStep", "name": "Plan and check", "text": "Confirm the AOA permits reduction, decide the mode and the accounting treatment, and check the deposit position." },
+            { "@type": "HowToStep", "name": "Board and special resolution", "text": "Hold the Board meeting, then the general meeting to pass the special resolution for the reduction." },
+            { "@type": "HowToStep", "name": "File RSC-1 with the NCLT", "text": "File the RSC-1 application with the creditor list, the auditor's certificate and director declarations." },
+            { "@type": "HowToStep", "name": "Tribunal notices", "text": "The NCLT, within 15 days, issues notice in RSC-2 to the ROC, SEBI and Central Government and RSC-3 to creditors." },
+            { "@type": "HowToStep", "name": "Public notice and affidavit", "text": "Publish the RSC-4 notice in English and vernacular newspapers and file the RSC-5 affidavit within 7 days." },
+            { "@type": "HowToStep", "name": "Objection window", "text": "Allow the 3-month window for objections from creditors and authorities, and address any received." },
+            { "@type": "HowToStep", "name": "Order and filing", "text": "Obtain the RSC-6 confirming order, file it and the minute with the ROC within 30 days, and receive the RSC-7 certificate." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Capital Reduction Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Paid-Up Capital", "description": "The amount actually paid by shareholders, which the reduction lowers." },
+            { "@type": "DefinedTerm", "name": "NCLT Confirmation", "description": "The Tribunal order that sanctions the reduction, without which it is not effective." },
+            { "@type": "DefinedTerm", "name": "RSC-1", "description": "The application filed with the NCLT to confirm the reduction." },
+            { "@type": "DefinedTerm", "name": "Creditor Protection", "description": "The notice and objection process that safeguards creditors' claims." },
+            { "@type": "DefinedTerm", "name": "Auditor's Certificate", "description": "The certificate that the accounting treatment conforms to Section 133." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1567,17 +1572,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1600,8 +1598,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1638,7 +1634,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1 (corrected): Last Updated mirrors schema dateModified — STABLE hardcoded date, never live new Date()
 (function() {
@@ -1649,3 +1644,19 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

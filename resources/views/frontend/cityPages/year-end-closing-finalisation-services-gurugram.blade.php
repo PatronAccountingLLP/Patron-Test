@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,208 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>Year-End Closing in Gurugram 2026 | Patron Accounting</title>
-    <meta name="description" content="Cyber City GCCs to Manesar plants: 31 March FY close in Gurugram from INR 14,999/yr. CA finalisation, Schedule III schedules, RoC Delhi filing.">
-    <link rel="canonical" href="/year-end-closing-finalisation-services/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Year-End Closing in Gurugram 2026 | Patron Accounting">
-    <meta property="og:description" content="Cyber City GCCs to Manesar plants: 31 March FY close in Gurugram from INR 14,999/yr. CA finalisation, Schedule III schedules, RoC Delhi filing.">
-    <meta property="og:url" content="/year-end-closing-finalisation-services/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Year-End Closing in Gurugram 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Cyber City GCCs to Manesar plants: 31 March FY close in Gurugram from INR 14,999/yr. CA finalisation, Schedule III schedules, RoC Delhi filing.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/year-end-closing-finalisation-services/gurugram#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Year-End Closing and Finalisation Services",
-          "item": "https://www.patronaccounting.com/year-end-closing-finalisation-services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Year-End Closing and Finalisation Services in Gurugram",
-          "item": "https://www.patronaccounting.com/year-end-closing-finalisation-services/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/year-end-closing-finalisation-services/gurugram#faq",
-      "datePublished": "2026-06-23T08:00:00+05:30",
-      "dateModified": "2026-06-23T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What does year-end finalisation involve for a Gurugram company?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "It is the work of locking your 31 March books into a true and fair position: posting closing and adjusting journals, recognising accruals, prepayments, depreciation and provisions, scrutinising each ledger, and building the supporting schedules an auditor expects. For Cyber City GCCs and Manesar units alike, Patron Accounting finalises everything to the Schedule III format under the Companies Act 2013."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the fee for closing the books in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Pricing opens at INR 14,999/yr (Exl GST and Govt. Charges). Where you land depends on turnover, ledger volume, the size of the fixed asset block, and whether a statutory or 44AB audit sits behind the close. A Udyog Vihar IT firm or a Manesar auto-component maker is given a fixed-scope quote in writing before any work starts."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does RoC Delhi handle filings for Gurugram companies?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Haryana does not have its own Registrar, so companies registered in Gurugram file with the RoC for the NCT of Delhi and Haryana. After the 31 March close, the AGM is held and AOC-4 and MGT-7 go to that office, while GST falls under Haryana jurisdiction. We finalise the accounts to fit both timelines."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which adjusting journals get posted at year-end?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The usual set runs from accrued and prepaid items, through depreciation on both the Companies Act and Income Tax bases, to provisions for bad debts and tax, closing stock valuation, and the reclassification of advances and loans. Every entry carries a back-up schedule, so a Gurugram auditor can follow any number straight back to source."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does year-end closing take in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A clean single-entity SaaS firm in Cyber City is usually finalised in 1 to 2 weeks. A Manesar manufacturer with inventory, multiple GSTINs, and fixed asset registers takes 3 to 5 weeks. Turnaround depends on how current the books are at 31 March and how quickly confirmations and bank statements are shared."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you handle intercompany recharges for Cyber City GCCs at close?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. For captive units and GCCs in Cyber City and Udyog Vihar, we reconcile intercompany cost recharges and cost-plus billing to the parent, confirm the markup and accrual at 31 March, and flag any transfer-pricing documentation the auditor will expect. Each leg is scheduled so the related-party disclosures in the Schedule III accounts hold up."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is profession tax part of a Haryana year-end close?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Haryana does not levy profession tax, so a Gurugram close has no PTRC or PTEC ledger to settle, unlike Maharashtra or Karnataka. At 31 March we instead reconcile Haryana GST, TDS, PF, and ESI, tie each to its challan, and present the dues correctly under statutory liabilities in the balance sheet."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do unaudited Gurugram firms still need a proper close?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "They do. Audit or not, a clean 31 March close is what underpins a correct ITR, a sound advance-tax and MAT computation, and credible numbers for Gurugram lenders and investors. Skipping the closing journals and provisions understates tax and exposes Manesar proprietors, firms, and LLPs to Section 271A penalty risk."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/year-end-closing-finalisation-services/gurugram#service",
-      "name": "Year-End Closing and Finalisation Services in Gurugram",
-      "description": "Year-end book closing and finalisation in Gurugram covers closing and adjusting entries, accruals, prepayments, depreciation, provisions, ledger scrutiny, and Schedule III schedules for the 31 March FY close. Patron Accounting delivers audit-ready accounts and audit liaison for Cyber City, Udyog Vihar, and Manesar businesses.",
-      "serviceType": "Year-End Closing and Financial Statement Finalisation",
-      "url": "https://www.patronaccounting.com/year-end-closing-finalisation-services/gurugram",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#localbusiness-gurugram"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Financial statement",
-          "sameAs": "https://en.wikipedia.org/wiki/Financial_statement"
-        },
-        {
-          "@type": "Thing",
-          "name": "Depreciation",
-          "sameAs": "https://en.wikipedia.org/wiki/Depreciation"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Year-End Closing Plans in Gurugram",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "price": "14999",
-            "priceSpecification": {
-              "@type": "UnitPriceSpecification",
-              "priceCurrency": "INR",
-              "price": "14999",
-              "unitText": "per year"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Year-End Closing and Finalisation per Financial Year"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness-gurugram",
-      "name": "Patron Accounting LLP - Gurugram",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/year-end-closing-finalisation-services/gurugram",
-      "telephone": "+91-9699936369",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Gurugram",
-        "addressRegion": "Haryana",
-        "postalCode": "122002",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -830,7 +627,217 @@
         .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
 
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>Year-End Closing in Gurugram 2026 | Patron Accounting</title>
+    <meta name="description" content="Cyber City GCCs to Manesar plants: 31 March FY close in Gurugram from INR 14,999/yr. CA finalisation, Schedule III schedules, RoC Delhi filing.">
+    <link rel="canonical" href="/year-end-closing-finalisation-services/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Year-End Closing in Gurugram 2026 | Patron Accounting">
+    <meta property="og:description" content="Cyber City GCCs to Manesar plants: 31 March FY close in Gurugram from INR 14,999/yr. CA finalisation, Schedule III schedules, RoC Delhi filing.">
+    <meta property="og:url" content="/year-end-closing-finalisation-services/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Year-End Closing in Gurugram 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Cyber City GCCs to Manesar plants: 31 March FY close in Gurugram from INR 14,999/yr. CA finalisation, Schedule III schedules, RoC Delhi filing.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/year-end-closing-finalisation-services/gurugram#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Year-End Closing and Finalisation Services",
+          "item": "https://www.patronaccounting.com/year-end-closing-finalisation-services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Year-End Closing and Finalisation Services in Gurugram",
+          "item": "https://www.patronaccounting.com/year-end-closing-finalisation-services/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/year-end-closing-finalisation-services/gurugram#faq",
+      "datePublished": "2026-06-23T08:00:00+05:30",
+      "dateModified": "2026-06-23T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does year-end finalisation involve for a Gurugram company?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is the work of locking your 31 March books into a true and fair position: posting closing and adjusting journals, recognising accruals, prepayments, depreciation and provisions, scrutinising each ledger, and building the supporting schedules an auditor expects. For Cyber City GCCs and Manesar units alike, Patron Accounting finalises everything to the Schedule III format under the Companies Act 2013."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the fee for closing the books in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pricing opens at INR 14,999/yr (Exl GST and Govt. Charges). Where you land depends on turnover, ledger volume, the size of the fixed asset block, and whether a statutory or 44AB audit sits behind the close. A Udyog Vihar IT firm or a Manesar auto-component maker is given a fixed-scope quote in writing before any work starts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does RoC Delhi handle filings for Gurugram companies?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Haryana does not have its own Registrar, so companies registered in Gurugram file with the RoC for the NCT of Delhi and Haryana. After the 31 March close, the AGM is held and AOC-4 and MGT-7 go to that office, while GST falls under Haryana jurisdiction. We finalise the accounts to fit both timelines."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which adjusting journals get posted at year-end?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The usual set runs from accrued and prepaid items, through depreciation on both the Companies Act and Income Tax bases, to provisions for bad debts and tax, closing stock valuation, and the reclassification of advances and loans. Every entry carries a back-up schedule, so a Gurugram auditor can follow any number straight back to source."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does year-end closing take in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A clean single-entity SaaS firm in Cyber City is usually finalised in 1 to 2 weeks. A Manesar manufacturer with inventory, multiple GSTINs, and fixed asset registers takes 3 to 5 weeks. Turnaround depends on how current the books are at 31 March and how quickly confirmations and bank statements are shared."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you handle intercompany recharges for Cyber City GCCs at close?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. For captive units and GCCs in Cyber City and Udyog Vihar, we reconcile intercompany cost recharges and cost-plus billing to the parent, confirm the markup and accrual at 31 March, and flag any transfer-pricing documentation the auditor will expect. Each leg is scheduled so the related-party disclosures in the Schedule III accounts hold up."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is profession tax part of a Haryana year-end close?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Haryana does not levy profession tax, so a Gurugram close has no PTRC or PTEC ledger to settle, unlike Maharashtra or Karnataka. At 31 March we instead reconcile Haryana GST, TDS, PF, and ESI, tie each to its challan, and present the dues correctly under statutory liabilities in the balance sheet."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do unaudited Gurugram firms still need a proper close?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "They do. Audit or not, a clean 31 March close is what underpins a correct ITR, a sound advance-tax and MAT computation, and credible numbers for Gurugram lenders and investors. Skipping the closing journals and provisions understates tax and exposes Manesar proprietors, firms, and LLPs to Section 271A penalty risk."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/year-end-closing-finalisation-services/gurugram#service",
+      "name": "Year-End Closing and Finalisation Services in Gurugram",
+      "description": "Year-end book closing and finalisation in Gurugram covers closing and adjusting entries, accruals, prepayments, depreciation, provisions, ledger scrutiny, and Schedule III schedules for the 31 March FY close. Patron Accounting delivers audit-ready accounts and audit liaison for Cyber City, Udyog Vihar, and Manesar businesses.",
+      "serviceType": "Year-End Closing and Financial Statement Finalisation",
+      "url": "https://www.patronaccounting.com/year-end-closing-finalisation-services/gurugram",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#localbusiness-gurugram"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Financial statement",
+          "sameAs": "https://en.wikipedia.org/wiki/Financial_statement"
+        },
+        {
+          "@type": "Thing",
+          "name": "Depreciation",
+          "sameAs": "https://en.wikipedia.org/wiki/Depreciation"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Year-End Closing Plans in Gurugram",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "price": "14999",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "INR",
+              "price": "14999",
+              "unitText": "per year"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Year-End Closing and Finalisation per Financial Year"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness-gurugram",
+      "name": "Patron Accounting LLP - Gurugram",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/year-end-closing-finalisation-services/gurugram",
+      "telephone": "+91-9699936369",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Gurugram",
+        "addressRegion": "Haryana",
+        "postalCode": "122002",
+        "addressCountry": "IN"
+      },
+      "parentOrganization": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1577,7 +1584,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

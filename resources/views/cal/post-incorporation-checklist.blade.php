@@ -1,181 +1,5 @@
 @extends('layouts.app')
-
-@section('meta')
-
-<title>Post-Incorporation Checklist | Company & LLP First Filings</title>
-<meta name="description" content="Free post-incorporation checklist: a personalised, deadline-tagged list of first filings after company or LLP registration, like INC-20A and ADT-1. Try free!">
-<meta name="robots" content="index, follow">
-<meta name="theme-color" content="#15365f">
-<link rel="canonical" href="https://www.patronaccounting.com/tools/post-incorporation-checklist">
-<meta property="og:title" content="Post-Incorporation Checklist — Pvt Ltd & LLP 2026">
-<meta property="og:description" content="Generate a personalised, deadline-aware checklist of the mandatory first filings after incorporating a company or LLP in India — with statutory due dates.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.patronaccounting.com/tools/post-incorporation-checklist">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="1200">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-<meta property="og:site_name" content="Patron Accounting">
-<meta property="og:locale" content="en_IN">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Post-Incorporation Checklist — Pvt Ltd & LLP 2026">
-<meta name="twitter:description" content="A personalised, deadline-tagged checklist of mandatory first filings after company or LLP registration. Free & instant.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-
-<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
-<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
-@endsection
-@section('schema')
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "Post-Incorporation Checklist",
-  "description": "Post-Incorporation Checklist generates a personalised, deadline-tagged list of the mandatory steps a newly incorporated business in India must complete after receiving its Certificate of Incorporation. Based on the entity type and whether the business will hire employees or needs GST, it lists each task with its statutory deadline measured from incorporation, such as holding the first board meeting within thirty days, appointing the first auditor and filing Form ADT-1, filing the commencement of business declaration Form INC-20A within one hundred eighty days, issuing share certificates, and for an LLP filing the LLP agreement in Form 3 within thirty days, along with bank account opening, statutory registers and applicable tax and labour registrations.",
-  "url": "https://www.patronaccounting.com/tools/post-incorporation-checklist",
-  "applicationCategory": "BusinessApplication",
-  "inLanguage": "en-IN",
-  "isAccessibleForFree": true,
-  "operatingSystem": "Any",
-  "datePublished": "2026-06-05T08:00:00+05:30",
-  "dateModified": "2026-06-05T08:00:00+05:30",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "INR"
-  },
-  "reviewedBy": {
-    "@type": "Person",
-    "@id": "https://patronaccounting.com/#founder",
-    "name": "CA Sundram Gupta",
-    "jobTitle": "Founder & Chartered Accountant",
-    "url": "https://www.patronaccounting.com/contact-page",
-    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-    "hasCredential": [{
-      "@type": "EducationalOccupationalCredential",
-      "credentialCategory": "Professional Certification",
-      "name": "Chartered Accountant (CA)",
-      "recognizedBy": {
-        "@type": "Organization",
-        "name": "Institute of Chartered Accountants of India",
-        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-      }
-    }]
-  },
-  "publisher": { "@id": "https://patronaccounting.com/#organization" },
-  "provider": {
-    "@id": "https://patronaccounting.com/#organization"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "Post-Incorporation Checklist", "item": "https://www.patronaccounting.com/tools/post-incorporation-checklist"}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the first compliances after incorporating a company?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For a private limited company the immediate compliances are holding the first board meeting within thirty days of incorporation, appointing the first auditor within thirty days and filing Form ADT-1 within fifteen days of that appointment, opening a company bank account and depositing the subscription money, issuing share certificates within sixty days, and filing the commencement of business declaration in Form INC-20A within one hundred eighty days. Statutory registers must be maintained from day one, and applicable tax and labour registrations taken as needed."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is Form INC-20A and when is it due?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Form INC-20A is the declaration for commencement of business that a company with share capital, incorporated on or after 2 November 2018, must file within one hundred eighty days of incorporation. It confirms that every subscriber has paid the value of the shares agreed to be taken and that the registered office is verified, so the subscription money must be in the company bank account first. Until it is filed the company cannot legally commence business or exercise borrowing powers."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What happens if I miss the INC-20A deadline?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Missing the one hundred eighty day deadline for Form INC-20A carries a penalty of fifty thousand rupees on the company and one thousand rupees per day on every officer in default, up to a maximum of one lakh rupees. More seriously, the Registrar of Companies can initiate action to strike the company's name off the register under section 248. Because of these consequences it is best to file INC-20A as soon as the subscription money is deposited rather than waiting until the deadline approaches."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "When must the first auditor be appointed?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Under section 139(6) of the Companies Act, the board of directors must appoint the first statutory auditor within thirty days of incorporation, usually at the first board meeting. Form ADT-1 intimating the appointment to the Registrar should then be filed within fifteen days of the appointment. The first auditor holds office until the conclusion of the first annual general meeting. Appointing the auditor promptly is important because the auditor is needed for the year-end statutory audit and several downstream filings."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is post-incorporation compliance different for an LLP?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, considerably. An LLP does not file INC-20A, does not appoint a statutory auditor at the outset unless thresholds are crossed, does not hold board meetings and does not issue share certificates. Its key first task is filing the LLP agreement in Form 3 with the Registrar within thirty days of incorporation. Beyond that it opens a bank account, obtains PAN and TAN, takes applicable registrations, and then follows the annual cycle of Form 11 and Form 8. The compliance load is lighter than a company's."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do I need to open a company bank account before filing INC-20A?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Form INC-20A requires proof that the subscription money has been received, so the company must first open a current account in its own name and have the subscribers deposit the value of the shares they agreed to take. You will typically need the Certificate of Incorporation, the company PAN, a board resolution authorising the account, and KYC of the directors. Some banks open the account but keep it transaction-restricted until the INC-20A filing proof is provided, so sequence these two steps together early."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which tax and labour registrations do I need after incorporation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "It depends on your activity, turnover and headcount. GST registration is required once you cross the turnover threshold or make inter-state or e-commerce supplies, and many businesses register voluntarily. Professional Tax registration is required in states that levy it, often within thirty days of hiring. Provident Fund and ESI registrations become mandatory once you cross the prescribed employee counts, and a Shops and Establishment registration is commonly needed locally. The checklist flags these when you indicate you will hire employees or need GST."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is DIR-3 KYC and when is it due?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "DIR-3 KYC is an annual know-your-customer filing that every person holding a Director Identification Number must complete to keep the DIN active, and the due date is the thirtieth of September each year. It is not strictly a one-time post-incorporation step, but new directors should be aware of it from the start because a missed KYC deactivates the DIN and attracts a five thousand rupee reactivation fee. Maintaining DIR-3 KYC on time is part of keeping the company and its directors in good standing."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What statutory registers must a company maintain?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "From the date of incorporation a company must maintain statutory registers such as the register of members, the register of directors and key managerial personnel, the register of charges and the register of contracts, along with minutes books of board and general meetings. Directors must also disclose their interests in Form MBP-1 and give a non-disqualification declaration in Form DIR-8 at the first board meeting of each financial year. These records are often overlooked but are a legal requirement and are examined in due diligence and audits."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the Post-Incorporation Checklist free?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, the Patron Accounting Post-Incorporation Checklist is completely free with no signup required, and everything runs in your browser with nothing stored on our servers. It builds a personalised list of the mandatory first steps for your entity type with each statutory deadline, and lets you tick items off as you complete them. It is an educational planning aid, not a substitute for professional advice; deadlines and requirements change and some depend on your specific facts, so confirm your obligations with a CA or CS."
-      }
-    }
-  ]
-}
-</script>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-@endsection
+@push('styles')
 <style>
         :root {
             --primary: #15365f;
@@ -696,7 +520,185 @@ a:focus-visible {
 
 
         </style>
+@endpush
 
+
+@section('meta')
+
+<title>Post-Incorporation Checklist | Company & LLP First Filings</title>
+<meta name="description" content="Free post-incorporation checklist: a personalised, deadline-tagged list of first filings after company or LLP registration, like INC-20A and ADT-1. Try free!">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#15365f">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/post-incorporation-checklist">
+<meta property="og:title" content="Post-Incorporation Checklist — Pvt Ltd & LLP 2026">
+<meta property="og:description" content="Generate a personalised, deadline-aware checklist of the mandatory first filings after incorporating a company or LLP in India — with statutory due dates.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/post-incorporation-checklist">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+<meta property="og:site_name" content="Patron Accounting">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Post-Incorporation Checklist — Pvt Ltd & LLP 2026">
+<meta name="twitter:description" content="A personalised, deadline-tagged checklist of mandatory first filings after company or LLP registration. Free & instant.">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
+@endsection
+@section('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Post-Incorporation Checklist",
+  "description": "Post-Incorporation Checklist generates a personalised, deadline-tagged list of the mandatory steps a newly incorporated business in India must complete after receiving its Certificate of Incorporation. Based on the entity type and whether the business will hire employees or needs GST, it lists each task with its statutory deadline measured from incorporation, such as holding the first board meeting within thirty days, appointing the first auditor and filing Form ADT-1, filing the commencement of business declaration Form INC-20A within one hundred eighty days, issuing share certificates, and for an LLP filing the LLP agreement in Form 3 within thirty days, along with bank account opening, statutory registers and applicable tax and labour registrations.",
+  "url": "https://www.patronaccounting.com/tools/post-incorporation-checklist",
+  "applicationCategory": "BusinessApplication",
+  "inLanguage": "en-IN",
+  "isAccessibleForFree": true,
+  "operatingSystem": "Any",
+  "datePublished": "2026-06-05T08:00:00+05:30",
+  "dateModified": "2026-06-05T08:00:00+05:30",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "INR"
+  },
+  "reviewedBy": {
+    "@type": "Person",
+    "@id": "https://patronaccounting.com/#founder",
+    "name": "CA Sundram Gupta",
+    "jobTitle": "Founder & Chartered Accountant",
+    "url": "https://www.patronaccounting.com/contact-page",
+    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+    "hasCredential": [{
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Professional Certification",
+      "name": "Chartered Accountant (CA)",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Institute of Chartered Accountants of India",
+        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+      }
+    }]
+  },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
+  "provider": {
+    "@id": "https://patronaccounting.com/#organization"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "Post-Incorporation Checklist", "item": "https://www.patronaccounting.com/tools/post-incorporation-checklist"}
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the first compliances after incorporating a company?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For a private limited company the immediate compliances are holding the first board meeting within thirty days of incorporation, appointing the first auditor within thirty days and filing Form ADT-1 within fifteen days of that appointment, opening a company bank account and depositing the subscription money, issuing share certificates within sixty days, and filing the commencement of business declaration in Form INC-20A within one hundred eighty days. Statutory registers must be maintained from day one, and applicable tax and labour registrations taken as needed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is Form INC-20A and when is it due?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Form INC-20A is the declaration for commencement of business that a company with share capital, incorporated on or after 2 November 2018, must file within one hundred eighty days of incorporation. It confirms that every subscriber has paid the value of the shares agreed to be taken and that the registered office is verified, so the subscription money must be in the company bank account first. Until it is filed the company cannot legally commence business or exercise borrowing powers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if I miss the INC-20A deadline?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Missing the one hundred eighty day deadline for Form INC-20A carries a penalty of fifty thousand rupees on the company and one thousand rupees per day on every officer in default, up to a maximum of one lakh rupees. More seriously, the Registrar of Companies can initiate action to strike the company's name off the register under section 248. Because of these consequences it is best to file INC-20A as soon as the subscription money is deposited rather than waiting until the deadline approaches."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When must the first auditor be appointed?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Under section 139(6) of the Companies Act, the board of directors must appoint the first statutory auditor within thirty days of incorporation, usually at the first board meeting. Form ADT-1 intimating the appointment to the Registrar should then be filed within fifteen days of the appointment. The first auditor holds office until the conclusion of the first annual general meeting. Appointing the auditor promptly is important because the auditor is needed for the year-end statutory audit and several downstream filings."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is post-incorporation compliance different for an LLP?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, considerably. An LLP does not file INC-20A, does not appoint a statutory auditor at the outset unless thresholds are crossed, does not hold board meetings and does not issue share certificates. Its key first task is filing the LLP agreement in Form 3 with the Registrar within thirty days of incorporation. Beyond that it opens a bank account, obtains PAN and TAN, takes applicable registrations, and then follows the annual cycle of Form 11 and Form 8. The compliance load is lighter than a company's."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need to open a company bank account before filing INC-20A?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Form INC-20A requires proof that the subscription money has been received, so the company must first open a current account in its own name and have the subscribers deposit the value of the shares they agreed to take. You will typically need the Certificate of Incorporation, the company PAN, a board resolution authorising the account, and KYC of the directors. Some banks open the account but keep it transaction-restricted until the INC-20A filing proof is provided, so sequence these two steps together early."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which tax and labour registrations do I need after incorporation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It depends on your activity, turnover and headcount. GST registration is required once you cross the turnover threshold or make inter-state or e-commerce supplies, and many businesses register voluntarily. Professional Tax registration is required in states that levy it, often within thirty days of hiring. Provident Fund and ESI registrations become mandatory once you cross the prescribed employee counts, and a Shops and Establishment registration is commonly needed locally. The checklist flags these when you indicate you will hire employees or need GST."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is DIR-3 KYC and when is it due?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "DIR-3 KYC is an annual know-your-customer filing that every person holding a Director Identification Number must complete to keep the DIN active, and the due date is the thirtieth of September each year. It is not strictly a one-time post-incorporation step, but new directors should be aware of it from the start because a missed KYC deactivates the DIN and attracts a five thousand rupee reactivation fee. Maintaining DIR-3 KYC on time is part of keeping the company and its directors in good standing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What statutory registers must a company maintain?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "From the date of incorporation a company must maintain statutory registers such as the register of members, the register of directors and key managerial personnel, the register of charges and the register of contracts, along with minutes books of board and general meetings. Directors must also disclose their interests in Form MBP-1 and give a non-disqualification declaration in Form DIR-8 at the first board meeting of each financial year. These records are often overlooked but are a legal requirement and are examined in due diligence and audits."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the Post-Incorporation Checklist free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the Patron Accounting Post-Incorporation Checklist is completely free with no signup required, and everything runs in your browser with nothing stored on our servers. It builds a personalised list of the mandatory first steps for your entity type with each statutory deadline, and lets you tick items off as you complete them. It is an educational planning aid, not a substitute for professional advice; deadlines and requirements change and some depend on your specific facts, so confirm your obligations with a CA or CS."
+      }
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation">
     <div class="toc-nav-inner">

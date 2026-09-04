@@ -1,160 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Blocked Credits 2026: GST Section 17(5) | Patron Accounting</title>
-    <meta name="description" content="Section 17(5) CGST Act blocks ITC on motor vehicles, food, construction, personal use. Patron advisory from Rs 4,999. Avoid Section 74 notices.">
-    <link rel="canonical" href="/gst-itc-blocked-credits-section-17-5">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Blocked Credits 2026: GST Section 17(5) | Patron Accounting">
-    <meta property="og:description" content="Section 17(5) CGST Act blocks ITC on motor vehicles, food, construction, personal use. Patron advisory from Rs 4,999. Avoid Section 74 notices.">
-    <meta property="og:url" content="/gst-itc-blocked-credits-section-17-5">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Blocked Credits 2026: GST Section 17(5) | Patron Accounting">
-    <meta name="twitter:description" content="Section 17(5) CGST Act blocks ITC on motor vehicles, food, construction, personal use. Patron advisory from Rs 4,999. Avoid Section 74 notices.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/gst-itc-blocked-credits-section-17-5/#service",
-        "name": "Blocked Credits Under GST: Section 17(5) Advisory in India",
-        "description": "GST blocked credits advisory under Section 17(5) of the CGST Act 2017 covering 11 categories of ineligible ITC - motor vehicles, food and beverages, employee benefits, club memberships, works contract for immovable property, construction on own account, personal consumption, CSR obligations, and tax paid under Section 74, 129, or 130. Includes pre-claim categorisation, exception documentation, DRC-03 reversal, and notice defence starting from INR 4,999 per engagement.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-itc-blocked-credits-section-17-5" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [
-            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
-            { "@type": "Thing", "name": "Input Tax Credit", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" }
-        ],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Blocked Credits Section 17(5) Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "Standard Section 17(5) Advisory",
-                    "priceCurrency": "INR",
-                    "price": "4999",
-                    "description": "Single-period review with top 50 expense lines, exception map, DRC-03 if needed"
-                },
-                {
-                    "@type": "Offer",
-                    "name": "Comprehensive Advisory",
-                    "priceCurrency": "INR",
-                    "price": "14999",
-                    "description": "Multi-period review up to 3 FY, full vendor base mapping, internal control setup"
-                },
-                {
-                    "@type": "Offer",
-                    "name": "Sector Playbook plus Implementation",
-                    "priceCurrency": "INR",
-                    "price": "24999",
-                    "description": "Sector-specific playbook, ERP tagging setup, and training"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/gst-itc-blocked-credits-section-17-5/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
-            { "@type": "ListItem", "position": 3, "name": "Blocked Credits Section 17(5)", "item": "https://www.patronaccounting.com/gst-itc-blocked-credits-section-17-5" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/gst-itc-blocked-credits-section-17-5/#faq",
-        "datePublished": "2026-05-27T08:00:00+05:30",
-        "dateModified": "2026-06-01T08:00:00+05:30",
-        "mainEntity": [
-
-            {
-                "@type": "Question",
-                "name": "What are blocked credits under Section 17(5) of the CGST Act?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Blocked credits are categories of input tax credit that Section 17(5) of the CGST Act 2017 expressly bars even when the underlying expense is incurred for business. The section uses a non-obstante clause that overrides Section 16, listing 11 categories where ITC cannot be claimed - motor vehicles, food and beverages, employee benefits, club memberships, works contract, construction, personal consumption, CSR, and tax paid under Section 74, 129, or 130."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can ITC be claimed on motor vehicles purchased for business use?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "No, ITC on motor vehicles with seating capacity of 13 persons or less including driver is blocked under Section 17(5)(a). Three exceptions apply: further supply of vehicles (resale by dealers), transportation of passengers (taxi, cab, fleet operations), and imparting training on driving such vehicles (driving schools). For goods carriage vehicles like trucks, ITC is fully allowed since clause (a) blocks only passenger vehicles."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Is ITC allowed on employee health insurance and canteen expenses?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Section 17(5)(b) blocks ITC on food and beverages, outdoor catering, health insurance, life insurance, and club membership for employees. The statutory exception kicks in only where the employer is obligated by law - for example, the Factories Act 1948 mandates canteen for factories with 250 or more workers. Voluntary employee perks remain blocked even if branded as business expense."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the rule for ITC on construction of office buildings and factories?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Section 17(5)(d) blocks ITC on goods and services received for construction of immovable property on own account, except for plant and machinery. Finance Act 2025 substituted plant or machinery with plant and machinery retrospectively from 1 July 2017 following the Supreme Court ruling in the Safari Retreats case. ITC on plant and machinery remains eligible; ITC on civil work, buildings, and structures is blocked."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can building repair expenses qualify for ITC?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Repair expenses qualify for ITC only if they are charged as revenue expense to the Profit and Loss account, not capitalised in books. If the repair amount is added to the fixed asset value in the Balance Sheet (capitalised), Section 17(5)(d) blocks the credit. The accounting treatment determines the GST position, so consistent classification across books and returns is critical."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Is ITC allowed on CSR expenses under Section 17(5)?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "No, ITC on goods and services used for CSR activities under Section 135 of the Companies Act 2013 is blocked under Section 17(5)(fa), effective 1 October 2023. The clause was inserted via Finance Act 2023 to settle the long-running dispute. Companies that claimed CSR-related ITC after 1 October 2023 must reverse the amount through DRC-03 with interest at 18 percent per annum under Section 50."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What happens if blocked credit is wrongly claimed?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Wrong claim under Section 17(5) triggers reversal under Section 42, interest at 18 percent per annum under Section 50 (24 percent for fraud under Section 74), and penalty under Section 122 of Rs 10,000 or the tax amount whichever is higher. The proper officer may issue DRC-01A voluntary reversal intimation followed by Section 73 or Section 74 demand notice. Voluntary reversal via Form DRC-03 before notice closes the exposure with lower penalty."
-                }
-            }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -768,7 +618,162 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Blocked Credits 2026: GST Section 17(5) | Patron Accounting</title>
+    <meta name="description" content="Section 17(5) CGST Act blocks ITC on motor vehicles, food, construction, personal use. Patron advisory from Rs 4,999. Avoid Section 74 notices.">
+    <link rel="canonical" href="/gst-itc-blocked-credits-section-17-5">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Blocked Credits 2026: GST Section 17(5) | Patron Accounting">
+    <meta property="og:description" content="Section 17(5) CGST Act blocks ITC on motor vehicles, food, construction, personal use. Patron advisory from Rs 4,999. Avoid Section 74 notices.">
+    <meta property="og:url" content="/gst-itc-blocked-credits-section-17-5">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Blocked Credits 2026: GST Section 17(5) | Patron Accounting">
+    <meta name="twitter:description" content="Section 17(5) CGST Act blocks ITC on motor vehicles, food, construction, personal use. Patron advisory from Rs 4,999. Avoid Section 74 notices.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/gst-itc-blocked-credits-section-17-5/#service",
+        "name": "Blocked Credits Under GST: Section 17(5) Advisory in India",
+        "description": "GST blocked credits advisory under Section 17(5) of the CGST Act 2017 covering 11 categories of ineligible ITC - motor vehicles, food and beverages, employee benefits, club memberships, works contract for immovable property, construction on own account, personal consumption, CSR obligations, and tax paid under Section 74, 129, or 130. Includes pre-claim categorisation, exception documentation, DRC-03 reversal, and notice defence starting from INR 4,999 per engagement.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-itc-blocked-credits-section-17-5" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [
+            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
+            { "@type": "Thing", "name": "Input Tax Credit", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" }
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Blocked Credits Section 17(5) Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "Standard Section 17(5) Advisory",
+                    "priceCurrency": "INR",
+                    "price": "4999",
+                    "description": "Single-period review with top 50 expense lines, exception map, DRC-03 if needed"
+                },
+                {
+                    "@type": "Offer",
+                    "name": "Comprehensive Advisory",
+                    "priceCurrency": "INR",
+                    "price": "14999",
+                    "description": "Multi-period review up to 3 FY, full vendor base mapping, internal control setup"
+                },
+                {
+                    "@type": "Offer",
+                    "name": "Sector Playbook plus Implementation",
+                    "priceCurrency": "INR",
+                    "price": "24999",
+                    "description": "Sector-specific playbook, ERP tagging setup, and training"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/gst-itc-blocked-credits-section-17-5/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
+            { "@type": "ListItem", "position": 3, "name": "Blocked Credits Section 17(5)", "item": "https://www.patronaccounting.com/gst-itc-blocked-credits-section-17-5" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/gst-itc-blocked-credits-section-17-5/#faq",
+        "datePublished": "2026-05-27T08:00:00+05:30",
+        "dateModified": "2026-06-01T08:00:00+05:30",
+        "mainEntity": [
+
+            {
+                "@type": "Question",
+                "name": "What are blocked credits under Section 17(5) of the CGST Act?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Blocked credits are categories of input tax credit that Section 17(5) of the CGST Act 2017 expressly bars even when the underlying expense is incurred for business. The section uses a non-obstante clause that overrides Section 16, listing 11 categories where ITC cannot be claimed - motor vehicles, food and beverages, employee benefits, club memberships, works contract, construction, personal consumption, CSR, and tax paid under Section 74, 129, or 130."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can ITC be claimed on motor vehicles purchased for business use?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No, ITC on motor vehicles with seating capacity of 13 persons or less including driver is blocked under Section 17(5)(a). Three exceptions apply: further supply of vehicles (resale by dealers), transportation of passengers (taxi, cab, fleet operations), and imparting training on driving such vehicles (driving schools). For goods carriage vehicles like trucks, ITC is fully allowed since clause (a) blocks only passenger vehicles."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is ITC allowed on employee health insurance and canteen expenses?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Section 17(5)(b) blocks ITC on food and beverages, outdoor catering, health insurance, life insurance, and club membership for employees. The statutory exception kicks in only where the employer is obligated by law - for example, the Factories Act 1948 mandates canteen for factories with 250 or more workers. Voluntary employee perks remain blocked even if branded as business expense."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the rule for ITC on construction of office buildings and factories?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Section 17(5)(d) blocks ITC on goods and services received for construction of immovable property on own account, except for plant and machinery. Finance Act 2025 substituted plant or machinery with plant and machinery retrospectively from 1 July 2017 following the Supreme Court ruling in the Safari Retreats case. ITC on plant and machinery remains eligible; ITC on civil work, buildings, and structures is blocked."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can building repair expenses qualify for ITC?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Repair expenses qualify for ITC only if they are charged as revenue expense to the Profit and Loss account, not capitalised in books. If the repair amount is added to the fixed asset value in the Balance Sheet (capitalised), Section 17(5)(d) blocks the credit. The accounting treatment determines the GST position, so consistent classification across books and returns is critical."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is ITC allowed on CSR expenses under Section 17(5)?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No, ITC on goods and services used for CSR activities under Section 135 of the Companies Act 2013 is blocked under Section 17(5)(fa), effective 1 October 2023. The clause was inserted via Finance Act 2023 to settle the long-running dispute. Companies that claimed CSR-related ITC after 1 October 2023 must reverse the amount through DRC-03 with interest at 18 percent per annum under Section 50."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What happens if blocked credit is wrongly claimed?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Wrong claim under Section 17(5) triggers reversal under Section 42, interest at 18 percent per annum under Section 50 (24 percent for fraud under Section 74), and penalty under Section 122 of Rs 10,000 or the tax amount whichever is higher. The proper officer may issue DRC-01A voluntary reversal intimation followed by Section 73 or Section 74 demand notice. Voluntary reversal via Form DRC-03 before notice closes the exposure with lower penalty."
+                }
+            }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1718,17 +1723,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1751,8 +1749,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1789,7 +1785,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1800,4 +1795,20 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+
 

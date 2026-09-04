@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,208 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>AR Outsourcing in Mumbai 2026 | Patron Accounting</title>
-    <meta name="description" content="Accounts receivable outsourcing in Mumbai from INR 7,499/mo (Exl GST and Govt. Charges). CA-led invoicing, collections, and ageing for BKC firms.">
-    <link rel="canonical" href="/accounts-receivable-outsourcing-services/mumbai">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="AR Outsourcing in Mumbai 2026 | Patron Accounting">
-    <meta property="og:description" content="Accounts receivable outsourcing in Mumbai from INR 7,499/mo (Exl GST and Govt. Charges). CA-led invoicing, collections, and ageing for BKC firms.">
-    <meta property="og:url" content="/accounts-receivable-outsourcing-services/mumbai">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="AR Outsourcing in Mumbai 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Accounts receivable outsourcing in Mumbai from INR 7,499/mo (Exl GST and Govt. Charges). CA-led invoicing, collections, and ageing for BKC firms.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services/mumbai#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Accounts Receivable Outsourcing Services",
-          "item": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Accounts Receivable Outsourcing Services in Mumbai",
-          "item": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services/mumbai"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services/mumbai#faq",
-      "datePublished": "2026-06-23T08:00:00+05:30",
-      "dateModified": "2026-06-23T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What does accounts receivable outsourcing cover for a Mumbai business?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patron takes over your full order-to-cash cycle: raising GST-compliant sales invoices, running collections and dunning, tracking ageing, applying receipts, and reconciling the AR ledger. For BKC and Lower Parel finance firms it also covers credit control and GST output on sales under the CGST Act 2017, so you collect faster without an in-house desk."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does AR outsourcing cost in Mumbai?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Pricing begins Starting from INR 7,499/mo (Exl GST and Govt. Charges). Your final monthly fee reflects invoice volume, customer count, the number of GST registrations, and how much collections follow-up you need. Andheri and Powai SaaS teams and Bhiwandi warehousing firms get a fixed quote confirmed before any work starts."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does outsourced collections lower my DSO in Mumbai?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We run a disciplined dunning calendar with pre-due nudges, due-date statements, and graduated overdue follow-up under your approved credit policy. Consistent chasing plus a clean ageing view typically trims Days Sales Outstanding by 10 to 25 days for Mumbai SMEs within two or three collection cycles, freeing trapped working capital."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Will my BKC firm's invoices be fully GST-compliant?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Absolutely. We build each sales invoice with the right GSTIN, HSN or SAC code, place of supply, and the CGST, SGST, or IGST breakdown the CGST Act 2017 calls for. The moment a BKC or Lower Parel client's turnover passes the e-invoicing limit, we pull the IRN and QR code so output GST lines up neatly with GSTR-1."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is AR ageing analysis and why does it matter for Mumbai firms?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Ageing analysis sorts unpaid invoices into buckets by how overdue they are, usually 0-30, 31-60, 61-90, and 90 plus days. It shows which Mumbai customers pay slowly, where cash is locked, and which accounts need escalation, letting you protect working capital and set credit limits using real data rather than guesswork."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How are receipts applied and AR reconciled for a Bhiwandi warehousing account?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Each payment, including the part-settlements common with large Bhiwandi and Dombivli buyers, is tied to its invoice, and any customer TDS is captured. We then reconcile the AR ledger to your bank credits and to Form 26AS wherever TDS bites, keeping balances exact so no reminder ever reaches a buyer who has already paid."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do Andheri SaaS-media teams keep using their own Zoho Books or ERP?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, nothing has to move. We operate your receivables right inside whatever an Andheri or Powai team already runs, be it Tally, Zoho Books, QuickBooks, or Xero. Invoices are raised, receipts logged, and the ageing report maintained within your own platform, so all the data sits together and the audit trail is never broken."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do you handle follow-up with our Nariman Point and Fort clients?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Strictly inside the boundaries you approve. Reminder emails, statements, and dunning notes all go out under your brand, and follow-up calls stay courteous and true to your credit policy. With the professional firms around Nariman Point and Fort, any delicate or disputed account is brought back to you before we press harder, so long-standing relationships are never put at risk."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services/mumbai#service",
-      "name": "Accounts Receivable Outsourcing Services in Mumbai",
-      "description": "Accounts receivable outsourcing in Mumbai covers customer invoicing, collections, dunning, ageing analysis, credit control, receipt application, GST output on sales, and AR reconciliation. Patron Accounting helps BKC, Lower Parel, Andheri, Powai, and Bhiwandi businesses cut DSO and protect working capital.",
-      "serviceType": "Accounts Receivable Outsourcing and Collections Management",
-      "url": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services/mumbai",
-      "areaServed": {
-        "@type": "City",
-        "name": "Mumbai",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Maharashtra"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#localbusiness-mumbai"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Accounts receivable",
-          "sameAs": "https://en.wikipedia.org/wiki/Accounts_receivable"
-        },
-        {
-          "@type": "Thing",
-          "name": "Goods and Services Tax (India)",
-          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "AR Outsourcing Plans in Mumbai",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "price": "7499",
-            "priceSpecification": {
-              "@type": "UnitPriceSpecification",
-              "priceCurrency": "INR",
-              "price": "7499",
-              "unitText": "per month"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Accounts Receivable Outsourcing per Month"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness-mumbai",
-      "name": "Patron Accounting LLP - Mumbai",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services/mumbai",
-      "telephone": "+91-9699936369",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Mumbai"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Mumbai",
-        "addressRegion": "Maharashtra",
-        "postalCode": "400020",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -815,7 +612,217 @@
         .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
 
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>AR Outsourcing in Mumbai 2026 | Patron Accounting</title>
+    <meta name="description" content="Accounts receivable outsourcing in Mumbai from INR 7,499/mo (Exl GST and Govt. Charges). CA-led invoicing, collections, and ageing for BKC firms.">
+    <link rel="canonical" href="/accounts-receivable-outsourcing-services/mumbai">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="AR Outsourcing in Mumbai 2026 | Patron Accounting">
+    <meta property="og:description" content="Accounts receivable outsourcing in Mumbai from INR 7,499/mo (Exl GST and Govt. Charges). CA-led invoicing, collections, and ageing for BKC firms.">
+    <meta property="og:url" content="/accounts-receivable-outsourcing-services/mumbai">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="AR Outsourcing in Mumbai 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Accounts receivable outsourcing in Mumbai from INR 7,499/mo (Exl GST and Govt. Charges). CA-led invoicing, collections, and ageing for BKC firms.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services/mumbai#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Accounts Receivable Outsourcing Services",
+          "item": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Accounts Receivable Outsourcing Services in Mumbai",
+          "item": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services/mumbai"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services/mumbai#faq",
+      "datePublished": "2026-06-23T08:00:00+05:30",
+      "dateModified": "2026-06-23T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does accounts receivable outsourcing cover for a Mumbai business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patron takes over your full order-to-cash cycle: raising GST-compliant sales invoices, running collections and dunning, tracking ageing, applying receipts, and reconciling the AR ledger. For BKC and Lower Parel finance firms it also covers credit control and GST output on sales under the CGST Act 2017, so you collect faster without an in-house desk."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does AR outsourcing cost in Mumbai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pricing begins Starting from INR 7,499/mo (Exl GST and Govt. Charges). Your final monthly fee reflects invoice volume, customer count, the number of GST registrations, and how much collections follow-up you need. Andheri and Powai SaaS teams and Bhiwandi warehousing firms get a fixed quote confirmed before any work starts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does outsourced collections lower my DSO in Mumbai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We run a disciplined dunning calendar with pre-due nudges, due-date statements, and graduated overdue follow-up under your approved credit policy. Consistent chasing plus a clean ageing view typically trims Days Sales Outstanding by 10 to 25 days for Mumbai SMEs within two or three collection cycles, freeing trapped working capital."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will my BKC firm's invoices be fully GST-compliant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. We build each sales invoice with the right GSTIN, HSN or SAC code, place of supply, and the CGST, SGST, or IGST breakdown the CGST Act 2017 calls for. The moment a BKC or Lower Parel client's turnover passes the e-invoicing limit, we pull the IRN and QR code so output GST lines up neatly with GSTR-1."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is AR ageing analysis and why does it matter for Mumbai firms?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ageing analysis sorts unpaid invoices into buckets by how overdue they are, usually 0-30, 31-60, 61-90, and 90 plus days. It shows which Mumbai customers pay slowly, where cash is locked, and which accounts need escalation, letting you protect working capital and set credit limits using real data rather than guesswork."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How are receipts applied and AR reconciled for a Bhiwandi warehousing account?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Each payment, including the part-settlements common with large Bhiwandi and Dombivli buyers, is tied to its invoice, and any customer TDS is captured. We then reconcile the AR ledger to your bank credits and to Form 26AS wherever TDS bites, keeping balances exact so no reminder ever reaches a buyer who has already paid."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do Andheri SaaS-media teams keep using their own Zoho Books or ERP?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, nothing has to move. We operate your receivables right inside whatever an Andheri or Powai team already runs, be it Tally, Zoho Books, QuickBooks, or Xero. Invoices are raised, receipts logged, and the ageing report maintained within your own platform, so all the data sits together and the audit trail is never broken."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you handle follow-up with our Nariman Point and Fort clients?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Strictly inside the boundaries you approve. Reminder emails, statements, and dunning notes all go out under your brand, and follow-up calls stay courteous and true to your credit policy. With the professional firms around Nariman Point and Fort, any delicate or disputed account is brought back to you before we press harder, so long-standing relationships are never put at risk."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services/mumbai#service",
+      "name": "Accounts Receivable Outsourcing Services in Mumbai",
+      "description": "Accounts receivable outsourcing in Mumbai covers customer invoicing, collections, dunning, ageing analysis, credit control, receipt application, GST output on sales, and AR reconciliation. Patron Accounting helps BKC, Lower Parel, Andheri, Powai, and Bhiwandi businesses cut DSO and protect working capital.",
+      "serviceType": "Accounts Receivable Outsourcing and Collections Management",
+      "url": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services/mumbai",
+      "areaServed": {
+        "@type": "City",
+        "name": "Mumbai",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Maharashtra"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#localbusiness-mumbai"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Accounts receivable",
+          "sameAs": "https://en.wikipedia.org/wiki/Accounts_receivable"
+        },
+        {
+          "@type": "Thing",
+          "name": "Goods and Services Tax (India)",
+          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "AR Outsourcing Plans in Mumbai",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "price": "7499",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "INR",
+              "price": "7499",
+              "unitText": "per month"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Accounts Receivable Outsourcing per Month"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness-mumbai",
+      "name": "Patron Accounting LLP - Mumbai",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services/mumbai",
+      "telephone": "+91-9699936369",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Mumbai"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Mumbai",
+        "addressRegion": "Maharashtra",
+        "postalCode": "400020",
+        "addressCountry": "IN"
+      },
+      "parentOrganization": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1566,7 +1573,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

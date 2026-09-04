@@ -1,154 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>GSTR-3B Filing 2026: Hard-Locked Returns | Patron Accounting</title>
-    <meta name="description" content="File GSTR-3B by 20th monthly under Section 39 with auto-populated hard-locked values from July 2025. Bundled with GSTR-1 in our retainer from Rs 999/mo.">
-    <link rel="canonical" href="/gstr-3b-filing">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="GSTR-3B Filing 2026: Hard-Locked Returns | Patron Accounting">
-    <meta property="og:description" content="File GSTR-3B by 20th monthly under Section 39 with auto-populated hard-locked values from July 2025. Bundled with GSTR-1 in our retainer from Rs 999/mo.">
-    <meta property="og:url" content="/gstr-3b-filing">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="GSTR-3B Filing 2026: Hard-Locked Returns | Patron Accounting">
-    <meta name="twitter:description" content="File GSTR-3B by 20th monthly under Section 39 with auto-populated hard-locked values from July 2025. Bundled with GSTR-1 in our retainer from Rs 999/mo.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/gstr-3b-filing/#service",
-        "name": "GSTR-3B Filing in India",
-        "description": "Patron Accounting LLP files Form GSTR-3B under Section 39 of the CGST Act, 2017 and Rule 61 of the CGST Rules, 2017, by the 20th monthly or 22nd or 24th quarterly under the QRMP scheme. From the July 2025 tax period, Table 3.1 of GSTR-3B is auto-populated and hard-locked from GSTR-1 or GSTR-1A or IFF, and from November 2025 Table 3.2 is also locked. The service is bundled with Form GSTR-1 in our Monthly GST Returns retainer covering IMS document review and action, GSTR-2B reconciliation, GSTR-1A same-period correction, manual entry of Table 3.1(d) RCM imports of services, ITC reversal under Rules 38, 42, 43, PMT-06 monthly tax payment for QRMP, and late fee plus Section 50 interest optimisation.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gstr-3b-filing" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [
-            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
-            { "@type": "Thing", "name": "Central Board of Indirect Taxes and Customs", "sameAs": "https://en.wikipedia.org/wiki/Central_Board_of_Indirect_Taxes_and_Customs" }
-        ],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "GSTR-3B Filing Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "Monthly GST Returns Retainer - Starter (up to 50 invoices)",
-                    "priceCurrency": "INR",
-                    "price": "999",
-                    "description": "GSTR-3B plus GSTR-1 filed together each month - IMS review, GSTR-2B reconciliation, GSTR-1A correction, RCM capture, and audit-ready records"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/gstr-3b-filing/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
-            { "@type": "ListItem", "position": 3, "name": "GSTR-3B Filing", "item": "https://www.patronaccounting.com/gstr-3b-filing" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/gstr-3b-filing/#faq",
-        "datePublished": "2026-05-26T08:00:00+05:30",
-        "dateModified": "2026-06-01T08:00:00+05:30",
-        "mainEntity": [
-
-            {
-                "@type": "Question",
-                "name": "What is GSTR-3B and when is it due?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "GSTR-3B is the monthly or quarterly summary return filed by every regular GST taxpayer under Section 39 of the CGST Act, 2017 read with Rule 61 of the CGST Rules, 2017. It declares outward supplies, inward supplies attracting reverse charge, eligible Input Tax Credit and the net tax payable. Monthly filers (turnover above Rs 5 crore or non-QRMP) file by the 20th of the next month. QRMP filers file by the 22nd of the month after quarter for Category I States or the 24th for Category II States."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is hard-locking of GSTR-3B from July 2025?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "From the July 2025 tax period, Table 3.1 (outward supplies and reverse charge) of GSTR-3B is auto-populated from GSTR-1, GSTR-1A or IFF, and these auto-populated values are non-editable in GSTR-3B (per the GSTN Advisory dated 7 June 2025, building on the 17 October 2024 advisory). From the November 2025 tax period, Table 3.2 (inter-State supplies to unregistered persons, composition taxpayers, UIN holders) is also locked. Table 4 ITC hard-locking is targeted around July 2026."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How to correct GSTR-3B errors after hard-locking?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Errors in hard-locked auto-populated values cannot be edited at the GSTR-3B filing stage. The correction route is Form GSTR-1A for the same tax period, filed after GSTR-1 but before GSTR-3B is submitted. GSTR-1A amends or supplements the GSTR-1 invoices, and the corrected values flow into the GSTR-3B auto-population. After GSTR-3B is filed for the period, the next opportunity is amendment in the subsequent period's GSTR-1 in Tables 9 and 10."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is IMS (Invoice Management System) in GST?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "IMS is the recipient-side document control facility launched on the GST portal in October 2024. For every invoice listed by a supplier, the recipient takes an Accept, Reject or Pending action on the IMS dashboard. Accepted invoices enter the recipient's GSTR-2B; Rejected invoices do not (the supplier sees the rejection); Pending invoices are kept for action in the next tax period within a specified window. IMS drives the downstream Table 4 ITC in GSTR-3B."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can I edit RCM values in GSTR-3B after hard-locking?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Table 3.1(d) for inward supplies liable to reverse charge is only partially auto-populated. Domestic RCM under Section 9(3) and 9(4) of the CGST Act, where the supplier issues self-invoices that flow through GSTR-2B, auto-populates. Import of services under reverse charge, Section 9(3) supplies from unregistered foreign suppliers, and certain other RCM supplies do NOT auto-populate and must still be manually entered in GSTR-3B Table 3.1(d). This is the single largest gotcha in the post-July 2025 workflow."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the late fee for late GSTR-3B filing?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Late fee under Section 47 of the CGST Act, 2017 is Rs 50 per day (Rs 25 CGST + Rs 25 SGST) for taxable returns and Rs 20 per day for nil returns, subject to turnover-based maximum cap notified by CBIC. Unpaid tax additionally attracts interest under Section 50 at 18 percent per annum on the net cash liability from the day after the due date until payment. Repeated late filing also triggers Rule 59(6) blocking of the next period's GSTR-1 and Rule 86A restrictions on the buyer's ITC."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the difference between GSTR-3B and GSTR-2B?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "GSTR-3B is the return the taxpayer files for monthly summary and tax payment under Section 39. GSTR-2B is the auto-drafted ITC statement generated by the portal for the recipient on the 14th of the next month, based on suppliers' GSTR-1 plus IMS actions taken by the recipient. GSTR-2B is not filed; it is consumed - its values flow into GSTR-3B Table 4 ITC. GSTR-2B is not generated for QRMP M1 and M2 and not generated if the previous period's GSTR-3B is unfiled."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Who is exempt from filing GSTR-3B?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Composition dealers under Section 10 file Form CMP-08 and Form GSTR-4 instead. Non-Resident Taxable Persons file Form GSTR-5. OIDAR service providers file Form GSTR-5A. Input Service Distributors file Form GSTR-6. TDS deductors under Section 51 file Form GSTR-7. E-commerce operators required to collect TCS under Section 52 file Form GSTR-8. All other regular GST taxpayers must file GSTR-3B, including for tax periods with no transactions (nil return mandatory)."
-                }
-            }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -762,7 +618,156 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>GSTR-3B Filing 2026: Hard-Locked Returns | Patron Accounting</title>
+    <meta name="description" content="File GSTR-3B by 20th monthly under Section 39 with auto-populated hard-locked values from July 2025. Bundled with GSTR-1 in our retainer from Rs 999/mo.">
+    <link rel="canonical" href="/gstr-3b-filing">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="GSTR-3B Filing 2026: Hard-Locked Returns | Patron Accounting">
+    <meta property="og:description" content="File GSTR-3B by 20th monthly under Section 39 with auto-populated hard-locked values from July 2025. Bundled with GSTR-1 in our retainer from Rs 999/mo.">
+    <meta property="og:url" content="/gstr-3b-filing">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GSTR-3B Filing 2026: Hard-Locked Returns | Patron Accounting">
+    <meta name="twitter:description" content="File GSTR-3B by 20th monthly under Section 39 with auto-populated hard-locked values from July 2025. Bundled with GSTR-1 in our retainer from Rs 999/mo.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/gstr-3b-filing/#service",
+        "name": "GSTR-3B Filing in India",
+        "description": "Patron Accounting LLP files Form GSTR-3B under Section 39 of the CGST Act, 2017 and Rule 61 of the CGST Rules, 2017, by the 20th monthly or 22nd or 24th quarterly under the QRMP scheme. From the July 2025 tax period, Table 3.1 of GSTR-3B is auto-populated and hard-locked from GSTR-1 or GSTR-1A or IFF, and from November 2025 Table 3.2 is also locked. The service is bundled with Form GSTR-1 in our Monthly GST Returns retainer covering IMS document review and action, GSTR-2B reconciliation, GSTR-1A same-period correction, manual entry of Table 3.1(d) RCM imports of services, ITC reversal under Rules 38, 42, 43, PMT-06 monthly tax payment for QRMP, and late fee plus Section 50 interest optimisation.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gstr-3b-filing" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [
+            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
+            { "@type": "Thing", "name": "Central Board of Indirect Taxes and Customs", "sameAs": "https://en.wikipedia.org/wiki/Central_Board_of_Indirect_Taxes_and_Customs" }
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "GSTR-3B Filing Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "Monthly GST Returns Retainer - Starter (up to 50 invoices)",
+                    "priceCurrency": "INR",
+                    "price": "999",
+                    "description": "GSTR-3B plus GSTR-1 filed together each month - IMS review, GSTR-2B reconciliation, GSTR-1A correction, RCM capture, and audit-ready records"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/gstr-3b-filing/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
+            { "@type": "ListItem", "position": 3, "name": "GSTR-3B Filing", "item": "https://www.patronaccounting.com/gstr-3b-filing" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/gstr-3b-filing/#faq",
+        "datePublished": "2026-05-26T08:00:00+05:30",
+        "dateModified": "2026-06-01T08:00:00+05:30",
+        "mainEntity": [
+
+            {
+                "@type": "Question",
+                "name": "What is GSTR-3B and when is it due?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "GSTR-3B is the monthly or quarterly summary return filed by every regular GST taxpayer under Section 39 of the CGST Act, 2017 read with Rule 61 of the CGST Rules, 2017. It declares outward supplies, inward supplies attracting reverse charge, eligible Input Tax Credit and the net tax payable. Monthly filers (turnover above Rs 5 crore or non-QRMP) file by the 20th of the next month. QRMP filers file by the 22nd of the month after quarter for Category I States or the 24th for Category II States."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is hard-locking of GSTR-3B from July 2025?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "From the July 2025 tax period, Table 3.1 (outward supplies and reverse charge) of GSTR-3B is auto-populated from GSTR-1, GSTR-1A or IFF, and these auto-populated values are non-editable in GSTR-3B (per the GSTN Advisory dated 7 June 2025, building on the 17 October 2024 advisory). From the November 2025 tax period, Table 3.2 (inter-State supplies to unregistered persons, composition taxpayers, UIN holders) is also locked. Table 4 ITC hard-locking is targeted around July 2026."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How to correct GSTR-3B errors after hard-locking?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Errors in hard-locked auto-populated values cannot be edited at the GSTR-3B filing stage. The correction route is Form GSTR-1A for the same tax period, filed after GSTR-1 but before GSTR-3B is submitted. GSTR-1A amends or supplements the GSTR-1 invoices, and the corrected values flow into the GSTR-3B auto-population. After GSTR-3B is filed for the period, the next opportunity is amendment in the subsequent period's GSTR-1 in Tables 9 and 10."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is IMS (Invoice Management System) in GST?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "IMS is the recipient-side document control facility launched on the GST portal in October 2024. For every invoice listed by a supplier, the recipient takes an Accept, Reject or Pending action on the IMS dashboard. Accepted invoices enter the recipient's GSTR-2B; Rejected invoices do not (the supplier sees the rejection); Pending invoices are kept for action in the next tax period within a specified window. IMS drives the downstream Table 4 ITC in GSTR-3B."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can I edit RCM values in GSTR-3B after hard-locking?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Table 3.1(d) for inward supplies liable to reverse charge is only partially auto-populated. Domestic RCM under Section 9(3) and 9(4) of the CGST Act, where the supplier issues self-invoices that flow through GSTR-2B, auto-populates. Import of services under reverse charge, Section 9(3) supplies from unregistered foreign suppliers, and certain other RCM supplies do NOT auto-populate and must still be manually entered in GSTR-3B Table 3.1(d). This is the single largest gotcha in the post-July 2025 workflow."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the late fee for late GSTR-3B filing?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Late fee under Section 47 of the CGST Act, 2017 is Rs 50 per day (Rs 25 CGST + Rs 25 SGST) for taxable returns and Rs 20 per day for nil returns, subject to turnover-based maximum cap notified by CBIC. Unpaid tax additionally attracts interest under Section 50 at 18 percent per annum on the net cash liability from the day after the due date until payment. Repeated late filing also triggers Rule 59(6) blocking of the next period's GSTR-1 and Rule 86A restrictions on the buyer's ITC."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the difference between GSTR-3B and GSTR-2B?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "GSTR-3B is the return the taxpayer files for monthly summary and tax payment under Section 39. GSTR-2B is the auto-drafted ITC statement generated by the portal for the recipient on the 14th of the next month, based on suppliers' GSTR-1 plus IMS actions taken by the recipient. GSTR-2B is not filed; it is consumed - its values flow into GSTR-3B Table 4 ITC. GSTR-2B is not generated for QRMP M1 and M2 and not generated if the previous period's GSTR-3B is unfiled."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Who is exempt from filing GSTR-3B?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Composition dealers under Section 10 file Form CMP-08 and Form GSTR-4 instead. Non-Resident Taxable Persons file Form GSTR-5. OIDAR service providers file Form GSTR-5A. Input Service Distributors file Form GSTR-6. TDS deductors under Section 51 file Form GSTR-7. E-commerce operators required to collect TCS under Section 52 file Form GSTR-8. All other regular GST taxpayers must file GSTR-3B, including for tax periods with no transactions (nil return mandatory)."
+                }
+            }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1715,17 +1720,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1748,8 +1746,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1786,7 +1782,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1797,4 +1792,20 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+
 

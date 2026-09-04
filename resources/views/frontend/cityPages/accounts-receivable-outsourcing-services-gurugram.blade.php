@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,208 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>AR Outsourcing in Gurugram 2026 | Patron Accounting</title>
-    <meta name="description" content="Accounts receivable outsourcing in Gurugram from INR 7,499/mo (Exl GST and Govt. Charges). CA-led invoicing, collections, ageing for Cyber City firms.">
-    <link rel="canonical" href="/accounts-receivable-outsourcing-services/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="AR Outsourcing in Gurugram 2026 | Patron Accounting">
-    <meta property="og:description" content="Accounts receivable outsourcing in Gurugram from INR 7,499/mo (Exl GST and Govt. Charges). CA-led invoicing, collections, ageing for Cyber City firms.">
-    <meta property="og:url" content="/accounts-receivable-outsourcing-services/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="AR Outsourcing in Gurugram 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Accounts receivable outsourcing in Gurugram from INR 7,499/mo (Exl GST and Govt. Charges). CA-led invoicing, collections, ageing for Cyber City firms.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services/gurugram#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Accounts Receivable Outsourcing Services",
-          "item": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Accounts Receivable Outsourcing Services in Gurugram",
-          "item": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services/gurugram#faq",
-      "datePublished": "2026-06-23T08:00:00+05:30",
-      "dateModified": "2026-06-23T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is accounts receivable outsourcing for a Gurugram business?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "AR outsourcing means Patron runs your customer invoicing, collections, dunning, ageing analysis, and receipt application end to end. For Gurugram firms it covers GST-compliant invoices under the CGST Act 2017, credit control, and AR reconciliation, so Cyber City and Udyog Vihar teams get paid faster without an in-house collections desk."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does AR outsourcing cost in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patron Accounting charges Starting from INR 7,499/mo (Exl GST and Govt. Charges). The final fee tracks your invoice volume, customer count, GST registrations, and how much collections follow-up is needed. Cyber City SaaS firms and Manesar IMT manufacturers get a fixed monthly quote from our Sohna Road office before work starts."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does outsourced collections cut DSO for a Cyber City firm?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We work a planned dunning rhythm, nudging before the due date and chasing after it, then escalating overdue accounts within the credit policy you sign off. For a Cyber City or Udyog Vihar firm, that steady pressure plus a clean ageing view usually pulls Days Sales Outstanding down by 10 to 25 days over a few collection cycles."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you raise GST-compliant invoices for Gurugram customers?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Each sales invoice shows the right Haryana GSTIN, the HSN or SAC, the place of supply, and the correct CGST, SGST, or IGST split as the CGST Act 2017 requires. Wherever e-invoicing is triggered, we raise the IRN and QR code so your output GST on sales ties out cleanly with GSTR-1."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why does ageing analysis matter for a Manesar manufacturer?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Ageing analysis sorts unpaid invoices by how late they are, generally 0-30, 31-60, 61-90, and beyond 90 days. For a Manesar IMT manufacturer selling to OEMs on long credit, it pinpoints which buyers drag, where cash is tied up, and which accounts to escalate, so you guard working capital and set credit limits on real numbers."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do you apply receipts and reconcile AR in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Every payment is pinned to the invoice it clears, part-payments and TDS deductions are posted, and the AR ledger is squared to the bank and to Form 26AS wherever TDS is involved. Balances stay exact, so no reminder ever lands on a Gurugram customer who has already settled with you."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Will you work inside our Tally, Zoho Books, or ERP system?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. We handle receivables right inside whatever your Gurugram business runs, be it Tally, Zoho Books, QuickBooks, or Xero. Invoices are raised, receipts logged, and the ageing report kept current in your own system, so all the data sits in one place and the audit trail holds up for any review."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Will you speak to our MG Road customers during collections?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Only as far as you allow. We send reminder emails, statements, and dunning notes in your brand voice and make courteous follow-up calls in line with your credit policy. A sensitive or disputed account, say an MG Road retail buyer, is always referred back to you before any firm escalation, so the relationship stays safe."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services/gurugram#service",
-      "name": "Accounts Receivable Outsourcing Services in Gurugram",
-      "description": "Accounts receivable outsourcing in Gurugram covers customer invoicing, collections, dunning, ageing analysis, credit control, receipt application, GST output on sales, and AR reconciliation. Patron Accounting helps Cyber City, Udyog Vihar, and Manesar IMT businesses cut DSO and protect working capital.",
-      "serviceType": "Accounts Receivable Outsourcing and Collections Management",
-      "url": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services/gurugram",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#localbusiness-gurugram"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Accounts receivable",
-          "sameAs": "https://en.wikipedia.org/wiki/Accounts_receivable"
-        },
-        {
-          "@type": "Thing",
-          "name": "Goods and Services Tax (India)",
-          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "AR Outsourcing Plans in Gurugram",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "price": "7499",
-            "priceSpecification": {
-              "@type": "UnitPriceSpecification",
-              "priceCurrency": "INR",
-              "price": "7499",
-              "unitText": "per month"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Accounts Receivable Outsourcing per Month"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness-gurugram",
-      "name": "Patron Accounting LLP - Gurugram",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services/gurugram",
-      "telephone": "+91-9699936369",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Gurugram",
-        "addressRegion": "Haryana",
-        "postalCode": "122002",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -815,7 +612,217 @@
         .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
 
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>AR Outsourcing in Gurugram 2026 | Patron Accounting</title>
+    <meta name="description" content="Accounts receivable outsourcing in Gurugram from INR 7,499/mo (Exl GST and Govt. Charges). CA-led invoicing, collections, ageing for Cyber City firms.">
+    <link rel="canonical" href="/accounts-receivable-outsourcing-services/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="AR Outsourcing in Gurugram 2026 | Patron Accounting">
+    <meta property="og:description" content="Accounts receivable outsourcing in Gurugram from INR 7,499/mo (Exl GST and Govt. Charges). CA-led invoicing, collections, ageing for Cyber City firms.">
+    <meta property="og:url" content="/accounts-receivable-outsourcing-services/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="AR Outsourcing in Gurugram 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Accounts receivable outsourcing in Gurugram from INR 7,499/mo (Exl GST and Govt. Charges). CA-led invoicing, collections, ageing for Cyber City firms.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services/gurugram#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Accounts Receivable Outsourcing Services",
+          "item": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Accounts Receivable Outsourcing Services in Gurugram",
+          "item": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services/gurugram#faq",
+      "datePublished": "2026-06-23T08:00:00+05:30",
+      "dateModified": "2026-06-23T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is accounts receivable outsourcing for a Gurugram business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AR outsourcing means Patron runs your customer invoicing, collections, dunning, ageing analysis, and receipt application end to end. For Gurugram firms it covers GST-compliant invoices under the CGST Act 2017, credit control, and AR reconciliation, so Cyber City and Udyog Vihar teams get paid faster without an in-house collections desk."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does AR outsourcing cost in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patron Accounting charges Starting from INR 7,499/mo (Exl GST and Govt. Charges). The final fee tracks your invoice volume, customer count, GST registrations, and how much collections follow-up is needed. Cyber City SaaS firms and Manesar IMT manufacturers get a fixed monthly quote from our Sohna Road office before work starts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does outsourced collections cut DSO for a Cyber City firm?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We work a planned dunning rhythm, nudging before the due date and chasing after it, then escalating overdue accounts within the credit policy you sign off. For a Cyber City or Udyog Vihar firm, that steady pressure plus a clean ageing view usually pulls Days Sales Outstanding down by 10 to 25 days over a few collection cycles."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you raise GST-compliant invoices for Gurugram customers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Each sales invoice shows the right Haryana GSTIN, the HSN or SAC, the place of supply, and the correct CGST, SGST, or IGST split as the CGST Act 2017 requires. Wherever e-invoicing is triggered, we raise the IRN and QR code so your output GST on sales ties out cleanly with GSTR-1."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does ageing analysis matter for a Manesar manufacturer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ageing analysis sorts unpaid invoices by how late they are, generally 0-30, 31-60, 61-90, and beyond 90 days. For a Manesar IMT manufacturer selling to OEMs on long credit, it pinpoints which buyers drag, where cash is tied up, and which accounts to escalate, so you guard working capital and set credit limits on real numbers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you apply receipts and reconcile AR in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Every payment is pinned to the invoice it clears, part-payments and TDS deductions are posted, and the AR ledger is squared to the bank and to Form 26AS wherever TDS is involved. Balances stay exact, so no reminder ever lands on a Gurugram customer who has already settled with you."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will you work inside our Tally, Zoho Books, or ERP system?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We handle receivables right inside whatever your Gurugram business runs, be it Tally, Zoho Books, QuickBooks, or Xero. Invoices are raised, receipts logged, and the ageing report kept current in your own system, so all the data sits in one place and the audit trail holds up for any review."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will you speak to our MG Road customers during collections?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Only as far as you allow. We send reminder emails, statements, and dunning notes in your brand voice and make courteous follow-up calls in line with your credit policy. A sensitive or disputed account, say an MG Road retail buyer, is always referred back to you before any firm escalation, so the relationship stays safe."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services/gurugram#service",
+      "name": "Accounts Receivable Outsourcing Services in Gurugram",
+      "description": "Accounts receivable outsourcing in Gurugram covers customer invoicing, collections, dunning, ageing analysis, credit control, receipt application, GST output on sales, and AR reconciliation. Patron Accounting helps Cyber City, Udyog Vihar, and Manesar IMT businesses cut DSO and protect working capital.",
+      "serviceType": "Accounts Receivable Outsourcing and Collections Management",
+      "url": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services/gurugram",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#localbusiness-gurugram"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Accounts receivable",
+          "sameAs": "https://en.wikipedia.org/wiki/Accounts_receivable"
+        },
+        {
+          "@type": "Thing",
+          "name": "Goods and Services Tax (India)",
+          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "AR Outsourcing Plans in Gurugram",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "price": "7499",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "INR",
+              "price": "7499",
+              "unitText": "per month"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Accounts Receivable Outsourcing per Month"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness-gurugram",
+      "name": "Patron Accounting LLP - Gurugram",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services/gurugram",
+      "telephone": "+91-9699936369",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Gurugram",
+        "addressRegion": "Haryana",
+        "postalCode": "122002",
+        "addressCountry": "IN"
+      },
+      "parentOrganization": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1562,7 +1569,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

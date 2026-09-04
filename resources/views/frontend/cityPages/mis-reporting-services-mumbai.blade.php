@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,208 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>MIS Reporting Services in Mumbai 2026 | Patron Accounting</title>
-    <meta name="description" content="CA-built MIS dashboards for BKC and Andheri firms from INR 4,999/mo. Monthly, quarterly profit, cash flow and KPI packs across Mumbai.">
-    <link rel="canonical" href="/mis-reporting-services/mumbai">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="MIS Reporting Services in Mumbai 2026 | Patron Accounting">
-    <meta property="og:description" content="CA-built MIS dashboards for BKC and Andheri firms from INR 4,999/mo. Monthly, quarterly profit, cash flow and KPI packs across Mumbai.">
-    <meta property="og:url" content="/mis-reporting-services/mumbai">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="MIS Reporting Services in Mumbai 2026 | Patron Accounting">
-    <meta name="twitter:description" content="CA-built MIS dashboards for BKC and Andheri firms from INR 4,999/mo. Monthly, quarterly profit, cash flow and KPI packs across Mumbai.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/mis-reporting-services/mumbai#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "MIS Reporting Services",
-          "item": "https://www.patronaccounting.com/mis-reporting-services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "MIS Reporting Services in Mumbai",
-          "item": "https://www.patronaccounting.com/mis-reporting-services/mumbai"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/mis-reporting-services/mumbai#faq",
-      "datePublished": "2026-06-23T08:00:00+05:30",
-      "dateModified": "2026-06-23T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Why should a Mumbai company invest in monthly MIS reporting?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Think of an MIS pack as a recurring scorecard that translates your ledger into answers leadership can use. Mumbai promoters running BKC broking desks or Andheri agencies stop guessing and start seeing budget variance, live cash position, debtor and creditor ageing, and the KPI movements that decide the next quarter. Decisions then rest on evidence, not instinct."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What will MIS reporting cost me each month in Mumbai?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Pricing opens at Starting from INR 4,999/mo (Exl GST and Govt. Charges). Where it settles is driven by how many entities you run, the spread of revenue lines, the number of cost centres, and how bespoke your KPI dashboards need to be. Before any Mumbai client signs, we lock a fixed scope and share a worked sample pack so there is no ambiguity."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which statements arrive inside a standard monthly MIS pack?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Every monthly Mumbai pack carries a profit and loss against budget, a cash flow summary, a balance sheet snapshot, AR and AP ageing, a breakdown of spend by cost centre, and a single-page dashboard of your headline KPIs. When the quarter closes we layer on ratio trends, segment-level reporting, and a written narrative aimed at directors and investors."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does MIS reporting differ from day-to-day bookkeeping?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Bookkeeping captures what happened; MIS reporting explains what it means. Our Mumbai workflow starts by confirming the ledgers are reconciled and clean, then adds the interpretation layer on top: variance commentary, financial ratios, cash flow, and dashboards. The result answers where the business stands and which lever to pull next, written for founders and boards rather than accountants."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "When does a Bhiwandi or BKC client receive each monthly report?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Once the month is closed and bank and ledger data reconciled, most Mumbai clients have the monthly pack in hand inside 5 to 7 working days. Quarterly board packs follow within 10 working days of quarter end. We pin a delivery calendar during onboarding, so whether you run a Bhiwandi warehouse or a BKC fund, the report lands on the same date each cycle."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can the reporting be shaped for different readers in my firm?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Absolutely. Each Mumbai pack is cut to its reader: founders get a lean KPI dashboard, finance teams get granular variance and cash flow schedules, and the board gets a tidy commentary pack for fundraising. For Powai and Andheri SaaS and startup clients we fold in burn rate, runway, MRR, and unit economics so the metrics mirror how the business is actually run."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What software powers the MIS dashboards you build in Mumbai?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We draw directly from whatever you already run, whether that is Tally, Zoho Books, QuickBooks, or Xero, and surface the output in Excel, Google Sheets, Power BI, or Zoho Analytics to suit your team. Because we link straight to the ledgers, each Mumbai pack refreshes cleanly every cycle and there is no manual rekeying to introduce errors."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Are quarterly packs suitable for board and investor diligence?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "They are designed for exactly that. The quarterly pack carries ratio analysis, segment and cost-centre breakdowns, budget against actual, and a plain commentary on results and outlook. When a Lower Parel or Andheri startup is mid-raise, we shape the pack around investor diligence checklists so your data room is review-ready the moment it is requested."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/mis-reporting-services/mumbai#service",
-      "name": "MIS Reporting Services in Mumbai",
-      "description": "Monthly and quarterly MIS reporting in Mumbai by Patron Accounting. CA-built management dashboards, P&L versus budget, cash flow, ratio analysis, receivables and payables ageing, cost-centre and KPI packs for founders, CFOs, boards, and investors.",
-      "serviceType": "Management Information System (MIS) Reporting",
-      "url": "https://www.patronaccounting.com/mis-reporting-services/mumbai",
-      "areaServed": {
-        "@type": "City",
-        "name": "Mumbai",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Maharashtra"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#localbusiness-mumbai"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Management information system",
-          "sameAs": "https://en.wikipedia.org/wiki/Management_information_system"
-        },
-        {
-          "@type": "Thing",
-          "name": "Financial statement",
-          "sameAs": "https://en.wikipedia.org/wiki/Financial_statement"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "MIS Reporting Plans in Mumbai",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "price": "4999",
-            "priceSpecification": {
-              "@type": "UnitPriceSpecification",
-              "priceCurrency": "INR",
-              "price": "4999",
-              "unitText": "per month"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Monthly MIS Reporting Pack"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness-mumbai",
-      "name": "Patron Accounting LLP - Mumbai",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/mis-reporting-services/mumbai",
-      "telephone": "+91-9699936369",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Mumbai"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Mumbai",
-        "addressRegion": "Maharashtra",
-        "postalCode": "400020",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -830,7 +627,217 @@
         .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
 
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>MIS Reporting Services in Mumbai 2026 | Patron Accounting</title>
+    <meta name="description" content="CA-built MIS dashboards for BKC and Andheri firms from INR 4,999/mo. Monthly, quarterly profit, cash flow and KPI packs across Mumbai.">
+    <link rel="canonical" href="/mis-reporting-services/mumbai">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="MIS Reporting Services in Mumbai 2026 | Patron Accounting">
+    <meta property="og:description" content="CA-built MIS dashboards for BKC and Andheri firms from INR 4,999/mo. Monthly, quarterly profit, cash flow and KPI packs across Mumbai.">
+    <meta property="og:url" content="/mis-reporting-services/mumbai">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="MIS Reporting Services in Mumbai 2026 | Patron Accounting">
+    <meta name="twitter:description" content="CA-built MIS dashboards for BKC and Andheri firms from INR 4,999/mo. Monthly, quarterly profit, cash flow and KPI packs across Mumbai.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/mis-reporting-services/mumbai#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "MIS Reporting Services",
+          "item": "https://www.patronaccounting.com/mis-reporting-services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "MIS Reporting Services in Mumbai",
+          "item": "https://www.patronaccounting.com/mis-reporting-services/mumbai"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/mis-reporting-services/mumbai#faq",
+      "datePublished": "2026-06-23T08:00:00+05:30",
+      "dateModified": "2026-06-23T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why should a Mumbai company invest in monthly MIS reporting?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Think of an MIS pack as a recurring scorecard that translates your ledger into answers leadership can use. Mumbai promoters running BKC broking desks or Andheri agencies stop guessing and start seeing budget variance, live cash position, debtor and creditor ageing, and the KPI movements that decide the next quarter. Decisions then rest on evidence, not instinct."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What will MIS reporting cost me each month in Mumbai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pricing opens at Starting from INR 4,999/mo (Exl GST and Govt. Charges). Where it settles is driven by how many entities you run, the spread of revenue lines, the number of cost centres, and how bespoke your KPI dashboards need to be. Before any Mumbai client signs, we lock a fixed scope and share a worked sample pack so there is no ambiguity."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which statements arrive inside a standard monthly MIS pack?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Every monthly Mumbai pack carries a profit and loss against budget, a cash flow summary, a balance sheet snapshot, AR and AP ageing, a breakdown of spend by cost centre, and a single-page dashboard of your headline KPIs. When the quarter closes we layer on ratio trends, segment-level reporting, and a written narrative aimed at directors and investors."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does MIS reporting differ from day-to-day bookkeeping?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bookkeeping captures what happened; MIS reporting explains what it means. Our Mumbai workflow starts by confirming the ledgers are reconciled and clean, then adds the interpretation layer on top: variance commentary, financial ratios, cash flow, and dashboards. The result answers where the business stands and which lever to pull next, written for founders and boards rather than accountants."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When does a Bhiwandi or BKC client receive each monthly report?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Once the month is closed and bank and ledger data reconciled, most Mumbai clients have the monthly pack in hand inside 5 to 7 working days. Quarterly board packs follow within 10 working days of quarter end. We pin a delivery calendar during onboarding, so whether you run a Bhiwandi warehouse or a BKC fund, the report lands on the same date each cycle."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can the reporting be shaped for different readers in my firm?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. Each Mumbai pack is cut to its reader: founders get a lean KPI dashboard, finance teams get granular variance and cash flow schedules, and the board gets a tidy commentary pack for fundraising. For Powai and Andheri SaaS and startup clients we fold in burn rate, runway, MRR, and unit economics so the metrics mirror how the business is actually run."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What software powers the MIS dashboards you build in Mumbai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We draw directly from whatever you already run, whether that is Tally, Zoho Books, QuickBooks, or Xero, and surface the output in Excel, Google Sheets, Power BI, or Zoho Analytics to suit your team. Because we link straight to the ledgers, each Mumbai pack refreshes cleanly every cycle and there is no manual rekeying to introduce errors."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are quarterly packs suitable for board and investor diligence?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "They are designed for exactly that. The quarterly pack carries ratio analysis, segment and cost-centre breakdowns, budget against actual, and a plain commentary on results and outlook. When a Lower Parel or Andheri startup is mid-raise, we shape the pack around investor diligence checklists so your data room is review-ready the moment it is requested."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/mis-reporting-services/mumbai#service",
+      "name": "MIS Reporting Services in Mumbai",
+      "description": "Monthly and quarterly MIS reporting in Mumbai by Patron Accounting. CA-built management dashboards, P&L versus budget, cash flow, ratio analysis, receivables and payables ageing, cost-centre and KPI packs for founders, CFOs, boards, and investors.",
+      "serviceType": "Management Information System (MIS) Reporting",
+      "url": "https://www.patronaccounting.com/mis-reporting-services/mumbai",
+      "areaServed": {
+        "@type": "City",
+        "name": "Mumbai",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Maharashtra"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#localbusiness-mumbai"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Management information system",
+          "sameAs": "https://en.wikipedia.org/wiki/Management_information_system"
+        },
+        {
+          "@type": "Thing",
+          "name": "Financial statement",
+          "sameAs": "https://en.wikipedia.org/wiki/Financial_statement"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "MIS Reporting Plans in Mumbai",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "price": "4999",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "INR",
+              "price": "4999",
+              "unitText": "per month"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Monthly MIS Reporting Pack"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness-mumbai",
+      "name": "Patron Accounting LLP - Mumbai",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/mis-reporting-services/mumbai",
+      "telephone": "+91-9699936369",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Mumbai"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Mumbai",
+        "addressRegion": "Maharashtra",
+        "postalCode": "400020",
+        "addressCountry": "IN"
+      },
+      "parentOrganization": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1582,7 +1589,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

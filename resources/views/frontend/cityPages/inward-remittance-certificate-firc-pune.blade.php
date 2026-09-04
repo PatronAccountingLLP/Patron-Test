@@ -1,143 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Inward Remittance Certificate FIRC 2026 | Patron Accounting</title>
-    <meta name="description" content="FIRC support in Pune for freelancers, exporters, and SaaS founders receiving USD or EUR. e-FIRC facilitation and CA attestation for GST refunds. From INR 2,499.">
-    <link rel="canonical" href="/inward-remittance-certificate-firc/pune">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Inward Remittance Certificate FIRC 2026 | Patron Accounting">
-    <meta property="og:description" content="FIRC support in Pune for freelancers, exporters, and SaaS founders receiving USD or EUR. e-FIRC facilitation and CA attestation for GST refunds. From INR 2,499.">
-    <meta property="og:url" content="/inward-remittance-certificate-firc/pune">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Inward Remittance Certificate FIRC 2026 | Patron Accounting">
-    <meta name="twitter:description" content="FIRC support in Pune for freelancers, exporters, and SaaS founders receiving USD or EUR. e-FIRC facilitation and CA attestation for GST refunds. From INR 2,499.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/inward-remittance-certificate-firc/pune/#service",
-        "name": "Inward Remittance Certificate (FIRC) in Pune",
-        "description": "FIRC and e-FIRC facilitation and CA attestation in Pune for freelancers, exporters, and SaaS founders receiving foreign currency, covering RBI purpose-code selection, EDPMS reconciliation, and use of the certificate for GST refunds on exports and Foreign Trade Policy benefits. The FIRC is issued by an AD Category I bank.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/inward-remittance-certificate-firc/pune" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Remittance", "sameAs": "https://en.wikipedia.org/wiki/Remittance" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Inward Remittance Certificate (FIRC) Service Plans",
-            "itemListElement": [
-                { "@type": "Offer", "name": "Inward Remittance Certificate (FIRC) Support", "price": "2499", "priceCurrency": "INR", "description": "Starting from INR 2,499 (Exl GST and Govt. Charges)" }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/inward-remittance-certificate-firc/pune/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
-            { "@type": "ListItem", "position": 3, "name": "Inward Remittance Certificate (FIRC)", "item": "https://www.patronaccounting.com/inward-remittance-certificate-firc/pune" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/inward-remittance-certificate-firc/pune/#faq",
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "mainEntity": [
-            { "@type": "Question", "name": "What is an FIRC and who issues it?", "acceptedAnswer": { "@type": "Answer", "text": "A Foreign Inward Remittance Certificate is an official document issued by an Authorised Dealer (AD Category I) bank in India confirming that foreign currency was received in an Indian account and converted into rupees, with the full transaction trail. Under RBI and FEDAI guidelines, only AD Category I banks can issue it. Since 2016 it is issued as an e-FIRC through the RBI EDPMS system." } },
-{ "@type": "Question", "name": "Do freelancers receiving foreign payments need an FIRC?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Freelancers, including bloggers, designers, consultants, and other service providers who receive payments from overseas clients, use the FIRC as proof of their foreign income. It supports income-tax filing, helps claim GST refunds on export of services, and serves as compliance evidence under FEMA. For each inward remittance in foreign currency, an FIRC or e-FIRC documents the receipt and its rupee conversion." } },
-{ "@type": "Question", "name": "What is the difference between FIRC and FIRA?", "acceptedAnswer": { "@type": "Answer", "text": "An FIRC, or e-FIRC, is the legally recognised certificate proving an inward remittance, used for export, investment, GST refund, and regulatory compliance. An FIRA, or Foreign Inward Remittance Advice, is simply the bank\u0027s advice that a foreign credit was received and is not legally binding for compliance. Where a tax authority or the DGFT requires proof, the FIRC is needed. FIRS covers personal remittances." } },
-{ "@type": "Question", "name": "How is an FIRC used for a GST refund?", "acceptedAnswer": { "@type": "Answer", "text": "Exports of services are zero-rated under GST and can be made without paying tax by filing a Letter of Undertaking. To claim a refund of the input tax credit, the exporter must prove that the export proceeds were realised in foreign currency, and the FIRC is that proof. Matching the FIRC, the invoice, and the purpose code correctly is essential, which is where CA support reduces the risk of refund rejection." } },
-{ "@type": "Question", "name": "What is an RBI purpose code in an FIRC?", "acceptedAnswer": { "@type": "Answer", "text": "An RBI purpose code is a standardised code that classifies the nature of a foreign-exchange transaction, for example software services or consultancy. It is declared for each inward remittance and appears on the FIRC. The purpose code determines how the remittance is treated and whether it supports a particular benefit. Selecting the correct code is important, because a wrong code can complicate GST refunds and export-benefit claims." } },
-{ "@type": "Question", "name": "How does Patron Accounting help with FIRC in Pune?", "acceptedAnswer": { "@type": "Answer", "text": "The FIRC itself is issued by your AD bank, so we focus on getting everything around it right. We select the correct RBI purpose code, prepare the FIRC request and supporting documents, support e-FIRC retrieval and EDPMS reconciliation, and attest the foreign-income position. We then use the FIRC to claim GST refunds and export benefits. Our Pune team works with exporters and freelancers both in-person and remotely." } }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/inward-remittance-certificate-firc/pune",
-        "name": "Inward Remittance Certificate (FIRC) in Pune",
-        "description": "FIRC support in Pune for freelancers, exporters, and SaaS founders receiving USD or EUR. e-FIRC facilitation and CA attestation for GST refunds. From INR 2,499.",
-        "url": "https://www.patronaccounting.com/inward-remittance-certificate-firc/pune",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/inward-remittance-certificate-firc/pune/#service" },
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/inward-remittance-certificate-firc/pune/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How an FIRC Is Obtained and Used",
-        "description": "The step-by-step process Patron Accounting follows to support FIRC issuance through the AD bank and use it for GST refunds and export benefits in Pune.",
-        "totalTime": "P2D",
-        "step": [
-            { "@type": "HowToStep", "position": 1, "name": "Confirm purpose code", "text": "Confirm the nature of the inward remittance and the correct RBI purpose code." },
-{ "@type": "HowToStep", "position": 2, "name": "Gather documents", "text": "Gather the invoice or contract, the SWIFT or bank advice, and beneficiary details." },
-{ "@type": "HowToStep", "position": 3, "name": "Prepare FIRC request", "text": "Prepare the FIRC request to the AD Category I bank with the purpose and documents." },
-{ "@type": "HowToStep", "position": 4, "name": "Bank issues e-FIRC", "text": "The bank raises the IRM on EDPMS and issues the e-FIRC; we support retrieval and verification." },
-{ "@type": "HowToStep", "position": 5, "name": "Reconcile and attest", "text": "Reconcile the FIRC to the invoice and books, and attest the foreign-income position." },
-{ "@type": "HowToStep", "position": 6, "name": "Claim refund and benefits", "text": "Use the FIRC to claim GST refund on exports and any Foreign Trade Policy benefit." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Inward Remittance Certificate (FIRC) Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "FIRC", "description": "Foreign Inward Remittance Certificate - AD-bank proof that foreign currency was received and converted to INR." },
-{ "@type": "DefinedTerm", "name": "e-FIRC", "description": "The electronic FIRC issued via the RBI EDPMS system since 2016, linked to the IRM number." },
-{ "@type": "DefinedTerm", "name": "EDPMS", "description": "The RBI Export Data Processing and Monitoring System through which the e-FIRC is generated." },
-{ "@type": "DefinedTerm", "name": "RBI purpose code", "description": "A standardised code classifying the nature of each inward foreign-exchange remittance." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -751,7 +618,145 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Inward Remittance Certificate FIRC 2026 | Patron Accounting</title>
+    <meta name="description" content="FIRC support in Pune for freelancers, exporters, and SaaS founders receiving USD or EUR. e-FIRC facilitation and CA attestation for GST refunds. From INR 2,499.">
+    <link rel="canonical" href="/inward-remittance-certificate-firc/pune">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Inward Remittance Certificate FIRC 2026 | Patron Accounting">
+    <meta property="og:description" content="FIRC support in Pune for freelancers, exporters, and SaaS founders receiving USD or EUR. e-FIRC facilitation and CA attestation for GST refunds. From INR 2,499.">
+    <meta property="og:url" content="/inward-remittance-certificate-firc/pune">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Inward Remittance Certificate FIRC 2026 | Patron Accounting">
+    <meta name="twitter:description" content="FIRC support in Pune for freelancers, exporters, and SaaS founders receiving USD or EUR. e-FIRC facilitation and CA attestation for GST refunds. From INR 2,499.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/inward-remittance-certificate-firc/pune/#service",
+        "name": "Inward Remittance Certificate (FIRC) in Pune",
+        "description": "FIRC and e-FIRC facilitation and CA attestation in Pune for freelancers, exporters, and SaaS founders receiving foreign currency, covering RBI purpose-code selection, EDPMS reconciliation, and use of the certificate for GST refunds on exports and Foreign Trade Policy benefits. The FIRC is issued by an AD Category I bank.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/inward-remittance-certificate-firc/pune" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Remittance", "sameAs": "https://en.wikipedia.org/wiki/Remittance" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Inward Remittance Certificate (FIRC) Service Plans",
+            "itemListElement": [
+                { "@type": "Offer", "name": "Inward Remittance Certificate (FIRC) Support", "price": "2499", "priceCurrency": "INR", "description": "Starting from INR 2,499 (Exl GST and Govt. Charges)" }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/inward-remittance-certificate-firc/pune/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
+            { "@type": "ListItem", "position": 3, "name": "Inward Remittance Certificate (FIRC)", "item": "https://www.patronaccounting.com/inward-remittance-certificate-firc/pune" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/inward-remittance-certificate-firc/pune/#faq",
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "mainEntity": [
+            { "@type": "Question", "name": "What is an FIRC and who issues it?", "acceptedAnswer": { "@type": "Answer", "text": "A Foreign Inward Remittance Certificate is an official document issued by an Authorised Dealer (AD Category I) bank in India confirming that foreign currency was received in an Indian account and converted into rupees, with the full transaction trail. Under RBI and FEDAI guidelines, only AD Category I banks can issue it. Since 2016 it is issued as an e-FIRC through the RBI EDPMS system." } },
+{ "@type": "Question", "name": "Do freelancers receiving foreign payments need an FIRC?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Freelancers, including bloggers, designers, consultants, and other service providers who receive payments from overseas clients, use the FIRC as proof of their foreign income. It supports income-tax filing, helps claim GST refunds on export of services, and serves as compliance evidence under FEMA. For each inward remittance in foreign currency, an FIRC or e-FIRC documents the receipt and its rupee conversion." } },
+{ "@type": "Question", "name": "What is the difference between FIRC and FIRA?", "acceptedAnswer": { "@type": "Answer", "text": "An FIRC, or e-FIRC, is the legally recognised certificate proving an inward remittance, used for export, investment, GST refund, and regulatory compliance. An FIRA, or Foreign Inward Remittance Advice, is simply the bank\u0027s advice that a foreign credit was received and is not legally binding for compliance. Where a tax authority or the DGFT requires proof, the FIRC is needed. FIRS covers personal remittances." } },
+{ "@type": "Question", "name": "How is an FIRC used for a GST refund?", "acceptedAnswer": { "@type": "Answer", "text": "Exports of services are zero-rated under GST and can be made without paying tax by filing a Letter of Undertaking. To claim a refund of the input tax credit, the exporter must prove that the export proceeds were realised in foreign currency, and the FIRC is that proof. Matching the FIRC, the invoice, and the purpose code correctly is essential, which is where CA support reduces the risk of refund rejection." } },
+{ "@type": "Question", "name": "What is an RBI purpose code in an FIRC?", "acceptedAnswer": { "@type": "Answer", "text": "An RBI purpose code is a standardised code that classifies the nature of a foreign-exchange transaction, for example software services or consultancy. It is declared for each inward remittance and appears on the FIRC. The purpose code determines how the remittance is treated and whether it supports a particular benefit. Selecting the correct code is important, because a wrong code can complicate GST refunds and export-benefit claims." } },
+{ "@type": "Question", "name": "How does Patron Accounting help with FIRC in Pune?", "acceptedAnswer": { "@type": "Answer", "text": "The FIRC itself is issued by your AD bank, so we focus on getting everything around it right. We select the correct RBI purpose code, prepare the FIRC request and supporting documents, support e-FIRC retrieval and EDPMS reconciliation, and attest the foreign-income position. We then use the FIRC to claim GST refunds and export benefits. Our Pune team works with exporters and freelancers both in-person and remotely." } }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/inward-remittance-certificate-firc/pune",
+        "name": "Inward Remittance Certificate (FIRC) in Pune",
+        "description": "FIRC support in Pune for freelancers, exporters, and SaaS founders receiving USD or EUR. e-FIRC facilitation and CA attestation for GST refunds. From INR 2,499.",
+        "url": "https://www.patronaccounting.com/inward-remittance-certificate-firc/pune",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/inward-remittance-certificate-firc/pune/#service" },
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/inward-remittance-certificate-firc/pune/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How an FIRC Is Obtained and Used",
+        "description": "The step-by-step process Patron Accounting follows to support FIRC issuance through the AD bank and use it for GST refunds and export benefits in Pune.",
+        "totalTime": "P2D",
+        "step": [
+            { "@type": "HowToStep", "position": 1, "name": "Confirm purpose code", "text": "Confirm the nature of the inward remittance and the correct RBI purpose code." },
+{ "@type": "HowToStep", "position": 2, "name": "Gather documents", "text": "Gather the invoice or contract, the SWIFT or bank advice, and beneficiary details." },
+{ "@type": "HowToStep", "position": 3, "name": "Prepare FIRC request", "text": "Prepare the FIRC request to the AD Category I bank with the purpose and documents." },
+{ "@type": "HowToStep", "position": 4, "name": "Bank issues e-FIRC", "text": "The bank raises the IRM on EDPMS and issues the e-FIRC; we support retrieval and verification." },
+{ "@type": "HowToStep", "position": 5, "name": "Reconcile and attest", "text": "Reconcile the FIRC to the invoice and books, and attest the foreign-income position." },
+{ "@type": "HowToStep", "position": 6, "name": "Claim refund and benefits", "text": "Use the FIRC to claim GST refund on exports and any Foreign Trade Policy benefit." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Inward Remittance Certificate (FIRC) Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "FIRC", "description": "Foreign Inward Remittance Certificate - AD-bank proof that foreign currency was received and converted to INR." },
+{ "@type": "DefinedTerm", "name": "e-FIRC", "description": "The electronic FIRC issued via the RBI EDPMS system since 2016, linked to the IRM number." },
+{ "@type": "DefinedTerm", "name": "EDPMS", "description": "The RBI Export Data Processing and Monitoring System through which the e-FIRC is generated." },
+{ "@type": "DefinedTerm", "name": "RBI purpose code", "description": "A standardised code classifying the nature of each inward foreign-exchange remittance." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1414,17 +1419,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1447,8 +1445,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1485,7 +1481,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1496,3 +1491,19 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

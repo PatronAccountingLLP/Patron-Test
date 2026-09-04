@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,187 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>IMF for Bank Employees and Retirees: Eligibility & Setup</title>
-    <meta name="description" content="Retired banker? Use your finance experience to start an IRDAI Insurance Marketing Firm from INR 24,999 (Exl GST). Eligibility, documents and setup explained.">
-    <link rel="canonical" href="/imf-for-bank-employees-retirees/pune">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="IMF for Bank Employees and Retirees: Eligibility & Setup">
-    <meta property="og:description" content="Retired banker? Use your finance experience to start an IRDAI Insurance Marketing Firm from INR 24,999 (Exl GST). Eligibility, documents and setup explained.">
-    <meta property="og:url" content="/imf-for-bank-employees-retirees/pune">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="IMF for Bank Employees and Retirees: Eligibility & Setup">
-    <meta name="twitter:description" content="Retired banker? Use your finance experience to start an IRDAI Insurance Marketing Firm from INR 24,999 (Exl GST). Eligibility, documents and setup explained.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "IMF Services",
-          "item": "https://www.patronaccounting.com/imf-services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "IMF for Bank Employees and Retirees in Pune",
-          "item": "https://www.patronaccounting.com/imf-for-bank-employees-retirees/pune"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "datePublished": "2026-06-30T08:00:00+05:30",
-      "dateModified": "2026-06-30T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "How much does it cost to set up an IMF for a retired banker?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patron's IMF setup starts from INR 24,999 (Exl GST and Govt. Charges). On top of that you pay the statutory IRDAI application fee of INR 5,000 (paid from your IMF's SBI account) and must demonstrate the prescribed net worth of INR 10 lakh (INR 5 lakh for a single aspirational district). Training, exam and incorporation costs are quoted separately based on your structure."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Am I eligible to be the Principal Officer if I am a retired bank employee?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Very likely yes. A graduate with five years of experience in the financial-services sector qualifies as Principal Officer, and a banking career counts as financial-services experience. You will still need to complete 50 hours of IRDAI training and clear the IMF examination conducted by the Insurance Institute of India."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does IMF registration take?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Timelines depend on entity incorporation, the Principal Officer's training and exam, and IRDAI's review of your Form A, documents and Fit and Proper checks. Plan for several weeks to a few months end to end. Patron runs the incorporation and IRDAI filing in parallel to compress the timeline, and we tell you the realistic turnaround for your case at kickoff."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What documents are required for IMF registration?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Key documents include Form A, the ROC incorporation certificate (with 'Insurance Marketing Firm'/'IMF' in the name), MoA/AoA or LLP agreement plus PAN, an SBI bank account, a CA net-worth certificate, the Principal Officer's and ISP's qualification and exam certificates, a 3-year business plan with organisation chart and infrastructure photographs, insurer consent letters and Fit and Proper declarations."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does my IMF registration need to be renewed every 3 years?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Following the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act 2025, IMF registration became perpetual from 5 February 2026 and the earlier 3-year renewal cycle was discontinued. The registration stays valid as long as you remain compliant and pay applicable annual fees, which is exactly why it works well as a long-term post-retirement income source."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can Patron handle the entire IMF setup for me?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Patron Accounting runs the end-to-end engagement, incorporating the company/LLP with the correct IMF name, arranging the SBI account and CA net-worth certificate, preparing Form A and the 3-year business plan, guiding your Principal Officer through training and the exam, and filing the application on imf.irda.gov.in. Call +91 94594 56700 or email sales@patronaccounting.com."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you help bankers in Tier 2 and Tier 3 cities set up an IMF?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. IMF registration is district-based (up to 3 districts, with at least one aspirational district if you choose more than one), which makes it a strong fit for retired bankers in Tier 2 and Tier 3 towns. Patron supports IMF setup across India and works entirely online, so your location is not a constraint."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How many insurers can my IMF work with and can I build a sales team?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "An IMF can tie up with up to 2 life, 2 general and 2 health insurers (plus AIC and ECGC) and can also distribute other financial products through ISPs. You can appoint and manage your own Insurance Sales Persons, who must be paid a fixed salary, not commission, under a single IRDAI registration, letting a retiree build a scalable distribution team."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "name": "IMF for Bank Employees and Retirees in Pune",
-      "description": "End-to-end setup of an IRDAI Insurance Marketing Firm in Pune for retiring and retired bankers. Eligibility mapping, incorporation, SBI account, CA net-worth certificate, Form A, training, exam and IRDAI filing. From INR 24,999 (Exl GST and Govt. Charges).",
-      "url": "https://www.patronaccounting.com/imf-for-bank-employees-retirees/pune",
-      "serviceType": "Insurance Marketing Firm Registration for Bank Employees and Retirees",
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Maharashtra"
-        }
-      },
-      "provider": {
-        "@type": "LocalBusiness",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg",
-        "telephone": "+91-94594-56700",
-        "email": "sales@patronaccounting.com",
-        "areaServed": {
-          "@type": "City",
-          "name": "Pune",
-          "containedInPlace": {
-            "@type": "State",
-            "name": "Maharashtra"
-          }
-        }
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "price": "24999",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/imf-for-bank-employees-retirees/pune"
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "name": "Patron Accounting LLP",
-      "url": "https://www.patronaccounting.com/",
-      "logo": "https://www.patronaccounting.com/images/site-logo.svg",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "telephone": "+91-94594-56700",
-      "email": "sales@patronaccounting.com",
-      "priceRange": "INR 24,999 onwards",
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Maharashtra"
-        }
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -894,7 +712,196 @@
             }
         }
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>IMF for Bank Employees and Retirees: Eligibility & Setup</title>
+    <meta name="description" content="Retired banker? Use your finance experience to start an IRDAI Insurance Marketing Firm from INR 24,999 (Exl GST). Eligibility, documents and setup explained.">
+    <link rel="canonical" href="/imf-for-bank-employees-retirees/pune">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="IMF for Bank Employees and Retirees: Eligibility & Setup">
+    <meta property="og:description" content="Retired banker? Use your finance experience to start an IRDAI Insurance Marketing Firm from INR 24,999 (Exl GST). Eligibility, documents and setup explained.">
+    <meta property="og:url" content="/imf-for-bank-employees-retirees/pune">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="IMF for Bank Employees and Retirees: Eligibility & Setup">
+    <meta name="twitter:description" content="Retired banker? Use your finance experience to start an IRDAI Insurance Marketing Firm from INR 24,999 (Exl GST). Eligibility, documents and setup explained.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "IMF Services",
+          "item": "https://www.patronaccounting.com/imf-services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "IMF for Bank Employees and Retirees in Pune",
+          "item": "https://www.patronaccounting.com/imf-for-bank-employees-retirees/pune"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "datePublished": "2026-06-30T08:00:00+05:30",
+      "dateModified": "2026-06-30T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much does it cost to set up an IMF for a retired banker?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patron's IMF setup starts from INR 24,999 (Exl GST and Govt. Charges). On top of that you pay the statutory IRDAI application fee of INR 5,000 (paid from your IMF's SBI account) and must demonstrate the prescribed net worth of INR 10 lakh (INR 5 lakh for a single aspirational district). Training, exam and incorporation costs are quoted separately based on your structure."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Am I eligible to be the Principal Officer if I am a retired bank employee?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Very likely yes. A graduate with five years of experience in the financial-services sector qualifies as Principal Officer, and a banking career counts as financial-services experience. You will still need to complete 50 hours of IRDAI training and clear the IMF examination conducted by the Insurance Institute of India."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does IMF registration take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Timelines depend on entity incorporation, the Principal Officer's training and exam, and IRDAI's review of your Form A, documents and Fit and Proper checks. Plan for several weeks to a few months end to end. Patron runs the incorporation and IRDAI filing in parallel to compress the timeline, and we tell you the realistic turnaround for your case at kickoff."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What documents are required for IMF registration?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Key documents include Form A, the ROC incorporation certificate (with 'Insurance Marketing Firm'/'IMF' in the name), MoA/AoA or LLP agreement plus PAN, an SBI bank account, a CA net-worth certificate, the Principal Officer's and ISP's qualification and exam certificates, a 3-year business plan with organisation chart and infrastructure photographs, insurer consent letters and Fit and Proper declarations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does my IMF registration need to be renewed every 3 years?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Following the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act 2025, IMF registration became perpetual from 5 February 2026 and the earlier 3-year renewal cycle was discontinued. The registration stays valid as long as you remain compliant and pay applicable annual fees, which is exactly why it works well as a long-term post-retirement income source."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can Patron handle the entire IMF setup for me?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Patron Accounting runs the end-to-end engagement, incorporating the company/LLP with the correct IMF name, arranging the SBI account and CA net-worth certificate, preparing Form A and the 3-year business plan, guiding your Principal Officer through training and the exam, and filing the application on imf.irda.gov.in. Call +91 94594 56700 or email sales@patronaccounting.com."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you help bankers in Tier 2 and Tier 3 cities set up an IMF?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. IMF registration is district-based (up to 3 districts, with at least one aspirational district if you choose more than one), which makes it a strong fit for retired bankers in Tier 2 and Tier 3 towns. Patron supports IMF setup across India and works entirely online, so your location is not a constraint."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many insurers can my IMF work with and can I build a sales team?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An IMF can tie up with up to 2 life, 2 general and 2 health insurers (plus AIC and ECGC) and can also distribute other financial products through ISPs. You can appoint and manage your own Insurance Sales Persons, who must be paid a fixed salary, not commission, under a single IRDAI registration, letting a retiree build a scalable distribution team."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "name": "IMF for Bank Employees and Retirees in Pune",
+      "description": "End-to-end setup of an IRDAI Insurance Marketing Firm in Pune for retiring and retired bankers. Eligibility mapping, incorporation, SBI account, CA net-worth certificate, Form A, training, exam and IRDAI filing. From INR 24,999 (Exl GST and Govt. Charges).",
+      "url": "https://www.patronaccounting.com/imf-for-bank-employees-retirees/pune",
+      "serviceType": "Insurance Marketing Firm Registration for Bank Employees and Retirees",
+      "areaServed": {
+        "@type": "City",
+        "name": "Pune",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Maharashtra"
+        }
+      },
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg",
+        "telephone": "+91-94594-56700",
+        "email": "sales@patronaccounting.com",
+        "areaServed": {
+          "@type": "City",
+          "name": "Pune",
+          "containedInPlace": {
+            "@type": "State",
+            "name": "Maharashtra"
+          }
+        }
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "price": "24999",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.patronaccounting.com/imf-for-bank-employees-retirees/pune"
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "name": "Patron Accounting LLP",
+      "url": "https://www.patronaccounting.com/",
+      "logo": "https://www.patronaccounting.com/images/site-logo.svg",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "telephone": "+91-94594-56700",
+      "email": "sales@patronaccounting.com",
+      "priceRange": "INR 24,999 onwards",
+      "areaServed": {
+        "@type": "City",
+        "name": "Pune",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Maharashtra"
+        }
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1751,7 +1758,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

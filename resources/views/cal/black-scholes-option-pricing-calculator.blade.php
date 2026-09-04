@@ -1,182 +1,5 @@
 @extends('layouts.app')
-@section('meta')
-
-<title>Black-Scholes Calculator | ESOP Fair Value Ind AS 102</title>
-<meta name="description" content="Free Black-Scholes calculator: get grant-date fair value per option and the Ind AS 102 ESOP expense from spot, strike, term, volatility, rate & dividend yield.">
-<meta name="robots" content="index, follow">
-<meta name="theme-color" content="#15365f">
-<link rel="canonical" href="https://www.patronaccounting.com/tools/black-scholes-option-pricing-calculator">
-
-<meta property="og:title" content="Black-Scholes Calculator — ESOP Fair Value Ind AS 102">
-<meta property="og:description" content="Compute the grant-date fair value per option (call or put) and the Ind AS 102 ESOP expense from spot, strike, expected term, volatility, risk-free rate and dividend yield.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.patronaccounting.com/tools/black-scholes-option-pricing-calculator">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="1200">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-<meta property="og:site_name" content="Patron Accounting">
-<meta property="og:locale" content="en_IN">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Black-Scholes Calculator — ESOP Fair Value Ind AS 102">
-<meta name="twitter:description" content="Grant-date fair value per option and the Ind AS 102 ESOP expense from spot, strike, term, volatility, rate & dividend. Free & instant.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-
-<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
-<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
-@endsection
-
-@section('schema')
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "Black-Scholes Option Pricing Calculator",
-  "description": "Black-Scholes Option Pricing Calculator computes the fair value of a call or put option using the dividend-adjusted Black-Scholes-Merton model from the spot price, strike price, expected term, volatility, risk-free rate and dividend yield. It is built for ESOP grant-date fair value under Ind AS 102 share-based payment accounting, returning the per-option fair value, the d1 and d2 terms, and the total and annual ESOP expense based on the number of options granted and the vesting period.",
-  "url": "https://www.patronaccounting.com/tools/black-scholes-option-pricing-calculator",
-  "applicationCategory": "BusinessApplication",
-  "inLanguage": "en-IN",
-  "isAccessibleForFree": true,
-  "operatingSystem": "Any",
-  "datePublished": "2026-06-05T08:00:00+05:30",
-  "dateModified": "2026-06-05T08:00:00+05:30",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "INR"
-  },
-  "reviewedBy": {
-    "@type": "Person",
-    "@id": "https://patronaccounting.com/#founder",
-    "name": "CA Sundram Gupta",
-    "jobTitle": "Founder & Chartered Accountant",
-    "url": "https://www.patronaccounting.com/contact-page",
-    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-    "hasCredential": [{
-      "@type": "EducationalOccupationalCredential",
-      "credentialCategory": "Professional Certification",
-      "name": "Chartered Accountant (CA)",
-      "recognizedBy": {
-        "@type": "Organization",
-        "name": "Institute of Chartered Accountants of India",
-        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-      }
-    }]
-  },
-  "publisher": { "@id": "https://patronaccounting.com/#organization" },
-  "provider": {
-    "@id": "https://patronaccounting.com/#organization"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "Black-Scholes Option Pricing Calculator", "item": "https://www.patronaccounting.com/tools/black-scholes-option-pricing-calculator"}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the Black-Scholes model used for in ESOPs?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The Black-Scholes-Merton model estimates the fair value of a stock option. For ESOPs in India it is the standard way to compute the grant-date fair value of the option under Ind AS 102, Share-Based Payment. That per-option fair value, multiplied by the number of options granted, gives the total employee compensation expense the company recognises over the vesting period. Note this is the accounting charge, distinct from the perquisite-tax FMV at exercise."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What inputs does the Black-Scholes calculator need?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Six inputs drive the model: the spot price of the share at grant, the exercise or strike price, the expected term in years, the expected volatility, the risk-free interest rate and the expected dividend yield. For the ESOP expense you also enter the number of options granted and the vesting period. Volatility is usually taken from the company's own share history or a comparable peer set, and the risk-free rate from government bonds of matching maturity."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the Black-Scholes formula?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For a call option with a dividend yield, the value is S times e to the minus qT times N(d1), minus K times e to the minus rT times N(d2). Here d1 equals the natural log of S over K, plus r minus q plus half sigma squared, all times T, divided by sigma times the square root of T; and d2 equals d1 minus sigma times the square root of T. S is spot, K is strike, T is term, sigma is volatility, r is the risk-free rate, q is dividend yield and N is the cumulative normal distribution."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How is the ESOP accounting expense calculated from the fair value?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The total ESOP expense equals the per-option fair value from Black-Scholes multiplied by the number of options granted. Under Ind AS 102 this expense is recognised over the vesting period, so the annual charge is the total divided by the number of vesting years for a straight-line approach. For example, 1,000 options at a fair value of 50 give a total of 50,000, expensed at 12,500 a year over four years."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is Black-Scholes used for ESOP perquisite tax?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. Black-Scholes is used for the accounting fair value under Ind AS 102, not for the perquisite tax. The taxable perquisite at exercise is the fair market value of the share on the exercise date, less the exercise price, where FMV is the average of open and close for listed shares or a Category I merchant banker valuation for unlisted shares. Black-Scholes and binomial models are specifically not used for that tax FMV."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What volatility should I use for an unlisted company?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A listed company generally uses its own historical share-price volatility over a period matching the expected term. An unlisted or newly listed company has no traded price, so it uses the volatility of comparable listed peers or the sector, with judgement on the peer set and the period. Ind AS 102 requires the volatility assumption to be set using market-consistent data available at the grant date, and the basis should be documented for the auditor."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is expected term and how does it differ from contractual life?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Expected term is the period from grant to the date the option is expected to actually be exercised, which is usually shorter than the full contractual life because employees tend to exercise early. It is the time input to Black-Scholes for ESOP valuation. A longer expected term, for a given volatility, raises the option's time value and so its fair value. Estimating expected term is one of the main judgement areas under Ind AS 102."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do dividends and the risk-free rate affect the value?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A higher expected dividend yield lowers a call option's value, because dividends reduce the expected growth of the share price that the option benefits from. A higher risk-free rate raises a call's value, since the present value of the exercise price paid in future is lower. Both are usually second-order compared with volatility and term, but Ind AS 102 still requires reasonable, documented estimates, with the risk-free rate taken from government bonds of matching maturity."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can Black-Scholes value options with vesting or performance conditions?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Plain Black-Scholes values a European-style option and does not directly handle complex vesting or market and performance conditions. Under Ind AS 102, service and non-market vesting conditions are reflected by adjusting the number of options expected to vest rather than the fair value, while market conditions are built into the fair value, often using a binomial or Monte Carlo model instead. For such cases a specialist valuation is needed beyond this calculator."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the Black-Scholes Option Pricing Calculator free?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, the Patron Accounting Black-Scholes Option Pricing Calculator is completely free with no signup required. All calculations run in your browser and nothing is stored on our servers. It returns the per-option fair value for a call or put, the d1 and d2 terms, and the total and annual ESOP expense for Ind AS 102. For a defensible valuation report and audit support, a professional valuation should still be obtained."
-      }
-    }
-  ]
-}
-</script>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-@endsection
+@push('styles')
 <style>
         :root {
             --primary: #15365f;
@@ -690,6 +513,186 @@ a:focus-visible {
 
 
         </style>
+@endpush
+
+@section('meta')
+
+<title>Black-Scholes Calculator | ESOP Fair Value Ind AS 102</title>
+<meta name="description" content="Free Black-Scholes calculator: get grant-date fair value per option and the Ind AS 102 ESOP expense from spot, strike, term, volatility, rate & dividend yield.">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#15365f">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/black-scholes-option-pricing-calculator">
+
+<meta property="og:title" content="Black-Scholes Calculator — ESOP Fair Value Ind AS 102">
+<meta property="og:description" content="Compute the grant-date fair value per option (call or put) and the Ind AS 102 ESOP expense from spot, strike, expected term, volatility, risk-free rate and dividend yield.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/black-scholes-option-pricing-calculator">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+<meta property="og:site_name" content="Patron Accounting">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Black-Scholes Calculator — ESOP Fair Value Ind AS 102">
+<meta name="twitter:description" content="Grant-date fair value per option and the Ind AS 102 ESOP expense from spot, strike, term, volatility, rate & dividend. Free & instant.">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
+@endsection
+
+@section('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Black-Scholes Option Pricing Calculator",
+  "description": "Black-Scholes Option Pricing Calculator computes the fair value of a call or put option using the dividend-adjusted Black-Scholes-Merton model from the spot price, strike price, expected term, volatility, risk-free rate and dividend yield. It is built for ESOP grant-date fair value under Ind AS 102 share-based payment accounting, returning the per-option fair value, the d1 and d2 terms, and the total and annual ESOP expense based on the number of options granted and the vesting period.",
+  "url": "https://www.patronaccounting.com/tools/black-scholes-option-pricing-calculator",
+  "applicationCategory": "BusinessApplication",
+  "inLanguage": "en-IN",
+  "isAccessibleForFree": true,
+  "operatingSystem": "Any",
+  "datePublished": "2026-06-05T08:00:00+05:30",
+  "dateModified": "2026-06-05T08:00:00+05:30",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "INR"
+  },
+  "reviewedBy": {
+    "@type": "Person",
+    "@id": "https://patronaccounting.com/#founder",
+    "name": "CA Sundram Gupta",
+    "jobTitle": "Founder & Chartered Accountant",
+    "url": "https://www.patronaccounting.com/contact-page",
+    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+    "hasCredential": [{
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Professional Certification",
+      "name": "Chartered Accountant (CA)",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Institute of Chartered Accountants of India",
+        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+      }
+    }]
+  },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
+  "provider": {
+    "@id": "https://patronaccounting.com/#organization"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "Black-Scholes Option Pricing Calculator", "item": "https://www.patronaccounting.com/tools/black-scholes-option-pricing-calculator"}
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the Black-Scholes model used for in ESOPs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Black-Scholes-Merton model estimates the fair value of a stock option. For ESOPs in India it is the standard way to compute the grant-date fair value of the option under Ind AS 102, Share-Based Payment. That per-option fair value, multiplied by the number of options granted, gives the total employee compensation expense the company recognises over the vesting period. Note this is the accounting charge, distinct from the perquisite-tax FMV at exercise."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What inputs does the Black-Scholes calculator need?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Six inputs drive the model: the spot price of the share at grant, the exercise or strike price, the expected term in years, the expected volatility, the risk-free interest rate and the expected dividend yield. For the ESOP expense you also enter the number of options granted and the vesting period. Volatility is usually taken from the company's own share history or a comparable peer set, and the risk-free rate from government bonds of matching maturity."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the Black-Scholes formula?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For a call option with a dividend yield, the value is S times e to the minus qT times N(d1), minus K times e to the minus rT times N(d2). Here d1 equals the natural log of S over K, plus r minus q plus half sigma squared, all times T, divided by sigma times the square root of T; and d2 equals d1 minus sigma times the square root of T. S is spot, K is strike, T is term, sigma is volatility, r is the risk-free rate, q is dividend yield and N is the cumulative normal distribution."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is the ESOP accounting expense calculated from the fair value?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The total ESOP expense equals the per-option fair value from Black-Scholes multiplied by the number of options granted. Under Ind AS 102 this expense is recognised over the vesting period, so the annual charge is the total divided by the number of vesting years for a straight-line approach. For example, 1,000 options at a fair value of 50 give a total of 50,000, expensed at 12,500 a year over four years."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Black-Scholes used for ESOP perquisite tax?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Black-Scholes is used for the accounting fair value under Ind AS 102, not for the perquisite tax. The taxable perquisite at exercise is the fair market value of the share on the exercise date, less the exercise price, where FMV is the average of open and close for listed shares or a Category I merchant banker valuation for unlisted shares. Black-Scholes and binomial models are specifically not used for that tax FMV."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What volatility should I use for an unlisted company?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A listed company generally uses its own historical share-price volatility over a period matching the expected term. An unlisted or newly listed company has no traded price, so it uses the volatility of comparable listed peers or the sector, with judgement on the peer set and the period. Ind AS 102 requires the volatility assumption to be set using market-consistent data available at the grant date, and the basis should be documented for the auditor."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is expected term and how does it differ from contractual life?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Expected term is the period from grant to the date the option is expected to actually be exercised, which is usually shorter than the full contractual life because employees tend to exercise early. It is the time input to Black-Scholes for ESOP valuation. A longer expected term, for a given volatility, raises the option's time value and so its fair value. Estimating expected term is one of the main judgement areas under Ind AS 102."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do dividends and the risk-free rate affect the value?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A higher expected dividend yield lowers a call option's value, because dividends reduce the expected growth of the share price that the option benefits from. A higher risk-free rate raises a call's value, since the present value of the exercise price paid in future is lower. Both are usually second-order compared with volatility and term, but Ind AS 102 still requires reasonable, documented estimates, with the risk-free rate taken from government bonds of matching maturity."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can Black-Scholes value options with vesting or performance conditions?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Plain Black-Scholes values a European-style option and does not directly handle complex vesting or market and performance conditions. Under Ind AS 102, service and non-market vesting conditions are reflected by adjusting the number of options expected to vest rather than the fair value, while market conditions are built into the fair value, often using a binomial or Monte Carlo model instead. For such cases a specialist valuation is needed beyond this calculator."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the Black-Scholes Option Pricing Calculator free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the Patron Accounting Black-Scholes Option Pricing Calculator is completely free with no signup required. All calculations run in your browser and nothing is stored on our servers. It returns the per-option fair value for a call or put, the d1 and d2 terms, and the total and annual ESOP expense for Ind AS 102. For a defensible valuation report and audit support, a professional valuation should still be obtained."
+      }
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation">
     <div class="toc-nav-inner">

@@ -1,174 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Net Worth Certificate for UAE Golden Visa in Delhi 2026 | Patron Accounting</title>
-    <meta name="description" content="Net Worth Certificate for UAE Golden Visa by a CA in INR and AED, with UDIN. Strengthens source-of-funds proof for the AED 2 million route. From INR 4,999.">
-    <link rel="canonical" href="/net-worth-certificate-for-uae-golden-visa/delhi">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Net Worth Certificate for UAE Golden Visa 2026 | Patron Accounting">
-    <meta property="og:description" content="Net Worth Certificate for UAE Golden Visa by a CA in INR and AED, with UDIN. Strengthens source-of-funds proof for the AED 2 million route. From INR 4,999.">
-    <meta property="og:url" content="/net-worth-certificate-for-uae-golden-visa/delhi">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Net Worth Certificate for UAE Golden Visa 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Net Worth Certificate for UAE Golden Visa by a CA in INR and AED, with UDIN. Strengthens source-of-funds proof for the AED 2 million route. From INR 4,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-uae-golden-visa/delhi/#service",
-        "name": "Net Worth Certificate for UAE Golden Visa in Delhi",
-        "description": "CA-certified net worth certificate supporting UAE Golden Visa applications, prepared in dual currency INR and AED with a mandatory 18-digit UDIN, strengthening the source-of-funds documentation behind the AED 2 million investor route to 10-year residency.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/net-worth-certificate-for-uae-golden-visa/delhi" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Golden visa", "sameAs": "https://en.wikipedia.org/wiki/Golden_visa" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Net Worth Certificate for UAE Golden Visa Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": { "@type": "Service", "name": "UAE Golden Visa net worth certificate" },
-                    "priceCurrency": "INR",
-                    "price": "4999",
-                    "description": "Starting from INR 4,999 (excl. GST and govt. charges)"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-uae-golden-visa/delhi/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate for Visa", "item": "https://www.patronaccounting.com/net-worth-certificate-for-visa" },
-            { "@type": "ListItem", "position": 3, "name": "Net Worth Certificate for UAE Golden Visa", "item": "https://www.patronaccounting.com/net-worth-certificate-for-uae-golden-visa/delhi" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-uae-golden-visa/delhi/#faq",
-        "datePublished": "2026-06-09T08:00:00+05:30",
-        "dateModified": "2026-06-09T08:00:00+05:30",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "Is a net worth certificate required for the UAE Golden Visa?",
-                "acceptedAnswer": { "@type": "Answer", "text": "It is not the qualifying document; the AED 2 million asset is. However, the UAE ICP examines source of funds, and a CA-certified net worth certificate is widely used by Indian investors to evidence wealth and legitimacy alongside ITR and audited financials." }
-            },
-            {
-                "@type": "Question",
-                "name": "How much investment is needed for the UAE Golden Visa?",
-                "acceptedAnswer": { "@type": "Answer", "text": "AED 2,000,000, met through real estate, a public investment such as a deposit or fund, or company shares of equivalent value. This secures a 10-year renewable residency. The investment must not be fully loan-financed." }
-            },
-            {
-                "@type": "Question",
-                "name": "Should the certificate be in INR or AED?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Both. For UAE purposes the certificate is prepared in dual currency, INR and AED, using the RBI reference rate on the certification date, so the figures are clear to UAE authorities and banks." }
-            },
-            {
-                "@type": "Question",
-                "name": "How does source of funds work for Indian investors?",
-                "acceptedAnswer": { "@type": "Answer", "text": "The UAE examines where the invested capital came from. Indian applicants typically show a clear trail through ITR for the past few years, audited business financials, property sale deeds, and a CA net worth statement, with remittance under the RBI Liberalised Remittance Scheme." }
-            },
-            {
-                "@type": "Question",
-                "name": "Can my family be included in the UAE Golden Visa?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Yes. A Golden Visa holder can generally sponsor a spouse and children under the residency, and certain categories allow sponsorship of domestic staff. The primary applicant's financial standing supports the family application." }
-            },
-            {
-                "@type": "Question",
-                "name": "Who can issue the net worth certificate?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Only a practising Chartered Accountant registered with ICAI and holding a valid Certificate of Practice. The certificate must carry the CA's seal and an 18-digit UDIN that any institution can verify online." }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-uae-golden-visa/delhi",
-        "name": "Net Worth Certificate for UAE Golden Visa in Delhi",
-        "description": "Net Worth Certificate for UAE Golden Visa by a CA in INR and AED, with UDIN. Strengthens source-of-funds proof for the AED 2 million route. From INR 4,999.",
-        "url": "https://www.patronaccounting.com/net-worth-certificate-for-uae-golden-visa/delhi",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-uae-golden-visa/delhi/#service" },
-        "datePublished": "2026-06-09T08:00:00+05:30",
-        "dateModified": "2026-06-09T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-uae-golden-visa/delhi/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How a UAE Golden Visa Net Worth Certificate Is Prepared",
-        "description": "The six-step process to a dual-currency CA net worth certificate for a UAE Golden Visa file: share documents, confirm the investment route, verify independently, compute and convert to AED, review the draft, and generate the UDIN.",
-        "totalTime": "P3D",
-        "step": [
-            { "@type": "HowToStep", "name": "Share documents", "text": "Provide audited financials or ITR, bank and FD statements, property and investment proofs." },
-            { "@type": "HowToStep", "name": "Confirm the route", "text": "Tell us whether the AED 2 million is via real estate, public investment, or company shares." },
-            { "@type": "HowToStep", "name": "Independent verification", "text": "The CA confirms balances and values against source records under SA 500 and SA 505." },
-            { "@type": "HowToStep", "name": "Compute and convert", "text": "Net worth is calculated and shown in INR and AED at the RBI reference rate on the certification date." },
-            { "@type": "HowToStep", "name": "Draft and review", "text": "The draft is shared for your confirmation before signing." },
-            { "@type": "HowToStep", "name": "UDIN and final issue", "text": "The CA generates the UDIN at udin.icai.org, signs, seals, and delivers the certificate." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Net Worth Certificate for UAE Golden Visa Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Golden Visa", "description": "A 5- or 10-year renewable UAE residency for investors, entrepreneurs, and talent, without a local sponsor." },
-            { "@type": "DefinedTerm", "name": "AED 2 million threshold", "description": "The minimum qualifying investment via real estate, public investment, or company shares." },
-            { "@type": "DefinedTerm", "name": "ICP / GDRFA", "description": "The federal authority and the Dubai residency directorate that administer the visa." },
-            { "@type": "DefinedTerm", "name": "Source of funds", "description": "The documented origin of the invested capital, which the UAE examines." },
-            { "@type": "DefinedTerm", "name": "LRS", "description": "The RBI Liberalised Remittance Scheme, under which resident Indians remit funds abroad within the annual limit." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -782,7 +618,176 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Net Worth Certificate for UAE Golden Visa in Delhi 2026 | Patron Accounting</title>
+    <meta name="description" content="Net Worth Certificate for UAE Golden Visa by a CA in INR and AED, with UDIN. Strengthens source-of-funds proof for the AED 2 million route. From INR 4,999.">
+    <link rel="canonical" href="/net-worth-certificate-for-uae-golden-visa/delhi">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Net Worth Certificate for UAE Golden Visa 2026 | Patron Accounting">
+    <meta property="og:description" content="Net Worth Certificate for UAE Golden Visa by a CA in INR and AED, with UDIN. Strengthens source-of-funds proof for the AED 2 million route. From INR 4,999.">
+    <meta property="og:url" content="/net-worth-certificate-for-uae-golden-visa/delhi">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Net Worth Certificate for UAE Golden Visa 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Net Worth Certificate for UAE Golden Visa by a CA in INR and AED, with UDIN. Strengthens source-of-funds proof for the AED 2 million route. From INR 4,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-uae-golden-visa/delhi/#service",
+        "name": "Net Worth Certificate for UAE Golden Visa in Delhi",
+        "description": "CA-certified net worth certificate supporting UAE Golden Visa applications, prepared in dual currency INR and AED with a mandatory 18-digit UDIN, strengthening the source-of-funds documentation behind the AED 2 million investor route to 10-year residency.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/net-worth-certificate-for-uae-golden-visa/delhi" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Golden visa", "sameAs": "https://en.wikipedia.org/wiki/Golden_visa" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Net Worth Certificate for UAE Golden Visa Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": { "@type": "Service", "name": "UAE Golden Visa net worth certificate" },
+                    "priceCurrency": "INR",
+                    "price": "4999",
+                    "description": "Starting from INR 4,999 (excl. GST and govt. charges)"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-uae-golden-visa/delhi/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate for Visa", "item": "https://www.patronaccounting.com/net-worth-certificate-for-visa" },
+            { "@type": "ListItem", "position": 3, "name": "Net Worth Certificate for UAE Golden Visa", "item": "https://www.patronaccounting.com/net-worth-certificate-for-uae-golden-visa/delhi" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-uae-golden-visa/delhi/#faq",
+        "datePublished": "2026-06-09T08:00:00+05:30",
+        "dateModified": "2026-06-09T08:00:00+05:30",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Is a net worth certificate required for the UAE Golden Visa?",
+                "acceptedAnswer": { "@type": "Answer", "text": "It is not the qualifying document; the AED 2 million asset is. However, the UAE ICP examines source of funds, and a CA-certified net worth certificate is widely used by Indian investors to evidence wealth and legitimacy alongside ITR and audited financials." }
+            },
+            {
+                "@type": "Question",
+                "name": "How much investment is needed for the UAE Golden Visa?",
+                "acceptedAnswer": { "@type": "Answer", "text": "AED 2,000,000, met through real estate, a public investment such as a deposit or fund, or company shares of equivalent value. This secures a 10-year renewable residency. The investment must not be fully loan-financed." }
+            },
+            {
+                "@type": "Question",
+                "name": "Should the certificate be in INR or AED?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Both. For UAE purposes the certificate is prepared in dual currency, INR and AED, using the RBI reference rate on the certification date, so the figures are clear to UAE authorities and banks." }
+            },
+            {
+                "@type": "Question",
+                "name": "How does source of funds work for Indian investors?",
+                "acceptedAnswer": { "@type": "Answer", "text": "The UAE examines where the invested capital came from. Indian applicants typically show a clear trail through ITR for the past few years, audited business financials, property sale deeds, and a CA net worth statement, with remittance under the RBI Liberalised Remittance Scheme." }
+            },
+            {
+                "@type": "Question",
+                "name": "Can my family be included in the UAE Golden Visa?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Yes. A Golden Visa holder can generally sponsor a spouse and children under the residency, and certain categories allow sponsorship of domestic staff. The primary applicant's financial standing supports the family application." }
+            },
+            {
+                "@type": "Question",
+                "name": "Who can issue the net worth certificate?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Only a practising Chartered Accountant registered with ICAI and holding a valid Certificate of Practice. The certificate must carry the CA's seal and an 18-digit UDIN that any institution can verify online." }
+            }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-uae-golden-visa/delhi",
+        "name": "Net Worth Certificate for UAE Golden Visa in Delhi",
+        "description": "Net Worth Certificate for UAE Golden Visa by a CA in INR and AED, with UDIN. Strengthens source-of-funds proof for the AED 2 million route. From INR 4,999.",
+        "url": "https://www.patronaccounting.com/net-worth-certificate-for-uae-golden-visa/delhi",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-uae-golden-visa/delhi/#service" },
+        "datePublished": "2026-06-09T08:00:00+05:30",
+        "dateModified": "2026-06-09T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-uae-golden-visa/delhi/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How a UAE Golden Visa Net Worth Certificate Is Prepared",
+        "description": "The six-step process to a dual-currency CA net worth certificate for a UAE Golden Visa file: share documents, confirm the investment route, verify independently, compute and convert to AED, review the draft, and generate the UDIN.",
+        "totalTime": "P3D",
+        "step": [
+            { "@type": "HowToStep", "name": "Share documents", "text": "Provide audited financials or ITR, bank and FD statements, property and investment proofs." },
+            { "@type": "HowToStep", "name": "Confirm the route", "text": "Tell us whether the AED 2 million is via real estate, public investment, or company shares." },
+            { "@type": "HowToStep", "name": "Independent verification", "text": "The CA confirms balances and values against source records under SA 500 and SA 505." },
+            { "@type": "HowToStep", "name": "Compute and convert", "text": "Net worth is calculated and shown in INR and AED at the RBI reference rate on the certification date." },
+            { "@type": "HowToStep", "name": "Draft and review", "text": "The draft is shared for your confirmation before signing." },
+            { "@type": "HowToStep", "name": "UDIN and final issue", "text": "The CA generates the UDIN at udin.icai.org, signs, seals, and delivers the certificate." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Net Worth Certificate for UAE Golden Visa Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Golden Visa", "description": "A 5- or 10-year renewable UAE residency for investors, entrepreneurs, and talent, without a local sponsor." },
+            { "@type": "DefinedTerm", "name": "AED 2 million threshold", "description": "The minimum qualifying investment via real estate, public investment, or company shares." },
+            { "@type": "DefinedTerm", "name": "ICP / GDRFA", "description": "The federal authority and the Dubai residency directorate that administer the visa." },
+            { "@type": "DefinedTerm", "name": "Source of funds", "description": "The documented origin of the invested capital, which the UAE examines." },
+            { "@type": "DefinedTerm", "name": "LRS", "description": "The RBI Liberalised Remittance Scheme, under which resident Indians remit funds abroad within the annual limit." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1600,22 +1605,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
-<!-- ============================================
-     CONSULTATION FORM — Country Dropdown + Validation + Bigin Integration
-     ============================================ -->
-{{-- Enquiry form markup + JS now in partials/enquiry-form.blade.php --}}
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1638,8 +1631,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1676,7 +1667,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1 (Schema Standard v2.1 / Rule 36): visible "Last Updated" mirrors schema dateModified
 // (9 June 2026) as a STABLE value - never live new Date().
@@ -1688,3 +1678,24 @@ window.addEventListener('scroll', function() {
     if (el2) el2.textContent = dateStr;
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+<!-- ============================================
+     CONSULTATION FORM — Country Dropdown + Validation + Bigin Integration
+     ============================================ -->
+{{-- Enquiry form markup + JS now in partials/enquiry-form.blade.php --}}
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

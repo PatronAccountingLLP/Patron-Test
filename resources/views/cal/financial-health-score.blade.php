@@ -1,196 +1,8 @@
 @extends('layouts.app')
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
-@section('meta')
-    <title>Financial Health Score Calculator | Altman Z &amp; IBC</title>
-    <meta name="description" content="Financial health score calculator: a composite 0-100 score with the Altman Z / Z' / Z'' Score, a 5-dimension breakdown and an IBC distress check. Free CA tool.">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/financial-health-score">
-    <meta property="og:title" content="Financial Health Score Calculator — Composite + Altman Z 2026">
-    <meta property="og:description" content="Composite 0-100 financial health score with Altman Z / Z' / Z'' Score, IBC distress check and Schedule III ratios. Free CA tool.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/financial-health-score">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Financial Health Score Calculator — Composite + Altman Z 2026">
-    <meta name="twitter:description" content="Composite 0-100 score + Altman Z / Z' / Z'' Score + IBC distress check + Schedule III ratios. Free CA tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-    <meta name="theme-color" content="#15365f">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "Financial Health Score Calculator",
-      "description": "Financial Health Score Calculator computes a composite 0-100 financial health score across five weighted dimensions — Liquidity, Solvency, Profitability, Efficiency, and Cash Flow — together with the Altman Z-Score (public manufacturers), Z'-Score (private manufacturers), and Z''-Score (non-manufacturers and services, recommended for emerging markets like India). The tool derives ten financial ratios from balance sheet and P&L inputs including Current Ratio, Quick Ratio, Debt-to-Equity, Interest Coverage, Return on Assets, Return on Equity, Asset Turnover, Working Capital to Total Assets, Retained Earnings to Total Assets, and Operating Cash Flow to Total Debt. Output includes verdict (Excellent, Good, Watch, Stressed, Distress), Altman classification (Safe Zone, Grey Zone, Distress Zone), Schedule III ratio disclosure block, IBC Section 4 default risk indicator (₹1 crore threshold), RBI Special Mention Account framework alignment, Section 164(2) director disqualification cascade reference, and Year-on-Year variance flag at the 25% threshold prescribed under Schedule III ratios disclosure rules. Suitable for credit analysis, statutory and internal audit going-concern assessment under SA 570, IBC pre-pack and CIRP screening, MSME credit appraisal, lender covenant testing, M&A target screening, and CA / CS / CMA student learning fundamental analysis aligned with Indian Companies Act 2013, Schedule III Division I and II, and Indian Accounting Standards.",
-      "url": "https://www.patronaccounting.com/tools/financial-health-score",
-      "applicationCategory": "FinanceApplication",
-      "operatingSystem": "Any",
-      "datePublished": "2026-05-07T08:00:00+05:30",
-      "dateModified": "2026-05-19T08:00:00+05:30",
-      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
-      "author": {
-        "@type": "Person",
-        "@id": "https://patronaccounting.com/#founder",
-        "name": "CA Sundram Gupta",
-        "jobTitle": "Founder & Chartered Accountant",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Institute of Chartered Accountants of India",
-            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-          }
-        }]
-      },
-      "publisher": { "@id": "https://patronaccounting.com/#organization" },
-      "provider": { "@id": "https://patronaccounting.com/#organization" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Financial Health Score Calculator", "item": "https://www.patronaccounting.com/tools/financial-health-score"}
-      ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "datePublished": "2026-05-07T08:00:00+05:30",
-      "dateModified": "2026-05-19T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is a Financial Health Score?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A Financial Health Score is a composite metric ranging from 0 to 100 that summarises a company's overall financial condition across five dimensions — Liquidity, Solvency, Profitability, Efficiency, and Cash Flow. Each dimension contributes 20 points based on weighted underlying ratios. The score helps lenders, investors, auditors, and management quickly assess financial strength without examining ten ratios separately. Scores above 80 indicate excellent health, 65-79 good, 50-64 watch zone, 30-49 stressed, and below 30 indicate distress with high default probability."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the Altman Z-Score?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Altman Z-Score is a multivariate distress-prediction model developed by Edward Altman in 1968, combining five financial ratios into a single bankruptcy-risk score for public manufacturers. Variants Z' (1983, private manufacturers) and Z'' (1995, non-manufacturers and emerging markets) extend coverage with different coefficients and cutoffs. Academic studies including Indian listed companies document 70-90% accuracy 1-2 years before bankruptcy. Credit rating agencies and lenders use the score as one input in distress assessment alongside trend, peer, and qualitative analysis."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which Altman model applies to Indian companies?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Choice depends on entity type. The original Z-Score requires market value of equity, so it suits only listed manufacturers. Z'-Score replaces market value with book value, suiting private manufacturing companies. Z''-Score eliminates Sales/Total Assets and is calibrated for non-manufacturing, services, and emerging-market companies — making it the most commonly applied variant for Indian listed and unlisted services, IT, FMCG, healthcare, and trading entities. Indian academic studies validate Z'' for services and Z' for SME manufacturers as reliable distress predictors."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is the composite score calculated?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The composite score allocates 20 points each to five dimensions. Liquidity scores Current Ratio (target above 1.5) and Quick Ratio (target above 1.0). Solvency scores Debt-to-Equity (target below 1.0) and equity cushion. Profitability scores PAT Margin, ROE (target above 15%), and ROA. Efficiency scores Asset Turnover and Working Capital Turnover. Cash Flow scores OCF positivity and OCF-to-Total Debt coverage. Each ratio maps to a graduated points scale calibrated to Indian sector medians."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is Schedule III ratio disclosure?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Companies (Accounts) Amendment Rules 2021 effective FY 2021-22 mandate disclosure of eleven financial ratios in the Notes to Financial Statements for all companies preparing accounts under Schedule III. The ratios include Current Ratio, Debt-Equity Ratio, Debt Service Coverage Ratio, Return on Equity, Inventory Turnover, Trade Receivables Turnover, Trade Payables Turnover, Net Capital Turnover, Net Profit Ratio, Return on Capital Employed, and Return on Investment. Year-on-year variance exceeding 25% requires explanation. Six of these are direct outputs of this calculator."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How reliable is the Altman Z-Score for Indian companies?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Multiple Indian academic studies covering BSE-listed entities, NCLT cases, and SME borrowers validate the model. Z''-Score shows 80-87% accuracy one year before default and 70-75% two years before. The model is more reliable for non-financial companies — banks, NBFCs, and insurers are excluded due to balance sheet opacity and off-balance-sheet exposures. Limitations include sensitivity to accounting manipulation and reduced reliability for startups burning capital on growth investment that depresses profitability ratios."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the IBC default threshold?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "IBC 2016 Section 4, as amended on 24 March 2020, raised the minimum default threshold for Corporate Insolvency Resolution Process from one lakh to one crore rupees. Operational and financial creditors can file under Sections 7, 9, or 10 if the corporate debtor defaults on one crore or more. The calculator flags this when total debt exceeds the threshold and Operating Cash Flow signals weak servicing capacity. Pre-pack insolvency under Section 54A applies to MSMEs at a ten-lakh threshold."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the RBI SMA framework?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "RBI's Special Mention Account framework, codified in the Master Direction on Income Recognition Asset Classification and Provisioning, requires banks to classify accounts based on overdue duration before they become Non-Performing Assets. SMA-0 covers principal or interest overdue but not yet 30 days, SMA-1 covers 31-60 days overdue, and SMA-2 covers 61-90 days overdue. After 90 days, the account becomes NPA. The calculator's distress score correlates with SMA migration probability and is used by lenders in early-warning systems and CRILC reporting."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does Section 164(2) affect distressed companies?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 164(2) of the Companies Act 2013 disqualifies all directors of a company that has not filed financial statements or annual returns for any continuous period of three financial years, or that has failed to repay deposits or pay declared dividends for one year. Disqualification lasts five years across all companies and existing DINs are deactivated by MCA. Distressed companies often miss filings, triggering this cascade. Combined with auditor SA 570 going-concern qualification, consequences extend beyond financial distress."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is SA 570 going concern?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Standard on Auditing 570 issued by ICAI requires statutory auditors to evaluate management's assessment of the entity's ability to continue as a going concern for at least twelve months from the balance sheet date. If material uncertainty exists, the auditor must include an Emphasis of Matter or modify the opinion. Indicators include negative net worth, covenant breach, recurring losses, negative operating cash flow, and adverse Altman scores. Companies with Composite Score below 30 typically warrant SA 570 disclosure."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can a company have a low score but still be healthy?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, in specific business models. Modern retail and quick-commerce companies operate with negative working capital by design — they collect from customers before paying suppliers, generating float. Their Liquidity dimension scores low but Cash Flow remains strong. Capital-intensive infrastructure firms in growth phase show low Profitability while building asset base. Holding companies show low Asset Turnover. Always interpret scores against industry context and the company's strategic stage. Trend over three to five years is more revealing than a single-year snapshot."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Who uses Financial Health Score in India?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Banks and NBFCs use it for credit appraisal under Tandon Committee, Nayak Committee, and IRAC norms. Statutory auditors apply it for SA 570 going-concern review. Internal auditors fold it into risk-based plans. M&amp;A advisors and PE firms screen targets. Resolution Professionals under IBC use it during CIRP. CRISIL, ICRA, CARE incorporate similar multi-factor models. Corporate treasuries monitor it for vendor and customer counterparty risk under Ind AS 109 ECL provisioning. CA students learn it for advanced auditing papers."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What financial inputs are required?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Required inputs come from balance sheet and P&amp;L. Balance sheet: Total Assets, Total Liabilities, Current Assets, Current Liabilities, Inventory, Total Debt, Equity, Retained Earnings, and Market Cap if listed. P&amp;L: Revenue, EBIT (or PAT plus Tax plus Interest), Interest Expense, and PAT. Cash Flow Statement: Operating Cash Flow. Optional: previous-year score for variance flagging. All values in rupees crore. Inputs map directly to Schedule III Part I (Balance Sheet) and Part II (P&amp;L) under Ind AS or Indian GAAP."
-          }
-        }
-      ]
-    }
-    </script>
-@endsection
-
 <style>
         :root {
             --primary: #15365f;
@@ -465,7 +277,195 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 }
 
 </style>
+@endpush
 
+@section('meta')
+    <title>Financial Health Score Calculator | Altman Z &amp; IBC</title>
+    <meta name="description" content="Financial health score calculator: a composite 0-100 score with the Altman Z / Z' / Z'' Score, a 5-dimension breakdown and an IBC distress check. Free CA tool.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/financial-health-score">
+    <meta property="og:title" content="Financial Health Score Calculator — Composite + Altman Z 2026">
+    <meta property="og:description" content="Composite 0-100 financial health score with Altman Z / Z' / Z'' Score, IBC distress check and Schedule III ratios. Free CA tool.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/financial-health-score">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Financial Health Score Calculator — Composite + Altman Z 2026">
+    <meta name="twitter:description" content="Composite 0-100 score + Altman Z / Z' / Z'' Score + IBC distress check + Schedule III ratios. Free CA tool.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+    <meta name="theme-color" content="#15365f">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Financial Health Score Calculator",
+      "description": "Financial Health Score Calculator computes a composite 0-100 financial health score across five weighted dimensions — Liquidity, Solvency, Profitability, Efficiency, and Cash Flow — together with the Altman Z-Score (public manufacturers), Z'-Score (private manufacturers), and Z''-Score (non-manufacturers and services, recommended for emerging markets like India). The tool derives ten financial ratios from balance sheet and P&L inputs including Current Ratio, Quick Ratio, Debt-to-Equity, Interest Coverage, Return on Assets, Return on Equity, Asset Turnover, Working Capital to Total Assets, Retained Earnings to Total Assets, and Operating Cash Flow to Total Debt. Output includes verdict (Excellent, Good, Watch, Stressed, Distress), Altman classification (Safe Zone, Grey Zone, Distress Zone), Schedule III ratio disclosure block, IBC Section 4 default risk indicator (₹1 crore threshold), RBI Special Mention Account framework alignment, Section 164(2) director disqualification cascade reference, and Year-on-Year variance flag at the 25% threshold prescribed under Schedule III ratios disclosure rules. Suitable for credit analysis, statutory and internal audit going-concern assessment under SA 570, IBC pre-pack and CIRP screening, MSME credit appraisal, lender covenant testing, M&A target screening, and CA / CS / CMA student learning fundamental analysis aligned with Indian Companies Act 2013, Schedule III Division I and II, and Indian Accounting Standards.",
+      "url": "https://www.patronaccounting.com/tools/financial-health-score",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Any",
+      "datePublished": "2026-05-07T08:00:00+05:30",
+      "dateModified": "2026-05-19T08:00:00+05:30",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
+      "author": {
+        "@type": "Person",
+        "@id": "https://patronaccounting.com/#founder",
+        "name": "CA Sundram Gupta",
+        "jobTitle": "Founder & Chartered Accountant",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Institute of Chartered Accountants of India",
+            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+          }
+        }]
+      },
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": { "@id": "https://patronaccounting.com/#organization" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Financial Health Score Calculator", "item": "https://www.patronaccounting.com/tools/financial-health-score"}
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "datePublished": "2026-05-07T08:00:00+05:30",
+      "dateModified": "2026-05-19T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a Financial Health Score?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Financial Health Score is a composite metric ranging from 0 to 100 that summarises a company's overall financial condition across five dimensions — Liquidity, Solvency, Profitability, Efficiency, and Cash Flow. Each dimension contributes 20 points based on weighted underlying ratios. The score helps lenders, investors, auditors, and management quickly assess financial strength without examining ten ratios separately. Scores above 80 indicate excellent health, 65-79 good, 50-64 watch zone, 30-49 stressed, and below 30 indicate distress with high default probability."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the Altman Z-Score?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Altman Z-Score is a multivariate distress-prediction model developed by Edward Altman in 1968, combining five financial ratios into a single bankruptcy-risk score for public manufacturers. Variants Z' (1983, private manufacturers) and Z'' (1995, non-manufacturers and emerging markets) extend coverage with different coefficients and cutoffs. Academic studies including Indian listed companies document 70-90% accuracy 1-2 years before bankruptcy. Credit rating agencies and lenders use the score as one input in distress assessment alongside trend, peer, and qualitative analysis."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which Altman model applies to Indian companies?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Choice depends on entity type. The original Z-Score requires market value of equity, so it suits only listed manufacturers. Z'-Score replaces market value with book value, suiting private manufacturing companies. Z''-Score eliminates Sales/Total Assets and is calibrated for non-manufacturing, services, and emerging-market companies — making it the most commonly applied variant for Indian listed and unlisted services, IT, FMCG, healthcare, and trading entities. Indian academic studies validate Z'' for services and Z' for SME manufacturers as reliable distress predictors."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the composite score calculated?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The composite score allocates 20 points each to five dimensions. Liquidity scores Current Ratio (target above 1.5) and Quick Ratio (target above 1.0). Solvency scores Debt-to-Equity (target below 1.0) and equity cushion. Profitability scores PAT Margin, ROE (target above 15%), and ROA. Efficiency scores Asset Turnover and Working Capital Turnover. Cash Flow scores OCF positivity and OCF-to-Total Debt coverage. Each ratio maps to a graduated points scale calibrated to Indian sector medians."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Schedule III ratio disclosure?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Companies (Accounts) Amendment Rules 2021 effective FY 2021-22 mandate disclosure of eleven financial ratios in the Notes to Financial Statements for all companies preparing accounts under Schedule III. The ratios include Current Ratio, Debt-Equity Ratio, Debt Service Coverage Ratio, Return on Equity, Inventory Turnover, Trade Receivables Turnover, Trade Payables Turnover, Net Capital Turnover, Net Profit Ratio, Return on Capital Employed, and Return on Investment. Year-on-year variance exceeding 25% requires explanation. Six of these are direct outputs of this calculator."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How reliable is the Altman Z-Score for Indian companies?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Multiple Indian academic studies covering BSE-listed entities, NCLT cases, and SME borrowers validate the model. Z''-Score shows 80-87% accuracy one year before default and 70-75% two years before. The model is more reliable for non-financial companies — banks, NBFCs, and insurers are excluded due to balance sheet opacity and off-balance-sheet exposures. Limitations include sensitivity to accounting manipulation and reduced reliability for startups burning capital on growth investment that depresses profitability ratios."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the IBC default threshold?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "IBC 2016 Section 4, as amended on 24 March 2020, raised the minimum default threshold for Corporate Insolvency Resolution Process from one lakh to one crore rupees. Operational and financial creditors can file under Sections 7, 9, or 10 if the corporate debtor defaults on one crore or more. The calculator flags this when total debt exceeds the threshold and Operating Cash Flow signals weak servicing capacity. Pre-pack insolvency under Section 54A applies to MSMEs at a ten-lakh threshold."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the RBI SMA framework?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "RBI's Special Mention Account framework, codified in the Master Direction on Income Recognition Asset Classification and Provisioning, requires banks to classify accounts based on overdue duration before they become Non-Performing Assets. SMA-0 covers principal or interest overdue but not yet 30 days, SMA-1 covers 31-60 days overdue, and SMA-2 covers 61-90 days overdue. After 90 days, the account becomes NPA. The calculator's distress score correlates with SMA migration probability and is used by lenders in early-warning systems and CRILC reporting."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does Section 164(2) affect distressed companies?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 164(2) of the Companies Act 2013 disqualifies all directors of a company that has not filed financial statements or annual returns for any continuous period of three financial years, or that has failed to repay deposits or pay declared dividends for one year. Disqualification lasts five years across all companies and existing DINs are deactivated by MCA. Distressed companies often miss filings, triggering this cascade. Combined with auditor SA 570 going-concern qualification, consequences extend beyond financial distress."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is SA 570 going concern?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Standard on Auditing 570 issued by ICAI requires statutory auditors to evaluate management's assessment of the entity's ability to continue as a going concern for at least twelve months from the balance sheet date. If material uncertainty exists, the auditor must include an Emphasis of Matter or modify the opinion. Indicators include negative net worth, covenant breach, recurring losses, negative operating cash flow, and adverse Altman scores. Companies with Composite Score below 30 typically warrant SA 570 disclosure."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a company have a low score but still be healthy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, in specific business models. Modern retail and quick-commerce companies operate with negative working capital by design — they collect from customers before paying suppliers, generating float. Their Liquidity dimension scores low but Cash Flow remains strong. Capital-intensive infrastructure firms in growth phase show low Profitability while building asset base. Holding companies show low Asset Turnover. Always interpret scores against industry context and the company's strategic stage. Trend over three to five years is more revealing than a single-year snapshot."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who uses Financial Health Score in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Banks and NBFCs use it for credit appraisal under Tandon Committee, Nayak Committee, and IRAC norms. Statutory auditors apply it for SA 570 going-concern review. Internal auditors fold it into risk-based plans. M&amp;A advisors and PE firms screen targets. Resolution Professionals under IBC use it during CIRP. CRISIL, ICRA, CARE incorporate similar multi-factor models. Corporate treasuries monitor it for vendor and customer counterparty risk under Ind AS 109 ECL provisioning. CA students learn it for advanced auditing papers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What financial inputs are required?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Required inputs come from balance sheet and P&amp;L. Balance sheet: Total Assets, Total Liabilities, Current Assets, Current Liabilities, Inventory, Total Debt, Equity, Retained Earnings, and Market Cap if listed. P&amp;L: Revenue, EBIT (or PAT plus Tax plus Interest), Interest Expense, and PAT. Cash Flow Statement: Operating Cash Flow. Optional: previous-year score for variance flagging. All values in rupees crore. Inputs map directly to Schedule III Part I (Balance Sheet) and Part II (P&amp;L) under Ind AS or Indian GAAP."
+          }
+        }
+      ]
+    }
+    </script>
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Tool navigation">
     <div class="toc-nav-inner">

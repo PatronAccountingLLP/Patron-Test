@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,176 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>IMF for Bank & NBFC Employees: Plan Before You Resign</title>
-    <meta name="description" content="Bankers and NBFC staff in Gurugram: turn your financial-services experience into an IRDAI Insurance Marketing Firm. Eligibility, conflict-of-interest, cost">
-    <link rel="canonical" href="/imf-for-bank-nbfc-employees/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="IMF for Bank & NBFC Employees: Plan Before You Resign">
-    <meta property="og:description" content="Bankers and NBFC staff in Gurugram: turn your financial-services experience into an IRDAI Insurance Marketing Firm. Eligibility, conflict-of-interest, cost, pre-resignation setup.">
-    <meta property="og:url" content="/imf-for-bank-nbfc-employees/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="IMF for Bank & NBFC Employees: Plan Before You Resign">
-    <meta name="twitter:description" content="Bankers and NBFC staff in Gurugram: turn your financial-services experience into an IRDAI Insurance Marketing Firm. Eligibility, conflict-of-interest, cost, pre-resignation setup.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "IMF Registration for Bank and NBFC Employees in Gurugram",
-      "description": "IRDAI Insurance Marketing Firm setup for serving bank and NBFC employees in Gurugram, Haryana. Pre-resignation planning, Principal Officer eligibility, incorporation, and Form A filing on imf.irda.gov.in.",
-      "url": "https://www.patronaccounting.com/imf-for-bank-nbfc-employees/gurugram",
-      "serviceType": "Insurance Marketing Firm Registration for Bank and NBFC Employees",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@type": "LocalBusiness",
-        "@id": "https://www.patronaccounting.com/#localbusiness-gurugram",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/imf-for-bank-nbfc-employees/gurugram",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "minPrice": "24999",
-          "priceCurrency": "INR"
-        }
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness-gurugram",
-      "name": "Patron Accounting LLP",
-      "description": "CA and CS firm assisting serving bank and NBFC employees in Gurugram with IRDAI Insurance Marketing Firm (IMF) registration and pre-resignation planning.",
-      "url": "https://www.patronaccounting.com/imf-for-bank-nbfc-employees/gurugram",
-      "logo": "https://www.patronaccounting.com/images/site-logo.svg",
-      "image": "https://www.patronaccounting.com/images/og-default-square.png",
-      "telephone": "+919459456700",
-      "email": "sales@patronaccounting.com",
-      "priceRange": "From INR 24999 (Exl GST and Govt. Charges)",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "IMF Services",
-          "item": "https://www.patronaccounting.com/imf-services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "IMF for Bank and NBFC Employees in Gurugram",
-          "item": "https://www.patronaccounting.com/imf-for-bank-nbfc-employees/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "datePublished": "2026-06-30T08:00:00+05:30",
-      "dateModified": "2026-06-30T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "How much does it cost to set up an IMF as a banker in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The IRDAI application fee is INR 5,000, paid from an SBI account in the firm's name, and you must maintain net worth of INR 10 lakh (INR 5 lakh for a single aspirational district). Patron's professional setup for Gurugram applicants starts from INR 24,999 (Exl GST and Govt. Charges), covering company or LLP incorporation plus IRDAI registration end to end."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does IMF registration take?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Plan for roughly 7-10 weeks end to end - company or LLP incorporation with 'Insurance Marketing Firm' in the name, NOC handling, Principal Officer training and exam, and the Form A application on imf.irda.gov.in. Starting before your last working day means your firm can be live soon after you exit your bank or NBFC role."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What documents do I need for IMF registration?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Form A, a No Objection Certificate (NOC), the ROC or incorporation certificate with 'Insurance Marketing Firm' in the name, MoA/AoA and PAN, an SBI account, a CA net-worth certificate, Principal Officer and ISP qualification and exam certificates, a 3-year business plan with org chart and infrastructure photos, insurer consent letters, and Fit and Proper declarations."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Am I eligible as a current bank or NBFC employee in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. The firm must be a Company, LLP or Co-operative Society, and a graduate with five years of financial-services experience qualifies to be the Principal Officer - exactly the profile most bankers and NBFC staff in Gurugram already have. You will complete IRDAI training and the IMF exam, with reduced hours if you hold III or CII qualifications."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can you help me plan this before I resign from my bank or NBFC job?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes - that is the point of this service. We sequence name approval, NOC and incorporation during your notice period and prepare your Principal Officer training and exam so the IMF is ready to activate the moment you exit, avoiding any income gap. We also flag conflict-of-interest points to check against your employer's policy."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is the IMF service available in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. We register IMFs across India, including Gurugram and the wider Haryana and Delhi NCR belt. Registration is district-based - up to 3 districts in a state, with at least one aspirational district if you opt for more than one - so we help you choose districts that match where you plan to operate from Gurugram."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Once approved, how quickly can I start earning, and does the IMF registration expire?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "After IRDAI approval you can begin soliciting business as soon as your insurer tie-ups (up to 2 life, 2 general and 2 health insurers) and at least one trained ISP per office are in place. Registration is now perpetual since 5 February 2026, so there is no 3-year renewal - you only maintain net worth, Professional Indemnity cover and annual filings."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -808,7 +637,185 @@
             }
         }
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>IMF for Bank & NBFC Employees: Plan Before You Resign</title>
+    <meta name="description" content="Bankers and NBFC staff in Gurugram: turn your financial-services experience into an IRDAI Insurance Marketing Firm. Eligibility, conflict-of-interest, cost">
+    <link rel="canonical" href="/imf-for-bank-nbfc-employees/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="IMF for Bank & NBFC Employees: Plan Before You Resign">
+    <meta property="og:description" content="Bankers and NBFC staff in Gurugram: turn your financial-services experience into an IRDAI Insurance Marketing Firm. Eligibility, conflict-of-interest, cost, pre-resignation setup.">
+    <meta property="og:url" content="/imf-for-bank-nbfc-employees/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="IMF for Bank & NBFC Employees: Plan Before You Resign">
+    <meta name="twitter:description" content="Bankers and NBFC staff in Gurugram: turn your financial-services experience into an IRDAI Insurance Marketing Firm. Eligibility, conflict-of-interest, cost, pre-resignation setup.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "IMF Registration for Bank and NBFC Employees in Gurugram",
+      "description": "IRDAI Insurance Marketing Firm setup for serving bank and NBFC employees in Gurugram, Haryana. Pre-resignation planning, Principal Officer eligibility, incorporation, and Form A filing on imf.irda.gov.in.",
+      "url": "https://www.patronaccounting.com/imf-for-bank-nbfc-employees/gurugram",
+      "serviceType": "Insurance Marketing Firm Registration for Bank and NBFC Employees",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://www.patronaccounting.com/#localbusiness-gurugram",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.patronaccounting.com/imf-for-bank-nbfc-employees/gurugram",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": "24999",
+          "priceCurrency": "INR"
+        }
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness-gurugram",
+      "name": "Patron Accounting LLP",
+      "description": "CA and CS firm assisting serving bank and NBFC employees in Gurugram with IRDAI Insurance Marketing Firm (IMF) registration and pre-resignation planning.",
+      "url": "https://www.patronaccounting.com/imf-for-bank-nbfc-employees/gurugram",
+      "logo": "https://www.patronaccounting.com/images/site-logo.svg",
+      "image": "https://www.patronaccounting.com/images/og-default-square.png",
+      "telephone": "+919459456700",
+      "email": "sales@patronaccounting.com",
+      "priceRange": "From INR 24999 (Exl GST and Govt. Charges)",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "IMF Services",
+          "item": "https://www.patronaccounting.com/imf-services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "IMF for Bank and NBFC Employees in Gurugram",
+          "item": "https://www.patronaccounting.com/imf-for-bank-nbfc-employees/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "datePublished": "2026-06-30T08:00:00+05:30",
+      "dateModified": "2026-06-30T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much does it cost to set up an IMF as a banker in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The IRDAI application fee is INR 5,000, paid from an SBI account in the firm's name, and you must maintain net worth of INR 10 lakh (INR 5 lakh for a single aspirational district). Patron's professional setup for Gurugram applicants starts from INR 24,999 (Exl GST and Govt. Charges), covering company or LLP incorporation plus IRDAI registration end to end."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does IMF registration take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Plan for roughly 7-10 weeks end to end - company or LLP incorporation with 'Insurance Marketing Firm' in the name, NOC handling, Principal Officer training and exam, and the Form A application on imf.irda.gov.in. Starting before your last working day means your firm can be live soon after you exit your bank or NBFC role."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What documents do I need for IMF registration?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Form A, a No Objection Certificate (NOC), the ROC or incorporation certificate with 'Insurance Marketing Firm' in the name, MoA/AoA and PAN, an SBI account, a CA net-worth certificate, Principal Officer and ISP qualification and exam certificates, a 3-year business plan with org chart and infrastructure photos, insurer consent letters, and Fit and Proper declarations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Am I eligible as a current bank or NBFC employee in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The firm must be a Company, LLP or Co-operative Society, and a graduate with five years of financial-services experience qualifies to be the Principal Officer - exactly the profile most bankers and NBFC staff in Gurugram already have. You will complete IRDAI training and the IMF exam, with reduced hours if you hold III or CII qualifications."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you help me plan this before I resign from my bank or NBFC job?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes - that is the point of this service. We sequence name approval, NOC and incorporation during your notice period and prepare your Principal Officer training and exam so the IMF is ready to activate the moment you exit, avoiding any income gap. We also flag conflict-of-interest points to check against your employer's policy."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the IMF service available in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We register IMFs across India, including Gurugram and the wider Haryana and Delhi NCR belt. Registration is district-based - up to 3 districts in a state, with at least one aspirational district if you opt for more than one - so we help you choose districts that match where you plan to operate from Gurugram."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Once approved, how quickly can I start earning, and does the IMF registration expire?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "After IRDAI approval you can begin soliciting business as soon as your insurer tie-ups (up to 2 life, 2 general and 2 health insurers) and at least one trained ISP per office are in place. Registration is now perpetual since 5 February 2026, so there is no 3-year renewal - you only maintain net worth, Professional Indemnity cover and annual filings."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1679,7 +1686,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

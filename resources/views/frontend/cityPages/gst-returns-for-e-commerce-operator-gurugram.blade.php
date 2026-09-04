@@ -1,161 +1,12 @@
 
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>GST Returns for E-Commerce Gurugram - GSTR-8 & TCS</title>
-    <meta name="description" content="GST returns for e-commerce operator in Gurugram. GSTR-8. TCS 1%. Seller GSTR-1/3B. Multi-platform reconciliation. S9(5). Call +91 945 945 6700.">
-    <link rel="canonical" href="/gst-returns-for-e-commerce-operator/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="GST Returns for E-Commerce Gurugram - GSTR-8 & TCS">
-    <meta property="og:description" content="GST returns for e-commerce operator in Gurugram. GSTR-8. TCS 1%. Seller GSTR-1/3B. Multi-platform reconciliation. S9(5). Call +91 945 945 6700.">
-    <meta property="og:url" content="/gst-returns-for-e-commerce-operator/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="GST Returns for E-Commerce Gurugram - GSTR-8 & TCS">
-    <meta name="twitter:description" content="GST returns for e-commerce operator in Gurugram. GSTR-8. TCS 1%. Seller GSTR-1/3B. Multi-platform reconciliation. S9(5). Call +91 945 945 6700.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "GST Returns for E-commerce Operator in Gurugram | TCS GSTR-8",
-      "description": "GST returns for e-commerce operator in Gurugram. GSTR-8. TCS 1%. Seller GSTR-1/3B. Multi-platform reconciliation. S9(5). Call +91 945 945 6700.",
-      "url": "https://www.patronaccounting.com/gst-returns-for-e-commerce-operator/gurugram",
-      "serviceType": "GST Returns for E-commerce Operator in Gurugram | TCS GSTR-8",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/gst-returns-for-e-commerce-operator/gurugram",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "minPrice": "1999",
-          "maxPrice": "4999",
-          "priceCurrency": "INR"
-        }
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "E-commerce GST Returns: GSTR-8 TCS",
-          "item": "https://www.patronaccounting.com/gst-returns-for-e-commerce-operator"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "GST Returns for E-commerce Operator in Gurugram | TCS GSTR-8",
-          "item": "https://www.patronaccounting.com/gst-returns-for-e-commerce-operator/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What returns must e-commerce sellers file?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "GSTR-1 monthly by the 11th with Table 4A/8 identifying operator GSTIN for each platform. GSTR-3B by the 20th with TCS credit claimed from electronic cash ledger. GSTR-9 annual. TCS entries from operator GSTR-8 must be accepted from GSTR-2A/2B on the GST portal before filing GSTR-3B."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does e-commerce GST filing cost?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Operator GSTR-8: Rs 4,999-14,999/month. Seller GSTR-1 plus 3B: Rs 2,999-9,999/month. Multi-platform reconciliation: Rs 1,999-4,999/month. Annual: Rs 4,999-14,999. E-commerce bundle: Rs 7,999-19,999/month. Call +91 945 945 6700 for a detailed quote."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is GSTR-8 and who files it?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. Operator: File GSTR-8: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is GST registration mandatory for e-commerce sellers?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Under Section 24 of the CGST Act, both e-commerce operators and sellers making supplies through e-commerce operators must obtain GST registration regardless of turnover. There is no threshold exemption. Even if your annual turnover is below Rs 20 lakh (or Rs 40 lakh for goods), you must register if you sell through any marketplace platform."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is TCS credit and how do sellers claim it?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "TCS collected by e-commerce operators goes to the seller's electronic cash ledger (not ITC ledger). Sellers must accept TCS entries from GSTR-2A/2B on the GST portal and then claim the credit in GSTR-3B to offset their output tax liability. Without claiming, sellers effectively overpay GST by the TCS amount every month."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is Section 9(5) liability for operators?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Under Section 9(5), e-commerce operators are deemed suppliers and must collect and deposit GST on certain services: restaurant services through food delivery platforms like Swiggy and Zomato at 5%, passenger transport services through cab aggregators, and accommodation services when supplied by unregistered suppliers. This is the operator's liability, not the restaurant or driver's."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How to handle multi-platform TCS reconciliation?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Download settlement reports from each platform (Amazon, Flipkart, Meesho). Extract TCS data from each. Reconcile with GSTR-2A/2B auto-populated TCS entries. Identify discrepancies (platforms filing GSTR-8 late, amount mismatches). Combine all platform data into one consolidated GSTR-3B. File after reconciliation is complete. Mismatches trigger scrutiny notices. Quick Answers Seller ke liye kya file karna hai? GSTR-1 monthly (Table 4A/8 mein operator GSTIN). GSTR-3B monthly (TCS credit claim karo). TCS accept karo GSTR-2A/2B se. Operator ke liye? GSTR-8 har mahine 10 tarikh. TCS 1% collect karo net sales pe. Deposit karo. GSTR-1 aur GSTR-3B bhi. S9(5) restaurant/cab GST bhi. Multiple platforms? Har ek se settlement report download. TCS reconcile GSTR-2A/2B se. Ek GSTR-3B mein sab combine. Mismatch se notice aayega."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -679,7 +530,161 @@ section ul li:not(.nav-item) { font-size: 14px; }
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'Join Community'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>GST Returns for E-Commerce Gurugram - GSTR-8 & TCS</title>
+    <meta name="description" content="GST returns for e-commerce operator in Gurugram. GSTR-8. TCS 1%. Seller GSTR-1/3B. Multi-platform reconciliation. S9(5). Call +91 945 945 6700.">
+    <link rel="canonical" href="/gst-returns-for-e-commerce-operator/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="GST Returns for E-Commerce Gurugram - GSTR-8 & TCS">
+    <meta property="og:description" content="GST returns for e-commerce operator in Gurugram. GSTR-8. TCS 1%. Seller GSTR-1/3B. Multi-platform reconciliation. S9(5). Call +91 945 945 6700.">
+    <meta property="og:url" content="/gst-returns-for-e-commerce-operator/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GST Returns for E-Commerce Gurugram - GSTR-8 & TCS">
+    <meta name="twitter:description" content="GST returns for e-commerce operator in Gurugram. GSTR-8. TCS 1%. Seller GSTR-1/3B. Multi-platform reconciliation. S9(5). Call +91 945 945 6700.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "GST Returns for E-commerce Operator in Gurugram | TCS GSTR-8",
+      "description": "GST returns for e-commerce operator in Gurugram. GSTR-8. TCS 1%. Seller GSTR-1/3B. Multi-platform reconciliation. S9(5). Call +91 945 945 6700.",
+      "url": "https://www.patronaccounting.com/gst-returns-for-e-commerce-operator/gurugram",
+      "serviceType": "GST Returns for E-commerce Operator in Gurugram | TCS GSTR-8",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.patronaccounting.com/gst-returns-for-e-commerce-operator/gurugram",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": "1999",
+          "maxPrice": "4999",
+          "priceCurrency": "INR"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "E-commerce GST Returns: GSTR-8 TCS",
+          "item": "https://www.patronaccounting.com/gst-returns-for-e-commerce-operator"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "GST Returns for E-commerce Operator in Gurugram | TCS GSTR-8",
+          "item": "https://www.patronaccounting.com/gst-returns-for-e-commerce-operator/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What returns must e-commerce sellers file?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "GSTR-1 monthly by the 11th with Table 4A/8 identifying operator GSTIN for each platform. GSTR-3B by the 20th with TCS credit claimed from electronic cash ledger. GSTR-9 annual. TCS entries from operator GSTR-8 must be accepted from GSTR-2A/2B on the GST portal before filing GSTR-3B."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does e-commerce GST filing cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Operator GSTR-8: Rs 4,999-14,999/month. Seller GSTR-1 plus 3B: Rs 2,999-9,999/month. Multi-platform reconciliation: Rs 1,999-4,999/month. Annual: Rs 4,999-14,999. E-commerce bundle: Rs 7,999-19,999/month. Call +91 945 945 6700 for a detailed quote."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is GSTR-8 and who files it?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. Operator: File GSTR-8: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is GST registration mandatory for e-commerce sellers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Under Section 24 of the CGST Act, both e-commerce operators and sellers making supplies through e-commerce operators must obtain GST registration regardless of turnover. There is no threshold exemption. Even if your annual turnover is below Rs 20 lakh (or Rs 40 lakh for goods), you must register if you sell through any marketplace platform."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is TCS credit and how do sellers claim it?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "TCS collected by e-commerce operators goes to the seller's electronic cash ledger (not ITC ledger). Sellers must accept TCS entries from GSTR-2A/2B on the GST portal and then claim the credit in GSTR-3B to offset their output tax liability. Without claiming, sellers effectively overpay GST by the TCS amount every month."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Section 9(5) liability for operators?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under Section 9(5), e-commerce operators are deemed suppliers and must collect and deposit GST on certain services: restaurant services through food delivery platforms like Swiggy and Zomato at 5%, passenger transport services through cab aggregators, and accommodation services when supplied by unregistered suppliers. This is the operator's liability, not the restaurant or driver's."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to handle multi-platform TCS reconciliation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Download settlement reports from each platform (Amazon, Flipkart, Meesho). Extract TCS data from each. Reconcile with GSTR-2A/2B auto-populated TCS entries. Identify discrepancies (platforms filing GSTR-8 late, amount mismatches). Combine all platform data into one consolidated GSTR-3B. File after reconciliation is complete. Mismatches trigger scrutiny notices. Quick Answers Seller ke liye kya file karna hai? GSTR-1 monthly (Table 4A/8 mein operator GSTIN). GSTR-3B monthly (TCS credit claim karo). TCS accept karo GSTR-2A/2B se. Operator ke liye? GSTR-8 har mahine 10 tarikh. TCS 1% collect karo net sales pe. Deposit karo. GSTR-1 aur GSTR-3B bhi. S9(5) restaurant/cab GST bhi. Multiple platforms? Har ek se settlement report download. TCS reconcile GSTR-2A/2B se. Ek GSTR-3B mein sab combine. Mismatch se notice aayega."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1605,7 +1610,6 @@ var tocWrapper=document.getElementById('tocWrapper');document.getElementById('to
 
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

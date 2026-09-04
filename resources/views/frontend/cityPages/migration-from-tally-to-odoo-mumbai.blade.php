@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,208 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>Tally to Odoo Migration Mumbai 2026 | Patron Accounting</title>
-    <meta name="description" content="Move from Tally to Odoo ERP in Mumbai from INR 9,999. CA-supervised ledger mapping, l10n_in GST, Inventory and Sales apps, and trial balance sign-off.">
-    <link rel="canonical" href="/migration-from-tally-to-odoo/mumbai">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Tally to Odoo Migration Mumbai 2026 | Patron Accounting">
-    <meta property="og:description" content="Move from Tally to Odoo ERP in Mumbai from INR 9,999. CA-supervised ledger mapping, l10n_in GST, Inventory and Sales apps, and trial balance sign-off.">
-    <meta property="og:url" content="/migration-from-tally-to-odoo/mumbai">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Tally to Odoo Migration Mumbai 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Move from Tally to Odoo ERP in Mumbai from INR 9,999. CA-supervised ledger mapping, l10n_in GST, Inventory and Sales apps, and trial balance sign-off.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/migration-from-tally-to-odoo/mumbai#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Tally to Odoo Migration",
-          "item": "https://www.patronaccounting.com/migration-from-tally-to-odoo"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Tally to Odoo Migration in Mumbai",
-          "item": "https://www.patronaccounting.com/migration-from-tally-to-odoo/mumbai"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/migration-from-tally-to-odoo/mumbai#faq",
-      "datePublished": "2026-06-23T08:00:00+05:30",
-      "dateModified": "2026-06-23T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What does Tally to Odoo migration involve for a Mumbai business?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Migration is the controlled shift of your accounting out of Tally and into the Odoo ERP. A Mumbai project typically includes Schedule III chart mapping, opening balances, partner and product masters, historical data, l10n_in GST setup, and the Accounting, Inventory, Sales, and Purchase apps, finishing with a trial balance that ties back to Tally."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does Tally to Odoo migration cost in Mumbai?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Fees begin Starting from INR 9,999 (Exl GST and Govt. Charges). What you pay finally turns on the number of years, transaction count, how many GSTINs you run, and the modules switched on. A BKC finance firm and a Bhiwandi distributor each receive a fixed-scope quote before Patron starts."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does Odoo handle GST after migrating from Tally?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "GST in Odoo runs on the l10n_in localization. Patron registers your GSTIN, loads HSN and SAC codes, and defines fiscal positions for inter-state and intra-state transactions, so CGST, SGST, and IGST are applied correctly under the CGST Act 2017. GSTR-1 and GSTR-3B reporting is switched on for your Mumbai books."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does a Tally to Odoo migration take in Mumbai?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A Mumbai migration usually spans 2 to 4 weeks, since Odoo is an ERP rather than a ledger. An Andheri media or SaaS firm running only the Accounting app can be live inside two weeks. A Bhiwandi warehousing operation that turns on Inventory across several GSTINs sits toward the longer end of that range."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Should we use Odoo Community or Enterprise after migration?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The answer follows your workflow. Community ships the base l10n_in chart and GST determination; Enterprise layers on e-invoicing, GSTR JSON export, and the smarter bank reconciliation screen. During scoping Patron recommends the edition that fits, so a Lower Parel or Powai team is not paying for features it will never open."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do Tally ledgers, vouchers, and cost centres map into Odoo?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Odoo translates Tally structures directly: a ledger turns into an Account, a group into an Account Type, a voucher into a Journal Entry, and a cost centre into an Analytic Account. Patron writes this mapping out head by head before importing, so a Mumbai company keeps its reporting layout intact inside Odoo."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is migration accuracy verified for a Mumbai company?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patron lines up the Odoo trial balance, profit and loss, and balance sheet against the identical Tally statements, then spot-checks ledgers, stock valuation, and GST totals. A Chartered Accountant releases the file only once Odoo and Tally agree for the migrated window, leaving your Mumbai books ready for audit from the first day."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you train our Mumbai team on the Odoo modules after go-live?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Once reconciliation is complete, Patron delivers a hands-on session on Accounting invoicing, Inventory stock moves, Sales quotations, and GST reporting for your Mumbai finance and operations staff. Each module comes with its own short guide, and we stay reachable so moving from Tally to an ERP feels gradual, not abrupt."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/migration-from-tally-to-odoo/mumbai#service",
-      "name": "Tally to Odoo Migration in Mumbai",
-      "description": "Tally to Odoo ERP migration in Mumbai covering Schedule III chart mapping, opening balances, partner and product masters, historical data, l10n_in GST configuration, and the Accounting, Inventory, Sales, and Purchase apps, ending with a reconciled trial balance. Patron Accounting delivers CA-verified, audit-ready Odoo databases for BKC, Andheri, Powai, and Bhiwandi businesses.",
-      "serviceType": "Tally to Odoo ERP Data Migration",
-      "url": "https://www.patronaccounting.com/migration-from-tally-to-odoo/mumbai",
-      "areaServed": {
-        "@type": "City",
-        "name": "Mumbai",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Maharashtra"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#localbusiness-mumbai"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Odoo",
-          "sameAs": "https://en.wikipedia.org/wiki/Odoo"
-        },
-        {
-          "@type": "Thing",
-          "name": "Goods and Services Tax (India)",
-          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Tally to Odoo Migration Plans in Mumbai",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "price": "9999",
-            "priceSpecification": {
-              "@type": "UnitPriceSpecification",
-              "priceCurrency": "INR",
-              "price": "9999",
-              "unitText": "starting from"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Tally to Odoo ERP Migration"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness-mumbai",
-      "name": "Patron Accounting LLP - Mumbai",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/migration-from-tally-to-odoo/mumbai",
-      "telephone": "+91-9699936369",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Mumbai"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Mumbai",
-        "addressRegion": "Maharashtra",
-        "postalCode": "400020",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -815,7 +612,217 @@
         .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
 
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>Tally to Odoo Migration Mumbai 2026 | Patron Accounting</title>
+    <meta name="description" content="Move from Tally to Odoo ERP in Mumbai from INR 9,999. CA-supervised ledger mapping, l10n_in GST, Inventory and Sales apps, and trial balance sign-off.">
+    <link rel="canonical" href="/migration-from-tally-to-odoo/mumbai">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Tally to Odoo Migration Mumbai 2026 | Patron Accounting">
+    <meta property="og:description" content="Move from Tally to Odoo ERP in Mumbai from INR 9,999. CA-supervised ledger mapping, l10n_in GST, Inventory and Sales apps, and trial balance sign-off.">
+    <meta property="og:url" content="/migration-from-tally-to-odoo/mumbai">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Tally to Odoo Migration Mumbai 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Move from Tally to Odoo ERP in Mumbai from INR 9,999. CA-supervised ledger mapping, l10n_in GST, Inventory and Sales apps, and trial balance sign-off.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/migration-from-tally-to-odoo/mumbai#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Tally to Odoo Migration",
+          "item": "https://www.patronaccounting.com/migration-from-tally-to-odoo"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Tally to Odoo Migration in Mumbai",
+          "item": "https://www.patronaccounting.com/migration-from-tally-to-odoo/mumbai"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/migration-from-tally-to-odoo/mumbai#faq",
+      "datePublished": "2026-06-23T08:00:00+05:30",
+      "dateModified": "2026-06-23T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does Tally to Odoo migration involve for a Mumbai business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Migration is the controlled shift of your accounting out of Tally and into the Odoo ERP. A Mumbai project typically includes Schedule III chart mapping, opening balances, partner and product masters, historical data, l10n_in GST setup, and the Accounting, Inventory, Sales, and Purchase apps, finishing with a trial balance that ties back to Tally."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does Tally to Odoo migration cost in Mumbai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fees begin Starting from INR 9,999 (Exl GST and Govt. Charges). What you pay finally turns on the number of years, transaction count, how many GSTINs you run, and the modules switched on. A BKC finance firm and a Bhiwandi distributor each receive a fixed-scope quote before Patron starts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does Odoo handle GST after migrating from Tally?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "GST in Odoo runs on the l10n_in localization. Patron registers your GSTIN, loads HSN and SAC codes, and defines fiscal positions for inter-state and intra-state transactions, so CGST, SGST, and IGST are applied correctly under the CGST Act 2017. GSTR-1 and GSTR-3B reporting is switched on for your Mumbai books."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does a Tally to Odoo migration take in Mumbai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Mumbai migration usually spans 2 to 4 weeks, since Odoo is an ERP rather than a ledger. An Andheri media or SaaS firm running only the Accounting app can be live inside two weeks. A Bhiwandi warehousing operation that turns on Inventory across several GSTINs sits toward the longer end of that range."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should we use Odoo Community or Enterprise after migration?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The answer follows your workflow. Community ships the base l10n_in chart and GST determination; Enterprise layers on e-invoicing, GSTR JSON export, and the smarter bank reconciliation screen. During scoping Patron recommends the edition that fits, so a Lower Parel or Powai team is not paying for features it will never open."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do Tally ledgers, vouchers, and cost centres map into Odoo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Odoo translates Tally structures directly: a ledger turns into an Account, a group into an Account Type, a voucher into a Journal Entry, and a cost centre into an Analytic Account. Patron writes this mapping out head by head before importing, so a Mumbai company keeps its reporting layout intact inside Odoo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is migration accuracy verified for a Mumbai company?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patron lines up the Odoo trial balance, profit and loss, and balance sheet against the identical Tally statements, then spot-checks ledgers, stock valuation, and GST totals. A Chartered Accountant releases the file only once Odoo and Tally agree for the migrated window, leaving your Mumbai books ready for audit from the first day."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you train our Mumbai team on the Odoo modules after go-live?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Once reconciliation is complete, Patron delivers a hands-on session on Accounting invoicing, Inventory stock moves, Sales quotations, and GST reporting for your Mumbai finance and operations staff. Each module comes with its own short guide, and we stay reachable so moving from Tally to an ERP feels gradual, not abrupt."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/migration-from-tally-to-odoo/mumbai#service",
+      "name": "Tally to Odoo Migration in Mumbai",
+      "description": "Tally to Odoo ERP migration in Mumbai covering Schedule III chart mapping, opening balances, partner and product masters, historical data, l10n_in GST configuration, and the Accounting, Inventory, Sales, and Purchase apps, ending with a reconciled trial balance. Patron Accounting delivers CA-verified, audit-ready Odoo databases for BKC, Andheri, Powai, and Bhiwandi businesses.",
+      "serviceType": "Tally to Odoo ERP Data Migration",
+      "url": "https://www.patronaccounting.com/migration-from-tally-to-odoo/mumbai",
+      "areaServed": {
+        "@type": "City",
+        "name": "Mumbai",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Maharashtra"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#localbusiness-mumbai"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Odoo",
+          "sameAs": "https://en.wikipedia.org/wiki/Odoo"
+        },
+        {
+          "@type": "Thing",
+          "name": "Goods and Services Tax (India)",
+          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Tally to Odoo Migration Plans in Mumbai",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "price": "9999",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "INR",
+              "price": "9999",
+              "unitText": "starting from"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Tally to Odoo ERP Migration"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness-mumbai",
+      "name": "Patron Accounting LLP - Mumbai",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/migration-from-tally-to-odoo/mumbai",
+      "telephone": "+91-9699936369",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Mumbai"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Mumbai",
+        "addressRegion": "Maharashtra",
+        "postalCode": "400020",
+        "addressCountry": "IN"
+      },
+      "parentOrganization": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1567,7 +1574,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

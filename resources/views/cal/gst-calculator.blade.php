@@ -1,215 +1,5 @@
 @extends('layouts.app')
-@section('meta')
-    <title>GST Calculator India | CGST, SGST &amp; IGST Tool</title>
-    <meta name="description" content="GST calculator for India: split CGST, SGST and IGST across all slabs in inclusive and exclusive modes. Free, instant tool for Indian businesses. Calculate now!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/gst-calculator">
-    <meta property="og:title" content="GST Calculator India &mdash; Free CGST SGST IGST Calculator 2026">
-    <meta property="og:description" content="GST Calculator computes CGST, SGST, and IGST for any amount under all GST slabs. Supports inclusive and exclusive calculations for Indian businesses.">
-    <meta property="og:type" content="website">
-    <meta property="og:locale" content="en_IN">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/gst-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="GST Calculator India &mdash; Free CGST SGST IGST Calculator 2026">
-    <meta name="twitter:description" content="GST Calculator computes CGST, SGST, and IGST for any amount under all GST slabs. Try now!">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-<script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebApplication",
-      "name": "GST Calculator India",
-      "description": "GST Calculator computes CGST, SGST, and IGST breakdowns for any amount under all Indian GST slabs including 5%, 12%, 18%, and 28%. Supports both GST-inclusive and GST-exclusive calculations for intra-state and inter-state transactions.",
-      "url": "https://www.patronaccounting.com/tools/gst-calculator",
-      "applicationCategory": "UtilityApplication",
-      "operatingSystem": "Any",
-      "datePublished": "2026-03-03",
-      "dateModified": "2026-03-03",
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "INR"
-      },
-      "author": {
-        "@type": "Person",
-        "@id": "https://patronaccounting.com/#team",
-        "name": "CA & CS Patron Accounting Team",
-        "jobTitle": "Chartered Accountants & Company Secretaries",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/company/patron-accounting"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Institute of Chartered Accountants of India",
-            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-          }
-        }]
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://www.patronaccounting.com/images/site-logo.svg"
-        }
-      },
-      "provider": {
-        "@id": "https://patronaccounting.com/#organization"
-      }
-    }
-    </script>
-<script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Free Tools",
-          "item": "https://www.patronaccounting.com/tools/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "GST Calculator",
-          "item": "https://www.patronaccounting.com/tools/gst-calculator"
-        }
-      ]
-    }
-    </script>
-<script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "How do I calculate GST on a product in India?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "To calculate GST, multiply the base price by the applicable GST rate (5%, 12%, 18%, or 28%) and divide by 100. For example, if a product costs \u20B91,000 and the GST rate is 18%, the GST amount is \u20B9180 and the total price is \u20B91,180. For intra-state sales, this splits equally into CGST and SGST."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between GST inclusive and GST exclusive?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "GST exclusive means the price does not include tax \u2014 GST is added on top. This is standard in B2B invoices. GST inclusive means the displayed price already contains the tax component. To extract the base price from a GST-inclusive amount, divide the total by (1 + GST rate/100). Retail MRP prices in India are typically GST inclusive."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between CGST, SGST, and IGST?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "CGST (Central GST) and SGST (State GST) apply to intra-state transactions \u2014 sales within the same state. Each equals half the total GST rate. IGST (Integrated GST) applies to inter-state transactions \u2014 sales between different states \u2014 and equals the full GST rate. IGST is collected by the Central Government and distributed to the destination state."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are the current GST slab rates in India for 2026?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "India has four main GST slabs: 5% for essential items like packaged food and economy footwear, 12% for processed foods and business-class air travel, 18% for most goods and services including IT services and restaurant dining, and 28% for luxury items like automobiles and cement. Some goods attract 0%, 0.25%, or 3% rates as special categories."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do I calculate GST from a total amount (reverse calculation)?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "To reverse-calculate GST from a total inclusive amount, use this formula: Base Price = Total Amount \u00F7 (1 + GST Rate/100). For example, if the total is \u20B91,180 at 18% GST, the base price equals \u20B91,180 \u00F7 1.18 = \u20B91,000 and the GST component is \u20B9180. Our calculator handles this instantly when you select the inclusive option."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Who needs to register for GST in India?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "GST registration is mandatory for businesses with annual turnover exceeding \u20B940 lakhs for goods (\u20B920 lakhs in special category states) and \u20B920 lakhs for services (\u20B910 lakhs in special category states). Inter-state suppliers, e-commerce operators, casual taxable persons, and non-resident taxable persons must register regardless of turnover as per the CGST Act, 2017."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the GST Composition Scheme and who can opt for it?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The GST Composition Scheme is a simplified tax option for small businesses with turnover up to \u20B91.5 crore (\u20B975 lakhs for special category states). Manufacturers and traders pay GST at 1% of turnover, restaurants pay 5%, and other service providers pay 6%. Composition dealers cannot collect GST from customers, claim input tax credit, or make inter-state supplies."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is Input Tax Credit (ITC) under GST?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Input Tax Credit allows registered businesses to reduce GST paid on purchases from the GST payable on sales. For example, if you pay \u20B91,800 GST on raw materials and collect \u20B93,600 GST on finished goods, you remit only \u20B91,800 to the government. ITC claims require valid tax invoices, actual receipt of goods or services, and filing of GSTR-3B returns."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are the penalties for late GST return filing in India?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Late filing of GSTR-3B attracts a late fee of \u20B950 per day (\u20B925 CGST + \u20B925 SGST) for regular returns and \u20B920 per day for nil returns, capped at \u20B95,000 per return period. Additionally, interest at 18% per annum is charged on the outstanding tax liability from the due date. Persistent non-filing can lead to suspension or cancellation of GST registration."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which goods and services are exempt from GST in India?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Essential goods exempt from GST include fresh fruits, vegetables, milk, eggs, bread, salt, natural honey, and unprocessed cereals. Exempt services include healthcare, education up to higher secondary level, public transport, agricultural services, and bank interest. Petroleum products, alcoholic liquor for human consumption, and electricity are outside the GST framework and taxed separately by states."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is GST calculated on services like consulting or freelancing?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Most professional services such as consulting, freelancing, IT services, and accounting attract 18% GST. If the service provider and client are in the same state, 9% CGST plus 9% SGST applies. For inter-state services, 18% IGST applies. Freelancers with annual turnover below \u20B920 lakhs are exempt from GST registration and do not need to charge GST on their invoices."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is Reverse Charge Mechanism (RCM) under GST?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Under Reverse Charge Mechanism, the recipient of goods or services pays GST directly to the government instead of the supplier. RCM applies to notified goods and services, imports, purchases from unregistered dealers above specified limits, and services from goods transport agencies. The recipient must self-invoice and can claim ITC on RCM payments after remittance."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the GST rate on gold and jewellery in India?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Gold, silver, and platinum jewellery attract 3 percent GST on the value of metal plus making charges. Making charges are taxed at 5 percent GST. For example on a gold necklace worth 1 lakh with 10000 making charges the total GST is 3000 on gold value plus 500 on making charges totalling 3500. Diamonds and precious stones attract 0.25 percent GST."
-          }
-        }
-      ]
-    }
-    </script>
-@endsection
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+@push('styles')
 <style>
         :root {
             --primary: #1B4D3E;
@@ -979,6 +769,219 @@
 .toggle-btn{font-size:13px;padding:10px 12px}
 }
 </style>
+@endpush
+
+@section('meta')
+    <title>GST Calculator India | CGST, SGST &amp; IGST Tool</title>
+    <meta name="description" content="GST calculator for India: split CGST, SGST and IGST across all slabs in inclusive and exclusive modes. Free, instant tool for Indian businesses. Calculate now!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/gst-calculator">
+    <meta property="og:title" content="GST Calculator India &mdash; Free CGST SGST IGST Calculator 2026">
+    <meta property="og:description" content="GST Calculator computes CGST, SGST, and IGST for any amount under all GST slabs. Supports inclusive and exclusive calculations for Indian businesses.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_IN">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/gst-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GST Calculator India &mdash; Free CGST SGST IGST Calculator 2026">
+    <meta name="twitter:description" content="GST Calculator computes CGST, SGST, and IGST for any amount under all GST slabs. Try now!">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+@endsection
+
+@section('schema')
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "GST Calculator India",
+      "description": "GST Calculator computes CGST, SGST, and IGST breakdowns for any amount under all Indian GST slabs including 5%, 12%, 18%, and 28%. Supports both GST-inclusive and GST-exclusive calculations for intra-state and inter-state transactions.",
+      "url": "https://www.patronaccounting.com/tools/gst-calculator",
+      "applicationCategory": "UtilityApplication",
+      "operatingSystem": "Any",
+      "datePublished": "2026-03-03",
+      "dateModified": "2026-03-03",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "INR"
+      },
+      "author": {
+        "@type": "Person",
+        "@id": "https://patronaccounting.com/#team",
+        "name": "CA & CS Patron Accounting Team",
+        "jobTitle": "Chartered Accountants & Company Secretaries",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/company/patron-accounting"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Institute of Chartered Accountants of India",
+            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+          }
+        }]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.patronaccounting.com/images/site-logo.svg"
+        }
+      },
+      "provider": {
+        "@id": "https://patronaccounting.com/#organization"
+      }
+    }
+    </script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Free Tools",
+          "item": "https://www.patronaccounting.com/tools/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "GST Calculator",
+          "item": "https://www.patronaccounting.com/tools/gst-calculator"
+        }
+      ]
+    }
+    </script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I calculate GST on a product in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "To calculate GST, multiply the base price by the applicable GST rate (5%, 12%, 18%, or 28%) and divide by 100. For example, if a product costs \u20B91,000 and the GST rate is 18%, the GST amount is \u20B9180 and the total price is \u20B91,180. For intra-state sales, this splits equally into CGST and SGST."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between GST inclusive and GST exclusive?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "GST exclusive means the price does not include tax \u2014 GST is added on top. This is standard in B2B invoices. GST inclusive means the displayed price already contains the tax component. To extract the base price from a GST-inclusive amount, divide the total by (1 + GST rate/100). Retail MRP prices in India are typically GST inclusive."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between CGST, SGST, and IGST?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CGST (Central GST) and SGST (State GST) apply to intra-state transactions \u2014 sales within the same state. Each equals half the total GST rate. IGST (Integrated GST) applies to inter-state transactions \u2014 sales between different states \u2014 and equals the full GST rate. IGST is collected by the Central Government and distributed to the destination state."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the current GST slab rates in India for 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "India has four main GST slabs: 5% for essential items like packaged food and economy footwear, 12% for processed foods and business-class air travel, 18% for most goods and services including IT services and restaurant dining, and 28% for luxury items like automobiles and cement. Some goods attract 0%, 0.25%, or 3% rates as special categories."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I calculate GST from a total amount (reverse calculation)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "To reverse-calculate GST from a total inclusive amount, use this formula: Base Price = Total Amount \u00F7 (1 + GST Rate/100). For example, if the total is \u20B91,180 at 18% GST, the base price equals \u20B91,180 \u00F7 1.18 = \u20B91,000 and the GST component is \u20B9180. Our calculator handles this instantly when you select the inclusive option."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who needs to register for GST in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "GST registration is mandatory for businesses with annual turnover exceeding \u20B940 lakhs for goods (\u20B920 lakhs in special category states) and \u20B920 lakhs for services (\u20B910 lakhs in special category states). Inter-state suppliers, e-commerce operators, casual taxable persons, and non-resident taxable persons must register regardless of turnover as per the CGST Act, 2017."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the GST Composition Scheme and who can opt for it?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The GST Composition Scheme is a simplified tax option for small businesses with turnover up to \u20B91.5 crore (\u20B975 lakhs for special category states). Manufacturers and traders pay GST at 1% of turnover, restaurants pay 5%, and other service providers pay 6%. Composition dealers cannot collect GST from customers, claim input tax credit, or make inter-state supplies."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Input Tax Credit (ITC) under GST?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Input Tax Credit allows registered businesses to reduce GST paid on purchases from the GST payable on sales. For example, if you pay \u20B91,800 GST on raw materials and collect \u20B93,600 GST on finished goods, you remit only \u20B91,800 to the government. ITC claims require valid tax invoices, actual receipt of goods or services, and filing of GSTR-3B returns."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the penalties for late GST return filing in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late filing of GSTR-3B attracts a late fee of \u20B950 per day (\u20B925 CGST + \u20B925 SGST) for regular returns and \u20B920 per day for nil returns, capped at \u20B95,000 per return period. Additionally, interest at 18% per annum is charged on the outstanding tax liability from the due date. Persistent non-filing can lead to suspension or cancellation of GST registration."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which goods and services are exempt from GST in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Essential goods exempt from GST include fresh fruits, vegetables, milk, eggs, bread, salt, natural honey, and unprocessed cereals. Exempt services include healthcare, education up to higher secondary level, public transport, agricultural services, and bank interest. Petroleum products, alcoholic liquor for human consumption, and electricity are outside the GST framework and taxed separately by states."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is GST calculated on services like consulting or freelancing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most professional services such as consulting, freelancing, IT services, and accounting attract 18% GST. If the service provider and client are in the same state, 9% CGST plus 9% SGST applies. For inter-state services, 18% IGST applies. Freelancers with annual turnover below \u20B920 lakhs are exempt from GST registration and do not need to charge GST on their invoices."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Reverse Charge Mechanism (RCM) under GST?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under Reverse Charge Mechanism, the recipient of goods or services pays GST directly to the government instead of the supplier. RCM applies to notified goods and services, imports, purchases from unregistered dealers above specified limits, and services from goods transport agencies. The recipient must self-invoice and can claim ITC on RCM payments after remittance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the GST rate on gold and jewellery in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gold, silver, and platinum jewellery attract 3 percent GST on the value of metal plus making charges. Making charges are taxed at 5 percent GST. For example on a gold necklace worth 1 lakh with 10000 making charges the total GST is 3000 on gold value plus 500 on making charges totalling 3500. Diamonds and precious stones attract 0.25 percent GST."
+          }
+        }
+      ]
+    }
+    </script>
+@endsection
 @section('content')
 <!-- Sticky TOC Nav -->
     <nav class="toc-nav" aria-label="Page Navigation">

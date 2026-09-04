@@ -1,143 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Net Worth Certificate for NBFC Registration 2026 | Patron Accounting</title>
-    <meta name="description" content="CA net worth and NOF certificate for NBFC RBI registration in Pune. Certifies the RBI 10 crore Net Owned Fund, UDIN-verified. From INR 14,999.">
-    <link rel="canonical" href="/net-worth-certificate-for-nbfc-rbi-registration/pune">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Net Worth Certificate for NBFC Registration 2026 | Patron Accounting">
-    <meta property="og:description" content="CA net worth and NOF certificate for NBFC RBI registration in Pune. Certifies the RBI 10 crore Net Owned Fund, UDIN-verified. From INR 14,999.">
-    <meta property="og:url" content="/net-worth-certificate-for-nbfc-rbi-registration/pune">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Net Worth Certificate for NBFC Registration 2026 | Patron Accounting">
-    <meta name="twitter:description" content="CA net worth and NOF certificate for NBFC RBI registration in Pune. Certifies the RBI 10 crore Net Owned Fund, UDIN-verified. From INR 14,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-nbfc-rbi-registration/pune/#service",
-        "name": "Net Worth Certificate for NBFC / RBI Registration in Pune",
-        "description": "Statutory-auditor-grade net worth and Net Owned Fund certificate for NBFC RBI registration in Pune, computed under Section 45-IA of the RBI Act 1934 from audited financials, confirming the minimum INR 10 crore NOF, issued with a mandatory 18-digit UDIN by ICAI-registered Chartered Accountants.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/net-worth-certificate-for-nbfc-rbi-registration/pune" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Non-banking financial company", "sameAs": "https://en.wikipedia.org/wiki/Non-bank_financial_institution" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Net Worth Certificate for NBFC / RBI Registration Service Plans",
-            "itemListElement": [
-                { "@type": "Offer", "name": "Net Worth Certificate for NBFC / RBI Registration", "price": "14999", "priceCurrency": "INR", "description": "Starting from INR 14,999 (Exl GST and Govt. Charges)" }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-nbfc-rbi-registration/pune/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
-            { "@type": "ListItem", "position": 3, "name": "Net Worth Certificate for NBFC / RBI Registration", "item": "https://www.patronaccounting.com/net-worth-certificate-for-nbfc-rbi-registration/pune" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-nbfc-rbi-registration/pune/#faq",
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "mainEntity": [
-            { "@type": "Question", "name": "What is the minimum net worth required for NBFC registration?", "acceptedAnswer": { "@type": "Answer", "text": "The RBI requires a minimum Net Owned Fund of INR 10 crore for a new NBFC under Section 45-IA of the RBI Act, 1934, effective 1 October 2022. NOF is not general net worth; it is paid-up equity plus free reserves, less accumulated losses, deferred expenditure and intangibles, and less intra-group exposures beyond 10 percent. Specialized NBFCs such as NBFC-IFC or HFC have higher thresholds." } },
-{ "@type": "Question", "name": "Is NOF the same as a net worth certificate?", "acceptedAnswer": { "@type": "Answer", "text": "No. A net worth certificate states total assets minus liabilities. Net Owned Fund is a stricter statutory figure under Section 45-IA that also deducts intangible assets and intra-group investments and loans exceeding 10 percent of owned funds. For NBFC registration the RBI wants the NOF figure, usually certified by the statutory auditor from audited financials, not a generic net worth statement." } },
-{ "@type": "Question", "name": "Who certifies the NOF for an NBFC application?", "acceptedAnswer": { "@type": "Answer", "text": "The Net Owned Fund is certified by a Chartered Accountant, typically the statutory auditor, on letterhead with an 18-digit UDIN, accompanied by a banker\u0027s certificate confirming the capital is deposited and free of lien. Both documents form part of the RBI Certificate of Registration application filed through the COSMOS portal." } },
-{ "@type": "Question", "name": "Must the NOF be equity and not borrowed?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The RBI requires the NOF to be equity-based and unencumbered, not funded by loans or borrowings. The capital must be deposited in the company bank account and certified lien-free. During scrutiny the RBI examines the source of funds to prevent money laundering, so a documented equity trail is essential for a clean approval." } },
-{ "@type": "Question", "name": "How long does NBFC registration take?", "acceptedAnswer": { "@type": "Answer", "text": "The RBI typically processes a complete NBFC application in three to six months, subject to background checks and scrutiny of the business model and source of funds. A correctly computed NOF certificate, a lien-free banker\u0027s certificate, and clean director credit reports reduce the risk of queries and delays. Patron Accounting prepares the certification to withstand this scrutiny." } },
-{ "@type": "Question", "name": "Why does this certificate cost more than other net worth certificates?", "acceptedAnswer": { "@type": "Answer", "text": "NBFC NOF certification is statutory-auditor-grade work. It involves verifying audited financials, applying the Section 45-IA deductions including the intra-group 10 percent rule, coordinating a banker\u0027s certificate, and supporting RBI scrutiny. This depth, and the regulatory responsibility it carries, is why the starting fee is INR 14,999, well above routine net worth certificates." } }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-nbfc-rbi-registration/pune",
-        "name": "Net Worth Certificate for NBFC / RBI Registration in Pune",
-        "description": "CA net worth and NOF certificate for NBFC RBI registration in Pune. Certifies the RBI 10 crore Net Owned Fund, UDIN-verified. From INR 14,999.",
-        "url": "https://www.patronaccounting.com/net-worth-certificate-for-nbfc-rbi-registration/pune",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-nbfc-rbi-registration/pune/#service" },
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-nbfc-rbi-registration/pune/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How an NBFC NOF Certificate Is Issued",
-        "description": "The step-by-step process Patron Accounting follows to compute and certify Net Owned Fund under Section 45-IA for an RBI NBFC application in Pune.",
-        "totalTime": "P7D",
-        "step": [
-            { "@type": "HowToStep", "position": 1, "name": "Confirm NBFC category", "text": "Confirm the NBFC category (ICC, MFI, Factor, IFC, HFC) and the applicable NOF threshold." },
-{ "@type": "HowToStep", "position": 2, "name": "Collect documents", "text": "Collect audited financials, capital infusion proof, bank statements, MoA / AoA, and board resolution." },
-{ "@type": "HowToStep", "position": 3, "name": "Compute NOF", "text": "Compute NOF under Section 45-IA: paid-up equity plus free reserves, less accumulated losses, deferred expenditure and intangibles, less excess intra-group exposure over 10 percent." },
-{ "@type": "HowToStep", "position": 4, "name": "Verify capital", "text": "Independently verify capital and exposures under SA 500 (Audit Evidence) and SA 505 (External Confirmations)." },
-{ "@type": "HowToStep", "position": 5, "name": "Issue with UDIN", "text": "Issue the NOF / net worth certificate with UDIN, alongside the banker\u0027s certificate." },
-{ "@type": "HowToStep", "position": 6, "name": "Support COSMOS filing", "text": "Support the COSMOS submission and respond to RBI scrutiny on capital adequacy and source of funds." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Net Worth Certificate for NBFC / RBI Registration Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Net Owned Fund", "description": "The statutory capital figure under Section 45-IA of the RBI Act 1934 used to test NBFC eligibility." },
-{ "@type": "DefinedTerm", "name": "Certificate of Registration", "description": "The RBI licence an NBFC must hold to carry on business." },
-{ "@type": "DefinedTerm", "name": "COSMOS", "description": "The RBI online portal for NBFC registration applications." },
-{ "@type": "DefinedTerm", "name": "Scale-Based Regulation", "description": "The 2023 RBI framework tiering NBFCs by size and risk." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -751,7 +618,145 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Net Worth Certificate for NBFC Registration 2026 | Patron Accounting</title>
+    <meta name="description" content="CA net worth and NOF certificate for NBFC RBI registration in Pune. Certifies the RBI 10 crore Net Owned Fund, UDIN-verified. From INR 14,999.">
+    <link rel="canonical" href="/net-worth-certificate-for-nbfc-rbi-registration/pune">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Net Worth Certificate for NBFC Registration 2026 | Patron Accounting">
+    <meta property="og:description" content="CA net worth and NOF certificate for NBFC RBI registration in Pune. Certifies the RBI 10 crore Net Owned Fund, UDIN-verified. From INR 14,999.">
+    <meta property="og:url" content="/net-worth-certificate-for-nbfc-rbi-registration/pune">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Net Worth Certificate for NBFC Registration 2026 | Patron Accounting">
+    <meta name="twitter:description" content="CA net worth and NOF certificate for NBFC RBI registration in Pune. Certifies the RBI 10 crore Net Owned Fund, UDIN-verified. From INR 14,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-nbfc-rbi-registration/pune/#service",
+        "name": "Net Worth Certificate for NBFC / RBI Registration in Pune",
+        "description": "Statutory-auditor-grade net worth and Net Owned Fund certificate for NBFC RBI registration in Pune, computed under Section 45-IA of the RBI Act 1934 from audited financials, confirming the minimum INR 10 crore NOF, issued with a mandatory 18-digit UDIN by ICAI-registered Chartered Accountants.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/net-worth-certificate-for-nbfc-rbi-registration/pune" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Non-banking financial company", "sameAs": "https://en.wikipedia.org/wiki/Non-bank_financial_institution" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Net Worth Certificate for NBFC / RBI Registration Service Plans",
+            "itemListElement": [
+                { "@type": "Offer", "name": "Net Worth Certificate for NBFC / RBI Registration", "price": "14999", "priceCurrency": "INR", "description": "Starting from INR 14,999 (Exl GST and Govt. Charges)" }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-nbfc-rbi-registration/pune/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
+            { "@type": "ListItem", "position": 3, "name": "Net Worth Certificate for NBFC / RBI Registration", "item": "https://www.patronaccounting.com/net-worth-certificate-for-nbfc-rbi-registration/pune" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-nbfc-rbi-registration/pune/#faq",
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "mainEntity": [
+            { "@type": "Question", "name": "What is the minimum net worth required for NBFC registration?", "acceptedAnswer": { "@type": "Answer", "text": "The RBI requires a minimum Net Owned Fund of INR 10 crore for a new NBFC under Section 45-IA of the RBI Act, 1934, effective 1 October 2022. NOF is not general net worth; it is paid-up equity plus free reserves, less accumulated losses, deferred expenditure and intangibles, and less intra-group exposures beyond 10 percent. Specialized NBFCs such as NBFC-IFC or HFC have higher thresholds." } },
+{ "@type": "Question", "name": "Is NOF the same as a net worth certificate?", "acceptedAnswer": { "@type": "Answer", "text": "No. A net worth certificate states total assets minus liabilities. Net Owned Fund is a stricter statutory figure under Section 45-IA that also deducts intangible assets and intra-group investments and loans exceeding 10 percent of owned funds. For NBFC registration the RBI wants the NOF figure, usually certified by the statutory auditor from audited financials, not a generic net worth statement." } },
+{ "@type": "Question", "name": "Who certifies the NOF for an NBFC application?", "acceptedAnswer": { "@type": "Answer", "text": "The Net Owned Fund is certified by a Chartered Accountant, typically the statutory auditor, on letterhead with an 18-digit UDIN, accompanied by a banker\u0027s certificate confirming the capital is deposited and free of lien. Both documents form part of the RBI Certificate of Registration application filed through the COSMOS portal." } },
+{ "@type": "Question", "name": "Must the NOF be equity and not borrowed?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The RBI requires the NOF to be equity-based and unencumbered, not funded by loans or borrowings. The capital must be deposited in the company bank account and certified lien-free. During scrutiny the RBI examines the source of funds to prevent money laundering, so a documented equity trail is essential for a clean approval." } },
+{ "@type": "Question", "name": "How long does NBFC registration take?", "acceptedAnswer": { "@type": "Answer", "text": "The RBI typically processes a complete NBFC application in three to six months, subject to background checks and scrutiny of the business model and source of funds. A correctly computed NOF certificate, a lien-free banker\u0027s certificate, and clean director credit reports reduce the risk of queries and delays. Patron Accounting prepares the certification to withstand this scrutiny." } },
+{ "@type": "Question", "name": "Why does this certificate cost more than other net worth certificates?", "acceptedAnswer": { "@type": "Answer", "text": "NBFC NOF certification is statutory-auditor-grade work. It involves verifying audited financials, applying the Section 45-IA deductions including the intra-group 10 percent rule, coordinating a banker\u0027s certificate, and supporting RBI scrutiny. This depth, and the regulatory responsibility it carries, is why the starting fee is INR 14,999, well above routine net worth certificates." } }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-nbfc-rbi-registration/pune",
+        "name": "Net Worth Certificate for NBFC / RBI Registration in Pune",
+        "description": "CA net worth and NOF certificate for NBFC RBI registration in Pune. Certifies the RBI 10 crore Net Owned Fund, UDIN-verified. From INR 14,999.",
+        "url": "https://www.patronaccounting.com/net-worth-certificate-for-nbfc-rbi-registration/pune",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-nbfc-rbi-registration/pune/#service" },
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-nbfc-rbi-registration/pune/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How an NBFC NOF Certificate Is Issued",
+        "description": "The step-by-step process Patron Accounting follows to compute and certify Net Owned Fund under Section 45-IA for an RBI NBFC application in Pune.",
+        "totalTime": "P7D",
+        "step": [
+            { "@type": "HowToStep", "position": 1, "name": "Confirm NBFC category", "text": "Confirm the NBFC category (ICC, MFI, Factor, IFC, HFC) and the applicable NOF threshold." },
+{ "@type": "HowToStep", "position": 2, "name": "Collect documents", "text": "Collect audited financials, capital infusion proof, bank statements, MoA / AoA, and board resolution." },
+{ "@type": "HowToStep", "position": 3, "name": "Compute NOF", "text": "Compute NOF under Section 45-IA: paid-up equity plus free reserves, less accumulated losses, deferred expenditure and intangibles, less excess intra-group exposure over 10 percent." },
+{ "@type": "HowToStep", "position": 4, "name": "Verify capital", "text": "Independently verify capital and exposures under SA 500 (Audit Evidence) and SA 505 (External Confirmations)." },
+{ "@type": "HowToStep", "position": 5, "name": "Issue with UDIN", "text": "Issue the NOF / net worth certificate with UDIN, alongside the banker\u0027s certificate." },
+{ "@type": "HowToStep", "position": 6, "name": "Support COSMOS filing", "text": "Support the COSMOS submission and respond to RBI scrutiny on capital adequacy and source of funds." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Net Worth Certificate for NBFC / RBI Registration Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Net Owned Fund", "description": "The statutory capital figure under Section 45-IA of the RBI Act 1934 used to test NBFC eligibility." },
+{ "@type": "DefinedTerm", "name": "Certificate of Registration", "description": "The RBI licence an NBFC must hold to carry on business." },
+{ "@type": "DefinedTerm", "name": "COSMOS", "description": "The RBI online portal for NBFC registration applications." },
+{ "@type": "DefinedTerm", "name": "Scale-Based Regulation", "description": "The 2023 RBI framework tiering NBFCs by size and risk." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1390,22 +1395,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
-<!-- ============================================
-     CONSULTATION FORM — Country Dropdown + Validation + Bigin Integration
-     ============================================ -->
-{{-- Enquiry form markup + JS now in partials/enquiry-form.blade.php --}}
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1428,8 +1421,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1466,7 +1457,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1477,3 +1467,24 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+<!-- ============================================
+     CONSULTATION FORM — Country Dropdown + Validation + Bigin Integration
+     ============================================ -->
+{{-- Enquiry form markup + JS now in partials/enquiry-form.blade.php --}}
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

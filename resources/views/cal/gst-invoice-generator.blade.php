@@ -1,62 +1,5 @@
 @extends('layouts.app')
-@section('meta')
-    <title>GST Invoice Generator India | Free GST Invoice Maker</title>
-    <meta name="description" content="GST invoice generator: create tax invoices with CGST, SGST and IGST breakdowns, HSN/SAC codes and all mandatory fields per CGST Rules. Download as PDF, free!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/gst-invoice-generator">
-    <meta property="og:title" content="GST Invoice Generator India &mdash; Free Invoice Maker 2026">
-    <meta property="og:description" content="GST Invoice Generator creates tax invoices with CGST, SGST, IGST breakdowns, HSN/SAC codes, and mandatory fields per CGST Rules. Download as PDF free!">
-    <meta property="og:type" content="website">
-    <meta property="og:locale" content="en_IN">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/gst-invoice-generator">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="GST Invoice Generator India &mdash; Free Invoice Maker 2026">
-    <meta name="twitter:description" content="Create GST-compliant invoices with automatic tax calculations. Download as PDF. Try now!">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-<script type="application/ld+json">
-    {
-      "@context":"https://schema.org","@type":"WebApplication",
-      "name":"GST Invoice Generator India",
-      "description":"GST Invoice Generator creates fully compliant tax invoices with automatic CGST, SGST, and IGST breakdowns, HSN/SAC code fields, place of supply, and all mandatory fields per Rule 46 of the CGST Rules 2017. Supports intra-state and inter-state invoices with PDF download.",
-      "url":"https://www.patronaccounting.com/tools/gst-invoice-generator",
-      "applicationCategory":"UtilityApplication","operatingSystem":"Any",
-      "datePublished":"2026-03-05","dateModified":"2026-03-05",
-      "offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},
-      "author":{"@type":"Person","@id":"https://patronaccounting.com/#team","name":"CA & CS Patron Accounting Team","jobTitle":"Chartered Accountants & Company Secretaries","url":"https://www.patronaccounting.com/contact-page","sameAs":["https://www.linkedin.com/company/patron-accounting"],"hasCredential":[{"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"Chartered Accountant (CA)","recognizedBy":{"@type":"Organization","name":"Institute of Chartered Accountants of India","sameAs":"https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"}}]},
-      "publisher":{"@type":"Organization","name":"Patron Accounting LLP","url":"https://www.patronaccounting.com","logo":{"@type":"ImageObject","url":"https://www.patronaccounting.com/images/site-logo.svg"}},
-      "provider":{"@id":"https://patronaccounting.com/#organization"}
-    }
-    </script>
-<script type="application/ld+json">
-    {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.patronaccounting.com/"},{"@type":"ListItem","position":2,"name":"Free Tools","item":"https://www.patronaccounting.com/tools"},{"@type":"ListItem","position":3,"name":"GST Invoice Generator","item":"https://www.patronaccounting.com/tools/gst-invoice-generator"}]}
-    </script>
-<script type="application/ld+json">
-    {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
-      {"@type":"Question","name":"What mandatory fields must a GST invoice contain in India?","acceptedAnswer":{"@type":"Answer","text":"Under Rule 46 of CGST Rules 2017, a GST invoice must contain supplier name, address, GSTIN, unique sequential invoice number, date, recipient name, address, GSTIN for B2B, place of supply with state code, HSN or SAC codes, item description and quantity, taxable value, GST rates, CGST/SGST or IGST amounts, total value in figures and words, and authorised signature."}},
-      {"@type":"Question","name":"What is the difference between a tax invoice and a bill of supply?","acceptedAnswer":{"@type":"Answer","text":"A tax invoice is issued by registered taxpayers for taxable supplies and includes GST breakdowns enabling ITC claims. A bill of supply is issued when the supplier cannot charge GST, either under the composition scheme or for exempt supplies. Bills of supply do not show tax amounts separately. Our generator creates both formats based on your selection."}},
-      {"@type":"Question","name":"When should I use CGST/SGST versus IGST on my invoice?","acceptedAnswer":{"@type":"Answer","text":"Use CGST plus SGST when supplier and place of supply are in the same state, called intra-state supply. Each component equals half the total GST rate. Use IGST when they are in different states, called inter-state supply, or for exports. IGST equals the full GST rate. Place of supply rules under IGST Act 2017 determine which tax applies."}},
-      {"@type":"Question","name":"Is it mandatory to mention HSN/SAC codes on GST invoices?","acceptedAnswer":{"@type":"Answer","text":"Yes, per CGST Notification 78/2020 effective April 2021, HSN codes for goods and SAC codes for services are mandatory. Businesses with turnover up to five crore use 4-digit codes on B2B invoices. Above five crore must use 6-digit codes on all invoices. For imports and exports, 8-digit HSN codes are compulsory regardless of turnover."}},
-      {"@type":"Question","name":"What is the time limit for issuing a GST invoice in India?","acceptedAnswer":{"@type":"Answer","text":"For goods, issue the invoice on or before the date of removal or delivery. For services, issue within 30 days from the date of supply. Banking and financial services have 45 days. For advance payments received for services, issue a receipt voucher at the time of receipt. Late issuance affects time of supply determination under CGST Act."}},
-      {"@type":"Question","name":"What is e-invoicing under GST and who needs to comply?","acceptedAnswer":{"@type":"Answer","text":"E-invoicing is electronic generation and validation of invoices through the GST Invoice Registration Portal. As of 2026, businesses with annual aggregate turnover exceeding five crore rupees must comply. The system generates an Invoice Reference Number and QR code per invoice. Non-compliance results in penalties and recipient losing ITC eligibility."}},
-      {"@type":"Question","name":"Can I issue a GST invoice without the recipient GSTIN?","acceptedAnswer":{"@type":"Answer","text":"Yes, for B2C transactions where the recipient is unregistered, GSTIN is not required. However, if invoice value exceeds fifty thousand rupees, recipient name, address, and state with state code are mandatory. For B2B transactions between registered persons, the recipient GSTIN is always mandatory to enable Input Tax Credit claims."}},
-      {"@type":"Question","name":"What is the correct format for a GST invoice number?","acceptedAnswer":{"@type":"Answer","text":"A GST invoice number must be unique, sequential within a financial year, and can contain alphabets, numerals, hyphens, and slashes. Maximum length is 16 characters. Numbers must not repeat across financial years. Common formats include INV/2025-26/001 or PA-001-2526. The numbering series should restart at the beginning of each financial year."}},
-      {"@type":"Question","name":"What are the penalties for not issuing a proper GST invoice?","acceptedAnswer":{"@type":"Answer","text":"Under Section 122 of CGST Act 2017, failure to issue a proper invoice attracts a penalty of ten thousand rupees or the tax amount involved, whichever is higher. The recipient may lose their right to claim Input Tax Credit. Incorrect invoices also trigger demand notices during GST audits and assessments under Sections 73 and 74."}},
-      {"@type":"Question","name":"How many copies of a GST invoice are required?","acceptedAnswer":{"@type":"Answer","text":"For goods, three copies: original for recipient, duplicate for transporter, triplicate for supplier records. For services, two copies: original for recipient and duplicate for supplier. Our generator creates a professional PDF that you can print in the required number of copies as needed for your business records."}},
-      {"@type":"Question","name":"Can I include multiple GST rates in a single invoice?","acceptedAnswer":{"@type":"Answer","text":"Yes, a single GST invoice can include items with different GST rates. The tax calculation must be shown separately for each rate. The invoice should display taxable value, GST rate, and tax amount for each line item. Total CGST, SGST, and IGST must appear separately in the summary. Our generator handles multiple rates automatically."}},
-      {"@type":"Question","name":"Is a digital signature required on a GST invoice?","acceptedAnswer":{"@type":"Answer","text":"A GST invoice must be signed or verified by the supplier or authorised representative. The signature can be handwritten or digital per the Information Technology Act 2000. For e-invoices, digital signature is embedded via the Invoice Registration Portal. Computer-generated invoices with authentication codes are also accepted under GST rules."}}
-    ]}
-    </script>
-@endsection
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+@push('styles')
 <style>
         :root{--primary:#1B4D3E;--primary-light:#2A7A5F;--primary-dark:#0F2E25;--accent:#F59E0B;--accent-light:#FCD34D;--surface:#FAFAF8;--surface-alt:#F0EFEB;--card:#FFFFFF;--text:#1A1A1A;--text-secondary:#555555;--text-muted:#888888;--border:#E5E5E0;--success:#059669;--info:#0EA5E9;--danger:#DC2626;--radius:12px;--radius-lg:20px;--shadow-sm:0 1px 3px rgba(0,0,0,.06);--shadow-md:0 4px 16px rgba(0,0,0,.08);--shadow-lg:0 8px 32px rgba(0,0,0,.1);--font-body:'DM Sans',sans-serif;--font-mono:'Space Mono',monospace}
         *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
@@ -303,6 +246,66 @@
 .toggle-btn{font-size:13px;padding:10px 12px}
 }
 </style>
+@endpush
+
+@section('meta')
+    <title>GST Invoice Generator India | Free GST Invoice Maker</title>
+    <meta name="description" content="GST invoice generator: create tax invoices with CGST, SGST and IGST breakdowns, HSN/SAC codes and all mandatory fields per CGST Rules. Download as PDF, free!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/gst-invoice-generator">
+    <meta property="og:title" content="GST Invoice Generator India &mdash; Free Invoice Maker 2026">
+    <meta property="og:description" content="GST Invoice Generator creates tax invoices with CGST, SGST, IGST breakdowns, HSN/SAC codes, and mandatory fields per CGST Rules. Download as PDF free!">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_IN">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/gst-invoice-generator">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GST Invoice Generator India &mdash; Free Invoice Maker 2026">
+    <meta name="twitter:description" content="Create GST-compliant invoices with automatic tax calculations. Download as PDF. Try now!">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+@endsection
+
+@section('schema')
+<script type="application/ld+json">
+    {
+      "@context":"https://schema.org","@type":"WebApplication",
+      "name":"GST Invoice Generator India",
+      "description":"GST Invoice Generator creates fully compliant tax invoices with automatic CGST, SGST, and IGST breakdowns, HSN/SAC code fields, place of supply, and all mandatory fields per Rule 46 of the CGST Rules 2017. Supports intra-state and inter-state invoices with PDF download.",
+      "url":"https://www.patronaccounting.com/tools/gst-invoice-generator",
+      "applicationCategory":"UtilityApplication","operatingSystem":"Any",
+      "datePublished":"2026-03-05","dateModified":"2026-03-05",
+      "offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},
+      "author":{"@type":"Person","@id":"https://patronaccounting.com/#team","name":"CA & CS Patron Accounting Team","jobTitle":"Chartered Accountants & Company Secretaries","url":"https://www.patronaccounting.com/contact-page","sameAs":["https://www.linkedin.com/company/patron-accounting"],"hasCredential":[{"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"Chartered Accountant (CA)","recognizedBy":{"@type":"Organization","name":"Institute of Chartered Accountants of India","sameAs":"https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"}}]},
+      "publisher":{"@type":"Organization","name":"Patron Accounting LLP","url":"https://www.patronaccounting.com","logo":{"@type":"ImageObject","url":"https://www.patronaccounting.com/images/site-logo.svg"}},
+      "provider":{"@id":"https://patronaccounting.com/#organization"}
+    }
+    </script>
+<script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.patronaccounting.com/"},{"@type":"ListItem","position":2,"name":"Free Tools","item":"https://www.patronaccounting.com/tools"},{"@type":"ListItem","position":3,"name":"GST Invoice Generator","item":"https://www.patronaccounting.com/tools/gst-invoice-generator"}]}
+    </script>
+<script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+      {"@type":"Question","name":"What mandatory fields must a GST invoice contain in India?","acceptedAnswer":{"@type":"Answer","text":"Under Rule 46 of CGST Rules 2017, a GST invoice must contain supplier name, address, GSTIN, unique sequential invoice number, date, recipient name, address, GSTIN for B2B, place of supply with state code, HSN or SAC codes, item description and quantity, taxable value, GST rates, CGST/SGST or IGST amounts, total value in figures and words, and authorised signature."}},
+      {"@type":"Question","name":"What is the difference between a tax invoice and a bill of supply?","acceptedAnswer":{"@type":"Answer","text":"A tax invoice is issued by registered taxpayers for taxable supplies and includes GST breakdowns enabling ITC claims. A bill of supply is issued when the supplier cannot charge GST, either under the composition scheme or for exempt supplies. Bills of supply do not show tax amounts separately. Our generator creates both formats based on your selection."}},
+      {"@type":"Question","name":"When should I use CGST/SGST versus IGST on my invoice?","acceptedAnswer":{"@type":"Answer","text":"Use CGST plus SGST when supplier and place of supply are in the same state, called intra-state supply. Each component equals half the total GST rate. Use IGST when they are in different states, called inter-state supply, or for exports. IGST equals the full GST rate. Place of supply rules under IGST Act 2017 determine which tax applies."}},
+      {"@type":"Question","name":"Is it mandatory to mention HSN/SAC codes on GST invoices?","acceptedAnswer":{"@type":"Answer","text":"Yes, per CGST Notification 78/2020 effective April 2021, HSN codes for goods and SAC codes for services are mandatory. Businesses with turnover up to five crore use 4-digit codes on B2B invoices. Above five crore must use 6-digit codes on all invoices. For imports and exports, 8-digit HSN codes are compulsory regardless of turnover."}},
+      {"@type":"Question","name":"What is the time limit for issuing a GST invoice in India?","acceptedAnswer":{"@type":"Answer","text":"For goods, issue the invoice on or before the date of removal or delivery. For services, issue within 30 days from the date of supply. Banking and financial services have 45 days. For advance payments received for services, issue a receipt voucher at the time of receipt. Late issuance affects time of supply determination under CGST Act."}},
+      {"@type":"Question","name":"What is e-invoicing under GST and who needs to comply?","acceptedAnswer":{"@type":"Answer","text":"E-invoicing is electronic generation and validation of invoices through the GST Invoice Registration Portal. As of 2026, businesses with annual aggregate turnover exceeding five crore rupees must comply. The system generates an Invoice Reference Number and QR code per invoice. Non-compliance results in penalties and recipient losing ITC eligibility."}},
+      {"@type":"Question","name":"Can I issue a GST invoice without the recipient GSTIN?","acceptedAnswer":{"@type":"Answer","text":"Yes, for B2C transactions where the recipient is unregistered, GSTIN is not required. However, if invoice value exceeds fifty thousand rupees, recipient name, address, and state with state code are mandatory. For B2B transactions between registered persons, the recipient GSTIN is always mandatory to enable Input Tax Credit claims."}},
+      {"@type":"Question","name":"What is the correct format for a GST invoice number?","acceptedAnswer":{"@type":"Answer","text":"A GST invoice number must be unique, sequential within a financial year, and can contain alphabets, numerals, hyphens, and slashes. Maximum length is 16 characters. Numbers must not repeat across financial years. Common formats include INV/2025-26/001 or PA-001-2526. The numbering series should restart at the beginning of each financial year."}},
+      {"@type":"Question","name":"What are the penalties for not issuing a proper GST invoice?","acceptedAnswer":{"@type":"Answer","text":"Under Section 122 of CGST Act 2017, failure to issue a proper invoice attracts a penalty of ten thousand rupees or the tax amount involved, whichever is higher. The recipient may lose their right to claim Input Tax Credit. Incorrect invoices also trigger demand notices during GST audits and assessments under Sections 73 and 74."}},
+      {"@type":"Question","name":"How many copies of a GST invoice are required?","acceptedAnswer":{"@type":"Answer","text":"For goods, three copies: original for recipient, duplicate for transporter, triplicate for supplier records. For services, two copies: original for recipient and duplicate for supplier. Our generator creates a professional PDF that you can print in the required number of copies as needed for your business records."}},
+      {"@type":"Question","name":"Can I include multiple GST rates in a single invoice?","acceptedAnswer":{"@type":"Answer","text":"Yes, a single GST invoice can include items with different GST rates. The tax calculation must be shown separately for each rate. The invoice should display taxable value, GST rate, and tax amount for each line item. Total CGST, SGST, and IGST must appear separately in the summary. Our generator handles multiple rates automatically."}},
+      {"@type":"Question","name":"Is a digital signature required on a GST invoice?","acceptedAnswer":{"@type":"Answer","text":"A GST invoice must be signed or verified by the supplier or authorised representative. The signature can be handwritten or digital per the Information Technology Act 2000. For e-invoices, digital signature is embedded via the Invoice Registration Portal. Computer-generated invoices with authentication codes are also accepted under GST rules."}}
+    ]}
+    </script>
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation"><div class="toc-nav-inner">
     <a href="#generator">Generator</a>

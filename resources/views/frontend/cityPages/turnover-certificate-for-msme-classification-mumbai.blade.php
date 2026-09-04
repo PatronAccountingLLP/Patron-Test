@@ -1,146 +1,12 @@
 
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Turnover Certificate for MSME Classification in Mumbai 2026 | Patron Accounting</title>
-    <meta name="description" content="CA-certified turnover certificate for MSME classification and Udyam registration under the revised 2025 limits. UDIN-verified. From INR 1,999.">
-    <link rel="canonical" href="/turnover-certificate-for-msme-classification/mumbai">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Turnover Certificate for MSME Classification 2026 | Patron Accounting">
-    <meta property="og:description" content="CA-certified turnover certificate for MSME classification and Udyam registration under the revised 2025 limits. UDIN-verified. From INR 1,999.">
-    <meta property="og:url" content="/turnover-certificate-for-msme-classification/mumbai">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Turnover Certificate for MSME Classification 2026 | Patron Accounting">
-    <meta name="twitter:description" content="CA-certified turnover certificate for MSME classification and Udyam registration under the revised 2025 limits. UDIN-verified. From INR 1,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/turnover-certificate-for-msme-classification/mumbai/#service",
-        "name": "Turnover Certificate for MSME Classification in India",
-        "description": "CA-certified turnover certificate confirming an enterprise's annual turnover for Micro, Small or Medium classification under the MSMED Act 2006 and the revised limits effective 1 April 2025, used for Udyam registration, reclassification and institutional proof, issued with a mandatory UDIN.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/turnover-certificate-for-msme-classification/mumbai" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Micro, Small and Medium Enterprises", "sameAs": "https://en.wikipedia.org/wiki/Micro,_Small_and_Medium_Enterprises" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Turnover Certificate for MSME Classification Service Plans",
-            "itemListElement": [
-                { "@type": "Offer", "name": "Turnover Certificate for MSME Classification (UDIN-verified)", "priceCurrency": "INR", "price": "1999", "description": "CA-certified annual turnover for Micro, Small or Medium classification under the revised 2025 limits, with export turnover excluded and GSTINs aggregated under the PAN, with a UDIN for Udyam and institutional use." }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/turnover-certificate-for-msme-classification/mumbai/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Turnover Certificate", "item": "https://www.patronaccounting.com/turnover-certificate" },
-            { "@type": "ListItem", "position": 3, "name": "Turnover Certificate for MSME Classification", "item": "https://www.patronaccounting.com/turnover-certificate-for-msme-classification/mumbai" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/turnover-certificate-for-msme-classification/mumbai/#faq",
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "mainEntity": [
-            { "@type": "Question", "name": "Is a turnover certificate required for MSME classification?", "acceptedAnswer": { "@type": "Answer", "text": "The Udyam portal usually fetches turnover automatically from GST returns, so a certificate is not always mandatory. However, a CA turnover certificate is needed where GST data is unavailable or incomplete, where export turnover must be excluded, where multiple GSTINs under one PAN must be aggregated, or where a bank, buyer or tender authority requires independent CA confirmation of your MSME turnover." } },
-            { "@type": "Question", "name": "What are the revised MSME turnover limits in 2025?", "acceptedAnswer": { "@type": "Answer", "text": "Effective 1 April 2025 via Notification S.O. 1364(E), the turnover limits are up to Rs 10 crore for Micro, up to Rs 100 crore for Small, and up to Rs 500 crore for Medium enterprises. The matching investment limits are Rs 2.5 crore, Rs 25 crore and Rs 125 crore. Classification uses a composite criterion, so an enterprise must stay within both the investment and turnover limit for its category." } },
-            { "@type": "Question", "name": "Is export turnover counted for MSME classification?", "acceptedAnswer": { "@type": "Answer", "text": "No. Export turnover is excluded when calculating turnover for MSME classification. This means revenue earned from exports does not push an enterprise into a higher category. A CA turnover certificate separates domestic and export turnover so that only the relevant turnover is used for classification, protecting your MSME benefits while you grow exports." } },
-            { "@type": "Question", "name": "How are multiple GSTINs under one PAN treated?", "acceptedAnswer": { "@type": "Answer", "text": "All units with a GSTIN listed against the same PAN are collectively treated as one enterprise. Their turnover and investment figures are aggregated, and only the combined values decide the Micro, Small or Medium category. A CA turnover certificate consolidates turnover across all such GSTINs so your classification is accurate and consistent with the Udyam framework." } },
-            { "@type": "Question", "name": "How much does an MSME turnover certificate cost?", "acceptedAnswer": { "@type": "Answer", "text": "At Patron Accounting, an MSME turnover certificate starts from Rs 1,999 (exclusive of GST and government charges). The final fee depends on the number of GSTINs to aggregate, export adjustments, and the turnaround required. Udyam registration itself is free on the government portal. Fees are confirmed after a quick review of your books and returns." } },
-            { "@type": "Question", "name": "What happens when turnover crosses a category ceiling?", "acceptedAnswer": { "@type": "Answer", "text": "If turnover or investment crosses the ceiling for the current category, the enterprise is reclassified to the next higher category. On an upward move, the enterprise generally continues to enjoy the benefits of its earlier category for three years as a grace period. A CA turnover certificate confirms the correct turnover so reclassification is accurate and timely." } },
-            { "@type": "Question", "name": "Can a business without GST registration get the certificate?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. A business without a GSTIN, such as certain proprietorships or those below the GST threshold, can still obtain a CA turnover certificate from its books of accounts and Income Tax Return. This is useful for Udyam registration and for banks, since the Udyam portal allows PAN-based registration where GST does not apply. The CA certifies turnover from the available records." } }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/turnover-certificate-for-msme-classification/mumbai",
-        "name": "Turnover Certificate for MSME Classification in India",
-        "description": "CA-certified turnover certificate for MSME classification and Udyam registration under the revised 2025 limits. UDIN-verified. From INR 1,999.",
-        "url": "https://www.patronaccounting.com/turnover-certificate-for-msme-classification/mumbai",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/turnover-certificate-for-msme-classification/mumbai/#service" },
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/turnover-certificate-for-msme-classification/mumbai/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How to Obtain a Turnover Certificate for MSME Classification",
-        "description": "Five steps to obtain a CA turnover certificate for MSME classification: engagement, document submission, verification, computation with export exclusion and PAN aggregation, and certification with UDIN.",
-        "totalTime": "P2D",
-        "step": [
-            { "@type": "HowToStep", "name": "Engagement", "text": "Confirm the financial year, the purpose, and whether Udyam registration or update is involved." },
-            { "@type": "HowToStep", "name": "Document submission", "text": "Share books of accounts, GST returns, ITR and export details." },
-            { "@type": "HowToStep", "name": "Verification", "text": "The CA verifies turnover against books and returns under SA 500 (Audit Evidence)." },
-            { "@type": "HowToStep", "name": "Computation", "text": "The CA excludes export turnover, aggregates GSTINs under the PAN, and maps the category." },
-            { "@type": "HowToStep", "name": "Certification and UDIN", "text": "The CA signs, seals and generates the UDIN, issuing the turnover certificate." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Turnover Certificate for MSME Classification Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Composite criterion", "description": "Classification requires both investment and turnover to fall within the category limits." },
-            { "@type": "DefinedTerm", "name": "Udyam Registration", "description": "The free, Aadhaar-based MSME registration giving a 12-digit Udyam Registration Number (URN)." },
-            { "@type": "DefinedTerm", "name": "Export turnover exclusion", "description": "Revenue from exports is not counted in turnover for classification." },
-            { "@type": "DefinedTerm", "name": "PAN aggregation", "description": "All GSTINs under one PAN are treated as one enterprise; their turnover is aggregated." },
-            { "@type": "DefinedTerm", "name": "Reclassification", "description": "The category change when turnover or investment crosses a ceiling, with a 3-year grace on upward moves." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -754,7 +620,146 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Turnover Certificate for MSME Classification in Mumbai 2026 | Patron Accounting</title>
+    <meta name="description" content="CA-certified turnover certificate for MSME classification and Udyam registration under the revised 2025 limits. UDIN-verified. From INR 1,999.">
+    <link rel="canonical" href="/turnover-certificate-for-msme-classification/mumbai">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Turnover Certificate for MSME Classification 2026 | Patron Accounting">
+    <meta property="og:description" content="CA-certified turnover certificate for MSME classification and Udyam registration under the revised 2025 limits. UDIN-verified. From INR 1,999.">
+    <meta property="og:url" content="/turnover-certificate-for-msme-classification/mumbai">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Turnover Certificate for MSME Classification 2026 | Patron Accounting">
+    <meta name="twitter:description" content="CA-certified turnover certificate for MSME classification and Udyam registration under the revised 2025 limits. UDIN-verified. From INR 1,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/turnover-certificate-for-msme-classification/mumbai/#service",
+        "name": "Turnover Certificate for MSME Classification in India",
+        "description": "CA-certified turnover certificate confirming an enterprise's annual turnover for Micro, Small or Medium classification under the MSMED Act 2006 and the revised limits effective 1 April 2025, used for Udyam registration, reclassification and institutional proof, issued with a mandatory UDIN.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/turnover-certificate-for-msme-classification/mumbai" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Micro, Small and Medium Enterprises", "sameAs": "https://en.wikipedia.org/wiki/Micro,_Small_and_Medium_Enterprises" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Turnover Certificate for MSME Classification Service Plans",
+            "itemListElement": [
+                { "@type": "Offer", "name": "Turnover Certificate for MSME Classification (UDIN-verified)", "priceCurrency": "INR", "price": "1999", "description": "CA-certified annual turnover for Micro, Small or Medium classification under the revised 2025 limits, with export turnover excluded and GSTINs aggregated under the PAN, with a UDIN for Udyam and institutional use." }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/turnover-certificate-for-msme-classification/mumbai/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Turnover Certificate", "item": "https://www.patronaccounting.com/turnover-certificate" },
+            { "@type": "ListItem", "position": 3, "name": "Turnover Certificate for MSME Classification", "item": "https://www.patronaccounting.com/turnover-certificate-for-msme-classification/mumbai" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/turnover-certificate-for-msme-classification/mumbai/#faq",
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "mainEntity": [
+            { "@type": "Question", "name": "Is a turnover certificate required for MSME classification?", "acceptedAnswer": { "@type": "Answer", "text": "The Udyam portal usually fetches turnover automatically from GST returns, so a certificate is not always mandatory. However, a CA turnover certificate is needed where GST data is unavailable or incomplete, where export turnover must be excluded, where multiple GSTINs under one PAN must be aggregated, or where a bank, buyer or tender authority requires independent CA confirmation of your MSME turnover." } },
+            { "@type": "Question", "name": "What are the revised MSME turnover limits in 2025?", "acceptedAnswer": { "@type": "Answer", "text": "Effective 1 April 2025 via Notification S.O. 1364(E), the turnover limits are up to Rs 10 crore for Micro, up to Rs 100 crore for Small, and up to Rs 500 crore for Medium enterprises. The matching investment limits are Rs 2.5 crore, Rs 25 crore and Rs 125 crore. Classification uses a composite criterion, so an enterprise must stay within both the investment and turnover limit for its category." } },
+            { "@type": "Question", "name": "Is export turnover counted for MSME classification?", "acceptedAnswer": { "@type": "Answer", "text": "No. Export turnover is excluded when calculating turnover for MSME classification. This means revenue earned from exports does not push an enterprise into a higher category. A CA turnover certificate separates domestic and export turnover so that only the relevant turnover is used for classification, protecting your MSME benefits while you grow exports." } },
+            { "@type": "Question", "name": "How are multiple GSTINs under one PAN treated?", "acceptedAnswer": { "@type": "Answer", "text": "All units with a GSTIN listed against the same PAN are collectively treated as one enterprise. Their turnover and investment figures are aggregated, and only the combined values decide the Micro, Small or Medium category. A CA turnover certificate consolidates turnover across all such GSTINs so your classification is accurate and consistent with the Udyam framework." } },
+            { "@type": "Question", "name": "How much does an MSME turnover certificate cost?", "acceptedAnswer": { "@type": "Answer", "text": "At Patron Accounting, an MSME turnover certificate starts from Rs 1,999 (exclusive of GST and government charges). The final fee depends on the number of GSTINs to aggregate, export adjustments, and the turnaround required. Udyam registration itself is free on the government portal. Fees are confirmed after a quick review of your books and returns." } },
+            { "@type": "Question", "name": "What happens when turnover crosses a category ceiling?", "acceptedAnswer": { "@type": "Answer", "text": "If turnover or investment crosses the ceiling for the current category, the enterprise is reclassified to the next higher category. On an upward move, the enterprise generally continues to enjoy the benefits of its earlier category for three years as a grace period. A CA turnover certificate confirms the correct turnover so reclassification is accurate and timely." } },
+            { "@type": "Question", "name": "Can a business without GST registration get the certificate?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. A business without a GSTIN, such as certain proprietorships or those below the GST threshold, can still obtain a CA turnover certificate from its books of accounts and Income Tax Return. This is useful for Udyam registration and for banks, since the Udyam portal allows PAN-based registration where GST does not apply. The CA certifies turnover from the available records." } }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/turnover-certificate-for-msme-classification/mumbai",
+        "name": "Turnover Certificate for MSME Classification in India",
+        "description": "CA-certified turnover certificate for MSME classification and Udyam registration under the revised 2025 limits. UDIN-verified. From INR 1,999.",
+        "url": "https://www.patronaccounting.com/turnover-certificate-for-msme-classification/mumbai",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/turnover-certificate-for-msme-classification/mumbai/#service" },
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/turnover-certificate-for-msme-classification/mumbai/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Obtain a Turnover Certificate for MSME Classification",
+        "description": "Five steps to obtain a CA turnover certificate for MSME classification: engagement, document submission, verification, computation with export exclusion and PAN aggregation, and certification with UDIN.",
+        "totalTime": "P2D",
+        "step": [
+            { "@type": "HowToStep", "name": "Engagement", "text": "Confirm the financial year, the purpose, and whether Udyam registration or update is involved." },
+            { "@type": "HowToStep", "name": "Document submission", "text": "Share books of accounts, GST returns, ITR and export details." },
+            { "@type": "HowToStep", "name": "Verification", "text": "The CA verifies turnover against books and returns under SA 500 (Audit Evidence)." },
+            { "@type": "HowToStep", "name": "Computation", "text": "The CA excludes export turnover, aggregates GSTINs under the PAN, and maps the category." },
+            { "@type": "HowToStep", "name": "Certification and UDIN", "text": "The CA signs, seals and generates the UDIN, issuing the turnover certificate." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Turnover Certificate for MSME Classification Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Composite criterion", "description": "Classification requires both investment and turnover to fall within the category limits." },
+            { "@type": "DefinedTerm", "name": "Udyam Registration", "description": "The free, Aadhaar-based MSME registration giving a 12-digit Udyam Registration Number (URN)." },
+            { "@type": "DefinedTerm", "name": "Export turnover exclusion", "description": "Revenue from exports is not counted in turnover for classification." },
+            { "@type": "DefinedTerm", "name": "PAN aggregation", "description": "All GSTINs under one PAN are treated as one enterprise; their turnover is aggregated." },
+            { "@type": "DefinedTerm", "name": "Reclassification", "description": "The category change when turnover or investment crosses a ceiling, with a 3-year grace on upward moves." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1511,17 +1516,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1544,8 +1542,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1582,7 +1578,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (stable, not live date)
 (function(){
@@ -1593,3 +1588,19 @@ window.addEventListener('scroll', function() {
     if(el2)el2.textContent=dateStr;
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

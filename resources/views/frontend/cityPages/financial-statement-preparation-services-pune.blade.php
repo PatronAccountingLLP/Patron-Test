@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,208 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>Financial Statements Pune 2026 | Patron Accounting</title>
-    <meta name="description" content="Financial statement preparation in Pune from INR 9,999 per set. CA-led Balance Sheet, P and L, Cash Flow per Schedule III for Hinjewadi and Chakan firms.">
-    <link rel="canonical" href="/financial-statement-preparation-services/pune">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Financial Statements Pune 2026 | Patron Accounting">
-    <meta property="og:description" content="Financial statement preparation in Pune from INR 9,999 per set. CA-led Balance Sheet, P and L, Cash Flow per Schedule III for Hinjewadi and Chakan firms.">
-    <meta property="og:url" content="/financial-statement-preparation-services/pune">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Financial Statements Pune 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Financial statement preparation in Pune from INR 9,999 per set. CA-led Balance Sheet, P and L, Cash Flow per Schedule III for Hinjewadi and Chakan firms.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/financial-statement-preparation-services/pune#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Financial Statement Preparation Services",
-          "item": "https://www.patronaccounting.com/financial-statement-preparation-services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Financial Statement Preparation Services in Pune",
-          "item": "https://www.patronaccounting.com/financial-statement-preparation-services/pune"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/financial-statement-preparation-services/pune#faq",
-      "datePublished": "2026-06-23T08:00:00+05:30",
-      "dateModified": "2026-06-23T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What does financial statement preparation include for a Pune business?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "It includes preparing the Balance Sheet, Profit and Loss statement, Cash Flow statement, and Notes to Accounts in the format prescribed by Schedule III of the Companies Act 2013. For Pune firms, Patron prepares these under applicable AS or Ind AS so they are ready for banks, investors, and RoC filing."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does financial statement preparation cost in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patron Accounting charges Starting from INR 9,999 per set (Exl GST and Govt. Charges). The final fee depends on transaction volume, whether AS or Ind AS applies, the number of schedules, and turnaround needed. Hinjewadi startups and Chakan manufacturers receive a fixed quote before work begins."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Are unaudited financial statements valid for banks in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Banks and NBFCs routinely accept unaudited or provisional financials prepared by a professional for working capital, OD, and term loan assessment. Patron prepares Schedule III compliant statements with management certification that Pune lenders such as those in BKC-linked branches and local banks accept for credit appraisal."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between AS and Ind AS for Pune companies?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Accounting Standards (AS) apply to most SMEs, while Indian Accounting Standards (Ind AS) apply to listed and larger companies above prescribed net worth thresholds under the Companies (Ind AS) Rules 2015. Patron assesses which framework applies to your Pune entity and prepares statements accordingly."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do I need a Cash Flow statement for my Pune company?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Under the Companies Act 2013, a Cash Flow statement is part of financial statements for all companies except One Person Companies, small companies, and dormant companies. Patron prepares it using the indirect method per AS 3 or Ind AS 7 for Pune companies that require it for RoC filing or lenders."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which documents are needed to prepare financial statements in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "You provide the trial balance or accounting file, bank statements, GST returns, fixed asset register, loan schedules, and prior year financials. Patron uses these to build the Balance Sheet, Profit and Loss, Cash Flow, and Notes to Accounts, and flags any missing data before finalising the set."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does it take to prepare financial statements in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "For a Pune SME with clean books, a complete Schedule III set takes 3 to 7 working days. If the books need reconciliation first or Ind AS adjustments apply, it can take 2 to 3 weeks. Chakan manufacturers with inventory and multiple GSTINs sit at the longer end of this range."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can you prepare financial statements for RoC and MCA filing in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Patron prepares Schedule III compliant statements with the Notes to Accounts and disclosures needed for AOC-4 and MGT-7 filing through RoC Pune under the MCA. We align the format so your statutory auditor and company secretary can complete the annual filing without rework."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/financial-statement-preparation-services/pune#service",
-      "name": "Financial Statement Preparation Services in Pune",
-      "description": "Financial statement preparation in Pune covers the Balance Sheet, Profit and Loss, Cash Flow, and Notes to Accounts under Schedule III of the Companies Act 2013 and applicable AS or Ind AS. Patron Accounting prepares unaudited financials for SMEs in Hinjewadi, Magarpatta, and Chakan for banks, investors, and RoC filing.",
-      "serviceType": "Financial Statement Preparation",
-      "url": "https://www.patronaccounting.com/financial-statement-preparation-services/pune",
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Maharashtra"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#localbusiness-pune"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Financial statement",
-          "sameAs": "https://en.wikipedia.org/wiki/Financial_statement"
-        },
-        {
-          "@type": "Thing",
-          "name": "Balance sheet",
-          "sameAs": "https://en.wikipedia.org/wiki/Balance_sheet"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Financial Statement Preparation Plans in Pune",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "price": "9999",
-            "priceSpecification": {
-              "@type": "UnitPriceSpecification",
-              "priceCurrency": "INR",
-              "price": "9999",
-              "unitText": "per set"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Financial Statement Set per Year"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness-pune",
-      "name": "Patron Accounting LLP - Pune",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/financial-statement-preparation-services/pune",
-      "telephone": "+91-9699936369",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Pune",
-        "addressRegion": "Maharashtra",
-        "postalCode": "411014",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -815,7 +612,217 @@
         .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
 
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>Financial Statements Pune 2026 | Patron Accounting</title>
+    <meta name="description" content="Financial statement preparation in Pune from INR 9,999 per set. CA-led Balance Sheet, P and L, Cash Flow per Schedule III for Hinjewadi and Chakan firms.">
+    <link rel="canonical" href="/financial-statement-preparation-services/pune">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Financial Statements Pune 2026 | Patron Accounting">
+    <meta property="og:description" content="Financial statement preparation in Pune from INR 9,999 per set. CA-led Balance Sheet, P and L, Cash Flow per Schedule III for Hinjewadi and Chakan firms.">
+    <meta property="og:url" content="/financial-statement-preparation-services/pune">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Financial Statements Pune 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Financial statement preparation in Pune from INR 9,999 per set. CA-led Balance Sheet, P and L, Cash Flow per Schedule III for Hinjewadi and Chakan firms.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/financial-statement-preparation-services/pune#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Financial Statement Preparation Services",
+          "item": "https://www.patronaccounting.com/financial-statement-preparation-services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Financial Statement Preparation Services in Pune",
+          "item": "https://www.patronaccounting.com/financial-statement-preparation-services/pune"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/financial-statement-preparation-services/pune#faq",
+      "datePublished": "2026-06-23T08:00:00+05:30",
+      "dateModified": "2026-06-23T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does financial statement preparation include for a Pune business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It includes preparing the Balance Sheet, Profit and Loss statement, Cash Flow statement, and Notes to Accounts in the format prescribed by Schedule III of the Companies Act 2013. For Pune firms, Patron prepares these under applicable AS or Ind AS so they are ready for banks, investors, and RoC filing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does financial statement preparation cost in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patron Accounting charges Starting from INR 9,999 per set (Exl GST and Govt. Charges). The final fee depends on transaction volume, whether AS or Ind AS applies, the number of schedules, and turnaround needed. Hinjewadi startups and Chakan manufacturers receive a fixed quote before work begins."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are unaudited financial statements valid for banks in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Banks and NBFCs routinely accept unaudited or provisional financials prepared by a professional for working capital, OD, and term loan assessment. Patron prepares Schedule III compliant statements with management certification that Pune lenders such as those in BKC-linked branches and local banks accept for credit appraisal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between AS and Ind AS for Pune companies?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Accounting Standards (AS) apply to most SMEs, while Indian Accounting Standards (Ind AS) apply to listed and larger companies above prescribed net worth thresholds under the Companies (Ind AS) Rules 2015. Patron assesses which framework applies to your Pune entity and prepares statements accordingly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a Cash Flow statement for my Pune company?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under the Companies Act 2013, a Cash Flow statement is part of financial statements for all companies except One Person Companies, small companies, and dormant companies. Patron prepares it using the indirect method per AS 3 or Ind AS 7 for Pune companies that require it for RoC filing or lenders."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which documents are needed to prepare financial statements in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You provide the trial balance or accounting file, bank statements, GST returns, fixed asset register, loan schedules, and prior year financials. Patron uses these to build the Balance Sheet, Profit and Loss, Cash Flow, and Notes to Accounts, and flags any missing data before finalising the set."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to prepare financial statements in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For a Pune SME with clean books, a complete Schedule III set takes 3 to 7 working days. If the books need reconciliation first or Ind AS adjustments apply, it can take 2 to 3 weeks. Chakan manufacturers with inventory and multiple GSTINs sit at the longer end of this range."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you prepare financial statements for RoC and MCA filing in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Patron prepares Schedule III compliant statements with the Notes to Accounts and disclosures needed for AOC-4 and MGT-7 filing through RoC Pune under the MCA. We align the format so your statutory auditor and company secretary can complete the annual filing without rework."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/financial-statement-preparation-services/pune#service",
+      "name": "Financial Statement Preparation Services in Pune",
+      "description": "Financial statement preparation in Pune covers the Balance Sheet, Profit and Loss, Cash Flow, and Notes to Accounts under Schedule III of the Companies Act 2013 and applicable AS or Ind AS. Patron Accounting prepares unaudited financials for SMEs in Hinjewadi, Magarpatta, and Chakan for banks, investors, and RoC filing.",
+      "serviceType": "Financial Statement Preparation",
+      "url": "https://www.patronaccounting.com/financial-statement-preparation-services/pune",
+      "areaServed": {
+        "@type": "City",
+        "name": "Pune",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Maharashtra"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#localbusiness-pune"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Financial statement",
+          "sameAs": "https://en.wikipedia.org/wiki/Financial_statement"
+        },
+        {
+          "@type": "Thing",
+          "name": "Balance sheet",
+          "sameAs": "https://en.wikipedia.org/wiki/Balance_sheet"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Financial Statement Preparation Plans in Pune",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "price": "9999",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "INR",
+              "price": "9999",
+              "unitText": "per set"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Financial Statement Set per Year"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness-pune",
+      "name": "Patron Accounting LLP - Pune",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/financial-statement-preparation-services/pune",
+      "telephone": "+91-9699936369",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Pune"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Pune",
+        "addressRegion": "Maharashtra",
+        "postalCode": "411014",
+        "addressCountry": "IN"
+      },
+      "parentOrganization": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1566,7 +1573,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

@@ -1,67 +1,5 @@
 @extends('layouts.app')
-@section('meta')
-    <title>ESI Calculator India | ESIC Contribution &amp; Eligibility</title>
-    <meta name="description" content="ESI calculator for India: compute employee (0.75%) and employer (3.25%) ESIC contributions on gross wages up to the Rs 21,000 ceiling. Check eligibility now!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/esi-calculator">
-    <meta property="og:title" content="ESI Calculator &mdash; ESIC Contribution & Eligibility 2026">
-    <meta property="og:description" content="Calculate ESI contributions &mdash; 0.75% employee + 3.25% employer on wages up to &#8377;21,000 ceiling.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/esi-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="ESI Calculator &mdash; ESIC Contribution & Eligibility 2026">
-    <meta name="twitter:description" content="ESI employee 0.75% + employer 3.25% on wages up to &#8377;21,000. Calculate instantly!">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-<script type="application/ld+json">
-    {
-      "@context": "https://schema.org", "@type": "WebApplication",
-      "name": "ESI Calculator India",
-      "description": "ESI Calculator computes monthly Employee State Insurance contributions for both employee at 0.75 percent and employer at 3.25 percent of gross wages. Checks eligibility against the Rs 21,000 wage ceiling, calculates contribution period totals, shows annual employer cost, and explains ESIC benefits including sickness, maternity, disability, and dependant benefits under the ESI Act 1948.",
-      "url": "https://www.patronaccounting.com/tools/esi-calculator",
-      "applicationCategory": "UtilityApplication", "operatingSystem": "Any",
-      "datePublished": "2026-03-05", "dateModified": "2026-03-05",
-      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" },
-      "author": { "@type": "Person", "@id": "https://patronaccounting.com/#team", "name": "CA & CS Patron Accounting Team", "jobTitle": "Chartered Accountants & Company Secretaries", "url": "https://www.patronaccounting.com/contact-page", "sameAs": ["https://www.linkedin.com/company/patron-accounting"], "hasCredential": [{ "@type": "EducationalOccupationalCredential", "credentialCategory": "Professional Certification", "name": "Chartered Accountant (CA)", "recognizedBy": { "@type": "Organization", "name": "Institute of Chartered Accountants of India", "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India" } }] },
-      "publisher": { "@type": "Organization", "name": "Patron Accounting LLP", "url": "https://www.patronaccounting.com", "logo": { "@type": "ImageObject", "url": "https://www.patronaccounting.com/images/site-logo.svg" } },
-      "provider": { "@id": "https://patronaccounting.com/#organization" }
-    }
-    </script>
-<script type="application/ld+json">
-    { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-      {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-      {"@type": "ListItem", "position": 3, "name": "ESI Calculator", "item": "https://www.patronaccounting.com/tools/esi-calculator"}
-    ]}
-    </script>
-<script type="application/ld+json">
-    { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
-      { "@type": "Question", "name": "What is ESI and who is eligible?", "acceptedAnswer": { "@type": "Answer", "text": "ESI (Employee State Insurance) is a social security scheme under the ESI Act 1948 managed by ESIC. It applies to establishments with 10 or more employees (20 in some states). All employees earning gross wages up to Rs 21,000 per month are covered. For persons with disability the ceiling is Rs 25,000. Once covered in a contribution period, the employee remains covered even if wages exceed the ceiling mid-period." } },
-      { "@type": "Question", "name": "What are the current ESI contribution rates?", "acceptedAnswer": { "@type": "Answer", "text": "Since July 2019, the employee contributes 0.75 percent and the employer contributes 3.25 percent of gross wages, totalling 4 percent. Employees earning a daily average wage of Rs 176 or below are exempt from their 0.75 percent contribution but the employer must still pay the 3.25 percent share. These rates apply uniformly across all states where ESI is implemented." } },
-      { "@type": "Question", "name": "What is the ESI wage ceiling?", "acceptedAnswer": { "@type": "Answer", "text": "The ESI wage ceiling is Rs 21,000 per month for regular employees and Rs 25,000 for persons with disability. Wages for ESI include basic pay, dearness allowance, city compensatory allowance, HRA, incentive allowance, attendance bonus, and meal allowance. Overtime wages, conveyance allowance, and annual bonus or gratuity are excluded from ESI wage calculation." } },
-      { "@type": "Question", "name": "How is ESI calculated on salary?", "acceptedAnswer": { "@type": "Answer", "text": "ESI is calculated on gross wages which include basic salary, DA, HRA, city compensatory allowance, and other applicable allowances. Employee contribution equals 0.75 percent of gross wages. Employer contribution equals 3.25 percent of gross wages. For example, on Rs 18,000 gross wages: employee pays Rs 135, employer pays Rs 585, total Rs 720 per month. Contributions are rounded to the nearest rupee." } },
-      { "@type": "Question", "name": "What are ESI contribution periods and benefit periods?", "acceptedAnswer": { "@type": "Answer", "text": "ESI divides the year into two contribution periods of six months each: April to September and October to March. Each has a corresponding benefit period: contributions from April to September provide benefits from January to June of the next year, and October to March contributions provide benefits from July to December. If wages cross Rs 21,000 during a period, contributions continue till the period ends." } },
-      { "@type": "Question", "name": "What benefits does ESI provide to employees?", "acceptedAnswer": { "@type": "Answer", "text": "ESI provides sickness benefit at 70 percent of wages for up to 91 days per year, maternity benefit at full wages for 26 weeks, temporary disablement benefit at 90 percent of wages during injury recovery, permanent disablement benefit at 90 percent of wages proportionate to disability percentage, dependant benefit at 90 percent of wages to family on death due to employment injury, and funeral expenses of Rs 15,000." } },
-      { "@type": "Question", "name": "What is included and excluded in ESI wages?", "acceptedAnswer": { "@type": "Answer", "text": "Included in ESI wages: basic pay, dearness allowance, city compensatory allowance, HRA, incentive allowance, attendance bonus, meal allowance, and suspension allowance. Excluded from ESI wages: annual bonus, retrenchment compensation, encashment of leave, gratuity, overtime wages, conveyance allowance paid for duty, washing allowance, and employer PF contribution." } },
-      { "@type": "Question", "name": "What happens if ESI contribution is paid late?", "acceptedAnswer": { "@type": "Answer", "text": "Late payment of ESI contributions attracts simple interest at 12 percent per annum from the due date until actual payment. The employer is liable for both the employer and employee share. Additionally, ESIC can initiate recovery proceedings, impose penalties, and in severe cases prosecute the employer under Section 85 of the ESI Act. Payment must be made within 15 days of the month end." } },
-      { "@type": "Question", "name": "Is ESI applicable if an employee earns above Rs 21,000?", "acceptedAnswer": { "@type": "Answer", "text": "If an employee earns above Rs 21,000 from the date of joining, ESI is not applicable. However, if wages cross Rs 21,000 during a contribution period (April to September or October to March) after initially being below the ceiling, the employee continues to be covered till the end of that contribution period. ESI deduction continues on the actual wages including the increased amount." } },
-      { "@type": "Question", "name": "How do employers register for ESI?", "acceptedAnswer": { "@type": "Answer", "text": "Employers register online at the ESIC portal (esic.gov.in) by filing Form 1 with establishment details, PAN, address proof, registration certificate, and employee list. ESIC issues a 17-digit unique code number after verification. Registration must be done within 15 days of the Act becoming applicable. Each employee receives an ESI card or Pehchan card with their insurance number for availing benefits." } },
-      { "@type": "Question", "name": "Can ESI and medical insurance coexist?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, ESI and private medical insurance can coexist. ESI provides basic medical coverage through ESIC dispensaries and hospitals. Private medical insurance provides coverage for private hospitals, higher room categories, and wider network. Many employers offer group health insurance in addition to ESI as an employee benefit. ESI premiums paid by the employer are not deductible from employee salary for income tax purposes." } },
-      { "@type": "Question", "name": "How can I check my ESI balance and claim status?", "acceptedAnswer": { "@type": "Answer", "text": "Check ESI balance through the ESIC portal by logging in with your insurance number, through the UMANG app by searching for ESIC and selecting Claim Status, or by visiting the nearest ESIC branch office. Your employer provides the insurance number at the time of registration. Contribution details are updated monthly after the employer files the challan. Download the ESIC e-Pehchan card from the portal." } },
-      { "@type": "Question", "name": "Can a CA help with ESIC compliance for my business?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, a CA handles ESIC registration, monthly contribution calculation for all employees, challan generation and payment, half-yearly return filing, and ensures compliance with the ESI Act. Patron Accounting provides complete payroll processing including ESI, EPF, Professional Tax, and TDS for businesses across India. We also assist with ESIC inspections and dispute resolution." } }
-    ]}
-    </script>
-@endsection
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+@push('styles')
 <style>
 
         :root {
@@ -844,6 +782,71 @@
 .toggle-btn{font-size:13px;padding:10px 12px}
 }
 </style>
+@endpush
+
+@section('meta')
+    <title>ESI Calculator India | ESIC Contribution &amp; Eligibility</title>
+    <meta name="description" content="ESI calculator for India: compute employee (0.75%) and employer (3.25%) ESIC contributions on gross wages up to the Rs 21,000 ceiling. Check eligibility now!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/esi-calculator">
+    <meta property="og:title" content="ESI Calculator &mdash; ESIC Contribution & Eligibility 2026">
+    <meta property="og:description" content="Calculate ESI contributions &mdash; 0.75% employee + 3.25% employer on wages up to &#8377;21,000 ceiling.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/esi-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ESI Calculator &mdash; ESIC Contribution & Eligibility 2026">
+    <meta name="twitter:description" content="ESI employee 0.75% + employer 3.25% on wages up to &#8377;21,000. Calculate instantly!">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+@endsection
+
+@section('schema')
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org", "@type": "WebApplication",
+      "name": "ESI Calculator India",
+      "description": "ESI Calculator computes monthly Employee State Insurance contributions for both employee at 0.75 percent and employer at 3.25 percent of gross wages. Checks eligibility against the Rs 21,000 wage ceiling, calculates contribution period totals, shows annual employer cost, and explains ESIC benefits including sickness, maternity, disability, and dependant benefits under the ESI Act 1948.",
+      "url": "https://www.patronaccounting.com/tools/esi-calculator",
+      "applicationCategory": "UtilityApplication", "operatingSystem": "Any",
+      "datePublished": "2026-03-05", "dateModified": "2026-03-05",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" },
+      "author": { "@type": "Person", "@id": "https://patronaccounting.com/#team", "name": "CA & CS Patron Accounting Team", "jobTitle": "Chartered Accountants & Company Secretaries", "url": "https://www.patronaccounting.com/contact-page", "sameAs": ["https://www.linkedin.com/company/patron-accounting"], "hasCredential": [{ "@type": "EducationalOccupationalCredential", "credentialCategory": "Professional Certification", "name": "Chartered Accountant (CA)", "recognizedBy": { "@type": "Organization", "name": "Institute of Chartered Accountants of India", "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India" } }] },
+      "publisher": { "@type": "Organization", "name": "Patron Accounting LLP", "url": "https://www.patronaccounting.com", "logo": { "@type": "ImageObject", "url": "https://www.patronaccounting.com/images/site-logo.svg" } },
+      "provider": { "@id": "https://patronaccounting.com/#organization" }
+    }
+    </script>
+<script type="application/ld+json">
+    { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+      {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+      {"@type": "ListItem", "position": 3, "name": "ESI Calculator", "item": "https://www.patronaccounting.com/tools/esi-calculator"}
+    ]}
+    </script>
+<script type="application/ld+json">
+    { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+      { "@type": "Question", "name": "What is ESI and who is eligible?", "acceptedAnswer": { "@type": "Answer", "text": "ESI (Employee State Insurance) is a social security scheme under the ESI Act 1948 managed by ESIC. It applies to establishments with 10 or more employees (20 in some states). All employees earning gross wages up to Rs 21,000 per month are covered. For persons with disability the ceiling is Rs 25,000. Once covered in a contribution period, the employee remains covered even if wages exceed the ceiling mid-period." } },
+      { "@type": "Question", "name": "What are the current ESI contribution rates?", "acceptedAnswer": { "@type": "Answer", "text": "Since July 2019, the employee contributes 0.75 percent and the employer contributes 3.25 percent of gross wages, totalling 4 percent. Employees earning a daily average wage of Rs 176 or below are exempt from their 0.75 percent contribution but the employer must still pay the 3.25 percent share. These rates apply uniformly across all states where ESI is implemented." } },
+      { "@type": "Question", "name": "What is the ESI wage ceiling?", "acceptedAnswer": { "@type": "Answer", "text": "The ESI wage ceiling is Rs 21,000 per month for regular employees and Rs 25,000 for persons with disability. Wages for ESI include basic pay, dearness allowance, city compensatory allowance, HRA, incentive allowance, attendance bonus, and meal allowance. Overtime wages, conveyance allowance, and annual bonus or gratuity are excluded from ESI wage calculation." } },
+      { "@type": "Question", "name": "How is ESI calculated on salary?", "acceptedAnswer": { "@type": "Answer", "text": "ESI is calculated on gross wages which include basic salary, DA, HRA, city compensatory allowance, and other applicable allowances. Employee contribution equals 0.75 percent of gross wages. Employer contribution equals 3.25 percent of gross wages. For example, on Rs 18,000 gross wages: employee pays Rs 135, employer pays Rs 585, total Rs 720 per month. Contributions are rounded to the nearest rupee." } },
+      { "@type": "Question", "name": "What are ESI contribution periods and benefit periods?", "acceptedAnswer": { "@type": "Answer", "text": "ESI divides the year into two contribution periods of six months each: April to September and October to March. Each has a corresponding benefit period: contributions from April to September provide benefits from January to June of the next year, and October to March contributions provide benefits from July to December. If wages cross Rs 21,000 during a period, contributions continue till the period ends." } },
+      { "@type": "Question", "name": "What benefits does ESI provide to employees?", "acceptedAnswer": { "@type": "Answer", "text": "ESI provides sickness benefit at 70 percent of wages for up to 91 days per year, maternity benefit at full wages for 26 weeks, temporary disablement benefit at 90 percent of wages during injury recovery, permanent disablement benefit at 90 percent of wages proportionate to disability percentage, dependant benefit at 90 percent of wages to family on death due to employment injury, and funeral expenses of Rs 15,000." } },
+      { "@type": "Question", "name": "What is included and excluded in ESI wages?", "acceptedAnswer": { "@type": "Answer", "text": "Included in ESI wages: basic pay, dearness allowance, city compensatory allowance, HRA, incentive allowance, attendance bonus, meal allowance, and suspension allowance. Excluded from ESI wages: annual bonus, retrenchment compensation, encashment of leave, gratuity, overtime wages, conveyance allowance paid for duty, washing allowance, and employer PF contribution." } },
+      { "@type": "Question", "name": "What happens if ESI contribution is paid late?", "acceptedAnswer": { "@type": "Answer", "text": "Late payment of ESI contributions attracts simple interest at 12 percent per annum from the due date until actual payment. The employer is liable for both the employer and employee share. Additionally, ESIC can initiate recovery proceedings, impose penalties, and in severe cases prosecute the employer under Section 85 of the ESI Act. Payment must be made within 15 days of the month end." } },
+      { "@type": "Question", "name": "Is ESI applicable if an employee earns above Rs 21,000?", "acceptedAnswer": { "@type": "Answer", "text": "If an employee earns above Rs 21,000 from the date of joining, ESI is not applicable. However, if wages cross Rs 21,000 during a contribution period (April to September or October to March) after initially being below the ceiling, the employee continues to be covered till the end of that contribution period. ESI deduction continues on the actual wages including the increased amount." } },
+      { "@type": "Question", "name": "How do employers register for ESI?", "acceptedAnswer": { "@type": "Answer", "text": "Employers register online at the ESIC portal (esic.gov.in) by filing Form 1 with establishment details, PAN, address proof, registration certificate, and employee list. ESIC issues a 17-digit unique code number after verification. Registration must be done within 15 days of the Act becoming applicable. Each employee receives an ESI card or Pehchan card with their insurance number for availing benefits." } },
+      { "@type": "Question", "name": "Can ESI and medical insurance coexist?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, ESI and private medical insurance can coexist. ESI provides basic medical coverage through ESIC dispensaries and hospitals. Private medical insurance provides coverage for private hospitals, higher room categories, and wider network. Many employers offer group health insurance in addition to ESI as an employee benefit. ESI premiums paid by the employer are not deductible from employee salary for income tax purposes." } },
+      { "@type": "Question", "name": "How can I check my ESI balance and claim status?", "acceptedAnswer": { "@type": "Answer", "text": "Check ESI balance through the ESIC portal by logging in with your insurance number, through the UMANG app by searching for ESIC and selecting Claim Status, or by visiting the nearest ESIC branch office. Your employer provides the insurance number at the time of registration. Contribution details are updated monthly after the employer files the challan. Download the ESIC e-Pehchan card from the portal." } },
+      { "@type": "Question", "name": "Can a CA help with ESIC compliance for my business?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, a CA handles ESIC registration, monthly contribution calculation for all employees, challan generation and payment, half-yearly return filing, and ensures compliance with the ESI Act. Patron Accounting provides complete payroll processing including ESI, EPF, Professional Tax, and TDS for businesses across India. We also assist with ESIC inspections and dispute resolution." } }
+    ]}
+    </script>
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation"><div class="toc-nav-inner">
         <a href="#calculator">Calculator</a>

@@ -1,210 +1,8 @@
 @extends('layouts.app')
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
-@section('meta')
-    <title>RFD-01 Checklist | GST Refund Pre-Filing under Sec 54</title>
-    <meta name="description" content="RFD-01 pre-filing checklist: verify documents, statements, eligibility and limitation across 10 GST refund categories under Section 54. Free CA-grade tool!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/rfd-01-filing-checklist">
-    <meta property="og:title" content="RFD-01 Pre-Filing Checklist — GST Refund Readiness Tool 2026">
-    <meta property="og:description" content="Verify your RFD-01 application is complete before filing. Category-specific checklist, statement requirements, limitation tracker, deficiency-memo prevention. Free CA tool.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/rfd-01-filing-checklist">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="RFD-01 Pre-Filing Checklist — GST Refund Readiness Tool 2026">
-    <meta name="twitter:description" content="10 categories. Statements 1A-7. Limitation tracker. Provisional refund eligibility under Instruction 06/2025. Free CA tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-    <meta name="theme-color" content="#15365f">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebApplication",
-      "name": "RFD-01 Pre-Filing Checklist (GST Refund Readiness)",
-      "description": "RFD-01 Pre-Filing Checklist verifies that a GST refund application is complete and ready for submission on the GST portal under Section 54 of the Central Goods and Services Tax Act, 2017 read with Rule 89 of the Central Goods and Services Tax Rules, 2017. The tool covers all ten categories of GST refund supported through Form GST RFD-01: refund of unutilised Input Tax Credit on account of zero-rated supplies under the Letter of Undertaking route as per Section 54(3)(i) and Rule 89(4); refund of tax paid on zero-rated supplies under the Integrated Goods and Services Tax route as per Rule 96; refund of unutilised Input Tax Credit on account of supplies to Special Economic Zone unit or developer without payment of tax; refund of tax paid on supplies to Special Economic Zone unit or developer with payment of tax; refund of unutilised Input Tax Credit accumulated due to Inverted Duty Structure under Section 54(3)(ii) and Rule 89(5); refund on account of deemed exports as per Notification No. 48/2017-Central Tax; refund of excess balance in the electronic cash ledger; refund of excess tax paid by mistake; refund on account of any assessment, provisional assessment, appeal or any other order; and refund under any other category not specified above. The tool generates a readiness score, identifies missing documents and statements, computes the two-year limitation under Section 54(1) from the relevant date applicable to the selected category, computes the sixty-day final order window under Section 54(7), flags Section 56 interest entitlement at six per cent per annum for delayed sanction, checks eligibility for the ninety per cent provisional refund under Rule 91(2) as amended by Notification No. 13/2025-Central Tax effective 1 October 2025 and CBIC Instruction No. 06/2025-GST extending provisional refund to Inverted Duty Structure claims, and validates Aadhaar authentication and risk-flagging exclusions under Notification No. 14/2025-Central Tax. The tool incorporates the prerequisite filing of Form GSTR-1 and Form GSTR-3B for the relevant period, the requirement of a registered Letter of Undertaking in Form RFD-11 for zero-rated supplies without payment, the documentary requirements of Statement-1A, Statement-2, Statement-3, Statement-3A, Statement-4, Statement-5, Statement-5A, Statement-5B, Statement-6 and Statement-7 prescribed under Rule 89, the Annexure-A self-declaration, the Annexure-B for invoice-wise input details, and the Chartered Accountant or Cost Accountant certification under Annexure-2 of Circular No. 125/44/2019-GST mandatory where the refund claim exceeds two lakh rupees.",
-      "url": "https://www.patronaccounting.com/tools/rfd-01-filing-checklist",
-      "applicationCategory": "FinanceApplication",
-      "operatingSystem": "Any",
-      "datePublished": "2026-05-08T08:00:00+05:30",
-      "dateModified": "2026-05-08T08:00:00+05:30",
-      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
-      "author": {
-        "@type": "Person",
-        "@id": "https://patronaccounting.com/#founder",
-        "name": "CA Sundram Gupta",
-        "jobTitle": "Founder & Chartered Accountant",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Institute of Chartered Accountants of India",
-            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-          }
-        }]
-      },
-      "publisher": { "@id": "https://patronaccounting.com/#organization" },
-      "provider": {"@id": "https://patronaccounting.com/#organization"}
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "RFD-01 Pre-Filing Checklist", "item": "https://www.patronaccounting.com/tools/rfd-01-filing-checklist"}
-      ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is Form GST RFD-01 and who must file it?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Form GST RFD-01 is the standard online refund application filed under Section 54 of the CGST Act read with Rule 89. It is filed by any registered person seeking refund of unutilised Input Tax Credit, excess balance in the electronic cash ledger, excess tax paid, or refund under specific categories such as exports, supplies to SEZ, deemed exports and inverted duty structure. The application must be filed electronically on the GST common portal with prescribed statements and supporting documents."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How many categories of refund are supported through RFD-01?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Form RFD-01 supports ten primary refund categories: exports of goods or services without payment of tax (LUT route), exports with payment of IGST, supplies to SEZ unit or developer without payment of tax, supplies to SEZ with payment of tax, accumulated ITC due to inverted duty structure, deemed exports, excess balance in electronic cash ledger, excess tax paid by mistake, refund on assessment or appellate order, and any other category. Each category has prescribed statements per Rule 89."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the time limit for filing RFD-01 application?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 54(1) prescribes a two-year limitation from the relevant date for filing any refund claim. The relevant date varies by category — date of shipping bill for export of goods, date of receipt of payment for export of services, date of return for inverted duty structure, date of payment for excess tax, date of order for assessment-based refunds. Notification 13/2022-Central Tax excluded the period from 1 March 2020 to 28 February 2022 from limitation computation."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is GSTR-1 and GSTR-3B filing mandatory before RFD-01?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Per Circular No. 125/44/2019-GST, both GSTR-1 and GSTR-3B for the tax period to which the refund claim relates must be filed before submitting Form RFD-01. The portal also requires that all returns up to the date of refund application be filed without any pending GSTR-3B. The Refund Pre-Application Form must also be filed to validate bank account details linked to the GSTIN before the actual RFD-01 submission."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "When is CA or CMA certification mandatory for RFD-01?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Per Annexure-2 of Circular 125/44/2019-GST, a certificate from a Chartered Accountant or a Cost and Management Accountant is mandatory for refund claims exceeding rupees two lakhs in respect of refund categories of inverted duty structure, deemed exports, excess balance in cash ledger above the threshold, and any other refund where the proper officer requires it. The certificate confirms tax incidence has not been passed on. CA or CMA certification is not required for export refunds under LUT route."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the 90 per cent provisional refund under Rule 91?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Rule 91 read with Section 54(6) provides for sanction of ninety per cent of the refund amount on a provisional basis within seven days of acknowledgement, with the balance ten per cent released after detailed scrutiny. From 1 October 2025, Notification 13/2025-Central Tax introduced system-driven risk evaluation for provisional sanction, and CBIC Instruction No. 06/2025-GST extended the provisional refund mechanism from zero-rated supplies to inverted duty structure claims as a trade-facilitation measure."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What documents are common across all RFD-01 categories?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Common documents required for all RFD-01 categories include the Refund Pre-Application Form for bank validation, Annexure-A self-declaration confirming no incidence of tax has been passed on, copies of GSTR-1 and GSTR-3B for the period, electronic credit ledger or cash ledger statement, declaration of non-prosecution, undertaking under Rule 89(2)(l) of CGST Rules, and validated bank account details linked to the GSTIN. DSC or EVC is required for digital signing of the application."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is Statement-3 versus Statement-3A for export refunds?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Statement-3 contains invoice-wise details of zero-rated supplies for which refund is claimed under the LUT route — including export invoices, shipping bill numbers, port codes, FOB values, and BRC or FIRC details for service exports. Statement-3A is the working sheet for computing Net ITC and the Maximum Refund Amount as per Rule 89(4) formula. Both statements must be uploaded with Form RFD-01 for export of goods or services without payment of IGST."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I claim refund without an LUT for export supplies?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. For export of goods or services or supplies to SEZ without payment of IGST, a registered Letter of Undertaking in Form GST RFD-11 valid for the financial year is mandatory under Rule 96A of CGST Rules. The LUT must be filed before the export takes place. Without a registered LUT, the supply is treated as taxable and IGST must be paid; the refund route then shifts to Rule 96 (auto via shipping bill) or RFD-01 with payment of IGST."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens if my RFD-01 has deficiencies?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "If the proper officer finds the application deficient, a deficiency memo is issued in Form GST RFD-03 within fifteen days of filing, with reasons specified. The applicant must rectify the deficiencies and file a fresh application; the original application is treated as non-existent. The two-year limitation under Section 54(1) does not stop running while deficiency is being rectified — taxpayers must respond promptly. Common deficiencies include missing statements, ITC reconciliation gaps and bank validation failures."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is Annexure-B and when is it required?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Annexure-B is an invoice-wise statement of inputs and input services on which Input Tax Credit was availed during the relevant period, required for refund claims based on accumulated ITC including export under LUT, SEZ supplies without tax and inverted duty structure. The annexure must be self-certified by the applicant and contains GSTIN of supplier, invoice number and date, taxable value, IGST or CGST and SGST amount, and HSN classification. Annexure-B is uploaded with Form RFD-01 in PDF format."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is refund of excess balance in electronic cash ledger different?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Refund of excess balance in the electronic cash ledger is the simplest category of RFD-01 — it requires only Statement-7 with cash ledger balance details, declaration of non-prosecution, and bank account validation. No CA certificate is required regardless of the amount. The relevant date for limitation is the date of payment of tax or deposit. The balance must be unutilised against any output liability and not part of any pending demand. Provisional refund mechanism does not apply."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are common reasons for RFD-01 rejection?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Common rejection grounds include mismatched figures between GSTR-1 Table 6A and GSTR-3B Table 3.1(b) for exports, missing or incorrectly filled statements, ITC claimed on capital goods or input services for inverted duty refund, expired LUT for export supplies, refund claimed for restricted goods under Notification 5/2017 or 9/2022, application beyond two-year limitation, bank account not validated through PFMS, and inadequate evidence of inverted rate structure or export receipt. Most rejections can be avoided by thorough pre-filing checks."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I claim refund after filing a NIL refund claim earlier?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, subject to two conditions per Circular 110/29/2019-GST. First, a NIL refund claim must have been filed in Form RFD-01 for the period under the same category. Second, no refund claim under the same category should have been filed for any subsequent period. If both conditions are met, the registered person may file a fresh refund claim for the original period, treating the NIL claim as withdrawn. This relaxation covers exports without tax, SEZ without tax, and IDS."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the 60-day window under Section 54(7) and Section 56 interest?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 54(7) requires the proper officer to issue the final refund order in Form GST RFD-06 within sixty days of receipt of the complete application. If the refund is delayed beyond sixty days, Section 56 mandates simple interest at six per cent per annum from day 61 till refund credit date. If the refund arises from an appellate order, the rate of interest increases to nine per cent per annum. Interest is auto-computed and credited with the refund."
-          }
-        }
-      ]
-    }
-    </script>
-@endsection
-
 <style>
         :root {
             --primary: #15365f;
@@ -508,7 +306,209 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 }
 
 </style>
+@endpush
 
+@section('meta')
+    <title>RFD-01 Checklist | GST Refund Pre-Filing under Sec 54</title>
+    <meta name="description" content="RFD-01 pre-filing checklist: verify documents, statements, eligibility and limitation across 10 GST refund categories under Section 54. Free CA-grade tool!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/rfd-01-filing-checklist">
+    <meta property="og:title" content="RFD-01 Pre-Filing Checklist — GST Refund Readiness Tool 2026">
+    <meta property="og:description" content="Verify your RFD-01 application is complete before filing. Category-specific checklist, statement requirements, limitation tracker, deficiency-memo prevention. Free CA tool.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/rfd-01-filing-checklist">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="RFD-01 Pre-Filing Checklist — GST Refund Readiness Tool 2026">
+    <meta name="twitter:description" content="10 categories. Statements 1A-7. Limitation tracker. Provisional refund eligibility under Instruction 06/2025. Free CA tool.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+    <meta name="theme-color" content="#15365f">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "RFD-01 Pre-Filing Checklist (GST Refund Readiness)",
+      "description": "RFD-01 Pre-Filing Checklist verifies that a GST refund application is complete and ready for submission on the GST portal under Section 54 of the Central Goods and Services Tax Act, 2017 read with Rule 89 of the Central Goods and Services Tax Rules, 2017. The tool covers all ten categories of GST refund supported through Form GST RFD-01: refund of unutilised Input Tax Credit on account of zero-rated supplies under the Letter of Undertaking route as per Section 54(3)(i) and Rule 89(4); refund of tax paid on zero-rated supplies under the Integrated Goods and Services Tax route as per Rule 96; refund of unutilised Input Tax Credit on account of supplies to Special Economic Zone unit or developer without payment of tax; refund of tax paid on supplies to Special Economic Zone unit or developer with payment of tax; refund of unutilised Input Tax Credit accumulated due to Inverted Duty Structure under Section 54(3)(ii) and Rule 89(5); refund on account of deemed exports as per Notification No. 48/2017-Central Tax; refund of excess balance in the electronic cash ledger; refund of excess tax paid by mistake; refund on account of any assessment, provisional assessment, appeal or any other order; and refund under any other category not specified above. The tool generates a readiness score, identifies missing documents and statements, computes the two-year limitation under Section 54(1) from the relevant date applicable to the selected category, computes the sixty-day final order window under Section 54(7), flags Section 56 interest entitlement at six per cent per annum for delayed sanction, checks eligibility for the ninety per cent provisional refund under Rule 91(2) as amended by Notification No. 13/2025-Central Tax effective 1 October 2025 and CBIC Instruction No. 06/2025-GST extending provisional refund to Inverted Duty Structure claims, and validates Aadhaar authentication and risk-flagging exclusions under Notification No. 14/2025-Central Tax. The tool incorporates the prerequisite filing of Form GSTR-1 and Form GSTR-3B for the relevant period, the requirement of a registered Letter of Undertaking in Form RFD-11 for zero-rated supplies without payment, the documentary requirements of Statement-1A, Statement-2, Statement-3, Statement-3A, Statement-4, Statement-5, Statement-5A, Statement-5B, Statement-6 and Statement-7 prescribed under Rule 89, the Annexure-A self-declaration, the Annexure-B for invoice-wise input details, and the Chartered Accountant or Cost Accountant certification under Annexure-2 of Circular No. 125/44/2019-GST mandatory where the refund claim exceeds two lakh rupees.",
+      "url": "https://www.patronaccounting.com/tools/rfd-01-filing-checklist",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Any",
+      "datePublished": "2026-05-08T08:00:00+05:30",
+      "dateModified": "2026-05-08T08:00:00+05:30",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
+      "author": {
+        "@type": "Person",
+        "@id": "https://patronaccounting.com/#founder",
+        "name": "CA Sundram Gupta",
+        "jobTitle": "Founder & Chartered Accountant",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Institute of Chartered Accountants of India",
+            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+          }
+        }]
+      },
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": {"@id": "https://patronaccounting.com/#organization"}
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "RFD-01 Pre-Filing Checklist", "item": "https://www.patronaccounting.com/tools/rfd-01-filing-checklist"}
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Form GST RFD-01 and who must file it?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Form GST RFD-01 is the standard online refund application filed under Section 54 of the CGST Act read with Rule 89. It is filed by any registered person seeking refund of unutilised Input Tax Credit, excess balance in the electronic cash ledger, excess tax paid, or refund under specific categories such as exports, supplies to SEZ, deemed exports and inverted duty structure. The application must be filed electronically on the GST common portal with prescribed statements and supporting documents."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many categories of refund are supported through RFD-01?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Form RFD-01 supports ten primary refund categories: exports of goods or services without payment of tax (LUT route), exports with payment of IGST, supplies to SEZ unit or developer without payment of tax, supplies to SEZ with payment of tax, accumulated ITC due to inverted duty structure, deemed exports, excess balance in electronic cash ledger, excess tax paid by mistake, refund on assessment or appellate order, and any other category. Each category has prescribed statements per Rule 89."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the time limit for filing RFD-01 application?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 54(1) prescribes a two-year limitation from the relevant date for filing any refund claim. The relevant date varies by category — date of shipping bill for export of goods, date of receipt of payment for export of services, date of return for inverted duty structure, date of payment for excess tax, date of order for assessment-based refunds. Notification 13/2022-Central Tax excluded the period from 1 March 2020 to 28 February 2022 from limitation computation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is GSTR-1 and GSTR-3B filing mandatory before RFD-01?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Per Circular No. 125/44/2019-GST, both GSTR-1 and GSTR-3B for the tax period to which the refund claim relates must be filed before submitting Form RFD-01. The portal also requires that all returns up to the date of refund application be filed without any pending GSTR-3B. The Refund Pre-Application Form must also be filed to validate bank account details linked to the GSTIN before the actual RFD-01 submission."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is CA or CMA certification mandatory for RFD-01?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Per Annexure-2 of Circular 125/44/2019-GST, a certificate from a Chartered Accountant or a Cost and Management Accountant is mandatory for refund claims exceeding rupees two lakhs in respect of refund categories of inverted duty structure, deemed exports, excess balance in cash ledger above the threshold, and any other refund where the proper officer requires it. The certificate confirms tax incidence has not been passed on. CA or CMA certification is not required for export refunds under LUT route."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the 90 per cent provisional refund under Rule 91?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rule 91 read with Section 54(6) provides for sanction of ninety per cent of the refund amount on a provisional basis within seven days of acknowledgement, with the balance ten per cent released after detailed scrutiny. From 1 October 2025, Notification 13/2025-Central Tax introduced system-driven risk evaluation for provisional sanction, and CBIC Instruction No. 06/2025-GST extended the provisional refund mechanism from zero-rated supplies to inverted duty structure claims as a trade-facilitation measure."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What documents are common across all RFD-01 categories?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Common documents required for all RFD-01 categories include the Refund Pre-Application Form for bank validation, Annexure-A self-declaration confirming no incidence of tax has been passed on, copies of GSTR-1 and GSTR-3B for the period, electronic credit ledger or cash ledger statement, declaration of non-prosecution, undertaking under Rule 89(2)(l) of CGST Rules, and validated bank account details linked to the GSTIN. DSC or EVC is required for digital signing of the application."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Statement-3 versus Statement-3A for export refunds?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Statement-3 contains invoice-wise details of zero-rated supplies for which refund is claimed under the LUT route — including export invoices, shipping bill numbers, port codes, FOB values, and BRC or FIRC details for service exports. Statement-3A is the working sheet for computing Net ITC and the Maximum Refund Amount as per Rule 89(4) formula. Both statements must be uploaded with Form RFD-01 for export of goods or services without payment of IGST."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I claim refund without an LUT for export supplies?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. For export of goods or services or supplies to SEZ without payment of IGST, a registered Letter of Undertaking in Form GST RFD-11 valid for the financial year is mandatory under Rule 96A of CGST Rules. The LUT must be filed before the export takes place. Without a registered LUT, the supply is treated as taxable and IGST must be paid; the refund route then shifts to Rule 96 (auto via shipping bill) or RFD-01 with payment of IGST."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if my RFD-01 has deficiencies?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If the proper officer finds the application deficient, a deficiency memo is issued in Form GST RFD-03 within fifteen days of filing, with reasons specified. The applicant must rectify the deficiencies and file a fresh application; the original application is treated as non-existent. The two-year limitation under Section 54(1) does not stop running while deficiency is being rectified — taxpayers must respond promptly. Common deficiencies include missing statements, ITC reconciliation gaps and bank validation failures."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Annexure-B and when is it required?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Annexure-B is an invoice-wise statement of inputs and input services on which Input Tax Credit was availed during the relevant period, required for refund claims based on accumulated ITC including export under LUT, SEZ supplies without tax and inverted duty structure. The annexure must be self-certified by the applicant and contains GSTIN of supplier, invoice number and date, taxable value, IGST or CGST and SGST amount, and HSN classification. Annexure-B is uploaded with Form RFD-01 in PDF format."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is refund of excess balance in electronic cash ledger different?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Refund of excess balance in the electronic cash ledger is the simplest category of RFD-01 — it requires only Statement-7 with cash ledger balance details, declaration of non-prosecution, and bank account validation. No CA certificate is required regardless of the amount. The relevant date for limitation is the date of payment of tax or deposit. The balance must be unutilised against any output liability and not part of any pending demand. Provisional refund mechanism does not apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are common reasons for RFD-01 rejection?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Common rejection grounds include mismatched figures between GSTR-1 Table 6A and GSTR-3B Table 3.1(b) for exports, missing or incorrectly filled statements, ITC claimed on capital goods or input services for inverted duty refund, expired LUT for export supplies, refund claimed for restricted goods under Notification 5/2017 or 9/2022, application beyond two-year limitation, bank account not validated through PFMS, and inadequate evidence of inverted rate structure or export receipt. Most rejections can be avoided by thorough pre-filing checks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I claim refund after filing a NIL refund claim earlier?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, subject to two conditions per Circular 110/29/2019-GST. First, a NIL refund claim must have been filed in Form RFD-01 for the period under the same category. Second, no refund claim under the same category should have been filed for any subsequent period. If both conditions are met, the registered person may file a fresh refund claim for the original period, treating the NIL claim as withdrawn. This relaxation covers exports without tax, SEZ without tax, and IDS."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the 60-day window under Section 54(7) and Section 56 interest?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 54(7) requires the proper officer to issue the final refund order in Form GST RFD-06 within sixty days of receipt of the complete application. If the refund is delayed beyond sixty days, Section 56 mandates simple interest at six per cent per annum from day 61 till refund credit date. If the refund arises from an appellate order, the rate of interest increases to nine per cent per annum. Interest is auto-computed and credited with the refund."
+          }
+        }
+      ]
+    }
+    </script>
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation">
     <div class="toc-nav-inner">

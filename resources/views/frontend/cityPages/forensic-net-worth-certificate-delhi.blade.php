@@ -1,179 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Forensic Net Worth Certificate by CA in Delhi 2026 | Patron Accounting</title>
-    <meta name="description" content="Forensic Net Worth Certificate by a CA: an investigated net worth with asset tracing for disproportionate assets, divorce, and litigation. From INR 2,499.">
-    <link rel="canonical" href="/forensic-net-worth-certificate/delhi">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Forensic Net Worth Certificate by CA 2026 | Patron Accounting">
-    <meta property="og:description" content="Forensic Net Worth Certificate by a CA: an investigated net worth with asset tracing for disproportionate assets, divorce, and litigation. From INR 2,499.">
-    <meta property="og:url" content="/forensic-net-worth-certificate/delhi">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Forensic Net Worth Certificate by CA 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Forensic Net Worth Certificate by a CA: an investigated net worth with asset tracing for disproportionate assets, divorce, and litigation. From INR 2,499.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/forensic-net-worth-certificate/delhi/#service",
-        "name": "Forensic Net Worth Certificate in Delhi",
-        "description": "A forensic-investigation and litigation-support engagement establishing a defensible net worth using forensic-accounting techniques, including asset tracing, income-versus-lifestyle analysis, and detection of concealed assets, for disproportionate-assets matters, matrimonial and divorce disputes, fraud, and partnership or estate litigation. Distinct from a standard net worth certificate, which attests a client-supplied figure.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/forensic-net-worth-certificate/delhi" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Forensic accounting", "sameAs": "https://en.wikipedia.org/wiki/Forensic_accounting" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Forensic Net Worth Certificate Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": { "@type": "Service", "name": "Forensic net worth investigation and certificate" },
-                    "priceCurrency": "INR",
-                    "price": "2499",
-                    "description": "Starting from INR 2,499 (excl. GST and govt. charges)"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/forensic-net-worth-certificate/delhi/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
-            { "@type": "ListItem", "position": 3, "name": "Forensic Net Worth Certificate", "item": "https://www.patronaccounting.com/forensic-net-worth-certificate/delhi" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/forensic-net-worth-certificate/delhi/#faq",
-        "datePublished": "2026-06-09T08:00:00+05:30",
-        "dateModified": "2026-06-09T08:00:00+05:30",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "What is a forensic net worth certificate?",
-                "acceptedAnswer": { "@type": "Answer", "text": "It is a statement of net worth arrived at through investigation rather than simple compilation. The Chartered Accountant traces assets and liabilities, tests them against income and lifestyle, and identifies anything that appears concealed, producing a reasoned figure built to withstand challenge in a dispute." }
-            },
-            {
-                "@type": "Question",
-                "name": "How is it different from a regular net worth certificate?",
-                "acceptedAnswer": { "@type": "Answer", "text": "A regular net worth certificate attests an assets-minus-liabilities figure that the client provides, for visa, loan, or tender purposes. A forensic net worth certificate investigates and tests that figure, traces assets, and looks for concealment, for use where the net worth is contested. The forensic version is more rigorous and is scoped to a dispute." }
-            },
-            {
-                "@type": "Question",
-                "name": "What is a disproportionate-assets matter?",
-                "acceptedAnswer": { "@type": "Answer", "text": "It is a situation where a person's wealth is alleged to exceed their known legitimate sources of income, often investigated under frameworks such as the Prevention of Corruption Act. A forensic net worth analysis reconstructs the net worth and compares it against known income to document whether, and to what extent, a disproportion exists." }
-            },
-            {
-                "@type": "Question",
-                "name": "Is a forensic net worth certificate used in divorce cases?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Yes. In matrimonial and high-net-worth divorce disputes, forensic net worth work helps trace concealed assets, separate marital from separate property, and analyse true income and lifestyle where one party is suspected of understating wealth. It supports a fair and evidence-based view of the financial picture." }
-            },
-            {
-                "@type": "Question",
-                "name": "Who prepares a forensic net worth certificate?",
-                "acceptedAnswer": { "@type": "Answer", "text": "A Chartered Accountant applying forensic-accounting techniques prepares it. The work combines accounting and investigative analysis, and the output is a reasoned certificate. This is a forensic-investigation and litigation-support engagement, scoped to the facts of the case." }
-            },
-            {
-                "@type": "Question",
-                "name": "Can the certificate be used as evidence?",
-                "acceptedAnswer": { "@type": "Answer", "text": "It is prepared as reasoned, evidence-backed documentation suitable to support a party's position in a dispute. How it is used in any proceeding depends on the forum and the rules that apply, and is best coordinated with the party's legal counsel." }
-            },
-            {
-                "@type": "Question",
-                "name": "How is the fee for a forensic net worth certificate decided?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Forensic work is scoped to the case, so the fee depends on the years and assets to trace, the volume of records, and the litigation support needed. The starting fee covers a focused engagement; complex, multi-year investigations are quoted accordingly after an initial assessment." }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/forensic-net-worth-certificate/delhi",
-        "name": "Forensic Net Worth Certificate in Delhi",
-        "description": "Forensic Net Worth Certificate by a CA: an investigated net worth with asset tracing for disproportionate assets, divorce, and litigation. From INR 2,499.",
-        "url": "https://www.patronaccounting.com/forensic-net-worth-certificate/delhi",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/forensic-net-worth-certificate/delhi/#service" },
-        "datePublished": "2026-06-09T08:00:00+05:30",
-        "dateModified": "2026-06-09T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/forensic-net-worth-certificate/delhi/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How a Forensic Net Worth Certificate Is Prepared",
-        "description": "The forensic process for investigating and certifying a defensible net worth: scoping, asset tracing, income-versus-lifestyle analysis, concealment review, reconstruction, and a reasoned certificate.",
-        "totalTime": "P14D",
-        "step": [
-            { "@type": "HowToStep", "name": "Scope the engagement", "text": "We assess the dispute, the years and assets in question, and the records available, and set a realistic timeline against your hearing or filing date." },
-            { "@type": "HowToStep", "name": "Trace assets", "text": "We identify and trace assets across bank, property, investment, and transaction records." },
-            { "@type": "HowToStep", "name": "Analyse income versus lifestyle", "text": "We compare net worth and lifestyle against declared and known income to surface gaps." },
-            { "@type": "HowToStep", "name": "Review for concealment", "text": "We examine transfers, gifts, and related-party movements that may understate wealth." },
-            { "@type": "HowToStep", "name": "Reconstruct net worth", "text": "We reconstruct net worth across the relevant period from the documentary trail." },
-            { "@type": "HowToStep", "name": "Issue a reasoned certificate", "text": "We set out findings, basis, and the net worth arrived at in a reasoned, evidence-backed certificate." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Forensic Net Worth Certificate Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Forensic accounting", "description": "Investigative analysis of financial records for use in disputes." },
-            { "@type": "DefinedTerm", "name": "Asset tracing", "description": "Following money and property through accounts and transactions." },
-            { "@type": "DefinedTerm", "name": "Lifestyle analysis", "description": "Comparing spending and assets against declared income to spot gaps." },
-            { "@type": "DefinedTerm", "name": "Disproportionate assets", "description": "Wealth exceeding known legitimate sources of income." },
-            { "@type": "DefinedTerm", "name": "Concealed assets", "description": "Assets hidden or moved to understate net worth." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -787,7 +618,181 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Forensic Net Worth Certificate by CA in Delhi 2026 | Patron Accounting</title>
+    <meta name="description" content="Forensic Net Worth Certificate by a CA: an investigated net worth with asset tracing for disproportionate assets, divorce, and litigation. From INR 2,499.">
+    <link rel="canonical" href="/forensic-net-worth-certificate/delhi">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Forensic Net Worth Certificate by CA 2026 | Patron Accounting">
+    <meta property="og:description" content="Forensic Net Worth Certificate by a CA: an investigated net worth with asset tracing for disproportionate assets, divorce, and litigation. From INR 2,499.">
+    <meta property="og:url" content="/forensic-net-worth-certificate/delhi">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Forensic Net Worth Certificate by CA 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Forensic Net Worth Certificate by a CA: an investigated net worth with asset tracing for disproportionate assets, divorce, and litigation. From INR 2,499.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/forensic-net-worth-certificate/delhi/#service",
+        "name": "Forensic Net Worth Certificate in Delhi",
+        "description": "A forensic-investigation and litigation-support engagement establishing a defensible net worth using forensic-accounting techniques, including asset tracing, income-versus-lifestyle analysis, and detection of concealed assets, for disproportionate-assets matters, matrimonial and divorce disputes, fraud, and partnership or estate litigation. Distinct from a standard net worth certificate, which attests a client-supplied figure.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/forensic-net-worth-certificate/delhi" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Forensic accounting", "sameAs": "https://en.wikipedia.org/wiki/Forensic_accounting" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Forensic Net Worth Certificate Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": { "@type": "Service", "name": "Forensic net worth investigation and certificate" },
+                    "priceCurrency": "INR",
+                    "price": "2499",
+                    "description": "Starting from INR 2,499 (excl. GST and govt. charges)"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/forensic-net-worth-certificate/delhi/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
+            { "@type": "ListItem", "position": 3, "name": "Forensic Net Worth Certificate", "item": "https://www.patronaccounting.com/forensic-net-worth-certificate/delhi" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/forensic-net-worth-certificate/delhi/#faq",
+        "datePublished": "2026-06-09T08:00:00+05:30",
+        "dateModified": "2026-06-09T08:00:00+05:30",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is a forensic net worth certificate?",
+                "acceptedAnswer": { "@type": "Answer", "text": "It is a statement of net worth arrived at through investigation rather than simple compilation. The Chartered Accountant traces assets and liabilities, tests them against income and lifestyle, and identifies anything that appears concealed, producing a reasoned figure built to withstand challenge in a dispute." }
+            },
+            {
+                "@type": "Question",
+                "name": "How is it different from a regular net worth certificate?",
+                "acceptedAnswer": { "@type": "Answer", "text": "A regular net worth certificate attests an assets-minus-liabilities figure that the client provides, for visa, loan, or tender purposes. A forensic net worth certificate investigates and tests that figure, traces assets, and looks for concealment, for use where the net worth is contested. The forensic version is more rigorous and is scoped to a dispute." }
+            },
+            {
+                "@type": "Question",
+                "name": "What is a disproportionate-assets matter?",
+                "acceptedAnswer": { "@type": "Answer", "text": "It is a situation where a person's wealth is alleged to exceed their known legitimate sources of income, often investigated under frameworks such as the Prevention of Corruption Act. A forensic net worth analysis reconstructs the net worth and compares it against known income to document whether, and to what extent, a disproportion exists." }
+            },
+            {
+                "@type": "Question",
+                "name": "Is a forensic net worth certificate used in divorce cases?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Yes. In matrimonial and high-net-worth divorce disputes, forensic net worth work helps trace concealed assets, separate marital from separate property, and analyse true income and lifestyle where one party is suspected of understating wealth. It supports a fair and evidence-based view of the financial picture." }
+            },
+            {
+                "@type": "Question",
+                "name": "Who prepares a forensic net worth certificate?",
+                "acceptedAnswer": { "@type": "Answer", "text": "A Chartered Accountant applying forensic-accounting techniques prepares it. The work combines accounting and investigative analysis, and the output is a reasoned certificate. This is a forensic-investigation and litigation-support engagement, scoped to the facts of the case." }
+            },
+            {
+                "@type": "Question",
+                "name": "Can the certificate be used as evidence?",
+                "acceptedAnswer": { "@type": "Answer", "text": "It is prepared as reasoned, evidence-backed documentation suitable to support a party's position in a dispute. How it is used in any proceeding depends on the forum and the rules that apply, and is best coordinated with the party's legal counsel." }
+            },
+            {
+                "@type": "Question",
+                "name": "How is the fee for a forensic net worth certificate decided?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Forensic work is scoped to the case, so the fee depends on the years and assets to trace, the volume of records, and the litigation support needed. The starting fee covers a focused engagement; complex, multi-year investigations are quoted accordingly after an initial assessment." }
+            }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/forensic-net-worth-certificate/delhi",
+        "name": "Forensic Net Worth Certificate in Delhi",
+        "description": "Forensic Net Worth Certificate by a CA: an investigated net worth with asset tracing for disproportionate assets, divorce, and litigation. From INR 2,499.",
+        "url": "https://www.patronaccounting.com/forensic-net-worth-certificate/delhi",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/forensic-net-worth-certificate/delhi/#service" },
+        "datePublished": "2026-06-09T08:00:00+05:30",
+        "dateModified": "2026-06-09T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/forensic-net-worth-certificate/delhi/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How a Forensic Net Worth Certificate Is Prepared",
+        "description": "The forensic process for investigating and certifying a defensible net worth: scoping, asset tracing, income-versus-lifestyle analysis, concealment review, reconstruction, and a reasoned certificate.",
+        "totalTime": "P14D",
+        "step": [
+            { "@type": "HowToStep", "name": "Scope the engagement", "text": "We assess the dispute, the years and assets in question, and the records available, and set a realistic timeline against your hearing or filing date." },
+            { "@type": "HowToStep", "name": "Trace assets", "text": "We identify and trace assets across bank, property, investment, and transaction records." },
+            { "@type": "HowToStep", "name": "Analyse income versus lifestyle", "text": "We compare net worth and lifestyle against declared and known income to surface gaps." },
+            { "@type": "HowToStep", "name": "Review for concealment", "text": "We examine transfers, gifts, and related-party movements that may understate wealth." },
+            { "@type": "HowToStep", "name": "Reconstruct net worth", "text": "We reconstruct net worth across the relevant period from the documentary trail." },
+            { "@type": "HowToStep", "name": "Issue a reasoned certificate", "text": "We set out findings, basis, and the net worth arrived at in a reasoned, evidence-backed certificate." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Forensic Net Worth Certificate Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Forensic accounting", "description": "Investigative analysis of financial records for use in disputes." },
+            { "@type": "DefinedTerm", "name": "Asset tracing", "description": "Following money and property through accounts and transactions." },
+            { "@type": "DefinedTerm", "name": "Lifestyle analysis", "description": "Comparing spending and assets against declared income to spot gaps." },
+            { "@type": "DefinedTerm", "name": "Disproportionate assets", "description": "Wealth exceeding known legitimate sources of income." },
+            { "@type": "DefinedTerm", "name": "Concealed assets", "description": "Assets hidden or moved to understate net worth." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1631,17 +1636,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1664,8 +1662,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1702,7 +1698,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1 (Schema Standard v2.1 / Rule 36): visible "Last Updated" is a STABLE value
 // mirroring schema dateModified (9 June 2026) - NOT live new Date().
@@ -1714,3 +1709,19 @@ window.addEventListener('scroll', function() {
     if (el2) el2.textContent = dateStr;
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

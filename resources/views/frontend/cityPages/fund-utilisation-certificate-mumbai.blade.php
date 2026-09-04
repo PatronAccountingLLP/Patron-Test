@@ -1,146 +1,12 @@
 
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Fund Utilisation Certificate in Mumbai 2026: CA UC Format | Patron Accounting</title>
-    <meta name="description" content="CA-certified fund utilisation certificate confirming grant, CSR and project funds were used for the sanctioned purpose. GFR 12-A ready. From INR 3,999.">
-    <link rel="canonical" href="/fund-utilisation-certificate/mumbai">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Fund Utilisation Certificate 2026: CA UC Format | Patron Accounting">
-    <meta property="og:description" content="CA-certified fund utilisation certificate confirming grant, CSR and project funds were used for the sanctioned purpose. GFR 12-A ready. From INR 3,999.">
-    <meta property="og:url" content="/fund-utilisation-certificate/mumbai">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Fund Utilisation Certificate 2026: CA UC Format | Patron Accounting">
-    <meta name="twitter:description" content="CA-certified fund utilisation certificate confirming grant, CSR and project funds were used for the sanctioned purpose. GFR 12-A ready. From INR 3,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/fund-utilisation-certificate/mumbai/#service",
-        "name": "Fund Utilisation Certificate in India",
-        "description": "CA-certified fund utilisation certificate confirming that grant, CSR, foreign-contribution or project funds were used for the sanctioned purpose, stating allocated, utilised and unspent amounts, prepared in Form GFR 12-A for government grants and the formats CSR funders and tenders expect, issued with a UDIN.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/fund-utilisation-certificate/mumbai" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Grant (money)", "sameAs": "https://en.wikipedia.org/wiki/Grant_(money)" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Fund Utilisation Certificate Service Plans",
-            "itemListElement": [
-                { "@type": "Offer", "name": "Fund Utilisation Certificate (GFR 12-A / CSR / FCRA)", "priceCurrency": "INR", "price": "3999", "description": "CA verification of expenditure against the sanction terms and certification of allocated, utilised and unspent amounts, in the required format, with UDIN." }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/fund-utilisation-certificate/mumbai/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
-            { "@type": "ListItem", "position": 3, "name": "Fund Utilisation Certificate", "item": "https://www.patronaccounting.com/fund-utilisation-certificate/mumbai" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/fund-utilisation-certificate/mumbai/#faq",
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "mainEntity": [
-            { "@type": "Question", "name": "What is a fund utilisation certificate?", "acceptedAnswer": { "@type": "Answer", "text": "A fund utilisation certificate, or UC, is a document usually certified by a Chartered Accountant confirming that funds received for a specific project, grant or activity were used for that sanctioned purpose. It states the funding agency, the sanction reference, the total funds allocated, the amount utilised, any unspent balance and the period of utilisation, and carries the CA's signature, stamp and a UDIN." } },
-            { "@type": "Question", "name": "What is Form GFR 12-A?", "acceptedAnswer": { "@type": "Answer", "text": "Form GFR 12-A is the prescribed format of the utilisation certificate for government grants, issued under Rule 238(1) of the General Financial Rules. It certifies that the conditions on which the grant was sanctioned have been fulfilled and that the money was used for the intended purpose. Government departments often return certificates that are not in this exact format, which delays the release of further grants, so we prepare the UC strictly in GFR 12-A." } },
-            { "@type": "Question", "name": "Is a utilisation certificate required for CSR funds?", "acceptedAnswer": { "@type": "Answer", "text": "CSR rules under Section 135 of the Companies Act, 2013 and the CSR Rules, 2014 do not explicitly mandate a CA utilisation certificate, but where CSR funds are given to an implementing agency such as an NGO or trust, the company should obtain a utilisation certificate or expenditure report confirming the funds were used for CSR activities. This supports the company's CSR reporting and audit, so a certified UC is strongly advisable." } },
-            { "@type": "Question", "name": "Do NGOs receiving foreign grants need a UC?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Under the FCRA, 2010, foreign contributions received by an NGO must be used only for the purpose for which they were received, and funders and authorities expect a utilisation certificate accounting for the grant. The UC states the allocated, utilised and unspent amounts and confirms the spending matched the sanctioned purpose. We prepare it consistent with the NGO's FCRA records and the funder's requirements." } },
-            { "@type": "Question", "name": "What does the certificate include?", "acceptedAnswer": { "@type": "Answer", "text": "The certificate includes the name of the funding agency, the project or grant name, the sanction letter reference and date, the total funds allocated, the funds utilised for the sanctioned purpose, any unspent balance and interest, and the period of utilisation. It is supported by the statement of expenditure, bank statements, invoices and books of account, and is certified by the CA with a UDIN." } },
-            { "@type": "Question", "name": "How much does a fund utilisation certificate cost?", "acceptedAnswer": { "@type": "Answer", "text": "At Patron Accounting, a fund utilisation certificate starts from Rs 3,999 (exclusive of GST and government charges), in line with the market for grant, CSR and project certification. The final fee depends on the size and number of grants or projects and the depth of expenditure verification required. Fees are confirmed after a review of your sanction and expenditure records." } },
-            { "@type": "Question", "name": "How long does it take to get a UC?", "acceptedAnswer": { "@type": "Answer", "text": "Most fund utilisation certificates are issued within 2 to 5 working days of receiving the sanction letter and expenditure records. A multi-grant or multi-project closure can take longer because more expenditure has to be verified and reconciled. Tell us your funder's reporting date, CSR audit timeline or tender milestone, and we will prioritise the certificate so it is ready on time." } }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/fund-utilisation-certificate/mumbai",
-        "name": "Fund Utilisation Certificate in India",
-        "description": "CA-certified fund utilisation certificate confirming grant, CSR and project funds were used for the sanctioned purpose. GFR 12-A ready. From INR 3,999.",
-        "url": "https://www.patronaccounting.com/fund-utilisation-certificate/mumbai",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/fund-utilisation-certificate/mumbai/#service" },
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/fund-utilisation-certificate/mumbai/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How to Obtain a Fund Utilisation Certificate",
-        "description": "Five steps to obtain a CA fund utilisation certificate: engagement, document submission, verification, reconciliation, and certification with UDIN.",
-        "totalTime": "P5D",
-        "step": [
-            { "@type": "HowToStep", "name": "Engagement", "text": "Confirm the context (grant, CSR, FCRA or tender) and the format required." },
-            { "@type": "HowToStep", "name": "Document submission", "text": "Share the sanction letter, expenditure records, bank statements and books." },
-            { "@type": "HowToStep", "name": "Verification", "text": "The CA verifies expenditure against the sanction terms under SA 500." },
-            { "@type": "HowToStep", "name": "Reconciliation", "text": "Allocated, utilised and unspent amounts are reconciled to the books." },
-            { "@type": "HowToStep", "name": "Certification and UDIN", "text": "The CA signs, stamps and generates the UDIN, issuing the UC." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Fund Utilisation Certificate Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Sanctioned purpose", "description": "The specific use for which the funds were granted or released." },
-            { "@type": "DefinedTerm", "name": "Form GFR 12-A", "description": "The prescribed government UC format under Rule 238(1) of the General Financial Rules." },
-            { "@type": "DefinedTerm", "name": "Unspent balance", "description": "Funds received but not yet utilised at the end of the period." },
-            { "@type": "DefinedTerm", "name": "Implementing agency", "description": "The NGO or trust that spends CSR funds on behalf of a company." },
-            { "@type": "DefinedTerm", "name": "Recurring / non-recurring grant", "description": "Ongoing operating grants versus one-time capital grants." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -754,7 +620,146 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Fund Utilisation Certificate in Mumbai 2026: CA UC Format | Patron Accounting</title>
+    <meta name="description" content="CA-certified fund utilisation certificate confirming grant, CSR and project funds were used for the sanctioned purpose. GFR 12-A ready. From INR 3,999.">
+    <link rel="canonical" href="/fund-utilisation-certificate/mumbai">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Fund Utilisation Certificate 2026: CA UC Format | Patron Accounting">
+    <meta property="og:description" content="CA-certified fund utilisation certificate confirming grant, CSR and project funds were used for the sanctioned purpose. GFR 12-A ready. From INR 3,999.">
+    <meta property="og:url" content="/fund-utilisation-certificate/mumbai">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Fund Utilisation Certificate 2026: CA UC Format | Patron Accounting">
+    <meta name="twitter:description" content="CA-certified fund utilisation certificate confirming grant, CSR and project funds were used for the sanctioned purpose. GFR 12-A ready. From INR 3,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/fund-utilisation-certificate/mumbai/#service",
+        "name": "Fund Utilisation Certificate in India",
+        "description": "CA-certified fund utilisation certificate confirming that grant, CSR, foreign-contribution or project funds were used for the sanctioned purpose, stating allocated, utilised and unspent amounts, prepared in Form GFR 12-A for government grants and the formats CSR funders and tenders expect, issued with a UDIN.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/fund-utilisation-certificate/mumbai" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Grant (money)", "sameAs": "https://en.wikipedia.org/wiki/Grant_(money)" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Fund Utilisation Certificate Service Plans",
+            "itemListElement": [
+                { "@type": "Offer", "name": "Fund Utilisation Certificate (GFR 12-A / CSR / FCRA)", "priceCurrency": "INR", "price": "3999", "description": "CA verification of expenditure against the sanction terms and certification of allocated, utilised and unspent amounts, in the required format, with UDIN." }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/fund-utilisation-certificate/mumbai/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
+            { "@type": "ListItem", "position": 3, "name": "Fund Utilisation Certificate", "item": "https://www.patronaccounting.com/fund-utilisation-certificate/mumbai" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/fund-utilisation-certificate/mumbai/#faq",
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "mainEntity": [
+            { "@type": "Question", "name": "What is a fund utilisation certificate?", "acceptedAnswer": { "@type": "Answer", "text": "A fund utilisation certificate, or UC, is a document usually certified by a Chartered Accountant confirming that funds received for a specific project, grant or activity were used for that sanctioned purpose. It states the funding agency, the sanction reference, the total funds allocated, the amount utilised, any unspent balance and the period of utilisation, and carries the CA's signature, stamp and a UDIN." } },
+            { "@type": "Question", "name": "What is Form GFR 12-A?", "acceptedAnswer": { "@type": "Answer", "text": "Form GFR 12-A is the prescribed format of the utilisation certificate for government grants, issued under Rule 238(1) of the General Financial Rules. It certifies that the conditions on which the grant was sanctioned have been fulfilled and that the money was used for the intended purpose. Government departments often return certificates that are not in this exact format, which delays the release of further grants, so we prepare the UC strictly in GFR 12-A." } },
+            { "@type": "Question", "name": "Is a utilisation certificate required for CSR funds?", "acceptedAnswer": { "@type": "Answer", "text": "CSR rules under Section 135 of the Companies Act, 2013 and the CSR Rules, 2014 do not explicitly mandate a CA utilisation certificate, but where CSR funds are given to an implementing agency such as an NGO or trust, the company should obtain a utilisation certificate or expenditure report confirming the funds were used for CSR activities. This supports the company's CSR reporting and audit, so a certified UC is strongly advisable." } },
+            { "@type": "Question", "name": "Do NGOs receiving foreign grants need a UC?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Under the FCRA, 2010, foreign contributions received by an NGO must be used only for the purpose for which they were received, and funders and authorities expect a utilisation certificate accounting for the grant. The UC states the allocated, utilised and unspent amounts and confirms the spending matched the sanctioned purpose. We prepare it consistent with the NGO's FCRA records and the funder's requirements." } },
+            { "@type": "Question", "name": "What does the certificate include?", "acceptedAnswer": { "@type": "Answer", "text": "The certificate includes the name of the funding agency, the project or grant name, the sanction letter reference and date, the total funds allocated, the funds utilised for the sanctioned purpose, any unspent balance and interest, and the period of utilisation. It is supported by the statement of expenditure, bank statements, invoices and books of account, and is certified by the CA with a UDIN." } },
+            { "@type": "Question", "name": "How much does a fund utilisation certificate cost?", "acceptedAnswer": { "@type": "Answer", "text": "At Patron Accounting, a fund utilisation certificate starts from Rs 3,999 (exclusive of GST and government charges), in line with the market for grant, CSR and project certification. The final fee depends on the size and number of grants or projects and the depth of expenditure verification required. Fees are confirmed after a review of your sanction and expenditure records." } },
+            { "@type": "Question", "name": "How long does it take to get a UC?", "acceptedAnswer": { "@type": "Answer", "text": "Most fund utilisation certificates are issued within 2 to 5 working days of receiving the sanction letter and expenditure records. A multi-grant or multi-project closure can take longer because more expenditure has to be verified and reconciled. Tell us your funder's reporting date, CSR audit timeline or tender milestone, and we will prioritise the certificate so it is ready on time." } }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/fund-utilisation-certificate/mumbai",
+        "name": "Fund Utilisation Certificate in India",
+        "description": "CA-certified fund utilisation certificate confirming grant, CSR and project funds were used for the sanctioned purpose. GFR 12-A ready. From INR 3,999.",
+        "url": "https://www.patronaccounting.com/fund-utilisation-certificate/mumbai",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/fund-utilisation-certificate/mumbai/#service" },
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/fund-utilisation-certificate/mumbai/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Obtain a Fund Utilisation Certificate",
+        "description": "Five steps to obtain a CA fund utilisation certificate: engagement, document submission, verification, reconciliation, and certification with UDIN.",
+        "totalTime": "P5D",
+        "step": [
+            { "@type": "HowToStep", "name": "Engagement", "text": "Confirm the context (grant, CSR, FCRA or tender) and the format required." },
+            { "@type": "HowToStep", "name": "Document submission", "text": "Share the sanction letter, expenditure records, bank statements and books." },
+            { "@type": "HowToStep", "name": "Verification", "text": "The CA verifies expenditure against the sanction terms under SA 500." },
+            { "@type": "HowToStep", "name": "Reconciliation", "text": "Allocated, utilised and unspent amounts are reconciled to the books." },
+            { "@type": "HowToStep", "name": "Certification and UDIN", "text": "The CA signs, stamps and generates the UDIN, issuing the UC." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Fund Utilisation Certificate Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Sanctioned purpose", "description": "The specific use for which the funds were granted or released." },
+            { "@type": "DefinedTerm", "name": "Form GFR 12-A", "description": "The prescribed government UC format under Rule 238(1) of the General Financial Rules." },
+            { "@type": "DefinedTerm", "name": "Unspent balance", "description": "Funds received but not yet utilised at the end of the period." },
+            { "@type": "DefinedTerm", "name": "Implementing agency", "description": "The NGO or trust that spends CSR funds on behalf of a company." },
+            { "@type": "DefinedTerm", "name": "Recurring / non-recurring grant", "description": "Ongoing operating grants versus one-time capital grants." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1511,17 +1516,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1544,8 +1542,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1582,7 +1578,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (stable, not live date)
 (function(){
@@ -1593,3 +1588,19 @@ window.addEventListener('scroll', function() {
     if(el2)el2.textContent=dateStr;
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

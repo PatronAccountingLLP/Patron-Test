@@ -1,196 +1,8 @@
 @extends('layouts.app')
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
-@section('meta')
-    <title>LUT Expiry Reminder | GST Form RFD-11 Renewal Calendar</title>
-    <meta name="description" content="Free LUT expiry reminder for GST exporters: track Form RFD-11 validity for FY 2026-27, get milestone alerts and an ICS calendar download. Free CA tool. Try now!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/lut-expiry-reminder">
-    <meta property="og:title" content="LUT Expiry Reminder + Renewal Calendar — RFD-11 2026">
-    <meta property="og:description" content="Track GST LUT validity, milestone reminders for renewal, ICS calendar download. Form RFD-11 under Rule 96A. Free CA tool.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/lut-expiry-reminder">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="LUT Expiry Reminder + Renewal Calendar — RFD-11 2026">
-    <meta name="twitter:description" content="Track GST LUT validity, renewal milestones, ICS calendar download. Free CA tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-    <meta name="theme-color" content="#15365f">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "LUT Expiry Reminder + Renewal Calendar",
-      "description": "LUT Expiry Reminder + Renewal Calendar tracks the validity of a Letter of Undertaking filed in Form GST RFD-11 under Rule 96A of the Central Goods and Services Tax Rules 2017 read with Notification 37/2017-Central Tax. The tool computes the LUT expiry date which is uniformly 31 March of the financial year for which it was filed, identifies days remaining until expiry with five status bands (Safe, Attention, Renewal Due, Urgent, Expired), and generates a milestone calendar with four key reminder dates: 90 days before expiry for documentation preparation, 60 days before expiry for renewal filing window opening, 30 days before expiry for urgency escalation, and 1 April of the new financial year when the new LUT must be in place before any export. The tool also generates an ICS calendar file that can be imported into Google Calendar, Apple Calendar, or Microsoft Outlook to receive automated reminders. Designed for GST-registered exporters of goods and services, suppliers to Special Economic Zone units and developers, and CA practitioners managing client compliance calendars. The tool incorporates current statutory framework including Circular 40/14/2018-GST on automatic deemed approval upon ARN generation, Notification 37/2017 eligibility requirement excluding persons prosecuted for tax evasion of two and a half crore rupees or more, the 18 percent interest consequence under Rule 96A(1) where export commitment fails within 3 months for goods or 1 year for foreign exchange realisation on services, and authorized signatory requirements covering working partners managing directors company secretaries proprietors and board-authorised persons. Suitable for export-focused businesses exporters of services SEZ suppliers manufacturing exporters software exporters and accounting firms managing client portfolios.",
-      "url": "https://www.patronaccounting.com/tools/lut-expiry-reminder",
-      "applicationCategory": "FinanceApplication",
-      "operatingSystem": "Any",
-      "datePublished": "2026-05-08T08:00:00+05:30",
-      "dateModified": "2026-05-08T08:00:00+05:30",
-      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
-      "author": {
-        "@type": "Person",
-        "@id": "https://patronaccounting.com/#founder",
-        "name": "CA Sundram Gupta",
-        "jobTitle": "Founder & Chartered Accountant",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Institute of Chartered Accountants of India",
-            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-          }
-        }]
-      },
-      "publisher": { "@id": "https://patronaccounting.com/#organization" },
-      "provider": { "@id": "https://patronaccounting.com/#organization" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "LUT Expiry Reminder", "item": "https://www.patronaccounting.com/tools/lut-expiry-reminder"}
-      ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "datePublished": "2026-05-08T08:00:00+05:30",
-      "dateModified": "2026-05-08T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is a Letter of Undertaking under GST?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A Letter of Undertaking under Rule 96A of the CGST Rules 2017 is a document filed in Form GST RFD-11 by a registered exporter who wishes to export goods or services without payment of integrated tax. The LUT is the exporter's commitment to fulfill export obligations within the prescribed timelines and to pay IGST with 18 percent interest if the commitment fails. It replaced the older bond-with-bank-guarantee mechanism for most exporters under Notification 37/2017-Central Tax dated 4 October 2017."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long is an LUT valid?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "An LUT is valid for one financial year only, expiring on 31 March of the relevant FY. For example, an LUT filed in October 2025 for FY 2025-26 is valid till 31 March 2026. A fresh LUT must be filed before the first export of the next financial year. The LUT does not auto-renew. Practitioners typically file the new FY LUT in March before financial year-end to ensure continuity. Filing late means paying IGST on intervening exports and claiming refund."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Who is eligible to furnish an LUT?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Per Notification 37/2017-Central Tax, any registered person engaged in zero-rated supply (export of goods or services, or supplies to SEZ units or developers) is eligible to furnish an LUT — except those prosecuted for tax evasion of two and a half crore rupees or more under the CGST Act, IGST Act, or any earlier indirect tax law. Eligibility test is at the time of filing. The exporter declares eligibility in the LUT itself. Subsequent disqualification can lead to retroactive rejection."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens if my LUT expires?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "If your LUT expires and you continue exports, the supply loses its zero-rated benefit under Rule 96A. You must pay full IGST on each export and claim refund subsequently through Form GST RFD-01 under Section 54. This blocks working capital, adds compliance burden, and risks departmental scrutiny on the period of non-compliance. The department may also issue notices under Section 73 or 74 demanding IGST plus 18 percent interest on past LUT-less exports if not voluntarily remedied."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do I file Form GST RFD-11?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Log in to the GST Portal, navigate to Services then User Services then Furnish Letter of Undertaking. Select the financial year for which the LUT applies. Upload the previous year's LUT acknowledgment if any. Provide details of two witnesses with PAN, address, and occupation. Sign using DSC for companies and LLPs or EVC for proprietorships and individuals. Submit the application. The ARN is generated immediately and per Circular 40/14/2018-GST the LUT is deemed approved on ARN generation."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "When should I file the LUT for the new financial year?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Best practice is to file the new FY LUT in March before financial year-end, ideally by 25 March to allow buffer for portal issues. The new LUT must be in place before the first export of the new FY (1 April onwards). Many practitioners build a recurring March-end task in their compliance calendar. Filing post 31 March means any export between 1 April and the LUT filing date triggers IGST liability."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are the export timelines under Rule 96A?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Rule 96A imposes strict timelines on LUT-covered exports. Goods must be exported within three months from the date of invoice; if not, IGST plus 18 percent interest becomes payable from invoice date. For services, foreign exchange must be received within one year from invoice date. The Commissioner may extend these timelines on application. Failure to export within timeline triggers Rule 96A(1) consequence — IGST recovery with interest. Documentation of timelines is essential during audits and refund verification."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does LUT cover all types of zero-rated supplies?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "LUT covers two zero-rated categories under Section 16 IGST Act: export of goods or services outside India, and supplies to SEZ units or developers for authorised operations. The LUT does not cover deemed exports under Section 147 — those follow a different refund mechanism. Per Circular 45/19/2018-GST, LUT or bond is not required for export of non-GST goods or exempted supplies that are zero-rated by other provisions. Verify the specific category before relying on LUT cover."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I download a calendar reminder for LUT renewal?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. The Patron LUT Expiry Reminder tool generates an ICS calendar file that can be downloaded and imported into Google Calendar, Apple Calendar, Microsoft Outlook, or any standard calendar application. The ICS file contains four reminder events at 90, 60, and 30 days before expiry, plus a final reminder on 1 April for the new FY filing. Each event includes context on the action required and a link back to the GST Portal LUT filing page for one-click access."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Who must sign the LUT?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The LUT must be signed by an authorised signatory of the registered person. For companies, this is typically the Managing Director, whole-time director, or Company Secretary. For LLPs and partnerships, a working partner. For proprietorships, the proprietor. For other entities, a person duly authorised by the board or governing body through resolution. The signatory must be active on the GST Portal as authorised signatory at the time of filing. DSC is mandatory for companies and LLPs."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the witness requirement?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Form GST RFD-11 requires details of two independent witnesses. For each witness, the LUT must capture the name, address, and occupation. Witnesses are typically employees, professional advisors, or business associates of the exporter. They are not required to physically sign the online form, but their details are part of the legal commitment. In case of dispute, witnesses may be summoned to confirm the existence and execution of the undertaking. Maintain witness consent letters in your records."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I file LUT mid-year if I missed the financial-year filing?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. An LUT can be filed at any time during the financial year. However, exports made before the LUT filing date are not covered — IGST becomes payable on those exports with refund claim subsequently. The LUT becomes operative from its filing date and remains valid till 31 March of the same FY. Practitioners advise filing the LUT as the very first compliance step when starting export operations during the year. Waiting damages working capital."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is the LUT auto-approved?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, under Circular 40/14/2018-GST dated 6 April 2018, an LUT is automatically deemed approved on generation of the Application Reference Number. No separate manual approval is required. The system generates a deemed approval order with RFD-11A acknowledgment. However, this deemed approval is subject to subsequent verification of eligibility — if the proper officer later finds the exporter ineligible (such as evidence of tax evasion prosecution above the threshold), the LUT can be rejected retroactively from filing date."
-          }
-        }
-      ]
-    }
-    </script>
-@endsection
-
 <style>
         :root {
             --primary: #15365f;
@@ -461,7 +273,195 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 }
 
 </style>
+@endpush
 
+@section('meta')
+    <title>LUT Expiry Reminder | GST Form RFD-11 Renewal Calendar</title>
+    <meta name="description" content="Free LUT expiry reminder for GST exporters: track Form RFD-11 validity for FY 2026-27, get milestone alerts and an ICS calendar download. Free CA tool. Try now!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/lut-expiry-reminder">
+    <meta property="og:title" content="LUT Expiry Reminder + Renewal Calendar — RFD-11 2026">
+    <meta property="og:description" content="Track GST LUT validity, milestone reminders for renewal, ICS calendar download. Form RFD-11 under Rule 96A. Free CA tool.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/lut-expiry-reminder">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="LUT Expiry Reminder + Renewal Calendar — RFD-11 2026">
+    <meta name="twitter:description" content="Track GST LUT validity, renewal milestones, ICS calendar download. Free CA tool.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+    <meta name="theme-color" content="#15365f">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "LUT Expiry Reminder + Renewal Calendar",
+      "description": "LUT Expiry Reminder + Renewal Calendar tracks the validity of a Letter of Undertaking filed in Form GST RFD-11 under Rule 96A of the Central Goods and Services Tax Rules 2017 read with Notification 37/2017-Central Tax. The tool computes the LUT expiry date which is uniformly 31 March of the financial year for which it was filed, identifies days remaining until expiry with five status bands (Safe, Attention, Renewal Due, Urgent, Expired), and generates a milestone calendar with four key reminder dates: 90 days before expiry for documentation preparation, 60 days before expiry for renewal filing window opening, 30 days before expiry for urgency escalation, and 1 April of the new financial year when the new LUT must be in place before any export. The tool also generates an ICS calendar file that can be imported into Google Calendar, Apple Calendar, or Microsoft Outlook to receive automated reminders. Designed for GST-registered exporters of goods and services, suppliers to Special Economic Zone units and developers, and CA practitioners managing client compliance calendars. The tool incorporates current statutory framework including Circular 40/14/2018-GST on automatic deemed approval upon ARN generation, Notification 37/2017 eligibility requirement excluding persons prosecuted for tax evasion of two and a half crore rupees or more, the 18 percent interest consequence under Rule 96A(1) where export commitment fails within 3 months for goods or 1 year for foreign exchange realisation on services, and authorized signatory requirements covering working partners managing directors company secretaries proprietors and board-authorised persons. Suitable for export-focused businesses exporters of services SEZ suppliers manufacturing exporters software exporters and accounting firms managing client portfolios.",
+      "url": "https://www.patronaccounting.com/tools/lut-expiry-reminder",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Any",
+      "datePublished": "2026-05-08T08:00:00+05:30",
+      "dateModified": "2026-05-08T08:00:00+05:30",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
+      "author": {
+        "@type": "Person",
+        "@id": "https://patronaccounting.com/#founder",
+        "name": "CA Sundram Gupta",
+        "jobTitle": "Founder & Chartered Accountant",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Institute of Chartered Accountants of India",
+            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+          }
+        }]
+      },
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": { "@id": "https://patronaccounting.com/#organization" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "LUT Expiry Reminder", "item": "https://www.patronaccounting.com/tools/lut-expiry-reminder"}
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "datePublished": "2026-05-08T08:00:00+05:30",
+      "dateModified": "2026-05-08T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a Letter of Undertaking under GST?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Letter of Undertaking under Rule 96A of the CGST Rules 2017 is a document filed in Form GST RFD-11 by a registered exporter who wishes to export goods or services without payment of integrated tax. The LUT is the exporter's commitment to fulfill export obligations within the prescribed timelines and to pay IGST with 18 percent interest if the commitment fails. It replaced the older bond-with-bank-guarantee mechanism for most exporters under Notification 37/2017-Central Tax dated 4 October 2017."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long is an LUT valid?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An LUT is valid for one financial year only, expiring on 31 March of the relevant FY. For example, an LUT filed in October 2025 for FY 2025-26 is valid till 31 March 2026. A fresh LUT must be filed before the first export of the next financial year. The LUT does not auto-renew. Practitioners typically file the new FY LUT in March before financial year-end to ensure continuity. Filing late means paying IGST on intervening exports and claiming refund."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who is eligible to furnish an LUT?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Per Notification 37/2017-Central Tax, any registered person engaged in zero-rated supply (export of goods or services, or supplies to SEZ units or developers) is eligible to furnish an LUT — except those prosecuted for tax evasion of two and a half crore rupees or more under the CGST Act, IGST Act, or any earlier indirect tax law. Eligibility test is at the time of filing. The exporter declares eligibility in the LUT itself. Subsequent disqualification can lead to retroactive rejection."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if my LUT expires?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If your LUT expires and you continue exports, the supply loses its zero-rated benefit under Rule 96A. You must pay full IGST on each export and claim refund subsequently through Form GST RFD-01 under Section 54. This blocks working capital, adds compliance burden, and risks departmental scrutiny on the period of non-compliance. The department may also issue notices under Section 73 or 74 demanding IGST plus 18 percent interest on past LUT-less exports if not voluntarily remedied."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I file Form GST RFD-11?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Log in to the GST Portal, navigate to Services then User Services then Furnish Letter of Undertaking. Select the financial year for which the LUT applies. Upload the previous year's LUT acknowledgment if any. Provide details of two witnesses with PAN, address, and occupation. Sign using DSC for companies and LLPs or EVC for proprietorships and individuals. Submit the application. The ARN is generated immediately and per Circular 40/14/2018-GST the LUT is deemed approved on ARN generation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When should I file the LUT for the new financial year?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Best practice is to file the new FY LUT in March before financial year-end, ideally by 25 March to allow buffer for portal issues. The new LUT must be in place before the first export of the new FY (1 April onwards). Many practitioners build a recurring March-end task in their compliance calendar. Filing post 31 March means any export between 1 April and the LUT filing date triggers IGST liability."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the export timelines under Rule 96A?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rule 96A imposes strict timelines on LUT-covered exports. Goods must be exported within three months from the date of invoice; if not, IGST plus 18 percent interest becomes payable from invoice date. For services, foreign exchange must be received within one year from invoice date. The Commissioner may extend these timelines on application. Failure to export within timeline triggers Rule 96A(1) consequence — IGST recovery with interest. Documentation of timelines is essential during audits and refund verification."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does LUT cover all types of zero-rated supplies?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "LUT covers two zero-rated categories under Section 16 IGST Act: export of goods or services outside India, and supplies to SEZ units or developers for authorised operations. The LUT does not cover deemed exports under Section 147 — those follow a different refund mechanism. Per Circular 45/19/2018-GST, LUT or bond is not required for export of non-GST goods or exempted supplies that are zero-rated by other provisions. Verify the specific category before relying on LUT cover."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I download a calendar reminder for LUT renewal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The Patron LUT Expiry Reminder tool generates an ICS calendar file that can be downloaded and imported into Google Calendar, Apple Calendar, Microsoft Outlook, or any standard calendar application. The ICS file contains four reminder events at 90, 60, and 30 days before expiry, plus a final reminder on 1 April for the new FY filing. Each event includes context on the action required and a link back to the GST Portal LUT filing page for one-click access."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who must sign the LUT?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The LUT must be signed by an authorised signatory of the registered person. For companies, this is typically the Managing Director, whole-time director, or Company Secretary. For LLPs and partnerships, a working partner. For proprietorships, the proprietor. For other entities, a person duly authorised by the board or governing body through resolution. The signatory must be active on the GST Portal as authorised signatory at the time of filing. DSC is mandatory for companies and LLPs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the witness requirement?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Form GST RFD-11 requires details of two independent witnesses. For each witness, the LUT must capture the name, address, and occupation. Witnesses are typically employees, professional advisors, or business associates of the exporter. They are not required to physically sign the online form, but their details are part of the legal commitment. In case of dispute, witnesses may be summoned to confirm the existence and execution of the undertaking. Maintain witness consent letters in your records."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I file LUT mid-year if I missed the financial-year filing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. An LUT can be filed at any time during the financial year. However, exports made before the LUT filing date are not covered — IGST becomes payable on those exports with refund claim subsequently. The LUT becomes operative from its filing date and remains valid till 31 March of the same FY. Practitioners advise filing the LUT as the very first compliance step when starting export operations during the year. Waiting damages working capital."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the LUT auto-approved?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, under Circular 40/14/2018-GST dated 6 April 2018, an LUT is automatically deemed approved on generation of the Application Reference Number. No separate manual approval is required. The system generates a deemed approval order with RFD-11A acknowledgment. However, this deemed approval is subject to subsequent verification of eligibility — if the proper officer later finds the exporter ineligible (such as evidence of tax evasion prosecution above the threshold), the LUT can be rejected retroactively from filing date."
+          }
+        }
+      ]
+    }
+    </script>
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Tool navigation">
     <div class="toc-nav-inner">

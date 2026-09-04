@@ -1,156 +1,12 @@
 
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Copyright for Broadcast Gurugram - TV, Radio & OTT</title>
-    <meta name="description" content="Broadcast copyright services in Gurugram. Section 37 reproduction right, signal protection, licensing, OTT, TV, radio. Call +91 945 945 6700.">
-    <link rel="canonical" href="/copyright-registration-for-broadcast/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Copyright for Broadcast Gurugram - TV, Radio & OTT">
-    <meta property="og:description" content="Broadcast copyright services in Gurugram. Section 37 reproduction right, signal protection, licensing, OTT, TV, radio. Call +91 945 945 6700.">
-    <meta property="og:url" content="/copyright-registration-for-broadcast/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Copyright for Broadcast Gurugram - TV, Radio & OTT">
-    <meta name="twitter:description" content="Broadcast copyright services in Gurugram. Section 37 reproduction right, signal protection, licensing, OTT, TV, radio. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "Copyright for Broadcast in Gurugram | Media Rights",
-      "description": "Broadcast copyright services in Gurugram. Section 37 reproduction right, signal protection, licensing, OTT, TV, radio. Call +91 945 945 6700.",
-      "url": "https://www.patronaccounting.com/copyright-registration-for-broadcast/gurugram",
-      "serviceType": "Copyright for Broadcast in Gurugram | Media Rights",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/copyright-registration-for-broadcast/gurugram",
-        "price": "5999"
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Copyright for Broadcast: Section 37 Guide",
-          "item": "https://www.patronaccounting.com/copyright-registration-for-broadcast"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Copyright for Broadcast in Gurugram | Media Rights",
-          "item": "https://www.patronaccounting.com/copyright-registration-for-broadcast/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is the broadcast reproduction right under Section 37?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 37 grants every broadcasting organization an automatic special right over its broadcasts. This right lasts 25 years from the beginning of the calendar year following the broadcast. It gives the broadcaster exclusive control to: re-broadcast, charge the public for access, make recordings, reproduce recordings, and sell/rent recordings. The right protects the broadcast signal itself - not the underlying content. No registration is required."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is broadcast right different from content copyright?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Broadcast reproduction right (Section 37) protects the signal transmission. Content copyright (Sections 13-14) protects the underlying work (film, music, literary work). A TV channel broadcasting a film has broadcast rights over its signal but does not own the film's copyright (which belongs to the producer). Both rights can be enforced independently. A broadcaster must license content copyright from owners AND can enforce its own broadcast reproduction right against signal pirates."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do OTT platforms have broadcast reproduction rights?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "This is an evolving legal question. Section 2(dd) defines 'broadcast' as communication to the public by wireless diffusion or by wire. OTT platforms transmit content over the internet. Some legal interpretations include OTT platforms as broadcasting organizations; others argue they are content distributors. The distinction affects access to Section 37 automatic rights and Section 31D statutory licences."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long do broadcast rights last?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "25 years from the beginning of the calendar year following the year in which the broadcast was made. For example, a broadcast made on 15 March 2026 is protected until 31 December 2051 (25 years from 1 January 2027). After expiry, the broadcast signal loses protection, but the underlying content may still be protected by its own copyright."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is signal piracy and how can broadcasters enforce?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Signal piracy includes unauthorized re-broadcast of a TV/radio signal, illegal cable redistribution without carriage agreement, unauthorized streaming of broadcast signals online, and unlicensed recording and distribution. Enforcement: civil suit for injunction and damages (Section 55), criminal complaint (Section 63 - up to 3 years), and administrative seizure. Delhi High Court can grant ex parte injunctions."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the statutory licence under Section 31D?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 31D allows any broadcasting organization to communicate a published literary or musical work or sound recording to the public by broadcast by giving prior notice to the copyright owner and paying royalties at rates determined by the competent authority. This is available when commercial licensing negotiations fail. It ensures broadcasters can access content while guaranteeing creators receive royalties."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do broadcasters need to register their broadcast rights?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Broadcast reproduction rights under Section 37 are automatic - they arise the moment the broadcast is made without any registration requirement. However, broadcasters should register copyright for their original content (original shows, documentaries, news programs) as cinematograph films or sound recordings with the Copyright Office for prima facie evidence. Quick Answers Broadcast right automatic hai? Haan. Section 37 ke under broadcast karne ka moment se right automatically milta hai. Koi registration zaroori nahi. 25 saal tak valid rehta hai. Signal protect hota hai, content nahi. OTT platform ko broadcast right milta hai? Abhi tak clearly settle nahi hua hai. S2(dd) mein 'wire' se broadcast covered hai toh OTT ka argument hai ki milna chahiye. Lekin debate ongoing hai. Specific legal advisory lo. Signal piracy pe kya kar sakte hain? Civil suit: injunction + damages (S55). Criminal: 3 saal jail + fine (S63). Administrative: equipment seizure. Delhi HC mein ex parte injunction mil sakta hai urgent cases mein."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -674,7 +530,156 @@ section ul li:not(.nav-item) { font-size: 14px; }
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'Join Community'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Copyright for Broadcast Gurugram - TV, Radio & OTT</title>
+    <meta name="description" content="Broadcast copyright services in Gurugram. Section 37 reproduction right, signal protection, licensing, OTT, TV, radio. Call +91 945 945 6700.">
+    <link rel="canonical" href="/copyright-registration-for-broadcast/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Copyright for Broadcast Gurugram - TV, Radio & OTT">
+    <meta property="og:description" content="Broadcast copyright services in Gurugram. Section 37 reproduction right, signal protection, licensing, OTT, TV, radio. Call +91 945 945 6700.">
+    <meta property="og:url" content="/copyright-registration-for-broadcast/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Copyright for Broadcast Gurugram - TV, Radio & OTT">
+    <meta name="twitter:description" content="Broadcast copyright services in Gurugram. Section 37 reproduction right, signal protection, licensing, OTT, TV, radio. Call +91 945 945 6700.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "Copyright for Broadcast in Gurugram | Media Rights",
+      "description": "Broadcast copyright services in Gurugram. Section 37 reproduction right, signal protection, licensing, OTT, TV, radio. Call +91 945 945 6700.",
+      "url": "https://www.patronaccounting.com/copyright-registration-for-broadcast/gurugram",
+      "serviceType": "Copyright for Broadcast in Gurugram | Media Rights",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.patronaccounting.com/copyright-registration-for-broadcast/gurugram",
+        "price": "5999"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Copyright for Broadcast: Section 37 Guide",
+          "item": "https://www.patronaccounting.com/copyright-registration-for-broadcast"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Copyright for Broadcast in Gurugram | Media Rights",
+          "item": "https://www.patronaccounting.com/copyright-registration-for-broadcast/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the broadcast reproduction right under Section 37?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 37 grants every broadcasting organization an automatic special right over its broadcasts. This right lasts 25 years from the beginning of the calendar year following the broadcast. It gives the broadcaster exclusive control to: re-broadcast, charge the public for access, make recordings, reproduce recordings, and sell/rent recordings. The right protects the broadcast signal itself - not the underlying content. No registration is required."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is broadcast right different from content copyright?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Broadcast reproduction right (Section 37) protects the signal transmission. Content copyright (Sections 13-14) protects the underlying work (film, music, literary work). A TV channel broadcasting a film has broadcast rights over its signal but does not own the film's copyright (which belongs to the producer). Both rights can be enforced independently. A broadcaster must license content copyright from owners AND can enforce its own broadcast reproduction right against signal pirates."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do OTT platforms have broadcast reproduction rights?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "This is an evolving legal question. Section 2(dd) defines 'broadcast' as communication to the public by wireless diffusion or by wire. OTT platforms transmit content over the internet. Some legal interpretations include OTT platforms as broadcasting organizations; others argue they are content distributors. The distinction affects access to Section 37 automatic rights and Section 31D statutory licences."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long do broadcast rights last?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "25 years from the beginning of the calendar year following the year in which the broadcast was made. For example, a broadcast made on 15 March 2026 is protected until 31 December 2051 (25 years from 1 January 2027). After expiry, the broadcast signal loses protection, but the underlying content may still be protected by its own copyright."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is signal piracy and how can broadcasters enforce?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Signal piracy includes unauthorized re-broadcast of a TV/radio signal, illegal cable redistribution without carriage agreement, unauthorized streaming of broadcast signals online, and unlicensed recording and distribution. Enforcement: civil suit for injunction and damages (Section 55), criminal complaint (Section 63 - up to 3 years), and administrative seizure. Delhi High Court can grant ex parte injunctions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the statutory licence under Section 31D?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 31D allows any broadcasting organization to communicate a published literary or musical work or sound recording to the public by broadcast by giving prior notice to the copyright owner and paying royalties at rates determined by the competent authority. This is available when commercial licensing negotiations fail. It ensures broadcasters can access content while guaranteeing creators receive royalties."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do broadcasters need to register their broadcast rights?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Broadcast reproduction rights under Section 37 are automatic - they arise the moment the broadcast is made without any registration requirement. However, broadcasters should register copyright for their original content (original shows, documentaries, news programs) as cinematograph films or sound recordings with the Copyright Office for prima facie evidence. Quick Answers Broadcast right automatic hai? Haan. Section 37 ke under broadcast karne ka moment se right automatically milta hai. Koi registration zaroori nahi. 25 saal tak valid rehta hai. Signal protect hota hai, content nahi. OTT platform ko broadcast right milta hai? Abhi tak clearly settle nahi hua hai. S2(dd) mein 'wire' se broadcast covered hai toh OTT ka argument hai ki milna chahiye. Lekin debate ongoing hai. Specific legal advisory lo. Signal piracy pe kya kar sakte hain? Civil suit: injunction + damages (S55). Criminal: 3 saal jail + fine (S63). Administrative: equipment seizure. Delhi HC mein ex parte injunction mil sakta hai urgent cases mein."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1600,7 +1605,6 @@ var tocWrapper=document.getElementById('tocWrapper');document.getElementById('to
 
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

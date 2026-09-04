@@ -1,206 +1,11 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>ASMT-10 Notice Delhi: ASMT-11 Reply</title>
-    <meta name="description" content="ASMT-10 GST scrutiny notice in Delhi? Patron's CA team files ASMT-11 reply within 30 days and closes via ASMT-12. Starting at Rs 2,499. Call today.">
-    <link rel="canonical" href="/asmt-10-notice/delhi">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="ASMT-10 Notice Delhi 2026: ASMT-11 Reply | Patron Accounting">
-    <meta property="og:description" content="ASMT-10 GST scrutiny notice in Delhi? Patron's CA team files ASMT-11 reply within 30 days and closes via ASMT-12. Starting at Rs 2,499. Call today.">
-    <meta property="og:url" content="/asmt-10-notice/delhi">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="ASMT-10 Notice Delhi 2026: ASMT-11 Reply | Patron Accounting">
-    <meta name="twitter:description" content="ASMT-10 GST scrutiny notice in Delhi? Patron's CA team files ASMT-11 reply within 30 days and closes via ASMT-12. Starting at Rs 2,499. Call today.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-<script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/asmt-10-notice/delhi#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "GST Notice",
-          "item": "https://www.patronaccounting.com/gst-notice"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "ASMT-10 Notice Delhi",
-          "item": "https://www.patronaccounting.com/asmt-10-notice/delhi"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/asmt-10-notice/delhi#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is an ASMT-10 notice in Delhi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "An ASMT-10 notice in Delhi is a GST scrutiny intimation issued under Section 61 of the CGST Act, 2017 read with Rule 99 of the CGST Rules, 2017 by your jurisdictional CGST Delhi proper officer (North, South, East, or West) or by the Delhi SGST Department of Trade and Taxes. It flags discrepancies in your filed GST returns and seeks explanation - it is not a demand notice and does not by itself create any tax liability."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much time do I have to reply to an ASMT-10?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Under Rule 99(1) of the CGST Rules, you have 30 days from the date of service of the ASMT-10 to file your reply in Form ASMT-11 on the GST portal. The proper officer may grant an extension of up to 15 additional days on a written request, where genuine complexity justifies it. Missing the 30-day window allows direct escalation to Section 73 or 74 SCN."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is an ASMT-10 a show cause notice or demand notice?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. An ASMT-10 is a pre-demand scrutiny notice under Section 61 - it seeks explanation, not payment. It cannot itself create a tax demand. Only if the explanation in ASMT-11 is unsatisfactory or absent can the proper officer escalate to Section 65 audit, Section 67 inspection, or a Section 73, 74, or 74A demand show cause notice."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do I reply to ASMT-10 in Delhi via ASMT-11?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Log in to gst.gov.in. Navigate to Services then User Services then View Additional Notices and Orders, locate the ASMT-10, and file Form ASMT-11 within 30 days. Include parameter-wise response, GSTR reconciliations as annexures, supplier verification certificates if relevant, and a DRC-03 challan if any discrepancy is accepted and paid."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens if I do not reply to an ASMT-10?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Under Section 61(3), if no satisfactory explanation is furnished within 30 days, the proper officer may initiate Section 65 audit, Section 66 special audit, Section 67 inspection, or proceed directly to a demand show cause notice under Sections 73, 74, or 74A. This is far more expensive than a timely ASMT-11 reply and exposes you to 10 to 100 percent penalty."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can an ASMT-10 be challenged in Delhi High Court?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Generally no, because an ASMT-10 is procedural and creates no liability. However, where the discrepancy is plainly outside scrutiny scope, or where natural justice has been violated, or where escalation has happened without ASMT-10 being properly issued, writ remedies before the Delhi High Court are available under principles upheld in Devi Traders and similar rulings."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does Patron handle Delhi SGST ASMT-10 notices as well as CGST?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Patron's Delhi office handles ASMT-10 notices from all four CGST Delhi Commissionerates (North, South, East, West) and from the Delhi SGST Department of Trade and Taxes at Vyapar Bhawan. The reply procedure, forms (ASMT-10, ASMT-11, ASMT-12), and 30-day window are identical under the cross-empowerment framework."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/asmt-10-notice/delhi#service",
-      "name": "ASMT-10 GST Scrutiny Notice Reply in Delhi",
-      "description": "ASMT-10 GST scrutiny notice reply service in Delhi covering ASMT-11 drafting, GSTR-1 vs GSTR-3B and GSTR-2A vs GSTR-3B reconciliation, DRC-03 voluntary payment, extension requests under Rule 99(1), and ASMT-12 closure tracking. Handles notices from CGST Delhi North, South, East, West, and Delhi SGST Department of Trade and Taxes under Section 61 of the CGST Act, 2017.",
-      "serviceType": "GST Scrutiny Notice Reply Service",
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      },
-      "areaServed": [
-        {
-          "@type": "City",
-          "name": "Delhi",
-          "sameAs": "https://en.wikipedia.org/wiki/Delhi"
-        },
-        {
-          "@type": "Country",
-          "name": "India",
-          "sameAs": "https://en.wikipedia.org/wiki/India"
-        }
-      ],
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Goods and Services Tax (India)",
-          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
-        },
-        {
-          "@type": "Thing",
-          "name": "Central Goods and Services Tax Act 2017",
-          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
-        },
-        {
-          "@type": "Thing",
-          "name": "Tax assessment",
-          "sameAs": "https://en.wikipedia.org/wiki/Tax_assessment"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "ASMT-10 Reply Service Plans (Delhi)",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "name": "ASMT-11 Reply (Simple) - Single-parameter, single FY",
-            "price": "2499",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/asmt-10-notice/delhi"
-          },
-          {
-            "@type": "Offer",
-            "name": "ASMT-11 Reply (Standard) - Multi-parameter, single FY",
-            "price": "5500",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/asmt-10-notice/delhi"
-          },
-          {
-            "@type": "Offer",
-            "name": "ASMT-11 Reply (Complex) - Multi-FY, multi-parameter, supplier verification + DRC-03",
-            "price": "9500",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/asmt-10-notice/delhi"
-          },
-          {
-            "@type": "Offer",
-            "name": "DRC-03 Voluntary Payment Filing",
-            "price": "1999",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/asmt-10-notice/delhi"
-          }
-        ]
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -871,7 +676,207 @@ section[style*="background: var(--blue)"] .content-text,
 section[style*="background: var(--blue)"] .content-text p,
 section[style*="background: var(--blue)"] .content-text li,
 section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !important;}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>ASMT-10 Notice Delhi: ASMT-11 Reply</title>
+    <meta name="description" content="ASMT-10 GST scrutiny notice in Delhi? Patron's CA team files ASMT-11 reply within 30 days and closes via ASMT-12. Starting at Rs 2,499. Call today.">
+    <link rel="canonical" href="/asmt-10-notice/delhi">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="ASMT-10 Notice Delhi 2026: ASMT-11 Reply | Patron Accounting">
+    <meta property="og:description" content="ASMT-10 GST scrutiny notice in Delhi? Patron's CA team files ASMT-11 reply within 30 days and closes via ASMT-12. Starting at Rs 2,499. Call today.">
+    <meta property="og:url" content="/asmt-10-notice/delhi">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ASMT-10 Notice Delhi 2026: ASMT-11 Reply | Patron Accounting">
+    <meta name="twitter:description" content="ASMT-10 GST scrutiny notice in Delhi? Patron's CA team files ASMT-11 reply within 30 days and closes via ASMT-12. Starting at Rs 2,499. Call today.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/asmt-10-notice/delhi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "GST Notice",
+          "item": "https://www.patronaccounting.com/gst-notice"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "ASMT-10 Notice Delhi",
+          "item": "https://www.patronaccounting.com/asmt-10-notice/delhi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/asmt-10-notice/delhi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is an ASMT-10 notice in Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An ASMT-10 notice in Delhi is a GST scrutiny intimation issued under Section 61 of the CGST Act, 2017 read with Rule 99 of the CGST Rules, 2017 by your jurisdictional CGST Delhi proper officer (North, South, East, or West) or by the Delhi SGST Department of Trade and Taxes. It flags discrepancies in your filed GST returns and seeks explanation - it is not a demand notice and does not by itself create any tax liability."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much time do I have to reply to an ASMT-10?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under Rule 99(1) of the CGST Rules, you have 30 days from the date of service of the ASMT-10 to file your reply in Form ASMT-11 on the GST portal. The proper officer may grant an extension of up to 15 additional days on a written request, where genuine complexity justifies it. Missing the 30-day window allows direct escalation to Section 73 or 74 SCN."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is an ASMT-10 a show cause notice or demand notice?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. An ASMT-10 is a pre-demand scrutiny notice under Section 61 - it seeks explanation, not payment. It cannot itself create a tax demand. Only if the explanation in ASMT-11 is unsatisfactory or absent can the proper officer escalate to Section 65 audit, Section 67 inspection, or a Section 73, 74, or 74A demand show cause notice."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I reply to ASMT-10 in Delhi via ASMT-11?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Log in to gst.gov.in. Navigate to Services then User Services then View Additional Notices and Orders, locate the ASMT-10, and file Form ASMT-11 within 30 days. Include parameter-wise response, GSTR reconciliations as annexures, supplier verification certificates if relevant, and a DRC-03 challan if any discrepancy is accepted and paid."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if I do not reply to an ASMT-10?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under Section 61(3), if no satisfactory explanation is furnished within 30 days, the proper officer may initiate Section 65 audit, Section 66 special audit, Section 67 inspection, or proceed directly to a demand show cause notice under Sections 73, 74, or 74A. This is far more expensive than a timely ASMT-11 reply and exposes you to 10 to 100 percent penalty."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can an ASMT-10 be challenged in Delhi High Court?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Generally no, because an ASMT-10 is procedural and creates no liability. However, where the discrepancy is plainly outside scrutiny scope, or where natural justice has been violated, or where escalation has happened without ASMT-10 being properly issued, writ remedies before the Delhi High Court are available under principles upheld in Devi Traders and similar rulings."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Patron handle Delhi SGST ASMT-10 notices as well as CGST?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Patron's Delhi office handles ASMT-10 notices from all four CGST Delhi Commissionerates (North, South, East, West) and from the Delhi SGST Department of Trade and Taxes at Vyapar Bhawan. The reply procedure, forms (ASMT-10, ASMT-11, ASMT-12), and 30-day window are identical under the cross-empowerment framework."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/asmt-10-notice/delhi#service",
+      "name": "ASMT-10 GST Scrutiny Notice Reply in Delhi",
+      "description": "ASMT-10 GST scrutiny notice reply service in Delhi covering ASMT-11 drafting, GSTR-1 vs GSTR-3B and GSTR-2A vs GSTR-3B reconciliation, DRC-03 voluntary payment, extension requests under Rule 99(1), and ASMT-12 closure tracking. Handles notices from CGST Delhi North, South, East, West, and Delhi SGST Department of Trade and Taxes under Section 61 of the CGST Act, 2017.",
+      "serviceType": "GST Scrutiny Notice Reply Service",
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Delhi",
+          "sameAs": "https://en.wikipedia.org/wiki/Delhi"
+        },
+        {
+          "@type": "Country",
+          "name": "India",
+          "sameAs": "https://en.wikipedia.org/wiki/India"
+        }
+      ],
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Goods and Services Tax (India)",
+          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
+        },
+        {
+          "@type": "Thing",
+          "name": "Central Goods and Services Tax Act 2017",
+          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
+        },
+        {
+          "@type": "Thing",
+          "name": "Tax assessment",
+          "sameAs": "https://en.wikipedia.org/wiki/Tax_assessment"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "ASMT-10 Reply Service Plans (Delhi)",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "ASMT-11 Reply (Simple) - Single-parameter, single FY",
+            "price": "2499",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/asmt-10-notice/delhi"
+          },
+          {
+            "@type": "Offer",
+            "name": "ASMT-11 Reply (Standard) - Multi-parameter, single FY",
+            "price": "5500",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/asmt-10-notice/delhi"
+          },
+          {
+            "@type": "Offer",
+            "name": "ASMT-11 Reply (Complex) - Multi-FY, multi-parameter, supplier verification + DRC-03",
+            "price": "9500",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/asmt-10-notice/delhi"
+          },
+          {
+            "@type": "Offer",
+            "name": "DRC-03 Voluntary Payment Filing",
+            "price": "1999",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/asmt-10-notice/delhi"
+          }
+        ]
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -2001,7 +2006,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

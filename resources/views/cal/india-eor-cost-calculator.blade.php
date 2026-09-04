@@ -1,210 +1,8 @@
 @extends('layouts.app')
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
-@section('meta')
-    <title>India EOR Cost Calculator | True Cost of Hiring</title>
-    <meta name="description" content="India EOR cost calculator: compute the total cost of hiring via Employer of Record, covering statutory PF, ESI, gratuity, provider fees, insurance, break-even.">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/india-eor-cost-calculator">
-    <meta property="og:title" content="India EOR Cost Calculator — True Cost of Hiring 2026">
-    <meta property="og:description" content="Computes the all-in cost of hiring an employee in India through an Employer of Record. Statutory + provider fees + insurance + EOR vs subsidiary break-even.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/india-eor-cost-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="India EOR Cost Calculator — True Cost of Hiring 2026">
-    <meta name="twitter:description" content="Total India hiring cost: statutory + EOR fees + insurance. EOR vs subsidiary break-even. Updated for 4 Labour Codes 2025.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-    <meta name="theme-color" content="#15365f">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebApplication",
-      "name": "India EOR Cost Calculator (True Cost of Hiring)",
-      "description": "India EOR Cost Calculator computes the total annual and monthly cost incurred by a foreign company hiring an employee in India through an Employer of Record arrangement, capturing the gross salary, statutory employer contributions and the EOR provider service fee. The tool incorporates the four Labour Codes which came into force on 21 November 2025 — the Code on Wages, 2019, the Industrial Relations Code, 2020, the Code on Social Security, 2020 and the Occupational Safety, Health and Working Conditions Code, 2020 — replacing twenty-nine pre-existing labour statutes. The tool reflects the unified definition of wages under Section 2(y) of the Code on Wages requiring that basic wage components (basic pay plus dearness allowance plus retaining allowance) constitute at least fifty per cent of the total remuneration, with the excess of allowances over fifty per cent deemed to be wages for the purpose of statutory contribution computation. The tool computes Employees Provident Fund employer contribution at twelve per cent of wages with statutory ceiling computation, Employees State Insurance employer contribution at three point two five per cent of gross wages where the gross wage is at or below twenty one thousand rupees per month, gratuity provision at four point eight one per cent of wages on the actuarial accrual basis, statutory bonus at eight point three three per cent of wages under the Payment of Bonus Act, 1965 where applicable, professional tax at state-specific rates capped at two thousand five hundred rupees per annum under Article 276 of the Constitution of India, Labour Welfare Fund contribution at state-specific annual rates, and group health insurance at standard market premium bands. The tool incorporates four EOR provider pricing tiers: India-specialist providers ranging from ninety nine to two hundred United States Dollars per employee per month, mid-market global platforms in the range of two hundred to four hundred United States Dollars per employee per month, premium enterprise platforms in the range of five hundred ninety nine to seven hundred United States Dollars per employee per month, and a custom percentage-of-payroll model. The tool computes the break-even employee count for the EOR arrangement versus setting up a wholly owned subsidiary in India based on incorporation costs, recurring compliance overhead and per-employee statutory burden.",
-      "url": "https://www.patronaccounting.com/tools/india-eor-cost-calculator",
-      "applicationCategory": "FinanceApplication",
-      "operatingSystem": "Any",
-      "datePublished": "2026-05-08T08:00:00+05:30",
-      "dateModified": "2026-05-08T08:00:00+05:30",
-      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
-      "author": {
-        "@type": "Person",
-        "@id": "https://patronaccounting.com/#founder",
-        "name": "CA Sundram Gupta",
-        "jobTitle": "Founder & Chartered Accountant",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Institute of Chartered Accountants of India",
-            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-          }
-        }]
-      },
-      "publisher": { "@id": "https://patronaccounting.com/#organization" },
-      "provider": {"@id": "https://patronaccounting.com/#organization"}
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "India EOR Cost Calculator", "item": "https://www.patronaccounting.com/tools/india-eor-cost-calculator"}
-      ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is an Employer of Record (EOR) in India?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "An Employer of Record is a third-party entity legally registered in India that hires employees on behalf of a foreign company without an Indian subsidiary. The EOR holds the formal employment contract, runs payroll, deducts TDS, remits statutory contributions like PF and ESI, and ensures Labour Code compliance. The foreign company directs the day-to-day work while the EOR carries the legal employer obligations. EORs let foreign companies hire in India in days rather than the months required for entity setup."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What does an EOR cost per employee in India?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "EOR provider fees in India range from approximately ₹8,000 to ₹58,000 per employee per month in 2026. India-specialist providers like Wisemonk and Pamgro charge $99 to $200 per month. Mid-market global platforms like Multiplier and Skuad charge $200 to $400. Premium global platforms like Deel and Oyster charge $599 to $700. The provider fee is added on top of gross salary and statutory contributions. Total true cost equals salary plus statutory plus provider fee plus insurance."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What statutory contributions does an India employer pay?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "India employer statutory contributions include Provident Fund at 12% of wages (employer share including EDLI and admin charges), Employees State Insurance at 3.25% of gross wages where the wage is at or below ₹21,000 per month, gratuity provision at 4.81% of wages, statutory bonus at 8.33% to 20% of wages where applicable under the Payment of Bonus Act, professional tax at state-specific rates capped at ₹2,500 per year, and Labour Welfare Fund contribution at state-specific annual rates."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How did the new Labour Codes 2025 change EOR costs?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The four Labour Codes effective 21 November 2025 introduced a unified wages definition requiring basic pay plus dearness allowance to be at least 50% of total remuneration. For salary structures earlier loaded with allowances, this raises the PF and gratuity calculation base substantially. Industry estimates suggest gratuity liabilities will jump 25-50% across most companies. Fixed-term employees now qualify for gratuity after one year instead of five. EOR providers have absorbed these changes by adjusting salary structures upon onboarding."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "When does it make sense to set up a subsidiary instead of using EOR?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "EOR is generally cheaper for 1-10 employees. The break-even point typically lies in the 10-15 employee range, where the fixed costs of subsidiary setup (₹5-15 lakh one-time, ₹50,000 to ₹1 lakh per month recurring) are amortised over enough employees to beat the per-employee EOR fee. Beyond 15 employees, a subsidiary is usually cheaper but adds compliance complexity. The EOR Cost Calculator computes the precise break-even based on your salary level and provider tier."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between EOR and an independent contractor?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "An independent contractor is engaged directly by the foreign company under a service agreement without employment relationship — no PF, no ESI, no statutory benefits. The contractor handles their own taxes via Section 194J or 194O TDS at 10% to 20%. The risk is misclassification — Indian courts regularly recharacterise long-term contractors as employees, exposing the foreign company to retrospective PF, ESI, gratuity and tax liabilities. EOR is the safe path for ongoing relationships exceeding 6 months."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Are EOR fees negotiable?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, EOR provider fees are typically negotiable for hires of five or more employees. Common negotiation points include waiver of one-time setup fees, reduction of security deposits from two months to one month, FX markup compression from 2-3% to 1%, multi-year discount of 10-20%, and waiver of off-cycle payroll surcharges. Always request a detailed sample invoice with all line items before signing the master service agreement. Hidden fees can add 15-30% to the headline monthly fee."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does the EOR fee include health insurance and benefits?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "It varies by provider. India-specialist EORs typically bundle basic group health insurance at no extra cost. Mid-market and premium global platforms usually charge insurance separately at ₹500 to ₹1,500 per employee per month depending on coverage. Self-only coverage starts around ₹5,000 per year, employee-plus-spouse around ₹8,000, and family floater around ₹15,000. Always confirm whether the quoted EOR fee includes insurance, equipment costs, off-cycle payments, and statutory remittance fees."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the typical onboarding timeline for an EOR hire in India?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "An EOR onboarding in India typically takes 24-72 hours from offer acceptance to active employment, assuming the employee has KYC documents and bank details ready. India-specialist providers offer faster timelines (under 24 hours) than global platforms. Background verification adds 3-5 working days. Compare this with subsidiary setup which takes 4-6 months including company incorporation, GST registration, EPF and ESI registrations, opening bank accounts, and obtaining state-specific labour licences."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the EPF contribution structure for high-earning employees?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "For employees with basic salary above ₹15,000 per month, EPF contribution can either be capped at ₹15,000 (statutory ceiling) yielding employer EPF of ₹1,800 per month, or computed on the full basic salary if the employee opts in. Employees with international worker status have no ceiling and contribute 12% on full basic. The employer share of 12% splits as 8.33% to EPS (capped at ₹15,000 wage), 3.67% to EPF, plus 0.5% EDLI and 0.5% admin charges."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is professional tax applicable in all Indian states?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Professional tax is levied only by certain states under Article 276 of the Constitution, capped at ₹2,500 per year. States imposing professional tax include Maharashtra, Karnataka, Tamil Nadu, Telangana, West Bengal, Gujarat, Andhra Pradesh, Odisha and Madhya Pradesh. States not imposing professional tax include Delhi, Haryana, Punjab, Uttar Pradesh, Uttarakhand and Rajasthan. The rate varies by salary slab and is paid by the employer to the state government on behalf of the employee."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What hidden costs should I watch for in EOR contracts?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Common hidden EOR costs include: one-time setup fees (₹0 to ₹40,000 per hire), security deposit equivalent to one to three months of total cost (refundable but ties up cash), FX markup of 1-3% on currency conversion when paying from USD, off-cycle payroll surcharges of ₹5,000 to ₹15,000 per payment, termination handling fees, equipment shipping of ₹15,000 to ₹40,000 per laptop, and benefits broker markups of 10-15% on insurance premiums. Insist on a sample invoice."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is gratuity calculated under the new Labour Code?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Gratuity equals last drawn wages times 15 divided by 26 times completed years of service. Under the Code on Social Security 2020 effective 21 November 2025, the wages base is broadened — basic plus dearness allowance plus retaining allowance, with the 50% rule: allowances exceeding 50% of CTC are added to wages. Fixed-term employees become eligible after one year (down from five). Companies must accrue 4.81% of wages per month as gratuity provision in financial statements."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I terminate an India EOR employee easily?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Termination requires compliance with notice periods specified in the employment contract — typically 30 to 90 days for white-collar roles. The Industrial Relations Code 2020 requires written notice and payment in lieu of notice if waived. Severance includes accrued leave encashment, pro-rata bonus, gratuity if eligible, and any contractual severance. EOR providers handle the formal termination process but the foreign company decides timing and pays the costs. Termination cost typically equals one to three months of total compensation."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does an EOR help with India equity grants like ESOPs?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "EOR providers typically do not directly administer foreign-parent ESOPs but coordinate with the foreign company to capture ESOP perquisite value in monthly payroll for TDS purposes under Section 17(2)(vi). The employee pays tax on the perquisite value (FMV at exercise less exercise price) at applicable income tax slab rates. The EOR ensures correct TDS deduction and Form 16 reporting. ESOPs are paid in cash by the foreign company; the EOR books the perquisite, deducts tax, and remits."
-          }
-        }
-      ]
-    }
-    </script>
-@endsection
-
 <style>
         :root {
             --primary: #15365f;
@@ -479,7 +277,209 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 }
 
 </style>
+@endpush
 
+@section('meta')
+    <title>India EOR Cost Calculator | True Cost of Hiring</title>
+    <meta name="description" content="India EOR cost calculator: compute the total cost of hiring via Employer of Record, covering statutory PF, ESI, gratuity, provider fees, insurance, break-even.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/india-eor-cost-calculator">
+    <meta property="og:title" content="India EOR Cost Calculator — True Cost of Hiring 2026">
+    <meta property="og:description" content="Computes the all-in cost of hiring an employee in India through an Employer of Record. Statutory + provider fees + insurance + EOR vs subsidiary break-even.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/india-eor-cost-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="India EOR Cost Calculator — True Cost of Hiring 2026">
+    <meta name="twitter:description" content="Total India hiring cost: statutory + EOR fees + insurance. EOR vs subsidiary break-even. Updated for 4 Labour Codes 2025.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+    <meta name="theme-color" content="#15365f">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "India EOR Cost Calculator (True Cost of Hiring)",
+      "description": "India EOR Cost Calculator computes the total annual and monthly cost incurred by a foreign company hiring an employee in India through an Employer of Record arrangement, capturing the gross salary, statutory employer contributions and the EOR provider service fee. The tool incorporates the four Labour Codes which came into force on 21 November 2025 — the Code on Wages, 2019, the Industrial Relations Code, 2020, the Code on Social Security, 2020 and the Occupational Safety, Health and Working Conditions Code, 2020 — replacing twenty-nine pre-existing labour statutes. The tool reflects the unified definition of wages under Section 2(y) of the Code on Wages requiring that basic wage components (basic pay plus dearness allowance plus retaining allowance) constitute at least fifty per cent of the total remuneration, with the excess of allowances over fifty per cent deemed to be wages for the purpose of statutory contribution computation. The tool computes Employees Provident Fund employer contribution at twelve per cent of wages with statutory ceiling computation, Employees State Insurance employer contribution at three point two five per cent of gross wages where the gross wage is at or below twenty one thousand rupees per month, gratuity provision at four point eight one per cent of wages on the actuarial accrual basis, statutory bonus at eight point three three per cent of wages under the Payment of Bonus Act, 1965 where applicable, professional tax at state-specific rates capped at two thousand five hundred rupees per annum under Article 276 of the Constitution of India, Labour Welfare Fund contribution at state-specific annual rates, and group health insurance at standard market premium bands. The tool incorporates four EOR provider pricing tiers: India-specialist providers ranging from ninety nine to two hundred United States Dollars per employee per month, mid-market global platforms in the range of two hundred to four hundred United States Dollars per employee per month, premium enterprise platforms in the range of five hundred ninety nine to seven hundred United States Dollars per employee per month, and a custom percentage-of-payroll model. The tool computes the break-even employee count for the EOR arrangement versus setting up a wholly owned subsidiary in India based on incorporation costs, recurring compliance overhead and per-employee statutory burden.",
+      "url": "https://www.patronaccounting.com/tools/india-eor-cost-calculator",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Any",
+      "datePublished": "2026-05-08T08:00:00+05:30",
+      "dateModified": "2026-05-08T08:00:00+05:30",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
+      "author": {
+        "@type": "Person",
+        "@id": "https://patronaccounting.com/#founder",
+        "name": "CA Sundram Gupta",
+        "jobTitle": "Founder & Chartered Accountant",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Institute of Chartered Accountants of India",
+            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+          }
+        }]
+      },
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": {"@id": "https://patronaccounting.com/#organization"}
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "India EOR Cost Calculator", "item": "https://www.patronaccounting.com/tools/india-eor-cost-calculator"}
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is an Employer of Record (EOR) in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An Employer of Record is a third-party entity legally registered in India that hires employees on behalf of a foreign company without an Indian subsidiary. The EOR holds the formal employment contract, runs payroll, deducts TDS, remits statutory contributions like PF and ESI, and ensures Labour Code compliance. The foreign company directs the day-to-day work while the EOR carries the legal employer obligations. EORs let foreign companies hire in India in days rather than the months required for entity setup."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does an EOR cost per employee in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "EOR provider fees in India range from approximately ₹8,000 to ₹58,000 per employee per month in 2026. India-specialist providers like Wisemonk and Pamgro charge $99 to $200 per month. Mid-market global platforms like Multiplier and Skuad charge $200 to $400. Premium global platforms like Deel and Oyster charge $599 to $700. The provider fee is added on top of gross salary and statutory contributions. Total true cost equals salary plus statutory plus provider fee plus insurance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What statutory contributions does an India employer pay?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "India employer statutory contributions include Provident Fund at 12% of wages (employer share including EDLI and admin charges), Employees State Insurance at 3.25% of gross wages where the wage is at or below ₹21,000 per month, gratuity provision at 4.81% of wages, statutory bonus at 8.33% to 20% of wages where applicable under the Payment of Bonus Act, professional tax at state-specific rates capped at ₹2,500 per year, and Labour Welfare Fund contribution at state-specific annual rates."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How did the new Labour Codes 2025 change EOR costs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The four Labour Codes effective 21 November 2025 introduced a unified wages definition requiring basic pay plus dearness allowance to be at least 50% of total remuneration. For salary structures earlier loaded with allowances, this raises the PF and gratuity calculation base substantially. Industry estimates suggest gratuity liabilities will jump 25-50% across most companies. Fixed-term employees now qualify for gratuity after one year instead of five. EOR providers have absorbed these changes by adjusting salary structures upon onboarding."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When does it make sense to set up a subsidiary instead of using EOR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "EOR is generally cheaper for 1-10 employees. The break-even point typically lies in the 10-15 employee range, where the fixed costs of subsidiary setup (₹5-15 lakh one-time, ₹50,000 to ₹1 lakh per month recurring) are amortised over enough employees to beat the per-employee EOR fee. Beyond 15 employees, a subsidiary is usually cheaper but adds compliance complexity. The EOR Cost Calculator computes the precise break-even based on your salary level and provider tier."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between EOR and an independent contractor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An independent contractor is engaged directly by the foreign company under a service agreement without employment relationship — no PF, no ESI, no statutory benefits. The contractor handles their own taxes via Section 194J or 194O TDS at 10% to 20%. The risk is misclassification — Indian courts regularly recharacterise long-term contractors as employees, exposing the foreign company to retrospective PF, ESI, gratuity and tax liabilities. EOR is the safe path for ongoing relationships exceeding 6 months."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are EOR fees negotiable?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, EOR provider fees are typically negotiable for hires of five or more employees. Common negotiation points include waiver of one-time setup fees, reduction of security deposits from two months to one month, FX markup compression from 2-3% to 1%, multi-year discount of 10-20%, and waiver of off-cycle payroll surcharges. Always request a detailed sample invoice with all line items before signing the master service agreement. Hidden fees can add 15-30% to the headline monthly fee."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does the EOR fee include health insurance and benefits?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It varies by provider. India-specialist EORs typically bundle basic group health insurance at no extra cost. Mid-market and premium global platforms usually charge insurance separately at ₹500 to ₹1,500 per employee per month depending on coverage. Self-only coverage starts around ₹5,000 per year, employee-plus-spouse around ₹8,000, and family floater around ₹15,000. Always confirm whether the quoted EOR fee includes insurance, equipment costs, off-cycle payments, and statutory remittance fees."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the typical onboarding timeline for an EOR hire in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An EOR onboarding in India typically takes 24-72 hours from offer acceptance to active employment, assuming the employee has KYC documents and bank details ready. India-specialist providers offer faster timelines (under 24 hours) than global platforms. Background verification adds 3-5 working days. Compare this with subsidiary setup which takes 4-6 months including company incorporation, GST registration, EPF and ESI registrations, opening bank accounts, and obtaining state-specific labour licences."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the EPF contribution structure for high-earning employees?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For employees with basic salary above ₹15,000 per month, EPF contribution can either be capped at ₹15,000 (statutory ceiling) yielding employer EPF of ₹1,800 per month, or computed on the full basic salary if the employee opts in. Employees with international worker status have no ceiling and contribute 12% on full basic. The employer share of 12% splits as 8.33% to EPS (capped at ₹15,000 wage), 3.67% to EPF, plus 0.5% EDLI and 0.5% admin charges."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is professional tax applicable in all Indian states?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Professional tax is levied only by certain states under Article 276 of the Constitution, capped at ₹2,500 per year. States imposing professional tax include Maharashtra, Karnataka, Tamil Nadu, Telangana, West Bengal, Gujarat, Andhra Pradesh, Odisha and Madhya Pradesh. States not imposing professional tax include Delhi, Haryana, Punjab, Uttar Pradesh, Uttarakhand and Rajasthan. The rate varies by salary slab and is paid by the employer to the state government on behalf of the employee."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What hidden costs should I watch for in EOR contracts?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Common hidden EOR costs include: one-time setup fees (₹0 to ₹40,000 per hire), security deposit equivalent to one to three months of total cost (refundable but ties up cash), FX markup of 1-3% on currency conversion when paying from USD, off-cycle payroll surcharges of ₹5,000 to ₹15,000 per payment, termination handling fees, equipment shipping of ₹15,000 to ₹40,000 per laptop, and benefits broker markups of 10-15% on insurance premiums. Insist on a sample invoice."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is gratuity calculated under the new Labour Code?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gratuity equals last drawn wages times 15 divided by 26 times completed years of service. Under the Code on Social Security 2020 effective 21 November 2025, the wages base is broadened — basic plus dearness allowance plus retaining allowance, with the 50% rule: allowances exceeding 50% of CTC are added to wages. Fixed-term employees become eligible after one year (down from five). Companies must accrue 4.81% of wages per month as gratuity provision in financial statements."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I terminate an India EOR employee easily?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Termination requires compliance with notice periods specified in the employment contract — typically 30 to 90 days for white-collar roles. The Industrial Relations Code 2020 requires written notice and payment in lieu of notice if waived. Severance includes accrued leave encashment, pro-rata bonus, gratuity if eligible, and any contractual severance. EOR providers handle the formal termination process but the foreign company decides timing and pays the costs. Termination cost typically equals one to three months of total compensation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does an EOR help with India equity grants like ESOPs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "EOR providers typically do not directly administer foreign-parent ESOPs but coordinate with the foreign company to capture ESOP perquisite value in monthly payroll for TDS purposes under Section 17(2)(vi). The employee pays tax on the perquisite value (FMV at exercise less exercise price) at applicable income tax slab rates. The EOR ensures correct TDS deduction and Form 16 reporting. ESOPs are paid in cash by the foreign company; the EOR books the perquisite, deducts tax, and remits."
+          }
+        }
+      ]
+    }
+    </script>
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation">
     <div class="toc-nav-inner">

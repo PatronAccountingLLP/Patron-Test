@@ -1,7 +1,4 @@
 @extends('layouts.app')
-
-@section('title', $page->title)
-
 @push('styles')
 <style>
     .page-header {
@@ -29,6 +26,13 @@
         background-color: #f8f9fa;
     }
 </style>
+@endpush
+
+
+@section('title', $page->title)
+
+@push('styles')
+
 @endpush
 
 @section('content')

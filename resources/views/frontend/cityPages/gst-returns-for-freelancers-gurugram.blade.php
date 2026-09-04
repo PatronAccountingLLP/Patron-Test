@@ -1,161 +1,12 @@
 
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>GST for Freelancers Gurugram - GSTR-1, 3B & ₹20L</title>
-    <meta name="description" content="GST returns for freelancers in Gurugram. GSTR-1 GSTR-3B monthly. 18% GST. ITC. QRMP. Rs 20 lakh threshold. Call +91 945 945 6700.">
-    <link rel="canonical" href="/gst-returns-for-freelancers/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="GST for Freelancers Gurugram - GSTR-1, 3B & ₹20L">
-    <meta property="og:description" content="GST returns for freelancers in Gurugram. GSTR-1 GSTR-3B monthly. 18% GST. ITC. QRMP. Rs 20 lakh threshold. Call +91 945 945 6700.">
-    <meta property="og:url" content="/gst-returns-for-freelancers/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="GST for Freelancers Gurugram - GSTR-1, 3B & ₹20L">
-    <meta name="twitter:description" content="GST returns for freelancers in Gurugram. GSTR-1 GSTR-3B monthly. 18% GST. ITC. QRMP. Rs 20 lakh threshold. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "GST for Freelancers Gurugram - GSTR-1, 3B & ₹20L",
-      "description": "GST returns for freelancers in Gurugram. GSTR-1 GSTR-3B monthly. 18% GST. ITC. QRMP. Rs 20 lakh threshold. Call +91 945 945 6700.",
-      "url": "https://www.patronaccounting.com/gst-returns-for-freelancers/gurugram",
-      "serviceType": "GST for Freelancers Gurugram - GSTR-1, 3B & ₹20L",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/gst-returns-for-freelancers/gurugram",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "minPrice": "20",
-          "maxPrice": "3500",
-          "priceCurrency": "INR"
-        }
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "GST Return Filing for Freelancers - GSTR-1, 3B & Threshold",
-          "item": "https://www.patronaccounting.com/gst-returns-for-freelancers"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "GST for Freelancers Gurugram - GSTR-1, 3B & ₹20L",
-          "item": "https://www.patronaccounting.com/gst-returns-for-freelancers/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "When must freelancers file GST returns?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "GSTR-1 by the 11th of the following month (or 13th quarterly under QRMP) and GSTR-3B by the 20th (or 22nd-24th quarterly). NIL returns are mandatory even with zero revenue in a period. GSTR-9 annual return by December 31 if aggregate turnover exceeds Rs 2 crore. Missing any deadline triggers Rs 50 per day late fee."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does freelancer GST filing cost?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Monthly GSTR-1 plus 3B from Rs 1,500 per month. Quarterly QRMP from Rs 3,500 per quarter. Annual GSTR-9: Rs 3,000-5,000. GSTR-9C reconciliation: Rs 5,000-8,000. LUT filing: Rs 1,000. ITC reconciliation add-on: Rs 500-1,500 per month. Call +91 945 945 6700 for a detailed quote."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the GST rate for freelancers?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. PMT-06 if QRMP: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can freelancers claim ITC on coworking and SaaS?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. ITC is claimable on coworking space rent if a valid GST invoice is provided and the space is used for business purposes. Also claimable: internet bills, SaaS subscriptions (Adobe, Figma, Slack), laptops and equipment, professional development courses, and mobile phone bills (proportionate business use). Foreign SaaS tools require self-invoicing under RCM."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is QRMP scheme for freelancers?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Quarterly Return Monthly Payment scheme for freelancers with aggregate turnover up to Rs 5 crore. File GSTR-1 and GSTR-3B quarterly instead of monthly. Tax must still be paid monthly via PMT-06 by the 25th. Optional IFF for B2B invoices in months 1 and 2 of each quarter. Reduces filing effort significantly."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens if NIL return is not filed?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Rs 20 per day penalty (Rs 10 CGST plus Rs 10 SGST), capped at Rs 500 per return under Section 47. Even one missed NIL GSTR-3B attracts this penalty. Missing 2 consecutive months of GSTR-3B results in GSTIN suspension - cannot file returns, generate e-way bills, or issue tax invoices until suspension is lifted by filing pending returns."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do Gurugram freelancers billing Delhi pay IGST?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Gurugram (Haryana) to Delhi is an inter-state supply, so IGST applies instead of CGST plus HGST (Haryana GST). This is the most common filing error among Gurugram freelancers due to the city's proximity to Delhi. Accurate place of supply classification is essential to avoid incorrect returns and scrutiny notices from the GST Commissionerate."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -679,7 +530,161 @@ section ul li:not(.nav-item) { font-size: 14px; }
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'Join Community'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>GST for Freelancers Gurugram - GSTR-1, 3B & ₹20L</title>
+    <meta name="description" content="GST returns for freelancers in Gurugram. GSTR-1 GSTR-3B monthly. 18% GST. ITC. QRMP. Rs 20 lakh threshold. Call +91 945 945 6700.">
+    <link rel="canonical" href="/gst-returns-for-freelancers/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="GST for Freelancers Gurugram - GSTR-1, 3B & ₹20L">
+    <meta property="og:description" content="GST returns for freelancers in Gurugram. GSTR-1 GSTR-3B monthly. 18% GST. ITC. QRMP. Rs 20 lakh threshold. Call +91 945 945 6700.">
+    <meta property="og:url" content="/gst-returns-for-freelancers/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GST for Freelancers Gurugram - GSTR-1, 3B & ₹20L">
+    <meta name="twitter:description" content="GST returns for freelancers in Gurugram. GSTR-1 GSTR-3B monthly. 18% GST. ITC. QRMP. Rs 20 lakh threshold. Call +91 945 945 6700.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "GST for Freelancers Gurugram - GSTR-1, 3B & ₹20L",
+      "description": "GST returns for freelancers in Gurugram. GSTR-1 GSTR-3B monthly. 18% GST. ITC. QRMP. Rs 20 lakh threshold. Call +91 945 945 6700.",
+      "url": "https://www.patronaccounting.com/gst-returns-for-freelancers/gurugram",
+      "serviceType": "GST for Freelancers Gurugram - GSTR-1, 3B & ₹20L",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.patronaccounting.com/gst-returns-for-freelancers/gurugram",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": "20",
+          "maxPrice": "3500",
+          "priceCurrency": "INR"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "GST Return Filing for Freelancers - GSTR-1, 3B & Threshold",
+          "item": "https://www.patronaccounting.com/gst-returns-for-freelancers"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "GST for Freelancers Gurugram - GSTR-1, 3B & ₹20L",
+          "item": "https://www.patronaccounting.com/gst-returns-for-freelancers/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "When must freelancers file GST returns?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "GSTR-1 by the 11th of the following month (or 13th quarterly under QRMP) and GSTR-3B by the 20th (or 22nd-24th quarterly). NIL returns are mandatory even with zero revenue in a period. GSTR-9 annual return by December 31 if aggregate turnover exceeds Rs 2 crore. Missing any deadline triggers Rs 50 per day late fee."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does freelancer GST filing cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Monthly GSTR-1 plus 3B from Rs 1,500 per month. Quarterly QRMP from Rs 3,500 per quarter. Annual GSTR-9: Rs 3,000-5,000. GSTR-9C reconciliation: Rs 5,000-8,000. LUT filing: Rs 1,000. ITC reconciliation add-on: Rs 500-1,500 per month. Call +91 945 945 6700 for a detailed quote."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the GST rate for freelancers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. PMT-06 if QRMP: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can freelancers claim ITC on coworking and SaaS?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. ITC is claimable on coworking space rent if a valid GST invoice is provided and the space is used for business purposes. Also claimable: internet bills, SaaS subscriptions (Adobe, Figma, Slack), laptops and equipment, professional development courses, and mobile phone bills (proportionate business use). Foreign SaaS tools require self-invoicing under RCM."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is QRMP scheme for freelancers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Quarterly Return Monthly Payment scheme for freelancers with aggregate turnover up to Rs 5 crore. File GSTR-1 and GSTR-3B quarterly instead of monthly. Tax must still be paid monthly via PMT-06 by the 25th. Optional IFF for B2B invoices in months 1 and 2 of each quarter. Reduces filing effort significantly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if NIL return is not filed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rs 20 per day penalty (Rs 10 CGST plus Rs 10 SGST), capped at Rs 500 per return under Section 47. Even one missed NIL GSTR-3B attracts this penalty. Missing 2 consecutive months of GSTR-3B results in GSTIN suspension - cannot file returns, generate e-way bills, or issue tax invoices until suspension is lifted by filing pending returns."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do Gurugram freelancers billing Delhi pay IGST?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Gurugram (Haryana) to Delhi is an inter-state supply, so IGST applies instead of CGST plus HGST (Haryana GST). This is the most common filing error among Gurugram freelancers due to the city's proximity to Delhi. Accurate place of supply classification is essential to avoid incorrect returns and scrutiny notices from the GST Commissionerate."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1604,7 +1609,6 @@ var tocWrapper=document.getElementById('tocWrapper');document.getElementById('to
 
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

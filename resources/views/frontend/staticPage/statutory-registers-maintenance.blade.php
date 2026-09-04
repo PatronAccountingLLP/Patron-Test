@@ -1,186 +1,11 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Statutory Registers Maintenance 2026 | Patron Accounting</title>
-    <meta name="description" content="Keep your MGT-1, MGT-2, MGT-3 and other statutory registers under Section 88 accurate and audit-ready. Outsourced annual upkeep from INR 9,999.">
-    <link rel="canonical" href="/statutory-registers-maintenance">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Statutory Registers Maintenance 2026 | Patron Accounting">
-    <meta property="og:description" content="Keep your MGT-1, MGT-2, MGT-3 and other statutory registers under Section 88 accurate and audit-ready. Outsourced annual upkeep from INR 9,999.">
-    <meta property="og:url" content="/statutory-registers-maintenance">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Statutory Registers Maintenance 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Keep your MGT-1, MGT-2, MGT-3 and other statutory registers under Section 88 accurate and audit-ready. Outsourced annual upkeep from INR 9,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/statutory-registers-maintenance/#service",
-        "name": "Statutory Registers Maintenance (Section 88)",
-        "description": "Statutory registers maintenance services from Patron Accounting LLP keep a company’s statutory registers under Section 88 of the Companies Act, 2013 and the Companies (Management and Administration) Rules, 2014 current and audit-ready, covering the register of members in Form MGT-1 kept separately for equity and preference, the register of debenture or other security holders in Form MGT-2 for each category, the foreign register where the articles allow with the notice to the Registrar in Form MGT-3 within 30 days, the register of directors and key managerial personnel under Section 170, the register of charges under Section 85, and the register of contracts in which directors are interested in Form MBP-4 under Section 189, with timely entries made within 7 days of the Board or committee approving an allotment, transfer or similar action, authentication by the company secretary or an authorised person, the index of names where the company has 50 or more members, the correct place of keeping and the prescribed preservation, the register of members permanently and the debenture and security registers for at least 8 years from redemption, as an outsourced annual upkeep.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/statutory-registers-maintenance" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Statutory register", "sameAs": "https://en.wikipedia.org/wiki/Statutory_register" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Statutory Registers Maintenance Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "Statutory Registers Maintenance Service",
-                    "priceCurrency": "INR",
-                    "price": "9999",
-                    "description": "Annual statutory registers upkeep covering the review and set-up, the ongoing 7-day entries, the index, the MGT-1 members register, the MGT-2 debenture and security register, the registers of directors and KMP, charges and contracts of interest, the foreign register and MGT-3 notice where relevant, and inspection readiness, exclusive of GST and government charges. Any MGT-3 filing fees for a foreign register, and a one-time reconstruction of badly outdated registers, are charged on actual basis."
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/statutory-registers-maintenance/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Company Compliance", "item": "https://www.patronaccounting.com/corporate-compliance-services" },
-            { "@type": "ListItem", "position": 3, "name": "Statutory Registers Maintenance", "item": "https://www.patronaccounting.com/statutory-registers-maintenance" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/statutory-registers-maintenance/#faq",
-        "datePublished": "2026-06-03T08:00:00+05:30",
-        "dateModified": "2026-06-04T08:00:00+05:30",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "What are statutory registers under the Companies Act?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Statutory registers are the official records a company must keep under the Companies Act, 2013, recording its members, debenture and security holders, directors and key managerial personnel, charges and certain transactions. The core registers are required under Section 88, with others under related provisions, and they must be kept current, properly entered and preserved for prescribed periods." }
-            },
-            {
-                "@type": "Question",
-                "name": "Which registers must be maintained under Section 88?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Section 88 requires the register of members in Form MGT-1, kept separately for equity and preference shares, and the register of debenture holders or other security holders in Form MGT-2 for each category. Where the articles allow, a part of the register may be kept outside India as a foreign register, with notice to the Registrar in Form MGT-3 within 30 days of its opening, change or discontinuance." }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the time limit to make entries in the registers?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Entries in the registers maintained under Section 88 must be made within 7 days of the Board of Directors or its committee approving the allotment or transfer of shares, debentures or other securities, or other action such as a buy-back, forfeiture or reduction. The entries are authenticated by the company secretary or a person authorised by the Board, and the index is updated at the same time." }
-            },
-            {
-                "@type": "Question",
-                "name": "Is an index of members required?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Yes, where the company has 50 or more members. Every register maintained under Section 88(1) must include an index of the names entered in it, and the index is updated simultaneously with each entry for an allotment or transfer. The requirement to maintain an index does not apply if the company has fewer than 50 members, though the register itself is still required." }
-            },
-            {
-                "@type": "Question",
-                "name": "Where must statutory registers be kept?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Statutory registers are kept at the company's registered office. By a special resolution passed at a general meeting, a company may keep them at another place within the same city, town or village as the registered office, or at any other place in India where at least one-tenth of the total members reside. They must be available for inspection as the Act requires." }
-            },
-            {
-                "@type": "Question",
-                "name": "How long must the registers be preserved?",
-                "acceptedAnswer": { "@type": "Answer", "text": "The register of members must be preserved permanently. The registers of debenture holders and other security holders must be preserved for at least 8 years from the date of redemption of the debentures or securities. A foreign register is treated as part of the principal register and follows the same format, with a duplicate kept at the foreign location." }
-            },
-            {
-                "@type": "Question",
-                "name": "What other statutory registers must a company keep?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Beyond the Section 88 registers, a company maintains the register of directors and key managerial personnel and their shareholding under Section 170, the register of charges under Section 85, and the register of contracts or arrangements in which directors are interested in Form MBP-4 under Section 189. Share-related registers such as renewed and duplicate certificates and sweat equity are kept where relevant." }
-            },
-            {
-                "@type": "Question",
-                "name": "What happens if statutory registers are not maintained?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Failing to maintain the statutory registers, or keeping them inaccurate or out of date, is a non-compliance under the Companies Act and can attract penalties on the company and the officers in default. It can also cause the company to fail an audit, a secretarial review or a due diligence. Keeping the registers current through the year avoids these risks." }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/statutory-registers-maintenance",
-        "name": "Statutory Registers Maintenance (Section 88)",
-        "description": "Keep your MGT-1, MGT-2, MGT-3 and other statutory registers under Section 88 accurate and audit-ready. Outsourced annual upkeep from INR 9,999.",
-        "url": "https://www.patronaccounting.com/statutory-registers-maintenance",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/statutory-registers-maintenance/#service" },
-        "datePublished": "2026-06-03T08:00:00+05:30",
-        "dateModified": "2026-06-04T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/statutory-registers-maintenance/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How We Maintain Your Registers: Step by Step",
-        "description": "How Patron maintains a company’s statutory registers, from reviewing the current state and confirming the register set through capturing events, making the 7-day entries and authenticating them to filing foreign register notices and preserving the registers.",
-        "totalTime": "P365D",
-        "step": [
-            { "@type": "HowToStep", "name": "Review the current state", "text": "Audit your existing registers, identify gaps and bring them up to date." },
-            { "@type": "HowToStep", "name": "Set the register set", "text": "Confirm which registers your company must keep based on its capital, securities and structure." },
-            { "@type": "HowToStep", "name": "Capture events", "text": "Track allotments, transfers, charges, director and KMP changes and other entries as they happen." },
-            { "@type": "HowToStep", "name": "Make timely entries", "text": "Record each event within 7 days of approval and update the index where required." },
-            { "@type": "HowToStep", "name": "Authenticate", "text": "Have the entries authenticated by the company secretary or the authorised person." },
-            { "@type": "HowToStep", "name": "File foreign register notices", "text": "File any MGT-3 notice for a foreign register within the timeline." },
-            { "@type": "HowToStep", "name": "Preserve and keep ready", "text": "Keep the registers at the correct place, preserve them for the prescribed periods and keep them inspection-ready." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Statutory Registers Maintenance Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "MGT-1", "description": "The register of members, kept separately for equity and preference shares." },
-            { "@type": "DefinedTerm", "name": "MGT-2", "description": "The register of debenture holders or other security holders, per category." },
-            { "@type": "DefinedTerm", "name": "MGT-3", "description": "The notice to the ROC for a foreign register kept outside India." },
-            { "@type": "DefinedTerm", "name": "Index", "description": "The name index a register must carry where the company has 50 or more members." },
-            { "@type": "DefinedTerm", "name": "Preservation", "description": "The period a register must be kept, permanent for members and 8 years for debentures." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -794,7 +619,187 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Statutory Registers Maintenance 2026 | Patron Accounting</title>
+    <meta name="description" content="Keep your MGT-1, MGT-2, MGT-3 and other statutory registers under Section 88 accurate and audit-ready. Outsourced annual upkeep from INR 9,999.">
+    <link rel="canonical" href="/statutory-registers-maintenance">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Statutory Registers Maintenance 2026 | Patron Accounting">
+    <meta property="og:description" content="Keep your MGT-1, MGT-2, MGT-3 and other statutory registers under Section 88 accurate and audit-ready. Outsourced annual upkeep from INR 9,999.">
+    <meta property="og:url" content="/statutory-registers-maintenance">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Statutory Registers Maintenance 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Keep your MGT-1, MGT-2, MGT-3 and other statutory registers under Section 88 accurate and audit-ready. Outsourced annual upkeep from INR 9,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/statutory-registers-maintenance/#service",
+        "name": "Statutory Registers Maintenance (Section 88)",
+        "description": "Statutory registers maintenance services from Patron Accounting LLP keep a company’s statutory registers under Section 88 of the Companies Act, 2013 and the Companies (Management and Administration) Rules, 2014 current and audit-ready, covering the register of members in Form MGT-1 kept separately for equity and preference, the register of debenture or other security holders in Form MGT-2 for each category, the foreign register where the articles allow with the notice to the Registrar in Form MGT-3 within 30 days, the register of directors and key managerial personnel under Section 170, the register of charges under Section 85, and the register of contracts in which directors are interested in Form MBP-4 under Section 189, with timely entries made within 7 days of the Board or committee approving an allotment, transfer or similar action, authentication by the company secretary or an authorised person, the index of names where the company has 50 or more members, the correct place of keeping and the prescribed preservation, the register of members permanently and the debenture and security registers for at least 8 years from redemption, as an outsourced annual upkeep.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/statutory-registers-maintenance" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Statutory register", "sameAs": "https://en.wikipedia.org/wiki/Statutory_register" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Statutory Registers Maintenance Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "Statutory Registers Maintenance Service",
+                    "priceCurrency": "INR",
+                    "price": "9999",
+                    "description": "Annual statutory registers upkeep covering the review and set-up, the ongoing 7-day entries, the index, the MGT-1 members register, the MGT-2 debenture and security register, the registers of directors and KMP, charges and contracts of interest, the foreign register and MGT-3 notice where relevant, and inspection readiness, exclusive of GST and government charges. Any MGT-3 filing fees for a foreign register, and a one-time reconstruction of badly outdated registers, are charged on actual basis."
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/statutory-registers-maintenance/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Company Compliance", "item": "https://www.patronaccounting.com/corporate-compliance-services" },
+            { "@type": "ListItem", "position": 3, "name": "Statutory Registers Maintenance", "item": "https://www.patronaccounting.com/statutory-registers-maintenance" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/statutory-registers-maintenance/#faq",
+        "datePublished": "2026-06-03T08:00:00+05:30",
+        "dateModified": "2026-06-04T08:00:00+05:30",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What are statutory registers under the Companies Act?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Statutory registers are the official records a company must keep under the Companies Act, 2013, recording its members, debenture and security holders, directors and key managerial personnel, charges and certain transactions. The core registers are required under Section 88, with others under related provisions, and they must be kept current, properly entered and preserved for prescribed periods." }
+            },
+            {
+                "@type": "Question",
+                "name": "Which registers must be maintained under Section 88?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Section 88 requires the register of members in Form MGT-1, kept separately for equity and preference shares, and the register of debenture holders or other security holders in Form MGT-2 for each category. Where the articles allow, a part of the register may be kept outside India as a foreign register, with notice to the Registrar in Form MGT-3 within 30 days of its opening, change or discontinuance." }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the time limit to make entries in the registers?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Entries in the registers maintained under Section 88 must be made within 7 days of the Board of Directors or its committee approving the allotment or transfer of shares, debentures or other securities, or other action such as a buy-back, forfeiture or reduction. The entries are authenticated by the company secretary or a person authorised by the Board, and the index is updated at the same time." }
+            },
+            {
+                "@type": "Question",
+                "name": "Is an index of members required?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Yes, where the company has 50 or more members. Every register maintained under Section 88(1) must include an index of the names entered in it, and the index is updated simultaneously with each entry for an allotment or transfer. The requirement to maintain an index does not apply if the company has fewer than 50 members, though the register itself is still required." }
+            },
+            {
+                "@type": "Question",
+                "name": "Where must statutory registers be kept?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Statutory registers are kept at the company's registered office. By a special resolution passed at a general meeting, a company may keep them at another place within the same city, town or village as the registered office, or at any other place in India where at least one-tenth of the total members reside. They must be available for inspection as the Act requires." }
+            },
+            {
+                "@type": "Question",
+                "name": "How long must the registers be preserved?",
+                "acceptedAnswer": { "@type": "Answer", "text": "The register of members must be preserved permanently. The registers of debenture holders and other security holders must be preserved for at least 8 years from the date of redemption of the debentures or securities. A foreign register is treated as part of the principal register and follows the same format, with a duplicate kept at the foreign location." }
+            },
+            {
+                "@type": "Question",
+                "name": "What other statutory registers must a company keep?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Beyond the Section 88 registers, a company maintains the register of directors and key managerial personnel and their shareholding under Section 170, the register of charges under Section 85, and the register of contracts or arrangements in which directors are interested in Form MBP-4 under Section 189. Share-related registers such as renewed and duplicate certificates and sweat equity are kept where relevant." }
+            },
+            {
+                "@type": "Question",
+                "name": "What happens if statutory registers are not maintained?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Failing to maintain the statutory registers, or keeping them inaccurate or out of date, is a non-compliance under the Companies Act and can attract penalties on the company and the officers in default. It can also cause the company to fail an audit, a secretarial review or a due diligence. Keeping the registers current through the year avoids these risks." }
+            }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/statutory-registers-maintenance",
+        "name": "Statutory Registers Maintenance (Section 88)",
+        "description": "Keep your MGT-1, MGT-2, MGT-3 and other statutory registers under Section 88 accurate and audit-ready. Outsourced annual upkeep from INR 9,999.",
+        "url": "https://www.patronaccounting.com/statutory-registers-maintenance",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/statutory-registers-maintenance/#service" },
+        "datePublished": "2026-06-03T08:00:00+05:30",
+        "dateModified": "2026-06-04T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/statutory-registers-maintenance/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How We Maintain Your Registers: Step by Step",
+        "description": "How Patron maintains a company’s statutory registers, from reviewing the current state and confirming the register set through capturing events, making the 7-day entries and authenticating them to filing foreign register notices and preserving the registers.",
+        "totalTime": "P365D",
+        "step": [
+            { "@type": "HowToStep", "name": "Review the current state", "text": "Audit your existing registers, identify gaps and bring them up to date." },
+            { "@type": "HowToStep", "name": "Set the register set", "text": "Confirm which registers your company must keep based on its capital, securities and structure." },
+            { "@type": "HowToStep", "name": "Capture events", "text": "Track allotments, transfers, charges, director and KMP changes and other entries as they happen." },
+            { "@type": "HowToStep", "name": "Make timely entries", "text": "Record each event within 7 days of approval and update the index where required." },
+            { "@type": "HowToStep", "name": "Authenticate", "text": "Have the entries authenticated by the company secretary or the authorised person." },
+            { "@type": "HowToStep", "name": "File foreign register notices", "text": "File any MGT-3 notice for a foreign register within the timeline." },
+            { "@type": "HowToStep", "name": "Preserve and keep ready", "text": "Keep the registers at the correct place, preserve them for the prescribed periods and keep them inspection-ready." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Statutory Registers Maintenance Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "MGT-1", "description": "The register of members, kept separately for equity and preference shares." },
+            { "@type": "DefinedTerm", "name": "MGT-2", "description": "The register of debenture holders or other security holders, per category." },
+            { "@type": "DefinedTerm", "name": "MGT-3", "description": "The notice to the ROC for a foreign register kept outside India." },
+            { "@type": "DefinedTerm", "name": "Index", "description": "The name index a register must carry where the company has 50 or more members." },
+            { "@type": "DefinedTerm", "name": "Preservation", "description": "The period a register must be kept, permanent for members and 8 years for debentures." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1567,17 +1572,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1600,8 +1598,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1638,7 +1634,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1 (corrected): Last Updated mirrors schema dateModified, stable hardcoded date
 (function() {
@@ -1649,3 +1644,19 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

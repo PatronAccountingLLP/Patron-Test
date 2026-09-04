@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,213 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>QuickBooks to Zoho Migration Mumbai 2026 | Patron Accounting</title>
-    <meta name="description" content="Shift from QuickBooks Online to Zoho Books in Mumbai from INR 9,999. CA-led QBO export, GST re-mapping, and zero-difference tie-out for BKC firms.">
-    <link rel="canonical" href="/migration-from-quickbooks-to-zoho/mumbai">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="QuickBooks to Zoho Migration Mumbai 2026 | Patron Accounting">
-    <meta property="og:description" content="Shift from QuickBooks Online to Zoho Books in Mumbai from INR 9,999. CA-led QBO export, GST re-mapping, and zero-difference tie-out for BKC firms.">
-    <meta property="og:url" content="/migration-from-quickbooks-to-zoho/mumbai">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="QuickBooks to Zoho Migration Mumbai 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Shift from QuickBooks Online to Zoho Books in Mumbai from INR 9,999. CA-led QBO export, GST re-mapping, and zero-difference tie-out for BKC firms.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/migration-from-quickbooks-to-zoho/mumbai#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Migration from QuickBooks to Zoho",
-          "item": "https://www.patronaccounting.com/migration-from-quickbooks-to-zoho"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "QuickBooks to Zoho Migration in Mumbai",
-          "item": "https://www.patronaccounting.com/migration-from-quickbooks-to-zoho/mumbai"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/migration-from-quickbooks-to-zoho/mumbai#faq",
-      "datePublished": "2026-06-23T08:00:00+05:30",
-      "dateModified": "2026-06-23T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What makes a BKC finance team switch from QuickBooks Online to Zoho Books?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Once Intuit retired its India QuickBooks plans, QBO stopped offering India GST, e-invoicing, GSTR filing and local bank feeds within the software. For a BKC or Lower Parel finance team that still needs to file every month, Zoho Books is the India-native replacement, and that compliance gap is the real reason the move happens."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What does a QuickBooks to Zoho migration cost in Mumbai?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Pricing begins Starting from INR 9,999 (Exl GST and Govt. Charges). The exact figure depends on the years of QBO history you bring over, how many ledgers and GSTINs are in scope, your transaction count against the 50,000-per-module limit, and whether you opt for Zoho Books or the wider Zoho One. We confirm a fixed quote upfront."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do you get an Andheri agency's data out of QuickBooks Online?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Your QuickBooks Online account is exported as a ZIP that carries the chart of accounts, the customer, vendor and item masters, and the full transaction history, alongside a trial balance and ageing reports pulled on the same date. For an Andheri media agency, those QBO reports stay the benchmark we tie the new Mumbai Zoho Books file back to."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "After migration, will QuickBooks and Zoho Books closing balances agree?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "They will. Opening balances plus receivables and payables are loaded from your QBO Customer Balance Detail and Supplier Balance Detail reports. We then check, account by account, that the net difference between the QuickBooks closing balance and the Zoho Books closing balance lands at zero before a Chartered Accountant approves the file."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is Indian GST set up during a Mumbai QuickBooks to Zoho move?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Before a single transaction loads, your QuickBooks tax codes are converted to Indian GST inside Zoho Books. We configure the GSTIN, HSN and SAC codes, GSP link, e-invoicing and GSTR-2B reconciliation in line with the CGST Act 2017, so each historical entry already shows the right CGST, SGST or IGST split when it arrives."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can a high-volume Bhiwandi distributor breach the 50,000 transaction limit?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, it can. Zoho's DIY migration tops out at 50,000 transactions per module, covering invoices, bills, payments and expenses separately. A busy Bhiwandi or Dombivli distributor often clears that ceiling, so Patron sequences the import in batches or trims older years, making sure no record is quietly lost during your Mumbai migration."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does the QuickBooks to Zoho switch take for a Mumbai business?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A Powai SaaS startup on one GSTIN, moving opening balances and the running year, is typically live within 3 to 7 working days. A Bhiwandi distributor hauling several years of QBO history across multiple GSTINs runs 3 to 6 weeks. The drivers are transaction volume against the per-module cap and how fast documents reach us."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Once I am on Zoho Books, do my old QuickBooks Online records survive?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "They do. The QuickBooks Online ZIP and supporting reports you exported are kept for the 6-year retention window required under Rule 6F(5) of the Income Tax Rules. How much of that QBO history actually flows into Zoho Books is your call, ranging from opening balances alone to several years of invoices, bills and journals."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/migration-from-quickbooks-to-zoho/mumbai#service",
-      "name": "QuickBooks to Zoho Migration in Mumbai",
-      "description": "QuickBooks Online to Zoho Books migration in Mumbai exports your QBO data, re-maps the chart of accounts, carries opening balances, masters and historical transactions across, and rebuilds Indian GST. Patron Accounting drives the closing balances to zero difference for BKC, Andheri, and Bhiwandi businesses.",
-      "serviceType": "QuickBooks Online to Zoho Books Migration",
-      "url": "https://www.patronaccounting.com/migration-from-quickbooks-to-zoho/mumbai",
-      "areaServed": {
-        "@type": "City",
-        "name": "Mumbai",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Maharashtra"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#localbusiness-mumbai"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Accounting software",
-          "sameAs": "https://en.wikipedia.org/wiki/Accounting_software"
-        },
-        {
-          "@type": "Thing",
-          "name": "QuickBooks",
-          "sameAs": "https://en.wikipedia.org/wiki/QuickBooks"
-        },
-        {
-          "@type": "Thing",
-          "name": "Goods and Services Tax (India)",
-          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "QuickBooks to Zoho Migration Plans in Mumbai",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "price": "9999",
-            "priceSpecification": {
-              "@type": "UnitPriceSpecification",
-              "priceCurrency": "INR",
-              "price": "9999",
-              "unitText": "starting from"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "QuickBooks Online to Zoho Books Migration"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness-mumbai",
-      "name": "Patron Accounting LLP - Mumbai",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/migration-from-quickbooks-to-zoho/mumbai",
-      "telephone": "+91-9699936369",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Mumbai"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Mumbai",
-        "addressRegion": "Maharashtra",
-        "postalCode": "400020",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -820,7 +612,222 @@
         .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
 
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>QuickBooks to Zoho Migration Mumbai 2026 | Patron Accounting</title>
+    <meta name="description" content="Shift from QuickBooks Online to Zoho Books in Mumbai from INR 9,999. CA-led QBO export, GST re-mapping, and zero-difference tie-out for BKC firms.">
+    <link rel="canonical" href="/migration-from-quickbooks-to-zoho/mumbai">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="QuickBooks to Zoho Migration Mumbai 2026 | Patron Accounting">
+    <meta property="og:description" content="Shift from QuickBooks Online to Zoho Books in Mumbai from INR 9,999. CA-led QBO export, GST re-mapping, and zero-difference tie-out for BKC firms.">
+    <meta property="og:url" content="/migration-from-quickbooks-to-zoho/mumbai">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="QuickBooks to Zoho Migration Mumbai 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Shift from QuickBooks Online to Zoho Books in Mumbai from INR 9,999. CA-led QBO export, GST re-mapping, and zero-difference tie-out for BKC firms.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/migration-from-quickbooks-to-zoho/mumbai#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Migration from QuickBooks to Zoho",
+          "item": "https://www.patronaccounting.com/migration-from-quickbooks-to-zoho"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "QuickBooks to Zoho Migration in Mumbai",
+          "item": "https://www.patronaccounting.com/migration-from-quickbooks-to-zoho/mumbai"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/migration-from-quickbooks-to-zoho/mumbai#faq",
+      "datePublished": "2026-06-23T08:00:00+05:30",
+      "dateModified": "2026-06-23T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What makes a BKC finance team switch from QuickBooks Online to Zoho Books?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Once Intuit retired its India QuickBooks plans, QBO stopped offering India GST, e-invoicing, GSTR filing and local bank feeds within the software. For a BKC or Lower Parel finance team that still needs to file every month, Zoho Books is the India-native replacement, and that compliance gap is the real reason the move happens."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does a QuickBooks to Zoho migration cost in Mumbai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pricing begins Starting from INR 9,999 (Exl GST and Govt. Charges). The exact figure depends on the years of QBO history you bring over, how many ledgers and GSTINs are in scope, your transaction count against the 50,000-per-module limit, and whether you opt for Zoho Books or the wider Zoho One. We confirm a fixed quote upfront."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you get an Andheri agency's data out of QuickBooks Online?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Your QuickBooks Online account is exported as a ZIP that carries the chart of accounts, the customer, vendor and item masters, and the full transaction history, alongside a trial balance and ageing reports pulled on the same date. For an Andheri media agency, those QBO reports stay the benchmark we tie the new Mumbai Zoho Books file back to."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "After migration, will QuickBooks and Zoho Books closing balances agree?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "They will. Opening balances plus receivables and payables are loaded from your QBO Customer Balance Detail and Supplier Balance Detail reports. We then check, account by account, that the net difference between the QuickBooks closing balance and the Zoho Books closing balance lands at zero before a Chartered Accountant approves the file."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is Indian GST set up during a Mumbai QuickBooks to Zoho move?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Before a single transaction loads, your QuickBooks tax codes are converted to Indian GST inside Zoho Books. We configure the GSTIN, HSN and SAC codes, GSP link, e-invoicing and GSTR-2B reconciliation in line with the CGST Act 2017, so each historical entry already shows the right CGST, SGST or IGST split when it arrives."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a high-volume Bhiwandi distributor breach the 50,000 transaction limit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, it can. Zoho's DIY migration tops out at 50,000 transactions per module, covering invoices, bills, payments and expenses separately. A busy Bhiwandi or Dombivli distributor often clears that ceiling, so Patron sequences the import in batches or trims older years, making sure no record is quietly lost during your Mumbai migration."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does the QuickBooks to Zoho switch take for a Mumbai business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Powai SaaS startup on one GSTIN, moving opening balances and the running year, is typically live within 3 to 7 working days. A Bhiwandi distributor hauling several years of QBO history across multiple GSTINs runs 3 to 6 weeks. The drivers are transaction volume against the per-module cap and how fast documents reach us."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Once I am on Zoho Books, do my old QuickBooks Online records survive?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "They do. The QuickBooks Online ZIP and supporting reports you exported are kept for the 6-year retention window required under Rule 6F(5) of the Income Tax Rules. How much of that QBO history actually flows into Zoho Books is your call, ranging from opening balances alone to several years of invoices, bills and journals."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/migration-from-quickbooks-to-zoho/mumbai#service",
+      "name": "QuickBooks to Zoho Migration in Mumbai",
+      "description": "QuickBooks Online to Zoho Books migration in Mumbai exports your QBO data, re-maps the chart of accounts, carries opening balances, masters and historical transactions across, and rebuilds Indian GST. Patron Accounting drives the closing balances to zero difference for BKC, Andheri, and Bhiwandi businesses.",
+      "serviceType": "QuickBooks Online to Zoho Books Migration",
+      "url": "https://www.patronaccounting.com/migration-from-quickbooks-to-zoho/mumbai",
+      "areaServed": {
+        "@type": "City",
+        "name": "Mumbai",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Maharashtra"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#localbusiness-mumbai"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Accounting software",
+          "sameAs": "https://en.wikipedia.org/wiki/Accounting_software"
+        },
+        {
+          "@type": "Thing",
+          "name": "QuickBooks",
+          "sameAs": "https://en.wikipedia.org/wiki/QuickBooks"
+        },
+        {
+          "@type": "Thing",
+          "name": "Goods and Services Tax (India)",
+          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "QuickBooks to Zoho Migration Plans in Mumbai",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "price": "9999",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "INR",
+              "price": "9999",
+              "unitText": "starting from"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "QuickBooks Online to Zoho Books Migration"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness-mumbai",
+      "name": "Patron Accounting LLP - Mumbai",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/migration-from-quickbooks-to-zoho/mumbai",
+      "telephone": "+91-9699936369",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Mumbai"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Mumbai",
+        "addressRegion": "Maharashtra",
+        "postalCode": "400020",
+        "addressCountry": "IN"
+      },
+      "parentOrganization": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1574,7 +1581,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

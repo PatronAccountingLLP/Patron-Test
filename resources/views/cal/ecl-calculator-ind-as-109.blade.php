@@ -1,195 +1,8 @@
 @extends('layouts.app')
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
-@section('meta')
-    <title>ECL Calculator Ind AS 109 | Expected Credit Loss Tool</title>
-    <meta name="description" content="ECL calculator under Ind AS 109: compute Expected Credit Loss via 3-stage General Approach and Simplified Provision Matrix for trade receivables. Free CA tool!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/ecl-calculator-ind-as-109">
-    <meta property="og:title" content="ECL Calculator (Ind AS 109) — FY 2025-26">
-    <meta property="og:description" content="Compute Expected Credit Loss under Ind AS 109. Three-stage General Approach + Provision Matrix for trade receivables. Free CA-reviewed tool.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/ecl-calculator-ind-as-109">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="ECL Calculator (Ind AS 109) — FY 2025-26">
-    <meta name="twitter:description" content="Three-stage ECL + Provision Matrix for trade receivables. Free CA-reviewed tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "ECL Calculator (Ind AS 109)",
-      "description": "ECL Calculator (Ind AS 109) computes Expected Credit Loss for financial assets under Ind AS 109 Financial Instruments — both General Approach (three-stage model with 12-month or lifetime ECL) and Simplified Approach (provision matrix for trade receivables, contract assets and lease receivables). General Approach supports Stage 1 (no significant increase in credit risk, 12-month ECL), Stage 2 (significant increase in credit risk, lifetime ECL, 30 days past due rebuttable presumption) and Stage 3 (credit-impaired, lifetime ECL, 90 days past due default presumption). Computation uses the standard ECL = PD × LGD × EAD formula where PD is probability of default, LGD is loss given default, EAD is exposure at default. Simplified Approach computes provision matrix across 7 aging buckets (current, 1-30, 31-60, 61-90, 91-180, 181-365, above 365 days) with default rates derived from historical credit loss experience adjusted for forward-looking information. Output includes stage-wise ECL, coverage ratio, journal entry and disclosure narrative aligned with Ind AS 107 Financial Instruments Disclosures.",
-      "url": "https://www.patronaccounting.com/tools/ecl-calculator-ind-as-109",
-      "applicationCategory": "FinanceApplication",
-      "operatingSystem": "Any",
-      "datePublished": "2026-05-07T08:00:00+05:30",
-      "dateModified": "2026-05-07T08:00:00+05:30",
-      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
-      "author": {
-        "@type": "Person",
-        "@id": "https://www.patronaccounting.com/#founder",
-        "name": "CA Sundram Gupta",
-        "jobTitle": "Founder & Chartered Accountant",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Institute of Chartered Accountants of India",
-            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-          }
-        }]
-      },
-      "publisher": { "@id": "https://www.patronaccounting.com/#organization" },
-      "provider": { "@id": "https://www.patronaccounting.com/#organization" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "ECL Calculator (Ind AS 109)", "item": "https://www.patronaccounting.com/tools/ecl-calculator-ind-as-109"}
-      ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "datePublished": "2026-05-07T08:00:00+05:30",
-      "dateModified": "2026-05-07T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is Expected Credit Loss under Ind AS 109?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Expected Credit Loss (ECL) under Ind AS 109 Financial Instruments is the probability-weighted estimate of credit losses on financial assets, recognised on a forward-looking basis. Effective for Ind AS companies from 1 April 2018, it replaces the incurred loss model under Ind AS 39 and AS 30. ECL must reflect an unbiased probability-weighted amount, the time value of money, and reasonable and supportable information including past events, current conditions and forward-looking forecasts."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the three-stage ECL model?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Stage 1 covers performing financial assets where credit risk has not significantly increased since initial recognition — 12-month ECL is recognised. Stage 2 covers underperforming assets where credit risk has significantly increased (SICR) — lifetime ECL is recognised. Stage 3 covers credit-impaired assets where default has occurred — lifetime ECL is recognised, and interest revenue is calculated on the net carrying amount (gross less ECL allowance), unlike Stages 1 and 2 which use gross."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is Significant Increase in Credit Risk (SICR)?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "SICR is the trigger for moving an asset from Stage 1 to Stage 2 under Ind AS 109. The standard provides a rebuttable presumption that SICR has occurred when contractual payments are more than 30 days past due. Other indicators include credit rating downgrade, adverse change in business or economic conditions, expected forbearance, and significant changes in external market indicators of credit risk. SICR assessment is forward-looking, considering reasonable and supportable information."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are PD, LGD and EAD in ECL computation?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Probability of Default (PD) is the likelihood a borrower defaults within a given time horizon — 12-month PD for Stage 1, lifetime PD for Stages 2 and 3. Loss Given Default (LGD) is the expected loss as a percentage of EAD after collateral recoveries. Exposure at Default (EAD) is the gross outstanding exposure at default. The standard formula is ECL = PD × LGD × EAD, optionally discounted at the original effective interest rate."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between General and Simplified Approach?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "General Approach applies the three-stage model to financial assets at amortised cost or FVOCI — loans, debt securities, loan commitments, financial guarantees. The entity must track SICR and stage transitions over time. Simplified Approach is permitted for trade receivables, contract assets and lease receivables — entities recognise lifetime ECL from initial recognition without tracking SICR. The simplified approach typically uses a provision matrix based on aging buckets and historical loss rates."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is a provision matrix for trade receivables?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A provision matrix is the practical expedient under Ind AS 109 Para 5.5.15 for computing lifetime ECL on trade receivables. The matrix specifies provision rates by past-due aging bucket (e.g., 0.5% current, 2% 1-30 days, 5% 31-60 days, 30% 91-180 days, 100% above 365 days). Rates are derived from historical credit loss experience adjusted for current conditions and forward-looking forecasts. Customer segmentation by region, rating or product type may be applied where loss patterns differ."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is forward-looking information requirement under Ind AS 109?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Ind AS 109 requires ECL to incorporate reasonable and supportable forward-looking information about future economic conditions — GDP growth, unemployment, inflation, interest rates, sector-specific outlooks. This is a fundamental shift from Ind AS 39 incurred loss model. Entities typically build multiple economic scenarios (base, upside, downside) with assigned probabilities, then compute probability-weighted ECL. Information must be available without undue cost or effort and must be applied consistently across reporting periods."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "When is a financial asset considered credit-impaired (Stage 3)?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Ind AS 109 defines a credit-impaired asset as one where one or more events have occurred that have a detrimental impact on estimated future cash flows. Indicators include significant financial difficulty of the issuer, breach of contract such as a default or past due event, lender granting a concession not otherwise considered, probability of bankruptcy, and disappearance of an active market. The standard sets a rebuttable presumption that default occurs no later than 90 days past due."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does Ind AS 109 differ from Ind AS 39?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Ind AS 39 used an incurred loss model — credit losses recognised only after objective evidence of impairment existed. Ind AS 109 uses an Expected Credit Loss model — losses recognised on a forward-looking basis from initial recognition. The change brings forward loss recognition, increases provisions in early-stage assets, and requires sophisticated PD/LGD modelling. Total expected losses over a portfolio's lifetime are typically larger and earlier under Ind AS 109, particularly for banks, NBFCs and large corporates."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the P&L and balance sheet impact of Ind AS 109?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Initial application of Ind AS 109 typically increased loss allowances substantially compared to Ind AS 39 — banks, NBFCs and lenders saw the largest impact. ECL is recognised in P&L as an impairment loss, with the loss allowance reducing the carrying amount of the financial asset. Each subsequent reporting date requires remeasurement with movements taken to P&L. For FVOCI debt instruments, ECL is recognised in P&L but the allowance does not reduce balance sheet carrying amount."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What disclosures are required under Ind AS 107 for ECL?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Ind AS 107 Financial Instruments Disclosures requires entities to disclose the credit risk management practices, ECL measurement methodology including key inputs and assumptions, reconciliation of opening to closing loss allowance with movements between stages, gross carrying amount and loss allowance by stage and credit grade, modification of contractual cash flows, write-off policy, and concentration of credit risk. Forward-looking information assumptions and sensitivity analysis are typically included for material portfolios."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does the ECL framework apply to banks and NBFCs?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Indian Ind AS-compliant NBFCs apply Ind AS 109 ECL framework directly. Scheduled commercial banks currently follow RBI's Income Recognition Asset Classification and Provisioning (IRACP) norms — RBI issued a discussion paper in January 2023 proposing transition to ECL framework with regulatory backstops, prudential floor and special treatment for Stage 3 interest accrual. Co-operative banks may receive separate thresholds. Final RBI guidelines will determine the transition timeline for the banking sector."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does ECL apply to cash and bank balances?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, in principle. Cash deposits with banks are financial assets subject to ECL under Ind AS 109. However, for high-credit-quality banks (typically AA-rated and above scheduled commercial banks), the ECL is usually negligible due to very low PD and high recovery expectations. Many entities apply a low credit risk practical expedient under Ind AS 109 Para 5.5.10 — assets continue at 12-month ECL even without explicit SICR assessment. Material exposures to weak banks require explicit ECL computation."
-          }
-        }
-      ]
-    }
-    </script>
-@endsection
-
 <style>
         :root {
             --primary: #1B4D3E;
@@ -398,7 +211,194 @@
             .verdict-grid-value { font-size: 17px; }
         }
     </style>
+@endpush
 
+@section('meta')
+    <title>ECL Calculator Ind AS 109 | Expected Credit Loss Tool</title>
+    <meta name="description" content="ECL calculator under Ind AS 109: compute Expected Credit Loss via 3-stage General Approach and Simplified Provision Matrix for trade receivables. Free CA tool!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/ecl-calculator-ind-as-109">
+    <meta property="og:title" content="ECL Calculator (Ind AS 109) — FY 2025-26">
+    <meta property="og:description" content="Compute Expected Credit Loss under Ind AS 109. Three-stage General Approach + Provision Matrix for trade receivables. Free CA-reviewed tool.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/ecl-calculator-ind-as-109">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ECL Calculator (Ind AS 109) — FY 2025-26">
+    <meta name="twitter:description" content="Three-stage ECL + Provision Matrix for trade receivables. Free CA-reviewed tool.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "ECL Calculator (Ind AS 109)",
+      "description": "ECL Calculator (Ind AS 109) computes Expected Credit Loss for financial assets under Ind AS 109 Financial Instruments — both General Approach (three-stage model with 12-month or lifetime ECL) and Simplified Approach (provision matrix for trade receivables, contract assets and lease receivables). General Approach supports Stage 1 (no significant increase in credit risk, 12-month ECL), Stage 2 (significant increase in credit risk, lifetime ECL, 30 days past due rebuttable presumption) and Stage 3 (credit-impaired, lifetime ECL, 90 days past due default presumption). Computation uses the standard ECL = PD × LGD × EAD formula where PD is probability of default, LGD is loss given default, EAD is exposure at default. Simplified Approach computes provision matrix across 7 aging buckets (current, 1-30, 31-60, 61-90, 91-180, 181-365, above 365 days) with default rates derived from historical credit loss experience adjusted for forward-looking information. Output includes stage-wise ECL, coverage ratio, journal entry and disclosure narrative aligned with Ind AS 107 Financial Instruments Disclosures.",
+      "url": "https://www.patronaccounting.com/tools/ecl-calculator-ind-as-109",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Any",
+      "datePublished": "2026-05-07T08:00:00+05:30",
+      "dateModified": "2026-05-07T08:00:00+05:30",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.patronaccounting.com/#founder",
+        "name": "CA Sundram Gupta",
+        "jobTitle": "Founder & Chartered Accountant",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Institute of Chartered Accountants of India",
+            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+          }
+        }]
+      },
+      "publisher": { "@id": "https://www.patronaccounting.com/#organization" },
+      "provider": { "@id": "https://www.patronaccounting.com/#organization" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "ECL Calculator (Ind AS 109)", "item": "https://www.patronaccounting.com/tools/ecl-calculator-ind-as-109"}
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "datePublished": "2026-05-07T08:00:00+05:30",
+      "dateModified": "2026-05-07T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Expected Credit Loss under Ind AS 109?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Expected Credit Loss (ECL) under Ind AS 109 Financial Instruments is the probability-weighted estimate of credit losses on financial assets, recognised on a forward-looking basis. Effective for Ind AS companies from 1 April 2018, it replaces the incurred loss model under Ind AS 39 and AS 30. ECL must reflect an unbiased probability-weighted amount, the time value of money, and reasonable and supportable information including past events, current conditions and forward-looking forecasts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the three-stage ECL model?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Stage 1 covers performing financial assets where credit risk has not significantly increased since initial recognition — 12-month ECL is recognised. Stage 2 covers underperforming assets where credit risk has significantly increased (SICR) — lifetime ECL is recognised. Stage 3 covers credit-impaired assets where default has occurred — lifetime ECL is recognised, and interest revenue is calculated on the net carrying amount (gross less ECL allowance), unlike Stages 1 and 2 which use gross."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Significant Increase in Credit Risk (SICR)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SICR is the trigger for moving an asset from Stage 1 to Stage 2 under Ind AS 109. The standard provides a rebuttable presumption that SICR has occurred when contractual payments are more than 30 days past due. Other indicators include credit rating downgrade, adverse change in business or economic conditions, expected forbearance, and significant changes in external market indicators of credit risk. SICR assessment is forward-looking, considering reasonable and supportable information."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are PD, LGD and EAD in ECL computation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Probability of Default (PD) is the likelihood a borrower defaults within a given time horizon — 12-month PD for Stage 1, lifetime PD for Stages 2 and 3. Loss Given Default (LGD) is the expected loss as a percentage of EAD after collateral recoveries. Exposure at Default (EAD) is the gross outstanding exposure at default. The standard formula is ECL = PD × LGD × EAD, optionally discounted at the original effective interest rate."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between General and Simplified Approach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "General Approach applies the three-stage model to financial assets at amortised cost or FVOCI — loans, debt securities, loan commitments, financial guarantees. The entity must track SICR and stage transitions over time. Simplified Approach is permitted for trade receivables, contract assets and lease receivables — entities recognise lifetime ECL from initial recognition without tracking SICR. The simplified approach typically uses a provision matrix based on aging buckets and historical loss rates."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a provision matrix for trade receivables?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A provision matrix is the practical expedient under Ind AS 109 Para 5.5.15 for computing lifetime ECL on trade receivables. The matrix specifies provision rates by past-due aging bucket (e.g., 0.5% current, 2% 1-30 days, 5% 31-60 days, 30% 91-180 days, 100% above 365 days). Rates are derived from historical credit loss experience adjusted for current conditions and forward-looking forecasts. Customer segmentation by region, rating or product type may be applied where loss patterns differ."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is forward-looking information requirement under Ind AS 109?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ind AS 109 requires ECL to incorporate reasonable and supportable forward-looking information about future economic conditions — GDP growth, unemployment, inflation, interest rates, sector-specific outlooks. This is a fundamental shift from Ind AS 39 incurred loss model. Entities typically build multiple economic scenarios (base, upside, downside) with assigned probabilities, then compute probability-weighted ECL. Information must be available without undue cost or effort and must be applied consistently across reporting periods."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is a financial asset considered credit-impaired (Stage 3)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ind AS 109 defines a credit-impaired asset as one where one or more events have occurred that have a detrimental impact on estimated future cash flows. Indicators include significant financial difficulty of the issuer, breach of contract such as a default or past due event, lender granting a concession not otherwise considered, probability of bankruptcy, and disappearance of an active market. The standard sets a rebuttable presumption that default occurs no later than 90 days past due."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does Ind AS 109 differ from Ind AS 39?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ind AS 39 used an incurred loss model — credit losses recognised only after objective evidence of impairment existed. Ind AS 109 uses an Expected Credit Loss model — losses recognised on a forward-looking basis from initial recognition. The change brings forward loss recognition, increases provisions in early-stage assets, and requires sophisticated PD/LGD modelling. Total expected losses over a portfolio's lifetime are typically larger and earlier under Ind AS 109, particularly for banks, NBFCs and large corporates."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the P&L and balance sheet impact of Ind AS 109?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Initial application of Ind AS 109 typically increased loss allowances substantially compared to Ind AS 39 — banks, NBFCs and lenders saw the largest impact. ECL is recognised in P&L as an impairment loss, with the loss allowance reducing the carrying amount of the financial asset. Each subsequent reporting date requires remeasurement with movements taken to P&L. For FVOCI debt instruments, ECL is recognised in P&L but the allowance does not reduce balance sheet carrying amount."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What disclosures are required under Ind AS 107 for ECL?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ind AS 107 Financial Instruments Disclosures requires entities to disclose the credit risk management practices, ECL measurement methodology including key inputs and assumptions, reconciliation of opening to closing loss allowance with movements between stages, gross carrying amount and loss allowance by stage and credit grade, modification of contractual cash flows, write-off policy, and concentration of credit risk. Forward-looking information assumptions and sensitivity analysis are typically included for material portfolios."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does the ECL framework apply to banks and NBFCs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Indian Ind AS-compliant NBFCs apply Ind AS 109 ECL framework directly. Scheduled commercial banks currently follow RBI's Income Recognition Asset Classification and Provisioning (IRACP) norms — RBI issued a discussion paper in January 2023 proposing transition to ECL framework with regulatory backstops, prudential floor and special treatment for Stage 3 interest accrual. Co-operative banks may receive separate thresholds. Final RBI guidelines will determine the transition timeline for the banking sector."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does ECL apply to cash and bank balances?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, in principle. Cash deposits with banks are financial assets subject to ECL under Ind AS 109. However, for high-credit-quality banks (typically AA-rated and above scheduled commercial banks), the ECL is usually negligible due to very low PD and high recovery expectations. Many entities apply a low credit risk practical expedient under Ind AS 109 Para 5.5.10 — assets continue at 12-month ECL even without explicit SICR assessment. Material exposures to weak banks require explicit ECL computation."
+          }
+        }
+      ]
+    }
+    </script>
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Tool navigation">
     <div class="toc-nav-inner">

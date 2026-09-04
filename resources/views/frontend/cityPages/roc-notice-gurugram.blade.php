@@ -1,161 +1,12 @@
 
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>ROC Compliance Filing Gurugram - AOC-4 & MGT-7</title>
-    <meta name="description" content="ROC notice response in Gurugram. S454 penalty. Strike-off STK-5. AOC-4 MGT-7 default. ROC Haryana Chandigarh. Call +91 945 945 6700.">
-    <link rel="canonical" href="/roc-notice/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="ROC Compliance Filing Gurugram - AOC-4 & MGT-7">
-    <meta property="og:description" content="ROC notice response in Gurugram. S454 penalty. Strike-off STK-5. AOC-4 MGT-7 default. ROC Haryana Chandigarh. Call +91 945 945 6700.">
-    <meta property="og:url" content="/roc-notice/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="ROC Compliance Filing Gurugram - AOC-4 & MGT-7">
-    <meta name="twitter:description" content="ROC notice response in Gurugram. S454 penalty. Strike-off STK-5. AOC-4 MGT-7 default. ROC Haryana Chandigarh. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "ROC Compliance Filing Gurugram - AOC-4 & MGT-7",
-      "description": "ROC notice response in Gurugram. S454 penalty. Strike-off STK-5. AOC-4 MGT-7 default. ROC Haryana Chandigarh. Call +91 945 945 6700.",
-      "url": "https://www.patronaccounting.com/roc-notice/gurugram",
-      "serviceType": "ROC Compliance Filing Gurugram - AOC-4 & MGT-7",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/roc-notice/gurugram",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "minPrice": "5000",
-          "maxPrice": "15000",
-          "priceCurrency": "INR"
-        }
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "ROC Compliance Filing Services - Annual Return & Forms India",
-          "item": "https://www.patronaccounting.com/roc-notice"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "ROC Compliance Filing Gurugram - AOC-4 & MGT-7",
-          "item": "https://www.patronaccounting.com/roc-notice/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What should I do when I receive an ROC notice?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Identify the notice type (S454 penalty, STK-5 strike-off, AOC-4/MGT-7 default, DIR-3 KYC). Note the response deadline (typically 15-30 days). File all pending returns immediately on the MCA portal. Engage a CA/CS for professional response. Never ignore an ROC notice - non-response leads to penalties, DIN deactivation, or company strike-off."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does ROC notice response cost?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "S454 penalty response Rs 10,000-25,000. Strike-off response Rs 15,000-30,000. Default filing Rs 5,000-10,000 per form plus government additional fees (Rs 100/day). DIR-3 KYC Rs 3,000-5,000 plus Rs 5,000 govt fee. Company restoration Rs 25,000-50,000. Call +91 945 945 6700."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which ROC handles Gurugram companies now?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. Receive Order and Evaluate: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens if a strike-off notice is ignored?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The company name is removed from the Register of Companies and the company is dissolved. All directors are automatically disqualified under Section 164(2) for 5 years, meaning they cannot serve as directors in any company in India. Company assets vest in the government. Restoration requires an NCLT application under Section 252."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is Section 454 penalty?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 454 gives the ROC power to directly adjudicate and impose penalties for minor company law violations without going through NCLT. This power was significantly expanded in February 2026. ROC Haryana can now issue penalty orders through a streamlined process with a 15-30 day response window. Professional defence can significantly reduce the penalty amount."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are penalties for not filing AOC-4 and MGT-7?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Additional fee of Rs 100 per day per form with no cap, accruing from the due date until filing. Three years of default on both AOC-4 and MGT-7 can exceed Rs 2 lakh in additional fees alone. Directors may face disqualification under Section 164(2) if defaults continue for 3 consecutive years. The company also risks strike-off proceedings under Section 248."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can a struck-off company be restored?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. A struck-off company can be restored through an NCLT application under Section 252 of the Companies Act 2013. The application must be filed within 20 years of the strike-off. All pending annual returns must be filed, all penalties paid, and proper grounds for restoration demonstrated. The process typically takes 3-6 months and costs Rs 25,000-50,000 in professional fees plus NCLT filing fees."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -679,7 +530,161 @@ section ul li:not(.nav-item) { font-size: 14px; }
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'Join Community'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>ROC Compliance Filing Gurugram - AOC-4 & MGT-7</title>
+    <meta name="description" content="ROC notice response in Gurugram. S454 penalty. Strike-off STK-5. AOC-4 MGT-7 default. ROC Haryana Chandigarh. Call +91 945 945 6700.">
+    <link rel="canonical" href="/roc-notice/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="ROC Compliance Filing Gurugram - AOC-4 & MGT-7">
+    <meta property="og:description" content="ROC notice response in Gurugram. S454 penalty. Strike-off STK-5. AOC-4 MGT-7 default. ROC Haryana Chandigarh. Call +91 945 945 6700.">
+    <meta property="og:url" content="/roc-notice/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ROC Compliance Filing Gurugram - AOC-4 & MGT-7">
+    <meta name="twitter:description" content="ROC notice response in Gurugram. S454 penalty. Strike-off STK-5. AOC-4 MGT-7 default. ROC Haryana Chandigarh. Call +91 945 945 6700.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "ROC Compliance Filing Gurugram - AOC-4 & MGT-7",
+      "description": "ROC notice response in Gurugram. S454 penalty. Strike-off STK-5. AOC-4 MGT-7 default. ROC Haryana Chandigarh. Call +91 945 945 6700.",
+      "url": "https://www.patronaccounting.com/roc-notice/gurugram",
+      "serviceType": "ROC Compliance Filing Gurugram - AOC-4 & MGT-7",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.patronaccounting.com/roc-notice/gurugram",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": "5000",
+          "maxPrice": "15000",
+          "priceCurrency": "INR"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "ROC Compliance Filing Services - Annual Return & Forms India",
+          "item": "https://www.patronaccounting.com/roc-notice"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "ROC Compliance Filing Gurugram - AOC-4 & MGT-7",
+          "item": "https://www.patronaccounting.com/roc-notice/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What should I do when I receive an ROC notice?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Identify the notice type (S454 penalty, STK-5 strike-off, AOC-4/MGT-7 default, DIR-3 KYC). Note the response deadline (typically 15-30 days). File all pending returns immediately on the MCA portal. Engage a CA/CS for professional response. Never ignore an ROC notice - non-response leads to penalties, DIN deactivation, or company strike-off."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does ROC notice response cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "S454 penalty response Rs 10,000-25,000. Strike-off response Rs 15,000-30,000. Default filing Rs 5,000-10,000 per form plus government additional fees (Rs 100/day). DIR-3 KYC Rs 3,000-5,000 plus Rs 5,000 govt fee. Company restoration Rs 25,000-50,000. Call +91 945 945 6700."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which ROC handles Gurugram companies now?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. Receive Order and Evaluate: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if a strike-off notice is ignored?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The company name is removed from the Register of Companies and the company is dissolved. All directors are automatically disqualified under Section 164(2) for 5 years, meaning they cannot serve as directors in any company in India. Company assets vest in the government. Restoration requires an NCLT application under Section 252."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Section 454 penalty?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 454 gives the ROC power to directly adjudicate and impose penalties for minor company law violations without going through NCLT. This power was significantly expanded in February 2026. ROC Haryana can now issue penalty orders through a streamlined process with a 15-30 day response window. Professional defence can significantly reduce the penalty amount."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are penalties for not filing AOC-4 and MGT-7?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Additional fee of Rs 100 per day per form with no cap, accruing from the due date until filing. Three years of default on both AOC-4 and MGT-7 can exceed Rs 2 lakh in additional fees alone. Directors may face disqualification under Section 164(2) if defaults continue for 3 consecutive years. The company also risks strike-off proceedings under Section 248."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a struck-off company be restored?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. A struck-off company can be restored through an NCLT application under Section 252 of the Companies Act 2013. The application must be filed within 20 years of the strike-off. All pending annual returns must be filed, all penalties paid, and proper grounds for restoration demonstrated. The process typically takes 3-6 months and costs Rs 25,000-50,000 in professional fees plus NCLT filing fees."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1605,7 +1610,6 @@ var tocWrapper=document.getElementById('tocWrapper');document.getElementById('to
 
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

@@ -1,210 +1,8 @@
 @extends('layouts.app')
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
-@section('meta')
-    <title>IGST Export Refund Calculator | Rule 96 GST Refund</title>
-    <meta name="description" content="IGST export refund calculator under Rule 96: verify shipping bill eligibility, GSTR-1 vs 3B match, SB error codes, drawback conflict and 60-day timeline. Free!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/igst-export-refund-calculator">
-    <meta property="og:title" content="IGST Export Refund Calculator — Rule 96 GST Refund 2026">
-    <meta property="og:description" content="Verify Rule 96 IGST refund eligibility, reconcile GSTR-1 Table 6A vs GSTR-3B Table 3.1(b), decode SB error codes, check drawback conflict and Section 56 interest. Free CA tool.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/igst-export-refund-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="IGST Export Refund Calculator — Rule 96 GST Refund 2026">
-    <meta name="twitter:description" content="Rule 96 IGST refund eligibility check, GSTR-1 vs 3B reconciliation, SB error code decoder, drawback conflict diagnosis, 60-day timeline. Free CA tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-    <meta name="theme-color" content="#15365f">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebApplication",
-      "name": "IGST Export Refund Calculator (Rule 96)",
-      "description": "IGST Export Refund Calculator under Rule 96 of the Central Goods and Services Tax Rules, 2017 verifies the admissibility of refund of Integrated Tax paid on goods exported out of India. The tool reconciles the Integrated Tax declared in Table 6A of Form GSTR-1 against the Integrated Tax paid in Table 3.1(b) of Form GSTR-3B and confirms that the shipping bill data filed on ICEGATE matches the GST returns at the invoice level. The calculator decodes the standard SB-series response codes including SB000 indicating successful validation, SB001 indicating a shipping bill number date or port code mismatch, SB002 indicating that the Export General Manifest has not been filed, SB003 indicating a Goods and Services Tax Identification Number mismatch, SB005 indicating an invoice number mismatch and SB006 indicating that the gateway Export General Manifest has not been filed for shipments through Inland Container Depots. The tool flags drawback conflict where the exporter has availed the higher composite rate of duty drawback that includes the Central Goods and Services Tax, State Goods and Services Tax or Integrated Goods and Services Tax component. The tool reflects the omission of Rule 96(10) of the CGST Rules with effect from 8 October 2024 vide Notification No. 20/2024-Central Tax following the recommendation of the 54th Goods and Services Tax Council, restoring the right of refund where the exporter or supplier had availed Advance Authorisation, Export Promotion Capital Goods Authorisation or supplies under the 0.1 per cent concessional rate. The calculator computes the two-year limitation under Section 54(1) of the CGST Act from the relevant date defined in Explanation (2)(a) which is the date of the shipping bill, and the entitlement to interest at six per cent per annum under Section 56 if the refund is not paid within sixty days of acknowledgement. The Letter of Undertaking route under Rule 89(4) of the CGST Rules is computed by a separate tool.",
-      "url": "https://www.patronaccounting.com/tools/igst-export-refund-calculator",
-      "applicationCategory": "FinanceApplication",
-      "operatingSystem": "Any",
-      "datePublished": "2026-05-07T08:00:00+05:30",
-      "dateModified": "2026-05-19T08:00:00+05:30",
-      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
-      "author": {
-        "@type": "Person",
-        "@id": "https://patronaccounting.com/#founder",
-        "name": "CA Sundram Gupta",
-        "jobTitle": "Founder & Chartered Accountant",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Institute of Chartered Accountants of India",
-            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-          }
-        }]
-      },
-      "publisher": { "@id": "https://patronaccounting.com/#organization" },
-      "provider": {"@id": "https://patronaccounting.com/#organization"}
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "IGST Export Refund Calculator", "item": "https://www.patronaccounting.com/tools/igst-export-refund-calculator"}
-      ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is the IGST refund route under Rule 96 and how does it differ from the LUT route?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Under Rule 96, the exporter pays Integrated Tax on the export invoice and the shipping bill itself becomes the refund application once the EGM and a valid GSTR-3B are filed. ICEGATE processes the refund automatically without Form RFD-01 and PFMS credits the bank account. The LUT route under Rule 89(4) needs manual RFD-01 filing and refunds unutilised ITC. The IGST route is faster but blocks working capital."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What conditions must be met for ICEGATE to process my IGST refund automatically?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Three conditions must be cumulatively satisfied for the GSTN to transmit data to ICEGATE. First, both Form GSTR-1 with Table 6A and Form GSTR-3B must be filed for the relevant tax period. Second, the Integrated Tax declared in Table 3.1(b) of GSTR-3B must be equal to or greater than the Integrated Tax declared in Table 6A of GSTR-1. Third, the invoice details in the shipping bill at ICEGATE must match the invoice details transmitted from GSTR-1, with no missing invoices."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What does SB000 response code mean and when will my refund be credited?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "SB000 is the success code indicating that the shipping bill has been successfully validated against the GST returns and the refund is eligible for sanction. The customs officer in CLK role generates the temporary IGST refund scroll, approved by AC or DC. The Public Financial Management System credits the refund to the bank account validated on ICEGATE, typically within seven to fifteen days of scroll generation."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What does the SB005 error mean and how do I resolve it?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "SB005 indicates that the invoice number declared in the shipping bill does not match the invoice number declared in Table 6A of Form GSTR-1, the most common cause of refund rejection. The error typically arises from typographical mistakes or use of separate invoices for GST and Customs. Resolution is through the Officer Interface mechanism under Circular 5/2018-Customs read with Circular 5/2021-Customs, where the jurisdictional Customs officer manually validates and approves the refund based on documentary evidence."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I claim IGST refund if I have availed Duty Drawback on my exports?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, but only where the lower or all-industry rate of drawback has been claimed, which represents only the Basic Customs Duty component. If the higher composite rate of drawback has been availed which subsumes the Central Goods and Services Tax, State Goods and Services Tax or Integrated Goods and Services Tax components, the IGST refund is not admissible since this would amount to double benefit. The shipping bill drawback declaration must reflect the lower rate."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What was Rule 96(10) of the CGST Rules and is it still applicable?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Rule 96(10) restricted IGST refund where the exporter or its supplier had availed concessional benefits like Advance Authorisation, EPCG, EOU exemption or the 0.1 per cent merchant export rate. The rule was omitted with effect from 8 October 2024 by Notification 20/2024-Central Tax following the 54th GST Council recommendation. The Gujarat and Calcutta High Courts have held the omission applies even to pending proceedings, providing relief from recovery notices."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the time limit for claiming IGST refund under Rule 96?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 54(1) prescribes a two-year limitation from the relevant date for filing a refund claim. For exports of goods on payment of IGST, the relevant date defined in Explanation (2)(a) is the date of the shipping bill. Since the SB itself is the deemed application under Rule 96, limitation rarely binds, but GSTR-1 and GSTR-3B for the period must be filed within two years to enable ICEGATE transmission."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens if my IGST in GSTR-3B Table 3.1(b) is less than IGST in GSTR-1 Table 6A?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "GSTN will not transmit the data to ICEGATE if the Integrated Tax paid in Table 3.1(b) of GSTR-3B is less than the Integrated Tax declared in Table 6A of GSTR-1, because this signals incomplete payment of tax on zero-rated supplies. The exporter must rectify the shortfall by paying differential IGST through DRC-03 with applicable interest under Section 50 of the CGST Act. After payment, the data will be re-transmitted in the next cycle and the refund processed automatically."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is SB006 error and how is it resolved for ICD shipments?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "SB006 indicates the gateway Export General Manifest has not been filed electronically or has filing errors, common for shipments routed through Inland Container Depots. The gateway port custodian or shipping line must file the gateway EGM through ICEGATE referencing the ICD shipping bill. Until filed and matched, the refund stays stuck. Exporters should follow up with their CHA and shipping line and escalate to the gateway AC if delayed."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is provisional refund of 90 per cent applicable under the IGST refund route?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The provisional refund framework under Section 54(6) read with Rule 91 is conceptually applicable to zero-rated supplies. However, in practice the IGST refund route under Rule 96 is fully automated through ICEGATE and the entire amount is sanctioned in one go through the IGST scroll, without a separate 90 per cent provisional plus 10 per cent final split. Provisional refund is more relevant for the LUT route under Rule 89(4)."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is the IGST refund amount computed under Rule 96?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Under Rule 96 the IGST refund amount equals the IGST actually paid on the export invoice and declared in Table 6A of GSTR-1, capped at the IGST paid through Table 3.1(b) of GSTR-3B for that period. There is no Rule 89(4) formula or Adjusted Total Turnover computation. ICEGATE matches each invoice on number, IGST amount, taxable value and port code, then credits the matched amount to the validated bank account."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is SB003 error and how is it different from SB005?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "SB003 indicates a Goods and Services Tax Identification Number mismatch where the GSTIN declared in the shipping bill is different from the GSTIN under which the GSTR-1 returns have been filed. SB005 is a more granular invoice-level mismatch. SB003 arises typically when an exporter has multiple GSTINs across states and the wrong GSTIN is mentioned on the shipping bill or only the PAN is mentioned. Resolution is through the Officer Interface mechanism with documentary proof of the correct GSTIN."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Will I get interest if my IGST refund is delayed beyond 60 days?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Section 56 provides simple interest at six per cent per annum on any refund not paid within sixty days from the date of application. For Rule 96, the application date is when the shipping bill becomes a deemed application — that is, when EGM and GSTR-3B are both filed. Interest accrues from day 61 till credit date and is automatic, requiring no separate claim. Appellate sanctions attract 9 per cent."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I switch between IGST refund route and LUT route in different tax periods?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. The choice between the IGST-paid route under Rule 96 and the LUT route under Rule 89(4) is exercised invoice by invoice, with no statutory bar on switching across tax periods. The exporter may evaluate working capital, drawback strategy and ITC accumulation each period. Both routes cannot be claimed for the same consignment as that constitutes double refund. A registered LUT in Form RFD-11 is mandatory for non-IGST exports."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What if my bank account is not validated in PFMS — can I still get the refund?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. The Public Financial Management System validates the exporter's bank account against the NPCI database before crediting any refund. If validation fails due to IFSC mismatch, account closure or name discrepancy, the IGST scroll generates but disbursal fails. Update the correct bank account on ICEGATE and the GST portal, and approach the jurisdictional Customs Commissionerate for re-validation through Form A. Refunds resume after PFMS clears."
-          }
-        }
-      ]
-    }
-    </script>
-@endsection
-
 <style>
         :root {
             --primary: #15365f;
@@ -507,7 +305,209 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 }
 
 </style>
+@endpush
 
+@section('meta')
+    <title>IGST Export Refund Calculator | Rule 96 GST Refund</title>
+    <meta name="description" content="IGST export refund calculator under Rule 96: verify shipping bill eligibility, GSTR-1 vs 3B match, SB error codes, drawback conflict and 60-day timeline. Free!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/igst-export-refund-calculator">
+    <meta property="og:title" content="IGST Export Refund Calculator — Rule 96 GST Refund 2026">
+    <meta property="og:description" content="Verify Rule 96 IGST refund eligibility, reconcile GSTR-1 Table 6A vs GSTR-3B Table 3.1(b), decode SB error codes, check drawback conflict and Section 56 interest. Free CA tool.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/igst-export-refund-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="IGST Export Refund Calculator — Rule 96 GST Refund 2026">
+    <meta name="twitter:description" content="Rule 96 IGST refund eligibility check, GSTR-1 vs 3B reconciliation, SB error code decoder, drawback conflict diagnosis, 60-day timeline. Free CA tool.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+    <meta name="theme-color" content="#15365f">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "IGST Export Refund Calculator (Rule 96)",
+      "description": "IGST Export Refund Calculator under Rule 96 of the Central Goods and Services Tax Rules, 2017 verifies the admissibility of refund of Integrated Tax paid on goods exported out of India. The tool reconciles the Integrated Tax declared in Table 6A of Form GSTR-1 against the Integrated Tax paid in Table 3.1(b) of Form GSTR-3B and confirms that the shipping bill data filed on ICEGATE matches the GST returns at the invoice level. The calculator decodes the standard SB-series response codes including SB000 indicating successful validation, SB001 indicating a shipping bill number date or port code mismatch, SB002 indicating that the Export General Manifest has not been filed, SB003 indicating a Goods and Services Tax Identification Number mismatch, SB005 indicating an invoice number mismatch and SB006 indicating that the gateway Export General Manifest has not been filed for shipments through Inland Container Depots. The tool flags drawback conflict where the exporter has availed the higher composite rate of duty drawback that includes the Central Goods and Services Tax, State Goods and Services Tax or Integrated Goods and Services Tax component. The tool reflects the omission of Rule 96(10) of the CGST Rules with effect from 8 October 2024 vide Notification No. 20/2024-Central Tax following the recommendation of the 54th Goods and Services Tax Council, restoring the right of refund where the exporter or supplier had availed Advance Authorisation, Export Promotion Capital Goods Authorisation or supplies under the 0.1 per cent concessional rate. The calculator computes the two-year limitation under Section 54(1) of the CGST Act from the relevant date defined in Explanation (2)(a) which is the date of the shipping bill, and the entitlement to interest at six per cent per annum under Section 56 if the refund is not paid within sixty days of acknowledgement. The Letter of Undertaking route under Rule 89(4) of the CGST Rules is computed by a separate tool.",
+      "url": "https://www.patronaccounting.com/tools/igst-export-refund-calculator",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Any",
+      "datePublished": "2026-05-07T08:00:00+05:30",
+      "dateModified": "2026-05-19T08:00:00+05:30",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
+      "author": {
+        "@type": "Person",
+        "@id": "https://patronaccounting.com/#founder",
+        "name": "CA Sundram Gupta",
+        "jobTitle": "Founder & Chartered Accountant",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Institute of Chartered Accountants of India",
+            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+          }
+        }]
+      },
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": {"@id": "https://patronaccounting.com/#organization"}
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "IGST Export Refund Calculator", "item": "https://www.patronaccounting.com/tools/igst-export-refund-calculator"}
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the IGST refund route under Rule 96 and how does it differ from the LUT route?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under Rule 96, the exporter pays Integrated Tax on the export invoice and the shipping bill itself becomes the refund application once the EGM and a valid GSTR-3B are filed. ICEGATE processes the refund automatically without Form RFD-01 and PFMS credits the bank account. The LUT route under Rule 89(4) needs manual RFD-01 filing and refunds unutilised ITC. The IGST route is faster but blocks working capital."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What conditions must be met for ICEGATE to process my IGST refund automatically?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Three conditions must be cumulatively satisfied for the GSTN to transmit data to ICEGATE. First, both Form GSTR-1 with Table 6A and Form GSTR-3B must be filed for the relevant tax period. Second, the Integrated Tax declared in Table 3.1(b) of GSTR-3B must be equal to or greater than the Integrated Tax declared in Table 6A of GSTR-1. Third, the invoice details in the shipping bill at ICEGATE must match the invoice details transmitted from GSTR-1, with no missing invoices."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does SB000 response code mean and when will my refund be credited?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SB000 is the success code indicating that the shipping bill has been successfully validated against the GST returns and the refund is eligible for sanction. The customs officer in CLK role generates the temporary IGST refund scroll, approved by AC or DC. The Public Financial Management System credits the refund to the bank account validated on ICEGATE, typically within seven to fifteen days of scroll generation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does the SB005 error mean and how do I resolve it?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SB005 indicates that the invoice number declared in the shipping bill does not match the invoice number declared in Table 6A of Form GSTR-1, the most common cause of refund rejection. The error typically arises from typographical mistakes or use of separate invoices for GST and Customs. Resolution is through the Officer Interface mechanism under Circular 5/2018-Customs read with Circular 5/2021-Customs, where the jurisdictional Customs officer manually validates and approves the refund based on documentary evidence."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I claim IGST refund if I have availed Duty Drawback on my exports?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, but only where the lower or all-industry rate of drawback has been claimed, which represents only the Basic Customs Duty component. If the higher composite rate of drawback has been availed which subsumes the Central Goods and Services Tax, State Goods and Services Tax or Integrated Goods and Services Tax components, the IGST refund is not admissible since this would amount to double benefit. The shipping bill drawback declaration must reflect the lower rate."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What was Rule 96(10) of the CGST Rules and is it still applicable?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rule 96(10) restricted IGST refund where the exporter or its supplier had availed concessional benefits like Advance Authorisation, EPCG, EOU exemption or the 0.1 per cent merchant export rate. The rule was omitted with effect from 8 October 2024 by Notification 20/2024-Central Tax following the 54th GST Council recommendation. The Gujarat and Calcutta High Courts have held the omission applies even to pending proceedings, providing relief from recovery notices."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the time limit for claiming IGST refund under Rule 96?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 54(1) prescribes a two-year limitation from the relevant date for filing a refund claim. For exports of goods on payment of IGST, the relevant date defined in Explanation (2)(a) is the date of the shipping bill. Since the SB itself is the deemed application under Rule 96, limitation rarely binds, but GSTR-1 and GSTR-3B for the period must be filed within two years to enable ICEGATE transmission."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if my IGST in GSTR-3B Table 3.1(b) is less than IGST in GSTR-1 Table 6A?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "GSTN will not transmit the data to ICEGATE if the Integrated Tax paid in Table 3.1(b) of GSTR-3B is less than the Integrated Tax declared in Table 6A of GSTR-1, because this signals incomplete payment of tax on zero-rated supplies. The exporter must rectify the shortfall by paying differential IGST through DRC-03 with applicable interest under Section 50 of the CGST Act. After payment, the data will be re-transmitted in the next cycle and the refund processed automatically."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is SB006 error and how is it resolved for ICD shipments?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SB006 indicates the gateway Export General Manifest has not been filed electronically or has filing errors, common for shipments routed through Inland Container Depots. The gateway port custodian or shipping line must file the gateway EGM through ICEGATE referencing the ICD shipping bill. Until filed and matched, the refund stays stuck. Exporters should follow up with their CHA and shipping line and escalate to the gateway AC if delayed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is provisional refund of 90 per cent applicable under the IGST refund route?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The provisional refund framework under Section 54(6) read with Rule 91 is conceptually applicable to zero-rated supplies. However, in practice the IGST refund route under Rule 96 is fully automated through ICEGATE and the entire amount is sanctioned in one go through the IGST scroll, without a separate 90 per cent provisional plus 10 per cent final split. Provisional refund is more relevant for the LUT route under Rule 89(4)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the IGST refund amount computed under Rule 96?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under Rule 96 the IGST refund amount equals the IGST actually paid on the export invoice and declared in Table 6A of GSTR-1, capped at the IGST paid through Table 3.1(b) of GSTR-3B for that period. There is no Rule 89(4) formula or Adjusted Total Turnover computation. ICEGATE matches each invoice on number, IGST amount, taxable value and port code, then credits the matched amount to the validated bank account."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is SB003 error and how is it different from SB005?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SB003 indicates a Goods and Services Tax Identification Number mismatch where the GSTIN declared in the shipping bill is different from the GSTIN under which the GSTR-1 returns have been filed. SB005 is a more granular invoice-level mismatch. SB003 arises typically when an exporter has multiple GSTINs across states and the wrong GSTIN is mentioned on the shipping bill or only the PAN is mentioned. Resolution is through the Officer Interface mechanism with documentary proof of the correct GSTIN."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will I get interest if my IGST refund is delayed beyond 60 days?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Section 56 provides simple interest at six per cent per annum on any refund not paid within sixty days from the date of application. For Rule 96, the application date is when the shipping bill becomes a deemed application — that is, when EGM and GSTR-3B are both filed. Interest accrues from day 61 till credit date and is automatic, requiring no separate claim. Appellate sanctions attract 9 per cent."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I switch between IGST refund route and LUT route in different tax periods?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The choice between the IGST-paid route under Rule 96 and the LUT route under Rule 89(4) is exercised invoice by invoice, with no statutory bar on switching across tax periods. The exporter may evaluate working capital, drawback strategy and ITC accumulation each period. Both routes cannot be claimed for the same consignment as that constitutes double refund. A registered LUT in Form RFD-11 is mandatory for non-IGST exports."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if my bank account is not validated in PFMS — can I still get the refund?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. The Public Financial Management System validates the exporter's bank account against the NPCI database before crediting any refund. If validation fails due to IFSC mismatch, account closure or name discrepancy, the IGST scroll generates but disbursal fails. Update the correct bank account on ICEGATE and the GST portal, and approach the jurisdictional Customs Commissionerate for re-validation through Form A. Refunds resume after PFMS clears."
+          }
+        }
+      ]
+    }
+    </script>
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation">
     <div class="toc-nav-inner">

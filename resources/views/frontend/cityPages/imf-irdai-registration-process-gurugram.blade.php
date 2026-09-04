@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,177 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>IRDAI IMF Registration Process: Step-by-Step Guide</title>
-    <meta name="description" content="Complete IRDAI IMF registration for existing entities - NOC, Form A, documents, fees, timeline. Now perpetual validity. Patron sets it up from INR 24,999.">
-    <link rel="canonical" href="/imf-irdai-registration-process/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="IRDAI IMF Registration Process: Step-by-Step Guide">
-    <meta property="og:description" content="Complete IRDAI IMF registration for existing entities - NOC, Form A, documents, fees, timeline. Now perpetual validity. Patron sets it up from INR 24,999.">
-    <meta property="og:url" content="/imf-irdai-registration-process/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="IRDAI IMF Registration Process: Step-by-Step Guide">
-    <meta name="twitter:description" content="Complete IRDAI IMF registration for existing entities - NOC, Form A, documents, fees, timeline. Now perpetual validity. Patron sets it up from INR 24,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "IMF Services",
-          "item": "https://www.patronaccounting.com/imf-services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "IMF IRDAI Registration Process in Gurugram",
-          "item": "https://www.patronaccounting.com/imf-irdai-registration-process/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "name": "IMF IRDAI Registration Process in Gurugram",
-      "description": "IRDAI IMF registration process for existing companies and LLPs in Gurugram - NOC, Form A on imf.irda.gov.in, Principal Officer and ISP training, net-worth certificate and PI cover. Registration is now perpetual. Patron handles end-to-end filing from INR 24,999 (Exl GST and Govt. Charges).",
-      "url": "https://www.patronaccounting.com/imf-irdai-registration-process/gurugram",
-      "serviceType": "IRDAI IMF Registration Process",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@type": "LocalBusiness",
-        "@id": "https://www.patronaccounting.com/#localbusiness",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg",
-        "image": "https://www.patronaccounting.com/images/site-logo.svg",
-        "telephone": "+919459456700",
-        "email": "sales@patronaccounting.com",
-        "priceRange": "INR",
-        "areaServed": {
-          "@type": "City",
-          "name": "Gurugram",
-          "containedInPlace": {
-            "@type": "State",
-            "name": "Haryana"
-          }
-        }
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "price": "24999",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/imf-irdai-registration-process/gurugram",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "minPrice": "24999",
-          "priceCurrency": "INR"
-        }
-      }
-    },
-    {
-      "@type": "FAQPage",
-      "datePublished": "2026-06-30T08:00:00+05:30",
-      "dateModified": "2026-06-30T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "How much does IRDAI IMF registration cost in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patron handles end-to-end IMF registration from INR 24,999 (Exl GST and Govt. Charges). On top of professional fees, statutory costs include the IRDAI application fee of INR 5,000 (paid from an SBI account in the firm's name) plus exam/training and PI-cover costs. We give Gurugram clients a fixed quote upfront after reviewing the entity."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does the IMF registration process take?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "For an existing, eligible entity the IRDAI registration typically takes about 6-10 weeks - driven mainly by the NOC, completing Principal Officer and ISP training and the IMF exam, and IRDAI's scrutiny of Form A. Timelines extend if documents are incomplete, so we front-load a readiness check."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What documents are required for IMF registration?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Form A, IRDAI NOC, ROC incorporation certificate (with 'Insurance Marketing Firm' or 'IMF' in the name), MoA/AoA or LLP agreement and PAN, the SBI bank account details, a CA net-worth certificate, Principal Officer and ISP exam plus qualification certificates, a 3-year business plan with org chart and infrastructure photos, insurer consent letters, and Fit and Proper declarations."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the eligibility to register as an IMF?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The applicant must be a company, LLP or co-operative society whose name includes 'Insurance Marketing Firm' or 'IMF', with a net worth of INR 10 lakh (INR 5 lakh if operating in a single aspirational district), a qualified Principal Officer who has cleared 50 hours of IRDAI training plus the IMF exam, and at least one Insurance Sales Person per office."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can Patron help my existing Gurugram company register as an IMF?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. This service is built specifically for existing companies and LLPs in Gurugram adding IRDAI registration. We assess eligibility, handle the name and NOC alignment, prepare and file Form A on imf.irda.gov.in, coordinate Principal Officer and ISP training and exams, and manage the net-worth certificate and PI cover - end to end."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you provide IMF registration in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. We register Insurance Marketing Firms for clients across India, including Gurugram and the wider Haryana region. The process is centralised on the IRDAI portal, so your location is no barrier - we coordinate documentation, training and filing remotely for Gurugram entities."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does an IMF registration need to be renewed every 3 years?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No - not anymore. Since 5 February 2026 (under the Sabka Bima Sabki Raksha / Amendment of Insurance Laws Act 2025), IMF registration is PERPETUAL and the earlier 3-year renewal has been discontinued. It remains conditional on paying the annual fee and meeting IRDAI's compliance and reporting requirements."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How many insurers can an IMF tie up with?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "An IMF can tie up with up to 2 life, 2 general and 2 health insurers (plus AIC and ECGC), and can also solicit other financial products through Insurance Service / Marketing Personnel - giving it more independence than a corporate agent, which works as an extension of the insurer."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -833,7 +661,186 @@
             to { opacity: 1; transform: translateY(0); }
         }
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>IRDAI IMF Registration Process: Step-by-Step Guide</title>
+    <meta name="description" content="Complete IRDAI IMF registration for existing entities - NOC, Form A, documents, fees, timeline. Now perpetual validity. Patron sets it up from INR 24,999.">
+    <link rel="canonical" href="/imf-irdai-registration-process/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="IRDAI IMF Registration Process: Step-by-Step Guide">
+    <meta property="og:description" content="Complete IRDAI IMF registration for existing entities - NOC, Form A, documents, fees, timeline. Now perpetual validity. Patron sets it up from INR 24,999.">
+    <meta property="og:url" content="/imf-irdai-registration-process/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="IRDAI IMF Registration Process: Step-by-Step Guide">
+    <meta name="twitter:description" content="Complete IRDAI IMF registration for existing entities - NOC, Form A, documents, fees, timeline. Now perpetual validity. Patron sets it up from INR 24,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "IMF Services",
+          "item": "https://www.patronaccounting.com/imf-services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "IMF IRDAI Registration Process in Gurugram",
+          "item": "https://www.patronaccounting.com/imf-irdai-registration-process/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "name": "IMF IRDAI Registration Process in Gurugram",
+      "description": "IRDAI IMF registration process for existing companies and LLPs in Gurugram - NOC, Form A on imf.irda.gov.in, Principal Officer and ISP training, net-worth certificate and PI cover. Registration is now perpetual. Patron handles end-to-end filing from INR 24,999 (Exl GST and Govt. Charges).",
+      "url": "https://www.patronaccounting.com/imf-irdai-registration-process/gurugram",
+      "serviceType": "IRDAI IMF Registration Process",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://www.patronaccounting.com/#localbusiness",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg",
+        "image": "https://www.patronaccounting.com/images/site-logo.svg",
+        "telephone": "+919459456700",
+        "email": "sales@patronaccounting.com",
+        "priceRange": "INR",
+        "areaServed": {
+          "@type": "City",
+          "name": "Gurugram",
+          "containedInPlace": {
+            "@type": "State",
+            "name": "Haryana"
+          }
+        }
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "price": "24999",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.patronaccounting.com/imf-irdai-registration-process/gurugram",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": "24999",
+          "priceCurrency": "INR"
+        }
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "datePublished": "2026-06-30T08:00:00+05:30",
+      "dateModified": "2026-06-30T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much does IRDAI IMF registration cost in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patron handles end-to-end IMF registration from INR 24,999 (Exl GST and Govt. Charges). On top of professional fees, statutory costs include the IRDAI application fee of INR 5,000 (paid from an SBI account in the firm's name) plus exam/training and PI-cover costs. We give Gurugram clients a fixed quote upfront after reviewing the entity."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does the IMF registration process take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For an existing, eligible entity the IRDAI registration typically takes about 6-10 weeks - driven mainly by the NOC, completing Principal Officer and ISP training and the IMF exam, and IRDAI's scrutiny of Form A. Timelines extend if documents are incomplete, so we front-load a readiness check."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What documents are required for IMF registration?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Form A, IRDAI NOC, ROC incorporation certificate (with 'Insurance Marketing Firm' or 'IMF' in the name), MoA/AoA or LLP agreement and PAN, the SBI bank account details, a CA net-worth certificate, Principal Officer and ISP exam plus qualification certificates, a 3-year business plan with org chart and infrastructure photos, insurer consent letters, and Fit and Proper declarations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the eligibility to register as an IMF?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The applicant must be a company, LLP or co-operative society whose name includes 'Insurance Marketing Firm' or 'IMF', with a net worth of INR 10 lakh (INR 5 lakh if operating in a single aspirational district), a qualified Principal Officer who has cleared 50 hours of IRDAI training plus the IMF exam, and at least one Insurance Sales Person per office."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can Patron help my existing Gurugram company register as an IMF?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. This service is built specifically for existing companies and LLPs in Gurugram adding IRDAI registration. We assess eligibility, handle the name and NOC alignment, prepare and file Form A on imf.irda.gov.in, coordinate Principal Officer and ISP training and exams, and manage the net-worth certificate and PI cover - end to end."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you provide IMF registration in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We register Insurance Marketing Firms for clients across India, including Gurugram and the wider Haryana region. The process is centralised on the IRDAI portal, so your location is no barrier - we coordinate documentation, training and filing remotely for Gurugram entities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does an IMF registration need to be renewed every 3 years?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No - not anymore. Since 5 February 2026 (under the Sabka Bima Sabki Raksha / Amendment of Insurance Laws Act 2025), IMF registration is PERPETUAL and the earlier 3-year renewal has been discontinued. It remains conditional on paying the annual fee and meeting IRDAI's compliance and reporting requirements."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many insurers can an IMF tie up with?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An IMF can tie up with up to 2 life, 2 general and 2 health insurers (plus AIC and ECGC), and can also solicit other financial products through Insurance Service / Marketing Personnel - giving it more independence than a corporate agent, which works as an extension of the insurer."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1764,7 +1771,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

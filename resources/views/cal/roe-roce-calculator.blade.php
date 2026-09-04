@@ -1,196 +1,8 @@
 @extends('layouts.app')
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
-@section('meta')
-    <title>ROE, ROCE &amp; ROA Calculator | Profitability Ratios</title>
-    <meta name="description" content="ROE, ROCE &amp; ROA Calculator: compute the three key profitability ratios with industry benchmarks, Schedule III aligned and CA-reviewed. Calculate free now!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/roe-roce-calculator">
-    <meta property="og:title" content="ROE + ROCE + ROA Calculator — Free 2026">
-    <meta property="og:description" content="Compute Return on Equity, Capital Employed and Assets with industry benchmarks. Schedule III aligned. Free CA-reviewed tool.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/roe-roce-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="ROE + ROCE + ROA Calculator — Free 2026">
-    <meta name="twitter:description" content="ROE + ROCE + ROA with industry benchmarks. Schedule III aligned. Free CA tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-    <meta name="theme-color" content="#15365f">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "ROE + ROCE + ROA Calculator",
-      "description": "ROE + ROCE + ROA Calculator computes the three principal profitability ratios used in Indian financial analysis — Return on Equity (Net Income divided by Shareholders Equity), Return on Capital Employed (EBIT divided by Capital Employed where Capital Employed equals Total Assets minus Current Liabilities, equivalent to Shareholders Equity plus Long-term Debt plus Long-term Provisions), and Return on Assets (Net Income divided by Total Assets). Output includes each ratio with industry benchmark comparison for IT, FMCG, Pharma, Manufacturing, Auto, Banks and NBFCs, Real Estate, and Retail; leverage-effect analysis comparing ROE versus ROCE to assess whether financial leverage is adding or destroying shareholder value; tax-and-financing wedge analysis comparing ROCE versus ROA; and trend analysis with Schedule III amendment 25 percent variance flagging. Aligned with Schedule III Division I and Division II of the Companies Act 2013 ratio disclosure requirements effective FY 2021-22. Suitable for equity research, credit appraisal, internal CFO benchmarking, audit analytical procedures, and CA-CFA student learning.",
-      "url": "https://www.patronaccounting.com/tools/roe-roce-calculator",
-      "applicationCategory": "FinanceApplication",
-      "operatingSystem": "Any",
-      "datePublished": "2026-05-07T08:00:00+05:30",
-      "dateModified": "2026-05-19T08:00:00+05:30",
-      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
-      "author": {
-        "@type": "Person",
-        "@id": "https://patronaccounting.com/#founder",
-        "name": "CA Sundram Gupta",
-        "jobTitle": "Founder & Chartered Accountant",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Institute of Chartered Accountants of India",
-            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-          }
-        }]
-      },
-      "publisher": { "@id": "https://patronaccounting.com/#organization" },
-      "provider": { "@id": "https://patronaccounting.com/#organization" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "ROE + ROCE + ROA Calculator", "item": "https://www.patronaccounting.com/tools/roe-roce-calculator"}
-      ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "datePublished": "2026-05-07T08:00:00+05:30",
-      "dateModified": "2026-05-19T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is Return on Equity (ROE)?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Return on Equity (ROE) measures the return generated on shareholders' equity. It is calculated as Net Income (Profit After Tax) divided by Total Shareholders' Equity, expressed as a percentage. ROE is the headline metric for equity investors — it captures profitability after all expenses, interest and taxes. Higher ROE indicates better return to shareholders. ROE is required to be disclosed in Notes to Accounts under Schedule III amendments effective FY 2021-22, with variances over 25% requiring explanation."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is Return on Capital Employed (ROCE)?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Return on Capital Employed (ROCE) measures returns generated on the total capital invested in the business — debt and equity together. It is calculated as EBIT (Earnings Before Interest and Tax) divided by Capital Employed, where Capital Employed = Total Assets − Current Liabilities (equivalent to Shareholders' Equity + Long-term Debt + Long-term Provisions). ROCE is leverage-neutral and used for comparing operating performance across companies with different capital structures. Required disclosure under Schedule III FY 2021-22."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is Return on Assets (ROA)?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Return on Assets (ROA) measures how efficiently total assets generate profit. It is calculated as Net Income divided by Total Assets, expressed as a percentage. Some analysts use EBIT instead of Net Income (Operating ROA) to remove tax and financing effects. ROA captures management's effectiveness in deploying the entire asset base. Banks and financial institutions typically have very low ROA (1-2%) because of their high asset bases — non-financial companies should target 5-15% depending on industry."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between ROE, ROCE and ROA?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Three different perspectives on profitability. ROE = Net Income ÷ Equity (returns to shareholders, leverage-amplified). ROCE = EBIT ÷ (Equity + Long-term Debt) (returns on total invested capital, leverage-neutral). ROA = Net Income ÷ Total Assets (returns on total assets including current liabilities funded). Generally ROE > ROCE > ROA because ROE includes leverage benefit, ROCE excludes current liabilities, and ROA uses post-tax profit on the largest base. Negative spread (ROCE less than ROA) is unusual and signals issues."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is Capital Employed calculated?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Capital Employed has two equivalent definitions: Definition 1: Capital Employed = Total Assets − Current Liabilities (most common in India). Definition 2: Capital Employed = Equity + Long-term Debt + Long-term Provisions. Both yield the same number on a properly classified Schedule III balance sheet. Definition 1 starts from the asset side; Definition 2 starts from the funding side. ICAI Guidance Notes prefer the asset-side approach as it is unambiguous and matches the operating capital used."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which is the best profitability ratio?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "There is no single best ratio — each serves a different purpose. ROE is best for equity investors deciding share purchases. ROCE is best for credit analysts, peer comparisons across capital structures, and management performance assessment. ROA is best for asset-intensive industries and banking sector analysis. Quality investors look at all three together — sustainable competitive advantage shows as consistently high ROCE; leverage benefit shows as ROE significantly exceeding ROCE; asset efficiency shows as healthy ROA."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What does ROCE versus Cost of Debt comparison reveal?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "If ROCE exceeds the cost of debt (interest rate), then debt financing creates value for shareholders — leverage amplifies ROE positively. If ROCE is below cost of debt, debt financing destroys value — leverage drags ROE below ROCE. For Indian companies, post-tax cost of debt is typically 6-9% depending on credit rating. Companies with ROCE under 9-10% should be cautious about taking on additional debt. The ROCE versus cost of debt spread is the single most important leverage decision metric."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are typical industry benchmarks for ROE, ROCE and ROA?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "IT and Software: ROE 18-25%, ROCE 22-30%, ROA 12-18%. FMCG: ROE 20-30%, ROCE 25-35%, ROA 10-15%. Pharma: ROE 18-25%, ROCE 22-28%, ROA 10-15%. Manufacturing: ROE 12-18%, ROCE 14-20%, ROA 6-10%. Auto: ROE 15-22%, ROCE 18-25%, ROA 5-9%. Real Estate: ROE 8-15%, ROCE 10-15%, ROA 4-8%. Banks and NBFCs: ROE 12-20%, ROCE not directly comparable, ROA 1-2%. Always benchmark against listed peers in the same sector for meaningful insight."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why is ROA so low for banks and NBFCs?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Banks and NBFCs have inherently low ROA (1-2%) because their balance sheets are dominated by financial assets funded by deposits and borrowings. The asset base is huge relative to revenue. Their value model is spread multiplied by leverage: ROE = ROA × Equity Multiplier. Bank equity multipliers are 8-12x under RBI Basel III. A bank with 1% ROA × 10x leverage achieves 10% ROE. ROCE is not used for banks; CRAR and NIM are preferred."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What does Schedule III ratio disclosure require?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "MCA notification dated 24 March 2021 amended Schedule III Division I and Division II of the Companies Act 2013 to require disclosure of nine financial ratios in Notes to Accounts effective FY 2021-22, including Current Ratio, Debt-Equity Ratio, Return on Equity, Return on Capital Employed, Net Profit Ratio, and Return on Investment. Variances exceeding 25% from prior year must be explained. The disclosure framework standardises ratio computation methodology and improves comparability across companies."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why is ROCE preferred for capital-intensive industries?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Capital-intensive industries — infrastructure, real estate, manufacturing, telecom — typically operate with high debt levels because long-asset-life investments support fixed-cost financing. ROE alone can be misleading: a 20% ROE may be driven by 4× leverage on modest 5% asset returns, exposing the company to interest rate and refinancing risk. ROCE strips out leverage and shows the true operating return on invested capital. Sustainable ROCE above 15% in capital-intensive sectors typically indicates a high-quality moat business."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "When should I use ROE versus ROCE?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Use ROE when: analysing returns to equity holders, comparing companies within the same sector with similar capital structures, computing dividend sustainability, and equity valuation models. Use ROCE when: comparing operating performance across companies with different leverage, assessing management's capital allocation skill, evaluating capital-intensive businesses, and analysing whether to take on more debt. Both are important — ROCE measures operational quality; ROE measures shareholder benefit. Quality investors require both to be healthy."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are limitations of ROE, ROCE and ROA?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "All three ratios have limitations: they rely on accounting numbers subject to manipulation (revenue recognition, asset valuation, depreciation choices); use point-in-time balance sheet (period averages preferred); ignore quality of earnings and cash flow timing; treat intangibles inconsistently (goodwill from acquisitions inflates capital base, depressing ratios); and do not capture business cycle position. Use alongside cash flow from operations, free cash flow, debt servicing capacity, and qualitative business assessment for complete analysis."
-          }
-        }
-      ]
-    }
-    </script>
-@endsection
-
 <style>
         :root {
             --primary: #15365f;
@@ -433,7 +245,195 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 }
 
 </style>
+@endpush
 
+@section('meta')
+    <title>ROE, ROCE &amp; ROA Calculator | Profitability Ratios</title>
+    <meta name="description" content="ROE, ROCE &amp; ROA Calculator: compute the three key profitability ratios with industry benchmarks, Schedule III aligned and CA-reviewed. Calculate free now!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/roe-roce-calculator">
+    <meta property="og:title" content="ROE + ROCE + ROA Calculator — Free 2026">
+    <meta property="og:description" content="Compute Return on Equity, Capital Employed and Assets with industry benchmarks. Schedule III aligned. Free CA-reviewed tool.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/roe-roce-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ROE + ROCE + ROA Calculator — Free 2026">
+    <meta name="twitter:description" content="ROE + ROCE + ROA with industry benchmarks. Schedule III aligned. Free CA tool.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+    <meta name="theme-color" content="#15365f">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "ROE + ROCE + ROA Calculator",
+      "description": "ROE + ROCE + ROA Calculator computes the three principal profitability ratios used in Indian financial analysis — Return on Equity (Net Income divided by Shareholders Equity), Return on Capital Employed (EBIT divided by Capital Employed where Capital Employed equals Total Assets minus Current Liabilities, equivalent to Shareholders Equity plus Long-term Debt plus Long-term Provisions), and Return on Assets (Net Income divided by Total Assets). Output includes each ratio with industry benchmark comparison for IT, FMCG, Pharma, Manufacturing, Auto, Banks and NBFCs, Real Estate, and Retail; leverage-effect analysis comparing ROE versus ROCE to assess whether financial leverage is adding or destroying shareholder value; tax-and-financing wedge analysis comparing ROCE versus ROA; and trend analysis with Schedule III amendment 25 percent variance flagging. Aligned with Schedule III Division I and Division II of the Companies Act 2013 ratio disclosure requirements effective FY 2021-22. Suitable for equity research, credit appraisal, internal CFO benchmarking, audit analytical procedures, and CA-CFA student learning.",
+      "url": "https://www.patronaccounting.com/tools/roe-roce-calculator",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Any",
+      "datePublished": "2026-05-07T08:00:00+05:30",
+      "dateModified": "2026-05-19T08:00:00+05:30",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
+      "author": {
+        "@type": "Person",
+        "@id": "https://patronaccounting.com/#founder",
+        "name": "CA Sundram Gupta",
+        "jobTitle": "Founder & Chartered Accountant",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Institute of Chartered Accountants of India",
+            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+          }
+        }]
+      },
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": { "@id": "https://patronaccounting.com/#organization" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "ROE + ROCE + ROA Calculator", "item": "https://www.patronaccounting.com/tools/roe-roce-calculator"}
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "datePublished": "2026-05-07T08:00:00+05:30",
+      "dateModified": "2026-05-19T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Return on Equity (ROE)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Return on Equity (ROE) measures the return generated on shareholders' equity. It is calculated as Net Income (Profit After Tax) divided by Total Shareholders' Equity, expressed as a percentage. ROE is the headline metric for equity investors — it captures profitability after all expenses, interest and taxes. Higher ROE indicates better return to shareholders. ROE is required to be disclosed in Notes to Accounts under Schedule III amendments effective FY 2021-22, with variances over 25% requiring explanation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Return on Capital Employed (ROCE)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Return on Capital Employed (ROCE) measures returns generated on the total capital invested in the business — debt and equity together. It is calculated as EBIT (Earnings Before Interest and Tax) divided by Capital Employed, where Capital Employed = Total Assets − Current Liabilities (equivalent to Shareholders' Equity + Long-term Debt + Long-term Provisions). ROCE is leverage-neutral and used for comparing operating performance across companies with different capital structures. Required disclosure under Schedule III FY 2021-22."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Return on Assets (ROA)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Return on Assets (ROA) measures how efficiently total assets generate profit. It is calculated as Net Income divided by Total Assets, expressed as a percentage. Some analysts use EBIT instead of Net Income (Operating ROA) to remove tax and financing effects. ROA captures management's effectiveness in deploying the entire asset base. Banks and financial institutions typically have very low ROA (1-2%) because of their high asset bases — non-financial companies should target 5-15% depending on industry."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between ROE, ROCE and ROA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Three different perspectives on profitability. ROE = Net Income ÷ Equity (returns to shareholders, leverage-amplified). ROCE = EBIT ÷ (Equity + Long-term Debt) (returns on total invested capital, leverage-neutral). ROA = Net Income ÷ Total Assets (returns on total assets including current liabilities funded). Generally ROE > ROCE > ROA because ROE includes leverage benefit, ROCE excludes current liabilities, and ROA uses post-tax profit on the largest base. Negative spread (ROCE less than ROA) is unusual and signals issues."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is Capital Employed calculated?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Capital Employed has two equivalent definitions: Definition 1: Capital Employed = Total Assets − Current Liabilities (most common in India). Definition 2: Capital Employed = Equity + Long-term Debt + Long-term Provisions. Both yield the same number on a properly classified Schedule III balance sheet. Definition 1 starts from the asset side; Definition 2 starts from the funding side. ICAI Guidance Notes prefer the asset-side approach as it is unambiguous and matches the operating capital used."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which is the best profitability ratio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There is no single best ratio — each serves a different purpose. ROE is best for equity investors deciding share purchases. ROCE is best for credit analysts, peer comparisons across capital structures, and management performance assessment. ROA is best for asset-intensive industries and banking sector analysis. Quality investors look at all three together — sustainable competitive advantage shows as consistently high ROCE; leverage benefit shows as ROE significantly exceeding ROCE; asset efficiency shows as healthy ROA."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does ROCE versus Cost of Debt comparison reveal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If ROCE exceeds the cost of debt (interest rate), then debt financing creates value for shareholders — leverage amplifies ROE positively. If ROCE is below cost of debt, debt financing destroys value — leverage drags ROE below ROCE. For Indian companies, post-tax cost of debt is typically 6-9% depending on credit rating. Companies with ROCE under 9-10% should be cautious about taking on additional debt. The ROCE versus cost of debt spread is the single most important leverage decision metric."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are typical industry benchmarks for ROE, ROCE and ROA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "IT and Software: ROE 18-25%, ROCE 22-30%, ROA 12-18%. FMCG: ROE 20-30%, ROCE 25-35%, ROA 10-15%. Pharma: ROE 18-25%, ROCE 22-28%, ROA 10-15%. Manufacturing: ROE 12-18%, ROCE 14-20%, ROA 6-10%. Auto: ROE 15-22%, ROCE 18-25%, ROA 5-9%. Real Estate: ROE 8-15%, ROCE 10-15%, ROA 4-8%. Banks and NBFCs: ROE 12-20%, ROCE not directly comparable, ROA 1-2%. Always benchmark against listed peers in the same sector for meaningful insight."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is ROA so low for banks and NBFCs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Banks and NBFCs have inherently low ROA (1-2%) because their balance sheets are dominated by financial assets funded by deposits and borrowings. The asset base is huge relative to revenue. Their value model is spread multiplied by leverage: ROE = ROA × Equity Multiplier. Bank equity multipliers are 8-12x under RBI Basel III. A bank with 1% ROA × 10x leverage achieves 10% ROE. ROCE is not used for banks; CRAR and NIM are preferred."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does Schedule III ratio disclosure require?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "MCA notification dated 24 March 2021 amended Schedule III Division I and Division II of the Companies Act 2013 to require disclosure of nine financial ratios in Notes to Accounts effective FY 2021-22, including Current Ratio, Debt-Equity Ratio, Return on Equity, Return on Capital Employed, Net Profit Ratio, and Return on Investment. Variances exceeding 25% from prior year must be explained. The disclosure framework standardises ratio computation methodology and improves comparability across companies."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is ROCE preferred for capital-intensive industries?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Capital-intensive industries — infrastructure, real estate, manufacturing, telecom — typically operate with high debt levels because long-asset-life investments support fixed-cost financing. ROE alone can be misleading: a 20% ROE may be driven by 4× leverage on modest 5% asset returns, exposing the company to interest rate and refinancing risk. ROCE strips out leverage and shows the true operating return on invested capital. Sustainable ROCE above 15% in capital-intensive sectors typically indicates a high-quality moat business."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When should I use ROE versus ROCE?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Use ROE when: analysing returns to equity holders, comparing companies within the same sector with similar capital structures, computing dividend sustainability, and equity valuation models. Use ROCE when: comparing operating performance across companies with different leverage, assessing management's capital allocation skill, evaluating capital-intensive businesses, and analysing whether to take on more debt. Both are important — ROCE measures operational quality; ROE measures shareholder benefit. Quality investors require both to be healthy."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are limitations of ROE, ROCE and ROA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "All three ratios have limitations: they rely on accounting numbers subject to manipulation (revenue recognition, asset valuation, depreciation choices); use point-in-time balance sheet (period averages preferred); ignore quality of earnings and cash flow timing; treat intangibles inconsistently (goodwill from acquisitions inflates capital base, depressing ratios); and do not capture business cycle position. Use alongside cash flow from operations, free cash flow, debt servicing capacity, and qualitative business assessment for complete analysis."
+          }
+        }
+      ]
+    }
+    </script>
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Tool navigation">
     <div class="toc-nav-inner">

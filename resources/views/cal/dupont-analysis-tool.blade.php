@@ -1,196 +1,8 @@
 @extends('layouts.app')
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
-@section('meta')
-    <title>DuPont Analysis Calculator | 3-Step & 5-Step ROE</title>
-    <meta name="description" content="Free DuPont analysis calculator: 3-step and 5-step ROE decomposition into tax burden, interest burden, margin, asset turnover and leverage. CA-reviewed tool.">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/dupont-analysis-tool">
-    <meta property="og:title" content="DuPont Analysis Tool — 3-Step + 5-Step ROE Breakdown">
-    <meta property="og:description" content="Decompose ROE into profitability, efficiency, leverage. 3-step and 5-step DuPont analysis. Free CA-reviewed tool.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/dupont-analysis-tool">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="DuPont Analysis Tool — 3-Step + 5-Step ROE Breakdown">
-    <meta name="twitter:description" content="Decompose ROE into profitability, efficiency, leverage. 3-step + 5-step. Free CA tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-    <meta name="theme-color" content="#15365f">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "DuPont Analysis Tool",
-      "description": "DuPont Analysis Calculator decomposes Return on Equity (ROE) into its underlying drivers using both the 3-step and 5-step DuPont frameworks. The 3-step DuPont breaks ROE into Net Profit Margin (profitability) multiplied by Asset Turnover (efficiency) multiplied by Equity Multiplier (financial leverage). The 5-step extended DuPont further decomposes profitability into Tax Burden (Net Income divided by Earnings Before Tax), Interest Burden (EBT divided by EBIT) and EBIT Margin (EBIT divided by Sales), separating operating profitability from financing and tax effects. The tool computes each component, compares against industry benchmarks for IT, FMCG, Manufacturing, Banks and NBFCs, Pharma, Real Estate and Retail, and identifies the primary driver of ROE — whether profitability, efficiency or leverage. Year-over-year comparison mode highlights which DuPont component is driving change in ROE. Suitable for equity research analysts, credit appraisal teams at banks and NBFCs, CFO offices benchmarking against peers, and CA Final and CFA students learning fundamental analysis. Aligned with Schedule III of the Companies Act 2013 for input definitions.",
-      "url": "https://www.patronaccounting.com/tools/dupont-analysis-tool",
-      "applicationCategory": "FinanceApplication",
-      "operatingSystem": "Any",
-      "datePublished": "2026-05-07T08:00:00+05:30",
-      "dateModified": "2026-05-19T08:00:00+05:30",
-      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
-      "author": {
-        "@type": "Person",
-        "@id": "https://patronaccounting.com/#founder",
-        "name": "CA Sundram Gupta",
-        "jobTitle": "Founder & Chartered Accountant",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Institute of Chartered Accountants of India",
-            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-          }
-        }]
-      },
-      "publisher": { "@id": "https://patronaccounting.com/#organization" },
-      "provider": { "@id": "https://patronaccounting.com/#organization" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "DuPont Analysis Tool", "item": "https://www.patronaccounting.com/tools/dupont-analysis-tool"}
-      ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "datePublished": "2026-05-07T08:00:00+05:30",
-      "dateModified": "2026-05-19T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is DuPont analysis?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "DuPont analysis is a fundamental financial analysis framework that decomposes Return on Equity (ROE) into its underlying drivers — profitability, asset efficiency and financial leverage. Developed by E.I. DuPont de Nemours in the 1920s, it answers the question: Is the company's ROE driven by genuine operating performance or by financial engineering? Two main forms: 3-step DuPont (Net Margin × Asset Turnover × Equity Multiplier) and 5-step DuPont (further splitting margin into tax burden, interest burden and EBIT margin)."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is 3-step DuPont analysis?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The 3-step DuPont decomposes ROE as: ROE = Net Profit Margin × Asset Turnover × Equity Multiplier. Net Profit Margin (Net Income ÷ Sales) measures profitability per rupee of sales. Asset Turnover (Sales ÷ Total Assets) measures asset efficiency. Equity Multiplier (Total Assets ÷ Equity) measures financial leverage. Two companies with identical ROE can have very different driver mixes — one driven by margins, another by leverage. The 3-step makes those drivers visible."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is 5-step DuPont analysis?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The 5-step extended DuPont further decomposes net profit margin into three components: Tax Burden (Net Income ÷ EBT), Interest Burden (EBT ÷ EBIT) and EBIT Margin (EBIT ÷ Sales). The full formula: ROE = Tax Burden × Interest Burden × EBIT Margin × Asset Turnover × Equity Multiplier. This separates operating profitability (EBIT margin) from financing decisions (interest burden) and tax effects (tax burden), which is particularly useful for international comparisons and analysing the impact of capital structure changes."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why decompose ROE into DuPont components?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Decomposing ROE reveals the source of value creation — and the source of risk. A 20% ROE achieved through 15% margin × 1.5 turnover × 0.9 leverage is fundamentally different from 20% achieved through 5% margin × 1 turnover × 4 leverage. The first is a high-quality business; the second is heavily leveraged and vulnerable to cycles. DuPont allows analysts to compare companies across industries, identify driver shifts year over year, and stress-test the sustainability of high ROE."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is asset turnover ratio?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Asset Turnover = Sales ÷ Total Assets. It measures how efficiently the company uses its asset base to generate revenue. A higher asset turnover indicates better asset utilisation. Service and trading companies typically have high asset turnover (1.5x+) as they have minimal fixed assets. Capital-intensive sectors like manufacturing, real estate and infrastructure have lower turnover (0.3-0.8x). Banks have very low asset turnover (~0.05x) as their assets are loans, not productive equipment."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is equity multiplier?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Equity Multiplier = Total Assets ÷ Total Equity. It measures financial leverage — how much of the asset base is funded by debt versus equity. A multiplier of 2 means assets are twice the equity, with the difference funded by liabilities. Banks operate at 8-12x given regulatory framework. Most operating businesses target 1.5-3.0x. Higher multipliers boost ROE in good times but amplify losses in downturns. Some analysts use Total Liabilities ÷ Equity (Debt-Equity ratio) instead."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is tax burden in DuPont analysis?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Tax Burden = Net Income ÷ Earnings Before Tax (EBT). It represents the portion of pre-tax profit retained after taxes. A higher tax burden ratio is favourable — closer to 1.0 means lower effective tax rate. For Indian companies under the new corporate tax regime (Section 115BAA), the tax burden is typically 0.75 to 0.78 (effective rate ~25%). Section 115BAB manufacturers operate at 0.83 (~17%). MAT-paying companies and firms with deferred tax adjustments may show different ratios."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is interest burden in DuPont analysis?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Interest Burden = Earnings Before Tax (EBT) ÷ EBIT. It represents the portion of operating profit retained after interest costs. A higher ratio is favourable — closer to 1.0 means low interest cost relative to operating profit. Debt-free companies have interest burden close to 1.0. Highly leveraged companies may operate at 0.5-0.7. Combined with equity multiplier, interest burden tells the leverage story — high leverage + low interest burden indicates the leverage is genuinely costly, not free money."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What does high ROE from leverage mean?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "When DuPont decomposition shows ROE driven primarily by equity multiplier (leverage) rather than margin or turnover, the ROE is fragile — it depends on continued debt access and stable interest rates. In a downturn, asset write-downs deplete equity faster, raising leverage further; falling cash flows make interest payments harder. Sustainable ROE comes from operating excellence (margin) and asset efficiency (turnover), with leverage as a complementary factor — not the primary driver."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are typical DuPont benchmarks by industry?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "IT and software: high margins 15-25%, asset turnover 0.7-1.0x, low leverage 1.1-1.5x, ROE 15-25%. FMCG: margins 10-15%, turnover 1.2-2.0x, leverage 1.5-2.5x, ROE 18-30%. Manufacturing: margins 5-10%, turnover 0.8-1.5x, leverage 1.5-2.5x, ROE 12-18%. Banks and NBFCs: margins 10-20%, very low turnover 0.05-0.1x, very high leverage 6-10x, ROE 12-20%. Real Estate: margins 8-15%, turnover 0.3-0.6x, leverage 1.5-3.0x, ROE 8-15%."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does DuPont analysis work for banks and NBFCs?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "DuPont applies to banks but with major caveats. Banks have inherently low asset turnover and very high equity multiplier — these levels are regulatory features (Capital to Risk-weighted Assets Ratio under Basel III), not company choices. Equity multipliers of 8-12x are normal and not signs of distress. Banks' ROE is driven primarily by Net Interest Margin (NIM) and non-interest income relative to assets — modified DuPont versions exist (e.g., ROA × Equity Multiplier) for financial institutions."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is DuPont analysis different from ROCE?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "DuPont decomposes Return on Equity (ROE = NI/Equity) — capturing returns to shareholders. ROCE (Return on Capital Employed = EBIT / Capital Employed) measures returns on total invested capital, ignoring how it's financed. ROCE is leverage-neutral; DuPont's ROE includes leverage as a driver. For comparing operating performance across companies with different capital structures, ROCE is preferred. For shareholder return analysis, DuPont/ROE is preferred. Both are commonly disclosed under Schedule III amendments effective FY 2021-22."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are limitations of DuPont analysis?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "DuPont has several limitations: it relies on accounting numbers subject to manipulation (revenue recognition, asset valuation), uses point-in-time balance sheet (period averages preferred), assumes constant relationships between components, ignores quality of earnings, and does not capture cash flow timing. Equity multiplier overstates leverage if intangibles or revaluation reserves are large. DuPont should be used alongside cash flow analysis, debt servicing capacity, and qualitative assessment of business model and management."
-          }
-        }
-      ]
-    }
-    </script>
-@endsection
-
 <style>
         :root {
             --primary: #15365f;
@@ -454,7 +266,195 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 }
 
 </style>
+@endpush
 
+@section('meta')
+    <title>DuPont Analysis Calculator | 3-Step & 5-Step ROE</title>
+    <meta name="description" content="Free DuPont analysis calculator: 3-step and 5-step ROE decomposition into tax burden, interest burden, margin, asset turnover and leverage. CA-reviewed tool.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/dupont-analysis-tool">
+    <meta property="og:title" content="DuPont Analysis Tool — 3-Step + 5-Step ROE Breakdown">
+    <meta property="og:description" content="Decompose ROE into profitability, efficiency, leverage. 3-step and 5-step DuPont analysis. Free CA-reviewed tool.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/dupont-analysis-tool">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="DuPont Analysis Tool — 3-Step + 5-Step ROE Breakdown">
+    <meta name="twitter:description" content="Decompose ROE into profitability, efficiency, leverage. 3-step + 5-step. Free CA tool.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+    <meta name="theme-color" content="#15365f">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "DuPont Analysis Tool",
+      "description": "DuPont Analysis Calculator decomposes Return on Equity (ROE) into its underlying drivers using both the 3-step and 5-step DuPont frameworks. The 3-step DuPont breaks ROE into Net Profit Margin (profitability) multiplied by Asset Turnover (efficiency) multiplied by Equity Multiplier (financial leverage). The 5-step extended DuPont further decomposes profitability into Tax Burden (Net Income divided by Earnings Before Tax), Interest Burden (EBT divided by EBIT) and EBIT Margin (EBIT divided by Sales), separating operating profitability from financing and tax effects. The tool computes each component, compares against industry benchmarks for IT, FMCG, Manufacturing, Banks and NBFCs, Pharma, Real Estate and Retail, and identifies the primary driver of ROE — whether profitability, efficiency or leverage. Year-over-year comparison mode highlights which DuPont component is driving change in ROE. Suitable for equity research analysts, credit appraisal teams at banks and NBFCs, CFO offices benchmarking against peers, and CA Final and CFA students learning fundamental analysis. Aligned with Schedule III of the Companies Act 2013 for input definitions.",
+      "url": "https://www.patronaccounting.com/tools/dupont-analysis-tool",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Any",
+      "datePublished": "2026-05-07T08:00:00+05:30",
+      "dateModified": "2026-05-19T08:00:00+05:30",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
+      "author": {
+        "@type": "Person",
+        "@id": "https://patronaccounting.com/#founder",
+        "name": "CA Sundram Gupta",
+        "jobTitle": "Founder & Chartered Accountant",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Institute of Chartered Accountants of India",
+            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+          }
+        }]
+      },
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": { "@id": "https://patronaccounting.com/#organization" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "DuPont Analysis Tool", "item": "https://www.patronaccounting.com/tools/dupont-analysis-tool"}
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "datePublished": "2026-05-07T08:00:00+05:30",
+      "dateModified": "2026-05-19T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is DuPont analysis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "DuPont analysis is a fundamental financial analysis framework that decomposes Return on Equity (ROE) into its underlying drivers — profitability, asset efficiency and financial leverage. Developed by E.I. DuPont de Nemours in the 1920s, it answers the question: Is the company's ROE driven by genuine operating performance or by financial engineering? Two main forms: 3-step DuPont (Net Margin × Asset Turnover × Equity Multiplier) and 5-step DuPont (further splitting margin into tax burden, interest burden and EBIT margin)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is 3-step DuPont analysis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The 3-step DuPont decomposes ROE as: ROE = Net Profit Margin × Asset Turnover × Equity Multiplier. Net Profit Margin (Net Income ÷ Sales) measures profitability per rupee of sales. Asset Turnover (Sales ÷ Total Assets) measures asset efficiency. Equity Multiplier (Total Assets ÷ Equity) measures financial leverage. Two companies with identical ROE can have very different driver mixes — one driven by margins, another by leverage. The 3-step makes those drivers visible."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is 5-step DuPont analysis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The 5-step extended DuPont further decomposes net profit margin into three components: Tax Burden (Net Income ÷ EBT), Interest Burden (EBT ÷ EBIT) and EBIT Margin (EBIT ÷ Sales). The full formula: ROE = Tax Burden × Interest Burden × EBIT Margin × Asset Turnover × Equity Multiplier. This separates operating profitability (EBIT margin) from financing decisions (interest burden) and tax effects (tax burden), which is particularly useful for international comparisons and analysing the impact of capital structure changes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why decompose ROE into DuPont components?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Decomposing ROE reveals the source of value creation — and the source of risk. A 20% ROE achieved through 15% margin × 1.5 turnover × 0.9 leverage is fundamentally different from 20% achieved through 5% margin × 1 turnover × 4 leverage. The first is a high-quality business; the second is heavily leveraged and vulnerable to cycles. DuPont allows analysts to compare companies across industries, identify driver shifts year over year, and stress-test the sustainability of high ROE."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is asset turnover ratio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Asset Turnover = Sales ÷ Total Assets. It measures how efficiently the company uses its asset base to generate revenue. A higher asset turnover indicates better asset utilisation. Service and trading companies typically have high asset turnover (1.5x+) as they have minimal fixed assets. Capital-intensive sectors like manufacturing, real estate and infrastructure have lower turnover (0.3-0.8x). Banks have very low asset turnover (~0.05x) as their assets are loans, not productive equipment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is equity multiplier?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Equity Multiplier = Total Assets ÷ Total Equity. It measures financial leverage — how much of the asset base is funded by debt versus equity. A multiplier of 2 means assets are twice the equity, with the difference funded by liabilities. Banks operate at 8-12x given regulatory framework. Most operating businesses target 1.5-3.0x. Higher multipliers boost ROE in good times but amplify losses in downturns. Some analysts use Total Liabilities ÷ Equity (Debt-Equity ratio) instead."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is tax burden in DuPont analysis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tax Burden = Net Income ÷ Earnings Before Tax (EBT). It represents the portion of pre-tax profit retained after taxes. A higher tax burden ratio is favourable — closer to 1.0 means lower effective tax rate. For Indian companies under the new corporate tax regime (Section 115BAA), the tax burden is typically 0.75 to 0.78 (effective rate ~25%). Section 115BAB manufacturers operate at 0.83 (~17%). MAT-paying companies and firms with deferred tax adjustments may show different ratios."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is interest burden in DuPont analysis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Interest Burden = Earnings Before Tax (EBT) ÷ EBIT. It represents the portion of operating profit retained after interest costs. A higher ratio is favourable — closer to 1.0 means low interest cost relative to operating profit. Debt-free companies have interest burden close to 1.0. Highly leveraged companies may operate at 0.5-0.7. Combined with equity multiplier, interest burden tells the leverage story — high leverage + low interest burden indicates the leverage is genuinely costly, not free money."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does high ROE from leverage mean?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "When DuPont decomposition shows ROE driven primarily by equity multiplier (leverage) rather than margin or turnover, the ROE is fragile — it depends on continued debt access and stable interest rates. In a downturn, asset write-downs deplete equity faster, raising leverage further; falling cash flows make interest payments harder. Sustainable ROE comes from operating excellence (margin) and asset efficiency (turnover), with leverage as a complementary factor — not the primary driver."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are typical DuPont benchmarks by industry?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "IT and software: high margins 15-25%, asset turnover 0.7-1.0x, low leverage 1.1-1.5x, ROE 15-25%. FMCG: margins 10-15%, turnover 1.2-2.0x, leverage 1.5-2.5x, ROE 18-30%. Manufacturing: margins 5-10%, turnover 0.8-1.5x, leverage 1.5-2.5x, ROE 12-18%. Banks and NBFCs: margins 10-20%, very low turnover 0.05-0.1x, very high leverage 6-10x, ROE 12-20%. Real Estate: margins 8-15%, turnover 0.3-0.6x, leverage 1.5-3.0x, ROE 8-15%."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does DuPont analysis work for banks and NBFCs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "DuPont applies to banks but with major caveats. Banks have inherently low asset turnover and very high equity multiplier — these levels are regulatory features (Capital to Risk-weighted Assets Ratio under Basel III), not company choices. Equity multipliers of 8-12x are normal and not signs of distress. Banks' ROE is driven primarily by Net Interest Margin (NIM) and non-interest income relative to assets — modified DuPont versions exist (e.g., ROA × Equity Multiplier) for financial institutions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is DuPont analysis different from ROCE?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "DuPont decomposes Return on Equity (ROE = NI/Equity) — capturing returns to shareholders. ROCE (Return on Capital Employed = EBIT / Capital Employed) measures returns on total invested capital, ignoring how it's financed. ROCE is leverage-neutral; DuPont's ROE includes leverage as a driver. For comparing operating performance across companies with different capital structures, ROCE is preferred. For shareholder return analysis, DuPont/ROE is preferred. Both are commonly disclosed under Schedule III amendments effective FY 2021-22."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are limitations of DuPont analysis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "DuPont has several limitations: it relies on accounting numbers subject to manipulation (revenue recognition, asset valuation), uses point-in-time balance sheet (period averages preferred), assumes constant relationships between components, ignores quality of earnings, and does not capture cash flow timing. Equity multiplier overstates leverage if intangibles or revaluation reserves are large. DuPont should be used alongside cash flow analysis, debt servicing capacity, and qualitative assessment of business model and management."
+          }
+        }
+      ]
+    }
+    </script>
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Tool navigation">
     <div class="toc-nav-inner">

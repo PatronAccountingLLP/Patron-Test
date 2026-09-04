@@ -1,174 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Net Worth Certificate for NBFC RBI Registration in Gurugram 2026 | Patron Accounting</title>
-    <meta name="description" content="Net Worth and NOF certificate for NBFC RBI registration. Statutory Auditor Certificate of Net Owned Fund Rs 10 crore under Section 45-IA. From INR 14,999.">
-    <link rel="canonical" href="/net-worth-certificate-for-nbfc-rbi-registration/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Net Worth Certificate for NBFC RBI Registration 2026 | Patron Accounting">
-    <meta property="og:description" content="Net Worth and NOF certificate for NBFC RBI registration. Statutory Auditor Certificate of Net Owned Fund Rs 10 crore under Section 45-IA. From INR 14,999.">
-    <meta property="og:url" content="/net-worth-certificate-for-nbfc-rbi-registration/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Net Worth Certificate for NBFC RBI Registration 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Net Worth and NOF certificate for NBFC RBI registration. Statutory Auditor Certificate of Net Owned Fund Rs 10 crore under Section 45-IA. From INR 14,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-nbfc-rbi-registration/gurugram/#service",
-        "name": "Net Worth Certificate for NBFC and RBI Registration in Gurugram",
-        "description": "Statutory Auditor's Certificate certifying Net Owned Fund for NBFC registration with the RBI, confirming the Rs 10 crore threshold under Section 45-IA of the RBI Act 1934, prepared from audited financials with a mandatory 18-digit UDIN.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/net-worth-certificate-for-nbfc-rbi-registration/gurugram" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Non-banking financial company", "sameAs": "https://en.wikipedia.org/wiki/Non-banking_financial_company" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Net Worth Certificate for NBFC / RBI Registration Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": { "@type": "Service", "name": "NBFC NOF statutory auditor certificate" },
-                    "priceCurrency": "INR",
-                    "price": "14999",
-                    "description": "Starting from INR 14,999 (excl. GST and govt. charges)"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-nbfc-rbi-registration/gurugram/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Statutory Audit", "item": "https://www.patronaccounting.com/statutory-audit" },
-            { "@type": "ListItem", "position": 3, "name": "Net Worth Certificate for NBFC / RBI Registration", "item": "https://www.patronaccounting.com/net-worth-certificate-for-nbfc-rbi-registration/gurugram" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-nbfc-rbi-registration/gurugram/#faq",
-        "datePublished": "2026-06-09T08:00:00+05:30",
-        "dateModified": "2026-06-09T08:00:00+05:30",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "What net worth is required for NBFC registration?",
-                "acceptedAnswer": { "@type": "Answer", "text": "The RBI requires Net Owned Fund, not net worth. New NBFC-ICC, MFI, and Factor entities need NOF of Rs 10 crore ab initio under Section 45-IA of the RBI Act, 1934. Existing NBFCs follow a glide path to Rs 10 crore by 31 March 2027." }
-            },
-            {
-                "@type": "Question",
-                "name": "Is NOF the same as net worth?",
-                "acceptedAnswer": { "@type": "Answer", "text": "No. NOF is owned funds, paid-up equity and free reserves, minus specified deductions such as accumulated losses and certain group-company investments. Borrowed funds are excluded. Net worth is a broader figure and is not what the RBI assesses for NBFC registration." }
-            },
-            {
-                "@type": "Question",
-                "name": "Who certifies NOF for the RBI?",
-                "acceptedAnswer": { "@type": "Answer", "text": "A practising Chartered Accountant acting as statutory auditor, who issues a Statutory Auditor's Certificate in the RBI-prescribed format. It must carry the CA's seal, firm registration number, and an 18-digit UDIN verifiable online." }
-            },
-            {
-                "@type": "Question",
-                "name": "Is showing money in the bank enough to prove NOF?",
-                "acceptedAnswer": { "@type": "Answer", "text": "No. The RBI examines the legal nature and source of the funds and whether they are free from encumbrance. The capital must be owned funds, paid-up equity and reserves, not borrowed money temporarily parked in an account." }
-            },
-            {
-                "@type": "Question",
-                "name": "How is the NBFC application filed with the RBI?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Online through the RBI COSMOS portal, followed by physical submission of documents to the relevant RBI Regional Office. The Statutory Auditor's Certificate is part of the supporting documentation." }
-            },
-            {
-                "@type": "Question",
-                "name": "How long does NBFC registration take?",
-                "acceptedAnswer": { "@type": "Answer", "text": "The full process typically takes 3 to 6 months depending on documentation and RBI review. The NOF certification itself can be issued within a few working days once audited financials are available." }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-nbfc-rbi-registration/gurugram",
-        "name": "Net Worth Certificate for NBFC and RBI Registration in Gurugram",
-        "description": "Net Worth and NOF certificate for NBFC RBI registration. Statutory Auditor Certificate of Net Owned Fund Rs 10 crore under Section 45-IA. From INR 14,999.",
-        "url": "https://www.patronaccounting.com/net-worth-certificate-for-nbfc-rbi-registration/gurugram",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-nbfc-rbi-registration/gurugram/#service" },
-        "datePublished": "2026-06-09T08:00:00+05:30",
-        "dateModified": "2026-06-09T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-nbfc-rbi-registration/gurugram/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How NBFC NOF Certification Is Prepared",
-        "description": "The six-step process to a Statutory Auditor's Certificate of Net Owned Fund: share audited financials, confirm the NBFC category, verify owned funds, compute NOF under Section 45-IA, issue the SAC in RBI format, and generate the UDIN with COSMOS filing support.",
-        "totalTime": "P3D",
-        "step": [
-            { "@type": "HowToStep", "name": "Share audited financials", "text": "Provide the latest audited balance sheet, profit and loss statement, and notes." },
-            { "@type": "HowToStep", "name": "Confirm NBFC category", "text": "Tell us the intended classification (ICC, MFI, Factor) and business plan." },
-            { "@type": "HowToStep", "name": "Verify owned funds", "text": "The auditor confirms capital is owned and free of encumbrance, and checks the source." },
-            { "@type": "HowToStep", "name": "Compute NOF", "text": "Apply Section 45-IA: owned funds minus specified deductions; confirm it meets Rs 10 crore." },
-            { "@type": "HowToStep", "name": "Issue the SAC", "text": "The Statutory Auditor's Certificate is prepared in RBI format with the NOF annexure." },
-            { "@type": "HowToStep", "name": "UDIN and filing support", "text": "UDIN is generated; we support the COSMOS upload and physical submission." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Net Worth Certificate for NBFC / RBI Registration Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "NOF (Net Owned Fund)", "description": "Owned funds (paid-up equity plus free reserves) minus specified deductions, per Section 45-IA." },
-            { "@type": "DefinedTerm", "name": "Section 45-IA, RBI Act 1934", "description": "The provision empowering RBI to set NOF as a registration condition." },
-            { "@type": "DefinedTerm", "name": "SAC", "description": "Statutory Auditor's Certificate, the RBI-prescribed format certifying NOF and asset-income pattern." },
-            { "@type": "DefinedTerm", "name": "COSMOS", "description": "The RBI online portal where NBFC registration applications are filed." },
-            { "@type": "DefinedTerm", "name": "Scale-Based Regulation", "description": "The Oct 2021 framework that raised NOF to Rs 10 crore on a glide path." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -782,7 +618,176 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Net Worth Certificate for NBFC RBI Registration in Gurugram 2026 | Patron Accounting</title>
+    <meta name="description" content="Net Worth and NOF certificate for NBFC RBI registration. Statutory Auditor Certificate of Net Owned Fund Rs 10 crore under Section 45-IA. From INR 14,999.">
+    <link rel="canonical" href="/net-worth-certificate-for-nbfc-rbi-registration/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Net Worth Certificate for NBFC RBI Registration 2026 | Patron Accounting">
+    <meta property="og:description" content="Net Worth and NOF certificate for NBFC RBI registration. Statutory Auditor Certificate of Net Owned Fund Rs 10 crore under Section 45-IA. From INR 14,999.">
+    <meta property="og:url" content="/net-worth-certificate-for-nbfc-rbi-registration/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Net Worth Certificate for NBFC RBI Registration 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Net Worth and NOF certificate for NBFC RBI registration. Statutory Auditor Certificate of Net Owned Fund Rs 10 crore under Section 45-IA. From INR 14,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-nbfc-rbi-registration/gurugram/#service",
+        "name": "Net Worth Certificate for NBFC and RBI Registration in Gurugram",
+        "description": "Statutory Auditor's Certificate certifying Net Owned Fund for NBFC registration with the RBI, confirming the Rs 10 crore threshold under Section 45-IA of the RBI Act 1934, prepared from audited financials with a mandatory 18-digit UDIN.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/net-worth-certificate-for-nbfc-rbi-registration/gurugram" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Non-banking financial company", "sameAs": "https://en.wikipedia.org/wiki/Non-banking_financial_company" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Net Worth Certificate for NBFC / RBI Registration Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": { "@type": "Service", "name": "NBFC NOF statutory auditor certificate" },
+                    "priceCurrency": "INR",
+                    "price": "14999",
+                    "description": "Starting from INR 14,999 (excl. GST and govt. charges)"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-nbfc-rbi-registration/gurugram/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Statutory Audit", "item": "https://www.patronaccounting.com/statutory-audit" },
+            { "@type": "ListItem", "position": 3, "name": "Net Worth Certificate for NBFC / RBI Registration", "item": "https://www.patronaccounting.com/net-worth-certificate-for-nbfc-rbi-registration/gurugram" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-nbfc-rbi-registration/gurugram/#faq",
+        "datePublished": "2026-06-09T08:00:00+05:30",
+        "dateModified": "2026-06-09T08:00:00+05:30",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What net worth is required for NBFC registration?",
+                "acceptedAnswer": { "@type": "Answer", "text": "The RBI requires Net Owned Fund, not net worth. New NBFC-ICC, MFI, and Factor entities need NOF of Rs 10 crore ab initio under Section 45-IA of the RBI Act, 1934. Existing NBFCs follow a glide path to Rs 10 crore by 31 March 2027." }
+            },
+            {
+                "@type": "Question",
+                "name": "Is NOF the same as net worth?",
+                "acceptedAnswer": { "@type": "Answer", "text": "No. NOF is owned funds, paid-up equity and free reserves, minus specified deductions such as accumulated losses and certain group-company investments. Borrowed funds are excluded. Net worth is a broader figure and is not what the RBI assesses for NBFC registration." }
+            },
+            {
+                "@type": "Question",
+                "name": "Who certifies NOF for the RBI?",
+                "acceptedAnswer": { "@type": "Answer", "text": "A practising Chartered Accountant acting as statutory auditor, who issues a Statutory Auditor's Certificate in the RBI-prescribed format. It must carry the CA's seal, firm registration number, and an 18-digit UDIN verifiable online." }
+            },
+            {
+                "@type": "Question",
+                "name": "Is showing money in the bank enough to prove NOF?",
+                "acceptedAnswer": { "@type": "Answer", "text": "No. The RBI examines the legal nature and source of the funds and whether they are free from encumbrance. The capital must be owned funds, paid-up equity and reserves, not borrowed money temporarily parked in an account." }
+            },
+            {
+                "@type": "Question",
+                "name": "How is the NBFC application filed with the RBI?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Online through the RBI COSMOS portal, followed by physical submission of documents to the relevant RBI Regional Office. The Statutory Auditor's Certificate is part of the supporting documentation." }
+            },
+            {
+                "@type": "Question",
+                "name": "How long does NBFC registration take?",
+                "acceptedAnswer": { "@type": "Answer", "text": "The full process typically takes 3 to 6 months depending on documentation and RBI review. The NOF certification itself can be issued within a few working days once audited financials are available." }
+            }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-nbfc-rbi-registration/gurugram",
+        "name": "Net Worth Certificate for NBFC and RBI Registration in Gurugram",
+        "description": "Net Worth and NOF certificate for NBFC RBI registration. Statutory Auditor Certificate of Net Owned Fund Rs 10 crore under Section 45-IA. From INR 14,999.",
+        "url": "https://www.patronaccounting.com/net-worth-certificate-for-nbfc-rbi-registration/gurugram",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-nbfc-rbi-registration/gurugram/#service" },
+        "datePublished": "2026-06-09T08:00:00+05:30",
+        "dateModified": "2026-06-09T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-nbfc-rbi-registration/gurugram/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How NBFC NOF Certification Is Prepared",
+        "description": "The six-step process to a Statutory Auditor's Certificate of Net Owned Fund: share audited financials, confirm the NBFC category, verify owned funds, compute NOF under Section 45-IA, issue the SAC in RBI format, and generate the UDIN with COSMOS filing support.",
+        "totalTime": "P3D",
+        "step": [
+            { "@type": "HowToStep", "name": "Share audited financials", "text": "Provide the latest audited balance sheet, profit and loss statement, and notes." },
+            { "@type": "HowToStep", "name": "Confirm NBFC category", "text": "Tell us the intended classification (ICC, MFI, Factor) and business plan." },
+            { "@type": "HowToStep", "name": "Verify owned funds", "text": "The auditor confirms capital is owned and free of encumbrance, and checks the source." },
+            { "@type": "HowToStep", "name": "Compute NOF", "text": "Apply Section 45-IA: owned funds minus specified deductions; confirm it meets Rs 10 crore." },
+            { "@type": "HowToStep", "name": "Issue the SAC", "text": "The Statutory Auditor's Certificate is prepared in RBI format with the NOF annexure." },
+            { "@type": "HowToStep", "name": "UDIN and filing support", "text": "UDIN is generated; we support the COSMOS upload and physical submission." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Net Worth Certificate for NBFC / RBI Registration Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "NOF (Net Owned Fund)", "description": "Owned funds (paid-up equity plus free reserves) minus specified deductions, per Section 45-IA." },
+            { "@type": "DefinedTerm", "name": "Section 45-IA, RBI Act 1934", "description": "The provision empowering RBI to set NOF as a registration condition." },
+            { "@type": "DefinedTerm", "name": "SAC", "description": "Statutory Auditor's Certificate, the RBI-prescribed format certifying NOF and asset-income pattern." },
+            { "@type": "DefinedTerm", "name": "COSMOS", "description": "The RBI online portal where NBFC registration applications are filed." },
+            { "@type": "DefinedTerm", "name": "Scale-Based Regulation", "description": "The Oct 2021 framework that raised NOF to Rs 10 crore on a glide path." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1600,22 +1605,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
-<!-- ============================================
-     CONSULTATION FORM — Country Dropdown + Validation + Bigin Integration
-     ============================================ -->
-{{-- Enquiry form markup + JS now in partials/enquiry-form.blade.php --}}
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1638,8 +1631,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1676,7 +1667,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1 (Schema Standard v2.1 / Rule 36): visible "Last Updated" mirrors schema dateModified
 // (9 June 2026) as a STABLE value - never live new Date().
@@ -1688,3 +1678,24 @@ window.addEventListener('scroll', function() {
     if (el2) el2.textContent = dateStr;
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+<!-- ============================================
+     CONSULTATION FORM — Country Dropdown + Validation + Bigin Integration
+     ============================================ -->
+{{-- Enquiry form markup + JS now in partials/enquiry-form.blade.php --}}
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

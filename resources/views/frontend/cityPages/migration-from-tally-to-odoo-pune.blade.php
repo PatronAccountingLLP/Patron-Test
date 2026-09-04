@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,208 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>Tally to Odoo Migration Pune 2026 | Patron Accounting</title>
-    <meta name="description" content="Tally to Odoo ERP migration in Pune from INR 9,999. CA-led chart mapping, l10n_in GST setup, Inventory and Sales modules, and trial balance reconciliation.">
-    <link rel="canonical" href="/migration-from-tally-to-odoo/pune">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Tally to Odoo Migration Pune 2026 | Patron Accounting">
-    <meta property="og:description" content="Tally to Odoo ERP migration in Pune from INR 9,999. CA-led chart mapping, l10n_in GST setup, Inventory and Sales modules, and trial balance reconciliation.">
-    <meta property="og:url" content="/migration-from-tally-to-odoo/pune">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Tally to Odoo Migration Pune 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Tally to Odoo ERP migration in Pune from INR 9,999. CA-led chart mapping, l10n_in GST setup, Inventory and Sales modules, and trial balance reconciliation.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/migration-from-tally-to-odoo/pune#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Tally to Odoo Migration",
-          "item": "https://www.patronaccounting.com/migration-from-tally-to-odoo"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Tally to Odoo Migration in Pune",
-          "item": "https://www.patronaccounting.com/migration-from-tally-to-odoo/pune"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/migration-from-tally-to-odoo/pune#faq",
-      "datePublished": "2026-06-23T08:00:00+05:30",
-      "dateModified": "2026-06-23T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What does Tally to Odoo migration involve for a Pune business?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "It is the planned move of your books from Tally into the Odoo ERP. For Pune firms it covers chart of accounts mapping to Odoo's Schedule III template, opening balances, customer, vendor, and product masters, historical data, l10n_in GST configuration, the Accounting, Inventory, and Sales modules, and trial balance reconciliation before go-live."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does Tally to Odoo migration cost in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patron Accounting charges Starting from INR 9,999 (Exl GST and Govt. Charges). The final fee depends on years of data, transaction volume, GSTINs, and which Odoo modules you activate, such as Inventory or Manufacturing. A Hinjewadi SaaS team and a Chakan auto-ancillary unit each get a fixed-scope quote first."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does Odoo handle GST after migrating from Tally?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Odoo manages GST through its Indian fiscal localization, l10n_in. Patron sets up your GSTIN, HSN and SAC codes, and fiscal positions for intra-state and inter-state supply so CGST, SGST, and IGST compute automatically under the CGST Act 2017. We also enable GSTR-1 and GSTR-3B reports for your Pune entity."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does a Tally to Odoo migration take in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Most Pune migrations run 2 to 4 weeks because Odoo is a full ERP, not just ledgers. A single-company Hinjewadi services file with the Accounting app alone can be live in 10 to 12 days. A Chakan manufacturer adding Inventory and Manufacturing, with multiple GSTINs, sits at the longer end."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Should we use Odoo Community or Enterprise after migration?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "It depends on the workflow. Odoo Community covers the base l10n_in chart and GST tax determination, while Enterprise adds e-invoicing, GSTR JSON generation, and advanced bank reconciliation. Patron advises Pune clients on the right edition during scoping so you do not pay for modules a Hinjewadi or Magarpatta team will not use."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do Tally ledgers, vouchers, and cost centres map into Odoo?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "In Odoo, a Tally ledger becomes an Account, a Tally group becomes an Account Type, a voucher becomes a Journal Entry, and a cost centre becomes an Analytic Account. Patron documents this mapping for every head before import so a Pune company's reporting structure carries across cleanly into Odoo."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is migration accuracy verified for a Pune company?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patron reconciles the Odoo trial balance, profit and loss, and balance sheet against the same Tally reports, then sample-tests ledgers, stock valuation, and GST figures. A Chartered Accountant signs off only when Odoo agrees with Tally for the migrated period, so your Pune books are audit-ready from day one."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you train our Pune team on the Odoo modules after go-live?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. After reconciliation, Patron runs a handover covering invoicing in Accounting, stock moves in Inventory, quotations in Sales, and GST reports for your Pune finance and operations teams. We share a reference guide per module and stay available so the shift from Tally to a full ERP feels manageable."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/migration-from-tally-to-odoo/pune#service",
-      "name": "Tally to Odoo Migration in Pune",
-      "description": "Tally to Odoo ERP migration in Pune covering chart of accounts mapping to the Schedule III template, opening balances, customer, vendor, and product masters, historical data, l10n_in GST configuration, the Accounting, Inventory, and Sales modules, and trial balance reconciliation. Patron Accounting delivers CA-verified, audit-ready Odoo databases for Hinjewadi, Magarpatta, and Chakan businesses.",
-      "serviceType": "Tally to Odoo ERP Data Migration",
-      "url": "https://www.patronaccounting.com/migration-from-tally-to-odoo/pune",
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Maharashtra"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#localbusiness-pune"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Odoo",
-          "sameAs": "https://en.wikipedia.org/wiki/Odoo"
-        },
-        {
-          "@type": "Thing",
-          "name": "Goods and Services Tax (India)",
-          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Tally to Odoo Migration Plans in Pune",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "price": "9999",
-            "priceSpecification": {
-              "@type": "UnitPriceSpecification",
-              "priceCurrency": "INR",
-              "price": "9999",
-              "unitText": "starting from"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Tally to Odoo ERP Migration"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness-pune",
-      "name": "Patron Accounting LLP - Pune",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/migration-from-tally-to-odoo/pune",
-      "telephone": "+91-9699936369",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Pune",
-        "addressRegion": "Maharashtra",
-        "postalCode": "411014",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -815,7 +612,217 @@
         .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
 
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>Tally to Odoo Migration Pune 2026 | Patron Accounting</title>
+    <meta name="description" content="Tally to Odoo ERP migration in Pune from INR 9,999. CA-led chart mapping, l10n_in GST setup, Inventory and Sales modules, and trial balance reconciliation.">
+    <link rel="canonical" href="/migration-from-tally-to-odoo/pune">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Tally to Odoo Migration Pune 2026 | Patron Accounting">
+    <meta property="og:description" content="Tally to Odoo ERP migration in Pune from INR 9,999. CA-led chart mapping, l10n_in GST setup, Inventory and Sales modules, and trial balance reconciliation.">
+    <meta property="og:url" content="/migration-from-tally-to-odoo/pune">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Tally to Odoo Migration Pune 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Tally to Odoo ERP migration in Pune from INR 9,999. CA-led chart mapping, l10n_in GST setup, Inventory and Sales modules, and trial balance reconciliation.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/migration-from-tally-to-odoo/pune#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Tally to Odoo Migration",
+          "item": "https://www.patronaccounting.com/migration-from-tally-to-odoo"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Tally to Odoo Migration in Pune",
+          "item": "https://www.patronaccounting.com/migration-from-tally-to-odoo/pune"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/migration-from-tally-to-odoo/pune#faq",
+      "datePublished": "2026-06-23T08:00:00+05:30",
+      "dateModified": "2026-06-23T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does Tally to Odoo migration involve for a Pune business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is the planned move of your books from Tally into the Odoo ERP. For Pune firms it covers chart of accounts mapping to Odoo's Schedule III template, opening balances, customer, vendor, and product masters, historical data, l10n_in GST configuration, the Accounting, Inventory, and Sales modules, and trial balance reconciliation before go-live."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does Tally to Odoo migration cost in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patron Accounting charges Starting from INR 9,999 (Exl GST and Govt. Charges). The final fee depends on years of data, transaction volume, GSTINs, and which Odoo modules you activate, such as Inventory or Manufacturing. A Hinjewadi SaaS team and a Chakan auto-ancillary unit each get a fixed-scope quote first."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does Odoo handle GST after migrating from Tally?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Odoo manages GST through its Indian fiscal localization, l10n_in. Patron sets up your GSTIN, HSN and SAC codes, and fiscal positions for intra-state and inter-state supply so CGST, SGST, and IGST compute automatically under the CGST Act 2017. We also enable GSTR-1 and GSTR-3B reports for your Pune entity."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does a Tally to Odoo migration take in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most Pune migrations run 2 to 4 weeks because Odoo is a full ERP, not just ledgers. A single-company Hinjewadi services file with the Accounting app alone can be live in 10 to 12 days. A Chakan manufacturer adding Inventory and Manufacturing, with multiple GSTINs, sits at the longer end."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should we use Odoo Community or Enterprise after migration?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It depends on the workflow. Odoo Community covers the base l10n_in chart and GST tax determination, while Enterprise adds e-invoicing, GSTR JSON generation, and advanced bank reconciliation. Patron advises Pune clients on the right edition during scoping so you do not pay for modules a Hinjewadi or Magarpatta team will not use."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do Tally ledgers, vouchers, and cost centres map into Odoo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In Odoo, a Tally ledger becomes an Account, a Tally group becomes an Account Type, a voucher becomes a Journal Entry, and a cost centre becomes an Analytic Account. Patron documents this mapping for every head before import so a Pune company's reporting structure carries across cleanly into Odoo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is migration accuracy verified for a Pune company?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patron reconciles the Odoo trial balance, profit and loss, and balance sheet against the same Tally reports, then sample-tests ledgers, stock valuation, and GST figures. A Chartered Accountant signs off only when Odoo agrees with Tally for the migrated period, so your Pune books are audit-ready from day one."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you train our Pune team on the Odoo modules after go-live?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. After reconciliation, Patron runs a handover covering invoicing in Accounting, stock moves in Inventory, quotations in Sales, and GST reports for your Pune finance and operations teams. We share a reference guide per module and stay available so the shift from Tally to a full ERP feels manageable."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/migration-from-tally-to-odoo/pune#service",
+      "name": "Tally to Odoo Migration in Pune",
+      "description": "Tally to Odoo ERP migration in Pune covering chart of accounts mapping to the Schedule III template, opening balances, customer, vendor, and product masters, historical data, l10n_in GST configuration, the Accounting, Inventory, and Sales modules, and trial balance reconciliation. Patron Accounting delivers CA-verified, audit-ready Odoo databases for Hinjewadi, Magarpatta, and Chakan businesses.",
+      "serviceType": "Tally to Odoo ERP Data Migration",
+      "url": "https://www.patronaccounting.com/migration-from-tally-to-odoo/pune",
+      "areaServed": {
+        "@type": "City",
+        "name": "Pune",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Maharashtra"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#localbusiness-pune"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Odoo",
+          "sameAs": "https://en.wikipedia.org/wiki/Odoo"
+        },
+        {
+          "@type": "Thing",
+          "name": "Goods and Services Tax (India)",
+          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Tally to Odoo Migration Plans in Pune",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "price": "9999",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "INR",
+              "price": "9999",
+              "unitText": "starting from"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Tally to Odoo ERP Migration"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness-pune",
+      "name": "Patron Accounting LLP - Pune",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/migration-from-tally-to-odoo/pune",
+      "telephone": "+91-9699936369",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Pune"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Pune",
+        "addressRegion": "Maharashtra",
+        "postalCode": "411014",
+        "addressCountry": "IN"
+      },
+      "parentOrganization": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1567,7 +1574,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

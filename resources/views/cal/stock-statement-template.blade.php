@@ -1,181 +1,5 @@
 @extends('layouts.app')
-
-@section('meta')
-<title>Stock Statement Template &amp; Drawing Power Calculator</title>
-<meta name="description" content="Free stock statement template and drawing power calculator: enter stock, creditors, debtors and margins to get DP, CC headroom and a copy-ready bank format.">
-<meta name="robots" content="index, follow">
-<meta name="theme-color" content="#15365f">
-<link rel="canonical" href="https://www.patronaccounting.com/tools/stock-statement-template">
-
-<meta property="og:title" content="Stock Statement Template & Drawing Power Calculator">
-<meta property="og:description" content="Enter stock, creditors, debtors and margins to compute drawing power and CC headroom, and copy a bank-ready stock statement format (Parts A–E).">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.patronaccounting.com/tools/stock-statement-template">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="1200">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-<meta property="og:site_name" content="Patron Accounting">
-<meta property="og:locale" content="en_IN">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Stock Statement Template & Drawing Power Calculator">
-<meta name="twitter:description" content="Compute drawing power and CC headroom from stock, creditors and debtors, and copy a bank-ready stock statement format. Free & instant.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-
-<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
-<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
-@endsection
-@section('schema')
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "Stock Statement Template & Drawing Power Calculator",
-  "description": "Stock Statement Template and Drawing Power Calculator computes the drawing power on a cash credit or working capital facility from eligible stock, creditors for purchases, eligible book debts and the bank margins, shows the available headroom against the sanctioned limit and whether the account is in order, and produces a copy-ready bank stock statement format covering stock, debtor ageing, creditors, insurance and certification.",
-  "url": "https://www.patronaccounting.com/tools/stock-statement-template",
-  "applicationCategory": "BusinessApplication",
-  "inLanguage": "en-IN",
-  "isAccessibleForFree": true,
-  "operatingSystem": "Any",
-  "datePublished": "2026-06-05T08:00:00+05:30",
-  "dateModified": "2026-06-05T08:00:00+05:30",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "INR"
-  },
-  "reviewedBy": {
-    "@type": "Person",
-    "@id": "https://patronaccounting.com/#founder",
-    "name": "CA Sundram Gupta",
-    "jobTitle": "Founder & Chartered Accountant",
-    "url": "https://www.patronaccounting.com/contact-page",
-    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-    "hasCredential": [{
-      "@type": "EducationalOccupationalCredential",
-      "credentialCategory": "Professional Certification",
-      "name": "Chartered Accountant (CA)",
-      "recognizedBy": {
-        "@type": "Organization",
-        "name": "Institute of Chartered Accountants of India",
-        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-      }
-    }]
-  },
-  "publisher": { "@id": "https://patronaccounting.com/#organization" },
-  "provider": {
-    "@id": "https://patronaccounting.com/#organization"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "Stock Statement Template & Drawing Power Calculator", "item": "https://www.patronaccounting.com/tools/stock-statement-template"}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is a stock statement for a bank?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A stock statement is a periodic statement a borrower submits to its bank against a cash credit or working capital limit, declaring the value of stock (inventory), book debts (receivables) and creditors as on a date. The bank uses it to compute the drawing power — the amount the borrower may actually withdraw. It is usually a monthly or quarterly condition of the sanction and typically covers stock by category, debtor ageing, creditors, insurance and a borrower certification."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is drawing power (DP)?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Drawing power is the maximum amount a borrower can withdraw from a sanctioned cash credit or overdraft limit at a given time, based on current eligible assets after deducting the bank's margin. The borrower may draw the lower of the drawing power or the sanctioned limit. Because DP is recalculated from each stock statement, it moves with the value of paid stock and eligible debtors, keeping the borrowing backed by real assets."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How is drawing power calculated from a stock statement?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Drawing power equals the net value of stock plus the net value of debtors. Net value of stock is paid stock — that is total eligible stock less creditors for purchases — multiplied by one minus the stock margin. Net value of debtors is eligible book debts within the ageing limit multiplied by one minus the debtor margin. The two nets are added to give DP, which is then compared with the sanctioned limit; the borrower can use whichever is lower."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What margins do banks apply on stock and debtors?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The margin is the borrower's own contribution that the bank does not finance. In most cases the margin on stock is around 25 per cent, so the borrower gets credit for 75 per cent of paid stock, and the margin on book debts is around 40 per cent, so the borrower gets credit for 60 per cent of eligible debtors. The exact percentages are specified in the sanction letter and vary by bank and industry."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is paid stock and why are creditors deducted?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Paid stock is the stock for which the borrower has actually paid the supplier — total stock less the creditors for purchases. Banks finance only paid stock, because stock still owed to suppliers is effectively financed by those creditors, not by the borrower's own funds. Deducting creditors prevents double financing of the same inventory and ensures the drawing power reflects assets genuinely backed by the borrower."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which stock and debtors are eligible for drawing power?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Only paid and insured stock counts, and obsolete or slow-moving items and stock beyond the ageing limit are excluded. Book debts are usually eligible only up to a specified age — commonly 90 days, though some sanctions allow longer. Stock lying at third-party locations, goods in transit and ineligible categories may be excluded depending on the sanction terms. Always apply the eligibility rules in your own sanction letter before computing DP."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What happens if the CC outstanding exceeds the drawing power?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "If the cash credit outstanding is higher than the drawing power, the account is treated as irregular or out of order. The bank may ask the borrower to deposit the excess, reduce drawings, or provide additional security. Persistent irregularity can affect the account classification and the borrower's credit standing, so the stock statement should be prepared accurately and the drawings kept within the computed DP."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How often must a stock statement be submitted?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Most cash credit sanctions require a monthly stock statement, due shortly after each month end, while some facilities accept quarterly statements. The frequency and due date are set in the sanction letter. A drawing power computed from a statement older than three months is generally treated as outdated, and the outstanding based on such a stale statement can be considered irregular, so timely submission matters."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What sections does a stock statement contain?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A typical bank stock statement has five parts: Part A lists stock by category such as raw material, work in progress, finished goods and stores or spares; Part B is the book-debt ageing analysis; Part C lists creditors for purchases; Part D records insurance details of the stock; and Part E is the borrower's certification. The copy-ready template in this tool follows this Part A to E structure so you can adapt it to your bank's format."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the Stock Statement Template tool free?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, the Patron Accounting Stock Statement Template and Drawing Power Calculator is completely free with no signup required. All calculations run in your browser and nothing is stored on our servers. It computes paid stock, net stock and net debtor values, drawing power and headroom against the sanctioned limit, flags whether the account is in order, and gives a copy-ready stock statement format you can finalise for your bank."
-      }
-    }
-  ]
-}
-</script>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-@endsection
+@push('styles')
 <style>
         :root {
             --primary: #15365f;
@@ -691,6 +515,185 @@ a:focus-visible {
 
 
         </style>
+@endpush
+
+
+@section('meta')
+<title>Stock Statement Template &amp; Drawing Power Calculator</title>
+<meta name="description" content="Free stock statement template and drawing power calculator: enter stock, creditors, debtors and margins to get DP, CC headroom and a copy-ready bank format.">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#15365f">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/stock-statement-template">
+
+<meta property="og:title" content="Stock Statement Template & Drawing Power Calculator">
+<meta property="og:description" content="Enter stock, creditors, debtors and margins to compute drawing power and CC headroom, and copy a bank-ready stock statement format (Parts A–E).">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/stock-statement-template">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+<meta property="og:site_name" content="Patron Accounting">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Stock Statement Template & Drawing Power Calculator">
+<meta name="twitter:description" content="Compute drawing power and CC headroom from stock, creditors and debtors, and copy a bank-ready stock statement format. Free & instant.">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
+@endsection
+@section('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Stock Statement Template & Drawing Power Calculator",
+  "description": "Stock Statement Template and Drawing Power Calculator computes the drawing power on a cash credit or working capital facility from eligible stock, creditors for purchases, eligible book debts and the bank margins, shows the available headroom against the sanctioned limit and whether the account is in order, and produces a copy-ready bank stock statement format covering stock, debtor ageing, creditors, insurance and certification.",
+  "url": "https://www.patronaccounting.com/tools/stock-statement-template",
+  "applicationCategory": "BusinessApplication",
+  "inLanguage": "en-IN",
+  "isAccessibleForFree": true,
+  "operatingSystem": "Any",
+  "datePublished": "2026-06-05T08:00:00+05:30",
+  "dateModified": "2026-06-05T08:00:00+05:30",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "INR"
+  },
+  "reviewedBy": {
+    "@type": "Person",
+    "@id": "https://patronaccounting.com/#founder",
+    "name": "CA Sundram Gupta",
+    "jobTitle": "Founder & Chartered Accountant",
+    "url": "https://www.patronaccounting.com/contact-page",
+    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+    "hasCredential": [{
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Professional Certification",
+      "name": "Chartered Accountant (CA)",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Institute of Chartered Accountants of India",
+        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+      }
+    }]
+  },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
+  "provider": {
+    "@id": "https://patronaccounting.com/#organization"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "Stock Statement Template & Drawing Power Calculator", "item": "https://www.patronaccounting.com/tools/stock-statement-template"}
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a stock statement for a bank?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A stock statement is a periodic statement a borrower submits to its bank against a cash credit or working capital limit, declaring the value of stock (inventory), book debts (receivables) and creditors as on a date. The bank uses it to compute the drawing power — the amount the borrower may actually withdraw. It is usually a monthly or quarterly condition of the sanction and typically covers stock by category, debtor ageing, creditors, insurance and a borrower certification."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is drawing power (DP)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Drawing power is the maximum amount a borrower can withdraw from a sanctioned cash credit or overdraft limit at a given time, based on current eligible assets after deducting the bank's margin. The borrower may draw the lower of the drawing power or the sanctioned limit. Because DP is recalculated from each stock statement, it moves with the value of paid stock and eligible debtors, keeping the borrowing backed by real assets."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is drawing power calculated from a stock statement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Drawing power equals the net value of stock plus the net value of debtors. Net value of stock is paid stock — that is total eligible stock less creditors for purchases — multiplied by one minus the stock margin. Net value of debtors is eligible book debts within the ageing limit multiplied by one minus the debtor margin. The two nets are added to give DP, which is then compared with the sanctioned limit; the borrower can use whichever is lower."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What margins do banks apply on stock and debtors?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The margin is the borrower's own contribution that the bank does not finance. In most cases the margin on stock is around 25 per cent, so the borrower gets credit for 75 per cent of paid stock, and the margin on book debts is around 40 per cent, so the borrower gets credit for 60 per cent of eligible debtors. The exact percentages are specified in the sanction letter and vary by bank and industry."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is paid stock and why are creditors deducted?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Paid stock is the stock for which the borrower has actually paid the supplier — total stock less the creditors for purchases. Banks finance only paid stock, because stock still owed to suppliers is effectively financed by those creditors, not by the borrower's own funds. Deducting creditors prevents double financing of the same inventory and ensures the drawing power reflects assets genuinely backed by the borrower."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which stock and debtors are eligible for drawing power?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Only paid and insured stock counts, and obsolete or slow-moving items and stock beyond the ageing limit are excluded. Book debts are usually eligible only up to a specified age — commonly 90 days, though some sanctions allow longer. Stock lying at third-party locations, goods in transit and ineligible categories may be excluded depending on the sanction terms. Always apply the eligibility rules in your own sanction letter before computing DP."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if the CC outstanding exceeds the drawing power?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If the cash credit outstanding is higher than the drawing power, the account is treated as irregular or out of order. The bank may ask the borrower to deposit the excess, reduce drawings, or provide additional security. Persistent irregularity can affect the account classification and the borrower's credit standing, so the stock statement should be prepared accurately and the drawings kept within the computed DP."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How often must a stock statement be submitted?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most cash credit sanctions require a monthly stock statement, due shortly after each month end, while some facilities accept quarterly statements. The frequency and due date are set in the sanction letter. A drawing power computed from a statement older than three months is generally treated as outdated, and the outstanding based on such a stale statement can be considered irregular, so timely submission matters."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What sections does a stock statement contain?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A typical bank stock statement has five parts: Part A lists stock by category such as raw material, work in progress, finished goods and stores or spares; Part B is the book-debt ageing analysis; Part C lists creditors for purchases; Part D records insurance details of the stock; and Part E is the borrower's certification. The copy-ready template in this tool follows this Part A to E structure so you can adapt it to your bank's format."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the Stock Statement Template tool free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the Patron Accounting Stock Statement Template and Drawing Power Calculator is completely free with no signup required. All calculations run in your browser and nothing is stored on our servers. It computes paid stock, net stock and net debtor values, drawing power and headroom against the sanctioned limit, flags whether the account is in order, and gives a copy-ready stock statement format you can finalise for your bank."
+      }
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation">
     <div class="toc-nav-inner">

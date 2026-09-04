@@ -1,193 +1,8 @@
 @extends('layouts.app')
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
-@section('meta')
-    <title>Depreciation Calculator | Companies Act Sch II + IT Act</title>
-    <meta name="description" content="Free depreciation calculator: SLM/WDV under Companies Act Schedule II plus IT Act block rates, with year-wise schedule and journal entry. CA-reviewed tool.">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/depreciation-calculator">
-    <meta property="og:title" content="Depreciation Calculator (Schedule II + IT Act) — FY 2025-26">
-    <meta property="og:description" content="Compute SLM/WDV depreciation under Companies Act Schedule II and IT Act FY 2025-26. Year-wise schedule, journal entry, side-by-side comparison.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/depreciation-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Depreciation Calculator (Schedule II + IT Act) — FY 2025-26">
-    <meta name="twitter:description" content="SLM/WDV under Schedule II + IT Act. Year-wise schedule, journal entry. Free CA tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "Depreciation Calculator (Schedule II + IT Act)",
-      "description": "Depreciation Calculator computes annual depreciation under Companies Act 2013 Schedule II and Income Tax Act 1961 Section 32 / Section 33 (IT Act 2025) for Indian companies, LLPs, firms and proprietors. The tool supports 13 standard asset categories with prescribed useful lives — buildings (RCC, non-RCC, factory), plant and machinery (general, continuous process), furniture and fittings, office equipment, computers (servers, end-user devices), motor vehicles (cars, trucks), laboratory equipment and electrical installations — plus custom useful life override. Both Straight Line Method (SLM) and Written Down Value (WDV) methods are supported with computed rates per Schedule II Part C formula (1 minus residual divided by useful life for SLM, 1 minus the n-th root of residual over cost for WDV). Output includes year-wise schedule, comparison with IT Act block rate, half-rate rule for assets used less than 180 days, additional depreciation under Section 32(1)(iia), and journal entry. Aligned with AS 10 Property Plant and Equipment and Ind AS 16 Property Plant and Equipment for component-wise depreciation.",
-      "url": "https://www.patronaccounting.com/tools/depreciation-calculator",
-      "applicationCategory": "FinanceApplication",
-      "operatingSystem": "Any",
-      "datePublished": "2026-05-07T08:00:00+05:30",
-      "dateModified": "2026-05-07T08:00:00+05:30",
-      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
-      "author": {
-        "@type": "Person",
-        "@id": "https://patronaccounting.com/#founder",
-        "name": "CA Sundram Gupta",
-        "jobTitle": "Founder & Chartered Accountant",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Institute of Chartered Accountants of India",
-            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-          }
-        }]
-      },
-      "publisher": { "@id": "https://patronaccounting.com/#organization" },
-      "provider": {"@id": "https://patronaccounting.com/#organization"}
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Depreciation Calculator", "item": "https://www.patronaccounting.com/tools/depreciation-calculator"}
-      ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is Schedule II of the Companies Act 2013?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Schedule II of the Companies Act, 2013 read with Section 123 prescribes useful lives for tangible assets, replacing the rate-based Schedule XIV of the Companies Act, 1956. Effective from 1 April 2014, it lists indicative useful lives across 14 asset categories. Companies derive the SLM or WDV rate from useful life and a residual value capped at 5% of original cost. Deviations from prescribed useful lives require disclosure with technical justification supported by competent professional advice."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between SLM and WDV depreciation methods?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Straight Line Method (SLM) charges equal depreciation each year — Cost minus Residual Value divided by Useful Life. Written Down Value (WDV) charges depreciation at a fixed percentage on the asset's reducing book value, producing higher depreciation in early years and lower in later years. SLM gives uniform expense and is suited to assets like buildings; WDV reflects accelerated wear and is the default under the Income Tax Act. Both methods are permitted under Schedule II."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is depreciation different between Companies Act and Income Tax Act?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Companies Act Schedule II uses asset useful life with SLM or WDV at the company's choice, considering 5% residual value. Income Tax Act Section 32 (Section 33 from FY 2026-27) uses prescribed WDV rates applied to a Block of Assets — buildings 10%, plant and machinery 15%, computers 40%, furniture 10%, intangibles 25%. Tax depreciation is mandatory and front-loaded; book depreciation is policy-driven. The timing difference creates deferred tax assets or liabilities under Ind AS 12."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can a company use a useful life shorter than Schedule II?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Schedule II Part C is indicative — companies may adopt a different useful life if justified by technical evaluation of the asset's expected pattern of consumption, industry practice, intended use and obsolescence factors. Notes to accounts must disclose the deviation with technical advice supporting the chosen life. Auditors review the justification under SA 540 (Auditing Accounting Estimates) and may qualify the audit report if the deviation is unsupported. Most listed companies follow Schedule II for ease."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is residual value under Schedule II?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Residual value is the estimated amount obtainable from disposal of an asset at the end of its useful life, less estimated costs of disposal. Schedule II caps residual value at 5% of original cost — companies adopting a higher residual value must justify it with technical advice and disclose the same in notes to accounts. The Schedule II rate tables (1.58%, 6.33%, 31.67% etc.) are derived assuming exactly 5% residual value over the prescribed useful life."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is component accounting under AS 10 / Ind AS 16?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Component accounting under AS 10 and Ind AS 16 requires that each part of an asset with a cost significant relative to total cost and a different useful life from the remaining asset be depreciated separately. Common examples include aircraft engines and airframe, building parts (roof, lift, HVAC), and ship hull and engine. Schedule II Note 4 incorporates component accounting — it is mandatory for companies preparing Ind AS financial statements and recommended for AS 10 preparers."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is depreciation calculated for partial year usage?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Under Schedule II, depreciation is computed pro-rata from date of capitalisation to date of disposal, using actual days in the financial year. Income Tax Act Section 32 follows a different rule — if the asset is put to use for less than 180 days during the year of acquisition, only 50% of the prescribed depreciation rate is allowed for that year. Full rate applies if used 180 days or more."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the Block of Assets concept under the Income Tax Act?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Block of Assets under Section 2(11) of the Income Tax Act, 1961 groups assets of the same nature carrying the same depreciation rate into a single block. Individual assets lose their identity once added to a block. Depreciation is computed on the block's WDV — opening WDV plus additions less sale proceeds of disposed assets — at the prescribed rate. The block-of-assets approach simplifies tracking but means individual asset gains or losses are not separately recognised for tax."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is additional depreciation under Section 32(1)(iia)?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Additional depreciation under Section 32(1)(iia) of the Income Tax Act, 1961 (Section 33 from FY 2026-27) allows an extra 20% of actual cost on new plant and machinery acquired and installed by manufacturing or power generation businesses. The asset must be brand-new — second-hand machinery does not qualify. If used less than 180 days, additional depreciation is restricted to 10% in year one and the balance 10% allowed in year two. Office equipment, vehicles and ships are excluded."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between AS 10 and Ind AS 16?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "AS 10 (Indian GAAP) and Ind AS 16 (IFRS-converged) both govern Property, Plant and Equipment but differ on revaluation, component accounting and decommissioning costs. Ind AS 16 mandates component accounting for significant parts; AS 10 recommends it. Ind AS 16 requires capitalisation of decommissioning provisions in asset cost; AS 10 does not. Both permit cost or revaluation models, but Ind AS 16 requires regular revaluation if the model is chosen. AS 10 applies to non-Ind AS companies."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the half-rate rule under Income Tax Act?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The half-rate rule under Section 32 of the Income Tax Act applies when an asset is acquired and put to use for less than 180 days during the financial year of acquisition — the assessee may claim only 50% of the prescribed depreciation rate for that asset block in year one. The full prescribed rate applies from the next year onwards. The 180-day count starts from the date of putting to use, not the date of purchase or invoice."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Are intangible assets eligible for depreciation?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Under the Income Tax Act, specified intangible assets — patents, copyrights, trademarks, licences, franchises and similar business or commercial rights — are depreciable at 25% WDV under the block of assets concept. Goodwill was excluded from depreciable intangibles by Finance Act 2021 effective FY 2020-21. Under accounting standards, intangibles are governed by AS 26 (Indian GAAP) or Ind AS 38, which require systematic amortisation over useful life or a default 10-year period if useful life is indeterminate."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What changed with the Income Tax Act 2025 from 1 April 2026?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The Income Tax Act, 2025 (effective 1 April 2026) reorganises depreciation provisions — Section 32 of the 1961 Act becomes Section 33 of the 2025 Act, Rule 5 of IT Rules becomes Rule 25 of Draft IT Rules 2026, and Appendix I-A (SLM rates for power) becomes Appendix II. Substantive provisions remain unchanged — WDV method, block concept, prescribed rates, 180-day rule and additional depreciation continue. A new 40% depreciation cap applies to taxpayers under the concessional tax regime."
-          }
-        }
-      ]
-    }
-    </script>
-@endsection
-
 <style>
         :root {
             --primary: #1B4D3E;
@@ -401,7 +216,192 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
   section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;max-width:100%;margin-bottom:2px;}
 }
 </style>
+@endpush
 
+@section('meta')
+    <title>Depreciation Calculator | Companies Act Sch II + IT Act</title>
+    <meta name="description" content="Free depreciation calculator: SLM/WDV under Companies Act Schedule II plus IT Act block rates, with year-wise schedule and journal entry. CA-reviewed tool.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/depreciation-calculator">
+    <meta property="og:title" content="Depreciation Calculator (Schedule II + IT Act) — FY 2025-26">
+    <meta property="og:description" content="Compute SLM/WDV depreciation under Companies Act Schedule II and IT Act FY 2025-26. Year-wise schedule, journal entry, side-by-side comparison.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/depreciation-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Depreciation Calculator (Schedule II + IT Act) — FY 2025-26">
+    <meta name="twitter:description" content="SLM/WDV under Schedule II + IT Act. Year-wise schedule, journal entry. Free CA tool.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Depreciation Calculator (Schedule II + IT Act)",
+      "description": "Depreciation Calculator computes annual depreciation under Companies Act 2013 Schedule II and Income Tax Act 1961 Section 32 / Section 33 (IT Act 2025) for Indian companies, LLPs, firms and proprietors. The tool supports 13 standard asset categories with prescribed useful lives — buildings (RCC, non-RCC, factory), plant and machinery (general, continuous process), furniture and fittings, office equipment, computers (servers, end-user devices), motor vehicles (cars, trucks), laboratory equipment and electrical installations — plus custom useful life override. Both Straight Line Method (SLM) and Written Down Value (WDV) methods are supported with computed rates per Schedule II Part C formula (1 minus residual divided by useful life for SLM, 1 minus the n-th root of residual over cost for WDV). Output includes year-wise schedule, comparison with IT Act block rate, half-rate rule for assets used less than 180 days, additional depreciation under Section 32(1)(iia), and journal entry. Aligned with AS 10 Property Plant and Equipment and Ind AS 16 Property Plant and Equipment for component-wise depreciation.",
+      "url": "https://www.patronaccounting.com/tools/depreciation-calculator",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Any",
+      "datePublished": "2026-05-07T08:00:00+05:30",
+      "dateModified": "2026-05-07T08:00:00+05:30",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
+      "author": {
+        "@type": "Person",
+        "@id": "https://patronaccounting.com/#founder",
+        "name": "CA Sundram Gupta",
+        "jobTitle": "Founder & Chartered Accountant",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Institute of Chartered Accountants of India",
+            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+          }
+        }]
+      },
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": {"@id": "https://patronaccounting.com/#organization"}
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Depreciation Calculator", "item": "https://www.patronaccounting.com/tools/depreciation-calculator"}
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Schedule II of the Companies Act 2013?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Schedule II of the Companies Act, 2013 read with Section 123 prescribes useful lives for tangible assets, replacing the rate-based Schedule XIV of the Companies Act, 1956. Effective from 1 April 2014, it lists indicative useful lives across 14 asset categories. Companies derive the SLM or WDV rate from useful life and a residual value capped at 5% of original cost. Deviations from prescribed useful lives require disclosure with technical justification supported by competent professional advice."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between SLM and WDV depreciation methods?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Straight Line Method (SLM) charges equal depreciation each year — Cost minus Residual Value divided by Useful Life. Written Down Value (WDV) charges depreciation at a fixed percentage on the asset's reducing book value, producing higher depreciation in early years and lower in later years. SLM gives uniform expense and is suited to assets like buildings; WDV reflects accelerated wear and is the default under the Income Tax Act. Both methods are permitted under Schedule II."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is depreciation different between Companies Act and Income Tax Act?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Companies Act Schedule II uses asset useful life with SLM or WDV at the company's choice, considering 5% residual value. Income Tax Act Section 32 (Section 33 from FY 2026-27) uses prescribed WDV rates applied to a Block of Assets — buildings 10%, plant and machinery 15%, computers 40%, furniture 10%, intangibles 25%. Tax depreciation is mandatory and front-loaded; book depreciation is policy-driven. The timing difference creates deferred tax assets or liabilities under Ind AS 12."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a company use a useful life shorter than Schedule II?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Schedule II Part C is indicative — companies may adopt a different useful life if justified by technical evaluation of the asset's expected pattern of consumption, industry practice, intended use and obsolescence factors. Notes to accounts must disclose the deviation with technical advice supporting the chosen life. Auditors review the justification under SA 540 (Auditing Accounting Estimates) and may qualify the audit report if the deviation is unsupported. Most listed companies follow Schedule II for ease."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is residual value under Schedule II?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Residual value is the estimated amount obtainable from disposal of an asset at the end of its useful life, less estimated costs of disposal. Schedule II caps residual value at 5% of original cost — companies adopting a higher residual value must justify it with technical advice and disclose the same in notes to accounts. The Schedule II rate tables (1.58%, 6.33%, 31.67% etc.) are derived assuming exactly 5% residual value over the prescribed useful life."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is component accounting under AS 10 / Ind AS 16?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Component accounting under AS 10 and Ind AS 16 requires that each part of an asset with a cost significant relative to total cost and a different useful life from the remaining asset be depreciated separately. Common examples include aircraft engines and airframe, building parts (roof, lift, HVAC), and ship hull and engine. Schedule II Note 4 incorporates component accounting — it is mandatory for companies preparing Ind AS financial statements and recommended for AS 10 preparers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is depreciation calculated for partial year usage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under Schedule II, depreciation is computed pro-rata from date of capitalisation to date of disposal, using actual days in the financial year. Income Tax Act Section 32 follows a different rule — if the asset is put to use for less than 180 days during the year of acquisition, only 50% of the prescribed depreciation rate is allowed for that year. Full rate applies if used 180 days or more."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the Block of Assets concept under the Income Tax Act?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Block of Assets under Section 2(11) of the Income Tax Act, 1961 groups assets of the same nature carrying the same depreciation rate into a single block. Individual assets lose their identity once added to a block. Depreciation is computed on the block's WDV — opening WDV plus additions less sale proceeds of disposed assets — at the prescribed rate. The block-of-assets approach simplifies tracking but means individual asset gains or losses are not separately recognised for tax."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is additional depreciation under Section 32(1)(iia)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Additional depreciation under Section 32(1)(iia) of the Income Tax Act, 1961 (Section 33 from FY 2026-27) allows an extra 20% of actual cost on new plant and machinery acquired and installed by manufacturing or power generation businesses. The asset must be brand-new — second-hand machinery does not qualify. If used less than 180 days, additional depreciation is restricted to 10% in year one and the balance 10% allowed in year two. Office equipment, vehicles and ships are excluded."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between AS 10 and Ind AS 16?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AS 10 (Indian GAAP) and Ind AS 16 (IFRS-converged) both govern Property, Plant and Equipment but differ on revaluation, component accounting and decommissioning costs. Ind AS 16 mandates component accounting for significant parts; AS 10 recommends it. Ind AS 16 requires capitalisation of decommissioning provisions in asset cost; AS 10 does not. Both permit cost or revaluation models, but Ind AS 16 requires regular revaluation if the model is chosen. AS 10 applies to non-Ind AS companies."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the half-rate rule under Income Tax Act?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The half-rate rule under Section 32 of the Income Tax Act applies when an asset is acquired and put to use for less than 180 days during the financial year of acquisition — the assessee may claim only 50% of the prescribed depreciation rate for that asset block in year one. The full prescribed rate applies from the next year onwards. The 180-day count starts from the date of putting to use, not the date of purchase or invoice."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are intangible assets eligible for depreciation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under the Income Tax Act, specified intangible assets — patents, copyrights, trademarks, licences, franchises and similar business or commercial rights — are depreciable at 25% WDV under the block of assets concept. Goodwill was excluded from depreciable intangibles by Finance Act 2021 effective FY 2020-21. Under accounting standards, intangibles are governed by AS 26 (Indian GAAP) or Ind AS 38, which require systematic amortisation over useful life or a default 10-year period if useful life is indeterminate."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What changed with the Income Tax Act 2025 from 1 April 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Income Tax Act, 2025 (effective 1 April 2026) reorganises depreciation provisions — Section 32 of the 1961 Act becomes Section 33 of the 2025 Act, Rule 5 of IT Rules becomes Rule 25 of Draft IT Rules 2026, and Appendix I-A (SLM rates for power) becomes Appendix II. Substantive provisions remain unchanged — WDV method, block concept, prescribed rates, 180-day rule and additional depreciation continue. A new 40% depreciation cap applies to taxpayers under the concessional tax regime."
+          }
+        }
+      ]
+    }
+    </script>
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Tool navigation">
     <div class="toc-nav-inner">

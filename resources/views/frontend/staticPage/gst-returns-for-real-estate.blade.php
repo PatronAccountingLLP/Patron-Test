@@ -1,155 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>GST Returns for Real Estate 2026: 1%/5% | Patron Accounting</title>
-    <meta name="description" content="GST returns for real estate developers - 1%/5% new scheme, ITC restrictions under Section 17(5)(c)/(d), 80% rule, JDA RCM. Starting from INR 2,499 per month.">
-    <link rel="canonical" href="/gst-returns-for-real-estate">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="GST Returns for Real Estate 2026: 1%/5% | Patron Accounting">
-    <meta property="og:description" content="GST returns for real estate developers - 1%/5% new scheme, ITC restrictions under Section 17(5)(c)/(d), 80% rule, JDA RCM. Starting from INR 2,499 per month.">
-    <meta property="og:url" content="/gst-returns-for-real-estate">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="GST Returns for Real Estate 2026: 1%/5% | Patron Accounting">
-    <meta name="twitter:description" content="GST returns for real estate developers - 1%/5% new scheme, ITC restrictions under Section 17(5)(c)/(d), 80% rule, JDA RCM. Starting from INR 2,499 per month.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/gst-returns-for-real-estate/#service",
-        "name": "GST Returns for Real Estate",
-        "description": "Monthly managed GST compliance for real estate developers and promoters under the post 1 April 2019 regime. Covers 1%/5%/12% rate determination, 80% registered procurement tracking under Notification 7/2019-CTR, JDA landowner-share GST at CC / first occupation, TDR/FSI 18% RCM with unsold-flat cap, Section 17(5)(c)/(d) ITC blocking post Finance Act 2025, RERA escrow alignment, and full GSTR-1/GSTR-3B filing.",
-        "serviceType": "GST Compliance for Real Estate",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-returns-for-real-estate" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [
-            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
-            { "@type": "Thing", "name": "Real estate in India", "sameAs": "https://en.wikipedia.org/wiki/Real_estate_in_India" }
-        ],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "GST Returns for Real Estate Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "Monthly GST Returns - Single Project / GSTIN",
-                    "priceCurrency": "INR",
-                    "price": "2499",
-                    "description": "Monthly GSTR-1 and GSTR-3B filing with project-wise rate determination for a single project or GSTIN"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/gst-returns-for-real-estate/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
-            { "@type": "ListItem", "position": 3, "name": "GST Returns for Real Estate", "item": "https://www.patronaccounting.com/gst-returns-for-real-estate" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/gst-returns-for-real-estate/#faq",
-        "datePublished": "2026-05-27T08:00:00+05:30",
-        "dateModified": "2026-06-01T08:00:00+05:30",
-        "mainEntity": [
-
-            {
-                "@type": "Question",
-                "name": "What is the GST rate on under-construction residential apartments?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Under the post 1 April 2019 regime (Notification 3/2019-CTR), residential under-construction attracts 1 percent (CGST 0.5 plus SGST 0.5) for affordable apartments and 5 percent (CGST 2.5 plus SGST 2.5) for other apartments, both without input tax credit. Affordable means carpet area up to 60 sqm in metropolitan cities or 90 sqm in non-metropolitan cities, with gross consideration up to INR 45 lakh."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the difference between RREP and REP?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "A Residential Real Estate Project (RREP) is one where the carpet area of commercial apartments does not exceed 15 percent of the total carpet area of all apartments. A Real Estate Project (REP) is any other project. In an RREP, both residential and commercial portions attract the new-scheme rate. In a pure REP, commercial apartments attract 12 percent with ITC under the original Notification 11/2017-CTR."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the 80 percent procurement rule for real estate?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Under Notification 7/2019-CTR dated 29 March 2019, a promoter must procure at least 80 percent of inputs and input services (excluding land, FSI, TDR, electricity, and cement) from registered suppliers in a financial year. Any shortfall attracts 18 percent RCM on the shortfall amount. Cement procurement from unregistered suppliers attracts 28 percent RCM separately regardless of the 80 percent threshold."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How is GST on Joint Development Agreement (JDA) computed?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Per Notification 4/2018-CTR read with Notification 6/2019-CTR, the developer pays GST on the landowner share of constructed apartments. The time of supply is the date of issue of completion certificate or first occupation, whichever is earlier. Tax rate is the applicable rate of the apartment (1 percent / 5 percent / 12 percent) on the value of construction service supplied to the landowner."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the GST treatment of TDR and FSI on or after 1 April 2019?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Per Notification 5/2019-CTR, transfer of development rights (TDR) and floor space index (FSI) on or after 1 April 2019 attracts 18 percent GST under reverse charge (Section 9(3)). The promoter pays the tax. The tax payable is capped at 1 percent (affordable) or 5 percent (other) of the value of unsold apartments on the date of completion certificate or first occupation."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can a real estate developer claim ITC under Section 17(5)(c) and (d)?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Section 17(5)(c) blocks ITC on works contract services for construction of immovable property, and Section 17(5)(d) blocks ITC on goods and services received for construction on own account, except for plant and machinery. The Safari Retreats Supreme Court ruling (October 2024) allowed buildings to qualify as plant under the functionality test, but the Finance Act 2025 retrospectively replaced plant or machinery with plant and machinery with effect from 1 July 2017, nullifying the relief."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Is sale of a completed flat after completion certificate liable to GST?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "No. Schedule III Entry 5A of the CGST Act (inserted via Finance Act 2019) treats sale of building after issuance of completion certificate or after first occupation, whichever is earlier, as neither supply of goods nor supply of services. GST is therefore not payable on resale or sale of fully constructed and occupied flats. Schedule III Entry 5 separately keeps sale of land outside the scope of supply."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the cost of monthly GST returns for real estate at Patron Accounting?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Starting from INR 2,499 per month (Exclusive of GST and government charges) for single-project / single-GSTIN basic compliance. Monthly returns plus 80 percent tracker plus JDA RCM package starts from INR 4,999 per month. JDA / TDR / FSI RCM computation, project rate determination, multi-project compliance, and Section 17(5) past-period advisory are quoted separately based on scope."
-                }
-            }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -763,7 +618,157 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>GST Returns for Real Estate 2026: 1%/5% | Patron Accounting</title>
+    <meta name="description" content="GST returns for real estate developers - 1%/5% new scheme, ITC restrictions under Section 17(5)(c)/(d), 80% rule, JDA RCM. Starting from INR 2,499 per month.">
+    <link rel="canonical" href="/gst-returns-for-real-estate">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="GST Returns for Real Estate 2026: 1%/5% | Patron Accounting">
+    <meta property="og:description" content="GST returns for real estate developers - 1%/5% new scheme, ITC restrictions under Section 17(5)(c)/(d), 80% rule, JDA RCM. Starting from INR 2,499 per month.">
+    <meta property="og:url" content="/gst-returns-for-real-estate">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GST Returns for Real Estate 2026: 1%/5% | Patron Accounting">
+    <meta name="twitter:description" content="GST returns for real estate developers - 1%/5% new scheme, ITC restrictions under Section 17(5)(c)/(d), 80% rule, JDA RCM. Starting from INR 2,499 per month.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/gst-returns-for-real-estate/#service",
+        "name": "GST Returns for Real Estate",
+        "description": "Monthly managed GST compliance for real estate developers and promoters under the post 1 April 2019 regime. Covers 1%/5%/12% rate determination, 80% registered procurement tracking under Notification 7/2019-CTR, JDA landowner-share GST at CC / first occupation, TDR/FSI 18% RCM with unsold-flat cap, Section 17(5)(c)/(d) ITC blocking post Finance Act 2025, RERA escrow alignment, and full GSTR-1/GSTR-3B filing.",
+        "serviceType": "GST Compliance for Real Estate",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-returns-for-real-estate" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [
+            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
+            { "@type": "Thing", "name": "Real estate in India", "sameAs": "https://en.wikipedia.org/wiki/Real_estate_in_India" }
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "GST Returns for Real Estate Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "Monthly GST Returns - Single Project / GSTIN",
+                    "priceCurrency": "INR",
+                    "price": "2499",
+                    "description": "Monthly GSTR-1 and GSTR-3B filing with project-wise rate determination for a single project or GSTIN"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/gst-returns-for-real-estate/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
+            { "@type": "ListItem", "position": 3, "name": "GST Returns for Real Estate", "item": "https://www.patronaccounting.com/gst-returns-for-real-estate" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/gst-returns-for-real-estate/#faq",
+        "datePublished": "2026-05-27T08:00:00+05:30",
+        "dateModified": "2026-06-01T08:00:00+05:30",
+        "mainEntity": [
+
+            {
+                "@type": "Question",
+                "name": "What is the GST rate on under-construction residential apartments?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Under the post 1 April 2019 regime (Notification 3/2019-CTR), residential under-construction attracts 1 percent (CGST 0.5 plus SGST 0.5) for affordable apartments and 5 percent (CGST 2.5 plus SGST 2.5) for other apartments, both without input tax credit. Affordable means carpet area up to 60 sqm in metropolitan cities or 90 sqm in non-metropolitan cities, with gross consideration up to INR 45 lakh."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the difference between RREP and REP?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "A Residential Real Estate Project (RREP) is one where the carpet area of commercial apartments does not exceed 15 percent of the total carpet area of all apartments. A Real Estate Project (REP) is any other project. In an RREP, both residential and commercial portions attract the new-scheme rate. In a pure REP, commercial apartments attract 12 percent with ITC under the original Notification 11/2017-CTR."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the 80 percent procurement rule for real estate?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Under Notification 7/2019-CTR dated 29 March 2019, a promoter must procure at least 80 percent of inputs and input services (excluding land, FSI, TDR, electricity, and cement) from registered suppliers in a financial year. Any shortfall attracts 18 percent RCM on the shortfall amount. Cement procurement from unregistered suppliers attracts 28 percent RCM separately regardless of the 80 percent threshold."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How is GST on Joint Development Agreement (JDA) computed?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Per Notification 4/2018-CTR read with Notification 6/2019-CTR, the developer pays GST on the landowner share of constructed apartments. The time of supply is the date of issue of completion certificate or first occupation, whichever is earlier. Tax rate is the applicable rate of the apartment (1 percent / 5 percent / 12 percent) on the value of construction service supplied to the landowner."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the GST treatment of TDR and FSI on or after 1 April 2019?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Per Notification 5/2019-CTR, transfer of development rights (TDR) and floor space index (FSI) on or after 1 April 2019 attracts 18 percent GST under reverse charge (Section 9(3)). The promoter pays the tax. The tax payable is capped at 1 percent (affordable) or 5 percent (other) of the value of unsold apartments on the date of completion certificate or first occupation."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can a real estate developer claim ITC under Section 17(5)(c) and (d)?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Section 17(5)(c) blocks ITC on works contract services for construction of immovable property, and Section 17(5)(d) blocks ITC on goods and services received for construction on own account, except for plant and machinery. The Safari Retreats Supreme Court ruling (October 2024) allowed buildings to qualify as plant under the functionality test, but the Finance Act 2025 retrospectively replaced plant or machinery with plant and machinery with effect from 1 July 2017, nullifying the relief."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is sale of a completed flat after completion certificate liable to GST?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No. Schedule III Entry 5A of the CGST Act (inserted via Finance Act 2019) treats sale of building after issuance of completion certificate or after first occupation, whichever is earlier, as neither supply of goods nor supply of services. GST is therefore not payable on resale or sale of fully constructed and occupied flats. Schedule III Entry 5 separately keeps sale of land outside the scope of supply."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the cost of monthly GST returns for real estate at Patron Accounting?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Starting from INR 2,499 per month (Exclusive of GST and government charges) for single-project / single-GSTIN basic compliance. Monthly returns plus 80 percent tracker plus JDA RCM package starts from INR 4,999 per month. JDA / TDR / FSI RCM computation, project rate determination, multi-project compliance, and Section 17(5) past-period advisory are quoted separately based on scope."
+                }
+            }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1628,17 +1633,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1661,8 +1659,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1699,7 +1695,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1710,4 +1705,20 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+
 

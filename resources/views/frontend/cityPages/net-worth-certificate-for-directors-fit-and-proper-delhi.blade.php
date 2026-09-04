@@ -1,245 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>NWC Director Fit and Proper Delhi 2026 | Patron</title>
-    <meta name="description" content="CA-certified net worth certificate for Delhi directors. Fit and Proper format for SEBI, RBI, IRDAI compliance. UDIN, annual filing ready. Starting INR 2,499.">
-    <link rel="canonical" href="https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/delhi">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="NWC Director Fit and Proper Delhi 2026 | Patron">
-    <meta property="og:description" content="CA-certified net worth certificate for Delhi directors. Fit and Proper format for SEBI, RBI, IRDAI compliance. UDIN, annual filing ready. Starting INR 2,499.">
-    <meta property="og:url" content="https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/delhi">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="NWC Director Fit and Proper Delhi 2026 | Patron">
-    <meta name="twitter:description" content="CA-certified net worth certificate for Delhi directors. Fit and Proper format for SEBI, RBI, IRDAI compliance. UDIN, annual filing ready. Starting INR 2,499.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/delhi/#service",
-        "name": "Net Worth Certificate for Directors (Fit and Proper) in Delhi",
-        "description": "CA-certified net worth certificate for Delhi directors. Fit and Proper format for SEBI, RBI, IRDAI compliance. UDIN, annual filing ready. Starting INR 2,499.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/delhi" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Chartered Accountant", "sameAs": "https://en.wikipedia.org/wiki/Chartered_accountant" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Net Worth Certificate for Directors (Fit and Proper) Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Net Worth Certificate for Directors (Fit and Proper) in Delhi"
-                    },
-                    "price": "2499",
-                    "priceCurrency": "INR",
-                    "url": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/delhi"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/delhi/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate for Directors (Fit and Proper)", "item": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper" },
-            { "@type": "ListItem", "position": 3, "name": "Delhi", "item": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/delhi" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/delhi/#faq",
-        "datePublished": "2026-07-02T08:00:00+05:30",
-        "dateModified": "2026-07-02T08:00:00+05:30",
-        "mainEntity": [
-            {
-                    "@type": "Question",
-                    "name": "Why does a Delhi PSU director need a fit and proper net worth certificate?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Directors of central PSU listed entities (ONGC, GAIL, NTPC, Power Grid, BHEL, SAIL, IOCL, IRCTC, RVNL, IRFC), PSU banks (PNB, Punjab and Sind), PSU NBFCs (IFCI, PFC, IREDA, HUDCO, IIFCL, NHB), Oriental Insurance, and defence PSU boards are required by SEBI LODR Schedule II Part D, RBI Master Direction (PSB and NBFC), IRDAI, DPE Guidelines on Corporate Governance for CPSEs, and Companies Act 2013 to demonstrate financial soundness and personal integrity. For CMD and Whole-Time Director appointments, the certificate is the financial-soundness pillar alongside ACC, CVC and DoPT clearance tracks."
-                    }
-                },
-{
-                    "@type": "Question",
-                    "name": "What is the DPE guideline requirement for central PSU board director NWC?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "DPE Guidelines on Corporate Governance for Central Public Sector Enterprises prescribe board composition based on Schedule A/B/C/D classification - independent director requirements proportional to Schedule classification, audit committee, nomination and remuneration committee, risk management committee. The fit-and-proper NWC for CPSE directors includes DPE-specific disclosures alongside the SEBI LODR Schedule II Part D format (where the CPSE is listed). Patron's Delhi office maintains both formats and generates a combined package for listed CPSE directors."
-                    }
-                },
-{
-                    "@type": "Question",
-                    "name": "Who can issue a fit and proper net worth certificate for directors in Delhi?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Only a practising Chartered Accountant in Delhi holding a valid Certificate of Practice from ICAI can sign and issue the certificate. The CA generates an 18-digit UDIN at udin.icai.org, signs on firm letterhead with ICAI seal, and prints Membership Number and Firm Registration Number. SEBI examiners, RBI Department of Regulation, IRDAI, DPE at Lodhi Road, Cabinet Secretariat for ACC clearance, CVC at Satarkata Bhawan, administrative Ministry boards, and PSU nomination and remuneration committees all verify the UDIN."
-                    }
-                },
-{
-                    "@type": "Question",
-                    "name": "What disclosures does a PNB or Punjab and Sind Bank board director need under RBI Master Direction?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "RBI Master Direction on Fit and Proper Criteria for PSB Elected Directors 2019 (post-PNB-scam) requires enhanced disclosures - (i) personal details and substantial interest aggregated under Section 2(77) BRA, (ii) director-firm dissociation covenants (director must dissociate from credit/investment decisions involving entities of personal or firm interest), (iii) public-record search across NCLT, debt recovery tribunals, SEBI orders, (iv) directorships and KMP positions in last 5 years, (v) defaults, criminal and disciplinary proceedings, plus CVC vigilance enquiry flags."
-                    }
-                },
-{
-                    "@type": "Question",
-                    "name": "Is UDIN mandatory on a director fit and proper net worth certificate?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Yes, UDIN is mandatory on every CA-issued net worth certificate since 1 July 2019, enforced by ICAI. The 18-digit Unique Document Identification Number is generated at udin.icai.org and printed on the certificate. SEBI examiners, RBI department of regulation, IRDAI compliance officers, DPE, ACC clearance committee, CVC vigilance department, BSE and NSE listing departments, administrative Ministry boards, and PSU nomination committees all verify the UDIN on the ICAI portal as a standard step. Certificates without UDIN are rejected."
-                    }
-                },
-{
-                    "@type": "Question",
-                    "name": "What is the Government Director vs Independent Director category under SEBI LODR for listed PSUs?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Listed central PSUs (ONGC, NTPC, GAIL, Power Grid, BHEL, SAIL, IOCL, IRCTC, Container Corp, RVNL, IRFC, RailTel, Engineers India) have two categories under SEBI LODR Schedule II Part D - (i) Government Directors nominated by the President of India through the administrative Ministry, with disclosure of the nominating Ministry and related-Ministry-business relationship, and (ii) Independent Directors who are DPE-empanelled and subject to Companies Act 2013 Section 149(6) Schedule IV eligibility, with standard Independent Director Code declarations. Disclosure requirements differ between the two."
-                    }
-                }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/delhi",
-        "name": "Net Worth Certificate for Directors (Fit and Proper) in Delhi",
-        "description": "CA-certified net worth certificate for Delhi directors. Fit and Proper format for SEBI, RBI, IRDAI compliance. UDIN, annual filing ready. Starting INR 2,499.",
-        "url": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/delhi",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/delhi/#service" },
-        "datePublished": "2026-07-02T08:00:00+05:30",
-        "dateModified": "2026-07-02T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/delhi/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How to Get a Net Worth Certificate for Directors (Fit and Proper)",
-        "description": "Step-by-step process to obtain a Net Worth Certificate for Directors (Fit and Proper) from Patron Accounting.",
-        "totalTime": "P3D",
-        "step": [
-            {
-                    "@type": "HowToStep",
-                    "position": 1,
-                    "name": "Engagement",
-                    "text": "Delhi director or company secretary calls Patron Accounting, identifies the regulator/authority (SEBI LODR for BSE/NSE listed PSU, RBI Master Direction for PSB/NBFC, IRDAI for insurance, DPE Guidelines for CPSE, ACC/CVC for CMD-WTD appointment, Companies Act 2013), appointing entity (NTPC, ONGC, GAIL, PNB, IFCI, PFC, Oriental Insurance, Hero MotoCorp, Bharti Airtel, etc.), and director category (Government Director, Independent Director, Whole-Time Director, CMD). Engagement letter captures purpose under ICAI SA 200."
-                },
-{
-                    "@type": "HowToStep",
-                    "position": 2,
-                    "name": "Document collection",
-                    "text": "Upload PAN, Aadhaar, DIN reference, latest 3-5 years ITR with computation, personal bank statements (12 months), MF and demat statements, FD receipts, Delhi residential and commercial property documents (locality A-H circle rate reference), gold and jewellery valuation, ESOP/RSU statements (for Bharti/Hero executive directors), GPF and post-retirement pension statements (for PSU directors), board appointment letter, ACC clearance reference (for CMD-WTD), CVC vigilance clearance reference (where applicable), DoPT vetting reference (where applicable), nomination and remuneration committee questionnaire, and CIBIL personal report."
-                },
-{
-                    "@type": "HowToStep",
-                    "position": 3,
-                    "name": "Substantial interest mapping (aggregated)",
-                    "text": "Patron CA cross-checks shareholding patterns where director, spouse, and minor children jointly hold beneficial interest exceeding Rs 5 lakh paid-up or 10 percent under Section 2(77) BRA. For PSU directors with multiple central PSU positions over the years, all prior positions are mapped to ensure consistent disclosure."
-                },
-{
-                    "@type": "HowToStep",
-                    "position": 4,
-                    "name": "Verification under SA 500 and SA 505 plus public",
-                    "text": "record search - Patron CA cross-checks bank balances, validates MF and demat holdings, confirms Delhi property at locality A-H circle rate, reconciles ITR. CIBIL report cross-checked. Public-record search across SEBI orders, RBI orders, IRDAI orders, CVC notices for vigilance flags (critical for PSU directors), NCLT proceedings, and court litigation."
-                },
-{
-                    "@type": "HowToStep",
-                    "position": 5,
-                    "name": "Regulator",
-                    "text": "format alignment and draft - Patron extracts the regulator-specific format. For listed central PSUs - SEBI LODR Schedule II Part D Government Director or Independent Director sub-category + DPE Guidelines on CPSE Corporate Governance. For PSU banks - RBI PSB 2019 Master Direction. For PSU NBFCs - RBI SBR Annex XXIII. For CMD-WTD appointments - ACC clearance integration with CVC vigilance clearance and DoPT vetting references. Drafts emailed within 48 hours."
-                },
-{
-                    "@type": "HowToStep",
-                    "position": 6,
-                    "name": "UDIN generation and final issue",
-                    "text": "Patron CA generates the 18-digit UDIN at udin.icai.org, signs on firm letterhead with ICAI seal, issues the final document. Soft copy emailed for board/regulator/DPE/Ministry submission; hard copy collected from Patron Delhi office or couriered to the company secretary within 3-4 working days. Annual renewal cycle tracked for incumbent PSU and private listed directors."
-                }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Net Worth Certificate for Directors (Fit and Proper) Key Terms",
-        "definedTerm": [
-            {
-                    "@type": "DefinedTerm",
-                    "name": "UDIN",
-                    "description": "18-digit Unique Document Identification Number generated by the issuing CA at udin.icai.org for every certificate, mandatory since 1 July 2019."
-                },
-{
-                    "@type": "DefinedTerm",
-                    "name": "DPE Guidelines on Corporate Governance for CPSEs",
-                    "description": "Department of Public Enterprises Guidelines on Corporate Governance for Central Public Sector Enterprises - prescribes board composition, independent director requirements, audit committee, nomination and remuneration committee, risk management committee for Maharatna, Navratna and Miniratna CPSEs. Applies to all listed and unlisted central PSUs."
-                },
-{
-                    "@type": "DefinedTerm",
-                    "name": "ACC (Cabinet Committee on Appointments)",
-                    "description": "The Cabinet Committee on Appointments handles senior PSU appointments including CMDs, MDs, whole-time directors of Schedule A/B/C/D CPSEs. ACC clearance is mandatory for these appointments, alongside the fit-and-proper net worth certificate that establishes the financial-soundness pillar."
-                },
-{
-                    "@type": "DefinedTerm",
-                    "name": "CVC (Central Vigilance Commission)",
-                    "description": "Apex vigilance authority for the central government. CVC clearance is required for PSU CMD and whole-time director appointments - the certificate's defaults and disciplinary proceedings disclosures align with CVC vigilance enquiry frameworks under the CVC Manual."
-                },
-{
-                    "@type": "DefinedTerm",
-                    "name": "Government Director vs Independent Director under SEBI LODR for listed PSUs",
-                    "description": "Listed central PSUs (ONGC, NTPC, Power Grid, BHEL, SAIL, IOCL, BPCL, GAIL, IRCTC, Container Corp, etc.) have a category distinction under SEBI LODR Schedule II Part D between Government Directors (nominated by the President of India through the administrative Ministry) and Independent Directors (subject to standard Section 149(6) Schedule IV eligibility). Disclosure requirements differ between the two categories."
-                }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -853,7 +618,247 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>NWC Director Fit and Proper Delhi 2026 | Patron</title>
+    <meta name="description" content="CA-certified net worth certificate for Delhi directors. Fit and Proper format for SEBI, RBI, IRDAI compliance. UDIN, annual filing ready. Starting INR 2,499.">
+    <link rel="canonical" href="https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/delhi">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="NWC Director Fit and Proper Delhi 2026 | Patron">
+    <meta property="og:description" content="CA-certified net worth certificate for Delhi directors. Fit and Proper format for SEBI, RBI, IRDAI compliance. UDIN, annual filing ready. Starting INR 2,499.">
+    <meta property="og:url" content="https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/delhi">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="NWC Director Fit and Proper Delhi 2026 | Patron">
+    <meta name="twitter:description" content="CA-certified net worth certificate for Delhi directors. Fit and Proper format for SEBI, RBI, IRDAI compliance. UDIN, annual filing ready. Starting INR 2,499.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/delhi/#service",
+        "name": "Net Worth Certificate for Directors (Fit and Proper) in Delhi",
+        "description": "CA-certified net worth certificate for Delhi directors. Fit and Proper format for SEBI, RBI, IRDAI compliance. UDIN, annual filing ready. Starting INR 2,499.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/delhi" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Chartered Accountant", "sameAs": "https://en.wikipedia.org/wiki/Chartered_accountant" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Net Worth Certificate for Directors (Fit and Proper) Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Net Worth Certificate for Directors (Fit and Proper) in Delhi"
+                    },
+                    "price": "2499",
+                    "priceCurrency": "INR",
+                    "url": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/delhi"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/delhi/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate for Directors (Fit and Proper)", "item": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper" },
+            { "@type": "ListItem", "position": 3, "name": "Delhi", "item": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/delhi" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/delhi/#faq",
+        "datePublished": "2026-07-02T08:00:00+05:30",
+        "dateModified": "2026-07-02T08:00:00+05:30",
+        "mainEntity": [
+            {
+                    "@type": "Question",
+                    "name": "Why does a Delhi PSU director need a fit and proper net worth certificate?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Directors of central PSU listed entities (ONGC, GAIL, NTPC, Power Grid, BHEL, SAIL, IOCL, IRCTC, RVNL, IRFC), PSU banks (PNB, Punjab and Sind), PSU NBFCs (IFCI, PFC, IREDA, HUDCO, IIFCL, NHB), Oriental Insurance, and defence PSU boards are required by SEBI LODR Schedule II Part D, RBI Master Direction (PSB and NBFC), IRDAI, DPE Guidelines on Corporate Governance for CPSEs, and Companies Act 2013 to demonstrate financial soundness and personal integrity. For CMD and Whole-Time Director appointments, the certificate is the financial-soundness pillar alongside ACC, CVC and DoPT clearance tracks."
+                    }
+                },
+{
+                    "@type": "Question",
+                    "name": "What is the DPE guideline requirement for central PSU board director NWC?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "DPE Guidelines on Corporate Governance for Central Public Sector Enterprises prescribe board composition based on Schedule A/B/C/D classification - independent director requirements proportional to Schedule classification, audit committee, nomination and remuneration committee, risk management committee. The fit-and-proper NWC for CPSE directors includes DPE-specific disclosures alongside the SEBI LODR Schedule II Part D format (where the CPSE is listed). Patron's Delhi office maintains both formats and generates a combined package for listed CPSE directors."
+                    }
+                },
+{
+                    "@type": "Question",
+                    "name": "Who can issue a fit and proper net worth certificate for directors in Delhi?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Only a practising Chartered Accountant in Delhi holding a valid Certificate of Practice from ICAI can sign and issue the certificate. The CA generates an 18-digit UDIN at udin.icai.org, signs on firm letterhead with ICAI seal, and prints Membership Number and Firm Registration Number. SEBI examiners, RBI Department of Regulation, IRDAI, DPE at Lodhi Road, Cabinet Secretariat for ACC clearance, CVC at Satarkata Bhawan, administrative Ministry boards, and PSU nomination and remuneration committees all verify the UDIN."
+                    }
+                },
+{
+                    "@type": "Question",
+                    "name": "What disclosures does a PNB or Punjab and Sind Bank board director need under RBI Master Direction?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "RBI Master Direction on Fit and Proper Criteria for PSB Elected Directors 2019 (post-PNB-scam) requires enhanced disclosures - (i) personal details and substantial interest aggregated under Section 2(77) BRA, (ii) director-firm dissociation covenants (director must dissociate from credit/investment decisions involving entities of personal or firm interest), (iii) public-record search across NCLT, debt recovery tribunals, SEBI orders, (iv) directorships and KMP positions in last 5 years, (v) defaults, criminal and disciplinary proceedings, plus CVC vigilance enquiry flags."
+                    }
+                },
+{
+                    "@type": "Question",
+                    "name": "Is UDIN mandatory on a director fit and proper net worth certificate?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, UDIN is mandatory on every CA-issued net worth certificate since 1 July 2019, enforced by ICAI. The 18-digit Unique Document Identification Number is generated at udin.icai.org and printed on the certificate. SEBI examiners, RBI department of regulation, IRDAI compliance officers, DPE, ACC clearance committee, CVC vigilance department, BSE and NSE listing departments, administrative Ministry boards, and PSU nomination committees all verify the UDIN on the ICAI portal as a standard step. Certificates without UDIN are rejected."
+                    }
+                },
+{
+                    "@type": "Question",
+                    "name": "What is the Government Director vs Independent Director category under SEBI LODR for listed PSUs?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Listed central PSUs (ONGC, NTPC, GAIL, Power Grid, BHEL, SAIL, IOCL, IRCTC, Container Corp, RVNL, IRFC, RailTel, Engineers India) have two categories under SEBI LODR Schedule II Part D - (i) Government Directors nominated by the President of India through the administrative Ministry, with disclosure of the nominating Ministry and related-Ministry-business relationship, and (ii) Independent Directors who are DPE-empanelled and subject to Companies Act 2013 Section 149(6) Schedule IV eligibility, with standard Independent Director Code declarations. Disclosure requirements differ between the two."
+                    }
+                }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/delhi",
+        "name": "Net Worth Certificate for Directors (Fit and Proper) in Delhi",
+        "description": "CA-certified net worth certificate for Delhi directors. Fit and Proper format for SEBI, RBI, IRDAI compliance. UDIN, annual filing ready. Starting INR 2,499.",
+        "url": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/delhi",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/delhi/#service" },
+        "datePublished": "2026-07-02T08:00:00+05:30",
+        "dateModified": "2026-07-02T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/delhi/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Get a Net Worth Certificate for Directors (Fit and Proper)",
+        "description": "Step-by-step process to obtain a Net Worth Certificate for Directors (Fit and Proper) from Patron Accounting.",
+        "totalTime": "P3D",
+        "step": [
+            {
+                    "@type": "HowToStep",
+                    "position": 1,
+                    "name": "Engagement",
+                    "text": "Delhi director or company secretary calls Patron Accounting, identifies the regulator/authority (SEBI LODR for BSE/NSE listed PSU, RBI Master Direction for PSB/NBFC, IRDAI for insurance, DPE Guidelines for CPSE, ACC/CVC for CMD-WTD appointment, Companies Act 2013), appointing entity (NTPC, ONGC, GAIL, PNB, IFCI, PFC, Oriental Insurance, Hero MotoCorp, Bharti Airtel, etc.), and director category (Government Director, Independent Director, Whole-Time Director, CMD). Engagement letter captures purpose under ICAI SA 200."
+                },
+{
+                    "@type": "HowToStep",
+                    "position": 2,
+                    "name": "Document collection",
+                    "text": "Upload PAN, Aadhaar, DIN reference, latest 3-5 years ITR with computation, personal bank statements (12 months), MF and demat statements, FD receipts, Delhi residential and commercial property documents (locality A-H circle rate reference), gold and jewellery valuation, ESOP/RSU statements (for Bharti/Hero executive directors), GPF and post-retirement pension statements (for PSU directors), board appointment letter, ACC clearance reference (for CMD-WTD), CVC vigilance clearance reference (where applicable), DoPT vetting reference (where applicable), nomination and remuneration committee questionnaire, and CIBIL personal report."
+                },
+{
+                    "@type": "HowToStep",
+                    "position": 3,
+                    "name": "Substantial interest mapping (aggregated)",
+                    "text": "Patron CA cross-checks shareholding patterns where director, spouse, and minor children jointly hold beneficial interest exceeding Rs 5 lakh paid-up or 10 percent under Section 2(77) BRA. For PSU directors with multiple central PSU positions over the years, all prior positions are mapped to ensure consistent disclosure."
+                },
+{
+                    "@type": "HowToStep",
+                    "position": 4,
+                    "name": "Verification under SA 500 and SA 505 plus public",
+                    "text": "record search - Patron CA cross-checks bank balances, validates MF and demat holdings, confirms Delhi property at locality A-H circle rate, reconciles ITR. CIBIL report cross-checked. Public-record search across SEBI orders, RBI orders, IRDAI orders, CVC notices for vigilance flags (critical for PSU directors), NCLT proceedings, and court litigation."
+                },
+{
+                    "@type": "HowToStep",
+                    "position": 5,
+                    "name": "Regulator",
+                    "text": "format alignment and draft - Patron extracts the regulator-specific format. For listed central PSUs - SEBI LODR Schedule II Part D Government Director or Independent Director sub-category + DPE Guidelines on CPSE Corporate Governance. For PSU banks - RBI PSB 2019 Master Direction. For PSU NBFCs - RBI SBR Annex XXIII. For CMD-WTD appointments - ACC clearance integration with CVC vigilance clearance and DoPT vetting references. Drafts emailed within 48 hours."
+                },
+{
+                    "@type": "HowToStep",
+                    "position": 6,
+                    "name": "UDIN generation and final issue",
+                    "text": "Patron CA generates the 18-digit UDIN at udin.icai.org, signs on firm letterhead with ICAI seal, issues the final document. Soft copy emailed for board/regulator/DPE/Ministry submission; hard copy collected from Patron Delhi office or couriered to the company secretary within 3-4 working days. Annual renewal cycle tracked for incumbent PSU and private listed directors."
+                }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Net Worth Certificate for Directors (Fit and Proper) Key Terms",
+        "definedTerm": [
+            {
+                    "@type": "DefinedTerm",
+                    "name": "UDIN",
+                    "description": "18-digit Unique Document Identification Number generated by the issuing CA at udin.icai.org for every certificate, mandatory since 1 July 2019."
+                },
+{
+                    "@type": "DefinedTerm",
+                    "name": "DPE Guidelines on Corporate Governance for CPSEs",
+                    "description": "Department of Public Enterprises Guidelines on Corporate Governance for Central Public Sector Enterprises - prescribes board composition, independent director requirements, audit committee, nomination and remuneration committee, risk management committee for Maharatna, Navratna and Miniratna CPSEs. Applies to all listed and unlisted central PSUs."
+                },
+{
+                    "@type": "DefinedTerm",
+                    "name": "ACC (Cabinet Committee on Appointments)",
+                    "description": "The Cabinet Committee on Appointments handles senior PSU appointments including CMDs, MDs, whole-time directors of Schedule A/B/C/D CPSEs. ACC clearance is mandatory for these appointments, alongside the fit-and-proper net worth certificate that establishes the financial-soundness pillar."
+                },
+{
+                    "@type": "DefinedTerm",
+                    "name": "CVC (Central Vigilance Commission)",
+                    "description": "Apex vigilance authority for the central government. CVC clearance is required for PSU CMD and whole-time director appointments - the certificate's defaults and disciplinary proceedings disclosures align with CVC vigilance enquiry frameworks under the CVC Manual."
+                },
+{
+                    "@type": "DefinedTerm",
+                    "name": "Government Director vs Independent Director under SEBI LODR for listed PSUs",
+                    "description": "Listed central PSUs (ONGC, NTPC, Power Grid, BHEL, SAIL, IOCL, BPCL, GAIL, IRCTC, Container Corp, etc.) have a category distinction under SEBI LODR Schedule II Part D between Government Directors (nominated by the President of India through the administrative Ministry) and Independent Directors (subject to standard Section 149(6) Schedule IV eligibility). Disclosure requirements differ between the two categories."
+                }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1668,22 +1673,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
-<!-- ============================================
-     CONSULTATION FORM - Country Dropdown + Validation + Bigin Integration
-     ============================================ -->
-{{-- Enquiry form markup + JS now in partials/enquiry-form.blade.php --}}
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1706,8 +1699,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1744,5 +1735,24 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+<!-- ============================================
+     CONSULTATION FORM - Country Dropdown + Validation + Bigin Integration
+     ============================================ -->
+{{-- Enquiry form markup + JS now in partials/enquiry-form.blade.php --}}
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
 
 <!-- Last Updated hardcoded in markup per QC v2.1 (no view-time JS) -->

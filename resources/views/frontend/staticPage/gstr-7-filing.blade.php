@@ -1,146 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>GSTR-7 Filing in 2026: GST TDS Return | Patron Accounting</title>
-    <meta name="description" content="GSTR-7 is the monthly GST TDS return under Section 51 CGST Act for government, PSU and notified deductors. Starting at Rs 1,499/mo. Due 10th every month.">
-    <link rel="canonical" href="/gstr-7-filing">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="GSTR-7 Filing in 2026: GST TDS Return | Patron Accounting">
-    <meta property="og:description" content="GSTR-7 is the monthly GST TDS return under Section 51 CGST Act for government, PSU and notified deductors. Starting at Rs 1,499/mo. Due 10th every month.">
-    <meta property="og:url" content="/gstr-7-filing">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="GSTR-7 Filing in 2026: GST TDS Return | Patron Accounting">
-    <meta name="twitter:description" content="GSTR-7 is the monthly GST TDS return under Section 51 CGST Act for government, PSU and notified deductors. Starting at Rs 1,499/mo. Due 10th every month.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/gstr-7-filing/#service",
-        "name": "GSTR-7 Filing for GST TDS Deductors in India",
-        "description": "GSTR-7 filing service for GST TDS deductors under Section 51 of the CGST Act 2017 and Rule 66 of the CGST Rules. Monthly return preparation, invoice-wise reporting per Notification 09/2025, challan generation, GSTR-7A certificate delivery, and reconciliation starting from INR 1,499 per month for government departments, PSUs, and notified entities.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gstr-7-filing" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [
-            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
-            { "@type": "Thing", "name": "Tax Deducted at Source", "sameAs": "https://en.wikipedia.org/wiki/Tax_Deducted_at_Source" }
-        ],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "GSTR-7 Filing Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "Standard Monthly GSTR-7 Filing",
-                    "priceCurrency": "INR",
-                    "price": "1499",
-                    "description": "Up to 25 deductee invoices, challan generation, GSTR-7A delivery, and nil-return handling"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/gstr-7-filing/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
-            { "@type": "ListItem", "position": 3, "name": "GSTR-7 Filing", "item": "https://www.patronaccounting.com/gstr-7-filing" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/gstr-7-filing/#faq",
-        "datePublished": "2026-05-27T08:00:00+05:30",
-        "dateModified": "2026-06-01T08:00:00+05:30",
-        "mainEntity": [
-
-            {
-                "@type": "Question",
-                "name": "What is GSTR-7 and who must file it?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "GSTR-7 is the monthly GST return prescribed under Rule 66 of the CGST Rules 2017 for entities required to deduct tax at source under Section 51 of the CGST Act. It must be filed by government departments, local authorities, PSUs with 51 percent or more government ownership, governmental agencies, and societies under the Societies Registration Act 1860. The return reports deductee-wise TDS at 2 percent on contracts above Rs 2.5 lakh."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "When is the GSTR-7 due date for a monthly tax period?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "GSTR-7 is due on the 10th day of the calendar month following the tax period under Rule 66 CGST Rules 2017. For example, the April 2026 return is due by 10 May 2026. The portal applies sequential filing per Notification 17/2024 - the current month return cannot be filed unless the previous month is closed."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the late fee for missing the GSTR-7 deadline?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "The late fee is Rs 200 per day (Rs 100 CGST plus Rs 100 SGST) capped at Rs 5,000 per return under Section 47 of the CGST Act 2017. In addition, unpaid TDS attracts 18 percent annual interest under Section 50. From October 2024, no late fee applies to a nil GSTR-7 per the 53rd GST Council, but the nil return itself is still mandatory."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "At what threshold and rate is GST TDS deducted under Section 51?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "GST TDS is deducted at 2 percent of the taxable value when the total contract value with a single supplier exceeds Rs 2.5 lakh (excluding GST). For intra-state supplies the split is 1 percent CGST plus 1 percent SGST. For inter-state supplies it is 2 percent IGST. TDS does not apply when the supplier location, place of supply, and deductor registration state are in specified non-matching combinations."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Is GSTR-7 mandatory in a month with no TDS deduction?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. Following the 53rd GST Council recommendation, monthly GSTR-7 filing is mandatory even when no deduction was made during the period. From October 2024 there is no late fee for a nil GSTR-7. Skipping a nil return triggers sequential filing lock-out for the next month and prevents the deductor GSTIN from staying active on the portal."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is GSTR-7A and when is it issued?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "GSTR-7A is the TDS certificate auto-generated by the GST portal after successful filing of GSTR-7. One certificate is issued per deductee containing GSTIN of both deductor and deductee, the deducted amount, and the period reference. The deductee uses GSTR-7A to claim the TDS as credit in their electronic cash ledger and reconcile against Part C of their GSTR-2A."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How is GST TDS different from Income Tax TDS?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "GST TDS under Section 51 CGST Act is filed monthly in Form GSTR-7 by notified entities at 2 percent on contracts above Rs 2.5 lakh. Income Tax TDS under Sections 192-194 of the Income Tax Act 1961 is filed quarterly in Forms 24Q, 26Q, and 27Q by any payer making specified payments at section-specific rates. The two regimes operate under different statutes, regulators, portals, and forms."
-                }
-            }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -754,7 +618,148 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>GSTR-7 Filing in 2026: GST TDS Return | Patron Accounting</title>
+    <meta name="description" content="GSTR-7 is the monthly GST TDS return under Section 51 CGST Act for government, PSU and notified deductors. Starting at Rs 1,499/mo. Due 10th every month.">
+    <link rel="canonical" href="/gstr-7-filing">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="GSTR-7 Filing in 2026: GST TDS Return | Patron Accounting">
+    <meta property="og:description" content="GSTR-7 is the monthly GST TDS return under Section 51 CGST Act for government, PSU and notified deductors. Starting at Rs 1,499/mo. Due 10th every month.">
+    <meta property="og:url" content="/gstr-7-filing">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GSTR-7 Filing in 2026: GST TDS Return | Patron Accounting">
+    <meta name="twitter:description" content="GSTR-7 is the monthly GST TDS return under Section 51 CGST Act for government, PSU and notified deductors. Starting at Rs 1,499/mo. Due 10th every month.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/gstr-7-filing/#service",
+        "name": "GSTR-7 Filing for GST TDS Deductors in India",
+        "description": "GSTR-7 filing service for GST TDS deductors under Section 51 of the CGST Act 2017 and Rule 66 of the CGST Rules. Monthly return preparation, invoice-wise reporting per Notification 09/2025, challan generation, GSTR-7A certificate delivery, and reconciliation starting from INR 1,499 per month for government departments, PSUs, and notified entities.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gstr-7-filing" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [
+            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
+            { "@type": "Thing", "name": "Tax Deducted at Source", "sameAs": "https://en.wikipedia.org/wiki/Tax_Deducted_at_Source" }
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "GSTR-7 Filing Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "Standard Monthly GSTR-7 Filing",
+                    "priceCurrency": "INR",
+                    "price": "1499",
+                    "description": "Up to 25 deductee invoices, challan generation, GSTR-7A delivery, and nil-return handling"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/gstr-7-filing/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
+            { "@type": "ListItem", "position": 3, "name": "GSTR-7 Filing", "item": "https://www.patronaccounting.com/gstr-7-filing" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/gstr-7-filing/#faq",
+        "datePublished": "2026-05-27T08:00:00+05:30",
+        "dateModified": "2026-06-01T08:00:00+05:30",
+        "mainEntity": [
+
+            {
+                "@type": "Question",
+                "name": "What is GSTR-7 and who must file it?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "GSTR-7 is the monthly GST return prescribed under Rule 66 of the CGST Rules 2017 for entities required to deduct tax at source under Section 51 of the CGST Act. It must be filed by government departments, local authorities, PSUs with 51 percent or more government ownership, governmental agencies, and societies under the Societies Registration Act 1860. The return reports deductee-wise TDS at 2 percent on contracts above Rs 2.5 lakh."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "When is the GSTR-7 due date for a monthly tax period?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "GSTR-7 is due on the 10th day of the calendar month following the tax period under Rule 66 CGST Rules 2017. For example, the April 2026 return is due by 10 May 2026. The portal applies sequential filing per Notification 17/2024 - the current month return cannot be filed unless the previous month is closed."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the late fee for missing the GSTR-7 deadline?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The late fee is Rs 200 per day (Rs 100 CGST plus Rs 100 SGST) capped at Rs 5,000 per return under Section 47 of the CGST Act 2017. In addition, unpaid TDS attracts 18 percent annual interest under Section 50. From October 2024, no late fee applies to a nil GSTR-7 per the 53rd GST Council, but the nil return itself is still mandatory."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "At what threshold and rate is GST TDS deducted under Section 51?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "GST TDS is deducted at 2 percent of the taxable value when the total contract value with a single supplier exceeds Rs 2.5 lakh (excluding GST). For intra-state supplies the split is 1 percent CGST plus 1 percent SGST. For inter-state supplies it is 2 percent IGST. TDS does not apply when the supplier location, place of supply, and deductor registration state are in specified non-matching combinations."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is GSTR-7 mandatory in a month with no TDS deduction?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Following the 53rd GST Council recommendation, monthly GSTR-7 filing is mandatory even when no deduction was made during the period. From October 2024 there is no late fee for a nil GSTR-7. Skipping a nil return triggers sequential filing lock-out for the next month and prevents the deductor GSTIN from staying active on the portal."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is GSTR-7A and when is it issued?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "GSTR-7A is the TDS certificate auto-generated by the GST portal after successful filing of GSTR-7. One certificate is issued per deductee containing GSTIN of both deductor and deductee, the deducted amount, and the period reference. The deductee uses GSTR-7A to claim the TDS as credit in their electronic cash ledger and reconcile against Part C of their GSTR-2A."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How is GST TDS different from Income Tax TDS?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "GST TDS under Section 51 CGST Act is filed monthly in Form GSTR-7 by notified entities at 2 percent on contracts above Rs 2.5 lakh. Income Tax TDS under Sections 192-194 of the Income Tax Act 1961 is filed quarterly in Forms 24Q, 26Q, and 27Q by any payer making specified payments at section-specific rates. The two regimes operate under different statutes, regulators, portals, and forms."
+                }
+            }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1671,17 +1676,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1704,8 +1702,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1742,7 +1738,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1753,4 +1748,20 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+
 

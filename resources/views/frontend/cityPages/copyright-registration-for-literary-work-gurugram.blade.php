@@ -1,161 +1,12 @@
 
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Copyright for Literary Work Gurugram - Book & Software</title>
-    <meta name="description" content="Register literary work copyright in Gurugram. Books, software, databases, articles, blogs, lyrics. Section 2(o). Rs 500. Call +91 945 945 6700.">
-    <link rel="canonical" href="/copyright-registration-for-literary-work/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Copyright for Literary Work Gurugram - Book & Software">
-    <meta property="og:description" content="Register literary work copyright in Gurugram. Books, software, databases, articles, blogs, lyrics. Section 2(o). Rs 500. Call +91 945 945 6700.">
-    <meta property="og:url" content="/copyright-registration-for-literary-work/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Copyright for Literary Work Gurugram - Book & Software">
-    <meta name="twitter:description" content="Register literary work copyright in Gurugram. Books, software, databases, articles, blogs, lyrics. Section 2(o). Rs 500. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "Copyright for Literary Work in Gurugram | Software & Books",
-      "description": "Register literary work copyright in Gurugram. Books, software, databases, articles, blogs, lyrics. Section 2(o). Rs 500. Call +91 945 945 6700.",
-      "url": "https://www.patronaccounting.com/copyright-registration-for-literary-work/gurugram",
-      "serviceType": "Copyright for Literary Work in Gurugram | Software & Books",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/copyright-registration-for-literary-work/gurugram",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "minPrice": "500",
-          "maxPrice": "3000",
-          "priceCurrency": "INR"
-        }
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Copyright Registration For Literary Work",
-          "item": "https://www.patronaccounting.com/copyright-registration-for-literary-work"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Copyright for Literary Work in Gurugram | Software & Books",
-          "item": "https://www.patronaccounting.com/copyright-registration-for-literary-work/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What qualifies as a literary work under the Copyright Act?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 2(o) defines literary work to include computer programmes, tables, and compilations including computer databases. This is an inclusive definition covering all written or coded expression: books, articles, software source code, databases, blogs, lyrics, manuals, reports, and any other written composition. The term 'literary' does not require literary merit - a simple instruction manual qualifies equally with a novel."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does literary work copyright cost in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Government fee: Rs 500 per work for individuals, Rs 2,000 for companies. Software: Rs 500 to Rs 4,000. Professional fee: Rs 3,000 to Rs 8,000 per work. Contractor assignment deed: Rs 3,000 to Rs 5,000. Content portfolio audit: Rs 5,000 to Rs 15,000. Call +91 945 945 6700 for a detailed quote."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can software and source code be copyrighted as literary work?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. Examination and Certificate: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Who owns code written by employees vs contractors?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Employee-created works: employer is first owner under Section 17(c) for works created in the course of employment. No assignment needed. Contractor-created works: the contractor retains copyright even if the company paid for the work. A written assignment deed under Section 19 is required to transfer ownership. Payment alone does not transfer copyright."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can databases be copyrighted?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Section 2(o) includes 'compilations including computer databases' in the definition of literary work. The originality lies in the selection, arrangement, and coordination of data - not the underlying facts. Facts themselves are not copyrightable. A database with original structure and arrangement qualifies for protection."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How can digital businesses protect blog and website content?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Each article and blog post is a literary work eligible for copyright registration. Strategy: register your most-copied and highest-traffic content first. Maintain timestamps and version history for all content. Use DMCA takedown notices for infringing copies. A registered copyright certificate enables rapid legal enforcement against plagiarists."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does literary work copyright last?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Author's lifetime plus 60 years from the beginning of the calendar year following the author's death (Section 22). For joint authorship: 60 years from death of the last surviving author. Anonymous or pseudonymous works: 60 years from publication. India's Berne Convention membership means protection applies in 181+ countries. Quick Answers Software ka copyright hota hai? Haan. Software 'literary work' hai Section 2(o) ke under. Source code, object code, documentation sab protected hai. Registration Rs 500-4,000. First 10 + last 10 pages source code PDF mein submit karo. Freelancer ka code kiska hai? Freelancer ka. Section 17 ke under contractor apne kaam ka owner hai. Company ko ownership chahiye toh written assignment deed zaroori hai. Payment se copyright transfer nahi hota. Blog content register kar sakte hain? Haan. Blog post literary work hai. Rs 500 mein register. Priority: sabse zyada copy hone wala content pehle register karo. Timestamps aur version history maintain karo."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -679,7 +530,161 @@ section ul li:not(.nav-item) { font-size: 14px; }
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'Join Community'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Copyright for Literary Work Gurugram - Book & Software</title>
+    <meta name="description" content="Register literary work copyright in Gurugram. Books, software, databases, articles, blogs, lyrics. Section 2(o). Rs 500. Call +91 945 945 6700.">
+    <link rel="canonical" href="/copyright-registration-for-literary-work/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Copyright for Literary Work Gurugram - Book & Software">
+    <meta property="og:description" content="Register literary work copyright in Gurugram. Books, software, databases, articles, blogs, lyrics. Section 2(o). Rs 500. Call +91 945 945 6700.">
+    <meta property="og:url" content="/copyright-registration-for-literary-work/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Copyright for Literary Work Gurugram - Book & Software">
+    <meta name="twitter:description" content="Register literary work copyright in Gurugram. Books, software, databases, articles, blogs, lyrics. Section 2(o). Rs 500. Call +91 945 945 6700.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "Copyright for Literary Work in Gurugram | Software & Books",
+      "description": "Register literary work copyright in Gurugram. Books, software, databases, articles, blogs, lyrics. Section 2(o). Rs 500. Call +91 945 945 6700.",
+      "url": "https://www.patronaccounting.com/copyright-registration-for-literary-work/gurugram",
+      "serviceType": "Copyright for Literary Work in Gurugram | Software & Books",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.patronaccounting.com/copyright-registration-for-literary-work/gurugram",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": "500",
+          "maxPrice": "3000",
+          "priceCurrency": "INR"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Copyright Registration For Literary Work",
+          "item": "https://www.patronaccounting.com/copyright-registration-for-literary-work"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Copyright for Literary Work in Gurugram | Software & Books",
+          "item": "https://www.patronaccounting.com/copyright-registration-for-literary-work/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What qualifies as a literary work under the Copyright Act?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 2(o) defines literary work to include computer programmes, tables, and compilations including computer databases. This is an inclusive definition covering all written or coded expression: books, articles, software source code, databases, blogs, lyrics, manuals, reports, and any other written composition. The term 'literary' does not require literary merit - a simple instruction manual qualifies equally with a novel."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does literary work copyright cost in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Government fee: Rs 500 per work for individuals, Rs 2,000 for companies. Software: Rs 500 to Rs 4,000. Professional fee: Rs 3,000 to Rs 8,000 per work. Contractor assignment deed: Rs 3,000 to Rs 5,000. Content portfolio audit: Rs 5,000 to Rs 15,000. Call +91 945 945 6700 for a detailed quote."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can software and source code be copyrighted as literary work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. Examination and Certificate: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who owns code written by employees vs contractors?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Employee-created works: employer is first owner under Section 17(c) for works created in the course of employment. No assignment needed. Contractor-created works: the contractor retains copyright even if the company paid for the work. A written assignment deed under Section 19 is required to transfer ownership. Payment alone does not transfer copyright."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can databases be copyrighted?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Section 2(o) includes 'compilations including computer databases' in the definition of literary work. The originality lies in the selection, arrangement, and coordination of data - not the underlying facts. Facts themselves are not copyrightable. A database with original structure and arrangement qualifies for protection."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can digital businesses protect blog and website content?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Each article and blog post is a literary work eligible for copyright registration. Strategy: register your most-copied and highest-traffic content first. Maintain timestamps and version history for all content. Use DMCA takedown notices for infringing copies. A registered copyright certificate enables rapid legal enforcement against plagiarists."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does literary work copyright last?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Author's lifetime plus 60 years from the beginning of the calendar year following the author's death (Section 22). For joint authorship: 60 years from death of the last surviving author. Anonymous or pseudonymous works: 60 years from publication. India's Berne Convention membership means protection applies in 181+ countries. Quick Answers Software ka copyright hota hai? Haan. Software 'literary work' hai Section 2(o) ke under. Source code, object code, documentation sab protected hai. Registration Rs 500-4,000. First 10 + last 10 pages source code PDF mein submit karo. Freelancer ka code kiska hai? Freelancer ka. Section 17 ke under contractor apne kaam ka owner hai. Company ko ownership chahiye toh written assignment deed zaroori hai. Payment se copyright transfer nahi hota. Blog content register kar sakte hain? Haan. Blog post literary work hai. Rs 500 mein register. Priority: sabse zyada copy hone wala content pehle register karo. Timestamps aur version history maintain karo."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1607,7 +1612,6 @@ var tocWrapper=document.getElementById('tocWrapper');document.getElementById('to
 
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

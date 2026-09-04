@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,208 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>AR Outsourcing in Delhi 2026 | Patron Accounting</title>
-    <meta name="description" content="Accounts receivable outsourcing in Delhi from INR 7,499/mo (Exl GST and Govt. Charges). CA-led invoicing, collections, and ageing for Nehru Place firms.">
-    <link rel="canonical" href="/accounts-receivable-outsourcing-services/delhi">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="AR Outsourcing in Delhi 2026 | Patron Accounting">
-    <meta property="og:description" content="Accounts receivable outsourcing in Delhi from INR 7,499/mo (Exl GST and Govt. Charges). CA-led invoicing, collections, and ageing for Nehru Place firms.">
-    <meta property="og:url" content="/accounts-receivable-outsourcing-services/delhi">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="AR Outsourcing in Delhi 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Accounts receivable outsourcing in Delhi from INR 7,499/mo (Exl GST and Govt. Charges). CA-led invoicing, collections, and ageing for Nehru Place firms.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services/delhi#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Accounts Receivable Outsourcing Services",
-          "item": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Accounts Receivable Outsourcing Services in Delhi",
-          "item": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services/delhi"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services/delhi#faq",
-      "datePublished": "2026-06-23T08:00:00+05:30",
-      "dateModified": "2026-06-23T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What does AR outsourcing cover for a Delhi business?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patron runs your full order-to-cash cycle: customer invoicing, collections, dunning, ageing analysis, credit control, receipt application, and AR reconciliation. For Delhi firms we raise GST-compliant tax invoices under the CGST Act 2017 on output sales, so Nehru Place and Connaught Place teams get paid faster without an in-house collections desk."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What does AR outsourcing cost in Delhi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Pricing is Starting from INR 7,499/mo (Exl GST and Govt. Charges). Your final monthly fee reflects invoice volume, customer count, number of GST registrations, and how much collections follow-up is needed. Nehru Place IT firms and Okhla manufacturers receive a fixed quote before any work starts."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much can outsourced collections shorten my DSO in Delhi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We work a tight follow-up schedule, nudging customers ahead of the due date and chasing once it passes, then escalating overdue accounts along the credit policy you sign off. For a Karol Bagh trader or Nehru Place IT firm, this steady rhythm plus a clean ageing view usually trims Days Sales Outstanding by 10 to 25 days over a few cycles."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Will my Delhi sales invoices be fully GST-compliant?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "They will. Every bill we raise carries the right GSTIN, HSN or SAC code, place of supply, and the CGST, SGST, or IGST breakup as the CGST Act 2017 requires. When e-invoicing kicks in, we pull the IRN and QR code too, so the output GST on your Connaught Place or Okhla sales ties back neatly to GSTR-1."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why does AR ageing analysis matter for a Delhi business?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "An ageing report groups your unpaid invoices by how far past due they sit, normally 0-30, 31-60, 61-90, and beyond 90 days. It tells you which Delhi buyers drag their feet, how much cash is tied up, and which accounts deserve a push, so you can guard working capital and fix credit limits on facts rather than guesswork."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How are receipts applied and the AR ledger reconciled in Delhi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Each payment that comes in is pinned to its exact invoice, with part-settlements and any TDS posted, and the AR ledger is then squared against the bank and against Form 26AS wherever TDS has been deducted. Because balances stay true, a Connaught Place customer never receives a chaser for a bill they have already cleared."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can you operate inside our existing Tally, Zoho Books, or ERP?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Absolutely. We handle receivables straight within Tally, Zoho Books, QuickBooks, or Xero, whatever your Delhi firm already relies on. Invoices, receipts, and the ageing report all sit in your own system, which keeps every record in one place and leaves the audit trail fully intact."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you reach out to our customers when chasing payment?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Strictly within the boundaries you set. We send reminder emails, account statements, and dunning notes under your own name, and place courteous follow-up calls in line with your credit policy. Any delicate or disputed account, say a Cyber City client or an Okhla buyer, is brought back to you before any firm escalation, so the relationship is never put at risk."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services/delhi#service",
-      "name": "Accounts Receivable Outsourcing Services in Delhi",
-      "description": "Accounts receivable outsourcing in Delhi covers customer invoicing, collections, dunning, ageing analysis, credit control, receipt application, GST output on sales, and AR reconciliation. Patron Accounting helps Nehru Place, Okhla, and Connaught Place businesses cut DSO and protect working capital.",
-      "serviceType": "Accounts Receivable Outsourcing and Collections Management",
-      "url": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services/delhi",
-      "areaServed": {
-        "@type": "City",
-        "name": "Delhi",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Delhi"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#localbusiness-delhi"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Accounts receivable",
-          "sameAs": "https://en.wikipedia.org/wiki/Accounts_receivable"
-        },
-        {
-          "@type": "Thing",
-          "name": "Goods and Services Tax (India)",
-          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "AR Outsourcing Plans in Delhi",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "price": "7499",
-            "priceSpecification": {
-              "@type": "UnitPriceSpecification",
-              "priceCurrency": "INR",
-              "price": "7499",
-              "unitText": "per month"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Accounts Receivable Outsourcing per Month"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness-delhi",
-      "name": "Patron Accounting LLP - Delhi",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services/delhi",
-      "telephone": "+91-9699936369",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Delhi"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Delhi",
-        "addressRegion": "Delhi",
-        "postalCode": "110085",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -815,7 +612,217 @@
         .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
 
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>AR Outsourcing in Delhi 2026 | Patron Accounting</title>
+    <meta name="description" content="Accounts receivable outsourcing in Delhi from INR 7,499/mo (Exl GST and Govt. Charges). CA-led invoicing, collections, and ageing for Nehru Place firms.">
+    <link rel="canonical" href="/accounts-receivable-outsourcing-services/delhi">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="AR Outsourcing in Delhi 2026 | Patron Accounting">
+    <meta property="og:description" content="Accounts receivable outsourcing in Delhi from INR 7,499/mo (Exl GST and Govt. Charges). CA-led invoicing, collections, and ageing for Nehru Place firms.">
+    <meta property="og:url" content="/accounts-receivable-outsourcing-services/delhi">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="AR Outsourcing in Delhi 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Accounts receivable outsourcing in Delhi from INR 7,499/mo (Exl GST and Govt. Charges). CA-led invoicing, collections, and ageing for Nehru Place firms.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services/delhi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Accounts Receivable Outsourcing Services",
+          "item": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Accounts Receivable Outsourcing Services in Delhi",
+          "item": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services/delhi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services/delhi#faq",
+      "datePublished": "2026-06-23T08:00:00+05:30",
+      "dateModified": "2026-06-23T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does AR outsourcing cover for a Delhi business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patron runs your full order-to-cash cycle: customer invoicing, collections, dunning, ageing analysis, credit control, receipt application, and AR reconciliation. For Delhi firms we raise GST-compliant tax invoices under the CGST Act 2017 on output sales, so Nehru Place and Connaught Place teams get paid faster without an in-house collections desk."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does AR outsourcing cost in Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pricing is Starting from INR 7,499/mo (Exl GST and Govt. Charges). Your final monthly fee reflects invoice volume, customer count, number of GST registrations, and how much collections follow-up is needed. Nehru Place IT firms and Okhla manufacturers receive a fixed quote before any work starts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much can outsourced collections shorten my DSO in Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We work a tight follow-up schedule, nudging customers ahead of the due date and chasing once it passes, then escalating overdue accounts along the credit policy you sign off. For a Karol Bagh trader or Nehru Place IT firm, this steady rhythm plus a clean ageing view usually trims Days Sales Outstanding by 10 to 25 days over a few cycles."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will my Delhi sales invoices be fully GST-compliant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "They will. Every bill we raise carries the right GSTIN, HSN or SAC code, place of supply, and the CGST, SGST, or IGST breakup as the CGST Act 2017 requires. When e-invoicing kicks in, we pull the IRN and QR code too, so the output GST on your Connaught Place or Okhla sales ties back neatly to GSTR-1."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does AR ageing analysis matter for a Delhi business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An ageing report groups your unpaid invoices by how far past due they sit, normally 0-30, 31-60, 61-90, and beyond 90 days. It tells you which Delhi buyers drag their feet, how much cash is tied up, and which accounts deserve a push, so you can guard working capital and fix credit limits on facts rather than guesswork."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How are receipts applied and the AR ledger reconciled in Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Each payment that comes in is pinned to its exact invoice, with part-settlements and any TDS posted, and the AR ledger is then squared against the bank and against Form 26AS wherever TDS has been deducted. Because balances stay true, a Connaught Place customer never receives a chaser for a bill they have already cleared."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you operate inside our existing Tally, Zoho Books, or ERP?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. We handle receivables straight within Tally, Zoho Books, QuickBooks, or Xero, whatever your Delhi firm already relies on. Invoices, receipts, and the ageing report all sit in your own system, which keeps every record in one place and leaves the audit trail fully intact."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you reach out to our customers when chasing payment?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Strictly within the boundaries you set. We send reminder emails, account statements, and dunning notes under your own name, and place courteous follow-up calls in line with your credit policy. Any delicate or disputed account, say a Cyber City client or an Okhla buyer, is brought back to you before any firm escalation, so the relationship is never put at risk."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services/delhi#service",
+      "name": "Accounts Receivable Outsourcing Services in Delhi",
+      "description": "Accounts receivable outsourcing in Delhi covers customer invoicing, collections, dunning, ageing analysis, credit control, receipt application, GST output on sales, and AR reconciliation. Patron Accounting helps Nehru Place, Okhla, and Connaught Place businesses cut DSO and protect working capital.",
+      "serviceType": "Accounts Receivable Outsourcing and Collections Management",
+      "url": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services/delhi",
+      "areaServed": {
+        "@type": "City",
+        "name": "Delhi",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Delhi"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#localbusiness-delhi"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Accounts receivable",
+          "sameAs": "https://en.wikipedia.org/wiki/Accounts_receivable"
+        },
+        {
+          "@type": "Thing",
+          "name": "Goods and Services Tax (India)",
+          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "AR Outsourcing Plans in Delhi",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "price": "7499",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "INR",
+              "price": "7499",
+              "unitText": "per month"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Accounts Receivable Outsourcing per Month"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness-delhi",
+      "name": "Patron Accounting LLP - Delhi",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/accounts-receivable-outsourcing-services/delhi",
+      "telephone": "+91-9699936369",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Delhi"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Delhi",
+        "addressRegion": "Delhi",
+        "postalCode": "110085",
+        "addressCountry": "IN"
+      },
+      "parentOrganization": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1566,7 +1573,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

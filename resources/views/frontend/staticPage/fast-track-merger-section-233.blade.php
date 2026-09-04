@@ -1,181 +1,11 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Fast Track Merger Section 233 in 2026: RD Route | Patron Accounting</title>
-    <meta name="description" content="Fast track merger under Section 233 needs Regional Director approval, not NCLT. 60 day timeline. Starting from INR 1,99,999. Call Patron Accounting.">
-    <link rel="canonical" href="/fast-track-merger-section-233">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Fast Track Merger Section 233 in 2026: RD Route | Patron Accounting">
-    <meta property="og:description" content="Fast track merger under Section 233 needs Regional Director approval, not NCLT. 60 day timeline. Starting from INR 1,99,999. Call Patron Accounting.">
-    <meta property="og:url" content="/fast-track-merger-section-233">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Fast Track Merger Section 233 in 2026: RD Route | Patron Accounting">
-    <meta name="twitter:description" content="Fast track merger under Section 233 needs Regional Director approval, not NCLT. 60 day timeline. Starting from INR 1,99,999. Call Patron Accounting.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/fast-track-merger-section-233/#service",
-        "name": "Fast Track Merger Under Section 233",
-        "description": "Fast track merger services from Patron Accounting LLP execute the Section 233 Regional Director route end to end for eligible group companies, from the eligibility and structuring opinion under Section 233 of the Companies Act 2013 and Rule 25 of the Companies (Compromises, Arrangements and Amalgamations) Rules 2016, as amended by G.S.R. 603(E) dated 4 September 2025, through scheme drafting, the declaration of solvency in Form CAA-10 and registered valuer support, the CAA-9 notice to the Registrar of Companies, the Official Liquidator and any applicable sectoral regulator, securing 90 percent member and 90 percent creditor consent, filing the approved scheme in Form CAA-11 within 15 days, obtaining the Regional Director confirmation order in Form CAA-12 within the statutory 60 day window, and the post-order vesting, share allotment and INC-28 filing, covering small companies, holding and wholly owned subsidiary combinations, start ups, and the classes added by the 2025 amendment including unlisted companies up to Rs 200 crore borrowings, non wholly owned subsidiaries and fellow subsidiaries, as well as fast track demergers and the division or transfer of an undertaking.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/fast-track-merger-section-233" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Mergers and acquisitions", "sameAs": "https://en.wikipedia.org/wiki/Mergers_and_acquisitions" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Fast Track Merger Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "Fast Track Merger (Section 233) Service",
-                    "priceCurrency": "INR",
-                    "price": "199999",
-                    "description": "Fast track merger under Section 233 via the Regional Director route, covering eligibility review, scheme drafting, form preparation and Regional Director filing for a standard two company merger, exclusive of GST and government charges. The final fee depends on the number of companies, creditor and member count, valuation needs and whether sectoral regulator notices apply; government and stamp charges are billed at actuals."
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/fast-track-merger-section-233/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Company Compliance", "item": "https://www.patronaccounting.com/corporate-compliance-services" },
-            { "@type": "ListItem", "position": 3, "name": "Fast Track Merger", "item": "https://www.patronaccounting.com/fast-track-merger-section-233" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/fast-track-merger-section-233/#faq",
-        "datePublished": "2026-06-04T08:00:00+05:30",
-        "dateModified": "2026-06-04T08:00:00+05:30",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "What is a fast track merger under Section 233?",
-                "acceptedAnswer": { "@type": "Answer", "text": "A fast track merger under Section 233 of the Companies Act 2013 is a simplified merger approved by the Regional Director instead of the NCLT. It applies to specified classes such as small companies and holding subsidiary groups, follows a statutory 60 day timeline, and requires 90% consent from members and creditors." }
-            },
-            {
-                "@type": "Question",
-                "name": "Which companies are eligible for a fast track merger?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Eligible classes include two or more small companies, a holding company and its subsidiary, and two or more start ups. The September 2025 amendment added unlisted companies with borrowings up to Rs 200 crore, non wholly owned subsidiaries, and fellow subsidiaries of the same holding company, provided the transferor is not listed." }
-            },
-            {
-                "@type": "Question",
-                "name": "Does a fast track merger need NCLT approval?",
-                "acceptedAnswer": { "@type": "Answer", "text": "No. A fast track merger is approved by the Regional Director under delegated Central Government powers, with oversight from the Registrar of Companies and Official Liquidator. The matter goes to the NCLT under Section 233(5) only if objections are raised and cannot be resolved at the Regional Director stage." }
-            },
-            {
-                "@type": "Question",
-                "name": "How long does a Section 233 merger take?",
-                "acceptedAnswer": { "@type": "Answer", "text": "The Regional Director has a statutory 60 day window to register a scheme where no objection arises. Including board meetings, member and creditor notices, and form preparation, a clean fast track merger usually completes in about 60 to 90 days, against 9 to 12 months for the NCLT route." }
-            },
-            {
-                "@type": "Question",
-                "name": "What forms are filed in a fast track merger?",
-                "acceptedAnswer": { "@type": "Answer", "text": "The core forms are CAA-9 for the notice inviting objections, CAA-10 for the declaration of solvency, CAA-11 for filing the approved scheme, and CAA-12 for the confirmation order. Form GNL-1 is used for filings with the Registrar, and INC-28 is filed within 30 days of the confirmation order to complete the merger." }
-            },
-            {
-                "@type": "Question",
-                "name": "What changed in the September 2025 fast track merger amendment?",
-                "acceptedAnswer": { "@type": "Answer", "text": "The amendment notified on 4 September 2025 widened eligibility to unlisted companies up to Rs 200 crore borrowings, non wholly owned subsidiaries, and fellow subsidiaries. It extended the route to demergers and division of undertakings, and required CAA-9 notices to sectoral regulators such as RBI, SEBI, IRDAI and PFRDA where applicable." }
-            },
-            {
-                "@type": "Question",
-                "name": "How much does a fast track merger cost?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Patron Accounting fees for a fast track merger start from INR 1,99,999 (Exl GST and Govt. Charges) for a standard two company merger. The final fee depends on the number of companies, creditor and member count, valuation needs, and whether sectoral regulator notices apply. Government and stamp charges are billed at actuals." }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/fast-track-merger-section-233",
-        "name": "Fast Track Merger Under Section 233",
-        "description": "Fast track merger under Section 233 needs Regional Director approval, not NCLT. 60 day timeline. Starting from INR 1,99,999. Call Patron Accounting.",
-        "url": "https://www.patronaccounting.com/fast-track-merger-section-233",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/fast-track-merger-section-233/#service" },
-        "datePublished": "2026-06-04T08:00:00+05:30",
-        "dateModified": "2026-06-04T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/fast-track-merger-section-233/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "7 Steps in the Fast Track Merger Process",
-        "description": "How a fast track merger under Section 233 runs, from checking the objects clause and board approvals through the CAA-9 notice, member and creditor consent and CAA-11 scheme filing to the Regional Director order in CAA-12 and the INC-28 completion filing.",
-        "totalTime": "P90D",
-        "step": [
-            { "@type": "HowToStep", "name": "Check the objects clause", "text": "Confirm the Memorandum of Association of each company permits amalgamation." },
-            { "@type": "HowToStep", "name": "Hold board meetings", "text": "Each board approves the scheme and the declaration of solvency in Form CAA-10." },
-            { "@type": "HowToStep", "name": "Issue notice in Form CAA-9", "text": "Send the scheme to the ROC, the Official Liquidator and any applicable sectoral regulator, inviting objections within 30 days." },
-            { "@type": "HowToStep", "name": "Obtain member and creditor approval", "text": "Convene meetings on 21 days notice; members holding 90% of shares and creditors holding 90% in value must consent." },
-            { "@type": "HowToStep", "name": "File the scheme in Form CAA-11", "text": "The transferee files the approved scheme with the Central Government within 15 days of the approvals." },
-            { "@type": "HowToStep", "name": "Regional Director order", "text": "If no objection arises within 60 days, the RD registers the scheme and issues a confirmation order in Form CAA-12." },
-            { "@type": "HowToStep", "name": "File INC-28", "text": "File the confirmation order with the ROC in Form INC-28 within 30 days to complete the merger." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Fast Track Merger Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Regional Director", "description": "The Central Government officer who approves fast track schemes under delegated powers." },
-            { "@type": "DefinedTerm", "name": "Transferor company", "description": "The company that merges into another and ceases to exist on the merger taking effect." },
-            { "@type": "DefinedTerm", "name": "Transferee company", "description": "The company that absorbs the transferor and continues after the merger." },
-            { "@type": "DefinedTerm", "name": "Declaration of solvency", "description": "A board declaration that the company can pay its debts, filed in Form CAA-10." },
-            { "@type": "DefinedTerm", "name": "Wholly owned subsidiary", "description": "A company whose entire share capital is held by its holding company." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -789,7 +619,182 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Fast Track Merger Section 233 in 2026: RD Route | Patron Accounting</title>
+    <meta name="description" content="Fast track merger under Section 233 needs Regional Director approval, not NCLT. 60 day timeline. Starting from INR 1,99,999. Call Patron Accounting.">
+    <link rel="canonical" href="/fast-track-merger-section-233">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Fast Track Merger Section 233 in 2026: RD Route | Patron Accounting">
+    <meta property="og:description" content="Fast track merger under Section 233 needs Regional Director approval, not NCLT. 60 day timeline. Starting from INR 1,99,999. Call Patron Accounting.">
+    <meta property="og:url" content="/fast-track-merger-section-233">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Fast Track Merger Section 233 in 2026: RD Route | Patron Accounting">
+    <meta name="twitter:description" content="Fast track merger under Section 233 needs Regional Director approval, not NCLT. 60 day timeline. Starting from INR 1,99,999. Call Patron Accounting.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/fast-track-merger-section-233/#service",
+        "name": "Fast Track Merger Under Section 233",
+        "description": "Fast track merger services from Patron Accounting LLP execute the Section 233 Regional Director route end to end for eligible group companies, from the eligibility and structuring opinion under Section 233 of the Companies Act 2013 and Rule 25 of the Companies (Compromises, Arrangements and Amalgamations) Rules 2016, as amended by G.S.R. 603(E) dated 4 September 2025, through scheme drafting, the declaration of solvency in Form CAA-10 and registered valuer support, the CAA-9 notice to the Registrar of Companies, the Official Liquidator and any applicable sectoral regulator, securing 90 percent member and 90 percent creditor consent, filing the approved scheme in Form CAA-11 within 15 days, obtaining the Regional Director confirmation order in Form CAA-12 within the statutory 60 day window, and the post-order vesting, share allotment and INC-28 filing, covering small companies, holding and wholly owned subsidiary combinations, start ups, and the classes added by the 2025 amendment including unlisted companies up to Rs 200 crore borrowings, non wholly owned subsidiaries and fellow subsidiaries, as well as fast track demergers and the division or transfer of an undertaking.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/fast-track-merger-section-233" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Mergers and acquisitions", "sameAs": "https://en.wikipedia.org/wiki/Mergers_and_acquisitions" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Fast Track Merger Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "Fast Track Merger (Section 233) Service",
+                    "priceCurrency": "INR",
+                    "price": "199999",
+                    "description": "Fast track merger under Section 233 via the Regional Director route, covering eligibility review, scheme drafting, form preparation and Regional Director filing for a standard two company merger, exclusive of GST and government charges. The final fee depends on the number of companies, creditor and member count, valuation needs and whether sectoral regulator notices apply; government and stamp charges are billed at actuals."
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/fast-track-merger-section-233/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Company Compliance", "item": "https://www.patronaccounting.com/corporate-compliance-services" },
+            { "@type": "ListItem", "position": 3, "name": "Fast Track Merger", "item": "https://www.patronaccounting.com/fast-track-merger-section-233" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/fast-track-merger-section-233/#faq",
+        "datePublished": "2026-06-04T08:00:00+05:30",
+        "dateModified": "2026-06-04T08:00:00+05:30",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is a fast track merger under Section 233?",
+                "acceptedAnswer": { "@type": "Answer", "text": "A fast track merger under Section 233 of the Companies Act 2013 is a simplified merger approved by the Regional Director instead of the NCLT. It applies to specified classes such as small companies and holding subsidiary groups, follows a statutory 60 day timeline, and requires 90% consent from members and creditors." }
+            },
+            {
+                "@type": "Question",
+                "name": "Which companies are eligible for a fast track merger?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Eligible classes include two or more small companies, a holding company and its subsidiary, and two or more start ups. The September 2025 amendment added unlisted companies with borrowings up to Rs 200 crore, non wholly owned subsidiaries, and fellow subsidiaries of the same holding company, provided the transferor is not listed." }
+            },
+            {
+                "@type": "Question",
+                "name": "Does a fast track merger need NCLT approval?",
+                "acceptedAnswer": { "@type": "Answer", "text": "No. A fast track merger is approved by the Regional Director under delegated Central Government powers, with oversight from the Registrar of Companies and Official Liquidator. The matter goes to the NCLT under Section 233(5) only if objections are raised and cannot be resolved at the Regional Director stage." }
+            },
+            {
+                "@type": "Question",
+                "name": "How long does a Section 233 merger take?",
+                "acceptedAnswer": { "@type": "Answer", "text": "The Regional Director has a statutory 60 day window to register a scheme where no objection arises. Including board meetings, member and creditor notices, and form preparation, a clean fast track merger usually completes in about 60 to 90 days, against 9 to 12 months for the NCLT route." }
+            },
+            {
+                "@type": "Question",
+                "name": "What forms are filed in a fast track merger?",
+                "acceptedAnswer": { "@type": "Answer", "text": "The core forms are CAA-9 for the notice inviting objections, CAA-10 for the declaration of solvency, CAA-11 for filing the approved scheme, and CAA-12 for the confirmation order. Form GNL-1 is used for filings with the Registrar, and INC-28 is filed within 30 days of the confirmation order to complete the merger." }
+            },
+            {
+                "@type": "Question",
+                "name": "What changed in the September 2025 fast track merger amendment?",
+                "acceptedAnswer": { "@type": "Answer", "text": "The amendment notified on 4 September 2025 widened eligibility to unlisted companies up to Rs 200 crore borrowings, non wholly owned subsidiaries, and fellow subsidiaries. It extended the route to demergers and division of undertakings, and required CAA-9 notices to sectoral regulators such as RBI, SEBI, IRDAI and PFRDA where applicable." }
+            },
+            {
+                "@type": "Question",
+                "name": "How much does a fast track merger cost?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Patron Accounting fees for a fast track merger start from INR 1,99,999 (Exl GST and Govt. Charges) for a standard two company merger. The final fee depends on the number of companies, creditor and member count, valuation needs, and whether sectoral regulator notices apply. Government and stamp charges are billed at actuals." }
+            }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/fast-track-merger-section-233",
+        "name": "Fast Track Merger Under Section 233",
+        "description": "Fast track merger under Section 233 needs Regional Director approval, not NCLT. 60 day timeline. Starting from INR 1,99,999. Call Patron Accounting.",
+        "url": "https://www.patronaccounting.com/fast-track-merger-section-233",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/fast-track-merger-section-233/#service" },
+        "datePublished": "2026-06-04T08:00:00+05:30",
+        "dateModified": "2026-06-04T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/fast-track-merger-section-233/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "7 Steps in the Fast Track Merger Process",
+        "description": "How a fast track merger under Section 233 runs, from checking the objects clause and board approvals through the CAA-9 notice, member and creditor consent and CAA-11 scheme filing to the Regional Director order in CAA-12 and the INC-28 completion filing.",
+        "totalTime": "P90D",
+        "step": [
+            { "@type": "HowToStep", "name": "Check the objects clause", "text": "Confirm the Memorandum of Association of each company permits amalgamation." },
+            { "@type": "HowToStep", "name": "Hold board meetings", "text": "Each board approves the scheme and the declaration of solvency in Form CAA-10." },
+            { "@type": "HowToStep", "name": "Issue notice in Form CAA-9", "text": "Send the scheme to the ROC, the Official Liquidator and any applicable sectoral regulator, inviting objections within 30 days." },
+            { "@type": "HowToStep", "name": "Obtain member and creditor approval", "text": "Convene meetings on 21 days notice; members holding 90% of shares and creditors holding 90% in value must consent." },
+            { "@type": "HowToStep", "name": "File the scheme in Form CAA-11", "text": "The transferee files the approved scheme with the Central Government within 15 days of the approvals." },
+            { "@type": "HowToStep", "name": "Regional Director order", "text": "If no objection arises within 60 days, the RD registers the scheme and issues a confirmation order in Form CAA-12." },
+            { "@type": "HowToStep", "name": "File INC-28", "text": "File the confirmation order with the ROC in Form INC-28 within 30 days to complete the merger." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Fast Track Merger Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Regional Director", "description": "The Central Government officer who approves fast track schemes under delegated powers." },
+            { "@type": "DefinedTerm", "name": "Transferor company", "description": "The company that merges into another and ceases to exist on the merger taking effect." },
+            { "@type": "DefinedTerm", "name": "Transferee company", "description": "The company that absorbs the transferor and continues after the merger." },
+            { "@type": "DefinedTerm", "name": "Declaration of solvency", "description": "A board declaration that the company can pay its debts, filed in Form CAA-10." },
+            { "@type": "DefinedTerm", "name": "Wholly owned subsidiary", "description": "A company whose entire share capital is held by its holding company." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1554,17 +1559,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1587,8 +1585,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1625,7 +1621,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1 (corrected): Last Updated mirrors schema dateModified, stable hardcoded date
 (function() {
@@ -1636,3 +1631,19 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

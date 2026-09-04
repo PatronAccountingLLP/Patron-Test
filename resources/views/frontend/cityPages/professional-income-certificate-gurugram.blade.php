@@ -1,173 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Professional Income Certificate by CA in Gurugram 2026 | Patron Accounting</title>
-    <meta name="description" content="Professional Income Certificate by a CA with UDIN for doctors, lawyers, consultants, and architects. Practice income proof for visa and loan. From INR 1,999.">
-    <link rel="canonical" href="/professional-income-certificate/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Professional Income Certificate by CA 2026 | Patron Accounting">
-    <meta property="og:description" content="Professional Income Certificate by a CA with UDIN for doctors, lawyers, consultants, and architects. Practice income proof for visa and loan. From INR 1,999.">
-    <meta property="og:url" content="/professional-income-certificate/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Professional Income Certificate by CA 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Professional Income Certificate by a CA with UDIN for doctors, lawyers, consultants, and architects. Practice income proof for visa and loan. From INR 1,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/professional-income-certificate/gurugram/#service",
-        "name": "Professional Income Certificate in Gurugram",
-        "description": "Preparation and CA attestation of a professional income certificate for specified professionals under Section 44AA (doctors, lawyers, CAs, architects, consultants), certifying practice fees and gross receipts, often on the Section 44ADA presumptive basis, for visa, loan, and credit, with a mandatory 18-digit UDIN. For professionals who have no Form 16.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/professional-income-certificate/gurugram" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Profession", "sameAs": "https://en.wikipedia.org/wiki/Profession" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Professional Income Certificate Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": { "@type": "Service", "name": "Professional income certificate attestation by a CA" },
-                    "priceCurrency": "INR",
-                    "price": "1999",
-                    "description": "Starting from INR 1,999 (excl. GST and govt. charges)"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/professional-income-certificate/gurugram/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "ITR Filing for Professionals", "item": "https://www.patronaccounting.com/itr-for-professionals" },
-            { "@type": "ListItem", "position": 3, "name": "Professional Income Certificate", "item": "https://www.patronaccounting.com/professional-income-certificate/gurugram" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/professional-income-certificate/gurugram/#faq",
-        "datePublished": "2026-06-09T08:00:00+05:30",
-        "dateModified": "2026-06-09T08:00:00+05:30",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "What is a professional income certificate?",
-                "acceptedAnswer": { "@type": "Answer", "text": "It is a CA's attestation of the income a professional earns from practice, their fees and gross receipts, and the income computed on that basis. It is aimed at specified professionals such as doctors, lawyers, CAs, and architects, who report income from profession rather than salary, and is used as income proof for visas and loans." }
-            },
-            {
-                "@type": "Question",
-                "name": "Who is a specified professional?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Section 44AA of the Income-tax Act lists specified professions, including medical (doctors, dentists), legal (lawyers, advocates), accountancy (CAs, CS, cost accountants), engineering and architecture, technical consultancy, interior decoration, and certain CBDT-notified professions such as film artists." }
-            },
-            {
-                "@type": "Question",
-                "name": "How is this different from a general income certificate?",
-                "acceptedAnswer": { "@type": "Answer", "text": "A professional income certificate specifically attests practice income for a specified professional, often on the 44ADA presumptive basis. A general income certificate covers income from any source for any individual or family. If your income is solely from your profession, the professional certificate is the precise fit." }
-            },
-            {
-                "@type": "Question",
-                "name": "What is Section 44ADA and how does it relate?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Section 44ADA is a presumptive scheme under which 50 percent of a professional's gross receipts is deemed income, available where gross receipts do not exceed Rs 50 lakh, or Rs 75 lakh if cash receipts are 5 percent or less. Many professional income certificates reflect this basis, since it is how the professional's ITR is often filed." }
-            },
-            {
-                "@type": "Question",
-                "name": "Can I get income proof without Form 16?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Yes. That is the core purpose of this certificate. Professionals in independent practice do not receive Form 16, so a CA-attested professional income certificate, supported by your ITR and receipts, is the recognised way to evidence your income for lenders and embassies." }
-            },
-            {
-                "@type": "Question",
-                "name": "Who can issue a professional income certificate?",
-                "acceptedAnswer": { "@type": "Answer", "text": "A practising Chartered Accountant registered with ICAI, holding a valid Certificate of Practice. The certificate carries the CA's seal, firm registration number, and an 18-digit UDIN that the recipient can verify online." }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/professional-income-certificate/gurugram",
-        "name": "Professional Income Certificate in Gurugram",
-        "description": "Professional Income Certificate by a CA with UDIN for doctors, lawyers, consultants, and architects. Practice income proof for visa and loan. From INR 1,999.",
-        "url": "https://www.patronaccounting.com/professional-income-certificate/gurugram",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/professional-income-certificate/gurugram/#service" },
-        "datePublished": "2026-06-09T08:00:00+05:30",
-        "dateModified": "2026-06-09T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/professional-income-certificate/gurugram/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How a Professional Income Certificate Is Prepared",
-        "description": "The process to a CA-attested professional income certificate: share receipts and ITR, compute practice income on the correct basis, and issue the certificate on letterhead with UDIN.",
-        "totalTime": "P2D",
-        "step": [
-            { "@type": "HowToStep", "name": "Share receipts and ITR", "text": "Provide gross receipts or fee records and the ITR or computation for the relevant years." },
-            { "@type": "HowToStep", "name": "Confirm the purpose and format", "text": "Tell us the purpose - visa, loan, or credit - and any format the recipient requires." },
-            { "@type": "HowToStep", "name": "Compute practice income", "text": "We compute income from gross receipts, reflecting the Section 44ADA basis where applicable." },
-            { "@type": "HowToStep", "name": "Attest with UDIN", "text": "The CA issues the certificate on letterhead with seal and a mandatory 18-digit UDIN." },
-            { "@type": "HowToStep", "name": "Use for visa or loan", "text": "Submit the certificate as recognised income proof to the embassy or lender." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Professional Income Certificate Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Professional practice income", "description": "Fees and gross receipts earned from rendering professional services." },
-            { "@type": "DefinedTerm", "name": "Section 44AA", "description": "The provision listing specified professions (medical, legal, accountancy, etc.)." },
-            { "@type": "DefinedTerm", "name": "Section 44ADA", "description": "Presumptive scheme where 50% of gross receipts is deemed income." },
-            { "@type": "DefinedTerm", "name": "Gross receipts", "description": "The total professional fees received, before expenses." },
-            { "@type": "DefinedTerm", "name": "UDIN", "description": "18-digit number mandatory on every CA certificate since 1 July 2019." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -781,7 +618,175 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Professional Income Certificate by CA in Gurugram 2026 | Patron Accounting</title>
+    <meta name="description" content="Professional Income Certificate by a CA with UDIN for doctors, lawyers, consultants, and architects. Practice income proof for visa and loan. From INR 1,999.">
+    <link rel="canonical" href="/professional-income-certificate/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Professional Income Certificate by CA 2026 | Patron Accounting">
+    <meta property="og:description" content="Professional Income Certificate by a CA with UDIN for doctors, lawyers, consultants, and architects. Practice income proof for visa and loan. From INR 1,999.">
+    <meta property="og:url" content="/professional-income-certificate/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Professional Income Certificate by CA 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Professional Income Certificate by a CA with UDIN for doctors, lawyers, consultants, and architects. Practice income proof for visa and loan. From INR 1,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/professional-income-certificate/gurugram/#service",
+        "name": "Professional Income Certificate in Gurugram",
+        "description": "Preparation and CA attestation of a professional income certificate for specified professionals under Section 44AA (doctors, lawyers, CAs, architects, consultants), certifying practice fees and gross receipts, often on the Section 44ADA presumptive basis, for visa, loan, and credit, with a mandatory 18-digit UDIN. For professionals who have no Form 16.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/professional-income-certificate/gurugram" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Profession", "sameAs": "https://en.wikipedia.org/wiki/Profession" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Professional Income Certificate Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": { "@type": "Service", "name": "Professional income certificate attestation by a CA" },
+                    "priceCurrency": "INR",
+                    "price": "1999",
+                    "description": "Starting from INR 1,999 (excl. GST and govt. charges)"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/professional-income-certificate/gurugram/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "ITR Filing for Professionals", "item": "https://www.patronaccounting.com/itr-for-professionals" },
+            { "@type": "ListItem", "position": 3, "name": "Professional Income Certificate", "item": "https://www.patronaccounting.com/professional-income-certificate/gurugram" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/professional-income-certificate/gurugram/#faq",
+        "datePublished": "2026-06-09T08:00:00+05:30",
+        "dateModified": "2026-06-09T08:00:00+05:30",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is a professional income certificate?",
+                "acceptedAnswer": { "@type": "Answer", "text": "It is a CA's attestation of the income a professional earns from practice, their fees and gross receipts, and the income computed on that basis. It is aimed at specified professionals such as doctors, lawyers, CAs, and architects, who report income from profession rather than salary, and is used as income proof for visas and loans." }
+            },
+            {
+                "@type": "Question",
+                "name": "Who is a specified professional?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Section 44AA of the Income-tax Act lists specified professions, including medical (doctors, dentists), legal (lawyers, advocates), accountancy (CAs, CS, cost accountants), engineering and architecture, technical consultancy, interior decoration, and certain CBDT-notified professions such as film artists." }
+            },
+            {
+                "@type": "Question",
+                "name": "How is this different from a general income certificate?",
+                "acceptedAnswer": { "@type": "Answer", "text": "A professional income certificate specifically attests practice income for a specified professional, often on the 44ADA presumptive basis. A general income certificate covers income from any source for any individual or family. If your income is solely from your profession, the professional certificate is the precise fit." }
+            },
+            {
+                "@type": "Question",
+                "name": "What is Section 44ADA and how does it relate?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Section 44ADA is a presumptive scheme under which 50 percent of a professional's gross receipts is deemed income, available where gross receipts do not exceed Rs 50 lakh, or Rs 75 lakh if cash receipts are 5 percent or less. Many professional income certificates reflect this basis, since it is how the professional's ITR is often filed." }
+            },
+            {
+                "@type": "Question",
+                "name": "Can I get income proof without Form 16?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Yes. That is the core purpose of this certificate. Professionals in independent practice do not receive Form 16, so a CA-attested professional income certificate, supported by your ITR and receipts, is the recognised way to evidence your income for lenders and embassies." }
+            },
+            {
+                "@type": "Question",
+                "name": "Who can issue a professional income certificate?",
+                "acceptedAnswer": { "@type": "Answer", "text": "A practising Chartered Accountant registered with ICAI, holding a valid Certificate of Practice. The certificate carries the CA's seal, firm registration number, and an 18-digit UDIN that the recipient can verify online." }
+            }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/professional-income-certificate/gurugram",
+        "name": "Professional Income Certificate in Gurugram",
+        "description": "Professional Income Certificate by a CA with UDIN for doctors, lawyers, consultants, and architects. Practice income proof for visa and loan. From INR 1,999.",
+        "url": "https://www.patronaccounting.com/professional-income-certificate/gurugram",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/professional-income-certificate/gurugram/#service" },
+        "datePublished": "2026-06-09T08:00:00+05:30",
+        "dateModified": "2026-06-09T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/professional-income-certificate/gurugram/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How a Professional Income Certificate Is Prepared",
+        "description": "The process to a CA-attested professional income certificate: share receipts and ITR, compute practice income on the correct basis, and issue the certificate on letterhead with UDIN.",
+        "totalTime": "P2D",
+        "step": [
+            { "@type": "HowToStep", "name": "Share receipts and ITR", "text": "Provide gross receipts or fee records and the ITR or computation for the relevant years." },
+            { "@type": "HowToStep", "name": "Confirm the purpose and format", "text": "Tell us the purpose - visa, loan, or credit - and any format the recipient requires." },
+            { "@type": "HowToStep", "name": "Compute practice income", "text": "We compute income from gross receipts, reflecting the Section 44ADA basis where applicable." },
+            { "@type": "HowToStep", "name": "Attest with UDIN", "text": "The CA issues the certificate on letterhead with seal and a mandatory 18-digit UDIN." },
+            { "@type": "HowToStep", "name": "Use for visa or loan", "text": "Submit the certificate as recognised income proof to the embassy or lender." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Professional Income Certificate Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Professional practice income", "description": "Fees and gross receipts earned from rendering professional services." },
+            { "@type": "DefinedTerm", "name": "Section 44AA", "description": "The provision listing specified professions (medical, legal, accountancy, etc.)." },
+            { "@type": "DefinedTerm", "name": "Section 44ADA", "description": "Presumptive scheme where 50% of gross receipts is deemed income." },
+            { "@type": "DefinedTerm", "name": "Gross receipts", "description": "The total professional fees received, before expenses." },
+            { "@type": "DefinedTerm", "name": "UDIN", "description": "18-digit number mandatory on every CA certificate since 1 July 2019." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1598,17 +1603,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1631,8 +1629,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1669,7 +1665,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1 (Schema Standard v2.1 / Rule 36): visible "Last Updated" mirrors schema dateModified
 // (9 June 2026) as a STABLE value - never live new Date().
@@ -1681,3 +1676,19 @@ window.addEventListener('scroll', function() {
     if (el2) el2.textContent = dateStr;
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

@@ -104,13 +104,15 @@
         @endif
     </div>
 </div>
-@endsection
 
-@push('scripts')
 <script>
     // Auto-hide alerts after 5 seconds
     setTimeout(function() {
         $('.alert-professional').fadeOut();
     }, 5000);
 </script>
+@endsection
+
+@push('scripts')
+
 @endpush

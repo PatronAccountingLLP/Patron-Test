@@ -1,181 +1,5 @@
 @extends('layouts.app')
-@section('meta')
-<title>ESOP TDS Calculator | Section 192 Perquisite FY 2025-26</title>
-<meta name="description" content="ESOP TDS calculator: compute the employer's Section 192 TDS on the ESOP perquisite at exercise for FY 2025-26, plus the 192(1C) startup deferral date. Free!">
-<meta name="robots" content="index, follow">
-<meta name="theme-color" content="#15365f">
-<link rel="canonical" href="https://www.patronaccounting.com/tools/esop-tds-calculator">
-
-<meta property="og:title" content="ESOP TDS Calculator — Section 192 on Perquisite 2026">
-<meta property="og:description" content="Compute the employer's Section 192 TDS on the ESOP perquisite at exercise using the average rate of tax, and the Section 192(1C) startup deferral trigger date.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.patronaccounting.com/tools/esop-tds-calculator">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="1200">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-<meta property="og:site_name" content="Patron Accounting">
-<meta property="og:locale" content="en_IN">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="ESOP TDS Calculator — Section 192 on Perquisite 2026">
-<meta name="twitter:description" content="Employer's Section 192 TDS on the ESOP perquisite at exercise, plus the 192(1C) startup deferral trigger date. Free & instant.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-
-<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
-<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
-@endsection
-
-@section('schema')
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "ESOP TDS Calculator",
-  "description": "ESOP TDS Calculator computes the employer's tax deducted at source under Section 192 on an ESOP perquisite at exercise. It works out the perquisite as fair market value less exercise price times the number of shares, adds it to the employee's salary, and applies the average rate of tax to find the incremental TDS attributable to the perquisite. It also handles the Section 192(1C) deferral for eligible DPIIT and Section 80-IAC startups, showing the trigger date at the earliest of forty-eight months from the end of the assessment year of allotment, sale of shares, or cessation of employment.",
-  "url": "https://www.patronaccounting.com/tools/esop-tds-calculator",
-  "applicationCategory": "BusinessApplication",
-  "inLanguage": "en-IN",
-  "isAccessibleForFree": true,
-  "operatingSystem": "Any",
-  "datePublished": "2026-06-05T08:00:00+05:30",
-  "dateModified": "2026-06-05T08:00:00+05:30",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "INR"
-  },
-  "reviewedBy": {
-    "@type": "Person",
-    "@id": "https://patronaccounting.com/#founder",
-    "name": "CA Sundram Gupta",
-    "jobTitle": "Founder & Chartered Accountant",
-    "url": "https://www.patronaccounting.com/contact-page",
-    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-    "hasCredential": [{
-      "@type": "EducationalOccupationalCredential",
-      "credentialCategory": "Professional Certification",
-      "name": "Chartered Accountant (CA)",
-      "recognizedBy": {
-        "@type": "Organization",
-        "name": "Institute of Chartered Accountants of India",
-        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-      }
-    }]
-  },
-  "publisher": { "@id": "https://patronaccounting.com/#organization" },
-  "provider": {
-    "@id": "https://patronaccounting.com/#organization"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "ESOP TDS Calculator", "item": "https://www.patronaccounting.com/tools/esop-tds-calculator"}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Is TDS deducted on ESOPs?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. When an employee exercises stock options, the gain — fair market value on the exercise date minus the exercise price — is a perquisite taxed as salary under Section 17(2)(vi). The employer must deduct TDS on it under Section 192. Because the perquisite is a non-cash benefit, the TDS is usually recovered from the employee's regular cash salary in the same or next payroll cycle, then deposited with the government."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How is ESOP TDS calculated under Section 192?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Section 192 requires TDS on salary at the average rate of tax for the year. The employer estimates total salary including the ESOP perquisite, computes the tax on it, and the average rate is that tax divided by total income. The TDS attributable to the perquisite is effectively the extra tax the perquisite adds — the tax on salary with the perquisite, less the tax on salary without it. This calculator computes that incremental TDS."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the ESOP perquisite on which TDS is deducted?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The perquisite is the fair market value of the share on the exercise date, less the exercise price paid, multiplied by the number of shares exercised. For listed shares the FMV is the average of the opening and closing price on the exercise date; for unlisted shares it is a SEBI Category I merchant banker valuation. This perquisite is added to salary income, and the employer deducts TDS on it under Section 192."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the Section 192(1C) deferral for startups?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Section 192(1C), introduced by the Finance Act 2020, lets eligible startups defer the TDS on the ESOP perquisite. The employer does not deduct TDS at exercise; instead tax is deducted or paid within 14 days of the earliest of three events: forty-eight months from the end of the assessment year in which the shares were allotted, the sale of the shares, or the employee ceasing employment. Only DPIIT-recognised startups holding a Section 80-IAC certificate qualify."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which startups qualify for the ESOP TDS deferral?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Only an eligible startup under Section 80-IAC qualifies — that means DPIIT recognition plus an Inter-Ministerial Board certificate. Many startups are DPIIT-recognised, but far fewer hold the 80-IAC certificate, so the deferral is narrower than it first appears. If the company does not have the 80-IAC certificate, TDS on the ESOP perquisite must be deducted at exercise in the normal way under Section 192."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "When does the deferred ESOP tax become payable?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The deferred tax falls due on the earliest of: the expiry of forty-eight months from the end of the assessment year in which the shares were allotted, the date the employee sells the shares, or the date employment ceases. Tax must then be deducted or paid within 14 days of that trigger. Importantly, the tax is computed at the rates applicable in the year of allotment, not the rates of the year in which the trigger occurs."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Who deposits the ESOP TDS and how is it reported?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The employer deducts and deposits the TDS with the government and reports it in the quarterly salary TDS return, Form 24Q. The perquisite and tax appear in the employee's Form 16 and Form 12BA, and the employee should cross-check that the TDS reflects in Form 26AS and the Annual Information Statement. Where the perquisite is deferred under Section 192(1C), it appears only when the trigger event occurs."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What if the employee has no cash salary to recover the TDS from?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Because the ESOP perquisite is non-cash, the TDS is normally recovered from the employee's regular cash salary. If the salary is insufficient to cover it, the employer and employee usually arrange for the employee to pay the shortfall to the employer so it can be deposited, or the employee discharges it as advance tax or self-assessment tax. Planning for this cash outflow before exercising is important, since the tax arises even though no shares are sold."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does the employee still pay tax if TDS was deducted?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The TDS is a credit against the employee's final tax liability, not an extra tax. The perquisite is included in salary in the income tax return, the total tax is computed, and the ESOP TDS already deducted is adjusted against it. If too much was deducted the balance is refunded; if too little, the employee pays the shortfall. A later sale of the shares is separately taxed as capital gains, with the exercise-date FMV as the cost."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the ESOP TDS Calculator free?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, the Patron Accounting ESOP TDS Calculator is completely free with no signup required. All calculations run in your browser and nothing is stored on our servers. It estimates the employer's Section 192 TDS on the ESOP perquisite using the average rate of tax and shows the Section 192(1C) deferral trigger date for eligible startups. It is an indicative tool; the employer's payroll computation and Form 24Q filing should be confirmed by a professional."
-      }
-    }
-  ]
-}
-</script>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-@endsection
+@push('styles')
 <style>
         :root {
             --primary: #15365f;
@@ -695,6 +519,185 @@ a:focus-visible {
 
 
         </style>
+@endpush
+
+@section('meta')
+<title>ESOP TDS Calculator | Section 192 Perquisite FY 2025-26</title>
+<meta name="description" content="ESOP TDS calculator: compute the employer's Section 192 TDS on the ESOP perquisite at exercise for FY 2025-26, plus the 192(1C) startup deferral date. Free!">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#15365f">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/esop-tds-calculator">
+
+<meta property="og:title" content="ESOP TDS Calculator — Section 192 on Perquisite 2026">
+<meta property="og:description" content="Compute the employer's Section 192 TDS on the ESOP perquisite at exercise using the average rate of tax, and the Section 192(1C) startup deferral trigger date.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/esop-tds-calculator">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+<meta property="og:site_name" content="Patron Accounting">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ESOP TDS Calculator — Section 192 on Perquisite 2026">
+<meta name="twitter:description" content="Employer's Section 192 TDS on the ESOP perquisite at exercise, plus the 192(1C) startup deferral trigger date. Free & instant.">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
+@endsection
+
+@section('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "ESOP TDS Calculator",
+  "description": "ESOP TDS Calculator computes the employer's tax deducted at source under Section 192 on an ESOP perquisite at exercise. It works out the perquisite as fair market value less exercise price times the number of shares, adds it to the employee's salary, and applies the average rate of tax to find the incremental TDS attributable to the perquisite. It also handles the Section 192(1C) deferral for eligible DPIIT and Section 80-IAC startups, showing the trigger date at the earliest of forty-eight months from the end of the assessment year of allotment, sale of shares, or cessation of employment.",
+  "url": "https://www.patronaccounting.com/tools/esop-tds-calculator",
+  "applicationCategory": "BusinessApplication",
+  "inLanguage": "en-IN",
+  "isAccessibleForFree": true,
+  "operatingSystem": "Any",
+  "datePublished": "2026-06-05T08:00:00+05:30",
+  "dateModified": "2026-06-05T08:00:00+05:30",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "INR"
+  },
+  "reviewedBy": {
+    "@type": "Person",
+    "@id": "https://patronaccounting.com/#founder",
+    "name": "CA Sundram Gupta",
+    "jobTitle": "Founder & Chartered Accountant",
+    "url": "https://www.patronaccounting.com/contact-page",
+    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+    "hasCredential": [{
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Professional Certification",
+      "name": "Chartered Accountant (CA)",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Institute of Chartered Accountants of India",
+        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+      }
+    }]
+  },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
+  "provider": {
+    "@id": "https://patronaccounting.com/#organization"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "ESOP TDS Calculator", "item": "https://www.patronaccounting.com/tools/esop-tds-calculator"}
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is TDS deducted on ESOPs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. When an employee exercises stock options, the gain — fair market value on the exercise date minus the exercise price — is a perquisite taxed as salary under Section 17(2)(vi). The employer must deduct TDS on it under Section 192. Because the perquisite is a non-cash benefit, the TDS is usually recovered from the employee's regular cash salary in the same or next payroll cycle, then deposited with the government."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is ESOP TDS calculated under Section 192?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Section 192 requires TDS on salary at the average rate of tax for the year. The employer estimates total salary including the ESOP perquisite, computes the tax on it, and the average rate is that tax divided by total income. The TDS attributable to the perquisite is effectively the extra tax the perquisite adds — the tax on salary with the perquisite, less the tax on salary without it. This calculator computes that incremental TDS."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the ESOP perquisite on which TDS is deducted?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The perquisite is the fair market value of the share on the exercise date, less the exercise price paid, multiplied by the number of shares exercised. For listed shares the FMV is the average of the opening and closing price on the exercise date; for unlisted shares it is a SEBI Category I merchant banker valuation. This perquisite is added to salary income, and the employer deducts TDS on it under Section 192."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the Section 192(1C) deferral for startups?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Section 192(1C), introduced by the Finance Act 2020, lets eligible startups defer the TDS on the ESOP perquisite. The employer does not deduct TDS at exercise; instead tax is deducted or paid within 14 days of the earliest of three events: forty-eight months from the end of the assessment year in which the shares were allotted, the sale of the shares, or the employee ceasing employment. Only DPIIT-recognised startups holding a Section 80-IAC certificate qualify."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which startups qualify for the ESOP TDS deferral?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Only an eligible startup under Section 80-IAC qualifies — that means DPIIT recognition plus an Inter-Ministerial Board certificate. Many startups are DPIIT-recognised, but far fewer hold the 80-IAC certificate, so the deferral is narrower than it first appears. If the company does not have the 80-IAC certificate, TDS on the ESOP perquisite must be deducted at exercise in the normal way under Section 192."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When does the deferred ESOP tax become payable?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The deferred tax falls due on the earliest of: the expiry of forty-eight months from the end of the assessment year in which the shares were allotted, the date the employee sells the shares, or the date employment ceases. Tax must then be deducted or paid within 14 days of that trigger. Importantly, the tax is computed at the rates applicable in the year of allotment, not the rates of the year in which the trigger occurs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who deposits the ESOP TDS and how is it reported?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The employer deducts and deposits the TDS with the government and reports it in the quarterly salary TDS return, Form 24Q. The perquisite and tax appear in the employee's Form 16 and Form 12BA, and the employee should cross-check that the TDS reflects in Form 26AS and the Annual Information Statement. Where the perquisite is deferred under Section 192(1C), it appears only when the trigger event occurs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What if the employee has no cash salary to recover the TDS from?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Because the ESOP perquisite is non-cash, the TDS is normally recovered from the employee's regular cash salary. If the salary is insufficient to cover it, the employer and employee usually arrange for the employee to pay the shortfall to the employer so it can be deposited, or the employee discharges it as advance tax or self-assessment tax. Planning for this cash outflow before exercising is important, since the tax arises even though no shares are sold."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does the employee still pay tax if TDS was deducted?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The TDS is a credit against the employee's final tax liability, not an extra tax. The perquisite is included in salary in the income tax return, the total tax is computed, and the ESOP TDS already deducted is adjusted against it. If too much was deducted the balance is refunded; if too little, the employee pays the shortfall. A later sale of the shares is separately taxed as capital gains, with the exercise-date FMV as the cost."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the ESOP TDS Calculator free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the Patron Accounting ESOP TDS Calculator is completely free with no signup required. All calculations run in your browser and nothing is stored on our servers. It estimates the employer's Section 192 TDS on the ESOP perquisite using the average rate of tax and shows the Section 192(1C) deferral trigger date for eligible startups. It is an indicative tool; the employer's payroll computation and Form 24Q filing should be confirmed by a professional."
+      }
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation">
     <div class="toc-nav-inner">

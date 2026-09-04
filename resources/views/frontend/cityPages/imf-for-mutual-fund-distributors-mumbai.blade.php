@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,208 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>IMF for Mutual Fund Distributors: ARN to Insurance</title>
-    <meta name="description" content="Mutual fund distributor in Mumbai? Add insurance + MF + pension under one IRDAI Insurance Marketing Firm. Eligibility, net worth, docs & cost from INR 24,999.">
-    <link rel="canonical" href="/imf-for-mutual-fund-distributors/mumbai">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="IMF for Mutual Fund Distributors: ARN to Insurance">
-    <meta property="og:description" content="Mutual fund distributor in Mumbai? Add insurance + MF + pension under one IRDAI Insurance Marketing Firm. Eligibility, net worth, docs & cost from INR 24,999.">
-    <meta property="og:url" content="/imf-for-mutual-fund-distributors/mumbai">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="IMF for Mutual Fund Distributors: ARN to Insurance">
-    <meta name="twitter:description" content="Mutual fund distributor in Mumbai? Add insurance + MF + pension under one IRDAI Insurance Marketing Firm. Eligibility, net worth, docs & cost from INR 24,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "IMF for Mutual Fund Distributors in Mumbai",
-      "description": "IRDAI Insurance Marketing Firm registration for AMFI ARN holders and mutual fund distributors in Mumbai. Add insurance, mutual fund and pension distribution under one registered entity. Professional fee from INR 24,999 (Exl GST and Govt. Charges).",
-      "url": "https://www.patronaccounting.com/imf-for-mutual-fund-distributors/mumbai",
-      "serviceType": "Insurance Marketing Firm Registration for Mutual Fund Distributors",
-      "areaServed": {
-        "@type": "City",
-        "name": "Mumbai",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Maharashtra"
-        }
-      },
-      "provider": {
-        "@type": "LocalBusiness",
-        "@id": "https://www.patronaccounting.com/#localbusiness",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg",
-        "image": "https://www.patronaccounting.com/images/site-logo.svg",
-        "telephone": "+91-9459456700",
-        "email": "sales@patronaccounting.com",
-        "priceRange": "INR",
-        "areaServed": {
-          "@type": "City",
-          "name": "Mumbai",
-          "containedInPlace": {
-            "@type": "State",
-            "name": "Maharashtra"
-          }
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Mumbai",
-          "addressRegion": "Maharashtra",
-          "addressCountry": "IN"
-        }
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "price": "24999",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/imf-for-mutual-fund-distributors/mumbai",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "minPrice": "24999",
-          "priceCurrency": "INR"
-        }
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness",
-      "name": "Patron Accounting LLP",
-      "url": "https://www.patronaccounting.com/",
-      "logo": "https://www.patronaccounting.com/images/site-logo.svg",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "telephone": "+91-9459456700",
-      "email": "sales@patronaccounting.com",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Mumbai",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Maharashtra"
-        }
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Mumbai",
-        "addressRegion": "Maharashtra",
-        "addressCountry": "IN"
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "IMF Services",
-          "item": "https://www.patronaccounting.com/imf-services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "IMF for Mutual Fund Distributors in Mumbai",
-          "item": "https://www.patronaccounting.com/imf-for-mutual-fund-distributors/mumbai"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "datePublished": "2026-06-30T08:00:00+05:30",
-      "dateModified": "2026-06-30T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "How much does IMF registration cost for a mutual fund distributor in Mumbai?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patron's professional fee starts from INR 24,999 (Exl GST and Govt. Charges). Statutory and ancillary costs are separate, including the IRDAI application fee of INR 5,000 (paid from an SBI account in the IMF's name), entity incorporation if you are not already a company or LLP, the CA net-worth certificate, Professional Indemnity cover and Principal Officer training and exam fees."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does IMF registration take?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Typically around 7 to 10 weeks end-to-end. Document preparation and, if needed, entity incorporation take a few weeks, and IRDAI review of a complete Form A application generally runs 30 to 60 working days. Clean, name-matched documents and a valid net-worth certificate are the biggest factors in avoiding delays."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do I need to surrender my AMFI ARN to become an IMF?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. You retain your mutual fund distribution. Under Regulation 3(c) of the IRDAI Insurance Marketing Firm Regulations 2015, an IMF can distribute mutual funds and other financial products through licensed Financial Service Executives, so your MF business sits alongside the new insurance distribution within the registered entity."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What documents are required for IMF registration?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Form A, ROC incorporation certificate with 'IMF' or 'Insurance Marketing Firm' in the name, MoA and AoA (or LLP agreement) and PAN, an SBI bank account in the IMF's name, a CA net-worth certificate, Principal Officer and ISP exam and qualification certificates, a 3-year business plan with org chart and infrastructure photos, insurer consent letters and Fit and Proper declarations."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Am I eligible as a mutual fund distributor in Mumbai to register an IMF?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, provided you operate through an eligible entity, a Private Limited Company, LLP or Co-operative Society whose name contains 'Insurance Marketing Firm' or 'IMF', and meet the minimum net worth of INR 10 lakh (INR 5 lakh for a single aspirational district). Sole proprietorships, partnership firms and OPCs are not eligible; Patron can incorporate a compliant entity for you."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can Patron help me register the IMF and set up the insurance tie-ups?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Patron handles the full engagement: entity incorporation or renaming, SBI account guidance, CA net-worth certificate, Principal Officer and ISP onboarding (IRDAI training and exam), the 3-year business plan, Form A filing on imf.irda.gov.in and coordination of insurer consent letters for up to 2 life, 2 general and 2 health insurers."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you provide IMF registration in Mumbai?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Patron supports IMF registration for mutual fund distributors across India, including Mumbai, Pune, Delhi, Gurugram, Bengaluru, Hyderabad and Tier-2 and Tier-3 locations. The process is online via the IRDAI IMF portal, and registration covers up to 3 districts (at least one must be an aspirational district if you operate in more than one)."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the turnaround once I share all documents?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Once your entity and complete document set are ready, Patron files Form A promptly and the application moves to IRDAI for review, which generally takes 30 to 60 working days. We track the application, respond to IRDAI queries and confirm registration on approval, which, since 5 February 2026, is perpetual with no 3-year renewal."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         :root {
             --orange: #E8712C;
@@ -729,7 +526,217 @@
         @media (max-width: 768px) { .content-section [style*="grid-template-columns: repeat(4"] { grid-template-columns: repeat(2, 1fr) !important; gap: 12px !important; } }
         @media (max-width: 480px) { .content-section [style*="grid-template-columns: repeat(4"] { grid-template-columns: 1fr !important; } }
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>IMF for Mutual Fund Distributors: ARN to Insurance</title>
+    <meta name="description" content="Mutual fund distributor in Mumbai? Add insurance + MF + pension under one IRDAI Insurance Marketing Firm. Eligibility, net worth, docs & cost from INR 24,999.">
+    <link rel="canonical" href="/imf-for-mutual-fund-distributors/mumbai">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="IMF for Mutual Fund Distributors: ARN to Insurance">
+    <meta property="og:description" content="Mutual fund distributor in Mumbai? Add insurance + MF + pension under one IRDAI Insurance Marketing Firm. Eligibility, net worth, docs & cost from INR 24,999.">
+    <meta property="og:url" content="/imf-for-mutual-fund-distributors/mumbai">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="IMF for Mutual Fund Distributors: ARN to Insurance">
+    <meta name="twitter:description" content="Mutual fund distributor in Mumbai? Add insurance + MF + pension under one IRDAI Insurance Marketing Firm. Eligibility, net worth, docs & cost from INR 24,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "IMF for Mutual Fund Distributors in Mumbai",
+      "description": "IRDAI Insurance Marketing Firm registration for AMFI ARN holders and mutual fund distributors in Mumbai. Add insurance, mutual fund and pension distribution under one registered entity. Professional fee from INR 24,999 (Exl GST and Govt. Charges).",
+      "url": "https://www.patronaccounting.com/imf-for-mutual-fund-distributors/mumbai",
+      "serviceType": "Insurance Marketing Firm Registration for Mutual Fund Distributors",
+      "areaServed": {
+        "@type": "City",
+        "name": "Mumbai",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Maharashtra"
+        }
+      },
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://www.patronaccounting.com/#localbusiness",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg",
+        "image": "https://www.patronaccounting.com/images/site-logo.svg",
+        "telephone": "+91-9459456700",
+        "email": "sales@patronaccounting.com",
+        "priceRange": "INR",
+        "areaServed": {
+          "@type": "City",
+          "name": "Mumbai",
+          "containedInPlace": {
+            "@type": "State",
+            "name": "Maharashtra"
+          }
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Mumbai",
+          "addressRegion": "Maharashtra",
+          "addressCountry": "IN"
+        }
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "price": "24999",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.patronaccounting.com/imf-for-mutual-fund-distributors/mumbai",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": "24999",
+          "priceCurrency": "INR"
+        }
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness",
+      "name": "Patron Accounting LLP",
+      "url": "https://www.patronaccounting.com/",
+      "logo": "https://www.patronaccounting.com/images/site-logo.svg",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "telephone": "+91-9459456700",
+      "email": "sales@patronaccounting.com",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Mumbai",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Maharashtra"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Mumbai",
+        "addressRegion": "Maharashtra",
+        "addressCountry": "IN"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "IMF Services",
+          "item": "https://www.patronaccounting.com/imf-services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "IMF for Mutual Fund Distributors in Mumbai",
+          "item": "https://www.patronaccounting.com/imf-for-mutual-fund-distributors/mumbai"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "datePublished": "2026-06-30T08:00:00+05:30",
+      "dateModified": "2026-06-30T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much does IMF registration cost for a mutual fund distributor in Mumbai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patron's professional fee starts from INR 24,999 (Exl GST and Govt. Charges). Statutory and ancillary costs are separate, including the IRDAI application fee of INR 5,000 (paid from an SBI account in the IMF's name), entity incorporation if you are not already a company or LLP, the CA net-worth certificate, Professional Indemnity cover and Principal Officer training and exam fees."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does IMF registration take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Typically around 7 to 10 weeks end-to-end. Document preparation and, if needed, entity incorporation take a few weeks, and IRDAI review of a complete Form A application generally runs 30 to 60 working days. Clean, name-matched documents and a valid net-worth certificate are the biggest factors in avoiding delays."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need to surrender my AMFI ARN to become an IMF?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. You retain your mutual fund distribution. Under Regulation 3(c) of the IRDAI Insurance Marketing Firm Regulations 2015, an IMF can distribute mutual funds and other financial products through licensed Financial Service Executives, so your MF business sits alongside the new insurance distribution within the registered entity."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What documents are required for IMF registration?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Form A, ROC incorporation certificate with 'IMF' or 'Insurance Marketing Firm' in the name, MoA and AoA (or LLP agreement) and PAN, an SBI bank account in the IMF's name, a CA net-worth certificate, Principal Officer and ISP exam and qualification certificates, a 3-year business plan with org chart and infrastructure photos, insurer consent letters and Fit and Proper declarations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Am I eligible as a mutual fund distributor in Mumbai to register an IMF?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, provided you operate through an eligible entity, a Private Limited Company, LLP or Co-operative Society whose name contains 'Insurance Marketing Firm' or 'IMF', and meet the minimum net worth of INR 10 lakh (INR 5 lakh for a single aspirational district). Sole proprietorships, partnership firms and OPCs are not eligible; Patron can incorporate a compliant entity for you."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can Patron help me register the IMF and set up the insurance tie-ups?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Patron handles the full engagement: entity incorporation or renaming, SBI account guidance, CA net-worth certificate, Principal Officer and ISP onboarding (IRDAI training and exam), the 3-year business plan, Form A filing on imf.irda.gov.in and coordination of insurer consent letters for up to 2 life, 2 general and 2 health insurers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you provide IMF registration in Mumbai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Patron supports IMF registration for mutual fund distributors across India, including Mumbai, Pune, Delhi, Gurugram, Bengaluru, Hyderabad and Tier-2 and Tier-3 locations. The process is online via the IRDAI IMF portal, and registration covers up to 3 districts (at least one must be an aspirational district if you operate in more than one)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the turnaround once I share all documents?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Once your entity and complete document set are ready, Patron files Form A promptly and the application moves to IRDAI for review, which generally takes 30 to 60 working days. We track the application, respond to IRDAI queries and confirm registration on approval, which, since 5 February 2026, is perpetual with no 3-year renewal."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1605,7 +1612,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

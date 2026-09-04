@@ -1,156 +1,12 @@
 
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Trademark Hearing Gurugram - Process, Prep & Order Copy</title>
-    <meta name="description" content="Trademark hearing in Gurugram. Show cause hearing representation. S9/S11 objections. Video conference. Evidence. Case law. Call +91 945 945 6700.">
-    <link rel="canonical" href="/trademark-hearing/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Trademark Hearing Gurugram - Process, Prep & Order Copy">
-    <meta property="og:description" content="Trademark hearing in Gurugram. Show cause hearing representation. S9/S11 objections. Video conference. Evidence. Case law. Call +91 945 945 6700.">
-    <meta property="og:url" content="/trademark-hearing/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Trademark Hearing Gurugram - Process, Prep & Order Copy">
-    <meta name="twitter:description" content="Trademark hearing in Gurugram. Show cause hearing representation. S9/S11 objections. Video conference. Evidence. Case law. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "Trademark Hearing in Gurugram | Show Cause Hearing",
-      "description": "Trademark hearing in Gurugram. Show cause hearing representation. S9/S11 objections. Video conference. Evidence. Case law. Call +91 945 945 6700.",
-      "url": "https://www.patronaccounting.com/trademark-hearing/gurugram",
-      "serviceType": "Trademark Hearing in Gurugram | Show Cause Hearing",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/trademark-hearing/gurugram",
-        "price": "5999"
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Trademark Hearing in India: Process and Fees",
-          "item": "https://www.patronaccounting.com/trademark-hearing"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Trademark Hearing in Gurugram | Show Cause Hearing",
-          "item": "https://www.patronaccounting.com/trademark-hearing/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "When does a trademark hearing happen?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A trademark show cause hearing is scheduled when the written reply to the Examination Report does not fully satisfy the Registrar. The application status changes to 'Ready for Show Cause Hearing' on the IP India portal. A hearing notice is issued approximately 15 days before the scheduled date via email and portal notification."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does hearing representation cost?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No government fee for hearing appearance. Professional fee: Rs 5,999-15,000 for combined preparation and representation, including strategy development, evidence compilation, case law research, and oral arguments before the Registrar. Complex cases with multiple objection grounds may cost more. Call +91 945 945 6700 for a detailed quote."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens if I miss the hearing date?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. Receive Registrar Decision: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What evidence should I bring to the hearing?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Sales invoices showing the mark in commerce, advertising expenditure data, marketing materials (brochures, social media posts, website screenshots), customer testimonials, media coverage of the brand, dictionary definitions supporting distinctiveness claims, and trademark registrations in other countries if applicable. The stronger the evidence of actual commercial use, the more persuasive the hearing arguments."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are the possible hearing outcomes?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Three possible outcomes: (1) Accepted - the mark clears objections and proceeds to publication in the Trademark Journal for the 4-month opposition period. (2) Accepted with conditions - the mark is accepted with amendments, limitations on goods/services, or disclaimers. (3) Refused - the mark is denied registration. If refused, the applicant can appeal to the Delhi High Court under Section 91 of the Trade Marks Act 1999."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I get an adjournment of the hearing?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. File Form TM-M requesting adjournment at least 2 days before the scheduled hearing date. Adjournment is at the Registrar's discretion and is not guaranteed. Multiple adjournment requests may be viewed negatively. Use adjournment only for genuine preparation needs - not as a delay tactic."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between a written reply and a hearing?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The written reply is the first response to examination objections, filed within 30 days of receiving the Examination Report. It contains arguments and evidence in written form. If the written reply does not satisfy the Registrar, a show cause hearing is scheduled. The hearing allows oral arguments with real-time persuasion, evidence presentation, and case law citation - providing a more dynamic opportunity to convince the Registrar. Quick Answers Hearing kab hota hai? Jab aapka written reply Registrar ko satisfy nahi karta. Status 'Ready for Show Cause Hearing' dikhta hai. ~15 din pehle notice aata hai. Video conference se hota hai. Kya attend karna zaroori hai? Haan. Non-appearance pe application ABANDONED ya REFUSED ho sakti hai. Agar date clash hai toh Form TM-M se 2 din pehle adjournment lo. Kabhi miss mat karo. Kya evidence chahiye? Sales invoices, advertising spend, marketing materials, website screenshots, social media, media coverage, customer testimonials. Jitna zyada proof ki brand use mein hai, utna strong case."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -674,7 +530,156 @@ section ul li:not(.nav-item) { font-size: 14px; }
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'Join Community'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Trademark Hearing Gurugram - Process, Prep & Order Copy</title>
+    <meta name="description" content="Trademark hearing in Gurugram. Show cause hearing representation. S9/S11 objections. Video conference. Evidence. Case law. Call +91 945 945 6700.">
+    <link rel="canonical" href="/trademark-hearing/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Trademark Hearing Gurugram - Process, Prep & Order Copy">
+    <meta property="og:description" content="Trademark hearing in Gurugram. Show cause hearing representation. S9/S11 objections. Video conference. Evidence. Case law. Call +91 945 945 6700.">
+    <meta property="og:url" content="/trademark-hearing/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Trademark Hearing Gurugram - Process, Prep & Order Copy">
+    <meta name="twitter:description" content="Trademark hearing in Gurugram. Show cause hearing representation. S9/S11 objections. Video conference. Evidence. Case law. Call +91 945 945 6700.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "Trademark Hearing in Gurugram | Show Cause Hearing",
+      "description": "Trademark hearing in Gurugram. Show cause hearing representation. S9/S11 objections. Video conference. Evidence. Case law. Call +91 945 945 6700.",
+      "url": "https://www.patronaccounting.com/trademark-hearing/gurugram",
+      "serviceType": "Trademark Hearing in Gurugram | Show Cause Hearing",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.patronaccounting.com/trademark-hearing/gurugram",
+        "price": "5999"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Trademark Hearing in India: Process and Fees",
+          "item": "https://www.patronaccounting.com/trademark-hearing"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Trademark Hearing in Gurugram | Show Cause Hearing",
+          "item": "https://www.patronaccounting.com/trademark-hearing/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "When does a trademark hearing happen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A trademark show cause hearing is scheduled when the written reply to the Examination Report does not fully satisfy the Registrar. The application status changes to 'Ready for Show Cause Hearing' on the IP India portal. A hearing notice is issued approximately 15 days before the scheduled date via email and portal notification."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does hearing representation cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No government fee for hearing appearance. Professional fee: Rs 5,999-15,000 for combined preparation and representation, including strategy development, evidence compilation, case law research, and oral arguments before the Registrar. Complex cases with multiple objection grounds may cost more. Call +91 945 945 6700 for a detailed quote."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if I miss the hearing date?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. Receive Registrar Decision: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What evidence should I bring to the hearing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sales invoices showing the mark in commerce, advertising expenditure data, marketing materials (brochures, social media posts, website screenshots), customer testimonials, media coverage of the brand, dictionary definitions supporting distinctiveness claims, and trademark registrations in other countries if applicable. The stronger the evidence of actual commercial use, the more persuasive the hearing arguments."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the possible hearing outcomes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Three possible outcomes: (1) Accepted - the mark clears objections and proceeds to publication in the Trademark Journal for the 4-month opposition period. (2) Accepted with conditions - the mark is accepted with amendments, limitations on goods/services, or disclaimers. (3) Refused - the mark is denied registration. If refused, the applicant can appeal to the Delhi High Court under Section 91 of the Trade Marks Act 1999."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I get an adjournment of the hearing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. File Form TM-M requesting adjournment at least 2 days before the scheduled hearing date. Adjournment is at the Registrar's discretion and is not guaranteed. Multiple adjournment requests may be viewed negatively. Use adjournment only for genuine preparation needs - not as a delay tactic."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between a written reply and a hearing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The written reply is the first response to examination objections, filed within 30 days of receiving the Examination Report. It contains arguments and evidence in written form. If the written reply does not satisfy the Registrar, a show cause hearing is scheduled. The hearing allows oral arguments with real-time persuasion, evidence presentation, and case law citation - providing a more dynamic opportunity to convince the Registrar. Quick Answers Hearing kab hota hai? Jab aapka written reply Registrar ko satisfy nahi karta. Status 'Ready for Show Cause Hearing' dikhta hai. ~15 din pehle notice aata hai. Video conference se hota hai. Kya attend karna zaroori hai? Haan. Non-appearance pe application ABANDONED ya REFUSED ho sakti hai. Agar date clash hai toh Form TM-M se 2 din pehle adjournment lo. Kabhi miss mat karo. Kya evidence chahiye? Sales invoices, advertising spend, marketing materials, website screenshots, social media, media coverage, customer testimonials. Jitna zyada proof ki brand use mein hai, utna strong case."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1600,7 +1605,6 @@ var tocWrapper=document.getElementById('tocWrapper');document.getElementById('to
 
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

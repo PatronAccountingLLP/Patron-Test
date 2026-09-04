@@ -1,186 +1,11 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>PAS-3 Return of Allotment Filing 2026 | Patron Accounting</title>
-    <meta name="description" content="File Form PAS-3 return of allotment within 30 days, or 15 days for private placement, after issuing shares. Avoid Rs 1,000/day penalty. From INR 4,999.">
-    <link rel="canonical" href="/pas-3-return-of-allotment">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="PAS-3 Return of Allotment Filing 2026 | Patron Accounting">
-    <meta property="og:description" content="File Form PAS-3 return of allotment within 30 days, or 15 days for private placement, after issuing shares. Avoid Rs 1,000/day penalty. From INR 4,999.">
-    <meta property="og:url" content="/pas-3-return-of-allotment">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="PAS-3 Return of Allotment Filing 2026 | Patron Accounting">
-    <meta name="twitter:description" content="File Form PAS-3 return of allotment within 30 days, or 15 days for private placement, after issuing shares. Avoid Rs 1,000/day penalty. From INR 4,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/pas-3-return-of-allotment/#service",
-        "name": "PAS-3 Return of Allotment Filing Services",
-        "description": "PAS-3 return of allotment filing services from Patron Accounting LLP cover the reporting of a share or securities allotment to the Registrar of Companies under Section 39(4) and Section 42(9) of the Companies Act, 2013 read with Rule 12 and Rule 14, including the preparation of the certified list of allottees with names, addresses, occupations and securities allotted, the certified board resolution and supporting records, private-placement sequencing through MGT-14 before the letter of offer, the PAS-5 record and the 15-day PAS-3 filing, the reconciliation of the pre and post allotment capital structure, the filing of PAS-3 on the MCA V3 portal with a director’s or company secretary’s Digital Signature Certificate, and support to issue share certificates within two months and update the register of members, with PAS-3 due within 30 days of a general allotment or 15 days of a private placement.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/pas-3-return-of-allotment" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Share (finance)", "sameAs": "https://en.wikipedia.org/wiki/Share_(finance)" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "PAS-3 Filing Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "PAS-3 Return of Allotment Filing Service",
-                    "priceCurrency": "INR",
-                    "price": "4999",
-                    "description": "PAS-3 return of allotment filing covering the list of allottees, the board resolution support and the filing on the MCA V3 portal, exclusive of GST and government charges. The MCA statutory filing fee depends on the company's nominal share capital and is charged on an actual basis; late filing attracts Rs 1,000 per day, up to Rs 1,00,000 for a general allotment under Section 39(5) and up to Rs 25,00,000 for a private placement under Section 42."
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/pas-3-return-of-allotment/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Company Compliance", "item": "https://www.patronaccounting.com/corporate-compliance-services" },
-            { "@type": "ListItem", "position": 3, "name": "PAS-3 Filing", "item": "https://www.patronaccounting.com/pas-3-return-of-allotment" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/pas-3-return-of-allotment/#faq",
-        "datePublished": "2026-06-03T08:00:00+05:30",
-        "dateModified": "2026-06-04T08:00:00+05:30",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "What is the due date for filing Form PAS-3?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Form PAS-3 must be filed within 30 days of allotment for a general issue under Section 39(4), and within 15 days of allotment for a private placement under Section 42(9). The deadline depends on the route of allotment. A separate return is filed for each allotment, with up to five allotments allowed per form." }
-            },
-            {
-                "@type": "Question",
-                "name": "When is PAS-3 required?",
-                "acceptedAnswer": { "@type": "Answer", "text": "PAS-3 is required whenever a company allots shares or securities, including a fresh issue, rights issue, bonus issue, preferential allotment, private placement and allotment on ESOP exercise. The return reports the list of allottees and the change in paid-up capital to the Registrar, keeping the company's capital structure on public record." }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the penalty for late filing of PAS-3?",
-                "acceptedAnswer": { "@type": "Answer", "text": "For a general allotment under Section 39(5), the company and every officer in default are liable to Rs 1,000 per day or Rs 1,00,000, whichever is less. For a private placement under Section 42, the company, promoters and directors are liable to Rs 1,000 per day of continuing default, up to a maximum of Rs 25,00,000." }
-            },
-            {
-                "@type": "Question",
-                "name": "Can private placement money be used before filing PAS-3?",
-                "acceptedAnswer": { "@type": "Answer", "text": "No. Money raised through a private placement cannot be utilised until the company files the return of allotment in Form PAS-3 with the Registrar. The funds must be kept in a separate scheduled bank account and used only for allotment or refund. Using the money before filing PAS-3 is a contravention of Section 42." }
-            },
-            {
-                "@type": "Question",
-                "name": "What documents are attached to PAS-3?",
-                "acceptedAnswer": { "@type": "Answer", "text": "PAS-3 requires a certified list of allottees with their names, addresses, occupations and securities allotted, and a certified copy of the board resolution approving the allotment. A bonus issue needs the special resolution, a private placement needs the offer record and PAS-5, and an allotment for consideration other than cash needs the stamped contract." }
-            },
-            {
-                "@type": "Question",
-                "name": "How many allotments can one PAS-3 cover?",
-                "acceptedAnswer": { "@type": "Answer", "text": "As per the PAS-3 instruction kit, details of up to five allotments can be filed through a single eForm. Where a company has made more than five allotments, additional PAS-3 forms are filed. Each allotment must still be reported within its applicable deadline of 30 days, or 15 days for a private placement." }
-            },
-            {
-                "@type": "Question",
-                "name": "When must shares be allotted after receiving money?",
-                "acceptedAnswer": { "@type": "Answer", "text": "A company must allot securities within 60 days of receiving the application money. If it cannot, it must refund the money within 15 days from the end of the 60 days. If the company fails to refund within that period, it must repay the money with interest at 12 percent per annum from the expiry of the sixtieth day." }
-            },
-            {
-                "@type": "Question",
-                "name": "Is MGT-14 needed for a private placement allotment?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Yes. For a private placement, the company files MGT-14 for the special resolution before circulating the letter of offer, maintains the PAS-5 record, and then files PAS-3 within 15 days of allotment. Sequencing these filings correctly is essential, which is why a professional handles the private placement process end to end." }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/pas-3-return-of-allotment",
-        "name": "PAS-3 Return of Allotment Filing Services",
-        "description": "File Form PAS-3 return of allotment within 30 days, or 15 days for private placement, after issuing shares. Avoid Rs 1,000/day penalty. From INR 4,999.",
-        "url": "https://www.patronaccounting.com/pas-3-return-of-allotment",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/pas-3-return-of-allotment/#service" },
-        "datePublished": "2026-06-03T08:00:00+05:30",
-        "dateModified": "2026-06-04T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/pas-3-return-of-allotment/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "PAS-3 Filing Process: Step by Step",
-        "description": "How Form PAS-3 is filed, from receiving application money and passing the allotment resolution to filing within the deadline and issuing share certificates.",
-        "totalTime": "P3D",
-        "step": [
-            { "@type": "HowToStep", "name": "Receive application money", "text": "Collect the share application money in the company account and complete pre-allotment compliances." },
-            { "@type": "HowToStep", "name": "Pass the allotment resolution", "text": "Hold the Board meeting and pass the allotment resolution within 60 days of receiving the money." },
-            { "@type": "HowToStep", "name": "Prepare the list of allottees", "text": "Compile the certified list of allottees and the capital structure before and after allotment." },
-            { "@type": "HowToStep", "name": "Complete Form PAS-3", "text": "Enter allotment details on the MCA V3 portal, filing up to 5 allotments per form." },
-            { "@type": "HowToStep", "name": "Attach documents and certify", "text": "Attach the board resolution and list of allottees, certified by the signatory." },
-            { "@type": "HowToStep", "name": "File within the deadline", "text": "Submit within 30 days, or 15 days for a private placement, and pay the MCA fee." },
-            { "@type": "HowToStep", "name": "Issue certificates and update records", "text": "Issue share certificates within 2 months and update the register of members." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "PAS-3 Filing Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Return of Allotment", "description": "The statement to the ROC that shares have been issued, filed in PAS-3." },
-            { "@type": "DefinedTerm", "name": "Allottee", "description": "A person to whom the company allots shares; their details form the mandatory list of allottees." },
-            { "@type": "DefinedTerm", "name": "Private Placement", "description": "An offer of securities to a select group under Section 42, filed in PAS-3 within 15 days." },
-            { "@type": "DefinedTerm", "name": "Rights Issue", "description": "An offer of new shares to existing shareholders in proportion to their holding." },
-            { "@type": "DefinedTerm", "name": "Bonus Issue", "description": "An allotment of free shares to existing shareholders from reserves." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -794,7 +619,187 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>PAS-3 Return of Allotment Filing 2026 | Patron Accounting</title>
+    <meta name="description" content="File Form PAS-3 return of allotment within 30 days, or 15 days for private placement, after issuing shares. Avoid Rs 1,000/day penalty. From INR 4,999.">
+    <link rel="canonical" href="/pas-3-return-of-allotment">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="PAS-3 Return of Allotment Filing 2026 | Patron Accounting">
+    <meta property="og:description" content="File Form PAS-3 return of allotment within 30 days, or 15 days for private placement, after issuing shares. Avoid Rs 1,000/day penalty. From INR 4,999.">
+    <meta property="og:url" content="/pas-3-return-of-allotment">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="PAS-3 Return of Allotment Filing 2026 | Patron Accounting">
+    <meta name="twitter:description" content="File Form PAS-3 return of allotment within 30 days, or 15 days for private placement, after issuing shares. Avoid Rs 1,000/day penalty. From INR 4,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/pas-3-return-of-allotment/#service",
+        "name": "PAS-3 Return of Allotment Filing Services",
+        "description": "PAS-3 return of allotment filing services from Patron Accounting LLP cover the reporting of a share or securities allotment to the Registrar of Companies under Section 39(4) and Section 42(9) of the Companies Act, 2013 read with Rule 12 and Rule 14, including the preparation of the certified list of allottees with names, addresses, occupations and securities allotted, the certified board resolution and supporting records, private-placement sequencing through MGT-14 before the letter of offer, the PAS-5 record and the 15-day PAS-3 filing, the reconciliation of the pre and post allotment capital structure, the filing of PAS-3 on the MCA V3 portal with a director’s or company secretary’s Digital Signature Certificate, and support to issue share certificates within two months and update the register of members, with PAS-3 due within 30 days of a general allotment or 15 days of a private placement.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/pas-3-return-of-allotment" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Share (finance)", "sameAs": "https://en.wikipedia.org/wiki/Share_(finance)" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "PAS-3 Filing Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "PAS-3 Return of Allotment Filing Service",
+                    "priceCurrency": "INR",
+                    "price": "4999",
+                    "description": "PAS-3 return of allotment filing covering the list of allottees, the board resolution support and the filing on the MCA V3 portal, exclusive of GST and government charges. The MCA statutory filing fee depends on the company's nominal share capital and is charged on an actual basis; late filing attracts Rs 1,000 per day, up to Rs 1,00,000 for a general allotment under Section 39(5) and up to Rs 25,00,000 for a private placement under Section 42."
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/pas-3-return-of-allotment/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Company Compliance", "item": "https://www.patronaccounting.com/corporate-compliance-services" },
+            { "@type": "ListItem", "position": 3, "name": "PAS-3 Filing", "item": "https://www.patronaccounting.com/pas-3-return-of-allotment" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/pas-3-return-of-allotment/#faq",
+        "datePublished": "2026-06-03T08:00:00+05:30",
+        "dateModified": "2026-06-04T08:00:00+05:30",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is the due date for filing Form PAS-3?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Form PAS-3 must be filed within 30 days of allotment for a general issue under Section 39(4), and within 15 days of allotment for a private placement under Section 42(9). The deadline depends on the route of allotment. A separate return is filed for each allotment, with up to five allotments allowed per form." }
+            },
+            {
+                "@type": "Question",
+                "name": "When is PAS-3 required?",
+                "acceptedAnswer": { "@type": "Answer", "text": "PAS-3 is required whenever a company allots shares or securities, including a fresh issue, rights issue, bonus issue, preferential allotment, private placement and allotment on ESOP exercise. The return reports the list of allottees and the change in paid-up capital to the Registrar, keeping the company's capital structure on public record." }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the penalty for late filing of PAS-3?",
+                "acceptedAnswer": { "@type": "Answer", "text": "For a general allotment under Section 39(5), the company and every officer in default are liable to Rs 1,000 per day or Rs 1,00,000, whichever is less. For a private placement under Section 42, the company, promoters and directors are liable to Rs 1,000 per day of continuing default, up to a maximum of Rs 25,00,000." }
+            },
+            {
+                "@type": "Question",
+                "name": "Can private placement money be used before filing PAS-3?",
+                "acceptedAnswer": { "@type": "Answer", "text": "No. Money raised through a private placement cannot be utilised until the company files the return of allotment in Form PAS-3 with the Registrar. The funds must be kept in a separate scheduled bank account and used only for allotment or refund. Using the money before filing PAS-3 is a contravention of Section 42." }
+            },
+            {
+                "@type": "Question",
+                "name": "What documents are attached to PAS-3?",
+                "acceptedAnswer": { "@type": "Answer", "text": "PAS-3 requires a certified list of allottees with their names, addresses, occupations and securities allotted, and a certified copy of the board resolution approving the allotment. A bonus issue needs the special resolution, a private placement needs the offer record and PAS-5, and an allotment for consideration other than cash needs the stamped contract." }
+            },
+            {
+                "@type": "Question",
+                "name": "How many allotments can one PAS-3 cover?",
+                "acceptedAnswer": { "@type": "Answer", "text": "As per the PAS-3 instruction kit, details of up to five allotments can be filed through a single eForm. Where a company has made more than five allotments, additional PAS-3 forms are filed. Each allotment must still be reported within its applicable deadline of 30 days, or 15 days for a private placement." }
+            },
+            {
+                "@type": "Question",
+                "name": "When must shares be allotted after receiving money?",
+                "acceptedAnswer": { "@type": "Answer", "text": "A company must allot securities within 60 days of receiving the application money. If it cannot, it must refund the money within 15 days from the end of the 60 days. If the company fails to refund within that period, it must repay the money with interest at 12 percent per annum from the expiry of the sixtieth day." }
+            },
+            {
+                "@type": "Question",
+                "name": "Is MGT-14 needed for a private placement allotment?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Yes. For a private placement, the company files MGT-14 for the special resolution before circulating the letter of offer, maintains the PAS-5 record, and then files PAS-3 within 15 days of allotment. Sequencing these filings correctly is essential, which is why a professional handles the private placement process end to end." }
+            }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/pas-3-return-of-allotment",
+        "name": "PAS-3 Return of Allotment Filing Services",
+        "description": "File Form PAS-3 return of allotment within 30 days, or 15 days for private placement, after issuing shares. Avoid Rs 1,000/day penalty. From INR 4,999.",
+        "url": "https://www.patronaccounting.com/pas-3-return-of-allotment",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/pas-3-return-of-allotment/#service" },
+        "datePublished": "2026-06-03T08:00:00+05:30",
+        "dateModified": "2026-06-04T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/pas-3-return-of-allotment/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "PAS-3 Filing Process: Step by Step",
+        "description": "How Form PAS-3 is filed, from receiving application money and passing the allotment resolution to filing within the deadline and issuing share certificates.",
+        "totalTime": "P3D",
+        "step": [
+            { "@type": "HowToStep", "name": "Receive application money", "text": "Collect the share application money in the company account and complete pre-allotment compliances." },
+            { "@type": "HowToStep", "name": "Pass the allotment resolution", "text": "Hold the Board meeting and pass the allotment resolution within 60 days of receiving the money." },
+            { "@type": "HowToStep", "name": "Prepare the list of allottees", "text": "Compile the certified list of allottees and the capital structure before and after allotment." },
+            { "@type": "HowToStep", "name": "Complete Form PAS-3", "text": "Enter allotment details on the MCA V3 portal, filing up to 5 allotments per form." },
+            { "@type": "HowToStep", "name": "Attach documents and certify", "text": "Attach the board resolution and list of allottees, certified by the signatory." },
+            { "@type": "HowToStep", "name": "File within the deadline", "text": "Submit within 30 days, or 15 days for a private placement, and pay the MCA fee." },
+            { "@type": "HowToStep", "name": "Issue certificates and update records", "text": "Issue share certificates within 2 months and update the register of members." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "PAS-3 Filing Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Return of Allotment", "description": "The statement to the ROC that shares have been issued, filed in PAS-3." },
+            { "@type": "DefinedTerm", "name": "Allottee", "description": "A person to whom the company allots shares; their details form the mandatory list of allottees." },
+            { "@type": "DefinedTerm", "name": "Private Placement", "description": "An offer of securities to a select group under Section 42, filed in PAS-3 within 15 days." },
+            { "@type": "DefinedTerm", "name": "Rights Issue", "description": "An offer of new shares to existing shareholders in proportion to their holding." },
+            { "@type": "DefinedTerm", "name": "Bonus Issue", "description": "An allotment of free shares to existing shareholders from reserves." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1567,17 +1572,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1600,8 +1598,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1638,7 +1634,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1 (corrected): Last Updated mirrors schema dateModified — STABLE hardcoded date, never live new Date()
 (function() {
@@ -1649,3 +1644,19 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

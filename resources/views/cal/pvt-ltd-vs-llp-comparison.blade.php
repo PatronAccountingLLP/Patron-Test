@@ -1,180 +1,6 @@
 @extends('layouts.app')
-<title>Pvt Ltd vs LLP | Tax, Compliance &amp; Funding Compared</title>
-<meta name="description" content="Pvt Ltd vs LLP comparison tool: get a personalised verdict on tax, compliance, audit, funding &amp; ESOP suitability, plus a full side-by-side matrix. Free!">
-<meta name="robots" content="index, follow">
-<meta name="theme-color" content="#15365f">
+@push('styles')
 <link rel="canonical" href="https://www.patronaccounting.com/tools/pvt-ltd-vs-llp-comparison">
-@section('meta')
-<meta property="og:title" content="Pvt Ltd vs LLP Comparison — Which Is Better 2026">
-<meta property="og:description" content="Answer a few questions and get a personalised Pvt Ltd vs LLP recommendation on tax, compliance, funding and ESOPs, with a complete side-by-side comparison.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.patronaccounting.com/tools/pvt-ltd-vs-llp-comparison">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="1200">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-<meta property="og:site_name" content="Patron Accounting">
-<meta property="og:locale" content="en_IN">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Pvt Ltd vs LLP Comparison — Which Is Better 2026">
-<meta name="twitter:description" content="Personalised Pvt Ltd vs LLP verdict on tax, compliance, funding and ESOPs, plus a full side-by-side matrix. Free &amp; instant.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-
-<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
-<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
-@endsection
-@section('schema')
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "Pvt Ltd vs LLP Comparison",
-  "description": "Pvt Ltd vs LLP Comparison helps a founder choose between a Private Limited Company and a Limited Liability Partnership in India. It asks about plans to raise external equity, intention to offer ESOPs, expected turnover, whether profits will be distributed or reinvested and the number of founders, then weighs these against the structures' differences in taxation, compliance and audit burden, funding and ESOP suitability, credibility and conversion, and returns a personalised recommendation with reasoning. It also provides a full side-by-side comparison matrix of the two structures.",
-  "url": "https://www.patronaccounting.com/tools/pvt-ltd-vs-llp-comparison",
-  "applicationCategory": "BusinessApplication",
-  "inLanguage": "en-IN",
-  "isAccessibleForFree": true,
-  "operatingSystem": "Any",
-  "datePublished": "2026-06-05T08:00:00+05:30",
-  "dateModified": "2026-06-05T08:00:00+05:30",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "INR"
-  },
-  "reviewedBy": {
-    "@type": "Person",
-    "@id": "https://patronaccounting.com/#founder",
-    "name": "CA Sundram Gupta",
-    "jobTitle": "Founder & Chartered Accountant",
-    "url": "https://www.patronaccounting.com/contact-page",
-    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-    "hasCredential": [{
-      "@type": "EducationalOccupationalCredential",
-      "credentialCategory": "Professional Certification",
-      "name": "Chartered Accountant (CA)",
-      "recognizedBy": {
-        "@type": "Organization",
-        "name": "Institute of Chartered Accountants of India",
-        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-      }
-    }]
-  },
-  "publisher": { "@id": "https://patronaccounting.com/#organization" },
-  "provider": {
-    "@id": "https://patronaccounting.com/#organization"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "Pvt Ltd vs LLP Comparison", "item": "https://www.patronaccounting.com/tools/pvt-ltd-vs-llp-comparison"}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the main difference between a Pvt Ltd and an LLP?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A Private Limited Company is a company under the Companies Act, 2013, with shareholders, directors and shares, while a Limited Liability Partnership is a partnership under the LLP Act, 2008, with partners and a partnership agreement instead of shares. Both give limited liability, so personal assets are protected. The practical differences lie in taxation, compliance burden, the ability to raise equity funding and issue ESOPs, and credibility, which is what this tool compares for your specific situation."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How are a Pvt Ltd and an LLP taxed differently?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A Private Limited Company is taxed at 22 percent under Section 115BAA without exemptions, or 25 percent if turnover is within the prescribed limit, plus surcharge and cess, but dividends are taxed again in the shareholders' hands. An LLP is taxed at a flat 30 percent plus surcharge and cess, but profits distributed to partners are not taxed again. So a company has a lower base rate while an LLP avoids the second layer of tax on distributions, making the better choice depend on whether profits are reinvested or withdrawn."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which has lower compliance, a Pvt Ltd or an LLP?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "An LLP has materially lower compliance. It files only Form 11 annual return and Form 8 statement of accounts and solvency, with no mandatory audit unless turnover exceeds 40 lakh rupees or contribution exceeds 25 lakh rupees, and no board meetings or AGM. A Private Limited Company must file AOC-4 and MGT-7A, hold board meetings and an AGM, maintain statutory registers and undergo a statutory audit regardless of turnover. Annual compliance for an LLP typically runs lower than for a company."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can an LLP raise venture capital or issue ESOPs?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Generally no on both counts. Only a company can issue shares and employee stock options, so ESOPs are not available to an LLP. Venture capital and private equity investors almost always require a Private Limited structure, and many funds, particularly Alternative Investment Funds, cannot or will not invest in an LLP. If raising external equity or offering ESOPs is part of your plan, a Private Limited Company is effectively required, which is why this tool weights those answers heavily."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "When is an LLP the better choice?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "An LLP suits a business funded entirely by its partners that does not plan to raise external equity or issue ESOPs, wants minimal compliance and lower annual cost, and intends to distribute profits to partners regularly rather than reinvest. Professional firms, consultancies, family businesses and small trading or service businesses often fit this profile. The single tax layer on distributions and the lighter filing load make an LLP efficient and simple when scale and outside investment are not priorities."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "When is a Pvt Ltd the better choice?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A Private Limited Company is the better choice if you plan to raise funding from angels, venture capital or private equity, want to offer ESOPs to attract talent, intend to scale quickly or pursue acquisition or an IPO, or need maximum credibility with banks, large clients and investors. It also lets you reinvest profits at a lower corporate tax rate. The higher compliance and the double tax on dividends are the trade-offs you accept for fundability and scale."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I convert an LLP to a Pvt Ltd later?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, an LLP can be converted to a Private Limited Company under Section 366 of the Companies Act, but the process needs regulatory approvals, partner and shareholder consents, and careful tax and stamp duty planning, so it is slower and costlier than choosing correctly at the start. There are documented cases of startups losing investment timelines because a fund could not invest until conversion completed. If equity funding is even a possibility, it is usually better to incorporate as a company upfront."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the tax rate really lower for a Pvt Ltd?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The base corporate rate is lower, at 22 percent for a company under Section 115BAA versus a flat 30 percent for an LLP, and a new manufacturing company can opt for 15 percent under Section 115BAB. However, a company's distributed profits are taxed again as dividends in the shareholders' hands, whereas an LLP's distributions are not. So if you reinvest, the company's lower rate wins; if you distribute most profits, the LLP's single layer can be more efficient overall. The right comparison is the effective tax after distribution, not the headline rate."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does this tool give tax or legal advice?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. The Pvt Ltd vs LLP Comparison is an educational planning aid that weighs your answers against the typical differences between the two structures and suggests which usually fits better. It does not account for every detail of your situation, sector-specific FDI rules, state nuances or the latest amendments, and it is not a substitute for professional advice. Tax rates, audit thresholds and rules change, so confirm the current position and your specific structure with a CA or CS before incorporating."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the Pvt Ltd vs LLP Comparison tool free?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, the Patron Accounting Pvt Ltd vs LLP Comparison tool is completely free with no signup required. All logic runs in your browser and nothing is stored on our servers. It gives a personalised recommendation from your answers on funding, ESOPs, turnover, profit distribution and founders, with the reasoning, and shows a full side-by-side comparison matrix. It is an educational aid; confirm the best structure for your situation with a professional before you incorporate."
-      }
-    }
-  ]
-}
-</script>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-@endsection
-
 <style>
         :root {
             --primary: #15365f;
@@ -686,6 +512,183 @@ a:focus-visible {
 
 
         </style>
+@endpush
+
+@section('meta')
+<meta property="og:title" content="Pvt Ltd vs LLP Comparison — Which Is Better 2026">
+<meta property="og:description" content="Answer a few questions and get a personalised Pvt Ltd vs LLP recommendation on tax, compliance, funding and ESOPs, with a complete side-by-side comparison.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/pvt-ltd-vs-llp-comparison">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+<meta property="og:site_name" content="Patron Accounting">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Pvt Ltd vs LLP Comparison — Which Is Better 2026">
+<meta name="twitter:description" content="Personalised Pvt Ltd vs LLP verdict on tax, compliance, funding and ESOPs, plus a full side-by-side matrix. Free &amp; instant.">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
+
+<title>Pvt Ltd vs LLP | Tax, Compliance &amp; Funding Compared</title>
+<meta name="description" content="Pvt Ltd vs LLP comparison tool: get a personalised verdict on tax, compliance, audit, funding &amp; ESOP suitability, plus a full side-by-side matrix. Free!">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#15365f">
+@endsection
+@section('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Pvt Ltd vs LLP Comparison",
+  "description": "Pvt Ltd vs LLP Comparison helps a founder choose between a Private Limited Company and a Limited Liability Partnership in India. It asks about plans to raise external equity, intention to offer ESOPs, expected turnover, whether profits will be distributed or reinvested and the number of founders, then weighs these against the structures' differences in taxation, compliance and audit burden, funding and ESOP suitability, credibility and conversion, and returns a personalised recommendation with reasoning. It also provides a full side-by-side comparison matrix of the two structures.",
+  "url": "https://www.patronaccounting.com/tools/pvt-ltd-vs-llp-comparison",
+  "applicationCategory": "BusinessApplication",
+  "inLanguage": "en-IN",
+  "isAccessibleForFree": true,
+  "operatingSystem": "Any",
+  "datePublished": "2026-06-05T08:00:00+05:30",
+  "dateModified": "2026-06-05T08:00:00+05:30",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "INR"
+  },
+  "reviewedBy": {
+    "@type": "Person",
+    "@id": "https://patronaccounting.com/#founder",
+    "name": "CA Sundram Gupta",
+    "jobTitle": "Founder & Chartered Accountant",
+    "url": "https://www.patronaccounting.com/contact-page",
+    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+    "hasCredential": [{
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Professional Certification",
+      "name": "Chartered Accountant (CA)",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Institute of Chartered Accountants of India",
+        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+      }
+    }]
+  },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
+  "provider": {
+    "@id": "https://patronaccounting.com/#organization"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "Pvt Ltd vs LLP Comparison", "item": "https://www.patronaccounting.com/tools/pvt-ltd-vs-llp-comparison"}
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the main difference between a Pvt Ltd and an LLP?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A Private Limited Company is a company under the Companies Act, 2013, with shareholders, directors and shares, while a Limited Liability Partnership is a partnership under the LLP Act, 2008, with partners and a partnership agreement instead of shares. Both give limited liability, so personal assets are protected. The practical differences lie in taxation, compliance burden, the ability to raise equity funding and issue ESOPs, and credibility, which is what this tool compares for your specific situation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How are a Pvt Ltd and an LLP taxed differently?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A Private Limited Company is taxed at 22 percent under Section 115BAA without exemptions, or 25 percent if turnover is within the prescribed limit, plus surcharge and cess, but dividends are taxed again in the shareholders' hands. An LLP is taxed at a flat 30 percent plus surcharge and cess, but profits distributed to partners are not taxed again. So a company has a lower base rate while an LLP avoids the second layer of tax on distributions, making the better choice depend on whether profits are reinvested or withdrawn."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which has lower compliance, a Pvt Ltd or an LLP?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An LLP has materially lower compliance. It files only Form 11 annual return and Form 8 statement of accounts and solvency, with no mandatory audit unless turnover exceeds 40 lakh rupees or contribution exceeds 25 lakh rupees, and no board meetings or AGM. A Private Limited Company must file AOC-4 and MGT-7A, hold board meetings and an AGM, maintain statutory registers and undergo a statutory audit regardless of turnover. Annual compliance for an LLP typically runs lower than for a company."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can an LLP raise venture capital or issue ESOPs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Generally no on both counts. Only a company can issue shares and employee stock options, so ESOPs are not available to an LLP. Venture capital and private equity investors almost always require a Private Limited structure, and many funds, particularly Alternative Investment Funds, cannot or will not invest in an LLP. If raising external equity or offering ESOPs is part of your plan, a Private Limited Company is effectively required, which is why this tool weights those answers heavily."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When is an LLP the better choice?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An LLP suits a business funded entirely by its partners that does not plan to raise external equity or issue ESOPs, wants minimal compliance and lower annual cost, and intends to distribute profits to partners regularly rather than reinvest. Professional firms, consultancies, family businesses and small trading or service businesses often fit this profile. The single tax layer on distributions and the lighter filing load make an LLP efficient and simple when scale and outside investment are not priorities."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When is a Pvt Ltd the better choice?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A Private Limited Company is the better choice if you plan to raise funding from angels, venture capital or private equity, want to offer ESOPs to attract talent, intend to scale quickly or pursue acquisition or an IPO, or need maximum credibility with banks, large clients and investors. It also lets you reinvest profits at a lower corporate tax rate. The higher compliance and the double tax on dividends are the trade-offs you accept for fundability and scale."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I convert an LLP to a Pvt Ltd later?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, an LLP can be converted to a Private Limited Company under Section 366 of the Companies Act, but the process needs regulatory approvals, partner and shareholder consents, and careful tax and stamp duty planning, so it is slower and costlier than choosing correctly at the start. There are documented cases of startups losing investment timelines because a fund could not invest until conversion completed. If equity funding is even a possibility, it is usually better to incorporate as a company upfront."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the tax rate really lower for a Pvt Ltd?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The base corporate rate is lower, at 22 percent for a company under Section 115BAA versus a flat 30 percent for an LLP, and a new manufacturing company can opt for 15 percent under Section 115BAB. However, a company's distributed profits are taxed again as dividends in the shareholders' hands, whereas an LLP's distributions are not. So if you reinvest, the company's lower rate wins; if you distribute most profits, the LLP's single layer can be more efficient overall. The right comparison is the effective tax after distribution, not the headline rate."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does this tool give tax or legal advice?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The Pvt Ltd vs LLP Comparison is an educational planning aid that weighs your answers against the typical differences between the two structures and suggests which usually fits better. It does not account for every detail of your situation, sector-specific FDI rules, state nuances or the latest amendments, and it is not a substitute for professional advice. Tax rates, audit thresholds and rules change, so confirm the current position and your specific structure with a CA or CS before incorporating."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the Pvt Ltd vs LLP Comparison tool free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the Patron Accounting Pvt Ltd vs LLP Comparison tool is completely free with no signup required. All logic runs in your browser and nothing is stored on our servers. It gives a personalised recommendation from your answers on funding, ESOPs, turnover, profit distribution and founders, with the reasoning, and shows a full side-by-side comparison matrix. It is an educational aid; confirm the best structure for your situation with a professional before you incorporate."
+      }
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation">
     <div class="toc-nav-inner">

@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,208 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>Inventory Accounting in Gurugram 2026 | Patron Accounting</title>
-    <meta name="description" content="Stock costing for Gurugram firms from INR 7,499/mo. Our CA team handles BOM, FIFO, weighted average, and reconciliation for Manesar auto and Cyber City teams.">
-    <link rel="canonical" href="/inventory-accounting-costing-services/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Inventory Accounting in Gurugram 2026 | Patron Accounting">
-    <meta property="og:description" content="Stock costing for Gurugram firms from INR 7,499/mo. Our CA team handles BOM, FIFO, weighted average, and reconciliation for Manesar auto and Cyber City teams.">
-    <meta property="og:url" content="/inventory-accounting-costing-services/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Inventory Accounting in Gurugram 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Stock costing for Gurugram firms from INR 7,499/mo. Our CA team handles BOM, FIFO, weighted average, and reconciliation for Manesar auto and Cyber City teams.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/inventory-accounting-costing-services/gurugram#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Inventory Accounting and Costing Services",
-          "item": "https://www.patronaccounting.com/inventory-accounting-costing-services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Inventory Accounting and Costing Services in Gurugram",
-          "item": "https://www.patronaccounting.com/inventory-accounting-costing-services/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/inventory-accounting-costing-services/gurugram#faq",
-      "datePublished": "2026-06-23T08:00:00+05:30",
-      "dateModified": "2026-06-23T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What does inventory accounting and costing involve for a Gurugram company?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "It puts a defensible number on the stock you hold and tracks every movement, so closing inventory and cost of goods sold tie back to your books. The work spans FIFO or weighted average valuation under AS 2 or Ind AS 2, godown reconciliation, multi-level BOM costing, and ageing reports across Cyber City traders and Manesar manufacturers."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What will inventory accounting cost a Gurugram business each month?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Plans open at INR 7,499/mo (Exl GST and Govt. Charges). Where you land depends on how many SKUs and warehouses you run, the costing method, and whether you trade, manufacture, or sell retail. Before any work starts, Udyog Vihar and Manesar clients get a written fixed-scope quote, so the monthly figure is agreed up front."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Under AS 2 and Ind AS 2, which valuation methods can I use?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Both standards accept only FIFO or the weighted average cost formula, with stock carried at the lower of cost or net realisable value; LIFO is barred. Whichever formula you adopt has to stay the same year on year. After studying your Gurugram trade or factory profile, Patron picks the formula that fits and locks it in."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do you cost JIT and multi-level BOM stock for a Manesar auto-ancillary unit?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Manesar IMT auto-ancillary and OEM suppliers run just-in-time flows with deep, multi-level bills of materials. We map every sub-assembly, attach material, labour, and overhead at each level, and apply job or standard costing so WIP and finished-goods values stay accurate even as JIT cycles turn over fast and batches change."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Where do Gurugram companies file their statutory stock records?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Although Gurugram sits in Haryana, incorporated companies here file with RoC Delhi under the MCA, which is shared across the NCR. Section 128 of the Companies Act 2013 requires proper books, stock registers included. Patron keeps your inventory schedules in shape so the figures behind those RoC Delhi filings hold together."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is Haryana GST and e-way-bill stock movement handled in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Stock that moves between Gurugram godowns, to Manesar plants, or out to customers triggers Haryana GST e-way bills above the threshold. We line up each e-way bill and delivery challan against the stock ledger, so inter-godown transfers, branch movements, and dispatches reconcile cleanly with your GST returns and book stock."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can you manage bonded and warehouse stock for a Udyog Vihar exporter?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Udyog Vihar exporters and ITES suppliers often hold bonded or warehoused stock awaiting shipment. We track bonded inventory separately, value it under AS 2, and reconcile warehouse balances to customs and dispatch records, so duty-deferred goods and export consignments never distort your closing stock or COGS."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does stock valuation feed into income tax and GST credit in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Closing stock sets taxable profit, so a wrong number quietly inflates or deflates your tax. Section 145A also requires valuation inclusive of tax actually paid. Clean records protect input tax credit and survive scrutiny, which is why Patron reconciles stock to your books and the Haryana GST portal each period."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/inventory-accounting-costing-services/gurugram#service",
-      "name": "Inventory Accounting and Costing Services in Gurugram",
-      "description": "Inventory accounting and costing in Gurugram covers FIFO and weighted average valuation under AS 2 and Ind AS 2, stock reconciliation, job, process and standard costing, BOM, COGS, and stock ageing. Patron Accounting serves traders, manufacturers, and retailers in Cyber City, Manesar, and the IMT belts.",
-      "serviceType": "Inventory Accounting and Costing",
-      "url": "https://www.patronaccounting.com/inventory-accounting-costing-services/gurugram",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#localbusiness-gurugram"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Inventory",
-          "sameAs": "https://en.wikipedia.org/wiki/Inventory"
-        },
-        {
-          "@type": "Thing",
-          "name": "Cost accounting",
-          "sameAs": "https://en.wikipedia.org/wiki/Cost_accounting"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Inventory Accounting Plans in Gurugram",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "price": "7499",
-            "priceSpecification": {
-              "@type": "UnitPriceSpecification",
-              "priceCurrency": "INR",
-              "price": "7499",
-              "unitText": "per month"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Inventory Accounting and Costing per Month"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness-gurugram",
-      "name": "Patron Accounting LLP - Gurugram",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/inventory-accounting-costing-services/gurugram",
-      "telephone": "+91-9699936369",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Gurugram",
-        "addressRegion": "Haryana",
-        "postalCode": "122002",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -815,7 +612,217 @@
         .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
 
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>Inventory Accounting in Gurugram 2026 | Patron Accounting</title>
+    <meta name="description" content="Stock costing for Gurugram firms from INR 7,499/mo. Our CA team handles BOM, FIFO, weighted average, and reconciliation for Manesar auto and Cyber City teams.">
+    <link rel="canonical" href="/inventory-accounting-costing-services/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Inventory Accounting in Gurugram 2026 | Patron Accounting">
+    <meta property="og:description" content="Stock costing for Gurugram firms from INR 7,499/mo. Our CA team handles BOM, FIFO, weighted average, and reconciliation for Manesar auto and Cyber City teams.">
+    <meta property="og:url" content="/inventory-accounting-costing-services/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Inventory Accounting in Gurugram 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Stock costing for Gurugram firms from INR 7,499/mo. Our CA team handles BOM, FIFO, weighted average, and reconciliation for Manesar auto and Cyber City teams.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/inventory-accounting-costing-services/gurugram#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Inventory Accounting and Costing Services",
+          "item": "https://www.patronaccounting.com/inventory-accounting-costing-services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Inventory Accounting and Costing Services in Gurugram",
+          "item": "https://www.patronaccounting.com/inventory-accounting-costing-services/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/inventory-accounting-costing-services/gurugram#faq",
+      "datePublished": "2026-06-23T08:00:00+05:30",
+      "dateModified": "2026-06-23T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does inventory accounting and costing involve for a Gurugram company?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It puts a defensible number on the stock you hold and tracks every movement, so closing inventory and cost of goods sold tie back to your books. The work spans FIFO or weighted average valuation under AS 2 or Ind AS 2, godown reconciliation, multi-level BOM costing, and ageing reports across Cyber City traders and Manesar manufacturers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What will inventory accounting cost a Gurugram business each month?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Plans open at INR 7,499/mo (Exl GST and Govt. Charges). Where you land depends on how many SKUs and warehouses you run, the costing method, and whether you trade, manufacture, or sell retail. Before any work starts, Udyog Vihar and Manesar clients get a written fixed-scope quote, so the monthly figure is agreed up front."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Under AS 2 and Ind AS 2, which valuation methods can I use?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Both standards accept only FIFO or the weighted average cost formula, with stock carried at the lower of cost or net realisable value; LIFO is barred. Whichever formula you adopt has to stay the same year on year. After studying your Gurugram trade or factory profile, Patron picks the formula that fits and locks it in."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you cost JIT and multi-level BOM stock for a Manesar auto-ancillary unit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Manesar IMT auto-ancillary and OEM suppliers run just-in-time flows with deep, multi-level bills of materials. We map every sub-assembly, attach material, labour, and overhead at each level, and apply job or standard costing so WIP and finished-goods values stay accurate even as JIT cycles turn over fast and batches change."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where do Gurugram companies file their statutory stock records?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Although Gurugram sits in Haryana, incorporated companies here file with RoC Delhi under the MCA, which is shared across the NCR. Section 128 of the Companies Act 2013 requires proper books, stock registers included. Patron keeps your inventory schedules in shape so the figures behind those RoC Delhi filings hold together."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is Haryana GST and e-way-bill stock movement handled in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Stock that moves between Gurugram godowns, to Manesar plants, or out to customers triggers Haryana GST e-way bills above the threshold. We line up each e-way bill and delivery challan against the stock ledger, so inter-godown transfers, branch movements, and dispatches reconcile cleanly with your GST returns and book stock."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you manage bonded and warehouse stock for a Udyog Vihar exporter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Udyog Vihar exporters and ITES suppliers often hold bonded or warehoused stock awaiting shipment. We track bonded inventory separately, value it under AS 2, and reconcile warehouse balances to customs and dispatch records, so duty-deferred goods and export consignments never distort your closing stock or COGS."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does stock valuation feed into income tax and GST credit in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Closing stock sets taxable profit, so a wrong number quietly inflates or deflates your tax. Section 145A also requires valuation inclusive of tax actually paid. Clean records protect input tax credit and survive scrutiny, which is why Patron reconciles stock to your books and the Haryana GST portal each period."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/inventory-accounting-costing-services/gurugram#service",
+      "name": "Inventory Accounting and Costing Services in Gurugram",
+      "description": "Inventory accounting and costing in Gurugram covers FIFO and weighted average valuation under AS 2 and Ind AS 2, stock reconciliation, job, process and standard costing, BOM, COGS, and stock ageing. Patron Accounting serves traders, manufacturers, and retailers in Cyber City, Manesar, and the IMT belts.",
+      "serviceType": "Inventory Accounting and Costing",
+      "url": "https://www.patronaccounting.com/inventory-accounting-costing-services/gurugram",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#localbusiness-gurugram"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Inventory",
+          "sameAs": "https://en.wikipedia.org/wiki/Inventory"
+        },
+        {
+          "@type": "Thing",
+          "name": "Cost accounting",
+          "sameAs": "https://en.wikipedia.org/wiki/Cost_accounting"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Inventory Accounting Plans in Gurugram",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "price": "7499",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "INR",
+              "price": "7499",
+              "unitText": "per month"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Inventory Accounting and Costing per Month"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness-gurugram",
+      "name": "Patron Accounting LLP - Gurugram",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/inventory-accounting-costing-services/gurugram",
+      "telephone": "+91-9699936369",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Gurugram",
+        "addressRegion": "Haryana",
+        "postalCode": "122002",
+        "addressCountry": "IN"
+      },
+      "parentOrganization": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1564,7 +1571,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

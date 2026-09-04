@@ -1,183 +1,5 @@
 @extends('layouts.app')
-@section('meta')
-
-<title>ESOP Pool Sizing Calculator | Option Pool Planner</title>
-<meta name="description" content="ESOP pool sizing calculator for startups: plan your option pool from headcount and role-based grants, then see cap-table percentage and founder dilution. Free!">
-<meta name="robots" content="index, follow">
-<meta name="theme-color" content="#15365f">
-<link rel="canonical" href="https://www.patronaccounting.com/tools/esop-pool-sizing-calculator">
-
-<meta property="og:title" content="ESOP Pool Sizing Calculator — Hiring Plan &amp; Dilution">
-<meta property="og:description" content="Size your ESOP pool bottom-up from planned hires and role-based grants, add a buffer, and see the pool as a percentage of the cap table and the founder dilution.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.patronaccounting.com/tools/esop-pool-sizing-calculator">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="1200">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-<meta property="og:site_name" content="Patron Accounting">
-<meta property="og:locale" content="en_IN">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="ESOP Pool Sizing Calculator — Hiring Plan &amp; Dilution">
-<meta name="twitter:description" content="Size your ESOP pool bottom-up from planned hires and role-based grants, with buffer, cap-table % and founder dilution. Free &amp; instant.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-
-<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
-<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
-@endsection
-
-@section('schema')
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "ESOP Pool Sizing Calculator",
-  "description": "ESOP Pool Sizing Calculator builds an employee stock option pool from the bottom up using a startup's planned hires and role-based equity grant benchmarks. It sums the grant percentages across all planned roles, adds a planning buffer, and recommends a pool size as a percentage of fully diluted equity. It also converts that percentage into a number of option shares against the current cap table and shows the resulting founder dilution, helping founders size the pool to cover an eighteen-month hiring plan without excessive dilution.",
-  "url": "https://www.patronaccounting.com/tools/esop-pool-sizing-calculator",
-  "applicationCategory": "BusinessApplication",
-  "inLanguage": "en-IN",
-  "isAccessibleForFree": true,
-  "operatingSystem": "Any",
-  "datePublished": "2026-06-05T08:00:00+05:30",
-  "dateModified": "2026-06-05T08:00:00+05:30",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "INR"
-  },
-  "reviewedBy": {
-    "@type": "Person",
-    "@id": "https://patronaccounting.com/#founder",
-    "name": "CA Sundram Gupta",
-    "jobTitle": "Founder & Chartered Accountant",
-    "url": "https://www.patronaccounting.com/contact-page",
-    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-    "hasCredential": [{
-      "@type": "EducationalOccupationalCredential",
-      "credentialCategory": "Professional Certification",
-      "name": "Chartered Accountant (CA)",
-      "recognizedBy": {
-        "@type": "Organization",
-        "name": "Institute of Chartered Accountants of India",
-        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-      }
-    }]
-  },
-  "publisher": { "@id": "https://patronaccounting.com/#organization" },
-  "provider": {
-    "@id": "https://patronaccounting.com/#organization"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "ESOP Pool Sizing Calculator", "item": "https://www.patronaccounting.com/tools/esop-pool-sizing-calculator"}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How big should a startup ESOP pool be?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Most Indian startups run an ESOP pool of about 10 to 20 percent of fully diluted equity across their lifecycle. A common pattern is 5 to 8 percent at pre-seed or bootstrap stage, 10 to 12 percent at seed, 12 to 15 percent that investors expect on a post-money basis before Series A, and 15 to 20 percent by Series B and beyond. The right figure is whatever your actual hiring plan needs plus a buffer, not a fixed number."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is bottom-up ESOP pool sizing?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Bottom-up sizing builds the pool from your real hiring plan rather than picking a round number. You list the roles you intend to hire over roughly the next eighteen months, assign each a market equity grant, multiply by the number of such hires, and sum the result. Adding a buffer of around 20 to 30 percent for refresh grants and unplanned hires gives the recommended pool. This ties the pool to need and avoids both under and over-allocation."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are typical role-based ESOP grants?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "As a rough market guide in India, early engineers among the first hires receive around 0.5 to 2 percent each, VP and C-level leaders around 0.3 to 1.5 percent, and mid-level individual contributors around 0.05 to 0.3 percent. Junior hires are often 0.05 to 0.1 percent. The exact figure depends on seniority, timing and how much cash compensation is being traded for equity, so treat these as starting benchmarks."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why add a buffer to the ESOP pool?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A buffer of about 20 to 30 percent on top of your planned grants covers refresh grants for top performers, counter-offers, unplanned hires and grants that turn out larger than benchmarked. Without a buffer the pool tends to run out before the next round, forcing a top-up that dilutes founders again at an inconvenient time. The buffer is planning headroom, not waste, and unused options simply stay unallocated."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does the ESOP pool dilute founders?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Creating or expanding an option pool increases the fully diluted share count, so every existing shareholder's percentage falls proportionately, including the founders. If founders hold 100 percent and a 12 percent pool is created, their combined stake falls to about 88 percent. Investors usually require the pool to be created or topped up before their money goes in, so the dilution lands on founders rather than the new investor; this is the pool shuffle."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "When should I create the ESOP pool?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "It is usually best to create a modest pool early, soon after an angel or pre-seed round, even before hiring fully starts, so you can offer meaningful equity from day one. Creating it late, especially at a term sheet, weakens your negotiating position because investors typically insist the pool comes out of the pre-money valuation, increasing founder dilution. A small early pool topped up at each round is generally the cleaner approach."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What happens if I over-grant to early hires?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Giving early hires very large grants, such as 2 to 3 percent each, feels generous but quickly exhausts the pool before product-market fit. You are then forced to refresh the pool, diluting yourself again, and you may have set an unsustainable internal precedent. Following role-based benchmarks keeps the pool able to cover the whole plan, which is why bottom-up sizing against market grants is more reliable than ad-hoc generosity."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the pool measured on a fully diluted basis?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Pool size and grants are expressed as a percentage of fully diluted shares, which include all common and preferred shares on an as-converted basis, outstanding options and warrants, and the whole option pool including unallocated shares. This is the standard investors use in equity negotiations because it gives the most accurate picture of ownership. This calculator works in fully diluted percentages and converts them to a share count against your cap table."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does ESOP pool sizing affect the share count in MCA filings?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The pool is approved as part of the ESOP scheme by the Board and shareholders, and creating or increasing it involves corporate actions and filings under the Companies Act, including the relevant resolutions. The number of options the pool represents is set against the company's share capital, so the percentage you choose here should be converted to a defined number of options in the scheme documents. A professional should finalise the scheme and filings."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the ESOP Pool Sizing Calculator free?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, the Patron Accounting ESOP Pool Sizing Calculator is completely free with no signup required. All calculations run in your browser and nothing is stored on our servers. It sizes your pool bottom-up from planned hires and role grants, adds a buffer, and shows the pool as a percentage of fully diluted equity, the number of option shares against your cap table, and the founder dilution. It is a planning tool; the final scheme and filings should be set up with a professional."
-      }
-    }
-  ]
-}
-</script>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
-@endsection
+@push('styles')
 <style>
         :root {
             --primary: #15365f;
@@ -698,6 +520,187 @@ a:focus-visible {
 
 
         </style>
+@endpush
+
+@section('meta')
+
+<title>ESOP Pool Sizing Calculator | Option Pool Planner</title>
+<meta name="description" content="ESOP pool sizing calculator for startups: plan your option pool from headcount and role-based grants, then see cap-table percentage and founder dilution. Free!">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#15365f">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/esop-pool-sizing-calculator">
+
+<meta property="og:title" content="ESOP Pool Sizing Calculator — Hiring Plan &amp; Dilution">
+<meta property="og:description" content="Size your ESOP pool bottom-up from planned hires and role-based grants, add a buffer, and see the pool as a percentage of the cap table and the founder dilution.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/esop-pool-sizing-calculator">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+<meta property="og:site_name" content="Patron Accounting">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ESOP Pool Sizing Calculator — Hiring Plan &amp; Dilution">
+<meta name="twitter:description" content="Size your ESOP pool bottom-up from planned hires and role-based grants, with buffer, cap-table % and founder dilution. Free &amp; instant.">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
+@endsection
+
+@section('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "ESOP Pool Sizing Calculator",
+  "description": "ESOP Pool Sizing Calculator builds an employee stock option pool from the bottom up using a startup's planned hires and role-based equity grant benchmarks. It sums the grant percentages across all planned roles, adds a planning buffer, and recommends a pool size as a percentage of fully diluted equity. It also converts that percentage into a number of option shares against the current cap table and shows the resulting founder dilution, helping founders size the pool to cover an eighteen-month hiring plan without excessive dilution.",
+  "url": "https://www.patronaccounting.com/tools/esop-pool-sizing-calculator",
+  "applicationCategory": "BusinessApplication",
+  "inLanguage": "en-IN",
+  "isAccessibleForFree": true,
+  "operatingSystem": "Any",
+  "datePublished": "2026-06-05T08:00:00+05:30",
+  "dateModified": "2026-06-05T08:00:00+05:30",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "INR"
+  },
+  "reviewedBy": {
+    "@type": "Person",
+    "@id": "https://patronaccounting.com/#founder",
+    "name": "CA Sundram Gupta",
+    "jobTitle": "Founder & Chartered Accountant",
+    "url": "https://www.patronaccounting.com/contact-page",
+    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+    "hasCredential": [{
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Professional Certification",
+      "name": "Chartered Accountant (CA)",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Institute of Chartered Accountants of India",
+        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+      }
+    }]
+  },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
+  "provider": {
+    "@id": "https://patronaccounting.com/#organization"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "ESOP Pool Sizing Calculator", "item": "https://www.patronaccounting.com/tools/esop-pool-sizing-calculator"}
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How big should a startup ESOP pool be?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most Indian startups run an ESOP pool of about 10 to 20 percent of fully diluted equity across their lifecycle. A common pattern is 5 to 8 percent at pre-seed or bootstrap stage, 10 to 12 percent at seed, 12 to 15 percent that investors expect on a post-money basis before Series A, and 15 to 20 percent by Series B and beyond. The right figure is whatever your actual hiring plan needs plus a buffer, not a fixed number."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is bottom-up ESOP pool sizing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bottom-up sizing builds the pool from your real hiring plan rather than picking a round number. You list the roles you intend to hire over roughly the next eighteen months, assign each a market equity grant, multiply by the number of such hires, and sum the result. Adding a buffer of around 20 to 30 percent for refresh grants and unplanned hires gives the recommended pool. This ties the pool to need and avoids both under and over-allocation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are typical role-based ESOP grants?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "As a rough market guide in India, early engineers among the first hires receive around 0.5 to 2 percent each, VP and C-level leaders around 0.3 to 1.5 percent, and mid-level individual contributors around 0.05 to 0.3 percent. Junior hires are often 0.05 to 0.1 percent. The exact figure depends on seniority, timing and how much cash compensation is being traded for equity, so treat these as starting benchmarks."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why add a buffer to the ESOP pool?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A buffer of about 20 to 30 percent on top of your planned grants covers refresh grants for top performers, counter-offers, unplanned hires and grants that turn out larger than benchmarked. Without a buffer the pool tends to run out before the next round, forcing a top-up that dilutes founders again at an inconvenient time. The buffer is planning headroom, not waste, and unused options simply stay unallocated."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does the ESOP pool dilute founders?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Creating or expanding an option pool increases the fully diluted share count, so every existing shareholder's percentage falls proportionately, including the founders. If founders hold 100 percent and a 12 percent pool is created, their combined stake falls to about 88 percent. Investors usually require the pool to be created or topped up before their money goes in, so the dilution lands on founders rather than the new investor; this is the pool shuffle."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When should I create the ESOP pool?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It is usually best to create a modest pool early, soon after an angel or pre-seed round, even before hiring fully starts, so you can offer meaningful equity from day one. Creating it late, especially at a term sheet, weakens your negotiating position because investors typically insist the pool comes out of the pre-money valuation, increasing founder dilution. A small early pool topped up at each round is generally the cleaner approach."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if I over-grant to early hires?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Giving early hires very large grants, such as 2 to 3 percent each, feels generous but quickly exhausts the pool before product-market fit. You are then forced to refresh the pool, diluting yourself again, and you may have set an unsustainable internal precedent. Following role-based benchmarks keeps the pool able to cover the whole plan, which is why bottom-up sizing against market grants is more reliable than ad-hoc generosity."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the pool measured on a fully diluted basis?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Pool size and grants are expressed as a percentage of fully diluted shares, which include all common and preferred shares on an as-converted basis, outstanding options and warrants, and the whole option pool including unallocated shares. This is the standard investors use in equity negotiations because it gives the most accurate picture of ownership. This calculator works in fully diluted percentages and converts them to a share count against your cap table."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does ESOP pool sizing affect the share count in MCA filings?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The pool is approved as part of the ESOP scheme by the Board and shareholders, and creating or increasing it involves corporate actions and filings under the Companies Act, including the relevant resolutions. The number of options the pool represents is set against the company's share capital, so the percentage you choose here should be converted to a defined number of options in the scheme documents. A professional should finalise the scheme and filings."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the ESOP Pool Sizing Calculator free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the Patron Accounting ESOP Pool Sizing Calculator is completely free with no signup required. All calculations run in your browser and nothing is stored on our servers. It sizes your pool bottom-up from planned hires and role grants, adds a buffer, and shows the pool as a percentage of fully diluted equity, the number of option shares against your cap table, and the founder dilution. It is a planning tool; the final scheme and filings should be set up with a professional."
+      }
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation">
     <div class="toc-nav-inner">

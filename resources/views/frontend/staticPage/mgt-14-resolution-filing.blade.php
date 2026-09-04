@@ -1,186 +1,11 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>MGT-14 Resolution Filing Services in 2026 | Patron Accounting</title>
-    <meta name="description" content="File Form MGT-14 for special and board resolutions within 30 days under Section 117. Needed for name, object, capital and MOA changes. From INR 2,499.">
-    <link rel="canonical" href="/mgt-14-resolution-filing">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="MGT-14 Resolution Filing Services in 2026 | Patron Accounting">
-    <meta property="og:description" content="File Form MGT-14 for special and board resolutions within 30 days under Section 117. Needed for name, object, capital and MOA changes. From INR 2,499.">
-    <meta property="og:url" content="/mgt-14-resolution-filing">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="MGT-14 Resolution Filing Services in 2026 | Patron Accounting">
-    <meta name="twitter:description" content="File Form MGT-14 for special and board resolutions within 30 days under Section 117. Needed for name, object, capital and MOA changes. From INR 2,499.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/mgt-14-resolution-filing/#service",
-        "name": "MGT-14 Resolution Filing Services for Companies",
-        "description": "MGT-14 resolution filing services from Patron Accounting LLP cover the reporting of specified resolutions and agreements to the Registrar of Companies under Section 117 of the Companies Act, 2013, including the classification of each resolution against Section 117(3) and the Section 179(3) private-company exemption, the drafting of the special or board resolution, the explanatory statement and supporting minutes, the assembly of certified copies and the altered MOA or AOA where the resolution amends them, the filing of a separate MGT-14 for each event on the MCA V3 portal with a director’s or company secretary’s Digital Signature Certificate, event-linked filing alongside the underlying change, and late-filing support through the Section 403 additional-fee window and the CG-1 condonation route beyond 300 days, with each MGT-14 due within 30 days of passing the resolution.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/mgt-14-resolution-filing" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Resolution (law)", "sameAs": "https://en.wikipedia.org/wiki/Resolution_(law)" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "MGT-14 Filing Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "MGT-14 Resolution Filing Service",
-                    "priceCurrency": "INR",
-                    "price": "2499",
-                    "description": "MGT-14 resolution filing covering the resolution classification, the drafting support and the filing of a separate MGT-14 per event on the MCA V3 portal, exclusive of GST and government charges. The MCA statutory filing fee depends on the company's nominal share capital and is charged on an actual basis; late filing adds an additional fee under Section 403, and beyond 300 days a CG-1 condonation is required before filing."
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/mgt-14-resolution-filing/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Company Compliance", "item": "https://www.patronaccounting.com/corporate-compliance-services" },
-            { "@type": "ListItem", "position": 3, "name": "MGT-14 Filing", "item": "https://www.patronaccounting.com/mgt-14-resolution-filing" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/mgt-14-resolution-filing/#faq",
-        "datePublished": "2026-06-03T08:00:00+05:30",
-        "dateModified": "2026-06-04T08:00:00+05:30",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "What is the due date for filing Form MGT-14?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Form MGT-14 must be filed within 30 days of passing the resolution or making the agreement, under Section 117 of the Companies Act, 2013. A separate MGT-14 is required for each event or agreement. The 30-day period runs from the date the resolution is passed at the Board or general meeting." }
-            },
-            {
-                "@type": "Question",
-                "name": "Which resolutions require MGT-14?",
-                "acceptedAnswer": { "@type": "Answer", "text": "All special resolutions require MGT-14, regardless of company type. Listed board resolutions under Section 117(3) also require it, such as appointment of a managing director, related party transactions and approval of financial statements. Ordinary resolutions generally do not, unless specifically prescribed. A separate form is filed for each resolution." }
-            },
-            {
-                "@type": "Question",
-                "name": "Do private companies need to file MGT-14?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Yes, for special resolutions and most listed matters. However, private companies are exempt under Section 179(3) from filing board resolutions for borrowing money, granting loans, giving guarantees and making investments. They must still file MGT-14 for special resolutions such as name change, object change or MOA and AOA alterations." }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the penalty for late filing of MGT-14?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Under Section 117(2), as amended, the company is liable to a penalty of Rs 10,000 plus Rs 100 per day of continuing default, up to a maximum of Rs 2,00,000. Every officer in default is liable to Rs 10,000 plus Rs 100 per day, up to Rs 50,000. Late filing also attracts an additional fee under Section 403." }
-            },
-            {
-                "@type": "Question",
-                "name": "What corporate events trigger MGT-14?",
-                "acceptedAnswer": { "@type": "Answer", "text": "MGT-14 is triggered by most major corporate events, including company name change, alteration of the MOA or AOA, change in the object clause, issue of sweat equity or preference shares, ESOP scheme approval, certain capital changes and the appointment or variation of terms of a managing director. Each event is filed separately." }
-            },
-            {
-                "@type": "Question",
-                "name": "Can one MGT-14 cover multiple resolutions?",
-                "acceptedAnswer": { "@type": "Answer", "text": "No. A separate Form MGT-14 must be filed for each event or agreement. Combining multiple unrelated resolutions in a single form leads to rejection. Where a single meeting passes several reportable resolutions, each requires its own MGT-14 within 30 days of the resolution date." }
-            },
-            {
-                "@type": "Question",
-                "name": "What happens if MGT-14 is filed after 300 days?",
-                "acceptedAnswer": { "@type": "Answer", "text": "If MGT-14 is not filed within 300 days, the MCA portal requires the SRN of Form INC-28, which is available only after condonation. The company must file CG-1 for condonation of delay, pay the penalty in the condonation order, file INC-28 with the order, and then file MGT-14 referencing the INC-28 SRN." }
-            },
-            {
-                "@type": "Question",
-                "name": "Is the altered MOA or AOA attached to MGT-14?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Yes. Where the resolution alters the Memorandum or Articles of Association, the altered document is a mandatory attachment to MGT-14. Filing without the altered MOA or AOA is a common cause of rejection, so the amended version must be prepared and certified before the form is submitted." }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/mgt-14-resolution-filing",
-        "name": "MGT-14 Resolution Filing Services for Companies",
-        "description": "File Form MGT-14 for special and board resolutions within 30 days under Section 117. Needed for name, object, capital and MOA changes. From INR 2,499.",
-        "url": "https://www.patronaccounting.com/mgt-14-resolution-filing",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/mgt-14-resolution-filing/#service" },
-        "datePublished": "2026-06-03T08:00:00+05:30",
-        "dateModified": "2026-06-04T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/mgt-14-resolution-filing/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "MGT-14 Filing Process: Step by Step",
-        "description": "How Form MGT-14 is filed, from passing the resolution to submitting the form on the MCA V3 portal within 30 days and saving the SRN.",
-        "totalTime": "P3D",
-        "step": [
-            { "@type": "HowToStep", "name": "Pass the resolution", "text": "Pass the special or board resolution at the relevant meeting and record the minutes." },
-            { "@type": "HowToStep", "name": "Classify the resolution", "text": "Confirm whether the resolution falls within Section 117(3), and whether the Section 179(3) private-company exemption applies." },
-            { "@type": "HowToStep", "name": "Prepare attachments", "text": "Compile the certified resolution, explanatory statement and altered MOA or AOA if changed." },
-            { "@type": "HowToStep", "name": "Complete Form MGT-14", "text": "Enter CIN, resolution type and date on the MCA V3 portal, filing a separate form per event." },
-            { "@type": "HowToStep", "name": "Affix DSC", "text": "Sign with the Digital Signature Certificate of a director or company secretary." },
-            { "@type": "HowToStep", "name": "Submit within 30 days", "text": "Submit and pay the MCA fee within 30 days of passing the resolution." },
-            { "@type": "HowToStep", "name": "Save the SRN", "text": "Record the Service Request Number and acknowledgement as proof of filing." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "MGT-14 Filing Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Special Resolution", "description": "A resolution requiring at least 75 percent shareholder approval, always filed in MGT-14." },
-            { "@type": "DefinedTerm", "name": "Board Resolution", "description": "A resolution of the directors; only those listed under Section 179(3) and 117(3) require MGT-14." },
-            { "@type": "DefinedTerm", "name": "Section 179(3) Exemption", "description": "Private companies are exempt from filing board resolutions for loans, guarantees and investments." },
-            { "@type": "DefinedTerm", "name": "Explanatory Statement", "description": "The Section 102 statement that may accompany the resolution." },
-            { "@type": "DefinedTerm", "name": "CG-1", "description": "The condonation application required when MGT-14 is filed beyond 300 days." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -794,7 +619,187 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>MGT-14 Resolution Filing Services in 2026 | Patron Accounting</title>
+    <meta name="description" content="File Form MGT-14 for special and board resolutions within 30 days under Section 117. Needed for name, object, capital and MOA changes. From INR 2,499.">
+    <link rel="canonical" href="/mgt-14-resolution-filing">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="MGT-14 Resolution Filing Services in 2026 | Patron Accounting">
+    <meta property="og:description" content="File Form MGT-14 for special and board resolutions within 30 days under Section 117. Needed for name, object, capital and MOA changes. From INR 2,499.">
+    <meta property="og:url" content="/mgt-14-resolution-filing">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="MGT-14 Resolution Filing Services in 2026 | Patron Accounting">
+    <meta name="twitter:description" content="File Form MGT-14 for special and board resolutions within 30 days under Section 117. Needed for name, object, capital and MOA changes. From INR 2,499.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/mgt-14-resolution-filing/#service",
+        "name": "MGT-14 Resolution Filing Services for Companies",
+        "description": "MGT-14 resolution filing services from Patron Accounting LLP cover the reporting of specified resolutions and agreements to the Registrar of Companies under Section 117 of the Companies Act, 2013, including the classification of each resolution against Section 117(3) and the Section 179(3) private-company exemption, the drafting of the special or board resolution, the explanatory statement and supporting minutes, the assembly of certified copies and the altered MOA or AOA where the resolution amends them, the filing of a separate MGT-14 for each event on the MCA V3 portal with a director’s or company secretary’s Digital Signature Certificate, event-linked filing alongside the underlying change, and late-filing support through the Section 403 additional-fee window and the CG-1 condonation route beyond 300 days, with each MGT-14 due within 30 days of passing the resolution.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/mgt-14-resolution-filing" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Resolution (law)", "sameAs": "https://en.wikipedia.org/wiki/Resolution_(law)" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "MGT-14 Filing Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "MGT-14 Resolution Filing Service",
+                    "priceCurrency": "INR",
+                    "price": "2499",
+                    "description": "MGT-14 resolution filing covering the resolution classification, the drafting support and the filing of a separate MGT-14 per event on the MCA V3 portal, exclusive of GST and government charges. The MCA statutory filing fee depends on the company's nominal share capital and is charged on an actual basis; late filing adds an additional fee under Section 403, and beyond 300 days a CG-1 condonation is required before filing."
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/mgt-14-resolution-filing/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Company Compliance", "item": "https://www.patronaccounting.com/corporate-compliance-services" },
+            { "@type": "ListItem", "position": 3, "name": "MGT-14 Filing", "item": "https://www.patronaccounting.com/mgt-14-resolution-filing" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/mgt-14-resolution-filing/#faq",
+        "datePublished": "2026-06-03T08:00:00+05:30",
+        "dateModified": "2026-06-04T08:00:00+05:30",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is the due date for filing Form MGT-14?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Form MGT-14 must be filed within 30 days of passing the resolution or making the agreement, under Section 117 of the Companies Act, 2013. A separate MGT-14 is required for each event or agreement. The 30-day period runs from the date the resolution is passed at the Board or general meeting." }
+            },
+            {
+                "@type": "Question",
+                "name": "Which resolutions require MGT-14?",
+                "acceptedAnswer": { "@type": "Answer", "text": "All special resolutions require MGT-14, regardless of company type. Listed board resolutions under Section 117(3) also require it, such as appointment of a managing director, related party transactions and approval of financial statements. Ordinary resolutions generally do not, unless specifically prescribed. A separate form is filed for each resolution." }
+            },
+            {
+                "@type": "Question",
+                "name": "Do private companies need to file MGT-14?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Yes, for special resolutions and most listed matters. However, private companies are exempt under Section 179(3) from filing board resolutions for borrowing money, granting loans, giving guarantees and making investments. They must still file MGT-14 for special resolutions such as name change, object change or MOA and AOA alterations." }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the penalty for late filing of MGT-14?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Under Section 117(2), as amended, the company is liable to a penalty of Rs 10,000 plus Rs 100 per day of continuing default, up to a maximum of Rs 2,00,000. Every officer in default is liable to Rs 10,000 plus Rs 100 per day, up to Rs 50,000. Late filing also attracts an additional fee under Section 403." }
+            },
+            {
+                "@type": "Question",
+                "name": "What corporate events trigger MGT-14?",
+                "acceptedAnswer": { "@type": "Answer", "text": "MGT-14 is triggered by most major corporate events, including company name change, alteration of the MOA or AOA, change in the object clause, issue of sweat equity or preference shares, ESOP scheme approval, certain capital changes and the appointment or variation of terms of a managing director. Each event is filed separately." }
+            },
+            {
+                "@type": "Question",
+                "name": "Can one MGT-14 cover multiple resolutions?",
+                "acceptedAnswer": { "@type": "Answer", "text": "No. A separate Form MGT-14 must be filed for each event or agreement. Combining multiple unrelated resolutions in a single form leads to rejection. Where a single meeting passes several reportable resolutions, each requires its own MGT-14 within 30 days of the resolution date." }
+            },
+            {
+                "@type": "Question",
+                "name": "What happens if MGT-14 is filed after 300 days?",
+                "acceptedAnswer": { "@type": "Answer", "text": "If MGT-14 is not filed within 300 days, the MCA portal requires the SRN of Form INC-28, which is available only after condonation. The company must file CG-1 for condonation of delay, pay the penalty in the condonation order, file INC-28 with the order, and then file MGT-14 referencing the INC-28 SRN." }
+            },
+            {
+                "@type": "Question",
+                "name": "Is the altered MOA or AOA attached to MGT-14?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Yes. Where the resolution alters the Memorandum or Articles of Association, the altered document is a mandatory attachment to MGT-14. Filing without the altered MOA or AOA is a common cause of rejection, so the amended version must be prepared and certified before the form is submitted." }
+            }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/mgt-14-resolution-filing",
+        "name": "MGT-14 Resolution Filing Services for Companies",
+        "description": "File Form MGT-14 for special and board resolutions within 30 days under Section 117. Needed for name, object, capital and MOA changes. From INR 2,499.",
+        "url": "https://www.patronaccounting.com/mgt-14-resolution-filing",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/mgt-14-resolution-filing/#service" },
+        "datePublished": "2026-06-03T08:00:00+05:30",
+        "dateModified": "2026-06-04T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/mgt-14-resolution-filing/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "MGT-14 Filing Process: Step by Step",
+        "description": "How Form MGT-14 is filed, from passing the resolution to submitting the form on the MCA V3 portal within 30 days and saving the SRN.",
+        "totalTime": "P3D",
+        "step": [
+            { "@type": "HowToStep", "name": "Pass the resolution", "text": "Pass the special or board resolution at the relevant meeting and record the minutes." },
+            { "@type": "HowToStep", "name": "Classify the resolution", "text": "Confirm whether the resolution falls within Section 117(3), and whether the Section 179(3) private-company exemption applies." },
+            { "@type": "HowToStep", "name": "Prepare attachments", "text": "Compile the certified resolution, explanatory statement and altered MOA or AOA if changed." },
+            { "@type": "HowToStep", "name": "Complete Form MGT-14", "text": "Enter CIN, resolution type and date on the MCA V3 portal, filing a separate form per event." },
+            { "@type": "HowToStep", "name": "Affix DSC", "text": "Sign with the Digital Signature Certificate of a director or company secretary." },
+            { "@type": "HowToStep", "name": "Submit within 30 days", "text": "Submit and pay the MCA fee within 30 days of passing the resolution." },
+            { "@type": "HowToStep", "name": "Save the SRN", "text": "Record the Service Request Number and acknowledgement as proof of filing." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "MGT-14 Filing Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Special Resolution", "description": "A resolution requiring at least 75 percent shareholder approval, always filed in MGT-14." },
+            { "@type": "DefinedTerm", "name": "Board Resolution", "description": "A resolution of the directors; only those listed under Section 179(3) and 117(3) require MGT-14." },
+            { "@type": "DefinedTerm", "name": "Section 179(3) Exemption", "description": "Private companies are exempt from filing board resolutions for loans, guarantees and investments." },
+            { "@type": "DefinedTerm", "name": "Explanatory Statement", "description": "The Section 102 statement that may accompany the resolution." },
+            { "@type": "DefinedTerm", "name": "CG-1", "description": "The condonation application required when MGT-14 is filed beyond 300 days." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1567,17 +1572,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1600,8 +1598,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1638,7 +1634,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1 (corrected): Last Updated mirrors schema dateModified — STABLE hardcoded date, never live new Date()
 (function() {
@@ -1649,3 +1644,19 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

@@ -1,245 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Net Worth Certificate for Home Loan in Mumbai 2026 | Patron</title>
-    <meta name="description" content="CA-certified net worth certificate for Mumbai home loan applicants. UDIN, 3-year comparative format. HDFC, SBI, ICICI accepted. Starting INR 1,499.">
-    <link rel="canonical" href="https://www.patronaccounting.com/net-worth-certificate-for-home-loan/mumbai">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Net Worth Certificate for Home Loan in Mumbai 2026 | Patron">
-    <meta property="og:description" content="CA-certified net worth certificate for Mumbai home loan applicants. UDIN, 3-year comparative format. HDFC, SBI, ICICI accepted. Starting INR 1,499.">
-    <meta property="og:url" content="https://www.patronaccounting.com/net-worth-certificate-for-home-loan/mumbai">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Net Worth Certificate for Home Loan in Mumbai 2026 | Patron">
-    <meta name="twitter:description" content="CA-certified net worth certificate for Mumbai home loan applicants. UDIN, 3-year comparative format. HDFC, SBI, ICICI accepted. Starting INR 1,499.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/mumbai/#service",
-        "name": "Net Worth Certificate for Home Loan in Mumbai",
-        "description": "CA-certified net worth certificate for Mumbai home loan applicants. UDIN, 3-year comparative format. HDFC, SBI, ICICI accepted. Starting INR 1,499.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/mumbai" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Chartered Accountant", "sameAs": "https://en.wikipedia.org/wiki/Chartered_accountant" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Net Worth Certificate for Home Loan Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Net Worth Certificate for Home Loan in Mumbai"
-                    },
-                    "price": "1499",
-                    "priceCurrency": "INR",
-                    "url": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/mumbai"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/mumbai/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate for Home Loan", "item": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan" },
-            { "@type": "ListItem", "position": 3, "name": "Mumbai", "item": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/mumbai" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/mumbai/#faq",
-        "datePublished": "2026-07-02T08:00:00+05:30",
-        "dateModified": "2026-07-02T08:00:00+05:30",
-        "mainEntity": [
-            {
-                    "@type": "Question",
-                    "name": "Why do Mumbai banks ask for a net worth certificate for home loan?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Mumbai banks ask for a net worth certificate to verify the borrower's overall financial strength beyond reported income, especially for premium home loans (typically above Rs 1 crore at most Mumbai-HQ private banks like HDFC, ICICI, Kotak, Axis), HNI track loans (above Rs 5 crore), self-employed applicants whose salary slips do not exist, NRI borrowers, and joint loans where a non-earning co-applicant brings assets. The certificate helps the credit team compute FOIR and validate eligibility against the RBI LTV ceiling."
-                    }
-                },
-{
-                    "@type": "Question",
-                    "name": "Who can issue a net worth certificate for home loan in Mumbai?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Only a practising Chartered Accountant in Mumbai holding a valid Certificate of Practice from ICAI can sign and issue a net worth certificate for home loan. The CA generates an 18-digit UDIN at udin.icai.org, signs on firm letterhead with ICAI seal, and prints Membership Number and Firm Registration Number. Mumbai-headquartered lenders including HDFC Bank, SBI, ICICI Bank, Kotak Mahindra, Axis Bank and LIC Housing Finance verify the UDIN before accepting the document."
-                    }
-                },
-{
-                    "@type": "Question",
-                    "name": "How much does a net worth certificate for home loan cost in Mumbai?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Patron Accounting charges starting INR 1,499 (Exclusive of GST and Government Charges) for the standard salaried home loan certificate in Mumbai. Self-employed and business cases with the 3-year comparative schedule are INR 1,999. HNI wealth-statement appendix for loans above Rs 5 crore adds INR 1,000. NRI home loan variants with NRE/NRO/FCNR consolidation are INR 2,499. Other Mumbai CA firms typically charge between INR 2,500 and INR 5,000."
-                    }
-                },
-{
-                    "@type": "Question",
-                    "name": "Is the certificate needed for every Mumbai home loan or only premium and HNI loans?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Most Mumbai lenders ask for the certificate only for home loans above a threshold - typically Rs 1 crore at private banks like HDFC, ICICI, Kotak, Axis (given Mumbai property prices), and Rs 75 lakh at public-sector lenders like SBI. For self-employed applicants, NRI borrowers and HNI track buyers the certificate is requested at any loan amount. Mumbai HNI underwriting desks at HDFC Wealth, ICICI Private and Kotak Wealth ask for an additional wealth-statement appendix above Rs 5 crore."
-                    }
-                },
-{
-                    "@type": "Question",
-                    "name": "What documents are needed for a Mumbai home loan net worth certificate?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "You need PAN, Aadhaar, ITRs for the last 3 financial years, latest salary slips (salaried) or 3-year balance sheets (self-employed), 6-12 months bank statements, FD receipts, mutual fund and demat holdings, ESOP/RSU brokerage statements for BFSI executives, EPF and PPF passbook, property registration deed for any existing real estate with IGR ready reckoner valuation, MHADA or SRA allotment papers where applicable, vehicle RC, gold valuation, and all loan statements. NRI applicants also share NRE/NRO/FCNR statements."
-                    }
-                },
-{
-                    "@type": "Question",
-                    "name": "Is UDIN mandatory on a CA net worth certificate for home loan?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Yes, UDIN is mandatory on every CA-issued net worth certificate since 1 July 2019, enforced by ICAI. The 18-digit Unique Document Identification Number is generated at udin.icai.org and printed on the certificate. Mumbai lender credit officers and HFC underwriters verify the certificate's authenticity by entering the UDIN on the ICAI portal. A certificate without UDIN is invalid and is typically rejected at the document-verification step at BKC, Fort, Andheri, Powai and other Mumbai branches."
-                    }
-                }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/mumbai",
-        "name": "Net Worth Certificate for Home Loan in Mumbai",
-        "description": "CA-certified net worth certificate for Mumbai home loan applicants. UDIN, 3-year comparative format. HDFC, SBI, ICICI accepted. Starting INR 1,499.",
-        "url": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/mumbai",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/mumbai/#service" },
-        "datePublished": "2026-07-02T08:00:00+05:30",
-        "dateModified": "2026-07-02T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/mumbai/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How to Get a Net Worth Certificate for Home Loan",
-        "description": "Step-by-step process to obtain a Net Worth Certificate for Home Loan from Patron Accounting.",
-        "totalTime": "P3D",
-        "step": [
-            {
-                    "@type": "HowToStep",
-                    "position": 1,
-                    "name": "Engagement",
-                    "text": "Mumbai home loan applicant calls Patron Accounting, identifies the lender (HDFC Bank, SBI, ICICI Bank, Kotak Mahindra, Axis Bank, LIC Housing Finance, or other), loan amount, and applicant type (salaried, self-employed, HNI, NRI, joint). The engagement letter captures purpose under ICAI SA 200 'Overall Objectives of the Independent Auditor'."
-                },
-{
-                    "@type": "HowToStep",
-                    "position": 2,
-                    "name": "Document collection",
-                    "text": "Upload PAN, Aadhaar, 3 years ITRs, latest salary slips or business income statements, 6-12 months bank statements across all accounts, FD receipts, MF and demat holdings, ESOP/RSU brokerage statements, EPF/PPF passbook, property registration deed for existing real estate, vehicle RC, gold valuation, and all loan statements via Patron's secure portal."
-                },
-{
-                    "@type": "HowToStep",
-                    "position": 3,
-                    "name": "Document verification",
-                    "text": "Patron CA cross-checks balances against bank statements, validates Mumbai property at the IGR Maharashtra ready reckoner rate for the specific ward (with MHADA, SRA or freehold status flagged), values vested ESOPs and RSUs at fair market value, reconciles 3-year wealth trajectory with ITR-reported income, and confirms loan outstanding from sanction letters under ICAI SA 500 'Audit Evidence'."
-                },
-{
-                    "@type": "HowToStep",
-                    "position": 4,
-                    "name": "Lender",
-                    "text": "template alignment - Patron checks whether the lender has a prescribed template. HDFC Bank, SBI Apex, ICICI HNI desk and Kotak Wealth use distinct formats. The certificate is laid out to match. For lenders without a prescribed format, Patron uses its standard 12-element ICAI-compliant template."
-                },
-{
-                    "@type": "HowToStep",
-                    "position": 5,
-                    "name": "Draft preparation and review",
-                    "text": "Draft certificate is emailed within 24 hours for borrower and loan-officer review. Corrections to name spelling (PAN match), address, property valuation, and 3-year comparative figures happen in this step."
-                },
-{
-                    "@type": "HowToStep",
-                    "position": 6,
-                    "name": "UDIN generation and final issue",
-                    "text": "Patron CA generates the 18-digit UDIN at udin.icai.org under category 'Certificates - Net Worth Certificate', signs on firm letterhead with ICAI seal, and issues the final document. Soft copy emailed the same day; hard copy collected from Patron Mumbai office or couriered to the lender branch (BKC, Fort, Andheri, Powai) within 2-3 working days."
-                }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Net Worth Certificate for Home Loan Key Terms",
-        "definedTerm": [
-            {
-                    "@type": "DefinedTerm",
-                    "name": "UDIN",
-                    "description": "18-digit Unique Document Identification Number generated by the issuing CA at udin.icai.org for every certificate, mandatory since 1 July 2019."
-                },
-{
-                    "@type": "DefinedTerm",
-                    "name": "FOIR",
-                    "description": "Fixed Obligation to Income Ratio - the percentage of net monthly income committed to existing loan EMIs. Mumbai-HQ lenders typically cap FOIR at 50-65 percent; the net worth certificate strengthens applications where FOIR is high but asset cover is strong."
-                },
-{
-                    "@type": "DefinedTerm",
-                    "name": "LTV Ratio",
-                    "description": "Loan to Value ratio regulated by RBI Master Direction. For housing loans up to Rs 30 lakh the LTV ceiling is 90 percent; Rs 30-75 lakh 80 percent; above Rs 75 lakh 75 percent. Mumbai premium loans almost always fall in the 75 percent ceiling bracket."
-                },
-{
-                    "@type": "DefinedTerm",
-                    "name": "Mumbai IGR Ready Reckoner",
-                    "description": "Annual notification by the Inspector General of Registration, Maharashtra, of ward-level minimum land values. Mumbai underwriters use this as the floor for property valuation, with market-value adjustments via the empanelled valuer."
-                },
-{
-                    "@type": "DefinedTerm",
-                    "name": "COP",
-                    "description": "Certificate of Practice issued by ICAI; only a CA holding a valid COP can generate UDIN and sign the net worth certificate."
-                }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -853,7 +618,247 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Net Worth Certificate for Home Loan in Mumbai 2026 | Patron</title>
+    <meta name="description" content="CA-certified net worth certificate for Mumbai home loan applicants. UDIN, 3-year comparative format. HDFC, SBI, ICICI accepted. Starting INR 1,499.">
+    <link rel="canonical" href="https://www.patronaccounting.com/net-worth-certificate-for-home-loan/mumbai">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Net Worth Certificate for Home Loan in Mumbai 2026 | Patron">
+    <meta property="og:description" content="CA-certified net worth certificate for Mumbai home loan applicants. UDIN, 3-year comparative format. HDFC, SBI, ICICI accepted. Starting INR 1,499.">
+    <meta property="og:url" content="https://www.patronaccounting.com/net-worth-certificate-for-home-loan/mumbai">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Net Worth Certificate for Home Loan in Mumbai 2026 | Patron">
+    <meta name="twitter:description" content="CA-certified net worth certificate for Mumbai home loan applicants. UDIN, 3-year comparative format. HDFC, SBI, ICICI accepted. Starting INR 1,499.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/mumbai/#service",
+        "name": "Net Worth Certificate for Home Loan in Mumbai",
+        "description": "CA-certified net worth certificate for Mumbai home loan applicants. UDIN, 3-year comparative format. HDFC, SBI, ICICI accepted. Starting INR 1,499.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/mumbai" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Chartered Accountant", "sameAs": "https://en.wikipedia.org/wiki/Chartered_accountant" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Net Worth Certificate for Home Loan Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Net Worth Certificate for Home Loan in Mumbai"
+                    },
+                    "price": "1499",
+                    "priceCurrency": "INR",
+                    "url": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/mumbai"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/mumbai/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate for Home Loan", "item": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan" },
+            { "@type": "ListItem", "position": 3, "name": "Mumbai", "item": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/mumbai" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/mumbai/#faq",
+        "datePublished": "2026-07-02T08:00:00+05:30",
+        "dateModified": "2026-07-02T08:00:00+05:30",
+        "mainEntity": [
+            {
+                    "@type": "Question",
+                    "name": "Why do Mumbai banks ask for a net worth certificate for home loan?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Mumbai banks ask for a net worth certificate to verify the borrower's overall financial strength beyond reported income, especially for premium home loans (typically above Rs 1 crore at most Mumbai-HQ private banks like HDFC, ICICI, Kotak, Axis), HNI track loans (above Rs 5 crore), self-employed applicants whose salary slips do not exist, NRI borrowers, and joint loans where a non-earning co-applicant brings assets. The certificate helps the credit team compute FOIR and validate eligibility against the RBI LTV ceiling."
+                    }
+                },
+{
+                    "@type": "Question",
+                    "name": "Who can issue a net worth certificate for home loan in Mumbai?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Only a practising Chartered Accountant in Mumbai holding a valid Certificate of Practice from ICAI can sign and issue a net worth certificate for home loan. The CA generates an 18-digit UDIN at udin.icai.org, signs on firm letterhead with ICAI seal, and prints Membership Number and Firm Registration Number. Mumbai-headquartered lenders including HDFC Bank, SBI, ICICI Bank, Kotak Mahindra, Axis Bank and LIC Housing Finance verify the UDIN before accepting the document."
+                    }
+                },
+{
+                    "@type": "Question",
+                    "name": "How much does a net worth certificate for home loan cost in Mumbai?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Patron Accounting charges starting INR 1,499 (Exclusive of GST and Government Charges) for the standard salaried home loan certificate in Mumbai. Self-employed and business cases with the 3-year comparative schedule are INR 1,999. HNI wealth-statement appendix for loans above Rs 5 crore adds INR 1,000. NRI home loan variants with NRE/NRO/FCNR consolidation are INR 2,499. Other Mumbai CA firms typically charge between INR 2,500 and INR 5,000."
+                    }
+                },
+{
+                    "@type": "Question",
+                    "name": "Is the certificate needed for every Mumbai home loan or only premium and HNI loans?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Most Mumbai lenders ask for the certificate only for home loans above a threshold - typically Rs 1 crore at private banks like HDFC, ICICI, Kotak, Axis (given Mumbai property prices), and Rs 75 lakh at public-sector lenders like SBI. For self-employed applicants, NRI borrowers and HNI track buyers the certificate is requested at any loan amount. Mumbai HNI underwriting desks at HDFC Wealth, ICICI Private and Kotak Wealth ask for an additional wealth-statement appendix above Rs 5 crore."
+                    }
+                },
+{
+                    "@type": "Question",
+                    "name": "What documents are needed for a Mumbai home loan net worth certificate?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "You need PAN, Aadhaar, ITRs for the last 3 financial years, latest salary slips (salaried) or 3-year balance sheets (self-employed), 6-12 months bank statements, FD receipts, mutual fund and demat holdings, ESOP/RSU brokerage statements for BFSI executives, EPF and PPF passbook, property registration deed for any existing real estate with IGR ready reckoner valuation, MHADA or SRA allotment papers where applicable, vehicle RC, gold valuation, and all loan statements. NRI applicants also share NRE/NRO/FCNR statements."
+                    }
+                },
+{
+                    "@type": "Question",
+                    "name": "Is UDIN mandatory on a CA net worth certificate for home loan?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, UDIN is mandatory on every CA-issued net worth certificate since 1 July 2019, enforced by ICAI. The 18-digit Unique Document Identification Number is generated at udin.icai.org and printed on the certificate. Mumbai lender credit officers and HFC underwriters verify the certificate's authenticity by entering the UDIN on the ICAI portal. A certificate without UDIN is invalid and is typically rejected at the document-verification step at BKC, Fort, Andheri, Powai and other Mumbai branches."
+                    }
+                }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/mumbai",
+        "name": "Net Worth Certificate for Home Loan in Mumbai",
+        "description": "CA-certified net worth certificate for Mumbai home loan applicants. UDIN, 3-year comparative format. HDFC, SBI, ICICI accepted. Starting INR 1,499.",
+        "url": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/mumbai",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/mumbai/#service" },
+        "datePublished": "2026-07-02T08:00:00+05:30",
+        "dateModified": "2026-07-02T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/mumbai/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Get a Net Worth Certificate for Home Loan",
+        "description": "Step-by-step process to obtain a Net Worth Certificate for Home Loan from Patron Accounting.",
+        "totalTime": "P3D",
+        "step": [
+            {
+                    "@type": "HowToStep",
+                    "position": 1,
+                    "name": "Engagement",
+                    "text": "Mumbai home loan applicant calls Patron Accounting, identifies the lender (HDFC Bank, SBI, ICICI Bank, Kotak Mahindra, Axis Bank, LIC Housing Finance, or other), loan amount, and applicant type (salaried, self-employed, HNI, NRI, joint). The engagement letter captures purpose under ICAI SA 200 'Overall Objectives of the Independent Auditor'."
+                },
+{
+                    "@type": "HowToStep",
+                    "position": 2,
+                    "name": "Document collection",
+                    "text": "Upload PAN, Aadhaar, 3 years ITRs, latest salary slips or business income statements, 6-12 months bank statements across all accounts, FD receipts, MF and demat holdings, ESOP/RSU brokerage statements, EPF/PPF passbook, property registration deed for existing real estate, vehicle RC, gold valuation, and all loan statements via Patron's secure portal."
+                },
+{
+                    "@type": "HowToStep",
+                    "position": 3,
+                    "name": "Document verification",
+                    "text": "Patron CA cross-checks balances against bank statements, validates Mumbai property at the IGR Maharashtra ready reckoner rate for the specific ward (with MHADA, SRA or freehold status flagged), values vested ESOPs and RSUs at fair market value, reconciles 3-year wealth trajectory with ITR-reported income, and confirms loan outstanding from sanction letters under ICAI SA 500 'Audit Evidence'."
+                },
+{
+                    "@type": "HowToStep",
+                    "position": 4,
+                    "name": "Lender",
+                    "text": "template alignment - Patron checks whether the lender has a prescribed template. HDFC Bank, SBI Apex, ICICI HNI desk and Kotak Wealth use distinct formats. The certificate is laid out to match. For lenders without a prescribed format, Patron uses its standard 12-element ICAI-compliant template."
+                },
+{
+                    "@type": "HowToStep",
+                    "position": 5,
+                    "name": "Draft preparation and review",
+                    "text": "Draft certificate is emailed within 24 hours for borrower and loan-officer review. Corrections to name spelling (PAN match), address, property valuation, and 3-year comparative figures happen in this step."
+                },
+{
+                    "@type": "HowToStep",
+                    "position": 6,
+                    "name": "UDIN generation and final issue",
+                    "text": "Patron CA generates the 18-digit UDIN at udin.icai.org under category 'Certificates - Net Worth Certificate', signs on firm letterhead with ICAI seal, and issues the final document. Soft copy emailed the same day; hard copy collected from Patron Mumbai office or couriered to the lender branch (BKC, Fort, Andheri, Powai) within 2-3 working days."
+                }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Net Worth Certificate for Home Loan Key Terms",
+        "definedTerm": [
+            {
+                    "@type": "DefinedTerm",
+                    "name": "UDIN",
+                    "description": "18-digit Unique Document Identification Number generated by the issuing CA at udin.icai.org for every certificate, mandatory since 1 July 2019."
+                },
+{
+                    "@type": "DefinedTerm",
+                    "name": "FOIR",
+                    "description": "Fixed Obligation to Income Ratio - the percentage of net monthly income committed to existing loan EMIs. Mumbai-HQ lenders typically cap FOIR at 50-65 percent; the net worth certificate strengthens applications where FOIR is high but asset cover is strong."
+                },
+{
+                    "@type": "DefinedTerm",
+                    "name": "LTV Ratio",
+                    "description": "Loan to Value ratio regulated by RBI Master Direction. For housing loans up to Rs 30 lakh the LTV ceiling is 90 percent; Rs 30-75 lakh 80 percent; above Rs 75 lakh 75 percent. Mumbai premium loans almost always fall in the 75 percent ceiling bracket."
+                },
+{
+                    "@type": "DefinedTerm",
+                    "name": "Mumbai IGR Ready Reckoner",
+                    "description": "Annual notification by the Inspector General of Registration, Maharashtra, of ward-level minimum land values. Mumbai underwriters use this as the floor for property valuation, with market-value adjustments via the empanelled valuer."
+                },
+{
+                    "@type": "DefinedTerm",
+                    "name": "COP",
+                    "description": "Certificate of Practice issued by ICAI; only a CA holding a valid COP can generate UDIN and sign the net worth certificate."
+                }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1655,22 +1660,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
-<!-- ============================================
-     CONSULTATION FORM - Country Dropdown + Validation + Bigin Integration
-     ============================================ -->
-{{-- Enquiry form markup + JS now in partials/enquiry-form.blade.php --}}
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1693,8 +1686,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1731,5 +1722,24 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+<!-- ============================================
+     CONSULTATION FORM - Country Dropdown + Validation + Bigin Integration
+     ============================================ -->
+{{-- Enquiry form markup + JS now in partials/enquiry-form.blade.php --}}
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
 
 <!-- Last Updated hardcoded in markup per QC v2.1 (no view-time JS) -->

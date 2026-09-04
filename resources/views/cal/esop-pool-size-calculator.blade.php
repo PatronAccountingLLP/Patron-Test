@@ -1,214 +1,8 @@
 @extends('layouts.app')
-@section('meta')
-<title>ESOP Pool Size Calculator | How Big Should Your Pool Be</title>
-<meta name="description" content="ESOP pool size calculator: work out how big your option pool should be, built bottom-up from your hiring plan and role-based grants, with buffer and dilution %.">
-<meta name="robots" content="index, follow">
-<meta name="theme-color" content="#15365f">
-<link rel="canonical" href="https://www.patronaccounting.com/tools/esop-pool-size-calculator">
-
-<!-- Open Graph -->
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.patronaccounting.com/tools/esop-pool-size-calculator">
-<meta property="og:title" content="ESOP Pool Sizing Calculator — Hiring Plan & Dilution %">
-<meta property="og:description" content="Recommends optimal ESOP pool size by funding stage, team and 18-month hiring plan. Shows dilution scenarios and founder vs employee-friendly variants.">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="1200">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-<meta property="og:site_name" content="Patron Accounting LLP">
-<meta property="og:locale" content="en_IN">
-
-<!-- Twitter -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="ESOP Pool Sizing Calculator — Hiring Plan & Dilution %">
-<meta name="twitter:description" content="Recommends optimal ESOP pool size by funding stage, team and 18-month hiring plan. Shows dilution scenarios.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-
-<!-- Favicons -->
-<link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
-<link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-@endsection
-@section('schema')
-<!-- Schema: SoftwareApplication -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "ESOP Pool Size Calculator",
-  "description": "ESOP Pool Size Calculator recommends an optimal employee stock option pool percentage for Indian startups based on funding stage (Seed, Series A, B, C), current team size, planned 18-month hiring, role distribution (engineering, product, sales, exec), and industry benchmark mode. Generates founder-friendly and employee-friendly variants with full dilution scenarios and a downloadable working sheet.",
-  "url": "https://www.patronaccounting.com/tools/esop-pool-size-calculator",
-  "applicationCategory": "BusinessApplication",
-  "operatingSystem": "Any",
-  "inLanguage": "en-IN",
-  "isAccessibleForFree": true,
-  "datePublished": "2026-05-14T08:00:00+05:30",
-  "dateModified": "2026-05-14T08:00:00+05:30",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "INR"
-  },
-  "reviewedBy": {
-    "@type": "Person",
-    "@id": "https://patronaccounting.com/#founder",
-    "name": "CA Sundram Gupta",
-    "jobTitle": "Founder & Chartered Accountant",
-    "url": "https://www.patronaccounting.com/contact-page",
-    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-    "hasCredential": [{
-      "@type": "EducationalOccupationalCredential",
-      "credentialCategory": "Professional Certification",
-      "name": "Fellow Chartered Accountant (FCA)",
-      "recognizedBy": {
-        "@type": "Organization",
-        "name": "Institute of Chartered Accountants of India",
-        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-      }
-    }]
-  },
-  "publisher": {
-    "@id": "https://patronaccounting.com/#organization"
-  },
-  "provider": {
-    "@id": "https://patronaccounting.com/#organization"
-  }
-}
-</script>
-
-<!-- Schema: BreadcrumbList -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "ESOP Pool Size Calculator", "item": "https://www.patronaccounting.com/tools/esop-pool-size-calculator"}
-  ]
-}
-</script>
-
-<!-- Schema: FAQPage -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is an ESOP pool and why do Indian startups create one?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "An ESOP pool is a block of company equity that founders reserve specifically for employee stock options. Indian private companies create it under Section 62(1)(b) of the Companies Act, 2013 and Rule 12 of Companies (Share Capital and Debentures) Rules, 2014. It lets startups attract senior talent when cash salaries are limited and aligns employees with long-term company growth."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the ideal ESOP pool size for Indian startups by funding stage?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Standard Indian benchmarks are 8–12% at Seed, 10–15% at Series A, 12–18% at Series B, and 14–20% at Series C and beyond. Most Indian startups operate at the lower end of these ranges compared to US peers. The correct size depends on your 18–24 month hiring plan, role mix, and how much founder dilution is acceptable."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Should the ESOP pool be created pre-money or post-money?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Most Indian VCs insist on a pre-money pool expansion, which means the dilution is borne almost entirely by founders and existing shareholders before the new investor comes in. Post-money pool expansion shares the dilution across all shareholders including the new investor. Pre-money is investor-friendly; post-money is founder-friendly but harder to negotiate."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How much equity should each employee role receive at Seed stage?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Typical Seed-stage grants are: first 3–5 engineers 0.5–1% each, mid-level engineering or product hires 0.1–0.3%, VP-level functional heads 0.5–1.5%, and C-suite executives 1–3%. Grants shrink at each later stage as the company valuation rises. Always benchmark by role, seniority, and how critical the hire is to the next milestone."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does ESOP pool creation dilute founders?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "If founders hold 100% and a 10% pool is carved out pre-money, founder ownership drops to 90% even before any options are granted. If the pool is created at Series A pre-money along with a 20% investor stake, founders end up at about 72%. Without modelling these scenarios, founders often over-dilute themselves early and regret it at Series B or exit."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the legal process to create an ESOP pool in India?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Under the Companies Act, 2013 the company must: pass a Board resolution approving the scheme, pass a Special Resolution of shareholders with explanatory statement, draft the ESOP scheme document with vesting and exercise terms, obtain a registered valuer's Fair Market Value report, file Form MGT-14 with the Registrar of Companies, and maintain Form SH-6 register of options granted."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What vesting schedule is standard for Indian ESOPs?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The market standard is a four-year vest with a one-year cliff. No options vest in the first year. After 12 months, 25% vests in a single tranche, and the remaining 75% vests monthly or quarterly over the next 36 months. Some companies use 25–25–25–25 annual vesting or back-loaded 10–20–30–40 schedules for retention. Cliff and acceleration clauses must be drafted carefully."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How are ESOPs taxed for Indian employees?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "ESOPs are taxed at two points. At exercise, the difference between Fair Market Value and exercise price is taxed as a salary perquisite under Section 17(2)(vi) of the Income-tax Act, 1961. At sale, any further gain is taxed as capital gains (short-term or long-term based on holding period). DPIIT-recognised eligible startups can defer the perquisite tax under Section 192(1C) for up to 48 months."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the difference between authorised pool size and granted options?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Authorised pool is the total equity percentage reserved on the cap table for employee options — for example, 12% set aside for ESOPs. Granted options are the portion actually allotted to named employees through grant letters. Unallocated options sit in the pool waiting for future hires. Investors look at both numbers because a large pool with low utilisation signals weak hiring or unrealistic planning."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "When should a startup expand its ESOP pool?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Expand the pool when granted options have utilised 75–80% of the authorised pool, or when a new funding round triggers the next 18–24 month hiring plan. Most startups expand at Series A and again at Series B as headcount and seniority both increase. Pool expansion always requires fresh shareholder approval and a Board resolution under the Companies Act."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What mistakes do first-time founders make on ESOP pool sizing?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The five most common mistakes are: creating no pool until investors demand it, over-granting 2–3% to early engineers without market benchmarks, building a pool with no hiring plan attached, ignoring refresh grants for early employees post-vesting, and not modelling dilution across multiple rounds. Each of these costs founders meaningful equity by the time of Series B or exit."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do listed companies follow different ESOP rules in India?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Unlisted private companies follow the Companies Act, 2013 and Rule 12 of Companies (Share Capital and Debentures) Rules, 2014. Listed companies additionally follow the SEBI (Share Based Employee Benefits and Sweat Equity) Regulations, 2021. Listed companies face stricter disclosure rules, mandatory trust route or direct route choice, and tighter pricing and vesting constraints than private companies."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is this ESOP Pool Size Calculator a legal opinion?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. This calculator gives directional benchmarks based on Indian startup market data and standard role-grant practices. The actual pool size and grant policy for your company must consider your specific cap table, term sheet, investor preferences, FEMA rules for foreign employees, DPIIT recognition status, and Companies Act compliance. Always have a Chartered Accountant and Company Secretary review your final ESOP scheme."
-      }
-    }
-  ]
-}
-</script>
-@endsection
-<!-- Google Fonts -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
 <style>
 :root {
     --primary: #15365f;
@@ -492,6 +286,219 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
     .faq-item { break-inside: avoid; }
 }
 </style>
+@endpush
+
+@section('meta')
+<title>ESOP Pool Size Calculator | How Big Should Your Pool Be</title>
+<meta name="description" content="ESOP pool size calculator: work out how big your option pool should be, built bottom-up from your hiring plan and role-based grants, with buffer and dilution %.">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#15365f">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/esop-pool-size-calculator">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/esop-pool-size-calculator">
+<meta property="og:title" content="ESOP Pool Sizing Calculator — Hiring Plan & Dilution %">
+<meta property="og:description" content="Recommends optimal ESOP pool size by funding stage, team and 18-month hiring plan. Shows dilution scenarios and founder vs employee-friendly variants.">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+<meta property="og:site_name" content="Patron Accounting LLP">
+<meta property="og:locale" content="en_IN">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ESOP Pool Sizing Calculator — Hiring Plan & Dilution %">
+<meta name="twitter:description" content="Recommends optimal ESOP pool size by funding stage, team and 18-month hiring plan. Shows dilution scenarios.">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<!-- Favicons -->
+<link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+@endsection
+@section('schema')
+<!-- Schema: SoftwareApplication -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "ESOP Pool Size Calculator",
+  "description": "ESOP Pool Size Calculator recommends an optimal employee stock option pool percentage for Indian startups based on funding stage (Seed, Series A, B, C), current team size, planned 18-month hiring, role distribution (engineering, product, sales, exec), and industry benchmark mode. Generates founder-friendly and employee-friendly variants with full dilution scenarios and a downloadable working sheet.",
+  "url": "https://www.patronaccounting.com/tools/esop-pool-size-calculator",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Any",
+  "inLanguage": "en-IN",
+  "isAccessibleForFree": true,
+  "datePublished": "2026-05-14T08:00:00+05:30",
+  "dateModified": "2026-05-14T08:00:00+05:30",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "INR"
+  },
+  "reviewedBy": {
+    "@type": "Person",
+    "@id": "https://patronaccounting.com/#founder",
+    "name": "CA Sundram Gupta",
+    "jobTitle": "Founder & Chartered Accountant",
+    "url": "https://www.patronaccounting.com/contact-page",
+    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+    "hasCredential": [{
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Professional Certification",
+      "name": "Fellow Chartered Accountant (FCA)",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Institute of Chartered Accountants of India",
+        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+      }
+    }]
+  },
+  "publisher": {
+    "@id": "https://patronaccounting.com/#organization"
+  },
+  "provider": {
+    "@id": "https://patronaccounting.com/#organization"
+  }
+}
+</script>
+
+<!-- Schema: BreadcrumbList -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "ESOP Pool Size Calculator", "item": "https://www.patronaccounting.com/tools/esop-pool-size-calculator"}
+  ]
+}
+</script>
+
+<!-- Schema: FAQPage -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is an ESOP pool and why do Indian startups create one?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An ESOP pool is a block of company equity that founders reserve specifically for employee stock options. Indian private companies create it under Section 62(1)(b) of the Companies Act, 2013 and Rule 12 of Companies (Share Capital and Debentures) Rules, 2014. It lets startups attract senior talent when cash salaries are limited and aligns employees with long-term company growth."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the ideal ESOP pool size for Indian startups by funding stage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Standard Indian benchmarks are 8–12% at Seed, 10–15% at Series A, 12–18% at Series B, and 14–20% at Series C and beyond. Most Indian startups operate at the lower end of these ranges compared to US peers. The correct size depends on your 18–24 month hiring plan, role mix, and how much founder dilution is acceptable."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should the ESOP pool be created pre-money or post-money?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most Indian VCs insist on a pre-money pool expansion, which means the dilution is borne almost entirely by founders and existing shareholders before the new investor comes in. Post-money pool expansion shares the dilution across all shareholders including the new investor. Pre-money is investor-friendly; post-money is founder-friendly but harder to negotiate."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much equity should each employee role receive at Seed stage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Typical Seed-stage grants are: first 3–5 engineers 0.5–1% each, mid-level engineering or product hires 0.1–0.3%, VP-level functional heads 0.5–1.5%, and C-suite executives 1–3%. Grants shrink at each later stage as the company valuation rises. Always benchmark by role, seniority, and how critical the hire is to the next milestone."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does ESOP pool creation dilute founders?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If founders hold 100% and a 10% pool is carved out pre-money, founder ownership drops to 90% even before any options are granted. If the pool is created at Series A pre-money along with a 20% investor stake, founders end up at about 72%. Without modelling these scenarios, founders often over-dilute themselves early and regret it at Series B or exit."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the legal process to create an ESOP pool in India?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Under the Companies Act, 2013 the company must: pass a Board resolution approving the scheme, pass a Special Resolution of shareholders with explanatory statement, draft the ESOP scheme document with vesting and exercise terms, obtain a registered valuer's Fair Market Value report, file Form MGT-14 with the Registrar of Companies, and maintain Form SH-6 register of options granted."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What vesting schedule is standard for Indian ESOPs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The market standard is a four-year vest with a one-year cliff. No options vest in the first year. After 12 months, 25% vests in a single tranche, and the remaining 75% vests monthly or quarterly over the next 36 months. Some companies use 25–25–25–25 annual vesting or back-loaded 10–20–30–40 schedules for retention. Cliff and acceleration clauses must be drafted carefully."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How are ESOPs taxed for Indian employees?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ESOPs are taxed at two points. At exercise, the difference between Fair Market Value and exercise price is taxed as a salary perquisite under Section 17(2)(vi) of the Income-tax Act, 1961. At sale, any further gain is taxed as capital gains (short-term or long-term based on holding period). DPIIT-recognised eligible startups can defer the perquisite tax under Section 192(1C) for up to 48 months."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between authorised pool size and granted options?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Authorised pool is the total equity percentage reserved on the cap table for employee options — for example, 12% set aside for ESOPs. Granted options are the portion actually allotted to named employees through grant letters. Unallocated options sit in the pool waiting for future hires. Investors look at both numbers because a large pool with low utilisation signals weak hiring or unrealistic planning."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When should a startup expand its ESOP pool?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Expand the pool when granted options have utilised 75–80% of the authorised pool, or when a new funding round triggers the next 18–24 month hiring plan. Most startups expand at Series A and again at Series B as headcount and seniority both increase. Pool expansion always requires fresh shareholder approval and a Board resolution under the Companies Act."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What mistakes do first-time founders make on ESOP pool sizing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The five most common mistakes are: creating no pool until investors demand it, over-granting 2–3% to early engineers without market benchmarks, building a pool with no hiring plan attached, ignoring refresh grants for early employees post-vesting, and not modelling dilution across multiple rounds. Each of these costs founders meaningful equity by the time of Series B or exit."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do listed companies follow different ESOP rules in India?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Unlisted private companies follow the Companies Act, 2013 and Rule 12 of Companies (Share Capital and Debentures) Rules, 2014. Listed companies additionally follow the SEBI (Share Based Employee Benefits and Sweat Equity) Regulations, 2021. Listed companies face stricter disclosure rules, mandatory trust route or direct route choice, and tighter pricing and vesting constraints than private companies."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is this ESOP Pool Size Calculator a legal opinion?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. This calculator gives directional benchmarks based on Indian startup market data and standard role-grant practices. The actual pool size and grant policy for your company must consider your specific cap table, term sheet, investor preferences, FEMA rules for foreign employees, DPIIT recognition status, and Companies Act compliance. Always have a Chartered Accountant and Company Secretary review your final ESOP scheme."
+      }
+    }
+  ]
+}
+</script>
+@endsection
+<!-- Google Fonts -->
+
+
+
+
+
 @section('content')
 <!-- TOC NAV -->
 <nav class="toc-nav" aria-label="Page Navigation">

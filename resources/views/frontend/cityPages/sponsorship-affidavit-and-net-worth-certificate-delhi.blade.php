@@ -1,174 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Sponsorship Affidavit and Net Worth Certificate in Delhi 2026 | Patron Accounting</title>
-    <meta name="description" content="Sponsorship Affidavit and Net Worth Certificate for visa: CA-drafted affidavit, notarisation guidance, and UDIN net worth proof for sponsors. From INR 2,999.">
-    <link rel="canonical" href="/sponsorship-affidavit-and-net-worth-certificate/delhi">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Sponsorship Affidavit and Net Worth Certificate 2026 | Patron Accounting">
-    <meta property="og:description" content="Sponsorship Affidavit and Net Worth Certificate for visa: CA-drafted affidavit, notarisation guidance, and UDIN net worth proof for sponsors. From INR 2,999.">
-    <meta property="og:url" content="/sponsorship-affidavit-and-net-worth-certificate/delhi">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Sponsorship Affidavit and Net Worth Certificate 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Sponsorship Affidavit and Net Worth Certificate for visa: CA-drafted affidavit, notarisation guidance, and UDIN net worth proof for sponsors. From INR 2,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/sponsorship-affidavit-and-net-worth-certificate/delhi/#service",
-        "name": "Sponsorship Affidavit and Net Worth Certificate in Delhi",
-        "description": "Bundled service for visa sponsors: drafting of a notarised sponsorship affidavit under the Oaths Act and Notaries Act, notarisation guidance, and a CA-certified net worth certificate with UDIN in INR and the destination currency.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/sponsorship-affidavit-and-net-worth-certificate/delhi" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Affidavit", "sameAs": "https://en.wikipedia.org/wiki/Affidavit" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Sponsorship Affidavit and Net Worth Certificate Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": { "@type": "Service", "name": "Sponsorship affidavit and net worth certificate bundle" },
-                    "priceCurrency": "INR",
-                    "price": "2999",
-                    "description": "Starting from INR 2,999 (excl. GST and govt. charges)"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/sponsorship-affidavit-and-net-worth-certificate/delhi/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate for Visa", "item": "https://www.patronaccounting.com/net-worth-certificate-for-visa" },
-            { "@type": "ListItem", "position": 3, "name": "Sponsorship Affidavit and Net Worth Certificate", "item": "https://www.patronaccounting.com/sponsorship-affidavit-and-net-worth-certificate/delhi" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/sponsorship-affidavit-and-net-worth-certificate/delhi/#faq",
-        "datePublished": "2026-06-09T08:00:00+05:30",
-        "dateModified": "2026-06-09T08:00:00+05:30",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "Who can be a sponsor and sign the affidavit?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Usually a close family member such as a parent, spouse, guardian, sibling, or grandparent, and in some cases an employer. The sponsor must show both the relationship to the applicant and the financial capacity to support, which the net worth certificate evidences." }
-            },
-            {
-                "@type": "Question",
-                "name": "Does the sponsorship affidavit need to be notarised?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Yes for most official and embassy purposes. It is executed on non-judicial stamp paper and attested by a Notary Public under the Notaries Act, 1952, or by an Oath Commissioner. For NRI sponsors, an Indian consular officer abroad can attest it." }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the difference between the affidavit and the net worth certificate?",
-                "acceptedAnswer": { "@type": "Answer", "text": "The affidavit is a sworn promise to fund the applicant; the net worth certificate is a CA-verified statement of the sponsor's assets minus liabilities. One shows intent, the other shows capacity. Visa files typically need both." }
-            },
-            {
-                "@type": "Question",
-                "name": "What stamp paper value is needed for the affidavit?",
-                "acceptedAnswer": { "@type": "Answer", "text": "It depends on the state, since stamp duty is governed by the Indian Stamp Act, 1899 and state laws. We advise the correct value for your state so the affidavit is validly executed." }
-            },
-            {
-                "@type": "Question",
-                "name": "Can an employer be a sponsor?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Yes. An employer can sponsor staff for business or work-related travel, with a company undertaking and supporting financials. The structure of the affidavit differs from a family sponsorship and is drafted accordingly." }
-            },
-            {
-                "@type": "Question",
-                "name": "Who issues the net worth certificate in the bundle?",
-                "acceptedAnswer": { "@type": "Answer", "text": "A practising Chartered Accountant registered with ICAI, holding a valid Certificate of Practice. The certificate carries the CA's seal and an 18-digit UDIN that the authority can verify online." }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/sponsorship-affidavit-and-net-worth-certificate/delhi",
-        "name": "Sponsorship Affidavit and Net Worth Certificate in Delhi",
-        "description": "Sponsorship Affidavit and Net Worth Certificate for visa: CA-drafted affidavit, notarisation guidance, and UDIN net worth proof for sponsors. From INR 2,999.",
-        "url": "https://www.patronaccounting.com/sponsorship-affidavit-and-net-worth-certificate/delhi",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/sponsorship-affidavit-and-net-worth-certificate/delhi/#service" },
-        "datePublished": "2026-06-09T08:00:00+05:30",
-        "dateModified": "2026-06-09T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/sponsorship-affidavit-and-net-worth-certificate/delhi/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How a Sponsorship Affidavit and Net Worth Certificate Are Prepared",
-        "description": "The six-step process to a matched sponsor file: share sponsor and applicant details, submit financial documents, draft the affidavit, compute net worth, complete stamp paper and notarisation, and generate the UDIN with final delivery.",
-        "totalTime": "P2D",
-        "step": [
-            { "@type": "HowToStep", "name": "Share sponsor and applicant details", "text": "Provide identities, relationship, purpose, and the destination country." },
-            { "@type": "HowToStep", "name": "Submit financial documents", "text": "Sponsor's bank statements, ITR, property and investment proofs." },
-            { "@type": "HowToStep", "name": "Affidavit drafting", "text": "We draft the affidavit of support to match the sponsor's certified figures." },
-            { "@type": "HowToStep", "name": "Net worth computation", "text": "The CA verifies and computes net worth in INR and the destination currency." },
-            { "@type": "HowToStep", "name": "Stamp paper and notarisation", "text": "We guide you on stamp value and attestation before a notary or consular officer." },
-            { "@type": "HowToStep", "name": "UDIN and final delivery", "text": "The CA generates the UDIN, and you receive the notarised affidavit and the certificate." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Sponsorship Affidavit and Net Worth Certificate Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Sponsor (deponent)", "description": "The person swearing the affidavit and funding the applicant - parent, spouse, guardian, relative, or employer." },
-            { "@type": "DefinedTerm", "name": "Affidavit of support", "description": "A notarised undertaking to cover the applicant's tuition, living, and travel costs." },
-            { "@type": "DefinedTerm", "name": "Non-judicial stamp paper", "description": "The stamped paper on which the affidavit is executed; value varies by state under the Indian Stamp Act, 1899." },
-            { "@type": "DefinedTerm", "name": "Notarisation", "description": "Attestation by a Notary Public under the Notaries Act, 1952, with seal, signature, and registration number." },
-            { "@type": "DefinedTerm", "name": "UDIN", "description": "18-digit number mandatory on the CA's net worth certificate since 1 July 2019, verifiable at udin.icai.org." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -782,7 +618,176 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Sponsorship Affidavit and Net Worth Certificate in Delhi 2026 | Patron Accounting</title>
+    <meta name="description" content="Sponsorship Affidavit and Net Worth Certificate for visa: CA-drafted affidavit, notarisation guidance, and UDIN net worth proof for sponsors. From INR 2,999.">
+    <link rel="canonical" href="/sponsorship-affidavit-and-net-worth-certificate/delhi">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Sponsorship Affidavit and Net Worth Certificate 2026 | Patron Accounting">
+    <meta property="og:description" content="Sponsorship Affidavit and Net Worth Certificate for visa: CA-drafted affidavit, notarisation guidance, and UDIN net worth proof for sponsors. From INR 2,999.">
+    <meta property="og:url" content="/sponsorship-affidavit-and-net-worth-certificate/delhi">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Sponsorship Affidavit and Net Worth Certificate 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Sponsorship Affidavit and Net Worth Certificate for visa: CA-drafted affidavit, notarisation guidance, and UDIN net worth proof for sponsors. From INR 2,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/sponsorship-affidavit-and-net-worth-certificate/delhi/#service",
+        "name": "Sponsorship Affidavit and Net Worth Certificate in Delhi",
+        "description": "Bundled service for visa sponsors: drafting of a notarised sponsorship affidavit under the Oaths Act and Notaries Act, notarisation guidance, and a CA-certified net worth certificate with UDIN in INR and the destination currency.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/sponsorship-affidavit-and-net-worth-certificate/delhi" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Affidavit", "sameAs": "https://en.wikipedia.org/wiki/Affidavit" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Sponsorship Affidavit and Net Worth Certificate Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": { "@type": "Service", "name": "Sponsorship affidavit and net worth certificate bundle" },
+                    "priceCurrency": "INR",
+                    "price": "2999",
+                    "description": "Starting from INR 2,999 (excl. GST and govt. charges)"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/sponsorship-affidavit-and-net-worth-certificate/delhi/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate for Visa", "item": "https://www.patronaccounting.com/net-worth-certificate-for-visa" },
+            { "@type": "ListItem", "position": 3, "name": "Sponsorship Affidavit and Net Worth Certificate", "item": "https://www.patronaccounting.com/sponsorship-affidavit-and-net-worth-certificate/delhi" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/sponsorship-affidavit-and-net-worth-certificate/delhi/#faq",
+        "datePublished": "2026-06-09T08:00:00+05:30",
+        "dateModified": "2026-06-09T08:00:00+05:30",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Who can be a sponsor and sign the affidavit?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Usually a close family member such as a parent, spouse, guardian, sibling, or grandparent, and in some cases an employer. The sponsor must show both the relationship to the applicant and the financial capacity to support, which the net worth certificate evidences." }
+            },
+            {
+                "@type": "Question",
+                "name": "Does the sponsorship affidavit need to be notarised?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Yes for most official and embassy purposes. It is executed on non-judicial stamp paper and attested by a Notary Public under the Notaries Act, 1952, or by an Oath Commissioner. For NRI sponsors, an Indian consular officer abroad can attest it." }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the difference between the affidavit and the net worth certificate?",
+                "acceptedAnswer": { "@type": "Answer", "text": "The affidavit is a sworn promise to fund the applicant; the net worth certificate is a CA-verified statement of the sponsor's assets minus liabilities. One shows intent, the other shows capacity. Visa files typically need both." }
+            },
+            {
+                "@type": "Question",
+                "name": "What stamp paper value is needed for the affidavit?",
+                "acceptedAnswer": { "@type": "Answer", "text": "It depends on the state, since stamp duty is governed by the Indian Stamp Act, 1899 and state laws. We advise the correct value for your state so the affidavit is validly executed." }
+            },
+            {
+                "@type": "Question",
+                "name": "Can an employer be a sponsor?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Yes. An employer can sponsor staff for business or work-related travel, with a company undertaking and supporting financials. The structure of the affidavit differs from a family sponsorship and is drafted accordingly." }
+            },
+            {
+                "@type": "Question",
+                "name": "Who issues the net worth certificate in the bundle?",
+                "acceptedAnswer": { "@type": "Answer", "text": "A practising Chartered Accountant registered with ICAI, holding a valid Certificate of Practice. The certificate carries the CA's seal and an 18-digit UDIN that the authority can verify online." }
+            }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/sponsorship-affidavit-and-net-worth-certificate/delhi",
+        "name": "Sponsorship Affidavit and Net Worth Certificate in Delhi",
+        "description": "Sponsorship Affidavit and Net Worth Certificate for visa: CA-drafted affidavit, notarisation guidance, and UDIN net worth proof for sponsors. From INR 2,999.",
+        "url": "https://www.patronaccounting.com/sponsorship-affidavit-and-net-worth-certificate/delhi",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/sponsorship-affidavit-and-net-worth-certificate/delhi/#service" },
+        "datePublished": "2026-06-09T08:00:00+05:30",
+        "dateModified": "2026-06-09T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/sponsorship-affidavit-and-net-worth-certificate/delhi/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How a Sponsorship Affidavit and Net Worth Certificate Are Prepared",
+        "description": "The six-step process to a matched sponsor file: share sponsor and applicant details, submit financial documents, draft the affidavit, compute net worth, complete stamp paper and notarisation, and generate the UDIN with final delivery.",
+        "totalTime": "P2D",
+        "step": [
+            { "@type": "HowToStep", "name": "Share sponsor and applicant details", "text": "Provide identities, relationship, purpose, and the destination country." },
+            { "@type": "HowToStep", "name": "Submit financial documents", "text": "Sponsor's bank statements, ITR, property and investment proofs." },
+            { "@type": "HowToStep", "name": "Affidavit drafting", "text": "We draft the affidavit of support to match the sponsor's certified figures." },
+            { "@type": "HowToStep", "name": "Net worth computation", "text": "The CA verifies and computes net worth in INR and the destination currency." },
+            { "@type": "HowToStep", "name": "Stamp paper and notarisation", "text": "We guide you on stamp value and attestation before a notary or consular officer." },
+            { "@type": "HowToStep", "name": "UDIN and final delivery", "text": "The CA generates the UDIN, and you receive the notarised affidavit and the certificate." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Sponsorship Affidavit and Net Worth Certificate Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Sponsor (deponent)", "description": "The person swearing the affidavit and funding the applicant - parent, spouse, guardian, relative, or employer." },
+            { "@type": "DefinedTerm", "name": "Affidavit of support", "description": "A notarised undertaking to cover the applicant's tuition, living, and travel costs." },
+            { "@type": "DefinedTerm", "name": "Non-judicial stamp paper", "description": "The stamped paper on which the affidavit is executed; value varies by state under the Indian Stamp Act, 1899." },
+            { "@type": "DefinedTerm", "name": "Notarisation", "description": "Attestation by a Notary Public under the Notaries Act, 1952, with seal, signature, and registration number." },
+            { "@type": "DefinedTerm", "name": "UDIN", "description": "18-digit number mandatory on the CA's net worth certificate since 1 July 2019, verifiable at udin.icai.org." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1622,17 +1627,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1655,8 +1653,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1693,7 +1689,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1 (Schema Standard v2.1 / Rule 36): visible "Last Updated" mirrors schema dateModified
 // (9 June 2026) as a STABLE value - never live new Date().
@@ -1705,3 +1700,19 @@ window.addEventListener('scroll', function() {
     if (el2) el2.textContent = dateStr;
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

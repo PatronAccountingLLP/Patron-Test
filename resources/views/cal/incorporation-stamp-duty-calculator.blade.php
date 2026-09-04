@@ -1,179 +1,6 @@
 @extends('layouts.app')
-<title>Incorporation Stamp Duty Calculator | State-Wise India</title>
-<meta name="description" content="Free stamp duty calculator for incorporation: estimate state-wise MoA &amp; AoA stamp duty on company &amp; LLP registration by authorised capital, across India.">
-<meta name="robots" content="index, follow">
-<meta name="theme-color" content="#15365f">
+@push('styles')
 <link rel="canonical" href="https://www.patronaccounting.com/tools/incorporation-stamp-duty-calculator">
-@section('meta')
-<meta property="og:title" content="Incorporation Stamp Duty Calculator — State-wise 2026">
-<meta property="og:description" content="Estimate state-wise stamp duty on MoA and AoA for company or LLP incorporation by authorised capital, with an itemised breakdown across Indian states.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.patronaccounting.com/tools/incorporation-stamp-duty-calculator">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="1200">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-<meta property="og:site_name" content="Patron Accounting">
-<meta property="og:locale" content="en_IN">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Incorporation Stamp Duty Calculator — State-wise 2026">
-<meta name="twitter:description" content="Estimate state-wise MoA &amp; AoA stamp duty on company / LLP incorporation by authorised capital. Free &amp; instant.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-
-<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
-<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
-@endsection
-@section('schema')
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "Incorporation Stamp Duty Calculator",
-  "description": "Incorporation Stamp Duty Calculator estimates the state stamp duty payable on the Memorandum of Association and Articles of Association when incorporating a company, or on the agreement when incorporating an LLP, based on the state of the registered office and the authorised share capital or contribution. It models the differing state structures, including flat fees, percentage rates and per-block slab systems, and returns an itemised Memorandum and Articles breakdown with a total. The figure is indicative because stamp duty is fixed by each state Stamp Act and is auto-calculated by the MCA SPICe Plus system at the time of filing.",
-  "url": "https://www.patronaccounting.com/tools/incorporation-stamp-duty-calculator",
-  "applicationCategory": "BusinessApplication",
-  "inLanguage": "en-IN",
-  "isAccessibleForFree": true,
-  "operatingSystem": "Any",
-  "datePublished": "2026-06-05T08:00:00+05:30",
-  "dateModified": "2026-06-05T08:00:00+05:30",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "INR"
-  },
-  "reviewedBy": {
-    "@type": "Person",
-    "@id": "https://patronaccounting.com/#founder",
-    "name": "CA Sundram Gupta",
-    "jobTitle": "Founder & Chartered Accountant",
-    "url": "https://www.patronaccounting.com/contact-page",
-    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-    "hasCredential": [{
-      "@type": "EducationalOccupationalCredential",
-      "credentialCategory": "Professional Certification",
-      "name": "Chartered Accountant (CA)",
-      "recognizedBy": {
-        "@type": "Organization",
-        "name": "Institute of Chartered Accountants of India",
-        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-      }
-    }]
-  },
-  "publisher": { "@id": "https://patronaccounting.com/#organization" },
-  "provider": {
-    "@id": "https://patronaccounting.com/#organization"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "Incorporation Stamp Duty Calculator", "item": "https://www.patronaccounting.com/tools/incorporation-stamp-duty-calculator"}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is stamp duty on incorporation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When you incorporate a company, the state levies stamp duty on two foundational documents, the Memorandum of Association and the Articles of Association, and for an LLP on the LLP agreement. It is a state tax that makes the incorporation documents legally enforceable. The amount depends on the state of the registered office and, in most states, on the authorised share capital or the LLP contribution. It is paid through the MCA portal as part of the SPICe Plus or FiLLiP filing."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why does incorporation stamp duty vary by state?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Stamp duty is a state subject, so each state sets its own rate under its Stamp Act. Some states charge a flat fee, some charge a percentage of authorised capital, and others use a per-block slab such as a fixed amount for every five or ten lakh rupees of capital, sometimes with a minimum or a maximum cap. As a result the duty for the same authorised capital can differ by several thousand rupees between, say, Maharashtra and Karnataka or Gujarat."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How is stamp duty calculated on the MoA and AoA?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Typically the Memorandum of Association attracts a small flat fee, often between 100 and 500 rupees, while the Articles of Association is where most of the variation lies and is usually linked to authorised capital. The state applies its flat, percentage or slab rule to the capital to arrive at the AoA duty, adds the MoA fee and a small form stamp, and the total is the incorporation stamp duty. This calculator itemises the Memorandum and Articles components and shows the total."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which states have the lowest incorporation stamp duty?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The north-eastern states such as Assam, Meghalaya, Manipur, Mizoram, Nagaland, Sikkim, Tripura and Arunachal Pradesh generally have the lowest stamp duty, often a flat 100 to 500 rupees regardless of capital. Maharashtra, Delhi and Uttar Pradesh are relatively low for small capital. Karnataka, Punjab, Gujarat and Kerala tend to be among the higher states. If your registered office location is flexible, choosing a low-duty state can save a meaningful amount at incorporation."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does higher authorised capital increase stamp duty?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, in most states. Because the Articles of Association duty is usually a percentage or per-block charge on authorised capital, a higher capital means higher stamp duty, although several states apply a maximum cap beyond which it stops rising. A common cost-saving approach is to incorporate with a low authorised capital, such as one lakh rupees, and increase it later through Form SH-7, paying the incremental stamp duty only on the increase at that time."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is LLP stamp duty different from company stamp duty?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. An LLP does not have an MoA and AoA; instead stamp duty is charged on the LLP agreement, again under the state Stamp Act and usually linked to the capital contribution. The rates and slabs differ from those for a company and from state to state. This calculator gives an indicative figure for the LLP agreement when you select the LLP option, but the exact duty should be confirmed for your state and contribution before filing Form 3."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do I pay stamp duty again when I increase capital?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. When you increase authorised capital you file Form SH-7 with the Registrar of Companies and pay additional stamp duty, calculated on the increased amount under the same state rules, along with the MCA filing fee for the new capital slab. There is no penalty for starting low and increasing later, so many founders begin with a small authorised capital to minimise the upfront stamp duty and pay more only when the business genuinely needs higher capital."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is this calculator's figure the exact amount I will pay?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. It is an indicative estimate. The binding stamp duty is auto-calculated by the MCA SPICe Plus system from each state's stamp schedule at the time of filing, and state governments revise rates by notification. This tool models the common state structures using representative rates, so treat its output as a planning figure. Always confirm the current rate with your state's revenue department or a CA or CS before relying on it for budgeting."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I reduce stamp duty by choosing a different state?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "If your business does not need a physical presence in a particular state, registering the office in a low stamp duty state can reduce incorporation cost, sometimes by several thousand rupees at higher capital. However, the registered office determines your jurisdiction for compliance, GST and assessments, so the decision should weigh the duty saving against operational and tax considerations rather than chasing the lowest duty alone. A professional can help you balance these."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the Incorporation Stamp Duty Calculator free?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, the Patron Accounting Incorporation Stamp Duty Calculator is completely free with no signup required. All calculations run in your browser and nothing is stored on our servers. It estimates state-wise stamp duty on the MoA and AoA, or the LLP agreement, by authorised capital and itemises the components. It is an indicative planning tool; the exact, binding duty is computed by the MCA system at filing, so confirm the current figure with a professional before relying on it."
-      }
-    }
-  ]
-}
-</script>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-@endsection
 <style>
         :root {
             --primary: #15365f;
@@ -687,6 +514,183 @@ a:focus-visible {
 
 
         </style>
+@endpush
+
+@section('meta')
+<meta property="og:title" content="Incorporation Stamp Duty Calculator — State-wise 2026">
+<meta property="og:description" content="Estimate state-wise stamp duty on MoA and AoA for company or LLP incorporation by authorised capital, with an itemised breakdown across Indian states.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/incorporation-stamp-duty-calculator">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+<meta property="og:site_name" content="Patron Accounting">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Incorporation Stamp Duty Calculator — State-wise 2026">
+<meta name="twitter:description" content="Estimate state-wise MoA &amp; AoA stamp duty on company / LLP incorporation by authorised capital. Free &amp; instant.">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
+
+<title>Incorporation Stamp Duty Calculator | State-Wise India</title>
+<meta name="description" content="Free stamp duty calculator for incorporation: estimate state-wise MoA &amp; AoA stamp duty on company &amp; LLP registration by authorised capital, across India.">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#15365f">
+@endsection
+@section('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Incorporation Stamp Duty Calculator",
+  "description": "Incorporation Stamp Duty Calculator estimates the state stamp duty payable on the Memorandum of Association and Articles of Association when incorporating a company, or on the agreement when incorporating an LLP, based on the state of the registered office and the authorised share capital or contribution. It models the differing state structures, including flat fees, percentage rates and per-block slab systems, and returns an itemised Memorandum and Articles breakdown with a total. The figure is indicative because stamp duty is fixed by each state Stamp Act and is auto-calculated by the MCA SPICe Plus system at the time of filing.",
+  "url": "https://www.patronaccounting.com/tools/incorporation-stamp-duty-calculator",
+  "applicationCategory": "BusinessApplication",
+  "inLanguage": "en-IN",
+  "isAccessibleForFree": true,
+  "operatingSystem": "Any",
+  "datePublished": "2026-06-05T08:00:00+05:30",
+  "dateModified": "2026-06-05T08:00:00+05:30",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "INR"
+  },
+  "reviewedBy": {
+    "@type": "Person",
+    "@id": "https://patronaccounting.com/#founder",
+    "name": "CA Sundram Gupta",
+    "jobTitle": "Founder & Chartered Accountant",
+    "url": "https://www.patronaccounting.com/contact-page",
+    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+    "hasCredential": [{
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Professional Certification",
+      "name": "Chartered Accountant (CA)",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Institute of Chartered Accountants of India",
+        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+      }
+    }]
+  },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
+  "provider": {
+    "@id": "https://patronaccounting.com/#organization"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "Incorporation Stamp Duty Calculator", "item": "https://www.patronaccounting.com/tools/incorporation-stamp-duty-calculator"}
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is stamp duty on incorporation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "When you incorporate a company, the state levies stamp duty on two foundational documents, the Memorandum of Association and the Articles of Association, and for an LLP on the LLP agreement. It is a state tax that makes the incorporation documents legally enforceable. The amount depends on the state of the registered office and, in most states, on the authorised share capital or the LLP contribution. It is paid through the MCA portal as part of the SPICe Plus or FiLLiP filing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why does incorporation stamp duty vary by state?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Stamp duty is a state subject, so each state sets its own rate under its Stamp Act. Some states charge a flat fee, some charge a percentage of authorised capital, and others use a per-block slab such as a fixed amount for every five or ten lakh rupees of capital, sometimes with a minimum or a maximum cap. As a result the duty for the same authorised capital can differ by several thousand rupees between, say, Maharashtra and Karnataka or Gujarat."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is stamp duty calculated on the MoA and AoA?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Typically the Memorandum of Association attracts a small flat fee, often between 100 and 500 rupees, while the Articles of Association is where most of the variation lies and is usually linked to authorised capital. The state applies its flat, percentage or slab rule to the capital to arrive at the AoA duty, adds the MoA fee and a small form stamp, and the total is the incorporation stamp duty. This calculator itemises the Memorandum and Articles components and shows the total."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which states have the lowest incorporation stamp duty?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The north-eastern states such as Assam, Meghalaya, Manipur, Mizoram, Nagaland, Sikkim, Tripura and Arunachal Pradesh generally have the lowest stamp duty, often a flat 100 to 500 rupees regardless of capital. Maharashtra, Delhi and Uttar Pradesh are relatively low for small capital. Karnataka, Punjab, Gujarat and Kerala tend to be among the higher states. If your registered office location is flexible, choosing a low-duty state can save a meaningful amount at incorporation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does higher authorised capital increase stamp duty?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, in most states. Because the Articles of Association duty is usually a percentage or per-block charge on authorised capital, a higher capital means higher stamp duty, although several states apply a maximum cap beyond which it stops rising. A common cost-saving approach is to incorporate with a low authorised capital, such as one lakh rupees, and increase it later through Form SH-7, paying the incremental stamp duty only on the increase at that time."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is LLP stamp duty different from company stamp duty?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. An LLP does not have an MoA and AoA; instead stamp duty is charged on the LLP agreement, again under the state Stamp Act and usually linked to the capital contribution. The rates and slabs differ from those for a company and from state to state. This calculator gives an indicative figure for the LLP agreement when you select the LLP option, but the exact duty should be confirmed for your state and contribution before filing Form 3."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I pay stamp duty again when I increase capital?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. When you increase authorised capital you file Form SH-7 with the Registrar of Companies and pay additional stamp duty, calculated on the increased amount under the same state rules, along with the MCA filing fee for the new capital slab. There is no penalty for starting low and increasing later, so many founders begin with a small authorised capital to minimise the upfront stamp duty and pay more only when the business genuinely needs higher capital."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is this calculator's figure the exact amount I will pay?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. It is an indicative estimate. The binding stamp duty is auto-calculated by the MCA SPICe Plus system from each state's stamp schedule at the time of filing, and state governments revise rates by notification. This tool models the common state structures using representative rates, so treat its output as a planning figure. Always confirm the current rate with your state's revenue department or a CA or CS before relying on it for budgeting."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I reduce stamp duty by choosing a different state?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If your business does not need a physical presence in a particular state, registering the office in a low stamp duty state can reduce incorporation cost, sometimes by several thousand rupees at higher capital. However, the registered office determines your jurisdiction for compliance, GST and assessments, so the decision should weigh the duty saving against operational and tax considerations rather than chasing the lowest duty alone. A professional can help you balance these."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the Incorporation Stamp Duty Calculator free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the Patron Accounting Incorporation Stamp Duty Calculator is completely free with no signup required. All calculations run in your browser and nothing is stored on our servers. It estimates state-wise stamp duty on the MoA and AoA, or the LLP agreement, by authorised capital and itemises the components. It is an indicative planning tool; the exact, binding duty is computed by the MCA system at filing, so confirm the current figure with a professional before relying on it."
+      }
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation">
     <div class="toc-nav-inner">

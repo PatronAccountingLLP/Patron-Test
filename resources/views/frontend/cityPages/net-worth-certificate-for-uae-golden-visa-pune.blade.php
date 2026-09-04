@@ -1,143 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Net Worth Certificate for UAE Golden Visa 2026 | Patron Accounting</title>
-    <meta name="description" content="Net Worth Certificate for UAE Golden Visa in dual-currency INR and AED, UDIN-verified by ICAI CAs. Supports AED 2M investor proof. From INR 4,999.">
-    <link rel="canonical" href="/net-worth-certificate-for-uae-golden-visa/pune">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Net Worth Certificate for UAE Golden Visa 2026 | Patron Accounting">
-    <meta property="og:description" content="Net Worth Certificate for UAE Golden Visa in dual-currency INR and AED, UDIN-verified by ICAI CAs. Supports AED 2M investor proof. From INR 4,999.">
-    <meta property="og:url" content="/net-worth-certificate-for-uae-golden-visa/pune">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Net Worth Certificate for UAE Golden Visa 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Net Worth Certificate for UAE Golden Visa in dual-currency INR and AED, UDIN-verified by ICAI CAs. Supports AED 2M investor proof. From INR 4,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-uae-golden-visa/pune/#service",
-        "name": "Net Worth Certificate for UAE Golden Visa in Pune",
-        "description": "CA-certified dual-currency net worth certificate in INR and AED for UAE Golden Visa investor applications, attesting overall net worth and source of funds behind the AED 2 million investor route, issued with a mandatory 18-digit UDIN by ICAI-registered Chartered Accountants in Pune.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/net-worth-certificate-for-uae-golden-visa/pune" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Net worth", "sameAs": "https://en.wikipedia.org/wiki/Net_worth" }, { "@type": "Thing", "name": "Golden visa", "sameAs": "https://en.wikipedia.org/wiki/Golden_visa" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Net Worth Certificate for UAE Golden Visa Service Plans",
-            "itemListElement": [
-                { "@type": "Offer", "name": "Net Worth Certificate for UAE Golden Visa", "price": "4999", "priceCurrency": "INR", "description": "Starting from INR 4,999 (Exl GST and Govt. Charges)" }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-uae-golden-visa/pune/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
-            { "@type": "ListItem", "position": 3, "name": "Net Worth Certificate for UAE Golden Visa", "item": "https://www.patronaccounting.com/net-worth-certificate-for-uae-golden-visa/pune" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-uae-golden-visa/pune/#faq",
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "mainEntity": [
-            { "@type": "Question", "name": "Is a net worth certificate enough to get a UAE Golden Visa?", "acceptedAnswer": { "@type": "Answer", "text": "No. Golden Visa eligibility is granted by a UAE-side qualifying asset, typically AED 2,000,000 in property, an accredited fund deposit, or company capital. The CA net worth certificate is an India-side supporting document that attests the investor\u0027s overall financial standing and the source of investment funds. It strengthens the application but does not by itself create eligibility." } },
-{ "@type": "Question", "name": "How much investment is needed for the UAE Golden Visa in 2026?", "acceptedAnswer": { "@type": "Answer", "text": "The investor route requires AED 2,000,000 in property valued by the Dubai Land Department, an accredited UAE investment fund deposit, or company capital. Entrepreneurs qualify at AED 500,000 for an innovative project, and skilled professionals at a salary of at least AED 30,000 per month. The visa is a 5 or 10-year renewable residency without a local sponsor." } },
-{ "@type": "Question", "name": "Why is source of funds important for the certificate?", "acceptedAnswer": { "@type": "Answer", "text": "UAE authorities and banks expect investment capital to be legitimately sourced. The CA attests the origin of the funds, for example salary, business profits, asset sales, or dividends, so the application shows the AED 2 million-tier investment is backed by verifiable lawful income. A clear source-of-funds trail reduces queries and delays during processing." } },
-{ "@type": "Question", "name": "Should the certificate be in AED and INR?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. For UAE applications the certificate is issued in dual currency, INR and AED, converted at the prevailing reference rate on the certificate date, with the conversion date stated. This lets UAE-side reviewers read the net worth in AED while figures remain anchored to verified Indian asset records. An INR-only certificate is incomplete for this purpose." } },
-{ "@type": "Question", "name": "Why does this certificate cost more than a student-visa one?", "acceptedAnswer": { "@type": "Answer", "text": "The investor-tier certificate involves higher asset volumes, multiple asset classes, and a documented source-of-funds attestation, all verified under ICAI auditing standards. This deeper verification and the professional responsibility it carries are why the starting fee is INR 4,999, compared with routine visa certificates. The fee reflects verification depth, not just document drafting." } },
-{ "@type": "Question", "name": "How quickly can Patron Accounting issue it in Pune?", "acceptedAnswer": { "@type": "Answer", "text": "Because investor-tier verification is deeper, standard issuance is two to four working days once documents are complete. Express issuance is available for urgent relocation or application deadlines. Our Pune team handles HNI files confidentially, with both in-person collection and fully remote delivery across India." } }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-uae-golden-visa/pune",
-        "name": "Net Worth Certificate for UAE Golden Visa in Pune",
-        "description": "Net Worth Certificate for UAE Golden Visa in dual-currency INR and AED, UDIN-verified by ICAI CAs. Supports AED 2M investor proof. From INR 4,999.",
-        "url": "https://www.patronaccounting.com/net-worth-certificate-for-uae-golden-visa/pune",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-uae-golden-visa/pune/#service" },
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-uae-golden-visa/pune/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How a UAE Golden Visa Net Worth Certificate Is Issued",
-        "description": "The step-by-step process Patron Accounting follows to verify high-value assets and source of funds and issue a UDIN-backed dual-currency certificate for the UAE Golden Visa in Pune.",
-        "totalTime": "P4D",
-        "step": [
-            { "@type": "HowToStep", "position": 1, "name": "Confirm the route", "text": "Confirm the Golden Visa route (property, accredited fund, company capital, entrepreneur) and what the consultant or authority requires from the India side." },
-{ "@type": "HowToStep", "position": 2, "name": "Collect documents", "text": "Collect bank statements, property papers, DEMAT and fund statements, business financials, ITR, PAN, passport, and source-of-funds trail." },
-{ "@type": "HowToStep", "position": 3, "name": "Verify assets and fund origin", "text": "Independent verification of assets, liabilities and fund origin under SA 500 (Audit Evidence) and SA 505 (External Confirmations)." },
-{ "@type": "HowToStep", "position": 4, "name": "Compute and convert", "text": "Compute total assets minus total liabilities and convert to AED at the prevailing reference rate on the certificate date." },
-{ "@type": "HowToStep", "position": 5, "name": "Draft dual-currency certificate", "text": "Draft the dual-currency certificate with the net worth figure, source-of-funds attestation, and Golden Visa category." },
-{ "@type": "HowToStep", "position": 6, "name": "Issue with UDIN", "text": "Generate UDIN at udin.icai.org, sign, seal, and deliver (PDF and physical)." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Net Worth Certificate for UAE Golden Visa Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Golden Visa", "description": "A 5 or 10-year renewable UAE residency for investors meeting the AED 2 million threshold, without a local sponsor." },
-{ "@type": "DefinedTerm", "name": "Source of funds", "description": "The documented origin of the investment capital, attested by the Chartered Accountant." },
-{ "@type": "DefinedTerm", "name": "Dual-currency format", "description": "Asset and liability values shown in INR and AED at the reference rate on the certificate date." },
-{ "@type": "DefinedTerm", "name": "ICP / GDRFA / DLD", "description": "The UAE authorities administering the Golden Visa federally (ICP) and in Dubai (GDRFA, Dubai Land Department)." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -751,7 +618,145 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Net Worth Certificate for UAE Golden Visa 2026 | Patron Accounting</title>
+    <meta name="description" content="Net Worth Certificate for UAE Golden Visa in dual-currency INR and AED, UDIN-verified by ICAI CAs. Supports AED 2M investor proof. From INR 4,999.">
+    <link rel="canonical" href="/net-worth-certificate-for-uae-golden-visa/pune">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Net Worth Certificate for UAE Golden Visa 2026 | Patron Accounting">
+    <meta property="og:description" content="Net Worth Certificate for UAE Golden Visa in dual-currency INR and AED, UDIN-verified by ICAI CAs. Supports AED 2M investor proof. From INR 4,999.">
+    <meta property="og:url" content="/net-worth-certificate-for-uae-golden-visa/pune">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Net Worth Certificate for UAE Golden Visa 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Net Worth Certificate for UAE Golden Visa in dual-currency INR and AED, UDIN-verified by ICAI CAs. Supports AED 2M investor proof. From INR 4,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-uae-golden-visa/pune/#service",
+        "name": "Net Worth Certificate for UAE Golden Visa in Pune",
+        "description": "CA-certified dual-currency net worth certificate in INR and AED for UAE Golden Visa investor applications, attesting overall net worth and source of funds behind the AED 2 million investor route, issued with a mandatory 18-digit UDIN by ICAI-registered Chartered Accountants in Pune.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/net-worth-certificate-for-uae-golden-visa/pune" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Net worth", "sameAs": "https://en.wikipedia.org/wiki/Net_worth" }, { "@type": "Thing", "name": "Golden visa", "sameAs": "https://en.wikipedia.org/wiki/Golden_visa" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Net Worth Certificate for UAE Golden Visa Service Plans",
+            "itemListElement": [
+                { "@type": "Offer", "name": "Net Worth Certificate for UAE Golden Visa", "price": "4999", "priceCurrency": "INR", "description": "Starting from INR 4,999 (Exl GST and Govt. Charges)" }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-uae-golden-visa/pune/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
+            { "@type": "ListItem", "position": 3, "name": "Net Worth Certificate for UAE Golden Visa", "item": "https://www.patronaccounting.com/net-worth-certificate-for-uae-golden-visa/pune" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-uae-golden-visa/pune/#faq",
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "mainEntity": [
+            { "@type": "Question", "name": "Is a net worth certificate enough to get a UAE Golden Visa?", "acceptedAnswer": { "@type": "Answer", "text": "No. Golden Visa eligibility is granted by a UAE-side qualifying asset, typically AED 2,000,000 in property, an accredited fund deposit, or company capital. The CA net worth certificate is an India-side supporting document that attests the investor\u0027s overall financial standing and the source of investment funds. It strengthens the application but does not by itself create eligibility." } },
+{ "@type": "Question", "name": "How much investment is needed for the UAE Golden Visa in 2026?", "acceptedAnswer": { "@type": "Answer", "text": "The investor route requires AED 2,000,000 in property valued by the Dubai Land Department, an accredited UAE investment fund deposit, or company capital. Entrepreneurs qualify at AED 500,000 for an innovative project, and skilled professionals at a salary of at least AED 30,000 per month. The visa is a 5 or 10-year renewable residency without a local sponsor." } },
+{ "@type": "Question", "name": "Why is source of funds important for the certificate?", "acceptedAnswer": { "@type": "Answer", "text": "UAE authorities and banks expect investment capital to be legitimately sourced. The CA attests the origin of the funds, for example salary, business profits, asset sales, or dividends, so the application shows the AED 2 million-tier investment is backed by verifiable lawful income. A clear source-of-funds trail reduces queries and delays during processing." } },
+{ "@type": "Question", "name": "Should the certificate be in AED and INR?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. For UAE applications the certificate is issued in dual currency, INR and AED, converted at the prevailing reference rate on the certificate date, with the conversion date stated. This lets UAE-side reviewers read the net worth in AED while figures remain anchored to verified Indian asset records. An INR-only certificate is incomplete for this purpose." } },
+{ "@type": "Question", "name": "Why does this certificate cost more than a student-visa one?", "acceptedAnswer": { "@type": "Answer", "text": "The investor-tier certificate involves higher asset volumes, multiple asset classes, and a documented source-of-funds attestation, all verified under ICAI auditing standards. This deeper verification and the professional responsibility it carries are why the starting fee is INR 4,999, compared with routine visa certificates. The fee reflects verification depth, not just document drafting." } },
+{ "@type": "Question", "name": "How quickly can Patron Accounting issue it in Pune?", "acceptedAnswer": { "@type": "Answer", "text": "Because investor-tier verification is deeper, standard issuance is two to four working days once documents are complete. Express issuance is available for urgent relocation or application deadlines. Our Pune team handles HNI files confidentially, with both in-person collection and fully remote delivery across India." } }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-uae-golden-visa/pune",
+        "name": "Net Worth Certificate for UAE Golden Visa in Pune",
+        "description": "Net Worth Certificate for UAE Golden Visa in dual-currency INR and AED, UDIN-verified by ICAI CAs. Supports AED 2M investor proof. From INR 4,999.",
+        "url": "https://www.patronaccounting.com/net-worth-certificate-for-uae-golden-visa/pune",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-uae-golden-visa/pune/#service" },
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-uae-golden-visa/pune/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How a UAE Golden Visa Net Worth Certificate Is Issued",
+        "description": "The step-by-step process Patron Accounting follows to verify high-value assets and source of funds and issue a UDIN-backed dual-currency certificate for the UAE Golden Visa in Pune.",
+        "totalTime": "P4D",
+        "step": [
+            { "@type": "HowToStep", "position": 1, "name": "Confirm the route", "text": "Confirm the Golden Visa route (property, accredited fund, company capital, entrepreneur) and what the consultant or authority requires from the India side." },
+{ "@type": "HowToStep", "position": 2, "name": "Collect documents", "text": "Collect bank statements, property papers, DEMAT and fund statements, business financials, ITR, PAN, passport, and source-of-funds trail." },
+{ "@type": "HowToStep", "position": 3, "name": "Verify assets and fund origin", "text": "Independent verification of assets, liabilities and fund origin under SA 500 (Audit Evidence) and SA 505 (External Confirmations)." },
+{ "@type": "HowToStep", "position": 4, "name": "Compute and convert", "text": "Compute total assets minus total liabilities and convert to AED at the prevailing reference rate on the certificate date." },
+{ "@type": "HowToStep", "position": 5, "name": "Draft dual-currency certificate", "text": "Draft the dual-currency certificate with the net worth figure, source-of-funds attestation, and Golden Visa category." },
+{ "@type": "HowToStep", "position": 6, "name": "Issue with UDIN", "text": "Generate UDIN at udin.icai.org, sign, seal, and deliver (PDF and physical)." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Net Worth Certificate for UAE Golden Visa Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Golden Visa", "description": "A 5 or 10-year renewable UAE residency for investors meeting the AED 2 million threshold, without a local sponsor." },
+{ "@type": "DefinedTerm", "name": "Source of funds", "description": "The documented origin of the investment capital, attested by the Chartered Accountant." },
+{ "@type": "DefinedTerm", "name": "Dual-currency format", "description": "Asset and liability values shown in INR and AED at the reference rate on the certificate date." },
+{ "@type": "DefinedTerm", "name": "ICP / GDRFA / DLD", "description": "The UAE authorities administering the Golden Visa federally (ICP) and in Dubai (GDRFA, Dubai Land Department)." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1390,22 +1395,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
-<!-- ============================================
-     CONSULTATION FORM — Country Dropdown + Validation + Bigin Integration
-     ============================================ -->
-{{-- Enquiry form markup + JS now in partials/enquiry-form.blade.php --}}
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1428,8 +1421,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1466,7 +1457,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1477,3 +1467,24 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+<!-- ============================================
+     CONSULTATION FORM — Country Dropdown + Validation + Bigin Integration
+     ============================================ -->
+{{-- Enquiry form markup + JS now in partials/enquiry-form.blade.php --}}
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

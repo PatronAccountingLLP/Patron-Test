@@ -1,160 +1,11 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>FLA Return Filing with RBI Gurugram - July 15 Deadline</title>
-    <meta name="description" content="FLA returns filing in Gurugram. Annual RBI filing. FDI/ODI. FLAIR portal. July 15 deadline. FEMA compliance. Fundraise readiness. Call +91 945 945 6700.">
-    <link rel="canonical" href="/fla-returns/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="FLA Return Filing with RBI Gurugram - July 15 Deadline">
-    <meta property="og:description" content="FLA returns filing in Gurugram. Annual RBI filing. FDI/ODI. FLAIR portal. July 15 deadline. FEMA compliance. Fundraise readiness. Call +91 945 945 6700.">
-    <meta property="og:url" content="/fla-returns/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="FLA Return Filing with RBI Gurugram - July 15 Deadline">
-    <meta name="twitter:description" content="FLA returns filing in Gurugram. Annual RBI filing. FDI/ODI. FLAIR portal. July 15 deadline. FEMA compliance. Fundraise readiness. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "FLA Returns in Gurugram | RBI FEMA",
-      "description": "FLA returns filing in Gurugram. Annual RBI filing. FDI/ODI. FLAIR portal. July 15 deadline. FEMA compliance. Fundraise readiness. Call +91 945 945 6700.",
-      "url": "https://www.patronaccounting.com/fla-returns/gurugram",
-      "serviceType": "FLA Returns in Gurugram | RBI FEMA",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/fla-returns/gurugram",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "minPrice": "3000",
-          "maxPrice": "15999",
-          "priceCurrency": "INR"
-        }
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "FLA Returns in India: Due Date, FLAIR Portal and Filing",
-          "item": "https://www.patronaccounting.com/fla-returns"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "FLA Returns in Gurugram | RBI FEMA",
-          "item": "https://www.patronaccounting.com/fla-returns/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Who must file FLA returns?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "All Indian entities with outstanding FDI or ODI as on March 31. Companies, LLPs, AIFs, partnership firms. File every year until fully divested. Includes VC-funded startups, MNC subsidiaries, JVs, and companies with foreign subsidiaries."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does FLA filing cost?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "FLA filing: Rs 5,999-15,999. Revised return: Rs 3,000-5,000. FLAIR registration: Rs 2,000-3,000. FEMA bundle (FLA+FC-GPR+APR): Rs 15,999-35,999. Call +91 945 945 6700 for a detailed quote."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the FLA deadline?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. File Revised Return if Needed: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What if FLA is not filed?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "FEMA violation. Penalty: 3x amount involved or Rs 2 lakh + Rs 5,000/day continuing default. Late fee Rs 7,500. Missing FLA creates red flags in investor due diligence that can delay or derail fundraising."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Provisional vs revised filing?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Provisional: filed with unaudited figures by July 15 when audit pending. Revised: filed with audited figures by September 30 if material variances from provisional. Both on FLAIR portal."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does FLA affect fundraising?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, critically. Investor legal teams check FEMA compliance. Missing FLA = red flag. Can delay closing by months while violations are compounded with RBI, or cause investors to walk away."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is FLA only for year of investment?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. FLA must be filed every year as long as FDI or ODI is outstanding. A 2019 FDI creates perpetual annual obligation until the foreign investor fully exits. This is the most common misconception leading to years of missed filings. Quick Answers FDI mila hai - FLA file karna hai? Haan. Jab tak foreign investment outstanding hai, har saal July 15 tak. Naya ho ya na ho. Pura divest hone tak. Audit nahi hua July 15 tak? Provisional figures se file karo. Audit ke baad September 30 tak revised. July 15 miss mat karo. Fundraise pe asar? Haan. Investor due diligence mein FEMA check hota hai. FLA missing = red flag. Funding delay ho sakti hai."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -678,7 +529,161 @@ section ul li:not(.nav-item) { font-size: 14px; }
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'Join Community'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>FLA Return Filing with RBI Gurugram - July 15 Deadline</title>
+    <meta name="description" content="FLA returns filing in Gurugram. Annual RBI filing. FDI/ODI. FLAIR portal. July 15 deadline. FEMA compliance. Fundraise readiness. Call +91 945 945 6700.">
+    <link rel="canonical" href="/fla-returns/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="FLA Return Filing with RBI Gurugram - July 15 Deadline">
+    <meta property="og:description" content="FLA returns filing in Gurugram. Annual RBI filing. FDI/ODI. FLAIR portal. July 15 deadline. FEMA compliance. Fundraise readiness. Call +91 945 945 6700.">
+    <meta property="og:url" content="/fla-returns/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="FLA Return Filing with RBI Gurugram - July 15 Deadline">
+    <meta name="twitter:description" content="FLA returns filing in Gurugram. Annual RBI filing. FDI/ODI. FLAIR portal. July 15 deadline. FEMA compliance. Fundraise readiness. Call +91 945 945 6700.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "FLA Returns in Gurugram | RBI FEMA",
+      "description": "FLA returns filing in Gurugram. Annual RBI filing. FDI/ODI. FLAIR portal. July 15 deadline. FEMA compliance. Fundraise readiness. Call +91 945 945 6700.",
+      "url": "https://www.patronaccounting.com/fla-returns/gurugram",
+      "serviceType": "FLA Returns in Gurugram | RBI FEMA",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.patronaccounting.com/fla-returns/gurugram",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": "3000",
+          "maxPrice": "15999",
+          "priceCurrency": "INR"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "FLA Returns in India: Due Date, FLAIR Portal and Filing",
+          "item": "https://www.patronaccounting.com/fla-returns"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "FLA Returns in Gurugram | RBI FEMA",
+          "item": "https://www.patronaccounting.com/fla-returns/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Who must file FLA returns?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "All Indian entities with outstanding FDI or ODI as on March 31. Companies, LLPs, AIFs, partnership firms. File every year until fully divested. Includes VC-funded startups, MNC subsidiaries, JVs, and companies with foreign subsidiaries."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does FLA filing cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "FLA filing: Rs 5,999-15,999. Revised return: Rs 3,000-5,000. FLAIR registration: Rs 2,000-3,000. FEMA bundle (FLA+FC-GPR+APR): Rs 15,999-35,999. Call +91 945 945 6700 for a detailed quote."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the FLA deadline?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. File Revised Return if Needed: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if FLA is not filed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "FEMA violation. Penalty: 3x amount involved or Rs 2 lakh + Rs 5,000/day continuing default. Late fee Rs 7,500. Missing FLA creates red flags in investor due diligence that can delay or derail fundraising."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Provisional vs revised filing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Provisional: filed with unaudited figures by July 15 when audit pending. Revised: filed with audited figures by September 30 if material variances from provisional. Both on FLAIR portal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does FLA affect fundraising?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, critically. Investor legal teams check FEMA compliance. Missing FLA = red flag. Can delay closing by months while violations are compounded with RBI, or cause investors to walk away."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is FLA only for year of investment?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. FLA must be filed every year as long as FDI or ODI is outstanding. A 2019 FDI creates perpetual annual obligation until the foreign investor fully exits. This is the most common misconception leading to years of missed filings. Quick Answers FDI mila hai - FLA file karna hai? Haan. Jab tak foreign investment outstanding hai, har saal July 15 tak. Naya ho ya na ho. Pura divest hone tak. Audit nahi hua July 15 tak? Provisional figures se file karo. Audit ke baad September 30 tak revised. July 15 miss mat karo. Fundraise pe asar? Haan. Investor due diligence mein FEMA check hota hai. FLA missing = red flag. Funding delay ho sakti hai."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1604,7 +1609,6 @@ var tocWrapper=document.getElementById('tocWrapper');document.getElementById('to
 
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

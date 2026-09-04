@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,208 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>AP Outsourcing Gurugram 2026 | Patron Accounting</title>
-    <meta name="description" content="Gurugram accounts payable outsourcing from INR 7,499/mo. CA-run bill booking, PO-GRN matching, TDS, GSTR-2B credit checks and approval-ready vendor payouts.">
-    <link rel="canonical" href="/accounts-payable-outsourcing-services/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="AP Outsourcing Gurugram 2026 | Patron Accounting">
-    <meta property="og:description" content="Gurugram accounts payable outsourcing from INR 7,499/mo. CA-run bill booking, PO-GRN matching, TDS, GSTR-2B credit checks and approval-ready vendor payouts.">
-    <meta property="og:url" content="/accounts-payable-outsourcing-services/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="AP Outsourcing Gurugram 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Gurugram accounts payable outsourcing from INR 7,499/mo. CA-run bill booking, PO-GRN matching, TDS, GSTR-2B credit checks and approval-ready vendor payouts.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/accounts-payable-outsourcing-services/gurugram#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Accounts Payable Outsourcing Services",
-          "item": "https://www.patronaccounting.com/accounts-payable-outsourcing-services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Accounts Payable Outsourcing Services in Gurugram",
-          "item": "https://www.patronaccounting.com/accounts-payable-outsourcing-services/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/accounts-payable-outsourcing-services/gurugram#faq",
-      "datePublished": "2026-06-23T08:00:00+05:30",
-      "dateModified": "2026-06-23T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is accounts payable outsourcing for a Gurugram business?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "It means Patron Accounting runs your vendor-to-pay cycle in full: capturing bills, matching them three ways, maintaining the vendor master, deducting TDS under the Income Tax Act, checking GST input credit, and scheduling payouts. A Cyber City GCC or a Manesar IMT plant gains controlled, audit-ready payables with no in-house AP team to staff."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does accounts payable outsourcing cost in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Pricing starts at INR 7,499/mo (Exl GST and Govt. Charges). Your final figure follows monthly bill volume, vendor numbers, GST registrations, and how often you pay. Cyber City ITES offices and Manesar IMT plants are quoted a fixed monthly fee, based on transaction count, before any onboarding begins."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does 3-way matching protect a Manesar auto-component plant?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Three-way matching tests each supplier bill against its purchase order and goods receipt before payment, and quantity, rate, and totals all have to agree. For a Manesar IMT auto-component plant running heavy job-work volumes, this halts overbilling and repeat payments and leaves Gurugram auditors a clean Section 128 trail under the Companies Act 2013."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is TDS on vendor payments handled in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We fix the right TDS section and rate as a bill is booked, say 194C for contractors or 194J for consultant fees, deposit it by the 7th of the next month, and reconcile it into your quarterly 26Q. That keeps deductions valid and shields Gurugram businesses from Section 40(a)(ia) disallowance."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you reconcile GST input tax credit on purchases?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Ahead of every payout we reconcile each purchase bill with GSTR-2B on the portal, so the firm claims only the input credit allowed under the CGST Act 2017. Bills that do not match, or that a vendor has not filed, are held and flagged, keeping Gurugram firms safe from reversal and Section 50 interest."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can Patron handle a Gurugram GCC that pays vendors across states?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Many Gurugram GCCs pay vendors across several states, so we run each state GSTIN as its own input-credit and TDS stream while rolling the ageing up for the group. You provide the vendor master, all GSTINs and PAN, approval limits, and your books file, and we keep each state registration reconciled on its own."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do you support high invoice volumes for Cyber City ITES offices?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Cyber City ITES and GCC offices often process very high monthly bill counts. We batch-capture and book them, tag each to its cost centre, deduct 194J TDS, and reconcile every vendor ledger, then deliver an ageing report split into 0-30, 31-60, 61-90, and 90-plus day bands so every outflow is visible before the next run."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can you run vendor payments in Tally and Zoho Books for Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. We operate straight inside whatever your Gurugram office already runs, Tally, Zoho Books, QuickBooks, or Xero, with no migration. We post the booked bills, prepare each payment batch for your approval, and never start a release without authorised sign-off, so duties stay segregated and the audit trail stays whole."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/accounts-payable-outsourcing-services/gurugram#service",
-      "name": "Accounts Payable Outsourcing Services in Gurugram",
-      "description": "Patron Accounting runs Gurugram accounts payable end to end: bill capture, PO and GRN matching, vendor master control, TDS on payouts, GSTR-2B credit reconciliation, and approval-ready payment runs for Cyber City, Manesar IMT, and MG Road businesses.",
-      "serviceType": "Accounts Payable Outsourcing and Invoice Processing",
-      "url": "https://www.patronaccounting.com/accounts-payable-outsourcing-services/gurugram",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#localbusiness-gurugram"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Accounts payable",
-          "sameAs": "https://en.wikipedia.org/wiki/Accounts_payable"
-        },
-        {
-          "@type": "Thing",
-          "name": "Goods and Services Tax (India)",
-          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Accounts Payable Outsourcing Plans in Gurugram",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "price": "7499",
-            "priceSpecification": {
-              "@type": "UnitPriceSpecification",
-              "priceCurrency": "INR",
-              "price": "7499",
-              "unitText": "per month"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Accounts Payable Outsourcing per Month"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness-gurugram",
-      "name": "Patron Accounting LLP - Gurugram",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/accounts-payable-outsourcing-services/gurugram",
-      "telephone": "+91-9699936369",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Gurugram",
-        "addressRegion": "Haryana",
-        "postalCode": "122002",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -815,7 +612,217 @@
         .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
 
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>AP Outsourcing Gurugram 2026 | Patron Accounting</title>
+    <meta name="description" content="Gurugram accounts payable outsourcing from INR 7,499/mo. CA-run bill booking, PO-GRN matching, TDS, GSTR-2B credit checks and approval-ready vendor payouts.">
+    <link rel="canonical" href="/accounts-payable-outsourcing-services/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="AP Outsourcing Gurugram 2026 | Patron Accounting">
+    <meta property="og:description" content="Gurugram accounts payable outsourcing from INR 7,499/mo. CA-run bill booking, PO-GRN matching, TDS, GSTR-2B credit checks and approval-ready vendor payouts.">
+    <meta property="og:url" content="/accounts-payable-outsourcing-services/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="AP Outsourcing Gurugram 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Gurugram accounts payable outsourcing from INR 7,499/mo. CA-run bill booking, PO-GRN matching, TDS, GSTR-2B credit checks and approval-ready vendor payouts.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/accounts-payable-outsourcing-services/gurugram#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Accounts Payable Outsourcing Services",
+          "item": "https://www.patronaccounting.com/accounts-payable-outsourcing-services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Accounts Payable Outsourcing Services in Gurugram",
+          "item": "https://www.patronaccounting.com/accounts-payable-outsourcing-services/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/accounts-payable-outsourcing-services/gurugram#faq",
+      "datePublished": "2026-06-23T08:00:00+05:30",
+      "dateModified": "2026-06-23T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is accounts payable outsourcing for a Gurugram business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It means Patron Accounting runs your vendor-to-pay cycle in full: capturing bills, matching them three ways, maintaining the vendor master, deducting TDS under the Income Tax Act, checking GST input credit, and scheduling payouts. A Cyber City GCC or a Manesar IMT plant gains controlled, audit-ready payables with no in-house AP team to staff."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does accounts payable outsourcing cost in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pricing starts at INR 7,499/mo (Exl GST and Govt. Charges). Your final figure follows monthly bill volume, vendor numbers, GST registrations, and how often you pay. Cyber City ITES offices and Manesar IMT plants are quoted a fixed monthly fee, based on transaction count, before any onboarding begins."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does 3-way matching protect a Manesar auto-component plant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Three-way matching tests each supplier bill against its purchase order and goods receipt before payment, and quantity, rate, and totals all have to agree. For a Manesar IMT auto-component plant running heavy job-work volumes, this halts overbilling and repeat payments and leaves Gurugram auditors a clean Section 128 trail under the Companies Act 2013."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is TDS on vendor payments handled in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We fix the right TDS section and rate as a bill is booked, say 194C for contractors or 194J for consultant fees, deposit it by the 7th of the next month, and reconcile it into your quarterly 26Q. That keeps deductions valid and shields Gurugram businesses from Section 40(a)(ia) disallowance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you reconcile GST input tax credit on purchases?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Ahead of every payout we reconcile each purchase bill with GSTR-2B on the portal, so the firm claims only the input credit allowed under the CGST Act 2017. Bills that do not match, or that a vendor has not filed, are held and flagged, keeping Gurugram firms safe from reversal and Section 50 interest."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can Patron handle a Gurugram GCC that pays vendors across states?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Many Gurugram GCCs pay vendors across several states, so we run each state GSTIN as its own input-credit and TDS stream while rolling the ageing up for the group. You provide the vendor master, all GSTINs and PAN, approval limits, and your books file, and we keep each state registration reconciled on its own."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you support high invoice volumes for Cyber City ITES offices?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cyber City ITES and GCC offices often process very high monthly bill counts. We batch-capture and book them, tag each to its cost centre, deduct 194J TDS, and reconcile every vendor ledger, then deliver an ageing report split into 0-30, 31-60, 61-90, and 90-plus day bands so every outflow is visible before the next run."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you run vendor payments in Tally and Zoho Books for Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We operate straight inside whatever your Gurugram office already runs, Tally, Zoho Books, QuickBooks, or Xero, with no migration. We post the booked bills, prepare each payment batch for your approval, and never start a release without authorised sign-off, so duties stay segregated and the audit trail stays whole."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/accounts-payable-outsourcing-services/gurugram#service",
+      "name": "Accounts Payable Outsourcing Services in Gurugram",
+      "description": "Patron Accounting runs Gurugram accounts payable end to end: bill capture, PO and GRN matching, vendor master control, TDS on payouts, GSTR-2B credit reconciliation, and approval-ready payment runs for Cyber City, Manesar IMT, and MG Road businesses.",
+      "serviceType": "Accounts Payable Outsourcing and Invoice Processing",
+      "url": "https://www.patronaccounting.com/accounts-payable-outsourcing-services/gurugram",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#localbusiness-gurugram"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Accounts payable",
+          "sameAs": "https://en.wikipedia.org/wiki/Accounts_payable"
+        },
+        {
+          "@type": "Thing",
+          "name": "Goods and Services Tax (India)",
+          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Accounts Payable Outsourcing Plans in Gurugram",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "price": "7499",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "INR",
+              "price": "7499",
+              "unitText": "per month"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Accounts Payable Outsourcing per Month"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness-gurugram",
+      "name": "Patron Accounting LLP - Gurugram",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/accounts-payable-outsourcing-services/gurugram",
+      "telephone": "+91-9699936369",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Gurugram",
+        "addressRegion": "Haryana",
+        "postalCode": "122002",
+        "addressCountry": "IN"
+      },
+      "parentOrganization": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1563,7 +1570,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

@@ -1,134 +1,5 @@
 @extends('layouts.app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
-@section('title','GSTAT Appeal Filing Services in India | Patron Accounting')
-
-@section('meta')
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    {{-- <title></title> --}}
-    <meta name="description" content="File your GSTAT appeal via Form APL-05 under Section 112 CGST Act. 20% pre-deposit, e-filing on gstat.gov.in. Expert representation.">
-    <link rel="canonical" href="/gstat-appeal-filing">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="GSTAT Appeal Filing Services in India | Patron Accounting">
-    <meta property="og:description" content="File your GSTAT appeal via Form APL-05 under Section 112 CGST Act. 20% pre-deposit, e-filing on gstat.gov.in. Expert representation.">
-    <meta property="og:url" content="/gstat-appeal-filing">
-    <meta property="og:type" content="article">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="GSTAT Appeal Filing Services in India | Patron Accounting">
-    <meta name="twitter:description" content="File your GSTAT appeal via Form APL-05 under Section 112 CGST Act. 20% pre-deposit, e-filing on gstat.gov.in. Expert representation.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "/gstat-appeal-filing/#service",
-        "name": "GSTAT Appeal Filing Services in India",
-        "description": "Professional GSTAT appeal filing and representation service under Section 112 of the CGST Act, 2017. Includes pre-deposit computation, grounds of appeal drafting, Form GST APL-05 e-filing on the official GSTAT portal, hearing representation before Principal and State Benches, stay applications, and cross-objection filing.",
-        "provider": { "@id": "/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "/gstat-appeal-filing" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Goods and Services Tax Appellate Tribunal", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" }]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "/gstat-appeal-filing/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "/" },
-            { "@type": "ListItem", "position": 2, "name": "Litigation & Appeals", "item": "/litigation-appeals" },
-            { "@type": "ListItem", "position": 3, "name": "GSTAT Appeal Filing", "item": "/gstat-appeal-filing" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-            { "@type": "Question", "name": "What is GSTAT and how does it work?", "acceptedAnswer": { "@type": "Answer", "text": "The Goods and Services Tax Appellate Tribunal (GSTAT) is the second appellate authority under the CGST Act, 2017 constituted under Section 109. It hears appeals against orders of the First Appellate Authority or Revisional Authority. The Tribunal has a Principal Bench in New Delhi and 31 State Benches. All appeals are filed electronically on efiling.gstat.gov.in." } },
-            { "@type": "Question", "name": "How to file an appeal with the GST Appellate Tribunal?", "acceptedAnswer": { "@type": "Answer", "text": "File Form GST APL-05 electronically on the GSTAT e-filing portal. First pay the mandatory pre-deposit of 20% of disputed tax under Section 112(8). Then register on the portal, validate your ARN/CRN, complete the appeal form with consecutively numbered grounds, upload all documents, pay filing fees via Bharatkosh, and digitally sign the submission." } },
-            { "@type": "Question", "name": "What is the pre-deposit for filing a GSTAT appeal?", "acceptedAnswer": { "@type": "Answer", "text": "Under Section 112(8) of the CGST Act, the appellant must pay 100% of the admitted tax, interest, fine, fee, and penalty, plus 20% of the remaining disputed tax. This 20% includes the 10% paid at the first appeal stage under Section 107. The cap is Rs 50 crore for CGST and Rs 50 crore for SGST." } },
-            { "@type": "Question", "name": "What is the time limit for filing an appeal before GSTAT?", "acceptedAnswer": { "@type": "Answer", "text": "The normal time limit is 3 months from the date of communication of the appellate or revisional order. For backlog cases where the order was passed before 1 April 2026, a staggered filing window is available with a final deadline of 30 June 2026. An additional 3 months extension may be granted for sufficient cause." } },
-            { "@type": "Question", "name": "How much does it cost to file a GSTAT appeal?", "acceptedAnswer": { "@type": "Answer", "text": "GSTAT appeal filing fees are Rs 1,000 per Rs 1 lakh of disputed tax, capped at Rs 25,000. Non-tax appeals for registration, refund, or LUT orders cost Rs 5,000. The pre-deposit of 20% of disputed tax is separate and mandatory under Section 112(8)." } },
-            { "@type": "Question", "name": "What documents are needed for GSTAT appeal?", "acceptedAnswer": { "@type": "Answer", "text": "You need a certified copy of the impugned order, the original adjudication order, Form GST APL-05 completed on the portal, vakalatnama for your representative, affidavit, all relied-upon documents indexed and bookmarked in PDF, proof of pre-deposit payment, and demand calculation sheet if applicable." } },
-            { "@type": "Question", "name": "Can I file a GSTAT appeal online?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. All appeals must be filed electronically on efiling.gstat.gov.in. The GSTAT is the first tribunal in India to go fully digital. Manual filing is permitted only for old cases where ARN/CRN is not available in the GSTN system." } },
-            { "@type": "Question", "name": "Is the pre-deposit refundable if the appeal is successful?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. If the GSTAT decides the appeal in favour of the taxpayer, the pre-deposit amount is refundable along with applicable interest as per the provisions of the CGST Act. If the refund is not processed within 60 days, interest at a rate not exceeding 18% per annum is payable from the date of deposit." } }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "/gstat-appeal-filing",
-        "name": "GSTAT Appeal Filing Services in India | Patron Accounting",
-        "description": "File your GSTAT appeal via Form APL-05 under Section 112 CGST Act. 20% pre-deposit, e-filing on gstat.gov.in. Expert representation.",
-        "url": "/gstat-appeal-filing",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "/" },
-        "about": { "@id": "/gstat-appeal-filing/#service" },
-        "datePublished": "2026-03-06",
-        {{-- "dateModified": "{{ $page->updated_at->format('Y-m-d') }}", --}}
-        "author": { "@id": "/#team" },
-        "breadcrumb": { "@id": "/gstat-appeal-filing/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How to File a GSTAT Appeal in India",
-        "description": "Step-by-step process to file a second appeal before the GST Appellate Tribunal under Section 112 of the CGST Act, 2017. E-file Form GST APL-05 on the official GSTAT portal with pre-deposit, documents, and grounds of appeal.",
-        "totalTime": "P180D",
-        "step": [
-            { "@type": "HowToStep", "position": 1, "name": "Verify Eligibility and Timeline", "text": "Confirm the order is appealable under Section 112. Check if the 3-month limitation period applies or if the staggered backlog window ending 30 June 2026 is available." },
-            { "@type": "HowToStep", "position": 2, "name": "Compute and Pay Pre-deposit", "text": "Calculate 20% of disputed tax under Section 112(8). Adjust the 10% already paid at first appeal. Pay via Electronic Cash Ledger on the GSTAT portal or Bharatkosh." },
-            { "@type": "HowToStep", "position": 3, "name": "Register on GSTAT Portal", "text": "Register using GSTIN credentials or create a new account on efiling.gstat.gov.in. Validate ARN/CRN of the first appeal for backlog cases." },
-            { "@type": "HowToStep", "position": 4, "name": "Prepare and File Form GST APL-05", "text": "Fill in order details, case details, appellant and respondent information, demand calculation sheet, and consecutively numbered grounds of appeal." },
-            { "@type": "HowToStep", "position": 5, "name": "Upload Documents", "text": "Upload certified copy of impugned order, vakalatnama, affidavits, all relied-upon documents in PDF format indexed and bookmarked." },
-            { "@type": "HowToStep", "position": 6, "name": "Pay Filing Fee and Submit", "text": "Pay filing fee of Rs 1,000 per Rs 1 lakh of disputed tax capped at Rs 25,000 via Bharatkosh. Digitally sign and submit." },
-            { "@type": "HowToStep", "position": 7, "name": "Track and Respond", "text": "Monitor case status on the GSTAT portal. Respond to respondent replies within 1 month. Attend hearings as scheduled in the cause list." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "/",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "500", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Claim",
-        "claimInterpreter": { "@id": "/#organization" },
-        "description": "Under Section 112(8) of the CGST Act, 2017, no appeal shall be filed before GSTAT unless the appellant has paid 20% of the remaining disputed tax amount, subject to a cap of Rs 50 crore CGST and Rs 50 crore SGST.",
-        "appearance": { "@type": "CreativeWork", "name": "CGST Act, 2017 - Section 112", "url": "https://www.indiacode.nic.in/" }
-    }
-    </script>
-@endsection
 @push('styles')
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -612,6 +483,138 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 /* Trust Badge Descriptions */
 .stat-desc { display: block; font-size: 11px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; font-weight: 400; }
 .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }</style>
+@endpush
+
+
+@section('title','GSTAT Appeal Filing Services in India | Patron Accounting')
+
+@section('meta')
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    {{-- <title></title> --}}
+    <meta name="description" content="File your GSTAT appeal via Form APL-05 under Section 112 CGST Act. 20% pre-deposit, e-filing on gstat.gov.in. Expert representation.">
+    <link rel="canonical" href="/gstat-appeal-filing">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="GSTAT Appeal Filing Services in India | Patron Accounting">
+    <meta property="og:description" content="File your GSTAT appeal via Form APL-05 under Section 112 CGST Act. 20% pre-deposit, e-filing on gstat.gov.in. Expert representation.">
+    <meta property="og:url" content="/gstat-appeal-filing">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GSTAT Appeal Filing Services in India | Patron Accounting">
+    <meta name="twitter:description" content="File your GSTAT appeal via Form APL-05 under Section 112 CGST Act. 20% pre-deposit, e-filing on gstat.gov.in. Expert representation.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "/gstat-appeal-filing/#service",
+        "name": "GSTAT Appeal Filing Services in India",
+        "description": "Professional GSTAT appeal filing and representation service under Section 112 of the CGST Act, 2017. Includes pre-deposit computation, grounds of appeal drafting, Form GST APL-05 e-filing on the official GSTAT portal, hearing representation before Principal and State Benches, stay applications, and cross-objection filing.",
+        "provider": { "@id": "/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "/gstat-appeal-filing" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Goods and Services Tax Appellate Tribunal", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" }]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "/gstat-appeal-filing/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "/" },
+            { "@type": "ListItem", "position": 2, "name": "Litigation & Appeals", "item": "/litigation-appeals" },
+            { "@type": "ListItem", "position": 3, "name": "GSTAT Appeal Filing", "item": "/gstat-appeal-filing" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            { "@type": "Question", "name": "What is GSTAT and how does it work?", "acceptedAnswer": { "@type": "Answer", "text": "The Goods and Services Tax Appellate Tribunal (GSTAT) is the second appellate authority under the CGST Act, 2017 constituted under Section 109. It hears appeals against orders of the First Appellate Authority or Revisional Authority. The Tribunal has a Principal Bench in New Delhi and 31 State Benches. All appeals are filed electronically on efiling.gstat.gov.in." } },
+            { "@type": "Question", "name": "How to file an appeal with the GST Appellate Tribunal?", "acceptedAnswer": { "@type": "Answer", "text": "File Form GST APL-05 electronically on the GSTAT e-filing portal. First pay the mandatory pre-deposit of 20% of disputed tax under Section 112(8). Then register on the portal, validate your ARN/CRN, complete the appeal form with consecutively numbered grounds, upload all documents, pay filing fees via Bharatkosh, and digitally sign the submission." } },
+            { "@type": "Question", "name": "What is the pre-deposit for filing a GSTAT appeal?", "acceptedAnswer": { "@type": "Answer", "text": "Under Section 112(8) of the CGST Act, the appellant must pay 100% of the admitted tax, interest, fine, fee, and penalty, plus 20% of the remaining disputed tax. This 20% includes the 10% paid at the first appeal stage under Section 107. The cap is Rs 50 crore for CGST and Rs 50 crore for SGST." } },
+            { "@type": "Question", "name": "What is the time limit for filing an appeal before GSTAT?", "acceptedAnswer": { "@type": "Answer", "text": "The normal time limit is 3 months from the date of communication of the appellate or revisional order. For backlog cases where the order was passed before 1 April 2026, a staggered filing window is available with a final deadline of 30 June 2026. An additional 3 months extension may be granted for sufficient cause." } },
+            { "@type": "Question", "name": "How much does it cost to file a GSTAT appeal?", "acceptedAnswer": { "@type": "Answer", "text": "GSTAT appeal filing fees are Rs 1,000 per Rs 1 lakh of disputed tax, capped at Rs 25,000. Non-tax appeals for registration, refund, or LUT orders cost Rs 5,000. The pre-deposit of 20% of disputed tax is separate and mandatory under Section 112(8)." } },
+            { "@type": "Question", "name": "What documents are needed for GSTAT appeal?", "acceptedAnswer": { "@type": "Answer", "text": "You need a certified copy of the impugned order, the original adjudication order, Form GST APL-05 completed on the portal, vakalatnama for your representative, affidavit, all relied-upon documents indexed and bookmarked in PDF, proof of pre-deposit payment, and demand calculation sheet if applicable." } },
+            { "@type": "Question", "name": "Can I file a GSTAT appeal online?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. All appeals must be filed electronically on efiling.gstat.gov.in. The GSTAT is the first tribunal in India to go fully digital. Manual filing is permitted only for old cases where ARN/CRN is not available in the GSTN system." } },
+            { "@type": "Question", "name": "Is the pre-deposit refundable if the appeal is successful?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. If the GSTAT decides the appeal in favour of the taxpayer, the pre-deposit amount is refundable along with applicable interest as per the provisions of the CGST Act. If the refund is not processed within 60 days, interest at a rate not exceeding 18% per annum is payable from the date of deposit." } }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "/gstat-appeal-filing",
+        "name": "GSTAT Appeal Filing Services in India | Patron Accounting",
+        "description": "File your GSTAT appeal via Form APL-05 under Section 112 CGST Act. 20% pre-deposit, e-filing on gstat.gov.in. Expert representation.",
+        "url": "/gstat-appeal-filing",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "/" },
+        "about": { "@id": "/gstat-appeal-filing/#service" },
+        "datePublished": "2026-03-06",
+        {{-- "dateModified": "{{ $page->updated_at->format('Y-m-d') }}", --}}
+        "author": { "@id": "/#team" },
+        "breadcrumb": { "@id": "/gstat-appeal-filing/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to File a GSTAT Appeal in India",
+        "description": "Step-by-step process to file a second appeal before the GST Appellate Tribunal under Section 112 of the CGST Act, 2017. E-file Form GST APL-05 on the official GSTAT portal with pre-deposit, documents, and grounds of appeal.",
+        "totalTime": "P180D",
+        "step": [
+            { "@type": "HowToStep", "position": 1, "name": "Verify Eligibility and Timeline", "text": "Confirm the order is appealable under Section 112. Check if the 3-month limitation period applies or if the staggered backlog window ending 30 June 2026 is available." },
+            { "@type": "HowToStep", "position": 2, "name": "Compute and Pay Pre-deposit", "text": "Calculate 20% of disputed tax under Section 112(8). Adjust the 10% already paid at first appeal. Pay via Electronic Cash Ledger on the GSTAT portal or Bharatkosh." },
+            { "@type": "HowToStep", "position": 3, "name": "Register on GSTAT Portal", "text": "Register using GSTIN credentials or create a new account on efiling.gstat.gov.in. Validate ARN/CRN of the first appeal for backlog cases." },
+            { "@type": "HowToStep", "position": 4, "name": "Prepare and File Form GST APL-05", "text": "Fill in order details, case details, appellant and respondent information, demand calculation sheet, and consecutively numbered grounds of appeal." },
+            { "@type": "HowToStep", "position": 5, "name": "Upload Documents", "text": "Upload certified copy of impugned order, vakalatnama, affidavits, all relied-upon documents in PDF format indexed and bookmarked." },
+            { "@type": "HowToStep", "position": 6, "name": "Pay Filing Fee and Submit", "text": "Pay filing fee of Rs 1,000 per Rs 1 lakh of disputed tax capped at Rs 25,000 via Bharatkosh. Digitally sign and submit." },
+            { "@type": "HowToStep", "position": 7, "name": "Track and Respond", "text": "Monitor case status on the GSTAT portal. Respond to respondent replies within 1 month. Attend hearings as scheduled in the cause list." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "/",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "500", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Claim",
+        "claimInterpreter": { "@id": "/#organization" },
+        "description": "Under Section 112(8) of the CGST Act, 2017, no appeal shall be filed before GSTAT unless the appellant has paid 20% of the remaining disputed tax amount, subject to a cap of Rs 50 crore CGST and Rs 50 crore SGST.",
+        "appearance": { "@type": "CreativeWork", "name": "CGST Act, 2017 - Section 112", "url": "https://www.indiacode.nic.in/" }
+    }
+    </script>
+@endsection
+@push('styles')
+
+
 @endpush
 
 @section('content')
@@ -1238,7 +1241,6 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 </main>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

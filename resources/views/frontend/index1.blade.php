@@ -1,12 +1,7 @@
 @extends('layouts.app')
-
-@section('title', 'Home - Patron Accounting')
-
 @push('styles')
-<!-- Slick Slider CSS -->
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
-
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap');
 
@@ -2047,12 +2042,25 @@
     }
 }
 </style>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+@endpush
+
+
+@section('title', 'Home - Patron Accounting')
+
+@push('styles')
+<!-- Slick Slider CSS -->
+
+
+
+
 @endpush
 
 @push('scripts-head')
 <!-- Slick Slider CSS -->
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+
 @endpush
 
 @section('content')

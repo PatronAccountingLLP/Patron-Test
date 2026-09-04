@@ -1,143 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Fund Utilisation Certificate by CA 2026 | Patron Accounting</title>
-    <meta name="description" content="CA fund utilisation certificate in Pune for NGO grants, CSR projects, and government tenders. GFR 12-A and FCRA compliant, UDIN-verified. From INR 3,999.">
-    <link rel="canonical" href="/fund-utilisation-certificate/pune">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Fund Utilisation Certificate by CA 2026 | Patron Accounting">
-    <meta property="og:description" content="CA fund utilisation certificate in Pune for NGO grants, CSR projects, and government tenders. GFR 12-A and FCRA compliant, UDIN-verified. From INR 3,999.">
-    <meta property="og:url" content="/fund-utilisation-certificate/pune">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Fund Utilisation Certificate by CA 2026 | Patron Accounting">
-    <meta name="twitter:description" content="CA fund utilisation certificate in Pune for NGO grants, CSR projects, and government tenders. GFR 12-A and FCRA compliant, UDIN-verified. From INR 3,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/fund-utilisation-certificate/pune/#service",
-        "name": "Fund Utilisation Certificate in Pune",
-        "description": "CA fund utilisation certificate in Pune confirming that grant, CSR, or project funds were used per the funder's terms, for NGO donor and FCRA compliance, corporate CSR project closure under Section 135 of the Companies Act, and government grant or tender milestones in Form GFR 12-A, issued with a mandatory 18-digit UDIN by ICAI-registered Chartered Accountants.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/fund-utilisation-certificate/pune" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Grant (money)", "sameAs": "https://en.wikipedia.org/wiki/Grant_(money)" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Fund Utilisation Certificate Service Plans",
-            "itemListElement": [
-                { "@type": "Offer", "name": "Fund Utilisation Certificate", "price": "3999", "priceCurrency": "INR", "description": "Starting from INR 3,999 (Exl GST and Govt. Charges)" }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/fund-utilisation-certificate/pune/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
-            { "@type": "ListItem", "position": 3, "name": "Fund Utilisation Certificate", "item": "https://www.patronaccounting.com/fund-utilisation-certificate/pune" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/fund-utilisation-certificate/pune/#faq",
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "mainEntity": [
-            { "@type": "Question", "name": "What is a fund utilisation certificate?", "acceptedAnswer": { "@type": "Answer", "text": "It is a certificate issued by a Chartered Accountant confirming, after examining the books and records, that funds received for a grant, project, or scheme were used in accordance with the terms set by the funding agency. It states the amount received, the amount spent, the purpose-wise breakup, and any unspent balance, and carries a mandatory 18-digit UDIN. Government bodies, donor agencies, and companies require it for transparency and accountability." } },
-{ "@type": "Question", "name": "Who needs a fund utilisation certificate?", "acceptedAnswer": { "@type": "Answer", "text": "Organisations that receive funds with conditions attached need one. NGOs use it to report to donors and, for foreign contributions, under the FCRA. Companies need a utilization report when an implementing agency spends their CSR funds under Section 135 of the Companies Act. Grantees drawing government funds against a scheme or tender milestone submit it in Form GFR 12-A. It is also required before a further tranche is released." } },
-{ "@type": "Question", "name": "What is Form GFR 12-A?", "acceptedAnswer": { "@type": "Answer", "text": "Form GFR 12-A is the prescribed Form of Utilization Certificate under the General Financial Rules, used for government grants-in-aid. It certifies that the conditions on which the grant was sanctioned have been fulfilled, that the money was used for the sanctioned purpose, and that the physical and financial performance and outcomes meet the scheme\u0027s requirements. Departments often delay release of further grants if the certificate is not in the prescribed GFR 12-A form." } },
-{ "@type": "Question", "name": "How does a fund utilisation certificate work for CSR?", "acceptedAnswer": { "@type": "Answer", "text": "Under Section 135 of the Companies Act, 2013 and Schedule VII, companies spend on CSR, often through an implementing NGO or third party. When the project is funded, the company needs assurance the money was spent on the specified activities. A Chartered Accountant examines the implementing entity\u0027s project accounts and issues a utilization report, in line with the ICAI advisory on CSR utilization reports, confirming the funds were used for the CSR project as intended." } },
-{ "@type": "Question", "name": "Is UDIN mandatory on a fund utilisation certificate?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. ICAI has made the 18-digit UDIN mandatory for fund and grant utilisation certificates issued by practising Chartered Accountants, including certificates for fund or grant utilisation by charitable trusts and institutions. The UDIN lets the funding agency verify the certificate\u0027s authenticity online. The responsibility to generate and quote the UDIN lies with the CA, and over time funders do not accept utilisation certificates without one." } },
-{ "@type": "Question", "name": "How fast can Patron Accounting issue it in Pune?", "acceptedAnswer": { "@type": "Answer", "text": "With the sanction letter, project accounts, vouchers, and bank statements ready, we typically issue the fund utilisation certificate within three to five working days, using the funder\u0027s required format, whether GFR 12-A, a CSR utilization report, or a donor format. We reconcile expenditure to the sanctioned purpose, disclose any unspent balance, and quote the UDIN. Our Pune team works with NGOs and companies both in-person and remotely." } }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/fund-utilisation-certificate/pune",
-        "name": "Fund Utilisation Certificate in Pune",
-        "description": "CA fund utilisation certificate in Pune for NGO grants, CSR projects, and government tenders. GFR 12-A and FCRA compliant, UDIN-verified. From INR 3,999.",
-        "url": "https://www.patronaccounting.com/fund-utilisation-certificate/pune",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/fund-utilisation-certificate/pune/#service" },
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/fund-utilisation-certificate/pune/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How a Fund Utilisation Certificate Is Issued",
-        "description": "The step-by-step process Patron Accounting follows to verify expenditure and issue a UDIN-backed fund utilisation certificate in Pune.",
-        "totalTime": "P5D",
-        "step": [
-            { "@type": "HowToStep", "position": 1, "name": "Confirm funder and format", "text": "Confirm the funder, the grant or project, and the required certificate format." },
-{ "@type": "HowToStep", "position": 2, "name": "Collect records", "text": "Collect the sanction or grant letter, project accounts, vouchers, and bank statements." },
-{ "@type": "HowToStep", "position": 3, "name": "Verify expenditure", "text": "Verify expenditure against the sanctioned purpose under SA 500 (Audit Evidence), reconciling to the books." },
-{ "@type": "HowToStep", "position": 4, "name": "Prepare utilisation statement", "text": "Prepare the purpose-wise utilisation statement and identify any unspent balance." },
-{ "@type": "HowToStep", "position": 5, "name": "Issue in funder format", "text": "Issue the certificate in the funder\u0027s format (GFR 12-A, CSR report, or donor format) with UDIN." },
-{ "@type": "HowToStep", "position": 6, "name": "Support submission", "text": "Support submission to the funder and any tranche-release or closure requirement." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Fund Utilisation Certificate Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Fund utilisation certificate", "description": "A CA certificate confirming that grant, CSR, or project funds were used per the funding agency\u0027s terms." },
-{ "@type": "DefinedTerm", "name": "Form GFR 12-A", "description": "The prescribed Form of Utilization Certificate under the General Financial Rules for government grants-in-aid." },
-{ "@type": "DefinedTerm", "name": "CSR utilization report", "description": "A practitioner report on third-party CSR fund utilisation under Section 135 of the Companies Act, 2013." },
-{ "@type": "DefinedTerm", "name": "UDIN", "description": "The 18-digit Unique Document Identification Number ICAI mandates for fund and grant utilisation certificates." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -751,7 +618,145 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Fund Utilisation Certificate by CA 2026 | Patron Accounting</title>
+    <meta name="description" content="CA fund utilisation certificate in Pune for NGO grants, CSR projects, and government tenders. GFR 12-A and FCRA compliant, UDIN-verified. From INR 3,999.">
+    <link rel="canonical" href="/fund-utilisation-certificate/pune">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Fund Utilisation Certificate by CA 2026 | Patron Accounting">
+    <meta property="og:description" content="CA fund utilisation certificate in Pune for NGO grants, CSR projects, and government tenders. GFR 12-A and FCRA compliant, UDIN-verified. From INR 3,999.">
+    <meta property="og:url" content="/fund-utilisation-certificate/pune">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Fund Utilisation Certificate by CA 2026 | Patron Accounting">
+    <meta name="twitter:description" content="CA fund utilisation certificate in Pune for NGO grants, CSR projects, and government tenders. GFR 12-A and FCRA compliant, UDIN-verified. From INR 3,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/fund-utilisation-certificate/pune/#service",
+        "name": "Fund Utilisation Certificate in Pune",
+        "description": "CA fund utilisation certificate in Pune confirming that grant, CSR, or project funds were used per the funder's terms, for NGO donor and FCRA compliance, corporate CSR project closure under Section 135 of the Companies Act, and government grant or tender milestones in Form GFR 12-A, issued with a mandatory 18-digit UDIN by ICAI-registered Chartered Accountants.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/fund-utilisation-certificate/pune" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Grant (money)", "sameAs": "https://en.wikipedia.org/wiki/Grant_(money)" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Fund Utilisation Certificate Service Plans",
+            "itemListElement": [
+                { "@type": "Offer", "name": "Fund Utilisation Certificate", "price": "3999", "priceCurrency": "INR", "description": "Starting from INR 3,999 (Exl GST and Govt. Charges)" }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/fund-utilisation-certificate/pune/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
+            { "@type": "ListItem", "position": 3, "name": "Fund Utilisation Certificate", "item": "https://www.patronaccounting.com/fund-utilisation-certificate/pune" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/fund-utilisation-certificate/pune/#faq",
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "mainEntity": [
+            { "@type": "Question", "name": "What is a fund utilisation certificate?", "acceptedAnswer": { "@type": "Answer", "text": "It is a certificate issued by a Chartered Accountant confirming, after examining the books and records, that funds received for a grant, project, or scheme were used in accordance with the terms set by the funding agency. It states the amount received, the amount spent, the purpose-wise breakup, and any unspent balance, and carries a mandatory 18-digit UDIN. Government bodies, donor agencies, and companies require it for transparency and accountability." } },
+{ "@type": "Question", "name": "Who needs a fund utilisation certificate?", "acceptedAnswer": { "@type": "Answer", "text": "Organisations that receive funds with conditions attached need one. NGOs use it to report to donors and, for foreign contributions, under the FCRA. Companies need a utilization report when an implementing agency spends their CSR funds under Section 135 of the Companies Act. Grantees drawing government funds against a scheme or tender milestone submit it in Form GFR 12-A. It is also required before a further tranche is released." } },
+{ "@type": "Question", "name": "What is Form GFR 12-A?", "acceptedAnswer": { "@type": "Answer", "text": "Form GFR 12-A is the prescribed Form of Utilization Certificate under the General Financial Rules, used for government grants-in-aid. It certifies that the conditions on which the grant was sanctioned have been fulfilled, that the money was used for the sanctioned purpose, and that the physical and financial performance and outcomes meet the scheme\u0027s requirements. Departments often delay release of further grants if the certificate is not in the prescribed GFR 12-A form." } },
+{ "@type": "Question", "name": "How does a fund utilisation certificate work for CSR?", "acceptedAnswer": { "@type": "Answer", "text": "Under Section 135 of the Companies Act, 2013 and Schedule VII, companies spend on CSR, often through an implementing NGO or third party. When the project is funded, the company needs assurance the money was spent on the specified activities. A Chartered Accountant examines the implementing entity\u0027s project accounts and issues a utilization report, in line with the ICAI advisory on CSR utilization reports, confirming the funds were used for the CSR project as intended." } },
+{ "@type": "Question", "name": "Is UDIN mandatory on a fund utilisation certificate?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. ICAI has made the 18-digit UDIN mandatory for fund and grant utilisation certificates issued by practising Chartered Accountants, including certificates for fund or grant utilisation by charitable trusts and institutions. The UDIN lets the funding agency verify the certificate\u0027s authenticity online. The responsibility to generate and quote the UDIN lies with the CA, and over time funders do not accept utilisation certificates without one." } },
+{ "@type": "Question", "name": "How fast can Patron Accounting issue it in Pune?", "acceptedAnswer": { "@type": "Answer", "text": "With the sanction letter, project accounts, vouchers, and bank statements ready, we typically issue the fund utilisation certificate within three to five working days, using the funder\u0027s required format, whether GFR 12-A, a CSR utilization report, or a donor format. We reconcile expenditure to the sanctioned purpose, disclose any unspent balance, and quote the UDIN. Our Pune team works with NGOs and companies both in-person and remotely." } }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/fund-utilisation-certificate/pune",
+        "name": "Fund Utilisation Certificate in Pune",
+        "description": "CA fund utilisation certificate in Pune for NGO grants, CSR projects, and government tenders. GFR 12-A and FCRA compliant, UDIN-verified. From INR 3,999.",
+        "url": "https://www.patronaccounting.com/fund-utilisation-certificate/pune",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/fund-utilisation-certificate/pune/#service" },
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/fund-utilisation-certificate/pune/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How a Fund Utilisation Certificate Is Issued",
+        "description": "The step-by-step process Patron Accounting follows to verify expenditure and issue a UDIN-backed fund utilisation certificate in Pune.",
+        "totalTime": "P5D",
+        "step": [
+            { "@type": "HowToStep", "position": 1, "name": "Confirm funder and format", "text": "Confirm the funder, the grant or project, and the required certificate format." },
+{ "@type": "HowToStep", "position": 2, "name": "Collect records", "text": "Collect the sanction or grant letter, project accounts, vouchers, and bank statements." },
+{ "@type": "HowToStep", "position": 3, "name": "Verify expenditure", "text": "Verify expenditure against the sanctioned purpose under SA 500 (Audit Evidence), reconciling to the books." },
+{ "@type": "HowToStep", "position": 4, "name": "Prepare utilisation statement", "text": "Prepare the purpose-wise utilisation statement and identify any unspent balance." },
+{ "@type": "HowToStep", "position": 5, "name": "Issue in funder format", "text": "Issue the certificate in the funder\u0027s format (GFR 12-A, CSR report, or donor format) with UDIN." },
+{ "@type": "HowToStep", "position": 6, "name": "Support submission", "text": "Support submission to the funder and any tranche-release or closure requirement." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Fund Utilisation Certificate Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Fund utilisation certificate", "description": "A CA certificate confirming that grant, CSR, or project funds were used per the funding agency\u0027s terms." },
+{ "@type": "DefinedTerm", "name": "Form GFR 12-A", "description": "The prescribed Form of Utilization Certificate under the General Financial Rules for government grants-in-aid." },
+{ "@type": "DefinedTerm", "name": "CSR utilization report", "description": "A practitioner report on third-party CSR fund utilisation under Section 135 of the Companies Act, 2013." },
+{ "@type": "DefinedTerm", "name": "UDIN", "description": "The 18-digit Unique Document Identification Number ICAI mandates for fund and grant utilisation certificates." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1414,17 +1419,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1447,8 +1445,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1485,7 +1481,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1496,3 +1491,19 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

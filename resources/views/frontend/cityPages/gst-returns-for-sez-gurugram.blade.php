@@ -1,161 +1,12 @@
 
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>GST for SEZ Units Gurugram - Zero-Rated, LUT & Refund</title>
-    <meta name="description" content="GST returns for SEZ in Gurugram. Zero-rated supply. LUT. IGST refund. Dual GSTIN. 28 notified SEZs. Call +91 945 945 6700.">
-    <link rel="canonical" href="/gst-returns-for-sez/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="GST for SEZ Units Gurugram - Zero-Rated, LUT & Refund">
-    <meta property="og:description" content="GST returns for SEZ in Gurugram. Zero-rated supply. LUT. IGST refund. Dual GSTIN. 28 notified SEZs. Call +91 945 945 6700.">
-    <meta property="og:url" content="/gst-returns-for-sez/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="GST for SEZ Units Gurugram - Zero-Rated, LUT & Refund">
-    <meta name="twitter:description" content="GST returns for SEZ in Gurugram. Zero-rated supply. LUT. IGST refund. Dual GSTIN. 28 notified SEZs. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "GST Returns for SEZ in Gurugram | Zero-Rated",
-      "description": "GST returns for SEZ in Gurugram. Zero-rated supply. LUT. IGST refund. Dual GSTIN. 28 notified SEZs. Call +91 945 945 6700.",
-      "url": "https://www.patronaccounting.com/gst-returns-for-sez/gurugram",
-      "serviceType": "GST Returns for SEZ in Gurugram | Zero-Rated",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/gst-returns-for-sez/gurugram",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "minPrice": "3000",
-          "maxPrice": "4999",
-          "priceCurrency": "INR"
-        }
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "GST Returns for SEZ: Filing and Refund Guide",
-          "item": "https://www.patronaccounting.com/gst-returns-for-sez"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "GST Returns for SEZ in Gurugram | Zero-Rated",
-          "item": "https://www.patronaccounting.com/gst-returns-for-sez/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Are supplies to SEZ zero-rated?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. All supplies to SEZ units and developers are zero-rated under Section 16 of the IGST Act 2017. DTA suppliers can supply under LUT without paying IGST (and claim ITC refund) or pay IGST at the time of supply and claim full IGST refund. The supplies must be for authorized operations with endorsed documentation from the SEZ authority."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does SEZ GST filing cost?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "SEZ unit returns from Rs 3,000 per month per GSTIN. DTA supplier zero-rated filing from Rs 3,000 per month. Dual GSTIN management from Rs 5,000 per month. LUT filing Rs 1,000-2,000. IGST refund from Rs 4,999. Annual GSTR-9 Rs 5,000-12,000. Call +91 945 945 6700 for a detailed quote."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does an SEZ unit need a separate GSTIN?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. Apply for Refund if Applicable: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is LUT and when must it be filed?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Letter of Undertaking filed in Form GST RFD-11 before the start of each financial year. It enables SEZ units and DTA suppliers to make zero-rated supplies without paying IGST upfront. Must be renewed annually by March 31. Missing the deadline means IGST must be paid on all zero-rated supplies until the new LUT is filed, creating significant cash flow disruption."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does IGST refund for SEZ supplies work?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "DTA suppliers who pay IGST on SEZ supplies file Form RFD-01 for refund. Must include endorsed supply certificates from the SEZ authority. Two-year limitation from the relevant date under Section 54. Incomplete documentation causes processing delays. Ensure all invoices, endorsements, and bank realization proof are compiled before filing."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens when SEZ sells to DTA?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "SEZ to DTA clearance is treated as an inter-state supply attracting IGST. This must be reported separately in GSTR-1 Table 4. Only supplies from DTA to SEZ are zero-rated. Many SEZ units in Gurugram sell IT services both to foreign clients (export, zero-rated) and to DTA clients in Gurugram (IGST), requiring careful classification in returns."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How many SEZs are in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Gurugram hosts 28 notified Special Economic Zones, the highest concentration in Haryana. Major SEZs include DLF Cyber City SEZ (IT/ITES), ASF Insignia SEZ, Candor TechSpace, and clusters along the Sohna Road corridor. Most are IT/ITES-focused, reflecting Gurugram's position as India's second-largest technology hub. Quick Answers SEZ mein supply pe GST lagta hai? Nahi - SEZ ko supply zero-rated hai S16 IGST Act. LUT file karke bina IGST supply kar sakte hain. SEZ unit ko alag GSTIN chahiye? Haan. SEZ aur DTA ke liye alag-alag GSTIN mandatory hai S25 CGST Act. SEZ se DTA mein bhejne par? IGST lagega - inter-state supply maani jaati hai. Zero-rated sirf DTA se SEZ ko hai."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -679,7 +530,161 @@ section ul li:not(.nav-item) { font-size: 14px; }
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'Join Community'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>GST for SEZ Units Gurugram - Zero-Rated, LUT & Refund</title>
+    <meta name="description" content="GST returns for SEZ in Gurugram. Zero-rated supply. LUT. IGST refund. Dual GSTIN. 28 notified SEZs. Call +91 945 945 6700.">
+    <link rel="canonical" href="/gst-returns-for-sez/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="GST for SEZ Units Gurugram - Zero-Rated, LUT & Refund">
+    <meta property="og:description" content="GST returns for SEZ in Gurugram. Zero-rated supply. LUT. IGST refund. Dual GSTIN. 28 notified SEZs. Call +91 945 945 6700.">
+    <meta property="og:url" content="/gst-returns-for-sez/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GST for SEZ Units Gurugram - Zero-Rated, LUT & Refund">
+    <meta name="twitter:description" content="GST returns for SEZ in Gurugram. Zero-rated supply. LUT. IGST refund. Dual GSTIN. 28 notified SEZs. Call +91 945 945 6700.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "GST Returns for SEZ in Gurugram | Zero-Rated",
+      "description": "GST returns for SEZ in Gurugram. Zero-rated supply. LUT. IGST refund. Dual GSTIN. 28 notified SEZs. Call +91 945 945 6700.",
+      "url": "https://www.patronaccounting.com/gst-returns-for-sez/gurugram",
+      "serviceType": "GST Returns for SEZ in Gurugram | Zero-Rated",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.patronaccounting.com/gst-returns-for-sez/gurugram",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": "3000",
+          "maxPrice": "4999",
+          "priceCurrency": "INR"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "GST Returns for SEZ: Filing and Refund Guide",
+          "item": "https://www.patronaccounting.com/gst-returns-for-sez"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "GST Returns for SEZ in Gurugram | Zero-Rated",
+          "item": "https://www.patronaccounting.com/gst-returns-for-sez/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Are supplies to SEZ zero-rated?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. All supplies to SEZ units and developers are zero-rated under Section 16 of the IGST Act 2017. DTA suppliers can supply under LUT without paying IGST (and claim ITC refund) or pay IGST at the time of supply and claim full IGST refund. The supplies must be for authorized operations with endorsed documentation from the SEZ authority."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does SEZ GST filing cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SEZ unit returns from Rs 3,000 per month per GSTIN. DTA supplier zero-rated filing from Rs 3,000 per month. Dual GSTIN management from Rs 5,000 per month. LUT filing Rs 1,000-2,000. IGST refund from Rs 4,999. Annual GSTR-9 Rs 5,000-12,000. Call +91 945 945 6700 for a detailed quote."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does an SEZ unit need a separate GSTIN?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. Apply for Refund if Applicable: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is LUT and when must it be filed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Letter of Undertaking filed in Form GST RFD-11 before the start of each financial year. It enables SEZ units and DTA suppliers to make zero-rated supplies without paying IGST upfront. Must be renewed annually by March 31. Missing the deadline means IGST must be paid on all zero-rated supplies until the new LUT is filed, creating significant cash flow disruption."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does IGST refund for SEZ supplies work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "DTA suppliers who pay IGST on SEZ supplies file Form RFD-01 for refund. Must include endorsed supply certificates from the SEZ authority. Two-year limitation from the relevant date under Section 54. Incomplete documentation causes processing delays. Ensure all invoices, endorsements, and bank realization proof are compiled before filing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens when SEZ sells to DTA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SEZ to DTA clearance is treated as an inter-state supply attracting IGST. This must be reported separately in GSTR-1 Table 4. Only supplies from DTA to SEZ are zero-rated. Many SEZ units in Gurugram sell IT services both to foreign clients (export, zero-rated) and to DTA clients in Gurugram (IGST), requiring careful classification in returns."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many SEZs are in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gurugram hosts 28 notified Special Economic Zones, the highest concentration in Haryana. Major SEZs include DLF Cyber City SEZ (IT/ITES), ASF Insignia SEZ, Candor TechSpace, and clusters along the Sohna Road corridor. Most are IT/ITES-focused, reflecting Gurugram's position as India's second-largest technology hub. Quick Answers SEZ mein supply pe GST lagta hai? Nahi - SEZ ko supply zero-rated hai S16 IGST Act. LUT file karke bina IGST supply kar sakte hain. SEZ unit ko alag GSTIN chahiye? Haan. SEZ aur DTA ke liye alag-alag GSTIN mandatory hai S25 CGST Act. SEZ se DTA mein bhejne par? IGST lagega - inter-state supply maani jaati hai. Zero-rated sirf DTA se SEZ ko hai."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1604,7 +1609,6 @@ var tocWrapper=document.getElementById('tocWrapper');document.getElementById('to
 
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

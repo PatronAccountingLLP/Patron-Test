@@ -1,193 +1,8 @@
 @extends('layouts.app')
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
-@section('meta')
-    <title>Ind AS Applicability Checker | Net Worth &amp; Phase Test</title>
-    <meta name="description" content="Ind AS applicability checker: find if your company or NBFC must adopt Indian Accounting Standards by net worth, listing &amp; phase. Free CA-reviewed tool. Try now!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/ind-as-applicability-checker">
-    <meta property="og:title" content="Ind AS Applicability Checker — Companies &amp; NBFCs FY 2026-27">
-    <meta property="og:description" content="Instantly check Ind AS mandatory applicability for your company or NBFC. Phase I/II/III/IV roadmap, group company test, voluntary adoption — CA-reviewed.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/ind-as-applicability-checker">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Ind AS Applicability Checker — Companies &amp; NBFCs FY 2026-27">
-    <meta name="twitter:description" content="Check if your company or NBFC must adopt Ind AS — net worth, listing status, group rule, voluntary adoption. Free CA-reviewed tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "Ind AS Applicability Checker",
-      "description": "Ind AS Applicability Checker is a decision-tree tool that determines whether Indian Accounting Standards (Ind AS) apply to a company or NBFC under the Companies (Indian Accounting Standards) Rules, 2015 and subsequent amendments. The tool evaluates entity type, listing status (mainboard, SME Exchange, in process of listing, unlisted), net worth thresholds (₹250 crore and ₹500 crore), holding/subsidiary/JV/associate group rule under Rule 4(1)(iii)(b), prior adoption (irreversibility), and voluntary adoption eligibility from 1 April 2015. Covers Phase I (FY 2016-17), Phase II (FY 2017-18), NBFC Phase III (FY 2018-19), NBFC Phase IV (FY 2019-20), and 2025 Amendment Rules updates to Ind AS 21, 1, 7, 10, 12, 116.",
-      "url": "https://www.patronaccounting.com/tools/ind-as-applicability-checker",
-      "applicationCategory": "UtilityApplication",
-      "operatingSystem": "Any",
-      "datePublished": "2026-05-07T08:00:00+05:30",
-      "dateModified": "2026-05-07T08:00:00+05:30",
-      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
-      "author": {
-        "@type": "Person",
-        "@id": "https://www.patronaccounting.com/#founder",
-        "name": "CA Sundram Gupta",
-        "jobTitle": "Founder & Chartered Accountant",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Institute of Chartered Accountants of India",
-            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-          }
-        }]
-      },
-      "publisher": { "@id": "https://www.patronaccounting.com/#organization" },
-      "provider": {"@id": "https://www.patronaccounting.com/#organization"}
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Ind AS Applicability Checker", "item": "https://www.patronaccounting.com/tools/ind-as-applicability-checker"}
-      ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is Ind AS and who notifies it?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Indian Accounting Standards (Ind AS) are IFRS-converged accounting standards notified by the Ministry of Corporate Affairs (MCA) under Section 133 of the Companies Act, 2013. They are formulated by the Accounting Standards Board of ICAI in consultation with the National Financial Reporting Authority (NFRA). The Companies (Indian Accounting Standards) Rules, 2015 prescribe the phase-wise roadmap based on net worth, listing status and sector. Currently 39 Ind AS are in force after Ind AS 11 and Ind AS 18 were replaced by Ind AS 116 and Ind AS 115 respectively."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which companies must mandatorily apply Ind AS in FY 2026-27?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Mandatory Ind AS applicability covers: (1) all companies with net worth of ₹500 crore or more (Phase I, FY 2016-17 onwards); (2) all listed companies on a mainboard exchange in India or abroad, plus unlisted companies with net worth ₹250–500 crore (Phase II, FY 2017-18 onwards); (3) NBFCs with net worth ≥ ₹500 crore (Phase III, FY 2018-19); and (4) listed NBFCs and unlisted NBFCs with net worth ₹250–500 crore (Phase IV, FY 2019-20). Holding, subsidiary, joint venture and associate companies of any covered entity are also automatically covered."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is net worth calculated for Ind AS applicability?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Net worth is computed under Section 2(57) of the Companies Act, 2013, based on the audited standalone balance sheet. It includes paid-up share capital and reserves created out of profits and securities premium. Excluded items: revaluation reserves, write-back of depreciation, amalgamation reserves, and miscellaneous expenditure not written off. Accumulated losses and deferred expenditure are deducted. The threshold is checked as on 31 March 2014 or any subsequent FY-end. If a company first crosses ₹250 crore or ₹500 crore in a later year, Ind AS applies from the immediately following financial year."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Are LLPs and partnership firms required to follow Ind AS?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. The Companies (Indian Accounting Standards) Rules, 2015 apply only to companies incorporated under the Companies Act, 2013 or 1956. Limited Liability Partnerships (LLPs), partnership firms, sole proprietorships, HUFs, AOPs, BOIs and trusts are outside the mandatory scope. They follow Accounting Standards (AS) issued by ICAI as applicable to non-corporate entities (Level I to IV classification). Voluntary Ind AS adoption is also not formally permitted for these entities under the current MCA framework."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Are subsidiaries automatically covered if the parent is on Ind AS?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Under Rule 4(1)(iii)(b) read with the second proviso of the Companies (Indian Accounting Standards) Rules, 2015, once any company is covered under the Ind AS roadmap (mandatorily or voluntarily), its holding, subsidiary, joint venture and associate companies must also comply with Ind AS — regardless of their individual net worth or listing status. This ensures consistent group-level financial reporting. Overseas subsidiaries of an Indian company may continue with their jurisdictional GAAP for standalone financials but must report Ind AS-adjusted numbers for consolidation."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can a company voluntarily adopt Ind AS?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Rule 4(1)(i) of the Companies (Indian Accounting Standards) Rules, 2015 permits voluntary adoption of Ind AS for any financial year beginning on or after 1 April 2015. There is no minimum net worth or listing threshold for voluntary adoption. However, once a company opts for Ind AS voluntarily, reversal to previous AS is not permitted under Rule 4(2). The company must also prepare comparative financial statements as per Ind AS for the immediately preceding period. Voluntary adoption is common for companies preparing for IPO, foreign listing, or PE investment."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is Ind AS applicable to companies listed on SME Exchange?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Companies whose securities are listed (or in the process of being listed) on an SME Exchange are specifically excluded from mandatory Ind AS under Rule 4(1)(iii)(b)(i) of the Companies (Indian Accounting Standards) Rules, 2015. SME Exchange has the same meaning as in Chapter XB of the SEBI (ICDR) Regulations, 2009. These companies follow Accounting Standards under the Companies (Accounting Standards) Rules, 2021. They may, however, voluntarily adopt Ind AS. If they migrate to the mainboard, Ind AS becomes mandatory from the FY of migration onwards."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the status of Ind AS for Banks and Insurance companies?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Scheduled Commercial Banks (excluding Regional Rural Banks) were originally required to adopt Ind AS from 1 April 2018. RBI deferred this to 1 April 2019 via press release dated 5 April 2018, and subsequently postponed implementation indefinitely through notification dated 22 March 2019, pending necessary legislative amendments to the Banking Regulation Act. For Insurance companies, IRDAI was to notify a separate set of Ind AS effective 1 April 2018 but implementation has been deferred pending IFRS 17 (Insurance Contracts) convergence. Both sectors continue with their respective regulator-prescribed accounting frameworks."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can a company revert to old Accounting Standards after adopting Ind AS?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Rule 4(2) of the Companies (Indian Accounting Standards) Rules, 2015 categorically states that once a company starts following Ind AS — either mandatorily or voluntarily — it must continue to follow Ind AS for all subsequent financial years. There is no provision for reversal even if the company's net worth subsequently falls below the threshold or it delists from a stock exchange. This 'once Ind AS, always Ind AS' principle ensures continuity and comparability of financial reporting and prevents opportunistic switching between frameworks."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What changed under the Companies (Ind AS) Amendment Rules, 2025?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Two amendment notifications were issued in 2025 — none changed the applicability roadmap. The first (G.S.R. 291(E) dated 7 May 2025) amended Ind AS 21 with guidance on currency exchangeability and exchange rate estimation. The second (G.S.R. 549(E) dated 13 August 2025) introduced changes across Ind AS 1 (current/non-current liability classification with covenants), Ind AS 7 and 107 (supplier finance disclosures), Ind AS 12 (OECD Pillar Two minimum tax exception), and technical updates to Ind AS 10, 28, 32, 101, 108, 109, 115, 116. Most provisions are effective from FY beginning 1 April 2025; some covenant-related amendments apply from 1 April 2026."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How many Indian Accounting Standards are currently in force?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "As of FY 2025-26, 39 Ind AS are in force. Originally 41 Ind AS were notified in February 2015. Two were superseded: Ind AS 11 (Construction Contracts) and Ind AS 18 (Revenue) were replaced by Ind AS 115 (Revenue from Contracts with Customers) effective 1 April 2018. Ind AS 17 (Leases) was replaced by Ind AS 116 (Leases) effective 1 April 2019. Ind AS standards are numbered following IFRS numbering — for example, Ind AS 109 corresponds to IFRS 9 (Financial Instruments). The list spans presentation, accounting policies, revenue, leases, financial instruments, business combinations, employee benefits, and disclosures."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens if my company crosses the net worth threshold mid-year?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Net worth is tested as at the end of each financial year based on the audited standalone balance sheet. If the threshold of ₹250 crore (or ₹500 crore for Phase I) is first crossed in FY 2025-26, Ind AS becomes mandatory from FY 2026-27 onwards. The company must prepare comparative financial statements for FY 2025-26 also under Ind AS for the first Ind AS financial statements. Transition date is 1 April 2025 in this example. Once applicable, the company cannot revert even if net worth subsequently falls below the threshold."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Are foreign branches of Indian companies required to apply Ind AS?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Foreign operations of an Indian company — whether branches, subsidiaries, JVs or associates — may continue using their jurisdictional GAAP for standalone financial statements. They are not required to prepare separate Ind AS standalone financials. However, for the Indian parent's consolidated financial statements (CFS), these entities must report Ind AS-adjusted figures. This is per the Rule 4(1) proviso. Conversely, a branch of a foreign company in India is treated as an extension of the foreign parent and Ind AS does not apply to such branch standalone reporting in India."
-          }
-        }
-      ]
-    }
-    </script>
-@endsection
-
 <style>
         :root {
             --primary: #1B4D3E;
@@ -375,7 +190,192 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
   section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;max-width:100%;margin-bottom:2px;}
 }
 </style>
+@endpush
 
+@section('meta')
+    <title>Ind AS Applicability Checker | Net Worth &amp; Phase Test</title>
+    <meta name="description" content="Ind AS applicability checker: find if your company or NBFC must adopt Indian Accounting Standards by net worth, listing &amp; phase. Free CA-reviewed tool. Try now!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/ind-as-applicability-checker">
+    <meta property="og:title" content="Ind AS Applicability Checker — Companies &amp; NBFCs FY 2026-27">
+    <meta property="og:description" content="Instantly check Ind AS mandatory applicability for your company or NBFC. Phase I/II/III/IV roadmap, group company test, voluntary adoption — CA-reviewed.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/ind-as-applicability-checker">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ind AS Applicability Checker — Companies &amp; NBFCs FY 2026-27">
+    <meta name="twitter:description" content="Check if your company or NBFC must adopt Ind AS — net worth, listing status, group rule, voluntary adoption. Free CA-reviewed tool.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Ind AS Applicability Checker",
+      "description": "Ind AS Applicability Checker is a decision-tree tool that determines whether Indian Accounting Standards (Ind AS) apply to a company or NBFC under the Companies (Indian Accounting Standards) Rules, 2015 and subsequent amendments. The tool evaluates entity type, listing status (mainboard, SME Exchange, in process of listing, unlisted), net worth thresholds (₹250 crore and ₹500 crore), holding/subsidiary/JV/associate group rule under Rule 4(1)(iii)(b), prior adoption (irreversibility), and voluntary adoption eligibility from 1 April 2015. Covers Phase I (FY 2016-17), Phase II (FY 2017-18), NBFC Phase III (FY 2018-19), NBFC Phase IV (FY 2019-20), and 2025 Amendment Rules updates to Ind AS 21, 1, 7, 10, 12, 116.",
+      "url": "https://www.patronaccounting.com/tools/ind-as-applicability-checker",
+      "applicationCategory": "UtilityApplication",
+      "operatingSystem": "Any",
+      "datePublished": "2026-05-07T08:00:00+05:30",
+      "dateModified": "2026-05-07T08:00:00+05:30",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.patronaccounting.com/#founder",
+        "name": "CA Sundram Gupta",
+        "jobTitle": "Founder & Chartered Accountant",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Institute of Chartered Accountants of India",
+            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+          }
+        }]
+      },
+      "publisher": { "@id": "https://www.patronaccounting.com/#organization" },
+      "provider": {"@id": "https://www.patronaccounting.com/#organization"}
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Ind AS Applicability Checker", "item": "https://www.patronaccounting.com/tools/ind-as-applicability-checker"}
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Ind AS and who notifies it?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Indian Accounting Standards (Ind AS) are IFRS-converged accounting standards notified by the Ministry of Corporate Affairs (MCA) under Section 133 of the Companies Act, 2013. They are formulated by the Accounting Standards Board of ICAI in consultation with the National Financial Reporting Authority (NFRA). The Companies (Indian Accounting Standards) Rules, 2015 prescribe the phase-wise roadmap based on net worth, listing status and sector. Currently 39 Ind AS are in force after Ind AS 11 and Ind AS 18 were replaced by Ind AS 116 and Ind AS 115 respectively."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which companies must mandatorily apply Ind AS in FY 2026-27?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mandatory Ind AS applicability covers: (1) all companies with net worth of ₹500 crore or more (Phase I, FY 2016-17 onwards); (2) all listed companies on a mainboard exchange in India or abroad, plus unlisted companies with net worth ₹250–500 crore (Phase II, FY 2017-18 onwards); (3) NBFCs with net worth ≥ ₹500 crore (Phase III, FY 2018-19); and (4) listed NBFCs and unlisted NBFCs with net worth ₹250–500 crore (Phase IV, FY 2019-20). Holding, subsidiary, joint venture and associate companies of any covered entity are also automatically covered."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is net worth calculated for Ind AS applicability?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Net worth is computed under Section 2(57) of the Companies Act, 2013, based on the audited standalone balance sheet. It includes paid-up share capital and reserves created out of profits and securities premium. Excluded items: revaluation reserves, write-back of depreciation, amalgamation reserves, and miscellaneous expenditure not written off. Accumulated losses and deferred expenditure are deducted. The threshold is checked as on 31 March 2014 or any subsequent FY-end. If a company first crosses ₹250 crore or ₹500 crore in a later year, Ind AS applies from the immediately following financial year."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are LLPs and partnership firms required to follow Ind AS?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. The Companies (Indian Accounting Standards) Rules, 2015 apply only to companies incorporated under the Companies Act, 2013 or 1956. Limited Liability Partnerships (LLPs), partnership firms, sole proprietorships, HUFs, AOPs, BOIs and trusts are outside the mandatory scope. They follow Accounting Standards (AS) issued by ICAI as applicable to non-corporate entities (Level I to IV classification). Voluntary Ind AS adoption is also not formally permitted for these entities under the current MCA framework."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are subsidiaries automatically covered if the parent is on Ind AS?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Under Rule 4(1)(iii)(b) read with the second proviso of the Companies (Indian Accounting Standards) Rules, 2015, once any company is covered under the Ind AS roadmap (mandatorily or voluntarily), its holding, subsidiary, joint venture and associate companies must also comply with Ind AS — regardless of their individual net worth or listing status. This ensures consistent group-level financial reporting. Overseas subsidiaries of an Indian company may continue with their jurisdictional GAAP for standalone financials but must report Ind AS-adjusted numbers for consolidation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a company voluntarily adopt Ind AS?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Rule 4(1)(i) of the Companies (Indian Accounting Standards) Rules, 2015 permits voluntary adoption of Ind AS for any financial year beginning on or after 1 April 2015. There is no minimum net worth or listing threshold for voluntary adoption. However, once a company opts for Ind AS voluntarily, reversal to previous AS is not permitted under Rule 4(2). The company must also prepare comparative financial statements as per Ind AS for the immediately preceding period. Voluntary adoption is common for companies preparing for IPO, foreign listing, or PE investment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Ind AS applicable to companies listed on SME Exchange?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Companies whose securities are listed (or in the process of being listed) on an SME Exchange are specifically excluded from mandatory Ind AS under Rule 4(1)(iii)(b)(i) of the Companies (Indian Accounting Standards) Rules, 2015. SME Exchange has the same meaning as in Chapter XB of the SEBI (ICDR) Regulations, 2009. These companies follow Accounting Standards under the Companies (Accounting Standards) Rules, 2021. They may, however, voluntarily adopt Ind AS. If they migrate to the mainboard, Ind AS becomes mandatory from the FY of migration onwards."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the status of Ind AS for Banks and Insurance companies?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Scheduled Commercial Banks (excluding Regional Rural Banks) were originally required to adopt Ind AS from 1 April 2018. RBI deferred this to 1 April 2019 via press release dated 5 April 2018, and subsequently postponed implementation indefinitely through notification dated 22 March 2019, pending necessary legislative amendments to the Banking Regulation Act. For Insurance companies, IRDAI was to notify a separate set of Ind AS effective 1 April 2018 but implementation has been deferred pending IFRS 17 (Insurance Contracts) convergence. Both sectors continue with their respective regulator-prescribed accounting frameworks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a company revert to old Accounting Standards after adopting Ind AS?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Rule 4(2) of the Companies (Indian Accounting Standards) Rules, 2015 categorically states that once a company starts following Ind AS — either mandatorily or voluntarily — it must continue to follow Ind AS for all subsequent financial years. There is no provision for reversal even if the company's net worth subsequently falls below the threshold or it delists from a stock exchange. This 'once Ind AS, always Ind AS' principle ensures continuity and comparability of financial reporting and prevents opportunistic switching between frameworks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What changed under the Companies (Ind AS) Amendment Rules, 2025?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Two amendment notifications were issued in 2025 — none changed the applicability roadmap. The first (G.S.R. 291(E) dated 7 May 2025) amended Ind AS 21 with guidance on currency exchangeability and exchange rate estimation. The second (G.S.R. 549(E) dated 13 August 2025) introduced changes across Ind AS 1 (current/non-current liability classification with covenants), Ind AS 7 and 107 (supplier finance disclosures), Ind AS 12 (OECD Pillar Two minimum tax exception), and technical updates to Ind AS 10, 28, 32, 101, 108, 109, 115, 116. Most provisions are effective from FY beginning 1 April 2025; some covenant-related amendments apply from 1 April 2026."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many Indian Accounting Standards are currently in force?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "As of FY 2025-26, 39 Ind AS are in force. Originally 41 Ind AS were notified in February 2015. Two were superseded: Ind AS 11 (Construction Contracts) and Ind AS 18 (Revenue) were replaced by Ind AS 115 (Revenue from Contracts with Customers) effective 1 April 2018. Ind AS 17 (Leases) was replaced by Ind AS 116 (Leases) effective 1 April 2019. Ind AS standards are numbered following IFRS numbering — for example, Ind AS 109 corresponds to IFRS 9 (Financial Instruments). The list spans presentation, accounting policies, revenue, leases, financial instruments, business combinations, employee benefits, and disclosures."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if my company crosses the net worth threshold mid-year?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Net worth is tested as at the end of each financial year based on the audited standalone balance sheet. If the threshold of ₹250 crore (or ₹500 crore for Phase I) is first crossed in FY 2025-26, Ind AS becomes mandatory from FY 2026-27 onwards. The company must prepare comparative financial statements for FY 2025-26 also under Ind AS for the first Ind AS financial statements. Transition date is 1 April 2025 in this example. Once applicable, the company cannot revert even if net worth subsequently falls below the threshold."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are foreign branches of Indian companies required to apply Ind AS?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Foreign operations of an Indian company — whether branches, subsidiaries, JVs or associates — may continue using their jurisdictional GAAP for standalone financial statements. They are not required to prepare separate Ind AS standalone financials. However, for the Indian parent's consolidated financial statements (CFS), these entities must report Ind AS-adjusted figures. This is per the Rule 4(1) proviso. Conversely, a branch of a foreign company in India is treated as an extension of the foreign parent and Ind AS does not apply to such branch standalone reporting in India."
+          }
+        }
+      ]
+    }
+    </script>
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation">
     <div class="toc-nav-inner">

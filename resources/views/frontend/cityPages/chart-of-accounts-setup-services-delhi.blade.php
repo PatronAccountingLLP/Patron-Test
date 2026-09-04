@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,208 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>Chart of Accounts Setup in Delhi 2026 | Patron Accounting</title>
-    <meta name="description" content="Chart of accounts setup in Delhi from INR 4,999 one-time. CA-led ledger grouping per Schedule III, GST ledgers, and cost centres in Tally, Zoho, QuickBooks.">
-    <link rel="canonical" href="/chart-of-accounts-setup-services/delhi">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Chart of Accounts Setup in Delhi 2026 | Patron Accounting">
-    <meta property="og:description" content="Chart of accounts setup in Delhi from INR 4,999 one-time. CA-led ledger grouping per Schedule III, GST ledgers, and cost centres in Tally, Zoho, QuickBooks.">
-    <meta property="og:url" content="/chart-of-accounts-setup-services/delhi">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Chart of Accounts Setup in Delhi 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Chart of accounts setup in Delhi from INR 4,999 one-time. CA-led ledger grouping per Schedule III, GST ledgers, and cost centres in Tally, Zoho, QuickBooks.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/chart-of-accounts-setup-services/delhi#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Chart of Accounts Setup Services",
-          "item": "https://www.patronaccounting.com/chart-of-accounts-setup-services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Chart of Accounts Setup Services in Delhi",
-          "item": "https://www.patronaccounting.com/chart-of-accounts-setup-services/delhi"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/chart-of-accounts-setup-services/delhi#faq",
-      "datePublished": "2026-06-23T08:00:00+05:30",
-      "dateModified": "2026-06-23T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is a chart of accounts setup for a Delhi business?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A chart of accounts setup is the one-time design of your ledger structure so every transaction posts to the right head. For Delhi businesses it covers account grouping under Schedule III of the Companies Act 2013, GST input and output ledgers, cost centres, and opening balances inside Tally, Zoho Books, or QuickBooks."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does chart of accounts setup cost in Delhi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patron Accounting charges Starting from INR 4,999 (one-time, Exl GST and Govt. Charges). The final fee depends on the number of ledgers, GST registrations, cost centres, and whether opening balances must be migrated from a prior system. Nehru Place IT firms and Okhla manufacturers receive a fixed scope quote before work begins."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is chart of accounts setup a one-time or recurring service?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "It is a one-time design and configuration task, not a monthly subscription. Once Patron builds the account groups, GST ledgers, cost centres, and opening balances, the structure is yours to use. We do offer separate ongoing accounting and GST return services in Delhi if you need monthly support afterwards."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does chart of accounts setup take in Delhi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Most setups take 3 to 7 working days. A new Connaught Place trading entity with a single GSTIN is usually ready in 3 to 4 days. A multi-branch Okhla or Mayapuri manufacturer with cost centres, multiple registrations, and opening balance migration may take up to 7 working days, depending on data quality."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which GST ledgers are created during setup in Delhi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patron creates output and input ledgers for CGST, SGST, and IGST, plus reverse charge (RCM) ledgers, GST payable and credit ledgers, and an electronic cash and credit ledger structure. These align with the CGST Act 2017 and your GSTIN so returns and 2B reconciliation flow cleanly for your Delhi business."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which documents are needed for chart of accounts setup in Delhi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "You provide your PAN, GSTIN, TAN, certificate of incorporation or registration, a trial balance or last filed financials for opening balances, and a list of your branches, products, and cost centres. Patron uses these to build a Schedule III compliant structure with correct GST and tax ledgers."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you set up the chart of accounts in Tally, Zoho Books, and QuickBooks for Delhi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Patron configures the chart of accounts directly inside Tally, Zoho Books, or QuickBooks, whichever your Delhi business uses. We create the groups, ledgers, cost centres, and dimensions, migrate opening balances, and verify the trial balance so ongoing bookkeeping starts on a clean, structured base."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can you restructure a messy existing chart of accounts in Delhi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Many Delhi firms come to us with duplicate, misgrouped, or unused ledgers. Patron reviews the existing structure, maps it to Schedule III groupings, merges and renames ledgers, fixes GST classifications, and carries balances forward so reporting becomes accurate without losing transaction history."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/chart-of-accounts-setup-services/delhi#service",
-      "name": "Chart of Accounts Setup Services in Delhi",
-      "description": "One-time chart of accounts setup in Delhi covering ledger grouping under Schedule III of the Companies Act 2013, GST input and output ledgers, cost centres, dimensions, and opening balance migration in Tally, Zoho Books, or QuickBooks. Patron Accounting builds audit-ready account structures for Nehru Place, Okhla, and Connaught Place businesses.",
-      "serviceType": "Chart of Accounts Setup and Ledger Structuring",
-      "url": "https://www.patronaccounting.com/chart-of-accounts-setup-services/delhi",
-      "areaServed": {
-        "@type": "City",
-        "name": "Delhi",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Delhi"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#localbusiness-delhi"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Chart of accounts",
-          "sameAs": "https://en.wikipedia.org/wiki/Chart_of_accounts"
-        },
-        {
-          "@type": "Thing",
-          "name": "Goods and Services Tax (India)",
-          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Chart of Accounts Setup Plans in Delhi",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "price": "4999",
-            "priceSpecification": {
-              "@type": "UnitPriceSpecification",
-              "priceCurrency": "INR",
-              "price": "4999",
-              "unitText": "one-time"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "One-Time Chart of Accounts Setup"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness-delhi",
-      "name": "Patron Accounting LLP - Delhi",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/chart-of-accounts-setup-services/delhi",
-      "telephone": "+91-9699936369",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Delhi"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Delhi",
-        "addressRegion": "Delhi",
-        "postalCode": "110085",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -830,7 +627,217 @@
         .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
 
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>Chart of Accounts Setup in Delhi 2026 | Patron Accounting</title>
+    <meta name="description" content="Chart of accounts setup in Delhi from INR 4,999 one-time. CA-led ledger grouping per Schedule III, GST ledgers, and cost centres in Tally, Zoho, QuickBooks.">
+    <link rel="canonical" href="/chart-of-accounts-setup-services/delhi">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Chart of Accounts Setup in Delhi 2026 | Patron Accounting">
+    <meta property="og:description" content="Chart of accounts setup in Delhi from INR 4,999 one-time. CA-led ledger grouping per Schedule III, GST ledgers, and cost centres in Tally, Zoho, QuickBooks.">
+    <meta property="og:url" content="/chart-of-accounts-setup-services/delhi">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Chart of Accounts Setup in Delhi 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Chart of accounts setup in Delhi from INR 4,999 one-time. CA-led ledger grouping per Schedule III, GST ledgers, and cost centres in Tally, Zoho, QuickBooks.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/chart-of-accounts-setup-services/delhi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Chart of Accounts Setup Services",
+          "item": "https://www.patronaccounting.com/chart-of-accounts-setup-services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Chart of Accounts Setup Services in Delhi",
+          "item": "https://www.patronaccounting.com/chart-of-accounts-setup-services/delhi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/chart-of-accounts-setup-services/delhi#faq",
+      "datePublished": "2026-06-23T08:00:00+05:30",
+      "dateModified": "2026-06-23T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a chart of accounts setup for a Delhi business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A chart of accounts setup is the one-time design of your ledger structure so every transaction posts to the right head. For Delhi businesses it covers account grouping under Schedule III of the Companies Act 2013, GST input and output ledgers, cost centres, and opening balances inside Tally, Zoho Books, or QuickBooks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does chart of accounts setup cost in Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patron Accounting charges Starting from INR 4,999 (one-time, Exl GST and Govt. Charges). The final fee depends on the number of ledgers, GST registrations, cost centres, and whether opening balances must be migrated from a prior system. Nehru Place IT firms and Okhla manufacturers receive a fixed scope quote before work begins."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is chart of accounts setup a one-time or recurring service?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is a one-time design and configuration task, not a monthly subscription. Once Patron builds the account groups, GST ledgers, cost centres, and opening balances, the structure is yours to use. We do offer separate ongoing accounting and GST return services in Delhi if you need monthly support afterwards."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does chart of accounts setup take in Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most setups take 3 to 7 working days. A new Connaught Place trading entity with a single GSTIN is usually ready in 3 to 4 days. A multi-branch Okhla or Mayapuri manufacturer with cost centres, multiple registrations, and opening balance migration may take up to 7 working days, depending on data quality."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which GST ledgers are created during setup in Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patron creates output and input ledgers for CGST, SGST, and IGST, plus reverse charge (RCM) ledgers, GST payable and credit ledgers, and an electronic cash and credit ledger structure. These align with the CGST Act 2017 and your GSTIN so returns and 2B reconciliation flow cleanly for your Delhi business."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which documents are needed for chart of accounts setup in Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You provide your PAN, GSTIN, TAN, certificate of incorporation or registration, a trial balance or last filed financials for opening balances, and a list of your branches, products, and cost centres. Patron uses these to build a Schedule III compliant structure with correct GST and tax ledgers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you set up the chart of accounts in Tally, Zoho Books, and QuickBooks for Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Patron configures the chart of accounts directly inside Tally, Zoho Books, or QuickBooks, whichever your Delhi business uses. We create the groups, ledgers, cost centres, and dimensions, migrate opening balances, and verify the trial balance so ongoing bookkeeping starts on a clean, structured base."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you restructure a messy existing chart of accounts in Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Many Delhi firms come to us with duplicate, misgrouped, or unused ledgers. Patron reviews the existing structure, maps it to Schedule III groupings, merges and renames ledgers, fixes GST classifications, and carries balances forward so reporting becomes accurate without losing transaction history."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/chart-of-accounts-setup-services/delhi#service",
+      "name": "Chart of Accounts Setup Services in Delhi",
+      "description": "One-time chart of accounts setup in Delhi covering ledger grouping under Schedule III of the Companies Act 2013, GST input and output ledgers, cost centres, dimensions, and opening balance migration in Tally, Zoho Books, or QuickBooks. Patron Accounting builds audit-ready account structures for Nehru Place, Okhla, and Connaught Place businesses.",
+      "serviceType": "Chart of Accounts Setup and Ledger Structuring",
+      "url": "https://www.patronaccounting.com/chart-of-accounts-setup-services/delhi",
+      "areaServed": {
+        "@type": "City",
+        "name": "Delhi",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Delhi"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#localbusiness-delhi"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Chart of accounts",
+          "sameAs": "https://en.wikipedia.org/wiki/Chart_of_accounts"
+        },
+        {
+          "@type": "Thing",
+          "name": "Goods and Services Tax (India)",
+          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Chart of Accounts Setup Plans in Delhi",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "price": "4999",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "INR",
+              "price": "4999",
+              "unitText": "one-time"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "One-Time Chart of Accounts Setup"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness-delhi",
+      "name": "Patron Accounting LLP - Delhi",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/chart-of-accounts-setup-services/delhi",
+      "telephone": "+91-9699936369",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Delhi"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Delhi",
+        "addressRegion": "Delhi",
+        "postalCode": "110085",
+        "addressCountry": "IN"
+      },
+      "parentOrganization": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1581,7 +1588,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

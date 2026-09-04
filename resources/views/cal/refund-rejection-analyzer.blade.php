@@ -1,196 +1,8 @@
 @extends('layouts.app')
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
-@section('meta')
-    <title>GST Refund Rejection Analyzer | RFD-06 Remedy Tool</title>
-    <meta name="description" content="GST Refund Rejection Analyzer: a decision tree on your RFD-06 grounds covering appeal vs writ vs refile and the Section 107 pre-deposit. Free CA tool, instant.">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/refund-rejection-analyzer">
-    <meta property="og:title" content="GST Refund Rejection Analyzer — RFD-06 Remedy Tool">
-    <meta property="og:description" content="Decision-tree tool to analyze GST refund rejection grounds and identify the right remedy — refile, appeal under Section 107, or writ. Free CA tool.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/refund-rejection-analyzer">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="GST Refund Rejection Analyzer — RFD-06 Remedy Tool">
-    <meta name="twitter:description" content="Decision-tree on GST refund rejection grounds. Refile, appeal, or writ. Free CA tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-    <meta name="theme-color" content="#15365f">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "GST Refund Rejection Analyzer (RFD-06 Remedy Tool)",
-      "description": "GST Refund Rejection Analyzer is a decision-tree tool that analyzes the grounds on which a GST refund application has been rejected through Form GST RFD-06 and identifies the most appropriate remedy among four options: refile fresh application within remaining limitation, file first appeal in Form GST APL-01 under Section 107 of the CGST Act 2017 with 10 percent pre-deposit, escalate to the GST Appellate Tribunal under Section 112 with additional 20 percent pre-deposit, or pursue writ jurisdiction under Article 226 of the Constitution before the relevant High Court. The tool branches through 14 common rejection grounds: time-bar under Section 54(1), drawback or notification benefit availed under Rule 96(10), exported goods subject to export duty under Section 54(15) including the Finance Act No 2 of 2024 amendment, output supplies that are nil-rated or fully exempt blocking inverted duty refund, same goods at different rates per Circular 135/05/2020-GST as amended by Circular 173/05/2022-GST, output goods or services in Notification 5/2017-Central Tax (Rate) excluded list, ITC mismatch and GSTR reconciliation discrepancies, documentation deficiency where Form GST RFD-03 was not cured, computational errors in Rule 89(4) or Rule 89(5) refund formula, wrong-category classification by the proper officer, unjust enrichment burden challenges, place of supply disputes, refunds below the one thousand rupee threshold under Rule 89(1), and LUT not being in place during the relevant export period. Each verdict provides sustainability assessment across four bands (sustained, curable, appealable, writ-friendly), specific remedy recommendation with limitation period and pre-deposit computation, applicable statutory sections, key case law including Jharkhand High Court 2025 ruling on pre-deposit vested right Reva Giant Implex Delhi High Court on portal glitches Ascent Meditech Supreme Court 2025 on curative amendment retrospectivity and VKC Footsteps Supreme Court 2021 on input services exclusion. Suitable for GST practitioners exporters with rejected refund claims service providers managing post-rejection strategy and CA firms advising clients on appeal versus refile decisions.",
-      "url": "https://www.patronaccounting.com/tools/refund-rejection-analyzer",
-      "applicationCategory": "FinanceApplication",
-      "operatingSystem": "Any",
-      "datePublished": "2026-05-08T08:00:00+05:30",
-      "dateModified": "2026-05-08T08:00:00+05:30",
-      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
-      "author": {
-        "@type": "Person",
-        "@id": "https://patronaccounting.com/#founder",
-        "name": "CA Sundram Gupta",
-        "jobTitle": "Founder & Chartered Accountant",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Institute of Chartered Accountants of India",
-            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-          }
-        }]
-      },
-      "publisher": { "@id": "https://patronaccounting.com/#organization" },
-      "provider": { "@id": "https://patronaccounting.com/#organization" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "GST Refund Rejection Analyzer", "item": "https://www.patronaccounting.com/tools/refund-rejection-analyzer"}
-      ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "datePublished": "2026-05-08T08:00:00+05:30",
-      "dateModified": "2026-05-08T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is Form GST RFD-06?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Form GST RFD-06 is the final Refund Sanction or Rejection Order issued by the proper officer after scrutinizing a refund application filed in Form GST RFD-01. The order specifies the amount sanctioned, the amount rejected, and reasons for rejection. RFD-06 is the operative document for any appeal or writ proceedings. It is preceded by an RFD-08 show-cause notice, to which the taxpayer must reply via RFD-09 within fifteen days before final order."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the time limit to appeal a refund rejection?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The first appeal under Section 107 of the CGST Act 2017 must be filed within three months from the date of communication of the rejection order in Form GST RFD-06. The Appellate Authority may condone delay up to one additional month if sufficient cause is shown. Beyond four months, appeals are usually not accepted. The appeal is filed in Form GST APL-01 on the GST Portal along with the grounds in Form GST APL-01A and required pre-deposit."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the pre-deposit for a refund appeal?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 107(6) requires a pre-deposit of 10 percent of the disputed tax, capped at twenty-five crore rupees per Finance Act 2024 (reduced from fifty crore). It is paid through the electronic cash or credit ledger before filing APL-01. For penalty-only disputes, 10 percent applies on the disputed penalty. For GSTAT escalation under Section 112, an additional 20 percent applies, capped at fifty crore rupees."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "When should I refile instead of appealing?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Refile when the rejection is due to a curable defect such as missing documents, wrong category selection, computation error, or GSTR reconciliation gaps. Refile is allowed if you are within the two-year limitation under Section 54(1) and the deficiency memo Rule 90(3) protection preserves your original filing date. Refile is faster, cheaper, and avoids litigation. Appeal when rejection is on substantive grounds disputing eligibility — drawback bar, export duty, IDS exclusions, time-bar interpretation, or the officer applies wrong law."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "When is a writ petition appropriate?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Writ jurisdiction under Article 226 is appropriate where the alternative appeal remedy is inadequate, ineffective, or where there is a violation of natural justice or fundamental rights. Common writ-friendly grounds include GST Portal technical glitches per Reva Giant Implex Delhi HC, jurisdictional errors, departmental reliance on outside material not mentioned in the SCN per Patna HC, deficiency-memo rejection applying wrong limitation per Jharkhand HC 2025, and Article 14 violations."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I refile if the deficiency memo (RFD-03) was issued?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. When Form GST RFD-03 deficiency memo is issued within fifteen days of the original filing, the original RFD-01 application is treated as not filed under Rule 90(3). The taxpayer must refile a fresh RFD-01 after curing deficiencies. Importantly, the second proviso to Section 54(1) preserves the original filing date for limitation purposes — the period from filing to deficiency communication is excluded from the two-year limitation. This protects taxpayers from time-bar where deficiency memo is delayed."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the Reva Giant Implex ruling?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Reva Giant Implex LLP vs Union of India was decided by the Delhi High Court setting aside a refund appeal rejection that arose from GST Portal technical glitches. The court held that where the petitioner submitted required digital data online but the system did not process it correctly, the rejection cannot stand. The judgment is widely cited to challenge rejections caused by GSTN technical issues that are demonstrably system-side rather than taxpayer-side."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do I appeal if my refund was rejected partially?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "When RFD-06 sanctions part of the refund and rejects part, you can appeal only the rejected portion. The pre-deposit is computed on the disputed amount only — not the full original claim. File APL-01 specifying the rejected amount as disputed tax and pay 10 percent pre-deposit on that. The sanctioned portion is processed through RFD-05 payment advice separately. Notification 11/2025 also allows partial appeal withdrawal."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is pre-deposit refundable on success?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. The pre-deposit paid under Section 107(6) is refundable on favourable disposal of the appeal. Section 115 provides for automatic refund with interest at 6 percent per annum from the date of payment. Recent Jharkhand High Court ruling in 2025 held the pre-deposit refund is a vested right that cannot be subjected to Section 54 two-year limitation since pre-deposit is not tax but a statutory deposit. Practitioners should preserve pre-deposit challan and file refund as a routine step post-appellate success."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I file appeal without paying pre-deposit?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 107(6) mandates pre-deposit and the GST Portal will not accept APL-01 without it. Some High Courts have permitted appeal filing without pre-deposit in extreme financial-hardship cases or where the underlying demand is patently illegal — but these are exceptional. The standard rule is no pre-deposit equals no appeal. For very large disputed amounts where the 10 percent is unaffordable, practitioners sometimes pursue parallel writ petition challenging the rejection directly under Article 226 to avoid the pre-deposit requirement."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What if rejection is due to ITC mismatch with GSTR-2B?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "ITC mismatch rejections are typically curable rather than appealable. The recommended approach is to identify the specific invoices causing mismatch, coordinate with suppliers to file correctly in their GSTR-1, wait for the correction to flow to GSTR-2B, and refile RFD-01 once reconciled. CBIC Circular 183/15/2022-GST and subsequent clarifications protect bona fide taxpayers from supplier defaults — these may be cited in appeal where supplier cannot be brought into compliance. Maintain reconciliation working as primary evidence."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does the Ascent Meditech ruling help old refund claims?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. The Supreme Court in Ascent Meditech Ltd (2025) held that the amendment to Rule 89(5) under Notification 14/2022 — which proportionately accounts for input-services ITC in payment of output tax — is curative and applies retrospectively. This benefits older inverted duty refund claims rejected using the pre-amendment formula. Practitioners with rejected IDS claims for periods before July 2022 should examine refile or appeal options."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What if I missed the 3-month appeal deadline?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The First Appellate Authority has limited power under Section 107(4) to condone delay up to one additional month if sufficient cause is shown — illness, unavoidable absence, or portal access issues. Beyond four months total, the appellate route is closed. The remaining option is writ jurisdiction under Article 226 alleging natural-justice breach, jurisdictional error, or Article 14 violation. High Courts are reluctant to entertain writs as substitute for time-barred appeals."
-          }
-        }
-      ]
-    }
-    </script>
-@endsection
-
 <style>
         :root {
             --primary: #15365f;
@@ -444,7 +256,195 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 }
 
 </style>
+@endpush
 
+@section('meta')
+    <title>GST Refund Rejection Analyzer | RFD-06 Remedy Tool</title>
+    <meta name="description" content="GST Refund Rejection Analyzer: a decision tree on your RFD-06 grounds covering appeal vs writ vs refile and the Section 107 pre-deposit. Free CA tool, instant.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/refund-rejection-analyzer">
+    <meta property="og:title" content="GST Refund Rejection Analyzer — RFD-06 Remedy Tool">
+    <meta property="og:description" content="Decision-tree tool to analyze GST refund rejection grounds and identify the right remedy — refile, appeal under Section 107, or writ. Free CA tool.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/refund-rejection-analyzer">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GST Refund Rejection Analyzer — RFD-06 Remedy Tool">
+    <meta name="twitter:description" content="Decision-tree on GST refund rejection grounds. Refile, appeal, or writ. Free CA tool.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+    <meta name="theme-color" content="#15365f">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "GST Refund Rejection Analyzer (RFD-06 Remedy Tool)",
+      "description": "GST Refund Rejection Analyzer is a decision-tree tool that analyzes the grounds on which a GST refund application has been rejected through Form GST RFD-06 and identifies the most appropriate remedy among four options: refile fresh application within remaining limitation, file first appeal in Form GST APL-01 under Section 107 of the CGST Act 2017 with 10 percent pre-deposit, escalate to the GST Appellate Tribunal under Section 112 with additional 20 percent pre-deposit, or pursue writ jurisdiction under Article 226 of the Constitution before the relevant High Court. The tool branches through 14 common rejection grounds: time-bar under Section 54(1), drawback or notification benefit availed under Rule 96(10), exported goods subject to export duty under Section 54(15) including the Finance Act No 2 of 2024 amendment, output supplies that are nil-rated or fully exempt blocking inverted duty refund, same goods at different rates per Circular 135/05/2020-GST as amended by Circular 173/05/2022-GST, output goods or services in Notification 5/2017-Central Tax (Rate) excluded list, ITC mismatch and GSTR reconciliation discrepancies, documentation deficiency where Form GST RFD-03 was not cured, computational errors in Rule 89(4) or Rule 89(5) refund formula, wrong-category classification by the proper officer, unjust enrichment burden challenges, place of supply disputes, refunds below the one thousand rupee threshold under Rule 89(1), and LUT not being in place during the relevant export period. Each verdict provides sustainability assessment across four bands (sustained, curable, appealable, writ-friendly), specific remedy recommendation with limitation period and pre-deposit computation, applicable statutory sections, key case law including Jharkhand High Court 2025 ruling on pre-deposit vested right Reva Giant Implex Delhi High Court on portal glitches Ascent Meditech Supreme Court 2025 on curative amendment retrospectivity and VKC Footsteps Supreme Court 2021 on input services exclusion. Suitable for GST practitioners exporters with rejected refund claims service providers managing post-rejection strategy and CA firms advising clients on appeal versus refile decisions.",
+      "url": "https://www.patronaccounting.com/tools/refund-rejection-analyzer",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Any",
+      "datePublished": "2026-05-08T08:00:00+05:30",
+      "dateModified": "2026-05-08T08:00:00+05:30",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
+      "author": {
+        "@type": "Person",
+        "@id": "https://patronaccounting.com/#founder",
+        "name": "CA Sundram Gupta",
+        "jobTitle": "Founder & Chartered Accountant",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Institute of Chartered Accountants of India",
+            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+          }
+        }]
+      },
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": { "@id": "https://patronaccounting.com/#organization" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "GST Refund Rejection Analyzer", "item": "https://www.patronaccounting.com/tools/refund-rejection-analyzer"}
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "datePublished": "2026-05-08T08:00:00+05:30",
+      "dateModified": "2026-05-08T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Form GST RFD-06?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Form GST RFD-06 is the final Refund Sanction or Rejection Order issued by the proper officer after scrutinizing a refund application filed in Form GST RFD-01. The order specifies the amount sanctioned, the amount rejected, and reasons for rejection. RFD-06 is the operative document for any appeal or writ proceedings. It is preceded by an RFD-08 show-cause notice, to which the taxpayer must reply via RFD-09 within fifteen days before final order."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the time limit to appeal a refund rejection?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The first appeal under Section 107 of the CGST Act 2017 must be filed within three months from the date of communication of the rejection order in Form GST RFD-06. The Appellate Authority may condone delay up to one additional month if sufficient cause is shown. Beyond four months, appeals are usually not accepted. The appeal is filed in Form GST APL-01 on the GST Portal along with the grounds in Form GST APL-01A and required pre-deposit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the pre-deposit for a refund appeal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 107(6) requires a pre-deposit of 10 percent of the disputed tax, capped at twenty-five crore rupees per Finance Act 2024 (reduced from fifty crore). It is paid through the electronic cash or credit ledger before filing APL-01. For penalty-only disputes, 10 percent applies on the disputed penalty. For GSTAT escalation under Section 112, an additional 20 percent applies, capped at fifty crore rupees."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When should I refile instead of appealing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Refile when the rejection is due to a curable defect such as missing documents, wrong category selection, computation error, or GSTR reconciliation gaps. Refile is allowed if you are within the two-year limitation under Section 54(1) and the deficiency memo Rule 90(3) protection preserves your original filing date. Refile is faster, cheaper, and avoids litigation. Appeal when rejection is on substantive grounds disputing eligibility — drawback bar, export duty, IDS exclusions, time-bar interpretation, or the officer applies wrong law."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is a writ petition appropriate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Writ jurisdiction under Article 226 is appropriate where the alternative appeal remedy is inadequate, ineffective, or where there is a violation of natural justice or fundamental rights. Common writ-friendly grounds include GST Portal technical glitches per Reva Giant Implex Delhi HC, jurisdictional errors, departmental reliance on outside material not mentioned in the SCN per Patna HC, deficiency-memo rejection applying wrong limitation per Jharkhand HC 2025, and Article 14 violations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I refile if the deficiency memo (RFD-03) was issued?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. When Form GST RFD-03 deficiency memo is issued within fifteen days of the original filing, the original RFD-01 application is treated as not filed under Rule 90(3). The taxpayer must refile a fresh RFD-01 after curing deficiencies. Importantly, the second proviso to Section 54(1) preserves the original filing date for limitation purposes — the period from filing to deficiency communication is excluded from the two-year limitation. This protects taxpayers from time-bar where deficiency memo is delayed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the Reva Giant Implex ruling?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reva Giant Implex LLP vs Union of India was decided by the Delhi High Court setting aside a refund appeal rejection that arose from GST Portal technical glitches. The court held that where the petitioner submitted required digital data online but the system did not process it correctly, the rejection cannot stand. The judgment is widely cited to challenge rejections caused by GSTN technical issues that are demonstrably system-side rather than taxpayer-side."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I appeal if my refund was rejected partially?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "When RFD-06 sanctions part of the refund and rejects part, you can appeal only the rejected portion. The pre-deposit is computed on the disputed amount only — not the full original claim. File APL-01 specifying the rejected amount as disputed tax and pay 10 percent pre-deposit on that. The sanctioned portion is processed through RFD-05 payment advice separately. Notification 11/2025 also allows partial appeal withdrawal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is pre-deposit refundable on success?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The pre-deposit paid under Section 107(6) is refundable on favourable disposal of the appeal. Section 115 provides for automatic refund with interest at 6 percent per annum from the date of payment. Recent Jharkhand High Court ruling in 2025 held the pre-deposit refund is a vested right that cannot be subjected to Section 54 two-year limitation since pre-deposit is not tax but a statutory deposit. Practitioners should preserve pre-deposit challan and file refund as a routine step post-appellate success."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I file appeal without paying pre-deposit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 107(6) mandates pre-deposit and the GST Portal will not accept APL-01 without it. Some High Courts have permitted appeal filing without pre-deposit in extreme financial-hardship cases or where the underlying demand is patently illegal — but these are exceptional. The standard rule is no pre-deposit equals no appeal. For very large disputed amounts where the 10 percent is unaffordable, practitioners sometimes pursue parallel writ petition challenging the rejection directly under Article 226 to avoid the pre-deposit requirement."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if rejection is due to ITC mismatch with GSTR-2B?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ITC mismatch rejections are typically curable rather than appealable. The recommended approach is to identify the specific invoices causing mismatch, coordinate with suppliers to file correctly in their GSTR-1, wait for the correction to flow to GSTR-2B, and refile RFD-01 once reconciled. CBIC Circular 183/15/2022-GST and subsequent clarifications protect bona fide taxpayers from supplier defaults — these may be cited in appeal where supplier cannot be brought into compliance. Maintain reconciliation working as primary evidence."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does the Ascent Meditech ruling help old refund claims?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The Supreme Court in Ascent Meditech Ltd (2025) held that the amendment to Rule 89(5) under Notification 14/2022 — which proportionately accounts for input-services ITC in payment of output tax — is curative and applies retrospectively. This benefits older inverted duty refund claims rejected using the pre-amendment formula. Practitioners with rejected IDS claims for periods before July 2022 should examine refile or appeal options."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if I missed the 3-month appeal deadline?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The First Appellate Authority has limited power under Section 107(4) to condone delay up to one additional month if sufficient cause is shown — illness, unavoidable absence, or portal access issues. Beyond four months total, the appellate route is closed. The remaining option is writ jurisdiction under Article 226 alleging natural-justice breach, jurisdictional error, or Article 14 violation. High Courts are reluctant to entertain writs as substitute for time-barred appeals."
+          }
+        }
+      ]
+    }
+    </script>
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Tool navigation">
     <div class="toc-nav-inner">

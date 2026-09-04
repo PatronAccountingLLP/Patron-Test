@@ -1,215 +1,5 @@
 @extends('layouts.app')
-@section('meta')
-    <title>HSN Code Finder | Search HSN &amp; SAC Codes with GST</title>
-    <meta name="description" content="HSN code finder searches 5,000+ HSN and SAC codes with their GST rates for goods and services under India's GST regime. Find 4, 6 or 8-digit codes free!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/hsn-sac-code-finder">
-    <meta property="og:title" content="HSN Code Finder India &mdash; Free HSN & SAC Code Search 2026">
-    <meta property="og:description" content="HSN Code Finder searches 5,000+ HSN and SAC codes with GST rates for goods and services under India's GST regime. Find 4, 6, or 8-digit codes free!">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/hsn-sac-code-finder">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="HSN Code Finder India &mdash; Free HSN & SAC Code Search 2026">
-    <meta name="twitter:description" content="HSN Code Finder searches 5,000+ HSN and SAC codes with GST rates for goods and services. Find 4, 6, or 8-digit codes free!">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-<script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebApplication",
-      "name": "HSN SAC Code Finder India",
-      "description": "HSN Code Finder searches over 5,000 HSN codes for goods and SAC codes for services along with applicable GST rates under India's Goods and Services Tax regime. Supports 2-digit, 4-digit, 6-digit, and 8-digit code lookups by code number or product description.",
-      "url": "https://www.patronaccounting.com/tools/hsn-sac-code-finder",
-      "applicationCategory": "UtilityApplication",
-      "operatingSystem": "Any",
-      "datePublished": "2026-03-05",
-      "dateModified": "2026-03-05",
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "INR"
-      },
-      "author": {
-        "@type": "Person",
-        "@id": "https://patronaccounting.com/#team",
-        "name": "CA & CS Patron Accounting Team",
-        "jobTitle": "Chartered Accountants & Company Secretaries",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/company/patron-accounting"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Institute of Chartered Accountants of India",
-            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-          }
-        }]
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://www.patronaccounting.com/images/site-logo.svg"
-        }
-      },
-      "provider": {
-        "@id": "https://patronaccounting.com/#organization"
-      }
-    }
-    </script>
-<script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Free Tools",
-          "item": "https://www.patronaccounting.com/tools/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "HSN SAC Code Finder",
-          "item": "https://www.patronaccounting.com/tools/hsn-sac-code-finder"
-        }
-      ]
-    }
-    </script>
-<script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is an HSN code and why is it mandatory under GST in India?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "HSN stands for Harmonized System of Nomenclature, an internationally standardized system developed by the World Customs Organization to classify goods. Under India's GST regime, HSN codes are mandatory on tax invoices and GST returns per CGST Notification 78/2020. The number of digits required depends on your annual turnover \u2014 4-digit codes for turnover up to \u20B95 crore and 6-digit codes above \u20B95 crore."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is a SAC code and how is it different from an HSN code?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "SAC stands for Service Accounting Code, used to classify services under GST. While HSN codes apply to goods, SAC codes apply exclusively to services. SAC codes always start with '99' and are 6 digits long. For example, 998311 represents management consulting services. Both codes determine the applicable GST rate and must be mentioned on invoices and in GSTR-1 returns."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How many digits of HSN code do I need to mention on my GST invoice?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The number of HSN digits required depends on your annual aggregate turnover from the previous financial year. Businesses with turnover up to \u20B95 crore must mention 4-digit HSN codes on B2B invoices (optional for B2C). Businesses above \u20B95 crore must use 6-digit HSN codes on all invoices. For imports and exports, 8-digit codes are always compulsory as per international trade standards."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens if I use the wrong HSN or SAC code on my invoice?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Using an incorrect HSN or SAC code can result in wrong GST rate application, rejection of Input Tax Credit claims by the recipient, penalties under Section 122 of the CGST Act, and issues during GST audits or assessments. Misclassification may also trigger demand notices from tax authorities. Always verify codes against the official CBIC rate schedules before use."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Where can I find the official HSN code for my product?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "You can find official HSN codes through multiple sources: the GST Portal's Search HSN tool at services.gst.gov.in, CBIC's official rate schedule notifications, the Customs Tariff Act schedules, and the World Customs Organization's HS nomenclature database. Our free HSN Code Finder tool above searches by product name or code number to help you quickly identify the correct classification."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is HSN code mandatory for composition scheme dealers under GST?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, composition scheme dealers must also mention HSN codes on their invoices as per the mandatory requirements introduced from April 2021 via CGST Notification 78/2020. However, composition dealers issue a Bill of Supply instead of a tax invoice since they cannot charge GST separately. They must still declare HSN-wise summary in their quarterly CMP-08 return."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is the HSN code structured and what do the digits mean?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "HSN codes follow a hierarchical structure. The first 2 digits represent the Chapter number covering broad product categories. The next 2 digits form the Heading for more specific groups. Digits 5-6 are the Subheading for detailed classification. In India, digits 7-8 form the national tariff item for the most granular classification. For example, code 61091000 breaks down as Chapter 61 (knitted apparel), Heading 09 (T-shirts), Subheading 10 (cotton), Tariff 00."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the structure of a SAC code for services under GST?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "SAC codes are 6-digit numeric codes where the first two digits are always '99', indicating a service. The next two digits represent the major service category or nature of service. The last two digits provide the detailed service classification. For instance, SAC 995411 means Chapter 99 (services), Group 54 (construction services), Service 11 (residential building construction). The CBIC notification annexures list all valid SAC codes."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do I need an 8-digit HSN code for export invoices from India?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, 8-digit HSN codes are compulsory for all import and export transactions regardless of business turnover. This requirement ensures compatibility with the international Harmonized System used by over 200 countries. The 8-digit code corresponds to the Indian Customs Tariff classification and must match the codes declared in the Shipping Bill or Bill of Entry filed with customs authorities."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can the same product have different GST rates under different HSN codes?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, similar products can attract different GST rates depending on their specific HSN classification. For example, footwear below \u20B91,000 per pair falls under 5% GST, while footwear above \u20B91,000 attracts 18% GST under a different sub-heading. Similarly, processed foods may have different rates based on branding, packaging, or ingredient composition. Accurate classification at the sub-heading level is therefore essential."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do I report HSN-wise summary in GSTR-1 return?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "GSTR-1 requires an HSN-wise summary of outward supplies in Table 12. You must consolidate all invoices by HSN code and report the total taxable value, total IGST, CGST, SGST, and cess for each code. Businesses with turnover up to \u20B95 crore report at 4-digit level and those above \u20B95 crore at 6-digit level. The GST portal auto-populates some data from e-invoices if applicable."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between HSN code and ITC-HS code used in customs?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "ITC-HS stands for Indian Trade Classification based on the Harmonized System. It is the 8-digit code used by Indian Customs for import-export classification under the Customs Tariff Act, 1975. The first 6 digits of ITC-HS match the international HS code, while the last 2 digits are India-specific. For GST purposes, HSN codes align with ITC-HS codes, so the same classification applies for both domestic taxation and customs."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Are there any goods or services exempt from HSN/SAC code requirements?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No goods or services supplied by registered taxpayers are exempt from HSN/SAC code requirements since April 2021. Even nil-rated and exempt supplies must be classified with the correct HSN or SAC code. However, taxpayers with turnover below \u20B91.5 crore are not required to mention HSN codes on B2C invoices, though it is recommended for accuracy. B2B invoices require HSN codes regardless of turnover."
-          }
-        }
-      ]
-    }
-    </script>
-@endsection
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+@push('styles')
 <style>
         :root {
             --primary: #1B4D3E;
@@ -908,6 +698,219 @@
 .toggle-btn{font-size:13px;padding:10px 12px}
 }
 </style>
+@endpush
+
+@section('meta')
+    <title>HSN Code Finder | Search HSN &amp; SAC Codes with GST</title>
+    <meta name="description" content="HSN code finder searches 5,000+ HSN and SAC codes with their GST rates for goods and services under India's GST regime. Find 4, 6 or 8-digit codes free!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/hsn-sac-code-finder">
+    <meta property="og:title" content="HSN Code Finder India &mdash; Free HSN & SAC Code Search 2026">
+    <meta property="og:description" content="HSN Code Finder searches 5,000+ HSN and SAC codes with GST rates for goods and services under India's GST regime. Find 4, 6, or 8-digit codes free!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/hsn-sac-code-finder">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="HSN Code Finder India &mdash; Free HSN & SAC Code Search 2026">
+    <meta name="twitter:description" content="HSN Code Finder searches 5,000+ HSN and SAC codes with GST rates for goods and services. Find 4, 6, or 8-digit codes free!">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+@endsection
+
+@section('schema')
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "HSN SAC Code Finder India",
+      "description": "HSN Code Finder searches over 5,000 HSN codes for goods and SAC codes for services along with applicable GST rates under India's Goods and Services Tax regime. Supports 2-digit, 4-digit, 6-digit, and 8-digit code lookups by code number or product description.",
+      "url": "https://www.patronaccounting.com/tools/hsn-sac-code-finder",
+      "applicationCategory": "UtilityApplication",
+      "operatingSystem": "Any",
+      "datePublished": "2026-03-05",
+      "dateModified": "2026-03-05",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "INR"
+      },
+      "author": {
+        "@type": "Person",
+        "@id": "https://patronaccounting.com/#team",
+        "name": "CA & CS Patron Accounting Team",
+        "jobTitle": "Chartered Accountants & Company Secretaries",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/company/patron-accounting"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Institute of Chartered Accountants of India",
+            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+          }
+        }]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.patronaccounting.com/images/site-logo.svg"
+        }
+      },
+      "provider": {
+        "@id": "https://patronaccounting.com/#organization"
+      }
+    }
+    </script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Free Tools",
+          "item": "https://www.patronaccounting.com/tools/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "HSN SAC Code Finder",
+          "item": "https://www.patronaccounting.com/tools/hsn-sac-code-finder"
+        }
+      ]
+    }
+    </script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is an HSN code and why is it mandatory under GST in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "HSN stands for Harmonized System of Nomenclature, an internationally standardized system developed by the World Customs Organization to classify goods. Under India's GST regime, HSN codes are mandatory on tax invoices and GST returns per CGST Notification 78/2020. The number of digits required depends on your annual turnover \u2014 4-digit codes for turnover up to \u20B95 crore and 6-digit codes above \u20B95 crore."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a SAC code and how is it different from an HSN code?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SAC stands for Service Accounting Code, used to classify services under GST. While HSN codes apply to goods, SAC codes apply exclusively to services. SAC codes always start with '99' and are 6 digits long. For example, 998311 represents management consulting services. Both codes determine the applicable GST rate and must be mentioned on invoices and in GSTR-1 returns."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many digits of HSN code do I need to mention on my GST invoice?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The number of HSN digits required depends on your annual aggregate turnover from the previous financial year. Businesses with turnover up to \u20B95 crore must mention 4-digit HSN codes on B2B invoices (optional for B2C). Businesses above \u20B95 crore must use 6-digit HSN codes on all invoices. For imports and exports, 8-digit codes are always compulsory as per international trade standards."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if I use the wrong HSN or SAC code on my invoice?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Using an incorrect HSN or SAC code can result in wrong GST rate application, rejection of Input Tax Credit claims by the recipient, penalties under Section 122 of the CGST Act, and issues during GST audits or assessments. Misclassification may also trigger demand notices from tax authorities. Always verify codes against the official CBIC rate schedules before use."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where can I find the official HSN code for my product?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can find official HSN codes through multiple sources: the GST Portal's Search HSN tool at services.gst.gov.in, CBIC's official rate schedule notifications, the Customs Tariff Act schedules, and the World Customs Organization's HS nomenclature database. Our free HSN Code Finder tool above searches by product name or code number to help you quickly identify the correct classification."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is HSN code mandatory for composition scheme dealers under GST?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, composition scheme dealers must also mention HSN codes on their invoices as per the mandatory requirements introduced from April 2021 via CGST Notification 78/2020. However, composition dealers issue a Bill of Supply instead of a tax invoice since they cannot charge GST separately. They must still declare HSN-wise summary in their quarterly CMP-08 return."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the HSN code structured and what do the digits mean?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "HSN codes follow a hierarchical structure. The first 2 digits represent the Chapter number covering broad product categories. The next 2 digits form the Heading for more specific groups. Digits 5-6 are the Subheading for detailed classification. In India, digits 7-8 form the national tariff item for the most granular classification. For example, code 61091000 breaks down as Chapter 61 (knitted apparel), Heading 09 (T-shirts), Subheading 10 (cotton), Tariff 00."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the structure of a SAC code for services under GST?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SAC codes are 6-digit numeric codes where the first two digits are always '99', indicating a service. The next two digits represent the major service category or nature of service. The last two digits provide the detailed service classification. For instance, SAC 995411 means Chapter 99 (services), Group 54 (construction services), Service 11 (residential building construction). The CBIC notification annexures list all valid SAC codes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need an 8-digit HSN code for export invoices from India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, 8-digit HSN codes are compulsory for all import and export transactions regardless of business turnover. This requirement ensures compatibility with the international Harmonized System used by over 200 countries. The 8-digit code corresponds to the Indian Customs Tariff classification and must match the codes declared in the Shipping Bill or Bill of Entry filed with customs authorities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can the same product have different GST rates under different HSN codes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, similar products can attract different GST rates depending on their specific HSN classification. For example, footwear below \u20B91,000 per pair falls under 5% GST, while footwear above \u20B91,000 attracts 18% GST under a different sub-heading. Similarly, processed foods may have different rates based on branding, packaging, or ingredient composition. Accurate classification at the sub-heading level is therefore essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I report HSN-wise summary in GSTR-1 return?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "GSTR-1 requires an HSN-wise summary of outward supplies in Table 12. You must consolidate all invoices by HSN code and report the total taxable value, total IGST, CGST, SGST, and cess for each code. Businesses with turnover up to \u20B95 crore report at 4-digit level and those above \u20B95 crore at 6-digit level. The GST portal auto-populates some data from e-invoices if applicable."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between HSN code and ITC-HS code used in customs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ITC-HS stands for Indian Trade Classification based on the Harmonized System. It is the 8-digit code used by Indian Customs for import-export classification under the Customs Tariff Act, 1975. The first 6 digits of ITC-HS match the international HS code, while the last 2 digits are India-specific. For GST purposes, HSN codes align with ITC-HS codes, so the same classification applies for both domestic taxation and customs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are there any goods or services exempt from HSN/SAC code requirements?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No goods or services supplied by registered taxpayers are exempt from HSN/SAC code requirements since April 2021. Even nil-rated and exempt supplies must be classified with the correct HSN or SAC code. However, taxpayers with turnover below \u20B91.5 crore are not required to mention HSN codes on B2C invoices, though it is recommended for accuracy. B2B invoices require HSN codes regardless of turnover."
+          }
+        }
+      ]
+    }
+    </script>
+@endsection
 @section('content')
 <!-- Sticky TOC Nav -->
     <nav class="toc-nav" aria-label="Page Navigation">

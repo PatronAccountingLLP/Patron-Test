@@ -1,154 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>GSTR-1 Filing 2026: Outward Supplies | Patron Accounting</title>
-    <meta name="description" content="File GSTR-1 by 11th monthly or 13th quarterly under QRMP. Bundled with GSTR-3B in our Monthly GST Returns retainer from Rs 999/mo.">
-    <link rel="canonical" href="/gstr-1-filing">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="GSTR-1 Filing 2026: Outward Supplies | Patron Accounting">
-    <meta property="og:description" content="File GSTR-1 by 11th monthly or 13th quarterly under QRMP. Bundled with GSTR-3B in our Monthly GST Returns retainer from Rs 999/mo.">
-    <meta property="og:url" content="/gstr-1-filing">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="GSTR-1 Filing 2026: Outward Supplies | Patron Accounting">
-    <meta name="twitter:description" content="File GSTR-1 by 11th monthly or 13th quarterly under QRMP. Bundled with GSTR-3B in our Monthly GST Returns retainer from Rs 999/mo.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/gstr-1-filing/#service",
-        "name": "GSTR-1 Filing in India",
-        "description": "Patron Accounting LLP files Form GSTR-1 under Section 37 of the CGST Act, 2017 and Rule 59 of the CGST Rules, 2017, by the 11th monthly or 13th quarterly under the QRMP scheme. The service is bundled with Form GSTR-3B under a single Monthly GST Returns retainer covering invoice tagging across B2B, B2CL, B2C-Others, Exports, SEZ and deemed exports, HSN summary at the correct digit level including the May 2025 B2B and B2C split, Form GSTR-1A same-period correction, GSTR-2B reconciliation and amendment cycles up to 30 November of the next financial year.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gstr-1-filing" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [
-            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
-            { "@type": "Thing", "name": "Central Board of Indirect Taxes and Customs", "sameAs": "https://en.wikipedia.org/wiki/Central_Board_of_Indirect_Taxes_and_Customs" }
-        ],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "GSTR-1 Filing Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "Monthly GST Returns Retainer - Starter (up to 50 invoices)",
-                    "priceCurrency": "INR",
-                    "price": "999",
-                    "description": "GSTR-1 plus GSTR-3B filed together each month - invoice tagging, HSN summary, GSTR-2B reconciliation, and audit-ready records"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/gstr-1-filing/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
-            { "@type": "ListItem", "position": 3, "name": "GSTR-1 Filing", "item": "https://www.patronaccounting.com/gstr-1-filing" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/gstr-1-filing/#faq",
-        "datePublished": "2026-05-26T08:00:00+05:30",
-        "dateModified": "2026-06-01T08:00:00+05:30",
-        "mainEntity": [
-
-            {
-                "@type": "Question",
-                "name": "What is GSTR-1 in GST?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "GSTR-1 is the statement of outward supplies of goods or services filed by every regular GST taxpayer under Section 37 of the CGST Act, 2017 read with Rule 59 of the CGST Rules, 2017. It captures all sales-side data for a tax period including tax invoices, debit and credit notes, exports, SEZ supplies, advances and the HSN-wise summary across 13 reporting tables. Data filed in GSTR-1 auto-populates the buyer's Form GSTR-2B and the supplier's Form GSTR-3B."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the due date for GSTR-1 filing?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Monthly filers (aggregate turnover above Rs 5 crore in preceding FY or not opted into QRMP) file by the 11th of the next month. QRMP filers (turnover up to Rs 5 crore who have opted into the Quarterly Return Monthly Payment scheme) file by the 13th of the month following the quarter end. The optional Invoice Furnishing Facility (IFF) for B2B invoices in the first 2 months of the QRMP quarter is also due by the 13th of the next month."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the difference between GSTR-1 and GSTR-3B?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "GSTR-1 under Section 37 is the detailed invoice-level outward supplies return due by the 11th. GSTR-3B under Section 39 is the summary return with tax computation and payment due by the 20th. Both share the same monthly cycle - GSTR-1 totals auto-populate GSTR-3B output tax, and ITC in GSTR-3B is auto-populated from GSTR-2B which in turn flows from suppliers' GSTR-1s. Under Rule 59(6), GSTR-1 cannot be filed if the previous period's GSTR-3B is unfiled."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can GSTR-1 be revised after filing?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "No. Form GSTR-1 once filed cannot be revised. Corrections are made through amendments in Tables 9 and 10 of subsequent period GSTR-1, with an outer cut-off of 30 November of the next financial year or the annual return filing date, whichever is earlier. For same-period corrections after filing GSTR-1 but before filing GSTR-3B, Form GSTR-1A is available. Under the amendment to Section 37, GSTR-1 cannot be filed more than 3 years after its original due date."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Who is exempt from filing GSTR-1?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Composition dealers under Section 10 file Form CMP-08 and Form GSTR-4 instead. Non-Resident Taxable Persons file Form GSTR-5. OIDAR service providers file Form GSTR-5A. Input Service Distributors file Form GSTR-6. TDS deductors under Section 51 file Form GSTR-7. E-commerce operators required to collect TCS under Section 52 file Form GSTR-8. All other regular GST taxpayers must file GSTR-1, including for tax periods with no sales (nil return)."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the late fee for late GSTR-1 filing?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Late fee under Section 47 of the CGST Act, 2017 is Rs 50 per day (Rs 25 CGST + Rs 25 SGST) for taxable returns and Rs 20 per day for nil returns, subject to turnover-based maximum caps notified by CBIC. The late fee accumulates from the day after the due date till the actual filing date. Repeated late filing can also trigger Rule 86A restriction on the buyer's ITC and Rule 59(6) blocking of the next period's GSTR-1."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Is GSTR-1 filing mandatory if there are no sales?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. Every regular GST taxpayer must file GSTR-1 for every tax period even when there are no outward supplies. Since July 2020, nil GSTR-1 can be filed through SMS to 14409 from the registered mobile number in the format NIL R1 GSTIN Tax-period without portal login. Failure to file nil return attracts late fee of Rs 20 per day capped per turnover bracket."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is IFF in GSTR-1 under QRMP scheme?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "The Invoice Furnishing Facility (IFF) is an optional facility for QRMP taxpayers to upload B2B invoices in the first 2 months of a quarter, even though the full GSTR-1 is filed quarterly. This allows the buyer's Form GSTR-2B to reflect ITC monthly. IFF is due by the 13th of the next month for the relevant M1 and M2 supplies. There is no penalty for not using IFF; the supplier simply uploads all B2B invoices in the quarterly GSTR-1 by the 13th."
-                }
-            }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -762,7 +618,156 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>GSTR-1 Filing 2026: Outward Supplies | Patron Accounting</title>
+    <meta name="description" content="File GSTR-1 by 11th monthly or 13th quarterly under QRMP. Bundled with GSTR-3B in our Monthly GST Returns retainer from Rs 999/mo.">
+    <link rel="canonical" href="/gstr-1-filing">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="GSTR-1 Filing 2026: Outward Supplies | Patron Accounting">
+    <meta property="og:description" content="File GSTR-1 by 11th monthly or 13th quarterly under QRMP. Bundled with GSTR-3B in our Monthly GST Returns retainer from Rs 999/mo.">
+    <meta property="og:url" content="/gstr-1-filing">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GSTR-1 Filing 2026: Outward Supplies | Patron Accounting">
+    <meta name="twitter:description" content="File GSTR-1 by 11th monthly or 13th quarterly under QRMP. Bundled with GSTR-3B in our Monthly GST Returns retainer from Rs 999/mo.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/gstr-1-filing/#service",
+        "name": "GSTR-1 Filing in India",
+        "description": "Patron Accounting LLP files Form GSTR-1 under Section 37 of the CGST Act, 2017 and Rule 59 of the CGST Rules, 2017, by the 11th monthly or 13th quarterly under the QRMP scheme. The service is bundled with Form GSTR-3B under a single Monthly GST Returns retainer covering invoice tagging across B2B, B2CL, B2C-Others, Exports, SEZ and deemed exports, HSN summary at the correct digit level including the May 2025 B2B and B2C split, Form GSTR-1A same-period correction, GSTR-2B reconciliation and amendment cycles up to 30 November of the next financial year.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gstr-1-filing" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [
+            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
+            { "@type": "Thing", "name": "Central Board of Indirect Taxes and Customs", "sameAs": "https://en.wikipedia.org/wiki/Central_Board_of_Indirect_Taxes_and_Customs" }
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "GSTR-1 Filing Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "Monthly GST Returns Retainer - Starter (up to 50 invoices)",
+                    "priceCurrency": "INR",
+                    "price": "999",
+                    "description": "GSTR-1 plus GSTR-3B filed together each month - invoice tagging, HSN summary, GSTR-2B reconciliation, and audit-ready records"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/gstr-1-filing/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
+            { "@type": "ListItem", "position": 3, "name": "GSTR-1 Filing", "item": "https://www.patronaccounting.com/gstr-1-filing" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/gstr-1-filing/#faq",
+        "datePublished": "2026-05-26T08:00:00+05:30",
+        "dateModified": "2026-06-01T08:00:00+05:30",
+        "mainEntity": [
+
+            {
+                "@type": "Question",
+                "name": "What is GSTR-1 in GST?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "GSTR-1 is the statement of outward supplies of goods or services filed by every regular GST taxpayer under Section 37 of the CGST Act, 2017 read with Rule 59 of the CGST Rules, 2017. It captures all sales-side data for a tax period including tax invoices, debit and credit notes, exports, SEZ supplies, advances and the HSN-wise summary across 13 reporting tables. Data filed in GSTR-1 auto-populates the buyer's Form GSTR-2B and the supplier's Form GSTR-3B."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the due date for GSTR-1 filing?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Monthly filers (aggregate turnover above Rs 5 crore in preceding FY or not opted into QRMP) file by the 11th of the next month. QRMP filers (turnover up to Rs 5 crore who have opted into the Quarterly Return Monthly Payment scheme) file by the 13th of the month following the quarter end. The optional Invoice Furnishing Facility (IFF) for B2B invoices in the first 2 months of the QRMP quarter is also due by the 13th of the next month."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the difference between GSTR-1 and GSTR-3B?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "GSTR-1 under Section 37 is the detailed invoice-level outward supplies return due by the 11th. GSTR-3B under Section 39 is the summary return with tax computation and payment due by the 20th. Both share the same monthly cycle - GSTR-1 totals auto-populate GSTR-3B output tax, and ITC in GSTR-3B is auto-populated from GSTR-2B which in turn flows from suppliers' GSTR-1s. Under Rule 59(6), GSTR-1 cannot be filed if the previous period's GSTR-3B is unfiled."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can GSTR-1 be revised after filing?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No. Form GSTR-1 once filed cannot be revised. Corrections are made through amendments in Tables 9 and 10 of subsequent period GSTR-1, with an outer cut-off of 30 November of the next financial year or the annual return filing date, whichever is earlier. For same-period corrections after filing GSTR-1 but before filing GSTR-3B, Form GSTR-1A is available. Under the amendment to Section 37, GSTR-1 cannot be filed more than 3 years after its original due date."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Who is exempt from filing GSTR-1?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Composition dealers under Section 10 file Form CMP-08 and Form GSTR-4 instead. Non-Resident Taxable Persons file Form GSTR-5. OIDAR service providers file Form GSTR-5A. Input Service Distributors file Form GSTR-6. TDS deductors under Section 51 file Form GSTR-7. E-commerce operators required to collect TCS under Section 52 file Form GSTR-8. All other regular GST taxpayers must file GSTR-1, including for tax periods with no sales (nil return)."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the late fee for late GSTR-1 filing?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Late fee under Section 47 of the CGST Act, 2017 is Rs 50 per day (Rs 25 CGST + Rs 25 SGST) for taxable returns and Rs 20 per day for nil returns, subject to turnover-based maximum caps notified by CBIC. The late fee accumulates from the day after the due date till the actual filing date. Repeated late filing can also trigger Rule 86A restriction on the buyer's ITC and Rule 59(6) blocking of the next period's GSTR-1."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is GSTR-1 filing mandatory if there are no sales?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Every regular GST taxpayer must file GSTR-1 for every tax period even when there are no outward supplies. Since July 2020, nil GSTR-1 can be filed through SMS to 14409 from the registered mobile number in the format NIL R1 GSTIN Tax-period without portal login. Failure to file nil return attracts late fee of Rs 20 per day capped per turnover bracket."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is IFF in GSTR-1 under QRMP scheme?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The Invoice Furnishing Facility (IFF) is an optional facility for QRMP taxpayers to upload B2B invoices in the first 2 months of a quarter, even though the full GSTR-1 is filed quarterly. This allows the buyer's Form GSTR-2B to reflect ITC monthly. IFF is due by the 13th of the next month for the relevant M1 and M2 supplies. There is no penalty for not using IFF; the supplier simply uploads all B2B invoices in the quarterly GSTR-1 by the 13th."
+                }
+            }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1739,17 +1744,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1772,8 +1770,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1810,7 +1806,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1821,4 +1816,20 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+
 

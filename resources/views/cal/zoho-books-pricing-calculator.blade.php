@@ -1,91 +1,5 @@
 @extends('layouts.app')
-@section('meta')
-    <title>Zoho Books Pricing Calculator | India Plan Cost</title>
-    <meta name="description" content="Zoho Books pricing calculator: estimate monthly and annual cost by plan, users and add-ons, and compare all 6 Zoho Books plans for India. Free. Try now!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/zoho-books-pricing-calculator">
-    <meta property="og:title" content="Zoho Books Pricing Calculator &mdash; Free Cost Estimator">
-    <meta property="og:description" content="Estimate your Zoho Books cost based on plan, users, and add-ons. Compare all 6 plans for Indian businesses.">
-    <meta property="og:type" content="website">
-    <meta property="og:locale" content="en_IN">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/zoho-books-pricing-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Zoho Books Pricing Calculator &mdash; Free Cost Estimator">
-    <meta name="twitter:description" content="Estimate Zoho Books cost for your business. Compare all 6 plans with INR pricing!">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-<script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebApplication",
-      "name": "Zoho Books Pricing Calculator",
-      "description": "Zoho Books Pricing Calculator estimates the total monthly and annual cost of Zoho Books based on selected plan, number of users, billing cycle, and add-ons. Compares all six Zoho Books plans including Free, Standard, Professional, Premium, Elite, and Ultimate with INR pricing for Indian businesses.",
-      "url": "https://www.patronaccounting.com/tools/zoho-books-pricing-calculator",
-      "applicationCategory": "UtilityApplication",
-      "operatingSystem": "Any",
-      "datePublished": "2026-03-05",
-      "dateModified": "2026-03-05",
-      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" },
-      "author": {
-        "@type": "Person",
-        "@id": "https://patronaccounting.com/#team",
-        "name": "CA & CS Patron Accounting Team",
-        "jobTitle": "Chartered Accountants & Company Secretaries",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/company/patron-accounting"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": { "@type": "Organization", "name": "Institute of Chartered Accountants of India", "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India" }
-        }]
-      },
-      "publisher": { "@type": "Organization", "name": "Patron Accounting LLP", "url": "https://www.patronaccounting.com", "logo": { "@type": "ImageObject", "url": "https://www.patronaccounting.com/images/site-logo.svg" } },
-      "provider": { "@id": "https://patronaccounting.com/#organization" }
-    }
-    </script>
-<script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Zoho Books Pricing Calculator", "item": "https://www.patronaccounting.com/tools/zoho-books-pricing-calculator"}
-      ]
-    }
-    </script>
-<script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        { "@type": "Question", "name": "How much does Zoho Books cost in India?", "acceptedAnswer": { "@type": "Answer", "text": "Zoho Books offers a Free plan for businesses with annual revenue under Rs 25 lakhs. Paid plans start at Rs 899 per month for the Standard plan with 3 users. Professional costs Rs 1,499 per month with 5 users, Premium Rs 2,999 per month with 10 users, Elite Rs 5,999 per month with 15 users, and Ultimate Rs 9,999 per month with advanced analytics. Annual billing gives approximately 17 percent discount." } },
-        { "@type": "Question", "name": "Is Zoho Books free for small businesses in India?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, Zoho Books offers a genuinely free plan for businesses with annual revenue under Rs 25 lakhs. The Free plan includes 1 user plus 1 accountant, up to 1,000 invoices per year, 1,000 bills per year, bank reconciliation via statement import, GST invoicing, and basic financial reports. It is available indefinitely as long as revenue stays below the threshold." } },
-        { "@type": "Question", "name": "What is included in the Zoho Books Standard plan?", "acceptedAnswer": { "@type": "Answer", "text": "The Standard plan at Rs 899 per month includes 3 users, 5,000 invoices per year, 5,000 bills per year, 1 GSTIN, automated bank feeds, bulk updates, custom fields, email plus voice plus chat support, recurring invoices, and basic reporting. It does not include inventory management, purchase orders, or multi-currency support which require the Professional plan or higher." } },
-        { "@type": "Question", "name": "Can I add extra users to my Zoho Books plan?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, each Zoho Books plan includes a base number of users. Beyond that, you can add extra users at Rs 180 per user per month on monthly billing or Rs 150 per user per month on annual billing. For example, if you have the Standard plan with 3 included users and need 2 more, your additional cost would be Rs 360 per month on monthly billing." } },
-        { "@type": "Question", "name": "Which Zoho Books plan is best for a startup?", "acceptedAnswer": { "@type": "Answer", "text": "For startups with revenue under Rs 25 lakhs, the Free plan is sufficient. It covers basic invoicing, expense tracking, and GST compliance. Once revenue exceeds the threshold or you need more than 1 user, the Standard plan at Rs 899 per month is the best next step. If you need inventory management or project billing, start with the Professional plan at Rs 1,499 per month." } },
-        { "@type": "Question", "name": "Does Zoho Books support GST filing and e-invoicing?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, all Zoho Books plans including the Free plan support GST-compliant invoicing. Paid plans support direct GST return filing through the platform. E-invoicing is supported through integration with GST Suvidha Providers on Professional and higher plans. E-way bill generation is also available on paid plans. Zoho Books handles GSTR-1, GSTR-3B, and GSTR-9 filing workflows." } },
-        { "@type": "Question", "name": "What is the difference between monthly and annual billing?", "acceptedAnswer": { "@type": "Answer", "text": "Annual billing offers approximately 17 percent discount compared to monthly billing. For example, the Standard plan costs Rs 899 per month on monthly billing but effectively Rs 749 per month when billed annually as Rs 8,988 per year. Annual billing requires upfront payment for the full year but provides significant savings especially on higher-tier plans like Premium and Elite." } },
-        { "@type": "Question", "name": "How does Zoho Books compare to TallyPrime on pricing?", "acceptedAnswer": { "@type": "Answer", "text": "Zoho Books Standard at Rs 899 per month is comparable to TallyPrime Silver at Rs 600 per month. However, TallyPrime offers a one-time licence option at Rs 18,000 which has no recurring cost. For multi-user access, TallyPrime Gold costs Rs 1,800 per month versus Zoho Books Professional at Rs 1,499 per month. Zoho Books wins on cloud access and automation while TallyPrime wins on offline reliability and inventory depth." } },
-        { "@type": "Question", "name": "Can I migrate from Tally to Zoho Books?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, Zoho Books supports data migration from Tally. You can import Charts of Accounts, items, opening balances, and customer or vendor master data. Transaction history requires manual mapping. Patron Accounting offers professional Tally-to-Zoho migration services ensuring data integrity, GST compliance continuity, and team training on the new platform." } },
-        { "@type": "Question", "name": "What are the invoice and bill limits for each plan?", "acceptedAnswer": { "@type": "Answer", "text": "Invoice limits per year: Free plan allows 1,000, Standard allows 5,000, Professional allows 10,000, Premium allows 25,000, and Elite and Ultimate allow 100,000 each. Bill and expense limits follow the same pattern. If your business exceeds these limits, you need to upgrade to the next plan. Contact Zoho sales for custom limits beyond 100,000." } },
-        { "@type": "Question", "name": "Does Zoho Books have a free trial?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, Zoho Books offers a 14-day free trial of any paid plan. During the trial, you get full access to all features of the selected plan including Premium by default. No credit card is required to start the trial. After the trial ends, you can subscribe to a paid plan or switch to the Free plan with limited features." } },
-        { "@type": "Question", "name": "Is Zoho Books suitable for businesses with multiple GSTINs?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, but it depends on the plan. The Standard plan supports 1 GSTIN, Professional supports 2 GSTINs, and Premium, Elite, and Ultimate support 3 GSTINs each. If your business operates across multiple states with separate GSTINs, you need at least the Professional plan. Each additional GSTIN beyond the plan limit may require a separate organization or add-on." } },
-        { "@type": "Question", "name": "Can a CA help me choose and set up Zoho Books?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, a Chartered Accountant can evaluate your business needs, recommend the right Zoho Books plan, handle data migration from Tally or other software, configure GST settings and chart of accounts, set up automated workflows, and train your team. Patron Accounting provides end-to-end Zoho Books setup and ongoing bookkeeping support for Indian businesses." } }
-      ]
-    }
-    </script>
-@endsection
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+@push('styles')
 <style>
 
         :root {
@@ -890,6 +804,95 @@
 .toggle-btn{font-size:13px;padding:10px 12px}
 }
 </style>
+@endpush
+
+@section('meta')
+    <title>Zoho Books Pricing Calculator | India Plan Cost</title>
+    <meta name="description" content="Zoho Books pricing calculator: estimate monthly and annual cost by plan, users and add-ons, and compare all 6 Zoho Books plans for India. Free. Try now!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/zoho-books-pricing-calculator">
+    <meta property="og:title" content="Zoho Books Pricing Calculator &mdash; Free Cost Estimator">
+    <meta property="og:description" content="Estimate your Zoho Books cost based on plan, users, and add-ons. Compare all 6 plans for Indian businesses.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_IN">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/zoho-books-pricing-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Zoho Books Pricing Calculator &mdash; Free Cost Estimator">
+    <meta name="twitter:description" content="Estimate Zoho Books cost for your business. Compare all 6 plans with INR pricing!">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+@endsection
+
+@section('schema')
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Zoho Books Pricing Calculator",
+      "description": "Zoho Books Pricing Calculator estimates the total monthly and annual cost of Zoho Books based on selected plan, number of users, billing cycle, and add-ons. Compares all six Zoho Books plans including Free, Standard, Professional, Premium, Elite, and Ultimate with INR pricing for Indian businesses.",
+      "url": "https://www.patronaccounting.com/tools/zoho-books-pricing-calculator",
+      "applicationCategory": "UtilityApplication",
+      "operatingSystem": "Any",
+      "datePublished": "2026-03-05",
+      "dateModified": "2026-03-05",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" },
+      "author": {
+        "@type": "Person",
+        "@id": "https://patronaccounting.com/#team",
+        "name": "CA & CS Patron Accounting Team",
+        "jobTitle": "Chartered Accountants & Company Secretaries",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/company/patron-accounting"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": { "@type": "Organization", "name": "Institute of Chartered Accountants of India", "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India" }
+        }]
+      },
+      "publisher": { "@type": "Organization", "name": "Patron Accounting LLP", "url": "https://www.patronaccounting.com", "logo": { "@type": "ImageObject", "url": "https://www.patronaccounting.com/images/site-logo.svg" } },
+      "provider": { "@id": "https://patronaccounting.com/#organization" }
+    }
+    </script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Zoho Books Pricing Calculator", "item": "https://www.patronaccounting.com/tools/zoho-books-pricing-calculator"}
+      ]
+    }
+    </script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "How much does Zoho Books cost in India?", "acceptedAnswer": { "@type": "Answer", "text": "Zoho Books offers a Free plan for businesses with annual revenue under Rs 25 lakhs. Paid plans start at Rs 899 per month for the Standard plan with 3 users. Professional costs Rs 1,499 per month with 5 users, Premium Rs 2,999 per month with 10 users, Elite Rs 5,999 per month with 15 users, and Ultimate Rs 9,999 per month with advanced analytics. Annual billing gives approximately 17 percent discount." } },
+        { "@type": "Question", "name": "Is Zoho Books free for small businesses in India?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, Zoho Books offers a genuinely free plan for businesses with annual revenue under Rs 25 lakhs. The Free plan includes 1 user plus 1 accountant, up to 1,000 invoices per year, 1,000 bills per year, bank reconciliation via statement import, GST invoicing, and basic financial reports. It is available indefinitely as long as revenue stays below the threshold." } },
+        { "@type": "Question", "name": "What is included in the Zoho Books Standard plan?", "acceptedAnswer": { "@type": "Answer", "text": "The Standard plan at Rs 899 per month includes 3 users, 5,000 invoices per year, 5,000 bills per year, 1 GSTIN, automated bank feeds, bulk updates, custom fields, email plus voice plus chat support, recurring invoices, and basic reporting. It does not include inventory management, purchase orders, or multi-currency support which require the Professional plan or higher." } },
+        { "@type": "Question", "name": "Can I add extra users to my Zoho Books plan?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, each Zoho Books plan includes a base number of users. Beyond that, you can add extra users at Rs 180 per user per month on monthly billing or Rs 150 per user per month on annual billing. For example, if you have the Standard plan with 3 included users and need 2 more, your additional cost would be Rs 360 per month on monthly billing." } },
+        { "@type": "Question", "name": "Which Zoho Books plan is best for a startup?", "acceptedAnswer": { "@type": "Answer", "text": "For startups with revenue under Rs 25 lakhs, the Free plan is sufficient. It covers basic invoicing, expense tracking, and GST compliance. Once revenue exceeds the threshold or you need more than 1 user, the Standard plan at Rs 899 per month is the best next step. If you need inventory management or project billing, start with the Professional plan at Rs 1,499 per month." } },
+        { "@type": "Question", "name": "Does Zoho Books support GST filing and e-invoicing?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, all Zoho Books plans including the Free plan support GST-compliant invoicing. Paid plans support direct GST return filing through the platform. E-invoicing is supported through integration with GST Suvidha Providers on Professional and higher plans. E-way bill generation is also available on paid plans. Zoho Books handles GSTR-1, GSTR-3B, and GSTR-9 filing workflows." } },
+        { "@type": "Question", "name": "What is the difference between monthly and annual billing?", "acceptedAnswer": { "@type": "Answer", "text": "Annual billing offers approximately 17 percent discount compared to monthly billing. For example, the Standard plan costs Rs 899 per month on monthly billing but effectively Rs 749 per month when billed annually as Rs 8,988 per year. Annual billing requires upfront payment for the full year but provides significant savings especially on higher-tier plans like Premium and Elite." } },
+        { "@type": "Question", "name": "How does Zoho Books compare to TallyPrime on pricing?", "acceptedAnswer": { "@type": "Answer", "text": "Zoho Books Standard at Rs 899 per month is comparable to TallyPrime Silver at Rs 600 per month. However, TallyPrime offers a one-time licence option at Rs 18,000 which has no recurring cost. For multi-user access, TallyPrime Gold costs Rs 1,800 per month versus Zoho Books Professional at Rs 1,499 per month. Zoho Books wins on cloud access and automation while TallyPrime wins on offline reliability and inventory depth." } },
+        { "@type": "Question", "name": "Can I migrate from Tally to Zoho Books?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, Zoho Books supports data migration from Tally. You can import Charts of Accounts, items, opening balances, and customer or vendor master data. Transaction history requires manual mapping. Patron Accounting offers professional Tally-to-Zoho migration services ensuring data integrity, GST compliance continuity, and team training on the new platform." } },
+        { "@type": "Question", "name": "What are the invoice and bill limits for each plan?", "acceptedAnswer": { "@type": "Answer", "text": "Invoice limits per year: Free plan allows 1,000, Standard allows 5,000, Professional allows 10,000, Premium allows 25,000, and Elite and Ultimate allow 100,000 each. Bill and expense limits follow the same pattern. If your business exceeds these limits, you need to upgrade to the next plan. Contact Zoho sales for custom limits beyond 100,000." } },
+        { "@type": "Question", "name": "Does Zoho Books have a free trial?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, Zoho Books offers a 14-day free trial of any paid plan. During the trial, you get full access to all features of the selected plan including Premium by default. No credit card is required to start the trial. After the trial ends, you can subscribe to a paid plan or switch to the Free plan with limited features." } },
+        { "@type": "Question", "name": "Is Zoho Books suitable for businesses with multiple GSTINs?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, but it depends on the plan. The Standard plan supports 1 GSTIN, Professional supports 2 GSTINs, and Premium, Elite, and Ultimate support 3 GSTINs each. If your business operates across multiple states with separate GSTINs, you need at least the Professional plan. Each additional GSTIN beyond the plan limit may require a separate organization or add-on." } },
+        { "@type": "Question", "name": "Can a CA help me choose and set up Zoho Books?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, a Chartered Accountant can evaluate your business needs, recommend the right Zoho Books plan, handle data migration from Tally or other software, configure GST settings and chart of accounts, set up automated workflows, and train your team. Patron Accounting provides end-to-end Zoho Books setup and ongoing bookkeeping support for Indian businesses." } }
+      ]
+    }
+    </script>
+@endsection
 @section('content')
 <!-- Sticky TOC Nav -->
     <nav class="toc-nav" aria-label="Page Navigation">

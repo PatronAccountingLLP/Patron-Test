@@ -1,161 +1,12 @@
 
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Trademark Renewal Gurugram - Process, Fees & 10-Year</title>
-    <meta name="description" content="Trademark renewal in Gurugram. 10-year validity. Form TM-R. Rs 9,000/class. Grace period. Restoration. Proactive tracking. Call +91 945 945 6700.">
-    <link rel="canonical" href="/trademark-renewal/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Trademark Renewal Gurugram - Process, Fees & 10-Year">
-    <meta property="og:description" content="Trademark renewal in Gurugram. 10-year validity. Form TM-R. Rs 9,000/class. Grace period. Restoration. Proactive tracking. Call +91 945 945 6700.">
-    <meta property="og:url" content="/trademark-renewal/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Trademark Renewal Gurugram - Process, Fees & 10-Year">
-    <meta name="twitter:description" content="Trademark renewal in Gurugram. 10-year validity. Form TM-R. Rs 9,000/class. Grace period. Restoration. Proactive tracking. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "Trademark Renewal in Gurugram | 10-Year Renewal",
-      "description": "Trademark renewal in Gurugram. 10-year validity. Form TM-R. Rs 9,000/class. Grace period. Restoration. Proactive tracking. Call +91 945 945 6700.",
-      "url": "https://www.patronaccounting.com/trademark-renewal/gurugram",
-      "serviceType": "Trademark Renewal in Gurugram | 10-Year Renewal",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/trademark-renewal/gurugram",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "minPrice": "9000",
-          "maxPrice": "18000",
-          "priceCurrency": "INR"
-        }
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Trademark Renewal in India: Fees and Process",
-          "item": "https://www.patronaccounting.com/trademark-renewal"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Trademark Renewal in Gurugram | 10-Year Renewal",
-          "item": "https://www.patronaccounting.com/trademark-renewal/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "When does a trademark expire and need renewal?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A trademark expires 10 years from the date of FILING the application (not the registration date). This is the most common miscalculation. For example, a mark filed on March 1, 2016 expires on March 1, 2026, regardless of when the registration certificate was issued. Renewal can be filed up to 1 year before the expiry date."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does trademark renewal cost?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Timely renewal (before expiry): Rs 9,000 per class (e-filing). Grace period (0-6 months after expiry): Rs 13,500 per class (Rs 9,000 plus Rs 4,500 surcharge). Restoration (6-12 months after expiry): Rs 18,000 per class (Rs 9,000 plus Rs 9,000). After 1 year: must refile as fresh application (Rs 4,500-9,000 per class). Call +91 945 945 6700 for a detailed quote."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens if I miss the renewal deadline?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. Update Records and Notify: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Are any documents needed for trademark renewal?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Only the trademark application number is required. No use proof, no affidavit, no supporting documents of any kind. Renewal is a matter of right under the Trade Marks Act - the Registrar does not review, examine, or object. A Power of Attorney is needed only if filing through an agent or professional."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the O-3 notice from the Registry?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The Registrar sends an O-3 notice before expiry to the address on record warning of the upcoming renewal deadline. However, many businesses have changed offices in the 10 years since filing. The notice goes to the old address and is never received. Do NOT rely on the O-3 notice as your only reminder. Maintain your own expiry calendar and set multiple alerts."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can a removed trademark be restored?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, but only within 1 year from the expiry date. File Form TM-R with the renewal fee plus restoration fee (Rs 18,000 per class total). Restoration is at the Registrar's discretion - a professional filing with proper justification increases approval likelihood. After 1 year from the expiry date, restoration is not possible and the mark is permanently lost."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does non-renewal affect international trademark registrations?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. If your Indian trademark is the base registration under the Madrid Protocol, non-renewal in India can automatically cancel ALL international designations under the dependency rule (applies for 5 years from international registration). A single Rs 9,000 renewal in India may protect registrations worth lakhs of rupees across multiple countries. Quick Answers Kab renew karna hai? Expiry date se 1 saal pehle se kar sakte ho. Expiry date = filing date + 10 years (registration date se nahi). Jaldi karo - Rs 9,000/class. Late kiya toh surcharge aur restoration extra lagega. Kya documents chahiye? Sirf trademark application number. Bas. Koi use proof nahi, koi affidavit nahi. Renewal matter of right hai - Registry review nahi karti. POA chahiye agar agent ke through file karo. Miss kar diya toh? 6 months grace (surcharge Rs 4,500). Uske baad mark REMOVE ho jayega. 1 saal ke andar restoration possible (Rs 9,000 extra). 1 saal ke baad: PERMANENTLY LOST."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -679,7 +530,161 @@ section ul li:not(.nav-item) { font-size: 14px; }
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'Join Community'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Trademark Renewal Gurugram - Process, Fees & 10-Year</title>
+    <meta name="description" content="Trademark renewal in Gurugram. 10-year validity. Form TM-R. Rs 9,000/class. Grace period. Restoration. Proactive tracking. Call +91 945 945 6700.">
+    <link rel="canonical" href="/trademark-renewal/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Trademark Renewal Gurugram - Process, Fees & 10-Year">
+    <meta property="og:description" content="Trademark renewal in Gurugram. 10-year validity. Form TM-R. Rs 9,000/class. Grace period. Restoration. Proactive tracking. Call +91 945 945 6700.">
+    <meta property="og:url" content="/trademark-renewal/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Trademark Renewal Gurugram - Process, Fees & 10-Year">
+    <meta name="twitter:description" content="Trademark renewal in Gurugram. 10-year validity. Form TM-R. Rs 9,000/class. Grace period. Restoration. Proactive tracking. Call +91 945 945 6700.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "Trademark Renewal in Gurugram | 10-Year Renewal",
+      "description": "Trademark renewal in Gurugram. 10-year validity. Form TM-R. Rs 9,000/class. Grace period. Restoration. Proactive tracking. Call +91 945 945 6700.",
+      "url": "https://www.patronaccounting.com/trademark-renewal/gurugram",
+      "serviceType": "Trademark Renewal in Gurugram | 10-Year Renewal",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.patronaccounting.com/trademark-renewal/gurugram",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": "9000",
+          "maxPrice": "18000",
+          "priceCurrency": "INR"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Trademark Renewal in India: Fees and Process",
+          "item": "https://www.patronaccounting.com/trademark-renewal"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Trademark Renewal in Gurugram | 10-Year Renewal",
+          "item": "https://www.patronaccounting.com/trademark-renewal/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "When does a trademark expire and need renewal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A trademark expires 10 years from the date of FILING the application (not the registration date). This is the most common miscalculation. For example, a mark filed on March 1, 2016 expires on March 1, 2026, regardless of when the registration certificate was issued. Renewal can be filed up to 1 year before the expiry date."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does trademark renewal cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Timely renewal (before expiry): Rs 9,000 per class (e-filing). Grace period (0-6 months after expiry): Rs 13,500 per class (Rs 9,000 plus Rs 4,500 surcharge). Restoration (6-12 months after expiry): Rs 18,000 per class (Rs 9,000 plus Rs 9,000). After 1 year: must refile as fresh application (Rs 4,500-9,000 per class). Call +91 945 945 6700 for a detailed quote."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if I miss the renewal deadline?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. Update Records and Notify: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are any documents needed for trademark renewal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Only the trademark application number is required. No use proof, no affidavit, no supporting documents of any kind. Renewal is a matter of right under the Trade Marks Act - the Registrar does not review, examine, or object. A Power of Attorney is needed only if filing through an agent or professional."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the O-3 notice from the Registry?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Registrar sends an O-3 notice before expiry to the address on record warning of the upcoming renewal deadline. However, many businesses have changed offices in the 10 years since filing. The notice goes to the old address and is never received. Do NOT rely on the O-3 notice as your only reminder. Maintain your own expiry calendar and set multiple alerts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a removed trademark be restored?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, but only within 1 year from the expiry date. File Form TM-R with the renewal fee plus restoration fee (Rs 18,000 per class total). Restoration is at the Registrar's discretion - a professional filing with proper justification increases approval likelihood. After 1 year from the expiry date, restoration is not possible and the mark is permanently lost."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does non-renewal affect international trademark registrations?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. If your Indian trademark is the base registration under the Madrid Protocol, non-renewal in India can automatically cancel ALL international designations under the dependency rule (applies for 5 years from international registration). A single Rs 9,000 renewal in India may protect registrations worth lakhs of rupees across multiple countries. Quick Answers Kab renew karna hai? Expiry date se 1 saal pehle se kar sakte ho. Expiry date = filing date + 10 years (registration date se nahi). Jaldi karo - Rs 9,000/class. Late kiya toh surcharge aur restoration extra lagega. Kya documents chahiye? Sirf trademark application number. Bas. Koi use proof nahi, koi affidavit nahi. Renewal matter of right hai - Registry review nahi karti. POA chahiye agar agent ke through file karo. Miss kar diya toh? 6 months grace (surcharge Rs 4,500). Uske baad mark REMOVE ho jayega. 1 saal ke andar restoration possible (Rs 9,000 extra). 1 saal ke baad: PERMANENTLY LOST."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1605,7 +1610,6 @@ var tocWrapper=document.getElementById('tocWrapper');document.getElementById('to
 
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

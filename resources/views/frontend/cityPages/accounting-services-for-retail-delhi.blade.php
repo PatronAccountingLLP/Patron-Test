@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,208 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>Retail Accounting in Delhi 2026 | Patron Accounting</title>
-    <meta name="description" content="Delhi retail and e-tail accounting from INR 3,499/mo. Cash-heavy market books, wholesale plus retail GST, POS and Amazon, Flipkart settlement reconciliation.">
-    <link rel="canonical" href="/accounting-services-for-retail/delhi">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Retail Accounting in Delhi 2026 | Patron Accounting">
-    <meta property="og:description" content="Delhi retail and e-tail accounting from INR 3,499/mo. Cash-heavy market books, wholesale plus retail GST, POS and Amazon, Flipkart settlement reconciliation.">
-    <meta property="og:url" content="/accounting-services-for-retail/delhi">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Retail Accounting in Delhi 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Delhi retail and e-tail accounting from INR 3,499/mo. Cash-heavy market books, wholesale plus retail GST, POS and Amazon, Flipkart settlement reconciliation.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/accounting-services-for-retail/delhi#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Retail Sector Accounting",
-          "item": "https://www.patronaccounting.com/accounting-services-for-retail"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Retail Sector Accounting in Delhi",
-          "item": "https://www.patronaccounting.com/accounting-services-for-retail/delhi"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/accounting-services-for-retail/delhi#faq",
-      "datePublished": "2026-06-23T08:00:00+05:30",
-      "dateModified": "2026-06-23T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "How do you keep books for a cash-heavy Delhi market shop?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "For a high-cash store in Karol Bagh or Sadar Bazaar, Patron posts every day-close, reconciles the cash drawer against the bank deposit, and separates card and UPI tenders. Daily denomination tracking exposes short banking early, and counter sales are booked as B2C supplies in GSTR-1 so cash turnover and declared GST stay aligned under the CGST Act 2017."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "We sell wholesale and retail under one GSTIN in Chandni Chowk. How is GST handled?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A Sadar Bazaar or Chandni Chowk dealer running both wholesale B2B and counter B2C uses one GSTIN with split reporting. Patron records B2B invoices with buyer GSTINs and books counter sales as consolidated B2C, both flowing into GSTR-1 and GSTR-3B. We tag each channel so margins on bulk and retail lines read separately."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is there a profession tax on retail staff in Delhi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Delhi does not levy profession tax, so there is no PTRC or PTEC registration as there is in Maharashtra cities like Pune or Mumbai. Patron still runs your store payroll with PF, ESI, and TDS where applicable, but a Delhi retailer skips the profession tax filings entirely, which lightens monthly compliance for shops in CP or Lajpat Nagar."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is jewellery and bullion-linked stock valued for a Karol Bagh store?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Apparel-and-jewellery shops in Karol Bagh carry stock whose value moves with gold rates. Patron values bullion-linked inventory at cost with rate-date records, books making charges separately, and reconciles physical weight to the stock register. This keeps closing stock defensible in an audit and shows true margin once metal price swings are stripped out."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does retail accounting cost in Delhi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Fees start from INR 3,499/mo (Exl GST and Govt. Charges). The exact retainer scales with store count, billing volume, marketplace channels, and the number of GST registrations. A single Khan Market boutique sits at the lower end; a Sadar Bazaar wholesaler also selling online pays more. We confirm a fixed quote before any onboarding begins."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do you reconcile Amazon, Flipkart, and Meesho payouts for Delhi sellers?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Each payout is grossed back up to taxable sales by adding commission, Section 52 TCS, Section 194-O TDS, shipping, and return adjustments, then matched to the bank credit and your GSTR-1. The 1 percent TCS shown in the platform GSTR-8 is reconciled to your GSTR-2B every month so a Lajpat Nagar seller loses no input credit."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Should a Delhi trader pick the GST composition scheme or regular GST?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A trader below INR 1.5 crore can elect composition under Section 10 and pay a flat 1 percent, but loses input credit, cannot issue a tax invoice, and cannot sell on TCS marketplaces. A Connaught Place flagship or any seller listing on Amazon must stay in regular GST. Patron models both routes against your turnover before you lock in."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which records must a Delhi retail business retain?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 35 of the CGST Act 2017 and Section 44AA of the Income Tax Act require sales and purchase registers, stock records, the cash book, and bank statements to be kept for 6 years. Patron maintains these by store and channel for the GST Delhi authority and RoC Delhi, so a notice or assessment is answered without scrambling for papers."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/accounting-services-for-retail/delhi#service",
-      "name": "Retail Sector Accounting in Delhi",
-      "description": "Retail and e-tail accounting in Delhi covering cash-heavy market shops, wholesale plus retail GST, POS reconciliation, multi-store inventory, and Amazon and Flipkart settlement matching. Patron Accounting delivers margin and stock MIS for Karol Bagh, Sadar Bazaar, Connaught Place, and online retailers.",
-      "serviceType": "Retail Sector Accounting and Bookkeeping",
-      "url": "https://www.patronaccounting.com/accounting-services-for-retail/delhi",
-      "areaServed": {
-        "@type": "City",
-        "name": "Delhi",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Delhi"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#localbusiness-delhi"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Retail",
-          "sameAs": "https://en.wikipedia.org/wiki/Retail"
-        },
-        {
-          "@type": "Thing",
-          "name": "Goods and Services Tax (India)",
-          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Retail Accounting Plans in Delhi",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "price": "3499",
-            "priceSpecification": {
-              "@type": "UnitPriceSpecification",
-              "priceCurrency": "INR",
-              "price": "3499",
-              "unitText": "per month"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Monthly Retail Accounting per Store"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness-delhi",
-      "name": "Patron Accounting LLP - Delhi",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/accounting-services-for-retail/delhi",
-      "telephone": "+91-9699936369",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Delhi"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Delhi",
-        "addressRegion": "Delhi",
-        "postalCode": "110085",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -815,7 +612,217 @@
         .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
 
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>Retail Accounting in Delhi 2026 | Patron Accounting</title>
+    <meta name="description" content="Delhi retail and e-tail accounting from INR 3,499/mo. Cash-heavy market books, wholesale plus retail GST, POS and Amazon, Flipkart settlement reconciliation.">
+    <link rel="canonical" href="/accounting-services-for-retail/delhi">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Retail Accounting in Delhi 2026 | Patron Accounting">
+    <meta property="og:description" content="Delhi retail and e-tail accounting from INR 3,499/mo. Cash-heavy market books, wholesale plus retail GST, POS and Amazon, Flipkart settlement reconciliation.">
+    <meta property="og:url" content="/accounting-services-for-retail/delhi">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Retail Accounting in Delhi 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Delhi retail and e-tail accounting from INR 3,499/mo. Cash-heavy market books, wholesale plus retail GST, POS and Amazon, Flipkart settlement reconciliation.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/accounting-services-for-retail/delhi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Retail Sector Accounting",
+          "item": "https://www.patronaccounting.com/accounting-services-for-retail"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Retail Sector Accounting in Delhi",
+          "item": "https://www.patronaccounting.com/accounting-services-for-retail/delhi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/accounting-services-for-retail/delhi#faq",
+      "datePublished": "2026-06-23T08:00:00+05:30",
+      "dateModified": "2026-06-23T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do you keep books for a cash-heavy Delhi market shop?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For a high-cash store in Karol Bagh or Sadar Bazaar, Patron posts every day-close, reconciles the cash drawer against the bank deposit, and separates card and UPI tenders. Daily denomination tracking exposes short banking early, and counter sales are booked as B2C supplies in GSTR-1 so cash turnover and declared GST stay aligned under the CGST Act 2017."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "We sell wholesale and retail under one GSTIN in Chandni Chowk. How is GST handled?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Sadar Bazaar or Chandni Chowk dealer running both wholesale B2B and counter B2C uses one GSTIN with split reporting. Patron records B2B invoices with buyer GSTINs and books counter sales as consolidated B2C, both flowing into GSTR-1 and GSTR-3B. We tag each channel so margins on bulk and retail lines read separately."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there a profession tax on retail staff in Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Delhi does not levy profession tax, so there is no PTRC or PTEC registration as there is in Maharashtra cities like Pune or Mumbai. Patron still runs your store payroll with PF, ESI, and TDS where applicable, but a Delhi retailer skips the profession tax filings entirely, which lightens monthly compliance for shops in CP or Lajpat Nagar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is jewellery and bullion-linked stock valued for a Karol Bagh store?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Apparel-and-jewellery shops in Karol Bagh carry stock whose value moves with gold rates. Patron values bullion-linked inventory at cost with rate-date records, books making charges separately, and reconciles physical weight to the stock register. This keeps closing stock defensible in an audit and shows true margin once metal price swings are stripped out."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does retail accounting cost in Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fees start from INR 3,499/mo (Exl GST and Govt. Charges). The exact retainer scales with store count, billing volume, marketplace channels, and the number of GST registrations. A single Khan Market boutique sits at the lower end; a Sadar Bazaar wholesaler also selling online pays more. We confirm a fixed quote before any onboarding begins."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you reconcile Amazon, Flipkart, and Meesho payouts for Delhi sellers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Each payout is grossed back up to taxable sales by adding commission, Section 52 TCS, Section 194-O TDS, shipping, and return adjustments, then matched to the bank credit and your GSTR-1. The 1 percent TCS shown in the platform GSTR-8 is reconciled to your GSTR-2B every month so a Lajpat Nagar seller loses no input credit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should a Delhi trader pick the GST composition scheme or regular GST?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A trader below INR 1.5 crore can elect composition under Section 10 and pay a flat 1 percent, but loses input credit, cannot issue a tax invoice, and cannot sell on TCS marketplaces. A Connaught Place flagship or any seller listing on Amazon must stay in regular GST. Patron models both routes against your turnover before you lock in."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which records must a Delhi retail business retain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 35 of the CGST Act 2017 and Section 44AA of the Income Tax Act require sales and purchase registers, stock records, the cash book, and bank statements to be kept for 6 years. Patron maintains these by store and channel for the GST Delhi authority and RoC Delhi, so a notice or assessment is answered without scrambling for papers."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/accounting-services-for-retail/delhi#service",
+      "name": "Retail Sector Accounting in Delhi",
+      "description": "Retail and e-tail accounting in Delhi covering cash-heavy market shops, wholesale plus retail GST, POS reconciliation, multi-store inventory, and Amazon and Flipkart settlement matching. Patron Accounting delivers margin and stock MIS for Karol Bagh, Sadar Bazaar, Connaught Place, and online retailers.",
+      "serviceType": "Retail Sector Accounting and Bookkeeping",
+      "url": "https://www.patronaccounting.com/accounting-services-for-retail/delhi",
+      "areaServed": {
+        "@type": "City",
+        "name": "Delhi",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Delhi"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#localbusiness-delhi"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Retail",
+          "sameAs": "https://en.wikipedia.org/wiki/Retail"
+        },
+        {
+          "@type": "Thing",
+          "name": "Goods and Services Tax (India)",
+          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Retail Accounting Plans in Delhi",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "price": "3499",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "INR",
+              "price": "3499",
+              "unitText": "per month"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Monthly Retail Accounting per Store"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness-delhi",
+      "name": "Patron Accounting LLP - Delhi",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/accounting-services-for-retail/delhi",
+      "telephone": "+91-9699936369",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Delhi"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Delhi",
+        "addressRegion": "Delhi",
+        "postalCode": "110085",
+        "addressCountry": "IN"
+      },
+      "parentOrganization": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1566,7 +1573,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

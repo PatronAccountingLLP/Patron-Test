@@ -1,245 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Net Worth Certificate for Students in Gurugram 2026 | Patron</title>
-    <meta name="description" content="CA-certified net worth certificate for Gurugram students. Dual currency, UDIN, sponsor format for F-1, Study Permit, Tier 4. Starting INR 1,999.">
-    <link rel="canonical" href="https://www.patronaccounting.com/net-worth-certificate-for-students/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Net Worth Certificate for Students in Gurugram 2026 | Patron">
-    <meta property="og:description" content="CA-certified net worth certificate for Gurugram students. Dual currency, UDIN, sponsor format for F-1, Study Permit, Tier 4. Starting INR 1,999.">
-    <meta property="og:url" content="https://www.patronaccounting.com/net-worth-certificate-for-students/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Net Worth Certificate for Students in Gurugram 2026 | Patron">
-    <meta name="twitter:description" content="CA-certified net worth certificate for Gurugram students. Dual currency, UDIN, sponsor format for F-1, Study Permit, Tier 4. Starting INR 1,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-students/gurugram/#service",
-        "name": "Net Worth Certificate for Students in Gurugram",
-        "description": "CA-certified net worth certificate for Gurugram students. Dual currency, UDIN, sponsor format for F-1, Study Permit, Tier 4. Starting INR 1,999.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/net-worth-certificate-for-students/gurugram" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Chartered Accountant", "sameAs": "https://en.wikipedia.org/wiki/Chartered_accountant" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Net Worth Certificate for Students Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Net Worth Certificate for Students in Gurugram"
-                    },
-                    "price": "1999",
-                    "priceCurrency": "INR",
-                    "url": "https://www.patronaccounting.com/net-worth-certificate-for-students/gurugram"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-students/gurugram/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate for Students", "item": "https://www.patronaccounting.com/net-worth-certificate-for-students" },
-            { "@type": "ListItem", "position": 3, "name": "Gurugram", "item": "https://www.patronaccounting.com/net-worth-certificate-for-students/gurugram" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-students/gurugram/#faq",
-        "datePublished": "2026-07-02T08:00:00+05:30",
-        "dateModified": "2026-07-02T08:00:00+05:30",
-        "mainEntity": [
-            {
-                    "@type": "Question",
-                    "name": "Who can issue a net worth certificate for student visa in Gurugram?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Only a practising Chartered Accountant in Gurugram holding a valid Certificate of Practice from ICAI can sign and issue a net worth certificate for student visa. The CA generates an 18-digit UDIN at udin.icai.org, signs on firm letterhead with ICAI seal, and prints the Membership Number and Firm Registration Number. Embassies and high commissions at Delhi - where Gurugram visa interviews are held - verify the UDIN before accepting the document."
-                    }
-                },
-{
-                    "@type": "Question",
-                    "name": "How much does a net worth certificate for students cost in Gurugram?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Patron Accounting charges starting INR 1,999 (Exclusive of GST and Government Charges) for the standard sponsor or family format student visa net worth certificate in Gurugram. The fee covers document verification under SA 500, ESOP and RSU valuation, NRE/NRO/FCNR consolidation, dual-currency drafting, UDIN generation, CA signature, soft copy issue, and one hard copy. The Germany Type D bundle is INR 2,499. Other Gurugram CA firms typically quote between INR 2,500 and INR 4,000."
-                    }
-                },
-{
-                    "@type": "Question",
-                    "name": "Can ESOPs and RSUs from a parent*'*s MNC employer be included in the certificate?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Yes. Vested ESOPs and RSUs are included on the asset side at fair market value, supported by the latest brokerage statement from Fidelity, Charles Schwab, Etrade or Morgan Stanley. Patron Accounting's Gurugram office values vested tranches separately from unvested grants, lists the exercise price and current market price, and includes the broker statement as evidence. This is critical for Gurugram MNC-executive parents at Cyber City and DLF Cyber Hub employers."
-                    }
-                },
-{
-                    "@type": "Question",
-                    "name": "Can a sponsor*'*s NRE NRO and FCNR balances be included for a Gurugram student visa application?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Yes. Sponsors who hold NRE, NRO and FCNR balances - common for returning Gurugram residents who worked abroad - can include all such accounts in the certificate. Each account is reported in INR-equivalent at the RBI reference rate on the certificate date, with the source bank statement attached. The certificate clarifies the residency status and the relevant FEMA framework for embassy review."
-                    }
-                },
-{
-                    "@type": "Question",
-                    "name": "What documents are needed for the certificate in Gurugram?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "You need passport, PAN, Aadhaar, last 6-12 months of all bank statements including NRE/NRO/FCNR, FD receipts, mutual fund and demat holding statements, ESOP/RSU brokerage statements showing vested tranches, salary slip and Form 16, property registration deed with HSVP collector rate valuation, vehicle RC, gold valuation, and all loan statements. For Canada Study Permit, the GIC receipt of CAD 20,635 is added. For Germany Type D, the Sperrkonto EUR 11,904 receipt is added."
-                    }
-                },
-{
-                    "@type": "Question",
-                    "name": "Is UDIN mandatory on a CA net worth certificate?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Yes, UDIN is mandatory on every CA-issued net worth certificate since 1 July 2019, enforced by ICAI. The 18-digit Unique Document Identification Number is generated at udin.icai.org and printed on the certificate. Any embassy officer, bank, or visa officer can verify the certificate's authenticity by entering the UDIN on the ICAI portal. A certificate without UDIN is invalid and is typically rejected at the Delhi missions where Gurugram applicants submit."
-                    }
-                }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-students/gurugram",
-        "name": "Net Worth Certificate for Students in Gurugram",
-        "description": "CA-certified net worth certificate for Gurugram students. Dual currency, UDIN, sponsor format for F-1, Study Permit, Tier 4. Starting INR 1,999.",
-        "url": "https://www.patronaccounting.com/net-worth-certificate-for-students/gurugram",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-students/gurugram/#service" },
-        "datePublished": "2026-07-02T08:00:00+05:30",
-        "dateModified": "2026-07-02T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-students/gurugram/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How to Get a Net Worth Certificate for Students",
-        "description": "Step-by-step process to obtain a Net Worth Certificate for Students from Patron Accounting.",
-        "totalTime": "P3D",
-        "step": [
-            {
-                    "@type": "HowToStep",
-                    "position": 1,
-                    "name": "Engagement",
-                    "text": "Gurugram student or sponsor calls Patron Accounting, confirms destination, visa category and intake. The engagement letter captures purpose under ICAI SA 200 'Overall Objectives of the Independent Auditor'."
-                },
-{
-                    "@type": "HowToStep",
-                    "position": 2,
-                    "name": "Document collection",
-                    "text": "Upload PAN, Aadhaar, passport, 6-12 months of all bank statements including NRE/NRO/FCNR, FD receipts, MF and demat holding statements, latest ESOP/RSU brokerage statement, property registration deed, vehicle RC, gold valuation, and all loan statements via Patron's secure portal."
-                },
-{
-                    "@type": "HowToStep",
-                    "position": 3,
-                    "name": "Document verification",
-                    "text": "Patron CA cross-checks balances against bank statements, values vested ESOPs and RSUs at fair market value from the brokerage statement under ICAI SA 500, validates Gurugram property at the HSVP collector rate published for the specific sector, and confirms loan outstanding from sanction letters."
-                },
-{
-                    "@type": "HowToStep",
-                    "position": 4,
-                    "name": "Currency conversion",
-                    "text": "Net worth is computed in INR, then converted to destination currency at the RBI reference rate on the certificate date. The rate and date appear on the certificate. NRE/FCNR balances are reported in INR equivalent at the same rate."
-                },
-{
-                    "@type": "HowToStep",
-                    "position": 5,
-                    "name": "Draft preparation and review",
-                    "text": "Draft certificate is emailed within 24 hours for review by the student and the visa consultant. Corrections to passport-match name, address, asset values, and ESOP/RSU vesting tranches happen here."
-                },
-{
-                    "@type": "HowToStep",
-                    "position": 6,
-                    "name": "UDIN generation and final issue",
-                    "text": "Patron CA generates the 18-digit UDIN at udin.icai.org under 'Certificates - Net Worth Certificate', signs on firm letterhead with ICAI seal, and issues the final document. Soft copy emailed same day; hard copy collected from the Gurugram office or couriered."
-                }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Net Worth Certificate for Students Key Terms",
-        "definedTerm": [
-            {
-                    "@type": "DefinedTerm",
-                    "name": "UDIN",
-                    "description": "18-digit Unique Document Identification Number generated by the issuing CA at udin.icai.org for every certificate, mandatory since 1 July 2019."
-                },
-{
-                    "@type": "DefinedTerm",
-                    "name": "ESOP / RSU",
-                    "description": "Employee Stock Option Plan and Restricted Stock Unit. Vested portion qualifies as an asset on the parent's balance sheet and is included at fair market value with the latest brokerage statement (Fidelity, Charles Schwab, Etrade, Morgan Stanley) as evidence."
-                },
-{
-                    "@type": "DefinedTerm",
-                    "name": "NRE / NRO / FCNR",
-                    "description": "Non-Resident External, Non-Resident Ordinary and Foreign Currency Non-Resident accounts. Common where the sponsor is or was a non-resident; balances are included on the asset side with bank statements as evidence."
-                },
-{
-                    "@type": "DefinedTerm",
-                    "name": "HSVP Collector Rate",
-                    "description": "Minimum land value notified by the Haryana Shahari Vikas Pradhikaran for stamp-duty purposes, used as the defensible floor for Gurugram property valuation in the certificate."
-                },
-{
-                    "@type": "DefinedTerm",
-                    "name": "FEMA LRS",
-                    "description": "Liberalised Remittance Scheme under FEMA permits a resident to remit up to USD 250,000 per financial year. Relevant for sponsor remittances to a student abroad and noted in the certificate context where applicable."
-                }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -853,7 +618,247 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Net Worth Certificate for Students in Gurugram 2026 | Patron</title>
+    <meta name="description" content="CA-certified net worth certificate for Gurugram students. Dual currency, UDIN, sponsor format for F-1, Study Permit, Tier 4. Starting INR 1,999.">
+    <link rel="canonical" href="https://www.patronaccounting.com/net-worth-certificate-for-students/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Net Worth Certificate for Students in Gurugram 2026 | Patron">
+    <meta property="og:description" content="CA-certified net worth certificate for Gurugram students. Dual currency, UDIN, sponsor format for F-1, Study Permit, Tier 4. Starting INR 1,999.">
+    <meta property="og:url" content="https://www.patronaccounting.com/net-worth-certificate-for-students/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Net Worth Certificate for Students in Gurugram 2026 | Patron">
+    <meta name="twitter:description" content="CA-certified net worth certificate for Gurugram students. Dual currency, UDIN, sponsor format for F-1, Study Permit, Tier 4. Starting INR 1,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-students/gurugram/#service",
+        "name": "Net Worth Certificate for Students in Gurugram",
+        "description": "CA-certified net worth certificate for Gurugram students. Dual currency, UDIN, sponsor format for F-1, Study Permit, Tier 4. Starting INR 1,999.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/net-worth-certificate-for-students/gurugram" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Chartered Accountant", "sameAs": "https://en.wikipedia.org/wiki/Chartered_accountant" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Net Worth Certificate for Students Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Net Worth Certificate for Students in Gurugram"
+                    },
+                    "price": "1999",
+                    "priceCurrency": "INR",
+                    "url": "https://www.patronaccounting.com/net-worth-certificate-for-students/gurugram"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-students/gurugram/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate for Students", "item": "https://www.patronaccounting.com/net-worth-certificate-for-students" },
+            { "@type": "ListItem", "position": 3, "name": "Gurugram", "item": "https://www.patronaccounting.com/net-worth-certificate-for-students/gurugram" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-students/gurugram/#faq",
+        "datePublished": "2026-07-02T08:00:00+05:30",
+        "dateModified": "2026-07-02T08:00:00+05:30",
+        "mainEntity": [
+            {
+                    "@type": "Question",
+                    "name": "Who can issue a net worth certificate for student visa in Gurugram?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Only a practising Chartered Accountant in Gurugram holding a valid Certificate of Practice from ICAI can sign and issue a net worth certificate for student visa. The CA generates an 18-digit UDIN at udin.icai.org, signs on firm letterhead with ICAI seal, and prints the Membership Number and Firm Registration Number. Embassies and high commissions at Delhi - where Gurugram visa interviews are held - verify the UDIN before accepting the document."
+                    }
+                },
+{
+                    "@type": "Question",
+                    "name": "How much does a net worth certificate for students cost in Gurugram?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Patron Accounting charges starting INR 1,999 (Exclusive of GST and Government Charges) for the standard sponsor or family format student visa net worth certificate in Gurugram. The fee covers document verification under SA 500, ESOP and RSU valuation, NRE/NRO/FCNR consolidation, dual-currency drafting, UDIN generation, CA signature, soft copy issue, and one hard copy. The Germany Type D bundle is INR 2,499. Other Gurugram CA firms typically quote between INR 2,500 and INR 4,000."
+                    }
+                },
+{
+                    "@type": "Question",
+                    "name": "Can ESOPs and RSUs from a parent*'*s MNC employer be included in the certificate?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes. Vested ESOPs and RSUs are included on the asset side at fair market value, supported by the latest brokerage statement from Fidelity, Charles Schwab, Etrade or Morgan Stanley. Patron Accounting's Gurugram office values vested tranches separately from unvested grants, lists the exercise price and current market price, and includes the broker statement as evidence. This is critical for Gurugram MNC-executive parents at Cyber City and DLF Cyber Hub employers."
+                    }
+                },
+{
+                    "@type": "Question",
+                    "name": "Can a sponsor*'*s NRE NRO and FCNR balances be included for a Gurugram student visa application?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes. Sponsors who hold NRE, NRO and FCNR balances - common for returning Gurugram residents who worked abroad - can include all such accounts in the certificate. Each account is reported in INR-equivalent at the RBI reference rate on the certificate date, with the source bank statement attached. The certificate clarifies the residency status and the relevant FEMA framework for embassy review."
+                    }
+                },
+{
+                    "@type": "Question",
+                    "name": "What documents are needed for the certificate in Gurugram?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "You need passport, PAN, Aadhaar, last 6-12 months of all bank statements including NRE/NRO/FCNR, FD receipts, mutual fund and demat holding statements, ESOP/RSU brokerage statements showing vested tranches, salary slip and Form 16, property registration deed with HSVP collector rate valuation, vehicle RC, gold valuation, and all loan statements. For Canada Study Permit, the GIC receipt of CAD 20,635 is added. For Germany Type D, the Sperrkonto EUR 11,904 receipt is added."
+                    }
+                },
+{
+                    "@type": "Question",
+                    "name": "Is UDIN mandatory on a CA net worth certificate?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, UDIN is mandatory on every CA-issued net worth certificate since 1 July 2019, enforced by ICAI. The 18-digit Unique Document Identification Number is generated at udin.icai.org and printed on the certificate. Any embassy officer, bank, or visa officer can verify the certificate's authenticity by entering the UDIN on the ICAI portal. A certificate without UDIN is invalid and is typically rejected at the Delhi missions where Gurugram applicants submit."
+                    }
+                }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-students/gurugram",
+        "name": "Net Worth Certificate for Students in Gurugram",
+        "description": "CA-certified net worth certificate for Gurugram students. Dual currency, UDIN, sponsor format for F-1, Study Permit, Tier 4. Starting INR 1,999.",
+        "url": "https://www.patronaccounting.com/net-worth-certificate-for-students/gurugram",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-students/gurugram/#service" },
+        "datePublished": "2026-07-02T08:00:00+05:30",
+        "dateModified": "2026-07-02T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-students/gurugram/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Get a Net Worth Certificate for Students",
+        "description": "Step-by-step process to obtain a Net Worth Certificate for Students from Patron Accounting.",
+        "totalTime": "P3D",
+        "step": [
+            {
+                    "@type": "HowToStep",
+                    "position": 1,
+                    "name": "Engagement",
+                    "text": "Gurugram student or sponsor calls Patron Accounting, confirms destination, visa category and intake. The engagement letter captures purpose under ICAI SA 200 'Overall Objectives of the Independent Auditor'."
+                },
+{
+                    "@type": "HowToStep",
+                    "position": 2,
+                    "name": "Document collection",
+                    "text": "Upload PAN, Aadhaar, passport, 6-12 months of all bank statements including NRE/NRO/FCNR, FD receipts, MF and demat holding statements, latest ESOP/RSU brokerage statement, property registration deed, vehicle RC, gold valuation, and all loan statements via Patron's secure portal."
+                },
+{
+                    "@type": "HowToStep",
+                    "position": 3,
+                    "name": "Document verification",
+                    "text": "Patron CA cross-checks balances against bank statements, values vested ESOPs and RSUs at fair market value from the brokerage statement under ICAI SA 500, validates Gurugram property at the HSVP collector rate published for the specific sector, and confirms loan outstanding from sanction letters."
+                },
+{
+                    "@type": "HowToStep",
+                    "position": 4,
+                    "name": "Currency conversion",
+                    "text": "Net worth is computed in INR, then converted to destination currency at the RBI reference rate on the certificate date. The rate and date appear on the certificate. NRE/FCNR balances are reported in INR equivalent at the same rate."
+                },
+{
+                    "@type": "HowToStep",
+                    "position": 5,
+                    "name": "Draft preparation and review",
+                    "text": "Draft certificate is emailed within 24 hours for review by the student and the visa consultant. Corrections to passport-match name, address, asset values, and ESOP/RSU vesting tranches happen here."
+                },
+{
+                    "@type": "HowToStep",
+                    "position": 6,
+                    "name": "UDIN generation and final issue",
+                    "text": "Patron CA generates the 18-digit UDIN at udin.icai.org under 'Certificates - Net Worth Certificate', signs on firm letterhead with ICAI seal, and issues the final document. Soft copy emailed same day; hard copy collected from the Gurugram office or couriered."
+                }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Net Worth Certificate for Students Key Terms",
+        "definedTerm": [
+            {
+                    "@type": "DefinedTerm",
+                    "name": "UDIN",
+                    "description": "18-digit Unique Document Identification Number generated by the issuing CA at udin.icai.org for every certificate, mandatory since 1 July 2019."
+                },
+{
+                    "@type": "DefinedTerm",
+                    "name": "ESOP / RSU",
+                    "description": "Employee Stock Option Plan and Restricted Stock Unit. Vested portion qualifies as an asset on the parent's balance sheet and is included at fair market value with the latest brokerage statement (Fidelity, Charles Schwab, Etrade, Morgan Stanley) as evidence."
+                },
+{
+                    "@type": "DefinedTerm",
+                    "name": "NRE / NRO / FCNR",
+                    "description": "Non-Resident External, Non-Resident Ordinary and Foreign Currency Non-Resident accounts. Common where the sponsor is or was a non-resident; balances are included on the asset side with bank statements as evidence."
+                },
+{
+                    "@type": "DefinedTerm",
+                    "name": "HSVP Collector Rate",
+                    "description": "Minimum land value notified by the Haryana Shahari Vikas Pradhikaran for stamp-duty purposes, used as the defensible floor for Gurugram property valuation in the certificate."
+                },
+{
+                    "@type": "DefinedTerm",
+                    "name": "FEMA LRS",
+                    "description": "Liberalised Remittance Scheme under FEMA permits a resident to remit up to USD 250,000 per financial year. Relevant for sponsor remittances to a student abroad and noted in the certificate context where applicable."
+                }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1648,22 +1653,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
-<!-- ============================================
-     CONSULTATION FORM - Country Dropdown + Validation + Bigin Integration
-     ============================================ -->
-{{-- Enquiry form markup + JS now in partials/enquiry-form.blade.php --}}
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1686,8 +1679,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1724,5 +1715,24 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+<!-- ============================================
+     CONSULTATION FORM - Country Dropdown + Validation + Bigin Integration
+     ============================================ -->
+{{-- Enquiry form markup + JS now in partials/enquiry-form.blade.php --}}
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
 
 <!-- Last Updated hardcoded in markup per QC v2.1 (no view-time JS) -->

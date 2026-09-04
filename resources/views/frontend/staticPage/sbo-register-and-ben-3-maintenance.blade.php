@@ -1,186 +1,11 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>SBO Register and BEN-3 Maintenance 2026 | Patron Accounting</title>
-    <meta name="description" content="Maintain your BEN-3 register of significant beneficial owners under Section 90, updated on every change and kept audit-ready. Upkeep from INR 2,499/yr.">
-    <link rel="canonical" href="/sbo-register-and-ben-3-maintenance">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="SBO Register and BEN-3 Maintenance 2026 | Patron Accounting">
-    <meta property="og:description" content="Maintain your BEN-3 register of significant beneficial owners under Section 90, updated on every change and kept audit-ready. Upkeep from INR 2,499/yr.">
-    <meta property="og:url" content="/sbo-register-and-ben-3-maintenance">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="SBO Register and BEN-3 Maintenance 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Maintain your BEN-3 register of significant beneficial owners under Section 90, updated on every change and kept audit-ready. Upkeep from INR 2,499/yr.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/sbo-register-and-ben-3-maintenance/#service",
-        "name": "SBO Register and BEN-3 Maintenance (Section 90)",
-        "description": "BEN-3 maintenance services from Patron Accounting LLP keep the register of significant beneficial owners that every reporting company must maintain under Section 90(2) of the Companies Act, 2013 read with Rule 5(1) of the Companies (Significant Beneficial Owners) Rules accurate and audit-ready year-round, including the set-up of the register in the prescribed format, the entry of each SBO’s details from the BEN-1 declarations received with the relevant dates, the updating of the register whenever beneficial ownership is acquired, changes or ceases, the linking of the register entries to the BEN-2 returns filed and the BEN-4 notices issued, the keeping of the register ready for inspection by members within the prescribed time of not less than two hours each working day on a fee not exceeding fifty rupees, and an annual review of the register against the shareholding, noting that BEN-3 is a register maintained by the company and is not filed with the Registrar.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/sbo-register-and-ben-3-maintenance" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Beneficial ownership", "sameAs": "https://en.wikipedia.org/wiki/Beneficial_ownership" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "BEN-3 Maintenance Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "SBO Register and BEN-3 Maintenance (Section 90) Service",
-                    "priceCurrency": "INR",
-                    "price": "2499",
-                    "description": "Annual BEN-3 register upkeep covering the register set-up, the entries from BEN-1, the updates on change, the linking to filings and inspection readiness, exclusive of GST and government charges. The per-event SBO identification and BEN-2 filing is a separate service charged separately where a new declaration or change has to be reported to the ROC."
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/sbo-register-and-ben-3-maintenance/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Company Compliance", "item": "https://www.patronaccounting.com/corporate-compliance-services" },
-            { "@type": "ListItem", "position": 3, "name": "BEN-3 Maintenance", "item": "https://www.patronaccounting.com/sbo-register-and-ben-3-maintenance" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/sbo-register-and-ben-3-maintenance/#faq",
-        "datePublished": "2026-06-03T08:00:00+05:30",
-        "dateModified": "2026-06-04T08:00:00+05:30",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "What is the BEN-3 register?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Form BEN-3 is the register of beneficial owners holding significant beneficial interest, which every reporting company must maintain under Section 90(2) of the Companies Act, 2013 and Rule 5(1) of the SBO Rules. It records the prescribed details of each significant beneficial owner, along with the dates of their declaration and reporting, and is kept by the company as part of its statutory records." }
-            },
-            {
-                "@type": "Question",
-                "name": "Is BEN-3 filed with the ROC?",
-                "acceptedAnswer": { "@type": "Answer", "text": "No. BEN-3 is a register that the company maintains; it is not a form filed with the Registrar of Companies. This is the key difference from Form BEN-2, which is the return the company files with the ROC on receiving a BEN-1 declaration. The company keeps the BEN-3 register at its end, updates it on any change and makes it available for inspection by members." }
-            },
-            {
-                "@type": "Question",
-                "name": "What details does the BEN-3 register contain?",
-                "acceptedAnswer": { "@type": "Answer", "text": "For each significant beneficial owner, the BEN-3 register records the name, address and contact details, date of birth, parent or spouse name, occupation and nationality, PAN or UIN, passport details for foreign nationals, and the status and nature of the beneficial interest. It also records the dates of the declaration, register entry, any cessation, and the related BEN-2 filing with the Registrar." }
-            },
-            {
-                "@type": "Question",
-                "name": "Who can inspect the BEN-3 register?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Under Section 90(3) and Rule 5(2), the BEN-3 register is open to inspection by any member of the company. The inspection is during business hours, for a period of not less than 2 hours on every working day as the Board may decide, and the company may charge a fee for each inspection that does not exceed 50 rupees. The company fixes the exact time and fee within these limits." }
-            },
-            {
-                "@type": "Question",
-                "name": "When is the BEN-3 register updated?",
-                "acceptedAnswer": { "@type": "Answer", "text": "The BEN-3 register is updated whenever there is a change in significant beneficial ownership, such as an individual becoming an SBO, a change in the extent of the interest, or a cessation. Each BEN-1 declaration received is entered, and the entry is linked to the related BEN-2 filing. Keeping the register current, rather than entering it only once, is what keeps it compliant." }
-            },
-            {
-                "@type": "Question",
-                "name": "How is BEN-3 different from BEN-1 and BEN-2?",
-                "acceptedAnswer": { "@type": "Answer", "text": "BEN-1 is the declaration the significant beneficial owner gives to the company, BEN-2 is the return the company files with the Registrar on receiving that declaration, and BEN-3 is the register the company maintains recording all such declarations. BEN-1 and BEN-2 are forms with filing or submission steps, while BEN-3 is an ongoing register kept and updated by the company." }
-            },
-            {
-                "@type": "Question",
-                "name": "Do LLPs have to maintain a BEN-3 register?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Yes. Under the SBO rules applicable to LLPs, effective from 10 November 2023, an LLP must identify its significant beneficial owners, obtain declarations, report them to the Registrar, and maintain a register of significant beneficial owners in Form LLP BEN-3. The LLP register works in much the same way as a company's BEN-3 register and must be kept current." }
-            },
-            {
-                "@type": "Question",
-                "name": "What happens if the BEN-3 register is not maintained?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Failing to maintain the BEN-3 register, or keeping it incomplete or out of date, is a non-compliance under Section 90 and the SBO Rules and can attract penalties on the company and its officers in default. It can also cause the company to fail an audit, a secretarial review or a due diligence. Keeping the register current and inspection-ready avoids these risks." }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/sbo-register-and-ben-3-maintenance",
-        "name": "SBO Register and BEN-3 Maintenance (Section 90)",
-        "description": "Maintain your BEN-3 register of significant beneficial owners under Section 90, updated on every change and kept audit-ready. Upkeep from INR 2,499/yr.",
-        "url": "https://www.patronaccounting.com/sbo-register-and-ben-3-maintenance",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/sbo-register-and-ben-3-maintenance/#service" },
-        "datePublished": "2026-06-03T08:00:00+05:30",
-        "dateModified": "2026-06-04T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/sbo-register-and-ben-3-maintenance/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How We Maintain Your BEN-3 Register: Step by Step",
-        "description": "How the BEN-3 register of significant beneficial owners is maintained under Section 90(2) and Rule 5(1), from set-up and entry from BEN-1 through updates on change to inspection readiness and an annual review.",
-        "totalTime": "P365D",
-        "step": [
-            { "@type": "HowToStep", "name": "Set up the register", "text": "Create the BEN-3 register in the prescribed format with the Rule 5(1) contents." },
-            { "@type": "HowToStep", "name": "Enter the SBOs", "text": "Record each significant beneficial owner from the BEN-1 declarations, with the prescribed details and dates." },
-            { "@type": "HowToStep", "name": "Capture changes", "text": "Track any acquisition, change or cessation of beneficial ownership through the year." },
-            { "@type": "HowToStep", "name": "Update the register", "text": "Enter each change promptly so the register always reflects the current position." },
-            { "@type": "HowToStep", "name": "Link the filings", "text": "Tie each entry to the related BEN-2 return and any BEN-4 notice." },
-            { "@type": "HowToStep", "name": "Keep it inspection-ready", "text": "Maintain the register so it can be inspected by members within the prescribed time and fee." },
-            { "@type": "HowToStep", "name": "Review annually", "text": "Reconcile the register against the shareholding each year and confirm it is complete." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "BEN-3 Maintenance Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "BEN-3", "description": "The register of significant beneficial owners maintained by the company." },
-            { "@type": "DefinedTerm", "name": "Maintained, not filed", "description": "BEN-3 is kept by the company; it is not submitted to the ROC like BEN-2." },
-            { "@type": "DefinedTerm", "name": "Rule 5(1)", "description": "The rule prescribing the form and contents of the BEN-3 register." },
-            { "@type": "DefinedTerm", "name": "Inspection", "description": "A member's right to inspect the register, for at least 2 hours a working day on a small fee." },
-            { "@type": "DefinedTerm", "name": "Update on change", "description": "The duty to revise the register whenever beneficial ownership changes." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -794,7 +619,187 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>SBO Register and BEN-3 Maintenance 2026 | Patron Accounting</title>
+    <meta name="description" content="Maintain your BEN-3 register of significant beneficial owners under Section 90, updated on every change and kept audit-ready. Upkeep from INR 2,499/yr.">
+    <link rel="canonical" href="/sbo-register-and-ben-3-maintenance">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="SBO Register and BEN-3 Maintenance 2026 | Patron Accounting">
+    <meta property="og:description" content="Maintain your BEN-3 register of significant beneficial owners under Section 90, updated on every change and kept audit-ready. Upkeep from INR 2,499/yr.">
+    <meta property="og:url" content="/sbo-register-and-ben-3-maintenance">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="SBO Register and BEN-3 Maintenance 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Maintain your BEN-3 register of significant beneficial owners under Section 90, updated on every change and kept audit-ready. Upkeep from INR 2,499/yr.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/sbo-register-and-ben-3-maintenance/#service",
+        "name": "SBO Register and BEN-3 Maintenance (Section 90)",
+        "description": "BEN-3 maintenance services from Patron Accounting LLP keep the register of significant beneficial owners that every reporting company must maintain under Section 90(2) of the Companies Act, 2013 read with Rule 5(1) of the Companies (Significant Beneficial Owners) Rules accurate and audit-ready year-round, including the set-up of the register in the prescribed format, the entry of each SBO’s details from the BEN-1 declarations received with the relevant dates, the updating of the register whenever beneficial ownership is acquired, changes or ceases, the linking of the register entries to the BEN-2 returns filed and the BEN-4 notices issued, the keeping of the register ready for inspection by members within the prescribed time of not less than two hours each working day on a fee not exceeding fifty rupees, and an annual review of the register against the shareholding, noting that BEN-3 is a register maintained by the company and is not filed with the Registrar.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/sbo-register-and-ben-3-maintenance" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Beneficial ownership", "sameAs": "https://en.wikipedia.org/wiki/Beneficial_ownership" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "BEN-3 Maintenance Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "SBO Register and BEN-3 Maintenance (Section 90) Service",
+                    "priceCurrency": "INR",
+                    "price": "2499",
+                    "description": "Annual BEN-3 register upkeep covering the register set-up, the entries from BEN-1, the updates on change, the linking to filings and inspection readiness, exclusive of GST and government charges. The per-event SBO identification and BEN-2 filing is a separate service charged separately where a new declaration or change has to be reported to the ROC."
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/sbo-register-and-ben-3-maintenance/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Company Compliance", "item": "https://www.patronaccounting.com/corporate-compliance-services" },
+            { "@type": "ListItem", "position": 3, "name": "BEN-3 Maintenance", "item": "https://www.patronaccounting.com/sbo-register-and-ben-3-maintenance" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/sbo-register-and-ben-3-maintenance/#faq",
+        "datePublished": "2026-06-03T08:00:00+05:30",
+        "dateModified": "2026-06-04T08:00:00+05:30",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is the BEN-3 register?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Form BEN-3 is the register of beneficial owners holding significant beneficial interest, which every reporting company must maintain under Section 90(2) of the Companies Act, 2013 and Rule 5(1) of the SBO Rules. It records the prescribed details of each significant beneficial owner, along with the dates of their declaration and reporting, and is kept by the company as part of its statutory records." }
+            },
+            {
+                "@type": "Question",
+                "name": "Is BEN-3 filed with the ROC?",
+                "acceptedAnswer": { "@type": "Answer", "text": "No. BEN-3 is a register that the company maintains; it is not a form filed with the Registrar of Companies. This is the key difference from Form BEN-2, which is the return the company files with the ROC on receiving a BEN-1 declaration. The company keeps the BEN-3 register at its end, updates it on any change and makes it available for inspection by members." }
+            },
+            {
+                "@type": "Question",
+                "name": "What details does the BEN-3 register contain?",
+                "acceptedAnswer": { "@type": "Answer", "text": "For each significant beneficial owner, the BEN-3 register records the name, address and contact details, date of birth, parent or spouse name, occupation and nationality, PAN or UIN, passport details for foreign nationals, and the status and nature of the beneficial interest. It also records the dates of the declaration, register entry, any cessation, and the related BEN-2 filing with the Registrar." }
+            },
+            {
+                "@type": "Question",
+                "name": "Who can inspect the BEN-3 register?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Under Section 90(3) and Rule 5(2), the BEN-3 register is open to inspection by any member of the company. The inspection is during business hours, for a period of not less than 2 hours on every working day as the Board may decide, and the company may charge a fee for each inspection that does not exceed 50 rupees. The company fixes the exact time and fee within these limits." }
+            },
+            {
+                "@type": "Question",
+                "name": "When is the BEN-3 register updated?",
+                "acceptedAnswer": { "@type": "Answer", "text": "The BEN-3 register is updated whenever there is a change in significant beneficial ownership, such as an individual becoming an SBO, a change in the extent of the interest, or a cessation. Each BEN-1 declaration received is entered, and the entry is linked to the related BEN-2 filing. Keeping the register current, rather than entering it only once, is what keeps it compliant." }
+            },
+            {
+                "@type": "Question",
+                "name": "How is BEN-3 different from BEN-1 and BEN-2?",
+                "acceptedAnswer": { "@type": "Answer", "text": "BEN-1 is the declaration the significant beneficial owner gives to the company, BEN-2 is the return the company files with the Registrar on receiving that declaration, and BEN-3 is the register the company maintains recording all such declarations. BEN-1 and BEN-2 are forms with filing or submission steps, while BEN-3 is an ongoing register kept and updated by the company." }
+            },
+            {
+                "@type": "Question",
+                "name": "Do LLPs have to maintain a BEN-3 register?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Yes. Under the SBO rules applicable to LLPs, effective from 10 November 2023, an LLP must identify its significant beneficial owners, obtain declarations, report them to the Registrar, and maintain a register of significant beneficial owners in Form LLP BEN-3. The LLP register works in much the same way as a company's BEN-3 register and must be kept current." }
+            },
+            {
+                "@type": "Question",
+                "name": "What happens if the BEN-3 register is not maintained?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Failing to maintain the BEN-3 register, or keeping it incomplete or out of date, is a non-compliance under Section 90 and the SBO Rules and can attract penalties on the company and its officers in default. It can also cause the company to fail an audit, a secretarial review or a due diligence. Keeping the register current and inspection-ready avoids these risks." }
+            }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/sbo-register-and-ben-3-maintenance",
+        "name": "SBO Register and BEN-3 Maintenance (Section 90)",
+        "description": "Maintain your BEN-3 register of significant beneficial owners under Section 90, updated on every change and kept audit-ready. Upkeep from INR 2,499/yr.",
+        "url": "https://www.patronaccounting.com/sbo-register-and-ben-3-maintenance",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/sbo-register-and-ben-3-maintenance/#service" },
+        "datePublished": "2026-06-03T08:00:00+05:30",
+        "dateModified": "2026-06-04T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/sbo-register-and-ben-3-maintenance/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How We Maintain Your BEN-3 Register: Step by Step",
+        "description": "How the BEN-3 register of significant beneficial owners is maintained under Section 90(2) and Rule 5(1), from set-up and entry from BEN-1 through updates on change to inspection readiness and an annual review.",
+        "totalTime": "P365D",
+        "step": [
+            { "@type": "HowToStep", "name": "Set up the register", "text": "Create the BEN-3 register in the prescribed format with the Rule 5(1) contents." },
+            { "@type": "HowToStep", "name": "Enter the SBOs", "text": "Record each significant beneficial owner from the BEN-1 declarations, with the prescribed details and dates." },
+            { "@type": "HowToStep", "name": "Capture changes", "text": "Track any acquisition, change or cessation of beneficial ownership through the year." },
+            { "@type": "HowToStep", "name": "Update the register", "text": "Enter each change promptly so the register always reflects the current position." },
+            { "@type": "HowToStep", "name": "Link the filings", "text": "Tie each entry to the related BEN-2 return and any BEN-4 notice." },
+            { "@type": "HowToStep", "name": "Keep it inspection-ready", "text": "Maintain the register so it can be inspected by members within the prescribed time and fee." },
+            { "@type": "HowToStep", "name": "Review annually", "text": "Reconcile the register against the shareholding each year and confirm it is complete." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "BEN-3 Maintenance Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "BEN-3", "description": "The register of significant beneficial owners maintained by the company." },
+            { "@type": "DefinedTerm", "name": "Maintained, not filed", "description": "BEN-3 is kept by the company; it is not submitted to the ROC like BEN-2." },
+            { "@type": "DefinedTerm", "name": "Rule 5(1)", "description": "The rule prescribing the form and contents of the BEN-3 register." },
+            { "@type": "DefinedTerm", "name": "Inspection", "description": "A member's right to inspect the register, for at least 2 hours a working day on a small fee." },
+            { "@type": "DefinedTerm", "name": "Update on change", "description": "The duty to revise the register whenever beneficial ownership changes." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1567,17 +1572,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1600,8 +1598,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1638,7 +1634,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1 (corrected): Last Updated mirrors schema dateModified — STABLE hardcoded date, never live new Date()
 (function() {
@@ -1649,3 +1644,19 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

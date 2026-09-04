@@ -1,146 +1,12 @@
 
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Sponsorship Affidavit and Net Worth Certificate in Mumbai 2026 | Patron Accounting</title>
-    <meta name="description" content="Net worth certificate plus sponsorship affidavit drafting and notarisation guidance for visa sponsors. UDIN-verified. Starting from INR 2,999.">
-    <link rel="canonical" href="/sponsorship-affidavit-and-net-worth-certificate/mumbai">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Sponsorship Affidavit and Net Worth Certificate 2026 | Patron Accounting">
-    <meta property="og:description" content="Net worth certificate plus sponsorship affidavit drafting and notarisation guidance for visa sponsors. UDIN-verified. Starting from INR 2,999.">
-    <meta property="og:url" content="/sponsorship-affidavit-and-net-worth-certificate/mumbai">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Sponsorship Affidavit and Net Worth Certificate 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Net worth certificate plus sponsorship affidavit drafting and notarisation guidance for visa sponsors. UDIN-verified. Starting from INR 2,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/sponsorship-affidavit-and-net-worth-certificate/mumbai/#service",
-        "name": "Sponsorship Affidavit and Net Worth Certificate",
-        "description": "A sponsor package combining sponsorship affidavit drafting, notarisation guidance under the Notaries Act 1952, and a CA-certified net worth certificate with a mandatory UDIN, prepared for a parent, spouse, relative or employer funding a visa applicant.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/sponsorship-affidavit-and-net-worth-certificate/mumbai" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Affidavit", "sameAs": "https://en.wikipedia.org/wiki/Affidavit" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Sponsorship Affidavit and Net Worth Certificate Service Plans",
-            "itemListElement": [
-                { "@type": "Offer", "name": "Sponsorship Affidavit and Net Worth Certificate (UDIN-verified)", "priceCurrency": "INR", "price": "2999", "description": "A bundled sponsor package: sponsorship affidavit drafting, notarisation guidance under the Notaries Act 1952, and a CA-certified net worth certificate with a UDIN, for a parent, spouse, relative or employer funding a visa applicant." }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/sponsorship-affidavit-and-net-worth-certificate/mumbai/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
-            { "@type": "ListItem", "position": 3, "name": "Sponsorship Affidavit and Net Worth Certificate", "item": "https://www.patronaccounting.com/sponsorship-affidavit-and-net-worth-certificate/mumbai" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/sponsorship-affidavit-and-net-worth-certificate/mumbai/#faq",
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "mainEntity": [
-            { "@type": "Question", "name": "Who can be a sponsor on the affidavit?", "acceptedAnswer": { "@type": "Answer", "text": "A sponsor is usually a parent, spouse or close relative such as a sibling, uncle, aunt or grandparent, and in some cases an employer. The relationship must be clearly stated in the affidavit and supported by proof such as a birth or marriage certificate. Parents have the strongest standing as sponsors when backed by sufficient income and assets, which the net worth certificate evidences." } },
-            { "@type": "Question", "name": "Why are the affidavit and net worth certificate needed together?", "acceptedAnswer": { "@type": "Answer", "text": "An affidavit is a sworn promise to fund the applicant, but on its own it carries little weight with visa officers. The CA-certified net worth certificate provides the independent financial proof that gives the affidavit credibility. Submitting them together, with matching figures, shows the sponsor genuinely has the assets and income to honour the commitment, which is why embassies and universities expect both." } },
-            { "@type": "Question", "name": "Does the sponsorship affidavit need to be notarised?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, in most cases. A sponsorship affidavit is executed on non-judicial stamp paper and notarised before a Notary Public under the Notaries Act, 1952, or sworn before an Oath Commissioner under the Oaths Act, 1969. For NRI sponsors abroad, it can be executed before an Indian consular officer. Notarisation confirms the sponsor's identity and that the declaration was made voluntarily under oath." } },
-            { "@type": "Question", "name": "What does the package cost?", "acceptedAnswer": { "@type": "Answer", "text": "At Patron Accounting, the sponsorship affidavit and net worth certificate package starts from Rs 2,999 (exclusive of GST and government charges). The fee covers affidavit drafting, notarisation guidance and the CA-certified net worth certificate. Stamp paper and notary charges are paid separately to the relevant authority. Final fees are confirmed after a quick review of the sponsor's documents." } },
-            { "@type": "Question", "name": "Can my parents abroad sponsor me from outside India?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. An NRI sponsor can execute the sponsorship affidavit before an Indian consular officer at an embassy or high commission, which has attestation powers for documents used in India. The net worth certificate can include the sponsor's Indian and overseas assets. Together they evidence that an overseas parent or relative has the financial capacity to fund the applicant." } },
-            { "@type": "Question", "name": "Is a US Form I-134 the same as this affidavit?", "acceptedAnswer": { "@type": "Answer", "text": "Form I-134 is the US affidavit of support used for visitor and student visas, signed under penalty of perjury, and it does not require Indian notarisation. A custom sponsorship affidavit on stamp paper is used for most other countries and for Indian-side requirements. Form I-134 is different from Form I-864, which is used for green card applications. We help you use the correct document for your destination." } },
-            { "@type": "Question", "name": "How long does the package take?", "acceptedAnswer": { "@type": "Answer", "text": "Most sponsor packages are ready within 1 to 2 working days once complete documents are received. The net worth certificate is certified after the CA verifies the assets, and the affidavit can usually be drafted and notarised the same day, as affidavits in India are typically prepared and notarised within a day. Time the package close to your visa or university deadline." } }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/sponsorship-affidavit-and-net-worth-certificate/mumbai",
-        "name": "Sponsorship Affidavit and Net Worth Certificate",
-        "description": "Net worth certificate plus sponsorship affidavit drafting and notarisation guidance for visa sponsors. UDIN-verified. Starting from INR 2,999.",
-        "url": "https://www.patronaccounting.com/sponsorship-affidavit-and-net-worth-certificate/mumbai",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/sponsorship-affidavit-and-net-worth-certificate/mumbai/#service" },
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/sponsorship-affidavit-and-net-worth-certificate/mumbai/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How to Get the Sponsorship Affidavit and Net Worth Certificate Package",
-        "description": "Five steps to get the sponsor package: confirm the destination and sponsor, submit documents, CA verification and net worth certificate, affidavit drafting, and notarisation.",
-        "totalTime": "P2D",
-        "step": [
-            { "@type": "HowToStep", "name": "Confirm the destination and sponsor", "text": "Confirm the destination, visa type and whether the sponsor is a parent, spouse, relative or employer." },
-            { "@type": "HowToStep", "name": "Submit documents", "text": "Sponsor's ID, relationship proof, bank statements, ITRs, property and investment proofs." },
-            { "@type": "HowToStep", "name": "CA verification and net worth certificate", "text": "Assets and liabilities verified under SA 500 (Audit Evidence) and certified with a UDIN." },
-            { "@type": "HowToStep", "name": "Affidavit drafting", "text": "The sponsorship affidavit is drafted to reference the same financials." },
-            { "@type": "HowToStep", "name": "Notarisation", "text": "The sponsor executes the affidavit on non-judicial stamp paper before a Notary Public, per our guidance." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Sponsorship Affidavit and Net Worth Certificate Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Sponsorship affidavit", "description": "A sworn undertaking by a sponsor to bear the applicant's tuition, living and travel costs." },
-            { "@type": "DefinedTerm", "name": "Net worth certificate", "description": "A CA-certified statement of the sponsor's total assets minus liabilities, with a UDIN." },
-            { "@type": "DefinedTerm", "name": "Non-judicial stamp paper", "description": "The stamped paper on which the affidavit is executed, under the Indian Stamp Act 1899 and State Stamp Acts." },
-            { "@type": "DefinedTerm", "name": "Notary Public", "description": "The officer under the Notaries Act 1952 who administers the oath and attests the affidavit." },
-            { "@type": "DefinedTerm", "name": "Form I-134", "description": "The US affidavit of support for visitor and student visas, signed under penalty of perjury (distinct from Form I-864 for green cards)." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -754,7 +620,146 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Sponsorship Affidavit and Net Worth Certificate in Mumbai 2026 | Patron Accounting</title>
+    <meta name="description" content="Net worth certificate plus sponsorship affidavit drafting and notarisation guidance for visa sponsors. UDIN-verified. Starting from INR 2,999.">
+    <link rel="canonical" href="/sponsorship-affidavit-and-net-worth-certificate/mumbai">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Sponsorship Affidavit and Net Worth Certificate 2026 | Patron Accounting">
+    <meta property="og:description" content="Net worth certificate plus sponsorship affidavit drafting and notarisation guidance for visa sponsors. UDIN-verified. Starting from INR 2,999.">
+    <meta property="og:url" content="/sponsorship-affidavit-and-net-worth-certificate/mumbai">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Sponsorship Affidavit and Net Worth Certificate 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Net worth certificate plus sponsorship affidavit drafting and notarisation guidance for visa sponsors. UDIN-verified. Starting from INR 2,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/sponsorship-affidavit-and-net-worth-certificate/mumbai/#service",
+        "name": "Sponsorship Affidavit and Net Worth Certificate",
+        "description": "A sponsor package combining sponsorship affidavit drafting, notarisation guidance under the Notaries Act 1952, and a CA-certified net worth certificate with a mandatory UDIN, prepared for a parent, spouse, relative or employer funding a visa applicant.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/sponsorship-affidavit-and-net-worth-certificate/mumbai" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Affidavit", "sameAs": "https://en.wikipedia.org/wiki/Affidavit" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Sponsorship Affidavit and Net Worth Certificate Service Plans",
+            "itemListElement": [
+                { "@type": "Offer", "name": "Sponsorship Affidavit and Net Worth Certificate (UDIN-verified)", "priceCurrency": "INR", "price": "2999", "description": "A bundled sponsor package: sponsorship affidavit drafting, notarisation guidance under the Notaries Act 1952, and a CA-certified net worth certificate with a UDIN, for a parent, spouse, relative or employer funding a visa applicant." }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/sponsorship-affidavit-and-net-worth-certificate/mumbai/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
+            { "@type": "ListItem", "position": 3, "name": "Sponsorship Affidavit and Net Worth Certificate", "item": "https://www.patronaccounting.com/sponsorship-affidavit-and-net-worth-certificate/mumbai" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/sponsorship-affidavit-and-net-worth-certificate/mumbai/#faq",
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "mainEntity": [
+            { "@type": "Question", "name": "Who can be a sponsor on the affidavit?", "acceptedAnswer": { "@type": "Answer", "text": "A sponsor is usually a parent, spouse or close relative such as a sibling, uncle, aunt or grandparent, and in some cases an employer. The relationship must be clearly stated in the affidavit and supported by proof such as a birth or marriage certificate. Parents have the strongest standing as sponsors when backed by sufficient income and assets, which the net worth certificate evidences." } },
+            { "@type": "Question", "name": "Why are the affidavit and net worth certificate needed together?", "acceptedAnswer": { "@type": "Answer", "text": "An affidavit is a sworn promise to fund the applicant, but on its own it carries little weight with visa officers. The CA-certified net worth certificate provides the independent financial proof that gives the affidavit credibility. Submitting them together, with matching figures, shows the sponsor genuinely has the assets and income to honour the commitment, which is why embassies and universities expect both." } },
+            { "@type": "Question", "name": "Does the sponsorship affidavit need to be notarised?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, in most cases. A sponsorship affidavit is executed on non-judicial stamp paper and notarised before a Notary Public under the Notaries Act, 1952, or sworn before an Oath Commissioner under the Oaths Act, 1969. For NRI sponsors abroad, it can be executed before an Indian consular officer. Notarisation confirms the sponsor's identity and that the declaration was made voluntarily under oath." } },
+            { "@type": "Question", "name": "What does the package cost?", "acceptedAnswer": { "@type": "Answer", "text": "At Patron Accounting, the sponsorship affidavit and net worth certificate package starts from Rs 2,999 (exclusive of GST and government charges). The fee covers affidavit drafting, notarisation guidance and the CA-certified net worth certificate. Stamp paper and notary charges are paid separately to the relevant authority. Final fees are confirmed after a quick review of the sponsor's documents." } },
+            { "@type": "Question", "name": "Can my parents abroad sponsor me from outside India?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. An NRI sponsor can execute the sponsorship affidavit before an Indian consular officer at an embassy or high commission, which has attestation powers for documents used in India. The net worth certificate can include the sponsor's Indian and overseas assets. Together they evidence that an overseas parent or relative has the financial capacity to fund the applicant." } },
+            { "@type": "Question", "name": "Is a US Form I-134 the same as this affidavit?", "acceptedAnswer": { "@type": "Answer", "text": "Form I-134 is the US affidavit of support used for visitor and student visas, signed under penalty of perjury, and it does not require Indian notarisation. A custom sponsorship affidavit on stamp paper is used for most other countries and for Indian-side requirements. Form I-134 is different from Form I-864, which is used for green card applications. We help you use the correct document for your destination." } },
+            { "@type": "Question", "name": "How long does the package take?", "acceptedAnswer": { "@type": "Answer", "text": "Most sponsor packages are ready within 1 to 2 working days once complete documents are received. The net worth certificate is certified after the CA verifies the assets, and the affidavit can usually be drafted and notarised the same day, as affidavits in India are typically prepared and notarised within a day. Time the package close to your visa or university deadline." } }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/sponsorship-affidavit-and-net-worth-certificate/mumbai",
+        "name": "Sponsorship Affidavit and Net Worth Certificate",
+        "description": "Net worth certificate plus sponsorship affidavit drafting and notarisation guidance for visa sponsors. UDIN-verified. Starting from INR 2,999.",
+        "url": "https://www.patronaccounting.com/sponsorship-affidavit-and-net-worth-certificate/mumbai",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/sponsorship-affidavit-and-net-worth-certificate/mumbai/#service" },
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/sponsorship-affidavit-and-net-worth-certificate/mumbai/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Get the Sponsorship Affidavit and Net Worth Certificate Package",
+        "description": "Five steps to get the sponsor package: confirm the destination and sponsor, submit documents, CA verification and net worth certificate, affidavit drafting, and notarisation.",
+        "totalTime": "P2D",
+        "step": [
+            { "@type": "HowToStep", "name": "Confirm the destination and sponsor", "text": "Confirm the destination, visa type and whether the sponsor is a parent, spouse, relative or employer." },
+            { "@type": "HowToStep", "name": "Submit documents", "text": "Sponsor's ID, relationship proof, bank statements, ITRs, property and investment proofs." },
+            { "@type": "HowToStep", "name": "CA verification and net worth certificate", "text": "Assets and liabilities verified under SA 500 (Audit Evidence) and certified with a UDIN." },
+            { "@type": "HowToStep", "name": "Affidavit drafting", "text": "The sponsorship affidavit is drafted to reference the same financials." },
+            { "@type": "HowToStep", "name": "Notarisation", "text": "The sponsor executes the affidavit on non-judicial stamp paper before a Notary Public, per our guidance." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Sponsorship Affidavit and Net Worth Certificate Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Sponsorship affidavit", "description": "A sworn undertaking by a sponsor to bear the applicant's tuition, living and travel costs." },
+            { "@type": "DefinedTerm", "name": "Net worth certificate", "description": "A CA-certified statement of the sponsor's total assets minus liabilities, with a UDIN." },
+            { "@type": "DefinedTerm", "name": "Non-judicial stamp paper", "description": "The stamped paper on which the affidavit is executed, under the Indian Stamp Act 1899 and State Stamp Acts." },
+            { "@type": "DefinedTerm", "name": "Notary Public", "description": "The officer under the Notaries Act 1952 who administers the oath and attests the affidavit." },
+            { "@type": "DefinedTerm", "name": "Form I-134", "description": "The US affidavit of support for visitor and student visas, signed under penalty of perjury (distinct from Form I-864 for green cards)." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1511,17 +1516,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1544,8 +1542,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1582,7 +1578,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (stable, not live date)
 (function(){
@@ -1593,3 +1588,19 @@ window.addEventListener('scroll', function() {
     if(el2)el2.textContent=dateStr;
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

@@ -1,67 +1,5 @@
 @extends('layouts.app')
-@section('meta')
-    <title>CTC to In-Hand Salary Calculator | Take-Home FY 2025-26</title>
-    <meta name="description" content="CTC to in-hand salary calculator: convert your CTC to monthly take-home pay after EPF, gratuity, professional tax and income tax for FY 2025-26. Free, instant!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/ctc-to-in-hand-salary-calculator">
-    <meta property="og:title" content="CTC to In-Hand Salary Calculator — Take Home Pay 2026">
-    <meta property="og:description" content="Convert CTC to monthly take-home salary after EPF, gratuity, professional tax and income tax for FY 2025-26.">
-    <meta property="og:type" content="website">
-    <meta property="og:locale" content="en_IN">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/ctc-to-in-hand-salary-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="CTC to In-Hand Salary Calculator — Take Home Pay 2026">
-    <meta name="twitter:description" content="Convert CTC to in-hand salary for FY 2025-26. EPF, tax, gratuity deductions. Free!">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-<script type="application/ld+json">
-    {
-      "@context": "https://schema.org", "@type": "WebApplication",
-      "name": "CTC to In-Hand Salary Calculator India",
-      "description": "CTC to In-Hand Salary Calculator converts annual Cost to Company into monthly take-home salary after deducting employer PF, gratuity, employee PF, professional tax, and income tax under both old and new tax regimes for FY 2025-26. Shows complete salary breakup with Basic, HRA, Special Allowance, and all statutory deductions for Indian employees.",
-      "url": "https://www.patronaccounting.com/tools/ctc-to-in-hand-salary-calculator",
-      "applicationCategory": "UtilityApplication", "operatingSystem": "Any",
-      "datePublished": "2026-03-05", "dateModified": "2026-03-05",
-      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" },
-      "author": { "@type": "Person", "@id": "https://patronaccounting.com/#team", "name": "CA & CS Patron Accounting Team", "jobTitle": "Chartered Accountants & Company Secretaries", "url": "https://www.patronaccounting.com/contact-page", "sameAs": ["https://www.linkedin.com/company/patron-accounting"], "hasCredential": [{ "@type": "EducationalOccupationalCredential", "credentialCategory": "Professional Certification", "name": "Chartered Accountant (CA)", "recognizedBy": { "@type": "Organization", "name": "Institute of Chartered Accountants of India", "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India" } }] },
-      "publisher": { "@type": "Organization", "name": "Patron Accounting LLP", "url": "https://www.patronaccounting.com", "logo": { "@type": "ImageObject", "url": "https://www.patronaccounting.com/images/site-logo.svg" } },
-      "provider": { "@id": "https://patronaccounting.com/#organization" }
-    }
-    </script>
-<script type="application/ld+json">
-    { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-      {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-      {"@type": "ListItem", "position": 3, "name": "CTC to In-Hand Salary Calculator", "item": "https://www.patronaccounting.com/tools/ctc-to-in-hand-salary-calculator"}
-    ]}
-    </script>
-<script type="application/ld+json">
-    { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
-      { "@type": "Question", "name": "How is in-hand salary calculated from CTC?", "acceptedAnswer": { "@type": "Answer", "text": "In-hand salary is calculated by first deriving gross salary from CTC by subtracting employer PF contribution and gratuity. Then employee deductions like EPF (12% of basic), professional tax (up to Rs 2,500 per year), and income tax (TDS) are subtracted from gross salary. The resulting amount is your monthly take-home or in-hand salary. Typically in-hand salary is 60-70% of CTC." } },
-      { "@type": "Question", "name": "What is the difference between CTC and in-hand salary?", "acceptedAnswer": { "@type": "Answer", "text": "CTC (Cost to Company) is the total annual expenditure by the employer including basic salary, allowances, employer PF, gratuity, insurance, and bonuses. In-hand salary is the net amount credited to your bank account after deducting employee PF, professional tax, income tax (TDS), and other deductions. CTC includes components like employer PF and gratuity that never reach your bank account directly." } },
-      { "@type": "Question", "name": "What percentage of CTC is basic salary?", "acceptedAnswer": { "@type": "Answer", "text": "Basic salary typically ranges from 40% to 50% of CTC in India. There is no statutory minimum for basic salary in the private sector, but it impacts HRA calculation, PF contribution, and gratuity amount. A higher basic means higher PF and gratuity but also higher tax liability. Most companies set basic at 40% of gross salary to balance tax efficiency and retirement benefits." } },
-      { "@type": "Question", "name": "What is EPF contribution and how does it affect salary?", "acceptedAnswer": { "@type": "Answer", "text": "Both employer and employee contribute 12% of basic salary (capped at Rs 15,000 per month) to the Employee Provident Fund. The employee contribution of Rs 1,800 per month is deducted from gross salary. The employer contribution is part of CTC but does not appear in your in-hand salary. Of the employer 12%, 8.33% goes to Employees Pension Scheme (EPS) and 3.67% to EPF account." } },
-      { "@type": "Question", "name": "What is professional tax and which states charge it?", "acceptedAnswer": { "@type": "Answer", "text": "Professional tax is a state-level employment tax with a maximum limit of Rs 2,500 per year. States that levy it include Maharashtra, Karnataka, West Bengal, Andhra Pradesh, Telangana, Tamil Nadu, Gujarat, Madhya Pradesh, Kerala, Meghalaya, Tripura, Assam, and Odisha. The rate varies by state and salary slab. Delhi, Haryana, Rajasthan, UP, and Punjab do not levy professional tax." } },
-      { "@type": "Question", "name": "How is HRA calculated and what is the tax exemption?", "acceptedAnswer": { "@type": "Answer", "text": "HRA is typically 50% of basic salary for metro cities (Mumbai, Delhi, Kolkata, Chennai) and 40% for non-metro cities. HRA tax exemption under Section 10(13A) is the lowest of actual HRA received, rent paid minus 10% of basic salary, or 50% of basic for metro (40% for non-metro). If you do not live in rented accommodation, the entire HRA is fully taxable." } },
-      { "@type": "Question", "name": "What are the income tax slabs under the new regime for FY 2025-26?", "acceptedAnswer": { "@type": "Answer", "text": "Under the new tax regime for FY 2025-26: income up to Rs 4 lakh is nil, Rs 4-8 lakh at 5%, Rs 8-12 lakh at 10%, Rs 12-16 lakh at 15%, Rs 16-20 lakh at 20%, Rs 20-24 lakh at 25%, and above Rs 24 lakh at 30%. Standard deduction of Rs 75,000 applies. Tax rebate under Section 87A makes income up to Rs 12 lakh effectively tax-free under the new regime." } },
-      { "@type": "Question", "name": "What is gratuity and how is it calculated?", "acceptedAnswer": { "@type": "Answer", "text": "Gratuity is a retirement benefit payable after 5 years of continuous service under the Payment of Gratuity Act, 1972. It is calculated as: Basic Salary times 15 divided by 26 times Years of Service. For CTC purposes, employers typically provision gratuity at 4.81% of basic salary annually. Gratuity is part of CTC but is paid only upon separation after completing 5 years of service." } },
-      { "@type": "Question", "name": "Should I choose old or new tax regime for higher take-home salary?", "acceptedAnswer": { "@type": "Answer", "text": "The new regime is beneficial if you do not have significant deductions under 80C, 80D, HRA exemption, and home loan interest. For salaries up to Rs 12 lakh, the new regime gives zero tax with the rebate. For higher salaries, compare both regimes by calculating total deductions and exemptions available under the old regime. Use our calculator to compare both and pick the one giving higher take-home." } },
-      { "@type": "Question", "name": "What is the maximum limit for EPF contribution?", "acceptedAnswer": { "@type": "Answer", "text": "EPF contribution is calculated on basic salary capped at Rs 15,000 per month. Both employee and employer contribute 12% each, which is Rs 1,800 per month. If basic salary exceeds Rs 15,000, some employers restrict PF to the statutory limit while others contribute on actual basic. The choice affects both in-hand salary and retirement corpus. Voluntary PF above the limit is allowed." } },
-      { "@type": "Question", "name": "What components are included in CTC but not in in-hand salary?", "acceptedAnswer": { "@type": "Answer", "text": "Components in CTC but not in monthly in-hand salary include employer PF contribution (12% of basic), gratuity provision (4.81% of basic), employer ESI contribution (3.25% of gross if applicable), group health insurance premium, performance bonus or variable pay (paid quarterly or annually, not monthly), and any other employer-borne benefits like food coupons or company car lease." } },
-      { "@type": "Question", "name": "How does variable pay or bonus affect in-hand salary?", "acceptedAnswer": { "@type": "Answer", "text": "Variable pay or performance bonus is part of CTC but not part of monthly fixed salary. It is typically paid quarterly or annually based on performance targets. When calculating monthly in-hand salary, exclude variable pay since it is not guaranteed. Our calculator lets you enter the bonus component separately so your monthly take-home reflects only the fixed guaranteed portion of your package." } },
-      { "@type": "Question", "name": "Can a CA help with salary structuring for tax efficiency?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, a Chartered Accountant can restructure your salary to maximise take-home pay legally. This includes optimising HRA, setting basic salary at the right percentage, utilising meal vouchers and NPS employer contribution, and advising on the best tax regime. Patron Accounting provides salary structuring advisory and complete payroll management services for Indian businesses." } }
-    ]}
-    </script>
-@endsection
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+@push('styles')
 <style>
 
         :root {
@@ -853,6 +791,71 @@
 .toggle-btn{font-size:13px;padding:10px 12px}
 }
 </style>
+@endpush
+
+@section('meta')
+    <title>CTC to In-Hand Salary Calculator | Take-Home FY 2025-26</title>
+    <meta name="description" content="CTC to in-hand salary calculator: convert your CTC to monthly take-home pay after EPF, gratuity, professional tax and income tax for FY 2025-26. Free, instant!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/ctc-to-in-hand-salary-calculator">
+    <meta property="og:title" content="CTC to In-Hand Salary Calculator — Take Home Pay 2026">
+    <meta property="og:description" content="Convert CTC to monthly take-home salary after EPF, gratuity, professional tax and income tax for FY 2025-26.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_IN">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/ctc-to-in-hand-salary-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="CTC to In-Hand Salary Calculator — Take Home Pay 2026">
+    <meta name="twitter:description" content="Convert CTC to in-hand salary for FY 2025-26. EPF, tax, gratuity deductions. Free!">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+@endsection
+
+@section('schema')
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org", "@type": "WebApplication",
+      "name": "CTC to In-Hand Salary Calculator India",
+      "description": "CTC to In-Hand Salary Calculator converts annual Cost to Company into monthly take-home salary after deducting employer PF, gratuity, employee PF, professional tax, and income tax under both old and new tax regimes for FY 2025-26. Shows complete salary breakup with Basic, HRA, Special Allowance, and all statutory deductions for Indian employees.",
+      "url": "https://www.patronaccounting.com/tools/ctc-to-in-hand-salary-calculator",
+      "applicationCategory": "UtilityApplication", "operatingSystem": "Any",
+      "datePublished": "2026-03-05", "dateModified": "2026-03-05",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" },
+      "author": { "@type": "Person", "@id": "https://patronaccounting.com/#team", "name": "CA & CS Patron Accounting Team", "jobTitle": "Chartered Accountants & Company Secretaries", "url": "https://www.patronaccounting.com/contact-page", "sameAs": ["https://www.linkedin.com/company/patron-accounting"], "hasCredential": [{ "@type": "EducationalOccupationalCredential", "credentialCategory": "Professional Certification", "name": "Chartered Accountant (CA)", "recognizedBy": { "@type": "Organization", "name": "Institute of Chartered Accountants of India", "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India" } }] },
+      "publisher": { "@type": "Organization", "name": "Patron Accounting LLP", "url": "https://www.patronaccounting.com", "logo": { "@type": "ImageObject", "url": "https://www.patronaccounting.com/images/site-logo.svg" } },
+      "provider": { "@id": "https://patronaccounting.com/#organization" }
+    }
+    </script>
+<script type="application/ld+json">
+    { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+      {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+      {"@type": "ListItem", "position": 3, "name": "CTC to In-Hand Salary Calculator", "item": "https://www.patronaccounting.com/tools/ctc-to-in-hand-salary-calculator"}
+    ]}
+    </script>
+<script type="application/ld+json">
+    { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+      { "@type": "Question", "name": "How is in-hand salary calculated from CTC?", "acceptedAnswer": { "@type": "Answer", "text": "In-hand salary is calculated by first deriving gross salary from CTC by subtracting employer PF contribution and gratuity. Then employee deductions like EPF (12% of basic), professional tax (up to Rs 2,500 per year), and income tax (TDS) are subtracted from gross salary. The resulting amount is your monthly take-home or in-hand salary. Typically in-hand salary is 60-70% of CTC." } },
+      { "@type": "Question", "name": "What is the difference between CTC and in-hand salary?", "acceptedAnswer": { "@type": "Answer", "text": "CTC (Cost to Company) is the total annual expenditure by the employer including basic salary, allowances, employer PF, gratuity, insurance, and bonuses. In-hand salary is the net amount credited to your bank account after deducting employee PF, professional tax, income tax (TDS), and other deductions. CTC includes components like employer PF and gratuity that never reach your bank account directly." } },
+      { "@type": "Question", "name": "What percentage of CTC is basic salary?", "acceptedAnswer": { "@type": "Answer", "text": "Basic salary typically ranges from 40% to 50% of CTC in India. There is no statutory minimum for basic salary in the private sector, but it impacts HRA calculation, PF contribution, and gratuity amount. A higher basic means higher PF and gratuity but also higher tax liability. Most companies set basic at 40% of gross salary to balance tax efficiency and retirement benefits." } },
+      { "@type": "Question", "name": "What is EPF contribution and how does it affect salary?", "acceptedAnswer": { "@type": "Answer", "text": "Both employer and employee contribute 12% of basic salary (capped at Rs 15,000 per month) to the Employee Provident Fund. The employee contribution of Rs 1,800 per month is deducted from gross salary. The employer contribution is part of CTC but does not appear in your in-hand salary. Of the employer 12%, 8.33% goes to Employees Pension Scheme (EPS) and 3.67% to EPF account." } },
+      { "@type": "Question", "name": "What is professional tax and which states charge it?", "acceptedAnswer": { "@type": "Answer", "text": "Professional tax is a state-level employment tax with a maximum limit of Rs 2,500 per year. States that levy it include Maharashtra, Karnataka, West Bengal, Andhra Pradesh, Telangana, Tamil Nadu, Gujarat, Madhya Pradesh, Kerala, Meghalaya, Tripura, Assam, and Odisha. The rate varies by state and salary slab. Delhi, Haryana, Rajasthan, UP, and Punjab do not levy professional tax." } },
+      { "@type": "Question", "name": "How is HRA calculated and what is the tax exemption?", "acceptedAnswer": { "@type": "Answer", "text": "HRA is typically 50% of basic salary for metro cities (Mumbai, Delhi, Kolkata, Chennai) and 40% for non-metro cities. HRA tax exemption under Section 10(13A) is the lowest of actual HRA received, rent paid minus 10% of basic salary, or 50% of basic for metro (40% for non-metro). If you do not live in rented accommodation, the entire HRA is fully taxable." } },
+      { "@type": "Question", "name": "What are the income tax slabs under the new regime for FY 2025-26?", "acceptedAnswer": { "@type": "Answer", "text": "Under the new tax regime for FY 2025-26: income up to Rs 4 lakh is nil, Rs 4-8 lakh at 5%, Rs 8-12 lakh at 10%, Rs 12-16 lakh at 15%, Rs 16-20 lakh at 20%, Rs 20-24 lakh at 25%, and above Rs 24 lakh at 30%. Standard deduction of Rs 75,000 applies. Tax rebate under Section 87A makes income up to Rs 12 lakh effectively tax-free under the new regime." } },
+      { "@type": "Question", "name": "What is gratuity and how is it calculated?", "acceptedAnswer": { "@type": "Answer", "text": "Gratuity is a retirement benefit payable after 5 years of continuous service under the Payment of Gratuity Act, 1972. It is calculated as: Basic Salary times 15 divided by 26 times Years of Service. For CTC purposes, employers typically provision gratuity at 4.81% of basic salary annually. Gratuity is part of CTC but is paid only upon separation after completing 5 years of service." } },
+      { "@type": "Question", "name": "Should I choose old or new tax regime for higher take-home salary?", "acceptedAnswer": { "@type": "Answer", "text": "The new regime is beneficial if you do not have significant deductions under 80C, 80D, HRA exemption, and home loan interest. For salaries up to Rs 12 lakh, the new regime gives zero tax with the rebate. For higher salaries, compare both regimes by calculating total deductions and exemptions available under the old regime. Use our calculator to compare both and pick the one giving higher take-home." } },
+      { "@type": "Question", "name": "What is the maximum limit for EPF contribution?", "acceptedAnswer": { "@type": "Answer", "text": "EPF contribution is calculated on basic salary capped at Rs 15,000 per month. Both employee and employer contribute 12% each, which is Rs 1,800 per month. If basic salary exceeds Rs 15,000, some employers restrict PF to the statutory limit while others contribute on actual basic. The choice affects both in-hand salary and retirement corpus. Voluntary PF above the limit is allowed." } },
+      { "@type": "Question", "name": "What components are included in CTC but not in in-hand salary?", "acceptedAnswer": { "@type": "Answer", "text": "Components in CTC but not in monthly in-hand salary include employer PF contribution (12% of basic), gratuity provision (4.81% of basic), employer ESI contribution (3.25% of gross if applicable), group health insurance premium, performance bonus or variable pay (paid quarterly or annually, not monthly), and any other employer-borne benefits like food coupons or company car lease." } },
+      { "@type": "Question", "name": "How does variable pay or bonus affect in-hand salary?", "acceptedAnswer": { "@type": "Answer", "text": "Variable pay or performance bonus is part of CTC but not part of monthly fixed salary. It is typically paid quarterly or annually based on performance targets. When calculating monthly in-hand salary, exclude variable pay since it is not guaranteed. Our calculator lets you enter the bonus component separately so your monthly take-home reflects only the fixed guaranteed portion of your package." } },
+      { "@type": "Question", "name": "Can a CA help with salary structuring for tax efficiency?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, a Chartered Accountant can restructure your salary to maximise take-home pay legally. This includes optimising HRA, setting basic salary at the right percentage, utilising meal vouchers and NPS employer contribution, and advising on the best tax regime. Patron Accounting provides salary structuring advisory and complete payroll management services for Indian businesses." } }
+    ]}
+    </script>
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation"><div class="toc-nav-inner">
         <a href="#calculator">Calculator</a>

@@ -1,245 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>NWC Director Fit and Proper Mumbai 2026 | Patron</title>
-    <meta name="description" content="CA-certified net worth certificate for Mumbai directors. Fit and Proper format for SEBI, RBI, IRDAI compliance. UDIN, annual filing ready. Starting INR 2,499.">
-    <link rel="canonical" href="https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/mumbai">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="NWC Director Fit and Proper Mumbai 2026 | Patron">
-    <meta property="og:description" content="CA-certified net worth certificate for Mumbai directors. Fit and Proper format for SEBI, RBI, IRDAI compliance. UDIN, annual filing ready. Starting INR 2,499.">
-    <meta property="og:url" content="https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/mumbai">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="NWC Director Fit and Proper Mumbai 2026 | Patron">
-    <meta name="twitter:description" content="CA-certified net worth certificate for Mumbai directors. Fit and Proper format for SEBI, RBI, IRDAI compliance. UDIN, annual filing ready. Starting INR 2,499.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/mumbai/#service",
-        "name": "Net Worth Certificate for Directors (Fit and Proper) in Mumbai",
-        "description": "CA-certified net worth certificate for Mumbai directors. Fit and Proper format for SEBI, RBI, IRDAI compliance. UDIN, annual filing ready. Starting INR 2,499.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/mumbai" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Chartered Accountant", "sameAs": "https://en.wikipedia.org/wiki/Chartered_accountant" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Net Worth Certificate for Directors (Fit and Proper) Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Net Worth Certificate for Directors (Fit and Proper) in Mumbai"
-                    },
-                    "price": "2499",
-                    "priceCurrency": "INR",
-                    "url": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/mumbai"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/mumbai/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate for Directors (Fit and Proper)", "item": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper" },
-            { "@type": "ListItem", "position": 3, "name": "Mumbai", "item": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/mumbai" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/mumbai/#faq",
-        "datePublished": "2026-07-02T08:00:00+05:30",
-        "dateModified": "2026-07-02T08:00:00+05:30",
-        "mainEntity": [
-            {
-                    "@type": "Question",
-                    "name": "Why does a Mumbai director need a fit and proper net worth certificate?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Directors of HDFC Bank, ICICI Bank, Kotak, Axis, IndusInd, Mumbai-HQ NBFCs (Tata Capital, L and T Finance, Aditya Birla Capital, Edelweiss, IIFL, Piramal), insurance companies (HDFC Life, ICICI Prudential, Tata AIG, SBI Life), AMCs (HDFC AMC, ICICI Pru AMC, SBI MF), BSE/NSE listed companies (Reliance, Tata Group, L and T, Mahindra, Godrej, Asian Paints, HUL), and SEBI intermediaries are required by SEBI LODR Schedule II Part D, RBI Master Direction (Bank/NBFC), IRDAI Corporate Governance, SEBI MF Regulations 1996, and Companies Act 2013 to demonstrate financial soundness and personal integrity. The CA-certified NWC with director-specific disclosures is the standard evidence regulators rely on."
-                    }
-                },
-{
-                    "@type": "Question",
-                    "name": "What is the SEBI LODR quarterly disclosure requirement for BSE and NSE listed company directors?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "SEBI LODR Regulations 2015 Schedule II Part D requires fit-and-proper declarations to BSE and NSE within 7 days of every quarter-end, plus annual disclosure at the AGM. For directors of dual-listed Mumbai-HQ companies (Reliance, Tata Group, HDFC Bank, ICICI Bank, etc.), the same disclosure must be filed simultaneously on both BSE and NSE - SEBI cross-checks the two filings for inconsistency under Insider Trading Regulations 2015. Patron's Mumbai office maintains the quarterly cycle and generates consistent BSE-and-NSE filings from the same master schedule."
-                    }
-                },
-{
-                    "@type": "Question",
-                    "name": "Who can issue a fit and proper net worth certificate for directors in Mumbai?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Only a practising Chartered Accountant in Mumbai holding a valid Certificate of Practice from ICAI can sign and issue the certificate. The CA generates an 18-digit UDIN at udin.icai.org, signs on firm letterhead with ICAI seal, and prints Membership Number and Firm Registration Number. SEBI examiners at BKC, RBI department of regulation at Mint Road, IRDAI compliance officers, BSE listing department at Dalal Street, NSE listing department at BKC, and nomination and remuneration committees at HDFC Bank, ICICI Bank, Tata Capital, Reliance, Tata Sons, L and T, Aditya Birla Capital and other Mumbai-HQ entities all verify the UDIN."
-                    }
-                },
-{
-                    "@type": "Question",
-                    "name": "What disclosures does an HDFC Bank or ICICI Bank board director need under RBI Master Direction?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "RBI Master Direction on Fit and Proper Criteria for Private Sector Bank Directors requires (i) personal details, (ii) substantial interest in companies (director + spouse + minor children aggregated under Section 2(77) BRA), (iii) association with entities receiving credit from the bank, (iv) related-party transactions with the bank, (v) prior banking sector regulatory action history, (vi) directorships and KMP positions in last 5 years, (vii) defaults, criminal and disciplinary proceedings. HDFC Bank, ICICI Bank, Kotak Mahindra Bank, Axis Bank, IndusInd Bank directors all submit in this format. Since these are listed, SEBI LODR Schedule II Part D applies in parallel."
-                    }
-                },
-{
-                    "@type": "Question",
-                    "name": "Is UDIN mandatory on a director fit and proper net worth certificate?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Yes, UDIN is mandatory on every CA-issued net worth certificate since 1 July 2019, enforced by ICAI. The 18-digit Unique Document Identification Number is generated at udin.icai.org and printed on the certificate. SEBI examiners, RBI department of regulation, IRDAI compliance officers, BSE and NSE listing departments, and company nomination and remuneration committees at all Mumbai-HQ regulated entities verify the UDIN on the ICAI portal as a standard step. Certificates without UDIN are rejected and the director's fit-and-proper file is held back."
-                    }
-                },
-{
-                    "@type": "Question",
-                    "name": "How is multi-board director substantial interest aggregated across 5-7 board positions?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Mumbai independent directors commonly serve on 5-7 boards simultaneously. The substantial interest schedule (director + spouse + minor children aggregated under Section 2(77) BRA) must be IDENTICAL across all board filings - inconsistency triggers SEBI cross-check under Insider Trading Regulations 2015 and can lead to monetary penalty up to Rs 25 crore. Patron's Mumbai office maintains a master substantial interest schedule for each multi-board director and generates board-specific Annexure variants from the same as-of-date data, ensuring consistency across all BSE and NSE filings."
-                    }
-                }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/mumbai",
-        "name": "Net Worth Certificate for Directors (Fit and Proper) in Mumbai",
-        "description": "CA-certified net worth certificate for Mumbai directors. Fit and Proper format for SEBI, RBI, IRDAI compliance. UDIN, annual filing ready. Starting INR 2,499.",
-        "url": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/mumbai",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/mumbai/#service" },
-        "datePublished": "2026-07-02T08:00:00+05:30",
-        "dateModified": "2026-07-02T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/mumbai/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How to Get a Net Worth Certificate for Directors (Fit and Proper)",
-        "description": "Step-by-step process to obtain a Net Worth Certificate for Directors (Fit and Proper) from Patron Accounting.",
-        "totalTime": "P3D",
-        "step": [
-            {
-                    "@type": "HowToStep",
-                    "position": 1,
-                    "name": "Engagement",
-                    "text": "Mumbai director or company secretary calls Patron Accounting, identifies the regulator (SEBI LODR for BSE/NSE listed, RBI Master Direction for Private/PSB Bank or NBFC, IRDAI for insurance, SEBI MF Regulations for AMC/Trustee, SEBI Intermediaries, Companies Act 2013), appointing entity (HDFC Bank, ICICI Bank, Tata Capital, Reliance, etc.), and position. For multi-board directors, all board positions are identified upfront for cross-reconciliation. Engagement letter captures purpose under ICAI SA 200."
-                },
-{
-                    "@type": "HowToStep",
-                    "position": 2,
-                    "name": "Document collection",
-                    "text": "Upload PAN, Aadhaar, DIN reference, latest 3-5 years ITR with computation, personal bank statements (12 months), MF and demat statements, FD receipts, Mumbai residential and commercial property documents (IGR reckoner reference plus market valuation for Worli/Lower Parel/BKC/Bandra), gold and jewellery valuation, ESOP/RSU statements (for Tata/Mahindra/Reliance executive directors), board appointment letters for all positions, all nomination and remuneration committee questionnaires, and CIBIL personal report."
-                },
-{
-                    "@type": "HowToStep",
-                    "position": 3,
-                    "name": "Substantial interest mapping (aggregated)",
-                    "text": "Patron CA cross-checks shareholding patterns of companies where the director, spouse, and minor children jointly hold beneficial interest exceeding Rs 5 lakh paid-up or 10 percent under Section 2(77) BRA. Mapped across all multi-board positions to ensure consistent disclosure. For BSE-NSE dual-listed companies, the same shareholding is flagged on both exchange filings."
-                },
-{
-                    "@type": "HowToStep",
-                    "position": 4,
-                    "name": "Verification under SA 500 and SA 505 plus public",
-                    "text": "record search - Patron CA cross-checks bank balances, validates MF and demat holdings, confirms Mumbai property at IGR ward rate plus indicative market reference, reconciles ITR with bank and investment statements. CIBIL report cross-checked for default flags. Public-record search across SEBI, RBI, IRDAI orders, NCLT proceedings, court litigation for criminal and regulatory proceedings."
-                },
-{
-                    "@type": "HowToStep",
-                    "position": 5,
-                    "name": "Regulator",
-                    "text": "format alignment and draft - Patron extracts the regulator-specific format (SEBI LODR Schedule II Part D, RBI SBR Annex XXIII, RBI Private Bank Master Direction, RBI PSB 2019, IRDAI Corporate Governance, SEBI MF Regulations 1996 Regulation 7 + Schedule II, or Companies Act 2013 Section 149(6) Schedule IV). For multi-board cases, board-specific Annexure variants are generated from the master schedule. Drafts emailed within 48 hours."
-                },
-{
-                    "@type": "HowToStep",
-                    "position": 6,
-                    "name": "UDIN generation and final issue",
-                    "text": "Patron CA generates the 18-digit UDIN at udin.icai.org, signs on firm letterhead with ICAI seal, issues the final document. Soft copy emailed for board/regulator submission; hard copy collected from Patron Mumbai office or couriered to company secretaries (single or multiple boards) within 3-4 working days. Annual renewal cycle tracked for incumbent multi-board directors."
-                }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Net Worth Certificate for Directors (Fit and Proper) Key Terms",
-        "definedTerm": [
-            {
-                    "@type": "DefinedTerm",
-                    "name": "UDIN",
-                    "description": "18-digit Unique Document Identification Number generated by the issuing CA at udin.icai.org for every certificate, mandatory since 1 July 2019."
-                },
-{
-                    "@type": "DefinedTerm",
-                    "name": "Fit and Proper",
-                    "description": "Regulatory test requiring directors of banks, NBFCs, insurers, listed companies and SEBI-regulated intermediaries to demonstrate integrity, financial soundness, qualifications, and absence of disqualifying proceedings. Applied at appointment, re-appointment, and on annual review."
-                },
-{
-                    "@type": "DefinedTerm",
-                    "name": "Substantial Interest",
-                    "description": "Under Section 2(77) of the Banking Regulation Act 1949 - holding a beneficial interest in shares of a company by an individual or his spouse or minor child, whether singly or together, exceeding Rs 5 lakh paid-up value or 10 percent of paid-up capital, whichever is less. Under Companies Act 2013, similar threshold for related-party disclosure under Section 184."
-                },
-{
-                    "@type": "DefinedTerm",
-                    "name": "Multi-Board Cross-Reconciliation",
-                    "description": "Common in Mumbai where an independent director may serve on 5-7 boards simultaneously (e.g., one director on HDFC Bank + Reliance + Tata Sons + L and T + Asian Paints). The same as-of-date certificate must show consistent disclosures across all BSE and NSE quarterly filings; inconsistency triggers SEBI cross-check and investigation under insider trading regulations."
-                },
-{
-                    "@type": "DefinedTerm",
-                    "name": "SEBI Mutual Fund Regulations 1996",
-                    "description": "Regulations 7 and Schedule II for SEBI Mutual Fund Regulations 1996 prescribe fit-and-proper criteria for sponsors, trustees, and AMC directors of mutual funds. Mumbai is home to HDFC AMC, ICICI Prudential AMC, SBI Mutual Fund, Kotak AMC, Aditya Birla Sun Life AMC, Nippon India AMC, DSP, Mirae Asset, Tata MF, Franklin Templeton India - all submitting AMC and Trustee director NWCs annually."
-                }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -853,7 +618,247 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>NWC Director Fit and Proper Mumbai 2026 | Patron</title>
+    <meta name="description" content="CA-certified net worth certificate for Mumbai directors. Fit and Proper format for SEBI, RBI, IRDAI compliance. UDIN, annual filing ready. Starting INR 2,499.">
+    <link rel="canonical" href="https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/mumbai">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="NWC Director Fit and Proper Mumbai 2026 | Patron">
+    <meta property="og:description" content="CA-certified net worth certificate for Mumbai directors. Fit and Proper format for SEBI, RBI, IRDAI compliance. UDIN, annual filing ready. Starting INR 2,499.">
+    <meta property="og:url" content="https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/mumbai">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="NWC Director Fit and Proper Mumbai 2026 | Patron">
+    <meta name="twitter:description" content="CA-certified net worth certificate for Mumbai directors. Fit and Proper format for SEBI, RBI, IRDAI compliance. UDIN, annual filing ready. Starting INR 2,499.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/mumbai/#service",
+        "name": "Net Worth Certificate for Directors (Fit and Proper) in Mumbai",
+        "description": "CA-certified net worth certificate for Mumbai directors. Fit and Proper format for SEBI, RBI, IRDAI compliance. UDIN, annual filing ready. Starting INR 2,499.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/mumbai" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Chartered Accountant", "sameAs": "https://en.wikipedia.org/wiki/Chartered_accountant" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Net Worth Certificate for Directors (Fit and Proper) Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Net Worth Certificate for Directors (Fit and Proper) in Mumbai"
+                    },
+                    "price": "2499",
+                    "priceCurrency": "INR",
+                    "url": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/mumbai"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/mumbai/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate for Directors (Fit and Proper)", "item": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper" },
+            { "@type": "ListItem", "position": 3, "name": "Mumbai", "item": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/mumbai" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/mumbai/#faq",
+        "datePublished": "2026-07-02T08:00:00+05:30",
+        "dateModified": "2026-07-02T08:00:00+05:30",
+        "mainEntity": [
+            {
+                    "@type": "Question",
+                    "name": "Why does a Mumbai director need a fit and proper net worth certificate?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Directors of HDFC Bank, ICICI Bank, Kotak, Axis, IndusInd, Mumbai-HQ NBFCs (Tata Capital, L and T Finance, Aditya Birla Capital, Edelweiss, IIFL, Piramal), insurance companies (HDFC Life, ICICI Prudential, Tata AIG, SBI Life), AMCs (HDFC AMC, ICICI Pru AMC, SBI MF), BSE/NSE listed companies (Reliance, Tata Group, L and T, Mahindra, Godrej, Asian Paints, HUL), and SEBI intermediaries are required by SEBI LODR Schedule II Part D, RBI Master Direction (Bank/NBFC), IRDAI Corporate Governance, SEBI MF Regulations 1996, and Companies Act 2013 to demonstrate financial soundness and personal integrity. The CA-certified NWC with director-specific disclosures is the standard evidence regulators rely on."
+                    }
+                },
+{
+                    "@type": "Question",
+                    "name": "What is the SEBI LODR quarterly disclosure requirement for BSE and NSE listed company directors?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "SEBI LODR Regulations 2015 Schedule II Part D requires fit-and-proper declarations to BSE and NSE within 7 days of every quarter-end, plus annual disclosure at the AGM. For directors of dual-listed Mumbai-HQ companies (Reliance, Tata Group, HDFC Bank, ICICI Bank, etc.), the same disclosure must be filed simultaneously on both BSE and NSE - SEBI cross-checks the two filings for inconsistency under Insider Trading Regulations 2015. Patron's Mumbai office maintains the quarterly cycle and generates consistent BSE-and-NSE filings from the same master schedule."
+                    }
+                },
+{
+                    "@type": "Question",
+                    "name": "Who can issue a fit and proper net worth certificate for directors in Mumbai?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Only a practising Chartered Accountant in Mumbai holding a valid Certificate of Practice from ICAI can sign and issue the certificate. The CA generates an 18-digit UDIN at udin.icai.org, signs on firm letterhead with ICAI seal, and prints Membership Number and Firm Registration Number. SEBI examiners at BKC, RBI department of regulation at Mint Road, IRDAI compliance officers, BSE listing department at Dalal Street, NSE listing department at BKC, and nomination and remuneration committees at HDFC Bank, ICICI Bank, Tata Capital, Reliance, Tata Sons, L and T, Aditya Birla Capital and other Mumbai-HQ entities all verify the UDIN."
+                    }
+                },
+{
+                    "@type": "Question",
+                    "name": "What disclosures does an HDFC Bank or ICICI Bank board director need under RBI Master Direction?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "RBI Master Direction on Fit and Proper Criteria for Private Sector Bank Directors requires (i) personal details, (ii) substantial interest in companies (director + spouse + minor children aggregated under Section 2(77) BRA), (iii) association with entities receiving credit from the bank, (iv) related-party transactions with the bank, (v) prior banking sector regulatory action history, (vi) directorships and KMP positions in last 5 years, (vii) defaults, criminal and disciplinary proceedings. HDFC Bank, ICICI Bank, Kotak Mahindra Bank, Axis Bank, IndusInd Bank directors all submit in this format. Since these are listed, SEBI LODR Schedule II Part D applies in parallel."
+                    }
+                },
+{
+                    "@type": "Question",
+                    "name": "Is UDIN mandatory on a director fit and proper net worth certificate?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, UDIN is mandatory on every CA-issued net worth certificate since 1 July 2019, enforced by ICAI. The 18-digit Unique Document Identification Number is generated at udin.icai.org and printed on the certificate. SEBI examiners, RBI department of regulation, IRDAI compliance officers, BSE and NSE listing departments, and company nomination and remuneration committees at all Mumbai-HQ regulated entities verify the UDIN on the ICAI portal as a standard step. Certificates without UDIN are rejected and the director's fit-and-proper file is held back."
+                    }
+                },
+{
+                    "@type": "Question",
+                    "name": "How is multi-board director substantial interest aggregated across 5-7 board positions?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Mumbai independent directors commonly serve on 5-7 boards simultaneously. The substantial interest schedule (director + spouse + minor children aggregated under Section 2(77) BRA) must be IDENTICAL across all board filings - inconsistency triggers SEBI cross-check under Insider Trading Regulations 2015 and can lead to monetary penalty up to Rs 25 crore. Patron's Mumbai office maintains a master substantial interest schedule for each multi-board director and generates board-specific Annexure variants from the same as-of-date data, ensuring consistency across all BSE and NSE filings."
+                    }
+                }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/mumbai",
+        "name": "Net Worth Certificate for Directors (Fit and Proper) in Mumbai",
+        "description": "CA-certified net worth certificate for Mumbai directors. Fit and Proper format for SEBI, RBI, IRDAI compliance. UDIN, annual filing ready. Starting INR 2,499.",
+        "url": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/mumbai",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/mumbai/#service" },
+        "datePublished": "2026-07-02T08:00:00+05:30",
+        "dateModified": "2026-07-02T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-directors-fit-and-proper/mumbai/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Get a Net Worth Certificate for Directors (Fit and Proper)",
+        "description": "Step-by-step process to obtain a Net Worth Certificate for Directors (Fit and Proper) from Patron Accounting.",
+        "totalTime": "P3D",
+        "step": [
+            {
+                    "@type": "HowToStep",
+                    "position": 1,
+                    "name": "Engagement",
+                    "text": "Mumbai director or company secretary calls Patron Accounting, identifies the regulator (SEBI LODR for BSE/NSE listed, RBI Master Direction for Private/PSB Bank or NBFC, IRDAI for insurance, SEBI MF Regulations for AMC/Trustee, SEBI Intermediaries, Companies Act 2013), appointing entity (HDFC Bank, ICICI Bank, Tata Capital, Reliance, etc.), and position. For multi-board directors, all board positions are identified upfront for cross-reconciliation. Engagement letter captures purpose under ICAI SA 200."
+                },
+{
+                    "@type": "HowToStep",
+                    "position": 2,
+                    "name": "Document collection",
+                    "text": "Upload PAN, Aadhaar, DIN reference, latest 3-5 years ITR with computation, personal bank statements (12 months), MF and demat statements, FD receipts, Mumbai residential and commercial property documents (IGR reckoner reference plus market valuation for Worli/Lower Parel/BKC/Bandra), gold and jewellery valuation, ESOP/RSU statements (for Tata/Mahindra/Reliance executive directors), board appointment letters for all positions, all nomination and remuneration committee questionnaires, and CIBIL personal report."
+                },
+{
+                    "@type": "HowToStep",
+                    "position": 3,
+                    "name": "Substantial interest mapping (aggregated)",
+                    "text": "Patron CA cross-checks shareholding patterns of companies where the director, spouse, and minor children jointly hold beneficial interest exceeding Rs 5 lakh paid-up or 10 percent under Section 2(77) BRA. Mapped across all multi-board positions to ensure consistent disclosure. For BSE-NSE dual-listed companies, the same shareholding is flagged on both exchange filings."
+                },
+{
+                    "@type": "HowToStep",
+                    "position": 4,
+                    "name": "Verification under SA 500 and SA 505 plus public",
+                    "text": "record search - Patron CA cross-checks bank balances, validates MF and demat holdings, confirms Mumbai property at IGR ward rate plus indicative market reference, reconciles ITR with bank and investment statements. CIBIL report cross-checked for default flags. Public-record search across SEBI, RBI, IRDAI orders, NCLT proceedings, court litigation for criminal and regulatory proceedings."
+                },
+{
+                    "@type": "HowToStep",
+                    "position": 5,
+                    "name": "Regulator",
+                    "text": "format alignment and draft - Patron extracts the regulator-specific format (SEBI LODR Schedule II Part D, RBI SBR Annex XXIII, RBI Private Bank Master Direction, RBI PSB 2019, IRDAI Corporate Governance, SEBI MF Regulations 1996 Regulation 7 + Schedule II, or Companies Act 2013 Section 149(6) Schedule IV). For multi-board cases, board-specific Annexure variants are generated from the master schedule. Drafts emailed within 48 hours."
+                },
+{
+                    "@type": "HowToStep",
+                    "position": 6,
+                    "name": "UDIN generation and final issue",
+                    "text": "Patron CA generates the 18-digit UDIN at udin.icai.org, signs on firm letterhead with ICAI seal, issues the final document. Soft copy emailed for board/regulator submission; hard copy collected from Patron Mumbai office or couriered to company secretaries (single or multiple boards) within 3-4 working days. Annual renewal cycle tracked for incumbent multi-board directors."
+                }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Net Worth Certificate for Directors (Fit and Proper) Key Terms",
+        "definedTerm": [
+            {
+                    "@type": "DefinedTerm",
+                    "name": "UDIN",
+                    "description": "18-digit Unique Document Identification Number generated by the issuing CA at udin.icai.org for every certificate, mandatory since 1 July 2019."
+                },
+{
+                    "@type": "DefinedTerm",
+                    "name": "Fit and Proper",
+                    "description": "Regulatory test requiring directors of banks, NBFCs, insurers, listed companies and SEBI-regulated intermediaries to demonstrate integrity, financial soundness, qualifications, and absence of disqualifying proceedings. Applied at appointment, re-appointment, and on annual review."
+                },
+{
+                    "@type": "DefinedTerm",
+                    "name": "Substantial Interest",
+                    "description": "Under Section 2(77) of the Banking Regulation Act 1949 - holding a beneficial interest in shares of a company by an individual or his spouse or minor child, whether singly or together, exceeding Rs 5 lakh paid-up value or 10 percent of paid-up capital, whichever is less. Under Companies Act 2013, similar threshold for related-party disclosure under Section 184."
+                },
+{
+                    "@type": "DefinedTerm",
+                    "name": "Multi-Board Cross-Reconciliation",
+                    "description": "Common in Mumbai where an independent director may serve on 5-7 boards simultaneously (e.g., one director on HDFC Bank + Reliance + Tata Sons + L and T + Asian Paints). The same as-of-date certificate must show consistent disclosures across all BSE and NSE quarterly filings; inconsistency triggers SEBI cross-check and investigation under insider trading regulations."
+                },
+{
+                    "@type": "DefinedTerm",
+                    "name": "SEBI Mutual Fund Regulations 1996",
+                    "description": "Regulations 7 and Schedule II for SEBI Mutual Fund Regulations 1996 prescribe fit-and-proper criteria for sponsors, trustees, and AMC directors of mutual funds. Mumbai is home to HDFC AMC, ICICI Prudential AMC, SBI Mutual Fund, Kotak AMC, Aditya Birla Sun Life AMC, Nippon India AMC, DSP, Mirae Asset, Tata MF, Franklin Templeton India - all submitting AMC and Trustee director NWCs annually."
+                }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1664,22 +1669,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
-<!-- ============================================
-     CONSULTATION FORM - Country Dropdown + Validation + Bigin Integration
-     ============================================ -->
-{{-- Enquiry form markup + JS now in partials/enquiry-form.blade.php --}}
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1702,8 +1695,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1740,5 +1731,24 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+<!-- ============================================
+     CONSULTATION FORM - Country Dropdown + Validation + Bigin Integration
+     ============================================ -->
+{{-- Enquiry form markup + JS now in partials/enquiry-form.blade.php --}}
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
 
 <!-- Last Updated hardcoded in markup per QC v2.1 (no view-time JS) -->

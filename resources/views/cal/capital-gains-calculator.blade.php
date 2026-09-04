@@ -1,197 +1,9 @@
 @extends('layouts.app')
-@section('meta')
-    <title>Capital Gains Tax Calculator | STCG & LTCG FY 2025-26</title>
-    <meta name="description" content="Capital gains tax calculator FY 2025-26: compute STCG & LTCG on equity, property, gold and debt MF with Section 54/54F/54EC reinvestment exemption. Free.">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/capital-gains-calculator">
-
-    <meta property="og:title" content="Capital Gains Tax Calculator — STCG & LTCG FY 2025-26">
-    <meta property="og:description" content="Compute STCG and LTCG under post-23-July-2024 rates — Section 111A 20%, Section 112A 12.5% above ₹1.25L, property grandfathering option. Free tool for FY 2025-26.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/capital-gains-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Capital Gains Tax Calculator — STCG & LTCG FY 2025-26">
-    <meta name="twitter:description" content="Compute STCG and LTCG under post-23-July-2024 rates — Section 111A 20%, Section 112A 12.5%, property grandfathering option.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-
-    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-@endsection
-@section('schema')
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "Capital Gains Tax Calculator",
-      "description": "Capital Gains Tax Calculator computes Short-Term and Long-Term Capital Gains tax for FY 2025-26 (AY 2026-27) under the post-23-July-2024 framework — Section 111A at 20 percent for equity STCG, Section 112A at 12.5 percent above ₹1.25 lakh for equity LTCG, and Section 112 at 12.5 percent without indexation for property, gold, and other assets, with property grandfathering option for pre-23-July-2024 acquisitions.",
-      "url": "https://www.patronaccounting.com/tools/capital-gains-calculator",
-      "applicationCategory": "BusinessApplication",
-      "operatingSystem": "Any",
-      "inLanguage": "en-IN",
-      "isAccessibleForFree": true,
-      "datePublished": "2026-05-06T08:00:00+05:30",
-      "dateModified": "2026-05-08T08:00:00+05:30",
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "INR"
-      },
-      "reviewedBy": {
-        "@type": "Person",
-        "@id": "https://patronaccounting.com/#founder",
-        "name": "CA Sundram Gupta",
-        "jobTitle": "Founder & Chartered Accountant",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Institute of Chartered Accountants of India",
-            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-          }
-        }]
-      },
-      "publisher": { "@id": "https://patronaccounting.com/#organization" },
-      "provider": {
-        "@id": "https://patronaccounting.com/#organization"
-      }
-    }
-    </script>
-
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Capital Gains Calculator", "item": "https://www.patronaccounting.com/tools/capital-gains-calculator"}
-      ]
-    }
-    </script>
-
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What changed in capital gains tax from 23 July 2024?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The Finance (No. 2) Act 2024 introduced major changes effective 23 July 2024. STCG on listed equity and equity mutual funds rose from 15 percent to 20 percent under Section 111A. LTCG on listed equity rose from 10 percent to 12.5 percent above ₹1.25 lakh under Section 112A. Indexation benefit was removed for most assets, with the LTCG rate harmonised at 12.5 percent without indexation."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are the STCG and LTCG rates for equity in FY 2025-26?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "For listed equity shares and equity-oriented mutual funds in FY 2025-26, STCG (held 12 months or less) is taxed at 20 percent under Section 111A provided STT was paid. LTCG (held more than 12 months) is taxed at 12.5 percent on gains above ₹1.25 lakh under Section 112A. Both rates apply only when STT is paid on the transaction."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the property grandfathering option for capital gains?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "For residential property and land acquired before 23 July 2024 and sold on or after that date, resident individuals and HUFs can choose between two methods: 12.5 percent without indexation, or 20 percent with cost inflation index (CII) indexation. The lower tax option applies. This grandfathering is unavailable for property acquired on or after 23 July 2024 — only the 12.5 percent without indexation rate applies."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How are debt mutual funds taxed for capital gains?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Debt mutual funds purchased on or after 1 April 2023 are taxed under Section 50AA — gains are added to your income and taxed at your slab rate, regardless of holding period. Indexation and concessional LTCG rates do not apply. Debt mutual funds purchased before 1 April 2023 follow legacy rules: STCG at slab rates if held up to 24 months, LTCG at 12.5 percent without indexation if held longer."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are the holding period thresholds after the Finance Act 2024?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Holding periods are simplified into two buckets effective 23 July 2024. Listed securities — including equity shares, equity mutual funds, listed bonds, and units of business trusts (REITs, InvITs) — qualify as long-term after 12 months. All other assets — property, gold, unlisted shares, gold mutual funds, and debt mutual funds — require 24 months for long-term classification. The earlier 36-month threshold is removed."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is gold taxed for capital gains in FY 2025-26?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Physical gold, digital gold, and gold mutual funds held more than 24 months attract LTCG at 12.5 percent without indexation. STCG (held 24 months or less) is added to income and taxed at slab rates. Listed Gold ETFs follow listed-security rules — 12-month threshold, LTCG at 12.5 percent. Sovereign Gold Bonds redeemed at 8-year maturity through RBI are fully exempt from capital gains tax."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I claim Section 87A rebate against capital gains tax?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Section 87A rebate applies only to tax computed at slab rates. Capital gains taxed at special rates — Section 111A, Section 112, Section 112A — are excluded from the rebate. Even if your total income falls within the ₹12 lakh new regime threshold or ₹5 lakh old regime threshold, the portion of tax arising from special-rate gains must be paid in full plus 4 percent cess."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the LTCG exemption limit on equity for FY 2025-26?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Under Section 112A, the first ₹1,25,000 of LTCG on listed equity shares and equity-oriented mutual funds in a financial year is exempt from tax. This was raised from ₹1,00,000 by the Finance (No. 2) Act 2024. Only LTCG above this threshold is taxed at 12.5 percent. The exemption is per assessee per financial year and applies across all eligible equity holdings combined."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is grandfathering for equity acquired before 1 February 2018?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "For listed equity shares and equity mutual funds acquired before 1 February 2018 and sold on or after 1 April 2018, gains accrued up to 31 January 2018 are grandfathered. The cost of acquisition is the higher of actual cost or fair market value on 31 January 2018, capped at sale price. This protects pre-LTCG-tax era gains. Use the highest quoted price on 31 January 2018 as FMV."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which exemptions are available to save LTCG tax?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 54 exempts LTCG on residential property if reinvested in another residential property within 2 years (purchase) or 3 years (construction), capped at ₹10 crore. Section 54F provides similar relief for any LTCG reinvested in residential property. Section 54EC allows up to ₹50 lakh investment in NHAI or REC bonds within 6 months of sale, with a 5-year lock-in. Each has specific eligibility conditions."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do I report capital gains in my ITR for FY 2025-26?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Capital gains are reported in Schedule CG of ITR-2 (for individuals or HUF without business income) or ITR-3 (with business income). Each asset class — equity, property, gold, debt — has separate rows. Reconcile against AIS using our AIS Reconciliation Tool before filing. Broker contract notes, sale deeds, and purchase invoices must be retained for 6 assessment years to defend any Section 143 scrutiny."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Will capital gains rules change under the Income Tax Act 2025?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The Income Tax Act 2025, effective from 1 April 2026, retains the substance of the post-23-July-2024 capital gains framework with renumbered sections. For FY 2025-26 returns filed in 2026, current Sections 111A, 112, and 112A under the 1961 Act apply. Tax Year 2026-27 onwards (FY 2026-27 income) will reference the corresponding sections under the 2025 Act. Rates and holding periods are unchanged in the transition."
-          }
-        }
-      ]
-    }
-    </script>
-@endsection
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
-    <style>
+@push('styles')
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
         :root {
             --primary: #15365f; --primary-light: #1f4a7a; --primary-dark: #0a2240;
             --accent: #f26522; --accent-light: #ff8347;
@@ -679,6 +491,196 @@ button, .toggle-btn, .toggle-btn.active, .faq-question, .sidebar-link, .toc-nav 
     .schedule-table tbody td, .rate-table tbody td, .recon-table tbody td { padding: 8px 10px; }
 }
     </style>
+@endpush
+
+@section('meta')
+    <title>Capital Gains Tax Calculator | STCG & LTCG FY 2025-26</title>
+    <meta name="description" content="Capital gains tax calculator FY 2025-26: compute STCG & LTCG on equity, property, gold and debt MF with Section 54/54F/54EC reinvestment exemption. Free.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/capital-gains-calculator">
+
+    <meta property="og:title" content="Capital Gains Tax Calculator — STCG & LTCG FY 2025-26">
+    <meta property="og:description" content="Compute STCG and LTCG under post-23-July-2024 rates — Section 111A 20%, Section 112A 12.5% above ₹1.25L, property grandfathering option. Free tool for FY 2025-26.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/capital-gains-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Capital Gains Tax Calculator — STCG & LTCG FY 2025-26">
+    <meta name="twitter:description" content="Compute STCG and LTCG under post-23-July-2024 rates — Section 111A 20%, Section 112A 12.5%, property grandfathering option.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+@endsection
+@section('schema')
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Capital Gains Tax Calculator",
+      "description": "Capital Gains Tax Calculator computes Short-Term and Long-Term Capital Gains tax for FY 2025-26 (AY 2026-27) under the post-23-July-2024 framework — Section 111A at 20 percent for equity STCG, Section 112A at 12.5 percent above ₹1.25 lakh for equity LTCG, and Section 112 at 12.5 percent without indexation for property, gold, and other assets, with property grandfathering option for pre-23-July-2024 acquisitions.",
+      "url": "https://www.patronaccounting.com/tools/capital-gains-calculator",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Any",
+      "inLanguage": "en-IN",
+      "isAccessibleForFree": true,
+      "datePublished": "2026-05-06T08:00:00+05:30",
+      "dateModified": "2026-05-08T08:00:00+05:30",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "INR"
+      },
+      "reviewedBy": {
+        "@type": "Person",
+        "@id": "https://patronaccounting.com/#founder",
+        "name": "CA Sundram Gupta",
+        "jobTitle": "Founder & Chartered Accountant",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Institute of Chartered Accountants of India",
+            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+          }
+        }]
+      },
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": {
+        "@id": "https://patronaccounting.com/#organization"
+      }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Capital Gains Calculator", "item": "https://www.patronaccounting.com/tools/capital-gains-calculator"}
+      ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What changed in capital gains tax from 23 July 2024?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Finance (No. 2) Act 2024 introduced major changes effective 23 July 2024. STCG on listed equity and equity mutual funds rose from 15 percent to 20 percent under Section 111A. LTCG on listed equity rose from 10 percent to 12.5 percent above ₹1.25 lakh under Section 112A. Indexation benefit was removed for most assets, with the LTCG rate harmonised at 12.5 percent without indexation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the STCG and LTCG rates for equity in FY 2025-26?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For listed equity shares and equity-oriented mutual funds in FY 2025-26, STCG (held 12 months or less) is taxed at 20 percent under Section 111A provided STT was paid. LTCG (held more than 12 months) is taxed at 12.5 percent on gains above ₹1.25 lakh under Section 112A. Both rates apply only when STT is paid on the transaction."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the property grandfathering option for capital gains?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For residential property and land acquired before 23 July 2024 and sold on or after that date, resident individuals and HUFs can choose between two methods: 12.5 percent without indexation, or 20 percent with cost inflation index (CII) indexation. The lower tax option applies. This grandfathering is unavailable for property acquired on or after 23 July 2024 — only the 12.5 percent without indexation rate applies."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How are debt mutual funds taxed for capital gains?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Debt mutual funds purchased on or after 1 April 2023 are taxed under Section 50AA — gains are added to your income and taxed at your slab rate, regardless of holding period. Indexation and concessional LTCG rates do not apply. Debt mutual funds purchased before 1 April 2023 follow legacy rules: STCG at slab rates if held up to 24 months, LTCG at 12.5 percent without indexation if held longer."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the holding period thresholds after the Finance Act 2024?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Holding periods are simplified into two buckets effective 23 July 2024. Listed securities — including equity shares, equity mutual funds, listed bonds, and units of business trusts (REITs, InvITs) — qualify as long-term after 12 months. All other assets — property, gold, unlisted shares, gold mutual funds, and debt mutual funds — require 24 months for long-term classification. The earlier 36-month threshold is removed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is gold taxed for capital gains in FY 2025-26?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Physical gold, digital gold, and gold mutual funds held more than 24 months attract LTCG at 12.5 percent without indexation. STCG (held 24 months or less) is added to income and taxed at slab rates. Listed Gold ETFs follow listed-security rules — 12-month threshold, LTCG at 12.5 percent. Sovereign Gold Bonds redeemed at 8-year maturity through RBI are fully exempt from capital gains tax."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I claim Section 87A rebate against capital gains tax?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Section 87A rebate applies only to tax computed at slab rates. Capital gains taxed at special rates — Section 111A, Section 112, Section 112A — are excluded from the rebate. Even if your total income falls within the ₹12 lakh new regime threshold or ₹5 lakh old regime threshold, the portion of tax arising from special-rate gains must be paid in full plus 4 percent cess."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the LTCG exemption limit on equity for FY 2025-26?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under Section 112A, the first ₹1,25,000 of LTCG on listed equity shares and equity-oriented mutual funds in a financial year is exempt from tax. This was raised from ₹1,00,000 by the Finance (No. 2) Act 2024. Only LTCG above this threshold is taxed at 12.5 percent. The exemption is per assessee per financial year and applies across all eligible equity holdings combined."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is grandfathering for equity acquired before 1 February 2018?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For listed equity shares and equity mutual funds acquired before 1 February 2018 and sold on or after 1 April 2018, gains accrued up to 31 January 2018 are grandfathered. The cost of acquisition is the higher of actual cost or fair market value on 31 January 2018, capped at sale price. This protects pre-LTCG-tax era gains. Use the highest quoted price on 31 January 2018 as FMV."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which exemptions are available to save LTCG tax?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 54 exempts LTCG on residential property if reinvested in another residential property within 2 years (purchase) or 3 years (construction), capped at ₹10 crore. Section 54F provides similar relief for any LTCG reinvested in residential property. Section 54EC allows up to ₹50 lakh investment in NHAI or REC bonds within 6 months of sale, with a 5-year lock-in. Each has specific eligibility conditions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I report capital gains in my ITR for FY 2025-26?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Capital gains are reported in Schedule CG of ITR-2 (for individuals or HUF without business income) or ITR-3 (with business income). Each asset class — equity, property, gold, debt — has separate rows. Reconcile against AIS using our AIS Reconciliation Tool before filing. Broker contract notes, sale deeds, and purchase invoices must be retained for 6 assessment years to defend any Section 143 scrutiny."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will capital gains rules change under the Income Tax Act 2025?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Income Tax Act 2025, effective from 1 April 2026, retains the substance of the post-23-July-2024 capital gains framework with renumbered sections. For FY 2025-26 returns filed in 2026, current Sections 111A, 112, and 112A under the 1961 Act apply. Tax Year 2026-27 onwards (FY 2026-27 income) will reference the corresponding sections under the 2025 Act. Rates and holding periods are unchanged in the transition."
+          }
+        }
+      ]
+    }
+    </script>
+@endsection
 @section('content')
 
 <nav class="toc-nav" aria-label="Page Navigation">

@@ -1,179 +1,6 @@
 @extends('layouts.app')
-<title>Authorised Capital Planner | How Much to Set & SH-7 Cost</title>
-<meta name="description" content="Free authorised capital planner: decide how much authorised capital to set at incorporation and compare set-high-now vs increase-later (SH-7) costs by state.">
-<meta name="robots" content="index, follow">
-<meta name="theme-color" content="#15365f">
+@push('styles')
 <link rel="canonical" href="https://www.patronaccounting.com/tools/authorised-capital-planner">
-@section('meta')
-<meta property="og:title" content="Authorised Capital Planner — How Much to Set 2026">
-<meta property="og:description" content="Decide how much authorised capital to set at incorporation: recommended level, paid-up headroom, and the cost of setting high now vs increasing later via SH-7.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.patronaccounting.com/tools/authorised-capital-planner">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="1200">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-<meta property="og:site_name" content="Patron Accounting">
-<meta property="og:locale" content="en_IN">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Authorised Capital Planner — How Much to Set 2026">
-<meta name="twitter:description" content="Decide how much authorised capital to set at incorporation and compare set-high-now vs increase-later (SH-7) costs. Free & instant.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-
-<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
-<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
-@endsection
-@section('schema')
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "Authorised Capital Planner",
-  "description": "Authorised Capital Planner helps a founder decide how much authorised capital to declare when incorporating a company in India. It takes the planned paid-up capital now and the expected near-term issuance, recommends an authorised capital that covers planned shares with headroom, enforces the rule that authorised capital must be at least the paid-up capital, and compares two strategies: setting a higher authorised capital now versus starting low and increasing later through Form SH-7. It estimates the SPICe Plus filing fee, state stamp duty at each level and the later SH-7 increase cost so the founder can weigh the upfront cost against future flexibility.",
-  "url": "https://www.patronaccounting.com/tools/authorised-capital-planner",
-  "applicationCategory": "BusinessApplication",
-  "inLanguage": "en-IN",
-  "isAccessibleForFree": true,
-  "operatingSystem": "Any",
-  "datePublished": "2026-06-05T08:00:00+05:30",
-  "dateModified": "2026-06-05T08:00:00+05:30",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "INR"
-  },
-  "reviewedBy": {
-    "@type": "Person",
-    "@id": "https://patronaccounting.com/#founder",
-    "name": "CA Sundram Gupta",
-    "jobTitle": "Founder & Chartered Accountant",
-    "url": "https://www.patronaccounting.com/contact-page",
-    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-    "hasCredential": [{
-      "@type": "EducationalOccupationalCredential",
-      "credentialCategory": "Professional Certification",
-      "name": "Chartered Accountant (CA)",
-      "recognizedBy": {
-        "@type": "Organization",
-        "name": "Institute of Chartered Accountants of India",
-        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-      }
-    }]
-  },
-  "publisher": { "@id": "https://patronaccounting.com/#organization" },
-  "provider": {
-    "@id": "https://patronaccounting.com/#organization"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "Authorised Capital Planner", "item": "https://www.patronaccounting.com/tools/authorised-capital-planner"}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is authorised capital and how is it different from paid-up capital?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Authorised capital is the maximum share capital a company is allowed to issue, declared in the capital clause of the Memorandum of Association. Paid-up capital is the amount shareholders have actually paid for shares allotted to them. Authorised capital is a ceiling, paid-up is what has been issued within that ceiling, and paid-up capital can never exceed authorised capital. A company can issue more shares up to the authorised limit without changing the MoA, but must raise the authorised capital first to go beyond it."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How much authorised capital should a startup set?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Many early-stage startups set authorised capital of one lakh rupees, which is enough for an initial paid-up capital of one lakh and keeps stamp duty and fees minimal. If you expect to issue more shares soon, perhaps for a co-founder or a small round, setting authorised capital a little above the expected paid-up gives headroom without a later filing. Founders with confirmed investor interest often set ten lakh to one crore. This planner recommends a level based on your planned paid-up and near-term issuance."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is there a minimum authorised capital for a private company?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. The minimum paid-up capital requirement of one lakh rupees for a private company was removed by the Companies (Amendment) Act, 2015. A company can now be incorporated with any amount of capital, even ten thousand rupees, and there is no penalty for not maintaining a specified minimum. Founders set authorised and paid-up capital based on their commercial needs and the cost trade-off, not a statutory floor, which is what this planner helps you balance."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does higher authorised capital cost more at incorporation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. The SPICe Plus filing fee is nil up to fifteen lakh rupees of authorised capital and rises in slabs above that, and stamp duty is charged as a percentage of authorised capital, so a higher authorised capital means higher upfront stamp duty. Setting a very high authorised capital at incorporation when you do not yet need it ties up money in stamp duty you could have deferred. This planner shows the extra cost of setting high now against the cost of increasing later."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I increase authorised capital later?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Under Section 61 of the Companies Act, 2013, the board passes a resolution, shareholders approve the increase by ordinary resolution at a general meeting, the capital clause of the MoA is amended, and Form SH-7 is filed with the Registrar within thirty days. You pay an ROC fee based on the amount of the increase plus state stamp duty on the increase. If the Articles do not permit alteration of capital, the Articles must be amended first by special resolution with Form MGT-14."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is it cheaper to set high now or increase later?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "It depends on timing and certainty. If you are confident you will need higher capital very soon, setting it at incorporation avoids a second filing and its professional fee. If the need is uncertain or distant, starting low keeps upfront stamp duty and fees down, and you only pay the SH-7 cost if and when you actually need the increase. Because money has time value and plans change, many founders start low. This planner quantifies both paths so you can choose."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can paid-up capital be higher than authorised capital?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No, never. Authorised capital is the legal ceiling, so paid-up capital must always be equal to or less than authorised capital. If you want to issue shares that would push paid-up beyond the authorised limit, you must first increase the authorised capital by amending the MoA and filing Form SH-7. Attempting to allot shares beyond the authorised limit is invalid, which is why the planner warns you whenever your planned paid-up exceeds the authorised capital you enter."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does authorised capital affect credibility or funding?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Authorised capital itself is just a ceiling and signals little, since it is not money in the bank. Paid-up capital is more meaningful, because a higher paid-up shows promoters have actually invested, which banks, lenders and investors view as a sign of commitment. For fundraising, investors care about the share structure, valuation and cap table rather than the authorised figure, though enough authorised headroom is needed so new shares can be issued without a delay to increase it."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does authorised capital change my annual compliance cost?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Authorised capital does not directly drive most annual compliance costs, which depend more on turnover, audit requirements and the number of transactions. It mainly affects one-time costs: incorporation stamp duty and fees, and the SH-7 cost if you increase it later. Some ROC event-based fees are tiered by capital, but the recurring annual filings such as AOC-4 and MGT-7 are not primarily a function of authorised capital. The annual compliance cost estimator can help you plan the recurring side."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the Authorised Capital Planner free?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, the Patron Accounting Authorised Capital Planner is completely free with no signup required. All calculations run in your browser and nothing is stored on our servers. It recommends an authorised capital for your planned paid-up and near-term issuance, checks the authorised is at least the paid-up, and compares the cost of setting high now versus increasing later through SH-7. It is an indicative planning tool; confirm the exact fees and the best structure with a professional before incorporating."
-      }
-    }
-  ]
-}
-</script>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-@endsection
 <style>
         :root {
             --primary: #15365f;
@@ -691,6 +518,183 @@ a:focus-visible {
 
 
         </style>
+@endpush
+
+@section('meta')
+<meta property="og:title" content="Authorised Capital Planner — How Much to Set 2026">
+<meta property="og:description" content="Decide how much authorised capital to set at incorporation: recommended level, paid-up headroom, and the cost of setting high now vs increasing later via SH-7.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/authorised-capital-planner">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+<meta property="og:site_name" content="Patron Accounting">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Authorised Capital Planner — How Much to Set 2026">
+<meta name="twitter:description" content="Decide how much authorised capital to set at incorporation and compare set-high-now vs increase-later (SH-7) costs. Free & instant.">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
+
+<title>Authorised Capital Planner | How Much to Set & SH-7 Cost</title>
+<meta name="description" content="Free authorised capital planner: decide how much authorised capital to set at incorporation and compare set-high-now vs increase-later (SH-7) costs by state.">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#15365f">
+@endsection
+@section('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Authorised Capital Planner",
+  "description": "Authorised Capital Planner helps a founder decide how much authorised capital to declare when incorporating a company in India. It takes the planned paid-up capital now and the expected near-term issuance, recommends an authorised capital that covers planned shares with headroom, enforces the rule that authorised capital must be at least the paid-up capital, and compares two strategies: setting a higher authorised capital now versus starting low and increasing later through Form SH-7. It estimates the SPICe Plus filing fee, state stamp duty at each level and the later SH-7 increase cost so the founder can weigh the upfront cost against future flexibility.",
+  "url": "https://www.patronaccounting.com/tools/authorised-capital-planner",
+  "applicationCategory": "BusinessApplication",
+  "inLanguage": "en-IN",
+  "isAccessibleForFree": true,
+  "operatingSystem": "Any",
+  "datePublished": "2026-06-05T08:00:00+05:30",
+  "dateModified": "2026-06-05T08:00:00+05:30",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "INR"
+  },
+  "reviewedBy": {
+    "@type": "Person",
+    "@id": "https://patronaccounting.com/#founder",
+    "name": "CA Sundram Gupta",
+    "jobTitle": "Founder & Chartered Accountant",
+    "url": "https://www.patronaccounting.com/contact-page",
+    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+    "hasCredential": [{
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Professional Certification",
+      "name": "Chartered Accountant (CA)",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Institute of Chartered Accountants of India",
+        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+      }
+    }]
+  },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
+  "provider": {
+    "@id": "https://patronaccounting.com/#organization"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "Authorised Capital Planner", "item": "https://www.patronaccounting.com/tools/authorised-capital-planner"}
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is authorised capital and how is it different from paid-up capital?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Authorised capital is the maximum share capital a company is allowed to issue, declared in the capital clause of the Memorandum of Association. Paid-up capital is the amount shareholders have actually paid for shares allotted to them. Authorised capital is a ceiling, paid-up is what has been issued within that ceiling, and paid-up capital can never exceed authorised capital. A company can issue more shares up to the authorised limit without changing the MoA, but must raise the authorised capital first to go beyond it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much authorised capital should a startup set?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Many early-stage startups set authorised capital of one lakh rupees, which is enough for an initial paid-up capital of one lakh and keeps stamp duty and fees minimal. If you expect to issue more shares soon, perhaps for a co-founder or a small round, setting authorised capital a little above the expected paid-up gives headroom without a later filing. Founders with confirmed investor interest often set ten lakh to one crore. This planner recommends a level based on your planned paid-up and near-term issuance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a minimum authorised capital for a private company?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The minimum paid-up capital requirement of one lakh rupees for a private company was removed by the Companies (Amendment) Act, 2015. A company can now be incorporated with any amount of capital, even ten thousand rupees, and there is no penalty for not maintaining a specified minimum. Founders set authorised and paid-up capital based on their commercial needs and the cost trade-off, not a statutory floor, which is what this planner helps you balance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does higher authorised capital cost more at incorporation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The SPICe Plus filing fee is nil up to fifteen lakh rupees of authorised capital and rises in slabs above that, and stamp duty is charged as a percentage of authorised capital, so a higher authorised capital means higher upfront stamp duty. Setting a very high authorised capital at incorporation when you do not yet need it ties up money in stamp duty you could have deferred. This planner shows the extra cost of setting high now against the cost of increasing later."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I increase authorised capital later?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Under Section 61 of the Companies Act, 2013, the board passes a resolution, shareholders approve the increase by ordinary resolution at a general meeting, the capital clause of the MoA is amended, and Form SH-7 is filed with the Registrar within thirty days. You pay an ROC fee based on the amount of the increase plus state stamp duty on the increase. If the Articles do not permit alteration of capital, the Articles must be amended first by special resolution with Form MGT-14."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is it cheaper to set high now or increase later?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It depends on timing and certainty. If you are confident you will need higher capital very soon, setting it at incorporation avoids a second filing and its professional fee. If the need is uncertain or distant, starting low keeps upfront stamp duty and fees down, and you only pay the SH-7 cost if and when you actually need the increase. Because money has time value and plans change, many founders start low. This planner quantifies both paths so you can choose."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can paid-up capital be higher than authorised capital?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, never. Authorised capital is the legal ceiling, so paid-up capital must always be equal to or less than authorised capital. If you want to issue shares that would push paid-up beyond the authorised limit, you must first increase the authorised capital by amending the MoA and filing Form SH-7. Attempting to allot shares beyond the authorised limit is invalid, which is why the planner warns you whenever your planned paid-up exceeds the authorised capital you enter."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does authorised capital affect credibility or funding?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Authorised capital itself is just a ceiling and signals little, since it is not money in the bank. Paid-up capital is more meaningful, because a higher paid-up shows promoters have actually invested, which banks, lenders and investors view as a sign of commitment. For fundraising, investors care about the share structure, valuation and cap table rather than the authorised figure, though enough authorised headroom is needed so new shares can be issued without a delay to increase it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does authorised capital change my annual compliance cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Authorised capital does not directly drive most annual compliance costs, which depend more on turnover, audit requirements and the number of transactions. It mainly affects one-time costs: incorporation stamp duty and fees, and the SH-7 cost if you increase it later. Some ROC event-based fees are tiered by capital, but the recurring annual filings such as AOC-4 and MGT-7 are not primarily a function of authorised capital. The annual compliance cost estimator can help you plan the recurring side."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the Authorised Capital Planner free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the Patron Accounting Authorised Capital Planner is completely free with no signup required. All calculations run in your browser and nothing is stored on our servers. It recommends an authorised capital for your planned paid-up and near-term issuance, checks the authorised is at least the paid-up, and compares the cost of setting high now versus increasing later through SH-7. It is an indicative planning tool; confirm the exact fees and the best structure with a professional before incorporating."
+      }
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation">
     <div class="toc-nav-inner">

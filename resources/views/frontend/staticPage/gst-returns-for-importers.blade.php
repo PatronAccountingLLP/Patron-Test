@@ -1,155 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>GST Returns for Importers 2026: IGST | Patron Accounting</title>
-    <meta name="description" content="GST returns for importers - IGST on imports, ICEGATE Bill of Entry matching, GSTR-2B reconciliation, ITC claim in GSTR-3B. Starting from INR 2,499 per month.">
-    <link rel="canonical" href="/gst-returns-for-importers">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="GST Returns for Importers 2026: IGST | Patron Accounting">
-    <meta property="og:description" content="GST returns for importers - IGST on imports, ICEGATE Bill of Entry matching, GSTR-2B reconciliation, ITC claim in GSTR-3B. Starting from INR 2,499 per month.">
-    <meta property="og:url" content="/gst-returns-for-importers">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="GST Returns for Importers 2026: IGST | Patron Accounting">
-    <meta name="twitter:description" content="GST returns for importers - IGST on imports, ICEGATE Bill of Entry matching, GSTR-2B reconciliation, ITC claim in GSTR-3B. Starting from INR 2,499 per month.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/gst-returns-for-importers/#service",
-        "name": "GST Returns for Importers",
-        "description": "Monthly managed GST compliance for importers covering ICEGATE Bill of Entry to GSTR-2B Part-D reconciliation, IGST input tax credit claim in GSTR-3B Table 4(A)(1), IMS Import of Goods action from October 2025, import-of-services RCM under Section 5(3) IGST, SEZ DTA imports, high sea sales under Schedule III, and DRC-01C mismatch defence.",
-        "serviceType": "GST Compliance for Importers",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-returns-for-importers" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [
-            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
-            { "@type": "Thing", "name": "Bill of entry (customs)", "sameAs": "https://en.wikipedia.org/wiki/Bill_of_entry" }
-        ],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "GST Returns for Importers Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "Monthly GST Returns - Single GSTIN, up to 50 BoE per month",
-                    "priceCurrency": "INR",
-                    "price": "2499",
-                    "description": "Monthly BoE-to-GSTR-2B reconciliation, GSTR-1 and GSTR-3B filing, and IGST ITC claim in Table 4(A)(1) for a single GSTIN up to 50 Bills of Entry per month"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/gst-returns-for-importers/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
-            { "@type": "ListItem", "position": 3, "name": "GST Returns for Importers", "item": "https://www.patronaccounting.com/gst-returns-for-importers" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/gst-returns-for-importers/#faq",
-        "datePublished": "2026-05-27T08:00:00+05:30",
-        "dateModified": "2026-06-01T08:00:00+05:30",
-        "mainEntity": [
-
-            {
-                "@type": "Question",
-                "name": "How is GST levied on import of goods into India?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Under the proviso to Section 5(1) of the IGST Act, 2017 read with Section 3(7) of the Customs Tariff Act, 1975, IGST on imported goods is levied and collected at the time of customs clearance under Section 12 of the Customs Act, 1962. The IGST is computed on the assessable value plus Basic Customs Duty and Social Welfare Surcharge, and compensation cess applies on notified items."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How does Bill of Entry data appear in GSTR-2B?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Bill of Entry data is transmitted from ICEGATE to GSTN and auto-populates in GSTR-2B Part-D under Import of goods from overseas on bill of entry and Import of goods from SEZ units or developers on bill of entry. The importer reconciles this against customs records, books, and ICEGATE history before claiming ITC in GSTR-3B."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Where do I claim IGST paid on imports as input tax credit?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "IGST paid on imports is claimed in GSTR-3B Table 4(A)(1) Import of goods by reference to the Bill of Entry. Under Rule 36(1)(d) of the CGST Rules, the BoE is the ITC-eligible document. Section 16(2)(aa) supplier-reporting condition does not apply to imports since the BoE is self-paid by the importer at customs."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What if my Bill of Entry is not reflected in GSTR-2B?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Use Services > User Services > Search BoE on the GST portal. Enter BoE details and search; if not found, trigger Query ICEGATE which refreshes data from ICEGATE within 30 minutes. ITC can usually be defended on the BoE itself even if GSTR-2B has not yet captured the entry under Rule 36(1)(d)."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the new IMS Import of Goods section from October 2025?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "From October 2025, the Invoice Management System on the GST portal has a dedicated Import of Goods section. It allows importers to accept, reject, or amend BoE entries before they flow into GSTR-2B. Amendments and SEZ imports are reflected separately. The action must be taken before the GSTR-3B due date for the period."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Does Section 16(2)(aa) supplier-reporting condition apply to import IGST?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "No. Section 16(2)(aa) requires that supplier-reported invoices appear in the recipient's GSTR-2B. This applies to invoices and debit notes. For imports, IGST is self-paid by the importer at customs and the document is the Bill of Entry, not a supplier invoice. ITC on imports is therefore not blocked by Section 16(2)(aa) even if GSTR-2B has a population delay."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How are high sea sales and bond-to-bond sales treated under GST?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Schedule III Entry 8(b) of the CGST Act, 2017 treats supply of goods by a person located in non-taxable territory, or by a person in customs bonded warehouse before filing of Bill of Entry, as neither supply of goods nor supply of services. The final BoE-filing buyer pays IGST as the importer. Documentation of the contractual chain is essential to avoid double taxation."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the cost of monthly GST returns for importers at Patron Accounting?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Starting from INR 2,499 per month (Exclusive of GST and government charges) for single-GSTIN compliance up to 50 BoEs per month. Multi-port, high-volume, SEZ DTA buyer, and import-of-services RCM compliance are quoted separately. Government fees apply only for departmental filings if needed."
-                }
-            }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -763,7 +618,157 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>GST Returns for Importers 2026: IGST | Patron Accounting</title>
+    <meta name="description" content="GST returns for importers - IGST on imports, ICEGATE Bill of Entry matching, GSTR-2B reconciliation, ITC claim in GSTR-3B. Starting from INR 2,499 per month.">
+    <link rel="canonical" href="/gst-returns-for-importers">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="GST Returns for Importers 2026: IGST | Patron Accounting">
+    <meta property="og:description" content="GST returns for importers - IGST on imports, ICEGATE Bill of Entry matching, GSTR-2B reconciliation, ITC claim in GSTR-3B. Starting from INR 2,499 per month.">
+    <meta property="og:url" content="/gst-returns-for-importers">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GST Returns for Importers 2026: IGST | Patron Accounting">
+    <meta name="twitter:description" content="GST returns for importers - IGST on imports, ICEGATE Bill of Entry matching, GSTR-2B reconciliation, ITC claim in GSTR-3B. Starting from INR 2,499 per month.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/gst-returns-for-importers/#service",
+        "name": "GST Returns for Importers",
+        "description": "Monthly managed GST compliance for importers covering ICEGATE Bill of Entry to GSTR-2B Part-D reconciliation, IGST input tax credit claim in GSTR-3B Table 4(A)(1), IMS Import of Goods action from October 2025, import-of-services RCM under Section 5(3) IGST, SEZ DTA imports, high sea sales under Schedule III, and DRC-01C mismatch defence.",
+        "serviceType": "GST Compliance for Importers",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-returns-for-importers" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [
+            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
+            { "@type": "Thing", "name": "Bill of entry (customs)", "sameAs": "https://en.wikipedia.org/wiki/Bill_of_entry" }
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "GST Returns for Importers Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "Monthly GST Returns - Single GSTIN, up to 50 BoE per month",
+                    "priceCurrency": "INR",
+                    "price": "2499",
+                    "description": "Monthly BoE-to-GSTR-2B reconciliation, GSTR-1 and GSTR-3B filing, and IGST ITC claim in Table 4(A)(1) for a single GSTIN up to 50 Bills of Entry per month"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/gst-returns-for-importers/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
+            { "@type": "ListItem", "position": 3, "name": "GST Returns for Importers", "item": "https://www.patronaccounting.com/gst-returns-for-importers" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/gst-returns-for-importers/#faq",
+        "datePublished": "2026-05-27T08:00:00+05:30",
+        "dateModified": "2026-06-01T08:00:00+05:30",
+        "mainEntity": [
+
+            {
+                "@type": "Question",
+                "name": "How is GST levied on import of goods into India?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Under the proviso to Section 5(1) of the IGST Act, 2017 read with Section 3(7) of the Customs Tariff Act, 1975, IGST on imported goods is levied and collected at the time of customs clearance under Section 12 of the Customs Act, 1962. The IGST is computed on the assessable value plus Basic Customs Duty and Social Welfare Surcharge, and compensation cess applies on notified items."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How does Bill of Entry data appear in GSTR-2B?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Bill of Entry data is transmitted from ICEGATE to GSTN and auto-populates in GSTR-2B Part-D under Import of goods from overseas on bill of entry and Import of goods from SEZ units or developers on bill of entry. The importer reconciles this against customs records, books, and ICEGATE history before claiming ITC in GSTR-3B."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Where do I claim IGST paid on imports as input tax credit?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "IGST paid on imports is claimed in GSTR-3B Table 4(A)(1) Import of goods by reference to the Bill of Entry. Under Rule 36(1)(d) of the CGST Rules, the BoE is the ITC-eligible document. Section 16(2)(aa) supplier-reporting condition does not apply to imports since the BoE is self-paid by the importer at customs."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What if my Bill of Entry is not reflected in GSTR-2B?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Use Services > User Services > Search BoE on the GST portal. Enter BoE details and search; if not found, trigger Query ICEGATE which refreshes data from ICEGATE within 30 minutes. ITC can usually be defended on the BoE itself even if GSTR-2B has not yet captured the entry under Rule 36(1)(d)."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the new IMS Import of Goods section from October 2025?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "From October 2025, the Invoice Management System on the GST portal has a dedicated Import of Goods section. It allows importers to accept, reject, or amend BoE entries before they flow into GSTR-2B. Amendments and SEZ imports are reflected separately. The action must be taken before the GSTR-3B due date for the period."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Does Section 16(2)(aa) supplier-reporting condition apply to import IGST?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No. Section 16(2)(aa) requires that supplier-reported invoices appear in the recipient's GSTR-2B. This applies to invoices and debit notes. For imports, IGST is self-paid by the importer at customs and the document is the Bill of Entry, not a supplier invoice. ITC on imports is therefore not blocked by Section 16(2)(aa) even if GSTR-2B has a population delay."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How are high sea sales and bond-to-bond sales treated under GST?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Schedule III Entry 8(b) of the CGST Act, 2017 treats supply of goods by a person located in non-taxable territory, or by a person in customs bonded warehouse before filing of Bill of Entry, as neither supply of goods nor supply of services. The final BoE-filing buyer pays IGST as the importer. Documentation of the contractual chain is essential to avoid double taxation."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the cost of monthly GST returns for importers at Patron Accounting?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Starting from INR 2,499 per month (Exclusive of GST and government charges) for single-GSTIN compliance up to 50 BoEs per month. Multi-port, high-volume, SEZ DTA buyer, and import-of-services RCM compliance are quoted separately. Government fees apply only for departmental filings if needed."
+                }
+            }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1620,17 +1625,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1653,8 +1651,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1691,7 +1687,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1702,4 +1697,20 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+
 

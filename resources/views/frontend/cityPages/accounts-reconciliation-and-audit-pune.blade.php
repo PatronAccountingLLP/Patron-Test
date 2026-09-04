@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,208 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>Accounts Reconciliation in Pune 2026 | Patron Accounting</title>
-    <meta name="description" content="Accounts reconciliation and audit in Pune from INR 14,999 (up to 1000 transactions). CA-led ledger, bank, GST 2B and books verification for Hinjewadi firms.">
-    <link rel="canonical" href="/accounts-reconciliation-and-audit/pune">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Accounts Reconciliation in Pune 2026 | Patron Accounting">
-    <meta property="og:description" content="Accounts reconciliation and audit in Pune from INR 14,999 (up to 1000 transactions). CA-led ledger, bank, GST 2B and books verification for Hinjewadi firms.">
-    <meta property="og:url" content="/accounts-reconciliation-and-audit/pune">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Accounts Reconciliation in Pune 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Accounts reconciliation and audit in Pune from INR 14,999 (up to 1000 transactions). CA-led ledger, bank, GST 2B and books verification for Hinjewadi firms.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/pune#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Accounts Reconciliation and Audit",
-          "item": "https://www.patronaccounting.com/accounts-reconciliation-and-audit"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Accounts Reconciliation and Audit in Pune",
-          "item": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/pune"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/pune#faq",
-      "datePublished": "2026-06-23T08:00:00+05:30",
-      "dateModified": "2026-06-23T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What does accounts reconciliation and audit cover for a Pune business?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "It covers ledger and control-account reconciliation, bank matching, GST 2A and 2B versus books, vendor, customer, and inter-company reconciliation, plus an internal verification of your books up to 1000 transactions. Patron detects errors, builds an audit trail, and reports differences before they reach a GST notice or statutory audit in Pune."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does accounts reconciliation cost in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patron Accounting charges From INR 14,999 (up to 1000 transactions, Exl GST and Govt. Charges). The final fee depends on the number of bank accounts, GST registrations, ledgers, and group entities involved. Hinjewadi SaaS firms and Chakan manufacturers receive a fixed-scope quote before any reconciliation work begins."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why must I reconcile GST 2B with my books in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Under Section 16(2)(aa) of the CGST Act and Rule 36(4), input tax credit is allowed only for invoices reflected in GSTR-2B. If GSTR-3B credit exceeds GSTR-2B beyond the threshold, Form DRC-01C is triggered. Reconciling 2A and 2B against your purchase register protects eligible ITC and avoids interest under Section 50."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between reconciliation and a statutory audit?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Reconciliation and internal verification confirm that your ledgers, bank, GST, and vendor balances agree and that entries are correct. A statutory or tax audit is a separate legal attestation under the Companies Act 2013 or Section 44AB. Clean reconciled books make any later audit faster, cheaper, and far less likely to raise queries."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you check the audit trail and edit log of my accounting software?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Under Rule 3(1) of the Companies (Accounts) Rules, every company must use software that records an audit trail of each change from 1 April 2023. Patron verifies that the edit log is enabled, untampered, and preserved, and flags back-dated or deleted entries during the reconciliation of your Pune books."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What documents are needed for accounts reconciliation in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "You share bank and credit-card statements, the accounting data file, the purchase and sales registers, GSTR-2B downloads, vendor and customer ledgers, and inter-company statements for group entities. Patron reconciles each against your books, flags every difference, and gives a clear list of items needing your confirmation."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does an accounts reconciliation take in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A single-account business up to 1000 transactions is usually reconciled in 3 to 7 working days. Firms with multiple banks, GSTINs, or inter-company books take 2 to 3 weeks. Chakan and MIDC manufacturers with stock and vendor reconciliation may take longer, depending on document availability and transaction volume."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long must reconciled books be retained in India?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Income tax records must be kept for 6 years from the end of the relevant year under Rule 6F(5). Companies must retain books and the audit trail for 8 years under Section 128(5) of the Companies Act 2013. Patron keeps your reconciliation working papers organised so they are available for any future audit or notice."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/pune#service",
-      "name": "Accounts Reconciliation and Audit in Pune",
-      "description": "Accounts reconciliation and audit in Pune covers ledger and control-account reconciliation, bank matching, GST 2A and 2B versus books, vendor, customer, and inter-company reconciliation, plus internal verification of books up to 1000 transactions. Patron Accounting detects errors and builds a clean audit trail for Hinjewadi, Magarpatta, and Chakan businesses.",
-      "serviceType": "Accounts Reconciliation and Books Audit",
-      "url": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/pune",
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Maharashtra"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#localbusiness-pune"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Reconciliation (accounting)",
-          "sameAs": "https://en.wikipedia.org/wiki/Reconciliation_(accounting)"
-        },
-        {
-          "@type": "Thing",
-          "name": "Goods and Services Tax (India)",
-          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Accounts Reconciliation Plans in Pune",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "price": "14999",
-            "priceSpecification": {
-              "@type": "UnitPriceSpecification",
-              "priceCurrency": "INR",
-              "price": "14999",
-              "unitText": "up to 1000 transactions"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Accounts Reconciliation and Books Verification up to 1000 Transactions"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness-pune",
-      "name": "Patron Accounting LLP - Pune",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/pune",
-      "telephone": "+91-9699936369",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Pune",
-        "addressRegion": "Maharashtra",
-        "postalCode": "411014",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -815,7 +612,217 @@
         .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
 
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>Accounts Reconciliation in Pune 2026 | Patron Accounting</title>
+    <meta name="description" content="Accounts reconciliation and audit in Pune from INR 14,999 (up to 1000 transactions). CA-led ledger, bank, GST 2B and books verification for Hinjewadi firms.">
+    <link rel="canonical" href="/accounts-reconciliation-and-audit/pune">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Accounts Reconciliation in Pune 2026 | Patron Accounting">
+    <meta property="og:description" content="Accounts reconciliation and audit in Pune from INR 14,999 (up to 1000 transactions). CA-led ledger, bank, GST 2B and books verification for Hinjewadi firms.">
+    <meta property="og:url" content="/accounts-reconciliation-and-audit/pune">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Accounts Reconciliation in Pune 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Accounts reconciliation and audit in Pune from INR 14,999 (up to 1000 transactions). CA-led ledger, bank, GST 2B and books verification for Hinjewadi firms.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/pune#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Accounts Reconciliation and Audit",
+          "item": "https://www.patronaccounting.com/accounts-reconciliation-and-audit"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Accounts Reconciliation and Audit in Pune",
+          "item": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/pune"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/pune#faq",
+      "datePublished": "2026-06-23T08:00:00+05:30",
+      "dateModified": "2026-06-23T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does accounts reconciliation and audit cover for a Pune business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It covers ledger and control-account reconciliation, bank matching, GST 2A and 2B versus books, vendor, customer, and inter-company reconciliation, plus an internal verification of your books up to 1000 transactions. Patron detects errors, builds an audit trail, and reports differences before they reach a GST notice or statutory audit in Pune."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does accounts reconciliation cost in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patron Accounting charges From INR 14,999 (up to 1000 transactions, Exl GST and Govt. Charges). The final fee depends on the number of bank accounts, GST registrations, ledgers, and group entities involved. Hinjewadi SaaS firms and Chakan manufacturers receive a fixed-scope quote before any reconciliation work begins."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why must I reconcile GST 2B with my books in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under Section 16(2)(aa) of the CGST Act and Rule 36(4), input tax credit is allowed only for invoices reflected in GSTR-2B. If GSTR-3B credit exceeds GSTR-2B beyond the threshold, Form DRC-01C is triggered. Reconciling 2A and 2B against your purchase register protects eligible ITC and avoids interest under Section 50."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between reconciliation and a statutory audit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reconciliation and internal verification confirm that your ledgers, bank, GST, and vendor balances agree and that entries are correct. A statutory or tax audit is a separate legal attestation under the Companies Act 2013 or Section 44AB. Clean reconciled books make any later audit faster, cheaper, and far less likely to raise queries."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you check the audit trail and edit log of my accounting software?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Under Rule 3(1) of the Companies (Accounts) Rules, every company must use software that records an audit trail of each change from 1 April 2023. Patron verifies that the edit log is enabled, untampered, and preserved, and flags back-dated or deleted entries during the reconciliation of your Pune books."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What documents are needed for accounts reconciliation in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You share bank and credit-card statements, the accounting data file, the purchase and sales registers, GSTR-2B downloads, vendor and customer ledgers, and inter-company statements for group entities. Patron reconciles each against your books, flags every difference, and gives a clear list of items needing your confirmation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does an accounts reconciliation take in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A single-account business up to 1000 transactions is usually reconciled in 3 to 7 working days. Firms with multiple banks, GSTINs, or inter-company books take 2 to 3 weeks. Chakan and MIDC manufacturers with stock and vendor reconciliation may take longer, depending on document availability and transaction volume."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long must reconciled books be retained in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Income tax records must be kept for 6 years from the end of the relevant year under Rule 6F(5). Companies must retain books and the audit trail for 8 years under Section 128(5) of the Companies Act 2013. Patron keeps your reconciliation working papers organised so they are available for any future audit or notice."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/pune#service",
+      "name": "Accounts Reconciliation and Audit in Pune",
+      "description": "Accounts reconciliation and audit in Pune covers ledger and control-account reconciliation, bank matching, GST 2A and 2B versus books, vendor, customer, and inter-company reconciliation, plus internal verification of books up to 1000 transactions. Patron Accounting detects errors and builds a clean audit trail for Hinjewadi, Magarpatta, and Chakan businesses.",
+      "serviceType": "Accounts Reconciliation and Books Audit",
+      "url": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/pune",
+      "areaServed": {
+        "@type": "City",
+        "name": "Pune",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Maharashtra"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#localbusiness-pune"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Reconciliation (accounting)",
+          "sameAs": "https://en.wikipedia.org/wiki/Reconciliation_(accounting)"
+        },
+        {
+          "@type": "Thing",
+          "name": "Goods and Services Tax (India)",
+          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Accounts Reconciliation Plans in Pune",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "price": "14999",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "INR",
+              "price": "14999",
+              "unitText": "up to 1000 transactions"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Accounts Reconciliation and Books Verification up to 1000 Transactions"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness-pune",
+      "name": "Patron Accounting LLP - Pune",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/pune",
+      "telephone": "+91-9699936369",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Pune"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Pune",
+        "addressRegion": "Maharashtra",
+        "postalCode": "411014",
+        "addressCountry": "IN"
+      },
+      "parentOrganization": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1567,7 +1574,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

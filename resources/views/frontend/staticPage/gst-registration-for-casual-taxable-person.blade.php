@@ -1,155 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Casual Taxable Person Registration 2026 | Patron Accounting</title>
-    <meta name="description" content="90 day GST registration for casual taxable persons under Section 27 of the CGST Act. Advance tax deposit. Extendable by 90 more days. Starting at Rs 999.">
-    <link rel="canonical" href="/gst-registration-for-casual-taxable-person">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Casual Taxable Person Registration 2026 | Patron Accounting">
-    <meta property="og:description" content="90 day GST registration for casual taxable persons under Section 27 of the CGST Act. Advance tax deposit. Extendable by 90 more days. Starting at Rs 999.">
-    <meta property="og:url" content="/gst-registration-for-casual-taxable-person">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Casual Taxable Person Registration 2026 | Patron Accounting">
-    <meta name="twitter:description" content="90 day GST registration for casual taxable persons under Section 27 of the CGST Act. Advance tax deposit. Extendable by 90 more days. Starting at Rs 999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/gst-registration-for-casual-taxable-person/#service",
-        "name": "Casual Taxable Person Registration Under GST in India",
-        "description": "Patron Accounting LLP files Form GST REG-01 for Casual Taxable Person registration under Section 27 of the CGST Act, 2017. The service covers advance tax estimation, REG-01 filing in the host State, monthly GSTR-1 and GSTR-3B during validity, Form GST REG-11 extension before expiry, and Form GST RFD-01 refund of excess balance in the electronic cash ledger after surrender or expiry.",
-        "serviceType": "Tax Registration Service",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-registration-for-casual-taxable-person" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [
-            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
-            { "@type": "Thing", "name": "Central Board of Indirect Taxes and Customs", "sameAs": "https://en.wikipedia.org/wiki/Central_Board_of_Indirect_Taxes_and_Customs" }
-        ],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Casual Taxable Person Registration Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "Casual Taxable Person Registration - Form REG-01 End to End",
-                    "priceCurrency": "INR",
-                    "price": "999",
-                    "description": "Single State, advance tax estimation, REG-01 filing in the host State, and post-registration coordination"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/gst-registration-for-casual-taxable-person/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
-            { "@type": "ListItem", "position": 3, "name": "Casual Taxable Person Registration", "item": "https://www.patronaccounting.com/gst-registration-for-casual-taxable-person" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/gst-registration-for-casual-taxable-person/#faq",
-        "datePublished": "2026-05-26T08:00:00+05:30",
-        "dateModified": "2026-06-01T08:00:00+05:30",
-        "mainEntity": [
-
-            {
-                "@type": "Question",
-                "name": "Who is a casual taxable person under GST?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "A Casual Taxable Person under Section 2(20) of the CGST Act, 2017 is a person who occasionally undertakes transactions involving the supply of goods or services, or both, in the course or furtherance of business, in a State or Union Territory where he has no fixed place of business. The three elements are occasional supply, supply outside home State, and absence of a fixed place of business in the host State. Registration is compulsory under Section 24(ii) regardless of turnover threshold."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the validity period of CTP registration?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Under Section 27(1) of the CGST Act, 2017, the certificate of registration issued to a Casual Taxable Person is valid for the period specified in the application or 90 days from the effective date of registration, whichever is earlier. The proper officer may extend this by a further period not exceeding 90 days on sufficient cause being shown, taking the maximum total validity to 180 days."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How is advance tax calculated for a casual taxable person?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Under Section 27(2) of the CGST Act, 2017, the advance deposit equals the estimated tax liability for the registration period. The calculation is estimated taxable supply value multiplied by applicable GST rate, less eligible Input Tax Credit on inputs and inward supplies. The amount is paid via Form GST PMT-06 challan and credited to the electronic cash ledger under Section 27(3)."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How to extend CTP GST registration?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "File Form GST REG-11 with the proper officer before the existing certificate expires, citing sufficient cause for extension. Deposit additional advance tax equivalent to the estimated tax liability for the extended period as required by the proviso to Section 27(2). The proper officer may extend by up to 90 more days under the proviso to Section 27(1), capping total validity at 180 days."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can a casual taxable person claim Input Tax Credit?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. A Casual Taxable Person can claim ITC on all inputs, capital goods and input services received in the course or furtherance of business in the host State, subject to the standard ITC conditions in Section 16 and Section 17 of the CGST Act, 2017. The ITC is utilised through the regular GSTR-3B mechanism during the certificate period. This is a key distinction from Non-Resident Taxable Persons, who can only claim ITC on goods imported into India."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How to claim refund of advance tax after CTP registration ends?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "After all GSTR-1 and GSTR-3B returns for the certificate period are filed, navigate to Services then Refunds then Refund of excess balance in electronic cash ledger on the GST portal. File Form GST RFD-01 under that category. The portal auto-populates the unutilised balance. The refund typically credits to the registered bank account within 60 days under Section 54 read with Section 27(3) of the CGST Act, 2017."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Is GSTR-9 annual return mandatory for casual taxable persons?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "No. A Casual Taxable Person is expressly exempt from filing Form GSTR-9 annual return. Only Form GSTR-1, outward supplies by 11th of the following month, and Form GSTR-3B, summary return by 20th, are required during the certificate's validity period. QRMP scheme can be opted for if eligibility conditions are met."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can a casual taxable person opt for composition scheme?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "No. Section 10 of the CGST Act, 2017 expressly excludes Casual Taxable Persons from opting for the composition scheme. A CTP must register and pay tax as a regular taxable person, with advance tax deposit under Section 27(2). The exclusion exists because composition is designed for steady small businesses, while CTP registration is a temporary mechanism for occasional supplies."
-                }
-            }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -763,7 +618,157 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Casual Taxable Person Registration 2026 | Patron Accounting</title>
+    <meta name="description" content="90 day GST registration for casual taxable persons under Section 27 of the CGST Act. Advance tax deposit. Extendable by 90 more days. Starting at Rs 999.">
+    <link rel="canonical" href="/gst-registration-for-casual-taxable-person">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Casual Taxable Person Registration 2026 | Patron Accounting">
+    <meta property="og:description" content="90 day GST registration for casual taxable persons under Section 27 of the CGST Act. Advance tax deposit. Extendable by 90 more days. Starting at Rs 999.">
+    <meta property="og:url" content="/gst-registration-for-casual-taxable-person">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Casual Taxable Person Registration 2026 | Patron Accounting">
+    <meta name="twitter:description" content="90 day GST registration for casual taxable persons under Section 27 of the CGST Act. Advance tax deposit. Extendable by 90 more days. Starting at Rs 999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/gst-registration-for-casual-taxable-person/#service",
+        "name": "Casual Taxable Person Registration Under GST in India",
+        "description": "Patron Accounting LLP files Form GST REG-01 for Casual Taxable Person registration under Section 27 of the CGST Act, 2017. The service covers advance tax estimation, REG-01 filing in the host State, monthly GSTR-1 and GSTR-3B during validity, Form GST REG-11 extension before expiry, and Form GST RFD-01 refund of excess balance in the electronic cash ledger after surrender or expiry.",
+        "serviceType": "Tax Registration Service",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-registration-for-casual-taxable-person" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [
+            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
+            { "@type": "Thing", "name": "Central Board of Indirect Taxes and Customs", "sameAs": "https://en.wikipedia.org/wiki/Central_Board_of_Indirect_Taxes_and_Customs" }
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Casual Taxable Person Registration Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "Casual Taxable Person Registration - Form REG-01 End to End",
+                    "priceCurrency": "INR",
+                    "price": "999",
+                    "description": "Single State, advance tax estimation, REG-01 filing in the host State, and post-registration coordination"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/gst-registration-for-casual-taxable-person/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
+            { "@type": "ListItem", "position": 3, "name": "Casual Taxable Person Registration", "item": "https://www.patronaccounting.com/gst-registration-for-casual-taxable-person" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/gst-registration-for-casual-taxable-person/#faq",
+        "datePublished": "2026-05-26T08:00:00+05:30",
+        "dateModified": "2026-06-01T08:00:00+05:30",
+        "mainEntity": [
+
+            {
+                "@type": "Question",
+                "name": "Who is a casual taxable person under GST?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "A Casual Taxable Person under Section 2(20) of the CGST Act, 2017 is a person who occasionally undertakes transactions involving the supply of goods or services, or both, in the course or furtherance of business, in a State or Union Territory where he has no fixed place of business. The three elements are occasional supply, supply outside home State, and absence of a fixed place of business in the host State. Registration is compulsory under Section 24(ii) regardless of turnover threshold."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the validity period of CTP registration?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Under Section 27(1) of the CGST Act, 2017, the certificate of registration issued to a Casual Taxable Person is valid for the period specified in the application or 90 days from the effective date of registration, whichever is earlier. The proper officer may extend this by a further period not exceeding 90 days on sufficient cause being shown, taking the maximum total validity to 180 days."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How is advance tax calculated for a casual taxable person?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Under Section 27(2) of the CGST Act, 2017, the advance deposit equals the estimated tax liability for the registration period. The calculation is estimated taxable supply value multiplied by applicable GST rate, less eligible Input Tax Credit on inputs and inward supplies. The amount is paid via Form GST PMT-06 challan and credited to the electronic cash ledger under Section 27(3)."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How to extend CTP GST registration?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "File Form GST REG-11 with the proper officer before the existing certificate expires, citing sufficient cause for extension. Deposit additional advance tax equivalent to the estimated tax liability for the extended period as required by the proviso to Section 27(2). The proper officer may extend by up to 90 more days under the proviso to Section 27(1), capping total validity at 180 days."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can a casual taxable person claim Input Tax Credit?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. A Casual Taxable Person can claim ITC on all inputs, capital goods and input services received in the course or furtherance of business in the host State, subject to the standard ITC conditions in Section 16 and Section 17 of the CGST Act, 2017. The ITC is utilised through the regular GSTR-3B mechanism during the certificate period. This is a key distinction from Non-Resident Taxable Persons, who can only claim ITC on goods imported into India."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How to claim refund of advance tax after CTP registration ends?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "After all GSTR-1 and GSTR-3B returns for the certificate period are filed, navigate to Services then Refunds then Refund of excess balance in electronic cash ledger on the GST portal. File Form GST RFD-01 under that category. The portal auto-populates the unutilised balance. The refund typically credits to the registered bank account within 60 days under Section 54 read with Section 27(3) of the CGST Act, 2017."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is GSTR-9 annual return mandatory for casual taxable persons?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No. A Casual Taxable Person is expressly exempt from filing Form GSTR-9 annual return. Only Form GSTR-1, outward supplies by 11th of the following month, and Form GSTR-3B, summary return by 20th, are required during the certificate's validity period. QRMP scheme can be opted for if eligibility conditions are met."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can a casual taxable person opt for composition scheme?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No. Section 10 of the CGST Act, 2017 expressly excludes Casual Taxable Persons from opting for the composition scheme. A CTP must register and pay tax as a regular taxable person, with advance tax deposit under Section 27(2). The exclusion exists because composition is designed for steady small businesses, while CTP registration is a temporary mechanism for occasional supplies."
+                }
+            }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1723,17 +1728,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1756,8 +1754,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1794,7 +1790,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1805,4 +1800,20 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+
 

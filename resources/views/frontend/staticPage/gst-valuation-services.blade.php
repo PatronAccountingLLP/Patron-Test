@@ -1,155 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>GST Valuation Services 2026: Section 15 | Patron Accounting</title>
-    <meta name="description" content="Expert GST valuation under Section 15 and Rules 27 to 35 for related-party, barter, free supplies, and discount cases by CA/CS. Starting from INR 9,999.">
-    <link rel="canonical" href="/gst-valuation-services">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="GST Valuation Services 2026: Section 15 | Patron Accounting">
-    <meta property="og:description" content="Expert GST valuation under Section 15 and Rules 27 to 35 for related-party, barter, free supplies, and discount cases by CA/CS. Starting from INR 9,999.">
-    <meta property="og:url" content="/gst-valuation-services">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="GST Valuation Services 2026: Section 15 | Patron Accounting">
-    <meta name="twitter:description" content="Expert GST valuation under Section 15 and Rules 27 to 35 for related-party, barter, free supplies, and discount cases by CA/CS. Starting from INR 9,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/gst-valuation-services/#service",
-        "name": "GST Valuation Services",
-        "description": "Written GST valuation opinion under Section 15 of the CGST Act, 2017 and Rules 27 to 35 of the CGST Rules. Covers related-party transactions, distinct-person cross charge, corporate guarantees, free supplies under Schedule I, post-supply discounts, residual cost-based valuation, and departmental representation on undervaluation notices.",
-        "serviceType": "GST Valuation Advisory",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-valuation-services" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [
-            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
-            { "@type": "Thing", "name": "Valuation (finance)", "sameAs": "https://en.wikipedia.org/wiki/Valuation_(finance)" }
-        ],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "GST Valuation Services Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "Written Valuation Opinion (per transaction type)",
-                    "priceCurrency": "INR",
-                    "price": "9999",
-                    "description": "Written GST valuation opinion under Section 15 and Rules 27 to 35 for a single transaction type, with Section, Rule, and CBIC circular citations"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/gst-valuation-services/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
-            { "@type": "ListItem", "position": 3, "name": "GST Valuation Services", "item": "https://www.patronaccounting.com/gst-valuation-services" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/gst-valuation-services/#faq",
-        "datePublished": "2026-05-27T08:00:00+05:30",
-        "dateModified": "2026-06-01T08:00:00+05:30",
-        "mainEntity": [
-
-            {
-                "@type": "Question",
-                "name": "What is value of supply under Section 15 of the CGST Act?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "The value of supply under Section 15(1) is the transaction value, meaning the price actually paid or payable for the supply of goods or services, provided the supplier and recipient are unrelated and price is the sole consideration. If either condition fails, value is determined under Rules 27 to 35 of the CGST Rules, 2017."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How is the value determined for a related-party transaction?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Rule 28 of the CGST Rules applies. Value is open market value first, then value of like kind and quality, then cost method (Rule 30 at 110 percent of cost), then residual method (Rule 31). The second proviso to Rule 28(1) allows the invoice value to be deemed open market value where the recipient is eligible for full input tax credit, per Circular 199/11/2023-GST."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How is GST valued on a corporate guarantee given to a subsidiary?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Rule 28(2) provides that the value is 1 percent per annum of the amount guaranteed or the actual consideration, whichever is higher. Circular 225/19/2024-GST clarifies the 1 percent applies per annum. Where the recipient is located outside India, Rule 28(2) does not apply. Where the recipient has full ITC, the second proviso allows invoice value to be accepted."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can post-supply discounts be excluded from value of supply?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, but only if the conditions of Section 15(3)(b) are met: the discount is established by an agreement entered into at or before the time of supply, the discount is specifically linked to relevant invoices, and the input tax credit attributable to the discount is reversed by the recipient. Secondary discounts not meeting these conditions cannot be deducted, per Circular 92/11/2019-GST."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Is GST payable on a free supply or sample to a related party?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. Under Section 7(1)(c) read with Schedule I of the CGST Act, a supply between related persons made without consideration is a deemed supply and is taxable. Valuation is under Rule 28 - open market value, like kind and quality, or fallback to Rule 30 or Rule 31. The second proviso applies where the recipient has full input tax credit."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is Rule 30 cost method under GST valuation?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Rule 30 prescribes that where value cannot be determined under Rules 27, 28, or 29, the value is 110 percent of the cost of production or manufacture of the goods, or the cost of provision of the service. For service providers, Rule 31 residual method may be elected in place of Rule 30 at the option of the supplier."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How is cross-charge between head office and branch valued?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Per Circular 199/11/2023-GST dated 17 July 2023, supplies between HO and BO across GSTINs are valued under Rule 28. Where the recipient BO is eligible for full ITC, the value declared by HO in the invoice is deemed open market value under the second proviso. If no invoice is issued, value can be deemed Nil where ITC is fully available. The Delhi High Court in KEI Industries sustained Nil cross-charge on this basis."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the cost of GST valuation advisory at Patron Accounting?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Starting from INR 9,999 (Exclusive of GST and government charges) per transaction type for a written opinion. Corporate guarantee, cross-charge framework, discount structuring, and group-wide valuation reviews are quoted separately based on transaction count and complexity. Government fees apply only if an advance ruling under Section 97 CGST is filed."
-                }
-            }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -763,7 +618,157 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>GST Valuation Services 2026: Section 15 | Patron Accounting</title>
+    <meta name="description" content="Expert GST valuation under Section 15 and Rules 27 to 35 for related-party, barter, free supplies, and discount cases by CA/CS. Starting from INR 9,999.">
+    <link rel="canonical" href="/gst-valuation-services">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="GST Valuation Services 2026: Section 15 | Patron Accounting">
+    <meta property="og:description" content="Expert GST valuation under Section 15 and Rules 27 to 35 for related-party, barter, free supplies, and discount cases by CA/CS. Starting from INR 9,999.">
+    <meta property="og:url" content="/gst-valuation-services">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GST Valuation Services 2026: Section 15 | Patron Accounting">
+    <meta name="twitter:description" content="Expert GST valuation under Section 15 and Rules 27 to 35 for related-party, barter, free supplies, and discount cases by CA/CS. Starting from INR 9,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/gst-valuation-services/#service",
+        "name": "GST Valuation Services",
+        "description": "Written GST valuation opinion under Section 15 of the CGST Act, 2017 and Rules 27 to 35 of the CGST Rules. Covers related-party transactions, distinct-person cross charge, corporate guarantees, free supplies under Schedule I, post-supply discounts, residual cost-based valuation, and departmental representation on undervaluation notices.",
+        "serviceType": "GST Valuation Advisory",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-valuation-services" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [
+            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
+            { "@type": "Thing", "name": "Valuation (finance)", "sameAs": "https://en.wikipedia.org/wiki/Valuation_(finance)" }
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "GST Valuation Services Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "Written Valuation Opinion (per transaction type)",
+                    "priceCurrency": "INR",
+                    "price": "9999",
+                    "description": "Written GST valuation opinion under Section 15 and Rules 27 to 35 for a single transaction type, with Section, Rule, and CBIC circular citations"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/gst-valuation-services/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
+            { "@type": "ListItem", "position": 3, "name": "GST Valuation Services", "item": "https://www.patronaccounting.com/gst-valuation-services" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/gst-valuation-services/#faq",
+        "datePublished": "2026-05-27T08:00:00+05:30",
+        "dateModified": "2026-06-01T08:00:00+05:30",
+        "mainEntity": [
+
+            {
+                "@type": "Question",
+                "name": "What is value of supply under Section 15 of the CGST Act?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The value of supply under Section 15(1) is the transaction value, meaning the price actually paid or payable for the supply of goods or services, provided the supplier and recipient are unrelated and price is the sole consideration. If either condition fails, value is determined under Rules 27 to 35 of the CGST Rules, 2017."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How is the value determined for a related-party transaction?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Rule 28 of the CGST Rules applies. Value is open market value first, then value of like kind and quality, then cost method (Rule 30 at 110 percent of cost), then residual method (Rule 31). The second proviso to Rule 28(1) allows the invoice value to be deemed open market value where the recipient is eligible for full input tax credit, per Circular 199/11/2023-GST."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How is GST valued on a corporate guarantee given to a subsidiary?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Rule 28(2) provides that the value is 1 percent per annum of the amount guaranteed or the actual consideration, whichever is higher. Circular 225/19/2024-GST clarifies the 1 percent applies per annum. Where the recipient is located outside India, Rule 28(2) does not apply. Where the recipient has full ITC, the second proviso allows invoice value to be accepted."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can post-supply discounts be excluded from value of supply?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, but only if the conditions of Section 15(3)(b) are met: the discount is established by an agreement entered into at or before the time of supply, the discount is specifically linked to relevant invoices, and the input tax credit attributable to the discount is reversed by the recipient. Secondary discounts not meeting these conditions cannot be deducted, per Circular 92/11/2019-GST."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is GST payable on a free supply or sample to a related party?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Under Section 7(1)(c) read with Schedule I of the CGST Act, a supply between related persons made without consideration is a deemed supply and is taxable. Valuation is under Rule 28 - open market value, like kind and quality, or fallback to Rule 30 or Rule 31. The second proviso applies where the recipient has full input tax credit."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is Rule 30 cost method under GST valuation?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Rule 30 prescribes that where value cannot be determined under Rules 27, 28, or 29, the value is 110 percent of the cost of production or manufacture of the goods, or the cost of provision of the service. For service providers, Rule 31 residual method may be elected in place of Rule 30 at the option of the supplier."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How is cross-charge between head office and branch valued?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Per Circular 199/11/2023-GST dated 17 July 2023, supplies between HO and BO across GSTINs are valued under Rule 28. Where the recipient BO is eligible for full ITC, the value declared by HO in the invoice is deemed open market value under the second proviso. If no invoice is issued, value can be deemed Nil where ITC is fully available. The Delhi High Court in KEI Industries sustained Nil cross-charge on this basis."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the cost of GST valuation advisory at Patron Accounting?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Starting from INR 9,999 (Exclusive of GST and government charges) per transaction type for a written opinion. Corporate guarantee, cross-charge framework, discount structuring, and group-wide valuation reviews are quoted separately based on transaction count and complexity. Government fees apply only if an advance ruling under Section 97 CGST is filed."
+                }
+            }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1616,17 +1621,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1649,8 +1647,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1687,7 +1683,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1698,4 +1693,20 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+
 

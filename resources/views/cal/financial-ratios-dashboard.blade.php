@@ -1,196 +1,8 @@
 @extends('layouts.app')
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
-@section('meta')
-    <title>Financial Ratios Dashboard | 30+ Ratios, Schedule III</title>
-    <meta name="description" content="Financial ratios dashboard: 30+ ratios across liquidity, solvency, profitability, efficiency and cash flow, all tagged to Schedule III. Free CA-reviewed tool!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/financial-ratios-dashboard">
-    <meta property="og:title" content="Financial Ratios Dashboard — 30+ Ratios + Schedule III 2026">
-    <meta property="og:description" content="Compute 30+ financial ratios in one dashboard. Schedule III mandatory ratios tagged, 25% variance flag, Indian sector benchmarks. Free CA tool.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/financial-ratios-dashboard">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Financial Ratios Dashboard — 30+ Ratios + Schedule III 2026">
-    <meta name="twitter:description" content="30+ ratios in one dashboard. Schedule III tagged, 25% variance flag, Indian sector benchmarks. Free CA tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-    <meta name="theme-color" content="#15365f">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "Financial Ratios Dashboard",
-      "description": "Financial Ratios Dashboard is a comprehensive single-input tool that computes thirty-plus financial ratios across six analytical dimensions — Liquidity (Current Ratio, Quick Ratio, Cash Ratio, Net Working Capital to Sales, Operating Cash Flow Ratio); Solvency and Leverage (Debt-to-Equity, Debt-to-Assets, Equity Multiplier, Interest Coverage Ratio, Debt Service Coverage Ratio, Long-Term Debt to Equity); Profitability (Gross Margin, Operating Margin, EBITDA Margin, Net Profit Margin, Return on Equity, Return on Assets, Return on Capital Employed, Return on Invested Capital); Efficiency (Asset Turnover, Inventory Turnover, Receivables Turnover, Payables Turnover, Working Capital Turnover, Cash Conversion Cycle); Cash Flow (Operating Cash Flow Ratio, Free Cash Flow, OCF to Net Income, CapEx Coverage); and Valuation (Price-to-Earnings, Price-to-Book, Price-to-Sales, Earnings Yield, Dividend Yield) for listed entities. The tool tags the eleven Schedule III mandatory ratio disclosures under Companies Act 2013 and Companies (Accounts) Amendment Rules 2021, supports the 25% year-on-year variance rule for Notes to Accounts disclosure, applies Indian sector calibration across IT, FMCG, Pharma, Manufacturing, Retail, Real Estate, Infrastructure, Auto, Telecom, and other industries, and provides ICAI Guidance Note alignment for ratio computation. Suitable for statutory and internal audit, SA 570 going-concern review, lender credit appraisal, M&A target screening, financial due diligence, MIS reporting, CA / CS / CMA student learning, and CFO dashboards. Inputs map directly to Schedule III Division I and Division II line items.",
-      "url": "https://www.patronaccounting.com/tools/financial-ratios-dashboard",
-      "applicationCategory": "FinanceApplication",
-      "operatingSystem": "Any",
-      "datePublished": "2026-05-07T08:00:00+05:30",
-      "dateModified": "2026-05-19T08:00:00+05:30",
-      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
-      "author": {
-        "@type": "Person",
-        "@id": "https://patronaccounting.com/#founder",
-        "name": "CA Sundram Gupta",
-        "jobTitle": "Founder & Chartered Accountant",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Institute of Chartered Accountants of India",
-            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-          }
-        }]
-      },
-      "publisher": { "@id": "https://patronaccounting.com/#organization" },
-      "provider": { "@id": "https://patronaccounting.com/#organization" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Financial Ratios Dashboard", "item": "https://www.patronaccounting.com/tools/financial-ratios-dashboard"}
-      ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "datePublished": "2026-05-07T08:00:00+05:30",
-      "dateModified": "2026-05-19T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is a financial ratios dashboard?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A financial ratios dashboard is a single-screen view that computes and presents multiple ratio categories from one set of balance sheet, P&L, and cash flow inputs. Categories typically include liquidity, solvency, profitability, efficiency, cash flow, and valuation ratios. Dashboards replace fragmented standalone calculators and let analysts compare ratios across dimensions simultaneously. This tool computes thirty-plus ratios, tags the eleven Schedule III mandatory disclosures, applies Indian sector calibration, and aligns with ICAI Guidance Note on Schedule III computational standards."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which ratios are mandatory under Schedule III?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Companies (Accounts) Amendment Rules 2021 effective FY 2021-22 mandate disclosure of eleven specific ratios in Notes to Accounts: Current Ratio, Debt-Equity, Debt Service Coverage, Return on Equity, Inventory Turnover, Trade Receivables Turnover, Trade Payables Turnover, Net Capital Turnover, Net Profit Ratio, Return on Capital Employed, and Return on Investment. The dashboard tags these eleven with a Schedule III badge. The amendment applies under both Division I (Indian GAAP) and Division II (Ind AS)."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the 25% variance rule?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Schedule III, post the 2021 amendment, requires companies to explain any year-on-year change exceeding 25% in any of the eleven mandatory ratios — positive or negative. The explanation must appear in Notes to Accounts identifying the cause: operational change, capital structure shift, accounting policy change, or one-time item. The threshold applies to absolute change, not direction. Auditors verify both the computation and the management explanation. This dashboard makes 25% variance analysis straightforward for finance teams."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How are turnover ratios computed?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Turnover ratios use revenue or COGS in the numerator and a balance sheet item in the denominator. Inventory Turnover equals COGS divided by average inventory. Receivables Turnover equals Net Credit Sales divided by average trade receivables. Payables Turnover equals Net Credit Purchases divided by average trade payables. ICAI Guidance Note on Schedule III prescribes use of average opening and closing balances rather than year-end snapshot. The dashboard uses end-of-period values by default."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is a good current ratio?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A current ratio of 1.5 to 2.0 is typically considered healthy for most Indian industries. Below 1.0 signals short-term distress — current liabilities exceed current assets. Above 3.0 may indicate idle working capital or over-investment in inventory and receivables. Modern retail and quick-commerce companies operate with negative working capital by design. Sector matters significantly — IT services run higher (2.0 to 4.0), capital goods firms run lower (1.2 to 1.5). The dashboard provides Indian sector medians for context."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between ROCE and ROE?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Return on Equity measures returns to shareholders only — PAT divided by Equity. Return on Capital Employed measures returns to all capital providers — EBIT divided by Capital Employed (Equity plus Long-Term Debt). ROCE eliminates the leverage distortion that ROE captures. A highly leveraged company can show high ROE through financial leverage while ROCE reveals weaker operating performance. Schedule III mandates both ratios. ICAI Guidance Note prescribes specific computation under both Indian GAAP and Ind AS."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do I interpret negative ratios?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Negative ratios occur when underlying numbers are negative. Negative ROE indicates loss-making operations or accumulated losses exceeding equity. Negative working capital can be design (modern retail) or distress (overdraft funding inventory). Negative interest coverage means EBIT is below interest expense — debt servicing risk. Negative gross margin signals pricing failure. Each negative ratio requires investigation in context — the dashboard flags adverse readings but interpretation needs sector knowledge. SA 570 going-concern review is triggered by negative-ratio clusters."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which sector benchmarks does the tool use?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The dashboard provides typical median ranges for major Indian industries — IT and software, FMCG, pharma, listed and SME manufacturing, modern retail, real estate and construction, infrastructure and power, hospitality, auto OEM, telecom, and broad market Nifty 50. Banks, NBFCs, and insurance entities follow regulatory frameworks under RBI and IRDAI prudential norms and require specialised models, so they are excluded from generic ratio benchmarking. Always read sector context alongside trend analysis over three to five years for meaningful conclusions."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is Cash Conversion Cycle?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Cash Conversion Cycle measures the days from cash outflow on inventory purchase to cash inflow from customer collection. CCC equals Days Inventory Outstanding plus Days Sales Outstanding minus Days Payables Outstanding. Positive CCC means working capital is locked in operations. Negative CCC means customers and suppliers fund operations — a hallmark of strong companies like FMCG, modern retail, and platform businesses. Indian manufacturers typically run 60-120 day CCC. Patron's standalone Cash Conversion Cycle Calculator provides deeper diagnostic and benchmarking."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does the dashboard differ from individual calculators?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Standalone calculators compute one ratio at a time with detailed explanation and sector context — useful for learning. The dashboard takes one input set and computes thirty-plus ratios simultaneously, suitable for monthly MIS, quarterly review, and annual statutory disclosure preparation. The dashboard tags Schedule III mandatory ratios, provides composite category scores, and surfaces cross-ratio insights — combining Cash Flow with Solvency to flag debt-servicing risk neither dimension reveals alone. Use both depending on diagnostic depth required."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Are ratios for banks and NBFCs different?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes — fundamentally. Banks and NBFCs are evaluated under regulatory frameworks: Capital Adequacy Ratio under Basel III, Net Interest Margin, Gross and Net NPA ratios, Provision Coverage Ratio, Liquidity Coverage Ratio, and Cost-to-Income Ratio. Insurance entities follow Solvency Margin requirements under IRDAI. These specialised ratios reflect different business models — financial intermediation rather than goods or services. This dashboard is calibrated for non-financial entities. Banking and insurance analysts use bespoke regulatory dashboards, not generic ratio tools."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I use this for audit planning?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. The dashboard supports SA 320 audit materiality determination, SA 570 going-concern indicator review, SA 540 accounting estimate evaluation, and SA 530 audit sampling stratification. Internal auditors use ratios for risk-based audit plan inputs under ICAI's Standards on Internal Audit. Concurrent and statutory bank auditors use ratio dashboards to identify outlier accounts and stratify samples. The Schedule III mandatory ratio output also doubles as the Notes to Accounts disclosure draft, saving manual computation time during audit closing."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What inputs are required?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Inputs come from three statements. Balance Sheet: Total Assets, Current Assets, Inventory, Trade Receivables, Cash, Current Liabilities, Trade Payables, Total Debt, Long-Term Debt, Shareholders' Equity. P&L: Revenue, COGS, EBITDA, Depreciation, EBIT, Interest, PAT. Cash Flow: Operating Cash Flow, CapEx, Dividends. Optional listed-entity: Market Cap, Outstanding Shares, EPS. All values in rupees crore. Inputs map directly to Schedule III Part I (Balance Sheet) and Part II (P&L) line items under both Division I (Indian GAAP) and Division II (Ind AS)."
-          }
-        }
-      ]
-    }
-    </script>
-@endsection
-
 <style>
         :root {
             --primary: #15365f;
@@ -459,7 +271,195 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 }
 
 </style>
+@endpush
 
+@section('meta')
+    <title>Financial Ratios Dashboard | 30+ Ratios, Schedule III</title>
+    <meta name="description" content="Financial ratios dashboard: 30+ ratios across liquidity, solvency, profitability, efficiency and cash flow, all tagged to Schedule III. Free CA-reviewed tool!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/financial-ratios-dashboard">
+    <meta property="og:title" content="Financial Ratios Dashboard — 30+ Ratios + Schedule III 2026">
+    <meta property="og:description" content="Compute 30+ financial ratios in one dashboard. Schedule III mandatory ratios tagged, 25% variance flag, Indian sector benchmarks. Free CA tool.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/financial-ratios-dashboard">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Financial Ratios Dashboard — 30+ Ratios + Schedule III 2026">
+    <meta name="twitter:description" content="30+ ratios in one dashboard. Schedule III tagged, 25% variance flag, Indian sector benchmarks. Free CA tool.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+    <meta name="theme-color" content="#15365f">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Financial Ratios Dashboard",
+      "description": "Financial Ratios Dashboard is a comprehensive single-input tool that computes thirty-plus financial ratios across six analytical dimensions — Liquidity (Current Ratio, Quick Ratio, Cash Ratio, Net Working Capital to Sales, Operating Cash Flow Ratio); Solvency and Leverage (Debt-to-Equity, Debt-to-Assets, Equity Multiplier, Interest Coverage Ratio, Debt Service Coverage Ratio, Long-Term Debt to Equity); Profitability (Gross Margin, Operating Margin, EBITDA Margin, Net Profit Margin, Return on Equity, Return on Assets, Return on Capital Employed, Return on Invested Capital); Efficiency (Asset Turnover, Inventory Turnover, Receivables Turnover, Payables Turnover, Working Capital Turnover, Cash Conversion Cycle); Cash Flow (Operating Cash Flow Ratio, Free Cash Flow, OCF to Net Income, CapEx Coverage); and Valuation (Price-to-Earnings, Price-to-Book, Price-to-Sales, Earnings Yield, Dividend Yield) for listed entities. The tool tags the eleven Schedule III mandatory ratio disclosures under Companies Act 2013 and Companies (Accounts) Amendment Rules 2021, supports the 25% year-on-year variance rule for Notes to Accounts disclosure, applies Indian sector calibration across IT, FMCG, Pharma, Manufacturing, Retail, Real Estate, Infrastructure, Auto, Telecom, and other industries, and provides ICAI Guidance Note alignment for ratio computation. Suitable for statutory and internal audit, SA 570 going-concern review, lender credit appraisal, M&A target screening, financial due diligence, MIS reporting, CA / CS / CMA student learning, and CFO dashboards. Inputs map directly to Schedule III Division I and Division II line items.",
+      "url": "https://www.patronaccounting.com/tools/financial-ratios-dashboard",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Any",
+      "datePublished": "2026-05-07T08:00:00+05:30",
+      "dateModified": "2026-05-19T08:00:00+05:30",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
+      "author": {
+        "@type": "Person",
+        "@id": "https://patronaccounting.com/#founder",
+        "name": "CA Sundram Gupta",
+        "jobTitle": "Founder & Chartered Accountant",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Institute of Chartered Accountants of India",
+            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+          }
+        }]
+      },
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": { "@id": "https://patronaccounting.com/#organization" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Financial Ratios Dashboard", "item": "https://www.patronaccounting.com/tools/financial-ratios-dashboard"}
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "datePublished": "2026-05-07T08:00:00+05:30",
+      "dateModified": "2026-05-19T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a financial ratios dashboard?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A financial ratios dashboard is a single-screen view that computes and presents multiple ratio categories from one set of balance sheet, P&L, and cash flow inputs. Categories typically include liquidity, solvency, profitability, efficiency, cash flow, and valuation ratios. Dashboards replace fragmented standalone calculators and let analysts compare ratios across dimensions simultaneously. This tool computes thirty-plus ratios, tags the eleven Schedule III mandatory disclosures, applies Indian sector calibration, and aligns with ICAI Guidance Note on Schedule III computational standards."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which ratios are mandatory under Schedule III?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Companies (Accounts) Amendment Rules 2021 effective FY 2021-22 mandate disclosure of eleven specific ratios in Notes to Accounts: Current Ratio, Debt-Equity, Debt Service Coverage, Return on Equity, Inventory Turnover, Trade Receivables Turnover, Trade Payables Turnover, Net Capital Turnover, Net Profit Ratio, Return on Capital Employed, and Return on Investment. The dashboard tags these eleven with a Schedule III badge. The amendment applies under both Division I (Indian GAAP) and Division II (Ind AS)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the 25% variance rule?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Schedule III, post the 2021 amendment, requires companies to explain any year-on-year change exceeding 25% in any of the eleven mandatory ratios — positive or negative. The explanation must appear in Notes to Accounts identifying the cause: operational change, capital structure shift, accounting policy change, or one-time item. The threshold applies to absolute change, not direction. Auditors verify both the computation and the management explanation. This dashboard makes 25% variance analysis straightforward for finance teams."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How are turnover ratios computed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Turnover ratios use revenue or COGS in the numerator and a balance sheet item in the denominator. Inventory Turnover equals COGS divided by average inventory. Receivables Turnover equals Net Credit Sales divided by average trade receivables. Payables Turnover equals Net Credit Purchases divided by average trade payables. ICAI Guidance Note on Schedule III prescribes use of average opening and closing balances rather than year-end snapshot. The dashboard uses end-of-period values by default."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a good current ratio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A current ratio of 1.5 to 2.0 is typically considered healthy for most Indian industries. Below 1.0 signals short-term distress — current liabilities exceed current assets. Above 3.0 may indicate idle working capital or over-investment in inventory and receivables. Modern retail and quick-commerce companies operate with negative working capital by design. Sector matters significantly — IT services run higher (2.0 to 4.0), capital goods firms run lower (1.2 to 1.5). The dashboard provides Indian sector medians for context."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between ROCE and ROE?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Return on Equity measures returns to shareholders only — PAT divided by Equity. Return on Capital Employed measures returns to all capital providers — EBIT divided by Capital Employed (Equity plus Long-Term Debt). ROCE eliminates the leverage distortion that ROE captures. A highly leveraged company can show high ROE through financial leverage while ROCE reveals weaker operating performance. Schedule III mandates both ratios. ICAI Guidance Note prescribes specific computation under both Indian GAAP and Ind AS."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I interpret negative ratios?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Negative ratios occur when underlying numbers are negative. Negative ROE indicates loss-making operations or accumulated losses exceeding equity. Negative working capital can be design (modern retail) or distress (overdraft funding inventory). Negative interest coverage means EBIT is below interest expense — debt servicing risk. Negative gross margin signals pricing failure. Each negative ratio requires investigation in context — the dashboard flags adverse readings but interpretation needs sector knowledge. SA 570 going-concern review is triggered by negative-ratio clusters."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which sector benchmarks does the tool use?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The dashboard provides typical median ranges for major Indian industries — IT and software, FMCG, pharma, listed and SME manufacturing, modern retail, real estate and construction, infrastructure and power, hospitality, auto OEM, telecom, and broad market Nifty 50. Banks, NBFCs, and insurance entities follow regulatory frameworks under RBI and IRDAI prudential norms and require specialised models, so they are excluded from generic ratio benchmarking. Always read sector context alongside trend analysis over three to five years for meaningful conclusions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Cash Conversion Cycle?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cash Conversion Cycle measures the days from cash outflow on inventory purchase to cash inflow from customer collection. CCC equals Days Inventory Outstanding plus Days Sales Outstanding minus Days Payables Outstanding. Positive CCC means working capital is locked in operations. Negative CCC means customers and suppliers fund operations — a hallmark of strong companies like FMCG, modern retail, and platform businesses. Indian manufacturers typically run 60-120 day CCC. Patron's standalone Cash Conversion Cycle Calculator provides deeper diagnostic and benchmarking."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does the dashboard differ from individual calculators?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Standalone calculators compute one ratio at a time with detailed explanation and sector context — useful for learning. The dashboard takes one input set and computes thirty-plus ratios simultaneously, suitable for monthly MIS, quarterly review, and annual statutory disclosure preparation. The dashboard tags Schedule III mandatory ratios, provides composite category scores, and surfaces cross-ratio insights — combining Cash Flow with Solvency to flag debt-servicing risk neither dimension reveals alone. Use both depending on diagnostic depth required."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are ratios for banks and NBFCs different?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — fundamentally. Banks and NBFCs are evaluated under regulatory frameworks: Capital Adequacy Ratio under Basel III, Net Interest Margin, Gross and Net NPA ratios, Provision Coverage Ratio, Liquidity Coverage Ratio, and Cost-to-Income Ratio. Insurance entities follow Solvency Margin requirements under IRDAI. These specialised ratios reflect different business models — financial intermediation rather than goods or services. This dashboard is calibrated for non-financial entities. Banking and insurance analysts use bespoke regulatory dashboards, not generic ratio tools."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I use this for audit planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The dashboard supports SA 320 audit materiality determination, SA 570 going-concern indicator review, SA 540 accounting estimate evaluation, and SA 530 audit sampling stratification. Internal auditors use ratios for risk-based audit plan inputs under ICAI's Standards on Internal Audit. Concurrent and statutory bank auditors use ratio dashboards to identify outlier accounts and stratify samples. The Schedule III mandatory ratio output also doubles as the Notes to Accounts disclosure draft, saving manual computation time during audit closing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What inputs are required?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Inputs come from three statements. Balance Sheet: Total Assets, Current Assets, Inventory, Trade Receivables, Cash, Current Liabilities, Trade Payables, Total Debt, Long-Term Debt, Shareholders' Equity. P&L: Revenue, COGS, EBITDA, Depreciation, EBIT, Interest, PAT. Cash Flow: Operating Cash Flow, CapEx, Dividends. Optional listed-entity: Market Cap, Outstanding Shares, EPS. All values in rupees crore. Inputs map directly to Schedule III Part I (Balance Sheet) and Part II (P&L) line items under both Division I (Indian GAAP) and Division II (Ind AS)."
+          }
+        }
+      ]
+    }
+    </script>
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Tool navigation">
     <div class="toc-nav-inner">

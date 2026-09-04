@@ -1,143 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Certificate of Fair Market Value (FMV) 2026 | Patron Accounting</title>
-    <meta name="description" content="CA fair market value certificate in Pune under Rule 11UA for share transfers, ESOP, and mergers. NAV valuation, UDIN-verified. From INR 9,999.">
-    <link rel="canonical" href="/certificate-of-fair-market-value-fmv/pune">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Certificate of Fair Market Value (FMV) 2026 | Patron Accounting">
-    <meta property="og:description" content="CA fair market value certificate in Pune under Rule 11UA for share transfers, ESOP, and mergers. NAV valuation, UDIN-verified. From INR 9,999.">
-    <meta property="og:url" content="/certificate-of-fair-market-value-fmv/pune">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Certificate of Fair Market Value (FMV) 2026 | Patron Accounting">
-    <meta name="twitter:description" content="CA fair market value certificate in Pune under Rule 11UA for share transfers, ESOP, and mergers. NAV valuation, UDIN-verified. From INR 9,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/certificate-of-fair-market-value-fmv/pune/#service",
-        "name": "Certificate of Fair Market Value (FMV) in Pune",
-        "description": "CA certificate of fair market value in Pune determining the FMV of unquoted shares under Rule 11UA of the Income-tax Rules using the NAV method, with coordination for DCF valuation by a SEBI-registered merchant banker, for share transfers under Sections 50CA and 56(2)(x), ESOP perquisite valuation, mergers, and FEMA pricing, issued with a mandatory 18-digit UDIN.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/certificate-of-fair-market-value-fmv/pune" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Fair market value", "sameAs": "https://en.wikipedia.org/wiki/Fair_market_value" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "FMV Certificate Service Plans",
-            "itemListElement": [
-                { "@type": "Offer", "name": "Rule 11UA Fair Market Value Certificate", "price": "9999", "priceCurrency": "INR", "description": "Starting from INR 9,999 (Exl GST and Govt. Charges)" }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/certificate-of-fair-market-value-fmv/pune/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
-            { "@type": "ListItem", "position": 3, "name": "FMV Certificate", "item": "https://www.patronaccounting.com/certificate-of-fair-market-value-fmv/pune" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/certificate-of-fair-market-value-fmv/pune/#faq",
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "mainEntity": [
-            { "@type": "Question", "name": "What is a certificate of fair market value?", "acceptedAnswer": { "@type": "Answer", "text": "It is a certificate determining the fair market value of unquoted shares, or other property, as on a valuation date, computed under Rule 11UA of the Income-tax Rules, 1962, using a prescribed method. The Net Asset Value method derives the value from the company\u0027s balance sheet and can be certified by a Chartered Accountant, while the Discounted Cash Flow method values future cash flows and must be certified by a SEBI-registered merchant banker. It carries a UDIN." } },
-{ "@type": "Question", "name": "Is angel tax under Section 56(2)(viib) still applicable?", "acceptedAnswer": { "@type": "Answer", "text": "No. Section 56(2)(viib), the angel tax on share premium received by closely held companies, was abolished from FY 2025-26 by the Finance Act, 2024. Companies issuing shares at a premium from 1 April 2025 onward do not attract this tax, regardless of DPIIT recognition. However, Rule 11UA\u0027s fair market value continues to apply to share transfers under Section 50CA and Section 56(2)(x), to ESOP perquisite valuation, and to merger and FEMA pricing." } },
-{ "@type": "Question", "name": "What is the difference between the NAV and DCF methods?", "acceptedAnswer": { "@type": "Answer", "text": "The Net Asset Value method derives the fair value from the company\u0027s balance sheet using the formula FMV equals A plus B plus C plus D minus L, times paid-up value over paid-up equity, and a Chartered Accountant can certify it. The Discounted Cash Flow method values the shares on projected future cash flows discounted to present value, must be certified by a SEBI-registered merchant banker, and is commonly used for startups and growth companies." } },
-{ "@type": "Question", "name": "Who can issue an FMV certificate?", "acceptedAnswer": { "@type": "Answer", "text": "Under Rule 11UA, the NAV-method valuation of unquoted equity shares can be certified by a Chartered Accountant, while the DCF-method valuation must be certified by a SEBI-registered merchant banker. For a share transfer or an ESOP perquisite, a CA\u0027s NAV certificate is common, whereas a startup raising on future potential typically needs a merchant-banker DCF report. The certificate carries a verifiable UDIN." } },
-{ "@type": "Question", "name": "When is an FMV certificate needed?", "acceptedAnswer": { "@type": "Answer", "text": "It is needed whenever unquoted shares must be valued for tax or regulatory purposes - a share transfer where Section 50CA or Section 56(2)(x) applies, an ESOP grant requiring a perquisite valuation, a merger, demerger, or buyback, a gift or related-party transaction, or a FEMA transaction with a non-resident requiring pricing. Even where angel tax no longer applies, a documented Rule 11UA valuation supports the price and reduces the risk of a dispute on assessment." } },
-{ "@type": "Question", "name": "How fast can Patron Accounting issue it in Pune?", "acceptedAnswer": { "@type": "Answer", "text": "A NAV-method certificate typically takes three to five working days once the audited balance sheet and shareholding are ready, including the subsidiary and immovable-property component adjustments. A DCF valuation involving a SEBI-registered merchant banker and business projections may take longer. We confirm the correct method for your transaction, apply the current law after the angel-tax abolition, and issue the certificate with a UDIN. Our Pune team works in-person and remotely." } }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/certificate-of-fair-market-value-fmv/pune",
-        "name": "Certificate of Fair Market Value (FMV) in Pune",
-        "description": "CA fair market value certificate in Pune under Rule 11UA for share transfers, ESOP, and mergers. NAV valuation, UDIN-verified. From INR 9,999.",
-        "url": "https://www.patronaccounting.com/certificate-of-fair-market-value-fmv/pune",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/certificate-of-fair-market-value-fmv/pune/#service" },
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/certificate-of-fair-market-value-fmv/pune/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How a Rule 11UA FMV Certificate Is Prepared",
-        "description": "The step-by-step process Patron Accounting follows to value unquoted shares under Rule 11UA and issue the FMV certificate in Pune.",
-        "totalTime": "P5D",
-        "step": [
-            { "@type": "HowToStep", "position": 1, "name": "Confirm purpose and method", "text": "Confirm the purpose (transfer, ESOP, merger, FEMA), the valuation date, and the method." },
-{ "@type": "HowToStep", "position": 2, "name": "Collect financials", "text": "Collect the audited balance sheet, shareholding, financials, and projections (for DCF)." },
-{ "@type": "HowToStep", "position": 3, "name": "Compute NAV", "text": "For NAV, compute FMV under Rule 11UA using the (A+B+C+D-L) x PV/PE formula, adjusting for subsidiaries and immovable property." },
-{ "@type": "HowToStep", "position": 4, "name": "Coordinate DCF", "text": "For DCF, coordinate the merchant-banker report on projected cash flows." },
-{ "@type": "HowToStep", "position": 5, "name": "Verify inputs", "text": "Verify the inputs under the applicable standards and reconcile to the books." },
-{ "@type": "HowToStep", "position": 6, "name": "Issue with UDIN", "text": "Issue the FMV certificate with the valuation basis and UDIN." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "FMV Certificate Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Rule 11UA", "description": "The Income-tax Rules provision prescribing methods to determine the fair market value of unquoted shares." },
-{ "@type": "DefinedTerm", "name": "NAV method", "description": "Net Asset Value method deriving FMV from the balance sheet using (A+B+C+D-L) x PV/PE, certifiable by a Chartered Accountant." },
-{ "@type": "DefinedTerm", "name": "DCF method", "description": "Discounted Cash Flow method valuing projected future cash flows, certified by a SEBI-registered merchant banker." },
-{ "@type": "DefinedTerm", "name": "Section 56(2)(viib)", "description": "The angel-tax provision on share premium, abolished from FY 2025-26 by the Finance Act, 2024." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -751,7 +618,145 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Certificate of Fair Market Value (FMV) 2026 | Patron Accounting</title>
+    <meta name="description" content="CA fair market value certificate in Pune under Rule 11UA for share transfers, ESOP, and mergers. NAV valuation, UDIN-verified. From INR 9,999.">
+    <link rel="canonical" href="/certificate-of-fair-market-value-fmv/pune">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Certificate of Fair Market Value (FMV) 2026 | Patron Accounting">
+    <meta property="og:description" content="CA fair market value certificate in Pune under Rule 11UA for share transfers, ESOP, and mergers. NAV valuation, UDIN-verified. From INR 9,999.">
+    <meta property="og:url" content="/certificate-of-fair-market-value-fmv/pune">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Certificate of Fair Market Value (FMV) 2026 | Patron Accounting">
+    <meta name="twitter:description" content="CA fair market value certificate in Pune under Rule 11UA for share transfers, ESOP, and mergers. NAV valuation, UDIN-verified. From INR 9,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/certificate-of-fair-market-value-fmv/pune/#service",
+        "name": "Certificate of Fair Market Value (FMV) in Pune",
+        "description": "CA certificate of fair market value in Pune determining the FMV of unquoted shares under Rule 11UA of the Income-tax Rules using the NAV method, with coordination for DCF valuation by a SEBI-registered merchant banker, for share transfers under Sections 50CA and 56(2)(x), ESOP perquisite valuation, mergers, and FEMA pricing, issued with a mandatory 18-digit UDIN.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/certificate-of-fair-market-value-fmv/pune" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Fair market value", "sameAs": "https://en.wikipedia.org/wiki/Fair_market_value" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "FMV Certificate Service Plans",
+            "itemListElement": [
+                { "@type": "Offer", "name": "Rule 11UA Fair Market Value Certificate", "price": "9999", "priceCurrency": "INR", "description": "Starting from INR 9,999 (Exl GST and Govt. Charges)" }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/certificate-of-fair-market-value-fmv/pune/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
+            { "@type": "ListItem", "position": 3, "name": "FMV Certificate", "item": "https://www.patronaccounting.com/certificate-of-fair-market-value-fmv/pune" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/certificate-of-fair-market-value-fmv/pune/#faq",
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "mainEntity": [
+            { "@type": "Question", "name": "What is a certificate of fair market value?", "acceptedAnswer": { "@type": "Answer", "text": "It is a certificate determining the fair market value of unquoted shares, or other property, as on a valuation date, computed under Rule 11UA of the Income-tax Rules, 1962, using a prescribed method. The Net Asset Value method derives the value from the company\u0027s balance sheet and can be certified by a Chartered Accountant, while the Discounted Cash Flow method values future cash flows and must be certified by a SEBI-registered merchant banker. It carries a UDIN." } },
+{ "@type": "Question", "name": "Is angel tax under Section 56(2)(viib) still applicable?", "acceptedAnswer": { "@type": "Answer", "text": "No. Section 56(2)(viib), the angel tax on share premium received by closely held companies, was abolished from FY 2025-26 by the Finance Act, 2024. Companies issuing shares at a premium from 1 April 2025 onward do not attract this tax, regardless of DPIIT recognition. However, Rule 11UA\u0027s fair market value continues to apply to share transfers under Section 50CA and Section 56(2)(x), to ESOP perquisite valuation, and to merger and FEMA pricing." } },
+{ "@type": "Question", "name": "What is the difference between the NAV and DCF methods?", "acceptedAnswer": { "@type": "Answer", "text": "The Net Asset Value method derives the fair value from the company\u0027s balance sheet using the formula FMV equals A plus B plus C plus D minus L, times paid-up value over paid-up equity, and a Chartered Accountant can certify it. The Discounted Cash Flow method values the shares on projected future cash flows discounted to present value, must be certified by a SEBI-registered merchant banker, and is commonly used for startups and growth companies." } },
+{ "@type": "Question", "name": "Who can issue an FMV certificate?", "acceptedAnswer": { "@type": "Answer", "text": "Under Rule 11UA, the NAV-method valuation of unquoted equity shares can be certified by a Chartered Accountant, while the DCF-method valuation must be certified by a SEBI-registered merchant banker. For a share transfer or an ESOP perquisite, a CA\u0027s NAV certificate is common, whereas a startup raising on future potential typically needs a merchant-banker DCF report. The certificate carries a verifiable UDIN." } },
+{ "@type": "Question", "name": "When is an FMV certificate needed?", "acceptedAnswer": { "@type": "Answer", "text": "It is needed whenever unquoted shares must be valued for tax or regulatory purposes - a share transfer where Section 50CA or Section 56(2)(x) applies, an ESOP grant requiring a perquisite valuation, a merger, demerger, or buyback, a gift or related-party transaction, or a FEMA transaction with a non-resident requiring pricing. Even where angel tax no longer applies, a documented Rule 11UA valuation supports the price and reduces the risk of a dispute on assessment." } },
+{ "@type": "Question", "name": "How fast can Patron Accounting issue it in Pune?", "acceptedAnswer": { "@type": "Answer", "text": "A NAV-method certificate typically takes three to five working days once the audited balance sheet and shareholding are ready, including the subsidiary and immovable-property component adjustments. A DCF valuation involving a SEBI-registered merchant banker and business projections may take longer. We confirm the correct method for your transaction, apply the current law after the angel-tax abolition, and issue the certificate with a UDIN. Our Pune team works in-person and remotely." } }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/certificate-of-fair-market-value-fmv/pune",
+        "name": "Certificate of Fair Market Value (FMV) in Pune",
+        "description": "CA fair market value certificate in Pune under Rule 11UA for share transfers, ESOP, and mergers. NAV valuation, UDIN-verified. From INR 9,999.",
+        "url": "https://www.patronaccounting.com/certificate-of-fair-market-value-fmv/pune",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/certificate-of-fair-market-value-fmv/pune/#service" },
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/certificate-of-fair-market-value-fmv/pune/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How a Rule 11UA FMV Certificate Is Prepared",
+        "description": "The step-by-step process Patron Accounting follows to value unquoted shares under Rule 11UA and issue the FMV certificate in Pune.",
+        "totalTime": "P5D",
+        "step": [
+            { "@type": "HowToStep", "position": 1, "name": "Confirm purpose and method", "text": "Confirm the purpose (transfer, ESOP, merger, FEMA), the valuation date, and the method." },
+{ "@type": "HowToStep", "position": 2, "name": "Collect financials", "text": "Collect the audited balance sheet, shareholding, financials, and projections (for DCF)." },
+{ "@type": "HowToStep", "position": 3, "name": "Compute NAV", "text": "For NAV, compute FMV under Rule 11UA using the (A+B+C+D-L) x PV/PE formula, adjusting for subsidiaries and immovable property." },
+{ "@type": "HowToStep", "position": 4, "name": "Coordinate DCF", "text": "For DCF, coordinate the merchant-banker report on projected cash flows." },
+{ "@type": "HowToStep", "position": 5, "name": "Verify inputs", "text": "Verify the inputs under the applicable standards and reconcile to the books." },
+{ "@type": "HowToStep", "position": 6, "name": "Issue with UDIN", "text": "Issue the FMV certificate with the valuation basis and UDIN." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "FMV Certificate Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Rule 11UA", "description": "The Income-tax Rules provision prescribing methods to determine the fair market value of unquoted shares." },
+{ "@type": "DefinedTerm", "name": "NAV method", "description": "Net Asset Value method deriving FMV from the balance sheet using (A+B+C+D-L) x PV/PE, certifiable by a Chartered Accountant." },
+{ "@type": "DefinedTerm", "name": "DCF method", "description": "Discounted Cash Flow method valuing projected future cash flows, certified by a SEBI-registered merchant banker." },
+{ "@type": "DefinedTerm", "name": "Section 56(2)(viib)", "description": "The angel-tax provision on share premium, abolished from FY 2025-26 by the Finance Act, 2024." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1414,17 +1419,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1447,8 +1445,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1485,7 +1481,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1496,3 +1491,19 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

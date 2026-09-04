@@ -1,161 +1,12 @@
 
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>TDS Return Filing 24Q Gurugram - Salary TDS & Form 16</title>
-    <meta name="description" content="TDS return filing in Gurugram. Form 24Q quarterly. Form 16 annual. S192. Rs 200/day late fee. Form 143/130 from Apr 2026. Call +91 945 945 6700.">
-    <link rel="canonical" href="/tds-return-filing/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="TDS Return Filing 24Q Gurugram - Salary TDS & Form 16">
-    <meta property="og:description" content="TDS return filing in Gurugram. Form 24Q quarterly. Form 16 annual. S192. Rs 200/day late fee. Form 143/130 from Apr 2026. Call +91 945 945 6700.">
-    <meta property="og:url" content="/tds-return-filing/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="TDS Return Filing 24Q Gurugram - Salary TDS & Form 16">
-    <meta name="twitter:description" content="TDS return filing in Gurugram. Form 24Q quarterly. Form 16 annual. S192. Rs 200/day late fee. Form 143/130 from Apr 2026. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "TDS Return Filing in Gurugram | 24Q & Form 16",
-      "description": "TDS return filing in Gurugram. Form 24Q quarterly. Form 16 annual. S192. Rs 200/day late fee. Form 143/130 from Apr 2026. Call +91 945 945 6700.",
-      "url": "https://www.patronaccounting.com/tds-return-filing/gurugram",
-      "serviceType": "TDS Return Filing in Gurugram | 24Q & Form 16",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/tds-return-filing/gurugram",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "minPrice": "50",
-          "maxPrice": "7500",
-          "priceCurrency": "INR"
-        }
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "TDS Return Filing",
-          "item": "https://www.patronaccounting.com/tds-return-filing"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "TDS Return Filing in Gurugram | 24Q & Form 16",
-          "item": "https://www.patronaccounting.com/tds-return-filing/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "When must TDS returns be filed?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Quarterly: Q1 (April-June) by 31 July, Q2 (July-September) by 31 October, Q3 (October-December) by 31 January, Q4 (January-March) by 31 May. TDS must be deposited by the 7th of the following month (March TDS by 30 April). Form 16 must be issued to all employees by 15 June."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does TDS return filing cost?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Quarterly Form 24Q from Rs 1,500 per quarter. Monthly TDS computation Rs 1,000 per month. Form 16 generation Rs 50 per employee. Annual package from Rs 7,500. Correction returns Rs 1,500-3,000. 26AS reconciliation Rs 2,000-5,000. Call +91 945 945 6700 for a detailed quote."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the penalty for late TDS filing?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. Reconcile 26AS: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What changes from April 2026?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Under the new Income Tax Act 2025 effective from April 2026: Form 24Q is replaced by Form 143, Form 16 is replaced by Form 130, Section 192 becomes Section 392, and employee declarations change to Form 122. All payroll systems, HR documentation, and filing processes must be updated before the transition."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is Form 16 and when is it due?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Form 16 is the annual TDS certificate issued by the employer to each employee, summarising total salary paid and tax deducted during the financial year. It becomes Form 130 from April 2026. Must be issued by 15 June after the financial year ends. Downloaded from TRACES portal after Q4 return processing. Essential for employees to file their ITR."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens if PAN is not linked to Aadhaar?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "If an employee's PAN is not linked to Aadhaar, the PAN becomes inoperative and TDS must be deducted at 20% instead of the applicable income tax slab rate. Gurugram employers must verify PAN-Aadhaar linking status on the income tax portal before processing payroll each month to avoid deducting at the higher rate."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the most critical TDS quarter?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Q4 (January-March) is the most critical. Annexure II, filed only with Q4, contains the complete annual salary breakup for every employee including all deductions, exemptions, and regime classification. Errors in Q4 Annexure II cascade to every Form 16 issued. For IT companies with hundreds of employees, one systemic error creates mass ITR filing problems. Quick Answers TDS return kab file karna hai? Quarterly: Q1 31 July, Q2 31 Oct, Q3 31 Jan, Q4 31 May. TDS har mahine 7 tarikh tak deposit karo. Form 16 kab milta hai? Employer ko 15 June tak dena zaroori hai. TRACES se download hota hai. April 2026 se Form 130 hoga. April 2026 se kya badlega? 24Q = Form 143. Form 16 = Form 130. Section 192 = Section 392. Naye Income Tax Act 2025 ke under."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -679,7 +530,161 @@ section ul li:not(.nav-item) { font-size: 14px; }
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'Join Community'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>TDS Return Filing 24Q Gurugram - Salary TDS & Form 16</title>
+    <meta name="description" content="TDS return filing in Gurugram. Form 24Q quarterly. Form 16 annual. S192. Rs 200/day late fee. Form 143/130 from Apr 2026. Call +91 945 945 6700.">
+    <link rel="canonical" href="/tds-return-filing/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="TDS Return Filing 24Q Gurugram - Salary TDS & Form 16">
+    <meta property="og:description" content="TDS return filing in Gurugram. Form 24Q quarterly. Form 16 annual. S192. Rs 200/day late fee. Form 143/130 from Apr 2026. Call +91 945 945 6700.">
+    <meta property="og:url" content="/tds-return-filing/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="TDS Return Filing 24Q Gurugram - Salary TDS & Form 16">
+    <meta name="twitter:description" content="TDS return filing in Gurugram. Form 24Q quarterly. Form 16 annual. S192. Rs 200/day late fee. Form 143/130 from Apr 2026. Call +91 945 945 6700.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "TDS Return Filing in Gurugram | 24Q & Form 16",
+      "description": "TDS return filing in Gurugram. Form 24Q quarterly. Form 16 annual. S192. Rs 200/day late fee. Form 143/130 from Apr 2026. Call +91 945 945 6700.",
+      "url": "https://www.patronaccounting.com/tds-return-filing/gurugram",
+      "serviceType": "TDS Return Filing in Gurugram | 24Q & Form 16",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.patronaccounting.com/tds-return-filing/gurugram",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": "50",
+          "maxPrice": "7500",
+          "priceCurrency": "INR"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "TDS Return Filing",
+          "item": "https://www.patronaccounting.com/tds-return-filing"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "TDS Return Filing in Gurugram | 24Q & Form 16",
+          "item": "https://www.patronaccounting.com/tds-return-filing/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "When must TDS returns be filed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Quarterly: Q1 (April-June) by 31 July, Q2 (July-September) by 31 October, Q3 (October-December) by 31 January, Q4 (January-March) by 31 May. TDS must be deposited by the 7th of the following month (March TDS by 30 April). Form 16 must be issued to all employees by 15 June."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does TDS return filing cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Quarterly Form 24Q from Rs 1,500 per quarter. Monthly TDS computation Rs 1,000 per month. Form 16 generation Rs 50 per employee. Annual package from Rs 7,500. Correction returns Rs 1,500-3,000. 26AS reconciliation Rs 2,000-5,000. Call +91 945 945 6700 for a detailed quote."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the penalty for late TDS filing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. Reconcile 26AS: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What changes from April 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under the new Income Tax Act 2025 effective from April 2026: Form 24Q is replaced by Form 143, Form 16 is replaced by Form 130, Section 192 becomes Section 392, and employee declarations change to Form 122. All payroll systems, HR documentation, and filing processes must be updated before the transition."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Form 16 and when is it due?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Form 16 is the annual TDS certificate issued by the employer to each employee, summarising total salary paid and tax deducted during the financial year. It becomes Form 130 from April 2026. Must be issued by 15 June after the financial year ends. Downloaded from TRACES portal after Q4 return processing. Essential for employees to file their ITR."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if PAN is not linked to Aadhaar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If an employee's PAN is not linked to Aadhaar, the PAN becomes inoperative and TDS must be deducted at 20% instead of the applicable income tax slab rate. Gurugram employers must verify PAN-Aadhaar linking status on the income tax portal before processing payroll each month to avoid deducting at the higher rate."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the most critical TDS quarter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Q4 (January-March) is the most critical. Annexure II, filed only with Q4, contains the complete annual salary breakup for every employee including all deductions, exemptions, and regime classification. Errors in Q4 Annexure II cascade to every Form 16 issued. For IT companies with hundreds of employees, one systemic error creates mass ITR filing problems. Quick Answers TDS return kab file karna hai? Quarterly: Q1 31 July, Q2 31 Oct, Q3 31 Jan, Q4 31 May. TDS har mahine 7 tarikh tak deposit karo. Form 16 kab milta hai? Employer ko 15 June tak dena zaroori hai. TRACES se download hota hai. April 2026 se Form 130 hoga. April 2026 se kya badlega? 24Q = Form 143. Form 16 = Form 130. Section 192 = Section 392. Naye Income Tax Act 2025 ke under."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1605,7 +1610,6 @@ var tocWrapper=document.getElementById('tocWrapper');document.getElementById('to
 
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

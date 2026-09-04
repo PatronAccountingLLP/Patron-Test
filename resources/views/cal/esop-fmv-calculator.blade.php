@@ -1,182 +1,5 @@
 @extends('layouts.app')
-@section('meta')
-<title>ESOP FMV Calculator | Fair Market Value at Exercise</title>
-<meta name="description" content="ESOP FMV calculator: find fair market value per share at exercise for listed, foreign or unlisted shares, plus the taxable perquisite under Section 17(2)(vi).">
-<meta name="robots" content="index, follow">
-<meta name="theme-color" content="#15365f">
-<link rel="canonical" href="https://www.patronaccounting.com/tools/esop-fmv-calculator">
-
-<meta property="og:title" content="ESOP FMV Calculator — Perquisite Value at Exercise">
-<meta property="og:description" content="Compute the fair market value per share at ESOP exercise — listed, foreign-listed or unlisted (merchant banker) — and the taxable perquisite under Section 17(2)(vi).">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.patronaccounting.com/tools/esop-fmv-calculator">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="1200">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-<meta property="og:site_name" content="Patron Accounting">
-<meta property="og:locale" content="en_IN">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="ESOP FMV Calculator — Perquisite Value at Exercise">
-<meta name="twitter:description" content="Find the FMV per share at ESOP exercise (listed / foreign / unlisted) and the taxable perquisite under Section 17(2)(vi). Free & instant.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-
-<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
-<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
-@endsection
-
-@section('schema')
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "ESOP FMV Calculator",
-  "description": "ESOP FMV Calculator determines the fair market value per share used for the ESOP perquisite at the date of exercise under Section 17(2)(vi) of the Income-tax Act and Rule 3(8) of the Income-tax Rules. For listed shares it uses the average of the opening and closing price on the exercise date, for foreign-listed shares the closing price converted at the SBI TT buying rate, and for unlisted shares the Category I merchant banker valuation, then computes the taxable perquisite as fair market value less exercise price multiplied by the number of shares exercised.",
-  "url": "https://www.patronaccounting.com/tools/esop-fmv-calculator",
-  "applicationCategory": "BusinessApplication",
-  "inLanguage": "en-IN",
-  "isAccessibleForFree": true,
-  "operatingSystem": "Any",
-  "datePublished": "2026-06-05T08:00:00+05:30",
-  "dateModified": "2026-06-05T08:00:00+05:30",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "INR"
-  },
-  "reviewedBy": {
-    "@type": "Person",
-    "@id": "https://patronaccounting.com/#founder",
-    "name": "CA Sundram Gupta",
-    "jobTitle": "Founder & Chartered Accountant",
-    "url": "https://www.patronaccounting.com/contact-page",
-    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-    "hasCredential": [{
-      "@type": "EducationalOccupationalCredential",
-      "credentialCategory": "Professional Certification",
-      "name": "Chartered Accountant (CA)",
-      "recognizedBy": {
-        "@type": "Organization",
-        "name": "Institute of Chartered Accountants of India",
-        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-      }
-    }]
-  },
-  "publisher": { "@id": "https://patronaccounting.com/#organization" },
-  "provider": {
-    "@id": "https://patronaccounting.com/#organization"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "ESOP FMV Calculator", "item": "https://www.patronaccounting.com/tools/esop-fmv-calculator"}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is FMV for ESOP purposes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For ESOPs, fair market value (FMV) is the value of one share on the date the employee exercises the option, determined under Rule 3(8) of the Income-tax Rules. It is the reference value used to compute the taxable perquisite under Section 17(2)(vi): perquisite per share equals FMV minus the exercise price. The FMV also becomes the cost of acquisition for the later capital gains calculation when the shares are eventually sold."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How is ESOP FMV determined for listed shares?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For shares listed on a recognised Indian stock exchange, the FMV is the average of the opening price and the closing price of the share on that exchange on the date of exercise. If the share is not traded on the exercise date, the average of the opening and closing prices on the immediately preceding trading day is used. Where the share is listed on more than one exchange, the exchange with the highest trading volume on that date is taken."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How is ESOP FMV determined for unlisted shares?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For unlisted shares, including startups and private companies, the FMV must be determined by a Category I Merchant Banker registered with SEBI, as specified in Rule 3(8). The valuation must be as on a specified date, which is the date of exercise or any date not more than 180 days before the exercise date. If no valuation exists within that 180-day window, a fresh merchant banker valuation must be obtained before the exercise is processed."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How is the taxable ESOP perquisite calculated?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The taxable perquisite at exercise equals the fair market value on the exercise date minus the exercise price actually paid, multiplied by the number of shares exercised. For example, with an FMV of 400 and an exercise price of 50 on 2,000 shares, the perquisite is (400 minus 50) times 2,000, which is 7,00,000. This amount is added to salary income and taxed at the employee's slab rate, with the employer deducting TDS under Section 192."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the 180-day rule for unlisted ESOP valuation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For unlisted shares, the merchant banker valuation used for the perquisite must be on a specified date that is the exercise date or a date not more than 180 days before it. A valuation older than 180 days at the time of exercise cannot be relied upon, so a fresh certificate is required. This keeps the FMV reasonably current and is a common point the Income Tax Department checks when scrutinising ESOP perquisite computations."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How is FMV computed for foreign-listed shares like a NASDAQ parent?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Where the ESOP is over shares of a foreign parent listed abroad, the FMV is generally the closing price on the foreign stock exchange on the exercise date, converted into Indian Rupees at the State Bank of India telegraphic transfer buying rate as on that date. This is common for Indian employees of multinationals whose options are over the overseas parent's listed stock, and the converted figure then drives the perquisite computation."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "When is ESOP FMV measured — grant, vesting or exercise?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For the perquisite tax, FMV is measured on the date of exercise, not grant or vesting. The perquisite arises when the option is exercised and shares are allotted, and it is the FMV on that date, less the exercise price, that is taxed as salary. A separate grant-date fair value is used for accounting under Ind AS 102, but that is for the company's expense, not the employee's perquisite tax."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can startup employees defer the ESOP perquisite tax?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Employees of eligible startups recognised by the DPIIT and holding an Inter-Ministerial Board certificate under Section 80-IAC can defer the perquisite TDS. The tax is deferred until the earliest of sale of the shares, cessation of employment, or 48 months from the end of the assessment year in which the shares were allotted. The FMV and perquisite are still computed at exercise, but the tax payment is postponed."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is FMV the same as the price for capital gains later?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The FMV on the exercise date, on which perquisite tax was paid, becomes the cost of acquisition for capital gains when the shares are later sold. Capital gain equals sale price minus that FMV. This two-stage design ensures the same value is not taxed twice: the gain up to FMV is taxed as a salary perquisite at exercise, and only the further appreciation above FMV is taxed as capital gains at sale."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the ESOP FMV Calculator free?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, the Patron Accounting ESOP FMV Calculator is completely free with no signup required. All calculations run in your browser and nothing is stored on our servers. It computes the fair market value per share at exercise for listed, foreign-listed and unlisted shares and the resulting taxable perquisite under Section 17(2)(vi). For unlisted shares the actual FMV must come from a SEBI Category I merchant banker valuation, which this tool helps you apply."
-      }
-    }
-  ]
-}
-</script>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-@endsection
+@push('styles')
 <style>
         :root {
             --primary: #15365f;
@@ -692,6 +515,186 @@ a:focus-visible {
 
 
         </style>
+@endpush
+
+@section('meta')
+<title>ESOP FMV Calculator | Fair Market Value at Exercise</title>
+<meta name="description" content="ESOP FMV calculator: find fair market value per share at exercise for listed, foreign or unlisted shares, plus the taxable perquisite under Section 17(2)(vi).">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#15365f">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/esop-fmv-calculator">
+
+<meta property="og:title" content="ESOP FMV Calculator — Perquisite Value at Exercise">
+<meta property="og:description" content="Compute the fair market value per share at ESOP exercise — listed, foreign-listed or unlisted (merchant banker) — and the taxable perquisite under Section 17(2)(vi).">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/esop-fmv-calculator">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+<meta property="og:site_name" content="Patron Accounting">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ESOP FMV Calculator — Perquisite Value at Exercise">
+<meta name="twitter:description" content="Find the FMV per share at ESOP exercise (listed / foreign / unlisted) and the taxable perquisite under Section 17(2)(vi). Free & instant.">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
+@endsection
+
+@section('schema')
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "ESOP FMV Calculator",
+  "description": "ESOP FMV Calculator determines the fair market value per share used for the ESOP perquisite at the date of exercise under Section 17(2)(vi) of the Income-tax Act and Rule 3(8) of the Income-tax Rules. For listed shares it uses the average of the opening and closing price on the exercise date, for foreign-listed shares the closing price converted at the SBI TT buying rate, and for unlisted shares the Category I merchant banker valuation, then computes the taxable perquisite as fair market value less exercise price multiplied by the number of shares exercised.",
+  "url": "https://www.patronaccounting.com/tools/esop-fmv-calculator",
+  "applicationCategory": "BusinessApplication",
+  "inLanguage": "en-IN",
+  "isAccessibleForFree": true,
+  "operatingSystem": "Any",
+  "datePublished": "2026-06-05T08:00:00+05:30",
+  "dateModified": "2026-06-05T08:00:00+05:30",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "INR"
+  },
+  "reviewedBy": {
+    "@type": "Person",
+    "@id": "https://patronaccounting.com/#founder",
+    "name": "CA Sundram Gupta",
+    "jobTitle": "Founder & Chartered Accountant",
+    "url": "https://www.patronaccounting.com/contact-page",
+    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+    "hasCredential": [{
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Professional Certification",
+      "name": "Chartered Accountant (CA)",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Institute of Chartered Accountants of India",
+        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+      }
+    }]
+  },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
+  "provider": {
+    "@id": "https://patronaccounting.com/#organization"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "ESOP FMV Calculator", "item": "https://www.patronaccounting.com/tools/esop-fmv-calculator"}
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is FMV for ESOP purposes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For ESOPs, fair market value (FMV) is the value of one share on the date the employee exercises the option, determined under Rule 3(8) of the Income-tax Rules. It is the reference value used to compute the taxable perquisite under Section 17(2)(vi): perquisite per share equals FMV minus the exercise price. The FMV also becomes the cost of acquisition for the later capital gains calculation when the shares are eventually sold."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is ESOP FMV determined for listed shares?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For shares listed on a recognised Indian stock exchange, the FMV is the average of the opening price and the closing price of the share on that exchange on the date of exercise. If the share is not traded on the exercise date, the average of the opening and closing prices on the immediately preceding trading day is used. Where the share is listed on more than one exchange, the exchange with the highest trading volume on that date is taken."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is ESOP FMV determined for unlisted shares?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For unlisted shares, including startups and private companies, the FMV must be determined by a Category I Merchant Banker registered with SEBI, as specified in Rule 3(8). The valuation must be as on a specified date, which is the date of exercise or any date not more than 180 days before the exercise date. If no valuation exists within that 180-day window, a fresh merchant banker valuation must be obtained before the exercise is processed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is the taxable ESOP perquisite calculated?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The taxable perquisite at exercise equals the fair market value on the exercise date minus the exercise price actually paid, multiplied by the number of shares exercised. For example, with an FMV of 400 and an exercise price of 50 on 2,000 shares, the perquisite is (400 minus 50) times 2,000, which is 7,00,000. This amount is added to salary income and taxed at the employee's slab rate, with the employer deducting TDS under Section 192."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the 180-day rule for unlisted ESOP valuation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For unlisted shares, the merchant banker valuation used for the perquisite must be on a specified date that is the exercise date or a date not more than 180 days before it. A valuation older than 180 days at the time of exercise cannot be relied upon, so a fresh certificate is required. This keeps the FMV reasonably current and is a common point the Income Tax Department checks when scrutinising ESOP perquisite computations."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is FMV computed for foreign-listed shares like a NASDAQ parent?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Where the ESOP is over shares of a foreign parent listed abroad, the FMV is generally the closing price on the foreign stock exchange on the exercise date, converted into Indian Rupees at the State Bank of India telegraphic transfer buying rate as on that date. This is common for Indian employees of multinationals whose options are over the overseas parent's listed stock, and the converted figure then drives the perquisite computation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When is ESOP FMV measured — grant, vesting or exercise?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For the perquisite tax, FMV is measured on the date of exercise, not grant or vesting. The perquisite arises when the option is exercised and shares are allotted, and it is the FMV on that date, less the exercise price, that is taxed as salary. A separate grant-date fair value is used for accounting under Ind AS 102, but that is for the company's expense, not the employee's perquisite tax."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can startup employees defer the ESOP perquisite tax?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Employees of eligible startups recognised by the DPIIT and holding an Inter-Ministerial Board certificate under Section 80-IAC can defer the perquisite TDS. The tax is deferred until the earliest of sale of the shares, cessation of employment, or 48 months from the end of the assessment year in which the shares were allotted. The FMV and perquisite are still computed at exercise, but the tax payment is postponed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is FMV the same as the price for capital gains later?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The FMV on the exercise date, on which perquisite tax was paid, becomes the cost of acquisition for capital gains when the shares are later sold. Capital gain equals sale price minus that FMV. This two-stage design ensures the same value is not taxed twice: the gain up to FMV is taxed as a salary perquisite at exercise, and only the further appreciation above FMV is taxed as capital gains at sale."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the ESOP FMV Calculator free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the Patron Accounting ESOP FMV Calculator is completely free with no signup required. All calculations run in your browser and nothing is stored on our servers. It computes the fair market value per share at exercise for listed, foreign-listed and unlisted shares and the resulting taxable perquisite under Section 17(2)(vi). For unlisted shares the actual FMV must come from a SEBI Category I merchant banker valuation, which this tool helps you apply."
+      }
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation">
     <div class="toc-nav-inner">

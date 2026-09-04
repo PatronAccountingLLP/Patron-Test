@@ -1,158 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>GST Advance Ruling 2026: AAR and AAAR | Patron Accounting</title>
-    <meta name="description" content="Section 97 GST Advance Ruling and Section 100 AAAR appeal filing by CA/CS with Form ARA-01/02 drafting and hearing representation. Starting from INR 49,999.">
-    <link rel="canonical" href="/gst-advance-ruling-aar-and-aaar">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="GST Advance Ruling 2026: AAR and AAAR | Patron Accounting">
-    <meta property="og:description" content="Section 97 GST Advance Ruling and Section 100 AAAR appeal filing by CA/CS with Form ARA-01/02 drafting and hearing representation. Starting from INR 49,999.">
-    <meta property="og:url" content="/gst-advance-ruling-aar-and-aaar">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="GST Advance Ruling 2026: AAR and AAAR | Patron Accounting">
-    <meta name="twitter:description" content="Section 97 GST Advance Ruling and Section 100 AAAR appeal filing by CA/CS with Form ARA-01/02 drafting and hearing representation. Starting from INR 49,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "LegalService",
-        "@id": "https://www.patronaccounting.com/gst-advance-ruling-aar-and-aaar/#service",
-        "name": "GST Advance Ruling (AAR and AAAR) in India",
-        "description": "End-to-end GST Advance Ruling advisory under Chapter XVII of the CGST Act, 2017 - covering Form GST ARA-01 filing with the State Authority for Advance Ruling (AAR), Section 98 hearing representation, Section 100 appeal to the Appellate Authority for Advance Ruling (AAAR) via Form GST ARA-02, rectification under Section 102, and post-ruling implementation defence under Section 103.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-advance-ruling-aar-and-aaar" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "GST Advance Ruling Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "End-to-End AAR Engagement (Form ARA-01 to ruling)",
-                    "priceCurrency": "INR",
-                    "price": "49999",
-                    "description": "Question framing, Form ARA-01 drafting, hearing representation, ruling implementation"
-                },
-                {
-                    "@type": "Offer",
-                    "name": "Pre-Filing Strategy and Question Framing",
-                    "priceCurrency": "INR",
-                    "price": "24999",
-                    "description": "Refined questions and Section 98(2) admissibility analysis in 7 to 14 working days"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/gst-advance-ruling-aar-and-aaar/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
-            { "@type": "ListItem", "position": 3, "name": "GST Advance Ruling", "item": "https://www.patronaccounting.com/gst-advance-ruling-aar-and-aaar" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/gst-advance-ruling-aar-and-aaar/#faq",
-        "datePublished": "2026-05-27T08:00:00+05:30",
-        "dateModified": "2026-06-01T08:00:00+05:30",
-        "mainEntity": [
-
-            {
-                "@type": "Question",
-                "name": "What is an advance ruling under GST?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "An advance ruling is a written, binding decision issued by the State Authority for Advance Ruling (AAR) under Section 95(a) of the CGST Act, 2017, on questions relating to classification, notification applicability, time and value of supply, ITC admissibility, tax liability, registration, or whether an activity is a supply. The applicant seeks it before undertaking the proposed transaction."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What are the 7 questions on which an advance ruling can be sought?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Section 97(2) CGST Act lists seven categories: classification of goods or services, applicability of a notification, determination of time and value of supply, admissibility of input tax credit, determination of tax liability, whether the applicant is required to be registered, and whether any activity amounts to or results in a supply."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the fee for filing an advance ruling application?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Under Rule 104 of the CGST Rules, the application fee is INR 5,000 under CGST and INR 5,000 under SGST, totalling INR 10,000. For OIDAR taxpayers, the fee is paid under the IGST head. The fee is deposited online through the common portal at the time of filing Form GST ARA-01."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How long does the AAR take to give a ruling?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Section 98(6) of the CGST Act requires the AAR to pronounce its ruling within 90 days of receipt of the application. The 90-day period excludes time taken for furnishing additional information requested by the AAR. In practice, including preliminary and final hearings, the total elapsed time is typically 3 to 5 months from filing."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can I appeal an adverse AAR ruling?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. Under Section 100 of the CGST Act, the applicant or the jurisdictional officer may appeal to the Appellate Authority for Advance Ruling (AAAR) within 30 days of communication of the ruling, extendable by another 30 days for sufficient cause. The applicant files Form GST ARA-02 with INR 20,000 fee (CGST + SGST); the officer files Form GST ARA-03 with no fee."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Is the advance ruling binding on other taxpayers?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "No. Under Section 103 of the CGST Act, an advance ruling binds only the applicant who sought it and the jurisdictional officer concerned with that applicant. It is not a precedent for other taxpayers, although rulings are frequently cited persuasively. The binding effect continues until there is a change in law, facts, or circumstances under Section 103(2)."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "When is an advance ruling declared void?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Under Section 104 of the CGST Act, the AAR or AAAR may declare an advance ruling void ab initio if it finds that the ruling was obtained by the applicant through fraud, suppression of material facts, or misrepresentation. Before such declaration, the applicant is given an opportunity of being heard, and all provisions of the Act apply as if no advance ruling had been pronounced."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the cost of GST advance ruling advisory at Patron Accounting?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Starting from INR 49,999 (Exclusive of GST and government charges) for the end-to-end AAR engagement covering question framing, Form GST ARA-01 drafting, hearing representation, and ruling implementation. AAAR appeals, rectification, and multi-question or multi-State filings are quoted separately. Government fees of INR 10,000 (AAR) or INR 20,000 (AAAR) are additional under Rules 104 and 106."
-                }
-            }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -766,7 +618,160 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>GST Advance Ruling 2026: AAR and AAAR | Patron Accounting</title>
+    <meta name="description" content="Section 97 GST Advance Ruling and Section 100 AAAR appeal filing by CA/CS with Form ARA-01/02 drafting and hearing representation. Starting from INR 49,999.">
+    <link rel="canonical" href="/gst-advance-ruling-aar-and-aaar">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="GST Advance Ruling 2026: AAR and AAAR | Patron Accounting">
+    <meta property="og:description" content="Section 97 GST Advance Ruling and Section 100 AAAR appeal filing by CA/CS with Form ARA-01/02 drafting and hearing representation. Starting from INR 49,999.">
+    <meta property="og:url" content="/gst-advance-ruling-aar-and-aaar">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GST Advance Ruling 2026: AAR and AAAR | Patron Accounting">
+    <meta name="twitter:description" content="Section 97 GST Advance Ruling and Section 100 AAAR appeal filing by CA/CS with Form ARA-01/02 drafting and hearing representation. Starting from INR 49,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LegalService",
+        "@id": "https://www.patronaccounting.com/gst-advance-ruling-aar-and-aaar/#service",
+        "name": "GST Advance Ruling (AAR and AAAR) in India",
+        "description": "End-to-end GST Advance Ruling advisory under Chapter XVII of the CGST Act, 2017 - covering Form GST ARA-01 filing with the State Authority for Advance Ruling (AAR), Section 98 hearing representation, Section 100 appeal to the Appellate Authority for Advance Ruling (AAAR) via Form GST ARA-02, rectification under Section 102, and post-ruling implementation defence under Section 103.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-advance-ruling-aar-and-aaar" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "GST Advance Ruling Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "End-to-End AAR Engagement (Form ARA-01 to ruling)",
+                    "priceCurrency": "INR",
+                    "price": "49999",
+                    "description": "Question framing, Form ARA-01 drafting, hearing representation, ruling implementation"
+                },
+                {
+                    "@type": "Offer",
+                    "name": "Pre-Filing Strategy and Question Framing",
+                    "priceCurrency": "INR",
+                    "price": "24999",
+                    "description": "Refined questions and Section 98(2) admissibility analysis in 7 to 14 working days"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/gst-advance-ruling-aar-and-aaar/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
+            { "@type": "ListItem", "position": 3, "name": "GST Advance Ruling", "item": "https://www.patronaccounting.com/gst-advance-ruling-aar-and-aaar" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/gst-advance-ruling-aar-and-aaar/#faq",
+        "datePublished": "2026-05-27T08:00:00+05:30",
+        "dateModified": "2026-06-01T08:00:00+05:30",
+        "mainEntity": [
+
+            {
+                "@type": "Question",
+                "name": "What is an advance ruling under GST?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "An advance ruling is a written, binding decision issued by the State Authority for Advance Ruling (AAR) under Section 95(a) of the CGST Act, 2017, on questions relating to classification, notification applicability, time and value of supply, ITC admissibility, tax liability, registration, or whether an activity is a supply. The applicant seeks it before undertaking the proposed transaction."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What are the 7 questions on which an advance ruling can be sought?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Section 97(2) CGST Act lists seven categories: classification of goods or services, applicability of a notification, determination of time and value of supply, admissibility of input tax credit, determination of tax liability, whether the applicant is required to be registered, and whether any activity amounts to or results in a supply."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the fee for filing an advance ruling application?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Under Rule 104 of the CGST Rules, the application fee is INR 5,000 under CGST and INR 5,000 under SGST, totalling INR 10,000. For OIDAR taxpayers, the fee is paid under the IGST head. The fee is deposited online through the common portal at the time of filing Form GST ARA-01."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How long does the AAR take to give a ruling?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Section 98(6) of the CGST Act requires the AAR to pronounce its ruling within 90 days of receipt of the application. The 90-day period excludes time taken for furnishing additional information requested by the AAR. In practice, including preliminary and final hearings, the total elapsed time is typically 3 to 5 months from filing."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can I appeal an adverse AAR ruling?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Under Section 100 of the CGST Act, the applicant or the jurisdictional officer may appeal to the Appellate Authority for Advance Ruling (AAAR) within 30 days of communication of the ruling, extendable by another 30 days for sufficient cause. The applicant files Form GST ARA-02 with INR 20,000 fee (CGST + SGST); the officer files Form GST ARA-03 with no fee."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is the advance ruling binding on other taxpayers?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No. Under Section 103 of the CGST Act, an advance ruling binds only the applicant who sought it and the jurisdictional officer concerned with that applicant. It is not a precedent for other taxpayers, although rulings are frequently cited persuasively. The binding effect continues until there is a change in law, facts, or circumstances under Section 103(2)."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "When is an advance ruling declared void?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Under Section 104 of the CGST Act, the AAR or AAAR may declare an advance ruling void ab initio if it finds that the ruling was obtained by the applicant through fraud, suppression of material facts, or misrepresentation. Before such declaration, the applicant is given an opportunity of being heard, and all provisions of the Act apply as if no advance ruling had been pronounced."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the cost of GST advance ruling advisory at Patron Accounting?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Starting from INR 49,999 (Exclusive of GST and government charges) for the end-to-end AAR engagement covering question framing, Form GST ARA-01 drafting, hearing representation, and ruling implementation. AAAR appeals, rectification, and multi-question or multi-State filings are quoted separately. Government fees of INR 10,000 (AAR) or INR 20,000 (AAAR) are additional under Rules 104 and 106."
+                }
+            }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1699,17 +1704,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1732,8 +1730,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1770,7 +1766,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1781,4 +1776,20 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+
 

@@ -1,193 +1,8 @@
 @extends('layouts.app')
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
-@section('meta')
-    <title>IFC Testing Checklist &amp; Control Testing Templates</title>
-    <meta name="description" content="IFC testing checklist generator: check applicability and get 12-process control testing templates for Section 143(3)(i) ICFR audits. Free CA tool. Try now!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/ifc-testing-checklist">
-    <meta property="og:title" content="IFC Testing Checklist &amp; Templates — Sec 143(3)(i) — FY 2025-26">
-    <meta property="og:description" content="Generate process-wise IFC testing checklists with key controls, test methods and sample sizes. Covers P2P, O2C, R2R, Inventory, Payroll, ITGC and 6 more.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/ifc-testing-checklist">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="IFC Testing Checklist &amp; Templates — Sec 143(3)(i) — FY 2025-26">
-    <meta name="twitter:description" content="Process-wise IFC testing templates with key controls + sample sizes. Free CA-reviewed tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "IFC Testing Checklist & Templates Generator",
-      "description": "IFC Testing Checklist & Templates Generator is a tool for Indian companies and statutory auditors to determine applicability of Internal Financial Controls reporting under Section 143(3)(i) of the Companies Act, 2013 read with MCA notification G.S.R. 583(E) dated 13 June 2017, and to generate process-wise control testing checklists. The applicability engine evaluates entity type (Listed, Public Unlisted, Private Limited, OPC, Small Company), turnover and borrowings thresholds (₹50 crore turnover, ₹25 crore aggregate borrowings), and Section 137 and 92 filing default status. The checklist generator produces test plans for twelve standard processes — Procure-to-Pay, Order-to-Cash, Record-to-Report, Inventory, Fixed Assets, Payroll, Treasury, Direct Tax, GST, Statutory Compliance, Revenue Recognition (Ind AS 115) and IT General Controls — with significant accounts mapped, key risks identified, control objectives stated, test methods recommended (walkthrough, inquiry, observation, inspection, reperformance) and sample sizes per ICAI Guidance Note on Audit of Internal Financial Controls Over Financial Reporting.",
-      "url": "https://www.patronaccounting.com/tools/ifc-testing-checklist",
-      "applicationCategory": "UtilityApplication",
-      "operatingSystem": "Any",
-      "datePublished": "2026-05-07T08:00:00+05:30",
-      "dateModified": "2026-05-07T08:00:00+05:30",
-      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
-      "author": {
-        "@type": "Person",
-        "@id": "https://patronaccounting.com/#founder",
-        "name": "CA Sundram Gupta",
-        "jobTitle": "Founder & Chartered Accountant",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Institute of Chartered Accountants of India",
-            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-          }
-        }]
-      },
-      "publisher": { "@id": "https://patronaccounting.com/#organization" },
-      "provider": {"@id": "https://patronaccounting.com/#organization"}
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "IFC Testing Checklist", "item": "https://www.patronaccounting.com/tools/ifc-testing-checklist"}
-      ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What are Internal Financial Controls under Companies Act 2013?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Internal Financial Controls are policies and procedures adopted by a company under Section 134(5)(e) of the Companies Act, 2013 to ensure orderly and efficient conduct of business, adherence to company policies, safeguarding of assets, prevention and detection of frauds and errors, accuracy and completeness of accounting records, and timely preparation of reliable financial information. Section 143(3)(i) requires the statutory auditor to report on the adequacy and operating effectiveness of these controls."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which private companies are exempt from auditor IFC reporting?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "MCA notification G.S.R. 583(E) dated 13 June 2017 exempted private companies from Section 143(3)(i) auditor reporting if they are an OPC, a Small Company, have turnover below ₹50 crore as per latest audited financial statements, or have aggregate borrowings from banks, financial institutions or any body corporate below ₹25 crore at any point during the year. The exemption is lost if the company defaulted in Section 137 or Section 92 filings."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between IFC under Sec 134 and Sec 143(3)(i)?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 134(5)(e) requires the Board of Directors of every listed company to state in the Director's Responsibility Statement that adequate IFC have been laid down and are operating effectively. Section 143(3)(i) is narrower — it requires the statutory auditor to report only on Internal Financial Controls Over Financial Reporting (ICFR), not the entire IFC framework. Rule 8(5)(viii) of the Companies (Accounts) Rules, 2014 extends similar disclosure to the Board's Report of all companies."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the ICAI Guidance Note on IFC?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The ICAI issued the Guidance Note on Audit of Internal Financial Controls Over Financial Reporting on 14 September 2015 to support auditor reporting under Section 143(3)(i). The Guidance Note adopts the COSO 2013 Internal Control Integrated Framework, prescribes a top-down risk-based approach, defines design and operating effectiveness, lays down sample size guidance based on control frequency, and provides illustrative documentation templates for walkthrough, inquiry, observation, inspection and reperformance procedures."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is IFC the same as Internal Audit?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Internal Audit under Section 138 of the Companies Act, 2013 is an independent assurance function that evaluates risk management, control and governance processes for management. IFC under Section 134(5)(e) and Section 143(3)(i) is the system of controls itself. The Internal Auditor often performs IFC testing as part of management's assessment, but the statutory auditor must form an independent opinion on IFC adequacy and operating effectiveness."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between design and operating effectiveness?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Design effectiveness assesses whether the control, as designed, would prevent or detect a material misstatement if operated by a person with the necessary authority and competence. Operating effectiveness assesses whether the control actually operated as designed throughout the audit period. Design is typically tested through walkthrough and inquiry; operating effectiveness requires inspection of evidence and reperformance of the control activity over a sample of transactions."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What test methods are used in IFC audit?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The five standard test methods recognised in the ICAI Guidance Note are inquiry of personnel, observation of control performance, inspection of relevant documents and reports, reperformance of the control by the auditor, and walkthrough. Walkthroughs combine inquiry, observation and inspection to trace a transaction from origination through processing to recording. Higher-risk controls require evidence-based methods (inspection or reperformance) rather than inquiry alone."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is sample size determined for IFC testing?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "ICAI Guidance Note recommends sample sizes based on control frequency: daily controls 25 to 40 occurrences, weekly controls 8 to 15, monthly controls 2 to 5, quarterly controls 2, semi-annual controls 1 to 2, and annual controls 1. Sample size increases for controls with higher risk of failure, controls reliant on judgment, automated controls in changed IT environments, and the first year of testing. Sample selection should cover the entire audit period."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What documentation is required for IFC testing?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "IFC working papers must document the entity-level controls assessment, process narratives or flowcharts, identification of significant accounts and risks of material misstatement, key controls mapped to assertions, test of design (walkthrough), test of operating effectiveness with sample selection rationale, evidence of testing performed, deficiencies noted, severity classification, and management's remediation. Standards on Auditing 230 governs audit documentation requirements."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are IT General Controls and why are they important?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "IT General Controls (ITGC) are foundational IT controls that ensure the reliability of automated application controls and IT-dependent reports used in financial reporting. The four ITGC domains are logical access management, change management, IT operations including backup and recovery, and program development. ITGCs are pervasive — if they fail, automated controls in business processes cannot be relied upon, forcing the auditor to perform substantive procedures or test more sample size."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is a material weakness in IFC?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A material weakness is a deficiency or combination of deficiencies in internal financial controls such that there is a reasonable possibility that a material misstatement of the financial statements will not be prevented or detected on a timely basis. The auditor must communicate material weaknesses to those charged with governance, modify the audit report under Section 143(3)(i) with an adverse or qualified opinion on IFC, and consider impact on the financial statement audit opinion."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does IFC reporting apply to consolidated financial statements?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Under Section 143(3)(i) read with the ICAI Guidance Note, the auditor of consolidated financial statements must report on IFC over financial reporting at the consolidated level. The parent auditor relies on the work of component auditors for IFC testing of subsidiaries, joint ventures and associates included in consolidation, applying SA 600 and the principles of group audit. Component auditor representations on IFC must be obtained and reviewed."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the COSO 2013 framework?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The COSO 2013 Internal Control Integrated Framework, issued by the Committee of Sponsoring Organizations of the Treadway Commission, is the global benchmark for internal control assessment adopted by the ICAI Guidance Note for IFC audits in India. It defines internal control through five integrated components: control environment, risk assessment, control activities, information and communication, and monitoring activities, supported by 17 underlying principles."
-          }
-        }
-      ]
-    }
-    </script>
-@endsection
-
 <style>
         :root {
             --primary: #1B4D3E;
@@ -408,7 +223,192 @@
             .process-meta { display: none; }
         }
     </style>
+@endpush
 
+@section('meta')
+    <title>IFC Testing Checklist &amp; Control Testing Templates</title>
+    <meta name="description" content="IFC testing checklist generator: check applicability and get 12-process control testing templates for Section 143(3)(i) ICFR audits. Free CA tool. Try now!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/ifc-testing-checklist">
+    <meta property="og:title" content="IFC Testing Checklist &amp; Templates — Sec 143(3)(i) — FY 2025-26">
+    <meta property="og:description" content="Generate process-wise IFC testing checklists with key controls, test methods and sample sizes. Covers P2P, O2C, R2R, Inventory, Payroll, ITGC and 6 more.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/ifc-testing-checklist">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="IFC Testing Checklist &amp; Templates — Sec 143(3)(i) — FY 2025-26">
+    <meta name="twitter:description" content="Process-wise IFC testing templates with key controls + sample sizes. Free CA-reviewed tool.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "IFC Testing Checklist & Templates Generator",
+      "description": "IFC Testing Checklist & Templates Generator is a tool for Indian companies and statutory auditors to determine applicability of Internal Financial Controls reporting under Section 143(3)(i) of the Companies Act, 2013 read with MCA notification G.S.R. 583(E) dated 13 June 2017, and to generate process-wise control testing checklists. The applicability engine evaluates entity type (Listed, Public Unlisted, Private Limited, OPC, Small Company), turnover and borrowings thresholds (₹50 crore turnover, ₹25 crore aggregate borrowings), and Section 137 and 92 filing default status. The checklist generator produces test plans for twelve standard processes — Procure-to-Pay, Order-to-Cash, Record-to-Report, Inventory, Fixed Assets, Payroll, Treasury, Direct Tax, GST, Statutory Compliance, Revenue Recognition (Ind AS 115) and IT General Controls — with significant accounts mapped, key risks identified, control objectives stated, test methods recommended (walkthrough, inquiry, observation, inspection, reperformance) and sample sizes per ICAI Guidance Note on Audit of Internal Financial Controls Over Financial Reporting.",
+      "url": "https://www.patronaccounting.com/tools/ifc-testing-checklist",
+      "applicationCategory": "UtilityApplication",
+      "operatingSystem": "Any",
+      "datePublished": "2026-05-07T08:00:00+05:30",
+      "dateModified": "2026-05-07T08:00:00+05:30",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
+      "author": {
+        "@type": "Person",
+        "@id": "https://patronaccounting.com/#founder",
+        "name": "CA Sundram Gupta",
+        "jobTitle": "Founder & Chartered Accountant",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Institute of Chartered Accountants of India",
+            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+          }
+        }]
+      },
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": {"@id": "https://patronaccounting.com/#organization"}
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "IFC Testing Checklist", "item": "https://www.patronaccounting.com/tools/ifc-testing-checklist"}
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What are Internal Financial Controls under Companies Act 2013?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Internal Financial Controls are policies and procedures adopted by a company under Section 134(5)(e) of the Companies Act, 2013 to ensure orderly and efficient conduct of business, adherence to company policies, safeguarding of assets, prevention and detection of frauds and errors, accuracy and completeness of accounting records, and timely preparation of reliable financial information. Section 143(3)(i) requires the statutory auditor to report on the adequacy and operating effectiveness of these controls."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which private companies are exempt from auditor IFC reporting?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "MCA notification G.S.R. 583(E) dated 13 June 2017 exempted private companies from Section 143(3)(i) auditor reporting if they are an OPC, a Small Company, have turnover below ₹50 crore as per latest audited financial statements, or have aggregate borrowings from banks, financial institutions or any body corporate below ₹25 crore at any point during the year. The exemption is lost if the company defaulted in Section 137 or Section 92 filings."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between IFC under Sec 134 and Sec 143(3)(i)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 134(5)(e) requires the Board of Directors of every listed company to state in the Director's Responsibility Statement that adequate IFC have been laid down and are operating effectively. Section 143(3)(i) is narrower — it requires the statutory auditor to report only on Internal Financial Controls Over Financial Reporting (ICFR), not the entire IFC framework. Rule 8(5)(viii) of the Companies (Accounts) Rules, 2014 extends similar disclosure to the Board's Report of all companies."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the ICAI Guidance Note on IFC?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The ICAI issued the Guidance Note on Audit of Internal Financial Controls Over Financial Reporting on 14 September 2015 to support auditor reporting under Section 143(3)(i). The Guidance Note adopts the COSO 2013 Internal Control Integrated Framework, prescribes a top-down risk-based approach, defines design and operating effectiveness, lays down sample size guidance based on control frequency, and provides illustrative documentation templates for walkthrough, inquiry, observation, inspection and reperformance procedures."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is IFC the same as Internal Audit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Internal Audit under Section 138 of the Companies Act, 2013 is an independent assurance function that evaluates risk management, control and governance processes for management. IFC under Section 134(5)(e) and Section 143(3)(i) is the system of controls itself. The Internal Auditor often performs IFC testing as part of management's assessment, but the statutory auditor must form an independent opinion on IFC adequacy and operating effectiveness."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between design and operating effectiveness?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Design effectiveness assesses whether the control, as designed, would prevent or detect a material misstatement if operated by a person with the necessary authority and competence. Operating effectiveness assesses whether the control actually operated as designed throughout the audit period. Design is typically tested through walkthrough and inquiry; operating effectiveness requires inspection of evidence and reperformance of the control activity over a sample of transactions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What test methods are used in IFC audit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The five standard test methods recognised in the ICAI Guidance Note are inquiry of personnel, observation of control performance, inspection of relevant documents and reports, reperformance of the control by the auditor, and walkthrough. Walkthroughs combine inquiry, observation and inspection to trace a transaction from origination through processing to recording. Higher-risk controls require evidence-based methods (inspection or reperformance) rather than inquiry alone."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is sample size determined for IFC testing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ICAI Guidance Note recommends sample sizes based on control frequency: daily controls 25 to 40 occurrences, weekly controls 8 to 15, monthly controls 2 to 5, quarterly controls 2, semi-annual controls 1 to 2, and annual controls 1. Sample size increases for controls with higher risk of failure, controls reliant on judgment, automated controls in changed IT environments, and the first year of testing. Sample selection should cover the entire audit period."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What documentation is required for IFC testing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "IFC working papers must document the entity-level controls assessment, process narratives or flowcharts, identification of significant accounts and risks of material misstatement, key controls mapped to assertions, test of design (walkthrough), test of operating effectiveness with sample selection rationale, evidence of testing performed, deficiencies noted, severity classification, and management's remediation. Standards on Auditing 230 governs audit documentation requirements."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are IT General Controls and why are they important?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "IT General Controls (ITGC) are foundational IT controls that ensure the reliability of automated application controls and IT-dependent reports used in financial reporting. The four ITGC domains are logical access management, change management, IT operations including backup and recovery, and program development. ITGCs are pervasive — if they fail, automated controls in business processes cannot be relied upon, forcing the auditor to perform substantive procedures or test more sample size."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a material weakness in IFC?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A material weakness is a deficiency or combination of deficiencies in internal financial controls such that there is a reasonable possibility that a material misstatement of the financial statements will not be prevented or detected on a timely basis. The auditor must communicate material weaknesses to those charged with governance, modify the audit report under Section 143(3)(i) with an adverse or qualified opinion on IFC, and consider impact on the financial statement audit opinion."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does IFC reporting apply to consolidated financial statements?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Under Section 143(3)(i) read with the ICAI Guidance Note, the auditor of consolidated financial statements must report on IFC over financial reporting at the consolidated level. The parent auditor relies on the work of component auditors for IFC testing of subsidiaries, joint ventures and associates included in consolidation, applying SA 600 and the principles of group audit. Component auditor representations on IFC must be obtained and reviewed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the COSO 2013 framework?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The COSO 2013 Internal Control Integrated Framework, issued by the Committee of Sponsoring Organizations of the Treadway Commission, is the global benchmark for internal control assessment adopted by the ICAI Guidance Note for IFC audits in India. It defines internal control through five integrated components: control environment, risk assessment, control activities, information and communication, and monitoring activities, supported by 17 underlying principles."
+          }
+        }
+      ]
+    }
+    </script>
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Tool navigation">
     <div class="toc-nav-inner">

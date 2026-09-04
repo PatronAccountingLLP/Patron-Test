@@ -1,146 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Section 73 GST Notice 2026: DRC-01 SCN | Patron Accounting</title>
-    <meta name="description" content="Section 73 CGST Act SCN reply - non-fraud demand, 3-year limitation, DRC-01, DRC-03, DRC-06, 10% penalty cap. Patron from Rs 9,999.">
-    <link rel="canonical" href="/sec-73-gst-notice">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Section 73 GST Notice 2026: DRC-01 SCN | Patron Accounting">
-    <meta property="og:description" content="Section 73 CGST Act SCN reply - non-fraud demand, 3-year limitation, DRC-01, DRC-03, DRC-06, 10% penalty cap. Patron from Rs 9,999.">
-    <meta property="og:url" content="/sec-73-gst-notice">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Section 73 GST Notice 2026: DRC-01 SCN | Patron Accounting">
-    <meta name="twitter:description" content="Section 73 CGST Act SCN reply - non-fraud demand, 3-year limitation, DRC-01, DRC-03, DRC-06, 10% penalty cap. Patron from Rs 9,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/sec-73-gst-notice/#service",
-        "name": "Section 73 GST Notice and Non-Fraud SCN Reply",
-        "description": "Specialized Section 73 CGST Act Show Cause Notice reply and adjudication service covering DRC-01 SCN analysis, DRC-01A pre-notice intimation handling for zero-penalty voluntary payment via DRC-03, DRC-06 reply drafting with case-law citations, personal hearing representation under Section 116, Section 75(2) statutory defence to convert wrongly-invoked Section 74 demands into Section 73, DRC-07 order analysis, Section 16(5)/(6) retrospective relief, DRC-08 rectification, and Section 107 first appeal for non-fraud GST demand cases covering FY 2017-18 to FY 2023-24 starting from INR 9,999 per SCN engagement.",
-        "serviceType": "GST Notice Handling",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "areaServed": { "@type": "Country", "name": "India" },
-        "about": [
-            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
-            { "@type": "Thing", "name": "Tax assessment", "sameAs": "https://en.wikipedia.org/wiki/Tax_assessment" }
-        ],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Section 73 GST Notice Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "DRC-01A Pre-Notice Response",
-                    "priceCurrency": "INR",
-                    "price": "9999",
-                    "description": "Pre-SCN analysis, DRC-03 voluntary payment route, and zero-penalty close on a Section 73 pre-notice intimation"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/sec-73-gst-notice/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
-            { "@type": "ListItem", "position": 3, "name": "Section 73 GST Notice", "item": "https://www.patronaccounting.com/sec-73-gst-notice" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/sec-73-gst-notice/#faq",
-        "datePublished": "2026-05-27T08:00:00+05:30",
-        "dateModified": "2026-06-01T08:00:00+05:30",
-        "mainEntity": [
-
-            {
-                "@type": "Question",
-                "name": "What is a Section 73 GST notice?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "A Section 73 GST notice is a Show Cause Notice (SCN) issued under Section 73 of the CGST Act 2017 when the proper officer determines that tax has not been paid, has been short paid, has been erroneously refunded, or input tax credit has been wrongly availed - in cases NOT involving fraud, willful misstatement, or suppression of facts. The SCN is issued in Form DRC-01 along with a summary, asking the taxpayer to show cause why they should not pay the demanded tax, interest at 18 percent per annum under Section 50, and penalty of 10 percent of tax or Rs 10,000."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the time limit for Section 73 SCN and order?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Under Section 73(10), the proper officer must issue the order in Form DRC-07 within 3 years from the due date of filing the annual return (GSTR-9) for the relevant FY. Under Section 73(2), the SCN must be issued at least 3 months before the time limit for the order - effectively giving a 2 years 9 months window from the annual return due date. Section 73 applies to FY 2017-18 to FY 2023-24. For FY 2024-25 onwards, the unified Section 74A framework applies with a 42-month notice period."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the difference between Section 73 and Section 74?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Section 73 covers non-fraud cases - genuine compliance gaps, calculation errors, or interpretive differences. Penalty is capped at 10 percent of tax or Rs 10,000. Section 74 covers cases where fraud, willful misstatement, or suppression of facts is alleged. Penalty is 100 percent of tax (or 25 percent if paid within 30 days of SCN, or 15 percent if paid before SCN). Section 74 also has a 5-year time limit. Section 75(2) provides statutory protection - if fraud allegations cannot be upheld, the demand must be treated as if raised under Section 73."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What forms are used in Section 73 proceedings?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "The DRC series of forms under Rule 142 govern Section 73 proceedings. DRC-01A is the pre-notice intimation under Section 73(5). DRC-01 is the SCN summary. DRC-02 is the summary of statement for subsequent periods. DRC-03 is voluntary payment intimation. DRC-04 is the proper officer acknowledgement of payment. DRC-05 is the order concluding proceedings upon full payment. DRC-06 is the reply to SCN. DRC-07 is the summary of the adjudication order. DRC-08 is the order rectifying or withdrawing an earlier order under Section 161."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the penalty under Section 73?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Penalty under Section 73 is bounded - significantly lower than Section 74. If tax and interest are paid voluntarily before SCN issuance under Section 73(5), there is ZERO penalty. If paid within 30 days of SCN under Section 73(8), the penalty is 10 percent of tax or Rs 10,000 (whichever higher). If the order is passed under Section 73(9), the same 10 percent cap applies. Interest under Section 50 at 18 percent per annum applies in all cases on the tax amount from the date of original liability."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How can a Section 73 SCN be defended?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Defence options include reconciliation evidence demolishing the departmental allegation, Section 16(5)/(6) retrospective relief under Finance Act 2024 for FY 2017-18 to 2020-21 Section 16(4) denials, Section 75(2) defence if the SCN was wrongly invoked under Section 74, case-law citations from Madras HC, Karnataka HC, and Supreme Court on similar facts, procedural defences such as time-bar, lack of jurisdiction, or improper service, and merits-based arguments on interpretation of statutory provisions or CBIC circulars."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is Section 74A and how does it affect Section 73?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Section 74A was introduced by Finance Act 2024 on the recommendation of the 53rd GST Council and is effective from FY 2024-25 onwards. It consolidates Section 73 and Section 74 into a single unified framework with a 42-month notice period from the due date of annual return and a 12-month order timeline (extendable by 6 months by a Joint Commissioner). Section 73 continues to apply for FY 2017-18 to FY 2023-24. Within Section 74A, the fraud vs non-fraud distinction is preserved through different penalty structures but the procedural timelines are unified."
-                }
-            }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -754,7 +618,148 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Section 73 GST Notice 2026: DRC-01 SCN | Patron Accounting</title>
+    <meta name="description" content="Section 73 CGST Act SCN reply - non-fraud demand, 3-year limitation, DRC-01, DRC-03, DRC-06, 10% penalty cap. Patron from Rs 9,999.">
+    <link rel="canonical" href="/sec-73-gst-notice">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Section 73 GST Notice 2026: DRC-01 SCN | Patron Accounting">
+    <meta property="og:description" content="Section 73 CGST Act SCN reply - non-fraud demand, 3-year limitation, DRC-01, DRC-03, DRC-06, 10% penalty cap. Patron from Rs 9,999.">
+    <meta property="og:url" content="/sec-73-gst-notice">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Section 73 GST Notice 2026: DRC-01 SCN | Patron Accounting">
+    <meta name="twitter:description" content="Section 73 CGST Act SCN reply - non-fraud demand, 3-year limitation, DRC-01, DRC-03, DRC-06, 10% penalty cap. Patron from Rs 9,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/sec-73-gst-notice/#service",
+        "name": "Section 73 GST Notice and Non-Fraud SCN Reply",
+        "description": "Specialized Section 73 CGST Act Show Cause Notice reply and adjudication service covering DRC-01 SCN analysis, DRC-01A pre-notice intimation handling for zero-penalty voluntary payment via DRC-03, DRC-06 reply drafting with case-law citations, personal hearing representation under Section 116, Section 75(2) statutory defence to convert wrongly-invoked Section 74 demands into Section 73, DRC-07 order analysis, Section 16(5)/(6) retrospective relief, DRC-08 rectification, and Section 107 first appeal for non-fraud GST demand cases covering FY 2017-18 to FY 2023-24 starting from INR 9,999 per SCN engagement.",
+        "serviceType": "GST Notice Handling",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "areaServed": { "@type": "Country", "name": "India" },
+        "about": [
+            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
+            { "@type": "Thing", "name": "Tax assessment", "sameAs": "https://en.wikipedia.org/wiki/Tax_assessment" }
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Section 73 GST Notice Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "DRC-01A Pre-Notice Response",
+                    "priceCurrency": "INR",
+                    "price": "9999",
+                    "description": "Pre-SCN analysis, DRC-03 voluntary payment route, and zero-penalty close on a Section 73 pre-notice intimation"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/sec-73-gst-notice/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
+            { "@type": "ListItem", "position": 3, "name": "Section 73 GST Notice", "item": "https://www.patronaccounting.com/sec-73-gst-notice" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/sec-73-gst-notice/#faq",
+        "datePublished": "2026-05-27T08:00:00+05:30",
+        "dateModified": "2026-06-01T08:00:00+05:30",
+        "mainEntity": [
+
+            {
+                "@type": "Question",
+                "name": "What is a Section 73 GST notice?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "A Section 73 GST notice is a Show Cause Notice (SCN) issued under Section 73 of the CGST Act 2017 when the proper officer determines that tax has not been paid, has been short paid, has been erroneously refunded, or input tax credit has been wrongly availed - in cases NOT involving fraud, willful misstatement, or suppression of facts. The SCN is issued in Form DRC-01 along with a summary, asking the taxpayer to show cause why they should not pay the demanded tax, interest at 18 percent per annum under Section 50, and penalty of 10 percent of tax or Rs 10,000."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the time limit for Section 73 SCN and order?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Under Section 73(10), the proper officer must issue the order in Form DRC-07 within 3 years from the due date of filing the annual return (GSTR-9) for the relevant FY. Under Section 73(2), the SCN must be issued at least 3 months before the time limit for the order - effectively giving a 2 years 9 months window from the annual return due date. Section 73 applies to FY 2017-18 to FY 2023-24. For FY 2024-25 onwards, the unified Section 74A framework applies with a 42-month notice period."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the difference between Section 73 and Section 74?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Section 73 covers non-fraud cases - genuine compliance gaps, calculation errors, or interpretive differences. Penalty is capped at 10 percent of tax or Rs 10,000. Section 74 covers cases where fraud, willful misstatement, or suppression of facts is alleged. Penalty is 100 percent of tax (or 25 percent if paid within 30 days of SCN, or 15 percent if paid before SCN). Section 74 also has a 5-year time limit. Section 75(2) provides statutory protection - if fraud allegations cannot be upheld, the demand must be treated as if raised under Section 73."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What forms are used in Section 73 proceedings?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The DRC series of forms under Rule 142 govern Section 73 proceedings. DRC-01A is the pre-notice intimation under Section 73(5). DRC-01 is the SCN summary. DRC-02 is the summary of statement for subsequent periods. DRC-03 is voluntary payment intimation. DRC-04 is the proper officer acknowledgement of payment. DRC-05 is the order concluding proceedings upon full payment. DRC-06 is the reply to SCN. DRC-07 is the summary of the adjudication order. DRC-08 is the order rectifying or withdrawing an earlier order under Section 161."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the penalty under Section 73?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Penalty under Section 73 is bounded - significantly lower than Section 74. If tax and interest are paid voluntarily before SCN issuance under Section 73(5), there is ZERO penalty. If paid within 30 days of SCN under Section 73(8), the penalty is 10 percent of tax or Rs 10,000 (whichever higher). If the order is passed under Section 73(9), the same 10 percent cap applies. Interest under Section 50 at 18 percent per annum applies in all cases on the tax amount from the date of original liability."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How can a Section 73 SCN be defended?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Defence options include reconciliation evidence demolishing the departmental allegation, Section 16(5)/(6) retrospective relief under Finance Act 2024 for FY 2017-18 to 2020-21 Section 16(4) denials, Section 75(2) defence if the SCN was wrongly invoked under Section 74, case-law citations from Madras HC, Karnataka HC, and Supreme Court on similar facts, procedural defences such as time-bar, lack of jurisdiction, or improper service, and merits-based arguments on interpretation of statutory provisions or CBIC circulars."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is Section 74A and how does it affect Section 73?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Section 74A was introduced by Finance Act 2024 on the recommendation of the 53rd GST Council and is effective from FY 2024-25 onwards. It consolidates Section 73 and Section 74 into a single unified framework with a 42-month notice period from the due date of annual return and a 12-month order timeline (extendable by 6 months by a Joint Commissioner). Section 73 continues to apply for FY 2017-18 to FY 2023-24. Within Section 74A, the fraud vs non-fraud distinction is preserved through different penalty structures but the procedural timelines are unified."
+                }
+            }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1650,17 +1655,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1683,8 +1681,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1721,7 +1717,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1732,3 +1727,19 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

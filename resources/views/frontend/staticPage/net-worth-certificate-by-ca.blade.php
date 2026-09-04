@@ -11,6 +11,11 @@
          at build time with this page's service pre-selected; the FAQ block is a
          CTA that scrolls to it, so there is one Bigin form per page. --}}
 @extends('layouts.service-app')
+@push('styles')
+<link rel="stylesheet" href="{{ asset('css/patron-cluster.css') }}?v={{ @filemtime(public_path('css/patron-cluster.css')) ?: '20260804' }}">
+<link rel="stylesheet" href="{{ asset('css/nwc-spec.css') }}?v={{ @filemtime(public_path('css/nwc-spec.css')) ?: '20260804' }}">
+@endpush
+
 
 {{-- This page carries its own working Bigin form (the Hub v2 template), so the
      site-wide band in the layout must stand down or the page shows two. --}}
@@ -94,8 +99,8 @@
 @endsection
 
 @push('styles')
-    <link rel="stylesheet" href="{{ asset('css/patron-cluster.css') }}?v={{ @filemtime(public_path('css/patron-cluster.css')) ?: '20260804' }}">
-    <link rel="stylesheet" href="{{ asset('css/nwc-spec.css') }}?v={{ @filemtime(public_path('css/nwc-spec.css')) ?: '20260804' }}">
+    
+    
 @endpush
 
 @section('content')

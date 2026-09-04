@@ -1,161 +1,12 @@
 
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>ESIC Calculation & Compliance Gurugram - Returns & Wages</title>
-    <meta name="description" content="ESIC calculation and compliance in Gurugram. 10+ employees. 0.75%+3.25%. Rs 21,000 ceiling. Registration. Benefits. Returns. Call +91 945 945 6700.">
-    <link rel="canonical" href="/esic-calculation-compliance/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="ESIC Calculation & Compliance Gurugram - Returns & Wages">
-    <meta property="og:description" content="ESIC calculation and compliance in Gurugram. 10+ employees. 0.75%+3.25%. Rs 21,000 ceiling. Registration. Benefits. Returns. Call +91 945 945 6700.">
-    <meta property="og:url" content="/esic-calculation-compliance/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="ESIC Calculation & Compliance Gurugram - Returns & Wages">
-    <meta name="twitter:description" content="ESIC calculation and compliance in Gurugram. 10+ employees. 0.75%+3.25%. Rs 21,000 ceiling. Registration. Benefits. Returns. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "ESIC Calculation & Compliance Gurugram - Returns & Wages",
-      "description": "ESIC calculation and compliance in Gurugram. 10+ employees. 0.75%+3.25%. Rs 21,000 ceiling. Registration. Benefits. Returns. Call +91 945 945 6700.",
-      "url": "https://www.patronaccounting.com/esic-calculation-compliance/gurugram",
-      "serviceType": "ESIC Calculation & Compliance Gurugram - Returns & Wages",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/esic-calculation-compliance/gurugram",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "minPrice": "1500",
-          "maxPrice": "21000",
-          "priceCurrency": "INR"
-        }
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Esic Calculation Compliance",
-          "item": "https://www.patronaccounting.com/esic-calculation-compliance"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "ESIC Calculation & Compliance Gurugram - Returns & Wages",
-          "item": "https://www.patronaccounting.com/esic-calculation-compliance/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "When is ESIC mandatory in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "ESIC is mandatory when your establishment has 10 or more employees in Haryana/Gurugram. All employee types count: permanent, contract, temporary, intern. Employees earning up to Rs 21,000/month are covered (Rs 25,000 for disabled). Once registered, coverage continues even if employee count drops below 10."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is ESI contribution calculated?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Employee contribution: 0.75% of ESI wages. Employer: 3.25%. Total: 4%. ESI wages include basic+DA+HRA+CCA+OT+meal+uniform+incentives+special allowances. Exclude: conveyance allowance (Supreme Court ruling). Wage ceiling: Rs 21,000/month. Deposit by 15th. Call +91 945 945 6700 for a detailed quote."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What benefits do employees get under ESIC?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. File Half-Yearly Returns: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are the penalties for ESIC non-compliance?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Late deposit: 12% interest per annum from the 16th of the month. Delay of 6+ months: 25% damages on the arrears amount. Non-registration or non-payment: imprisonment of 1-3 years. Backdated demand from the date the 10th employee joined. These penalties make ESIC one of the most strictly enforced employer compliances."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is ESIC different from PF?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "ESI (Employees' State Insurance): medical and social security under ESI Act 1948. For 10+ employees. 4% contribution (0.75% employee + 3.25% employer). Wage ceiling Rs 21,000. Provides medical, sickness, maternity, disablement benefits. PF (Provident Fund): retirement savings under EPF Act 1952. For 20+ employees. 24% contribution (12% each). Provides retirement corpus, pension, life insurance. Both are separate and mandatory."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What wages are included in ESI calculation?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "ESI wages include: basic salary, dearness allowance (DA), house rent allowance (HRA), city compensatory allowance (CCA), overtime pay, meal allowance, uniform allowance, incentives, and special allowances. Excluded: conveyance allowance (per Supreme Court ruling) and employer's PF/ESI contribution. The complete wage (excluding conveyance) forms the base for the 4% calculation."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the contribution period in ESIC?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Two 6-month contribution periods: April 1 to September 30 and October 1 to March 31. An employee covered during a contribution period remains covered for the corresponding benefit period even if their wages exceed Rs 21,000 mid-period. Employer must continue ESI deductions until the current contribution period ends."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -679,7 +530,161 @@ section ul li:not(.nav-item) { font-size: 14px; }
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'Join Community'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>ESIC Calculation & Compliance Gurugram - Returns & Wages</title>
+    <meta name="description" content="ESIC calculation and compliance in Gurugram. 10+ employees. 0.75%+3.25%. Rs 21,000 ceiling. Registration. Benefits. Returns. Call +91 945 945 6700.">
+    <link rel="canonical" href="/esic-calculation-compliance/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="ESIC Calculation & Compliance Gurugram - Returns & Wages">
+    <meta property="og:description" content="ESIC calculation and compliance in Gurugram. 10+ employees. 0.75%+3.25%. Rs 21,000 ceiling. Registration. Benefits. Returns. Call +91 945 945 6700.">
+    <meta property="og:url" content="/esic-calculation-compliance/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ESIC Calculation & Compliance Gurugram - Returns & Wages">
+    <meta name="twitter:description" content="ESIC calculation and compliance in Gurugram. 10+ employees. 0.75%+3.25%. Rs 21,000 ceiling. Registration. Benefits. Returns. Call +91 945 945 6700.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "ESIC Calculation & Compliance Gurugram - Returns & Wages",
+      "description": "ESIC calculation and compliance in Gurugram. 10+ employees. 0.75%+3.25%. Rs 21,000 ceiling. Registration. Benefits. Returns. Call +91 945 945 6700.",
+      "url": "https://www.patronaccounting.com/esic-calculation-compliance/gurugram",
+      "serviceType": "ESIC Calculation & Compliance Gurugram - Returns & Wages",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.patronaccounting.com/esic-calculation-compliance/gurugram",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": "1500",
+          "maxPrice": "21000",
+          "priceCurrency": "INR"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Esic Calculation Compliance",
+          "item": "https://www.patronaccounting.com/esic-calculation-compliance"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "ESIC Calculation & Compliance Gurugram - Returns & Wages",
+          "item": "https://www.patronaccounting.com/esic-calculation-compliance/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "When is ESIC mandatory in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ESIC is mandatory when your establishment has 10 or more employees in Haryana/Gurugram. All employee types count: permanent, contract, temporary, intern. Employees earning up to Rs 21,000/month are covered (Rs 25,000 for disabled). Once registered, coverage continues even if employee count drops below 10."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is ESI contribution calculated?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Employee contribution: 0.75% of ESI wages. Employer: 3.25%. Total: 4%. ESI wages include basic+DA+HRA+CCA+OT+meal+uniform+incentives+special allowances. Exclude: conveyance allowance (Supreme Court ruling). Wage ceiling: Rs 21,000/month. Deposit by 15th. Call +91 945 945 6700 for a detailed quote."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What benefits do employees get under ESIC?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. File Half-Yearly Returns: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the penalties for ESIC non-compliance?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late deposit: 12% interest per annum from the 16th of the month. Delay of 6+ months: 25% damages on the arrears amount. Non-registration or non-payment: imprisonment of 1-3 years. Backdated demand from the date the 10th employee joined. These penalties make ESIC one of the most strictly enforced employer compliances."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is ESIC different from PF?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ESI (Employees' State Insurance): medical and social security under ESI Act 1948. For 10+ employees. 4% contribution (0.75% employee + 3.25% employer). Wage ceiling Rs 21,000. Provides medical, sickness, maternity, disablement benefits. PF (Provident Fund): retirement savings under EPF Act 1952. For 20+ employees. 24% contribution (12% each). Provides retirement corpus, pension, life insurance. Both are separate and mandatory."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What wages are included in ESI calculation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ESI wages include: basic salary, dearness allowance (DA), house rent allowance (HRA), city compensatory allowance (CCA), overtime pay, meal allowance, uniform allowance, incentives, and special allowances. Excluded: conveyance allowance (per Supreme Court ruling) and employer's PF/ESI contribution. The complete wage (excluding conveyance) forms the base for the 4% calculation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the contribution period in ESIC?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Two 6-month contribution periods: April 1 to September 30 and October 1 to March 31. An employee covered during a contribution period remains covered for the corresponding benefit period even if their wages exceed Rs 21,000 mid-period. Employer must continue ESI deductions until the current contribution period ends."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1605,7 +1610,6 @@ var tocWrapper=document.getElementById('tocWrapper');document.getElementById('to
 
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

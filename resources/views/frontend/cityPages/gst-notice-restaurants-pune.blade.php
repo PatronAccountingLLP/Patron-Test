@@ -1,198 +1,11 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>GST Notice Restaurants Pune: CA Reply Accg</title>
-    <meta name="description" content="GST notice for your Pune restaurant on Zomato/Swiggy or 5% vs 18% rate? Patron's CA team files DRC-06 reply and defends. Starting Rs 2,999. Call today.">
-    <link rel="canonical" href="/gst-notice-restaurants/pune">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="GST Notice Restaurants Pune 2026: CA Reply | Patron Accg">
-    <meta property="og:description" content="GST notice for your Pune restaurant on Zomato/Swiggy or 5% vs 18% rate? Patron's CA team files DRC-06 reply and defends. Starting Rs 2,999. Call today.">
-    <meta property="og:url" content="/gst-notice-restaurants/pune">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="GST Notice Restaurants Pune 2026: CA Reply | Patron Accg">
-    <meta name="twitter:description" content="GST notice for your Pune restaurant on Zomato/Swiggy or 5% vs 18% rate? Patron's CA team files DRC-06 reply and defends. Starting Rs 2,999. Call today.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-<script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/gst-notice-restaurants/pune#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "GST Notice",
-          "item": "https://www.patronaccounting.com/gst-notice"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "GST Notice Restaurants Pune",
-          "item": "https://www.patronaccounting.com/gst-notice-restaurants/pune"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/gst-notice-restaurants/pune#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is a GST notice for a restaurant in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A GST notice for a Pune restaurant is any of ASMT-10 scrutiny, ADT-01 audit, DRC-01A pre-SCN intimation, DRC-01 Section 73 or 74 SCN, or DRC-07 final order issued by CGST Audit-I Pune, CGST Audit-II Pune (both at GST Bhavan, 41-A Sassoon Road), or Maharashtra SGST Pune Divisions (Pune-1, 2, 3, 4, or Bhosari). Common triggers are Section 9(5) Zomato/Swiggy mis-reporting, 5% vs 18% rate classification, and composition scheme transitions."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why do I get a GST notice for Zomato or Swiggy supplies?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Effective 1 January 2022, Section 9(5) of the CGST Act made ECOs like Zomato and Swiggy liable to pay 5 percent GST on restaurant supplies. Restaurants must report these in GSTR-3B Table 3.1.1(ii) - informational only - and NOT in Table 3.1(a). Including them in Table 3.1(a) causes double-tax and triggers the most common Pune restaurant notice pattern, particularly for Aundh, Baner cloud kitchens and Hinjewadi delivery-heavy outlets."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between 5% no-ITC and 18% with-ITC for restaurants?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Standalone restaurants, cloud kitchens, cafes, and QSRs charge 5 percent GST with no ITC under Notification 11/2017 CT(R). Hotel-restaurants located in specified premises - where any unit of accommodation has a declared room tariff of Rs 7,500 or more per unit per day - charge 18 percent GST with full ITC. This Rs 7,500 threshold is the single most disputed pivot in Pune hotel-restaurant notices, particularly for Koregaon Park, Kalyani Nagar, and Viman Nagar properties."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do I reply to a restaurant GST notice in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Log in to gst.gov.in, navigate to Services then User Services then View Additional Notices and Orders, locate the notice (DRC-01 / ASMT-10 / ADT-01), and file the appropriate reply form (DRC-06, ASMT-11, or ADT-02) within 30 days. Include Zomato/Swiggy settlement reconciliation, GSTR-3B Table-wise mapping, POS data, FSSAI license, hotel room-tariff history for specified-premises cases, and DRC-03 challan for any voluntary payment."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can my Pune restaurant still avail composition scheme if I supply through Zomato or Swiggy?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes - restaurants supplying through ECOs remain eligible for composition scheme under Section 10 because the ECO is not required to collect TCS on Section 9(5) supplies. Turnover ceiling of Rs 1.5 crore continues to apply. Many Pune Aundh and Baner cloud kitchens stay in composition for the simplicity benefit while still operating on Swiggy and Zomato, particularly for delivery-only outlets."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the penalty for restaurant GST mis-reporting?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "For non-fraud cases under Section 73 - tax plus interest at 18 percent under Section 50 plus 10 percent penalty under Section 73(9) or Rs 10,000 whichever is higher. NIL penalty is available if tax is paid within 30 days of SCN under Section 73(8). For fraud cases under Section 74 - up to 100 percent penalty under Section 74(9), reducible to 15 or 25 percent on early payment."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does Patron handle Maharashtra SGST as well as CGST restaurant notices?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Patron's Pune office handles restaurant notices from both CGST Audit-I and Audit-II Pune Commissionerates at GST Bhavan, 41-A Sassoon Road, and from all Maharashtra SGST Pune Divisions (Pune-1, Pune-2, Pune-3, Pune-4, and Bhosari). The reply procedure, forms, and 30-day window are identical under cross-empowerment."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "LegalService",
-      "@id": "https://www.patronaccounting.com/gst-notice-restaurants/pune#service",
-      "name": "GST Notice Reply and Defence for Pune Restaurants",
-      "description": "End-to-end CA representation for GST notices issued to Pune restaurants, cloud kitchens, QSRs, cafes, and hotel-restaurants. Covers Section 9(5) Zomato/Swiggy reconciliation, 5% no-ITC vs 18% with-ITC rate classification, specified premises defence (Rs 7,500 threshold) for Koregaon Park, Kalyani Nagar, and Viman Nagar hotel-restaurants, composition scheme transitions, Hinjewadi and Magarpatta IT-corporate canteen disputes, ASMT-11/DRC-06/ADT-02 replies, Section 65 audit representation at CGST Audit-I and Audit-II Pune (GST Bhavan Sassoon Road) and Maharashtra SGST Pune Divisions, and Section 107 / GSTAT Mumbai bench appeals. Starting at Rs 2,999.",
-      "serviceType": "Restaurant Sector GST Notice Representation",
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      },
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Maharashtra",
-          "sameAs": "https://en.wikipedia.org/wiki/Maharashtra"
-        }
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Section 9(5) of the CGST Act 2017",
-          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
-        },
-        {
-          "@type": "Thing",
-          "name": "Central Goods and Services Tax Act 2017",
-          "sameAs": "https://en.wikipedia.org/wiki/Central_Goods_and_Services_Tax_Act,_2017"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Restaurant GST Notice Services in Pune",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "name": "DRC-06 Reply to Restaurant GST Notice (Simple, single FY)",
-            "price": "2999",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/gst-notice-restaurants/pune"
-          },
-          {
-            "@type": "Offer",
-            "name": "DRC-06 Reply (Standard, multi-parameter single FY)",
-            "price": "6500",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/gst-notice-restaurants/pune"
-          },
-          {
-            "@type": "Offer",
-            "name": "Specified Premises Opinion (Koregaon Park / Kalyani Nagar)",
-            "price": "4500",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/gst-notice-restaurants/pune"
-          },
-          {
-            "@type": "Offer",
-            "name": "Section 65 Audit Representation (lifecycle)",
-            "price": "12000",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/gst-notice-restaurants/pune"
-          }
-        ]
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -863,7 +676,199 @@ section[style*="background: var(--blue)"] .content-text,
 section[style*="background: var(--blue)"] .content-text p,
 section[style*="background: var(--blue)"] .content-text li,
 section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !important;}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>GST Notice Restaurants Pune: CA Reply Accg</title>
+    <meta name="description" content="GST notice for your Pune restaurant on Zomato/Swiggy or 5% vs 18% rate? Patron's CA team files DRC-06 reply and defends. Starting Rs 2,999. Call today.">
+    <link rel="canonical" href="/gst-notice-restaurants/pune">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="GST Notice Restaurants Pune 2026: CA Reply | Patron Accg">
+    <meta property="og:description" content="GST notice for your Pune restaurant on Zomato/Swiggy or 5% vs 18% rate? Patron's CA team files DRC-06 reply and defends. Starting Rs 2,999. Call today.">
+    <meta property="og:url" content="/gst-notice-restaurants/pune">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GST Notice Restaurants Pune 2026: CA Reply | Patron Accg">
+    <meta name="twitter:description" content="GST notice for your Pune restaurant on Zomato/Swiggy or 5% vs 18% rate? Patron's CA team files DRC-06 reply and defends. Starting Rs 2,999. Call today.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/gst-notice-restaurants/pune#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "GST Notice",
+          "item": "https://www.patronaccounting.com/gst-notice"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "GST Notice Restaurants Pune",
+          "item": "https://www.patronaccounting.com/gst-notice-restaurants/pune"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/gst-notice-restaurants/pune#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a GST notice for a restaurant in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A GST notice for a Pune restaurant is any of ASMT-10 scrutiny, ADT-01 audit, DRC-01A pre-SCN intimation, DRC-01 Section 73 or 74 SCN, or DRC-07 final order issued by CGST Audit-I Pune, CGST Audit-II Pune (both at GST Bhavan, 41-A Sassoon Road), or Maharashtra SGST Pune Divisions (Pune-1, 2, 3, 4, or Bhosari). Common triggers are Section 9(5) Zomato/Swiggy mis-reporting, 5% vs 18% rate classification, and composition scheme transitions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why do I get a GST notice for Zomato or Swiggy supplies?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Effective 1 January 2022, Section 9(5) of the CGST Act made ECOs like Zomato and Swiggy liable to pay 5 percent GST on restaurant supplies. Restaurants must report these in GSTR-3B Table 3.1.1(ii) - informational only - and NOT in Table 3.1(a). Including them in Table 3.1(a) causes double-tax and triggers the most common Pune restaurant notice pattern, particularly for Aundh, Baner cloud kitchens and Hinjewadi delivery-heavy outlets."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between 5% no-ITC and 18% with-ITC for restaurants?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Standalone restaurants, cloud kitchens, cafes, and QSRs charge 5 percent GST with no ITC under Notification 11/2017 CT(R). Hotel-restaurants located in specified premises - where any unit of accommodation has a declared room tariff of Rs 7,500 or more per unit per day - charge 18 percent GST with full ITC. This Rs 7,500 threshold is the single most disputed pivot in Pune hotel-restaurant notices, particularly for Koregaon Park, Kalyani Nagar, and Viman Nagar properties."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I reply to a restaurant GST notice in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Log in to gst.gov.in, navigate to Services then User Services then View Additional Notices and Orders, locate the notice (DRC-01 / ASMT-10 / ADT-01), and file the appropriate reply form (DRC-06, ASMT-11, or ADT-02) within 30 days. Include Zomato/Swiggy settlement reconciliation, GSTR-3B Table-wise mapping, POS data, FSSAI license, hotel room-tariff history for specified-premises cases, and DRC-03 challan for any voluntary payment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can my Pune restaurant still avail composition scheme if I supply through Zomato or Swiggy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes - restaurants supplying through ECOs remain eligible for composition scheme under Section 10 because the ECO is not required to collect TCS on Section 9(5) supplies. Turnover ceiling of Rs 1.5 crore continues to apply. Many Pune Aundh and Baner cloud kitchens stay in composition for the simplicity benefit while still operating on Swiggy and Zomato, particularly for delivery-only outlets."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the penalty for restaurant GST mis-reporting?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For non-fraud cases under Section 73 - tax plus interest at 18 percent under Section 50 plus 10 percent penalty under Section 73(9) or Rs 10,000 whichever is higher. NIL penalty is available if tax is paid within 30 days of SCN under Section 73(8). For fraud cases under Section 74 - up to 100 percent penalty under Section 74(9), reducible to 15 or 25 percent on early payment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Patron handle Maharashtra SGST as well as CGST restaurant notices?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Patron's Pune office handles restaurant notices from both CGST Audit-I and Audit-II Pune Commissionerates at GST Bhavan, 41-A Sassoon Road, and from all Maharashtra SGST Pune Divisions (Pune-1, Pune-2, Pune-3, Pune-4, and Bhosari). The reply procedure, forms, and 30-day window are identical under cross-empowerment."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LegalService",
+      "@id": "https://www.patronaccounting.com/gst-notice-restaurants/pune#service",
+      "name": "GST Notice Reply and Defence for Pune Restaurants",
+      "description": "End-to-end CA representation for GST notices issued to Pune restaurants, cloud kitchens, QSRs, cafes, and hotel-restaurants. Covers Section 9(5) Zomato/Swiggy reconciliation, 5% no-ITC vs 18% with-ITC rate classification, specified premises defence (Rs 7,500 threshold) for Koregaon Park, Kalyani Nagar, and Viman Nagar hotel-restaurants, composition scheme transitions, Hinjewadi and Magarpatta IT-corporate canteen disputes, ASMT-11/DRC-06/ADT-02 replies, Section 65 audit representation at CGST Audit-I and Audit-II Pune (GST Bhavan Sassoon Road) and Maharashtra SGST Pune Divisions, and Section 107 / GSTAT Mumbai bench appeals. Starting at Rs 2,999.",
+      "serviceType": "Restaurant Sector GST Notice Representation",
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Pune",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Maharashtra",
+          "sameAs": "https://en.wikipedia.org/wiki/Maharashtra"
+        }
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Section 9(5) of the CGST Act 2017",
+          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
+        },
+        {
+          "@type": "Thing",
+          "name": "Central Goods and Services Tax Act 2017",
+          "sameAs": "https://en.wikipedia.org/wiki/Central_Goods_and_Services_Tax_Act,_2017"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Restaurant GST Notice Services in Pune",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "DRC-06 Reply to Restaurant GST Notice (Simple, single FY)",
+            "price": "2999",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/gst-notice-restaurants/pune"
+          },
+          {
+            "@type": "Offer",
+            "name": "DRC-06 Reply (Standard, multi-parameter single FY)",
+            "price": "6500",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/gst-notice-restaurants/pune"
+          },
+          {
+            "@type": "Offer",
+            "name": "Specified Premises Opinion (Koregaon Park / Kalyani Nagar)",
+            "price": "4500",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/gst-notice-restaurants/pune"
+          },
+          {
+            "@type": "Offer",
+            "name": "Section 65 Audit Representation (lifecycle)",
+            "price": "12000",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/gst-notice-restaurants/pune"
+          }
+        ]
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -2188,7 +2193,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 </script>
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

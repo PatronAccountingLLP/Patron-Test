@@ -1,200 +1,11 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Section 148 Notice Delhi: CA Reply</title>
-    <meta name="description" content="Section 148 reassessment notice in Delhi? Patron CA team responds at 148A stage and represents you before Delhi PCIT and ITAT. Starting Rs 3,499. Call now.">
-    <link rel="canonical" href="/sec-148-notice/delhi">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Section 148 Notice Delhi 2026: CA Reply | Patron Accounting">
-    <meta property="og:description" content="Section 148 reassessment notice in Delhi? Patron CA team responds at 148A stage and represents you before Delhi PCIT and ITAT. Starting Rs 3,499. Call now.">
-    <meta property="og:url" content="/sec-148-notice/delhi">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Section 148 Notice Delhi 2026: CA Reply | Patron Accounting">
-    <meta name="twitter:description" content="Section 148 reassessment notice in Delhi? Patron CA team responds at 148A stage and represents you before Delhi PCIT and ITAT. Starting Rs 3,499. Call now.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/sec-148-notice/delhi#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Income Tax Notice Delhi",
-          "item": "https://www.patronaccounting.com/income-tax-notice/delhi"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Section 148 Notice Delhi",
-          "item": "https://www.patronaccounting.com/sec-148-notice/delhi"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/sec-148-notice/delhi#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is a Section 148 notice in Delhi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A Section 148 notice in Delhi is a formal reassessment notice issued by an Assessing Officer of the Pr CCIT Delhi region (or via NaFAC under the faceless scheme) directing a taxpayer to file a return for a past assessment year where income is believed to have escaped assessment. It is issued only after the mandatory Section 148A pre-notice procedure introduced by Finance Act 2021 is complete."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the time limit for issuing a Section 148 notice after 1 September 2024?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "With effect from 1 September 2024 per Finance (No.2) Act 2024, a Section 148 notice can be issued within 3 years and 3 months from the end of the relevant assessment year if escaped income is less than Rs 50 lakh, and within 5 years and 3 months if escaped income is Rs 50 lakh or more. Notices beyond these windows are time-barred and Delhi HC has consistently quashed them."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do I respond to a Section 148A SCN in Delhi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Log in to incometax.gov.in, navigate to the e-Proceedings tab, locate the 148A SCN and file a written reply with annexures within 7 to 30 days. The reply should address each information item with documentary evidence, source-of-funds proofs and case law citations. Patron CA team handles this within 5 to 7 working days for Delhi assessees with 58 percent closure rate at this stage."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can a Section 148 notice be challenged in Delhi High Court?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes and successfully. The Delhi HC has quashed dozens of Section 148 notices since the SC Rajeev Bansal ruling in October 2024. Grounds include time-bar under Section 149, Joint Commissioner approval invalid per Rohit Kumar 2025, Section 148A procedural failure per Chandra Prakash Srivastava, and Section 151A faceless allocation defects. Article 226 writ before Delhi HC is the remedy of choice."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What documents are required for a Section 148 reply?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Core documents include the 148A SCN and annexures, the 148A(d) order, original ITR for the relevant AY, Form 26AS, AIS, TIS, bank statements for the full FY, source-of-funds documents like sale deeds, FD receipts, gift deeds and loan agreements, capital gains computations, broker statements and property documents for Delhi real estate transactions. Section 151 approval document where disclosed."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the penalty for not responding to a Section 148 notice?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Three consequences follow non-response: best-judgement assessment under Section 144 based on information available to the AO, penalty of Rs 10,000 under Section 271(1)(b), and interest under Section 234(3) at 1 percent per month for late return filing. Under-reporting attracts 50 percent penalty under Section 270A; mis-reporting attracts 200 percent. Combined demand can multiply 3 to 5 times original tax."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Where is my Delhi Assessing Officer located?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Most Delhi Assessing Officers operate from Aayakar Bhavan and other income tax offices across the Pr CCIT Delhi region. Corporate cases route through PCIT 1, 4, 7; non-corporate and salary through PCIT 10, 12, 15, 20; search cases through PCIT Central 1-3; TDS through CIT (TDS) 1 and 2; international tax through CIT (International Taxation and TP). Verify at incometaxdelhi.gov.in or via PAN lookup."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/sec-148-notice/delhi#service",
-      "name": "Section 148 Notice CA in Delhi - Reassessment Reply and Representation",
-      "url": "https://www.patronaccounting.com/sec-148-notice/delhi",
-      "description": "Patron Accounting CA-led representation for Section 148 Income Tax Act 1961 reassessment notices in Delhi - Section 148A Show Cause Notice reply drafting and filing within 7 to 30 days, ITR-148 return filing in response to Section 148 notice, GKN Driveshafts written objections to recorded reasons, Section 149 time-limit and Section 151 approval audit per Delhi HC Rohit Kumar 2025, Section 148A procedural compliance audit per Delhi HC Chandra Prakash Srivastava, Delhi High Court Article 226 writ petitions leveraging Rajeev Bansal exclusions, reassessment representation before Pr CCIT Delhi PCIT charges and NaFAC, CIT(A) appeals and ITAT Delhi Bench appeals. Starting from Rs 3,499.",
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      },
-      "areaServed": {
-        "@type": "City",
-        "name": "Delhi",
-        "sameAs": "https://en.wikipedia.org/wiki/Delhi"
-      },
-      "serviceType": "Section 148 Income Tax Reassessment Notice Reply and Defence",
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Income Tax Act 1961",
-          "sameAs": "https://en.wikipedia.org/wiki/Income_Tax_Act,_1961"
-        },
-        {
-          "@type": "Thing",
-          "name": "Income tax in India",
-          "sameAs": "https://en.wikipedia.org/wiki/Income_tax_in_India"
-        },
-        {
-          "@type": "Thing",
-          "name": "Faceless assessment scheme",
-          "sameAs": "https://en.wikipedia.org/wiki/Faceless_Assessment_Scheme"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Section 148 Notice Delhi Service Packages",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "name": "Section 148A SCN Reply Drafting and Filing",
-            "price": "3499",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/sec-148-notice/delhi"
-          },
-          {
-            "@type": "Offer",
-            "name": "ITR-148 Return Filing in Response to Section 148 Notice",
-            "price": "4999",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/sec-148-notice/delhi"
-          },
-          {
-            "@type": "Offer",
-            "name": "GKN Driveshafts Written Objections to Recorded Reasons",
-            "price": "7500",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/sec-148-notice/delhi"
-          },
-          {
-            "@type": "Offer",
-            "name": "Reassessment Hearing Representation up to Section 147 Order",
-            "price": "12000",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/sec-148-notice/delhi"
-          }
-        ]
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -865,7 +676,201 @@ section[style*="background: var(--blue)"] .content-text,
 section[style*="background: var(--blue)"] .content-text p,
 section[style*="background: var(--blue)"] .content-text li,
 section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !important;}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Section 148 Notice Delhi: CA Reply</title>
+    <meta name="description" content="Section 148 reassessment notice in Delhi? Patron CA team responds at 148A stage and represents you before Delhi PCIT and ITAT. Starting Rs 3,499. Call now.">
+    <link rel="canonical" href="/sec-148-notice/delhi">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Section 148 Notice Delhi 2026: CA Reply | Patron Accounting">
+    <meta property="og:description" content="Section 148 reassessment notice in Delhi? Patron CA team responds at 148A stage and represents you before Delhi PCIT and ITAT. Starting Rs 3,499. Call now.">
+    <meta property="og:url" content="/sec-148-notice/delhi">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Section 148 Notice Delhi 2026: CA Reply | Patron Accounting">
+    <meta name="twitter:description" content="Section 148 reassessment notice in Delhi? Patron CA team responds at 148A stage and represents you before Delhi PCIT and ITAT. Starting Rs 3,499. Call now.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/sec-148-notice/delhi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Income Tax Notice Delhi",
+          "item": "https://www.patronaccounting.com/income-tax-notice/delhi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Section 148 Notice Delhi",
+          "item": "https://www.patronaccounting.com/sec-148-notice/delhi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/sec-148-notice/delhi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a Section 148 notice in Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Section 148 notice in Delhi is a formal reassessment notice issued by an Assessing Officer of the Pr CCIT Delhi region (or via NaFAC under the faceless scheme) directing a taxpayer to file a return for a past assessment year where income is believed to have escaped assessment. It is issued only after the mandatory Section 148A pre-notice procedure introduced by Finance Act 2021 is complete."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the time limit for issuing a Section 148 notice after 1 September 2024?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "With effect from 1 September 2024 per Finance (No.2) Act 2024, a Section 148 notice can be issued within 3 years and 3 months from the end of the relevant assessment year if escaped income is less than Rs 50 lakh, and within 5 years and 3 months if escaped income is Rs 50 lakh or more. Notices beyond these windows are time-barred and Delhi HC has consistently quashed them."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I respond to a Section 148A SCN in Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Log in to incometax.gov.in, navigate to the e-Proceedings tab, locate the 148A SCN and file a written reply with annexures within 7 to 30 days. The reply should address each information item with documentary evidence, source-of-funds proofs and case law citations. Patron CA team handles this within 5 to 7 working days for Delhi assessees with 58 percent closure rate at this stage."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a Section 148 notice be challenged in Delhi High Court?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes and successfully. The Delhi HC has quashed dozens of Section 148 notices since the SC Rajeev Bansal ruling in October 2024. Grounds include time-bar under Section 149, Joint Commissioner approval invalid per Rohit Kumar 2025, Section 148A procedural failure per Chandra Prakash Srivastava, and Section 151A faceless allocation defects. Article 226 writ before Delhi HC is the remedy of choice."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What documents are required for a Section 148 reply?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Core documents include the 148A SCN and annexures, the 148A(d) order, original ITR for the relevant AY, Form 26AS, AIS, TIS, bank statements for the full FY, source-of-funds documents like sale deeds, FD receipts, gift deeds and loan agreements, capital gains computations, broker statements and property documents for Delhi real estate transactions. Section 151 approval document where disclosed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the penalty for not responding to a Section 148 notice?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Three consequences follow non-response: best-judgement assessment under Section 144 based on information available to the AO, penalty of Rs 10,000 under Section 271(1)(b), and interest under Section 234(3) at 1 percent per month for late return filing. Under-reporting attracts 50 percent penalty under Section 270A; mis-reporting attracts 200 percent. Combined demand can multiply 3 to 5 times original tax."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where is my Delhi Assessing Officer located?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most Delhi Assessing Officers operate from Aayakar Bhavan and other income tax offices across the Pr CCIT Delhi region. Corporate cases route through PCIT 1, 4, 7; non-corporate and salary through PCIT 10, 12, 15, 20; search cases through PCIT Central 1-3; TDS through CIT (TDS) 1 and 2; international tax through CIT (International Taxation and TP). Verify at incometaxdelhi.gov.in or via PAN lookup."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/sec-148-notice/delhi#service",
+      "name": "Section 148 Notice CA in Delhi - Reassessment Reply and Representation",
+      "url": "https://www.patronaccounting.com/sec-148-notice/delhi",
+      "description": "Patron Accounting CA-led representation for Section 148 Income Tax Act 1961 reassessment notices in Delhi - Section 148A Show Cause Notice reply drafting and filing within 7 to 30 days, ITR-148 return filing in response to Section 148 notice, GKN Driveshafts written objections to recorded reasons, Section 149 time-limit and Section 151 approval audit per Delhi HC Rohit Kumar 2025, Section 148A procedural compliance audit per Delhi HC Chandra Prakash Srivastava, Delhi High Court Article 226 writ petitions leveraging Rajeev Bansal exclusions, reassessment representation before Pr CCIT Delhi PCIT charges and NaFAC, CIT(A) appeals and ITAT Delhi Bench appeals. Starting from Rs 3,499.",
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Delhi",
+        "sameAs": "https://en.wikipedia.org/wiki/Delhi"
+      },
+      "serviceType": "Section 148 Income Tax Reassessment Notice Reply and Defence",
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Income Tax Act 1961",
+          "sameAs": "https://en.wikipedia.org/wiki/Income_Tax_Act,_1961"
+        },
+        {
+          "@type": "Thing",
+          "name": "Income tax in India",
+          "sameAs": "https://en.wikipedia.org/wiki/Income_tax_in_India"
+        },
+        {
+          "@type": "Thing",
+          "name": "Faceless assessment scheme",
+          "sameAs": "https://en.wikipedia.org/wiki/Faceless_Assessment_Scheme"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Section 148 Notice Delhi Service Packages",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "Section 148A SCN Reply Drafting and Filing",
+            "price": "3499",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/sec-148-notice/delhi"
+          },
+          {
+            "@type": "Offer",
+            "name": "ITR-148 Return Filing in Response to Section 148 Notice",
+            "price": "4999",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/sec-148-notice/delhi"
+          },
+          {
+            "@type": "Offer",
+            "name": "GKN Driveshafts Written Objections to Recorded Reasons",
+            "price": "7500",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/sec-148-notice/delhi"
+          },
+          {
+            "@type": "Offer",
+            "name": "Reassessment Hearing Representation up to Section 147 Order",
+            "price": "12000",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/sec-148-notice/delhi"
+          }
+        ]
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -2121,7 +2126,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 </script>
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

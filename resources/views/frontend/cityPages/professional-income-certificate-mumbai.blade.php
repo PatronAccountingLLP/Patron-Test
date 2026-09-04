@@ -1,146 +1,12 @@
 
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Professional Income Certificate in Mumbai 2026: CA Proof | Patron Accounting</title>
-    <meta name="description" content="CA-certified professional income certificate for doctors, lawyers, consultants and architects. Practice income proof for visa and loans. From INR 1,999.">
-    <link rel="canonical" href="/professional-income-certificate/mumbai">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Professional Income Certificate 2026: CA Proof | Patron Accounting">
-    <meta property="og:description" content="CA-certified professional income certificate for doctors, lawyers, consultants and architects. Practice income proof for visa and loans. From INR 1,999.">
-    <meta property="og:url" content="/professional-income-certificate/mumbai">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Professional Income Certificate 2026: CA Proof | Patron Accounting">
-    <meta name="twitter:description" content="CA-certified professional income certificate for doctors, lawyers, consultants and architects. Practice income proof for visa and loans. From INR 1,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/professional-income-certificate/mumbai/#service",
-        "name": "Professional Income Certificate in India",
-        "description": "CA-certified professional income certificate confirming the practice income of specified professionals such as doctors, lawyers, consultants, chartered accountants and architects, stating gross professional receipts and net income consistent with Section 44ADA and the ITR, issued with a UDIN for visa, loan and verification use.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/professional-income-certificate/mumbai" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Profession", "sameAs": "https://en.wikipedia.org/wiki/Profession" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Professional Income Certificate Service Plans",
-            "itemListElement": [
-                { "@type": "Offer", "name": "Professional Income Certificate (UDIN-verified)", "priceCurrency": "INR", "price": "1999", "description": "CA-certified statement of gross professional receipts and net practice income, consistent with Section 44ADA and the ITR, with UDIN, for visa, loan and verification use." }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/professional-income-certificate/mumbai/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
-            { "@type": "ListItem", "position": 3, "name": "Professional Income Certificate", "item": "https://www.patronaccounting.com/professional-income-certificate/mumbai" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/professional-income-certificate/mumbai/#faq",
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "mainEntity": [
-            { "@type": "Question", "name": "What is a professional income certificate?", "acceptedAnswer": { "@type": "Answer", "text": "It is an official document issued and signed by a practising Chartered Accountant confirming the income a professional earns from their practice. It states gross professional receipts and net income for the period, often computed with reference to Section 44ADA, and is prepared from the ITR, income computation, bank statements and profit and loss account. It carries the CA's signature, stamp and a UDIN, and is accepted by embassies, banks and institutions." } },
-            { "@type": "Question", "name": "Which professionals can get this certificate?", "acceptedAnswer": { "@type": "Answer", "text": "It is meant for the specified professions recognised under the Income Tax Act, including doctors and medical practitioners, lawyers and advocates, chartered accountants and company secretaries, architects and engineers, technical and management consultants, and interior decorators, among other notified professions. If you earn income from rendering professional services, a professional income certificate is the appropriate way to certify that practice income." } },
-            { "@type": "Question", "name": "How is this different from a general income certificate?", "acceptedAnswer": { "@type": "Answer", "text": "A general income certificate by a CA covers your total income from all sources, including salary, business, rent and investments. A professional income certificate focuses specifically on your practice income, stating gross professional receipts and net income, and is framed for professionals taxed under Section 44ADA. If your income proof is needed in your capacity as a practising professional, this certificate is usually the more appropriate one." } },
-            { "@type": "Question", "name": "What is Section 44ADA and how does it affect the certificate?", "acceptedAnswer": { "@type": "Answer", "text": "Section 44ADA is the presumptive taxation scheme for specified professionals. An eligible resident individual or firm, other than an LLP, can declare 50% of gross receipts as income, with a receipts limit of Rs 50 lakh, raised to Rs 75 lakh where cash receipts are 5% or less of the total. We state your gross receipts and income consistently with your 44ADA position and ITR, so the certificate matches your filed figures." } },
-            { "@type": "Question", "name": "What documents are required?", "acceptedAnswer": { "@type": "Answer", "text": "You need your PAN and professional registration details, your Income Tax Returns for the last one to three years, your Section 44ADA or income computation, bank statements showing professional receipts, and a profit and loss account if you maintain books. The CA verifies these, confirms your gross receipts and net income, and certifies the professional income certificate with a UDIN." } },
-            { "@type": "Question", "name": "How much does a professional income certificate cost?", "acceptedAnswer": { "@type": "Answer", "text": "At Patron Accounting, a professional income certificate starts from Rs 1,999 (exclusive of GST and government charges), an accessible fee in line with our visa and net worth certificate tier. The final fee depends on the number of years covered and whether a supporting computation of income is required. Fees are confirmed after a quick review of your documents." } },
-            { "@type": "Question", "name": "Can I use it for a visa application?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. A professional income certificate is widely used for student, tourist and visitor visas, where an applicant must demonstrate professional income and financial standing. It is often submitted alongside a net worth certificate, especially for family or student visa applications. Because it is CA-certified and UDIN-verified, embassies treat it as credible proof of your practice income." } }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/professional-income-certificate/mumbai",
-        "name": "Professional Income Certificate in India",
-        "description": "CA-certified professional income certificate for doctors, lawyers, consultants and architects. Practice income proof for visa and loans. From INR 1,999.",
-        "url": "https://www.patronaccounting.com/professional-income-certificate/mumbai",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/professional-income-certificate/mumbai/#service" },
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/professional-income-certificate/mumbai/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How to Obtain a Professional Income Certificate",
-        "description": "Five steps to obtain a CA professional income certificate: confirm the purpose, share documents, verification, drafting, and certification with UDIN.",
-        "totalTime": "P1D",
-        "step": [
-            { "@type": "HowToStep", "name": "Tell us the purpose", "text": "Visa, loan or verification, and the period required." },
-            { "@type": "HowToStep", "name": "Share documents", "text": "PAN, ITR, 44ADA computation, bank statements and practice financials." },
-            { "@type": "HowToStep", "name": "Verification", "text": "The CA verifies receipts and income under SA 500." },
-            { "@type": "HowToStep", "name": "Drafting", "text": "The certificate is prepared with gross receipts and net income in the required format." },
-            { "@type": "HowToStep", "name": "Certification and UDIN", "text": "The CA signs, stamps and generates the UDIN, issuing the certificate." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Professional Income Certificate Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Practice income", "description": "The income a professional earns from rendering professional services." },
-            { "@type": "DefinedTerm", "name": "Gross receipts", "description": "Total professional fees received in the year, the basis for 44ADA." },
-            { "@type": "DefinedTerm", "name": "Section 44ADA", "description": "The presumptive scheme letting specified professionals declare 50% of receipts." },
-            { "@type": "DefinedTerm", "name": "Specified profession", "description": "A profession listed under Section 44AA, such as medicine or law." },
-            { "@type": "DefinedTerm", "name": "UDIN", "description": "The 18-digit Unique Document Identification Number on every CA certificate." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -754,7 +620,146 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Professional Income Certificate in Mumbai 2026: CA Proof | Patron Accounting</title>
+    <meta name="description" content="CA-certified professional income certificate for doctors, lawyers, consultants and architects. Practice income proof for visa and loans. From INR 1,999.">
+    <link rel="canonical" href="/professional-income-certificate/mumbai">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Professional Income Certificate 2026: CA Proof | Patron Accounting">
+    <meta property="og:description" content="CA-certified professional income certificate for doctors, lawyers, consultants and architects. Practice income proof for visa and loans. From INR 1,999.">
+    <meta property="og:url" content="/professional-income-certificate/mumbai">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Professional Income Certificate 2026: CA Proof | Patron Accounting">
+    <meta name="twitter:description" content="CA-certified professional income certificate for doctors, lawyers, consultants and architects. Practice income proof for visa and loans. From INR 1,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/professional-income-certificate/mumbai/#service",
+        "name": "Professional Income Certificate in India",
+        "description": "CA-certified professional income certificate confirming the practice income of specified professionals such as doctors, lawyers, consultants, chartered accountants and architects, stating gross professional receipts and net income consistent with Section 44ADA and the ITR, issued with a UDIN for visa, loan and verification use.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/professional-income-certificate/mumbai" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Profession", "sameAs": "https://en.wikipedia.org/wiki/Profession" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Professional Income Certificate Service Plans",
+            "itemListElement": [
+                { "@type": "Offer", "name": "Professional Income Certificate (UDIN-verified)", "priceCurrency": "INR", "price": "1999", "description": "CA-certified statement of gross professional receipts and net practice income, consistent with Section 44ADA and the ITR, with UDIN, for visa, loan and verification use." }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/professional-income-certificate/mumbai/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
+            { "@type": "ListItem", "position": 3, "name": "Professional Income Certificate", "item": "https://www.patronaccounting.com/professional-income-certificate/mumbai" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/professional-income-certificate/mumbai/#faq",
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "mainEntity": [
+            { "@type": "Question", "name": "What is a professional income certificate?", "acceptedAnswer": { "@type": "Answer", "text": "It is an official document issued and signed by a practising Chartered Accountant confirming the income a professional earns from their practice. It states gross professional receipts and net income for the period, often computed with reference to Section 44ADA, and is prepared from the ITR, income computation, bank statements and profit and loss account. It carries the CA's signature, stamp and a UDIN, and is accepted by embassies, banks and institutions." } },
+            { "@type": "Question", "name": "Which professionals can get this certificate?", "acceptedAnswer": { "@type": "Answer", "text": "It is meant for the specified professions recognised under the Income Tax Act, including doctors and medical practitioners, lawyers and advocates, chartered accountants and company secretaries, architects and engineers, technical and management consultants, and interior decorators, among other notified professions. If you earn income from rendering professional services, a professional income certificate is the appropriate way to certify that practice income." } },
+            { "@type": "Question", "name": "How is this different from a general income certificate?", "acceptedAnswer": { "@type": "Answer", "text": "A general income certificate by a CA covers your total income from all sources, including salary, business, rent and investments. A professional income certificate focuses specifically on your practice income, stating gross professional receipts and net income, and is framed for professionals taxed under Section 44ADA. If your income proof is needed in your capacity as a practising professional, this certificate is usually the more appropriate one." } },
+            { "@type": "Question", "name": "What is Section 44ADA and how does it affect the certificate?", "acceptedAnswer": { "@type": "Answer", "text": "Section 44ADA is the presumptive taxation scheme for specified professionals. An eligible resident individual or firm, other than an LLP, can declare 50% of gross receipts as income, with a receipts limit of Rs 50 lakh, raised to Rs 75 lakh where cash receipts are 5% or less of the total. We state your gross receipts and income consistently with your 44ADA position and ITR, so the certificate matches your filed figures." } },
+            { "@type": "Question", "name": "What documents are required?", "acceptedAnswer": { "@type": "Answer", "text": "You need your PAN and professional registration details, your Income Tax Returns for the last one to three years, your Section 44ADA or income computation, bank statements showing professional receipts, and a profit and loss account if you maintain books. The CA verifies these, confirms your gross receipts and net income, and certifies the professional income certificate with a UDIN." } },
+            { "@type": "Question", "name": "How much does a professional income certificate cost?", "acceptedAnswer": { "@type": "Answer", "text": "At Patron Accounting, a professional income certificate starts from Rs 1,999 (exclusive of GST and government charges), an accessible fee in line with our visa and net worth certificate tier. The final fee depends on the number of years covered and whether a supporting computation of income is required. Fees are confirmed after a quick review of your documents." } },
+            { "@type": "Question", "name": "Can I use it for a visa application?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. A professional income certificate is widely used for student, tourist and visitor visas, where an applicant must demonstrate professional income and financial standing. It is often submitted alongside a net worth certificate, especially for family or student visa applications. Because it is CA-certified and UDIN-verified, embassies treat it as credible proof of your practice income." } }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/professional-income-certificate/mumbai",
+        "name": "Professional Income Certificate in India",
+        "description": "CA-certified professional income certificate for doctors, lawyers, consultants and architects. Practice income proof for visa and loans. From INR 1,999.",
+        "url": "https://www.patronaccounting.com/professional-income-certificate/mumbai",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/professional-income-certificate/mumbai/#service" },
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/professional-income-certificate/mumbai/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Obtain a Professional Income Certificate",
+        "description": "Five steps to obtain a CA professional income certificate: confirm the purpose, share documents, verification, drafting, and certification with UDIN.",
+        "totalTime": "P1D",
+        "step": [
+            { "@type": "HowToStep", "name": "Tell us the purpose", "text": "Visa, loan or verification, and the period required." },
+            { "@type": "HowToStep", "name": "Share documents", "text": "PAN, ITR, 44ADA computation, bank statements and practice financials." },
+            { "@type": "HowToStep", "name": "Verification", "text": "The CA verifies receipts and income under SA 500." },
+            { "@type": "HowToStep", "name": "Drafting", "text": "The certificate is prepared with gross receipts and net income in the required format." },
+            { "@type": "HowToStep", "name": "Certification and UDIN", "text": "The CA signs, stamps and generates the UDIN, issuing the certificate." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Professional Income Certificate Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Practice income", "description": "The income a professional earns from rendering professional services." },
+            { "@type": "DefinedTerm", "name": "Gross receipts", "description": "Total professional fees received in the year, the basis for 44ADA." },
+            { "@type": "DefinedTerm", "name": "Section 44ADA", "description": "The presumptive scheme letting specified professionals declare 50% of receipts." },
+            { "@type": "DefinedTerm", "name": "Specified profession", "description": "A profession listed under Section 44AA, such as medicine or law." },
+            { "@type": "DefinedTerm", "name": "UDIN", "description": "The 18-digit Unique Document Identification Number on every CA certificate." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1511,17 +1516,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1544,8 +1542,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1582,7 +1578,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (stable, not live date)
 (function(){
@@ -1593,3 +1588,19 @@ window.addEventListener('scroll', function() {
     if(el2)el2.textContent=dateStr;
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

@@ -1,143 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Provisional Financials Certificate 2026 | Patron Accounting</title>
-    <meta name="description" content="CA-certified provisional financial statements in Pune for bank loans, tenders, and board use before the year-end audit. UDIN-verified. From INR 4,999.">
-    <link rel="canonical" href="/provisional-financials-certificate/pune">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Provisional Financials Certificate 2026 | Patron Accounting">
-    <meta property="og:description" content="CA-certified provisional financial statements in Pune for bank loans, tenders, and board use before the year-end audit. UDIN-verified. From INR 4,999.">
-    <meta property="og:url" content="/provisional-financials-certificate/pune">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Provisional Financials Certificate 2026 | Patron Accounting">
-    <meta name="twitter:description" content="CA-certified provisional financial statements in Pune for bank loans, tenders, and board use before the year-end audit. UDIN-verified. From INR 4,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/provisional-financials-certificate/pune/#service",
-        "name": "Provisional Financials Certificate in Pune",
-        "description": "CA-certified provisional financial statements in Pune, a provisional balance sheet and profit and loss prepared from actual data for an elapsed unaudited period, used as a bridge document for bank loans, CMA updates, tenders, and board meetings before the statutory audit, issued unaudited with a mandatory 18-digit UDIN under ICAI guidance.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/provisional-financials-certificate/pune" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Financial statement", "sameAs": "https://en.wikipedia.org/wiki/Financial_statement" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Provisional Financials Certificate Service Plans",
-            "itemListElement": [
-                { "@type": "Offer", "name": "Provisional Financials Certificate", "price": "4999", "priceCurrency": "INR", "description": "Starting from INR 4,999 (Exl GST and Govt. Charges)" }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/provisional-financials-certificate/pune/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
-            { "@type": "ListItem", "position": 3, "name": "Provisional Financials Certificate", "item": "https://www.patronaccounting.com/provisional-financials-certificate/pune" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/provisional-financials-certificate/pune/#faq",
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "mainEntity": [
-            { "@type": "Question", "name": "What is a provisional financials certificate?", "acceptedAnswer": { "@type": "Answer", "text": "It is a Chartered Accountant\u0027s certificate accompanying unaudited financial statements, a provisional balance sheet and profit and loss, prepared from actual data for a period that has elapsed but is not yet audited. It gives banks, tender authorities, and boards an up-to-date snapshot when audited accounts are not ready. The certificate clearly states the figures are unaudited and provisional and carries an 18-digit UDIN." } },
-{ "@type": "Question", "name": "How are provisional financials different from projected financials?", "acceptedAnswer": { "@type": "Answer", "text": "Provisional financials are based on actual, historical data for a period that has already elapsed but is not yet audited. Projected financials are forward-looking forecasts based on assumptions, governed by SAE 3400. Banks may ask for both, the provisional statements to show recent actual performance and the projected statements to show the expected future used in CMA data and loan appraisal." } },
-{ "@type": "Question", "name": "Can a CA certify a provisional balance sheet?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. A practising CA can certify provisional financial statements on the basis of facts produced by the client, provided the certificate clearly states that the figures are unaudited and provisional and that management is responsible for them. The ICAI Guidance Note on Reports or Certificates for Special Purposes governs such engagements, and a UDIN is mandatory. The CA must not present provisional figures as audited." } },
-{ "@type": "Question", "name": "When do banks ask for provisional financials?", "acceptedAnswer": { "@type": "Answer", "text": "Banks ask for provisional financials when they need an updated view of a company\u0027s financial position but the statutory audit for the latest period is not complete. This commonly happens in the April to September period while the previous year\u0027s accounts are still being audited. The provisional statements support new loan applications, working-capital renewals, and CMA updates without waiting for the audit." } },
-{ "@type": "Question", "name": "Is a UDIN required on a provisional financials certificate?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. An 18-digit Unique Document Identification Number is mandatory on all CA certificates, including those for provisional financial statements. The UDIN, generated through the ICAI portal, lets the bank or authority verify that a registered Chartered Accountant issued the certificate. A provisional financials certificate without a UDIN is incomplete and may be rejected by the recipient." } },
-{ "@type": "Question", "name": "How fast can Patron Accounting issue it in Pune?", "acceptedAnswer": { "@type": "Answer", "text": "For Pune businesses with a reconciled trial balance and supporting records ready, we typically issue the provisional financials certificate within one to three working days, with same-day express where the books are in order. We reconcile to bank and GST records, present in the required format, and mark the certificate clearly as unaudited. Our team works both in-person and remotely across the city." } }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/provisional-financials-certificate/pune",
-        "name": "Provisional Financials Certificate in Pune",
-        "description": "CA-certified provisional financial statements in Pune for bank loans, tenders, and board use before the year-end audit. UDIN-verified. From INR 4,999.",
-        "url": "https://www.patronaccounting.com/provisional-financials-certificate/pune",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/provisional-financials-certificate/pune/#service" },
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/provisional-financials-certificate/pune/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How a Provisional Financials Certificate Is Issued",
-        "description": "The step-by-step process Patron Accounting follows to prepare and certify unaudited provisional financial statements in Pune.",
-        "totalTime": "P3D",
-        "step": [
-            { "@type": "HowToStep", "position": 1, "name": "Confirm purpose and period", "text": "Confirm the purpose (loan, CMA update, tender, board) and the period to be covered." },
-{ "@type": "HowToStep", "position": 2, "name": "Collect records", "text": "Collect the trial balance, bank statements, GST returns, and sales and purchase records." },
-{ "@type": "HowToStep", "position": 3, "name": "Reconcile and verify", "text": "Reconcile the books with bank statements and verify key balances." },
-{ "@type": "HowToStep", "position": 4, "name": "Prepare statements", "text": "Prepare the provisional balance sheet and P&L with supporting notes." },
-{ "@type": "HowToStep", "position": 5, "name": "Issue with UDIN", "text": "Issue the certificate clearly marked unaudited and provisional under the ICAI Special Purposes Guidance Note, with UDIN." },
-{ "@type": "HowToStep", "position": 6, "name": "Deliver and support", "text": "Deliver in the required format and support any bank or authority queries." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Provisional Financials Certificate Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Provisional financials", "description": "Unaudited financial statements prepared from actual data for an elapsed but unfinalised period." },
-{ "@type": "DefinedTerm", "name": "Projected financials", "description": "Forward-looking forecasts of future performance under SAE 3400, distinct from provisional statements." },
-{ "@type": "DefinedTerm", "name": "ICAI Special Purposes Guidance Note", "description": "The ICAI Guidance Note on Reports or Certificates for Special Purposes (Revised 2016) governing such certification." },
-{ "@type": "DefinedTerm", "name": "UDIN", "description": "The 18-digit Unique Document Identification Number mandatory on CA certificates." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -751,7 +618,145 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Provisional Financials Certificate 2026 | Patron Accounting</title>
+    <meta name="description" content="CA-certified provisional financial statements in Pune for bank loans, tenders, and board use before the year-end audit. UDIN-verified. From INR 4,999.">
+    <link rel="canonical" href="/provisional-financials-certificate/pune">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Provisional Financials Certificate 2026 | Patron Accounting">
+    <meta property="og:description" content="CA-certified provisional financial statements in Pune for bank loans, tenders, and board use before the year-end audit. UDIN-verified. From INR 4,999.">
+    <meta property="og:url" content="/provisional-financials-certificate/pune">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Provisional Financials Certificate 2026 | Patron Accounting">
+    <meta name="twitter:description" content="CA-certified provisional financial statements in Pune for bank loans, tenders, and board use before the year-end audit. UDIN-verified. From INR 4,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/provisional-financials-certificate/pune/#service",
+        "name": "Provisional Financials Certificate in Pune",
+        "description": "CA-certified provisional financial statements in Pune, a provisional balance sheet and profit and loss prepared from actual data for an elapsed unaudited period, used as a bridge document for bank loans, CMA updates, tenders, and board meetings before the statutory audit, issued unaudited with a mandatory 18-digit UDIN under ICAI guidance.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/provisional-financials-certificate/pune" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Financial statement", "sameAs": "https://en.wikipedia.org/wiki/Financial_statement" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Provisional Financials Certificate Service Plans",
+            "itemListElement": [
+                { "@type": "Offer", "name": "Provisional Financials Certificate", "price": "4999", "priceCurrency": "INR", "description": "Starting from INR 4,999 (Exl GST and Govt. Charges)" }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/provisional-financials-certificate/pune/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
+            { "@type": "ListItem", "position": 3, "name": "Provisional Financials Certificate", "item": "https://www.patronaccounting.com/provisional-financials-certificate/pune" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/provisional-financials-certificate/pune/#faq",
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "mainEntity": [
+            { "@type": "Question", "name": "What is a provisional financials certificate?", "acceptedAnswer": { "@type": "Answer", "text": "It is a Chartered Accountant\u0027s certificate accompanying unaudited financial statements, a provisional balance sheet and profit and loss, prepared from actual data for a period that has elapsed but is not yet audited. It gives banks, tender authorities, and boards an up-to-date snapshot when audited accounts are not ready. The certificate clearly states the figures are unaudited and provisional and carries an 18-digit UDIN." } },
+{ "@type": "Question", "name": "How are provisional financials different from projected financials?", "acceptedAnswer": { "@type": "Answer", "text": "Provisional financials are based on actual, historical data for a period that has already elapsed but is not yet audited. Projected financials are forward-looking forecasts based on assumptions, governed by SAE 3400. Banks may ask for both, the provisional statements to show recent actual performance and the projected statements to show the expected future used in CMA data and loan appraisal." } },
+{ "@type": "Question", "name": "Can a CA certify a provisional balance sheet?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. A practising CA can certify provisional financial statements on the basis of facts produced by the client, provided the certificate clearly states that the figures are unaudited and provisional and that management is responsible for them. The ICAI Guidance Note on Reports or Certificates for Special Purposes governs such engagements, and a UDIN is mandatory. The CA must not present provisional figures as audited." } },
+{ "@type": "Question", "name": "When do banks ask for provisional financials?", "acceptedAnswer": { "@type": "Answer", "text": "Banks ask for provisional financials when they need an updated view of a company\u0027s financial position but the statutory audit for the latest period is not complete. This commonly happens in the April to September period while the previous year\u0027s accounts are still being audited. The provisional statements support new loan applications, working-capital renewals, and CMA updates without waiting for the audit." } },
+{ "@type": "Question", "name": "Is a UDIN required on a provisional financials certificate?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. An 18-digit Unique Document Identification Number is mandatory on all CA certificates, including those for provisional financial statements. The UDIN, generated through the ICAI portal, lets the bank or authority verify that a registered Chartered Accountant issued the certificate. A provisional financials certificate without a UDIN is incomplete and may be rejected by the recipient." } },
+{ "@type": "Question", "name": "How fast can Patron Accounting issue it in Pune?", "acceptedAnswer": { "@type": "Answer", "text": "For Pune businesses with a reconciled trial balance and supporting records ready, we typically issue the provisional financials certificate within one to three working days, with same-day express where the books are in order. We reconcile to bank and GST records, present in the required format, and mark the certificate clearly as unaudited. Our team works both in-person and remotely across the city." } }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/provisional-financials-certificate/pune",
+        "name": "Provisional Financials Certificate in Pune",
+        "description": "CA-certified provisional financial statements in Pune for bank loans, tenders, and board use before the year-end audit. UDIN-verified. From INR 4,999.",
+        "url": "https://www.patronaccounting.com/provisional-financials-certificate/pune",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/provisional-financials-certificate/pune/#service" },
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/provisional-financials-certificate/pune/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How a Provisional Financials Certificate Is Issued",
+        "description": "The step-by-step process Patron Accounting follows to prepare and certify unaudited provisional financial statements in Pune.",
+        "totalTime": "P3D",
+        "step": [
+            { "@type": "HowToStep", "position": 1, "name": "Confirm purpose and period", "text": "Confirm the purpose (loan, CMA update, tender, board) and the period to be covered." },
+{ "@type": "HowToStep", "position": 2, "name": "Collect records", "text": "Collect the trial balance, bank statements, GST returns, and sales and purchase records." },
+{ "@type": "HowToStep", "position": 3, "name": "Reconcile and verify", "text": "Reconcile the books with bank statements and verify key balances." },
+{ "@type": "HowToStep", "position": 4, "name": "Prepare statements", "text": "Prepare the provisional balance sheet and P&L with supporting notes." },
+{ "@type": "HowToStep", "position": 5, "name": "Issue with UDIN", "text": "Issue the certificate clearly marked unaudited and provisional under the ICAI Special Purposes Guidance Note, with UDIN." },
+{ "@type": "HowToStep", "position": 6, "name": "Deliver and support", "text": "Deliver in the required format and support any bank or authority queries." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Provisional Financials Certificate Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Provisional financials", "description": "Unaudited financial statements prepared from actual data for an elapsed but unfinalised period." },
+{ "@type": "DefinedTerm", "name": "Projected financials", "description": "Forward-looking forecasts of future performance under SAE 3400, distinct from provisional statements." },
+{ "@type": "DefinedTerm", "name": "ICAI Special Purposes Guidance Note", "description": "The ICAI Guidance Note on Reports or Certificates for Special Purposes (Revised 2016) governing such certification." },
+{ "@type": "DefinedTerm", "name": "UDIN", "description": "The 18-digit Unique Document Identification Number mandatory on CA certificates." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1415,17 +1420,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1448,8 +1446,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1486,7 +1482,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1497,3 +1492,19 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

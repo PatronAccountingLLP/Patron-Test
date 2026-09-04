@@ -1,183 +1,5 @@
 @extends('layouts.app')
-@section('meta')
-
-<title>ESOP TDS Deferral Checker | Section 192(1C) Startup</title>
-<meta name="description" content="Section 192(1C) checker: see if your startup and employees can defer ESOP TDS. Tests DPIIT, 80-IAC IMB certificate, incorporation window and turnover. Free now!">
-<meta name="robots" content="index, follow">
-<meta name="theme-color" content="#15365f">
-<link rel="canonical" href="https://www.patronaccounting.com/tools/esop-section-192-1c-eligibility-checker">
-
-<meta property="og:title" content="ESOP TDS Deferral Checker — Section 192(1C) 2026">
-<meta property="og:description" content="Check whether your startup qualifies to defer ESOP TDS under Section 192(1C): DPIIT recognition, 80-IAC IMB certificate, incorporation window and turnover test.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.patronaccounting.com/tools/esop-section-192-1c-eligibility-checker">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="1200">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-<meta property="og:site_name" content="Patron Accounting">
-<meta property="og:locale" content="en_IN">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="ESOP TDS Deferral Checker — Section 192(1C) 2026">
-<meta name="twitter:description" content="Check if your startup can defer ESOP TDS under Section 192(1C): DPIIT, 80-IAC IMB certificate, incorporation window and turnover. Free & instant.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-
-<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
-<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
-@endsection
-
-@section('schema')
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "ESOP Section 192(1C) Eligibility Checker",
-  "description": "ESOP Section 192(1C) Eligibility Checker walks through the statutory conditions that decide whether a startup's employees can defer tax deducted at source on the ESOP perquisite under Section 192(1C). It tests entity type, the incorporation window of 1 April 2016 to before 1 April 2030, valid DPIIT recognition, the separate Section 80-IAC Inter-Ministerial Board certificate, the turnover ceiling of 100 crore rupees, and that the company was not formed by splitting or reconstruction. It returns a clear eligible or not eligible verdict, names the failing condition, and explains the deferral trigger.",
-  "url": "https://www.patronaccounting.com/tools/esop-section-192-1c-eligibility-checker",
-  "applicationCategory": "BusinessApplication",
-  "inLanguage": "en-IN",
-  "isAccessibleForFree": true,
-  "operatingSystem": "Any",
-  "datePublished": "2026-06-05T08:00:00+05:30",
-  "dateModified": "2026-06-05T08:00:00+05:30",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "INR"
-  },
-  "reviewedBy": {
-    "@type": "Person",
-    "@id": "https://patronaccounting.com/#founder",
-    "name": "CA Sundram Gupta",
-    "jobTitle": "Founder & Chartered Accountant",
-    "url": "https://www.patronaccounting.com/contact-page",
-    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-    "hasCredential": [{
-      "@type": "EducationalOccupationalCredential",
-      "credentialCategory": "Professional Certification",
-      "name": "Chartered Accountant (CA)",
-      "recognizedBy": {
-        "@type": "Organization",
-        "name": "Institute of Chartered Accountants of India",
-        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-      }
-    }]
-  },
-  "publisher": { "@id": "https://patronaccounting.com/#organization" },
-  "provider": {
-    "@id": "https://patronaccounting.com/#organization"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "ESOP Section 192(1C) Eligibility Checker", "item": "https://www.patronaccounting.com/tools/esop-section-192-1c-eligibility-checker"}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is Section 192(1C) of the Income Tax Act?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Section 192(1C), introduced by the Finance Act 2020, lets eligible startups defer the deduction of TDS on the ESOP perquisite. Normally the employer must deduct TDS on the perquisite at exercise under Section 192. Under 192(1C) the deduction is postponed, and tax is instead deducted or paid within fourteen days of the earliest of three trigger events. The benefit is available only to employees of startups that are eligible startups under Section 80-IAC."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which startups qualify for the Section 192(1C) deferral?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Only an eligible startup under Section 80-IAC qualifies. That requires the company to be a Private Limited Company or LLP, incorporated on or after 1 April 2016 and before 1 April 2030, holding both DPIIT recognition and a separate Inter-Ministerial Board certificate, with turnover not exceeding 100 crore rupees in any year since incorporation, and not formed by splitting up or reconstruction. Every condition must be met; failing one makes the deferral unavailable."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is DPIIT recognition enough for the ESOP TDS deferral?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. DPIIT recognition is necessary but not sufficient. The startup must also obtain a separate Section 80-IAC certificate from the Inter-Ministerial Board. Of roughly 1.97 lakh DPIIT-recognised startups, only about 4,000 hold the IMB certificate, so the vast majority of DPIIT startups do not qualify for the deferral. The IMB certification is the decisive gate, and this checker treats it as a mandatory condition."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What entity types are eligible for Section 80-IAC?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Only a Private Limited Company or a Limited Liability Partnership qualifies as an eligible startup under Section 80-IAC. A One Person Company, a registered partnership firm, a cooperative society and a sole proprietorship are not eligible, even if they hold DPIIT recognition. So if the entity behind the ESOP is not a Private Limited Company or LLP, the Section 192(1C) deferral is not available regardless of the other conditions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the incorporation window for eligibility?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The company must be incorporated on or after 1 April 2016 and before 1 April 2030. The end of the window was extended from 31 March 2025 to 31 March 2030 by the Finance Act 2025. A company incorporated before 1 April 2016, or one incorporated on or after 1 April 2030 once the window closes, would not meet this condition and so would not be an eligible startup for the deferral."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the turnover limit for an eligible startup?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Total turnover must not exceed 100 crore rupees in any financial year since incorporation. If turnover crosses that ceiling in any year, the startup ceases to be an eligible startup under Section 80-IAC, which in turn removes access to the Section 192(1C) ESOP deferral. The turnover test should be monitored each year, because eligibility can be lost as the company grows even if it was eligible earlier."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "When does the deferred ESOP tax become payable?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "If eligible, the TDS is deferred and falls due within fourteen days of the earliest of three events: the expiry of forty-eight months from the end of the relevant assessment year of allotment, the sale of the shares, or the employee ceasing employment. For shares allotted on or after 1 April 2026 under the Income-tax Act 2025, the forty-eight month period becomes sixty months. The tax is computed at the rates of the year of allotment, not the trigger year."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the deferral being extended to all DPIIT startups?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "As of early 2026 the government is reported to be considering extending the ESOP tax deferral to all DPIIT-recognised startups, removing the separate 80-IAC IMB certificate requirement. If enacted, DPIIT recognition alone would suffice, expanding eligibility from about 4,000 to nearly 2 lakh startups. This is a proposal and is not yet law, so the current checker still requires the 80-IAC IMB certificate as a mandatory condition."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What does the checker do if a condition fails?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The checker evaluates each statutory condition in turn and returns a clear verdict. If all conditions are satisfied it shows that the startup's employees can defer ESOP TDS under Section 192(1C) and explains the trigger. If one or more conditions fail, it shows that the deferral is not available and names the specific condition that failed, so you know exactly what would need to change for the startup to qualify."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the Section 192(1C) Eligibility Checker free?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, the Patron Accounting Section 192(1C) Eligibility Checker is completely free with no signup required. All logic runs in your browser and nothing is stored on our servers. It walks through entity type, incorporation date, DPIIT recognition, the 80-IAC IMB certificate, turnover and the reconstruction test, then tells you whether the ESOP TDS deferral is available. It is an indicative guide; the final position should be confirmed with a professional before relying on it."
-      }
-    }
-  ]
-}
-</script>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-@endsection
-
+@push('styles')
 <style>
         :root {
             --primary: #15365f;
@@ -694,7 +516,186 @@ a:focus-visible {
 
 
         </style>
+@endpush
 
+@section('meta')
+
+<title>ESOP TDS Deferral Checker | Section 192(1C) Startup</title>
+<meta name="description" content="Section 192(1C) checker: see if your startup and employees can defer ESOP TDS. Tests DPIIT, 80-IAC IMB certificate, incorporation window and turnover. Free now!">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#15365f">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/esop-section-192-1c-eligibility-checker">
+
+<meta property="og:title" content="ESOP TDS Deferral Checker — Section 192(1C) 2026">
+<meta property="og:description" content="Check whether your startup qualifies to defer ESOP TDS under Section 192(1C): DPIIT recognition, 80-IAC IMB certificate, incorporation window and turnover test.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/esop-section-192-1c-eligibility-checker">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+<meta property="og:site_name" content="Patron Accounting">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ESOP TDS Deferral Checker — Section 192(1C) 2026">
+<meta name="twitter:description" content="Check if your startup can defer ESOP TDS under Section 192(1C): DPIIT, 80-IAC IMB certificate, incorporation window and turnover. Free & instant.">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
+@endsection
+
+@section('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "ESOP Section 192(1C) Eligibility Checker",
+  "description": "ESOP Section 192(1C) Eligibility Checker walks through the statutory conditions that decide whether a startup's employees can defer tax deducted at source on the ESOP perquisite under Section 192(1C). It tests entity type, the incorporation window of 1 April 2016 to before 1 April 2030, valid DPIIT recognition, the separate Section 80-IAC Inter-Ministerial Board certificate, the turnover ceiling of 100 crore rupees, and that the company was not formed by splitting or reconstruction. It returns a clear eligible or not eligible verdict, names the failing condition, and explains the deferral trigger.",
+  "url": "https://www.patronaccounting.com/tools/esop-section-192-1c-eligibility-checker",
+  "applicationCategory": "BusinessApplication",
+  "inLanguage": "en-IN",
+  "isAccessibleForFree": true,
+  "operatingSystem": "Any",
+  "datePublished": "2026-06-05T08:00:00+05:30",
+  "dateModified": "2026-06-05T08:00:00+05:30",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "INR"
+  },
+  "reviewedBy": {
+    "@type": "Person",
+    "@id": "https://patronaccounting.com/#founder",
+    "name": "CA Sundram Gupta",
+    "jobTitle": "Founder & Chartered Accountant",
+    "url": "https://www.patronaccounting.com/contact-page",
+    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+    "hasCredential": [{
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Professional Certification",
+      "name": "Chartered Accountant (CA)",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Institute of Chartered Accountants of India",
+        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+      }
+    }]
+  },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
+  "provider": {
+    "@id": "https://patronaccounting.com/#organization"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "ESOP Section 192(1C) Eligibility Checker", "item": "https://www.patronaccounting.com/tools/esop-section-192-1c-eligibility-checker"}
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Section 192(1C) of the Income Tax Act?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Section 192(1C), introduced by the Finance Act 2020, lets eligible startups defer the deduction of TDS on the ESOP perquisite. Normally the employer must deduct TDS on the perquisite at exercise under Section 192. Under 192(1C) the deduction is postponed, and tax is instead deducted or paid within fourteen days of the earliest of three trigger events. The benefit is available only to employees of startups that are eligible startups under Section 80-IAC."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which startups qualify for the Section 192(1C) deferral?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Only an eligible startup under Section 80-IAC qualifies. That requires the company to be a Private Limited Company or LLP, incorporated on or after 1 April 2016 and before 1 April 2030, holding both DPIIT recognition and a separate Inter-Ministerial Board certificate, with turnover not exceeding 100 crore rupees in any year since incorporation, and not formed by splitting up or reconstruction. Every condition must be met; failing one makes the deferral unavailable."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is DPIIT recognition enough for the ESOP TDS deferral?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. DPIIT recognition is necessary but not sufficient. The startup must also obtain a separate Section 80-IAC certificate from the Inter-Ministerial Board. Of roughly 1.97 lakh DPIIT-recognised startups, only about 4,000 hold the IMB certificate, so the vast majority of DPIIT startups do not qualify for the deferral. The IMB certification is the decisive gate, and this checker treats it as a mandatory condition."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What entity types are eligible for Section 80-IAC?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Only a Private Limited Company or a Limited Liability Partnership qualifies as an eligible startup under Section 80-IAC. A One Person Company, a registered partnership firm, a cooperative society and a sole proprietorship are not eligible, even if they hold DPIIT recognition. So if the entity behind the ESOP is not a Private Limited Company or LLP, the Section 192(1C) deferral is not available regardless of the other conditions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the incorporation window for eligibility?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The company must be incorporated on or after 1 April 2016 and before 1 April 2030. The end of the window was extended from 31 March 2025 to 31 March 2030 by the Finance Act 2025. A company incorporated before 1 April 2016, or one incorporated on or after 1 April 2030 once the window closes, would not meet this condition and so would not be an eligible startup for the deferral."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the turnover limit for an eligible startup?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Total turnover must not exceed 100 crore rupees in any financial year since incorporation. If turnover crosses that ceiling in any year, the startup ceases to be an eligible startup under Section 80-IAC, which in turn removes access to the Section 192(1C) ESOP deferral. The turnover test should be monitored each year, because eligibility can be lost as the company grows even if it was eligible earlier."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When does the deferred ESOP tax become payable?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If eligible, the TDS is deferred and falls due within fourteen days of the earliest of three events: the expiry of forty-eight months from the end of the relevant assessment year of allotment, the sale of the shares, or the employee ceasing employment. For shares allotted on or after 1 April 2026 under the Income-tax Act 2025, the forty-eight month period becomes sixty months. The tax is computed at the rates of the year of allotment, not the trigger year."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the deferral being extended to all DPIIT startups?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "As of early 2026 the government is reported to be considering extending the ESOP tax deferral to all DPIIT-recognised startups, removing the separate 80-IAC IMB certificate requirement. If enacted, DPIIT recognition alone would suffice, expanding eligibility from about 4,000 to nearly 2 lakh startups. This is a proposal and is not yet law, so the current checker still requires the 80-IAC IMB certificate as a mandatory condition."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does the checker do if a condition fails?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The checker evaluates each statutory condition in turn and returns a clear verdict. If all conditions are satisfied it shows that the startup's employees can defer ESOP TDS under Section 192(1C) and explains the trigger. If one or more conditions fail, it shows that the deferral is not available and names the specific condition that failed, so you know exactly what would need to change for the startup to qualify."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the Section 192(1C) Eligibility Checker free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the Patron Accounting Section 192(1C) Eligibility Checker is completely free with no signup required. All logic runs in your browser and nothing is stored on our servers. It walks through entity type, incorporation date, DPIIT recognition, the 80-IAC IMB certificate, turnover and the reconstruction test, then tells you whether the ESOP TDS deferral is available. It is an indicative guide; the final position should be confirmed with a professional before relying on it."
+      }
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation">
     <div class="toc-nav-inner">

@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,208 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>Accounts Reconciliation in Gurugram 2026 | Patron Accounting</title>
-    <meta name="description" content="Accounts reconciliation and audit in Gurugram from INR 14,999 (up to 1000 transactions). CA-led ledger, bank, GST 2B and books checks for Cyber City firms.">
-    <link rel="canonical" href="/accounts-reconciliation-and-audit/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Accounts Reconciliation in Gurugram 2026 | Patron Accounting">
-    <meta property="og:description" content="Accounts reconciliation and audit in Gurugram from INR 14,999 (up to 1000 transactions). CA-led ledger, bank, GST 2B and books checks for Cyber City firms.">
-    <meta property="og:url" content="/accounts-reconciliation-and-audit/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Accounts Reconciliation in Gurugram 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Accounts reconciliation and audit in Gurugram from INR 14,999 (up to 1000 transactions). CA-led ledger, bank, GST 2B and books checks for Cyber City firms.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/gurugram#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Accounts Reconciliation and Audit",
-          "item": "https://www.patronaccounting.com/accounts-reconciliation-and-audit"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Accounts Reconciliation and Audit in Gurugram",
-          "item": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/gurugram#faq",
-      "datePublished": "2026-06-23T08:00:00+05:30",
-      "dateModified": "2026-06-23T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What does accounts reconciliation and audit cover for a Gurugram business?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The scope runs from control-account and ledger tie-outs through bank matching, GST 2A and 2B against the books, and vendor, customer, and inter-company reconciliation, plus an internal review of entries up to 1000 transactions. For Cyber City ITES and Manesar plants, Patron isolates errors and tightens the audit trail before a GST notice or statutory audit ever lands."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does accounts reconciliation cost in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Pricing starts at From INR 14,999 (up to 1000 transactions, Exl GST and Govt. Charges). Where it lands depends on how many bank accounts, GSTINs, ledgers, and group companies are involved. A Cyber City ITES firm or a Manesar auto-component plant receives a fixed-scope quote at the outset, so the fee is locked in before reconciliation gets under way."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why must I reconcile GST 2B with my books in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 16(2)(aa) of the CGST Act together with Rule 36(4) lets you claim ITC only on invoices that land in your GSTR-2B. If GSTR-3B credit runs ahead of 2B beyond the threshold, the portal fires a DRC-01C intimation. Matching 2A and 2B to the purchase register, important for Haryana GST registrants, secures the credit you can keep and steers clear of Section 50 interest."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between reconciliation and a statutory audit?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Reconciliation and internal verification demonstrate that ledger, bank, GST, and vendor figures all agree and that the entries are right. A statutory or tax audit, on the other hand, is a separate legal attestation under the Companies Act 2013 or Section 44AB. Books that are already reconciled make that audit faster, cheaper, and far less likely to throw up queries."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you check the audit trail and edit log of my accounting software?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, every time. Rule 3(1) of the Companies (Accounts) Rules has required every company to run software logging an audit trail of each change since 1 April 2023. While reconciling your Gurugram books, Patron checks that the log is active, unaltered, and being kept, and flags any entry that has been back-dated, edited, or removed."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Where do Gurugram companies file with the RoC, and does that affect reconciliation?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Companies in Gurugram, like those in Delhi, file with RoC Delhi under the MCA, even though Haryana GST applies for indirect tax. This matters at audit time: Patron keeps your reconciliation working papers and audit trail aligned to the RoC Delhi filing requirements, so the books support your statutory financials and any Section 128 record-keeping check without rework."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does an accounts reconciliation take in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A single account with up to 1000 transactions normally takes 3 to 7 working days. Bring in several banks, more than one GSTIN, or group books and the window widens to 2 to 3 weeks. Manesar and IMT plants with stock and a deep vendor base can run beyond that, depending on how soon records arrive and the volume of entries to process."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you reconcile EOU, SEZ, and export records for Udyog Vihar and Manesar exporters?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Many Udyog Vihar and Manesar units export or operate from SEZ and EOU setups, where LUT exports, zero-rated supplies, and GST refund claims must reconcile to the books and shipping bills. Patron matches export invoices, FIRC and bank realisations, and refund ledgers, so your Haryana GST returns and the books present a single, consistent position."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/gurugram#service",
-      "name": "Accounts Reconciliation and Audit in Gurugram",
-      "description": "CA-led books reconciliation and audit in Gurugram: control-account and ledger tie-outs, bank matching, GST 2A and 2B against the purchase register, vendor, customer, and inter-company checks, and internal verification of up to 1000 transactions. Patron Accounting clears errors and builds a clean audit trail for Cyber City ITES, Udyog Vihar export, and Manesar manufacturing firms.",
-      "serviceType": "Accounts Reconciliation and Books Audit",
-      "url": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/gurugram",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#localbusiness-gurugram"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Reconciliation (accounting)",
-          "sameAs": "https://en.wikipedia.org/wiki/Reconciliation_(accounting)"
-        },
-        {
-          "@type": "Thing",
-          "name": "Goods and Services Tax (India)",
-          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Accounts Reconciliation Plans in Gurugram",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "price": "14999",
-            "priceSpecification": {
-              "@type": "UnitPriceSpecification",
-              "priceCurrency": "INR",
-              "price": "14999",
-              "unitText": "up to 1000 transactions"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Accounts Reconciliation and Books Verification up to 1000 Transactions"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness-gurugram",
-      "name": "Patron Accounting LLP - Gurugram",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/gurugram",
-      "telephone": "+91-9699936369",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Gurugram",
-        "addressRegion": "Haryana",
-        "postalCode": "122002",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -815,7 +612,217 @@
         .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
 
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>Accounts Reconciliation in Gurugram 2026 | Patron Accounting</title>
+    <meta name="description" content="Accounts reconciliation and audit in Gurugram from INR 14,999 (up to 1000 transactions). CA-led ledger, bank, GST 2B and books checks for Cyber City firms.">
+    <link rel="canonical" href="/accounts-reconciliation-and-audit/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Accounts Reconciliation in Gurugram 2026 | Patron Accounting">
+    <meta property="og:description" content="Accounts reconciliation and audit in Gurugram from INR 14,999 (up to 1000 transactions). CA-led ledger, bank, GST 2B and books checks for Cyber City firms.">
+    <meta property="og:url" content="/accounts-reconciliation-and-audit/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Accounts Reconciliation in Gurugram 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Accounts reconciliation and audit in Gurugram from INR 14,999 (up to 1000 transactions). CA-led ledger, bank, GST 2B and books checks for Cyber City firms.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/gurugram#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Accounts Reconciliation and Audit",
+          "item": "https://www.patronaccounting.com/accounts-reconciliation-and-audit"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Accounts Reconciliation and Audit in Gurugram",
+          "item": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/gurugram#faq",
+      "datePublished": "2026-06-23T08:00:00+05:30",
+      "dateModified": "2026-06-23T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does accounts reconciliation and audit cover for a Gurugram business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The scope runs from control-account and ledger tie-outs through bank matching, GST 2A and 2B against the books, and vendor, customer, and inter-company reconciliation, plus an internal review of entries up to 1000 transactions. For Cyber City ITES and Manesar plants, Patron isolates errors and tightens the audit trail before a GST notice or statutory audit ever lands."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does accounts reconciliation cost in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pricing starts at From INR 14,999 (up to 1000 transactions, Exl GST and Govt. Charges). Where it lands depends on how many bank accounts, GSTINs, ledgers, and group companies are involved. A Cyber City ITES firm or a Manesar auto-component plant receives a fixed-scope quote at the outset, so the fee is locked in before reconciliation gets under way."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why must I reconcile GST 2B with my books in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 16(2)(aa) of the CGST Act together with Rule 36(4) lets you claim ITC only on invoices that land in your GSTR-2B. If GSTR-3B credit runs ahead of 2B beyond the threshold, the portal fires a DRC-01C intimation. Matching 2A and 2B to the purchase register, important for Haryana GST registrants, secures the credit you can keep and steers clear of Section 50 interest."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between reconciliation and a statutory audit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reconciliation and internal verification demonstrate that ledger, bank, GST, and vendor figures all agree and that the entries are right. A statutory or tax audit, on the other hand, is a separate legal attestation under the Companies Act 2013 or Section 44AB. Books that are already reconciled make that audit faster, cheaper, and far less likely to throw up queries."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you check the audit trail and edit log of my accounting software?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, every time. Rule 3(1) of the Companies (Accounts) Rules has required every company to run software logging an audit trail of each change since 1 April 2023. While reconciling your Gurugram books, Patron checks that the log is active, unaltered, and being kept, and flags any entry that has been back-dated, edited, or removed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where do Gurugram companies file with the RoC, and does that affect reconciliation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Companies in Gurugram, like those in Delhi, file with RoC Delhi under the MCA, even though Haryana GST applies for indirect tax. This matters at audit time: Patron keeps your reconciliation working papers and audit trail aligned to the RoC Delhi filing requirements, so the books support your statutory financials and any Section 128 record-keeping check without rework."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does an accounts reconciliation take in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A single account with up to 1000 transactions normally takes 3 to 7 working days. Bring in several banks, more than one GSTIN, or group books and the window widens to 2 to 3 weeks. Manesar and IMT plants with stock and a deep vendor base can run beyond that, depending on how soon records arrive and the volume of entries to process."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you reconcile EOU, SEZ, and export records for Udyog Vihar and Manesar exporters?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Many Udyog Vihar and Manesar units export or operate from SEZ and EOU setups, where LUT exports, zero-rated supplies, and GST refund claims must reconcile to the books and shipping bills. Patron matches export invoices, FIRC and bank realisations, and refund ledgers, so your Haryana GST returns and the books present a single, consistent position."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/gurugram#service",
+      "name": "Accounts Reconciliation and Audit in Gurugram",
+      "description": "CA-led books reconciliation and audit in Gurugram: control-account and ledger tie-outs, bank matching, GST 2A and 2B against the purchase register, vendor, customer, and inter-company checks, and internal verification of up to 1000 transactions. Patron Accounting clears errors and builds a clean audit trail for Cyber City ITES, Udyog Vihar export, and Manesar manufacturing firms.",
+      "serviceType": "Accounts Reconciliation and Books Audit",
+      "url": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/gurugram",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#localbusiness-gurugram"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Reconciliation (accounting)",
+          "sameAs": "https://en.wikipedia.org/wiki/Reconciliation_(accounting)"
+        },
+        {
+          "@type": "Thing",
+          "name": "Goods and Services Tax (India)",
+          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Accounts Reconciliation Plans in Gurugram",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "price": "14999",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "INR",
+              "price": "14999",
+              "unitText": "up to 1000 transactions"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Accounts Reconciliation and Books Verification up to 1000 Transactions"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness-gurugram",
+      "name": "Patron Accounting LLP - Gurugram",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/gurugram",
+      "telephone": "+91-9699936369",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Gurugram",
+        "addressRegion": "Haryana",
+        "postalCode": "122002",
+        "addressCountry": "IN"
+      },
+      "parentOrganization": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1565,7 +1572,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

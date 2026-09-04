@@ -1,186 +1,11 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Private Placement of Shares Section 42 in 2026 | Patron Accounting</title>
-    <meta name="description" content="Raise a funding round via private placement under Section 42 with a PAS-4 offer letter, PAS-5 record, 200-investor cap and PAS-3. From INR 24,999.">
-    <link rel="canonical" href="/private-placement-section-42-pas-4-pas-5">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Private Placement of Shares Section 42 in 2026 | Patron Accounting">
-    <meta property="og:description" content="Raise a funding round via private placement under Section 42 with a PAS-4 offer letter, PAS-5 record, 200-investor cap and PAS-3. From INR 24,999.">
-    <meta property="og:url" content="/private-placement-section-42-pas-4-pas-5">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Private Placement of Shares Section 42 in 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Raise a funding round via private placement under Section 42 with a PAS-4 offer letter, PAS-5 record, 200-investor cap and PAS-3. From INR 24,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/private-placement-section-42-pas-4-pas-5/#service",
-        "name": "Private Placement of Shares under Section 42",
-        "description": "Private placement services from Patron Accounting LLP cover the offer of securities to identified persons under Section 42 of the Companies Act, 2013 read with Rule 14, including the structuring of the instrument, the investor list and the offer terms and confirmation of AOA authorisation and authorised capital, the drafting of the notice, explanatory statement and special resolution and the filing of MGT-14 within 30 days, the preparation of the serially numbered PAS-4 offer-cum-application letter for each identified investor and the maintenance of the PAS-5 record, the set-up of the separate scheduled-bank account so the money is used only after PAS-3 is filed, the allotment Board meeting within 60 days of receipt of money and the PAS-3 filing within 15 days of allotment, and valuation and FDI reporting where a priced equity issue or a non-resident investor is involved, all within the 200-person-per-financial-year-per-security cap.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/private-placement-section-42-pas-4-pas-5" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Private placement", "sameAs": "https://en.wikipedia.org/wiki/Private_placement" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Private Placement Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "Private Placement (Section 42) Service",
-                    "priceCurrency": "INR",
-                    "price": "24999",
-                    "description": "End-to-end private placement covering the structuring, the special resolution, the PAS-4 offer, the PAS-5 record, the allotment and the PAS-3 filing, exclusive of GST and government charges. A registered-valuer fee for priced equity, any SH-7 increase in authorised capital, and FDI filings for non-resident investors are charged on an actual basis."
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/private-placement-section-42-pas-4-pas-5/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Company Compliance", "item": "https://www.patronaccounting.com/corporate-compliance-services" },
-            { "@type": "ListItem", "position": 3, "name": "Private Placement", "item": "https://www.patronaccounting.com/private-placement-section-42-pas-4-pas-5" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/private-placement-section-42-pas-4-pas-5/#faq",
-        "datePublished": "2026-06-03T08:00:00+05:30",
-        "dateModified": "2026-06-04T08:00:00+05:30",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "What is a private placement under Section 42?",
-                "acceptedAnswer": { "@type": "Answer", "text": "A private placement under Section 42 of the Companies Act, 2013 is an offer of securities to a select group of identified persons, made through a PAS-4 offer-cum-application letter rather than to the public. It is the standard framework for raising a funding round and can be used for equity shares, preference shares, debentures and convertible securities." }
-            },
-            {
-                "@type": "Question",
-                "name": "How many investors can a private placement have?",
-                "acceptedAnswer": { "@type": "Answer", "text": "A private placement can be offered to a maximum of 200 persons in a financial year for each kind of security, counted separately for equity shares, preference shares and debentures. Qualified institutional buyers and employees receiving securities under an ESOP are excluded from this 200-person limit, which lets larger rounds remain within the cap." }
-            },
-            {
-                "@type": "Question",
-                "name": "What are PAS-4 and PAS-5?",
-                "acceptedAnswer": { "@type": "Answer", "text": "PAS-4 is the private placement offer-cum-application letter, serially numbered and addressed to each identified investor. PAS-5 is the record of private placement offers maintained by the company. Since the 2018 amendments, PAS-4 and PAS-5 are kept in the company's records and are no longer filed separately with the Registrar of Companies." }
-            },
-            {
-                "@type": "Question",
-                "name": "Can private placement money be used before allotment?",
-                "acceptedAnswer": { "@type": "Answer", "text": "No. The subscription money must be kept in a separate bank account with a scheduled bank and cannot be used for any purpose until the securities are allotted and the PAS-3 return of allotment is filed with the Registrar. It can only be used for allotment or for refunds where allotment is not made, which is a key Section 42 safeguard." }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the time limit to file PAS-3?",
-                "acceptedAnswer": { "@type": "Answer", "text": "PAS-3, the return of allotment, must be filed with the Registrar within 15 days of allotment. This timeline was reduced from 30 days by the 2017 amendment. Only after PAS-3 is filed can the company use the subscription money. Allotment itself must be completed within 60 days of receipt of the application money, failing which the money is refunded." }
-            },
-            {
-                "@type": "Question",
-                "name": "What happens if Section 42 is not complied with?",
-                "acceptedAnswer": { "@type": "Answer", "text": "If a private placement is not made in compliance with Section 42, the offer is deemed to be a public offer, and the requirements of the Companies Act, the Securities Contracts (Regulation) Act and the SEBI Act apply. The penalty can extend to the amount involved in the offer or Rs 2 crore, whichever is higher, and the company must refund the money." }
-            },
-            {
-                "@type": "Question",
-                "name": "Can the right to subscribe be renounced in a private placement?",
-                "acceptedAnswer": { "@type": "Answer", "text": "No. After the 2018 amendment, a private placement carries no right of renunciation, so an identified person cannot transfer the right to subscribe to someone else. Securities can be allotted only to the identified persons named in the records before the offer, which keeps the placement strictly within the chosen group of investors." }
-            },
-            {
-                "@type": "Question",
-                "name": "How is private placement related to preferential allotment?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Private placement under Section 42 is the framework for offering securities to identified persons, while a preferential allotment under Section 62(1)(c) is a preferential equity issue that must itself comply with Section 42. In practice a priced equity round is both, so the PAS-4, PAS-5 and separate-account rules of Section 42 apply alongside the Rule 13 process and valuation." }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/private-placement-section-42-pas-4-pas-5",
-        "name": "Private Placement of Shares under Section 42",
-        "description": "Raise a funding round via private placement under Section 42 with a PAS-4 offer letter, PAS-5 record, 200-investor cap and PAS-3. From INR 24,999.",
-        "url": "https://www.patronaccounting.com/private-placement-section-42-pas-4-pas-5",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/private-placement-section-42-pas-4-pas-5/#service" },
-        "datePublished": "2026-06-03T08:00:00+05:30",
-        "dateModified": "2026-06-04T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/private-placement-section-42-pas-4-pas-5/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "Private Placement Process: Step by Step",
-        "description": "How a private placement under Section 42 is run, from structuring and the special resolution through the PAS-4 offer, the separate account, allotment and the PAS-3 filing.",
-        "totalTime": "P30D",
-        "step": [
-            { "@type": "HowToStep", "name": "Structure and approve", "text": "Identify the investors and instrument, confirm AOA and capital, and hold the Board meeting." },
-            { "@type": "HowToStep", "name": "Pass the special resolution", "text": "Hold the general meeting to pass the special resolution with the explanatory statement." },
-            { "@type": "HowToStep", "name": "File MGT-14", "text": "File MGT-14 with the ROC within 30 days of the special resolution." },
-            { "@type": "HowToStep", "name": "Issue PAS-4 and record PAS-5", "text": "Send the PAS-4 offer-cum-application letter to identified persons and maintain the PAS-5 record." },
-            { "@type": "HowToStep", "name": "Collect funds in a separate account", "text": "Receive subscription money through banking channels into the separate scheduled-bank account." },
-            { "@type": "HowToStep", "name": "Allot the securities", "text": "Hold the allotment Board meeting within 60 days of receipt of money." },
-            { "@type": "HowToStep", "name": "File PAS-3", "text": "File PAS-3 within 15 days of allotment, then use the funds, issue certificates and update registers." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Private Placement Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Identified Persons", "description": "The named investors recorded by the Board before the offer; only they can be allotted." },
-            { "@type": "DefinedTerm", "name": "PAS-4", "description": "The private placement offer-cum-application letter, serially numbered and addressed to each investor." },
-            { "@type": "DefinedTerm", "name": "PAS-5", "description": "The record of private placement offers maintained by the company." },
-            { "@type": "DefinedTerm", "name": "200-Person Cap", "description": "The maximum identified persons per financial year for each kind of security, excluding QIBs and ESOP." },
-            { "@type": "DefinedTerm", "name": "Separate Bank Account", "description": "A dedicated scheduled-bank account where subscription money is held until PAS-3 is filed." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -794,7 +619,187 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Private Placement of Shares Section 42 in 2026 | Patron Accounting</title>
+    <meta name="description" content="Raise a funding round via private placement under Section 42 with a PAS-4 offer letter, PAS-5 record, 200-investor cap and PAS-3. From INR 24,999.">
+    <link rel="canonical" href="/private-placement-section-42-pas-4-pas-5">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Private Placement of Shares Section 42 in 2026 | Patron Accounting">
+    <meta property="og:description" content="Raise a funding round via private placement under Section 42 with a PAS-4 offer letter, PAS-5 record, 200-investor cap and PAS-3. From INR 24,999.">
+    <meta property="og:url" content="/private-placement-section-42-pas-4-pas-5">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Private Placement of Shares Section 42 in 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Raise a funding round via private placement under Section 42 with a PAS-4 offer letter, PAS-5 record, 200-investor cap and PAS-3. From INR 24,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/private-placement-section-42-pas-4-pas-5/#service",
+        "name": "Private Placement of Shares under Section 42",
+        "description": "Private placement services from Patron Accounting LLP cover the offer of securities to identified persons under Section 42 of the Companies Act, 2013 read with Rule 14, including the structuring of the instrument, the investor list and the offer terms and confirmation of AOA authorisation and authorised capital, the drafting of the notice, explanatory statement and special resolution and the filing of MGT-14 within 30 days, the preparation of the serially numbered PAS-4 offer-cum-application letter for each identified investor and the maintenance of the PAS-5 record, the set-up of the separate scheduled-bank account so the money is used only after PAS-3 is filed, the allotment Board meeting within 60 days of receipt of money and the PAS-3 filing within 15 days of allotment, and valuation and FDI reporting where a priced equity issue or a non-resident investor is involved, all within the 200-person-per-financial-year-per-security cap.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/private-placement-section-42-pas-4-pas-5" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Private placement", "sameAs": "https://en.wikipedia.org/wiki/Private_placement" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Private Placement Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "Private Placement (Section 42) Service",
+                    "priceCurrency": "INR",
+                    "price": "24999",
+                    "description": "End-to-end private placement covering the structuring, the special resolution, the PAS-4 offer, the PAS-5 record, the allotment and the PAS-3 filing, exclusive of GST and government charges. A registered-valuer fee for priced equity, any SH-7 increase in authorised capital, and FDI filings for non-resident investors are charged on an actual basis."
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/private-placement-section-42-pas-4-pas-5/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Company Compliance", "item": "https://www.patronaccounting.com/corporate-compliance-services" },
+            { "@type": "ListItem", "position": 3, "name": "Private Placement", "item": "https://www.patronaccounting.com/private-placement-section-42-pas-4-pas-5" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/private-placement-section-42-pas-4-pas-5/#faq",
+        "datePublished": "2026-06-03T08:00:00+05:30",
+        "dateModified": "2026-06-04T08:00:00+05:30",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is a private placement under Section 42?",
+                "acceptedAnswer": { "@type": "Answer", "text": "A private placement under Section 42 of the Companies Act, 2013 is an offer of securities to a select group of identified persons, made through a PAS-4 offer-cum-application letter rather than to the public. It is the standard framework for raising a funding round and can be used for equity shares, preference shares, debentures and convertible securities." }
+            },
+            {
+                "@type": "Question",
+                "name": "How many investors can a private placement have?",
+                "acceptedAnswer": { "@type": "Answer", "text": "A private placement can be offered to a maximum of 200 persons in a financial year for each kind of security, counted separately for equity shares, preference shares and debentures. Qualified institutional buyers and employees receiving securities under an ESOP are excluded from this 200-person limit, which lets larger rounds remain within the cap." }
+            },
+            {
+                "@type": "Question",
+                "name": "What are PAS-4 and PAS-5?",
+                "acceptedAnswer": { "@type": "Answer", "text": "PAS-4 is the private placement offer-cum-application letter, serially numbered and addressed to each identified investor. PAS-5 is the record of private placement offers maintained by the company. Since the 2018 amendments, PAS-4 and PAS-5 are kept in the company's records and are no longer filed separately with the Registrar of Companies." }
+            },
+            {
+                "@type": "Question",
+                "name": "Can private placement money be used before allotment?",
+                "acceptedAnswer": { "@type": "Answer", "text": "No. The subscription money must be kept in a separate bank account with a scheduled bank and cannot be used for any purpose until the securities are allotted and the PAS-3 return of allotment is filed with the Registrar. It can only be used for allotment or for refunds where allotment is not made, which is a key Section 42 safeguard." }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the time limit to file PAS-3?",
+                "acceptedAnswer": { "@type": "Answer", "text": "PAS-3, the return of allotment, must be filed with the Registrar within 15 days of allotment. This timeline was reduced from 30 days by the 2017 amendment. Only after PAS-3 is filed can the company use the subscription money. Allotment itself must be completed within 60 days of receipt of the application money, failing which the money is refunded." }
+            },
+            {
+                "@type": "Question",
+                "name": "What happens if Section 42 is not complied with?",
+                "acceptedAnswer": { "@type": "Answer", "text": "If a private placement is not made in compliance with Section 42, the offer is deemed to be a public offer, and the requirements of the Companies Act, the Securities Contracts (Regulation) Act and the SEBI Act apply. The penalty can extend to the amount involved in the offer or Rs 2 crore, whichever is higher, and the company must refund the money." }
+            },
+            {
+                "@type": "Question",
+                "name": "Can the right to subscribe be renounced in a private placement?",
+                "acceptedAnswer": { "@type": "Answer", "text": "No. After the 2018 amendment, a private placement carries no right of renunciation, so an identified person cannot transfer the right to subscribe to someone else. Securities can be allotted only to the identified persons named in the records before the offer, which keeps the placement strictly within the chosen group of investors." }
+            },
+            {
+                "@type": "Question",
+                "name": "How is private placement related to preferential allotment?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Private placement under Section 42 is the framework for offering securities to identified persons, while a preferential allotment under Section 62(1)(c) is a preferential equity issue that must itself comply with Section 42. In practice a priced equity round is both, so the PAS-4, PAS-5 and separate-account rules of Section 42 apply alongside the Rule 13 process and valuation." }
+            }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/private-placement-section-42-pas-4-pas-5",
+        "name": "Private Placement of Shares under Section 42",
+        "description": "Raise a funding round via private placement under Section 42 with a PAS-4 offer letter, PAS-5 record, 200-investor cap and PAS-3. From INR 24,999.",
+        "url": "https://www.patronaccounting.com/private-placement-section-42-pas-4-pas-5",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/private-placement-section-42-pas-4-pas-5/#service" },
+        "datePublished": "2026-06-03T08:00:00+05:30",
+        "dateModified": "2026-06-04T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/private-placement-section-42-pas-4-pas-5/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "Private Placement Process: Step by Step",
+        "description": "How a private placement under Section 42 is run, from structuring and the special resolution through the PAS-4 offer, the separate account, allotment and the PAS-3 filing.",
+        "totalTime": "P30D",
+        "step": [
+            { "@type": "HowToStep", "name": "Structure and approve", "text": "Identify the investors and instrument, confirm AOA and capital, and hold the Board meeting." },
+            { "@type": "HowToStep", "name": "Pass the special resolution", "text": "Hold the general meeting to pass the special resolution with the explanatory statement." },
+            { "@type": "HowToStep", "name": "File MGT-14", "text": "File MGT-14 with the ROC within 30 days of the special resolution." },
+            { "@type": "HowToStep", "name": "Issue PAS-4 and record PAS-5", "text": "Send the PAS-4 offer-cum-application letter to identified persons and maintain the PAS-5 record." },
+            { "@type": "HowToStep", "name": "Collect funds in a separate account", "text": "Receive subscription money through banking channels into the separate scheduled-bank account." },
+            { "@type": "HowToStep", "name": "Allot the securities", "text": "Hold the allotment Board meeting within 60 days of receipt of money." },
+            { "@type": "HowToStep", "name": "File PAS-3", "text": "File PAS-3 within 15 days of allotment, then use the funds, issue certificates and update registers." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Private Placement Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Identified Persons", "description": "The named investors recorded by the Board before the offer; only they can be allotted." },
+            { "@type": "DefinedTerm", "name": "PAS-4", "description": "The private placement offer-cum-application letter, serially numbered and addressed to each investor." },
+            { "@type": "DefinedTerm", "name": "PAS-5", "description": "The record of private placement offers maintained by the company." },
+            { "@type": "DefinedTerm", "name": "200-Person Cap", "description": "The maximum identified persons per financial year for each kind of security, excluding QIBs and ESOP." },
+            { "@type": "DefinedTerm", "name": "Separate Bank Account", "description": "A dedicated scheduled-bank account where subscription money is held until PAS-3 is filed." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1567,17 +1572,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1600,8 +1598,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1638,7 +1634,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1 (corrected): Last Updated mirrors schema dateModified — STABLE hardcoded date, never live new Date()
 (function() {
@@ -1649,3 +1644,19 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

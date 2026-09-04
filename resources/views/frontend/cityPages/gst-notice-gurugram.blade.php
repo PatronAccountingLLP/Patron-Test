@@ -1,161 +1,12 @@
 
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>GST Notice Reply Gurugram - SCN, ASMT, DRC Forms</title>
-    <meta name="description" content="GST notice reply in Gurugram. ASMT-10, DRC-01, DRC-03. Scrutiny, show cause, demand. ITC mismatch. Reconciliation. Call +91 945 945 6700.">
-    <link rel="canonical" href="/gst-notice/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="GST Notice Reply Gurugram - SCN, ASMT, DRC Forms">
-    <meta property="og:description" content="GST notice reply in Gurugram. ASMT-10, DRC-01, DRC-03. Scrutiny, show cause, demand. ITC mismatch. Reconciliation. Call +91 945 945 6700.">
-    <meta property="og:url" content="/gst-notice/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="GST Notice Reply Gurugram - SCN, ASMT, DRC Forms">
-    <meta name="twitter:description" content="GST notice reply in Gurugram. ASMT-10, DRC-01, DRC-03. Scrutiny, show cause, demand. ITC mismatch. Reconciliation. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "GST Notice in Gurugram | Reply & Defence",
-      "description": "GST notice reply in Gurugram. ASMT-10, DRC-01, DRC-03. Scrutiny, show cause, demand. ITC mismatch. Reconciliation. Call +91 945 945 6700.",
-      "url": "https://www.patronaccounting.com/gst-notice/gurugram",
-      "serviceType": "GST Notice in Gurugram | Reply & Defence",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/gst-notice/gurugram",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "minPrice": "3999",
-          "maxPrice": "9999",
-          "priceCurrency": "INR"
-        }
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "GST Notice: Types, Reply and Penalty",
-          "item": "https://www.patronaccounting.com/gst-notice"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "GST Notice in Gurugram | Reply & Defence",
-          "item": "https://www.patronaccounting.com/gst-notice/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What should I do when I receive a GST notice?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "First identify the notice type (ASMT-10, DRC-01, DRC-01A, REG-17). Check the response deadline. Reconcile your returns (GSTR-1 vs 3B, GSTR-2B vs 3B ITC). Address every point in the notice (silence is construed as acceptance). File the reply on the GST portal within the deadline. Never ignore a GST notice."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does GST notice reply cost?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "ASMT-10 scrutiny reply: Rs 3,999-9,999. DRC-01 show cause reply: Rs 9,999-24,999. DRC-03 voluntary payment: Rs 2,999-5,999. Personal hearing: Rs 4,999-14,999. APL-01 appeal: Rs 9,999-24,999. Monthly prevention: Rs 4,999-9,999/month. Call +91 945 945 6700 for a detailed quote."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can penalty be avoided on GST notices?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. Receive Order: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens if I do not respond to a GST notice?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The officer passes an ex parte demand order (DRC-07) without hearing your side. Tax, interest, and penalty become a formal demand in your Electronic Liability Ledger, immediately recoverable. Reversing this requires filing an appeal (APL-01), paying pre-deposit (10% of disputed tax), and months of proceedings. A timely reply at the notice stage is always better."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between S73 and S74?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "S73 applies to non-fraud cases (inadvertent errors, miscalculations). If demand is paid with interest within 30 days of SCN, penalty is NIL. S74 applies to fraud, willful misstatement, or suppression of facts. Penalty is 100% of tax. From FY 2024-25, S74A provides a unified framework replacing the S73/S74 distinction."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How can GST notices be prevented?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Monthly reconciliation of GSTR-1 vs GSTR-3B (output tax), GSTR-2B vs GSTR-3B (ITC), and books vs returns. Follow up with vendors for timely GSTR-1 filing (their delay causes your ITC mismatch). Review ITC eligibility under S17(5). Correct discrepancies in the next month's return. Prevention is always cheaper than litigation."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the APL-01 appeal process?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "If the final order (DRC-07) is unfavourable, appeal to the Appellate Authority by filing APL-01 within 3 months. Pre-deposit required: 10% of disputed tax amount (maximum Rs 25 crore). The appeal is heard by the First Appellate Authority. Further appeal lies to the GST Appellate Tribunal and then the High Court. Quick Answers Notice aaya - kya karun? Type identify karo (ASMT-10, DRC-01, REG-17). Deadline dekho. Returns reconcile karo. Har point ka jawab do. Portal pe reply file karo. Ignore mat karo. Penalty bach sakti hai? S73 mein: SCN ke 30 din mein tax + interest pay karo DRC-03 se = ZERO penalty. S74 mein: 100% penalty. Voluntary payment sabse sasta resolution hai. Prevention kaise? Har mahine GSTR-1 vs 3B reconcile karo. GSTR-2B se ITC match karo. Monthly reconciliation se notice hi nahi aayega."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -679,7 +530,161 @@ section ul li:not(.nav-item) { font-size: 14px; }
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'Join Community'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>GST Notice Reply Gurugram - SCN, ASMT, DRC Forms</title>
+    <meta name="description" content="GST notice reply in Gurugram. ASMT-10, DRC-01, DRC-03. Scrutiny, show cause, demand. ITC mismatch. Reconciliation. Call +91 945 945 6700.">
+    <link rel="canonical" href="/gst-notice/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="GST Notice Reply Gurugram - SCN, ASMT, DRC Forms">
+    <meta property="og:description" content="GST notice reply in Gurugram. ASMT-10, DRC-01, DRC-03. Scrutiny, show cause, demand. ITC mismatch. Reconciliation. Call +91 945 945 6700.">
+    <meta property="og:url" content="/gst-notice/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GST Notice Reply Gurugram - SCN, ASMT, DRC Forms">
+    <meta name="twitter:description" content="GST notice reply in Gurugram. ASMT-10, DRC-01, DRC-03. Scrutiny, show cause, demand. ITC mismatch. Reconciliation. Call +91 945 945 6700.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "GST Notice in Gurugram | Reply & Defence",
+      "description": "GST notice reply in Gurugram. ASMT-10, DRC-01, DRC-03. Scrutiny, show cause, demand. ITC mismatch. Reconciliation. Call +91 945 945 6700.",
+      "url": "https://www.patronaccounting.com/gst-notice/gurugram",
+      "serviceType": "GST Notice in Gurugram | Reply & Defence",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.patronaccounting.com/gst-notice/gurugram",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": "3999",
+          "maxPrice": "9999",
+          "priceCurrency": "INR"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "GST Notice: Types, Reply and Penalty",
+          "item": "https://www.patronaccounting.com/gst-notice"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "GST Notice in Gurugram | Reply & Defence",
+          "item": "https://www.patronaccounting.com/gst-notice/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What should I do when I receive a GST notice?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "First identify the notice type (ASMT-10, DRC-01, DRC-01A, REG-17). Check the response deadline. Reconcile your returns (GSTR-1 vs 3B, GSTR-2B vs 3B ITC). Address every point in the notice (silence is construed as acceptance). File the reply on the GST portal within the deadline. Never ignore a GST notice."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does GST notice reply cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ASMT-10 scrutiny reply: Rs 3,999-9,999. DRC-01 show cause reply: Rs 9,999-24,999. DRC-03 voluntary payment: Rs 2,999-5,999. Personal hearing: Rs 4,999-14,999. APL-01 appeal: Rs 9,999-24,999. Monthly prevention: Rs 4,999-9,999/month. Call +91 945 945 6700 for a detailed quote."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can penalty be avoided on GST notices?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. Receive Order: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if I do not respond to a GST notice?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The officer passes an ex parte demand order (DRC-07) without hearing your side. Tax, interest, and penalty become a formal demand in your Electronic Liability Ledger, immediately recoverable. Reversing this requires filing an appeal (APL-01), paying pre-deposit (10% of disputed tax), and months of proceedings. A timely reply at the notice stage is always better."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between S73 and S74?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "S73 applies to non-fraud cases (inadvertent errors, miscalculations). If demand is paid with interest within 30 days of SCN, penalty is NIL. S74 applies to fraud, willful misstatement, or suppression of facts. Penalty is 100% of tax. From FY 2024-25, S74A provides a unified framework replacing the S73/S74 distinction."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can GST notices be prevented?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Monthly reconciliation of GSTR-1 vs GSTR-3B (output tax), GSTR-2B vs GSTR-3B (ITC), and books vs returns. Follow up with vendors for timely GSTR-1 filing (their delay causes your ITC mismatch). Review ITC eligibility under S17(5). Correct discrepancies in the next month's return. Prevention is always cheaper than litigation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the APL-01 appeal process?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If the final order (DRC-07) is unfavourable, appeal to the Appellate Authority by filing APL-01 within 3 months. Pre-deposit required: 10% of disputed tax amount (maximum Rs 25 crore). The appeal is heard by the First Appellate Authority. Further appeal lies to the GST Appellate Tribunal and then the High Court. Quick Answers Notice aaya - kya karun? Type identify karo (ASMT-10, DRC-01, REG-17). Deadline dekho. Returns reconcile karo. Har point ka jawab do. Portal pe reply file karo. Ignore mat karo. Penalty bach sakti hai? S73 mein: SCN ke 30 din mein tax + interest pay karo DRC-03 se = ZERO penalty. S74 mein: 100% penalty. Voluntary payment sabse sasta resolution hai. Prevention kaise? Har mahine GSTR-1 vs 3B reconcile karo. GSTR-2B se ITC match karo. Monthly reconciliation se notice hi nahi aayega."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1604,7 +1609,6 @@ var tocWrapper=document.getElementById('tocWrapper');document.getElementById('to
 
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

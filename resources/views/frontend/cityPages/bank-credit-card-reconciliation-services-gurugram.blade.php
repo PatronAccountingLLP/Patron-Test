@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,208 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>Bank Reconciliation in Gurugram 2026 | Patron Accounting</title>
-    <meta name="description" content="Cyber City to Manesar bank and credit card reconciliation from INR 2,499/mo (Exl GST and Govt. Charges). CA-checked BRS per account, Haryana GST ready.">
-    <link rel="canonical" href="/bank-credit-card-reconciliation-services/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Bank Reconciliation in Gurugram 2026 | Patron Accounting">
-    <meta property="og:description" content="Cyber City to Manesar bank and credit card reconciliation from INR 2,499/mo (Exl GST and Govt. Charges). CA-checked BRS per account, Haryana GST ready.">
-    <meta property="og:url" content="/bank-credit-card-reconciliation-services/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Bank Reconciliation in Gurugram 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Cyber City to Manesar bank and credit card reconciliation from INR 2,499/mo (Exl GST and Govt. Charges). CA-checked BRS per account, Haryana GST ready.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services/gurugram#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Bank and Credit Card Reconciliation Services",
-          "item": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Bank and Credit Card Reconciliation Services in Gurugram",
-          "item": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services/gurugram#faq",
-      "datePublished": "2026-06-23T08:00:00+05:30",
-      "dateModified": "2026-06-23T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What does bank and credit card reconciliation involve for a Gurugram company?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Reconciliation is a monthly check that ties each entry in your ledgers to the matching line on every bank and card statement, until both closing figures agree. For Cyber City ITES firms and Udyog Vihar SaaS teams it surfaces missed gateway settlements, forex charges, standing-instruction debits, and duplicated vouchers, leaving books ready for Haryana GST and income tax work."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the fee for bank reconciliation in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Pricing begins at Starting from INR 2,499/mo (Exl GST and Govt. Charges). Where it lands depends on how many bank, OD, and card accounts you hold, your monthly transaction count, and which gateways such as Razorpay or Stripe you settle through. Manesar auto-component units and MG Road retailers get a fixed monthly figure confirmed before any work starts."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does reconciliation in Gurugram have to be monthly?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A monthly cadence works for most firms and is best done ahead of every GSTR-3B and GSTR-1 deadline. MG Road retailers and high-throughput sellers with heavy POS and card settlement often prefer a weekly pass. Either way, regular reconciliation keeps your books defensible under Section 128 of the Companies Act 2013 and Section 44AA of the Income Tax Act."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can a Manesar manufacturer with several OD and LC accounts be reconciled in one go?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Manesar auto-component units often run multiple current, OD, CC, and LC accounts, and Patron handles them all within a single monthly cycle. We tie each account to its own statement, book the bank charges and interest, and hand over a separate signed BRS for every account so nothing in a multi-bank setup slips through."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do you reconcile USD and forex inflows for a Cyber City ITES firm?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Cyber City ITES and BPO firms typically receive USD client payments through SWIFT or a gateway, net of bank conversion charges and FIRC fees. Patron matches each inward remittance to the invoice, books the forex gain or loss and the deducted charges, and reconciles gateway settlements separately so your INR ledger balance ties exactly to the bank statement."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What should I send to get reconciliation started in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Hand over the period bank and credit card statements, your Tally, Zoho Books, or QuickBooks file, the gateway settlement reports from Razorpay, Stripe, or your POS provider, and any OD, LC, or loan account details. Patron checks each of these against your ledgers and sends back a short list of unmatched items for you to confirm."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Will you reconcile inside our existing Tally or Zoho Books setup?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Whether your Gurugram team runs Tally, Zoho Books, QuickBooks, or Xero, Patron works inside that same file rather than moving you elsewhere. We pull bank feeds where the bank supports them, enter any missing transactions, tick off matched lines, and close the month on a balance that is ready to carry forward."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which jurisdiction applies to a Gurugram company for GST and filings?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A Gurugram business registers under Haryana GST and reports to the Haryana state authorities, while its company filings route through RoC Delhi, which serves the wider NCR. Clean monthly reconciliation supports both: matched ledgers underpin accurate Haryana GST returns and give RoC Delhi filings and any audit a reliable bank position to rely on."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services/gurugram#service",
-      "name": "Bank and Credit Card Reconciliation Services in Gurugram",
-      "description": "Monthly bank and credit card reconciliation in Gurugram matches your books against every statement, captures unrecorded charges and auto-debits, removes duplicates, and clears un-reconciled items. Patron Accounting delivers a signed BRS per account for Cyber City, Udyog Vihar, and Manesar businesses.",
-      "serviceType": "Bank and Credit Card Reconciliation",
-      "url": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services/gurugram",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#localbusiness-gurugram"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Bank reconciliation",
-          "sameAs": "https://en.wikipedia.org/wiki/Bank_reconciliation"
-        },
-        {
-          "@type": "Thing",
-          "name": "Bookkeeping",
-          "sameAs": "https://en.wikipedia.org/wiki/Bookkeeping"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Bank Reconciliation Plans in Gurugram",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "price": "2499",
-            "priceSpecification": {
-              "@type": "UnitPriceSpecification",
-              "priceCurrency": "INR",
-              "price": "2499",
-              "unitText": "per month"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Monthly Bank and Credit Card Reconciliation"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness-gurugram",
-      "name": "Patron Accounting LLP - Gurugram",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services/gurugram",
-      "telephone": "+91-9699936369",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Gurugram",
-        "addressRegion": "Haryana",
-        "postalCode": "122002",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -815,7 +612,217 @@
         .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
 
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>Bank Reconciliation in Gurugram 2026 | Patron Accounting</title>
+    <meta name="description" content="Cyber City to Manesar bank and credit card reconciliation from INR 2,499/mo (Exl GST and Govt. Charges). CA-checked BRS per account, Haryana GST ready.">
+    <link rel="canonical" href="/bank-credit-card-reconciliation-services/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Bank Reconciliation in Gurugram 2026 | Patron Accounting">
+    <meta property="og:description" content="Cyber City to Manesar bank and credit card reconciliation from INR 2,499/mo (Exl GST and Govt. Charges). CA-checked BRS per account, Haryana GST ready.">
+    <meta property="og:url" content="/bank-credit-card-reconciliation-services/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Bank Reconciliation in Gurugram 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Cyber City to Manesar bank and credit card reconciliation from INR 2,499/mo (Exl GST and Govt. Charges). CA-checked BRS per account, Haryana GST ready.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services/gurugram#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Bank and Credit Card Reconciliation Services",
+          "item": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Bank and Credit Card Reconciliation Services in Gurugram",
+          "item": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services/gurugram#faq",
+      "datePublished": "2026-06-23T08:00:00+05:30",
+      "dateModified": "2026-06-23T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does bank and credit card reconciliation involve for a Gurugram company?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reconciliation is a monthly check that ties each entry in your ledgers to the matching line on every bank and card statement, until both closing figures agree. For Cyber City ITES firms and Udyog Vihar SaaS teams it surfaces missed gateway settlements, forex charges, standing-instruction debits, and duplicated vouchers, leaving books ready for Haryana GST and income tax work."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the fee for bank reconciliation in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pricing begins at Starting from INR 2,499/mo (Exl GST and Govt. Charges). Where it lands depends on how many bank, OD, and card accounts you hold, your monthly transaction count, and which gateways such as Razorpay or Stripe you settle through. Manesar auto-component units and MG Road retailers get a fixed monthly figure confirmed before any work starts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does reconciliation in Gurugram have to be monthly?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A monthly cadence works for most firms and is best done ahead of every GSTR-3B and GSTR-1 deadline. MG Road retailers and high-throughput sellers with heavy POS and card settlement often prefer a weekly pass. Either way, regular reconciliation keeps your books defensible under Section 128 of the Companies Act 2013 and Section 44AA of the Income Tax Act."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a Manesar manufacturer with several OD and LC accounts be reconciled in one go?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Manesar auto-component units often run multiple current, OD, CC, and LC accounts, and Patron handles them all within a single monthly cycle. We tie each account to its own statement, book the bank charges and interest, and hand over a separate signed BRS for every account so nothing in a multi-bank setup slips through."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you reconcile USD and forex inflows for a Cyber City ITES firm?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cyber City ITES and BPO firms typically receive USD client payments through SWIFT or a gateway, net of bank conversion charges and FIRC fees. Patron matches each inward remittance to the invoice, books the forex gain or loss and the deducted charges, and reconciles gateway settlements separately so your INR ledger balance ties exactly to the bank statement."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I send to get reconciliation started in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hand over the period bank and credit card statements, your Tally, Zoho Books, or QuickBooks file, the gateway settlement reports from Razorpay, Stripe, or your POS provider, and any OD, LC, or loan account details. Patron checks each of these against your ledgers and sends back a short list of unmatched items for you to confirm."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will you reconcile inside our existing Tally or Zoho Books setup?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Whether your Gurugram team runs Tally, Zoho Books, QuickBooks, or Xero, Patron works inside that same file rather than moving you elsewhere. We pull bank feeds where the bank supports them, enter any missing transactions, tick off matched lines, and close the month on a balance that is ready to carry forward."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which jurisdiction applies to a Gurugram company for GST and filings?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Gurugram business registers under Haryana GST and reports to the Haryana state authorities, while its company filings route through RoC Delhi, which serves the wider NCR. Clean monthly reconciliation supports both: matched ledgers underpin accurate Haryana GST returns and give RoC Delhi filings and any audit a reliable bank position to rely on."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services/gurugram#service",
+      "name": "Bank and Credit Card Reconciliation Services in Gurugram",
+      "description": "Monthly bank and credit card reconciliation in Gurugram matches your books against every statement, captures unrecorded charges and auto-debits, removes duplicates, and clears un-reconciled items. Patron Accounting delivers a signed BRS per account for Cyber City, Udyog Vihar, and Manesar businesses.",
+      "serviceType": "Bank and Credit Card Reconciliation",
+      "url": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services/gurugram",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#localbusiness-gurugram"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Bank reconciliation",
+          "sameAs": "https://en.wikipedia.org/wiki/Bank_reconciliation"
+        },
+        {
+          "@type": "Thing",
+          "name": "Bookkeeping",
+          "sameAs": "https://en.wikipedia.org/wiki/Bookkeeping"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Bank Reconciliation Plans in Gurugram",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "price": "2499",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "INR",
+              "price": "2499",
+              "unitText": "per month"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Monthly Bank and Credit Card Reconciliation"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness-gurugram",
+      "name": "Patron Accounting LLP - Gurugram",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services/gurugram",
+      "telephone": "+91-9699936369",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Gurugram",
+        "addressRegion": "Haryana",
+        "postalCode": "122002",
+        "addressCountry": "IN"
+      },
+      "parentOrganization": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1568,7 +1575,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

@@ -1,245 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Net Worth Certificate for Home Loan Gurugram 2026 | Patron</title>
-    <meta name="description" content="CA-certified net worth certificate for Gurugram home loan applicants. UDIN, 3-year comparative format. HDFC, SBI, ICICI, PNB HF accepted. Starting INR 1,499.">
-    <link rel="canonical" href="https://www.patronaccounting.com/net-worth-certificate-for-home-loan/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Net Worth Certificate for Home Loan Gurugram 2026 | Patron">
-    <meta property="og:description" content="CA-certified net worth certificate for Gurugram home loan applicants. UDIN, 3-year comparative format. HDFC, SBI, ICICI, PNB HF accepted. Starting INR 1,499.">
-    <meta property="og:url" content="https://www.patronaccounting.com/net-worth-certificate-for-home-loan/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Net Worth Certificate for Home Loan Gurugram 2026 | Patron">
-    <meta name="twitter:description" content="CA-certified net worth certificate for Gurugram home loan applicants. UDIN, 3-year comparative format. HDFC, SBI, ICICI, PNB HF accepted. Starting INR 1,499.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/gurugram/#service",
-        "name": "Net Worth Certificate for Home Loan in Gurugram",
-        "description": "CA-certified net worth certificate for Gurugram home loan applicants. UDIN, 3-year comparative format. HDFC, SBI, ICICI, PNB HF accepted. Starting INR 1,499.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/gurugram" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Chartered Accountant", "sameAs": "https://en.wikipedia.org/wiki/Chartered_accountant" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Net Worth Certificate for Home Loan Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Net Worth Certificate for Home Loan in Gurugram"
-                    },
-                    "price": "1499",
-                    "priceCurrency": "INR",
-                    "url": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/gurugram"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/gurugram/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate for Home Loan", "item": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan" },
-            { "@type": "ListItem", "position": 3, "name": "Gurugram", "item": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/gurugram" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/gurugram/#faq",
-        "datePublished": "2026-07-02T08:00:00+05:30",
-        "dateModified": "2026-07-02T08:00:00+05:30",
-        "mainEntity": [
-            {
-                    "@type": "Question",
-                    "name": "Why do Gurugram banks ask for a net worth certificate for home loan?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Gurugram banks ask for a net worth certificate to verify the borrower's overall financial strength beyond reported income, especially for high-value home loans above Rs 1 crore (given Gurugram property prices at DLF, Golf Course Road, Sushant Lok and Sohna Road), for MNC executives with ESOPs and RSUs forming the bulk of the asset stack, for second home loan applicants, plot plus construction loan combos, builder-tied financing through DLF Pramerica or Tata Capital, and NRI borrowers. The certificate helps compute FOIR against the RBI LTV ceiling."
-                    }
-                },
-{
-                    "@type": "Question",
-                    "name": "Who can issue a net worth certificate for home loan in Gurugram?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Only a practising Chartered Accountant in Gurugram holding a valid Certificate of Practice from ICAI can sign and issue a net worth certificate for home loan. The CA generates an 18-digit UDIN at udin.icai.org, signs on firm letterhead with ICAI seal, and prints Membership Number and Firm Registration Number. Major lenders including HDFC Bank, SBI, ICICI Bank, Axis Bank, PNB Housing Finance and Sammaan Capital (formerly Indiabulls Housing Finance, headquartered in Gurugram) verify the UDIN before accepting the document."
-                    }
-                },
-{
-                    "@type": "Question",
-                    "name": "How much does a net worth certificate for home loan cost in Gurugram?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Patron Accounting charges starting INR 1,499 (Exclusive of GST and Government Charges) for the standard salaried home loan certificate in Gurugram. Self-employed and business cases with the 3-year comparative schedule are INR 1,999. ESOP and RSU consolidation appendix is INR 1,000. Plot plus construction loan staging schedule is INR 1,000. NRI home loan variants are INR 2,499. Other Gurugram CA firms typically charge between INR 2,500 and INR 5,000."
-                    }
-                },
-{
-                    "@type": "Question",
-                    "name": "Is the certificate needed for second home loans in Gurugram?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Yes. Second home loans in Gurugram - common for MNC executives buying investment property at DLF Camellias, Magnolias, Aralias and Golf Course Extension Road - almost always require the certificate. The Section 24 interest deduction caps differ for self-occupied versus let-out properties, and lenders track the existing primary home and the borrower's overall asset stack to underwrite the second EMI. Patron explicitly identifies the loan type on the certificate."
-                    }
-                },
-{
-                    "@type": "Question",
-                    "name": "How is HSVP collector rate used for Gurugram property valuation?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Gurugram property in the certificate is valued at the HSVP (Haryana Shahari Vikas Pradhikaran) collector rate notified by the Haryana Revenue Department for the specific sector. Rates differ sharply between DLF Phase 1-5, Sushant Lok, Sohna Road, Sector 102-115 and Manesar. Patron captures the sector-specific notification reference, prints it on the certificate, and pairs it with the actual sale value where the borrower buys at market rate, so the lender underwriter has a defensible range."
-                    }
-                },
-{
-                    "@type": "Question",
-                    "name": "Is UDIN mandatory on a CA net worth certificate for home loan?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Yes, UDIN is mandatory on every CA-issued net worth certificate since 1 July 2019, enforced by ICAI. The 18-digit Unique Document Identification Number is generated at udin.icai.org and printed on the certificate. Gurugram lender credit officers and HFC underwriters at HDFC Cyber City, ICICI Golf Course Road, PNB Housing Finance Sector 44, and Sammaan Capital Sector 25-A verify the certificate's authenticity by entering the UDIN on the ICAI portal. A certificate without UDIN is invalid."
-                    }
-                }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/gurugram",
-        "name": "Net Worth Certificate for Home Loan in Gurugram",
-        "description": "CA-certified net worth certificate for Gurugram home loan applicants. UDIN, 3-year comparative format. HDFC, SBI, ICICI, PNB HF accepted. Starting INR 1,499.",
-        "url": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/gurugram",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/gurugram/#service" },
-        "datePublished": "2026-07-02T08:00:00+05:30",
-        "dateModified": "2026-07-02T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/gurugram/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How to Get a Net Worth Certificate for Home Loan",
-        "description": "Step-by-step process to obtain a Net Worth Certificate for Home Loan from Patron Accounting.",
-        "totalTime": "P3D",
-        "step": [
-            {
-                    "@type": "HowToStep",
-                    "position": 1,
-                    "name": "Engagement",
-                    "text": "Gurugram home loan applicant calls Patron Accounting, identifies the lender (HDFC Bank, SBI, ICICI Bank, Axis Bank, PNB Housing Finance, Sammaan Capital, or builder-tied like DLF Pramerica or Tata Capital), loan type (first home, second home, plot plus construction, builder-tied), Gurugram sector, and applicant profile (salaried MNC executive, self-employed, NRI). The engagement letter captures purpose under ICAI SA 200 'Overall Objectives of the Independent Auditor'."
-                },
-{
-                    "@type": "HowToStep",
-                    "position": 2,
-                    "name": "Document collection",
-                    "text": "Upload PAN, Aadhaar, 3 years ITRs, latest salary slips or business income statements, 6-12 months bank statements across all accounts including NRE/NRO/FCNR, FD receipts, MF and demat holdings, ESOP/RSU brokerage statements showing vested tranches, EPF/PPF passbook, property registration deed for any existing real estate, builder sale agreement and HRERA registration for the new property, plot ownership documents (where plot-plus-construction), vehicle RC, gold valuation, and all loan statements via Patron's secure portal."
-                },
-{
-                    "@type": "HowToStep",
-                    "position": 3,
-                    "name": "Document verification",
-                    "text": "Patron CA cross-checks balances against bank statements, values vested ESOPs and RSUs at fair market value from brokerage statements, validates Gurugram property at the HSVP collector rate published for the specific sector, verifies HRERA registration of the new project, reconciles 3-year wealth trajectory with ITR-reported income, and confirms loan outstanding from sanction letters under ICAI SA 500 'Audit Evidence'."
-                },
-{
-                    "@type": "HowToStep",
-                    "position": 4,
-                    "name": "Lender",
-                    "text": "template alignment - Patron checks whether the lender has a prescribed template. HDFC, ICICI HNI, PNB Housing Finance, and Sammaan Capital have distinct formats; DLF Pramerica and Tata Capital builder-tied use co-signed templates with the builder reference. The certificate is laid out to match."
-                },
-{
-                    "@type": "HowToStep",
-                    "position": 5,
-                    "name": "Draft preparation and review",
-                    "text": "Draft certificate is emailed within 24 hours for borrower and loan-officer review. Corrections to name spelling (PAN match), address, property classification, ESOP/RSU vesting tranches, and HRERA registration reference happen in this step."
-                },
-{
-                    "@type": "HowToStep",
-                    "position": 6,
-                    "name": "UDIN generation and final issue",
-                    "text": "Patron CA generates the 18-digit UDIN at udin.icai.org under category 'Certificates - Net Worth Certificate', signs on firm letterhead with ICAI seal, and issues the final document. Soft copy emailed the same day; hard copy collected from Patron Gurugram office or couriered to the lender branch (Cyber City, Golf Course Road, MG Road, Sector 14) within 2-3 working days."
-                }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Net Worth Certificate for Home Loan Key Terms",
-        "definedTerm": [
-            {
-                    "@type": "DefinedTerm",
-                    "name": "UDIN",
-                    "description": "18-digit Unique Document Identification Number generated by the issuing CA at udin.icai.org for every certificate, mandatory since 1 July 2019."
-                },
-{
-                    "@type": "DefinedTerm",
-                    "name": "HSVP Collector Rate",
-                    "description": "Minimum land value notified by the Haryana Shahari Vikas Pradhikaran for stamp-duty purposes, used as the defensible floor for Gurugram property valuation in the certificate. Sector-wise rates apply."
-                },
-{
-                    "@type": "DefinedTerm",
-                    "name": "HRERA",
-                    "description": "Haryana Real Estate Regulatory Authority. Every new Gurugram project must be HRERA-registered before lender disbursement; the certificate references the HRERA project identification."
-                },
-{
-                    "@type": "DefinedTerm",
-                    "name": "Second Home Loan",
-                    "description": "Home loan for a second residential property, typically held as investment. Tax deduction caps and LTV ratios differ from first home; the certificate disclosure explicitly identifies the loan as a second-home variant."
-                },
-{
-                    "@type": "DefinedTerm",
-                    "name": "Plot Plus Construction Loan",
-                    "description": "Combination product where the lender finances Gurugram plot purchase (Sohna Road, Sector 102-115, Dwarka Expressway) plus subsequent construction in tranches against a single sanction. The certificate captures the plot value at HSVP rate."
-                }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -853,7 +618,247 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Net Worth Certificate for Home Loan Gurugram 2026 | Patron</title>
+    <meta name="description" content="CA-certified net worth certificate for Gurugram home loan applicants. UDIN, 3-year comparative format. HDFC, SBI, ICICI, PNB HF accepted. Starting INR 1,499.">
+    <link rel="canonical" href="https://www.patronaccounting.com/net-worth-certificate-for-home-loan/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Net Worth Certificate for Home Loan Gurugram 2026 | Patron">
+    <meta property="og:description" content="CA-certified net worth certificate for Gurugram home loan applicants. UDIN, 3-year comparative format. HDFC, SBI, ICICI, PNB HF accepted. Starting INR 1,499.">
+    <meta property="og:url" content="https://www.patronaccounting.com/net-worth-certificate-for-home-loan/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Net Worth Certificate for Home Loan Gurugram 2026 | Patron">
+    <meta name="twitter:description" content="CA-certified net worth certificate for Gurugram home loan applicants. UDIN, 3-year comparative format. HDFC, SBI, ICICI, PNB HF accepted. Starting INR 1,499.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/gurugram/#service",
+        "name": "Net Worth Certificate for Home Loan in Gurugram",
+        "description": "CA-certified net worth certificate for Gurugram home loan applicants. UDIN, 3-year comparative format. HDFC, SBI, ICICI, PNB HF accepted. Starting INR 1,499.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/gurugram" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Chartered Accountant", "sameAs": "https://en.wikipedia.org/wiki/Chartered_accountant" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Net Worth Certificate for Home Loan Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Net Worth Certificate for Home Loan in Gurugram"
+                    },
+                    "price": "1499",
+                    "priceCurrency": "INR",
+                    "url": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/gurugram"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/gurugram/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate for Home Loan", "item": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan" },
+            { "@type": "ListItem", "position": 3, "name": "Gurugram", "item": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/gurugram" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/gurugram/#faq",
+        "datePublished": "2026-07-02T08:00:00+05:30",
+        "dateModified": "2026-07-02T08:00:00+05:30",
+        "mainEntity": [
+            {
+                    "@type": "Question",
+                    "name": "Why do Gurugram banks ask for a net worth certificate for home loan?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Gurugram banks ask for a net worth certificate to verify the borrower's overall financial strength beyond reported income, especially for high-value home loans above Rs 1 crore (given Gurugram property prices at DLF, Golf Course Road, Sushant Lok and Sohna Road), for MNC executives with ESOPs and RSUs forming the bulk of the asset stack, for second home loan applicants, plot plus construction loan combos, builder-tied financing through DLF Pramerica or Tata Capital, and NRI borrowers. The certificate helps compute FOIR against the RBI LTV ceiling."
+                    }
+                },
+{
+                    "@type": "Question",
+                    "name": "Who can issue a net worth certificate for home loan in Gurugram?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Only a practising Chartered Accountant in Gurugram holding a valid Certificate of Practice from ICAI can sign and issue a net worth certificate for home loan. The CA generates an 18-digit UDIN at udin.icai.org, signs on firm letterhead with ICAI seal, and prints Membership Number and Firm Registration Number. Major lenders including HDFC Bank, SBI, ICICI Bank, Axis Bank, PNB Housing Finance and Sammaan Capital (formerly Indiabulls Housing Finance, headquartered in Gurugram) verify the UDIN before accepting the document."
+                    }
+                },
+{
+                    "@type": "Question",
+                    "name": "How much does a net worth certificate for home loan cost in Gurugram?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Patron Accounting charges starting INR 1,499 (Exclusive of GST and Government Charges) for the standard salaried home loan certificate in Gurugram. Self-employed and business cases with the 3-year comparative schedule are INR 1,999. ESOP and RSU consolidation appendix is INR 1,000. Plot plus construction loan staging schedule is INR 1,000. NRI home loan variants are INR 2,499. Other Gurugram CA firms typically charge between INR 2,500 and INR 5,000."
+                    }
+                },
+{
+                    "@type": "Question",
+                    "name": "Is the certificate needed for second home loans in Gurugram?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes. Second home loans in Gurugram - common for MNC executives buying investment property at DLF Camellias, Magnolias, Aralias and Golf Course Extension Road - almost always require the certificate. The Section 24 interest deduction caps differ for self-occupied versus let-out properties, and lenders track the existing primary home and the borrower's overall asset stack to underwrite the second EMI. Patron explicitly identifies the loan type on the certificate."
+                    }
+                },
+{
+                    "@type": "Question",
+                    "name": "How is HSVP collector rate used for Gurugram property valuation?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Gurugram property in the certificate is valued at the HSVP (Haryana Shahari Vikas Pradhikaran) collector rate notified by the Haryana Revenue Department for the specific sector. Rates differ sharply between DLF Phase 1-5, Sushant Lok, Sohna Road, Sector 102-115 and Manesar. Patron captures the sector-specific notification reference, prints it on the certificate, and pairs it with the actual sale value where the borrower buys at market rate, so the lender underwriter has a defensible range."
+                    }
+                },
+{
+                    "@type": "Question",
+                    "name": "Is UDIN mandatory on a CA net worth certificate for home loan?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, UDIN is mandatory on every CA-issued net worth certificate since 1 July 2019, enforced by ICAI. The 18-digit Unique Document Identification Number is generated at udin.icai.org and printed on the certificate. Gurugram lender credit officers and HFC underwriters at HDFC Cyber City, ICICI Golf Course Road, PNB Housing Finance Sector 44, and Sammaan Capital Sector 25-A verify the certificate's authenticity by entering the UDIN on the ICAI portal. A certificate without UDIN is invalid."
+                    }
+                }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/gurugram",
+        "name": "Net Worth Certificate for Home Loan in Gurugram",
+        "description": "CA-certified net worth certificate for Gurugram home loan applicants. UDIN, 3-year comparative format. HDFC, SBI, ICICI, PNB HF accepted. Starting INR 1,499.",
+        "url": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/gurugram",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/gurugram/#service" },
+        "datePublished": "2026-07-02T08:00:00+05:30",
+        "dateModified": "2026-07-02T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/gurugram/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Get a Net Worth Certificate for Home Loan",
+        "description": "Step-by-step process to obtain a Net Worth Certificate for Home Loan from Patron Accounting.",
+        "totalTime": "P3D",
+        "step": [
+            {
+                    "@type": "HowToStep",
+                    "position": 1,
+                    "name": "Engagement",
+                    "text": "Gurugram home loan applicant calls Patron Accounting, identifies the lender (HDFC Bank, SBI, ICICI Bank, Axis Bank, PNB Housing Finance, Sammaan Capital, or builder-tied like DLF Pramerica or Tata Capital), loan type (first home, second home, plot plus construction, builder-tied), Gurugram sector, and applicant profile (salaried MNC executive, self-employed, NRI). The engagement letter captures purpose under ICAI SA 200 'Overall Objectives of the Independent Auditor'."
+                },
+{
+                    "@type": "HowToStep",
+                    "position": 2,
+                    "name": "Document collection",
+                    "text": "Upload PAN, Aadhaar, 3 years ITRs, latest salary slips or business income statements, 6-12 months bank statements across all accounts including NRE/NRO/FCNR, FD receipts, MF and demat holdings, ESOP/RSU brokerage statements showing vested tranches, EPF/PPF passbook, property registration deed for any existing real estate, builder sale agreement and HRERA registration for the new property, plot ownership documents (where plot-plus-construction), vehicle RC, gold valuation, and all loan statements via Patron's secure portal."
+                },
+{
+                    "@type": "HowToStep",
+                    "position": 3,
+                    "name": "Document verification",
+                    "text": "Patron CA cross-checks balances against bank statements, values vested ESOPs and RSUs at fair market value from brokerage statements, validates Gurugram property at the HSVP collector rate published for the specific sector, verifies HRERA registration of the new project, reconciles 3-year wealth trajectory with ITR-reported income, and confirms loan outstanding from sanction letters under ICAI SA 500 'Audit Evidence'."
+                },
+{
+                    "@type": "HowToStep",
+                    "position": 4,
+                    "name": "Lender",
+                    "text": "template alignment - Patron checks whether the lender has a prescribed template. HDFC, ICICI HNI, PNB Housing Finance, and Sammaan Capital have distinct formats; DLF Pramerica and Tata Capital builder-tied use co-signed templates with the builder reference. The certificate is laid out to match."
+                },
+{
+                    "@type": "HowToStep",
+                    "position": 5,
+                    "name": "Draft preparation and review",
+                    "text": "Draft certificate is emailed within 24 hours for borrower and loan-officer review. Corrections to name spelling (PAN match), address, property classification, ESOP/RSU vesting tranches, and HRERA registration reference happen in this step."
+                },
+{
+                    "@type": "HowToStep",
+                    "position": 6,
+                    "name": "UDIN generation and final issue",
+                    "text": "Patron CA generates the 18-digit UDIN at udin.icai.org under category 'Certificates - Net Worth Certificate', signs on firm letterhead with ICAI seal, and issues the final document. Soft copy emailed the same day; hard copy collected from Patron Gurugram office or couriered to the lender branch (Cyber City, Golf Course Road, MG Road, Sector 14) within 2-3 working days."
+                }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Net Worth Certificate for Home Loan Key Terms",
+        "definedTerm": [
+            {
+                    "@type": "DefinedTerm",
+                    "name": "UDIN",
+                    "description": "18-digit Unique Document Identification Number generated by the issuing CA at udin.icai.org for every certificate, mandatory since 1 July 2019."
+                },
+{
+                    "@type": "DefinedTerm",
+                    "name": "HSVP Collector Rate",
+                    "description": "Minimum land value notified by the Haryana Shahari Vikas Pradhikaran for stamp-duty purposes, used as the defensible floor for Gurugram property valuation in the certificate. Sector-wise rates apply."
+                },
+{
+                    "@type": "DefinedTerm",
+                    "name": "HRERA",
+                    "description": "Haryana Real Estate Regulatory Authority. Every new Gurugram project must be HRERA-registered before lender disbursement; the certificate references the HRERA project identification."
+                },
+{
+                    "@type": "DefinedTerm",
+                    "name": "Second Home Loan",
+                    "description": "Home loan for a second residential property, typically held as investment. Tax deduction caps and LTV ratios differ from first home; the certificate disclosure explicitly identifies the loan as a second-home variant."
+                },
+{
+                    "@type": "DefinedTerm",
+                    "name": "Plot Plus Construction Loan",
+                    "description": "Combination product where the lender finances Gurugram plot purchase (Sohna Road, Sector 102-115, Dwarka Expressway) plus subsequent construction in tranches against a single sanction. The certificate captures the plot value at HSVP rate."
+                }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1659,22 +1664,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
-<!-- ============================================
-     CONSULTATION FORM - Country Dropdown + Validation + Bigin Integration
-     ============================================ -->
-{{-- Enquiry form markup + JS now in partials/enquiry-form.blade.php --}}
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1697,8 +1690,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1735,5 +1726,24 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+<!-- ============================================
+     CONSULTATION FORM - Country Dropdown + Validation + Bigin Integration
+     ============================================ -->
+{{-- Enquiry form markup + JS now in partials/enquiry-form.blade.php --}}
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
 
 <!-- Last Updated hardcoded in markup per QC v2.1 (no view-time JS) -->

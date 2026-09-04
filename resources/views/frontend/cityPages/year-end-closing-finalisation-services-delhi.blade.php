@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,208 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>Year-End Closing in Delhi 2026 | Patron Accounting</title>
-    <meta name="description" content="Delhi NCR year-end book finalisation from INR 14,999/yr. RoC Delhi filings, no profession tax, Schedule III schedules, audit-ready 31 March close.">
-    <link rel="canonical" href="/year-end-closing-finalisation-services/delhi">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Year-End Closing in Delhi 2026 | Patron Accounting">
-    <meta property="og:description" content="Delhi NCR year-end book finalisation from INR 14,999/yr. RoC Delhi filings, no profession tax, Schedule III schedules, audit-ready 31 March close.">
-    <meta property="og:url" content="/year-end-closing-finalisation-services/delhi">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Year-End Closing in Delhi 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Delhi NCR year-end book finalisation from INR 14,999/yr. RoC Delhi filings, no profession tax, Schedule III schedules, audit-ready 31 March close.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/year-end-closing-finalisation-services/delhi#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Year-End Closing and Finalisation Services",
-          "item": "https://www.patronaccounting.com/year-end-closing-finalisation-services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Year-End Closing and Finalisation Services in Delhi",
-          "item": "https://www.patronaccounting.com/year-end-closing-finalisation-services/delhi"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/year-end-closing-finalisation-services/delhi#faq",
-      "datePublished": "2026-06-23T08:00:00+05:30",
-      "dateModified": "2026-06-23T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What does year-end finalisation involve for a Delhi NCR firm?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "It means settling your 31 March books to a true and fair position. Patron passes closing and adjusting entries, records accruals, prepayments, depreciation, and provisions, runs a ledger-by-ledger scrutiny, and builds Schedule III schedules. For Nehru Place IT resellers and Okhla SME units we then hand over accounts ready for the RoC Delhi audit and ITR."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the fee for closing books in Delhi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Pricing opens at INR 14,999/yr (Exl GST and Govt. Charges). Where the figure lands depends on your turnover, ledger volume, fixed asset count, and whether a Companies Act or Section 44AB audit follows. A Connaught Place consultancy and a Mayapuri auto-parts dealer each get a fixed quote, agreed in writing, before any close work starts."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "By when should a Delhi company shut its FY books?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "India's financial year always ends 31 March. The smart move is to close shortly after, leaving room to finalise, audit if required, and file on time. A Delhi private limited then routes AOC-4 and MGT-7 to RoC Delhi after its AGM, while the Section 44AB report and the income tax return carry separate due dates later that year."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which adjusting entries get booked at year-end?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The usual set covers accrued income and expense, prepaid costs, depreciation on two bases, provisions for bad debts and tax, closing stock valuation, and the reclassification of loans and advances. Patron attaches a working to each entry, so any Delhi auditor or assessing officer can follow a number straight back to its source document."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the turnaround for an FY close in Delhi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A tidy single-entity software firm in Nehru Place often wraps up inside 1 to 2 weeks. An Okhla SME manufacturer carrying inventory, several GSTINs, and a long fixed asset register usually needs 3 to 5 weeks. The pace really comes down to how up-to-date the 31 March books are and how fast you send bank statements and party confirmations."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which statutory dues are reconciled for a Delhi business?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "At close we tie out GST against the GST Commissionerate Delhi records, plus TDS, PF, and ESI. Unlike Maharashtra or Karnataka, Delhi levies no profession tax, so there is no PTRC or PTEC ledger to settle here. We also prepare schedules and respond to your auditor's queries, posting agreed adjustments to shorten the audit cycle."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What schedules back the finalised Delhi accounts?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "You receive Schedule III statements supported by workings for fixed assets and depreciation, debtor and creditor ageing, loans and advances, provisions, prepaid and accrued items, and statutory dues. Because each ledger has been scrutinised and reconciled, every line on the balance sheet and profit and loss of a Delhi entity traces cleanly to its records."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do non-audited Delhi businesses still need a proper close?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Absolutely. Audit or no audit, a sound 31 March close is what lets you file a correct ITR, work out advance tax and MAT, and show a bank in Connaught Place or a lender reliable numbers. Skipping the closing entries and provisions leaves a Karol Bagh trader or an LLP exposed to understated tax and Section 271A penalty risk."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/year-end-closing-finalisation-services/delhi#service",
-      "name": "Year-End Closing and Finalisation Services in Delhi",
-      "description": "Year-end book closing and finalisation in Delhi covers closing and adjusting entries, accruals, prepayments, depreciation, provisions, ledger scrutiny, and Schedule III schedules for the 31 March FY close. Patron Accounting delivers audit-ready accounts and audit liaison for Nehru Place, Connaught Place, and Okhla businesses.",
-      "serviceType": "Year-End Closing and Financial Statement Finalisation",
-      "url": "https://www.patronaccounting.com/year-end-closing-finalisation-services/delhi",
-      "areaServed": {
-        "@type": "City",
-        "name": "Delhi",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Delhi"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#localbusiness-delhi"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Financial statement",
-          "sameAs": "https://en.wikipedia.org/wiki/Financial_statement"
-        },
-        {
-          "@type": "Thing",
-          "name": "Depreciation",
-          "sameAs": "https://en.wikipedia.org/wiki/Depreciation"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Year-End Closing Plans in Delhi",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "price": "14999",
-            "priceSpecification": {
-              "@type": "UnitPriceSpecification",
-              "priceCurrency": "INR",
-              "price": "14999",
-              "unitText": "per year"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Year-End Closing and Finalisation per Financial Year"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness-delhi",
-      "name": "Patron Accounting LLP - Delhi",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/year-end-closing-finalisation-services/delhi",
-      "telephone": "+91-9699936369",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Delhi"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Delhi",
-        "addressRegion": "Delhi",
-        "postalCode": "110085",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -830,7 +627,217 @@
         .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
 
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>Year-End Closing in Delhi 2026 | Patron Accounting</title>
+    <meta name="description" content="Delhi NCR year-end book finalisation from INR 14,999/yr. RoC Delhi filings, no profession tax, Schedule III schedules, audit-ready 31 March close.">
+    <link rel="canonical" href="/year-end-closing-finalisation-services/delhi">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Year-End Closing in Delhi 2026 | Patron Accounting">
+    <meta property="og:description" content="Delhi NCR year-end book finalisation from INR 14,999/yr. RoC Delhi filings, no profession tax, Schedule III schedules, audit-ready 31 March close.">
+    <meta property="og:url" content="/year-end-closing-finalisation-services/delhi">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Year-End Closing in Delhi 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Delhi NCR year-end book finalisation from INR 14,999/yr. RoC Delhi filings, no profession tax, Schedule III schedules, audit-ready 31 March close.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/year-end-closing-finalisation-services/delhi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Year-End Closing and Finalisation Services",
+          "item": "https://www.patronaccounting.com/year-end-closing-finalisation-services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Year-End Closing and Finalisation Services in Delhi",
+          "item": "https://www.patronaccounting.com/year-end-closing-finalisation-services/delhi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/year-end-closing-finalisation-services/delhi#faq",
+      "datePublished": "2026-06-23T08:00:00+05:30",
+      "dateModified": "2026-06-23T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does year-end finalisation involve for a Delhi NCR firm?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It means settling your 31 March books to a true and fair position. Patron passes closing and adjusting entries, records accruals, prepayments, depreciation, and provisions, runs a ledger-by-ledger scrutiny, and builds Schedule III schedules. For Nehru Place IT resellers and Okhla SME units we then hand over accounts ready for the RoC Delhi audit and ITR."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the fee for closing books in Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pricing opens at INR 14,999/yr (Exl GST and Govt. Charges). Where the figure lands depends on your turnover, ledger volume, fixed asset count, and whether a Companies Act or Section 44AB audit follows. A Connaught Place consultancy and a Mayapuri auto-parts dealer each get a fixed quote, agreed in writing, before any close work starts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "By when should a Delhi company shut its FY books?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "India's financial year always ends 31 March. The smart move is to close shortly after, leaving room to finalise, audit if required, and file on time. A Delhi private limited then routes AOC-4 and MGT-7 to RoC Delhi after its AGM, while the Section 44AB report and the income tax return carry separate due dates later that year."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which adjusting entries get booked at year-end?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The usual set covers accrued income and expense, prepaid costs, depreciation on two bases, provisions for bad debts and tax, closing stock valuation, and the reclassification of loans and advances. Patron attaches a working to each entry, so any Delhi auditor or assessing officer can follow a number straight back to its source document."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the turnaround for an FY close in Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A tidy single-entity software firm in Nehru Place often wraps up inside 1 to 2 weeks. An Okhla SME manufacturer carrying inventory, several GSTINs, and a long fixed asset register usually needs 3 to 5 weeks. The pace really comes down to how up-to-date the 31 March books are and how fast you send bank statements and party confirmations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which statutory dues are reconciled for a Delhi business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At close we tie out GST against the GST Commissionerate Delhi records, plus TDS, PF, and ESI. Unlike Maharashtra or Karnataka, Delhi levies no profession tax, so there is no PTRC or PTEC ledger to settle here. We also prepare schedules and respond to your auditor's queries, posting agreed adjustments to shorten the audit cycle."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What schedules back the finalised Delhi accounts?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You receive Schedule III statements supported by workings for fixed assets and depreciation, debtor and creditor ageing, loans and advances, provisions, prepaid and accrued items, and statutory dues. Because each ledger has been scrutinised and reconciled, every line on the balance sheet and profit and loss of a Delhi entity traces cleanly to its records."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do non-audited Delhi businesses still need a proper close?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. Audit or no audit, a sound 31 March close is what lets you file a correct ITR, work out advance tax and MAT, and show a bank in Connaught Place or a lender reliable numbers. Skipping the closing entries and provisions leaves a Karol Bagh trader or an LLP exposed to understated tax and Section 271A penalty risk."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/year-end-closing-finalisation-services/delhi#service",
+      "name": "Year-End Closing and Finalisation Services in Delhi",
+      "description": "Year-end book closing and finalisation in Delhi covers closing and adjusting entries, accruals, prepayments, depreciation, provisions, ledger scrutiny, and Schedule III schedules for the 31 March FY close. Patron Accounting delivers audit-ready accounts and audit liaison for Nehru Place, Connaught Place, and Okhla businesses.",
+      "serviceType": "Year-End Closing and Financial Statement Finalisation",
+      "url": "https://www.patronaccounting.com/year-end-closing-finalisation-services/delhi",
+      "areaServed": {
+        "@type": "City",
+        "name": "Delhi",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Delhi"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#localbusiness-delhi"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Financial statement",
+          "sameAs": "https://en.wikipedia.org/wiki/Financial_statement"
+        },
+        {
+          "@type": "Thing",
+          "name": "Depreciation",
+          "sameAs": "https://en.wikipedia.org/wiki/Depreciation"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Year-End Closing Plans in Delhi",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "price": "14999",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "INR",
+              "price": "14999",
+              "unitText": "per year"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Year-End Closing and Finalisation per Financial Year"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness-delhi",
+      "name": "Patron Accounting LLP - Delhi",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/year-end-closing-finalisation-services/delhi",
+      "telephone": "+91-9699936369",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Delhi"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Delhi",
+        "addressRegion": "Delhi",
+        "postalCode": "110085",
+        "addressCountry": "IN"
+      },
+      "parentOrganization": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1581,7 +1588,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

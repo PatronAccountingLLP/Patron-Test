@@ -1,196 +1,8 @@
 @extends('layouts.app')
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
-@section('meta')
-    <title>Code on Wages Compliance Checker | 13-Point Audit</title>
-    <meta name="description" content="Free Code on Wages compliance checker: 13-dimension audit of the 50% rule, floor wage, equal pay, deductions, records, bonus and overtime. CA tool. Try now!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/code-on-wages-compliance-checker">
-    <meta property="og:title" content="Code on Wages Compliance Checker 2026">
-    <meta property="og:description" content="13-dimension audit of Code on Wages 2019 compliance — 50% rule, floor wage, equal pay, deductions, bonus, overtime, records.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/code-on-wages-compliance-checker">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Code on Wages Compliance Checker 2026">
-    <meta name="twitter:description" content="13-dimension Code on Wages compliance audit. Free CA tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-    <meta name="theme-color" content="#15365f">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "Code on Wages Compliance Checker",
-      "description": "Code on Wages Compliance Checker is a thirteen-dimension audit tool that evaluates an employer's adherence to the Code on Wages 2019 effective 21 November 2025 which consolidated the Payment of Wages Act 1936 Minimum Wages Act 1948 Payment of Bonus Act 1965 and Equal Remuneration Act 1976 into a single unified framework. The tool reviews compliance across thirteen statutory dimensions: the 50 percent wage definition rule under Section 2(y) requiring basic plus dearness allowance plus retaining allowance to constitute at least half of total CTC, state minimum wage adherence under Section 6 against state-notified rates ranging from approximately 11000 rupees per month for unskilled workers in lower-rate states to 20000 rupees per month in Delhi for unskilled scheduled employments, national floor wage compliance under Section 9 currently at 178 rupees per day below which no state minimum wage can fall, equal remuneration under Section 3 prohibiting discrimination based on gender including transgender for same or similar work, wage period definition under Section 16 limited to daily weekly fortnightly or monthly cycles, time of payment under Section 17 mandating salary payment by the seventh of the following month and full and final settlement within two working days of termination, mode of payment compliance preferring electronic transfer credit to bank accounts, deductions cap under Section 18 limiting total deductions to fifty percent of wages or seventy-five percent if cooperative society payment is included with fines limited to three percent, records and wage slip mandate under Section 50 requiring monthly wage slips and the integrated Form Q wage register, statutory bonus eligibility under Section 26 covering employees up to twenty-one thousand rupees per month at minimum 8.33 percent and maximum 20 percent of wages payable within eight months of accounting year close, overtime wages under Section 14 at twice the ordinary rate of wages, fixed-term employee gratuity parity under Code on Social Security 2020 reducing the continuous-service requirement from five to one year and ensuring identical EPF ESI medical insurance and leave benefits as permanent employees, and appointment letter issuance under Occupational Safety Health and Working Conditions Code 2020 mandatory for all employees specifying job details wages and social security entitlements. Each dimension produces a Pass Warning or Fail status with specific remediation actions and references to the applicable statutory section. The tool generates an overall compliance percentage score and risk level Low Medium High along with a remediation checklist for non-compliant dimensions. Suitable for HR teams running self-audit before EPFO or Labour Department inspection CFOs assessing compliance posture company secretaries preparing labour law returns and external auditors validating payroll compliance.",
-      "url": "https://www.patronaccounting.com/tools/code-on-wages-compliance-checker",
-      "applicationCategory": "FinanceApplication",
-      "operatingSystem": "Any",
-      "datePublished": "2026-05-08T08:00:00+05:30",
-      "dateModified": "2026-05-08T08:00:00+05:30",
-      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
-      "author": {
-        "@type": "Person",
-        "@id": "https://patronaccounting.com/#founder",
-        "name": "CA Sundram Gupta",
-        "jobTitle": "Founder & Chartered Accountant",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Institute of Chartered Accountants of India",
-            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-          }
-        }]
-      },
-      "publisher": { "@id": "https://patronaccounting.com/#organization" },
-      "provider": { "@id": "https://patronaccounting.com/#organization" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Code on Wages Compliance Checker", "item": "https://www.patronaccounting.com/tools/code-on-wages-compliance-checker"}
-      ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "datePublished": "2026-05-08T08:00:00+05:30",
-      "dateModified": "2026-05-08T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is the Code on Wages 2019?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The Code on Wages 2019 is one of four New Labour Codes effective 21 November 2025. It consolidates four earlier laws — Payment of Wages Act 1936, Minimum Wages Act 1948, Payment of Bonus Act 1965, and Equal Remuneration Act 1976 — into a single framework applying to all employees regardless of wage threshold. Key features include uniform wage definition with the 50 percent rule, national floor wage, timely payment, and gender pay equity."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the National Floor Wage?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The National Floor Level Minimum Wage under Section 9 of the Code on Wages 2019 is set by the Central Government as the statutory baseline below which no state minimum wage can fall. Currently the NFLMW stands at 178 rupees per day, set in 2019 and not formally revised. State governments may set higher minimum wages based on skill level, geography, and industry. Multi-state employers must apply the higher of central floor wage or state rate."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are the state minimum wages in India?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "State minimum wages vary significantly. As of 2026, monthly minimum wage for unskilled workers ranges from approximately 11389 rupees in Punjab to 19846 rupees in Delhi. Maharashtra Karnataka Tamil Nadu Telangana sit in the 13000 to 14000 range. Higher rates apply for semi-skilled, skilled, and highly skilled categories. Central sphere workers earn 783 to 1035 rupees per day depending on skill. Rates are revised periodically based on Consumer Price Index movement."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "When must wages be paid each month?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 17 of the Code on Wages 2019 mandates monthly wages be paid by the seventh of the following month. Weekly wages are paid on the last working day. Daily wages at the end of the shift. Full and final settlement on termination must be made within two working days. Late payment attracts penalty under Section 56 with damages and interest. Most employers structure payroll for the fifth or seventh of next month."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the maximum permissible deduction from wages?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 18 of the Code on Wages 2019 caps total authorized deductions at 50 percent of wages payable. Where deductions include payment to a cooperative society or insurance scheme the cap rises to 75 percent. Authorized deductions cover statutory items like Provident Fund Employee State Insurance income tax professional tax recoveries advances and authorized fines. Fines on the employee cannot exceed three percent of wages. Unauthorized deductions even if disclosed in the contract are illegal."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is a wage slip mandatory under the Code?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Section 50 of the Code on Wages 2019 read with Rule 50 of the Central Rules makes monthly wage slips mandatory for all employees. The wage slip must show details of basic pay dearness allowance other allowances total wages all deductions and net amount paid. Wage slips can be issued in physical or electronic form. The integrated Form Q wage register replaces multiple registers required under earlier laws and serves as the single record-keeping format for inspection."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the equal remuneration requirement?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 3 of the Code on Wages 2019 prohibits discrimination based on gender (including transgender identity) in wages and conditions of employment for the same or similar work. The Code expanded protection from the earlier Equal Remuneration Act 1976 which covered only male-female parity. Employers must conduct pay equity audits, document the absence of gender wage gaps, and ensure gender-neutral recruitment. Violation attracts penalty under Section 56."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the overtime rate under the Code?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 14 of the Code on Wages 2019 mandates overtime wages at twice the ordinary rate for work beyond normal working hours fixed by the appropriate Government. Standard working hours are typically nine hours per day or forty-eight hours per week. The 2x rate applies to all eligible workers without distinction of skill level. Failure to pay overtime at the prescribed rate is a violation under Section 56 with penalty up to one lakh rupees."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Who is eligible for statutory bonus?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 26 of the Code on Wages 2019 retains the bonus framework from the Payment of Bonus Act 1965. Employees earning up to 21000 rupees per month basic plus DA in establishments employing twenty or more persons are eligible for bonus between 8.33 percent (minimum) and 20 percent (maximum) of wages depending on the employer's allocable surplus. Bonus must be paid within eight months of the accounting year close. Employees not eligible may still receive ex-gratia bonus at employer discretion."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Are fixed-term employees entitled to gratuity?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. The Code on Social Security 2020 reduced the continuous-service requirement for fixed-term employees from five years to one year. Fixed-term employees who complete one year of continuous service are now entitled to gratuity computed on basic plus DA at 15 days wages per year of service. Fixed-term employees must also receive identical EPF Employee State Insurance medical insurance and leave benefits as permanent employees per Section 30 OSH Code reflecting the codes pro-parity stance."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is an appointment letter mandatory under the Codes?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. The Occupational Safety Health and Working Conditions Code 2020 mandates appointment letters for all employees specifying job details wages and social security entitlements. The appointment letter must be issued at the time of joining and serves as primary evidence of the employment relationship. For multi-state operations the letter must specify the state of employment for purpose of state minimum wage applicability. Failure to issue an appointment letter is a violation that compromises subsequent compliance defences."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are the penalties for Code on Wages violations?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 56 of the Code on Wages 2019 prescribes graded penalties: first violation attracts fine up to 50000 rupees, second or subsequent violation within five years attracts imprisonment up to three months and fine up to one lakh rupees. Underpayment of minimum wages can attract ten times the underpayment as compensation under Section 56(1) read with Rule 60. The new Inspector-cum-Facilitator role under Section 51 emphasizes guidance over prosecution but penalties apply for persistent non-compliance."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How often should I run a Code on Wages audit?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Best practice is to run a comprehensive Code on Wages audit annually before the financial year close in March, with quarterly checks on key dimensions like minimum wage adherence and timely payment. State minimum wage rates are revised by various states twice a year so multi-state employers should set up alerts on each state Labour Department notification. Additional ad-hoc audits should be triggered before EPFO inspections statutory audits or planned restructuring of salary components."
-          }
-        }
-      ]
-    }
-    </script>
-@endsection
-
 <style>
         :root {
             --primary: #15365f;
@@ -437,7 +249,195 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 }
 
 </style>
+@endpush
 
+@section('meta')
+    <title>Code on Wages Compliance Checker | 13-Point Audit</title>
+    <meta name="description" content="Free Code on Wages compliance checker: 13-dimension audit of the 50% rule, floor wage, equal pay, deductions, records, bonus and overtime. CA tool. Try now!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/code-on-wages-compliance-checker">
+    <meta property="og:title" content="Code on Wages Compliance Checker 2026">
+    <meta property="og:description" content="13-dimension audit of Code on Wages 2019 compliance — 50% rule, floor wage, equal pay, deductions, bonus, overtime, records.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/code-on-wages-compliance-checker">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Code on Wages Compliance Checker 2026">
+    <meta name="twitter:description" content="13-dimension Code on Wages compliance audit. Free CA tool.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+    <meta name="theme-color" content="#15365f">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Code on Wages Compliance Checker",
+      "description": "Code on Wages Compliance Checker is a thirteen-dimension audit tool that evaluates an employer's adherence to the Code on Wages 2019 effective 21 November 2025 which consolidated the Payment of Wages Act 1936 Minimum Wages Act 1948 Payment of Bonus Act 1965 and Equal Remuneration Act 1976 into a single unified framework. The tool reviews compliance across thirteen statutory dimensions: the 50 percent wage definition rule under Section 2(y) requiring basic plus dearness allowance plus retaining allowance to constitute at least half of total CTC, state minimum wage adherence under Section 6 against state-notified rates ranging from approximately 11000 rupees per month for unskilled workers in lower-rate states to 20000 rupees per month in Delhi for unskilled scheduled employments, national floor wage compliance under Section 9 currently at 178 rupees per day below which no state minimum wage can fall, equal remuneration under Section 3 prohibiting discrimination based on gender including transgender for same or similar work, wage period definition under Section 16 limited to daily weekly fortnightly or monthly cycles, time of payment under Section 17 mandating salary payment by the seventh of the following month and full and final settlement within two working days of termination, mode of payment compliance preferring electronic transfer credit to bank accounts, deductions cap under Section 18 limiting total deductions to fifty percent of wages or seventy-five percent if cooperative society payment is included with fines limited to three percent, records and wage slip mandate under Section 50 requiring monthly wage slips and the integrated Form Q wage register, statutory bonus eligibility under Section 26 covering employees up to twenty-one thousand rupees per month at minimum 8.33 percent and maximum 20 percent of wages payable within eight months of accounting year close, overtime wages under Section 14 at twice the ordinary rate of wages, fixed-term employee gratuity parity under Code on Social Security 2020 reducing the continuous-service requirement from five to one year and ensuring identical EPF ESI medical insurance and leave benefits as permanent employees, and appointment letter issuance under Occupational Safety Health and Working Conditions Code 2020 mandatory for all employees specifying job details wages and social security entitlements. Each dimension produces a Pass Warning or Fail status with specific remediation actions and references to the applicable statutory section. The tool generates an overall compliance percentage score and risk level Low Medium High along with a remediation checklist for non-compliant dimensions. Suitable for HR teams running self-audit before EPFO or Labour Department inspection CFOs assessing compliance posture company secretaries preparing labour law returns and external auditors validating payroll compliance.",
+      "url": "https://www.patronaccounting.com/tools/code-on-wages-compliance-checker",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Any",
+      "datePublished": "2026-05-08T08:00:00+05:30",
+      "dateModified": "2026-05-08T08:00:00+05:30",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
+      "author": {
+        "@type": "Person",
+        "@id": "https://patronaccounting.com/#founder",
+        "name": "CA Sundram Gupta",
+        "jobTitle": "Founder & Chartered Accountant",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Institute of Chartered Accountants of India",
+            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+          }
+        }]
+      },
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": { "@id": "https://patronaccounting.com/#organization" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Code on Wages Compliance Checker", "item": "https://www.patronaccounting.com/tools/code-on-wages-compliance-checker"}
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "datePublished": "2026-05-08T08:00:00+05:30",
+      "dateModified": "2026-05-08T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the Code on Wages 2019?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Code on Wages 2019 is one of four New Labour Codes effective 21 November 2025. It consolidates four earlier laws — Payment of Wages Act 1936, Minimum Wages Act 1948, Payment of Bonus Act 1965, and Equal Remuneration Act 1976 — into a single framework applying to all employees regardless of wage threshold. Key features include uniform wage definition with the 50 percent rule, national floor wage, timely payment, and gender pay equity."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the National Floor Wage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The National Floor Level Minimum Wage under Section 9 of the Code on Wages 2019 is set by the Central Government as the statutory baseline below which no state minimum wage can fall. Currently the NFLMW stands at 178 rupees per day, set in 2019 and not formally revised. State governments may set higher minimum wages based on skill level, geography, and industry. Multi-state employers must apply the higher of central floor wage or state rate."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the state minimum wages in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "State minimum wages vary significantly. As of 2026, monthly minimum wage for unskilled workers ranges from approximately 11389 rupees in Punjab to 19846 rupees in Delhi. Maharashtra Karnataka Tamil Nadu Telangana sit in the 13000 to 14000 range. Higher rates apply for semi-skilled, skilled, and highly skilled categories. Central sphere workers earn 783 to 1035 rupees per day depending on skill. Rates are revised periodically based on Consumer Price Index movement."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When must wages be paid each month?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 17 of the Code on Wages 2019 mandates monthly wages be paid by the seventh of the following month. Weekly wages are paid on the last working day. Daily wages at the end of the shift. Full and final settlement on termination must be made within two working days. Late payment attracts penalty under Section 56 with damages and interest. Most employers structure payroll for the fifth or seventh of next month."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the maximum permissible deduction from wages?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 18 of the Code on Wages 2019 caps total authorized deductions at 50 percent of wages payable. Where deductions include payment to a cooperative society or insurance scheme the cap rises to 75 percent. Authorized deductions cover statutory items like Provident Fund Employee State Insurance income tax professional tax recoveries advances and authorized fines. Fines on the employee cannot exceed three percent of wages. Unauthorized deductions even if disclosed in the contract are illegal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is a wage slip mandatory under the Code?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Section 50 of the Code on Wages 2019 read with Rule 50 of the Central Rules makes monthly wage slips mandatory for all employees. The wage slip must show details of basic pay dearness allowance other allowances total wages all deductions and net amount paid. Wage slips can be issued in physical or electronic form. The integrated Form Q wage register replaces multiple registers required under earlier laws and serves as the single record-keeping format for inspection."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the equal remuneration requirement?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 3 of the Code on Wages 2019 prohibits discrimination based on gender (including transgender identity) in wages and conditions of employment for the same or similar work. The Code expanded protection from the earlier Equal Remuneration Act 1976 which covered only male-female parity. Employers must conduct pay equity audits, document the absence of gender wage gaps, and ensure gender-neutral recruitment. Violation attracts penalty under Section 56."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the overtime rate under the Code?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 14 of the Code on Wages 2019 mandates overtime wages at twice the ordinary rate for work beyond normal working hours fixed by the appropriate Government. Standard working hours are typically nine hours per day or forty-eight hours per week. The 2x rate applies to all eligible workers without distinction of skill level. Failure to pay overtime at the prescribed rate is a violation under Section 56 with penalty up to one lakh rupees."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who is eligible for statutory bonus?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 26 of the Code on Wages 2019 retains the bonus framework from the Payment of Bonus Act 1965. Employees earning up to 21000 rupees per month basic plus DA in establishments employing twenty or more persons are eligible for bonus between 8.33 percent (minimum) and 20 percent (maximum) of wages depending on the employer's allocable surplus. Bonus must be paid within eight months of the accounting year close. Employees not eligible may still receive ex-gratia bonus at employer discretion."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are fixed-term employees entitled to gratuity?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The Code on Social Security 2020 reduced the continuous-service requirement for fixed-term employees from five years to one year. Fixed-term employees who complete one year of continuous service are now entitled to gratuity computed on basic plus DA at 15 days wages per year of service. Fixed-term employees must also receive identical EPF Employee State Insurance medical insurance and leave benefits as permanent employees per Section 30 OSH Code reflecting the codes pro-parity stance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is an appointment letter mandatory under the Codes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The Occupational Safety Health and Working Conditions Code 2020 mandates appointment letters for all employees specifying job details wages and social security entitlements. The appointment letter must be issued at the time of joining and serves as primary evidence of the employment relationship. For multi-state operations the letter must specify the state of employment for purpose of state minimum wage applicability. Failure to issue an appointment letter is a violation that compromises subsequent compliance defences."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the penalties for Code on Wages violations?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 56 of the Code on Wages 2019 prescribes graded penalties: first violation attracts fine up to 50000 rupees, second or subsequent violation within five years attracts imprisonment up to three months and fine up to one lakh rupees. Underpayment of minimum wages can attract ten times the underpayment as compensation under Section 56(1) read with Rule 60. The new Inspector-cum-Facilitator role under Section 51 emphasizes guidance over prosecution but penalties apply for persistent non-compliance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How often should I run a Code on Wages audit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Best practice is to run a comprehensive Code on Wages audit annually before the financial year close in March, with quarterly checks on key dimensions like minimum wage adherence and timely payment. State minimum wage rates are revised by various states twice a year so multi-state employers should set up alerts on each state Labour Department notification. Additional ad-hoc audits should be triggered before EPFO inspections statutory audits or planned restructuring of salary components."
+          }
+        }
+      ]
+    }
+    </script>
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Tool navigation">
     <div class="toc-nav-inner">

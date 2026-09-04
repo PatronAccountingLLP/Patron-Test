@@ -1,200 +1,11 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Section 143(2) Notice Delhi</title>
-    <meta name="description" content="Section 143(2) scrutiny notice in Delhi? Patron CA team files e-Proceedings reply via NaFAC and defends your case before 143(3) order. Starting Rs 4,999.">
-    <link rel="canonical" href="/sec-143-2-notice/delhi">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Section 143(2) Notice Delhi 2026 | Patron Accounting">
-    <meta property="og:description" content="Section 143(2) scrutiny notice in Delhi? Patron CA team files e-Proceedings reply via NaFAC and defends your case before 143(3) order. Starting Rs 4,999.">
-    <meta property="og:url" content="/sec-143-2-notice/delhi">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Section 143(2) Notice Delhi 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Section 143(2) scrutiny notice in Delhi? Patron CA team files e-Proceedings reply via NaFAC and defends your case before 143(3) order. Starting Rs 4,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/sec-143-2-notice/delhi#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Income Tax Notices",
-          "item": "https://www.patronaccounting.com/income-tax-notices"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Section 143(2) Notice Delhi",
-          "item": "https://www.patronaccounting.com/sec-143-2-notice/delhi"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/sec-143-2-notice/delhi#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is a Section 143(2) notice in Delhi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A Section 143(2) notice in Delhi is a formal scrutiny initiation notice issued under the Income Tax Act, 1961 selecting your filed ITR for detailed examination. It comes through NaFAC (headquartered in Delhi) under the faceless assessment scheme, or in select cases through the jurisdictional Assessing Officer at Aayakar Bhavan. It does not itself create a demand - it triggers the scrutiny that ends with a Section 143(3) order."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the time limit for issuing a Section 143(2) notice?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Under the proviso to Section 143(2), the notice must be served within 3 months from the end of the financial year in which the ITR was filed. For example, if you filed your ITR on 31 July 2025 for AY 2025-26, the FY of filing is 2025-26 ending 31 March 2026, so the latest valid 143(2) date is 30 June 2026. Notices beyond this window are time-barred."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do I reply to a Section 143(2) notice in Delhi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Log in to incometax.gov.in. Navigate to Pending Actions or Worklist then E-Proceedings. Click View Notice for the 143(2). Click Submit Response, select Agree or Disagree, upload supporting documents (ITR, computation, Form 26AS, AIS, bank statements, investment proofs) and submit. Patron files this in 5-10 working days for Delhi assessees, well inside the typical 15-30 day window."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are the 3 types of scrutiny under Section 143(2)?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Limited scrutiny (CASS-selected, restricted to specific issues like property sale or deduction mismatch - AO cannot widen scope without higher approval), complete scrutiny (CASS-selected, entire return examined including all heads) and manual scrutiny (selected under CBDT-defined criteria such as high-risk industry, survey-derived information or specific compliance triggers, with criteria changing annually)."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I get a personal hearing in faceless 143(2) proceedings?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes - personal hearing via video conferencing is a right under Section 144B(6) once a Show Cause Notice is issued by the Assessment Unit through NaFAC. Request it via the e-Proceedings portal. The Delhi High Court has consistently upheld this right. Patron CA team appears for video conferencing hearings as your authorised representative for Delhi assessees."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the penalty for ignoring a Section 143(2) notice?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Three consequences follow non-response: best-judgement assessment under Section 144 based on available information (typically resulting in adverse additions), penalty of Rs 10,000 under Section 271(1)(b) for non-compliance and potential prosecution under Section 276CC for wilful default. The best-judgement assessment route almost always leads to substantially higher tax demand than a properly defended scrutiny."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can a Section 143(2) notice be challenged in Delhi High Court?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Generally no, because 143(2) is procedural and creates no liability. However, time-barred notices (beyond the 3-month window) can be quashed via writ. The Delhi HC has also ruled on jurisdictional questions - confirming in 2024 that 143(2) can validly be issued by AO, NaFAC and other prescribed income-tax authorities under Rule 12E. Most challenges are deferred to CIT(A) after the 143(3) order."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/sec-143-2-notice/delhi#service",
-      "name": "Section 143(2) Notice Reply and Scrutiny Defence in Delhi",
-      "url": "https://www.patronaccounting.com/sec-143-2-notice/delhi",
-      "description": "Patron Accounting Section 143(2) scrutiny notice handling for Delhi taxpayers - covering initial notice analysis with limited / complete / manual scrutiny classification, time-bar audit under the 3-month proviso, e-Proceedings reply drafting on incometax.gov.in, multi-round Assessment Unit query responses via NaFAC (headquartered in Delhi), Section 144B faceless procedure including video conferencing hearing representation, Section 144B(6) Show Cause Notice rebuttal, Section 143(3) final order analysis and Section 246A CIT(A) appeal at Form 35. Starting from Rs 4,999.",
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      },
-      "areaServed": {
-        "@type": "City",
-        "name": "Delhi",
-        "sameAs": "https://en.wikipedia.org/wiki/Delhi"
-      },
-      "serviceType": "Section 143(2) Income Tax Scrutiny Notice Reply and Assessment Defence",
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Income Tax Act 1961",
-          "sameAs": "https://en.wikipedia.org/wiki/Income_Tax_Act,_1961"
-        },
-        {
-          "@type": "Thing",
-          "name": "Income tax in India",
-          "sameAs": "https://en.wikipedia.org/wiki/Income_tax_in_India"
-        },
-        {
-          "@type": "Thing",
-          "name": "Faceless assessment scheme",
-          "sameAs": "https://en.wikipedia.org/wiki/Faceless_Assessment_Scheme"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Section 143(2) Notice Delhi Service Packages",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "name": "Limited Scrutiny Reply - Single-Issue e-Proceedings Filing Delhi",
-            "price": "4999",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/sec-143-2-notice/delhi"
-          },
-          {
-            "@type": "Offer",
-            "name": "Complete Scrutiny Reply - Multi-Head 143(2) with Full Reconciliation Delhi",
-            "price": "9500",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/sec-143-2-notice/delhi"
-          },
-          {
-            "@type": "Offer",
-            "name": "Manual Scrutiny Defence - CBDT Criteria-Based with Extensive Evidence",
-            "price": "12000",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/sec-143-2-notice/delhi"
-          },
-          {
-            "@type": "Offer",
-            "name": "Full Lifecycle Scrutiny Defence (143(2) to 143(3) Faceless Package)",
-            "price": "25000",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/sec-143-2-notice/delhi"
-          }
-        ]
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -872,7 +683,201 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 }
 @media (max-width:768px) {section .content-text ul li:not(.nav-item){flex-wrap:wrap;}
 section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;max-width:100%;margin-bottom:2px;}}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Section 143(2) Notice Delhi</title>
+    <meta name="description" content="Section 143(2) scrutiny notice in Delhi? Patron CA team files e-Proceedings reply via NaFAC and defends your case before 143(3) order. Starting Rs 4,999.">
+    <link rel="canonical" href="/sec-143-2-notice/delhi">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Section 143(2) Notice Delhi 2026 | Patron Accounting">
+    <meta property="og:description" content="Section 143(2) scrutiny notice in Delhi? Patron CA team files e-Proceedings reply via NaFAC and defends your case before 143(3) order. Starting Rs 4,999.">
+    <meta property="og:url" content="/sec-143-2-notice/delhi">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Section 143(2) Notice Delhi 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Section 143(2) scrutiny notice in Delhi? Patron CA team files e-Proceedings reply via NaFAC and defends your case before 143(3) order. Starting Rs 4,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/sec-143-2-notice/delhi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Income Tax Notices",
+          "item": "https://www.patronaccounting.com/income-tax-notices"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Section 143(2) Notice Delhi",
+          "item": "https://www.patronaccounting.com/sec-143-2-notice/delhi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/sec-143-2-notice/delhi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a Section 143(2) notice in Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Section 143(2) notice in Delhi is a formal scrutiny initiation notice issued under the Income Tax Act, 1961 selecting your filed ITR for detailed examination. It comes through NaFAC (headquartered in Delhi) under the faceless assessment scheme, or in select cases through the jurisdictional Assessing Officer at Aayakar Bhavan. It does not itself create a demand - it triggers the scrutiny that ends with a Section 143(3) order."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the time limit for issuing a Section 143(2) notice?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under the proviso to Section 143(2), the notice must be served within 3 months from the end of the financial year in which the ITR was filed. For example, if you filed your ITR on 31 July 2025 for AY 2025-26, the FY of filing is 2025-26 ending 31 March 2026, so the latest valid 143(2) date is 30 June 2026. Notices beyond this window are time-barred."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I reply to a Section 143(2) notice in Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Log in to incometax.gov.in. Navigate to Pending Actions or Worklist then E-Proceedings. Click View Notice for the 143(2). Click Submit Response, select Agree or Disagree, upload supporting documents (ITR, computation, Form 26AS, AIS, bank statements, investment proofs) and submit. Patron files this in 5-10 working days for Delhi assessees, well inside the typical 15-30 day window."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the 3 types of scrutiny under Section 143(2)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Limited scrutiny (CASS-selected, restricted to specific issues like property sale or deduction mismatch - AO cannot widen scope without higher approval), complete scrutiny (CASS-selected, entire return examined including all heads) and manual scrutiny (selected under CBDT-defined criteria such as high-risk industry, survey-derived information or specific compliance triggers, with criteria changing annually)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I get a personal hearing in faceless 143(2) proceedings?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes - personal hearing via video conferencing is a right under Section 144B(6) once a Show Cause Notice is issued by the Assessment Unit through NaFAC. Request it via the e-Proceedings portal. The Delhi High Court has consistently upheld this right. Patron CA team appears for video conferencing hearings as your authorised representative for Delhi assessees."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the penalty for ignoring a Section 143(2) notice?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Three consequences follow non-response: best-judgement assessment under Section 144 based on available information (typically resulting in adverse additions), penalty of Rs 10,000 under Section 271(1)(b) for non-compliance and potential prosecution under Section 276CC for wilful default. The best-judgement assessment route almost always leads to substantially higher tax demand than a properly defended scrutiny."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a Section 143(2) notice be challenged in Delhi High Court?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Generally no, because 143(2) is procedural and creates no liability. However, time-barred notices (beyond the 3-month window) can be quashed via writ. The Delhi HC has also ruled on jurisdictional questions - confirming in 2024 that 143(2) can validly be issued by AO, NaFAC and other prescribed income-tax authorities under Rule 12E. Most challenges are deferred to CIT(A) after the 143(3) order."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/sec-143-2-notice/delhi#service",
+      "name": "Section 143(2) Notice Reply and Scrutiny Defence in Delhi",
+      "url": "https://www.patronaccounting.com/sec-143-2-notice/delhi",
+      "description": "Patron Accounting Section 143(2) scrutiny notice handling for Delhi taxpayers - covering initial notice analysis with limited / complete / manual scrutiny classification, time-bar audit under the 3-month proviso, e-Proceedings reply drafting on incometax.gov.in, multi-round Assessment Unit query responses via NaFAC (headquartered in Delhi), Section 144B faceless procedure including video conferencing hearing representation, Section 144B(6) Show Cause Notice rebuttal, Section 143(3) final order analysis and Section 246A CIT(A) appeal at Form 35. Starting from Rs 4,999.",
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Delhi",
+        "sameAs": "https://en.wikipedia.org/wiki/Delhi"
+      },
+      "serviceType": "Section 143(2) Income Tax Scrutiny Notice Reply and Assessment Defence",
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Income Tax Act 1961",
+          "sameAs": "https://en.wikipedia.org/wiki/Income_Tax_Act,_1961"
+        },
+        {
+          "@type": "Thing",
+          "name": "Income tax in India",
+          "sameAs": "https://en.wikipedia.org/wiki/Income_tax_in_India"
+        },
+        {
+          "@type": "Thing",
+          "name": "Faceless assessment scheme",
+          "sameAs": "https://en.wikipedia.org/wiki/Faceless_Assessment_Scheme"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Section 143(2) Notice Delhi Service Packages",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "Limited Scrutiny Reply - Single-Issue e-Proceedings Filing Delhi",
+            "price": "4999",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/sec-143-2-notice/delhi"
+          },
+          {
+            "@type": "Offer",
+            "name": "Complete Scrutiny Reply - Multi-Head 143(2) with Full Reconciliation Delhi",
+            "price": "9500",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/sec-143-2-notice/delhi"
+          },
+          {
+            "@type": "Offer",
+            "name": "Manual Scrutiny Defence - CBDT Criteria-Based with Extensive Evidence",
+            "price": "12000",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/sec-143-2-notice/delhi"
+          },
+          {
+            "@type": "Offer",
+            "name": "Full Lifecycle Scrutiny Defence (143(2) to 143(3) Faceless Package)",
+            "price": "25000",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/sec-143-2-notice/delhi"
+          }
+        ]
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -2137,7 +2142,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 </script>
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

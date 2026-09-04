@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,202 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>IMF for Investment Advisors: Add Insurance Legally</title>
-    <meta name="description" content="SEBI RIAs cannot earn insurance commission directly. A compliant IRDAI Insurance Marketing Firm (IMF) adds insurance revenue. Eligibility, cost, timeline.">
-    <link rel="canonical" href="/imf-for-investment-advisors/delhi">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="IMF for Investment Advisors: Add Insurance Legally">
-    <meta property="og:description" content="SEBI RIAs cannot earn insurance commission directly. A compliant IRDAI Insurance Marketing Firm (IMF) adds insurance revenue. Eligibility, cost, timeline.">
-    <meta property="og:url" content="/imf-for-investment-advisors/delhi">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="IMF for Investment Advisors: Add Insurance Legally">
-    <meta name="twitter:description" content="SEBI RIAs cannot earn insurance commission directly. A compliant IRDAI Insurance Marketing Firm (IMF) adds insurance revenue. Eligibility, cost, timeline.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "IMF for SEBI Registered Investment Advisers in Delhi",
-      "description": "End-to-end Insurance Marketing Firm (IMF) registration for SEBI-registered investment advisers in Delhi. Compliant, segregated insurance distribution arm with IRDAI registration, incorporation and Principal Officer onboarding.",
-      "url": "https://www.patronaccounting.com/imf-for-investment-advisors/delhi",
-      "serviceType": "IMF Registration for Investment Advisors",
-      "areaServed": {
-        "@type": "City",
-        "name": "Delhi",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Delhi"
-        }
-      },
-      "provider": {
-        "@type": "LocalBusiness",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg",
-        "image": "https://www.patronaccounting.com/images/site-logo.svg",
-        "telephone": "+91-9459456700",
-        "email": "sales@patronaccounting.com",
-        "priceRange": "INR",
-        "areaServed": {
-          "@type": "City",
-          "name": "Delhi"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Delhi",
-          "addressRegion": "Delhi",
-          "addressCountry": "IN"
-        }
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "price": "24999",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/imf-for-investment-advisors/delhi",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "minPrice": "24999",
-          "priceCurrency": "INR"
-        }
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "name": "Patron Accounting LLP",
-      "url": "https://www.patronaccounting.com/",
-      "logo": "https://www.patronaccounting.com/images/site-logo.svg",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "telephone": "+91-9459456700",
-      "email": "sales@patronaccounting.com",
-      "priceRange": "INR 24,999 onwards",
-      "areaServed": {
-        "@type": "City",
-        "name": "Delhi",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Delhi"
-        }
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Delhi",
-        "addressRegion": "Delhi",
-        "addressCountry": "IN"
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "IMF Services",
-          "item": "https://www.patronaccounting.com/imf-services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "IMF for Investment Advisors in Delhi",
-          "item": "https://www.patronaccounting.com/imf-for-investment-advisors/delhi"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "datePublished": "2026-06-30T08:00:00+05:30",
-      "dateModified": "2026-06-30T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Can a SEBI registered investment adviser sell insurance and earn commission?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Not directly. An individual RIA cannot undertake distribution or earn insurance commission under SEBI (Investment Advisers) Regulations 2013. The compliant route is a separate, segregated entity - an IRDAI-registered Insurance Marketing Firm (IMF) - which can distribute insurance and earn remuneration, kept at arm's length from your advisory practice."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How can an investment advisor add insurance to their practice legally?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "By registering an Insurance Marketing Firm (IMF) with IRDAI. The IMF is a distinct Company, LLP or Co-operative Society with 'Insurance Marketing Firm' in its name. It can tie up with up to 2 life, 2 general and 2 health insurers. Non-individual RIAs must keep advisory and distribution clients segregated, which the separate IMF entity satisfies."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does IMF registration cost for an advisor in Delhi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The IRDAI application fee is INR 5,000 (paid from an SBI account in the IMF's name), plus GST and incorporation charges. Patron's end-to-end IMF setup for advisors in Delhi starts from INR 24,999 (Exl GST and Govt. Charges), covering incorporation, IRDAI filing and Principal Officer onboarding."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does IMF registration take?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Typically around 7 to 10 weeks end to end - covering entity incorporation, document preparation, the Principal Officer's 50-hour IRDAI training and exam, and IRDAI review on the imf.irda.gov.in portal. Timelines depend on document readiness and the Principal Officer's certification."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What documents and eligibility are required for an IMF?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A Company, LLP or Co-operative Society with 'Insurance Marketing Firm' in its name, net worth of INR 10 lakh (INR 5 lakh for a single aspirational district) with a CA net-worth certificate, a qualified Principal Officer, Form A, NOC, ROC incorporation certificate, MoA/AoA plus PAN, an SBI account, insurer consent letters, a 3-year business plan, infrastructure photos and Fit and Proper declarations."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does my existing SEBI RIA registration help or conflict with an IMF?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "It does not conflict if structured correctly. SEBI requires advisory and distribution activities to be segregated. The IMF is a separate IRDAI-registered entity, so your SEBI RIA continues to give fee-only advice while the IMF handles insurance distribution. An IMF can also market SEBI-licensed financial products through Financial Service Executives."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can Patron help investment advisors in Delhi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Patron Accounting handles IMF registration for investment advisers across India, including Delhi and the wider NCR. The IRDAI process is online via imf.irda.gov.in, so we support advisors in Delhi and nationwide, with aspirational-district options elsewhere that lower the net-worth requirement to INR 5 lakh."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is IMF registration permanent or does it need renewal?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "It is now perpetual. Since 5 February 2026 (under the Sabka Bima Sabki Raksha / Amendment of Insurance Laws Act 2025), the earlier 3-year renewal was discontinued. You must, however, maintain net worth, hold Professional Indemnity cover, and file an annual CA net-worth certificate within 3 months of the financial year close."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -906,7 +709,211 @@
             }
         }
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>IMF for Investment Advisors: Add Insurance Legally</title>
+    <meta name="description" content="SEBI RIAs cannot earn insurance commission directly. A compliant IRDAI Insurance Marketing Firm (IMF) adds insurance revenue. Eligibility, cost, timeline.">
+    <link rel="canonical" href="/imf-for-investment-advisors/delhi">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="IMF for Investment Advisors: Add Insurance Legally">
+    <meta property="og:description" content="SEBI RIAs cannot earn insurance commission directly. A compliant IRDAI Insurance Marketing Firm (IMF) adds insurance revenue. Eligibility, cost, timeline.">
+    <meta property="og:url" content="/imf-for-investment-advisors/delhi">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="IMF for Investment Advisors: Add Insurance Legally">
+    <meta name="twitter:description" content="SEBI RIAs cannot earn insurance commission directly. A compliant IRDAI Insurance Marketing Firm (IMF) adds insurance revenue. Eligibility, cost, timeline.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "IMF for SEBI Registered Investment Advisers in Delhi",
+      "description": "End-to-end Insurance Marketing Firm (IMF) registration for SEBI-registered investment advisers in Delhi. Compliant, segregated insurance distribution arm with IRDAI registration, incorporation and Principal Officer onboarding.",
+      "url": "https://www.patronaccounting.com/imf-for-investment-advisors/delhi",
+      "serviceType": "IMF Registration for Investment Advisors",
+      "areaServed": {
+        "@type": "City",
+        "name": "Delhi",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Delhi"
+        }
+      },
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg",
+        "image": "https://www.patronaccounting.com/images/site-logo.svg",
+        "telephone": "+91-9459456700",
+        "email": "sales@patronaccounting.com",
+        "priceRange": "INR",
+        "areaServed": {
+          "@type": "City",
+          "name": "Delhi"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Delhi",
+          "addressRegion": "Delhi",
+          "addressCountry": "IN"
+        }
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "price": "24999",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.patronaccounting.com/imf-for-investment-advisors/delhi",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": "24999",
+          "priceCurrency": "INR"
+        }
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "name": "Patron Accounting LLP",
+      "url": "https://www.patronaccounting.com/",
+      "logo": "https://www.patronaccounting.com/images/site-logo.svg",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "telephone": "+91-9459456700",
+      "email": "sales@patronaccounting.com",
+      "priceRange": "INR 24,999 onwards",
+      "areaServed": {
+        "@type": "City",
+        "name": "Delhi",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Delhi"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Delhi",
+        "addressRegion": "Delhi",
+        "addressCountry": "IN"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "IMF Services",
+          "item": "https://www.patronaccounting.com/imf-services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "IMF for Investment Advisors in Delhi",
+          "item": "https://www.patronaccounting.com/imf-for-investment-advisors/delhi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "datePublished": "2026-06-30T08:00:00+05:30",
+      "dateModified": "2026-06-30T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can a SEBI registered investment adviser sell insurance and earn commission?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not directly. An individual RIA cannot undertake distribution or earn insurance commission under SEBI (Investment Advisers) Regulations 2013. The compliant route is a separate, segregated entity - an IRDAI-registered Insurance Marketing Firm (IMF) - which can distribute insurance and earn remuneration, kept at arm's length from your advisory practice."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can an investment advisor add insurance to their practice legally?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "By registering an Insurance Marketing Firm (IMF) with IRDAI. The IMF is a distinct Company, LLP or Co-operative Society with 'Insurance Marketing Firm' in its name. It can tie up with up to 2 life, 2 general and 2 health insurers. Non-individual RIAs must keep advisory and distribution clients segregated, which the separate IMF entity satisfies."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does IMF registration cost for an advisor in Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The IRDAI application fee is INR 5,000 (paid from an SBI account in the IMF's name), plus GST and incorporation charges. Patron's end-to-end IMF setup for advisors in Delhi starts from INR 24,999 (Exl GST and Govt. Charges), covering incorporation, IRDAI filing and Principal Officer onboarding."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does IMF registration take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Typically around 7 to 10 weeks end to end - covering entity incorporation, document preparation, the Principal Officer's 50-hour IRDAI training and exam, and IRDAI review on the imf.irda.gov.in portal. Timelines depend on document readiness and the Principal Officer's certification."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What documents and eligibility are required for an IMF?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Company, LLP or Co-operative Society with 'Insurance Marketing Firm' in its name, net worth of INR 10 lakh (INR 5 lakh for a single aspirational district) with a CA net-worth certificate, a qualified Principal Officer, Form A, NOC, ROC incorporation certificate, MoA/AoA plus PAN, an SBI account, insurer consent letters, a 3-year business plan, infrastructure photos and Fit and Proper declarations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does my existing SEBI RIA registration help or conflict with an IMF?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It does not conflict if structured correctly. SEBI requires advisory and distribution activities to be segregated. The IMF is a separate IRDAI-registered entity, so your SEBI RIA continues to give fee-only advice while the IMF handles insurance distribution. An IMF can also market SEBI-licensed financial products through Financial Service Executives."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can Patron help investment advisors in Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Patron Accounting handles IMF registration for investment advisers across India, including Delhi and the wider NCR. The IRDAI process is online via imf.irda.gov.in, so we support advisors in Delhi and nationwide, with aspirational-district options elsewhere that lower the net-worth requirement to INR 5 lakh."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is IMF registration permanent or does it need renewal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is now perpetual. Since 5 February 2026 (under the Sabka Bima Sabki Raksha / Amendment of Insurance Laws Act 2025), the earlier 3-year renewal was discontinued. You must, however, maintain net worth, hold Professional Indemnity cover, and file an annual CA net-worth certificate within 3 months of the financial year close."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1761,7 +1768,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

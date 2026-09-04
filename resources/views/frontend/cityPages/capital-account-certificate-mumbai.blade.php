@@ -1,146 +1,12 @@
 
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Capital Account Certificate in Mumbai 2026: FEMA and ECB | Patron Accounting</title>
-    <meta name="description" content="CA-certified capital account certificate for FEMA and ECB transactions: drawdown, utilisation and end-use under Section 6 and RBI rules. From INR 2,499.">
-    <link rel="canonical" href="/capital-account-certificate/mumbai">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Capital Account Certificate 2026: FEMA and ECB | Patron Accounting">
-    <meta property="og:description" content="CA-certified capital account certificate for FEMA and ECB transactions: drawdown, utilisation and end-use under Section 6 and RBI rules. From INR 2,499.">
-    <meta property="og:url" content="/capital-account-certificate/mumbai">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Capital Account Certificate 2026: FEMA and ECB | Patron Accounting">
-    <meta name="twitter:description" content="CA-certified capital account certificate for FEMA and ECB transactions: drawdown, utilisation and end-use under Section 6 and RBI rules. From INR 2,499.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/capital-account-certificate/mumbai/#service",
-        "name": "Capital Account Certificate in India",
-        "description": "CA-certified capital account certificate for FEMA capital-account transactions, most commonly External Commercial Borrowings, confirming drawdown, utilisation, end-use and compliance under Section 6 of FEMA and the RBI's 2026 ECB framework, with reporting via Form ECB 1 and the Loan Registration Number through an AD bank.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/capital-account-certificate/mumbai" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Capital account", "sameAs": "https://en.wikipedia.org/wiki/Capital_account" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Capital Account Certificate Service Plans",
-            "itemListElement": [
-                { "@type": "Offer", "name": "Capital Account Certificate (FEMA / ECB)", "priceCurrency": "INR", "price": "2499", "description": "CA verification and certification of ECB drawdown, utilisation, end-use, all-in-cost and reporting under Section 6 of FEMA and RBI rules, with UDIN." }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/capital-account-certificate/mumbai/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "FDI Compliance", "item": "https://www.patronaccounting.com/fdi-compliance" },
-            { "@type": "ListItem", "position": 3, "name": "Capital Account Certificate", "item": "https://www.patronaccounting.com/capital-account-certificate/mumbai" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/capital-account-certificate/mumbai/#faq",
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "mainEntity": [
-            { "@type": "Question", "name": "What is a capital account certificate?", "acceptedAnswer": { "@type": "Answer", "text": "A capital account certificate is a Chartered Accountant's certification relating to a capital account transaction under FEMA, a transaction that changes the assets or liabilities of a resident across the border. It most commonly supports an External Commercial Borrowing, certifying the drawdown, utilisation, end-use and compliance of the foreign currency loan under Section 6 of FEMA and RBI rules, and carries a UDIN." } },
-            { "@type": "Question", "name": "What is a capital account transaction under FEMA?", "acceptedAnswer": { "@type": "Answer", "text": "Under Section 6 of FEMA, a capital account transaction is one that alters the assets or liabilities outside India of a person resident in India, or in India of a person resident outside India. Examples include External Commercial Borrowings, foreign direct investment, overseas direct investment and acquisition of immovable property abroad. The RBI regulates debt flows such as ECB, while the Central Government handles certain other categories." } },
-            { "@type": "Question", "name": "What changed for ECB in 2026?", "acceptedAnswer": { "@type": "Answer", "text": "The FEMA (Borrowing and Lending) (First Amendment) Regulations, 2026, effective February 2026, recast the ECB framework. The minimum average maturity period was standardised to 3 years, borrower and lender eligibility was widened, end-use rules were clarified, and reporting was simplified. Form ECB 1 is now used to obtain the Loan Registration Number, a Revised Form ECB 1 is filed within 7 days of month-end, and the monthly Form ECB-2 certificate has been removed." } },
-            { "@type": "Question", "name": "When is a capital account certificate needed for an ECB?", "acceptedAnswer": { "@type": "Answer", "text": "It is needed to support the ECB lifecycle: confirming the drawdown of proceeds, certifying that utilisation matches the permitted end-uses, and supporting reporting to the AD bank and RBI. It is also used for conversions of ECB into equity, which are reported through Form FC-GPR. A clean CA certificate reduces the risk of a contravention and the need for compounding under FEMA." } },
-            { "@type": "Question", "name": "How much does a capital account certificate cost?", "acceptedAnswer": { "@type": "Answer", "text": "At Patron Accounting, a capital account certificate starts from Rs 2,499 (exclusive of GST and government charges). FEMA and ECB certification is specialised work, and the fee reflects verification of drawdown, utilisation and end-use against the RBI rules. The final fee depends on the complexity of the transaction, the number of drawdowns and the reporting involved, confirmed after a review of your loan or inflow." } },
-            { "@type": "Question", "name": "What is the all-in-cost ceiling and MAMP?", "acceptedAnswer": { "@type": "Answer", "text": "The all-in-cost ceiling is the RBI cap on the total interest and charges an ECB can carry, ensuring foreign borrowing stays within reasonable cost limits. The minimum average maturity period, or MAMP, is the minimum tenure of the ECB, standardised to 3 years under the 2026 amendment, with a 1 to 3 year option for eligible manufacturing borrowers up to USD 150 million. We check both before certifying compliance." } },
-            { "@type": "Question", "name": "Who reports an ECB to the RBI?", "acceptedAnswer": { "@type": "Answer", "text": "Reporting is routed through the borrower's Authorised Dealer Category I bank. The borrower obtains a Loan Registration Number using Form ECB 1 before drawdown, and files a Revised Form ECB 1 within 7 days of month-end if any reported parameter changes. We prepare the supporting capital account certificate and coordinate the documentation so your AD bank can report accurately and on time." } }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/capital-account-certificate/mumbai",
-        "name": "Capital Account Certificate in India",
-        "description": "CA-certified capital account certificate for FEMA and ECB transactions: drawdown, utilisation and end-use under Section 6 and RBI rules. From INR 2,499.",
-        "url": "https://www.patronaccounting.com/capital-account-certificate/mumbai",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/capital-account-certificate/mumbai/#service" },
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/capital-account-certificate/mumbai/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How to Obtain a Capital Account Certificate",
-        "description": "Five steps to obtain a CA capital account certificate for FEMA and ECB transactions: engagement, document submission, verification, compliance review, and certification with UDIN.",
-        "totalTime": "P5D",
-        "step": [
-            { "@type": "HowToStep", "name": "Engagement", "text": "Confirm the transaction type (ECB, FDI or conversion) and the reporting required." },
-            { "@type": "HowToStep", "name": "Document submission", "text": "Share the loan agreement, drawdown advices, utilisation records and bank statements." },
-            { "@type": "HowToStep", "name": "Verification", "text": "The CA verifies drawdown, utilisation and end-use under SA 500 (Audit Evidence)." },
-            { "@type": "HowToStep", "name": "Compliance review", "text": "End-use, all-in-cost and maturity are checked against RBI rules; reporting status confirmed." },
-            { "@type": "HowToStep", "name": "Certification and UDIN", "text": "The CA signs, seals and generates the UDIN, issuing the capital account certificate." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Capital Account Certificate Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Capital account transaction", "description": "A transaction that changes assets or liabilities across the border, under Section 6 of FEMA." },
-            { "@type": "DefinedTerm", "name": "ECB", "description": "External Commercial Borrowing, a foreign currency or rupee loan from a recognised non-resident lender." },
-            { "@type": "DefinedTerm", "name": "LRN", "description": "The Loan Registration Number obtained from the RBI before drawdown, via Form ECB 1." },
-            { "@type": "DefinedTerm", "name": "Drawdown", "description": "The actual receipt of the ECB proceeds by the borrower." },
-            { "@type": "DefinedTerm", "name": "All-in-cost ceiling", "description": "The RBI cap on interest and charges for an ECB." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -754,7 +620,146 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Capital Account Certificate in Mumbai 2026: FEMA and ECB | Patron Accounting</title>
+    <meta name="description" content="CA-certified capital account certificate for FEMA and ECB transactions: drawdown, utilisation and end-use under Section 6 and RBI rules. From INR 2,499.">
+    <link rel="canonical" href="/capital-account-certificate/mumbai">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Capital Account Certificate 2026: FEMA and ECB | Patron Accounting">
+    <meta property="og:description" content="CA-certified capital account certificate for FEMA and ECB transactions: drawdown, utilisation and end-use under Section 6 and RBI rules. From INR 2,499.">
+    <meta property="og:url" content="/capital-account-certificate/mumbai">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Capital Account Certificate 2026: FEMA and ECB | Patron Accounting">
+    <meta name="twitter:description" content="CA-certified capital account certificate for FEMA and ECB transactions: drawdown, utilisation and end-use under Section 6 and RBI rules. From INR 2,499.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/capital-account-certificate/mumbai/#service",
+        "name": "Capital Account Certificate in India",
+        "description": "CA-certified capital account certificate for FEMA capital-account transactions, most commonly External Commercial Borrowings, confirming drawdown, utilisation, end-use and compliance under Section 6 of FEMA and the RBI's 2026 ECB framework, with reporting via Form ECB 1 and the Loan Registration Number through an AD bank.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/capital-account-certificate/mumbai" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Capital account", "sameAs": "https://en.wikipedia.org/wiki/Capital_account" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Capital Account Certificate Service Plans",
+            "itemListElement": [
+                { "@type": "Offer", "name": "Capital Account Certificate (FEMA / ECB)", "priceCurrency": "INR", "price": "2499", "description": "CA verification and certification of ECB drawdown, utilisation, end-use, all-in-cost and reporting under Section 6 of FEMA and RBI rules, with UDIN." }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/capital-account-certificate/mumbai/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "FDI Compliance", "item": "https://www.patronaccounting.com/fdi-compliance" },
+            { "@type": "ListItem", "position": 3, "name": "Capital Account Certificate", "item": "https://www.patronaccounting.com/capital-account-certificate/mumbai" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/capital-account-certificate/mumbai/#faq",
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "mainEntity": [
+            { "@type": "Question", "name": "What is a capital account certificate?", "acceptedAnswer": { "@type": "Answer", "text": "A capital account certificate is a Chartered Accountant's certification relating to a capital account transaction under FEMA, a transaction that changes the assets or liabilities of a resident across the border. It most commonly supports an External Commercial Borrowing, certifying the drawdown, utilisation, end-use and compliance of the foreign currency loan under Section 6 of FEMA and RBI rules, and carries a UDIN." } },
+            { "@type": "Question", "name": "What is a capital account transaction under FEMA?", "acceptedAnswer": { "@type": "Answer", "text": "Under Section 6 of FEMA, a capital account transaction is one that alters the assets or liabilities outside India of a person resident in India, or in India of a person resident outside India. Examples include External Commercial Borrowings, foreign direct investment, overseas direct investment and acquisition of immovable property abroad. The RBI regulates debt flows such as ECB, while the Central Government handles certain other categories." } },
+            { "@type": "Question", "name": "What changed for ECB in 2026?", "acceptedAnswer": { "@type": "Answer", "text": "The FEMA (Borrowing and Lending) (First Amendment) Regulations, 2026, effective February 2026, recast the ECB framework. The minimum average maturity period was standardised to 3 years, borrower and lender eligibility was widened, end-use rules were clarified, and reporting was simplified. Form ECB 1 is now used to obtain the Loan Registration Number, a Revised Form ECB 1 is filed within 7 days of month-end, and the monthly Form ECB-2 certificate has been removed." } },
+            { "@type": "Question", "name": "When is a capital account certificate needed for an ECB?", "acceptedAnswer": { "@type": "Answer", "text": "It is needed to support the ECB lifecycle: confirming the drawdown of proceeds, certifying that utilisation matches the permitted end-uses, and supporting reporting to the AD bank and RBI. It is also used for conversions of ECB into equity, which are reported through Form FC-GPR. A clean CA certificate reduces the risk of a contravention and the need for compounding under FEMA." } },
+            { "@type": "Question", "name": "How much does a capital account certificate cost?", "acceptedAnswer": { "@type": "Answer", "text": "At Patron Accounting, a capital account certificate starts from Rs 2,499 (exclusive of GST and government charges). FEMA and ECB certification is specialised work, and the fee reflects verification of drawdown, utilisation and end-use against the RBI rules. The final fee depends on the complexity of the transaction, the number of drawdowns and the reporting involved, confirmed after a review of your loan or inflow." } },
+            { "@type": "Question", "name": "What is the all-in-cost ceiling and MAMP?", "acceptedAnswer": { "@type": "Answer", "text": "The all-in-cost ceiling is the RBI cap on the total interest and charges an ECB can carry, ensuring foreign borrowing stays within reasonable cost limits. The minimum average maturity period, or MAMP, is the minimum tenure of the ECB, standardised to 3 years under the 2026 amendment, with a 1 to 3 year option for eligible manufacturing borrowers up to USD 150 million. We check both before certifying compliance." } },
+            { "@type": "Question", "name": "Who reports an ECB to the RBI?", "acceptedAnswer": { "@type": "Answer", "text": "Reporting is routed through the borrower's Authorised Dealer Category I bank. The borrower obtains a Loan Registration Number using Form ECB 1 before drawdown, and files a Revised Form ECB 1 within 7 days of month-end if any reported parameter changes. We prepare the supporting capital account certificate and coordinate the documentation so your AD bank can report accurately and on time." } }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/capital-account-certificate/mumbai",
+        "name": "Capital Account Certificate in India",
+        "description": "CA-certified capital account certificate for FEMA and ECB transactions: drawdown, utilisation and end-use under Section 6 and RBI rules. From INR 2,499.",
+        "url": "https://www.patronaccounting.com/capital-account-certificate/mumbai",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/capital-account-certificate/mumbai/#service" },
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/capital-account-certificate/mumbai/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Obtain a Capital Account Certificate",
+        "description": "Five steps to obtain a CA capital account certificate for FEMA and ECB transactions: engagement, document submission, verification, compliance review, and certification with UDIN.",
+        "totalTime": "P5D",
+        "step": [
+            { "@type": "HowToStep", "name": "Engagement", "text": "Confirm the transaction type (ECB, FDI or conversion) and the reporting required." },
+            { "@type": "HowToStep", "name": "Document submission", "text": "Share the loan agreement, drawdown advices, utilisation records and bank statements." },
+            { "@type": "HowToStep", "name": "Verification", "text": "The CA verifies drawdown, utilisation and end-use under SA 500 (Audit Evidence)." },
+            { "@type": "HowToStep", "name": "Compliance review", "text": "End-use, all-in-cost and maturity are checked against RBI rules; reporting status confirmed." },
+            { "@type": "HowToStep", "name": "Certification and UDIN", "text": "The CA signs, seals and generates the UDIN, issuing the capital account certificate." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Capital Account Certificate Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Capital account transaction", "description": "A transaction that changes assets or liabilities across the border, under Section 6 of FEMA." },
+            { "@type": "DefinedTerm", "name": "ECB", "description": "External Commercial Borrowing, a foreign currency or rupee loan from a recognised non-resident lender." },
+            { "@type": "DefinedTerm", "name": "LRN", "description": "The Loan Registration Number obtained from the RBI before drawdown, via Form ECB 1." },
+            { "@type": "DefinedTerm", "name": "Drawdown", "description": "The actual receipt of the ECB proceeds by the borrower." },
+            { "@type": "DefinedTerm", "name": "All-in-cost ceiling", "description": "The RBI cap on interest and charges for an ECB." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1511,17 +1516,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1544,8 +1542,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1582,7 +1578,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (stable, not live date)
 (function(){
@@ -1593,3 +1588,19 @@ window.addEventListener('scroll', function() {
     if(el2)el2.textContent=dateStr;
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

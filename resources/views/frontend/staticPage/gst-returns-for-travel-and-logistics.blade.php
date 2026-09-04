@@ -1,155 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>GST Returns for Travel Logistics 2026 | Patron Accounting</title>
-    <meta name="description" content="GST returns for travel and logistics - tour operator 5% scheme under Heading 9985, GTA 5%/12% FCM/RCM, freight forwarders. Starting from INR 1,999 per month.">
-    <link rel="canonical" href="/gst-returns-for-travel-and-logistics">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="GST Returns for Travel Logistics 2026 | Patron Accounting">
-    <meta property="og:description" content="GST returns for travel and logistics - tour operator 5% scheme under Heading 9985, GTA 5%/12% FCM/RCM, freight forwarders. Starting from INR 1,999 per month.">
-    <meta property="og:url" content="/gst-returns-for-travel-and-logistics">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="GST Returns for Travel Logistics 2026 | Patron Accounting">
-    <meta name="twitter:description" content="GST returns for travel and logistics - tour operator 5% scheme under Heading 9985, GTA 5%/12% FCM/RCM, freight forwarders. Starting from INR 1,999 per month.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/gst-returns-for-travel-and-logistics/#service",
-        "name": "GST Returns for Travel and Logistics",
-        "description": "Monthly managed GST compliance for tour operators, travel agencies, goods transport agencies (GTA), freight forwarders, and customs brokers. Covers Heading 9985(i) tour operator 5% scheme, Heading 9985(iii) ancillary 18%, GTA 5%/12% FCM/RCM under Notification 5/2022-CT(R) with Annexure V management, Heading 9967 freight forwarder 18%, Mohit Minerals ocean freight refunds, Rule 33 pure-agent disclosure, and full GSTR-1/GSTR-3B filing.",
-        "serviceType": "GST Compliance for Travel and Logistics",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-returns-for-travel-and-logistics" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [
-            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
-            { "@type": "Thing", "name": "Logistics", "sameAs": "https://en.wikipedia.org/wiki/Logistics" }
-        ],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "GST Returns for Travel and Logistics Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "Monthly GST Returns - Single Business / GSTIN",
-                    "priceCurrency": "INR",
-                    "price": "1999",
-                    "description": "Monthly GSTR-1 and GSTR-3B filing with stream-wise rate classification for a single travel or logistics business or GSTIN"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/gst-returns-for-travel-and-logistics/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
-            { "@type": "ListItem", "position": 3, "name": "GST Returns for Travel and Logistics", "item": "https://www.patronaccounting.com/gst-returns-for-travel-and-logistics" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/gst-returns-for-travel-and-logistics/#faq",
-        "datePublished": "2026-05-27T08:00:00+05:30",
-        "dateModified": "2026-06-01T08:00:00+05:30",
-        "mainEntity": [
-
-            {
-                "@type": "Question",
-                "name": "What is the GST rate on tour operator services?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Under Heading 9985(i) of Notification 11/2017-Central Tax (Rate) dated 28 June 2017, tour operator services attract 5 percent GST (2.5 percent CGST plus 2.5 percent SGST) without input tax credit, except ITC on services procured from another tour operator in the same line of business. The invoice must show the gross amount inclusive of accommodation and transportation. There is no option to charge 18 percent with full ITC on tour operator services."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can a tour operator charge 18 percent with full ITC instead?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "No. Heading 9985(iii) at 18 percent applies only to ancillary support services that do not qualify as tour operator services. The Crown Tours AAR Rajasthan (2020) and TUI India Delhi AAR (2019) confirm that supply remains tour operator service at 5 percent even if the supplier voluntarily charges 18 percent. Where a separate ancillary service is provided, that distinct service can be billed at 18 percent under 9985(iii) with full ITC."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the GST rate for a Goods Transport Agency (GTA)?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Post 18 July 2022 per Notification 5/2022-Central Tax (Rate), a GTA has three options: (a) 5 percent under reverse charge by default (recipient pays, no GTA ITC); (b) 5 percent under forward charge by Annexure V (GTA pays, no GTA ITC); or (c) 12 percent under forward charge by Annexure V (GTA pays, full GTA ITC). Recipient under RCM can claim ITC subject to Section 16 conditions."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is Annexure V and when must it be filed?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Annexure V is the declaration filed by a GTA on or before 15 March of the preceding financial year to opt for forward charge mechanism (5 percent or 12 percent) for the next FY. Format notified vide Notification 3/2022-CT(R) dated 13 July 2022. Once filed, the option cannot be withdrawn for that FY. Missing the deadline means default RCM for the next FY."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the GST rate for freight forwarders and customs house agents?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Freight forwarders, customs house agents (CHA), and auxiliary transport service providers attract 18 percent GST with full ITC under Heading 9967 of Notification 11/2017-Central Tax (Rate). Where the freight forwarder also acts as a pure agent for certain reimbursements (statutory deposits, third-party invoices), Rule 33 of the CGST Rules excludes such reimbursements from supply value subject to conditions."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What was the Mohit Minerals Supreme Court ruling on ocean freight?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "In Union of India vs Mohit Minerals (Civil Appeal 1390 of 2022, judgment dated 19 May 2022), the Supreme Court struck down the levy of GST on ocean freight under reverse charge mechanism for CIF imports. The Court held that since the ocean freight is already part of the assessable value on which IGST is paid at customs clearance, a separate RCM levy amounts to double taxation. Importers can claim refund of past RCM payments within the 2-year window under Section 54(1)."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Are pure-agent reimbursements taxable for travel agents?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "No, provided Rule 33 conditions are met. Pure-agent reimbursements (airline ticket cost, hotel room cost, statutory deposits) where the supplier acts on contractual mandate of the recipient, separately discloses the reimbursement on the invoice, and the recipient is the beneficiary of the underlying supply are excluded from the value of supply. The mark-up or commission charged by the travel agent is taxable separately."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the cost of monthly GST returns for travel and logistics at Patron Accounting?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Starting from INR 1,999 per month (Exclusive of GST and government charges) for single-business / single-GSTIN basic compliance. Monthly returns plus Annexure V plus pure-agent setup package starts from INR 3,499 per month. Mohit Minerals refund applications, multi-state logistics compliance, scheme reclassification, and DRC-01C reply are quoted separately based on scope."
-                }
-            }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -763,7 +618,157 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>GST Returns for Travel Logistics 2026 | Patron Accounting</title>
+    <meta name="description" content="GST returns for travel and logistics - tour operator 5% scheme under Heading 9985, GTA 5%/12% FCM/RCM, freight forwarders. Starting from INR 1,999 per month.">
+    <link rel="canonical" href="/gst-returns-for-travel-and-logistics">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="GST Returns for Travel Logistics 2026 | Patron Accounting">
+    <meta property="og:description" content="GST returns for travel and logistics - tour operator 5% scheme under Heading 9985, GTA 5%/12% FCM/RCM, freight forwarders. Starting from INR 1,999 per month.">
+    <meta property="og:url" content="/gst-returns-for-travel-and-logistics">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GST Returns for Travel Logistics 2026 | Patron Accounting">
+    <meta name="twitter:description" content="GST returns for travel and logistics - tour operator 5% scheme under Heading 9985, GTA 5%/12% FCM/RCM, freight forwarders. Starting from INR 1,999 per month.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/gst-returns-for-travel-and-logistics/#service",
+        "name": "GST Returns for Travel and Logistics",
+        "description": "Monthly managed GST compliance for tour operators, travel agencies, goods transport agencies (GTA), freight forwarders, and customs brokers. Covers Heading 9985(i) tour operator 5% scheme, Heading 9985(iii) ancillary 18%, GTA 5%/12% FCM/RCM under Notification 5/2022-CT(R) with Annexure V management, Heading 9967 freight forwarder 18%, Mohit Minerals ocean freight refunds, Rule 33 pure-agent disclosure, and full GSTR-1/GSTR-3B filing.",
+        "serviceType": "GST Compliance for Travel and Logistics",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-returns-for-travel-and-logistics" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [
+            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
+            { "@type": "Thing", "name": "Logistics", "sameAs": "https://en.wikipedia.org/wiki/Logistics" }
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "GST Returns for Travel and Logistics Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "Monthly GST Returns - Single Business / GSTIN",
+                    "priceCurrency": "INR",
+                    "price": "1999",
+                    "description": "Monthly GSTR-1 and GSTR-3B filing with stream-wise rate classification for a single travel or logistics business or GSTIN"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/gst-returns-for-travel-and-logistics/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
+            { "@type": "ListItem", "position": 3, "name": "GST Returns for Travel and Logistics", "item": "https://www.patronaccounting.com/gst-returns-for-travel-and-logistics" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/gst-returns-for-travel-and-logistics/#faq",
+        "datePublished": "2026-05-27T08:00:00+05:30",
+        "dateModified": "2026-06-01T08:00:00+05:30",
+        "mainEntity": [
+
+            {
+                "@type": "Question",
+                "name": "What is the GST rate on tour operator services?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Under Heading 9985(i) of Notification 11/2017-Central Tax (Rate) dated 28 June 2017, tour operator services attract 5 percent GST (2.5 percent CGST plus 2.5 percent SGST) without input tax credit, except ITC on services procured from another tour operator in the same line of business. The invoice must show the gross amount inclusive of accommodation and transportation. There is no option to charge 18 percent with full ITC on tour operator services."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can a tour operator charge 18 percent with full ITC instead?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No. Heading 9985(iii) at 18 percent applies only to ancillary support services that do not qualify as tour operator services. The Crown Tours AAR Rajasthan (2020) and TUI India Delhi AAR (2019) confirm that supply remains tour operator service at 5 percent even if the supplier voluntarily charges 18 percent. Where a separate ancillary service is provided, that distinct service can be billed at 18 percent under 9985(iii) with full ITC."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the GST rate for a Goods Transport Agency (GTA)?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Post 18 July 2022 per Notification 5/2022-Central Tax (Rate), a GTA has three options: (a) 5 percent under reverse charge by default (recipient pays, no GTA ITC); (b) 5 percent under forward charge by Annexure V (GTA pays, no GTA ITC); or (c) 12 percent under forward charge by Annexure V (GTA pays, full GTA ITC). Recipient under RCM can claim ITC subject to Section 16 conditions."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is Annexure V and when must it be filed?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Annexure V is the declaration filed by a GTA on or before 15 March of the preceding financial year to opt for forward charge mechanism (5 percent or 12 percent) for the next FY. Format notified vide Notification 3/2022-CT(R) dated 13 July 2022. Once filed, the option cannot be withdrawn for that FY. Missing the deadline means default RCM for the next FY."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the GST rate for freight forwarders and customs house agents?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Freight forwarders, customs house agents (CHA), and auxiliary transport service providers attract 18 percent GST with full ITC under Heading 9967 of Notification 11/2017-Central Tax (Rate). Where the freight forwarder also acts as a pure agent for certain reimbursements (statutory deposits, third-party invoices), Rule 33 of the CGST Rules excludes such reimbursements from supply value subject to conditions."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What was the Mohit Minerals Supreme Court ruling on ocean freight?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "In Union of India vs Mohit Minerals (Civil Appeal 1390 of 2022, judgment dated 19 May 2022), the Supreme Court struck down the levy of GST on ocean freight under reverse charge mechanism for CIF imports. The Court held that since the ocean freight is already part of the assessable value on which IGST is paid at customs clearance, a separate RCM levy amounts to double taxation. Importers can claim refund of past RCM payments within the 2-year window under Section 54(1)."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Are pure-agent reimbursements taxable for travel agents?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No, provided Rule 33 conditions are met. Pure-agent reimbursements (airline ticket cost, hotel room cost, statutory deposits) where the supplier acts on contractual mandate of the recipient, separately discloses the reimbursement on the invoice, and the recipient is the beneficiary of the underlying supply are excluded from the value of supply. The mark-up or commission charged by the travel agent is taxable separately."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the cost of monthly GST returns for travel and logistics at Patron Accounting?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Starting from INR 1,999 per month (Exclusive of GST and government charges) for single-business / single-GSTIN basic compliance. Monthly returns plus Annexure V plus pure-agent setup package starts from INR 3,499 per month. Mohit Minerals refund applications, multi-state logistics compliance, scheme reclassification, and DRC-01C reply are quoted separately based on scope."
+                }
+            }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1625,17 +1630,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1658,8 +1656,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1696,7 +1692,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1707,4 +1702,20 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+
 

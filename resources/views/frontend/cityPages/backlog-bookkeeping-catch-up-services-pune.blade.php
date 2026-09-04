@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,204 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>Backlog Bookkeeping in Pune 2026 | Patron Accounting</title>
-    <meta name="description" content="Catch-up and backlog bookkeeping in Pune from INR 9,999 per month-of-backlog. CA-led GST and ledger cleanup for Hinjewadi and Chakan firms.">
-    <link rel="canonical" href="/backlog-bookkeeping-catch-up-services/pune">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Backlog Bookkeeping in Pune 2026 | Patron Accounting">
-    <meta property="og:description" content="Catch-up and backlog bookkeeping in Pune from INR 9,999 per month-of-backlog. CA-led GST and ledger cleanup for Hinjewadi and Chakan firms.">
-    <meta property="og:url" content="/backlog-bookkeeping-catch-up-services/pune">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Backlog Bookkeeping in Pune 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Catch-up and backlog bookkeeping in Pune from INR 9,999 per month-of-backlog. CA-led GST and ledger cleanup for Hinjewadi and Chakan firms.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services/pune#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Backlog Bookkeeping and Catch-Up Services",
-          "item": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Backlog Bookkeeping and Catch-Up Services in Pune",
-          "item": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services/pune"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services/pune#faq",
-      "datePublished": "2026-06-23T08:00:00+05:30",
-      "dateModified": "2026-06-23T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is backlog or catch-up bookkeeping for a Pune business?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Backlog bookkeeping is the reconstruction of unrecorded accounting for past months or years so your books become accurate and tax-ready. For Pune firms it covers ledger entry, bank reconciliation, GST 2B matching, and ledger cleanup under the CGST Act 2017 and Section 44AA of the Income Tax Act."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does backlog bookkeeping cost in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patron Accounting charges Starting from INR 9,999 per month-of-backlog (Exl GST and Govt. Charges). The final fee depends on transaction volume, number of bank accounts, GST registrations, and how far behind the books are. Hinjewadi startups and Chakan manufacturers receive a fixed scope quote before work begins."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How far back can catch-up bookkeeping go in India?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "There is no fixed limit, but Rule 6F(5) of the Income Tax Rules requires books to be retained for 6 years from the end of the relevant year. Patron commonly reconstructs 1 to 5 years of backlog for Pune SMEs using bank statements, invoices, and GST return data on the GST portal."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does it take to clear a bookkeeping backlog in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Most catch-up projects take 1 to 4 weeks per financial year of backlog. A Hinjewadi startup 6 months behind is usually cleared in 2 to 3 weeks. A Chakan manufacturer with multi-year inventory and multiple GSTINs may take 6 to 10 weeks, depending on document availability and transaction volume."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the GST late fee for backlog returns in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Under Section 47 of the CGST Act 2017, the GSTR-3B late fee is INR 50 per day (INR 25 CGST plus INR 25 SGST), or INR 20 per day for nil returns, capped per Act. Interest of 18 percent per year applies under Section 50 on unpaid tax. Patron computes and clears these during catch-up."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which documents are needed for backlog bookkeeping in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "You provide bank and credit card statements for the backlog period, sales and purchase invoices, GSTIN and PAN, expense bills, payroll records, and PTRC or PTEC details. Patron reconstructs missing entries from these and flags any gaps clearly before finalising the period."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you handle backlog bookkeeping in Tally and Zoho Books for Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Patron clears backlog directly inside Tally, Zoho Books, QuickBooks, or Xero, whichever your Pune business uses. We reconcile each ledger, post missing vouchers, and match the closing trial balance so ongoing monthly bookkeeping can continue without a data break."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is catch-up bookkeeping worth it before an audit or ITR filing?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Clean books reduce audit fees, prevent Section 271A penalties for not maintaining accounts, and protect eligible GST input tax credit and deductions. For Pune companies facing statutory audit or tax audit deadlines, catch-up bookkeeping is the prerequisite for accurate, defensible filings."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services/pune#service",
-      "name": "Backlog Bookkeeping and Catch-Up Services in Pune",
-      "description": "Backlog and catch-up bookkeeping in Pune reconstructs months or years of unrecorded accounts, reconciles bank and GST data, and delivers audit-ready books. Patron Accounting handles ledger cleanup, GST 2B matching, and trial balance verification for Hinjewadi, Magarpatta, and Chakan businesses.",
-      "serviceType": "Backlog Bookkeeping and Catch-Up Bookkeeping",
-      "url": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services/pune",
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Maharashtra"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#localbusiness-pune"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Bookkeeping",
-          "sameAs": "https://en.wikipedia.org/wiki/Bookkeeping"
-        },
-        {
-          "@type": "Thing",
-          "name": "Goods and Services Tax (India)",
-          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Backlog Bookkeeping Plans in Pune",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "price": "9999",
-            "priceSpecification": {
-              "@type": "UnitPriceSpecification",
-              "priceCurrency": "INR",
-              "price": "9999",
-              "unitText": "per month-of-backlog"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Catch-Up Bookkeeping per Month-of-Backlog"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness-pune",
-      "name": "Patron Accounting LLP - Pune",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services/pune",
-      "telephone": "+91-945-945-6700",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Pune",
-        "addressRegion": "Maharashtra",
-        "addressCountry": "IN"
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -826,7 +627,213 @@
         .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
 
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>Backlog Bookkeeping in Pune 2026 | Patron Accounting</title>
+    <meta name="description" content="Catch-up and backlog bookkeeping in Pune from INR 9,999 per month-of-backlog. CA-led GST and ledger cleanup for Hinjewadi and Chakan firms.">
+    <link rel="canonical" href="/backlog-bookkeeping-catch-up-services/pune">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Backlog Bookkeeping in Pune 2026 | Patron Accounting">
+    <meta property="og:description" content="Catch-up and backlog bookkeeping in Pune from INR 9,999 per month-of-backlog. CA-led GST and ledger cleanup for Hinjewadi and Chakan firms.">
+    <meta property="og:url" content="/backlog-bookkeeping-catch-up-services/pune">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Backlog Bookkeeping in Pune 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Catch-up and backlog bookkeeping in Pune from INR 9,999 per month-of-backlog. CA-led GST and ledger cleanup for Hinjewadi and Chakan firms.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services/pune#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Backlog Bookkeeping and Catch-Up Services",
+          "item": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Backlog Bookkeeping and Catch-Up Services in Pune",
+          "item": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services/pune"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services/pune#faq",
+      "datePublished": "2026-06-23T08:00:00+05:30",
+      "dateModified": "2026-06-23T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is backlog or catch-up bookkeeping for a Pune business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Backlog bookkeeping is the reconstruction of unrecorded accounting for past months or years so your books become accurate and tax-ready. For Pune firms it covers ledger entry, bank reconciliation, GST 2B matching, and ledger cleanup under the CGST Act 2017 and Section 44AA of the Income Tax Act."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does backlog bookkeeping cost in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patron Accounting charges Starting from INR 9,999 per month-of-backlog (Exl GST and Govt. Charges). The final fee depends on transaction volume, number of bank accounts, GST registrations, and how far behind the books are. Hinjewadi startups and Chakan manufacturers receive a fixed scope quote before work begins."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How far back can catch-up bookkeeping go in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There is no fixed limit, but Rule 6F(5) of the Income Tax Rules requires books to be retained for 6 years from the end of the relevant year. Patron commonly reconstructs 1 to 5 years of backlog for Pune SMEs using bank statements, invoices, and GST return data on the GST portal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to clear a bookkeeping backlog in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most catch-up projects take 1 to 4 weeks per financial year of backlog. A Hinjewadi startup 6 months behind is usually cleared in 2 to 3 weeks. A Chakan manufacturer with multi-year inventory and multiple GSTINs may take 6 to 10 weeks, depending on document availability and transaction volume."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the GST late fee for backlog returns in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under Section 47 of the CGST Act 2017, the GSTR-3B late fee is INR 50 per day (INR 25 CGST plus INR 25 SGST), or INR 20 per day for nil returns, capped per Act. Interest of 18 percent per year applies under Section 50 on unpaid tax. Patron computes and clears these during catch-up."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which documents are needed for backlog bookkeeping in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You provide bank and credit card statements for the backlog period, sales and purchase invoices, GSTIN and PAN, expense bills, payroll records, and PTRC or PTEC details. Patron reconstructs missing entries from these and flags any gaps clearly before finalising the period."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you handle backlog bookkeeping in Tally and Zoho Books for Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Patron clears backlog directly inside Tally, Zoho Books, QuickBooks, or Xero, whichever your Pune business uses. We reconcile each ledger, post missing vouchers, and match the closing trial balance so ongoing monthly bookkeeping can continue without a data break."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is catch-up bookkeeping worth it before an audit or ITR filing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Clean books reduce audit fees, prevent Section 271A penalties for not maintaining accounts, and protect eligible GST input tax credit and deductions. For Pune companies facing statutory audit or tax audit deadlines, catch-up bookkeeping is the prerequisite for accurate, defensible filings."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services/pune#service",
+      "name": "Backlog Bookkeeping and Catch-Up Services in Pune",
+      "description": "Backlog and catch-up bookkeeping in Pune reconstructs months or years of unrecorded accounts, reconciles bank and GST data, and delivers audit-ready books. Patron Accounting handles ledger cleanup, GST 2B matching, and trial balance verification for Hinjewadi, Magarpatta, and Chakan businesses.",
+      "serviceType": "Backlog Bookkeeping and Catch-Up Bookkeeping",
+      "url": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services/pune",
+      "areaServed": {
+        "@type": "City",
+        "name": "Pune",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Maharashtra"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#localbusiness-pune"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Bookkeeping",
+          "sameAs": "https://en.wikipedia.org/wiki/Bookkeeping"
+        },
+        {
+          "@type": "Thing",
+          "name": "Goods and Services Tax (India)",
+          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Backlog Bookkeeping Plans in Pune",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "price": "9999",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "INR",
+              "price": "9999",
+              "unitText": "per month-of-backlog"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Catch-Up Bookkeeping per Month-of-Backlog"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness-pune",
+      "name": "Patron Accounting LLP - Pune",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services/pune",
+      "telephone": "+91-945-945-6700",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Pune"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Pune",
+        "addressRegion": "Maharashtra",
+        "addressCountry": "IN"
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1577,7 +1584,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

@@ -1,155 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>GST Returns for Builders Real Estate Promoters 2026 | Patron Accounting</title>
-    <meta name="description" content="GST returns for builders - 1%/5% no ITC, RREP/REP, 80% URD threshold, cement 28% RCM, Notification 3/2019-CTR. Starting from INR 2,499 per month.">
-    <link rel="canonical" href="/gst-returns-for-builders-and-real-estate-promoters">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="GST Returns for Builders Real Estate Promoters 2026 | Patron Accounting">
-    <meta property="og:description" content="GST returns for builders - 1%/5% no ITC, RREP/REP, 80% URD threshold, cement 28% RCM, Notification 3/2019-CTR. Starting from INR 2,499 per month.">
-    <meta property="og:url" content="/gst-returns-for-builders-and-real-estate-promoters">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="GST Returns for Builders Real Estate Promoters 2026 | Patron Accounting">
-    <meta name="twitter:description" content="GST returns for builders - 1%/5% no ITC, RREP/REP, 80% URD threshold, cement 28% RCM, Notification 3/2019-CTR. Starting from INR 2,499 per month.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/gst-returns-for-builders-and-real-estate-promoters/#service",
-        "name": "GST Returns for Builders and Real Estate Promoters",
-        "description": "Monthly managed GST compliance for RERA-registered builders, real estate promoters, JDA partners, and turnkey developers. Covers post-1 April 2019 builder regime under Notification 3/2019-CTR (1% affordable / 5% other / 5% RREP commercial without ITC; 1.5%/7.5%/12% REP), 80% URD threshold (Notification 7/2019-CT(R)), cement 28% URD RCM, JDA landowner-share at CC date (Notification 6/2019), TDR/FSI 18% RCM cap (Notification 5/2019), and full GSTR-1/GSTR-3B filing.",
-        "serviceType": "GST Compliance for Builders and Real Estate Promoters",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-returns-for-builders-and-real-estate-promoters" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [
-            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
-            { "@type": "Thing", "name": "Real estate development", "sameAs": "https://en.wikipedia.org/wiki/Real_estate_development" }
-        ],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "GST Returns for Builders and Real Estate Promoters Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "Monthly GST Returns - Single Project / GSTIN",
-                    "priceCurrency": "INR",
-                    "price": "2499",
-                    "description": "Monthly GSTR-1 and GSTR-3B filing, RREP/REP classification memo, and 80% URD monthly tracker for a single project or GSTIN"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/gst-returns-for-builders-and-real-estate-promoters/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
-            { "@type": "ListItem", "position": 3, "name": "GST Returns for Builders and Real Estate Promoters", "item": "https://www.patronaccounting.com/gst-returns-for-builders-and-real-estate-promoters" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/gst-returns-for-builders-and-real-estate-promoters/#faq",
-        "datePublished": "2026-05-27T08:00:00+05:30",
-        "dateModified": "2026-06-01T08:00:00+05:30",
-        "mainEntity": [
-
-            {
-                "@type": "Question",
-                "name": "What GST rate applies to builders under the new regime?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Under Notification 3/2019-Central Tax (Rate) effective 1 April 2019, RREP projects attract 1 percent on affordable residential apartments, 5 percent on other residential, and 5 percent on commercial apartments - all without input tax credit. REP projects attract 1.5 percent effective on affordable residential, 7.5 percent effective on other residential (no ITC after 1/3 land deduction), and 12 percent with ITC on commercial. Ongoing projects had a one-time Annexure IV option for old 8%/12% with-ITC rates."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the difference between RREP and REP?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "A Residential Real Estate Project (RREP) is one where the carpet area of commercial apartments is up to 15 percent of the total carpet area. A Real Estate Project (REP) is one where commercial carpet area exceeds 15 percent. In RREP, all apartments follow new-regime rates without ITC. In REP, commercial apartments attract 12 percent with full ITC while residential follows the new-regime rates without ITC."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the 80 percent URD threshold for builders?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Per Notification 7/2019-Central Tax (Rate), a promoter must procure at least 80 percent of the value of inputs and input services (excluding development rights, TDR / FSI, land, electricity, high-speed diesel, motor spirit, natural gas) from registered suppliers. Where the unregistered share exceeds 20 percent, the promoter pays 18 percent GST on the shortfall under reverse charge. This computation is project-wise per FY and discharged in the March return."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How is cement from an unregistered supplier taxed?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Cement procured from an unregistered supplier always attracts 28 percent GST under reverse charge, regardless of whether the 80 percent threshold is met. This is a separate and additional obligation from the 80 percent URD rule. The 28 percent RCM is discharged by the promoter in cash under Section 49(4) in the same return as the purchase. No ITC is available under the new regime."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the affordable residential apartment definition?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "An apartment qualifies as affordable residential if the carpet area is up to 60 sqm in metropolitan areas (Bengaluru, Chennai, Delhi NCR, Hyderabad, Kolkata, Mumbai-MMR), or up to 90 sqm in non-metropolitan areas, AND the gross amount charged (including parking and preferential location) does not exceed INR 45 lakh, AND the apartment is intended for residential use as declared to RERA. All three conditions must be met."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "When does GST on JDA landowner share crystallise?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Under Notification 6/2019-Central Tax (Rate), the GST liability on transfer of development rights or FSI by a landowner to the promoter, and the corresponding GST on construction services supplied by the promoter to the landowner in a Joint Development Agreement, both crystallise on the date of issuance of the Completion Certificate or the date of first occupation of the project, whichever is earlier. Until then, the liability is deferred."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How is TDR or FSI taxed for builders?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Under Notification 5/2019-Central Tax (Rate), Transfer of Development Rights (TDR) or Floor Space Index (FSI) supplied to a promoter is taxed at 18 percent under reverse charge. The liability is capped at the GST that would be payable on the apartments remaining unsold at the date of issuance of the Completion Certificate. The promoter computes the cap, discharges the RCM in the relevant month, and documents the unsold-unit reconciliation."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the cost of monthly GST returns for builders at Patron Accounting?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Starting from INR 2,499 per month (Exclusive of GST and government charges) for single-project / single-GSTIN promoter compliance. Monthly returns plus URD tracking plus JDA plus TDR setup package starts from INR 5,999 per month. RREP / REP classification, multi-project compliance, JDA / TDR structuring memos, and DRC-01C reply are quoted separately based on scope."
-                }
-            }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -763,7 +618,157 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>GST Returns for Builders Real Estate Promoters 2026 | Patron Accounting</title>
+    <meta name="description" content="GST returns for builders - 1%/5% no ITC, RREP/REP, 80% URD threshold, cement 28% RCM, Notification 3/2019-CTR. Starting from INR 2,499 per month.">
+    <link rel="canonical" href="/gst-returns-for-builders-and-real-estate-promoters">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="GST Returns for Builders Real Estate Promoters 2026 | Patron Accounting">
+    <meta property="og:description" content="GST returns for builders - 1%/5% no ITC, RREP/REP, 80% URD threshold, cement 28% RCM, Notification 3/2019-CTR. Starting from INR 2,499 per month.">
+    <meta property="og:url" content="/gst-returns-for-builders-and-real-estate-promoters">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GST Returns for Builders Real Estate Promoters 2026 | Patron Accounting">
+    <meta name="twitter:description" content="GST returns for builders - 1%/5% no ITC, RREP/REP, 80% URD threshold, cement 28% RCM, Notification 3/2019-CTR. Starting from INR 2,499 per month.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/gst-returns-for-builders-and-real-estate-promoters/#service",
+        "name": "GST Returns for Builders and Real Estate Promoters",
+        "description": "Monthly managed GST compliance for RERA-registered builders, real estate promoters, JDA partners, and turnkey developers. Covers post-1 April 2019 builder regime under Notification 3/2019-CTR (1% affordable / 5% other / 5% RREP commercial without ITC; 1.5%/7.5%/12% REP), 80% URD threshold (Notification 7/2019-CT(R)), cement 28% URD RCM, JDA landowner-share at CC date (Notification 6/2019), TDR/FSI 18% RCM cap (Notification 5/2019), and full GSTR-1/GSTR-3B filing.",
+        "serviceType": "GST Compliance for Builders and Real Estate Promoters",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-returns-for-builders-and-real-estate-promoters" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [
+            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
+            { "@type": "Thing", "name": "Real estate development", "sameAs": "https://en.wikipedia.org/wiki/Real_estate_development" }
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "GST Returns for Builders and Real Estate Promoters Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "Monthly GST Returns - Single Project / GSTIN",
+                    "priceCurrency": "INR",
+                    "price": "2499",
+                    "description": "Monthly GSTR-1 and GSTR-3B filing, RREP/REP classification memo, and 80% URD monthly tracker for a single project or GSTIN"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/gst-returns-for-builders-and-real-estate-promoters/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
+            { "@type": "ListItem", "position": 3, "name": "GST Returns for Builders and Real Estate Promoters", "item": "https://www.patronaccounting.com/gst-returns-for-builders-and-real-estate-promoters" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/gst-returns-for-builders-and-real-estate-promoters/#faq",
+        "datePublished": "2026-05-27T08:00:00+05:30",
+        "dateModified": "2026-06-01T08:00:00+05:30",
+        "mainEntity": [
+
+            {
+                "@type": "Question",
+                "name": "What GST rate applies to builders under the new regime?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Under Notification 3/2019-Central Tax (Rate) effective 1 April 2019, RREP projects attract 1 percent on affordable residential apartments, 5 percent on other residential, and 5 percent on commercial apartments - all without input tax credit. REP projects attract 1.5 percent effective on affordable residential, 7.5 percent effective on other residential (no ITC after 1/3 land deduction), and 12 percent with ITC on commercial. Ongoing projects had a one-time Annexure IV option for old 8%/12% with-ITC rates."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the difference between RREP and REP?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "A Residential Real Estate Project (RREP) is one where the carpet area of commercial apartments is up to 15 percent of the total carpet area. A Real Estate Project (REP) is one where commercial carpet area exceeds 15 percent. In RREP, all apartments follow new-regime rates without ITC. In REP, commercial apartments attract 12 percent with full ITC while residential follows the new-regime rates without ITC."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the 80 percent URD threshold for builders?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Per Notification 7/2019-Central Tax (Rate), a promoter must procure at least 80 percent of the value of inputs and input services (excluding development rights, TDR / FSI, land, electricity, high-speed diesel, motor spirit, natural gas) from registered suppliers. Where the unregistered share exceeds 20 percent, the promoter pays 18 percent GST on the shortfall under reverse charge. This computation is project-wise per FY and discharged in the March return."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How is cement from an unregistered supplier taxed?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Cement procured from an unregistered supplier always attracts 28 percent GST under reverse charge, regardless of whether the 80 percent threshold is met. This is a separate and additional obligation from the 80 percent URD rule. The 28 percent RCM is discharged by the promoter in cash under Section 49(4) in the same return as the purchase. No ITC is available under the new regime."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the affordable residential apartment definition?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "An apartment qualifies as affordable residential if the carpet area is up to 60 sqm in metropolitan areas (Bengaluru, Chennai, Delhi NCR, Hyderabad, Kolkata, Mumbai-MMR), or up to 90 sqm in non-metropolitan areas, AND the gross amount charged (including parking and preferential location) does not exceed INR 45 lakh, AND the apartment is intended for residential use as declared to RERA. All three conditions must be met."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "When does GST on JDA landowner share crystallise?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Under Notification 6/2019-Central Tax (Rate), the GST liability on transfer of development rights or FSI by a landowner to the promoter, and the corresponding GST on construction services supplied by the promoter to the landowner in a Joint Development Agreement, both crystallise on the date of issuance of the Completion Certificate or the date of first occupation of the project, whichever is earlier. Until then, the liability is deferred."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How is TDR or FSI taxed for builders?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Under Notification 5/2019-Central Tax (Rate), Transfer of Development Rights (TDR) or Floor Space Index (FSI) supplied to a promoter is taxed at 18 percent under reverse charge. The liability is capped at the GST that would be payable on the apartments remaining unsold at the date of issuance of the Completion Certificate. The promoter computes the cap, discharges the RCM in the relevant month, and documents the unsold-unit reconciliation."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the cost of monthly GST returns for builders at Patron Accounting?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Starting from INR 2,499 per month (Exclusive of GST and government charges) for single-project / single-GSTIN promoter compliance. Monthly returns plus URD tracking plus JDA plus TDR setup package starts from INR 5,999 per month. RREP / REP classification, multi-project compliance, JDA / TDR structuring memos, and DRC-01C reply are quoted separately based on scope."
+                }
+            }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1629,17 +1634,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1662,8 +1660,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1700,7 +1696,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1711,4 +1706,20 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+
 

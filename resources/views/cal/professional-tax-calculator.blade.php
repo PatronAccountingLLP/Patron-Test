@@ -1,67 +1,5 @@
 @extends('layouts.app')
-@section('meta')
-    <title>Professional Tax Calculator | State-Wise PT Slabs 2026</title>
-    <meta name="description" content="Professional Tax Calculator: compute monthly &amp; annual PT for all Indian states, with gender-specific Maharashtra slabs and special-month rates. Calculate free!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/professional-tax-calculator">
-    <meta property="og:title" content="Professional Tax Calculator &mdash; State-Wise PT Slabs 2026">
-    <meta property="og:description" content="Calculate Professional Tax for all Indian states with correct slabs, gender rules, and special months.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/professional-tax-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Professional Tax Calculator &mdash; State-Wise PT Slabs 2026">
-    <meta name="twitter:description" content="Monthly & annual Professional Tax for all Indian states. Gender slabs, special months. Free!">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-<script type="application/ld+json">
-    {
-      "@context": "https://schema.org", "@type": "WebApplication",
-      "name": "Professional Tax Calculator India",
-      "description": "Professional Tax Calculator computes monthly and annual Professional Tax liability for all Indian states including Maharashtra gender-specific slabs, Karnataka and Maharashtra special month rates, and identifies states with no PT. Covers Article 276 constitutional limit of Rs 2500 per year with state-wise slab tables for FY 2025-26.",
-      "url": "https://www.patronaccounting.com/tools/professional-tax-calculator",
-      "applicationCategory": "UtilityApplication", "operatingSystem": "Any",
-      "datePublished": "2026-03-05", "dateModified": "2026-03-05",
-      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" },
-      "author": { "@type": "Person", "@id": "https://patronaccounting.com/#team", "name": "CA & CS Patron Accounting Team", "jobTitle": "Chartered Accountants & Company Secretaries", "url": "https://www.patronaccounting.com/contact-page", "sameAs": ["https://www.linkedin.com/company/patron-accounting"], "hasCredential": [{ "@type": "EducationalOccupationalCredential", "credentialCategory": "Professional Certification", "name": "Chartered Accountant (CA)", "recognizedBy": { "@type": "Organization", "name": "Institute of Chartered Accountants of India", "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India" } }] },
-      "publisher": { "@type": "Organization", "name": "Patron Accounting LLP", "url": "https://www.patronaccounting.com", "logo": { "@type": "ImageObject", "url": "https://www.patronaccounting.com/images/site-logo.svg" } },
-      "provider": { "@id": "https://patronaccounting.com/#organization" }
-    }
-    </script>
-<script type="application/ld+json">
-    { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-      {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-      {"@type": "ListItem", "position": 3, "name": "Professional Tax Calculator", "item": "https://www.patronaccounting.com/tools/professional-tax-calculator"}
-    ]}
-    </script>
-<script type="application/ld+json">
-    { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
-      { "@type": "Question", "name": "What is Professional Tax in India?", "acceptedAnswer": { "@type": "Answer", "text": "Professional Tax is a state-level direct tax levied on income earned from employment, profession, trade, or business. It is authorised under Article 276 of the Indian Constitution with a maximum limit of Rs 2,500 per year. Currently 21 states and 1 union territory levy PT. The employer deducts PT from salary and deposits it with the state government. It is deductible from taxable income under Section 16(iii) of the Income Tax Act." } },
-      { "@type": "Question", "name": "Which states levy Professional Tax in India?", "acceptedAnswer": { "@type": "Answer", "text": "States levying PT include Maharashtra, Karnataka, West Bengal, Andhra Pradesh, Telangana, Tamil Nadu, Gujarat, Madhya Pradesh, Kerala, Assam, Bihar, Odisha, Jharkhand, Meghalaya, Tripura, Manipur, Sikkim, Chhattisgarh, Mizoram, Nagaland, and Puducherry. States like Delhi, Uttar Pradesh, Rajasthan, Haryana, Punjab, Uttarakhand, and Himachal Pradesh do not levy Professional Tax." } },
-      { "@type": "Question", "name": "What is the maximum Professional Tax per year?", "acceptedAnswer": { "@type": "Answer", "text": "The maximum Professional Tax is Rs 2,500 per year per person as per Article 276(2) of the Indian Constitution. No state can charge more than this amount annually. Most states reach this cap for employees earning above certain thresholds. Maharashtra and Karnataka both charge Rs 2,500 per year for higher salary brackets by applying a special higher rate in one month \u2014 March for Maharashtra and February for Karnataka." } },
-      { "@type": "Question", "name": "How is Professional Tax calculated in Maharashtra?", "acceptedAnswer": { "@type": "Answer", "text": "Maharashtra has gender-specific PT slabs. For males: salary up to Rs 7,500 is nil, Rs 7,501 to Rs 10,000 is Rs 175 per month, above Rs 10,000 is Rs 200 per month with Rs 300 in March. For females: salary up to Rs 25,000 is nil, above Rs 25,000 is Rs 200 per month with Rs 300 in March. Annual PT is Rs 2,500 for males above Rs 10,000 and Rs 2,500 for females above Rs 25,000." } },
-      { "@type": "Question", "name": "Is Professional Tax deductible from income tax?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, Professional Tax paid during the year is fully deductible from salary income under Section 16(iii) of the Income Tax Act. This deduction is available under both old and new tax regimes. For an employee paying Rs 2,500 PT annually in the 30 percent tax bracket, this translates to approximately Rs 780 income tax saving including cess. The deduction is claimed automatically in the salary computation." } },
-      { "@type": "Question", "name": "Are women exempt from Professional Tax in Maharashtra?", "acceptedAnswer": { "@type": "Answer", "text": "Women earning up to Rs 25,000 per month are fully exempt from Professional Tax in Maharashtra. This is a significantly higher threshold than the male exemption limit of Rs 7,500. Women earning above Rs 25,000 pay the same rates as men \u2014 Rs 200 per month with Rs 300 in March for a total of Rs 2,500 annually. This gender-specific benefit saves women earning between Rs 7,501 and Rs 25,000 up to Rs 2,500 per year." } },
-      { "@type": "Question", "name": "Why is Maharashtra PT different in February or March?", "acceptedAnswer": { "@type": "Answer", "text": "Maharashtra charges Rs 300 instead of Rs 200 in March (the last month of the financial year) for employees earning above Rs 10,000. This is to reach the constitutional maximum of Rs 2,500 annually: Rs 200 times 11 months plus Rs 300 in March equals Rs 2,500. Karnataka follows a similar pattern but applies the Rs 300 rate in February instead of March. This special month adjustment is unique to these two states." } },
-      { "@type": "Question", "name": "What happens if Professional Tax is not paid on time?", "acceptedAnswer": { "@type": "Answer", "text": "Late payment of Professional Tax attracts penalties and interest. In Maharashtra, interest at 1.25 percent per month is charged on the outstanding amount. Karnataka levies 1.25 percent monthly interest plus up to 50 percent penalty. Other states have similar penalty provisions. The employer is liable for non-deduction and non-payment \u2014 not the employee. Business licences may be suspended for persistent non-compliance." } },
-      { "@type": "Question", "name": "Do self-employed professionals pay Professional Tax?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, self-employed professionals like doctors, lawyers, chartered accountants, architects, and business owners are liable for Professional Tax in states that levy it. They must obtain a Professional Tax Enrolment Certificate (PTEC) and pay PT directly to the state government. In Maharashtra, self-employed professionals earning above Rs 10,000 per month pay Rs 2,500 annually. The payment frequency varies by state." } },
-      { "@type": "Question", "name": "How does remote work affect Professional Tax?", "acceptedAnswer": { "@type": "Answer", "text": "Professional Tax is generally levied based on where the employee works, not the employer location. If you work from home in Maharashtra but your company is headquartered in Delhi, you are liable for Maharashtra PT. The employer should register for PT in the state where remote employees are located. Multi-state PT compliance is one of the biggest payroll challenges for companies with distributed teams." } },
-      { "@type": "Question", "name": "What is PTRC and PTEC in Maharashtra?", "acceptedAnswer": { "@type": "Answer", "text": "PTRC (Professional Tax Registration Certificate) is for employers who deduct PT from employee salaries. PTEC (Professional Tax Enrolment Certificate) is for individuals paying PT on their own income including self-employed professionals and business owners. Both are required registrations under the Maharashtra State Tax on Professions Act 1975. Registration is done online through the mahagst.gov.in portal within 30 days of liability." } },
-      { "@type": "Question", "name": "Are senior citizens exempt from Professional Tax?", "acceptedAnswer": { "@type": "Answer", "text": "Exemptions for senior citizens vary by state. In some states, individuals above 65 years of age are exempt from Professional Tax regardless of income. Other exemptions may apply to parents or guardians of disabled children, members of armed forces, and individuals with permanent physical disability. Check your specific state PT Act for applicable exemptions. Our calculator flags common exemptions for each state." } },
-      { "@type": "Question", "name": "Can a CA help with Professional Tax compliance?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, a CA handles PT registration (PTRC and PTEC), monthly computation for all employees, timely payment and filing of returns, and ensures compliance across multiple states for companies with distributed teams. Patron Accounting provides complete payroll processing including multi-state PT calculation, EPF, ESI, and TDS compliance for businesses across India." } }
-    ]}
-    </script>
-@endsection
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+@push('styles')
 <style>
 
         :root {
@@ -844,6 +782,71 @@
 .toggle-btn{font-size:13px;padding:10px 12px}
 }
 </style>
+@endpush
+
+@section('meta')
+    <title>Professional Tax Calculator | State-Wise PT Slabs 2026</title>
+    <meta name="description" content="Professional Tax Calculator: compute monthly &amp; annual PT for all Indian states, with gender-specific Maharashtra slabs and special-month rates. Calculate free!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/professional-tax-calculator">
+    <meta property="og:title" content="Professional Tax Calculator &mdash; State-Wise PT Slabs 2026">
+    <meta property="og:description" content="Calculate Professional Tax for all Indian states with correct slabs, gender rules, and special months.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/professional-tax-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Professional Tax Calculator &mdash; State-Wise PT Slabs 2026">
+    <meta name="twitter:description" content="Monthly & annual Professional Tax for all Indian states. Gender slabs, special months. Free!">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+@endsection
+
+@section('schema')
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org", "@type": "WebApplication",
+      "name": "Professional Tax Calculator India",
+      "description": "Professional Tax Calculator computes monthly and annual Professional Tax liability for all Indian states including Maharashtra gender-specific slabs, Karnataka and Maharashtra special month rates, and identifies states with no PT. Covers Article 276 constitutional limit of Rs 2500 per year with state-wise slab tables for FY 2025-26.",
+      "url": "https://www.patronaccounting.com/tools/professional-tax-calculator",
+      "applicationCategory": "UtilityApplication", "operatingSystem": "Any",
+      "datePublished": "2026-03-05", "dateModified": "2026-03-05",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" },
+      "author": { "@type": "Person", "@id": "https://patronaccounting.com/#team", "name": "CA & CS Patron Accounting Team", "jobTitle": "Chartered Accountants & Company Secretaries", "url": "https://www.patronaccounting.com/contact-page", "sameAs": ["https://www.linkedin.com/company/patron-accounting"], "hasCredential": [{ "@type": "EducationalOccupationalCredential", "credentialCategory": "Professional Certification", "name": "Chartered Accountant (CA)", "recognizedBy": { "@type": "Organization", "name": "Institute of Chartered Accountants of India", "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India" } }] },
+      "publisher": { "@type": "Organization", "name": "Patron Accounting LLP", "url": "https://www.patronaccounting.com", "logo": { "@type": "ImageObject", "url": "https://www.patronaccounting.com/images/site-logo.svg" } },
+      "provider": { "@id": "https://patronaccounting.com/#organization" }
+    }
+    </script>
+<script type="application/ld+json">
+    { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+      {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+      {"@type": "ListItem", "position": 3, "name": "Professional Tax Calculator", "item": "https://www.patronaccounting.com/tools/professional-tax-calculator"}
+    ]}
+    </script>
+<script type="application/ld+json">
+    { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+      { "@type": "Question", "name": "What is Professional Tax in India?", "acceptedAnswer": { "@type": "Answer", "text": "Professional Tax is a state-level direct tax levied on income earned from employment, profession, trade, or business. It is authorised under Article 276 of the Indian Constitution with a maximum limit of Rs 2,500 per year. Currently 21 states and 1 union territory levy PT. The employer deducts PT from salary and deposits it with the state government. It is deductible from taxable income under Section 16(iii) of the Income Tax Act." } },
+      { "@type": "Question", "name": "Which states levy Professional Tax in India?", "acceptedAnswer": { "@type": "Answer", "text": "States levying PT include Maharashtra, Karnataka, West Bengal, Andhra Pradesh, Telangana, Tamil Nadu, Gujarat, Madhya Pradesh, Kerala, Assam, Bihar, Odisha, Jharkhand, Meghalaya, Tripura, Manipur, Sikkim, Chhattisgarh, Mizoram, Nagaland, and Puducherry. States like Delhi, Uttar Pradesh, Rajasthan, Haryana, Punjab, Uttarakhand, and Himachal Pradesh do not levy Professional Tax." } },
+      { "@type": "Question", "name": "What is the maximum Professional Tax per year?", "acceptedAnswer": { "@type": "Answer", "text": "The maximum Professional Tax is Rs 2,500 per year per person as per Article 276(2) of the Indian Constitution. No state can charge more than this amount annually. Most states reach this cap for employees earning above certain thresholds. Maharashtra and Karnataka both charge Rs 2,500 per year for higher salary brackets by applying a special higher rate in one month \u2014 March for Maharashtra and February for Karnataka." } },
+      { "@type": "Question", "name": "How is Professional Tax calculated in Maharashtra?", "acceptedAnswer": { "@type": "Answer", "text": "Maharashtra has gender-specific PT slabs. For males: salary up to Rs 7,500 is nil, Rs 7,501 to Rs 10,000 is Rs 175 per month, above Rs 10,000 is Rs 200 per month with Rs 300 in March. For females: salary up to Rs 25,000 is nil, above Rs 25,000 is Rs 200 per month with Rs 300 in March. Annual PT is Rs 2,500 for males above Rs 10,000 and Rs 2,500 for females above Rs 25,000." } },
+      { "@type": "Question", "name": "Is Professional Tax deductible from income tax?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, Professional Tax paid during the year is fully deductible from salary income under Section 16(iii) of the Income Tax Act. This deduction is available under both old and new tax regimes. For an employee paying Rs 2,500 PT annually in the 30 percent tax bracket, this translates to approximately Rs 780 income tax saving including cess. The deduction is claimed automatically in the salary computation." } },
+      { "@type": "Question", "name": "Are women exempt from Professional Tax in Maharashtra?", "acceptedAnswer": { "@type": "Answer", "text": "Women earning up to Rs 25,000 per month are fully exempt from Professional Tax in Maharashtra. This is a significantly higher threshold than the male exemption limit of Rs 7,500. Women earning above Rs 25,000 pay the same rates as men \u2014 Rs 200 per month with Rs 300 in March for a total of Rs 2,500 annually. This gender-specific benefit saves women earning between Rs 7,501 and Rs 25,000 up to Rs 2,500 per year." } },
+      { "@type": "Question", "name": "Why is Maharashtra PT different in February or March?", "acceptedAnswer": { "@type": "Answer", "text": "Maharashtra charges Rs 300 instead of Rs 200 in March (the last month of the financial year) for employees earning above Rs 10,000. This is to reach the constitutional maximum of Rs 2,500 annually: Rs 200 times 11 months plus Rs 300 in March equals Rs 2,500. Karnataka follows a similar pattern but applies the Rs 300 rate in February instead of March. This special month adjustment is unique to these two states." } },
+      { "@type": "Question", "name": "What happens if Professional Tax is not paid on time?", "acceptedAnswer": { "@type": "Answer", "text": "Late payment of Professional Tax attracts penalties and interest. In Maharashtra, interest at 1.25 percent per month is charged on the outstanding amount. Karnataka levies 1.25 percent monthly interest plus up to 50 percent penalty. Other states have similar penalty provisions. The employer is liable for non-deduction and non-payment \u2014 not the employee. Business licences may be suspended for persistent non-compliance." } },
+      { "@type": "Question", "name": "Do self-employed professionals pay Professional Tax?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, self-employed professionals like doctors, lawyers, chartered accountants, architects, and business owners are liable for Professional Tax in states that levy it. They must obtain a Professional Tax Enrolment Certificate (PTEC) and pay PT directly to the state government. In Maharashtra, self-employed professionals earning above Rs 10,000 per month pay Rs 2,500 annually. The payment frequency varies by state." } },
+      { "@type": "Question", "name": "How does remote work affect Professional Tax?", "acceptedAnswer": { "@type": "Answer", "text": "Professional Tax is generally levied based on where the employee works, not the employer location. If you work from home in Maharashtra but your company is headquartered in Delhi, you are liable for Maharashtra PT. The employer should register for PT in the state where remote employees are located. Multi-state PT compliance is one of the biggest payroll challenges for companies with distributed teams." } },
+      { "@type": "Question", "name": "What is PTRC and PTEC in Maharashtra?", "acceptedAnswer": { "@type": "Answer", "text": "PTRC (Professional Tax Registration Certificate) is for employers who deduct PT from employee salaries. PTEC (Professional Tax Enrolment Certificate) is for individuals paying PT on their own income including self-employed professionals and business owners. Both are required registrations under the Maharashtra State Tax on Professions Act 1975. Registration is done online through the mahagst.gov.in portal within 30 days of liability." } },
+      { "@type": "Question", "name": "Are senior citizens exempt from Professional Tax?", "acceptedAnswer": { "@type": "Answer", "text": "Exemptions for senior citizens vary by state. In some states, individuals above 65 years of age are exempt from Professional Tax regardless of income. Other exemptions may apply to parents or guardians of disabled children, members of armed forces, and individuals with permanent physical disability. Check your specific state PT Act for applicable exemptions. Our calculator flags common exemptions for each state." } },
+      { "@type": "Question", "name": "Can a CA help with Professional Tax compliance?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, a CA handles PT registration (PTRC and PTEC), monthly computation for all employees, timely payment and filing of returns, and ensures compliance across multiple states for companies with distributed teams. Patron Accounting provides complete payroll processing including multi-state PT calculation, EPF, ESI, and TDS compliance for businesses across India." } }
+    ]}
+    </script>
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation"><div class="toc-nav-inner">
         <a href="#calculator">Calculator</a>

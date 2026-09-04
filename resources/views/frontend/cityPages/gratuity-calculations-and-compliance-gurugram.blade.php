@@ -1,161 +1,12 @@
 
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Gratuity Calculation Gurugram - Formula & 5-Year Rule</title>
-    <meta name="description" content="Gratuity calculations and compliance in Gurugram. Formula. 50% wage rule. Fixed-term 1 year. Rs 20 lakh max. Ind AS 19. Call +91 945 945 6700.">
-    <link rel="canonical" href="/gratuity-calculations-and-compliance/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Gratuity Calculation Gurugram - Formula & 5-Year Rule">
-    <meta property="og:description" content="Gratuity calculations and compliance in Gurugram. Formula. 50% wage rule. Fixed-term 1 year. Rs 20 lakh max. Ind AS 19. Call +91 945 945 6700.">
-    <meta property="og:url" content="/gratuity-calculations-and-compliance/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Gratuity Calculation Gurugram - Formula & 5-Year Rule">
-    <meta name="twitter:description" content="Gratuity calculations and compliance in Gurugram. Formula. 50% wage rule. Fixed-term 1 year. Rs 20 lakh max. Ind AS 19. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "Gratuity Calculation Gurugram - Formula & 5-Year Rule",
-      "description": "Gratuity calculations and compliance in Gurugram. Formula. 50% wage rule. Fixed-term 1 year. Rs 20 lakh max. Ind AS 19. Call +91 945 945 6700.",
-      "url": "https://www.patronaccounting.com/gratuity-calculations-and-compliance/gurugram",
-      "serviceType": "Gratuity Calculation Gurugram - Formula & 5-Year Rule",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/gratuity-calculations-and-compliance/gurugram",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "minPrice": "5000",
-          "maxPrice": "15000",
-          "priceCurrency": "INR"
-        }
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Gratuity Calculations And Compliance",
-          "item": "https://www.patronaccounting.com/gratuity-calculations-and-compliance"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Gratuity Calculation Gurugram - Formula & 5-Year Rule",
-          "item": "https://www.patronaccounting.com/gratuity-calculations-and-compliance/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is the gratuity calculation formula?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Gratuity equals (Last Drawn Wages multiplied by 15 multiplied by Completed Years of Service) divided by 26. Maximum Rs 20 lakh for private sector employees. Last Drawn Wages under the new labour codes includes basic pay plus DA plus retaining allowance. The 50% wage rule means excluded allowances cannot exceed 50% of total remuneration."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does gratuity compliance cost?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Monthly provisioning from Rs 5,000 per month. CTC restructuring Rs 15,000-25,000 one-time. Actuarial valuation coordination Rs 10,000-20,000 per year. Fixed-term tracking Rs 3,000-8,000 per year. Trust/insurance advisory Rs 10,000-20,000. Dispute resolution Rs 10,000-25,000 per case. Call +91 945 945 6700."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "When is gratuity payable to employees?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. Pay Within 30 Days: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the 50% wage rule for gratuity?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Under the Code on Wages 2019, excluded allowances (HRA, special allowance, flexible benefits) cannot exceed 50% of total remuneration. If they do, the excess is added back to the basic wages for all statutory computations including gratuity. For Gurugram IT companies with basic at 30-40% of CTC, this can increase the gratuity base by 25-50%."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does gratuity apply to IT companies?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Every establishment employing 10 or more persons on any day in the preceding 12 months is covered under the gratuity provisions. IT companies in DLF Cyber City, BPOs on Golf Course Road, startups on Sohna Road, and manufacturing units in IMT Manesar all must comply. Once covered, the establishment remains covered even if headcount falls below 10."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do fixed-term employees get gratuity?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, from November 2025 under the new labour codes. Fixed-term employees are eligible for pro-rata gratuity after completing 1 year of continuous service. This is a major change from the earlier 5-year requirement. Manesar manufacturing firms and Gurugram BPO centres with large contract workforces face significant new gratuity liabilities that must be provisioned."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens if gratuity is not paid on time?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Non-payment of gratuity within 30 days of it becoming due attracts simple interest from the employer. The Controlling Authority (Haryana Labour Department) can direct payment with interest. Continued non-payment can result in imprisonment for up to 1 year and a fine of up to Rs 20,000 under the Act. The Haryana Labour Department regularly issues notices to Gurugram establishments for delayed payments."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -679,7 +530,161 @@ section ul li:not(.nav-item) { font-size: 14px; }
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'Join Community'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Gratuity Calculation Gurugram - Formula & 5-Year Rule</title>
+    <meta name="description" content="Gratuity calculations and compliance in Gurugram. Formula. 50% wage rule. Fixed-term 1 year. Rs 20 lakh max. Ind AS 19. Call +91 945 945 6700.">
+    <link rel="canonical" href="/gratuity-calculations-and-compliance/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Gratuity Calculation Gurugram - Formula & 5-Year Rule">
+    <meta property="og:description" content="Gratuity calculations and compliance in Gurugram. Formula. 50% wage rule. Fixed-term 1 year. Rs 20 lakh max. Ind AS 19. Call +91 945 945 6700.">
+    <meta property="og:url" content="/gratuity-calculations-and-compliance/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Gratuity Calculation Gurugram - Formula & 5-Year Rule">
+    <meta name="twitter:description" content="Gratuity calculations and compliance in Gurugram. Formula. 50% wage rule. Fixed-term 1 year. Rs 20 lakh max. Ind AS 19. Call +91 945 945 6700.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "Gratuity Calculation Gurugram - Formula & 5-Year Rule",
+      "description": "Gratuity calculations and compliance in Gurugram. Formula. 50% wage rule. Fixed-term 1 year. Rs 20 lakh max. Ind AS 19. Call +91 945 945 6700.",
+      "url": "https://www.patronaccounting.com/gratuity-calculations-and-compliance/gurugram",
+      "serviceType": "Gratuity Calculation Gurugram - Formula & 5-Year Rule",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.patronaccounting.com/gratuity-calculations-and-compliance/gurugram",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": "5000",
+          "maxPrice": "15000",
+          "priceCurrency": "INR"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Gratuity Calculations And Compliance",
+          "item": "https://www.patronaccounting.com/gratuity-calculations-and-compliance"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Gratuity Calculation Gurugram - Formula & 5-Year Rule",
+          "item": "https://www.patronaccounting.com/gratuity-calculations-and-compliance/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the gratuity calculation formula?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gratuity equals (Last Drawn Wages multiplied by 15 multiplied by Completed Years of Service) divided by 26. Maximum Rs 20 lakh for private sector employees. Last Drawn Wages under the new labour codes includes basic pay plus DA plus retaining allowance. The 50% wage rule means excluded allowances cannot exceed 50% of total remuneration."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does gratuity compliance cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Monthly provisioning from Rs 5,000 per month. CTC restructuring Rs 15,000-25,000 one-time. Actuarial valuation coordination Rs 10,000-20,000 per year. Fixed-term tracking Rs 3,000-8,000 per year. Trust/insurance advisory Rs 10,000-20,000. Dispute resolution Rs 10,000-25,000 per case. Call +91 945 945 6700."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is gratuity payable to employees?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. Pay Within 30 Days: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the 50% wage rule for gratuity?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under the Code on Wages 2019, excluded allowances (HRA, special allowance, flexible benefits) cannot exceed 50% of total remuneration. If they do, the excess is added back to the basic wages for all statutory computations including gratuity. For Gurugram IT companies with basic at 30-40% of CTC, this can increase the gratuity base by 25-50%."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does gratuity apply to IT companies?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Every establishment employing 10 or more persons on any day in the preceding 12 months is covered under the gratuity provisions. IT companies in DLF Cyber City, BPOs on Golf Course Road, startups on Sohna Road, and manufacturing units in IMT Manesar all must comply. Once covered, the establishment remains covered even if headcount falls below 10."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do fixed-term employees get gratuity?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, from November 2025 under the new labour codes. Fixed-term employees are eligible for pro-rata gratuity after completing 1 year of continuous service. This is a major change from the earlier 5-year requirement. Manesar manufacturing firms and Gurugram BPO centres with large contract workforces face significant new gratuity liabilities that must be provisioned."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if gratuity is not paid on time?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Non-payment of gratuity within 30 days of it becoming due attracts simple interest from the employer. The Controlling Authority (Haryana Labour Department) can direct payment with interest. Continued non-payment can result in imprisonment for up to 1 year and a fine of up to Rs 20,000 under the Act. The Haryana Labour Department regularly issues notices to Gurugram establishments for delayed payments."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1603,7 +1608,6 @@ var tocWrapper=document.getElementById('tocWrapper');document.getElementById('to
 
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

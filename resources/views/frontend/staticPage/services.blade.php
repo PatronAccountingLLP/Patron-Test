@@ -1,76 +1,10 @@
 @extends('layouts.service-app')
-
-@section('meta')
-    <!-- Page Title -->
-    <title>ITR Services Directory - Find Your Form | Patron LLP</title>
-    
-    <!-- Meta Description -->
-    <meta name="description" content="Browse all ITR filing options - compare forms, cities, and services. Find the right income tax return solution for individuals, businesses, and NRIs.">
-
-    <!-- Template Thumbnail -->
-    <template id="__bundler_thumbnail" data-bg-color="#0d2342">
-      <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
-        <rect width="1200" height="800" fill="#0d2342"/>
-        <g transform="translate(360 200)">
-          <rect x="0" y="0" width="480" height="400" rx="16" fill="#ffffff"/>
-          <rect x="36" y="42" width="160" height="14" rx="3" fill="#0d2342"/>
-          <rect x="36" y="72" width="320" height="36" rx="4" fill="#15365f"/>
-          <rect x="36" y="126" width="260" height="10" rx="3" fill="#d4d8dd"/>
-          <rect x="36" y="148" width="220" height="10" rx="3" fill="#d4d8dd"/>
-          <rect x="36" y="196" width="140" height="44" rx="6" fill="#f26522"/>
-          <rect x="196" y="196" width="110" height="44" rx="6" fill="#ffffff" stroke="#d4d8dd" stroke-width="1.5"/>
-          <g transform="translate(36 280)">
-            <rect x="0" y="0" width="195" height="80" rx="6" fill="#f6f7f9"/>
-            <rect x="213" y="0" width="195" height="80" rx="6" fill="#f6f7f9"/>
-            <text x="16" y="38" font-family="Inter, sans-serif" font-size="24" font-weight="700" fill="#0d2342">50K+</text>
-            <text x="16" y="62" font-family="Inter, sans-serif" font-size="10" fill="#6b6e72">ITRs FILED</text>
-            <text x="229" y="38" font-family="Inter, sans-serif" font-size="24" font-weight="700" fill="#0d2342">4.9</text>
-            <text x="272" y="38" font-family="Inter, sans-serif" font-size="22" fill="#f26522">★</text>
-            <text x="229" y="62" font-family="Inter, sans-serif" font-size="10" fill="#6b6e72">500+ REVIEWS</text>
-          </g>
-        </g>
-      </svg>
-    </template>
-
-@endsection
-
-@section('schema')
-    <!-- Minimal Menu Page Schema -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "CollectionPage",
-        "datePublished": "2026-05-06T08:00:00+05:30",
-        "dateModified": "2026-05-06T08:00:00+05:30",
-        "mainEntity": {
-            "@type": "ItemList"
-        },
-        "publisher": {
-            "@type": ["Organization", "ProfessionalService"]
-        },
-        "areaServed": [
-            {"@type": "State", "name": "Karnataka"},
-            {"@type": "State", "name": "Maharashtra"},
-            {"@type": "State", "name": "Delhi"},
-            {"@type": "State", "name": "Tamil Nadu"},
-            {"@type": "State", "name": "Telangana"},
-            {"@type": "State", "name": "West Bengal"},
-            {"@type": "State", "name": "Haryana"}
-        ],
-        "breadcrumb": {
-            "@type": "BreadcrumbList"
-        }
-    }
-    </script>
-@endsection
-
 @push('styles')
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<style>
     /* ====================================================
        PATRON ITR HUB — VARIATION C: HUB WITH SIDEBAR FORM
        Hero + Form 2-column layout, services directory focus,
@@ -1223,6 +1157,80 @@
         box-shadow: 0 0 0 3px rgba(37,211,102,0.1);
     }
     </style>
+@endpush
+
+
+@section('meta')
+    <!-- Page Title -->
+    <title>ITR Services Directory - Find Your Form | Patron LLP</title>
+    
+    <!-- Meta Description -->
+    <meta name="description" content="Browse all ITR filing options - compare forms, cities, and services. Find the right income tax return solution for individuals, businesses, and NRIs.">
+
+    <!-- Template Thumbnail -->
+    <template id="__bundler_thumbnail" data-bg-color="#0d2342">
+      <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+        <rect width="1200" height="800" fill="#0d2342"/>
+        <g transform="translate(360 200)">
+          <rect x="0" y="0" width="480" height="400" rx="16" fill="#ffffff"/>
+          <rect x="36" y="42" width="160" height="14" rx="3" fill="#0d2342"/>
+          <rect x="36" y="72" width="320" height="36" rx="4" fill="#15365f"/>
+          <rect x="36" y="126" width="260" height="10" rx="3" fill="#d4d8dd"/>
+          <rect x="36" y="148" width="220" height="10" rx="3" fill="#d4d8dd"/>
+          <rect x="36" y="196" width="140" height="44" rx="6" fill="#f26522"/>
+          <rect x="196" y="196" width="110" height="44" rx="6" fill="#ffffff" stroke="#d4d8dd" stroke-width="1.5"/>
+          <g transform="translate(36 280)">
+            <rect x="0" y="0" width="195" height="80" rx="6" fill="#f6f7f9"/>
+            <rect x="213" y="0" width="195" height="80" rx="6" fill="#f6f7f9"/>
+            <text x="16" y="38" font-family="Inter, sans-serif" font-size="24" font-weight="700" fill="#0d2342">50K+</text>
+            <text x="16" y="62" font-family="Inter, sans-serif" font-size="10" fill="#6b6e72">ITRs FILED</text>
+            <text x="229" y="38" font-family="Inter, sans-serif" font-size="24" font-weight="700" fill="#0d2342">4.9</text>
+            <text x="272" y="38" font-family="Inter, sans-serif" font-size="22" fill="#f26522">★</text>
+            <text x="229" y="62" font-family="Inter, sans-serif" font-size="10" fill="#6b6e72">500+ REVIEWS</text>
+          </g>
+        </g>
+      </svg>
+    </template>
+
+@endsection
+
+@section('schema')
+    <!-- Minimal Menu Page Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "datePublished": "2026-05-06T08:00:00+05:30",
+        "dateModified": "2026-05-06T08:00:00+05:30",
+        "mainEntity": {
+            "@type": "ItemList"
+        },
+        "publisher": {
+            "@type": ["Organization", "ProfessionalService"]
+        },
+        "areaServed": [
+            {"@type": "State", "name": "Karnataka"},
+            {"@type": "State", "name": "Maharashtra"},
+            {"@type": "State", "name": "Delhi"},
+            {"@type": "State", "name": "Tamil Nadu"},
+            {"@type": "State", "name": "Telangana"},
+            {"@type": "State", "name": "West Bengal"},
+            {"@type": "State", "name": "Haryana"}
+        ],
+        "breadcrumb": {
+            "@type": "BreadcrumbList"
+        }
+    }
+    </script>
+@endsection
+
+@push('styles')
+    <!-- Fonts -->
+    
+    
+    
+    
+    
 @endpush
 
 @section('content')

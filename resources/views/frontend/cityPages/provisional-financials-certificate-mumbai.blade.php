@@ -1,146 +1,12 @@
 
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Provisional Financials Certificate in Mumbai 2026: CA Format | Patron Accounting</title>
-    <meta name="description" content="CA-compiled provisional financials certificate: unaudited P and L and balance sheet for loans, tenders and board meetings before audit. From INR 4,999.">
-    <link rel="canonical" href="/provisional-financials-certificate/mumbai">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Provisional Financials Certificate 2026: CA Format | Patron Accounting">
-    <meta property="og:description" content="CA-compiled provisional financials certificate: unaudited P and L and balance sheet for loans, tenders and board meetings before audit. From INR 4,999.">
-    <meta property="og:url" content="/provisional-financials-certificate/mumbai">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Provisional Financials Certificate 2026: CA Format | Patron Accounting">
-    <meta name="twitter:description" content="CA-compiled provisional financials certificate: unaudited P and L and balance sheet for loans, tenders and board meetings before audit. From INR 4,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/provisional-financials-certificate/mumbai/#service",
-        "name": "Provisional Financials Certificate in India",
-        "description": "CA-compiled provisional financial statements, an unaudited profit and loss account and balance sheet for an elapsed period, prepared under SRS 4410 before the statutory audit and clearly marked unaudited, for bank loans, tenders, board meetings and investor updates.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/provisional-financials-certificate/mumbai" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Financial statement", "sameAs": "https://en.wikipedia.org/wiki/Financial_statement" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Provisional Financials Certificate Service Plans",
-            "itemListElement": [
-                { "@type": "Offer", "name": "Provisional Financials Certificate (SRS 4410)", "priceCurrency": "INR", "price": "4999", "description": "CA compilation of an unaudited provisional profit and loss account and balance sheet for an elapsed period with supporting notes, clearly marked unaudited, with UDIN where a certificate is issued." }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/provisional-financials-certificate/mumbai/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
-            { "@type": "ListItem", "position": 3, "name": "Provisional Financials Certificate", "item": "https://www.patronaccounting.com/provisional-financials-certificate/mumbai" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/provisional-financials-certificate/mumbai/#faq",
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "mainEntity": [
-            { "@type": "Question", "name": "What are provisional financial statements?", "acceptedAnswer": { "@type": "Answer", "text": "Provisional financial statements are an unaudited profit and loss account and balance sheet prepared for a period that has already elapsed, based on actual data available before the statutory audit is complete. They give banks, tender authorities, boards and investors an interim snapshot when audited accounts are not yet ready. A Chartered Accountant compiles them and clearly states that they are provisional and unaudited." } },
-            { "@type": "Question", "name": "How are provisional financials different from audited and projected?", "acceptedAnswer": { "@type": "Answer", "text": "Provisional financials cover an elapsed period using actual but unaudited data. Audited financials are verified and carry an audit opinion, usually for a completed past year. Projected financials forecast future periods using assumptions and are examined under SAE 3400. Provisional statements are compiled under SRS 4410. Each serves a different purpose, and banks often want provisional figures alongside prior audited years." } },
-            { "@type": "Question", "name": "Can a CA certify provisional financials?", "acceptedAnswer": { "@type": "Answer", "text": "A Chartered Accountant can compile provisional financials and issue them clearly marked as provisional and unaudited, stating that they are compiled from information provided and not audited or reviewed. Professional standards require this disclosure so the statements are not mistaken for audited accounts. Where a certificate is issued, the CA generates a UDIN. We compile and disclose strictly in line with ICAI requirements." } },
-            { "@type": "Question", "name": "Do banks accept provisional financials for loans?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, most banks accept provisional financial statements as part of a loan application, especially when audited accounts for the most recent period are not yet available. They are usually submitted alongside two to three years of audited accounts so the bank has a complete picture. Banks often expect the provisional figures to be reasonably close to the eventual audited numbers, commonly within about 10 percent." } },
-            { "@type": "Question", "name": "How much does a provisional financials certificate cost?", "acceptedAnswer": { "@type": "Answer", "text": "At Patron Accounting, provisional financials start from Rs 4,999 (exclusive of GST and government charges), in the mid-market range for this bridge deliverable. The fee reflects CA compilation of the provisional profit and loss account and balance sheet with supporting notes. The final fee depends on the volume of transactions and the format required. Fees are confirmed after a quick review of your books." } },
-            { "@type": "Question", "name": "Are provisional financials accepted for tenders?", "acceptedAnswer": { "@type": "Answer", "text": "Many government and public-sector tenders accept provisional financial statements when the tender deadline falls before the statutory audit is complete. Acceptance varies, so some tenders specifically require audited accounts and will not accept provisional substitutes. We compile the provisional financials to the tender's format and clearly disclose the unaudited nature, and we advise where audited accounts are mandatory." } },
-            { "@type": "Question", "name": "What documents are needed to prepare provisional financials?", "acceptedAnswer": { "@type": "Answer", "text": "To compile provisional financials we need the trial balance for the period, bank statements, GST returns and sales and purchase summaries, details of loans, fixed assets and major balances, and the last one to two years of audited accounts where available. We reconcile the books with bank statements, verify key balances, and compile the provisional profit and loss account and balance sheet for your purpose." } }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/provisional-financials-certificate/mumbai",
-        "name": "Provisional Financials Certificate in India",
-        "description": "CA-compiled provisional financials certificate: unaudited P and L and balance sheet for loans, tenders and board meetings before audit. From INR 4,999.",
-        "url": "https://www.patronaccounting.com/provisional-financials-certificate/mumbai",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/provisional-financials-certificate/mumbai/#service" },
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/provisional-financials-certificate/mumbai/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How to Obtain Provisional Financials",
-        "description": "Five steps to obtain CA-compiled provisional financials: engagement, document submission, reconciliation, compilation, and issuance with UDIN where certified.",
-        "totalTime": "P7D",
-        "step": [
-            { "@type": "HowToStep", "name": "Engagement", "text": "Confirm the period, the purpose, and the bank or tender format needed." },
-            { "@type": "HowToStep", "name": "Document submission", "text": "Share the trial balance, bank statements and supporting schedules." },
-            { "@type": "HowToStep", "name": "Reconciliation", "text": "Books are reconciled with bank statements and key balances verified under SRS 4410." },
-            { "@type": "HowToStep", "name": "Compilation", "text": "The provisional P and L, balance sheet and notes are prepared and cross-checked." },
-            { "@type": "HowToStep", "name": "Issuance", "text": "The statement is marked unaudited and issued, with a UDIN where a certificate is required." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Provisional Financials Certificate Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Provisional financials", "description": "Unaudited statements for an elapsed period, prepared before audit." },
-            { "@type": "DefinedTerm", "name": "SRS 4410", "description": "The ICAI Standard on Related Services for compilation engagements." },
-            { "@type": "DefinedTerm", "name": "Estimated financials", "description": "Figures for the current incomplete year, partly based on estimates." },
-            { "@type": "DefinedTerm", "name": "Projected financials", "description": "Forecasts for future years, examined under SAE 3400." },
-            { "@type": "DefinedTerm", "name": "Trial balance", "description": "The summary of ledger balances from which the provisional statements are compiled." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -754,7 +620,146 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Provisional Financials Certificate in Mumbai 2026: CA Format | Patron Accounting</title>
+    <meta name="description" content="CA-compiled provisional financials certificate: unaudited P and L and balance sheet for loans, tenders and board meetings before audit. From INR 4,999.">
+    <link rel="canonical" href="/provisional-financials-certificate/mumbai">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Provisional Financials Certificate 2026: CA Format | Patron Accounting">
+    <meta property="og:description" content="CA-compiled provisional financials certificate: unaudited P and L and balance sheet for loans, tenders and board meetings before audit. From INR 4,999.">
+    <meta property="og:url" content="/provisional-financials-certificate/mumbai">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Provisional Financials Certificate 2026: CA Format | Patron Accounting">
+    <meta name="twitter:description" content="CA-compiled provisional financials certificate: unaudited P and L and balance sheet for loans, tenders and board meetings before audit. From INR 4,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/provisional-financials-certificate/mumbai/#service",
+        "name": "Provisional Financials Certificate in India",
+        "description": "CA-compiled provisional financial statements, an unaudited profit and loss account and balance sheet for an elapsed period, prepared under SRS 4410 before the statutory audit and clearly marked unaudited, for bank loans, tenders, board meetings and investor updates.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/provisional-financials-certificate/mumbai" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Financial statement", "sameAs": "https://en.wikipedia.org/wiki/Financial_statement" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Provisional Financials Certificate Service Plans",
+            "itemListElement": [
+                { "@type": "Offer", "name": "Provisional Financials Certificate (SRS 4410)", "priceCurrency": "INR", "price": "4999", "description": "CA compilation of an unaudited provisional profit and loss account and balance sheet for an elapsed period with supporting notes, clearly marked unaudited, with UDIN where a certificate is issued." }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/provisional-financials-certificate/mumbai/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
+            { "@type": "ListItem", "position": 3, "name": "Provisional Financials Certificate", "item": "https://www.patronaccounting.com/provisional-financials-certificate/mumbai" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/provisional-financials-certificate/mumbai/#faq",
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "mainEntity": [
+            { "@type": "Question", "name": "What are provisional financial statements?", "acceptedAnswer": { "@type": "Answer", "text": "Provisional financial statements are an unaudited profit and loss account and balance sheet prepared for a period that has already elapsed, based on actual data available before the statutory audit is complete. They give banks, tender authorities, boards and investors an interim snapshot when audited accounts are not yet ready. A Chartered Accountant compiles them and clearly states that they are provisional and unaudited." } },
+            { "@type": "Question", "name": "How are provisional financials different from audited and projected?", "acceptedAnswer": { "@type": "Answer", "text": "Provisional financials cover an elapsed period using actual but unaudited data. Audited financials are verified and carry an audit opinion, usually for a completed past year. Projected financials forecast future periods using assumptions and are examined under SAE 3400. Provisional statements are compiled under SRS 4410. Each serves a different purpose, and banks often want provisional figures alongside prior audited years." } },
+            { "@type": "Question", "name": "Can a CA certify provisional financials?", "acceptedAnswer": { "@type": "Answer", "text": "A Chartered Accountant can compile provisional financials and issue them clearly marked as provisional and unaudited, stating that they are compiled from information provided and not audited or reviewed. Professional standards require this disclosure so the statements are not mistaken for audited accounts. Where a certificate is issued, the CA generates a UDIN. We compile and disclose strictly in line with ICAI requirements." } },
+            { "@type": "Question", "name": "Do banks accept provisional financials for loans?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, most banks accept provisional financial statements as part of a loan application, especially when audited accounts for the most recent period are not yet available. They are usually submitted alongside two to three years of audited accounts so the bank has a complete picture. Banks often expect the provisional figures to be reasonably close to the eventual audited numbers, commonly within about 10 percent." } },
+            { "@type": "Question", "name": "How much does a provisional financials certificate cost?", "acceptedAnswer": { "@type": "Answer", "text": "At Patron Accounting, provisional financials start from Rs 4,999 (exclusive of GST and government charges), in the mid-market range for this bridge deliverable. The fee reflects CA compilation of the provisional profit and loss account and balance sheet with supporting notes. The final fee depends on the volume of transactions and the format required. Fees are confirmed after a quick review of your books." } },
+            { "@type": "Question", "name": "Are provisional financials accepted for tenders?", "acceptedAnswer": { "@type": "Answer", "text": "Many government and public-sector tenders accept provisional financial statements when the tender deadline falls before the statutory audit is complete. Acceptance varies, so some tenders specifically require audited accounts and will not accept provisional substitutes. We compile the provisional financials to the tender's format and clearly disclose the unaudited nature, and we advise where audited accounts are mandatory." } },
+            { "@type": "Question", "name": "What documents are needed to prepare provisional financials?", "acceptedAnswer": { "@type": "Answer", "text": "To compile provisional financials we need the trial balance for the period, bank statements, GST returns and sales and purchase summaries, details of loans, fixed assets and major balances, and the last one to two years of audited accounts where available. We reconcile the books with bank statements, verify key balances, and compile the provisional profit and loss account and balance sheet for your purpose." } }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/provisional-financials-certificate/mumbai",
+        "name": "Provisional Financials Certificate in India",
+        "description": "CA-compiled provisional financials certificate: unaudited P and L and balance sheet for loans, tenders and board meetings before audit. From INR 4,999.",
+        "url": "https://www.patronaccounting.com/provisional-financials-certificate/mumbai",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/provisional-financials-certificate/mumbai/#service" },
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/provisional-financials-certificate/mumbai/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Obtain Provisional Financials",
+        "description": "Five steps to obtain CA-compiled provisional financials: engagement, document submission, reconciliation, compilation, and issuance with UDIN where certified.",
+        "totalTime": "P7D",
+        "step": [
+            { "@type": "HowToStep", "name": "Engagement", "text": "Confirm the period, the purpose, and the bank or tender format needed." },
+            { "@type": "HowToStep", "name": "Document submission", "text": "Share the trial balance, bank statements and supporting schedules." },
+            { "@type": "HowToStep", "name": "Reconciliation", "text": "Books are reconciled with bank statements and key balances verified under SRS 4410." },
+            { "@type": "HowToStep", "name": "Compilation", "text": "The provisional P and L, balance sheet and notes are prepared and cross-checked." },
+            { "@type": "HowToStep", "name": "Issuance", "text": "The statement is marked unaudited and issued, with a UDIN where a certificate is required." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Provisional Financials Certificate Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Provisional financials", "description": "Unaudited statements for an elapsed period, prepared before audit." },
+            { "@type": "DefinedTerm", "name": "SRS 4410", "description": "The ICAI Standard on Related Services for compilation engagements." },
+            { "@type": "DefinedTerm", "name": "Estimated financials", "description": "Figures for the current incomplete year, partly based on estimates." },
+            { "@type": "DefinedTerm", "name": "Projected financials", "description": "Forecasts for future years, examined under SAE 3400." },
+            { "@type": "DefinedTerm", "name": "Trial balance", "description": "The summary of ledger balances from which the provisional statements are compiled." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1511,17 +1516,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1544,8 +1542,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1582,7 +1578,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (stable, not live date)
 (function(){
@@ -1593,3 +1588,19 @@ window.addEventListener('scroll', function() {
     if(el2)el2.textContent=dateStr;
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

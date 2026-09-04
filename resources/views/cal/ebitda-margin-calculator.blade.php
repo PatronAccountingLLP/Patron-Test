@@ -1,194 +1,8 @@
 @extends('layouts.app')
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
-@section('meta')
-    <title>EBITDA Margin Calculator | EV/EBITDA & Benchmarks</title>
-    <meta name="description" content="Free EBITDA margin calculator: compute EBITDA &amp; margin with Ind AS 116 lease reconciliation, sector benchmarks and EV/EBITDA valuation. CA-reviewed tool!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/ebitda-margin-calculator">
-    <meta property="og:title" content="EBITDA Margin Calculator — Schedule III &amp; Ind AS 116 India 2026">
-    <meta property="og:description" content="Compute EBITDA margin with Ind AS 116 lease reconciliation, sector benchmarks, operating margin, net profit margin, EV/EBITDA valuation. Free CA-reviewed tool.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/ebitda-margin-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="EBITDA Margin Calculator — Schedule III &amp; Ind AS 116 India 2026">
-    <meta name="twitter:description" content="EBITDA margin with Ind AS 116 reconciliation, EV/EBITDA valuation, sector benchmarks. Free CA tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-    <meta name="theme-color" content="#15365f">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebApplication",
-      "name": "EBITDA Margin Calculator",
-      "description": "EBITDA Margin Calculator computes Earnings Before Interest, Tax, Depreciation and Amortisation (EBITDA) and EBITDA Margin for an Indian company using P and L line items aligned with Schedule III to the Companies Act, 2013. The tool supports an optional Ind AS 116 lease reconciliation showing the difference between post-Ind AS 116 reported EBITDA and pre-Ind AS 116 EBITDA after deducting lease rent expense, an SEBI Alternative Performance Measure (APM) disclosure approach. Output includes EBITDA in rupees, EBITDA Margin percentage, EBIT and Operating Margin, Profit Before Tax, Profit After Tax and Net Profit Margin, sector benchmark comparison across IT, Manufacturing, FMCG, Retail, Pharma, Real Estate, Telecom and Services, year-over-year trend versus prior year margin, implied Enterprise Value via EV / EBITDA multiple selector, and a sample Schedule III Net Profit Ratio disclosure that ties to the same input data. The Schedule III mandatory ratio of Net Profit Ratio is auto-derived alongside EBITDA Margin for full P and L margin analysis.",
-      "url": "https://www.patronaccounting.com/tools/ebitda-margin-calculator",
-      "applicationCategory": "FinanceApplication",
-      "operatingSystem": "Any",
-      "datePublished": "2026-05-07T08:00:00+05:30",
-      "dateModified": "2026-05-19T08:00:00+05:30",
-      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
-      "author": {
-        "@type": "Person",
-        "@id": "https://patronaccounting.com/#founder",
-        "name": "CA Sundram Gupta",
-        "jobTitle": "Founder & Chartered Accountant",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Institute of Chartered Accountants of India",
-            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-          }
-        }]
-      },
-      "publisher": { "@id": "https://patronaccounting.com/#organization" },
-      "provider": {"@id": "https://patronaccounting.com/#organization"}
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "EBITDA Margin Calculator", "item": "https://www.patronaccounting.com/tools/ebitda-margin-calculator"}
-      ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is EBITDA Margin and what does it measure?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "EBITDA Margin is a profitability ratio that expresses Earnings Before Interest, Tax, Depreciation and Amortisation as a percentage of Revenue from Operations. It strips out capital structure choices (interest), tax jurisdiction effects (tax), and accounting estimates (depreciation, amortisation) to focus purely on operating profitability. A higher EBITDA Margin signals stronger pricing power, cost control, or scale advantage. It is widely used for cross-company comparison, M&A pricing through EV/EBITDA multiples, and bank covenant testing."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the formula for EBITDA Margin?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "EBITDA Margin equals EBITDA divided by Revenue from Operations, expressed as a percentage. EBITDA itself can be derived two ways. Bottom-up: PAT plus Tax plus Finance Costs plus Depreciation and Amortisation. Top-down: Revenue from Operations less Cost of Materials less Employee Benefit Expenses less Other Operating Expenses. Both methods yield the same result. Other Income is excluded from EBITDA by default unless it is operating in nature, in which case it is added before computing the margin."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How did Ind AS 116 affect EBITDA Margin in India?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Ind AS 116, effective 1 April 2019, replaced operating lease rent expense with right-of-use depreciation plus lease liability interest. Since depreciation and interest sit below EBITDA while lease rent sat above, post-Ind AS 116 reported EBITDA is structurally higher. The boost is material for retail, airlines, telecom and logistics. SEBI permits voluntary disclosure of pre-Ind AS 116 EBITDA as an Alternative Performance Measure for historical comparability."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is EBITDA Margin a mandatory Schedule III disclosure?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "EBITDA Margin itself is not one of the eleven mandatory analytical ratios under Schedule III to the Companies Act, 2013. However, Net Profit Ratio is mandatory and is computed from the same source data. The MCA notification dated 24 March 2021 introduced eleven ratios including Current Ratio, Debt-Equity, DSCR, Return on Equity, Net Profit Ratio and Return on Capital Employed. Listed companies disclose EBITDA Margin separately under SEBI LODR Regulation 34(3) in MD&A as a key financial indicator."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is a good EBITDA Margin in India?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A good EBITDA Margin varies sharply by industry. IT services typically deliver 22 to 28 per cent, FMCG 18 to 25 per cent, manufacturing 12 to 18 per cent, pharma 20 to 28 per cent, real estate developers 25 to 35 per cent, telecom 40 to 50 per cent post-Ind AS 116, and retail only 6 to 12 per cent due to thin margins. Always benchmark against three or four direct Indian listed peers."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between EBITDA Margin and Operating Margin?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "EBITDA Margin uses earnings before depreciation and amortisation as the numerator. Operating Margin uses EBIT, which is EBITDA less Depreciation and Amortisation. The two diverge when D&A is material. Capital-intensive businesses such as telecom and infrastructure show much higher EBITDA Margin than Operating Margin because they carry large depreciation. Asset-light services businesses show similar EBITDA and Operating Margins. Both are useful, with EBITDA Margin preferred for cross-industry comparison and Operating Margin closer to true economic profit."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does EV / EBITDA work as a valuation multiple?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "EV/EBITDA is a valuation multiple computed as Enterprise Value divided by EBITDA, where EV equals Market Capitalisation plus Net Debt plus Lease Liabilities (post-Ind AS 116) plus Minority Interest less Cash. Indian listed mid-cap companies trade between 8 and 12 times forward EBITDA, growth and quality leaders 15 to 25 times, and consumer staples leaders 30 to 50 times. Lower multiples indicate value or stress, higher multiples indicate growth or premium positioning. EV/EBITDA neutralises capital structure choices."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Should Other Income be included in EBITDA?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Other Income should be included in EBITDA only if it is operating in nature — recurring service fees, royalty income, scrap sales, foreign exchange gains on operating items. Non-operating Other Income such as interest on fixed deposits, dividend income, profit on sale of investments and one-off insurance claims should be excluded to keep EBITDA reflective of core operating profitability. The default treatment in this calculator excludes Other Income; toggle to include only when the income is genuinely operating."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are the criticisms of EBITDA as a profitability measure?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Warren Buffett and Charlie Munger have famously called EBITDA a misleading measure because it ignores the very real cash cost of replacing capital assets (depreciation) and the cost of debt servicing (interest). For capital-intensive businesses, EBITDA can flatter performance while free cash flow tells a different story. EBITDA also enabled aggressive M&A leverage in past decades that ended in distress. Always read EBITDA alongside Operating Cash Flow, Free Cash Flow and Net Profit for a balanced view."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is EBITDA Margin used in bank loan covenants?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Indian bank loan agreements typically include EBITDA-based covenants such as Net Debt to EBITDA below a specified threshold (commonly 3.0 to 4.0 times for mid-corporates) and Interest Coverage above a floor (commonly 2.5 to 3.0 times). Listed bond issuers face similar tests in trust deeds. Post-Ind AS 116, definitions need careful reading because the standard mechanically lifts EBITDA without changing economic substance. Many lenders have updated covenant definitions to use frozen pre-Ind AS 116 numbers or adjusted EBITDA after lease."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do listed companies disclose EBITDA under SEBI rules?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Under SEBI LODR Regulations 2015, listed entities disclose key financial ratios including EBITDA Margin in the Management Discussion and Analysis section of the annual report under Regulation 34(3) read with Schedule V. Investor presentations and earnings call commentary commonly highlight EBITDA, EBITDA Margin and Adjusted EBITDA. Listed debt entities make half-yearly disclosures under Regulation 52. Post-Ind AS 116, many companies present pre-Ind AS 116 EBITDA reconciliations in investor decks as an Alternative Performance Measure for historical comparability."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is Adjusted EBITDA and when is it used?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Adjusted EBITDA is reported EBITDA modified for one-off items, non-recurring charges, share-based payments, restructuring costs, foreign exchange impact, ESOP costs and similar adjustments to provide a normalised view of operating performance. Indian listed companies frequently disclose Adjusted EBITDA in investor presentations, M&A documentation and lender covenant compliance certificates. The adjustments must be transparent and consistently applied. SEBI guidance on Alternative Performance Measures requires reconciliation to reported numbers and explanation of each adjustment."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Where on the P&L do I find inputs for EBITDA computation?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Under Ind AS Schedule III Division II, Revenue from Operations is the top line of the Statement of Profit and Loss. Cost of Materials Consumed, Purchases of Stock-in-Trade, Changes in Inventory, Employee Benefit Expenses, Finance Costs, Depreciation and Amortisation, and Other Expenses appear as separate line items. Other Income is reported separately above expenses. Tax Expense splits into current and deferred tax. All Schedule III line items map directly into this calculator."
-          }
-        }
-      ]
-    }
-    </script>
-@endsection
-
 <style>
         :root {
             --primary: #15365f;
@@ -470,7 +284,193 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 }
 
 </style>
+@endpush
 
+@section('meta')
+    <title>EBITDA Margin Calculator | EV/EBITDA & Benchmarks</title>
+    <meta name="description" content="Free EBITDA margin calculator: compute EBITDA &amp; margin with Ind AS 116 lease reconciliation, sector benchmarks and EV/EBITDA valuation. CA-reviewed tool!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/ebitda-margin-calculator">
+    <meta property="og:title" content="EBITDA Margin Calculator — Schedule III &amp; Ind AS 116 India 2026">
+    <meta property="og:description" content="Compute EBITDA margin with Ind AS 116 lease reconciliation, sector benchmarks, operating margin, net profit margin, EV/EBITDA valuation. Free CA-reviewed tool.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/ebitda-margin-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="EBITDA Margin Calculator — Schedule III &amp; Ind AS 116 India 2026">
+    <meta name="twitter:description" content="EBITDA margin with Ind AS 116 reconciliation, EV/EBITDA valuation, sector benchmarks. Free CA tool.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+    <meta name="theme-color" content="#15365f">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "EBITDA Margin Calculator",
+      "description": "EBITDA Margin Calculator computes Earnings Before Interest, Tax, Depreciation and Amortisation (EBITDA) and EBITDA Margin for an Indian company using P and L line items aligned with Schedule III to the Companies Act, 2013. The tool supports an optional Ind AS 116 lease reconciliation showing the difference between post-Ind AS 116 reported EBITDA and pre-Ind AS 116 EBITDA after deducting lease rent expense, an SEBI Alternative Performance Measure (APM) disclosure approach. Output includes EBITDA in rupees, EBITDA Margin percentage, EBIT and Operating Margin, Profit Before Tax, Profit After Tax and Net Profit Margin, sector benchmark comparison across IT, Manufacturing, FMCG, Retail, Pharma, Real Estate, Telecom and Services, year-over-year trend versus prior year margin, implied Enterprise Value via EV / EBITDA multiple selector, and a sample Schedule III Net Profit Ratio disclosure that ties to the same input data. The Schedule III mandatory ratio of Net Profit Ratio is auto-derived alongside EBITDA Margin for full P and L margin analysis.",
+      "url": "https://www.patronaccounting.com/tools/ebitda-margin-calculator",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Any",
+      "datePublished": "2026-05-07T08:00:00+05:30",
+      "dateModified": "2026-05-19T08:00:00+05:30",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
+      "author": {
+        "@type": "Person",
+        "@id": "https://patronaccounting.com/#founder",
+        "name": "CA Sundram Gupta",
+        "jobTitle": "Founder & Chartered Accountant",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Institute of Chartered Accountants of India",
+            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+          }
+        }]
+      },
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": {"@id": "https://patronaccounting.com/#organization"}
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "EBITDA Margin Calculator", "item": "https://www.patronaccounting.com/tools/ebitda-margin-calculator"}
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is EBITDA Margin and what does it measure?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "EBITDA Margin is a profitability ratio that expresses Earnings Before Interest, Tax, Depreciation and Amortisation as a percentage of Revenue from Operations. It strips out capital structure choices (interest), tax jurisdiction effects (tax), and accounting estimates (depreciation, amortisation) to focus purely on operating profitability. A higher EBITDA Margin signals stronger pricing power, cost control, or scale advantage. It is widely used for cross-company comparison, M&A pricing through EV/EBITDA multiples, and bank covenant testing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the formula for EBITDA Margin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "EBITDA Margin equals EBITDA divided by Revenue from Operations, expressed as a percentage. EBITDA itself can be derived two ways. Bottom-up: PAT plus Tax plus Finance Costs plus Depreciation and Amortisation. Top-down: Revenue from Operations less Cost of Materials less Employee Benefit Expenses less Other Operating Expenses. Both methods yield the same result. Other Income is excluded from EBITDA by default unless it is operating in nature, in which case it is added before computing the margin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How did Ind AS 116 affect EBITDA Margin in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ind AS 116, effective 1 April 2019, replaced operating lease rent expense with right-of-use depreciation plus lease liability interest. Since depreciation and interest sit below EBITDA while lease rent sat above, post-Ind AS 116 reported EBITDA is structurally higher. The boost is material for retail, airlines, telecom and logistics. SEBI permits voluntary disclosure of pre-Ind AS 116 EBITDA as an Alternative Performance Measure for historical comparability."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is EBITDA Margin a mandatory Schedule III disclosure?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "EBITDA Margin itself is not one of the eleven mandatory analytical ratios under Schedule III to the Companies Act, 2013. However, Net Profit Ratio is mandatory and is computed from the same source data. The MCA notification dated 24 March 2021 introduced eleven ratios including Current Ratio, Debt-Equity, DSCR, Return on Equity, Net Profit Ratio and Return on Capital Employed. Listed companies disclose EBITDA Margin separately under SEBI LODR Regulation 34(3) in MD&A as a key financial indicator."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a good EBITDA Margin in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A good EBITDA Margin varies sharply by industry. IT services typically deliver 22 to 28 per cent, FMCG 18 to 25 per cent, manufacturing 12 to 18 per cent, pharma 20 to 28 per cent, real estate developers 25 to 35 per cent, telecom 40 to 50 per cent post-Ind AS 116, and retail only 6 to 12 per cent due to thin margins. Always benchmark against three or four direct Indian listed peers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between EBITDA Margin and Operating Margin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "EBITDA Margin uses earnings before depreciation and amortisation as the numerator. Operating Margin uses EBIT, which is EBITDA less Depreciation and Amortisation. The two diverge when D&A is material. Capital-intensive businesses such as telecom and infrastructure show much higher EBITDA Margin than Operating Margin because they carry large depreciation. Asset-light services businesses show similar EBITDA and Operating Margins. Both are useful, with EBITDA Margin preferred for cross-industry comparison and Operating Margin closer to true economic profit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does EV / EBITDA work as a valuation multiple?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "EV/EBITDA is a valuation multiple computed as Enterprise Value divided by EBITDA, where EV equals Market Capitalisation plus Net Debt plus Lease Liabilities (post-Ind AS 116) plus Minority Interest less Cash. Indian listed mid-cap companies trade between 8 and 12 times forward EBITDA, growth and quality leaders 15 to 25 times, and consumer staples leaders 30 to 50 times. Lower multiples indicate value or stress, higher multiples indicate growth or premium positioning. EV/EBITDA neutralises capital structure choices."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should Other Income be included in EBITDA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Other Income should be included in EBITDA only if it is operating in nature — recurring service fees, royalty income, scrap sales, foreign exchange gains on operating items. Non-operating Other Income such as interest on fixed deposits, dividend income, profit on sale of investments and one-off insurance claims should be excluded to keep EBITDA reflective of core operating profitability. The default treatment in this calculator excludes Other Income; toggle to include only when the income is genuinely operating."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the criticisms of EBITDA as a profitability measure?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Warren Buffett and Charlie Munger have famously called EBITDA a misleading measure because it ignores the very real cash cost of replacing capital assets (depreciation) and the cost of debt servicing (interest). For capital-intensive businesses, EBITDA can flatter performance while free cash flow tells a different story. EBITDA also enabled aggressive M&A leverage in past decades that ended in distress. Always read EBITDA alongside Operating Cash Flow, Free Cash Flow and Net Profit for a balanced view."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is EBITDA Margin used in bank loan covenants?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Indian bank loan agreements typically include EBITDA-based covenants such as Net Debt to EBITDA below a specified threshold (commonly 3.0 to 4.0 times for mid-corporates) and Interest Coverage above a floor (commonly 2.5 to 3.0 times). Listed bond issuers face similar tests in trust deeds. Post-Ind AS 116, definitions need careful reading because the standard mechanically lifts EBITDA without changing economic substance. Many lenders have updated covenant definitions to use frozen pre-Ind AS 116 numbers or adjusted EBITDA after lease."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do listed companies disclose EBITDA under SEBI rules?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under SEBI LODR Regulations 2015, listed entities disclose key financial ratios including EBITDA Margin in the Management Discussion and Analysis section of the annual report under Regulation 34(3) read with Schedule V. Investor presentations and earnings call commentary commonly highlight EBITDA, EBITDA Margin and Adjusted EBITDA. Listed debt entities make half-yearly disclosures under Regulation 52. Post-Ind AS 116, many companies present pre-Ind AS 116 EBITDA reconciliations in investor decks as an Alternative Performance Measure for historical comparability."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Adjusted EBITDA and when is it used?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Adjusted EBITDA is reported EBITDA modified for one-off items, non-recurring charges, share-based payments, restructuring costs, foreign exchange impact, ESOP costs and similar adjustments to provide a normalised view of operating performance. Indian listed companies frequently disclose Adjusted EBITDA in investor presentations, M&A documentation and lender covenant compliance certificates. The adjustments must be transparent and consistently applied. SEBI guidance on Alternative Performance Measures requires reconciliation to reported numbers and explanation of each adjustment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where on the P&L do I find inputs for EBITDA computation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under Ind AS Schedule III Division II, Revenue from Operations is the top line of the Statement of Profit and Loss. Cost of Materials Consumed, Purchases of Stock-in-Trade, Changes in Inventory, Employee Benefit Expenses, Finance Costs, Depreciation and Amortisation, and Other Expenses appear as separate line items. Other Income is reported separately above expenses. Tax Expense splits into current and deferred tax. All Schedule III line items map directly into this calculator."
+          }
+        }
+      ]
+    }
+    </script>
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation">
     <div class="toc-nav-inner">

@@ -1,245 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Net Worth Certificate for Home Loan in Pune 2026 | Patron</title>
-    <meta name="description" content="CA-certified net worth certificate for Pune home loan applicants. UDIN, 3-year comparative format. HDFC, SBI, ICICI accepted. Starting INR 1,499.">
-    <link rel="canonical" href="https://www.patronaccounting.com/net-worth-certificate-for-home-loan/pune">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Net Worth Certificate for Home Loan in Pune 2026 | Patron">
-    <meta property="og:description" content="CA-certified net worth certificate for Pune home loan applicants. UDIN, 3-year comparative format. HDFC, SBI, ICICI accepted. Starting INR 1,499.">
-    <meta property="og:url" content="https://www.patronaccounting.com/net-worth-certificate-for-home-loan/pune">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Net Worth Certificate for Home Loan in Pune 2026 | Patron">
-    <meta name="twitter:description" content="CA-certified net worth certificate for Pune home loan applicants. UDIN, 3-year comparative format. HDFC, SBI, ICICI accepted. Starting INR 1,499.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/pune/#service",
-        "name": "Net Worth Certificate for Home Loan in Pune",
-        "description": "CA-certified net worth certificate for Pune home loan applicants. UDIN, 3-year comparative format. HDFC, SBI, ICICI accepted. Starting INR 1,499.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/pune" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Chartered Accountant", "sameAs": "https://en.wikipedia.org/wiki/Chartered_accountant" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Net Worth Certificate for Home Loan Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Net Worth Certificate for Home Loan in Pune"
-                    },
-                    "price": "1499",
-                    "priceCurrency": "INR",
-                    "url": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/pune"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/pune/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate for Home Loan", "item": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan" },
-            { "@type": "ListItem", "position": 3, "name": "Pune", "item": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/pune" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/pune/#faq",
-        "datePublished": "2026-07-02T08:00:00+05:30",
-        "dateModified": "2026-07-02T08:00:00+05:30",
-        "mainEntity": [
-            {
-                    "@type": "Question",
-                    "name": "Why do banks ask for a net worth certificate for home loan in Pune?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Banks ask for a net worth certificate to verify the borrower's overall financial strength beyond reported income, especially for high-value home loans (typically above Rs 75 lakh at public-sector banks and above Rs 1 crore at private banks), for self-employed applicants whose salary slips do not exist, for NRI borrowers, and for joint loans where a non-earning co-applicant brings assets to the table. The certificate helps the credit team compute FOIR and validate eligibility for the requested loan amount."
-                    }
-                },
-{
-                    "@type": "Question",
-                    "name": "Who can issue a net worth certificate for home loan in Pune?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Only a practising Chartered Accountant in Pune holding a valid Certificate of Practice from ICAI can sign and issue a net worth certificate for home loan. The CA generates an 18-digit UDIN at udin.icai.org, signs on firm letterhead with ICAI seal, and prints Membership Number and Firm Registration Number. Banks and housing finance companies including HDFC, SBI, ICICI, Bank of Maharashtra and Bajaj Housing Finance verify the UDIN before accepting the document."
-                    }
-                },
-{
-                    "@type": "Question",
-                    "name": "How much does a net worth certificate for home loan cost in Pune?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Patron Accounting charges starting INR 1,499 (Exclusive of GST and Government Charges) for the standard salaried home loan certificate in Pune. Self-employed and business cases with the 3-year comparative schedule are INR 1,999. NRI home loan variants with NRE/NRO/FCNR consolidation are INR 2,499. Add-ons like engineer-signed property valuation report and gold valuation report are billed separately. Other Pune CA firms typically charge between INR 2,500 and INR 4,000."
-                    }
-                },
-{
-                    "@type": "Question",
-                    "name": "Is the certificate needed for every Pune home loan or only high-value loans?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Most Pune banks ask for the certificate only for home loans above a threshold - typically Rs 75 lakh at public-sector banks like SBI and Bank of Maharashtra, and Rs 1 crore at private banks like HDFC, ICICI and Axis. For self-employed applicants and NRI borrowers the certificate is often requested at any loan amount. Standard salaried home loans below the threshold usually do not need it; ITRs, Form 16 and bank statements suffice."
-                    }
-                },
-{
-                    "@type": "Question",
-                    "name": "What documents are needed for a Pune home loan net worth certificate?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "You need PAN, Aadhaar, ITRs for the last 3 financial years, latest salary slips (salaried) or 3-year balance sheets (self-employed), 6-12 months bank statements across all accounts, FD receipts, mutual fund and demat holdings, EPF and PPF passbook, property registration deed for any existing real estate with IGR ready reckoner valuation, vehicle RC, gold valuation, and all loan statements. NRI applicants also share NRE/NRO/FCNR statements and the latest overseas income proof."
-                    }
-                },
-{
-                    "@type": "Question",
-                    "name": "Is UDIN mandatory on a CA net worth certificate for home loan?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Yes, UDIN is mandatory on every CA-issued net worth certificate since 1 July 2019, enforced by ICAI. The 18-digit Unique Document Identification Number is generated at udin.icai.org and printed on the certificate. Bank credit officers and HFC underwriters verify the certificate's authenticity by entering the UDIN on the ICAI portal. A certificate without UDIN is invalid and is typically rejected by the bank credit team during the document-verification step."
-                    }
-                }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/pune",
-        "name": "Net Worth Certificate for Home Loan in Pune",
-        "description": "CA-certified net worth certificate for Pune home loan applicants. UDIN, 3-year comparative format. HDFC, SBI, ICICI accepted. Starting INR 1,499.",
-        "url": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/pune",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/pune/#service" },
-        "datePublished": "2026-07-02T08:00:00+05:30",
-        "dateModified": "2026-07-02T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/pune/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How to Get a Net Worth Certificate for Home Loan",
-        "description": "Step-by-step process to obtain a Net Worth Certificate for Home Loan from Patron Accounting.",
-        "totalTime": "P3D",
-        "step": [
-            {
-                    "@type": "HowToStep",
-                    "position": 1,
-                    "name": "Engagement",
-                    "text": "Pune home loan applicant calls Patron Accounting, identifies the bank (HDFC, SBI, ICICI, Bank of Maharashtra, Bajaj Housing Finance or other), loan amount, and applicant type (salaried, self-employed, NRI, joint). The engagement letter captures purpose under ICAI SA 200 'Overall Objectives of the Independent Auditor'."
-                },
-{
-                    "@type": "HowToStep",
-                    "position": 2,
-                    "name": "Document collection",
-                    "text": "Upload PAN, Aadhaar, 3 years ITRs, latest salary slips or business income statements, 6-12 months bank statements across all accounts, FD receipts, MF and demat holdings, EPF/PPF passbook, property registration deed for existing real estate, vehicle RC, gold valuation, and all loan statements via Patron's secure portal."
-                },
-{
-                    "@type": "HowToStep",
-                    "position": 3,
-                    "name": "Document verification",
-                    "text": "Patron CA cross-checks balances against bank statements, validates Pune property at the Maharashtra IGR ready reckoner rate published for the specific ward, reconciles 3-year wealth trajectory with ITR-reported income for self-employed cases, and confirms loan outstanding from sanction letters under ICAI SA 500 'Audit Evidence'."
-                },
-{
-                    "@type": "HowToStep",
-                    "position": 4,
-                    "name": "Bank",
-                    "text": "template alignment - Patron checks whether the lender has a prescribed template (some banks like SBI and HDFC do). The certificate is laid out to match. For lenders without a prescribed format, Patron uses its standard 12-element ICAI-compliant template."
-                },
-{
-                    "@type": "HowToStep",
-                    "position": 5,
-                    "name": "Draft preparation and review",
-                    "text": "Draft certificate is emailed within 24 hours for borrower and loan-officer review. Corrections to name spelling (PAN match), address, property valuation, and the 3-year comparative figures happen in this step."
-                },
-{
-                    "@type": "HowToStep",
-                    "position": 6,
-                    "name": "UDIN generation and final issue",
-                    "text": "Patron CA generates the 18-digit UDIN at udin.icai.org under category 'Certificates - Net Worth Certificate', signs on firm letterhead with ICAI seal, and issues the final document. Soft copy emailed the same day; hard copy collected from Patron Pune office or couriered to the bank branch within 2-3 working days."
-                }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Net Worth Certificate for Home Loan Key Terms",
-        "definedTerm": [
-            {
-                    "@type": "DefinedTerm",
-                    "name": "UDIN",
-                    "description": "18-digit Unique Document Identification Number generated by the issuing CA at udin.icai.org for every certificate, mandatory since 1 July 2019."
-                },
-{
-                    "@type": "DefinedTerm",
-                    "name": "FOIR",
-                    "description": "Fixed Obligation to Income Ratio - the percentage of net monthly income committed to existing loan EMIs. Banks typically cap FOIR at 50-65 percent; the net worth certificate strengthens FOIR-stretched applications by evidencing asset cover."
-                },
-{
-                    "@type": "DefinedTerm",
-                    "name": "LTV Ratio",
-                    "description": "Loan to Value ratio - regulated by RBI Master Direction. For housing loans up to Rs 30 lakh the LTV ceiling is 90 percent; above Rs 75 lakh the ceiling drops to 75 percent. The certificate helps establish creditworthiness when borrower margin is high."
-                },
-{
-                    "@type": "DefinedTerm",
-                    "name": "3-Year Comparative Net Worth",
-                    "description": "Net worth as on the last three financial year ends (31 March), shown side by side. Banks ask self-employed applicants for this schedule to verify the wealth trajectory."
-                },
-{
-                    "@type": "DefinedTerm",
-                    "name": "COP",
-                    "description": "Certificate of Practice issued by ICAI; only a CA holding a valid COP can generate UDIN and sign the net worth certificate."
-                }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -853,7 +618,247 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Net Worth Certificate for Home Loan in Pune 2026 | Patron</title>
+    <meta name="description" content="CA-certified net worth certificate for Pune home loan applicants. UDIN, 3-year comparative format. HDFC, SBI, ICICI accepted. Starting INR 1,499.">
+    <link rel="canonical" href="https://www.patronaccounting.com/net-worth-certificate-for-home-loan/pune">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Net Worth Certificate for Home Loan in Pune 2026 | Patron">
+    <meta property="og:description" content="CA-certified net worth certificate for Pune home loan applicants. UDIN, 3-year comparative format. HDFC, SBI, ICICI accepted. Starting INR 1,499.">
+    <meta property="og:url" content="https://www.patronaccounting.com/net-worth-certificate-for-home-loan/pune">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Net Worth Certificate for Home Loan in Pune 2026 | Patron">
+    <meta name="twitter:description" content="CA-certified net worth certificate for Pune home loan applicants. UDIN, 3-year comparative format. HDFC, SBI, ICICI accepted. Starting INR 1,499.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/pune/#service",
+        "name": "Net Worth Certificate for Home Loan in Pune",
+        "description": "CA-certified net worth certificate for Pune home loan applicants. UDIN, 3-year comparative format. HDFC, SBI, ICICI accepted. Starting INR 1,499.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/pune" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Chartered Accountant", "sameAs": "https://en.wikipedia.org/wiki/Chartered_accountant" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Net Worth Certificate for Home Loan Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Net Worth Certificate for Home Loan in Pune"
+                    },
+                    "price": "1499",
+                    "priceCurrency": "INR",
+                    "url": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/pune"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/pune/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate for Home Loan", "item": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan" },
+            { "@type": "ListItem", "position": 3, "name": "Pune", "item": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/pune" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/pune/#faq",
+        "datePublished": "2026-07-02T08:00:00+05:30",
+        "dateModified": "2026-07-02T08:00:00+05:30",
+        "mainEntity": [
+            {
+                    "@type": "Question",
+                    "name": "Why do banks ask for a net worth certificate for home loan in Pune?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Banks ask for a net worth certificate to verify the borrower's overall financial strength beyond reported income, especially for high-value home loans (typically above Rs 75 lakh at public-sector banks and above Rs 1 crore at private banks), for self-employed applicants whose salary slips do not exist, for NRI borrowers, and for joint loans where a non-earning co-applicant brings assets to the table. The certificate helps the credit team compute FOIR and validate eligibility for the requested loan amount."
+                    }
+                },
+{
+                    "@type": "Question",
+                    "name": "Who can issue a net worth certificate for home loan in Pune?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Only a practising Chartered Accountant in Pune holding a valid Certificate of Practice from ICAI can sign and issue a net worth certificate for home loan. The CA generates an 18-digit UDIN at udin.icai.org, signs on firm letterhead with ICAI seal, and prints Membership Number and Firm Registration Number. Banks and housing finance companies including HDFC, SBI, ICICI, Bank of Maharashtra and Bajaj Housing Finance verify the UDIN before accepting the document."
+                    }
+                },
+{
+                    "@type": "Question",
+                    "name": "How much does a net worth certificate for home loan cost in Pune?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Patron Accounting charges starting INR 1,499 (Exclusive of GST and Government Charges) for the standard salaried home loan certificate in Pune. Self-employed and business cases with the 3-year comparative schedule are INR 1,999. NRI home loan variants with NRE/NRO/FCNR consolidation are INR 2,499. Add-ons like engineer-signed property valuation report and gold valuation report are billed separately. Other Pune CA firms typically charge between INR 2,500 and INR 4,000."
+                    }
+                },
+{
+                    "@type": "Question",
+                    "name": "Is the certificate needed for every Pune home loan or only high-value loans?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Most Pune banks ask for the certificate only for home loans above a threshold - typically Rs 75 lakh at public-sector banks like SBI and Bank of Maharashtra, and Rs 1 crore at private banks like HDFC, ICICI and Axis. For self-employed applicants and NRI borrowers the certificate is often requested at any loan amount. Standard salaried home loans below the threshold usually do not need it; ITRs, Form 16 and bank statements suffice."
+                    }
+                },
+{
+                    "@type": "Question",
+                    "name": "What documents are needed for a Pune home loan net worth certificate?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "You need PAN, Aadhaar, ITRs for the last 3 financial years, latest salary slips (salaried) or 3-year balance sheets (self-employed), 6-12 months bank statements across all accounts, FD receipts, mutual fund and demat holdings, EPF and PPF passbook, property registration deed for any existing real estate with IGR ready reckoner valuation, vehicle RC, gold valuation, and all loan statements. NRI applicants also share NRE/NRO/FCNR statements and the latest overseas income proof."
+                    }
+                },
+{
+                    "@type": "Question",
+                    "name": "Is UDIN mandatory on a CA net worth certificate for home loan?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, UDIN is mandatory on every CA-issued net worth certificate since 1 July 2019, enforced by ICAI. The 18-digit Unique Document Identification Number is generated at udin.icai.org and printed on the certificate. Bank credit officers and HFC underwriters verify the certificate's authenticity by entering the UDIN on the ICAI portal. A certificate without UDIN is invalid and is typically rejected by the bank credit team during the document-verification step."
+                    }
+                }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/pune",
+        "name": "Net Worth Certificate for Home Loan in Pune",
+        "description": "CA-certified net worth certificate for Pune home loan applicants. UDIN, 3-year comparative format. HDFC, SBI, ICICI accepted. Starting INR 1,499.",
+        "url": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/pune",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/pune/#service" },
+        "datePublished": "2026-07-02T08:00:00+05:30",
+        "dateModified": "2026-07-02T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-home-loan/pune/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Get a Net Worth Certificate for Home Loan",
+        "description": "Step-by-step process to obtain a Net Worth Certificate for Home Loan from Patron Accounting.",
+        "totalTime": "P3D",
+        "step": [
+            {
+                    "@type": "HowToStep",
+                    "position": 1,
+                    "name": "Engagement",
+                    "text": "Pune home loan applicant calls Patron Accounting, identifies the bank (HDFC, SBI, ICICI, Bank of Maharashtra, Bajaj Housing Finance or other), loan amount, and applicant type (salaried, self-employed, NRI, joint). The engagement letter captures purpose under ICAI SA 200 'Overall Objectives of the Independent Auditor'."
+                },
+{
+                    "@type": "HowToStep",
+                    "position": 2,
+                    "name": "Document collection",
+                    "text": "Upload PAN, Aadhaar, 3 years ITRs, latest salary slips or business income statements, 6-12 months bank statements across all accounts, FD receipts, MF and demat holdings, EPF/PPF passbook, property registration deed for existing real estate, vehicle RC, gold valuation, and all loan statements via Patron's secure portal."
+                },
+{
+                    "@type": "HowToStep",
+                    "position": 3,
+                    "name": "Document verification",
+                    "text": "Patron CA cross-checks balances against bank statements, validates Pune property at the Maharashtra IGR ready reckoner rate published for the specific ward, reconciles 3-year wealth trajectory with ITR-reported income for self-employed cases, and confirms loan outstanding from sanction letters under ICAI SA 500 'Audit Evidence'."
+                },
+{
+                    "@type": "HowToStep",
+                    "position": 4,
+                    "name": "Bank",
+                    "text": "template alignment - Patron checks whether the lender has a prescribed template (some banks like SBI and HDFC do). The certificate is laid out to match. For lenders without a prescribed format, Patron uses its standard 12-element ICAI-compliant template."
+                },
+{
+                    "@type": "HowToStep",
+                    "position": 5,
+                    "name": "Draft preparation and review",
+                    "text": "Draft certificate is emailed within 24 hours for borrower and loan-officer review. Corrections to name spelling (PAN match), address, property valuation, and the 3-year comparative figures happen in this step."
+                },
+{
+                    "@type": "HowToStep",
+                    "position": 6,
+                    "name": "UDIN generation and final issue",
+                    "text": "Patron CA generates the 18-digit UDIN at udin.icai.org under category 'Certificates - Net Worth Certificate', signs on firm letterhead with ICAI seal, and issues the final document. Soft copy emailed the same day; hard copy collected from Patron Pune office or couriered to the bank branch within 2-3 working days."
+                }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Net Worth Certificate for Home Loan Key Terms",
+        "definedTerm": [
+            {
+                    "@type": "DefinedTerm",
+                    "name": "UDIN",
+                    "description": "18-digit Unique Document Identification Number generated by the issuing CA at udin.icai.org for every certificate, mandatory since 1 July 2019."
+                },
+{
+                    "@type": "DefinedTerm",
+                    "name": "FOIR",
+                    "description": "Fixed Obligation to Income Ratio - the percentage of net monthly income committed to existing loan EMIs. Banks typically cap FOIR at 50-65 percent; the net worth certificate strengthens FOIR-stretched applications by evidencing asset cover."
+                },
+{
+                    "@type": "DefinedTerm",
+                    "name": "LTV Ratio",
+                    "description": "Loan to Value ratio - regulated by RBI Master Direction. For housing loans up to Rs 30 lakh the LTV ceiling is 90 percent; above Rs 75 lakh the ceiling drops to 75 percent. The certificate helps establish creditworthiness when borrower margin is high."
+                },
+{
+                    "@type": "DefinedTerm",
+                    "name": "3-Year Comparative Net Worth",
+                    "description": "Net worth as on the last three financial year ends (31 March), shown side by side. Banks ask self-employed applicants for this schedule to verify the wealth trajectory."
+                },
+{
+                    "@type": "DefinedTerm",
+                    "name": "COP",
+                    "description": "Certificate of Practice issued by ICAI; only a CA holding a valid COP can generate UDIN and sign the net worth certificate."
+                }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1652,22 +1657,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
-<!-- ============================================
-     CONSULTATION FORM - Country Dropdown + Validation + Bigin Integration
-     ============================================ -->
-{{-- Enquiry form markup + JS now in partials/enquiry-form.blade.php --}}
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1690,8 +1683,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1728,5 +1719,24 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+<!-- ============================================
+     CONSULTATION FORM - Country Dropdown + Validation + Bigin Integration
+     ============================================ -->
+{{-- Enquiry form markup + JS now in partials/enquiry-form.blade.php --}}
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
 
 <!-- Last Updated hardcoded in markup per QC v2.1 (no view-time JS) -->

@@ -1,146 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>GSTR-8 Filing in 2026: E-Commerce TCS | Patron Accounting</title>
-    <meta name="description" content="GSTR-8 is the monthly TCS return for e-commerce operators under Section 52 CGST Act. 0.5% TCS, due 10th. Patron starts at Rs 2,499/mo (Exl GST).">
-    <link rel="canonical" href="/gstr-8-filing">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="GSTR-8 Filing in 2026: E-Commerce TCS | Patron Accounting">
-    <meta property="og:description" content="GSTR-8 is the monthly TCS return for e-commerce operators under Section 52 CGST Act. 0.5% TCS, due 10th. Patron starts at Rs 2,499/mo (Exl GST).">
-    <meta property="og:url" content="/gstr-8-filing">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="GSTR-8 Filing in 2026: E-Commerce TCS | Patron Accounting">
-    <meta name="twitter:description" content="GSTR-8 is the monthly TCS return for e-commerce operators under Section 52 CGST Act. 0.5% TCS, due 10th. Patron starts at Rs 2,499/mo (Exl GST).">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/gstr-8-filing/#service",
-        "name": "GSTR-8 Filing for E-Commerce Operators in India",
-        "description": "GSTR-8 filing service for e-commerce operators required to collect tax at source under Section 52 of the CGST Act 2017 and Rule 67 of the CGST Rules. Monthly return preparation, net value reconciliation, Section 9(5) carve-out, supplier amendment handling, and challan-to-credit verification starting from INR 2,499 per month for marketplaces, aggregators, and digital platforms.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gstr-8-filing" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [
-            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
-            { "@type": "Thing", "name": "E-commerce", "sameAs": "https://en.wikipedia.org/wiki/E-commerce" }
-        ],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "GSTR-8 Filing Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "Standard Monthly GSTR-8 Filing",
-                    "priceCurrency": "INR",
-                    "price": "2499",
-                    "description": "Up to 100 supplier entries, net value reconciliation, challan, and filing per state"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/gstr-8-filing/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
-            { "@type": "ListItem", "position": 3, "name": "GSTR-8 Filing", "item": "https://www.patronaccounting.com/gstr-8-filing" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/gstr-8-filing/#faq",
-        "datePublished": "2026-05-27T08:00:00+05:30",
-        "dateModified": "2026-06-01T08:00:00+05:30",
-        "mainEntity": [
-
-            {
-                "@type": "Question",
-                "name": "What is GSTR-8 and who must file it?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "GSTR-8 is the monthly GST return prescribed under Rule 67 of the CGST Rules 2017 for every e-commerce operator required to collect tax at source under Section 52 of the CGST Act. It applies to platforms like Amazon, Flipkart, Meesho, Swiggy, and any marketplace that collects consideration from buyers on behalf of sellers. The return reports supplier-wise net taxable supplies and TCS collected at 0.5 percent."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the GSTR-8 due date and late fee?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "GSTR-8 is due on the 10th day of the calendar month following the tax period under Rule 67 CGST Rules. The late fee is Rs 200 per day (Rs 100 CGST plus Rs 100 SGST), capped at Rs 5,000 per return under Section 47 - no late fee applies on IGST component. Unpaid TCS attracts 18 percent annual interest under Section 50 from the 11th onwards."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the current GST TCS rate for e-commerce operators?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "The current GST TCS rate is 0.5 percent of the net taxable value, effective from 10 July 2024 per Notification 15/2024-Central Tax. For intra-state supplies the split is 0.25 percent CGST plus 0.25 percent SGST. For inter-state supplies it is 0.5 percent IGST. This is a reduction from the earlier 1 percent rate. TCS is computed on net value (gross supplies minus returns), not gross sales."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Do food delivery and cab aggregators collect TCS under GSTR-8?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Food delivery aggregators and cab aggregators collect TCS only on supplies outside Section 9(5). For Section 9(5) notified services such as cloud kitchen restaurant supplies, motor cab aggregation, and accommodation services, the ECO is the deemed supplier and pays GST directly through GSTR-1 and GSTR-3B, with no TCS collection. The two regimes operate side by side on the same platform."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can GSTR-8 be revised after filing?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "No. GSTR-8 cannot be revised once filed. Any errors or supplier disputes must be corrected through Table 4 of the next month return, where amendment entries are auto-populated based on supplier rejections from their TDS and TCS credit received dashboard. The amendment facility supports multiple revisions over time per the Notification 14/2022 framework."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Is GSTR-8 mandatory in a month with no TCS collection?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "No. GSTR-8 is not mandatory for a tax period when the ECO has collected no TCS and there are no auto-populated rejection entries in Table 4 from previous periods. However, the moment any TCS is collected or any rejection flows into Table 4, the return becomes mandatory. Most active marketplaces file every month given the rejection cascade alone."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the difference between GSTR-7 and GSTR-8?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "GSTR-7 is the monthly TDS return filed under Section 51 CGST Act by government, PSU, and notified deductors at 2 percent on contracts above Rs 2.5 lakh. GSTR-8 is the monthly TCS return filed under Section 52 CGST Act by e-commerce operators at 0.5 percent on supplier net taxable supplies. Both are due on the 10th of the next month but operate under different sections, taxpayer universes, and tax mechanics."
-                }
-            }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -754,7 +618,148 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>GSTR-8 Filing in 2026: E-Commerce TCS | Patron Accounting</title>
+    <meta name="description" content="GSTR-8 is the monthly TCS return for e-commerce operators under Section 52 CGST Act. 0.5% TCS, due 10th. Patron starts at Rs 2,499/mo (Exl GST).">
+    <link rel="canonical" href="/gstr-8-filing">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="GSTR-8 Filing in 2026: E-Commerce TCS | Patron Accounting">
+    <meta property="og:description" content="GSTR-8 is the monthly TCS return for e-commerce operators under Section 52 CGST Act. 0.5% TCS, due 10th. Patron starts at Rs 2,499/mo (Exl GST).">
+    <meta property="og:url" content="/gstr-8-filing">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GSTR-8 Filing in 2026: E-Commerce TCS | Patron Accounting">
+    <meta name="twitter:description" content="GSTR-8 is the monthly TCS return for e-commerce operators under Section 52 CGST Act. 0.5% TCS, due 10th. Patron starts at Rs 2,499/mo (Exl GST).">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/gstr-8-filing/#service",
+        "name": "GSTR-8 Filing for E-Commerce Operators in India",
+        "description": "GSTR-8 filing service for e-commerce operators required to collect tax at source under Section 52 of the CGST Act 2017 and Rule 67 of the CGST Rules. Monthly return preparation, net value reconciliation, Section 9(5) carve-out, supplier amendment handling, and challan-to-credit verification starting from INR 2,499 per month for marketplaces, aggregators, and digital platforms.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gstr-8-filing" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [
+            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
+            { "@type": "Thing", "name": "E-commerce", "sameAs": "https://en.wikipedia.org/wiki/E-commerce" }
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "GSTR-8 Filing Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "Standard Monthly GSTR-8 Filing",
+                    "priceCurrency": "INR",
+                    "price": "2499",
+                    "description": "Up to 100 supplier entries, net value reconciliation, challan, and filing per state"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/gstr-8-filing/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
+            { "@type": "ListItem", "position": 3, "name": "GSTR-8 Filing", "item": "https://www.patronaccounting.com/gstr-8-filing" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/gstr-8-filing/#faq",
+        "datePublished": "2026-05-27T08:00:00+05:30",
+        "dateModified": "2026-06-01T08:00:00+05:30",
+        "mainEntity": [
+
+            {
+                "@type": "Question",
+                "name": "What is GSTR-8 and who must file it?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "GSTR-8 is the monthly GST return prescribed under Rule 67 of the CGST Rules 2017 for every e-commerce operator required to collect tax at source under Section 52 of the CGST Act. It applies to platforms like Amazon, Flipkart, Meesho, Swiggy, and any marketplace that collects consideration from buyers on behalf of sellers. The return reports supplier-wise net taxable supplies and TCS collected at 0.5 percent."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the GSTR-8 due date and late fee?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "GSTR-8 is due on the 10th day of the calendar month following the tax period under Rule 67 CGST Rules. The late fee is Rs 200 per day (Rs 100 CGST plus Rs 100 SGST), capped at Rs 5,000 per return under Section 47 - no late fee applies on IGST component. Unpaid TCS attracts 18 percent annual interest under Section 50 from the 11th onwards."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the current GST TCS rate for e-commerce operators?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The current GST TCS rate is 0.5 percent of the net taxable value, effective from 10 July 2024 per Notification 15/2024-Central Tax. For intra-state supplies the split is 0.25 percent CGST plus 0.25 percent SGST. For inter-state supplies it is 0.5 percent IGST. This is a reduction from the earlier 1 percent rate. TCS is computed on net value (gross supplies minus returns), not gross sales."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Do food delivery and cab aggregators collect TCS under GSTR-8?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Food delivery aggregators and cab aggregators collect TCS only on supplies outside Section 9(5). For Section 9(5) notified services such as cloud kitchen restaurant supplies, motor cab aggregation, and accommodation services, the ECO is the deemed supplier and pays GST directly through GSTR-1 and GSTR-3B, with no TCS collection. The two regimes operate side by side on the same platform."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can GSTR-8 be revised after filing?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No. GSTR-8 cannot be revised once filed. Any errors or supplier disputes must be corrected through Table 4 of the next month return, where amendment entries are auto-populated based on supplier rejections from their TDS and TCS credit received dashboard. The amendment facility supports multiple revisions over time per the Notification 14/2022 framework."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is GSTR-8 mandatory in a month with no TCS collection?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No. GSTR-8 is not mandatory for a tax period when the ECO has collected no TCS and there are no auto-populated rejection entries in Table 4 from previous periods. However, the moment any TCS is collected or any rejection flows into Table 4, the return becomes mandatory. Most active marketplaces file every month given the rejection cascade alone."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the difference between GSTR-7 and GSTR-8?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "GSTR-7 is the monthly TDS return filed under Section 51 CGST Act by government, PSU, and notified deductors at 2 percent on contracts above Rs 2.5 lakh. GSTR-8 is the monthly TCS return filed under Section 52 CGST Act by e-commerce operators at 0.5 percent on supplier net taxable supplies. Both are due on the 10th of the next month but operate under different sections, taxpayer universes, and tax mechanics."
+                }
+            }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1668,17 +1673,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1701,8 +1699,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1739,7 +1735,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1750,4 +1745,20 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+
 

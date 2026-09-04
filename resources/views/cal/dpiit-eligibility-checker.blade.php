@@ -1,179 +1,6 @@
 @extends('layouts.app')
-<title>DPIIT Eligibility Checker | Startup India Recognition</title>
-<meta name="description" content="Free DPIIT eligibility checker: see if your startup qualifies for Startup India recognition on entity type, age, turnover, origin &amp; innovation. Check now!">
-<meta name="robots" content="index, follow">
-<meta name="theme-color" content="#15365f">
+@push('styles')
 <link rel="canonical" href="https://www.patronaccounting.com/tools/dpiit-eligibility-checker">
-@section('meta')
-<meta property="og:title" content="DPIIT Eligibility Checker — Startup Recognition 2026">
-<meta property="og:description" content="Check whether your startup qualifies for DPIIT recognition under the 2026 framework, and which Startup India benefits — 80-IAC, angel-tax — it unlocks.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.patronaccounting.com/tools/dpiit-eligibility-checker">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="1200">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-<meta property="og:site_name" content="Patron Accounting">
-<meta property="og:locale" content="en_IN">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="DPIIT Eligibility Checker — Startup Recognition 2026">
-<meta name="twitter:description" content="Check if your startup qualifies for DPIIT / Startup India recognition and which benefits it unlocks. Free &amp; instant.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-
-<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
-<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
-@endsection
-@section('schema')
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "DPIIT Eligibility Checker",
-  "description": "DPIIT Eligibility Checker tells a founder whether their startup qualifies for DPIIT recognition under the Startup India scheme. It walks through the five eligibility conditions — entity type, age since incorporation, annual turnover, whether the entity was formed by splitting or reconstructing an existing business, and whether it is working towards innovation or scalability — and returns a clear eligible, conditional or not-eligible verdict with the reasons. It also indicates which Startup India benefits, such as the Section 80-IAC tax holiday and angel-tax position, the startup could access on recognition.",
-  "url": "https://www.patronaccounting.com/tools/dpiit-eligibility-checker",
-  "applicationCategory": "BusinessApplication",
-  "inLanguage": "en-IN",
-  "isAccessibleForFree": true,
-  "operatingSystem": "Any",
-  "datePublished": "2026-06-05T08:00:00+05:30",
-  "dateModified": "2026-06-05T08:00:00+05:30",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "INR"
-  },
-  "reviewedBy": {
-    "@type": "Person",
-    "@id": "https://patronaccounting.com/#founder",
-    "name": "CA Sundram Gupta",
-    "jobTitle": "Founder & Chartered Accountant",
-    "url": "https://www.patronaccounting.com/contact-page",
-    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-    "hasCredential": [{
-      "@type": "EducationalOccupationalCredential",
-      "credentialCategory": "Professional Certification",
-      "name": "Chartered Accountant (CA)",
-      "recognizedBy": {
-        "@type": "Organization",
-        "name": "Institute of Chartered Accountants of India",
-        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-      }
-    }]
-  },
-  "publisher": { "@id": "https://patronaccounting.com/#organization" },
-  "provider": {
-    "@id": "https://patronaccounting.com/#organization"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "DPIIT Eligibility Checker", "item": "https://www.patronaccounting.com/tools/dpiit-eligibility-checker"}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is DPIIT recognition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "DPIIT recognition is a certificate from the Department for Promotion of Industry and Internal Trade that officially recognises an entity as a startup under the Startup India scheme. It is applied for free on the Startup India portal and, once granted, becomes the gateway to a range of benefits such as the Section 80-IAC income tax holiday, self-certification under labour and environmental laws, intellectual property rebates and access to government procurement. Recognition itself does not automatically grant the tax exemption, which is a separate application."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the eligibility criteria for DPIIT recognition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "There are five conditions. The entity must be a Private Limited Company, an LLP, a registered Partnership Firm or a cooperative society. It must be up to ten years old from incorporation, twenty years for a Deep Tech startup. Its annual turnover must stay within the prescribed cap in every financial year. It must not have been formed by splitting up or reconstructing an existing business. And it must be working towards innovation or improvement of products, processes or services, or have a scalable model with potential for employment and wealth creation."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which entities are not eligible for DPIIT recognition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Sole proprietorships and Hindu Undivided Families are not eligible for DPIIT recognition, because the scheme is open only to a Private Limited Company, an LLP, a registered Partnership Firm or a cooperative society. If you currently operate as a sole proprietorship, you must first incorporate as one of the eligible structures before applying. A business formed by splitting or reconstructing an existing company, including a subsidiary created only to access the scheme, is also not eligible regardless of its legal form."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How old can my startup be and still qualify?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A startup can be recognised up to ten years from its date of incorporation or registration, and up to twenty years if it qualifies as a Deep Tech startup. Once the entity crosses the age limit, or exceeds the turnover cap in any financial year, the recognition lapses and the startup exits the scheme. Because the benefits compound over time, it is generally best to obtain recognition early in the entity's life rather than waiting, so more of the ten-year window remains available."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does turnover affect DPIIT eligibility?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. The startup's annual turnover must not have exceeded the prescribed cap in any financial year since incorporation, and DPIIT checks all years, not just the most recent one. The widely cited cap is one hundred crore rupees, and the February 2026 framework references a higher limit for certain cases and for Deep Tech startups, so you should confirm the figure that currently applies to you. If turnover has crossed the cap in any past year, the entity does not qualify."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What does the innovation criterion mean?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The entity must be working towards innovation, development or improvement of products, processes or services, or have a scalable business model with a high potential for employment generation or wealth creation. In practice this is demonstrated through a clear, specific innovation write-up in the application. A vague description such as we provide technology solutions is the most common reason for rejection, so the statement should explain the problem solved, what is genuinely different about the product or process, and the measurable impact on growth or jobs."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What benefits does DPIIT recognition unlock?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Recognition unlocks the Section 80-IAC tax holiday, a hundred percent income tax exemption on profits for any three consecutive years out of the first ten, available to eligible Private Limited Companies and LLPs incorporated within the prescribed window and approved separately by the Inter-Ministerial Board. It also brings self-certification under several labour and environmental laws, rebates on patent and trademark filings, easier public procurement, and access to schemes such as the Fund of Funds. The angel tax under Section 56 has itself been abolished from the 2025-26 financial year."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is DPIIT recognition the same as the 80-IAC tax holiday?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. DPIIT recognition is a prerequisite for the Section 80-IAC tax holiday but does not grant it automatically. After obtaining recognition you must apply separately on the Startup India portal for 80-IAC, and the Inter-Ministerial Board reviews that application independently against its own conditions. The 80-IAC benefit is available only to Private Limited Companies and LLPs, not to partnership firms, even though a partnership firm can obtain DPIIT recognition itself for other benefits."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is there a government fee for DPIIT recognition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. DPIIT recognition is completely free, and there is no government fee for the recognition certificate or for the Section 80-IAC application. Applications are filed directly on the Startup India portal, and DPIIT has not appointed any agency to charge for this, so anyone demanding a government fee is not authorised. A professional fee may apply only if you engage a CA or consultant to help incorporate the entity or draft the innovation statement, which is a separate, optional cost."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the DPIIT Eligibility Checker free and reliable?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, the Patron Accounting DPIIT Eligibility Checker is completely free with no signup required, and all logic runs in your browser with nothing stored on our servers. It applies the five published eligibility conditions to your answers and indicates whether you are likely eligible, conditionally eligible or not eligible, with reasons. It is an educational guide, not an official determination; eligibility is ultimately decided by DPIIT on the application, and rules and thresholds change, so confirm your position with a professional before applying."
-      }
-    }
-  ]
-}
-</script>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-@endsection
 <style>
         :root {
             --primary: #15365f;
@@ -690,6 +517,183 @@ a:focus-visible {
 
 
         </style>
+@endpush
+
+@section('meta')
+<meta property="og:title" content="DPIIT Eligibility Checker — Startup Recognition 2026">
+<meta property="og:description" content="Check whether your startup qualifies for DPIIT recognition under the 2026 framework, and which Startup India benefits — 80-IAC, angel-tax — it unlocks.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/dpiit-eligibility-checker">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+<meta property="og:site_name" content="Patron Accounting">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="DPIIT Eligibility Checker — Startup Recognition 2026">
+<meta name="twitter:description" content="Check if your startup qualifies for DPIIT / Startup India recognition and which benefits it unlocks. Free &amp; instant.">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
+
+<title>DPIIT Eligibility Checker | Startup India Recognition</title>
+<meta name="description" content="Free DPIIT eligibility checker: see if your startup qualifies for Startup India recognition on entity type, age, turnover, origin &amp; innovation. Check now!">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#15365f">
+@endsection
+@section('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "DPIIT Eligibility Checker",
+  "description": "DPIIT Eligibility Checker tells a founder whether their startup qualifies for DPIIT recognition under the Startup India scheme. It walks through the five eligibility conditions — entity type, age since incorporation, annual turnover, whether the entity was formed by splitting or reconstructing an existing business, and whether it is working towards innovation or scalability — and returns a clear eligible, conditional or not-eligible verdict with the reasons. It also indicates which Startup India benefits, such as the Section 80-IAC tax holiday and angel-tax position, the startup could access on recognition.",
+  "url": "https://www.patronaccounting.com/tools/dpiit-eligibility-checker",
+  "applicationCategory": "BusinessApplication",
+  "inLanguage": "en-IN",
+  "isAccessibleForFree": true,
+  "operatingSystem": "Any",
+  "datePublished": "2026-06-05T08:00:00+05:30",
+  "dateModified": "2026-06-05T08:00:00+05:30",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "INR"
+  },
+  "reviewedBy": {
+    "@type": "Person",
+    "@id": "https://patronaccounting.com/#founder",
+    "name": "CA Sundram Gupta",
+    "jobTitle": "Founder & Chartered Accountant",
+    "url": "https://www.patronaccounting.com/contact-page",
+    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+    "hasCredential": [{
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Professional Certification",
+      "name": "Chartered Accountant (CA)",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Institute of Chartered Accountants of India",
+        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+      }
+    }]
+  },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
+  "provider": {
+    "@id": "https://patronaccounting.com/#organization"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "DPIIT Eligibility Checker", "item": "https://www.patronaccounting.com/tools/dpiit-eligibility-checker"}
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is DPIIT recognition?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "DPIIT recognition is a certificate from the Department for Promotion of Industry and Internal Trade that officially recognises an entity as a startup under the Startup India scheme. It is applied for free on the Startup India portal and, once granted, becomes the gateway to a range of benefits such as the Section 80-IAC income tax holiday, self-certification under labour and environmental laws, intellectual property rebates and access to government procurement. Recognition itself does not automatically grant the tax exemption, which is a separate application."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the eligibility criteria for DPIIT recognition?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "There are five conditions. The entity must be a Private Limited Company, an LLP, a registered Partnership Firm or a cooperative society. It must be up to ten years old from incorporation, twenty years for a Deep Tech startup. Its annual turnover must stay within the prescribed cap in every financial year. It must not have been formed by splitting up or reconstructing an existing business. And it must be working towards innovation or improvement of products, processes or services, or have a scalable model with potential for employment and wealth creation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which entities are not eligible for DPIIT recognition?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sole proprietorships and Hindu Undivided Families are not eligible for DPIIT recognition, because the scheme is open only to a Private Limited Company, an LLP, a registered Partnership Firm or a cooperative society. If you currently operate as a sole proprietorship, you must first incorporate as one of the eligible structures before applying. A business formed by splitting or reconstructing an existing company, including a subsidiary created only to access the scheme, is also not eligible regardless of its legal form."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How old can my startup be and still qualify?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A startup can be recognised up to ten years from its date of incorporation or registration, and up to twenty years if it qualifies as a Deep Tech startup. Once the entity crosses the age limit, or exceeds the turnover cap in any financial year, the recognition lapses and the startup exits the scheme. Because the benefits compound over time, it is generally best to obtain recognition early in the entity's life rather than waiting, so more of the ten-year window remains available."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does turnover affect DPIIT eligibility?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The startup's annual turnover must not have exceeded the prescribed cap in any financial year since incorporation, and DPIIT checks all years, not just the most recent one. The widely cited cap is one hundred crore rupees, and the February 2026 framework references a higher limit for certain cases and for Deep Tech startups, so you should confirm the figure that currently applies to you. If turnover has crossed the cap in any past year, the entity does not qualify."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does the innovation criterion mean?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The entity must be working towards innovation, development or improvement of products, processes or services, or have a scalable business model with a high potential for employment generation or wealth creation. In practice this is demonstrated through a clear, specific innovation write-up in the application. A vague description such as we provide technology solutions is the most common reason for rejection, so the statement should explain the problem solved, what is genuinely different about the product or process, and the measurable impact on growth or jobs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What benefits does DPIIT recognition unlock?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Recognition unlocks the Section 80-IAC tax holiday, a hundred percent income tax exemption on profits for any three consecutive years out of the first ten, available to eligible Private Limited Companies and LLPs incorporated within the prescribed window and approved separately by the Inter-Ministerial Board. It also brings self-certification under several labour and environmental laws, rebates on patent and trademark filings, easier public procurement, and access to schemes such as the Fund of Funds. The angel tax under Section 56 has itself been abolished from the 2025-26 financial year."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is DPIIT recognition the same as the 80-IAC tax holiday?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. DPIIT recognition is a prerequisite for the Section 80-IAC tax holiday but does not grant it automatically. After obtaining recognition you must apply separately on the Startup India portal for 80-IAC, and the Inter-Ministerial Board reviews that application independently against its own conditions. The 80-IAC benefit is available only to Private Limited Companies and LLPs, not to partnership firms, even though a partnership firm can obtain DPIIT recognition itself for other benefits."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a government fee for DPIIT recognition?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. DPIIT recognition is completely free, and there is no government fee for the recognition certificate or for the Section 80-IAC application. Applications are filed directly on the Startup India portal, and DPIIT has not appointed any agency to charge for this, so anyone demanding a government fee is not authorised. A professional fee may apply only if you engage a CA or consultant to help incorporate the entity or draft the innovation statement, which is a separate, optional cost."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the DPIIT Eligibility Checker free and reliable?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the Patron Accounting DPIIT Eligibility Checker is completely free with no signup required, and all logic runs in your browser with nothing stored on our servers. It applies the five published eligibility conditions to your answers and indicates whether you are likely eligible, conditionally eligible or not eligible, with reasons. It is an educational guide, not an official determination; eligibility is ultimately decided by DPIIT on the application, and rules and thresholds change, so confirm your position with a professional before applying."
+      }
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation">
     <div class="toc-nav-inner">

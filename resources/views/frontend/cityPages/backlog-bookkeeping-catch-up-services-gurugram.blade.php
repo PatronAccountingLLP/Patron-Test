@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,208 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>Backlog Bookkeeping in Gurugram 2026 | Patron Accounting</title>
-    <meta name="description" content="Behind on books in Gurugram? Patron rebuilds Cyber City and Manesar ledgers, clears GST returns and Haryana SGST from INR 9,999 per month-of-backlog.">
-    <link rel="canonical" href="/backlog-bookkeeping-catch-up-services/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Backlog Bookkeeping in Gurugram 2026 | Patron Accounting">
-    <meta property="og:description" content="Behind on books in Gurugram? Patron rebuilds Cyber City and Manesar ledgers, clears GST returns and Haryana SGST from INR 9,999 per month-of-backlog.">
-    <meta property="og:url" content="/backlog-bookkeeping-catch-up-services/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Backlog Bookkeeping in Gurugram 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Behind on books in Gurugram? Patron rebuilds Cyber City and Manesar ledgers, clears GST returns and Haryana SGST from INR 9,999 per month-of-backlog.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services/gurugram#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Backlog Bookkeeping and Catch-Up Services",
-          "item": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Backlog Bookkeeping and Catch-Up Services in Gurugram",
-          "item": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services/gurugram#faq",
-      "datePublished": "2026-06-23T08:00:00+05:30",
-      "dateModified": "2026-06-23T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What does catch-up bookkeeping mean for a Gurugram business?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "It is the work of rebuilding accounting that was never recorded over earlier months or years, until your books are accurate and ready for tax. For a Gurugram firm that takes in posting the ledger, reconciling banks, matching GST 2B, and cleaning the accounts in line with the CGST Act 2017 and Section 44AA of the Income Tax Act."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What will backlog bookkeeping cost in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patron's fees open at INR 9,999 per month-of-backlog (Exl GST and Govt. Charges). What you actually pay turns on the number of transactions, how many bank accounts and GST registrations are involved, and how far the books have fallen behind. Cyber City and Manesar clients get a fixed-scope quote up front, before any work starts."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Where do Gurugram companies file with the RoC, and how does that affect catch-up?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Although Gurugram sits in Haryana, companies here register with RoC Delhi, which holds shared jurisdiction over NCT of Delhi and Haryana. That means your statutory books under Companies Act 2013 Section 128 must align with RoC Delhi filings. During catch-up we reconcile the accounts so they support those MCA filings cleanly, with no mismatch."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How quickly can a backlog be cleared in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "As a rule, count on 1 to 4 weeks for each financial year of backlog. A Gurugram startup roughly six months behind is typically done in 2 to 3 weeks. Where there is multi-year inventory and several GSTINs to handle, the work can stretch to 6 to 10 weeks, depending on how soon documents arrive and how heavy the volume is."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What GST late fee applies to overdue returns in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 47 of the CGST Act 2017 sets the GSTR-3B late fee at INR 50 a day, split as INR 25 CGST and INR 25 Haryana SGST, dropping to INR 20 a day on nil returns, both subject to the statutory cap. On top, Section 50 charges interest of 18 percent a year on tax left unpaid. We calculate and settle all of this as part of the catch-up."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can you fix export ITC and LUT issues for a Cyber City SaaS or ITES firm?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. For Cyber City software exporters supplying overseas clients, we confirm the Letter of Undertaking position so zero-rated exports are booked correctly, reconcile gateway settlements from Razorpay or Stripe, and match domestic-purchase input tax credit against GSTR-2B. Any missed LUT or misclassified export entry from the backlog months is corrected before the period is signed off."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do you handle a Manesar auto-component maker with multiple GSTINs and stock?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We treat each GSTIN as its own reconciliation, then consolidate. For a Manesar IMT automotive or component plant that means rebuilding the stock and bill-of-materials records, posting vendor and job-work bills to the right HSN codes, and matching purchase ITC unit by unit. The result is a clean, consolidated trial balance that ties out across every registration before audit."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does a Gurugram business need to catch up on Haryana profession tax?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Haryana does not levy a separate profession tax, so there is no PTRC or PTEC return to reconstruct, unlike some other states. Catch-up for a Gurugram firm instead concentrates on GST and Haryana SGST, TDS challans against Form 26AS, and income tax under Section 44AA. We will note any LWF or labour registrations that do apply."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services/gurugram#service",
-      "name": "Backlog Bookkeeping and Catch-Up Services in Gurugram",
-      "description": "Patron Accounting rebuilds neglected books for Gurugram firms, posting missing entries, matching GSTR-2B, clearing Haryana SGST returns, and verifying the trial balance until accounts are audit-ready. Catch-up and cleanup serve Cyber City SaaS teams, Udyog Vihar ITES units, MG Road retailers, and Manesar IMT manufacturers.",
-      "serviceType": "Backlog Bookkeeping and Catch-Up Bookkeeping",
-      "url": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services/gurugram",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#localbusiness-gurugram"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Bookkeeping",
-          "sameAs": "https://en.wikipedia.org/wiki/Bookkeeping"
-        },
-        {
-          "@type": "Thing",
-          "name": "Goods and Services Tax (India)",
-          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Backlog Bookkeeping Plans in Gurugram",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "price": "9999",
-            "priceSpecification": {
-              "@type": "UnitPriceSpecification",
-              "priceCurrency": "INR",
-              "price": "9999",
-              "unitText": "per month-of-backlog"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Catch-Up Bookkeeping per Month-of-Backlog"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness-gurugram",
-      "name": "Patron Accounting LLP - Gurugram",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services/gurugram",
-      "telephone": "+91-9699936369",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Gurugram",
-        "addressRegion": "Haryana",
-        "postalCode": "122002",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -830,7 +627,217 @@
         .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
 
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>Backlog Bookkeeping in Gurugram 2026 | Patron Accounting</title>
+    <meta name="description" content="Behind on books in Gurugram? Patron rebuilds Cyber City and Manesar ledgers, clears GST returns and Haryana SGST from INR 9,999 per month-of-backlog.">
+    <link rel="canonical" href="/backlog-bookkeeping-catch-up-services/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Backlog Bookkeeping in Gurugram 2026 | Patron Accounting">
+    <meta property="og:description" content="Behind on books in Gurugram? Patron rebuilds Cyber City and Manesar ledgers, clears GST returns and Haryana SGST from INR 9,999 per month-of-backlog.">
+    <meta property="og:url" content="/backlog-bookkeeping-catch-up-services/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Backlog Bookkeeping in Gurugram 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Behind on books in Gurugram? Patron rebuilds Cyber City and Manesar ledgers, clears GST returns and Haryana SGST from INR 9,999 per month-of-backlog.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services/gurugram#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Backlog Bookkeeping and Catch-Up Services",
+          "item": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Backlog Bookkeeping and Catch-Up Services in Gurugram",
+          "item": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services/gurugram#faq",
+      "datePublished": "2026-06-23T08:00:00+05:30",
+      "dateModified": "2026-06-23T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does catch-up bookkeeping mean for a Gurugram business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is the work of rebuilding accounting that was never recorded over earlier months or years, until your books are accurate and ready for tax. For a Gurugram firm that takes in posting the ledger, reconciling banks, matching GST 2B, and cleaning the accounts in line with the CGST Act 2017 and Section 44AA of the Income Tax Act."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What will backlog bookkeeping cost in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patron's fees open at INR 9,999 per month-of-backlog (Exl GST and Govt. Charges). What you actually pay turns on the number of transactions, how many bank accounts and GST registrations are involved, and how far the books have fallen behind. Cyber City and Manesar clients get a fixed-scope quote up front, before any work starts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where do Gurugram companies file with the RoC, and how does that affect catch-up?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Although Gurugram sits in Haryana, companies here register with RoC Delhi, which holds shared jurisdiction over NCT of Delhi and Haryana. That means your statutory books under Companies Act 2013 Section 128 must align with RoC Delhi filings. During catch-up we reconcile the accounts so they support those MCA filings cleanly, with no mismatch."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How quickly can a backlog be cleared in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "As a rule, count on 1 to 4 weeks for each financial year of backlog. A Gurugram startup roughly six months behind is typically done in 2 to 3 weeks. Where there is multi-year inventory and several GSTINs to handle, the work can stretch to 6 to 10 weeks, depending on how soon documents arrive and how heavy the volume is."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What GST late fee applies to overdue returns in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 47 of the CGST Act 2017 sets the GSTR-3B late fee at INR 50 a day, split as INR 25 CGST and INR 25 Haryana SGST, dropping to INR 20 a day on nil returns, both subject to the statutory cap. On top, Section 50 charges interest of 18 percent a year on tax left unpaid. We calculate and settle all of this as part of the catch-up."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you fix export ITC and LUT issues for a Cyber City SaaS or ITES firm?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. For Cyber City software exporters supplying overseas clients, we confirm the Letter of Undertaking position so zero-rated exports are booked correctly, reconcile gateway settlements from Razorpay or Stripe, and match domestic-purchase input tax credit against GSTR-2B. Any missed LUT or misclassified export entry from the backlog months is corrected before the period is signed off."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you handle a Manesar auto-component maker with multiple GSTINs and stock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We treat each GSTIN as its own reconciliation, then consolidate. For a Manesar IMT automotive or component plant that means rebuilding the stock and bill-of-materials records, posting vendor and job-work bills to the right HSN codes, and matching purchase ITC unit by unit. The result is a clean, consolidated trial balance that ties out across every registration before audit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does a Gurugram business need to catch up on Haryana profession tax?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Haryana does not levy a separate profession tax, so there is no PTRC or PTEC return to reconstruct, unlike some other states. Catch-up for a Gurugram firm instead concentrates on GST and Haryana SGST, TDS challans against Form 26AS, and income tax under Section 44AA. We will note any LWF or labour registrations that do apply."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services/gurugram#service",
+      "name": "Backlog Bookkeeping and Catch-Up Services in Gurugram",
+      "description": "Patron Accounting rebuilds neglected books for Gurugram firms, posting missing entries, matching GSTR-2B, clearing Haryana SGST returns, and verifying the trial balance until accounts are audit-ready. Catch-up and cleanup serve Cyber City SaaS teams, Udyog Vihar ITES units, MG Road retailers, and Manesar IMT manufacturers.",
+      "serviceType": "Backlog Bookkeeping and Catch-Up Bookkeeping",
+      "url": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services/gurugram",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#localbusiness-gurugram"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Bookkeeping",
+          "sameAs": "https://en.wikipedia.org/wiki/Bookkeeping"
+        },
+        {
+          "@type": "Thing",
+          "name": "Goods and Services Tax (India)",
+          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Backlog Bookkeeping Plans in Gurugram",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "price": "9999",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "INR",
+              "price": "9999",
+              "unitText": "per month-of-backlog"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Catch-Up Bookkeeping per Month-of-Backlog"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness-gurugram",
+      "name": "Patron Accounting LLP - Gurugram",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/backlog-bookkeeping-catch-up-services/gurugram",
+      "telephone": "+91-9699936369",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Gurugram",
+        "addressRegion": "Haryana",
+        "postalCode": "122002",
+        "addressCountry": "IN"
+      },
+      "parentOrganization": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1581,7 +1588,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

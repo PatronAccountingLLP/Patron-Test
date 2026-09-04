@@ -1,245 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Net Worth Certificate for Business Loan Delhi 2026 | Patron</title>
-    <meta name="description" content="CA-certified net worth certificate for Delhi business loan applicants. UDIN, 3-year comparative format. PNB, SBI, NSIC, SIDBI accepted. Starting INR 1,499.">
-    <link rel="canonical" href="https://www.patronaccounting.com/net-worth-certificate-for-business-loan/delhi">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Net Worth Certificate for Business Loan Delhi 2026 | Patron">
-    <meta property="og:description" content="CA-certified net worth certificate for Delhi business loan applicants. UDIN, 3-year comparative format. PNB, SBI, NSIC, SIDBI accepted. Starting INR 1,499.">
-    <meta property="og:url" content="https://www.patronaccounting.com/net-worth-certificate-for-business-loan/delhi">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Net Worth Certificate for Business Loan Delhi 2026 | Patron">
-    <meta name="twitter:description" content="CA-certified net worth certificate for Delhi business loan applicants. UDIN, 3-year comparative format. PNB, SBI, NSIC, SIDBI accepted. Starting INR 1,499.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-business-loan/delhi/#service",
-        "name": "Net Worth Certificate for Business Loan in Delhi",
-        "description": "CA-certified net worth certificate for Delhi business loan applicants. UDIN, 3-year comparative format. PNB, SBI, NSIC, SIDBI accepted. Starting INR 1,499.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/net-worth-certificate-for-business-loan/delhi" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Chartered Accountant", "sameAs": "https://en.wikipedia.org/wiki/Chartered_accountant" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Net Worth Certificate for Business Loan Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Net Worth Certificate for Business Loan in Delhi"
-                    },
-                    "price": "1499",
-                    "priceCurrency": "INR",
-                    "url": "https://www.patronaccounting.com/net-worth-certificate-for-business-loan/delhi"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-business-loan/delhi/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate for Business Loan", "item": "https://www.patronaccounting.com/net-worth-certificate-for-business-loan" },
-            { "@type": "ListItem", "position": 3, "name": "Delhi", "item": "https://www.patronaccounting.com/net-worth-certificate-for-business-loan/delhi" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-business-loan/delhi/#faq",
-        "datePublished": "2026-07-02T08:00:00+05:30",
-        "dateModified": "2026-07-02T08:00:00+05:30",
-        "mainEntity": [
-            {
-                    "@type": "Question",
-                    "name": "Why do Delhi banks ask for a net worth certificate for business loan?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Delhi banks ask for the certificate to verify the entity's and promoter's combined financial strength beyond reported income, especially for term loans, working capital limits, CGTMSE-backed loans, NSIC Single Point Registration Scheme registration, government tender bid bonds, central-PSU vendor empanelment, MUDRA Tarun Plus, Stand-Up India, and at every annual renewal for CC and OD limits above Rs 1 crore. PNB Dwarka HQ, PNB Housing Finance, Punjab and Sind Bank, SBI Delhi, NSIC Okhla, SIDBI Delhi, IFCI and other Delhi-active authorities use the certificate to size the facility and assess promoter recourse."
-                    }
-                },
-{
-                    "@type": "Question",
-                    "name": "Is the certificate required for NSIC Single Point Registration Scheme (SPRS)?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Yes. NSIC Single Point Registration Scheme at NSIC HQ Okhla requires a CA-certified net worth certificate at the registration stage and at every annual update. The certificate captures Udyam classification, audited turnover trend, promoter declaration, and the financial-capacity benchmark NSIC uses to determine tender benefit eligibility. Generic NWC formats trigger returned-application loops; Patron's Delhi office maintains the NSIC-specific template that the SPRS desk accepts on first review."
-                    }
-                },
-{
-                    "@type": "Question",
-                    "name": "Who can issue a net worth certificate for MSME loan in Delhi?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Only a practising Chartered Accountant in Delhi holding a valid Certificate of Practice from ICAI can sign and issue a net worth certificate for business loan. The CA generates an 18-digit UDIN at udin.icai.org, signs on firm letterhead with ICAI seal, and prints Membership Number and Firm Registration Number. Punjab National Bank Dwarka HQ, Punjab and Sind Bank, SBI Delhi, HDFC Bank, ICICI Bank, NSIC Okhla, SIDBI Delhi, IFCI and central-PSU empanellement desks all verify the UDIN before accepting the document."
-                    }
-                },
-{
-                    "@type": "Question",
-                    "name": "Is a separate certificate needed for government tender bid bond and performance guarantee?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Many Delhi central-government tenders on GeM (Government e-Marketplace) and CPPP (Central Public Procurement Portal) require a CA-certified financial-capacity declaration alongside the bid - which is essentially a tender-format NWC. The bid bond and performance guarantee themselves are separate financial instruments, but the bidder's eligibility to issue them is established through the certificate. Patron's Delhi office delivers the tender-format certificate same-day for last-minute bid submissions."
-                    }
-                },
-{
-                    "@type": "Question",
-                    "name": "Is UDIN mandatory on a business loan NWC for Delhi PSU vendors?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Yes, UDIN is mandatory on every CA-issued net worth certificate since 1 July 2019, enforced by ICAI. The 18-digit Unique Document Identification Number is generated at udin.icai.org and printed on the document. ONGC, GAIL, NTPC, Power Grid, BHEL, IOCL, BPCL, HPCL, SAIL, Coal India and other central-PSU empanellement desks verify the UDIN on the ICAI portal as a standard step in the empanelment-document review. A certificate without UDIN is invalid and is typically rejected at the empanelment-verification step."
-                    }
-                },
-{
-                    "@type": "Question",
-                    "name": "How is the 3-year comparative net worth presented for Delhi traders?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "The 3-year comparative net worth shows the entity's and promoter's net worth as on three consecutive financial year-ends (31 March 2024, 31 March 2025 and 31 March 2026), in a side-by-side schedule. For Old Delhi wholesalers, stock-in-trade is the largest balance-sheet item and needs careful year-over-year reconciliation with GSTR-3B input-output flow. Patron reconciles each year's figure with the corresponding audited balance sheet and ITR before signing."
-                    }
-                }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-business-loan/delhi",
-        "name": "Net Worth Certificate for Business Loan in Delhi",
-        "description": "CA-certified net worth certificate for Delhi business loan applicants. UDIN, 3-year comparative format. PNB, SBI, NSIC, SIDBI accepted. Starting INR 1,499.",
-        "url": "https://www.patronaccounting.com/net-worth-certificate-for-business-loan/delhi",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-business-loan/delhi/#service" },
-        "datePublished": "2026-07-02T08:00:00+05:30",
-        "dateModified": "2026-07-02T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-business-loan/delhi/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How to Get a Net Worth Certificate for Business Loan",
-        "description": "Step-by-step process to obtain a Net Worth Certificate for Business Loan from Patron Accounting.",
-        "totalTime": "P3D",
-        "step": [
-            {
-                    "@type": "HowToStep",
-                    "position": 1,
-                    "name": "Engagement",
-                    "text": "Delhi business owner calls Patron Accounting, identifies the authority (PNB Dwarka, Punjab and Sind Bank, SBI Delhi, HDFC, ICICI, NSIC Okhla, SIDBI, IFCI, PSU empanelment desk, or government tender authority), purpose (term loan, CC, OD, CGTMSE, NSIC SPRS, bid bond, PSU empanelment, MUDRA Tarun Plus), entity constitution, and value. The engagement letter captures purpose under ICAI SA 200 'Overall Objectives of the Independent Auditor'."
-                },
-{
-                    "@type": "HowToStep",
-                    "position": 2,
-                    "name": "Document collection",
-                    "text": "Upload entity audited balance sheet and P&L for 3 years, latest 12 months bank statements, Udyam Registration, GST returns, ITRs, stock and debtor statements (especially for Old Delhi wholesalers), plant and machinery register, factory or commercial property documents, NSIC SPRS application documents (where applicable), tender document or PSU empanelment notification, and partnership deed or shareholding pattern."
-                },
-{
-                    "@type": "HowToStep",
-                    "position": 3,
-                    "name": "Document verification",
-                    "text": "Patron CA cross-checks entity balances against bank statements, reconciles GSTR-3B turnover with the P&L, validates Old Delhi trader stock-in-trade against physical inventory and GST returns, values Delhi property at the locality A-H circle rate, values plant and machinery at WDV, and confirms loan outstanding from sanction letters under ICAI SA 500 'Audit Evidence' and SA 505 'External Confirmations'."
-                },
-{
-                    "@type": "HowToStep",
-                    "position": 4,
-                    "name": "Authority",
-                    "text": "template alignment - Patron checks the recipient format. PNB and Punjab and Sind Bank Delhi branches accept the standard ICAI template; NSIC SPRS uses its own MSE-specific format; PSU vendor empanelment (ONGC, GAIL, NTPC, BHEL, IOCL and others) uses PSU-specific formats; government tender bid bond needs the format the tender document specifies."
-                },
-{
-                    "@type": "HowToStep",
-                    "position": 5,
-                    "name": "Draft preparation and review",
-                    "text": "Draft certificate is emailed within 24 hours for borrower and authority review. Corrections to entity name match (Udyam vs GST vs NSIC vs PAN), addresses, asset valuations, and ratios happen in this step."
-                },
-{
-                    "@type": "HowToStep",
-                    "position": 6,
-                    "name": "UDIN generation and final issue",
-                    "text": "Patron CA generates the 18-digit UDIN at udin.icai.org under 'Certificates - Net Worth Certificate', signs on firm letterhead with ICAI seal, and issues the final document. Soft copy emailed same day; hard copy collected from Patron Delhi office or couriered to the authority within 2-3 working days."
-                }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Net Worth Certificate for Business Loan Key Terms",
-        "definedTerm": [
-            {
-                    "@type": "DefinedTerm",
-                    "name": "UDIN",
-                    "description": "18-digit Unique Document Identification Number generated by the issuing CA at udin.icai.org for every certificate, mandatory since 1 July 2019."
-                },
-{
-                    "@type": "DefinedTerm",
-                    "name": "NSIC SPRS",
-                    "description": "National Small Industries Corporation Single Point Registration Scheme - allows MSEs to register once and bid for government tenders without separate registration at each PSU. Requires CA-certified net worth certificate annually. Headquartered at NSIC Bhawan, Okhla Industrial Estate Phase III, New Delhi."
-                },
-{
-                    "@type": "DefinedTerm",
-                    "name": "Bid Bond and Performance Guarantee",
-                    "description": "Government tender bidders submit a bid bond (typically 2-5 percent of contract value) at bid stage and a performance guarantee (5-10 percent) on award. Many tenders also require a CA-certified NWC at evaluation stage to validate bidder financial capacity."
-                },
-{
-                    "@type": "DefinedTerm",
-                    "name": "PSU Vendor Empanelment",
-                    "description": "Central PSUs headquartered in Delhi (ONGC, GAIL, NTPC, Power Grid, BHEL, IOCL, BPCL, HPCL, SAIL, NALCO, Coal India and others) empanel vendors for repeat purchases; the empanelment file includes the CA-certified net worth certificate."
-                },
-{
-                    "@type": "DefinedTerm",
-                    "name": "CGTMSE Hybrid Security",
-                    "description": "Credit Guarantee Fund Trust for Micro and Small Enterprises - Hybrid Security model permits collateral for part of the facility and trust guarantee for the unsecured part, up to Rs 10 crore total exposure."
-                }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -853,7 +618,247 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Net Worth Certificate for Business Loan Delhi 2026 | Patron</title>
+    <meta name="description" content="CA-certified net worth certificate for Delhi business loan applicants. UDIN, 3-year comparative format. PNB, SBI, NSIC, SIDBI accepted. Starting INR 1,499.">
+    <link rel="canonical" href="https://www.patronaccounting.com/net-worth-certificate-for-business-loan/delhi">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Net Worth Certificate for Business Loan Delhi 2026 | Patron">
+    <meta property="og:description" content="CA-certified net worth certificate for Delhi business loan applicants. UDIN, 3-year comparative format. PNB, SBI, NSIC, SIDBI accepted. Starting INR 1,499.">
+    <meta property="og:url" content="https://www.patronaccounting.com/net-worth-certificate-for-business-loan/delhi">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Net Worth Certificate for Business Loan Delhi 2026 | Patron">
+    <meta name="twitter:description" content="CA-certified net worth certificate for Delhi business loan applicants. UDIN, 3-year comparative format. PNB, SBI, NSIC, SIDBI accepted. Starting INR 1,499.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-business-loan/delhi/#service",
+        "name": "Net Worth Certificate for Business Loan in Delhi",
+        "description": "CA-certified net worth certificate for Delhi business loan applicants. UDIN, 3-year comparative format. PNB, SBI, NSIC, SIDBI accepted. Starting INR 1,499.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/net-worth-certificate-for-business-loan/delhi" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Chartered Accountant", "sameAs": "https://en.wikipedia.org/wiki/Chartered_accountant" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Net Worth Certificate for Business Loan Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Net Worth Certificate for Business Loan in Delhi"
+                    },
+                    "price": "1499",
+                    "priceCurrency": "INR",
+                    "url": "https://www.patronaccounting.com/net-worth-certificate-for-business-loan/delhi"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-business-loan/delhi/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate for Business Loan", "item": "https://www.patronaccounting.com/net-worth-certificate-for-business-loan" },
+            { "@type": "ListItem", "position": 3, "name": "Delhi", "item": "https://www.patronaccounting.com/net-worth-certificate-for-business-loan/delhi" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-business-loan/delhi/#faq",
+        "datePublished": "2026-07-02T08:00:00+05:30",
+        "dateModified": "2026-07-02T08:00:00+05:30",
+        "mainEntity": [
+            {
+                    "@type": "Question",
+                    "name": "Why do Delhi banks ask for a net worth certificate for business loan?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Delhi banks ask for the certificate to verify the entity's and promoter's combined financial strength beyond reported income, especially for term loans, working capital limits, CGTMSE-backed loans, NSIC Single Point Registration Scheme registration, government tender bid bonds, central-PSU vendor empanelment, MUDRA Tarun Plus, Stand-Up India, and at every annual renewal for CC and OD limits above Rs 1 crore. PNB Dwarka HQ, PNB Housing Finance, Punjab and Sind Bank, SBI Delhi, NSIC Okhla, SIDBI Delhi, IFCI and other Delhi-active authorities use the certificate to size the facility and assess promoter recourse."
+                    }
+                },
+{
+                    "@type": "Question",
+                    "name": "Is the certificate required for NSIC Single Point Registration Scheme (SPRS)?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes. NSIC Single Point Registration Scheme at NSIC HQ Okhla requires a CA-certified net worth certificate at the registration stage and at every annual update. The certificate captures Udyam classification, audited turnover trend, promoter declaration, and the financial-capacity benchmark NSIC uses to determine tender benefit eligibility. Generic NWC formats trigger returned-application loops; Patron's Delhi office maintains the NSIC-specific template that the SPRS desk accepts on first review."
+                    }
+                },
+{
+                    "@type": "Question",
+                    "name": "Who can issue a net worth certificate for MSME loan in Delhi?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Only a practising Chartered Accountant in Delhi holding a valid Certificate of Practice from ICAI can sign and issue a net worth certificate for business loan. The CA generates an 18-digit UDIN at udin.icai.org, signs on firm letterhead with ICAI seal, and prints Membership Number and Firm Registration Number. Punjab National Bank Dwarka HQ, Punjab and Sind Bank, SBI Delhi, HDFC Bank, ICICI Bank, NSIC Okhla, SIDBI Delhi, IFCI and central-PSU empanellement desks all verify the UDIN before accepting the document."
+                    }
+                },
+{
+                    "@type": "Question",
+                    "name": "Is a separate certificate needed for government tender bid bond and performance guarantee?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Many Delhi central-government tenders on GeM (Government e-Marketplace) and CPPP (Central Public Procurement Portal) require a CA-certified financial-capacity declaration alongside the bid - which is essentially a tender-format NWC. The bid bond and performance guarantee themselves are separate financial instruments, but the bidder's eligibility to issue them is established through the certificate. Patron's Delhi office delivers the tender-format certificate same-day for last-minute bid submissions."
+                    }
+                },
+{
+                    "@type": "Question",
+                    "name": "Is UDIN mandatory on a business loan NWC for Delhi PSU vendors?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, UDIN is mandatory on every CA-issued net worth certificate since 1 July 2019, enforced by ICAI. The 18-digit Unique Document Identification Number is generated at udin.icai.org and printed on the document. ONGC, GAIL, NTPC, Power Grid, BHEL, IOCL, BPCL, HPCL, SAIL, Coal India and other central-PSU empanellement desks verify the UDIN on the ICAI portal as a standard step in the empanelment-document review. A certificate without UDIN is invalid and is typically rejected at the empanelment-verification step."
+                    }
+                },
+{
+                    "@type": "Question",
+                    "name": "How is the 3-year comparative net worth presented for Delhi traders?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "The 3-year comparative net worth shows the entity's and promoter's net worth as on three consecutive financial year-ends (31 March 2024, 31 March 2025 and 31 March 2026), in a side-by-side schedule. For Old Delhi wholesalers, stock-in-trade is the largest balance-sheet item and needs careful year-over-year reconciliation with GSTR-3B input-output flow. Patron reconciles each year's figure with the corresponding audited balance sheet and ITR before signing."
+                    }
+                }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-business-loan/delhi",
+        "name": "Net Worth Certificate for Business Loan in Delhi",
+        "description": "CA-certified net worth certificate for Delhi business loan applicants. UDIN, 3-year comparative format. PNB, SBI, NSIC, SIDBI accepted. Starting INR 1,499.",
+        "url": "https://www.patronaccounting.com/net-worth-certificate-for-business-loan/delhi",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-business-loan/delhi/#service" },
+        "datePublished": "2026-07-02T08:00:00+05:30",
+        "dateModified": "2026-07-02T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-business-loan/delhi/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Get a Net Worth Certificate for Business Loan",
+        "description": "Step-by-step process to obtain a Net Worth Certificate for Business Loan from Patron Accounting.",
+        "totalTime": "P3D",
+        "step": [
+            {
+                    "@type": "HowToStep",
+                    "position": 1,
+                    "name": "Engagement",
+                    "text": "Delhi business owner calls Patron Accounting, identifies the authority (PNB Dwarka, Punjab and Sind Bank, SBI Delhi, HDFC, ICICI, NSIC Okhla, SIDBI, IFCI, PSU empanelment desk, or government tender authority), purpose (term loan, CC, OD, CGTMSE, NSIC SPRS, bid bond, PSU empanelment, MUDRA Tarun Plus), entity constitution, and value. The engagement letter captures purpose under ICAI SA 200 'Overall Objectives of the Independent Auditor'."
+                },
+{
+                    "@type": "HowToStep",
+                    "position": 2,
+                    "name": "Document collection",
+                    "text": "Upload entity audited balance sheet and P&L for 3 years, latest 12 months bank statements, Udyam Registration, GST returns, ITRs, stock and debtor statements (especially for Old Delhi wholesalers), plant and machinery register, factory or commercial property documents, NSIC SPRS application documents (where applicable), tender document or PSU empanelment notification, and partnership deed or shareholding pattern."
+                },
+{
+                    "@type": "HowToStep",
+                    "position": 3,
+                    "name": "Document verification",
+                    "text": "Patron CA cross-checks entity balances against bank statements, reconciles GSTR-3B turnover with the P&L, validates Old Delhi trader stock-in-trade against physical inventory and GST returns, values Delhi property at the locality A-H circle rate, values plant and machinery at WDV, and confirms loan outstanding from sanction letters under ICAI SA 500 'Audit Evidence' and SA 505 'External Confirmations'."
+                },
+{
+                    "@type": "HowToStep",
+                    "position": 4,
+                    "name": "Authority",
+                    "text": "template alignment - Patron checks the recipient format. PNB and Punjab and Sind Bank Delhi branches accept the standard ICAI template; NSIC SPRS uses its own MSE-specific format; PSU vendor empanelment (ONGC, GAIL, NTPC, BHEL, IOCL and others) uses PSU-specific formats; government tender bid bond needs the format the tender document specifies."
+                },
+{
+                    "@type": "HowToStep",
+                    "position": 5,
+                    "name": "Draft preparation and review",
+                    "text": "Draft certificate is emailed within 24 hours for borrower and authority review. Corrections to entity name match (Udyam vs GST vs NSIC vs PAN), addresses, asset valuations, and ratios happen in this step."
+                },
+{
+                    "@type": "HowToStep",
+                    "position": 6,
+                    "name": "UDIN generation and final issue",
+                    "text": "Patron CA generates the 18-digit UDIN at udin.icai.org under 'Certificates - Net Worth Certificate', signs on firm letterhead with ICAI seal, and issues the final document. Soft copy emailed same day; hard copy collected from Patron Delhi office or couriered to the authority within 2-3 working days."
+                }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Net Worth Certificate for Business Loan Key Terms",
+        "definedTerm": [
+            {
+                    "@type": "DefinedTerm",
+                    "name": "UDIN",
+                    "description": "18-digit Unique Document Identification Number generated by the issuing CA at udin.icai.org for every certificate, mandatory since 1 July 2019."
+                },
+{
+                    "@type": "DefinedTerm",
+                    "name": "NSIC SPRS",
+                    "description": "National Small Industries Corporation Single Point Registration Scheme - allows MSEs to register once and bid for government tenders without separate registration at each PSU. Requires CA-certified net worth certificate annually. Headquartered at NSIC Bhawan, Okhla Industrial Estate Phase III, New Delhi."
+                },
+{
+                    "@type": "DefinedTerm",
+                    "name": "Bid Bond and Performance Guarantee",
+                    "description": "Government tender bidders submit a bid bond (typically 2-5 percent of contract value) at bid stage and a performance guarantee (5-10 percent) on award. Many tenders also require a CA-certified NWC at evaluation stage to validate bidder financial capacity."
+                },
+{
+                    "@type": "DefinedTerm",
+                    "name": "PSU Vendor Empanelment",
+                    "description": "Central PSUs headquartered in Delhi (ONGC, GAIL, NTPC, Power Grid, BHEL, IOCL, BPCL, HPCL, SAIL, NALCO, Coal India and others) empanel vendors for repeat purchases; the empanelment file includes the CA-certified net worth certificate."
+                },
+{
+                    "@type": "DefinedTerm",
+                    "name": "CGTMSE Hybrid Security",
+                    "description": "Credit Guarantee Fund Trust for Micro and Small Enterprises - Hybrid Security model permits collateral for part of the facility and trust guarantee for the unsecured part, up to Rs 10 crore total exposure."
+                }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1683,22 +1688,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
-<!-- ============================================
-     CONSULTATION FORM - Country Dropdown + Validation + Bigin Integration
-     ============================================ -->
-{{-- Enquiry form markup + JS now in partials/enquiry-form.blade.php --}}
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1721,8 +1714,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1759,5 +1750,24 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+<!-- ============================================
+     CONSULTATION FORM - Country Dropdown + Validation + Bigin Integration
+     ============================================ -->
+{{-- Enquiry form markup + JS now in partials/enquiry-form.blade.php --}}
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
 
 <!-- Last Updated hardcoded in markup per QC v2.1 (no view-time JS) -->

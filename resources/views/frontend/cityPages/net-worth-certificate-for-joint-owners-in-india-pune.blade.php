@@ -1,156 +1,11 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Net Worth Certificate for Joint Owners Pune - CA Format</title>
-    <meta name="description" content="CA-certified net worth certificate for joint owners in Pune. Proportionate split, joint property valuation, dual currency, UDIN. Visa, immigration, loan, tender. Serving Baner, Kharadi families. Call +91 945 945 6700.">
-    <link rel="canonical" href="/net-worth-certificate-for-joint-owners-in-india/pune">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Net Worth Certificate for Joint Owners Pune - CA Format">
-    <meta property="og:description" content="CA-certified net worth certificate for joint owners in Pune. Proportionate split, joint property valuation, dual currency, UDIN. Visa, immigration, loan, tender. Serving Baner, Kharadi families. Call +91 945 945 6700.">
-    <meta property="og:url" content="/net-worth-certificate-for-joint-owners-in-india/pune">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Net Worth Certificate for Joint Owners Pune - CA Format">
-    <meta name="twitter:description" content="CA-certified net worth certificate for joint owners in Pune. Proportionate split, joint property valuation, dual currency, UDIN. Visa, immigration, loan, tender. Serving Baner, Kharadi families. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "Net Worth Certificate for Joint Owners Pune - CA Format",
-      "description": "CA-certified net worth certificate for joint owners in Pune. Proportionate split, joint property valuation, dual currency, UDIN. Visa, immigration, loan, tender. Serving Baner, Kharadi families. Call +91 945 945 6700.",
-      "url": "/net-worth-certificate-for-joint-owners-in-india/pune",
-      "serviceType": "Net Worth Certificate for Joint Owners Pune - CA Format",
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Maharashtra"
-        }
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "/",
-        "logo": "/images/site-logo.svg"
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Net Worth Certificate for Joint Owners - CA Certified India",
-          "item": "https://www.patronaccounting.com/net-worth-certificate-for-joint-owners-in-india"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Net Worth Certificate for Joint Owners Pune - CA Format",
-          "item": "https://www.patronaccounting.com/net-worth-certificate-for-joint-owners-in-india/pune"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is a net worth certificate for joint owners?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A CA-certified financial document showing net worth where assets are co-owned with another person. Shows proportionate share of jointly-held property, bank accounts, FDs, investments. Issued by practicing CA on letterhead with UDIN for online verification. Used for visa/immigration, bank loans, tenders and financial assessments where joint ownership must be accurately reflected."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is joint property shown in net worth certificate?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Jointly-owned property is valued (fair market value or IGR ready reckoner) and the applicant's proportionate share included as their asset. Ownership determined by: sale deed percentage (if specified), contribution to purchase price (if documented), or equal share (legal default). For a Pune flat worth Rs 1.2 crore jointly owned 50-50, each owner shows Rs 60 lakh."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Who can issue a net worth certificate?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Only a practicing Chartered Accountant registered with ICAI holding valid Certificate of Practice. Must include CA membership number, firm registration, signature, seal and UDIN. Self-declared statements or certificates from non-CA professionals are generally not accepted by embassies, banks and tender authorities."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What documents are needed for joint net worth?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Property: registered sale deed, property tax receipt (PMC/PCMC), valuation report. Bank: statements of all accounts (joint + individual). Investments: FD receipts, MF CAS, DEMAT holding. Liabilities: home loan, personal loan statements. Identity: PAN, passport. ITR: acknowledgments for 2-3 years (consistency check). Additional for joint: sale deed showing co-owner names and shares."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long is the net worth certificate valid?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Typically 90 days to 6 months from date of issue depending on purpose. Visa: most embassies accept within 3 months of application/interview. Bank loans: typically 6 months. Tenders: as specified. If visa process extends beyond validity, revalidation (updated certificate) may be needed. Patron provides revalidation at reduced fees."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is UDIN and why is it important?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Unique Document Identification Number - 18-digit number generated by CA via ICAI portal for every certificate issued. Enables online verification of authenticity. Any embassy, bank or authority can verify at udin.icai.org. Mandatory since February 2019. Non-UDIN certificates may be rejected by institutions."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can both joint owners get separate certificates?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Both can obtain separate certificates. Key requirement: consistency. Joint assets correctly split proportionately without double-counting. If property worth Rs 1 crore jointly owned 50-50, each shows Rs 50 lakh, not Rs 1 crore each. Patron ensures consistency when preparing certificates for both owners simultaneously."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is property valuation report needed separately?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Depends on purpose. Many embassies accept CA-stated property value. Some (especially Canada, Australia) may require separate Property Valuation Report from government-approved valuer. Banks may rely on their own valuation. Tenders: NWC alone usually sufficient. Patron advises per purpose and coordinates with valuers in Pune."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -816,7 +671,157 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'Join Community'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Net Worth Certificate for Joint Owners Pune - CA Format</title>
+    <meta name="description" content="CA-certified net worth certificate for joint owners in Pune. Proportionate split, joint property valuation, dual currency, UDIN. Visa, immigration, loan, tender. Serving Baner, Kharadi families. Call +91 945 945 6700.">
+    <link rel="canonical" href="/net-worth-certificate-for-joint-owners-in-india/pune">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Net Worth Certificate for Joint Owners Pune - CA Format">
+    <meta property="og:description" content="CA-certified net worth certificate for joint owners in Pune. Proportionate split, joint property valuation, dual currency, UDIN. Visa, immigration, loan, tender. Serving Baner, Kharadi families. Call +91 945 945 6700.">
+    <meta property="og:url" content="/net-worth-certificate-for-joint-owners-in-india/pune">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Net Worth Certificate for Joint Owners Pune - CA Format">
+    <meta name="twitter:description" content="CA-certified net worth certificate for joint owners in Pune. Proportionate split, joint property valuation, dual currency, UDIN. Visa, immigration, loan, tender. Serving Baner, Kharadi families. Call +91 945 945 6700.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "Net Worth Certificate for Joint Owners Pune - CA Format",
+      "description": "CA-certified net worth certificate for joint owners in Pune. Proportionate split, joint property valuation, dual currency, UDIN. Visa, immigration, loan, tender. Serving Baner, Kharadi families. Call +91 945 945 6700.",
+      "url": "/net-worth-certificate-for-joint-owners-in-india/pune",
+      "serviceType": "Net Worth Certificate for Joint Owners Pune - CA Format",
+      "areaServed": {
+        "@type": "City",
+        "name": "Pune",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Maharashtra"
+        }
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Patron Accounting LLP",
+        "url": "/",
+        "logo": "/images/site-logo.svg"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Net Worth Certificate for Joint Owners - CA Certified India",
+          "item": "https://www.patronaccounting.com/net-worth-certificate-for-joint-owners-in-india"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Net Worth Certificate for Joint Owners Pune - CA Format",
+          "item": "https://www.patronaccounting.com/net-worth-certificate-for-joint-owners-in-india/pune"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a net worth certificate for joint owners?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A CA-certified financial document showing net worth where assets are co-owned with another person. Shows proportionate share of jointly-held property, bank accounts, FDs, investments. Issued by practicing CA on letterhead with UDIN for online verification. Used for visa/immigration, bank loans, tenders and financial assessments where joint ownership must be accurately reflected."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is joint property shown in net worth certificate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Jointly-owned property is valued (fair market value or IGR ready reckoner) and the applicant's proportionate share included as their asset. Ownership determined by: sale deed percentage (if specified), contribution to purchase price (if documented), or equal share (legal default). For a Pune flat worth Rs 1.2 crore jointly owned 50-50, each owner shows Rs 60 lakh."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who can issue a net worth certificate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Only a practicing Chartered Accountant registered with ICAI holding valid Certificate of Practice. Must include CA membership number, firm registration, signature, seal and UDIN. Self-declared statements or certificates from non-CA professionals are generally not accepted by embassies, banks and tender authorities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What documents are needed for joint net worth?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Property: registered sale deed, property tax receipt (PMC/PCMC), valuation report. Bank: statements of all accounts (joint + individual). Investments: FD receipts, MF CAS, DEMAT holding. Liabilities: home loan, personal loan statements. Identity: PAN, passport. ITR: acknowledgments for 2-3 years (consistency check). Additional for joint: sale deed showing co-owner names and shares."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long is the net worth certificate valid?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Typically 90 days to 6 months from date of issue depending on purpose. Visa: most embassies accept within 3 months of application/interview. Bank loans: typically 6 months. Tenders: as specified. If visa process extends beyond validity, revalidation (updated certificate) may be needed. Patron provides revalidation at reduced fees."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is UDIN and why is it important?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Unique Document Identification Number - 18-digit number generated by CA via ICAI portal for every certificate issued. Enables online verification of authenticity. Any embassy, bank or authority can verify at udin.icai.org. Mandatory since February 2019. Non-UDIN certificates may be rejected by institutions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can both joint owners get separate certificates?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Both can obtain separate certificates. Key requirement: consistency. Joint assets correctly split proportionately without double-counting. If property worth Rs 1 crore jointly owned 50-50, each shows Rs 50 lakh, not Rs 1 crore each. Patron ensures consistency when preparing certificates for both owners simultaneously."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is property valuation report needed separately?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depends on purpose. Many embassies accept CA-stated property value. Some (especially Canada, Australia) may require separate Property Valuation Report from government-approved valuer. Banks may rely on their own valuation. Tenders: NWC alone usually sufficient. Patron advises per purpose and coordinates with valuers in Pune."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1495,7 +1500,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

@@ -1,160 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Rule 42 and 43 ITC Reversal 2026 | Patron Accounting</title>
-    <meta name="description" content="Rule 42 and Rule 43 CGST Rules reverse ITC on common credit for taxable plus exempt supplies under Section 17(1) and 17(2). Patron from Rs 4,999.">
-    <link rel="canonical" href="/gst-itc-reversal-rule-42-43">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Rule 42 and 43 ITC Reversal 2026 | Patron Accounting">
-    <meta property="og:description" content="Rule 42 and Rule 43 CGST Rules reverse ITC on common credit for taxable plus exempt supplies under Section 17(1) and 17(2). Patron from Rs 4,999.">
-    <meta property="og:url" content="/gst-itc-reversal-rule-42-43">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Rule 42 and 43 ITC Reversal 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Rule 42 and Rule 43 CGST Rules reverse ITC on common credit for taxable plus exempt supplies under Section 17(1) and 17(2). Patron from Rs 4,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/gst-itc-reversal-rule-42-43/#service",
-        "name": "GST ITC Reversal: Rule 42 and Rule 43 Advisory in India",
-        "description": "GST ITC reversal advisory under Rule 42 and Rule 43 of the CGST Rules 2017 for common credit on inputs, input services, and capital goods used partly for taxable and partly for exempt supplies. Includes monthly D1/D2 (Rule 42) and Te (Rule 43) computation, 60-month capital goods amortisation tracking, and binding annual reconciliation in September of next FY under Section 17(1) and 17(2) of the CGST Act starting from INR 4,999 per engagement.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-itc-reversal-rule-42-43" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [
-            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
-            { "@type": "Thing", "name": "Input Tax Credit", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" }
-        ],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "ITC Reversal Rule 42 and 43 Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "Standard Annual Engagement",
-                    "priceCurrency": "INR",
-                    "price": "4999",
-                    "description": "Single GSTIN, single FY, Rule 42 plus Rule 43 working, annual reconciliation"
-                },
-                {
-                    "@type": "Offer",
-                    "name": "Comprehensive Annual",
-                    "priceCurrency": "INR",
-                    "price": "14999",
-                    "description": "Single GSTIN, multi-period setup up to 3 FY, capital goods register, GSTR-9 mapping"
-                },
-                {
-                    "@type": "Offer",
-                    "name": "Multi-State Group",
-                    "priceCurrency": "INR",
-                    "price": "29999",
-                    "description": "Up to 5 GSTINs same PAN, state-wise E/F tracking, consolidated reconciliation"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/gst-itc-reversal-rule-42-43/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
-            { "@type": "ListItem", "position": 3, "name": "ITC Reversal Rule 42 and 43", "item": "https://www.patronaccounting.com/gst-itc-reversal-rule-42-43" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/gst-itc-reversal-rule-42-43/#faq",
-        "datePublished": "2026-05-27T08:00:00+05:30",
-        "dateModified": "2026-06-01T08:00:00+05:30",
-        "mainEntity": [
-
-            {
-                "@type": "Question",
-                "name": "What is the difference between Rule 42 and Rule 43?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Rule 42 governs the proportionate reversal of ITC on inputs and input services used commonly for taxable and exempt supplies, computed monthly using D1 (E/F times C2 for exempt apportionment) and D2 (5 percent of C2 deemed non-business). Rule 43 governs ITC on capital goods used commonly, spread over the deemed 60-month useful life with monthly Te (Tr times E/F) reversal. Both operate under Section 17(1) and 17(2) of the CGST Act 2017."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How is the Rule 42 D1 reversal calculated?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "D1 equals (E divided by F) multiplied by C2, where E is the aggregate value of exempt supplies in the tax period, F is the total turnover in the State, and C2 is the common credit (C1 minus T4). The result is added to output tax liability for the month and reported in GSTR-3B Table 4(B)(2). Annual recomputation in September of next FY uses annual E and F values."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How is Rule 43 capital goods ITC reversal computed?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Step 1: Compute Tc equals total ITC on the capital good divided by 60 (useful life in months). Step 2: Sum Tc across all common-use capital goods for the tax period to derive Tr. Step 3: Apply Te equals Tr multiplied by (E divided by F) for the month. Te is added to output tax liability monthly for the entire 60-month useful life. Annual recomputation follows the same logic with annual E/F."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "When is the annual reconciliation under Rule 42/43 due?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "The mandatory annual reconciliation must be completed in the GSTR-3B of September of the next financial year, or the actual date of filing the GSTR-9 annual return for that FY, whichever is earlier. Failure to reconcile by this deadline triggers interest under Section 50(3) of the CGST Act at 18 percent per annum on the differential amount."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What happens when a capital good is sold before 60 months?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Under Rule 43, if a common-use capital good is sold, disposed of, or transferred before the 60-month useful life expires, the registered taxpayer must pay the higher of (a) the ITC attributable to the remaining useful life of the capital good, or (b) the GST on the transaction value of the sale. This is reported in the GSTR-3B of the period of sale."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Is D2 (5 percent deemed non-business reversal) always applicable?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "No, D2 applies only when T1 (ITC on inputs and services used exclusively for non-business purposes) is not separately identifiable. If T1 is identified and excluded at Step 2 of Rule 42, D2 should not be applied. Applying both T1 and D2 creates double reversal and unnecessary cash outflow. The intent is to capture non-business ITC either through T1 (specific) or D2 (deemed), not both."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can banks and NBFCs opt out of Rule 42/43?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, Rule 38 of the CGST Rules allows banks, financial institutions including NBFCs to opt for a flat 50 percent ITC reversal in lieu of the formula-based Rule 42 and Rule 43 computation. The 50 percent option is irrevocable for the financial year once exercised. The remaining 50 percent ITC plus all RCM credits and intra-group supplies (same PAN) remain fully available."
-                }
-            }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -768,7 +618,162 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Rule 42 and 43 ITC Reversal 2026 | Patron Accounting</title>
+    <meta name="description" content="Rule 42 and Rule 43 CGST Rules reverse ITC on common credit for taxable plus exempt supplies under Section 17(1) and 17(2). Patron from Rs 4,999.">
+    <link rel="canonical" href="/gst-itc-reversal-rule-42-43">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Rule 42 and 43 ITC Reversal 2026 | Patron Accounting">
+    <meta property="og:description" content="Rule 42 and Rule 43 CGST Rules reverse ITC on common credit for taxable plus exempt supplies under Section 17(1) and 17(2). Patron from Rs 4,999.">
+    <meta property="og:url" content="/gst-itc-reversal-rule-42-43">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Rule 42 and 43 ITC Reversal 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Rule 42 and Rule 43 CGST Rules reverse ITC on common credit for taxable plus exempt supplies under Section 17(1) and 17(2). Patron from Rs 4,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/gst-itc-reversal-rule-42-43/#service",
+        "name": "GST ITC Reversal: Rule 42 and Rule 43 Advisory in India",
+        "description": "GST ITC reversal advisory under Rule 42 and Rule 43 of the CGST Rules 2017 for common credit on inputs, input services, and capital goods used partly for taxable and partly for exempt supplies. Includes monthly D1/D2 (Rule 42) and Te (Rule 43) computation, 60-month capital goods amortisation tracking, and binding annual reconciliation in September of next FY under Section 17(1) and 17(2) of the CGST Act starting from INR 4,999 per engagement.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-itc-reversal-rule-42-43" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [
+            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
+            { "@type": "Thing", "name": "Input Tax Credit", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" }
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "ITC Reversal Rule 42 and 43 Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "Standard Annual Engagement",
+                    "priceCurrency": "INR",
+                    "price": "4999",
+                    "description": "Single GSTIN, single FY, Rule 42 plus Rule 43 working, annual reconciliation"
+                },
+                {
+                    "@type": "Offer",
+                    "name": "Comprehensive Annual",
+                    "priceCurrency": "INR",
+                    "price": "14999",
+                    "description": "Single GSTIN, multi-period setup up to 3 FY, capital goods register, GSTR-9 mapping"
+                },
+                {
+                    "@type": "Offer",
+                    "name": "Multi-State Group",
+                    "priceCurrency": "INR",
+                    "price": "29999",
+                    "description": "Up to 5 GSTINs same PAN, state-wise E/F tracking, consolidated reconciliation"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/gst-itc-reversal-rule-42-43/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
+            { "@type": "ListItem", "position": 3, "name": "ITC Reversal Rule 42 and 43", "item": "https://www.patronaccounting.com/gst-itc-reversal-rule-42-43" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/gst-itc-reversal-rule-42-43/#faq",
+        "datePublished": "2026-05-27T08:00:00+05:30",
+        "dateModified": "2026-06-01T08:00:00+05:30",
+        "mainEntity": [
+
+            {
+                "@type": "Question",
+                "name": "What is the difference between Rule 42 and Rule 43?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Rule 42 governs the proportionate reversal of ITC on inputs and input services used commonly for taxable and exempt supplies, computed monthly using D1 (E/F times C2 for exempt apportionment) and D2 (5 percent of C2 deemed non-business). Rule 43 governs ITC on capital goods used commonly, spread over the deemed 60-month useful life with monthly Te (Tr times E/F) reversal. Both operate under Section 17(1) and 17(2) of the CGST Act 2017."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How is the Rule 42 D1 reversal calculated?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "D1 equals (E divided by F) multiplied by C2, where E is the aggregate value of exempt supplies in the tax period, F is the total turnover in the State, and C2 is the common credit (C1 minus T4). The result is added to output tax liability for the month and reported in GSTR-3B Table 4(B)(2). Annual recomputation in September of next FY uses annual E and F values."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How is Rule 43 capital goods ITC reversal computed?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Step 1: Compute Tc equals total ITC on the capital good divided by 60 (useful life in months). Step 2: Sum Tc across all common-use capital goods for the tax period to derive Tr. Step 3: Apply Te equals Tr multiplied by (E divided by F) for the month. Te is added to output tax liability monthly for the entire 60-month useful life. Annual recomputation follows the same logic with annual E/F."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "When is the annual reconciliation under Rule 42/43 due?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The mandatory annual reconciliation must be completed in the GSTR-3B of September of the next financial year, or the actual date of filing the GSTR-9 annual return for that FY, whichever is earlier. Failure to reconcile by this deadline triggers interest under Section 50(3) of the CGST Act at 18 percent per annum on the differential amount."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What happens when a capital good is sold before 60 months?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Under Rule 43, if a common-use capital good is sold, disposed of, or transferred before the 60-month useful life expires, the registered taxpayer must pay the higher of (a) the ITC attributable to the remaining useful life of the capital good, or (b) the GST on the transaction value of the sale. This is reported in the GSTR-3B of the period of sale."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is D2 (5 percent deemed non-business reversal) always applicable?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No, D2 applies only when T1 (ITC on inputs and services used exclusively for non-business purposes) is not separately identifiable. If T1 is identified and excluded at Step 2 of Rule 42, D2 should not be applied. Applying both T1 and D2 creates double reversal and unnecessary cash outflow. The intent is to capture non-business ITC either through T1 (specific) or D2 (deemed), not both."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can banks and NBFCs opt out of Rule 42/43?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, Rule 38 of the CGST Rules allows banks, financial institutions including NBFCs to opt for a flat 50 percent ITC reversal in lieu of the formula-based Rule 42 and Rule 43 computation. The 50 percent option is irrevocable for the financial year once exercised. The remaining 50 percent ITC plus all RCM credits and intra-group supplies (same PAN) remain fully available."
+                }
+            }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1704,17 +1709,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1737,8 +1735,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1775,7 +1771,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1786,4 +1781,20 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+
 

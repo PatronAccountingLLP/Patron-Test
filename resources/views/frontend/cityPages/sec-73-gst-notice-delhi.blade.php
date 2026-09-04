@@ -1,200 +1,11 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Section 73 GST Notice Delhi</title>
-    <meta name="description" content="Section 73 GST SCN in Delhi? Patron CA team files DRC-06 reply and represents you before CGST Delhi commissionerates. Starting at Rs 2,999. Call today.">
-    <link rel="canonical" href="/sec-73-gst-notice/delhi">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Section 73 GST Notice Delhi 2026 | Patron Accounting">
-    <meta property="og:description" content="Section 73 GST SCN in Delhi? Patron CA team files DRC-06 reply and represents you before CGST Delhi commissionerates. Starting at Rs 2,999. Call today.">
-    <meta property="og:url" content="/sec-73-gst-notice/delhi">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Section 73 GST Notice Delhi 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Section 73 GST SCN in Delhi? Patron CA team files DRC-06 reply and represents you before CGST Delhi commissionerates. Starting at Rs 2,999. Call today.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/sec-73-gst-notice/delhi#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "GST Notice",
-          "item": "https://www.patronaccounting.com/gst-notice"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Section 73 GST Notice Delhi",
-          "item": "https://www.patronaccounting.com/sec-73-gst-notice/delhi"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/sec-73-gst-notice/delhi#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is a Section 73 GST notice in Delhi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A Section 73 GST notice in Delhi is a non-fraud show cause notice issued by your jurisdictional CGST Delhi commissionerate (North, South, East or West) or by the Delhi SGST Department of Trade and Taxes under Section 73(1) of the CGST Act, 2017. It demands explanation for tax short-paid, erroneously refunded or ITC wrongly availed - without any allegation of fraud or suppression. The notice is served in Form GST DRC-01."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the time limit for issuing a Section 73 SCN?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Under Section 73(2) read with Section 73(10), the SCN must be issued at least 3 months before the adjudicating order time limit, which is 3 years from the GSTR-9 due date. Effectively, the SCN deadline is 2 years and 9 months from the due date of the annual return for the relevant FY. Notices beyond this are time-barred and challengeable via writ petition in the Delhi High Court."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do I reply to a Section 73 SCN in Delhi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Log in to gst.gov.in, navigate to Services then User Services then View Notices and Orders, locate the DRC-01 SCN and file Form DRC-06 reply within 30 days with annexures - GSTR-1 vs 3B reconciliation, ITC documentation, case law citations and a request for personal hearing under Section 116. Patron files this in 7 to 10 working days for Delhi assessees with documentary evidence and legal arguments."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the penalty under Section 73?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "If tax and interest are paid before SCN issuance under Section 73(5), there is no penalty. If paid within 30 days of SCN under Section 73(8), penalty is still NIL. If paid after the adjudicating order under Section 73(9), penalty is 10 percent of tax or Rs 10,000, whichever is higher. There is no 100 percent penalty under Section 73 because it covers only non-fraud cases."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does Section 73 still apply after Section 74A was introduced?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, for demands up to FY 2023-24. Section 73(12), inserted by the Finance (No.2) Act 2024, expressly limits Section 73 to FY 2017-18 through FY 2023-24. From FY 2024-25 onwards, the unified Section 74A applies for all GST demand proceedings, replacing both Sections 73 and 74. Delhi assessees with open historical SCNs continue to be governed by Section 73 procedure."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can a Section 73 SCN be challenged in Delhi High Court?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. A Section 73 SCN can be challenged via writ petition on grounds including time-limit defect under Section 73(2)/(10), violation of natural justice (no opportunity to reply), Section 169 service defect and jurisdictional error. The Delhi High Court in Delhi Soccer P. Ltd. v. Union of India (W.P. (C) 7804/2024, decided 28 May 2024) set aside a Section 73 order on natural justice grounds and is the leading precedent."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the Section 128A waiver for Section 73 notices?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 128A, inserted on 53rd GST Council recommendation, provides a conditional waiver of interest and penalty for Section 73 demand notices pertaining to FY 2017-18, 2018-19 and 2019-20, where the taxpayer pays the full tax amount by the notified date. It is a one-time clean-slate opportunity for legacy GST demands and has been actively used by Delhi taxpayers seeking to close historical adjudication proceedings cleanly."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/sec-73-gst-notice/delhi#service",
-      "name": "Section 73 GST Notice Reply and SCN Defence in Delhi",
-      "url": "https://www.patronaccounting.com/sec-73-gst-notice/delhi",
-      "description": "Patron Accounting Section 73 GST notice handling for Delhi taxpayers - covering DRC-01A pre-SCN intimation reply, DRC-06 reply drafting within 30 days, DRC-03 voluntary payment strategy under Section 73(5) and Section 73(8), personal hearing representation before CGST Delhi commissionerates (North, South, East, West) and Delhi SGST Vyapar Bhawan, Section 73(2) and 73(10) time-limit defence, Section 128A conditional waiver applications for FY 2017-18, 2018-19 and 2019-20, and Section 107 appeal to Joint Commissioner. Starting from Rs 2,999.",
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      },
-      "areaServed": {
-        "@type": "City",
-        "name": "Delhi",
-        "sameAs": "https://en.wikipedia.org/wiki/Delhi"
-      },
-      "serviceType": "Section 73 GST Show Cause Notice Reply and Adjudication Defence",
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Goods and Services Tax (India)",
-          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
-        },
-        {
-          "@type": "Thing",
-          "name": "Central Goods and Services Tax Act 2017",
-          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
-        },
-        {
-          "@type": "Thing",
-          "name": "Show cause notice",
-          "sameAs": "https://en.wikipedia.org/wiki/Show_cause_notice"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Section 73 GST Notice Delhi Service Packages",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "name": "DRC-01A Pre-SCN Intimation Reply (Delhi)",
-            "price": "2999",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/sec-73-gst-notice/delhi"
-          },
-          {
-            "@type": "Offer",
-            "name": "DRC-06 Reply to Section 73 SCN with Full Annexures (Delhi)",
-            "price": "5500",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/sec-73-gst-notice/delhi"
-          },
-          {
-            "@type": "Offer",
-            "name": "Personal Hearing Representation Before CGST Delhi Commissionerate (per hearing)",
-            "price": "4500",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/sec-73-gst-notice/delhi"
-          },
-          {
-            "@type": "Offer",
-            "name": "Section 107 Appeal to Joint Commissioner (Appeals) Delhi - APL-01 plus pre-deposit support",
-            "price": "15000",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/sec-73-gst-notice/delhi"
-          }
-        ]
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -865,7 +676,201 @@ section[style*="background: var(--blue)"] .content-text,
 section[style*="background: var(--blue)"] .content-text p,
 section[style*="background: var(--blue)"] .content-text li,
 section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !important;}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Section 73 GST Notice Delhi</title>
+    <meta name="description" content="Section 73 GST SCN in Delhi? Patron CA team files DRC-06 reply and represents you before CGST Delhi commissionerates. Starting at Rs 2,999. Call today.">
+    <link rel="canonical" href="/sec-73-gst-notice/delhi">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Section 73 GST Notice Delhi 2026 | Patron Accounting">
+    <meta property="og:description" content="Section 73 GST SCN in Delhi? Patron CA team files DRC-06 reply and represents you before CGST Delhi commissionerates. Starting at Rs 2,999. Call today.">
+    <meta property="og:url" content="/sec-73-gst-notice/delhi">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Section 73 GST Notice Delhi 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Section 73 GST SCN in Delhi? Patron CA team files DRC-06 reply and represents you before CGST Delhi commissionerates. Starting at Rs 2,999. Call today.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/sec-73-gst-notice/delhi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "GST Notice",
+          "item": "https://www.patronaccounting.com/gst-notice"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Section 73 GST Notice Delhi",
+          "item": "https://www.patronaccounting.com/sec-73-gst-notice/delhi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/sec-73-gst-notice/delhi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a Section 73 GST notice in Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Section 73 GST notice in Delhi is a non-fraud show cause notice issued by your jurisdictional CGST Delhi commissionerate (North, South, East or West) or by the Delhi SGST Department of Trade and Taxes under Section 73(1) of the CGST Act, 2017. It demands explanation for tax short-paid, erroneously refunded or ITC wrongly availed - without any allegation of fraud or suppression. The notice is served in Form GST DRC-01."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the time limit for issuing a Section 73 SCN?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under Section 73(2) read with Section 73(10), the SCN must be issued at least 3 months before the adjudicating order time limit, which is 3 years from the GSTR-9 due date. Effectively, the SCN deadline is 2 years and 9 months from the due date of the annual return for the relevant FY. Notices beyond this are time-barred and challengeable via writ petition in the Delhi High Court."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I reply to a Section 73 SCN in Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Log in to gst.gov.in, navigate to Services then User Services then View Notices and Orders, locate the DRC-01 SCN and file Form DRC-06 reply within 30 days with annexures - GSTR-1 vs 3B reconciliation, ITC documentation, case law citations and a request for personal hearing under Section 116. Patron files this in 7 to 10 working days for Delhi assessees with documentary evidence and legal arguments."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the penalty under Section 73?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If tax and interest are paid before SCN issuance under Section 73(5), there is no penalty. If paid within 30 days of SCN under Section 73(8), penalty is still NIL. If paid after the adjudicating order under Section 73(9), penalty is 10 percent of tax or Rs 10,000, whichever is higher. There is no 100 percent penalty under Section 73 because it covers only non-fraud cases."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Section 73 still apply after Section 74A was introduced?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, for demands up to FY 2023-24. Section 73(12), inserted by the Finance (No.2) Act 2024, expressly limits Section 73 to FY 2017-18 through FY 2023-24. From FY 2024-25 onwards, the unified Section 74A applies for all GST demand proceedings, replacing both Sections 73 and 74. Delhi assessees with open historical SCNs continue to be governed by Section 73 procedure."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a Section 73 SCN be challenged in Delhi High Court?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. A Section 73 SCN can be challenged via writ petition on grounds including time-limit defect under Section 73(2)/(10), violation of natural justice (no opportunity to reply), Section 169 service defect and jurisdictional error. The Delhi High Court in Delhi Soccer P. Ltd. v. Union of India (W.P. (C) 7804/2024, decided 28 May 2024) set aside a Section 73 order on natural justice grounds and is the leading precedent."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the Section 128A waiver for Section 73 notices?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 128A, inserted on 53rd GST Council recommendation, provides a conditional waiver of interest and penalty for Section 73 demand notices pertaining to FY 2017-18, 2018-19 and 2019-20, where the taxpayer pays the full tax amount by the notified date. It is a one-time clean-slate opportunity for legacy GST demands and has been actively used by Delhi taxpayers seeking to close historical adjudication proceedings cleanly."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/sec-73-gst-notice/delhi#service",
+      "name": "Section 73 GST Notice Reply and SCN Defence in Delhi",
+      "url": "https://www.patronaccounting.com/sec-73-gst-notice/delhi",
+      "description": "Patron Accounting Section 73 GST notice handling for Delhi taxpayers - covering DRC-01A pre-SCN intimation reply, DRC-06 reply drafting within 30 days, DRC-03 voluntary payment strategy under Section 73(5) and Section 73(8), personal hearing representation before CGST Delhi commissionerates (North, South, East, West) and Delhi SGST Vyapar Bhawan, Section 73(2) and 73(10) time-limit defence, Section 128A conditional waiver applications for FY 2017-18, 2018-19 and 2019-20, and Section 107 appeal to Joint Commissioner. Starting from Rs 2,999.",
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Delhi",
+        "sameAs": "https://en.wikipedia.org/wiki/Delhi"
+      },
+      "serviceType": "Section 73 GST Show Cause Notice Reply and Adjudication Defence",
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Goods and Services Tax (India)",
+          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
+        },
+        {
+          "@type": "Thing",
+          "name": "Central Goods and Services Tax Act 2017",
+          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
+        },
+        {
+          "@type": "Thing",
+          "name": "Show cause notice",
+          "sameAs": "https://en.wikipedia.org/wiki/Show_cause_notice"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Section 73 GST Notice Delhi Service Packages",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "DRC-01A Pre-SCN Intimation Reply (Delhi)",
+            "price": "2999",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/sec-73-gst-notice/delhi"
+          },
+          {
+            "@type": "Offer",
+            "name": "DRC-06 Reply to Section 73 SCN with Full Annexures (Delhi)",
+            "price": "5500",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/sec-73-gst-notice/delhi"
+          },
+          {
+            "@type": "Offer",
+            "name": "Personal Hearing Representation Before CGST Delhi Commissionerate (per hearing)",
+            "price": "4500",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/sec-73-gst-notice/delhi"
+          },
+          {
+            "@type": "Offer",
+            "name": "Section 107 Appeal to Joint Commissioner (Appeals) Delhi - APL-01 plus pre-deposit support",
+            "price": "15000",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/sec-73-gst-notice/delhi"
+          }
+        ]
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -2110,7 +2115,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 </script>
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

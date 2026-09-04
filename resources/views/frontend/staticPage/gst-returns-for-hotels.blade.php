@@ -1,155 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>GST Returns for Hotels 2026: Specified Premises | Patron Accounting</title>
-    <meta name="description" content="GST returns for hotels - room 5%/18% slab, restaurant 18%/5% by specified premises, Notification 5/2025-CTR opt-in. Starting from INR 1,999 per month.">
-    <link rel="canonical" href="/gst-returns-for-hotels">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="GST Returns for Hotels 2026: Specified Premises | Patron Accounting">
-    <meta property="og:description" content="GST returns for hotels - room 5%/18% slab, restaurant 18%/5% by specified premises, Notification 5/2025-CTR opt-in. Starting from INR 1,999 per month.">
-    <meta property="og:url" content="/gst-returns-for-hotels">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="GST Returns for Hotels 2026: Specified Premises | Patron Accounting">
-    <meta name="twitter:description" content="GST returns for hotels - room 5%/18% slab, restaurant 18%/5% by specified premises, Notification 5/2025-CTR opt-in. Starting from INR 1,999 per month.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/gst-returns-for-hotels/#service",
-        "name": "GST Returns for Hotels",
-        "description": "Monthly managed GST compliance for hotels, resorts, boutique stays, serviced apartments, and hospitality groups. Covers post-Notification 5/2025-CTR specified premises framework, room rate slabs effective 22 September 2025 (5% no ITC up to INR 7,500 per day; 18% with ITC above), restaurant-in-hotel taxation (Entry 7(vi)/7(ii) of Notification 11/2017-CTR), banquet at 18%, Section 12(3)(b) IGST place-of-supply, Annexure VII/VIII/IX declarations, Rule 42/43 reversal, and full GSTR-1/GSTR-3B filing.",
-        "serviceType": "GST Compliance for Hotels",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-returns-for-hotels" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [
-            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
-            { "@type": "Thing", "name": "Hotel", "sameAs": "https://en.wikipedia.org/wiki/Hotel" }
-        ],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "GST Returns for Hotels Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "Monthly GST Returns - Single Hotel / Premises",
-                    "priceCurrency": "INR",
-                    "price": "1999",
-                    "description": "Monthly GSTR-1 and GSTR-3B filing, a stream-wise rate matrix, and specified-premises Annexure filing for a single hotel or premises"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/gst-returns-for-hotels/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
-            { "@type": "ListItem", "position": 3, "name": "GST Returns for Hotels", "item": "https://www.patronaccounting.com/gst-returns-for-hotels" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/gst-returns-for-hotels/#faq",
-        "datePublished": "2026-05-27T08:00:00+05:30",
-        "dateModified": "2026-06-01T08:00:00+05:30",
-        "mainEntity": [
-
-            {
-                "@type": "Question",
-                "name": "What is the GST rate on hotel rooms in 2026?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Post 22 September 2025 (56th GST Council Meeting recommendations under GST 2.0), hotel rooms with a value of supply up to INR 7,500 per unit per day attract 5 percent GST without input tax credit. Rooms with a value of supply above INR 7,500 per unit per day attract 18 percent GST with full input tax credit. The earlier 12 percent rate slab has been removed. The threshold uses the actual value of supply, not the declared tariff."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is specified premises under GST for hotels?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Specified premises is a premises-wise classification introduced via Notification 5/2025-Central Tax (Rate) dated 16 January 2025, inserting Clause (xxxvi) in Notification 11/2017-CTR. A premises is specified if the supplier provided hotel accommodation in the preceding FY at value of supply above INR 7,500 per unit per day for any unit, or filed Annexure VII opt-in declaration between 1 January and 31 March, or filed Annexure IX within 15 days of registration acknowledgment."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the restaurant rate inside a hotel?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Under the post-1 April 2025 framework, restaurant service at a specified premises attracts 18 percent GST with full input tax credit under Entry 7(vi) of Notification 11/2017-CTR. Restaurant service at a non-specified premises attracts 5 percent GST without input tax credit under Entry 7(ii). The status follows the premises classification, not the entity GSTIN, so multi-property hotel groups can have different restaurant rates at different properties."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "When can a hotel file Annexure VII to opt for specified premises?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Annexure VII is filed by a registered hotel between 1 January and 31 March of the preceding FY to declare a premises as specified premises for the next FY - even though the value of supply in the preceding FY did not exceed INR 7,500 per unit per day. Once filed and accepted on the GST Portal (operationalised via GSTN Advisory dated 4 January 2026), the status is locked for the FY. Annexure VIII is the corresponding opt-out."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Are banquet and conference services taxed differently from accommodation?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. Banquet services (renting of premises along with food service for events) and conference services attract 18 percent GST with full input tax credit under Heading 9963. This rate was not changed by the GST 2.0 reforms effective 22 September 2025. Banquet is distinct from restaurant service and accommodation. Where a single composite invoice covers hall plus F&B plus audio-visual, the whole composite is at 18 percent with the hall renting as principal supply."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the place of supply for hotel accommodation?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Per Section 12(3)(b) of the IGST Act, the place of supply for services in relation to immovable property - including lodging accommodation by a hotel, inn, guest house, club, or campsite - is the location of the immovable property itself. This means hotel accommodation is always taxed in the State where the hotel is located, regardless of the guest home State or where the booking was made. Always CGST plus SGST for the hotel-State, never IGST."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can a hotel claim ITC on building construction after Finance Act 2025?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "The Finance Act 2025 amended Section 17(5)(c) and (d) of the CGST Act, retrospectively changing plant or machinery to plant and machinery with effect from 1 July 2017 - nullifying the Supreme Court ruling in Safari Retreats. The amended position is that ITC on building construction is generally blocked, except where the construction relates to plant and machinery as specifically defined. For hotels, civil construction ITC is blocked, but equipment and machinery remain eligible."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the cost of monthly GST returns for hotels at Patron Accounting?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Starting from INR 1,999 per month (Exclusive of GST and government charges) for single-hotel / single-premises basic compliance. Monthly returns plus specified-premises setup plus Rule 42/43 package starts from INR 3,999 per month. Specified-premises annual election modelling, multi-property compliance, banquet / event restructuring, and DRC-01C reply are quoted separately based on scope."
-                }
-            }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -763,7 +618,157 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>GST Returns for Hotels 2026: Specified Premises | Patron Accounting</title>
+    <meta name="description" content="GST returns for hotels - room 5%/18% slab, restaurant 18%/5% by specified premises, Notification 5/2025-CTR opt-in. Starting from INR 1,999 per month.">
+    <link rel="canonical" href="/gst-returns-for-hotels">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="GST Returns for Hotels 2026: Specified Premises | Patron Accounting">
+    <meta property="og:description" content="GST returns for hotels - room 5%/18% slab, restaurant 18%/5% by specified premises, Notification 5/2025-CTR opt-in. Starting from INR 1,999 per month.">
+    <meta property="og:url" content="/gst-returns-for-hotels">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GST Returns for Hotels 2026: Specified Premises | Patron Accounting">
+    <meta name="twitter:description" content="GST returns for hotels - room 5%/18% slab, restaurant 18%/5% by specified premises, Notification 5/2025-CTR opt-in. Starting from INR 1,999 per month.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/gst-returns-for-hotels/#service",
+        "name": "GST Returns for Hotels",
+        "description": "Monthly managed GST compliance for hotels, resorts, boutique stays, serviced apartments, and hospitality groups. Covers post-Notification 5/2025-CTR specified premises framework, room rate slabs effective 22 September 2025 (5% no ITC up to INR 7,500 per day; 18% with ITC above), restaurant-in-hotel taxation (Entry 7(vi)/7(ii) of Notification 11/2017-CTR), banquet at 18%, Section 12(3)(b) IGST place-of-supply, Annexure VII/VIII/IX declarations, Rule 42/43 reversal, and full GSTR-1/GSTR-3B filing.",
+        "serviceType": "GST Compliance for Hotels",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-returns-for-hotels" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [
+            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
+            { "@type": "Thing", "name": "Hotel", "sameAs": "https://en.wikipedia.org/wiki/Hotel" }
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "GST Returns for Hotels Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "Monthly GST Returns - Single Hotel / Premises",
+                    "priceCurrency": "INR",
+                    "price": "1999",
+                    "description": "Monthly GSTR-1 and GSTR-3B filing, a stream-wise rate matrix, and specified-premises Annexure filing for a single hotel or premises"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/gst-returns-for-hotels/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
+            { "@type": "ListItem", "position": 3, "name": "GST Returns for Hotels", "item": "https://www.patronaccounting.com/gst-returns-for-hotels" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/gst-returns-for-hotels/#faq",
+        "datePublished": "2026-05-27T08:00:00+05:30",
+        "dateModified": "2026-06-01T08:00:00+05:30",
+        "mainEntity": [
+
+            {
+                "@type": "Question",
+                "name": "What is the GST rate on hotel rooms in 2026?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Post 22 September 2025 (56th GST Council Meeting recommendations under GST 2.0), hotel rooms with a value of supply up to INR 7,500 per unit per day attract 5 percent GST without input tax credit. Rooms with a value of supply above INR 7,500 per unit per day attract 18 percent GST with full input tax credit. The earlier 12 percent rate slab has been removed. The threshold uses the actual value of supply, not the declared tariff."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is specified premises under GST for hotels?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Specified premises is a premises-wise classification introduced via Notification 5/2025-Central Tax (Rate) dated 16 January 2025, inserting Clause (xxxvi) in Notification 11/2017-CTR. A premises is specified if the supplier provided hotel accommodation in the preceding FY at value of supply above INR 7,500 per unit per day for any unit, or filed Annexure VII opt-in declaration between 1 January and 31 March, or filed Annexure IX within 15 days of registration acknowledgment."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the restaurant rate inside a hotel?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Under the post-1 April 2025 framework, restaurant service at a specified premises attracts 18 percent GST with full input tax credit under Entry 7(vi) of Notification 11/2017-CTR. Restaurant service at a non-specified premises attracts 5 percent GST without input tax credit under Entry 7(ii). The status follows the premises classification, not the entity GSTIN, so multi-property hotel groups can have different restaurant rates at different properties."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "When can a hotel file Annexure VII to opt for specified premises?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Annexure VII is filed by a registered hotel between 1 January and 31 March of the preceding FY to declare a premises as specified premises for the next FY - even though the value of supply in the preceding FY did not exceed INR 7,500 per unit per day. Once filed and accepted on the GST Portal (operationalised via GSTN Advisory dated 4 January 2026), the status is locked for the FY. Annexure VIII is the corresponding opt-out."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Are banquet and conference services taxed differently from accommodation?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Banquet services (renting of premises along with food service for events) and conference services attract 18 percent GST with full input tax credit under Heading 9963. This rate was not changed by the GST 2.0 reforms effective 22 September 2025. Banquet is distinct from restaurant service and accommodation. Where a single composite invoice covers hall plus F&B plus audio-visual, the whole composite is at 18 percent with the hall renting as principal supply."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the place of supply for hotel accommodation?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Per Section 12(3)(b) of the IGST Act, the place of supply for services in relation to immovable property - including lodging accommodation by a hotel, inn, guest house, club, or campsite - is the location of the immovable property itself. This means hotel accommodation is always taxed in the State where the hotel is located, regardless of the guest home State or where the booking was made. Always CGST plus SGST for the hotel-State, never IGST."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can a hotel claim ITC on building construction after Finance Act 2025?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The Finance Act 2025 amended Section 17(5)(c) and (d) of the CGST Act, retrospectively changing plant or machinery to plant and machinery with effect from 1 July 2017 - nullifying the Supreme Court ruling in Safari Retreats. The amended position is that ITC on building construction is generally blocked, except where the construction relates to plant and machinery as specifically defined. For hotels, civil construction ITC is blocked, but equipment and machinery remain eligible."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the cost of monthly GST returns for hotels at Patron Accounting?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Starting from INR 1,999 per month (Exclusive of GST and government charges) for single-hotel / single-premises basic compliance. Monthly returns plus specified-premises setup plus Rule 42/43 package starts from INR 3,999 per month. Specified-premises annual election modelling, multi-property compliance, banquet / event restructuring, and DRC-01C reply are quoted separately based on scope."
+                }
+            }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1629,17 +1634,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1662,8 +1660,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1700,7 +1696,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1711,4 +1706,20 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+
 

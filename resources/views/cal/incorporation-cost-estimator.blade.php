@@ -1,181 +1,6 @@
 @extends('layouts.app')
-
-<title>Company Incorporation Cost Calculator | Pvt Ltd & LLP</title>
-<meta name="description" content="Estimate company incorporation cost in India: itemise SPICe+ fees, state stamp duty, DSC, DIN & professional fees for Pvt Ltd, LLP, OPC or Section 8. Free!">
-<meta name="robots" content="index, follow">
-<meta name="theme-color" content="#15365f">
+@push('styles')
 <link rel="canonical" href="https://www.patronaccounting.com/tools/incorporation-cost-estimator">
-@section('meta')
-<meta property="og:title" content="Incorporation Cost Estimator — Company & LLP Fees 2026">
-<meta property="og:description" content="Estimate the full cost to incorporate in India — SPICe+/FiLLiP fees, stamp duty by state, DSC, DIN and professional fees — itemised by entity type and capital.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.patronaccounting.com/tools/incorporation-cost-estimator">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="1200">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-<meta property="og:site_name" content="Patron Accounting">
-<meta property="og:locale" content="en_IN">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Incorporation Cost Estimator — Company & LLP Fees 2026">
-<meta name="twitter:description" content="Estimate the full cost to incorporate in India — government fees, stamp duty, DSC and professional fees — itemised. Free & instant.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-
-<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
-<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
-@endsection
-@section('schema')
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "Incorporation Cost Estimator",
-  "description": "Incorporation Cost Estimator calculates the approximate cost to incorporate a business in India, itemised into government and professional components. It models the SPICe Plus or Form FiLLiP filing fee by authorised capital slab, the RUN name reservation fee, Digital Signature Certificate cost per director or partner, any extra DIN fee beyond three directors, state stamp duty on the incorporation documents using a per-state band, and an optional professional fee, then returns a line-by-line breakdown and a total range for a Private Limited Company, LLP, One Person Company, Section 8 company, Partnership Firm or Sole Proprietorship.",
-  "url": "https://www.patronaccounting.com/tools/incorporation-cost-estimator",
-  "applicationCategory": "BusinessApplication",
-  "inLanguage": "en-IN",
-  "isAccessibleForFree": true,
-  "operatingSystem": "Any",
-  "datePublished": "2026-06-05T08:00:00+05:30",
-  "dateModified": "2026-06-05T08:00:00+05:30",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "INR"
-  },
-  "reviewedBy": {
-    "@type": "Person",
-    "@id": "https://patronaccounting.com/#founder",
-    "name": "CA Sundram Gupta",
-    "jobTitle": "Founder & Chartered Accountant",
-    "url": "https://www.patronaccounting.com/contact-page",
-    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-    "hasCredential": [{
-      "@type": "EducationalOccupationalCredential",
-      "credentialCategory": "Professional Certification",
-      "name": "Chartered Accountant (CA)",
-      "recognizedBy": {
-        "@type": "Organization",
-        "name": "Institute of Chartered Accountants of India",
-        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-      }
-    }]
-  },
-  "publisher": { "@id": "https://patronaccounting.com/#organization" },
-  "provider": {
-    "@id": "https://patronaccounting.com/#organization"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "Incorporation Cost Estimator", "item": "https://www.patronaccounting.com/tools/incorporation-cost-estimator"}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How much does it cost to register a company in India in 2026?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A standard two-director Private Limited Company with authorised capital of 1 to 10 lakh rupees typically costs between 7,000 and 25,000 rupees all in, covering government fees, stamp duty, Digital Signature Certificates and professional charges. An LLP is usually cheaper, around 7,000 to 15,000 rupees. The biggest variable is state stamp duty, which can range from a few hundred rupees to over 12,000 rupees depending on the state and the authorised capital."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the SPICe+ government filing fee really zero?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For a company, the SPICe Plus filing fee charged by the MCA is zero for authorised capital up to 15 lakh rupees, and a slab fee applies above that. DIN is allotted free through SPICe Plus for up to three directors, and PAN and TAN are issued at no cost. So the filing fee itself is often nil for a small startup; the real costs are stamp duty, Digital Signature Certificates and any professional fee. The RUN name reservation, if used separately, is 1,000 rupees."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why does stamp duty vary so much between states?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Stamp duty on the Memorandum and Articles of Association is a state subject, so each state sets its own rate, usually a small percentage of the authorised capital. Maharashtra and Delhi are relatively low, while Gujarat, Kerala and Punjab tend to be higher. For the same authorised capital, the stamp duty can differ by several thousand rupees between states. If your location is flexible, choosing a lower stamp duty state can reduce the upfront cost noticeably."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a Digital Signature Certificate and how many do I need?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A Class 3 Digital Signature Certificate lets a director or partner digitally sign the incorporation forms on the MCA portal. Every proposed director and subscriber needs one, so the more signatories you have, the higher the total DSC cost. Each certificate costs roughly 800 to 1,500 rupees for two-year validity. You will keep using the DSC for future MCA filings, so it is a recurring tool rather than a one-time incorporation cost."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does authorised capital change the cost?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, in two ways. First, the SPICe Plus filing fee is nil up to 15 lakh rupees of authorised capital and then steps up in slabs. Second, and more significantly, stamp duty is charged as a percentage of the authorised capital, so higher capital means higher stamp duty. A common cost-saving strategy is to start with a low authorised capital such as 1 lakh rupees and increase it later through a board resolution and ROC filing once the business needs it."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is an LLP cheaper to incorporate than a company?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Usually yes. An LLP uses Form FiLLiP with a filing fee of around 500 to 5,000 rupees depending on the capital contribution slab, RUN-LLP name reservation at 200 rupees, DSCs for the designated partners, and stamp duty on the LLP agreement that varies by state. There is no separate DIN fee for up to two designated partners through FiLLiP. With lower government fees and lighter ongoing compliance, an LLP is one of the most cost-effective registered structures."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What costs come after incorporation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Incorporation is only the first cost. Immediately after, budget for auditor appointment via ADT-1, the commencement of business filing INC-20A, a company bank account, and registrations such as GST, and often professional fees for these. Then there is recurring annual compliance — statutory audit, ROC annual filings, income tax return and GST returns — which can run from around 15,000 to 50,000 rupees or more a year. The annual compliance cost estimator can help you plan this."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Are PAN, TAN and DIN charged separately?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No, not for a normal incorporation. PAN and TAN are allotted automatically as part of the SPICe Plus process at no extra government cost. DIN is also generated through SPICe Plus for up to three directors with no separate fee. A separate DIR-3 DIN application costs 500 rupees per director, which only applies if you need DINs beyond those allotted during incorporation, for example when adding more directors later."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How accurate is this estimate?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "It is an indicative estimate, not a quotation. Government filing fees and DIN are fairly standard, but stamp duty rates change by state notification and professional fees vary by provider and complexity, so the tool uses representative bands. Treat the total as a planning range rather than an exact figure, and confirm the current stamp duty for your state and a firm quote for professional work before you commit. The actual cost can differ from the estimate."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the Incorporation Cost Estimator free?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, the Patron Accounting Incorporation Cost Estimator is completely free with no signup required. All calculations run in your browser and nothing is stored on our servers. It itemises the SPICe Plus or FiLLiP fee, name reservation, DSC, any extra DIN, state stamp duty and an optional professional fee, and shows a total range for your chosen entity type, state and capital. It is an indicative planning tool; confirm the exact figures with a professional before relying on them."
-      }
-    }
-  ]
-}
-</script>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-@endsection
-
 <style>
         :root {
             --primary: #15365f;
@@ -692,6 +517,183 @@ a:focus-visible {
 
 
         </style>
+@endpush
+
+@section('meta')
+<meta property="og:title" content="Incorporation Cost Estimator — Company & LLP Fees 2026">
+<meta property="og:description" content="Estimate the full cost to incorporate in India — SPICe+/FiLLiP fees, stamp duty by state, DSC, DIN and professional fees — itemised by entity type and capital.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/incorporation-cost-estimator">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+<meta property="og:site_name" content="Patron Accounting">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Incorporation Cost Estimator — Company & LLP Fees 2026">
+<meta name="twitter:description" content="Estimate the full cost to incorporate in India — government fees, stamp duty, DSC and professional fees — itemised. Free & instant.">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
+
+<title>Company Incorporation Cost Calculator | Pvt Ltd & LLP</title>
+<meta name="description" content="Estimate company incorporation cost in India: itemise SPICe+ fees, state stamp duty, DSC, DIN & professional fees for Pvt Ltd, LLP, OPC or Section 8. Free!">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#15365f">
+@endsection
+@section('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Incorporation Cost Estimator",
+  "description": "Incorporation Cost Estimator calculates the approximate cost to incorporate a business in India, itemised into government and professional components. It models the SPICe Plus or Form FiLLiP filing fee by authorised capital slab, the RUN name reservation fee, Digital Signature Certificate cost per director or partner, any extra DIN fee beyond three directors, state stamp duty on the incorporation documents using a per-state band, and an optional professional fee, then returns a line-by-line breakdown and a total range for a Private Limited Company, LLP, One Person Company, Section 8 company, Partnership Firm or Sole Proprietorship.",
+  "url": "https://www.patronaccounting.com/tools/incorporation-cost-estimator",
+  "applicationCategory": "BusinessApplication",
+  "inLanguage": "en-IN",
+  "isAccessibleForFree": true,
+  "operatingSystem": "Any",
+  "datePublished": "2026-06-05T08:00:00+05:30",
+  "dateModified": "2026-06-05T08:00:00+05:30",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "INR"
+  },
+  "reviewedBy": {
+    "@type": "Person",
+    "@id": "https://patronaccounting.com/#founder",
+    "name": "CA Sundram Gupta",
+    "jobTitle": "Founder & Chartered Accountant",
+    "url": "https://www.patronaccounting.com/contact-page",
+    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+    "hasCredential": [{
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Professional Certification",
+      "name": "Chartered Accountant (CA)",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Institute of Chartered Accountants of India",
+        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+      }
+    }]
+  },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
+  "provider": {
+    "@id": "https://patronaccounting.com/#organization"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "Incorporation Cost Estimator", "item": "https://www.patronaccounting.com/tools/incorporation-cost-estimator"}
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does it cost to register a company in India in 2026?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A standard two-director Private Limited Company with authorised capital of 1 to 10 lakh rupees typically costs between 7,000 and 25,000 rupees all in, covering government fees, stamp duty, Digital Signature Certificates and professional charges. An LLP is usually cheaper, around 7,000 to 15,000 rupees. The biggest variable is state stamp duty, which can range from a few hundred rupees to over 12,000 rupees depending on the state and the authorised capital."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the SPICe+ government filing fee really zero?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For a company, the SPICe Plus filing fee charged by the MCA is zero for authorised capital up to 15 lakh rupees, and a slab fee applies above that. DIN is allotted free through SPICe Plus for up to three directors, and PAN and TAN are issued at no cost. So the filing fee itself is often nil for a small startup; the real costs are stamp duty, Digital Signature Certificates and any professional fee. The RUN name reservation, if used separately, is 1,000 rupees."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why does stamp duty vary so much between states?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Stamp duty on the Memorandum and Articles of Association is a state subject, so each state sets its own rate, usually a small percentage of the authorised capital. Maharashtra and Delhi are relatively low, while Gujarat, Kerala and Punjab tend to be higher. For the same authorised capital, the stamp duty can differ by several thousand rupees between states. If your location is flexible, choosing a lower stamp duty state can reduce the upfront cost noticeably."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a Digital Signature Certificate and how many do I need?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A Class 3 Digital Signature Certificate lets a director or partner digitally sign the incorporation forms on the MCA portal. Every proposed director and subscriber needs one, so the more signatories you have, the higher the total DSC cost. Each certificate costs roughly 800 to 1,500 rupees for two-year validity. You will keep using the DSC for future MCA filings, so it is a recurring tool rather than a one-time incorporation cost."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does authorised capital change the cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, in two ways. First, the SPICe Plus filing fee is nil up to 15 lakh rupees of authorised capital and then steps up in slabs. Second, and more significantly, stamp duty is charged as a percentage of the authorised capital, so higher capital means higher stamp duty. A common cost-saving strategy is to start with a low authorised capital such as 1 lakh rupees and increase it later through a board resolution and ROC filing once the business needs it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is an LLP cheaper to incorporate than a company?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually yes. An LLP uses Form FiLLiP with a filing fee of around 500 to 5,000 rupees depending on the capital contribution slab, RUN-LLP name reservation at 200 rupees, DSCs for the designated partners, and stamp duty on the LLP agreement that varies by state. There is no separate DIN fee for up to two designated partners through FiLLiP. With lower government fees and lighter ongoing compliance, an LLP is one of the most cost-effective registered structures."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What costs come after incorporation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Incorporation is only the first cost. Immediately after, budget for auditor appointment via ADT-1, the commencement of business filing INC-20A, a company bank account, and registrations such as GST, and often professional fees for these. Then there is recurring annual compliance — statutory audit, ROC annual filings, income tax return and GST returns — which can run from around 15,000 to 50,000 rupees or more a year. The annual compliance cost estimator can help you plan this."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are PAN, TAN and DIN charged separately?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, not for a normal incorporation. PAN and TAN are allotted automatically as part of the SPICe Plus process at no extra government cost. DIN is also generated through SPICe Plus for up to three directors with no separate fee. A separate DIR-3 DIN application costs 500 rupees per director, which only applies if you need DINs beyond those allotted during incorporation, for example when adding more directors later."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How accurate is this estimate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It is an indicative estimate, not a quotation. Government filing fees and DIN are fairly standard, but stamp duty rates change by state notification and professional fees vary by provider and complexity, so the tool uses representative bands. Treat the total as a planning range rather than an exact figure, and confirm the current stamp duty for your state and a firm quote for professional work before you commit. The actual cost can differ from the estimate."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the Incorporation Cost Estimator free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the Patron Accounting Incorporation Cost Estimator is completely free with no signup required. All calculations run in your browser and nothing is stored on our servers. It itemises the SPICe Plus or FiLLiP fee, name reservation, DSC, any extra DIN, state stamp duty and an optional professional fee, and shows a total range for your chosen entity type, state and capital. It is an indicative planning tool; confirm the exact figures with a professional before relying on them."
+      }
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation">
     <div class="toc-nav-inner">

@@ -1,189 +1,5 @@
 @extends('layouts.app')
-
-@section('meta')
-<title>IEPF Unclaimed Shares Checker | Form IEPF-5 Claim</title>
-<meta name="description" content="IEPF checker: see if your unclaimed shares or dividends moved to the IEPF after 7 years, plus the Form IEPF-5 claim steps and timeline. Free, try now!">
-<meta name="robots" content="index, follow">
-<meta name="theme-color" content="#15365f">
-<link rel="canonical" href="/tools/iepf-unclaimed-shares-checker">
-
-<meta property="og:title" content="IEPF Unclaimed Shares & Dividend Checker — Form IEPF-5">
-<meta property="og:description" content="Check whether your unclaimed shares or dividends were transferred to the IEPF after 7 years, and get the Form IEPF-5 claim process, documents and where to search officially.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="/tools/iepf-unclaimed-shares-checker">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="1200">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-<meta property="og:site_name" content="Patron Accounting">
-<meta property="og:locale" content="en_IN">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="IEPF Unclaimed Shares & Dividend Checker — Form IEPF-5">
-<meta name="twitter:description" content="See if your unclaimed shares/dividends moved to the IEPF after 7 years and get the Form IEPF-5 claim steps. Free & instant.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-@endsection
-@section('schema')
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "IEPF Unclaimed Shares & Dividend Checker",
-  "description": "IEPF Unclaimed Shares and Dividend Checker is a decision tool that takes how long a dividend has gone unclaimed, whether the shareholder is the original holder or a legal heir, and demat status, and indicates whether the shares or dividend have likely been transferred to the Investor Education and Protection Fund under Section 124 of the Companies Act, 2013, then explains the Form IEPF-5 claim process, the documents required and where to verify the position officially on the MCA and IEPF portals.",
-  "url": "/tools/iepf-unclaimed-shares-checker",
-  "applicationCategory": "BusinessApplication",
-  "inLanguage": "en-IN",
-  "isAccessibleForFree": true,
-  "operatingSystem": "Any",
-  "datePublished": "2026-06-05T08:00:00+05:30",
-  "dateModified": "2026-06-05T08:00:00+05:30",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "INR"
-  },
-  "reviewedBy": {
-    "@type": "Person",
-    "@id": "/#founder",
-    "name": "CA Sundram Gupta",
-    "jobTitle": "Founder & Chartered Accountant",
-    "url": "/contact-page",
-    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-    "hasCredential": [{
-      "@type": "EducationalOccupationalCredential",
-      "credentialCategory": "Professional Certification",
-      "name": "Chartered Accountant (CA)",
-      "recognizedBy": {
-        "@type": "Organization",
-        "name": "Institute of Chartered Accountants of India",
-        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-      }
-    }]
-  },
-  "publisher": { "@id": "/#organization" },
-  "provider": {
-    "@id": "/#organization"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "IEPF Unclaimed Shares & Dividend Checker", "item": "/tools/iepf-unclaimed-shares-checker"}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the IEPF and what gets transferred to it?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The Investor Education and Protection Fund (IEPF) is a fund under the Ministry of Corporate Affairs, set up under the Companies Act, 2013. Under Section 124, any dividend that remains unpaid or unclaimed for seven consecutive years is transferred to the IEPF, and the underlying shares are also transferred to the IEPF Authority's demat account when dividends on them have gone unclaimed for seven consecutive years. The rightful owner can reclaim them later."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I know if my shares or dividends went to the IEPF?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "This checker indicates the likely position from your answers, but the authoritative source is official records. Companies publish year-wise lists of shareholders whose shares and unclaimed dividends have been transferred, usually on their website, and the IEPF and MCA portals carry searchable information. You can also ask the company or its Registrar and Transfer Agent for your folio-wise dividend and transfer history. Always verify against these official sources before filing a claim."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I actually search for my unclaimed amount inside this tool?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. This tool is a guide and eligibility checker, not a live database search. A web page on its own cannot query the IEPF or company records. To look up your specific shares or dividends you must use the official IEPF and MCA portals, the company's published transfer lists, or contact the company's Registrar and Transfer Agent. This checker tells you whether you are likely affected and how to claim, so you know what to search for."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the 7-year rule for unclaimed dividends?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When a dividend is not claimed within 30 days of declaration it becomes unpaid, and the company moves it to a special Unpaid Dividend Account within 7 days. Any amount lying in that account that stays unclaimed for seven years from the date of transfer is then moved to the IEPF. Separately, the shares on which dividends have not been claimed for seven consecutive years are also transferred to the IEPF Authority."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I claim shares or dividends back from the IEPF?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You file Form IEPF-5 online on the MCA portal with your shareholder, company, share and demat details. You then send the signed form with supporting documents and an indemnity bond to the company's Nodal Officer at its registered office. The Nodal Officer verifies the claim and sends an e-Verification Report to the IEPF Authority, which on approval credits the shares to your demat account and the dividends to your linked bank account."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What documents are needed for an IEPF-5 claim?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You generally need a PAN card copy as photo identity, proof of an active demat account with an NSDL or CDSL participant, a cancelled cheque showing your name and account number, the original share certificates if held physically, and earlier dividend or holding proofs. An indemnity bond and the acknowledgement of the online IEPF-5 are also required. A legal heir additionally needs transmission documents and an entitlement letter from the company before filing."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can a legal heir or nominee claim from the IEPF?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Where the registered shareholder has died, the legal heir, nominee or successor can claim, but they must first complete the share transmission with the company and obtain an entitlement letter before filing Form IEPF-5. The claim then proceeds through the same Nodal Officer verification and IEPF Authority approval. Heir claims need succession or legal-heir documents in addition to the standard set, so they usually take longer."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How long does an IEPF claim take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Timelines vary by company and the IEPF Authority. Filing the online IEPF-5 takes a day or two, the Nodal Officer's verification commonly takes a few weeks, and the IEPF Authority's examination and approval can take a couple of months, sometimes longer if additional proofs are sought. Once approved, the credit of shares and dividends typically follows within a few weeks. Accurate documents and a clean folio history speed the process."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is there a deadline to claim from the IEPF?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. Transfer to the IEPF is not a forfeiture. The shares and dividends are held in trust by the IEPF Authority, and the rightful owner or their legal heir can reclaim them at any time by following the prescribed Form IEPF-5 process. There is, however, a practical limit that only one consolidated claim per company can be made in a financial year, so it is best to include all folios of the same company together."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do I need a demat account to claim from the IEPF?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, for shares. Because the IEPF Authority returns shares in dematerialised form, you must have an active demat account with a depository participant registered with NSDL or CDSL, and provide its details in Form IEPF-5. The reclaimed dividends are credited to the bank account linked to that demat account, so the cancelled cheque and bank details must match. If you do not have a demat account you should open one before filing."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is this IEPF checker free?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, the Patron Accounting IEPF Unclaimed Shares and Dividend Checker is completely free with no signup required. It runs entirely in your browser and stores nothing on our servers. It indicates whether your shares or dividends have likely moved to the IEPF and sets out the Form IEPF-5 claim process and documents. The actual search and the claim filing happen on the official MCA and IEPF portals, which this tool links to."
-      }
-    }
-  ]
-}
-</script>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-@endsection
+@push('styles')
 <style>
         :root {
             --primary: #15365f;
@@ -692,6 +508,193 @@ a:focus-visible {
 
 
         </style>
+@endpush
+
+
+@section('meta')
+<title>IEPF Unclaimed Shares Checker | Form IEPF-5 Claim</title>
+<meta name="description" content="IEPF checker: see if your unclaimed shares or dividends moved to the IEPF after 7 years, plus the Form IEPF-5 claim steps and timeline. Free, try now!">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#15365f">
+<link rel="canonical" href="/tools/iepf-unclaimed-shares-checker">
+
+<meta property="og:title" content="IEPF Unclaimed Shares & Dividend Checker — Form IEPF-5">
+<meta property="og:description" content="Check whether your unclaimed shares or dividends were transferred to the IEPF after 7 years, and get the Form IEPF-5 claim process, documents and where to search officially.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="/tools/iepf-unclaimed-shares-checker">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+<meta property="og:site_name" content="Patron Accounting">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="IEPF Unclaimed Shares & Dividend Checker — Form IEPF-5">
+<meta name="twitter:description" content="See if your unclaimed shares/dividends moved to the IEPF after 7 years and get the Form IEPF-5 claim steps. Free & instant.">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+@endsection
+@section('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "IEPF Unclaimed Shares & Dividend Checker",
+  "description": "IEPF Unclaimed Shares and Dividend Checker is a decision tool that takes how long a dividend has gone unclaimed, whether the shareholder is the original holder or a legal heir, and demat status, and indicates whether the shares or dividend have likely been transferred to the Investor Education and Protection Fund under Section 124 of the Companies Act, 2013, then explains the Form IEPF-5 claim process, the documents required and where to verify the position officially on the MCA and IEPF portals.",
+  "url": "/tools/iepf-unclaimed-shares-checker",
+  "applicationCategory": "BusinessApplication",
+  "inLanguage": "en-IN",
+  "isAccessibleForFree": true,
+  "operatingSystem": "Any",
+  "datePublished": "2026-06-05T08:00:00+05:30",
+  "dateModified": "2026-06-05T08:00:00+05:30",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "INR"
+  },
+  "reviewedBy": {
+    "@type": "Person",
+    "@id": "/#founder",
+    "name": "CA Sundram Gupta",
+    "jobTitle": "Founder & Chartered Accountant",
+    "url": "/contact-page",
+    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+    "hasCredential": [{
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Professional Certification",
+      "name": "Chartered Accountant (CA)",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Institute of Chartered Accountants of India",
+        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+      }
+    }]
+  },
+  "publisher": { "@id": "/#organization" },
+  "provider": {
+    "@id": "/#organization"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "IEPF Unclaimed Shares & Dividend Checker", "item": "/tools/iepf-unclaimed-shares-checker"}
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the IEPF and what gets transferred to it?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Investor Education and Protection Fund (IEPF) is a fund under the Ministry of Corporate Affairs, set up under the Companies Act, 2013. Under Section 124, any dividend that remains unpaid or unclaimed for seven consecutive years is transferred to the IEPF, and the underlying shares are also transferred to the IEPF Authority's demat account when dividends on them have gone unclaimed for seven consecutive years. The rightful owner can reclaim them later."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I know if my shares or dividends went to the IEPF?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This checker indicates the likely position from your answers, but the authoritative source is official records. Companies publish year-wise lists of shareholders whose shares and unclaimed dividends have been transferred, usually on their website, and the IEPF and MCA portals carry searchable information. You can also ask the company or its Registrar and Transfer Agent for your folio-wise dividend and transfer history. Always verify against these official sources before filing a claim."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I actually search for my unclaimed amount inside this tool?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. This tool is a guide and eligibility checker, not a live database search. A web page on its own cannot query the IEPF or company records. To look up your specific shares or dividends you must use the official IEPF and MCA portals, the company's published transfer lists, or contact the company's Registrar and Transfer Agent. This checker tells you whether you are likely affected and how to claim, so you know what to search for."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the 7-year rule for unclaimed dividends?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "When a dividend is not claimed within 30 days of declaration it becomes unpaid, and the company moves it to a special Unpaid Dividend Account within 7 days. Any amount lying in that account that stays unclaimed for seven years from the date of transfer is then moved to the IEPF. Separately, the shares on which dividends have not been claimed for seven consecutive years are also transferred to the IEPF Authority."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I claim shares or dividends back from the IEPF?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You file Form IEPF-5 online on the MCA portal with your shareholder, company, share and demat details. You then send the signed form with supporting documents and an indemnity bond to the company's Nodal Officer at its registered office. The Nodal Officer verifies the claim and sends an e-Verification Report to the IEPF Authority, which on approval credits the shares to your demat account and the dividends to your linked bank account."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What documents are needed for an IEPF-5 claim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You generally need a PAN card copy as photo identity, proof of an active demat account with an NSDL or CDSL participant, a cancelled cheque showing your name and account number, the original share certificates if held physically, and earlier dividend or holding proofs. An indemnity bond and the acknowledgement of the online IEPF-5 are also required. A legal heir additionally needs transmission documents and an entitlement letter from the company before filing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can a legal heir or nominee claim from the IEPF?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Where the registered shareholder has died, the legal heir, nominee or successor can claim, but they must first complete the share transmission with the company and obtain an entitlement letter before filing Form IEPF-5. The claim then proceeds through the same Nodal Officer verification and IEPF Authority approval. Heir claims need succession or legal-heir documents in addition to the standard set, so they usually take longer."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does an IEPF claim take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Timelines vary by company and the IEPF Authority. Filing the online IEPF-5 takes a day or two, the Nodal Officer's verification commonly takes a few weeks, and the IEPF Authority's examination and approval can take a couple of months, sometimes longer if additional proofs are sought. Once approved, the credit of shares and dividends typically follows within a few weeks. Accurate documents and a clean folio history speed the process."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a deadline to claim from the IEPF?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Transfer to the IEPF is not a forfeiture. The shares and dividends are held in trust by the IEPF Authority, and the rightful owner or their legal heir can reclaim them at any time by following the prescribed Form IEPF-5 process. There is, however, a practical limit that only one consolidated claim per company can be made in a financial year, so it is best to include all folios of the same company together."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need a demat account to claim from the IEPF?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, for shares. Because the IEPF Authority returns shares in dematerialised form, you must have an active demat account with a depository participant registered with NSDL or CDSL, and provide its details in Form IEPF-5. The reclaimed dividends are credited to the bank account linked to that demat account, so the cancelled cheque and bank details must match. If you do not have a demat account you should open one before filing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is this IEPF checker free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the Patron Accounting IEPF Unclaimed Shares and Dividend Checker is completely free with no signup required. It runs entirely in your browser and stores nothing on our servers. It indicates whether your shares or dividends have likely moved to the IEPF and sets out the Form IEPF-5 claim process and documents. The actual search and the claim filing happen on the official MCA and IEPF portals, which this tool links to."
+      }
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation">
     <div class="toc-nav-inner">

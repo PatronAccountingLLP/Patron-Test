@@ -1,146 +1,12 @@
 
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Forensic Net Worth Certificate in Mumbai 2026: CA Report | Patron Accounting</title>
-    <meta name="description" content="CA forensic net worth certificate for divorce, succession and court disputes, with asset tracing and verified assets minus liabilities. From INR 2,499.">
-    <link rel="canonical" href="/forensic-net-worth-certificate/mumbai">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Forensic Net Worth Certificate 2026: CA Report | Patron Accounting">
-    <meta property="og:description" content="CA forensic net worth certificate for divorce, succession and court disputes, with asset tracing and verified assets minus liabilities. From INR 2,499.">
-    <meta property="og:url" content="/forensic-net-worth-certificate/mumbai">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Forensic Net Worth Certificate 2026: CA Report | Patron Accounting">
-    <meta name="twitter:description" content="CA forensic net worth certificate for divorce, succession and court disputes, with asset tracing and verified assets minus liabilities. From INR 2,499.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/forensic-net-worth-certificate/mumbai/#service",
-        "name": "Forensic Net Worth Certificate in India",
-        "description": "CA forensic net worth certificate stating verified assets minus liabilities to a litigation-grade standard, with independent verification and asset tracing to surface hidden or undisclosed assets, for use in matrimonial and divorce, succession, bankruptcy, fraud and court matters, issued with a UDIN.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/forensic-net-worth-certificate/mumbai" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Forensic accounting", "sameAs": "https://en.wikipedia.org/wiki/Forensic_accounting" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Forensic Net Worth Certificate Service Plans",
-            "itemListElement": [
-                { "@type": "Offer", "name": "Forensic Net Worth Certificate", "priceCurrency": "INR", "price": "2499", "description": "Forensically verified net worth certificate, assets minus liabilities, to a litigation-grade standard with UDIN." }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/forensic-net-worth-certificate/mumbai/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
-            { "@type": "ListItem", "position": 3, "name": "Forensic Net Worth Certificate", "item": "https://www.patronaccounting.com/forensic-net-worth-certificate/mumbai" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/forensic-net-worth-certificate/mumbai/#faq",
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "mainEntity": [
-            { "@type": "Question", "name": "What is a forensic net worth certificate?", "acceptedAnswer": { "@type": "Answer", "text": "It is a Chartered Accountant's certified statement of a person's net worth, assets minus liabilities, prepared with forensic rigour. Unlike a standard certificate, it independently verifies and traces assets and liabilities through bank statements, tax returns, property and investment records, aiming for a defensible figure and surfacing any hidden or undisclosed assets. It is designed to withstand scrutiny in litigation and carries a UDIN." } },
-            { "@type": "Question", "name": "How is it different from a standard net worth certificate?", "acceptedAnswer": { "@type": "Answer", "text": "A standard net worth certificate, used for visas, loans or tenders, is based largely on the figures presented and a review of supporting documents. A forensic net worth certificate goes further, with independent verification and asset tracing, and actively looks for concealed or undisclosed assets, to a litigation-grade standard. If your net worth will face a court, an opposing party or an investigator, the forensic version is the appropriate one." } },
-            { "@type": "Question", "name": "When is a forensic net worth certificate used?", "acceptedAnswer": { "@type": "Answer", "text": "It is used in matrimonial and divorce matters for fair asset division and to surface concealed assets; in succession and inheritance disputes to establish the estate; in bankruptcy and insolvency proceedings; in fraud and settlement disputes; and in investigations of unexplained wealth. In each case, what matters is a verified, defensible net worth that can stand up to challenge, which is what the forensic approach provides." } },
-            { "@type": "Question", "name": "Can it help uncover hidden assets?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, to the extent the records allow. Forensic review traces bank statements, tax returns, property registries and investment records to identify assets, including those that may not have been disclosed. While no review can guarantee that every concealed asset is found, a structured forensic approach significantly improves the chance of surfacing undisclosed assets and produces a documented basis for the net worth that counsel can rely on." } },
-            { "@type": "Question", "name": "Who can issue a forensic net worth certificate?", "acceptedAnswer": { "@type": "Answer", "text": "A practising Chartered Accountant registered with the ICAI and holding a valid Certificate of Practice can issue it, applying forensic-accounting techniques of verification and asset tracing. The certificate carries the CA's signature, stamp, membership number and a UDIN, which lets the court or other party verify its authenticity. We prepare the certificate to a defensible standard so it holds up in proceedings." } },
-            { "@type": "Question", "name": "What documents are required?", "acceptedAnswer": { "@type": "Answer", "text": "We need the individual's PAN and identity details, bank statements across accounts for the relevant period, Income Tax Returns and computations, property documents and ownership proof, investment, DEMAT and fixed deposit statements, and details of loans and liabilities. The more complete the records, the more thorough the tracing. We verify these, compute the net worth and certify it with a UDIN." } },
-            { "@type": "Question", "name": "How much does a forensic net worth certificate cost?", "acceptedAnswer": { "@type": "Answer", "text": "At Patron Accounting, it starts from Rs 2,499 (exclusive of GST and government charges). Because forensic work involves verification and tracing beyond a standard certificate, the final fee depends on the number of accounts and assets, the period covered and the depth of tracing required. We confirm the fee after a confidential review of the records and the matter." } }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/forensic-net-worth-certificate/mumbai",
-        "name": "Forensic Net Worth Certificate in India",
-        "description": "CA forensic net worth certificate for divorce, succession and court disputes, with asset tracing and verified assets minus liabilities. From INR 2,499.",
-        "url": "https://www.patronaccounting.com/forensic-net-worth-certificate/mumbai",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/forensic-net-worth-certificate/mumbai/#service" },
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/forensic-net-worth-certificate/mumbai/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How to Obtain a Forensic Net Worth Certificate",
-        "description": "Five steps to obtain a CA forensic net worth certificate: engagement, document collection, forensic verification and tracing, net worth computation, and certification with UDIN.",
-        "totalTime": "P7D",
-        "step": [
-            { "@type": "HowToStep", "name": "Engagement", "text": "Confirm the purpose, the dispute or matter, and the period to be covered." },
-            { "@type": "HowToStep", "name": "Document collection", "text": "Collect bank statements, tax returns, property and investment records." },
-            { "@type": "HowToStep", "name": "Forensic verification and tracing", "text": "Assets and liabilities are verified and traced under SA 500." },
-            { "@type": "HowToStep", "name": "Net worth computation", "text": "Verified assets minus liabilities, with notes on the work done." },
-            { "@type": "HowToStep", "name": "Certification and UDIN", "text": "The CA signs, stamps and generates the UDIN, issuing the certificate." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Forensic Net Worth Certificate Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Net worth", "description": "Total assets minus total liabilities, as on a date." },
-            { "@type": "DefinedTerm", "name": "Asset tracing", "description": "Following records to identify and value assets, including concealed ones." },
-            { "@type": "DefinedTerm", "name": "Hidden or undisclosed assets", "description": "Assets not declared, which forensic review aims to surface." },
-            { "@type": "DefinedTerm", "name": "Disproportionate assets", "description": "Unexplained wealth beyond known sources, examined in certain investigations." },
-            { "@type": "DefinedTerm", "name": "Litigation-grade", "description": "Prepared and documented to withstand challenge in court." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -754,7 +620,146 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Forensic Net Worth Certificate in Mumbai 2026: CA Report | Patron Accounting</title>
+    <meta name="description" content="CA forensic net worth certificate for divorce, succession and court disputes, with asset tracing and verified assets minus liabilities. From INR 2,499.">
+    <link rel="canonical" href="/forensic-net-worth-certificate/mumbai">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Forensic Net Worth Certificate 2026: CA Report | Patron Accounting">
+    <meta property="og:description" content="CA forensic net worth certificate for divorce, succession and court disputes, with asset tracing and verified assets minus liabilities. From INR 2,499.">
+    <meta property="og:url" content="/forensic-net-worth-certificate/mumbai">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Forensic Net Worth Certificate 2026: CA Report | Patron Accounting">
+    <meta name="twitter:description" content="CA forensic net worth certificate for divorce, succession and court disputes, with asset tracing and verified assets minus liabilities. From INR 2,499.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/forensic-net-worth-certificate/mumbai/#service",
+        "name": "Forensic Net Worth Certificate in India",
+        "description": "CA forensic net worth certificate stating verified assets minus liabilities to a litigation-grade standard, with independent verification and asset tracing to surface hidden or undisclosed assets, for use in matrimonial and divorce, succession, bankruptcy, fraud and court matters, issued with a UDIN.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/forensic-net-worth-certificate/mumbai" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Forensic accounting", "sameAs": "https://en.wikipedia.org/wiki/Forensic_accounting" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Forensic Net Worth Certificate Service Plans",
+            "itemListElement": [
+                { "@type": "Offer", "name": "Forensic Net Worth Certificate", "priceCurrency": "INR", "price": "2499", "description": "Forensically verified net worth certificate, assets minus liabilities, to a litigation-grade standard with UDIN." }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/forensic-net-worth-certificate/mumbai/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
+            { "@type": "ListItem", "position": 3, "name": "Forensic Net Worth Certificate", "item": "https://www.patronaccounting.com/forensic-net-worth-certificate/mumbai" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/forensic-net-worth-certificate/mumbai/#faq",
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "mainEntity": [
+            { "@type": "Question", "name": "What is a forensic net worth certificate?", "acceptedAnswer": { "@type": "Answer", "text": "It is a Chartered Accountant's certified statement of a person's net worth, assets minus liabilities, prepared with forensic rigour. Unlike a standard certificate, it independently verifies and traces assets and liabilities through bank statements, tax returns, property and investment records, aiming for a defensible figure and surfacing any hidden or undisclosed assets. It is designed to withstand scrutiny in litigation and carries a UDIN." } },
+            { "@type": "Question", "name": "How is it different from a standard net worth certificate?", "acceptedAnswer": { "@type": "Answer", "text": "A standard net worth certificate, used for visas, loans or tenders, is based largely on the figures presented and a review of supporting documents. A forensic net worth certificate goes further, with independent verification and asset tracing, and actively looks for concealed or undisclosed assets, to a litigation-grade standard. If your net worth will face a court, an opposing party or an investigator, the forensic version is the appropriate one." } },
+            { "@type": "Question", "name": "When is a forensic net worth certificate used?", "acceptedAnswer": { "@type": "Answer", "text": "It is used in matrimonial and divorce matters for fair asset division and to surface concealed assets; in succession and inheritance disputes to establish the estate; in bankruptcy and insolvency proceedings; in fraud and settlement disputes; and in investigations of unexplained wealth. In each case, what matters is a verified, defensible net worth that can stand up to challenge, which is what the forensic approach provides." } },
+            { "@type": "Question", "name": "Can it help uncover hidden assets?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, to the extent the records allow. Forensic review traces bank statements, tax returns, property registries and investment records to identify assets, including those that may not have been disclosed. While no review can guarantee that every concealed asset is found, a structured forensic approach significantly improves the chance of surfacing undisclosed assets and produces a documented basis for the net worth that counsel can rely on." } },
+            { "@type": "Question", "name": "Who can issue a forensic net worth certificate?", "acceptedAnswer": { "@type": "Answer", "text": "A practising Chartered Accountant registered with the ICAI and holding a valid Certificate of Practice can issue it, applying forensic-accounting techniques of verification and asset tracing. The certificate carries the CA's signature, stamp, membership number and a UDIN, which lets the court or other party verify its authenticity. We prepare the certificate to a defensible standard so it holds up in proceedings." } },
+            { "@type": "Question", "name": "What documents are required?", "acceptedAnswer": { "@type": "Answer", "text": "We need the individual's PAN and identity details, bank statements across accounts for the relevant period, Income Tax Returns and computations, property documents and ownership proof, investment, DEMAT and fixed deposit statements, and details of loans and liabilities. The more complete the records, the more thorough the tracing. We verify these, compute the net worth and certify it with a UDIN." } },
+            { "@type": "Question", "name": "How much does a forensic net worth certificate cost?", "acceptedAnswer": { "@type": "Answer", "text": "At Patron Accounting, it starts from Rs 2,499 (exclusive of GST and government charges). Because forensic work involves verification and tracing beyond a standard certificate, the final fee depends on the number of accounts and assets, the period covered and the depth of tracing required. We confirm the fee after a confidential review of the records and the matter." } }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/forensic-net-worth-certificate/mumbai",
+        "name": "Forensic Net Worth Certificate in India",
+        "description": "CA forensic net worth certificate for divorce, succession and court disputes, with asset tracing and verified assets minus liabilities. From INR 2,499.",
+        "url": "https://www.patronaccounting.com/forensic-net-worth-certificate/mumbai",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/forensic-net-worth-certificate/mumbai/#service" },
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/forensic-net-worth-certificate/mumbai/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Obtain a Forensic Net Worth Certificate",
+        "description": "Five steps to obtain a CA forensic net worth certificate: engagement, document collection, forensic verification and tracing, net worth computation, and certification with UDIN.",
+        "totalTime": "P7D",
+        "step": [
+            { "@type": "HowToStep", "name": "Engagement", "text": "Confirm the purpose, the dispute or matter, and the period to be covered." },
+            { "@type": "HowToStep", "name": "Document collection", "text": "Collect bank statements, tax returns, property and investment records." },
+            { "@type": "HowToStep", "name": "Forensic verification and tracing", "text": "Assets and liabilities are verified and traced under SA 500." },
+            { "@type": "HowToStep", "name": "Net worth computation", "text": "Verified assets minus liabilities, with notes on the work done." },
+            { "@type": "HowToStep", "name": "Certification and UDIN", "text": "The CA signs, stamps and generates the UDIN, issuing the certificate." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Forensic Net Worth Certificate Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Net worth", "description": "Total assets minus total liabilities, as on a date." },
+            { "@type": "DefinedTerm", "name": "Asset tracing", "description": "Following records to identify and value assets, including concealed ones." },
+            { "@type": "DefinedTerm", "name": "Hidden or undisclosed assets", "description": "Assets not declared, which forensic review aims to surface." },
+            { "@type": "DefinedTerm", "name": "Disproportionate assets", "description": "Unexplained wealth beyond known sources, examined in certain investigations." },
+            { "@type": "DefinedTerm", "name": "Litigation-grade", "description": "Prepared and documented to withstand challenge in court." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1511,17 +1516,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1544,8 +1542,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1582,7 +1578,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (stable, not live date)
 (function() {
@@ -1593,3 +1588,19 @@ window.addEventListener('scroll', function() {
     if (el2) el2.textContent = dateStr;
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

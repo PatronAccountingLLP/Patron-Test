@@ -1,209 +1,11 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>IT Notice for IT Companies Mumbai: CA Reply</title>
-    <meta name="description" content="Income tax notice for your Mumbai IT or software company on TP, SEZ, ESOP, or Sec 195? Patron's CA team files reply and defends. Starting Rs 4,999.">
-    <link rel="canonical" href="/it-notice-it-companies/mumbai">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="IT Notice for IT Companies Mumbai 2026: CA Reply | Patron Accounting">
-    <meta property="og:description" content="Income tax notice for your Mumbai IT or software company on TP, SEZ, ESOP, or Sec 195? Patron's CA team files reply and defends. Starting Rs 4,999.">
-    <meta property="og:url" content="/it-notice-it-companies/mumbai">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="IT Notice for IT Companies Mumbai 2026: CA Reply | Patron Accounting">
-    <meta name="twitter:description" content="Income tax notice for your Mumbai IT or software company on TP, SEZ, ESOP, or Sec 195? Patron's CA team files reply and defends. Starting Rs 4,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-<script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/it-notice-it-companies/mumbai#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Income Tax Notice",
-          "item": "https://www.patronaccounting.com/income-tax-notice"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "IT Notice IT Companies Mumbai",
-          "item": "https://www.patronaccounting.com/it-notice-it-companies/mumbai"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/it-notice-it-companies/mumbai#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is an income tax notice for an IT company in Mumbai?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "An income tax notice for a Mumbai IT or software company is any of Sections 142(1), 143(2), 143(3) or 144B faceless, 92CA TP reference, 147 or 148 reassessment, 156 demand, or 271 penalty issued by Pr CIT (TP)-1, 2, 3, or 4 Mumbai (India's largest TP infrastructure), other PCITs, Pr CIT Central-1 to Central-4, ReFAC Mumbai, or NaFAC HQ under the Pr CCIT Mumbai Region at Aayakar Bhavan M.K. Road Churchgate. Common IT-sector triggers are TP adjustments, Section 10AA SEZ disputes, ESOP perquisite TDS, Section 195 software TDS, and Section 80-IAC startup holiday."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why does Mumbai have India's largest Transfer Pricing infrastructure?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Mumbai is India's financial and corporate capital with the largest concentration of foreign-parented IT companies, GCCs, captive software development centres, and listed entities with international operations. This drives the highest TP case volume in India, which led the Income Tax Department to establish FOUR dedicated Pr CIT (TP) positions (TP-1, TP-2, TP-3, TP-4) plus multiple Transfer Pricing Officers at Aayakar Bhavan. The ITAT Mumbai bench has the richest TP case law for software services."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does Section 10AA SEZ tax holiday still apply for SEEPZ Andheri East units?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes - Section 10AA continues for SEEPZ units that commenced operations before the sunset date (31 March 2020 for income tax holiday under new SEZ rules). Existing SEEPZ IT/ITeS units enjoy the 100-50-50 graduated deduction for 15 years. SEEPZ is India's oldest IT/ITeS SEZ with the largest concentration of legacy Section 10AA claims. Notices commonly arise on eligible export turnover computation, Form 56F certification gaps, commencement date disputes, and non-formation-by-splitting under Section 10AA(4)."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the Engineering Analysis Centre Supreme Court ruling and how does it help my Mumbai IT company?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "In Engineering Analysis Centre of Excellence Pvt Ltd v CIT (2021), the Supreme Court ruled that payments for off-the-shelf or shrink-wrap software purchased for internal use are NOT royalty under Section 9(1)(vi). Therefore, no Section 195 TDS is required for such foreign software purchases. This ruling is the backbone of TDS defence for Mumbai IT companies importing enterprise software from foreign vendors such as Microsoft, Oracle, Adobe, AWS, Salesforce, ServiceNow for internal operational use."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is the DRP Mumbai used for IT company TP disputes?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Under Section 144C, where the AO proposes a variation that includes a TP adjustment (referred by TPO under Section 92CA), the company can file objections within 30 days to the DRP Mumbai. The DRP must dispose objections within 9 months and the directions bind the AO. For Mumbai IT companies with TP exposures, the DRP route is often faster and more focused than the CIT(A) route. Post DRP, appeal lies directly to ITAT Mumbai bench."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is ESOP perquisite tax handled for Mumbai listed-company employees?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Under Section 17(2)(vi), ESOP perquisite equals FMV at allotment minus exercise price - taxed as salary at exercise with Section 192 TDS. For DPIIT-recognised startups such as several Mumbai Powai and BKC startups, Section 191A defers the TDS to the earliest of 5 years from end of relevant Tax Year, date of share sale by employee, or date of employee leaving the startup. For non-startup listed companies, TDS is required at exercise based on actual FMV from stock exchange data."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does Patron handle Section 144B faceless assessments at Mumbai ReFAC?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Patron's Mumbai team regularly handles Section 144B faceless assessments through NaFAC and ReFAC Mumbai. We file detailed written submissions on the e-Filing portal under e-Proceedings, request video hearings where merited, prepare draft variation responses within 7-15 day windows, and represent at the faceless appeal stage. Section 144B is now the default scrutiny route for most Mumbai corporate cases including IT companies."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "LegalService",
-      "@id": "https://www.patronaccounting.com/it-notice-it-companies/mumbai#service",
-      "name": "Income Tax Notice Reply and Defence for Mumbai IT and Software Companies",
-      "description": "End-to-end CA representation for income tax notices issued to Mumbai IT companies, software firms, SaaS, fintech, GCCs, BPO/KPO/LPO, and DPIIT startups. Covers Transfer Pricing (Chapter X Sections 92-92F) defence across the FOUR Pr CIT (TP)-1/2/3/4 Mumbai positions (India's largest dedicated TP infrastructure), Section 10AA SEZ deduction defence for SEEPZ Andheri East and Mindspace Airoli SEZ tenants, Section 80-IAC DPIIT startup tax holiday defence for Powai IIT-Bombay spinoffs and BKC fintech, ESOP perquisite TDS under Section 17(2)(vi) and Section 191A deferral, Section 195 foreign software TDS defence post Engineering Analysis Centre v CIT (2021 SC), DRP Mumbai (Section 144C) representation, Section 144B faceless assessment at ReFAC Mumbai, ITAT Mumbai bench appeals (busiest tribunal in India), and Bombay High Court representation. Starting at Rs 4,999.",
-      "serviceType": "IT Sector Income Tax Notice Representation",
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      },
-      "areaServed": {
-        "@type": "City",
-        "name": "Mumbai",
-        "sameAs": "https://en.wikipedia.org/wiki/Mumbai",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Maharashtra",
-          "sameAs": "https://en.wikipedia.org/wiki/Maharashtra"
-        }
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Transfer Pricing under Chapter X of the Income-tax Act 1961",
-          "sameAs": "https://en.wikipedia.org/wiki/Transfer_pricing"
-        },
-        {
-          "@type": "Thing",
-          "name": "Income-tax Act 1961",
-          "sameAs": "https://en.wikipedia.org/wiki/Income_Tax_Act,_1961"
-        },
-        {
-          "@type": "Thing",
-          "name": "Special Economic Zone (India)",
-          "sameAs": "https://en.wikipedia.org/wiki/Special_Economic_Zone_(India)"
-        },
-        {
-          "@type": "Thing",
-          "name": "SEEPZ Special Economic Zone",
-          "sameAs": "https://en.wikipedia.org/wiki/SEEPZ"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "IT Sector Income Tax Notice Services in Mumbai",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "name": "Section 142(1) Information Reply for IT Company",
-            "price": "4999",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/it-notice-it-companies/mumbai"
-          },
-          {
-            "@type": "Offer",
-            "name": "Section 143(2) or 143(3) Scrutiny Reply",
-            "price": "9999",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/it-notice-it-companies/mumbai"
-          },
-          {
-            "@type": "Offer",
-            "name": "Section 92CA TPO Representation (Simple)",
-            "price": "30000",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/it-notice-it-companies/mumbai"
-          },
-          {
-            "@type": "Offer",
-            "name": "Section 10AA SEZ Defence (SEEPZ / Mindspace)",
-            "price": "20000",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/it-notice-it-companies/mumbai"
-          }
-        ]
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -881,7 +683,210 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 }
 @media (max-width:768px) {section .content-text ul li:not(.nav-item){flex-wrap:wrap;}
 section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;max-width:100%;margin-bottom:2px;}}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>IT Notice for IT Companies Mumbai: CA Reply</title>
+    <meta name="description" content="Income tax notice for your Mumbai IT or software company on TP, SEZ, ESOP, or Sec 195? Patron's CA team files reply and defends. Starting Rs 4,999.">
+    <link rel="canonical" href="/it-notice-it-companies/mumbai">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="IT Notice for IT Companies Mumbai 2026: CA Reply | Patron Accounting">
+    <meta property="og:description" content="Income tax notice for your Mumbai IT or software company on TP, SEZ, ESOP, or Sec 195? Patron's CA team files reply and defends. Starting Rs 4,999.">
+    <meta property="og:url" content="/it-notice-it-companies/mumbai">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="IT Notice for IT Companies Mumbai 2026: CA Reply | Patron Accounting">
+    <meta name="twitter:description" content="Income tax notice for your Mumbai IT or software company on TP, SEZ, ESOP, or Sec 195? Patron's CA team files reply and defends. Starting Rs 4,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/it-notice-it-companies/mumbai#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Income Tax Notice",
+          "item": "https://www.patronaccounting.com/income-tax-notice"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "IT Notice IT Companies Mumbai",
+          "item": "https://www.patronaccounting.com/it-notice-it-companies/mumbai"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/it-notice-it-companies/mumbai#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is an income tax notice for an IT company in Mumbai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An income tax notice for a Mumbai IT or software company is any of Sections 142(1), 143(2), 143(3) or 144B faceless, 92CA TP reference, 147 or 148 reassessment, 156 demand, or 271 penalty issued by Pr CIT (TP)-1, 2, 3, or 4 Mumbai (India's largest TP infrastructure), other PCITs, Pr CIT Central-1 to Central-4, ReFAC Mumbai, or NaFAC HQ under the Pr CCIT Mumbai Region at Aayakar Bhavan M.K. Road Churchgate. Common IT-sector triggers are TP adjustments, Section 10AA SEZ disputes, ESOP perquisite TDS, Section 195 software TDS, and Section 80-IAC startup holiday."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does Mumbai have India's largest Transfer Pricing infrastructure?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mumbai is India's financial and corporate capital with the largest concentration of foreign-parented IT companies, GCCs, captive software development centres, and listed entities with international operations. This drives the highest TP case volume in India, which led the Income Tax Department to establish FOUR dedicated Pr CIT (TP) positions (TP-1, TP-2, TP-3, TP-4) plus multiple Transfer Pricing Officers at Aayakar Bhavan. The ITAT Mumbai bench has the richest TP case law for software services."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Section 10AA SEZ tax holiday still apply for SEEPZ Andheri East units?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes - Section 10AA continues for SEEPZ units that commenced operations before the sunset date (31 March 2020 for income tax holiday under new SEZ rules). Existing SEEPZ IT/ITeS units enjoy the 100-50-50 graduated deduction for 15 years. SEEPZ is India's oldest IT/ITeS SEZ with the largest concentration of legacy Section 10AA claims. Notices commonly arise on eligible export turnover computation, Form 56F certification gaps, commencement date disputes, and non-formation-by-splitting under Section 10AA(4)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the Engineering Analysis Centre Supreme Court ruling and how does it help my Mumbai IT company?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In Engineering Analysis Centre of Excellence Pvt Ltd v CIT (2021), the Supreme Court ruled that payments for off-the-shelf or shrink-wrap software purchased for internal use are NOT royalty under Section 9(1)(vi). Therefore, no Section 195 TDS is required for such foreign software purchases. This ruling is the backbone of TDS defence for Mumbai IT companies importing enterprise software from foreign vendors such as Microsoft, Oracle, Adobe, AWS, Salesforce, ServiceNow for internal operational use."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the DRP Mumbai used for IT company TP disputes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under Section 144C, where the AO proposes a variation that includes a TP adjustment (referred by TPO under Section 92CA), the company can file objections within 30 days to the DRP Mumbai. The DRP must dispose objections within 9 months and the directions bind the AO. For Mumbai IT companies with TP exposures, the DRP route is often faster and more focused than the CIT(A) route. Post DRP, appeal lies directly to ITAT Mumbai bench."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is ESOP perquisite tax handled for Mumbai listed-company employees?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under Section 17(2)(vi), ESOP perquisite equals FMV at allotment minus exercise price - taxed as salary at exercise with Section 192 TDS. For DPIIT-recognised startups such as several Mumbai Powai and BKC startups, Section 191A defers the TDS to the earliest of 5 years from end of relevant Tax Year, date of share sale by employee, or date of employee leaving the startup. For non-startup listed companies, TDS is required at exercise based on actual FMV from stock exchange data."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Patron handle Section 144B faceless assessments at Mumbai ReFAC?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Patron's Mumbai team regularly handles Section 144B faceless assessments through NaFAC and ReFAC Mumbai. We file detailed written submissions on the e-Filing portal under e-Proceedings, request video hearings where merited, prepare draft variation responses within 7-15 day windows, and represent at the faceless appeal stage. Section 144B is now the default scrutiny route for most Mumbai corporate cases including IT companies."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LegalService",
+      "@id": "https://www.patronaccounting.com/it-notice-it-companies/mumbai#service",
+      "name": "Income Tax Notice Reply and Defence for Mumbai IT and Software Companies",
+      "description": "End-to-end CA representation for income tax notices issued to Mumbai IT companies, software firms, SaaS, fintech, GCCs, BPO/KPO/LPO, and DPIIT startups. Covers Transfer Pricing (Chapter X Sections 92-92F) defence across the FOUR Pr CIT (TP)-1/2/3/4 Mumbai positions (India's largest dedicated TP infrastructure), Section 10AA SEZ deduction defence for SEEPZ Andheri East and Mindspace Airoli SEZ tenants, Section 80-IAC DPIIT startup tax holiday defence for Powai IIT-Bombay spinoffs and BKC fintech, ESOP perquisite TDS under Section 17(2)(vi) and Section 191A deferral, Section 195 foreign software TDS defence post Engineering Analysis Centre v CIT (2021 SC), DRP Mumbai (Section 144C) representation, Section 144B faceless assessment at ReFAC Mumbai, ITAT Mumbai bench appeals (busiest tribunal in India), and Bombay High Court representation. Starting at Rs 4,999.",
+      "serviceType": "IT Sector Income Tax Notice Representation",
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Mumbai",
+        "sameAs": "https://en.wikipedia.org/wiki/Mumbai",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Maharashtra",
+          "sameAs": "https://en.wikipedia.org/wiki/Maharashtra"
+        }
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Transfer Pricing under Chapter X of the Income-tax Act 1961",
+          "sameAs": "https://en.wikipedia.org/wiki/Transfer_pricing"
+        },
+        {
+          "@type": "Thing",
+          "name": "Income-tax Act 1961",
+          "sameAs": "https://en.wikipedia.org/wiki/Income_Tax_Act,_1961"
+        },
+        {
+          "@type": "Thing",
+          "name": "Special Economic Zone (India)",
+          "sameAs": "https://en.wikipedia.org/wiki/Special_Economic_Zone_(India)"
+        },
+        {
+          "@type": "Thing",
+          "name": "SEEPZ Special Economic Zone",
+          "sameAs": "https://en.wikipedia.org/wiki/SEEPZ"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "IT Sector Income Tax Notice Services in Mumbai",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "Section 142(1) Information Reply for IT Company",
+            "price": "4999",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/it-notice-it-companies/mumbai"
+          },
+          {
+            "@type": "Offer",
+            "name": "Section 143(2) or 143(3) Scrutiny Reply",
+            "price": "9999",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/it-notice-it-companies/mumbai"
+          },
+          {
+            "@type": "Offer",
+            "name": "Section 92CA TPO Representation (Simple)",
+            "price": "30000",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/it-notice-it-companies/mumbai"
+          },
+          {
+            "@type": "Offer",
+            "name": "Section 10AA SEZ Defence (SEEPZ / Mindspace)",
+            "price": "20000",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/it-notice-it-companies/mumbai"
+          }
+        ]
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1994,7 +1999,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 </script>
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

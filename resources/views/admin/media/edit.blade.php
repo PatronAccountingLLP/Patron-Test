@@ -186,9 +186,7 @@
         </div>
     </div>
 </div>
-@endsection
 
-@push('scripts')
 <script>
 function copyToClipboard(element) {
     const input = document.querySelector(element);
@@ -222,4 +220,8 @@ function deleteMedia(id) {
     }
 }
 </script>
+@endsection
+
+@push('scripts')
+
 @endpush

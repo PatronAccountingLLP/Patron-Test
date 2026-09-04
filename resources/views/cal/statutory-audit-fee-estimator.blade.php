@@ -1,197 +1,8 @@
 @extends('layouts.app')
-@section('meta')
-
-<title>Statutory Audit Fee Estimator | ICAI Indicative Range</title>
-<meta name="description" content="Statutory audit fee estimator gives an indicative audit fee range by turnover, entity type, city class and complexity, on ICAI's recommended scale. Try free!">
-<meta name="robots" content="index, follow">
-<link rel="canonical" href="https://www.patronaccounting.com/tools/statutory-audit-fee-estimator">
-
-<meta property="og:title" content="Statutory Audit Fee Estimator — Free Indicative Cost Tool">
-<meta property="og:description" content="Estimate an indicative statutory audit fee range by turnover, entity type, city class and complexity, based on ICAI's recommendatory scale of fees. Free and instant.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.patronaccounting.com/tools/statutory-audit-fee-estimator">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="1200">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-<meta property="og:site_name" content="Patron Accounting LLP">
-<meta property="og:locale" content="en_IN">
-<meta name="theme-color" content="#15365f">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Statutory Audit Fee Estimator — Free Indicative Cost Tool">
-<meta name="twitter:description" content="Estimate an indicative statutory audit fee range by turnover, entity type, city class and complexity, based on ICAI's recommendatory scale.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-
-<link rel="icon" href="https://www.patronaccounting.com/favicon.ico">
-<link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-
-@endsection
-@section('schema')
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "Statutory Audit Fee Estimator",
-  "description": "The Statutory Audit Fee Estimator gives an indicative statutory audit fee range for an Indian company or LLP based on turnover band, entity type, city class and engagement complexity, anchored to the ICAI Committee for Capacity Building of Members in Practice recommendatory minimum scale of fees. The recommended scale is a guideline only and the actual fee is a matter of agreement.",
-  "url": "https://www.patronaccounting.com/tools/statutory-audit-fee-estimator",
-  "applicationCategory": "BusinessApplication",
-  "operatingSystem": "Any",
-  "inLanguage": "en-IN",
-  "isAccessibleForFree": true,
-  "datePublished": "2026-05-16T08:00:00+05:30",
-  "dateModified": "2026-05-16T08:00:00+05:30",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "INR"
-  },
-  "reviewedBy": {
-    "@type": "Person",
-    "@id": "https://patronaccounting.com/#founder",
-    "name": "CA Sundram Gupta",
-    "jobTitle": "Founder & Chartered Accountant",
-    "url": "https://www.patronaccounting.com/contact-page",
-    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-    "hasCredential": [{
-      "@type": "EducationalOccupationalCredential",
-      "credentialCategory": "Professional Certification",
-      "name": "Chartered Accountant (CA)",
-      "recognizedBy": {
-        "@type": "Organization",
-        "name": "Institute of Chartered Accountants of India",
-        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-      }
-    }]
-  },
-  "publisher": { "@id": "https://patronaccounting.com/#organization" },
-  "provider": { "@id": "https://patronaccounting.com/#organization" }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "Statutory Audit Fee Estimator", "item": "https://www.patronaccounting.com/tools/statutory-audit-fee-estimator"}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the Statutory Audit Fee Estimator?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "It is a free tool that gives an indicative statutory audit fee range for an Indian company or LLP. You enter turnover band, entity type, city class and complexity factors, and it returns a low, base and high estimate anchored to the ICAI recommendatory minimum scale of fees. It is a planning aid, not a quotation."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How are statutory audit fees decided in India?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The ICAI Committee for Capacity Building of Members in Practice publishes a Revised Minimum Recommended Scale of Fees that varies by turnover, assignment type and city class. These figures are recommendatory only. The actual statutory audit fee is a matter of agreement between the auditor and the company, and depends on scope, complexity and time involved."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the ICAI recommended scale of fees mandatory?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. The ICAI scale of fees is explicitly recommendatory and not binding law. Members are free to charge varying rates depending on the nature and complexity of the assignment and the time involved. Firms can and do quote below the recommended scale, particularly in tenders, and there is no direct penalty for charging less."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What factors increase a statutory audit fee?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Fees rise with turnover and transaction volume, group structure and consolidation, Ind AS reporting, multiple locations or branches, inventory-heavy or regulated operations, first-year audits, weak internal controls, and the reputation of the audit firm. Big Five firms typically carry a 100 to 500 percent premium over a small or medium practitioner's base fee."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does the audit fee include GST and out-of-pocket expenses?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. The ICAI scale figures are professional fees only. GST is collected separately wherever applicable, and office time spent in travelling plus out-of-pocket expenses are chargeable in addition. The estimates produced by this tool are professional fees before GST and reimbursable expenses."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are Class A, B and C cities for audit fees?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "ICAI recommends fees separately for Class A, Class B and Class C cities. Class A cities are Delhi, Greater Mumbai, Kolkata, Chennai, Pune, Hyderabad, Bengaluru and Ahmedabad. Class B and Class C cover other smaller cities and towns, where recommended fees are progressively lower than Class A."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How much does a statutory audit cost for a small company?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For a small private limited company with low turnover, the ICAI recommendatory base for a company audit starts in the lower lakh range in Class A cities and less in smaller cities, before any complexity or firm-reputation premium. Actual fees vary widely and are agreed case by case, so use the estimate as a starting reference only."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is a statutory audit mandatory for every company?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Every company registered under the Companies Act 2013, including private limited companies and One Person Companies, must have its accounts audited each financial year regardless of turnover. LLPs require a statutory audit only if turnover exceeds 40 lakh or contribution exceeds 25 lakh. The audit fee depends on size and complexity, not on whether the audit is optional."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why do two firms quote very different audit fees?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Audit fees reflect firm reputation, audit methodology, team mix, technology and risk appetite, not just company size. A Big Five firm prices in a signalling premium of 100 to 500 percent over a small or medium practitioner, while a smaller firm may quote near or below the ICAI scale. Both can be legitimate; the difference is positioning and scope."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does this tool give a binding audit fee quote?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. The estimate is indicative and for planning only. It is anchored to the ICAI recommendatory scale, which is a guideline, not a price. A binding statutory audit fee can only be set after a scoping discussion and engagement letter. Contact a Chartered Accountant for an actual quotation tailored to your company."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does the tool store the figures I enter?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. The Statutory Audit Fee Estimator runs entirely in your browser. The turnover, entity type, city class and complexity inputs you select are never transmitted to any server or stored anywhere. Refreshing the page clears all inputs, so you can estimate an indicative fee confidentially before approaching an auditor."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the Statutory Audit Fee Estimator free?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, it is completely free with no sign-up or usage limit. Patron Accounting LLP provides it as a planning aid for directors and finance teams budgeting for statutory audit. For an actual fixed-fee statutory audit quotation tailored to your company, our Chartered Accountants work with companies across India."
-      }
-    }
-  ]
-}
-</script>
-@endsection
-
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
 <style>
 
         :root {
@@ -1170,6 +981,196 @@ a:focus-visible {
 }
 
 </style>
+@endpush
+
+@section('meta')
+
+<title>Statutory Audit Fee Estimator | ICAI Indicative Range</title>
+<meta name="description" content="Statutory audit fee estimator gives an indicative audit fee range by turnover, entity type, city class and complexity, on ICAI's recommended scale. Try free!">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/statutory-audit-fee-estimator">
+
+<meta property="og:title" content="Statutory Audit Fee Estimator — Free Indicative Cost Tool">
+<meta property="og:description" content="Estimate an indicative statutory audit fee range by turnover, entity type, city class and complexity, based on ICAI's recommendatory scale of fees. Free and instant.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/statutory-audit-fee-estimator">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+<meta property="og:site_name" content="Patron Accounting LLP">
+<meta property="og:locale" content="en_IN">
+<meta name="theme-color" content="#15365f">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Statutory Audit Fee Estimator — Free Indicative Cost Tool">
+<meta name="twitter:description" content="Estimate an indicative statutory audit fee range by turnover, entity type, city class and complexity, based on ICAI's recommendatory scale.">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+
+@endsection
+@section('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Statutory Audit Fee Estimator",
+  "description": "The Statutory Audit Fee Estimator gives an indicative statutory audit fee range for an Indian company or LLP based on turnover band, entity type, city class and engagement complexity, anchored to the ICAI Committee for Capacity Building of Members in Practice recommendatory minimum scale of fees. The recommended scale is a guideline only and the actual fee is a matter of agreement.",
+  "url": "https://www.patronaccounting.com/tools/statutory-audit-fee-estimator",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Any",
+  "inLanguage": "en-IN",
+  "isAccessibleForFree": true,
+  "datePublished": "2026-05-16T08:00:00+05:30",
+  "dateModified": "2026-05-16T08:00:00+05:30",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "INR"
+  },
+  "reviewedBy": {
+    "@type": "Person",
+    "@id": "https://patronaccounting.com/#founder",
+    "name": "CA Sundram Gupta",
+    "jobTitle": "Founder & Chartered Accountant",
+    "url": "https://www.patronaccounting.com/contact-page",
+    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+    "hasCredential": [{
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Professional Certification",
+      "name": "Chartered Accountant (CA)",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Institute of Chartered Accountants of India",
+        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+      }
+    }]
+  },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
+  "provider": { "@id": "https://patronaccounting.com/#organization" }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "Statutory Audit Fee Estimator", "item": "https://www.patronaccounting.com/tools/statutory-audit-fee-estimator"}
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the Statutory Audit Fee Estimator?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It is a free tool that gives an indicative statutory audit fee range for an Indian company or LLP. You enter turnover band, entity type, city class and complexity factors, and it returns a low, base and high estimate anchored to the ICAI recommendatory minimum scale of fees. It is a planning aid, not a quotation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How are statutory audit fees decided in India?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The ICAI Committee for Capacity Building of Members in Practice publishes a Revised Minimum Recommended Scale of Fees that varies by turnover, assignment type and city class. These figures are recommendatory only. The actual statutory audit fee is a matter of agreement between the auditor and the company, and depends on scope, complexity and time involved."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the ICAI recommended scale of fees mandatory?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The ICAI scale of fees is explicitly recommendatory and not binding law. Members are free to charge varying rates depending on the nature and complexity of the assignment and the time involved. Firms can and do quote below the recommended scale, particularly in tenders, and there is no direct penalty for charging less."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What factors increase a statutory audit fee?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fees rise with turnover and transaction volume, group structure and consolidation, Ind AS reporting, multiple locations or branches, inventory-heavy or regulated operations, first-year audits, weak internal controls, and the reputation of the audit firm. Big Five firms typically carry a 100 to 500 percent premium over a small or medium practitioner's base fee."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does the audit fee include GST and out-of-pocket expenses?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The ICAI scale figures are professional fees only. GST is collected separately wherever applicable, and office time spent in travelling plus out-of-pocket expenses are chargeable in addition. The estimates produced by this tool are professional fees before GST and reimbursable expenses."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are Class A, B and C cities for audit fees?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ICAI recommends fees separately for Class A, Class B and Class C cities. Class A cities are Delhi, Greater Mumbai, Kolkata, Chennai, Pune, Hyderabad, Bengaluru and Ahmedabad. Class B and Class C cover other smaller cities and towns, where recommended fees are progressively lower than Class A."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does a statutory audit cost for a small company?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For a small private limited company with low turnover, the ICAI recommendatory base for a company audit starts in the lower lakh range in Class A cities and less in smaller cities, before any complexity or firm-reputation premium. Actual fees vary widely and are agreed case by case, so use the estimate as a starting reference only."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is a statutory audit mandatory for every company?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Every company registered under the Companies Act 2013, including private limited companies and One Person Companies, must have its accounts audited each financial year regardless of turnover. LLPs require a statutory audit only if turnover exceeds 40 lakh or contribution exceeds 25 lakh. The audit fee depends on size and complexity, not on whether the audit is optional."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why do two firms quote very different audit fees?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Audit fees reflect firm reputation, audit methodology, team mix, technology and risk appetite, not just company size. A Big Five firm prices in a signalling premium of 100 to 500 percent over a small or medium practitioner, while a smaller firm may quote near or below the ICAI scale. Both can be legitimate; the difference is positioning and scope."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does this tool give a binding audit fee quote?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The estimate is indicative and for planning only. It is anchored to the ICAI recommendatory scale, which is a guideline, not a price. A binding statutory audit fee can only be set after a scoping discussion and engagement letter. Contact a Chartered Accountant for an actual quotation tailored to your company."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does the tool store the figures I enter?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The Statutory Audit Fee Estimator runs entirely in your browser. The turnover, entity type, city class and complexity inputs you select are never transmitted to any server or stored anywhere. Refreshing the page clears all inputs, so you can estimate an indicative fee confidentially before approaching an auditor."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the Statutory Audit Fee Estimator free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, it is completely free with no sign-up or usage limit. Patron Accounting LLP provides it as a planning aid for directors and finance teams budgeting for statutory audit. For an actual fixed-fee statutory audit quotation tailored to your company, our Chartered Accountants work with companies across India."
+      }
+    }
+  ]
+}
+</script>
+@endsection
 @section('content')
 
 <nav class="toc-nav" aria-label="Page Navigation">

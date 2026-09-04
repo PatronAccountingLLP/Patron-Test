@@ -1,7 +1,10 @@
 
 @extends('layouts.service-app')
+@push('styles')
+@include('partials.page-css', ['file' => 'css/site.css'])
+@endpush
 
-<!-- External Dependencies (loaded by master layout in production) -->
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -81,7 +84,6 @@
     </script>
 @endsection
 
-@include('partials.page-css', ['file' => 'css/site.css'])
 <style>
 /* Amount column — right-align only on tables with .table-amount class */
         .table-amount td:last-child { color: var(--text-secondary); font-size: 14px; font-weight: 500; }
@@ -839,7 +841,6 @@
 </main>
 @endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

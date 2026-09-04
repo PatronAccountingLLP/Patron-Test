@@ -1,109 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Section 112 GST Appeal to GSTAT 2026 | Patron Accounting</title>
-    <meta name="description" content="Section 112 CGST Act GSTAT appeal - 3-month window, 20% pre-deposit. Bridge to industry, bench, and city-specific GSTAT services at Patron Accounting.">
-    <link rel="canonical" href="/gst-appeal-to-gstat-section-112">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Section 112 GST Appeal to GSTAT 2026 | Patron Accounting">
-    <meta property="og:description" content="Section 112 CGST Act GSTAT appeal - 3-month window, 20% pre-deposit. Bridge to industry, bench, and city-specific GSTAT services at Patron Accounting.">
-    <meta property="og:url" content="/gst-appeal-to-gstat-section-112">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Section 112 GST Appeal to GSTAT 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Section 112 CGST Act GSTAT appeal - 3-month window, 20% pre-deposit. Bridge to industry, bench, and city-specific GSTAT services at Patron Accounting.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/gst-appeal-to-gstat-section-112/#service",
-        "name": "Section 112 GST Appeal to GSTAT in India",
-        "description": "Bridge service connecting taxpayers seeking Section 112 CGST Act 2017 second appeal services before the GST Appellate Tribunal (GSTAT) to the comprehensive Hub 04 GSTAT specialist cluster - covering Master GSTAT Appeal Filing, sub-procedural specialist spokes (Pre-Deposit Calculation under Section 112(8) with Rs 20 crore cap optimization, E-Filing Assistance for Form GST APL-05 with Bharat Kosh integration, Cross-Objection Filing under Section 112(5), Principal Bench and State Bench Representation), twelve industry-vertical spokes, and 32 location-specific spokes aligned with GSTAT bench jurisdictions - covering the 3-month Section 112(1) limitation, Section 112(6) discretionary condonation, Section 112(2) Rs 50,000 threshold, Section 112(9) automatic recovery stay, and the 30 June 2026 universal backlog deadline under Notification S.O. 4220(E).",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-appeal-to-gstat-section-112" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [
-            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
-            { "@type": "Thing", "name": "Tribunal", "sameAs": "https://en.wikipedia.org/wiki/Tribunal" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/gst-appeal-to-gstat-section-112/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
-            { "@type": "ListItem", "position": 3, "name": "Section 112 GSTAT Appeal", "item": "https://www.patronaccounting.com/gst-appeal-to-gstat-section-112" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/gst-appeal-to-gstat-section-112/#faq",
-        "datePublished": "2026-05-27T08:00:00+05:30",
-        "dateModified": "2026-06-01T08:00:00+05:30",
-        "mainEntity": [
-
-            {
-                "@type": "Question",
-                "name": "What is Section 112 of the CGST Act?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Section 112 of the Central Goods and Services Tax Act 2017 is the statutory provision governing the right to file a second appeal before the GST Appellate Tribunal (GSTAT) against an order of the First Appellate Authority under Section 107 or a Revisional Authority under Section 108. Section 112(1) prescribes a 3-month time limit from communication of the order; Section 112(8) mandates pre-deposit of 100 percent admitted tax plus 10 percent of disputed tax (cumulative 20 percent with Section 107); Section 112(9) provides automatic recovery stay on pre-deposit payment. GSTAT has been operational since 24 September 2025."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the pre-deposit under Section 112(8)?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Under Section 112(8) of the CGST Act, the pre-deposit for filing a GSTAT appeal is 100 percent of admitted tax liability plus 10 percent of the remaining disputed tax. This is in addition to the 10 percent already paid at the First Appellate Authority stage under Section 107(6), making the cumulative pre-deposit 20 percent of disputed tax. The pre-deposit is capped at Rs 20 crore per enactment (CGST and SGST separately), pursuant to Finance Act 2024 amendments. Section 112(9) provides automatic stay of recovery for the balance disputed amount upon pre-deposit payment."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the 30 June 2026 deadline for GSTAT appeals?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "The 30 June 2026 deadline is the universal filing deadline for backlog GSTAT appeals notified by Government via Notification S.O. 4220(E) dated 17 September 2025 under Section 112(1) of the CGST Act. It applies to Section 107 first appellate orders communicated before 1 April 2026, providing a one-time transitional window for taxpayers who could not file GSTAT appeals during the period when GSTAT was non-operational. For orders communicated on or after 1 April 2026, the standard 3-month limitation under Section 112(1) applies."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How do I choose the right GSTAT service engagement?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "GSTAT services at Patron Accounting are organised across the Hub 04 cluster by three dimensions - industry vertical (12 spokes covering manufacturing, IT, real estate, restaurants, healthcare, e-commerce, education, exporters, importers, startups, Advance Ruling, and Anti-Profiteering), form or stage sub-engagement (Pre-Deposit Calculation, E-Filing Assistance, Cross-Objection Filing, Principal Bench Representation, State Bench Representation), and location (32 city spokes). Start with the Master Hub at /gstat-appeal-filing for general engagement."
-                }
-            }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -717,7 +618,111 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Section 112 GST Appeal to GSTAT 2026 | Patron Accounting</title>
+    <meta name="description" content="Section 112 CGST Act GSTAT appeal - 3-month window, 20% pre-deposit. Bridge to industry, bench, and city-specific GSTAT services at Patron Accounting.">
+    <link rel="canonical" href="/gst-appeal-to-gstat-section-112">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Section 112 GST Appeal to GSTAT 2026 | Patron Accounting">
+    <meta property="og:description" content="Section 112 CGST Act GSTAT appeal - 3-month window, 20% pre-deposit. Bridge to industry, bench, and city-specific GSTAT services at Patron Accounting.">
+    <meta property="og:url" content="/gst-appeal-to-gstat-section-112">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Section 112 GST Appeal to GSTAT 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Section 112 CGST Act GSTAT appeal - 3-month window, 20% pre-deposit. Bridge to industry, bench, and city-specific GSTAT services at Patron Accounting.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/gst-appeal-to-gstat-section-112/#service",
+        "name": "Section 112 GST Appeal to GSTAT in India",
+        "description": "Bridge service connecting taxpayers seeking Section 112 CGST Act 2017 second appeal services before the GST Appellate Tribunal (GSTAT) to the comprehensive Hub 04 GSTAT specialist cluster - covering Master GSTAT Appeal Filing, sub-procedural specialist spokes (Pre-Deposit Calculation under Section 112(8) with Rs 20 crore cap optimization, E-Filing Assistance for Form GST APL-05 with Bharat Kosh integration, Cross-Objection Filing under Section 112(5), Principal Bench and State Bench Representation), twelve industry-vertical spokes, and 32 location-specific spokes aligned with GSTAT bench jurisdictions - covering the 3-month Section 112(1) limitation, Section 112(6) discretionary condonation, Section 112(2) Rs 50,000 threshold, Section 112(9) automatic recovery stay, and the 30 June 2026 universal backlog deadline under Notification S.O. 4220(E).",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-appeal-to-gstat-section-112" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [
+            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
+            { "@type": "Thing", "name": "Tribunal", "sameAs": "https://en.wikipedia.org/wiki/Tribunal" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/gst-appeal-to-gstat-section-112/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
+            { "@type": "ListItem", "position": 3, "name": "Section 112 GSTAT Appeal", "item": "https://www.patronaccounting.com/gst-appeal-to-gstat-section-112" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/gst-appeal-to-gstat-section-112/#faq",
+        "datePublished": "2026-05-27T08:00:00+05:30",
+        "dateModified": "2026-06-01T08:00:00+05:30",
+        "mainEntity": [
+
+            {
+                "@type": "Question",
+                "name": "What is Section 112 of the CGST Act?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Section 112 of the Central Goods and Services Tax Act 2017 is the statutory provision governing the right to file a second appeal before the GST Appellate Tribunal (GSTAT) against an order of the First Appellate Authority under Section 107 or a Revisional Authority under Section 108. Section 112(1) prescribes a 3-month time limit from communication of the order; Section 112(8) mandates pre-deposit of 100 percent admitted tax plus 10 percent of disputed tax (cumulative 20 percent with Section 107); Section 112(9) provides automatic recovery stay on pre-deposit payment. GSTAT has been operational since 24 September 2025."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the pre-deposit under Section 112(8)?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Under Section 112(8) of the CGST Act, the pre-deposit for filing a GSTAT appeal is 100 percent of admitted tax liability plus 10 percent of the remaining disputed tax. This is in addition to the 10 percent already paid at the First Appellate Authority stage under Section 107(6), making the cumulative pre-deposit 20 percent of disputed tax. The pre-deposit is capped at Rs 20 crore per enactment (CGST and SGST separately), pursuant to Finance Act 2024 amendments. Section 112(9) provides automatic stay of recovery for the balance disputed amount upon pre-deposit payment."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the 30 June 2026 deadline for GSTAT appeals?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The 30 June 2026 deadline is the universal filing deadline for backlog GSTAT appeals notified by Government via Notification S.O. 4220(E) dated 17 September 2025 under Section 112(1) of the CGST Act. It applies to Section 107 first appellate orders communicated before 1 April 2026, providing a one-time transitional window for taxpayers who could not file GSTAT appeals during the period when GSTAT was non-operational. For orders communicated on or after 1 April 2026, the standard 3-month limitation under Section 112(1) applies."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How do I choose the right GSTAT service engagement?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "GSTAT services at Patron Accounting are organised across the Hub 04 cluster by three dimensions - industry vertical (12 spokes covering manufacturing, IT, real estate, restaurants, healthcare, e-commerce, education, exporters, importers, startups, Advance Ruling, and Anti-Profiteering), form or stage sub-engagement (Pre-Deposit Calculation, E-Filing Assistance, Cross-Objection Filing, Principal Bench Representation, State Bench Representation), and location (32 city spokes). Start with the Master Hub at /gstat-appeal-filing for general engagement."
+                }
+            }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1586,17 +1591,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1619,8 +1617,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1657,7 +1653,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1668,4 +1663,20 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+
 

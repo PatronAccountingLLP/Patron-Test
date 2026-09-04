@@ -1,196 +1,8 @@
 @extends('layouts.app')
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
-@section('meta')
-    <title>Multi-State Payroll Calculator | PT, PF & ESI by State 2026</title>
-    <meta name="description" content="Free multi-state payroll dashboard: per-state employer cost, professional tax, PF, ESI and minimum wage compliance across 10+ Indian states. CA-built. Try now!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/multi-state-payroll-dashboard">
-    <meta property="og:title" content="Multi-State Payroll Dashboard 2026">
-    <meta property="og:description" content="Track payroll across multiple Indian states — professional tax slabs, minimum wages, employer cost, compliance flags.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/multi-state-payroll-dashboard">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Multi-State Payroll Dashboard 2026">
-    <meta name="twitter:description" content="Track multi-state payroll: PT, min wage, employer cost. Free CA tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-    <meta name="theme-color" content="#15365f">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "Multi-State Payroll Dashboard",
-      "description": "Multi-State Payroll Dashboard is a comprehensive payroll cost analysis tool for Indian companies operating across multiple states. The tool takes per-state headcount and average gross monthly salary inputs across ten major states (Maharashtra, Karnataka, Tamil Nadu, Telangana, Gujarat, Delhi, Uttar Pradesh, West Bengal, Haryana, Punjab) and computes per-state professional tax liability based on applicable slabs as of FY 2025-26, employer Provident Fund contribution at twelve percent of basic wages capped at fifteen thousand rupees or actual basic, Employee State Insurance employer share at three point two five percent for employees earning up to twenty-one thousand rupees per month, gratuity accrual at four point eight one percent under Payment of Gratuity Act 1972, and total monthly employer cost. The tool flags state-specific compliance issues including states without professional tax obligation (Delhi, Uttar Pradesh, Haryana, Rajasthan), states with gender-specific exemptions (Maharashtra women earning up to twenty-five thousand rupees exempt), states with February or March higher deduction (Maharashtra and Karnataka two hundred fifty rupees additional), states with half-yearly payment cycles (Kerala and Tamil Nadu), and minimum wage compliance against state-notified rates. The consolidated dashboard shows total employees across all states, total monthly and annual employer cost, average cost per employee, geographic cost distribution bar chart, per-state breakdown table with employees salary cost professional tax statutory burden and total monthly cost, top three cost-driver states, and compliance flags requiring attention including states where minimum wage is breached states without PTRC registration where required and states with unique compliance triggers like Maharashtra Labour Welfare Fund or Karnataka labour cess. Suitable for CFOs of multi-state operations Chief HR Officers managing distributed teams payroll managers running consolidated cost analysis and statutory auditors validating multi-state compliance.",
-      "url": "https://www.patronaccounting.com/tools/multi-state-payroll-dashboard",
-      "applicationCategory": "FinanceApplication",
-      "operatingSystem": "Any",
-      "datePublished": "2026-05-08T08:00:00+05:30",
-      "dateModified": "2026-05-08T08:00:00+05:30",
-      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
-      "author": {
-        "@type": "Person",
-        "@id": "https://patronaccounting.com/#founder",
-        "name": "CA Sundram Gupta",
-        "jobTitle": "Founder & Chartered Accountant",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Institute of Chartered Accountants of India",
-            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-          }
-        }]
-      },
-      "publisher": { "@id": "https://patronaccounting.com/#organization" },
-      "provider": { "@id": "https://patronaccounting.com/#organization" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Multi-State Payroll Dashboard", "item": "https://www.patronaccounting.com/tools/multi-state-payroll-dashboard"}
-      ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "datePublished": "2026-05-08T08:00:00+05:30",
-      "dateModified": "2026-05-08T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is professional tax and which states levy it?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Professional Tax is a state-level direct tax levied by state governments under Article 276 of the Constitution on salaries and professional income. It is currently applicable in 21 Indian states and one Union Territory including Maharashtra Karnataka Tamil Nadu Telangana Gujarat West Bengal and others. PT is not applicable in Delhi Uttar Pradesh Haryana Rajasthan and several northeastern states. The maximum annual PT any state can charge is twenty-five hundred rupees per Article 276."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the professional tax rate in Maharashtra?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Maharashtra has gender-specific Professional Tax slabs. Men earning up to seven thousand five hundred rupees per month are exempt; one hundred seventy-five rupees per month between 7501 and 10000; two hundred per month above ten thousand with three hundred in February to reach annual cap of two thousand five hundred rupees. Women earning up to twenty-five thousand per month are fully exempt. Employers pay PT to Maharashtra State Tax Department monthly."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does Karnataka professional tax work?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Karnataka revised its Professional Tax slabs effective 1 April 2025. Employees earning below twenty-five thousand rupees per month are exempt. Above twenty-five thousand rupees the deduction is two hundred rupees per month for eleven months and three hundred rupees in February reaching the annual cap of two thousand five hundred rupees. Karnataka requires PT payment by the twentieth of the succeeding month. Late payment attracts 1.25 percent monthly interest. All GST-registered entities must obtain PTEC enrollment regardless of employee count."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is professional tax applicable in Delhi or NCR?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Professional Tax is not applicable in Delhi National Capital Territory. Companies headquartered in Delhi do not deduct PT for Delhi-based employees. However Delhi NCR operations span three different state jurisdictions — Delhi Haryana (Gurgaon Faridabad) and Uttar Pradesh (Noida Greater Noida Ghaziabad). Delhi and Haryana are PT-exempt but Uttar Pradesh introduced PT in some districts. Employers must apply state-specific rules based on actual work location of each employee not the registered office address."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What if I have employees across multiple states?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Multi-state employers must obtain separate Professional Tax Registration Certificate in each PT-applicable state where employees work. Each state has its own slab structure deduction periodicity (monthly half-yearly or annual) and remittance deadlines. PT must be applied based on the work location state of each employee not the registered office. Failing to register in a state where employees work attracts late registration penalty plus penalty on all unpaid PT plus interest typically 1 to 1.25 percent per month."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is Tamil Nadu professional tax different?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Tamil Nadu Professional Tax is calculated on a half-yearly basis not monthly. Deductions are made twice a year in August (covering April-September) and January (covering October-March). The half-yearly slab is computed on six-month gross total not divided from monthly. Maximum half-yearly PT is twelve hundred fifty rupees totaling twenty-five hundred annually. Verify your payroll software handles the half-yearly slab correctly."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Are minimum wages different across states?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. State minimum wages vary significantly by state, industry, and worker skill category. As of 2026 monthly unskilled worker minimum wages range from approximately eleven thousand rupees in Punjab to nineteen thousand eight hundred forty-six rupees in Delhi. State governments revise rates twice yearly or annually based on Consumer Price Index. Multi-state employers must apply each state rate for that location and revise on each notification. Underpayment attracts ten times compensation under Section 56(1) of Code on Wages plus interest."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is Maharashtra Labour Welfare Fund?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Maharashtra Labour Welfare Fund Act 1953 requires employers with five or more employees in Maharashtra to contribute to the State Labour Welfare Fund. Contribution is twelve rupees per employee per six months by the employer plus six rupees by the employee. Payment is bi-annual by 30 June and 31 December. Similar Labour Welfare Fund schemes exist in Karnataka Tamil Nadu Gujarat Madhya Pradesh Punjab and other states with varying amounts."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does PF and ESI apply uniformly across states?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes Provident Fund under EPF Act 1952 and Employee State Insurance under ESI Act 1948 are central acts that apply uniformly across all Indian states. PF is mandatory for employees with basic wages up to fifteen thousand rupees per month with employer and employee both contributing twelve percent. ESI is mandatory for employees earning up to twenty-one thousand per month gross with employer contributing 3.25 percent and employee 0.75 percent."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is Shops and Establishments Act registration?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Shops and Establishments Act registration is a state-level requirement under each state Shops and Establishments Act. Every commercial establishment must register within thirty days of commencing operations in that state. Each state has its own Act with different working hour limits leave entitlements overtime rules and inspection provisions. Multi-state employers need separate registration in each state where they have offices. Failure to register attracts state-specific penalties typically ranging from five to twenty-five thousand rupees plus per-day continuing fine."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How can I track minimum wage revisions across states?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Track state Labour Department websites for notification updates. Most states revise minimum wages twice yearly typically on 1 April and 1 October based on CPI movement though revision schedules vary. Subscribe to state Labour Department email alerts and engage a labour-law compliance partner who tracks revisions across all relevant states. Multi-state operators commonly miss revisions resulting in retrospective compliance gaps. The Patron Accounting payroll team maintains a multi-state minimum wage tracker for client portfolios."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Should I centralize or decentralize multi-state payroll?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Modern best practice is centralized payroll with state-aware logic. Use a single payroll software (Keka GreytHR Zoho People SAP SuccessFactors) configured with state-specific rule sets for PT slabs minimum wages MLWF and S&E Act provisions. The central team manages compliance while location-specific rules apply automatically based on each employee work location. Decentralized payroll with state-specific local processors increases coordination overhead and creates audit reconciliation challenges. Centralized with state-aware logic is the standard for companies above twenty employees."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are the compliance risks of multi-state payroll?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Common multi-state payroll risks include applying registered office state PT to employees working in different states (back-payment plus interest), missing PTRC registration when first employee hired in new state (late registration penalty), using outdated minimum wage rates after state notification (10x compensation under Code on Wages), missing state-specific Labour Welfare Fund contributions (per-day fine), and inconsistent leave entitlements across states. Multi-state operators should run quarterly compliance audits and engage labour law specialists for new state expansion."
-          }
-        }
-      ]
-    }
-    </script>
-@endsection
-
 <style>
         :root {
             --primary: #15365f;
@@ -453,7 +265,195 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 }
 
 </style>
+@endpush
 
+@section('meta')
+    <title>Multi-State Payroll Calculator | PT, PF & ESI by State 2026</title>
+    <meta name="description" content="Free multi-state payroll dashboard: per-state employer cost, professional tax, PF, ESI and minimum wage compliance across 10+ Indian states. CA-built. Try now!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/multi-state-payroll-dashboard">
+    <meta property="og:title" content="Multi-State Payroll Dashboard 2026">
+    <meta property="og:description" content="Track payroll across multiple Indian states — professional tax slabs, minimum wages, employer cost, compliance flags.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/multi-state-payroll-dashboard">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Multi-State Payroll Dashboard 2026">
+    <meta name="twitter:description" content="Track multi-state payroll: PT, min wage, employer cost. Free CA tool.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+    <meta name="theme-color" content="#15365f">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Multi-State Payroll Dashboard",
+      "description": "Multi-State Payroll Dashboard is a comprehensive payroll cost analysis tool for Indian companies operating across multiple states. The tool takes per-state headcount and average gross monthly salary inputs across ten major states (Maharashtra, Karnataka, Tamil Nadu, Telangana, Gujarat, Delhi, Uttar Pradesh, West Bengal, Haryana, Punjab) and computes per-state professional tax liability based on applicable slabs as of FY 2025-26, employer Provident Fund contribution at twelve percent of basic wages capped at fifteen thousand rupees or actual basic, Employee State Insurance employer share at three point two five percent for employees earning up to twenty-one thousand rupees per month, gratuity accrual at four point eight one percent under Payment of Gratuity Act 1972, and total monthly employer cost. The tool flags state-specific compliance issues including states without professional tax obligation (Delhi, Uttar Pradesh, Haryana, Rajasthan), states with gender-specific exemptions (Maharashtra women earning up to twenty-five thousand rupees exempt), states with February or March higher deduction (Maharashtra and Karnataka two hundred fifty rupees additional), states with half-yearly payment cycles (Kerala and Tamil Nadu), and minimum wage compliance against state-notified rates. The consolidated dashboard shows total employees across all states, total monthly and annual employer cost, average cost per employee, geographic cost distribution bar chart, per-state breakdown table with employees salary cost professional tax statutory burden and total monthly cost, top three cost-driver states, and compliance flags requiring attention including states where minimum wage is breached states without PTRC registration where required and states with unique compliance triggers like Maharashtra Labour Welfare Fund or Karnataka labour cess. Suitable for CFOs of multi-state operations Chief HR Officers managing distributed teams payroll managers running consolidated cost analysis and statutory auditors validating multi-state compliance.",
+      "url": "https://www.patronaccounting.com/tools/multi-state-payroll-dashboard",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Any",
+      "datePublished": "2026-05-08T08:00:00+05:30",
+      "dateModified": "2026-05-08T08:00:00+05:30",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
+      "author": {
+        "@type": "Person",
+        "@id": "https://patronaccounting.com/#founder",
+        "name": "CA Sundram Gupta",
+        "jobTitle": "Founder & Chartered Accountant",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Institute of Chartered Accountants of India",
+            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+          }
+        }]
+      },
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": { "@id": "https://patronaccounting.com/#organization" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Multi-State Payroll Dashboard", "item": "https://www.patronaccounting.com/tools/multi-state-payroll-dashboard"}
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "datePublished": "2026-05-08T08:00:00+05:30",
+      "dateModified": "2026-05-08T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is professional tax and which states levy it?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Professional Tax is a state-level direct tax levied by state governments under Article 276 of the Constitution on salaries and professional income. It is currently applicable in 21 Indian states and one Union Territory including Maharashtra Karnataka Tamil Nadu Telangana Gujarat West Bengal and others. PT is not applicable in Delhi Uttar Pradesh Haryana Rajasthan and several northeastern states. The maximum annual PT any state can charge is twenty-five hundred rupees per Article 276."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the professional tax rate in Maharashtra?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Maharashtra has gender-specific Professional Tax slabs. Men earning up to seven thousand five hundred rupees per month are exempt; one hundred seventy-five rupees per month between 7501 and 10000; two hundred per month above ten thousand with three hundred in February to reach annual cap of two thousand five hundred rupees. Women earning up to twenty-five thousand per month are fully exempt. Employers pay PT to Maharashtra State Tax Department monthly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does Karnataka professional tax work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Karnataka revised its Professional Tax slabs effective 1 April 2025. Employees earning below twenty-five thousand rupees per month are exempt. Above twenty-five thousand rupees the deduction is two hundred rupees per month for eleven months and three hundred rupees in February reaching the annual cap of two thousand five hundred rupees. Karnataka requires PT payment by the twentieth of the succeeding month. Late payment attracts 1.25 percent monthly interest. All GST-registered entities must obtain PTEC enrollment regardless of employee count."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is professional tax applicable in Delhi or NCR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Professional Tax is not applicable in Delhi National Capital Territory. Companies headquartered in Delhi do not deduct PT for Delhi-based employees. However Delhi NCR operations span three different state jurisdictions — Delhi Haryana (Gurgaon Faridabad) and Uttar Pradesh (Noida Greater Noida Ghaziabad). Delhi and Haryana are PT-exempt but Uttar Pradesh introduced PT in some districts. Employers must apply state-specific rules based on actual work location of each employee not the registered office address."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if I have employees across multiple states?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Multi-state employers must obtain separate Professional Tax Registration Certificate in each PT-applicable state where employees work. Each state has its own slab structure deduction periodicity (monthly half-yearly or annual) and remittance deadlines. PT must be applied based on the work location state of each employee not the registered office. Failing to register in a state where employees work attracts late registration penalty plus penalty on all unpaid PT plus interest typically 1 to 1.25 percent per month."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is Tamil Nadu professional tax different?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tamil Nadu Professional Tax is calculated on a half-yearly basis not monthly. Deductions are made twice a year in August (covering April-September) and January (covering October-March). The half-yearly slab is computed on six-month gross total not divided from monthly. Maximum half-yearly PT is twelve hundred fifty rupees totaling twenty-five hundred annually. Verify your payroll software handles the half-yearly slab correctly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are minimum wages different across states?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. State minimum wages vary significantly by state, industry, and worker skill category. As of 2026 monthly unskilled worker minimum wages range from approximately eleven thousand rupees in Punjab to nineteen thousand eight hundred forty-six rupees in Delhi. State governments revise rates twice yearly or annually based on Consumer Price Index. Multi-state employers must apply each state rate for that location and revise on each notification. Underpayment attracts ten times compensation under Section 56(1) of Code on Wages plus interest."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Maharashtra Labour Welfare Fund?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Maharashtra Labour Welfare Fund Act 1953 requires employers with five or more employees in Maharashtra to contribute to the State Labour Welfare Fund. Contribution is twelve rupees per employee per six months by the employer plus six rupees by the employee. Payment is bi-annual by 30 June and 31 December. Similar Labour Welfare Fund schemes exist in Karnataka Tamil Nadu Gujarat Madhya Pradesh Punjab and other states with varying amounts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does PF and ESI apply uniformly across states?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes Provident Fund under EPF Act 1952 and Employee State Insurance under ESI Act 1948 are central acts that apply uniformly across all Indian states. PF is mandatory for employees with basic wages up to fifteen thousand rupees per month with employer and employee both contributing twelve percent. ESI is mandatory for employees earning up to twenty-one thousand per month gross with employer contributing 3.25 percent and employee 0.75 percent."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Shops and Establishments Act registration?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Shops and Establishments Act registration is a state-level requirement under each state Shops and Establishments Act. Every commercial establishment must register within thirty days of commencing operations in that state. Each state has its own Act with different working hour limits leave entitlements overtime rules and inspection provisions. Multi-state employers need separate registration in each state where they have offices. Failure to register attracts state-specific penalties typically ranging from five to twenty-five thousand rupees plus per-day continuing fine."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I track minimum wage revisions across states?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Track state Labour Department websites for notification updates. Most states revise minimum wages twice yearly typically on 1 April and 1 October based on CPI movement though revision schedules vary. Subscribe to state Labour Department email alerts and engage a labour-law compliance partner who tracks revisions across all relevant states. Multi-state operators commonly miss revisions resulting in retrospective compliance gaps. The Patron Accounting payroll team maintains a multi-state minimum wage tracker for client portfolios."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I centralize or decentralize multi-state payroll?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Modern best practice is centralized payroll with state-aware logic. Use a single payroll software (Keka GreytHR Zoho People SAP SuccessFactors) configured with state-specific rule sets for PT slabs minimum wages MLWF and S&E Act provisions. The central team manages compliance while location-specific rules apply automatically based on each employee work location. Decentralized payroll with state-specific local processors increases coordination overhead and creates audit reconciliation challenges. Centralized with state-aware logic is the standard for companies above twenty employees."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the compliance risks of multi-state payroll?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Common multi-state payroll risks include applying registered office state PT to employees working in different states (back-payment plus interest), missing PTRC registration when first employee hired in new state (late registration penalty), using outdated minimum wage rates after state notification (10x compensation under Code on Wages), missing state-specific Labour Welfare Fund contributions (per-day fine), and inconsistent leave entitlements across states. Multi-state operators should run quarterly compliance audits and engage labour law specialists for new state expansion."
+          }
+        }
+      ]
+    }
+    </script>
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Tool navigation">
     <div class="toc-nav-inner">

@@ -1,189 +1,6 @@
 @extends('layouts.service-app')
-
-@section('meta')
-
-    <title>ITR Form Selector | Which ITR Form FY 2025-26</title>
-    <meta name="description" content="ITR form selector: a 7-step wizard picks the right ITR form (ITR-1 to ITR-7) for FY 2025-26 (AY 2026-27), with clear reasoning. Free, CA-reviewed. Try now!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/itr-form-selector">
-
-    <meta property="og:title" content="ITR Form Selector — Pick the Right ITR Form FY 2025-26">
-    <meta property="og:description" content="Decision wizard for ITR-1 to ITR-7 selection for FY 2025-26 (AY 2026-27) — covers individuals, HUF, firms, companies, trusts with reasoning and alternatives.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/itr-form-selector">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="ITR Form Selector — Pick the Right ITR Form FY 2025-26">
-    <meta name="twitter:description" content="7-step wizard picks the right ITR form (1 to 7) for FY 2025-26 with reasoning and alternatives.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-
-    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-@endsection
-@section('schema')
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "ITR Form Selector",
-      "description": "ITR Form Selector helps taxpayers pick the right Income Tax Return form (ITR-1 Sahaj, ITR-2, ITR-3, ITR-4 Sugam, ITR-5, ITR-6, or ITR-7) for FY 2025-26 (AY 2026-27) through an adaptive wizard of up to 8 questions for individuals and HUFs, plus a brief reference panel for firms, companies, and trusts. Each recommendation includes reasoning under CBDT eligibility rules, common alternatives, and edge case flags for crypto income, F&O trading, foreign ESOPs, and unlisted shares where CA consultation is recommended.",
-      "url": "https://www.patronaccounting.com/tools/itr-form-selector",
-      "applicationCategory": "BusinessApplication",
-      "operatingSystem": "Any",
-      "inLanguage": "en-IN",
-      "isAccessibleForFree": true,
-      "datePublished": "2026-05-06T08:00:00+05:30",
-      "dateModified": "2026-05-08T08:00:00+05:30",
-      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
-      "reviewedBy": {
-        "@type": "Person",
-        "@id": "https://patronaccounting.com/#founder",
-        "name": "CA Sundram Gupta",
-        "jobTitle": "Founder & Chartered Accountant",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Institute of Chartered Accountants of India",
-            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-          }
-        }]
-      },
-      "publisher": { "@id": "https://patronaccounting.com/#organization" },
-      "provider": {"@id": "https://patronaccounting.com/#organization"}
-    }
-    </script>
-
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "ITR Form Selector", "item": "https://www.patronaccounting.com/tools/itr-form-selector"}
-      ]
-    }
-    </script>
-
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Which ITR form should I file for FY 2025-26?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The right ITR form depends on your taxpayer type, total income, and income sources. ITR-1 (Sahaj) is for resident individuals with salary, one or two house properties, and total income below ₹50 lakh. ITR-2 is for individuals with capital gains or foreign assets. ITR-3 is for business or professional income. ITR-4 (Sugam) is for presumptive taxation under Sections 44AD/44ADA/44AE. ITR-5 is for firms, LLPs, BOIs. ITR-6 is for companies. ITR-7 is for trusts and political parties."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can a salaried person file ITR-1 if they have capital gains?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "From AY 2026-27, ITR-1 allows reporting of long-term capital gains under Section 112A up to ₹1.25 lakh from listed equity. If your LTCG is below ₹1.25 lakh and you have no other capital gains, you can stay in ITR-1. However, if you have STCG, capital gains above ₹1.25 lakh, capital gains from property, debt mutual funds, or unlisted shares, you must file ITR-2. The expansion in AY 2026-27 helps many salaried taxpayers stay in the simpler form."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between ITR-1 and ITR-2?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "ITR-1 is for simple cases — resident individuals with salary, pension, one or two house properties, and small LTCG up to ₹1.25 lakh. Total income must be under ₹50 lakh. ITR-2 covers everything ITR-1 does plus capital gains above ₹1.25 lakh, foreign assets or income, RNOR or non-resident status, agricultural income above ₹5,000, directorship in companies, and ownership of unlisted equity shares. Choose ITR-2 whenever any ITR-1 disqualifier applies."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between ITR-3 and ITR-4?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "ITR-3 is for individuals and HUFs with income from business or profession under regular accounting — books of accounts and tax audit as required. ITR-4 (Sugam) is for those who opt for presumptive taxation under Section 44AD (small businesses), Section 44ADA (specified professionals), or Section 44AE (transport operators). ITR-4 has simpler disclosures but turnover limits — ₹3 crore for 44AD if cash receipts are below 5%, ₹75 lakh for 44ADA professionals."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can a freelancer file ITR-4 instead of ITR-3?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes if eligible. A freelancer in a specified profession (legal, medical, engineering, accountancy, technical consultancy, IT, architecture, interior design, or any notified profession) with gross receipts up to ₹75 lakh can opt for Section 44ADA presumptive taxation and file ITR-4. The deemed profit is 50% of gross receipts. If the freelancer wants to claim actual expenses or has receipts above ₹75 lakh, they must file ITR-3 with regular books of accounts."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which ITR form should I file if I have crypto or VDA income?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Crypto and Virtual Digital Asset (VDA) income is taxed under Section 115BBH at a flat 30% rate plus 4% cess. You must file ITR-2 if you have only personal crypto investments, or ITR-3 if you treat crypto as business income or have other business income alongside. Schedule VDA disclosure is mandatory in both cases. Crypto cases involve complex issues — set-off restrictions, classification disputes, foreign exchange compliance — so CA consultation is strongly recommended."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which ITR form should I file for F&O or intraday trading?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "F&O (futures and options) trading is treated as non-speculative business income and requires ITR-3, regardless of volume. Intraday equity trading is treated as speculative business income and also requires ITR-3. You cannot file ITR-2 if you have any F&O or intraday turnover, even if it is loss-making. Tax audit under Section 44AB may apply if turnover exceeds ₹10 crore (with digital transactions above 95%) or ₹2 crore otherwise."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which ITR form should a director file?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "If you are a director in any company at any time during FY 2025-26, you cannot file ITR-1. You must file ITR-2 if you have only salary plus directorship, or ITR-3 if you also have business or professional income. The same rule applies if you held unlisted equity shares at any time during the year. Schedule AL (Assets and Liabilities) disclosure becomes mandatory if total income exceeds ₹50 lakh, requiring detailed asset reporting."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which ITR form is for partnership firms and LLPs?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Partnership firms, LLPs, AOPs (Association of Persons), BOIs (Body of Individuals), and local authorities file ITR-5. Companies (private and public) file ITR-6, except those claiming exemption under Section 11. Charitable trusts, political parties, research institutions, and entities claiming exemption under Sections 11/12/13 file ITR-7. Tax audit, transfer pricing audit, and statutory due dates differ from individual filings — engage a CA for these forms."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What if I file the wrong ITR form?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Filing the wrong ITR form leads to a defective return notice under Section 139(9) of the Income Tax Act. You have 15 days from notice to rectify, otherwise the return is treated as invalid. Common errors include filing ITR-1 when you have capital gains over ₹1.25 lakh, filing ITR-2 when you have F&O income, or filing ITR-4 without meeting presumptive taxation conditions. Always cross-check eligibility before submission to avoid scrutiny and refund delays."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Did ITR-1 eligibility change for AY 2026-27?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. For AY 2026-27, CBDT expanded ITR-1 to allow income from up to two house properties (previously only one). LTCG up to ₹1.25 lakh from listed equity under Section 112A is also allowed in ITR-1, removing the earlier requirement to switch to ITR-2 for small equity gains. New disclosure requirements include granular Section 80C breakdown, HRA component-wise breakdown under Section 10(13A), and TDS section reporting for better Form 26AS reconciliation."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are the due dates for ITR forms for AY 2026-27?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "For non-audit individuals (ITR-1, ITR-2): 31 July 2026. For ITR-3 non-audit cases: 31 August 2026 (extended by Finance Act 2026). For audit cases (ITR-3 with tax audit, ITR-5, ITR-6): 31 October 2026. For transfer pricing cases: 30 November 2026. ITR-7 follows the audit deadline. Belated and revised returns under the old Income Tax Act 1961 can be filed up to 31 December 2026 for AY 2026-27. ITR-U is allowed up to 31 March 2031."
-          }
-        }
-      ]
-    }
-    </script>
-@endsection
-    <style>
+@push('styles')
+<style>
         :root {
             --primary: #15365f; --primary-light: #1f4a7a; --primary-dark: #0a2240;
             --accent: #f26522; --accent-light: #ff8347;
@@ -429,6 +246,192 @@ button, .toggle-btn, .toggle-btn.active, .faq-question, .sidebar-link, .toc-nav 
     .schedule-table tbody td, .rate-table tbody td, .recon-table tbody td { padding: 8px 10px; }
 }
     </style>
+@endpush
+
+
+@section('meta')
+
+    <title>ITR Form Selector | Which ITR Form FY 2025-26</title>
+    <meta name="description" content="ITR form selector: a 7-step wizard picks the right ITR form (ITR-1 to ITR-7) for FY 2025-26 (AY 2026-27), with clear reasoning. Free, CA-reviewed. Try now!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/itr-form-selector">
+
+    <meta property="og:title" content="ITR Form Selector — Pick the Right ITR Form FY 2025-26">
+    <meta property="og:description" content="Decision wizard for ITR-1 to ITR-7 selection for FY 2025-26 (AY 2026-27) — covers individuals, HUF, firms, companies, trusts with reasoning and alternatives.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/itr-form-selector">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ITR Form Selector — Pick the Right ITR Form FY 2025-26">
+    <meta name="twitter:description" content="7-step wizard picks the right ITR form (1 to 7) for FY 2025-26 with reasoning and alternatives.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+@endsection
+@section('schema')
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "ITR Form Selector",
+      "description": "ITR Form Selector helps taxpayers pick the right Income Tax Return form (ITR-1 Sahaj, ITR-2, ITR-3, ITR-4 Sugam, ITR-5, ITR-6, or ITR-7) for FY 2025-26 (AY 2026-27) through an adaptive wizard of up to 8 questions for individuals and HUFs, plus a brief reference panel for firms, companies, and trusts. Each recommendation includes reasoning under CBDT eligibility rules, common alternatives, and edge case flags for crypto income, F&O trading, foreign ESOPs, and unlisted shares where CA consultation is recommended.",
+      "url": "https://www.patronaccounting.com/tools/itr-form-selector",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Any",
+      "inLanguage": "en-IN",
+      "isAccessibleForFree": true,
+      "datePublished": "2026-05-06T08:00:00+05:30",
+      "dateModified": "2026-05-08T08:00:00+05:30",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
+      "reviewedBy": {
+        "@type": "Person",
+        "@id": "https://patronaccounting.com/#founder",
+        "name": "CA Sundram Gupta",
+        "jobTitle": "Founder & Chartered Accountant",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Institute of Chartered Accountants of India",
+            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+          }
+        }]
+      },
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": {"@id": "https://patronaccounting.com/#organization"}
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "ITR Form Selector", "item": "https://www.patronaccounting.com/tools/itr-form-selector"}
+      ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Which ITR form should I file for FY 2025-26?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The right ITR form depends on your taxpayer type, total income, and income sources. ITR-1 (Sahaj) is for resident individuals with salary, one or two house properties, and total income below ₹50 lakh. ITR-2 is for individuals with capital gains or foreign assets. ITR-3 is for business or professional income. ITR-4 (Sugam) is for presumptive taxation under Sections 44AD/44ADA/44AE. ITR-5 is for firms, LLPs, BOIs. ITR-6 is for companies. ITR-7 is for trusts and political parties."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a salaried person file ITR-1 if they have capital gains?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "From AY 2026-27, ITR-1 allows reporting of long-term capital gains under Section 112A up to ₹1.25 lakh from listed equity. If your LTCG is below ₹1.25 lakh and you have no other capital gains, you can stay in ITR-1. However, if you have STCG, capital gains above ₹1.25 lakh, capital gains from property, debt mutual funds, or unlisted shares, you must file ITR-2. The expansion in AY 2026-27 helps many salaried taxpayers stay in the simpler form."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between ITR-1 and ITR-2?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ITR-1 is for simple cases — resident individuals with salary, pension, one or two house properties, and small LTCG up to ₹1.25 lakh. Total income must be under ₹50 lakh. ITR-2 covers everything ITR-1 does plus capital gains above ₹1.25 lakh, foreign assets or income, RNOR or non-resident status, agricultural income above ₹5,000, directorship in companies, and ownership of unlisted equity shares. Choose ITR-2 whenever any ITR-1 disqualifier applies."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between ITR-3 and ITR-4?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ITR-3 is for individuals and HUFs with income from business or profession under regular accounting — books of accounts and tax audit as required. ITR-4 (Sugam) is for those who opt for presumptive taxation under Section 44AD (small businesses), Section 44ADA (specified professionals), or Section 44AE (transport operators). ITR-4 has simpler disclosures but turnover limits — ₹3 crore for 44AD if cash receipts are below 5%, ₹75 lakh for 44ADA professionals."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a freelancer file ITR-4 instead of ITR-3?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes if eligible. A freelancer in a specified profession (legal, medical, engineering, accountancy, technical consultancy, IT, architecture, interior design, or any notified profession) with gross receipts up to ₹75 lakh can opt for Section 44ADA presumptive taxation and file ITR-4. The deemed profit is 50% of gross receipts. If the freelancer wants to claim actual expenses or has receipts above ₹75 lakh, they must file ITR-3 with regular books of accounts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which ITR form should I file if I have crypto or VDA income?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Crypto and Virtual Digital Asset (VDA) income is taxed under Section 115BBH at a flat 30% rate plus 4% cess. You must file ITR-2 if you have only personal crypto investments, or ITR-3 if you treat crypto as business income or have other business income alongside. Schedule VDA disclosure is mandatory in both cases. Crypto cases involve complex issues — set-off restrictions, classification disputes, foreign exchange compliance — so CA consultation is strongly recommended."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which ITR form should I file for F&O or intraday trading?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "F&O (futures and options) trading is treated as non-speculative business income and requires ITR-3, regardless of volume. Intraday equity trading is treated as speculative business income and also requires ITR-3. You cannot file ITR-2 if you have any F&O or intraday turnover, even if it is loss-making. Tax audit under Section 44AB may apply if turnover exceeds ₹10 crore (with digital transactions above 95%) or ₹2 crore otherwise."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which ITR form should a director file?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If you are a director in any company at any time during FY 2025-26, you cannot file ITR-1. You must file ITR-2 if you have only salary plus directorship, or ITR-3 if you also have business or professional income. The same rule applies if you held unlisted equity shares at any time during the year. Schedule AL (Assets and Liabilities) disclosure becomes mandatory if total income exceeds ₹50 lakh, requiring detailed asset reporting."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which ITR form is for partnership firms and LLPs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Partnership firms, LLPs, AOPs (Association of Persons), BOIs (Body of Individuals), and local authorities file ITR-5. Companies (private and public) file ITR-6, except those claiming exemption under Section 11. Charitable trusts, political parties, research institutions, and entities claiming exemption under Sections 11/12/13 file ITR-7. Tax audit, transfer pricing audit, and statutory due dates differ from individual filings — engage a CA for these forms."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if I file the wrong ITR form?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Filing the wrong ITR form leads to a defective return notice under Section 139(9) of the Income Tax Act. You have 15 days from notice to rectify, otherwise the return is treated as invalid. Common errors include filing ITR-1 when you have capital gains over ₹1.25 lakh, filing ITR-2 when you have F&O income, or filing ITR-4 without meeting presumptive taxation conditions. Always cross-check eligibility before submission to avoid scrutiny and refund delays."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Did ITR-1 eligibility change for AY 2026-27?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. For AY 2026-27, CBDT expanded ITR-1 to allow income from up to two house properties (previously only one). LTCG up to ₹1.25 lakh from listed equity under Section 112A is also allowed in ITR-1, removing the earlier requirement to switch to ITR-2 for small equity gains. New disclosure requirements include granular Section 80C breakdown, HRA component-wise breakdown under Section 10(13A), and TDS section reporting for better Form 26AS reconciliation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the due dates for ITR forms for AY 2026-27?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For non-audit individuals (ITR-1, ITR-2): 31 July 2026. For ITR-3 non-audit cases: 31 August 2026 (extended by Finance Act 2026). For audit cases (ITR-3 with tax audit, ITR-5, ITR-6): 31 October 2026. For transfer pricing cases: 30 November 2026. ITR-7 follows the audit deadline. Belated and revised returns under the old Income Tax Act 1961 can be filed up to 31 December 2026 for AY 2026-27. ITR-U is allowed up to 31 March 2031."
+          }
+        }
+      ]
+    }
+    </script>
+@endsection
 @section('content')
 
 <nav class="toc-nav" aria-label="Page Navigation">

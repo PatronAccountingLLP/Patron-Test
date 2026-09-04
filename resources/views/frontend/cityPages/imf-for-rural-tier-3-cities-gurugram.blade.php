@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,187 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>IMF Registration for Rural & Tier-3 Cities</title>
-    <meta name="description" content="Set up an Insurance Marketing Firm in a Tier-3 city or aspirational district with net worth as low as INR 5 lakh. Eligibility, docs, cost & process explained.">
-    <link rel="canonical" href="/imf-for-rural-tier-3-cities/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="IMF Registration for Rural & Tier-3 Cities in Gurugram">
-    <meta property="og:description" content="Set up an Insurance Marketing Firm in a Tier-3 city or aspirational district with net worth as low as INR 5 lakh. Eligibility, documents, cost & process explained.">
-    <meta property="og:url" content="/imf-for-rural-tier-3-cities/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="IMF Registration for Rural & Tier-3 Cities in Gurugram">
-    <meta name="twitter:description" content="Set up an Insurance Marketing Firm in a Tier-3 city or aspirational district with net worth as low as INR 5 lakh. Eligibility, documents, cost & process explained.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "IMF Registration for Rural & Tier-3 Cities in Gurugram",
-      "description": "Insurance Marketing Firm (IMF) registration for rural and Tier-3 setups, coordinated from Gurugram - IRDAI licensing, MCA incorporation, and aspirational-district net-worth guidance from INR 24,999 (Exl GST and Govt. Charges).",
-      "url": "https://www.patronaccounting.com/imf-for-rural-tier-3-cities/gurugram",
-      "serviceType": "Insurance Marketing Firm Registration",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "price": "24999",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/imf-for-rural-tier-3-cities/gurugram",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "minPrice": "24999",
-          "priceCurrency": "INR"
-        }
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "IMF Services",
-          "item": "https://www.patronaccounting.com/imf-services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "IMF for Rural & Tier-3 Cities in Gurugram",
-          "item": "https://www.patronaccounting.com/imf-for-rural-tier-3-cities/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "datePublished": "2026-06-30T08:00:00+05:30",
-      "dateModified": "2026-06-30T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "How much does it cost to set up an IMF in a Tier-3 city or aspirational district?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patron's professional fee starts from INR 24,999 (Exl GST and Govt. Charges). On top of that you pay the IRDAI application fee of INR 5,000 (paid from an SBI account in the IMF's name) plus incorporation and CA net-worth certificate costs. The big saving for rural setups is capital: a single aspirational district needs only INR 5 lakh net worth instead of INR 10 lakh."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the minimum net worth for an IMF in an aspirational district?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "INR 5 lakh if you opt for a single district that is an aspirational district (per the NITI Aayog list). For all other cases it is INR 10 lakh. The net worth must be maintained at all times and certified by a Chartered Accountant annually, within three months of the financial year close."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How many districts can a rural IMF cover and do they have to include an aspirational one?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "An IMF can register for a maximum of 3 districts within a single state. If you choose more than one district, at least one of them must be an aspirational district as published by NITI Aayog. This rule is what enables the lower INR 5 lakh net-worth route for genuinely rural setups."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What documents do I need to register an IMF in a small town?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Form A, ROC incorporation certificate (with 'Insurance Marketing Firm' in the name), MoA/AoA and PAN, SBI bank account, CA net-worth certificate, Principal Officer and ISP exam pass plus qualification certificates, ISP address proof within the registered state, a 3-year business plan with org chart and infrastructure photos, insurer consent letters, and Fit and Proper declarations."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Who is eligible to run an IMF in a rural area, and who can be the Principal Officer?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The entity must be a Company, LLP or Co-operative Society with 'Insurance Marketing Firm' in its name. The Principal Officer must be an Associate or Fellow of the Insurance Institute of India, the Institute of Actuaries or CII London, or a postgraduate in insurance or risk, or a graduate with 5 years' insurance (or 10 years' financial services) experience - plus 50 hours of IRDAI training and the IMF exam. At least one trained ISP (minimum Class 12 plus ISP exam) is needed per office, operating within the registered state."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can you help me register an IMF in cities like Indore, Lucknow, Nagpur, Coimbatore or Jaipur?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Patron Accounting handles end-to-end IMF setup across rural and Tier-3 locations India-wide - including Indore, Lucknow, Nagpur, Coimbatore, Jaipur and surrounding aspirational districts. We confirm whether your target district qualifies for the INR 5 lakh concession, incorporate the entity, prepare the IRDAI filing and coordinate PO and ISP training and exams."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does it take to get an IMF licence?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Typically around 7 to 10 weeks end to end, depending on entity incorporation, PO and ISP training and exam scheduling, and IRDAI processing on the imf.irda.gov.in portal. Patron pre-checks your documents and net-worth position to avoid the queries that cause most delays."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is the IMF registration still valid for only 3 years?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Since 5 February 2026, under the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act 2025, IMF registration is perpetual - the earlier 3-year renewal cycle has been discontinued. It remains conditional on paying the annual fee and meeting IRDAI's ongoing conduct, reporting and net-worth requirements."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "LocalBusiness",
-      "name": "Patron Accounting LLP",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/",
-      "telephone": "+919459456700",
-      "email": "sales@patronaccounting.com",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Gurugram",
-        "addressRegion": "Haryana",
-        "addressCountry": "IN"
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -947,7 +765,196 @@
         .stat-desc { display: block; font-size: 11px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; font-weight: 400; }
         .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>IMF Registration for Rural & Tier-3 Cities</title>
+    <meta name="description" content="Set up an Insurance Marketing Firm in a Tier-3 city or aspirational district with net worth as low as INR 5 lakh. Eligibility, docs, cost & process explained.">
+    <link rel="canonical" href="/imf-for-rural-tier-3-cities/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="IMF Registration for Rural & Tier-3 Cities in Gurugram">
+    <meta property="og:description" content="Set up an Insurance Marketing Firm in a Tier-3 city or aspirational district with net worth as low as INR 5 lakh. Eligibility, documents, cost & process explained.">
+    <meta property="og:url" content="/imf-for-rural-tier-3-cities/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="IMF Registration for Rural & Tier-3 Cities in Gurugram">
+    <meta name="twitter:description" content="Set up an Insurance Marketing Firm in a Tier-3 city or aspirational district with net worth as low as INR 5 lakh. Eligibility, documents, cost & process explained.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "IMF Registration for Rural & Tier-3 Cities in Gurugram",
+      "description": "Insurance Marketing Firm (IMF) registration for rural and Tier-3 setups, coordinated from Gurugram - IRDAI licensing, MCA incorporation, and aspirational-district net-worth guidance from INR 24,999 (Exl GST and Govt. Charges).",
+      "url": "https://www.patronaccounting.com/imf-for-rural-tier-3-cities/gurugram",
+      "serviceType": "Insurance Marketing Firm Registration",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "price": "24999",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.patronaccounting.com/imf-for-rural-tier-3-cities/gurugram",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": "24999",
+          "priceCurrency": "INR"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "IMF Services",
+          "item": "https://www.patronaccounting.com/imf-services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "IMF for Rural & Tier-3 Cities in Gurugram",
+          "item": "https://www.patronaccounting.com/imf-for-rural-tier-3-cities/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "datePublished": "2026-06-30T08:00:00+05:30",
+      "dateModified": "2026-06-30T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much does it cost to set up an IMF in a Tier-3 city or aspirational district?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patron's professional fee starts from INR 24,999 (Exl GST and Govt. Charges). On top of that you pay the IRDAI application fee of INR 5,000 (paid from an SBI account in the IMF's name) plus incorporation and CA net-worth certificate costs. The big saving for rural setups is capital: a single aspirational district needs only INR 5 lakh net worth instead of INR 10 lakh."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the minimum net worth for an IMF in an aspirational district?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "INR 5 lakh if you opt for a single district that is an aspirational district (per the NITI Aayog list). For all other cases it is INR 10 lakh. The net worth must be maintained at all times and certified by a Chartered Accountant annually, within three months of the financial year close."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many districts can a rural IMF cover and do they have to include an aspirational one?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An IMF can register for a maximum of 3 districts within a single state. If you choose more than one district, at least one of them must be an aspirational district as published by NITI Aayog. This rule is what enables the lower INR 5 lakh net-worth route for genuinely rural setups."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What documents do I need to register an IMF in a small town?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Form A, ROC incorporation certificate (with 'Insurance Marketing Firm' in the name), MoA/AoA and PAN, SBI bank account, CA net-worth certificate, Principal Officer and ISP exam pass plus qualification certificates, ISP address proof within the registered state, a 3-year business plan with org chart and infrastructure photos, insurer consent letters, and Fit and Proper declarations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who is eligible to run an IMF in a rural area, and who can be the Principal Officer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The entity must be a Company, LLP or Co-operative Society with 'Insurance Marketing Firm' in its name. The Principal Officer must be an Associate or Fellow of the Insurance Institute of India, the Institute of Actuaries or CII London, or a postgraduate in insurance or risk, or a graduate with 5 years' insurance (or 10 years' financial services) experience - plus 50 hours of IRDAI training and the IMF exam. At least one trained ISP (minimum Class 12 plus ISP exam) is needed per office, operating within the registered state."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you help me register an IMF in cities like Indore, Lucknow, Nagpur, Coimbatore or Jaipur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Patron Accounting handles end-to-end IMF setup across rural and Tier-3 locations India-wide - including Indore, Lucknow, Nagpur, Coimbatore, Jaipur and surrounding aspirational districts. We confirm whether your target district qualifies for the INR 5 lakh concession, incorporate the entity, prepare the IRDAI filing and coordinate PO and ISP training and exams."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to get an IMF licence?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Typically around 7 to 10 weeks end to end, depending on entity incorporation, PO and ISP training and exam scheduling, and IRDAI processing on the imf.irda.gov.in portal. Patron pre-checks your documents and net-worth position to avoid the queries that cause most delays."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the IMF registration still valid for only 3 years?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Since 5 February 2026, under the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act 2025, IMF registration is perpetual - the earlier 3-year renewal cycle has been discontinued. It remains conditional on paying the annual fee and meeting IRDAI's ongoing conduct, reporting and net-worth requirements."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "name": "Patron Accounting LLP",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/",
+      "telephone": "+919459456700",
+      "email": "sales@patronaccounting.com",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Gurugram",
+        "addressRegion": "Haryana",
+        "addressCountry": "IN"
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1812,7 +1819,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

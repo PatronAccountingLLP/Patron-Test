@@ -1,189 +1,5 @@
 @extends('layouts.app')
-
-@section('meta')
-<title>Rule 11UA FMV Calculator | Unquoted Share NAV Method</title>
-<meta name="description" content="Rule 11UA FMV calculator: fair market value of unquoted equity shares by the NAV method, (A+B+C+D−L) × PV/PE, for Section 56(2)(x) and 50CA. Free CA tool!">
-<meta name="robots" content="index, follow">
-<meta name="theme-color" content="#15365f">
-<link rel="canonical" href="https://www.patronaccounting.com/tools/fmv-rule-11ua-calculator">
-
-<meta property="og:title" content="FMV Calculator Rule 11UA — Unquoted Share NAV Method">
-<meta property="og:description" content="Compute the fair market value of unquoted equity shares by the Rule 11UA NAV method — (A+B+C+D−L) × PV/PE — for Section 56(2)(x) and Section 50CA. Free &amp; instant.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.patronaccounting.com/tools/fmv-rule-11ua-calculator">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="1200">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-<meta property="og:site_name" content="Patron Accounting">
-<meta property="og:locale" content="en_IN">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="FMV Calculator Rule 11UA — Unquoted Share NAV Method">
-<meta name="twitter:description" content="Compute FMV of unquoted equity shares by the Rule 11UA NAV method — (A+B+C+D−L) × PV/PE — for Section 56(2)(x) &amp; 50CA. Free.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-
-<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
-<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
-@endsection
-@section('schema')
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "FMV Calculator (Rule 11UA)",
-  "description": "FMV Calculator under Rule 11UA computes the fair market value of unquoted equity shares using the Net Asset Value method prescribed in Rule 11UA(1)(c)(b) of the Income-tax Rules — FMV = (A + B + C + D − L) × PV/PE — taking the adjusted book value of assets, the fair value of jewellery and artistic work, shares and securities, and immovable property, less liabilities, and apportioning to per-share value for Section 56(2)(x) and Section 50CA purposes.",
-  "url": "https://www.patronaccounting.com/tools/fmv-rule-11ua-calculator",
-  "applicationCategory": "BusinessApplication",
-  "inLanguage": "en-IN",
-  "isAccessibleForFree": true,
-  "operatingSystem": "Any",
-  "datePublished": "2026-06-05T08:00:00+05:30",
-  "dateModified": "2026-06-05T08:00:00+05:30",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "INR"
-  },
-  "reviewedBy": {
-    "@type": "Person",
-    "@id": "https://patronaccounting.com/#founder",
-    "name": "CA Sundram Gupta",
-    "jobTitle": "Founder & Chartered Accountant",
-    "url": "https://www.patronaccounting.com/contact-page",
-    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-    "hasCredential": [{
-      "@type": "EducationalOccupationalCredential",
-      "credentialCategory": "Professional Certification",
-      "name": "Chartered Accountant (CA)",
-      "recognizedBy": {
-        "@type": "Organization",
-        "name": "Institute of Chartered Accountants of India",
-        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-      }
-    }]
-  },
-  "publisher": { "@id": "https://patronaccounting.com/#organization" },
-  "provider": {
-    "@id": "https://patronaccounting.com/#organization"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "FMV Calculator (Rule 11UA)", "item": "https://www.patronaccounting.com/tools/fmv-rule-11ua-calculator"}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is Rule 11UA?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Rule 11UA of the Income-tax Rules, 1962 prescribes how to compute the fair market value of unquoted equity shares for income-tax purposes. The Net Asset Value method in Rule 11UA(1)(c)(b) uses the formula FMV = (A + B + C + D − L) × PV/PE, where the asset components are adjusted to fair values and liabilities deducted, then apportioned per share. The rule underpins valuation for Section 56(2)(x) and Section 50CA."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the Rule 11UA FMV formula?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The NAV-method formula is FMV = (A + B + C + D − L) × PV/PE. A is the book value of assets other than jewellery, art, shares/securities and immovable property, reduced by income tax paid and deferred items. B is the fair value of jewellery and artistic work. C is the fair value of shares and securities. D is the stamp-duty value of immovable property. L is liabilities. PV is the paid-up value of the shares valued and PE the total paid-up equity capital."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What do A, B, C, D, L, PV and PE mean in Rule 11UA?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A is the adjusted book value of general assets (excluding the specified assets), reduced by advance income tax and deferred tax assets. B is the fair value of jewellery and artistic work per a valuation report. C is the fair value of shares and securities held. D is the stamp-duty value of immovable property. L is the liabilities, excluding paid-up capital, dividend reserves, provision for tax and contingent liabilities. PV is the paid-up value of the block of shares being valued, and PE is the total paid-up equity share capital."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "When does Rule 11UA apply after angel tax abolition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Angel tax under Section 56(2)(viib) was abolished from FY 2025-26 by the Finance Act 2024, so share issues at a premium no longer attract that charge regardless of DPIIT status. Rule 11UA still applies to Section 50CA, which deems the FMV as sale consideration on transfer of unquoted shares below FMV, and to Section 56(2)(x), which taxes a recipient who receives shares for inadequate consideration. The NAV formula remains the common basis."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the difference between the NAV and DCF methods?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The NAV method under Rule 11UA(1)(c)(b) values shares from the balance sheet using the (A+B+C+D−L) × PV/PE formula and needs no merchant-banker report. The DCF method under Rule 11UA(2) values shares on projected cash flows and requires a merchant-banker report. DCF was mainly used for share issuances under the now-abolished angel tax; for share transfers under Section 50CA and 56(2)(x), the NAV method is the typical route."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do I need a merchant banker for the NAV method?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. The NAV method under Rule 11UA(1)(c)(b) is a formula-driven computation from the company's balance sheet and does not require a merchant-banker report. A merchant-banker report is mandatory only for the DCF method under Rule 11UA(2). That said, a Chartered Accountant should verify the asset adjustments — especially the fair values of property, securities and jewellery — before the figure is relied on for a transaction or filing."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the valuation date under Rule 11UA?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The fair market value is determined as on the valuation date, which is the date of the transaction — for example the date of transfer for Section 50CA or the date of receipt for Section 56(2)(x). The asset values used should reflect that date rather than the balance-sheet date, which can require adjusting the latest audited figures to the valuation date. Using the correct date is a common point of dispute, so it should be documented carefully."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How is the per-share FMV calculated?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "First compute the net asset base (A + B + C + D − L). Then multiply by PV/PE, where PV is the paid-up value of the shares being valued and PE is the total paid-up equity capital. For a per-share value, divide the net asset base by the total number of paid-up equity shares. This calculator shows both the net asset base and the resulting value per share so you can see how the apportionment works."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is Section 50CA and how does it use Rule 11UA?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Section 50CA provides that when unquoted shares are transferred for less than their fair market value, the FMV is deemed to be the full value of consideration for computing capital gains. Rule 11UAA specifies that this FMV is determined under the same Rule 11UA formula, taking the date of transfer as the valuation date. So a seller transferring unquoted shares below FMV is taxed as if they received the FMV, making the Rule 11UA figure important."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does this calculator replace a professional valuation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. This tool applies the NAV formula to the figures you enter, which is useful for a quick estimate and for sense-checking a transaction. A reliable Rule 11UA valuation needs correct asset adjustments — fair values of property and securities, exclusion of the right liabilities, and the correct valuation date. A Chartered Accountant or registered valuer should prepare or review the valuation before it is relied on for tax or a deal."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the FMV Rule 11UA Calculator free?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, the Patron Accounting FMV Rule 11UA Calculator is completely free with no signup required. All calculations run in your browser and nothing is stored on our servers. It computes the net asset base, total FMV and per-share fair market value of unquoted equity shares using the Rule 11UA NAV formula, so you can sense-check Section 56(2)(x) and Section 50CA positions before consulting a professional."
-      }
-    }
-  ]
-}
-</script>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-@endsection
+@push('styles')
 <style>
         :root {
             --primary: #15365f;
@@ -693,6 +509,193 @@ a:focus-visible {
 
 
         </style>
+@endpush
+
+
+@section('meta')
+<title>Rule 11UA FMV Calculator | Unquoted Share NAV Method</title>
+<meta name="description" content="Rule 11UA FMV calculator: fair market value of unquoted equity shares by the NAV method, (A+B+C+D−L) × PV/PE, for Section 56(2)(x) and 50CA. Free CA tool!">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#15365f">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/fmv-rule-11ua-calculator">
+
+<meta property="og:title" content="FMV Calculator Rule 11UA — Unquoted Share NAV Method">
+<meta property="og:description" content="Compute the fair market value of unquoted equity shares by the Rule 11UA NAV method — (A+B+C+D−L) × PV/PE — for Section 56(2)(x) and Section 50CA. Free &amp; instant.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/fmv-rule-11ua-calculator">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+<meta property="og:site_name" content="Patron Accounting">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="FMV Calculator Rule 11UA — Unquoted Share NAV Method">
+<meta name="twitter:description" content="Compute FMV of unquoted equity shares by the Rule 11UA NAV method — (A+B+C+D−L) × PV/PE — for Section 56(2)(x) &amp; 50CA. Free.">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
+@endsection
+@section('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "FMV Calculator (Rule 11UA)",
+  "description": "FMV Calculator under Rule 11UA computes the fair market value of unquoted equity shares using the Net Asset Value method prescribed in Rule 11UA(1)(c)(b) of the Income-tax Rules — FMV = (A + B + C + D − L) × PV/PE — taking the adjusted book value of assets, the fair value of jewellery and artistic work, shares and securities, and immovable property, less liabilities, and apportioning to per-share value for Section 56(2)(x) and Section 50CA purposes.",
+  "url": "https://www.patronaccounting.com/tools/fmv-rule-11ua-calculator",
+  "applicationCategory": "BusinessApplication",
+  "inLanguage": "en-IN",
+  "isAccessibleForFree": true,
+  "operatingSystem": "Any",
+  "datePublished": "2026-06-05T08:00:00+05:30",
+  "dateModified": "2026-06-05T08:00:00+05:30",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "INR"
+  },
+  "reviewedBy": {
+    "@type": "Person",
+    "@id": "https://patronaccounting.com/#founder",
+    "name": "CA Sundram Gupta",
+    "jobTitle": "Founder & Chartered Accountant",
+    "url": "https://www.patronaccounting.com/contact-page",
+    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+    "hasCredential": [{
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Professional Certification",
+      "name": "Chartered Accountant (CA)",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Institute of Chartered Accountants of India",
+        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+      }
+    }]
+  },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
+  "provider": {
+    "@id": "https://patronaccounting.com/#organization"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "FMV Calculator (Rule 11UA)", "item": "https://www.patronaccounting.com/tools/fmv-rule-11ua-calculator"}
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Rule 11UA?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Rule 11UA of the Income-tax Rules, 1962 prescribes how to compute the fair market value of unquoted equity shares for income-tax purposes. The Net Asset Value method in Rule 11UA(1)(c)(b) uses the formula FMV = (A + B + C + D − L) × PV/PE, where the asset components are adjusted to fair values and liabilities deducted, then apportioned per share. The rule underpins valuation for Section 56(2)(x) and Section 50CA."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the Rule 11UA FMV formula?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The NAV-method formula is FMV = (A + B + C + D − L) × PV/PE. A is the book value of assets other than jewellery, art, shares/securities and immovable property, reduced by income tax paid and deferred items. B is the fair value of jewellery and artistic work. C is the fair value of shares and securities. D is the stamp-duty value of immovable property. L is liabilities. PV is the paid-up value of the shares valued and PE the total paid-up equity capital."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What do A, B, C, D, L, PV and PE mean in Rule 11UA?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A is the adjusted book value of general assets (excluding the specified assets), reduced by advance income tax and deferred tax assets. B is the fair value of jewellery and artistic work per a valuation report. C is the fair value of shares and securities held. D is the stamp-duty value of immovable property. L is the liabilities, excluding paid-up capital, dividend reserves, provision for tax and contingent liabilities. PV is the paid-up value of the block of shares being valued, and PE is the total paid-up equity share capital."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When does Rule 11UA apply after angel tax abolition?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Angel tax under Section 56(2)(viib) was abolished from FY 2025-26 by the Finance Act 2024, so share issues at a premium no longer attract that charge regardless of DPIIT status. Rule 11UA still applies to Section 50CA, which deems the FMV as sale consideration on transfer of unquoted shares below FMV, and to Section 56(2)(x), which taxes a recipient who receives shares for inadequate consideration. The NAV formula remains the common basis."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between the NAV and DCF methods?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The NAV method under Rule 11UA(1)(c)(b) values shares from the balance sheet using the (A+B+C+D−L) × PV/PE formula and needs no merchant-banker report. The DCF method under Rule 11UA(2) values shares on projected cash flows and requires a merchant-banker report. DCF was mainly used for share issuances under the now-abolished angel tax; for share transfers under Section 50CA and 56(2)(x), the NAV method is the typical route."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need a merchant banker for the NAV method?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The NAV method under Rule 11UA(1)(c)(b) is a formula-driven computation from the company's balance sheet and does not require a merchant-banker report. A merchant-banker report is mandatory only for the DCF method under Rule 11UA(2). That said, a Chartered Accountant should verify the asset adjustments — especially the fair values of property, securities and jewellery — before the figure is relied on for a transaction or filing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the valuation date under Rule 11UA?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The fair market value is determined as on the valuation date, which is the date of the transaction — for example the date of transfer for Section 50CA or the date of receipt for Section 56(2)(x). The asset values used should reflect that date rather than the balance-sheet date, which can require adjusting the latest audited figures to the valuation date. Using the correct date is a common point of dispute, so it should be documented carefully."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is the per-share FMV calculated?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "First compute the net asset base (A + B + C + D − L). Then multiply by PV/PE, where PV is the paid-up value of the shares being valued and PE is the total paid-up equity capital. For a per-share value, divide the net asset base by the total number of paid-up equity shares. This calculator shows both the net asset base and the resulting value per share so you can see how the apportionment works."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is Section 50CA and how does it use Rule 11UA?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Section 50CA provides that when unquoted shares are transferred for less than their fair market value, the FMV is deemed to be the full value of consideration for computing capital gains. Rule 11UAA specifies that this FMV is determined under the same Rule 11UA formula, taking the date of transfer as the valuation date. So a seller transferring unquoted shares below FMV is taxed as if they received the FMV, making the Rule 11UA figure important."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does this calculator replace a professional valuation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. This tool applies the NAV formula to the figures you enter, which is useful for a quick estimate and for sense-checking a transaction. A reliable Rule 11UA valuation needs correct asset adjustments — fair values of property and securities, exclusion of the right liabilities, and the correct valuation date. A Chartered Accountant or registered valuer should prepare or review the valuation before it is relied on for tax or a deal."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the FMV Rule 11UA Calculator free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the Patron Accounting FMV Rule 11UA Calculator is completely free with no signup required. All calculations run in your browser and nothing is stored on our servers. It computes the net asset base, total FMV and per-share fair market value of unquoted equity shares using the Rule 11UA NAV formula, so you can sense-check Section 56(2)(x) and Section 50CA positions before consulting a professional."
+      }
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation">
     <div class="toc-nav-inner">

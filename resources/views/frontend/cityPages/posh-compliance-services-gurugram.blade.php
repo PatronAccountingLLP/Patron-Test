@@ -1,161 +1,12 @@
 
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>POSH Compliance Gurugram - ICC Formation & Training</title>
-    <meta name="description" content="POSH compliance in Gurugram. ICC formation, policy, training, annual report. 10+ employees mandatory. Supreme Court 2026 updates. Call +91 945 945 6700.">
-    <link rel="canonical" href="/posh-compliance-services/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="POSH Compliance Gurugram - ICC Formation & Training">
-    <meta property="og:description" content="POSH compliance in Gurugram. ICC formation, policy, training, annual report. 10+ employees mandatory. Supreme Court 2026 updates. Call +91 945 945 6700.">
-    <meta property="og:url" content="/posh-compliance-services/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="POSH Compliance Gurugram - ICC Formation & Training">
-    <meta name="twitter:description" content="POSH compliance in Gurugram. ICC formation, policy, training, annual report. 10+ employees mandatory. Supreme Court 2026 updates. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "POSH Compliance Gurugram - ICC Formation & Training",
-      "description": "POSH compliance in Gurugram. ICC formation, policy, training, annual report. 10+ employees mandatory. Supreme Court 2026 updates. Call +91 945 945 6700.",
-      "url": "https://www.patronaccounting.com/posh-compliance-services/gurugram",
-      "serviceType": "POSH Compliance Gurugram - ICC Formation & Training",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/posh-compliance-services/gurugram",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "minPrice": "5000",
-          "maxPrice": "10000",
-          "priceCurrency": "INR"
-        }
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "POSH Compliance Services - ICC Formation, Policy & Training",
-          "item": "https://www.patronaccounting.com/posh-compliance-services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "POSH Compliance Gurugram - ICC Formation & Training",
-          "item": "https://www.patronaccounting.com/posh-compliance-services/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Who must comply with the POSH Act in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Every workplace with 10 or more employees must comply - this includes all types: permanent, temporary, contract, intern, and freelancer. IT companies, MNC offices, factories, startups, educational institutions, hospitals, hotels, and even co-working spaces where tenant companies have 10+ employees. The ICC must be constituted at every office or branch that has 10 or more employees."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does POSH compliance cost in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "ICC constitution + POSH policy: Rs 15,000-25,000. Employee training workshop: Rs 8,000-15,000 per session (up to 50 employees). ICC member training: Rs 10,000-20,000. Annual compliance (report + review): Rs 5,000-12,000. Complete annual package: Rs 25,000-45,000. No government fees involved. Call +91 945 945 6700 for a detailed quote."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Who should be on the Internal Complaints Committee?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. File Annual Report: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is annual reporting needed even with zero complaints?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. A nil report must still be filed to the Gurugram District Officer every year - reporting zero complaints received, zero resolved, zero pending. Companies Act companies must also include POSH compliance disclosure in the Board's Report. Non-filing is a compliance gap that will be flagged in the Supreme Court-ordered district surveys."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does POSH cover remote work and digital communications?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. The Delhi High Court has confirmed that WhatsApp messages, emails, video calls, and social media interactions arising from work relationships fall under POSH jurisdiction. POSH policies must explicitly cover remote, hybrid, and digital workplace scenarios. This is especially relevant for Gurugram IT companies with hybrid work models."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are the penalties for POSH non-compliance?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "First offense: up to Rs 50,000 fine. Repeat violations: higher fines plus potential cancellation of business license or registration. The Supreme Court's 2025 directive ordered district-wise ICC surveys - non-compliant workplaces will be identified. Reputational damage from non-compliance can be severe, especially for companies undergoing investor due diligence or client audits."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What changed in 2025-2026 for POSH compliance?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The Supreme Court in Aureliano Fernandes v. State of Goa (August 2025) directed all states to conduct district-wise surveys of ICC constitution in workplaces, with data uploaded on SHe-Box portal. Digital workplace is explicitly covered. Cross-organization complaints are allowed. Board's Report POSH disclosure is being enforced more strictly. Active enforcement is increasing across Gurugram."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -679,7 +530,161 @@ section ul li:not(.nav-item) { font-size: 14px; }
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'Join Community'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>POSH Compliance Gurugram - ICC Formation & Training</title>
+    <meta name="description" content="POSH compliance in Gurugram. ICC formation, policy, training, annual report. 10+ employees mandatory. Supreme Court 2026 updates. Call +91 945 945 6700.">
+    <link rel="canonical" href="/posh-compliance-services/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="POSH Compliance Gurugram - ICC Formation & Training">
+    <meta property="og:description" content="POSH compliance in Gurugram. ICC formation, policy, training, annual report. 10+ employees mandatory. Supreme Court 2026 updates. Call +91 945 945 6700.">
+    <meta property="og:url" content="/posh-compliance-services/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="POSH Compliance Gurugram - ICC Formation & Training">
+    <meta name="twitter:description" content="POSH compliance in Gurugram. ICC formation, policy, training, annual report. 10+ employees mandatory. Supreme Court 2026 updates. Call +91 945 945 6700.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "POSH Compliance Gurugram - ICC Formation & Training",
+      "description": "POSH compliance in Gurugram. ICC formation, policy, training, annual report. 10+ employees mandatory. Supreme Court 2026 updates. Call +91 945 945 6700.",
+      "url": "https://www.patronaccounting.com/posh-compliance-services/gurugram",
+      "serviceType": "POSH Compliance Gurugram - ICC Formation & Training",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.patronaccounting.com/posh-compliance-services/gurugram",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": "5000",
+          "maxPrice": "10000",
+          "priceCurrency": "INR"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "POSH Compliance Services - ICC Formation, Policy & Training",
+          "item": "https://www.patronaccounting.com/posh-compliance-services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "POSH Compliance Gurugram - ICC Formation & Training",
+          "item": "https://www.patronaccounting.com/posh-compliance-services/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Who must comply with the POSH Act in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Every workplace with 10 or more employees must comply - this includes all types: permanent, temporary, contract, intern, and freelancer. IT companies, MNC offices, factories, startups, educational institutions, hospitals, hotels, and even co-working spaces where tenant companies have 10+ employees. The ICC must be constituted at every office or branch that has 10 or more employees."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does POSH compliance cost in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ICC constitution + POSH policy: Rs 15,000-25,000. Employee training workshop: Rs 8,000-15,000 per session (up to 50 employees). ICC member training: Rs 10,000-20,000. Annual compliance (report + review): Rs 5,000-12,000. Complete annual package: Rs 25,000-45,000. No government fees involved. Call +91 945 945 6700 for a detailed quote."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who should be on the Internal Complaints Committee?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. File Annual Report: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is annual reporting needed even with zero complaints?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. A nil report must still be filed to the Gurugram District Officer every year - reporting zero complaints received, zero resolved, zero pending. Companies Act companies must also include POSH compliance disclosure in the Board's Report. Non-filing is a compliance gap that will be flagged in the Supreme Court-ordered district surveys."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does POSH cover remote work and digital communications?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The Delhi High Court has confirmed that WhatsApp messages, emails, video calls, and social media interactions arising from work relationships fall under POSH jurisdiction. POSH policies must explicitly cover remote, hybrid, and digital workplace scenarios. This is especially relevant for Gurugram IT companies with hybrid work models."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the penalties for POSH non-compliance?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "First offense: up to Rs 50,000 fine. Repeat violations: higher fines plus potential cancellation of business license or registration. The Supreme Court's 2025 directive ordered district-wise ICC surveys - non-compliant workplaces will be identified. Reputational damage from non-compliance can be severe, especially for companies undergoing investor due diligence or client audits."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What changed in 2025-2026 for POSH compliance?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Supreme Court in Aureliano Fernandes v. State of Goa (August 2025) directed all states to conduct district-wise surveys of ICC constitution in workplaces, with data uploaded on SHe-Box portal. Digital workplace is explicitly covered. Cross-organization complaints are allowed. Board's Report POSH disclosure is being enforced more strictly. Active enforcement is increasing across Gurugram."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1606,7 +1611,6 @@ var tocWrapper=document.getElementById('tocWrapper');document.getElementById('to
 
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

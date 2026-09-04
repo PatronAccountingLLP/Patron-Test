@@ -1,146 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>GSTR-5A Filing in 2026: OIDAR Return | Patron Accounting</title>
-    <meta name="description" content="GSTR-5A is the monthly OIDAR return for foreign digital service providers under Section 14 IGST Act. Starting at Rs 4,999/mo. Due 20th every month.">
-    <link rel="canonical" href="/gstr-5a-filing">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="GSTR-5A Filing in 2026: OIDAR Return | Patron Accounting">
-    <meta property="og:description" content="GSTR-5A is the monthly OIDAR return for foreign digital service providers under Section 14 IGST Act. Starting at Rs 4,999/mo. Due 20th every month.">
-    <meta property="og:url" content="/gstr-5a-filing">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="GSTR-5A Filing in 2026: OIDAR Return | Patron Accounting">
-    <meta name="twitter:description" content="GSTR-5A is the monthly OIDAR return for foreign digital service providers under Section 14 IGST Act. Starting at Rs 4,999/mo. Due 20th every month.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/gstr-5a-filing/#service",
-        "name": "GSTR-5A Filing for Foreign OIDAR Providers in India",
-        "description": "GSTR-5A filing service for foreign OIDAR providers supplying digital services to Indian recipients under Section 14 of the IGST Act 2017 and Rule 64 of the CGST Rules. Monthly return preparation, Electronic Cash Ledger funding, B2C and B2B reporting, amendments, and authorised representative support starting from INR 4,999 per month.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gstr-5a-filing" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [
-            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
-            { "@type": "Thing", "name": "OIDAR (Online Information and Database Access or Retrieval)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" }
-        ],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "GSTR-5A Filing Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "Standard Monthly GSTR-5A Filing",
-                    "priceCurrency": "INR",
-                    "price": "4999",
-                    "description": "Up to 50 invoices, B2C reporting, nil return handling, and ARN delivery"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/gstr-5a-filing/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
-            { "@type": "ListItem", "position": 3, "name": "GSTR-5A Filing", "item": "https://www.patronaccounting.com/gstr-5a-filing" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/gstr-5a-filing/#faq",
-        "datePublished": "2026-05-27T08:00:00+05:30",
-        "dateModified": "2026-06-01T08:00:00+05:30",
-        "mainEntity": [
-
-            {
-                "@type": "Question",
-                "name": "What is GSTR-5A and who must file it?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "GSTR-5A is the monthly GST return prescribed under Rule 64 of the CGST Rules 2017 for foreign OIDAR providers. Every person located outside India who supplies Online Information and Database Access or Retrieval services to a recipient in India must file this return. It applies whether the Indian recipient is registered or not, with B2C in Table 5 and B2B in Table 5B."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "When is the GSTR-5A due date for a monthly tax period?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "GSTR-5A is due on the 20th day of the calendar month following the tax period under Rule 64 CGST Rules. For example, the April 2026 return is due by 20 May 2026. The commissioner may extend the date through a specific notification, but the default statutory deadline is the 20th and the portal counts late fees from the 21st onwards."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the late fee for missing the GSTR-5A deadline?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "The late fee is Rs 200 per day for a return with taxable supplies and Rs 100 per day for a nil return. This continues until the return is filed. In addition, unpaid IGST attracts 18 percent interest per annum under Section 50 of the CGST Act 2017. The portal will not accept the next return until the previous one is filed."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can a foreign OIDAR provider claim input tax credit through GSTR-5A?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "No. Input tax credit is not available to a foreign OIDAR provider filing GSTR-5A. The provider is supplying from outside India, so there is no domestic input supply chain to claim ITC against. The entire IGST liability must be discharged in cash through the Electronic Cash Ledger before filing the return."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Is a nil GSTR-5A return mandatory if no supplies were made in a month?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. A nil GSTR-5A return is mandatory under Rule 64 CGST Rules even when the foreign OIDAR provider had zero supplies to Indian recipients during the tax period. Skipping a nil return triggers a Rs 100 per day late fee and prevents filing of the next period return. The 3-year filing bar introduced in July 2025 applies to missed returns."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the difference between GSTR-5 and GSTR-5A?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "GSTR-5 is filed by non-resident taxable persons with temporary business operations in India and they may claim input tax credit. GSTR-5A is filed by foreign OIDAR providers under Section 14 of the IGST Act for digital services delivered to Indian recipients, with no ITC available. The two forms cover different taxpayer categories and cannot substitute each other."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How does Patron Accounting handle GSTR-5A filing for a foreign company without a presence in India?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Patron Accounting acts as the authorised representative under Section 14(2) of the IGST Act when the foreign provider has no physical presence in India. We hold the GSTIN access, fund the Electronic Cash Ledger through your remittance, file each monthly GSTR-5A by the 20th, and respond to any portal notices. The foreign principal signs an authorisation once and our team takes the monthly cycle off their plate."
-                }
-            }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -754,7 +618,148 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>GSTR-5A Filing in 2026: OIDAR Return | Patron Accounting</title>
+    <meta name="description" content="GSTR-5A is the monthly OIDAR return for foreign digital service providers under Section 14 IGST Act. Starting at Rs 4,999/mo. Due 20th every month.">
+    <link rel="canonical" href="/gstr-5a-filing">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="GSTR-5A Filing in 2026: OIDAR Return | Patron Accounting">
+    <meta property="og:description" content="GSTR-5A is the monthly OIDAR return for foreign digital service providers under Section 14 IGST Act. Starting at Rs 4,999/mo. Due 20th every month.">
+    <meta property="og:url" content="/gstr-5a-filing">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GSTR-5A Filing in 2026: OIDAR Return | Patron Accounting">
+    <meta name="twitter:description" content="GSTR-5A is the monthly OIDAR return for foreign digital service providers under Section 14 IGST Act. Starting at Rs 4,999/mo. Due 20th every month.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/gstr-5a-filing/#service",
+        "name": "GSTR-5A Filing for Foreign OIDAR Providers in India",
+        "description": "GSTR-5A filing service for foreign OIDAR providers supplying digital services to Indian recipients under Section 14 of the IGST Act 2017 and Rule 64 of the CGST Rules. Monthly return preparation, Electronic Cash Ledger funding, B2C and B2B reporting, amendments, and authorised representative support starting from INR 4,999 per month.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gstr-5a-filing" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [
+            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
+            { "@type": "Thing", "name": "OIDAR (Online Information and Database Access or Retrieval)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" }
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "GSTR-5A Filing Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "Standard Monthly GSTR-5A Filing",
+                    "priceCurrency": "INR",
+                    "price": "4999",
+                    "description": "Up to 50 invoices, B2C reporting, nil return handling, and ARN delivery"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/gstr-5a-filing/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
+            { "@type": "ListItem", "position": 3, "name": "GSTR-5A Filing", "item": "https://www.patronaccounting.com/gstr-5a-filing" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/gstr-5a-filing/#faq",
+        "datePublished": "2026-05-27T08:00:00+05:30",
+        "dateModified": "2026-06-01T08:00:00+05:30",
+        "mainEntity": [
+
+            {
+                "@type": "Question",
+                "name": "What is GSTR-5A and who must file it?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "GSTR-5A is the monthly GST return prescribed under Rule 64 of the CGST Rules 2017 for foreign OIDAR providers. Every person located outside India who supplies Online Information and Database Access or Retrieval services to a recipient in India must file this return. It applies whether the Indian recipient is registered or not, with B2C in Table 5 and B2B in Table 5B."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "When is the GSTR-5A due date for a monthly tax period?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "GSTR-5A is due on the 20th day of the calendar month following the tax period under Rule 64 CGST Rules. For example, the April 2026 return is due by 20 May 2026. The commissioner may extend the date through a specific notification, but the default statutory deadline is the 20th and the portal counts late fees from the 21st onwards."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the late fee for missing the GSTR-5A deadline?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The late fee is Rs 200 per day for a return with taxable supplies and Rs 100 per day for a nil return. This continues until the return is filed. In addition, unpaid IGST attracts 18 percent interest per annum under Section 50 of the CGST Act 2017. The portal will not accept the next return until the previous one is filed."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can a foreign OIDAR provider claim input tax credit through GSTR-5A?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No. Input tax credit is not available to a foreign OIDAR provider filing GSTR-5A. The provider is supplying from outside India, so there is no domestic input supply chain to claim ITC against. The entire IGST liability must be discharged in cash through the Electronic Cash Ledger before filing the return."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is a nil GSTR-5A return mandatory if no supplies were made in a month?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. A nil GSTR-5A return is mandatory under Rule 64 CGST Rules even when the foreign OIDAR provider had zero supplies to Indian recipients during the tax period. Skipping a nil return triggers a Rs 100 per day late fee and prevents filing of the next period return. The 3-year filing bar introduced in July 2025 applies to missed returns."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the difference between GSTR-5 and GSTR-5A?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "GSTR-5 is filed by non-resident taxable persons with temporary business operations in India and they may claim input tax credit. GSTR-5A is filed by foreign OIDAR providers under Section 14 of the IGST Act for digital services delivered to Indian recipients, with no ITC available. The two forms cover different taxpayer categories and cannot substitute each other."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How does Patron Accounting handle GSTR-5A filing for a foreign company without a presence in India?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Patron Accounting acts as the authorised representative under Section 14(2) of the IGST Act when the foreign provider has no physical presence in India. We hold the GSTIN access, fund the Electronic Cash Ledger through your remittance, file each monthly GSTR-5A by the 20th, and respond to any portal notices. The foreign principal signs an authorisation once and our team takes the monthly cycle off their plate."
+                }
+            }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1661,17 +1666,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1694,8 +1692,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1732,7 +1728,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1743,4 +1738,20 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+
 

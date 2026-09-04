@@ -1,161 +1,12 @@
 
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Trademark Assignment Gurugram - TM-P, Deed & Stamp Duty</title>
-    <meta name="description" content="Trademark assignment in Gurugram. Transfer brand ownership. Form TM-P. With or without goodwill. Assignment deed. Rs 9,000. Call +91 945 945 6700.">
-    <link rel="canonical" href="/trademark-assignment/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Trademark Assignment Gurugram - TM-P, Deed & Stamp Duty">
-    <meta property="og:description" content="Trademark assignment in Gurugram. Transfer brand ownership. Form TM-P. With or without goodwill. Assignment deed. Rs 9,000. Call +91 945 945 6700.">
-    <meta property="og:url" content="/trademark-assignment/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Trademark Assignment Gurugram - TM-P, Deed & Stamp Duty">
-    <meta name="twitter:description" content="Trademark assignment in Gurugram. Transfer brand ownership. Form TM-P. With or without goodwill. Assignment deed. Rs 9,000. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "Trademark Assignment in Gurugram | Brand Transfer",
-      "description": "Trademark assignment in Gurugram. Transfer brand ownership. Form TM-P. With or without goodwill. Assignment deed. Rs 9,000. Call +91 945 945 6700.",
-      "url": "https://www.patronaccounting.com/trademark-assignment/gurugram",
-      "serviceType": "Trademark Assignment in Gurugram | Brand Transfer",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/trademark-assignment/gurugram",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "minPrice": "8000",
-          "maxPrice": "9000",
-          "priceCurrency": "INR"
-        }
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Trademark Assignment: Process and Fee",
-          "item": "https://www.patronaccounting.com/trademark-assignment"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Trademark Assignment in Gurugram | Brand Transfer",
-          "item": "https://www.patronaccounting.com/trademark-assignment/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is trademark assignment?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Trademark assignment is the legal transfer of ownership of a trademark from one party (assignor) to another (assignee) under Sections 37-45 of the Trade Marks Act 1999. Both registered (Section 38) and unregistered (Section 39) trademarks can be assigned. The assignment can be with or without the goodwill of the business, and can be complete (all rights) or partial (specific goods/services)."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does trademark assignment cost?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Government fee: Rs 9,000 per mark per class (e-filing Form TM-P). Stamp duty per Haryana rates (state-specific). Professional fee: Rs 8,000 to Rs 20,000 covering assignment deed drafting, stamping, notarization, Form TM-P filing, and Registry coordination. Multi-mark portfolios: per-mark fee applies. Call +91 945 945 6700 for a detailed quote."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "When must Form TM-P be filed after assignment?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. Updated Certificate: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between assignment with and without goodwill?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "With goodwill: the brand's reputation transfers with the mark. The assignee can use the mark for the assignor's original product line AND any other products. Full brand value is transferred. This is the standard in M&A. Without goodwill: the mark transfers but the assignee CANNOT use it for the assignor's original product line. The assignee must build separate reputation for different products."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can unregistered trademarks be assigned?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Section 39 of the Trade Marks Act allows assignment of unregistered trademarks with or without goodwill. However, enforcement of an unregistered mark is weaker than a registered mark. The assignee should consider filing a fresh trademark registration application to strengthen their rights."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between trademark assignment and licensing?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Assignment transfers ownership permanently - the assignor no longer owns the mark. The assignee becomes the new proprietor. Used in M&A, brand sales, and corporate restructuring. Licensing grants temporary permission to use the mark - the licensor retains ownership. Used in franchising, distribution, and merchandising. Using the wrong instrument creates legal complications."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens if the assignment is not recorded with the Registry?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The Trademark Registry continues to show the original owner as proprietor. The assignee faces difficulty enforcing the trademark - infringers can challenge the assignee's standing since the Registry does not reflect their ownership. In M&A transactions, the acquirer's IP portfolio appears incomplete. Always record via Form TM-P within the 6-month deadline. Quick Answers Assignment aur licensing mein fark? Assignment = ownership transfer (permanent, owner badal jaata hai). Licensing = use ki permission (temporary, owner wahi rehta hai). M&A mein assignment chahiye. Franchise mein licensing. Goodwill ke saath ya bina? Goodwill ke saath: buyer same products ke liye brand use kar sakta hai + koi bhi products. Bina goodwill: buyer original products ke liye use NAHI kar sakta. M&A mein usually goodwill ke saath. TM-P kab file karna hai? Deed execution ke 6 mahine ke andar. Extension 12 mahine tak mil sakta hai. 12 mahine ke baad Registry refuse kar sakti hai. Jaldi file karo."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -679,7 +530,161 @@ section ul li:not(.nav-item) { font-size: 14px; }
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'Join Community'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Trademark Assignment Gurugram - TM-P, Deed & Stamp Duty</title>
+    <meta name="description" content="Trademark assignment in Gurugram. Transfer brand ownership. Form TM-P. With or without goodwill. Assignment deed. Rs 9,000. Call +91 945 945 6700.">
+    <link rel="canonical" href="/trademark-assignment/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Trademark Assignment Gurugram - TM-P, Deed & Stamp Duty">
+    <meta property="og:description" content="Trademark assignment in Gurugram. Transfer brand ownership. Form TM-P. With or without goodwill. Assignment deed. Rs 9,000. Call +91 945 945 6700.">
+    <meta property="og:url" content="/trademark-assignment/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Trademark Assignment Gurugram - TM-P, Deed & Stamp Duty">
+    <meta name="twitter:description" content="Trademark assignment in Gurugram. Transfer brand ownership. Form TM-P. With or without goodwill. Assignment deed. Rs 9,000. Call +91 945 945 6700.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "Trademark Assignment in Gurugram | Brand Transfer",
+      "description": "Trademark assignment in Gurugram. Transfer brand ownership. Form TM-P. With or without goodwill. Assignment deed. Rs 9,000. Call +91 945 945 6700.",
+      "url": "https://www.patronaccounting.com/trademark-assignment/gurugram",
+      "serviceType": "Trademark Assignment in Gurugram | Brand Transfer",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.patronaccounting.com/trademark-assignment/gurugram",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": "8000",
+          "maxPrice": "9000",
+          "priceCurrency": "INR"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Trademark Assignment: Process and Fee",
+          "item": "https://www.patronaccounting.com/trademark-assignment"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Trademark Assignment in Gurugram | Brand Transfer",
+          "item": "https://www.patronaccounting.com/trademark-assignment/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is trademark assignment?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Trademark assignment is the legal transfer of ownership of a trademark from one party (assignor) to another (assignee) under Sections 37-45 of the Trade Marks Act 1999. Both registered (Section 38) and unregistered (Section 39) trademarks can be assigned. The assignment can be with or without the goodwill of the business, and can be complete (all rights) or partial (specific goods/services)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does trademark assignment cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Government fee: Rs 9,000 per mark per class (e-filing Form TM-P). Stamp duty per Haryana rates (state-specific). Professional fee: Rs 8,000 to Rs 20,000 covering assignment deed drafting, stamping, notarization, Form TM-P filing, and Registry coordination. Multi-mark portfolios: per-mark fee applies. Call +91 945 945 6700 for a detailed quote."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When must Form TM-P be filed after assignment?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. Updated Certificate: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between assignment with and without goodwill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "With goodwill: the brand's reputation transfers with the mark. The assignee can use the mark for the assignor's original product line AND any other products. Full brand value is transferred. This is the standard in M&A. Without goodwill: the mark transfers but the assignee CANNOT use it for the assignor's original product line. The assignee must build separate reputation for different products."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can unregistered trademarks be assigned?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Section 39 of the Trade Marks Act allows assignment of unregistered trademarks with or without goodwill. However, enforcement of an unregistered mark is weaker than a registered mark. The assignee should consider filing a fresh trademark registration application to strengthen their rights."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between trademark assignment and licensing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Assignment transfers ownership permanently - the assignor no longer owns the mark. The assignee becomes the new proprietor. Used in M&A, brand sales, and corporate restructuring. Licensing grants temporary permission to use the mark - the licensor retains ownership. Used in franchising, distribution, and merchandising. Using the wrong instrument creates legal complications."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if the assignment is not recorded with the Registry?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Trademark Registry continues to show the original owner as proprietor. The assignee faces difficulty enforcing the trademark - infringers can challenge the assignee's standing since the Registry does not reflect their ownership. In M&A transactions, the acquirer's IP portfolio appears incomplete. Always record via Form TM-P within the 6-month deadline. Quick Answers Assignment aur licensing mein fark? Assignment = ownership transfer (permanent, owner badal jaata hai). Licensing = use ki permission (temporary, owner wahi rehta hai). M&A mein assignment chahiye. Franchise mein licensing. Goodwill ke saath ya bina? Goodwill ke saath: buyer same products ke liye brand use kar sakta hai + koi bhi products. Bina goodwill: buyer original products ke liye use NAHI kar sakta. M&A mein usually goodwill ke saath. TM-P kab file karna hai? Deed execution ke 6 mahine ke andar. Extension 12 mahine tak mil sakta hai. 12 mahine ke baad Registry refuse kar sakti hai. Jaldi file karo."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1603,7 +1608,6 @@ var tocWrapper=document.getElementById('tocWrapper');document.getElementById('to
 
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

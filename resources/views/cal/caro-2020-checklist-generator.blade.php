@@ -1,193 +1,8 @@
 @extends('layouts.app')
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
-@section('meta')
-    <title>CARO 2020 Checklist Generator | 21-Clause Audit Report</title>
-    <meta name="description" content="CARO 2020 checklist generator: instant applicability plus the clause-wise auditor reporting checklist for Pvt Ltd, Public & Foreign Cos. Free CA tool. Try now!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/caro-2020-checklist-generator">
-    <meta property="og:title" content="CARO 2020 Clause-wise Checklist Generator — FY 2025-26">
-    <meta property="og:description" content="Check CARO 2020 applicability for your company & generate the 21-clause auditor reporting checklist instantly. Standalone & consolidated covered.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/caro-2020-checklist-generator">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="CARO 2020 Clause-wise Checklist Generator — FY 2025-26">
-    <meta name="twitter:description" content="Instant CARO 2020 applicability + 21-clause auditor reporting checklist. Pvt Ltd, Public, Foreign Cos. Free CA-reviewed tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "CARO 2020 Clause-wise Checklist Generator",
-      "description": "CARO 2020 Clause-wise Checklist Generator is a decision-tree tool that determines whether the Companies (Auditor's Report) Order, 2020 applies to a company under Section 143(11) of the Companies Act, 2013, and generates the 21-clause auditor reporting checklist with statutory references, documents required and conditional clauses (Nidhi, NBFC/CIC, CSR, IPO/FPO, Consolidated FS). The tool evaluates entity type (Private Limited, Public Limited, OPC, Section 8, Banking, Insurance, Foreign Company, LLP), Small Company test under Section 2(85), Private Limited specific exemption thresholds (paid-up capital plus reserves and surplus ₹1 crore, total borrowings ₹1 crore, total revenue ₹10 crore) and consolidated financial statement carve-out for Clause (xxi).",
-      "url": "https://www.patronaccounting.com/tools/caro-2020-checklist-generator",
-      "applicationCategory": "UtilityApplication",
-      "operatingSystem": "Any",
-      "datePublished": "2026-05-07T08:00:00+05:30",
-      "dateModified": "2026-05-07T08:00:00+05:30",
-      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
-      "author": {
-        "@type": "Person",
-        "@id": "https://patronaccounting.com/#founder",
-        "name": "CA Sundram Gupta",
-        "jobTitle": "Founder & Chartered Accountant",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Institute of Chartered Accountants of India",
-            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-          }
-        }]
-      },
-      "publisher": { "@id": "https://patronaccounting.com/#organization" },
-      "provider": {"@id": "https://patronaccounting.com/#organization"}
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "CARO 2020 Checklist Generator", "item": "https://www.patronaccounting.com/tools/caro-2020-checklist-generator"}
-      ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is CARO 2020 and which Act notifies it?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "CARO 2020 is the Companies (Auditor's Report) Order, 2020, notified by the Ministry of Corporate Affairs vide S.O. 849(E) dated 25 February 2020 under Section 143(11) of the Companies Act, 2013. It supersedes CARO 2016 and is effective for statutory audits of financial years commencing on or after 1 April 2021. The Order requires the statutory auditor to report on 21 specified matters with 50 sub-clauses in the audit report."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which companies are exempt from CARO 2020?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "CARO 2020 does not apply to a banking company, an insurance company, a Section 8 company, a One Person Company, a Small Company under Section 2(85), and a Private Limited Company that meets all three thresholds: paid-up capital plus reserves and surplus up to ₹1 crore on balance sheet date, total borrowings up to ₹1 crore from banks or financial institutions any time during the financial year, and total revenue up to ₹10 crore as per Schedule III."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does CARO 2020 apply to LLPs?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. CARO 2020 is issued under Section 143(11) of the Companies Act, 2013 and applies only to companies registered under that Act, including foreign companies under Section 2(42). Limited Liability Partnerships are governed by the LLP Act, 2008 and are outside the scope of CARO. Partnership firms, sole proprietorships, HUFs and trusts are also outside CARO 2020 since they are not companies."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is a Small Company under the Companies Act 2013?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Under Section 2(85) of the Companies Act, 2013 read with the Companies (Specification of Definitions Details) Amendment Rules, 2022, a Small Company is a private company (other than a holding or subsidiary of a public company, a Section 8 company or a body corporate notified under Section 462) with paid-up share capital not exceeding ₹4 crore and turnover not exceeding ₹40 crore as per the latest profit and loss account."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How many clauses are there in CARO 2020?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "CARO 2020 contains 21 clauses with 50 sub-clauses, compared to 16 clauses in CARO 2016. Seven new clauses were inserted, several existing clauses were redrafted and the clause on managerial remuneration was removed since it is now covered separately in the audit report. The new reporting topics include intangible assets, benami property, undisclosed income surrendered to the Income Tax Department, internal audit, cash losses, auditor resignation, going concern and consolidated CARO."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "From which financial year is CARO 2020 effective?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "CARO 2020 was originally to apply from FY 2019-20. It was deferred to FY 2020-21 by MCA order dated 24 March 2020 and further deferred to FY 2021-22 by order dated 17 December 2020 due to COVID-19 disruption. Therefore, CARO 2020 applies to all statutory audit reports for financial years commencing on or after 1 April 2021, including FY 2025-26 audits being signed in 2026."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does CARO 2020 apply to consolidated financial statements?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "CARO 2020 does not apply to the auditor's report on consolidated financial statements except for Clause 3(xxi). Under Clause (xxi), the parent auditor must report any qualifications or adverse remarks made by component auditors in their respective standalone CARO reports, along with the names of those companies and the specific paragraph numbers of the CARO report containing such remarks."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is CARO 2020 applicable to foreign companies in India?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. CARO 2020 applies to foreign companies as defined under Section 2(42) of the Companies Act, 2013, namely a company or body corporate incorporated outside India that has a place of business in India and conducts any business activity in India. The Order does not provide any size-based exemption for foreign companies, so the auditor of an Indian branch or project office of a foreign company must comply with all 21 clauses to the extent applicable."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are the new clauses introduced in CARO 2020?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "CARO 2020 introduced reporting on intangible asset records, benami property proceedings, working capital limits over ₹5 crore from banks reconciled with quarterly returns, undisclosed income surrendered in income-tax search or survey, willful defaulter status, internal audit system adequacy, cash losses in current and previous year, statutory auditor resignation, financial ratios for going concern assessment, CSR unspent transfer compliance and consolidated CARO reporting under Clause (xxi)."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which clauses are conditional in CARO 2020?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Several CARO 2020 clauses are conditional. Clause (vi) on cost records applies only if the Central Government has prescribed maintenance under Section 148(1). Clause (x) applies only if the company raised IPO, FPO or preferential allotment funds. Clause (xii) applies only to Nidhi companies. Clause (xvi) applies only to NBFCs, HFCs and CICs. Clause (xx) applies only if Section 135 CSR is triggered. Clause (xxi) applies only to consolidated financial statements."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens if a company is a holding or subsidiary of a public company?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "If a private limited company is a holding company or subsidiary of a public company, it cannot claim the Private Limited specific exemption under CARO 2020 even if its paid-up capital, borrowings and revenue are within the ₹1 crore, ₹1 crore and ₹10 crore thresholds. Such a private company is also disqualified from being a Small Company under Section 2(85), so CARO 2020 will apply in full unless another entity-based exemption is available."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does CARO 2020 apply to branches of a company?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. CARO 2020 applies to the audit of branches of a company because under Section 143(8) of the Companies Act, 2013, a branch auditor has the same duties as the company auditor in respect of the branch. The branch auditor must report on the matters specified in CARO 2020 to the extent they are applicable to the branch operations, and the principal company auditor consolidates these into the main CARO report."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the penalty for non-reporting under CARO 2020?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "CARO 2020 itself does not prescribe a separate penalty, but failure to report or false reporting attracts consequences under Section 143(15) of the Companies Act, 2013, and professional misconduct proceedings under the Chartered Accountants Act, 1949 before the Disciplinary Committee of ICAI. The National Financial Reporting Authority can also take action against the auditor under Section 132. Penalties can include monetary fines, debarment and removal from the auditor panel."
-          }
-        }
-      ]
-    }
-    </script>
-@endsection
-
 <style>
         :root {
             --primary: #1B4D3E;
@@ -391,7 +206,192 @@
             .clause-status { font-size: 9px; padding: 3px 7px; }
         }
     </style>
+@endpush
 
+@section('meta')
+    <title>CARO 2020 Checklist Generator | 21-Clause Audit Report</title>
+    <meta name="description" content="CARO 2020 checklist generator: instant applicability plus the clause-wise auditor reporting checklist for Pvt Ltd, Public & Foreign Cos. Free CA tool. Try now!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/caro-2020-checklist-generator">
+    <meta property="og:title" content="CARO 2020 Clause-wise Checklist Generator — FY 2025-26">
+    <meta property="og:description" content="Check CARO 2020 applicability for your company & generate the 21-clause auditor reporting checklist instantly. Standalone & consolidated covered.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/caro-2020-checklist-generator">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="CARO 2020 Clause-wise Checklist Generator — FY 2025-26">
+    <meta name="twitter:description" content="Instant CARO 2020 applicability + 21-clause auditor reporting checklist. Pvt Ltd, Public, Foreign Cos. Free CA-reviewed tool.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "CARO 2020 Clause-wise Checklist Generator",
+      "description": "CARO 2020 Clause-wise Checklist Generator is a decision-tree tool that determines whether the Companies (Auditor's Report) Order, 2020 applies to a company under Section 143(11) of the Companies Act, 2013, and generates the 21-clause auditor reporting checklist with statutory references, documents required and conditional clauses (Nidhi, NBFC/CIC, CSR, IPO/FPO, Consolidated FS). The tool evaluates entity type (Private Limited, Public Limited, OPC, Section 8, Banking, Insurance, Foreign Company, LLP), Small Company test under Section 2(85), Private Limited specific exemption thresholds (paid-up capital plus reserves and surplus ₹1 crore, total borrowings ₹1 crore, total revenue ₹10 crore) and consolidated financial statement carve-out for Clause (xxi).",
+      "url": "https://www.patronaccounting.com/tools/caro-2020-checklist-generator",
+      "applicationCategory": "UtilityApplication",
+      "operatingSystem": "Any",
+      "datePublished": "2026-05-07T08:00:00+05:30",
+      "dateModified": "2026-05-07T08:00:00+05:30",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
+      "author": {
+        "@type": "Person",
+        "@id": "https://patronaccounting.com/#founder",
+        "name": "CA Sundram Gupta",
+        "jobTitle": "Founder & Chartered Accountant",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Institute of Chartered Accountants of India",
+            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+          }
+        }]
+      },
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": {"@id": "https://patronaccounting.com/#organization"}
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "CARO 2020 Checklist Generator", "item": "https://www.patronaccounting.com/tools/caro-2020-checklist-generator"}
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is CARO 2020 and which Act notifies it?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CARO 2020 is the Companies (Auditor's Report) Order, 2020, notified by the Ministry of Corporate Affairs vide S.O. 849(E) dated 25 February 2020 under Section 143(11) of the Companies Act, 2013. It supersedes CARO 2016 and is effective for statutory audits of financial years commencing on or after 1 April 2021. The Order requires the statutory auditor to report on 21 specified matters with 50 sub-clauses in the audit report."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which companies are exempt from CARO 2020?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CARO 2020 does not apply to a banking company, an insurance company, a Section 8 company, a One Person Company, a Small Company under Section 2(85), and a Private Limited Company that meets all three thresholds: paid-up capital plus reserves and surplus up to ₹1 crore on balance sheet date, total borrowings up to ₹1 crore from banks or financial institutions any time during the financial year, and total revenue up to ₹10 crore as per Schedule III."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does CARO 2020 apply to LLPs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. CARO 2020 is issued under Section 143(11) of the Companies Act, 2013 and applies only to companies registered under that Act, including foreign companies under Section 2(42). Limited Liability Partnerships are governed by the LLP Act, 2008 and are outside the scope of CARO. Partnership firms, sole proprietorships, HUFs and trusts are also outside CARO 2020 since they are not companies."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a Small Company under the Companies Act 2013?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under Section 2(85) of the Companies Act, 2013 read with the Companies (Specification of Definitions Details) Amendment Rules, 2022, a Small Company is a private company (other than a holding or subsidiary of a public company, a Section 8 company or a body corporate notified under Section 462) with paid-up share capital not exceeding ₹4 crore and turnover not exceeding ₹40 crore as per the latest profit and loss account."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many clauses are there in CARO 2020?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CARO 2020 contains 21 clauses with 50 sub-clauses, compared to 16 clauses in CARO 2016. Seven new clauses were inserted, several existing clauses were redrafted and the clause on managerial remuneration was removed since it is now covered separately in the audit report. The new reporting topics include intangible assets, benami property, undisclosed income surrendered to the Income Tax Department, internal audit, cash losses, auditor resignation, going concern and consolidated CARO."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "From which financial year is CARO 2020 effective?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CARO 2020 was originally to apply from FY 2019-20. It was deferred to FY 2020-21 by MCA order dated 24 March 2020 and further deferred to FY 2021-22 by order dated 17 December 2020 due to COVID-19 disruption. Therefore, CARO 2020 applies to all statutory audit reports for financial years commencing on or after 1 April 2021, including FY 2025-26 audits being signed in 2026."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does CARO 2020 apply to consolidated financial statements?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CARO 2020 does not apply to the auditor's report on consolidated financial statements except for Clause 3(xxi). Under Clause (xxi), the parent auditor must report any qualifications or adverse remarks made by component auditors in their respective standalone CARO reports, along with the names of those companies and the specific paragraph numbers of the CARO report containing such remarks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is CARO 2020 applicable to foreign companies in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. CARO 2020 applies to foreign companies as defined under Section 2(42) of the Companies Act, 2013, namely a company or body corporate incorporated outside India that has a place of business in India and conducts any business activity in India. The Order does not provide any size-based exemption for foreign companies, so the auditor of an Indian branch or project office of a foreign company must comply with all 21 clauses to the extent applicable."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the new clauses introduced in CARO 2020?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CARO 2020 introduced reporting on intangible asset records, benami property proceedings, working capital limits over ₹5 crore from banks reconciled with quarterly returns, undisclosed income surrendered in income-tax search or survey, willful defaulter status, internal audit system adequacy, cash losses in current and previous year, statutory auditor resignation, financial ratios for going concern assessment, CSR unspent transfer compliance and consolidated CARO reporting under Clause (xxi)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which clauses are conditional in CARO 2020?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Several CARO 2020 clauses are conditional. Clause (vi) on cost records applies only if the Central Government has prescribed maintenance under Section 148(1). Clause (x) applies only if the company raised IPO, FPO or preferential allotment funds. Clause (xii) applies only to Nidhi companies. Clause (xvi) applies only to NBFCs, HFCs and CICs. Clause (xx) applies only if Section 135 CSR is triggered. Clause (xxi) applies only to consolidated financial statements."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if a company is a holding or subsidiary of a public company?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If a private limited company is a holding company or subsidiary of a public company, it cannot claim the Private Limited specific exemption under CARO 2020 even if its paid-up capital, borrowings and revenue are within the ₹1 crore, ₹1 crore and ₹10 crore thresholds. Such a private company is also disqualified from being a Small Company under Section 2(85), so CARO 2020 will apply in full unless another entity-based exemption is available."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does CARO 2020 apply to branches of a company?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. CARO 2020 applies to the audit of branches of a company because under Section 143(8) of the Companies Act, 2013, a branch auditor has the same duties as the company auditor in respect of the branch. The branch auditor must report on the matters specified in CARO 2020 to the extent they are applicable to the branch operations, and the principal company auditor consolidates these into the main CARO report."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the penalty for non-reporting under CARO 2020?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CARO 2020 itself does not prescribe a separate penalty, but failure to report or false reporting attracts consequences under Section 143(15) of the Companies Act, 2013, and professional misconduct proceedings under the Chartered Accountants Act, 1949 before the Disciplinary Committee of ICAI. The National Financial Reporting Authority can also take action against the auditor under Section 132. Penalties can include monetary fines, debarment and removal from the auditor panel."
+          }
+        }
+      ]
+    }
+    </script>
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Tool navigation">
     <div class="toc-nav-inner">

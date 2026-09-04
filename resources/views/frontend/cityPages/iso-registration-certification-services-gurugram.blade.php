@@ -1,161 +1,12 @@
 
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>ISO Certification Gurugram - 9001, 14001 & 27001</title>
-    <meta name="description" content="ISO certification in Gurugram. ISO 9001, 14001, 27001, 45001, 22000. NABCB accredited. Gap analysis to certificate. Call +91 945 945 6700.">
-    <link rel="canonical" href="/iso-registration-certification-services/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="ISO Certification Gurugram - 9001, 14001 & 27001">
-    <meta property="og:description" content="ISO certification in Gurugram. ISO 9001, 14001, 27001, 45001, 22000. NABCB accredited. Gap analysis to certificate. Call +91 945 945 6700.">
-    <meta property="og:url" content="/iso-registration-certification-services/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="ISO Certification Gurugram - 9001, 14001 & 27001">
-    <meta name="twitter:description" content="ISO certification in Gurugram. ISO 9001, 14001, 27001, 45001, 22000. NABCB accredited. Gap analysis to certificate. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "ISO Registration in Gurugram | ISO 9001 27001",
-      "description": "ISO certification in Gurugram. ISO 9001, 14001, 27001, 45001, 22000. NABCB accredited. Gap analysis to certificate. Call +91 945 945 6700.",
-      "url": "https://www.patronaccounting.com/iso-registration-certification-services/gurugram",
-      "serviceType": "ISO Registration in Gurugram | ISO 9001 27001",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/iso-registration-certification-services/gurugram",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "minPrice": "5",
-          "maxPrice": "20000",
-          "priceCurrency": "INR"
-        }
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "ISO Certification in India: Types, Process and Fees",
-          "item": "https://www.patronaccounting.com/iso-registration-certification-services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "ISO Registration in Gurugram | ISO 9001 27001",
-          "item": "https://www.patronaccounting.com/iso-registration-certification-services/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Is ISO certification mandatory in India?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "ISO certification is not legally mandatory. However, it is practically required for government tenders (ISO 9001 is listed as mandatory in most tender documents), banking and fintech contracts (ISO 27001 is a vendor qualification criterion), export orders, and corporate vendor empanelment. Without ISO, Gurugram businesses lose contracts to certified competitors."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does ISO certification cost in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "ISO 9001 small business (1-20 employees): Rs 20,000-60,000. Medium-large: Rs 60,000-1,50,000+. ISO 27001: Rs 1,00,000-8,00,000+. IMS (9001+14001+45001): Rs 60,000-4,00,000+. MSME subsidy covers up to 50%. Cost includes consultancy and certification body fees. Call +91 945 945 6700 for a standard-specific quote."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does ISO certification take?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. Stage 2 Audit (Implementation): 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Who issues ISO certificates?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Independent certification bodies accredited by NABCB (National Accreditation Board for Certification Bodies) under QCI (Quality Council of India). ISO itself does NOT issue certificates. Always verify accreditation on nabcb.qci.org.in before engaging any certification body. Non-accredited certificates may not be recognized for tenders and enterprise contracts."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long is an ISO certificate valid?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "3 years. Annual surveillance audits are mandatory in Year 1 and Year 2 after certification. A full re-certification audit is required in Year 3. Missing a surveillance audit can result in certificate suspension. The certification body conducts all audits. Patron manages the entire 3-year cycle including surveillance preparation."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which ISO standard does my Gurugram business need?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "ISO 9001 for general quality management and government tenders (universal). ISO 27001 for IT companies handling data (Cyber City). ISO 14001 for environmental management (manufacturing). ISO 45001 for workplace safety (factories). ISO 22000 for food businesses. IMS combines 9001+14001+45001 for manufacturers (saves 30-40%). Patron advises on the optimal standard based on your clients and contracts."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is there a government subsidy for ISO certification?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. The Ministry of MSME provides a subsidy scheme reimbursing up to 50% of ISO certification cost for registered MSMEs (Udyam-registered). This significantly reduces the effective investment. Patron assists with both ISO certification and MSME subsidy application simultaneously, ensuring maximum cost recovery. Quick Answers ISO certification kaun deta hai? ISO khud certificate nahi deta. Independent accredited certification bodies (NABCB-accredited) audit karke certificate dete hain. Hamesha NABCB-accredited body se lo - nabcb.qci.org.in pe verify karo. Kitna time lagta hai? 2-6 months. ISO 9001 chhoti company ke liye: 2-3 months. ISO 27001: 4-6 months. IMS: 4-6 months. Company ki readiness pe depend karta hai. Mandatory hai? Legally nahi. Lekin government tenders, export contracts, banking clients, aur corporate vendors ke liye practically mandatory hai. Bina ISO ke contracts miss hote hain."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -679,7 +530,161 @@ section ul li:not(.nav-item) { font-size: 14px; }
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'Join Community'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>ISO Certification Gurugram - 9001, 14001 & 27001</title>
+    <meta name="description" content="ISO certification in Gurugram. ISO 9001, 14001, 27001, 45001, 22000. NABCB accredited. Gap analysis to certificate. Call +91 945 945 6700.">
+    <link rel="canonical" href="/iso-registration-certification-services/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="ISO Certification Gurugram - 9001, 14001 & 27001">
+    <meta property="og:description" content="ISO certification in Gurugram. ISO 9001, 14001, 27001, 45001, 22000. NABCB accredited. Gap analysis to certificate. Call +91 945 945 6700.">
+    <meta property="og:url" content="/iso-registration-certification-services/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ISO Certification Gurugram - 9001, 14001 & 27001">
+    <meta name="twitter:description" content="ISO certification in Gurugram. ISO 9001, 14001, 27001, 45001, 22000. NABCB accredited. Gap analysis to certificate. Call +91 945 945 6700.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "ISO Registration in Gurugram | ISO 9001 27001",
+      "description": "ISO certification in Gurugram. ISO 9001, 14001, 27001, 45001, 22000. NABCB accredited. Gap analysis to certificate. Call +91 945 945 6700.",
+      "url": "https://www.patronaccounting.com/iso-registration-certification-services/gurugram",
+      "serviceType": "ISO Registration in Gurugram | ISO 9001 27001",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.patronaccounting.com/iso-registration-certification-services/gurugram",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": "5",
+          "maxPrice": "20000",
+          "priceCurrency": "INR"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "ISO Certification in India: Types, Process and Fees",
+          "item": "https://www.patronaccounting.com/iso-registration-certification-services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "ISO Registration in Gurugram | ISO 9001 27001",
+          "item": "https://www.patronaccounting.com/iso-registration-certification-services/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is ISO certification mandatory in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ISO certification is not legally mandatory. However, it is practically required for government tenders (ISO 9001 is listed as mandatory in most tender documents), banking and fintech contracts (ISO 27001 is a vendor qualification criterion), export orders, and corporate vendor empanelment. Without ISO, Gurugram businesses lose contracts to certified competitors."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does ISO certification cost in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ISO 9001 small business (1-20 employees): Rs 20,000-60,000. Medium-large: Rs 60,000-1,50,000+. ISO 27001: Rs 1,00,000-8,00,000+. IMS (9001+14001+45001): Rs 60,000-4,00,000+. MSME subsidy covers up to 50%. Cost includes consultancy and certification body fees. Call +91 945 945 6700 for a standard-specific quote."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does ISO certification take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. Stage 2 Audit (Implementation): 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who issues ISO certificates?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Independent certification bodies accredited by NABCB (National Accreditation Board for Certification Bodies) under QCI (Quality Council of India). ISO itself does NOT issue certificates. Always verify accreditation on nabcb.qci.org.in before engaging any certification body. Non-accredited certificates may not be recognized for tenders and enterprise contracts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long is an ISO certificate valid?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "3 years. Annual surveillance audits are mandatory in Year 1 and Year 2 after certification. A full re-certification audit is required in Year 3. Missing a surveillance audit can result in certificate suspension. The certification body conducts all audits. Patron manages the entire 3-year cycle including surveillance preparation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which ISO standard does my Gurugram business need?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ISO 9001 for general quality management and government tenders (universal). ISO 27001 for IT companies handling data (Cyber City). ISO 14001 for environmental management (manufacturing). ISO 45001 for workplace safety (factories). ISO 22000 for food businesses. IMS combines 9001+14001+45001 for manufacturers (saves 30-40%). Patron advises on the optimal standard based on your clients and contracts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there a government subsidy for ISO certification?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The Ministry of MSME provides a subsidy scheme reimbursing up to 50% of ISO certification cost for registered MSMEs (Udyam-registered). This significantly reduces the effective investment. Patron assists with both ISO certification and MSME subsidy application simultaneously, ensuring maximum cost recovery. Quick Answers ISO certification kaun deta hai? ISO khud certificate nahi deta. Independent accredited certification bodies (NABCB-accredited) audit karke certificate dete hain. Hamesha NABCB-accredited body se lo - nabcb.qci.org.in pe verify karo. Kitna time lagta hai? 2-6 months. ISO 9001 chhoti company ke liye: 2-3 months. ISO 27001: 4-6 months. IMS: 4-6 months. Company ki readiness pe depend karta hai. Mandatory hai? Legally nahi. Lekin government tenders, export contracts, banking clients, aur corporate vendors ke liye practically mandatory hai. Bina ISO ke contracts miss hote hain."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1604,7 +1609,6 @@ var tocWrapper=document.getElementById('tocWrapper');document.getElementById('to
 
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

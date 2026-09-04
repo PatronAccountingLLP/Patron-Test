@@ -1,161 +1,12 @@
 
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Copyright Registration Gurugram - Form XIV, Fees & Process</title>
-    <meta name="description" content="Register copyright in Gurugram. Software, literary, artistic, music, film. Form XIV, Rs 500-5,000. CA-led filing with Copyright Office. Call +91 945 945 6700.">
-    <link rel="canonical" href="/copyright-registration/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Copyright Registration Gurugram - Form XIV, Fees & Process">
-    <meta property="og:description" content="Register copyright in Gurugram. Software, literary, artistic, music, film. Form XIV, Rs 500-5,000. CA-led filing with Copyright Office. Call +91 945 945 6700.">
-    <meta property="og:url" content="/copyright-registration/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Copyright Registration Gurugram - Form XIV, Fees & Process">
-    <meta name="twitter:description" content="Register copyright in Gurugram. Software, literary, artistic, music, film. Form XIV, Rs 500-5,000. CA-led filing with Copyright Office. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "Copyright Registration in Gurugram | Software IP",
-      "description": "Register copyright in Gurugram. Software, literary, artistic, music, film. Form XIV, Rs 500-5,000. CA-led filing with Copyright Office. Call +91 945 945 6700.",
-      "url": "https://www.patronaccounting.com/copyright-registration/gurugram",
-      "serviceType": "Copyright Registration in Gurugram | Software IP",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/copyright-registration/gurugram",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "minPrice": "500",
-          "maxPrice": "5000",
-          "priceCurrency": "INR"
-        }
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Copyright Registration in India: Online Process and Fees",
-          "item": "https://www.patronaccounting.com/copyright-registration"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Copyright Registration in Gurugram | Software IP",
-          "item": "https://www.patronaccounting.com/copyright-registration/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Is copyright registration mandatory in India?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Copyright protection arises automatically when you create an original work under the Copyright Act 1957. Registration is optional. However, a registration certificate provides prima facie evidence of ownership under Section 48, creates a public record in the Register of Copyrights, and significantly strengthens enforcement in infringement disputes. For Gurugram businesses with valuable IP, registration is strongly recommended."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does copyright registration cost in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Government fees: Rs 500 per work for literary, artistic, musical, and dramatic works (individuals). Rs 2,000 per work for companies. Sound recordings: Rs 2,000. Software: Rs 500 to Rs 4,000. Films: Rs 5,000. Professional fee: Rs 3,000 to Rs 8,000 (Form XIV preparation, filing, objection handling, certificate procurement). Total: Rs 3,500 to Rs 13,000 per work. Call +91 945 945 6700 for a detailed quote."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does copyright registration take?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. Examination by Copyright Office: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can software and mobile apps be copyrighted?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Software (including source code, object code, and databases) is classified as literary work under Section 2(o) of the Copyright Act. Mobile apps can have multiple copyrightable elements: source code (literary), UI/UX designs (artistic), text content (literary), and in-app audio/video. Each element can be registered separately. For software registration, submit a PDF with the first and last 10 pages of source code."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does copyright protection last?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Literary, artistic, musical, and dramatic works: author's lifetime plus 60 years from the year following the author's death. Cinematograph films and sound recordings: 60 years from the year following publication. Photographs: 60 years from the year following publication. India's Berne Convention membership means this protection is recognized in 181+ countries automatically."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between copyright and trademark?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Copyright protects original creative works (books, software, photographs, music, films) under the Copyright Act 1957. It exists automatically and lasts for the author's lifetime plus 60 years. Trademark protects brand identity (names, logos, taglines) under the Trade Marks Act 1999. It requires registration and is valid for 10 years (renewable). A logo can be protected as both artistic work (copyright) and device mark (trademark)."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does Indian copyright work internationally?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. India is a member of the Berne Convention (181+ countries), the Universal Copyright Convention, and TRIPS (WTO). Your copyright registered in India is automatically recognized in all Berne Convention countries without separate filing. This means a Gurugram software company's registered copyright is enforceable in the US, EU, UK, and most other jurisdictions. Quick Answers Registration zaroori hai kya? Mandatory nahi hai - copyright creation pe automatic milta hai. Lekin registration se court mein proof strong hota hai (Section 48 prima facie evidence). Rs 500-5,000 mein lifetime + 60 years protection. Worth it. Software ka copyright hota hai? Haan. Software 'literary work' hai Copyright Act mein. Source code ke first 10 + last 10 pages PDF mein submit karo. Rs 500-4,000 fees. Mobile app ke code, UI design, content sab alag-alag register ho sakte hain. Kitna time lagta hai? 2-6 mahine. Filing turant. 30-din objection period. 1-3 mahine examination. Certificate approval ke baad milta hai. Objection aaye toh 2-4 mahine extra."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -679,7 +530,161 @@ section ul li:not(.nav-item) { font-size: 14px; }
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'Join Community'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Copyright Registration Gurugram - Form XIV, Fees & Process</title>
+    <meta name="description" content="Register copyright in Gurugram. Software, literary, artistic, music, film. Form XIV, Rs 500-5,000. CA-led filing with Copyright Office. Call +91 945 945 6700.">
+    <link rel="canonical" href="/copyright-registration/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Copyright Registration Gurugram - Form XIV, Fees & Process">
+    <meta property="og:description" content="Register copyright in Gurugram. Software, literary, artistic, music, film. Form XIV, Rs 500-5,000. CA-led filing with Copyright Office. Call +91 945 945 6700.">
+    <meta property="og:url" content="/copyright-registration/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Copyright Registration Gurugram - Form XIV, Fees & Process">
+    <meta name="twitter:description" content="Register copyright in Gurugram. Software, literary, artistic, music, film. Form XIV, Rs 500-5,000. CA-led filing with Copyright Office. Call +91 945 945 6700.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "Copyright Registration in Gurugram | Software IP",
+      "description": "Register copyright in Gurugram. Software, literary, artistic, music, film. Form XIV, Rs 500-5,000. CA-led filing with Copyright Office. Call +91 945 945 6700.",
+      "url": "https://www.patronaccounting.com/copyright-registration/gurugram",
+      "serviceType": "Copyright Registration in Gurugram | Software IP",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.patronaccounting.com/copyright-registration/gurugram",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": "500",
+          "maxPrice": "5000",
+          "priceCurrency": "INR"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Copyright Registration in India: Online Process and Fees",
+          "item": "https://www.patronaccounting.com/copyright-registration"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Copyright Registration in Gurugram | Software IP",
+          "item": "https://www.patronaccounting.com/copyright-registration/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is copyright registration mandatory in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Copyright protection arises automatically when you create an original work under the Copyright Act 1957. Registration is optional. However, a registration certificate provides prima facie evidence of ownership under Section 48, creates a public record in the Register of Copyrights, and significantly strengthens enforcement in infringement disputes. For Gurugram businesses with valuable IP, registration is strongly recommended."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does copyright registration cost in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Government fees: Rs 500 per work for literary, artistic, musical, and dramatic works (individuals). Rs 2,000 per work for companies. Sound recordings: Rs 2,000. Software: Rs 500 to Rs 4,000. Films: Rs 5,000. Professional fee: Rs 3,000 to Rs 8,000 (Form XIV preparation, filing, objection handling, certificate procurement). Total: Rs 3,500 to Rs 13,000 per work. Call +91 945 945 6700 for a detailed quote."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does copyright registration take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. Examination by Copyright Office: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can software and mobile apps be copyrighted?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Software (including source code, object code, and databases) is classified as literary work under Section 2(o) of the Copyright Act. Mobile apps can have multiple copyrightable elements: source code (literary), UI/UX designs (artistic), text content (literary), and in-app audio/video. Each element can be registered separately. For software registration, submit a PDF with the first and last 10 pages of source code."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does copyright protection last?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Literary, artistic, musical, and dramatic works: author's lifetime plus 60 years from the year following the author's death. Cinematograph films and sound recordings: 60 years from the year following publication. Photographs: 60 years from the year following publication. India's Berne Convention membership means this protection is recognized in 181+ countries automatically."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between copyright and trademark?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Copyright protects original creative works (books, software, photographs, music, films) under the Copyright Act 1957. It exists automatically and lasts for the author's lifetime plus 60 years. Trademark protects brand identity (names, logos, taglines) under the Trade Marks Act 1999. It requires registration and is valid for 10 years (renewable). A logo can be protected as both artistic work (copyright) and device mark (trademark)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Indian copyright work internationally?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. India is a member of the Berne Convention (181+ countries), the Universal Copyright Convention, and TRIPS (WTO). Your copyright registered in India is automatically recognized in all Berne Convention countries without separate filing. This means a Gurugram software company's registered copyright is enforceable in the US, EU, UK, and most other jurisdictions. Quick Answers Registration zaroori hai kya? Mandatory nahi hai - copyright creation pe automatic milta hai. Lekin registration se court mein proof strong hota hai (Section 48 prima facie evidence). Rs 500-5,000 mein lifetime + 60 years protection. Worth it. Software ka copyright hota hai? Haan. Software 'literary work' hai Copyright Act mein. Source code ke first 10 + last 10 pages PDF mein submit karo. Rs 500-4,000 fees. Mobile app ke code, UI design, content sab alag-alag register ho sakte hain. Kitna time lagta hai? 2-6 mahine. Filing turant. 30-din objection period. 1-3 mahine examination. Certificate approval ke baad milta hai. Objection aaye toh 2-4 mahine extra."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1607,7 +1612,6 @@ var tocWrapper=document.getElementById('tocWrapper');document.getElementById('to
 
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

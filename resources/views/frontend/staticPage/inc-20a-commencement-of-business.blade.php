@@ -1,186 +1,11 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>INC-20A Commencement of Business 2026 | Patron Accounting</title>
-    <meta name="description" content="File Form INC-20A within 180 days of incorporation under Section 10A to commence business. Avoid the Rs 50,000 plus Rs 1,000/day penalty. From INR 2,499.">
-    <link rel="canonical" href="/inc-20a-commencement-of-business">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="INC-20A Commencement of Business 2026 | Patron Accounting">
-    <meta property="og:description" content="File Form INC-20A within 180 days of incorporation under Section 10A to commence business. Avoid the Rs 50,000 plus Rs 1,000/day penalty. From INR 2,499.">
-    <meta property="og:url" content="/inc-20a-commencement-of-business">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="INC-20A Commencement of Business 2026 | Patron Accounting">
-    <meta name="twitter:description" content="File Form INC-20A within 180 days of incorporation under Section 10A to commence business. Avoid the Rs 50,000 plus Rs 1,000/day penalty. From INR 2,499.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/inc-20a-commencement-of-business/#service",
-        "name": "INC-20A Commencement of Business Filing",
-        "description": "INC-20A filing services from Patron Accounting LLP cover the complete Declaration for Commencement of Business in Form INC-20A under Section 10A of the Companies Act, 2013, including the verification of the subscription money deposited by each subscriber, the drafting of the board resolution authorising the declaration, the compilation of the bank proof of subscription, the certification of the form by a practising Chartered Accountant, Company Secretary or Cost Accountant, the filing on the MCA V3 portal with the director’s Digital Signature Certificate, and late-filing and penalty support, filed within 180 days of incorporation for a company with share capital incorporated on or after 2 November 2018.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/inc-20a-commencement-of-business" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Certificate of incorporation", "sameAs": "https://en.wikipedia.org/wiki/Certificate_of_incorporation" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "INC-20A Filing Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "INC-20A Filing Service",
-                    "priceCurrency": "INR",
-                    "price": "2499",
-                    "description": "Single-form INC-20A filing covering the subscription-money verification, the board resolution, the bank proof and the INC-20A submission on the MCA V3 portal with professional certification, exclusive of GST and government charges. The MCA statutory filing fee depends on the company's nominal share capital and is charged on an actual basis; late filing attracts a company penalty of Rs 50,000 and a director penalty of Rs 1,000 per day up to Rs 1,00,000."
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/inc-20a-commencement-of-business/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Company Compliance", "item": "https://www.patronaccounting.com/corporate-compliance-services" },
-            { "@type": "ListItem", "position": 3, "name": "INC-20A Filing", "item": "https://www.patronaccounting.com/inc-20a-commencement-of-business" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/inc-20a-commencement-of-business/#faq",
-        "datePublished": "2026-06-03T08:00:00+05:30",
-        "dateModified": "2026-06-04T08:00:00+05:30",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "What is the due date for filing Form INC-20A?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Form INC-20A must be filed within 180 days of the date of incorporation under Section 10A of the Companies Act, 2013. The deadline is calculated strictly from the incorporation date on the Certificate of Incorporation. Until INC-20A is filed, the company cannot commence business or exercise any borrowing powers." }
-            },
-            {
-                "@type": "Question",
-                "name": "Who must file Form INC-20A?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Every company with share capital incorporated on or after 2 November 2018 must file Form INC-20A. This covers private, public, One Person and Section 8 companies with share capital. Companies incorporated on or before 1 November 2018, and companies without share capital, are not required to file the declaration of commencement of business." }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the penalty for not filing INC-20A?",
-                "acceptedAnswer": { "@type": "Answer", "text": "If INC-20A is not filed within 180 days, the company is liable to a penalty of Rs 50,000 and every officer in default to Rs 1,000 per day, up to a maximum of Rs 1,00,000. The Registrar may also strike off the company if it has not filed and appears not to be carrying on business. Startup relief under Section 446B does not apply." }
-            },
-            {
-                "@type": "Question",
-                "name": "What documents are required for INC-20A?",
-                "acceptedAnswer": { "@type": "Answer", "text": "INC-20A requires the company bank statement or certificate evidencing that subscribers have deposited the share subscription money, a board resolution authorising the declaration, and director details matching MCA records. Where the business is regulated, sectoral approval such as RBI or SEBI is also attached. A valid Digital Signature Certificate is needed to sign." }
-            },
-            {
-                "@type": "Question",
-                "name": "Can a company operate before filing INC-20A?",
-                "acceptedAnswer": { "@type": "Answer", "text": "No. Under Section 10A, a company with share capital incorporated on or after 2 November 2018 cannot commence any business or exercise borrowing powers until it files INC-20A and obtains the commencement of business certificate. Operating or borrowing before filing is a contravention and exposes the company and its officers to penalties." }
-            },
-            {
-                "@type": "Question",
-                "name": "Does INC-20A need professional certification?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Yes. Form INC-20A must be digitally signed by a director using a valid Digital Signature Certificate and certified by a practising Chartered Accountant, Company Secretary or Cost Accountant. The professional certification confirms that the declaration and the attached bank proof of subscription money are true and correct before submission to the ROC." }
-            },
-            {
-                "@type": "Question",
-                "name": "Is INC-20A a one-time filing?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Yes. INC-20A is a one-time, time-sensitive filing made once within 180 days of incorporation. It is not an annual return. Once the company files the declaration and the ROC issues the commencement of business certificate, the requirement is satisfied and the company can legally operate and borrow." }
-            },
-            {
-                "@type": "Question",
-                "name": "What happens if the 180-day deadline is missed?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Missing the 180-day deadline triggers a company penalty of Rs 50,000 and a director penalty of Rs 1,000 per day up to Rs 1,00,000, and exposes the company to ROC strike-off. The company should file INC-20A immediately to limit the daily director penalty and restore its ability to commence business and borrow." }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/inc-20a-commencement-of-business",
-        "name": "INC-20A Commencement of Business Filing",
-        "description": "File Form INC-20A within 180 days of incorporation under Section 10A to commence business. Avoid the Rs 50,000 plus Rs 1,000/day penalty. From INR 2,499.",
-        "url": "https://www.patronaccounting.com/inc-20a-commencement-of-business",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/inc-20a-commencement-of-business/#service" },
-        "datePublished": "2026-06-03T08:00:00+05:30",
-        "dateModified": "2026-06-04T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/inc-20a-commencement-of-business/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "INC-20A Filing Process: Step by Step",
-        "description": "How Form INC-20A is filed, from opening the company bank account and collecting subscription money to receiving the commencement of business certificate.",
-        "totalTime": "P2D",
-        "step": [
-            { "@type": "HowToStep", "name": "Open the company bank account", "text": "Open a current account in the company name and collect the subscription money from all subscribers." },
-            { "@type": "HowToStep", "name": "Pass the board resolution", "text": "The Board authorises the declaration of commencement of business and the signing director." },
-            { "@type": "HowToStep", "name": "Compile bank proof", "text": "Obtain the bank statement or certificate evidencing the deposited share capital." },
-            { "@type": "HowToStep", "name": "Complete Form INC-20A", "text": "Enter CIN, registered office and paid-up capital details on the MCA V3 portal." },
-            { "@type": "HowToStep", "name": "Attach proof and certify", "text": "Attach the bank proof and have the form certified by a practising CA, CS or CMA." },
-            { "@type": "HowToStep", "name": "Affix DSC and submit", "text": "Sign with the director's Digital Signature Certificate, then submit and pay the MCA fee." },
-            { "@type": "HowToStep", "name": "Receive the certificate", "text": "Once approved, the ROC issues the commencement of business certificate; save the SRN." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "INC-20A Filing Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Commencement of Business Certificate", "description": "The MCA confirmation that a company may legally start operations, obtained by filing INC-20A." },
-            { "@type": "DefinedTerm", "name": "Subscription Money", "description": "The value of shares each subscriber to the memorandum agrees to pay, which must be deposited before filing." },
-            { "@type": "DefinedTerm", "name": "Section 10A", "description": "The Companies Act provision mandating the declaration of commencement of business." },
-            { "@type": "DefinedTerm", "name": "Borrowing Powers", "description": "A company's ability to raise loans, which is suspended until INC-20A is filed." },
-            { "@type": "DefinedTerm", "name": "Registered Office Verification", "description": "Confirmation of the office under Section 12(2), a precondition for INC-20A." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -794,7 +619,187 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>INC-20A Commencement of Business 2026 | Patron Accounting</title>
+    <meta name="description" content="File Form INC-20A within 180 days of incorporation under Section 10A to commence business. Avoid the Rs 50,000 plus Rs 1,000/day penalty. From INR 2,499.">
+    <link rel="canonical" href="/inc-20a-commencement-of-business">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="INC-20A Commencement of Business 2026 | Patron Accounting">
+    <meta property="og:description" content="File Form INC-20A within 180 days of incorporation under Section 10A to commence business. Avoid the Rs 50,000 plus Rs 1,000/day penalty. From INR 2,499.">
+    <meta property="og:url" content="/inc-20a-commencement-of-business">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="INC-20A Commencement of Business 2026 | Patron Accounting">
+    <meta name="twitter:description" content="File Form INC-20A within 180 days of incorporation under Section 10A to commence business. Avoid the Rs 50,000 plus Rs 1,000/day penalty. From INR 2,499.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/inc-20a-commencement-of-business/#service",
+        "name": "INC-20A Commencement of Business Filing",
+        "description": "INC-20A filing services from Patron Accounting LLP cover the complete Declaration for Commencement of Business in Form INC-20A under Section 10A of the Companies Act, 2013, including the verification of the subscription money deposited by each subscriber, the drafting of the board resolution authorising the declaration, the compilation of the bank proof of subscription, the certification of the form by a practising Chartered Accountant, Company Secretary or Cost Accountant, the filing on the MCA V3 portal with the director’s Digital Signature Certificate, and late-filing and penalty support, filed within 180 days of incorporation for a company with share capital incorporated on or after 2 November 2018.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/inc-20a-commencement-of-business" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Certificate of incorporation", "sameAs": "https://en.wikipedia.org/wiki/Certificate_of_incorporation" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "INC-20A Filing Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "INC-20A Filing Service",
+                    "priceCurrency": "INR",
+                    "price": "2499",
+                    "description": "Single-form INC-20A filing covering the subscription-money verification, the board resolution, the bank proof and the INC-20A submission on the MCA V3 portal with professional certification, exclusive of GST and government charges. The MCA statutory filing fee depends on the company's nominal share capital and is charged on an actual basis; late filing attracts a company penalty of Rs 50,000 and a director penalty of Rs 1,000 per day up to Rs 1,00,000."
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/inc-20a-commencement-of-business/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Company Compliance", "item": "https://www.patronaccounting.com/corporate-compliance-services" },
+            { "@type": "ListItem", "position": 3, "name": "INC-20A Filing", "item": "https://www.patronaccounting.com/inc-20a-commencement-of-business" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/inc-20a-commencement-of-business/#faq",
+        "datePublished": "2026-06-03T08:00:00+05:30",
+        "dateModified": "2026-06-04T08:00:00+05:30",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is the due date for filing Form INC-20A?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Form INC-20A must be filed within 180 days of the date of incorporation under Section 10A of the Companies Act, 2013. The deadline is calculated strictly from the incorporation date on the Certificate of Incorporation. Until INC-20A is filed, the company cannot commence business or exercise any borrowing powers." }
+            },
+            {
+                "@type": "Question",
+                "name": "Who must file Form INC-20A?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Every company with share capital incorporated on or after 2 November 2018 must file Form INC-20A. This covers private, public, One Person and Section 8 companies with share capital. Companies incorporated on or before 1 November 2018, and companies without share capital, are not required to file the declaration of commencement of business." }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the penalty for not filing INC-20A?",
+                "acceptedAnswer": { "@type": "Answer", "text": "If INC-20A is not filed within 180 days, the company is liable to a penalty of Rs 50,000 and every officer in default to Rs 1,000 per day, up to a maximum of Rs 1,00,000. The Registrar may also strike off the company if it has not filed and appears not to be carrying on business. Startup relief under Section 446B does not apply." }
+            },
+            {
+                "@type": "Question",
+                "name": "What documents are required for INC-20A?",
+                "acceptedAnswer": { "@type": "Answer", "text": "INC-20A requires the company bank statement or certificate evidencing that subscribers have deposited the share subscription money, a board resolution authorising the declaration, and director details matching MCA records. Where the business is regulated, sectoral approval such as RBI or SEBI is also attached. A valid Digital Signature Certificate is needed to sign." }
+            },
+            {
+                "@type": "Question",
+                "name": "Can a company operate before filing INC-20A?",
+                "acceptedAnswer": { "@type": "Answer", "text": "No. Under Section 10A, a company with share capital incorporated on or after 2 November 2018 cannot commence any business or exercise borrowing powers until it files INC-20A and obtains the commencement of business certificate. Operating or borrowing before filing is a contravention and exposes the company and its officers to penalties." }
+            },
+            {
+                "@type": "Question",
+                "name": "Does INC-20A need professional certification?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Yes. Form INC-20A must be digitally signed by a director using a valid Digital Signature Certificate and certified by a practising Chartered Accountant, Company Secretary or Cost Accountant. The professional certification confirms that the declaration and the attached bank proof of subscription money are true and correct before submission to the ROC." }
+            },
+            {
+                "@type": "Question",
+                "name": "Is INC-20A a one-time filing?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Yes. INC-20A is a one-time, time-sensitive filing made once within 180 days of incorporation. It is not an annual return. Once the company files the declaration and the ROC issues the commencement of business certificate, the requirement is satisfied and the company can legally operate and borrow." }
+            },
+            {
+                "@type": "Question",
+                "name": "What happens if the 180-day deadline is missed?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Missing the 180-day deadline triggers a company penalty of Rs 50,000 and a director penalty of Rs 1,000 per day up to Rs 1,00,000, and exposes the company to ROC strike-off. The company should file INC-20A immediately to limit the daily director penalty and restore its ability to commence business and borrow." }
+            }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/inc-20a-commencement-of-business",
+        "name": "INC-20A Commencement of Business Filing",
+        "description": "File Form INC-20A within 180 days of incorporation under Section 10A to commence business. Avoid the Rs 50,000 plus Rs 1,000/day penalty. From INR 2,499.",
+        "url": "https://www.patronaccounting.com/inc-20a-commencement-of-business",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/inc-20a-commencement-of-business/#service" },
+        "datePublished": "2026-06-03T08:00:00+05:30",
+        "dateModified": "2026-06-04T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/inc-20a-commencement-of-business/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "INC-20A Filing Process: Step by Step",
+        "description": "How Form INC-20A is filed, from opening the company bank account and collecting subscription money to receiving the commencement of business certificate.",
+        "totalTime": "P2D",
+        "step": [
+            { "@type": "HowToStep", "name": "Open the company bank account", "text": "Open a current account in the company name and collect the subscription money from all subscribers." },
+            { "@type": "HowToStep", "name": "Pass the board resolution", "text": "The Board authorises the declaration of commencement of business and the signing director." },
+            { "@type": "HowToStep", "name": "Compile bank proof", "text": "Obtain the bank statement or certificate evidencing the deposited share capital." },
+            { "@type": "HowToStep", "name": "Complete Form INC-20A", "text": "Enter CIN, registered office and paid-up capital details on the MCA V3 portal." },
+            { "@type": "HowToStep", "name": "Attach proof and certify", "text": "Attach the bank proof and have the form certified by a practising CA, CS or CMA." },
+            { "@type": "HowToStep", "name": "Affix DSC and submit", "text": "Sign with the director's Digital Signature Certificate, then submit and pay the MCA fee." },
+            { "@type": "HowToStep", "name": "Receive the certificate", "text": "Once approved, the ROC issues the commencement of business certificate; save the SRN." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "INC-20A Filing Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Commencement of Business Certificate", "description": "The MCA confirmation that a company may legally start operations, obtained by filing INC-20A." },
+            { "@type": "DefinedTerm", "name": "Subscription Money", "description": "The value of shares each subscriber to the memorandum agrees to pay, which must be deposited before filing." },
+            { "@type": "DefinedTerm", "name": "Section 10A", "description": "The Companies Act provision mandating the declaration of commencement of business." },
+            { "@type": "DefinedTerm", "name": "Borrowing Powers", "description": "A company's ability to raise loans, which is suspended until INC-20A is filed." },
+            { "@type": "DefinedTerm", "name": "Registered Office Verification", "description": "Confirmation of the office under Section 12(2), a precondition for INC-20A." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1567,17 +1572,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1600,8 +1598,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1638,7 +1634,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1 (corrected): Last Updated mirrors schema dateModified — STABLE hardcoded date, never live new Date()
 (function() {
@@ -1649,3 +1644,19 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

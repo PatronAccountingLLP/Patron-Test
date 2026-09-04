@@ -1,206 +1,11 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>ASMT-10 Pune: ASMT-11 Reply</title>
-    <meta name="description" content="ASMT-10 notice CA in Pune: Form GST ASMT-10 reply via ASMT-11, hearing rep, prevent DRC-01 escalation. Rs 15K-30K. Call +91 945 945 6700.">
-    <link rel="canonical" href="/asmt-10-notice/pune">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="ASMT-10 Pune 2026: ASMT-11 Reply | Patron Accounting">
-    <meta property="og:description" content="ASMT-10 notice CA in Pune: Form GST ASMT-10 reply via ASMT-11, hearing rep, prevent DRC-01 escalation. Rs 15K-30K. Call +91 945 945 6700.">
-    <meta property="og:url" content="/asmt-10-notice/pune">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="ASMT-10 Pune 2026: ASMT-11 Reply | Patron Accounting">
-    <meta name="twitter:description" content="ASMT-10 notice CA in Pune: Form GST ASMT-10 reply via ASMT-11, hearing rep, prevent DRC-01 escalation. Rs 15K-30K. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-<script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/asmt-10-notice/pune#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "GST Notice",
-          "item": "https://www.patronaccounting.com/gst-notice"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "ASMT-10 Notice Pune",
-          "item": "https://www.patronaccounting.com/asmt-10-notice/pune"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/asmt-10-notice/pune#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is Form GST ASMT-10?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Form GST ASMT-10 is the scrutiny notice issued by the proper officer under Section 61(2) of the CGST Act 2017 read with Rule 99(1) of the CGST Rules 2017. It is issued when the officer notices a discrepancy in a registered person's returns through scrutiny - typically via DGARM system-driven flagging of mismatches in GSTR-1 vs GSTR-3B, GSTR-2A/2B vs GSTR-3B, GSTR-3B vs GSTR-9, e-way bill data or RCM under-reporting. ASMT-10 is NOT itself a tax demand; it seeks explanation. The taxpayer's reply is in Form GST ASMT-11 within 30 days. If explanation is acceptable, officer issues Form GST ASMT-12 (closure)."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "ASMT-10 reply time limit in GST?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The reply to Form GST ASMT-10 in Form GST ASMT-11 must be filed within 30 days from the date of service of ASMT-10 - per Rule 99(2) of the CGST Rules 2017. The 30-day window starts from the date the ASMT-10 is served (electronically uploaded to the GST portal and notified to the taxpayer's registered e-mail and mobile). Extension can be applied for via the GST portal on sufficient cause - the officer has discretion to extend. Missing the 30-day window without extension triggers escalation to Section 73 or 74 SCN via Form DRC-01."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Difference between ASMT-10 and DRC-01?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "ASMT-10 and DRC-01 are at fundamentally different stages of the GST proceedings lifecycle. Form GST ASMT-10 (under Section 61 / Rule 99) is the SCRUTINY notice - it seeks EXPLANATION for a flagged discrepancy and does NOT quantify tax demand. Form GST DRC-01 (under Section 73 / 74) is the SHOW CAUSE NOTICE - it quantifies tax plus interest plus proposed penalty and seeks reply within 30 days to defend against the demand. ASMT-10 is the precursor; DRC-01 is the demand stage. ASMT-10 carries no penalty; DRC-01 carries Section 73(9) or Section 74(9) penalty risk if adjudicated."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens if I do not reply to ASMT-10?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Failing to reply to Form GST ASMT-10 within the 30-day window (or extended window) triggers escalation under Section 61(3) of the CGST Act 2017. The proper officer may proceed under Section 65 (audit by tax authorities), Section 66 (special audit by a chartered accountant appointed by the Commissioner), Section 67 (inspection, search, seizure of premises and documents), Section 73 (non-fraud SCN via Form DRC-01 quantifying tax plus interest plus penalty), or Section 74 (fraud SCN via Form DRC-01 with much steeper penalty). The most common escalation is Section 73 SCN. Replying to ASMT-10 within 30 days is the lowest-cost intervention to prevent this cascade."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How to reply to ASMT-10 in Form ASMT-11?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Reply to Form GST ASMT-10 is filed in Form GST ASMT-11 on the GST portal (gst.gov.in) within 30 days of ASMT-10 service. The reply should contain: (a) point-by-point explanation for each discrepancy flagged by the officer, (b) reconciliation working showing how the data points reconcile (timing differences, vendor-non-compliance defence, eligible-ITC documentation), (c) supporting evidence as annexures (tax invoices, vendor payment proofs, GSTR-2A/2B downloads, e-way bill reports, books of accounts extracts), (d) statutory references with sections, rules and CBIC circulars supporting the position, and (e) Bombay High Court and AAR/AAAR precedents where applicable. Where the discrepancy includes a genuinely payable amount, consider concurrent Section 73(5) DRC-03 voluntary payment to lock NIL penalty."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does an ASMT-10 CA cost in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patron Pune CA fees for Form GST ASMT-10 handling range from Rs 15,000 to Rs 30,000 per notice - LOWER than SCN pricing because ASMT-10 is the pre-demand scrutiny stage. Basic single-discrepancy ASMT-10 at Rs 15,000. Standard multi-discrepancy ASMT-10 (GSTR-2A vs 3B plus e-way bill) at Rs 20,000 to Rs 25,000. Complex ASMT-10 with Rs 25-50 lakh discrepancy or with concurrent Section 73(5) DRC-03 path at Rs 30,000. ASMT-10 above Rs 50 lakh or with escalation risk at Rs 30,000 plus. Free 30-minute notice review with ASMT-12 closure-pathway assessment on initial intake. DRC-03 filing under Section 73(5): additional Rs 5,000."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is ASMT-12 and how is it different from ASMT-11?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Form GST ASMT-11 is the TAXPAYER'S REPLY to ASMT-10 - filed by the registered person on the GST portal within 30 days, containing explanation of each discrepancy with supporting evidence. Form GST ASMT-12 is the PROPER OFFICER'S ORDER - issued under Rule 99(3) when the officer finds the ASMT-11 explanation acceptable. ASMT-12 is the closure outcome that effectively terminates the scrutiny without any tax demand. Patron's Pune CA pod achieves ASMT-12 closure in 60 to 70 percent of typical Pune matters through closure-first ASMT-11 drafting discipline."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/asmt-10-notice/pune#service",
-      "name": "ASMT-10 GST Scrutiny Notice Reply in Pune",
-      "description": "Form GST ASMT-10 scrutiny notice reply service in Pune covering ASMT-11 drafting with reconciliation and supporting evidence, hearing representation at Pune-I and Pune-II CGST Commissionerates and Maharashtra State Tax Pune Circle, Form ASMT-12 closure pathway, Section 73(5) DRC-03 voluntary payment option, and escalation prevention to Section 73/74 DRC-01 SCN. Delivered by Patron Accounting LLP's Pune CA pod under Section 61 of the CGST Act 2017 read with Rule 99 of the CGST Rules 2017.",
-      "serviceType": "GST Scrutiny Notice Reply Service",
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      },
-      "areaServed": [
-        {
-          "@type": "City",
-          "name": "Pune",
-          "sameAs": "https://en.wikipedia.org/wiki/Pune"
-        },
-        {
-          "@type": "Country",
-          "name": "India",
-          "sameAs": "https://en.wikipedia.org/wiki/India"
-        }
-      ],
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Goods and Services Tax (India)",
-          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
-        },
-        {
-          "@type": "Thing",
-          "name": "Central Goods and Services Tax Act 2017",
-          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
-        },
-        {
-          "@type": "Thing",
-          "name": "Tax assessment",
-          "sameAs": "https://en.wikipedia.org/wiki/Tax_assessment"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "ASMT-10 Reply Service Plans (Pune)",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "name": "Basic ASMT-10 (Single-Discrepancy)",
-            "price": "15000",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/asmt-10-notice/pune"
-          },
-          {
-            "@type": "Offer",
-            "name": "Standard ASMT-10 (Multi-Discrepancy, single FY)",
-            "price": "20000",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/asmt-10-notice/pune"
-          },
-          {
-            "@type": "Offer",
-            "name": "Complex ASMT-10 (Rs 25-50 lakh OR DRC-03 path)",
-            "price": "30000",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/asmt-10-notice/pune"
-          },
-          {
-            "@type": "Offer",
-            "name": "Section 73(5) DRC-03 Voluntary Payment Filing",
-            "price": "5000",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/asmt-10-notice/pune"
-          }
-        ]
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -878,7 +683,207 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 }
 @media (max-width:768px) {section .content-text ul li:not(.nav-item){flex-wrap:wrap;}
 section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;max-width:100%;margin-bottom:2px;}}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>ASMT-10 Pune: ASMT-11 Reply</title>
+    <meta name="description" content="ASMT-10 notice CA in Pune: Form GST ASMT-10 reply via ASMT-11, hearing rep, prevent DRC-01 escalation. Rs 15K-30K. Call +91 945 945 6700.">
+    <link rel="canonical" href="/asmt-10-notice/pune">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="ASMT-10 Pune 2026: ASMT-11 Reply | Patron Accounting">
+    <meta property="og:description" content="ASMT-10 notice CA in Pune: Form GST ASMT-10 reply via ASMT-11, hearing rep, prevent DRC-01 escalation. Rs 15K-30K. Call +91 945 945 6700.">
+    <meta property="og:url" content="/asmt-10-notice/pune">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ASMT-10 Pune 2026: ASMT-11 Reply | Patron Accounting">
+    <meta name="twitter:description" content="ASMT-10 notice CA in Pune: Form GST ASMT-10 reply via ASMT-11, hearing rep, prevent DRC-01 escalation. Rs 15K-30K. Call +91 945 945 6700.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/asmt-10-notice/pune#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "GST Notice",
+          "item": "https://www.patronaccounting.com/gst-notice"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "ASMT-10 Notice Pune",
+          "item": "https://www.patronaccounting.com/asmt-10-notice/pune"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/asmt-10-notice/pune#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Form GST ASMT-10?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Form GST ASMT-10 is the scrutiny notice issued by the proper officer under Section 61(2) of the CGST Act 2017 read with Rule 99(1) of the CGST Rules 2017. It is issued when the officer notices a discrepancy in a registered person's returns through scrutiny - typically via DGARM system-driven flagging of mismatches in GSTR-1 vs GSTR-3B, GSTR-2A/2B vs GSTR-3B, GSTR-3B vs GSTR-9, e-way bill data or RCM under-reporting. ASMT-10 is NOT itself a tax demand; it seeks explanation. The taxpayer's reply is in Form GST ASMT-11 within 30 days. If explanation is acceptable, officer issues Form GST ASMT-12 (closure)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "ASMT-10 reply time limit in GST?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The reply to Form GST ASMT-10 in Form GST ASMT-11 must be filed within 30 days from the date of service of ASMT-10 - per Rule 99(2) of the CGST Rules 2017. The 30-day window starts from the date the ASMT-10 is served (electronically uploaded to the GST portal and notified to the taxpayer's registered e-mail and mobile). Extension can be applied for via the GST portal on sufficient cause - the officer has discretion to extend. Missing the 30-day window without extension triggers escalation to Section 73 or 74 SCN via Form DRC-01."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Difference between ASMT-10 and DRC-01?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ASMT-10 and DRC-01 are at fundamentally different stages of the GST proceedings lifecycle. Form GST ASMT-10 (under Section 61 / Rule 99) is the SCRUTINY notice - it seeks EXPLANATION for a flagged discrepancy and does NOT quantify tax demand. Form GST DRC-01 (under Section 73 / 74) is the SHOW CAUSE NOTICE - it quantifies tax plus interest plus proposed penalty and seeks reply within 30 days to defend against the demand. ASMT-10 is the precursor; DRC-01 is the demand stage. ASMT-10 carries no penalty; DRC-01 carries Section 73(9) or Section 74(9) penalty risk if adjudicated."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if I do not reply to ASMT-10?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Failing to reply to Form GST ASMT-10 within the 30-day window (or extended window) triggers escalation under Section 61(3) of the CGST Act 2017. The proper officer may proceed under Section 65 (audit by tax authorities), Section 66 (special audit by a chartered accountant appointed by the Commissioner), Section 67 (inspection, search, seizure of premises and documents), Section 73 (non-fraud SCN via Form DRC-01 quantifying tax plus interest plus penalty), or Section 74 (fraud SCN via Form DRC-01 with much steeper penalty). The most common escalation is Section 73 SCN. Replying to ASMT-10 within 30 days is the lowest-cost intervention to prevent this cascade."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to reply to ASMT-10 in Form ASMT-11?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reply to Form GST ASMT-10 is filed in Form GST ASMT-11 on the GST portal (gst.gov.in) within 30 days of ASMT-10 service. The reply should contain: (a) point-by-point explanation for each discrepancy flagged by the officer, (b) reconciliation working showing how the data points reconcile (timing differences, vendor-non-compliance defence, eligible-ITC documentation), (c) supporting evidence as annexures (tax invoices, vendor payment proofs, GSTR-2A/2B downloads, e-way bill reports, books of accounts extracts), (d) statutory references with sections, rules and CBIC circulars supporting the position, and (e) Bombay High Court and AAR/AAAR precedents where applicable. Where the discrepancy includes a genuinely payable amount, consider concurrent Section 73(5) DRC-03 voluntary payment to lock NIL penalty."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does an ASMT-10 CA cost in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patron Pune CA fees for Form GST ASMT-10 handling range from Rs 15,000 to Rs 30,000 per notice - LOWER than SCN pricing because ASMT-10 is the pre-demand scrutiny stage. Basic single-discrepancy ASMT-10 at Rs 15,000. Standard multi-discrepancy ASMT-10 (GSTR-2A vs 3B plus e-way bill) at Rs 20,000 to Rs 25,000. Complex ASMT-10 with Rs 25-50 lakh discrepancy or with concurrent Section 73(5) DRC-03 path at Rs 30,000. ASMT-10 above Rs 50 lakh or with escalation risk at Rs 30,000 plus. Free 30-minute notice review with ASMT-12 closure-pathway assessment on initial intake. DRC-03 filing under Section 73(5): additional Rs 5,000."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is ASMT-12 and how is it different from ASMT-11?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Form GST ASMT-11 is the TAXPAYER'S REPLY to ASMT-10 - filed by the registered person on the GST portal within 30 days, containing explanation of each discrepancy with supporting evidence. Form GST ASMT-12 is the PROPER OFFICER'S ORDER - issued under Rule 99(3) when the officer finds the ASMT-11 explanation acceptable. ASMT-12 is the closure outcome that effectively terminates the scrutiny without any tax demand. Patron's Pune CA pod achieves ASMT-12 closure in 60 to 70 percent of typical Pune matters through closure-first ASMT-11 drafting discipline."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/asmt-10-notice/pune#service",
+      "name": "ASMT-10 GST Scrutiny Notice Reply in Pune",
+      "description": "Form GST ASMT-10 scrutiny notice reply service in Pune covering ASMT-11 drafting with reconciliation and supporting evidence, hearing representation at Pune-I and Pune-II CGST Commissionerates and Maharashtra State Tax Pune Circle, Form ASMT-12 closure pathway, Section 73(5) DRC-03 voluntary payment option, and escalation prevention to Section 73/74 DRC-01 SCN. Delivered by Patron Accounting LLP's Pune CA pod under Section 61 of the CGST Act 2017 read with Rule 99 of the CGST Rules 2017.",
+      "serviceType": "GST Scrutiny Notice Reply Service",
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Pune",
+          "sameAs": "https://en.wikipedia.org/wiki/Pune"
+        },
+        {
+          "@type": "Country",
+          "name": "India",
+          "sameAs": "https://en.wikipedia.org/wiki/India"
+        }
+      ],
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Goods and Services Tax (India)",
+          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
+        },
+        {
+          "@type": "Thing",
+          "name": "Central Goods and Services Tax Act 2017",
+          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
+        },
+        {
+          "@type": "Thing",
+          "name": "Tax assessment",
+          "sameAs": "https://en.wikipedia.org/wiki/Tax_assessment"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "ASMT-10 Reply Service Plans (Pune)",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "Basic ASMT-10 (Single-Discrepancy)",
+            "price": "15000",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/asmt-10-notice/pune"
+          },
+          {
+            "@type": "Offer",
+            "name": "Standard ASMT-10 (Multi-Discrepancy, single FY)",
+            "price": "20000",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/asmt-10-notice/pune"
+          },
+          {
+            "@type": "Offer",
+            "name": "Complex ASMT-10 (Rs 25-50 lakh OR DRC-03 path)",
+            "price": "30000",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/asmt-10-notice/pune"
+          },
+          {
+            "@type": "Offer",
+            "name": "Section 73(5) DRC-03 Voluntary Payment Filing",
+            "price": "5000",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/asmt-10-notice/pune"
+          }
+        ]
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -2006,7 +2011,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 </script>
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

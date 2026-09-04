@@ -1,196 +1,8 @@
 @extends('layouts.app')
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
-@section('meta')
-    <title>GST Refund Time-Bar Calculator | Section 54(1) Limit</title>
-    <meta name="description" content="GST refund time-bar calculator under Section 54(1): check the 2-year limitation, relevant date by refund type and COVID extension before you file. Free CA tool!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/gst-refund-time-bar-calculator">
-    <meta property="og:title" content="GST Refund Time-Bar Calculator — Section 54(1) CGST 2026">
-    <meta property="og:description" content="Compute the 2-year time-bar for GST refund applications under Section 54(1). 8 refund types, relevant date logic, COVID extension. Free CA tool.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/gst-refund-time-bar-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="GST Refund Time-Bar Calculator — Section 54(1) CGST 2026">
-    <meta name="twitter:description" content="Compute the 2-year time-bar for GST refund applications. 8 refund types, COVID extension. Free CA tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-    <meta name="theme-color" content="#15365f">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "GST Refund Time-Bar Calculator (Section 54)",
-      "description": "GST Refund Time-Bar Calculator computes the two-year limitation period for filing a refund application under Section 54(1) of the Central Goods and Services Tax Act 2017, mapping each refund type to the appropriate limb of Explanation 2. The tool supports all eight categories: goods exported by sea or air with relevant date being the date the ship or aircraft leaves India, goods exported by land with relevant date being the date goods cross the frontier, goods exported by post with relevant date being the date of despatch by Post Office, deemed exports with relevant date being the date of furnishing return relating to such deemed exports, services exported with relevant date being date of foreign exchange receipt or date of invoice depending on whether supply or payment came first, refunds arising from appellate or judicial orders with relevant date being date of communication of order, refund of unutilized input tax credit under sub-section three with relevant date amended by Finance Act 2022 to be the due date for furnishing return under Section 39 for the period claim arises, provisional assessment finalisation with relevant date being date of adjustment, and any other case under residual limb (h) where relevant date is date of payment of tax. Output includes determined relevant date with statutory citation, exact time-bar date, days remaining, urgency status across four bands (Safe, Attention, Urgent, Time-Barred), and applicable note for the COVID-19 limitation extension under Notification 13/2022-Central Tax that excluded the period from 1 March 2020 to 28 February 2022 from limitation computation. Suitable for exporters claiming IGST refunds on zero-rated supplies, businesses with inverted duty structure refunds under Section 54(3), taxpayers seeking refund of excess cash ledger balance, deemed-export claimants, pre-deposit refund claimants under Sections 107(6) and 112(8), DRC-03 voluntary payment refund cases, and CA practitioners advising on refund eligibility under Mafatlal Industries doctrine.",
-      "url": "https://www.patronaccounting.com/tools/gst-refund-time-bar-calculator",
-      "applicationCategory": "FinanceApplication",
-      "operatingSystem": "Any",
-      "datePublished": "2026-05-07T08:00:00+05:30",
-      "dateModified": "2026-05-19T08:00:00+05:30",
-      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
-      "author": {
-        "@type": "Person",
-        "@id": "https://patronaccounting.com/#founder",
-        "name": "CA Sundram Gupta",
-        "jobTitle": "Founder & Chartered Accountant",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Institute of Chartered Accountants of India",
-            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-          }
-        }]
-      },
-      "publisher": { "@id": "https://patronaccounting.com/#organization" },
-      "provider": { "@id": "https://patronaccounting.com/#organization" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "GST Refund Time-Bar Calculator", "item": "https://www.patronaccounting.com/tools/gst-refund-time-bar-calculator"}
-      ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "datePublished": "2026-05-07T08:00:00+05:30",
-      "dateModified": "2026-05-19T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is the time limit for filing a GST refund?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 54(1) of the CGST Act 2017 requires any person claiming refund to file the application before expiry of two years from the relevant date. The application is filed in Form GST RFD-01 through the GST Portal. Failure to file within this period results in time-bar; the right to refund is extinguished. Courts have held the Limitation Act 1963 does not extend this period through Section 5 condonation, making strict tracking of the relevant date critical."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the relevant date under Section 54?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The relevant date is defined in Explanation 2 to Section 54 and varies by refund type. For goods exported by sea or air, it is the date the ship or aircraft leaves India. For services exported, the date of foreign exchange receipt or invoice issue. For deemed exports, the date the supplier files the return. For inverted duty refunds, the GSTR-3B due date. For appellate-pursuant refunds, the date of communication of the order."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is the relevant date for exports of goods determined?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Explanation 2(a) distinguishes three modes. For goods exported by sea or air, the relevant date is the date the ship or aircraft loaded with goods leaves India — typically the shipping bill or airway bill date where the export manifest is filed. For goods exported by land, it is the date goods pass the frontier. For goods exported by post, it is the despatch date at the Post Office. Shipping bill date is widely used as evidence."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the relevant date for export of services?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Explanation 2(c) provides two scenarios for services. Where supply was completed before payment, the relevant date is the date of receipt of payment in convertible foreign exchange or RBI-permitted Indian rupees. Where payment was received in advance before invoice issue, the relevant date is the date of invoice. The Bank Realisation Certificate or Foreign Inward Remittance Certificate evidences the FE receipt date. Tracking which trigger applies to each transaction is essential."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the relevant date for inverted duty structure refund?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "For refund of unutilised ITC under Section 54(3) on inverted duty structure, Explanation 2(e) was amended by the Finance Act 2022. The relevant date is now the due date for furnishing the return under Section 39 (GSTR-3B) for the period in which the claim for refund arises. Earlier interpretation pegged it to end of financial year. The amendment standardised the trigger to the GSTR-3B due date, providing certainty. Refund applications are filed monthly or quarterly depending on the registration profile."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does the COVID-19 limitation extension work?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Notification 13/2022-Central Tax dated 5 July 2022 issued under Section 168A of the CGST Act excluded the period from 1 March 2020 to 28 February 2022 (730 days) from computation of limitation under Section 54(1). Where the relevant date falls within this window or the two-year period overlaps it, the time-bar extends by the overlap. The extension is automatic and requires no application."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can the time-bar be extended through condonation?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 54 does not provide a condonation mechanism. The Mafatlal Industries doctrine and subsequent Supreme Court rulings establish that Section 5 of the Limitation Act 1963 does not apply to fiscal statutes like the CGST Act unless expressly extended. Once the two-year period expires, the right to refund is extinguished as a matter of law. The COVID extension under Notification 13/2022 is the only operative extension. Practitioners should treat the time-bar as absolute and file proactively well before expiry."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the relevant date for refund pursuant to an appeal order?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Where tax becomes refundable as a consequence of a judgment, decree, order, or direction of the Appellate Authority, Appellate Tribunal, or any court, Explanation 2(d) provides that the relevant date is the date of communication of such judgment or order to the taxpayer. The two-year clock starts on the communication date, not the order date. This is particularly relevant where orders are pronounced on one date but communicated weeks later. Always preserve the communication envelope or portal acknowledgment as evidence."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What if the deficiency memo causes refiling?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Where the proper officer issues Form GST RFD-03 deficiency memo within fifteen days, the original application is treated as not filed. The taxpayer must refile after curing deficiencies. Importantly, Rule 90(3) read with the second proviso to Section 54(1) protects the original filing date — the period from filing to deficiency communication is excluded from the two-year limitation. This prevents late deficiency memos from time-barring claims filed in time."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the residual limb (h)?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Explanation 2(h) is the catch-all for any refund scenario not falling within limbs (a) to (g). The relevant date is the date of payment of tax. Common applications include refund of excess tax paid voluntarily through DRC-03, refund of tax paid in error, and refunds not matching other limbs. Recent forum guidance confirms that for DRC-03 corrective payments post-audit, the DRC-03 payment date — not the original GSTR-3B date — is the relevant date."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I claim refund of excess cash ledger balance after 2 years?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 54 first proviso permits refund of cash ledger balance under Section 49(6) without the two-year time-bar in some interpretations, since the balance does not represent tax paid. Conservative practitioners apply the two-year limit anyway. The relevant date is treated as the date of deposit. Some High Courts hold the cash ledger balance is the taxpayer's asset not subject to limitation, but this remains a writ-friendly position rather than settled law."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens if I miss the time-bar?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Once the two-year window expires, the substantive right to refund is extinguished. The portal accepts the application but the proper officer rejects it as time-barred under Form GST RFD-08. Writ petitions citing equity, hardship, or administrative confusion have largely failed except where tied to the COVID extension. The only practical remedy is prevention — track the relevant date, file early, and respond to deficiency memos within 15 days."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is the Mafatlal Industries doctrine still good law?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. The Supreme Court's nine-judge bench decision in Mafatlal Industries vs Union of India (1997) remains foundational on tax refund limitation. The doctrine establishes that statutory limitation in fiscal statutes is mandatory and not procedural, that Section 5 of the Limitation Act 1963 does not apply unless expressly incorporated, and that the right to refund is purely statutory. Practitioners must treat Section 54(1) limitation as a substantive bar."
-          }
-        }
-      ]
-    }
-    </script>
-@endsection
-
 <style>
         :root {
             --primary: #15365f;
@@ -435,7 +247,195 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 }
 
 </style>
+@endpush
 
+@section('meta')
+    <title>GST Refund Time-Bar Calculator | Section 54(1) Limit</title>
+    <meta name="description" content="GST refund time-bar calculator under Section 54(1): check the 2-year limitation, relevant date by refund type and COVID extension before you file. Free CA tool!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/gst-refund-time-bar-calculator">
+    <meta property="og:title" content="GST Refund Time-Bar Calculator — Section 54(1) CGST 2026">
+    <meta property="og:description" content="Compute the 2-year time-bar for GST refund applications under Section 54(1). 8 refund types, relevant date logic, COVID extension. Free CA tool.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/gst-refund-time-bar-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GST Refund Time-Bar Calculator — Section 54(1) CGST 2026">
+    <meta name="twitter:description" content="Compute the 2-year time-bar for GST refund applications. 8 refund types, COVID extension. Free CA tool.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+    <meta name="theme-color" content="#15365f">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "GST Refund Time-Bar Calculator (Section 54)",
+      "description": "GST Refund Time-Bar Calculator computes the two-year limitation period for filing a refund application under Section 54(1) of the Central Goods and Services Tax Act 2017, mapping each refund type to the appropriate limb of Explanation 2. The tool supports all eight categories: goods exported by sea or air with relevant date being the date the ship or aircraft leaves India, goods exported by land with relevant date being the date goods cross the frontier, goods exported by post with relevant date being the date of despatch by Post Office, deemed exports with relevant date being the date of furnishing return relating to such deemed exports, services exported with relevant date being date of foreign exchange receipt or date of invoice depending on whether supply or payment came first, refunds arising from appellate or judicial orders with relevant date being date of communication of order, refund of unutilized input tax credit under sub-section three with relevant date amended by Finance Act 2022 to be the due date for furnishing return under Section 39 for the period claim arises, provisional assessment finalisation with relevant date being date of adjustment, and any other case under residual limb (h) where relevant date is date of payment of tax. Output includes determined relevant date with statutory citation, exact time-bar date, days remaining, urgency status across four bands (Safe, Attention, Urgent, Time-Barred), and applicable note for the COVID-19 limitation extension under Notification 13/2022-Central Tax that excluded the period from 1 March 2020 to 28 February 2022 from limitation computation. Suitable for exporters claiming IGST refunds on zero-rated supplies, businesses with inverted duty structure refunds under Section 54(3), taxpayers seeking refund of excess cash ledger balance, deemed-export claimants, pre-deposit refund claimants under Sections 107(6) and 112(8), DRC-03 voluntary payment refund cases, and CA practitioners advising on refund eligibility under Mafatlal Industries doctrine.",
+      "url": "https://www.patronaccounting.com/tools/gst-refund-time-bar-calculator",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Any",
+      "datePublished": "2026-05-07T08:00:00+05:30",
+      "dateModified": "2026-05-19T08:00:00+05:30",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
+      "author": {
+        "@type": "Person",
+        "@id": "https://patronaccounting.com/#founder",
+        "name": "CA Sundram Gupta",
+        "jobTitle": "Founder & Chartered Accountant",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Institute of Chartered Accountants of India",
+            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+          }
+        }]
+      },
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": { "@id": "https://patronaccounting.com/#organization" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "GST Refund Time-Bar Calculator", "item": "https://www.patronaccounting.com/tools/gst-refund-time-bar-calculator"}
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "datePublished": "2026-05-07T08:00:00+05:30",
+      "dateModified": "2026-05-19T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the time limit for filing a GST refund?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 54(1) of the CGST Act 2017 requires any person claiming refund to file the application before expiry of two years from the relevant date. The application is filed in Form GST RFD-01 through the GST Portal. Failure to file within this period results in time-bar; the right to refund is extinguished. Courts have held the Limitation Act 1963 does not extend this period through Section 5 condonation, making strict tracking of the relevant date critical."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the relevant date under Section 54?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The relevant date is defined in Explanation 2 to Section 54 and varies by refund type. For goods exported by sea or air, it is the date the ship or aircraft leaves India. For services exported, the date of foreign exchange receipt or invoice issue. For deemed exports, the date the supplier files the return. For inverted duty refunds, the GSTR-3B due date. For appellate-pursuant refunds, the date of communication of the order."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the relevant date for exports of goods determined?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Explanation 2(a) distinguishes three modes. For goods exported by sea or air, the relevant date is the date the ship or aircraft loaded with goods leaves India — typically the shipping bill or airway bill date where the export manifest is filed. For goods exported by land, it is the date goods pass the frontier. For goods exported by post, it is the despatch date at the Post Office. Shipping bill date is widely used as evidence."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the relevant date for export of services?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Explanation 2(c) provides two scenarios for services. Where supply was completed before payment, the relevant date is the date of receipt of payment in convertible foreign exchange or RBI-permitted Indian rupees. Where payment was received in advance before invoice issue, the relevant date is the date of invoice. The Bank Realisation Certificate or Foreign Inward Remittance Certificate evidences the FE receipt date. Tracking which trigger applies to each transaction is essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the relevant date for inverted duty structure refund?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For refund of unutilised ITC under Section 54(3) on inverted duty structure, Explanation 2(e) was amended by the Finance Act 2022. The relevant date is now the due date for furnishing the return under Section 39 (GSTR-3B) for the period in which the claim for refund arises. Earlier interpretation pegged it to end of financial year. The amendment standardised the trigger to the GSTR-3B due date, providing certainty. Refund applications are filed monthly or quarterly depending on the registration profile."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does the COVID-19 limitation extension work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Notification 13/2022-Central Tax dated 5 July 2022 issued under Section 168A of the CGST Act excluded the period from 1 March 2020 to 28 February 2022 (730 days) from computation of limitation under Section 54(1). Where the relevant date falls within this window or the two-year period overlaps it, the time-bar extends by the overlap. The extension is automatic and requires no application."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can the time-bar be extended through condonation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 54 does not provide a condonation mechanism. The Mafatlal Industries doctrine and subsequent Supreme Court rulings establish that Section 5 of the Limitation Act 1963 does not apply to fiscal statutes like the CGST Act unless expressly extended. Once the two-year period expires, the right to refund is extinguished as a matter of law. The COVID extension under Notification 13/2022 is the only operative extension. Practitioners should treat the time-bar as absolute and file proactively well before expiry."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the relevant date for refund pursuant to an appeal order?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Where tax becomes refundable as a consequence of a judgment, decree, order, or direction of the Appellate Authority, Appellate Tribunal, or any court, Explanation 2(d) provides that the relevant date is the date of communication of such judgment or order to the taxpayer. The two-year clock starts on the communication date, not the order date. This is particularly relevant where orders are pronounced on one date but communicated weeks later. Always preserve the communication envelope or portal acknowledgment as evidence."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if the deficiency memo causes refiling?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Where the proper officer issues Form GST RFD-03 deficiency memo within fifteen days, the original application is treated as not filed. The taxpayer must refile after curing deficiencies. Importantly, Rule 90(3) read with the second proviso to Section 54(1) protects the original filing date — the period from filing to deficiency communication is excluded from the two-year limitation. This prevents late deficiency memos from time-barring claims filed in time."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the residual limb (h)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Explanation 2(h) is the catch-all for any refund scenario not falling within limbs (a) to (g). The relevant date is the date of payment of tax. Common applications include refund of excess tax paid voluntarily through DRC-03, refund of tax paid in error, and refunds not matching other limbs. Recent forum guidance confirms that for DRC-03 corrective payments post-audit, the DRC-03 payment date — not the original GSTR-3B date — is the relevant date."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I claim refund of excess cash ledger balance after 2 years?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 54 first proviso permits refund of cash ledger balance under Section 49(6) without the two-year time-bar in some interpretations, since the balance does not represent tax paid. Conservative practitioners apply the two-year limit anyway. The relevant date is treated as the date of deposit. Some High Courts hold the cash ledger balance is the taxpayer's asset not subject to limitation, but this remains a writ-friendly position rather than settled law."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if I miss the time-bar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Once the two-year window expires, the substantive right to refund is extinguished. The portal accepts the application but the proper officer rejects it as time-barred under Form GST RFD-08. Writ petitions citing equity, hardship, or administrative confusion have largely failed except where tied to the COVID extension. The only practical remedy is prevention — track the relevant date, file early, and respond to deficiency memos within 15 days."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the Mafatlal Industries doctrine still good law?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The Supreme Court's nine-judge bench decision in Mafatlal Industries vs Union of India (1997) remains foundational on tax refund limitation. The doctrine establishes that statutory limitation in fiscal statutes is mandatory and not procedural, that Section 5 of the Limitation Act 1963 does not apply unless expressly incorporated, and that the right to refund is purely statutory. Practitioners must treat Section 54(1) limitation as a substantive bar."
+          }
+        }
+      ]
+    }
+    </script>
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Tool navigation">
     <div class="toc-nav-inner">

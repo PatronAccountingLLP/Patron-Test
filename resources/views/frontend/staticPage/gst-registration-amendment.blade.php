@@ -1,155 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>GST Registration Amendment 2026: REG-14 | Patron Accounting</title>
-    <meta name="description" content="Amend GST registration through Form REG-14 for address, partner, signatory and trade name changes. Core fields need officer approval. Starting at Rs 999.">
-    <link rel="canonical" href="/gst-registration-amendment">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="GST Registration Amendment 2026: REG-14 | Patron Accounting">
-    <meta property="og:description" content="Amend GST registration through Form REG-14 for address, partner, signatory and trade name changes. Core fields need officer approval. Starting at Rs 999.">
-    <meta property="og:url" content="/gst-registration-amendment">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="GST Registration Amendment 2026: REG-14 | Patron Accounting">
-    <meta name="twitter:description" content="Amend GST registration through Form REG-14 for address, partner, signatory and trade name changes. Core fields need officer approval. Starting at Rs 999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/gst-registration-amendment/#service",
-        "name": "GST Registration Amendment in India",
-        "description": "Patron Accounting LLP files Form GST REG-14 for amendment of GST registration particulars under Section 25(2) of the CGST Act, 2017 and Rule 19 of the CGST Rules, 2017. The service covers core and non-core field classification, documentation, end to end portal filing, reply to Form GST REG-03 show cause notice and post amendment compliance refresh.",
-        "serviceType": "Tax Compliance Service",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-registration-amendment" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [
-            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
-            { "@type": "Thing", "name": "Central Board of Indirect Taxes and Customs", "sameAs": "https://en.wikipedia.org/wiki/Central_Board_of_Indirect_Taxes_and_Customs" }
-        ],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "GST Registration Amendment Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "GST Registration Amendment - Form REG-14 End to End",
-                    "priceCurrency": "INR",
-                    "price": "999",
-                    "description": "Single change, core or non-core field classification, documentation, end to end filing, and reply to Form GST REG-03"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/gst-registration-amendment/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
-            { "@type": "ListItem", "position": 3, "name": "GST Registration Amendment", "item": "https://www.patronaccounting.com/gst-registration-amendment" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/gst-registration-amendment/#faq",
-        "datePublished": "2026-05-26T08:00:00+05:30",
-        "dateModified": "2026-06-01T08:00:00+05:30",
-        "mainEntity": [
-
-            {
-                "@type": "Question",
-                "name": "What is Form GST REG-14?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Form GST REG-14 is the application form prescribed under Rule 19 of the CGST Rules, 2017 for amending any particulars of a GST registration. It is used by every registered person, including under Rule 14A, to update legal name, principal or additional place of business, partners or directors, authorised signatory, bank details and other registration fields on the GST common portal."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the difference between core and non-core fields in GST amendment?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Core fields require approval by the proper officer within 15 working days through Form GST REG-15. Core fields include legal name without PAN change, principal place of business, additional places within the same State, and addition or deletion of partners, directors, Karta, trustees or CEO. Non-core fields cover all other particulars such as bank account, mobile number, email, business activity codes and HSN or SAC, and are auto-approved on the portal."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the time limit to file GST registration amendment?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "15 days from the date of the change, as required by Section 25(2) of the CGST Act, 2017. Late filing exposes the taxpayer to general penalty under Section 125 of the CGST Act of up to Rs 25,000, plus an equal amount under the State or UT GST Act, in addition to operational risks on invoices, e-way bills and Input Tax Credit matching."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can I change PAN in GST registration through amendment?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "No. The proviso to Rule 19 of the CGST Rules, 2017 expressly bars amendment where the change in business constitution results in a change of PAN. In such cases, the taxpayer must apply for fresh registration in Form GST REG-01 for the new PAN and may transfer Input Tax Credit through Form GST ITC-02 from the old GSTIN to the new one."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What happens if I miss the 15 day window for amendment?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "You may still file Form GST REG-14, but the proper officer can initiate proceedings under Section 125 of the CGST Act for general penalty of up to Rs 25,000 and an equal amount under the SGST or UTGST Act. Operating with stale registration particulars also exposes you to invoice rejection, e-way bill blockage and Input Tax Credit mismatch issues for your buyers."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How long does a core field amendment take?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "The proper officer must act within 15 working days of receipt of Form GST REG-14. If approved, Form GST REG-15 is issued. If not acted upon within 15 working days, the amendment is deemed approved by operation of Rule 19. Where the officer issues Form GST REG-03 show cause notice, the cycle extends by the 7 working day reply window in Form GST REG-04 plus further officer review."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Is there a government fee for filing GST REG-14?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "No. The GST common portal does not levy any government fee for filing Form GST REG-14. Patron Accounting Professional Fees, starting from Rs 999 plus applicable GST and government charges, cover field classification, documentation, end to end filing and any Form GST REG-03 reply work."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can I file amendment in multiple core fields together?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. A single Form GST REG-14 can amend multiple core fields simultaneously - for example a change in principal place of business along with addition of a director. Patron Accounting recommends combining changes where they are dated close together to avoid multiple officer reviews and conserve compliance bandwidth."
-                }
-            }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -763,7 +618,157 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>GST Registration Amendment 2026: REG-14 | Patron Accounting</title>
+    <meta name="description" content="Amend GST registration through Form REG-14 for address, partner, signatory and trade name changes. Core fields need officer approval. Starting at Rs 999.">
+    <link rel="canonical" href="/gst-registration-amendment">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="GST Registration Amendment 2026: REG-14 | Patron Accounting">
+    <meta property="og:description" content="Amend GST registration through Form REG-14 for address, partner, signatory and trade name changes. Core fields need officer approval. Starting at Rs 999.">
+    <meta property="og:url" content="/gst-registration-amendment">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GST Registration Amendment 2026: REG-14 | Patron Accounting">
+    <meta name="twitter:description" content="Amend GST registration through Form REG-14 for address, partner, signatory and trade name changes. Core fields need officer approval. Starting at Rs 999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/gst-registration-amendment/#service",
+        "name": "GST Registration Amendment in India",
+        "description": "Patron Accounting LLP files Form GST REG-14 for amendment of GST registration particulars under Section 25(2) of the CGST Act, 2017 and Rule 19 of the CGST Rules, 2017. The service covers core and non-core field classification, documentation, end to end portal filing, reply to Form GST REG-03 show cause notice and post amendment compliance refresh.",
+        "serviceType": "Tax Compliance Service",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-registration-amendment" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [
+            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
+            { "@type": "Thing", "name": "Central Board of Indirect Taxes and Customs", "sameAs": "https://en.wikipedia.org/wiki/Central_Board_of_Indirect_Taxes_and_Customs" }
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "GST Registration Amendment Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "GST Registration Amendment - Form REG-14 End to End",
+                    "priceCurrency": "INR",
+                    "price": "999",
+                    "description": "Single change, core or non-core field classification, documentation, end to end filing, and reply to Form GST REG-03"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/gst-registration-amendment/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
+            { "@type": "ListItem", "position": 3, "name": "GST Registration Amendment", "item": "https://www.patronaccounting.com/gst-registration-amendment" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/gst-registration-amendment/#faq",
+        "datePublished": "2026-05-26T08:00:00+05:30",
+        "dateModified": "2026-06-01T08:00:00+05:30",
+        "mainEntity": [
+
+            {
+                "@type": "Question",
+                "name": "What is Form GST REG-14?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Form GST REG-14 is the application form prescribed under Rule 19 of the CGST Rules, 2017 for amending any particulars of a GST registration. It is used by every registered person, including under Rule 14A, to update legal name, principal or additional place of business, partners or directors, authorised signatory, bank details and other registration fields on the GST common portal."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the difference between core and non-core fields in GST amendment?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Core fields require approval by the proper officer within 15 working days through Form GST REG-15. Core fields include legal name without PAN change, principal place of business, additional places within the same State, and addition or deletion of partners, directors, Karta, trustees or CEO. Non-core fields cover all other particulars such as bank account, mobile number, email, business activity codes and HSN or SAC, and are auto-approved on the portal."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the time limit to file GST registration amendment?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "15 days from the date of the change, as required by Section 25(2) of the CGST Act, 2017. Late filing exposes the taxpayer to general penalty under Section 125 of the CGST Act of up to Rs 25,000, plus an equal amount under the State or UT GST Act, in addition to operational risks on invoices, e-way bills and Input Tax Credit matching."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can I change PAN in GST registration through amendment?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No. The proviso to Rule 19 of the CGST Rules, 2017 expressly bars amendment where the change in business constitution results in a change of PAN. In such cases, the taxpayer must apply for fresh registration in Form GST REG-01 for the new PAN and may transfer Input Tax Credit through Form GST ITC-02 from the old GSTIN to the new one."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What happens if I miss the 15 day window for amendment?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "You may still file Form GST REG-14, but the proper officer can initiate proceedings under Section 125 of the CGST Act for general penalty of up to Rs 25,000 and an equal amount under the SGST or UTGST Act. Operating with stale registration particulars also exposes you to invoice rejection, e-way bill blockage and Input Tax Credit mismatch issues for your buyers."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How long does a core field amendment take?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The proper officer must act within 15 working days of receipt of Form GST REG-14. If approved, Form GST REG-15 is issued. If not acted upon within 15 working days, the amendment is deemed approved by operation of Rule 19. Where the officer issues Form GST REG-03 show cause notice, the cycle extends by the 7 working day reply window in Form GST REG-04 plus further officer review."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is there a government fee for filing GST REG-14?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No. The GST common portal does not levy any government fee for filing Form GST REG-14. Patron Accounting Professional Fees, starting from Rs 999 plus applicable GST and government charges, cover field classification, documentation, end to end filing and any Form GST REG-03 reply work."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can I file amendment in multiple core fields together?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. A single Form GST REG-14 can amend multiple core fields simultaneously - for example a change in principal place of business along with addition of a director. Patron Accounting recommends combining changes where they are dated close together to avoid multiple officer reviews and conserve compliance bandwidth."
+                }
+            }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1666,17 +1671,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1699,8 +1697,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1737,7 +1733,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1748,4 +1743,20 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+
 

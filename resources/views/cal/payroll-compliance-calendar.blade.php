@@ -1,210 +1,8 @@
 @extends('layouts.app')
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
-@section('meta')
-    <title>Payroll Compliance Calendar India | Due Dates 2026</title>
-    <meta name="description" content="Payroll compliance calendar India 2026: TDS, PF, ESI, professional tax, LWF &amp; Form 16 due dates by month and state, with late filing penalties. Free CA tool.">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/payroll-compliance-calendar">
-    <meta property="og:title" content="India Payroll Compliance Calendar 2026 — Due Dates">
-    <meta property="og:description" content="All India payroll compliance deadlines: TDS, PF, ESI, PT, LWF, Form 16, statutory bonus. State-wise filtering, urgency colour coding, late penalty info.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/payroll-compliance-calendar">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="India Payroll Compliance Calendar 2026 — Due Dates">
-    <meta name="twitter:description" content="All payroll compliance deadlines for India. TDS, PF, ESI, PT, LWF, Form 16, bonus. State-wise. Free CA tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-    <meta name="theme-color" content="#15365f">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebApplication",
-      "name": "India Payroll Compliance Calendar",
-      "description": "India Payroll Compliance Calendar lists every statutory payroll due date applicable to an Indian employer through Financial Year 2025-26 and beyond, covering monthly, quarterly, half-yearly and annual filings under Indian labour and tax laws. The tool covers Tax Deducted at Source on salary under Section 192 of the Income-tax Act, 1961 (deposit by the seventh of the following month, with March deposits due by the thirtieth of April), Provident Fund Electronic Challan-cum-Return submission to the Employees Provident Fund Organisation by the fifteenth of the following month, Employees State Insurance contribution remittance by the fifteenth of the following month, professional tax remittance and return at state-specific rates and dates under Article 276 of the Constitution of India, Labour Welfare Fund contribution at state-specific half-yearly or annual rates, statutory bonus payment under the Payment of Bonus Act, 1965 within eight months of the close of the accounting year, Form 16 issuance to employees by the fifteenth of June for the immediately preceding financial year per Rule 31 of the Income-tax Rules, quarterly Form 24Q return for salary TDS by the thirty-first of July, October, January and May for the four quarters of the financial year, the annual report under the Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013 by the thirty-first of January, and the annual return ER-1 by the thirtieth of April. The tool incorporates state-specific variations across twelve major Indian states for professional tax remittance dates and Labour Welfare Fund schedules, the four Labour Codes effective from 21 November 2025 — the Code on Wages, 2019, the Industrial Relations Code, 2020, the Code on Social Security, 2020 and the Occupational Safety, Health and Working Conditions Code, 2020 — and the late filing penalty regime including interest at one and a half per cent per month on delayed TDS deposit under Section 201, twelve per cent per annum interest plus damages of five to twenty five per cent on delayed Provident Fund contribution under Section 14B of the Provident Funds Act, twelve per cent per annum simple interest on delayed Employees State Insurance contribution, and state-specific penalty rates for delayed professional tax remittance.",
-      "url": "https://www.patronaccounting.com/tools/payroll-compliance-calendar",
-      "applicationCategory": "FinanceApplication",
-      "operatingSystem": "Any",
-      "datePublished": "2026-05-08T08:00:00+05:30",
-      "dateModified": "2026-05-08T08:00:00+05:30",
-      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
-      "author": {
-        "@type": "Person",
-        "@id": "https://patronaccounting.com/#founder",
-        "name": "CA Sundram Gupta",
-        "jobTitle": "Founder & Chartered Accountant",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Institute of Chartered Accountants of India",
-            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-          }
-        }]
-      },
-      "publisher": { "@id": "https://patronaccounting.com/#organization" },
-      "provider": {"@id": "https://patronaccounting.com/#organization"}
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Payroll Compliance Calendar", "item": "https://www.patronaccounting.com/tools/payroll-compliance-calendar"}
-      ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "When is TDS on salary due to be deposited?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "TDS on salary deducted under Section 192 of the Income-tax Act 1961 is due to be deposited by the 7th of the following month. For example, TDS deducted from May salary must be deposited by 7 June. The exception is March TDS — for March salary, TDS deposit is due by 30 April rather than 7 April. Late deposit attracts interest at 1.5% per month under Section 201 plus penalty under Section 271C."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the due date for PF monthly challan?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The Provident Fund Electronic Challan-cum-Return (ECR) is due by the 15th of the following month. For example, PF for May wages is due by 15 June. The ECR captures employee and employer contributions of 12% each, EDLI charges of 0.5% on capped wages and admin charges of 0.5% on capped wages. Late deposit attracts simple interest at 12% per annum under Section 7Q plus damages of 5% to 25% under Section 14B of the Employees Provident Funds Act."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "When is the ESI monthly contribution due?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Employees State Insurance contribution is due by the 15th of the following month. For example, ESI for May wages is due by 15 June. The employer contributes 3.25% of gross wages and the employee contributes 0.75%, applicable to employees with gross monthly wages of ₹21,000 or below. Late payment attracts simple interest at 12% per annum, plus damages of 5% to 25% depending on the period of delay under Regulation 31 of the ESI General Regulations 1950."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are the quarterly TDS return due dates?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Form 24Q for salary TDS and Form 26Q for non-salary TDS are filed quarterly with these due dates: Quarter 1 covering April-June is due by 31 July; Quarter 2 covering July-September is due by 31 October; Quarter 3 covering October-December is due by 31 January; Quarter 4 covering January-March is due by 31 May. Late filing attracts a fee of ₹200 per day under Section 234E plus penalty under Section 271H ranging from ₹10,000 to ₹1,00,000."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "When must Form 16 be issued to employees?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Form 16, the TDS certificate for salary, must be issued to employees by 15 June for the immediately preceding financial year ending 31 March, per Rule 31 of the Income-tax Rules 1962. Form 16 has two parts — Part A is generated from the TRACES portal containing TDS details, and Part B is prepared by the employer with salary breakup, deductions and tax computation. Late issuance attracts penalty of ₹100 per day per employee under Section 272A(2)."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the deadline for paying statutory bonus?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Under Section 19 of the Payment of Bonus Act 1965, statutory bonus must be paid within 8 months of the close of the accounting year. For an accounting year ending 31 March, the bonus must be paid by 30 November. The minimum bonus is 8.33% and the maximum is 20% of basic plus dearness allowance, Applies to employees earning ≤₹21,000/month in 20+ employee establishments. Form D bonus return must be filed within 30 days of payment."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do professional tax due dates vary by state?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Professional tax monthly remittance dates vary by state: Maharashtra by end of next month, Karnataka by 20th, Tamil Nadu half-yearly by 1 April and 1 October, Telangana by 10th, West Bengal by 21st, Gujarat by 15th, Andhra Pradesh by 10th, Odisha by 21st, Madhya Pradesh by 10th. Delhi, Haryana, Punjab and Uttar Pradesh do not levy professional tax. Late payment attracts interest at 1.25% to 2% per month and penalty up to 50% of tax due, varying by state legislation."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "When is Labour Welfare Fund contribution due?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Labour Welfare Fund contribution dates vary by state. Maharashtra requires half-yearly remittance by 31 January (for July to December period) and 31 July (for January to June period). Karnataka requires annual remittance by 15 January for the previous calendar year. Tamil Nadu requires annual contribution by 31 January. Gujarat requires by 15 July. West Bengal requires half-yearly by 31 January and 31 July. Several states have no LWF — Delhi, Haryana and Uttar Pradesh."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the POSH annual report deadline?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The annual report under the Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act 2013 must be submitted to the District Officer by 31 January every year for complaints received in the previous calendar year ending 31 December. The report covers number of complaints filed, disposed of, pending beyond 90 days, and workshops conducted. Failure to submit attracts penalty up to ₹50,000, and repeat offences may lead to cancellation of business licence."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the penalty for late TDS deposit?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Late TDS deposit attracts interest at 1.5% per month under Section 201(1A), calculated from the date of TDS deduction to the date of actual deposit, even for partial month. In addition, penalty under Section 271C may be imposed equal to the amount of TDS not deposited. Disallowance of expenditure under Section 40(a)(ia) may also apply for non-deduction or late deposit, disallowing 30% of the expense. Prosecution under Section 276B is possible for wilful default."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Are there separate TDS deposit dates for non-government deductors?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "TDS deposit dates apply uniformly to all deductors except for government departments. Non-government deductors deposit TDS by the 7th of the following month, with March TDS due by 30 April. Government departments paying without challan deposit on the same day TDS is deducted; with challan, by the 7th of the following month. The unified date applies to all sections including 192 (salary), 194A (interest), 194C (contracts), 194J (professional fees), and 194Q (purchase of goods)."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "When must investment proofs be submitted by employees?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Investment proof submission deadline is set internally by the employer, typically falling between 28 January and 28 February each year. Most employers issue a written investment declaration form in April-May for projected investments, then collect physical or digital proof in January-February before final tax computation for Form 16. Late submission means the employer must compute final TDS based on actual proofs submitted, often resulting in a tax shortfall recovered from March salary or refunded by the employee from their ITR."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which payroll deadlines fall in March each year?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "March is the busiest payroll month. Key deadlines include: 7 March for February TDS deposit; 15 March for February PF and ESI; 31 March for full-year PT in Maharashtra; 31 March for the financial year close requiring tax projection finalisation, investment proof verification, leave encashment provision, gratuity actuarial valuation, and bonus accrual booking. The very next month carries 30 April for March TDS deposit (year-end exception), and 30 April for the annual return ER-1."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What happens if I miss a payroll compliance deadline?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Missing payroll deadlines triggers cascading consequences: interest accrues on the unpaid amount at 12 to 18% per annum, late filing fees apply where return-based, statutory penalties apply under specific sections, expenditure disallowance under Section 40(a)(ia) for delayed TDS reduces the deductible expense by 30%, and repeat defaults can attract prosecution. The employee benefits get delayed — PF interest on contributions, gratuity service crediting and ESI claim eligibility. Always file even if late to stop the meter."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Has the new Labour Code 2025 changed payroll compliance dates?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The four Labour Codes effective 21 November 2025 have not changed the existing payroll compliance dates for PF, ESI, TDS, professional tax, LWF or statutory bonus, which remain governed by the underlying source laws. The Codes have changed substantive aspects: the wages definition now requires basic to be at least 50% of CTC, raising PF and gratuity computation bases, and fixed-term employees become gratuity-eligible after 1 year. Compliance dates and forms continue under the existing schedule until further notification."
-          }
-        }
-      ]
-    }
-    </script>
-@endsection
-
 <style>
         :root {
             --primary: #15365f;
@@ -481,7 +279,209 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 }
 
 </style>
+@endpush
 
+@section('meta')
+    <title>Payroll Compliance Calendar India | Due Dates 2026</title>
+    <meta name="description" content="Payroll compliance calendar India 2026: TDS, PF, ESI, professional tax, LWF &amp; Form 16 due dates by month and state, with late filing penalties. Free CA tool.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/payroll-compliance-calendar">
+    <meta property="og:title" content="India Payroll Compliance Calendar 2026 — Due Dates">
+    <meta property="og:description" content="All India payroll compliance deadlines: TDS, PF, ESI, PT, LWF, Form 16, statutory bonus. State-wise filtering, urgency colour coding, late penalty info.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/payroll-compliance-calendar">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="India Payroll Compliance Calendar 2026 — Due Dates">
+    <meta name="twitter:description" content="All payroll compliance deadlines for India. TDS, PF, ESI, PT, LWF, Form 16, bonus. State-wise. Free CA tool.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+    <meta name="theme-color" content="#15365f">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "India Payroll Compliance Calendar",
+      "description": "India Payroll Compliance Calendar lists every statutory payroll due date applicable to an Indian employer through Financial Year 2025-26 and beyond, covering monthly, quarterly, half-yearly and annual filings under Indian labour and tax laws. The tool covers Tax Deducted at Source on salary under Section 192 of the Income-tax Act, 1961 (deposit by the seventh of the following month, with March deposits due by the thirtieth of April), Provident Fund Electronic Challan-cum-Return submission to the Employees Provident Fund Organisation by the fifteenth of the following month, Employees State Insurance contribution remittance by the fifteenth of the following month, professional tax remittance and return at state-specific rates and dates under Article 276 of the Constitution of India, Labour Welfare Fund contribution at state-specific half-yearly or annual rates, statutory bonus payment under the Payment of Bonus Act, 1965 within eight months of the close of the accounting year, Form 16 issuance to employees by the fifteenth of June for the immediately preceding financial year per Rule 31 of the Income-tax Rules, quarterly Form 24Q return for salary TDS by the thirty-first of July, October, January and May for the four quarters of the financial year, the annual report under the Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013 by the thirty-first of January, and the annual return ER-1 by the thirtieth of April. The tool incorporates state-specific variations across twelve major Indian states for professional tax remittance dates and Labour Welfare Fund schedules, the four Labour Codes effective from 21 November 2025 — the Code on Wages, 2019, the Industrial Relations Code, 2020, the Code on Social Security, 2020 and the Occupational Safety, Health and Working Conditions Code, 2020 — and the late filing penalty regime including interest at one and a half per cent per month on delayed TDS deposit under Section 201, twelve per cent per annum interest plus damages of five to twenty five per cent on delayed Provident Fund contribution under Section 14B of the Provident Funds Act, twelve per cent per annum simple interest on delayed Employees State Insurance contribution, and state-specific penalty rates for delayed professional tax remittance.",
+      "url": "https://www.patronaccounting.com/tools/payroll-compliance-calendar",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Any",
+      "datePublished": "2026-05-08T08:00:00+05:30",
+      "dateModified": "2026-05-08T08:00:00+05:30",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
+      "author": {
+        "@type": "Person",
+        "@id": "https://patronaccounting.com/#founder",
+        "name": "CA Sundram Gupta",
+        "jobTitle": "Founder & Chartered Accountant",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Institute of Chartered Accountants of India",
+            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+          }
+        }]
+      },
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": {"@id": "https://patronaccounting.com/#organization"}
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Payroll Compliance Calendar", "item": "https://www.patronaccounting.com/tools/payroll-compliance-calendar"}
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "When is TDS on salary due to be deposited?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "TDS on salary deducted under Section 192 of the Income-tax Act 1961 is due to be deposited by the 7th of the following month. For example, TDS deducted from May salary must be deposited by 7 June. The exception is March TDS — for March salary, TDS deposit is due by 30 April rather than 7 April. Late deposit attracts interest at 1.5% per month under Section 201 plus penalty under Section 271C."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the due date for PF monthly challan?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Provident Fund Electronic Challan-cum-Return (ECR) is due by the 15th of the following month. For example, PF for May wages is due by 15 June. The ECR captures employee and employer contributions of 12% each, EDLI charges of 0.5% on capped wages and admin charges of 0.5% on capped wages. Late deposit attracts simple interest at 12% per annum under Section 7Q plus damages of 5% to 25% under Section 14B of the Employees Provident Funds Act."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the ESI monthly contribution due?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Employees State Insurance contribution is due by the 15th of the following month. For example, ESI for May wages is due by 15 June. The employer contributes 3.25% of gross wages and the employee contributes 0.75%, applicable to employees with gross monthly wages of ₹21,000 or below. Late payment attracts simple interest at 12% per annum, plus damages of 5% to 25% depending on the period of delay under Regulation 31 of the ESI General Regulations 1950."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the quarterly TDS return due dates?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Form 24Q for salary TDS and Form 26Q for non-salary TDS are filed quarterly with these due dates: Quarter 1 covering April-June is due by 31 July; Quarter 2 covering July-September is due by 31 October; Quarter 3 covering October-December is due by 31 January; Quarter 4 covering January-March is due by 31 May. Late filing attracts a fee of ₹200 per day under Section 234E plus penalty under Section 271H ranging from ₹10,000 to ₹1,00,000."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When must Form 16 be issued to employees?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Form 16, the TDS certificate for salary, must be issued to employees by 15 June for the immediately preceding financial year ending 31 March, per Rule 31 of the Income-tax Rules 1962. Form 16 has two parts — Part A is generated from the TRACES portal containing TDS details, and Part B is prepared by the employer with salary breakup, deductions and tax computation. Late issuance attracts penalty of ₹100 per day per employee under Section 272A(2)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the deadline for paying statutory bonus?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under Section 19 of the Payment of Bonus Act 1965, statutory bonus must be paid within 8 months of the close of the accounting year. For an accounting year ending 31 March, the bonus must be paid by 30 November. The minimum bonus is 8.33% and the maximum is 20% of basic plus dearness allowance, Applies to employees earning ≤₹21,000/month in 20+ employee establishments. Form D bonus return must be filed within 30 days of payment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do professional tax due dates vary by state?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Professional tax monthly remittance dates vary by state: Maharashtra by end of next month, Karnataka by 20th, Tamil Nadu half-yearly by 1 April and 1 October, Telangana by 10th, West Bengal by 21st, Gujarat by 15th, Andhra Pradesh by 10th, Odisha by 21st, Madhya Pradesh by 10th. Delhi, Haryana, Punjab and Uttar Pradesh do not levy professional tax. Late payment attracts interest at 1.25% to 2% per month and penalty up to 50% of tax due, varying by state legislation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is Labour Welfare Fund contribution due?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Labour Welfare Fund contribution dates vary by state. Maharashtra requires half-yearly remittance by 31 January (for July to December period) and 31 July (for January to June period). Karnataka requires annual remittance by 15 January for the previous calendar year. Tamil Nadu requires annual contribution by 31 January. Gujarat requires by 15 July. West Bengal requires half-yearly by 31 January and 31 July. Several states have no LWF — Delhi, Haryana and Uttar Pradesh."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the POSH annual report deadline?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The annual report under the Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act 2013 must be submitted to the District Officer by 31 January every year for complaints received in the previous calendar year ending 31 December. The report covers number of complaints filed, disposed of, pending beyond 90 days, and workshops conducted. Failure to submit attracts penalty up to ₹50,000, and repeat offences may lead to cancellation of business licence."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the penalty for late TDS deposit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late TDS deposit attracts interest at 1.5% per month under Section 201(1A), calculated from the date of TDS deduction to the date of actual deposit, even for partial month. In addition, penalty under Section 271C may be imposed equal to the amount of TDS not deposited. Disallowance of expenditure under Section 40(a)(ia) may also apply for non-deduction or late deposit, disallowing 30% of the expense. Prosecution under Section 276B is possible for wilful default."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are there separate TDS deposit dates for non-government deductors?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "TDS deposit dates apply uniformly to all deductors except for government departments. Non-government deductors deposit TDS by the 7th of the following month, with March TDS due by 30 April. Government departments paying without challan deposit on the same day TDS is deducted; with challan, by the 7th of the following month. The unified date applies to all sections including 192 (salary), 194A (interest), 194C (contracts), 194J (professional fees), and 194Q (purchase of goods)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When must investment proofs be submitted by employees?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Investment proof submission deadline is set internally by the employer, typically falling between 28 January and 28 February each year. Most employers issue a written investment declaration form in April-May for projected investments, then collect physical or digital proof in January-February before final tax computation for Form 16. Late submission means the employer must compute final TDS based on actual proofs submitted, often resulting in a tax shortfall recovered from March salary or refunded by the employee from their ITR."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which payroll deadlines fall in March each year?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "March is the busiest payroll month. Key deadlines include: 7 March for February TDS deposit; 15 March for February PF and ESI; 31 March for full-year PT in Maharashtra; 31 March for the financial year close requiring tax projection finalisation, investment proof verification, leave encashment provision, gratuity actuarial valuation, and bonus accrual booking. The very next month carries 30 April for March TDS deposit (year-end exception), and 30 April for the annual return ER-1."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if I miss a payroll compliance deadline?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Missing payroll deadlines triggers cascading consequences: interest accrues on the unpaid amount at 12 to 18% per annum, late filing fees apply where return-based, statutory penalties apply under specific sections, expenditure disallowance under Section 40(a)(ia) for delayed TDS reduces the deductible expense by 30%, and repeat defaults can attract prosecution. The employee benefits get delayed — PF interest on contributions, gratuity service crediting and ESI claim eligibility. Always file even if late to stop the meter."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Has the new Labour Code 2025 changed payroll compliance dates?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The four Labour Codes effective 21 November 2025 have not changed the existing payroll compliance dates for PF, ESI, TDS, professional tax, LWF or statutory bonus, which remain governed by the underlying source laws. The Codes have changed substantive aspects: the wages definition now requires basic to be at least 50% of CTC, raising PF and gratuity computation bases, and fixed-term employees become gratuity-eligible after 1 year. Compliance dates and forms continue under the existing schedule until further notification."
+          }
+        }
+      ]
+    }
+    </script>
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation">
     <div class="toc-nav-inner">

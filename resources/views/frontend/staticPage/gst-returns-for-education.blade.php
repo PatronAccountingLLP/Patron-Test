@@ -1,155 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>GST Returns for Education 2026: Entry 66 | Patron Accounting</title>
-    <meta name="description" content="GST returns for schools, ed-tech, coaching - Entry 66 exemption under Notification 12/2017, commercial coaching distinction. Starting from INR 1,499 per month.">
-    <link rel="canonical" href="/gst-returns-for-education">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="GST Returns for Education 2026: Entry 66 | Patron Accounting">
-    <meta property="og:description" content="GST returns for schools, ed-tech, coaching - Entry 66 exemption under Notification 12/2017, commercial coaching distinction. Starting from INR 1,499 per month.">
-    <meta property="og:url" content="/gst-returns-for-education">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="GST Returns for Education 2026: Entry 66 | Patron Accounting">
-    <meta name="twitter:description" content="GST returns for schools, ed-tech, coaching - Entry 66 exemption under Notification 12/2017, commercial coaching distinction. Starting from INR 1,499 per month.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/gst-returns-for-education/#service",
-        "name": "GST Returns for Education",
-        "description": "Monthly managed GST compliance for schools, colleges, universities, ed-tech platforms, coaching institutes, and vocational training centres. Covers Entry 66 exemption mapping under Notification 12/2017-CTR, commercial coaching distinction under SAC 999293, boarding school composite supply per CBIC Circular 82/01/2019-GST, Rule 42/43 ITC reversal for mixed operations, ancillary service exemption Entry 66(b), and full GSTR-1/GSTR-3B filing.",
-        "serviceType": "GST Compliance for Education",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-returns-for-education" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [
-            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
-            { "@type": "Thing", "name": "Education in India", "sameAs": "https://en.wikipedia.org/wiki/Education_in_India" }
-        ],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "GST Returns for Education Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "Monthly GST Returns - Single Institution / GSTIN",
-                    "priceCurrency": "INR",
-                    "price": "1499",
-                    "description": "Monthly GSTR-1 and GSTR-3B filing, Entry 66 mapping memo, and a revenue classification matrix for a single institution or GSTIN"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/gst-returns-for-education/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
-            { "@type": "ListItem", "position": 3, "name": "GST Returns for Education", "item": "https://www.patronaccounting.com/gst-returns-for-education" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/gst-returns-for-education/#faq",
-        "datePublished": "2026-05-27T08:00:00+05:30",
-        "dateModified": "2026-06-01T08:00:00+05:30",
-        "mainEntity": [
-
-            {
-                "@type": "Question",
-                "name": "Are school and college services exempt from GST?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, subject to the institution meeting the definition of educational institution in Para 2(y) of Notification 12/2017-CTR. Pre-school, primary, secondary, and higher secondary schools are exempt under Entry 66(a). Colleges and universities are exempt if their courses lead to a qualification recognised by Indian law (UGC / AICTE / MCI / NMC / BCI / ICAI approved). Approved vocational courses (NSDC / SSC / NCVT / ITI affiliated) are also exempt."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Are coaching classes taxable under GST?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. Private coaching institutes that do not lead to a qualification recognised by Indian law are taxable at 18 percent under SAC 999293 (commercial training and coaching services). This includes coaching for competitive exams (JEE, NEET, CAT, UPSC), crash courses, hobby classes, supplementary tuition, and most ed-tech platforms. The Tutor Comp AAR Kerala (2022) and Gujarat AAR (May 2026) have confirmed this position."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What services received by schools are exempt under Entry 66(b)?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Entry 66(b) of Notification 12/2017-CTR exempts the following services when received by educational institutions providing education up to higher secondary: transportation of students, faculty, and staff; catering including any government-sponsored mid-day meal scheme; security, cleaning, and housekeeping services; and services relating to admission to or conduct of examination by such institution. The exemption does not extend to colleges or universities."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Are boarding school fees with hostel and food exempt?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. CBIC Circular 82/01/2019-GST clarifies that when an educational institution provides tuition, hostel, transport, and food as a bundled package to its students, the supply is a composite supply with exempt education as the principal supply. The entire bundle is exempt under Entry 66(a). The institution must itself provide or arrange the ancillary services; outsourcing to third-party caterers serving directly does not get the same flow-through."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Is online ed-tech taxable under GST?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "In most cases, yes. Online education platforms that do not lead to a qualification recognised by Indian law fall outside Para 2(y) of Notification 12/2017-CTR and are taxable at 18 percent under SAC 999293. The Tutor Comp Info Tech AAR Kerala (October 2022) held that an online platform serving individuals, institutions, and government does not qualify as an educational institution and its services are taxable. Cross-border ed-tech is OIDAR under Section 14 IGST."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Are entrance examination services exempt?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. Entry 66(aa) of Notification 12/2017-CTR exempts services provided by an educational institution by way of conduct of entrance examination against payment of an entrance fee. This covers JEE, NEET, CAT, GATE, UGC NET, and similar entrance examinations conducted by recognised educational institutions or testing agencies on their behalf. Third-party agencies conducting tests are taxable per the relevant AAR rulings."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the GST rate on printed books and online journals?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Printed books under HSN 4901 (printed books, brochures, leaflets) and HSN 4903 (children's picture, drawing, or colouring books) are exempt from GST. E-books, online educational journals, and digital subscriptions to academic content attract 5 percent GST. CBIC Circular 234/28/2024-GST provides additional clarification on online educational journal supply to higher education institutions."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the cost of monthly GST returns for education at Patron Accounting?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Starting from INR 1,499 per month (Exclusive of GST and government charges) for single-institution / single-GSTIN basic compliance. Monthly returns plus Rule 42/43 plus boarding composite setup package starts from INR 2,999 per month. Entry 66 mapping, ed-tech / coaching setup, multi-campus compliance, and DRC-01C reply are quoted separately based on scope."
-                }
-            }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -763,7 +618,157 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>GST Returns for Education 2026: Entry 66 | Patron Accounting</title>
+    <meta name="description" content="GST returns for schools, ed-tech, coaching - Entry 66 exemption under Notification 12/2017, commercial coaching distinction. Starting from INR 1,499 per month.">
+    <link rel="canonical" href="/gst-returns-for-education">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="GST Returns for Education 2026: Entry 66 | Patron Accounting">
+    <meta property="og:description" content="GST returns for schools, ed-tech, coaching - Entry 66 exemption under Notification 12/2017, commercial coaching distinction. Starting from INR 1,499 per month.">
+    <meta property="og:url" content="/gst-returns-for-education">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GST Returns for Education 2026: Entry 66 | Patron Accounting">
+    <meta name="twitter:description" content="GST returns for schools, ed-tech, coaching - Entry 66 exemption under Notification 12/2017, commercial coaching distinction. Starting from INR 1,499 per month.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/gst-returns-for-education/#service",
+        "name": "GST Returns for Education",
+        "description": "Monthly managed GST compliance for schools, colleges, universities, ed-tech platforms, coaching institutes, and vocational training centres. Covers Entry 66 exemption mapping under Notification 12/2017-CTR, commercial coaching distinction under SAC 999293, boarding school composite supply per CBIC Circular 82/01/2019-GST, Rule 42/43 ITC reversal for mixed operations, ancillary service exemption Entry 66(b), and full GSTR-1/GSTR-3B filing.",
+        "serviceType": "GST Compliance for Education",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-returns-for-education" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [
+            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
+            { "@type": "Thing", "name": "Education in India", "sameAs": "https://en.wikipedia.org/wiki/Education_in_India" }
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "GST Returns for Education Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "Monthly GST Returns - Single Institution / GSTIN",
+                    "priceCurrency": "INR",
+                    "price": "1499",
+                    "description": "Monthly GSTR-1 and GSTR-3B filing, Entry 66 mapping memo, and a revenue classification matrix for a single institution or GSTIN"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/gst-returns-for-education/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
+            { "@type": "ListItem", "position": 3, "name": "GST Returns for Education", "item": "https://www.patronaccounting.com/gst-returns-for-education" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/gst-returns-for-education/#faq",
+        "datePublished": "2026-05-27T08:00:00+05:30",
+        "dateModified": "2026-06-01T08:00:00+05:30",
+        "mainEntity": [
+
+            {
+                "@type": "Question",
+                "name": "Are school and college services exempt from GST?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, subject to the institution meeting the definition of educational institution in Para 2(y) of Notification 12/2017-CTR. Pre-school, primary, secondary, and higher secondary schools are exempt under Entry 66(a). Colleges and universities are exempt if their courses lead to a qualification recognised by Indian law (UGC / AICTE / MCI / NMC / BCI / ICAI approved). Approved vocational courses (NSDC / SSC / NCVT / ITI affiliated) are also exempt."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Are coaching classes taxable under GST?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Private coaching institutes that do not lead to a qualification recognised by Indian law are taxable at 18 percent under SAC 999293 (commercial training and coaching services). This includes coaching for competitive exams (JEE, NEET, CAT, UPSC), crash courses, hobby classes, supplementary tuition, and most ed-tech platforms. The Tutor Comp AAR Kerala (2022) and Gujarat AAR (May 2026) have confirmed this position."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What services received by schools are exempt under Entry 66(b)?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Entry 66(b) of Notification 12/2017-CTR exempts the following services when received by educational institutions providing education up to higher secondary: transportation of students, faculty, and staff; catering including any government-sponsored mid-day meal scheme; security, cleaning, and housekeeping services; and services relating to admission to or conduct of examination by such institution. The exemption does not extend to colleges or universities."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Are boarding school fees with hostel and food exempt?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. CBIC Circular 82/01/2019-GST clarifies that when an educational institution provides tuition, hostel, transport, and food as a bundled package to its students, the supply is a composite supply with exempt education as the principal supply. The entire bundle is exempt under Entry 66(a). The institution must itself provide or arrange the ancillary services; outsourcing to third-party caterers serving directly does not get the same flow-through."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is online ed-tech taxable under GST?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "In most cases, yes. Online education platforms that do not lead to a qualification recognised by Indian law fall outside Para 2(y) of Notification 12/2017-CTR and are taxable at 18 percent under SAC 999293. The Tutor Comp Info Tech AAR Kerala (October 2022) held that an online platform serving individuals, institutions, and government does not qualify as an educational institution and its services are taxable. Cross-border ed-tech is OIDAR under Section 14 IGST."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Are entrance examination services exempt?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Entry 66(aa) of Notification 12/2017-CTR exempts services provided by an educational institution by way of conduct of entrance examination against payment of an entrance fee. This covers JEE, NEET, CAT, GATE, UGC NET, and similar entrance examinations conducted by recognised educational institutions or testing agencies on their behalf. Third-party agencies conducting tests are taxable per the relevant AAR rulings."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the GST rate on printed books and online journals?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Printed books under HSN 4901 (printed books, brochures, leaflets) and HSN 4903 (children's picture, drawing, or colouring books) are exempt from GST. E-books, online educational journals, and digital subscriptions to academic content attract 5 percent GST. CBIC Circular 234/28/2024-GST provides additional clarification on online educational journal supply to higher education institutions."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the cost of monthly GST returns for education at Patron Accounting?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Starting from INR 1,499 per month (Exclusive of GST and government charges) for single-institution / single-GSTIN basic compliance. Monthly returns plus Rule 42/43 plus boarding composite setup package starts from INR 2,999 per month. Entry 66 mapping, ed-tech / coaching setup, multi-campus compliance, and DRC-01C reply are quoted separately based on scope."
+                }
+            }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1623,17 +1628,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1656,8 +1654,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1694,7 +1690,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1705,4 +1700,20 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+
 

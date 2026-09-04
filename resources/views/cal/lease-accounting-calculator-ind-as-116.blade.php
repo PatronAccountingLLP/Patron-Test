@@ -1,193 +1,8 @@
 @extends('layouts.app')
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
-@section('meta')
-    <title>Lease Accounting Calculator | Ind AS 116 ROU &amp; Liability</title>
-    <meta name="description" content="Ind AS 116 lease accounting calculator: compute ROU asset, lease liability, year-wise amortization &amp; journal entries with a full schedule. Free CA tool now!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/lease-accounting-calculator-ind-as-116">
-    <meta property="og:title" content="Lease Accounting Calculator (Ind AS 116 ROU) — FY 2025-26">
-    <meta property="og:description" content="Calculate ROU asset &amp; lease liability under Ind AS 116. Year-wise schedule, journal entries, vs old AS 17 comparison. Free CA-reviewed tool.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/lease-accounting-calculator-ind-as-116">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Lease Accounting Calculator (Ind AS 116 ROU) — FY 2025-26">
-    <meta name="twitter:description" content="ROU asset + lease liability + year-wise schedule + journal entries. Free CA-reviewed tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "Lease Accounting Calculator (Ind AS 116 ROU)",
-      "description": "Lease Accounting Calculator (Ind AS 116) computes Right-of-Use (ROU) asset and lease liability for Indian companies under Ind AS 116 Leases (effective 1 April 2019). The tool supports lease terms up to 30 years, monthly/quarterly/half-yearly/annual payment frequencies, advance and arrears timing, annual escalation, initial direct costs, lease incentives, restoration costs and advance payments. Output includes initial recognition values, year-wise amortization schedule with interest expense, principal repayment, ROU depreciation and closing balances, total finance cost and depreciation, journal entries at commencement and during the year, and comparison with old AS 17 / Ind AS 17 operating lease straight-line treatment showing the front-loaded expense pattern impact on EBITDA, profit before tax and key financial ratios.",
-      "url": "https://www.patronaccounting.com/tools/lease-accounting-calculator-ind-as-116",
-      "applicationCategory": "FinanceApplication",
-      "operatingSystem": "Any",
-      "datePublished": "2026-05-07T08:00:00+05:30",
-      "dateModified": "2026-05-07T08:00:00+05:30",
-      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
-      "author": {
-        "@type": "Person",
-        "@id": "https://www.patronaccounting.com/#founder",
-        "name": "CA Sundram Gupta",
-        "jobTitle": "Founder & Chartered Accountant",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Institute of Chartered Accountants of India",
-            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-          }
-        }]
-      },
-      "publisher": { "@id": "https://www.patronaccounting.com/#organization" },
-      "provider": {"@id": "https://www.patronaccounting.com/#organization"}
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Lease Accounting Calculator (Ind AS 116)", "item": "https://www.patronaccounting.com/tools/lease-accounting-calculator-ind-as-116"}
-      ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is Ind AS 116 and from when is it effective?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Ind AS 116 Leases is the Indian Accounting Standard converged with IFRS 16, notified by MCA effective for annual reporting periods commencing on or after 1 April 2019. It supersedes Ind AS 17 and introduces a single lessee accounting model that requires recognition of a Right-of-Use asset and lease liability for virtually all leases on the balance sheet, eliminating the previous distinction between operating leases and finance leases for lessees."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between Ind AS 116 and Ind AS 17?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Under Ind AS 17, lessees classified leases as operating or finance — operating leases stayed off-balance sheet with rent expensed straight-line, finance leases were capitalised. Ind AS 116 abolishes this distinction for lessees: all leases over 12 months and not low-value must be recognised on balance sheet as ROU asset and lease liability. P&L impact shifts from straight-line rent to depreciation plus front-loaded interest, increasing reported assets, debt and EBITDA."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is the Right-of-Use (ROU) asset calculated?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Under Ind AS 116 Para 24, the ROU asset at commencement equals the initial lease liability plus any lease payments made at or before commencement date (advance payments), plus initial direct costs incurred by the lessee, plus the present value of estimated dismantling, removal and restoration costs, less any lease incentives received from the lessor. The ROU asset is then depreciated systematically over the lease term or useful life, whichever is shorter."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is the lease liability calculated?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Under Ind AS 116 Para 26, the lease liability at commencement is measured at the present value of the lease payments not yet paid at that date, discounted using the interest rate implicit in the lease if readily determinable, otherwise the lessee's incremental borrowing rate (IBR). Lease payments include fixed payments, in-substance fixed payments, variable payments based on an index or rate, residual value guarantees, and reasonably certain purchase or termination penalties."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What discount rate should be used — IBR or implicit rate?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Ind AS 116 requires the interest rate implicit in the lease to be used if readily determinable. In most operating-type leases the implicit rate is not readily determinable, so the lessee's Incremental Borrowing Rate (IBR) is used. The IBR is the rate the lessee would have to pay to borrow, over a similar term and with similar security, the funds necessary to obtain an asset of similar value to the right-of-use asset in a similar economic environment."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Are short-term leases exempt from Ind AS 116?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Under Ind AS 116 Para 5, a lessee may elect not to apply the recognition requirements to short-term leases — defined as leases with a lease term of 12 months or less and no purchase option. Lease payments for such short-term leases are expensed on a straight-line basis or another systematic basis in the profit and loss account. The election is made by class of underlying asset and disclosed."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are low-value asset leases?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Ind AS 116 permits an exemption for leases of low-value underlying assets. The IASB intent in IFRS 16 indicates a threshold of approximately USD 5,000 (around ₹4 lakh) when new — covering items such as laptops, mobile phones, small office equipment and tablets. The assessment is made on absolute terms regardless of the lessee's size. The election can be made on a lease-by-lease basis, unlike short-term leases which are by class."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is the lease term determined for renewal options?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The lease term under Ind AS 116 Para 18 is the non-cancellable period plus periods covered by extension options reasonably certain to be exercised by the lessee, less periods covered by termination options reasonably certain to be exercised. Reasonable certainty is assessed considering economic incentives — significant leasehold improvements, business importance of the asset, costs of relocation, and the consistency of past renewal behaviour. The assessment is reassessed when significant events or circumstances change."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How are variable lease payments treated?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Variable lease payments that depend on an index or rate (such as CPI-linked rent or interest-rate linked rent) are included in the lease liability measured using the index or rate at commencement, and remeasured when actual changes take effect. Variable payments based on usage, sales or performance (such as kilometres driven or turnover percentage) are excluded from the lease liability and expensed in profit or loss in the period they are incurred."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does lessor accounting differ under Ind AS 116?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Lessor accounting under Ind AS 116 largely retains the Ind AS 17 model with operating versus finance lease classification based on whether substantially all risks and rewards incidental to ownership transfer to the lessee. Finance leases are recognised as a net investment in the lease (receivable); operating leases continue with the asset on lessor's books and lease income recognised on a straight-line basis. Enhanced disclosures and sale-leaseback rules are the main lessor changes."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the tax impact of Ind AS 116 versus the Income Tax Act?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The Income Tax Act, 1961 does not recognise ROU asset and lease liability — it allows deduction of lease rentals paid as revenue expense in the year of payment (consistent with old Ind AS 17 treatment). This creates a timing difference between book treatment under Ind AS 116 (depreciation plus front-loaded interest) and tax treatment (straight-line rentals), giving rise to deferred tax assets or liabilities under Ind AS 12 in early and later years."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What disclosures are required under Ind AS 116?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Ind AS 116 Para 51-60 prescribes extensive disclosures including ROU carrying amount by class of underlying asset, additions during the year, depreciation charge, interest expense on lease liability, expense for short-term and low-value leases, expense for variable lease payments, total cash outflow for leases, lease commitments maturity analysis, gains or losses on sale-leaseback transactions, and key judgements on lease term, discount rate and embedded leases. Tabular presentation is preferred."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How are foreign currency leases treated under Ind AS 116?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Under Ind AS 116 read with Ind AS 21 The Effects of Changes in Foreign Exchange Rates, the ROU asset is a non-monetary item carried at historical cost (commencement date exchange rate), while the lease liability is a monetary item retranslated at the closing exchange rate at each reporting date. The resulting foreign exchange differences on the lease liability are recognised in profit and loss, similar to other monetary liabilities, creating P&L volatility for foreign currency leases."
-          }
-        }
-      ]
-    }
-    </script>
-@endsection
-
 <style>
         :root {
             --primary: #1B4D3E;
@@ -401,7 +216,192 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
   section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;max-width:100%;margin-bottom:2px;}
 }
 </style>
+@endpush
 
+@section('meta')
+    <title>Lease Accounting Calculator | Ind AS 116 ROU &amp; Liability</title>
+    <meta name="description" content="Ind AS 116 lease accounting calculator: compute ROU asset, lease liability, year-wise amortization &amp; journal entries with a full schedule. Free CA tool now!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/lease-accounting-calculator-ind-as-116">
+    <meta property="og:title" content="Lease Accounting Calculator (Ind AS 116 ROU) — FY 2025-26">
+    <meta property="og:description" content="Calculate ROU asset &amp; lease liability under Ind AS 116. Year-wise schedule, journal entries, vs old AS 17 comparison. Free CA-reviewed tool.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/lease-accounting-calculator-ind-as-116">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Lease Accounting Calculator (Ind AS 116 ROU) — FY 2025-26">
+    <meta name="twitter:description" content="ROU asset + lease liability + year-wise schedule + journal entries. Free CA-reviewed tool.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Lease Accounting Calculator (Ind AS 116 ROU)",
+      "description": "Lease Accounting Calculator (Ind AS 116) computes Right-of-Use (ROU) asset and lease liability for Indian companies under Ind AS 116 Leases (effective 1 April 2019). The tool supports lease terms up to 30 years, monthly/quarterly/half-yearly/annual payment frequencies, advance and arrears timing, annual escalation, initial direct costs, lease incentives, restoration costs and advance payments. Output includes initial recognition values, year-wise amortization schedule with interest expense, principal repayment, ROU depreciation and closing balances, total finance cost and depreciation, journal entries at commencement and during the year, and comparison with old AS 17 / Ind AS 17 operating lease straight-line treatment showing the front-loaded expense pattern impact on EBITDA, profit before tax and key financial ratios.",
+      "url": "https://www.patronaccounting.com/tools/lease-accounting-calculator-ind-as-116",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Any",
+      "datePublished": "2026-05-07T08:00:00+05:30",
+      "dateModified": "2026-05-07T08:00:00+05:30",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.patronaccounting.com/#founder",
+        "name": "CA Sundram Gupta",
+        "jobTitle": "Founder & Chartered Accountant",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Institute of Chartered Accountants of India",
+            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+          }
+        }]
+      },
+      "publisher": { "@id": "https://www.patronaccounting.com/#organization" },
+      "provider": {"@id": "https://www.patronaccounting.com/#organization"}
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Lease Accounting Calculator (Ind AS 116)", "item": "https://www.patronaccounting.com/tools/lease-accounting-calculator-ind-as-116"}
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Ind AS 116 and from when is it effective?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ind AS 116 Leases is the Indian Accounting Standard converged with IFRS 16, notified by MCA effective for annual reporting periods commencing on or after 1 April 2019. It supersedes Ind AS 17 and introduces a single lessee accounting model that requires recognition of a Right-of-Use asset and lease liability for virtually all leases on the balance sheet, eliminating the previous distinction between operating leases and finance leases for lessees."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between Ind AS 116 and Ind AS 17?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under Ind AS 17, lessees classified leases as operating or finance — operating leases stayed off-balance sheet with rent expensed straight-line, finance leases were capitalised. Ind AS 116 abolishes this distinction for lessees: all leases over 12 months and not low-value must be recognised on balance sheet as ROU asset and lease liability. P&L impact shifts from straight-line rent to depreciation plus front-loaded interest, increasing reported assets, debt and EBITDA."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the Right-of-Use (ROU) asset calculated?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under Ind AS 116 Para 24, the ROU asset at commencement equals the initial lease liability plus any lease payments made at or before commencement date (advance payments), plus initial direct costs incurred by the lessee, plus the present value of estimated dismantling, removal and restoration costs, less any lease incentives received from the lessor. The ROU asset is then depreciated systematically over the lease term or useful life, whichever is shorter."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the lease liability calculated?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under Ind AS 116 Para 26, the lease liability at commencement is measured at the present value of the lease payments not yet paid at that date, discounted using the interest rate implicit in the lease if readily determinable, otherwise the lessee's incremental borrowing rate (IBR). Lease payments include fixed payments, in-substance fixed payments, variable payments based on an index or rate, residual value guarantees, and reasonably certain purchase or termination penalties."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What discount rate should be used — IBR or implicit rate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ind AS 116 requires the interest rate implicit in the lease to be used if readily determinable. In most operating-type leases the implicit rate is not readily determinable, so the lessee's Incremental Borrowing Rate (IBR) is used. The IBR is the rate the lessee would have to pay to borrow, over a similar term and with similar security, the funds necessary to obtain an asset of similar value to the right-of-use asset in a similar economic environment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are short-term leases exempt from Ind AS 116?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Under Ind AS 116 Para 5, a lessee may elect not to apply the recognition requirements to short-term leases — defined as leases with a lease term of 12 months or less and no purchase option. Lease payments for such short-term leases are expensed on a straight-line basis or another systematic basis in the profit and loss account. The election is made by class of underlying asset and disclosed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are low-value asset leases?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ind AS 116 permits an exemption for leases of low-value underlying assets. The IASB intent in IFRS 16 indicates a threshold of approximately USD 5,000 (around ₹4 lakh) when new — covering items such as laptops, mobile phones, small office equipment and tablets. The assessment is made on absolute terms regardless of the lessee's size. The election can be made on a lease-by-lease basis, unlike short-term leases which are by class."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the lease term determined for renewal options?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The lease term under Ind AS 116 Para 18 is the non-cancellable period plus periods covered by extension options reasonably certain to be exercised by the lessee, less periods covered by termination options reasonably certain to be exercised. Reasonable certainty is assessed considering economic incentives — significant leasehold improvements, business importance of the asset, costs of relocation, and the consistency of past renewal behaviour. The assessment is reassessed when significant events or circumstances change."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How are variable lease payments treated?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Variable lease payments that depend on an index or rate (such as CPI-linked rent or interest-rate linked rent) are included in the lease liability measured using the index or rate at commencement, and remeasured when actual changes take effect. Variable payments based on usage, sales or performance (such as kilometres driven or turnover percentage) are excluded from the lease liability and expensed in profit or loss in the period they are incurred."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does lessor accounting differ under Ind AS 116?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lessor accounting under Ind AS 116 largely retains the Ind AS 17 model with operating versus finance lease classification based on whether substantially all risks and rewards incidental to ownership transfer to the lessee. Finance leases are recognised as a net investment in the lease (receivable); operating leases continue with the asset on lessor's books and lease income recognised on a straight-line basis. Enhanced disclosures and sale-leaseback rules are the main lessor changes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the tax impact of Ind AS 116 versus the Income Tax Act?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Income Tax Act, 1961 does not recognise ROU asset and lease liability — it allows deduction of lease rentals paid as revenue expense in the year of payment (consistent with old Ind AS 17 treatment). This creates a timing difference between book treatment under Ind AS 116 (depreciation plus front-loaded interest) and tax treatment (straight-line rentals), giving rise to deferred tax assets or liabilities under Ind AS 12 in early and later years."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What disclosures are required under Ind AS 116?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ind AS 116 Para 51-60 prescribes extensive disclosures including ROU carrying amount by class of underlying asset, additions during the year, depreciation charge, interest expense on lease liability, expense for short-term and low-value leases, expense for variable lease payments, total cash outflow for leases, lease commitments maturity analysis, gains or losses on sale-leaseback transactions, and key judgements on lease term, discount rate and embedded leases. Tabular presentation is preferred."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How are foreign currency leases treated under Ind AS 116?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under Ind AS 116 read with Ind AS 21 The Effects of Changes in Foreign Exchange Rates, the ROU asset is a non-monetary item carried at historical cost (commencement date exchange rate), while the lease liability is a monetary item retranslated at the closing exchange rate at each reporting date. The resulting foreign exchange differences on the lease liability are recognised in profit and loss, similar to other monetary liabilities, creating P&L volatility for foreign currency leases."
+          }
+        }
+      ]
+    }
+    </script>
+@endsection
 @section('content')
 <style>
 /* Embed mode (?embed=1): show ONLY the calculator widget, recoloured to the

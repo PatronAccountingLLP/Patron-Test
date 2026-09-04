@@ -1,161 +1,12 @@
 
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>ITR for Business Gurugram - ITR-3, ITR-4 & 44AD</title>
-    <meta name="description" content="ITR for business in Gurugram. ITR-3 proprietor. ITR-4 presumptive 44AD. ITR-5 firm LLP. ITR-6 company 115BAA. Call +91 945 945 6700.">
-    <link rel="canonical" href="/itr-for-business/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="ITR for Business Gurugram - ITR-3, ITR-4 & 44AD">
-    <meta property="og:description" content="ITR for business in Gurugram. ITR-3 proprietor. ITR-4 presumptive 44AD. ITR-5 firm LLP. ITR-6 company 115BAA. Call +91 945 945 6700.">
-    <meta property="og:url" content="/itr-for-business/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="ITR for Business Gurugram - ITR-3, ITR-4 & 44AD">
-    <meta name="twitter:description" content="ITR for business in Gurugram. ITR-3 proprietor. ITR-4 presumptive 44AD. ITR-5 firm LLP. ITR-6 company 115BAA. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "ITR for Business in Gurugram | ITR-3 4 5 6",
-      "description": "ITR for business in Gurugram. ITR-3 proprietor. ITR-4 presumptive 44AD. ITR-5 firm LLP. ITR-6 company 115BAA. Call +91 945 945 6700.",
-      "url": "https://www.patronaccounting.com/itr-for-business/gurugram",
-      "serviceType": "ITR for Business in Gurugram | ITR-3 4 5 6",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/itr-for-business/gurugram",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "minPrice": "3000",
-          "maxPrice": "10000",
-          "priceCurrency": "INR"
-        }
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "ITR for Business: Expert CA Filing",
-          "item": "https://www.patronaccounting.com/itr-for-business"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "ITR for Business in Gurugram | ITR-3 4 5 6",
-          "item": "https://www.patronaccounting.com/itr-for-business/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Which ITR form should my business file?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "ITR-3 for sole proprietors and individuals with business or professional income (regular computation). ITR-4 (Sugam) for presumptive taxation under Section 44AD (turnover up to Rs 2 crore) or 44ADA (professionals up to Rs 50 lakh). ITR-5 for partnership firms and LLPs. ITR-6 for all companies. Form selection depends on entity type, income structure, and whether presumptive taxation is opted."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does business ITR filing cost?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "ITR-4 (Sugam) from Rs 3,000. ITR-3 (proprietor regular) Rs 5,000-8,000. ITR-5 (firm/LLP) Rs 8,000-15,000. ITR-6 (company) Rs 10,000-25,000. Tax audit Rs 15,000-30,000. Transfer pricing documentation Rs 25,000-75,000. Call +91 945 945 6700."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the due date for business ITR?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. Pay Balance Tax: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is Section 44AD presumptive taxation?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Eligible businesses with turnover up to Rs 2 crore (Rs 3 crore if cash receipts are under 5%) can declare 8% of turnover as taxable income (6% for digital and banking receipts). No detailed books of accounts required. No tax audit mandated. File ITR-4 by 31 August 2026. Once opted in, must continue for 5 years. Opt-out triggers book maintenance and audit obligations for 5 years."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is Section 115BAA for companies?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Concessional 22% corporate tax rate (effective approximately 25.17% with surcharge and cess) for domestic companies that forgo specified deductions and exemptions including Section 80-IA, 80-IB, additional depreciation, and others. No Minimum Alternate Tax applies. Election is irreversible. File Form 10-IC along with ITR-6."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "When is tax audit required?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Under Section 44AB: business turnover exceeding Rs 1 crore (Rs 10 crore if cash transactions do not exceed 5% of total turnover and cash payments do not exceed 5% of total payments). Professional gross receipts above Rs 50 lakh. Opt-out from presumptive taxation. Audit report must be filed by 30 September 2026. ITR due date extends to 31 October 2026."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do dormant companies need to file ITR?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Every company registered under the Companies Act must file ITR-6 regardless of whether it has income, activity, or operations. NIL return filing is mandatory. Non-filing triggers Section 234F late penalty of Rs 5,000, potential ROC notices for non-compliance, and risk of director disqualification under Section 164(2) if defaults persist for three consecutive years. Quick Answers Business ka ITR kab file karna hai? Non-audit: 31 Jul. ITR-4: 31 Aug. Company: 30 Sep. Audit firm/LLP: 31 Oct. TP: 30 Nov. Meri company ka form kaun sa hai? Pvt Ltd: ITR-6. LLP: ITR-5. Proprietorship: ITR-3 ya ITR-4. Partnership: ITR-5. 44AD scheme kya hai? Rs 2 Cr tak turnover pe 8% income declare karo (6% digital). Books nahi, audit nahi. ITR-4 mein file karo."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -679,7 +530,161 @@ section ul li:not(.nav-item) { font-size: 14px; }
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'Join Community'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>ITR for Business Gurugram - ITR-3, ITR-4 & 44AD</title>
+    <meta name="description" content="ITR for business in Gurugram. ITR-3 proprietor. ITR-4 presumptive 44AD. ITR-5 firm LLP. ITR-6 company 115BAA. Call +91 945 945 6700.">
+    <link rel="canonical" href="/itr-for-business/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="ITR for Business Gurugram - ITR-3, ITR-4 & 44AD">
+    <meta property="og:description" content="ITR for business in Gurugram. ITR-3 proprietor. ITR-4 presumptive 44AD. ITR-5 firm LLP. ITR-6 company 115BAA. Call +91 945 945 6700.">
+    <meta property="og:url" content="/itr-for-business/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ITR for Business Gurugram - ITR-3, ITR-4 & 44AD">
+    <meta name="twitter:description" content="ITR for business in Gurugram. ITR-3 proprietor. ITR-4 presumptive 44AD. ITR-5 firm LLP. ITR-6 company 115BAA. Call +91 945 945 6700.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "ITR for Business in Gurugram | ITR-3 4 5 6",
+      "description": "ITR for business in Gurugram. ITR-3 proprietor. ITR-4 presumptive 44AD. ITR-5 firm LLP. ITR-6 company 115BAA. Call +91 945 945 6700.",
+      "url": "https://www.patronaccounting.com/itr-for-business/gurugram",
+      "serviceType": "ITR for Business in Gurugram | ITR-3 4 5 6",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.patronaccounting.com/itr-for-business/gurugram",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": "3000",
+          "maxPrice": "10000",
+          "priceCurrency": "INR"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "ITR for Business: Expert CA Filing",
+          "item": "https://www.patronaccounting.com/itr-for-business"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "ITR for Business in Gurugram | ITR-3 4 5 6",
+          "item": "https://www.patronaccounting.com/itr-for-business/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Which ITR form should my business file?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ITR-3 for sole proprietors and individuals with business or professional income (regular computation). ITR-4 (Sugam) for presumptive taxation under Section 44AD (turnover up to Rs 2 crore) or 44ADA (professionals up to Rs 50 lakh). ITR-5 for partnership firms and LLPs. ITR-6 for all companies. Form selection depends on entity type, income structure, and whether presumptive taxation is opted."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does business ITR filing cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ITR-4 (Sugam) from Rs 3,000. ITR-3 (proprietor regular) Rs 5,000-8,000. ITR-5 (firm/LLP) Rs 8,000-15,000. ITR-6 (company) Rs 10,000-25,000. Tax audit Rs 15,000-30,000. Transfer pricing documentation Rs 25,000-75,000. Call +91 945 945 6700."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the due date for business ITR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. Pay Balance Tax: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Section 44AD presumptive taxation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Eligible businesses with turnover up to Rs 2 crore (Rs 3 crore if cash receipts are under 5%) can declare 8% of turnover as taxable income (6% for digital and banking receipts). No detailed books of accounts required. No tax audit mandated. File ITR-4 by 31 August 2026. Once opted in, must continue for 5 years. Opt-out triggers book maintenance and audit obligations for 5 years."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Section 115BAA for companies?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Concessional 22% corporate tax rate (effective approximately 25.17% with surcharge and cess) for domestic companies that forgo specified deductions and exemptions including Section 80-IA, 80-IB, additional depreciation, and others. No Minimum Alternate Tax applies. Election is irreversible. File Form 10-IC along with ITR-6."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is tax audit required?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under Section 44AB: business turnover exceeding Rs 1 crore (Rs 10 crore if cash transactions do not exceed 5% of total turnover and cash payments do not exceed 5% of total payments). Professional gross receipts above Rs 50 lakh. Opt-out from presumptive taxation. Audit report must be filed by 30 September 2026. ITR due date extends to 31 October 2026."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do dormant companies need to file ITR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Every company registered under the Companies Act must file ITR-6 regardless of whether it has income, activity, or operations. NIL return filing is mandatory. Non-filing triggers Section 234F late penalty of Rs 5,000, potential ROC notices for non-compliance, and risk of director disqualification under Section 164(2) if defaults persist for three consecutive years. Quick Answers Business ka ITR kab file karna hai? Non-audit: 31 Jul. ITR-4: 31 Aug. Company: 30 Sep. Audit firm/LLP: 31 Oct. TP: 30 Nov. Meri company ka form kaun sa hai? Pvt Ltd: ITR-6. LLP: ITR-5. Proprietorship: ITR-3 ya ITR-4. Partnership: ITR-5. 44AD scheme kya hai? Rs 2 Cr tak turnover pe 8% income declare karo (6% digital). Books nahi, audit nahi. ITR-4 mein file karo."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1604,7 +1609,6 @@ var tocWrapper=document.getElementById('tocWrapper');document.getElementById('to
 
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

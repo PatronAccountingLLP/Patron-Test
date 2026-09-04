@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,208 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>Accounts Reconciliation in Mumbai 2026 | Patron Accounting</title>
-    <meta name="description" content="BKC and Andheri finance teams get CA-led books reconciliation and audit in Mumbai From INR 14,999 (up to 1000 transactions). Bank, GST 2B and ledger matching.">
-    <link rel="canonical" href="/accounts-reconciliation-and-audit/mumbai">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Accounts Reconciliation in Mumbai 2026 | Patron Accounting">
-    <meta property="og:description" content="BKC and Andheri finance teams get CA-led books reconciliation and audit in Mumbai From INR 14,999 (up to 1000 transactions). Bank, GST 2B and ledger matching.">
-    <meta property="og:url" content="/accounts-reconciliation-and-audit/mumbai">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Accounts Reconciliation in Mumbai 2026 | Patron Accounting">
-    <meta name="twitter:description" content="BKC and Andheri finance teams get CA-led books reconciliation and audit in Mumbai From INR 14,999 (up to 1000 transactions). Bank, GST 2B and ledger matching.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/mumbai#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Accounts Reconciliation and Audit",
-          "item": "https://www.patronaccounting.com/accounts-reconciliation-and-audit"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Accounts Reconciliation and Audit in Mumbai",
-          "item": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/mumbai"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/mumbai#faq",
-      "datePublished": "2026-06-23T08:00:00+05:30",
-      "dateModified": "2026-06-23T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What does accounts reconciliation and audit cover for a Mumbai business?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The engagement spans control-account and ledger tie-outs, line-by-line bank matching, GST 2A and 2B against the purchase register, vendor, customer, and inter-company checks, and an internal review of entries up to 1000 transactions. For BKC and Andheri teams, Patron surfaces every error and locks down the audit trail well ahead of any scrutiny or statutory audit."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does accounts reconciliation cost in Mumbai?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Pricing opens at From INR 14,999 (up to 1000 transactions, Exl GST and Govt. Charges). What you finally pay scales with how many bank accounts, GSTINs, ledgers, and group companies sit in scope. A Lower Parel finance firm or a Bhiwandi warehousing operator gets a locked, fixed-scope quote first, so the cost is agreed before reconciliation starts."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why must I reconcile GST 2B with my books in Mumbai?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 16(2)(aa) of the CGST Act read with Rule 36(4) restricts input tax credit to invoices that actually appear in your GSTR-2B. Claim more in GSTR-3B than 2B allows and the portal raises a DRC-01C intimation. Matching 2A and 2B to the purchase register each month safeguards genuine ITC and keeps you clear of Section 50 interest."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between reconciliation and a statutory audit?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Reconciliation plus internal verification proves your ledger, bank, GST, and vendor figures all agree and that each entry is booked correctly. A statutory or tax audit is a distinct legal sign-off under the Companies Act 2013 or Section 44AB. Books that are already reconciled cut audit time and fees and leave the auditor far fewer queries to raise."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you check the audit trail and edit log of my accounting software?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, always. Rule 3(1) of the Companies (Accounts) Rules has required every company to run software that logs an audit trail of each change since 1 April 2023. While reconciling your Mumbai books, Patron confirms the edit log is switched on, intact, and retained, and calls out any back-dated, altered, or deleted vouchers it finds."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you handle multi-bank and multi-gateway reconciliation for Andheri media and SaaS firms?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Andheri and Powai media houses and SaaS teams often run several current accounts plus Razorpay, Stripe, and PayU settlements that hit the bank net of fees. Patron matches each gateway payout and fee deduction to the ledger, ties every account to the books, and reports any settlement, chargeback, or rolling-reserve entry that has not been recorded."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does an accounts reconciliation take in Mumbai?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "One bank account and up to 1000 transactions typically wrap up in 3 to 7 working days. Add several banks, multiple GSTINs, or group books and it moves to 2 to 3 weeks. Bhiwandi and Dombivli warehousing units carrying stock and long vendor lists usually run longer, set by how fast documents arrive and the sheer transaction count."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does reconciliation in Mumbai cover Maharashtra profession tax (PTRC and PTEC)?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Mumbai employers fall under Maharashtra PTRC and PTEC, so Patron checks that profession tax deducted from salaries agrees with the PTRC challans paid and that PTEC dues are settled. We also reconcile TDS and payroll control accounts, since a Lower Parel or BKC firm's salary ledger must tie to both the bank and the statutory filings."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/mumbai#service",
-      "name": "Accounts Reconciliation and Audit in Mumbai",
-      "description": "CA-led books reconciliation and audit in Mumbai: control-account and ledger tie-outs, bank and gateway matching, GST 2A and 2B against the purchase register, vendor, customer, and inter-company checks, and internal verification of up to 1000 transactions. Patron Accounting clears errors and secures a clean audit trail for BKC finance, Andheri media, and Bhiwandi warehousing firms.",
-      "serviceType": "Accounts Reconciliation and Books Audit",
-      "url": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/mumbai",
-      "areaServed": {
-        "@type": "City",
-        "name": "Mumbai",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Maharashtra"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#localbusiness-mumbai"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Reconciliation (accounting)",
-          "sameAs": "https://en.wikipedia.org/wiki/Reconciliation_(accounting)"
-        },
-        {
-          "@type": "Thing",
-          "name": "Goods and Services Tax (India)",
-          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Accounts Reconciliation Plans in Mumbai",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "price": "14999",
-            "priceSpecification": {
-              "@type": "UnitPriceSpecification",
-              "priceCurrency": "INR",
-              "price": "14999",
-              "unitText": "up to 1000 transactions"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Accounts Reconciliation and Books Verification up to 1000 Transactions"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness-mumbai",
-      "name": "Patron Accounting LLP - Mumbai",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/mumbai",
-      "telephone": "+91-9699936369",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Mumbai"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Mumbai",
-        "addressRegion": "Maharashtra",
-        "postalCode": "400020",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -815,7 +612,217 @@
         .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
 
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>Accounts Reconciliation in Mumbai 2026 | Patron Accounting</title>
+    <meta name="description" content="BKC and Andheri finance teams get CA-led books reconciliation and audit in Mumbai From INR 14,999 (up to 1000 transactions). Bank, GST 2B and ledger matching.">
+    <link rel="canonical" href="/accounts-reconciliation-and-audit/mumbai">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Accounts Reconciliation in Mumbai 2026 | Patron Accounting">
+    <meta property="og:description" content="BKC and Andheri finance teams get CA-led books reconciliation and audit in Mumbai From INR 14,999 (up to 1000 transactions). Bank, GST 2B and ledger matching.">
+    <meta property="og:url" content="/accounts-reconciliation-and-audit/mumbai">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Accounts Reconciliation in Mumbai 2026 | Patron Accounting">
+    <meta name="twitter:description" content="BKC and Andheri finance teams get CA-led books reconciliation and audit in Mumbai From INR 14,999 (up to 1000 transactions). Bank, GST 2B and ledger matching.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/mumbai#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Accounts Reconciliation and Audit",
+          "item": "https://www.patronaccounting.com/accounts-reconciliation-and-audit"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Accounts Reconciliation and Audit in Mumbai",
+          "item": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/mumbai"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/mumbai#faq",
+      "datePublished": "2026-06-23T08:00:00+05:30",
+      "dateModified": "2026-06-23T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does accounts reconciliation and audit cover for a Mumbai business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The engagement spans control-account and ledger tie-outs, line-by-line bank matching, GST 2A and 2B against the purchase register, vendor, customer, and inter-company checks, and an internal review of entries up to 1000 transactions. For BKC and Andheri teams, Patron surfaces every error and locks down the audit trail well ahead of any scrutiny or statutory audit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does accounts reconciliation cost in Mumbai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pricing opens at From INR 14,999 (up to 1000 transactions, Exl GST and Govt. Charges). What you finally pay scales with how many bank accounts, GSTINs, ledgers, and group companies sit in scope. A Lower Parel finance firm or a Bhiwandi warehousing operator gets a locked, fixed-scope quote first, so the cost is agreed before reconciliation starts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why must I reconcile GST 2B with my books in Mumbai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 16(2)(aa) of the CGST Act read with Rule 36(4) restricts input tax credit to invoices that actually appear in your GSTR-2B. Claim more in GSTR-3B than 2B allows and the portal raises a DRC-01C intimation. Matching 2A and 2B to the purchase register each month safeguards genuine ITC and keeps you clear of Section 50 interest."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between reconciliation and a statutory audit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reconciliation plus internal verification proves your ledger, bank, GST, and vendor figures all agree and that each entry is booked correctly. A statutory or tax audit is a distinct legal sign-off under the Companies Act 2013 or Section 44AB. Books that are already reconciled cut audit time and fees and leave the auditor far fewer queries to raise."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you check the audit trail and edit log of my accounting software?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, always. Rule 3(1) of the Companies (Accounts) Rules has required every company to run software that logs an audit trail of each change since 1 April 2023. While reconciling your Mumbai books, Patron confirms the edit log is switched on, intact, and retained, and calls out any back-dated, altered, or deleted vouchers it finds."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you handle multi-bank and multi-gateway reconciliation for Andheri media and SaaS firms?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Andheri and Powai media houses and SaaS teams often run several current accounts plus Razorpay, Stripe, and PayU settlements that hit the bank net of fees. Patron matches each gateway payout and fee deduction to the ledger, ties every account to the books, and reports any settlement, chargeback, or rolling-reserve entry that has not been recorded."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does an accounts reconciliation take in Mumbai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "One bank account and up to 1000 transactions typically wrap up in 3 to 7 working days. Add several banks, multiple GSTINs, or group books and it moves to 2 to 3 weeks. Bhiwandi and Dombivli warehousing units carrying stock and long vendor lists usually run longer, set by how fast documents arrive and the sheer transaction count."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does reconciliation in Mumbai cover Maharashtra profession tax (PTRC and PTEC)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Mumbai employers fall under Maharashtra PTRC and PTEC, so Patron checks that profession tax deducted from salaries agrees with the PTRC challans paid and that PTEC dues are settled. We also reconcile TDS and payroll control accounts, since a Lower Parel or BKC firm's salary ledger must tie to both the bank and the statutory filings."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/mumbai#service",
+      "name": "Accounts Reconciliation and Audit in Mumbai",
+      "description": "CA-led books reconciliation and audit in Mumbai: control-account and ledger tie-outs, bank and gateway matching, GST 2A and 2B against the purchase register, vendor, customer, and inter-company checks, and internal verification of up to 1000 transactions. Patron Accounting clears errors and secures a clean audit trail for BKC finance, Andheri media, and Bhiwandi warehousing firms.",
+      "serviceType": "Accounts Reconciliation and Books Audit",
+      "url": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/mumbai",
+      "areaServed": {
+        "@type": "City",
+        "name": "Mumbai",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Maharashtra"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#localbusiness-mumbai"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Reconciliation (accounting)",
+          "sameAs": "https://en.wikipedia.org/wiki/Reconciliation_(accounting)"
+        },
+        {
+          "@type": "Thing",
+          "name": "Goods and Services Tax (India)",
+          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Accounts Reconciliation Plans in Mumbai",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "price": "14999",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "INR",
+              "price": "14999",
+              "unitText": "up to 1000 transactions"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Accounts Reconciliation and Books Verification up to 1000 Transactions"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness-mumbai",
+      "name": "Patron Accounting LLP - Mumbai",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/accounts-reconciliation-and-audit/mumbai",
+      "telephone": "+91-9699936369",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Mumbai"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Mumbai",
+        "addressRegion": "Maharashtra",
+        "postalCode": "400020",
+        "addressCountry": "IN"
+      },
+      "parentOrganization": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1569,7 +1576,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

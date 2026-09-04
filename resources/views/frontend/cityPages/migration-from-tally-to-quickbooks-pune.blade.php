@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,208 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>Tally to QuickBooks Migration Pune 2026 | Patron Accounting</title>
-    <meta name="description" content="Tally to QuickBooks Online migration in Pune from INR 9,999. CA-led chart mapping, masters, GST setup, and trial balance reconciliation for Hinjewadi firms.">
-    <link rel="canonical" href="/migration-from-tally-to-quickbooks/pune">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Tally to QuickBooks Migration Pune 2026 | Patron Accounting">
-    <meta property="og:description" content="Tally to QuickBooks Online migration in Pune from INR 9,999. CA-led chart mapping, masters, GST setup, and trial balance reconciliation for Hinjewadi firms.">
-    <meta property="og:url" content="/migration-from-tally-to-quickbooks/pune">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Tally to QuickBooks Migration Pune 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Tally to QuickBooks Online migration in Pune from INR 9,999. CA-led chart mapping, masters, GST setup, and trial balance reconciliation for Hinjewadi firms.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/migration-from-tally-to-quickbooks/pune#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Tally to QuickBooks Migration",
-          "item": "https://www.patronaccounting.com/migration-from-tally-to-quickbooks"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Tally to QuickBooks Migration in Pune",
-          "item": "https://www.patronaccounting.com/migration-from-tally-to-quickbooks/pune"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/migration-from-tally-to-quickbooks/pune#faq",
-      "datePublished": "2026-06-23T08:00:00+05:30",
-      "dateModified": "2026-06-23T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What does Tally to QuickBooks migration involve for a Pune business?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "It is the structured move of your accounting from Tally to QuickBooks Online. For Pune firms it covers chart of accounts mapping, opening balances, customer, vendor, and item masters, historical transactions, GST configuration, and trial balance reconciliation so your QuickBooks balances match Tally exactly before go-live."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does Tally to QuickBooks migration cost in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patron Accounting charges Starting from INR 9,999 (Exl GST and Govt. Charges). The final fee depends on the number of years migrated, transaction volume, GST registrations, and whether inventory masters are involved. Hinjewadi startups and Chakan manufacturers get a fixed scope quote before any work begins."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Will my GST data and GSTIN work in QuickBooks after migration?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Patron configures GST inside QuickBooks Online with your GSTIN, HSN and SAC codes, and tax rates so invoices calculate CGST, SGST, and IGST correctly under the CGST Act 2017. We reconcile migrated purchases against GSTR-2B so input tax credit continues without a break for your Pune business."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does a Tally to QuickBooks migration take in Pune?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Most Pune migrations take 7 to 10 working days. A single-year Hinjewadi SaaS file with clean masters is usually live in about a week. Multi-year Chakan manufacturer data with inventory and several GSTINs can take 2 to 4 weeks, depending on data quality and transaction volume."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is QuickBooks still usable in India after Intuit exited in 2023?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Intuit withdrew its India-specific QuickBooks plans in 2023, but the global QuickBooks Online edition remains available and is what Patron sets up and configures for GST. We advise Pune clients on the right edition and an alternative such as Zoho Books where it suits the business better."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which Tally data is carried over to QuickBooks?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patron migrates the chart of accounts, opening balances, customer and vendor masters, item or stock masters, and historical transactions such as invoices, bills, receipts, and payments. Open AR and AP, bank balances, and GST settings are carried so your Pune books continue seamlessly from day one in QuickBooks."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is migration accuracy verified for a Pune company?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patron runs a two-point check. We compare the QuickBooks trial balance, profit and loss, and balance sheet against the same Tally reports, then sample-test individual ledgers and GST figures. A Chartered Accountant signs off only when QuickBooks matches Tally for the migrated period."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you train our Pune team to use QuickBooks after go-live?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. After reconciliation, Patron runs a handover session covering invoicing, GST reports, bank feeds, and month-end in QuickBooks Online for your Pune finance team. We share a short reference guide and remain available for support so the switch from Tally is smooth and confident."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/migration-from-tally-to-quickbooks/pune#service",
-      "name": "Tally to QuickBooks Migration in Pune",
-      "description": "Tally to QuickBooks Online migration in Pune covering chart of accounts mapping, opening balances, customer, vendor, and item masters, historical transactions, GST configuration, and trial balance reconciliation. Patron Accounting delivers CA-verified, audit-ready QuickBooks files for Hinjewadi, Magarpatta, and Chakan businesses.",
-      "serviceType": "Tally to QuickBooks Online Data Migration",
-      "url": "https://www.patronaccounting.com/migration-from-tally-to-quickbooks/pune",
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Maharashtra"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#localbusiness-pune"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "QuickBooks",
-          "sameAs": "https://en.wikipedia.org/wiki/QuickBooks"
-        },
-        {
-          "@type": "Thing",
-          "name": "Goods and Services Tax (India)",
-          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Tally to QuickBooks Migration Plans in Pune",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "price": "9999",
-            "priceSpecification": {
-              "@type": "UnitPriceSpecification",
-              "priceCurrency": "INR",
-              "price": "9999",
-              "unitText": "starting from"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Tally to QuickBooks Online Migration"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness-pune",
-      "name": "Patron Accounting LLP - Pune",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/migration-from-tally-to-quickbooks/pune",
-      "telephone": "+91-9699936369",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Pune",
-        "addressRegion": "Maharashtra",
-        "postalCode": "411014",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -815,7 +612,217 @@
         .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
 
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>Tally to QuickBooks Migration Pune 2026 | Patron Accounting</title>
+    <meta name="description" content="Tally to QuickBooks Online migration in Pune from INR 9,999. CA-led chart mapping, masters, GST setup, and trial balance reconciliation for Hinjewadi firms.">
+    <link rel="canonical" href="/migration-from-tally-to-quickbooks/pune">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Tally to QuickBooks Migration Pune 2026 | Patron Accounting">
+    <meta property="og:description" content="Tally to QuickBooks Online migration in Pune from INR 9,999. CA-led chart mapping, masters, GST setup, and trial balance reconciliation for Hinjewadi firms.">
+    <meta property="og:url" content="/migration-from-tally-to-quickbooks/pune">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Tally to QuickBooks Migration Pune 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Tally to QuickBooks Online migration in Pune from INR 9,999. CA-led chart mapping, masters, GST setup, and trial balance reconciliation for Hinjewadi firms.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/migration-from-tally-to-quickbooks/pune#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Tally to QuickBooks Migration",
+          "item": "https://www.patronaccounting.com/migration-from-tally-to-quickbooks"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Tally to QuickBooks Migration in Pune",
+          "item": "https://www.patronaccounting.com/migration-from-tally-to-quickbooks/pune"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/migration-from-tally-to-quickbooks/pune#faq",
+      "datePublished": "2026-06-23T08:00:00+05:30",
+      "dateModified": "2026-06-23T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does Tally to QuickBooks migration involve for a Pune business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is the structured move of your accounting from Tally to QuickBooks Online. For Pune firms it covers chart of accounts mapping, opening balances, customer, vendor, and item masters, historical transactions, GST configuration, and trial balance reconciliation so your QuickBooks balances match Tally exactly before go-live."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does Tally to QuickBooks migration cost in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patron Accounting charges Starting from INR 9,999 (Exl GST and Govt. Charges). The final fee depends on the number of years migrated, transaction volume, GST registrations, and whether inventory masters are involved. Hinjewadi startups and Chakan manufacturers get a fixed scope quote before any work begins."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will my GST data and GSTIN work in QuickBooks after migration?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Patron configures GST inside QuickBooks Online with your GSTIN, HSN and SAC codes, and tax rates so invoices calculate CGST, SGST, and IGST correctly under the CGST Act 2017. We reconcile migrated purchases against GSTR-2B so input tax credit continues without a break for your Pune business."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does a Tally to QuickBooks migration take in Pune?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most Pune migrations take 7 to 10 working days. A single-year Hinjewadi SaaS file with clean masters is usually live in about a week. Multi-year Chakan manufacturer data with inventory and several GSTINs can take 2 to 4 weeks, depending on data quality and transaction volume."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is QuickBooks still usable in India after Intuit exited in 2023?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Intuit withdrew its India-specific QuickBooks plans in 2023, but the global QuickBooks Online edition remains available and is what Patron sets up and configures for GST. We advise Pune clients on the right edition and an alternative such as Zoho Books where it suits the business better."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which Tally data is carried over to QuickBooks?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patron migrates the chart of accounts, opening balances, customer and vendor masters, item or stock masters, and historical transactions such as invoices, bills, receipts, and payments. Open AR and AP, bank balances, and GST settings are carried so your Pune books continue seamlessly from day one in QuickBooks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is migration accuracy verified for a Pune company?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patron runs a two-point check. We compare the QuickBooks trial balance, profit and loss, and balance sheet against the same Tally reports, then sample-test individual ledgers and GST figures. A Chartered Accountant signs off only when QuickBooks matches Tally for the migrated period."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you train our Pune team to use QuickBooks after go-live?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. After reconciliation, Patron runs a handover session covering invoicing, GST reports, bank feeds, and month-end in QuickBooks Online for your Pune finance team. We share a short reference guide and remain available for support so the switch from Tally is smooth and confident."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/migration-from-tally-to-quickbooks/pune#service",
+      "name": "Tally to QuickBooks Migration in Pune",
+      "description": "Tally to QuickBooks Online migration in Pune covering chart of accounts mapping, opening balances, customer, vendor, and item masters, historical transactions, GST configuration, and trial balance reconciliation. Patron Accounting delivers CA-verified, audit-ready QuickBooks files for Hinjewadi, Magarpatta, and Chakan businesses.",
+      "serviceType": "Tally to QuickBooks Online Data Migration",
+      "url": "https://www.patronaccounting.com/migration-from-tally-to-quickbooks/pune",
+      "areaServed": {
+        "@type": "City",
+        "name": "Pune",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Maharashtra"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#localbusiness-pune"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "QuickBooks",
+          "sameAs": "https://en.wikipedia.org/wiki/QuickBooks"
+        },
+        {
+          "@type": "Thing",
+          "name": "Goods and Services Tax (India)",
+          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Tally to QuickBooks Migration Plans in Pune",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "price": "9999",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "INR",
+              "price": "9999",
+              "unitText": "starting from"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Tally to QuickBooks Online Migration"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness-pune",
+      "name": "Patron Accounting LLP - Pune",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/migration-from-tally-to-quickbooks/pune",
+      "telephone": "+91-9699936369",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Pune"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Pune",
+        "addressRegion": "Maharashtra",
+        "postalCode": "411014",
+        "addressCountry": "IN"
+      },
+      "parentOrganization": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1568,7 +1575,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

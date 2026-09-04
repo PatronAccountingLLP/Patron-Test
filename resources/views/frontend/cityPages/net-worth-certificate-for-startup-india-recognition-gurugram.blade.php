@@ -1,174 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Net Worth Certificate for Startup India Recognition in Gurugram 2026 | Patron Accounting</title>
-    <meta name="description" content="Net Worth Certificate for Startup India by a CA with UDIN. CA-certified financials for the 80-IAC IMB application and investor due diligence. From INR 3,999.">
-    <link rel="canonical" href="/net-worth-certificate-for-startup-india-recognition/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Net Worth Certificate for Startup India Recognition 2026 | Patron Accounting">
-    <meta property="og:description" content="Net Worth Certificate for Startup India by a CA with UDIN. CA-certified financials for the 80-IAC IMB application and investor due diligence. From INR 3,999.">
-    <meta property="og:url" content="/net-worth-certificate-for-startup-india-recognition/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Net Worth Certificate for Startup India Recognition 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Net Worth Certificate for Startup India by a CA with UDIN. CA-certified financials for the 80-IAC IMB application and investor due diligence. From INR 3,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-startup-india-recognition/gurugram/#service",
-        "name": "Net Worth Certificate for Startup India Recognition in Gurugram",
-        "description": "CA-certified Balance Sheet, Profit and Loss, and net worth statement for DPIIT-recognised startups, supporting the Section 80-IAC Inter-Ministerial Board application, investor due diligence, and SISFS seed-fund applications, with a mandatory 18-digit UDIN.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/net-worth-certificate-for-startup-india-recognition/gurugram" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Startup India", "sameAs": "https://en.wikipedia.org/wiki/Startup_India" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Net Worth Certificate for Startup India Recognition Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": { "@type": "Service", "name": "Startup India financial certification and net worth certificate" },
-                    "priceCurrency": "INR",
-                    "price": "3999",
-                    "description": "Starting from INR 3,999 (excl. GST and govt. charges)"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-startup-india-recognition/gurugram/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Startup Registration", "item": "https://www.patronaccounting.com/startup-registration" },
-            { "@type": "ListItem", "position": 3, "name": "Net Worth Certificate for Startup India Recognition", "item": "https://www.patronaccounting.com/net-worth-certificate-for-startup-india-recognition/gurugram" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-startup-india-recognition/gurugram/#faq",
-        "datePublished": "2026-06-09T08:00:00+05:30",
-        "dateModified": "2026-06-09T08:00:00+05:30",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "Is a net worth certificate required for DPIIT recognition?",
-                "acceptedAnswer": { "@type": "Answer", "text": "No. DPIIT Startup India recognition is free and based on entity type, age, turnover ceiling, and innovation. A net worth certificate is not part of the recognition application. CA-certified financials become relevant at the 80-IAC tax-holiday stage and during investor due diligence." }
-            },
-            {
-                "@type": "Question",
-                "name": "What financial documents does the 80-IAC application need?",
-                "acceptedAnswer": { "@type": "Answer", "text": "The Section 80-IAC application on Form 80-IAC requires CA-certified Balance Sheet and Profit and Loss statements for the relevant years since incorporation, along with the shareholding pattern, board resolution, and an innovation pitch. The Inter-Ministerial Board reviews these." }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the 80-IAC tax holiday?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Section 80-IAC of the Income-tax Act, 1961 allows an eligible DPIIT-recognised Pvt Ltd or LLP startup a 100 percent deduction on profits for any 3 consecutive years out of its first 10, subject to Inter-Ministerial Board approval. Turnover must stay within the prescribed ceiling." }
-            },
-            {
-                "@type": "Question",
-                "name": "Do investors ask for a net worth certificate?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Investors run financial due diligence and expect CA-certified financials and a clean cap table that reconciles to board resolutions. A net worth and financial certification strengthens the data room and reduces closing conditions during a round." }
-            },
-            {
-                "@type": "Question",
-                "name": "Is the certificate needed for the SISFS seed fund?",
-                "acceptedAnswer": { "@type": "Answer", "text": "The Startup India Seed Fund Scheme involves incubator and Inter-Ministerial Board assessment and utilisation certificates. CA-certified financials support the application and the milestone-based reporting required once funds are released." }
-            },
-            {
-                "@type": "Question",
-                "name": "Who can issue the certificate?",
-                "acceptedAnswer": { "@type": "Answer", "text": "A practising Chartered Accountant registered with ICAI, holding a valid Certificate of Practice. The certificate must carry the CA's seal, firm registration number, and an 18-digit UDIN that any institution can verify online." }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-startup-india-recognition/gurugram",
-        "name": "Net Worth Certificate for Startup India Recognition in Gurugram",
-        "description": "Net Worth Certificate for Startup India by a CA with UDIN. CA-certified financials for the 80-IAC IMB application and investor due diligence. From INR 3,999.",
-        "url": "https://www.patronaccounting.com/net-worth-certificate-for-startup-india-recognition/gurugram",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-startup-india-recognition/gurugram/#service" },
-        "datePublished": "2026-06-09T08:00:00+05:30",
-        "dateModified": "2026-06-09T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-startup-india-recognition/gurugram/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How Startup India Financial Certification Is Prepared",
-        "description": "The six-step process to CA-certified startup financials: confirm the purpose, share financials, verify and audit, compute net worth, certify in the required format, and generate the UDIN for filing.",
-        "totalTime": "P3D",
-        "step": [
-            { "@type": "HowToStep", "name": "Confirm the purpose", "text": "Tell us whether this is for 80-IAC, investor due diligence, or SISFS." },
-            { "@type": "HowToStep", "name": "Share financials", "text": "Provide the Balance Sheet, P and L, and notes since incorporation or for the relevant years." },
-            { "@type": "HowToStep", "name": "Verify and audit", "text": "The CA verifies the figures and arranges audit where the application requires it." },
-            { "@type": "HowToStep", "name": "Compute net worth", "text": "Assets minus liabilities are computed and the statement is prepared." },
-            { "@type": "HowToStep", "name": "Certify in format", "text": "The CA-certified financials are prepared to match Form 80-IAC or the investor's checklist." },
-            { "@type": "HowToStep", "name": "UDIN and delivery", "text": "UDIN is generated and the certified documents are delivered for filing." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Net Worth Certificate for Startup India Recognition Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "DPIIT recognition", "description": "The free Startup India credential, based on entity type, age, turnover, and innovation - no net worth certificate needed." },
-            { "@type": "DefinedTerm", "name": "Section 80-IAC", "description": "100 percent income tax deduction on profits for 3 consecutive years out of the first 10, for eligible Pvt Ltd and LLP startups." },
-            { "@type": "DefinedTerm", "name": "IMB", "description": "The Inter-Ministerial Board that evaluates the 80-IAC application and issues the eligibility certificate." },
-            { "@type": "DefinedTerm", "name": "Form 80-IAC", "description": "The portal form for the tax holiday, which requires CA-certified Balance Sheet and P and L." },
-            { "@type": "DefinedTerm", "name": "SISFS", "description": "The Startup India Seed Fund Scheme, where incubators and CA-certified financials support funding." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -782,7 +618,176 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Net Worth Certificate for Startup India Recognition in Gurugram 2026 | Patron Accounting</title>
+    <meta name="description" content="Net Worth Certificate for Startup India by a CA with UDIN. CA-certified financials for the 80-IAC IMB application and investor due diligence. From INR 3,999.">
+    <link rel="canonical" href="/net-worth-certificate-for-startup-india-recognition/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Net Worth Certificate for Startup India Recognition 2026 | Patron Accounting">
+    <meta property="og:description" content="Net Worth Certificate for Startup India by a CA with UDIN. CA-certified financials for the 80-IAC IMB application and investor due diligence. From INR 3,999.">
+    <meta property="og:url" content="/net-worth-certificate-for-startup-india-recognition/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Net Worth Certificate for Startup India Recognition 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Net Worth Certificate for Startup India by a CA with UDIN. CA-certified financials for the 80-IAC IMB application and investor due diligence. From INR 3,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-startup-india-recognition/gurugram/#service",
+        "name": "Net Worth Certificate for Startup India Recognition in Gurugram",
+        "description": "CA-certified Balance Sheet, Profit and Loss, and net worth statement for DPIIT-recognised startups, supporting the Section 80-IAC Inter-Ministerial Board application, investor due diligence, and SISFS seed-fund applications, with a mandatory 18-digit UDIN.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/net-worth-certificate-for-startup-india-recognition/gurugram" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Startup India", "sameAs": "https://en.wikipedia.org/wiki/Startup_India" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Net Worth Certificate for Startup India Recognition Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": { "@type": "Service", "name": "Startup India financial certification and net worth certificate" },
+                    "priceCurrency": "INR",
+                    "price": "3999",
+                    "description": "Starting from INR 3,999 (excl. GST and govt. charges)"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-startup-india-recognition/gurugram/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Startup Registration", "item": "https://www.patronaccounting.com/startup-registration" },
+            { "@type": "ListItem", "position": 3, "name": "Net Worth Certificate for Startup India Recognition", "item": "https://www.patronaccounting.com/net-worth-certificate-for-startup-india-recognition/gurugram" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-startup-india-recognition/gurugram/#faq",
+        "datePublished": "2026-06-09T08:00:00+05:30",
+        "dateModified": "2026-06-09T08:00:00+05:30",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Is a net worth certificate required for DPIIT recognition?",
+                "acceptedAnswer": { "@type": "Answer", "text": "No. DPIIT Startup India recognition is free and based on entity type, age, turnover ceiling, and innovation. A net worth certificate is not part of the recognition application. CA-certified financials become relevant at the 80-IAC tax-holiday stage and during investor due diligence." }
+            },
+            {
+                "@type": "Question",
+                "name": "What financial documents does the 80-IAC application need?",
+                "acceptedAnswer": { "@type": "Answer", "text": "The Section 80-IAC application on Form 80-IAC requires CA-certified Balance Sheet and Profit and Loss statements for the relevant years since incorporation, along with the shareholding pattern, board resolution, and an innovation pitch. The Inter-Ministerial Board reviews these." }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the 80-IAC tax holiday?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Section 80-IAC of the Income-tax Act, 1961 allows an eligible DPIIT-recognised Pvt Ltd or LLP startup a 100 percent deduction on profits for any 3 consecutive years out of its first 10, subject to Inter-Ministerial Board approval. Turnover must stay within the prescribed ceiling." }
+            },
+            {
+                "@type": "Question",
+                "name": "Do investors ask for a net worth certificate?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Investors run financial due diligence and expect CA-certified financials and a clean cap table that reconciles to board resolutions. A net worth and financial certification strengthens the data room and reduces closing conditions during a round." }
+            },
+            {
+                "@type": "Question",
+                "name": "Is the certificate needed for the SISFS seed fund?",
+                "acceptedAnswer": { "@type": "Answer", "text": "The Startup India Seed Fund Scheme involves incubator and Inter-Ministerial Board assessment and utilisation certificates. CA-certified financials support the application and the milestone-based reporting required once funds are released." }
+            },
+            {
+                "@type": "Question",
+                "name": "Who can issue the certificate?",
+                "acceptedAnswer": { "@type": "Answer", "text": "A practising Chartered Accountant registered with ICAI, holding a valid Certificate of Practice. The certificate must carry the CA's seal, firm registration number, and an 18-digit UDIN that any institution can verify online." }
+            }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-startup-india-recognition/gurugram",
+        "name": "Net Worth Certificate for Startup India Recognition in Gurugram",
+        "description": "Net Worth Certificate for Startup India by a CA with UDIN. CA-certified financials for the 80-IAC IMB application and investor due diligence. From INR 3,999.",
+        "url": "https://www.patronaccounting.com/net-worth-certificate-for-startup-india-recognition/gurugram",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-startup-india-recognition/gurugram/#service" },
+        "datePublished": "2026-06-09T08:00:00+05:30",
+        "dateModified": "2026-06-09T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-startup-india-recognition/gurugram/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How Startup India Financial Certification Is Prepared",
+        "description": "The six-step process to CA-certified startup financials: confirm the purpose, share financials, verify and audit, compute net worth, certify in the required format, and generate the UDIN for filing.",
+        "totalTime": "P3D",
+        "step": [
+            { "@type": "HowToStep", "name": "Confirm the purpose", "text": "Tell us whether this is for 80-IAC, investor due diligence, or SISFS." },
+            { "@type": "HowToStep", "name": "Share financials", "text": "Provide the Balance Sheet, P and L, and notes since incorporation or for the relevant years." },
+            { "@type": "HowToStep", "name": "Verify and audit", "text": "The CA verifies the figures and arranges audit where the application requires it." },
+            { "@type": "HowToStep", "name": "Compute net worth", "text": "Assets minus liabilities are computed and the statement is prepared." },
+            { "@type": "HowToStep", "name": "Certify in format", "text": "The CA-certified financials are prepared to match Form 80-IAC or the investor's checklist." },
+            { "@type": "HowToStep", "name": "UDIN and delivery", "text": "UDIN is generated and the certified documents are delivered for filing." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Net Worth Certificate for Startup India Recognition Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "DPIIT recognition", "description": "The free Startup India credential, based on entity type, age, turnover, and innovation - no net worth certificate needed." },
+            { "@type": "DefinedTerm", "name": "Section 80-IAC", "description": "100 percent income tax deduction on profits for 3 consecutive years out of the first 10, for eligible Pvt Ltd and LLP startups." },
+            { "@type": "DefinedTerm", "name": "IMB", "description": "The Inter-Ministerial Board that evaluates the 80-IAC application and issues the eligibility certificate." },
+            { "@type": "DefinedTerm", "name": "Form 80-IAC", "description": "The portal form for the tax holiday, which requires CA-certified Balance Sheet and P and L." },
+            { "@type": "DefinedTerm", "name": "SISFS", "description": "The Startup India Seed Fund Scheme, where incubators and CA-certified financials support funding." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1600,22 +1605,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
-<!-- ============================================
-     CONSULTATION FORM — Country Dropdown + Validation + Bigin Integration
-     ============================================ -->
-{{-- Enquiry form markup + JS now in partials/enquiry-form.blade.php --}}
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1638,8 +1631,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1676,7 +1667,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1 (Schema Standard v2.1 / Rule 36): visible "Last Updated" mirrors schema dateModified
 // (9 June 2026) as a STABLE value - never live new Date().
@@ -1688,3 +1678,24 @@ window.addEventListener('scroll', function() {
     if (el2) el2.textContent = dateStr;
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+<!-- ============================================
+     CONSULTATION FORM — Country Dropdown + Validation + Bigin Integration
+     ============================================ -->
+{{-- Enquiry form markup + JS now in partials/enquiry-form.blade.php --}}
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

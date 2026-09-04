@@ -1,148 +1,12 @@
 
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Section 74 GST Notice 2026: Fraud SCN | Patron Accounting</title>
-    <meta name="description" content="Section 74 CGST Act fraud SCN defence - 5-year limitation, 100% penalty, Section 132 prosecution risk, Section 75(2) downgrade. Patron from Rs 14,999.">
-    <link rel="canonical" href="/sec-74-gst-notice">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Section 74 GST Notice 2026: Fraud SCN | Patron Accounting">
-    <meta property="og:description" content="Section 74 CGST Act fraud SCN defence - 5-year limitation, 100% penalty, Section 132 prosecution risk, Section 75(2) downgrade. Patron from Rs 14,999.">
-    <meta property="og:url" content="/sec-74-gst-notice">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Section 74 GST Notice 2026: Fraud SCN | Patron Accounting">
-    <meta name="twitter:description" content="Section 74 CGST Act fraud SCN defence - 5-year limitation, 100% penalty, Section 132 prosecution risk, Section 75(2) downgrade. Patron from Rs 14,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/sec-74-gst-notice/#service",
-        "name": "Section 74 GST Notice and Fraud SCN Defence",
-        "description": "Premium Section 74 CGST Act fraud Show Cause Notice defence service covering DRC-01 SCN analysis with fraud-element decomposition, DRC-01A pre-notice intimation handling for Section 74(5) 15 percent penalty optimization via DRC-03, DRC-06 reply drafting with Section 75(2) statutory downgrade arguments to convert wrongly-invoked Section 74 demands into Section 73 reducing penalty exposure from 100 percent to 10 percent, Supreme Court Northern Operating System (2022) burden-of-proof framework, Section 132 criminal prosecution defence in high-value cases with bail strategy, Section 138 compounding advisory, Section 17(5) Finance Act 2024 impact analysis, Section 74A transition advisory, hearing representation under Section 116, and Section 107 first appeal for fraud demand cases covering FY 2017-18 to FY 2023-24 starting from INR 14,999 per SCN engagement.",
-        "serviceType": "GST Fraud Notice Defence",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "areaServed": { "@type": "Country", "name": "India" },
-        "about": [
-            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
-            { "@type": "Thing", "name": "Tax evasion", "sameAs": "https://en.wikipedia.org/wiki/Tax_evasion" }
-        ],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Section 74 GST Notice Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "Section 74 DRC-01A Pre-Notice Response",
-                    "priceCurrency": "INR",
-                    "price": "14999",
-                    "description": "Pre-SCN analysis and DRC-03 voluntary payment route at the Section 74(5) 15 percent penalty cap"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/sec-74-gst-notice/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
-            { "@type": "ListItem", "position": 3, "name": "Section 74 GST Notice", "item": "https://www.patronaccounting.com/sec-74-gst-notice" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/sec-74-gst-notice/#faq",
-        "datePublished": "2026-05-27T08:00:00+05:30",
-        "dateModified": "2026-06-01T08:00:00+05:30",
-        "mainEntity": [
-
-            {
-                "@type": "Question",
-                "name": "What is a Section 74 GST notice?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "A Section 74 GST notice is a Show Cause Notice issued under Section 74 of the CGST Act 2017 when the proper officer alleges that tax has been short paid, not paid, erroneously refunded, or input tax credit wrongly availed - by reason of fraud, willful misstatement, or suppression of facts with intent to evade tax. Unlike Section 73 (non-fraud, 10 percent penalty cap), Section 74 invokes the extended 5-year limitation, tiered penalty (15 percent pre-SCN, 25 percent within 30 days of SCN, 50 percent within 30 days of DRC-07 order, 100 percent beyond), and Section 132 prosecution risk in high-value cases."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the difference between Section 73 and Section 74?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Section 73 covers non-fraud cases - genuine compliance gaps, calculation errors, or interpretive differences. Penalty is capped at 10 percent of tax or Rs 10,000, and time limit is 3 years from annual return due date. Section 74 covers cases where fraud, willful misstatement, or suppression of facts is alleged. Penalty is 100 percent of tax (or 50 percent within 30 days of DRC-07, 25 percent within 30 days of SCN, 15 percent pre-SCN). Time limit is 5 years. Section 132 prosecution risk attaches in Section 74. Section 75(2) provides statutory protection - if fraud cannot be upheld, the demand must be treated as Section 73."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the Section 75(2) downgrade defence?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Section 75(2) of the CGST Act provides that where the appellate authority concludes that fraud, willful misstatement, or suppression of facts cannot be established by the proper officer, the notice issued under Section 74 must be treated as if it were issued under Section 73 - with the 10 percent penalty cap instead of 100 percent. This is the most powerful defence in Section 74 proceedings - on a Rs 1 crore tax demand, successful Section 75(2) downgrade saves Rs 90 lakh in penalty. Patron has successfully invoked Section 75(2) in 150 plus engagements."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can I face criminal prosecution under Section 74?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, but only if the alleged evasion exceeds prescribed thresholds. Section 132 of the CGST Act prescribes criminal prosecution for tax evasion - imprisonment up to 5 years for evasion above Rs 5 crore (cognizable and non-bailable), up to 3 years for Rs 2 to 5 crore (non-cognizable, bailable), up to 1 year for Rs 1 to 2 crore. Below Rs 1 crore, no prosecution under Section 132. Section 138 provides a compounding option - offences can be compounded at 25 percent to 100 percent of tax slabs before or after prosecution."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How is the burden of proof allocated in Section 74?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "The burden of proving fraud, willful misstatement, or suppression of facts rests on the proper officer, NOT the taxpayer. This is well-settled judicial principle, confirmed by the Supreme Court in Commissioner of CC, CE and ST, Bangalore v Northern Operating System (2022) 5 TMI 967. The officer must clearly identify in the SCN the alleged fraudulent conduct, the statutory disclosure obligation breached, the material evidence relied upon, and the nexus with intent to evade tax. Mere allegation, inference from discrepancy, or procedural lapse is insufficient."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is Section 74A and how does it affect Section 74?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Section 74A was introduced by Finance Act 2024 on the recommendation of the 53rd GST Council and is effective from FY 2024-25 onwards (Notification 17/2024-CT, effective 1 November 2024). It consolidates Section 73 and Section 74 into a unified procedural framework with a 42-month notice period and 12-month order timeline. The fraud distinction is preserved through different penalty structures - Section 74A(5)(i) for non-fraud and Section 74A(5)(ii) for fraud cases. Section 74 continues to apply for FY 2017-18 to FY 2023-24."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can I voluntarily pay before Section 74 SCN to reduce penalty?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. Section 74(5) of the CGST Act provides that pre-SCN voluntary payment via Form DRC-03 attracts only 15 percent penalty (compared to 25 percent within 30 days of SCN, 50 percent within 30 days of DRC-07 order, or 100 percent beyond). On receipt of DRC-01A pre-notice intimation, the taxpayer can pay tax plus interest plus 15 percent penalty - which triggers Section 74(6) conclusion of proceedings if accepted. Strategic decision based on evidence strength, Section 75(2) downgrade probability, and reputational considerations."
-                }
-            }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -756,7 +620,148 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Section 74 GST Notice 2026: Fraud SCN | Patron Accounting</title>
+    <meta name="description" content="Section 74 CGST Act fraud SCN defence - 5-year limitation, 100% penalty, Section 132 prosecution risk, Section 75(2) downgrade. Patron from Rs 14,999.">
+    <link rel="canonical" href="/sec-74-gst-notice">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Section 74 GST Notice 2026: Fraud SCN | Patron Accounting">
+    <meta property="og:description" content="Section 74 CGST Act fraud SCN defence - 5-year limitation, 100% penalty, Section 132 prosecution risk, Section 75(2) downgrade. Patron from Rs 14,999.">
+    <meta property="og:url" content="/sec-74-gst-notice">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Section 74 GST Notice 2026: Fraud SCN | Patron Accounting">
+    <meta name="twitter:description" content="Section 74 CGST Act fraud SCN defence - 5-year limitation, 100% penalty, Section 132 prosecution risk, Section 75(2) downgrade. Patron from Rs 14,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/sec-74-gst-notice/#service",
+        "name": "Section 74 GST Notice and Fraud SCN Defence",
+        "description": "Premium Section 74 CGST Act fraud Show Cause Notice defence service covering DRC-01 SCN analysis with fraud-element decomposition, DRC-01A pre-notice intimation handling for Section 74(5) 15 percent penalty optimization via DRC-03, DRC-06 reply drafting with Section 75(2) statutory downgrade arguments to convert wrongly-invoked Section 74 demands into Section 73 reducing penalty exposure from 100 percent to 10 percent, Supreme Court Northern Operating System (2022) burden-of-proof framework, Section 132 criminal prosecution defence in high-value cases with bail strategy, Section 138 compounding advisory, Section 17(5) Finance Act 2024 impact analysis, Section 74A transition advisory, hearing representation under Section 116, and Section 107 first appeal for fraud demand cases covering FY 2017-18 to FY 2023-24 starting from INR 14,999 per SCN engagement.",
+        "serviceType": "GST Fraud Notice Defence",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "areaServed": { "@type": "Country", "name": "India" },
+        "about": [
+            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
+            { "@type": "Thing", "name": "Tax evasion", "sameAs": "https://en.wikipedia.org/wiki/Tax_evasion" }
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Section 74 GST Notice Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "Section 74 DRC-01A Pre-Notice Response",
+                    "priceCurrency": "INR",
+                    "price": "14999",
+                    "description": "Pre-SCN analysis and DRC-03 voluntary payment route at the Section 74(5) 15 percent penalty cap"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/sec-74-gst-notice/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
+            { "@type": "ListItem", "position": 3, "name": "Section 74 GST Notice", "item": "https://www.patronaccounting.com/sec-74-gst-notice" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/sec-74-gst-notice/#faq",
+        "datePublished": "2026-05-27T08:00:00+05:30",
+        "dateModified": "2026-06-01T08:00:00+05:30",
+        "mainEntity": [
+
+            {
+                "@type": "Question",
+                "name": "What is a Section 74 GST notice?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "A Section 74 GST notice is a Show Cause Notice issued under Section 74 of the CGST Act 2017 when the proper officer alleges that tax has been short paid, not paid, erroneously refunded, or input tax credit wrongly availed - by reason of fraud, willful misstatement, or suppression of facts with intent to evade tax. Unlike Section 73 (non-fraud, 10 percent penalty cap), Section 74 invokes the extended 5-year limitation, tiered penalty (15 percent pre-SCN, 25 percent within 30 days of SCN, 50 percent within 30 days of DRC-07 order, 100 percent beyond), and Section 132 prosecution risk in high-value cases."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the difference between Section 73 and Section 74?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Section 73 covers non-fraud cases - genuine compliance gaps, calculation errors, or interpretive differences. Penalty is capped at 10 percent of tax or Rs 10,000, and time limit is 3 years from annual return due date. Section 74 covers cases where fraud, willful misstatement, or suppression of facts is alleged. Penalty is 100 percent of tax (or 50 percent within 30 days of DRC-07, 25 percent within 30 days of SCN, 15 percent pre-SCN). Time limit is 5 years. Section 132 prosecution risk attaches in Section 74. Section 75(2) provides statutory protection - if fraud cannot be upheld, the demand must be treated as Section 73."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the Section 75(2) downgrade defence?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Section 75(2) of the CGST Act provides that where the appellate authority concludes that fraud, willful misstatement, or suppression of facts cannot be established by the proper officer, the notice issued under Section 74 must be treated as if it were issued under Section 73 - with the 10 percent penalty cap instead of 100 percent. This is the most powerful defence in Section 74 proceedings - on a Rs 1 crore tax demand, successful Section 75(2) downgrade saves Rs 90 lakh in penalty. Patron has successfully invoked Section 75(2) in 150 plus engagements."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can I face criminal prosecution under Section 74?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, but only if the alleged evasion exceeds prescribed thresholds. Section 132 of the CGST Act prescribes criminal prosecution for tax evasion - imprisonment up to 5 years for evasion above Rs 5 crore (cognizable and non-bailable), up to 3 years for Rs 2 to 5 crore (non-cognizable, bailable), up to 1 year for Rs 1 to 2 crore. Below Rs 1 crore, no prosecution under Section 132. Section 138 provides a compounding option - offences can be compounded at 25 percent to 100 percent of tax slabs before or after prosecution."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How is the burden of proof allocated in Section 74?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The burden of proving fraud, willful misstatement, or suppression of facts rests on the proper officer, NOT the taxpayer. This is well-settled judicial principle, confirmed by the Supreme Court in Commissioner of CC, CE and ST, Bangalore v Northern Operating System (2022) 5 TMI 967. The officer must clearly identify in the SCN the alleged fraudulent conduct, the statutory disclosure obligation breached, the material evidence relied upon, and the nexus with intent to evade tax. Mere allegation, inference from discrepancy, or procedural lapse is insufficient."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is Section 74A and how does it affect Section 74?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Section 74A was introduced by Finance Act 2024 on the recommendation of the 53rd GST Council and is effective from FY 2024-25 onwards (Notification 17/2024-CT, effective 1 November 2024). It consolidates Section 73 and Section 74 into a unified procedural framework with a 42-month notice period and 12-month order timeline. The fraud distinction is preserved through different penalty structures - Section 74A(5)(i) for non-fraud and Section 74A(5)(ii) for fraud cases. Section 74 continues to apply for FY 2017-18 to FY 2023-24."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can I voluntarily pay before Section 74 SCN to reduce penalty?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Section 74(5) of the CGST Act provides that pre-SCN voluntary payment via Form DRC-03 attracts only 15 percent penalty (compared to 25 percent within 30 days of SCN, 50 percent within 30 days of DRC-07 order, or 100 percent beyond). On receipt of DRC-01A pre-notice intimation, the taxpayer can pay tax plus interest plus 15 percent penalty - which triggers Section 74(6) conclusion of proceedings if accepted. Strategic decision based on evidence strength, Section 75(2) downgrade probability, and reputational considerations."
+                }
+            }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1652,17 +1657,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1685,8 +1683,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1723,7 +1719,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1734,3 +1729,19 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

@@ -1,156 +1,11 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Net Worth for Joint Owners Gurugram - CA Attested</title>
-    <meta name="description" content="CA-certified net worth certificate for joint owners in Gurugram. Husband-wife, co-owners, share allocation, joint property valuation, UDIN. Same-day. Call +91 945 945 6700.">
-    <link rel="canonical" href="/net-worth-certificate-for-joint-owners-in-india/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Net Worth for Joint Owners Gurugram - CA Attested">
-    <meta property="og:description" content="CA-certified net worth certificate for joint owners in Gurugram. Husband-wife, co-owners, share allocation, joint property valuation, UDIN. Same-day. Call +91 945 945 6700.">
-    <meta property="og:url" content="/net-worth-certificate-for-joint-owners-in-india/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Net Worth for Joint Owners Gurugram - CA Attested">
-    <meta name="twitter:description" content="CA-certified net worth certificate for joint owners in Gurugram. Husband-wife, co-owners, share allocation, joint property valuation, UDIN. Same-day. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "Net Worth for Joint Owners Gurugram - CA Attested",
-      "description": "CA-certified net worth certificate for joint owners in Gurugram. Husband-wife, co-owners, share allocation, joint property valuation, UDIN. Same-day. Call +91 945 945 6700.",
-      "url": "/net-worth-certificate-for-joint-owners-in-india/gurugram",
-      "serviceType": "Net Worth for Joint Owners Gurugram - CA Attested",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "/",
-        "logo": "/images/site-logo.svg"
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Net Worth Certificate for Joint Owners - CA Certified India",
-          "item": "https://www.patronaccounting.com/net-worth-certificate-for-joint-owners-in-india"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Net Worth for Joint Owners Gurugram - CA Attested",
-          "item": "https://www.patronaccounting.com/net-worth-certificate-for-joint-owners-in-india/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is joint owner net worth certificate?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "CA-certified document for 2+ co-owners showing combined or proportional assets/liabilities with share allocation. Each owner's share of joint assets shown alongside individual assets. UDIN mandatory."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How are joint assets split?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Per sale deed (if shares specified), co-ownership agreement, bank mandate, or partnership deed. If no document specifies: equal ownership presumed (S.44, Transfer of Property Act)."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can husband-wife get separate certificates?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Each gets individual certificate with proportional share of joint assets + own individual assets. Own UDIN each. Useful when each needs certificate for different purpose."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What if sale deed doesn't mention shares?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "S.44 TPA presumes equal ownership. 2 owners = 50% each. 3 = 33.33%. CA applies this unless overriding co-ownership agreement exists."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is property valuation needed?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Recommended for Gurugram properties. Properties purchased years ago have appreciated significantly. Registered valuer report reflects current market value. Without it, CA uses purchase price (understated)."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is joint home loan split?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Per loan agreement (if co-borrower share specified) or equally. Most Gurugram joint loans are 50:50. Each co-borrower can claim S.24(b) and S.80C deductions on their share."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What about inherited property?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Share per will, partition deed, or legal heir certificate. Hindu Succession Act 2005 for Hindu families. Each heir's individual net worth includes their inherited share."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the cost?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Combined from Rs 3,499. Individual split from Rs 2,999/person. Property valuation package from Rs 7,999. NRI joint from Rs 4,999. Inherited from Rs 3,999."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -816,7 +671,157 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'Join Community'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Net Worth for Joint Owners Gurugram - CA Attested</title>
+    <meta name="description" content="CA-certified net worth certificate for joint owners in Gurugram. Husband-wife, co-owners, share allocation, joint property valuation, UDIN. Same-day. Call +91 945 945 6700.">
+    <link rel="canonical" href="/net-worth-certificate-for-joint-owners-in-india/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Net Worth for Joint Owners Gurugram - CA Attested">
+    <meta property="og:description" content="CA-certified net worth certificate for joint owners in Gurugram. Husband-wife, co-owners, share allocation, joint property valuation, UDIN. Same-day. Call +91 945 945 6700.">
+    <meta property="og:url" content="/net-worth-certificate-for-joint-owners-in-india/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Net Worth for Joint Owners Gurugram - CA Attested">
+    <meta name="twitter:description" content="CA-certified net worth certificate for joint owners in Gurugram. Husband-wife, co-owners, share allocation, joint property valuation, UDIN. Same-day. Call +91 945 945 6700.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "Net Worth for Joint Owners Gurugram - CA Attested",
+      "description": "CA-certified net worth certificate for joint owners in Gurugram. Husband-wife, co-owners, share allocation, joint property valuation, UDIN. Same-day. Call +91 945 945 6700.",
+      "url": "/net-worth-certificate-for-joint-owners-in-india/gurugram",
+      "serviceType": "Net Worth for Joint Owners Gurugram - CA Attested",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Patron Accounting LLP",
+        "url": "/",
+        "logo": "/images/site-logo.svg"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Net Worth Certificate for Joint Owners - CA Certified India",
+          "item": "https://www.patronaccounting.com/net-worth-certificate-for-joint-owners-in-india"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Net Worth for Joint Owners Gurugram - CA Attested",
+          "item": "https://www.patronaccounting.com/net-worth-certificate-for-joint-owners-in-india/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is joint owner net worth certificate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CA-certified document for 2+ co-owners showing combined or proportional assets/liabilities with share allocation. Each owner's share of joint assets shown alongside individual assets. UDIN mandatory."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How are joint assets split?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Per sale deed (if shares specified), co-ownership agreement, bank mandate, or partnership deed. If no document specifies: equal ownership presumed (S.44, Transfer of Property Act)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can husband-wife get separate certificates?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Each gets individual certificate with proportional share of joint assets + own individual assets. Own UDIN each. Useful when each needs certificate for different purpose."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if sale deed doesn't mention shares?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "S.44 TPA presumes equal ownership. 2 owners = 50% each. 3 = 33.33%. CA applies this unless overriding co-ownership agreement exists."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is property valuation needed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Recommended for Gurugram properties. Properties purchased years ago have appreciated significantly. Registered valuer report reflects current market value. Without it, CA uses purchase price (understated)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is joint home loan split?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Per loan agreement (if co-borrower share specified) or equally. Most Gurugram joint loans are 50:50. Each co-borrower can claim S.24(b) and S.80C deductions on their share."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What about inherited property?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Share per will, partition deed, or legal heir certificate. Hindu Succession Act 2005 for Hindu families. Each heir's individual net worth includes their inherited share."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Combined from Rs 3,499. Individual split from Rs 2,999/person. Property valuation package from Rs 7,999. NRI joint from Rs 4,999. Inherited from Rs 3,999."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1490,7 +1495,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

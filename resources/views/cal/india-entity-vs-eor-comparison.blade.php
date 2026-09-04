@@ -1,196 +1,8 @@
 @extends('layouts.app')
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
-@section('meta')
-    <title>India Entity vs EOR Calculator | Cost Comparison TCO</title>
-    <meta name="description" content="Free India entity vs EOR cost calculator: 36-month TCO, breakeven point, 15-criteria comparison and 4 Labour Codes 2025 side by side. Free CA tool. Try now!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/india-entity-vs-eor-comparison">
-    <meta property="og:title" content="India Entity vs EOR Comparison Calculator — 2026">
-    <meta property="og:description" content="Compare cost of setting up India entity (WOS / LLP) vs hiring through EOR. 36-month TCO, breakeven analysis, side-by-side comparison.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/india-entity-vs-eor-comparison">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="India Entity vs EOR Comparison Calculator">
-    <meta name="twitter:description" content="Compare cost of India entity vs EOR. 36-month TCO + breakeven analysis. Free CA tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-    <meta name="theme-color" content="#15365f">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "India Entity vs EOR Comparison Calculator",
-      "description": "India Entity vs EOR Comparison Calculator is a strategic decision-support tool for foreign companies hiring in India. The tool models total cost of ownership over twelve to thirty-six months for two market-entry routes: setting up an Indian legal entity such as a wholly-owned subsidiary or limited liability partnership versus engaging an Employer of Record service. Inputs include planned headcount of one to one hundred employees, average gross monthly salary per employee from one lakh to ten lakh rupees, hiring city across Bangalore Hyderabad Pune Mumbai Delhi-NCR or Chennai, EOR provider tier from India-focused budget at six thousand to fifteen thousand rupees per employee per month to mid-market global at twenty-five thousand to forty thousand rupees to enterprise white-glove at forty thousand to sixty thousand rupees, and time horizon of twelve twenty-four or thirty-six months. The tool computes salary cost, statutory employer burden of fifteen to twenty-two percent covering Provident Fund employer contribution at twelve percent of basic wages, Employee State Insurance at three point two five percent for eligible employees earning up to twenty-one thousand rupees monthly, gratuity accrual at four point eight one percent under the Payment of Gratuity Act 1972, statutory bonus, and professional tax. For the entity route the tool factors in one-time incorporation cost of three lakh fifty thousand rupees including incorporation fees Foreign Direct Investment reporting under Form FC-GPR Reserve Bank of India compliance and registrations for GST income tax and shops and establishments and ongoing monthly compliance of forty thousand rupees covering payroll processing CA fees ROC annual filings transfer pricing study and statutory audit. For the EOR route the tool applies the selected provider tier per-employee per-month fee. Output includes total cost comparison cumulative cost curves over the time horizon breakeven employee count where entity becomes cheaper than EOR side-by-side fifteen-criteria comparison covering setup time compliance burden permanent establishment risk control intellectual property rights customer billing capability visa sponsorship banking access termination flexibility long-term scalability tax treatment equity grants and the four New Labour Codes effective twenty-first November 2025 covering Wages Industrial Relations Social Security and Occupational Safety. Suitable for foreign company finance teams entering India global mobility teams CFOs evaluating India expansion strategy and corporate development teams structuring cross-border hiring.",
-      "url": "https://www.patronaccounting.com/tools/india-entity-vs-eor-comparison",
-      "applicationCategory": "FinanceApplication",
-      "operatingSystem": "Any",
-      "datePublished": "2026-05-08T08:00:00+05:30",
-      "dateModified": "2026-05-08T08:00:00+05:30",
-      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
-      "author": {
-        "@type": "Person",
-        "@id": "https://patronaccounting.com/#founder",
-        "name": "CA Sundram Gupta",
-        "jobTitle": "Founder & Chartered Accountant",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Institute of Chartered Accountants of India",
-            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-          }
-        }]
-      },
-      "publisher": { "@id": "https://patronaccounting.com/#organization" },
-      "provider": { "@id": "https://patronaccounting.com/#organization" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "India Entity vs EOR Comparison", "item": "https://www.patronaccounting.com/tools/india-entity-vs-eor-comparison"}
-      ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "datePublished": "2026-05-08T08:00:00+05:30",
-      "dateModified": "2026-05-08T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is the difference between an Indian entity and an EOR?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "An Indian entity is a legal vehicle owned by the foreign parent — typically a wholly-owned subsidiary under the Companies Act 2013 or an LLP. The entity directly employs the workforce, files its own taxes, and operates as a permanent India presence. An Employer of Record is a third-party Indian company that legally employs your team while you direct the work. The EOR handles payroll, compliance, contracts, and termination through its own entity."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "When does an Indian entity become cheaper than an EOR?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Most foreign companies find an Indian entity becomes cost-effective at ten to fifteen employees over a thirty-six month horizon. The breakeven depends on EOR fee tier — for budget India-focused EOR at six to fifteen thousand rupees per employee per month, breakeven sits around fifteen to twenty employees. For mid-market EOR at thirty thousand rupees, breakeven is around eight to twelve employees. The Patron calculator computes precise breakeven for your specific employee count, salary level, and provider tier."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does it take to set up a wholly-owned subsidiary in India?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Operational readiness for a foreign-owned subsidiary in India typically takes ten to sixteen weeks. Digital incorporation through the Ministry of Corporate Affairs runs one to two weeks. The remaining timeline covers FDI reporting through Form FC-GPR with the Reserve Bank of India, opening a foreign-owned bank account requiring Apostilled documents and KYC checks, GST registration with physical office verification, and Shops and Establishments registration at the state level. EOR onboarding typically takes one to three days."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the statutory employer burden in India?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Statutory employer contributions in India typically add fifteen to twenty-two percent on top of gross salary. Components include Employee Provident Fund employer share at twelve percent of basic wages, Employee State Insurance at three point two five percent for employees earning up to twenty-one thousand rupees, gratuity accrual under the Payment of Gratuity Act 1972 at approximately four point eight one percent, statutory bonus, and state-level Professional Tax. The burden applies identically across both routes."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can an EOR sponsor work visas for foreign nationals?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "EOR services typically cannot sponsor employment visas for foreign nationals coming into India. Visa sponsorship requires the sponsoring entity to be the legal employer with established Indian presence and visa quota authorization. For hiring foreign nationals to work in India, a wholly-owned subsidiary or branch office is generally required. EOR is suitable for hiring Indian residents only. Some EOR providers offer business visa support for short-duration project visits, but employment visa sponsorship is an entity-only capability."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are the four New Labour Codes effective from November 2025?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The four New Labour Codes effective 21 November 2025 are: Code on Wages 2019 covering minimum wages and equal remuneration, Industrial Relations Code 2020 covering trade unions and dispute resolution, Code on Social Security 2020 covering EPF ESI and gratuity, and Occupational Safety Health and Working Conditions Code 2020. The four codes consolidate twenty-nine earlier labour laws. Both entities and EORs must comply — this is a compliance update, not a structural shift."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does using an EOR create permanent establishment risk?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Permanent Establishment risk under Indian tax treaties is a key consideration for foreign companies. EOR arrangements are generally structured to avoid creating PE — the EOR is a separate Indian taxpayer, employees report to the foreign parent only on work direction, and there is no fixed place of business. However, decision-making authority residing with India-based personnel or contract execution can create dependent-agent PE. Obtain tax opinions on PE exposure where India team takes commercial decisions."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can a foreign company bill Indian customers through an EOR?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. An EOR cannot issue invoices to Indian customers on behalf of the foreign company. Customer-facing revenue in India requires GST registration, which in turn requires an Indian legal entity with a registered place of business. If your India operations include serving Indian customers and collecting INR revenues, you need a wholly-owned subsidiary or branch office. EOR is suitable for offshore-only operations where India team works on global products served from outside India to overseas customers."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between WOS and LLP in India?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A Wholly-Owned Subsidiary is a private limited company under the Companies Act 2013 with the foreign parent holding 100 percent shares. WOS is the most common vehicle, allows automatic 100 percent FDI in most sectors, and offers limited liability with clear governance. An LLP is governed by the LLP Act 2008 — lower compliance, no minimum capital, but FDI in LLP requires automatic-route eligibility and government approval in restricted sectors. WOS is preferred for most operating businesses."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does an EOR handle terminations in India?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "EORs handle terminations in compliance with notice requirements and gratuity provisions under the Payment of Gratuity Act 1972. Standard notice is thirty to ninety days depending on the contract and applicable Shops and Establishments Act. Full and final settlements cover pending salary, leave encashment, statutory bonus, and gratuity. The foreign company can request termination but must respect the EOR contract terms. Wrongful termination claims are filed against the EOR as legal employer."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I switch from EOR to entity later?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Many companies start with EOR for market entry then transition to a wholly-owned subsidiary as the team scales. The transition involves incorporating the entity, registering as an employer with EPF and ESI, transferring employment contracts from EOR to the new entity with employee consent, and ensuring continuity of statutory benefits including gratuity service. The Patron team handles end-to-end transitions including dual payroll for transition month, employee communications, and documentation transfer with no service interruption."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What ongoing compliance does an Indian subsidiary have?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "An Indian subsidiary has multi-layered ongoing compliance: monthly GST returns and payroll filings, quarterly TDS returns, annual statutory audit under Companies Act 2013, annual income tax return, transfer pricing study and Form 3CEB if related-party transactions exceed one crore rupees, annual ROC filings (AOC-4 and MGT-7), annual FDI compliance through Form FLA filing with RBI, and ongoing labour law compliance. Total ongoing fees typically run thirty to sixty thousand rupees per month."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is EOR or entity better for protecting intellectual property?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "An Indian entity provides cleaner IP ownership — the subsidiary directly employs the developers and IP assignment flows from employee to subsidiary to parent through inter-company agreements. EOR arrangements require careful IP assignment drafting since the legal employment relationship sits with the EOR. Most reputable EORs have standard IP assignment clauses transferring rights to the foreign company. For IP-critical operations like core product development, an entity is generally preferred despite the higher cost."
-          }
-        }
-      ]
-    }
-    </script>
-@endsection
-
 <style>
         :root {
             --primary: #15365f;
@@ -457,7 +269,195 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 }
 
 </style>
+@endpush
 
+@section('meta')
+    <title>India Entity vs EOR Calculator | Cost Comparison TCO</title>
+    <meta name="description" content="Free India entity vs EOR cost calculator: 36-month TCO, breakeven point, 15-criteria comparison and 4 Labour Codes 2025 side by side. Free CA tool. Try now!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/india-entity-vs-eor-comparison">
+    <meta property="og:title" content="India Entity vs EOR Comparison Calculator — 2026">
+    <meta property="og:description" content="Compare cost of setting up India entity (WOS / LLP) vs hiring through EOR. 36-month TCO, breakeven analysis, side-by-side comparison.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/india-entity-vs-eor-comparison">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="India Entity vs EOR Comparison Calculator">
+    <meta name="twitter:description" content="Compare cost of India entity vs EOR. 36-month TCO + breakeven analysis. Free CA tool.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+    <meta name="theme-color" content="#15365f">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "India Entity vs EOR Comparison Calculator",
+      "description": "India Entity vs EOR Comparison Calculator is a strategic decision-support tool for foreign companies hiring in India. The tool models total cost of ownership over twelve to thirty-six months for two market-entry routes: setting up an Indian legal entity such as a wholly-owned subsidiary or limited liability partnership versus engaging an Employer of Record service. Inputs include planned headcount of one to one hundred employees, average gross monthly salary per employee from one lakh to ten lakh rupees, hiring city across Bangalore Hyderabad Pune Mumbai Delhi-NCR or Chennai, EOR provider tier from India-focused budget at six thousand to fifteen thousand rupees per employee per month to mid-market global at twenty-five thousand to forty thousand rupees to enterprise white-glove at forty thousand to sixty thousand rupees, and time horizon of twelve twenty-four or thirty-six months. The tool computes salary cost, statutory employer burden of fifteen to twenty-two percent covering Provident Fund employer contribution at twelve percent of basic wages, Employee State Insurance at three point two five percent for eligible employees earning up to twenty-one thousand rupees monthly, gratuity accrual at four point eight one percent under the Payment of Gratuity Act 1972, statutory bonus, and professional tax. For the entity route the tool factors in one-time incorporation cost of three lakh fifty thousand rupees including incorporation fees Foreign Direct Investment reporting under Form FC-GPR Reserve Bank of India compliance and registrations for GST income tax and shops and establishments and ongoing monthly compliance of forty thousand rupees covering payroll processing CA fees ROC annual filings transfer pricing study and statutory audit. For the EOR route the tool applies the selected provider tier per-employee per-month fee. Output includes total cost comparison cumulative cost curves over the time horizon breakeven employee count where entity becomes cheaper than EOR side-by-side fifteen-criteria comparison covering setup time compliance burden permanent establishment risk control intellectual property rights customer billing capability visa sponsorship banking access termination flexibility long-term scalability tax treatment equity grants and the four New Labour Codes effective twenty-first November 2025 covering Wages Industrial Relations Social Security and Occupational Safety. Suitable for foreign company finance teams entering India global mobility teams CFOs evaluating India expansion strategy and corporate development teams structuring cross-border hiring.",
+      "url": "https://www.patronaccounting.com/tools/india-entity-vs-eor-comparison",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Any",
+      "datePublished": "2026-05-08T08:00:00+05:30",
+      "dateModified": "2026-05-08T08:00:00+05:30",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
+      "author": {
+        "@type": "Person",
+        "@id": "https://patronaccounting.com/#founder",
+        "name": "CA Sundram Gupta",
+        "jobTitle": "Founder & Chartered Accountant",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Institute of Chartered Accountants of India",
+            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+          }
+        }]
+      },
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": { "@id": "https://patronaccounting.com/#organization" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "India Entity vs EOR Comparison", "item": "https://www.patronaccounting.com/tools/india-entity-vs-eor-comparison"}
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "datePublished": "2026-05-08T08:00:00+05:30",
+      "dateModified": "2026-05-08T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the difference between an Indian entity and an EOR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An Indian entity is a legal vehicle owned by the foreign parent — typically a wholly-owned subsidiary under the Companies Act 2013 or an LLP. The entity directly employs the workforce, files its own taxes, and operates as a permanent India presence. An Employer of Record is a third-party Indian company that legally employs your team while you direct the work. The EOR handles payroll, compliance, contracts, and termination through its own entity."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When does an Indian entity become cheaper than an EOR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most foreign companies find an Indian entity becomes cost-effective at ten to fifteen employees over a thirty-six month horizon. The breakeven depends on EOR fee tier — for budget India-focused EOR at six to fifteen thousand rupees per employee per month, breakeven sits around fifteen to twenty employees. For mid-market EOR at thirty thousand rupees, breakeven is around eight to twelve employees. The Patron calculator computes precise breakeven for your specific employee count, salary level, and provider tier."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to set up a wholly-owned subsidiary in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Operational readiness for a foreign-owned subsidiary in India typically takes ten to sixteen weeks. Digital incorporation through the Ministry of Corporate Affairs runs one to two weeks. The remaining timeline covers FDI reporting through Form FC-GPR with the Reserve Bank of India, opening a foreign-owned bank account requiring Apostilled documents and KYC checks, GST registration with physical office verification, and Shops and Establishments registration at the state level. EOR onboarding typically takes one to three days."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the statutory employer burden in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Statutory employer contributions in India typically add fifteen to twenty-two percent on top of gross salary. Components include Employee Provident Fund employer share at twelve percent of basic wages, Employee State Insurance at three point two five percent for employees earning up to twenty-one thousand rupees, gratuity accrual under the Payment of Gratuity Act 1972 at approximately four point eight one percent, statutory bonus, and state-level Professional Tax. The burden applies identically across both routes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can an EOR sponsor work visas for foreign nationals?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "EOR services typically cannot sponsor employment visas for foreign nationals coming into India. Visa sponsorship requires the sponsoring entity to be the legal employer with established Indian presence and visa quota authorization. For hiring foreign nationals to work in India, a wholly-owned subsidiary or branch office is generally required. EOR is suitable for hiring Indian residents only. Some EOR providers offer business visa support for short-duration project visits, but employment visa sponsorship is an entity-only capability."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the four New Labour Codes effective from November 2025?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The four New Labour Codes effective 21 November 2025 are: Code on Wages 2019 covering minimum wages and equal remuneration, Industrial Relations Code 2020 covering trade unions and dispute resolution, Code on Social Security 2020 covering EPF ESI and gratuity, and Occupational Safety Health and Working Conditions Code 2020. The four codes consolidate twenty-nine earlier labour laws. Both entities and EORs must comply — this is a compliance update, not a structural shift."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does using an EOR create permanent establishment risk?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Permanent Establishment risk under Indian tax treaties is a key consideration for foreign companies. EOR arrangements are generally structured to avoid creating PE — the EOR is a separate Indian taxpayer, employees report to the foreign parent only on work direction, and there is no fixed place of business. However, decision-making authority residing with India-based personnel or contract execution can create dependent-agent PE. Obtain tax opinions on PE exposure where India team takes commercial decisions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a foreign company bill Indian customers through an EOR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. An EOR cannot issue invoices to Indian customers on behalf of the foreign company. Customer-facing revenue in India requires GST registration, which in turn requires an Indian legal entity with a registered place of business. If your India operations include serving Indian customers and collecting INR revenues, you need a wholly-owned subsidiary or branch office. EOR is suitable for offshore-only operations where India team works on global products served from outside India to overseas customers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between WOS and LLP in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Wholly-Owned Subsidiary is a private limited company under the Companies Act 2013 with the foreign parent holding 100 percent shares. WOS is the most common vehicle, allows automatic 100 percent FDI in most sectors, and offers limited liability with clear governance. An LLP is governed by the LLP Act 2008 — lower compliance, no minimum capital, but FDI in LLP requires automatic-route eligibility and government approval in restricted sectors. WOS is preferred for most operating businesses."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does an EOR handle terminations in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "EORs handle terminations in compliance with notice requirements and gratuity provisions under the Payment of Gratuity Act 1972. Standard notice is thirty to ninety days depending on the contract and applicable Shops and Establishments Act. Full and final settlements cover pending salary, leave encashment, statutory bonus, and gratuity. The foreign company can request termination but must respect the EOR contract terms. Wrongful termination claims are filed against the EOR as legal employer."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I switch from EOR to entity later?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Many companies start with EOR for market entry then transition to a wholly-owned subsidiary as the team scales. The transition involves incorporating the entity, registering as an employer with EPF and ESI, transferring employment contracts from EOR to the new entity with employee consent, and ensuring continuity of statutory benefits including gratuity service. The Patron team handles end-to-end transitions including dual payroll for transition month, employee communications, and documentation transfer with no service interruption."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What ongoing compliance does an Indian subsidiary have?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An Indian subsidiary has multi-layered ongoing compliance: monthly GST returns and payroll filings, quarterly TDS returns, annual statutory audit under Companies Act 2013, annual income tax return, transfer pricing study and Form 3CEB if related-party transactions exceed one crore rupees, annual ROC filings (AOC-4 and MGT-7), annual FDI compliance through Form FLA filing with RBI, and ongoing labour law compliance. Total ongoing fees typically run thirty to sixty thousand rupees per month."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is EOR or entity better for protecting intellectual property?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An Indian entity provides cleaner IP ownership — the subsidiary directly employs the developers and IP assignment flows from employee to subsidiary to parent through inter-company agreements. EOR arrangements require careful IP assignment drafting since the legal employment relationship sits with the EOR. Most reputable EORs have standard IP assignment clauses transferring rights to the foreign company. For IP-critical operations like core product development, an entity is generally preferred despite the higher cost."
+          }
+        }
+      ]
+    }
+    </script>
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Tool navigation">
     <div class="toc-nav-inner">

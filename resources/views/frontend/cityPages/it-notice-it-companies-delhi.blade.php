@@ -1,204 +1,11 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>IT Notice for IT Companies Delhi: CA Reply</title>
-    <meta name="description" content="Income tax notice for your Delhi IT or software company on TP, SEZ, ESOP, or Sec 195? Patron's CA team files reply and defends. Starting Rs 4,999.">
-    <link rel="canonical" href="/it-notice-it-companies/delhi">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="IT Notice for IT Companies Delhi 2026: CA Reply | Patron Accounting">
-    <meta property="og:description" content="Income tax notice for your Delhi IT or software company on TP, SEZ, ESOP, or Sec 195? Patron's CA team files reply and defends. Starting Rs 4,999.">
-    <meta property="og:url" content="/it-notice-it-companies/delhi">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="IT Notice for IT Companies Delhi 2026: CA Reply | Patron Accounting">
-    <meta name="twitter:description" content="Income tax notice for your Delhi IT or software company on TP, SEZ, ESOP, or Sec 195? Patron's CA team files reply and defends. Starting Rs 4,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-<script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/it-notice-it-companies/delhi#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Income Tax Notice",
-          "item": "https://www.patronaccounting.com/income-tax-notice"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "IT Notice IT Companies Delhi",
-          "item": "https://www.patronaccounting.com/it-notice-it-companies/delhi"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/it-notice-it-companies/delhi#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is an income tax notice for an IT company in Delhi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "An income tax notice for a Delhi IT or software company is any of Sections 142(1), 143(2), 143(3) or 144B faceless, 92CA TP reference, 147 or 148 reassessment, 156 demand, or 271 penalty issued by PCIT-1, 4, or 7 Delhi (corporate), PCIT-10, 12, 15, or 20 (non-corp), Pr CIT IT-TP Delhi (international tax and TP), Pr CIT Central-1, 2, or 3 Delhi, Pr CCIT (International Taxation) Delhi at Civic Centre Minto Road, NaFAC HQ at Mayur Bhawan, or ReFAC Delhi - all under Pr CCIT Delhi Region at S.P. Mukherjee Civic Centre."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why is Delhi the administrative apex of Indian income tax?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Delhi hosts the apex faceless administrations for ALL India - NaFAC HQ (National Faceless Assessment Centre) at 6th Floor, Mayur Bhawan, Connaught Circus, New Delhi 110001 and NFAC HQ (National Faceless Appeal Centre) at Delhi. Plus Pr CCIT (International Taxation) at Civic Centre Minto Road with CCIT (Intl Tax)-1, 2, 3 covering cross-border tax for all India. Plus ITAT Delhi principal seat and Delhi High Court (which produced the Engineering Analysis Centre jurisprudence)."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why does the Engineering Analysis Centre SC ruling matter for Delhi IT companies specifically?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Engineering Analysis Centre of Excellence Pvt Ltd v CIT (2021) Supreme Court built on Delhi High Court jurisprudence on Section 9(1)(vi) royalty. Delhi HC is the source forum for this case law, making Delhi clients especially well-positioned to leverage the precedent. The SC ruling: payments for off-the-shelf software for internal use are NOT royalty - no Section 195 TDS required. Delhi IT companies importing enterprise software get the home-court advantage on this defence."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is NaFAC HQ different from ReFAC Delhi for faceless assessments?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "NaFAC HQ (National Faceless Assessment Centre) at Mayur Bhawan is the apex coordinating administration for ALL faceless assessments in India. ReFAC Delhi (Regional Faceless Assessment Centre) is the operational unit that handles actual Delhi-region cases. Both operate via the e-Filing portal under Section 144B. Delhi IT companies may receive notices from either, but the e-Proceedings interface and reply mechanism are identical. The advantage of being a Delhi client is direct physical proximity for video hearings."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the Pr CIT IT-TP Delhi and when does it handle my case?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Pr CIT IT-TP Delhi is the dedicated Principal Commissioner for International Taxation and Transfer Pricing matters in Delhi. Cases involving cross-border related-party transactions, foreign company taxation, royalty or technical services from abroad, or Section 92CA TPO references are typically handled here. This is in addition to the apex Pr CCIT (International Taxation) Delhi at Civic Centre Minto Road which supervises CCIT (Intl Tax)-1, 2, 3 covering nationwide cross-border tax matters."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is ESOP perquisite tax handled for Delhi listed-company employees?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Under Section 17(2)(vi), ESOP perquisite equals FMV at allotment minus exercise price - taxed as salary at exercise with Section 192 TDS deducted by employer. For DPIIT-recognised startups such as Delhi Hauz Khas, GK, Saket, Vasant Kunj startups, Section 191A defers the TDS to the earliest of 5 years from end of relevant Tax Year, date of share sale, or date of leaving employment. For non-startup listed companies, TDS is required at exercise based on actual FMV from stock exchange data."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does Patron handle Delhi High Court representations for IT-sector tax matters?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Delhi High Court is the apex jurisdiction forum for substantial questions of law in IT-sector tax matters - it produced the Engineering Analysis Centre jurisprudence that became the 2021 Supreme Court ruling. Patron coordinates with senior counsel for HC appeals where merited, typically for material TP adjustments, novel Section 10AA SEZ disputes, large Section 195 demands, or DPIIT 80-IAC denials that warrant principle-of-law clarification."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "LegalService",
-      "@id": "https://www.patronaccounting.com/it-notice-it-companies/delhi#service",
-      "name": "Income Tax Notice Reply and Defence for Delhi IT and Software Companies",
-      "description": "End-to-end CA representation for income tax notices issued to Delhi IT companies, software firms, SaaS, fintech, GCCs, BPO/KPO/LPO, and DPIIT startups. Covers Transfer Pricing (Chapter X Sections 92-92F) defence before Pr CIT IT-TP Delhi and TPO Delhi, Section 10AA SEZ deduction defence, Section 80-IAC DPIIT startup tax holiday defence, ESOP perquisite TDS under Section 17(2)(vi) and Section 191A deferral, Section 195 foreign software TDS defence leveraging Engineering Analysis Centre v CIT (2021 SC) which originated from Delhi HC jurisprudence, DRP Delhi (Section 144C) representation, Section 144B faceless assessment at NaFAC HQ Mayur Bhawan and ReFAC Delhi, ITAT Delhi bench appeals at the principal seat (richest IT-sector case law in India), and Delhi High Court representation. Starting at Rs 4,999.",
-      "serviceType": "IT Sector Income Tax Notice Representation",
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      },
-      "areaServed": {
-        "@type": "City",
-        "name": "Delhi",
-        "sameAs": "https://en.wikipedia.org/wiki/Delhi",
-        "containedInPlace": {
-          "@type": "AdministrativeArea",
-          "name": "National Capital Territory of Delhi",
-          "sameAs": "https://en.wikipedia.org/wiki/Delhi"
-        }
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Transfer Pricing under Chapter X of the Income-tax Act 1961",
-          "sameAs": "https://en.wikipedia.org/wiki/Transfer_pricing"
-        },
-        {
-          "@type": "Thing",
-          "name": "Income-tax Act 1961",
-          "sameAs": "https://en.wikipedia.org/wiki/Income_Tax_Act,_1961"
-        },
-        {
-          "@type": "Thing",
-          "name": "Special Economic Zone (India)",
-          "sameAs": "https://en.wikipedia.org/wiki/Special_Economic_Zone_(India)"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "IT Sector Income Tax Notice Services in Delhi",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "name": "Section 142(1) Information Reply for IT Company",
-            "price": "4999",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/it-notice-it-companies/delhi"
-          },
-          {
-            "@type": "Offer",
-            "name": "Section 143(2) or 143(3) Scrutiny Reply",
-            "price": "9999",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/it-notice-it-companies/delhi"
-          },
-          {
-            "@type": "Offer",
-            "name": "Section 92CA TPO Representation (Simple)",
-            "price": "25000",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/it-notice-it-companies/delhi"
-          },
-          {
-            "@type": "Offer",
-            "name": "Section 10AA SEZ Defence",
-            "price": "15000",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock",
-            "url": "https://www.patronaccounting.com/it-notice-it-companies/delhi"
-          }
-        ]
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -876,7 +683,205 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 }
 @media (max-width:768px) {section .content-text ul li:not(.nav-item){flex-wrap:wrap;}
 section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;max-width:100%;margin-bottom:2px;}}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>IT Notice for IT Companies Delhi: CA Reply</title>
+    <meta name="description" content="Income tax notice for your Delhi IT or software company on TP, SEZ, ESOP, or Sec 195? Patron's CA team files reply and defends. Starting Rs 4,999.">
+    <link rel="canonical" href="/it-notice-it-companies/delhi">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="IT Notice for IT Companies Delhi 2026: CA Reply | Patron Accounting">
+    <meta property="og:description" content="Income tax notice for your Delhi IT or software company on TP, SEZ, ESOP, or Sec 195? Patron's CA team files reply and defends. Starting Rs 4,999.">
+    <meta property="og:url" content="/it-notice-it-companies/delhi">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="IT Notice for IT Companies Delhi 2026: CA Reply | Patron Accounting">
+    <meta name="twitter:description" content="Income tax notice for your Delhi IT or software company on TP, SEZ, ESOP, or Sec 195? Patron's CA team files reply and defends. Starting Rs 4,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/it-notice-it-companies/delhi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Income Tax Notice",
+          "item": "https://www.patronaccounting.com/income-tax-notice"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "IT Notice IT Companies Delhi",
+          "item": "https://www.patronaccounting.com/it-notice-it-companies/delhi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/it-notice-it-companies/delhi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is an income tax notice for an IT company in Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An income tax notice for a Delhi IT or software company is any of Sections 142(1), 143(2), 143(3) or 144B faceless, 92CA TP reference, 147 or 148 reassessment, 156 demand, or 271 penalty issued by PCIT-1, 4, or 7 Delhi (corporate), PCIT-10, 12, 15, or 20 (non-corp), Pr CIT IT-TP Delhi (international tax and TP), Pr CIT Central-1, 2, or 3 Delhi, Pr CCIT (International Taxation) Delhi at Civic Centre Minto Road, NaFAC HQ at Mayur Bhawan, or ReFAC Delhi - all under Pr CCIT Delhi Region at S.P. Mukherjee Civic Centre."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is Delhi the administrative apex of Indian income tax?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Delhi hosts the apex faceless administrations for ALL India - NaFAC HQ (National Faceless Assessment Centre) at 6th Floor, Mayur Bhawan, Connaught Circus, New Delhi 110001 and NFAC HQ (National Faceless Appeal Centre) at Delhi. Plus Pr CCIT (International Taxation) at Civic Centre Minto Road with CCIT (Intl Tax)-1, 2, 3 covering cross-border tax for all India. Plus ITAT Delhi principal seat and Delhi High Court (which produced the Engineering Analysis Centre jurisprudence)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does the Engineering Analysis Centre SC ruling matter for Delhi IT companies specifically?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Engineering Analysis Centre of Excellence Pvt Ltd v CIT (2021) Supreme Court built on Delhi High Court jurisprudence on Section 9(1)(vi) royalty. Delhi HC is the source forum for this case law, making Delhi clients especially well-positioned to leverage the precedent. The SC ruling: payments for off-the-shelf software for internal use are NOT royalty - no Section 195 TDS required. Delhi IT companies importing enterprise software get the home-court advantage on this defence."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is NaFAC HQ different from ReFAC Delhi for faceless assessments?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "NaFAC HQ (National Faceless Assessment Centre) at Mayur Bhawan is the apex coordinating administration for ALL faceless assessments in India. ReFAC Delhi (Regional Faceless Assessment Centre) is the operational unit that handles actual Delhi-region cases. Both operate via the e-Filing portal under Section 144B. Delhi IT companies may receive notices from either, but the e-Proceedings interface and reply mechanism are identical. The advantage of being a Delhi client is direct physical proximity for video hearings."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the Pr CIT IT-TP Delhi and when does it handle my case?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pr CIT IT-TP Delhi is the dedicated Principal Commissioner for International Taxation and Transfer Pricing matters in Delhi. Cases involving cross-border related-party transactions, foreign company taxation, royalty or technical services from abroad, or Section 92CA TPO references are typically handled here. This is in addition to the apex Pr CCIT (International Taxation) Delhi at Civic Centre Minto Road which supervises CCIT (Intl Tax)-1, 2, 3 covering nationwide cross-border tax matters."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is ESOP perquisite tax handled for Delhi listed-company employees?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under Section 17(2)(vi), ESOP perquisite equals FMV at allotment minus exercise price - taxed as salary at exercise with Section 192 TDS deducted by employer. For DPIIT-recognised startups such as Delhi Hauz Khas, GK, Saket, Vasant Kunj startups, Section 191A defers the TDS to the earliest of 5 years from end of relevant Tax Year, date of share sale, or date of leaving employment. For non-startup listed companies, TDS is required at exercise based on actual FMV from stock exchange data."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Patron handle Delhi High Court representations for IT-sector tax matters?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Delhi High Court is the apex jurisdiction forum for substantial questions of law in IT-sector tax matters - it produced the Engineering Analysis Centre jurisprudence that became the 2021 Supreme Court ruling. Patron coordinates with senior counsel for HC appeals where merited, typically for material TP adjustments, novel Section 10AA SEZ disputes, large Section 195 demands, or DPIIT 80-IAC denials that warrant principle-of-law clarification."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LegalService",
+      "@id": "https://www.patronaccounting.com/it-notice-it-companies/delhi#service",
+      "name": "Income Tax Notice Reply and Defence for Delhi IT and Software Companies",
+      "description": "End-to-end CA representation for income tax notices issued to Delhi IT companies, software firms, SaaS, fintech, GCCs, BPO/KPO/LPO, and DPIIT startups. Covers Transfer Pricing (Chapter X Sections 92-92F) defence before Pr CIT IT-TP Delhi and TPO Delhi, Section 10AA SEZ deduction defence, Section 80-IAC DPIIT startup tax holiday defence, ESOP perquisite TDS under Section 17(2)(vi) and Section 191A deferral, Section 195 foreign software TDS defence leveraging Engineering Analysis Centre v CIT (2021 SC) which originated from Delhi HC jurisprudence, DRP Delhi (Section 144C) representation, Section 144B faceless assessment at NaFAC HQ Mayur Bhawan and ReFAC Delhi, ITAT Delhi bench appeals at the principal seat (richest IT-sector case law in India), and Delhi High Court representation. Starting at Rs 4,999.",
+      "serviceType": "IT Sector Income Tax Notice Representation",
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Delhi",
+        "sameAs": "https://en.wikipedia.org/wiki/Delhi",
+        "containedInPlace": {
+          "@type": "AdministrativeArea",
+          "name": "National Capital Territory of Delhi",
+          "sameAs": "https://en.wikipedia.org/wiki/Delhi"
+        }
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Transfer Pricing under Chapter X of the Income-tax Act 1961",
+          "sameAs": "https://en.wikipedia.org/wiki/Transfer_pricing"
+        },
+        {
+          "@type": "Thing",
+          "name": "Income-tax Act 1961",
+          "sameAs": "https://en.wikipedia.org/wiki/Income_Tax_Act,_1961"
+        },
+        {
+          "@type": "Thing",
+          "name": "Special Economic Zone (India)",
+          "sameAs": "https://en.wikipedia.org/wiki/Special_Economic_Zone_(India)"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "IT Sector Income Tax Notice Services in Delhi",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "Section 142(1) Information Reply for IT Company",
+            "price": "4999",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/it-notice-it-companies/delhi"
+          },
+          {
+            "@type": "Offer",
+            "name": "Section 143(2) or 143(3) Scrutiny Reply",
+            "price": "9999",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/it-notice-it-companies/delhi"
+          },
+          {
+            "@type": "Offer",
+            "name": "Section 92CA TPO Representation (Simple)",
+            "price": "25000",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/it-notice-it-companies/delhi"
+          },
+          {
+            "@type": "Offer",
+            "name": "Section 10AA SEZ Defence",
+            "price": "15000",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.patronaccounting.com/it-notice-it-companies/delhi"
+          }
+        ]
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -2007,7 +2012,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 </script>
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

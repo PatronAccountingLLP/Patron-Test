@@ -1,64 +1,4 @@
 @extends('layouts.app')
-
-{{--
-    Contact Us  |  /contact-us  (DB page slug "contact-us", template "contact")
-    --------------------------------------------------------------------------
-    Rebuilt 2026-09-03. What this replaces and why:
-
-      - The old template dropped partials/bigin-form WITHOUT variant => 'bare'
-        inside its own .contact-form card, so the page rendered a card inside a
-        card and two headings ("Send us a Message" wrapping "Get Free
-        Consultation"). The partial documents 'bare' for exactly that case.
-      - Two stray </div> after that include closed .row and .container early, so
-        the offices, sidebar and map escaped the grid and the page scrolled
-        sideways.
-      - The FAQ form was fine and is kept: partials/bigin-form is meant to run
-        twice per page, full card in the hero and compact beside the FAQ.
-        Both are passed the same service so the page files under one entry.
-      - ~50 lines of commented-out <form> markup, plus a @push('scripts')
-        validator bound to document.querySelector('form') and to fields
-        (first_name, last_name) that had not existed for months. Both gone.
-        Nothing is pushed to the 'scripts' stack from here: layouts/app.blade.php
-        renders @stack('scripts') TWICE, so anything pushed runs twice.
-
-    The form is partials/bigin-form in its default 'card' variant, which is the
-    variant written for a hero column. Leads go to Zoho Bigin via
-    route('lead.capture'); this page files them under "General Enquiry".
-
-    Styling is scoped to .pa-cu-* so it cannot collide with the global
-    enquiry-form.css / faq.css contracts. The form card itself is styled by
-    /css/enquiry-form.css, which layouts/app loads on every page.
---}}
-
-@section('title', $page->title)
-
-@section('schema')
-<script type="application/ld+json">
-{!! json_encode([
-    '@context' => 'https://schema.org',
-    '@graph'   => [
-        [
-            '@type'      => 'ContactPage',
-            '@id'        => url()->current().'#webpage',
-            'url'        => url()->current(),
-            'name'       => $page->title,
-            'isPartOf'   => ['@id' => 'https://www.patronaccounting.com/#website'],
-            'about'      => ['@id' => 'https://www.patronaccounting.com/#organization'],
-            'publisher'  => ['@id' => 'https://www.patronaccounting.com/#organization'],
-        ],
-        [
-            '@type' => 'BreadcrumbList',
-            '@id'   => url()->current().'#breadcrumb',
-            'itemListElement' => [
-                ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home',       'item' => 'https://www.patronaccounting.com/'],
-                ['@type' => 'ListItem', 'position' => 2, 'name' => 'Contact Us', 'item' => url()->current()],
-            ],
-        ],
-    ],
-], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
-</script>
-@endsection
-
 @push('styles')
 <style>
 /* ==========================================================================
@@ -241,6 +181,70 @@
 }
 /* The hero form card fades in via enquiry-form.css; nothing here overrides it. */
 </style>
+@endpush
+
+
+{{--
+    Contact Us  |  /contact-us  (DB page slug "contact-us", template "contact")
+    --------------------------------------------------------------------------
+    Rebuilt 2026-09-03. What this replaces and why:
+
+      - The old template dropped partials/bigin-form WITHOUT variant => 'bare'
+        inside its own .contact-form card, so the page rendered a card inside a
+        card and two headings ("Send us a Message" wrapping "Get Free
+        Consultation"). The partial documents 'bare' for exactly that case.
+      - Two stray </div> after that include closed .row and .container early, so
+        the offices, sidebar and map escaped the grid and the page scrolled
+        sideways.
+      - The FAQ form was fine and is kept: partials/bigin-form is meant to run
+        twice per page, full card in the hero and compact beside the FAQ.
+        Both are passed the same service so the page files under one entry.
+      - ~50 lines of commented-out <form> markup, plus a @push('scripts')
+        validator bound to document.querySelector('form') and to fields
+        (first_name, last_name) that had not existed for months. Both gone.
+        Nothing is pushed to the 'scripts' stack from here: layouts/app.blade.php
+        renders @stack('scripts') TWICE, so anything pushed runs twice.
+
+    The form is partials/bigin-form in its default 'card' variant, which is the
+    variant written for a hero column. Leads go to Zoho Bigin via
+    route('lead.capture'); this page files them under "General Enquiry".
+
+    Styling is scoped to .pa-cu-* so it cannot collide with the global
+    enquiry-form.css / faq.css contracts. The form card itself is styled by
+    /css/enquiry-form.css, which layouts/app loads on every page.
+--}}
+
+@section('title', $page->title)
+
+@section('schema')
+<script type="application/ld+json">
+{!! json_encode([
+    '@context' => 'https://schema.org',
+    '@graph'   => [
+        [
+            '@type'      => 'ContactPage',
+            '@id'        => url()->current().'#webpage',
+            'url'        => url()->current(),
+            'name'       => $page->title,
+            'isPartOf'   => ['@id' => 'https://www.patronaccounting.com/#website'],
+            'about'      => ['@id' => 'https://www.patronaccounting.com/#organization'],
+            'publisher'  => ['@id' => 'https://www.patronaccounting.com/#organization'],
+        ],
+        [
+            '@type' => 'BreadcrumbList',
+            '@id'   => url()->current().'#breadcrumb',
+            'itemListElement' => [
+                ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home',       'item' => 'https://www.patronaccounting.com/'],
+                ['@type' => 'ListItem', 'position' => 2, 'name' => 'Contact Us', 'item' => url()->current()],
+            ],
+        ],
+    ],
+], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
+</script>
+@endsection
+
+@push('styles')
+
 @endpush
 
 @section('content')

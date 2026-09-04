@@ -1,186 +1,11 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>KMP Appointment under Section 203 in 2026 | Patron Accounting</title>
-    <meta name="description" content="Appoint CFO, CS and MD as KMP under Section 203 with board resolution, DIR-12 and MR-1. Mandatory at Rs 10 crore paid-up capital. From INR 9,999.">
-    <link rel="canonical" href="/kmp-appointment-cfo-cs-md-section-203">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="KMP Appointment under Section 203 in 2026 | Patron Accounting">
-    <meta property="og:description" content="Appoint CFO, CS and MD as KMP under Section 203 with board resolution, DIR-12 and MR-1. Mandatory at Rs 10 crore paid-up capital. From INR 9,999.">
-    <meta property="og:url" content="/kmp-appointment-cfo-cs-md-section-203">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="KMP Appointment under Section 203 in 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Appoint CFO, CS and MD as KMP under Section 203 with board resolution, DIR-12 and MR-1. Mandatory at Rs 10 crore paid-up capital. From INR 9,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/kmp-appointment-cfo-cs-md-section-203/#service",
-        "name": "KMP Appointment under Section 203 (CFO, CS and MD)",
-        "description": "KMP appointment services from Patron Accounting LLP cover the compliant appointment of whole-time Key Managerial Personnel under Section 203 of the Companies Act, 2013, including the applicability assessment of which KMP positions a company must fill, the coordination of the appointee’s DIR-2 consent, MBP-1 interest disclosure and Section 164 eligibility, the drafting of the Board resolution under Section 203(2) with terms and remuneration, the filing of DIR-12 within 30 days and MR-1 within 60 days for an MD, Manager or Whole-Time Director, the MGT-14 filing for the resolution, the updating of the register of directors and KMP, and the management of the six-month vacancy rule and the single-company restriction for whole-time KMP.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/kmp-appointment-cfo-cs-md-section-203" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Senior management", "sameAs": "https://en.wikipedia.org/wiki/Senior_management" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "KMP Appointment Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "KMP Appointment Service",
-                    "priceCurrency": "INR",
-                    "price": "9999",
-                    "description": "KMP appointment covering the applicability assessment, the appointee consents and eligibility, the Board resolution under Section 203(2), and the ROC filings in DIR-12, MR-1 and MGT-14, exclusive of GST and government charges. The MCA statutory fees for DIR-12, MR-1 and MGT-14 depend on the company's nominal share capital and are charged on an actual basis; the remuneration of the KMP is a separate cost borne by the company."
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/kmp-appointment-cfo-cs-md-section-203/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Company Compliance", "item": "https://www.patronaccounting.com/corporate-compliance-services" },
-            { "@type": "ListItem", "position": 3, "name": "KMP Appointment", "item": "https://www.patronaccounting.com/kmp-appointment-cfo-cs-md-section-203" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/kmp-appointment-cfo-cs-md-section-203/#faq",
-        "datePublished": "2026-06-03T08:00:00+05:30",
-        "dateModified": "2026-06-04T08:00:00+05:30",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "When is KMP appointment mandatory under Section 203?",
-                "acceptedAnswer": { "@type": "Answer", "text": "KMP appointment is mandatory for every listed company and every unlisted public company with paid-up share capital of Rs 10 crore or more, which must appoint an MD, CEO or Manager (or a Whole-Time Director), a Company Secretary and a CFO. A private company with paid-up capital of Rs 10 crore or more must appoint a whole-time Company Secretary under Rule 8A." }
-            },
-            {
-                "@type": "Question",
-                "name": "Who qualifies as Key Managerial Personnel?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Under Section 2(51) of the Companies Act, 2013, Key Managerial Personnel include the Chief Executive Officer, the Managing Director or the Manager, the Company Secretary, the Chief Financial Officer, the Whole-Time Director, and such other officers not more than one level below the directors who are in whole-time employment and designated as KMP by the Board." }
-            },
-            {
-                "@type": "Question",
-                "name": "What forms are filed for a KMP appointment?",
-                "acceptedAnswer": { "@type": "Answer", "text": "A KMP appointment is made by a Board resolution and reported to the Registrar in Form DIR-12 within 30 days. Where a Managing Director, Manager or Whole-Time Director is appointed, Form MR-1 is filed within 60 days. Form MGT-14 is filed for the board resolution where the company is required to do so." }
-            },
-            {
-                "@type": "Question",
-                "name": "Does a private company need a Company Secretary?",
-                "acceptedAnswer": { "@type": "Answer", "text": "A private company must appoint a whole-time Company Secretary if its paid-up share capital is Rs 10 crore or more, under Rule 8A of the Companies (Appointment and Remuneration of Managerial Personnel) Rules, 2014. Below that threshold the appointment is voluntary, though a private company that voluntarily designates a KMP must then comply with Section 203." }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the penalty for not appointing KMP?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Under Section 203(5), a company that fails to appoint the required KMP is liable to a penalty of Rs 1,00,000 up to Rs 5,00,000. Every director and KMP of the company in default is liable to Rs 50,000, and where the default continues, a further penalty of Rs 1,000 per day applies, subject to a maximum of Rs 5,00,000." }
-            },
-            {
-                "@type": "Question",
-                "name": "Can a KMP hold office in more than one company?",
-                "acceptedAnswer": { "@type": "Answer", "text": "A whole-time KMP cannot hold office in more than one company at the same time, except in the company's subsidiary. A person already holding KMP office in multiple companies had to choose one within the prescribed window. A KMP may, however, be appointed as a director of another company with the Board's approval." }
-            },
-            {
-                "@type": "Question",
-                "name": "How quickly must a KMP vacancy be filled?",
-                "acceptedAnswer": { "@type": "Answer", "text": "If the office of any whole-time KMP is vacated, the resulting vacancy must be filled by the Board at a meeting within six months from the date of the vacancy, under Section 203(4). Leaving the position unfilled beyond this period is a contravention of Section 203 and exposes the company and its officers to penalty." }
-            },
-            {
-                "@type": "Question",
-                "name": "Is the CFO appointment mandatory or optional?",
-                "acceptedAnswer": { "@type": "Answer", "text": "For a listed company and an unlisted public company with paid-up capital of Rs 10 crore or more, the CFO is an independently mandatory KMP under Section 203 and cannot be omitted. For a private company, the CFO appointment is not mandatory under Rule 8A, which only requires a whole-time Company Secretary at the Rs 10 crore threshold." }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/kmp-appointment-cfo-cs-md-section-203",
-        "name": "KMP Appointment under Section 203 (CFO, CS and MD)",
-        "description": "Appoint CFO, CS and MD as KMP under Section 203 with board resolution, DIR-12 and MR-1. Mandatory at Rs 10 crore paid-up capital. From INR 9,999.",
-        "url": "https://www.patronaccounting.com/kmp-appointment-cfo-cs-md-section-203",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/kmp-appointment-cfo-cs-md-section-203/#service" },
-        "datePublished": "2026-06-03T08:00:00+05:30",
-        "dateModified": "2026-06-04T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/kmp-appointment-cfo-cs-md-section-203/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "KMP Appointment Process: Step by Step",
-        "description": "How a whole-time KMP is appointed under Section 203, from assessing applicability to filing DIR-12, MR-1 and MGT-14 and updating the registers.",
-        "totalTime": "P60D",
-        "step": [
-            { "@type": "HowToStep", "name": "Assess applicability", "text": "Confirm the company type and paid-up capital to identify the mandatory KMP positions." },
-            { "@type": "HowToStep", "name": "Identify the appointee", "text": "Select a qualified candidate and obtain DIR-2 consent and MBP-1 interest disclosure." },
-            { "@type": "HowToStep", "name": "Convene the Board meeting", "text": "Pass the Section 203(2) resolution appointing the KMP with terms and remuneration." },
-            { "@type": "HowToStep", "name": "File DIR-12", "text": "File DIR-12 with the ROC within 30 days of the appointment." },
-            { "@type": "HowToStep", "name": "File MR-1 where applicable", "text": "File MR-1 within 60 days for an MD, Manager or Whole-Time Director." },
-            { "@type": "HowToStep", "name": "File MGT-14 if required", "text": "File MGT-14 for the board resolution where the company is required to do so." },
-            { "@type": "HowToStep", "name": "Update registers and records", "text": "Update the register of directors and KMP and the statutory records." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "KMP Appointment Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Key Managerial Personnel", "description": "The senior officers defined in Section 2(51), including MD, CEO, Manager, CS, CFO and WTD." },
-            { "@type": "DefinedTerm", "name": "Whole-Time KMP", "description": "A KMP in whole-time employment of the company, as required under Section 203." },
-            { "@type": "DefinedTerm", "name": "Rule 8", "description": "Mandates whole-time KMP for listed and Rs 10 crore public companies." },
-            { "@type": "DefinedTerm", "name": "Rule 8A", "description": "Mandates a whole-time Company Secretary for Rs 10 crore private companies." },
-            { "@type": "DefinedTerm", "name": "MR-1", "description": "The return of appointment of MD, Manager or WTD filed with the ROC." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -794,7 +619,187 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>KMP Appointment under Section 203 in 2026 | Patron Accounting</title>
+    <meta name="description" content="Appoint CFO, CS and MD as KMP under Section 203 with board resolution, DIR-12 and MR-1. Mandatory at Rs 10 crore paid-up capital. From INR 9,999.">
+    <link rel="canonical" href="/kmp-appointment-cfo-cs-md-section-203">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="KMP Appointment under Section 203 in 2026 | Patron Accounting">
+    <meta property="og:description" content="Appoint CFO, CS and MD as KMP under Section 203 with board resolution, DIR-12 and MR-1. Mandatory at Rs 10 crore paid-up capital. From INR 9,999.">
+    <meta property="og:url" content="/kmp-appointment-cfo-cs-md-section-203">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="KMP Appointment under Section 203 in 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Appoint CFO, CS and MD as KMP under Section 203 with board resolution, DIR-12 and MR-1. Mandatory at Rs 10 crore paid-up capital. From INR 9,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/kmp-appointment-cfo-cs-md-section-203/#service",
+        "name": "KMP Appointment under Section 203 (CFO, CS and MD)",
+        "description": "KMP appointment services from Patron Accounting LLP cover the compliant appointment of whole-time Key Managerial Personnel under Section 203 of the Companies Act, 2013, including the applicability assessment of which KMP positions a company must fill, the coordination of the appointee’s DIR-2 consent, MBP-1 interest disclosure and Section 164 eligibility, the drafting of the Board resolution under Section 203(2) with terms and remuneration, the filing of DIR-12 within 30 days and MR-1 within 60 days for an MD, Manager or Whole-Time Director, the MGT-14 filing for the resolution, the updating of the register of directors and KMP, and the management of the six-month vacancy rule and the single-company restriction for whole-time KMP.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/kmp-appointment-cfo-cs-md-section-203" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Senior management", "sameAs": "https://en.wikipedia.org/wiki/Senior_management" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "KMP Appointment Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "KMP Appointment Service",
+                    "priceCurrency": "INR",
+                    "price": "9999",
+                    "description": "KMP appointment covering the applicability assessment, the appointee consents and eligibility, the Board resolution under Section 203(2), and the ROC filings in DIR-12, MR-1 and MGT-14, exclusive of GST and government charges. The MCA statutory fees for DIR-12, MR-1 and MGT-14 depend on the company's nominal share capital and are charged on an actual basis; the remuneration of the KMP is a separate cost borne by the company."
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/kmp-appointment-cfo-cs-md-section-203/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Company Compliance", "item": "https://www.patronaccounting.com/corporate-compliance-services" },
+            { "@type": "ListItem", "position": 3, "name": "KMP Appointment", "item": "https://www.patronaccounting.com/kmp-appointment-cfo-cs-md-section-203" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/kmp-appointment-cfo-cs-md-section-203/#faq",
+        "datePublished": "2026-06-03T08:00:00+05:30",
+        "dateModified": "2026-06-04T08:00:00+05:30",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "When is KMP appointment mandatory under Section 203?",
+                "acceptedAnswer": { "@type": "Answer", "text": "KMP appointment is mandatory for every listed company and every unlisted public company with paid-up share capital of Rs 10 crore or more, which must appoint an MD, CEO or Manager (or a Whole-Time Director), a Company Secretary and a CFO. A private company with paid-up capital of Rs 10 crore or more must appoint a whole-time Company Secretary under Rule 8A." }
+            },
+            {
+                "@type": "Question",
+                "name": "Who qualifies as Key Managerial Personnel?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Under Section 2(51) of the Companies Act, 2013, Key Managerial Personnel include the Chief Executive Officer, the Managing Director or the Manager, the Company Secretary, the Chief Financial Officer, the Whole-Time Director, and such other officers not more than one level below the directors who are in whole-time employment and designated as KMP by the Board." }
+            },
+            {
+                "@type": "Question",
+                "name": "What forms are filed for a KMP appointment?",
+                "acceptedAnswer": { "@type": "Answer", "text": "A KMP appointment is made by a Board resolution and reported to the Registrar in Form DIR-12 within 30 days. Where a Managing Director, Manager or Whole-Time Director is appointed, Form MR-1 is filed within 60 days. Form MGT-14 is filed for the board resolution where the company is required to do so." }
+            },
+            {
+                "@type": "Question",
+                "name": "Does a private company need a Company Secretary?",
+                "acceptedAnswer": { "@type": "Answer", "text": "A private company must appoint a whole-time Company Secretary if its paid-up share capital is Rs 10 crore or more, under Rule 8A of the Companies (Appointment and Remuneration of Managerial Personnel) Rules, 2014. Below that threshold the appointment is voluntary, though a private company that voluntarily designates a KMP must then comply with Section 203." }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the penalty for not appointing KMP?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Under Section 203(5), a company that fails to appoint the required KMP is liable to a penalty of Rs 1,00,000 up to Rs 5,00,000. Every director and KMP of the company in default is liable to Rs 50,000, and where the default continues, a further penalty of Rs 1,000 per day applies, subject to a maximum of Rs 5,00,000." }
+            },
+            {
+                "@type": "Question",
+                "name": "Can a KMP hold office in more than one company?",
+                "acceptedAnswer": { "@type": "Answer", "text": "A whole-time KMP cannot hold office in more than one company at the same time, except in the company's subsidiary. A person already holding KMP office in multiple companies had to choose one within the prescribed window. A KMP may, however, be appointed as a director of another company with the Board's approval." }
+            },
+            {
+                "@type": "Question",
+                "name": "How quickly must a KMP vacancy be filled?",
+                "acceptedAnswer": { "@type": "Answer", "text": "If the office of any whole-time KMP is vacated, the resulting vacancy must be filled by the Board at a meeting within six months from the date of the vacancy, under Section 203(4). Leaving the position unfilled beyond this period is a contravention of Section 203 and exposes the company and its officers to penalty." }
+            },
+            {
+                "@type": "Question",
+                "name": "Is the CFO appointment mandatory or optional?",
+                "acceptedAnswer": { "@type": "Answer", "text": "For a listed company and an unlisted public company with paid-up capital of Rs 10 crore or more, the CFO is an independently mandatory KMP under Section 203 and cannot be omitted. For a private company, the CFO appointment is not mandatory under Rule 8A, which only requires a whole-time Company Secretary at the Rs 10 crore threshold." }
+            }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/kmp-appointment-cfo-cs-md-section-203",
+        "name": "KMP Appointment under Section 203 (CFO, CS and MD)",
+        "description": "Appoint CFO, CS and MD as KMP under Section 203 with board resolution, DIR-12 and MR-1. Mandatory at Rs 10 crore paid-up capital. From INR 9,999.",
+        "url": "https://www.patronaccounting.com/kmp-appointment-cfo-cs-md-section-203",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/kmp-appointment-cfo-cs-md-section-203/#service" },
+        "datePublished": "2026-06-03T08:00:00+05:30",
+        "dateModified": "2026-06-04T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/kmp-appointment-cfo-cs-md-section-203/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "KMP Appointment Process: Step by Step",
+        "description": "How a whole-time KMP is appointed under Section 203, from assessing applicability to filing DIR-12, MR-1 and MGT-14 and updating the registers.",
+        "totalTime": "P60D",
+        "step": [
+            { "@type": "HowToStep", "name": "Assess applicability", "text": "Confirm the company type and paid-up capital to identify the mandatory KMP positions." },
+            { "@type": "HowToStep", "name": "Identify the appointee", "text": "Select a qualified candidate and obtain DIR-2 consent and MBP-1 interest disclosure." },
+            { "@type": "HowToStep", "name": "Convene the Board meeting", "text": "Pass the Section 203(2) resolution appointing the KMP with terms and remuneration." },
+            { "@type": "HowToStep", "name": "File DIR-12", "text": "File DIR-12 with the ROC within 30 days of the appointment." },
+            { "@type": "HowToStep", "name": "File MR-1 where applicable", "text": "File MR-1 within 60 days for an MD, Manager or Whole-Time Director." },
+            { "@type": "HowToStep", "name": "File MGT-14 if required", "text": "File MGT-14 for the board resolution where the company is required to do so." },
+            { "@type": "HowToStep", "name": "Update registers and records", "text": "Update the register of directors and KMP and the statutory records." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "KMP Appointment Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Key Managerial Personnel", "description": "The senior officers defined in Section 2(51), including MD, CEO, Manager, CS, CFO and WTD." },
+            { "@type": "DefinedTerm", "name": "Whole-Time KMP", "description": "A KMP in whole-time employment of the company, as required under Section 203." },
+            { "@type": "DefinedTerm", "name": "Rule 8", "description": "Mandates whole-time KMP for listed and Rs 10 crore public companies." },
+            { "@type": "DefinedTerm", "name": "Rule 8A", "description": "Mandates a whole-time Company Secretary for Rs 10 crore private companies." },
+            { "@type": "DefinedTerm", "name": "MR-1", "description": "The return of appointment of MD, Manager or WTD filed with the ROC." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1567,17 +1572,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1600,8 +1598,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1638,7 +1634,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1 (corrected): Last Updated mirrors schema dateModified — STABLE hardcoded date, never live new Date()
 (function() {
@@ -1649,3 +1644,19 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

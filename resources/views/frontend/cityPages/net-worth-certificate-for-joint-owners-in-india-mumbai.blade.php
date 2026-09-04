@@ -1,168 +1,11 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Net Worth Cert. for Joint Owners Mumbai - CA Format</title>
-    <meta name="description" content="CA-certified joint owner net worth certificate in Mumbai with UDIN. For family visa, joint property, co-owned assets. Serving BKC, Andheri, Lower Parel. Call +91 945 945 6700.">
-    <link rel="canonical" href="/net-worth-certificate-for-joint-owners-in-india/mumbai">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Net Worth Cert. for Joint Owners Mumbai - CA Format">
-    <meta property="og:description" content="CA-certified joint owner net worth certificate in Mumbai with UDIN. For family visa, joint property, co-owned assets. Serving BKC, Andheri, Lower Parel. Call +91 945 945 6700.">
-    <meta property="og:url" content="/net-worth-certificate-for-joint-owners-in-india/mumbai">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Net Worth Cert. for Joint Owners Mumbai - CA Format">
-    <meta name="twitter:description" content="CA-certified joint owner net worth certificate in Mumbai with UDIN. For family visa, joint property, co-owned assets. Serving BKC, Andheri, Lower Parel. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "Net Worth Certificate for Joint Owners Mumbai",
-      "description": "CA-certified joint owner net worth certificate in Mumbai with UDIN. For family visa, joint property, co-owned assets. Serving BKC, Andheri, Lower Parel. Call +91 945 945 6700.",
-      "url": "/net-worth-certificate-for-joint-owners-in-india/mumbai",
-      "serviceType": "Net Worth Certificate for Joint Owners Mumbai",
-      "areaServed": {
-        "@type": "City",
-        "name": "Mumbai",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Maharashtra"
-        }
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "/",
-        "logo": "/images/site-logo.svg"
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "url": "/net-worth-certificate-for-joint-owners-in-india/mumbai",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "minPrice": "3500",
-          "maxPrice": "6000",
-          "priceCurrency": "INR"
-        }
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Net Worth Certificate Joint Owners India",
-          "item": "https://www.patronaccounting.com/net-worth-certificate-for-joint-owners-in-india"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Net Worth Certificate for Joint Owners Mumbai",
-          "item": "https://www.patronaccounting.com/net-worth-certificate-for-joint-owners-in-india/mumbai"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Where can I get a joint owner certificate in Mumbai?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "From Patron Accounting at Marine Lines. CA-certified joint certificates for husband-wife, parent-child, business co-owners with UDIN. Scan 1-2 hours, physical same-day Mumbai. Call +91 945 945 6700."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does it cost?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Starting Rs 3,500 for husband-wife (INR). Dual currency: Rs 5,000-7,000. Parent-child sponsor: Rs 4,000-6,000. 3+ owners: Rs 5,000-8,000. Business co-owners: Rs 5,000-10,000. NRI couple: Rs 6,000-12,000."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does it take?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Scan 1-2 hours, physical same-day to 3 days. Depends on documents from all owners and Mumbai property verification. Urgent same-day physical for visa interviews at US Consulate BKC or VFS Lower Parel."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I get it online?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Both owners submit documents via secure portal. CA verifies, determines ownership proportions, issues with UDIN. Scan via email/WhatsApp 1-2 hours. Physical couriered. In-person at Marine Lines also available."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is joint property shown?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Each owner's proportionate share per sale deed or society share certificate. If not specified: 50:50 presumed under Transfer of Property Act 1882. Valued per Maharashtra IGR ready reckoner or approved valuer."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is joint certificate required for family visa?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Many Mumbai embassies require joint/family net worth for PR, dependent, family reunion. US Consulate BKC, Canadian VFS, UK VFS accept with UDIN showing combined family financial strength and ownership attribution."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can parents' joint net worth sponsor student visa?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Both parents' combined assets shown as sponsor. Education FDs, co-owned property, joint savings, combined liabilities. Accepted by Canadian VFS Lower Parel/Andheri, US Consulate BKC, Australian VFS Andheri."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What documents from each owner?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Each: PAN, Aadhaar, individual bank statements, FDs, MF/shares, loans. Joint: joint bank statements, property sale deed + BMC tax + society share certificate, joint FDs, joint home loan. Marriage certificate for spouse certificates. Quick Answers Joint net worth certificate kya hota hai? Yeh ek CA-certified document hai jo do ya zyada logon ke combined assets aur liabilities dikhata hai – jaise husband-wife ka joint property aur shared investments ka ek hi certificate mein net worth. Joint property ka share kaise dikhate hain? Sale deed ya society share certificate mein jo ownership proportion likha hai, wahi CA certificate mein use karta hai. Agar proportion nahi likha toh 50:50 maana jaata hai. UDIN zaruri hai? Haan. ICAI ke rules ke according har CA certificate par UDIN mandatory hai. Yeh 18-digit code hai jo embassy aur bank online verify kar sakte hain."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -828,7 +671,169 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'Join Community'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Net Worth Cert. for Joint Owners Mumbai - CA Format</title>
+    <meta name="description" content="CA-certified joint owner net worth certificate in Mumbai with UDIN. For family visa, joint property, co-owned assets. Serving BKC, Andheri, Lower Parel. Call +91 945 945 6700.">
+    <link rel="canonical" href="/net-worth-certificate-for-joint-owners-in-india/mumbai">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Net Worth Cert. for Joint Owners Mumbai - CA Format">
+    <meta property="og:description" content="CA-certified joint owner net worth certificate in Mumbai with UDIN. For family visa, joint property, co-owned assets. Serving BKC, Andheri, Lower Parel. Call +91 945 945 6700.">
+    <meta property="og:url" content="/net-worth-certificate-for-joint-owners-in-india/mumbai">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Net Worth Cert. for Joint Owners Mumbai - CA Format">
+    <meta name="twitter:description" content="CA-certified joint owner net worth certificate in Mumbai with UDIN. For family visa, joint property, co-owned assets. Serving BKC, Andheri, Lower Parel. Call +91 945 945 6700.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "Net Worth Certificate for Joint Owners Mumbai",
+      "description": "CA-certified joint owner net worth certificate in Mumbai with UDIN. For family visa, joint property, co-owned assets. Serving BKC, Andheri, Lower Parel. Call +91 945 945 6700.",
+      "url": "/net-worth-certificate-for-joint-owners-in-india/mumbai",
+      "serviceType": "Net Worth Certificate for Joint Owners Mumbai",
+      "areaServed": {
+        "@type": "City",
+        "name": "Mumbai",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Maharashtra"
+        }
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Patron Accounting LLP",
+        "url": "/",
+        "logo": "/images/site-logo.svg"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "url": "/net-worth-certificate-for-joint-owners-in-india/mumbai",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": "3500",
+          "maxPrice": "6000",
+          "priceCurrency": "INR"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Net Worth Certificate Joint Owners India",
+          "item": "https://www.patronaccounting.com/net-worth-certificate-for-joint-owners-in-india"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Net Worth Certificate for Joint Owners Mumbai",
+          "item": "https://www.patronaccounting.com/net-worth-certificate-for-joint-owners-in-india/mumbai"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Where can I get a joint owner certificate in Mumbai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "From Patron Accounting at Marine Lines. CA-certified joint certificates for husband-wife, parent-child, business co-owners with UDIN. Scan 1-2 hours, physical same-day Mumbai. Call +91 945 945 6700."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does it cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Starting Rs 3,500 for husband-wife (INR). Dual currency: Rs 5,000-7,000. Parent-child sponsor: Rs 4,000-6,000. 3+ owners: Rs 5,000-8,000. Business co-owners: Rs 5,000-10,000. NRI couple: Rs 6,000-12,000."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Scan 1-2 hours, physical same-day to 3 days. Depends on documents from all owners and Mumbai property verification. Urgent same-day physical for visa interviews at US Consulate BKC or VFS Lower Parel."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I get it online?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Both owners submit documents via secure portal. CA verifies, determines ownership proportions, issues with UDIN. Scan via email/WhatsApp 1-2 hours. Physical couriered. In-person at Marine Lines also available."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is joint property shown?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Each owner's proportionate share per sale deed or society share certificate. If not specified: 50:50 presumed under Transfer of Property Act 1882. Valued per Maharashtra IGR ready reckoner or approved valuer."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is joint certificate required for family visa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Many Mumbai embassies require joint/family net worth for PR, dependent, family reunion. US Consulate BKC, Canadian VFS, UK VFS accept with UDIN showing combined family financial strength and ownership attribution."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can parents' joint net worth sponsor student visa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Both parents' combined assets shown as sponsor. Education FDs, co-owned property, joint savings, combined liabilities. Accepted by Canadian VFS Lower Parel/Andheri, US Consulate BKC, Australian VFS Andheri."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What documents from each owner?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Each: PAN, Aadhaar, individual bank statements, FDs, MF/shares, loans. Joint: joint bank statements, property sale deed + BMC tax + society share certificate, joint FDs, joint home loan. Marriage certificate for spouse certificates. Quick Answers Joint net worth certificate kya hota hai? Yeh ek CA-certified document hai jo do ya zyada logon ke combined assets aur liabilities dikhata hai – jaise husband-wife ka joint property aur shared investments ka ek hi certificate mein net worth. Joint property ka share kaise dikhate hain? Sale deed ya society share certificate mein jo ownership proportion likha hai, wahi CA certificate mein use karta hai. Agar proportion nahi likha toh 50:50 maana jaata hai. UDIN zaruri hai? Haan. ICAI ke rules ke according har CA certificate par UDIN mandatory hai. Yeh 18-digit code hai jo embassy aur bank online verify kar sakte hain."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1615,7 +1620,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

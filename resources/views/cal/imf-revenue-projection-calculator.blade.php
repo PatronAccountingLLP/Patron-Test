@@ -1,195 +1,8 @@
 @extends('layouts.app')
-@section('meta')
-<title>Revenue Projection Calculator | IMF GDP-Based Forecast</title>
-<meta name="description" content="Revenue projection calculator forecasts your revenue using IMF World Economic Outlook GDP growth and inflation data plus your own growth premium. Try now!">
-<meta name="robots" content="index, follow">
-<link rel="canonical" href="https://www.patronaccounting.com/tools/imf-revenue-projection-calculator">
-
-<meta property="og:title" content="IMF Revenue Projection Calculator — Free Forecast Tool 2026">
-<meta property="og:description" content="Forecast multi-year business revenue anchored to IMF World Economic Outlook GDP growth and inflation projections for India. Free, instant, India-specific.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.patronaccounting.com/tools/imf-revenue-projection-calculator">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="1200">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-<meta property="og:site_name" content="Patron Accounting LLP">
-<meta property="og:locale" content="en_IN">
-<meta name="theme-color" content="#15365f">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="IMF Revenue Projection Calculator — Free Forecast Tool 2026">
-<meta name="twitter:description" content="Forecast multi-year business revenue anchored to IMF World Economic Outlook GDP growth and inflation projections for India.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-
-<link rel="icon" href="https://www.patronaccounting.com/favicon.ico">
-<link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-@endsection
-@section('schema')
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "IMF Revenue Projection Calculator",
-  "description": "The IMF Revenue Projection Calculator forecasts multi-year business revenue for Indian companies by anchoring growth to IMF World Economic Outlook real GDP growth and GDP-deflator inflation, plus a user-defined company outperformance premium, returning a year-by-year nominal and real revenue path with CAGR.",
-  "url": "https://www.patronaccounting.com/tools/imf-revenue-projection-calculator",
-  "applicationCategory": "BusinessApplication",
-  "operatingSystem": "Any",
-  "inLanguage": "en-IN",
-  "isAccessibleForFree": true,
-  "datePublished": "2026-05-16T08:00:00+05:30",
-  "dateModified": "2026-05-16T08:00:00+05:30",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "INR"
-  },
-  "reviewedBy": {
-    "@type": "Person",
-    "@id": "https://patronaccounting.com/#founder",
-    "name": "CA Sundram Gupta",
-    "jobTitle": "Founder & Chartered Accountant",
-    "url": "https://www.patronaccounting.com/contact-page",
-    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-    "hasCredential": [{
-      "@type": "EducationalOccupationalCredential",
-      "credentialCategory": "Professional Certification",
-      "name": "Chartered Accountant (CA)",
-      "recognizedBy": {
-        "@type": "Organization",
-        "name": "Institute of Chartered Accountants of India",
-        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-      }
-    }]
-  },
-  "publisher": { "@id": "https://patronaccounting.com/#organization" },
-  "provider": { "@id": "https://patronaccounting.com/#organization" }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "IMF Revenue Projection Calculator", "item": "https://www.patronaccounting.com/tools/imf-revenue-projection-calculator"}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the IMF Revenue Projection Calculator?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "It is a free online tool that forecasts a business's future revenue by anchoring projections to IMF World Economic Outlook macro data for India — real GDP growth and GDP-deflator inflation — combined with a company-specific outperformance premium. It produces a year-by-year nominal and real revenue path useful for budgeting, fundraising decks and board planning."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why anchor revenue projections to IMF data?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "IMF World Economic Outlook projections are independent, methodologically consistent and widely accepted by investors and lenders. Anchoring a forecast to nominal GDP growth gives a defensible baseline: a company growing only with the economy assumes zero market-share change. Adding an explicit premium forces founders to justify why they will beat the macro environment."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What IMF GDP growth rate does the calculator use for India?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The default real GDP growth is pre-filled from the IMF World Economic Outlook April 2026 update, which projects India's real GDP growth at about 6.5% for 2026 (FY27). You can override this with any IMF figure or your own assumption. Always check the latest WEO release on imf.org because projections are revised twice a year."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the difference between nominal and real revenue projection?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Nominal revenue includes the effect of inflation, so it grows by real GDP growth plus the GDP deflator plus your premium. Real revenue strips out inflation and shows growth in constant-price terms. Lenders usually want nominal numbers for repayment cover, while strategic planning often uses real growth to judge genuine volume expansion."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How is nominal growth calculated from IMF inputs?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The calculator uses an approximate compounding identity: nominal growth equals (1 + real GDP growth) multiplied by (1 + GDP-deflator inflation) multiplied by (1 + your company premium), minus one. This is more accurate than simply adding the three rates, especially over longer horizons where the cross-product becomes material."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is this calculator suitable for a startup with no revenue history?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Partly. A macro-anchored model works best for established businesses with a stable base. Early-stage startups should pair it with a bottom-up forecast (units multiplied by price multiplied by conversion). Use the IMF baseline as a sanity check: if your bottom-up plan implies growth far above nominal GDP for many years, investors will expect a strong market-share narrative."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does the tool store or send my financial data?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. The calculator runs entirely in your browser using JavaScript. No revenue figures, growth assumptions or results are transmitted to any server or stored anywhere. You can use it offline once the page has loaded, and refreshing the page clears all inputs for confidentiality."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How accurate are IMF-anchored revenue forecasts?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No multi-year forecast is precise. IMF projections themselves carry uncertainty and are revised for shocks like tariff changes or geopolitical conflict. Treat the output as a disciplined baseline scenario, not a guarantee. Build optimistic and conservative cases by adjusting the premium, and revisit the model whenever a new World Economic Outlook is published."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I use this for income tax or GST advance estimation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Indirectly. Projected revenue informs advance tax instalments under the Income Tax Act and helps anticipate GST registration thresholds or turnover-based compliance. However, statutory computations need actual books and applicable rates. Use the projection for planning and confirm tax positions with a Chartered Accountant before filing or making advance tax payments."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What growth premium should I assume over GDP?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "There is no universal figure. A mature business in a saturated sector may grow at or below nominal GDP, implying a zero or negative premium. A scaling company gaining market share might justify 5%–20% above GDP. Base the premium on historical outperformance, pipeline visibility and competitive position, and document the rationale for investors."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How often does the IMF update its projections for India?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The IMF publishes the World Economic Outlook twice a year — typically in April and October — with interim updates in January and July. Article IV consultations also produce country-specific assessments. Because figures change between releases, always verify the latest real GDP growth and deflator on imf.org before finalising a forecast."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the IMF Revenue Projection Calculator free to use?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, it is completely free with no sign-up, no usage limit and no paywall. Patron Accounting LLP provides it as a planning aid for founders, finance teams and CFOs in India. For a board-ready financial model with scenario analysis and tax integration, our Chartered Accountants can build a customised projection on request."
-      }
-    }
-  ]
-}
-</script>
-@endsection
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
 <style>
 
         :root {
@@ -1335,7 +1148,195 @@ a:focus-visible {
 }
 
 </style>
+@endpush
 
+@section('meta')
+<title>Revenue Projection Calculator | IMF GDP-Based Forecast</title>
+<meta name="description" content="Revenue projection calculator forecasts your revenue using IMF World Economic Outlook GDP growth and inflation data plus your own growth premium. Try now!">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/imf-revenue-projection-calculator">
+
+<meta property="og:title" content="IMF Revenue Projection Calculator — Free Forecast Tool 2026">
+<meta property="og:description" content="Forecast multi-year business revenue anchored to IMF World Economic Outlook GDP growth and inflation projections for India. Free, instant, India-specific.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/imf-revenue-projection-calculator">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+<meta property="og:site_name" content="Patron Accounting LLP">
+<meta property="og:locale" content="en_IN">
+<meta name="theme-color" content="#15365f">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="IMF Revenue Projection Calculator — Free Forecast Tool 2026">
+<meta name="twitter:description" content="Forecast multi-year business revenue anchored to IMF World Economic Outlook GDP growth and inflation projections for India.">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+@endsection
+@section('schema')
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "IMF Revenue Projection Calculator",
+  "description": "The IMF Revenue Projection Calculator forecasts multi-year business revenue for Indian companies by anchoring growth to IMF World Economic Outlook real GDP growth and GDP-deflator inflation, plus a user-defined company outperformance premium, returning a year-by-year nominal and real revenue path with CAGR.",
+  "url": "https://www.patronaccounting.com/tools/imf-revenue-projection-calculator",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Any",
+  "inLanguage": "en-IN",
+  "isAccessibleForFree": true,
+  "datePublished": "2026-05-16T08:00:00+05:30",
+  "dateModified": "2026-05-16T08:00:00+05:30",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "INR"
+  },
+  "reviewedBy": {
+    "@type": "Person",
+    "@id": "https://patronaccounting.com/#founder",
+    "name": "CA Sundram Gupta",
+    "jobTitle": "Founder & Chartered Accountant",
+    "url": "https://www.patronaccounting.com/contact-page",
+    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+    "hasCredential": [{
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Professional Certification",
+      "name": "Chartered Accountant (CA)",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Institute of Chartered Accountants of India",
+        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+      }
+    }]
+  },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
+  "provider": { "@id": "https://patronaccounting.com/#organization" }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "IMF Revenue Projection Calculator", "item": "https://www.patronaccounting.com/tools/imf-revenue-projection-calculator"}
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the IMF Revenue Projection Calculator?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It is a free online tool that forecasts a business's future revenue by anchoring projections to IMF World Economic Outlook macro data for India — real GDP growth and GDP-deflator inflation — combined with a company-specific outperformance premium. It produces a year-by-year nominal and real revenue path useful for budgeting, fundraising decks and board planning."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why anchor revenue projections to IMF data?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "IMF World Economic Outlook projections are independent, methodologically consistent and widely accepted by investors and lenders. Anchoring a forecast to nominal GDP growth gives a defensible baseline: a company growing only with the economy assumes zero market-share change. Adding an explicit premium forces founders to justify why they will beat the macro environment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What IMF GDP growth rate does the calculator use for India?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The default real GDP growth is pre-filled from the IMF World Economic Outlook April 2026 update, which projects India's real GDP growth at about 6.5% for 2026 (FY27). You can override this with any IMF figure or your own assumption. Always check the latest WEO release on imf.org because projections are revised twice a year."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between nominal and real revenue projection?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nominal revenue includes the effect of inflation, so it grows by real GDP growth plus the GDP deflator plus your premium. Real revenue strips out inflation and shows growth in constant-price terms. Lenders usually want nominal numbers for repayment cover, while strategic planning often uses real growth to judge genuine volume expansion."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is nominal growth calculated from IMF inputs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The calculator uses an approximate compounding identity: nominal growth equals (1 + real GDP growth) multiplied by (1 + GDP-deflator inflation) multiplied by (1 + your company premium), minus one. This is more accurate than simply adding the three rates, especially over longer horizons where the cross-product becomes material."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is this calculator suitable for a startup with no revenue history?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Partly. A macro-anchored model works best for established businesses with a stable base. Early-stage startups should pair it with a bottom-up forecast (units multiplied by price multiplied by conversion). Use the IMF baseline as a sanity check: if your bottom-up plan implies growth far above nominal GDP for many years, investors will expect a strong market-share narrative."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does the tool store or send my financial data?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The calculator runs entirely in your browser using JavaScript. No revenue figures, growth assumptions or results are transmitted to any server or stored anywhere. You can use it offline once the page has loaded, and refreshing the page clears all inputs for confidentiality."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How accurate are IMF-anchored revenue forecasts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No multi-year forecast is precise. IMF projections themselves carry uncertainty and are revised for shocks like tariff changes or geopolitical conflict. Treat the output as a disciplined baseline scenario, not a guarantee. Build optimistic and conservative cases by adjusting the premium, and revisit the model whenever a new World Economic Outlook is published."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use this for income tax or GST advance estimation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Indirectly. Projected revenue informs advance tax instalments under the Income Tax Act and helps anticipate GST registration thresholds or turnover-based compliance. However, statutory computations need actual books and applicable rates. Use the projection for planning and confirm tax positions with a Chartered Accountant before filing or making advance tax payments."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What growth premium should I assume over GDP?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "There is no universal figure. A mature business in a saturated sector may grow at or below nominal GDP, implying a zero or negative premium. A scaling company gaining market share might justify 5%–20% above GDP. Base the premium on historical outperformance, pipeline visibility and competitive position, and document the rationale for investors."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How often does the IMF update its projections for India?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The IMF publishes the World Economic Outlook twice a year — typically in April and October — with interim updates in January and July. Article IV consultations also produce country-specific assessments. Because figures change between releases, always verify the latest real GDP growth and deflator on imf.org before finalising a forecast."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the IMF Revenue Projection Calculator free to use?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, it is completely free with no sign-up, no usage limit and no paywall. Patron Accounting LLP provides it as a planning aid for founders, finance teams and CFOs in India. For a board-ready financial model with scenario analysis and tax integration, our Chartered Accountants can build a customised projection on request."
+      }
+    }
+  ]
+}
+</script>
+@endsection
 @section('content')
 
 <nav class="toc-nav" aria-label="Page Navigation">

@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,208 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>Tally to Zoho Migration in Gurugram 2026 | Patron Accounting</title>
-    <meta name="description" content="Tally to Zoho Books migration in Gurugram from INR 9,999. CA-led ledger mapping, opening balances, GST and e-invoicing for Cyber City and Manesar firms.">
-    <link rel="canonical" href="/migration-from-tally-to-zoho/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Tally to Zoho Migration in Gurugram 2026 | Patron Accounting">
-    <meta property="og:description" content="Tally to Zoho Books migration in Gurugram from INR 9,999. CA-led ledger mapping, opening balances, GST and e-invoicing for Cyber City and Manesar firms.">
-    <meta property="og:url" content="/migration-from-tally-to-zoho/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Tally to Zoho Migration in Gurugram 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Tally to Zoho Books migration in Gurugram from INR 9,999. CA-led ledger mapping, opening balances, GST and e-invoicing for Cyber City and Manesar firms.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/migration-from-tally-to-zoho/gurugram#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Migration From Tally To Zoho",
-          "item": "https://www.patronaccounting.com/migration-from-tally-to-zoho"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Tally to Zoho Migration in Gurugram | CA-Led",
-          "item": "https://www.patronaccounting.com/migration-from-tally-to-zoho/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/migration-from-tally-to-zoho/gurugram#faq",
-      "datePublished": "2026-06-23T08:00:00+05:30",
-      "dateModified": "2026-06-23T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "How much does a Tally to Zoho migration cost in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patron Accounting charges Starting from INR 9,999 (Exl GST and Govt. Charges). What you pay finally turns on the years of history carried over, the number of ledgers and GSTINs, your stock volume, and whether you take Zoho Books on its own or the full Zoho One suite. Cyber City and Manesar firms receive a fixed quote upfront."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Will my opening balances and trial balance reconcile once we are on Zoho Books?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "They will. We post opening balances from your Tally trial balance as on 31 March or the cut-off date, then verify the Opening Balance Adjustment account in Zoho Books shows zero. A two-point trial balance tie-out between Tally and Zoho Books confirms debits and credits agree before our CA signs off the Gurugram migration."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can you configure GST and e-invoicing in Zoho Books during the migration?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. We finish the Zoho Books GST setup, record your GSTIN, map HSN and SAC codes, link the GSP, switch on e-invoicing and reverse charge where relevant, and set up GSTR-2B reconciliation under the CGST Act 2017. Everything is live before your first Zoho invoice leaves your Gurugram office."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Our Cyber City SaaS team already uses Zoho CRM. Should we move to Zoho One?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Often, yes. If your Cyber City or Udyog Vihar team already runs Zoho CRM or Zoho People, putting Books on the same login through Zoho One lets Books, Inventory, Expense, and Payroll share one ledger and one customer base. Patron weighs Zoho Books alone against Zoho One during scoping so you pay only for what you use."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can you migrate inventory for a Manesar auto-ancillary unit?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. For Manesar and IMT auto-ancillary and manufacturing units we move item masters, opening stock quantities and values, batch and HSN mappings into Zoho Books or Zoho Inventory. The migrated stock is reconciled against your Tally closing position part by part, so valuation carries on cleanly past the cut-off with no gap."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "We file in several states from our NCR office. Can Zoho Books handle multiple GSTINs?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "It can. Many Gurugram firms hold a Haryana GSTIN plus registrations in Delhi or other states. We set up each GSTIN as a branch in Zoho Books, map place-of-supply rules, and keep returns and e-invoicing separated by registration, so an NCR business with multi-state operations files accurately from a single cloud ledger."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can the Tally to Zoho switch happen over a weekend?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "For a single-GSTIN Sohna Road or MG Road firm carrying opening balances only, a Friday-to-Monday cutover is realistic once masters are confirmed in advance. We freeze Tally on Friday, load and tie out the data over the weekend, and open Zoho Books on Monday. Multi-year history with inventory needs a longer window."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do I keep my old Tally data after switching to Zoho Books?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Your original Tally company file is left untouched and preserved for the 6-year period under Rule 6F(5) of the Income Tax Rules. You decide how much history enters Zoho Books, anywhere from opening balances alone up to several years of invoices, bills, and journals rebuilt in the correct sequence."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/migration-from-tally-to-zoho/gurugram#service",
-      "name": "Tally to Zoho Migration in Gurugram",
-      "description": "Tally to Zoho Books migration in Gurugram moves your chart of accounts, masters, opening balances, and historical transactions into Zoho Books with GST setup, bank feeds, and trial balance reconciliation. Patron Accounting handles ledger mapping and validation for Cyber City, Udyog Vihar, and Manesar businesses.",
-      "serviceType": "Tally to Zoho Books Migration",
-      "url": "https://www.patronaccounting.com/migration-from-tally-to-zoho/gurugram",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#localbusiness-gurugram"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Accounting software",
-          "sameAs": "https://en.wikipedia.org/wiki/Accounting_software"
-        },
-        {
-          "@type": "Thing",
-          "name": "Goods and Services Tax (India)",
-          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Tally to Zoho Migration Plans in Gurugram",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "price": "9999",
-            "priceSpecification": {
-              "@type": "UnitPriceSpecification",
-              "priceCurrency": "INR",
-              "price": "9999",
-              "unitText": "starting from"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Tally to Zoho Books Migration"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness-gurugram",
-      "name": "Patron Accounting LLP - Gurugram",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/migration-from-tally-to-zoho/gurugram",
-      "telephone": "+91-9699936369",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Gurugram",
-        "addressRegion": "Haryana",
-        "postalCode": "122002",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -815,7 +612,217 @@
         .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
 
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>Tally to Zoho Migration in Gurugram 2026 | Patron Accounting</title>
+    <meta name="description" content="Tally to Zoho Books migration in Gurugram from INR 9,999. CA-led ledger mapping, opening balances, GST and e-invoicing for Cyber City and Manesar firms.">
+    <link rel="canonical" href="/migration-from-tally-to-zoho/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Tally to Zoho Migration in Gurugram 2026 | Patron Accounting">
+    <meta property="og:description" content="Tally to Zoho Books migration in Gurugram from INR 9,999. CA-led ledger mapping, opening balances, GST and e-invoicing for Cyber City and Manesar firms.">
+    <meta property="og:url" content="/migration-from-tally-to-zoho/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Tally to Zoho Migration in Gurugram 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Tally to Zoho Books migration in Gurugram from INR 9,999. CA-led ledger mapping, opening balances, GST and e-invoicing for Cyber City and Manesar firms.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/migration-from-tally-to-zoho/gurugram#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Migration From Tally To Zoho",
+          "item": "https://www.patronaccounting.com/migration-from-tally-to-zoho"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Tally to Zoho Migration in Gurugram | CA-Led",
+          "item": "https://www.patronaccounting.com/migration-from-tally-to-zoho/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/migration-from-tally-to-zoho/gurugram#faq",
+      "datePublished": "2026-06-23T08:00:00+05:30",
+      "dateModified": "2026-06-23T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much does a Tally to Zoho migration cost in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patron Accounting charges Starting from INR 9,999 (Exl GST and Govt. Charges). What you pay finally turns on the years of history carried over, the number of ledgers and GSTINs, your stock volume, and whether you take Zoho Books on its own or the full Zoho One suite. Cyber City and Manesar firms receive a fixed quote upfront."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will my opening balances and trial balance reconcile once we are on Zoho Books?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "They will. We post opening balances from your Tally trial balance as on 31 March or the cut-off date, then verify the Opening Balance Adjustment account in Zoho Books shows zero. A two-point trial balance tie-out between Tally and Zoho Books confirms debits and credits agree before our CA signs off the Gurugram migration."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you configure GST and e-invoicing in Zoho Books during the migration?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We finish the Zoho Books GST setup, record your GSTIN, map HSN and SAC codes, link the GSP, switch on e-invoicing and reverse charge where relevant, and set up GSTR-2B reconciliation under the CGST Act 2017. Everything is live before your first Zoho invoice leaves your Gurugram office."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Our Cyber City SaaS team already uses Zoho CRM. Should we move to Zoho One?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Often, yes. If your Cyber City or Udyog Vihar team already runs Zoho CRM or Zoho People, putting Books on the same login through Zoho One lets Books, Inventory, Expense, and Payroll share one ledger and one customer base. Patron weighs Zoho Books alone against Zoho One during scoping so you pay only for what you use."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you migrate inventory for a Manesar auto-ancillary unit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. For Manesar and IMT auto-ancillary and manufacturing units we move item masters, opening stock quantities and values, batch and HSN mappings into Zoho Books or Zoho Inventory. The migrated stock is reconciled against your Tally closing position part by part, so valuation carries on cleanly past the cut-off with no gap."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "We file in several states from our NCR office. Can Zoho Books handle multiple GSTINs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It can. Many Gurugram firms hold a Haryana GSTIN plus registrations in Delhi or other states. We set up each GSTIN as a branch in Zoho Books, map place-of-supply rules, and keep returns and e-invoicing separated by registration, so an NCR business with multi-state operations files accurately from a single cloud ledger."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can the Tally to Zoho switch happen over a weekend?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For a single-GSTIN Sohna Road or MG Road firm carrying opening balances only, a Friday-to-Monday cutover is realistic once masters are confirmed in advance. We freeze Tally on Friday, load and tie out the data over the weekend, and open Zoho Books on Monday. Multi-year history with inventory needs a longer window."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I keep my old Tally data after switching to Zoho Books?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Your original Tally company file is left untouched and preserved for the 6-year period under Rule 6F(5) of the Income Tax Rules. You decide how much history enters Zoho Books, anywhere from opening balances alone up to several years of invoices, bills, and journals rebuilt in the correct sequence."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/migration-from-tally-to-zoho/gurugram#service",
+      "name": "Tally to Zoho Migration in Gurugram",
+      "description": "Tally to Zoho Books migration in Gurugram moves your chart of accounts, masters, opening balances, and historical transactions into Zoho Books with GST setup, bank feeds, and trial balance reconciliation. Patron Accounting handles ledger mapping and validation for Cyber City, Udyog Vihar, and Manesar businesses.",
+      "serviceType": "Tally to Zoho Books Migration",
+      "url": "https://www.patronaccounting.com/migration-from-tally-to-zoho/gurugram",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#localbusiness-gurugram"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Accounting software",
+          "sameAs": "https://en.wikipedia.org/wiki/Accounting_software"
+        },
+        {
+          "@type": "Thing",
+          "name": "Goods and Services Tax (India)",
+          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Tally to Zoho Migration Plans in Gurugram",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "price": "9999",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "INR",
+              "price": "9999",
+              "unitText": "starting from"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Tally to Zoho Books Migration"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness-gurugram",
+      "name": "Patron Accounting LLP - Gurugram",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/migration-from-tally-to-zoho/gurugram",
+      "telephone": "+91-9699936369",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Gurugram",
+        "addressRegion": "Haryana",
+        "postalCode": "122002",
+        "addressCountry": "IN"
+      },
+      "parentOrganization": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1559,7 +1566,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

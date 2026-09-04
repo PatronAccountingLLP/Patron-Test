@@ -1,168 +1,11 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Net Worth for Partnership Firms Mumbai - CA Format</title>
-    <meta name="description" content="CA-certified net worth certificate for partnership firms in Mumbai with UDIN. For bank loans, tenders, DEMAT, partner disputes. Serving BKC, Bhuleshwar, MIDC firms. Call +91 945 945 6700.">
-    <link rel="canonical" href="/net-worth-certificate-for-partnership-firms/mumbai">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Net Worth for Partnership Firms Mumbai - CA Format">
-    <meta property="og:description" content="CA-certified net worth certificate for partnership firms in Mumbai with UDIN. For bank loans, tenders, DEMAT, partner disputes. Serving BKC, Bhuleshwar, MIDC firms. Call +91 945 945 6700.">
-    <meta property="og:url" content="/net-worth-certificate-for-partnership-firms/mumbai">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Net Worth for Partnership Firms Mumbai - CA Format">
-    <meta name="twitter:description" content="CA-certified net worth certificate for partnership firms in Mumbai with UDIN. For bank loans, tenders, DEMAT, partner disputes. Serving BKC, Bhuleshwar, MIDC firms. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "Net Worth Certificate for Partnership Firm Mumbai",
-      "description": "CA-certified net worth certificate for partnership firms in Mumbai with UDIN. For bank loans, tenders, DEMAT, partner disputes. Serving BKC, Bhuleshwar, MIDC firms. Call +91 945 945 6700.",
-      "url": "/net-worth-certificate-for-partnership-firms/mumbai",
-      "serviceType": "Net Worth Certificate for Partnership Firm Mumbai",
-      "areaServed": {
-        "@type": "City",
-        "name": "Mumbai",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Maharashtra"
-        }
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "/",
-        "logo": "/images/site-logo.svg"
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "url": "/net-worth-certificate-for-partnership-firms/mumbai",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "minPrice": "2500",
-          "maxPrice": "6000",
-          "priceCurrency": "INR"
-        }
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Net Worth Certificate for Partnership Firm",
-          "item": "https://www.patronaccounting.com/net-worth-certificate-for-partnership-firms"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Net Worth Certificate for Partnership Firm Mumbai",
-          "item": "https://www.patronaccounting.com/net-worth-certificate-for-partnership-firms/mumbai"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Where can I get a partnership firm certificate in Mumbai?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "From Patron at Marine Lines. CA-certified for trading, manufacturing, and professional partnerships with UDIN. Scan 1-2 hours, physical same-day Mumbai. Call +91 945 945 6700."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does it cost?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Starting Rs 2,500 for firm-level. Partner-wise: Rs 3,500-6,000. Trading (inventory): Rs 4,000-8,000. With goodwill: Rs 6,000-15,000. LLP: Rs 3,000-6,000. Contact Patron for quote."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does it take?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Scan 1-2 hours (simple). Trading with inventory: 4-6 hours. Goodwill: 1-2 working days. Physical same-day Mumbai. Depends on document readiness and capital account reconciliation complexity."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I get it online?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Partners submit deed, balance sheet, documents via secure portal. CA verifies, reconciles capital accounts, issues with UDIN. Scan via email/WhatsApp. Physical couriered. Marine Lines in-person also available."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is firm net worth calculated?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Total Firm Assets (property, machinery, stock, receivables, bank) minus Total Firm Liabilities (loans, creditors, expenses). Based on balance sheet. Partner share = capital account balance per deed."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is it needed for bank loan?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Mumbai banks (SBI, BoB, HDFC) require CA-certified net worth for working capital, cash credit, term loans, bank guarantees. Demonstrates repayment capacity per RBI lending guidelines."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Firm vs partner net worth difference?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Firm: from firm's balance sheet (firm assets minus liabilities). Partner: personal assets minus personal liabilities. Partner's capital account appears as asset in personal certificate. Bank loan = firm. Personal visa = individual."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can unregistered firm get certificate?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Unregistered partnerships can get certificates. CA relies on deed, books, ITR. Registration not required for validity. But may need additional documentation for certain legal proceedings. Quick Answers Partnership firm ka net worth certificate kaun banata hai? Sirf practising Chartered Accountant (CA) jo ICAI mein registered hai. Firm ki balance sheet, partnership deed, aur books ke basis pe banta hai. Firm ka net worth kaise calculate hota hai? Total firm assets (property, stock, receivables, bank) minus total firm liabilities (loans, creditors, expenses) = Firm Net Worth. Partner share capital account balance pe based hota hai. Kya unregistered firm ka bhi ban sakta hai? Haan. Partnership deed, books, aur ITR ke basis pe CA certificate issue karta hai. Registration zaroori nahi hai certificate ke liye."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -828,7 +671,169 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'Join Community'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Net Worth for Partnership Firms Mumbai - CA Format</title>
+    <meta name="description" content="CA-certified net worth certificate for partnership firms in Mumbai with UDIN. For bank loans, tenders, DEMAT, partner disputes. Serving BKC, Bhuleshwar, MIDC firms. Call +91 945 945 6700.">
+    <link rel="canonical" href="/net-worth-certificate-for-partnership-firms/mumbai">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Net Worth for Partnership Firms Mumbai - CA Format">
+    <meta property="og:description" content="CA-certified net worth certificate for partnership firms in Mumbai with UDIN. For bank loans, tenders, DEMAT, partner disputes. Serving BKC, Bhuleshwar, MIDC firms. Call +91 945 945 6700.">
+    <meta property="og:url" content="/net-worth-certificate-for-partnership-firms/mumbai">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Net Worth for Partnership Firms Mumbai - CA Format">
+    <meta name="twitter:description" content="CA-certified net worth certificate for partnership firms in Mumbai with UDIN. For bank loans, tenders, DEMAT, partner disputes. Serving BKC, Bhuleshwar, MIDC firms. Call +91 945 945 6700.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "Net Worth Certificate for Partnership Firm Mumbai",
+      "description": "CA-certified net worth certificate for partnership firms in Mumbai with UDIN. For bank loans, tenders, DEMAT, partner disputes. Serving BKC, Bhuleshwar, MIDC firms. Call +91 945 945 6700.",
+      "url": "/net-worth-certificate-for-partnership-firms/mumbai",
+      "serviceType": "Net Worth Certificate for Partnership Firm Mumbai",
+      "areaServed": {
+        "@type": "City",
+        "name": "Mumbai",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Maharashtra"
+        }
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Patron Accounting LLP",
+        "url": "/",
+        "logo": "/images/site-logo.svg"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "url": "/net-worth-certificate-for-partnership-firms/mumbai",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": "2500",
+          "maxPrice": "6000",
+          "priceCurrency": "INR"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Net Worth Certificate for Partnership Firm",
+          "item": "https://www.patronaccounting.com/net-worth-certificate-for-partnership-firms"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Net Worth Certificate for Partnership Firm Mumbai",
+          "item": "https://www.patronaccounting.com/net-worth-certificate-for-partnership-firms/mumbai"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Where can I get a partnership firm certificate in Mumbai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "From Patron at Marine Lines. CA-certified for trading, manufacturing, and professional partnerships with UDIN. Scan 1-2 hours, physical same-day Mumbai. Call +91 945 945 6700."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does it cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Starting Rs 2,500 for firm-level. Partner-wise: Rs 3,500-6,000. Trading (inventory): Rs 4,000-8,000. With goodwill: Rs 6,000-15,000. LLP: Rs 3,000-6,000. Contact Patron for quote."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Scan 1-2 hours (simple). Trading with inventory: 4-6 hours. Goodwill: 1-2 working days. Physical same-day Mumbai. Depends on document readiness and capital account reconciliation complexity."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I get it online?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Partners submit deed, balance sheet, documents via secure portal. CA verifies, reconciles capital accounts, issues with UDIN. Scan via email/WhatsApp. Physical couriered. Marine Lines in-person also available."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is firm net worth calculated?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Total Firm Assets (property, machinery, stock, receivables, bank) minus Total Firm Liabilities (loans, creditors, expenses). Based on balance sheet. Partner share = capital account balance per deed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is it needed for bank loan?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Mumbai banks (SBI, BoB, HDFC) require CA-certified net worth for working capital, cash credit, term loans, bank guarantees. Demonstrates repayment capacity per RBI lending guidelines."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Firm vs partner net worth difference?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Firm: from firm's balance sheet (firm assets minus liabilities). Partner: personal assets minus personal liabilities. Partner's capital account appears as asset in personal certificate. Bank loan = firm. Personal visa = individual."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can unregistered firm get certificate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Unregistered partnerships can get certificates. CA relies on deed, books, ITR. Registration not required for validity. But may need additional documentation for certain legal proceedings. Quick Answers Partnership firm ka net worth certificate kaun banata hai? Sirf practising Chartered Accountant (CA) jo ICAI mein registered hai. Firm ki balance sheet, partnership deed, aur books ke basis pe banta hai. Firm ka net worth kaise calculate hota hai? Total firm assets (property, stock, receivables, bank) minus total firm liabilities (loans, creditors, expenses) = Firm Net Worth. Partner share capital account balance pe based hota hai. Kya unregistered firm ka bhi ban sakta hai? Haan. Partnership deed, books, aur ITR ke basis pe CA certificate issue karta hai. Registration zaroori nahi hai certificate ke liye."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1621,7 +1626,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

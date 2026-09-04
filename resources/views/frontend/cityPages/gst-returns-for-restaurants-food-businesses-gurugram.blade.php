@@ -1,160 +1,11 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>GST for Restaurants Gurugram - 5%, Composition & ITC</title>
-    <meta name="description" content="GST returns for restaurants in Gurugram. 5% without ITC. 18% with ITC. Swiggy Zomato S9(5). Composition CMP-08. Call +91 945 945 6700.">
-    <link rel="canonical" href="/gst-returns-for-restaurants-food-businesses/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="GST for Restaurants Gurugram - 5%, Composition & ITC">
-    <meta property="og:description" content="GST returns for restaurants in Gurugram. 5% without ITC. 18% with ITC. Swiggy Zomato S9(5). Composition CMP-08. Call +91 945 945 6700.">
-    <meta property="og:url" content="/gst-returns-for-restaurants-food-businesses/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="GST for Restaurants Gurugram - 5%, Composition & ITC">
-    <meta name="twitter:description" content="GST returns for restaurants in Gurugram. 5% without ITC. 18% with ITC. Swiggy Zomato S9(5). Composition CMP-08. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "GST for Restaurants Gurugram - 5%, Composition & ITC",
-      "description": "GST returns for restaurants in Gurugram. 5% without ITC. 18% with ITC. Swiggy Zomato S9(5). Composition CMP-08. Call +91 945 945 6700.",
-      "url": "https://www.patronaccounting.com/gst-returns-for-restaurants-food-businesses/gurugram",
-      "serviceType": "GST for Restaurants Gurugram - 5%, Composition & ITC",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/gst-returns-for-restaurants-food-businesses/gurugram",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "minPrice": "1999",
-          "maxPrice": "29999",
-          "priceCurrency": "INR"
-        }
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "GST Returns for Restaurants & Food Business - 5% & ITC Rules",
-          "item": "https://www.patronaccounting.com/gst-returns-for-restaurants-food-businesses"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "GST for Restaurants Gurugram - 5%, Composition & ITC",
-          "item": "https://www.patronaccounting.com/gst-returns-for-restaurants-food-businesses/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is the GST rate for restaurants in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Standalone restaurants (AC or non-AC, dine-in or takeaway) pay 5% GST (2.5% CGST plus 2.5% SGST) without ITC. Hotel restaurants where room tariff is Rs 7,500 or above pay 18% GST with full ITC. Cloud kitchens pay the same 5% as regular restaurants. Composition scheme restaurants pay 1% flat on turnover."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does restaurant GST filing cost?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Monthly GSTR-1 plus 3B from Rs 2,499 per month. Composition CMP-08 from Rs 1,999 per quarter. Annual GSTR-9 or GSTR-4: Rs 3,000-8,000. Multi-outlet per additional GSTIN: Rs 1,999-4,999 per month. Annual bundle from Rs 29,999. Call +91 945 945 6700 for a detailed quote."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does Swiggy and Zomato GST work under Section 9(5)?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. Reconcile Platform Data: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can restaurants claim ITC at 5% GST?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Restaurants paying 5% GST cannot claim Input Tax Credit on any purchases whatsoever, including ingredients, rent, equipment, or utilities. The 5% rate is specifically conditioned on non-availment of ITC. ITC is only available at the 18% rate applicable to hotel restaurants (room tariff Rs 7,500+) and outdoor catering services."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the composition scheme for restaurants?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Available for restaurants with aggregate turnover up to Rs 1.5 crore under Section 10 of the CGST Act. Flat 1% tax on turnover (0.5% CGST plus 0.5% SGST). Quarterly CMP-08 filing and annual GSTR-4. No ITC available. Cannot make inter-state supplies. Simplified compliance for small eateries and dhabas in Gurugram."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do cloud kitchens in Gurugram pay different GST?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Cloud kitchens pay the same 5% GST as regular standalone restaurants under HSN 9963. They are classified as restaurant service providers regardless of being delivery-only. They must file GSTR-1 and GSTR-3B monthly. Platform reconciliation with Swiggy and Zomato is critical because cloud kitchens typically have 100% platform-mediated sales."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are the penalties for late restaurant GST filing?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Rs 50 per day late fee (Rs 25 CGST plus Rs 25 SGST), capped at Rs 5,000 per return under Section 47. Plus 18% interest per annum on any outstanding tax under Section 50. Missing GSTR-3B for 2 consecutive months triggers GSTIN suspension, halting all restaurant operations including billing and e-way bills."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -678,7 +529,161 @@ section ul li:not(.nav-item) { font-size: 14px; }
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'Join Community'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>GST for Restaurants Gurugram - 5%, Composition & ITC</title>
+    <meta name="description" content="GST returns for restaurants in Gurugram. 5% without ITC. 18% with ITC. Swiggy Zomato S9(5). Composition CMP-08. Call +91 945 945 6700.">
+    <link rel="canonical" href="/gst-returns-for-restaurants-food-businesses/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="GST for Restaurants Gurugram - 5%, Composition & ITC">
+    <meta property="og:description" content="GST returns for restaurants in Gurugram. 5% without ITC. 18% with ITC. Swiggy Zomato S9(5). Composition CMP-08. Call +91 945 945 6700.">
+    <meta property="og:url" content="/gst-returns-for-restaurants-food-businesses/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GST for Restaurants Gurugram - 5%, Composition & ITC">
+    <meta name="twitter:description" content="GST returns for restaurants in Gurugram. 5% without ITC. 18% with ITC. Swiggy Zomato S9(5). Composition CMP-08. Call +91 945 945 6700.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "GST for Restaurants Gurugram - 5%, Composition & ITC",
+      "description": "GST returns for restaurants in Gurugram. 5% without ITC. 18% with ITC. Swiggy Zomato S9(5). Composition CMP-08. Call +91 945 945 6700.",
+      "url": "https://www.patronaccounting.com/gst-returns-for-restaurants-food-businesses/gurugram",
+      "serviceType": "GST for Restaurants Gurugram - 5%, Composition & ITC",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.patronaccounting.com/gst-returns-for-restaurants-food-businesses/gurugram",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": "1999",
+          "maxPrice": "29999",
+          "priceCurrency": "INR"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "GST Returns for Restaurants & Food Business - 5% & ITC Rules",
+          "item": "https://www.patronaccounting.com/gst-returns-for-restaurants-food-businesses"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "GST for Restaurants Gurugram - 5%, Composition & ITC",
+          "item": "https://www.patronaccounting.com/gst-returns-for-restaurants-food-businesses/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the GST rate for restaurants in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Standalone restaurants (AC or non-AC, dine-in or takeaway) pay 5% GST (2.5% CGST plus 2.5% SGST) without ITC. Hotel restaurants where room tariff is Rs 7,500 or above pay 18% GST with full ITC. Cloud kitchens pay the same 5% as regular restaurants. Composition scheme restaurants pay 1% flat on turnover."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does restaurant GST filing cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Monthly GSTR-1 plus 3B from Rs 2,499 per month. Composition CMP-08 from Rs 1,999 per quarter. Annual GSTR-9 or GSTR-4: Rs 3,000-8,000. Multi-outlet per additional GSTIN: Rs 1,999-4,999 per month. Annual bundle from Rs 29,999. Call +91 945 945 6700 for a detailed quote."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does Swiggy and Zomato GST work under Section 9(5)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. Reconcile Platform Data: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can restaurants claim ITC at 5% GST?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Restaurants paying 5% GST cannot claim Input Tax Credit on any purchases whatsoever, including ingredients, rent, equipment, or utilities. The 5% rate is specifically conditioned on non-availment of ITC. ITC is only available at the 18% rate applicable to hotel restaurants (room tariff Rs 7,500+) and outdoor catering services."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the composition scheme for restaurants?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Available for restaurants with aggregate turnover up to Rs 1.5 crore under Section 10 of the CGST Act. Flat 1% tax on turnover (0.5% CGST plus 0.5% SGST). Quarterly CMP-08 filing and annual GSTR-4. No ITC available. Cannot make inter-state supplies. Simplified compliance for small eateries and dhabas in Gurugram."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do cloud kitchens in Gurugram pay different GST?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Cloud kitchens pay the same 5% GST as regular standalone restaurants under HSN 9963. They are classified as restaurant service providers regardless of being delivery-only. They must file GSTR-1 and GSTR-3B monthly. Platform reconciliation with Swiggy and Zomato is critical because cloud kitchens typically have 100% platform-mediated sales."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the penalties for late restaurant GST filing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rs 50 per day late fee (Rs 25 CGST plus Rs 25 SGST), capped at Rs 5,000 per return under Section 47. Plus 18% interest per annum on any outstanding tax under Section 50. Missing GSTR-3B for 2 consecutive months triggers GSTIN suspension, halting all restaurant operations including billing and e-way bills."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1604,7 +1609,6 @@ var tocWrapper=document.getElementById('tocWrapper');document.getElementById('to
 
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

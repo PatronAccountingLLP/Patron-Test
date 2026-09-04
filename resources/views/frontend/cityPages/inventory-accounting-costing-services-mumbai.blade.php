@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,208 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>Inventory Accounting in Mumbai 2026 | Patron Accounting</title>
-    <meta name="description" content="CA-led stock valuation, multi-godown reconciliation, BOM costing and COGS for Mumbai traders, Bhiwandi 3PL and Tarapur factories. Plans from INR 7,499/mo.">
-    <link rel="canonical" href="/inventory-accounting-costing-services/mumbai">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Inventory Accounting in Mumbai 2026 | Patron Accounting">
-    <meta property="og:description" content="CA-led stock valuation, multi-godown reconciliation, BOM costing and COGS for Mumbai traders, Bhiwandi 3PL and Tarapur factories. Plans from INR 7,499/mo.">
-    <meta property="og:url" content="/inventory-accounting-costing-services/mumbai">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Inventory Accounting in Mumbai 2026 | Patron Accounting">
-    <meta name="twitter:description" content="CA-led stock valuation, multi-godown reconciliation, BOM costing and COGS for Mumbai traders, Bhiwandi 3PL and Tarapur factories. Plans from INR 7,499/mo.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/inventory-accounting-costing-services/mumbai#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Inventory Accounting and Costing Services",
-          "item": "https://www.patronaccounting.com/inventory-accounting-costing-services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Inventory Accounting and Costing Services in Mumbai",
-          "item": "https://www.patronaccounting.com/inventory-accounting-costing-services/mumbai"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/inventory-accounting-costing-services/mumbai#faq",
-      "datePublished": "2026-06-23T08:00:00+05:30",
-      "dateModified": "2026-06-23T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What does inventory accounting and costing involve for a Mumbai business?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "It puts a defensible value on the stock you hold and tracks every movement so your closing inventory and cost of goods sold both tie out. A Mumbai engagement typically spans FIFO or weighted average valuation under AS 2 or Ind AS 2, godown reconciliation, BOM costing for Tarapur and Ambernath factories, and ageing analysis for Bhiwandi warehousing operators."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are the fees for inventory accounting in Mumbai?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Plans open at INR 7,499/mo (Exl GST and Govt. Charges). Where the price lands depends on how many SKUs you hold, how many godowns need counting, the costing method, and whether yours is a trading, factory, or retail setup. Firms in BKC, Andheri and Bhiwandi get a fixed-scope quote before we start."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Under AS 2 and Ind AS 2, which valuation methods can a Mumbai firm use?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Both standards allow only two cost formulas, FIFO or weighted average, and stock must be carried at the lower of cost and net realisable value. LIFO is barred, and whichever formula you adopt has to stay the same year on year. Patron matches the formula to how your Mumbai trading or factory operation actually moves stock."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do a 3PL operator and a factory in Mumbai differ in what they need?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A Bhiwandi 3PL or e-commerce seller mainly needs tight godown-wise reconciliation, returns handling and ageing across thousands of SKUs. A Tarapur or Ambernath manufacturer instead needs a bill of materials and labour-plus-overhead allocation to cost each finished unit. Patron scopes the engagement to whichever pattern fits your operation."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why does stock valuation matter for GST and income tax in Mumbai?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Your closing stock feeds straight into taxable profit, so a mis-stated value quietly inflates or understates the tax you owe. Section 145A of the Income Tax Act also requires inventory to be carried inclusive of tax and duty. Clean stock records back up your input tax credit too, and Patron ties them to your books against the GST portal."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why does dead stock hurt so much for high-rent Mumbai warehouses?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Ageing buckets show how long each line has sat unsold, exposing the slow-movers that quietly lock up cash. In Mumbai, where godown rent is steep, dead stock costs you twice, once in trapped capital and again in space. Patron flags obsolete SKUs, recommends write-downs to net realisable value under AS 2, and helps you plan liquidation."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can you reconcile multi-channel e-commerce stock for Mumbai sellers?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. For Andheri and Powai online sellers we pull marketplace and warehouse data into Tally, Zoho Books, QuickBooks or Xero, map every channel, and net off returns and damages. Physical counts at the Bhiwandi godown are then matched to book stock, adjustments posted, and valuation and COGS reports issued each period."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do you count stock spread across several Bhiwandi godowns?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We run the count godown by godown so nothing is double-counted, tagging each location and SKU as we go. Most Mumbai SMEs do this monthly with a full year-end count before audit, while large Bhiwandi 3PL operators often cycle-count quarterly. Patron schedules the counts, chases down variances, and posts approved adjustments at close."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/inventory-accounting-costing-services/mumbai#service",
-      "name": "Inventory Accounting and Costing Services in Mumbai",
-      "description": "Inventory accounting and costing in Mumbai covers FIFO and weighted average valuation under AS 2 and Ind AS 2, stock reconciliation, job, process and standard costing, BOM, COGS, and stock ageing. Patron Accounting serves traders, manufacturers, and retailers in Andheri, Bhiwandi, and the warehousing belts.",
-      "serviceType": "Inventory Accounting and Costing",
-      "url": "https://www.patronaccounting.com/inventory-accounting-costing-services/mumbai",
-      "areaServed": {
-        "@type": "City",
-        "name": "Mumbai",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Maharashtra"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#localbusiness-mumbai"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Inventory",
-          "sameAs": "https://en.wikipedia.org/wiki/Inventory"
-        },
-        {
-          "@type": "Thing",
-          "name": "Cost accounting",
-          "sameAs": "https://en.wikipedia.org/wiki/Cost_accounting"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Inventory Accounting Plans in Mumbai",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "price": "7499",
-            "priceSpecification": {
-              "@type": "UnitPriceSpecification",
-              "priceCurrency": "INR",
-              "price": "7499",
-              "unitText": "per month"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Inventory Accounting and Costing per Month"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness-mumbai",
-      "name": "Patron Accounting LLP - Mumbai",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/inventory-accounting-costing-services/mumbai",
-      "telephone": "+91-9699936369",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Mumbai"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Mumbai",
-        "addressRegion": "Maharashtra",
-        "postalCode": "400020",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -815,7 +612,217 @@
         .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
 
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>Inventory Accounting in Mumbai 2026 | Patron Accounting</title>
+    <meta name="description" content="CA-led stock valuation, multi-godown reconciliation, BOM costing and COGS for Mumbai traders, Bhiwandi 3PL and Tarapur factories. Plans from INR 7,499/mo.">
+    <link rel="canonical" href="/inventory-accounting-costing-services/mumbai">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Inventory Accounting in Mumbai 2026 | Patron Accounting">
+    <meta property="og:description" content="CA-led stock valuation, multi-godown reconciliation, BOM costing and COGS for Mumbai traders, Bhiwandi 3PL and Tarapur factories. Plans from INR 7,499/mo.">
+    <meta property="og:url" content="/inventory-accounting-costing-services/mumbai">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Inventory Accounting in Mumbai 2026 | Patron Accounting">
+    <meta name="twitter:description" content="CA-led stock valuation, multi-godown reconciliation, BOM costing and COGS for Mumbai traders, Bhiwandi 3PL and Tarapur factories. Plans from INR 7,499/mo.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/inventory-accounting-costing-services/mumbai#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Inventory Accounting and Costing Services",
+          "item": "https://www.patronaccounting.com/inventory-accounting-costing-services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Inventory Accounting and Costing Services in Mumbai",
+          "item": "https://www.patronaccounting.com/inventory-accounting-costing-services/mumbai"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/inventory-accounting-costing-services/mumbai#faq",
+      "datePublished": "2026-06-23T08:00:00+05:30",
+      "dateModified": "2026-06-23T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does inventory accounting and costing involve for a Mumbai business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It puts a defensible value on the stock you hold and tracks every movement so your closing inventory and cost of goods sold both tie out. A Mumbai engagement typically spans FIFO or weighted average valuation under AS 2 or Ind AS 2, godown reconciliation, BOM costing for Tarapur and Ambernath factories, and ageing analysis for Bhiwandi warehousing operators."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the fees for inventory accounting in Mumbai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Plans open at INR 7,499/mo (Exl GST and Govt. Charges). Where the price lands depends on how many SKUs you hold, how many godowns need counting, the costing method, and whether yours is a trading, factory, or retail setup. Firms in BKC, Andheri and Bhiwandi get a fixed-scope quote before we start."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Under AS 2 and Ind AS 2, which valuation methods can a Mumbai firm use?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Both standards allow only two cost formulas, FIFO or weighted average, and stock must be carried at the lower of cost and net realisable value. LIFO is barred, and whichever formula you adopt has to stay the same year on year. Patron matches the formula to how your Mumbai trading or factory operation actually moves stock."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do a 3PL operator and a factory in Mumbai differ in what they need?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Bhiwandi 3PL or e-commerce seller mainly needs tight godown-wise reconciliation, returns handling and ageing across thousands of SKUs. A Tarapur or Ambernath manufacturer instead needs a bill of materials and labour-plus-overhead allocation to cost each finished unit. Patron scopes the engagement to whichever pattern fits your operation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does stock valuation matter for GST and income tax in Mumbai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Your closing stock feeds straight into taxable profit, so a mis-stated value quietly inflates or understates the tax you owe. Section 145A of the Income Tax Act also requires inventory to be carried inclusive of tax and duty. Clean stock records back up your input tax credit too, and Patron ties them to your books against the GST portal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does dead stock hurt so much for high-rent Mumbai warehouses?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ageing buckets show how long each line has sat unsold, exposing the slow-movers that quietly lock up cash. In Mumbai, where godown rent is steep, dead stock costs you twice, once in trapped capital and again in space. Patron flags obsolete SKUs, recommends write-downs to net realisable value under AS 2, and helps you plan liquidation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you reconcile multi-channel e-commerce stock for Mumbai sellers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. For Andheri and Powai online sellers we pull marketplace and warehouse data into Tally, Zoho Books, QuickBooks or Xero, map every channel, and net off returns and damages. Physical counts at the Bhiwandi godown are then matched to book stock, adjustments posted, and valuation and COGS reports issued each period."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you count stock spread across several Bhiwandi godowns?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We run the count godown by godown so nothing is double-counted, tagging each location and SKU as we go. Most Mumbai SMEs do this monthly with a full year-end count before audit, while large Bhiwandi 3PL operators often cycle-count quarterly. Patron schedules the counts, chases down variances, and posts approved adjustments at close."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/inventory-accounting-costing-services/mumbai#service",
+      "name": "Inventory Accounting and Costing Services in Mumbai",
+      "description": "Inventory accounting and costing in Mumbai covers FIFO and weighted average valuation under AS 2 and Ind AS 2, stock reconciliation, job, process and standard costing, BOM, COGS, and stock ageing. Patron Accounting serves traders, manufacturers, and retailers in Andheri, Bhiwandi, and the warehousing belts.",
+      "serviceType": "Inventory Accounting and Costing",
+      "url": "https://www.patronaccounting.com/inventory-accounting-costing-services/mumbai",
+      "areaServed": {
+        "@type": "City",
+        "name": "Mumbai",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Maharashtra"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#localbusiness-mumbai"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Inventory",
+          "sameAs": "https://en.wikipedia.org/wiki/Inventory"
+        },
+        {
+          "@type": "Thing",
+          "name": "Cost accounting",
+          "sameAs": "https://en.wikipedia.org/wiki/Cost_accounting"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Inventory Accounting Plans in Mumbai",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "price": "7499",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "INR",
+              "price": "7499",
+              "unitText": "per month"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Inventory Accounting and Costing per Month"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness-mumbai",
+      "name": "Patron Accounting LLP - Mumbai",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/inventory-accounting-costing-services/mumbai",
+      "telephone": "+91-9699936369",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Mumbai"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Mumbai",
+        "addressRegion": "Maharashtra",
+        "postalCode": "400020",
+        "addressCountry": "IN"
+      },
+      "parentOrganization": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1568,7 +1575,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

@@ -1,147 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>GST Registration Cancellation 2026 Guide | Patron Accounting</title>
-    <meta name="description" content="Cancel GST registration via Form REG-16 and file final return GSTR-10 within 3 months. Stops late fee accrual on inactive GSTINs. Starting at Rs 1,499.">
-    <link rel="canonical" href="/gst-registration-cancellation">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="GST Registration Cancellation 2026 Guide | Patron Accounting">
-    <meta property="og:description" content="Cancel GST registration via Form REG-16 and file final return GSTR-10 within 3 months. Stops late fee accrual on inactive GSTINs. Starting at Rs 1,499.">
-    <meta property="og:url" content="/gst-registration-cancellation">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="GST Registration Cancellation 2026 Guide | Patron Accounting">
-    <meta name="twitter:description" content="Cancel GST registration via Form REG-16 and file final return GSTR-10 within 3 months. Stops late fee accrual on inactive GSTINs. Starting at Rs 1,499.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/gst-registration-cancellation/#service",
-        "name": "GST Registration Cancellation in India",
-        "description": "Patron Accounting LLP files Form GST REG-16 for voluntary GST cancellation under Section 29(1) of the CGST Act, 2017 and follows up with Form GSTR-10 final return under Section 45 read with Rule 81. The service also covers Section 29(2) SCN defence in Form REG-17 to REG-18, closing stock liability computation under Section 29(5), and Form REG-21 revocation applications under Section 30.",
-        "serviceType": "Tax Compliance Service",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-registration-cancellation" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [
-            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
-            { "@type": "Thing", "name": "Central Board of Indirect Taxes and Customs", "sameAs": "https://en.wikipedia.org/wiki/Central_Board_of_Indirect_Taxes_and_Customs" }
-        ],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "GST Registration Cancellation Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "GST Registration Cancellation - Form REG-16 plus GSTR-10",
-                    "priceCurrency": "INR",
-                    "price": "1499",
-                    "description": "Single GSTIN, REG-16 application, Section 29(5) closing stock working, and GSTR-10 final return"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/gst-registration-cancellation/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
-            { "@type": "ListItem", "position": 3, "name": "GST Registration Cancellation", "item": "https://www.patronaccounting.com/gst-registration-cancellation" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/gst-registration-cancellation/#faq",
-        "datePublished": "2026-05-26T08:00:00+05:30",
-        "dateModified": "2026-06-01T08:00:00+05:30",
-        "mainEntity": [
-
-            {
-                "@type": "Question",
-                "name": "How to cancel GST registration online?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Log in to www.gst.gov.in, navigate to Services then Registration then Application for Cancellation of Registration. Select the reason, enter the effective date, capture closing stock value, compute Section 29(5) ITC reversal, pay the liability through DRC-03 or last GSTR-3B, upload supporting documents and submit Form GST REG-16 with DSC or EVC. The officer issues Form REG-19 cancellation order within 30 days under Rule 22 of the CGST Rules, 2017."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is Form REG-16 in GST?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Form GST REG-16 is the application form for voluntary cancellation of GST registration under Section 29(1) of the CGST Act, 2017 read with Rule 20 of the CGST Rules, 2017. It is filed by the registered person on grounds such as discontinuance, transfer of business, change in constitution leading to PAN change, falling below threshold or death of sole proprietor."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the time limit to file GSTR-10 after cancellation?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Form GSTR-10, the final return, must be filed within 3 months from the date of cancellation or the date of the cancellation order in Form REG-19, whichever is later, as required by Section 45 of the CGST Act, 2017 read with Rule 81 of the CGST Rules, 2017. Late filing attracts a late fee under Section 47 of Rs 100 per day under CGST plus Rs 100 per day under SGST or UTGST."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Does non-filing of returns automatically cancel GST registration?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "No. Non-filing of GSTR-3B for 6 continuous months by a regular taxpayer or for 2 consecutive tax periods by a QRMP taxpayer is a ground for officer-initiated cancellation under Section 29(2)(c) of the CGST Act read with Rule 21(h), but the GSTIN does not cancel by itself. The proper officer must issue Form REG-17 SCN, await Form REG-18 reply, and pass Form REG-19 order. Meanwhile, Section 47 late fees continue to accrue at Rs 200 per day combined."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can a cancelled GST registration be revoked?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, but only where the cancellation was officer-initiated under Section 29(2). The registered person can file Form GST REG-21 under Section 30 of the CGST Act read with Rule 23 within 90 days of the cancellation order. The Commissioner can extend this by up to 180 days for sufficient cause in writing. Voluntary cancellation under Section 29(1) cannot be revoked; the taxpayer must file Form GST REG-01 for fresh registration if business resumes."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the late fee for GSTR-10?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Section 47(1) of the CGST Act, 2017 levies late fee of Rs 100 per day under CGST plus Rs 100 per day under SGST or UTGST for delay in filing GSTR-10, totaling Rs 200 per day until the return is filed. The portal applies any concessional ceiling that the GST Council notifies from time to time, such as the FY 2022-23 amnesty under Notification 03/2023-Central Tax which capped GSTR-10 late fee at Rs 1,000 for a limited window."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What documents are required for GST cancellation?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Closing stock statement of inputs, semi-finished goods, finished goods and capital goods; board resolution or partner consent for closure; last filed GSTR-3B and GSTR-1; bank closure letter; transfer agreement for business transfer; legal heir or succession certificate for sole proprietor death; certificate of incorporation or LLP agreement for constitution change; and audited financials or CA certificate where cancellation is on below threshold grounds."
-                }
-            }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -755,7 +618,149 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>GST Registration Cancellation 2026 Guide | Patron Accounting</title>
+    <meta name="description" content="Cancel GST registration via Form REG-16 and file final return GSTR-10 within 3 months. Stops late fee accrual on inactive GSTINs. Starting at Rs 1,499.">
+    <link rel="canonical" href="/gst-registration-cancellation">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="GST Registration Cancellation 2026 Guide | Patron Accounting">
+    <meta property="og:description" content="Cancel GST registration via Form REG-16 and file final return GSTR-10 within 3 months. Stops late fee accrual on inactive GSTINs. Starting at Rs 1,499.">
+    <meta property="og:url" content="/gst-registration-cancellation">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GST Registration Cancellation 2026 Guide | Patron Accounting">
+    <meta name="twitter:description" content="Cancel GST registration via Form REG-16 and file final return GSTR-10 within 3 months. Stops late fee accrual on inactive GSTINs. Starting at Rs 1,499.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/gst-registration-cancellation/#service",
+        "name": "GST Registration Cancellation in India",
+        "description": "Patron Accounting LLP files Form GST REG-16 for voluntary GST cancellation under Section 29(1) of the CGST Act, 2017 and follows up with Form GSTR-10 final return under Section 45 read with Rule 81. The service also covers Section 29(2) SCN defence in Form REG-17 to REG-18, closing stock liability computation under Section 29(5), and Form REG-21 revocation applications under Section 30.",
+        "serviceType": "Tax Compliance Service",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-registration-cancellation" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [
+            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
+            { "@type": "Thing", "name": "Central Board of Indirect Taxes and Customs", "sameAs": "https://en.wikipedia.org/wiki/Central_Board_of_Indirect_Taxes_and_Customs" }
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "GST Registration Cancellation Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "GST Registration Cancellation - Form REG-16 plus GSTR-10",
+                    "priceCurrency": "INR",
+                    "price": "1499",
+                    "description": "Single GSTIN, REG-16 application, Section 29(5) closing stock working, and GSTR-10 final return"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/gst-registration-cancellation/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
+            { "@type": "ListItem", "position": 3, "name": "GST Registration Cancellation", "item": "https://www.patronaccounting.com/gst-registration-cancellation" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/gst-registration-cancellation/#faq",
+        "datePublished": "2026-05-26T08:00:00+05:30",
+        "dateModified": "2026-06-01T08:00:00+05:30",
+        "mainEntity": [
+
+            {
+                "@type": "Question",
+                "name": "How to cancel GST registration online?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Log in to www.gst.gov.in, navigate to Services then Registration then Application for Cancellation of Registration. Select the reason, enter the effective date, capture closing stock value, compute Section 29(5) ITC reversal, pay the liability through DRC-03 or last GSTR-3B, upload supporting documents and submit Form GST REG-16 with DSC or EVC. The officer issues Form REG-19 cancellation order within 30 days under Rule 22 of the CGST Rules, 2017."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is Form REG-16 in GST?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Form GST REG-16 is the application form for voluntary cancellation of GST registration under Section 29(1) of the CGST Act, 2017 read with Rule 20 of the CGST Rules, 2017. It is filed by the registered person on grounds such as discontinuance, transfer of business, change in constitution leading to PAN change, falling below threshold or death of sole proprietor."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the time limit to file GSTR-10 after cancellation?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Form GSTR-10, the final return, must be filed within 3 months from the date of cancellation or the date of the cancellation order in Form REG-19, whichever is later, as required by Section 45 of the CGST Act, 2017 read with Rule 81 of the CGST Rules, 2017. Late filing attracts a late fee under Section 47 of Rs 100 per day under CGST plus Rs 100 per day under SGST or UTGST."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Does non-filing of returns automatically cancel GST registration?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No. Non-filing of GSTR-3B for 6 continuous months by a regular taxpayer or for 2 consecutive tax periods by a QRMP taxpayer is a ground for officer-initiated cancellation under Section 29(2)(c) of the CGST Act read with Rule 21(h), but the GSTIN does not cancel by itself. The proper officer must issue Form REG-17 SCN, await Form REG-18 reply, and pass Form REG-19 order. Meanwhile, Section 47 late fees continue to accrue at Rs 200 per day combined."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can a cancelled GST registration be revoked?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, but only where the cancellation was officer-initiated under Section 29(2). The registered person can file Form GST REG-21 under Section 30 of the CGST Act read with Rule 23 within 90 days of the cancellation order. The Commissioner can extend this by up to 180 days for sufficient cause in writing. Voluntary cancellation under Section 29(1) cannot be revoked; the taxpayer must file Form GST REG-01 for fresh registration if business resumes."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the late fee for GSTR-10?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Section 47(1) of the CGST Act, 2017 levies late fee of Rs 100 per day under CGST plus Rs 100 per day under SGST or UTGST for delay in filing GSTR-10, totaling Rs 200 per day until the return is filed. The portal applies any concessional ceiling that the GST Council notifies from time to time, such as the FY 2022-23 amnesty under Notification 03/2023-Central Tax which capped GSTR-10 late fee at Rs 1,000 for a limited window."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What documents are required for GST cancellation?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Closing stock statement of inputs, semi-finished goods, finished goods and capital goods; board resolution or partner consent for closure; last filed GSTR-3B and GSTR-1; bank closure letter; transfer agreement for business transfer; legal heir or succession certificate for sole proprietor death; certificate of incorporation or LLP agreement for constitution change; and audited financials or CA certificate where cancellation is on below threshold grounds."
+                }
+            }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1670,17 +1675,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1703,8 +1701,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1741,7 +1737,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1752,4 +1747,20 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+
 

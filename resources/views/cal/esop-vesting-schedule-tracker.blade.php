@@ -1,182 +1,5 @@
 @extends('layouts.app')
-@section('meta')
-<title>ESOP Vesting Schedule Tracker | Cliff & Next Vest Date</title>
-<meta name="description" content="ESOP vesting schedule tracker: build a schedule from grant date, 1-year cliff and term to see options vested to date, next vesting date and % complete. Free!">
-<meta name="robots" content="index, follow">
-<meta name="theme-color" content="#15365f">
-<link rel="canonical" href="https://www.patronaccounting.com/tools/esop-vesting-schedule-tracker">
-
-<meta property="og:title" content="ESOP Vesting Tracker — Cliff, Vested & Next Date">
-<meta property="og:description" content="Build your ESOP vesting schedule from grant date, cliff and term, and track options vested to date, your next vesting date and percentage complete.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.patronaccounting.com/tools/esop-vesting-schedule-tracker">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="1200">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-<meta property="og:site_name" content="Patron Accounting">
-<meta property="og:locale" content="en_IN">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="ESOP Vesting Tracker — Cliff, Vested & Next Date">
-<meta name="twitter:description" content="Build your ESOP vesting schedule and track options vested to date, next vesting date and percentage complete. Free &amp; instant.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-
-<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
-<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
-@endsection
-
-@section('schema')
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "ESOP Vesting Schedule Tracker",
-  "description": "ESOP Vesting Schedule Tracker builds an employee stock option vesting schedule from the grant date, cliff period, total vesting term and vesting frequency, applying the mandatory minimum one-year cliff under Rule 12(6) of the Companies (Share Capital and Debentures) Rules. It generates the tranche-by-tranche schedule, and as of today's date shows the options vested to date, the unvested balance, the percentage vested and the next vesting date, helping employees and founders track where a grant stands at any point in the four-year vesting cycle.",
-  "url": "https://www.patronaccounting.com/tools/esop-vesting-schedule-tracker",
-  "applicationCategory": "BusinessApplication",
-  "inLanguage": "en-IN",
-  "isAccessibleForFree": true,
-  "operatingSystem": "Any",
-  "datePublished": "2026-06-05T08:00:00+05:30",
-  "dateModified": "2026-06-05T08:00:00+05:30",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "INR"
-  },
-  "reviewedBy": {
-    "@type": "Person",
-    "@id": "https://patronaccounting.com/#founder",
-    "name": "CA Sundram Gupta",
-    "jobTitle": "Founder & Chartered Accountant",
-    "url": "https://www.patronaccounting.com/contact-page",
-    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-    "hasCredential": [{
-      "@type": "EducationalOccupationalCredential",
-      "credentialCategory": "Professional Certification",
-      "name": "Chartered Accountant (CA)",
-      "recognizedBy": {
-        "@type": "Organization",
-        "name": "Institute of Chartered Accountants of India",
-        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-      }
-    }]
-  },
-  "publisher": { "@id": "https://patronaccounting.com/#organization" },
-  "provider": {
-    "@id": "https://patronaccounting.com/#organization"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "ESOP Vesting Schedule Tracker", "item": "https://www.patronaccounting.com/tools/esop-vesting-schedule-tracker"}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is an ESOP vesting schedule?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "An ESOP vesting schedule sets out when, and in what tranches, an employee's stock options become exercisable over time. Until options vest, the employee does not have the right to exercise them, and unvested options usually lapse on leaving. The most common Indian schedule is four years with a one-year cliff: nothing vests for the first year, then a block vests at the cliff and the rest vests in regular tranches over the remaining term."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a cliff in ESOP vesting?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A cliff is the minimum period an employee must complete before any options vest. In the standard model the cliff is twelve months, at which point a block, usually twenty-five percent of the grant, vests in one go. If the employee leaves before the cliff, no options vest and the entire grant lapses. After the cliff, the remaining options vest gradually, monthly or quarterly, over the rest of the vesting term."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the minimum vesting period for ESOPs in India?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Under Rule 12(6) of the Companies (Share Capital and Debentures) Rules, 2014, there must be a minimum vesting period of one year from the date of grant of options. Any provision allowing options to vest sooner than twelve months is not valid. This is why the one-year cliff is effectively mandatory for Indian companies, and schemes are drafted so that no tranche can vest within the first year of the grant."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How is the standard 4-year vesting with a 1-year cliff structured?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "In the standard structure nothing vests in the first year. At the twelve-month cliff, twenty-five percent of the options vest at once. The remaining seventy-five percent then vest in equal tranches monthly or quarterly over the next thirty-six months. For example, on a grant of 1,200 options, 300 vest at the one-year cliff and the other 900 vest evenly across the following three years until the grant is fully vested at the end of year four."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does this tracker calculate options vested to date?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The tracker builds the full tranche schedule from your grant date, cliff, total term and frequency, then compares each tranche's vesting date with today's date. Tranches whose date has passed are counted as vested, and the rest are unvested. Before the cliff date nothing is vested. The result is the number of options vested to date, the unvested balance, the percentage vested and the date of your next vesting tranche."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What happens to unvested options if I leave?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Unvested options generally lapse immediately when you resign or are terminated, so only the options that have already vested are retained. If you leave before completing the cliff, you usually walk away with nothing because no options have vested. Vested options typically remain exercisable only within a limited post-termination window, often thirty to ninety days, after which they too may lapse, so timing the exit and exercise matters."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does vesting trigger any tax?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. Vesting by itself does not create a tax liability; it only makes the options exercisable. Tax arises later at two stages: at exercise the difference between the fair market value and the exercise price is taxed as a salary perquisite, and on a subsequent sale the gain over that fair market value is taxed as capital gains. So a vesting tracker tells you what you can exercise, not what tax you will pay."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What other vesting structures are used?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Besides the four-year, one-year-cliff model, some companies use a three-year schedule at later stages, graded vesting with equal annual or quarterly tranches, and back-weighted vesting where more vests in the later years to strengthen retention. Performance or milestone-based vesting ties some or all of the options to targets such as revenue or funding, and hybrid models combine time and performance conditions. The minimum one-year vesting still applies in all cases."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is vesting the same as owning the shares?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. Vesting only gives you the right to exercise the options; you become a shareholder only after you exercise the vested options by paying the exercise price and the shares are allotted. So a tracker showing vested options is showing what you are entitled to buy, not shares you already own. Ownership, dividend and voting rights begin only after exercise and allotment, subject to any lock-in in the scheme."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the ESOP Vesting Schedule Tracker free?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, the Patron Accounting ESOP Vesting Schedule Tracker is completely free with no signup required. All calculations run in your browser and nothing is stored on our servers. It builds your tranche-by-tranche vesting schedule from the grant date, cliff and term, and shows the options vested to date, the unvested balance, percentage vested and your next vesting date. It is an indicative planning tool; your actual entitlement is governed by your grant letter and the ESOP scheme."
-      }
-    }
-  ]
-}
-</script>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-@endsection
-
+@push('styles')
 <style>
         :root {
             --primary: #15365f;
@@ -695,6 +518,185 @@ a:focus-visible {
 
 
         </style>
+@endpush
+
+@section('meta')
+<title>ESOP Vesting Schedule Tracker | Cliff & Next Vest Date</title>
+<meta name="description" content="ESOP vesting schedule tracker: build a schedule from grant date, 1-year cliff and term to see options vested to date, next vesting date and % complete. Free!">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#15365f">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/esop-vesting-schedule-tracker">
+
+<meta property="og:title" content="ESOP Vesting Tracker — Cliff, Vested & Next Date">
+<meta property="og:description" content="Build your ESOP vesting schedule from grant date, cliff and term, and track options vested to date, your next vesting date and percentage complete.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/esop-vesting-schedule-tracker">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+<meta property="og:site_name" content="Patron Accounting">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ESOP Vesting Tracker — Cliff, Vested & Next Date">
+<meta name="twitter:description" content="Build your ESOP vesting schedule and track options vested to date, next vesting date and percentage complete. Free &amp; instant.">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.patronaccounting.com/favicon.svg" type="image/svg+xml">
+@endsection
+
+@section('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "ESOP Vesting Schedule Tracker",
+  "description": "ESOP Vesting Schedule Tracker builds an employee stock option vesting schedule from the grant date, cliff period, total vesting term and vesting frequency, applying the mandatory minimum one-year cliff under Rule 12(6) of the Companies (Share Capital and Debentures) Rules. It generates the tranche-by-tranche schedule, and as of today's date shows the options vested to date, the unvested balance, the percentage vested and the next vesting date, helping employees and founders track where a grant stands at any point in the four-year vesting cycle.",
+  "url": "https://www.patronaccounting.com/tools/esop-vesting-schedule-tracker",
+  "applicationCategory": "BusinessApplication",
+  "inLanguage": "en-IN",
+  "isAccessibleForFree": true,
+  "operatingSystem": "Any",
+  "datePublished": "2026-06-05T08:00:00+05:30",
+  "dateModified": "2026-06-05T08:00:00+05:30",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "INR"
+  },
+  "reviewedBy": {
+    "@type": "Person",
+    "@id": "https://patronaccounting.com/#founder",
+    "name": "CA Sundram Gupta",
+    "jobTitle": "Founder & Chartered Accountant",
+    "url": "https://www.patronaccounting.com/contact-page",
+    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+    "hasCredential": [{
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Professional Certification",
+      "name": "Chartered Accountant (CA)",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Institute of Chartered Accountants of India",
+        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+      }
+    }]
+  },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
+  "provider": {
+    "@id": "https://patronaccounting.com/#organization"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "ESOP Vesting Schedule Tracker", "item": "https://www.patronaccounting.com/tools/esop-vesting-schedule-tracker"}
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is an ESOP vesting schedule?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An ESOP vesting schedule sets out when, and in what tranches, an employee's stock options become exercisable over time. Until options vest, the employee does not have the right to exercise them, and unvested options usually lapse on leaving. The most common Indian schedule is four years with a one-year cliff: nothing vests for the first year, then a block vests at the cliff and the rest vests in regular tranches over the remaining term."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a cliff in ESOP vesting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A cliff is the minimum period an employee must complete before any options vest. In the standard model the cliff is twelve months, at which point a block, usually twenty-five percent of the grant, vests in one go. If the employee leaves before the cliff, no options vest and the entire grant lapses. After the cliff, the remaining options vest gradually, monthly or quarterly, over the rest of the vesting term."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the minimum vesting period for ESOPs in India?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Under Rule 12(6) of the Companies (Share Capital and Debentures) Rules, 2014, there must be a minimum vesting period of one year from the date of grant of options. Any provision allowing options to vest sooner than twelve months is not valid. This is why the one-year cliff is effectively mandatory for Indian companies, and schemes are drafted so that no tranche can vest within the first year of the grant."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is the standard 4-year vesting with a 1-year cliff structured?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In the standard structure nothing vests in the first year. At the twelve-month cliff, twenty-five percent of the options vest at once. The remaining seventy-five percent then vest in equal tranches monthly or quarterly over the next thirty-six months. For example, on a grant of 1,200 options, 300 vest at the one-year cliff and the other 900 vest evenly across the following three years until the grant is fully vested at the end of year four."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does this tracker calculate options vested to date?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The tracker builds the full tranche schedule from your grant date, cliff, total term and frequency, then compares each tranche's vesting date with today's date. Tranches whose date has passed are counted as vested, and the rest are unvested. Before the cliff date nothing is vested. The result is the number of options vested to date, the unvested balance, the percentage vested and the date of your next vesting tranche."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens to unvested options if I leave?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Unvested options generally lapse immediately when you resign or are terminated, so only the options that have already vested are retained. If you leave before completing the cliff, you usually walk away with nothing because no options have vested. Vested options typically remain exercisable only within a limited post-termination window, often thirty to ninety days, after which they too may lapse, so timing the exit and exercise matters."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does vesting trigger any tax?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Vesting by itself does not create a tax liability; it only makes the options exercisable. Tax arises later at two stages: at exercise the difference between the fair market value and the exercise price is taxed as a salary perquisite, and on a subsequent sale the gain over that fair market value is taxed as capital gains. So a vesting tracker tells you what you can exercise, not what tax you will pay."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What other vesting structures are used?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Besides the four-year, one-year-cliff model, some companies use a three-year schedule at later stages, graded vesting with equal annual or quarterly tranches, and back-weighted vesting where more vests in the later years to strengthen retention. Performance or milestone-based vesting ties some or all of the options to targets such as revenue or funding, and hybrid models combine time and performance conditions. The minimum one-year vesting still applies in all cases."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is vesting the same as owning the shares?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Vesting only gives you the right to exercise the options; you become a shareholder only after you exercise the vested options by paying the exercise price and the shares are allotted. So a tracker showing vested options is showing what you are entitled to buy, not shares you already own. Ownership, dividend and voting rights begin only after exercise and allotment, subject to any lock-in in the scheme."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the ESOP Vesting Schedule Tracker free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the Patron Accounting ESOP Vesting Schedule Tracker is completely free with no signup required. All calculations run in your browser and nothing is stored on our servers. It builds your tranche-by-tranche vesting schedule from the grant date, cliff and term, and shows the options vested to date, the unvested balance, percentage vested and your next vesting date. It is an indicative planning tool; your actual entitlement is governed by your grant letter and the ESOP scheme."
+      }
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation">
     <div class="toc-nav-inner">

@@ -1,161 +1,12 @@
 
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>FCRA Registration for NGOs Gurugram - MHA & Renewal</title>
-    <meta name="description" content="FCRA registration in Gurugram for NGOs and trusts. Foreign donation license from MHA. SBI account, Darpan ID, annual returns. Call +91 945 945 6700.">
-    <link rel="canonical" href="/fcra-registration/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="FCRA Registration for NGOs Gurugram - MHA & Renewal">
-    <meta property="og:description" content="FCRA registration in Gurugram for NGOs and trusts. Foreign donation license from MHA. SBI account, Darpan ID, annual returns. Call +91 945 945 6700.">
-    <meta property="og:url" content="/fcra-registration/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="FCRA Registration for NGOs Gurugram - MHA & Renewal">
-    <meta name="twitter:description" content="FCRA registration in Gurugram for NGOs and trusts. Foreign donation license from MHA. SBI account, Darpan ID, annual returns. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "FCRA Registration in Gurugram | Foreign Funding",
-      "description": "FCRA registration in Gurugram for NGOs and trusts. Foreign donation license from MHA. SBI account, Darpan ID, annual returns. Call +91 945 945 6700.",
-      "url": "https://www.patronaccounting.com/fcra-registration/gurugram",
-      "serviceType": "FCRA Registration in Gurugram | Foreign Funding",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/fcra-registration/gurugram",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "minPrice": "10",
-          "maxPrice": "15000",
-          "priceCurrency": "INR"
-        }
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "FCRA Registration in India: Process, Fees and Compliance",
-          "item": "https://www.patronaccounting.com/fcra-registration"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "FCRA Registration in Gurugram | Foreign Funding",
-          "item": "https://www.patronaccounting.com/fcra-registration/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Who needs FCRA registration in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Any Indian trust, society, or Section 8 company that receives or plans to receive foreign contributions or donations. This includes charitable NGOs, CSR foundations, educational trusts, healthcare organizations, religious bodies, and social enterprises. Without FCRA, accepting foreign funds is illegal under the FCRA 2010 and attracts severe penalties including imprisonment."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does FCRA registration cost?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Government fee: Rs 10,000 for Regular Registration (FC-3A) or Rs 5,000 for Prior Permission (FC-3B). Professional fee: Rs 15,000 to Rs 30,000 (covers eligibility assessment, Darpan ID, SBI account coordination, MHA application, and query response). Darpan ID and SBI account opening: Rs 2,000-5,000 additional. Call +91 945 945 6700 for a detailed quote."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does FCRA registration take?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. FCRA Registration Approved: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why is the SBI New Delhi account mandatory?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The 2020 Amendment mandates that all foreign contributions must be received in a designated FCRA account at SBI Main Branch, 11 Sansad Marg, New Delhi - not at any Gurugram SBI branch. Funds received in this account can then be transferred to a local utilization account in any PFMS-compliant scheduled bank for program activities."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the 20% admin cap and how does it work?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The 2020 Amendment limits administrative expenses to 20% of total foreign contributions received (reduced from the earlier 50%). Administrative expenses include salaries of non-program staff, office rent, utilities, and overhead. The remaining 80% must be spent on program activities. Exceeding the cap risks show-cause notice and potential FCRA cancellation."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between Regular Registration and Prior Permission?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Regular Registration (FC-3A): for established organizations with 3+ years of operation and Rs 10 lakh+ spent, seeking ongoing foreign funding from multiple donors. 5-year validity. Rs 10,000 fee. Prior Permission (FC-3B): for newer organizations with a specific committed donor and defined project. Rs 5,000 fee. Prior Permission can be upgraded to Regular Registration after building track record."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does FCRA registration expire?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. FCRA registration has 5-year validity. The renewal application must be filed on the MHA portal at least 6 months before the expiry date. Late renewal risks lapse of registration, meaning the organization loses authority to receive foreign contributions. Annual returns (Form FC-4) must be filed every year within 9 months of financial year end, regardless of whether foreign contributions were received. Quick Answers FCRA kis ke liye zaroori hai? Kisi bhi Indian NGO, trust, society, ya Section 8 company ke liye jo foreign donation receive karna chahti hai. Bina FCRA ke foreign paisa lena illegal hai. MHA se permission chahiye. SBI Delhi mein account kyun? 2020 Amendment ke baad sabhi foreign contributions sirf SBI Main Branch, New Delhi mein receive ho sakti hain. Gurugram mein nahi. SBI Delhi se local utilization account mein transfer kar sakte ho. Kitne din lagte hain? Total 90-180 din. Preparation: 30-45 din (Darpan + SBI + documents). MHA review: 60-120 din. Queries ka jawab: 15-30 din extra. Pehle se plan karein."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -679,7 +530,161 @@ section ul li:not(.nav-item) { font-size: 14px; }
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'Join Community'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>FCRA Registration for NGOs Gurugram - MHA & Renewal</title>
+    <meta name="description" content="FCRA registration in Gurugram for NGOs and trusts. Foreign donation license from MHA. SBI account, Darpan ID, annual returns. Call +91 945 945 6700.">
+    <link rel="canonical" href="/fcra-registration/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="FCRA Registration for NGOs Gurugram - MHA & Renewal">
+    <meta property="og:description" content="FCRA registration in Gurugram for NGOs and trusts. Foreign donation license from MHA. SBI account, Darpan ID, annual returns. Call +91 945 945 6700.">
+    <meta property="og:url" content="/fcra-registration/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="FCRA Registration for NGOs Gurugram - MHA & Renewal">
+    <meta name="twitter:description" content="FCRA registration in Gurugram for NGOs and trusts. Foreign donation license from MHA. SBI account, Darpan ID, annual returns. Call +91 945 945 6700.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "FCRA Registration in Gurugram | Foreign Funding",
+      "description": "FCRA registration in Gurugram for NGOs and trusts. Foreign donation license from MHA. SBI account, Darpan ID, annual returns. Call +91 945 945 6700.",
+      "url": "https://www.patronaccounting.com/fcra-registration/gurugram",
+      "serviceType": "FCRA Registration in Gurugram | Foreign Funding",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.patronaccounting.com/fcra-registration/gurugram",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": "10",
+          "maxPrice": "15000",
+          "priceCurrency": "INR"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "FCRA Registration in India: Process, Fees and Compliance",
+          "item": "https://www.patronaccounting.com/fcra-registration"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "FCRA Registration in Gurugram | Foreign Funding",
+          "item": "https://www.patronaccounting.com/fcra-registration/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Who needs FCRA registration in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Any Indian trust, society, or Section 8 company that receives or plans to receive foreign contributions or donations. This includes charitable NGOs, CSR foundations, educational trusts, healthcare organizations, religious bodies, and social enterprises. Without FCRA, accepting foreign funds is illegal under the FCRA 2010 and attracts severe penalties including imprisonment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does FCRA registration cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Government fee: Rs 10,000 for Regular Registration (FC-3A) or Rs 5,000 for Prior Permission (FC-3B). Professional fee: Rs 15,000 to Rs 30,000 (covers eligibility assessment, Darpan ID, SBI account coordination, MHA application, and query response). Darpan ID and SBI account opening: Rs 2,000-5,000 additional. Call +91 945 945 6700 for a detailed quote."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does FCRA registration take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Total timeline: 2-6 months. Filing and Diary Number: immediate. Mandatory 30-day objection waiting period: 1 month. FCRA Registration Approved: 1-3 months. Certificate issuance: after examination approval. If a third-party objection is filed, the timeline extends by 2-4 months for hearing and resolution."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is the SBI New Delhi account mandatory?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The 2020 Amendment mandates that all foreign contributions must be received in a designated FCRA account at SBI Main Branch, 11 Sansad Marg, New Delhi - not at any Gurugram SBI branch. Funds received in this account can then be transferred to a local utilization account in any PFMS-compliant scheduled bank for program activities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the 20% admin cap and how does it work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The 2020 Amendment limits administrative expenses to 20% of total foreign contributions received (reduced from the earlier 50%). Administrative expenses include salaries of non-program staff, office rent, utilities, and overhead. The remaining 80% must be spent on program activities. Exceeding the cap risks show-cause notice and potential FCRA cancellation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between Regular Registration and Prior Permission?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Regular Registration (FC-3A): for established organizations with 3+ years of operation and Rs 10 lakh+ spent, seeking ongoing foreign funding from multiple donors. 5-year validity. Rs 10,000 fee. Prior Permission (FC-3B): for newer organizations with a specific committed donor and defined project. Rs 5,000 fee. Prior Permission can be upgraded to Regular Registration after building track record."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does FCRA registration expire?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. FCRA registration has 5-year validity. The renewal application must be filed on the MHA portal at least 6 months before the expiry date. Late renewal risks lapse of registration, meaning the organization loses authority to receive foreign contributions. Annual returns (Form FC-4) must be filed every year within 9 months of financial year end, regardless of whether foreign contributions were received. Quick Answers FCRA kis ke liye zaroori hai? Kisi bhi Indian NGO, trust, society, ya Section 8 company ke liye jo foreign donation receive karna chahti hai. Bina FCRA ke foreign paisa lena illegal hai. MHA se permission chahiye. SBI Delhi mein account kyun? 2020 Amendment ke baad sabhi foreign contributions sirf SBI Main Branch, New Delhi mein receive ho sakti hain. Gurugram mein nahi. SBI Delhi se local utilization account mein transfer kar sakte ho. Kitne din lagte hain? Total 90-180 din. Preparation: 30-45 din (Darpan + SBI + documents). MHA review: 60-120 din. Queries ka jawab: 15-30 din extra. Pehle se plan karein."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1605,7 +1610,6 @@ var tocWrapper=document.getElementById('tocWrapper');document.getElementById('to
 
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

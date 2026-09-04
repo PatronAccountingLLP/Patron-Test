@@ -1,174 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>FIRC for Foreign Inward Remittance in Delhi 2026 | Patron Accounting</title>
-    <meta name="description" content="FIRC and e-FIRC support with CA attestation for exporters, freelancers, and SaaS founders. Proof of foreign payment for GST refund and FEMA. From INR 2,499.">
-    <link rel="canonical" href="/inward-remittance-certificate-firc/delhi">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="FIRC for Foreign Inward Remittance 2026 | Patron Accounting">
-    <meta property="og:description" content="FIRC and e-FIRC support with CA attestation for exporters, freelancers, and SaaS founders. Proof of foreign payment for GST refund and FEMA. From INR 2,499.">
-    <meta property="og:url" content="/inward-remittance-certificate-firc/delhi">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="FIRC for Foreign Inward Remittance 2026 | Patron Accounting">
-    <meta name="twitter:description" content="FIRC and e-FIRC support with CA attestation for exporters, freelancers, and SaaS founders. Proof of foreign payment for GST refund and FEMA. From INR 2,499.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/inward-remittance-certificate-firc/delhi/#service",
-        "name": "Inward Remittance Certificate (FIRC) in Delhi",
-        "description": "CA attestation, retrieval support, reconciliation, and GST refund filing around the Foreign Inward Remittance Certificate (FIRC / e-FIRC) for exporters, freelancers, and SaaS founders receiving foreign payments. The FIRC is issued by AD Category-I banks via the RBI's EDPMS; the CA attestation carries a mandatory 18-digit UDIN.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/inward-remittance-certificate-firc/delhi" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Remittance", "sameAs": "https://en.wikipedia.org/wiki/Remittance" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Inward Remittance Certificate (FIRC) Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": { "@type": "Service", "name": "FIRC attestation and GST refund support" },
-                    "priceCurrency": "INR",
-                    "price": "2499",
-                    "description": "Starting from INR 2,499 (excl. GST and govt. charges)"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/inward-remittance-certificate-firc/delhi/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "GST Refund", "item": "https://www.patronaccounting.com/gst-refund" },
-            { "@type": "ListItem", "position": 3, "name": "Inward Remittance Certificate (FIRC)", "item": "https://www.patronaccounting.com/inward-remittance-certificate-firc/delhi" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/inward-remittance-certificate-firc/delhi/#faq",
-        "datePublished": "2026-06-09T08:00:00+05:30",
-        "dateModified": "2026-06-09T08:00:00+05:30",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "Who issues a FIRC?",
-                "acceptedAnswer": { "@type": "Answer", "text": "A FIRC is issued by AD Category-I banks authorised by the RBI to handle foreign exchange, not by a Chartered Accountant. As of 2026 it is usually an e-FIRC, generated when the bank reports the inward remittance to the RBI's EDPMS system. A CA attests your foreign income and files the GST refund the FIRC supports." }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the difference between FIRC, FIRA, and e-BRC?",
-                "acceptedAnswer": { "@type": "Answer", "text": "A FIRC or e-FIRC is a certificate of foreign inward remittance. A FIRA is an advice many banks issue for electronic credits. An e-BRC is the Electronic Bank Realisation Certificate via DGFT, used mainly by goods exporters. All three evidence receipt of foreign exchange and can support a GST refund." }
-            },
-            {
-                "@type": "Question",
-                "name": "Is a FIRC mandatory for a GST refund?",
-                "acceptedAnswer": { "@type": "Answer", "text": "You need proof of receipt in convertible foreign exchange for a refund on zero-rated service exports, but the law does not insist only on a paper FIRC. A FIRA or e-BRC is valid proof too. We present the document your bank issues correctly so the refund is not rejected on technical grounds." }
-            },
-            {
-                "@type": "Question",
-                "name": "Do freelancers need a FIRC?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Yes. Freelancers and consultants receiving foreign payments use the FIRC or FIRA as proof of legitimate foreign income for tax and banking, and as the basis for a GST refund where they export services under LUT. It is an important record to maintain under FEMA." }
-            },
-            {
-                "@type": "Question",
-                "name": "Is an e-FIRC valid for government compliance?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Yes. The e-FIRC is fully valid for GST refunds, FEMA compliance, and export-related incentives. It is digitally signed and verifiable, and is the standard form banks issue as of 2026, having replaced the physical certificate for most electronic remittances." }
-            },
-            {
-                "@type": "Question",
-                "name": "Does the CA issue the FIRC?",
-                "acceptedAnswer": { "@type": "Answer", "text": "No. The bank issues the FIRC. The CA's role is to attest your foreign inward remittances, reconcile them to invoices, and file the GST refund the FIRC supports, with a UDIN on the attestation. This division is why both the bank and a CA are involved." }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/inward-remittance-certificate-firc/delhi",
-        "name": "Inward Remittance Certificate (FIRC) in Delhi",
-        "description": "FIRC and e-FIRC support with CA attestation for exporters, freelancers, and SaaS founders. Proof of foreign payment for GST refund and FEMA. From INR 2,499.",
-        "url": "https://www.patronaccounting.com/inward-remittance-certificate-firc/delhi",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/inward-remittance-certificate-firc/delhi/#service" },
-        "datePublished": "2026-06-09T08:00:00+05:30",
-        "dateModified": "2026-06-09T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/inward-remittance-certificate-firc/delhi/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How a FIRC Leads to Your GST Refund",
-        "description": "The six-step path from a foreign payment to a filed GST refund: receive the payment, bank reports to EDPMS, retrieve the FIRC or FIRA, reconcile and attest, file the GST refund under LUT, and maintain records.",
-        "totalTime": "P7D",
-        "step": [
-            { "@type": "HowToStep", "name": "Receive the payment", "text": "Foreign funds are credited to your account by your AD bank." },
-            { "@type": "HowToStep", "name": "Bank reports to EDPMS", "text": "The bank files the IRM, which triggers the e-FIRC." },
-            { "@type": "HowToStep", "name": "Retrieve the FIRC or FIRA", "text": "We help you obtain the e-FIRC or FIRA from the bank's portal." },
-            { "@type": "HowToStep", "name": "Reconcile and attest", "text": "We reconcile remittances to invoices and attest the foreign income." },
-            { "@type": "HowToStep", "name": "File the GST refund", "text": "Under LUT, we file the zero-rated export refund using the FIRC as proof." },
-            { "@type": "HowToStep", "name": "Maintain records", "text": "FIRCs and reconciliations are kept for FEMA and audit purposes." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Inward Remittance Certificate (FIRC) Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "FIRC", "description": "Foreign Inward Remittance Certificate - bank-issued proof of foreign funds received." },
-            { "@type": "DefinedTerm", "name": "e-FIRC", "description": "The electronic, digitally signed FIRC, standard as of 2026." },
-            { "@type": "DefinedTerm", "name": "AD Category-I bank", "description": "An RBI-authorised dealer bank permitted to handle forex and issue FIRCs." },
-            { "@type": "DefinedTerm", "name": "EDPMS / IRM", "description": "The RBI system banks report to, and the Inward Remittance Message it generates." },
-            { "@type": "DefinedTerm", "name": "e-BRC", "description": "Electronic Bank Realisation Certificate via DGFT, used mainly by goods exporters." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -782,7 +618,176 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>FIRC for Foreign Inward Remittance in Delhi 2026 | Patron Accounting</title>
+    <meta name="description" content="FIRC and e-FIRC support with CA attestation for exporters, freelancers, and SaaS founders. Proof of foreign payment for GST refund and FEMA. From INR 2,499.">
+    <link rel="canonical" href="/inward-remittance-certificate-firc/delhi">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="FIRC for Foreign Inward Remittance 2026 | Patron Accounting">
+    <meta property="og:description" content="FIRC and e-FIRC support with CA attestation for exporters, freelancers, and SaaS founders. Proof of foreign payment for GST refund and FEMA. From INR 2,499.">
+    <meta property="og:url" content="/inward-remittance-certificate-firc/delhi">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="FIRC for Foreign Inward Remittance 2026 | Patron Accounting">
+    <meta name="twitter:description" content="FIRC and e-FIRC support with CA attestation for exporters, freelancers, and SaaS founders. Proof of foreign payment for GST refund and FEMA. From INR 2,499.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/inward-remittance-certificate-firc/delhi/#service",
+        "name": "Inward Remittance Certificate (FIRC) in Delhi",
+        "description": "CA attestation, retrieval support, reconciliation, and GST refund filing around the Foreign Inward Remittance Certificate (FIRC / e-FIRC) for exporters, freelancers, and SaaS founders receiving foreign payments. The FIRC is issued by AD Category-I banks via the RBI's EDPMS; the CA attestation carries a mandatory 18-digit UDIN.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/inward-remittance-certificate-firc/delhi" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Remittance", "sameAs": "https://en.wikipedia.org/wiki/Remittance" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Inward Remittance Certificate (FIRC) Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": { "@type": "Service", "name": "FIRC attestation and GST refund support" },
+                    "priceCurrency": "INR",
+                    "price": "2499",
+                    "description": "Starting from INR 2,499 (excl. GST and govt. charges)"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/inward-remittance-certificate-firc/delhi/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "GST Refund", "item": "https://www.patronaccounting.com/gst-refund" },
+            { "@type": "ListItem", "position": 3, "name": "Inward Remittance Certificate (FIRC)", "item": "https://www.patronaccounting.com/inward-remittance-certificate-firc/delhi" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/inward-remittance-certificate-firc/delhi/#faq",
+        "datePublished": "2026-06-09T08:00:00+05:30",
+        "dateModified": "2026-06-09T08:00:00+05:30",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Who issues a FIRC?",
+                "acceptedAnswer": { "@type": "Answer", "text": "A FIRC is issued by AD Category-I banks authorised by the RBI to handle foreign exchange, not by a Chartered Accountant. As of 2026 it is usually an e-FIRC, generated when the bank reports the inward remittance to the RBI's EDPMS system. A CA attests your foreign income and files the GST refund the FIRC supports." }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the difference between FIRC, FIRA, and e-BRC?",
+                "acceptedAnswer": { "@type": "Answer", "text": "A FIRC or e-FIRC is a certificate of foreign inward remittance. A FIRA is an advice many banks issue for electronic credits. An e-BRC is the Electronic Bank Realisation Certificate via DGFT, used mainly by goods exporters. All three evidence receipt of foreign exchange and can support a GST refund." }
+            },
+            {
+                "@type": "Question",
+                "name": "Is a FIRC mandatory for a GST refund?",
+                "acceptedAnswer": { "@type": "Answer", "text": "You need proof of receipt in convertible foreign exchange for a refund on zero-rated service exports, but the law does not insist only on a paper FIRC. A FIRA or e-BRC is valid proof too. We present the document your bank issues correctly so the refund is not rejected on technical grounds." }
+            },
+            {
+                "@type": "Question",
+                "name": "Do freelancers need a FIRC?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Yes. Freelancers and consultants receiving foreign payments use the FIRC or FIRA as proof of legitimate foreign income for tax and banking, and as the basis for a GST refund where they export services under LUT. It is an important record to maintain under FEMA." }
+            },
+            {
+                "@type": "Question",
+                "name": "Is an e-FIRC valid for government compliance?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Yes. The e-FIRC is fully valid for GST refunds, FEMA compliance, and export-related incentives. It is digitally signed and verifiable, and is the standard form banks issue as of 2026, having replaced the physical certificate for most electronic remittances." }
+            },
+            {
+                "@type": "Question",
+                "name": "Does the CA issue the FIRC?",
+                "acceptedAnswer": { "@type": "Answer", "text": "No. The bank issues the FIRC. The CA's role is to attest your foreign inward remittances, reconcile them to invoices, and file the GST refund the FIRC supports, with a UDIN on the attestation. This division is why both the bank and a CA are involved." }
+            }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/inward-remittance-certificate-firc/delhi",
+        "name": "Inward Remittance Certificate (FIRC) in Delhi",
+        "description": "FIRC and e-FIRC support with CA attestation for exporters, freelancers, and SaaS founders. Proof of foreign payment for GST refund and FEMA. From INR 2,499.",
+        "url": "https://www.patronaccounting.com/inward-remittance-certificate-firc/delhi",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/inward-remittance-certificate-firc/delhi/#service" },
+        "datePublished": "2026-06-09T08:00:00+05:30",
+        "dateModified": "2026-06-09T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/inward-remittance-certificate-firc/delhi/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How a FIRC Leads to Your GST Refund",
+        "description": "The six-step path from a foreign payment to a filed GST refund: receive the payment, bank reports to EDPMS, retrieve the FIRC or FIRA, reconcile and attest, file the GST refund under LUT, and maintain records.",
+        "totalTime": "P7D",
+        "step": [
+            { "@type": "HowToStep", "name": "Receive the payment", "text": "Foreign funds are credited to your account by your AD bank." },
+            { "@type": "HowToStep", "name": "Bank reports to EDPMS", "text": "The bank files the IRM, which triggers the e-FIRC." },
+            { "@type": "HowToStep", "name": "Retrieve the FIRC or FIRA", "text": "We help you obtain the e-FIRC or FIRA from the bank's portal." },
+            { "@type": "HowToStep", "name": "Reconcile and attest", "text": "We reconcile remittances to invoices and attest the foreign income." },
+            { "@type": "HowToStep", "name": "File the GST refund", "text": "Under LUT, we file the zero-rated export refund using the FIRC as proof." },
+            { "@type": "HowToStep", "name": "Maintain records", "text": "FIRCs and reconciliations are kept for FEMA and audit purposes." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Inward Remittance Certificate (FIRC) Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "FIRC", "description": "Foreign Inward Remittance Certificate - bank-issued proof of foreign funds received." },
+            { "@type": "DefinedTerm", "name": "e-FIRC", "description": "The electronic, digitally signed FIRC, standard as of 2026." },
+            { "@type": "DefinedTerm", "name": "AD Category-I bank", "description": "An RBI-authorised dealer bank permitted to handle forex and issue FIRCs." },
+            { "@type": "DefinedTerm", "name": "EDPMS / IRM", "description": "The RBI system banks report to, and the Inward Remittance Message it generates." },
+            { "@type": "DefinedTerm", "name": "e-BRC", "description": "Electronic Bank Realisation Certificate via DGFT, used mainly by goods exporters." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1625,17 +1630,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1658,8 +1656,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1696,7 +1692,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1 (Schema Standard v2.1 / Rule 36): visible "Last Updated" mirrors schema dateModified
 // (9 June 2026) as a STABLE value - never live new Date().
@@ -1708,3 +1703,19 @@ window.addEventListener('scroll', function() {
     if (el2) el2.textContent = dateStr;
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

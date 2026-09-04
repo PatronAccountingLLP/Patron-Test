@@ -1,203 +1,6 @@
 @extends('layouts.app')
-@section('meta')
-
-    <title>HRA Exemption Calculator | Section 10(13A) FY 2025-26</title>
-    <meta name="description" content="HRA exemption calculator computes your tax-free house rent allowance under Section 10(13A) for FY 2025-26 using the 3-condition rule and metro/non-metro logic.">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/hra-exemption-calculator">
-
-    <meta property="og:title" content="HRA Exemption Calculator — Section 10(13A) FY 2025-26">
-    <meta property="og:description" content="Calculate your tax-free HRA under Section 10(13A) — 3-condition lowest formula, metro vs non-metro rules, FY 2025-26 and FY 2026-27 (8-metro expansion).">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/hra-exemption-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="HRA Exemption Calculator — Section 10(13A) FY 2025-26">
-    <meta name="twitter:description" content="Calculate tax-free HRA under Section 10(13A) — 3-condition lowest formula, metro vs non-metro rules, FY 2025-26 and FY 2026-27.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-
-    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-@endsection
-@section('schema')
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "HRA Exemption Calculator",
-      "description": "HRA Exemption Calculator computes the tax-free House Rent Allowance under Section 10(13A) of the Income Tax Act using the three-condition lowest formula — actual HRA received, 50 percent or 40 percent of salary based on metro classification, and rent paid minus 10 percent of salary. Supports FY 2025-26 (4-metro rule) and FY 2026-27 (8-metro rule).",
-      "url": "https://www.patronaccounting.com/tools/hra-exemption-calculator",
-      "applicationCategory": "BusinessApplication",
-      "operatingSystem": "Any",
-      "inLanguage": "en-IN",
-      "isAccessibleForFree": true,
-      "datePublished": "2026-05-06T08:00:00+05:30",
-      "dateModified": "2026-05-08T08:00:00+05:30",
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "INR"
-      },
-      "reviewedBy": {
-        "@type": "Person",
-        "@id": "https://patronaccounting.com/#founder",
-        "name": "CA Sundram Gupta",
-        "jobTitle": "Founder & Chartered Accountant",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Institute of Chartered Accountants of India",
-            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-          }
-        }]
-      },
-      "publisher": { "@id": "https://patronaccounting.com/#organization" },
-      "provider": {
-        "@id": "https://patronaccounting.com/#organization"
-      }
-    }
-    </script>
-
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "HRA Exemption Calculator", "item": "https://www.patronaccounting.com/tools/hra-exemption-calculator"}
-      ]
-    }
-    </script>
-
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is HRA exemption under Section 10(13A) of the Income Tax Act?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 10(13A) of the Income Tax Act 1961 read with Rule 2A allows a salaried employee to claim a portion of House Rent Allowance as tax-free if rent is genuinely paid for residential accommodation. The exemption is available only under the old tax regime and is calculated as the lowest of three conditions involving actual HRA received, percentage of salary, and rent paid minus 10 percent of salary."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is HRA exemption calculated using the three-condition formula?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "HRA exemption is the lowest of three values. First, the actual HRA received from your employer. Second, 50 percent of basic salary plus DA if you live in a metro city, or 40 percent if non-metro. Third, the actual rent paid minus 10 percent of salary. The minimum of these three is your exempt HRA — the balance is taxed as part of your salary."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which cities qualify as metros for HRA exemption in FY 2025-26?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "For FY 2025-26 (AY 2026-27) ITR filing, only four cities qualify as metros under Section 10(13A) — Delhi, Mumbai, Kolkata, and Chennai. Residents of these cities are eligible for the 50 percent of salary cap under condition two. All other cities, including Bengaluru, Pune, Hyderabad, Ahmedabad, Gurgaon, and Noida, are non-metro for FY 2025-26 and are restricted to the 40 percent cap."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which new cities become metros for HRA from FY 2026-27?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Under the Income Tax Rules 2026 effective from 1 April 2026, four cities are added to the metro list — Bengaluru, Hyderabad, Pune, and Ahmedabad. Combined with the original four, eight cities now qualify for the 50 percent salary cap. The 8-metro rule applies only to FY 2026-27 income onwards. Gurgaon, Noida, and Surat are not included despite being major business hubs."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I claim HRA exemption under the new tax regime?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. HRA exemption under Section 10(13A) is available exclusively under the old tax regime. If you opt for the new tax regime under Section 115BAC, the entire HRA received is fully taxable as salary income. This is one of the most significant trade-offs to consider when choosing between regimes — high-rent metro residents typically save more under the old regime due to HRA."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I claim HRA if I pay rent to my parents?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, rent paid to parents qualifies for HRA exemption, provided three conditions are met. A formal rent agreement should exist between you and your parent. Rent must be transferred via bank, not cash, with proper receipts. Your parent must declare the rental income in their own ITR under Income from House Property. The arrangement should reflect a genuine landlord-tenant relationship."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do I need to provide my landlord's PAN to claim HRA?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "If your annual rent exceeds ₹1,00,000 (₹8,333 per month), CBDT mandates that you obtain and submit your landlord's PAN to your employer for HRA exemption. If the landlord does not have a PAN, a written declaration with their name and address is required. Without this, the employer cannot allow HRA exemption while computing TDS, and you must claim it directly in your ITR."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I claim HRA exemption and home loan interest deduction simultaneously?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, both can be claimed together if your facts justify it. Common scenario: you own a house in city A but work and pay rent in city B. You claim HRA on the rental in city B and home loan interest under Section 24(b) on the property in city A. Both must be under the old regime. A genuine business or work reason for not living in your owned house is essential to defend the claim."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What if my actual rent is less than 10 percent of my salary?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "If rent paid is less than 10 percent of your basic salary plus DA, the third condition (rent minus 10 percent of salary) becomes negative, which is treated as zero. Since exemption is the minimum of three values, your HRA exemption automatically becomes zero. The entire HRA received is then taxable. This often happens for low-rent arrangements such as paying nominal rent to family members."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What does 'salary' mean for HRA calculation under Rule 2A?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Under Rule 2A of the Income Tax Rules, salary for HRA exemption means basic salary plus dearness allowance (only the portion forming part of retirement benefits) plus commission as a fixed percentage of turnover. It excludes other allowances such as bonus, performance pay, conveyance, and special allowances. Always use this restricted definition; using gross salary will overstate the exemption and trigger reassessment risk."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I claim HRA without rent receipts or rent agreement?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Technically the e-filing portal does not require uploading receipts, but the burden of proof rests on you in case of scrutiny. Maintain rent receipts for every month, a registered rent agreement, bank transfer evidence, and the landlord's PAN if rent exceeds ₹1 lakh annually. Under Income Tax Rules 2026, Form 124 replaces Form 12BB for declarations to employer from April 2026 onwards."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What can I claim if I do not receive HRA from my employer?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "If you pay rent but receive no HRA, you can claim a deduction under Section 80GG instead. The deduction is the lowest of ₹5,000 per month, 25 percent of adjusted total income, or rent paid minus 10 percent of adjusted total income. You must not own a residential property in your work city, and your spouse and minor child must not own one either. File Form 10BA along with your ITR."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do I claim HRA exemption while filing my ITR?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "If your employer has already considered HRA exemption while computing TDS, it appears in Form 16 (Form 130 from FY 2026-27) and the ITR is pre-filled accordingly. If not, claim the exemption directly in the ITR under Income from Salary by reducing the gross salary by the exempt HRA. Maintain rent receipts, agreement, and bank statements as evidence. Choose the old regime; HRA is unavailable under new regime."
-          }
-        }
-      ]
-    }
-    </script>
-@endsection
-   
-    <style>
+@push('styles')
+<style>
         :root {
             --primary: #15365f; --primary-light: #1f4a7a; --primary-dark: #0a2240;
             --accent: #f26522; --accent-light: #ff8347;
@@ -693,7 +496,205 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
   section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;max-width:100%;margin-bottom:2px;}
 }
 </style>
+@endpush
 
+@section('meta')
+
+    <title>HRA Exemption Calculator | Section 10(13A) FY 2025-26</title>
+    <meta name="description" content="HRA exemption calculator computes your tax-free house rent allowance under Section 10(13A) for FY 2025-26 using the 3-condition rule and metro/non-metro logic.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/hra-exemption-calculator">
+
+    <meta property="og:title" content="HRA Exemption Calculator — Section 10(13A) FY 2025-26">
+    <meta property="og:description" content="Calculate your tax-free HRA under Section 10(13A) — 3-condition lowest formula, metro vs non-metro rules, FY 2025-26 and FY 2026-27 (8-metro expansion).">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/hra-exemption-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="HRA Exemption Calculator — Section 10(13A) FY 2025-26">
+    <meta name="twitter:description" content="Calculate tax-free HRA under Section 10(13A) — 3-condition lowest formula, metro vs non-metro rules, FY 2025-26 and FY 2026-27.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+@endsection
+@section('schema')
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "HRA Exemption Calculator",
+      "description": "HRA Exemption Calculator computes the tax-free House Rent Allowance under Section 10(13A) of the Income Tax Act using the three-condition lowest formula — actual HRA received, 50 percent or 40 percent of salary based on metro classification, and rent paid minus 10 percent of salary. Supports FY 2025-26 (4-metro rule) and FY 2026-27 (8-metro rule).",
+      "url": "https://www.patronaccounting.com/tools/hra-exemption-calculator",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Any",
+      "inLanguage": "en-IN",
+      "isAccessibleForFree": true,
+      "datePublished": "2026-05-06T08:00:00+05:30",
+      "dateModified": "2026-05-08T08:00:00+05:30",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "INR"
+      },
+      "reviewedBy": {
+        "@type": "Person",
+        "@id": "https://patronaccounting.com/#founder",
+        "name": "CA Sundram Gupta",
+        "jobTitle": "Founder & Chartered Accountant",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Institute of Chartered Accountants of India",
+            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+          }
+        }]
+      },
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": {
+        "@id": "https://patronaccounting.com/#organization"
+      }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "HRA Exemption Calculator", "item": "https://www.patronaccounting.com/tools/hra-exemption-calculator"}
+      ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is HRA exemption under Section 10(13A) of the Income Tax Act?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 10(13A) of the Income Tax Act 1961 read with Rule 2A allows a salaried employee to claim a portion of House Rent Allowance as tax-free if rent is genuinely paid for residential accommodation. The exemption is available only under the old tax regime and is calculated as the lowest of three conditions involving actual HRA received, percentage of salary, and rent paid minus 10 percent of salary."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is HRA exemption calculated using the three-condition formula?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "HRA exemption is the lowest of three values. First, the actual HRA received from your employer. Second, 50 percent of basic salary plus DA if you live in a metro city, or 40 percent if non-metro. Third, the actual rent paid minus 10 percent of salary. The minimum of these three is your exempt HRA — the balance is taxed as part of your salary."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which cities qualify as metros for HRA exemption in FY 2025-26?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For FY 2025-26 (AY 2026-27) ITR filing, only four cities qualify as metros under Section 10(13A) — Delhi, Mumbai, Kolkata, and Chennai. Residents of these cities are eligible for the 50 percent of salary cap under condition two. All other cities, including Bengaluru, Pune, Hyderabad, Ahmedabad, Gurgaon, and Noida, are non-metro for FY 2025-26 and are restricted to the 40 percent cap."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which new cities become metros for HRA from FY 2026-27?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under the Income Tax Rules 2026 effective from 1 April 2026, four cities are added to the metro list — Bengaluru, Hyderabad, Pune, and Ahmedabad. Combined with the original four, eight cities now qualify for the 50 percent salary cap. The 8-metro rule applies only to FY 2026-27 income onwards. Gurgaon, Noida, and Surat are not included despite being major business hubs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I claim HRA exemption under the new tax regime?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. HRA exemption under Section 10(13A) is available exclusively under the old tax regime. If you opt for the new tax regime under Section 115BAC, the entire HRA received is fully taxable as salary income. This is one of the most significant trade-offs to consider when choosing between regimes — high-rent metro residents typically save more under the old regime due to HRA."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I claim HRA if I pay rent to my parents?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, rent paid to parents qualifies for HRA exemption, provided three conditions are met. A formal rent agreement should exist between you and your parent. Rent must be transferred via bank, not cash, with proper receipts. Your parent must declare the rental income in their own ITR under Income from House Property. The arrangement should reflect a genuine landlord-tenant relationship."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need to provide my landlord's PAN to claim HRA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If your annual rent exceeds ₹1,00,000 (₹8,333 per month), CBDT mandates that you obtain and submit your landlord's PAN to your employer for HRA exemption. If the landlord does not have a PAN, a written declaration with their name and address is required. Without this, the employer cannot allow HRA exemption while computing TDS, and you must claim it directly in your ITR."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I claim HRA exemption and home loan interest deduction simultaneously?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, both can be claimed together if your facts justify it. Common scenario: you own a house in city A but work and pay rent in city B. You claim HRA on the rental in city B and home loan interest under Section 24(b) on the property in city A. Both must be under the old regime. A genuine business or work reason for not living in your owned house is essential to defend the claim."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if my actual rent is less than 10 percent of my salary?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If rent paid is less than 10 percent of your basic salary plus DA, the third condition (rent minus 10 percent of salary) becomes negative, which is treated as zero. Since exemption is the minimum of three values, your HRA exemption automatically becomes zero. The entire HRA received is then taxable. This often happens for low-rent arrangements such as paying nominal rent to family members."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does 'salary' mean for HRA calculation under Rule 2A?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under Rule 2A of the Income Tax Rules, salary for HRA exemption means basic salary plus dearness allowance (only the portion forming part of retirement benefits) plus commission as a fixed percentage of turnover. It excludes other allowances such as bonus, performance pay, conveyance, and special allowances. Always use this restricted definition; using gross salary will overstate the exemption and trigger reassessment risk."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I claim HRA without rent receipts or rent agreement?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Technically the e-filing portal does not require uploading receipts, but the burden of proof rests on you in case of scrutiny. Maintain rent receipts for every month, a registered rent agreement, bank transfer evidence, and the landlord's PAN if rent exceeds ₹1 lakh annually. Under Income Tax Rules 2026, Form 124 replaces Form 12BB for declarations to employer from April 2026 onwards."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What can I claim if I do not receive HRA from my employer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If you pay rent but receive no HRA, you can claim a deduction under Section 80GG instead. The deduction is the lowest of ₹5,000 per month, 25 percent of adjusted total income, or rent paid minus 10 percent of adjusted total income. You must not own a residential property in your work city, and your spouse and minor child must not own one either. File Form 10BA along with your ITR."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I claim HRA exemption while filing my ITR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If your employer has already considered HRA exemption while computing TDS, it appears in Form 16 (Form 130 from FY 2026-27) and the ITR is pre-filled accordingly. If not, claim the exemption directly in the ITR under Income from Salary by reducing the gross salary by the exempt HRA. Maintain rent receipts, agreement, and bank statements as evidence. Choose the old regime; HRA is unavailable under new regime."
+          }
+        }
+      ]
+    }
+    </script>
+@endsection
 @section('content')
 
 <nav class="toc-nav" aria-label="Page Navigation">

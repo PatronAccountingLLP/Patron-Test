@@ -1,179 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Section 281 Income Tax NOC Certificate in Delhi 2026 | Patron Accounting</title>
-    <meta name="description" content="Section 281 Income Tax NOC: prior permission from the Assessing Officer before transferring property or assets with a tax demand. From INR 4,999.">
-    <link rel="canonical" href="/certificate-under-section-281-income-tax/delhi">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Section 281 Income Tax NOC Certificate 2026 | Patron Accounting">
-    <meta property="og:description" content="Section 281 Income Tax NOC: prior permission from the Assessing Officer before transferring property or assets with a tax demand. From INR 4,999.">
-    <meta property="og:url" content="/certificate-under-section-281-income-tax/delhi">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Section 281 Income Tax NOC Certificate 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Section 281 Income Tax NOC: prior permission from the Assessing Officer before transferring property or assets with a tax demand. From INR 4,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/delhi/#service",
-        "name": "Certificate under Section 281 (Income Tax) in Delhi",
-        "description": "Advisory, application preparation, and representation before the Assessing Officer to obtain prior permission (No Objection Certificate) under Section 281 of the Income-tax Act, 1961, per CBDT Circular 4/2011, before transferring property, shares, or other assets where a tax demand or proceeding is pending. Application filed at least 30 days ahead; NOC valid 180 days. Permission is granted by the Assessing Officer, not a Chartered Accountant.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/delhi" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Income tax in India", "sameAs": "https://en.wikipedia.org/wiki/Income_tax_in_India" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Section 281 Certificate Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": { "@type": "Service", "name": "Section 281 NOC application and AO representation" },
-                    "priceCurrency": "INR",
-                    "price": "4999",
-                    "description": "Starting from INR 4,999 (excl. GST and govt. charges)"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/delhi/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Income Tax Notice", "item": "https://www.patronaccounting.com/income-tax-notice" },
-            { "@type": "ListItem", "position": 3, "name": "Section 281 Certificate", "item": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/delhi" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/delhi/#faq",
-        "datePublished": "2026-06-09T08:00:00+05:30",
-        "dateModified": "2026-06-09T08:00:00+05:30",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "What is a certificate under Section 281?",
-                "acceptedAnswer": { "@type": "Answer", "text": "It is the prior permission, or No Objection Certificate, that the Assessing Officer grants allowing a taxpayer to transfer assets despite a pending proceeding or tax demand. Section 281 can otherwise treat such a transfer as void against the tax claim, so the NOC protects the transaction and the buyer's title." }
-            },
-            {
-                "@type": "Question",
-                "name": "Who issues the Section 281 NOC?",
-                "acceptedAnswer": { "@type": "Answer", "text": "The jurisdictional Assessing Officer of the transferor issues it, on an application made under CBDT Circular 4/2011. It is not a certificate issued by a Chartered Accountant. The Tax Recovery Officer, who handles recovery and attachment, performs a separate function and does not grant this prior permission." }
-            },
-            {
-                "@type": "Question",
-                "name": "When is a Section 281 certificate required?",
-                "acceptedAnswer": { "@type": "Answer", "text": "It is needed when a taxpayer transfers assets such as property or shares while a proceeding is pending or a tax demand is outstanding or likely. In high-value sales and M&A, buyers routinely require it in due diligence to ensure the transfer cannot later be voided by a tax claim." }
-            },
-            {
-                "@type": "Question",
-                "name": "How early must I apply and how long is the NOC valid?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Under Circular 4/2011, the application should be filed at least thirty days before the proposed transaction. Once granted, the NOC is valid for one hundred and eighty days, within which the transaction should be completed. Planning early is important, especially if a disputed demand needs a stay first." }
-            },
-            {
-                "@type": "Question",
-                "name": "Do I always need permission to transfer my property?",
-                "acceptedAnswer": { "@type": "Answer", "text": "No. Section 281 does not void a transfer made for adequate consideration without notice of pending proceedings or a tax claim. So a genuine, fair-value sale by a taxpayer with no demand pending generally does not require prior permission, though a buyer may still ask for an NOC to protect title." }
-            },
-            {
-                "@type": "Question",
-                "name": "What happens if I transfer without the NOC when it was needed?",
-                "acceptedAnswer": { "@type": "Answer", "text": "If permission was required and not obtained, the tax department can treat the transfer as void against its claim, meaning it can proceed against the asset for recovery even in the buyer's hands. This is why buyers insist on the NOC and why obtaining it before a covered transfer is important." }
-            },
-            {
-                "@type": "Question",
-                "name": "Can you handle the application and represent me before the Assessing Officer?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Yes. We assess whether permission is needed, prepare the Application under Section 281, coordinate any stay for disputed demands, and represent you before the Assessing Officer to obtain the NOC, managing the process to your transaction timeline." }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/delhi",
-        "name": "Certificate under Section 281 (Income Tax) in Delhi",
-        "description": "Section 281 Income Tax NOC: prior permission from the Assessing Officer before transferring property or assets with a tax demand. From INR 4,999.",
-        "url": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/delhi",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/delhi/#service" },
-        "datePublished": "2026-06-09T08:00:00+05:30",
-        "dateModified": "2026-06-09T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/delhi/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How to Obtain a Section 281 NOC under Circular 4/2011",
-        "description": "The procedure to obtain prior permission under Section 281: apply early, establish the tax position, address disputed demands, AO review, grant of NOC, and use within validity.",
-        "totalTime": "P30D",
-        "step": [
-            { "@type": "HowToStep", "name": "Apply early", "text": "File the prescribed Application under Section 281 at least 30 days before the transaction." },
-            { "@type": "HowToStep", "name": "Establish the tax position", "text": "Show whether any demand is outstanding or likely in the next six months." },
-            { "@type": "HowToStep", "name": "Address disputed demands", "text": "Seek a stay and provide the indemnity the Circular requires, where applicable." },
-            { "@type": "HowToStep", "name": "AO review", "text": "The Assessing Officer examines the application and may seek further documents." },
-            { "@type": "HowToStep", "name": "Grant of NOC", "text": "Where no demand is outstanding and none is likely, permission is to be granted." },
-            { "@type": "HowToStep", "name": "Use within validity", "text": "Complete the transaction within the 180-day validity of the NOC." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Section 281 Certificate Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Section 281", "description": "Provision making certain transfers void against tax claims." },
-            { "@type": "DefinedTerm", "name": "Prior permission / NOC", "description": "The Assessing Officer's approval to transfer, protecting the deal." },
-            { "@type": "DefinedTerm", "name": "Assessing Officer (AO)", "description": "The income-tax officer who grants the Section 281 permission." },
-            { "@type": "DefinedTerm", "name": "Circular 4/2011", "description": "The CBDT circular prescribing the application form and procedure." },
-            { "@type": "DefinedTerm", "name": "Tax Recovery Officer (TRO)", "description": "A separate officer who handles recovery and attachment, distinct from the AO's Section 281 role." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -787,7 +618,181 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Section 281 Income Tax NOC Certificate in Delhi 2026 | Patron Accounting</title>
+    <meta name="description" content="Section 281 Income Tax NOC: prior permission from the Assessing Officer before transferring property or assets with a tax demand. From INR 4,999.">
+    <link rel="canonical" href="/certificate-under-section-281-income-tax/delhi">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Section 281 Income Tax NOC Certificate 2026 | Patron Accounting">
+    <meta property="og:description" content="Section 281 Income Tax NOC: prior permission from the Assessing Officer before transferring property or assets with a tax demand. From INR 4,999.">
+    <meta property="og:url" content="/certificate-under-section-281-income-tax/delhi">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Section 281 Income Tax NOC Certificate 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Section 281 Income Tax NOC: prior permission from the Assessing Officer before transferring property or assets with a tax demand. From INR 4,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/delhi/#service",
+        "name": "Certificate under Section 281 (Income Tax) in Delhi",
+        "description": "Advisory, application preparation, and representation before the Assessing Officer to obtain prior permission (No Objection Certificate) under Section 281 of the Income-tax Act, 1961, per CBDT Circular 4/2011, before transferring property, shares, or other assets where a tax demand or proceeding is pending. Application filed at least 30 days ahead; NOC valid 180 days. Permission is granted by the Assessing Officer, not a Chartered Accountant.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/delhi" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Income tax in India", "sameAs": "https://en.wikipedia.org/wiki/Income_tax_in_India" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Section 281 Certificate Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": { "@type": "Service", "name": "Section 281 NOC application and AO representation" },
+                    "priceCurrency": "INR",
+                    "price": "4999",
+                    "description": "Starting from INR 4,999 (excl. GST and govt. charges)"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/delhi/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Income Tax Notice", "item": "https://www.patronaccounting.com/income-tax-notice" },
+            { "@type": "ListItem", "position": 3, "name": "Section 281 Certificate", "item": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/delhi" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/delhi/#faq",
+        "datePublished": "2026-06-09T08:00:00+05:30",
+        "dateModified": "2026-06-09T08:00:00+05:30",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is a certificate under Section 281?",
+                "acceptedAnswer": { "@type": "Answer", "text": "It is the prior permission, or No Objection Certificate, that the Assessing Officer grants allowing a taxpayer to transfer assets despite a pending proceeding or tax demand. Section 281 can otherwise treat such a transfer as void against the tax claim, so the NOC protects the transaction and the buyer's title." }
+            },
+            {
+                "@type": "Question",
+                "name": "Who issues the Section 281 NOC?",
+                "acceptedAnswer": { "@type": "Answer", "text": "The jurisdictional Assessing Officer of the transferor issues it, on an application made under CBDT Circular 4/2011. It is not a certificate issued by a Chartered Accountant. The Tax Recovery Officer, who handles recovery and attachment, performs a separate function and does not grant this prior permission." }
+            },
+            {
+                "@type": "Question",
+                "name": "When is a Section 281 certificate required?",
+                "acceptedAnswer": { "@type": "Answer", "text": "It is needed when a taxpayer transfers assets such as property or shares while a proceeding is pending or a tax demand is outstanding or likely. In high-value sales and M&A, buyers routinely require it in due diligence to ensure the transfer cannot later be voided by a tax claim." }
+            },
+            {
+                "@type": "Question",
+                "name": "How early must I apply and how long is the NOC valid?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Under Circular 4/2011, the application should be filed at least thirty days before the proposed transaction. Once granted, the NOC is valid for one hundred and eighty days, within which the transaction should be completed. Planning early is important, especially if a disputed demand needs a stay first." }
+            },
+            {
+                "@type": "Question",
+                "name": "Do I always need permission to transfer my property?",
+                "acceptedAnswer": { "@type": "Answer", "text": "No. Section 281 does not void a transfer made for adequate consideration without notice of pending proceedings or a tax claim. So a genuine, fair-value sale by a taxpayer with no demand pending generally does not require prior permission, though a buyer may still ask for an NOC to protect title." }
+            },
+            {
+                "@type": "Question",
+                "name": "What happens if I transfer without the NOC when it was needed?",
+                "acceptedAnswer": { "@type": "Answer", "text": "If permission was required and not obtained, the tax department can treat the transfer as void against its claim, meaning it can proceed against the asset for recovery even in the buyer's hands. This is why buyers insist on the NOC and why obtaining it before a covered transfer is important." }
+            },
+            {
+                "@type": "Question",
+                "name": "Can you handle the application and represent me before the Assessing Officer?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Yes. We assess whether permission is needed, prepare the Application under Section 281, coordinate any stay for disputed demands, and represent you before the Assessing Officer to obtain the NOC, managing the process to your transaction timeline." }
+            }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/delhi",
+        "name": "Certificate under Section 281 (Income Tax) in Delhi",
+        "description": "Section 281 Income Tax NOC: prior permission from the Assessing Officer before transferring property or assets with a tax demand. From INR 4,999.",
+        "url": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/delhi",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/delhi/#service" },
+        "datePublished": "2026-06-09T08:00:00+05:30",
+        "dateModified": "2026-06-09T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/delhi/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Obtain a Section 281 NOC under Circular 4/2011",
+        "description": "The procedure to obtain prior permission under Section 281: apply early, establish the tax position, address disputed demands, AO review, grant of NOC, and use within validity.",
+        "totalTime": "P30D",
+        "step": [
+            { "@type": "HowToStep", "name": "Apply early", "text": "File the prescribed Application under Section 281 at least 30 days before the transaction." },
+            { "@type": "HowToStep", "name": "Establish the tax position", "text": "Show whether any demand is outstanding or likely in the next six months." },
+            { "@type": "HowToStep", "name": "Address disputed demands", "text": "Seek a stay and provide the indemnity the Circular requires, where applicable." },
+            { "@type": "HowToStep", "name": "AO review", "text": "The Assessing Officer examines the application and may seek further documents." },
+            { "@type": "HowToStep", "name": "Grant of NOC", "text": "Where no demand is outstanding and none is likely, permission is to be granted." },
+            { "@type": "HowToStep", "name": "Use within validity", "text": "Complete the transaction within the 180-day validity of the NOC." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Section 281 Certificate Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Section 281", "description": "Provision making certain transfers void against tax claims." },
+            { "@type": "DefinedTerm", "name": "Prior permission / NOC", "description": "The Assessing Officer's approval to transfer, protecting the deal." },
+            { "@type": "DefinedTerm", "name": "Assessing Officer (AO)", "description": "The income-tax officer who grants the Section 281 permission." },
+            { "@type": "DefinedTerm", "name": "Circular 4/2011", "description": "The CBDT circular prescribing the application form and procedure." },
+            { "@type": "DefinedTerm", "name": "Tax Recovery Officer (TRO)", "description": "A separate officer who handles recovery and attachment, distinct from the AO's Section 281 role." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1631,17 +1636,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1664,8 +1662,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1702,7 +1698,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1 (Schema Standard v2.1 / Rule 36): visible "Last Updated" mirrors schema dateModified
 // (9 June 2026) as a STABLE value - never live new Date().
@@ -1714,3 +1709,19 @@ window.addEventListener('scroll', function() {
     if (el2) el2.textContent = dateStr;
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

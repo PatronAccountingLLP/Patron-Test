@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,213 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>SOP Drafting in Delhi 2026 | Patron Accounting</title>
-    <meta name="description" content="Cut password sharing and untracked cash. CA-built finance SOPs, approval grids, and IFC for Nehru Place and Karol Bagh firms. From INR 24,999 one-time.">
-    <link rel="canonical" href="/sop-drafting-and-implementation/delhi">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="SOP Drafting in Delhi 2026 | Patron Accounting">
-    <meta property="og:description" content="Cut password sharing and untracked cash. CA-built finance SOPs, approval grids, and IFC for Nehru Place and Karol Bagh firms. From INR 24,999 one-time.">
-    <meta property="og:url" content="/sop-drafting-and-implementation/delhi">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="SOP Drafting in Delhi 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Cut password sharing and untracked cash. CA-built finance SOPs, approval grids, and IFC for Nehru Place and Karol Bagh firms. From INR 24,999 one-time.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/sop-drafting-and-implementation/delhi#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "SOP Drafting and Implementation",
-          "item": "https://www.patronaccounting.com/sop-drafting-and-implementation"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "SOP Drafting and Implementation in Delhi",
-          "item": "https://www.patronaccounting.com/sop-drafting-and-implementation/delhi"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/sop-drafting-and-implementation/delhi#faq",
-      "datePublished": "2026-06-23T08:00:00+05:30",
-      "dateModified": "2026-06-23T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Why should a growing Delhi business document its finance SOPs?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A finance SOP sets down, in writing, how an accounting task runs, who starts it, and who signs it. For a Nehru Place software firm or an Okhla manufacturer the set locks in maker-checker review, genuine duty separation, and a repeatable close, keeping the finance function steady as staff and transaction counts grow."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the price of SOP work in Delhi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Projects begin From INR 24,999 (one-time, Exl GST and Govt. Charges). The final figure follows the process count, the team size, the approval layers, and the platform you use. Nehru Place IT firms and Karol Bagh traders receive a fixed-scope quote before any drafting starts, so the cost is settled in advance."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What does maker-checker mean within an SOP?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "It means the person who creates an entry, the maker, cannot also authorise or post it, that falls to the checker. We weave it into every Delhi SOP through approval grids and duty separation across custody, authorisation, recording, and reconciliation, so no single individual takes a transaction the whole way through."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do private companies in Delhi have to maintain IFC?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Section 134(5)(e) of the Companies Act 2013 obliges the board to confirm adequate internal financial controls. The auditor's reporting under Section 143(3)(i) is eased for One Person and small companies, and for private companies under INR 50 crore turnover and INR 25 crore borrowings, per MCA notification GSR 583(E)."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can SOPs control cash and counter dealings for Karol Bagh traders?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, and that is a common ask in Delhi's trading markets. For Karol Bagh and Chandni Chowk firms we write counter-receipt and petty-cash SOPs with daily lodgement, custody limits, and independent reconciliation. We also document purchase-to-payment, sales and collection, payroll, GST reconciliation, and the close, each with controls and approval limits."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How quickly can an SOP project finish in Delhi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Writing the core set usually takes 2 to 4 weeks, then go-live and coaching add another 2 to 6. A multi-entity Okhla manufacturer with layered approvals sits at the longer end, while a single-entity Nehru Place IT firm wraps up sooner. The process count and the software in use both shift the timing."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What usually stops an SOP from working in practice?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Shared passwords, more often than not. When logins are swapped, system controls are bypassed and one person quietly fills both maker and checker roles, undoing duty separation. We shut this down with individual credentials, an enforced approval grid, and a strict no-sharing rule set during go-live and coaching."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does Delhi have profession tax, and do SOPs track the key dates?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Delhi levies no profession tax, so there is no PTRC or PTEC to file. We still build GST returns, TDS, PF, and ESI dates into the SOP calendar and the close checklist, each with a checker review before filing. That cuts missed Delhi deadlines and leaves a clean trail for the Delhi GST authorities and RoC Delhi."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/sop-drafting-and-implementation/delhi#service",
-      "name": "SOP Drafting and Implementation in Delhi",
-      "description": "Finance and accounting SOP drafting and implementation in Delhi. Patron Accounting documents procure-to-pay, order-to-cash, payroll, and month-end close processes with maker-checker controls, approval matrices, internal financial controls, and segregation of duties for growing Nehru Place, Okhla, Karol Bagh, and Connaught Place SMEs.",
-      "serviceType": "Finance SOP Drafting and Internal Financial Controls Implementation",
-      "url": "https://www.patronaccounting.com/sop-drafting-and-implementation/delhi",
-      "areaServed": {
-        "@type": "City",
-        "name": "Delhi",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Delhi"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#localbusiness-delhi"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Standard operating procedure",
-          "sameAs": "https://en.wikipedia.org/wiki/Standard_operating_procedure"
-        },
-        {
-          "@type": "Thing",
-          "name": "Internal control",
-          "sameAs": "https://en.wikipedia.org/wiki/Internal_control"
-        },
-        {
-          "@type": "Thing",
-          "name": "Separation of duties",
-          "sameAs": "https://en.wikipedia.org/wiki/Separation_of_duties"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Finance SOP Plans in Delhi",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "price": "24999",
-            "priceSpecification": {
-              "@type": "UnitPriceSpecification",
-              "priceCurrency": "INR",
-              "price": "24999",
-              "unitText": "one-time"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Finance SOP Drafting and Implementation"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness-delhi",
-      "name": "Patron Accounting LLP - Delhi",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/sop-drafting-and-implementation/delhi",
-      "telephone": "+91-969-993-6369",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Delhi"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Delhi",
-        "addressRegion": "Delhi",
-        "postalCode": "110085",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -820,7 +612,222 @@
         .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
 
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>SOP Drafting in Delhi 2026 | Patron Accounting</title>
+    <meta name="description" content="Cut password sharing and untracked cash. CA-built finance SOPs, approval grids, and IFC for Nehru Place and Karol Bagh firms. From INR 24,999 one-time.">
+    <link rel="canonical" href="/sop-drafting-and-implementation/delhi">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="SOP Drafting in Delhi 2026 | Patron Accounting">
+    <meta property="og:description" content="Cut password sharing and untracked cash. CA-built finance SOPs, approval grids, and IFC for Nehru Place and Karol Bagh firms. From INR 24,999 one-time.">
+    <meta property="og:url" content="/sop-drafting-and-implementation/delhi">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="SOP Drafting in Delhi 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Cut password sharing and untracked cash. CA-built finance SOPs, approval grids, and IFC for Nehru Place and Karol Bagh firms. From INR 24,999 one-time.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/sop-drafting-and-implementation/delhi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SOP Drafting and Implementation",
+          "item": "https://www.patronaccounting.com/sop-drafting-and-implementation"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "SOP Drafting and Implementation in Delhi",
+          "item": "https://www.patronaccounting.com/sop-drafting-and-implementation/delhi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/sop-drafting-and-implementation/delhi#faq",
+      "datePublished": "2026-06-23T08:00:00+05:30",
+      "dateModified": "2026-06-23T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why should a growing Delhi business document its finance SOPs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A finance SOP sets down, in writing, how an accounting task runs, who starts it, and who signs it. For a Nehru Place software firm or an Okhla manufacturer the set locks in maker-checker review, genuine duty separation, and a repeatable close, keeping the finance function steady as staff and transaction counts grow."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the price of SOP work in Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Projects begin From INR 24,999 (one-time, Exl GST and Govt. Charges). The final figure follows the process count, the team size, the approval layers, and the platform you use. Nehru Place IT firms and Karol Bagh traders receive a fixed-scope quote before any drafting starts, so the cost is settled in advance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does maker-checker mean within an SOP?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It means the person who creates an entry, the maker, cannot also authorise or post it, that falls to the checker. We weave it into every Delhi SOP through approval grids and duty separation across custody, authorisation, recording, and reconciliation, so no single individual takes a transaction the whole way through."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do private companies in Delhi have to maintain IFC?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Section 134(5)(e) of the Companies Act 2013 obliges the board to confirm adequate internal financial controls. The auditor's reporting under Section 143(3)(i) is eased for One Person and small companies, and for private companies under INR 50 crore turnover and INR 25 crore borrowings, per MCA notification GSR 583(E)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can SOPs control cash and counter dealings for Karol Bagh traders?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, and that is a common ask in Delhi's trading markets. For Karol Bagh and Chandni Chowk firms we write counter-receipt and petty-cash SOPs with daily lodgement, custody limits, and independent reconciliation. We also document purchase-to-payment, sales and collection, payroll, GST reconciliation, and the close, each with controls and approval limits."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How quickly can an SOP project finish in Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Writing the core set usually takes 2 to 4 weeks, then go-live and coaching add another 2 to 6. A multi-entity Okhla manufacturer with layered approvals sits at the longer end, while a single-entity Nehru Place IT firm wraps up sooner. The process count and the software in use both shift the timing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What usually stops an SOP from working in practice?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Shared passwords, more often than not. When logins are swapped, system controls are bypassed and one person quietly fills both maker and checker roles, undoing duty separation. We shut this down with individual credentials, an enforced approval grid, and a strict no-sharing rule set during go-live and coaching."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Delhi have profession tax, and do SOPs track the key dates?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Delhi levies no profession tax, so there is no PTRC or PTEC to file. We still build GST returns, TDS, PF, and ESI dates into the SOP calendar and the close checklist, each with a checker review before filing. That cuts missed Delhi deadlines and leaves a clean trail for the Delhi GST authorities and RoC Delhi."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/sop-drafting-and-implementation/delhi#service",
+      "name": "SOP Drafting and Implementation in Delhi",
+      "description": "Finance and accounting SOP drafting and implementation in Delhi. Patron Accounting documents procure-to-pay, order-to-cash, payroll, and month-end close processes with maker-checker controls, approval matrices, internal financial controls, and segregation of duties for growing Nehru Place, Okhla, Karol Bagh, and Connaught Place SMEs.",
+      "serviceType": "Finance SOP Drafting and Internal Financial Controls Implementation",
+      "url": "https://www.patronaccounting.com/sop-drafting-and-implementation/delhi",
+      "areaServed": {
+        "@type": "City",
+        "name": "Delhi",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Delhi"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#localbusiness-delhi"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Standard operating procedure",
+          "sameAs": "https://en.wikipedia.org/wiki/Standard_operating_procedure"
+        },
+        {
+          "@type": "Thing",
+          "name": "Internal control",
+          "sameAs": "https://en.wikipedia.org/wiki/Internal_control"
+        },
+        {
+          "@type": "Thing",
+          "name": "Separation of duties",
+          "sameAs": "https://en.wikipedia.org/wiki/Separation_of_duties"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Finance SOP Plans in Delhi",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "price": "24999",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "INR",
+              "price": "24999",
+              "unitText": "one-time"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Finance SOP Drafting and Implementation"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness-delhi",
+      "name": "Patron Accounting LLP - Delhi",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/sop-drafting-and-implementation/delhi",
+      "telephone": "+91-969-993-6369",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Delhi"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Delhi",
+        "addressRegion": "Delhi",
+        "postalCode": "110085",
+        "addressCountry": "IN"
+      },
+      "parentOrganization": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1571,7 +1578,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

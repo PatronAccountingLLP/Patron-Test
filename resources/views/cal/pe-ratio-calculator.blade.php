@@ -1,196 +1,8 @@
 @extends('layouts.app')
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
-@section('meta')
-    <title>P/E Ratio Calculator | Trailing, Forward P/E & PEG</title>
-    <meta name="description" content="Free P/E ratio calculator: compute trailing and forward P/E, PEG ratio and earnings yield against sector benchmarks. CA-reviewed tool. Calculate free!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/pe-ratio-calculator">
-    <meta property="og:title" content="P/E Ratio Calculator — Trailing + Forward + PEG 2026">
-    <meta property="og:description" content="Compute P/E ratio, forward P/E, PEG ratio and earnings yield with industry benchmarks. Free CA-reviewed tool.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/pe-ratio-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="P/E Ratio Calculator — Trailing + Forward + PEG 2026">
-    <meta name="twitter:description" content="P/E + Forward P/E + PEG + Earnings Yield with sector benchmarks. Free CA tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-    <meta name="theme-color" content="#15365f">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "P/E Ratio Calculator",
-      "description": "Price-to-Earnings (P/E) Ratio Calculator computes the trailing P/E ratio, forward P/E ratio, PEG ratio (P/E divided by earnings growth rate), and earnings yield (inverse of P/E) for Indian listed companies and unlisted firms with comparable company analysis. The tool supports two input modes — Per-Share mode using Market Price and EPS, or Aggregate mode using Market Capitalization and Net Income. Output includes valuation verdict (Undervalued, Fair Value, or Overvalued) versus industry benchmarks for IT, FMCG, Pharma, Private Banks, PSU Banks, Manufacturing, Auto, Real Estate, Energy, and Telecom; PEG ratio interpretation (under 1.0 undervalued relative to growth, 1.0-2.0 fair, above 2.0 overvalued); and earnings yield comparison with risk-free rates and bond yields. Suitable for equity research analysts, IPO valuation under SEBI Listing Regulations, comparable company analysis in M&A, retail investor screening, and CA-CFA student learning fundamental valuation. Aligned with Indian sector norms and SEBI disclosure requirements for IPO red herring prospectuses.",
-      "url": "https://www.patronaccounting.com/tools/pe-ratio-calculator",
-      "applicationCategory": "FinanceApplication",
-      "operatingSystem": "Any",
-      "datePublished": "2026-05-07T08:00:00+05:30",
-      "dateModified": "2026-05-19T08:00:00+05:30",
-      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
-      "author": {
-        "@type": "Person",
-        "@id": "https://patronaccounting.com/#founder",
-        "name": "CA Sundram Gupta",
-        "jobTitle": "Founder & Chartered Accountant",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Institute of Chartered Accountants of India",
-            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-          }
-        }]
-      },
-      "publisher": { "@id": "https://patronaccounting.com/#organization" },
-      "provider": { "@id": "https://patronaccounting.com/#organization" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "P/E Ratio Calculator", "item": "https://www.patronaccounting.com/tools/pe-ratio-calculator"}
-      ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "datePublished": "2026-05-07T08:00:00+05:30",
-      "dateModified": "2026-05-19T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is the P/E ratio?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The Price-to-Earnings (P/E) ratio is the most widely used equity valuation metric. It is calculated as Market Price per Share divided by Earnings per Share (EPS), or equivalently Market Capitalization divided by Net Income. P/E represents the rupees an investor is willing to pay for each rupee of annual earnings. A P/E of 25x means investors pay ₹25 today for every ₹1 of current annual earnings. P/E is the standard valuation benchmark for listed companies, IPOs, and comparable company analysis."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is a good P/E ratio?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "There is no universal good P/E — interpretation depends on industry, growth rate and market conditions. Nifty 50 historically averages 18-25x. High-growth sectors (IT, FMCG, Pharma) trade at 25-50x. Mature sectors (PSU banks, energy, manufacturing) trade at 8-18x. A company with P/E significantly below industry peers may be undervalued or facing fundamental issues. Compare P/E against the company's historical range, industry peers, and growth prospects rather than absolute thresholds."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between trailing and forward P/E?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Trailing P/E uses actual reported earnings of the last 12 months (TTM) — current price divided by historical EPS. Forward P/E uses analyst estimates of next 12 months earnings — current price divided by estimated future EPS. Forward P/E is typically lower than trailing P/E for growing companies (since estimated earnings exceed historical). Trailing is more reliable as it uses audited numbers; forward is more relevant for valuation decisions. Quality investors examine both for trend analysis."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the PEG ratio?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "PEG Ratio = P/E Ratio ÷ Earnings Growth Rate (in percent). It adjusts P/E for growth — a high P/E is justified if earnings are growing fast. PEG below 1.0 suggests undervaluation relative to growth; 1.0-2.0 fair value; above 2.0 overvalued. Popularised by Peter Lynch, PEG is particularly useful for high-growth stocks where standalone P/E looks expensive. A company at 30x P/E with 25% growth has PEG 1.2 (fair); same P/E with 5% growth has PEG 6 (very expensive)."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is earnings yield?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Earnings Yield is the inverse of P/E ratio, expressed as a percentage. Earnings Yield = EPS ÷ Price = 1 ÷ P/E. A P/E of 25x equals an earnings yield of 4%. Earnings yield enables direct comparison with bond yields — when 10-year G-Sec yield is 7% and a stock's earnings yield is only 3%, the stock may be expensive relative to risk-free alternatives. The Fed Model uses earnings yield versus bond yield to assess overall market valuation."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is P/E for negative earnings companies?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "P/E ratio is mathematically meaningless for companies with negative earnings (losses). The result would be negative or undefined. For loss-making companies, alternative valuation metrics are used: Price-to-Sales (P/S), Price-to-Book (P/B), Enterprise Value to EBITDA (EV/EBITDA), or Discounted Cash Flow (DCF). Many tech startups and turnaround companies report negative earnings but trade at high valuations — these require forward-looking metrics rather than historical P/E."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are typical P/E benchmarks by Indian industry?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "IT and software 25-35x, FMCG 35-50x, Pharma 25-35x, Private banks 15-25x, PSU banks 6-12x, Manufacturing 18-25x, Auto 15-25x, Real Estate 18-30x, Energy and Power 8-15x, Telecom 18-30x. These are approximate ranges based on sector medians; individual companies may trade at substantial premiums (high growth) or discounts (governance concerns). Always compare against listed peers in the same sector with similar growth and risk profiles for meaningful insight."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why are P/E ratios different for banks versus other sectors?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Banks trade at lower P/E ratios than non-financial companies for several reasons: leverage-driven business model carries higher risk, regulatory capital requirements limit growth, asset quality is opaque (NPA hidden until recognised), credit cycles create earnings volatility, and government ownership (in PSU banks) creates governance discounts. Private banks typically trade at 15-25x; PSU banks at 6-12x. Bank valuation often uses Price-to-Book Value (P/B) alongside P/E given the importance of equity book value in Basel III framework."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does growth affect P/E ratio interpretation?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Higher earnings growth justifies higher P/E ratios. The Gordon Growth Model relationship: Justified P/E = Payout Ratio × (1 + g) ÷ (r − g), where g is growth rate and r is required return. A 5% growth company with 10% required return justifies P/E around 17x. A 15% growth company justifies P/E around 35x at the same payout. PEG ratio (P/E ÷ growth) is the practical shortcut — PEG of 1.0 typically signals fair value across growth profiles."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are the limitations of P/E ratio?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "P/E has several limitations: it relies on accounting earnings vulnerable to manipulation; ignores capital structure (highly leveraged firms inflate EPS); does not capture growth, risk, or quality differences; produces meaningless results for negative earnings; and uses point-in-time data subject to cyclical noise. P/E should be used alongside PEG (growth adjustment), EV/EBITDA (capital structure neutral), Price-to-Book (asset basis), Free Cash Flow yield, and qualitative business analysis for complete valuation."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does corporate tax regime affect P/E?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Tax regime changes directly affect EPS and therefore P/E. India's Section 115BAA new regime (22% base, ~25.17% effective) reduces tax burden for opted companies versus old regime (30% base, ~33% effective). The 2019 corporate tax cut led to immediate EPS increases and P/E re-rating across sectors. Section 115BAB manufacturers (15% base, ~17.16% effective) enjoy further benefits. When comparing P/E across years or companies on different tax regimes, examine pre-tax earnings (P/E based on EBT) for cleaner comparison."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is P/E used in IPO valuation?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "SEBI Listing Regulations require IPO red herring prospectus to disclose company P/E versus listed peer companies in the comparable industry. The book-building process uses peer P/E as a benchmark — IPO pricing typically targets 5-15% discount to listed peer median P/E to attract investors. Highly anticipated IPOs may price at premium to peers. Pre-IPO investors and merchant bankers use P/E-based valuation alongside DCF and EV/EBITDA. Post-listing, the P/E typically converges to peer average within 12-18 months."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between adjusted and reported P/E?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Reported P/E uses statutory net income from financial statements per Schedule III. Adjusted P/E excludes one-time items: exceptional gains or losses, impairment charges, restructuring costs, gains on asset sales, and tax windfalls. Adjusted earnings provide a cleaner picture of recurring profitability for valuation. SEBI requires reconciliation between reported and adjusted figures in earnings releases. For comparable company analysis and forward valuation, adjusted P/E is generally preferred as it normalises for non-recurring items."
-          }
-        }
-      ]
-    }
-    </script>
-@endsection
-
 <style>
         :root {
             --primary: #15365f;
@@ -439,7 +251,195 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 }
 
 </style>
+@endpush
 
+@section('meta')
+    <title>P/E Ratio Calculator | Trailing, Forward P/E & PEG</title>
+    <meta name="description" content="Free P/E ratio calculator: compute trailing and forward P/E, PEG ratio and earnings yield against sector benchmarks. CA-reviewed tool. Calculate free!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/pe-ratio-calculator">
+    <meta property="og:title" content="P/E Ratio Calculator — Trailing + Forward + PEG 2026">
+    <meta property="og:description" content="Compute P/E ratio, forward P/E, PEG ratio and earnings yield with industry benchmarks. Free CA-reviewed tool.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/pe-ratio-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="P/E Ratio Calculator — Trailing + Forward + PEG 2026">
+    <meta name="twitter:description" content="P/E + Forward P/E + PEG + Earnings Yield with sector benchmarks. Free CA tool.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+    <meta name="theme-color" content="#15365f">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "P/E Ratio Calculator",
+      "description": "Price-to-Earnings (P/E) Ratio Calculator computes the trailing P/E ratio, forward P/E ratio, PEG ratio (P/E divided by earnings growth rate), and earnings yield (inverse of P/E) for Indian listed companies and unlisted firms with comparable company analysis. The tool supports two input modes — Per-Share mode using Market Price and EPS, or Aggregate mode using Market Capitalization and Net Income. Output includes valuation verdict (Undervalued, Fair Value, or Overvalued) versus industry benchmarks for IT, FMCG, Pharma, Private Banks, PSU Banks, Manufacturing, Auto, Real Estate, Energy, and Telecom; PEG ratio interpretation (under 1.0 undervalued relative to growth, 1.0-2.0 fair, above 2.0 overvalued); and earnings yield comparison with risk-free rates and bond yields. Suitable for equity research analysts, IPO valuation under SEBI Listing Regulations, comparable company analysis in M&A, retail investor screening, and CA-CFA student learning fundamental valuation. Aligned with Indian sector norms and SEBI disclosure requirements for IPO red herring prospectuses.",
+      "url": "https://www.patronaccounting.com/tools/pe-ratio-calculator",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Any",
+      "datePublished": "2026-05-07T08:00:00+05:30",
+      "dateModified": "2026-05-19T08:00:00+05:30",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
+      "author": {
+        "@type": "Person",
+        "@id": "https://patronaccounting.com/#founder",
+        "name": "CA Sundram Gupta",
+        "jobTitle": "Founder & Chartered Accountant",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Institute of Chartered Accountants of India",
+            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+          }
+        }]
+      },
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": { "@id": "https://patronaccounting.com/#organization" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "P/E Ratio Calculator", "item": "https://www.patronaccounting.com/tools/pe-ratio-calculator"}
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "datePublished": "2026-05-07T08:00:00+05:30",
+      "dateModified": "2026-05-19T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the P/E ratio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Price-to-Earnings (P/E) ratio is the most widely used equity valuation metric. It is calculated as Market Price per Share divided by Earnings per Share (EPS), or equivalently Market Capitalization divided by Net Income. P/E represents the rupees an investor is willing to pay for each rupee of annual earnings. A P/E of 25x means investors pay ₹25 today for every ₹1 of current annual earnings. P/E is the standard valuation benchmark for listed companies, IPOs, and comparable company analysis."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a good P/E ratio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There is no universal good P/E — interpretation depends on industry, growth rate and market conditions. Nifty 50 historically averages 18-25x. High-growth sectors (IT, FMCG, Pharma) trade at 25-50x. Mature sectors (PSU banks, energy, manufacturing) trade at 8-18x. A company with P/E significantly below industry peers may be undervalued or facing fundamental issues. Compare P/E against the company's historical range, industry peers, and growth prospects rather than absolute thresholds."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between trailing and forward P/E?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Trailing P/E uses actual reported earnings of the last 12 months (TTM) — current price divided by historical EPS. Forward P/E uses analyst estimates of next 12 months earnings — current price divided by estimated future EPS. Forward P/E is typically lower than trailing P/E for growing companies (since estimated earnings exceed historical). Trailing is more reliable as it uses audited numbers; forward is more relevant for valuation decisions. Quality investors examine both for trend analysis."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the PEG ratio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PEG Ratio = P/E Ratio ÷ Earnings Growth Rate (in percent). It adjusts P/E for growth — a high P/E is justified if earnings are growing fast. PEG below 1.0 suggests undervaluation relative to growth; 1.0-2.0 fair value; above 2.0 overvalued. Popularised by Peter Lynch, PEG is particularly useful for high-growth stocks where standalone P/E looks expensive. A company at 30x P/E with 25% growth has PEG 1.2 (fair); same P/E with 5% growth has PEG 6 (very expensive)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is earnings yield?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Earnings Yield is the inverse of P/E ratio, expressed as a percentage. Earnings Yield = EPS ÷ Price = 1 ÷ P/E. A P/E of 25x equals an earnings yield of 4%. Earnings yield enables direct comparison with bond yields — when 10-year G-Sec yield is 7% and a stock's earnings yield is only 3%, the stock may be expensive relative to risk-free alternatives. The Fed Model uses earnings yield versus bond yield to assess overall market valuation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is P/E for negative earnings companies?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "P/E ratio is mathematically meaningless for companies with negative earnings (losses). The result would be negative or undefined. For loss-making companies, alternative valuation metrics are used: Price-to-Sales (P/S), Price-to-Book (P/B), Enterprise Value to EBITDA (EV/EBITDA), or Discounted Cash Flow (DCF). Many tech startups and turnaround companies report negative earnings but trade at high valuations — these require forward-looking metrics rather than historical P/E."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are typical P/E benchmarks by Indian industry?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "IT and software 25-35x, FMCG 35-50x, Pharma 25-35x, Private banks 15-25x, PSU banks 6-12x, Manufacturing 18-25x, Auto 15-25x, Real Estate 18-30x, Energy and Power 8-15x, Telecom 18-30x. These are approximate ranges based on sector medians; individual companies may trade at substantial premiums (high growth) or discounts (governance concerns). Always compare against listed peers in the same sector with similar growth and risk profiles for meaningful insight."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why are P/E ratios different for banks versus other sectors?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Banks trade at lower P/E ratios than non-financial companies for several reasons: leverage-driven business model carries higher risk, regulatory capital requirements limit growth, asset quality is opaque (NPA hidden until recognised), credit cycles create earnings volatility, and government ownership (in PSU banks) creates governance discounts. Private banks typically trade at 15-25x; PSU banks at 6-12x. Bank valuation often uses Price-to-Book Value (P/B) alongside P/E given the importance of equity book value in Basel III framework."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does growth affect P/E ratio interpretation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Higher earnings growth justifies higher P/E ratios. The Gordon Growth Model relationship: Justified P/E = Payout Ratio × (1 + g) ÷ (r − g), where g is growth rate and r is required return. A 5% growth company with 10% required return justifies P/E around 17x. A 15% growth company justifies P/E around 35x at the same payout. PEG ratio (P/E ÷ growth) is the practical shortcut — PEG of 1.0 typically signals fair value across growth profiles."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the limitations of P/E ratio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "P/E has several limitations: it relies on accounting earnings vulnerable to manipulation; ignores capital structure (highly leveraged firms inflate EPS); does not capture growth, risk, or quality differences; produces meaningless results for negative earnings; and uses point-in-time data subject to cyclical noise. P/E should be used alongside PEG (growth adjustment), EV/EBITDA (capital structure neutral), Price-to-Book (asset basis), Free Cash Flow yield, and qualitative business analysis for complete valuation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does corporate tax regime affect P/E?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tax regime changes directly affect EPS and therefore P/E. India's Section 115BAA new regime (22% base, ~25.17% effective) reduces tax burden for opted companies versus old regime (30% base, ~33% effective). The 2019 corporate tax cut led to immediate EPS increases and P/E re-rating across sectors. Section 115BAB manufacturers (15% base, ~17.16% effective) enjoy further benefits. When comparing P/E across years or companies on different tax regimes, examine pre-tax earnings (P/E based on EBT) for cleaner comparison."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is P/E used in IPO valuation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SEBI Listing Regulations require IPO red herring prospectus to disclose company P/E versus listed peer companies in the comparable industry. The book-building process uses peer P/E as a benchmark — IPO pricing typically targets 5-15% discount to listed peer median P/E to attract investors. Highly anticipated IPOs may price at premium to peers. Pre-IPO investors and merchant bankers use P/E-based valuation alongside DCF and EV/EBITDA. Post-listing, the P/E typically converges to peer average within 12-18 months."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between adjusted and reported P/E?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reported P/E uses statutory net income from financial statements per Schedule III. Adjusted P/E excludes one-time items: exceptional gains or losses, impairment charges, restructuring costs, gains on asset sales, and tax windfalls. Adjusted earnings provide a cleaner picture of recurring profitability for valuation. SEBI requires reconciliation between reported and adjusted figures in earnings releases. For comparable company analysis and forward valuation, adjusted P/E is generally preferred as it normalises for non-recurring items."
+          }
+        }
+      ]
+    }
+    </script>
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Tool navigation">
     <div class="toc-nav-inner">

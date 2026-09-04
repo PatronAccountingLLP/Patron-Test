@@ -1,204 +1,8 @@
 @extends('layouts.app')
-@section('meta')
-
-<title>IFC Readiness Check | Section 143(3)(i) ICFR Audit</title>
-<meta name="description" content="IFC framework readiness tool checks whether Section 143(3)(i) ICFR auditor reporting applies and scores your internal financial control readiness. Check now!">
-<meta name="robots" content="index, follow">
-<link rel="canonical" href="https://www.patronaccounting.com/tools/ifc-framework-readiness">
-
-<meta property="og:title" content="IFC Framework Readiness Tool — Free ICFR Audit Check">
-<meta property="og:description" content="Check whether IFC/ICFR auditor reporting under Section 143(3)(i) applies to your company and score internal financial control readiness. Free, instant, India-specific.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.patronaccounting.com/tools/ifc-framework-readiness">
-<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="1200">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-<meta property="og:site_name" content="Patron Accounting LLP">
-<meta property="og:locale" content="en_IN">
-<meta name="theme-color" content="#15365f">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="IFC Framework Readiness Tool — Free ICFR Audit Check">
-<meta name="twitter:description" content="Check whether IFC/ICFR auditor reporting under Section 143(3)(i) applies and score internal financial control readiness.">
-<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-
-<link rel="icon" href="https://www.patronaccounting.com/favicon.ico">
-<link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-
-@endsection
-@section('schema')
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "IFC Framework Readiness Tool",
-  "description": "The IFC Framework Readiness Tool determines whether auditor reporting on internal financial controls over financial reporting under Section 143(3)(i) of the Companies Act 2013 applies to a company, applying the MCA 2017 private company exemption test for OPC, small company, turnover, borrowings and Section 137/92 default, and scores readiness across core ICFR framework components.",
-  "url": "https://www.patronaccounting.com/tools/ifc-framework-readiness",
-  "applicationCategory": "BusinessApplication",
-  "operatingSystem": "Any",
-  "inLanguage": "en-IN",
-  "isAccessibleForFree": true,
-  "datePublished": "2026-05-16T08:00:00+05:30",
-  "dateModified": "2026-05-16T08:00:00+05:30",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "INR"
-  },
-  "reviewedBy": {
-    "@type": "Person",
-    "@id": "https://patronaccounting.com/#founder",
-    "name": "CA Sundram Gupta",
-    "jobTitle": "Founder & Chartered Accountant",
-    "url": "https://www.patronaccounting.com/contact-page",
-    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-    "hasCredential": [{
-      "@type": "EducationalOccupationalCredential",
-      "credentialCategory": "Professional Certification",
-      "name": "Chartered Accountant (CA)",
-      "recognizedBy": {
-        "@type": "Organization",
-        "name": "Institute of Chartered Accountants of India",
-        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-      }
-    }]
-  },
-  "publisher": { "@id": "https://patronaccounting.com/#organization" },
-  "provider": { "@id": "https://patronaccounting.com/#organization" }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-    {"@type": "ListItem", "position": 3, "name": "IFC Framework Readiness Tool", "item": "https://www.patronaccounting.com/tools/ifc-framework-readiness"}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the IFC Framework Readiness Tool?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "It is a free tool that first determines whether auditor reporting on internal financial controls over financial reporting under Section 143(3)(i) applies to your company, by running the MCA 2017 private company exemption test, and then scores how ready your ICFR framework is across core control components. It produces an applicability verdict and a readiness percentage."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the difference between IFC and ICFR?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Internal Financial Controls is the broad term under Section 134(5)(e) covering operational, compliance and reporting controls. Internal Controls over Financial Reporting is the narrower subset focused on the reliability of financial statements. The ICAI Guidance Note clarifies that the Section 143(3)(i) auditor reporting requirement relates specifically to ICFR, not the wider IFC concept."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which section governs IFC auditor reporting?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Section 143(3)(i) of the Companies Act 2013 requires the statutory auditor to state whether the company has an adequate internal financial controls system over financial reporting and whether such controls operated effectively. Separately, Section 134(5)(e) places the responsibility to establish and maintain those controls on the board of directors."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which companies are exempt from IFC auditor reporting?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Per MCA notification dated 13 June 2017, a private company is exempt from Section 143(3)(i) auditor IFC reporting if it is a One Person Company or small company, or has turnover below 50 crore as per the latest audited financials and aggregate borrowings below 25 crore at any time during the year. The exemption is lost if the company defaulted in filing under Section 137 or 92."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the turnover and borrowing test AND or OR?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MCA Notification 2218(E) dated 13 July 2017 clarified that the words are to be read as turnover below 50 crore AND borrowings below 25 crore. So a private company that is not an OPC or small company must satisfy both the turnover and the borrowings condition to be exempt from auditor IFC reporting. Breaching either one means Section 143(3)(i) reporting applies."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does the IFC exemption remove director responsibility?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. The exemption only relieves the auditor from reporting under Section 143(3)(i). The board's responsibility under Section 134(5)(e) to lay down adequate internal financial controls and confirm they operated effectively is absolute and applies to every company regardless of size or audit exemption status. Directors remain accountable even when the auditor does not report."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does IFC apply to private limited companies?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Director responsibility for internal financial controls applies to all private companies. Auditor IFC reporting under Section 143(3)(i) applies to a private company unless it qualifies for the MCA 2017 exemption as an OPC or small company, or has turnover below 50 crore and borrowings below 25 crore with no Section 137 or 92 filing default."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does a Section 137 or 92 default affect the exemption?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The MCA exemption from auditor IFC reporting is available only if the private company has not committed a default in filing its financial statements under Section 137 or its annual return under Section 92 with the Registrar. If such a default exists, the exemption is unavailable and the auditor must report on ICFR even if the turnover and borrowing thresholds are met."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What does an ICFR audit involve?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "An ICFR audit objectively examines whether controls over financial reporting are well designed and operated effectively throughout the year. Auditors follow standards such as SA 315 and SA 330, perform process walkthroughs, build a Risk Control Matrix, and test sample transactions. The objective is to identify deficiencies that could cause a material misstatement of the financial statements."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do listed and public companies always have IFC reporting?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. The MCA private company exemption does not extend to listed companies or public companies. Auditors of listed and public companies must report on the adequacy and operating effectiveness of internal financial controls over financial reporting under Section 143(3)(i), and the board must also report on adequacy under the Companies (Accounts) Rules 2014."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does this tool give a binding IFC opinion?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. The tool gives an indicative applicability verdict and a readiness score for planning only. The binding determination of Section 143(3)(i) applicability and the ICFR audit opinion rest with the statutory auditor, based on the company's actual facts, group structure, filing history and the rules for the specific financial year. Confirm with a Chartered Accountant."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does the tool store my company data?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. The IFC Framework Readiness Tool runs entirely in your browser. The company type, threshold figures and control answers you enter are never transmitted to any server or stored anywhere. Refreshing the page clears all inputs, so you can assess applicability and readiness confidentially before engaging an auditor or consultant."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the IFC Framework Readiness Tool free?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, it is completely free with no sign-up or usage limit. Patron Accounting LLP provides it as a planning aid for directors, finance teams and auditors preparing for ICFR. For a full ICFR design and operating effectiveness review with a Risk Control Matrix, our Chartered Accountants conduct statutory and internal audits across India."
-      }
-    }
-  ]
-}
-</script>
-@endsection
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
 <style>
 
         :root {
@@ -1283,7 +1087,204 @@ a:focus-visible {
 }
 
 </style>
+@endpush
 
+@section('meta')
+
+<title>IFC Readiness Check | Section 143(3)(i) ICFR Audit</title>
+<meta name="description" content="IFC framework readiness tool checks whether Section 143(3)(i) ICFR auditor reporting applies and scores your internal financial control readiness. Check now!">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.patronaccounting.com/tools/ifc-framework-readiness">
+
+<meta property="og:title" content="IFC Framework Readiness Tool — Free ICFR Audit Check">
+<meta property="og:description" content="Check whether IFC/ICFR auditor reporting under Section 143(3)(i) applies to your company and score internal financial control readiness. Free, instant, India-specific.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.patronaccounting.com/tools/ifc-framework-readiness">
+<meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+<meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+<meta property="og:site_name" content="Patron Accounting LLP">
+<meta property="og:locale" content="en_IN">
+<meta name="theme-color" content="#15365f">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="IFC Framework Readiness Tool — Free ICFR Audit Check">
+<meta name="twitter:description" content="Check whether IFC/ICFR auditor reporting under Section 143(3)(i) applies and score internal financial control readiness.">
+<meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<link rel="icon" href="https://www.patronaccounting.com/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+
+@endsection
+@section('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "IFC Framework Readiness Tool",
+  "description": "The IFC Framework Readiness Tool determines whether auditor reporting on internal financial controls over financial reporting under Section 143(3)(i) of the Companies Act 2013 applies to a company, applying the MCA 2017 private company exemption test for OPC, small company, turnover, borrowings and Section 137/92 default, and scores readiness across core ICFR framework components.",
+  "url": "https://www.patronaccounting.com/tools/ifc-framework-readiness",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Any",
+  "inLanguage": "en-IN",
+  "isAccessibleForFree": true,
+  "datePublished": "2026-05-16T08:00:00+05:30",
+  "dateModified": "2026-05-16T08:00:00+05:30",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "INR"
+  },
+  "reviewedBy": {
+    "@type": "Person",
+    "@id": "https://patronaccounting.com/#founder",
+    "name": "CA Sundram Gupta",
+    "jobTitle": "Founder & Chartered Accountant",
+    "url": "https://www.patronaccounting.com/contact-page",
+    "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+    "hasCredential": [{
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Professional Certification",
+      "name": "Chartered Accountant (CA)",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Institute of Chartered Accountants of India",
+        "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+      }
+    }]
+  },
+  "publisher": { "@id": "https://patronaccounting.com/#organization" },
+  "provider": { "@id": "https://patronaccounting.com/#organization" }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "IFC Framework Readiness Tool", "item": "https://www.patronaccounting.com/tools/ifc-framework-readiness"}
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the IFC Framework Readiness Tool?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It is a free tool that first determines whether auditor reporting on internal financial controls over financial reporting under Section 143(3)(i) applies to your company, by running the MCA 2017 private company exemption test, and then scores how ready your ICFR framework is across core control components. It produces an applicability verdict and a readiness percentage."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between IFC and ICFR?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Internal Financial Controls is the broad term under Section 134(5)(e) covering operational, compliance and reporting controls. Internal Controls over Financial Reporting is the narrower subset focused on the reliability of financial statements. The ICAI Guidance Note clarifies that the Section 143(3)(i) auditor reporting requirement relates specifically to ICFR, not the wider IFC concept."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which section governs IFC auditor reporting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Section 143(3)(i) of the Companies Act 2013 requires the statutory auditor to state whether the company has an adequate internal financial controls system over financial reporting and whether such controls operated effectively. Separately, Section 134(5)(e) places the responsibility to establish and maintain those controls on the board of directors."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which companies are exempt from IFC auditor reporting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Per MCA notification dated 13 June 2017, a private company is exempt from Section 143(3)(i) auditor IFC reporting if it is a One Person Company or small company, or has turnover below 50 crore as per the latest audited financials and aggregate borrowings below 25 crore at any time during the year. The exemption is lost if the company defaulted in filing under Section 137 or 92."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the turnover and borrowing test AND or OR?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MCA Notification 2218(E) dated 13 July 2017 clarified that the words are to be read as turnover below 50 crore AND borrowings below 25 crore. So a private company that is not an OPC or small company must satisfy both the turnover and the borrowings condition to be exempt from auditor IFC reporting. Breaching either one means Section 143(3)(i) reporting applies."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does the IFC exemption remove director responsibility?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The exemption only relieves the auditor from reporting under Section 143(3)(i). The board's responsibility under Section 134(5)(e) to lay down adequate internal financial controls and confirm they operated effectively is absolute and applies to every company regardless of size or audit exemption status. Directors remain accountable even when the auditor does not report."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does IFC apply to private limited companies?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Director responsibility for internal financial controls applies to all private companies. Auditor IFC reporting under Section 143(3)(i) applies to a private company unless it qualifies for the MCA 2017 exemption as an OPC or small company, or has turnover below 50 crore and borrowings below 25 crore with no Section 137 or 92 filing default."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does a Section 137 or 92 default affect the exemption?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The MCA exemption from auditor IFC reporting is available only if the private company has not committed a default in filing its financial statements under Section 137 or its annual return under Section 92 with the Registrar. If such a default exists, the exemption is unavailable and the auditor must report on ICFR even if the turnover and borrowing thresholds are met."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does an ICFR audit involve?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An ICFR audit objectively examines whether controls over financial reporting are well designed and operated effectively throughout the year. Auditors follow standards such as SA 315 and SA 330, perform process walkthroughs, build a Risk Control Matrix, and test sample transactions. The objective is to identify deficiencies that could cause a material misstatement of the financial statements."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do listed and public companies always have IFC reporting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The MCA private company exemption does not extend to listed companies or public companies. Auditors of listed and public companies must report on the adequacy and operating effectiveness of internal financial controls over financial reporting under Section 143(3)(i), and the board must also report on adequacy under the Companies (Accounts) Rules 2014."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does this tool give a binding IFC opinion?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The tool gives an indicative applicability verdict and a readiness score for planning only. The binding determination of Section 143(3)(i) applicability and the ICFR audit opinion rest with the statutory auditor, based on the company's actual facts, group structure, filing history and the rules for the specific financial year. Confirm with a Chartered Accountant."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does the tool store my company data?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The IFC Framework Readiness Tool runs entirely in your browser. The company type, threshold figures and control answers you enter are never transmitted to any server or stored anywhere. Refreshing the page clears all inputs, so you can assess applicability and readiness confidentially before engaging an auditor or consultant."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the IFC Framework Readiness Tool free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, it is completely free with no sign-up or usage limit. Patron Accounting LLP provides it as a planning aid for directors, finance teams and auditors preparing for ICFR. For a full ICFR design and operating effectiveness review with a Risk Control Matrix, our Chartered Accountants conduct statutory and internal audits across India."
+      }
+    }
+  ]
+}
+</script>
+@endsection
 @section('content')
 
 <nav class="toc-nav" aria-label="Page Navigation">

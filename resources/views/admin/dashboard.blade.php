@@ -189,9 +189,7 @@
         </div>
     </div>
 </div>
-@endsection
 
-@push('scripts')
 <script>
     // Add interactive hover effects to stats cards
     document.querySelectorAll('.stats-card').forEach(card => {
@@ -204,4 +202,8 @@
         });
     });
 </script>
+@endsection
+
+@push('scripts')
+
 @endpush

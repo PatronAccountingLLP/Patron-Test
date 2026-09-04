@@ -1,210 +1,8 @@
 @extends('layouts.app')
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
-@section('meta')
-    <title>Inverted Duty Refund Calculator | GST Rule 89(5)</title>
-    <meta name="description" content="Inverted duty GST refund calculator applies the Rule 89(5) formula (Notification 14/2022) for unutilised ITC refund. Net ITC + restricted HSN check. Free tool!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/inverted-duty-refund-calculator">
-    <meta property="og:title" content="Inverted Duty Refund Calculator (Rule 89(5)) — GST IDS Refund 2026">
-    <meta property="og:description" content="Compute GST inverted duty refund using the amended Rule 89(5) formula with Net ITC, Adjusted Total Turnover and the input-services proportion deduction. Restricted goods check and Statement-1A preview. Free CA tool.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/inverted-duty-refund-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Inverted Duty Refund Calculator (Rule 89(5)) — GST IDS Refund 2026">
-    <meta name="twitter:description" content="Rule 89(5) IDS formula, Net ITC, input-service deduction term, restricted HSN check, 2-year limitation, Section 56 interest. Free CA tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-    <meta name="theme-color" content="#15365f">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebApplication",
-      "name": "Inverted Duty Refund Calculator (Rule 89(5))",
-      "description": "Inverted Duty Refund Calculator computes the maximum admissible refund of unutilised Input Tax Credit accumulated on account of an Inverted Duty Structure under Section 54(3) read with clause (ii) of the proviso thereto of the Central Goods and Services Tax Act, 2017. The tool applies the formula prescribed under sub-rule (5) of Rule 89 of the Central Goods and Services Tax Rules, 2017 as amended by Notification No. 14/2022-Central Tax dated 5 July 2022 following the recommendation of the 47th Goods and Services Tax Council. The amended formula computes Maximum Refund Amount as the Turnover of inverted rated supply of goods and services multiplied by Net Input Tax Credit divided by Adjusted Total Turnover, less the Tax payable on such inverted rated supply of goods and services multiplied by the ratio of Net Input Tax Credit to Input Tax Credit availed on inputs and input services. Net Input Tax Credit means Input Tax Credit availed on inputs which are goods only and excludes Input Tax Credit on input services and capital goods following the Supreme Court decision in Union of India versus VKC Footsteps India Private Limited. The tool computes both the post-Notification 14 of 2022 formula and the pre-amendment formula and presents the comparison. The tool flags restricted goods under Notification No. 9/2022-Central Tax (Rate) dated 13 July 2022 effective 18 July 2022 covering specified goods of Chapter 15 edible oils and Chapter 27 mineral fuels coal coke and lignite, as well as restrictions under Notification No. 5/2017-Central Tax (Rate) dated 28 June 2017 as amended by Notification No. 20/2018-Central Tax (Rate) dated 26 July 2018 covering specified textile items. The tool computes the two-year limitation under Section 54(1) of the Central Goods and Services Tax Act from the relevant date which for refund of Input Tax Credit accumulated due to Inverted Duty Structure is the due date of the return for the period to which the claim relates as clarified by Notification No. 13/2022-Central Tax dated 5 July 2022. The tool also computes the sixty-day final order window under Section 54(7) and the six per cent interest entitlement under Section 56 for delayed sanction. The tool reflects recent jurisprudence including the Gujarat High Court decision in Ascent Meditech Limited and the Supreme Court order in Tirth Agro Technology Private Limited holding the amendment to Rule 89(5) to be curative and retrospective.",
-      "url": "https://www.patronaccounting.com/tools/inverted-duty-refund-calculator",
-      "applicationCategory": "FinanceApplication",
-      "operatingSystem": "Any",
-      "datePublished": "2026-05-08T08:00:00+05:30",
-      "dateModified": "2026-05-08T08:00:00+05:30",
-      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
-      "author": {
-        "@type": "Person",
-        "@id": "https://patronaccounting.com/#founder",
-        "name": "CA Sundram Gupta",
-        "jobTitle": "Founder & Chartered Accountant",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Institute of Chartered Accountants of India",
-            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-          }
-        }]
-      },
-      "publisher": { "@id": "https://patronaccounting.com/#organization" },
-      "provider": {"@id": "https://patronaccounting.com/#organization"}
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Inverted Duty Refund Calculator", "item": "https://www.patronaccounting.com/tools/inverted-duty-refund-calculator"}
-      ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is Inverted Duty Structure under GST and when does refund arise?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Inverted Duty Structure arises where the rate of GST on inputs is higher than the rate on output supplies, leading to accumulation of unutilised Input Tax Credit. Under Section 54(3) clause (ii) of the proviso, the registered person is entitled to refund of such accumulated ITC, subject to the formula in Rule 89(5) and exclusion of nil-rated, fully exempt and notified restricted supplies. Common sectors are textiles, footwear, fertilisers, EV batteries and pharmaceuticals."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the current Rule 89(5) formula post Notification 14/2022?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Maximum Refund Amount equals Turnover of inverted rated supply multiplied by Net ITC divided by Adjusted Total Turnover, minus Tax payable on inverted rated supply multiplied by Net ITC divided by total ITC availed on inputs and input services. The proportionate deduction term, introduced from 5 July 2022 by Notification 14/2022-Central Tax, replaces the earlier flat deduction of full output tax payable and provides a fairer outcome where input service ITC is significant."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I claim refund of ITC on input services under the inverted duty structure?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Direct refund of ITC on input services is not admissible under Rule 89(5). The Supreme Court in Union of India versus VKC Footsteps India confirmed that Net ITC for IDS refund means ITC on input goods only. However, the amended formula introduced by Notification 14/2022 indirectly accounts for input-service ITC by reducing the deduction proportionally to the share of input goods in total ITC, partially mitigating the working capital impact for service-intensive manufacturers."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which goods are restricted from inverted duty refund?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Notification 5/2017-Central Tax (Rate) (as amended by 20/2018) restricts IDS refund for specified woven fabrics, knitted fabrics and certain textile items. Notification 9/2022-Central Tax (Rate) effective 18 July 2022 inserted Chapter 15 edible oils (palm, soyabean, sunflower etc.) and Chapter 27 mineral fuels (coal, coke, lignite, briquettes) into the restricted list. Restriction applies prospectively to tax periods from 18 July 2022 only, per Gujarat HC ruling."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is the amended Rule 89(5) formula prospective or retrospective?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "CBIC Circular 181/2022 stated the amendment is prospective from 5 July 2022. However, the Gujarat High Court in Ascent Meditech Limited and Filatex India held that the amendment is curative and clarificatory in nature and applies retrospectively. The Supreme Court dismissed the Department's Special Leave Petition in Tirth Agro Technology in July 2025, allowing the favourable Gujarat view to stand. Taxpayers may rely on these rulings for past periods."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the time limit for filing inverted duty refund application?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 54(1) prescribes a two-year limitation from the relevant date. For refund of unutilised ITC under inverted duty structure, the relevant date is the due date for furnishing of the return for the tax period to which the claim relates, as clarified by Notification 13/2022-Central Tax. The period from 1 March 2020 to 28 February 2022 was excluded from limitation computation by the same notification, granting additional time for COVID-affected periods."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is Net ITC defined for the purpose of Rule 89(5)?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Net ITC means ITC availed on inputs (goods) during the relevant period. It excludes ITC on input services, ITC on capital goods, ITC reversed under Section 17(5) blocked credits and ITC reversed under Rule 42 or 43. Net ITC includes inputs whether or not directly consumed in manufacture per Circular 79/2018. For computation, Net ITC is taken from Table 4(A)(5) of GSTR-3B filed for the period less reversals in Table 4(B)."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is Adjusted Total Turnover under Rule 89(5)?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Adjusted Total Turnover means the sum of value of all taxable supplies excluding zero-rated supplies and zero-rated supplies turnover, less exempt supplies turnover other than zero-rated, during the relevant period. The definition was rationalised by Notification 14/2022 in line with the LUT formula amendment post the Supreme Court VKC Footsteps decision and Circular 197/2023, ensuring consistency between the IDS and LUT refund formulas."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What documents are required for filing RFD-01 for IDS refund?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Form GST RFD-01 must be filed with Statement-1A computing the maximum refund amount, an undertaking under Rule 89(2)(l), a declaration of non-prosecution, copies of GSTR-1 and GSTR-3B for the period, an Annexure-B with invoice-wise input details, the electronic credit ledger statement, a CA or CMA certification for refund claims exceeding two lakh rupees and evidence of inverted rate structure such as a HSN summary."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Will I get interest if my IDS refund is delayed beyond 60 days?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Section 56 of the CGST Act provides simple interest at six per cent per annum on any refund not paid within sixty days from the date of receipt of the application complete in all respects. The 60-day clock starts from the date of acknowledgement in Form GST RFD-02. If the refund is sanctioned by an appellate authority on appeal, the rate of interest increases to nine per cent per annum from the date immediately after expiry of sixty days."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can the rate inversion be due to a rate cut on the same goods?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Circular 173/05/2022-GST clarified that where the same goods attract different rates of tax at different points in time due to a rate reduction, the resulting accumulated ITC is not refundable as inverted duty structure refund. However, where the rate inversion arises from a concessional rate notification that prescribes a lower output rate compared to inputs at the same point, the refund is admissible. The Telangana High Court in Micro Systems upheld this position."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I claim provisional refund of 90 per cent for inverted duty refund?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. The provisional refund of ninety per cent under Section 54(6) read with Rule 91 is available only in respect of refund claims arising from zero-rated supplies under Section 54(6) made by registered persons whose returns and compliance are in order. Refund of accumulated ITC due to inverted duty structure does not qualify for provisional refund and the entire amount is sanctioned only after detailed scrutiny by the proper officer typically within sixty days."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between the old and new Rule 89(5) formulas?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The old formula deducted the full tax payable on inverted rated supply from the formula amount, often resulting in nil or low refund where input service ITC was significant. The new formula introduced by Notification 14/2022 deducts only the proportion of tax payable that corresponds to Net ITC over total ITC including input services. This proportionate approach yields a higher refund where input services contribute substantially to ITC, restoring fairness for service-intensive manufacturers."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I file an inverted duty refund claim period by period or as an aggregate?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The refund application is filed period-wise — month-wise for monthly filers and quarter-wise for QRMP filers. Multiple consecutive periods may be clubbed in one RFD-01 if all periods relate to the same financial year and the inverted rate structure remains consistent. Each period is separately validated against the formula. The two-year limitation runs separately for each period from the GSTR-3B due date for that period."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What if my refund is rejected by the proper officer — what is the appeal process?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "If the proper officer rejects the refund through Form GST RFD-08 followed by Form GST RFD-06, the registered person may file an appeal under Section 107 before the Appellate Authority within three months of the order, extendable by one month. After 1 October 2025 the Goods and Services Tax Appellate Tribunal hears second appeals under Section 112 within three months of the appellate order with mandatory pre-deposit of ten per cent of disputed tax."
-          }
-        }
-      ]
-    }
-    </script>
-@endsection
-
 <style>
         :root {
             --primary: #15365f;
@@ -507,7 +305,209 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 }
 
 </style>
+@endpush
 
+@section('meta')
+    <title>Inverted Duty Refund Calculator | GST Rule 89(5)</title>
+    <meta name="description" content="Inverted duty GST refund calculator applies the Rule 89(5) formula (Notification 14/2022) for unutilised ITC refund. Net ITC + restricted HSN check. Free tool!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/inverted-duty-refund-calculator">
+    <meta property="og:title" content="Inverted Duty Refund Calculator (Rule 89(5)) — GST IDS Refund 2026">
+    <meta property="og:description" content="Compute GST inverted duty refund using the amended Rule 89(5) formula with Net ITC, Adjusted Total Turnover and the input-services proportion deduction. Restricted goods check and Statement-1A preview. Free CA tool.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/inverted-duty-refund-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Inverted Duty Refund Calculator (Rule 89(5)) — GST IDS Refund 2026">
+    <meta name="twitter:description" content="Rule 89(5) IDS formula, Net ITC, input-service deduction term, restricted HSN check, 2-year limitation, Section 56 interest. Free CA tool.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+    <meta name="theme-color" content="#15365f">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Inverted Duty Refund Calculator (Rule 89(5))",
+      "description": "Inverted Duty Refund Calculator computes the maximum admissible refund of unutilised Input Tax Credit accumulated on account of an Inverted Duty Structure under Section 54(3) read with clause (ii) of the proviso thereto of the Central Goods and Services Tax Act, 2017. The tool applies the formula prescribed under sub-rule (5) of Rule 89 of the Central Goods and Services Tax Rules, 2017 as amended by Notification No. 14/2022-Central Tax dated 5 July 2022 following the recommendation of the 47th Goods and Services Tax Council. The amended formula computes Maximum Refund Amount as the Turnover of inverted rated supply of goods and services multiplied by Net Input Tax Credit divided by Adjusted Total Turnover, less the Tax payable on such inverted rated supply of goods and services multiplied by the ratio of Net Input Tax Credit to Input Tax Credit availed on inputs and input services. Net Input Tax Credit means Input Tax Credit availed on inputs which are goods only and excludes Input Tax Credit on input services and capital goods following the Supreme Court decision in Union of India versus VKC Footsteps India Private Limited. The tool computes both the post-Notification 14 of 2022 formula and the pre-amendment formula and presents the comparison. The tool flags restricted goods under Notification No. 9/2022-Central Tax (Rate) dated 13 July 2022 effective 18 July 2022 covering specified goods of Chapter 15 edible oils and Chapter 27 mineral fuels coal coke and lignite, as well as restrictions under Notification No. 5/2017-Central Tax (Rate) dated 28 June 2017 as amended by Notification No. 20/2018-Central Tax (Rate) dated 26 July 2018 covering specified textile items. The tool computes the two-year limitation under Section 54(1) of the Central Goods and Services Tax Act from the relevant date which for refund of Input Tax Credit accumulated due to Inverted Duty Structure is the due date of the return for the period to which the claim relates as clarified by Notification No. 13/2022-Central Tax dated 5 July 2022. The tool also computes the sixty-day final order window under Section 54(7) and the six per cent interest entitlement under Section 56 for delayed sanction. The tool reflects recent jurisprudence including the Gujarat High Court decision in Ascent Meditech Limited and the Supreme Court order in Tirth Agro Technology Private Limited holding the amendment to Rule 89(5) to be curative and retrospective.",
+      "url": "https://www.patronaccounting.com/tools/inverted-duty-refund-calculator",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Any",
+      "datePublished": "2026-05-08T08:00:00+05:30",
+      "dateModified": "2026-05-08T08:00:00+05:30",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
+      "author": {
+        "@type": "Person",
+        "@id": "https://patronaccounting.com/#founder",
+        "name": "CA Sundram Gupta",
+        "jobTitle": "Founder & Chartered Accountant",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Institute of Chartered Accountants of India",
+            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+          }
+        }]
+      },
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": {"@id": "https://patronaccounting.com/#organization"}
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Inverted Duty Refund Calculator", "item": "https://www.patronaccounting.com/tools/inverted-duty-refund-calculator"}
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Inverted Duty Structure under GST and when does refund arise?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Inverted Duty Structure arises where the rate of GST on inputs is higher than the rate on output supplies, leading to accumulation of unutilised Input Tax Credit. Under Section 54(3) clause (ii) of the proviso, the registered person is entitled to refund of such accumulated ITC, subject to the formula in Rule 89(5) and exclusion of nil-rated, fully exempt and notified restricted supplies. Common sectors are textiles, footwear, fertilisers, EV batteries and pharmaceuticals."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the current Rule 89(5) formula post Notification 14/2022?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Maximum Refund Amount equals Turnover of inverted rated supply multiplied by Net ITC divided by Adjusted Total Turnover, minus Tax payable on inverted rated supply multiplied by Net ITC divided by total ITC availed on inputs and input services. The proportionate deduction term, introduced from 5 July 2022 by Notification 14/2022-Central Tax, replaces the earlier flat deduction of full output tax payable and provides a fairer outcome where input service ITC is significant."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I claim refund of ITC on input services under the inverted duty structure?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Direct refund of ITC on input services is not admissible under Rule 89(5). The Supreme Court in Union of India versus VKC Footsteps India confirmed that Net ITC for IDS refund means ITC on input goods only. However, the amended formula introduced by Notification 14/2022 indirectly accounts for input-service ITC by reducing the deduction proportionally to the share of input goods in total ITC, partially mitigating the working capital impact for service-intensive manufacturers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which goods are restricted from inverted duty refund?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Notification 5/2017-Central Tax (Rate) (as amended by 20/2018) restricts IDS refund for specified woven fabrics, knitted fabrics and certain textile items. Notification 9/2022-Central Tax (Rate) effective 18 July 2022 inserted Chapter 15 edible oils (palm, soyabean, sunflower etc.) and Chapter 27 mineral fuels (coal, coke, lignite, briquettes) into the restricted list. Restriction applies prospectively to tax periods from 18 July 2022 only, per Gujarat HC ruling."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the amended Rule 89(5) formula prospective or retrospective?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CBIC Circular 181/2022 stated the amendment is prospective from 5 July 2022. However, the Gujarat High Court in Ascent Meditech Limited and Filatex India held that the amendment is curative and clarificatory in nature and applies retrospectively. The Supreme Court dismissed the Department's Special Leave Petition in Tirth Agro Technology in July 2025, allowing the favourable Gujarat view to stand. Taxpayers may rely on these rulings for past periods."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the time limit for filing inverted duty refund application?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 54(1) prescribes a two-year limitation from the relevant date. For refund of unutilised ITC under inverted duty structure, the relevant date is the due date for furnishing of the return for the tax period to which the claim relates, as clarified by Notification 13/2022-Central Tax. The period from 1 March 2020 to 28 February 2022 was excluded from limitation computation by the same notification, granting additional time for COVID-affected periods."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is Net ITC defined for the purpose of Rule 89(5)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Net ITC means ITC availed on inputs (goods) during the relevant period. It excludes ITC on input services, ITC on capital goods, ITC reversed under Section 17(5) blocked credits and ITC reversed under Rule 42 or 43. Net ITC includes inputs whether or not directly consumed in manufacture per Circular 79/2018. For computation, Net ITC is taken from Table 4(A)(5) of GSTR-3B filed for the period less reversals in Table 4(B)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Adjusted Total Turnover under Rule 89(5)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Adjusted Total Turnover means the sum of value of all taxable supplies excluding zero-rated supplies and zero-rated supplies turnover, less exempt supplies turnover other than zero-rated, during the relevant period. The definition was rationalised by Notification 14/2022 in line with the LUT formula amendment post the Supreme Court VKC Footsteps decision and Circular 197/2023, ensuring consistency between the IDS and LUT refund formulas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What documents are required for filing RFD-01 for IDS refund?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Form GST RFD-01 must be filed with Statement-1A computing the maximum refund amount, an undertaking under Rule 89(2)(l), a declaration of non-prosecution, copies of GSTR-1 and GSTR-3B for the period, an Annexure-B with invoice-wise input details, the electronic credit ledger statement, a CA or CMA certification for refund claims exceeding two lakh rupees and evidence of inverted rate structure such as a HSN summary."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will I get interest if my IDS refund is delayed beyond 60 days?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Section 56 of the CGST Act provides simple interest at six per cent per annum on any refund not paid within sixty days from the date of receipt of the application complete in all respects. The 60-day clock starts from the date of acknowledgement in Form GST RFD-02. If the refund is sanctioned by an appellate authority on appeal, the rate of interest increases to nine per cent per annum from the date immediately after expiry of sixty days."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can the rate inversion be due to a rate cut on the same goods?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Circular 173/05/2022-GST clarified that where the same goods attract different rates of tax at different points in time due to a rate reduction, the resulting accumulated ITC is not refundable as inverted duty structure refund. However, where the rate inversion arises from a concessional rate notification that prescribes a lower output rate compared to inputs at the same point, the refund is admissible. The Telangana High Court in Micro Systems upheld this position."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I claim provisional refund of 90 per cent for inverted duty refund?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. The provisional refund of ninety per cent under Section 54(6) read with Rule 91 is available only in respect of refund claims arising from zero-rated supplies under Section 54(6) made by registered persons whose returns and compliance are in order. Refund of accumulated ITC due to inverted duty structure does not qualify for provisional refund and the entire amount is sanctioned only after detailed scrutiny by the proper officer typically within sixty days."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between the old and new Rule 89(5) formulas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The old formula deducted the full tax payable on inverted rated supply from the formula amount, often resulting in nil or low refund where input service ITC was significant. The new formula introduced by Notification 14/2022 deducts only the proportion of tax payable that corresponds to Net ITC over total ITC including input services. This proportionate approach yields a higher refund where input services contribute substantially to ITC, restoring fairness for service-intensive manufacturers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I file an inverted duty refund claim period by period or as an aggregate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The refund application is filed period-wise — month-wise for monthly filers and quarter-wise for QRMP filers. Multiple consecutive periods may be clubbed in one RFD-01 if all periods relate to the same financial year and the inverted rate structure remains consistent. Each period is separately validated against the formula. The two-year limitation runs separately for each period from the GSTR-3B due date for that period."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if my refund is rejected by the proper officer — what is the appeal process?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If the proper officer rejects the refund through Form GST RFD-08 followed by Form GST RFD-06, the registered person may file an appeal under Section 107 before the Appellate Authority within three months of the order, extendable by one month. After 1 October 2025 the Goods and Services Tax Appellate Tribunal hears second appeals under Section 112 within three months of the appellate order with mandatory pre-deposit of ten per cent of disputed tax."
+          }
+        }
+      ]
+    }
+    </script>
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation">
     <div class="toc-nav-inner">

@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,208 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>Tally to QuickBooks Migration Delhi 2026 | Patron Accounting</title>
-    <meta name="description" content="Move from Tally to QuickBooks Online in Delhi from INR 9,999. CA-led ledger mapping, masters, GST setup, and reconciled books for Nehru Place and Okhla firms.">
-    <link rel="canonical" href="/migration-from-tally-to-quickbooks/delhi">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Tally to QuickBooks Migration Delhi 2026 | Patron Accounting">
-    <meta property="og:description" content="Move from Tally to QuickBooks Online in Delhi from INR 9,999. CA-led ledger mapping, masters, GST setup, and reconciled books for Nehru Place and Okhla firms.">
-    <meta property="og:url" content="/migration-from-tally-to-quickbooks/delhi">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Tally to QuickBooks Migration Delhi 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Move from Tally to QuickBooks Online in Delhi from INR 9,999. CA-led ledger mapping, masters, GST setup, and reconciled books for Nehru Place and Okhla firms.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/migration-from-tally-to-quickbooks/delhi#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Tally to QuickBooks Migration",
-          "item": "https://www.patronaccounting.com/migration-from-tally-to-quickbooks"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Tally to QuickBooks Migration in Delhi",
-          "item": "https://www.patronaccounting.com/migration-from-tally-to-quickbooks/delhi"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/migration-from-tally-to-quickbooks/delhi#faq",
-      "datePublished": "2026-06-23T08:00:00+05:30",
-      "dateModified": "2026-06-23T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What does Tally to QuickBooks migration involve for a Delhi business?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "It is an orderly hand-off of your books from Tally into QuickBooks Online. For a Delhi firm we recast the chart of accounts, carry over opening balances and the customer, supplier, and item masters, rebuild the transaction history, set up GST, and reconcile the trial balance so QuickBooks reads the same as Tally before go-live."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does Tally to QuickBooks migration cost in Delhi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Fees open at Starting from INR 9,999 (Exl GST and Govt. Charges). Where they land depends on the years you move, the transaction count, how many GSTINs you hold, and whether stock masters apply. A Nehru Place IT reseller or an Okhla unit gets a fixed-scope quote before we lift a finger."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Will my GSTIN and GST data still work in QuickBooks after the move?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. We feed your GSTIN, HSN and SAC codes, and tax rates into QuickBooks Online so every invoice splits CGST, SGST, and IGST correctly under the CGST Act 2017. Migrated purchases are then matched to GSTR-2B, keeping your Delhi firm's input tax credit flowing with no break."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is there any Delhi profession tax I need to migrate?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Delhi charges no profession tax, so there is no PT registration to bring into QuickBooks. For a Delhi business the only payroll statutory settings we migrate are PF, ESI, and TDS. We configure those properly so salary, deduction, and compliance reporting carry on without a hitch after go-live."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I still run QuickBooks in India after Intuit left in 2023?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. The plans Intuit dropped in 2023 were the India-specific ones; the global QuickBooks Online edition stays live, and that is what we set up and configure for GST. For Delhi clients we suggest the right edition, and we will point you towards Zoho Books instead when it suits your firm better."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What gets carried across from Tally into QuickBooks?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We carry the chart of accounts, opening balances, your customer and supplier masters, item or stock masters, and the transaction history of invoices, bills, receipts, and payments. Outstanding AR and AP, bank balances, and GST settings come too, so your Delhi books resume from day one in QuickBooks."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do you confirm the Delhi migration is accurate?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Through a two-stage check. The QuickBooks trial balance, profit and loss, and balance sheet are first set beside the same Tally statements; then we spot-test individual ledgers and GST totals. A chartered accountant signs off only once QuickBooks matches Tally across the migrated period."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Will you train our Delhi team on QuickBooks after go-live?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Once the reconciliation is done, we hold a handover for your Delhi finance team on invoicing, GST reports, bank feeds, and month-end within QuickBooks Online. A short reference guide comes with it, and we remain on hand for support so leaving Tally feels easy and assured."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/migration-from-tally-to-quickbooks/delhi#service",
-      "name": "Tally to QuickBooks Migration in Delhi",
-      "description": "Tally to QuickBooks Online migration in Delhi covering chart of accounts mapping, opening balances, customer, vendor, and item masters, historical transactions, GST configuration, and trial balance reconciliation. Patron Accounting delivers CA-verified, audit-ready QuickBooks files for Nehru Place, Cyber City, Okhla, and Karol Bagh businesses.",
-      "serviceType": "Tally to QuickBooks Online Data Migration",
-      "url": "https://www.patronaccounting.com/migration-from-tally-to-quickbooks/delhi",
-      "areaServed": {
-        "@type": "City",
-        "name": "Delhi",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Delhi"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#localbusiness-delhi"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "QuickBooks",
-          "sameAs": "https://en.wikipedia.org/wiki/QuickBooks"
-        },
-        {
-          "@type": "Thing",
-          "name": "Goods and Services Tax (India)",
-          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Tally to QuickBooks Migration Plans in Delhi",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "price": "9999",
-            "priceSpecification": {
-              "@type": "UnitPriceSpecification",
-              "priceCurrency": "INR",
-              "price": "9999",
-              "unitText": "starting from"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Tally to QuickBooks Online Migration"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness-delhi",
-      "name": "Patron Accounting LLP - Delhi",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/migration-from-tally-to-quickbooks/delhi",
-      "telephone": "+91-9699936369",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Delhi"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Delhi",
-        "addressRegion": "Delhi",
-        "postalCode": "110085",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -815,7 +612,217 @@
         .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
 
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>Tally to QuickBooks Migration Delhi 2026 | Patron Accounting</title>
+    <meta name="description" content="Move from Tally to QuickBooks Online in Delhi from INR 9,999. CA-led ledger mapping, masters, GST setup, and reconciled books for Nehru Place and Okhla firms.">
+    <link rel="canonical" href="/migration-from-tally-to-quickbooks/delhi">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Tally to QuickBooks Migration Delhi 2026 | Patron Accounting">
+    <meta property="og:description" content="Move from Tally to QuickBooks Online in Delhi from INR 9,999. CA-led ledger mapping, masters, GST setup, and reconciled books for Nehru Place and Okhla firms.">
+    <meta property="og:url" content="/migration-from-tally-to-quickbooks/delhi">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Tally to QuickBooks Migration Delhi 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Move from Tally to QuickBooks Online in Delhi from INR 9,999. CA-led ledger mapping, masters, GST setup, and reconciled books for Nehru Place and Okhla firms.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/migration-from-tally-to-quickbooks/delhi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Tally to QuickBooks Migration",
+          "item": "https://www.patronaccounting.com/migration-from-tally-to-quickbooks"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Tally to QuickBooks Migration in Delhi",
+          "item": "https://www.patronaccounting.com/migration-from-tally-to-quickbooks/delhi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/migration-from-tally-to-quickbooks/delhi#faq",
+      "datePublished": "2026-06-23T08:00:00+05:30",
+      "dateModified": "2026-06-23T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does Tally to QuickBooks migration involve for a Delhi business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is an orderly hand-off of your books from Tally into QuickBooks Online. For a Delhi firm we recast the chart of accounts, carry over opening balances and the customer, supplier, and item masters, rebuild the transaction history, set up GST, and reconcile the trial balance so QuickBooks reads the same as Tally before go-live."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does Tally to QuickBooks migration cost in Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fees open at Starting from INR 9,999 (Exl GST and Govt. Charges). Where they land depends on the years you move, the transaction count, how many GSTINs you hold, and whether stock masters apply. A Nehru Place IT reseller or an Okhla unit gets a fixed-scope quote before we lift a finger."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will my GSTIN and GST data still work in QuickBooks after the move?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We feed your GSTIN, HSN and SAC codes, and tax rates into QuickBooks Online so every invoice splits CGST, SGST, and IGST correctly under the CGST Act 2017. Migrated purchases are then matched to GSTR-2B, keeping your Delhi firm's input tax credit flowing with no break."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there any Delhi profession tax I need to migrate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Delhi charges no profession tax, so there is no PT registration to bring into QuickBooks. For a Delhi business the only payroll statutory settings we migrate are PF, ESI, and TDS. We configure those properly so salary, deduction, and compliance reporting carry on without a hitch after go-live."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I still run QuickBooks in India after Intuit left in 2023?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The plans Intuit dropped in 2023 were the India-specific ones; the global QuickBooks Online edition stays live, and that is what we set up and configure for GST. For Delhi clients we suggest the right edition, and we will point you towards Zoho Books instead when it suits your firm better."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What gets carried across from Tally into QuickBooks?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We carry the chart of accounts, opening balances, your customer and supplier masters, item or stock masters, and the transaction history of invoices, bills, receipts, and payments. Outstanding AR and AP, bank balances, and GST settings come too, so your Delhi books resume from day one in QuickBooks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you confirm the Delhi migration is accurate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Through a two-stage check. The QuickBooks trial balance, profit and loss, and balance sheet are first set beside the same Tally statements; then we spot-test individual ledgers and GST totals. A chartered accountant signs off only once QuickBooks matches Tally across the migrated period."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will you train our Delhi team on QuickBooks after go-live?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Once the reconciliation is done, we hold a handover for your Delhi finance team on invoicing, GST reports, bank feeds, and month-end within QuickBooks Online. A short reference guide comes with it, and we remain on hand for support so leaving Tally feels easy and assured."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/migration-from-tally-to-quickbooks/delhi#service",
+      "name": "Tally to QuickBooks Migration in Delhi",
+      "description": "Tally to QuickBooks Online migration in Delhi covering chart of accounts mapping, opening balances, customer, vendor, and item masters, historical transactions, GST configuration, and trial balance reconciliation. Patron Accounting delivers CA-verified, audit-ready QuickBooks files for Nehru Place, Cyber City, Okhla, and Karol Bagh businesses.",
+      "serviceType": "Tally to QuickBooks Online Data Migration",
+      "url": "https://www.patronaccounting.com/migration-from-tally-to-quickbooks/delhi",
+      "areaServed": {
+        "@type": "City",
+        "name": "Delhi",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Delhi"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#localbusiness-delhi"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "QuickBooks",
+          "sameAs": "https://en.wikipedia.org/wiki/QuickBooks"
+        },
+        {
+          "@type": "Thing",
+          "name": "Goods and Services Tax (India)",
+          "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Tally to QuickBooks Migration Plans in Delhi",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "price": "9999",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "INR",
+              "price": "9999",
+              "unitText": "starting from"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Tally to QuickBooks Online Migration"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness-delhi",
+      "name": "Patron Accounting LLP - Delhi",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/migration-from-tally-to-quickbooks/delhi",
+      "telephone": "+91-9699936369",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Delhi"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Delhi",
+        "addressRegion": "Delhi",
+        "postalCode": "110085",
+        "addressCountry": "IN"
+      },
+      "parentOrganization": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1568,7 +1575,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

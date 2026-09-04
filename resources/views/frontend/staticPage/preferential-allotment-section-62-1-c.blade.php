@@ -1,186 +1,11 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Preferential Allotment Section 62 in 2026 | Patron Accounting</title>
-    <meta name="description" content="Raise a funding round via preferential allotment under Section 62(1)(c) with special resolution, Rule 11UA valuation, PAS-4 and PAS-3. From INR 24,999.">
-    <link rel="canonical" href="/preferential-allotment-section-62-1-c">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Preferential Allotment Section 62 in 2026 | Patron Accounting">
-    <meta property="og:description" content="Raise a funding round via preferential allotment under Section 62(1)(c) with special resolution, Rule 11UA valuation, PAS-4 and PAS-3. From INR 24,999.">
-    <meta property="og:url" content="/preferential-allotment-section-62-1-c">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Preferential Allotment Section 62 in 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Raise a funding round via preferential allotment under Section 62(1)(c) with special resolution, Rule 11UA valuation, PAS-4 and PAS-3. From INR 24,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/preferential-allotment-section-62-1-c/#service",
-        "name": "Preferential Allotment under Section 62(1)(c)",
-        "description": "Preferential allotment services from Patron Accounting LLP cover the issue of shares to identified investors under Section 62(1)(c) of the Companies Act, 2013 read with Rule 13, together with the Section 42 and Rule 14 private placement procedure, including the structuring of the round, the instrument and the investor list and confirmation of AOA authorisation and authorised capital, the coordination of the registered-valuer report so the issue price meets the Rule 13 and Rule 11UA requirements, the drafting of the notice, the Rule 13 explanatory statement and the special resolution and the filing of MGT-14 within 30 days, the preparation of the PAS-4 offer-cum-application letter and the PAS-5 record, the management of the separate bank account, the allotment Board meeting and the PAS-3 filing within 15 days of allotment, and the FDI pricing, reporting and cap-table updates where a non-resident invests, with the whole allotment completed within 12 months of the special resolution.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/preferential-allotment-section-62-1-c" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Private placement", "sameAs": "https://en.wikipedia.org/wiki/Private_placement" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Preferential Allotment Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "Preferential Allotment (Section 62(1)(c)) Service",
-                    "priceCurrency": "INR",
-                    "price": "24999",
-                    "description": "End-to-end preferential allotment covering the round structuring, the special resolution, the PAS-4 offer, the allotment and the PAS-3 filing, exclusive of GST and government charges. The registered-valuer fee, any SH-7 increase in authorised capital, and FDI filings for non-resident investors are charged on an actual basis."
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/preferential-allotment-section-62-1-c/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Company Compliance", "item": "https://www.patronaccounting.com/corporate-compliance-services" },
-            { "@type": "ListItem", "position": 3, "name": "Preferential Allotment", "item": "https://www.patronaccounting.com/preferential-allotment-section-62-1-c" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/preferential-allotment-section-62-1-c/#faq",
-        "datePublished": "2026-06-03T08:00:00+05:30",
-        "dateModified": "2026-06-04T08:00:00+05:30",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "What is a preferential allotment under Section 62(1)(c)?",
-                "acceptedAnswer": { "@type": "Answer", "text": "A preferential allotment under Section 62(1)(c) of the Companies Act, 2013 is an issue of shares or convertible securities to a select group of identified persons, who may or may not be existing shareholders, on a preferential basis. It requires a special resolution and must comply with the private placement conditions of Section 42, and it is the usual route for a funding round." }
-            },
-            {
-                "@type": "Question",
-                "name": "Is a valuation report mandatory for a preferential allotment?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Yes, for an unlisted company. The issue price cannot be less than the price determined by a registered valuer under Rule 13, read with the valuation rules. This protects existing shareholders from a below-value issue. A listed company instead follows the SEBI ICDR pricing formula and does not need a registered-valuer report." }
-            },
-            {
-                "@type": "Question",
-                "name": "What resolution is needed for a preferential allotment?",
-                "acceptedAnswer": { "@type": "Answer", "text": "A preferential allotment requires a special resolution passed in a general meeting, with at least a 75 percent majority of the votes cast, accompanied by the explanatory statement prescribed under Rule 13. This is a key difference from a rights issue, which can be done by a Board resolution without a special resolution or a valuer report." }
-            },
-            {
-                "@type": "Question",
-                "name": "What forms are filed for a preferential allotment?",
-                "acceptedAnswer": { "@type": "Answer", "text": "The main filings are MGT-14 for the special resolution within 30 days, the PAS-4 offer-cum-application letter to each investor, the PAS-5 record of the offer, and PAS-3, the return of allotment, within 15 days of allotment. Where the authorised capital must be increased first, Form SH-7 is filed before the allotment." }
-            },
-            {
-                "@type": "Question",
-                "name": "How is a preferential allotment different from a rights issue?",
-                "acceptedAnswer": { "@type": "Answer", "text": "A preferential allotment is made to identified persons, who may be new investors, and needs a special resolution and a registered-valuer report for unlisted companies. A rights issue under Section 62(1)(a) is offered pro rata to existing shareholders, needs only a Board resolution and no mandatory valuer report. Preferential allotment suits funding rounds; a rights issue suits raising capital without dilution." }
-            },
-            {
-                "@type": "Question",
-                "name": "What are the Section 42 conditions for a preferential allotment?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Because Section 42 applies, the offer must be made to identified persons in PAS-4, the money must be kept in a separate bank account and not used until PAS-3 is filed, and the offer must stay within the cap of 200 persons per kind of security in a financial year. Breaching these conditions can turn the issue into a deemed public offer with penalties." }
-            },
-            {
-                "@type": "Question",
-                "name": "How long does a company have to complete the allotment?",
-                "acceptedAnswer": { "@type": "Answer", "text": "The allotment must be completed within twelve months from the date of passing the special resolution. If it is not completed within that period, the company must pass another special resolution to complete the allotment thereafter. Within that, the shares are allotted within 60 days of receipt of money and PAS-3 is filed within 15 days of allotment." }
-            },
-            {
-                "@type": "Question",
-                "name": "Can a preferential allotment be made to a foreign investor?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Yes. A non-resident can be an identified investor in a preferential allotment, but the round then also engages the FDI pricing and reporting rules under FEMA. The issue price must meet both the registered-valuer requirement and the FDI pricing guidelines, and the prescribed FDI reporting must be filed alongside the company law steps." }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/preferential-allotment-section-62-1-c",
-        "name": "Preferential Allotment under Section 62(1)(c)",
-        "description": "Raise a funding round via preferential allotment under Section 62(1)(c) with special resolution, Rule 11UA valuation, PAS-4 and PAS-3. From INR 24,999.",
-        "url": "https://www.patronaccounting.com/preferential-allotment-section-62-1-c",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/preferential-allotment-section-62-1-c/#service" },
-        "datePublished": "2026-06-03T08:00:00+05:30",
-        "dateModified": "2026-06-04T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/preferential-allotment-section-62-1-c/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "Preferential Allotment Process: Step by Step",
-        "description": "How a preferential allotment under Section 62(1)(c) is run, from structuring and valuation through the special resolution, PAS-4 offer, allotment and PAS-3 filing.",
-        "totalTime": "P30D",
-        "step": [
-            { "@type": "HowToStep", "name": "Structure and check", "text": "Fix the round, confirm AOA authorisation and that the authorised capital covers the issue." },
-            { "@type": "HowToStep", "name": "Obtain the valuation", "text": "Get the registered-valuer report fixing the minimum price for the unlisted company." },
-            { "@type": "HowToStep", "name": "Board and special resolution", "text": "Hold the Board meeting, then the general meeting to pass the special resolution with the Rule 13 statement." },
-            { "@type": "HowToStep", "name": "File MGT-14", "text": "File MGT-14 with the ROC within 30 days of the special resolution." },
-            { "@type": "HowToStep", "name": "Issue PAS-4 and collect funds", "text": "Send the PAS-4 offer letter to identified investors and receive funds in a separate bank account." },
-            { "@type": "HowToStep", "name": "Allot the shares", "text": "Hold the allotment Board meeting within 60 days of receipt of money." },
-            { "@type": "HowToStep", "name": "File PAS-3 and issue certificates", "text": "File PAS-3 within 15 days of allotment, issue certificates within two months and update the registers." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Preferential Allotment Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Preferential Offer", "description": "An issue to select persons on a preferential basis, excluding rights, bonus and ESOP issues." },
-            { "@type": "DefinedTerm", "name": "Special Resolution", "description": "Shareholder approval needing at least a 75 percent majority of votes cast." },
-            { "@type": "DefinedTerm", "name": "Registered Valuer", "description": "An IBBI-registered valuer whose report sets the minimum price for an unlisted company." },
-            { "@type": "DefinedTerm", "name": "PAS-4", "description": "The private placement offer-cum-application letter, serially numbered and addressed to each identified person." },
-            { "@type": "DefinedTerm", "name": "PAS-5", "description": "The record of the private placement offer maintained by the company." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -794,7 +619,187 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Preferential Allotment Section 62 in 2026 | Patron Accounting</title>
+    <meta name="description" content="Raise a funding round via preferential allotment under Section 62(1)(c) with special resolution, Rule 11UA valuation, PAS-4 and PAS-3. From INR 24,999.">
+    <link rel="canonical" href="/preferential-allotment-section-62-1-c">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Preferential Allotment Section 62 in 2026 | Patron Accounting">
+    <meta property="og:description" content="Raise a funding round via preferential allotment under Section 62(1)(c) with special resolution, Rule 11UA valuation, PAS-4 and PAS-3. From INR 24,999.">
+    <meta property="og:url" content="/preferential-allotment-section-62-1-c">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Preferential Allotment Section 62 in 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Raise a funding round via preferential allotment under Section 62(1)(c) with special resolution, Rule 11UA valuation, PAS-4 and PAS-3. From INR 24,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/preferential-allotment-section-62-1-c/#service",
+        "name": "Preferential Allotment under Section 62(1)(c)",
+        "description": "Preferential allotment services from Patron Accounting LLP cover the issue of shares to identified investors under Section 62(1)(c) of the Companies Act, 2013 read with Rule 13, together with the Section 42 and Rule 14 private placement procedure, including the structuring of the round, the instrument and the investor list and confirmation of AOA authorisation and authorised capital, the coordination of the registered-valuer report so the issue price meets the Rule 13 and Rule 11UA requirements, the drafting of the notice, the Rule 13 explanatory statement and the special resolution and the filing of MGT-14 within 30 days, the preparation of the PAS-4 offer-cum-application letter and the PAS-5 record, the management of the separate bank account, the allotment Board meeting and the PAS-3 filing within 15 days of allotment, and the FDI pricing, reporting and cap-table updates where a non-resident invests, with the whole allotment completed within 12 months of the special resolution.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/preferential-allotment-section-62-1-c" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Private placement", "sameAs": "https://en.wikipedia.org/wiki/Private_placement" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Preferential Allotment Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "Preferential Allotment (Section 62(1)(c)) Service",
+                    "priceCurrency": "INR",
+                    "price": "24999",
+                    "description": "End-to-end preferential allotment covering the round structuring, the special resolution, the PAS-4 offer, the allotment and the PAS-3 filing, exclusive of GST and government charges. The registered-valuer fee, any SH-7 increase in authorised capital, and FDI filings for non-resident investors are charged on an actual basis."
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/preferential-allotment-section-62-1-c/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Company Compliance", "item": "https://www.patronaccounting.com/corporate-compliance-services" },
+            { "@type": "ListItem", "position": 3, "name": "Preferential Allotment", "item": "https://www.patronaccounting.com/preferential-allotment-section-62-1-c" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/preferential-allotment-section-62-1-c/#faq",
+        "datePublished": "2026-06-03T08:00:00+05:30",
+        "dateModified": "2026-06-04T08:00:00+05:30",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is a preferential allotment under Section 62(1)(c)?",
+                "acceptedAnswer": { "@type": "Answer", "text": "A preferential allotment under Section 62(1)(c) of the Companies Act, 2013 is an issue of shares or convertible securities to a select group of identified persons, who may or may not be existing shareholders, on a preferential basis. It requires a special resolution and must comply with the private placement conditions of Section 42, and it is the usual route for a funding round." }
+            },
+            {
+                "@type": "Question",
+                "name": "Is a valuation report mandatory for a preferential allotment?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Yes, for an unlisted company. The issue price cannot be less than the price determined by a registered valuer under Rule 13, read with the valuation rules. This protects existing shareholders from a below-value issue. A listed company instead follows the SEBI ICDR pricing formula and does not need a registered-valuer report." }
+            },
+            {
+                "@type": "Question",
+                "name": "What resolution is needed for a preferential allotment?",
+                "acceptedAnswer": { "@type": "Answer", "text": "A preferential allotment requires a special resolution passed in a general meeting, with at least a 75 percent majority of the votes cast, accompanied by the explanatory statement prescribed under Rule 13. This is a key difference from a rights issue, which can be done by a Board resolution without a special resolution or a valuer report." }
+            },
+            {
+                "@type": "Question",
+                "name": "What forms are filed for a preferential allotment?",
+                "acceptedAnswer": { "@type": "Answer", "text": "The main filings are MGT-14 for the special resolution within 30 days, the PAS-4 offer-cum-application letter to each investor, the PAS-5 record of the offer, and PAS-3, the return of allotment, within 15 days of allotment. Where the authorised capital must be increased first, Form SH-7 is filed before the allotment." }
+            },
+            {
+                "@type": "Question",
+                "name": "How is a preferential allotment different from a rights issue?",
+                "acceptedAnswer": { "@type": "Answer", "text": "A preferential allotment is made to identified persons, who may be new investors, and needs a special resolution and a registered-valuer report for unlisted companies. A rights issue under Section 62(1)(a) is offered pro rata to existing shareholders, needs only a Board resolution and no mandatory valuer report. Preferential allotment suits funding rounds; a rights issue suits raising capital without dilution." }
+            },
+            {
+                "@type": "Question",
+                "name": "What are the Section 42 conditions for a preferential allotment?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Because Section 42 applies, the offer must be made to identified persons in PAS-4, the money must be kept in a separate bank account and not used until PAS-3 is filed, and the offer must stay within the cap of 200 persons per kind of security in a financial year. Breaching these conditions can turn the issue into a deemed public offer with penalties." }
+            },
+            {
+                "@type": "Question",
+                "name": "How long does a company have to complete the allotment?",
+                "acceptedAnswer": { "@type": "Answer", "text": "The allotment must be completed within twelve months from the date of passing the special resolution. If it is not completed within that period, the company must pass another special resolution to complete the allotment thereafter. Within that, the shares are allotted within 60 days of receipt of money and PAS-3 is filed within 15 days of allotment." }
+            },
+            {
+                "@type": "Question",
+                "name": "Can a preferential allotment be made to a foreign investor?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Yes. A non-resident can be an identified investor in a preferential allotment, but the round then also engages the FDI pricing and reporting rules under FEMA. The issue price must meet both the registered-valuer requirement and the FDI pricing guidelines, and the prescribed FDI reporting must be filed alongside the company law steps." }
+            }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/preferential-allotment-section-62-1-c",
+        "name": "Preferential Allotment under Section 62(1)(c)",
+        "description": "Raise a funding round via preferential allotment under Section 62(1)(c) with special resolution, Rule 11UA valuation, PAS-4 and PAS-3. From INR 24,999.",
+        "url": "https://www.patronaccounting.com/preferential-allotment-section-62-1-c",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/preferential-allotment-section-62-1-c/#service" },
+        "datePublished": "2026-06-03T08:00:00+05:30",
+        "dateModified": "2026-06-04T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/preferential-allotment-section-62-1-c/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "Preferential Allotment Process: Step by Step",
+        "description": "How a preferential allotment under Section 62(1)(c) is run, from structuring and valuation through the special resolution, PAS-4 offer, allotment and PAS-3 filing.",
+        "totalTime": "P30D",
+        "step": [
+            { "@type": "HowToStep", "name": "Structure and check", "text": "Fix the round, confirm AOA authorisation and that the authorised capital covers the issue." },
+            { "@type": "HowToStep", "name": "Obtain the valuation", "text": "Get the registered-valuer report fixing the minimum price for the unlisted company." },
+            { "@type": "HowToStep", "name": "Board and special resolution", "text": "Hold the Board meeting, then the general meeting to pass the special resolution with the Rule 13 statement." },
+            { "@type": "HowToStep", "name": "File MGT-14", "text": "File MGT-14 with the ROC within 30 days of the special resolution." },
+            { "@type": "HowToStep", "name": "Issue PAS-4 and collect funds", "text": "Send the PAS-4 offer letter to identified investors and receive funds in a separate bank account." },
+            { "@type": "HowToStep", "name": "Allot the shares", "text": "Hold the allotment Board meeting within 60 days of receipt of money." },
+            { "@type": "HowToStep", "name": "File PAS-3 and issue certificates", "text": "File PAS-3 within 15 days of allotment, issue certificates within two months and update the registers." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Preferential Allotment Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Preferential Offer", "description": "An issue to select persons on a preferential basis, excluding rights, bonus and ESOP issues." },
+            { "@type": "DefinedTerm", "name": "Special Resolution", "description": "Shareholder approval needing at least a 75 percent majority of votes cast." },
+            { "@type": "DefinedTerm", "name": "Registered Valuer", "description": "An IBBI-registered valuer whose report sets the minimum price for an unlisted company." },
+            { "@type": "DefinedTerm", "name": "PAS-4", "description": "The private placement offer-cum-application letter, serially numbered and addressed to each identified person." },
+            { "@type": "DefinedTerm", "name": "PAS-5", "description": "The record of the private placement offer maintained by the company." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1567,17 +1572,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1600,8 +1598,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1638,7 +1634,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1 (corrected): Last Updated mirrors schema dateModified — STABLE hardcoded date, never live new Date()
 (function() {
@@ -1649,3 +1644,19 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

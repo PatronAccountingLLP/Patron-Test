@@ -1,128 +1,11 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Net Worth for Joint Owners Delhi NCR – CA Attested</title>
-    <meta name="description" content="CA-conducted net worth certificate for joint owners under Companies Act in Delhi. CARO 2020, IFC reporting, Ind AS. Every company type. RoC Delhi filing. Call +91 945 945 6700.">
-    <link rel="canonical" href="/net-worth-certificate-for-joint-owners-in-india/delhi">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Net Worth for Joint Owners Delhi NCR – CA Attested">
-    <meta property="og:description" content="CA-conducted net worth certificate for joint owners under Companies Act in Delhi. CARO 2020, IFC reporting, Ind AS. Every company type. RoC Delhi filing. Call +91 945 945 6700.">
-    <meta property="og:url" content="/net-worth-certificate-for-joint-owners-in-india/delhi">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Net Worth for Joint Owners Delhi NCR – CA Attested">
-    <meta name="twitter:description" content="CA-conducted net worth certificate for joint owners under Companies Act in Delhi. CARO 2020, IFC reporting, Ind AS. Every company type. RoC Delhi filing. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "Net Worth Certificate for Joint Owners in Delhi",
-      "description": "CA-conducted net worth certificate for joint owners under Companies Act in Delhi. CARO 2020, IFC reporting, Ind AS. Every company type. RoC Delhi filing. Call +91 945 945 6700.",
-      "url": "/net-worth-certificate-for-joint-owners-in-india/delhi",
-      "serviceType": "Net Worth Certificate for Joint Owners in Delhi",
-      "areaServed": {
-        "@type": "City",
-        "name": "Delhi"
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "/",
-        "logo": "/images/site-logo.svg"
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "url": "/net-worth-certificate-for-joint-owners-in-india/delhi",
-        "price": "9999"
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Net Worth Certificate for Joint Owners",
-          "item": "https://www.patronaccounting.com/net-worth-certificate-for-joint-owners-in-india"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Net Worth Certificate for Joint Owners in Delhi",
-          "item": "https://www.patronaccounting.com/net-worth-certificate-for-joint-owners-in-india/delhi"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Is net worth certificate for joint owners mandatory for all companies?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Every company under Companies Act 2013 regardless of turnover. Pvt Ltd Public OPC Section 8. No exemption."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is auditor appointed?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "First auditor by Board within 30 days. Subsequent by AGM for 5 year term. ADT-1 filed with RoC Delhi within 15 days."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is CARO 2020?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "21 reporting matters on fixed assets inventory loans statutory dues fraud audit trail. Exempt for OPCs small companies Section 8."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Penalties for non-compliance?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Company Rs 25,000 to Rs 5,00,000. Late filing Rs 100 per day. Director disqualification under Section 164(2) for continued default."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -788,7 +671,129 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'Join Community'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Net Worth for Joint Owners Delhi NCR – CA Attested</title>
+    <meta name="description" content="CA-conducted net worth certificate for joint owners under Companies Act in Delhi. CARO 2020, IFC reporting, Ind AS. Every company type. RoC Delhi filing. Call +91 945 945 6700.">
+    <link rel="canonical" href="/net-worth-certificate-for-joint-owners-in-india/delhi">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Net Worth for Joint Owners Delhi NCR – CA Attested">
+    <meta property="og:description" content="CA-conducted net worth certificate for joint owners under Companies Act in Delhi. CARO 2020, IFC reporting, Ind AS. Every company type. RoC Delhi filing. Call +91 945 945 6700.">
+    <meta property="og:url" content="/net-worth-certificate-for-joint-owners-in-india/delhi">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Net Worth for Joint Owners Delhi NCR – CA Attested">
+    <meta name="twitter:description" content="CA-conducted net worth certificate for joint owners under Companies Act in Delhi. CARO 2020, IFC reporting, Ind AS. Every company type. RoC Delhi filing. Call +91 945 945 6700.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "Net Worth Certificate for Joint Owners in Delhi",
+      "description": "CA-conducted net worth certificate for joint owners under Companies Act in Delhi. CARO 2020, IFC reporting, Ind AS. Every company type. RoC Delhi filing. Call +91 945 945 6700.",
+      "url": "/net-worth-certificate-for-joint-owners-in-india/delhi",
+      "serviceType": "Net Worth Certificate for Joint Owners in Delhi",
+      "areaServed": {
+        "@type": "City",
+        "name": "Delhi"
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Patron Accounting LLP",
+        "url": "/",
+        "logo": "/images/site-logo.svg"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "url": "/net-worth-certificate-for-joint-owners-in-india/delhi",
+        "price": "9999"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Net Worth Certificate for Joint Owners",
+          "item": "https://www.patronaccounting.com/net-worth-certificate-for-joint-owners-in-india"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Net Worth Certificate for Joint Owners in Delhi",
+          "item": "https://www.patronaccounting.com/net-worth-certificate-for-joint-owners-in-india/delhi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is net worth certificate for joint owners mandatory for all companies?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Every company under Companies Act 2013 regardless of turnover. Pvt Ltd Public OPC Section 8. No exemption."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is auditor appointed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "First auditor by Board within 30 days. Subsequent by AGM for 5 year term. ADT-1 filed with RoC Delhi within 15 days."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is CARO 2020?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "21 reporting matters on fixed assets inventory loans statutory dues fraud audit trail. Exempt for OPCs small companies Section 8."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Penalties for non-compliance?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Company Rs 25,000 to Rs 5,00,000. Late filing Rs 100 per day. Director disqualification under Section 164(2) for continued default."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+
+@endsection
 @section('content')
 <main>
 
@@ -1539,7 +1544,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

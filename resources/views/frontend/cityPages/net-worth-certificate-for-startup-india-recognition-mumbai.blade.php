@@ -1,146 +1,12 @@
 
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Net Worth Certificate for Startup India Recognition in Mumbai 2026 | Patron Accounting</title>
-    <meta name="description" content="CA-certified net worth and audited financials for Startup India DPIIT recognition and Section 80-IAC tax holiday. UDIN-verified. From INR 3,999.">
-    <link rel="canonical" href="/net-worth-certificate-for-startup-india-recognition/mumbai">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Net Worth Certificate for Startup India Recognition 2026 | Patron Accounting">
-    <meta property="og:description" content="CA-certified net worth and audited financials for Startup India DPIIT recognition and Section 80-IAC tax holiday. UDIN-verified. From INR 3,999.">
-    <meta property="og:url" content="/net-worth-certificate-for-startup-india-recognition/mumbai">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Net Worth Certificate for Startup India Recognition 2026 | Patron Accounting">
-    <meta name="twitter:description" content="CA-certified net worth and audited financials for Startup India DPIIT recognition and Section 80-IAC tax holiday. UDIN-verified. From INR 3,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-startup-india-recognition/mumbai/#service",
-        "name": "Net Worth Certificate for Startup India Recognition",
-        "description": "CA-certified net worth and audited financials for Startup India DPIIT recognition and the Section 80-IAC tax holiday application to the Inter-Ministerial Board, prepared for Private Limited Companies and LLPs and issued with a mandatory UDIN.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/net-worth-certificate-for-startup-india-recognition/mumbai" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Startup India", "sameAs": "https://en.wikipedia.org/wiki/Startup_India" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Net Worth Certificate for Startup India Recognition Service Plans",
-            "itemListElement": [
-                { "@type": "Offer", "name": "Net Worth Certificate for Startup India Recognition (UDIN-verified)", "priceCurrency": "INR", "price": "3999", "description": "CA-certified net worth and audited financials since incorporation for DPIIT recognition and the Section 80-IAC Inter-Ministerial Board application, with a UDIN, for Private Limited Companies and LLPs." }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-startup-india-recognition/mumbai/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
-            { "@type": "ListItem", "position": 3, "name": "Net Worth Certificate for Startup India Recognition", "item": "https://www.patronaccounting.com/net-worth-certificate-for-startup-india-recognition/mumbai" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-startup-india-recognition/mumbai/#faq",
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "mainEntity": [
-            { "@type": "Question", "name": "Is a net worth certificate required for DPIIT recognition?", "acceptedAnswer": { "@type": "Answer", "text": "DPIIT recognition itself is a free online process and does not always require a net worth certificate, but CA-certified financials strengthen the application and are essential at the next stage. The Section 80-IAC tax holiday application to the Inter-Ministerial Board requires audited financial statements for all years since incorporation, and investors conducting due diligence routinely ask for a CA-certified net worth." } },
-            { "@type": "Question", "name": "What is Section 80-IAC and who can claim it?", "acceptedAnswer": { "@type": "Answer", "text": "Section 80-IAC of the Income Tax Act, 1961 gives an eligible startup a 100% deduction on profits for any 3 consecutive assessment years within the first 10 years from incorporation. Only a Private Limited Company or LLP can claim it, not a partnership firm, OPC or sole proprietorship, even with DPIIT recognition. The startup must hold DPIIT recognition and obtain an Inter-Ministerial Board certificate." } },
-            { "@type": "Question", "name": "What documents are needed for the 80-IAC application?", "acceptedAnswer": { "@type": "Answer", "text": "The Section 80-IAC application requires the MoA and AoA or LLP Agreement, a board resolution authorising the application, audited financial statements for all financial years since incorporation, the shareholding pattern, a short video pitch, and details of any funding such as term sheets and investment agreements. The audited financials are central, which is where CA preparation and certification matter." } },
-            { "@type": "Question", "name": "What are the DPIIT recognition eligibility criteria?", "acceptedAnswer": { "@type": "Answer", "text": "To qualify for DPIIT recognition, the entity must be a Private Limited Company, LLP or registered partnership firm, be under 10 years old from incorporation, have annual turnover not exceeding Rs 100 crore in any financial year, be working on innovation or a scalable business model, and not be formed by splitting up or reconstructing an existing business. Recognition is applied for free on the government portal." } },
-            { "@type": "Question", "name": "How much does the Startup India net worth certificate cost?", "acceptedAnswer": { "@type": "Answer", "text": "At Patron Accounting, a Startup India net worth certificate starts from Rs 3,999 (exclusive of GST and government charges). The fee reflects the CA-certified net worth and the audited-financials preparation that a Section 80-IAC application requires. DPIIT recognition itself is free on the government portal. Final fees are confirmed after a review of your financials and stage." } },
-            { "@type": "Question", "name": "Is angel tax still applicable to startups?", "acceptedAnswer": { "@type": "Answer", "text": "No. Angel tax under Section 56(2)(viib) of the Income Tax Act was abolished with effect from assessment year 2025-26. Equity issued at a premium above fair market value on or after 1 April 2024 is no longer taxable in the hands of the issuing company. Prior-year assessments continue under the earlier law. This removes a long-standing concern for startups raising capital." } },
-            { "@type": "Question", "name": "How long does the certificate and recognition take?", "acceptedAnswer": { "@type": "Answer", "text": "The net worth certificate is typically issued within 2 to 4 working days once complete financials are received. DPIIT recognition is usually granted within 7 to 14 days on the government portal when the application is complete. The Section 80-IAC Inter-Ministerial Board process is separate and longer, and relies on the audited financials we prepare." } }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-startup-india-recognition/mumbai",
-        "name": "Net Worth Certificate for Startup India Recognition",
-        "description": "CA-certified net worth and audited financials for Startup India DPIIT recognition and Section 80-IAC tax holiday. UDIN-verified. From INR 3,999.",
-        "url": "https://www.patronaccounting.com/net-worth-certificate-for-startup-india-recognition/mumbai",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-startup-india-recognition/mumbai/#service" },
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-startup-india-recognition/mumbai/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How to Obtain a Net Worth Certificate for Startup India Recognition",
-        "description": "Five steps to obtain a CA net worth certificate and audited financials for Startup India: confirm the goal, submit documents, verification, net worth and financials preparation, and certification with UDIN.",
-        "totalTime": "P4D",
-        "step": [
-            { "@type": "HowToStep", "name": "Confirm the goal", "text": "DPIIT recognition, the Section 80-IAC application, or investor due diligence." },
-            { "@type": "HowToStep", "name": "Submit documents", "text": "Incorporation certificate, audited financials since incorporation, funding proofs and shareholding." },
-            { "@type": "HowToStep", "name": "Verification", "text": "The CA verifies assets, liabilities and financials under SA 500 (Audit Evidence)." },
-            { "@type": "HowToStep", "name": "Net worth computation and financials preparation", "text": "The CA computes net worth and prepares the financials for the IMB application." },
-            { "@type": "HowToStep", "name": "Certification and UDIN", "text": "The CA signs, seals and generates the UDIN, issuing the certificate for your application." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Net Worth Certificate for Startup India Recognition Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "DPIIT recognition", "description": "Certification by the Department for Promotion of Industry and Internal Trade that an entity qualifies as a startup." },
-            { "@type": "DefinedTerm", "name": "Section 80-IAC", "description": "A 100% income tax deduction on profits for any 3 consecutive assessment years within the first 10 years from incorporation." },
-            { "@type": "DefinedTerm", "name": "Inter-Ministerial Board (IMB)", "description": "The board that issues the Certificate of Eligible Business for the Section 80-IAC tax holiday." },
-            { "@type": "DefinedTerm", "name": "NSWS / Startup India portal", "description": "The portal where DPIIT recognition and the 80-IAC application are filed." },
-            { "@type": "DefinedTerm", "name": "Angel tax (Section 56(2)(viib))", "description": "The premium-over-FMV tax, repealed from assessment year 2025-26." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -754,7 +620,146 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Net Worth Certificate for Startup India Recognition in Mumbai 2026 | Patron Accounting</title>
+    <meta name="description" content="CA-certified net worth and audited financials for Startup India DPIIT recognition and Section 80-IAC tax holiday. UDIN-verified. From INR 3,999.">
+    <link rel="canonical" href="/net-worth-certificate-for-startup-india-recognition/mumbai">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Net Worth Certificate for Startup India Recognition 2026 | Patron Accounting">
+    <meta property="og:description" content="CA-certified net worth and audited financials for Startup India DPIIT recognition and Section 80-IAC tax holiday. UDIN-verified. From INR 3,999.">
+    <meta property="og:url" content="/net-worth-certificate-for-startup-india-recognition/mumbai">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Net Worth Certificate for Startup India Recognition 2026 | Patron Accounting">
+    <meta name="twitter:description" content="CA-certified net worth and audited financials for Startup India DPIIT recognition and Section 80-IAC tax holiday. UDIN-verified. From INR 3,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-startup-india-recognition/mumbai/#service",
+        "name": "Net Worth Certificate for Startup India Recognition",
+        "description": "CA-certified net worth and audited financials for Startup India DPIIT recognition and the Section 80-IAC tax holiday application to the Inter-Ministerial Board, prepared for Private Limited Companies and LLPs and issued with a mandatory UDIN.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/net-worth-certificate-for-startup-india-recognition/mumbai" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Startup India", "sameAs": "https://en.wikipedia.org/wiki/Startup_India" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Net Worth Certificate for Startup India Recognition Service Plans",
+            "itemListElement": [
+                { "@type": "Offer", "name": "Net Worth Certificate for Startup India Recognition (UDIN-verified)", "priceCurrency": "INR", "price": "3999", "description": "CA-certified net worth and audited financials since incorporation for DPIIT recognition and the Section 80-IAC Inter-Ministerial Board application, with a UDIN, for Private Limited Companies and LLPs." }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-startup-india-recognition/mumbai/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
+            { "@type": "ListItem", "position": 3, "name": "Net Worth Certificate for Startup India Recognition", "item": "https://www.patronaccounting.com/net-worth-certificate-for-startup-india-recognition/mumbai" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-startup-india-recognition/mumbai/#faq",
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "mainEntity": [
+            { "@type": "Question", "name": "Is a net worth certificate required for DPIIT recognition?", "acceptedAnswer": { "@type": "Answer", "text": "DPIIT recognition itself is a free online process and does not always require a net worth certificate, but CA-certified financials strengthen the application and are essential at the next stage. The Section 80-IAC tax holiday application to the Inter-Ministerial Board requires audited financial statements for all years since incorporation, and investors conducting due diligence routinely ask for a CA-certified net worth." } },
+            { "@type": "Question", "name": "What is Section 80-IAC and who can claim it?", "acceptedAnswer": { "@type": "Answer", "text": "Section 80-IAC of the Income Tax Act, 1961 gives an eligible startup a 100% deduction on profits for any 3 consecutive assessment years within the first 10 years from incorporation. Only a Private Limited Company or LLP can claim it, not a partnership firm, OPC or sole proprietorship, even with DPIIT recognition. The startup must hold DPIIT recognition and obtain an Inter-Ministerial Board certificate." } },
+            { "@type": "Question", "name": "What documents are needed for the 80-IAC application?", "acceptedAnswer": { "@type": "Answer", "text": "The Section 80-IAC application requires the MoA and AoA or LLP Agreement, a board resolution authorising the application, audited financial statements for all financial years since incorporation, the shareholding pattern, a short video pitch, and details of any funding such as term sheets and investment agreements. The audited financials are central, which is where CA preparation and certification matter." } },
+            { "@type": "Question", "name": "What are the DPIIT recognition eligibility criteria?", "acceptedAnswer": { "@type": "Answer", "text": "To qualify for DPIIT recognition, the entity must be a Private Limited Company, LLP or registered partnership firm, be under 10 years old from incorporation, have annual turnover not exceeding Rs 100 crore in any financial year, be working on innovation or a scalable business model, and not be formed by splitting up or reconstructing an existing business. Recognition is applied for free on the government portal." } },
+            { "@type": "Question", "name": "How much does the Startup India net worth certificate cost?", "acceptedAnswer": { "@type": "Answer", "text": "At Patron Accounting, a Startup India net worth certificate starts from Rs 3,999 (exclusive of GST and government charges). The fee reflects the CA-certified net worth and the audited-financials preparation that a Section 80-IAC application requires. DPIIT recognition itself is free on the government portal. Final fees are confirmed after a review of your financials and stage." } },
+            { "@type": "Question", "name": "Is angel tax still applicable to startups?", "acceptedAnswer": { "@type": "Answer", "text": "No. Angel tax under Section 56(2)(viib) of the Income Tax Act was abolished with effect from assessment year 2025-26. Equity issued at a premium above fair market value on or after 1 April 2024 is no longer taxable in the hands of the issuing company. Prior-year assessments continue under the earlier law. This removes a long-standing concern for startups raising capital." } },
+            { "@type": "Question", "name": "How long does the certificate and recognition take?", "acceptedAnswer": { "@type": "Answer", "text": "The net worth certificate is typically issued within 2 to 4 working days once complete financials are received. DPIIT recognition is usually granted within 7 to 14 days on the government portal when the application is complete. The Section 80-IAC Inter-Ministerial Board process is separate and longer, and relies on the audited financials we prepare." } }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/net-worth-certificate-for-startup-india-recognition/mumbai",
+        "name": "Net Worth Certificate for Startup India Recognition",
+        "description": "CA-certified net worth and audited financials for Startup India DPIIT recognition and Section 80-IAC tax holiday. UDIN-verified. From INR 3,999.",
+        "url": "https://www.patronaccounting.com/net-worth-certificate-for-startup-india-recognition/mumbai",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-startup-india-recognition/mumbai/#service" },
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/net-worth-certificate-for-startup-india-recognition/mumbai/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Obtain a Net Worth Certificate for Startup India Recognition",
+        "description": "Five steps to obtain a CA net worth certificate and audited financials for Startup India: confirm the goal, submit documents, verification, net worth and financials preparation, and certification with UDIN.",
+        "totalTime": "P4D",
+        "step": [
+            { "@type": "HowToStep", "name": "Confirm the goal", "text": "DPIIT recognition, the Section 80-IAC application, or investor due diligence." },
+            { "@type": "HowToStep", "name": "Submit documents", "text": "Incorporation certificate, audited financials since incorporation, funding proofs and shareholding." },
+            { "@type": "HowToStep", "name": "Verification", "text": "The CA verifies assets, liabilities and financials under SA 500 (Audit Evidence)." },
+            { "@type": "HowToStep", "name": "Net worth computation and financials preparation", "text": "The CA computes net worth and prepares the financials for the IMB application." },
+            { "@type": "HowToStep", "name": "Certification and UDIN", "text": "The CA signs, seals and generates the UDIN, issuing the certificate for your application." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Net Worth Certificate for Startup India Recognition Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "DPIIT recognition", "description": "Certification by the Department for Promotion of Industry and Internal Trade that an entity qualifies as a startup." },
+            { "@type": "DefinedTerm", "name": "Section 80-IAC", "description": "A 100% income tax deduction on profits for any 3 consecutive assessment years within the first 10 years from incorporation." },
+            { "@type": "DefinedTerm", "name": "Inter-Ministerial Board (IMB)", "description": "The board that issues the Certificate of Eligible Business for the Section 80-IAC tax holiday." },
+            { "@type": "DefinedTerm", "name": "NSWS / Startup India portal", "description": "The portal where DPIIT recognition and the 80-IAC application are filed." },
+            { "@type": "DefinedTerm", "name": "Angel tax (Section 56(2)(viib))", "description": "The premium-over-FMV tax, repealed from assessment year 2025-26." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1485,22 +1490,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
-<!-- ============================================
-     CONSULTATION FORM - Country Dropdown + Validation + Bigin Integration
-     ============================================ -->
-{{-- Enquiry form markup + JS now in partials/enquiry-form.blade.php --}}
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1523,8 +1516,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1561,7 +1552,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (stable, not live date)
 (function(){
@@ -1572,3 +1562,24 @@ window.addEventListener('scroll', function() {
     if(el2)el2.textContent=dateStr;
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+<!-- ============================================
+     CONSULTATION FORM - Country Dropdown + Validation + Bigin Integration
+     ============================================ -->
+{{-- Enquiry form markup + JS now in partials/enquiry-form.blade.php --}}
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

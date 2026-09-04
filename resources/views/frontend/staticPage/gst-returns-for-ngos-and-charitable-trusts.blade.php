@@ -1,155 +1,10 @@
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>GST Returns for NGOs and Charitable Trusts 2026 | Patron Accounting</title>
-    <meta name="description" content="GST returns for NGOs - Entry 1 Section 12AB exemption, charitable activities definition, grants vs services, FCRA + GST. Starting from INR 1,499 per month.">
-    <link rel="canonical" href="/gst-returns-for-ngos-and-charitable-trusts">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="GST Returns for NGOs and Charitable Trusts 2026 | Patron Accounting">
-    <meta property="og:description" content="GST returns for NGOs - Entry 1 Section 12AB exemption, charitable activities definition, grants vs services, FCRA + GST. Starting from INR 1,499 per month.">
-    <meta property="og:url" content="/gst-returns-for-ngos-and-charitable-trusts">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="GST Returns for NGOs and Charitable Trusts 2026 | Patron Accounting">
-    <meta name="twitter:description" content="GST returns for NGOs - Entry 1 Section 12AB exemption, charitable activities definition, grants vs services, FCRA + GST. Starting from INR 1,499 per month.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/gst-returns-for-ngos-and-charitable-trusts/#service",
-        "name": "GST Returns for NGOs and Charitable Trusts",
-        "description": "Monthly managed GST compliance for NGOs, Section 8 companies, charitable trusts, religious institutions, Section 12AB-registered foundations, CSR implementation partners, and FCRA-licensed entities. Covers Notification 12/2017-CTR Entry 1 exemption (12AA/12AB + Para 2(r) charitable activities), Entry 13 religious precincts with INR 1,000/10,000/10,000 thresholds, grants-vs-consideration AAR analysis, FCRA-GST parallel compliance, CSR treatment, Rule 42/43 reversal, and full GSTR-1/GSTR-3B filing.",
-        "serviceType": "GST Compliance for NGOs and Charitable Trusts",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-returns-for-ngos-and-charitable-trusts" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [
-            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
-            { "@type": "Thing", "name": "Non-governmental organization", "sameAs": "https://en.wikipedia.org/wiki/Non-governmental_organization" }
-        ],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "GST Returns for NGOs and Charitable Trusts Service Plans",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "name": "Monthly GST Returns - Single Trust / GSTIN",
-                    "priceCurrency": "INR",
-                    "price": "1499",
-                    "description": "Monthly GSTR-1 and GSTR-3B filing with activity-wise Entry 1 / Para 2(r) classification for a single trust or GSTIN"
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/gst-returns-for-ngos-and-charitable-trusts/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
-            { "@type": "ListItem", "position": 3, "name": "GST Returns for NGOs and Charitable Trusts", "item": "https://www.patronaccounting.com/gst-returns-for-ngos-and-charitable-trusts" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/gst-returns-for-ngos-and-charitable-trusts/#faq",
-        "datePublished": "2026-05-27T08:00:00+05:30",
-        "dateModified": "2026-06-01T08:00:00+05:30",
-        "mainEntity": [
-
-            {
-                "@type": "Question",
-                "name": "Are NGO and charitable trust services exempt from GST?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Only conditionally. Under Notification 12/2017-Central Tax (Rate) Entry 1, services provided by an entity registered under Section 12AA or 12AB of the Income Tax Act, 1961 by way of charitable activities are exempt from GST. Both conditions must coexist - the entity must hold 12AA / 12AB registration, AND the activity must fall within the four-category definition of charitable activities in Para 2(r) of the notification. Activities outside the four categories are taxable."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What are the four categories of charitable activities under Para 2(r)?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Para 2(r) of Notification 12/2017-CTR defines charitable activities as - (i) public health by way of care or counselling of terminally ill, severely disabled, HIV-AIDS, or substance addicted persons, or preventive health awareness; (ii) advancement of religion, spirituality, or yoga; (iii) advancement of educational programmes or skill development for abandoned / orphaned / homeless children, abused persons, prisoners, or persons over 65 in rural areas; (iv) preservation of environment including watershed, forests, and wildlife."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Are grants and donations to an NGO taxable under GST?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "It depends on whether the receipt is consideration for a supply. Pure donations received without any quid pro quo are not consideration, not supply, and not taxable. Where grants are tied to specific deliverables (workshops, training, reports), they constitute consideration. The Maharashtra AAR in Ecosan Services Foundation held that such tied grants are taxable supply unless the underlying service falls within Entry 1 charitable activities exemption."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Section 12AA or Section 12AB - which applies for GST exemption?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Section 12AB replaced Section 12AA effective 1 April 2021 pursuant to Finance Act 2020. All existing 12AA registrations had to migrate to 12AB through Form 10A within prescribed timelines. New trusts apply directly under 12AB. The registration is valid for 5 years and renewable through Form 10AB. Notification 12/2017-CTR Entry 1 covers both 12AA and 12AB references; trusts holding valid 12AB are eligible for the GST exemption subject to Para 2(r) activity test."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Is a charity marathon taxable even if proceeds are donated?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, in most cases. The Tamil Nadu AAR in Dream Runners Half Marathon held that the activity of conducting a marathon event by a Section 12AA trust does not fall under the definition of charitable activities in Para 2(r). Even though the proceeds were donated to NGOs, the marathon itself is a separate supply of service to the participants (registration fee in consideration of participation), and taxable. The use of proceeds for charity does not alter the nature of the supply."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How does FCRA registration interact with GST?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "FCRA (Foreign Contribution Regulation Act 2010) and GST run as parallel compliance regimes. FCRA registration is mandatory for any NGO receiving foreign contributions and governs the receipt-side compliance - separate bank account, prior intimation, FC-4 annual return by 31 December. FCRA registration does NOT exempt an NGO from GST. The GST analysis on a foreign grant is identical to a domestic grant - pure donation outside supply scope; tied grant potentially taxable subject to Entry 1 charitable activities test."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Are religious precincts rental receipts exempt?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Entry 13 of Notification 12/2017-CTR exempts services by way of renting of precincts of a religious place meant for the general public, owned or managed by an entity registered under Section 12AA / 12AB - subject to three thresholds. Renting of rooms is exempt only if charges are below INR 1,000 per day. Renting of kalyana mandapam, community hall, or open area is exempt only if charges are below INR 10,000 per day. Renting of shops is exempt only if monthly rent is below INR 10,000. Above any threshold, the entire receipt is taxable at 18 percent."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the cost of monthly GST returns for an NGO at Patron Accounting?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Starting from INR 1,499 per month (Exclusive of GST and government charges) for single-trust / single-GSTIN basic compliance. Monthly returns plus grant classification plus Rule 42/43 package starts from INR 2,999 per month. Entry 1 / Para 2(r) activity mapping, FCRA + GST parallel compliance setup, CSR / sponsorship structuring, and DRC-01C reply are quoted separately based on scope."
-                }
-            }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -763,7 +618,157 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>GST Returns for NGOs and Charitable Trusts 2026 | Patron Accounting</title>
+    <meta name="description" content="GST returns for NGOs - Entry 1 Section 12AB exemption, charitable activities definition, grants vs services, FCRA + GST. Starting from INR 1,499 per month.">
+    <link rel="canonical" href="/gst-returns-for-ngos-and-charitable-trusts">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="GST Returns for NGOs and Charitable Trusts 2026 | Patron Accounting">
+    <meta property="og:description" content="GST returns for NGOs - Entry 1 Section 12AB exemption, charitable activities definition, grants vs services, FCRA + GST. Starting from INR 1,499 per month.">
+    <meta property="og:url" content="/gst-returns-for-ngos-and-charitable-trusts">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GST Returns for NGOs and Charitable Trusts 2026 | Patron Accounting">
+    <meta name="twitter:description" content="GST returns for NGOs - Entry 1 Section 12AB exemption, charitable activities definition, grants vs services, FCRA + GST. Starting from INR 1,499 per month.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/gst-returns-for-ngos-and-charitable-trusts/#service",
+        "name": "GST Returns for NGOs and Charitable Trusts",
+        "description": "Monthly managed GST compliance for NGOs, Section 8 companies, charitable trusts, religious institutions, Section 12AB-registered foundations, CSR implementation partners, and FCRA-licensed entities. Covers Notification 12/2017-CTR Entry 1 exemption (12AA/12AB + Para 2(r) charitable activities), Entry 13 religious precincts with INR 1,000/10,000/10,000 thresholds, grants-vs-consideration AAR analysis, FCRA-GST parallel compliance, CSR treatment, Rule 42/43 reversal, and full GSTR-1/GSTR-3B filing.",
+        "serviceType": "GST Compliance for NGOs and Charitable Trusts",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/gst-returns-for-ngos-and-charitable-trusts" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [
+            { "@type": "Thing", "name": "Goods and Services Tax (India)", "sameAs": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)" },
+            { "@type": "Thing", "name": "Non-governmental organization", "sameAs": "https://en.wikipedia.org/wiki/Non-governmental_organization" }
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "GST Returns for NGOs and Charitable Trusts Service Plans",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "Monthly GST Returns - Single Trust / GSTIN",
+                    "priceCurrency": "INR",
+                    "price": "1499",
+                    "description": "Monthly GSTR-1 and GSTR-3B filing with activity-wise Entry 1 / Para 2(r) classification for a single trust or GSTIN"
+                }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/gst-returns-for-ngos-and-charitable-trusts/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "GST Services", "item": "https://www.patronaccounting.com/gst-services" },
+            { "@type": "ListItem", "position": 3, "name": "GST Returns for NGOs and Charitable Trusts", "item": "https://www.patronaccounting.com/gst-returns-for-ngos-and-charitable-trusts" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/gst-returns-for-ngos-and-charitable-trusts/#faq",
+        "datePublished": "2026-05-27T08:00:00+05:30",
+        "dateModified": "2026-06-01T08:00:00+05:30",
+        "mainEntity": [
+
+            {
+                "@type": "Question",
+                "name": "Are NGO and charitable trust services exempt from GST?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Only conditionally. Under Notification 12/2017-Central Tax (Rate) Entry 1, services provided by an entity registered under Section 12AA or 12AB of the Income Tax Act, 1961 by way of charitable activities are exempt from GST. Both conditions must coexist - the entity must hold 12AA / 12AB registration, AND the activity must fall within the four-category definition of charitable activities in Para 2(r) of the notification. Activities outside the four categories are taxable."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What are the four categories of charitable activities under Para 2(r)?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Para 2(r) of Notification 12/2017-CTR defines charitable activities as - (i) public health by way of care or counselling of terminally ill, severely disabled, HIV-AIDS, or substance addicted persons, or preventive health awareness; (ii) advancement of religion, spirituality, or yoga; (iii) advancement of educational programmes or skill development for abandoned / orphaned / homeless children, abused persons, prisoners, or persons over 65 in rural areas; (iv) preservation of environment including watershed, forests, and wildlife."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Are grants and donations to an NGO taxable under GST?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "It depends on whether the receipt is consideration for a supply. Pure donations received without any quid pro quo are not consideration, not supply, and not taxable. Where grants are tied to specific deliverables (workshops, training, reports), they constitute consideration. The Maharashtra AAR in Ecosan Services Foundation held that such tied grants are taxable supply unless the underlying service falls within Entry 1 charitable activities exemption."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Section 12AA or Section 12AB - which applies for GST exemption?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Section 12AB replaced Section 12AA effective 1 April 2021 pursuant to Finance Act 2020. All existing 12AA registrations had to migrate to 12AB through Form 10A within prescribed timelines. New trusts apply directly under 12AB. The registration is valid for 5 years and renewable through Form 10AB. Notification 12/2017-CTR Entry 1 covers both 12AA and 12AB references; trusts holding valid 12AB are eligible for the GST exemption subject to Para 2(r) activity test."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is a charity marathon taxable even if proceeds are donated?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, in most cases. The Tamil Nadu AAR in Dream Runners Half Marathon held that the activity of conducting a marathon event by a Section 12AA trust does not fall under the definition of charitable activities in Para 2(r). Even though the proceeds were donated to NGOs, the marathon itself is a separate supply of service to the participants (registration fee in consideration of participation), and taxable. The use of proceeds for charity does not alter the nature of the supply."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How does FCRA registration interact with GST?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "FCRA (Foreign Contribution Regulation Act 2010) and GST run as parallel compliance regimes. FCRA registration is mandatory for any NGO receiving foreign contributions and governs the receipt-side compliance - separate bank account, prior intimation, FC-4 annual return by 31 December. FCRA registration does NOT exempt an NGO from GST. The GST analysis on a foreign grant is identical to a domestic grant - pure donation outside supply scope; tied grant potentially taxable subject to Entry 1 charitable activities test."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Are religious precincts rental receipts exempt?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Entry 13 of Notification 12/2017-CTR exempts services by way of renting of precincts of a religious place meant for the general public, owned or managed by an entity registered under Section 12AA / 12AB - subject to three thresholds. Renting of rooms is exempt only if charges are below INR 1,000 per day. Renting of kalyana mandapam, community hall, or open area is exempt only if charges are below INR 10,000 per day. Renting of shops is exempt only if monthly rent is below INR 10,000. Above any threshold, the entire receipt is taxable at 18 percent."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the cost of monthly GST returns for an NGO at Patron Accounting?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Starting from INR 1,499 per month (Exclusive of GST and government charges) for single-trust / single-GSTIN basic compliance. Monthly returns plus grant classification plus Rule 42/43 package starts from INR 2,999 per month. Entry 1 / Para 2(r) activity mapping, FCRA + GST parallel compliance setup, CSR / sponsorship structuring, and DRC-01C reply are quoted separately based on scope."
+                }
+            }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1629,17 +1634,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1662,8 +1660,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1700,7 +1696,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (frozen, NOT live new Date())
 (function() {
@@ -1711,4 +1706,20 @@ window.addEventListener('scroll', function() {
     if (el2) { el2.textContent = dateStr; }
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+
 

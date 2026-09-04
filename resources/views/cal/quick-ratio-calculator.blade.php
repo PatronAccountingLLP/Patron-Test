@@ -1,196 +1,8 @@
 @extends('layouts.app')
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
-@section('meta')
-    <title>Quick Ratio Calculator | Acid Test Ratio &amp; Benchmarks</title>
-    <meta name="description" content="Quick Ratio (Acid Test) Calculator: build up quick assets, run a stress test and compare against industry benchmarks. ICAI-aligned, CA-reviewed. Free!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/quick-ratio-calculator">
-    <meta property="og:title" content="Quick Ratio Calculator (Acid Test) — Free 2026">
-    <meta property="og:description" content="Compute Quick Ratio + Cash Ratio with stress testing. Build-up of quick assets. Schedule III aligned. Free CA-reviewed tool.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/quick-ratio-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Quick Ratio Calculator (Acid Test) — Free 2026">
-    <meta name="twitter:description" content="Quick Ratio + Cash Ratio with stress testing. Build-up of quick assets. Free CA tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-    <meta name="theme-color" content="#15365f">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "Quick Ratio Calculator",
-      "description": "Quick Ratio Calculator (Acid Test) computes the quick ratio for Indian companies, LLPs and businesses using a build-up approach for quick assets — Cash and Bank Balances, Marketable Securities and Current Investments, Trade Receivables (net of Expected Credit Loss provisions under Ind AS 109), and Other Current Receivables divided by Total Current Liabilities. The standard formula is Quick Ratio = (Current Assets minus Inventory minus Prepaid Expenses) divided by Current Liabilities, equivalently Quick Ratio = (Cash plus Marketable Securities plus Receivables) divided by Current Liabilities. The tool includes optional stress-testing for adverse scenarios — receivables haircut to simulate collection delays and marketable securities haircut for market value drops. Output includes Quick Ratio, Super-Quick Ratio also known as Cash Ratio, stress-tested ratio, health zone classification (Stressed below 0.5, Acceptable 0.5-1.0, Healthy 1.0-1.5, Strong above 1.5), and industry benchmark comparison. Aligned with Schedule III of the Companies Act 2013 ratio disclosure framework effective FY 2021-22 and lender covenant requirements typically embedded in working capital loan agreements.",
-      "url": "https://www.patronaccounting.com/tools/quick-ratio-calculator",
-      "applicationCategory": "FinanceApplication",
-      "operatingSystem": "Any",
-      "datePublished": "2026-05-07T08:00:00+05:30",
-      "dateModified": "2026-05-19T08:00:00+05:30",
-      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
-      "author": {
-        "@type": "Person",
-        "@id": "https://patronaccounting.com/#founder",
-        "name": "CA Sundram Gupta",
-        "jobTitle": "Founder & Chartered Accountant",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Institute of Chartered Accountants of India",
-            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-          }
-        }]
-      },
-      "publisher": { "@id": "https://patronaccounting.com/#organization" },
-      "provider": { "@id": "https://patronaccounting.com/#organization" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Quick Ratio Calculator", "item": "https://www.patronaccounting.com/tools/quick-ratio-calculator"}
-      ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "datePublished": "2026-05-07T08:00:00+05:30",
-      "dateModified": "2026-05-19T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is the quick ratio?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The quick ratio (also called acid test ratio) is a stricter liquidity ratio than the current ratio. It measures a company's ability to meet short-term obligations using only its most liquid assets — cash, marketable securities and receivables. Inventory and prepaid expenses are excluded because they cannot be converted to cash quickly enough in an adverse scenario. Quick Ratio = (Cash + Marketable Securities + Receivables) ÷ Current Liabilities, equivalently (Current Assets − Inventory − Prepaid) ÷ Current Liabilities."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does quick ratio differ from current ratio?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Current ratio includes all current assets in the numerator, including inventory and prepaid expenses. Quick ratio strips those out, focusing only on assets readily convertible to cash. Quick ratio is more conservative and typically lower than current ratio. A company can have a healthy current ratio of 2.0 but a stressed quick ratio of 0.4 if most current assets are slow-moving inventory. Lenders increasingly use quick ratio for inventory-heavy businesses."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why is inventory excluded from quick ratio?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Inventory is excluded because it requires sales activity to convert to cash, which takes time. In a liquidity crunch, inventory may need to be discounted heavily to dispose quickly, or may be obsolete with limited resale value. The quick ratio assumes a stress scenario where the company must meet obligations from existing receivables and cash, without relying on selling inventory. This makes the quick ratio especially useful for cyclical businesses, tech companies and during market downturns."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why are prepaid expenses excluded from quick ratio?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Prepaid expenses are excluded because they cannot be converted back into cash. They represent payments already made for future services — rent, insurance, software subscriptions. Even in a liquidity crisis, prepaid expenses do not generate cash inflow; they only reduce future cash outflows. Some practitioners also exclude tax receivables and statutory deposits, although these are typically small and recoverable. The quick ratio formula assumes only assets that can fund obligations from external sources."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the acid test ratio?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Acid test ratio is another name for the quick ratio — they refer to the same metric. The term originates from gold prospecting, where acid was used to test gold authenticity quickly. Applied to corporate finance, the acid test asks whether a company can pay off its short-term obligations from quick assets alone — passing the test means the company would not collapse in a short-term liquidity squeeze. Both terms appear interchangeably in lender agreements and financial analysis."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the super-quick ratio or cash ratio?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The super-quick ratio (cash ratio) is even stricter than the quick ratio — only cash and cash equivalents divided by current liabilities. Receivables are excluded since collection may be uncertain or delayed. Cash Ratio = (Cash + Cash Equivalents) ÷ Current Liabilities. A cash ratio above 0.5 indicates very strong immediate liquidity. Most healthy companies operate at 0.2 to 0.5. The cash ratio is most relevant for distressed companies or crisis scenario testing."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is a good quick ratio?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A quick ratio of 1.0 or above is generally considered healthy — the company can pay all current liabilities from quick assets alone. Below 0.5 signals stress; 0.5 to 1.0 is acceptable but tight; above 1.5 may indicate excess liquid assets not deployed productively. Industry context matters significantly — services and IT typically operate at 1.5 plus given low inventory, while inventory-heavy retail or manufacturing may operate healthily at 0.7 to 1.2."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are typical industry benchmarks for quick ratio?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "IT and services typically target 1.5 to 2.5 (low inventory). Pharma operates at 1.0 to 2.0. Manufacturing targets 0.8 to 1.2 due to inventory and receivables. FMCG and trading at 0.5 to 1.0 with high inventory turnover. Retail at 0.3 to 0.7. Real estate varies widely 0.5 to 1.5. Hospitality at 0.5 to 1.0 due to perishable inventory and prepaid bookings. Always benchmark against listed peers in the same sector for meaningful comparison."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do you calculate quick ratio from a balance sheet?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "From Schedule III balance sheet under Companies Act 2013: Numerator = Cash and Cash Equivalents + Other Bank Balances + Current Investments + Trade Receivables (net of ECL) + Loans (current) + Other Financial Assets (current). Denominator = Total Current Liabilities (Borrowings, Trade Payables, Other Financial Liabilities, Other Current Liabilities, Provisions current, Current Tax Liabilities). Exclude Inventories and Other Current Assets where prepaid expenses sit. Most companies disclose Quick Ratio in Notes to Accounts under Ratio Analysis."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are limitations of the quick ratio?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Quick ratio has limitations: it treats all receivables as equally liquid (older receivables may not collect), uses point-in-time data subject to year-end window dressing, ignores cash flow timing within the next 12 months, and treats current liabilities as equally urgent when some have flexible terms. The ratio also does not capture available undrawn credit lines, which may be substantial. Use quick ratio alongside cash ratio, cash flow from operations and DSO trend for complete liquidity picture."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why do lenders examine quick ratio?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Lenders use quick ratio for inventory-heavy borrowers — manufacturing, retail, FMCG — where current ratio could overstate liquidity. Working capital loan agreements may include both current ratio and quick ratio covenants. Banks also stress-test the quick ratio under recessionary scenarios where receivables collection slows by 30-50%. Failing the stress test, even with healthy current ratio, can lead to higher interest rates, additional collateral requirements or limit reductions on cash credit facilities."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How can a company improve its quick ratio?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Strategies to improve quick ratio: accelerate receivables collection, factor or discount receivables to convert to cash, reduce dependence on short-term debt by refinancing to long-term, raise fresh equity, sale of marketable securities to repay payables, reduce slow-moving inventory through targeted promotions. Avoid measures that hurt operations — aggressive collection that damages customer relationships, or refusing supplier credit that damages supplier ties. The best route is improving the cash conversion cycle holistically."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What does a quick ratio below 1 mean?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A quick ratio below 1 means the company cannot fully cover current liabilities from quick assets alone — it must liquidate inventory, draw credit lines, or roll over payables. This is not always alarming — many healthy retailers, FMCG and distribution businesses operate below 1 because inventory turns to cash quickly through high sales velocity. For service or IT businesses, a quick ratio below 1 is unusual and warrants closer examination of working capital management."
-          }
-        }
-      ]
-    }
-    </script>
-@endsection
-
 <style>
         :root {
             --primary: #15365f;
@@ -463,7 +275,195 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 }
 
 </style>
+@endpush
 
+@section('meta')
+    <title>Quick Ratio Calculator | Acid Test Ratio &amp; Benchmarks</title>
+    <meta name="description" content="Quick Ratio (Acid Test) Calculator: build up quick assets, run a stress test and compare against industry benchmarks. ICAI-aligned, CA-reviewed. Free!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/quick-ratio-calculator">
+    <meta property="og:title" content="Quick Ratio Calculator (Acid Test) — Free 2026">
+    <meta property="og:description" content="Compute Quick Ratio + Cash Ratio with stress testing. Build-up of quick assets. Schedule III aligned. Free CA-reviewed tool.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/quick-ratio-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Quick Ratio Calculator (Acid Test) — Free 2026">
+    <meta name="twitter:description" content="Quick Ratio + Cash Ratio with stress testing. Build-up of quick assets. Free CA tool.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+    <meta name="theme-color" content="#15365f">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Quick Ratio Calculator",
+      "description": "Quick Ratio Calculator (Acid Test) computes the quick ratio for Indian companies, LLPs and businesses using a build-up approach for quick assets — Cash and Bank Balances, Marketable Securities and Current Investments, Trade Receivables (net of Expected Credit Loss provisions under Ind AS 109), and Other Current Receivables divided by Total Current Liabilities. The standard formula is Quick Ratio = (Current Assets minus Inventory minus Prepaid Expenses) divided by Current Liabilities, equivalently Quick Ratio = (Cash plus Marketable Securities plus Receivables) divided by Current Liabilities. The tool includes optional stress-testing for adverse scenarios — receivables haircut to simulate collection delays and marketable securities haircut for market value drops. Output includes Quick Ratio, Super-Quick Ratio also known as Cash Ratio, stress-tested ratio, health zone classification (Stressed below 0.5, Acceptable 0.5-1.0, Healthy 1.0-1.5, Strong above 1.5), and industry benchmark comparison. Aligned with Schedule III of the Companies Act 2013 ratio disclosure framework effective FY 2021-22 and lender covenant requirements typically embedded in working capital loan agreements.",
+      "url": "https://www.patronaccounting.com/tools/quick-ratio-calculator",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Any",
+      "datePublished": "2026-05-07T08:00:00+05:30",
+      "dateModified": "2026-05-19T08:00:00+05:30",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
+      "author": {
+        "@type": "Person",
+        "@id": "https://patronaccounting.com/#founder",
+        "name": "CA Sundram Gupta",
+        "jobTitle": "Founder & Chartered Accountant",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Institute of Chartered Accountants of India",
+            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+          }
+        }]
+      },
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": { "@id": "https://patronaccounting.com/#organization" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Quick Ratio Calculator", "item": "https://www.patronaccounting.com/tools/quick-ratio-calculator"}
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "datePublished": "2026-05-07T08:00:00+05:30",
+      "dateModified": "2026-05-19T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the quick ratio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The quick ratio (also called acid test ratio) is a stricter liquidity ratio than the current ratio. It measures a company's ability to meet short-term obligations using only its most liquid assets — cash, marketable securities and receivables. Inventory and prepaid expenses are excluded because they cannot be converted to cash quickly enough in an adverse scenario. Quick Ratio = (Cash + Marketable Securities + Receivables) ÷ Current Liabilities, equivalently (Current Assets − Inventory − Prepaid) ÷ Current Liabilities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does quick ratio differ from current ratio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Current ratio includes all current assets in the numerator, including inventory and prepaid expenses. Quick ratio strips those out, focusing only on assets readily convertible to cash. Quick ratio is more conservative and typically lower than current ratio. A company can have a healthy current ratio of 2.0 but a stressed quick ratio of 0.4 if most current assets are slow-moving inventory. Lenders increasingly use quick ratio for inventory-heavy businesses."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is inventory excluded from quick ratio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Inventory is excluded because it requires sales activity to convert to cash, which takes time. In a liquidity crunch, inventory may need to be discounted heavily to dispose quickly, or may be obsolete with limited resale value. The quick ratio assumes a stress scenario where the company must meet obligations from existing receivables and cash, without relying on selling inventory. This makes the quick ratio especially useful for cyclical businesses, tech companies and during market downturns."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why are prepaid expenses excluded from quick ratio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Prepaid expenses are excluded because they cannot be converted back into cash. They represent payments already made for future services — rent, insurance, software subscriptions. Even in a liquidity crisis, prepaid expenses do not generate cash inflow; they only reduce future cash outflows. Some practitioners also exclude tax receivables and statutory deposits, although these are typically small and recoverable. The quick ratio formula assumes only assets that can fund obligations from external sources."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the acid test ratio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Acid test ratio is another name for the quick ratio — they refer to the same metric. The term originates from gold prospecting, where acid was used to test gold authenticity quickly. Applied to corporate finance, the acid test asks whether a company can pay off its short-term obligations from quick assets alone — passing the test means the company would not collapse in a short-term liquidity squeeze. Both terms appear interchangeably in lender agreements and financial analysis."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the super-quick ratio or cash ratio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The super-quick ratio (cash ratio) is even stricter than the quick ratio — only cash and cash equivalents divided by current liabilities. Receivables are excluded since collection may be uncertain or delayed. Cash Ratio = (Cash + Cash Equivalents) ÷ Current Liabilities. A cash ratio above 0.5 indicates very strong immediate liquidity. Most healthy companies operate at 0.2 to 0.5. The cash ratio is most relevant for distressed companies or crisis scenario testing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a good quick ratio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A quick ratio of 1.0 or above is generally considered healthy — the company can pay all current liabilities from quick assets alone. Below 0.5 signals stress; 0.5 to 1.0 is acceptable but tight; above 1.5 may indicate excess liquid assets not deployed productively. Industry context matters significantly — services and IT typically operate at 1.5 plus given low inventory, while inventory-heavy retail or manufacturing may operate healthily at 0.7 to 1.2."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are typical industry benchmarks for quick ratio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "IT and services typically target 1.5 to 2.5 (low inventory). Pharma operates at 1.0 to 2.0. Manufacturing targets 0.8 to 1.2 due to inventory and receivables. FMCG and trading at 0.5 to 1.0 with high inventory turnover. Retail at 0.3 to 0.7. Real estate varies widely 0.5 to 1.5. Hospitality at 0.5 to 1.0 due to perishable inventory and prepaid bookings. Always benchmark against listed peers in the same sector for meaningful comparison."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you calculate quick ratio from a balance sheet?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "From Schedule III balance sheet under Companies Act 2013: Numerator = Cash and Cash Equivalents + Other Bank Balances + Current Investments + Trade Receivables (net of ECL) + Loans (current) + Other Financial Assets (current). Denominator = Total Current Liabilities (Borrowings, Trade Payables, Other Financial Liabilities, Other Current Liabilities, Provisions current, Current Tax Liabilities). Exclude Inventories and Other Current Assets where prepaid expenses sit. Most companies disclose Quick Ratio in Notes to Accounts under Ratio Analysis."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are limitations of the quick ratio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Quick ratio has limitations: it treats all receivables as equally liquid (older receivables may not collect), uses point-in-time data subject to year-end window dressing, ignores cash flow timing within the next 12 months, and treats current liabilities as equally urgent when some have flexible terms. The ratio also does not capture available undrawn credit lines, which may be substantial. Use quick ratio alongside cash ratio, cash flow from operations and DSO trend for complete liquidity picture."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why do lenders examine quick ratio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lenders use quick ratio for inventory-heavy borrowers — manufacturing, retail, FMCG — where current ratio could overstate liquidity. Working capital loan agreements may include both current ratio and quick ratio covenants. Banks also stress-test the quick ratio under recessionary scenarios where receivables collection slows by 30-50%. Failing the stress test, even with healthy current ratio, can lead to higher interest rates, additional collateral requirements or limit reductions on cash credit facilities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can a company improve its quick ratio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Strategies to improve quick ratio: accelerate receivables collection, factor or discount receivables to convert to cash, reduce dependence on short-term debt by refinancing to long-term, raise fresh equity, sale of marketable securities to repay payables, reduce slow-moving inventory through targeted promotions. Avoid measures that hurt operations — aggressive collection that damages customer relationships, or refusing supplier credit that damages supplier ties. The best route is improving the cash conversion cycle holistically."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does a quick ratio below 1 mean?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A quick ratio below 1 means the company cannot fully cover current liabilities from quick assets alone — it must liquidate inventory, draw credit lines, or roll over payables. This is not always alarming — many healthy retailers, FMCG and distribution businesses operate below 1 because inventory turns to cash quickly through high sales velocity. For service or IT businesses, a quick ratio below 1 is unusual and warrants closer examination of working capital management."
+          }
+        }
+      ]
+    }
+    </script>
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Tool navigation">
     <div class="toc-nav-inner">

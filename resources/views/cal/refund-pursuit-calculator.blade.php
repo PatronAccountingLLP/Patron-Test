@@ -1,210 +1,8 @@
 @extends('layouts.app')
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
-@section('meta')
-    <title>GST Refund Calculator | Cost-Benefit &amp; ROI Verdict</title>
-    <meta name="description" content="GST refund pursuit calculator: weigh CA fees, time and success odds against your expected refund plus Section 56 interest. Should you file? Get an ROI verdict.">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/refund-pursuit-calculator">
-    <meta property="og:title" content="Refund Pursuit Calculator — Cost-Benefit of GST Refund 2026">
-    <meta property="og:description" content="Decide whether a GST refund is worth pursuing. Computes expected recovery, total costs, time-money loss, ROI & break-even probability. Decision verdict.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/refund-pursuit-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Refund Pursuit Calculator — Cost-Benefit of GST Refund 2026">
-    <meta name="twitter:description" content="Should you pursue this refund? ROI verdict, break-even probability, time-money cost analysis. Free CA tool.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
-    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
-    <meta name="theme-color" content="#15365f">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebApplication",
-      "name": "Refund Pursuit Calculator (Cost-Benefit of GST Refund)",
-      "description": "Refund Pursuit Calculator computes the cost-benefit of pursuing a Goods and Services Tax refund application before incurring professional fees and internal effort on the filing of Form GST RFD-01 under Section 54 of the Central Goods and Services Tax Act, 2017 read with Rule 89 of the Central Goods and Services Tax Rules, 2017. The tool computes expected recovery as the product of refund amount and probability of sanction, plus the interest entitlement under Section 56 at six per cent per annum for refund delayed beyond sixty days from acknowledgement or nine per cent per annum where the refund arises from an appellate order. The tool computes total pursuit costs including Chartered Accountant or Cost Accountant professional fees, mandatory CA certification under Annexure-2 of Circular No. 125/44/2019-GST for refund claims exceeding two lakh rupees, documentation costs including Bank Realisation Certificate or Foreign Inward Remittance Certificate procurement and statement preparation, internal employee time cost, and expected litigation cost weighted by probability of rejection. The tool computes time-money cost reflecting the opportunity cost of capital blocked during the refund processing cycle. The tool computes the net benefit as expected recovery less total costs less time-money cost, the return on investment as a multiple of direct costs, and the break-even probability above which the pursuit is economically rational. Probability baselines reflect category-specific historical sanction rates across exports under Letter of Undertaking, exports with payment of Integrated Goods and Services Tax, supplies to Special Economic Zone unit or developer with or without payment of tax, accumulated Input Tax Credit due to Inverted Duty Structure under Rule 89(5), deemed exports under Notification No. 48/2017-Central Tax, excess balance in electronic cash ledger, excess tax paid by mistake, refund pursuant to assessment or appellate order, and any other category. The tool reflects the introduction of system-driven ninety per cent provisional refund within seven days for low-risk applications under Notification No. 13/2025-Central Tax effective 1 October 2025 and CBIC Instruction No. 06/2025-GST extending the provisional refund mechanism from zero-rated supplies to Inverted Duty Structure claims as a trade-facilitation measure.",
-      "url": "https://www.patronaccounting.com/tools/refund-pursuit-calculator",
-      "applicationCategory": "FinanceApplication",
-      "operatingSystem": "Any",
-      "datePublished": "2026-05-08T08:00:00+05:30",
-      "dateModified": "2026-05-08T08:00:00+05:30",
-      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
-      "author": {
-        "@type": "Person",
-        "@id": "https://patronaccounting.com/#founder",
-        "name": "CA Sundram Gupta",
-        "jobTitle": "Founder & Chartered Accountant",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Institute of Chartered Accountants of India",
-            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-          }
-        }]
-      },
-      "publisher": { "@id": "https://patronaccounting.com/#organization" },
-      "provider": {"@id": "https://patronaccounting.com/#organization"}
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-        {"@type": "ListItem", "position": 3, "name": "Refund Pursuit Calculator", "item": "https://www.patronaccounting.com/tools/refund-pursuit-calculator"}
-      ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "When is a GST refund worth pursuing?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A GST refund is worth pursuing when the expected recovery — refund amount multiplied by sanction probability plus Section 56 interest — exceeds total costs by a meaningful margin. The rule of thumb is a minimum 3x return on direct costs for a clean case and 5x for cases requiring litigation defence. Refunds below ₹50,000 typically struggle to meet this threshold once CA fees, documentation costs and internal time are factored in."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are typical CA fees for GST refund filing?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "CA professional fees for GST refund filing range from ₹5,000 for simple cases like excess cash ledger refunds to ₹50,000 or more for complex Inverted Duty Structure or SEZ refund claims. The fee structure typically includes statement preparation, Annexure-B compilation, RFD-01 filing on the GST portal, deficiency-memo defence and follow-up till credit. CA certification under Annexure-2 of Circular 125 carries a separate fee of ₹3,000 to ₹15,000 depending on refund amount and category."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is the probability of refund sanction estimated?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Sanction probability depends on three factors: refund category baseline rate, documentation readiness and risk-flagging by the system. Excess cash ledger refunds have ~95% baseline; export under LUT around 80%; Inverted Duty Structure 70%; deemed exports 65%; any-other-category lowest at 60%. Documentation completeness adjusts the baseline — full readiness preserves the baseline; partial readiness scales it down by 10-30%. From October 2025, system-flagged low-risk cases get 90% provisional sanction within 7 days."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the time-money cost of pursuing a refund?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Time-money cost is the opportunity cost of capital blocked during the refund processing cycle. It equals refund times cost of capital times days till credit divided by 365. For a ₹10 lakh refund taking 90 days at 12% cost of capital, the time-money cost is approximately ₹29,500. The 90% provisional refund mechanism from 1 October 2025 reduces this materially — 90% is unblocked within 7 days, leaving only 10% to bear the full processing time."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is Section 56 interest and does it offset pursuit costs?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 56 provides 6% simple interest on refunds delayed beyond 60 days from acknowledgement. For appellate refunds, the rate is 9%. Interest accrues from day 61 till credit date. It partially offsets working capital cost but rarely fully — 6% versus typical cost of capital of 12%. For a ₹10 lakh refund delayed 90 days, interest yields approximately ₹4,932 — enough for modest CA fees but not full pursuit costs."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What costs are typically excluded from pursuit calculations?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Typical pursuit calculations focus on direct costs such as CA fees, CA certification, documentation procurement and internal time. Costs often excluded but worth considering include: opportunity cost of management attention, distraction from core operations, risk of triggering departmental scrutiny on adjacent issues, cost of multi-year follow-up if litigation arises, and reputational cost of a public refund dispute. For high-value refunds these soft costs can exceed direct costs, especially where the refund quantum is contentious."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the break-even probability for refund pursuit?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Break-even probability is the minimum sanction probability at which expected recovery equals total costs and time-money loss. It is computed as total costs plus time-money cost divided by refund amount plus expected interest. If actual probability exceeds break-even, pursuit is economically rational. For a ₹5 lakh refund with ₹15,000 costs and ₹10,000 time-money cost, break-even probability is around 5% — making pursuit attractive even for moderately uncertain cases. For ₹50,000 refunds the break-even can rise above 50%."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Should I pursue a refund close to the 2-year limitation?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A refund close to the two-year Section 54(1) limitation introduces deficiency-memo risk. If the proper officer issues Form RFD-03 within 15 days of filing and the rectified application also has limitation expiry imminent, the entire refund right may be lost. For refunds within 60 days of limitation expiry, pursuit is feasible only with fully ready documentation and a buffer of at least 30 days for one rectification cycle. Engage a CA for rapid filing if pursuit is decided."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does Aadhaar authentication affect pursuit economics?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "From 1 October 2025 per Notification 14/2025-Central Tax, taxpayers not Aadhaar-authenticated under Rule 10B are excluded from the 90% provisional refund mechanism. The economic impact is significant — a ₹10 lakh refund without Aadhaar takes 60-90 days for full sanction versus 7 days for 90% provisional with Aadhaar. The time-money cost differential alone can exceed ₹15,000-25,000. Complete Aadhaar authentication on the GST portal before filing to capture this benefit."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What if my refund is rejected — how does that affect pursuit ROI?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Rejection through Form RFD-06 triggers appeal under Section 107 within three months, with a 10% pre-deposit and additional CA fees of ₹15,000-50,000. Appellate authority orders carry their own appeal cycle to GSTAT under Section 112 from October 2025 onwards. Pursuit ROI for rejected cases turns on appeal success probability. Typical second-level success rates run 40-60% for substantive issues. Litigation cost should be factored as expected appeal cost multiplied by probability of rejection in pre-pursuit calculations."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can the 90% provisional refund alone justify pursuit?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "For low-risk Aadhaar-authenticated taxpayers, the 90% provisional refund within 7 days from October 2025 dramatically improves pursuit economics — 90% of refund is realised before the bulk of pursuit costs are even incurred. For ₹10 lakh+ refunds in eligible categories (zero-rated supplies, Inverted Duty Structure), provisional sanction alone covers CA fees within the first week. The remaining 10% follows within 60 days. This makes refunds in the ₹2-5 lakh band economically viable where they were marginal earlier."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the minimum refund amount worth pursuing?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The minimum economically viable refund amount depends on category. For excess cash ledger refunds with no CA cert and minimal documentation, ₹25,000 can be viable. For export LUT or IGST refunds, ₹50,000 to ₹1 lakh is typically the floor. For Inverted Duty Structure with HSN analysis and Statement-1A complexity, ₹2 lakh is reasonable minimum. For deemed exports requiring recipient declarations, ₹3 lakh or above. These thresholds drop where the 90% provisional refund applies and rise where litigation risk is high."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do internal employee time costs factor into the calculation?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Internal time cost is the opportunity cost of employee hours spent on data preparation, document gathering, statement filling, deficiency response and follow-up. A typical export refund consumes 10-20 hours of accounts team time; an Inverted Duty Structure case 20-40 hours; a deemed export with recipient coordination 30-60 hours. At a blended hourly rate of ₹500-1500 for a finance executive, this translates to ₹5,000 to ₹90,000 in internal cost. Enter custom hours and rates above for accurate computation."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Should small recurring refunds be aggregated for cost efficiency?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes for inverted duty structure and exports, where periods can be clubbed in a single RFD-01 if all relate to the same financial year and the rate-inversion structure is consistent. Clubbing 12 monthly ₹50,000 refunds into one ₹6 lakh refund spreads CA fees across a larger amount, improving ROI. The two-year limitation runs separately for each period — the earliest period in the cluster determines the binding deadline. Clubbing is not permitted across financial years or different categories."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "When should I drop pursuit and absorb the cost?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Drop pursuit when expected recovery is below 1.5x total costs, when the refund category has weak baseline probability under 50%, when documentation gaps cannot be remedied within limitation, or when the underlying transaction is contentious and likely to trigger broader scrutiny. Refunds for restricted goods under Notification 5/2017 or 9/2022, or arising from rate-cut accumulation, should generally not be pursued unless legal precedent supports the claim. Document the decision with internal note for audit trail."
-          }
-        }
-      ]
-    }
-    </script>
-@endsection
-
 <style>
         :root {
             --primary: #15365f;
@@ -504,7 +302,209 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
 }
 
 </style>
+@endpush
 
+@section('meta')
+    <title>GST Refund Calculator | Cost-Benefit &amp; ROI Verdict</title>
+    <meta name="description" content="GST refund pursuit calculator: weigh CA fees, time and success odds against your expected refund plus Section 56 interest. Should you file? Get an ROI verdict.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/refund-pursuit-calculator">
+    <meta property="og:title" content="Refund Pursuit Calculator — Cost-Benefit of GST Refund 2026">
+    <meta property="og:description" content="Decide whether a GST refund is worth pursuing. Computes expected recovery, total costs, time-money loss, ROI & break-even probability. Decision verdict.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/refund-pursuit-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Refund Pursuit Calculator — Cost-Benefit of GST Refund 2026">
+    <meta name="twitter:description" content="Should you pursue this refund? ROI verdict, break-even probability, time-money cost analysis. Free CA tool.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
+    <meta name="theme-color" content="#15365f">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Refund Pursuit Calculator (Cost-Benefit of GST Refund)",
+      "description": "Refund Pursuit Calculator computes the cost-benefit of pursuing a Goods and Services Tax refund application before incurring professional fees and internal effort on the filing of Form GST RFD-01 under Section 54 of the Central Goods and Services Tax Act, 2017 read with Rule 89 of the Central Goods and Services Tax Rules, 2017. The tool computes expected recovery as the product of refund amount and probability of sanction, plus the interest entitlement under Section 56 at six per cent per annum for refund delayed beyond sixty days from acknowledgement or nine per cent per annum where the refund arises from an appellate order. The tool computes total pursuit costs including Chartered Accountant or Cost Accountant professional fees, mandatory CA certification under Annexure-2 of Circular No. 125/44/2019-GST for refund claims exceeding two lakh rupees, documentation costs including Bank Realisation Certificate or Foreign Inward Remittance Certificate procurement and statement preparation, internal employee time cost, and expected litigation cost weighted by probability of rejection. The tool computes time-money cost reflecting the opportunity cost of capital blocked during the refund processing cycle. The tool computes the net benefit as expected recovery less total costs less time-money cost, the return on investment as a multiple of direct costs, and the break-even probability above which the pursuit is economically rational. Probability baselines reflect category-specific historical sanction rates across exports under Letter of Undertaking, exports with payment of Integrated Goods and Services Tax, supplies to Special Economic Zone unit or developer with or without payment of tax, accumulated Input Tax Credit due to Inverted Duty Structure under Rule 89(5), deemed exports under Notification No. 48/2017-Central Tax, excess balance in electronic cash ledger, excess tax paid by mistake, refund pursuant to assessment or appellate order, and any other category. The tool reflects the introduction of system-driven ninety per cent provisional refund within seven days for low-risk applications under Notification No. 13/2025-Central Tax effective 1 October 2025 and CBIC Instruction No. 06/2025-GST extending the provisional refund mechanism from zero-rated supplies to Inverted Duty Structure claims as a trade-facilitation measure.",
+      "url": "https://www.patronaccounting.com/tools/refund-pursuit-calculator",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Any",
+      "datePublished": "2026-05-08T08:00:00+05:30",
+      "dateModified": "2026-05-08T08:00:00+05:30",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
+      "author": {
+        "@type": "Person",
+        "@id": "https://patronaccounting.com/#founder",
+        "name": "CA Sundram Gupta",
+        "jobTitle": "Founder & Chartered Accountant",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/in/ca-sundram-gupta"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Institute of Chartered Accountants of India",
+            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+          }
+        }]
+      },
+      "publisher": { "@id": "https://patronaccounting.com/#organization" },
+      "provider": {"@id": "https://patronaccounting.com/#organization"}
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+        {"@type": "ListItem", "position": 3, "name": "Refund Pursuit Calculator", "item": "https://www.patronaccounting.com/tools/refund-pursuit-calculator"}
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "When is a GST refund worth pursuing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A GST refund is worth pursuing when the expected recovery — refund amount multiplied by sanction probability plus Section 56 interest — exceeds total costs by a meaningful margin. The rule of thumb is a minimum 3x return on direct costs for a clean case and 5x for cases requiring litigation defence. Refunds below ₹50,000 typically struggle to meet this threshold once CA fees, documentation costs and internal time are factored in."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are typical CA fees for GST refund filing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CA professional fees for GST refund filing range from ₹5,000 for simple cases like excess cash ledger refunds to ₹50,000 or more for complex Inverted Duty Structure or SEZ refund claims. The fee structure typically includes statement preparation, Annexure-B compilation, RFD-01 filing on the GST portal, deficiency-memo defence and follow-up till credit. CA certification under Annexure-2 of Circular 125 carries a separate fee of ₹3,000 to ₹15,000 depending on refund amount and category."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the probability of refund sanction estimated?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sanction probability depends on three factors: refund category baseline rate, documentation readiness and risk-flagging by the system. Excess cash ledger refunds have ~95% baseline; export under LUT around 80%; Inverted Duty Structure 70%; deemed exports 65%; any-other-category lowest at 60%. Documentation completeness adjusts the baseline — full readiness preserves the baseline; partial readiness scales it down by 10-30%. From October 2025, system-flagged low-risk cases get 90% provisional sanction within 7 days."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the time-money cost of pursuing a refund?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Time-money cost is the opportunity cost of capital blocked during the refund processing cycle. It equals refund times cost of capital times days till credit divided by 365. For a ₹10 lakh refund taking 90 days at 12% cost of capital, the time-money cost is approximately ₹29,500. The 90% provisional refund mechanism from 1 October 2025 reduces this materially — 90% is unblocked within 7 days, leaving only 10% to bear the full processing time."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Section 56 interest and does it offset pursuit costs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 56 provides 6% simple interest on refunds delayed beyond 60 days from acknowledgement. For appellate refunds, the rate is 9%. Interest accrues from day 61 till credit date. It partially offsets working capital cost but rarely fully — 6% versus typical cost of capital of 12%. For a ₹10 lakh refund delayed 90 days, interest yields approximately ₹4,932 — enough for modest CA fees but not full pursuit costs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What costs are typically excluded from pursuit calculations?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Typical pursuit calculations focus on direct costs such as CA fees, CA certification, documentation procurement and internal time. Costs often excluded but worth considering include: opportunity cost of management attention, distraction from core operations, risk of triggering departmental scrutiny on adjacent issues, cost of multi-year follow-up if litigation arises, and reputational cost of a public refund dispute. For high-value refunds these soft costs can exceed direct costs, especially where the refund quantum is contentious."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the break-even probability for refund pursuit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Break-even probability is the minimum sanction probability at which expected recovery equals total costs and time-money loss. It is computed as total costs plus time-money cost divided by refund amount plus expected interest. If actual probability exceeds break-even, pursuit is economically rational. For a ₹5 lakh refund with ₹15,000 costs and ₹10,000 time-money cost, break-even probability is around 5% — making pursuit attractive even for moderately uncertain cases. For ₹50,000 refunds the break-even can rise above 50%."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I pursue a refund close to the 2-year limitation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A refund close to the two-year Section 54(1) limitation introduces deficiency-memo risk. If the proper officer issues Form RFD-03 within 15 days of filing and the rectified application also has limitation expiry imminent, the entire refund right may be lost. For refunds within 60 days of limitation expiry, pursuit is feasible only with fully ready documentation and a buffer of at least 30 days for one rectification cycle. Engage a CA for rapid filing if pursuit is decided."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does Aadhaar authentication affect pursuit economics?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "From 1 October 2025 per Notification 14/2025-Central Tax, taxpayers not Aadhaar-authenticated under Rule 10B are excluded from the 90% provisional refund mechanism. The economic impact is significant — a ₹10 lakh refund without Aadhaar takes 60-90 days for full sanction versus 7 days for 90% provisional with Aadhaar. The time-money cost differential alone can exceed ₹15,000-25,000. Complete Aadhaar authentication on the GST portal before filing to capture this benefit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if my refund is rejected — how does that affect pursuit ROI?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rejection through Form RFD-06 triggers appeal under Section 107 within three months, with a 10% pre-deposit and additional CA fees of ₹15,000-50,000. Appellate authority orders carry their own appeal cycle to GSTAT under Section 112 from October 2025 onwards. Pursuit ROI for rejected cases turns on appeal success probability. Typical second-level success rates run 40-60% for substantive issues. Litigation cost should be factored as expected appeal cost multiplied by probability of rejection in pre-pursuit calculations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can the 90% provisional refund alone justify pursuit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For low-risk Aadhaar-authenticated taxpayers, the 90% provisional refund within 7 days from October 2025 dramatically improves pursuit economics — 90% of refund is realised before the bulk of pursuit costs are even incurred. For ₹10 lakh+ refunds in eligible categories (zero-rated supplies, Inverted Duty Structure), provisional sanction alone covers CA fees within the first week. The remaining 10% follows within 60 days. This makes refunds in the ₹2-5 lakh band economically viable where they were marginal earlier."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the minimum refund amount worth pursuing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The minimum economically viable refund amount depends on category. For excess cash ledger refunds with no CA cert and minimal documentation, ₹25,000 can be viable. For export LUT or IGST refunds, ₹50,000 to ₹1 lakh is typically the floor. For Inverted Duty Structure with HSN analysis and Statement-1A complexity, ₹2 lakh is reasonable minimum. For deemed exports requiring recipient declarations, ₹3 lakh or above. These thresholds drop where the 90% provisional refund applies and rise where litigation risk is high."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do internal employee time costs factor into the calculation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Internal time cost is the opportunity cost of employee hours spent on data preparation, document gathering, statement filling, deficiency response and follow-up. A typical export refund consumes 10-20 hours of accounts team time; an Inverted Duty Structure case 20-40 hours; a deemed export with recipient coordination 30-60 hours. At a blended hourly rate of ₹500-1500 for a finance executive, this translates to ₹5,000 to ₹90,000 in internal cost. Enter custom hours and rates above for accurate computation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should small recurring refunds be aggregated for cost efficiency?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes for inverted duty structure and exports, where periods can be clubbed in a single RFD-01 if all relate to the same financial year and the rate-inversion structure is consistent. Clubbing 12 monthly ₹50,000 refunds into one ₹6 lakh refund spreads CA fees across a larger amount, improving ROI. The two-year limitation runs separately for each period — the earliest period in the cluster determines the binding deadline. Clubbing is not permitted across financial years or different categories."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When should I drop pursuit and absorb the cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Drop pursuit when expected recovery is below 1.5x total costs, when the refund category has weak baseline probability under 50%, when documentation gaps cannot be remedied within limitation, or when the underlying transaction is contentious and likely to trigger broader scrutiny. Refunds for restricted goods under Notification 5/2017 or 9/2022, or arising from rate-cut accumulation, should generally not be pursued unless legal precedent supports the claim. Document the decision with internal note for audit trail."
+          }
+        }
+      ]
+    }
+    </script>
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation">
     <div class="toc-nav-inner">

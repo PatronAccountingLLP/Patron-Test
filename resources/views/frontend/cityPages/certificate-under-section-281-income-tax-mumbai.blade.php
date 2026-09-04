@@ -1,146 +1,12 @@
 
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>Certificate under Section 281 Income Tax in Mumbai 2026 | Patron Accounting</title>
-    <meta name="description" content="Get a Section 281 Income Tax NOC from the Assessing Officer before transferring property or shares. We file Form 34A and handle the process. From INR 4,999.">
-    <link rel="canonical" href="/certificate-under-section-281-income-tax/mumbai">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Certificate under Section 281 Income Tax 2026 | Patron Accounting">
-    <meta property="og:description" content="Get a Section 281 Income Tax NOC from the Assessing Officer before transferring property or shares. We file Form 34A and handle the process. From INR 4,999.">
-    <meta property="og:url" content="/certificate-under-section-281-income-tax/mumbai">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Certificate under Section 281 Income Tax 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Get a Section 281 Income Tax NOC from the Assessing Officer before transferring property or shares. We file Form 34A and handle the process. From INR 4,999.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "@id": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/mumbai/#service",
-        "name": "Certificate under Section 281 (Income Tax) in India",
-        "description": "End-to-end assistance in obtaining a Section 281 No Objection Certificate from the jurisdictional Assessing Officer before transferring or charging an asset such as immovable property or shares, including liability assessment, Form 34A preparation and filing under CBDT Circular 4/2011, and AO liaison, so the transfer is not void under Section 281.",
-        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/mumbai" },
-        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
-        "about": [{ "@type": "Thing", "name": "Income tax in India", "sameAs": "https://en.wikipedia.org/wiki/Income_tax_in_India" }],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Section 281 Certificate Service Plans",
-            "itemListElement": [
-                { "@type": "Offer", "name": "Section 281 NOC (Form 34A Filing and AO Liaison)", "priceCurrency": "INR", "price": "4999", "description": "Liability assessment, Form 34A preparation, filing with the jurisdictional Assessing Officer and follow-up for the Section 281 No Objection Certificate." }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "@id": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/mumbai/#breadcrumb",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Income Tax Return Filing", "item": "https://www.patronaccounting.com/income-tax-return" },
-            { "@type": "ListItem", "position": 3, "name": "Section 281 Certificate", "item": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/mumbai" }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "@id": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/mumbai/#faq",
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "mainEntity": [
-            { "@type": "Question", "name": "What is a certificate under Section 281?", "acceptedAnswer": { "@type": "Answer", "text": "It is the Income Tax Department's prior permission, or No Objection Certificate, allowing an assessee to transfer or create a charge on an asset. Section 281 provides that such a transfer, during the pendency of tax proceedings or when tax is payable, is void as against the department's claim, unless it is for adequate consideration without notice of the dues, or made with the prior permission of the jurisdictional Assessing Officer. The NOC is that permission." } },
-            { "@type": "Question", "name": "When do I need a Section 281 NOC?", "acceptedAnswer": { "@type": "Answer", "text": "You need it when you transfer or charge an asset such as immovable property, shares or machinery and there are pending tax proceedings or tax payable, or where the buyer or bank requires it as a condition. Buyers increasingly insist on the NOC because the department can recover the seller's dues from the transferred asset. Obtaining the AO's prior permission protects the transfer from being treated as void." } },
-            { "@type": "Question", "name": "How is the application made?", "acceptedAnswer": { "@type": "Answer", "text": "The application is made in Form 34A under Rule 111A, following CBDT Circular No. 4/2011. It includes the transferor's details, the asset, the proposed transferee, the consideration and the proposed date, along with details of any outstanding demand. It should be filed with the jurisdictional Assessing Officer at least 30 days before the proposed transaction. We prepare and file it and follow up for the certificate." } },
-            { "@type": "Question", "name": "How long does the NOC take and how long is it valid?", "acceptedAnswer": { "@type": "Answer", "text": "Where there is no outstanding demand and none likely in the next six months, the Assessing Officer is expected to grant the NOC within about 10 days, and many cases are decided within 10 to 15 days. Where a demand exists, the timeline depends on paying, indemnifying or obtaining a stay on it. Once issued, the Section 281 NOC is valid for 180 days, within which the transaction should be completed." } },
-            { "@type": "Question", "name": "What if I have an outstanding tax demand?", "acceptedAnswer": { "@type": "Answer", "text": "If there is an outstanding demand, the Assessing Officer will usually grant the NOC only after the demand is paid, or indemnified by a bank guarantee or sufficient funds. Where the demand is disputed, obtaining a stay order from the appellate authority, with adequate security, can help the AO issue the NOC. We assess your position and arrange the payment, indemnity or stay needed to move the application forward." } },
-            { "@type": "Question", "name": "How much does it cost to get a Section 281 certificate?", "acceptedAnswer": { "@type": "Answer", "text": "At Patron Accounting, the service starts from Rs 4,999 (exclusive of GST and government charges). This covers the liability assessment, preparation of Form 34A, filing with the Assessing Officer and follow-up. Where a demand has to be handled or a stay obtained, additional work may apply. The final fee depends on the complexity of your tax position and is confirmed after a review of your case." } },
-            { "@type": "Question", "name": "Does Section 281 apply to small transactions?", "acceptedAnswer": { "@type": "Answer", "text": "The provision applies where the tax payable or likely to be payable exceeds Rs 5,000 and the value of the assets charged or transferred exceeds Rs 10,000. In practice, the NOC is most relevant for high-value transfers such as property and shares, where buyers and banks require it and the consequences of a void transfer are significant. We advise whether a Section 281 NOC is needed for your specific transaction." } }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "@id": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/mumbai",
-        "name": "Certificate under Section 281 (Income Tax) in India",
-        "description": "Get a Section 281 Income Tax NOC from the Assessing Officer before transferring property or shares. We file Form 34A and handle the process. From INR 4,999.",
-        "url": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/mumbai",
-        "inLanguage": "en-IN",
-        "isPartOf": { "@id": "https://www.patronaccounting.com" },
-        "about": { "@id": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/mumbai/#service" },
-        "datePublished": "2026-06-08T08:00:00+05:30",
-        "dateModified": "2026-06-08T08:00:00+05:30",
-        "author": { "@id": "https://www.patronaccounting.com/#team" },
-        "breadcrumb": { "@id": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/mumbai/#breadcrumb" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How to Obtain a Section 281 NOC",
-        "description": "Five steps to obtain a Section 281 No Objection Certificate from the Assessing Officer: liability assessment, Form 34A preparation, filing, demand resolution, and NOC issuance.",
-        "totalTime": "P15D",
-        "step": [
-            { "@type": "HowToStep", "name": "Assessment", "text": "We review your pending proceedings and outstanding or likely demands." },
-            { "@type": "HowToStep", "name": "Form 34A", "text": "We prepare the application with the asset, transferee and dues details." },
-            { "@type": "HowToStep", "name": "Filing", "text": "The application is filed with the jurisdictional Assessing Officer, at least 30 days ahead." },
-            { "@type": "HowToStep", "name": "Demand resolution", "text": "Where a demand exists, we arrange payment, indemnity or a stay." },
-            { "@type": "HowToStep", "name": "NOC issued", "text": "The AO grants the certificate, valid for 180 days, for your transaction." }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "@id": "https://www.patronaccounting.com/#organization-rating",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "DefinedTermSet",
-        "name": "Section 281 Certificate Key Terms",
-        "definedTerm": [
-            { "@type": "DefinedTerm", "name": "Void transfer", "description": "A transfer ignored as against the tax department's claim, though valid between the parties." },
-            { "@type": "DefinedTerm", "name": "Prior permission / NOC", "description": "The Assessing Officer's clearance that protects the transfer under Section 281." },
-            { "@type": "DefinedTerm", "name": "Form 34A", "description": "The prescribed application for the certificate, under Rule 111A." },
-            { "@type": "DefinedTerm", "name": "Adequate consideration without notice", "description": "The other statutory exception, where there is no knowledge of the dues or proceeding." },
-            { "@type": "DefinedTerm", "name": "Jurisdictional AO", "description": "The Assessing Officer of the transferor who grants the NOC." }
-        ]
-    }
-    </script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -754,7 +620,146 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'CA-Assisted ITR Filing Open'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>Certificate under Section 281 Income Tax in Mumbai 2026 | Patron Accounting</title>
+    <meta name="description" content="Get a Section 281 Income Tax NOC from the Assessing Officer before transferring property or shares. We file Form 34A and handle the process. From INR 4,999.">
+    <link rel="canonical" href="/certificate-under-section-281-income-tax/mumbai">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Certificate under Section 281 Income Tax 2026 | Patron Accounting">
+    <meta property="og:description" content="Get a Section 281 Income Tax NOC from the Assessing Officer before transferring property or shares. We file Form 34A and handle the process. From INR 4,999.">
+    <meta property="og:url" content="/certificate-under-section-281-income-tax/mumbai">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Certificate under Section 281 Income Tax 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Get a Section 281 Income Tax NOC from the Assessing Officer before transferring property or shares. We file Form 34A and handle the process. From INR 4,999.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/mumbai/#service",
+        "name": "Certificate under Section 281 (Income Tax) in India",
+        "description": "End-to-end assistance in obtaining a Section 281 No Objection Certificate from the jurisdictional Assessing Officer before transferring or charging an asset such as immovable property or shares, including liability assessment, Form 34A preparation and filing under CBDT Circular 4/2011, and AO liaison, so the transfer is not void under Section 281.",
+        "provider": { "@id": "https://www.patronaccounting.com/#organization" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/mumbai" },
+        "areaServed": { "@type": "Country", "name": "India", "sameAs": "https://en.wikipedia.org/wiki/India" },
+        "about": [{ "@type": "Thing", "name": "Income tax in India", "sameAs": "https://en.wikipedia.org/wiki/Income_tax_in_India" }],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Section 281 Certificate Service Plans",
+            "itemListElement": [
+                { "@type": "Offer", "name": "Section 281 NOC (Form 34A Filing and AO Liaison)", "priceCurrency": "INR", "price": "4999", "description": "Liability assessment, Form 34A preparation, filing with the jurisdictional Assessing Officer and follow-up for the Section 281 No Objection Certificate." }
+            ]
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/mumbai/#breadcrumb",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Income Tax Return Filing", "item": "https://www.patronaccounting.com/income-tax-return" },
+            { "@type": "ListItem", "position": 3, "name": "Section 281 Certificate", "item": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/mumbai" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/mumbai/#faq",
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "mainEntity": [
+            { "@type": "Question", "name": "What is a certificate under Section 281?", "acceptedAnswer": { "@type": "Answer", "text": "It is the Income Tax Department's prior permission, or No Objection Certificate, allowing an assessee to transfer or create a charge on an asset. Section 281 provides that such a transfer, during the pendency of tax proceedings or when tax is payable, is void as against the department's claim, unless it is for adequate consideration without notice of the dues, or made with the prior permission of the jurisdictional Assessing Officer. The NOC is that permission." } },
+            { "@type": "Question", "name": "When do I need a Section 281 NOC?", "acceptedAnswer": { "@type": "Answer", "text": "You need it when you transfer or charge an asset such as immovable property, shares or machinery and there are pending tax proceedings or tax payable, or where the buyer or bank requires it as a condition. Buyers increasingly insist on the NOC because the department can recover the seller's dues from the transferred asset. Obtaining the AO's prior permission protects the transfer from being treated as void." } },
+            { "@type": "Question", "name": "How is the application made?", "acceptedAnswer": { "@type": "Answer", "text": "The application is made in Form 34A under Rule 111A, following CBDT Circular No. 4/2011. It includes the transferor's details, the asset, the proposed transferee, the consideration and the proposed date, along with details of any outstanding demand. It should be filed with the jurisdictional Assessing Officer at least 30 days before the proposed transaction. We prepare and file it and follow up for the certificate." } },
+            { "@type": "Question", "name": "How long does the NOC take and how long is it valid?", "acceptedAnswer": { "@type": "Answer", "text": "Where there is no outstanding demand and none likely in the next six months, the Assessing Officer is expected to grant the NOC within about 10 days, and many cases are decided within 10 to 15 days. Where a demand exists, the timeline depends on paying, indemnifying or obtaining a stay on it. Once issued, the Section 281 NOC is valid for 180 days, within which the transaction should be completed." } },
+            { "@type": "Question", "name": "What if I have an outstanding tax demand?", "acceptedAnswer": { "@type": "Answer", "text": "If there is an outstanding demand, the Assessing Officer will usually grant the NOC only after the demand is paid, or indemnified by a bank guarantee or sufficient funds. Where the demand is disputed, obtaining a stay order from the appellate authority, with adequate security, can help the AO issue the NOC. We assess your position and arrange the payment, indemnity or stay needed to move the application forward." } },
+            { "@type": "Question", "name": "How much does it cost to get a Section 281 certificate?", "acceptedAnswer": { "@type": "Answer", "text": "At Patron Accounting, the service starts from Rs 4,999 (exclusive of GST and government charges). This covers the liability assessment, preparation of Form 34A, filing with the Assessing Officer and follow-up. Where a demand has to be handled or a stay obtained, additional work may apply. The final fee depends on the complexity of your tax position and is confirmed after a review of your case." } },
+            { "@type": "Question", "name": "Does Section 281 apply to small transactions?", "acceptedAnswer": { "@type": "Answer", "text": "The provision applies where the tax payable or likely to be payable exceeds Rs 5,000 and the value of the assets charged or transferred exceeds Rs 10,000. In practice, the NOC is most relevant for high-value transfers such as property and shares, where buyers and banks require it and the consequences of a void transfer are significant. We advise whether a Section 281 NOC is needed for your specific transaction." } }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/mumbai",
+        "name": "Certificate under Section 281 (Income Tax) in India",
+        "description": "Get a Section 281 Income Tax NOC from the Assessing Officer before transferring property or shares. We file Form 34A and handle the process. From INR 4,999.",
+        "url": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/mumbai",
+        "inLanguage": "en-IN",
+        "isPartOf": { "@id": "https://www.patronaccounting.com" },
+        "about": { "@id": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/mumbai/#service" },
+        "datePublished": "2026-06-08T08:00:00+05:30",
+        "dateModified": "2026-06-08T08:00:00+05:30",
+        "author": { "@id": "https://www.patronaccounting.com/#team" },
+        "breadcrumb": { "@id": "https://www.patronaccounting.com/certificate-under-section-281-income-tax/mumbai/#breadcrumb" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Obtain a Section 281 NOC",
+        "description": "Five steps to obtain a Section 281 No Objection Certificate from the Assessing Officer: liability assessment, Form 34A preparation, filing, demand resolution, and NOC issuance.",
+        "totalTime": "P15D",
+        "step": [
+            { "@type": "HowToStep", "name": "Assessment", "text": "We review your pending proceedings and outstanding or likely demands." },
+            { "@type": "HowToStep", "name": "Form 34A", "text": "We prepare the application with the asset, transferee and dues details." },
+            { "@type": "HowToStep", "name": "Filing", "text": "The application is filed with the jurisdictional Assessing Officer, at least 30 days ahead." },
+            { "@type": "HowToStep", "name": "Demand resolution", "text": "Where a demand exists, we arrange payment, indemnity or a stay." },
+            { "@type": "HowToStep", "name": "NOC issued", "text": "The AO grants the certificate, valid for 180 days, for your transaction." }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.patronaccounting.com/#organization-rating",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5", "worstRating": "1" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "DefinedTermSet",
+        "name": "Section 281 Certificate Key Terms",
+        "definedTerm": [
+            { "@type": "DefinedTerm", "name": "Void transfer", "description": "A transfer ignored as against the tax department's claim, though valid between the parties." },
+            { "@type": "DefinedTerm", "name": "Prior permission / NOC", "description": "The Assessing Officer's clearance that protects the transfer under Section 281." },
+            { "@type": "DefinedTerm", "name": "Form 34A", "description": "The prescribed application for the certificate, under Rule 111A." },
+            { "@type": "DefinedTerm", "name": "Adequate consideration without notice", "description": "The other statutory exception, where there is no knowledge of the dues or proceeding." },
+            { "@type": "DefinedTerm", "name": "Jurisdictional AO", "description": "The Assessing Officer of the transferor who grants the NOC." }
+        ]
+    }
+    </script>
+@endsection
 @section('content')
 <main>
 
@@ -1510,17 +1515,10 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 </div>
 
 </main>
-@endsection
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
-
-
 <script>
 // TOC scroll arrows
 const tocWrapper = document.getElementById('tocWrapper');
@@ -1543,8 +1541,6 @@ window.addEventListener('scroll', function() {
     });
 });
 </script>
-
-<!-- WhatsApp Sticky Bar Script -->
 <script>
 (function() {
     var waBar = document.getElementById('waBar');
@@ -1581,7 +1577,6 @@ window.addEventListener('scroll', function() {
     } catch(e) {}
 })();
 </script>
-
 <script>
 // BF-1: Last Updated mirrors schema dateModified (stable, not live date)
 (function(){
@@ -1592,3 +1587,19 @@ window.addEventListener('scroll', function() {
     if(el2)el2.textContent=dateStr;
 })();
 </script>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Sticky Bar Script -->
+
+
+

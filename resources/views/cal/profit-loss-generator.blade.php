@@ -1,208 +1,5 @@
 @extends('layouts.app')
-
-@section('meta')
-    <title>Profit &amp; Loss Statement Generator | Schedule III P&amp;L</title>
-    <meta name="description" content="Profit &amp; Loss Statement Generator: create a formatted P&amp;L as per Schedule III of the Companies Act, 2013 for Indian businesses. Generate online free now!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/profit-loss-generator">
-    <meta property="og:title" content="Profit & Loss Statement Generator &mdash; Free P&L India">
-    <meta property="og:description" content="Profit and Loss Statement Generator creates P&L statements as per Schedule III of Companies Act, 2013 for Indian businesses.">
-    <meta property="og:type" content="website">
-    <meta property="og:locale" content="en_IN">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/profit-loss-generator">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Profit & Loss Statement Generator &mdash; Free P&L India">
-    <meta name="twitter:description" content="Profit and Loss Statement Generator creates P&L statements as per Schedule III of Companies Act, 2013. Generate now!">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-<script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebApplication",
-      "name": "Profit and Loss Statement Generator India",
-      "description": "Profit and Loss Statement Generator creates formatted P&L statements as per Schedule III of the Companies Act, 2013. Supports revenue, COGS, operating expenses, other income, tax, and OCI line items for Indian companies including Private Limited, LLP, and OPC entities.",
-      "url": "https://www.patronaccounting.com/tools/profit-loss-generator",
-      "applicationCategory": "UtilityApplication",
-      "operatingSystem": "Any",
-      "datePublished": "2026-03-05",
-      "dateModified": "2026-03-05",
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "INR"
-      },
-      "author": {
-        "@type": "Person",
-        "@id": "https://patronaccounting.com/#team",
-        "name": "CA & CS Patron Accounting Team",
-        "jobTitle": "Chartered Accountants & Company Secretaries",
-        "url": "https://www.patronaccounting.com/contact-page",
-        "sameAs": ["https://www.linkedin.com/company/patron-accounting"],
-        "hasCredential": [{
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Professional Certification",
-          "name": "Chartered Accountant (CA)",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Institute of Chartered Accountants of India",
-            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
-          }
-        }]
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://www.patronaccounting.com/images/site-logo.svg"
-        }
-      },
-      "provider": {
-        "@id": "https://patronaccounting.com/#organization"
-      }
-    }
-    </script>
-<script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Free Tools",
-          "item": "https://www.patronaccounting.com/tools/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Profit & Loss Statement Generator",
-          "item": "https://www.patronaccounting.com/tools/profit-loss-generator"
-        }
-      ]
-    }
-    </script>
-<script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is a Profit and Loss Statement?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A Profit and Loss Statement, also called an income statement, summarises a company's revenues, expenses, and net profit or loss over a specific accounting period. Under Section 129 of the Companies Act, 2013 and Schedule III, every Indian company must prepare this statement annually in the prescribed vertical format showing revenue from operations, other income, total expenses, and tax provisions."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the format of P&L statement under Schedule III?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Schedule III of the Companies Act, 2013 prescribes a vertical format for the Statement of Profit and Loss. It includes revenue from operations, other income, cost of materials consumed, employee benefit expense, finance costs, depreciation, other expenses, profit before tax, tax expense (current and deferred), profit after tax, and other comprehensive income. Division I applies to companies following Indian AS, Division II to Ind AS companies."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Who is required to prepare a Profit and Loss Statement in India?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Every company registered under the Companies Act, 2013 must prepare a Statement of Profit and Loss as part of its financial statements. This includes Private Limited Companies, One Person Companies, Public Companies, and Section 8 Companies. LLPs prepare an income and expenditure account under the LLP Act, 2008. Sole proprietors and partnerships prepare P&L accounts under the Income Tax Act for filing returns."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between a P&L statement and a balance sheet?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A P&L statement shows revenues and expenses over a period of time, revealing whether a business earned a profit or incurred a loss during that period. A balance sheet shows the financial position at a specific point in time, listing assets, liabilities, and shareholders' equity. Together, they form the core financial statements required under Section 129 of the Companies Act."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do I calculate net profit from a P&L statement?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Net profit is calculated by subtracting total expenses from total revenue. Start with revenue from operations, add other income to get total income. Subtract cost of goods sold to find gross profit. Then subtract operating expenses like employee costs, depreciation, and administrative expenses. Finally, deduct finance costs and income tax to arrive at net profit after tax."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is revenue from operations in a P&L statement?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Revenue from operations includes income earned from the primary business activities of the company. For a manufacturing company, this includes sale of products. For a service company, it includes service revenue. It excludes other income such as interest earned, rental income, and profit on sale of assets. Schedule III requires separate disclosure of sale of products, sale of services, and other operating revenues."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What expenses are included in a P&L statement?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The main expense categories under Schedule III include cost of materials consumed, purchases of stock-in-trade, changes in inventories, employee benefit expense (salaries, PF, gratuity), finance costs (interest, processing fees), depreciation and amortisation, and other expenses like rent, utilities, legal fees, and repairs. Each expense category must be disclosed separately with notes to accounts."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is Other Comprehensive Income (OCI) in financial statements?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Other Comprehensive Income includes items that bypass the profit and loss account under Ind AS. It covers unrealised gains and losses from fair value changes in equity instruments, foreign currency translation differences, actuarial gains and losses on defined benefit plans, and effective portion of hedging instruments. OCI is mandatory for Ind AS companies under Division II of Schedule III."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "When is the deadline to file financial statements with MCA?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Companies must file financial statements in e-Form AOC-4 with the Registrar of Companies within 30 days of the Annual General Meeting. The AGM itself must be held within 6 months from the end of the financial year, which for most companies means by September 30th each year. Late filing attracts additional fees of Rs 100 per day of delay under Section 403 of the Companies Act."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between single-step and multi-step P&L statements?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A single-step P&L statement lists all revenues together and all expenses together, calculating net income in one step. A multi-step P&L statement calculates intermediate figures like gross profit and operating profit before arriving at net income. Schedule III of the Companies Act, 2013 follows a multi-step format, requiring separate disclosure of gross profit, operating profit, PBT, and PAT."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I use this P&L generator for my small business or freelancing?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, this generator works for all Indian business types. Small businesses, freelancers, and sole proprietors can use the simple format for internal tracking and ITR filing. Companies registered under the Companies Act should use the Schedule III format for statutory compliance. The tool generates statements in both formats, with automatic calculations for gross profit, operating profit, PBT, and net profit after tax."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the role of a Chartered Accountant in preparing P&L statements?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A Chartered Accountant ensures that P&L statements comply with applicable Accounting Standards (AS or Ind AS) and Schedule III requirements. Under Section 143 of the Companies Act, the statutory auditor verifies the accuracy of financial statements and provides an audit opinion. For tax audit under Section 44AB of the Income Tax Act, a CA must certify the profit and loss account along with Form 3CD."
-          }
-        }
-      ]
-    }
-    </script>
-@endsection
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+@push('styles')
 <style>
 
         :root {
@@ -1126,7 +923,212 @@
 .toggle-btn{font-size:13px;padding:10px 12px}
 }
 </style>
+@endpush
 
+
+@section('meta')
+    <title>Profit &amp; Loss Statement Generator | Schedule III P&amp;L</title>
+    <meta name="description" content="Profit &amp; Loss Statement Generator: create a formatted P&amp;L as per Schedule III of the Companies Act, 2013 for Indian businesses. Generate online free now!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/profit-loss-generator">
+    <meta property="og:title" content="Profit & Loss Statement Generator &mdash; Free P&L India">
+    <meta property="og:description" content="Profit and Loss Statement Generator creates P&L statements as per Schedule III of Companies Act, 2013 for Indian businesses.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_IN">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/profit-loss-generator">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Profit & Loss Statement Generator &mdash; Free P&L India">
+    <meta name="twitter:description" content="Profit and Loss Statement Generator creates P&L statements as per Schedule III of Companies Act, 2013. Generate now!">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+@endsection
+
+@section('schema')
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Profit and Loss Statement Generator India",
+      "description": "Profit and Loss Statement Generator creates formatted P&L statements as per Schedule III of the Companies Act, 2013. Supports revenue, COGS, operating expenses, other income, tax, and OCI line items for Indian companies including Private Limited, LLP, and OPC entities.",
+      "url": "https://www.patronaccounting.com/tools/profit-loss-generator",
+      "applicationCategory": "UtilityApplication",
+      "operatingSystem": "Any",
+      "datePublished": "2026-03-05",
+      "dateModified": "2026-03-05",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "INR"
+      },
+      "author": {
+        "@type": "Person",
+        "@id": "https://patronaccounting.com/#team",
+        "name": "CA & CS Patron Accounting Team",
+        "jobTitle": "Chartered Accountants & Company Secretaries",
+        "url": "https://www.patronaccounting.com/contact-page",
+        "sameAs": ["https://www.linkedin.com/company/patron-accounting"],
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Chartered Accountant (CA)",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Institute of Chartered Accountants of India",
+            "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India"
+          }
+        }]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.patronaccounting.com/images/site-logo.svg"
+        }
+      },
+      "provider": {
+        "@id": "https://patronaccounting.com/#organization"
+      }
+    }
+    </script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Free Tools",
+          "item": "https://www.patronaccounting.com/tools/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Profit & Loss Statement Generator",
+          "item": "https://www.patronaccounting.com/tools/profit-loss-generator"
+        }
+      ]
+    }
+    </script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a Profit and Loss Statement?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Profit and Loss Statement, also called an income statement, summarises a company's revenues, expenses, and net profit or loss over a specific accounting period. Under Section 129 of the Companies Act, 2013 and Schedule III, every Indian company must prepare this statement annually in the prescribed vertical format showing revenue from operations, other income, total expenses, and tax provisions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the format of P&L statement under Schedule III?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Schedule III of the Companies Act, 2013 prescribes a vertical format for the Statement of Profit and Loss. It includes revenue from operations, other income, cost of materials consumed, employee benefit expense, finance costs, depreciation, other expenses, profit before tax, tax expense (current and deferred), profit after tax, and other comprehensive income. Division I applies to companies following Indian AS, Division II to Ind AS companies."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who is required to prepare a Profit and Loss Statement in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Every company registered under the Companies Act, 2013 must prepare a Statement of Profit and Loss as part of its financial statements. This includes Private Limited Companies, One Person Companies, Public Companies, and Section 8 Companies. LLPs prepare an income and expenditure account under the LLP Act, 2008. Sole proprietors and partnerships prepare P&L accounts under the Income Tax Act for filing returns."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between a P&L statement and a balance sheet?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A P&L statement shows revenues and expenses over a period of time, revealing whether a business earned a profit or incurred a loss during that period. A balance sheet shows the financial position at a specific point in time, listing assets, liabilities, and shareholders' equity. Together, they form the core financial statements required under Section 129 of the Companies Act."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I calculate net profit from a P&L statement?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Net profit is calculated by subtracting total expenses from total revenue. Start with revenue from operations, add other income to get total income. Subtract cost of goods sold to find gross profit. Then subtract operating expenses like employee costs, depreciation, and administrative expenses. Finally, deduct finance costs and income tax to arrive at net profit after tax."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is revenue from operations in a P&L statement?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Revenue from operations includes income earned from the primary business activities of the company. For a manufacturing company, this includes sale of products. For a service company, it includes service revenue. It excludes other income such as interest earned, rental income, and profit on sale of assets. Schedule III requires separate disclosure of sale of products, sale of services, and other operating revenues."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What expenses are included in a P&L statement?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The main expense categories under Schedule III include cost of materials consumed, purchases of stock-in-trade, changes in inventories, employee benefit expense (salaries, PF, gratuity), finance costs (interest, processing fees), depreciation and amortisation, and other expenses like rent, utilities, legal fees, and repairs. Each expense category must be disclosed separately with notes to accounts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Other Comprehensive Income (OCI) in financial statements?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Other Comprehensive Income includes items that bypass the profit and loss account under Ind AS. It covers unrealised gains and losses from fair value changes in equity instruments, foreign currency translation differences, actuarial gains and losses on defined benefit plans, and effective portion of hedging instruments. OCI is mandatory for Ind AS companies under Division II of Schedule III."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the deadline to file financial statements with MCA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Companies must file financial statements in e-Form AOC-4 with the Registrar of Companies within 30 days of the Annual General Meeting. The AGM itself must be held within 6 months from the end of the financial year, which for most companies means by September 30th each year. Late filing attracts additional fees of Rs 100 per day of delay under Section 403 of the Companies Act."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between single-step and multi-step P&L statements?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A single-step P&L statement lists all revenues together and all expenses together, calculating net income in one step. A multi-step P&L statement calculates intermediate figures like gross profit and operating profit before arriving at net income. Schedule III of the Companies Act, 2013 follows a multi-step format, requiring separate disclosure of gross profit, operating profit, PBT, and PAT."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I use this P&L generator for my small business or freelancing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, this generator works for all Indian business types. Small businesses, freelancers, and sole proprietors can use the simple format for internal tracking and ITR filing. Companies registered under the Companies Act should use the Schedule III format for statutory compliance. The tool generates statements in both formats, with automatic calculations for gross profit, operating profit, PBT, and net profit after tax."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the role of a Chartered Accountant in preparing P&L statements?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Chartered Accountant ensures that P&L statements comply with applicable Accounting Standards (AS or Ind AS) and Schedule III requirements. Under Section 143 of the Companies Act, the statutory auditor verifies the accuracy of financial statements and provides an audit opinion. For tax audit under Section 44AB of the Income Tax Act, a CA must certify the profit and loss account along with Form 3CD."
+          }
+        }
+      ]
+    }
+    </script>
+@endsection
 @section('content')
 <!-- Sticky TOC Nav -->
     <nav class="toc-nav" aria-label="Page Navigation">

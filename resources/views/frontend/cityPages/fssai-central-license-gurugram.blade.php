@@ -1,161 +1,12 @@
 
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-@section('meta')
-    <title>FSSAI Central License Gurugram - Eligibility & Fees</title>
-    <meta name="description" content="Get FSSAI central license in Gurugram. Rs 50 crore+ turnover, importers, exporters, multi-state. New 2026 rules. Perpetual validity. Call +91 945 945 6700.">
-    <link rel="canonical" href="/fssai-central-license/gurugram">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="FSSAI Central License Gurugram - Eligibility & Fees">
-    <meta property="og:description" content="Get FSSAI central license in Gurugram. Rs 50 crore+ turnover, importers, exporters, multi-state. New 2026 rules. Perpetual validity. Call +91 945 945 6700.">
-    <meta property="og:url" content="/fssai-central-license/gurugram">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="FSSAI Central License Gurugram - Eligibility & Fees">
-    <meta name="twitter:description" content="Get FSSAI central license in Gurugram. Rs 50 crore+ turnover, importers, exporters, multi-state. New 2026 rules. Perpetual validity. Call +91 945 945 6700.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Service",
-      "name": "FSSAI Central License in Gurugram | Food License",
-      "description": "Get FSSAI central license in Gurugram. Rs 50 crore+ turnover, importers, exporters, multi-state. New 2026 rules. Perpetual validity. Call +91 945 945 6700.",
-      "url": "https://www.patronaccounting.com/fssai-central-license/gurugram",
-      "serviceType": "FSSAI Central License in Gurugram | Food License",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock",
-        "url": "https://www.patronaccounting.com/fssai-central-license/gurugram",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "minPrice": "50",
-          "maxPrice": "7500",
-          "priceCurrency": "INR"
-        }
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "FSSAI Central License: Fees and Process",
-          "item": "https://www.patronaccounting.com/fssai-central-license"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "FSSAI Central License in Gurugram | Food License",
-          "item": "https://www.patronaccounting.com/fssai-central-license/gurugram"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What changed in April 2026 for FSSAI licensing?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The turnover threshold for Central License was revised from Rs 20 crore to Rs 50 crore. All licenses issued from 1 April 2026 have perpetual validity (no renewal needed). Basic Registration threshold raised to Rs 1.5 crore. However, food importers/exporters, multi-state operators, and large manufacturers still require Central License regardless of the revised turnover threshold."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does FSSAI Central License cost in Gurugram?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Government fee: Rs 7,500 per year. Professional fee: Rs 5,999 to Rs 15,000 (including Form B preparation, FSMP development, inspection coordination, and license procurement). Annual return filing: Rs 2,000 to Rs 5,000. Import/export integration with IEC: Rs 8,000 to Rs 15,000. Call +91 945 945 6700 for a detailed quote."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does it take to get FSSAI Central License?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "30-60 days typically. Process: Form B filing on FoSCoS (immediate), document verification by FSSAI (7-15 days), premises inspection by food safety officer (15-30 days), and license approval (7-15 days after inspection). Delays if inspection reveals deficiencies requiring rectification."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do food importers need Central License regardless of turnover?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. All food importers and exporters must have FSSAI Central License regardless of their annual turnover. They also need IEC (Import Export Code) from DGFT. Certain imported food products require separate FSSAI product approval before import. The Central License must specifically mention import/export as a food business activity."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is perpetual validity and does it eliminate compliance?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "From April 2026, FSSAI licenses have perpetual validity - meaning the license does not expire and no renewal application is needed. However, perpetual validity does NOT eliminate compliance obligations. Annual return filing on FoSCoS, food safety audits, hygiene maintenance, and food handler medical certificates continue. Non-compliance can result in license suspension."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is FSMP and is it mandatory for Central License?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Food Safety Management Plan (FSMP) covering HACCP principles, critical control points, hygiene protocols, pest control measures, water quality management, waste disposal, food handler training, recall procedures, and traceability systems is mandatory for Central License. FSSAI inspectors frequently reject generic downloaded templates. The FSMP must be specific to your actual operations."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are the penalties for operating without FSSAI license?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Section 63 of the FSS Act: up to Rs 5 lakh fine for operating a food business without a valid license. Section 59: Rs 5 lakh for manufacturing or selling substandard food. Unsafe food: up to Rs 10 lakh. Additional consequences: product seizure, factory shutdown until compliance, and potential criminal proceedings. The penalties far exceed the cost of obtaining and maintaining the license. Quick Answers April 2026 se kya badla? Turnover limit Rs 20 crore se Rs 50 crore ho gaya Central License ke liye. Basic Registration Rs 1.5 crore tak. Perpetual validity - renewal nahi chahiye. Lekin importers/exporters ko turnover se koi fark nahi padta - unhe Central hi chahiye. Perpetual validity ka matlab renewal nahi? Haan. April 2026 ke baad ke license mein renewal nahi hai. Lekin annual return filing, food safety compliance, aur inspections continue rehte hain. Compliance band nahi hota, sirf renewal form band hua hai. Import/export ke liye kya chahiye? FSSAI Central License (turnover se koi fark nahi) + IEC (Import Export Code from DGFT). Kuch food products ke liye FSSAI product approval bhi chahiye import se pehle."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
-@endsection
-
 <style>/* ============================================
            CSS VARIABLES
            ============================================ */
@@ -679,7 +530,161 @@ section ul li:not(.nav-item) { font-size: 14px; }
 .wa-sticky-bar-btn { font-size: 14px; padding: 10px 24px; }
 .wa-sticky-bar-btn::before { content: 'Join Community'; }
 .wa-sticky-bar-btn span { display: none; }}</style>
+@endpush
 
+
+
+
+
+
+
+
+@section('meta')
+    <title>FSSAI Central License Gurugram - Eligibility & Fees</title>
+    <meta name="description" content="Get FSSAI central license in Gurugram. Rs 50 crore+ turnover, importers, exporters, multi-state. New 2026 rules. Perpetual validity. Call +91 945 945 6700.">
+    <link rel="canonical" href="/fssai-central-license/gurugram">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="FSSAI Central License Gurugram - Eligibility & Fees">
+    <meta property="og:description" content="Get FSSAI central license in Gurugram. Rs 50 crore+ turnover, importers, exporters, multi-state. New 2026 rules. Perpetual validity. Call +91 945 945 6700.">
+    <meta property="og:url" content="/fssai-central-license/gurugram">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="FSSAI Central License Gurugram - Eligibility & Fees">
+    <meta name="twitter:description" content="Get FSSAI central license in Gurugram. Rs 50 crore+ turnover, importers, exporters, multi-state. New 2026 rules. Perpetual validity. Call +91 945 945 6700.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "FSSAI Central License in Gurugram | Food License",
+      "description": "Get FSSAI central license in Gurugram. Rs 50 crore+ turnover, importers, exporters, multi-state. New 2026 rules. Perpetual validity. Call +91 945 945 6700.",
+      "url": "https://www.patronaccounting.com/fssai-central-license/gurugram",
+      "serviceType": "FSSAI Central License in Gurugram | Food License",
+      "areaServed": {
+        "@type": "City",
+        "name": "Gurugram",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Haryana"
+        }
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Patron Accounting LLP",
+        "url": "https://www.patronaccounting.com/",
+        "logo": "https://www.patronaccounting.com/images/site-logo.svg"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.patronaccounting.com/fssai-central-license/gurugram",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": "50",
+          "maxPrice": "7500",
+          "priceCurrency": "INR"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "FSSAI Central License: Fees and Process",
+          "item": "https://www.patronaccounting.com/fssai-central-license"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "FSSAI Central License in Gurugram | Food License",
+          "item": "https://www.patronaccounting.com/fssai-central-license/gurugram"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What changed in April 2026 for FSSAI licensing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The turnover threshold for Central License was revised from Rs 20 crore to Rs 50 crore. All licenses issued from 1 April 2026 have perpetual validity (no renewal needed). Basic Registration threshold raised to Rs 1.5 crore. However, food importers/exporters, multi-state operators, and large manufacturers still require Central License regardless of the revised turnover threshold."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does FSSAI Central License cost in Gurugram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Government fee: Rs 7,500 per year. Professional fee: Rs 5,999 to Rs 15,000 (including Form B preparation, FSMP development, inspection coordination, and license procurement). Annual return filing: Rs 2,000 to Rs 5,000. Import/export integration with IEC: Rs 8,000 to Rs 15,000. Call +91 945 945 6700 for a detailed quote."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to get FSSAI Central License?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "30-60 days typically. Process: Form B filing on FoSCoS (immediate), document verification by FSSAI (7-15 days), premises inspection by food safety officer (15-30 days), and license approval (7-15 days after inspection). Delays if inspection reveals deficiencies requiring rectification."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do food importers need Central License regardless of turnover?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. All food importers and exporters must have FSSAI Central License regardless of their annual turnover. They also need IEC (Import Export Code) from DGFT. Certain imported food products require separate FSSAI product approval before import. The Central License must specifically mention import/export as a food business activity."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is perpetual validity and does it eliminate compliance?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "From April 2026, FSSAI licenses have perpetual validity - meaning the license does not expire and no renewal application is needed. However, perpetual validity does NOT eliminate compliance obligations. Annual return filing on FoSCoS, food safety audits, hygiene maintenance, and food handler medical certificates continue. Non-compliance can result in license suspension."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is FSMP and is it mandatory for Central License?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Food Safety Management Plan (FSMP) covering HACCP principles, critical control points, hygiene protocols, pest control measures, water quality management, waste disposal, food handler training, recall procedures, and traceability systems is mandatory for Central License. FSSAI inspectors frequently reject generic downloaded templates. The FSMP must be specific to your actual operations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the penalties for operating without FSSAI license?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Section 63 of the FSS Act: up to Rs 5 lakh fine for operating a food business without a valid license. Section 59: Rs 5 lakh for manufacturing or selling substandard food. Unsafe food: up to Rs 10 lakh. Additional consequences: product seizure, factory shutdown until compliance, and potential criminal proceedings. The penalties far exceed the cost of obtaining and maintaining the license. Quick Answers April 2026 se kya badla? Turnover limit Rs 20 crore se Rs 50 crore ho gaya Central License ke liye. Basic Registration Rs 1.5 crore tak. Perpetual validity - renewal nahi chahiye. Lekin importers/exporters ko turnover se koi fark nahi padta - unhe Central hi chahiye. Perpetual validity ka matlab renewal nahi? Haan. April 2026 ke baad ke license mein renewal nahi hai. Lekin annual return filing, food safety compliance, aur inspections continue rehte hain. Compliance band nahi hota, sirf renewal form band hua hai. Import/export ke liye kya chahiye? FSSAI Central License (turnover se koi fark nahi) + IEC (Import Export Code from DGFT). Kuch food products ke liye FSSAI product approval bhi chahiye import se pehle."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1607,7 +1612,6 @@ var tocWrapper=document.getElementById('tocWrapper');document.getElementById('to
 
 
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

@@ -1,7 +1,6 @@
 
 @extends('layouts.service-app')
-
-<!-- External Dependencies (loaded by master layout in production) -->
+@push('styles')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -9,208 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-@section('meta')
-    <title>Bank Reconciliation in Delhi 2026 | Patron Accounting</title>
-    <meta name="description" content="Tally and Zoho BRS sign-off for Delhi traders and IT resellers from INR 2,499/mo (Exl GST and Govt. Charges). Multi-bank matching, Nehru Place to Okhla.">
-    <link rel="canonical" href="/bank-credit-card-reconciliation-services/delhi">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="Bank Reconciliation in Delhi 2026 | Patron Accounting">
-    <meta property="og:description" content="Tally and Zoho BRS sign-off for Delhi traders and IT resellers from INR 2,499/mo (Exl GST and Govt. Charges). Multi-bank matching, Nehru Place to Okhla.">
-    <meta property="og:url" content="/bank-credit-card-reconciliation-services/delhi">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Bank Reconciliation in Delhi 2026 | Patron Accounting">
-    <meta name="twitter:description" content="Tally and Zoho BRS sign-off for Delhi traders and IT resellers from INR 2,499/mo (Exl GST and Govt. Charges). Multi-bank matching, Nehru Place to Okhla.">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services/delhi#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.patronaccounting.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Bank and Credit Card Reconciliation Services",
-          "item": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Bank and Credit Card Reconciliation Services in Delhi",
-          "item": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services/delhi"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services/delhi#faq",
-      "datePublished": "2026-06-23T08:00:00+05:30",
-      "dateModified": "2026-06-23T08:00:00+05:30",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What does bank and credit card reconciliation involve for a Delhi firm?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Each month we tie every entry in your ledgers to the matching line on your bank and card statements until both balances agree. For a Nehru Place reseller or an Okhla unit, that surfaces missed vendor debits, unposted bank charges, gateway settlements, and accidental duplicates, leaving ledgers ready for GST and income tax work."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are your reconciliation charges for a Delhi business?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Pricing opens at INR 2,499/mo (Exl GST and Govt. Charges). What you actually pay tracks how many bank and card accounts you hold, your monthly transaction count, and the gateways feeding into them. Karol Bagh traders and Nehru Place resellers get a locked monthly figure confirmed in writing before we touch the books."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does Delhi have profession tax to reconcile in payroll debits?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Unlike Maharashtra, Delhi does not levy profession tax, so there are no PTRC or PTEC debits hitting your bank to match. For Delhi employers the reconciliation focus shifts to TDS payments, GST settlements, and bank charges, which we tie to challans and ledgers each month so payroll and bank books stay aligned."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can you handle several NCR banks and cards in one go?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, and most Delhi traders need exactly that. Karol Bagh and Connaught Place businesses often spread cheque, UPI, and card settlements across four or five banks. We pull every current, OD, CC, and corporate card account into a single monthly run, post charges and interest, and issue a separate signed BRS for each one."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What will a bank reconciliation statement tell me?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "It sets out precisely why your ledger balance and the bank balance differ on a given date. Expect a clear list of cheques still clearing, deposits in transit, charges, interest, and auto-debits you had not booked. We hand each Delhi owner a signed BRS per account every month so the variance is never a mystery."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What paperwork do you need to start in Delhi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Send across the period's bank and card statements, a copy of your Tally, Zoho Books, or QuickBooks file, gateway exports from the likes of Razorpay or Stripe, and particulars of any OD or loan accounts. We run these against your ledgers and hand back a list of anything that will not tie out for your sign-off."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Will you operate inside our existing Tally or Zoho Books file?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, we work straight in whatever your Delhi office already runs, be it Tally, Zoho Books, QuickBooks, or Xero. Where a bank feed exists we plug into it, otherwise we key in the missing entries, tick off matched lines, and close the month on a balance that carries forward cleanly with no software switch."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How often should a Delhi business reconcile its accounts?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A monthly cycle ahead of each GSTR-3B and GSTR-1 is the sensible baseline. Busy Karol Bagh traders and Connaught Place retailers with heavy daily card and UPI flow usually move to weekly. Reconciling every month keeps your records audit-ready under Section 128 of the Companies Act 2013 and Section 44AA of the Income Tax Act."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services/delhi#service",
-      "name": "Bank and Credit Card Reconciliation Services in Delhi",
-      "description": "Monthly bank and credit card reconciliation in Delhi matches your books against every statement, captures unrecorded charges and auto-debits, removes duplicates, and clears un-reconciled items. Patron Accounting delivers a signed BRS per account for Nehru Place, Okhla, and Karol Bagh businesses.",
-      "serviceType": "Bank and Credit Card Reconciliation",
-      "url": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services/delhi",
-      "areaServed": {
-        "@type": "City",
-        "name": "Delhi",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Delhi"
-        }
-      },
-      "provider": {
-        "@id": "https://www.patronaccounting.com/#localbusiness-delhi"
-      },
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Bank reconciliation",
-          "sameAs": "https://en.wikipedia.org/wiki/Bank_reconciliation"
-        },
-        {
-          "@type": "Thing",
-          "name": "Bookkeeping",
-          "sameAs": "https://en.wikipedia.org/wiki/Bookkeeping"
-        }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Bank Reconciliation Plans in Delhi",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "priceCurrency": "INR",
-            "price": "2499",
-            "priceSpecification": {
-              "@type": "UnitPriceSpecification",
-              "priceCurrency": "INR",
-              "price": "2499",
-              "unitText": "per month"
-            },
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Monthly Bank and Credit Card Reconciliation"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness-delhi",
-      "name": "Patron Accounting LLP - Delhi",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services/delhi",
-      "telephone": "+91-9699936369",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Delhi"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Delhi",
-        "addressRegion": "Delhi",
-        "postalCode": "110085",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
-    }
-  ]
-}</script>
-@endsection
-
 <style>
         /* ============================================
            CSS VARIABLES
@@ -815,7 +612,217 @@
         .cert-desc { display: block; font-size: 10px; color: var(--text-muted); line-height: 1.3; margin-top: 2px; }
 
 </style>
+@endpush
 
+
+
+
+
+
+
+
+
+
+@section('meta')
+    <title>Bank Reconciliation in Delhi 2026 | Patron Accounting</title>
+    <meta name="description" content="Tally and Zoho BRS sign-off for Delhi traders and IT resellers from INR 2,499/mo (Exl GST and Govt. Charges). Multi-bank matching, Nehru Place to Okhla.">
+    <link rel="canonical" href="/bank-credit-card-reconciliation-services/delhi">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Bank Reconciliation in Delhi 2026 | Patron Accounting">
+    <meta property="og:description" content="Tally and Zoho BRS sign-off for Delhi traders and IT resellers from INR 2,499/mo (Exl GST and Govt. Charges). Multi-bank matching, Nehru Place to Okhla.">
+    <meta property="og:url" content="/bank-credit-card-reconciliation-services/delhi">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:alt" content="Patron Accounting - partner you can rely on">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Bank Reconciliation in Delhi 2026 | Patron Accounting">
+    <meta name="twitter:description" content="Tally and Zoho BRS sign-off for Delhi traders and IT resellers from INR 2,499/mo (Exl GST and Govt. Charges). Multi-bank matching, Nehru Place to Okhla.">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+@endsection
+
+@section('schema')
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services/delhi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.patronaccounting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Bank and Credit Card Reconciliation Services",
+          "item": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Bank and Credit Card Reconciliation Services in Delhi",
+          "item": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services/delhi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services/delhi#faq",
+      "datePublished": "2026-06-23T08:00:00+05:30",
+      "dateModified": "2026-06-23T08:00:00+05:30",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does bank and credit card reconciliation involve for a Delhi firm?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Each month we tie every entry in your ledgers to the matching line on your bank and card statements until both balances agree. For a Nehru Place reseller or an Okhla unit, that surfaces missed vendor debits, unposted bank charges, gateway settlements, and accidental duplicates, leaving ledgers ready for GST and income tax work."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are your reconciliation charges for a Delhi business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pricing opens at INR 2,499/mo (Exl GST and Govt. Charges). What you actually pay tracks how many bank and card accounts you hold, your monthly transaction count, and the gateways feeding into them. Karol Bagh traders and Nehru Place resellers get a locked monthly figure confirmed in writing before we touch the books."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Delhi have profession tax to reconcile in payroll debits?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Unlike Maharashtra, Delhi does not levy profession tax, so there are no PTRC or PTEC debits hitting your bank to match. For Delhi employers the reconciliation focus shifts to TDS payments, GST settlements, and bank charges, which we tie to challans and ledgers each month so payroll and bank books stay aligned."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you handle several NCR banks and cards in one go?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, and most Delhi traders need exactly that. Karol Bagh and Connaught Place businesses often spread cheque, UPI, and card settlements across four or five banks. We pull every current, OD, CC, and corporate card account into a single monthly run, post charges and interest, and issue a separate signed BRS for each one."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What will a bank reconciliation statement tell me?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It sets out precisely why your ledger balance and the bank balance differ on a given date. Expect a clear list of cheques still clearing, deposits in transit, charges, interest, and auto-debits you had not booked. We hand each Delhi owner a signed BRS per account every month so the variance is never a mystery."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What paperwork do you need to start in Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send across the period's bank and card statements, a copy of your Tally, Zoho Books, or QuickBooks file, gateway exports from the likes of Razorpay or Stripe, and particulars of any OD or loan accounts. We run these against your ledgers and hand back a list of anything that will not tie out for your sign-off."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will you operate inside our existing Tally or Zoho Books file?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, we work straight in whatever your Delhi office already runs, be it Tally, Zoho Books, QuickBooks, or Xero. Where a bank feed exists we plug into it, otherwise we key in the missing entries, tick off matched lines, and close the month on a balance that carries forward cleanly with no software switch."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How often should a Delhi business reconcile its accounts?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A monthly cycle ahead of each GSTR-3B and GSTR-1 is the sensible baseline. Busy Karol Bagh traders and Connaught Place retailers with heavy daily card and UPI flow usually move to weekly. Reconciling every month keeps your records audit-ready under Section 128 of the Companies Act 2013 and Section 44AA of the Income Tax Act."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services/delhi#service",
+      "name": "Bank and Credit Card Reconciliation Services in Delhi",
+      "description": "Monthly bank and credit card reconciliation in Delhi matches your books against every statement, captures unrecorded charges and auto-debits, removes duplicates, and clears un-reconciled items. Patron Accounting delivers a signed BRS per account for Nehru Place, Okhla, and Karol Bagh businesses.",
+      "serviceType": "Bank and Credit Card Reconciliation",
+      "url": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services/delhi",
+      "areaServed": {
+        "@type": "City",
+        "name": "Delhi",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Delhi"
+        }
+      },
+      "provider": {
+        "@id": "https://www.patronaccounting.com/#localbusiness-delhi"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Bank reconciliation",
+          "sameAs": "https://en.wikipedia.org/wiki/Bank_reconciliation"
+        },
+        {
+          "@type": "Thing",
+          "name": "Bookkeeping",
+          "sameAs": "https://en.wikipedia.org/wiki/Bookkeeping"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Bank Reconciliation Plans in Delhi",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "price": "2499",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "INR",
+              "price": "2499",
+              "unitText": "per month"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Monthly Bank and Credit Card Reconciliation"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.patronaccounting.com/#localbusiness-delhi",
+      "name": "Patron Accounting LLP - Delhi",
+      "image": "https://www.patronaccounting.com/images/site-logo.svg",
+      "url": "https://www.patronaccounting.com/bank-credit-card-reconciliation-services/delhi",
+      "telephone": "+91-9699936369",
+      "priceRange": "INR",
+      "areaServed": {
+        "@type": "City",
+        "name": "Delhi"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Delhi",
+        "addressRegion": "Delhi",
+        "postalCode": "110085",
+        "addressCountry": "IN"
+      },
+      "parentOrganization": {
+        "@id": "https://www.patronaccounting.com/#organization"
+      }
+    }
+  ]
+}</script>
+@endsection
 @section('content')
 <main>
 
@@ -1571,7 +1578,6 @@ document.getElementById('tocRight').addEventListener('click', function() { tocWr
 })();
 </script>
 
-<!-- External JS Dependencies (loaded by master layout in production) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

@@ -1,67 +1,5 @@
 @extends('layouts.app')
-@section('meta')
-    <title>Payroll Cost Calculator | Employer Cost in India</title>
-    <meta name="description" content="Payroll cost calculator shows the true employer cost of hiring in India: CTC, EPF, ESI, gratuity, bonus and professional tax in one clear view. Budget now!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.patronaccounting.com/tools/payroll-cost-calculator">
-    <meta property="og:title" content="Payroll Cost Calculator &mdash; Employer Cost India 2026">
-    <meta property="og:description" content="See the true cost of hiring &mdash; CTC, EPF, ESI, gratuity, bonus, and professional tax in one calculator.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.patronaccounting.com/tools/payroll-cost-calculator">
-    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
-    <meta property="og:site_name" content="Patron Accounting">
-    <meta property="og:locale" content="en_IN">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Payroll Cost Calculator &mdash; Employer Cost India 2026">
-    <meta name="twitter:description" content="True cost of hiring in India: CTC + EPF + ESI + gratuity + bonus + PT. Plan now!">
-    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
-@endsection
-
-@section('schema')
-<script type="application/ld+json">
-    {
-      "@context": "https://schema.org", "@type": "WebApplication",
-      "name": "Payroll Cost Calculator India",
-      "description": "Payroll Cost Calculator computes the total employer cost of hiring in India including CTC breakdown, employer EPF contribution (12% of basic), employer ESI contribution (3.25% if applicable), gratuity provision (4.81% of basic), statutory bonus, professional tax, and EDLI charges. Shows per-employee and multi-employee cost projections for budgeting and workforce planning.",
-      "url": "https://www.patronaccounting.com/tools/payroll-cost-calculator",
-      "applicationCategory": "UtilityApplication", "operatingSystem": "Any",
-      "datePublished": "2026-03-05", "dateModified": "2026-03-05",
-      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" },
-      "author": { "@type": "Person", "@id": "https://patronaccounting.com/#team", "name": "CA & CS Patron Accounting Team", "jobTitle": "Chartered Accountants & Company Secretaries", "url": "https://www.patronaccounting.com/contact-page", "sameAs": ["https://www.linkedin.com/company/patron-accounting"], "hasCredential": [{ "@type": "EducationalOccupationalCredential", "credentialCategory": "Professional Certification", "name": "Chartered Accountant (CA)", "recognizedBy": { "@type": "Organization", "name": "Institute of Chartered Accountants of India", "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India" } }] },
-      "publisher": { "@type": "Organization", "name": "Patron Accounting LLP", "url": "https://www.patronaccounting.com", "logo": { "@type": "ImageObject", "url": "https://www.patronaccounting.com/images/site-logo.svg" } },
-      "provider": { "@id": "https://patronaccounting.com/#organization" }
-    }
-    </script>
-<script type="application/ld+json">
-    { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
-      {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
-      {"@type": "ListItem", "position": 3, "name": "Payroll Cost Calculator", "item": "https://www.patronaccounting.com/tools/payroll-cost-calculator"}
-    ]}
-    </script>
-<script type="application/ld+json">
-    { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
-      { "@type": "Question", "name": "What is the total employer cost beyond CTC in India?", "acceptedAnswer": { "@type": "Answer", "text": "The total employer cost in India is typically 18 to 22 percent above the employee gross salary. This includes employer EPF at 12 percent of basic plus admin charges at 0.5 percent, employer ESI at 3.25 percent of gross wages if applicable, gratuity provision at 4.81 percent of basic, EDLI contribution at 0.5 percent, and statutory bonus at 8.33 percent of basic where applicable. These are in addition to the CTC amount." } },
-      { "@type": "Question", "name": "How is employer EPF contribution calculated?", "acceptedAnswer": { "@type": "Answer", "text": "Employer EPF contribution is 12 percent of basic salary plus dearness allowance. Of this, 8.33 percent goes to Employee Pension Scheme capped at Rs 15,000 basic and 3.67 percent to the EPF account. Additionally, employers pay 0.5 percent towards EDLI insurance and 0.5 percent as EPF administrative charges. The total employer liability towards EPF ecosystem is approximately 13 percent of basic salary." } },
-      { "@type": "Question", "name": "When is ESI applicable and how much does the employer pay?", "acceptedAnswer": { "@type": "Answer", "text": "ESI is applicable when gross wages are Rs 21,000 or below per month for establishments with 10 or more employees. The employer pays 3.25 percent of gross wages as ESI contribution. For a Rs 18,000 salary employee, the employer ESI cost is Rs 585 per month or Rs 7,020 per year. ESI is not applicable for employees earning above the ceiling from the date of joining." } },
-      { "@type": "Question", "name": "What is gratuity provision and how does it affect payroll cost?", "acceptedAnswer": { "@type": "Answer", "text": "Gratuity provision is approximately 4.81 percent of basic salary provisioned annually by the employer. The formula is Basic times 15 divided by 26 for each year of service. Although gratuity is paid only after 5 years of service at separation, employers must provision the cost annually in their books per accounting standards. For a Rs 25,000 basic salary employee, the annual gratuity provision is approximately Rs 14,423." } },
-      { "@type": "Question", "name": "Is statutory bonus part of employer payroll cost?", "acceptedAnswer": { "@type": "Answer", "text": "Under the Payment of Bonus Act 1965, employers must pay a minimum bonus of 8.33 percent of basic salary plus DA (or Rs 7,000, whichever is higher) to employees earning up to Rs 21,000 per month. The maximum bonus is 20 percent. This is a direct employer cost that is typically included in CTC. For employees above the bonus threshold, employers may still pay ex gratia or performance bonuses at their discretion." } },
-      { "@type": "Question", "name": "How does professional tax affect payroll cost?", "acceptedAnswer": { "@type": "Answer", "text": "Professional tax is actually an employee deduction, not an employer cost. The employer deducts PT from the employee salary and deposits it with the state government. However, some employers bear the PT cost as a benefit, making it an additional employer cost of up to Rs 2,500 per employee per year. The employer must register for PT in each state where employees are located and file monthly or quarterly returns." } },
-      { "@type": "Question", "name": "What is the cost difference between a Rs 5 lakh and Rs 15 lakh CTC employee?", "acceptedAnswer": { "@type": "Answer", "text": "For a Rs 5 lakh CTC employee, employer additional costs include EPF at around Rs 28,800, ESI at around Rs 15,600 (if eligible), gratuity at around Rs 9,600, totalling approximately Rs 54,000 additional. For a Rs 15 lakh employee, EPF is around Rs 21,600 (capped), no ESI (above ceiling), gratuity around Rs 28,800, totalling approximately Rs 50,400. The percentage overhead decreases as CTC increases due to PF and ESI capping." } },
-      { "@type": "Question", "name": "What are EDLI and EPF admin charges?", "acceptedAnswer": { "@type": "Answer", "text": "EDLI (Employees Deposit Linked Insurance) is 0.5 percent of basic salary capped at Rs 15,000 contributing to a life insurance fund that pays Rs 7 lakh maximum on death during service. EPF administrative charges are 0.5 percent of basic salary with a minimum of Rs 75 per month. Both are employer-only contributions paid along with the monthly EPF challan. These are often overlooked but add to the total employer cost." } },
-      { "@type": "Question", "name": "How do I calculate payroll cost for multiple employees?", "acceptedAnswer": { "@type": "Answer", "text": "Enter the number of employees and average CTC in our calculator to get the aggregate annual payroll cost. For a team of 10 employees at Rs 6 lakh average CTC, total employer cost would include the aggregate CTC plus total employer EPF, ESI, gratuity, admin charges, and any employer-borne benefits. Our calculator multiplies per-employee costs by headcount and shows the total annual payroll budget needed." } },
-      { "@type": "Question", "name": "What payroll compliance deadlines must employers follow?", "acceptedAnswer": { "@type": "Answer", "text": "Key monthly deadlines: TDS deposit by 7th of next month, EPF and ESI contribution by 15th of next month, professional tax as per state rules. Quarterly: TDS return in Form 24Q within 31 days of quarter end. Annual: Form 16 issuance by 15th June, EPF annual return, ESI half-yearly returns by 12th November and 12th May, gratuity computation for eligible employees, and bonus payment per the Payment of Bonus Act." } },
-      { "@type": "Question", "name": "How do the new Labour Codes affect payroll costs?", "acceptedAnswer": { "@type": "Answer", "text": "The Code on Wages mandates that basic salary plus DA must be at least 50 percent of CTC. This increases the EPF and gratuity base, raising employer statutory costs by 3 to 5 percent of CTC. Employee take-home decreases but retirement benefits increase significantly. The Code on Social Security consolidates EPF, ESI, and gratuity under one framework. Implementation rules are being notified by states progressively." } },
-      { "@type": "Question", "name": "Should I outsource payroll or manage it in-house?", "acceptedAnswer": { "@type": "Answer", "text": "For companies with fewer than 50 employees, outsourcing payroll to a CA firm is usually more cost-effective \u2014 outsourced payroll costs Rs 200 to 600 per employee per month versus hiring a dedicated payroll person at Rs 25,000 to 50,000 per month. Outsourcing also ensures compliance across EPF, ESI, PT, and TDS without the employer needing to track changing regulations. Patron Accounting provides end-to-end payroll outsourcing for Indian businesses." } },
-      { "@type": "Question", "name": "Can Patron Accounting handle my payroll?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, Patron Accounting provides complete payroll processing including salary computation, EPF and ESI challan filing, TDS computation and deposit, professional tax compliance across multiple states, Form 16 generation, and payslip distribution. We handle payroll for startups to mid-size companies across India with offices in Pune, Mumbai, Delhi, and Gurugram. Monthly payroll processing starts at competitive rates." } }
-    ]}
-    </script>
-@endsection
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+@push('styles')
 <style>
 
         :root {
@@ -849,6 +787,71 @@
 .toggle-btn{font-size:13px;padding:10px 12px}
 }
 </style>
+@endpush
+
+@section('meta')
+    <title>Payroll Cost Calculator | Employer Cost in India</title>
+    <meta name="description" content="Payroll cost calculator shows the true employer cost of hiring in India: CTC, EPF, ESI, gratuity, bonus and professional tax in one clear view. Budget now!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.patronaccounting.com/tools/payroll-cost-calculator">
+    <meta property="og:title" content="Payroll Cost Calculator &mdash; Employer Cost India 2026">
+    <meta property="og:description" content="See the true cost of hiring &mdash; CTC, EPF, ESI, gratuity, bonus, and professional tax in one calculator.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patronaccounting.com/tools/payroll-cost-calculator">
+    <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:site_name" content="Patron Accounting">
+    <meta property="og:locale" content="en_IN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Payroll Cost Calculator &mdash; Employer Cost India 2026">
+    <meta name="twitter:description" content="True cost of hiring in India: CTC + EPF + ESI + gratuity + bonus + PT. Plan now!">
+    <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+@endsection
+
+@section('schema')
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org", "@type": "WebApplication",
+      "name": "Payroll Cost Calculator India",
+      "description": "Payroll Cost Calculator computes the total employer cost of hiring in India including CTC breakdown, employer EPF contribution (12% of basic), employer ESI contribution (3.25% if applicable), gratuity provision (4.81% of basic), statutory bonus, professional tax, and EDLI charges. Shows per-employee and multi-employee cost projections for budgeting and workforce planning.",
+      "url": "https://www.patronaccounting.com/tools/payroll-cost-calculator",
+      "applicationCategory": "UtilityApplication", "operatingSystem": "Any",
+      "datePublished": "2026-03-05", "dateModified": "2026-03-05",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" },
+      "author": { "@type": "Person", "@id": "https://patronaccounting.com/#team", "name": "CA & CS Patron Accounting Team", "jobTitle": "Chartered Accountants & Company Secretaries", "url": "https://www.patronaccounting.com/contact-page", "sameAs": ["https://www.linkedin.com/company/patron-accounting"], "hasCredential": [{ "@type": "EducationalOccupationalCredential", "credentialCategory": "Professional Certification", "name": "Chartered Accountant (CA)", "recognizedBy": { "@type": "Organization", "name": "Institute of Chartered Accountants of India", "sameAs": "https://en.wikipedia.org/wiki/Institute_of_Chartered_Accountants_of_India" } }] },
+      "publisher": { "@type": "Organization", "name": "Patron Accounting LLP", "url": "https://www.patronaccounting.com", "logo": { "@type": "ImageObject", "url": "https://www.patronaccounting.com/images/site-logo.svg" } },
+      "provider": { "@id": "https://patronaccounting.com/#organization" }
+    }
+    </script>
+<script type="application/ld+json">
+    { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/"},
+      {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://www.patronaccounting.com/tools/"},
+      {"@type": "ListItem", "position": 3, "name": "Payroll Cost Calculator", "item": "https://www.patronaccounting.com/tools/payroll-cost-calculator"}
+    ]}
+    </script>
+<script type="application/ld+json">
+    { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+      { "@type": "Question", "name": "What is the total employer cost beyond CTC in India?", "acceptedAnswer": { "@type": "Answer", "text": "The total employer cost in India is typically 18 to 22 percent above the employee gross salary. This includes employer EPF at 12 percent of basic plus admin charges at 0.5 percent, employer ESI at 3.25 percent of gross wages if applicable, gratuity provision at 4.81 percent of basic, EDLI contribution at 0.5 percent, and statutory bonus at 8.33 percent of basic where applicable. These are in addition to the CTC amount." } },
+      { "@type": "Question", "name": "How is employer EPF contribution calculated?", "acceptedAnswer": { "@type": "Answer", "text": "Employer EPF contribution is 12 percent of basic salary plus dearness allowance. Of this, 8.33 percent goes to Employee Pension Scheme capped at Rs 15,000 basic and 3.67 percent to the EPF account. Additionally, employers pay 0.5 percent towards EDLI insurance and 0.5 percent as EPF administrative charges. The total employer liability towards EPF ecosystem is approximately 13 percent of basic salary." } },
+      { "@type": "Question", "name": "When is ESI applicable and how much does the employer pay?", "acceptedAnswer": { "@type": "Answer", "text": "ESI is applicable when gross wages are Rs 21,000 or below per month for establishments with 10 or more employees. The employer pays 3.25 percent of gross wages as ESI contribution. For a Rs 18,000 salary employee, the employer ESI cost is Rs 585 per month or Rs 7,020 per year. ESI is not applicable for employees earning above the ceiling from the date of joining." } },
+      { "@type": "Question", "name": "What is gratuity provision and how does it affect payroll cost?", "acceptedAnswer": { "@type": "Answer", "text": "Gratuity provision is approximately 4.81 percent of basic salary provisioned annually by the employer. The formula is Basic times 15 divided by 26 for each year of service. Although gratuity is paid only after 5 years of service at separation, employers must provision the cost annually in their books per accounting standards. For a Rs 25,000 basic salary employee, the annual gratuity provision is approximately Rs 14,423." } },
+      { "@type": "Question", "name": "Is statutory bonus part of employer payroll cost?", "acceptedAnswer": { "@type": "Answer", "text": "Under the Payment of Bonus Act 1965, employers must pay a minimum bonus of 8.33 percent of basic salary plus DA (or Rs 7,000, whichever is higher) to employees earning up to Rs 21,000 per month. The maximum bonus is 20 percent. This is a direct employer cost that is typically included in CTC. For employees above the bonus threshold, employers may still pay ex gratia or performance bonuses at their discretion." } },
+      { "@type": "Question", "name": "How does professional tax affect payroll cost?", "acceptedAnswer": { "@type": "Answer", "text": "Professional tax is actually an employee deduction, not an employer cost. The employer deducts PT from the employee salary and deposits it with the state government. However, some employers bear the PT cost as a benefit, making it an additional employer cost of up to Rs 2,500 per employee per year. The employer must register for PT in each state where employees are located and file monthly or quarterly returns." } },
+      { "@type": "Question", "name": "What is the cost difference between a Rs 5 lakh and Rs 15 lakh CTC employee?", "acceptedAnswer": { "@type": "Answer", "text": "For a Rs 5 lakh CTC employee, employer additional costs include EPF at around Rs 28,800, ESI at around Rs 15,600 (if eligible), gratuity at around Rs 9,600, totalling approximately Rs 54,000 additional. For a Rs 15 lakh employee, EPF is around Rs 21,600 (capped), no ESI (above ceiling), gratuity around Rs 28,800, totalling approximately Rs 50,400. The percentage overhead decreases as CTC increases due to PF and ESI capping." } },
+      { "@type": "Question", "name": "What are EDLI and EPF admin charges?", "acceptedAnswer": { "@type": "Answer", "text": "EDLI (Employees Deposit Linked Insurance) is 0.5 percent of basic salary capped at Rs 15,000 contributing to a life insurance fund that pays Rs 7 lakh maximum on death during service. EPF administrative charges are 0.5 percent of basic salary with a minimum of Rs 75 per month. Both are employer-only contributions paid along with the monthly EPF challan. These are often overlooked but add to the total employer cost." } },
+      { "@type": "Question", "name": "How do I calculate payroll cost for multiple employees?", "acceptedAnswer": { "@type": "Answer", "text": "Enter the number of employees and average CTC in our calculator to get the aggregate annual payroll cost. For a team of 10 employees at Rs 6 lakh average CTC, total employer cost would include the aggregate CTC plus total employer EPF, ESI, gratuity, admin charges, and any employer-borne benefits. Our calculator multiplies per-employee costs by headcount and shows the total annual payroll budget needed." } },
+      { "@type": "Question", "name": "What payroll compliance deadlines must employers follow?", "acceptedAnswer": { "@type": "Answer", "text": "Key monthly deadlines: TDS deposit by 7th of next month, EPF and ESI contribution by 15th of next month, professional tax as per state rules. Quarterly: TDS return in Form 24Q within 31 days of quarter end. Annual: Form 16 issuance by 15th June, EPF annual return, ESI half-yearly returns by 12th November and 12th May, gratuity computation for eligible employees, and bonus payment per the Payment of Bonus Act." } },
+      { "@type": "Question", "name": "How do the new Labour Codes affect payroll costs?", "acceptedAnswer": { "@type": "Answer", "text": "The Code on Wages mandates that basic salary plus DA must be at least 50 percent of CTC. This increases the EPF and gratuity base, raising employer statutory costs by 3 to 5 percent of CTC. Employee take-home decreases but retirement benefits increase significantly. The Code on Social Security consolidates EPF, ESI, and gratuity under one framework. Implementation rules are being notified by states progressively." } },
+      { "@type": "Question", "name": "Should I outsource payroll or manage it in-house?", "acceptedAnswer": { "@type": "Answer", "text": "For companies with fewer than 50 employees, outsourcing payroll to a CA firm is usually more cost-effective \u2014 outsourced payroll costs Rs 200 to 600 per employee per month versus hiring a dedicated payroll person at Rs 25,000 to 50,000 per month. Outsourcing also ensures compliance across EPF, ESI, PT, and TDS without the employer needing to track changing regulations. Patron Accounting provides end-to-end payroll outsourcing for Indian businesses." } },
+      { "@type": "Question", "name": "Can Patron Accounting handle my payroll?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, Patron Accounting provides complete payroll processing including salary computation, EPF and ESI challan filing, TDS computation and deposit, professional tax compliance across multiple states, Form 16 generation, and payslip distribution. We handle payroll for startups to mid-size companies across India with offices in Pune, Mumbai, Delhi, and Gurugram. Monthly payroll processing starts at competitive rates." } }
+    ]}
+    </script>
+@endsection
 @section('content')
 <nav class="toc-nav" aria-label="Page Navigation"><div class="toc-nav-inner">
         <a href="#calculator">Calculator</a>

@@ -166,7 +166,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 
     <!-- Preload hero author photo (LCP optimization) -->
-    <link rel="preload" as="image" href="https://www.patronaccounting.com/images/authors/ca-puja-pradhan.webp" type="image/webp" imagesrcset="https://www.patronaccounting.com/images/authors/ca-puja-pradhan.webp" fetchpriority="high">
+    <link rel="preload" as="image" href="https://www.patronaccounting.com/images/ca-puja-pradhan.webp" type="image/webp" imagesrcset="https://www.patronaccounting.com/images/ca-puja-pradhan.webp" fetchpriority="high">
 @endsection
     <style>
     /* ============ DESIGN TOKENS (matches ITR hub) ============ */

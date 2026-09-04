@@ -61,7 +61,7 @@
         "url": "https://www.patronaccounting.com",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://www.patronaccounting.com/logo.png"
+          "url": "https://www.patronaccounting.com/images/site-logo.svg"
         }
       },
       "provider": {

@@ -767,11 +767,11 @@ function identify(){
             cta.href = 'https://www.patronaccounting.com/income-tax-notice/' + cityInfo.city;
             document.getElementById('cityCtaText').textContent = 'IT Notice CA in ' + cityInfo.cityDisplay;
         } else {
-            cta.href = 'https://www.patronaccounting.com/gst-notice-reply';
+            cta.href = 'https://www.patronaccounting.com/gst-notice';
             document.getElementById('cityCtaText').textContent = 'GST Notice Reply Service';
         }
     } else {
-        cta.href = currentNoticeType === 'IT' ? 'https://www.patronaccounting.com/income-tax-notice-response' : 'https://www.patronaccounting.com/gst-notice-reply';
+        cta.href = currentNoticeType === 'IT' ? 'https://www.patronaccounting.com/income-tax-notice-response' : 'https://www.patronaccounting.com/gst-notice';
         document.getElementById('cityCtaText').textContent = currentNoticeType === 'IT' ? 'IT Notice Response' : 'GST Notice Reply';
     }
 

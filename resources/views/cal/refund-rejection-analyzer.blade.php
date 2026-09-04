@@ -682,7 +682,7 @@ a:focus-visible,button:focus-visible,.toggle-btn:focus-visible,.brand-cta-btn:fo
             <a href="https://www.patronaccounting.com/gst-appeal-section-107-first-appellate-authority" class="sidebar-link">GST Litigation<span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/gstat-appeal-filing" class="sidebar-link">GSTAT Appeal Filing<span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/gst-audit" class="sidebar-link">GST Audit<span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/lut-filing" class="sidebar-link">LUT Filing Service<span class="arrow">→</span></a>
+            <a href="https://www.patronaccounting.com/gst-refund-lut-form-rfd-11" class="sidebar-link">LUT Filing Service<span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/gst-registration" class="sidebar-link">GST Registration<span class="arrow">→</span></a>
         </div>
 

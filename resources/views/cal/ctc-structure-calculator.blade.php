@@ -764,10 +764,8 @@ Gratuity Computation Base = Wages = max(Stated Basic, 50% of CTC)</div>
         <div class="sidebar-card">
             <h3>Related Services</h3>
             <a href="https://www.patronaccounting.com/payroll-services" class="sidebar-link">Payroll Services<span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/labour-law-compliance" class="sidebar-link">Labour Law Compliance<span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/pf-esi-registration" class="sidebar-link">PF / ESI Registration<span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/payroll-audit" class="sidebar-link">Payroll Audit<span class="arrow">→</span></a>
-            <a href="https://www.patronaccounting.com/hr-advisory" class="sidebar-link">HR Advisory<span class="arrow">→</span></a>
             <a href="https://www.patronaccounting.com/eor-india" class="sidebar-link">EOR Services<span class="arrow">→</span></a>
         </div>
 

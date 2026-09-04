@@ -642,7 +642,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
                             <span>15+ Years Experience</span><span class="eab-sep">|</span>
                             <span>Last Updated: March 2026</span>
                         </span>
-                        <a href="/trust-center" class="eab-link">Verify Credentials &rarr;</a>
+                        <a href="/about-us" class="eab-link">Verify Credentials &rarr;</a>
                     </div>
 
                     <div class="mb-4">

@@ -505,10 +505,9 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 </div>
 
 <div class="sidebar-card"><h3>Related Services</h3>
-<a href="https://www.patronaccounting.com/dormant-company-status" class="sidebar-link">Dormant Status (MSC-1) <span class="arrow">→</span></a>
+<a href="https://www.patronaccounting.com/small-company-compliance-dormant" class="sidebar-link">Dormant Status (MSC-1) <span class="arrow">→</span></a>
 <a href="https://www.patronaccounting.com/private-limited-company-compliance" class="sidebar-link">Pvt Ltd Annual Compliance <span class="arrow">→</span></a>
 <a href="https://www.patronaccounting.com/condonation-of-delay-roc-filings" class="sidebar-link">Condonation of Delay (ROC) <span class="arrow">→</span></a>
-<a href="https://www.patronaccounting.com/satisfaction-of-charge-chg-4" class="sidebar-link">Charge Satisfaction (CHG-4) <span class="arrow">→</span></a>
 </div>
 
 <div class="sidebar-card"><h3>Related Tools</h3>

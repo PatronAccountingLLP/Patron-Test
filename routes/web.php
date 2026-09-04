@@ -17,6 +17,7 @@ use App\Http\Controllers\Admin\MediaController as AdminMediaController;
 use App\Http\Controllers\Admin\UserController as AdminUserController;
 use App\Http\Controllers\Admin\ContactController as AdminContactController;
 use App\Http\Controllers\Admin\LeadController as AdminLeadController;
+use App\Http\Controllers\RadarPageController;
 use App\Http\Controllers\DynamicController;
 use App\Http\Controllers\DocFileController;
 
@@ -426,15 +427,14 @@ Route::redirect('/contact', '/contact-us', 301)->name('contact.show');
 Route::redirect('/contact-page', '/contact-us', 301);
 Route::post('/contact', [ContactController::class, 'store'])->name('contact.store');
 
-// Every enquiry from partials/bigin-form.blade.php - ~1,960 pages - posts here
-// instead of straight to Zoho Bigin, so the lead is saved on our side before it
-// is forwarded. See LeadCaptureController. Exempt from CSRF in
-// app/Http/Middleware/VerifyCsrfToken.php: the form is on cacheable public pages
-// and a stale token would 419 and lose the enquiry, which is the exact failure
-// this route was added to prevent.
-// Throttled because this endpoint writes a row and calls Zoho on every hit, and
-// it is public with no CSRF token to slow anyone down. 20/minute per IP is far
-// above any real person filling a form in and well below a bot worth stopping.
+// Every enquiry from partials/bigin-form.blade.php posts here first, so the lead
+// is written to our own `leads` table before anything that can fail. The response
+// is a 307 back to Zoho, which keeps the method and body so the visitor's own
+// browser delivers the submission - see LeadCaptureController for why that matters.
+//
+// Exempt from CSRF in app/Http/Middleware/VerifyCsrfToken.php: the form is on
+// cacheable public pages and a stale token would 419 and lose the enquiry, which
+// is the exact failure this route was added to prevent.
 Route::post('/lead-capture', [LeadCaptureController::class, 'store'])
     ->middleware('throttle:20,1')
     ->name('lead.capture');
@@ -516,8 +516,8 @@ Route::prefix('admin')->name('admin.')->middleware(['auth', 'can_access_admin'])
         Route::post('bulk-delete', [AdminMediaController::class, 'bulkDelete'])->name('bulk-delete');
     });
     
-    // Website Enquiries - our own copy of every lead, saved before it goes to
-    // Zoho Bigin. The "Not in CRM" filter is the list Zoho did not accept.
+    // Website Enquiries - our own copy of every lead, written before it is handed
+    // to the browser for delivery to Zoho Bigin. Separate from Contact Messages.
     Route::prefix('leads')->name('leads.')->group(function () {
         Route::get('/', [AdminLeadController::class, 'index'])->name('index');
         Route::get('/{lead}', [AdminLeadController::class, 'show'])->name('show');
@@ -688,6 +688,41 @@ Route::permanentRedirect('/payroll-audit', '/payroll-services');
 // case-sensitive, so one rule would have left the other still 404ing.
 Route::permanentRedirect('/Professional-tax-registration', '/pt-returns');
 Route::permanentRedirect('/professional-tax-registration', '/pt-returns');
+
+// ============ Radar-published pages: regulatory updates and GST case laws ============
+//
+// Pages written by Radar (the internal system) and pushed here over a signed request.
+// See RadarPageController, and Api\RadarPublishController for the receiving end.
+//
+// These MUST stay above the /{post} catch-all below. /updates and /case-laws are
+// single-segment paths and that route would swallow them and 404 them, which is the
+// same trap the IFSC and glossary rules further up are avoiding.
+//
+// The .pdf route is registered before the page route it resembles, because
+// "{slug}.pdf" also matches the "{slug}" pattern. First match wins, and a download
+// that renders as an HTML page instead is a bug nobody reads the routing file to
+// explain.
+// No ->defaults() here. A default parameter is appended AFTER the ones bound from
+// the URL and the controller is then called positionally, so ->defaults('kind',…)
+// on a two-parameter route silently delivers (section, slug) as (kind, section).
+// The kind is a fact about which route this is, so each route names its own method.
+Route::get('/updates', [RadarPageController::class, 'updates'])->name('radar.updates');
+Route::get('/updates/{section}/{slug}', [RadarPageController::class, 'update'])
+    ->where(['section' => 'gst|income-tax|mca', 'slug' => '[a-z0-9\-]+'])
+    ->name('radar.update');
+
+Route::get('/case-laws', [RadarPageController::class, 'caseLaws'])->name('radar.caselaws');
+Route::get('/case-laws/{section}/{slug}.pdf', [RadarPageController::class, 'pdf'])
+    ->where(['section' => 'aar|aaar', 'slug' => '[a-z0-9\-]+'])
+    ->name('radar.caselaw.pdf');
+Route::get('/case-laws/{section}/{slug}', [RadarPageController::class, 'caseLaw'])
+    ->where(['section' => 'aar|aaar', 'slug' => '[a-z0-9\-]+'])
+    ->name('radar.caselaw');
+
+// No route for /sitemap-radar.xml. nginx resolves *.xml from disk on this host, so PHP
+// never sees the request and a route there answers nothing — it 404s from the server.
+// RadarPageController::writeSitemap() writes the file on every publish instead, which is
+// how every other sitemap on this site exists.
 
 Route::get('/{post}', [FrontendController::class, 'showPost'])->name('frontend.posts.show')->where('post', '[a-z0-9\-]+');
 

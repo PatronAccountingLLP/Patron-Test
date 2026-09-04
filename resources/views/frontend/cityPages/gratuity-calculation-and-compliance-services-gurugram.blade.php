@@ -361,6 +361,14 @@ td .badge-addon    { display:inline-block; padding:2px 10px; background:#FFF3E0;
             margin: 0 auto;
         }
 @keyframes fadeInForm { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+.form-card::before {
+            content: ''; position: absolute; top: 0; left: 28px; right: 28px; height: 3px;
+            background: linear-gradient(90deg, var(--orange), var(--blue)); border-radius: 0 0 3px 3px;
+        }
+.form-header { margin-bottom: 24px; }
+.form-title { font-size: 22px; font-weight: 800; color: var(--blue); margin-bottom: 4px; }
+.form-subtitle { font-size: 13px; color: var(--text-muted); }
+.form-group { margin-bottom: 16px; }
 .form-label { display: block; font-size: 13px; font-weight: 600; color: var(--text-primary); margin-bottom: 6px; }
 .form-input, .form-select {
             width: 100%; padding: 11px 14px; border: 1.5px solid var(--gray-200);
@@ -411,11 +419,16 @@ td .badge-addon    { display:inline-block; padding:2px 10px; background:#FFF3E0;
         }
 .btn-submit:hover { background: var(--orange-dark); transform: translateY(-1px); box-shadow: 0 4px 12px rgba(232,113,44,0.3); }
 .form-response-note { font-size: 12px; color: var(--text-muted); text-align: center; margin-top: 12px; }
+.form-footer {
+            display: flex; justify-content: center; gap: 16px; margin-top: 16px;
+            padding-top: 16px; border-top: 1px solid var(--gray-100);
+        }
 .form-footer-item {
             display: flex; align-items: center; gap: 4px;
             font-size: 11px; color: var(--text-muted); font-weight: 500;
         }
 .form-footer-item svg { width: 12px; height: 12px; }
+.form-success { text-align: center; padding: 40px 20px; }
 .form-success-icon { margin-bottom: 16px; }
 .form-success h3 { color: var(--blue); font-size: 20px; margin-bottom: 8px; }
 .form-success p { color: var(--text-muted); font-size: 14px; }
@@ -769,6 +782,7 @@ section ul li:not(.nav-item) { font-size: 14px; }
                         <p class="form-subtitle">Talk to a CA/CS expert today</p>
                     </div>
 
+                    <iframe name='hidden208810000001209168Frame' id='hidden208810000001209168Frame' style='display:none;' src='about:blank'></iframe>
 
                                         @include('partials.bigin-form', [
                                             'variant' => 'bare',
@@ -1520,6 +1534,9 @@ section ul li:not(.nav-item) { font-size: 14px; }
 @include('layouts.itr-season-strip')
 
 </main>
+
+
+
 
 
 <script>

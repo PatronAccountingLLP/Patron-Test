@@ -141,35 +141,24 @@ Route::permanentRedirect('/llp-compliance', '/pvt-llp-compliance');
 /*
  * The industry accounting pages moved, and their Mumbai children did not.
  *
- * Six of the seven India pages were renamed and redirected. Laravel matches the
- * whole path, so a rule on /education-accounting-services cannot catch
- * /education-accounting-services/mumbai - the parent forwards while the child
- * stays 200 on the old slug. cleanup-404-redirects.php already says this; these
- * are the rules it was waiting for.
+ * Seven India pages were renamed. Laravel matches the whole path, so a rule on
+ * /education-accounting-services cannot catch its /mumbai child - the parent
+ * forwards while the child stays 200 on the old slug. That left three services
+ * with two live Mumbai pages, each naming itself, competing for one search, and
+ * four more sitting under a parent that redirects away.
  *
- * Left as it stands, each service has two live Mumbai pages claiming to be
- * themselves, competing for the same search.
+ * The first three go to their own city page under the new slug. The last four
+ * have no city page there, so they go up to the service's India page instead.
+ * That ends the orphan at the cost of the Mumbai page: a reader searching for
+ * healthcare accounting in Mumbai now lands on the national page. If those four
+ * city pages are built later, only those four lines change.
  *
- * Only these three are moved. Healthcare, hospitality, NGO and trading have no
- * Mumbai page under the new slug, so a redirect there would remove the Mumbai
- * page rather than move it. They wait until the content is moved across.
+ * Every target was requested against the live site before this was written.
  */
 Route::permanentRedirect('/ecommerce-accounting-services/mumbai', '/accounting-services-for-e-commerce-industry/mumbai');
 Route::permanentRedirect('/education-accounting-services/mumbai', '/accounting-services-for-education-industry/mumbai');
 Route::permanentRedirect('/service-sector-accounting/mumbai', '/accounting-services-for-the-service-sector-industry/mumbai');
 
-/*
- * The four whose replacement city page does not exist.
- *
- * The three above moved to their own city page under the new slug. These four
- * have no city page there at all, so they go to the service's India page.
- *
- * That ends the orphan - a live Mumbai page sitting under a parent that
- * redirects away, with the two competing - at the cost of the Mumbai page. A
- * reader searching for this service in Mumbai now lands on the national page.
- *
- * If the four city pages are built later, only these four lines change.
- */
 Route::permanentRedirect('/healthcare-accounting-services/mumbai', '/healthcare-sector-accounting-services');
 Route::permanentRedirect('/hospitality-accounting-services/mumbai', '/hospitality-sector-accounting-services');
 Route::permanentRedirect('/ngo-accounting-services/mumbai', '/ngo-and-non-profit-accounting-services');

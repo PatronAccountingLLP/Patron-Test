@@ -1,0 +1,201 @@
+/* ==========================================================================
+   Radar pages — regulatory updates and GST case laws.
+
+   Loaded only by frontend/radar/*.blade.php, through partials.page-css, so the
+   ?v= is this file's own content hash and editing it busts the cache by itself.
+
+   Colours are the site's: navy #0f2747, orange #f26b21, the same greys as
+   site.css. Nothing here is a new palette.
+   ========================================================================== */
+
+:root {
+    /* The site header is position:sticky; top:0, so anything else that sticks has to start
+       BELOW it or it slides underneath. Its height is not fixed — the bar is ~70px and the blue
+       strip above it (~30px) collapses on scroll, and on non-home pages it collapses later — so
+       this clears the TALLER state. Getting it wrong the other way hides content behind the
+       header, which is worse than a little space above a rail.
+
+       One variable, read by both rails and by every anchor target, so a header change is one
+       number here and not four places that drift. */
+    --rdp-top: 108px;
+}
+
+.rdp-wrap {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 28px 16px 12px;
+    font-family: 'Barlow', system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+
+/* Three columns: what else is here, the page, where you are in it.
+   Both rails stay with the reader — a contents list that scrolls away can only
+   be used before you start reading, and the rail's whole job is "take me to a
+   different one from here". */
+.rdp-cols {
+    display: grid;
+    grid-template-columns: 240px minmax(0, 1fr) 210px;
+    gap: 34px;
+    align-items: start;
+}
+.rdp-main { min-width: 0; }
+
+.rdp-rail,
+.rdp-toc {
+    position: sticky;
+    top: var(--rdp-top);
+    max-height: calc(100vh - var(--rdp-top) - 24px);
+    overflow-y: auto;
+}
+.rdp-rail { border-right: 1px solid #e5e7eb; padding-right: 18px; }
+.rdp-toc  { border-left: 1px solid #e5e7eb; padding-left: 18px; }
+
+.rdp-rail__h,
+.rdp-toc__h {
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    color: #0f2747;
+    margin-bottom: 10px;
+}
+.rdp-rail__list { list-style: none; margin: 0; padding: 0; }
+.rdp-rail__list li { padding: 8px 0; border-bottom: 1px solid #f1f5f9; }
+.rdp-rail__t { display: block; font-size: 12.5px; line-height: 1.45; color: #374151; text-decoration: none; }
+a.rdp-rail__t:hover { color: #f26b21; }
+.rdp-rail__d { display: block; font-size: 10.5px; color: #9ca3af; margin-top: 3px; }
+/* "You are here" in a list of twenty short lines. Bold navy alone is a weak signal
+   at 12.5px when the eye is scanning, so there is a marker — but 2px, the width of
+   the rule between rows, not a slab down the side of a card. */
+.rdp-rail__list li.is-current {
+    border-left: 2px solid #f26b21;
+    padding-left: 10px;
+    margin-left: -12px;
+}
+.rdp-rail__list li.is-current .rdp-rail__t { color: #0f2747; font-weight: 700; }
+.rdp-rail__all { display: inline-block; margin-top: 12px; font-size: 11.5px; font-weight: 700; color: #0f2747; text-decoration: none; }
+.rdp-rail__all:hover { color: #f26b21; }
+
+.rdp-toc ul { list-style: none; margin: 0; padding: 0; }
+.rdp-toc li { padding: 5px 0; }
+.rdp-toc a { font-size: 12.5px; line-height: 1.45; color: #4b5563; text-decoration: none; }
+.rdp-toc a:hover { color: #0f2747; }
+.rdp-toc li.is-sub { padding: 3px 0 3px 12px; border-left: 1px solid #e5e7eb; margin-left: 2px; }
+.rdp-toc li.is-sub a { font-size: 11.5px; color: #64748b; }
+
+/* Where the reader is now, tracked as they scroll. A contents list that never says
+   which entry you are in is a menu; saying so is what makes it a position. */
+.rdp-toc li.is-active > a { color: #f26b21; font-weight: 700; }
+.rdp-toc li.is-active.is-sub { border-left-color: #f26b21; }
+
+/* The FAQ block is a shared partial and gives its items no anchor offset of their own,
+   so a jump to a question would land it under the sticky header. Scoped here, because
+   this stylesheet only loads on these pages. */
+.faq-expanded__item { scroll-margin-top: calc(var(--rdp-top) + 12px); }
+#faq-section { scroll-margin-top: calc(var(--rdp-top) + 12px); }
+
+/* ── The page itself ─────────────────────────────────────────────────────── */
+
+.rdp-h1 { font-size: 32px; line-height: 1.22; font-weight: 800; color: #0f2747; margin: 0 0 10px; }
+.rdp-h2 { font-size: 19px; font-weight: 800; color: #0f2747; margin: 30px 0 9px; scroll-margin-top: calc(var(--rdp-top) + 12px); }
+.rdp-p  { font-size: 15.5px; line-height: 1.78; color: #374151; margin: 0 0 12px; }
+
+.rdp-dateline { display: flex; flex-wrap: wrap; gap: 8px 16px; font-size: 12.5px; color: #6b7280; margin: 0 0 16px; }
+
+/* Stated plainly, and early. */
+.rdp-ai {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 12px 15px;
+    font-size: 12.5px;
+    line-height: 1.65;
+    color: #475569;
+    margin: 0 0 24px;
+}
+
+.rdp-facts { width: 100%; border-collapse: collapse; font-size: 14px; margin: 8px 0 14px; }
+.rdp-facts th { width: 150px; text-align: left; font-weight: 700; color: #0f2747; padding: 8px 12px 8px 0; vertical-align: top; border-bottom: 1px solid #f1f5f9; }
+.rdp-facts td { padding: 8px 0; color: #374151; border-bottom: 1px solid #f1f5f9; }
+
+/* The practitioner's summary, below the plain one. Same rendering as the PDF. */
+.rdp-detail h1 { font-size: 20px; font-weight: 800; color: #0f2747; margin: 0 0 4px; }
+.rdp-detail h2 { font-size: 16px; font-weight: 700; color: #0f2747; margin: 4px 0 10px; }
+.rdp-detail h3 { font-size: 15px; font-weight: 700; color: #0f2747; margin: 20px 0 7px; scroll-margin-top: calc(var(--rdp-top) + 12px); }
+.rdp-detail p  { font-size: 14.5px; line-height: 1.75; color: #374151; margin: 0 0 10px; }
+.rdp-detail ul { margin: 0 0 12px 20px; font-size: 14.5px; line-height: 1.75; color: #374151; }
+
+.rdp-dl {
+    display: inline-block;
+    background: #0f2747;
+    color: #fff;
+    font-size: 13.5px;
+    font-weight: 700;
+    padding: 11px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 8px 0 4px;
+}
+.rdp-dl:hover { background: #1b3a63; color: #fff; }
+.rdp-src { font-size: 13px; color: #6b7280; margin: 10px 0 0; }
+
+/* About Patron Accounting — Radar sends this block on every page, in the site's
+   orange rather than the notice's grey: the notice is a warning about the page,
+   this is the firm introducing itself. */
+.pa-about-patron {
+    background: #fff6f1;
+    border: 1px solid #fbd8c2;
+    border-radius: 12px;
+    padding: 22px 24px;
+    margin-top: 34px;
+}
+.pa-about-patron h2 { font-size: 19px; font-weight: 800; color: #c2410c; margin: 0 0 10px; }
+.pa-about-patron p  { font-size: 14.5px; line-height: 1.75; color: #374151; margin: 0 0 12px; }
+.pa-about-patron ul { margin: 0 0 12px 20px; font-size: 14px; line-height: 1.8; color: #374151; }
+.pa-about-patron a  { color: #c2410c; font-weight: 600; }
+.pa-about-patron p:last-child { margin-bottom: 0; }
+
+/* ── The hubs ────────────────────────────────────────────────────────────── */
+
+.rdp-hub__head { margin-bottom: 18px; }
+.rdp-hub__lead { font-size: 15.5px; line-height: 1.7; color: #4b5563; margin: 8px 0 0; max-width: 760px; }
+
+.rdp-tabs { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 22px; }
+.rdp-tabs a {
+    font-size: 13px;
+    font-weight: 600;
+    color: #4b5563;
+    background: #f8fafc;
+    border: 1px solid #e5e7eb;
+    border-radius: 999px;
+    padding: 7px 15px;
+    text-decoration: none;
+}
+.rdp-tabs a:hover { color: #0f2747; }
+.rdp-tabs a.is-on { background: #0f2747; border-color: #0f2747; color: #fff; }
+
+.rdp-card { border-bottom: 1px solid #f1f5f9; padding: 16px 0; }
+.rdp-card__t { display: block; font-size: 17px; font-weight: 700; line-height: 1.4; color: #0f2747; text-decoration: none; }
+.rdp-card__t:hover { color: #f26b21; }
+.rdp-card__m { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 11.5px; color: #9ca3af; margin: 5px 0 0; }
+.rdp-card__d { font-size: 14px; line-height: 1.65; color: #4b5563; margin: 7px 0 0; }
+.rdp-empty { font-size: 14px; color: #6b7280; padding: 30px 0; }
+.rdp-pager { margin: 22px 0 6px; }
+
+/* ── Narrow ──────────────────────────────────────────────────────────────── */
+
+@media (max-width: 1080px) {
+    .rdp-cols { grid-template-columns: minmax(0, 1fr); gap: 0; }
+    /* The rails become sections rather than disappearing: on a phone the contents
+       list is the fastest way down a long page, and the other documents are still
+       the reason somebody came. Both unstick, since there is nothing beside them. */
+    .rdp-rail, .rdp-toc {
+        position: static;
+        max-height: none;
+        overflow: visible;
+        border: 0;
+        padding: 0;
+    }
+    .rdp-toc { order: -1; margin-bottom: 20px; padding: 14px 16px; background: #f8fafc; border-radius: 10px; }
+    .rdp-rail { margin-top: 30px; padding-top: 20px; border-top: 1px solid #e5e7eb; }
+    .rdp-h1 { font-size: 26px; }
+}

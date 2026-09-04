@@ -25,3 +25,16 @@ Route::get('/search-pages', [SearchController::class, 'searchPages']);
 
 // WhatsApp Subscription Route
 Route::post('/whatsapp-subscription', [FrontendController::class, 'whatsappSubscription']);
+
+/*
+ | Radar publishes pages here — regulatory updates and GST case laws.
+ |
+ | Signed, not tokened: this creates and replaces PUBLIC pages, and a bearer token in a query
+ | string is written into every access log between there and here. See VerifyRadarSignature.
+ |
+ | Rate limited well above what the publisher does (a cron pushes a handful twice a day) and far
+ | below what a loop could: a signed request is still a request that writes a row.
+ */
+Route::post('/radar/publish', [\App\Http\Controllers\Api\RadarPublishController::class, 'store'])
+    ->middleware(['radar_signed', 'throttle:60,1'])
+    ->name('radar.publish');

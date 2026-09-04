@@ -82,9 +82,9 @@ class FrontendController extends Controller
             return redirect()->to(url($this->listingPath($category)), 301);
         }
 
-        // published_at alone does not order the posts: the published posts share a handful of
-        // timestamps, so every page of the listing was a LIMIT/OFFSET over rows the database
-        // was free to return in any order. Pages then overlapped and skipped --
+        // published_at alone does not order the posts: the 1,004 published posts share a
+        // handful of timestamps, so every page of the listing was a LIMIT/OFFSET over rows the
+        // database was free to return in any order. Pages then overlapped and skipped --
         // /blog/accounting-and-bookkeeping showed 221 rows for 113 articles, and 132 posts
         // across the estate could not be reached from their own category at all. Ordering by
         // id as well makes the sort total, so every post appears exactly once.

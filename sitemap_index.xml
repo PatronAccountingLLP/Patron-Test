@@ -122,4 +122,8 @@
     <loc>https://www.patronaccounting.com/sitemap-blog-categories.xml</loc>
     <lastmod>2026-09-02</lastmod>
   </sitemap>
+  <sitemap>
+    <loc>https://www.patronaccounting.com/sitemap-radar.xml</loc>
+    <lastmod>2026-09-04</lastmod>
+  </sitemap>
 </sitemapindex>

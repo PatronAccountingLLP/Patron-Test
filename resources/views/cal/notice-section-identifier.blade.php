@@ -762,7 +762,7 @@ function identify(){
     const cityInfo = STATE_CITY[state] || STATE_CITY['Other'];
     const cta = document.getElementById('cityCta');
     if(cityInfo.city){
-        // For IT notices route to IT city page; for GST route to general /gst-notice-reply
+        // For IT notices route to IT city page; for GST route to general /gst-notice
         if(currentNoticeType === 'IT'){
             cta.href = 'https://www.patronaccounting.com/income-tax-notice/' + cityInfo.city;
             document.getElementById('cityCtaText').textContent = 'IT Notice CA in ' + cityInfo.cityDisplay;

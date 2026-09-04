@@ -39,6 +39,11 @@ class SecurityHeaders
         'https://bigin.zoho.in',
         'https://*.zoho.in',
         'https://*.zohostatic.in',
+        // The /tools hub's dc-runtime loads React 18 from here at boot. The URL
+        // is baked into the gzipped runtime blob inside tools-hub.html, so it
+        // cannot be repointed at an already-listed CDN without rebuilding the
+        // bundle.
+        'https://unpkg.com',
         // Google Ads. These never appear in the HTML - the GTM container
         // (GTM-M6G3R8G) loads them at runtime, so they are read out of the
         // container itself rather than the page.
@@ -76,6 +81,9 @@ class SecurityHeaders
         'https://td.doubleclick.net',
         'https://*.doubleclick.net',
         'https://www.googleadservices.com',
+        // publisher.js in the footer (every page) frames news.google.com for
+        // the "add as preferred source" button.
+        'https://news.google.com',
     ];
 
     private const CONNECT_SRC = [
@@ -166,9 +174,15 @@ class SecurityHeaders
             "base-uri 'self'",
             "object-src 'none'",
             "frame-ancestors 'self'",
-            "script-src 'self' 'unsafe-inline' 'unsafe-eval' " . implode(' ', self::SCRIPT_SRC),
+            // blob: is needed by the /tools hub. It ships as a self-extracting
+            // bundle that gunzips its runtime and its 15 woff2 faces in the
+            // browser and hands them to the page as blob: URLs. Without it the
+            // hub boots to a "Loading tools..." spinner over raw {{ }} template
+            // placeholders. A blob: URL is same-origin and script-created, so
+            // it widens the policy far less than another remote host would.
+            "script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: " . implode(' ', self::SCRIPT_SRC),
             "style-src 'self' 'unsafe-inline' " . implode(' ', self::STYLE_SRC),
-            "font-src 'self' data: " . implode(' ', self::FONT_SRC),
+            "font-src 'self' data: blob: " . implode(' ', self::FONT_SRC),
 
             // Images come from a long tail of hosts (stock photography, Google
             // pixels, placeholders). Allowing any https image is a deliberate

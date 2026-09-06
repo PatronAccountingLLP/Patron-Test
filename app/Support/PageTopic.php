@@ -82,6 +82,18 @@ class PageTopic
         }
 
         $slug  = preg_replace('/\.(html?|php)$/i', '', end($segments));
+
+        // A code page ends in the code itself - /hsn-code/48193000 - and the code
+        // alone is not a name: the message read "I just visited your 48193000
+        // page". The segment in front says what the number is, so the two are
+        // read together and it becomes "HSN Code 48193000".
+        $code = null;
+        if (preg_match('/^\d+$/', $slug) && count($segments) > 1) {
+            $code = $slug;
+            array_pop($segments);
+            $slug = end($segments);
+        }
+
         $parts = array_values(array_filter(explode('-', $slug)));
 
         // ...and so does a trailing -pune on the slug itself.
@@ -103,6 +115,9 @@ class PageTopic
         }
 
         $name = trim(implode(' ', $words));
+        if ($name !== '' && $code !== null) {
+            $name .= ' '.$code;
+        }
         if ($name !== '' && $city !== null) {
             $name .= ' in '.ucfirst($city);
         }

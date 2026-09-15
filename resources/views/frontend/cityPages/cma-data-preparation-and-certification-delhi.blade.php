@@ -757,7 +757,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
         "@id": "https://www.patronaccounting.com/cma-data-preparation-and-certification/delhi/#breadcrumb",
         "itemListElement": [
             { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Statutory Audit", "item": "https://www.patronaccounting.com/statutory-audit" },
+            { "@type": "ListItem", "position": 2, "name": "CMA Data Preparation and Certification", "item": "https://www.patronaccounting.com/cma-data-preparation-and-certification" },
             { "@type": "ListItem", "position": 3, "name": "CMA Data Preparation & Certification", "item": "https://www.patronaccounting.com/cma-data-preparation-and-certification/delhi" }
         ]
     }

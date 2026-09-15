@@ -724,8 +724,8 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "GST Notice",
-          "item": "https://www.patronaccounting.com/gst-notice"
+          "name": "ASMT-10 Notice Reply",
+          "item": "https://www.patronaccounting.com/asmt-10-notice"
         },
         {
           "@type": "ListItem",

@@ -724,8 +724,8 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "GST Notice",
-          "item": "https://www.patronaccounting.com/gst-notice"
+          "name": "Section 73 GST Notice Reply",
+          "item": "https://www.patronaccounting.com/sec-73-gst-notice"
         },
         {
           "@type": "ListItem",

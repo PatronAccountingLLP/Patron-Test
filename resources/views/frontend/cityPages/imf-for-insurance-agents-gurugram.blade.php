@@ -930,8 +930,8 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "IMF Services",
-          "item": "https://www.patronaccounting.com/imf-services"
+          "name": "IMF for Insurance Agents",
+          "item": "https://www.patronaccounting.com/imf-for-insurance-agents"
         },
         {
           "@type": "ListItem",

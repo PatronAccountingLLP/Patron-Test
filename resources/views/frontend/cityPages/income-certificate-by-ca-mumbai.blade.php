@@ -679,7 +679,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
         "@id": "https://www.patronaccounting.com/income-certificate-by-ca/mumbai/#breadcrumb",
         "itemListElement": [
             { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
+            { "@type": "ListItem", "position": 2, "name": "Income Certificate by CA", "item": "https://www.patronaccounting.com/income-certificate-by-ca" },
             { "@type": "ListItem", "position": 3, "name": "Income Certificate by CA", "item": "https://www.patronaccounting.com/income-certificate-by-ca/mumbai" }
         ]
     }

@@ -724,8 +724,8 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "GST Notice",
-          "item": "https://www.patronaccounting.com/gst-notice"
+          "name": "GST Notice Handling for Restaurants",
+          "item": "https://www.patronaccounting.com/gst-notice-restaurants"
         },
         {
           "@type": "ListItem",

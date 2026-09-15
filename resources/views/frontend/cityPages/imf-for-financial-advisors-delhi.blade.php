@@ -907,8 +907,8 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "IMF Services",
-          "item": "https://www.patronaccounting.com/imf-services"
+          "name": "IMF for Financial Advisors",
+          "item": "https://www.patronaccounting.com/imf-for-financial-advisors"
         },
         {
           "@type": "ListItem",

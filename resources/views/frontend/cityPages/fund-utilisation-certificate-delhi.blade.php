@@ -683,7 +683,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
         "@id": "https://www.patronaccounting.com/fund-utilisation-certificate/delhi/#breadcrumb",
         "itemListElement": [
             { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "NGO and Non Profit Accounting", "item": "https://www.patronaccounting.com/ngo-and-non-profit-accounting-services" },
+            { "@type": "ListItem", "position": 2, "name": "Fund Utilisation Certificate", "item": "https://www.patronaccounting.com/fund-utilisation-certificate" },
             { "@type": "ListItem", "position": 3, "name": "Fund Utilisation Certificate", "item": "https://www.patronaccounting.com/fund-utilisation-certificate/delhi" }
         ]
     }

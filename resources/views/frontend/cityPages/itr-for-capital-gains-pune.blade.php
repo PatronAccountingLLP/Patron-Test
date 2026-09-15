@@ -105,8 +105,8 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "ITR for Capital Gains",
-          "item": "https://www.patronaccounting.com/itr-capital-gains"
+          "name": "Capital Gains ITR Filing",
+          "item": "https://www.patronaccounting.com/itr-for-capital-gains"
         },
         {
           "@type": "ListItem",

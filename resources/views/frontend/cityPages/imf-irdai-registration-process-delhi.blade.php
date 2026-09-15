@@ -712,8 +712,8 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "IMF Services",
-          "item": "https://www.patronaccounting.com/imf-services"
+          "name": "IRDAI IMF Registration Process",
+          "item": "https://www.patronaccounting.com/imf-irdai-registration-process"
         },
         {
           "@type": "ListItem",

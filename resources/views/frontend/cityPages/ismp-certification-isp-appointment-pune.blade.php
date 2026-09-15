@@ -281,8 +281,8 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "IMF Services",
-          "item": "https://www.patronaccounting.com/imf-services"
+          "name": "ISMP Certification and ISP Appointment",
+          "item": "https://www.patronaccounting.com/ismp-certification-isp-appointment"
         },
         {
           "@type": "ListItem",

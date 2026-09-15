@@ -731,8 +731,8 @@ section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;ma
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "GST Notice Services",
-          "item": "https://www.patronaccounting.com/gst-notice/mumbai"
+          "name": "GST Notice Handling for Restaurants",
+          "item": "https://www.patronaccounting.com/gst-notice-restaurants"
         },
         {
           "@type": "ListItem",

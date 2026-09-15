@@ -105,8 +105,8 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "GST Returns",
-          "item": "https://www.patronaccounting.com/gst-returns"
+          "name": "GST Returns for E-commerce Operators",
+          "item": "https://www.patronaccounting.com/gst-returns-for-e-commerce-operator"
         },
         {
           "@type": "ListItem",

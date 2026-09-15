@@ -174,17 +174,6 @@
         "availability": "https://schema.org/InStock",
         "url": "https://www.patronaccounting.com/ngo-services-for-healthcare/gurugram"
       }
-    },
-    {
-      "@type": "LocalBusiness",
-      "name": "Patron Accounting LLP - CA Services for Healthcare NGOs &amp; Charitable Hospitals Gurugram",
-      "url": "https://www.patronaccounting.com/ngo-services-for-healthcare/gurugram",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram"
-      },
-      "telephone": "+919459456700",
-      "priceRange": "INR"
     }
   ]
 }</script>

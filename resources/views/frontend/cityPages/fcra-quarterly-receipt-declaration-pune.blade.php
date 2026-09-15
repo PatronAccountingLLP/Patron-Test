@@ -162,17 +162,6 @@
         "availability": "https://schema.org/InStock",
         "url": "https://www.patronaccounting.com/fcra-quarterly-receipt-declaration/pune"
       }
-    },
-    {
-      "@type": "LocalBusiness",
-      "name": "Patron Accounting LLP - FCRA Quarterly Receipt Declaration Pune",
-      "url": "https://www.patronaccounting.com/fcra-quarterly-receipt-declaration/pune",
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune"
-      },
-      "telephone": "+919459456700",
-      "priceRange": "INR"
     }
   ]
 }</script>

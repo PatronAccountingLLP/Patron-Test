@@ -162,17 +162,6 @@
         "availability": "https://schema.org/InStock",
         "url": "https://www.patronaccounting.com/fcra-quarterly-receipt-declaration/mumbai"
       }
-    },
-    {
-      "@type": "LocalBusiness",
-      "name": "Patron Accounting LLP - FCRA Quarterly Receipt Declaration Mumbai",
-      "url": "https://www.patronaccounting.com/fcra-quarterly-receipt-declaration/mumbai",
-      "areaServed": {
-        "@type": "City",
-        "name": "Mumbai"
-      },
-      "telephone": "+919459456700",
-      "priceRange": "INR"
     }
   ]
 }</script>

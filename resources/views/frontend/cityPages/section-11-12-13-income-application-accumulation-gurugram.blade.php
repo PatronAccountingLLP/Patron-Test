@@ -162,17 +162,6 @@
         "availability": "https://schema.org/InStock",
         "url": "https://www.patronaccounting.com/section-11-12-13-income-application-accumulation/gurugram"
       }
-    },
-    {
-      "@type": "LocalBusiness",
-      "name": "Patron Accounting LLP - Section 11, 12 & 13 Gurugram",
-      "url": "https://www.patronaccounting.com/section-11-12-13-income-application-accumulation/gurugram",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram"
-      },
-      "telephone": "+919459456700",
-      "priceRange": "INR"
     }
   ]
 }</script>

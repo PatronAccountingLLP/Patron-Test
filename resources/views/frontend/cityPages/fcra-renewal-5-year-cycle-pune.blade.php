@@ -162,17 +162,6 @@
         "availability": "https://schema.org/InStock",
         "url": "https://www.patronaccounting.com/fcra-renewal-5-year-cycle/pune"
       }
-    },
-    {
-      "@type": "LocalBusiness",
-      "name": "Patron Accounting LLP - FCRA Registration Renewal (FC-3C) Pune",
-      "url": "https://www.patronaccounting.com/fcra-renewal-5-year-cycle/pune",
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune"
-      },
-      "telephone": "+919459456700",
-      "priceRange": "INR"
     }
   ]
 }</script>

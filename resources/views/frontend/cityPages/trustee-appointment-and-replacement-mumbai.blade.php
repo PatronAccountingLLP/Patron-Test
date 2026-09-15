@@ -162,17 +162,6 @@
         "availability": "https://schema.org/InStock",
         "url": "https://www.patronaccounting.com/trustee-appointment-and-replacement/mumbai"
       }
-    },
-    {
-      "@type": "LocalBusiness",
-      "name": "Patron Accounting LLP - Trustee Appointment, Retirement & Replacement in India Mumbai",
-      "url": "https://www.patronaccounting.com/trustee-appointment-and-replacement/mumbai",
-      "areaServed": {
-        "@type": "City",
-        "name": "Mumbai"
-      },
-      "telephone": "+919459456700",
-      "priceRange": "INR"
     }
   ]
 }</script>

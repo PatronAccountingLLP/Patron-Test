@@ -162,17 +162,6 @@
         "availability": "https://schema.org/InStock",
         "url": "https://www.patronaccounting.com/form-10b-audit-report-section-12a-trust/mumbai"
       }
-    },
-    {
-      "@type": "LocalBusiness",
-      "name": "Patron Accounting LLP - Form 10B Audit Report for Section 12A Trusts Mumbai",
-      "url": "https://www.patronaccounting.com/form-10b-audit-report-section-12a-trust/mumbai",
-      "areaServed": {
-        "@type": "City",
-        "name": "Mumbai"
-      },
-      "telephone": "+919459456700",
-      "priceRange": "INR"
     }
   ]
 }</script>

@@ -162,17 +162,6 @@
         "availability": "https://schema.org/InStock",
         "url": "https://www.patronaccounting.com/section-11-12-13-income-application-accumulation/delhi"
       }
-    },
-    {
-      "@type": "LocalBusiness",
-      "name": "Patron Accounting LLP - Section 11, 12 & 13 Delhi",
-      "url": "https://www.patronaccounting.com/section-11-12-13-income-application-accumulation/delhi",
-      "areaServed": {
-        "@type": "City",
-        "name": "Delhi"
-      },
-      "telephone": "+919459456700",
-      "priceRange": "INR"
     }
   ]
 }</script>

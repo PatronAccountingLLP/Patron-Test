@@ -162,17 +162,6 @@
         "availability": "https://schema.org/InStock",
         "url": "https://www.patronaccounting.com/12a-80g-renewal-5-year-cycle/pune"
       }
-    },
-    {
-      "@type": "LocalBusiness",
-      "name": "Patron Accounting LLP - 12A & 80G Renewal Pune",
-      "url": "https://www.patronaccounting.com/12a-80g-renewal-5-year-cycle/pune",
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune"
-      },
-      "telephone": "+919459456700",
-      "priceRange": "INR"
     }
   ]
 }</script>

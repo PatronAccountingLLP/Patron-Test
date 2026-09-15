@@ -895,23 +895,7 @@
           "name": "Haryana"
         }
       },
-      "provider": {
-        "@type": "LocalBusiness",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg",
-        "telephone": "+919459456700",
-        "email": "sales@patronaccounting.com",
-        "priceRange": "INR",
-        "areaServed": {
-          "@type": "City",
-          "name": "Gurugram",
-          "containedInPlace": {
-            "@type": "State",
-            "name": "Haryana"
-          }
-        }
-      },
+      "provider": {"@id": "https://www.patronaccounting.com/gurugram/#localbusiness"},
       "offers": {
         "@type": "Offer",
         "priceCurrency": "INR",

@@ -174,17 +174,6 @@
         "availability": "https://schema.org/InStock",
         "url": "https://www.patronaccounting.com/ngo-services-for-healthcare/delhi"
       }
-    },
-    {
-      "@type": "LocalBusiness",
-      "name": "Patron Accounting LLP - CA Services for Healthcare NGOs &amp; Charitable Hospitals Delhi",
-      "url": "https://www.patronaccounting.com/ngo-services-for-healthcare/delhi",
-      "areaServed": {
-        "@type": "City",
-        "name": "Delhi"
-      },
-      "telephone": "+919459456700",
-      "priceRange": "INR"
     }
   ]
 }</script>

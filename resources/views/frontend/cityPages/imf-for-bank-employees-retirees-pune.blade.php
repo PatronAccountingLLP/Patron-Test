@@ -859,46 +859,13 @@
           "name": "Maharashtra"
         }
       },
-      "provider": {
-        "@type": "LocalBusiness",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg",
-        "telephone": "+91-94594-56700",
-        "email": "sales@patronaccounting.com",
-        "areaServed": {
-          "@type": "City",
-          "name": "Pune",
-          "containedInPlace": {
-            "@type": "State",
-            "name": "Maharashtra"
-          }
-        }
-      },
+      "provider": {"@id": "https://www.patronaccounting.com/pune/#localbusiness"},
       "offers": {
         "@type": "Offer",
         "priceCurrency": "INR",
         "price": "24999",
         "availability": "https://schema.org/InStock",
         "url": "https://www.patronaccounting.com/imf-for-bank-employees-retirees/pune"
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "name": "Patron Accounting LLP",
-      "url": "https://www.patronaccounting.com/",
-      "logo": "https://www.patronaccounting.com/images/site-logo.svg",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "telephone": "+91-94594-56700",
-      "email": "sales@patronaccounting.com",
-      "priceRange": "INR 24,999 onwards",
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Maharashtra"
-        }
       }
     }
   ]

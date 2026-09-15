@@ -162,17 +162,6 @@
         "availability": "https://schema.org/InStock",
         "url": "https://www.patronaccounting.com/trustee-appointment-and-replacement/pune"
       }
-    },
-    {
-      "@type": "LocalBusiness",
-      "name": "Patron Accounting LLP - Trustee Appointment, Retirement & Replacement in India Pune",
-      "url": "https://www.patronaccounting.com/trustee-appointment-and-replacement/pune",
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune"
-      },
-      "telephone": "+919459456700",
-      "priceRange": "INR"
     }
   ]
 }</script>

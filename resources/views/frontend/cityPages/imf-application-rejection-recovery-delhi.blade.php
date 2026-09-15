@@ -650,21 +650,6 @@
           }
         }
       ]
-    },
-    {
-      "@type": "LocalBusiness",
-      "name": "Patron Accounting LLP",
-      "description": "CA and CS firm assisting rejected IRDAI Insurance Marketing Firm applicants in Delhi with rejection diagnosis, deficiency rectification, resubmission, SAT appeals and fresh applications.",
-      "url": "https://www.patronaccounting.com/imf-application-rejection-recovery/delhi",
-      "logo": "https://www.patronaccounting.com/images/site-logo.svg",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "telephone": "+91-9459456700",
-      "email": "sales@patronaccounting.com",
-      "priceRange": "From INR 24,999",
-      "areaServed": {
-        "@type": "City",
-        "name": "Delhi"
-      }
     }
   ]
 }</script>

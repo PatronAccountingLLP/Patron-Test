@@ -162,17 +162,6 @@
         "availability": "https://schema.org/InStock",
         "url": "https://www.patronaccounting.com/fcra-fc-6-prior-intimation-and-bank-account/mumbai"
       }
-    },
-    {
-      "@type": "LocalBusiness",
-      "name": "Patron Accounting LLP - FCRA FC-6 Intimations & Designated SBI Bank Account Mumbai",
-      "url": "https://www.patronaccounting.com/fcra-fc-6-prior-intimation-and-bank-account/mumbai",
-      "areaServed": {
-        "@type": "City",
-        "name": "Mumbai"
-      },
-      "telephone": "+919459456700",
-      "priceRange": "INR"
     }
   ]
 }</script>

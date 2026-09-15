@@ -162,17 +162,6 @@
         "availability": "https://schema.org/InStock",
         "url": "https://www.patronaccounting.com/section-11-12-13-income-application-accumulation/mumbai"
       }
-    },
-    {
-      "@type": "LocalBusiness",
-      "name": "Patron Accounting LLP - Section 11, 12 & 13 Mumbai",
-      "url": "https://www.patronaccounting.com/section-11-12-13-income-application-accumulation/mumbai",
-      "areaServed": {
-        "@type": "City",
-        "name": "Mumbai"
-      },
-      "telephone": "+919459456700",
-      "priceRange": "INR"
     }
   ]
 }</script>

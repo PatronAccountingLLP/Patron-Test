@@ -162,17 +162,6 @@
         "availability": "https://schema.org/InStock",
         "url": "https://www.patronaccounting.com/trustee-appointment-and-replacement/gurugram"
       }
-    },
-    {
-      "@type": "LocalBusiness",
-      "name": "Patron Accounting LLP - Trustee Appointment, Retirement & Replacement in India Gurugram",
-      "url": "https://www.patronaccounting.com/trustee-appointment-and-replacement/gurugram",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram"
-      },
-      "telephone": "+919459456700",
-      "priceRange": "INR"
     }
   ]
 }</script>

@@ -739,39 +739,13 @@
           "name": "Delhi"
         }
       },
-      "provider": {
-        "@type": "LocalBusiness",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg",
-        "telephone": "+91-9459456700",
-        "email": "sales@patronaccounting.com",
-        "priceRange": "INR",
-        "areaServed": {
-          "@type": "City",
-          "name": "Delhi"
-        }
-      },
+      "provider": {"@id": "https://www.patronaccounting.com/delhi/#localbusiness"},
       "offers": {
         "@type": "Offer",
         "priceCurrency": "INR",
         "price": "24999",
         "availability": "https://schema.org/InStock",
         "url": "https://www.patronaccounting.com/imf-for-insurance-agents/delhi"
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "name": "Patron Accounting LLP",
-      "url": "https://www.patronaccounting.com/",
-      "logo": "https://www.patronaccounting.com/images/site-logo.svg",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "telephone": "+91-9459456700",
-      "email": "sales@patronaccounting.com",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Delhi"
       }
     },
     {

@@ -162,17 +162,6 @@
         "availability": "https://schema.org/InStock",
         "url": "https://www.patronaccounting.com/form-10b-audit-report-section-12a-trust/pune"
       }
-    },
-    {
-      "@type": "LocalBusiness",
-      "name": "Patron Accounting LLP - Form 10B Audit Report for Section 12A Trusts Pune",
-      "url": "https://www.patronaccounting.com/form-10b-audit-report-section-12a-trust/pune",
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune"
-      },
-      "telephone": "+919459456700",
-      "priceRange": "INR"
     }
   ]
 }</script>

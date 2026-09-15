@@ -162,17 +162,6 @@
         "availability": "https://schema.org/InStock",
         "url": "https://www.patronaccounting.com/fcra-renewal-5-year-cycle/gurugram"
       }
-    },
-    {
-      "@type": "LocalBusiness",
-      "name": "Patron Accounting LLP - FCRA Registration Renewal (FC-3C) Gurugram",
-      "url": "https://www.patronaccounting.com/fcra-renewal-5-year-cycle/gurugram",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram"
-      },
-      "telephone": "+919459456700",
-      "priceRange": "INR"
     }
   ]
 }</script>

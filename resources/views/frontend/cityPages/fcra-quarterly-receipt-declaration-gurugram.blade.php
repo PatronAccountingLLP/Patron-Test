@@ -162,17 +162,6 @@
         "availability": "https://schema.org/InStock",
         "url": "https://www.patronaccounting.com/fcra-quarterly-receipt-declaration/gurugram"
       }
-    },
-    {
-      "@type": "LocalBusiness",
-      "name": "Patron Accounting LLP - FCRA Quarterly Receipt Declaration Gurugram",
-      "url": "https://www.patronaccounting.com/fcra-quarterly-receipt-declaration/gurugram",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram"
-      },
-      "telephone": "+919459456700",
-      "priceRange": "INR"
     }
   ]
 }</script>

@@ -162,17 +162,6 @@
         "availability": "https://schema.org/InStock",
         "url": "https://www.patronaccounting.com/12a-80g-renewal-5-year-cycle/delhi"
       }
-    },
-    {
-      "@type": "LocalBusiness",
-      "name": "Patron Accounting LLP - 12A & 80G Renewal Delhi",
-      "url": "https://www.patronaccounting.com/12a-80g-renewal-5-year-cycle/delhi",
-      "areaServed": {
-        "@type": "City",
-        "name": "Delhi"
-      },
-      "telephone": "+919459456700",
-      "priceRange": "INR"
     }
   ]
 }</script>

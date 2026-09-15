@@ -162,17 +162,6 @@
         "availability": "https://schema.org/InStock",
         "url": "https://www.patronaccounting.com/fcra-quarterly-receipt-declaration/delhi"
       }
-    },
-    {
-      "@type": "LocalBusiness",
-      "name": "Patron Accounting LLP - FCRA Quarterly Receipt Declaration Delhi",
-      "url": "https://www.patronaccounting.com/fcra-quarterly-receipt-declaration/delhi",
-      "areaServed": {
-        "@type": "City",
-        "name": "Delhi"
-      },
-      "telephone": "+919459456700",
-      "priceRange": "INR"
     }
   ]
 }</script>

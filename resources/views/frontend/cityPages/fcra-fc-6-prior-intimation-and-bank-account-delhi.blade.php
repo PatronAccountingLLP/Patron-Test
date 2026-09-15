@@ -162,17 +162,6 @@
         "availability": "https://schema.org/InStock",
         "url": "https://www.patronaccounting.com/fcra-fc-6-prior-intimation-and-bank-account/delhi"
       }
-    },
-    {
-      "@type": "LocalBusiness",
-      "name": "Patron Accounting LLP - FCRA FC-6 Intimations & Designated SBI Bank Account Delhi",
-      "url": "https://www.patronaccounting.com/fcra-fc-6-prior-intimation-and-bank-account/delhi",
-      "areaServed": {
-        "@type": "City",
-        "name": "Delhi"
-      },
-      "telephone": "+919459456700",
-      "priceRange": "INR"
     }
   ]
 }</script>

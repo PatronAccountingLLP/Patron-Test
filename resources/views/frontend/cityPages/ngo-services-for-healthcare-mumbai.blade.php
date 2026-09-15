@@ -174,17 +174,6 @@
         "availability": "https://schema.org/InStock",
         "url": "https://www.patronaccounting.com/ngo-services-for-healthcare/mumbai"
       }
-    },
-    {
-      "@type": "LocalBusiness",
-      "name": "Patron Accounting LLP - CA Services for Healthcare NGOs &amp; Charitable Hospitals Mumbai",
-      "url": "https://www.patronaccounting.com/ngo-services-for-healthcare/mumbai",
-      "areaServed": {
-        "@type": "City",
-        "name": "Mumbai"
-      },
-      "telephone": "+919459456700",
-      "priceRange": "INR"
     }
   ]
 }</script>

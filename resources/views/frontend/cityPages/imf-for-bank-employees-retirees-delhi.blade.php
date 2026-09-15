@@ -877,18 +877,7 @@
           "name": "Delhi"
         }
       },
-      "provider": {
-        "@type": "LocalBusiness",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg",
-        "telephone": "+91-9459456700",
-        "email": "sales@patronaccounting.com",
-        "areaServed": {
-          "@type": "City",
-          "name": "Delhi"
-        }
-      },
+      "provider": {"@id": "https://www.patronaccounting.com/delhi/#localbusiness"},
       "offers": {
         "@type": "Offer",
         "priceCurrency": "INR",
@@ -924,20 +913,6 @@
           "item": "https://www.patronaccounting.com/imf-for-bank-employees-retirees/delhi"
         }
       ]
-    },
-    {
-      "@type": "LocalBusiness",
-      "name": "Patron Accounting LLP",
-      "url": "https://www.patronaccounting.com/",
-      "logo": "https://www.patronaccounting.com/images/site-logo.svg",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "telephone": "+91-9459456700",
-      "email": "sales@patronaccounting.com",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Delhi"
-      }
     },
     {
       "@type": "FAQPage",

@@ -758,23 +758,6 @@
       }
     },
     {
-      "@type": "LocalBusiness",
-      "name": "Patron Accounting LLP",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/imf-for-financial-advisors/gurugram",
-      "telephone": "+91-9459456700",
-      "email": "sales@patronaccounting.com",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Haryana"
-        }
-      }
-    },
-    {
       "@type": "FAQPage",
       "datePublished": "2026-06-30T08:00:00+05:30",
       "dateModified": "2026-06-30T08:00:00+05:30",

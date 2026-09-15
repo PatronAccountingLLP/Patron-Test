@@ -174,17 +174,6 @@
         "availability": "https://schema.org/InStock",
         "url": "https://www.patronaccounting.com/ngo-services-for-healthcare/pune"
       }
-    },
-    {
-      "@type": "LocalBusiness",
-      "name": "Patron Accounting LLP - CA Services for Healthcare NGOs &amp; Charitable Hospitals Pune",
-      "url": "https://www.patronaccounting.com/ngo-services-for-healthcare/pune",
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune"
-      },
-      "telephone": "+919459456700",
-      "priceRange": "INR"
     }
   ]
 }</script>

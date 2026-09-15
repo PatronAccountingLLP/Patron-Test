@@ -739,8 +739,8 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "IMF Services",
-          "item": "https://www.patronaccounting.com/imf-services"
+          "name": "IMF Registration for Bank and NBFC Employees",
+          "item": "https://www.patronaccounting.com/imf-for-bank-nbfc-employees"
         },
         {
           "@type": "ListItem",

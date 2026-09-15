@@ -790,8 +790,8 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "IMF Services",
-          "item": "https://www.patronaccounting.com/imf-services"
+          "name": "IMF for Rural and Tier 2-3 Cities",
+          "item": "https://www.patronaccounting.com/imf-for-rural-tier-3-cities"
         },
         {
           "@type": "ListItem",

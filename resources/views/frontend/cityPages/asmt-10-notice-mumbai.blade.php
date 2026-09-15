@@ -731,8 +731,8 @@ section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;ma
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "GST Notice",
-          "item": "https://www.patronaccounting.com/gst-notice"
+          "name": "ASMT-10 Notice Reply",
+          "item": "https://www.patronaccounting.com/asmt-10-notice"
         },
         {
           "@type": "ListItem",

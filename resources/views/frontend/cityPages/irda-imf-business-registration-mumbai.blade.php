@@ -868,8 +868,8 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "IMF Services",
-          "item": "https://www.patronaccounting.com/imf-services/mumbai"
+          "name": "IRDA-IMF Business Registration",
+          "item": "https://www.patronaccounting.com/irda-imf-business-registration"
         },
         {
           "@type": "ListItem",

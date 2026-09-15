@@ -677,7 +677,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
         "@id": "https://www.patronaccounting.com/capital-account-certificate/pune/#breadcrumb",
         "itemListElement": [
             { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.patronaccounting.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Net Worth Certificate", "item": "https://www.patronaccounting.com/net-worth-certificate" },
+            { "@type": "ListItem", "position": 2, "name": "Capital Account Certificate", "item": "https://www.patronaccounting.com/capital-account-certificate" },
             { "@type": "ListItem", "position": 3, "name": "Capital Account Certificate", "item": "https://www.patronaccounting.com/capital-account-certificate/pune" }
         ]
     }

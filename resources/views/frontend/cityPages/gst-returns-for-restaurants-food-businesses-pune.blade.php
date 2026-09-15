@@ -105,7 +105,13 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Gst Returns For Restaurants Food Businesses",
+          "name": "GST Returns for Restaurants and Food Businesses",
+          "item": "https://www.patronaccounting.com/gst-returns-for-restaurants-food-businesses"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "GST Returns for Restaurants in Pune",
           "item": "https://www.patronaccounting.com/gst-returns-for-restaurants-food-businesses/pune"
         }
       ]

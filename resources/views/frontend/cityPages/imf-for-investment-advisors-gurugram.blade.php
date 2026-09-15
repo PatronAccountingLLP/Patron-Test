@@ -770,8 +770,8 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "IMF Services",
-          "item": "https://www.patronaccounting.com/imf-services"
+          "name": "IMF for SEBI Registered Investment Advisers",
+          "item": "https://www.patronaccounting.com/imf-for-investment-advisors"
         },
         {
           "@type": "ListItem",

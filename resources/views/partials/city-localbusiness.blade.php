@@ -39,11 +39,16 @@
             'lat' => 18.946399299249972, 'lon' => 72.8274615,
             'area' => ['Mumbai', 'Marine Lines'],
         ],
+        // UNRESOLVED: the Gurugram postal code is in dispute. This block says 122018,
+        // /contact-us says 122098, reverse-geocoding the coordinates below returns
+        // 122011, and listings for Sector 62 give 122102. No source agrees, so the
+        // value is left as it was found. Patron receive post there and are the only
+        // ones who can settle it - once they do, correct /contact-us to match.
         'gurugram' => [
             'name' => 'Patron Accounting LLP - Gurugram',
             'street' => 'Pioneer Urban Square, B109, Golf Course Ext Rd, Sector 62',
             'locality' => 'Gurugram', 'region' => 'Haryana', 'pin' => '122018',
-            'lat' => 28.415125756014717, 'lon' => 77.08828815355577,
+            'lat' => 28.415097471453663, 'lon' => 77.08825597116413,
             'area' => ['Gurugram', 'Sector 62', 'Golf Course Extension Road'],
         ],
         'delhi' => [

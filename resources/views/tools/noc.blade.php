@@ -3,6 +3,23 @@
 @section('title', $page->meta_title ?? $page->title ?? 'NOC')
 <!--@section('meta_description', $page->meta_description ?? $page->excerpt ?? '')-->
 
+{{-- This view sits on layouts.app rather than tools.tool-master, so it missed the
+     canonical and breadcrumb the tools layout now pushes. Same block, added here. --}}
+@push('scripts-head')
+<link rel="canonical" href="{{ url()->current() }}">
+<script type="application/ld+json">
+{!! json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'BreadcrumbList',
+    'itemListElement' => [
+        ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => url('/')],
+        ['@type' => 'ListItem', 'position' => 2, 'name' => 'Tools', 'item' => url('/tools')],
+        ['@type' => 'ListItem', 'position' => 3, 'name' => 'No Objection Certificate (NOC) Format', 'item' => url()->current()],
+    ],
+], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
+</script>
+@endpush
+
 @section('content')
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=DM+Serif+Display&display=swap');

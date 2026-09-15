@@ -4,12 +4,16 @@
     <title>ROC Fee Calculator | Company Registration Cost by State</title>
     <meta name="description" content="ROC Fee Calculator: estimate company registration ROC fees, state stamp duty, MoA &amp; AoA, INC-20A, ADT-1 and DSC by state for Pvt Ltd, OPC, LLP &amp; Section 8.">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
-    <link rel="canonical" href="/tools/roc-calculator">
+    {{-- This view answers two addresses - /tools/roc-calculator and the older
+         /roc-fee-calculator - so a canonical naming one owner is right. It was
+         relative, and og:url below with it; social scrapers and some crawlers
+         need an absolute URL, so both are spelled out in full. --}}
+    <link rel="canonical" href="{{ url('/tools/roc-calculator') }}">
 
     <meta property="og:title" content="ROC Fee Calculator — Company Registration Cost by State">
     <meta property="og:description" content="Official MCA rates 2026: ROC registration fee, state stamp duty, MoA/AoA, INC-20A, ADT-1, DSC and professional fees — for every Indian state and company type.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/tools/roc-calculator">
+    <meta property="og:url" content="{{ url('/tools/roc-calculator') }}">
     <meta property="og:image" content="https://www.patronaccounting.com/images/og-default-square.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="1200">

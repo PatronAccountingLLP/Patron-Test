@@ -1167,6 +1167,10 @@
     <!-- Meta Description -->
     <meta name="description" content="Browse all ITR filing options - compare forms, cities, and services. Find the right income tax return solution for individuals, businesses, and NRIs.">
 
+    {{-- This directory published no canonical at all, so /services and any
+         parameterised variant of it read to Google as separate pages. --}}
+    <link rel="canonical" href="{{ url('/services') }}">
+
     <!-- Template Thumbnail -->
     <template id="__bundler_thumbnail" data-bg-color="#0d2342">
       <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">

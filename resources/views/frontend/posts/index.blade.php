@@ -65,15 +65,31 @@
   }
 }
 </script>
+{{-- The BreadcrumbList that used to sit here never reached a single page.
+     layouts.app-blog renders @stack('meta') and has no @stack('meta-content'),
+     so everything pushed above is dropped - which is why /blog and all 23
+     category listings published no breadcrumb. Moved to the stack that renders,
+     and given the category level it was missing.
+
+     The rest of this block is left where it is on purpose: switching it on could
+     duplicate the sitewide identity schema. Flagged separately. --}}
+@endpush
+
+@push('meta')
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ route('frontend.index') }}" },
-    { "@type": "ListItem", "position": 2, "name": "Blog", "item": "{{ route('frontend.posts.index') }}" }
-  ]
-}
+{!! json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'BreadcrumbList',
+    'itemListElement' => array_values(array_filter([
+        ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => url('/')],
+        ['@type' => 'ListItem', 'position' => 2, 'name' => 'Blog', 'item' => url('/blog')],
+        ($activeCategory->slug ?? null)
+            ? ['@type' => 'ListItem', 'position' => 3,
+               'name' => $activeCategory->name ?? ucfirst(str_replace('-', ' ', $activeCategory->slug)),
+               'item' => url('/blog/' . $activeCategory->slug)]
+            : null,
+    ])),
+], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
 </script>
 @endpush
 

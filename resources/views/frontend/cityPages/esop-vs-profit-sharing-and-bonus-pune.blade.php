@@ -37,7 +37,9 @@
     <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
 @endsection
 
-@section('schema')    <script type="application/ld+json">{
+@section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'pune', 'pageUrl' => '/esop-vs-profit-sharing-and-bonus/pune'])
+    <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [
     {
@@ -94,27 +96,6 @@
           "item": "https://www.patronaccounting.com/esop-vs-profit-sharing-and-bonus/pune"
         }
       ]
-    },
-    {
-      "@type": "LocalBusiness",
-      "additionalType": "https://schema.org/AccountingService",
-      "@id": "https://www.patronaccounting.com/esop-vs-profit-sharing-and-bonus/pune#localbusiness",
-      "name": "Patron Accounting LLP - ESOP vs Profit-Sharing and Bonus, Pune",
-      "url": "https://www.patronaccounting.com/esop-vs-profit-sharing-and-bonus/pune",
-      "telephone": "+91-9459456700",
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Pune",
-        "addressRegion": "Maharashtra",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
     },
     {
       "@type": "FAQPage",

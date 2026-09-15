@@ -66,6 +66,8 @@
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'pune', 'pageUrl' => '/income-tax-demand-under-section-156/pune'])
+
     <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [

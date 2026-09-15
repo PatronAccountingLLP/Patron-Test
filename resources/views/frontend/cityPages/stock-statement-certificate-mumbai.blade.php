@@ -650,6 +650,8 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'mumbai', 'pageUrl' => '/stock-statement-certificate/mumbai'])
+
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",

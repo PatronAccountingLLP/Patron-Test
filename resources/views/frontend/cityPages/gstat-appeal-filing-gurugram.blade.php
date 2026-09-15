@@ -25,6 +25,8 @@
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'gurugram', 'pageUrl' => '/gstat-appeal-filing/gurugram'])
+
     <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [
@@ -298,23 +300,7 @@
     <script type="application/ld+json">
     {"@context":"https://schema.org","@type":"Person","@id":"https://www.patronaccounting.com/gstat-appeal-filing/gurugram/#attorney","name":"Subham Jhunjhunwala","jobTitle":"Accounting and Tax Professional","description":"CA Finalist and Accounting and Tax Professional at Patron Accounting LLP, working on accounting, taxation, and compliance.","image":"https://www.patronaccounting.com/images/team/subham-jhunjhunwala.png","worksFor":{"@id":"https://www.patronaccounting.com/#organization"},"knowsAbout":["GST","GSTAT Appeal","Accounting","Taxation","Compliance"]}
     </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "@id": "https://www.patronaccounting.com/#office-gurugram",
-        "name": "Patron Accounting LLP - Gurugram Office",
-        "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Gurugram",
-            "addressRegion": "Haryana",
-            "addressCountry": "IN"
-        },
-        "telephone": "+919459456700",
-        "openingHours": "Mo-Fr 09:30-18:30",
-        "parentOrganization": { "@id": "https://www.patronaccounting.com/#organization" }
-    }
-    </script>
+    
 <main>
 
 

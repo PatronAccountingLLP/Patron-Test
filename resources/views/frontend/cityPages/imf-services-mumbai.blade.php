@@ -30,6 +30,8 @@
     <meta name="distribution" content="global">
     <meta name="rating" content="general">
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'mumbai', 'pageUrl' => '/imf-services/mumbai'])
+
     <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,25 +84,6 @@
         "description": "IMF registration services in Mumbai starting from INR 24,999 (exclusive of GST and government charges)."
       },
       "url": "https://www.patronaccounting.com/imf-services/mumbai"
-    },
-    {
-      "@type": "LocalBusiness",
-      "name": "Patron Accounting LLP — IMF Services, Mumbai",
-      "description": "Chartered Accountant and Company Secretary led IMF (Insurance Marketing Firm) registration and compliance services for Mumbai and across Maharashtra.",
-      "url": "https://www.patronaccounting.com/imf-services/mumbai",
-      "telephone": "+91-9459456700",
-      "email": "sales@patronaccounting.com",
-      "priceRange": "INR 24,999 onwards",
-      "areaServed": {
-        "@type": "City",
-        "name": "Mumbai"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Mumbai",
-        "addressRegion": "Maharashtra",
-        "addressCountry": "IN"
-      }
     },
     {
       "@type": "ItemList",

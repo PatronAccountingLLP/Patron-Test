@@ -762,6 +762,8 @@
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'pune', 'pageUrl' => '/imf-for-multi-line-brokers/pune'])
+
     <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [
@@ -779,24 +781,7 @@
           "name": "Maharashtra"
         }
       },
-      "provider": {
-        "@type": "LocalBusiness",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg",
-        "telephone": "+91-9459456700",
-        "email": "sales@patronaccounting.com",
-        "areaServed": {
-          "@type": "City",
-          "name": "Pune"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Pune",
-          "addressRegion": "Maharashtra",
-          "addressCountry": "IN"
-        }
-      },
+      "provider": {"@id": "https://www.patronaccounting.com/pune/#localbusiness"},
       "offers": {
         "@type": "Offer",
         "priceCurrency": "INR",

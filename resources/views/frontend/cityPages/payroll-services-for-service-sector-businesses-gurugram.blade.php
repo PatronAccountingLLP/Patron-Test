@@ -66,6 +66,8 @@
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'gurugram', 'pageUrl' => '/payroll-services-for-service-sector-businesses/gurugram'])
+
     <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [

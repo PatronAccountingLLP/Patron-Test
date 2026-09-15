@@ -715,6 +715,8 @@ section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;ma
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'pune', 'pageUrl' => '/asmt-10-notice/pune'])
+
 <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [

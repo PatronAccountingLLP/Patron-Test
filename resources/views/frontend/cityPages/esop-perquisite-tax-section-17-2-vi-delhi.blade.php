@@ -37,7 +37,9 @@
     <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
 @endsection
 
-@section('schema')    <script type="application/ld+json">{
+@section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'delhi', 'pageUrl' => '/esop-perquisite-tax-section-17-2-vi/delhi'])
+    <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [
     {
@@ -110,27 +112,6 @@
           "item": "https://www.patronaccounting.com/esop-perquisite-tax-section-17-2-vi/delhi"
         }
       ]
-    },
-    {
-      "@type": "LocalBusiness",
-      "additionalType": "https://schema.org/AccountingService",
-      "@id": "https://www.patronaccounting.com/esop-perquisite-tax-section-17-2-vi/delhi#localbusiness",
-      "name": "Patron Accounting LLP - ESOP Perquisite Tax Section 17 2 Vi, Delhi",
-      "url": "https://www.patronaccounting.com/esop-perquisite-tax-section-17-2-vi/delhi",
-      "telephone": "+91-9459456700",
-      "areaServed": {
-        "@type": "City",
-        "name": "Delhi"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Delhi",
-        "addressRegion": "NCR",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
     },
     {
       "@type": "FAQPage",

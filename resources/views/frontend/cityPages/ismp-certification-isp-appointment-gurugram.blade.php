@@ -855,6 +855,8 @@
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'gurugram', 'pageUrl' => '/ismp-certification-isp-appointment/gurugram'])
+
     <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [

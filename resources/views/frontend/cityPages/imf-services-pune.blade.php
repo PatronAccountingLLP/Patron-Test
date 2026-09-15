@@ -30,6 +30,8 @@
     <meta name="distribution" content="global">
     <meta name="rating" content="general">
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'pune', 'pageUrl' => '/imf-services/pune'])
+
     <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [

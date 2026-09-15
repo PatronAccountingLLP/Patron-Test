@@ -66,6 +66,8 @@
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'pune', 'pageUrl' => '/copyright-registration-for-cinematographic-film/pune'])
+
     <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [

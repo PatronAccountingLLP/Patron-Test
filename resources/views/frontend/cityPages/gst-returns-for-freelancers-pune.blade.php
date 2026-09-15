@@ -67,9 +67,11 @@
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'pune', 'pageUrl' => '/gst-returns-for-freelancers/pune'])
+
    <script type="application/ld+json">
     [
-    {"@context":"https://schema.org","@type":"AccountingService","@id":"https://www.patronaccounting.com/#office-pune","name":"Patron Accounting LLP - Pune Office","telephone":"+919459456700","url":"https://www.patronaccounting.com/","address":{"@type":"PostalAddress","streetAddress":"RTC Silver, Wagholi","addressLocality":"Pune","addressRegion":"Maharashtra","postalCode":"412207","addressCountry":"IN"},"geo":{"@type":"GeoCoordinates","latitude":"18.5793","longitude":"73.9826"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"10:00","closes":"19:00"}],"parentOrganization":{"@id":"https://www.patronaccounting.com/#organization"}},
+    
 
     {"@context":"https://schema.org","@type":"Service","@id":"https://www.patronaccounting.com/gst-returns-for-freelancers/pune/#service","name":"GST Returns for Freelancers in Pune","description":"Professional GST return filing for freelancers in Pune. Includes monthly GSTR-1 and GSTR-3B filing, ITC optimisation on software and coworking expenses, LUT filing and ITC refund claims for export freelancers, composition scheme management, and annual return preparation for independent professionals.","provider":{"@id":"https://www.patronaccounting.com/#organization"},"areaServed":{"@type":"City","name":"Pune","sameAs":"https://en.wikipedia.org/wiki/Pune"},"serviceType":"GST Return Filing for Freelancers","url":"https://www.patronaccounting.com/gst-returns-for-freelancers/pune"},
 

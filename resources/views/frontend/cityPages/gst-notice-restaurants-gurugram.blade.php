@@ -716,6 +716,8 @@ section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;ma
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'gurugram', 'pageUrl' => '/gst-notice-restaurants/gurugram'])
+
     <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [
@@ -812,30 +814,6 @@ section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;ma
           }
         }
       ]
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/gst-notice-restaurants/gurugram#localbusiness",
-      "name": "Patron Accounting LLP - Gurugram (Restaurant GST Notice Defence)",
-      "url": "https://www.patronaccounting.com/gst-notice-restaurants/gurugram",
-      "telephone": "+91-945-945-6700",
-      "email": "sales@patronaccounting.com",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "[OFFICE ADDRESS - to be filled by Patron team before publish]",
-        "addressLocality": "Gurugram",
-        "addressRegion": "Haryana",
-        "postalCode": "[PIN CODE]",
-        "addressCountry": "IN"
-      },
-      "areaServed": {
-        "@type": "City",
-        "name": "Gurugram"
-      },
-      "priceRange": "Rs 2,999 to Rs 35,000",
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
     },
     {
       "@type": "Service",

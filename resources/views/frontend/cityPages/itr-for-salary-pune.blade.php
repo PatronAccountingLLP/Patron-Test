@@ -39,10 +39,12 @@
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'pune', 'pageUrl' => '/itr-for-salary/pune'])
+
    
  <script type="application/ld+json">
     [
-    {"@context":"https://schema.org","@type":"AccountingService","@id":"https://www.patronaccounting.com/#office-pune","name":"Patron Accounting LLP - Pune Office","telephone":"+919459456700","url":"https://www.patronaccounting.com/","address":{"@type":"PostalAddress","streetAddress":"RTC Silver, Wagholi","addressLocality":"Pune","addressRegion":"Maharashtra","postalCode":"412207","addressCountry":"IN"},"geo":{"@type":"GeoCoordinates","latitude":"18.5793","longitude":"73.9826"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"10:00","closes":"19:00"}],"parentOrganization":{"@id":"https://www.patronaccounting.com/#organization"}},
+    
 
     {"@context":"https://schema.org","@type":"Service","@id":"https://www.patronaccounting.com/itr-for-salary/pune/#service","name":"ITR for Salary in Pune","description":"Professional ITR filing for salaried employees in Pune. Covers ITR-1 and ITR-2, new vs old tax regime optimisation, HRA exemption calculation, multi-employer TDS reconciliation, ESOP and RSU capital gains reporting, Form 16 and 26AS verification, refund tracking, and annual compliance for Pune's IT, manufacturing, and corporate workforce.","provider":{"@id":"https://www.patronaccounting.com/#organization"},"areaServed":{"@type":"City","name":"Pune","sameAs":"https://en.wikipedia.org/wiki/Pune"},"serviceType":"Salaried Employee Income Tax Return Filing","url":"https://www.patronaccounting.com/itr-for-salary/pune"},
 

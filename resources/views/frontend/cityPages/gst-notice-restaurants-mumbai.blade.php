@@ -715,6 +715,8 @@ section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;ma
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'mumbai', 'pageUrl' => '/gst-notice-restaurants/mumbai'])
+
     <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [
@@ -811,30 +813,6 @@ section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;ma
           }
         }
       ]
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/gst-notice-restaurants/mumbai#localbusiness",
-      "name": "Patron Accounting LLP - Mumbai (Restaurant GST Notice Defence)",
-      "url": "https://www.patronaccounting.com/gst-notice-restaurants/mumbai",
-      "telephone": "+91-945-945-6700",
-      "email": "sales@patronaccounting.com",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "[OFFICE ADDRESS - to be filled by Patron team before publish]",
-        "addressLocality": "Mumbai",
-        "addressRegion": "Maharashtra",
-        "postalCode": "[PIN CODE]",
-        "addressCountry": "IN"
-      },
-      "areaServed": {
-        "@type": "City",
-        "name": "Mumbai"
-      },
-      "priceRange": "Rs 2,999 to Rs 35,000",
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
     },
     {
       "@type": "Service",

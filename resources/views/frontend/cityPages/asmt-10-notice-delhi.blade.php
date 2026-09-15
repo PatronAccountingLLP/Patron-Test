@@ -708,6 +708,8 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'delhi', 'pageUrl' => '/asmt-10-notice/delhi'])
+
 <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [

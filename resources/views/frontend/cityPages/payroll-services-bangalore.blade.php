@@ -66,6 +66,8 @@
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'bangalore', 'pageUrl' => '/payroll-services/bangalore'])
+
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",

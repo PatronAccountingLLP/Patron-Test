@@ -42,6 +42,8 @@
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'delhi', 'pageUrl' => '/ngo-services-for-healthcare/delhi'])
+
 <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [

@@ -65,6 +65,8 @@
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'pune', 'pageUrl' => '/convert-llp-to-private-limited-company/pune'])
+
     <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [

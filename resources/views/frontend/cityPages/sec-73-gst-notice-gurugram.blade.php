@@ -708,6 +708,8 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'gurugram', 'pageUrl' => '/sec-73-gst-notice/gurugram'])
+
     <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [

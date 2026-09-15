@@ -266,6 +266,8 @@
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'pune', 'pageUrl' => '/ismp-certification-isp-appointment/pune'])
+
     <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [

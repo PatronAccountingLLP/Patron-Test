@@ -42,6 +42,8 @@
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'mumbai', 'pageUrl' => '/section-11-12-13-income-application-accumulation/mumbai'])
+
 <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [

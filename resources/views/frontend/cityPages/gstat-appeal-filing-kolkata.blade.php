@@ -25,6 +25,8 @@
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'kolkata', 'pageUrl' => '/gstat-appeal-filing/kolkata'])
+
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",

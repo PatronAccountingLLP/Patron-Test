@@ -42,6 +42,8 @@
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'mumbai', 'pageUrl' => '/fcra-fc-6-prior-intimation-and-bank-account/mumbai'])
+
 <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [

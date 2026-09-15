@@ -715,6 +715,8 @@ section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;ma
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'delhi', 'pageUrl' => '/gst-notice-restaurants/delhi'])
+
 <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [
@@ -887,60 +889,6 @@ section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;ma
           }
         ]
       }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/gst-notice-restaurants/delhi#localbusiness",
-      "name": "Patron Accounting LLP - Delhi Office (Restaurant GST Notice)",
-      "url": "https://www.patronaccounting.com/gst-notice-restaurants/delhi",
-      "telephone": "+91-945-945-6700",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Connaught Place",
-        "addressLocality": "New Delhi",
-        "addressRegion": "Delhi",
-        "postalCode": "110001",
-        "addressCountry": "IN"
-      },
-      "areaServed": [
-        {
-          "@type": "City",
-          "name": "Delhi"
-        },
-        {
-          "@type": "Place",
-          "name": "Aerocity"
-        },
-        {
-          "@type": "Place",
-          "name": "Mahipalpur"
-        },
-        {
-          "@type": "Place",
-          "name": "Khan Market"
-        },
-        {
-          "@type": "Place",
-          "name": "Vasant Kunj"
-        },
-        {
-          "@type": "Place",
-          "name": "Hauz Khas"
-        },
-        {
-          "@type": "Place",
-          "name": "Defence Colony"
-        },
-        {
-          "@type": "Place",
-          "name": "Okhla"
-        },
-        {
-          "@type": "Place",
-          "name": "Saket"
-        }
-      ],
-      "priceRange": "Rs 2,999 to Rs 35,000"
     }
   ]
 }</script>

@@ -42,6 +42,8 @@
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'delhi', 'pageUrl' => '/form-10b-audit-report-section-12a-trust/delhi'])
+
 <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [

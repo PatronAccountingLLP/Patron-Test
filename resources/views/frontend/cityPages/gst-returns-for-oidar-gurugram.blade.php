@@ -561,6 +561,8 @@ section ul li:not(.nav-item) { font-size: 14px; }
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'gurugram', 'pageUrl' => '/gst-returns-for-oidar/gurugram'])
+
     <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [

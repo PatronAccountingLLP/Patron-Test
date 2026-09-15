@@ -42,6 +42,8 @@
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'pune', 'pageUrl' => '/trustee-appointment-and-replacement/pune'])
+
 <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [

@@ -33,7 +33,9 @@
 <meta name="geo.placename" content="Mumbai">
 <meta name="distribution" content="global">
 <meta name="rating" content="general">
-@section('schema')    <script type="application/ld+json">
+@section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'mumbai', 'pageUrl' => '/esop-services/mumbai'])
+    <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
@@ -351,43 +353,6 @@
           "item": "https://www.patronaccounting.com/esop-services/mumbai"
         }
       ]
-    },
-    {
-      "@type": "LocalBusiness",
-      "additionalType": "https://schema.org/AccountingService",
-      "@id": "https://www.patronaccounting.com/esop-services/mumbai#localbusiness",
-      "name": "Patron Accounting LLP - ESOP Advisory, Mumbai",
-      "url": "https://www.patronaccounting.com/esop-services/mumbai",
-      "logo": "https://www.patronaccounting.com/images/patron-logo.webp",
-      "image": "https://www.patronaccounting.com/images/og-default-square.png",
-      "telephone": "+91-9459456700",
-      "priceRange": "INR 7,499 onwards",
-      "areaServed": {
-        "@type": "City",
-        "name": "Mumbai"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Mumbai",
-        "addressRegion": "Maharashtra",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      },
-      "sameAs": [
-        "https://www.linkedin.com/company/patron-accounting"
-      ],
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "telephone": "+91-9459456700",
-        "contactType": "customer service",
-        "areaServed": "IN",
-        "availableLanguage": [
-          "English",
-          "Hindi"
-        ]
-      }
     },
     {
       "@type": "FAQPage",

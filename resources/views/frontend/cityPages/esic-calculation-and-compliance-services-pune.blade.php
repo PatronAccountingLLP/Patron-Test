@@ -67,6 +67,8 @@
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'pune', 'pageUrl' => '/esic-calculation-and-compliance-services/pune'])
+
     <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [

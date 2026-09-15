@@ -50,6 +50,8 @@
     <meta property="og:image:alt" content="Patron Accounting - partner you can rely on"><meta name="twitter:card" content="summary_large_image">
 @endsection
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'bangalore', 'pageUrl' => '/tan-registration/bangalore'])
+
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",

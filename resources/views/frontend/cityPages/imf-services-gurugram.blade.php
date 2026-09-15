@@ -30,6 +30,8 @@
     <meta name="distribution" content="global">
     <meta name="rating" content="general">
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'gurugram', 'pageUrl' => '/imf-services/gurugram'])
+
     <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [

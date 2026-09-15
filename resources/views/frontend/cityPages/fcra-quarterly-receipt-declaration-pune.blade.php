@@ -42,6 +42,8 @@
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'pune', 'pageUrl' => '/fcra-quarterly-receipt-declaration/pune'])
+
 <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [

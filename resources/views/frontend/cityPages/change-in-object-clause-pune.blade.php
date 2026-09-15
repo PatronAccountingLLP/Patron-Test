@@ -67,6 +67,8 @@
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'pune', 'pageUrl' => '/change-in-object-clause/pune'])
+
     <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [

@@ -67,9 +67,11 @@
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'pune', 'pageUrl' => '/llp-agreement-change/pune'])
+
      <script type="application/ld+json">
     [
-    {"@context":"https://schema.org","@type":"AccountingService","@id":"https://www.patronaccounting.com/#office-pune","name":"Patron Accounting LLP - Pune Office","telephone":"+919459456700","url":"https://www.patronaccounting.com/","address":{"@type":"PostalAddress","streetAddress":"RTC Silver, Wagholi","addressLocality":"Pune","addressRegion":"Maharashtra","postalCode":"412207","addressCountry":"IN"},"geo":{"@type":"GeoCoordinates","latitude":"18.5793","longitude":"73.9826"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"10:00","closes":"19:00"}],"parentOrganization":{"@id":"https://www.patronaccounting.com/#organization"}},
+    
 
     {"@context":"https://schema.org","@type":"Service","@id":"https://www.patronaccounting.com/llp-agreement-change/pune/#service","name":"LLP Agreement Change in Pune","description":"Professional LLP agreement amendment services for Pune LLPs. Covers supplementary agreement drafting on stamp paper, partner resolution, Form 3 filing with ROC Pune, profit sharing changes, capital contribution updates, partner addition and exit, object clause expansion, First Schedule replacement, registered office changes, and Maharashtra stamp duty guidance.","provider":{"@id":"https://www.patronaccounting.com/#organization"},"areaServed":{"@type":"City","name":"Pune","sameAs":"https://en.wikipedia.org/wiki/Pune"},"serviceType":"LLP Agreement Change","url":"https://www.patronaccounting.com/llp-agreement-change/pune"},
 

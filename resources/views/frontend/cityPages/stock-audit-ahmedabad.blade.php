@@ -1353,6 +1353,8 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'ahmedabad', 'pageUrl' => '/stock-audit/ahmedabad'])
+
 @verbatim
 <script type="application/ld+json">
     {

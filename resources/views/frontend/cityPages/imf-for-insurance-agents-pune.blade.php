@@ -630,6 +630,8 @@
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'pune', 'pageUrl' => '/imf-for-insurance-agents/pune'])
+
     <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [
@@ -741,29 +743,7 @@
           "name": "Maharashtra"
         }
       },
-      "provider": {
-        "@type": "LocalBusiness",
-        "name": "Patron Accounting LLP",
-        "@id": "https://www.patronaccounting.com/#localbusiness",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg",
-        "image": "https://www.patronaccounting.com/images/site-logo.svg",
-        "telephone": "+91-94594-56700",
-        "email": "sales@patronaccounting.com",
-        "priceRange": "INR",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "RTC Silver, Wagholi",
-          "addressLocality": "Pune",
-          "addressRegion": "Maharashtra",
-          "postalCode": "412207",
-          "addressCountry": "IN"
-        },
-        "areaServed": {
-          "@type": "City",
-          "name": "Pune"
-        }
-      },
+      "provider": {"@id": "https://www.patronaccounting.com/pune/#localbusiness"},
       "offers": {
         "@type": "Offer",
         "priceCurrency": "INR",

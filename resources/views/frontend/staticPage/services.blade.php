@@ -1221,8 +1221,15 @@
             {"@type": "State", "name": "West Bengal"},
             {"@type": "State", "name": "Haryana"}
         ],
+        {{-- This was a bare {"@type": "BreadcrumbList"} with no itemListElement:
+             the word was in the markup, so a string search reported a breadcrumb,
+             but there was no trail in it for anything to read. --}}
         "breadcrumb": {
-            "@type": "BreadcrumbList"
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {"@type": "ListItem", "position": 1, "name": "Home", "item": "{{ url('/') }}"},
+                {"@type": "ListItem", "position": 2, "name": "ITR Services Directory", "item": "{{ url('/services') }}"}
+            ]
         }
     }
     </script>

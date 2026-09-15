@@ -66,6 +66,8 @@
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'mumbai', 'pageUrl' => '/trademark-formality-check-fail/mumbai'])
+
     <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [

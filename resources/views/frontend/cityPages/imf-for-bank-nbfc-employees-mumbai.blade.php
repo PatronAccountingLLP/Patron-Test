@@ -742,6 +742,8 @@
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'mumbai', 'pageUrl' => '/imf-for-bank-nbfc-employees/mumbai'])
+
     <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [
@@ -862,29 +864,6 @@
           }
         }
       ]
-    },
-    {
-      "@type": "LocalBusiness",
-      "name": "Patron Accounting LLP",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "url": "https://www.patronaccounting.com/",
-      "telephone": "+919459456700",
-      "email": "sales@patronaccounting.com",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Mumbai",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Maharashtra"
-        }
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Mumbai",
-        "addressRegion": "Maharashtra",
-        "addressCountry": "IN"
-      }
     }
   ]
 }</script>

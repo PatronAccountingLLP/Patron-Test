@@ -66,6 +66,8 @@
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'delhi', 'pageUrl' => '/gratuity-calculation-and-compliance-services/delhi'])
+
     <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [

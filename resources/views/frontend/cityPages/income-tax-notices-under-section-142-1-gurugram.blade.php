@@ -66,6 +66,8 @@
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'gurugram', 'pageUrl' => '/income-tax-notices-under-section-142-1/gurugram'])
+
     <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [

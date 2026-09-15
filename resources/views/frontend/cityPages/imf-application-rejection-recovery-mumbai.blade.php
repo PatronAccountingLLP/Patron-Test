@@ -693,6 +693,8 @@
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'mumbai', 'pageUrl' => '/imf-application-rejection-recovery/mumbai'])
+
     <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [

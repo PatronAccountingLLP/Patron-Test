@@ -66,6 +66,8 @@
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'pune', 'pageUrl' => '/actuarial-valuation-services-for-employee-benefits/pune'])
+
     <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [

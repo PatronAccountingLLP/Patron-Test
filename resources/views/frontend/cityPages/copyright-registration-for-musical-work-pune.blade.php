@@ -66,6 +66,8 @@
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'pune', 'pageUrl' => '/copyright-registration-for-musical-work/pune'])
+
     <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [

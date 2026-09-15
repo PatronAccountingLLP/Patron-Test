@@ -53,6 +53,8 @@
     <meta name="twitter:card" content="summary_large_image">
 @endsection
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'kolkata', 'pageUrl' => '/section8-company-registration/kolkata'])
+
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",

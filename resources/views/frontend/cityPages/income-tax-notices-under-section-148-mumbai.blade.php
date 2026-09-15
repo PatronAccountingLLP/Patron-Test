@@ -66,6 +66,8 @@
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'mumbai', 'pageUrl' => '/income-tax-notices-under-section-148/mumbai'])
+
     <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [

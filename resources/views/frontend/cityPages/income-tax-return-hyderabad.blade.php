@@ -55,6 +55,8 @@
     <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
 @endsection
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'hyderabad', 'pageUrl' => '/income-tax-return/hyderabad'])
+
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",

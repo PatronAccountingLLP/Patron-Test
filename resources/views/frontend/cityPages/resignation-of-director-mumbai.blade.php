@@ -66,6 +66,8 @@
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'mumbai', 'pageUrl' => '/resignation-of-director/mumbai'])
+
     <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [

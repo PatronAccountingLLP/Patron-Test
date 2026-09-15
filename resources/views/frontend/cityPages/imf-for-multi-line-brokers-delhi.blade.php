@@ -853,6 +853,8 @@
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'delhi', 'pageUrl' => '/imf-for-multi-line-brokers/delhi'])
+
     <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [

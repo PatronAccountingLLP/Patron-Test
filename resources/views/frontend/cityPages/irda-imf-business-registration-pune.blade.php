@@ -747,6 +747,8 @@
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'pune', 'pageUrl' => '/irda-imf-business-registration/pune'])
+
     <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [
@@ -764,46 +766,13 @@
           "name": "Maharashtra"
         }
       },
-      "provider": {
-        "@type": "LocalBusiness",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg",
-        "telephone": "+91-9459456700",
-        "email": "sales@patronaccounting.com",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Pune",
-          "addressRegion": "Maharashtra",
-          "addressCountry": "IN"
-        }
-      },
+      "provider": {"@id": "https://www.patronaccounting.com/pune/#localbusiness"},
       "offers": {
         "@type": "Offer",
         "priceCurrency": "INR",
         "price": "24999",
         "availability": "https://schema.org/InStock",
         "url": "https://www.patronaccounting.com/irda-imf-business-registration/pune"
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "name": "Patron Accounting LLP",
-      "url": "https://www.patronaccounting.com/",
-      "logo": "https://www.patronaccounting.com/images/site-logo.svg",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "telephone": "+91-9459456700",
-      "email": "sales@patronaccounting.com",
-      "priceRange": "INR",
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Pune",
-        "addressRegion": "Maharashtra",
-        "addressCountry": "IN"
       }
     },
     {

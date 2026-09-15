@@ -42,6 +42,8 @@
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'mumbai', 'pageUrl' => '/12a-80g-renewal-5-year-cycle/mumbai'])
+
 <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [

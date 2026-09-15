@@ -34,31 +34,9 @@
 @endsection
 
 @section('schema')
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@type": "AccountingService",
-  "@id": "https://www.patronaccounting.com/#office-mumbai",
-  "name": "Patron Accounting LLP - Mumbai Office",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Marine Lines",
-    "addressLocality": "Mumbai",
-    "addressRegion": "Maharashtra",
-    "postalCode": "400002",
-    "addressCountry": "IN"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": "18.9432",
-    "longitude": "72.8260"
-  },
-  "url": "https://www.patronaccounting.com/",
-  "telephone": "+919459456700",
-  "openingHours": "Mo-Sa 10:00-19:00",
-  "parentOrganization": {
-    "@id": "https://www.patronaccounting.com/#organization"
-  }
-}</script>
+    @include('partials.city-localbusiness', ['citySlug' => 'mumbai', 'pageUrl' => '/change-in-name-of-company/mumbai'])
+
+    
     <script type="application/ld+json">
     {"@context":"https://schema.org","@type":"Service","@id":"https://www.patronaccounting.com/change-in-name-of-company/mumbai/#service","name":"Change in Name of Company in Mumbai","description":"CA and CS assisted company name change for Mumbai companies. End-to-end: trademark pre-check, RUN name reservation, board resolution, EGM with Special Resolution, Form MGT-14 and INC-24 filing with ROC Mumbai Everest House, fresh Certificate of Incorporation, and 12-item post-approval update (PAN, TAN, GST, bank, EPF, ESIC, signboard, stationery, domain, contracts) for BKC MNC rebranding, Powai startup pivots, Fort holding company restructuring, and all Mumbai company types.","provider":{"@id":"https://www.patronaccounting.com/#organization"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.patronaccounting.com/change-in-name-of-company/mumbai"},"areaServed":{"@type":"City","name":"Mumbai","sameAs":"https://en.wikipedia.org/wiki/Mumbai"},"about":[{"@type":"Thing","name":"Corporate law","sameAs":"https://en.wikipedia.org/wiki/Corporate_law"}],"serviceType":"Company Name Change","hasOfferCatalog":{"@type":"OfferCatalog","name":"Name Change Plans","itemListElement":[{"@type":"Offer","name":"Standard Name Change","priceCurrency":"INR","price":"7000"},{"@type":"Offer","name":"Name Change + Post-Approval Updates","priceCurrency":"INR","price":"12000"},{"@type":"Offer","name":"M&A/Urgent Name Change","priceCurrency":"INR","price":"10000"}]}}
     </script>

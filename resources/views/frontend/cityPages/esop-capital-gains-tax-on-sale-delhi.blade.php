@@ -37,7 +37,9 @@
     <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
 @endsection
 
-@section('schema')    <script type="application/ld+json">{
+@section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'delhi', 'pageUrl' => '/esop-capital-gains-tax-on-sale/delhi'])
+    <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [
     {
@@ -110,27 +112,6 @@
           "item": "https://www.patronaccounting.com/esop-capital-gains-tax-on-sale/delhi"
         }
       ]
-    },
-    {
-      "@type": "LocalBusiness",
-      "additionalType": "https://schema.org/AccountingService",
-      "@id": "https://www.patronaccounting.com/esop-capital-gains-tax-on-sale/delhi#localbusiness",
-      "name": "Patron Accounting LLP - ESOP Capital Gains Tax On Sale, Delhi",
-      "url": "https://www.patronaccounting.com/esop-capital-gains-tax-on-sale/delhi",
-      "telephone": "+91-9459456700",
-      "areaServed": {
-        "@type": "City",
-        "name": "Delhi"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Delhi",
-        "addressRegion": "NCR",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
     },
     {
       "@type": "FAQPage",

@@ -66,6 +66,8 @@
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'pune', 'pageUrl' => '/transfer-of-shares/pune'])
+
     <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [

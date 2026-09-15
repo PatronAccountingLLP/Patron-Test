@@ -560,6 +560,8 @@
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'pune', 'pageUrl' => '/imf-for-financial-advisors/pune'])
+
     <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [
@@ -577,31 +579,7 @@
           "name": "Maharashtra"
         }
       },
-      "provider": {
-        "@type": "LocalBusiness",
-        "@id": "https://www.patronaccounting.com/#localbusiness",
-        "name": "Patron Accounting LLP",
-        "url": "https://www.patronaccounting.com/",
-        "logo": "https://www.patronaccounting.com/images/site-logo.svg",
-        "image": "https://www.patronaccounting.com/images/site-logo.svg",
-        "telephone": "+919459456700",
-        "email": "sales@patronaccounting.com",
-        "priceRange": "₹₹",
-        "areaServed": {
-          "@type": "City",
-          "name": "Pune",
-          "containedInPlace": {
-            "@type": "State",
-            "name": "Maharashtra"
-          }
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Pune",
-          "addressRegion": "Maharashtra",
-          "addressCountry": "IN"
-        }
-      },
+      "provider": {"@id": "https://www.patronaccounting.com/pune/#localbusiness"},
       "offers": {
         "@type": "Offer",
         "priceCurrency": "INR",
@@ -613,31 +591,6 @@
           "minPrice": "24999",
           "priceCurrency": "INR"
         }
-      }
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.patronaccounting.com/#localbusiness",
-      "name": "Patron Accounting LLP",
-      "url": "https://www.patronaccounting.com/",
-      "logo": "https://www.patronaccounting.com/images/site-logo.svg",
-      "image": "https://www.patronaccounting.com/images/site-logo.svg",
-      "telephone": "+919459456700",
-      "email": "sales@patronaccounting.com",
-      "priceRange": "₹₹",
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Maharashtra"
-        }
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Pune",
-        "addressRegion": "Maharashtra",
-        "addressCountry": "IN"
       }
     },
     {

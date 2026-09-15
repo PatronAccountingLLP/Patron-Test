@@ -37,7 +37,9 @@
     <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
 @endsection
 
-@section('schema')    <script type="application/ld+json">{
+@section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'pune', 'pageUrl' => '/esop-for-singapore-parent-indian-employees/pune'])
+    <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [
     {
@@ -110,27 +112,6 @@
           "item": "https://www.patronaccounting.com/esop-for-singapore-parent-indian-employees/pune"
         }
       ]
-    },
-    {
-      "@type": "LocalBusiness",
-      "additionalType": "https://schema.org/AccountingService",
-      "@id": "https://www.patronaccounting.com/esop-for-singapore-parent-indian-employees/pune#localbusiness",
-      "name": "Patron Accounting LLP - ESOP For Singapore Parent Indian Employees, Pune",
-      "url": "https://www.patronaccounting.com/esop-for-singapore-parent-indian-employees/pune",
-      "telephone": "+91-9459456700",
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Pune",
-        "addressRegion": "Maharashtra",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
     },
     {
       "@type": "FAQPage",

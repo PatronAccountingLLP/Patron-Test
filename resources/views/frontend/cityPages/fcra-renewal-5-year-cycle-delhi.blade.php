@@ -42,6 +42,8 @@
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'delhi', 'pageUrl' => '/fcra-renewal-5-year-cycle/delhi'])
+
 <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [

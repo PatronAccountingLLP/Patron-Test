@@ -708,6 +708,8 @@ section[style*="background: var(--blue)"] .content-text strong{color:#FFFFFF !im
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'pune', 'pageUrl' => '/gst-notice-restaurants/pune'])
+
 <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [

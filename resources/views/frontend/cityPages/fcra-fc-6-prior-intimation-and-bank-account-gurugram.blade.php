@@ -42,6 +42,8 @@
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'gurugram', 'pageUrl' => '/fcra-fc-6-prior-intimation-and-bank-account/gurugram'])
+
 <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [

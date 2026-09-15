@@ -30,6 +30,8 @@
     <meta name="distribution" content="global">
     <meta name="rating" content="general">
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'delhi', 'pageUrl' => '/imf-services/delhi'])
+
     <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,25 +84,6 @@
         "description": "IMF registration services in Delhi starting from INR 24,999 (exclusive of GST and government charges)."
       },
       "url": "https://www.patronaccounting.com/imf-services/delhi"
-    },
-    {
-      "@type": "LocalBusiness",
-      "name": "Patron Accounting LLP — IMF Services, Delhi",
-      "description": "Chartered Accountant and Company Secretary led firm handling IRDAI Insurance Marketing Firm registration and compliance for clients across Delhi.",
-      "url": "https://www.patronaccounting.com/imf-services/delhi",
-      "telephone": "+91-9459456700",
-      "email": "sales@patronaccounting.com",
-      "areaServed": {
-        "@type": "City",
-        "name": "Delhi"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Delhi",
-        "addressRegion": "Delhi",
-        "addressCountry": "IN"
-      },
-      "priceRange": "From INR 24,999"
     },
     {
       "@type": "ItemList",

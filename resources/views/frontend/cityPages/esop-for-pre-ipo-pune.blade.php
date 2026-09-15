@@ -37,7 +37,9 @@
     <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
 @endsection
 
-@section('schema')    <script type="application/ld+json">{
+@section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'pune', 'pageUrl' => '/esop-for-pre-ipo/pune'])
+    <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [
     {
@@ -135,27 +137,6 @@
           "item": "https://www.patronaccounting.com/esop-for-pre-ipo/pune"
         }
       ]
-    },
-    {
-      "@type": "LocalBusiness",
-      "additionalType": "https://schema.org/AccountingService",
-      "@id": "https://www.patronaccounting.com/esop-for-pre-ipo/pune#localbusiness",
-      "name": "Patron Accounting LLP - ESOP For Pre Ipo, Pune",
-      "url": "https://www.patronaccounting.com/esop-for-pre-ipo/pune",
-      "telephone": "+91-9459456700",
-      "areaServed": {
-        "@type": "City",
-        "name": "Pune"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Pune",
-        "addressRegion": "Maharashtra",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
     },
     {
       "@type": "FAQPage",

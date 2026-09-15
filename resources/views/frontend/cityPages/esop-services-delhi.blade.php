@@ -33,7 +33,9 @@
 <meta name="geo.placename" content="Delhi">
 <meta name="distribution" content="global">
 <meta name="rating" content="general">
-@section('schema')    <script type="application/ld+json">
+@section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'delhi', 'pageUrl' => '/esop-services/delhi'])
+    <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
@@ -351,43 +353,6 @@
           "item": "https://www.patronaccounting.com/esop-services/delhi"
         }
       ]
-    },
-    {
-      "@type": "LocalBusiness",
-      "additionalType": "https://schema.org/AccountingService",
-      "@id": "https://www.patronaccounting.com/esop-services/delhi#localbusiness",
-      "name": "Patron Accounting LLP - ESOP Advisory, Delhi",
-      "url": "https://www.patronaccounting.com/esop-services/delhi",
-      "logo": "https://www.patronaccounting.com/images/patron-logo.webp",
-      "image": "https://www.patronaccounting.com/images/og-default-square.png",
-      "telephone": "+91-9459456700",
-      "priceRange": "INR 7,499 onwards",
-      "areaServed": {
-        "@type": "City",
-        "name": "Delhi"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Delhi",
-        "addressRegion": "Delhi",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      },
-      "sameAs": [
-        "https://www.linkedin.com/company/patron-accounting"
-      ],
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "telephone": "+91-9459456700",
-        "contactType": "customer service",
-        "areaServed": "IN",
-        "availableLanguage": [
-          "English",
-          "Hindi"
-        ]
-      }
     },
     {
       "@type": "FAQPage",

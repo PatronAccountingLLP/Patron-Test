@@ -42,6 +42,8 @@
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'gurugram', 'pageUrl' => '/fcra-fc-4-annual-return/gurugram'])
+
 <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [

@@ -42,6 +42,8 @@
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'gurugram', 'pageUrl' => '/form-10b-audit-report-section-12a-trust/gurugram'])
+
 <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [

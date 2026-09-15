@@ -39,9 +39,11 @@
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'pune', 'pageUrl' => '/convert-partnership-to-pvt-ltd-company/pune'])
+
     <script type="application/ld+json">
     [
-    {"@context":"https://schema.org","@type":"AccountingService","@id":"https://www.patronaccounting.com/#office-pune","name":"Patron Accounting LLP - Pune Office","telephone":"+919459456700","url":"https://www.patronaccounting.com/","address":{"@type":"PostalAddress","streetAddress":"RTC Silver, Wagholi","addressLocality":"Pune","addressRegion":"Maharashtra","postalCode":"412207","addressCountry":"IN"},"geo":{"@type":"GeoCoordinates","latitude":"18.5793","longitude":"73.9826"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"10:00","closes":"19:00"}],"parentOrganization":{"@id":"https://www.patronaccounting.com/#organization"}},
+    
 
     {"@context":"https://schema.org","@type":"Service","@id":"https://www.patronaccounting.com/convert-partnership-to-pvt-ltd-company/pune/#service","name":"Partnership to Private Limited Conversion in Pune","description":"Professional partnership firm to Pvt Ltd conversion services for Pune businesses. Covers partner consent, capital-to-shareholding structuring, name reservation, newspaper advertisement in Pune English and Marathi dailies, Form URC-1 and SPICe+ filing, MOA and AOA drafting, tax-neutral conversion planning under S.47(xiii), Registrar of Firms dissolution, and post-conversion compliance setup.","provider":{"@id":"https://www.patronaccounting.com/#organization"},"areaServed":{"@type":"City","name":"Pune","sameAs":"https://en.wikipedia.org/wiki/Pune"},"serviceType":"Partnership to Private Limited Conversion","url":"https://www.patronaccounting.com/convert-partnership-to-pvt-ltd-company/pune"},
 

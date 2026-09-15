@@ -746,6 +746,8 @@
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'pune', 'pageUrl' => '/imf-for-bank-employees-retirees/pune'])
+
     <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [

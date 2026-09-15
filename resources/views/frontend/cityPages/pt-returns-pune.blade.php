@@ -67,9 +67,11 @@
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'pune', 'pageUrl' => '/pt-returns/pune'])
+
    <script type="application/ld+json">
     [
-    {"@context":"https://schema.org","@type":"AccountingService","@id":"https://www.patronaccounting.com/#office-pune","name":"Patron Accounting LLP - Pune Office","telephone":"+919459456700","url":"https://www.patronaccounting.com/","address":{"@type":"PostalAddress","streetAddress":"RTC Silver, Wagholi","addressLocality":"Pune","addressRegion":"Maharashtra","postalCode":"412207","addressCountry":"IN"},"geo":{"@type":"GeoCoordinates","latitude":"18.5793","longitude":"73.9826"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"10:00","closes":"19:00"}],"parentOrganization":{"@id":"https://www.patronaccounting.com/#organization"}},
+    
 
     {"@context":"https://schema.org","@type":"Service","@id":"https://www.patronaccounting.com/pt-returns/pune/#service","name":"PT Returns in Pune","description":"Professional tax return filing for employers and professionals in Pune. Includes monthly and annual PTRC Form III-B filing on mahagst.gov.in, PTEC annual payment management, slab-wise PT calculation, Feb 2026 amendment compliance, director PTEC tracking, and mismatch notice resolution for Pune businesses.","provider":{"@id":"https://www.patronaccounting.com/#organization"},"areaServed":{"@type":"City","name":"Pune","sameAs":"https://en.wikipedia.org/wiki/Pune"},"serviceType":"Professional Tax Return Filing","url":"https://www.patronaccounting.com/pt-returns/pune"},
 

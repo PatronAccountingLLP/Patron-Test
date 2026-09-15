@@ -652,6 +652,8 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'mumbai', 'pageUrl' => '/foreign-remittance-certificate-15ca-15cb/mumbai'])
+
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",

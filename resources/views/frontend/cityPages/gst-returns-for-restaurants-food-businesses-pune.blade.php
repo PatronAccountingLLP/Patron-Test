@@ -67,6 +67,8 @@
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'pune', 'pageUrl' => '/gst-returns-for-restaurants-food-businesses/pune'])
+
     <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [

@@ -66,6 +66,8 @@
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'kolkata', 'pageUrl' => '/startup-registration/kolkata'])
+
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",

@@ -650,6 +650,8 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'delhi', 'pageUrl' => '/certificate-of-fair-market-value-fmv/delhi'])
+
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",

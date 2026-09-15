@@ -37,7 +37,9 @@
     <meta name="twitter:image" content="https://www.patronaccounting.com/images/og-default-square.png">
 @endsection
 
-@section('schema')    <script type="application/ld+json">{
+@section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'delhi', 'pageUrl' => '/esop-at-acquisition-and-change-of-control/delhi'])
+    <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [
     {
@@ -110,27 +112,6 @@
           "item": "https://www.patronaccounting.com/esop-at-acquisition-and-change-of-control/delhi"
         }
       ]
-    },
-    {
-      "@type": "LocalBusiness",
-      "additionalType": "https://schema.org/AccountingService",
-      "@id": "https://www.patronaccounting.com/esop-at-acquisition-and-change-of-control/delhi#localbusiness",
-      "name": "Patron Accounting LLP - ESOP At Acquisition And Change Of Control, Delhi",
-      "url": "https://www.patronaccounting.com/esop-at-acquisition-and-change-of-control/delhi",
-      "telephone": "+91-9459456700",
-      "areaServed": {
-        "@type": "City",
-        "name": "Delhi"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Delhi",
-        "addressRegion": "NCR",
-        "addressCountry": "IN"
-      },
-      "parentOrganization": {
-        "@id": "https://www.patronaccounting.com/#organization"
-      }
     },
     {
       "@type": "FAQPage",

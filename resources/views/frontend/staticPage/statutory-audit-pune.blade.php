@@ -39,6 +39,8 @@
 @endsection
 
 @section('schema')
+    @include('partials.city-localbusiness', ['citySlug' => 'pune', 'pageUrl' => '/statutory-audit/pune'])
+
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -198,38 +200,6 @@
                 "description": "Turnover above Rs 50 crore; Chakan MIDC large manufacturers, Hinjewadi enterprise SaaS, multi-location groups. Full Section 143(3)(i) IFC, group consolidation, NFRA-compliant documentation."
               }
             ]
-          }
-        },
-        {
-          "@type": "LocalBusiness",
-          "@id": "https://www.patronaccounting.com/statutory-audit/pune#localbusiness",
-          "name": "Patron Accounting LLP - Pune HQ Office",
-          "url": "https://www.patronaccounting.com/statutory-audit/pune",
-          "telephone": "+91-945-945-6700",
-          "email": "pune-audit@patronaccounting.com",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "[OFFICE ADDRESS - to be filled by Patron team before publish]",
-            "addressLocality": "Pune",
-            "addressRegion": "Maharashtra",
-            "postalCode": "[PIN CODE]",
-            "addressCountry": "IN"
-          },
-          "openingHoursSpecification": [
-            {
-              "@type": "OpeningHoursSpecification",
-              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-              "opens": "10:00",
-              "closes": "19:00"
-            }
-          ],
-          "areaServed": {
-            "@type": "City",
-            "name": "Pune"
-          },
-          "priceRange": "Rs 35,000 to Rs 5,00,000",
-          "parentOrganization": {
-            "@id": "https://www.patronaccounting.com/#organization"
           }
         }
       ]

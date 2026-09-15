@@ -10,8 +10,14 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
         libonig-dev libxml2-dev sqlite3 libsqlite3-dev \
     && docker-php-ext-configure gd --with-freetype --with-jpeg \
     && docker-php-ext-install -j"$(nproc)" \
-        pdo pdo_mysql pdo_sqlite zip gd mbstring exif bcmath \
+        pdo pdo_mysql pdo_sqlite zip gd mbstring exif bcmath gettext \
     && rm -rf /var/lib/apt/lists/*
+
+# gettext is in that list because 78 views under resources/views/tools call _()
+# for their page title. The extension was never installed here, so every one of
+# those pages answered 500 on this site while being fine on the production VPS,
+# which has it. Anyone testing tools work here saw an error they had not caused.
+# gettext ships with PHP and needs no extra apt package on Debian.
 
 # --- Composer --------------------------------------------------------------
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer

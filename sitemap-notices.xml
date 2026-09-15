@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.patronaccounting.com/asmt-10-notice</loc>
+    <lastmod>2026-09-15</lastmod>
+  </url>
+  <url>
     <loc>https://www.patronaccounting.com/asmt-10-notice/delhi</loc>
     <lastmod>2026-06-26</lastmod>
   </url>
@@ -85,6 +89,10 @@
     <lastmod>2026-06-26</lastmod>
   </url>
   <url>
+    <loc>https://www.patronaccounting.com/sec-73-gst-notice</loc>
+    <lastmod>2026-09-15</lastmod>
+  </url>
+  <url>
     <loc>https://www.patronaccounting.com/sec-73-gst-notice/delhi</loc>
     <lastmod>2026-06-26</lastmod>
   </url>
@@ -99,5 +107,9 @@
   <url>
     <loc>https://www.patronaccounting.com/sec-73-gst-notice/pune</loc>
     <lastmod>2026-06-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.patronaccounting.com/sec-74-gst-notice</loc>
+    <lastmod>2026-09-15</lastmod>
   </url>
 </urlset>

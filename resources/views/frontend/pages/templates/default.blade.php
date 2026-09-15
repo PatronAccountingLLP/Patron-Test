@@ -2,6 +2,23 @@
 
 @section('title', $page->title ?? 'Patron Accounting - Your Premier Accounting Partner')
 
+{{-- Database-driven pages on this template get a canonical from x-seo-meta in
+     layouts.app, but never had a breadcrumb - /about-us among them. The trail is
+     built from the page's own slug and title, so it stays correct for every page
+     this template renders, not just the one that prompted the fix. --}}
+@push('scripts-head')
+<script type="application/ld+json">
+{!! json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'BreadcrumbList',
+    'itemListElement' => [
+        ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => url('/')],
+        ['@type' => 'ListItem', 'position' => 2, 'name' => $page->title ?? 'Page', 'item' => url('/' . ltrim($page->slug ?? '', '/'))],
+    ],
+], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
+</script>
+@endpush
+
 @push('styles')
 <!-- Slick Slider CSS -->
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />

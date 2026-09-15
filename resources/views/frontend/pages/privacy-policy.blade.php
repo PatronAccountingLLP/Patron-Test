@@ -6,6 +6,19 @@
 {{-- SEO meta: title/description/OG/Twitter. Absolute URLs only - relative
      og:url and og:image are invalid per the Open Graph spec and break
      Facebook/LinkedIn/WhatsApp share previews. --}}
+
+{{-- The page carried a canonical but no breadcrumb, so nothing placed it under
+     the homepage for a crawler. --}}
+<script type="application/ld+json">
+{!! json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'BreadcrumbList',
+    'itemListElement' => [
+        ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => url('/')],
+        ['@type' => 'ListItem', 'position' => 2, 'name' => 'Privacy Policy', 'item' => url('/privacy-policy')],
+    ],
+], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
+</script>
 <meta name="description" content="How Patron Accounting LLP collects, uses, stores and protects the personal and financial data you share with us, and the choices and rights you have.">
 <link rel="canonical" href="https://www.patronaccounting.com/privacy-policy">
 <meta property="og:type" content="website">

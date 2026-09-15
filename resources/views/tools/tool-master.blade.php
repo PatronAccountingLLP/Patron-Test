@@ -1,4 +1,34 @@
 @extends('layouts.app')
+
+{{-- Every page on this layout served no canonical and no breadcrumb. The
+     download-format views pass neither $page nor $post, so layouts.app fell
+     through to the branch that emits no canonical element at all, and none of
+     these views defines a schema section of its own. Google was left with 79
+     addresses and nothing saying which was the original.
+
+     Pushed into 'scripts-head' rather than yielded as a schema section, so a
+     child that defines its own schema keeps it - a stack appends, a section
+     overwrites.
+
+     /tools/download-format is a 404, so the trail skips it: Home > Tools > page. --}}
+@php
+    $toolCrumbTitle = trim(preg_replace('/\s+/', ' ', strip_tags($__env->yieldContent('title'))));
+@endphp
+@push('scripts-head')
+<link rel="canonical" href="{{ url()->current() }}">
+<script type="application/ld+json">
+{!! json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'BreadcrumbList',
+    'itemListElement' => [
+        ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => url('/')],
+        ['@type' => 'ListItem', 'position' => 2, 'name' => 'Tools', 'item' => url('/tools')],
+        ['@type' => 'ListItem', 'position' => 3, 'name' => $toolCrumbTitle ?: 'Document Format', 'item' => url()->current()],
+    ],
+], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
+</script>
+@endpush
+
 @push('styles')
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=DM+Serif+Display&display=swap');

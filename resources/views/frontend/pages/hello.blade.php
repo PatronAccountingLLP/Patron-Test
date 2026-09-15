@@ -6,6 +6,19 @@
 {{-- SEO meta: title/description/OG/Twitter. Absolute URLs only - relative
      og:url and og:image are invalid per the Open Graph spec and break
      Facebook/LinkedIn/WhatsApp share previews. --}}
+
+{{-- The page carried a canonical but no breadcrumb, so nothing placed it under
+     the homepage for a crawler. --}}
+<script type="application/ld+json">
+{!! json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'BreadcrumbList',
+    'itemListElement' => [
+        ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => url('/')],
+        ['@type' => 'ListItem', 'position' => 2, 'name' => 'Terms and Conditions', 'item' => url('/terms-and-conditions')],
+    ],
+], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
+</script>
 <meta name="description" content="The terms governing your use of patronaccounting.com and our accounting, tax, GST and compliance services, including scope, payment and limits of liability.">
 <link rel="canonical" href="https://www.patronaccounting.com/terms-and-conditions">
 <meta property="og:type" content="website">

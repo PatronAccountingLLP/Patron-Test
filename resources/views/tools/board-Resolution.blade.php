@@ -5,6 +5,23 @@
     <meta charset="UTF-8">
     <title>Board Resolution Generator</title>
 
+    {{-- This view is a standalone HTML document rather than a page on
+         tools.tool-master, so the layout's canonical and breadcrumb never
+         reached it. Added here directly. The page still has no site header,
+         footer or H1 - a separate gap, tracked on its own. --}}
+    <link rel="canonical" href="{{ url()->current() }}">
+<script type="application/ld+json">
+{!! json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'BreadcrumbList',
+    'itemListElement' => [
+        ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => url('/')],
+        ['@type' => 'ListItem', 'position' => 2, 'name' => 'Tools', 'item' => url('/tools')],
+        ['@type' => 'ListItem', 'position' => 3, 'name' => 'Board Resolution Generator', 'item' => url()->current()],
+    ],
+], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
+</script>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>

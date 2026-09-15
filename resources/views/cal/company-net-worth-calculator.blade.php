@@ -388,7 +388,35 @@ section .content-text ul li:not(.nav-item) > strong:first-child{
 <link rel="icon" type="image/x-icon" href="https://www.patronaccounting.com/favicon.ico">
 <link rel="icon" type="image/svg+xml" href="https://www.patronaccounting.com/favicon.svg">
 
-{{-- JSON-LD lives here, not in @section('schema'): layouts.app has no @yield('schema'). --}}
+{{-- The page drew a breadcrumb on screen but published no BreadcrumbList,
+     so the trail was visible to a reader and invisible to a crawler. The
+     placeholder below had been left empty since the view was written. --}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.patronaccounting.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Tools",
+      "item": "https://www.patronaccounting.com/tools"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Company Net Worth Calculator",
+      "item": "https://www.patronaccounting.com/tools/company-net-worth-calculator"
+    }
+  ]
+}
+</script>
 @endsection
 
 @push('styles')

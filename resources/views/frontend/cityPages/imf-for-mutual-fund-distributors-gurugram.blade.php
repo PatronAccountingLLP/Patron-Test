@@ -1022,6 +1022,14 @@
                         IMF for Mutual Fund Distributors in Gurugram: Add Insurance to Your ARN Book
                     </h1>
 
+                    {{-- These city pages never linked to the national service page they
+                         belong to. A JSON-LD breadcrumb is not a hyperlink, so even the ones
+                         whose schema named the parent passed no link to it. --}}
+                    <p class="mb-4 text-muted city-parent-link">
+                        Based outside Gurugram? See our national
+                        <a href="/imf-for-mutual-fund-distributors">IMF for Mutual Fund Distributors</a> page.
+                    </p>
+
                     <div class="expert-attribution-box">
                         <span class="eab-check"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></span>
                         <span class="eab-title">Reviewed by CA &amp; CS Team, Patron Accounting LLP</span>

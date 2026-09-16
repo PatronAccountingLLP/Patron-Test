@@ -3,7 +3,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Board Resolution Generator</title>
+    <title>Board Resolution Generator: Free Format in Word or PDF</title>
+
+    {{-- No description was emitted, so Google wrote its own from whatever text it
+         found, which on a form page is usually a field label. --}}
+    <meta name="description" content="Fill in your details and generate a board resolution in Word or PDF. Free format drafted by Patron Accounting's CA and CS team.">
 
     {{-- This view is a standalone HTML document rather than a page on
          tools.tool-master, so the layout's canonical and breadcrumb never

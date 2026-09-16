@@ -1,7 +1,11 @@
 @extends('layouts.app')
 
 @section('title', $page->meta_title ?? $page->title ?? 'NOC')
-<!--@section('meta_description', $page->meta_description ?? $page->excerpt ?? '')-->
+
+{{-- The description was commented out because it read from $page, which this
+     controller never passes - so the page shipped with no description at all and
+     Google wrote its own from a form label. Stated literally instead. --}}
+@section('meta_description', 'Fill in your details and generate a No Objection Certificate in Word or PDF. Free NOC format drafted by Patron Accounting\'s CA and CS team.')
 
 {{-- This view sits on layouts.app rather than tools.tool-master, so it missed the
      canonical and breadcrumb the tools layout now pushes. Same block, added here. --}}

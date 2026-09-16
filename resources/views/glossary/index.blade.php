@@ -3,7 +3,7 @@
 
 @section('meta')
     <title>Accounting, Tax, GST &amp; Compliance Glossary</title>
-    <meta name="description" content="India-specific, CA-reviewed definitions of accounting, tax, GST and compliance terms for Indian businesses. Accounting, net worth and stock audit glossaries are live.">
+    <meta name="description" content="India-specific, CA-reviewed definitions of accounting, tax, GST and compliance terms. Accounting, net worth and stock audit glossaries are live.">
     <link rel="canonical" href="https://www.patronaccounting.com/glossary">
     <meta name="robots" content="index, follow">
     <meta property="og:type" content="website"><meta property="og:title" content="Accounting, Tax, GST &amp; Compliance Glossary | Patron Accounting"><meta property="og:url" content="https://www.patronaccounting.com/glossary"><meta property="og:site_name" content="Patron Accounting">

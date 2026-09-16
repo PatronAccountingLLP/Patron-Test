@@ -6,7 +6,7 @@
     <title>CA Puja Pradhan - Finance & Business Manager | Patron</title>
 
     <!-- Meta Description -->
-    <meta name="description" content="CA Puja Pradhan - Chartered Accountant (ICAI), Finance & Business Manager at Patron Accounting LLP. 4+ years across statutory audit, income tax litigation, valuation, GST, transfer pricing and international taxation.">
+    <meta name="description" content="CA Puja Pradhan - Chartered Accountant (ICAI) at Patron Accounting LLP. 4+ years in statutory audit, income tax litigation, valuation, GST and transfer pricing.">
     <meta name="keywords" content="CA Puja Pradhan, Patron Accounting Pune, statutory audit Pune, tax audit India, equity valuation India, CIT(A) ITAT representation, GST advisory Pune, transfer pricing CA, NGO compliance, Section 8 company">
     <meta name="author" content="CA Puja Pradhan">
 

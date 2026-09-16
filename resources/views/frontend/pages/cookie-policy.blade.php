@@ -73,7 +73,13 @@
 @section('content')
 <div class="page-wrap">
   <div class="container">
-   
+
+    {{-- The page opened straight into "What Are Cookies?" with no heading of its own,
+         so it had no H1 at all and nothing on the page said what it was. --}}
+    <h1>Cookie Policy</h1>
+    <p>How Patron Accounting LLP uses cookies on this site, what each kind is for, and how
+       to change your choices at any time.</p>
+
     <div class="policy-section">
       <h2>What Are Cookies?</h2>
       <p>Cookies are small text files placed on your device when you visit a website. They help the site remember your preferences and understand how visitors use it — so it works better for you each time you return.</p>

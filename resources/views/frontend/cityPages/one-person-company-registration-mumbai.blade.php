@@ -1057,7 +1057,7 @@
 
 <header>
   <div class="badge"><span class="dot"></span> Official MCA Rates 2026</div>
-  <h1>ROC <em>Fee Calculator</em></h1>
+  <h2>ROC <em>Fee Calculator</em></h2>{{-- Demoted from a top-level heading: this widget is embedded in a page that already has its own, so the page shipped with two. --}}
   <p class="patron-tag">Powered by <strong>Patron Accounting</strong></p>
 </header>
 

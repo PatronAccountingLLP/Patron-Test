@@ -75,7 +75,26 @@
     /* Fixed to the viewport area below the site header so the hub owns one internal scroll. This lets
        its sidebar be position:sticky and scroll by its own height. JS keeps the height exact. */
     .pa-tools-embed { display: block; width: 100%; border: 0; height: calc(100vh - 118px); min-height: 560px; }
+    .pa-tools-intro { background: #F1F2F4; }
+    .pa-tools-intro__inner { max-width: 1200px; margin: 0 auto; padding: 22px 20px 14px; }
+    .pa-tools-intro h1 { margin: 0 0 6px; color: #14365F; font-size: 26px; line-height: 1.25; font-weight: 700; }
+    .pa-tools-intro p { margin: 0; color: #5A6572; font-size: 15px; line-height: 1.55; max-width: 76ch; }
+    @media (max-width: 600px) {
+        .pa-tools-intro__inner { padding: 16px 16px 10px; }
+        .pa-tools-intro h1 { font-size: 21px; }
+        .pa-tools-intro p { font-size: 14px; }
+    }
 </style>
+{{-- This page is one iframe, and the hub's own heading lives inside that iframe - a
+     separate document. So /tools itself had no H1 and no readable text at all: to a
+     crawler the page was empty. The heading and standfirst below belong to this page. --}}
+<div class="pa-tools-intro" id="paToolsIntro">
+    <div class="pa-tools-intro__inner">
+        <h1>Free Tools and Calculators</h1>
+        <p>Depreciation, ROC fees, GST due dates, salary and net worth - worked out to the
+           rules that actually apply in India, and free to use. Pick one below.</p>
+    </div>
+</div>
 <div class="pa-tools-embed-wrap">
     <iframe id="paToolsHub" class="pa-tools-embed" src="/tools-hub/tools-hub.html" title="Patron Accounting Tools Hub" loading="eager"></iframe>
 </div>
@@ -88,11 +107,15 @@
     function hubDoc(){ try{ return f.contentDocument || f.contentWindow.document; }catch(e){ return null; } }
     function hubHash(){ try{ return (f.contentWindow.location.hash) || ''; }catch(e){ return ''; } }
     function headerH(){ var h = document.querySelector('.pa-h'); return (h && h.offsetHeight) ? h.offsetHeight : 118; }
+    // The heading block now sits between the header and the iframe, so it has to come off
+    // the height too - otherwise the hub overflows by exactly its height and the outer page
+    // gains a scrollbar, which is the thing this sizing exists to prevent.
+    function introH(){ var i = document.getElementById('paToolsIntro'); return (i && i.offsetHeight) ? i.offsetHeight : 0; }
 
     // Size the iframe to the area under the site header; the hub scrolls inside it.
     // Only write when the value actually changes, so the periodic re-apply never triggers a reflow/jump.
     function setH(){
-        var v = Math.max(560, window.innerHeight - headerH()) + 'px';
+        var v = Math.max(560, window.innerHeight - headerH() - introH()) + 'px';
         if(f.style.height !== v){ f.style.height = v; }
     }
 

@@ -412,4 +412,10 @@
     <loc>https://www.patronaccounting.com/trade-license-municipality-registration</loc>
     <lastmod>2026-06-26</lastmod>
   </url>
+  <url>
+      <loc>https://www.patronaccounting.com/services</loc>
+      <lastmod>2026-09-16</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+  </url>
 </urlset>

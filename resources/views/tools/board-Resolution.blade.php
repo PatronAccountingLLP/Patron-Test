@@ -42,6 +42,25 @@
 
 <body class="bg-light">
 
+{{-- This page is a standalone document rather than a page on the site layout, so it
+     had no heading and NO links at all - nothing in, nothing out, and nothing telling
+     a reader or a crawler whose page it is. A heading and a way back, at minimum. --}}
+<div class="container pt-4">
+    <nav aria-label="Breadcrumb" style="font-size:14px;color:#5A6572;margin-bottom:10px;">
+        <a href="/" style="color:#14365F;">Home</a>
+        <span aria-hidden="true"> &rsaquo; </span>
+        <a href="/tools" style="color:#14365F;">Tools</a>
+        <span aria-hidden="true"> &rsaquo; </span>
+        <span>Board Resolution Generator</span>
+    </nav>
+    <h1 style="color:#14365F;font-size:26px;font-weight:700;margin:0 0 6px;">Board Resolution Generator</h1>
+    <p style="color:#5A6572;font-size:15px;line-height:1.55;max-width:76ch;margin:0;">
+        Fill in the company and meeting details and download a ready board resolution in
+        Word or PDF. Free, and drafted by Patron Accounting&rsquo;s CA and CS team. See all
+        <a href="/tools" style="color:#14365F;">free tools and calculators</a>.
+    </p>
+</div>
+
 <div class="container py-4">
     <div class="row shadow bg-white py-4 rounded">
 

@@ -39,11 +39,10 @@
             'lat' => 18.946399299249972, 'lon' => 72.8274615,
             'area' => ['Mumbai', 'Marine Lines'],
         ],
-        // UNRESOLVED: the Gurugram postal code is in dispute. This block says 122018,
-        // /contact-us says 122098, reverse-geocoding the coordinates below returns
-        // 122011, and listings for Sector 62 give 122102. No source agrees, so the
-        // value is left as it was found. Patron receive post there and are the only
-        // ones who can settle it - once they do, correct /contact-us to match.
+        // Gurugram postal code is 122018, confirmed by Patron 2026-09-16 against the
+        // office's own listing: "Pioneer Urban Square, B109, Golf Course Ext Rd,
+        // Sector 62, Gurugram, Ghata, Haryana 122018" (plus code C37Q+X8).
+        // NOTE: /contact-us still says 122098 and needs correcting to match this.
         'gurugram' => [
             'name' => 'Patron Accounting LLP - Gurugram',
             'street' => 'Pioneer Urban Square, B109, Golf Course Ext Rd, Sector 62',

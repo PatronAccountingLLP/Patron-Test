@@ -13,8 +13,33 @@
      /tools/download-format is a 404, so the trail skips it: Home > Tools > page. --}}
 @php
     $toolCrumbTitle = trim(preg_replace('/\s+/', ' ', strip_tags($__env->yieldContent('title'))));
+
+    /* None of these pages emitted a meta description, so Google wrote its own from
+       whatever text it found - on a form page that is usually a field label. These are
+       fill-and-generate tools rather than static downloads, so the description says so.
+       Built from the page's own title; the tail is dropped when a long document name
+       would push the whole thing past what Google shows. */
+    $toolDesc = '';
+    if ($toolCrumbTitle !== '') {
+        $tdName = preg_replace('/\s*\([^)]*\)/', '', $toolCrumbTitle);
+        $tdName = trim(preg_replace('/\s+on\s+Private Placement Basis$/i', '', $tdName));
+        $tdArticle = preg_match('/^[AEIOU]/i', $tdName) ? 'an' : 'a';
+        $tdBase = 'Fill in your details and generate ' . $tdArticle . ' ' . $tdName . ' in Word or PDF.';
+        $tdTail = ' Free format drafted by Patron Accounting\'s CA and CS team.';
+        $tdShort = ' Free format from Patron Accounting.';
+        if (mb_strlen($tdBase . $tdTail) <= 158) {
+            $toolDesc = $tdBase . $tdTail;
+        } elseif (mb_strlen($tdBase . $tdShort) <= 158) {
+            $toolDesc = $tdBase . $tdShort;
+        } elseif (mb_strlen($tdBase) <= 158) {
+            $toolDesc = $tdBase;
+        }
+    }
 @endphp
 @push('scripts-head')
+@if ($toolDesc !== '')
+<meta name="description" content="{{ $toolDesc }}">
+@endif
 <link rel="canonical" href="{{ url()->current() }}">
 <script type="application/ld+json">
 {!! json_encode([

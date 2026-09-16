@@ -22,7 +22,65 @@
     $hubPath  = $isCase ? '/case-laws' : '/updates';
 @endphp
 
-@section('title', ($pl['meta_title'] ?? $pub->title) . ' | Patron Accounting')
+@php
+    /* Every one of these titles was being cut off by Google. The stored title is a full
+       case name or the notification name repeated, and " | Patron Accounting" then added
+       20 more characters on top - so the part that identifies the document is exactly the
+       part that disappears. Rebuild it to fit:
+
+         case  ->  "Aditya Birla Global Trading: AAAR Ruling 07/2026"
+         notif ->  "GST Central Tax (Rate) 01/2026: What Changed"
+
+       The brand is appended only when the result still fits, because a truncated title
+       helps nobody and the firm name is the least useful text in a search result. */
+    $rBase = trim((string) ($pl['meta_title'] ?? $pub->title));
+    $rSlug = basename($pub->path);
+
+    if ($isCase) {
+        // The party is everything before the dash that introduces the forum.
+        $rParty = preg_split('/\s+[\x{2014}\x{2013}-]\s+/u', $rBase)[0];
+        $rParty = preg_replace('/^M\/s\.?\s*/iu', '', $rParty);
+        $rParty = preg_replace('/\s*\[[^\]]*\]/u', '', $rParty);
+        $rParty = preg_replace('/\s*\([^)]*\)/u', '', $rParty);
+        $rParty = preg_replace('/\b(Proprietor|Prop|propietor)\b.*$/iu', '', $rParty);
+        $rParty = trim(preg_replace('/\s+/u', ' ', $rParty), " ,\t\n");
+        if (mb_strlen($rParty) > 34) {
+            $rCut = mb_substr($rParty, 0, 35);
+            $rSp  = mb_strrpos($rCut, ' ');
+            $rParty = $rSp ? trim(mb_substr($rCut, 0, $rSp)) : trim($rCut);
+        }
+        $rForum = str_contains($pub->path, '/aaar/') ? 'AAAR' : (str_contains($pub->path, '/aar/') ? 'AAR' : 'Ruling');
+        $rNum = preg_match('/(\d{1,3})[-\/](20\d\d)/', $rSlug, $m) ? $m[1] . '/' . $m[2] : '';
+        $rTitle = $rParty . ': ' . $rForum . ' Ruling' . ($rNum !== '' ? ' ' . $rNum : '');
+    } else {
+        // The stored notification title repeats its own name ("Central Tax (Rate)
+        // 01/2026-Central Tax (Rate)"); keep each distinct part once.
+        $rBase = preg_replace('/\s+[\x{2014}\x{2013}-]\s+(GST|Income Tax|Customs|MCA|SEBI|RBI)\s*$/u', '', $rBase);
+        $rParts = array_values(array_filter(array_map('trim', preg_split('/\s*[-\x{2013}]\s*/u', $rBase))));
+        $rSeen = [];
+        foreach ($rParts as $p) {
+            if (!in_array(mb_strtolower($p), array_map('mb_strtolower', $rSeen), true)) {
+                $rSeen[] = $p;
+            }
+        }
+        $rBase = $rSeen ? implode(' ', $rSeen) : $rBase;
+        $rKind = strtoupper((string) $pub->section);
+        $rTitle = trim(($rKind !== '' ? $rKind . ' ' : '') . $rBase) . ': What Changed';
+    }
+
+    $rTitle = trim(preg_replace('/\s+/u', ' ', $rTitle));
+    if (mb_strlen($rTitle) > 60) {
+        $rCut = mb_substr($rTitle, 0, 61);
+        $rSp  = mb_strrpos($rCut, ' ');
+        $rTitle = rtrim($rSp ? mb_substr($rCut, 0, $rSp) : $rCut, " ,;:-");
+    }
+    if ($rTitle === '' || mb_strlen($rTitle) < 12) {
+        $rTitle = $pl['meta_title'] ?? $pub->title;   // never ship an empty or stub title
+    }
+    $rFull = $rTitle . ' | Patron Accounting';
+@endphp
+
+@section('title', mb_strlen($rFull) <= 60 ? $rFull : $rTitle)
 @section('meta_description', $pl['meta_desc'] ?? '')
 @section('meta_keywords', $pub->meta_keywords)
 

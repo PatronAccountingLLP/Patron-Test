@@ -1,6 +1,6 @@
 @extends('tools.tool-master')
 @section('title')
-{{_('Board Resolution for   Authorize Mortgage and Creation of Charge')}}
+{{_('Board Resolution: Mortgage and Creation of Charge')}}
 @endsection
 
 @section('content')

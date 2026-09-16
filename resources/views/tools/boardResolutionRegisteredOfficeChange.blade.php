@@ -1,6 +1,6 @@
 @extends('tools.tool-master')
 @section('title')
-{{_('Board Resolution for Change in Registered Office of a Company')}}
+{{_('Board Resolution: Change of Registered Office')}}
 @endsection
 
 @section('content')

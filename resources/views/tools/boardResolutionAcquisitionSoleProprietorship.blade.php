@@ -1,6 +1,6 @@
 @extends('tools.tool-master')
 @section('title')
-{{_('Board Resolution for Acquisition of Sole Proprietorship Business')}}
+{{_('Board Resolution: Acquiring a Sole Proprietorship')}}
 @endsection
 
 @section('content')

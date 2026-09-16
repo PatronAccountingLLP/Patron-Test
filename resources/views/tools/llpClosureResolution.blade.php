@@ -1,6 +1,6 @@
 @extends('tools.tool-master')
 @section('title')
-{{_(' Application for Closure of LLP (Designated Partners Resolution)')}}
+{{_('LLP Closure: Designated Partners Resolution Format')}}
 @endsection
 
 @section('content')

@@ -1,7 +1,6 @@
 @extends('tools.tool-master')
 @section('title')
-{{_(' Board Resolution for Conversion of Private Company into Public Company
-')}}
+{{_('Board Resolution: Private to Public Company Conversion')}}
 @endsection
 
 @section('content')

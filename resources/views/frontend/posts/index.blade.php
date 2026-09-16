@@ -1,17 +1,40 @@
 @extends('layouts.app-blog')
-@section(
-    'title',
-    (($activeCategory->slug ?? null)
-        ? ucfirst(str_replace('-', ' ', $activeCategory->slug ?? '')) . ' Articles & Guides'
-        : 'Articles & Guides')
-    . (request('page', 1) > 1 ? ' - Blog Page ' . request('page') : '')
-    . ' | Patron Accounting'
-)
+
+@php
+    /* ucfirst on a slug produced "Llp changes conversions" - one capital and an
+       acronym in lower case - and " | Patron Accounting" was then appended
+       unconditionally, which pushed these past what Google shows. Title-case the
+       category properly, and append the brand only when it still fits. */
+    $catSmall = ['and', 'or', 'for', 'of', 'to', 'in', 'on', 'the', 'a', 'an', 'with', 'by', 'from', 'vs'];
+    $catAcro  = ['llp' => 'LLP', 'gst' => 'GST', 'roc' => 'ROC', 'mca' => 'MCA', 'tds' => 'TDS',
+                 'itr' => 'ITR', 'ca' => 'CA', 'cs' => 'CS', 'esop' => 'ESOP', 'msme' => 'MSME',
+                 'fcra' => 'FCRA', 'ngo' => 'NGO', 'rbi' => 'RBI', 'sebi' => 'SEBI', 'icai' => 'ICAI'];
+    $catName = '';
+    if ($activeCategory->slug ?? null) {
+        $catWords = explode('-', $activeCategory->slug);
+        foreach ($catWords as $i => $w) {
+            $lw = mb_strtolower($w);
+            if (isset($catAcro[$lw])) {
+                $catWords[$i] = $catAcro[$lw];
+            } elseif ($i > 0 && in_array($lw, $catSmall, true)) {
+                $catWords[$i] = $lw;
+            } else {
+                $catWords[$i] = ucfirst($lw);
+            }
+        }
+        $catName = implode(' ', $catWords);
+    }
+    $catBase = ($catName !== '' ? $catName . ' Articles & Guides' : 'Articles & Guides')
+             . (request('page', 1) > 1 ? ' - Blog Page ' . request('page') : '');
+    $catFull = $catBase . ' | Patron Accounting';
+@endphp
+
+@section('title', mb_strlen($catFull) <= 60 ? $catFull : $catBase)
 
 @section(
     'meta_description',
     ($activeCategory->slug ?? null)
-        ? 'Explore practical ' . ucfirst(str_replace('-', ' ', $activeCategory->slug ?? '')) . ' articles, guides, compliance updates, filing tips, and expert insights from Patron Accounting.'
+        ? 'Explore practical ' . $catName . ' articles, guides, compliance updates, filing tips, and expert insights from Patron Accounting.'
             . (request('page', 1) > 1 ? ' Browse page ' . request('page') . ' for more articles and resources.' : '')
         : 'Practical compliance guides on GST, Income Tax, ROC, Payroll & Trademark — written by practising CAs. Updated weekly.'
             . (request('page', 1) > 1 ? ' Browse page ' . request('page') . ' for more articles and resources.' : '')

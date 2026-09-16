@@ -1,7 +1,6 @@
 @extends('tools.tool-master')
 @section('title')
-{{_(' Board Resolution for Reimbursement of Pre-Incorporation Expenses
-')}}
+{{_('Board Resolution: Pre-Incorporation Expense Reimbursement')}}
 @endsection
 
 @section('content')

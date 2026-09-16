@@ -1,6 +1,6 @@
 @extends('tools.tool-master')
 @section('title')
-{{_('EGM Resolution for Conversion of OPC into Private Limited Company')}}
+{{_('EGM Resolution: OPC to Private Limited Conversion')}}
 @endsection
 
 @section('content')

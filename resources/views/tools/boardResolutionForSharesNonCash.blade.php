@@ -1,6 +1,6 @@
 @extends('tools.tool-master')
 @section('title')
-{{_('Board Resolution for Issuance of Shares for Non-Cash Consideration')}}
+{{_('Board Resolution: Shares for Non-Cash Consideration')}}
 @endsection
 
 @section('content')

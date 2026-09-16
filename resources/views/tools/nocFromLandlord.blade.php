@@ -1,6 +1,6 @@
 @extends('tools.tool-master')
 @section('title')
-{{_('No Objection Certificate (NOC) from Landlord for Company Registration')}}
+{{_('Landlord NOC for Company Registration: Free Format')}}
 @endsection
 
 @section('content')

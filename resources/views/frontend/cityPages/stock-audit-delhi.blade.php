@@ -1,7 +1,7 @@
 @extends('layouts.service-app')
 
 @section('meta')
-<title>Stock Audit in Delhi: Okhla, Narela and Bawana Units | Patron Accounting</title>
+<title>Stock Audit in Delhi: Okhla, Narela and Bawana Units</title>
     <meta name="description" content="Stock audit in Delhi for traders and manufacturers alike. A CA team counts stock at the Okhla, Narela, Bawana and Mayapuri industrial estates.">
     <link rel="canonical" href="https://www.patronaccounting.com/stock-audit/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

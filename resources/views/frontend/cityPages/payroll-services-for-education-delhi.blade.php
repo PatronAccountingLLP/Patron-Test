@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>School & College Accounting in Delhi - Fees, GST & TDS</title>
-    <meta name="description" content="CA-led school and college payroll in Delhi. 7th CPC salary, PF/ESI, TDS, visiting faculty. DSEA Section 10 compliant. Serving Dwarka, Rohini, Civil Lines. Call +91 945 945 6700.">
+    <meta name="description" content="CA-led school and college payroll in Delhi. 7th CPC salary, PF/ESI, TDS, visiting faculty. DSEA Section 10 compliant. Serving Dwarka, Rohini, Civil Lines.">
     <link rel="canonical" href="/payroll-services-for-education/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="School & College Accounting in Delhi - Fees, GST & TDS">

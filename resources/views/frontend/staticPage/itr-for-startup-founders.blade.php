@@ -15,7 +15,7 @@
 
 
 @section('meta')
-    <title>ITR for Startup Founders 2026: ESOP/Cap Table | Patron Accounting</title>
+    <title>ITR for Startup Founders: ESOP/Cap Table</title>
     <meta name="description" content="ITR for startup founders - ITR-2 ESOP exercise Section 17(2)(vi), Section 192(1C) deferment, cap table, carry treatment. Starting from INR 2,499.">
     <link rel="canonical" href="/itr-for-startup-founders">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

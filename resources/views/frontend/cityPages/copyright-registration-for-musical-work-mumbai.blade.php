@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Copyright for Musical Work Mumbai - Lyrics & Composition</title>
-    <meta name="description" content="Copyright for musical work in Mumbai. Melody, harmony, notation, background score. S.2(p), Form XIV, 2012 composer royalty, IPRS, four-layer song IP. CA-led. Call +91 945 945 6700.">
+    <meta name="description" content="Copyright for musical work in Mumbai. Melody, harmony, notation, background score. S.2(p), Form XIV, composer royalty, IPRS, four-layer song IP. CA-led.">
     <link rel="canonical" href="/copyright-registration-for-musical-work/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Copyright for Musical Work Mumbai - Lyrics & Composition">

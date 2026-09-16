@@ -17,7 +17,7 @@
 
 @section('meta')
     <title>PF Return Filing Online - ECR, Process & Monthly Due Date</title>
-    <meta name="description" content="File monthly PF returns via ECR on EPFO portal. EPF, EPS, EDLI contributions at 12%. Expert compliance services from Rs 1,499 per month. Avoid Section 14B penalties.">
+    <meta name="description" content="File monthly PF returns via ECR on EPFO portal. EPF, EPS, EDLI contributions at 12%. Expert compliance services from Rs 1,499 per month.">
     <link rel="canonical" href="/pf-return">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="PF Return Filing Online - ECR, Process & Monthly Due Date">

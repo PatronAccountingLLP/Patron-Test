@@ -15,7 +15,7 @@
 
 
 @section('meta')
-    <title>ESOP for NRI Employees 2026: FEMA and Reporting | Patron Accounting</title>
+    <title>ESOP for NRI Employees: FEMA and Reporting</title>
     <meta name="description" content="How an Indian company grants ESOPs to NRI and non-resident employees: FEMA and NDI Rules, Form ESOP reporting, pricing and repatriation at sale. From Rs 19,999.">
     <link rel="canonical" href="/esop-for-nri-and-non-resident-employees">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

@@ -18,7 +18,7 @@
 
 @section('meta')
     <title>Income Tax Notice u/s 142(1) - Inquiry, Reply & Documents</title>
-    <meta name="description" content="Received IT Notice under Section 142(1)? Our CAs reply within deadline, submit documents via e-Proceedings, and prevent best judgement assessment. Starting at INR 2,999.">
+    <meta name="description" content="Received IT Notice under Section 142(1)? Our CAs reply within deadline, submit documents via e-Proceedings, and prevent best judgement assessment.">
     <link rel="canonical" href="/income-tax-notices-under-section-142-1">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Income Tax Notice u/s 142(1) - Inquiry, Reply & Documents">

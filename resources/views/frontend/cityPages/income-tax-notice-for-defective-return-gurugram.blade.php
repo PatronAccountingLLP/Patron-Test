@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Defective Return u/s 139(9) Gurugram - Reply & Fix</title>
-    <meta name="description" content="CA-assisted response to defective return notice Section 139(9) in Gurugram. ITR rectification, 15-day deadline, wrong form, TDS mismatch, e-Proceedings. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted response to defective return notice Section 139(9) in Gurugram. ITR rectification, 15-day deadline, wrong form, TDS mismatch, e-Proceedings.">
     <link rel="canonical" href="/income-tax-notice-for-defective-return/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Defective Return u/s 139(9) Gurugram - Reply & Fix">

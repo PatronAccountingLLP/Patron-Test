@@ -46,7 +46,7 @@
 
 @section('meta')
     <title>Company Closure in Pune – Strike Off, STK-2 &amp; Winding Up</title>
-    <meta name="description" content="CA and CS assisted company closure in Pune. Strike off Section 248, STK-2 via C-PACE, voluntary winding up, dormant status. Pre-closure GST/IT compliance. Director DQ protection. Call +91 945 945 6700.">
+    <meta name="description" content="CA and CS assisted company closure in Pune. Strike off Section 248, STK-2 via C-PACE, voluntary winding up, dormant status. Pre-closure GST/IT compliance.">
     <link rel="canonical" href="/company-closure/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Company Closure in Pune – Strike Off, STK-2 &amp; Winding Up">

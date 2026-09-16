@@ -15,7 +15,7 @@
 
 
 @section('meta')
-    <title>Family Business Registration in India 2026 | Patron Accounting</title>
+    <title>Family Business Registration in India</title>
     <meta name="description" content="Register and structure your family business in India: HUF, proprietorship or Pvt Ltd, with succession and governance planning. From INR 14,999.">
     <link rel="canonical" href="/family-business-registration-india">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

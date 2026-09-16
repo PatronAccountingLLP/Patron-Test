@@ -17,7 +17,7 @@
 
 
 @section('meta')
-    <title>EGM Convening and Compliance Section 100 2026 | Patron Accounting</title>
+    <title>EGM Convening and Compliance Section 100</title>
     <meta name="description" content="Convene an extraordinary general meeting under Section 100: 21-day notice, explanatory statement, proxies, voting and minutes. From INR 9,999.">
     <link rel="canonical" href="/egm-extraordinary-general-meeting">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

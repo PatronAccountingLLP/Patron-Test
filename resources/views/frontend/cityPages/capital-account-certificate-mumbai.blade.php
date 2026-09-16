@@ -630,7 +630,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 
 @section('meta')
-    <title>Capital Account Certificate in Mumbai 2026: FEMA and ECB | Patron Accounting</title>
+    <title>Capital Account Certificate in Mumbai: FEMA and ECB</title>
     <meta name="description" content="CA-certified capital account certificate for FEMA and ECB transactions: drawdown, utilisation and end-use under Section 6 and RBI rules. From INR 2,499.">
     <link rel="canonical" href="/capital-account-certificate/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

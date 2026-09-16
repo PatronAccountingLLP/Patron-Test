@@ -628,7 +628,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 
 @section('meta')
-    <title>Turnover Certificate for MSME Classification in Gurugram 2026 | Patron Accounting</title>
+    <title>Turnover Certificate for MSME Classification in Gurugram</title>
     <meta name="description" content="Turnover Certificate for MSME classification by a CA with UDIN. CA-certified turnover for Udyam reclassification and mismatch resolution. From INR 1,999.">
     <link rel="canonical" href="/turnover-certificate-for-msme-classification/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

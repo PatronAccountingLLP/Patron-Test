@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>POSH Compliance in Mumbai - ICC Formation & Training</title>
-    <meta name="description" content="POSH compliance service in Mumbai. IC constitution, POSH policy, employee training, annual report, Board Report disclosures. POSH Act 2013. CA-led. Call +91 945 945 6700.">
+    <meta name="description" content="POSH compliance service in Mumbai. IC constitution, POSH policy, employee training, annual report, Board Report disclosures. POSH Act. CA-led.">
     <link rel="canonical" href="/posh-compliance-services/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="POSH Compliance in Mumbai - ICC Formation & Training">

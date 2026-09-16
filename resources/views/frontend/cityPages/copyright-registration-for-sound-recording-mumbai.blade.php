@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Copyright for Sound Recording Mumbai - Podcast & Audio</title>
-    <meta name="description" content="Copyright for sound recording in Mumbai. Master recordings, music tracks, podcasts. S.2(xx), S.14(e), Form XIV, PPL licensing, 60-year protection, anti-piracy. CA-led. Call +91 945 945 6700.">
+    <meta name="description" content="Copyright for sound recording in Mumbai. Master recordings, music tracks, podcasts.">
     <link rel="canonical" href="/copyright-registration-for-sound-recording/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Copyright for Sound Recording Mumbai - Podcast & Audio">

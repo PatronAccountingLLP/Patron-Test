@@ -1,7 +1,7 @@
 @extends('layouts.service-app')
 
 @section('meta')
-<title>Stock Audit for Machine Tool Makers: Stores and Tooling | Patron Accounting</title>
+<title>Stock Audit for Machine Tool Makers: Stores and Tooling</title>
     <meta name="description" content="Engineering and machine tool plants are audited at stores level. Bin cards are matched to the stores ledger, and the tool crib and consumables are counted.">
     <link rel="canonical" href="https://www.patronaccounting.com/stock-audit-for-engineering-machine-tools">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

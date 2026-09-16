@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Internal Audit in Bangalore – Scope, IFC, Risk &amp; Reporting</title>
-    <meta name="description" content="CA-managed internal audit in Bangalore. Section 138 compliance, risk-based audit, SOC 2 readiness. Serving Electronic City, Whitefield, Koramangala companies. Call +91 945 945 6700.">
+    <meta name="description" content="CA-managed internal audit in Bangalore. Section 138 compliance, risk-based audit, SOC 2 readiness. Serving Electronic City, Whitefield, Koramangala companies.">
     <link rel="canonical" href="/internal-audit/bangalore">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Internal Audit in Bangalore – Scope, IFC, Risk &amp; Reporting">

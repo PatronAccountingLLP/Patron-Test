@@ -17,7 +17,7 @@
 
 
 @section('meta')
-    <title>Board Meeting Compliance and Minutes 2026 | Patron Accounting</title>
+    <title>Board Meeting Compliance and Minutes</title>
     <meta name="description" content="Stay compliant under Section 173: 4 board meetings a year, 7-day notice, quorum, SS-1 minutes and action tracking. Annual retainer from INR 14,999.">
     <link rel="canonical" href="/board-meeting-compliance-and-minutes">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

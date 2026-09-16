@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>IT & Software Payroll in Pune - CTC, ESOP, TDS & PF</title>
-    <meta name="description" content="CA-assisted payroll for IT and software companies in Pune. ESOP TDS, flexi benefits, PF, ESIC, and PT compliance for tech firms. Serving Hinjewadi, Kharadi, Magarpatta. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted payroll for IT and software companies in Pune. ESOP TDS, flexi benefits, PF, ESIC, and PT compliance for tech firms.">
     <link rel="canonical" href="/payroll-services-for-it-and-software-industry/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="IT & Software Payroll in Pune - CTC, ESOP, TDS & PF">

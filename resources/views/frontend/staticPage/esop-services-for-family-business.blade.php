@@ -15,7 +15,7 @@
 
 
 @section('meta')
-    <title>ESOP Services for Family Business 2026: Succession | Patron Accounting</title>
+    <title>ESOP Services for Family Business: Succession</title>
     <meta name="description" content="ESOPs to retain non-family executives plus sweat equity for family: a hybrid that keeps family ownership while professionalising management. From Rs 24,999.">
     <link rel="canonical" href="/esop-services-for-family-business">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

@@ -37,7 +37,7 @@
 
 @section('meta')
     <title>IEC Registration in Kolkata – DGFT Process, Fees &amp; Export</title>
-    <meta name="description" content="CA-assisted IEC registration in Kolkata. Import Export Code from DGFT. Rs 500 govt fee. 2-7 days. Kolkata Port, Salt Lake IT, Burrabazar exports. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted IEC registration in Kolkata. Import Export Code from DGFT. Rs 500 govt fee. 2-7 days. Kolkata Port, Salt Lake IT, Burrabazar exports.">
     <link rel="canonical" href="/iec-registration/kolkata">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="IEC Registration in Kolkata – DGFT Process, Fees &amp; Export"><meta property="og:description" content="IEC Kolkata. Import Export Code. Rs 500. 2-7 days. Call +91 945 945 6700.">

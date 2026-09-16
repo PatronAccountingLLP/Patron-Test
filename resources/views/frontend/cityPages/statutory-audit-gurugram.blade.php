@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Statutory Audit Gurugram - CARO 2020 & Ind AS Reports</title>
-    <meta name="description" content="Statutory audit by experienced CA firm in Gurugram. Section 139, CARO 2020, Ind AS, AOC-4, Pvt Ltd, LLP, OPC. Serving Cyber City, Manesar. Call +91 945 945 6700.">
+    <meta name="description" content="Statutory audit by experienced CA firm in Gurugram. Section 139, CARO, Ind AS, AOC-4, Pvt Ltd, LLP, OPC. Serving Cyber City, Manesar.">
     <link rel="canonical" href="/statutory-audit/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Statutory Audit Gurugram - CARO 2020 & Ind AS Reports">

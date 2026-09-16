@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>NGO & Non-Profit Accounting in Delhi - Bookkeeping & Audit</title>
-    <meta name="description" content="CA-led NGO and non-profit payroll in Delhi. FCRA compliance, PF/ESI, TDS, donor reporting, volunteer classification. Serving Lodhi Road, CP, Rohini. Call +91 945 945 6700.">
+    <meta name="description" content="CA-led NGO and non-profit payroll in Delhi. FCRA compliance, PF/ESI, TDS, donor reporting, volunteer classification. Serving Lodhi Road, CP, Rohini.">
     <link rel="canonical" href="/payroll-services-for-ngonon-profit-industry/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="NGO & Non-Profit Accounting in Delhi - Bookkeeping & Audit">

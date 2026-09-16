@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>FDI Compliance in Pune - FEMA, FC-GPR, FC-TRS & RBI</title>
-    <meta name="description" content="CA/CS-assisted FDI compliance in Pune. FC-GPR, FC-TRS, FLA return, Entity Master, FEMA valuation, AD bank coordination. Serving Hinjewadi, Kharadi startups and MNC subsidiaries. Call +91 945 945 6700.">
+    <meta name="description" content="CA/CS-assisted FDI compliance in Pune. FC-GPR, FC-TRS, FLA return, Entity Master, FEMA valuation, AD bank coordination.">
     <link rel="canonical" href="/fdi-compliance/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="FDI Compliance in Pune - FEMA, FC-GPR, FC-TRS & RBI">

@@ -629,7 +629,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 
 @section('meta')
-    <title>Fast Track Merger Section 233 in 2026: RD Route | Patron Accounting</title>
+    <title>Fast Track Merger Section 233 in: RD Route</title>
     <meta name="description" content="Fast track merger under Section 233 needs Regional Director approval, not NCLT. 60 day timeline. Starting from INR 1,99,999. Call Patron Accounting.">
     <link rel="canonical" href="/fast-track-merger-section-233">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

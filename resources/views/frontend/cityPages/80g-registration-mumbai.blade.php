@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>80G Registration in Mumbai - Form 10A & Donor Deduction</title>
-    <meta name="description" content="CA-assisted 80G registration in Mumbai for trusts, societies, Section 8 companies. Donor tax deduction. 12A bundled. Near PCIT Exemptions. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted 80G registration in Mumbai for trusts, societies, Section 8 companies. Donor tax deduction. 12A bundled. Near PCIT Exemptions.">
     <link rel="canonical" href="/80g-registration/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="80G Registration in Mumbai - Form 10A & Donor Deduction">

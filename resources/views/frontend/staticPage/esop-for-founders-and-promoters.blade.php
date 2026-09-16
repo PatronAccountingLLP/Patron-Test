@@ -15,7 +15,7 @@
 
 
 @section('meta')
-    <title>ESOP for Founders and Promoters 2026: Rules | Patron Accounting</title>
+    <title>ESOP for Founders and Promoters: Rules</title>
     <meta name="description" content="Can founders and promoters get ESOPs in India? The Rule 12 bar, the DPIIT-startup 10-year exemption, SEBI Reg 9A for IPOs, and sweat equity. From Rs 49,999.">
     <link rel="canonical" href="/esop-for-founders-and-promoters">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

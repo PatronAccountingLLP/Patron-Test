@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Copyright Objection Reply in Mumbai - Process & Hearing</title>
-    <meta name="description" content="Copyright objection services in Mumbai. File or defend objections within 30-day window, evidence preparation, Copyright Office hearing, Bombay HC rectification. CA-led. Call +91 945 945 6700.">
+    <meta name="description" content="Copyright objection services in Mumbai. File or defend objections within 30-day window, evidence preparation, Copyright Office hearing.">
     <link rel="canonical" href="/copyright-objection/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Copyright Objection Reply in Mumbai - Process & Hearing">

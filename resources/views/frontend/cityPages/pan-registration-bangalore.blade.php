@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>PAN Card Registration in Bangalore – Form 49A &amp; Process</title>
-    <meta name="description" content="CA-assisted PAN registration in Bangalore. Form 49A/49AA, correct AO code selection, instant e-PAN, PAN-Aadhaar linking. Serving Electronic City, Whitefield, Koramangala. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted PAN registration in Bangalore. Form 49A/49AA, correct AO code selection, instant e-PAN, PAN-Aadhaar linking.">
     <link rel="canonical" href="/pan-registration/bangalore">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="PAN Card Registration in Bangalore – Form 49A &amp; Process">

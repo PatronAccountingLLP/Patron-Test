@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Copyright Registration in Pune - Form XIV, Fees & Process</title>
-    <meta name="description" content="CA-assisted copyright registration in Pune. Software, literary, artistic, musical works - all protected via Form XIV. Serving Hinjewadi, Kharadi, Baner. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted copyright registration in Pune. Software, literary, artistic, musical works - all protected via Form XIV. Serving Hinjewadi, Kharadi, Baner.">
     <link rel="canonical" href="/copyright-registration/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Copyright Registration in Pune - Form XIV, Fees & Process">

@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Travel & Logistics Accounting in Mumbai - Freight & GST</title>
-    <meta name="description" content="CA-led logistics payroll in Mumbai. Driver wages, warehouse shifts, JNPT CHA staff, PF/ESI, fleet TDS, Bhiwandi 3PL, multi-state compliance. Call +91 945 945 6700.">
+    <meta name="description" content="CA-led logistics payroll in Mumbai. Driver wages, warehouse shifts, JNPT CHA staff, PF/ESI, fleet TDS, Bhiwandi 3PL, multi-state compliance.">
     <link rel="canonical" href="/payroll-services-for-travel-and-logistics-industry/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Travel & Logistics Accounting in Mumbai - Freight & GST">

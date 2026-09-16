@@ -630,7 +630,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 
 @section('meta')
-    <title>Ageing of Debtors and Creditors Certificate in Mumbai 2026 | Patron Accounting</title>
+    <title>Ageing of Debtors and Creditors Certificate in Mumbai</title>
     <meta name="description" content="CA-certified ageing of debtors and creditors: receivables and payables by 0-30, 31-60, 61-90 and 90+ day buckets for due diligence and lenders. From INR 2,499.">
     <link rel="canonical" href="/ageing-of-debtors-creditors-certificate/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

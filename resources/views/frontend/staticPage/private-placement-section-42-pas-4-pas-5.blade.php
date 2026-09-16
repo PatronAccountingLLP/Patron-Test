@@ -629,7 +629,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 
 @section('meta')
-    <title>Private Placement of Shares Section 42 in 2026 | Patron Accounting</title>
+    <title>Private Placement of Shares Section 42 in</title>
     <meta name="description" content="Raise a funding round via private placement under Section 42 with a PAS-4 offer letter, PAS-5 record, 200-investor cap and PAS-3. From INR 24,999.">
     <link rel="canonical" href="/private-placement-section-42-pas-4-pas-5">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

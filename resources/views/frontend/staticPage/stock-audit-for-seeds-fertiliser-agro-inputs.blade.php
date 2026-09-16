@@ -1,7 +1,7 @@
 @extends('layouts.service-app')
 
 @section('meta')
-<title>Stock Audit for Seeds and Agro-Inputs: Weighbridge Count | Patron Accounting</title>
+<title>Stock Audit for Seeds and Agro-Inputs: Weighbridge Count</title>
     <meta name="description" content="Seed, fertiliser and agro-input stock is audited by weight. Weighbridge readings are verified, seed lots counted and season-end write-offs evidenced.">
     <link rel="canonical" href="https://www.patronaccounting.com/stock-audit-for-seeds-fertiliser-agro-inputs">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

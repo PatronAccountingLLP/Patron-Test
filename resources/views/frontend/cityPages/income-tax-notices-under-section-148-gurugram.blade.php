@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>IT Notice u/s 148 Gurugram - 148A, Reopening & Reply</title>
-    <meta name="description" content="CA-assisted response to Section 148 reassessment notice in Gurugram. 148A SCN reply, objections, GKN Driveshafts, time-bar, CIT(A) appeal. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted response to Section 148 reassessment notice in Gurugram. 148A SCN reply, objections, GKN Driveshafts, time-bar, CIT(A) appeal.">
     <link rel="canonical" href="/income-tax-notices-under-section-148/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="IT Notice u/s 148 Gurugram - 148A, Reopening & Reply">

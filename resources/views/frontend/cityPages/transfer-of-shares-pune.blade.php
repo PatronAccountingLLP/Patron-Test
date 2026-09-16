@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Transfer of Shares in Pune - SH-4, Stamp Duty & Valuation</title>
-    <meta name="description" content="CA and CS assisted transfer of shares for Pune companies. Form SH-4, stamp duty, board approval, demat Rule 9B, ROFR compliance, FEMA transfers. Startup exits, promoter transfers. Call +91 945 945 6700.">
+    <meta name="description" content="CA and CS assisted transfer of shares for Pune companies. Form SH-4, stamp duty, board approval, demat Rule 9B, ROFR compliance, FEMA transfers.">
     <link rel="canonical" href="/transfer-of-shares/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Transfer of Shares in Pune - SH-4, Stamp Duty & Valuation">

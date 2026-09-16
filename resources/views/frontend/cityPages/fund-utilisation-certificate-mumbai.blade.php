@@ -630,7 +630,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 
 @section('meta')
-    <title>Fund Utilisation Certificate in Mumbai 2026: CA UC Format | Patron Accounting</title>
+    <title>Fund Utilisation Certificate in Mumbai: CA UC Format</title>
     <meta name="description" content="CA-certified fund utilisation certificate confirming grant, CSR and project funds were used for the sanctioned purpose. GFR 12-A ready. From INR 3,999.">
     <link rel="canonical" href="/fund-utilisation-certificate/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

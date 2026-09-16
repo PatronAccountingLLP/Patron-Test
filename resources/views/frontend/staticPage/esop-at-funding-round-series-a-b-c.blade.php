@@ -15,7 +15,7 @@
 
 
 @section('meta')
-    <title>ESOP at Funding Round 2026: Series A, B, C Pools | Patron Accounting</title>
+    <title>ESOP at Funding Round: Series A, B, C Pools</title>
     <meta name="description" content="ESOP pool top-ups at Series A, B and C: pre-money vs post-money sizing, the option pool shuffle and term-sheet negotiation, structured in India. From Rs 49,999.">
     <link rel="canonical" href="/esop-at-funding-round-series-a-b-c">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>AD Code Registration in Pune - Customs & ICEGATE Process</title>
-    <meta name="description" content="CA-assisted AD code registration in Pune. Bank AD code letter, ICEGATE port registration for ICD Dighi, ICD Talegaon, Pune Airport. Export-ready in 3-5 days. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted AD code registration in Pune. Bank AD code letter, ICEGATE port registration for ICD Dighi, ICD Talegaon, Pune Airport. Export-ready in 3-5 days.">
     <link rel="canonical" href="/ad-code-registration/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="AD Code Registration in Pune - Customs & ICEGATE Process">

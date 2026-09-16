@@ -1,7 +1,7 @@
 @extends('layouts.service-app')
 
 @section('meta')
-<title>Stock Audit: Physical Verification, Report and Valuation | Patron Accounting</title>
+<title>Stock Audit: Physical Verification, Report and Valuation</title>
     <meta name="description" content="Bank CC/OD borrowers and boards rely on an independent stock audit. Auditors count the stock, analyse variances, value it under AS 2 and sign the report.">
     <link rel="canonical" href="https://www.patronaccounting.com/stock-audit">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

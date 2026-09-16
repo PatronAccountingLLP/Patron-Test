@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Income Tax Return Gurugram - ITR Forms & Due Dates</title>
-    <meta name="description" content="CA-assisted ITR filing in Gurugram for FY 2025-26. Old vs new regime analysis. ESOP taxation. Salary, capital gains, business income. Serving Cyber City, Sohna Rd. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted ITR filing in Gurugram for FY. Old vs new regime analysis. ESOP taxation. Salary, capital gains, business income.">
     <link rel="canonical" href="/income-tax-return-filing/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Income Tax Return Gurugram - ITR Forms & Due Dates">

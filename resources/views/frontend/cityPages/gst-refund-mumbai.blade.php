@@ -44,7 +44,7 @@
 
 @section('meta')
     <title>GST Refund Claim in Mumbai - RFD-01, Process & Fees</title>
-    <meta name="description" content="CA-assisted GST refund claims in Mumbai. Export IGST, inverted duty, ITC, SEZ refunds via RFD-01. Serving SEEPZ, JNPT, Andheri MIDC exporters. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted GST refund claims in Mumbai. Export IGST, inverted duty, ITC, SEZ refunds via RFD-01. Serving SEEPZ, JNPT, Andheri MIDC exporters.">
     <link rel="canonical" href="/gst-refund/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="GST Refund Claim in Mumbai - RFD-01, Process & Fees">

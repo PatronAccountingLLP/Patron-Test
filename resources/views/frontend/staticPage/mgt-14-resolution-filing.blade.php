@@ -629,7 +629,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 
 @section('meta')
-    <title>MGT-14 Resolution Filing Services in 2026 | Patron Accounting</title>
+    <title>MGT-14 Resolution Filing Services in</title>
     <meta name="description" content="File Form MGT-14 for special and board resolutions within 30 days under Section 117. Needed for name, object, capital and MOA changes. From INR 2,499.">
     <link rel="canonical" href="/mgt-14-resolution-filing">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

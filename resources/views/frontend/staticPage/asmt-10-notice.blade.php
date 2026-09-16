@@ -16,7 +16,7 @@
 
 
 @section('meta')
-    <title>ASMT-10 GST Notice Reply 2026: ASMT-11 Filing | Patron Accounting</title>
+    <title>ASMT-10 GST Notice Reply: ASMT-11 Filing</title>
     <meta name="description" content="ASMT-10 scrutiny notice reply under Section 61 CGST Act - ASMT-11 within 30 days, ITC mismatch reconciliation, prevents Section 73 SCN. From Rs 4,999.">
     <link rel="canonical" href="/asmt-10-notice">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

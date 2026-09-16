@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Authorised Capital Change in Pune - SH-7 & MGT-14</title>
-    <meta name="description" content="CA and CS assisted change in authorised capital for Pune companies. SH-7, MGT-14, Maharashtra stamp duty, ROC filing, and EGM resolution. Baner startups, MIDC manufacturers. Call +91 945 945 6700.">
+    <meta name="description" content="CA and CS assisted change in authorised capital for Pune companies. SH-7, MGT-14, Maharashtra stamp duty, ROC filing, and EGM resolution.">
     <link rel="canonical" href="/change-in-authorised-capital/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Authorised Capital Change in Pune - SH-7 & MGT-14">

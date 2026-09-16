@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Income Tax Notice u/s 147 in Pune - Reassessment & Reply</title>
-    <meta name="description" content="CA-assisted response to IT notice under Section 147/148 in Pune. Reassessment, income escaping assessment, Section 148A, show cause notice, objection. Serving Hinjewadi, Kharadi taxpayers. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted response to IT notice under Section 147/148 in Pune. Reassessment, income escaping assessment, Section 148A, show cause notice, objection.">
     <link rel="canonical" href="/income-tax-notices-under-section-147/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Income Tax Notice u/s 147 in Pune - Reassessment & Reply">

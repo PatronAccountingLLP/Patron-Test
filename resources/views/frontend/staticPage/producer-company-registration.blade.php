@@ -17,7 +17,7 @@
 
 @section('meta')
     <title>Producer Company Registration India - FPO, Process & Fees</title>
-    <meta name="description" content="Register a Producer Company under Part IXA of the Companies Act. Min 10 members, 5 directors, Rs 5 lakh capital. Starting at Rs 15,000. Expert CA and CS support.">
+    <meta name="description" content="Register a Producer Company under Part IXA of the Companies Act. Min 10 members, 5 directors, Rs 5 lakh capital. Starting at Rs 15,000.">
     <link rel="canonical" href="/producer-company-registration">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Producer Company Registration India - FPO, Process & Fees">

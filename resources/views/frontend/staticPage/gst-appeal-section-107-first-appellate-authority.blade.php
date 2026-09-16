@@ -628,7 +628,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 
 @section('meta')
-    <title>Section 107 GST Appeal 2026: First Appeal | Patron Accounting</title>
+    <title>Section 107 GST Appeal: First Appeal</title>
     <meta name="description" content="Section 107 first appeal to Commissioner Appeals - 3-month limit, 10% pre-deposit, APL-01 filing, hearing, Section 75(2) defence. Patron from Rs 19,999.">
     <link rel="canonical" href="/gst-appeal-section-107-first-appellate-authority">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

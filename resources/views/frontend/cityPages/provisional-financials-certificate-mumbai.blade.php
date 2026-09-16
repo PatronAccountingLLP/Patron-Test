@@ -630,7 +630,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 
 @section('meta')
-    <title>Provisional Financials Certificate in Mumbai 2026: CA Format | Patron Accounting</title>
+    <title>Provisional Financials Certificate in Mumbai: CA Format</title>
     <meta name="description" content="CA-compiled provisional financials certificate: unaudited P and L and balance sheet for loans, tenders and board meetings before audit. From INR 4,999.">
     <link rel="canonical" href="/provisional-financials-certificate/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

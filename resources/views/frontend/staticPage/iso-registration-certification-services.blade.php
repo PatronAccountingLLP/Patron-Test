@@ -16,7 +16,7 @@
 
 @section('meta')
     <title>ISO Certification India - 9001, 14001, 27001 Registration</title>
-    <meta name="description" content="Get ISO 9001, 14001, 27001, 22000, 45001 certification. 3-year validity with annual surveillance audits. Accredited certification bodies. From Rs 20,000 for small businesses.">
+    <meta name="description" content="Get ISO 9001, 14001, 27001, 22000, 45001 certification. 3-year validity with annual surveillance audits. Accredited certification bodies.">
     <link rel="canonical" href="/iso-registration-certification-services">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="ISO Certification India - 9001, 14001, 27001 Registration">

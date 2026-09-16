@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Change of Auditor Gurugram - ADT-1, ADT-3 & Rotation</title>
-    <meta name="description" content="CA/CS-assisted auditor change in Gurugram. ADT-1, ADT-3, resignation, removal, rotation, Section 139/140, ROC Haryana. Serving Cyber City, Golf Course Road. Call +91 945 945 6700.">
+    <meta name="description" content="CA/CS-assisted auditor change in Gurugram. ADT-1, ADT-3, resignation, removal, rotation, Section 139/140, ROC Haryana. Serving Cyber City, Golf Course Road.">
     <link rel="canonical" href="/change-of-auditor/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Change of Auditor Gurugram - ADT-1, ADT-3 & Rotation">

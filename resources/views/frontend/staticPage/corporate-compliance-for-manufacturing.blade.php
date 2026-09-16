@@ -17,7 +17,7 @@
 
 
 @section('meta')
-    <title>Corporate Compliance for Manufacturing, 2026 | Patron Accounting</title>
+    <title>Corporate Compliance for Manufacturing</title>
     <meta name="description" content="Compliance for a manufacturing company, the Factories Act, labour codes, environmental and cost audit overlay on the ROC stack. From INR 14,999 a year.">
     <link rel="canonical" href="/corporate-compliance-for-manufacturing">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

@@ -630,7 +630,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 
 @section('meta')
-    <title>Form 15CA 15CB Foreign Remittance Certificate in Mumbai 2026 | Patron Accounting</title>
+    <title>Form 15CA 15CB Foreign Remittance Certificate in Mumbai</title>
     <meta name="description" content="CA-certified Form 15CB and 15CA filing for foreign remittances under Section 195 and Rule 37BB. Required above INR 5 lakh. From INR 2,499 per remittance.">
     <link rel="canonical" href="/foreign-remittance-certificate-15ca-15cb/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

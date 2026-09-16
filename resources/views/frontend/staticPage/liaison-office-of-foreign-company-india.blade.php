@@ -15,7 +15,7 @@
 
 
 @section('meta')
-    <title>Liaison Office of Foreign Company in India 2026 | Patron Accounting</title>
+    <title>Liaison Office of Foreign Company in India</title>
     <meta name="description" content="Set up a liaison office of a foreign company in India with RBI approval (Form FNC). Market-exploration only, no income, 3-year validity. From INR 79,999.">
     <link rel="canonical" href="/liaison-office-of-foreign-company-india">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

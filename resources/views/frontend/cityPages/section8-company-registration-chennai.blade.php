@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Section 8 Company Registration in Chennai – MOA, AOA &amp; Fees</title>
-    <meta name="description" content="CA-assisted Section 8 company registration in Chennai. MCA licence, SPICe+ with RoC Chennai, 12A, 80G filing. Serving OMR, Adyar, Anna Salai. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted Section 8 company registration in Chennai. MCA licence, SPICe+ with RoC Chennai, 12A, 80G filing. Serving OMR, Adyar, Anna Salai.">
     <link rel="canonical" href="/section8-company-registration/chennai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Section 8 Company Registration in Chennai – MOA, AOA &amp; Fees">

@@ -17,7 +17,7 @@
 
 
 @section('meta')
-    <title>Corporate Compliance for Listed Companies, 2026 | Patron Accounting</title>
+    <title>Corporate Compliance for Listed Companies</title>
     <meta name="description" content="Premium compliance for a listed company, SEBI LODR, insider trading, takeover code, ESOP, secretarial and cost audit, managed by a specialist CA and CS team.">
     <link rel="canonical" href="/corporate-compliance-for-listed-companies">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

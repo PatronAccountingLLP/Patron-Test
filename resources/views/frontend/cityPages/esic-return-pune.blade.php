@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>ESIC Return Filing in Pune - Process, Due Date & Fees</title>
-    <meta name="description" content="CA-assisted ESIC return filing in Pune. Monthly contributions by 15th, half-yearly returns on time. Serving Hinjewadi, Kharadi, Chakan MIDC businesses. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted ESIC return filing in Pune. Monthly contributions by 15th, half-yearly returns on time. Serving Hinjewadi, Kharadi, Chakan MIDC businesses.">
     <link rel="canonical" href="/esic-return/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="ESIC Return Filing in Pune - Process, Due Date & Fees">

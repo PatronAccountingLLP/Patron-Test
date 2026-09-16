@@ -628,7 +628,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 
 @section('meta')
-    <title>CMA Data Preparation and Certification 2026 | Patron Accounting</title>
+    <title>CMA Data Preparation and Certification</title>
     <meta name="description" content="CA-prepared and certified CMA data for bank loans and working capital in Pune. RBI-format projections, MPBF, ratios. From INR 9,999.">
     <link rel="canonical" href="/cma-data-preparation-and-certification/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

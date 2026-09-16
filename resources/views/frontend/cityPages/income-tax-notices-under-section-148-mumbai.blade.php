@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Income Tax Notice u/s 148 Mumbai – 148A &amp; Reply</title>
-    <meta name="description" content="CA-assisted response to IT notice Section 148 in Mumbai. Income escaping assessment, 148A inquiry, return filing, validity challenge, Bombay HC. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted response to IT notice Section 148 in Mumbai. Income escaping assessment, 148A inquiry, return filing, validity challenge, Bombay HC.">
     <link rel="canonical" href="/income-tax-notices-under-section-148/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Income Tax Notice u/s 148 Mumbai – 148A &amp; Reply">

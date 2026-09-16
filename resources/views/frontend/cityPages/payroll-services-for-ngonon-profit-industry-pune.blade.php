@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>NGO & Non-Profit Payroll in Pune - FCRA, 12A & TDS</title>
-    <meta name="description" content="CA-assisted payroll for NGOs and trusts in Pune. PF, ESIC, TDS, FCRA salary reporting, and 12AB compliance for non-profits. Serving Sadashiv Peth, Kothrud, Deccan charities. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted payroll for NGOs and trusts in Pune. PF, ESIC, TDS, FCRA salary reporting, and 12AB compliance for non-profits.">
     <link rel="canonical" href="/payroll-services-for-ngonon-profit-industry/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="NGO & Non-Profit Payroll in Pune - FCRA, 12A & TDS">

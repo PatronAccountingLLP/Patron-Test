@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>ESOP Management - Vesting, Tax & Cap Table in Gurugram</title>
-    <meta name="description" content="CA-led ESOP management in Gurugram. Scheme design, Ind AS 102, perquisite TDS, DPIIT deferral, foreign ESOPs, RoC filings. Startups, MNCs. Call +91 945 945 6700.">
+    <meta name="description" content="CA-led ESOP management in Gurugram. Scheme design, Ind AS 102, perquisite TDS, DPIIT deferral, foreign ESOPs, RoC filings. Startups, MNCs.">
     <meta name="keywords" content="ESOP M&Anagement and Compliance Services Gurugram, ESOP M&Anagement and Compliance Services in Gurugram, ESOP M&Anagement and Compliance Services services in Gurugram, ESOP services Gurugram, ESOP M&Anagement and Compliance Services cost Gurugram, ESOP M&Anagement and Compliance Services consultants Gurugram, CA firm for ESOP M&Anagement and Compliance Services Gurugram, ESOP advisory Gurugram">
     <link rel="canonical" href="/esop-management-and-compliance-services/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Turnover Certificate by CA Mumbai - Format & Documents</title>
-    <meta name="description" content="CA-certified turnover certificate in Mumbai with UDIN. For government tenders, bank loans, GEM portal, export licences. Serving BKC, Andheri MIDC, Bhuleshwar firms. Call +91 945 945 6700.">
+    <meta name="description" content="CA-certified turnover certificate in Mumbai with UDIN. For government tenders, bank loans, GEM portal, export licences.">
     <link rel="canonical" href="/turnover-certificate/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Turnover Certificate by CA Mumbai - Format & Documents">

@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Public Limited Company Registration Mumbai - Fees & ROC</title>
-    <meta name="description" content="Register public limited company in Mumbai. SPICe+ at RoC Mumbai, 7 members, 3 directors, MOA/AOA, independent directors, SEBI listing readiness, annual compliance. CA-led. Call +91 945 945 6700.">
+    <meta name="description" content="Register public limited company in Mumbai. SPICe+ at RoC Mumbai, 7 members, 3 directors, MOA/AOA, independent directors, SEBI listing readiness.">
     <link rel="canonical" href="/public-company-registration/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Public Limited Company Registration Mumbai - Fees & ROC">

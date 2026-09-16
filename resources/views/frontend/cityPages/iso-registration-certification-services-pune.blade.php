@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>ISO Certification in Pune - 9001, 14001 & 27001 Standards</title>
-    <meta name="description" content="CA-assisted ISO registration in Pune. ISO 9001, 14001, 27001, 45001, 22000 certification with NABCB-accredited bodies. Serving Chakan, Hinjewadi, MIDC. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted ISO registration in Pune. ISO 9001, 14001, 27001, 45001, 22000 certification with NABCB-accredited bodies. Serving Chakan, Hinjewadi, MIDC.">
     <link rel="canonical" href="/iso-registration-certification-services/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="ISO Certification in Pune - 9001, 14001 & 27001 Standards">

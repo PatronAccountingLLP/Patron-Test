@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Patent Registration in Mumbai - Filing, Fees & Exam</title>
-    <meta name="description" content="Patent registration in Mumbai. Patents Act 1970, provisional + complete specification, Patent Office Mumbai, FER response, startup expedited exam, 20-year term. CA-led. Call +91 945 945 6700.">
+    <meta name="description" content="Patent registration in Mumbai. Patents Act 1970, provisional + complete specification, Patent Office Mumbai, FER response, startup expedited exam.">
     <link rel="canonical" href="/patent-registration/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Patent Registration in Mumbai - Filing, Fees & Exam">

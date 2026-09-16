@@ -628,7 +628,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 
 @section('meta')
-    <title>Professional Income Certificate by CA in Delhi 2026 | Patron Accounting</title>
+    <title>Professional Income Certificate by CA in Delhi</title>
     <meta name="description" content="Professional Income Certificate by a CA with UDIN for doctors, lawyers, consultants, and architects. Practice income proof for visa and loan. From INR 1,999.">
     <link rel="canonical" href="/professional-income-certificate/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

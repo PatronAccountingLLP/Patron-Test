@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Security Agency Payroll in Pune - ESIC, PF & Wage Register</title>
-    <meta name="description" content="CA-assisted payroll for security agencies in Pune. Shift-based wages, PF, ESIC, PSARA muster rolls, and Guard Board compliance for guard companies. Serving Hinjewadi, Chakan, Baner sites. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted payroll for security agencies in Pune. Shift-based wages, PF, ESIC, PSARA muster rolls, and Guard Board compliance for guard companies.">
     <link rel="canonical" href="/payroll-services-for-security-agencies/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Security Agency Payroll in Pune - ESIC, PF & Wage Register">

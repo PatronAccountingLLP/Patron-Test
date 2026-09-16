@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Copyright for Literary Work in Pune - Book & Software</title>
-    <meta name="description" content="Register copyright for literary work in Pune. Books, software, databases, research papers, blogs, manuscripts. Section 2(o) coverage. CA-assisted. Call +91 945 945 6700.">
+    <meta name="description" content="Register copyright for literary work in Pune. Books, software, databases, research papers, blogs, manuscripts. Section 2(o) coverage. CA-assisted.">
     <link rel="canonical" href="/copyright-registration-for-literary-work/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Copyright for Literary Work in Pune - Book & Software">

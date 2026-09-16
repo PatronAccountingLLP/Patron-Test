@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>E-Commerce Payroll in Gurugram - PF, ESI, TDS & Gig</title>
-    <meta name="description" content="CA-led ecommerce payroll in Gurugram. Warehouse, delivery, tech staff. PF, ESI, TDS, gig worker compliance, festive scaling. Bilaspur, Cyber City. Call +91 945 945 6700.">
+    <meta name="description" content="CA-led ecommerce payroll in Gurugram. Warehouse, delivery, tech staff. PF, ESI, TDS, gig worker compliance, festive scaling. Bilaspur, Cyber City.">
     <link rel="canonical" href="/e-commerce-sector-payroll-processing-services/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="E-Commerce Payroll in Gurugram - PF, ESI, TDS & Gig">

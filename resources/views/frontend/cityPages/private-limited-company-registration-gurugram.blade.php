@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Pvt Ltd Registration in Gurugram - SPICe+, Fees & ROC</title>
-    <meta name="description" content="CA-assisted private limited company registration in Gurugram. SPICe+ filing with RoC Delhi. Serving Cyber City, Udyog Vihar, Sohna Road founders. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted private limited company registration in Gurugram. SPICe+ filing with RoC Delhi. Serving Cyber City, Udyog Vihar, Sohna Road founders.">
     <link rel="canonical" href="/private-limited-company-registration/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Pvt Ltd Registration in Gurugram - SPICe+, Fees & ROC">

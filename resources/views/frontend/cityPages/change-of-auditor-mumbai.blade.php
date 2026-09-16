@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Change of Auditor in Mumbai – ADT-1, ADT-3 &amp; Rotation</title>
-    <meta name="description" content="CA-assisted change of auditor in Mumbai. Resignation ADT-3, removal ADT-2, rotation, casual vacancy, new appointment ADT-1. ROC Everest House. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted change of auditor in Mumbai. Resignation ADT-3, removal ADT-2, rotation, casual vacancy, new appointment ADT-1. ROC Everest House.">
     <link rel="canonical" href="/change-of-auditor/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Change of Auditor in Mumbai – ADT-1, ADT-3 &amp; Rotation">

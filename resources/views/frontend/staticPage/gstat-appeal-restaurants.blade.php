@@ -2,7 +2,7 @@
 
 @section('meta')
     <title>Restaurant GSTAT Appeal - GST Rate Disputes | Patron</title>
-    <meta name="description" content="GSTAT appeal for restaurants facing GST rate disputes, ITC denial on renovation, and food delivery platform TCS issues. 10% pre-deposit. 3-month deadline. Patron Accounting.">
+    <meta name="description" content="GSTAT appeal for restaurants facing GST rate disputes, ITC denial on renovation, and food delivery platform TCS issues. 10% pre-deposit. 3-month deadline.">
     <link rel="canonical" href="/gstat-appeal-restaurants">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Restaurant GSTAT Appeal - GST Rate Disputes | Patron">

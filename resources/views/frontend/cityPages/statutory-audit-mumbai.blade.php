@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Statutory Audit in Mumbai – CARO &amp; Ind AS</title>
-    <meta name="description" content="CA-assisted statutory audit in Mumbai. Section 139 compliance, CARO 2020 reporting, and true and fair financial statements. Serving BKC, Andheri MIDC, SEEPZ businesses. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted statutory audit in Mumbai. Section 139 compliance, CARO reporting, and true and fair financial statements.">
     <link rel="canonical" href="/statutory-audit/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Statutory Audit in Mumbai – CARO &amp; Ind AS">

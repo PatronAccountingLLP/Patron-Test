@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>GST for Freelancers in Mumbai - GSTR-1, 3B & ₹20L</title>
-    <meta name="description" content="CA-assisted GST return filing for freelancers in Mumbai. GSTR-1, GSTR-3B, LUT for export services. Serving Powai, Andheri, BKC freelancers. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted GST return filing for freelancers in Mumbai. GSTR-1, GSTR-3B, LUT for export services. Serving Powai, Andheri, BKC freelancers.">
     <link rel="canonical" href="/gst-return-filing-for-freelancers/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="GST for Freelancers in Mumbai - GSTR-1, 3B & ₹20L">

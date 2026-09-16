@@ -1,7 +1,7 @@
 @extends('layouts.service-app')
 
 @section('meta')
-<title>Stock Audit in Kolkata: Howrah and Taratala Godowns | Patron Accounting</title>
+<title>Stock Audit in Kolkata: Howrah and Taratala Godowns</title>
     <meta name="description" content="CA-led stock audit in Kolkata covers godowns and factories alike. Engineering and trading stock is counted at Howrah, Dankuni and Burrabazar.">
     <link rel="canonical" href="https://www.patronaccounting.com/stock-audit/kolkata">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

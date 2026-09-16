@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>DSC Registration in Gurugram - Class 3 Digital Signature</title>
-    <meta name="description" content="Get Class 3 Digital Signature Certificate in Gurugram. For MCA, Income Tax, GST, e-tendering. Directors, partners, CAs. Same-day issuance. Call +91 945 945 6700.">
+    <meta name="description" content="Get Class 3 Digital Signature Certificate in Gurugram. For MCA, Income Tax, GST, e-tendering. Directors, partners, CAs. Same-day issuance.">
     <link rel="canonical" href="/dsc-registration/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="DSC Registration in Gurugram - Class 3 Digital Signature">

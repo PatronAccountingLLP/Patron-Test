@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>E-Commerce Accounting in Mumbai - GST, TDS & Bookkeeping</title>
-    <meta name="description" content="CA-led ecommerce payroll in Mumbai. D2C brands, warehouse staff, delivery workers, tech teams, PF/ESI, gig worker compliance, incentive CTC for Powai, BKC, Bhiwandi. Call +91 945 945 6700.">
+    <meta name="description" content="CA-led ecommerce payroll in Mumbai. D2C brands, warehouse staff, delivery workers, tech teams, PF/ESI, gig worker compliance, incentive CTC for Powai, BKC.">
     <link rel="canonical" href="/e-commerce-sector-payroll-processing-services/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="E-Commerce Accounting in Mumbai - GST, TDS & Bookkeeping">

@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Actuarial Valuation in Delhi - AS 15 & Ind AS 19 Reports</title>
-    <meta name="description" content="CA-led actuarial valuation in Delhi. Gratuity, leave encashment, pension under AS 15, Ind AS 19. Social Security Code 2020 impact. Serving CP, Okhla, Rohini. Call +91 945 945 6700.">
+    <meta name="description" content="CA-led actuarial valuation in Delhi. Gratuity, leave encashment, pension under AS 15, Ind AS 19. Social Security Code impact. Serving CP, Okhla, Rohini.">
     <link rel="canonical" href="/actuarial-valuation-services-for-employee-benefits/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Actuarial Valuation in Delhi - AS 15 & Ind AS 19 Reports">

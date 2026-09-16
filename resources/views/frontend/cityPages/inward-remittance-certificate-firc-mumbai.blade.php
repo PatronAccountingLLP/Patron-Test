@@ -630,7 +630,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 
 @section('meta')
-    <title>Inward Remittance Certificate FIRC in Mumbai 2026: CA Help | Patron Accounting</title>
+    <title>Inward Remittance Certificate FIRC in Mumbai: CA Help</title>
     <meta name="description" content="FIRC and e-FIRC support for exporters, freelancers and SaaS receiving USD or EUR. CA attestation for GST export refund and FEMA. From INR 2,499.">
     <link rel="canonical" href="/inward-remittance-certificate-firc/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

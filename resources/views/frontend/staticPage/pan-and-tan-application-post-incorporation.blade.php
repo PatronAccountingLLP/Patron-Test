@@ -15,7 +15,7 @@
 
 
 @section('meta')
-    <title>PAN and TAN Application After Incorporation 2026 | Patron Accounting</title>
+    <title>PAN and TAN Application After Incorporation</title>
     <meta name="description" content="Get your company PAN and TAN after incorporation for TDS compliance. SPICe+ auto-allotment, separate Form 49A and Form 135 cases. From INR 1,499.">
     <link rel="canonical" href="/pan-and-tan-application-post-incorporation">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

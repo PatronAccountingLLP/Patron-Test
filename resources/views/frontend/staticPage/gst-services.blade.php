@@ -1,9 +1,9 @@
 @extends('layouts.service-app')
 
 @section('meta')
-    <title>GST Services - Registration, Returns, ITC, Refunds & Audits | Patron LLP</title>
+    <title>GST Services - Registration, Returns, ITC</title>
     <link rel="canonical" href="/gst-services">
-    <meta name="description" content="Complete GST compliance - registration, returns, ITC, e-invoicing, e-way bill, refunds, audits and notices. Industry-specific variants for e-commerce, OIDAR, SEZ and more.">
+    <meta name="description" content="Complete GST compliance - registration, returns, ITC, e-invoicing, e-way bill, refunds, audits and notices.">
     <meta property="og:title" content="GST Services - Registration, Returns, ITC, Refunds & Audits | Patron LLP">
     <meta property="og:description" content="Complete GST compliance - registration, returns, ITC, e-invoicing, e-way bill, refunds, audits and notices. Industry-specific variants for e-commerce, OIDAR, SEZ and more.">
     <meta property="og:url" content="/gst-services">

@@ -15,7 +15,7 @@
 
 
 @section('meta')
-    <title>SPV and Holding Company Setup in India 2026 | Patron Accounting</title>
+    <title>SPV and Holding Company Setup in India</title>
     <meta name="description" content="Set up a Special Purpose Vehicle (SPV) or holding company in India for investment, M and A, real estate or IP. Pvt Ltd or LLP with SHA. From INR 24,999.">
     <link rel="canonical" href="/special-purpose-vehicle-spv-and-holding-company-setup">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Turnover Certificate - Current Account Mumbai, CA Format</title>
-    <meta name="description" content="CA-certified turnover certificate for current account opening in Mumbai without GST. For sole proprietors, freelancers, small traders. Accepted by SBI, HDFC, ICICI. Call +91 945 945 6700.">
+    <meta name="description" content="CA-certified turnover certificate for current account opening in Mumbai without GST. For sole proprietors, freelancers, small traders.">
     <link rel="canonical" href="/turnover-certificate-for-current-account/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Turnover Certificate - Current Account Mumbai, CA Format">

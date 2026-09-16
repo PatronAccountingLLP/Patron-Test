@@ -46,7 +46,7 @@
 
 @section('meta')
     <title>PF Return Filing in Pune – ECR, UAN &amp; Due Date</title>
-    <meta name="description" content="CA-assisted PF return filing in Pune. Monthly ECR, UAN management, Section 7Q/14B compliance, EPFO coordination. Serving Hinjewadi, Kharadi, Pimpri-Chinchwad employers. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted PF return filing in Pune. Monthly ECR, UAN management, Section 7Q/14B compliance, EPFO coordination.">
     <link rel="canonical" href="/pf-return/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="PF Return Filing in Pune – ECR, UAN &amp; Due Date">

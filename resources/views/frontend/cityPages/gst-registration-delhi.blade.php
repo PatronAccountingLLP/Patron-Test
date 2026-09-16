@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>GST Registration in Delhi - Online Process, Fees & GSTIN</title>
-    <meta name="description" content="CA-assisted GST registration in Delhi. GSTIN, returns filing and compliance for traders, e-commerce and services. Serving Chandni Chowk, CP, Nehru Place. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted GST registration in Delhi. GSTIN, returns filing and compliance for traders, e-commerce and services. Serving Chandni Chowk, CP, Nehru Place.">
     <link rel="canonical" href="/gst-registration/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="GST Registration in Delhi - Online Process, Fees & GSTIN">

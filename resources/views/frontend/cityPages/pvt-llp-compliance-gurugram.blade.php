@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>LLP Annual Compliance Gurugram - AOC-4, MGT-7 & F-11</title>
-    <meta name="description" content="CA-assisted LLP compliance in Gurugram. Form 8, Form 11, audit, ITR-5, DIR-3 KYC, penalty management. Serving Cyber City, Sohna Road LLPs. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted LLP compliance in Gurugram. Form 8, Form 11, audit, ITR-5, DIR-3 KYC, penalty management. Serving Cyber City, Sohna Road LLPs.">
     <link rel="canonical" href="/pvt-llp-compliance/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="LLP Annual Compliance Gurugram - AOC-4, MGT-7 & F-11">

@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>School & College Payroll in Pune - PF, PT, TDS & ESI</title>
-    <meta name="description" content="CA-managed payroll for schools and colleges in Pune. Teacher salary, TDS, EPF, ESIC - all handled. Serving Deccan, Kothrud, Hadapsar institutions. Call +91 945 945 6700.">
+    <meta name="description" content="CA-managed payroll for schools and colleges in Pune. Teacher salary, TDS, EPF, ESIC - all handled. Serving Deccan, Kothrud, Hadapsar institutions.">
     <link rel="canonical" href="/payroll-processing-services-for-education-industry/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="School & College Payroll in Pune - PF, PT, TDS & ESI">

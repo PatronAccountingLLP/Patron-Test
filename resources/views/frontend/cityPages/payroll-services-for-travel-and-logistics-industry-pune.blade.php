@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Travel & Logistics Payroll in Pune - PF, ESI & Multi-PT</title>
-    <meta name="description" content="CA-managed payroll for logistics and transport in Pune. Driver wages, shift pay, EPF, ESIC - all handled. Serving Chakan, Talegaon, Ranjangaon operations. Call +91 945 945 6700.">
+    <meta name="description" content="CA-managed payroll for logistics and transport in Pune. Driver wages, shift pay, EPF, ESIC - all handled. Serving Chakan, Talegaon, Ranjangaon operations.">
     <link rel="canonical" href="/payroll-services-for-travel-and-logistics-industry/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Travel & Logistics Payroll in Pune - PF, ESI & Multi-PT">

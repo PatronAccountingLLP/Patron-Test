@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>ESIC Registration in Delhi - Process, Threshold & Wages</title>
-    <meta name="description" content="CA-assisted ESIC registration in Delhi. 10+ employee compliance under ESI Act 1948. Serving Connaught Place, Nehru Place, Okhla businesses. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted ESIC registration in Delhi. 10+ employee compliance under ESI Act 1948. Serving Connaught Place, Nehru Place, Okhla businesses.">
     <link rel="canonical" href="/esic-registration/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="ESIC Registration in Delhi - Process, Threshold & Wages">

@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Payroll Services in Gurugram - Salary, PF, ESI & TDS</title>
-    <meta name="description" content="CA-managed payroll services in Gurugram. PF, ESI, TDS compliance and salary processing. Serving Cyber City, Udyog Vihar, Manesar businesses. Call +91 945 945 6700.">
+    <meta name="description" content="CA-managed payroll services in Gurugram. PF, ESI, TDS compliance and salary processing. Serving Cyber City, Udyog Vihar, Manesar businesses.">
     <link rel="canonical" href="/payroll-services/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Payroll Services in Gurugram - Salary, PF, ESI & TDS">

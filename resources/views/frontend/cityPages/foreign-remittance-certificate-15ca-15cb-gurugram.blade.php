@@ -628,7 +628,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 
 @section('meta')
-    <title>Form 15CA 15CB for Foreign Remittance in Gurugram 2026 | Patron Accounting</title>
+    <title>Form 15CA 15CB for Foreign Remittance in Gurugram</title>
     <meta name="description" content="Form 15CA and 15CB by a CA with UDIN for foreign remittances above Rs 5 lakh. Section 195 and DTAA tax determination. From INR 2,499 per remittance.">
     <link rel="canonical" href="/foreign-remittance-certificate-15ca-15cb/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

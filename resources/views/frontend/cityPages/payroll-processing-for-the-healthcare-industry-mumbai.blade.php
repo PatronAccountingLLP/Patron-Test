@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Healthcare Accounting in Mumbai - GST & Compliance</title>
-    <meta name="description" content="CA-led healthcare payroll in Mumbai. Doctor retainer TDS, nurse shift payroll, PF/ESI, NABH staffing, trust hospital compliance for Andheri, Bandra, Parel hospitals. Call +91 945 945 6700.">
+    <meta name="description" content="CA-led healthcare payroll in Mumbai. Doctor retainer TDS, nurse shift payroll, PF/ESI, NABH staffing, trust hospital compliance for Andheri, Bandra.">
     <link rel="canonical" href="/payroll-processing-for-the-healthcare-industry/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Healthcare Accounting in Mumbai - GST & Compliance">

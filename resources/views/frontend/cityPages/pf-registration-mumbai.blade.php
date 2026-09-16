@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>PF Registration in Mumbai - EPFO Process & 20-Employee Rule</title>
-    <meta name="description" content="PF registration in Mumbai. EPF & MP Act 1952, 20+ employees, employer 12% + employee 12%, Rs 15,000 ceiling, EPFO portal, UAN, ECR, EDLI. CA-led. Call +91 945 945 6700.">
+    <meta name="description" content="PF registration in Mumbai. EPF &amp; MP Act 1952, 20+ employees, employer 12% + employee 12%, Rs 15,000 ceiling, EPFO portal, UAN, ECR, EDLI. CA-led.">
     <link rel="canonical" href="/pf-registration/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="PF Registration in Mumbai - EPFO Process & 20-Employee Rule">

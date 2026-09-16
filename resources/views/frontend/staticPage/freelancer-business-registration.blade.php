@@ -15,7 +15,7 @@
 
 
 @section('meta')
-    <title>Freelancer Business Registration in India 2026 | Patron Accounting</title>
+    <title>Freelancer Business Registration in India</title>
     <meta name="description" content="Register as a freelancer in India: proprietorship setup, Udyam, GST and IEC, plus 44ADA tax guidance. One simple bundle for freelancers. From INR 2,499.">
     <link rel="canonical" href="/freelancer-business-registration">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

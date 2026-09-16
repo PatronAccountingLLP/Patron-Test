@@ -2,7 +2,7 @@
 
 @section('meta')
     <title>GSTAT Appeal Filing in Nagpur 2026 | Patron Accounting</title>
-    <meta name="description" content="File your GSTAT appeal at the Nagpur bench covering 11 Vidarbha districts in Maharashtra. CA team and of-counsel GST litigation specialists handle Nagpur bench proceedings end-to-end.">
+    <meta name="description" content="File your GSTAT appeal at the Nagpur bench covering 11 Vidarbha districts in Maharashtra.">
     <link rel="canonical" href="/gstat-appeal-filing/nagpur">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="GSTAT Appeal Filing in Nagpur 2026 | Patron Accounting">

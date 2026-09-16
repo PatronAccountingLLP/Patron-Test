@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>ITR for Salaried Gurugram - Form 16, ITR-1 & HRA</title>
-    <meta name="description" content="CA-assisted salary ITR filing in Gurugram. New vs old regime, HRA, 80C, Form 16, ESOP taxation. Serving Cyber City, Golf Course Road professionals. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted salary ITR filing in Gurugram. New vs old regime, HRA, 80C, Form 16, ESOP taxation. Serving Cyber City, Golf Course Road professionals.">
     <link rel="canonical" href="/itr-filing-for-salary/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="ITR for Salaried Gurugram - Form 16, ITR-1 & HRA">

@@ -2,7 +2,7 @@
 
 @section('meta')
     <title>GSTAT Appeal Filing in Jodhpur 2026 | Patron Accounting</title>
-    <meta name="description" content="File your GSTAT appeal at Jodhpur bench covering Jodhpur, Bikaner, Jaisalmer, Barmer, Pali, Sirohi, Nagaur. Patron CA team and of-counsel handle western Rajasthan proceedings.">
+    <meta name="description" content="File your GSTAT appeal at Jodhpur bench covering Jodhpur, Bikaner, Jaisalmer, Barmer, Pali, Sirohi, Nagaur.">
     <link rel="canonical" href="/gstat-appeal-filing/jodhpur">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="GSTAT Appeal Filing in Jodhpur 2026 | Patron Accounting">

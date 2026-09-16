@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Section 8 Registration Gurugram - MOA, AOA, Fees & Process</title>
-    <meta name="description" content="CA-assisted Section 8 company registration in Gurugram. INC-12 licence, 12A/80G, CSR-1 bundled. Serving Cyber City, Golf Course Road founders. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted Section 8 company registration in Gurugram. INC-12 licence, 12A/80G, CSR-1 bundled. Serving Cyber City, Golf Course Road founders.">
     <link rel="canonical" href="/section8-company-registration/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Section 8 Registration Gurugram - MOA, AOA, Fees & Process">

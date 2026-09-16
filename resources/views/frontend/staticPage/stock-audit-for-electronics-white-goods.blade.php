@@ -1,7 +1,7 @@
 @extends('layouts.service-app')
 
 @section('meta')
-<title>Stock Audit for Electronics and White Goods: Serial Count | Patron Accounting</title>
+<title>Stock Audit for Electronics and White Goods: Serial Count</title>
     <meta name="description" content="Electronics and white goods stock is verified unit by unit. Serial numbers are matched, consignment stock is separated and returned units are valued.">
     <link rel="canonical" href="https://www.patronaccounting.com/stock-audit-for-electronics-white-goods">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

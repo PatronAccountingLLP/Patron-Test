@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Hospital & Clinic Payroll in Pune - PF, ESI, TDS & Shifts</title>
-    <meta name="description" content="CA-assisted payroll for hospitals and clinics in Pune. Shift differential, PF, ESIC, PT compliance for doctors, nurses, and paramedics. Serving Sassoon Road, Kothrud, Hadapsar. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted payroll for hospitals and clinics in Pune. Shift differential, PF, ESIC, PT compliance for doctors, nurses, and paramedics.">
     <link rel="canonical" href="/payroll-processing-for-the-healthcare-industry/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Hospital & Clinic Payroll in Pune - PF, ESI, TDS & Shifts">

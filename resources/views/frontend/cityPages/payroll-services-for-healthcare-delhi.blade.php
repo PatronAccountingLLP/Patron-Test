@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Healthcare Accounting in Delhi - GST & Compliance</title>
-    <meta name="description" content="CA-led hospital and clinic payroll in Delhi. 24/7 shift processing, PF/ESI, TDS, visiting doctor compliance. Serving AIIMS zone, Saket, Rohini. Call +91 945 945 6700.">
+    <meta name="description" content="CA-led hospital and clinic payroll in Delhi. 24/7 shift processing, PF/ESI, TDS, visiting doctor compliance. Serving AIIMS zone, Saket, Rohini.">
     <link rel="canonical" href="/payroll-services-for-healthcare/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Healthcare Accounting in Delhi - GST & Compliance">

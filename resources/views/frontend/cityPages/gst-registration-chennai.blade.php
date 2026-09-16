@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>GST Registration in Chennai – Online Process, Fees &amp; GSTIN</title>
-    <meta name="description" content="CA-assisted GST registration in Chennai. Free govt portal filing for GSTIN. Regular and composition scheme. Serving OMR, T. Nagar, MEPZ businesses. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted GST registration in Chennai. Free govt portal filing for GSTIN. Regular and composition scheme. Serving OMR, T. Nagar, MEPZ businesses.">
     <link rel="canonical" href="/gst-registration/chennai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="GST Registration in Chennai – Online Process, Fees &amp; GSTIN">

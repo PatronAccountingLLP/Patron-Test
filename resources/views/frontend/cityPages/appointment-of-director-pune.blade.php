@@ -46,7 +46,7 @@
 
 @section('meta')
     <title>Appointment of Director in Pune - DIN, DIR-12 & Resolution</title>
-    <meta name="description" content="CA and CS assisted appointment of director for Pune companies. DIN application, DIR-2 consent, DIR-12 filing, additional director, nominee director. Startup boards, MNC compliance. Call +91 945 945 6700.">
+    <meta name="description" content="CA and CS assisted appointment of director for Pune companies. DIN application, DIR-2 consent, DIR-12 filing, additional director, nominee director.">
     <link rel="canonical" href="/appointment-of-director/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Appointment of Director in Pune - DIN, DIR-12 & Resolution">

@@ -1,7 +1,7 @@
 @extends('layouts.service-app')
 
 @section('meta')
-<title>Stock Audit in Ahmedabad: Sanand and Vatva Factories | Patron Accounting</title>
+<title>Stock Audit in Ahmedabad: Sanand and Vatva Factories</title>
     <meta name="description" content="Stock audit in Ahmedabad for textile, chemical and pharma units. A CA team verifies stock across the Sanand, Changodar, Vatva and Naroda estates.">
     <link rel="canonical" href="https://www.patronaccounting.com/stock-audit/ahmedabad">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

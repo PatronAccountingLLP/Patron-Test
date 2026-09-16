@@ -224,7 +224,45 @@
 
 {{-- ============================ HEAD: meta + canonical + schema ============================ --}}
 @push('meta-content')
-    {!! $content->meta_title !!}
+    @php
+        /* The stored meta_title reads "Income Tax Depreciation Rate on Ac - 2025-26": it buries
+           the asset behind four words nobody searches, mis-cases acronyms, and carries a year.
+           Of 3,514 searches reaching these pages only 116 contain a year, the largest at 15
+           impressions against ~250,000 in total - so the year is spent characters. People search
+           "printer depreciation rate" and "ac depreciation rate as per income tax", so lead with
+           the asset and put the rate itself in the title. No description was emitted at all. */
+        $dAcro = ['Ac' => 'AC', 'Cctv' => 'CCTV', 'Tv' => 'TV', 'Ev' => 'EV', 'Led' => 'LED',
+                  'Ups' => 'UPS', 'Cnc' => 'CNC', 'Jcb' => 'JCB'];
+        $dAsset = \Illuminate\Support\Str::title(trim($content->Asset ?? ''));
+        $dAsset = preg_replace_callback('/\b[A-Za-z]+\b/', function ($m) use ($dAcro) {
+            return $dAcro[$m[0]] ?? $m[0];
+        }, $dAsset);
+        $dAsset = trim(preg_replace('/\bElectric Vehicle EV\b/', 'Electric Vehicle', $dAsset));
+
+        $dRate = isset($content->Rate) ? trim((string) $content->Rate) : '';
+        if ($dRate !== '' && preg_match('/^\d+(?:\.\d+)?$/', $dRate)) {
+            $dRate .= '%';
+        }
+
+        $dTitle = null;
+        $dDesc  = null;
+        if ($dAsset !== '' && $dRate !== '') {
+            $dTitle = $dAsset . ' Depreciation Rate as per Income Tax: ' . $dRate;
+            if (mb_strlen($dTitle) > 60) {
+                $dTitle = $dAsset . ' Depreciation Rate: ' . $dRate;
+            }
+            $dDesc = 'Income tax depreciation rate on ' . $dAsset . ' is ' . $dRate
+                   . '. See the asset block it falls under and how the claim is worked out under WDV and SLM.';
+        }
+    @endphp
+    @if ($dTitle)
+        <title>{{ $dTitle }}</title>
+    @else
+        {!! $content->meta_title !!}
+    @endif
+    @if ($dDesc)
+        <meta name="description" content="{{ $dDesc }}">
+    @endif
     {!! $content->canonical !!}
 
     {{-- Preload above-the-fold banner art so it paints early (only the matching one downloads).

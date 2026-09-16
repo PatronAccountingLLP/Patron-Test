@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>IT & Software Payroll in Gurugram - CTC, ESOP & TDS</title>
-    <meta name="description" content="CA-led IT payroll in Gurugram. CTC structuring, ESOPs, variable pay, flexi benefits, PF optimization, multi-state. Cyber City, Golf Course Road. Call +91 945 945 6700.">
+    <meta name="description" content="CA-led IT payroll in Gurugram. CTC structuring, ESOPs, variable pay, flexi benefits, PF optimization, multi-state. Cyber City, Golf Course Road.">
     <link rel="canonical" href="/payroll-services-for-it-and-software-industry/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="IT & Software Payroll in Gurugram - CTC, ESOP & TDS">

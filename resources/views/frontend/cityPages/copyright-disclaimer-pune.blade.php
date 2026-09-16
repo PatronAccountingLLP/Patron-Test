@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Copyright Disclaimer in Pune - Draft, Format & Template</title>
-    <meta name="description" content="CA-assisted copyright disclaimer drafting in Pune. Website notices, fair dealing compliance, content protection - all handled. Serving Hinjewadi, Kharadi, Baner. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted copyright disclaimer drafting in Pune. Website notices, fair dealing compliance, content protection - all handled.">
     <link rel="canonical" href="/copyright-disclaimer/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Copyright Disclaimer in Pune - Draft, Format & Template">

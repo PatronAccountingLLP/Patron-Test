@@ -46,7 +46,7 @@
 
 @section('meta')
     <title>NGO Registration Gurugram – Trust, Society &amp; Section 8</title>
-    <meta name="description" content="CA-assisted NGO registration in Gurugram. Trust, society, Section 8 with 12A and 80G. Serving Cyber City, Udyog Vihar, Manesar businesses. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted NGO registration in Gurugram. Trust, society, Section 8 with 12A and 80G. Serving Cyber City, Udyog Vihar, Manesar businesses.">
     <link rel="canonical" href="/ngo-registration/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="NGO Registration Gurugram – Trust, Society &amp; Section 8">

@@ -46,7 +46,7 @@
 
 @section('meta')
     <title>Professional Tax Return in Pune – Filing, Slabs &amp; Rates</title>
-    <meta name="description" content="CA-assisted professional tax return filing in Pune. PTRC monthly and annual returns on mahagst.gov.in. Updated Feb 2026 due dates. Serving Hinjewadi, Kharadi, MIDC. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted professional tax return filing in Pune. PTRC monthly and annual returns on mahagst.gov.in. Updated Feb due dates.">
     <link rel="canonical" href="/pt-returns/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Professional Tax Return in Pune – Filing, Slabs &amp; Rates">

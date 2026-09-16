@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>FSSAI License Renewal in Mumbai - Process & Expiry</title>
-    <meta name="description" content="FSSAI renewal in Mumbai. Periodic renewal abolished - perpetual validity from 10 March 2026. Annual fee, compliance return by 31 May, suspension rules. Transition guidance. CA-led. Call +91 945 945 6700.">
+    <meta name="description" content="FSSAI renewal in Mumbai. Periodic renewal abolished - perpetual validity from 10 March. Annual fee, compliance return by 31 May, suspension rules.">
     <link rel="canonical" href="/fssai-renewal/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="FSSAI License Renewal in Mumbai - Process & Expiry">

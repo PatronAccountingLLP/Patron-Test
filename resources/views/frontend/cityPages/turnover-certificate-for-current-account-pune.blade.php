@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Turnover Certificate - Current Account Pune, CA Format</title>
-    <meta name="description" content="CA certified turnover certificate for current account opening in Pune. Proprietorship, partnership, company. GST alternative for sub-threshold. UDIN. SBI, HDFC, ICICI. Same-day. Call +91 945 945 6700.">
+    <meta name="description" content="CA certified turnover certificate for current account opening in Pune. Proprietorship, partnership, company. GST alternative for sub-threshold. UDIN.">
     <link rel="canonical" href="/turnover-certificate-for-current-account/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Turnover Certificate - Current Account Pune, CA Format">

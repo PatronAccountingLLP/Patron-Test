@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Proprietorship Registration in Delhi - GST, MSME & Docs</title>
-    <meta name="description" content="CA-assisted Proprietorship Registration in Delhi. GST, Udyam, Shop Act from Rs 1,999. Serving Karol Bagh, Connaught Place, Nehru Place businesses. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted Proprietorship Registration in Delhi. GST, Udyam, Shop Act from Rs 1,999. Serving Karol Bagh, Connaught Place, Nehru Place businesses.">
     <link rel="canonical" href="/proprietorship-registration/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Proprietorship Registration in Delhi - GST, MSME & Docs">

@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>MSDS Certificate in Mumbai - Material Safety Data Sheet</title>
-    <meta name="description" content="MSDS/SDS certificate services in Mumbai. GHS-compliant material safety data sheets for chemical export via JNPT. Serving Andheri MIDC, Thane-Belapur, SEEPZ. Call +91 945 945 6700.">
+    <meta name="description" content="MSDS/SDS certificate services in Mumbai. GHS-compliant material safety data sheets for chemical export via JNPT. Serving Andheri MIDC, Thane-Belapur, SEEPZ.">
     <link rel="canonical" href="/msds-certificate-services/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="MSDS Certificate in Mumbai - Material Safety Data Sheet">

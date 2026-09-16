@@ -2,7 +2,7 @@
 
 @section('meta')
     <title>Education GSTAT Appeal - GST Exemption | Patron</title>
-    <meta name="description" content="GSTAT appeal for educational institutions facing GST exemption boundary disputes, coaching classification, and affiliation fee taxation. 10% pre-deposit. 3-month deadline. CA and CS Team, Patron Accounting LLP.">
+    <meta name="description" content="GSTAT appeal for educational institutions facing GST exemption boundary disputes, coaching classification, and affiliation fee taxation. 10% pre-deposit.">
     <link rel="canonical" href="/gstat-appeal-education">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Education GSTAT Appeal - GST Exemption | Patron">

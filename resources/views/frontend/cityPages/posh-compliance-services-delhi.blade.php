@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>POSH Compliance Delhi NCR – ICC Formation &amp; Training</title>
-    <meta name="description" content="CA-assisted POSH compliance in Delhi. ICC formation, training, annual report filing. Serving Connaught Place, Nehru Place, Aerocity employers. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted POSH compliance in Delhi. ICC formation, training, annual report filing. Serving Connaught Place, Nehru Place, Aerocity employers.">
     <link rel="canonical" href="/posh-compliance-services/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="POSH Compliance Delhi NCR – ICC Formation &amp; Training">

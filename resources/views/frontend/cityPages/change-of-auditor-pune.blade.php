@@ -46,7 +46,7 @@
 
 @section('meta')
     <title>Change of Auditor in Pune – ADT-1, ADT-3 &amp; Rotation</title>
-    <meta name="description" content="CA/CS-assisted change of auditor in Pune. Resignation ADT-3, removal ADT-2, rotation, casual vacancy. New auditor ADT-1. ROC Pune filing. Serving Hinjewadi, Kharadi companies. Call +91 945 945 6700.">
+    <meta name="description" content="CA/CS-assisted change of auditor in Pune. Resignation ADT-3, removal ADT-2, rotation, casual vacancy. New auditor ADT-1. ROC Pune filing.">
     <link rel="canonical" href="/change-of-auditor/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Change of Auditor in Pune – ADT-1, ADT-3 &amp; Rotation">

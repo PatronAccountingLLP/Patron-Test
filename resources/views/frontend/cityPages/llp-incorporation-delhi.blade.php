@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>LLP Registration Online in Delhi - Process, Fees & Documents</title>
-    <meta name="description" content="CA-assisted LLP registration in Delhi. DPIN, name approval, FiLLiP filing and LLP agreement. Serving Connaught Place, Nehru Place, Okhla businesses. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted LLP registration in Delhi. DPIN, name approval, FiLLiP filing and LLP agreement. Serving Connaught Place, Nehru Place, Okhla businesses.">
     <link rel="canonical" href="/llp-incorporation/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="LLP Registration Online in Delhi - Process, Fees & Documents">

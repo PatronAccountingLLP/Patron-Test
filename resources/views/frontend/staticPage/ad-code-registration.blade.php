@@ -17,7 +17,7 @@
 
 @section('meta')
     <title>AD Code Registration - Process for Customs & Export India</title>
-    <meta name="description" content="Register your AD Code (Authorised Dealer Code) for customs clearance. 14-digit code from RBI-authorised bank. One-time process, lifetime validity. ICEGATE portal registration.">
+    <meta name="description" content="Register your AD Code (Authorised Dealer Code) for customs clearance. 14-digit code from RBI-authorised bank. One-time process, lifetime validity.">
     <link rel="canonical" href="/ad-code-registration">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="AD Code Registration - Process for Customs & Export India">

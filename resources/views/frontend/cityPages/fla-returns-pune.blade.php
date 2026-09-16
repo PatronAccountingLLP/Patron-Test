@@ -46,7 +46,7 @@
 
 @section('meta')
     <title>FLA Return Filing with RBI in Pune – July 15 Deadline</title>
-    <meta name="description" content="CA-assisted FLA return filing in Pune. Annual RBI compliance for FDI/ODI companies under FEMA. Serving Hinjewadi, Kharadi, Chakan MIDC businesses. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted FLA return filing in Pune. Annual RBI compliance for FDI/ODI companies under FEMA. Serving Hinjewadi, Kharadi, Chakan MIDC businesses.">
     <link rel="canonical" href="/fla-returns/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="FLA Return Filing with RBI in Pune – July 15 Deadline">

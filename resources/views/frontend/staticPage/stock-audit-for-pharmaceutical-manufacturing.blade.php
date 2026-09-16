@@ -1,7 +1,7 @@
 @extends('layouts.service-app')
 
 @section('meta')
-<title>Stock Audit for Pharma Manufacturers: Batch and Expiry | Patron Accounting</title>
+<title>Stock Audit for Pharma Manufacturers: Batch and Expiry</title>
     <meta name="description" content="A pharma stock audit covers API, intermediates and finished goods. Batches are traced, quarantine stock is segregated and expiry provisioning is evidenced.">
     <link rel="canonical" href="https://www.patronaccounting.com/stock-audit-for-pharmaceutical-manufacturing">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

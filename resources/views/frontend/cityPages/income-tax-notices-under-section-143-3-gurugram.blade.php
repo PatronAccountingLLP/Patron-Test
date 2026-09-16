@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>IT Notice u/s 143(3) Gurugram - Scrutiny Assessment</title>
-    <meta name="description" content="CA-assisted Section 143(3) scrutiny assessment response in Gurugram. Additions, disallowances, show cause, CIT(A) appeal, penalty defence, stay of demand. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted Section 143(3) scrutiny assessment response in Gurugram. Additions, disallowances, show cause, CIT(A) appeal, penalty defence, stay of demand.">
     <link rel="canonical" href="/income-tax-notices-under-section-143-3/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="IT Notice u/s 143(3) Gurugram - Scrutiny Assessment">

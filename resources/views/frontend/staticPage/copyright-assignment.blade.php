@@ -18,7 +18,7 @@
 
 @section('meta')
     <title>Copyright Assignment in India - Process, Deed & Documents</title>
-    <meta name="description" content="Transfer copyright ownership under Sections 18 and 19 of the Copyright Act, 1957. Complete, partial, and territorial assignment. Expert agreement drafting by CA/CS team.">
+    <meta name="description" content="Transfer copyright ownership under Sections 18 and 19 of the Copyright Act, 1957. Complete, partial, and territorial assignment.">
     <link rel="canonical" href="/copyright-assignment">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Copyright Assignment in India - Process, Deed & Documents">

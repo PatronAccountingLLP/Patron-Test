@@ -15,7 +15,7 @@
 
 
 @section('meta')
-    <title>Professional Firm Registration in India 2026 | Patron Accounting</title>
+    <title>Professional Firm Registration in India</title>
     <meta name="description" content="Register a professional firm in India: LLP, partnership or proprietorship for CAs, lawyers, doctors and architects, with regulator compliance. From INR 9,999.">
     <link rel="canonical" href="/professional-firm-registration">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

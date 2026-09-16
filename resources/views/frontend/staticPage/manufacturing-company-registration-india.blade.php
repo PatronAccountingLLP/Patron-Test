@@ -15,7 +15,7 @@
 
 
 @section('meta')
-    <title>Manufacturing Company Registration in India 2026 | Patron Accounting</title>
+    <title>Manufacturing Company Registration in India</title>
     <meta name="description" content="Register your manufacturing company in India: Pvt Ltd plus factory licence, pollution consent, Udyam and IEC. The full factory bundle. From INR 14,999.">
     <link rel="canonical" href="/manufacturing-company-registration-india">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

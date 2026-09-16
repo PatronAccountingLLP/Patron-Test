@@ -15,7 +15,7 @@
 
 
 @section('meta')
-    <title>US Parent ESOP for Indian Employees 2026: Tax | Patron Accounting</title>
+    <title>US Parent ESOP for Indian Employees: Tax</title>
     <meta name="description" content="US-parent RSU and ESOP for Indian employees: perquisite tax, 409A and Rule 11UA, DTAA credit, Schedule FA and sale tax, handled end to end. From Rs 74,999.">
     <link rel="canonical" href="/esop-for-us-parent-indian-employees">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

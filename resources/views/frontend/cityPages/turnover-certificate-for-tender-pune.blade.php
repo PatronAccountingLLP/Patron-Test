@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Turnover Certificate for Tender in Pune - GeM & CA Format</title>
-    <meta name="description" content="CA-certified turnover certificate for tender in Pune with UDIN. PMC, PCMC, PWD, GEM, Railways, MES formats. Average annual, similar works turnover. NIT-compliant. Serving Pune contractors. Call +91 945 945 6700.">
+    <meta name="description" content="CA-certified turnover certificate for tender in Pune with UDIN. PMC, PCMC, PWD, GEM, Railways, MES formats. Average annual, similar works turnover.">
     <link rel="canonical" href="/turnover-certificate-for-tender/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Turnover Certificate for Tender in Pune - GeM & CA Format">

@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Professional Tax Return in Delhi – Filing, Slabs &amp; Rates</title>
-    <meta name="description" content="Professional tax returns for Delhi employers. Delhi does not levy PT. Multi-state PT compliance for Delhi-HQ companies. State-wise filing. Call +91 945 945 6700.">
+    <meta name="description" content="Professional tax returns for Delhi employers. Delhi does not levy PT. Multi-state PT compliance for Delhi-HQ companies. State-wise filing.">
     <link rel="canonical" href="/pt-returns/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Professional Tax Return in Delhi – Filing, Slabs &amp; Rates">

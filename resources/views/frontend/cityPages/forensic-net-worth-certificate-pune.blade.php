@@ -628,7 +628,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 
 @section('meta')
-    <title>Forensic Net Worth Certificate by CA 2026 | Patron Accounting</title>
+    <title>Forensic Net Worth Certificate by CA</title>
     <meta name="description" content="CA forensic net worth certificate in Pune for divorce, inheritance, and asset disputes. Court-ready, investigated, UDIN-verified. From INR 2,499.">
     <link rel="canonical" href="/forensic-net-worth-certificate/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

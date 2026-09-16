@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>IT Notice u/s 147 Delhi NCR – Reassessment &amp; Reply</title>
-    <meta name="description" content="CA-assisted defence against income tax reassessment under Section 147/148 in Delhi. Challenge reopening notices with Delhi HC precedents. Serving Connaught Place, Nehru Place, Okhla taxpayers. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted defence against income tax reassessment under Section 147/148 in Delhi. Challenge reopening notices with Delhi HC precedents.">
     <link rel="canonical" href="/income-tax-notices-under-section-147/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="IT Notice u/s 147 Delhi NCR – Reassessment &amp; Reply">

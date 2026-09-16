@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>School & College Accounting in Mumbai - Fees, GST & TDS</title>
-    <meta name="description" content="CA-led education payroll in Mumbai. Teacher salary, UGC/AICTE scales, PF/ESI, trust compliance, visiting faculty, academic calendar for Andheri, Bandra, Powai schools. Call +91 945 945 6700.">
+    <meta name="description" content="CA-led education payroll in Mumbai. Teacher salary, UGC/AICTE scales, PF/ESI, trust compliance, visiting faculty, academic calendar for Andheri, Bandra.">
     <link rel="canonical" href="/payroll-processing-services-for-education-industry/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="School & College Accounting in Mumbai - Fees, GST & TDS">

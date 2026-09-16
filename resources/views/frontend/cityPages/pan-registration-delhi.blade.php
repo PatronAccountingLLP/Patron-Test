@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>PAN Card Registration in Delhi - Form 49A & Process</title>
-    <meta name="description" content="CA-assisted PAN registration in Delhi. Individual and business PAN via Form 49A, instant ePAN. Serving Rohini, CP, Nehru Place businesses. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted PAN registration in Delhi. Individual and business PAN via Form 49A, instant ePAN. Serving Rohini, CP, Nehru Place businesses.">
     <link rel="canonical" href="/pan-registration/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="PAN Card Registration in Delhi - Form 49A & Process">

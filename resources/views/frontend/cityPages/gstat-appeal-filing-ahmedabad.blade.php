@@ -2,7 +2,7 @@
 
 @section('meta')
     <title>GSTAT Appeal Filing in Ahmedabad 2026 | Patron Accounting</title>
-    <meta name="description" content="File your GSTAT appeal at the Ahmedabad bench covering 12 Gujarat districts including Ahmedabad, Gandhinagar, Mehsana, and Patan. Patron's CA team handles proceedings end-to-end.">
+    <meta name="description" content="File your GSTAT appeal at the Ahmedabad bench covering 12 Gujarat districts including Ahmedabad, Gandhinagar, Mehsana, and Patan.">
     <link rel="canonical" href="/gstat-appeal-filing/ahmedabad">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="GSTAT Appeal Filing in Ahmedabad 2026 | Patron Accounting">

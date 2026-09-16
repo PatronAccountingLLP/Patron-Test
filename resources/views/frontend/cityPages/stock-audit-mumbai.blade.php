@@ -1,7 +1,7 @@
 @extends('layouts.service-app')
 
 @section('meta')
-<title>Stock Audit in Mumbai: Bhiwandi and Thane Warehouses | Patron Accounting</title>
+<title>Stock Audit in Mumbai: Bhiwandi and Thane Warehouses</title>
     <meta name="description" content="Stock audit in Mumbai for bank borrowers and 3PL operators. A CA team counts warehouse and godown stock across Bhiwandi, Navi Mumbai and Thane.">
     <link rel="canonical" href="https://www.patronaccounting.com/stock-audit/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

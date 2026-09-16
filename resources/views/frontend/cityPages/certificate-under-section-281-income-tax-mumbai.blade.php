@@ -630,7 +630,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 
 @section('meta')
-    <title>Certificate under Section 281 Income Tax in Mumbai 2026 | Patron Accounting</title>
+    <title>Certificate under Section 281 Income Tax in Mumbai</title>
     <meta name="description" content="Get a Section 281 Income Tax NOC from the Assessing Officer before transferring property or shares. We file Form 34A and handle the process. From INR 4,999.">
     <link rel="canonical" href="/certificate-under-section-281-income-tax/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

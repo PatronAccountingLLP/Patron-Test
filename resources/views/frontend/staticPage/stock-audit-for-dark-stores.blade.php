@@ -1,7 +1,7 @@
 @extends('layouts.service-app')
 
 @section('meta')
-<title>Stock Audit for Dark Stores: Micro-Fulfilment Counts | Patron Accounting</title>
+<title>Stock Audit for Dark Stores: Micro-Fulfilment Counts</title>
     <meta name="description" content="Dark stores and micro-fulfilment centres are audited without pausing fulfilment. Cycle counts measure pick accuracy, damages, returns and genuine shrinkage.">
     <link rel="canonical" href="https://www.patronaccounting.com/stock-audit-for-dark-stores">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

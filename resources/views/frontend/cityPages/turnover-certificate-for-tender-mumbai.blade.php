@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Turnover Certificate for Tender Mumbai - GeM Format</title>
-    <meta name="description" content="CA-certified turnover certificate for government tenders in Mumbai with UDIN. MCGM, MMRDA, PWD, GEM portal formats. Prescribed annexure compliance. Call +91 945 945 6700.">
+    <meta name="description" content="CA-certified turnover certificate for government tenders in Mumbai with UDIN. MCGM, MMRDA, PWD, GEM portal formats. Prescribed annexure compliance.">
     <link rel="canonical" href="/turnover-certificate-for-tender/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Turnover Certificate for Tender Mumbai - GeM Format">

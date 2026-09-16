@@ -1,7 +1,7 @@
 @extends('layouts.service-app')
 
 @section('meta')
-<title>Stock Audit in Bangalore: Peenya and Bommasandra Units | Patron Accounting</title>
+<title>Stock Audit in Bangalore: Peenya and Bommasandra Units</title>
     <meta name="description" content="Stock audit in Bangalore for engineering, machine tool and electronics units. A CA team counts stock at Peenya, Bommasandra and Nelamangala.">
     <link rel="canonical" href="https://www.patronaccounting.com/stock-audit/bangalore">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

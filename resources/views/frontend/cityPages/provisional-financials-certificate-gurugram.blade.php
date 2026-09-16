@@ -628,7 +628,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 
 @section('meta')
-    <title>Provisional Financials Certificate in Gurugram 2026 | Patron Accounting</title>
+    <title>Provisional Financials Certificate in Gurugram</title>
     <meta name="description" content="Provisional Financials Certificate by a CA with UDIN. Unaudited balance sheet and P and L for bank loans, tenders, and board meetings. From INR 4,999.">
     <link rel="canonical" href="/provisional-financials-certificate/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

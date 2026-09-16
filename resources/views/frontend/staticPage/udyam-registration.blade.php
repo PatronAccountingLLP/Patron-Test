@@ -18,7 +18,7 @@
 
 @section('meta')
     <title>Udyam Registration Online - Process, Certificate & Benefits</title>
-    <meta name="description" content="Register your MSME on Udyam portal - free, paperless, Aadhaar-based. Revised limits effective 1 Apr 2025: Micro Rs 2.5Cr/10Cr, Small Rs 25Cr/100Cr, Medium Rs 125Cr/500Cr. Lifetime validity.">
+    <meta name="description" content="Register your MSME on Udyam portal - free, paperless, Aadhaar-based. Revised limits effective 1 Apr: Micro Rs 2.5Cr/10Cr, Small Rs 25Cr/100Cr.">
     <link rel="canonical" href="/udyam-registration">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Udyam Registration Online - Process, Certificate & Benefits">

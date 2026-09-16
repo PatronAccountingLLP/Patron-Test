@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>ITR for Crypto Income Gurugram - 115BBH, 30% & VDA</title>
-    <meta name="description" content="CA-assisted crypto ITR filing in Gurugram. 30% VDA tax, 1% TDS, Schedule VDA, multi-exchange reconciliation. Serving Cyber City, Golf Course Road crypto traders. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted crypto ITR filing in Gurugram. 30% VDA tax, 1% TDS, Schedule VDA, multi-exchange reconciliation.">
     <link rel="canonical" href="/itr-for-crypto-traders/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="ITR for Crypto Income Gurugram - 115BBH, 30% & VDA">

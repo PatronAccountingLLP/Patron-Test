@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Secretarial Audit Mumbai – MR-3, Section 204 &amp; Report</title>
-    <meta name="description" content="CA-assisted secretarial audit in Mumbai. Section 204 compliance and MR-3 report for listed and public companies. Serving BKC, Andheri MIDC, SEEPZ businesses. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted secretarial audit in Mumbai. Section 204 compliance and MR-3 report for listed and public companies. Serving BKC, Andheri MIDC, SEEPZ businesses.">
     <link rel="canonical" href="/secretarial-audit/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Secretarial Audit Mumbai – MR-3, Section 204 &amp; Report">

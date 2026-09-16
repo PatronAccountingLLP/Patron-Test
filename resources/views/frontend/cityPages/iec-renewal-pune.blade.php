@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>IEC Code Renewal in Pune - DGFT Process, Fees & Deadline</title>
-    <meta name="description" content="CA-assisted IEC renewal and annual updation in Pune on DGFT portal. April-June deadline compliance, IEC reactivation, modification. Serving Pune exporters. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted IEC renewal and annual updation in Pune on DGFT portal. April-June deadline compliance, IEC reactivation, modification. Serving Pune exporters.">
     <link rel="canonical" href="/iec-renewal/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="IEC Code Renewal in Pune - DGFT Process, Fees & Deadline">

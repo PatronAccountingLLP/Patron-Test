@@ -629,7 +629,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 
 @section('meta')
-    <title>Reduction of Share Capital Section 66 in 2026 | Patron Accounting</title>
+    <title>Reduction of Share Capital Section 66 in</title>
     <meta name="description" content="Reduce share capital under Section 66 with a special resolution, NCLT confirmation, creditor process and RSC forms. Expert CA help. From INR 99,999.">
     <link rel="canonical" href="/reduction-of-share-capital-section-66">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

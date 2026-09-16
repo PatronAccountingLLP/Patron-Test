@@ -15,7 +15,7 @@
 
 
 @section('meta')
-    <title>Singapore Parent ESOP for Indian Employees 2026 | Patron Accounting</title>
+    <title>Singapore Parent ESOP for Indian Employees</title>
     <meta name="description" content="Singapore-parent RSU and ESOP for Indian employees: India perquisite tax, IRAS and DTAA coordination, Schedule FA and sale tax. From Rs 74,999.">
     <link rel="canonical" href="/esop-for-singapore-parent-indian-employees">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

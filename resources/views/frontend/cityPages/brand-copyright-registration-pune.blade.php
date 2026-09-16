@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Brand Copyright Registration in Pune - Form XIV & Fees</title>
-    <meta name="description" content="CA-assisted brand copyright registration in Pune. Logo, software, content, music - all protected. Serving Hinjewadi, Kharadi, Baner creators. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted brand copyright registration in Pune. Logo, software, content, music - all protected. Serving Hinjewadi, Kharadi, Baner creators.">
     <link rel="canonical" href="/brand-copyright-registration/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Brand Copyright Registration in Pune - Form XIV & Fees">

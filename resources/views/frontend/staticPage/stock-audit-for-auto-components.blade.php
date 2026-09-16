@@ -1,7 +1,7 @@
 @extends('layouts.service-app')
 
 @section('meta')
-<title>Stock Audit for Auto Component Makers: WIP and Job Work | Patron Accounting</title>
+<title>Stock Audit for Auto Component Makers: WIP and Job Work</title>
     <meta name="description" content="Auto component plants are audited from goods inward to despatch. Raw material, sub-assemblies and part-machined WIP are counted, costed and traced.">
     <link rel="canonical" href="https://www.patronaccounting.com/stock-audit-for-auto-components">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

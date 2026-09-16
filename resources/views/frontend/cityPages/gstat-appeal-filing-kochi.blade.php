@@ -2,7 +2,7 @@
 
 @section('meta')
     <title>GSTAT Appeal Filing in Kochi 2026 | Patron Accounting</title>
-    <meta name="description" content="File your GSTAT appeal at the Kochi bench covering all Kerala districts, Lakshadweep, and Thiruvananthapuram circuit. Patron's CA team and of-counsel litigation specialists handle proceedings.">
+    <meta name="description" content="File your GSTAT appeal at the Kochi bench covering all Kerala districts, Lakshadweep, and Thiruvananthapuram circuit.">
     <link rel="canonical" href="/gstat-appeal-filing/kochi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="GSTAT Appeal Filing in Kochi 2026 | Patron Accounting">

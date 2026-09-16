@@ -1,7 +1,7 @@
 @extends('layouts.service-app')
 
 @section('meta')
-<title>Fixed Asset Verification: Physical Count and FAR Match | Patron Accounting</title>
+<title>Fixed Asset Verification: Physical Count and FAR Match</title>
     <meta name="description" content="CA-led fixed asset verification sights every asset on site. Each one is matched to the fixed asset register, ghost assets are found and CARO findings supported.">
     <link rel="canonical" href="https://www.patronaccounting.com/fixed-asset-verification">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

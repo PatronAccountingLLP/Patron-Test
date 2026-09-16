@@ -1,7 +1,7 @@
 @extends('layouts.service-app')
 
 @section('meta')
-<title>Stock Audit in Chennai: Sriperumbudur and Ambattur | Patron Accounting</title>
+<title>Stock Audit in Chennai: Sriperumbudur and Ambattur</title>
     <meta name="description" content="CA-led stock audit in Chennai reaches the auto and electronics corridor. A CA team counts plant stock at Sriperumbudur, Oragadam and Ambattur.">
     <link rel="canonical" href="https://www.patronaccounting.com/stock-audit/chennai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

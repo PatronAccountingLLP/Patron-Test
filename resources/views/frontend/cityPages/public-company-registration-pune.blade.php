@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Public Limited Company Registration in Pune - Fees & ROC</title>
-    <meta name="description" content="CA-assisted public limited company registration in Pune. 7 members, 3 directors, company secretary, statutory audit - all handled. Serving Hinjewadi, Kharadi, PCMC. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted public limited company registration in Pune. 7 members, 3 directors, company secretary, statutory audit - all handled.">
     <link rel="canonical" href="/public-company-registration/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Public Limited Company Registration in Pune - Fees & ROC">

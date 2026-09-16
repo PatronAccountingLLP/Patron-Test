@@ -17,7 +17,7 @@
 
 
 @section('meta')
-    <title>Corporate Compliance for Real Estate, 2026 | Patron Accounting</title>
+    <title>Corporate Compliance for Real Estate</title>
     <meta name="description" content="Compliance for a construction and real estate company, the RERA overlay, quarterly reports and project accounts, on the ROC stack. From INR 14,999 a year.">
     <link rel="canonical" href="/corporate-compliance-for-construction-and-real-estate">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

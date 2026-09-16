@@ -46,7 +46,7 @@
 
 @section('meta')
     <title>Internal Audit Gurugram - Scope, IFC & Reporting</title>
-    <meta name="description" content="CA-led internal audit in Gurugram. Section 138 compliance. Risk-based approach, process improvement. Serving Cyber City, Manesar, Udyog Vihar companies. Call +91 945 945 6700.">
+    <meta name="description" content="CA-led internal audit in Gurugram. Section 138 compliance. Risk-based approach, process improvement. Serving Cyber City, Manesar, Udyog Vihar companies.">
     <link rel="canonical" href="/internal-audit/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Internal Audit Gurugram - Scope, IFC & Reporting">

@@ -17,7 +17,7 @@
 
 @section('meta')
     <title>FSSAI State License - Eligibility, Documents & Fees India</title>
-    <meta name="description" content="FSSAI state license for turnover Rs 12 lakh to Rs 20 crore. Fee Rs 2,000-5,000/year. Form B on FoSCoS portal. Restaurants, manufacturers, retailers. Expert CA and CS team.">
+    <meta name="description" content="FSSAI state license for turnover Rs 12 lakh to Rs 20 crore. Fee Rs 2,000-5,000/year. Form B on FoSCoS portal. Restaurants, manufacturers, retailers.">
     <link rel="canonical" href="/fssai-state-license">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="FSSAI State License - Eligibility, Documents & Fees India">

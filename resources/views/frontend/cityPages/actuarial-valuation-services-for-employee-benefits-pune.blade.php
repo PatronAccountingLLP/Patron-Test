@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Actuarial Valuation in Pune - AS 15 & Ind AS 19 Reports</title>
-    <meta name="description" content="CA-assisted payroll services for actuarial valuation in Pune. Gratuity, leave and pension valuations under AS 15 and Ind AS 19. Serving Hinjewadi, Kharadi, Chakan businesses. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted payroll services for actuarial valuation in Pune. Gratuity, leave and pension valuations under AS 15 and Ind AS 19.">
     <link rel="canonical" href="/actuarial-valuation-services-for-employee-benefits/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Actuarial Valuation in Pune - AS 15 & Ind AS 19 Reports">

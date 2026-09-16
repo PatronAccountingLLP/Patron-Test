@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Resignation of Director Gurugram - DIR-11 & DIR-12</title>
-    <meta name="description" content="CA/CS-assisted director resignation in Gurugram. Section 168, DIR-11, DIR-12, effective date, co-founder exit, foreign director. Serving Cyber City, Golf Course Road. Call +91 945 945 6700.">
+    <meta name="description" content="CA/CS-assisted director resignation in Gurugram. Section 168, DIR-11, DIR-12, effective date, co-founder exit, foreign director.">
     <link rel="canonical" href="/resignation-of-director/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Resignation of Director Gurugram - DIR-11 & DIR-12">

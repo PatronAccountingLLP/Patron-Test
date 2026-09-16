@@ -18,7 +18,7 @@
 
 @section('meta')
     <title>POSH Compliance Services - ICC Formation, Policy & Training</title>
-    <meta name="description" content="Full POSH Act compliance - IC constitution, POSH policy drafting, employee training, annual reporting, Board Report disclosures. Penalty up to Rs 50,000 + licence cancellation.">
+    <meta name="description" content="Full POSH Act compliance - IC constitution, POSH policy drafting, employee training, annual reporting, Board Report disclosures.">
     <link rel="canonical" href="/posh-compliance-services">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="POSH Compliance Services - ICC Formation, Policy & Training">

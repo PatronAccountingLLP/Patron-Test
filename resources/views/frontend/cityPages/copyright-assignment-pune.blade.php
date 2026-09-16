@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Copyright Assignment in Pune - Deed & Stamp Duty</title>
-    <meta name="description" content="CA-assisted copyright assignment in Pune. Deed drafting per Section 19, recordal with Copyright Office, royalty structuring, moral rights, stamp duty. IT software to film rights. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted copyright assignment in Pune. Deed drafting per Section 19, recordal with Copyright Office, royalty structuring, moral rights, stamp duty.">
     <link rel="canonical" href="/copyright-assignment/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Copyright Assignment in Pune - Deed & Stamp Duty">

@@ -46,7 +46,7 @@
 
 @section('meta')
     <title>GST Returns for Freelancers in Pune – ₹20L Threshold</title>
-    <meta name="description" content="CA-assisted GST return filing for freelancers in Pune. GSTR-1, GSTR-3B, ITC claims and LUT for export services. Serving Hinjewadi, Kharadi, Baner. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted GST return filing for freelancers in Pune. GSTR-1, GSTR-3B, ITC claims and LUT for export services. Serving Hinjewadi, Kharadi, Baner.">
     <link rel="canonical" href="/gst-returns-for-freelancers/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="GST Returns for Freelancers in Pune – ₹20L Threshold">

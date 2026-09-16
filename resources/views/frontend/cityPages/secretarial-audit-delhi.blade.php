@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Secretarial Audit Delhi NCR – MR-3 &amp; Section 204</title>
-    <meta name="description" content="PCS-conducted secretarial audit under Section 204 in Delhi. Form MR-3 for listed companies, PSUs, large public companies. RoC Delhi filing. Call +91 945 945 6700.">
+    <meta name="description" content="PCS-conducted secretarial audit under Section 204 in Delhi. Form MR-3 for listed companies, PSUs, large public companies. RoC Delhi filing.">
     <link rel="canonical" href="/secretarial-audit/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Secretarial Audit Delhi NCR – MR-3 &amp; Section 204">

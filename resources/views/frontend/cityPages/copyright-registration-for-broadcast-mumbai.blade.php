@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Copyright for Broadcast in Mumbai - TV, Radio & OTT</title>
-    <meta name="description" content="Copyright for broadcast in Mumbai. S.37 broadcast reproduction right, 25-year protection, signal piracy enforcement, S.31D statutory licence, content licensing. CA-led. Call +91 945 945 6700.">
+    <meta name="description" content="Copyright for broadcast in Mumbai. S.37 broadcast reproduction right, 25-year protection, signal piracy enforcement, S.31D statutory licence.">
     <link rel="canonical" href="/copyright-registration-for-broadcast/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Copyright for Broadcast in Mumbai - TV, Radio & OTT">

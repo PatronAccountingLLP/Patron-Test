@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Income Tax Demand u/s 156 Gurugram - Reply & Payment</title>
-    <meta name="description" content="CA-assisted income tax demand resolution in Gurugram. Section 156 response, rectification, appeal, TDS mismatch, outstanding demand, ROC Haryana. Serving Cyber City, Golf Course Road. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted income tax demand resolution in Gurugram. Section 156 response, rectification, appeal, TDS mismatch, outstanding demand, ROC Haryana.">
     <link rel="canonical" href="/income-tax-demand-under-section-156/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Income Tax Demand u/s 156 Gurugram - Reply & Payment">

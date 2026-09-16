@@ -46,7 +46,7 @@
 
 @section('meta')
     <title>LLP Partner Change in Pune – Form 3, Form 4 &amp; Filing</title>
-    <meta name="description" content="CA/CS-assisted LLP partner change in Pune. Add, remove, redesignate partners. Form 3, Form 4, DPIN, supplementary agreement, Maharashtra stamp duty. Serving Hinjewadi, Kharadi LLPs. Call +91 945 945 6700.">
+    <meta name="description" content="CA/CS-assisted LLP partner change in Pune. Add, remove, redesignate partners. Form 3, Form 4, DPIN, supplementary agreement, Maharashtra stamp duty.">
     <link rel="canonical" href="/llp-partner-change/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="LLP Partner Change in Pune – Form 3, Form 4 &amp; Filing">

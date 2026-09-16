@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Issue of Shares in Pune - PAS-3, Private Placement & ROC</title>
-    <meta name="description" content="CA and CS assisted issue of shares for Pune companies. Rights issue, private placement, preferential allotment, bonus, ESOP. PAS-3, valuation, ROC filing. Startup funding rounds. Call +91 945 945 6700.">
+    <meta name="description" content="CA and CS assisted issue of shares for Pune companies. Rights issue, private placement, preferential allotment, bonus, ESOP. PAS-3, valuation, ROC filing.">
     <link rel="canonical" href="/issue-of-shares/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Issue of Shares in Pune - PAS-3, Private Placement & ROC">

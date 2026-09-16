@@ -630,7 +630,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 
 @section('meta')
-    <title>Professional Income Certificate in Mumbai 2026: CA Proof | Patron Accounting</title>
+    <title>Professional Income Certificate in Mumbai: CA Proof</title>
     <meta name="description" content="CA-certified professional income certificate for doctors, lawyers, consultants and architects. Practice income proof for visa and loans. From INR 1,999.">
     <link rel="canonical" href="/professional-income-certificate/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

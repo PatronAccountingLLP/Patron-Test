@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Trademark Assignment in Pune - TM-P, Deed & Stamp Duty</title>
-    <meta name="description" content="CA-assisted trademark assignment in Pune. Transfer ownership with/without goodwill, Form TM-P filing, assignment deed drafting. M&A, startup restructuring. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted trademark assignment in Pune. Transfer ownership with/without goodwill, Form TM-P filing, assignment deed drafting. M&amp;A, startup restructuring.">
     <link rel="canonical" href="/trademark-assignment/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Trademark Assignment in Pune - TM-P, Deed & Stamp Duty">

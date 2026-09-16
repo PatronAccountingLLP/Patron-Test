@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>FCRA Registration for NGOs in Delhi - MHA & Renewal</title>
-    <meta name="description" content="CA-assisted FCRA registration in Delhi for NGOs and trusts. MHA filing, SBI FCRA account setup, 12A/80G bundled. Serving Lodhi Road, CP NGOs. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted FCRA registration in Delhi for NGOs and trusts. MHA filing, SBI FCRA account setup, 12A/80G bundled. Serving Lodhi Road, CP NGOs.">
     <link rel="canonical" href="/fcra-registration/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="FCRA Registration for NGOs in Delhi - MHA & Renewal">

@@ -2,7 +2,7 @@
 
 @section('meta')
     <title>GSTAT Appeal Filing in Jaipur 2026 | Patron Accounting</title>
-    <meta name="description" content="File your GSTAT appeal at the Jaipur bench covering eastern and southern Rajasthan including Jaipur, Ajmer, Alwar, Udaipur, and Kota. Patron's CA team handles proceedings end-to-end.">
+    <meta name="description" content="File your GSTAT appeal at the Jaipur bench covering eastern and southern Rajasthan including Jaipur, Ajmer, Alwar, Udaipur, and Kota.">
     <link rel="canonical" href="/gstat-appeal-filing/jaipur">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="GSTAT Appeal Filing in Jaipur 2026 | Patron Accounting">

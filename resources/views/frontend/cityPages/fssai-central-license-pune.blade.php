@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>FSSAI Central License in Pune - Eligibility & Fees</title>
-    <meta name="description" content="CA-assisted FSSAI central license in Pune for food businesses above Rs 20 crore, importers, exporters, e-commerce. FoSCoS filing, annual returns. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted FSSAI central license in Pune for food businesses above Rs 20 crore, importers, exporters, e-commerce. FoSCoS filing, annual returns.">
     <link rel="canonical" href="/fssai-central-license/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="FSSAI Central License in Pune - Eligibility & Fees">

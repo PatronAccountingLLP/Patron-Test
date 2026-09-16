@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>FSSAI State License in Pune - Eligibility, Docs & Fees</title>
-    <meta name="description" content="Get FSSAI state licence in Pune. Restaurants, cloud kitchens, manufacturers, caterers. Rs 12L-20Cr turnover. Form B. FDA Maharashtra. CA-assisted. Call +91 945 945 6700.">
+    <meta name="description" content="Get FSSAI state licence in Pune. Restaurants, cloud kitchens, manufacturers, caterers. Rs 12L-20Cr turnover. Form B. FDA Maharashtra. CA-assisted.">
     <link rel="canonical" href="/fssai-state-license/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="FSSAI State License in Pune - Eligibility, Docs & Fees">

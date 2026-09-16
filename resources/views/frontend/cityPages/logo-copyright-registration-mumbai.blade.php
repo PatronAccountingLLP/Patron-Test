@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Logo Copyright Registration Mumbai - Form XIV & Fees</title>
-    <meta name="description" content="Logo copyright registration in Mumbai. Artistic work S.2(c), TM-C certificate, Form XIV, commissioned logo ownership S.17(b), copyright-design S.15 overlap, dual-layer IP. CA-led. Call +91 945 945 6700.">
+    <meta name="description" content="Logo copyright registration in Mumbai. Artistic work S.2(c), TM-C certificate, Form XIV, commissioned logo ownership S.17(b), copyright-design S.15 overlap.">
     <link rel="canonical" href="/logo-copyright-registration/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Logo Copyright Registration Mumbai - Form XIV & Fees">

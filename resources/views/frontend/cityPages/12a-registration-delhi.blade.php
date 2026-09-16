@@ -292,7 +292,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 @section('meta')
     <title>12A Registration in Delhi - Form 10A & Tax Exemption</title>
-    <meta name="description" content="CA-assisted 12A registration in Delhi for NGOs. Form 10A filing, tax exemption for trusts, societies and Section 8. Serving ITO, Civil Lines, Saket. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted 12A registration in Delhi for NGOs. Form 10A filing, tax exemption for trusts, societies and Section 8. Serving ITO, Civil Lines, Saket.">
     <link rel="canonical" href="/12a-registration/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="12A Registration in Delhi - Form 10A & Tax Exemption">

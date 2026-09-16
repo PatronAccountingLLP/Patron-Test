@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>POSH Compliance in Pune - ICC Formation, Policy & Training</title>
-    <meta name="description" content="CA-assisted POSH compliance in Pune. ICC formation, POSH policy, annual return to District Officer, Board Report disclosure. For IT, startups, manufacturing. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted POSH compliance in Pune. ICC formation, POSH policy, annual return to District Officer, Board Report disclosure. For IT, startups, manufacturing.">
     <link rel="canonical" href="/posh-compliance-services/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="POSH Compliance in Pune - ICC Formation, Policy & Training">

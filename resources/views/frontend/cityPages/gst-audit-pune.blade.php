@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>GST Audit in Pune - GSTR-9C, Reconciliation & ₹5Cr</title>
-    <meta name="description" content="CA assisted GST audit and GSTR-9C reconciliation for Pune businesses. Turnover >Rs 5 crore, self-certified, ITC reconciliation, DRC-03, departmental audit defence. MIDC, Hinjewadi, Camp. Call +91 945 945 6700.">
+    <meta name="description" content="CA assisted GST audit and GSTR-9C reconciliation for Pune businesses. Turnover &gt;Rs 5 crore, self-certified, ITC reconciliation, DRC-03.">
     <link rel="canonical" href="/gst-audit/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="GST Audit in Pune - GSTR-9C, Reconciliation & ₹5Cr">

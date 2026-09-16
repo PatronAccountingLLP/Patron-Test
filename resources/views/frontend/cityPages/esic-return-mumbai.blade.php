@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>ESIC Return Filing in Mumbai - Process, Due Date & Fees</title>
-    <meta name="description" content="CA-assisted ESIC return filing in Mumbai. Half-yearly returns, monthly e-Challan, penalty-free compliance. Serving BKC, Andheri MIDC, Powai. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted ESIC return filing in Mumbai. Half-yearly returns, monthly e-Challan, penalty-free compliance. Serving BKC, Andheri MIDC, Powai.">
     <link rel="canonical" href="/esic-return/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="ESIC Return Filing in Mumbai - Process, Due Date & Fees">

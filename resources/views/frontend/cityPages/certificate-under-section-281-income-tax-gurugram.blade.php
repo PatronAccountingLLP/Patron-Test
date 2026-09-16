@@ -628,7 +628,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 
 @section('meta')
-    <title>Section 281 Income Tax NOC Certificate in Gurugram 2026 | Patron Accounting</title>
+    <title>Section 281 Income Tax NOC Certificate in Gurugram</title>
     <meta name="description" content="Section 281 Income Tax NOC: prior permission from the Assessing Officer before transferring property or assets with a tax demand. From INR 4,999.">
     <link rel="canonical" href="/certificate-under-section-281-income-tax/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

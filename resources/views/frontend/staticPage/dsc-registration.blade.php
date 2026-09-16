@@ -16,7 +16,7 @@
 
 @section('meta')
     <title>DSC Registration Online - Class 3 Digital Signature India</title>
-    <meta name="description" content="A Digital Signature Certificate (DSC) is issued under Section 35 of the IT Act, 2000 by licensed CAs. Starting at Rs 1,500. 1-2 day issuance with Patron Accounting.">
+    <meta name="description" content="A Digital Signature Certificate (DSC) is issued under Section 35 of the IT Act, by licensed CAs. Starting at Rs 1,500.">
     <link rel="canonical" href="/dsc-registration">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="DSC Registration Online - Class 3 Digital Signature India">

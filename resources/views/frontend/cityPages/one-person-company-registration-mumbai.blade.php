@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>OPC (One Person Company) Registration in Mumbai - Fees</title>
-    <meta name="description" content="Register OPC in Mumbai. SPICe+ at RoC Mumbai, nominee INC-3, PAN/TAN/GST, no turnover cap post-2021, annual compliance AOC-4/MGT-7A. CA-led. Call +91 945 945 6700.">
+    <meta name="description" content="Register OPC in Mumbai. SPICe+ at RoC Mumbai, nominee INC-3, PAN/TAN/GST, no turnover cap post-, annual compliance AOC-4/MGT-7A. CA-led.">
     <link rel="canonical" href="/one-person-company-registration/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="OPC (One Person Company) Registration in Mumbai - Fees">

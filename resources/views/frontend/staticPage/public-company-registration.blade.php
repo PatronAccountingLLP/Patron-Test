@@ -17,7 +17,7 @@
 
 @section('meta')
     <title>Public Limited Company Registration - Process & Fees India</title>
-    <meta name="description" content="Register your Public Limited Company under Companies Act, 2013 with expert CA/CS support. Min 7 shareholders, 3 directors. 10,000+ businesses served across India.">
+    <meta name="description" content="Register your Public Limited Company under Companies Act, with expert CA/CS support. Min 7 shareholders, 3 directors.">
     <link rel="canonical" href="/public-company-registration">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Public Limited Company Registration - Process & Fees India">

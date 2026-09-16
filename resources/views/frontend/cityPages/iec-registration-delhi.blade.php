@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>IEC Registration in Delhi - DGFT, Fees & Export Code</title>
-    <meta name="description" content="CA-assisted IEC registration in Delhi. Import Export Code via DGFT for traders, manufacturers and service exporters. Serving Okhla, CP, Nehru Place. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted IEC registration in Delhi. Import Export Code via DGFT for traders, manufacturers and service exporters. Serving Okhla, CP, Nehru Place.">
     <link rel="canonical" href="/iec-registration/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="IEC Registration in Delhi - DGFT, Fees & Export Code">

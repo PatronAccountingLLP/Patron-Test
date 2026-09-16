@@ -17,7 +17,7 @@
 
 
 @section('meta')
-    <title>Cost Audit, Cost Records Rules 2014, 2026 | Patron Accounting</title>
+    <title>Cost Audit, Cost Records Rules</title>
     <meta name="description" content="Cost audit under Section 148 for regulated and non-regulated sectors crossing turnover limits. CRA-1, CRA-2, CRA-3 and CRA-4 handled. From INR 49,999.">
     <link rel="canonical" href="/cost-audit-companies-cost-records-rules-2014">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

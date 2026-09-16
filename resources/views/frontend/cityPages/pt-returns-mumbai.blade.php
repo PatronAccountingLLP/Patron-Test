@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Professional Tax Return in Mumbai - Filing & Slabs</title>
-    <meta name="description" content="CA-assisted professional tax return filing in Mumbai. PTRC monthly/annual returns, PTEC compliance, Maharashtra PT slab. Serving BKC, Powai, MIDC. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted professional tax return filing in Mumbai. PTRC monthly/annual returns, PTEC compliance, Maharashtra PT slab. Serving BKC, Powai, MIDC.">
     <link rel="canonical" href="/pt-returns/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Professional Tax Return in Mumbai - Filing & Slabs">

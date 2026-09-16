@@ -15,7 +15,7 @@
 
 
 @section('meta')
-    <title>Regulation 9A Founder ESOP Treatment 2026: Pre-IPO | Patron Accounting</title>
+    <title>Regulation 9A Founder ESOP Treatment: Pre-IPO</title>
     <meta name="description" content="SEBI Regulation 9A (8 Sep 2025) lets promoter-classified founders keep ESOPs granted a year before the DRHP. We structure and defend it. From Rs 49,999.">
     <link rel="canonical" href="/regulation-9a-founder-esop-treatment">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

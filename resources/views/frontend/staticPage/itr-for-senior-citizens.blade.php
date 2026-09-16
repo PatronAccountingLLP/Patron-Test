@@ -15,7 +15,7 @@
 
 
 @section('meta')
-    <title>ITR for Senior Citizens 2026: Pension + 80TTB | Patron Accounting</title>
+    <title>ITR for Senior Citizens: Pension + 80TTB</title>
     <meta name="description" content="ITR for senior citizens - ITR-1 pension + interest, Section 80TTB INR 50,000 deduction, Section 207 advance tax exemption. Starting from INR 999.">
     <link rel="canonical" href="/itr-for-senior-citizens">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

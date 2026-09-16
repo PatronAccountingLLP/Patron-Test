@@ -1,7 +1,7 @@
 @extends('layouts.service-app')
 
 @section('meta')
-<title>Stock Audit in Hyderabad: Jeedimetla and Patancheru | Patron Accounting</title>
+<title>Stock Audit in Hyderabad: Jeedimetla and Patancheru</title>
     <meta name="description" content="Stock audit in Hyderabad for pharma, API and engineering units. A CA team verifies batch-level stock at Jeedimetla, Patancheru and Bollaram.">
     <link rel="canonical" href="https://www.patronaccounting.com/stock-audit/hyderabad">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

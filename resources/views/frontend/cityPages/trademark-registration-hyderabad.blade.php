@@ -37,7 +37,7 @@
 
 @section('meta')
     <title>Trademark Registration in Hyderabad – TM-A, Fees &amp; Process</title>
-    <meta name="description" content="CA-assisted trademark registration in Hyderabad. 45 NICE classes, Rs 4,500/class for startups/MSMEs, 10-year validity. HITEC City, pharma brands. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted trademark registration in Hyderabad. 45 NICE classes, Rs 4,500/class for startups/MSMEs, 10-year validity. HITEC City, pharma brands.">
     <link rel="canonical" href="/trademark-registration/hyderabad">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Trademark Registration in Hyderabad – TM-A, Fees &amp; Process">

@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Trademark Registration Gurugram - TM-A, Fees & Process</title>
-    <meta name="description" content="CA-assisted trademark registration in Gurugram. Rs 4,500/class for startups. Brand, logo, name protection. Serving Cyber City, Sohna Rd, Manesar. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted trademark registration in Gurugram. Rs 4,500/class for startups. Brand, logo, name protection. Serving Cyber City, Sohna Rd, Manesar.">
     <link rel="canonical" href="/trademark-registration/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Trademark Registration Gurugram - TM-A, Fees & Process">

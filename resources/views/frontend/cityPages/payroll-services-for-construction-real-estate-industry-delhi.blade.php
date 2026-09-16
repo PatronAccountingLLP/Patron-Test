@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Construction & Real Estate Accounting Delhi - RERA & GST</title>
-    <meta name="description" content="CA-managed payroll for construction and real estate in Delhi. BOCW compliance, PF/ESI for site workers, contract labour payroll, and multi-site NCR processing. Call +91 945 945 6700.">
+    <meta name="description" content="CA-managed payroll for construction and real estate in Delhi. BOCW compliance, PF/ESI for site workers, contract labour payroll.">
     <link rel="canonical" href="/payroll-services-for-construction-real-estate-industry/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Construction & Real Estate Accounting Delhi - RERA & GST">

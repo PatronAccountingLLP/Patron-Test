@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>AD Code Registration in Delhi - Customs & ICEGATE Process</title>
-    <meta name="description" content="Register AD Code in Delhi for IGI Airport, ICD Tughlakabad, ICD Okhla. ICEGATE portal, lifetime validity. Exporters - Karol Bagh, Chandni Chowk. Call +91 945 945 6700.">
+    <meta name="description" content="Register AD Code in Delhi for IGI Airport, ICD Tughlakabad, ICD Okhla. ICEGATE portal, lifetime validity. Exporters - Karol Bagh, Chandni Chowk.">
     <link rel="canonical" href="/ad-code-registration/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="AD Code Registration in Delhi - Customs & ICEGATE Process">

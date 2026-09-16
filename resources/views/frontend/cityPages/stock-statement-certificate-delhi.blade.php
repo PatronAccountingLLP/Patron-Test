@@ -628,7 +628,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 
 @section('meta')
-    <title>Stock Statement Certificate for CC and OD in Delhi 2026 | Patron Accounting</title>
+    <title>Stock Statement Certificate for CC and OD in Delhi</title>
     <meta name="description" content="Stock Statement Certificate for CC and OD borrowers. CA-prepared with drawing power computation, submitted monthly to protect your limit. From INR 1,999/mo.">
     <link rel="canonical" href="/stock-statement-certificate/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Resignation of Director in Pune - DIR-11, DIR-12 & ROC</title>
-    <meta name="description" content="CA and CS assisted director resignation for Pune companies. Section 168, resignation notice, DIR-11, DIR-12, effective date, continuing liability. Startup exits, dormant companies. Call +91 945 945 6700.">
+    <meta name="description" content="CA and CS assisted director resignation for Pune companies. Section 168, resignation notice, DIR-11, DIR-12, effective date, continuing liability.">
     <link rel="canonical" href="/resignation-of-director/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Resignation of Director in Pune - DIR-11, DIR-12 & ROC">

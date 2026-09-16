@@ -628,7 +628,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 
 @section('meta')
-    <title>Forensic Net Worth Certificate by CA in Delhi 2026 | Patron Accounting</title>
+    <title>Forensic Net Worth Certificate by CA in Delhi</title>
     <meta name="description" content="Forensic Net Worth Certificate by a CA: an investigated net worth with asset tracing for disproportionate assets, divorce, and litigation. From INR 2,499.">
     <link rel="canonical" href="/forensic-net-worth-certificate/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

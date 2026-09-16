@@ -1,7 +1,7 @@
 @extends('layouts.service-app')
 
 @section('meta')
-<title>Warehouse Audit: Bin-Level Stock Count for 3PL Operators | Patron Accounting</title>
+<title>Warehouse Audit: Bin-Level Stock Count for 3PL Operators</title>
     <meta name="description" content="Warehouse and godown stock is audited at bin level. Put-away errors, negative stock, goods-in-transit and third-party held stock are tested against WMS records.">
     <link rel="canonical" href="https://www.patronaccounting.com/stock-audit-for-warehouse">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

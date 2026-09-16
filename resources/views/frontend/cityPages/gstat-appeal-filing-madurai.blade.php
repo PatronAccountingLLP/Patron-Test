@@ -2,7 +2,7 @@
 
 @section('meta')
     <title>GSTAT Appeal Filing in Madurai 2026 | Patron Accounting</title>
-    <meta name="description" content="File your GSTAT appeal at the Madurai bench covering southern Tamil Nadu including Madurai, Coimbatore, Tiruchirapalli, Salem, and Erode. Patron's CA team handles proceedings end-to-end.">
+    <meta name="description" content="File your GSTAT appeal at the Madurai bench covering southern Tamil Nadu including Madurai, Coimbatore, Tiruchirapalli, Salem, and Erode.">
     <link rel="canonical" href="/gstat-appeal-filing/madurai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="GSTAT Appeal Filing in Madurai 2026 | Patron Accounting">

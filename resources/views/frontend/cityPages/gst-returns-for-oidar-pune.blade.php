@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>GST for OIDAR in Pune - Foreign Digital & GSTR-5A</title>
-    <meta name="description" content="CA-assisted GST returns for OIDAR services in Pune. GSTR-5A for foreign providers, reverse charge for Pune IT companies. Serving Hinjewadi, Kharadi SaaS firms. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted GST returns for OIDAR services in Pune. GSTR-5A for foreign providers, reverse charge for Pune IT companies.">
     <link rel="canonical" href="/gst-returns-for-oidar/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="GST for OIDAR in Pune - Foreign Digital & GSTR-5A">

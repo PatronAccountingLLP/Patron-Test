@@ -15,7 +15,7 @@
 
 
 @section('meta')
-    <title>Healthcare Business Registration in India 2026 | Patron Accounting</title>
+    <title>Healthcare Business Registration in India</title>
     <meta name="description" content="Register your healthcare business in India: Pvt Ltd plus Clinical Establishment Act, drug licence, biomedical waste and NABH prep. From INR 14,999.">
     <link rel="canonical" href="/healthcare-business-registration-india">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

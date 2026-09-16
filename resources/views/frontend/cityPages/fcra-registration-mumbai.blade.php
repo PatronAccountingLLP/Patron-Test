@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>FCRA Registration for NGOs Mumbai - MHA & Renewal</title>
-    <meta name="description" content="FCRA registration in Mumbai. Foreign Contribution Regulation Act 2010. NGO, trust, Section 8 company. SBI New Delhi FCRA account, 2020 Amendment, Form FC-3A. CA-led. Call +91 945 945 6700.">
+    <meta name="description" content="FCRA registration in Mumbai. Foreign Contribution Regulation Act. NGO, trust, Section 8 company. SBI New Delhi FCRA account, Amendment, Form FC-3A.">
     <link rel="canonical" href="/fcra-registration/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="FCRA Registration for NGOs Mumbai - MHA & Renewal">

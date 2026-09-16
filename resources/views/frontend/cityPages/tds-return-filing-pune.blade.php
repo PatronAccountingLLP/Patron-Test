@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>TDS Return Filing (24Q) in Pune - Salary TDS & Form 16</title>
-    <meta name="description" content="CA-assisted TDS return filing (Form 24Q) and Form 16 generation for employers in Pune. Quarterly filing, TRACES compliance, and penalty-free TDS. Serving Hinjewadi, Kharadi, MIDC. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted TDS return filing (Form 24Q) and Form 16 generation for employers in Pune. Quarterly filing, TRACES compliance, and penalty-free TDS.">
     <link rel="canonical" href="/tds-return-filing/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="TDS Return Filing (24Q) in Pune - Salary TDS & Form 16">

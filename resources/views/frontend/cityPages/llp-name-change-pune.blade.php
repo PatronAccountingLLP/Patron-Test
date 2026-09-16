@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>LLP Name Change in Pune - Form 5, RUN-LLP & ROC</title>
-    <meta name="description" content="CA and CS assisted LLP name change for Pune LLPs. RUN-LLP name reservation, Form 5 filing, ROC approval, fresh certificate, post-change GST/PAN/bank updates. Rebranding and partner exit. Call +91 945 945 6700.">
+    <meta name="description" content="CA and CS assisted LLP name change for Pune LLPs. RUN-LLP name reservation, Form 5 filing, ROC approval, fresh certificate, post-change GST/PAN/bank updates.">
     <link rel="canonical" href="/llp-name-change/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="LLP Name Change in Pune - Form 5, RUN-LLP & ROC">

@@ -15,7 +15,7 @@
 
 
 @section('meta')
-    <title>Real Estate Company Registration in India 2026 | Patron Accounting</title>
+    <title>Real Estate Company Registration in India</title>
     <meta name="description" content="Register your real estate or construction company in India: Pvt Ltd with project SPVs, plus RERA registration prep and licences. From INR 14,999.">
     <link rel="canonical" href="/real-estate-company-registration-india">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

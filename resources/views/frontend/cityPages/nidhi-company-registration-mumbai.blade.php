@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Nidhi Company Registration Mumbai - Process, Fees & Docs</title>
-    <meta name="description" content="Register Nidhi Company in Mumbai. SPICe+ at RoC Mumbai, NDH-4 declaration, 200-member strategy, NOF Rs 20 lakh, ongoing NDH-1/NDH-3 compliance. CA-led. Call +91 945 945 6700.">
+    <meta name="description" content="Register Nidhi Company in Mumbai. SPICe+ at RoC Mumbai, NDH-4 declaration, 200-member strategy, NOF Rs 20 lakh, ongoing NDH-1/NDH-3 compliance. CA-led.">
     <link rel="canonical" href="/nidhi-company-registration/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Nidhi Company Registration Mumbai - Process, Fees & Docs">

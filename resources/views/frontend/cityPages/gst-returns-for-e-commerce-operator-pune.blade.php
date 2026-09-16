@@ -46,7 +46,7 @@
 
 @section('meta')
     <title>GST Returns for E-Commerce in Pune – GSTR-8 &amp; TCS</title>
-    <meta name="description" content="CA-assisted GSTR-8 and TCS compliance for e-commerce operators in Pune. Monthly return by 10th, TCS at 0.5%. Serving Hinjewadi, Kharadi, Pimpri-Chinchwad platforms. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted GSTR-8 and TCS compliance for e-commerce operators in Pune. Monthly return by 10th, TCS at 0.5%.">
     <link rel="canonical" href="/gst-returns-for-e-commerce-operator/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="GST Returns for E-Commerce in Pune – GSTR-8 &amp; TCS">

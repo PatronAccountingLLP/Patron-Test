@@ -629,7 +629,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 
 @section('meta')
-    <title>Rights Issue of Shares Section 62 in 2026 | Patron Accounting</title>
+    <title>Rights Issue of Shares Section 62 in</title>
     <meta name="description" content="Raise capital via a rights issue under Section 62(1)(a) with a pro-rata letter of offer, renunciation and PAS-3 filing. Expert CA help. From INR 24,999.">
     <link rel="canonical" href="/rights-issue-of-shares-section-62-1-a">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

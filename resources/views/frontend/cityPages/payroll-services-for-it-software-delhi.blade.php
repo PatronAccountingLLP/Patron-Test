@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>IT & Software Accounting in Delhi - GST, TDS & LUT</title>
-    <meta name="description" content="CA-led IT and software company payroll in Delhi. PF/ESI, TDS, ESOPs, freelancer 194J, variable pay. Labour Code compliant. Serving Nehru Place, Jasola, Rohini. Call +91 945 945 6700.">
+    <meta name="description" content="CA-led IT and software company payroll in Delhi. PF/ESI, TDS, ESOPs, freelancer 194J, variable pay. Labour Code compliant.">
     <link rel="canonical" href="/payroll-services-for-it-software/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="IT & Software Accounting in Delhi - GST, TDS & LUT">

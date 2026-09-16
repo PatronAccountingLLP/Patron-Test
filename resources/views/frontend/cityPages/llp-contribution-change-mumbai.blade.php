@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>LLP Capital Contribution Mumbai – Form 3 &amp; Supp. Deed</title>
-    <meta name="description" content="CA-assisted LLP contribution change in Mumbai. Capital increase, decrease, Form 3, supplementary deed, partner capital, audit threshold. ROC Everest House. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted LLP contribution change in Mumbai. Capital increase, decrease, Form 3, supplementary deed, partner capital, audit threshold. ROC Everest House.">
     <link rel="canonical" href="/llp-contribution-change/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="LLP Capital Contribution Mumbai – Form 3 &amp; Supp. Deed">

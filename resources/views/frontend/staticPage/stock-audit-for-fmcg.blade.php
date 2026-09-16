@@ -1,7 +1,7 @@
 @extends('layouts.service-app')
 
 @section('meta')
-<title>Stock Audit for FMCG Companies: Depot and CF Agent Stock | Patron Accounting</title>
+<title>Stock Audit for FMCG Companies: Depot and CF Agent Stock</title>
     <meta name="description" content="FMCG stock is audited across depots, C&amp;F agents and distributors. Secondary stock is verified, and damage and expiry claims are tested against evidence.">
     <link rel="canonical" href="https://www.patronaccounting.com/stock-audit-for-fmcg">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

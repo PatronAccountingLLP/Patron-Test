@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Hotel & Restaurant Payroll in Pune - Tips, PF, ESI & TDS</title>
-    <meta name="description" content="CA-managed payroll for hotels and restaurants in Pune. Shift wages, TDS, EPF, ESIC - all handled. Serving Koregaon Park, Viman Nagar, Camp properties. Call +91 945 945 6700.">
+    <meta name="description" content="CA-managed payroll for hotels and restaurants in Pune. Shift wages, TDS, EPF, ESIC - all handled. Serving Koregaon Park, Viman Nagar, Camp properties.">
     <link rel="canonical" href="/payroll-services-for-the-hospitality-industry/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Hotel & Restaurant Payroll in Pune - Tips, PF, ESI & TDS">

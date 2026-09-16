@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>IT Notice u/s 143(3) Delhi NCR – Scrutiny &amp; Reply</title>
-    <meta name="description" content="CA-assisted scrutiny assessment representation under Section 143(3) in Delhi. Limited and complete scrutiny defence. Serving Connaught Place, Nehru Place, Okhla businesses. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted scrutiny assessment representation under Section 143(3) in Delhi. Limited and complete scrutiny defence.">
     <link rel="canonical" href="/income-tax-notices-under-section-143-3/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="IT Notice u/s 143(3) Delhi NCR – Scrutiny &amp; Reply">

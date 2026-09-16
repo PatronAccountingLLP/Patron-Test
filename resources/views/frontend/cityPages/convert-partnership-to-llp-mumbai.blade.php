@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Convert Partnership to LLP Mumbai – Form 17 &amp; FiLLiP</title>
-    <meta name="description" content="CA-assisted partnership to LLP conversion in Mumbai. Section 55, Form 17, FiLLiP, Form 3, tax neutral, limited liability. ROC Everest House. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted partnership to LLP conversion in Mumbai. Section 55, Form 17, FiLLiP, Form 3, tax neutral, limited liability. ROC Everest House.">
     <link rel="canonical" href="/convert-partnership-to-llp/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Convert Partnership to LLP Mumbai – Form 17 &amp; FiLLiP">

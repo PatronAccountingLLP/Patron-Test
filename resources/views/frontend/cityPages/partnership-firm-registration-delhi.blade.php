@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Partnership Firm Registration in Delhi - Deed & Process</title>
-    <meta name="description" content="CA-assisted partnership firm registration in Delhi. Deed drafting, Form No. 1, Registrar of Firms Shastri Nagar. From Rs 2,499. 7-10 days. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted partnership firm registration in Delhi. Deed drafting, Form No. 1, Registrar of Firms Shastri Nagar. From Rs 2,499. 7-10 days.">
     <link rel="canonical" href="/partnership-firm-registration/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Partnership Firm Registration in Delhi - Deed & Process">

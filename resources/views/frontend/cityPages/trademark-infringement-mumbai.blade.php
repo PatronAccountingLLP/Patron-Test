@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Trademark Infringement Mumbai - Remedies, Suit & Damages</title>
-    <meta name="description" content="Trademark infringement in Mumbai. S.29 enforcement, Bombay HC IP Division, injunction, damages, criminal prosecution, passing off, counterfeit seizure. CA-led. Call +91 945 945 6700.">
+    <meta name="description" content="Trademark infringement in Mumbai. S.29 enforcement, Bombay HC IP Division, injunction, damages, criminal prosecution, passing off, counterfeit seizure.">
     <link rel="canonical" href="/trademark-infringement/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Trademark Infringement Mumbai - Remedies, Suit & Damages">

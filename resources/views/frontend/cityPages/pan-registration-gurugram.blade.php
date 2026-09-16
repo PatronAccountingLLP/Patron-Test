@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>PAN Card Registration Gurugram - Form 49A & Process</title>
-    <meta name="description" content="CA-assisted PAN registration in Gurugram for companies, LLPs, trusts, societies, individuals. Form 49A, instant e-PAN. Serving Cyber City, Manesar. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted PAN registration in Gurugram for companies, LLPs, trusts, societies, individuals. Form 49A, instant e-PAN. Serving Cyber City, Manesar.">
     <link rel="canonical" href="/pan-registration/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="PAN Card Registration Gurugram - Form 49A & Process">

@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Service Sector Accounting Delhi - Project Billing & GST</title>
-    <meta name="description" content="CA-managed payroll for IT, consulting, BPO, and professional services in Delhi. CTC structuring, TDS dual regime, ESOP, PF/ESI, and multi-state NCR payroll. No Professional Tax. Call +91 945 945 6700.">
+    <meta name="description" content="CA-managed payroll for IT, consulting, BPO, and professional services in Delhi. CTC structuring, TDS dual regime, ESOP, PF/ESI, and multi-state NCR payroll.">
     <link rel="canonical" href="/payroll-services-for-service-sector-businesses/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Service Sector Accounting Delhi - Project Billing & GST">

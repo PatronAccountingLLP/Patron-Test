@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Convert Partnership to LLP Delhi NCR – Form 17 &amp; FiLLiP</title>
-    <meta name="description" content="CA-assisted partnership to LLP conversion in Delhi. Limited liability with zero asset transfer tax. Serving Connaught Place, Nehru Place, Okhla businesses. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted partnership to LLP conversion in Delhi. Limited liability with zero asset transfer tax. Serving Connaught Place, Nehru Place, Okhla businesses.">
     <link rel="canonical" href="/convert-partnership-to-llp/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Convert Partnership to LLP Delhi NCR – Form 17 &amp; FiLLiP">

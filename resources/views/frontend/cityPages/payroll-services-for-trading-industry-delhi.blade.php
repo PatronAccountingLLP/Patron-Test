@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Trading Business Payroll in Delhi - PF, ESIC & TDS</title>
-    <meta name="description" content="CA-led wholesale and retail payroll in Delhi. PF/ESI, TDS, delivery staff, commission, godown workers. Chandni Chowk, Sadar Bazar, Rohini. Call +91 945 945 6700.">
+    <meta name="description" content="CA-led wholesale and retail payroll in Delhi. PF/ESI, TDS, delivery staff, commission, godown workers. Chandni Chowk, Sadar Bazar, Rohini.">
     <link rel="canonical" href="/payroll-services-for-trading-industry/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Trading Business Payroll in Delhi - PF, ESIC & TDS">

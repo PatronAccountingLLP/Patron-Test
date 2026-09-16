@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>GST Returns for Restaurants Mumbai - 5% & Composition</title>
-    <meta name="description" content="CA-assisted GST return filing for restaurants in Mumbai. 5% GST, composition scheme, cloud kitchen compliance, Swiggy/Zomato Section 9(5). Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted GST return filing for restaurants in Mumbai. 5% GST, composition scheme, cloud kitchen compliance, Swiggy/Zomato Section 9(5).">
     <link rel="canonical" href="/gst-returns-for-restaurants-food-businesses/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="GST Returns for Restaurants Mumbai - 5% & Composition">

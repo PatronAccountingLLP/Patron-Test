@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Copyright for Literary Work Mumbai - Book & Software</title>
-    <meta name="description" content="Copyright for literary work in Mumbai. Books, software, websites, blogs, databases, lyrics, articles. S.2(o), Form XIV, source code submission, author ownership. CA-led. Call +91 945 945 6700.">
+    <meta name="description" content="Copyright for literary work in Mumbai. Books, software, websites, blogs, databases, lyrics, articles.">
     <link rel="canonical" href="/copyright-registration-for-literary-work/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Copyright for Literary Work Mumbai - Book & Software">

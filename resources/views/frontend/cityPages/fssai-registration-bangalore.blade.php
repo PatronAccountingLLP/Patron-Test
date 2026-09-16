@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>FSSAI Registration in Bangalore – Process, Fees &amp; FoSCoS</title>
-    <meta name="description" content="CA-assisted FSSAI registration in Bangalore. Basic, state, central food licence. Serving Koramangala, Indiranagar, HSR Layout food businesses. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted FSSAI registration in Bangalore. Basic, state, central food licence. Serving Koramangala, Indiranagar, HSR Layout food businesses.">
     <link rel="canonical" href="/fssai-registration/bangalore">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="FSSAI Registration in Bangalore – Process, Fees &amp; FoSCoS">

@@ -46,7 +46,7 @@
 
 @section('meta')
     <title>Legal Drafting Services in Pune – Contracts &amp; Agreements</title>
-    <meta name="description" content="CA/CS-assisted legal drafting in Pune. Agreements, contracts, MOA, AOA, SHA, NDA, ESOP, partnership deed, lease, MOU. Maharashtra stamp duty advisory. Serving Hinjewadi, Kharadi, Baner. Call +91 945 945 6700.">
+    <meta name="description" content="CA/CS-assisted legal drafting in Pune. Agreements, contracts, MOA, AOA, SHA, NDA, ESOP, partnership deed, lease, MOU. Maharashtra stamp duty advisory.">
     <link rel="canonical" href="/legal-drafting/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Legal Drafting Services in Pune – Contracts &amp; Agreements">

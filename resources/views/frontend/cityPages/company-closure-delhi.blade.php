@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Company Closure Delhi NCR – Strike Off &amp; STK-2</title>
-    <meta name="description" content="Company closure in Delhi. Strike off S.248 STK-2. NCLT winding up. Dormant S.455. Compliance backlog. C-PACE. Director disqualification prevention. Call +91 945 945 6700.">
+    <meta name="description" content="Company closure in Delhi. Strike off S.248 STK-2. NCLT winding up. Dormant S.455. Compliance backlog. C-PACE. Director disqualification prevention.">
     <link rel="canonical" href="/company-closure/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Company Closure Delhi NCR – Strike Off &amp; STK-2">

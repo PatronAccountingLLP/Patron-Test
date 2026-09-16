@@ -17,7 +17,7 @@
 
 @section('meta')
     <title>Pvt Ltd Company Registration - SPICe+, Process & Fees</title>
-    <meta name="description" content="Private limited company registration under Companies Act 2013. Min 2 directors, 2 shareholders. No minimum capital. SPICe+ online process. 7-10 days. Expert CA and CS team.">
+    <meta name="description" content="Private limited company registration under Companies Act. Min 2 directors, 2 shareholders. No minimum capital. SPICe+ online process. 7-10 days.">
     <link rel="canonical" href="/private-limited-company-registration">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Pvt Ltd Company Registration - SPICe+, Process & Fees">

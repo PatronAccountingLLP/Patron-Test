@@ -15,7 +15,7 @@
 
 
 @section('meta')
-    <title>Joint Venture (JV) Structure and SHA in India 2026 | Patron Accounting</title>
+    <title>Joint Venture (JV) Structure and SHA in India</title>
     <meta name="description" content="Form a joint venture in India: equity vs contractual JV, company or LLP structuring and Shareholders Agreement drafting. Premium support. From INR 99,999.">
     <link rel="canonical" href="/joint-venture-jv-structure-and-shareholders-agreement">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

@@ -17,7 +17,7 @@
 
 @section('meta')
     <title>FCRA Registration for NGOs - Process, Documents & MHA Rules</title>
-    <meta name="description" content="Register under the Foreign Contribution Regulation Act, 2010 to receive foreign donations. Fee Rs 10,000 (registration) or Rs 5,000 (prior permission). Valid 5 years. SBI FCRA account mandatory.">
+    <meta name="description" content="Register under the Foreign Contribution Regulation Act, to receive foreign donations. Fee Rs 10,000 (registration) or Rs 5,000 (prior permission).">
     <link rel="canonical" href="/fcra-registration">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="FCRA Registration for NGOs - Process, Documents & MHA Rules">

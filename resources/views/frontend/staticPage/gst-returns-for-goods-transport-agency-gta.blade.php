@@ -628,7 +628,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 
 @section('meta')
-    <title>GST Returns for Goods Transport Agency GTA 2026 | Patron Accounting</title>
+    <title>GST Returns for Goods Transport Agency GTA</title>
     <meta name="description" content="GST returns for GTA - RCM 5% no ITC default, FCM 5%/18% with ITC post Sep 2025, Annexure V annual declaration. Starting from INR 1,499 per month.">
     <link rel="canonical" href="/gst-returns-for-goods-transport-agency-gta">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

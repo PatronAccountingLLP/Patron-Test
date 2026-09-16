@@ -1,7 +1,7 @@
 @extends('layouts.service-app')
 
 @section('meta')
-<title>Retail Audit and Store Audit: Shrinkage Store by Store | Patron Accounting</title>
+<title>Retail Audit and Store Audit: Shrinkage Store by Store</title>
     <meta name="description" content="A retail audit for multi-store chains counts at SKU level. Shrinkage is measured store by store, with mark-down, planogram and sell-through checks.">
     <link rel="canonical" href="https://www.patronaccounting.com/stock-audit-for-retail">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

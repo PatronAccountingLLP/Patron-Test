@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>TDS Returns in Mumbai - 24Q, 26Q, 27Q & 27EQ Guide</title>
-    <meta name="description" content="CA-assisted TDS return filing in Mumbai. 24Q salary, 26Q non-salary, 27Q NRI, 27EQ TCS. TRACES corrections, Form 16/16A. Serving BKC, Powai, MIDC. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted TDS return filing in Mumbai. 24Q salary, 26Q non-salary, 27Q NRI, 27EQ TCS. TRACES corrections, Form 16/16A. Serving BKC, Powai, MIDC.">
     <link rel="canonical" href="/tds-return/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="TDS Returns in Mumbai - 24Q, 26Q, 27Q & 27EQ Guide">

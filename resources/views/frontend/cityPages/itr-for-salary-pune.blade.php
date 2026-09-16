@@ -18,7 +18,7 @@
 
 @section('meta')
     <title>ITR Filing for Salaried in Pune – Form 16, ITR-1 &amp; HRA</title>
-    <meta name="description" content="CA-assisted ITR filing for salaried employees in Pune. ITR-1, ITR-2, new vs old regime, HRA, 80C/80D, Form 16. Serving Hinjewadi, Kharadi, Baner IT professionals. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted ITR filing for salaried employees in Pune. ITR-1, ITR-2, new vs old regime, HRA, 80C/80D, Form 16.">
     <link rel="canonical" href="/itr-for-salary/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="ITR Filing for Salaried in Pune – Form 16, ITR-1 &amp; HRA">

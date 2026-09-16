@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Payroll Services in Bangalore – Salary, PF, ESI &amp; TDS</title>
-    <meta name="description" content="CA-assisted payroll services in Bangalore. PF, ESI, PT compliance for IT and startup firms. Serving Electronic City, Whitefield, Manyata businesses. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted payroll services in Bangalore. PF, ESI, PT compliance for IT and startup firms. Serving Electronic City, Whitefield, Manyata businesses.">
     <link rel="canonical" href="/payroll-services/bangalore">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Payroll Services in Bangalore – Salary, PF, ESI &amp; TDS">

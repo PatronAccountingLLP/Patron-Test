@@ -49,7 +49,7 @@
 
 @section('meta')
     <title>IRDAI IMF Registration Mumbai - Insurance Marketing Firm</title>
-    <meta name="description" content="Register IRDAI Insurance Marketing Firm (IMF) in Mumbai. NOC, company incorporation, IRDAI application, PO exam, net worth certificate, insurer tie-ups. Call +91 945 945 6700.">
+    <meta name="description" content="Register IRDAI Insurance Marketing Firm (IMF) in Mumbai. NOC, company incorporation, IRDAI application, PO exam, net worth certificate, insurer tie-ups.">
     <link rel="canonical" href="/irdai-imf-registration/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="IRDAI IMF Registration Mumbai - Insurance Marketing Firm">

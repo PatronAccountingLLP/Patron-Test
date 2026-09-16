@@ -628,7 +628,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 
 @section('meta')
-    <title>Ageing of Debtors and Creditors Certificate 2026 | Patron Accounting</title>
+    <title>Ageing of Debtors and Creditors Certificate</title>
     <meta name="description" content="CA debtors and creditors ageing certificate in Pune for due diligence and bank loans. Age-wise buckets, UDIN-verified. From INR 2,499.">
     <link rel="canonical" href="/ageing-of-debtors-creditors-certificate/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

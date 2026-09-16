@@ -1,7 +1,7 @@
 @extends('layouts.service-app')
 
 @section('meta')
-<title>Asset Tagging Services: Barcode, QR and RFID Tagging | Patron Accounting</title>
+<title>Asset Tagging Services: Barcode, QR and RFID Tagging</title>
     <meta name="description" content="Asset tagging covers plants and offices end to end. A numbering convention is designed, tags are fixed on site, and every tag reconciles to the asset register.">
     <link rel="canonical" href="https://www.patronaccounting.com/asset-tagging">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

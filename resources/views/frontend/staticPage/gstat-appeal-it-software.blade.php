@@ -2,7 +2,7 @@
 
 @section('meta')
     <title>IT/Software GSTAT Appeal - Place of Supply | Patron</title>
-    <meta name="description" content="GSTAT appeal for IT and software companies facing place of supply disputes, intermediary classification, and OIDAR issues. 10% pre-deposit. 3-month deadline. CA and CS Team, Patron Accounting LLP.">
+    <meta name="description" content="GSTAT appeal for IT and software companies facing place of supply disputes, intermediary classification, and OIDAR issues. 10% pre-deposit. 3-month deadline.">
     <link rel="canonical" href="/gstat-appeal-it-software">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="IT/Software GSTAT Appeal - Place of Supply | Patron">

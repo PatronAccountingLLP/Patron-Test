@@ -18,7 +18,7 @@
 
 @section('meta')
     <title>GST Return Filing India - GSTR-1, GSTR-3B, Due Dates & ITC</title>
-    <meta name="description" content="GST returns are periodic filings under CGST Act reporting sales, purchases, ITC and tax paid. Know 13 return types, due dates, late fees under Section 47 and filing process. Starts Rs 1,499.">
+    <meta name="description" content="GST returns are periodic filings under CGST Act reporting sales, purchases, ITC and tax paid.">
     <link rel="canonical" href="/gst-returns">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="GST Return Filing India - GSTR-1, GSTR-3B, Due Dates & ITC">

@@ -37,7 +37,7 @@
 
 @section('meta')
     <title>12A Registration in Bangalore – Form 10A &amp; Tax Exemption</title>
-    <meta name="description" content="CA-assisted 12A registration in Bangalore. Tax exemption for NGOs. Section 12A/12AB, Form 10A/10AB, CIT(E) Bangalore. No govt fee. Rs 7,000. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted 12A registration in Bangalore. Tax exemption for NGOs. Section 12A/12AB, Form 10A/10AB, CIT(E) Bangalore. No govt fee. Rs 7,000.">
     <link rel="canonical" href="/12a-registration/bangalore">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="12A Registration in Bangalore – Form 10A &amp; Tax Exemption"><meta property="og:description" content="12A Bangalore. Tax exemption. CIT(E). No govt fee. Rs 7,000. Call +91 945 945 6700.">

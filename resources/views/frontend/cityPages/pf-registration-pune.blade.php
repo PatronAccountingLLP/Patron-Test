@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>PF Registration in Pune - EPFO Process & 20-Employee Rule</title>
-    <meta name="description" content="CA-assisted PF registration in Pune. EPFO employer registration, ECR filing, UAN generation, ESI integration. Serving Hinjewadi, Chakan, MIDC employers. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted PF registration in Pune. EPFO employer registration, ECR filing, UAN generation, ESI integration. Serving Hinjewadi, Chakan, MIDC employers.">
     <link rel="canonical" href="/pf-registration/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="PF Registration in Pune - EPFO Process & 20-Employee Rule">

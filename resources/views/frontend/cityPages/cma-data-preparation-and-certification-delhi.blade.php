@@ -702,7 +702,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 
 @section('meta')
-    <title>CMA Data Preparation and Certification in Delhi 2026 | Patron Accounting</title>
+    <title>CMA Data Preparation and Certification in Delhi</title>
     <meta name="description" content="CMA data preparation and certification by a CA for bank loans. RBI and IBA format with MPBF and projections for working capital above Rs 2 cr. From INR 9,999.">
     <link rel="canonical" href="/cma-data-preparation-and-certification/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

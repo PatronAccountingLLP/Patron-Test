@@ -17,7 +17,7 @@
 
 @section('meta')
     <title>GST Notice Reply - Types, Process & How to Respond Online</title>
-    <meta name="description" content="GST notice is a formal communication from tax authorities for non-compliance. Learn types of GST notices, how to reply online, penalties under Section 73, 74 and 74A. CA-assisted reply starts at Rs 2,999.">
+    <meta name="description" content="GST notice is a formal communication from tax authorities for non-compliance.">
     <link rel="canonical" href="/gst-notice">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="GST Notice Reply - Types, Process & How to Respond Online">

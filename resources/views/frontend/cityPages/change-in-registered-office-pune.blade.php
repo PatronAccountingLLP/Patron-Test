@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Registered Office Change in Pune - INC-22, INC-23 & ROC</title>
-    <meta name="description" content="CA/CS-assisted registered office change in Pune. Same city, same ROC, inter-ROC, inter-state. Form INC-22, MGT-14, INC-23. Post-change PAN/GST update. Serving Hinjewadi, Kharadi, Baner. Call +91 945 945 6700.">
+    <meta name="description" content="CA/CS-assisted registered office change in Pune. Same city, same ROC, inter-ROC, inter-state. Form INC-22, MGT-14, INC-23. Post-change PAN/GST update.">
     <link rel="canonical" href="/change-in-registered-office/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Registered Office Change in Pune - INC-22, INC-23 & ROC">

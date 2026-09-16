@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>ITR for Business in Mumbai - ITR-3, ITR-4 & 44AD</title>
-    <meta name="description" content="CA-assisted business ITR filing in Mumbai. ITR-3, ITR-4, ITR-5, ITR-6 for proprietors, firms, LLPs, companies. Tax audit, presumptive scheme. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted business ITR filing in Mumbai. ITR-3, ITR-4, ITR-5, ITR-6 for proprietors, firms, LLPs, companies. Tax audit, presumptive scheme.">
     <link rel="canonical" href="/itr-for-business/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="ITR for Business in Mumbai - ITR-3, ITR-4 & 44AD">

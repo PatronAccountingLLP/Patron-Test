@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Income Tax Notice Gurugram - 143(1), 139(9) & Reply</title>
-    <meta name="description" content="CA-assisted income tax notice response in Gurugram. Scrutiny 143(2), demand 156, AIS mismatch, defective return 139(9), faceless assessment. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted income tax notice response in Gurugram. Scrutiny 143(2), demand 156, AIS mismatch, defective return 139(9), faceless assessment.">
     <link rel="canonical" href="/income-tax-notice/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Income Tax Notice Gurugram - 143(1), 139(9) & Reply">

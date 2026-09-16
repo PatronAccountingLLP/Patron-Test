@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Security Agency Payroll in Delhi - ESIC, PF & Wage Register</title>
-    <meta name="description" content="CA-led security agency payroll in Delhi. Guard wages, PF/ESI, site-wise tracking, VDA, PSARA compliance. Serving CP, Aerocity, Dwarka, Rohini. Call +91 945 945 6700.">
+    <meta name="description" content="CA-led security agency payroll in Delhi. Guard wages, PF/ESI, site-wise tracking, VDA, PSARA compliance. Serving CP, Aerocity, Dwarka, Rohini.">
     <link rel="canonical" href="/payroll-services-for-security-agencies/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Security Agency Payroll in Delhi - ESIC, PF & Wage Register">

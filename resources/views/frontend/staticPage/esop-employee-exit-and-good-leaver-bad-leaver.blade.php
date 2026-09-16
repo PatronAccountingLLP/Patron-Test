@@ -15,7 +15,7 @@
 
 
 @section('meta')
-    <title>ESOP on Employee Exit 2026: Good vs Bad Leaver | Patron Accounting</title>
+    <title>ESOP on Employee Exit: Good vs Bad Leaver</title>
     <meta name="description" content="What happens to ESOPs when an employee leaves: good leaver vs bad leaver, vested-option forfeiture, the exercise window and buyback, in India. From Rs 14,999.">
     <link rel="canonical" href="/esop-employee-exit-and-good-leaver-bad-leaver">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>LLP Agreement Amendment Mumbai – Deed &amp; Form 3 Filing</title>
-    <meta name="description" content="CA-assisted LLP agreement change in Mumbai. Form 3, supplementary deed, profit sharing, capital, objects, partner changes. ROC Everest House. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted LLP agreement change in Mumbai. Form 3, supplementary deed, profit sharing, capital, objects, partner changes. ROC Everest House.">
     <link rel="canonical" href="/llp-agreement-change/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="LLP Agreement Amendment Mumbai – Deed &amp; Form 3 Filing">

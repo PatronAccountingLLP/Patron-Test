@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Construction & Real Estate Accounting Pune - RERA & GST</title>
-    <meta name="description" content="CA-assisted payroll for construction and real estate in Pune. BOCW, ESIC, PF, and contract labour compliance for builders. Serving Hinjewadi, Wakad, PCMC developers. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted payroll for construction and real estate in Pune. BOCW, ESIC, PF, and contract labour compliance for builders.">
     <link rel="canonical" href="/payroll-services-for-construction-real-estate-industry/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Construction & Real Estate Accounting Pune - RERA & GST">

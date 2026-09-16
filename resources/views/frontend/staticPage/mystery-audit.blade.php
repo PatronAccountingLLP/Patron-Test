@@ -1,7 +1,7 @@
 @extends('layouts.service-app')
 
 @section('meta')
-<title>Mystery Audit Services in India: Outlet Visit Scorecards | Patron Accounting</title>
+<title>Mystery Audit Services in India: Outlet Visit Scorecards</title>
     <meta name="description" content="Mystery audit and mystery shopping run across India. Trained auditors visit your outlets to a set scenario, score what they find and evidence every visit.">
     <link rel="canonical" href="https://www.patronaccounting.com/mystery-audit">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

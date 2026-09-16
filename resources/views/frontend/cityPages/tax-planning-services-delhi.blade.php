@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Tax Planning Delhi NCR – 80C, 80D &amp; Old vs New Regime</title>
-    <meta name="description" content="Tax planning services in Delhi. New vs old regime. 80C, HRA, NPS, home loan. Save Rs 50,000-3,00,000+ annually. Salaried, business, investors. Call +91 945 945 6700.">
+    <meta name="description" content="Tax planning services in Delhi. New vs old regime. 80C, HRA, NPS, home loan. Save Rs 50,000-3,00,000+ annually. Salaried, business, investors.">
     <link rel="canonical" href="/tax-planning-services/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Tax Planning Delhi NCR – 80C, 80D &amp; Old vs New Regime">

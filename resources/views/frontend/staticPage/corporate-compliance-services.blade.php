@@ -3,7 +3,7 @@
 @section('meta')
     <title>ROC, MCA & Corporate Compliance Services | Patron LLP</title>
     <link rel="canonical" href="/corporate-compliance-services">
-    <meta name="description" content="Annual compliance, director changes, share capital, SBO, charges, CSR, MSME, mergers and conversions — full ROC/MCA secretarial coverage across the corporate lifecycle.">
+    <meta name="description" content="Annual compliance, director changes, share capital, SBO, charges, CSR, MSME, mergers and conversions.">
     <meta property="og:title" content="ROC, MCA & Corporate Compliance Services | Patron LLP">
     <meta property="og:description" content="Annual compliance, director changes, share capital, SBO, charges, CSR, MSME, mergers and conversions — full ROC/MCA secretarial coverage across the corporate lifecycle.">
     <meta property="og:url" content="/corporate-compliance-services">

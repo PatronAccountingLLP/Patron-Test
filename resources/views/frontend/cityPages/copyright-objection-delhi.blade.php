@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Copyright Objection Reply in Delhi - Process & Hearing</title>
-    <meta name="description" content="CA-assisted Copyright Objection reply in Delhi. 30-day deadline. Registrar discrepancy, third-party, YouTube S.60. Copyright Office Dwarka. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted Copyright Objection reply in Delhi. 30-day deadline. Registrar discrepancy, third-party, YouTube S.60. Copyright Office Dwarka.">
     <link rel="canonical" href="/copyright-objection/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Copyright Objection Reply in Delhi - Process & Hearing">

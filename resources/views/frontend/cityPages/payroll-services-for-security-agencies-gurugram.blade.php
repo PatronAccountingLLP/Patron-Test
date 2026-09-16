@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Security Agency Payroll Gurugram - ESIC, PF & Register</title>
-    <meta name="description" content="CA-led payroll for security agencies in Gurugram. Guard shifts, PF/ESI, VDA minimum wages, PSARA compliance, client billing. Cyber City, residential. Call +91 945 945 6700.">
+    <meta name="description" content="CA-led payroll for security agencies in Gurugram. Guard shifts, PF/ESI, VDA minimum wages, PSARA compliance, client billing. Cyber City, residential.">
     <link rel="canonical" href="/payroll-services-for-security-agencies/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Security Agency Payroll Gurugram - ESIC, PF & Register">

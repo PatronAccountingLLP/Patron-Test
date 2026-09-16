@@ -628,7 +628,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 
 @section('meta')
-    <title>Capital Account Certificate under FEMA in Delhi 2026 | Patron Accounting</title>
+    <title>Capital Account Certificate under FEMA in Delhi</title>
     <meta name="description" content="Capital Account Certificate by a CA with UDIN for FEMA reporting. Supports FC-GPR, ECB drawdown, and FC-TRS for FDI and foreign currency loans. From INR 2,499.">
     <link rel="canonical" href="/capital-account-certificate/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

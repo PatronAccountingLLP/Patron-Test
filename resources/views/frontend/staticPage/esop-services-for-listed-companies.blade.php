@@ -15,7 +15,7 @@
 
 
 @section('meta')
-    <title>ESOP Services for Listed Companies 2026: SEBI SBEB | Patron Accounting</title>
+    <title>ESOP Services for Listed Companies: SEBI SBEB</title>
     <meta name="description" content="End-to-end ESOP compliance for listed companies under the SEBI SBEB Regulations and Regulation 9A: scheme, approvals, disclosures and reporting. Get a quote.">
     <link rel="canonical" href="/esop-services-for-listed-companies">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

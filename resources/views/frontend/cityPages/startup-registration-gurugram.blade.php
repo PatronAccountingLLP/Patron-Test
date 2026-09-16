@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Startup India Registration Gurugram - DPIIT Benefits</title>
-    <meta name="description" content="CA-managed Startup India DPIIT recognition in Gurugram. Zero fee. Tax exemption Section 80IAC. SaaS, fintech, deeptech. Serving Cyber City, Sohna Rd. Call +91 945 945 6700.">
+    <meta name="description" content="CA-managed Startup India DPIIT recognition in Gurugram. Zero fee. Tax exemption Section 80IAC. SaaS, fintech, deeptech. Serving Cyber City, Sohna Rd.">
     <link rel="canonical" href="/startup-registration/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Startup India Registration Gurugram - DPIIT Benefits">

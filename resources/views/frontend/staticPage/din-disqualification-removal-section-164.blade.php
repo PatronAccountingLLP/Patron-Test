@@ -17,7 +17,7 @@
 
 
 @section('meta')
-    <title>DIN Disqualification Removal Section 164 2026 | Patron Accounting</title>
+    <title>DIN Disqualification Removal Section 164</title>
     <meta name="description" content="Remove director disqualification under Section 164(2) and reactivate your DIN through NCLT revival or DIR-10. Expert CA and CS help. From INR 24,999.">
     <link rel="canonical" href="/din-disqualification-removal-section-164">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

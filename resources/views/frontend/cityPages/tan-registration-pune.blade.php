@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>TAN Registration in Pune - Form 49B, Process & Fees</title>
-    <meta name="description" content="CA-assisted TAN registration in Pune. Form 49B via Protean. TDS return filing, TRACES setup, Form 16/16A included. Serving Hinjewadi, Chakan employers. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted TAN registration in Pune. Form 49B via Protean. TDS return filing, TRACES setup, Form 16/16A included. Serving Hinjewadi, Chakan employers.">
     <link rel="canonical" href="/tan-registration/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="TAN Registration in Pune - Form 49B, Process & Fees">

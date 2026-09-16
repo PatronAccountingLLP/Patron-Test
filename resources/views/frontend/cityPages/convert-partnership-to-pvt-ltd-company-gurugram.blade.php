@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Convert Partnership to Pvt Ltd Gurugram - URC-1 Process</title>
-    <meta name="description" content="CA/CS-assisted partnership firm to Pvt Ltd conversion in Gurugram. Section 366, URC-1, tax-neutral, limited liability, ROC Haryana. Serving Udyog Vihar, Cyber City. Call +91 945 945 6700.">
+    <meta name="description" content="CA/CS-assisted partnership firm to Pvt Ltd conversion in Gurugram. Section 366, URC-1, tax-neutral, limited liability, ROC Haryana.">
     <link rel="canonical" href="/convert-partnership-to-pvt-ltd-company/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Convert Partnership to Pvt Ltd Gurugram - URC-1 Process">

@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Object Clause Change in Mumbai - MOA Alteration & MGT-14</title>
-    <meta name="description" content="CA-assisted object clause change for companies in Mumbai. MOA Clause III alteration, special resolution, MGT-14 filing, ROC Everest House. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted object clause change for companies in Mumbai. MOA Clause III alteration, special resolution, MGT-14 filing, ROC Everest House.">
     <link rel="canonical" href="/change-in-object-clause/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Object Clause Change in Mumbai - MOA Alteration & MGT-14">

@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Issue of Shares Gurugram - PAS-3 & Private Placement</title>
-    <meta name="description" content="CA/CS-assisted share issuance in Gurugram. Preferential allotment, rights issue, PAS-3, valuation, ESOP, bonus. Serving Cyber City, Golf Course Road. Call +91 945 945 6700.">
+    <meta name="description" content="CA/CS-assisted share issuance in Gurugram. Preferential allotment, rights issue, PAS-3, valuation, ESOP, bonus. Serving Cyber City, Golf Course Road.">
     <link rel="canonical" href="/issue-of-shares/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Issue of Shares Gurugram - PAS-3 & Private Placement">

@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>IEC Code Renewal in Mumbai - DGFT Process & Deadline</title>
-    <meta name="description" content="IEC renewal in Mumbai. Annual IEC updation April-June on DGFT portal. Deactivation prevention, reactivation, modification. JNPT, Air Cargo, Mumbai Port. CA-led. Call +91 945 945 6700.">
+    <meta name="description" content="IEC renewal in Mumbai. Annual IEC updation April-June on DGFT portal. Deactivation prevention, reactivation, modification. JNPT, Air Cargo, Mumbai Port.">
     <link rel="canonical" href="/iec-renewal/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="IEC Code Renewal in Mumbai - DGFT Process & Deadline">

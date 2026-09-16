@@ -15,7 +15,7 @@
 
 
 @section('meta')
-    <title>Public Charitable Trust Registration 2026 | Patron Accounting</title>
+    <title>Public Charitable Trust Registration</title>
     <meta name="description" content="Register a public charitable trust in India under Indian Trusts Act 1882 with trust deed, Charity Commissioner and 12A/80G (Section 332 RNPO). From INR 9,999.">
     <link rel="canonical" href="/trust-registration-public-charitable">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

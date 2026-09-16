@@ -15,7 +15,7 @@
 
 
 @section('meta')
-    <title>ESOP at Acquisition 2026: Change of Control | Patron Accounting</title>
+    <title>ESOP at Acquisition: Change of Control</title>
     <meta name="description" content="What happens to ESOPs in an acquisition: single vs double-trigger acceleration, unvested options, rollover and cash-out, structured in India. From Rs 49,999.">
     <link rel="canonical" href="/esop-at-acquisition-and-change-of-control">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

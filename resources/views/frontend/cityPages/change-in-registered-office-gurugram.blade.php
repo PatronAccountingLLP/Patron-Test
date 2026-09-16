@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Registered Office Change Gurugram - INC-22 & INC-23</title>
-    <meta name="description" content="CA/CS-assisted registered office change in Gurugram. INC-22, INC-23, within city, inter-state. ROC Haryana Chandigarh. Serving Cyber City, Golf Course Road. Call +91 945 945 6700.">
+    <meta name="description" content="CA/CS-assisted registered office change in Gurugram. INC-22, INC-23, within city, inter-state. ROC Haryana Chandigarh. Serving Cyber City, Golf Course Road.">
     <link rel="canonical" href="/change-in-registered-office/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Registered Office Change Gurugram - INC-22 & INC-23">

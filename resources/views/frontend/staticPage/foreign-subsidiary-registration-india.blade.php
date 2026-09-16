@@ -15,7 +15,7 @@
 
 
 @section('meta')
-    <title>Foreign Subsidiary Registration in India 2026 | Patron Accounting</title>
+    <title>Foreign Subsidiary Registration in India</title>
     <meta name="description" content="Register a foreign company in India: wholly-owned subsidiary, branch, liaison or project office, with FDI and FEMA compliance. From INR 49,999.">
     <link rel="canonical" href="/foreign-subsidiary-registration-india">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

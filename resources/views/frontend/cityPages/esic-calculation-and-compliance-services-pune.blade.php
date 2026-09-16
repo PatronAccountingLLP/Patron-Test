@@ -46,7 +46,7 @@
 
 @section('meta')
     <title>ESIC Calculation &amp; Compliance in Pune – Returns &amp; Wages</title>
-    <meta name="description" content="CA-assisted ESIC calculation and compliance in Pune. Accurate ESI contributions, return filing, and registration. Serving Hinjewadi, Kharadi, Chakan MIDC. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted ESIC calculation and compliance in Pune. Accurate ESI contributions, return filing, and registration. Serving Hinjewadi, Kharadi, Chakan MIDC.">
     <link rel="canonical" href="/esic-calculation-and-compliance-services/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="ESIC Calculation &amp; Compliance in Pune – Returns &amp; Wages">

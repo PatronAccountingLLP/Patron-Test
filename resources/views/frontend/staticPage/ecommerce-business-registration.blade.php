@@ -15,7 +15,7 @@
 
 
 @section('meta')
-    <title>Ecommerce Business Registration in India 2026 | Patron Accounting</title>
+    <title>Ecommerce Business Registration in India</title>
     <meta name="description" content="Register your ecommerce business in India: Pvt Ltd plus mandatory GST under Section 24, with IEC and DPIIT. Built for marketplace sellers. From INR 9,999.">
     <link rel="canonical" href="/ecommerce-business-registration">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

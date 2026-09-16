@@ -1,7 +1,7 @@
 @extends('layouts.service-app')
 
 @section('meta')
-<title>Stock Audit in Pune: Chakan and Ranjangaon Plant Counts | Patron Accounting</title>
+<title>Stock Audit in Pune: Chakan and Ranjangaon Plant Counts</title>
     <meta name="description" content="CA-led stock audit in Pune covers auto component and engineering plants. Teams count stock across the Chakan, Ranjangaon, Talegaon and PCMC belts.">
     <link rel="canonical" href="https://www.patronaccounting.com/stock-audit/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Income Tax Demand u/s 156 Delhi NCR – Reply &amp; Payment</title>
-    <meta name="description" content="CA-assisted response to income tax demand notice under Section 156 in Delhi. Agree, dispute or appeal outstanding demands. Serving Connaught Place, Nehru Place, Okhla taxpayers. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted response to income tax demand notice under Section 156 in Delhi. Agree, dispute or appeal outstanding demands.">
     <link rel="canonical" href="/income-tax-demand-under-section-156/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Income Tax Demand u/s 156 Delhi NCR – Reply &amp; Payment">

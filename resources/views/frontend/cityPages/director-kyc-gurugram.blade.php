@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Director KYC Gurugram - DIR-3 KYC & Sep 30 Deadline</title>
-    <meta name="description" content="CA-assisted DIR-3 KYC filing in Gurugram. 2026 triennial amendment, DIN reactivation, Rs 5000 penalty, foreign director KYC. Serving Cyber City, Golf Course Road. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted DIR-3 KYC filing in Gurugram. triennial amendment, DIN reactivation, Rs 5000 penalty, foreign director KYC.">
     <link rel="canonical" href="/director-kyc/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Director KYC Gurugram - DIR-3 KYC & Sep 30 Deadline">

@@ -15,7 +15,7 @@
 
 
 @section('meta')
-    <title>IT and SaaS Company Registration in India 2026 | Patron Accounting</title>
+    <title>IT and SaaS Company Registration in India</title>
     <meta name="description" content="Register your IT or SaaS company in India: Pvt Ltd, DPIIT and ESOP-ready, with LUT for service exports and STPI registration. From INR 9,999.">
     <link rel="canonical" href="/it-saas-company-registration-india">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

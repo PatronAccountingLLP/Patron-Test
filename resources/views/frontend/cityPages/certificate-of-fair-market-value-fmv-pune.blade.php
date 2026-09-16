@@ -628,7 +628,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 
 @section('meta')
-    <title>Certificate of Fair Market Value (FMV) 2026 | Patron Accounting</title>
+    <title>Certificate of Fair Market Value (FMV)</title>
     <meta name="description" content="CA fair market value certificate in Pune under Rule 11UA for share transfers, ESOP, and mergers. NAV valuation, UDIN-verified. From INR 9,999.">
     <link rel="canonical" href="/certificate-of-fair-market-value-fmv/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

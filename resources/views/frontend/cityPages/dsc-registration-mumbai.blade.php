@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>DSC Registration in Mumbai - Class 3 Digital Signature</title>
-    <meta name="description" content="Get Class 3 DSC in Mumbai. For MCA, GST, income tax, e-tender, EPFO. New issuance, renewal, portal registration, emSigner setup. Same-day delivery. Call +91 945 945 6700.">
+    <meta name="description" content="Get Class 3 DSC in Mumbai. For MCA, GST, income tax, e-tender, EPFO. New issuance, renewal, portal registration, emSigner setup. Same-day delivery.">
     <link rel="canonical" href="/dsc-registration/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="DSC Registration in Mumbai - Class 3 Digital Signature">

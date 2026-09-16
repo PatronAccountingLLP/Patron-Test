@@ -46,7 +46,7 @@
 
 @section('meta')
     <title>GST Annual Return in Pune – GSTR-9, GSTR-9C &amp; Due Date</title>
-    <meta name="description" content="CA-assisted GST annual return filing in Pune. GSTR-9 and GSTR-9C reconciliation for businesses above Rs 2 crore. Serving Hinjewadi, Kharadi, Chakan MIDC. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted GST annual return filing in Pune. GSTR-9 and GSTR-9C reconciliation for businesses above Rs 2 crore. Serving Hinjewadi, Kharadi, Chakan MIDC.">
     <link rel="canonical" href="/gst-annual-returns/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="GST Annual Return in Pune – GSTR-9, GSTR-9C &amp; Due Date">

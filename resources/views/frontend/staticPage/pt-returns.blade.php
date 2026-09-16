@@ -17,7 +17,7 @@
 
 @section('meta')
     <title>Professional Tax Return Filing - Process, Due Date & Slabs</title>
-    <meta name="description" content="Professional tax returns are mandatory state-level filings by employers and professionals. Know PTRC and PTEC due dates, state-wise slabs, penalties and filing process. Starts Rs 999.">
+    <meta name="description" content="Professional tax returns are mandatory state-level filings by employers and professionals.">
     <link rel="canonical" href="/pt-returns">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Professional Tax Return Filing - Process, Due Date & Slabs">

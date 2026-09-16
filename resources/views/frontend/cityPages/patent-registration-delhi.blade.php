@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Patent Registration in Delhi - Filing, Fees & Examination</title>
-    <meta name="description" content="CA-assisted Patent Registration in Delhi. Provisional and complete applications filed online. Serving Connaught Place, Nehru Place, Okhla. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted Patent Registration in Delhi. Provisional and complete applications filed online. Serving Connaught Place, Nehru Place, Okhla.">
     <link rel="canonical" href="/patent-registration/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Patent Registration in Delhi - Filing, Fees & Examination">

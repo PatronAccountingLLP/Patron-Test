@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Trademark Registration in Delhi - TM-A, Fees & Process</title>
-    <meta name="description" content="CA-assisted trademark registration in Delhi. Brand, logo and name protection via IP India. 50% startup/MSME fee concession. Serving CP, Okhla, Dwarka. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted trademark registration in Delhi. Brand, logo and name protection via IP India. 50% startup/MSME fee concession. Serving CP, Okhla, Dwarka.">
     <link rel="canonical" href="/trademark-registration/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Trademark Registration in Delhi - TM-A, Fees & Process">

@@ -17,7 +17,7 @@
 
 
 @section('meta')
-    <title>Corporate Compliance for Private Limited Co, 2026 | Patron Accounting</title>
+    <title>Corporate Compliance for Private Limited Co</title>
     <meta name="description" content="Complete corporate compliance for a private limited company, AOC-4, MGT-7, audit, board meetings, KYC and event filings, managed end to end. From INR 9,999.">
     <link rel="canonical" href="/corporate-compliance-for-private-limited-company">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

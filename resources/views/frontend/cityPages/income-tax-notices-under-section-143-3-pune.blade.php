@@ -46,7 +46,7 @@
 
 @section('meta')
     <title>Income Tax Notice u/s 143(3) in Pune – Scrutiny &amp; Reply</title>
-    <meta name="description" content="CA assisted scrutiny assessment response under Section 143(3) for Pune taxpayers. Faceless assessment, e-Proceedings, CASS, document submission, appeal. Salaried, business, company. Call +91 945 945 6700.">
+    <meta name="description" content="CA assisted scrutiny assessment response under Section 143(3) for Pune taxpayers. Faceless assessment, e-Proceedings, CASS, document submission, appeal.">
     <link rel="canonical" href="/income-tax-notices-under-section-143-3/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Income Tax Notice u/s 143(3) in Pune – Scrutiny &amp; Reply">

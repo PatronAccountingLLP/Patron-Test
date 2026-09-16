@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Object Clause Change Gurugram - MOA Alteration & MGT-14</title>
-    <meta name="description" content="CA/CS-assisted object clause change in Gurugram. Section 13, Special Resolution, MGT-14 filing, ROC Haryana. Add, modify, or delete business objects. Call +91 945 945 6700.">
+    <meta name="description" content="CA/CS-assisted object clause change in Gurugram. Section 13, Special Resolution, MGT-14 filing, ROC Haryana. Add, modify, or delete business objects.">
     <link rel="canonical" href="/change-in-object-clause/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Object Clause Change Gurugram - MOA Alteration & MGT-14">

@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>FSSAI State License in Mumbai - Eligibility & Fees</title>
-    <meta name="description" content="FSSAI state license in Mumbai. Turnover Rs 1.5 crore to Rs 50 crore (2026 threshold). FDA Maharashtra, perpetual validity, Form B, Schedule 4, annual return. CA-led. Call +91 945 945 6700.">
+    <meta name="description" content="FSSAI state license in Mumbai. Turnover Rs 1.5 crore to Rs 50 crore (2026 threshold). FDA Maharashtra, perpetual validity, Form B, Schedule 4, annual return.">
     <link rel="canonical" href="/fssai-state-license/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="FSSAI State License in Mumbai - Eligibility & Fees">

@@ -46,7 +46,7 @@
 
 @section('meta')
     <title>ITR for F&amp;O Traders in Pune – ITR-3, Turnover &amp; Audit</title>
-    <meta name="description" content="CA-assisted ITR-3 filing for F&O traders in Pune. Turnover calculation, tax audit, loss carry-forward, and advance tax. Serving salaried IT professionals and full-time traders. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted ITR-3 filing for F&amp;O traders in Pune. Turnover calculation, tax audit, loss carry-forward, and advance tax.">
     <link rel="canonical" href="/itr-for-fando-traders/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="ITR for F&amp;O Traders in Pune – ITR-3, Turnover &amp; Audit">

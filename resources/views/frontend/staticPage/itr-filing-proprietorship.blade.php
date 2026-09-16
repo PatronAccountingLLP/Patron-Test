@@ -15,7 +15,7 @@
 
 
 @section('meta')
-    <title>ITR Filing for Proprietorship 2026: ITR-3/ITR-4 | Patron Accounting</title>
+    <title>ITR Filing for Proprietorship: ITR-3/ITR-4</title>
     <meta name="description" content="ITR filing for proprietorship - ITR-3 vs ITR-4 (Sugam), Section 44AD/44ADA presumptive, new vs old regime via Form 10-IEA. Starting from INR 3,499.">
     <link rel="canonical" href="/itr-filing-proprietorship">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

@@ -46,7 +46,7 @@
 
 @section('meta')
     <title>Appointment of Auditor in Pune – Section 139 &amp; ADT-1</title>
-    <meta name="description" content="CA/CS-assisted auditor appointment in Pune. First auditor, subsequent auditor, Form ADT-1, Section 139/141, auditor rotation, casual vacancy. ROC Pune filing. Serving Hinjewadi, Kharadi companies. Call +91 945 945 6700.">
+    <meta name="description" content="CA/CS-assisted auditor appointment in Pune. First auditor, subsequent auditor, Form ADT-1, Section 139/141, auditor rotation, casual vacancy. ROC Pune filing.">
     <link rel="canonical" href="/appointment-of-auditor/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Appointment of Auditor in Pune – Section 139 &amp; ADT-1">

@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Trademark Hearing Delhi NCR – Process, Prep &amp; Order</title>
-    <meta name="description" content="Trademark show cause hearing in Delhi? Patron provides hearing representation at Trade Marks Registry Delhi. Preparation, evidence, attendance. Call +91 945 945 6700.">
+    <meta name="description" content="Trademark show cause hearing in Delhi? Patron provides hearing representation at Trade Marks Registry Delhi. Preparation, evidence, attendance.">
     <link rel="canonical" href="/trademark-hearing/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Trademark Hearing Delhi NCR – Process, Prep &amp; Order">

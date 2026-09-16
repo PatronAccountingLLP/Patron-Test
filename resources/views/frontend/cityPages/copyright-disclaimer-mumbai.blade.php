@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Copyright Disclaimer in Mumbai - Draft & Template</title>
-    <meta name="description" content="Copyright disclaimer drafting in Mumbai. Ownership notices, S.52 fair dealing disclaimers, website IP terms, takedown policies, brand protection. CA-led. Call +91 945 945 6700.">
+    <meta name="description" content="Copyright disclaimer drafting in Mumbai. Ownership notices, S.52 fair dealing disclaimers, website IP terms, takedown policies, brand protection. CA-led.">
     <link rel="canonical" href="/copyright-disclaimer/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Copyright Disclaimer in Mumbai - Draft & Template">

@@ -46,7 +46,7 @@
 
 @section('meta')
     <title>Company Name Change in Pune – INC-24, INC-25 &amp; ROC</title>
-    <meta name="description" content="CA/CS-assisted company name change in Pune. RUN reservation, special resolution, Form MGT-14/INC-24, ROC Pune approval, PAN/GST update. Serving Hinjewadi, Kharadi startups. Call +91 945 945 6700.">
+    <meta name="description" content="CA/CS-assisted company name change in Pune. RUN reservation, special resolution, Form MGT-14/INC-24, ROC Pune approval, PAN/GST update.">
     <link rel="canonical" href="/change-in-name-of-company/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Company Name Change in Pune – INC-24, INC-25 &amp; ROC">

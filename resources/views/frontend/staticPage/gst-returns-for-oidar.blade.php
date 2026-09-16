@@ -18,7 +18,7 @@
 
 @section('meta')
     <title>GST for OIDAR Services - Registration, Returns & Compliance</title>
-    <meta name="description" content="OIDAR service providers must file GSTR-5A monthly by the 20th. Know OIDAR GST registration via REG-10, 18% IGST rate, place of supply rules and penalties. Starts Rs 4,999.">
+    <meta name="description" content="OIDAR service providers must file GSTR-5A monthly by the 20th. Know OIDAR GST registration via REG-10, 18% IGST rate, place of supply rules and penalties.">
     <link rel="canonical" href="/gst-returns-for-oidar">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="GST for OIDAR Services - Registration, Returns & Compliance">

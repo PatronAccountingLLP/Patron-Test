@@ -630,7 +630,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 
 @section('meta')
-    <title>Certificate of Fair Market Value in Mumbai 2026: Rule 11UA | Patron Accounting</title>
+    <title>Certificate of Fair Market Value in Mumbai: Rule 11UA</title>
     <meta name="description" content="CA certificate of fair market value of unquoted shares under Rule 11UA, for Section 50CA, 56(2)(x), ESOP and FEMA use. UDIN-verified. From INR 9,999.">
     <link rel="canonical" href="/certificate-of-fair-market-value-fmv/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

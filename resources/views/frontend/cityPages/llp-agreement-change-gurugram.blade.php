@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>LLP Agreement Amendment Gurugram - Deed & Form 3</title>
-    <meta name="description" content="CA/CS-assisted LLP agreement amendment in Gurugram. Form 3, supplementary deed, profit sharing, partner changes, stamp duty, ROC Haryana. Serving Cyber City, Sohna Road. Call +91 945 945 6700.">
+    <meta name="description" content="CA/CS-assisted LLP agreement amendment in Gurugram. Form 3, supplementary deed, profit sharing, partner changes, stamp duty, ROC Haryana.">
     <link rel="canonical" href="/llp-agreement-change/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="LLP Agreement Amendment Gurugram - Deed & Form 3">

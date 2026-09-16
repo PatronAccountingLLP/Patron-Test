@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Turnover Cert. for Tender Gurugram – GeM &amp; CA Format</title>
-    <meta name="description" content="CA-issued turnover certificate for tender in Gurugram with UDIN. Same-day delivery from our Golf Course Road office. GeM, Haryana tenders. Call +91 945 945 6700.">
+    <meta name="description" content="CA-issued turnover certificate for tender in Gurugram with UDIN. Same-day delivery from our Golf Course Road office. GeM, Haryana tenders.">
     <link rel="canonical" href="/turnover-certificate-for-tender/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Turnover Cert. for Tender Gurugram – GeM &amp; CA Format">

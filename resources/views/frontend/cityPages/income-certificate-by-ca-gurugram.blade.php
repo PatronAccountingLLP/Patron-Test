@@ -628,7 +628,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 
 @section('meta')
-    <title>Income Certificate by CA in Gurugram 2026 | Patron Accounting</title>
+    <title>Income Certificate by CA in Gurugram</title>
     <meta name="description" content="Income Certificate by a CA with UDIN, attesting your annual income for visa, loan, and insurance. Distinct from ITR and Form 16. From INR 1,999.">
     <link rel="canonical" href="/income-certificate-by-ca/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

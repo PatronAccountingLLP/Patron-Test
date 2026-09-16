@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>ITR for Companies Gurugram - ITR-6, MAT & AMT</title>
-    <meta name="description" content="CA-assisted ITR-6 filing for companies in Gurugram. Section 115BAA/115BAB, MAT, statutory audit, transfer pricing. Serving Cyber City, Manesar, Golf Course Road. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted ITR-6 filing for companies in Gurugram. Section 115BAA/115BAB, MAT, statutory audit, transfer pricing.">
     <link rel="canonical" href="/itr-for-companies/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="ITR for Companies Gurugram - ITR-6, MAT & AMT">

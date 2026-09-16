@@ -2,7 +2,7 @@
 
 @section('meta')
     <title>Startup GSTAT Appeal - Inverted Duty & Refund | Patron</title>
-    <meta name="description" content="GSTAT appeal for startups facing GST registration cancellation, place of supply disputes, ITC reversal, and ESOP cross charges. 10% pre-deposit. 3-month deadline. Patron Accounting.">
+    <meta name="description" content="GSTAT appeal for startups facing GST registration cancellation, place of supply disputes, ITC reversal, and ESOP cross charges. 10% pre-deposit.">
     <link rel="canonical" href="/gstat-appeal-startups">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Startup GSTAT Appeal - Inverted Duty & Refund | Patron">

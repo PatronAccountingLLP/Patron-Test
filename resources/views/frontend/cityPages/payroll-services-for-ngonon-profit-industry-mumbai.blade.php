@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>NGO & Non-Profit Accounting Mumbai - Bookkeeping & Audit</title>
-    <meta name="description" content="CA-led NGO payroll in Mumbai. FCRA 20% admin cap, 12A/80G 85% application, Charity Commissioner IX-C, project-wise allocation, PF/ESI for Colaba, Andheri NGOs. Call +91 945 945 6700.">
+    <meta name="description" content="CA-led NGO payroll in Mumbai. FCRA 20% admin cap, 12A/80G 85% application, Charity Commissioner IX-C, project-wise allocation, PF/ESI for Colaba.">
     <link rel="canonical" href="/payroll-services-for-ngonon-profit-industry/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="NGO & Non-Profit Accounting Mumbai - Bookkeeping & Audit">

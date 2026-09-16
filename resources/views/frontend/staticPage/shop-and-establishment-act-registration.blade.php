@@ -15,7 +15,7 @@
 
 
 @section('meta')
-    <title>Shop and Establishment Act Registration 2026 | Patron Accounting</title>
+    <title>Shop and Establishment Act Registration</title>
     <meta name="description" content="Get your Shop and Establishment Act registration (Gumasta) for shops, offices and commercial premises across Indian states. Mandatory, online. From INR 1,999.">
     <link rel="canonical" href="/shop-and-establishment-act-registration">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

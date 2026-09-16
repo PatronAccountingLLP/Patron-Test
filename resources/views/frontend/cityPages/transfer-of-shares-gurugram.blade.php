@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Transfer of Shares Gurugram - SH-4, Stamp Duty & Process</title>
-    <meta name="description" content="CA/CS-assisted share transfer in Gurugram. SH-4, stamp duty, FC-TRS, FEMA, demat, ROFR, capital gains. Serving Cyber City, Golf Course Road. Call +91 945 945 6700.">
+    <meta name="description" content="CA/CS-assisted share transfer in Gurugram. SH-4, stamp duty, FC-TRS, FEMA, demat, ROFR, capital gains. Serving Cyber City, Golf Course Road.">
     <link rel="canonical" href="/transfer-of-shares/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Transfer of Shares Gurugram - SH-4, Stamp Duty & Process">

@@ -2,7 +2,7 @@
 
 @section('meta')
     <title>GSTAT Appeal Filing in Bengaluru 2026 | Patron Accounting</title>
-    <meta name="description" content="File your GSTAT appeal at Bengaluru bench covering Bengaluru, Ramanagara, Tumkur, Kolar, Mysuru, Mandya, Hassan. Patron's CA team and of-counsel specialists handle Karnataka proceedings.">
+    <meta name="description" content="File your GSTAT appeal at Bengaluru bench covering Bengaluru, Ramanagara, Tumkur, Kolar, Mysuru, Mandya, Hassan.">
     <link rel="canonical" href="/gstat-appeal-filing/bengaluru">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="GSTAT Appeal Filing in Bengaluru 2026 | Patron Accounting">

@@ -46,7 +46,7 @@
 
 @section('meta')
     <title>Income Tax Notice u/s 148 in Pune – 148A &amp; Reply</title>
-    <meta name="description" content="CA assisted response to Section 148 reassessment notice for Pune taxpayers. 148A SCN challenge, reply strategy, time limit defence, appeal, writ. Property, NRI, business. Call +91 945 945 6700.">
+    <meta name="description" content="CA assisted response to Section 148 reassessment notice for Pune taxpayers. 148A SCN challenge, reply strategy, time limit defence, appeal, writ.">
     <link rel="canonical" href="/income-tax-notices-under-section-148/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Income Tax Notice u/s 148 in Pune – 148A &amp; Reply">

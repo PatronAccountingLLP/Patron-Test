@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Trademark Cease & Desist Notice Pune - Drafting & Reply</title>
-    <meta name="description" content="CA-assisted trademark notice reply in Pune. Cease-and-desist response, infringement defence, counter-notice, coexistence negotiation. Protect your brand rights. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted trademark notice reply in Pune. Cease-and-desist response, infringement defence, counter-notice, coexistence negotiation.">
     <link rel="canonical" href="/trademark-notice/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Trademark Cease & Desist Notice Pune - Drafting & Reply">

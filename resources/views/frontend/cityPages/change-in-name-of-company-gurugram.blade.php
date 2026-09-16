@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Company Name Change Gurugram - INC-24, INC-25 & ROC</title>
-    <meta name="description" content="CA/CS-assisted company name change in Gurugram. Section 13, RUN, INC-24, MGT-14, ROC Haryana, fresh COI. Serving Cyber City, Golf Course Road companies. Call +91 945 945 6700.">
+    <meta name="description" content="CA/CS-assisted company name change in Gurugram. Section 13, RUN, INC-24, MGT-14, ROC Haryana, fresh COI. Serving Cyber City, Golf Course Road companies.">
     <link rel="canonical" href="/change-in-name-of-company/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Company Name Change Gurugram - INC-24, INC-25 & ROC">

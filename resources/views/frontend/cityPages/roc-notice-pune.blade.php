@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>ROC Compliance Filing in Pune - AOC-4, MGT-7 & Returns</title>
-    <meta name="description" content="CA and CS assisted ROC notice response in Pune. Strike-off reply, adjudication defence, CCFS 2026 filing, and company restoration. Serving Hinjewadi, Kharadi, Baner. Call +91 945 945 6700.">
+    <meta name="description" content="CA and CS assisted ROC notice response in Pune. Strike-off reply, adjudication defence, CCFS filing, and company restoration.">
     <link rel="canonical" href="/roc-notice/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="ROC Compliance Filing in Pune - AOC-4, MGT-7 & Returns">

@@ -17,7 +17,7 @@
 
 
 @section('meta')
-    <title>BEN-4 Notice for Non-Compliant Shareholders 2026 | Patron Accounting</title>
+    <title>BEN-4 Notice for Non-Compliant Shareholders</title>
     <meta name="description" content="Issue a BEN-4 notice under Section 90(5) when a shareholder will not declare SBO, and apply to the NCLT to restrict the shares. From INR 4,999.">
     <link rel="canonical" href="/ben-4-notice-from-non-compliant-shareholders">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

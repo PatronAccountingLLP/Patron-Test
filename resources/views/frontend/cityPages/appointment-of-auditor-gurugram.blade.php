@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Appointment of Auditor Gurugram - Section 139 & ADT-1</title>
-    <meta name="description" content="CA/CS-assisted auditor appointment in Gurugram. Section 139, ADT-1, first auditor, rotation, AGM reappointment, ROC Haryana. Serving Cyber City, Golf Course Road. Call +91 945 945 6700.">
+    <meta name="description" content="CA/CS-assisted auditor appointment in Gurugram. Section 139, ADT-1, first auditor, rotation, AGM reappointment, ROC Haryana.">
     <link rel="canonical" href="/appointment-of-auditor/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Appointment of Auditor Gurugram - Section 139 & ADT-1">

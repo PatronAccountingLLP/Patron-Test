@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Removal of Director in Pune - Section 169, DIR-12 & ROC</title>
-    <meta name="description" content="CA/CS-assisted director removal in Pune. Section 169 ordinary resolution, special notice, Form DIR-12, vacation of office, EGM filing, replacement director. Serving Hinjewadi, Kharadi companies. Call +91 945 945 6700.">
+    <meta name="description" content="CA/CS-assisted director removal in Pune. Section 169 ordinary resolution, special notice, Form DIR-12, vacation of office, EGM filing, replacement director.">
     <link rel="canonical" href="/removal-of-director/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Removal of Director in Pune - Section 169, DIR-12 & ROC">

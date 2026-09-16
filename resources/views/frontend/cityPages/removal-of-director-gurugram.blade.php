@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Removal of Director Gurugram - Sec 169, DIR-12 & ROC</title>
-    <meta name="description" content="CA/CS-assisted director removal in Gurugram. Section 169 removal, resignation, vacation, DIR-12, special notice, co-founder exit. Serving Cyber City, Golf Course Road. Call +91 945 945 6700.">
+    <meta name="description" content="CA/CS-assisted director removal in Gurugram. Section 169 removal, resignation, vacation, DIR-12, special notice, co-founder exit.">
     <link rel="canonical" href="/removal-of-director/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Removal of Director Gurugram - Sec 169, DIR-12 & ROC">

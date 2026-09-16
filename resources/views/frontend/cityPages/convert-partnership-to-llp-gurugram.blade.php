@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Convert Partnership to LLP Gurugram - Form 17 & FiLLiP</title>
-    <meta name="description" content="CA-assisted partnership to LLP conversion in Gurugram. Section 55, Form 17, limited liability, tax-neutral, automatic vesting, ROC Haryana. Serving Udyog Vihar, Cyber City. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted partnership to LLP conversion in Gurugram. Section 55, Form 17, limited liability, tax-neutral, automatic vesting, ROC Haryana.">
     <link rel="canonical" href="/convert-partnership-to-llp/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Convert Partnership to LLP Gurugram - Form 17 & FiLLiP">

@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Internal Audit in Pune - Scope, IFC, Risk & Reporting</title>
-    <meta name="description" content="CA-led internal audit services in Pune. Risk-based audit, COSO framework, IFC assessment, Section 138 compliance. Serving Chakan, Hinjewadi companies. Call +91 945 945 6700.">
+    <meta name="description" content="CA-led internal audit services in Pune. Risk-based audit, COSO framework, IFC assessment, Section 138 compliance. Serving Chakan, Hinjewadi companies.">
     <link rel="canonical" href="/internal-audit/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Internal Audit in Pune - Scope, IFC, Risk & Reporting">

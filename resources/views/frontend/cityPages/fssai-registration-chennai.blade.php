@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>FSSAI Registration in Chennai – Process, Fees &amp; FoSCoS</title>
-    <meta name="description" content="CA-assisted FSSAI registration in Chennai. Basic, state, central food licence via FoSCoS. Serving OMR, Anna Salai, Mylapore food businesses. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted FSSAI registration in Chennai. Basic, state, central food licence via FoSCoS. Serving OMR, Anna Salai, Mylapore food businesses.">
     <link rel="canonical" href="/fssai-registration/chennai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="FSSAI Registration in Chennai – Process, Fees &amp; FoSCoS">

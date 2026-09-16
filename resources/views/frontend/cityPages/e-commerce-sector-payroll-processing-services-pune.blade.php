@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>E-Commerce Payroll in Pune - PF, ESI, TDS & Gig Workers</title>
-    <meta name="description" content="CA-assisted payroll for ecommerce companies in Pune. PF, ESIC, TDS, TCS, gig worker compliance for D2C brands and sellers. Serving Baner, Hinjewadi, Kharadi businesses. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted payroll for ecommerce companies in Pune. PF, ESIC, TDS, TCS, gig worker compliance for D2C brands and sellers.">
     <link rel="canonical" href="/e-commerce-sector-payroll-processing-services/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="E-Commerce Payroll in Pune - PF, ESI, TDS & Gig Workers">

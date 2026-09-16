@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>FCRA Registration for NGOs in Pune - MHA Rules & Renewal</title>
-    <meta name="description" content="CA-assisted FCRA registration in Pune for NGOs, trusts, societies, Section 8 companies. SBI FCRA account, FC-4 returns, 12AB/80G integration. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted FCRA registration in Pune for NGOs, trusts, societies, Section 8 companies. SBI FCRA account, FC-4 returns, 12AB/80G integration.">
     <link rel="canonical" href="/fcra-registration/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="FCRA Registration for NGOs in Pune - MHA Rules & Renewal">

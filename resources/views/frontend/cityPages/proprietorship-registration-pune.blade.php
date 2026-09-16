@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Proprietorship Registration in Pune - GST, MSME & Docs</title>
-    <meta name="description" content="Register your proprietorship in Pune. Gumasta licence, MSME Udyam, GST, PAN, PT, and bank account opening. CA-assisted. Freelancers to retailers, Hinjewadi to Market Yard. Start from Rs 2,999. Call +91 945 945 6700.">
+    <meta name="description" content="Register your proprietorship in Pune. Gumasta licence, MSME Udyam, GST, PAN, PT, and bank account opening. CA-assisted.">
     <link rel="canonical" href="/proprietorship-registration/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Proprietorship Registration in Pune - GST, MSME & Docs">

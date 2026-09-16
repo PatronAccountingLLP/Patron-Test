@@ -15,7 +15,7 @@
 
 
 @section('meta')
-    <title>Branch Office of Foreign Company in India 2026 | Patron Accounting</title>
+    <title>Branch Office of Foreign Company in India</title>
     <meta name="description" content="Set up a branch office of a foreign company in India via RBI approval and Form FNC, FC-1 ROC filing. Permitted activities, no manufacturing. From INR 89,999.">
     <link rel="canonical" href="/branch-office-of-foreign-company-india">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

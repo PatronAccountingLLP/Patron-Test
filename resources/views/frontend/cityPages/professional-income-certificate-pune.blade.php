@@ -628,7 +628,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 
 @section('meta')
-    <title>Professional Income Certificate by CA 2026 | Patron Accounting</title>
+    <title>Professional Income Certificate by CA</title>
     <meta name="description" content="CA professional income certificate in Pune for doctors, lawyers, and consultants. Practice income attested with UDIN for visa and loans. From INR 1,999.">
     <link rel="canonical" href="/professional-income-certificate/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

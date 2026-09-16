@@ -628,7 +628,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 
 @section('meta')
-    <title>FIRC for Foreign Inward Remittance in Gurugram 2026 | Patron Accounting</title>
+    <title>FIRC for Foreign Inward Remittance in Gurugram</title>
     <meta name="description" content="FIRC and e-FIRC support with CA attestation for exporters, freelancers, and SaaS founders. Proof of foreign payment for GST refund and FEMA. From INR 2,499.">
     <link rel="canonical" href="/inward-remittance-certificate-firc/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

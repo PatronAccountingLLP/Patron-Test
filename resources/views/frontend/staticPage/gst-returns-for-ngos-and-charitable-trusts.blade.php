@@ -628,7 +628,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 
 @section('meta')
-    <title>GST Returns for NGOs and Charitable Trusts 2026 | Patron Accounting</title>
+    <title>GST Returns for NGOs and Charitable Trusts</title>
     <meta name="description" content="GST returns for NGOs - Entry 1 Section 12AB exemption, charitable activities definition, grants vs services, FCRA + GST. Starting from INR 1,499 per month.">
     <link rel="canonical" href="/gst-returns-for-ngos-and-charitable-trusts">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

@@ -1,7 +1,7 @@
 @extends('layouts.service-app')
 
 @section('meta')
-<title>Stock Audit in Gurugram: Manesar and IMT Auto Plants | Patron Accounting</title>
+<title>Stock Audit in Gurugram: Manesar and IMT Auto Plants</title>
     <meta name="description" content="CA-led stock audit in Gurugram reaches the auto belt. Component, white goods and electronics stock is counted at IMT Manesar and Udyog Vihar.">
     <link rel="canonical" href="https://www.patronaccounting.com/stock-audit/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

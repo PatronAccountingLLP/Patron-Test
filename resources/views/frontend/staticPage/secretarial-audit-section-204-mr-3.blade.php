@@ -629,7 +629,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 
 @section('meta')
-    <title>Secretarial Audit Section 204 and MR-3 2026 | Patron Accounting</title>
+    <title>Secretarial Audit Section 204 and MR-3</title>
     <meta name="description" content="Section 204 secretarial audit for listed and large companies. MR-3 report by a Practising Company Secretary, with peer review for listed entities.">
     <link rel="canonical" href="/secretarial-audit-section-204-mr-3">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

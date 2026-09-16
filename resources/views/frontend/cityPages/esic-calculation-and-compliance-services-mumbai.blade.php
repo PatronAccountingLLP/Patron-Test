@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>ESIC Calculation & Compliance Mumbai - Returns & Wages</title>
-    <meta name="description" content="CA-assisted ESIC calculation and compliance in Mumbai. 3.25% employer, 0.75% employee contribution. Serving BKC, Andheri MIDC, SEEPZ businesses. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted ESIC calculation and compliance in Mumbai. 3.25% employer, 0.75% employee contribution. Serving BKC, Andheri MIDC, SEEPZ businesses.">
     <link rel="canonical" href="/esic-calculation-and-compliance-services/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="ESIC Calculation & Compliance Mumbai - Returns & Wages">

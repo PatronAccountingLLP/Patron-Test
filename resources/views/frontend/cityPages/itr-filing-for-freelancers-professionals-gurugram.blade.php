@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>ITR for Freelancers Gurugram - 44ADA, ITR-4 & TDS</title>
-    <meta name="description" content="CA-assisted ITR filing for freelancers in Gurugram. Section 44ADA, 44AD, IT consultants, doctors, lawyers. Upwork income, expense deduction, GST. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted ITR filing for freelancers in Gurugram. Section 44ADA, 44AD, IT consultants, doctors, lawyers. Upwork income, expense deduction, GST.">
     <link rel="canonical" href="/itr-filing-for-freelancers-professionals/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="ITR for Freelancers Gurugram - 44ADA, ITR-4 & TDS">

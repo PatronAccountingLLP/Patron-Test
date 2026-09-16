@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Trademark Formality Check Fail in Pune - Reply & Resubmit</title>
-    <meta name="description" content="CA-assisted trademark formality check fail reply in Pune. Correct errors, refile documents, respond within 1-month deadline. Serving Hinjewadi, Kharadi, MIDC brands. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted trademark formality check fail reply in Pune. Correct errors, refile documents, respond within 1-month deadline.">
     <link rel="canonical" href="/trademark-formality-check-fail/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Trademark Formality Check Fail in Pune - Reply & Resubmit">

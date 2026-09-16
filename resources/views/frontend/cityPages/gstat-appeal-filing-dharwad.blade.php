@@ -2,7 +2,7 @@
 
 @section('meta')
     <title>GSTAT Appeal Filing in Dharwad 2026 | Patron Accounting</title>
-    <meta name="description" content="File your GSTAT appeal at the Dharwad bench covering 7 North Karnataka districts including Dharwad, Belgaum, Hubli, and Karwar. Patron's CA team handles proceedings end-to-end.">
+    <meta name="description" content="File your GSTAT appeal at the Dharwad bench covering 7 North Karnataka districts including Dharwad, Belgaum, Hubli, and Karwar.">
     <link rel="canonical" href="/gstat-appeal-filing/dharwad">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="GSTAT Appeal Filing in Dharwad 2026 | Patron Accounting">

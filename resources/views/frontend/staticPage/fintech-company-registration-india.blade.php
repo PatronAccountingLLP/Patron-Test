@@ -15,7 +15,7 @@
 
 
 @section('meta')
-    <title>Fintech Company Registration in India 2026 | Patron Accounting</title>
+    <title>Fintech Company Registration in India</title>
     <meta name="description" content="Register your fintech company in India: Pvt Ltd plus the right RBI licence - NBFC, payment aggregator, PPI or P2P advisory. From INR 19,999.">
     <link rel="canonical" href="/fintech-company-registration-india">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

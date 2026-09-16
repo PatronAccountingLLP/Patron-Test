@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>LLP Capital Contribution in Pune - Form 3 & Deed</title>
-    <meta name="description" content="CA/CS-assisted LLP contribution change in Pune. Capital increase/decrease, supplementary agreement, Form 3, Maharashtra stamp duty, audit threshold. Serving Hinjewadi, Kharadi LLPs. Call +91 945 945 6700.">
+    <meta name="description" content="CA/CS-assisted LLP contribution change in Pune. Capital increase/decrease, supplementary agreement, Form 3, Maharashtra stamp duty, audit threshold.">
     <link rel="canonical" href="/llp-contribution-change/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="LLP Capital Contribution in Pune - Form 3 & Deed">

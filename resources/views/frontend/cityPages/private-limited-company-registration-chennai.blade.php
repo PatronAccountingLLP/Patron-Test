@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Pvt Ltd Company Registration in Chennai – SPICe+, Fees &amp; ROC</title>
-    <meta name="description" content="CA-assisted private limited company registration in Chennai. SPICe+ filing with RoC Chennai, MOA, AOA, DSC, DIN. Serving OMR, MEPZ businesses. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted private limited company registration in Chennai. SPICe+ filing with RoC Chennai, MOA, AOA, DSC, DIN. Serving OMR, MEPZ businesses.">
     <link rel="canonical" href="/private-limited-company-registration/chennai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Pvt Ltd Company Registration in Chennai – SPICe+, Fees &amp; ROC">

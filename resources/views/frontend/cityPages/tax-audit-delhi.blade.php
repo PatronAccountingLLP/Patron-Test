@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Tax Audit Delhi NCR – Sec 44AB, Form 3CD &amp; 3CA/3CB</title>
-    <meta name="description" content="CA-conducted tax audit under Section 44AB in Delhi. Form 3CA/3CB-3CD filing for businesses and professionals. Serving Connaught Place, Chandni Chowk, Okhla. Call +91 945 945 6700.">
+    <meta name="description" content="CA-conducted tax audit under Section 44AB in Delhi. Form 3CA/3CB-3CD filing for businesses and professionals. Serving Connaught Place, Chandni Chowk, Okhla.">
     <link rel="canonical" href="/tax-audit/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Tax Audit Delhi NCR – Sec 44AB, Form 3CD &amp; 3CA/3CB">

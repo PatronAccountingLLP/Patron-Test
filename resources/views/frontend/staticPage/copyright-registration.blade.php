@@ -16,7 +16,7 @@
 
 @section('meta')
     <title>Copyright Registration India - Form XIV, Fees & Process</title>
-    <meta name="description" content="Register copyright for literary, artistic, musical, dramatic works, software and films under the Copyright Act, 1957. Fees from Rs 500. Expert filing via Form XIV.">
+    <meta name="description" content="Register copyright for literary, artistic, musical, dramatic works, software and films under the Copyright Act, 1957. Fees from Rs 500.">
     <link rel="canonical" href="/copyright-registration">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Copyright Registration India - Form XIV, Fees & Process">

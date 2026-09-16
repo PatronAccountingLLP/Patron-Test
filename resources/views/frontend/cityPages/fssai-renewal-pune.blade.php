@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>FSSAI License Renewal in Pune - Process, Fees & Expiry</title>
-    <meta name="description" content="Renew FSSAI licence in Pune. Basic, State, Central. FoSCoS portal. Avoid Rs 100/day late fee. Restaurants, cloud kitchens, manufacturers. CA-assisted. Call +91 945 945 6700.">
+    <meta name="description" content="Renew FSSAI licence in Pune. Basic, State, Central. FoSCoS portal. Avoid Rs 100/day late fee. Restaurants, cloud kitchens, manufacturers. CA-assisted.">
     <link rel="canonical" href="/fssai-renewal/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="FSSAI License Renewal in Pune - Process, Fees & Expiry">

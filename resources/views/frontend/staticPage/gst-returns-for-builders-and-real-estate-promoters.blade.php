@@ -628,7 +628,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 
 @section('meta')
-    <title>GST Returns for Builders Real Estate Promoters 2026 | Patron Accounting</title>
+    <title>GST Returns for Builders Real Estate Promoters</title>
     <meta name="description" content="GST returns for builders - 1%/5% no ITC, RREP/REP, 80% URD threshold, cement 28% RCM, Notification 3/2019-CTR. Starting from INR 2,499 per month.">
     <link rel="canonical" href="/gst-returns-for-builders-and-real-estate-promoters">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

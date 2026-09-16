@@ -630,7 +630,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 
 @section('meta')
-    <title>Forensic Net Worth Certificate in Mumbai 2026: CA Report | Patron Accounting</title>
+    <title>Forensic Net Worth Certificate in Mumbai: CA Report</title>
     <meta name="description" content="CA forensic net worth certificate for divorce, succession and court disputes, with asset tracing and verified assets minus liabilities. From INR 2,499.">
     <link rel="canonical" href="/forensic-net-worth-certificate/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

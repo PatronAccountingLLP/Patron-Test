@@ -2,7 +2,7 @@
 
 @section('meta')
     <title>GSTAT Appeal Filing in Prayagraj 2026 | Patron Accounting</title>
-    <meta name="description" content="File your GSTAT appeal at Prayagraj bench covering Prayagraj, Fatehpur, Pratapgarh, Sultanpur, Amethi zones. Patron's CA team and of-counsel GST litigation specialists handle proceedings end-to-end.">
+    <meta name="description" content="File your GSTAT appeal at Prayagraj bench covering Prayagraj, Fatehpur, Pratapgarh, Sultanpur, Amethi zones.">
     <link rel="canonical" href="/gstat-appeal-filing/prayagraj">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="GSTAT Appeal Filing in Prayagraj 2026 | Patron Accounting">

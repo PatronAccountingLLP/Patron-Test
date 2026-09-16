@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Hotel & Restaurant Accounting in Mumbai - POS, OTA & GST</title>
-    <meta name="description" content="CA-led hospitality payroll in Mumbai. Shift payroll, tips, service charge, PF/ESI, perquisite TDS, excise staff, seasonal workforce for Colaba, BKC, Bandra hotels. Call +91 945 945 6700.">
+    <meta name="description" content="CA-led hospitality payroll in Mumbai. Shift payroll, tips, service charge, PF/ESI, perquisite TDS, excise staff, seasonal workforce for Colaba, BKC.">
     <link rel="canonical" href="/payroll-services-for-the-hospitality-industry/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Hotel & Restaurant Accounting in Mumbai - POS, OTA & GST">

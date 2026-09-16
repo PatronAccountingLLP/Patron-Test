@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Tax Audit in Mumbai – Sec 44AB, Form 3CD &amp; 3CA/3CB</title>
-    <meta name="description" content="CA-assisted tax audit in Mumbai under Section 44AB. Form 3CA/3CB/3CD for businesses and professionals. Serving BKC, Andheri MIDC, SEEPZ businesses. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted tax audit in Mumbai under Section 44AB. Form 3CA/3CB/3CD for businesses and professionals. Serving BKC, Andheri MIDC, SEEPZ businesses.">
     <link rel="canonical" href="/tax-audit/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Tax Audit in Mumbai – Sec 44AB, Form 3CD &amp; 3CA/3CB">

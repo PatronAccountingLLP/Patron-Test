@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Copyright Objection Reply in Pune - Process & Hearing</title>
-    <meta name="description" content="Reply to copyright objection from Pune. Discrepancy letter analysis, 30-day reply drafting with case law, hearing support, third-party objection. IT software to film content. Call +91 945 945 6700.">
+    <meta name="description" content="Reply to copyright objection from Pune. Discrepancy letter analysis, 30-day reply drafting with case law, hearing support, third-party objection.">
     <link rel="canonical" href="/copyright-objection/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Copyright Objection Reply in Pune - Process & Hearing">

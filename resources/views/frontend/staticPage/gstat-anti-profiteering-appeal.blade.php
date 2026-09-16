@@ -2,7 +2,7 @@
 
 @section('meta')
     <title>GSTAT Anti-Profiteering Appeal - Section 171 | Patron</title>
-    <meta name="description" content="Expert defence against anti-profiteering under Section 171 CGST Act before GSTAT Principal Bench. DGAP investigation response, 10% penalty challenge, Consumer Welfare Fund.">
+    <meta name="description" content="Expert defence against anti-profiteering under Section 171 CGST Act before GSTAT Principal Bench.">
     <link rel="canonical" href="/gstat-anti-profiteering-appeal">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="GSTAT Anti-Profiteering Appeal - Section 171 | Patron">

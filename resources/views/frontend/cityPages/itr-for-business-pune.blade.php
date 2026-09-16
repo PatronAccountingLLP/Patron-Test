@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>ITR Filing for Business in Pune - ITR-3, ITR-4 & 44AD</title>
-    <meta name="description" content="CA-assisted business ITR filing in Pune. ITR-3, ITR-4, ITR-5, ITR-6 for proprietors, firms, LLPs, companies. Serving Hinjewadi, Chakan MIDC, Camp businesses. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted business ITR filing in Pune. ITR-3, ITR-4, ITR-5, ITR-6 for proprietors, firms, LLPs, companies. Serving Hinjewadi, Chakan MIDC, Camp businesses.">
     <link rel="canonical" href="/itr-for-business/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="ITR Filing for Business in Pune - ITR-3, ITR-4 & 44AD">

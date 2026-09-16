@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>IT Notice u/s 142(1) Delhi NCR – Inquiry &amp; Reply</title>
-    <meta name="description" content="CA-assisted response to income tax notice under Section 142(1) in Delhi. Inquiry before assessment. Faceless + Delhi AO. Rs 10,000 penalty risk. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted response to income tax notice under Section 142(1) in Delhi. Inquiry before assessment. Faceless + Delhi AO. Rs 10,000 penalty risk.">
     <link rel="canonical" href="/income-tax-notices-under-section-142-1/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="IT Notice u/s 142(1) Delhi NCR – Inquiry &amp; Reply">

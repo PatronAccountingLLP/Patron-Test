@@ -629,7 +629,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 
 @section('meta')
-    <title>Scheme of Arrangement, Section 230 to 232, 2026 | Patron Accounting</title>
+    <title>Scheme of Arrangement, Section 230 to 232</title>
     <meta name="description" content="Mergers, demergers and amalgamations through an NCLT scheme of arrangement under Sections 230 to 232, with creditor approvals and ROC filings.">
     <link rel="canonical" href="/scheme-of-arrangement-section-230-232">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

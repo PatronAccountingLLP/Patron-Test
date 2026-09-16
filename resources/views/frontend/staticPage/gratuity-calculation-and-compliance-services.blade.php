@@ -18,7 +18,7 @@
 
 @section('meta')
     <title>Gratuity Calculation & Compliance - Rules, Formula & Payout</title>
-    <meta name="description" content="Gratuity calculation using 15/26 formula under Payment of Gratuity Act. Compliance, actuarial valuation, and payout services from Rs 4,999. New Labour Code updates.">
+    <meta name="description" content="Gratuity calculation using 15/26 formula under Payment of Gratuity Act. Compliance, actuarial valuation, and payout services from Rs 4,999.">
     <link rel="canonical" href="/gratuity-calculation-and-compliance-services">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Gratuity Calculation & Compliance - Rules, Formula & Payout">

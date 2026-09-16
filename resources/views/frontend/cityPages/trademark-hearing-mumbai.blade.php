@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Trademark Hearing in Mumbai - Process, Preparation & Order</title>
-    <meta name="description" content="Trademark hearing in Mumbai. Show cause hearing, TLA Hearing Board, S.9/S.11 arguments, evidence, VC/physical hearing at Antop Hill. CA-led. Call +91 945 945 6700.">
+    <meta name="description" content="Trademark hearing in Mumbai. Show cause hearing, TLA Hearing Board, S.9/S.11 arguments, evidence, VC/physical hearing at Antop Hill. CA-led.">
     <link rel="canonical" href="/trademark-hearing/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Trademark Hearing in Mumbai - Process, Preparation & Order">

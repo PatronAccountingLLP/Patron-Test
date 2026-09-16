@@ -15,7 +15,7 @@
 
 
 @section('meta')
-    <title>Company Registration in Cayman Islands 2026 | Patron Accounting</title>
+    <title>Company Registration in Cayman Islands</title>
     <meta name="description" content="Set up a Cayman Islands exempted company, the VC-preferred tax-neutral holding structure. No resident director, fast incorporation, ODI support. From USD 5,999.">
     <link rel="canonical" href="/company-registration-in-cayman-islands">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

@@ -17,7 +17,7 @@
 
 @section('meta')
     <title>PF Registration Online - EPFO Process, Documents & Threshold</title>
-    <meta name="description" content="PF registration mandatory for 20+ employees under EPF and MP Act 1952. Employee 12% + employer 13%. Online on USSP/EPFO portal. Free registration. Expert CA team.">
+    <meta name="description" content="PF registration mandatory for 20+ employees under EPF and MP Act 1952. Employee 12% + employer 13%. Online on USSP/EPFO portal. Free registration.">
     <link rel="canonical" href="/pf-registration">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="PF Registration Online - EPFO Process, Documents & Threshold">

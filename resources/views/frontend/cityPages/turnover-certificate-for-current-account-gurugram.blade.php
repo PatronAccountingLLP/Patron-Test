@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Turnover Cert. - Current Account Gurugram, CA Format</title>
-    <meta name="description" content="CA turnover certificate for opening current account in Gurugram. Open without GST, all banks accepted, UDIN. Freelancers, traders, businesses. Same-day. Call +91 945 945 6700.">
+    <meta name="description" content="CA turnover certificate for opening current account in Gurugram. Open without GST, all banks accepted, UDIN. Freelancers, traders, businesses. Same-day.">
     <link rel="canonical" href="/turnover-certificate-for-current-account/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Turnover Cert. - Current Account Gurugram, CA Format">

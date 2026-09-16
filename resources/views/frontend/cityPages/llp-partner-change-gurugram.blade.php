@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>LLP Partner Change Gurugram - Form 3, Form 4 & ROC</title>
-    <meta name="description" content="CA/CS-assisted LLP partner change in Gurugram. Add, remove, designated partner, Form 4, DPIN, consent, NRI partner, ROC Haryana. Serving Cyber City, Golf Course Road. Call +91 945 945 6700.">
+    <meta name="description" content="CA/CS-assisted LLP partner change in Gurugram. Add, remove, designated partner, Form 4, DPIN, consent, NRI partner, ROC Haryana.">
     <link rel="canonical" href="/llp-partner-change/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="LLP Partner Change Gurugram - Form 3, Form 4 & ROC">

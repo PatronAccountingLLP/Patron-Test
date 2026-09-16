@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>FSSAI Annual Return in Mumbai - Form D1, D2 & Due Date</title>
-    <meta name="description" content="CA-assisted FSSAI return filing in Mumbai. Form D1 annual, Form D2 half-yearly for food businesses. Serving Andheri MIDC, APMC, JNPT importers. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted FSSAI return filing in Mumbai. Form D1 annual, Form D2 half-yearly for food businesses. Serving Andheri MIDC, APMC, JNPT importers.">
     <link rel="canonical" href="/fssai-returns/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="FSSAI Annual Return in Mumbai - Form D1, D2 & Due Date">

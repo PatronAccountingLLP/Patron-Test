@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Legal Drafting Gurugram - Contracts, Agreements & MOU</title>
-    <meta name="description" content="CA/CS-assisted legal drafting in Gurugram. NDAs, SHA, MOU, employment agreements, contracts, ESOP, lease deeds. Serving Cyber City, Golf Course Road. Call +91 945 945 6700.">
+    <meta name="description" content="CA/CS-assisted legal drafting in Gurugram. NDAs, SHA, MOU, employment agreements, contracts, ESOP, lease deeds. Serving Cyber City, Golf Course Road.">
     <link rel="canonical" href="/legal-drafting/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Legal Drafting Gurugram - Contracts, Agreements & MOU">

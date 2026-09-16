@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Copyright for Artistic Work in Pune - Logos & Paintings</title>
-    <meta name="description" content="Register copyright for artistic work in Pune. Paintings, sculptures, photographs, architecture, design. Section 2(c) coverage. CA-assisted. Artists to architects. Call +91 945 945 6700.">
+    <meta name="description" content="Register copyright for artistic work in Pune. Paintings, sculptures, photographs, architecture, design. Section 2(c) coverage. CA-assisted.">
     <link rel="canonical" href="/copyright-registration-for-artistic-work/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Copyright for Artistic Work in Pune - Logos & Paintings">

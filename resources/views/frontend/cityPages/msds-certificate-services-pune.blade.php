@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>MSDS Certificate in Pune - Material Safety Data Sheet</title>
-    <meta name="description" content="MSDS/SDS certificate services in Pune. GHS-compliant 16-section drafting, hazard classification, DG/HAZMAT, export customs documentation. Auto, pharma, chemical manufacturers. Serving MIDC, Chakan. Call +91 945 945 6700.">
+    <meta name="description" content="MSDS/SDS certificate services in Pune. GHS-compliant 16-section drafting, hazard classification, DG/HAZMAT, export customs documentation.">
     <link rel="canonical" href="/msds-certificate-services/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="MSDS Certificate in Pune - Material Safety Data Sheet">

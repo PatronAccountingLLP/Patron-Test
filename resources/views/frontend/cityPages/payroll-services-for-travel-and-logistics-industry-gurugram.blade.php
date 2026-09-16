@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Travel & Logistics Payroll Gurugram - PF, ESI & Multi-PT</title>
-    <meta name="description" content="CA-led payroll for logistics and transport in Gurugram. Driver salary, trip incentives, warehouse shifts, PF/ESI, multi-state. Bilaspur, NH-48. Call +91 945 945 6700.">
+    <meta name="description" content="CA-led payroll for logistics and transport in Gurugram. Driver salary, trip incentives, warehouse shifts, PF/ESI, multi-state. Bilaspur, NH-48.">
     <link rel="canonical" href="/payroll-services-for-travel-and-logistics-industry/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Travel & Logistics Payroll Gurugram - PF, ESI & Multi-PT">

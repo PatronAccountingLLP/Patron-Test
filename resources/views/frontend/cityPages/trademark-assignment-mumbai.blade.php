@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Trademark Assignment in Mumbai - TM-P, Deed & Stamp Duty</title>
-    <meta name="description" content="Trademark assignment in Mumbai. Transfer ownership with/without goodwill. Assignment deed, Form TM-P, Trademark Registry Antop Hill, stamp duty. CA-led. Call +91 945 945 6700.">
+    <meta name="description" content="Trademark assignment in Mumbai. Transfer ownership with/without goodwill. Assignment deed, Form TM-P, Trademark Registry Antop Hill, stamp duty. CA-led.">
     <link rel="canonical" href="/trademark-assignment/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Trademark Assignment in Mumbai - TM-P, Deed & Stamp Duty">

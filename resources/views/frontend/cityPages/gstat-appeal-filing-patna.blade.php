@@ -2,7 +2,7 @@
 
 @section('meta')
     <title>GSTAT Appeal Filing in Patna 2026 | Patron Accounting</title>
-    <meta name="description" content="File your GSTAT appeal at the Patna bench covering all 38 Bihar districts. Patron's CA team and of-counsel GST litigation specialists handle proceedings end-to-end.">
+    <meta name="description" content="File your GSTAT appeal at the Patna bench covering all 38 Bihar districts.">
     <link rel="canonical" href="/gstat-appeal-filing/patna">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="GSTAT Appeal Filing in Patna 2026 | Patron Accounting">

@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Tax Audit in Pune - Sec 44AB, Form 3CD & 3CA/3CB</title>
-    <meta name="description" content="CA-assisted tax audit in Pune under Section 44AB. Form 3CA/3CB/3CD, turnover limit Rs 1 Cr/Rs 10 Cr, professionals Rs 50 lakh, presumptive 44AD/44ADA, due date 30 Sep. Serving Hinjewadi, Kharadi businesses. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted tax audit in Pune under Section 44AB. Form 3CA/3CB/3CD, turnover limit Rs 1 Cr/Rs 10 Cr, professionals Rs 50 lakh, presumptive 44AD/44ADA.">
     <link rel="canonical" href="/tax-audit/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Tax Audit in Pune - Sec 44AB, Form 3CD & 3CA/3CB">

@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>ITR for Influencers Mumbai - Brand Deals, TDS 194R & GST</title>
-    <meta name="description" content="CA-assisted ITR filing for influencers in Mumbai. Brand deals, AdSense, freebies TDS, profession code 16021, GST. Bandra, Andheri, Film City. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted ITR filing for influencers in Mumbai. Brand deals, AdSense, freebies TDS, profession code 16021, GST. Bandra, Andheri, Film City.">
     <link rel="canonical" href="/itr-for-influencers/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="ITR for Influencers Mumbai - Brand Deals, TDS 194R & GST">

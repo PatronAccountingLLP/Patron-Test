@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Trademark Hearing in Pune - Process, Preparation & Order</title>
-    <meta name="description" content="CA-assisted trademark hearing representation in Pune. Show cause hearing, Section 9/11 objections, TM Registry Mumbai, virtual and physical hearings. Expert defence. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted trademark hearing representation in Pune. Show cause hearing, Section 9/11 objections, TM Registry Mumbai, virtual and physical hearings.">
     <link rel="canonical" href="/trademark-hearing/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Trademark Hearing in Pune - Process, Preparation & Order">

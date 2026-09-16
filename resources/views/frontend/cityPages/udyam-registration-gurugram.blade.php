@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Udyam Registration Gurugram - MSME Certificate & Benefits</title>
-    <meta name="description" content="CA-assisted Udyam MSME registration in Gurugram. Zero fee. Revised 2025 limits. GeM access, priority lending, govt tenders. Serving Cyber City, Manesar. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted Udyam MSME registration in Gurugram. Zero fee. Revised limits. GeM access, priority lending, govt tenders. Serving Cyber City, Manesar.">
     <link rel="canonical" href="/udyam-registration/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Udyam Registration Gurugram - MSME Certificate & Benefits">

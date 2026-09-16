@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>DSC Registration in Pune - Class 3 Digital Signature</title>
-    <meta name="description" content="Get Class 3 DSC in Pune. Same-day issuance for MCA, GST, Income Tax, DGFT, and e-tendering. Aadhaar eKYC, paperless process, USB token. CA-assisted. Hinjewadi to PCMC. Call +91 945 945 6700.">
+    <meta name="description" content="Get Class 3 DSC in Pune. Same-day issuance for MCA, GST, Income Tax, DGFT, and e-tendering. Aadhaar eKYC, paperless process, USB token. CA-assisted.">
     <link rel="canonical" href="/dsc-registration/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="DSC Registration in Pune - Class 3 Digital Signature">

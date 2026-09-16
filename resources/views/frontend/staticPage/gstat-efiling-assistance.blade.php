@@ -2,7 +2,7 @@
 
 @section('meta')
     <title>GSTAT e-Filing Portal Assistance India | Patron</title>
-    <meta name="description" content="Expert help for GSTAT e-filing portal registration, Form GST APL-05 filing, Bharatkosh payment, and pre-deposit. Deadline 30 June 2026. CA and CS Team, Patron Accounting LLP.">
+    <meta name="description" content="Expert help for GSTAT e-filing portal registration, Form GST APL-05 filing, Bharatkosh payment, and pre-deposit. Deadline 30 June 2026.">
     <link rel="canonical" href="/gstat-efiling-assistance">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="GSTAT e-Filing Portal Assistance India | Patron">

@@ -2,7 +2,7 @@
 
 @section('meta')
     <title>GSTAT Appeal Filing in Pune 2026 | Patron Accounting</title>
-    <meta name="description" content="File your GSTAT appeal at Pune bench covering Pune, Satara, Sangli, Solapur, Kolhapur, Ahmednagar. CA team and of-counsel litigation specialists handle proceedings end-to-end.">
+    <meta name="description" content="File your GSTAT appeal at Pune bench covering Pune, Satara, Sangli, Solapur, Kolhapur, Ahmednagar.">
     <link rel="canonical" href="/gstat-appeal-filing/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="GSTAT Appeal Filing in Pune 2026 | Patron Accounting">

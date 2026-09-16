@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>ITR for Property Sale in Pune - Sec 54 & TDS 194IA</title>
-    <meta name="description" content="CA-assisted ITR filing for property sale in Pune. LTCG 12.5% vs 20% indexed, Section 54/54EC exemptions, CGAS, NRI property TDS refund. Serving Baner, Wakad, Hinjewadi sellers. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted ITR filing for property sale in Pune. LTCG 12.5% vs 20% indexed, Section 54/54EC exemptions, CGAS, NRI property TDS refund.">
     <link rel="canonical" href="/itr-for-property-sale/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="ITR for Property Sale in Pune - Sec 54 & TDS 194IA">

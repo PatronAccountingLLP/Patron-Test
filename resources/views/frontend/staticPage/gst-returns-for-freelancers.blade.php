@@ -18,7 +18,7 @@
 
 @section('meta')
     <title>GST Return Filing for Freelancers - GSTR-1, 3B & Threshold</title>
-    <meta name="description" content="Freelancers earning above Rs 20 lakh must file GSTR-1 and GSTR-3B. Know GST return types, export under LUT, ITC claims, penalties and filing process. Starts Rs 1,499.">
+    <meta name="description" content="Freelancers earning above Rs 20 lakh must file GSTR-1 and GSTR-3B. Know GST return types, export under LUT, ITC claims, penalties and filing process.">
     <link rel="canonical" href="/gst-returns-for-freelancers">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="GST Return Filing for Freelancers - GSTR-1, 3B & Threshold">

@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>E-Commerce Accounting in Delhi - GST, TDS & Bookkeeping</title>
-    <meta name="description" content="CA-led ecommerce payroll in Delhi. PF, ESI, TDS for D2C brands, warehouse staff, gig workers. Labour Code 2025 compliant. Serving CP, Okhla, Rohini. Call +91 945 945 6700.">
+    <meta name="description" content="CA-led ecommerce payroll in Delhi. PF, ESI, TDS for D2C brands, warehouse staff, gig workers. Labour Code compliant. Serving CP, Okhla, Rohini.">
     <link rel="canonical" href="/e-commerce-sector-payroll-processing-services/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="E-Commerce Accounting in Delhi - GST, TDS & Bookkeeping">

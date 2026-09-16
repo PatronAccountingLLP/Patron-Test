@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Internal Audit in Delhi - Scope, IFC, Risk & Reporting</title>
-    <meta name="description" content="CA-led internal audit services in Delhi. Section 138 compliance, risk-based audit, ICFR and process review for companies and MNCs. Serving CP, Okhla, Nehru Place. Call +91 945 945 6700.">
+    <meta name="description" content="CA-led internal audit services in Delhi. Section 138 compliance, risk-based audit, ICFR and process review for companies and MNCs.">
     <link rel="canonical" href="/internal-audit/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Internal Audit in Delhi - Scope, IFC, Risk & Reporting">

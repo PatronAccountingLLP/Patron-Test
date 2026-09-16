@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Construction & Real Estate Accounting Gurugram - RERA & GST</title>
-    <meta name="description" content="CA-led payroll for construction and real estate in Gurugram. BOCW cess, EPF/ESI, contractor compliance, Haryana wages. Dwarka Expressway, New Gurugram. Call +91 945 945 6700.">
+    <meta name="description" content="CA-led payroll for construction and real estate in Gurugram. BOCW cess, EPF/ESI, contractor compliance, Haryana wages. Dwarka Expressway, New Gurugram.">
     <link rel="canonical" href="/payroll-services-for-construction-real-estate-industry/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Construction & Real Estate Accounting Gurugram - RERA & GST">

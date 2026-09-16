@@ -18,7 +18,7 @@
 
 @section('meta')
     <title>Startup India Registration - DPIIT Recognition & Benefits</title>
-    <meta name="description" content="Get DPIIT-recognised as a startup under the 2026 framework (G.S.R. 108(E)). Free registration. Tax holiday under Sec 80-IAC, angel tax exemption, IPR rebates, GeM access.">
+    <meta name="description" content="Get DPIIT-recognised as a startup under the framework (G.S.R. 108(E)). Free registration.">
     <link rel="canonical" href="/startup-registration">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Startup India Registration - DPIIT Recognition & Benefits">

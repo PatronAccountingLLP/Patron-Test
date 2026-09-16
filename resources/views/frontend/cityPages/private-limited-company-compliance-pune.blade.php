@@ -46,7 +46,7 @@
 
 @section('meta')
     <title>Pvt Ltd Compliance in Pune – AOC-4, MGT-7 &amp; Due Dates</title>
-    <meta name="description" content="CA and CS managed Pvt Ltd company compliance in Pune. AGM, AOC-4, MGT-7, statutory audit, board meetings, DIR-3 KYC, GST, IT returns, PT. Annual calendar with deadlines. Call +91 945 945 6700.">
+    <meta name="description" content="CA and CS managed Pvt Ltd company compliance in Pune. AGM, AOC-4, MGT-7, statutory audit, board meetings, DIR-3 KYC, GST, IT returns, PT.">
     <link rel="canonical" href="/private-limited-company-compliance/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Pvt Ltd Compliance in Pune – AOC-4, MGT-7 &amp; Due Dates">

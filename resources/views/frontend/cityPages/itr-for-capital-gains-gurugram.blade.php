@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>ITR for Capital Gains Gurugram - STCG, LTCG & ITR-2</title>
-    <meta name="description" content="CA-assisted capital gains ITR filing in Gurugram. LTCG, STCG on shares, property, mutual funds, ESOPs. Section 54 exemption, NRI property TDS. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted capital gains ITR filing in Gurugram. LTCG, STCG on shares, property, mutual funds, ESOPs. Section 54 exemption, NRI property TDS.">
     <link rel="canonical" href="/itr-for-capital-gains/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="ITR for Capital Gains Gurugram - STCG, LTCG & ITR-2">

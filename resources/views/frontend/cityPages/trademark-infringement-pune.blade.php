@@ -46,7 +46,7 @@
 
 @section('meta')
     <title>Trademark Infringement in Pune – Remedies, Suit &amp; Damages</title>
-    <meta name="description" content="CA-assisted trademark infringement resolution in Pune. Enforce your brand rights with expert IP guidance. Serving Hinjewadi, Kharadi, Chakan MIDC businesses. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted trademark infringement resolution in Pune. Enforce your brand rights with expert IP guidance. Serving Hinjewadi, Kharadi, Chakan MIDC businesses.">
     <link rel="canonical" href="/trademark-infringement/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Trademark Infringement in Pune – Remedies, Suit &amp; Damages">

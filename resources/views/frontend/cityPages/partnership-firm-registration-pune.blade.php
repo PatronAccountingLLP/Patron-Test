@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Partnership Firm Registration in Pune - Deed & Process</title>
-    <meta name="description" content="Register your partnership firm in Pune. CA-assisted deed drafting, Maharashtra stamp duty, Form A on RoF portal, PAN, GST, and bank account. Peth traders to IT professionals. Call +91 945 945 6700.">
+    <meta name="description" content="Register your partnership firm in Pune. CA-assisted deed drafting, Maharashtra stamp duty, Form A on RoF portal, PAN, GST, and bank account.">
     <link rel="canonical" href="/partnership-firm-registration/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Partnership Firm Registration in Pune - Deed & Process">

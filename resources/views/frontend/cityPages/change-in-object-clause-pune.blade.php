@@ -46,7 +46,7 @@
 
 @section('meta')
     <title>Object Clause Change in Pune – MOA Alteration &amp; MGT-14</title>
-    <meta name="description" content="CA and CS assisted change in object clause of MOA for Pune companies. Special resolution, Form MGT-14, ROC Pune filing. IT pivots, MIDC expansion, startup diversification. Call +91 945 945 6700.">
+    <meta name="description" content="CA and CS assisted change in object clause of MOA for Pune companies. Special resolution, Form MGT-14, ROC Pune filing.">
     <link rel="canonical" href="/change-in-object-clause/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Object Clause Change in Pune – MOA Alteration &amp; MGT-14">

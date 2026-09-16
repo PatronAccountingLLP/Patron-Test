@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>ESOP Management - Vesting, Tax & Cap Table in Mumbai</title>
-    <meta name="description" content="CA-led ESOP management and compliance in Mumbai. Scheme design, valuation, perquisite tax S.17(2)(vi), Ind AS 102, TDS, RoC for Powai, BKC, Nariman Point companies. Call +91 945 945 6700.">
+    <meta name="description" content="CA-led ESOP management and compliance in Mumbai. Scheme design, valuation, perquisite tax S.17(2)(vi), Ind AS 102, TDS, RoC for Powai, BKC.">
     <meta name="keywords" content="ESOP M&Anagement and Compliance Services Mumbai, ESOP M&Anagement and Compliance Services in Mumbai, ESOP M&Anagement and Compliance Services services in Mumbai, ESOP services Mumbai, ESOP M&Anagement and Compliance Services cost Mumbai, ESOP M&Anagement and Compliance Services consultants Mumbai, CA firm for ESOP M&Anagement and Compliance Services Mumbai, ESOP advisory Mumbai">
     <link rel="canonical" href="/esop-management-and-compliance-services/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

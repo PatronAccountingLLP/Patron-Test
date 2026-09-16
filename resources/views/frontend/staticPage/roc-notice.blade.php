@@ -17,7 +17,7 @@
 
 @section('meta')
     <title>ROC Compliance Filing Services - Annual Return & Forms India</title>
-    <meta name="description" content="ROC notice is issued by the Registrar of Companies for non-compliance under Companies Act 2013. Know types, Section 248 strike off, Section 454 penalty and reply process. Starts Rs 4,999.">
+    <meta name="description" content="ROC notice is issued by the Registrar of Companies for non-compliance under Companies Act.">
     <link rel="canonical" href="/roc-notice">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="ROC Compliance Filing Services - Annual Return & Forms India">

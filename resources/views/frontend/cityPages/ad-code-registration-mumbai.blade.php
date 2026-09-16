@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>AD Code Registration in Mumbai - Customs & ICEGATE Process</title>
-    <meta name="description" content="AD code registration in Mumbai. JNPT Nhava Sheva, Mumbai Air Cargo, ICEGATE portal, 14-digit authorised dealer code, bank letter, shipping bill, EDPMS. CA-led. Call +91 945 945 6700.">
+    <meta name="description" content="AD code registration in Mumbai. JNPT Nhava Sheva, Mumbai Air Cargo, ICEGATE portal, 14-digit authorised dealer code, bank letter, shipping bill, EDPMS.">
     <link rel="canonical" href="/ad-code-registration/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="AD Code Registration in Mumbai - Customs & ICEGATE Process">

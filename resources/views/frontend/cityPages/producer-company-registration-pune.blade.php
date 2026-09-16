@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Producer Company (FPO) Registration in Pune - Process & Fees</title>
-    <meta name="description" content="CA-assisted producer company registration in Pune. FPO incorporation, NABARD advisory, statutory audit, GST, ITR - all handled. Serving Baramati, Junnar, Indapur farmers. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted producer company registration in Pune. FPO incorporation, NABARD advisory, statutory audit, GST, ITR - all handled.">
     <link rel="canonical" href="/producer-company-registration/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Producer Company (FPO) Registration in Pune - Process & Fees">

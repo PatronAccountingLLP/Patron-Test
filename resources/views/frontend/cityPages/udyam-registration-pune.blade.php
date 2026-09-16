@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Udyam Registration in Pune - MSME Certificate & Benefits</title>
-    <meta name="description" content="Free Udyam/MSME registration in Pune. CA-assisted portal filing. CGTMSE loans, GeM access, Section 43B(h) protection. Serving MIDC, Hinjewadi MSMEs. Call +91 945 945 6700.">
+    <meta name="description" content="Free Udyam/MSME registration in Pune. CA-assisted portal filing. CGTMSE loans, GeM access, Section 43B(h) protection. Serving MIDC, Hinjewadi MSMEs.">
     <link rel="canonical" href="/udyam-registration/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Udyam Registration in Pune - MSME Certificate & Benefits">

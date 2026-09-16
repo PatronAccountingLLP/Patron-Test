@@ -628,7 +628,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 
 @section('meta')
-    <title>Capital Account Certificate for FEMA and ECB 2026 | Patron Accounting</title>
+    <title>Capital Account Certificate for FEMA and ECB</title>
     <meta name="description" content="CA capital account certificate in Pune for FEMA, ECB drawdown, and FDI reporting. LRN, Form ECB, valuation and compliance support. From INR 2,499.">
     <link rel="canonical" href="/capital-account-certificate/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

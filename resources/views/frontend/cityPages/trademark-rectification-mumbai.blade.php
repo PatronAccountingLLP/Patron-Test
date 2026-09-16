@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Trademark Rectification Mumbai - TM-O, Grounds & Process</title>
-    <meta name="description" content="Trademark rectification in Mumbai. S.57 cancellation, S.47 non-use removal, rectification petition, Trademark Registry Antop Hill, Bombay HC. CA-led. Call +91 945 945 6700.">
+    <meta name="description" content="Trademark rectification in Mumbai. S.57 cancellation, S.47 non-use removal, rectification petition, Trademark Registry Antop Hill, Bombay HC. CA-led.">
     <link rel="canonical" href="/trademark-rectification/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Trademark Rectification Mumbai - TM-O, Grounds & Process">

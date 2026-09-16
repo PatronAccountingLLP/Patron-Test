@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>FDI Compliance Gurugram - FEMA, FC-GPR & FC-TRS</title>
-    <meta name="description" content="CA-assisted FDI compliance in Gurugram. FC-GPR, FC-TRS, FLA return, RBI FIRMS, FEMA, share valuation, sectoral caps. Serving Cyber City, Golf Course Road. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted FDI compliance in Gurugram. FC-GPR, FC-TRS, FLA return, RBI FIRMS, FEMA, share valuation, sectoral caps. Serving Cyber City, Golf Course Road.">
     <link rel="canonical" href="/fdi-compliance/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="FDI Compliance Gurugram - FEMA, FC-GPR & FC-TRS">

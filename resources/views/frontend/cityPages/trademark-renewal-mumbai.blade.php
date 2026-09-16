@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Trademark Renewal in Mumbai - Process, Fees & 10-Year</title>
-    <meta name="description" content="Trademark renewal in Mumbai. Form TM-R, S.25, 10-year cycle, Rs 9,000/class, grace period, restoration. Trademark Registry Antop Hill. CA-led. Call +91 945 945 6700.">
+    <meta name="description" content="Trademark renewal in Mumbai. Form TM-R, S.25, 10-year cycle, Rs 9,000/class, grace period, restoration. Trademark Registry Antop Hill. CA-led.">
     <link rel="canonical" href="/trademark-renewal/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Trademark Renewal in Mumbai - Process, Fees & 10-Year">

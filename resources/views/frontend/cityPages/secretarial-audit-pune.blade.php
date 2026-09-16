@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Secretarial Audit in Pune - MR-3, Section 204 & Report</title>
-    <meta name="description" content="CS-assisted secretarial audit in Pune. Section 204, Form MR-3, SEBI LODR 24A, peer-reviewed PCS, listed companies, material subsidiaries. Serving Kharadi, Hinjewadi companies. Call +91 945 945 6700.">
+    <meta name="description" content="CS-assisted secretarial audit in Pune. Section 204, Form MR-3, SEBI LODR 24A, peer-reviewed PCS, listed companies, material subsidiaries.">
     <link rel="canonical" href="/secretarial-audit/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Secretarial Audit in Pune - MR-3, Section 204 & Report">

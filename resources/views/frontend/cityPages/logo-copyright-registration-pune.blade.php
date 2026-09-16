@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Logo Copyright Registration in Pune - Form XIV & Fees</title>
-    <meta name="description" content="CA-assisted logo copyright registration in Pune. Artistic work protection via Form XIV + trademark dual filing. Serving Hinjewadi, Kharadi, Baner brands. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted logo copyright registration in Pune. Artistic work protection via Form XIV + trademark dual filing. Serving Hinjewadi, Kharadi, Baner brands.">
     <link rel="canonical" href="/logo-copyright-registration/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Logo Copyright Registration in Pune - Form XIV & Fees">

@@ -17,7 +17,7 @@
 
 @section('meta')
     <title>LLP Registration in India - Process, Documents & Fees</title>
-    <meta name="description" content="Register your LLP in India under the LLP Act, 2008 with expert CA and CS assistance. MCA fees starting from Rs 500. 10,000+ businesses served across Pune, Mumbai, Delhi and Gurugram.">
+    <meta name="description" content="Register your LLP in India under the LLP Act, with expert CA and CS assistance. MCA fees starting from Rs 500.">
     <link rel="canonical" href="/llp-incorporation">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="LLP Registration in India - Process, Documents & Fees">

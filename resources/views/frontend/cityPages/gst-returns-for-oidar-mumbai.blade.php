@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>GST for OIDAR in Mumbai - Foreign Digital & GSTR-5A</title>
-    <meta name="description" content="CA-assisted OIDAR GST return filing in Mumbai. GSTR-5A for non-resident providers, GSTR-1/3B for Indian OIDAR. Serving Powai SaaS, Andheri AdTech. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted OIDAR GST return filing in Mumbai. GSTR-5A for non-resident providers, GSTR-1/3B for Indian OIDAR. Serving Powai SaaS, Andheri AdTech.">
     <link rel="canonical" href="/gst-returns-for-oidar/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="GST for OIDAR in Mumbai - Foreign Digital & GSTR-5A">

@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>LLP Partner Change Delhi NCR – Form 3, Form 4 &amp; ROC</title>
-    <meta name="description" content="LLP partner change in Delhi. Addition or cessation. Form 4 + Form 3 within 30 days. DPIN. Consent. Supplementary deed. Penalty Rs 100/day. Call +91 945 945 6700.">
+    <meta name="description" content="LLP partner change in Delhi. Addition or cessation. Form 4 + Form 3 within 30 days. DPIN. Consent. Supplementary deed. Penalty Rs 100/day.">
     <link rel="canonical" href="/llp-partner-change/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="LLP Partner Change Delhi NCR – Form 3, Form 4 &amp; ROC">

@@ -628,7 +628,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 
 @section('meta')
-    <title>GST Returns for Hotels 2026: Specified Premises | Patron Accounting</title>
+    <title>GST Returns for Hotels: Specified Premises</title>
     <meta name="description" content="GST returns for hotels - room 5%/18% slab, restaurant 18%/5% by specified premises, Notification 5/2025-CTR opt-in. Starting from INR 1,999 per month.">
     <link rel="canonical" href="/gst-returns-for-hotels">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

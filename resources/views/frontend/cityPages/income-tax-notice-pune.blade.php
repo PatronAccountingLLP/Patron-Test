@@ -695,7 +695,7 @@ section .content-text ul li:not(.nav-item) > strong:first-child{flex:1 1 100%;ma
 
 @section('meta')
     <title>Income Tax Notice in Pune – 143(1), 139(9) &amp; Reply</title>
-    <meta name="description" content="CA-assisted income tax notice response in Pune. Intimation 143(1), scrutiny 143(2), reassessment 148, defective return 139(9). AIS mismatch and demand resolution. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted income tax notice response in Pune. Intimation 143(1), scrutiny 143(2), reassessment 148, defective return 139(9).">
     <link rel="canonical" href="/income-tax-notice/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Income Tax Notice in Pune – 143(1), 139(9) &amp; Reply">

@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>NGO Registration in Pune - Trust, Society & Section 8 Co.</title>
-    <meta name="description" content="CA-assisted NGO registration in Pune. Trust, Society, Section 8 Company. 12A, 80G, CSR-1 included. Serving Hinjewadi, Kharadi, Chakan businesses. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted NGO registration in Pune. Trust, Society, Section 8 Company. 12A, 80G, CSR-1 included. Serving Hinjewadi, Kharadi, Chakan businesses.">
     <link rel="canonical" href="/ngo-registration/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="NGO Registration in Pune - Trust, Society & Section 8 Co.">

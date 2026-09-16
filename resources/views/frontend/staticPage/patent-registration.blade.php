@@ -17,7 +17,7 @@
 
 @section('meta')
     <title>Patent Registration in India - Filing, Fees & Examination</title>
-    <meta name="description" content="File your patent application under the Patents Act, 1970. Government fees from Rs 1,600 for individuals/startups. 20-year protection. Expert drafting and prosecution by CA/CS team.">
+    <meta name="description" content="File your patent application under the Patents Act, 1970. Government fees from Rs 1,600 for individuals/startups. 20-year protection.">
     <link rel="canonical" href="/patent-registration">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Patent Registration in India - Filing, Fees & Examination">

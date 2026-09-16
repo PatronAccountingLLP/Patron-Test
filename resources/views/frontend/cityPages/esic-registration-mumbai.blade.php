@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>ESIC Registration in Mumbai - Process, Threshold & Wages</title>
-    <meta name="description" content="ESIC registration in Mumbai. ESI Act 1948, 10+ employees, Rs 21,000 wage ceiling, employer 3.25% + employee 0.75%, ESIC portal, Pehchan card, 6 benefits. CA-led. Call +91 945 945 6700.">
+    <meta name="description" content="ESIC registration in Mumbai. ESI Act 1948, 10+ employees, Rs 21,000 wage ceiling, employer 3.25% + employee 0.75%, ESIC portal, Pehchan card, 6 benefits.">
     <link rel="canonical" href="/esic-registration/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="ESIC Registration in Mumbai - Process, Threshold & Wages">

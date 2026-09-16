@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Actuarial Valuation in Mumbai - AS 15 & Ind AS 19 Reports</title>
-    <meta name="description" content="CA-led actuarial valuation in Mumbai. Gratuity, leave encashment, pension under Ind AS 19/AS 15. PUCM reports for BKC, Nariman Point, Powai, Andheri companies. Call +91 945 945 6700.">
+    <meta name="description" content="CA-led actuarial valuation in Mumbai. Gratuity, leave encashment, pension under Ind AS 19/AS 15.">
     <link rel="canonical" href="/actuarial-valuation-services-for-employee-benefits/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Actuarial Valuation in Mumbai - AS 15 & Ind AS 19 Reports">

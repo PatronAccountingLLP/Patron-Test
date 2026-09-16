@@ -46,7 +46,7 @@
 
 @section('meta')
     <title>GST for Restaurants in Pune – 5%, Composition &amp; ITC</title>
-    <meta name="description" content="CA-assisted GST return filing for restaurants in Pune. GSTR-1, GSTR-3B, Swiggy/Zomato Section 9(5) reporting, and composition scheme. Serving FC Road, KP, Baner. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted GST return filing for restaurants in Pune. GSTR-1, GSTR-3B, Swiggy/Zomato Section 9(5) reporting, and composition scheme.">
     <link rel="canonical" href="/gst-returns-for-restaurants-food-businesses/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="GST for Restaurants in Pune – 5%, Composition &amp; ITC">

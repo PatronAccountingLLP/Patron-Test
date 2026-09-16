@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Section 8 Company Registration in Bangalore – MOA, AOA</title>
-    <meta name="description" content="CA-assisted Section 8 company registration in Bangalore. NGO incorporation with 12A, 80G, CSR-1 support. Serving Electronic City, Whitefield, Manyata nonprofits. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted Section 8 company registration in Bangalore. NGO incorporation with 12A, 80G, CSR-1 support.">
     <link rel="canonical" href="/section8-company-registration/bangalore">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Section 8 Company Registration in Bangalore – MOA, AOA">

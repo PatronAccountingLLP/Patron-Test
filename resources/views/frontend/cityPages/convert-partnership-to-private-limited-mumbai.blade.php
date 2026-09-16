@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Convert Partnership to Pvt Ltd Mumbai – URC-1 &amp; SPICe+</title>
-    <meta name="description" content="CA-assisted partnership to private limited conversion in Mumbai. Section 366, URC-1, SPICe+, newspaper ad, tax neutral. ROC Everest House. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted partnership to private limited conversion in Mumbai. Section 366, URC-1, SPICe+, newspaper ad, tax neutral. ROC Everest House.">
     <link rel="canonical" href="/convert-partnership-to-private-limited/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Convert Partnership to Pvt Ltd Mumbai – URC-1 &amp; SPICe+">

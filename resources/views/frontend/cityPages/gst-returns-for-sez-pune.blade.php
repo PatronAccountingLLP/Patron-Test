@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>GST for SEZ Units in Pune - Zero-Rated, LUT & Refund</title>
-    <meta name="description" content="CA-assisted GST returns for SEZ units and DTA suppliers in Pune. GSTR-1, GSTR-3B, zero-rated supply compliance, LUT/Bond, refund via RFD-01. Serving 23 Pune SEZs. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted GST returns for SEZ units and DTA suppliers in Pune. GSTR-1, GSTR-3B, zero-rated supply compliance, LUT/Bond, refund via RFD-01.">
     <link rel="canonical" href="/gst-returns-for-sez/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="GST for SEZ Units in Pune - Zero-Rated, LUT & Refund">

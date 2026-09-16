@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Trademark Formality Check Fail Mumbai - Reply & Resubmit</title>
-    <meta name="description" content="Trademark formality check fail in Mumbai. MIS-F reply, Form TM-M, 30-day deadline, classification correction. Trademark Registry Antop Hill. CA-led. Call +91 945 945 6700.">
+    <meta name="description" content="Trademark formality check fail in Mumbai. MIS-F reply, Form TM-M, 30-day deadline, classification correction. Trademark Registry Antop Hill. CA-led.">
     <link rel="canonical" href="/trademark-formality-check-fail/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Trademark Formality Check Fail Mumbai - Reply & Resubmit">

@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>FSSAI Central License in Mumbai - Eligibility & Fees</title>
-    <meta name="description" content="FSSAI central license in Mumbai. Turnover above Rs 50 crore (2026 threshold), importers, exporters, multi-state FBOs. Perpetual validity. FoSCoS Form B. CA-led. Call +91 945 945 6700.">
+    <meta name="description" content="FSSAI central license in Mumbai. Turnover above Rs 50 crore (2026 threshold), importers, exporters, multi-state FBOs. Perpetual validity. FoSCoS Form B.">
     <link rel="canonical" href="/fssai-central-license/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="FSSAI Central License in Mumbai - Eligibility & Fees">

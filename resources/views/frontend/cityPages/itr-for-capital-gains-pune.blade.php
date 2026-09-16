@@ -46,7 +46,7 @@
 
 @section('meta')
     <title>ITR for Capital Gains in Pune – STCG, LTCG &amp; ITR-2</title>
-    <meta name="description" content="CA-assisted ITR filing for capital gains in Pune. LTCG STCG on property, shares, mutual funds, ESOPs. Section 54/54EC exemptions. Serving Hinjewadi, Kharadi IT professionals. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted ITR filing for capital gains in Pune. LTCG STCG on property, shares, mutual funds, ESOPs. Section 54/54EC exemptions.">
     <link rel="canonical" href="/itr-for-capital-gains/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="ITR for Capital Gains in Pune – STCG, LTCG &amp; ITR-2">

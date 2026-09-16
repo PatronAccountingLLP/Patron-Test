@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Copyright for Dramatic Work in Mumbai - Script & Play</title>
-    <meta name="description" content="Copyright for dramatic work in Mumbai. Screenplays, plays, choreography, scenic arrangements. S.2(h), Form XIV, fixation, adaptation rights, 2012 royalty. CA-led. Call +91 945 945 6700.">
+    <meta name="description" content="Copyright for dramatic work in Mumbai. Screenplays, plays, choreography, scenic arrangements. S.2(h), Form XIV, fixation, adaptation rights, royalty.">
     <link rel="canonical" href="/copyright-registration-for-dramatic-work/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Copyright for Dramatic Work in Mumbai - Script & Play">

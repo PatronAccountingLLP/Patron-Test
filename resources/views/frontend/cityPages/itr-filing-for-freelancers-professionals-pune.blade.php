@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>ITR for Professionals & Freelancers in Pune | Patron</title>
-    <meta name="description" content="CA-assisted ITR filing for professionals and freelancers in Pune. 44ADA presumptive, ITR-3/ITR-4, tax audit, and expense claims. CAs, doctors, lawyers, IT consultants. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted ITR filing for professionals and freelancers in Pune. 44ADA presumptive, ITR-3/ITR-4, tax audit, and expense claims.">
     <link rel="canonical" href="/itr-filing-for-freelancers-professionals/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="ITR for Professionals & Freelancers in Pune | Patron">

@@ -17,7 +17,7 @@
 
 @section('meta')
     <title>Nidhi Company Registration Online - Process, Fees & Docs</title>
-    <meta name="description" content="Nidhi company registration under Section 406, Companies Act 2013. Min capital Rs 10 lakh. 7 members, 3 directors needed. 15-30 day process. Expert CA and CS support.">
+    <meta name="description" content="Nidhi company registration under Section 406, Companies Act. Min capital Rs 10 lakh. 7 members, 3 directors needed. 15-30 day process.">
     <link rel="canonical" href="/nidhi-company-registration">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Nidhi Company Registration Online - Process, Fees & Docs">

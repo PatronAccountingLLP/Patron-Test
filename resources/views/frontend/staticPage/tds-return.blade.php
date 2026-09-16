@@ -17,7 +17,7 @@
 
 @section('meta')
     <title>TDS Returns in India - 24Q, 26Q, 27Q & 27EQ Forms Guide</title>
-    <meta name="description" content="File TDS returns quarterly - Form 24Q for salary, 26Q for non-salary, 27Q for NRI payments. Expert filing from Rs 1,999 per quarter. Avoid Section 234E penalties.">
+    <meta name="description" content="File TDS returns quarterly - Form 24Q for salary, 26Q for non-salary, 27Q for NRI payments. Expert filing from Rs 1,999 per quarter.">
     <link rel="canonical" href="/tds-return">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="TDS Returns in India - 24Q, 26Q, 27Q & 27EQ Forms Guide">

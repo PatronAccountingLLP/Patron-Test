@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>FSSAI Annual Return in Pune - Form D1, D2 & Due Date</title>
-    <meta name="description" content="CA-assisted FSSAI annual return filing in Pune. Form D1 compliance for food manufacturers and importers. Serving Chakan, MIDC Bhosari, Hinjewadi. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted FSSAI annual return filing in Pune. Form D1 compliance for food manufacturers and importers. Serving Chakan, MIDC Bhosari, Hinjewadi.">
     <link rel="canonical" href="/fssai-returns/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="FSSAI Annual Return in Pune - Form D1, D2 & Due Date">

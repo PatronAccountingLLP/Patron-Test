@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Brand Copyright Registration in Mumbai - Form XIV & Fees</title>
-    <meta name="description" content="Register brand copyright in Mumbai. Logo, website, software, content. Form XIV, Copyright Act 1957, 30-day objection, certificate. Brand IP strategy. CA-led. Call +91 945 945 6700.">
+    <meta name="description" content="Register brand copyright in Mumbai. Logo, website, software, content. Form XIV, Copyright Act 1957, 30-day objection, certificate. Brand IP strategy. CA-led.">
     <link rel="canonical" href="/brand-copyright-registration/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Brand Copyright Registration in Mumbai - Form XIV & Fees">

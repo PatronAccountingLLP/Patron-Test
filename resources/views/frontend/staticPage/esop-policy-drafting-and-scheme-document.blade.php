@@ -15,7 +15,7 @@
 
 
 @section('meta')
-    <title>ESOP Policy and Scheme Document Drafting 2026 | Patron Accounting</title>
+    <title>ESOP Policy and Scheme Document Drafting</title>
     <meta name="description" content="Get a compliant ESOP scheme and policy document drafted by a CA and CS firm: Rule 12 contents, special resolution, vesting and SH-6, attested. From Rs 24,999.">
     <link rel="canonical" href="/esop-policy-drafting-and-scheme-document">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

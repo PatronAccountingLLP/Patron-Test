@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Tax Planning Gurugram - 80C, 80D & Old vs New Regime</title>
-    <meta name="description" content="CA-assisted tax planning in Gurugram. New vs old regime, 80C, NPS, HRA, ESOP, home loan, business tax. Serving Cyber City, Golf Course Road professionals. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted tax planning in Gurugram. New vs old regime, 80C, NPS, HRA, ESOP, home loan, business tax. Serving Cyber City, Golf Course Road professionals.">
     <link rel="canonical" href="/tax-planning-services/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Tax Planning Gurugram - 80C, 80D & Old vs New Regime">

@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Director KYC in Pune - DIR-3 KYC & Sep 30 Deadline</title>
-    <meta name="description" content="CA assisted director KYC DIR-3 filing for Pune directors. New 3-year rule from March 2026, DIN reactivation, Rs 5,000 late fee, OTP verification. Multi-board founders, MNC directors. Call +91 945 945 6700.">
+    <meta name="description" content="CA assisted director KYC DIR-3 filing for Pune directors. New 3-year rule from March, DIN reactivation, Rs 5,000 late fee, OTP verification.">
     <link rel="canonical" href="/director-kyc/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Director KYC in Pune - DIR-3 KYC & Sep 30 Deadline">

@@ -15,7 +15,7 @@
 
 
 @section('meta')
-    <title>Angel Tax Exemption Section 56(2)(viib) 2026 | Patron Accounting</title>
+    <title>Angel Tax Exemption Section 56(2)(viib)</title>
     <meta name="description" content="Angel tax under Section 56(2)(viib) is abolished from FY 2025-26. New raises are exempt; we defend legacy assessments and handle valuation. From INR 9,999.">
     <link rel="canonical" href="/angel-tax-exemption-section-56-2-viib">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

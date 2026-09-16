@@ -17,7 +17,7 @@
 
 @section('meta')
     <title>OPC Registration in India - Process, Documents & Benefits</title>
-    <meta name="description" content="Register your One Person Company (OPC) under the Companies Act, 2013 with expert CA and CS support. Govt fees from Rs 0 for authorised capital up to Rs 15 lakh. 10,000+ businesses served.">
+    <meta name="description" content="Register your One Person Company (OPC) under the Companies Act, with expert CA and CS support.">
     <link rel="canonical" href="/one-person-company-registration">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="OPC Registration in India - Process, Documents & Benefits">

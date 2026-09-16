@@ -1,7 +1,7 @@
 @extends('layouts.service-app')
 
 @section('meta')
-<title>Stock Audit for Textile and Apparel: Shade Lot Counting | Patron Accounting</title>
+<title>Stock Audit for Textile and Apparel: Shade Lot Counting</title>
     <meta name="description" content="Textile mills and apparel brands are audited by shade lot. Greige and finished fabric are measured by GSM, trims are counted and unsold collections are valued.">
     <link rel="canonical" href="https://www.patronaccounting.com/stock-audit-for-textile">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

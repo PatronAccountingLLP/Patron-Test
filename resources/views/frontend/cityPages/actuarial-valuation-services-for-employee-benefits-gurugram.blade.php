@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Actuarial Valuation in Gurugram - AS 15 & Ind AS 19 Reports</title>
-    <meta name="description" content="CA-coordinated actuarial valuation in Gurugram. Gratuity, leave encashment, pension. Ind AS 19, AS 15, Social Security Code 2020 impact. Cyber City, Manesar. Call +91 945 945 6700.">
+    <meta name="description" content="CA-coordinated actuarial valuation in Gurugram. Gratuity, leave encashment, pension. Ind AS 19, AS 15, Social Security Code impact. Cyber City, Manesar.">
     <link rel="canonical" href="/actuarial-valuation-services-for-employee-benefits/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Actuarial Valuation in Gurugram - AS 15 & Ind AS 19 Reports">

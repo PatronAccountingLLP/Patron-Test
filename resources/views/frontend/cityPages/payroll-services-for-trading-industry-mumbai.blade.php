@@ -46,7 +46,7 @@
 
 @section('meta')
     <title>Trading Business Payroll in Mumbai - PF, ESIC & TDS</title>
-    <meta name="description" content="CA-led trading payroll in Mumbai. Shop staff wages, commission CTC, festival surge, PF/ESI, S&E Act, multi-branch retail for Bhuleshwar, Zaveri Bazaar, malls. Call +91 945 945 6700.">
+    <meta name="description" content="CA-led trading payroll in Mumbai. Shop staff wages, commission CTC, festival surge, PF/ESI, S&amp;E Act, multi-branch retail for Bhuleshwar, Zaveri Bazaar, malls.">
     <link rel="canonical" href="/payroll-services-for-trading-industry/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Trading Business Payroll in Mumbai - PF, ESIC & TDS">

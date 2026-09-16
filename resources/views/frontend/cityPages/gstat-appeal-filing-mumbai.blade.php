@@ -2,7 +2,7 @@
 
 @section('meta')
     <title>GSTAT Appeal Filing in Mumbai 2026 | Patron Accounting</title>
-    <meta name="description" content="File your GSTAT appeal at the Mumbai bench covering Mumbai, Thane, Palghar, Raigad, and Goa via Panaji circuit. CA team and of-counsel specialists handle proceedings end-to-end.">
+    <meta name="description" content="File your GSTAT appeal at the Mumbai bench covering Mumbai, Thane, Palghar, Raigad, and Goa via Panaji circuit.">
     <link rel="canonical" href="/gstat-appeal-filing/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="GSTAT Appeal Filing in Mumbai 2026 | Patron Accounting">

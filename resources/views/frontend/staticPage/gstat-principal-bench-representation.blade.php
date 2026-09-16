@@ -2,7 +2,7 @@
 
 @section('meta')
     <title>GSTAT Principal Bench Representation, Delhi | Patron</title>
-    <meta name="description" content="Expert representation at GSTAT Principal Bench, New Delhi for place of supply, anti-profiteering, and NAAR matters. 10% pre-deposit. CA and CS Team, Patron Accounting LLP.">
+    <meta name="description" content="Expert representation at GSTAT Principal Bench, New Delhi for place of supply, anti-profiteering, and NAAR matters. 10% pre-deposit.">
     <link rel="canonical" href="/gstat-principal-bench-representation">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="GSTAT Principal Bench Representation, Delhi | Patron">

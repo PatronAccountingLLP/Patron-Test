@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>OPC (One Person Company) Registration in Pune - Fees</title>
-    <meta name="description" content="CA-assisted OPC registration in Pune. SPICe+ filing, nominee setup, statutory audit, GST, ITR - all handled. Serving Hinjewadi, Kharadi, Baner founders. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted OPC registration in Pune. SPICe+ filing, nominee setup, statutory audit, GST, ITR - all handled. Serving Hinjewadi, Kharadi, Baner founders.">
     <link rel="canonical" href="/one-person-company-registration/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="OPC (One Person Company) Registration in Pune - Fees">

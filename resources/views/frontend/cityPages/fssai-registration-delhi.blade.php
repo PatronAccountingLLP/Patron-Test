@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>FSSAI Registration in Delhi - Process, Fees & FoSCoS</title>
-    <meta name="description" content="CA-assisted FSSAI registration in Delhi. Basic, State and Central food licence via FoSCoS. Serving Chandni Chowk, Connaught Place, Okhla FBOs. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted FSSAI registration in Delhi. Basic, State and Central food licence via FoSCoS. Serving Chandni Chowk, Connaught Place, Okhla FBOs.">
     <link rel="canonical" href="/fssai-registration/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="FSSAI Registration in Delhi - Process, Fees & FoSCoS">

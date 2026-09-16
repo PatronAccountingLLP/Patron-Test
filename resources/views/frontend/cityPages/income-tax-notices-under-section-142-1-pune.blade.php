@@ -18,7 +18,7 @@
 
 @section('meta')
     <title>Income Tax Notice u/s 142(1) in Pune – Reply &amp; Inquiry</title>
-    <meta name="description" content="CA-assisted response to IT notice under Section 142(1) in Pune. Non-filing, AIS mismatch, books production, e-proceedings reply. Faceless assessment. Serving Hinjewadi, Kharadi taxpayers. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted response to IT notice under Section 142(1) in Pune. Non-filing, AIS mismatch, books production, e-proceedings reply. Faceless assessment.">
     <link rel="canonical" href="/income-tax-notices-under-section-142-1/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Income Tax Notice u/s 142(1) in Pune – Reply &amp; Inquiry">

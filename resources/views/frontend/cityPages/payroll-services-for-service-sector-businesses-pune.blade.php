@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Service Sector Payroll in Pune - CTC, TDS & Professional Tax</title>
-    <meta name="description" content="CA-led payroll for service sector businesses in Pune. Salary, incentives, TDS, EPF, ESIC - all managed. Serving Hinjewadi, Kharadi, Baner firms. Call +91 945 945 6700.">
+    <meta name="description" content="CA-led payroll for service sector businesses in Pune. Salary, incentives, TDS, EPF, ESIC - all managed. Serving Hinjewadi, Kharadi, Baner firms.">
     <link rel="canonical" href="/payroll-services-for-service-sector-businesses/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Service Sector Payroll in Pune - CTC, TDS & Professional Tax">

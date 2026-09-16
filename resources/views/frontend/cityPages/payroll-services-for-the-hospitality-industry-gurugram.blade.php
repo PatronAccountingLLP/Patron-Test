@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Hotel & Restaurant Payroll Gurugram - Tips, PF & ESI</title>
-    <meta name="description" content="CA-led payroll for hotels and restaurants in Gurugram. Service charge, tips, shifts, PF/ESI, seasonal staff. Cyber Hub, Sector 29, NH-8 hotels. Call +91 945 945 6700.">
+    <meta name="description" content="CA-led payroll for hotels and restaurants in Gurugram. Service charge, tips, shifts, PF/ESI, seasonal staff. Cyber Hub, Sector 29, NH-8 hotels.">
     <link rel="canonical" href="/payroll-services-for-the-hospitality-industry/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Hotel & Restaurant Payroll Gurugram - Tips, PF & ESI">

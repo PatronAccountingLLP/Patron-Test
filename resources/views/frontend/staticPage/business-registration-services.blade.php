@@ -2,7 +2,7 @@
 
 <title>Business Registration in India: Company, LLP & NGO | Patron</title>
 <meta name="description"
-    content="Pvt Ltd, LLP, OPC, Section 8, Producer Co, partnership, proprietorship, HUF, foreign-co India setup, post-incorporation registrations, conversions and international incorporation.">
+    content="Pvt Ltd, LLP, OPC, Section 8, Producer Co, partnership, proprietorship, HUF, foreign-co India setup, post-incorporation registrations.">
 <meta name="keywords"
     content="business registration hub India, company incorporation, Pvt Ltd LLP OPC registration, producer Nidhi company, partnership proprietorship HUF, entity conversion, Section 8 NGO trust setup, international incorporation USA UAE Singapore, foreign subsidiary India, DPIIT startup recognition">
 <meta name="author" content="Patron Accounting LLP">

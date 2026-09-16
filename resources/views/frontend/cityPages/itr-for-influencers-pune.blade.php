@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>ITR for Influencers in Pune - Brand Deals, TDS 194R & GST</title>
-    <meta name="description" content="CA-assisted ITR filing for influencers in Pune. Profession Code 16021, ITR-3, GST, brand deal taxation. Serving Koregaon Park, Baner, Hinjewadi creators. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted ITR filing for influencers in Pune. Profession Code 16021, ITR-3, GST, brand deal taxation. Serving Koregaon Park, Baner, Hinjewadi creators.">
     <link rel="canonical" href="/itr-for-influencers/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="ITR for Influencers in Pune - Brand Deals, TDS 194R & GST">

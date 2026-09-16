@@ -44,7 +44,7 @@
 
 @section('meta')
     <title>Convert LLP to Pvt Ltd in Pune - URC-1 & ROC Filing</title>
-    <meta name="description" content="CA and CS assisted LLP to Pvt Ltd conversion in Pune. URC-1, SPICe+, newspaper ad, ROC approval, fresh COI. Tax-neutral. Startup funding, ESOP, growth. Baner, Kharadi, Hinjewadi. Call +91 945 945 6700.">
+    <meta name="description" content="CA and CS assisted LLP to Pvt Ltd conversion in Pune. URC-1, SPICe+, newspaper ad, ROC approval, fresh COI. Tax-neutral. Startup funding, ESOP, growth.">
     <link rel="canonical" href="/convert-llp-to-private-limited-company/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Convert LLP to Pvt Ltd in Pune - URC-1 & ROC Filing">

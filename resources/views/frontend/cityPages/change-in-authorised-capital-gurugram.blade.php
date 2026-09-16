@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Authorised Capital Change Gurugram - SH-7 & MGT-14</title>
-    <meta name="description" content="CA/CS-assisted authorised capital change in Gurugram. Section 61, Form SH-7, e-MOA, Haryana stamp duty, ROC Haryana. Serving Cyber City, Golf Course Road companies. Call +91 945 945 6700.">
+    <meta name="description" content="CA/CS-assisted authorised capital change in Gurugram. Section 61, Form SH-7, e-MOA, Haryana stamp duty, ROC Haryana.">
     <link rel="canonical" href="/change-in-authorised-capital/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Authorised Capital Change Gurugram - SH-7 & MGT-14">

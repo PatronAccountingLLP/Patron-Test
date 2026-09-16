@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Construction & Real Estate Accounting Mumbai - RERA & GST</title>
-    <meta name="description" content="CA-led construction and real estate payroll in Mumbai. BOCW cess, CLRA contract labour, PF/ESI, site worker wages, MahaRERA compliance, multi-site payroll. Call +91 945 945 6700.">
+    <meta name="description" content="CA-led construction and real estate payroll in Mumbai. BOCW cess, CLRA contract labour, PF/ESI, site worker wages, MahaRERA compliance, multi-site payroll.">
     <link rel="canonical" href="/payroll-services-for-construction-real-estate-industry/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Construction & Real Estate Accounting Mumbai - RERA & GST">

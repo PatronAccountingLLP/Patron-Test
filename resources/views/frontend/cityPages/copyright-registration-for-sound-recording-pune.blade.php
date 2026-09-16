@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Copyright for Sound Recording in Pune - Podcast & Audio</title>
-    <meta name="description" content="Register copyright for sound recording in Pune. Music, podcasts, audiobooks, jingles, voice-overs. Producer as author. Section 14(e). CA-assisted. Call +91 945 945 6700.">
+    <meta name="description" content="Register copyright for sound recording in Pune. Music, podcasts, audiobooks, jingles, voice-overs. Producer as author. Section 14(e). CA-assisted.">
     <link rel="canonical" href="/copyright-registration-for-sound-recording/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Copyright for Sound Recording in Pune - Podcast & Audio">

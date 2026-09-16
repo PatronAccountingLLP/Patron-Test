@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>ESOP Management - Vesting, Tax & Cap Table in Delhi</title>
-    <meta name="description" content="CA-led ESOP management in Delhi. Perquisite tax Sec 17(2), vesting tracking, payroll TDS, Ind AS 102, cap table, Sec 80-IAC deferral. Serving CP, Nehru Place, Rohini. Call +91 945 945 6700.">
+    <meta name="description" content="CA-led ESOP management in Delhi. Perquisite tax Sec 17(2), vesting tracking, payroll TDS, Ind AS 102, cap table, Sec 80-IAC deferral.">
     <meta name="keywords" content="ESOP M&Anagement and Compliance Services Delhi, ESOP M&Anagement and Compliance Services in Delhi, ESOP M&Anagement and Compliance Services services in Delhi, ESOP services Delhi, ESOP M&Anagement and Compliance Services cost Delhi, ESOP M&Anagement and Compliance Services consultants Delhi, CA firm for ESOP M&Anagement and Compliance Services Delhi, ESOP advisory Delhi">
     <link rel="canonical" href="/esop-management-and-compliance-services/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

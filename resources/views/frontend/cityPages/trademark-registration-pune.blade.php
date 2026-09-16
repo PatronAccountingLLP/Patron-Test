@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Trademark Registration in Pune - TM-A, Fees & Process</title>
-    <meta name="description" content="CA-assisted trademark registration in Pune. Brand, logo, name filing via IP India. Rs 4,500/class for startups. Serving Hinjewadi, Kharadi brands. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted trademark registration in Pune. Brand, logo, name filing via IP India. Rs 4,500/class for startups. Serving Hinjewadi, Kharadi brands.">
     <link rel="canonical" href="/trademark-registration/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Trademark Registration in Pune - TM-A, Fees & Process">

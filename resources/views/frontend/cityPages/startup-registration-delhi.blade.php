@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Startup India Registration in Delhi - DPIIT & Tax Benefits</title>
-    <meta name="description" content="CA-assisted startup registration in Delhi. DPIIT recognition, tax exemptions and Startup India benefits for founders. Serving CP, Okhla, Nehru Place. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted startup registration in Delhi. DPIIT recognition, tax exemptions and Startup India benefits for founders. Serving CP, Okhla, Nehru Place.">
     <link rel="canonical" href="/startup-registration/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Startup India Registration in Delhi - DPIIT & Tax Benefits">

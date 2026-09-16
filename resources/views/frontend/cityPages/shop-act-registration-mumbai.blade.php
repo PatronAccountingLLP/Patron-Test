@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Shop Act Registration in Mumbai - Gumasta & Process</title>
-    <meta name="description" content="Shop Act registration in Mumbai. Gumasta license, Maharashtra Shops & Establishments Act 2017, Form A/F, MCGM portal, lifetime validity. CA-led. Call +91 945 945 6700.">
+    <meta name="description" content="Shop Act registration in Mumbai. Gumasta license, Maharashtra Shops &amp; Establishments Act, Form A/F, MCGM portal, lifetime validity. CA-led.">
     <link rel="canonical" href="/shop-act-registration/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Shop Act Registration in Mumbai - Gumasta & Process">

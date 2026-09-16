@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Partnership Firm Registration in Mumbai - Deed & Process</title>
-    <meta name="description" content="Register partnership firm in Mumbai. Deed drafting, Marathi translation, Maharashtra stamp duty, RoF Form A, PAN, bank account, GST, annual compliance. CA-led. Call +91 945 945 6700.">
+    <meta name="description" content="Register partnership firm in Mumbai. Deed drafting, Marathi translation, Maharashtra stamp duty, RoF Form A, PAN, bank account, GST, annual compliance.">
     <link rel="canonical" href="/partnership-firm-registration/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Partnership Firm Registration in Mumbai - Deed & Process">

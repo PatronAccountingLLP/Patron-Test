@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Startup India Registration in Bangalore – DPIIT &amp; Tax</title>
-    <meta name="description" content="CA-assisted Startup India DPIIT recognition in Bangalore. Tax exemption under 80-IAC. Serving Electronic City, Whitefield, Manyata startups. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted Startup India DPIIT recognition in Bangalore. Tax exemption under 80-IAC. Serving Electronic City, Whitefield, Manyata startups.">
     <link rel="canonical" href="/startup-registration/bangalore">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Startup India Registration in Bangalore – DPIIT &amp; Tax">

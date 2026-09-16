@@ -2,7 +2,7 @@
 
 @section('meta')
     <title>GSTAT Appeal Filing in Chennai 2026 | Patron Accounting</title>
-    <meta name="description" content="File your GSTAT appeal at the Chennai bench covering 4 Tamil Nadu districts and Puducherry UT. India's automobile and IT capital. Patron's CA team handles proceedings end-to-end.">
+    <meta name="description" content="File your GSTAT appeal at the Chennai bench covering 4 Tamil Nadu districts and Puducherry UT. India's automobile and IT capital.">
     <link rel="canonical" href="/gstat-appeal-filing/chennai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="GSTAT Appeal Filing in Chennai 2026 | Patron Accounting">

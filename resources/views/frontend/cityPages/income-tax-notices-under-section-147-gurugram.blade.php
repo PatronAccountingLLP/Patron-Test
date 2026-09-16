@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>IT Notice u/s 147 Gurugram - Reassessment & Reply</title>
-    <meta name="description" content="CA-assisted defence against Section 147/148 reassessment notice in Gurugram. Income escaping, 148A procedure, objection rights, time limits, CIT(A) appeal. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted defence against Section 147/148 reassessment notice in Gurugram. Income escaping, 148A procedure, objection rights, time limits, CIT(A) appeal.">
     <link rel="canonical" href="/income-tax-notices-under-section-147/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="IT Notice u/s 147 Gurugram - Reassessment & Reply">

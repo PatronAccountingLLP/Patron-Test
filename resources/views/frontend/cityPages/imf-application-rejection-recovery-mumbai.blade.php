@@ -672,7 +672,7 @@
 
 @section('meta')
     <title>IMF Application Rejection Recovery: Reapply Right</title>
-    <meta name="description" content="Got your IRDAI IMF application rejected in Mumbai? We diagnose the cause, fix deficiencies and resubmit. Net worth, Fit & Proper, consent letters. From INR 24,999.">
+    <meta name="description" content="Got your IRDAI IMF application rejected in Mumbai? We diagnose the cause, fix deficiencies and resubmit. Net worth, Fit &amp; Proper, consent letters.">
     <link rel="canonical" href="/imf-application-rejection-recovery/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="IMF Application Rejection Recovery: Reapply Right">

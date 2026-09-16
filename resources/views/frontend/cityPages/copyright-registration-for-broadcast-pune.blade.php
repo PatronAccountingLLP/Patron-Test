@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Copyright for Broadcast Rights in Pune - TV, Radio & OTT</title>
-    <meta name="description" content="CA-assisted broadcast copyright protection in Pune. Section 37 rights, licensing, statutory license compliance. Serving radio, TV, OTT, podcasters. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted broadcast copyright protection in Pune. Section 37 rights, licensing, statutory license compliance. Serving radio, TV, OTT, podcasters.">
     <link rel="canonical" href="/copyright-registration-for-broadcast/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Copyright for Broadcast Rights in Pune - TV, Radio & OTT">

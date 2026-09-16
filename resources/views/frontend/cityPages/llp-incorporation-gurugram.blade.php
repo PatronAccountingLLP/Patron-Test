@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>LLP Registration in Gurugram - Process, Fees & Documents</title>
-    <meta name="description" content="CA-assisted LLP registration in Gurugram. DPIN, DSC, FiLLiP filing with RoC Delhi. Serving Cyber City, Udyog Vihar, Sohna Road businesses. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted LLP registration in Gurugram. DPIN, DSC, FiLLiP filing with RoC Delhi. Serving Cyber City, Udyog Vihar, Sohna Road businesses.">
     <link rel="canonical" href="/llp-incorporation/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="LLP Registration in Gurugram - Process, Fees & Documents">

@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>ITR for F&O Traders Gurugram - ITR-3, Turnover & Audit</title>
-    <meta name="description" content="CA-assisted F&O ITR filing in Gurugram. Turnover calculation, tax audit, ITR-3, loss carry forward, expense deduction. Serving Cyber City, Golf Course Road traders. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted F&amp;O ITR filing in Gurugram. Turnover calculation, tax audit, ITR-3, loss carry forward, expense deduction.">
     <link rel="canonical" href="/itr-for-fando-traders/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="ITR for F&O Traders Gurugram - ITR-3, Turnover & Audit">

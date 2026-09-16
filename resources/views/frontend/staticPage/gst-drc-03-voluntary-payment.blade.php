@@ -628,7 +628,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 
 @section('meta')
-    <title>DRC-03 Voluntary Payment 2026: GST Self-Disclosure | Patron Accounting</title>
+    <title>DRC-03 Voluntary Payment: GST Self-Disclosure</title>
     <meta name="description" content="GST DRC-03 voluntary payment - self-disclosure for GSTR-1/3B and ITC mismatch, annual return reconciliation, audit findings. Patron from Rs 2,499.">
     <link rel="canonical" href="/gst-drc-03-voluntary-payment">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

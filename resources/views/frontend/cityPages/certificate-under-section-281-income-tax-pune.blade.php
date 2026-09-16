@@ -628,7 +628,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 
 @section('meta')
-    <title>Certificate under Section 281 Income Tax 2026 | Patron Accounting</title>
+    <title>Certificate under Section 281 Income Tax</title>
     <meta name="description" content="CA support in Pune for a Section 281 Income Tax certificate (NOC) before transferring property or shares. Form 34A filing with the AO. From INR 4,999.">
     <link rel="canonical" href="/certificate-under-section-281-income-tax/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

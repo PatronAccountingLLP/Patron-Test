@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>ITR for Crypto Income in Pune - 115BBH, 30% & VDA</title>
-    <meta name="description" content="CA-assisted ITR filing for crypto traders in Pune. 30% VDA tax under Section 115BBH, 1% TDS Section 194S, Schedule VDA, no loss set-off. Serving Hinjewadi, Kharadi IT professionals. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted ITR filing for crypto traders in Pune. 30% VDA tax under Section 115BBH, 1% TDS Section 194S, Schedule VDA, no loss set-off.">
     <link rel="canonical" href="/itr-for-crypto-traders/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="ITR for Crypto Income in Pune - 115BBH, 30% & VDA">

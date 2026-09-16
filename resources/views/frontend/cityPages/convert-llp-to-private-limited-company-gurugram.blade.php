@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Convert LLP to Pvt Ltd Gurugram - URC-1 & ROC Filing</title>
-    <meta name="description" content="CA/CS-assisted LLP to Pvt Ltd conversion in Gurugram. Section 366, URC-1, equity fundraising, tax-neutral, ROC Haryana. Serving Cyber City, Sohna Road. Call +91 945 945 6700.">
+    <meta name="description" content="CA/CS-assisted LLP to Pvt Ltd conversion in Gurugram. Section 366, URC-1, equity fundraising, tax-neutral, ROC Haryana. Serving Cyber City, Sohna Road.">
     <link rel="canonical" href="/convert-llp-to-private-limited-company/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Convert LLP to Pvt Ltd Gurugram - URC-1 & ROC Filing">

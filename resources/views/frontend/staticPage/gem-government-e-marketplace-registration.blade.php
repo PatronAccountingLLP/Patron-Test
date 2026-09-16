@@ -15,7 +15,7 @@
 
 
 @section('meta')
-    <title>GeM Registration: Government e-Marketplace 2026 | Patron Accounting</title>
+    <title>GeM Registration: Government e-Marketplace</title>
     <meta name="description" content="Register as a seller on GeM (Government e-Marketplace) to sell to government buyers. MSME and startup benefits, catalog and vendor help. From INR 4,999.">
     <link rel="canonical" href="/gem-government-e-marketplace-registration">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

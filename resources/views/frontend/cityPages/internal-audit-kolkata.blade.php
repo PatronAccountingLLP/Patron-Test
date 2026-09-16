@@ -37,7 +37,7 @@
 
 @section('meta')
     <title>Internal Audit in Kolkata – Scope, IFC, Risk &amp; Reporting</title>
-    <meta name="description" content="CA-managed internal audit in Kolkata. Section 138 Companies Act. Financial controls, GST reconciliation, risk assessment. Quarterly reports. Call +91 945 945 6700.">
+    <meta name="description" content="CA-managed internal audit in Kolkata. Section 138 Companies Act. Financial controls, GST reconciliation, risk assessment. Quarterly reports.">
     <link rel="canonical" href="/internal-audit/kolkata">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Internal Audit in Kolkata – Scope, IFC, Risk &amp; Reporting"><meta property="og:description" content="Internal audit Kolkata. Section 138. Controls risk compliance. Call +91 945 945 6700.">

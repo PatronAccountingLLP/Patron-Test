@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Income Tax Return Filing in Pune - ITR Forms & Due Dates</title>
-    <meta name="description" content="CA-assisted ITR filing in Pune. Old vs new regime optimisation. AIS reconciliation, capital gains, refund tracking. Deadline 31 July 2026. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted ITR filing in Pune. Old vs new regime optimisation. AIS reconciliation, capital gains, refund tracking. Deadline 31 July 2026.">
     <link rel="canonical" href="/income-tax-return/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Income Tax Return Filing in Pune - ITR Forms & Due Dates">

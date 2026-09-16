@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Trademark Opposition in Mumbai - TM-O, Process & Timeline</title>
-    <meta name="description" content="Trademark opposition in Mumbai. File or defend Form TM-O, S.21, 4-month window, counter-statement, evidence, hearing. Trademark Registry Antop Hill. CA-led. Call +91 945 945 6700.">
+    <meta name="description" content="Trademark opposition in Mumbai. File or defend Form TM-O, S.21, 4-month window, counter-statement, evidence, hearing. Trademark Registry Antop Hill. CA-led.">
     <link rel="canonical" href="/trademark-opposition/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Trademark Opposition in Mumbai - TM-O, Process & Timeline">

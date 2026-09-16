@@ -630,7 +630,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 
 @section('meta')
-    <title>Turnover Certificate for MSME Classification in Mumbai 2026 | Patron Accounting</title>
+    <title>Turnover Certificate for MSME Classification in Mumbai</title>
     <meta name="description" content="CA-certified turnover certificate for MSME classification and Udyam registration under the revised 2025 limits. UDIN-verified. From INR 1,999.">
     <link rel="canonical" href="/turnover-certificate-for-msme-classification/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

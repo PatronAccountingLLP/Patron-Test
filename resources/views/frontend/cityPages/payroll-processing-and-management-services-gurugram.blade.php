@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Payroll Processing & Management Gurugram - PF & ESI</title>
-    <meta name="description" content="CA-led payroll processing in Gurugram. Salary, PF, ESI, TDS, CTC structuring, 50% wage rule, compliance. All industries. 10,000+ businesses. Call +91 945 945 6700.">
+    <meta name="description" content="CA-led payroll processing in Gurugram. Salary, PF, ESI, TDS, CTC structuring, 50% wage rule, compliance. All industries. 10,000+ businesses.">
     <link rel="canonical" href="/payroll-processing-and-management-services/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Payroll Processing & Management Gurugram - PF & ESI">

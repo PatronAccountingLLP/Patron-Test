@@ -46,7 +46,7 @@
 
 @section('meta')
     <title>LLP Annual Compliance in Pune – AOC-4, MGT-7 &amp; Form 11</title>
-    <meta name="description" content="CA/CS-assisted LLP compliance in Pune. Form 8, Form 11, ITR-5, audit, DIR-3 KYC, partner changes, LLP agreement amendment. Annual and event-based filings. Serving Hinjewadi, Kharadi LLPs. Call +91 945 945 6700.">
+    <meta name="description" content="CA/CS-assisted LLP compliance in Pune. Form 8, Form 11, ITR-5, audit, DIR-3 KYC, partner changes, LLP agreement amendment. Annual and event-based filings.">
     <link rel="canonical" href="/pvt-llp-compliance/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="LLP Annual Compliance in Pune – AOC-4, MGT-7 &amp; Form 11">

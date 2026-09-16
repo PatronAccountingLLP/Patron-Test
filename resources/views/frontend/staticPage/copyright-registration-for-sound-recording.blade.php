@@ -17,7 +17,7 @@
 
 @section('meta')
     <title>Copyright for Sound Recording - Audio, Podcast & Jingle</title>
-    <meta name="description" content="Copyright for sound recording in India costs Rs 2,000 per work under the Copyright Act, 1957. Learn the procedure, documents, rights and benefits of registration.">
+    <meta name="description" content="Copyright for sound recording in India costs Rs 2,000 per work under the Copyright Act, 1957.">
     <link rel="canonical" href="/copyright-registration-for-sound-recording">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Copyright for Sound Recording - Audio, Podcast & Jingle">

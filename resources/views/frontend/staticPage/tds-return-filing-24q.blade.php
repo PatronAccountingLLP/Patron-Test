@@ -17,7 +17,7 @@
 
 @section('meta')
     <title>TDS Return Filing (24Q) - Salary TDS, Form 16 & Due Date</title>
-    <meta name="description" content="Employers must file TDS return Form 24Q quarterly under Section 200(3). Know due dates, Annexure I and II, Form 16 generation via TRACES, Section 234E penalty. Starts Rs 1,999.">
+    <meta name="description" content="Employers must file TDS return Form 24Q quarterly under Section 200(3).">
     <link rel="canonical" href="/tds-return-filing-24q">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="TDS Return Filing (24Q) - Salary TDS, Form 16 & Due Date">

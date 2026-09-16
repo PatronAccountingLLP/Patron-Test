@@ -46,7 +46,7 @@
 
 @section('meta')
     <title>ITR Filing for Companies in Pune – ITR-6, MAT &amp; AMT</title>
-    <meta name="description" content="CA-assisted ITR-6 filing for companies in Pune. Pvt Ltd, OPC, public company. 115BAA/115BAB regime, MAT, statutory audit, and transfer pricing. Serving Hinjewadi, MIDC, Baner. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted ITR-6 filing for companies in Pune. Pvt Ltd, OPC, public company. 115BAA/115BAB regime, MAT, statutory audit, and transfer pricing.">
     <link rel="canonical" href="/itr-for-companies/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="ITR Filing for Companies in Pune – ITR-6, MAT &amp; AMT">

@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>LLP Capital Contribution Gurugram - Form 3 & Deed</title>
-    <meta name="description" content="CA-assisted LLP capital contribution change in Gurugram. Increase, decrease, Form 3, stamp duty, supplementary deed, partner capital, ROC Haryana. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted LLP capital contribution change in Gurugram. Increase, decrease, Form 3, stamp duty, supplementary deed, partner capital, ROC Haryana.">
     <link rel="canonical" href="/llp-contribution-change/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="LLP Capital Contribution Gurugram - Form 3 & Deed">

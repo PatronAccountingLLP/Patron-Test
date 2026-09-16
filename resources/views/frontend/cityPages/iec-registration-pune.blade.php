@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>IEC Registration in Pune - DGFT Process, Fees & Export Code</title>
-    <meta name="description" content="CA-assisted IEC registration in Pune. Import Export Code via DGFT in 1-3 days. RCMC, AD Code, GST export setup included. Serving Chakan, Hinjewadi exporters. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted IEC registration in Pune. Import Export Code via DGFT in 1-3 days. RCMC, AD Code, GST export setup included. Serving Chakan, Hinjewadi exporters.">
     <link rel="canonical" href="/iec-registration/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="IEC Registration in Pune - DGFT Process, Fees & Export Code">

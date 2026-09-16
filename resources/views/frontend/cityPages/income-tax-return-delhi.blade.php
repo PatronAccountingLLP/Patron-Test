@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Income Tax Return in Delhi - ITR Forms, Process & Dates</title>
-    <meta name="description" content="CA-assisted ITR filing in Delhi. Income tax return for salaried, business, freelancers and NRIs. New and old regime. Serving CP, Rohini, Okhla. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted ITR filing in Delhi. Income tax return for salaried, business, freelancers and NRIs. New and old regime. Serving CP, Rohini, Okhla.">
     <link rel="canonical" href="/income-tax-return/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Income Tax Return in Delhi - ITR Forms, Process & Dates">

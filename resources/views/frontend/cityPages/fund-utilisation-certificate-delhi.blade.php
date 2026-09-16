@@ -628,7 +628,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 
 @section('meta')
-    <title>Fund Utilisation Certificate by CA in Delhi 2026 | Patron Accounting</title>
+    <title>Fund Utilisation Certificate by CA in Delhi</title>
     <meta name="description" content="Fund Utilisation Certificate by a CA with UDIN in GFR 12-A format. Proof that grant, CSR, or project funds were used as sanctioned. From INR 3,999.">
     <link rel="canonical" href="/fund-utilisation-certificate/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

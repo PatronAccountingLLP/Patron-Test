@@ -629,7 +629,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 
 @section('meta')
-    <title>Preferential Allotment Section 62 in 2026 | Patron Accounting</title>
+    <title>Preferential Allotment Section 62 in</title>
     <meta name="description" content="Raise a funding round via preferential allotment under Section 62(1)(c) with special resolution, Rule 11UA valuation, PAS-4 and PAS-3. From INR 24,999.">
     <link rel="canonical" href="/preferential-allotment-section-62-1-c">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

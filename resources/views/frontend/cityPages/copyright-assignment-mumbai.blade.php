@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Copyright Assignment in Mumbai - Deed & Stamp Duty</title>
-    <meta name="description" content="Copyright assignment deed in Mumbai. S.18/19 compliant, rights/duration/territory/royalty clauses, 2012 Amendment protections, Copyright Office recordal, enforcement. CA-led. Call +91 945 945 6700.">
+    <meta name="description" content="Copyright assignment deed in Mumbai. S.18/19 compliant, rights/duration/territory/royalty clauses, Amendment protections, Copyright Office recordal.">
     <link rel="canonical" href="/copyright-assignment/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Copyright Assignment in Mumbai - Deed & Stamp Duty">

@@ -46,7 +46,7 @@
 
 @section('meta')
     <title>TDS Returns in Pune – 24Q, 26Q, 27Q &amp; 27EQ Guide</title>
-    <meta name="description" content="CA-assisted TDS return filing in Pune. Form 24Q, 26Q, 27Q quarterly filing, TDS deposit by 7th, TRACES correction, Form 16/16A. Serving Hinjewadi, Kharadi IT firms. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted TDS return filing in Pune. Form 24Q, 26Q, 27Q quarterly filing, TDS deposit by 7th, TRACES correction, Form 16/16A.">
     <link rel="canonical" href="/tds-return/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="TDS Returns in Pune – 24Q, 26Q, 27Q &amp; 27EQ Guide">

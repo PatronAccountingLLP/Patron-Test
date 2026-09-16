@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>USA Company Registration from Delhi - LLC, C-Corp & EIN</title>
-    <meta name="description" content="CA-assisted US company registration from Delhi. LLC/C-Corp in Delaware/Wyoming. FEMA/ODI compliant. From Rs 39,999. Serving Nehru Place, CP, Okhla. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted US company registration from Delhi. LLC/C-Corp in Delaware/Wyoming. FEMA/ODI compliant. From Rs 39,999. Serving Nehru Place, CP, Okhla.">
     <link rel="canonical" href="/company-registration-in-usa/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="USA Company Registration from Delhi - LLC, C-Corp & EIN">

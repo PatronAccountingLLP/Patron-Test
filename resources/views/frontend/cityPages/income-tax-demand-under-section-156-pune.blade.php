@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Income Tax Demand u/s 156 in Pune - Reply & Payment</title>
-    <meta name="description" content="CA assisted response to income tax demand notice under Section 156 for Pune taxpayers. Verify demand, rectification S.154, appeal S.246A, stay, Challan 280. Salaried, business, NRI. Call +91 945 945 6700.">
+    <meta name="description" content="CA assisted response to income tax demand notice under Section 156 for Pune taxpayers. Verify demand, rectification S.154, appeal S.246A, stay, Challan 280.">
     <link rel="canonical" href="/income-tax-demand-under-section-156/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Income Tax Demand u/s 156 in Pune - Reply & Payment">

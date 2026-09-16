@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>TDS Return Filing (24Q) Mumbai - Salary TDS & Form 16</title>
-    <meta name="description" content="CA-assisted TDS return filing (Form 24Q/Form 16) in Mumbai. Quarterly 24Q, salary TDS compliance, TRACES corrections. Serving BKC, Powai, MIDC. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted TDS return filing (Form 24Q/Form 16) in Mumbai. Quarterly 24Q, salary TDS compliance, TRACES corrections. Serving BKC, Powai, MIDC.">
     <link rel="canonical" href="/tds-return-filing/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="TDS Return Filing (24Q) Mumbai - Salary TDS & Form 16">

@@ -628,7 +628,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 
 @section('meta')
-    <title>Income Certificate by CA for Visa and Loans 2026 | Patron Accounting</title>
+    <title>Income Certificate by CA for Visa and Loans</title>
     <meta name="description" content="CA income certificate in Pune for visa, loans, and self-employed income proof. Annual income attested with UDIN, distinct from ITR. From INR 1,999.">
     <link rel="canonical" href="/income-certificate-by-ca/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

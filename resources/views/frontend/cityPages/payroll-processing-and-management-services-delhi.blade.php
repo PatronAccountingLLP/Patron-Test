@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Payroll Processing & Management in Delhi - PF, ESI & TDS</title>
-    <meta name="description" content="CA-managed payroll processing in Delhi. Salary computation, PF/ESI/TDS compliance, Delhi minimum wage tracking, and multi-state NCR payroll. No Professional Tax. Call +91 945 945 6700.">
+    <meta name="description" content="CA-managed payroll processing in Delhi. Salary computation, PF/ESI/TDS compliance, Delhi minimum wage tracking, and multi-state NCR payroll.">
     <link rel="canonical" href="/payroll-processing-and-management-services/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Payroll Processing & Management in Delhi - PF, ESI & TDS">

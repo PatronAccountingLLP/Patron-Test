@@ -630,7 +630,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 
 @section('meta')
-    <title>CMA Data Preparation and Certification in Mumbai 2026 | Patron Accounting</title>
+    <title>CMA Data Preparation and Certification in Mumbai</title>
     <meta name="description" content="CA-prepared and certified CMA data for bank loans: 7 statements, MPBF and ratios in IBA format for working capital and term loans. From INR 9,999.">
     <link rel="canonical" href="/cma-data-preparation-and-certification/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

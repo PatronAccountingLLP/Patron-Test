@@ -628,7 +628,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 
 @section('meta')
-    <title>Stock Statement Certificate for Bank CC OD 2026 | Patron Accounting</title>
+    <title>Stock Statement Certificate for Bank CC OD</title>
     <meta name="description" content="Monthly stock statement certificate for CC and OD borrowers in Pune. CA-prepared for bank drawing power, RBI-compliant. From INR 1,999 per month.">
     <link rel="canonical" href="/stock-statement-certificate/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

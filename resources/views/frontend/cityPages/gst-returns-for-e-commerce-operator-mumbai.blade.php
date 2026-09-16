@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>GST Returns for E-Commerce in Mumbai - GSTR-8 & TCS</title>
-    <meta name="description" content="CA-assisted GSTR-8 TCS filing for e-commerce operators in Mumbai. Section 52 TCS and Section 9(5) compliance. Serving BKC, Powai, Andheri platforms. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted GSTR-8 TCS filing for e-commerce operators in Mumbai. Section 52 TCS and Section 9(5) compliance. Serving BKC, Powai, Andheri platforms.">
     <link rel="canonical" href="/gst-returns-for-e-commerce-operator/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="GST Returns for E-Commerce in Mumbai - GSTR-8 & TCS">

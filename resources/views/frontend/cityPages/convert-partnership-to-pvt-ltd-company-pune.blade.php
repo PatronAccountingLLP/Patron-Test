@@ -18,7 +18,7 @@
 
 @section('meta')
     <title>Convert Partnership to Pvt Ltd Pune – URC-1 &amp; SPICe+</title>
-    <meta name="description" content="CA and CS assisted partnership to Pvt Ltd conversion in Pune. URC-1, SPICe+, newspaper ad, ROC approval, fresh COI, auto-transfer. Family businesses, Camp traders, MIDC manufacturers. Call +91 945 945 6700.">
+    <meta name="description" content="CA and CS assisted partnership to Pvt Ltd conversion in Pune. URC-1, SPICe+, newspaper ad, ROC approval, fresh COI, auto-transfer.">
     <link rel="canonical" href="/convert-partnership-to-pvt-ltd-company/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Convert Partnership to Pvt Ltd Pune – URC-1 &amp; SPICe+">

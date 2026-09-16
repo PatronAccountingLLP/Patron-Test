@@ -628,7 +628,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 
 @section('meta')
-    <title>Certificate of Fair Market Value (FMV) in Delhi 2026 | Patron Accounting</title>
+    <title>Certificate of Fair Market Value (FMV) in Delhi</title>
     <meta name="description" content="Fair Market Value certificate under Rule 11UA for unlisted shares, ESOP, and Section 56 or 50CA. NAV method by CA; merchant banker for DCF. From INR 9,999.">
     <link rel="canonical" href="/certificate-of-fair-market-value-fmv/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

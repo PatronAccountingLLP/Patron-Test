@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Turnover Cert. – Current Account Delhi NCR, CA Format</title>
-    <meta name="description" content="CA-conducted turnover certificate for current account under Companies Act in Delhi. CARO 2020, IFC reporting, Ind AS. Every company type. RoC Delhi filing. Call +91 945 945 6700.">
+    <meta name="description" content="CA-conducted turnover certificate for current account under Companies Act in Delhi. CARO, IFC reporting, Ind AS. Every company type. RoC Delhi filing.">
     <link rel="canonical" href="/turnover-certificate-for-current-account/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Turnover Cert. – Current Account Delhi NCR, CA Format">

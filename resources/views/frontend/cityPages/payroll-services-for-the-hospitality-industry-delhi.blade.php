@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Hotel & Restaurant Payroll in Delhi - Tips, PF, ESI & TDS</title>
-    <meta name="description" content="CA-led hotel and restaurant payroll in Delhi. Shift processing, tips, PF/ESI, TDS, banquet staff. Labour Code compliant. Serving Aerocity, CP, Rohini. Call +91 945 945 6700.">
+    <meta name="description" content="CA-led hotel and restaurant payroll in Delhi. Shift processing, tips, PF/ESI, TDS, banquet staff. Labour Code compliant. Serving Aerocity, CP, Rohini.">
     <link rel="canonical" href="/payroll-services-for-the-hospitality-industry/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Hotel & Restaurant Payroll in Delhi - Tips, PF, ESI & TDS">

@@ -18,7 +18,7 @@
 
 @section('meta')
     <title>TAN Registration Delhi NCR – Form 49B, Process &amp; Fees</title>
-    <meta name="description" content="CA-assisted TAN registration in Delhi. Form 49B filing, TDS compliance and quarterly returns for employers and businesses. Serving CP, Okhla, Rohini. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted TAN registration in Delhi. Form 49B filing, TDS compliance and quarterly returns for employers and businesses. Serving CP, Okhla, Rohini.">
     <link rel="canonical" href="/tan-registration/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="TAN Registration Delhi NCR – Form 49B, Process &amp; Fees">

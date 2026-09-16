@@ -629,7 +629,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 
 @section('meta')
-    <title>KMP Appointment under Section 203 in 2026 | Patron Accounting</title>
+    <title>KMP Appointment under Section 203 in</title>
     <meta name="description" content="Appoint CFO, CS and MD as KMP under Section 203 with board resolution, DIR-12 and MR-1. Mandatory at Rs 10 crore paid-up capital. From INR 9,999.">
     <link rel="canonical" href="/kmp-appointment-cfo-cs-md-section-203">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

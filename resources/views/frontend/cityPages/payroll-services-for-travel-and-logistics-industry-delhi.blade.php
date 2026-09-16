@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Travel & Logistics Payroll in Delhi - PF, ESI & Multi-PT</title>
-    <meta name="description" content="CA-managed payroll for logistics and transport companies in Delhi. Driver trip-based pay, PF/ESI, fleet payroll, and multi-state NCR compliance. Serving Okhla, Narela businesses. Call +91 945 945 6700.">
+    <meta name="description" content="CA-managed payroll for logistics and transport companies in Delhi. Driver trip-based pay, PF/ESI, fleet payroll, and multi-state NCR compliance.">
     <link rel="canonical" href="/payroll-services-for-travel-and-logistics-industry/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Travel & Logistics Payroll in Delhi - PF, ESI & Multi-PT">

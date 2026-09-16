@@ -630,7 +630,7 @@ section ul li:not(.nav-item) { font-size: 14px; }}
 
 
 @section('meta')
-    <title>Income Certificate by CA in Mumbai 2026: Format, Uses, Cost | Patron Accounting</title>
+    <title>Income Certificate by CA in Mumbai: Format, Uses, Cost</title>
     <meta name="description" content="CA-certified income certificate confirming your annual income for visa, loan, education and scheme use. UDIN-verified, ideal for self-employed. From INR 1,999.">
     <link rel="canonical" href="/income-certificate-by-ca/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

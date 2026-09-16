@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>ITR for Influencers Gurugram - Brand Deals & TDS 194R</title>
-    <meta name="description" content="CA-assisted ITR filing for influencers in Gurugram. YouTube, Instagram income tax. Profession Code 16021, Section 194R, brand deal TDS, GST. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted ITR filing for influencers in Gurugram. YouTube, Instagram income tax. Profession Code 16021, Section 194R, brand deal TDS, GST.">
     <link rel="canonical" href="/itr-for-influencers/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="ITR for Influencers Gurugram - Brand Deals & TDS 194R">

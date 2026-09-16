@@ -46,7 +46,7 @@
 
 @section('meta')
     <title>Convert Partnership to LLP in Pune – Form 17 &amp; FiLLiP</title>
-    <meta name="description" content="CA/CS-assisted partnership to LLP conversion in Pune. Section 55, Form 17, FiLLiP, tax-neutral transfer, LLP agreement, Form 14. ROC Pune + Registrar of Firms. Serving Pimpri-Chinchwad, Baner firms. Call +91 945 945 6700.">
+    <meta name="description" content="CA/CS-assisted partnership to LLP conversion in Pune. Section 55, Form 17, FiLLiP, tax-neutral transfer, LLP agreement, Form 14.">
     <link rel="canonical" href="/convert-partnership-to-llp/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Convert Partnership to LLP in Pune – Form 17 &amp; FiLLiP">

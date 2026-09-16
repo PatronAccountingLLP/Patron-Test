@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Turnover Certificate by CA in Pune - Format & Documents</title>
-    <meta name="description" content="CA-certified turnover certificate in Pune with UDIN. Government tenders, GEM portal, bank loans, MSME, vendor registration. PMC/PCMC/PSU formats. Serving Pimpri-Chinchwad, Hinjewadi businesses. Call +91 945 945 6700.">
+    <meta name="description" content="CA-certified turnover certificate in Pune with UDIN. Government tenders, GEM portal, bank loans, MSME, vendor registration. PMC/PCMC/PSU formats.">
     <link rel="canonical" href="/turnover-certificate/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Turnover Certificate by CA in Pune - Format & Documents">

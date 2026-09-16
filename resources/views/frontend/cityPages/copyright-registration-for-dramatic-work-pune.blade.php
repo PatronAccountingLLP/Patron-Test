@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Copyright for Dramatic Work in Pune - Script & Play</title>
-    <meta name="description" content="CA-assisted dramatic work copyright in Pune. Scripts, screenplays, choreography, stage plays - all protected via Form XIV. Serving FTII alumni, theatre groups. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted dramatic work copyright in Pune. Scripts, screenplays, choreography, stage plays - all protected via Form XIV.">
     <link rel="canonical" href="/copyright-registration-for-dramatic-work/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Copyright for Dramatic Work in Pune - Script & Play">

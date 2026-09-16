@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>ITR for Property Sale Gurugram - Sec 54 & TDS 194IA</title>
-    <meta name="description" content="CA-assisted ITR filing for property sale in Gurugram. Capital gains, Section 54/54EC exemption, TDS 194IA, indexation. Golf Course Road, Sohna Road, DLF sellers. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted ITR filing for property sale in Gurugram. Capital gains, Section 54/54EC exemption, TDS 194IA, indexation.">
     <link rel="canonical" href="/itr-for-property-sale/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="ITR for Property Sale Gurugram - Sec 54 & TDS 194IA">

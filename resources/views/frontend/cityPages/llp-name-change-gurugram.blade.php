@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>LLP Name Change Gurugram - Form 5, RUN-LLP & ROC</title>
-    <meta name="description" content="CA/CS-assisted LLP name change in Gurugram. RUN-LLP, Form 5, Form 3, supplementary deed, fresh certificate, ROC Haryana. Serving Cyber City, Sohna Road. Call +91 945 945 6700.">
+    <meta name="description" content="CA/CS-assisted LLP name change in Gurugram. RUN-LLP, Form 5, Form 3, supplementary deed, fresh certificate, ROC Haryana. Serving Cyber City, Sohna Road.">
     <link rel="canonical" href="/llp-name-change/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="LLP Name Change Gurugram - Form 5, RUN-LLP & ROC">

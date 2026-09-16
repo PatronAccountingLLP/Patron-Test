@@ -17,7 +17,7 @@
 
 @section('meta')
     <title>Trademark Infringement in India - Remedies, Suit & Penalty</title>
-    <meta name="description" content="Trademark infringement under Section 29 of Trade Marks Act 1999. Civil + criminal remedies. Injunction, damages, imprisonment 6 months-3 years. Expert CA and CS team.">
+    <meta name="description" content="Trademark infringement under Section 29 of Trade Marks Act 1999. Civil + criminal remedies. Injunction, damages, imprisonment 6 months-3 years.">
     <link rel="canonical" href="/trademark-infringement">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Trademark Infringement in India - Remedies, Suit & Penalty">

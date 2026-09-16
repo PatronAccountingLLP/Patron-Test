@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Copyright for Musical Work in Pune - Lyrics & Composition</title>
-    <meta name="description" content="CA-assisted musical work copyright in Pune. Compositions, jingles, scores, notations - all protected via Form XIV. Serving composers, musicians, studios. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted musical work copyright in Pune. Compositions, jingles, scores, notations - all protected via Form XIV. Serving composers, musicians, studios.">
     <link rel="canonical" href="/copyright-registration-for-musical-work/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Copyright for Musical Work in Pune - Lyrics & Composition">

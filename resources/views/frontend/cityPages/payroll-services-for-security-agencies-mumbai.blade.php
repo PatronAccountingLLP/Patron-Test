@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Security Agency Payroll Mumbai - ESIC, PF & Wage Register</title>
-    <meta name="description" content="CA-led security agency payroll in Mumbai. Guard wages, VDA revision, site-wise processing, PF/ESI, PSARA compliance, CLRA documentation for BKC, Andheri, Navi Mumbai. Call +91 945 945 6700.">
+    <meta name="description" content="CA-led security agency payroll in Mumbai. Guard wages, VDA revision, site-wise processing, PF/ESI, PSARA compliance, CLRA documentation for BKC, Andheri.">
     <link rel="canonical" href="/payroll-services-for-security-agencies/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Security Agency Payroll Mumbai - ESIC, PF & Wage Register">

@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>GST Registration in Gurugram - Process, Fees & GSTIN</title>
-    <meta name="description" content="CA-assisted GST registration in Gurugram. Zero govt fee. GSTIN in 3-7 days. Startups, IT, manufacturing, e-commerce. Serving Cyber City, Sohna Rd. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted GST registration in Gurugram. Zero govt fee. GSTIN in 3-7 days. Startups, IT, manufacturing, e-commerce. Serving Cyber City, Sohna Rd.">
     <link rel="canonical" href="/gst-registration/gurugram">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="GST Registration in Gurugram - Process, Fees & GSTIN">

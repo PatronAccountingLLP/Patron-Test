@@ -17,7 +17,7 @@
 
 
 @section('meta')
-    <title>DIN Restoration after MCA Disqualification 2026 | Patron Accounting</title>
+    <title>DIN Restoration after MCA Disqualification</title>
     <meta name="description" content="Restore your disqualified DIN through NCLT appeal under Section 252, INC-28 and DIR-3 KYC reactivation. Expert CA and CS help. From INR 19,999.">
     <link rel="canonical" href="/din-restoration-after-mca-disqualification">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">

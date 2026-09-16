@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Section 8 Company Registration in Delhi - MOA, AOA & Fees</title>
-    <meta name="description" content="CA-assisted Section 8 company registration in Delhi. Non-profit licence, SPICe+ filing, 12A, 80G and FCRA. Serving ITO, Civil Lines, Saket NGOs. Call +91 945 945 6700.">
+    <meta name="description" content="CA-assisted Section 8 company registration in Delhi. Non-profit licence, SPICe+ filing, 12A, 80G and FCRA. Serving ITO, Civil Lines, Saket NGOs.">
     <link rel="canonical" href="/section8-company-registration/delhi">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Section 8 Company Registration in Delhi - MOA, AOA & Fees">

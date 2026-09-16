@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Copyright for Cinematograph Film in Pune - OTT & Fees</title>
-    <meta name="description" content="Register copyright for cinematographic film in Pune. Feature films, ad films, OTT content, web series, documentaries. Producer as author. CA-assisted. Call +91 945 945 6700.">
+    <meta name="description" content="Register copyright for cinematographic film in Pune. Feature films, ad films, OTT content, web series, documentaries. Producer as author. CA-assisted.">
     <link rel="canonical" href="/copyright-registration-for-cinematographic-film/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Copyright for Cinematograph Film in Pune - OTT & Fees">

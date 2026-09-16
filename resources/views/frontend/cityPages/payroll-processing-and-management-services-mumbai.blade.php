@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Payroll Processing & Management Mumbai - PF, ESI & TDS</title>
-    <meta name="description" content="CA-led payroll processing in Mumbai. CTC structuring, PF/ESI, TDS dual regime, Maharashtra PT, 50% basic rule, multi-industry for BKC, Powai, Andheri companies. Call +91 945 945 6700.">
+    <meta name="description" content="CA-led payroll processing in Mumbai. CTC structuring, PF/ESI, TDS dual regime, Maharashtra PT, 50% basic rule, multi-industry for BKC, Powai.">
     <link rel="canonical" href="/payroll-processing-and-management-services/mumbai">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Payroll Processing & Management Mumbai - PF, ESI & TDS">

@@ -45,7 +45,7 @@
 
 @section('meta')
     <title>Nidhi Company Registration in Pune - Process, Fees & Docs</title>
-    <meta name="description" content="Register a Nidhi Company in Pune. CA-assisted incorporation at RoC Pune, NDH-4 declaration, 200-member strategy, Rs 20L NOF, deposits and loans to members. Wagholi office. Call +91 945 945 6700.">
+    <meta name="description" content="Register a Nidhi Company in Pune. CA-assisted incorporation at RoC Pune, NDH-4 declaration, 200-member strategy, Rs 20L NOF, deposits and loans to members.">
     <link rel="canonical" href="/nidhi-company-registration/pune">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="Nidhi Company Registration in Pune - Process, Fees & Docs">

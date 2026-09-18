@@ -160,7 +160,15 @@
         $paWaTopic = \App\Support\PageTopic::fromPath($paWaPath);
     }
 
+    // Some pages have no name worth saying. A listing is an index of other pages
+    // (/blog, /blog/<category> and every /page-N are all one view, and from the URL
+    // a category slug is indistinguishable from a post slug), and a 404 names a page
+    // that does not exist - it was offering "I just visited your GST page" over a
+    // Not Found. Those views say so themselves and the button stays generic.
+    $paWaUnnamed = (bool) config('pa.page_has_no_name', false);
+
     $paWaNamesPage = $paWaTopic !== ''
+                  && ! $paWaUnnamed
                   && strcasecmp($paWaTopic, 'General Enquiry') !== 0
                   && $paWaPath !== '';
 

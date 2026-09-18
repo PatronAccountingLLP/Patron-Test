@@ -319,7 +319,7 @@
             </div>
             <div class="col-lg-4">
                 @include('partials.bigin-form', [
-                    'service'  => 'Accounting',
+                    'service'  => 'Accounting Services',
                 ])
             </div>
         </div>
@@ -832,7 +832,7 @@
                     <a class="faq-expanded__cta" href="/contact-us">Still have a question? Talk to a CA &rarr;</a>
                     @include('partials.bigin-form', [
                         'variant'  => 'compact',
-                        'service'  => 'Accounting',
+                        'service'  => 'Accounting Services',
                         'title'    => 'Ask about your books',
                         'subtitle' => 'Send your requirement for a scoped quote.',
                     ])

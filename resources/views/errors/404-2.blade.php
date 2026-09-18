@@ -1,6 +1,8 @@
 {{-- No callback form on an error or sign-in screen. --}}
 @php
     config(['pa.enquiry_form_rendered' => true]);
+    // Do not let the floating WhatsApp button name a page that is not there.
+    config(['pa.page_has_no_name' => true]);
 @endphp
 @extends('layouts.app')
 

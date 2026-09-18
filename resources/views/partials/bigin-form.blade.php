@@ -107,7 +107,13 @@
     // General Ledger", "Blog - ...") so they are filterable in the pipeline. The
     // message is written in the client's voice, so it uses the plain topic.
     $paTopic = preg_replace('/^(?:Glossary|Blog) - /', '', $paSvc);
-    $paMsg = 'Hi, I would like to know about '.$paTopic.'.';
+    // "General Enquiry" is a filing label, not something a person asks about, and
+    // dropping it into this sentence produced "Hi, I would like to know about
+    // General Enquiry." on /contact-us and anywhere else the fallback fires. The
+    // deal name keeps the label; the client's own words do not.
+    $paMsg = strcasecmp($paTopic, 'General Enquiry') === 0
+        ? 'Hi, I would like to speak to someone about my requirement.'
+        : 'Hi, I would like to know about '.$paTopic.'.';
     // Most city pages already name the city in the service ("Stock Audit in
     // Mumbai"), so only add it when it is not already in there.
     if ($paCity !== '' && stripos($paSvc, $paCity) === false) {

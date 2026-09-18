@@ -243,9 +243,17 @@
 </div>
 
 @if($faqs)
+    {{-- Without an enquiryService, partials/bigin-form de-slugs the URL itself, and on
+         these two families that is the document's own citation: deals arrived named
+         "Website Enquiry - Palaniappanchinnadurai Prop M S Tuticorin Lime and Chemical
+         Industries Tn 25 Aar 2018", and "Notification Notification No 74 2026". Naming
+         it here also settles the floating WhatsApp button, which reads whatever the
+         form publishes in preference to working it out again. --}}
     @include('partials.faq-section', [
         'faqs' => $faqs,
         'lead' => 'The questions people ask about this, answered plainly. Still not sure where you stand? Our CA team is a message away.',
+        'enquiryService' => \App\Support\PageTopic::fromPath($pub->path)
+            ?: ($isCase ? 'Case Law' : 'Compliance Update'),
     ])
 @endif
 @endsection

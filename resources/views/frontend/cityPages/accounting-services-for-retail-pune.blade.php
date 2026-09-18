@@ -485,7 +485,7 @@
 </div>
 
 
-<section class="content-section" id="overview-section">
+<section class="content-section" id="overview-section" data-slot="overview">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">What Retail Accounting Costs and Covers for Pune Businesses</h2>
@@ -502,7 +502,7 @@
 </section>
 
 
-<section class="content-section" id="what-section">
+<section class="content-section" id="what-section" data-slot="what-is">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
@@ -549,7 +549,7 @@
 </section>
 
 
-<section class="pa-logos-section"><div class="pa-logos-wrap"><p class="pa-logos-title">The software and platforms we work with</p><div class="pa-logos-cards" data-count="4"><div class="pa-logo-card"><img src="/images/accounting-cluster/_platform-logos/amazon.webp" alt="Amazon" loading="lazy"></div><div class="pa-logo-card"><img src="/images/accounting-cluster/_platform-logos/flipkart.webp" alt="Flipkart" loading="lazy"></div><div class="pa-logo-card"><img src="/images/accounting-cluster/_platform-logos/myntra.webp" alt="Myntra" loading="lazy"></div><div class="pa-logo-card"><img src="/images/accounting-cluster/_platform-logos/nykaa.webp" alt="Nykaa" loading="lazy"></div></div></div></section><section class="content-section" id="services-section">
+<section class="pa-logos-section"><div class="pa-logos-wrap"><p class="pa-logos-title">The software and platforms we work with</p><div class="pa-logos-cards" data-count="4"><div class="pa-logo-card"><img src="/images/accounting-cluster/_platform-logos/amazon.webp" alt="Amazon" loading="lazy"></div><div class="pa-logo-card"><img src="/images/accounting-cluster/_platform-logos/flipkart.webp" alt="Flipkart" loading="lazy"></div><div class="pa-logo-card"><img src="/images/accounting-cluster/_platform-logos/myntra.webp" alt="Myntra" loading="lazy"></div><div class="pa-logo-card"><img src="/images/accounting-cluster/_platform-logos/nykaa.webp" alt="Nykaa" loading="lazy"></div></div></div></section><section class="content-section" id="services-section" data-slot="services">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Retail Accounting Services Included for Pune Businesses</h2>
@@ -574,7 +574,7 @@
 </section>
 
 
-<section class="steps-section" id="procedure-section">
+<section class="steps-section" id="procedure-section" data-slot="process">
     <div class="section-container">
         <header class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow">Our Process</span>
@@ -645,7 +645,7 @@
 
 
 
-<section class="content-section" id="documents-section">
+<section class="content-section" id="documents-section" data-slot="documents">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Documents Required for Retail Accounting Services</h2>
@@ -730,7 +730,7 @@
 </section>
 <!-- ============ /CLIENT PORTAL ============ -->
 
-<section class="content-section" id="challenges-section">
+<section class="content-section" id="challenges-section" data-slot="challenges">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Retail Accounting Challenges Specific to Pune: Hinjewadi IT Park SEZ Rules and MIDC Estate Compliance</h2>
@@ -755,7 +755,7 @@
 
 
 
-<section class="content-section" id="fees-section">
+<section class="content-section" id="fees-section" data-slot="fees">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Retail Accounting Fees in Pune</h2>
@@ -780,7 +780,7 @@
 </section>
 
 
-<section class="content-section" id="timeline-section">
+<section class="content-section" id="timeline-section" data-slot="timeline">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Retail Accounting Compliance Calendar 2026 for Pune Businesses</h2>
@@ -878,7 +878,7 @@
 
 
 
-<section class="content-section" id="comparison-section">
+<section class="content-section" id="comparison-section" data-slot="comparison">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Retail Inventory Method vs Cost Method: for Pune Businesses</h2>
@@ -925,7 +925,7 @@
 </section>
 
 
-<section id="faq-section" class="content-section" style="background-color: #ffffff;">
+<section id="faq-section" data-slot="faq" class="content-section" style="background-color: #ffffff;">
     <div class="content-container">
         <div class="text-content">
             
@@ -1011,7 +1011,7 @@
 </section>
 
 
-<section class="content-section" style="background: var(--blue) !important;">
+<section class="content-section" style="background: var(--blue) !important;" data-slot="conclusion">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title" style="color:#FFFFFF !important;">Start Your Retail Accounting Services in Pune with Patron Accounting</h2>

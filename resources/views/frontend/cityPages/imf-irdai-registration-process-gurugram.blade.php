@@ -1215,7 +1215,7 @@ function toggleTestiVideo(area){
 
 
 <!-- SECTION 2: OVERVIEW + TL;DR -->
-<section class="content-section" id="overview-section">
+<section class="content-section" id="overview-section" data-slot="overview">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">IRDAI IMF Registration in Gurugram - Overview</h2>
@@ -1233,7 +1233,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 3: WHAT IS AN IMF -->
-<section class="content-section" id="what-section">
+<section class="content-section" id="what-section" data-slot="what-is">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
@@ -1306,7 +1306,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 6: PROCESS / STEPS -->
-<section class="steps-section" id="procedure-section">
+<section class="steps-section" id="procedure-section" data-slot="process">
     <div class="content-container">
         <div style="text-align:center;margin-bottom:40px;">
             <span class="section-eyebrow">Step-by-Step</span>
@@ -1422,7 +1422,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 8: DOCUMENTS -->
-<section class="content-section" id="documents-section">
+<section class="content-section" id="documents-section" data-slot="documents">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Documents Required for IMF Registration</h2>
@@ -1446,7 +1446,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 9: TIMELINE -->
-<section class="content-section" id="timeline-section">
+<section class="content-section" id="timeline-section" data-slot="timeline">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">How Long Does IMF Registration Take?</h2>
@@ -1460,7 +1460,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 10: FEES -->
-<section class="content-section" id="fees-section">
+<section class="content-section" id="fees-section" data-slot="fees">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">IMF Registration Fees in Gurugram</h2>
@@ -1556,7 +1556,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 16: FAQ -->
-<section id="faq-section" class="content-section" style="background-color: #ffffff;">
+<section id="faq-section" data-slot="faq" class="content-section" style="background-color: #ffffff;">
     <div class="content-container">
         <div class="text-content">
             <div class="faq-expanded">
@@ -1622,7 +1622,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- CONCLUSION + CTA BLOCK (Dark) -->
-<section class="content-section" style="background: var(--blue) !important;">
+<section class="content-section" style="background: var(--blue) !important;" data-slot="conclusion">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title" style="color:#FFFFFF !important;">Get IRDAI IMF Registration in Gurugram with Patron Accounting</h2>

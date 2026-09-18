@@ -94,6 +94,7 @@
 @endsection
 
 @section('content')
+<script>window.__paPageError=404;</script>
 
 <style>
     /* ============================================

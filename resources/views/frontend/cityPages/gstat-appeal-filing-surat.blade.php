@@ -473,7 +473,7 @@
 </div>
 
 <!-- SECTION 2: OVERVIEW / INTRO + TL;DR -->
-<section class="content-section" id="overview-section">
+<section class="content-section" id="overview-section" data-slot="overview">
     <div class="content-container">
         <div class="text-content">
                 <h2 class="section-title">GSTAT Appeal Filing in Surat - Overview</h2>
@@ -530,7 +530,7 @@
 </section>
 
 <!-- SECTION 3: WHAT IS [SERVICE] -->
-<section class="content-section" id="what-section">
+<section class="content-section" id="what-section" data-slot="what-is">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
@@ -590,10 +590,10 @@
 </section>
 
 <!-- SECTION 5: OUR SERVICES -->
-<section class="content-section" id="services-section">
+<section class="content-section" id="services-section" data-slot="services">
     <div class="content-container">
         <div class="text-content">
-                <h2 class="section-title" id="services-section">GSTAT Appeal Filing Services at Surat Bench</h2>
+                <h2 class="section-title" id="services-section" data-slot="services">GSTAT Appeal Filing Services at Surat Bench</h2>
 <div class="table-responsive-wrapper">
     <table><thead><tr><th>Service</th><th>What We Do</th></tr></thead>
         <tbody>
@@ -613,7 +613,7 @@
 </section>
 
 <!-- SECTION 7: STEP-BY-STEP PROCESS -->
-<section class="steps-section" id="procedure-section">
+<section class="steps-section" id="procedure-section" data-slot="process">
     <div class="section-container">
         <header class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Our Process</span>
@@ -649,10 +649,10 @@
 </section>
 
 <!-- SECTION 8: DOCUMENTS REQUIRED -->
-<section class="content-section" id="documents-section">
+<section class="content-section" id="documents-section" data-slot="documents">
     <div class="content-container">
         <div class="text-content">
-                <h2 class="section-title" id="documents-section">Documents Required for GSTAT Appeal Filing at Surat</h2>
+                <h2 class="section-title" id="documents-section" data-slot="documents">Documents Required for GSTAT Appeal Filing at Surat</h2>
 <ul>
     <li>Form APL-05 - GSTAT appeal form (filed electronically on <a href="https://efiling.gstat.gov.in" target="_blank" rel="noopener">efiling.gstat.gov.in</a>)</li>
     <li>Certified copy of impugned order from First Appellate Authority or Revisional Authority</li>
@@ -674,10 +674,10 @@
 </section>
 
 <!-- SECTION 9: CHALLENGES -->
-<section class="content-section" id="challenges-section">
+<section class="content-section" id="challenges-section" data-slot="challenges">
     <div class="content-container">
         <div class="text-content">
-                <h2 class="section-title" id="challenges-section">Challenges in GSTAT Appeal Filing at Surat Bench</h2>
+                <h2 class="section-title" id="challenges-section" data-slot="challenges">Challenges in GSTAT Appeal Filing at Surat Bench</h2>
 <h3>Gujarat 3-Forum Routing</h3>
 <p>The primary routing challenge is distinguishing Surat bench jurisdiction from Ahmedabad. Vadodara district, despite being in Central Gujarat and geographically closer to Surat, falls under the Ahmedabad bench. Businesses in Anand and Kheda file at Surat, not Ahmedabad. Rajkot/Saurashtra goes to the Rajkot circuit under Ahmedabad bench. See also <a href="/gstat-appeal-filing/ahmedabad">GSTAT appeal filing in Ahmedabad</a>.</p>
 <h3>GGST vs UTGST Distinction</h3>
@@ -695,10 +695,10 @@
 </section>
 
 <!-- SECTION 10: FEES + TIMELINE -->
-<section class="content-section" id="fees-section">
+<section class="content-section" id="fees-section" data-slot="fees">
     <div class="content-container">
         <div class="text-content">
-                <h2 class="section-title" id="fees-section">Fees for GSTAT Appeal Filing at Surat Bench</h2>
+                <h2 class="section-title" id="fees-section" data-slot="fees">Fees for GSTAT Appeal Filing at Surat Bench</h2>
 <p>GSTAT appeal costs at the Surat bench comprise statutory government fees and professional service charges.</p>
 <div class="table-responsive-wrapper">
     <table class="table-amount"><thead><tr><th>Component</th><th>Amount</th></tr></thead>
@@ -751,10 +751,10 @@
 </section>
 
 <!-- SECTION 13: COMPARISON TABLE -->
-<section class="content-section" id="comparison-section">
+<section class="content-section" id="comparison-section" data-slot="comparison">
     <div class="content-container">
         <div class="text-content">
-                <h2 class="section-title" id="comparison-section">Patron Accounting vs Alternatives for Surat GSTAT Appeals</h2>
+                <h2 class="section-title" id="comparison-section" data-slot="comparison">Patron Accounting vs Alternatives for Surat GSTAT Appeals</h2>
 <div class="table-responsive-wrapper"><table class="table-comparison" style="min-width:560px;"><thead><tr><th>Factor</th><th>Patron Accounting</th><th>Unrepresented Appellant</th><th>General CA Firm</th></tr></thead>
         <tbody>
             <tr><td>GSTAT Filing Expertise</td><td>Dedicated practice across 32 benches</td><td>No tribunal experience</td><td>Limited GSTAT exposure</td></tr>
@@ -789,10 +789,10 @@
 </section>
 
 <!-- SECTION 15A: LEGAL FRAMEWORK / STATUTORY REFERENCE -->
-<section class="content-section" id="legal-section">
+<section class="content-section" id="legal-section" data-slot="legal-framework">
     <div class="content-container">
         <div class="text-content">
-                <h2 class="section-title" id="legal-section">Legal Framework for GSTAT Appeals at Surat Bench</h2>
+                <h2 class="section-title" id="legal-section" data-slot="legal-framework">Legal Framework for GSTAT Appeals at Surat Bench</h2>
 <div class="table-responsive-wrapper"><table><thead><tr><th>Provision</th><th>Section</th><th>Key Requirement</th></tr></thead>
         <tbody>
             <tr><td>GSTAT Constitution</td><td>S.109, CGST Act</td><td>Surat bench constituted under S.O.3048(E) dated 31 July 2024; jurisdiction via S.O.5063(E) dated 26 November 2024</td></tr>
@@ -811,7 +811,7 @@
 </section>
 
 <!-- SECTION 16: FAQ ACCORDION -->
-<section class="content-section" id="faq-section">
+<section class="content-section" id="faq-section" data-slot="faq">
     <div class="content-container">
         <div class="text-content">
             <div class="faq-expanded">

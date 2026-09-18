@@ -1083,7 +1083,7 @@ function toggleTestiVideo(area){
 </div>
 
 <!-- SECTION 1A: QUESTION H2 + QUICK ANSWERS -->
-<section class="content-section" id="overview-section">
+<section class="content-section" id="overview-section" data-slot="overview">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">What Is the FCRA Quarterly Receipt Declaration - and Is It Still Required?</h2>
@@ -1105,7 +1105,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION: WHAT IT IS -->
-<section class="content-section" id="what-section">
+<section class="content-section" id="what-section" data-slot="what-is">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
@@ -1194,7 +1194,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION: COMPLIANCE STEPS -->
-<section class="steps-section" id="procedure-section">
+<section class="steps-section" id="procedure-section" data-slot="process">
     <div class="section-container">
         <div class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow">The Process</span>
@@ -1267,7 +1267,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION: DOCUMENTS -->
-<section class="content-section" id="documents-section">
+<section class="content-section" id="documents-section" data-slot="documents">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Documents for the Annual FCRA Disclosure and FC-4</h2>
@@ -1292,7 +1292,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION: CHALLENGES -->
-<section class="content-section" id="challenges-section">
+<section class="content-section" id="challenges-section" data-slot="challenges">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Common FCRA Disclosure Mistakes Patron Helps You Avoid</h2>
@@ -1340,7 +1340,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION: FEES -->
-<section class="content-section" id="fees-section">
+<section class="content-section" id="fees-section" data-slot="fees">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Patron Fees for FCRA Disclosure and FC-4 Support</h2>
@@ -1381,7 +1381,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION: KEY DATES / TIMELINE -->
-<section class="content-section" id="timeline-section">
+<section class="content-section" id="timeline-section" data-slot="timeline">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Key FCRA Dates and Cadence</h2>
@@ -1491,7 +1491,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION: OLD vs CURRENT COMPARISON -->
-<section class="content-section" id="comparison-section">
+<section class="content-section" id="comparison-section" data-slot="comparison">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Old Quarterly Rule vs Current Annual Obligation</h2>
@@ -1588,7 +1588,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- FAQ SECTION -->
-<section id="faq-section" class="content-section" style="background-color: #ffffff;">
+<section id="faq-section" data-slot="faq" class="content-section" style="background-color: #ffffff;">
     <div class="content-container">
         <div class="text-content">
             <div class="faq-expanded">
@@ -1650,7 +1650,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- CONCLUSION + CTA BLOCK (Dark) -->
-<section class="content-section" style="background: var(--blue) !important;">
+<section class="content-section" style="background: var(--blue) !important;" data-slot="conclusion">
     <div class="content-container">
         <div class="text-content" style="text-align:left;">
             <h2 class="section-title" style="color:#FFFFFF !important;">Talk to Patron's FCRA Compliance Team Today</h2>

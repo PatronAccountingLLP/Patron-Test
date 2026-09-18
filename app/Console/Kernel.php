@@ -26,6 +26,23 @@ class Kernel extends ConsoleKernel
         $schedule->command('testimonials:sync --full')
             ->weeklyOn(0, '03:30')
             ->withoutOverlapping();
+
+        // Visitor Radar - roll the completed IST day up into the page_daily
+        // tables just after midnight IST. Idempotent, so a missed night can be
+        // re-run by hand with `radar:rollup YYYY-MM-DD`.
+        $schedule->command('radar:rollup')
+            ->timezone('Asia/Kolkata')
+            ->dailyAt('00:20')
+            ->withoutOverlapping()
+            ->runInBackground();
+
+        // Then prune raw data past the retention window - AFTER the rollup, so a
+        // day is only ever deleted once it has been aggregated.
+        $schedule->command('radar:prune')
+            ->timezone('Asia/Kolkata')
+            ->dailyAt('00:40')
+            ->withoutOverlapping()
+            ->runInBackground();
     }
 
     /**

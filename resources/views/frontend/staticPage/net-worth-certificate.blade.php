@@ -718,7 +718,7 @@ main section,main [id]{scroll-margin-top:160px}
     </div>
 </div>
 
-<section class="content-section" id="overview-section">
+<section class="content-section" id="overview-section" data-slot="overview">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Net Worth Certificate: Scope, Deliverables and Who It Suits</h2>
@@ -733,7 +733,7 @@ main section,main [id]{scroll-margin-top:160px}
     </div>
 </section>
 
-<section class="content-section" id="what-section">
+<section class="content-section" id="what-section" data-slot="what-is">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
@@ -889,7 +889,7 @@ main section,main [id]{scroll-margin-top:160px}
     </div>
 </section>
 
-<section class="content-section" id="services-section">
+<section class="content-section" id="services-section" data-slot="services">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Our Net Worth Certificate Service: What You Receive</h2>
@@ -946,7 +946,7 @@ main section,main [id]{scroll-margin-top:160px}
     </div>
 </section>
 
-<section class="steps-section" id="procedure-section">
+<section class="steps-section" id="procedure-section" data-slot="process">
     <div class="section-container">
         <header class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow">Our Process</span>
@@ -1006,7 +1006,7 @@ main section,main [id]{scroll-margin-top:160px}
     </div>
 </section>
 
-<section class="content-section" id="documents-section">
+<section class="content-section" id="documents-section" data-slot="documents">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Documents Required for a Net Worth Certificate</h2>
@@ -1031,7 +1031,7 @@ main section,main [id]{scroll-margin-top:160px}
     </div>
 </section>
 
-<section class="content-section" id="challenges-section">
+<section class="content-section" id="challenges-section" data-slot="challenges">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Common Net Worth Certificate Problems and How We Solve Them</h2>
@@ -1053,7 +1053,7 @@ main section,main [id]{scroll-margin-top:160px}
     </div>
 </section>
 
-<section class="content-section" id="fees-section">
+<section class="content-section" id="fees-section" data-slot="fees">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Net Worth Certificate Fees</h2>
@@ -1364,7 +1364,7 @@ main section,main [id]{scroll-margin-top:160px}
     </div>
 </section>
 
-<section class="content-section" id="legal-section">
+<section class="content-section" id="legal-section" data-slot="legal-framework">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">The Legal and Professional Framework Behind Net Worth Certificates</h2>
@@ -1385,7 +1385,7 @@ main section,main [id]{scroll-margin-top:160px}
     </div>
 </section>
 
-<section id="faq-section" class="content-section" style="background-color:#ffffff;">
+<section id="faq-section" data-slot="faq" class="content-section" style="background-color:#ffffff;">
     <div class="content-container">
         <div class="text-content">
             <div class="faq-expanded">
@@ -1457,7 +1457,7 @@ main section,main [id]{scroll-margin-top:160px}
     </div>
 </section>
 
-<section class="content-section" style="background: var(--blue) !important;">
+<section class="content-section" style="background: var(--blue) !important;" data-slot="conclusion">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title" style="color:#FFFFFF !important;">Start Your Net Worth Certificate with Patron Accounting</h2>

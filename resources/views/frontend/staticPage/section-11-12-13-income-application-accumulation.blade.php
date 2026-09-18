@@ -1115,7 +1115,7 @@ function toggleTestiVideo(area){
 </div>
 
 <!-- SECTION 1A: QUESTION H2 + QUICK ANSWERS (AI Overview) -->
-<section class="content-section" id="overview-section">
+<section class="content-section" id="overview-section" data-slot="overview">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">What Are Sections 11, 12 and 13 of the Income Tax Act?</h2>
@@ -1138,7 +1138,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 2: WHAT IT IS -->
-<section class="content-section" id="what-section">
+<section class="content-section" id="what-section" data-slot="what-is">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
@@ -1217,7 +1217,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 4: HOW WE HELP -->
-<section class="content-section" id="services-section">
+<section class="content-section" id="services-section" data-slot="services">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">How Patron Helps with Section 11/12/13 Compliance</h2>
@@ -1271,7 +1271,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 5: COMPLIANCE STEPS -->
-<section class="steps-section" id="procedure-section">
+<section class="steps-section" id="procedure-section" data-slot="process">
     <div class="section-container">
         <div class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow">The Annual Cycle</span>
@@ -1356,7 +1356,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 6: DOCUMENTS -->
-<section class="content-section" id="documents-section">
+<section class="content-section" id="documents-section" data-slot="documents">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Documents Needed for Section 11/12/13 Compliance</h2>
@@ -1385,7 +1385,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 7: COMMON MISTAKES -->
-<section class="content-section" id="challenges-section">
+<section class="content-section" id="challenges-section" data-slot="challenges">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Common Mistakes That Cost Trusts Their Exemption</h2>
@@ -1433,7 +1433,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 8: FEES -->
-<section class="content-section" id="fees-section">
+<section class="content-section" id="fees-section" data-slot="fees">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Patron Fees for Section 11/12/13 Compliance</h2>
@@ -1478,7 +1478,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 9: TIMELINE -->
-<section class="content-section" id="timeline-section">
+<section class="content-section" id="timeline-section" data-slot="timeline">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Key Deadlines in the Section 11/12/13 Cycle</h2>
@@ -1569,7 +1569,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 11: FORM 9A vs FORM 10 COMPARISON -->
-<section class="content-section" id="comparison-section">
+<section class="content-section" id="comparison-section" data-slot="comparison">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Form 9A vs Form 10: Which Relief Applies?</h2>
@@ -1669,7 +1669,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- FAQ SECTION -->
-<section id="faq-section" class="content-section" style="background-color: #ffffff;">
+<section id="faq-section" data-slot="faq" class="content-section" style="background-color: #ffffff;">
     <div class="content-container">
         <div class="text-content">
             <div class="faq-expanded">
@@ -1731,7 +1731,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- CONCLUSION + CTA BLOCK (Dark) -->
-<section class="content-section" style="background: var(--blue) !important;">
+<section class="content-section" style="background: var(--blue) !important;" data-slot="conclusion">
     <div class="content-container">
         <div class="text-content" style="text-align:left;">
             <h2 class="section-title" style="color:#FFFFFF !important;">Talk to Patron's Trust &amp; NGO Compliance Team</h2>

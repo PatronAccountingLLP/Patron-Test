@@ -876,7 +876,7 @@ section ul li:not(.nav-item) { font-size: 14px; }
 </div>
 
 <!-- SECTION 2: OVERVIEW / TL;DR -->
-<section class="content-section" id="overview-section">
+<section class="content-section" id="overview-section" data-slot="overview">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Why Formality Check Fail Matters for Gurugram's Brand Economy</h2>
@@ -909,7 +909,7 @@ section ul li:not(.nav-item) { font-size: 14px; }
 </section>
 
 <!-- SECTION 3: WHAT IS -->
-<section class="content-section" id="what-section">
+<section class="content-section" id="what-section" data-slot="what-is">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
@@ -980,7 +980,7 @@ section ul li:not(.nav-item) { font-size: 14px; }
 </section>
 
 <!-- SECTION 5: SERVICES -->
-<section class="content-section" id="services-section">
+<section class="content-section" id="services-section" data-slot="services">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">6 Formality Check Fail Services Included</h2>
@@ -1005,7 +1005,7 @@ section ul li:not(.nav-item) { font-size: 14px; }
 </section>
 
 <!-- SECTION 7: PROCESS STEPS -->
-<section class="steps-section" id="procedure-section">
+<section class="steps-section" id="procedure-section" data-slot="process">
     <div class="section-container">
         <header class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow">Our Process</span>
@@ -1178,7 +1178,7 @@ section ul li:not(.nav-item) { font-size: 14px; }
 </section>
 
 <!-- SECTION 8: DOCUMENTS REQUIRED -->
-<section class="content-section" id="documents-section">
+<section class="content-section" id="documents-section" data-slot="documents">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Documents Required for Formality Check Fail Reply in Gurugram</h2>
@@ -1195,7 +1195,7 @@ section ul li:not(.nav-item) { font-size: 14px; }
 </section>
 
 <!-- SECTION 9: CHALLENGES -->
-<section class="content-section" id="challenges-section">
+<section class="content-section" id="challenges-section" data-slot="challenges">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">5 Common Formality Check Fail Reasons in Gurugram</h2>
@@ -1218,7 +1218,7 @@ section ul li:not(.nav-item) { font-size: 14px; }
 </section>
 
 <!-- SECTION 10: FEES -->
-<section class="content-section" id="fees-section">
+<section class="content-section" id="fees-section" data-slot="fees">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Formality Check Fail Fees in Gurugram 2026</h2>
@@ -1246,7 +1246,7 @@ section ul li:not(.nav-item) { font-size: 14px; }
 </section>
 
 <!-- SECTION 11: TIMELINE -->
-<section class="content-section" id="timeline-section">
+<section class="content-section" id="timeline-section" data-slot="timeline">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Formality Check Fail Timeline in Gurugram</h2>
@@ -1329,7 +1329,7 @@ section ul li:not(.nav-item) { font-size: 14px; }
 </section>
 
 <!-- SECTION 13: COMPARISON -->
-<section class="content-section" id="comparison-section">
+<section class="content-section" id="comparison-section" data-slot="comparison">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Formality Check Fail vs Other Trademark Statuses</h2>
@@ -1389,7 +1389,7 @@ section ul li:not(.nav-item) { font-size: 14px; }
 </section>
 
 <!-- FAQ SECTION -->
-<section id="faq-section" class="content-section" style="background-color: #ffffff;">
+<section id="faq-section" data-slot="faq" class="content-section" style="background-color: #ffffff;">
     <div class="content-container">
         <div class="text-content">
             <div class="faq-expanded">
@@ -1459,7 +1459,7 @@ section ul li:not(.nav-item) { font-size: 14px; }
 </section>
 
 <!-- CONCLUSION + CTA BLOCK -->
-<section class="content-section" style="background: var(--blue) !important;">
+<section class="content-section" style="background: var(--blue) !important;" data-slot="conclusion">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title" style="color:#FFFFFF !important;">Fix Your Formality Check Fail in Gurugram Today</h2>

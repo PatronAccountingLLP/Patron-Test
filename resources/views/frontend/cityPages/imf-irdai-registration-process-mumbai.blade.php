@@ -1212,7 +1212,7 @@ function toggleTestiVideo(area){
 
 
 <!-- SECTION 1A: QUICK ANSWERS -->
-<section class="content-section" id="overview-section">
+<section class="content-section" id="overview-section" data-slot="overview">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">What Is the IRDAI IMF Registration Process for an Existing Entity in Mumbai?</h2>
@@ -1233,7 +1233,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION: WHAT IS -->
-<section class="content-section" id="what-section">
+<section class="content-section" id="what-section" data-slot="what-is">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
@@ -1301,7 +1301,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION: WHAT IS INCLUDED -->
-<section class="content-section" id="services-section">
+<section class="content-section" id="services-section" data-slot="services">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">What Patron Includes in IRDAI IMF Registration in Mumbai</h2>
@@ -1328,7 +1328,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION: PROCESS -->
-<section class="steps-section" id="procedure-section">
+<section class="steps-section" id="procedure-section" data-slot="process">
     <div class="section-container">
         <header class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow">Our Process</span>
@@ -1370,7 +1370,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION: DOCUMENTS -->
-<section class="content-section" id="documents-section">
+<section class="content-section" id="documents-section" data-slot="documents">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Documents Required for IMF Registration</h2>
@@ -1395,7 +1395,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION: TIMELINE -->
-<section class="content-section" id="timeline-section">
+<section class="content-section" id="timeline-section" data-slot="timeline">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">IRDAI IMF Registration Timeline</h2>
@@ -1423,7 +1423,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION: FEES -->
-<section class="content-section" id="fees-section">
+<section class="content-section" id="fees-section" data-slot="fees">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">IRDAI IMF Registration Fees in Mumbai</h2>
@@ -1468,7 +1468,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION: IMF vs CORPORATE AGENT -->
-<section class="content-section" id="comparison-section">
+<section class="content-section" id="comparison-section" data-slot="comparison">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">IMF vs Corporate Agent</h2>
@@ -1510,7 +1510,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- FAQ SECTION -->
-<section id="faq-section" class="content-section" style="background-color: #ffffff;">
+<section id="faq-section" data-slot="faq" class="content-section" style="background-color: #ffffff;">
     <div class="content-container">
         <div class="text-content">
             <div class="faq-expanded">
@@ -1576,7 +1576,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- CONCLUSION + CTA BLOCK (Dark) -->
-<section class="content-section" style="background: var(--blue) !important;">
+<section class="content-section" style="background: var(--blue) !important;" data-slot="conclusion">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title" style="color:#FFFFFF !important;">Get IRDAI IMF Registration in Mumbai with Patron Accounting</h2>

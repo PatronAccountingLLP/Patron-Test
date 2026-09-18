@@ -470,7 +470,7 @@
 </div>
 
 
-<section class="content-section" id="overview-section">
+<section class="content-section" id="overview-section" data-slot="overview">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">What Accounting Costs and Covers for Ahmedabad Businesses</h2>
@@ -487,7 +487,7 @@
 </section>
 
 
-<section class="content-section" id="what-section">
+<section class="content-section" id="what-section" data-slot="what-is">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
@@ -534,7 +534,7 @@
 </section>
 
 
-<section class="content-section" id="services-section">
+<section class="content-section" id="services-section" data-slot="services">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Accounting Services Included for Ahmedabad Businesses</h2>
@@ -559,7 +559,7 @@
 </section>
 
 
-<section class="steps-section" id="procedure-section">
+<section class="steps-section" id="procedure-section" data-slot="process">
     <div class="section-container">
         <header class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow">Our Process</span>
@@ -630,7 +630,7 @@
 
 
 
-<section class="content-section" id="documents-section">
+<section class="content-section" id="documents-section" data-slot="documents">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Documents Required for Accounting Services</h2>
@@ -715,7 +715,7 @@
 </section>
 <!-- ============ /CLIENT PORTAL ============ -->
 
-<section class="content-section" id="challenges-section">
+<section class="content-section" id="challenges-section" data-slot="challenges">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Accounting Challenges Specific to Ahmedabad: GIFT City IFSC Regime and GIDC Estate Compliance</h2>
@@ -740,7 +740,7 @@
 
 
 
-<section class="content-section" id="fees-section">
+<section class="content-section" id="fees-section" data-slot="fees">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Accounting Fees in Ahmedabad</h2>
@@ -765,7 +765,7 @@
 </section>
 
 
-<section class="content-section" id="timeline-section">
+<section class="content-section" id="timeline-section" data-slot="timeline">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Accounting Compliance Calendar 2026 for Ahmedabad Businesses</h2>
@@ -858,7 +858,7 @@
 
 
 
-<section class="content-section" id="comparison-section">
+<section class="content-section" id="comparison-section" data-slot="comparison">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Outsourced vs In-House Accountant vs DIY: for Ahmedabad Businesses</h2>
@@ -905,7 +905,7 @@
 </section>
 
 
-<section id="faq-section" class="content-section" style="background-color: #ffffff;">
+<section id="faq-section" data-slot="faq" class="content-section" style="background-color: #ffffff;">
     <div class="content-container">
         <div class="text-content">
             
@@ -991,7 +991,7 @@
 </section>
 
 
-<section class="content-section" style="background: var(--blue) !important;">
+<section class="content-section" style="background: var(--blue) !important;" data-slot="conclusion">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title" style="color:#FFFFFF !important;">Start Your Accounting Services in Ahmedabad with Patron Accounting</h2>

@@ -160,6 +160,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     @stack('styles')
 
     @include('partials.schema-organization')
+
+    @include('partials.clarity')
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -203,5 +205,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         {!! $post->seo_footer_scripts !!}
     @endif
     @stack('scripts')
+    @include('partials.radar-beacon')
 </body>
 </html>

@@ -214,6 +214,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     @stack('styles')
 
     @include('partials.schema-organization')
+
+    @include('partials.clarity')
 </head>
 <body>
     @include('partials.header')
@@ -252,5 +254,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         {!! $post->seo_footer_scripts !!}
     @endif
     @stack('scripts')
+    @include('partials.radar-beacon')
 </body>
 </html>

@@ -111,6 +111,7 @@
 @endsection
 
 @section('content')
+<script>window.__paPageError=410;</script>
 
 <style>
     /* ============================================

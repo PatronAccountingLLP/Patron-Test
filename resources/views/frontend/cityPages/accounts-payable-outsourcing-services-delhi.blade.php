@@ -998,7 +998,7 @@
 </div>
 
 <!-- SECTION 2: OVERVIEW / INTRO + TL;DR + SUMMARY TABLE -->
-<section class="content-section" id="overview-section">
+<section class="content-section" id="overview-section" data-slot="overview">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Accounts Payable Outsourcing Services in Delhi - Overview</h2>
@@ -1031,7 +1031,7 @@
 </section>
 
 <!-- SECTION 3: WHAT IS -->
-<section class="content-section" id="what-section">
+<section class="content-section" id="what-section" data-slot="what-is">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
@@ -1095,7 +1095,7 @@
 </section>
 
 <!-- SECTION 5: OUR SERVICES -->
-<section class="content-section" id="services-section">
+<section class="content-section" id="services-section" data-slot="services">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Our Accounts Payable Outsourcing Services in Delhi</h2>
@@ -1120,7 +1120,7 @@
 </section>
 
 <!-- SECTION 7: PROCESS STEPS -->
-<section class="steps-section" id="procedure-section">
+<section class="steps-section" id="procedure-section" data-slot="process">
     <div class="section-container">
         <header class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow">Our Process</span>
@@ -1144,7 +1144,7 @@
 </section>
 
 <!-- SECTION 8: DOCUMENTS REQUIRED -->
-<section class="content-section" id="documents-section">
+<section class="content-section" id="documents-section" data-slot="documents">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Documents Required for Accounts Payable Outsourcing in Delhi</h2>
@@ -1170,7 +1170,7 @@
 </section>
 
 <!-- SECTION 9: CHALLENGES AND SOLUTIONS -->
-<section class="content-section" id="challenges-section">
+<section class="content-section" id="challenges-section" data-slot="challenges">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Common Payables Challenges and How Patron Solves Them</h2>
@@ -1192,7 +1192,7 @@
 </section>
 
 <!-- SECTION 10: FEES + CTA 2 -->
-<section class="content-section" id="fees-section">
+<section class="content-section" id="fees-section" data-slot="fees">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Accounts Payable Outsourcing Fees in Delhi</h2>
@@ -1232,7 +1232,7 @@
 </section>
 
 <!-- SECTION 11: TIME TAKEN -->
-<section class="content-section" id="timeline-section">
+<section class="content-section" id="timeline-section" data-slot="timeline">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Accounts Payable Outsourcing Timelines in Delhi</h2>
@@ -1297,7 +1297,7 @@
 </section>
 
 <!-- SECTION 13: COMPARISON TABLE -->
-<section class="content-section" id="comparison-section">
+<section class="content-section" id="comparison-section" data-slot="comparison">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">In-House AP vs Patron Outsourced Accounts Payable</h2>
@@ -1367,7 +1367,7 @@
 </section>
 
 <!-- SECTION 15A: LEGAL FRAMEWORK -->
-<section class="content-section" id="legal-section">
+<section class="content-section" id="legal-section" data-slot="legal-framework">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Legal Framework for Payables and Vendor Payments in India</h2>
@@ -1384,7 +1384,7 @@
 </section>
 
 <!-- SECTION 16: FAQs (H3) -->
-<section class="content-section" id="faq-section">
+<section class="content-section" id="faq-section" data-slot="faq">
     <div class="content-container">
         <div class="text-content">
             <div class="faq-expanded">

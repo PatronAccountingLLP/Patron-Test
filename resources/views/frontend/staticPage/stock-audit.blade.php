@@ -1647,7 +1647,7 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
 </div>
 
 <!-- SECTION 2: OVERVIEW / INTRO + TL;DR -->
-<section class="content-section" id="overview-section">
+<section class="content-section" id="overview-section" data-slot="overview">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">The Count Your Lender Is Asking For</h2>
@@ -1670,7 +1670,7 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
 </section>
 
 <!-- SECTION 3: WHAT IS GSTAT APPEAL FILING -->
-<section class="content-section" id="what-section">
+<section class="content-section" id="what-section" data-slot="what-is">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
@@ -1716,7 +1716,7 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
 </section>
 
 <!-- SECTION 5: OUR SERVICES -->
-<section class="content-section" id="services-section">
+<section class="content-section" id="services-section" data-slot="services">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Scope, Deliverables and the Report You Receive</h2>
@@ -1739,7 +1739,7 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
 </section>
 
 <!-- SECTION 7: 7-STEP PROCESS -->
-<section class="steps-section" id="procedure-section">
+<section class="steps-section" id="procedure-section" data-slot="process">
     <div class="section-container">
         <header class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow">Our Process</span>
@@ -1772,7 +1772,7 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
 </section>
 
 <!-- SECTION 8: DOCUMENTS REQUIRED -->
-<section class="content-section" id="documents-section">
+<section class="content-section" id="documents-section" data-slot="documents">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Documents to Keep Ready</h2>
@@ -1789,7 +1789,7 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
 </section>
 
 <!-- SECTION 9: CHALLENGES -->
-<section class="content-section" id="challenges-section">
+<section class="content-section" id="challenges-section" data-slot="challenges">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Where Counts Go Wrong</h2>
@@ -1813,7 +1813,7 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
 
 <!-- SECTION 10: FEES -->
 
-<section class="content-section" id="fees-section">
+<section class="content-section" id="fees-section" data-slot="fees">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Stock Audit Cost: What Moves the Number</h2>
@@ -1901,7 +1901,7 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
 </section>
 
 <!-- SECTION 13: SELF-FILING vs PROFESSIONAL COMPARISON -->
-<section class="content-section" id="comparison-section">
+<section class="content-section" id="comparison-section" data-slot="comparison">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">A Typical Stock Audit vs a Stock Audit on Stoklenz</h2>
@@ -1940,7 +1940,7 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
 </section>
 
 <!-- SECTION 15A: LEGAL FRAMEWORK -->
-<section class="content-section" id="legal-section">
+<section class="content-section" id="legal-section" data-slot="legal-framework">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">CARO 2020 Clause 3(ii), SA 501 and the Lender Position</h2>
@@ -1954,7 +1954,7 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
 </section>
 
 <!-- FAQ SECTION -->
-<section id="faq-section" class="content-section" style="background-color: #ffffff;">
+<section id="faq-section" data-slot="faq" class="content-section" style="background-color: #ffffff;">
     <div class="content-container">
         <div class="text-content">
             
@@ -2002,7 +2002,7 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
 <a href="https://www.patronaccounting.com/blog/forensic-stock-audit-inventory-fraud" class="pa-read-card">Forensic Stock Audit: Investigating Suspected Inventory Fraud<span class="pa-read-go">&rarr;</span></a>
 <a href="https://www.patronaccounting.com/blog/gst-stock-reconciliation-physical-inventory-gstr-1-gstr-3b" class="pa-read-card">GST Stock Reconciliation: Matching Physical Inventory to GSTR-1 and GSTR-3B<span class="pa-read-go">&rarr;</span></a></div></div></div></section>
 <!-- CONCLUSION + CTA BLOCK (Dark) -->
-<section class="content-section" style="background: var(--blue) !important;">
+<section class="content-section" style="background: var(--blue) !important;" data-slot="conclusion">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title" style="color:#FFFFFF !important;">Booking a Count</h2>

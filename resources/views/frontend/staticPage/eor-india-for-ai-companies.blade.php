@@ -336,7 +336,7 @@
 </div>
 
 <!-- SECTION 2: OVERVIEW / INTRO + TL;DR -->
-<section class="content-section" id="overview-section">
+<section class="content-section" id="overview-section" data-slot="overview">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">EOR India for AI Companies: CA-Led Hiring With Foundation Model Awareness</h2>
@@ -354,7 +354,7 @@
 </section>
 
 <!-- SECTION 3: WHAT IS GSTAT APPEAL FILING -->
-<section class="content-section" id="what-section">
+<section class="content-section" id="what-section" data-slot="what-is">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
@@ -483,7 +483,7 @@
 </section>
 
 <!-- SECTION 5: OUR SERVICES -->
-<section class="content-section" id="services-section">
+<section class="content-section" id="services-section" data-slot="services">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Patron's AI-Specific Deliverables</h2>
@@ -508,7 +508,7 @@
 </section>
 
 <!-- SECTION 7: 7-STEP PROCESS -->
-<section class="steps-section" id="procedure-section">
+<section class="steps-section" id="procedure-section" data-slot="process">
     <div class="section-container">
         <header class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow">Our Process</span>
@@ -653,7 +653,7 @@
 </section>
 
 <!-- SECTION 8: DOCUMENTS REQUIRED -->
-<section class="content-section" id="documents-section">
+<section class="content-section" id="documents-section" data-slot="documents">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Documents and Information Checklist</h2>
@@ -691,7 +691,7 @@
 </section>
 
 <!-- SECTION 9: CHALLENGES -->
-<section class="content-section" id="challenges-section">
+<section class="content-section" id="challenges-section" data-slot="challenges">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Four AI-Specific Challenges and Patron's Solutions</h2>
@@ -714,7 +714,7 @@
 </section>
 
 <!-- SECTION 10: FEES -->
-<section class="content-section" id="fees-section">
+<section class="content-section" id="fees-section" data-slot="fees">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Cost Comparison: India AI Hiring vs US Frontier Labs</h2>
@@ -748,7 +748,7 @@
 </section>
 
 <!-- SECTION 11: TIMELINE -->
-<section class="content-section" id="timeline-section">
+<section class="content-section" id="timeline-section" data-slot="timeline">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Time Taken at Each Setup Stage</h2>
@@ -841,7 +841,7 @@
 </section>
 
 <!-- SECTION 13: SELF-FILING vs PROFESSIONAL COMPARISON -->
-<section class="content-section" id="comparison-section">
+<section class="content-section" id="comparison-section" data-slot="comparison">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">AI Need vs Generic EOR vs Patron</h2>
@@ -946,7 +946,7 @@
 </section>
 
 <!-- FAQ SECTION -->
-<section id="faq-section" class="content-section" style="background-color: #ffffff;">
+<section id="faq-section" data-slot="faq" class="content-section" style="background-color: #ffffff;">
     <div class="content-container">
         <div class="text-content">
             <div class="faq-expanded">
@@ -1048,7 +1048,7 @@
 </section>
 
 <!-- CONCLUSION + CTA BLOCK (Dark) -->
-<section class="content-section" style="background: var(--blue) !important;">
+<section class="content-section" style="background: var(--blue) !important;" data-slot="conclusion">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title" style="color:#FFFFFF !important;">Map Your AI Scope, Talent Profile, and ESOP Structure. Then Talk to a CA.</h2>

@@ -58,7 +58,7 @@
         <div class="faq-expanded__list">
             @foreach($faqList as $i => $faq)
                 <div class="faq-expanded__item" id="{{ $faqSectionId }}-{{ $i + 1 }}">
-                    <h3 class="faq-expanded__q" data-track="faq.item">{{ $faq['question'] }}</h3>
+                    <h3 class="faq-expanded__q">{{ $faq['question'] }}</h3>
                     <div class="faq-expanded__a">
                         @if($faq['answer'] !== strip_tags($faq['answer']))
                             {!! $faq['answer'] !!}

@@ -1013,7 +1013,7 @@
 </div>
 
 <!-- SECTION 2: OVERVIEW / INTRO + TL;DR + SUMMARY TABLE -->
-<section class="content-section" id="overview-section" data-slot="overview">
+<section class="content-section" id="overview-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Year-End Closing and Finalisation Services in Pune - Overview</h2>
@@ -1046,7 +1046,7 @@
 </section>
 
 <!-- SECTION 3: WHAT IS -->
-<section class="content-section" id="what-section" data-slot="what-is">
+<section class="content-section" id="what-section">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
@@ -1110,7 +1110,7 @@
 </section>
 
 <!-- SECTION 5: OUR SERVICES -->
-<section class="content-section" id="services-section" data-slot="services">
+<section class="content-section" id="services-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Our Year-End Closing Services in Pune</h2>
@@ -1135,7 +1135,7 @@
 </section>
 
 <!-- SECTION 7: PROCESS STEPS -->
-<section class="steps-section" id="procedure-section" data-slot="process">
+<section class="steps-section" id="procedure-section">
     <div class="section-container">
         <header class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow">Our Process</span>
@@ -1159,7 +1159,7 @@
 </section>
 
 <!-- SECTION 8: DOCUMENTS REQUIRED -->
-<section class="content-section" id="documents-section" data-slot="documents">
+<section class="content-section" id="documents-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Documents Required for Year-End Closing in Pune</h2>
@@ -1185,7 +1185,7 @@
 </section>
 
 <!-- SECTION 9: CHALLENGES AND SOLUTIONS -->
-<section class="content-section" id="challenges-section" data-slot="challenges">
+<section class="content-section" id="challenges-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Common Year-End Challenges and How Patron Solves Them</h2>
@@ -1207,7 +1207,7 @@
 </section>
 
 <!-- SECTION 10: FEES + CTA 2 -->
-<section class="content-section" id="fees-section" data-slot="fees">
+<section class="content-section" id="fees-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Year-End Closing Fees in Pune</h2>
@@ -1247,7 +1247,7 @@
 </section>
 
 <!-- SECTION 11: TIME TAKEN -->
-<section class="content-section" id="timeline-section" data-slot="timeline">
+<section class="content-section" id="timeline-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">How Long Year-End Closing Takes in Pune</h2>
@@ -1311,7 +1311,7 @@
 </section>
 
 <!-- SECTION 13: COMPARISON TABLE -->
-<section class="content-section" id="comparison-section" data-slot="comparison">
+<section class="content-section" id="comparison-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">DIY Year-End vs Patron Professional Finalisation</h2>
@@ -1381,7 +1381,7 @@
 </section>
 
 <!-- SECTION 15A: LEGAL FRAMEWORK -->
-<section class="content-section" id="legal-section" data-slot="legal-framework">
+<section class="content-section" id="legal-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Legal Framework for Year-End Closing in India</h2>
@@ -1398,7 +1398,7 @@
 </section>
 
 <!-- SECTION 16: FAQs (H3) -->
-<section class="content-section" id="faq-section" data-slot="faq">
+<section class="content-section" id="faq-section">
     <div class="content-container">
         <div class="text-content">
             <div class="faq-expanded">

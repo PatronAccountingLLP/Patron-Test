@@ -1369,7 +1369,7 @@ function toggleTestiVideo(area){
 
 
 <!-- SECTION 1A: QUESTION H2 + QUICK ANSWERS (directly under H1) -->
-<section class="content-section" id="overview-section" data-slot="overview" style="padding-top:48px;padding-bottom:32px;">
+<section class="content-section" id="overview-section" style="padding-top:48px;padding-bottom:32px;">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">What Is an IMF for Investment Advisers and Who Needs It?</h2>
@@ -1397,7 +1397,7 @@ function toggleTestiVideo(area){
 
 
 <!-- SECTION: WHAT IS AN IMF -->
-<section class="content-section" id="what-section" data-slot="what-is">
+<section class="content-section" id="what-section">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
@@ -1495,7 +1495,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION: WHAT WE DO -->
-<section class="content-section" id="services-section" data-slot="services">
+<section class="content-section" id="services-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">What Patron Accounting Does for Your IMF Setup</h2>
@@ -1520,7 +1520,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION: PROCESS -->
-<section class="steps-section" id="procedure-section" data-slot="process">
+<section class="steps-section" id="procedure-section">
     <div class="section-container">
         <header class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow">Our Process</span>
@@ -1661,7 +1661,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION: DOCUMENTS -->
-<section class="content-section" id="documents-section" data-slot="documents">
+<section class="content-section" id="documents-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Documents Required for IMF Registration</h2>
@@ -1684,7 +1684,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION: TIMELINE -->
-<section class="content-section" id="timeline-section" data-slot="timeline">
+<section class="content-section" id="timeline-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">How Long Does IMF Registration Take?</h2>
@@ -1709,7 +1709,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION: FEES -->
-<section class="content-section" id="fees-section" data-slot="fees">
+<section class="content-section" id="fees-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">IMF Registration Fees for Advisers</h2>
@@ -1845,7 +1845,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- CONCLUSION + CTA BLOCK (Dark) -->
-<section class="content-section" style="background: var(--blue) !important;" data-slot="conclusion">
+<section class="content-section" style="background: var(--blue) !important;">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title" style="color:#FFFFFF !important;">Add Insurance to Your Advisory Practice - the Compliant Way</h2>

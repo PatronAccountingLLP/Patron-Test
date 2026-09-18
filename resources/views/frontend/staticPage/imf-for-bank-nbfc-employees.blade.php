@@ -1274,7 +1274,7 @@ function toggleTestiVideo(area){
 
 
 <!-- SECTION 1A: QUESTION-FORMAT H2 + QUICK ANSWERS -->
-<section class="content-section" id="what-section" data-slot="what-is">
+<section class="content-section" id="what-section">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
@@ -1416,7 +1416,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION: PROCESS / STEPS -->
-<section class="steps-section" id="procedure-section" data-slot="process">
+<section class="steps-section" id="procedure-section">
     <div class="section-container">
         <header class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow">Our Process</span>
@@ -1584,7 +1584,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION: DOCUMENTS -->
-<section class="content-section" id="documents-section" data-slot="documents">
+<section class="content-section" id="documents-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Documents Required for IMF Registration</h2>
@@ -1630,7 +1630,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION: FEES -->
-<section class="content-section" id="fees-section" data-slot="fees">
+<section class="content-section" id="fees-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">IMF Registration Fees for Bankers</h2>
@@ -1655,7 +1655,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION: TIMELINE -->
-<section class="content-section" id="timeline-section" data-slot="timeline">
+<section class="content-section" id="timeline-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">How Long IMF Registration Takes</h2>
@@ -1724,7 +1724,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION: COMPARISON IMF vs POSP vs CORPORATE AGENT -->
-<section class="content-section" id="comparison-section" data-slot="comparison">
+<section class="content-section" id="comparison-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">IMF vs POSP vs Corporate Agent for a Banker</h2>
@@ -1806,7 +1806,7 @@ function toggleTestiVideo(area){
 ])
 
 <!-- CONCLUSION + CTA BLOCK (Dark) -->
-<section class="content-section" style="background: var(--blue) !important;" data-slot="conclusion">
+<section class="content-section" style="background: var(--blue) !important;">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title" style="color:#FFFFFF !important;">Turn Your Banking Experience into an Independent Insurance Business</h2>

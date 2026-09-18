@@ -1469,7 +1469,7 @@ function toggleTestiVideo(area){
 
 
 <!-- SECTION 2: OVERVIEW / INTRO + TL;DR -->
-<section class="content-section" id="overview-section" data-slot="overview">
+<section class="content-section" id="overview-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Overview - IRDAI IMF Rejection Recovery</h2>
@@ -1487,7 +1487,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 3: WHAT IS GSTAT APPEAL FILING -->
-<section class="content-section" id="what-section" data-slot="what-is">
+<section class="content-section" id="what-section">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
@@ -1587,7 +1587,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 5: OUR SERVICES -->
-<section class="content-section" id="services-section" data-slot="services">
+<section class="content-section" id="services-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Patron Recovery Engagement Tiers</h2>
@@ -1646,7 +1646,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 7: 7-STEP PROCESS -->
-<section class="steps-section" id="procedure-section" data-slot="process">
+<section class="steps-section" id="procedure-section">
     <div class="section-container">
         <div class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow">Our Process</span>
@@ -1934,7 +1934,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 8: DOCUMENTS REQUIRED -->
-<section class="content-section" id="documents-section" data-slot="documents">
+<section class="content-section" id="documents-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Document Checklist for IMF Rejection Recovery</h2>
@@ -1970,7 +1970,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 9: CHALLENGES -->
-<section class="content-section" id="challenges-section" data-slot="challenges">
+<section class="content-section" id="challenges-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Common Recovery Mistakes Patron Helps You Avoid</h2>
@@ -2019,7 +2019,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 10: FEES -->
-<section class="content-section" id="fees-section" data-slot="fees">
+<section class="content-section" id="fees-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Patron Fees for IMF Rejection Recovery</h2>
@@ -2081,7 +2081,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 11: TIMELINE -->
-<section class="content-section" id="timeline-section" data-slot="timeline">
+<section class="content-section" id="timeline-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">60-90 Day Reapplication Timeline</h2>
@@ -2232,7 +2232,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 13: SELF-FILING vs PROFESSIONAL COMPARISON -->
-<section class="content-section" id="comparison-section" data-slot="comparison">
+<section class="content-section" id="comparison-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Rejection Recovery vs Fresh Setup vs DIY Reapplication</h2>
@@ -2390,7 +2390,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- FAQ SECTION -->
-<section id="faq-section" data-slot="faq" class="content-section" style="background-color: #ffffff;">
+<section id="faq-section" class="content-section" style="background-color: #ffffff;">
     <div class="content-container">
         <div class="text-content">
             <div class="faq-expanded">
@@ -2476,7 +2476,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- CONCLUSION + CTA BLOCK (Dark) -->
-<section class="content-section" style="background: var(--blue) !important;" data-slot="conclusion">
+<section class="content-section" style="background: var(--blue) !important;">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title" style="color:#FFFFFF !important;">Talk to Patron's IMF Rejection Recovery Team Today</h2>

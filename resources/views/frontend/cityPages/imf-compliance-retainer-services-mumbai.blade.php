@@ -1260,7 +1260,7 @@ function toggleTestiVideo(area){
 
 
 <!-- SECTION 1A: QUICK ANSWERS + QUESTION-FORMAT H2 -->
-<section class="content-section" id="overview-section" data-slot="overview">
+<section class="content-section" id="overview-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">What Is an IMF Compliance Retainer and Who Needs It in Mumbai?</h2>
@@ -1284,7 +1284,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION: WHAT IT IS + WHO IT IS FOR -->
-<section class="content-section" id="what-section" data-slot="what-is">
+<section class="content-section" id="what-section">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
@@ -1393,7 +1393,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION: DOCUMENTS -->
-<section class="content-section" id="documents-section" data-slot="documents">
+<section class="content-section" id="documents-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Documents Required to Start the Retainer in Mumbai</h2>
@@ -1417,7 +1417,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION: TIMELINE -->
-<section class="content-section" id="timeline-section" data-slot="timeline">
+<section class="content-section" id="timeline-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">IMF Compliance Retainer Timeline in Mumbai</h2>
@@ -1445,7 +1445,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION: FEES -->
-<section class="content-section" id="fees-section" data-slot="fees">
+<section class="content-section" id="fees-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">IMF Compliance Retainer Fees in Mumbai</h2>
@@ -1559,7 +1559,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- FAQ SECTION -->
-<section id="faq-section" data-slot="faq" class="content-section" style="background-color: #ffffff;">
+<section id="faq-section" class="content-section" style="background-color: #ffffff;">
     <div class="content-container">
         <div class="text-content">
             <div class="faq-expanded">
@@ -1625,7 +1625,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- CONCLUSION + CTA BLOCK (Dark) -->
-<section class="content-section" style="background: var(--blue) !important;" data-slot="conclusion">
+<section class="content-section" style="background: var(--blue) !important;">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title" style="color:#FFFFFF !important;">Get Your IMF Compliance Retainer in Mumbai with Patron Accounting</h2>

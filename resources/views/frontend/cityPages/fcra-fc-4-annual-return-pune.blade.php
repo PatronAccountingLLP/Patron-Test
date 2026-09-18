@@ -711,7 +711,7 @@ function toggleTestiVideo(area){
 </div>
 
 <!-- SECTION 1A: OVERVIEW + QUICK ANSWERS (question H2 for AI Overview) -->
-<section class="content-section" id="overview-section" data-slot="overview">
+<section class="content-section" id="overview-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">What Is the FCRA Annual Return in Form FC-4?</h2>
@@ -735,7 +735,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 2: WHAT IS FC-4 (detail + key terms) -->
-<section class="content-section" id="what-section" data-slot="what-is">
+<section class="content-section" id="what-section">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
@@ -808,7 +808,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 4: OUR SERVICES -->
-<section class="content-section" id="services-section" data-slot="services">
+<section class="content-section" id="services-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Patron FCRA Form FC-4 Filing Service Coverage</h2>
@@ -866,7 +866,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 5: FILING PROCESS -->
-<section class="steps-section" id="procedure-section" data-slot="process">
+<section class="steps-section" id="procedure-section">
     <div class="section-container">
         <div class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow">Our Process</span>
@@ -978,7 +978,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 6: DOCUMENTS REQUIRED -->
-<section class="content-section" id="documents-section" data-slot="documents">
+<section class="content-section" id="documents-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Documents Required to File Form FC-4</h2>
@@ -1003,7 +1003,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 7: COMMON MISTAKES -->
-<section class="content-section" id="challenges-section" data-slot="challenges">
+<section class="content-section" id="challenges-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Common FC-4 Mistakes Patron Helps You Avoid</h2>
@@ -1051,7 +1051,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 8: FEES -->
-<section class="content-section" id="fees-section" data-slot="fees">
+<section class="content-section" id="fees-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Patron Fees for FCRA Form FC-4 Filing</h2>
@@ -1083,7 +1083,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 9: TIMELINE -->
-<section class="content-section" id="timeline-section" data-slot="timeline">
+<section class="content-section" id="timeline-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">FCRA Form FC-4 Due Date and Timeline</h2>
@@ -1196,7 +1196,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- FAQ SECTION -->
-<section id="faq-section" data-slot="faq" class="content-section" style="background-color: #ffffff;">
+<section id="faq-section" class="content-section" style="background-color: #ffffff;">
     <div class="content-container">
         <div class="text-content">
             <div class="faq-expanded">
@@ -1259,7 +1259,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- CONCLUSION + CTA BLOCK (Dark) -->
-<section class="content-section" style="background: var(--blue) !important;" data-slot="conclusion">
+<section class="content-section" style="background: var(--blue) !important;">
     <div class="content-container">
         <div class="text-content" style="text-align:left;">
             <h2 class="section-title" style="color:#FFFFFF !important;">Talk to Patron's FCRA Team Today</h2>

@@ -1435,7 +1435,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 2: WHAT IS / WHO IT IS FOR -->
-<section class="content-section" id="what-section" data-slot="what-is">
+<section class="content-section" id="what-section">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
@@ -1546,7 +1546,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 6: DOCUMENTS -->
-<section class="content-section" id="documents-section" data-slot="documents">
+<section class="content-section" id="documents-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Documents Required to Convert Your Agency Into an IMF</h2>
@@ -1570,7 +1570,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 7: TIMELINE -->
-<section class="content-section" id="timeline-section" data-slot="timeline">
+<section class="content-section" id="timeline-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">How Long the Agent-to-IMF Upgrade Takes</h2>
@@ -1598,7 +1598,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 8: FEES -->
-<section class="content-section" id="fees-section" data-slot="fees">
+<section class="content-section" id="fees-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">IMF Setup Fees for Agents in Gurugram</h2>
@@ -1624,7 +1624,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 9: AGENT vs IMF vs CORPORATE AGENT -->
-<section class="content-section" id="comparison-section" data-slot="comparison">
+<section class="content-section" id="comparison-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Insurance Agent vs Corporate Agent vs IMF</h2>
@@ -1683,7 +1683,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- FAQ SECTION -->
-<section id="faq-section" data-slot="faq" class="content-section" style="background-color: #ffffff;">
+<section id="faq-section" class="content-section" style="background-color: #ffffff;">
     <div class="content-container">
         <div class="text-content">
             <div class="faq-expanded">
@@ -1749,7 +1749,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- CONCLUSION + CTA BLOCK (Dark) -->
-<section class="content-section" style="background: var(--blue) !important;" data-slot="conclusion">
+<section class="content-section" style="background: var(--blue) !important;">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title" style="color:#FFFFFF !important;">Upgrade From Agent to IMF in Gurugram with Patron</h2>

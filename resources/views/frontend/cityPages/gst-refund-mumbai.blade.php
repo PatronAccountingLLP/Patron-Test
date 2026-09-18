@@ -376,7 +376,7 @@
 </div>
 
 <!-- SECTION 2: OVERVIEW / INTRO + TL;DR -->
-<section class="content-section" id="overview-section" data-slot="overview">
+<section class="content-section" id="overview-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">GST Refund in Mumbai: Complete Overview</h2>
@@ -409,7 +409,7 @@
 </section>
 
 <!-- SECTION 3: WHAT IS GSTAT APPEAL FILING -->
-<section class="content-section" id="what-section" data-slot="what-is">
+<section class="content-section" id="what-section">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
@@ -495,7 +495,7 @@
 </section>
 
 <!-- SECTION 5: OUR SERVICES -->
-<section class="content-section" id="services-section" data-slot="services">
+<section class="content-section" id="services-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">GST Refund Services</h2>
@@ -522,7 +522,7 @@
 </section>
 
 <!-- SECTION 7: 7-STEP PROCESS -->
-<section class="steps-section" id="procedure-section" data-slot="process">
+<section class="steps-section" id="procedure-section">
     <div class="section-container">
         <header class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow">Our Process</span>
@@ -626,7 +626,7 @@
 </section>
 
 <!-- SECTION 8: DOCUMENTS REQUIRED -->
-<section class="content-section" id="documents-section" data-slot="documents">
+<section class="content-section" id="documents-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Documents Required for GST Refund</h2>
@@ -643,7 +643,7 @@
 </section>
 
 <!-- SECTION 9: CHALLENGES -->
-<section class="content-section" id="challenges-section" data-slot="challenges">
+<section class="content-section" id="challenges-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Common GST Refund Challenges in Mumbai</h2>
@@ -667,7 +667,7 @@
 </section>
 
 <!-- SECTION 10: FEES -->
-<section class="content-section" id="fees-section" data-slot="fees">
+<section class="content-section" id="fees-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">GST Refund Costs and Timelines</h2>
@@ -696,7 +696,7 @@
 </section>
 
 <!-- SECTION 11: TIMELINE -->
-<section class="content-section" id="timeline-section" data-slot="timeline">
+<section class="content-section" id="timeline-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">GST Refund Processing Timeline</h2>
@@ -758,7 +758,7 @@
 </section>
 
 <!-- SECTION 13: SELF-FILING vs PROFESSIONAL COMPARISON -->
-<section class="content-section" id="comparison-section" data-slot="comparison">
+<section class="content-section" id="comparison-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">GST Refund Types for Mumbai Businesses</h2>
@@ -823,7 +823,7 @@
 </section>
 
 <!-- FAQ SECTION -->
-<section id="faq-section" data-slot="faq" class="content-section" style="background-color: #ffffff;">
+<section id="faq-section" class="content-section" style="background-color: #ffffff;">
     <div class="content-container">
         <div class="text-content">
             <div class="faq-expanded">
@@ -901,7 +901,7 @@
 </section>
 
 <!-- CONCLUSION + CTA BLOCK (Dark) -->
-<section class="content-section" style="background: var(--blue) !important;" data-slot="conclusion">
+<section class="content-section" style="background: var(--blue) !important;">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title" style="color:#FFFFFF !important;">Claim Your GST Refund - Recover Working Capital</h2>

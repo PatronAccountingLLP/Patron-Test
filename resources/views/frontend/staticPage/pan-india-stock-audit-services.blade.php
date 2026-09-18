@@ -292,7 +292,7 @@ secs.forEach(function(s){var any=[].slice.call(s.querySelectorAll('.hub-card2'))
 s.style.display=(!v||any||s.dataset.always)?'':'none';});
 var nr=document.getElementById('hubNoResult');if(nr)nr.style.display=
 (v&&cards.every(function(c){return c.style.display==='none';}))?'block':'none';});})();
-</script><div style="background:#F4F7FB;padding:0 24px 40px"><section id="faq-section" data-slot="faq" class="gl-faq-section"><div class="faq-expanded"><aside class="faq-expanded__aside"><h2 class="faq-expanded__title">Frequently Asked Questions</h2><p class="faq-expanded__lead">What people ask before commissioning a count.</p><a class="faq-expanded__cta" href="https://www.patronaccounting.com/contact-us">Still have a question? Talk to a CA &rarr;</a>@endverbatim
+</script><div style="background:#F4F7FB;padding:0 24px 40px"><section id="faq-section" class="gl-faq-section"><div class="faq-expanded"><aside class="faq-expanded__aside"><h2 class="faq-expanded__title">Frequently Asked Questions</h2><p class="faq-expanded__lead">What people ask before commissioning a count.</p><a class="faq-expanded__cta" href="https://www.patronaccounting.com/contact-us">Still have a question? Talk to a CA &rarr;</a>@endverbatim
 @include('partials.bigin-form', [
     'variant'  => 'compact',
     'service'  => 'PAN India Stock Audit Services',

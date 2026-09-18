@@ -224,7 +224,7 @@
         <div class="form-group">
             <label class="form-label" for="name{{ $uid }}">Full Name</label>
             <input class="form-input" id="name{{ $uid }}" name="Contacts.Last Name" type="text"
-                   maxlength="80" placeholder="Your name" data-track="form.field.name" autocomplete="name"
+                   maxlength="80" placeholder="Your name" autocomplete="name"
                    required data-req="Full name is required"/>
         </div>
 
@@ -251,7 +251,7 @@
                      name off again. --}}
                 <input class="form-input phone-input" id="phone{{ $uid }}" name="Contacts.Mobile"
                        type="tel" inputmode="tel" maxlength="15" placeholder="Enter phone number"
-                       autocomplete="tel" required data-phone data-mobile data-track="form.field.phone"/>
+                       autocomplete="tel" required data-phone data-mobile/>
                 {{-- No data-req here on purpose. That marks a field for the generic
                      checker, which appends its error into the input's parent - for
                      this input that is .phone-group, the bordered row holding the
@@ -277,17 +277,17 @@
         <div class="form-group">
             <label class="form-label" for="email{{ $uid }}">Email</label>
             <input class="form-input" id="email{{ $uid }}" name="Contacts.Email" type="email"
-                   maxlength="120" placeholder="Enter your email" data-track="form.field.email" autocomplete="email"/>
+                   maxlength="120" placeholder="Enter your email" autocomplete="email"/>
         </div>
 
         <div class="form-group">
             <label class="form-label" for="city{{ $uid }}">City</label>
             <input class="form-input" id="city{{ $uid }}" name="Contacts.Mailing City" type="text"
-                   maxlength="100" placeholder="Enter your city" data-track="form.field.city" autocomplete="address-level2"
+                   maxlength="100" placeholder="Enter your city" autocomplete="address-level2"
                    value="{{ $paCity }}" required data-city data-req="City is required"/>
         </div>
 
-        <button type="submit" class="btn-submit" data-submit data-track="form.submit">{!! $paCta !!}</button>
+        <button type="submit" class="btn-submit" data-submit>{!! $paCta !!}</button>
     </form>
 
 @unless ($paBare)

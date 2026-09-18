@@ -472,7 +472,7 @@
 </div>
 
 <!-- SECTION 2: OVERVIEW / INTRO + TL;DR -->
-<section class="content-section" id="overview-section" data-slot="overview">
+<section class="content-section" id="overview-section">
     <div class="content-container">
         <div class="text-content">
                 <h2 class="section-title">GSTAT Appeal Filing in Vijayawada - Overview</h2>
@@ -527,7 +527,7 @@
 </section>
 
 <!-- SECTION 3: WHAT IS [SERVICE] -->
-<section class="content-section" id="what-section" data-slot="what-is">
+<section class="content-section" id="what-section">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
@@ -592,10 +592,10 @@
 </section>
 
 <!-- SECTION 5: OUR SERVICES -->
-<section class="content-section" id="services-section" data-slot="services">
+<section class="content-section" id="services-section">
     <div class="content-container">
         <div class="text-content">
-                <h2 class="section-title" id="services-section" data-slot="services">GSTAT Appeal Filing Services at Vijayawada Bench</h2>
+                <h2 class="section-title" id="services-section">GSTAT Appeal Filing Services at Vijayawada Bench</h2>
 <div class="table-responsive-wrapper">
     <table>
         <thead><tr><th>Service</th><th>What We Do</th></tr></thead>
@@ -616,7 +616,7 @@
 </section>
 
 <!-- SECTION 7: STEP-BY-STEP PROCESS -->
-<section class="steps-section" id="procedure-section" data-slot="process">
+<section class="steps-section" id="procedure-section">
     <div class="section-container">
         <header class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Our Process</span>
@@ -789,10 +789,10 @@
 </section>
 
 <!-- SECTION 8: DOCUMENTS REQUIRED -->
-<section class="content-section" id="documents-section" data-slot="documents">
+<section class="content-section" id="documents-section">
     <div class="content-container">
         <div class="text-content">
-                <h2 class="section-title" id="documents-section" data-slot="documents">Documents Required for GSTAT Appeal Filing at Vijayawada</h2>
+                <h2 class="section-title" id="documents-section">Documents Required for GSTAT Appeal Filing at Vijayawada</h2>
 <ul>
     <li>Form APL-05 - GSTAT appeal form (filed electronically on <a href="https://efiling.gstat.gov.in" target="_blank" rel="noopener">efiling.gstat.gov.in</a>)</li>
     <li>Certified copy of the impugned order from the First Appellate Authority or Revisional Authority</li>
@@ -814,10 +814,10 @@
 </section>
 
 <!-- SECTION 9: CHALLENGES -->
-<section class="content-section" id="challenges-section" data-slot="challenges">
+<section class="content-section" id="challenges-section">
     <div class="content-container">
         <div class="text-content">
-                <h2 class="section-title" id="challenges-section" data-slot="challenges">Challenges in GSTAT Appeal Filing at Vijayawada Bench</h2>
+                <h2 class="section-title" id="challenges-section">Challenges in GSTAT Appeal Filing at Vijayawada Bench</h2>
 <h3>Jurisdiction Confusion</h3>
 <p>With 26 districts split between the Vijayawada main bench (15 districts) and the Visakhapatnam circuit (11 districts), taxpayers must correctly identify whether their appeal should be filed at Vijayawada or Visakhapatnam. Filing at the wrong bench results in procedural rejection and lost time within the limitation window.</p>
 <h3>AP District Reorganisation Impact</h3>
@@ -835,10 +835,10 @@
 </section>
 
 <!-- SECTION 10: FEES + TIMELINE -->
-<section class="content-section" id="fees-section" data-slot="fees">
+<section class="content-section" id="fees-section">
     <div class="content-container">
         <div class="text-content">
-                <h2 class="section-title" id="fees-section" data-slot="fees">Fees for GSTAT Appeal Filing at Vijayawada Bench</h2>
+                <h2 class="section-title" id="fees-section">Fees for GSTAT Appeal Filing at Vijayawada Bench</h2>
 <p>GSTAT appeal costs at the Vijayawada bench comprise statutory government fees and professional service charges. The pre-deposit under S.112(8) is a statutory requirement, not Patron's fee.</p>
 <div class="table-responsive-wrapper">
     <table class="table-amount">
@@ -917,10 +917,10 @@
 </section>
 
 <!-- SECTION 13: COMPARISON TABLE -->
-<section class="content-section" id="comparison-section" data-slot="comparison">
+<section class="content-section" id="comparison-section">
     <div class="content-container">
         <div class="text-content">
-                <h2 class="section-title" id="comparison-section" data-slot="comparison">Patron Accounting vs Alternatives for Vijayawada GSTAT Appeals</h2>
+                <h2 class="section-title" id="comparison-section">Patron Accounting vs Alternatives for Vijayawada GSTAT Appeals</h2>
 <div class="table-responsive-wrapper">
     <table class="table-comparison" style="min-width:560px;">
         <thead><tr><th>Factor</th><th>Patron Accounting</th><th>Unrepresented Appellant</th><th>General CA Firm</th></tr></thead>
@@ -957,10 +957,10 @@
 </section>
 
 <!-- SECTION 15A: LEGAL FRAMEWORK / STATUTORY REFERENCE -->
-<section class="content-section" id="legal-section" data-slot="legal-framework">
+<section class="content-section" id="legal-section">
     <div class="content-container">
         <div class="text-content">
-                <h2 class="section-title" id="legal-section" data-slot="legal-framework">Legal Framework for GSTAT Appeals in Andhra Pradesh</h2>
+                <h2 class="section-title" id="legal-section">Legal Framework for GSTAT Appeals in Andhra Pradesh</h2>
 <div class="table-responsive-wrapper">
     <table>
         <thead><tr><th>Provision</th><th>Section</th><th>Key Requirement</th></tr></thead>
@@ -980,7 +980,7 @@
 </section>
 
 <!-- SECTION 16: FAQ ACCORDION -->
-<section class="content-section" id="faq-section" data-slot="faq">
+<section class="content-section" id="faq-section">
     <div class="content-container">
         <div class="text-content">
             <div class="faq-expanded">

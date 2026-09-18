@@ -1231,7 +1231,7 @@ function toggleTestiVideo(area){
 
 
 <!-- SECTION 2: OVERVIEW / INTRO + TL;DR -->
-<section class="content-section" id="overview-section" data-slot="overview">
+<section class="content-section" id="overview-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">IMF for Insurance Agents in Mumbai - Overview</h2>
@@ -1249,7 +1249,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 3: WHAT IS -->
-<section class="content-section" id="what-section" data-slot="what-is">
+<section class="content-section" id="what-section">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
@@ -1316,7 +1316,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 5: WHAT IS INCLUDED -->
-<section class="content-section" id="services-section" data-slot="services">
+<section class="content-section" id="services-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">What Patron Includes in the Agent-to-IMF Setup</h2>
@@ -1343,7 +1343,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 7: PROCESS -->
-<section class="steps-section" id="procedure-section" data-slot="process">
+<section class="steps-section" id="procedure-section">
     <div class="section-container">
         <header class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow">Our Process</span>
@@ -1383,7 +1383,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 8: DOCUMENTS REQUIRED -->
-<section class="content-section" id="documents-section" data-slot="documents">
+<section class="content-section" id="documents-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Documents Required to Convert Your Mumbai Agency Into an IMF</h2>
@@ -1408,7 +1408,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 10: FEES -->
-<section class="content-section" id="fees-section" data-slot="fees">
+<section class="content-section" id="fees-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Agent-to-IMF Fees in Mumbai</h2>
@@ -1435,7 +1435,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 11: TIMELINE -->
-<section class="content-section" id="timeline-section" data-slot="timeline">
+<section class="content-section" id="timeline-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Agent-to-IMF Timeline in Mumbai</h2>
@@ -1478,7 +1478,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 13: AGENT vs IMF COMPARISON -->
-<section class="content-section" id="comparison-section" data-slot="comparison">
+<section class="content-section" id="comparison-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Agent vs Corporate Agent vs IMF</h2>
@@ -1551,7 +1551,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- FAQ SECTION -->
-<section id="faq-section" data-slot="faq" class="content-section" style="background-color: #ffffff;">
+<section id="faq-section" class="content-section" style="background-color: #ffffff;">
     <div class="content-container">
         <div class="text-content">
             <div class="faq-expanded">
@@ -1636,7 +1636,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- CONCLUSION + CTA BLOCK (Dark) -->
-<section class="content-section" style="background: var(--blue) !important;" data-slot="conclusion">
+<section class="content-section" style="background: var(--blue) !important;">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title" style="color:#FFFFFF !important;">Upgrade From Agent to IMF in Mumbai with Patron Accounting</h2>

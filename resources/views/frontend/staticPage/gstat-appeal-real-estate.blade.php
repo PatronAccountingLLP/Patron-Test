@@ -470,7 +470,7 @@
 </div>
 
 <!-- SECTION 2: OVERVIEW / INTRO + TL;DR -->
-<section class="content-section" id="overview-section" data-slot="overview">
+<section class="content-section" id="overview-section">
     <div class="content-container">
         <div class="text-content">
                 <div class="highlight-box" style="background:var(--orange-light);border-radius:var(--radius-md);padding:24px;margin-bottom:24px;"><h3 style="color:var(--blue);margin-bottom:12px;">TL;DR</h3><p style="color:var(--text-secondary);font-size:15px;line-height:1.7;"><strong>1.</strong> Identify ITC reversal demand under Section 17(5) CGST Act from first appellate order. <strong>2.</strong> Pay 10% pre-deposit under Section 112(8) - capped at Rs 20 crore. <strong>3.</strong> File Form GST APL-05 on GSTAT portal within 3 months of order date.</p></div>
@@ -516,7 +516,7 @@
 </section>
 
 <!-- SECTION 3: WHAT IS [SERVICE] -->
-<section class="content-section" id="what-section" data-slot="what-is">
+<section class="content-section" id="what-section">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
@@ -566,7 +566,7 @@
 </section>
 
 <!-- SECTION 5: OUR SERVICES -->
-<section class="content-section" id="services-section" data-slot="services">
+<section class="content-section" id="services-section">
     <div class="content-container">
         <div class="text-content">
                 <h2 class="section-title">Our 6 GSTAT Services for Real Estate ITC Disputes</h2>
@@ -583,7 +583,7 @@
 </section>
 
 <!-- SECTION 7: STEP-BY-STEP PROCESS -->
-<section class="steps-section" id="procedure-section" data-slot="process">
+<section class="steps-section" id="procedure-section">
     <div class="section-container">
         <header class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Our Process</span>
@@ -603,7 +603,7 @@
 </section>
 
 <!-- SECTION 8: DOCUMENTS REQUIRED -->
-<section class="content-section" id="documents-section" data-slot="documents">
+<section class="content-section" id="documents-section">
     <div class="content-container">
         <div class="text-content">
                 <h2 class="section-title">Real Estate GSTAT Appeal Document Checklist</h2>
@@ -614,7 +614,7 @@
 </section>
 
 <!-- SECTION 9: CHALLENGES -->
-<section class="content-section" id="challenges-section" data-slot="challenges">
+<section class="content-section" id="challenges-section">
     <div class="content-container">
         <div class="text-content">
                 <h2 class="section-title">4 Common Challenges in Real Estate ITC GSTAT Appeals</h2>
@@ -637,7 +637,7 @@
 </section>
 
 <!-- SECTION 10: FEES + TIMELINE -->
-<section class="content-section" id="fees-section" data-slot="fees">
+<section class="content-section" id="fees-section">
     <div class="content-container">
         <div class="text-content">
                 <h2 class="section-title">Pre-Deposit for Real Estate GSTAT Appeals - Section 112(8)</h2>
@@ -695,7 +695,7 @@
 </section>
 
 <!-- SECTION 13: COMPARISON TABLE -->
-<section class="content-section" id="comparison-section" data-slot="comparison">
+<section class="content-section" id="comparison-section">
     <div class="content-container">
         <div class="text-content">
                 <h2 class="section-title">GSTAT Appeal vs High Court Writ for Real Estate ITC Disputes</h2>
@@ -721,7 +721,7 @@
 </section>
 
 <!-- SECTION 15A: LEGAL FRAMEWORK / STATUTORY REFERENCE -->
-<section class="content-section" id="legal-section" data-slot="legal-framework">
+<section class="content-section" id="legal-section">
     <div class="content-container">
         <div class="text-content">
                 <h2 class="section-title">Real Estate GSTAT Legal Framework Reference</h2>
@@ -741,7 +741,7 @@
 </section>
 
 <!-- SECTION 16: FAQ ACCORDION -->
-<section class="content-section" id="faq-section" data-slot="faq">
+<section class="content-section" id="faq-section">
     <div class="content-container">
         <div class="text-content">
             <div class="faq-expanded">

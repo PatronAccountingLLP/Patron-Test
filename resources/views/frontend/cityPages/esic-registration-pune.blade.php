@@ -379,7 +379,7 @@
 </div>
 
 <!-- SECTION 2: OVERVIEW / INTRO + TL;DR -->
-<section class="content-section" id="overview-section" data-slot="overview">
+<section class="content-section" id="overview-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">ESIC Registration in Pune - Overview</h2>
@@ -411,7 +411,7 @@
 </section>
 
 <!-- SECTION 3: WHAT IS GSTAT APPEAL FILING -->
-<section class="content-section" id="what-section" data-slot="what-is">
+<section class="content-section" id="what-section">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
@@ -508,7 +508,7 @@
 </section>
 
 <!-- SECTION 5: OUR SERVICES -->
-<section class="content-section" id="services-section" data-slot="services">
+<section class="content-section" id="services-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Our ESIC Registration Services for Pune Employers</h2>
@@ -555,7 +555,7 @@
 </section>
 
 <!-- SECTION 7: 7-STEP PROCESS -->
-<section class="steps-section" id="procedure-section" data-slot="process">
+<section class="steps-section" id="procedure-section">
     <div class="section-container">
         <header class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow">Our Process</span>
@@ -733,7 +733,7 @@
 </section>
 
 <!-- SECTION 8: DOCUMENTS REQUIRED -->
-<section class="content-section" id="documents-section" data-slot="documents">
+<section class="content-section" id="documents-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Documents Required for ESIC Registration in Pune</h2>
@@ -762,7 +762,7 @@
 </section>
 
 <!-- SECTION 9: CHALLENGES -->
-<section class="content-section" id="challenges-section" data-slot="challenges">
+<section class="content-section" id="challenges-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Common ESIC Registration Challenges in Pune</h2>
@@ -801,7 +801,7 @@
 </section>
 
 <!-- SECTION 10: FEES -->
-<section class="content-section" id="fees-section" data-slot="fees">
+<section class="content-section" id="fees-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">ESIC Registration Fees in Pune 2026</h2>
@@ -855,7 +855,7 @@
 </section>
 
 <!-- SECTION 11: TIMELINE -->
-<section class="content-section" id="timeline-section" data-slot="timeline">
+<section class="content-section" id="timeline-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">ESIC Registration Timeline in Pune</h2>
@@ -948,7 +948,7 @@
 </section>
 
 <!-- SECTION 13: SELF-FILING vs PROFESSIONAL COMPARISON -->
-<section class="content-section" id="comparison-section" data-slot="comparison">
+<section class="content-section" id="comparison-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Patron Accounting vs. Local ESIC Consultants in Pune</h2>
@@ -1014,7 +1014,7 @@
 <tr style="border-bottom:1px solid var(--gray-100);"><td style="padding:12px 16px;font-weight:600;font-size:14px;">Maharashtra Shops and Establishments Act, 2017</td><td style="padding:12px 16px;font-size:14px;">Registration</td><td style="padding:12px 16px;font-size:14px;">Governs commercial establishments in Pune (non-factory employers). Registration certificate is a mandatory document for ESIC registration of Pune shops and offices</td></tr>
 <tr><td style="padding:12px 16px;font-weight:600;font-size:14px;">Factories Act, 1948</td><td style="padding:12px 16px;font-size:14px;">Section 2(m)</td><td style="padding:12px 16px;font-size:14px;">Defines factory. Manufacturing units in Chakan MIDC and MIDC Bhosari register under this Act. Factory registration certificate required for ESIC Form 1 for Pune manufacturers.</td></tr>
 </tbody></table></div>
-<p class="content-text" style="margin-top:16px;" id="legal-section" data-slot="legal-framework"><strong>Government Sources:</strong> Official ESIC portal - <a href="https://www.esic.in" target="_blank" rel="noopener">www.esic.in</a> | ESIC SRO Pune - <a href="https://sropune.esic.gov.in" target="_blank" rel="noopener">sropune.esic.gov.in</a> | Ministry of Labour - <a href="https://labour.gov.in" target="_blank" rel="noopener">labour.gov.in</a></p>
+<p class="content-text" style="margin-top:16px;" id="legal-section"><strong>Government Sources:</strong> Official ESIC portal - <a href="https://www.esic.in" target="_blank" rel="noopener">www.esic.in</a> | ESIC SRO Pune - <a href="https://sropune.esic.gov.in" target="_blank" rel="noopener">sropune.esic.gov.in</a> | Ministry of Labour - <a href="https://labour.gov.in" target="_blank" rel="noopener">labour.gov.in</a></p>
 
             </div>
         </div>
@@ -1022,7 +1022,7 @@
 </section>
 
 <!-- FAQ SECTION -->
-<section id="faq-section" data-slot="faq" class="content-section" style="background-color: #ffffff;">
+<section id="faq-section" class="content-section" style="background-color: #ffffff;">
     <div class="content-container">
         <div class="text-content">
             <div class="faq-expanded">
@@ -1104,7 +1104,7 @@
 </section>
 
 <!-- CONCLUSION + CTA BLOCK (Dark) -->
-<section class="content-section" style="background: var(--blue) !important;" data-slot="conclusion">
+<section class="content-section" style="background: var(--blue) !important;">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title" style="color:#FFFFFF !important;">Get ESIC-Compliant in 2-3 Working Days with Patron Accounting Pune</h2>

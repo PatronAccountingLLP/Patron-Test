@@ -670,7 +670,7 @@ function toggleTestiVideo(area){
 <!-- SECTION 1A: WHAT IS + QUICK ANSWERS (AI Overview) -->
 
 
-<section class="content-section" id="overview-section" data-slot="overview">
+<section class="content-section" id="overview-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">What Is Form 10BB and When Does It Apply?</h2>
@@ -720,7 +720,7 @@ function toggleTestiVideo(area){
 
 
 <!-- SECTION 3: WHAT IT COVERS / DEFINITIONS -->
-<section class="content-section" id="what-section" data-slot="what-is">
+<section class="content-section" id="what-section">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
@@ -851,7 +851,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 6: FILING PROCESS -->
-<section class="steps-section" id="procedure-section" data-slot="process">
+<section class="steps-section" id="procedure-section">
     <div class="section-container">
         <div class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow">Our Process</span>
@@ -963,7 +963,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 7: DOCUMENTS -->
-<section class="content-section" id="documents-section" data-slot="documents">
+<section class="content-section" id="documents-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Documents Required for Form 10BB</h2>
@@ -991,7 +991,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 8: DUE DATE / TIMELINE -->
-<section class="content-section" id="timeline-section" data-slot="timeline">
+<section class="content-section" id="timeline-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Due Date and Timeline for Form 10BB</h2>
@@ -1037,7 +1037,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 9: FEES -->
-<section class="content-section" id="fees-section" data-slot="fees">
+<section class="content-section" id="fees-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Patron Fees for Form 10BB Audit and Filing</h2>
@@ -1111,7 +1111,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- FAQ SECTION -->
-<section id="faq-section" data-slot="faq" class="content-section" style="background-color: #ffffff;">
+<section id="faq-section" class="content-section" style="background-color: #ffffff;">
     <div class="content-container">
         <div class="text-content">
             <div class="faq-expanded">
@@ -1178,7 +1178,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- CONCLUSION + CTA BLOCK (Dark) -->
-<section class="content-section" style="background: var(--blue) !important;" data-slot="conclusion">
+<section class="content-section" style="background: var(--blue) !important;">
     <div class="content-container">
         <div class="text-content" style="text-align:left;">
             <h2 class="section-title" style="color:#FFFFFF !important;">Talk to Patron's Trust and Institution Tax Team</h2>

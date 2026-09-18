@@ -385,7 +385,7 @@
 </div>
 
 
-<section class="content-section" id="overview-section" data-slot="overview">
+<section class="content-section" id="overview-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">What E-Commerce Accounting Covers — Scope, Deliverables and Who It Suits</h2>
@@ -402,7 +402,7 @@
 </section>
 
 
-<section class="content-section" id="what-section" data-slot="what-is">
+<section class="content-section" id="what-section">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
@@ -450,7 +450,7 @@
 </section>
 
 
-<section class="pa-logos-section"><div class="pa-logos-wrap"><p class="pa-logos-title">The software and platforms we work with</p><div class="pa-logos-cards" data-count="6"><div class="pa-logo-card"><img src="/images/accounting-cluster/_platform-logos/amazon.webp" alt="Amazon" loading="lazy"></div><div class="pa-logo-card"><img src="/images/accounting-cluster/_platform-logos/flipkart.webp" alt="Flipkart" loading="lazy"></div><div class="pa-logo-card"><img src="/images/accounting-cluster/_platform-logos/shopify.webp" alt="Shopify" loading="lazy"></div><div class="pa-logo-card"><img src="/images/accounting-cluster/_platform-logos/meesho.webp" alt="Meesho" loading="lazy"></div><div class="pa-logo-card"><img src="/images/accounting-cluster/_platform-logos/myntra.webp" alt="Myntra" loading="lazy"></div><div class="pa-logo-card"><img src="/images/accounting-cluster/_platform-logos/nykaa.webp" alt="Nykaa" loading="lazy"></div></div></div></section><section class="content-section" id="services-section" data-slot="services">
+<section class="pa-logos-section"><div class="pa-logos-wrap"><p class="pa-logos-title">The software and platforms we work with</p><div class="pa-logos-cards" data-count="6"><div class="pa-logo-card"><img src="/images/accounting-cluster/_platform-logos/amazon.webp" alt="Amazon" loading="lazy"></div><div class="pa-logo-card"><img src="/images/accounting-cluster/_platform-logos/flipkart.webp" alt="Flipkart" loading="lazy"></div><div class="pa-logo-card"><img src="/images/accounting-cluster/_platform-logos/shopify.webp" alt="Shopify" loading="lazy"></div><div class="pa-logo-card"><img src="/images/accounting-cluster/_platform-logos/meesho.webp" alt="Meesho" loading="lazy"></div><div class="pa-logo-card"><img src="/images/accounting-cluster/_platform-logos/myntra.webp" alt="Myntra" loading="lazy"></div><div class="pa-logo-card"><img src="/images/accounting-cluster/_platform-logos/nykaa.webp" alt="Nykaa" loading="lazy"></div></div></div></section><section class="content-section" id="services-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Our E-Commerce Accounting Services</h2>
@@ -475,7 +475,7 @@
 </section>
 
 
-<section class="steps-section" id="procedure-section" data-slot="process">
+<section class="steps-section" id="procedure-section">
     <div class="section-container">
         <header class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow">Our Process</span>
@@ -546,7 +546,7 @@
 
 
 
-<section class="content-section" id="documents-section" data-slot="documents">
+<section class="content-section" id="documents-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Documents Required for E-Commerce Accounting</h2>
@@ -632,7 +632,7 @@
 </section>
 <!-- ============ /CLIENT PORTAL ============ -->
 
-<section class="content-section" id="challenges-section" data-slot="challenges">
+<section class="content-section" id="challenges-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Common E-Commerce Accounting Challenges and How We Solve Them</h2>
@@ -657,7 +657,7 @@
 
 
 
-<section class="content-section" id="fees-section" data-slot="fees">
+<section class="content-section" id="fees-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">E-Commerce Accounting Fees</h2>
@@ -682,7 +682,7 @@
 </section>
 
 
-<section class="content-section" id="timeline-section" data-slot="timeline">
+<section class="content-section" id="timeline-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">E-Commerce Accounting Compliance Calendar 2026</h2>
@@ -779,7 +779,7 @@
 
 
 
-<section class="content-section" id="comparison-section" data-slot="comparison">
+<section class="content-section" id="comparison-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Marketplace Panel Reports vs Reconciled Books</h2>
@@ -827,7 +827,7 @@
 </section>
 
 
-<section id="faq-section" data-slot="faq" class="content-section" style="background-color: #ffffff;">
+<section id="faq-section" class="content-section" style="background-color: #ffffff;">
     <div class="content-container">
         <div class="text-content">
             
@@ -912,7 +912,7 @@
 </section>
 
 
-<section class="content-section" style="background: var(--blue) !important;" data-slot="conclusion">
+<section class="content-section" style="background: var(--blue) !important;">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title" style="color:#FFFFFF !important;">Start Your E-Commerce Accounting with Patron Accounting</h2>

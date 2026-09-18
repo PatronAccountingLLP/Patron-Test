@@ -1268,7 +1268,7 @@ function toggleTestiVideo(area){
 
 
 <!-- SECTION 2: OVERVIEW -->
-<section class="content-section" id="overview-section" data-slot="overview">
+<section class="content-section" id="overview-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">IMF for Rural and Tier-3 Cities in Delhi - Overview</h2>
@@ -1286,7 +1286,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 3: WHAT IS -->
-<section class="content-section" id="what-section" data-slot="what-is">
+<section class="content-section" id="what-section">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
@@ -1353,7 +1353,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 5: WHAT IS INCLUDED -->
-<section class="content-section" id="services-section" data-slot="services">
+<section class="content-section" id="services-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">What Patron Includes in a Rural and Tier-3 IMF Setup</h2>
@@ -1379,7 +1379,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 7: PROCESS -->
-<section class="steps-section" id="procedure-section" data-slot="process">
+<section class="steps-section" id="procedure-section">
     <div class="section-container">
         <header class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow">Our Process</span>
@@ -1418,7 +1418,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 8: DOCUMENTS -->
-<section class="content-section" id="documents-section" data-slot="documents">
+<section class="content-section" id="documents-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Documents Required for a Rural and Tier-3 IMF</h2>
@@ -1443,7 +1443,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 10: FEES -->
-<section class="content-section" id="fees-section" data-slot="fees">
+<section class="content-section" id="fees-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">IMF Setup Fees for Rural and Tier-3 Cities</h2>
@@ -1471,7 +1471,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 11: TIMELINE -->
-<section class="content-section" id="timeline-section" data-slot="timeline">
+<section class="content-section" id="timeline-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">IMF Registration Timeline for Rural Setups</h2>
@@ -1514,7 +1514,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 13: IMF vs POSP COMPARISON -->
-<section class="content-section" id="comparison-section" data-slot="comparison">
+<section class="content-section" id="comparison-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">IMF vs POSP Insurance Agent for Rural Distribution</h2>
@@ -1591,7 +1591,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- FAQ SECTION -->
-<section id="faq-section" data-slot="faq" class="content-section" style="background-color: #ffffff;">
+<section id="faq-section" class="content-section" style="background-color: #ffffff;">
     <div class="content-container">
         <div class="text-content">
             <div class="faq-expanded">
@@ -1683,7 +1683,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- CONCLUSION + CTA BLOCK (Dark) -->
-<section class="content-section" style="background: var(--blue) !important;" data-slot="conclusion">
+<section class="content-section" style="background: var(--blue) !important;">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title" style="color:#FFFFFF !important;">Set Up Your Rural IMF from Delhi with Patron Accounting</h2>

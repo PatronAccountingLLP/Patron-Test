@@ -385,7 +385,7 @@
 </div>
 
 
-<section class="content-section" id="overview-section" data-slot="overview">
+<section class="content-section" id="overview-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">What Year-End Closing and Finalisation Covers — Scope, Deliverables and Who It Suits</h2>
@@ -402,7 +402,7 @@
 </section>
 
 
-<section class="content-section" id="what-section" data-slot="what-is">
+<section class="content-section" id="what-section">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
@@ -450,7 +450,7 @@
 </section>
 
 
-<section class="content-section" id="services-section" data-slot="services">
+<section class="content-section" id="services-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Our Year-End Closing and Finalisation Services</h2>
@@ -475,7 +475,7 @@
 </section>
 
 
-<section class="steps-section" id="procedure-section" data-slot="process">
+<section class="steps-section" id="procedure-section">
     <div class="section-container">
         <header class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow">Our Process</span>
@@ -546,7 +546,7 @@
 
 
 
-<section class="content-section" id="documents-section" data-slot="documents">
+<section class="content-section" id="documents-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Documents Required for Year-End Closing and Finalisation</h2>
@@ -631,7 +631,7 @@
 </section>
 <!-- ============ /CLIENT PORTAL ============ -->
 
-<section class="content-section" id="challenges-section" data-slot="challenges">
+<section class="content-section" id="challenges-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Common Year-End Closing and Finalisation Challenges and How We Solve Them</h2>
@@ -656,7 +656,7 @@
 
 
 
-<section class="content-section" id="fees-section" data-slot="fees">
+<section class="content-section" id="fees-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Year-End Closing and Finalisation Fees</h2>
@@ -680,7 +680,7 @@
 </section>
 
 
-<section class="content-section" id="timeline-section" data-slot="timeline">
+<section class="content-section" id="timeline-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Year-End Closing and Finalisation Compliance Calendar 2026</h2>
@@ -777,7 +777,7 @@
 
 
 
-<section class="content-section" id="comparison-section" data-slot="comparison">
+<section class="content-section" id="comparison-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Self-Finalisation vs CA-Managed Closing</h2>
@@ -1243,7 +1243,7 @@
         </div>
     </div>
 </section>
-<section id="faq-section" data-slot="faq" class="content-section" style="background-color: #ffffff;">
+<section id="faq-section" class="content-section" style="background-color: #ffffff;">
     <div class="content-container">
         <div class="text-content">
             
@@ -1328,7 +1328,7 @@
 </section>
 
 
-<section class="content-section" style="background: var(--blue) !important;" data-slot="conclusion">
+<section class="content-section" style="background: var(--blue) !important;">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title" style="color:#FFFFFF !important;">Start Your Year-End Closing and Finalisation with Patron Accounting</h2>

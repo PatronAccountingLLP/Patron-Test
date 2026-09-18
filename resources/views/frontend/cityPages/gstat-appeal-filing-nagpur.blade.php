@@ -477,7 +477,7 @@
 </div>
 
 <!-- SECTION 2: OVERVIEW / INTRO + TL;DR -->
-<section class="content-section" id="overview-section" data-slot="overview">
+<section class="content-section" id="overview-section">
     <div class="content-container">
         <div class="text-content">
                 <div class="content-text">
@@ -529,7 +529,7 @@
 </section>
 
 <!-- SECTION 3: WHAT IS [SERVICE] -->
-<section class="content-section" id="what-section" data-slot="what-is">
+<section class="content-section" id="what-section">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
@@ -552,7 +552,7 @@
 </section>
 
 <!-- SECTION 5: OUR SERVICES -->
-<section class="content-section" id="services-section" data-slot="services">
+<section class="content-section" id="services-section">
     <div class="content-container">
         <div class="text-content">
                 <h2 class="section-title">Our GSTAT Appeal Filing Services for Nagpur Bench</h2><div class="content-text"><div class="table-responsive-wrapper"><table><thead><tr><th>Service</th><th>What We Do</th></tr></thead><tbody><tr><td>Case Assessment</td><td>Review demand order from CGST Nagpur Zone (Nagpur-I, Nagpur-II) or Maharashtra State Tax Nagpur Division. Confirm Vidarbha jurisdiction routing.</td></tr><tr><td>Pre-Deposit Computation</td><td>Calculate 20% under S.112(8). Cap Rs 20 crore analysis. Penalty-only 10% computation.</td></tr><tr><td>APL-05 Drafting</td><td>Draft grounds for Vidarbha-specific disputes - mining classification, power sector ITC, MIDC manufacturing.</td></tr><tr><td>E-Filing</td><td>File on <a href="https://efiling.gstat.gov.in" target="_blank" rel="noopener">efiling.gstat.gov.in</a> with correct Nagpur bench routing (not Mumbai/Pune).</td></tr><tr><td>Hearing Representation</td><td>Of-counsel specialists appear at Nagpur bench in physical or hybrid mode.</td></tr><tr><td>Post-Order Advisory</td><td>Appeal to Bombay HC Nagpur Bench under S.113 - physically located in Nagpur.</td></tr></tbody></table></div></div>
@@ -561,7 +561,7 @@
 </section>
 
 <!-- SECTION 7: STEP-BY-STEP PROCESS -->
-<section class="steps-section" id="procedure-section" data-slot="process">
+<section class="steps-section" id="procedure-section">
     <div class="section-container">
         <header class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Our Process</span>
@@ -578,7 +578,7 @@
 </section>
 
 <!-- SECTION 8: DOCUMENTS REQUIRED -->
-<section class="content-section" id="documents-section" data-slot="documents">
+<section class="content-section" id="documents-section">
     <div class="content-container">
         <div class="text-content">
                 <h2 class="section-title">Documents Required for GSTAT Appeal at Nagpur Bench</h2><div class="content-text"><ul><li><strong>Form APL-05</strong> (filed electronically)</li><li><strong>Certified copy of impugned order</strong></li><li><strong>Pre-deposit payment proof</strong> from Electronic Cash Ledger</li><li><strong>GSTIN registration certificate</strong></li><li><strong>Relevant returns</strong> - GSTR-1, GSTR-3B, GSTR-9 for disputed period</li><li><strong>SCN and reply to SCN</strong></li><li><strong>Assessment or adjudication order</strong></li><li><strong>Vakalatnama in GSTAT FORM-04</strong> stamped per Bombay HC rules. Affidavit.</li><li><strong>Vidarbha-specific:</strong> Orders from Maharashtra State Tax in Marathi require certified English or Hindi translations. Mining/power sector businesses must include sector-specific documentation such as mining leases, power purchase agreements, and input-output reconciliation statements.</li></ul></div>
@@ -587,7 +587,7 @@
 </section>
 
 <!-- SECTION 9: CHALLENGES -->
-<section class="content-section" id="challenges-section" data-slot="challenges">
+<section class="content-section" id="challenges-section">
     <div class="content-container">
         <div class="text-content">
                 <h2 class="section-title">Challenges in GSTAT Appeal Filing at Nagpur Bench</h2><div class="content-text"><h3>3-Bench Routing in Maharashtra</h3><p>The primary challenge is correctly identifying the Nagpur bench jurisdiction versus Mumbai or Pune. Maharashtra's 3-bench structure requires careful district-level routing. A business in Aurangabad (Chhatrapati Sambhajinagar) files at Mumbai bench's circuit, not Nagpur.</p><h3>Geographic Remoteness Within Vidarbha</h3><p>Gadchiroli is over 300 km from Nagpur. Gondia and Bhandara also face significant travel. Hybrid hearings partially address this.</p><h3>Dual CGST Commissionerate Identification</h3><p>CGST Nagpur Zone operates through Nagpur-I and Nagpur-II with overlapping geographic coverage. Businesses must correctly identify which commissionerate passed the original order to name the correct respondent.</p><h3>Marathi Document Translation</h3><p>MGST orders in Marathi require English or Hindi translations for GSTAT filing. Missing translations delay listing.</p><h3>MSME Pre-Deposit Burden</h3><p>Vidarbha's MSME-dominated economy means many appellants have limited resources for the 20% pre-deposit under S.112(8).</p></div>
@@ -596,7 +596,7 @@
 </section>
 
 <!-- SECTION 10: FEES + TIMELINE -->
-<section class="content-section" id="fees-section" data-slot="fees">
+<section class="content-section" id="fees-section">
     <div class="content-container">
         <div class="text-content">
                 <h2 class="section-title">Fees for GSTAT Appeal Filing at Nagpur Bench</h2><div class="content-text"><div class="table-responsive-wrapper"><table class="table-amount"><thead><tr><th>Component</th><th>Amount</th></tr></thead><tbody><tr><td>Pre-deposit (statutory)</td><td>20% of disputed tax under S.112(8) (cumulative), cap Rs 20 crore each CGST/SGST. Penalty-only: 10%.</td></tr><tr><td>Filing fee</td><td>Rs 1,000 per Rs 1 lakh of tax/penalty, cap Rs 25,000</td></tr><tr><td>Interlocutory application</td><td>Rs 5,000 each</td></tr><tr><td>Patron Accounting Professional Fees</td><td>Starting from INR 24,999 (Excl. GST and Govt. Charges)</td></tr></tbody></table></div><p style="font-size:13px;color:var(--text-muted);margin-top:12px;"><em>All fees listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on volume and complexity of work.</em></p><h3 style="margin-top:24px;">Timeline</h3><div class="table-responsive-wrapper"><table><thead><tr><th>Stage</th><th>Duration</th></tr></thead><tbody><tr><td>Filing window</td><td>3 months under S.112(1). Backlog: 30 June 2026.</td></tr><tr><td>Pre-deposit processing</td><td>1-2 working days</td></tr><tr><td>Document preparation</td><td>3-7 working days</td></tr><tr><td>Admission hearing</td><td>Estimated 4-8 weeks</td></tr><tr><td>Order pronouncement</td><td>Within 30 days of final hearing</td></tr></tbody></table></div><div style="margin-top:24px;padding:20px;background:var(--orange-lighter);border-radius:var(--radius-md);border-left:4px solid var(--orange);"><p style="margin:0;font-weight:600;">Get a case-specific estimate for your Nagpur bench proceedings. Call <a href="tel:+919459456700">+91 945 945 6700</a> | <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20GSTAT%20Appeal%20Filing%20in%20Nagpur%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener">WhatsApp</a></p></div></div>
@@ -623,7 +623,7 @@
 </section>
 
 <!-- SECTION 13: COMPARISON TABLE -->
-<section class="content-section" id="comparison-section" data-slot="comparison">
+<section class="content-section" id="comparison-section">
     <div class="content-container">
         <div class="text-content">
                 <h2 class="section-title">Patron vs Alternatives - Nagpur Bench Comparison</h2><div class="content-text"><div class="table-responsive-wrapper"><table class="table-comparison"><thead><tr><th>Factor</th><th>Patron Accounting</th><th>Unrepresented</th><th>General CA</th></tr></thead><tbody><tr><td>GSTAT experience</td><td>32 benches, dedicated practice</td><td>No tribunal experience</td><td>Limited GSTAT exposure</td></tr><tr><td>Nagpur bench knowledge</td><td>MH 3-bench routing; Nagpur Zone CGST; Vidarbha context</td><td>May file at wrong bench</td><td>May not know 3-bench structure</td></tr><tr><td>Pre-deposit advisory</td><td>Strategic with Rs 20 Cr cap and hardship waiver</td><td>Risk of rejection</td><td>Basic computation</td></tr><tr><td>Of-counsel specialists</td><td>15+ years, Bombay HC Nagpur Bench</td><td>Self-representation</td><td>May outsource</td></tr><tr><td>Pan-India coverage</td><td>All 32 benches</td><td>Single location</td><td>Limited</td></tr></tbody></table></div></div>
@@ -641,7 +641,7 @@
 </section>
 
 <!-- SECTION 15A: LEGAL FRAMEWORK / STATUTORY REFERENCE -->
-<section class="content-section" id="legal-section" data-slot="legal-framework">
+<section class="content-section" id="legal-section">
     <div class="content-container">
         <div class="text-content">
                 <h2 class="section-title">Legal Framework for GSTAT Appeals - Nagpur Bench</h2><div class="content-text"><div class="table-responsive-wrapper"><table><thead><tr><th>Provision</th><th>Section</th><th>Key Requirement</th></tr></thead><tbody><tr><td>Constitution of GSTAT</td><td>Section 109, CGST Act</td><td>Nagpur bench constituted under S.O.3048(E) dated 31 July 2024. Vidarbha jurisdiction per S.O.5063(E) dated 26 Nov 2024.</td></tr><tr><td>Appeals to GSTAT</td><td>Section 112, CGST/MGST Act</td><td>3-month limitation under S.112(1). Pre-deposit 20% under S.112(8), cap Rs 20 crore each. Auto stay under S.112(9).</td></tr><tr><td>Appeal to High Court</td><td>Section 113, CGST Act</td><td>Appeal to Bombay HC Nagpur Bench on question of law - HC bench is physically in Nagpur.</td></tr><tr><td>CGST Amendment</td><td>CGST (Amendment) Act, 2023</td><td>Basis for bench constitution. 10% for penalty-only via Finance Act 2025.</td></tr><tr><td>Procedural rules</td><td>GSTAT (Procedure) Rules, 2025</td><td>Chapter III governs filing, Form APL-05, documentation, and hearings.</td></tr><tr><td>State GST law</td><td>MGST Act, 2017</td><td>State legislation mirroring CGST. MGST Nagpur Division demand orders appealable.</td></tr></tbody></table></div><p>External references: <a href="https://efiling.gstat.gov.in" target="_blank" rel="noopener">GSTAT e-filing portal</a> | <a href="https://www.cgstnagpur.gov.in" target="_blank" rel="noopener">CGST Nagpur Zone</a></p></div>
@@ -650,7 +650,7 @@
 </section>
 
 <!-- SECTION 16: FAQ ACCORDION -->
-<section class="content-section" id="faq-section" data-slot="faq">
+<section class="content-section" id="faq-section">
     <div class="content-container">
         <div class="text-content">
             <div class="faq-expanded">

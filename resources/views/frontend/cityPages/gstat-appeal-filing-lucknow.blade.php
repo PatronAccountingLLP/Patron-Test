@@ -477,7 +477,7 @@
 </div>
 
 <!-- SECTION 2: OVERVIEW / INTRO + TL;DR -->
-<section class="content-section" id="overview-section" data-slot="overview">
+<section class="content-section" id="overview-section">
     <div class="content-container">
         <div class="text-content">
                 <div class="content-text">
@@ -529,7 +529,7 @@
 </section>
 
 <!-- SECTION 3: WHAT IS [SERVICE] -->
-<section class="content-section" id="what-section" data-slot="what-is">
+<section class="content-section" id="what-section">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
@@ -552,7 +552,7 @@
 </section>
 
 <!-- SECTION 5: OUR SERVICES -->
-<section class="content-section" id="services-section" data-slot="services">
+<section class="content-section" id="services-section">
     <div class="content-container">
         <div class="text-content">
                 <h2 class="section-title">Our GSTAT Appeal Filing Services for Lucknow Bench</h2><div class="content-text"><div class="table-responsive-wrapper"><table><thead><tr><th>Service</th><th>What We Do</th></tr></thead><tbody><tr><td>Case Assessment</td><td>Review demand order from CGST Lucknow Zone (Lucknow/Kanpur/Agra Commissionerates) or UPGST authority. Confirm bench routing within UP's 3-bench structure.</td></tr><tr><td>Pre-Deposit Computation</td><td>Calculate 10% pre-deposit under S.112(8). Cap Rs 20 crore analysis. Hardship waiver advisory for Kanpur/Agra manufacturers.</td></tr><tr><td>APL-05 Drafting</td><td>Draft grounds for leather classification, ITC reversal, e-way bill, and export refund disputes specific to central/western UP.</td></tr><tr><td>E-Filing</td><td>File on <a href="https://efiling.gstat.gov.in" target="_blank" rel="noopener">efiling.gstat.gov.in</a> with Bharatkosh challan within the 3-month limitation.</td></tr><tr><td>Hearing Representation</td><td>Of-counsel specialists appear at Lucknow bench in hybrid mode - physical and virtual.</td></tr><tr><td>Post-Order Advisory</td><td>Appeal to Allahabad HC (or its Lucknow Bench) under Section 113 within 180 days.</td></tr></tbody></table></div></div>
@@ -561,7 +561,7 @@
 </section>
 
 <!-- SECTION 7: STEP-BY-STEP PROCESS -->
-<section class="steps-section" id="procedure-section" data-slot="process">
+<section class="steps-section" id="procedure-section">
     <div class="section-container">
         <header class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Our Process</span>
@@ -578,7 +578,7 @@
 </section>
 
 <!-- SECTION 8: DOCUMENTS REQUIRED -->
-<section class="content-section" id="documents-section" data-slot="documents">
+<section class="content-section" id="documents-section">
     <div class="content-container">
         <div class="text-content">
                 <h2 class="section-title">Documents Required for GSTAT Appeal at Lucknow Bench</h2><div class="content-text"><ul><li><strong>Form APL-05</strong> - GSTAT appeal form (mandatory, electronic)</li><li><strong>Certified copy of impugned order</strong> - S.107 appellate or S.108 revisional order</li><li><strong>Original order-in-original</strong> (demand order)</li><li><strong>Pre-deposit payment proof</strong> - Bharatkosh challan (10% under S.112(8))</li><li><strong>GSTIN registration certificate</strong> for UP-registered entity</li><li><strong>GST returns</strong> - GSTR-1, GSTR-3B, GSTR-9, GSTR-2A/2B for disputed period</li><li><strong>SCN and reply</strong> filed before original adjudicating authority</li><li><strong>Vakalatnama</strong> stamped as per Allahabad High Court rules</li><li><strong>UPGST-specific:</strong> For UP SGST matters, include State Tax Officer's order reference and correspondence with Commissioner of State Tax, Lucknow.</li></ul></div>
@@ -587,7 +587,7 @@
 </section>
 
 <!-- SECTION 9: CHALLENGES -->
-<section class="content-section" id="challenges-section" data-slot="challenges">
+<section class="content-section" id="challenges-section">
     <div class="content-container">
         <div class="text-content">
                 <h2 class="section-title">Challenges in GSTAT Appeal Filing at Lucknow Bench</h2><div class="content-text"><h3>Multi-Zone Jurisdiction Complexity</h3><p>The Lucknow bench covers five distinct commercial zones (Lucknow, Kanpur, Agra, Bareilly, Aligarh). Businesses operating across multiple zones must identify which appellate order routes to Lucknow vs. the Prayagraj or Varanasi bench.</p><h3>High Pre-Deposit for Manufacturing Units</h3><p>Kanpur's leather industry and Agra's footwear sector generate large-value demands. The 10% pre-deposit under S.112(8) on multi-crore disputes represents significant working capital impact.</p><h3>Strict 3-Month Limitation</h3><p><strong>Failure to file within the 3-month limitation period under S.112(1) permanently extinguishes the right of appeal.</strong> Condonation under S.112(4) is discretionary.</p><h3>E-Way Bill Disputes on Expressway Corridors</h3><p>The Lucknow-Agra Expressway and Purvanchal Expressway corridors generate frequent e-way bill disputes under Sections 129/130.</p><h3>CGST vs UPGST Overlap</h3><p>A single transaction may face demands from both the CGST Lucknow Zone and UP State Tax Department. Separate appeals may be required.</p></div>
@@ -596,7 +596,7 @@
 </section>
 
 <!-- SECTION 10: FEES + TIMELINE -->
-<section class="content-section" id="fees-section" data-slot="fees">
+<section class="content-section" id="fees-section">
     <div class="content-container">
         <div class="text-content">
                 <h2 class="section-title">Fees for GSTAT Appeal Filing at Lucknow Bench</h2><div class="content-text"><div class="table-responsive-wrapper"><table class="table-amount"><thead><tr><th>Component</th><th>Amount</th></tr></thead><tbody><tr><td>Pre-deposit (statutory)</td><td>10% of disputed tax under S.112(8), cap Rs 20 crore each CGST/SGST</td></tr><tr><td>Court fees</td><td>Rs 1,000 per Rs 1 lakh of tax/penalty, cap Rs 25,000</td></tr><tr><td>Interlocutory application</td><td>Rs 5,000</td></tr><tr><td>Miscellaneous</td><td>Certified copies, notarization, Vakalatnama stamp duty per UP schedule</td></tr><tr><td>Patron Accounting Professional Fees</td><td>Starting from INR 24,999 (Excl. GST and Govt. Charges)</td></tr></tbody></table></div><p style="font-size:13px;color:var(--text-muted);margin-top:12px;"><em>All fees listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on volume and complexity of work.</em></p><h3 style="margin-top:24px;">Timeline</h3><div class="table-responsive-wrapper"><table><thead><tr><th>Stage</th><th>Duration</th></tr></thead><tbody><tr><td>Filing window</td><td>3 months under S.112(1). Transitional orders: 30 June 2026.</td></tr><tr><td>Pre-deposit processing</td><td>1-2 working days via Bharatkosh</td></tr><tr><td>Patron preparation</td><td>3-7 working days</td></tr><tr><td>Admission hearing</td><td>4-8 weeks from filing</td></tr><tr><td>Final hearing</td><td>6-12 months from admission</td></tr></tbody></table></div><div style="margin-top:24px;padding:20px;background:var(--orange-lighter);border-radius:var(--radius-md);border-left:4px solid var(--orange);"><p style="margin:0;font-weight:600;">Get a case-specific estimate for your Lucknow bench proceedings. Call <a href="tel:+919459456700">+91 945 945 6700</a> | <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20GSTAT%20Appeal%20Filing%20in%20Lucknow%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener">WhatsApp</a></p></div></div>
@@ -623,7 +623,7 @@
 </section>
 
 <!-- SECTION 13: COMPARISON TABLE -->
-<section class="content-section" id="comparison-section" data-slot="comparison">
+<section class="content-section" id="comparison-section">
     <div class="content-container">
         <div class="text-content">
                 <h2 class="section-title">Patron + Of-Counsel vs Alternatives - Lucknow Bench</h2><div class="content-text"><div class="table-responsive-wrapper"><table class="table-comparison"><thead><tr><th>Factor</th><th>Patron + Of-Counsel</th><th>Unrepresented</th><th>General CA</th></tr></thead><tbody><tr><td>GSTAT experience</td><td>32 benches, dedicated practice</td><td>None - first-time filing</td><td>Limited or none</td></tr><tr><td>Lucknow bench knowledge</td><td>UP jurisdictional mapping, UPGST/CGST patterns</td><td>None</td><td>Generic approach</td></tr><tr><td>Pre-deposit advisory</td><td>Strategic computation, hardship waiver petitions</td><td>Self-computed, error risk</td><td>Basic calculation</td></tr><tr><td>Pan-India coverage</td><td>All 32 benches from 4 offices</td><td>Single location</td><td>City-limited</td></tr><tr><td>Of-counsel specialists</td><td>15+ years, HC/CESTAT experience</td><td>Not available</td><td>Rarely available</td></tr></tbody></table></div></div>
@@ -641,7 +641,7 @@
 </section>
 
 <!-- SECTION 15A: LEGAL FRAMEWORK / STATUTORY REFERENCE -->
-<section class="content-section" id="legal-section" data-slot="legal-framework">
+<section class="content-section" id="legal-section">
     <div class="content-container">
         <div class="text-content">
                 <h2 class="section-title">Legal Framework for GSTAT Appeals in Uttar Pradesh</h2><div class="content-text"><div class="table-responsive-wrapper"><table><thead><tr><th>Provision</th><th>Section</th><th>Key Requirement</th></tr></thead><tbody><tr><td>Constitution of GSTAT</td><td>Section 109, CGST Act</td><td>Lucknow bench constituted under S.O. 3048(E) dated 31 July 2024. UP has 3 GSTAT benches (Lucknow, Varanasi, Prayagraj).</td></tr><tr><td>Appeals to GSTAT</td><td>Section 112, CGST Act</td><td>3-month limitation under S.112(1). Pre-deposit of 10% under S.112(8), cap Rs 20 crore each.</td></tr><tr><td>Appeal to High Court</td><td>Section 113, CGST Act</td><td>Appeal to Allahabad HC (or its Lucknow Bench) on substantial questions of law within 180 days.</td></tr><tr><td>CGST Amendment</td><td>CGST (Amendment) Act, 2023</td><td>GST Council 53rd meeting recommended reducing pre-deposit from 20% to 10%.</td></tr><tr><td>Procedural rules</td><td>GSTAT (Procedure) Rules, 2025</td><td>Governs all GSTAT proceedings including filing, hearing, and order formats.</td></tr><tr><td>State GST law</td><td>UPGST Act, 2017</td><td>Mirrors CGST provisions for UP-registered taxpayers.</td></tr></tbody></table></div><p>External references: <a href="https://efiling.gstat.gov.in" target="_blank" rel="noopener">GSTAT e-filing portal</a> | <a href="https://www.cbic.gov.in" target="_blank" rel="noopener">CBIC portal</a> | <a href="https://comtax.up.nic.in" target="_blank" rel="noopener">UP State Tax Department</a></p></div>
@@ -650,7 +650,7 @@
 </section>
 
 <!-- SECTION 16: FAQ ACCORDION -->
-<section class="content-section" id="faq-section" data-slot="faq">
+<section class="content-section" id="faq-section">
     <div class="content-container">
         <div class="text-content">
             <div class="faq-expanded">

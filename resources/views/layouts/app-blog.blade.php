@@ -74,8 +74,6 @@
     @stack('styles')
 
     @include('partials.schema-organization')
-
-    @include('partials.clarity')
 </head>
 
 <body>
@@ -113,7 +111,6 @@
     @if(isset($post) && $post->seo_footer_scripts)
         {!! $post->seo_footer_scripts !!}
     @endif
-    @include('partials.radar-beacon')
 
 </body>
 </html>

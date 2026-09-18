@@ -88,15 +88,6 @@
                 
                 <p>You can choose to accept or decline cookies. Most web browsers automatically accept cookies, but you can modify your browser settings to decline them if you prefer. However, this may prevent you from taking full advantage of the website.</p>
 
-                <h2 class="mt-5 mb-3">Website Analytics</h2>
-                <p>We use our own analytics software, hosted on our own servers, to understand how visitors use this website so that we can improve it. We do not sell this information or share it with advertisers.</p>
-
-                <p>It records: a shortened form of your IP address (the final portion is removed, so you cannot be identified from it), your device and browser type, the pages you visit, how long you spend on them, how far you scroll, and where you click or tap.</p>
-
-                <p>We never record anything you type. If you use an enquiry form, we record only whether a field was filled in or left empty — never your name, phone number, email address or any other detail you enter.</p>
-
-                <p>This information is kept for 60 days and then deleted. Summary statistics, which cannot be linked to any individual, are kept longer.</p>
-
                 <h2 class="mt-5 mb-3">Links to Other Websites</h2>
                 <p>Our website may contain links to other websites of interest. However, once you leave our site using these links, please note that we do not have control over those external websites. Therefore, we cannot be responsible for the protection and privacy of any information you provide while visiting such sites, as they are not governed by this privacy statement. You should exercise caution and review the privacy policies of the websites in question.</p>
 

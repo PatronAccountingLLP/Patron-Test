@@ -7,7 +7,6 @@
 @section('title', '404 - Page Not Found')
 
 @section('content')
-<script>window.__paPageError=404;</script>
 <div class="container">
     <div class="row justify-content-center align-items-center" style="min-height: 70vh;">
         <div class="col-md-8 text-center">

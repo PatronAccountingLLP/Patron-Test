@@ -1647,7 +1647,7 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
 </div>
 
 <!-- SECTION 2: OVERVIEW / INTRO + TL;DR -->
-<section class="content-section" id="overview-section" data-slot="overview">
+<section class="content-section" id="overview-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Counting Stock Across Ahmedabad</h2>
@@ -1669,7 +1669,7 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
 </section>
 
 <!-- SECTION 3: WHAT IS GSTAT APPEAL FILING -->
-<section class="content-section" id="what-section" data-slot="what-is">
+<section class="content-section" id="what-section">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
@@ -1713,7 +1713,7 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
 </section>
 
 <!-- SECTION 5: OUR SERVICES -->
-<section class="content-section" id="services-section" data-slot="services">
+<section class="content-section" id="services-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Industrial Areas We Cover Around Ahmedabad</h2>
@@ -1735,7 +1735,7 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
 </section>
 
 <!-- SECTION 7: 7-STEP PROCESS -->
-<section class="steps-section" id="procedure-section" data-slot="process">
+<section class="steps-section" id="procedure-section">
     <div class="section-container">
         <header class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow">Our Process</span>
@@ -1768,7 +1768,7 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
 
 
 <!-- SECTION 9: CHALLENGES -->
-<section class="content-section" id="challenges-section" data-slot="challenges">
+<section class="content-section" id="challenges-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Chemicals at Vatva, Fabric at Narol, Components at Sanand</h2>
@@ -1791,7 +1791,7 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
 
 <!-- SECTION 10: FEES -->
 
-<section class="content-section" id="fees-section" data-slot="fees">
+<section class="content-section" id="fees-section">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">What Drives the Fee in Ahmedabad</h2>
@@ -1887,7 +1887,7 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
 
 
 <!-- FAQ SECTION -->
-<section id="faq-section" data-slot="faq" class="content-section" style="background-color: #ffffff;">
+<section id="faq-section" class="content-section" style="background-color: #ffffff;">
     <div class="content-container">
         <div class="text-content">
             
@@ -1956,7 +1956,7 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
 <a href="/stock-audit-for-seeds-fertiliser-agro-inputs" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-5h6v5"/></svg></div><div><div class="pa-card-title">Seeds &amp; Agro-Inputs</div><div class="pa-card-sub">Sector method</div></div></a>
 <a href="/stock-audit-for-textile" class="pa-city-card"><div class="pa-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-5h6v5"/></svg></div><div><div class="pa-card-title">Textile &amp; Apparel</div><div class="pa-card-sub">Sector method</div></div></a></div></div></div></section>
 <!-- CONCLUSION + CTA BLOCK (Dark) -->
-<section class="content-section" style="background: var(--blue) !important;" data-slot="conclusion">
+<section class="content-section" style="background: var(--blue) !important;">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title" style="color:#FFFFFF !important;">Booking a Count in Ahmedabad</h2>

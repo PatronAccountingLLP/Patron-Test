@@ -35,15 +35,6 @@ use App\Http\Controllers\DocFileController;
 
 
 // Frontend Routes
-/*
- * Visitor Radar - the tracking beacon and its collector. Registered at the top
- * so root-level catch-all routes below do not swallow them. The collector is
- * CSRF-exempt (see VerifyCsrfToken) and throttled per IP.
- */
-Route::get('/px/s.js', [App\Http\Controllers\VisitorRadarController::class, 'script'])->name('radar.script');
-Route::post('/px/c', [App\Http\Controllers\VisitorRadarController::class, 'collect'])
-    ->middleware('throttle:180,1')->name('radar.collect');
-
 Route::get('/', [FrontendController::class, 'index'])->name('frontend.index');
 
 // Accounting Cluster 301 redirects (must precede page/city routes so old paths 301 instead of rendering)
@@ -483,21 +474,7 @@ Route::prefix('admin')->name('admin.')->middleware(['auth', 'can_access_admin'])
     
     // Dashboard
     Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
-
-    // Visitor Radar - the live visitor-tracking tool + its read-back JSON feeds.
-    Route::view('/visitors', 'admin.visitors.index')->name('visitors');
-    Route::get('/visitors/live.json',          [App\Http\Controllers\VisitorRadarController::class, 'live'])->name('visitors.live');
-    Route::get('/visitors/sessions.json',      [App\Http\Controllers\VisitorRadarController::class, 'sessions'])->name('visitors.sessions');
-    Route::get('/visitors/session/{sid}.json', [App\Http\Controllers\VisitorRadarController::class, 'session'])->name('visitors.session');
-    Route::get('/visitors/daily.json',         [App\Http\Controllers\VisitorRadarController::class, 'daily'])->name('visitors.daily');
-    Route::get('/visitors/pages.json',         [App\Http\Controllers\VisitorRadarController::class, 'pages'])->name('visitors.pages');
-    Route::get('/visitors/pages-deep.json',    [App\Http\Controllers\VisitorRadarController::class, 'pageDeep'])->name('visitors.pagesdeep');
-    Route::get('/visitors/events.json',        [App\Http\Controllers\VisitorRadarController::class, 'events'])->name('visitors.events');
-    Route::get('/visitors/bots.json',          [App\Http\Controllers\VisitorRadarController::class, 'bots'])->name('visitors.bots');
-    Route::get('/visitors/report-pages.json',  [App\Http\Controllers\VisitorRadarController::class, 'reportPages'])->name('visitors.reportpages');
-    Route::get('/visitors/report.json',        [App\Http\Controllers\VisitorRadarController::class, 'pageReport'])->name('visitors.report');
-    Route::post('/visitors/rollup-now',        [App\Http\Controllers\VisitorRadarController::class, 'rollupNow'])->name('visitors.rollupnow');
-
+    
     // Posts Management
     Route::post('posts/bulk-delete', [AdminPostController::class, 'bulkDelete'])->name('posts.bulk-delete');
     

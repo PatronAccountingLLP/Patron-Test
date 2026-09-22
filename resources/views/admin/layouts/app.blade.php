@@ -198,6 +198,15 @@
                             <span class="badge bg-primary rounded-pill ms-auto">{{ $leadsUnread }}</span>
                         @endif
                     </a>
+
+                    {{-- Patron Web Analytics - live visitor tracking. Opens in its own tab
+                         because it is a full-screen tool with its own navigation,
+                         and because its heatmap loads site pages in an iframe. --}}
+                    <a href="{{ route('admin.visitors') }}" target="_blank" rel="noopener"
+                       class="sidebar-nav-item">
+                        <i class="bi bi-broadcast-pin"></i> Web Analytics
+                        <span class="badge bg-secondary rounded-pill ms-auto">Preview</span>
+                    </a>
                 </div>
 
                 <div class="sidebar-section d-none">

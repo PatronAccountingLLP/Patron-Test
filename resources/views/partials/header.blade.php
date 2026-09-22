@@ -116,11 +116,11 @@ body .content-section[id]{scroll-margin-top:150px}
 </style>
 <header class="pa-h" id="paHeader">
   <div class="pa-h-bar">
-    <a class="pa-h-logo" href="/" aria-label="Patron Accounting - Home"><img src="/images/patron-logo.webp" onerror="this.onerror=null;this.src='/images/site-logo.svg'" alt="Patron Accounting LLP - Chartered Accountants"></a>
+    <a class="pa-h-logo" href="/" aria-label="Patron Accounting - Home" data-track="nav.logo"><img src="/images/patron-logo.webp" onerror="this.onerror=null;this.src='/images/site-logo.svg'" alt="Patron Accounting LLP - Chartered Accountants"></a>
     <nav class="pa-h-nav" aria-label="Primary">
       <ul class="pa-h-menu">
       <li class="pa-h-item">
-        <button class="pa-h-tab" type="button">Accounting<i class="pa-caret"></i></button>
+        <button class="pa-h-tab" type="button" data-track="nav.accounting">Accounting<i class="pa-caret"></i></button>
         <div class="pa-h-panel pa-h-panel--wide">
           <div class="pa-h-cols">
         <div class="pa-h-col">
@@ -148,7 +148,7 @@ body .content-section[id]{scroll-margin-top:150px}
         </div>
       </li>
       <li class="pa-h-item">
-        <button class="pa-h-tab" type="button">Registration<i class="pa-caret"></i></button>
+        <button class="pa-h-tab" type="button" data-track="nav.registration">Registration<i class="pa-caret"></i></button>
         <div class="pa-h-panel pa-h-panel--wide">
           <div class="pa-h-cols">
         <div class="pa-h-col">
@@ -175,7 +175,7 @@ body .content-section[id]{scroll-margin-top:150px}
         </div>
       </li>
       <li class="pa-h-item">
-        <button class="pa-h-tab" type="button">Litigation<i class="pa-caret"></i></button>
+        <button class="pa-h-tab" type="button" data-track="nav.litigation">Litigation<i class="pa-caret"></i></button>
         <div class="pa-h-panel">
           <div class="pa-h-cols">
         <div class="pa-h-col">
@@ -202,7 +202,7 @@ body .content-section[id]{scroll-margin-top:150px}
         </div>
       </li>
       <li class="pa-h-item">
-        <button class="pa-h-tab" type="button">Stock Audit<i class="pa-caret"></i></button>
+        <button class="pa-h-tab" type="button" data-track="nav.stock-audit">Stock Audit<i class="pa-caret"></i></button>
         <div class="pa-h-panel">
           <div class="pa-h-cols">
         <div class="pa-h-col">
@@ -225,7 +225,7 @@ body .content-section[id]{scroll-margin-top:150px}
         </div>
       </li>
       <li class="pa-h-item">
-        <button class="pa-h-tab" type="button">Networth<i class="pa-caret"></i></button>
+        <button class="pa-h-tab" type="button" data-track="nav.networth">Networth<i class="pa-caret"></i></button>
         <div class="pa-h-panel pa-h-panel--narrow">
           <div class="pa-h-cols">
         <div class="pa-h-col">
@@ -243,7 +243,7 @@ body .content-section[id]{scroll-margin-top:150px}
         </div>
       </li>
       <li class="pa-h-item">
-        <button class="pa-h-tab" type="button">Compliance<i class="pa-caret"></i></button>
+        <button class="pa-h-tab" type="button" data-track="nav.compliance">Compliance<i class="pa-caret"></i></button>
         <div class="pa-h-panel pa-h-panel--wide">
           <div class="pa-h-cols">
         <div class="pa-h-col">
@@ -271,12 +271,12 @@ body .content-section[id]{scroll-margin-top:150px}
       </li>
         <li class="pa-h-sep"></li>
         <li class="pa-h-item pa-h-more">
-          <button class="pa-h-tab" type="button">More<i class="pa-caret"></i></button>
+          <button class="pa-h-tab" type="button" data-track="nav.more">More<i class="pa-caret"></i></button>
           <div class="pa-h-panel pa-h-panel--more"><a class="pa-h-morelink" href="/about-us">About Us</a><a class="pa-h-morelink" href="/meet-our-founder">Meet Our Founder</a><a class="pa-h-morelink" href="/career">Career</a><a class="pa-h-morelink" href="/refer-and-earn">Refer &amp; Earn</a><a class="pa-h-morelink" href="/partner-with-us">Partner With Us</a><a class="pa-h-morelink" href="/tools">Free Tools &amp; Calculators</a><a class="pa-h-morelink" href="/blog">Blogs</a><a class="pa-h-morelink" href="/glossary">Glossary</a><a class="pa-h-morelink" href="/contact-us">Contact Us</a></div>
         </li>
       </ul>
     </nav>
-    <a class="pa-h-cta" href="/contact-us">Talk to an Expert</a>
+    <a class="pa-h-cta" href="/contact-us" data-track="nav.cta.talk-to-expert">Talk to an Expert</a>
     <button class="pa-h-burger" id="paBurger" type="button" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
   </div>
   <div class="pa-h-strip">
@@ -336,8 +336,8 @@ body .content-section[id]{scroll-margin-top:150px}
         <a class="pa-m-morelink" href="/about-us">About Us &rsaquo;</a><a class="pa-m-morelink" href="/meet-our-founder">Meet Our Founder &rsaquo;</a><a class="pa-m-morelink" href="/career">Career &rsaquo;</a><a class="pa-m-morelink" href="/refer-and-earn">Refer &amp; Earn &rsaquo;</a><a class="pa-m-morelink" href="/partner-with-us">Partner With Us &rsaquo;</a><a class="pa-m-morelink" href="/tools">Free Tools &amp; Calculators &rsaquo;</a><a class="pa-m-morelink" href="/blog">Blogs &rsaquo;</a><a class="pa-m-morelink" href="/glossary">Glossary &rsaquo;</a><a class="pa-m-morelink" href="/contact-us">Contact Us &rsaquo;</a>
       </div>
     </div>
-    <a class="pa-h-cta pa-m-cta" href="/contact-us">Talk to an Expert</a>
-    <a class="pa-m-phone" href="tel:+919459456700">✆ +91 945 945 6700</a>
+    <a class="pa-h-cta pa-m-cta" href="/contact-us" data-track="nav.cta.talk-to-expert">Talk to an Expert</a>
+    <a class="pa-m-phone" href="tel:+919459456700" data-track="contact.call">✆ +91 945 945 6700</a>
   </div>
 </header>
 <script>(function(){var h=document.getElementById('paHeader');if(!h)return;

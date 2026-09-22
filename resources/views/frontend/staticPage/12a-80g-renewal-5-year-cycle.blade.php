@@ -1109,7 +1109,7 @@ function toggleTestiVideo(area){
     </div>
 </section>
 
-<section class="content-section" id="overview-section">
+<section class="content-section" id="overview-section" data-slot="overview">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Overview - 12A &amp; 80G Renewal via Form 10AB</h2>
@@ -1131,7 +1131,7 @@ function toggleTestiVideo(area){
 
 
 <!-- SECTION 3: WHAT IT IS / KEY MECHANICS -->
-<section class="content-section" id="what-section">
+<section class="content-section" id="what-section" data-slot="what-is">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
@@ -1209,7 +1209,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 5: OUR SERVICES -->
-<section class="content-section" id="services-section">
+<section class="content-section" id="services-section" data-slot="services">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Patron 12A &amp; 80G Renewal Service Coverage</h2>
@@ -1277,7 +1277,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 7: RENEWAL PROCESS -->
-<section class="steps-section" id="procedure-section">
+<section class="steps-section" id="procedure-section" data-slot="process">
     <div class="section-container">
         <div class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow">Our Process</span>
@@ -1458,7 +1458,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 8: DOCUMENTS REQUIRED -->
-<section class="content-section" id="documents-section">
+<section class="content-section" id="documents-section" data-slot="documents">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Documents Required for Form 10AB Renewal</h2>
@@ -1483,7 +1483,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 9: CHALLENGES -->
-<section class="content-section" id="challenges-section">
+<section class="content-section" id="challenges-section" data-slot="challenges">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Common Renewal Mistakes Patron Helps You Avoid</h2>
@@ -1531,7 +1531,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 10: FEES -->
-<section class="content-section" id="fees-section">
+<section class="content-section" id="fees-section" data-slot="fees">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Patron Fees for 12A &amp; 80G Renewal</h2>
@@ -1576,7 +1576,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 11: TIMELINE -->
-<section class="content-section" id="timeline-section">
+<section class="content-section" id="timeline-section" data-slot="timeline">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">12A &amp; 80G Renewal Timeline</h2>
@@ -1700,7 +1700,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- SECTION 13: PROVISIONAL vs REGULAR COMPARISON -->
-<section class="content-section" id="comparison-section">
+<section class="content-section" id="comparison-section" data-slot="comparison">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Provisional vs Regular Registration - Renewal Decision Matrix</h2>
@@ -1806,7 +1806,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- FAQ SECTION -->
-<section id="faq-section" class="content-section" style="background-color: #ffffff;">
+<section id="faq-section" data-slot="faq" class="content-section" style="background-color: #ffffff;">
     <div class="content-container">
         <div class="text-content">
             <div class="faq-expanded">
@@ -1869,7 +1869,7 @@ function toggleTestiVideo(area){
 </section>
 
 <!-- CONCLUSION + CTA BLOCK (Dark) -->
-<section class="content-section" style="background: var(--blue) !important;">
+<section class="content-section" style="background: var(--blue) !important;" data-slot="conclusion">
     <div class="content-container">
         <div class="text-content" style="text-align:left;">
             <h2 class="section-title" style="color:#FFFFFF !important;">Talk to Patron's NGO Renewal Team Today</h2>

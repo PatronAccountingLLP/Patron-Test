@@ -39,6 +39,16 @@ chmod -R 775 storage bootstrap/cache || true
 # --- Optimize caches (all non-fatal so a bad cache never blocks boot) -------
 php artisan config:clear || true
 php artisan migrate --force || true
+
+# Visible check: `migrate` above is swallowed with `|| true` so a failed
+# migration never blocks boot - but that also hides it. Report, in the Render
+# logs, whether the visitor-tracker tables actually landed. Non-fatal on
+# purpose (a missing tracker must not take the whole site down), just visible.
+if php artisan tinker --execute="exit((\Illuminate\Support\Facades\Schema::hasTable('visitor_sessions') && \Illuminate\Support\Facades\Schema::hasTable('page_daily')) ? 0 : 1);" >/dev/null 2>&1; then
+    echo "entrypoint: OK - visitor tracker tables present (visitor_sessions, page_daily)"
+else
+    echo "entrypoint: WARNING - visitor tracker tables MISSING - a migration likely failed above; run 'php artisan migrate --force' by hand and check the error"
+fi
 # Idempotent content seeders (safe to run every boot). These upsert specific
 # posts whose migrations may already be recorded on the persistent disk, and
 # fix records hidden by a future published_at (server UTC vs IST).

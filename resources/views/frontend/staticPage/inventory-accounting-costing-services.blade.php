@@ -385,7 +385,7 @@
 </div>
 
 
-<section class="content-section" id="overview-section">
+<section class="content-section" id="overview-section" data-slot="overview">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">What Inventory Accounting and Costing Covers — Scope, Deliverables and Who It Suits</h2>
@@ -402,7 +402,7 @@
 </section>
 
 
-<section class="content-section" id="what-section">
+<section class="content-section" id="what-section" data-slot="what-is">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
@@ -449,7 +449,7 @@
 </section>
 
 
-<section class="content-section" id="services-section">
+<section class="content-section" id="services-section" data-slot="services">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Our Inventory Accounting and Costing Services</h2>
@@ -474,7 +474,7 @@
 </section>
 
 
-<section class="steps-section" id="procedure-section">
+<section class="steps-section" id="procedure-section" data-slot="process">
     <div class="section-container">
         <header class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow">Our Process</span>
@@ -545,7 +545,7 @@
 
 
 
-<section class="content-section" id="documents-section">
+<section class="content-section" id="documents-section" data-slot="documents">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Documents Required for Inventory Accounting and Costing</h2>
@@ -630,7 +630,7 @@
 </section>
 <!-- ============ /CLIENT PORTAL ============ -->
 
-<section class="content-section" id="challenges-section">
+<section class="content-section" id="challenges-section" data-slot="challenges">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Common Inventory Accounting and Costing Challenges and How We Solve Them</h2>
@@ -655,7 +655,7 @@
 
 
 
-<section class="content-section" id="fees-section">
+<section class="content-section" id="fees-section" data-slot="fees">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Inventory Accounting and Costing Fees</h2>
@@ -680,7 +680,7 @@
 </section>
 
 
-<section class="content-section" id="timeline-section">
+<section class="content-section" id="timeline-section" data-slot="timeline">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Inventory Accounting and Costing Compliance Calendar 2026</h2>
@@ -771,7 +771,7 @@
 
 
 
-<section class="content-section" id="comparison-section">
+<section class="content-section" id="comparison-section" data-slot="comparison">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">FIFO vs Weighted Average Costing</h2>
@@ -818,7 +818,7 @@
 </section>
 
 
-<section id="faq-section" class="content-section" style="background-color: #ffffff;">
+<section id="faq-section" data-slot="faq" class="content-section" style="background-color: #ffffff;">
     <div class="content-container">
         <div class="text-content">
             
@@ -903,7 +903,7 @@
 </section>
 
 
-<section class="content-section" style="background: var(--blue) !important;">
+<section class="content-section" style="background: var(--blue) !important;" data-slot="conclusion">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title" style="color:#FFFFFF !important;">Start Your Inventory Accounting and Costing with Patron Accounting</h2>

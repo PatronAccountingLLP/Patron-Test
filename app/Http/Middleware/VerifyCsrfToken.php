@@ -18,5 +18,10 @@ class VerifyCsrfToken extends Middleware
         // what LeadCaptureController exists to stop. The route takes no action
         // on behalf of a logged-in user, so there is nothing for CSRF to protect.
         'lead-capture',
+
+        // The Visitor Radar collector. It runs on every cacheable public page,
+        // so a token served from cache would be stale; it takes no action on
+        // behalf of a logged-in user, so there is nothing for CSRF to protect.
+        'px/c',
     ];
 }

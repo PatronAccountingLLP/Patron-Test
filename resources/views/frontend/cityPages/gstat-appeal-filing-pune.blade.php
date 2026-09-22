@@ -476,7 +476,7 @@
 </div>
 
 <!-- SECTION 2: OVERVIEW / INTRO + TL;DR -->
-<section class="content-section" id="overview-section">
+<section class="content-section" id="overview-section" data-slot="overview">
     <div class="content-container">
         <div class="text-content">
                 <div class="content-text">
@@ -527,7 +527,7 @@
 </section>
 
 <!-- SECTION 3: WHAT IS [SERVICE] -->
-<section class="content-section" id="what-section">
+<section class="content-section" id="what-section" data-slot="what-is">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
@@ -550,7 +550,7 @@
 </section>
 
 <!-- SECTION 5: OUR SERVICES -->
-<section class="content-section" id="services-section">
+<section class="content-section" id="services-section" data-slot="services">
     <div class="content-container">
         <div class="text-content">
                 <h2 class="section-title">Our GSTAT Appeal Filing Services for Pune Bench</h2><div class="content-text"><div class="table-responsive-wrapper"><table><thead><tr><th>Service</th><th>What We Do</th></tr></thead><tbody><tr><td>Case Assessment</td><td>Review demand order from CGST Pune Zone (Pune-I, Pune-II, Kolhapur) or MGST. Advise on appealability under Section 112.</td></tr><tr><td>Pre-Deposit Computation</td><td>Calculate 20% pre-deposit under S.112(8). Advise on Rs 50 Crore cap and hardship waiver strategy.</td></tr><tr><td>APL-05 Drafting</td><td>Prepare Form APL-05 with consecutively numbered grounds. 29-point checklist compliance for GSTAT portal.</td></tr><tr><td>E-Filing</td><td>File on <a href="https://efiling.gstat.gov.in" target="_blank" rel="noopener">efiling.gstat.gov.in</a> with BharatKosh challan within the 3-month limitation.</td></tr><tr><td>Hearing Representation</td><td>Of-counsel GST litigation specialists appear at Pune bench - physical or via GSTAT e-Courts portal.</td></tr><tr><td>Post-Order Advisory</td><td>If unfavourable, advise on appeal to Bombay High Court under Section 113 on substantial questions of law.</td></tr></tbody></table></div></div>
@@ -559,7 +559,7 @@
 </section>
 
 <!-- SECTION 7: STEP-BY-STEP PROCESS -->
-<section class="steps-section" id="procedure-section">
+<section class="steps-section" id="procedure-section" data-slot="process">
     <div class="section-container">
         <header class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Our Process</span>
@@ -576,7 +576,7 @@
 </section>
 
 <!-- SECTION 8: DOCUMENTS REQUIRED -->
-<section class="content-section" id="documents-section">
+<section class="content-section" id="documents-section" data-slot="documents">
     <div class="content-container">
         <div class="text-content">
                 <h2 class="section-title">Documents Required for GSTAT Appeal at Pune Bench</h2><div class="content-text"><ul><li><strong>Form GST APL-05</strong> - prescribed GSTAT appeal form with cause title, consecutively numbered grounds, and party details</li><li><strong>Certified copy of impugned order</strong> - from First Appellate Authority or Revisional Authority</li><li><strong>Pre-deposit payment proof</strong> - challan confirming 20% payment under S.112(8) through Electronic Cash Ledger</li><li><strong>GSTIN registration certificate</strong> - for business in Pune, Satara, Sangli, Solapur, Kolhapur, or Ahmednagar</li><li><strong>Relevant GST returns</strong> - GSTR-1, GSTR-3B, GSTR-9, GSTR-9C for disputed period</li><li><strong>SCN and reply</strong> - original show cause notice and taxpayer response</li><li><strong>Assessment/adjudication order (DRC-07)</strong> - demand order from original authority</li><li><strong>Vakalatnama</strong> - stamped as per Bombay High Court rules</li><li><strong>MGST-specific:</strong> Any MGST-issued demand notice, assessment order, or communication specific to Maharashtra GST jurisdiction for Pune bench districts</li></ul></div>
@@ -585,7 +585,7 @@
 </section>
 
 <!-- SECTION 9: CHALLENGES -->
-<section class="content-section" id="challenges-section">
+<section class="content-section" id="challenges-section" data-slot="challenges">
     <div class="content-container">
         <div class="text-content">
                 <h2 class="section-title">Challenges in GSTAT Appeal Filing at Pune Bench</h2><div class="content-text"><h3>Multi-District Jurisdiction Identification</h3><p>Companies with registrations across multiple Pune bench districts (manufacturer in Pune, warehouse in Solapur, sales office in Kolhapur) must correctly identify which CGST or MGST authority passed the demand order and file accordingly.</p><h3>High Pre-Deposit for Pune's Key Sectors</h3><p>For high-value demands common in Pune's automobile and IT sectors, the 20% pre-deposit under S.112(8) can represent significant working capital. Hardship waiver applications require careful documentation and are discretionary.</p><h3>Strict 3-Month Limitation</h3><p>The limitation under S.112(1) is a statutory bar. <strong>Failure to file within 3 months permanently extinguishes the right of appeal.</strong> Condonation under S.112(4) is applied restrictively.</p><h3>MGST and CGST Dual Jurisdiction</h3><p>Orders from MGST and CGST Pune Zone may involve overlapping issues. Where both authorities have issued demands on the same transaction, coordinating appeals requires careful strategy.</p><h3>29-Point Portal Checklist</h3><p>The GSTAT e-filing portal requires complete documentation at filing. Incomplete filings are returned with new case numbers, potentially causing limitation issues.</p></div>
@@ -594,7 +594,7 @@
 </section>
 
 <!-- SECTION 10: FEES + TIMELINE -->
-<section class="content-section" id="fees-section">
+<section class="content-section" id="fees-section" data-slot="fees">
     <div class="content-container">
         <div class="text-content">
                 <h2 class="section-title">Fees for GSTAT Appeal Filing at Pune Bench</h2><div class="content-text"><div class="table-responsive-wrapper"><table class="table-amount"><thead><tr><th>Component</th><th>Amount</th></tr></thead><tbody><tr><td>Pre-deposit (statutory)</td><td>20% of disputed tax under S.112(8) (inclusive of 10% at S.107), cap Rs 50 crore each CGST/SGST</td></tr><tr><td>Filing fee</td><td>Rs 1,000 per Rs 1 lakh of tax/penalty, cap Rs 25,000</td></tr><tr><td>Interlocutory application</td><td>Rs 5,000 per application</td></tr><tr><td>Miscellaneous</td><td>Certified copy fees, notarization, process fees</td></tr><tr><td>Patron Accounting Professional Fees</td><td>Starting from INR 24,999 (Excl. GST and Govt. Charges)</td></tr></tbody></table></div><p style="font-size:13px;color:var(--text-muted);margin-top:12px;"><em>All fees listed are indicative only and do not constitute a binding offer. Final amounts may vary depending on volume and complexity of work.</em></p><h3 style="margin-top:24px;">Timeline</h3><div class="table-responsive-wrapper"><table><thead><tr><th>Stage</th><th>Duration</th></tr></thead><tbody><tr><td>Filing window</td><td>3 months under S.112(1). Backlog: 30 June 2026.</td></tr><tr><td>Pre-deposit processing</td><td>1-2 working days via Electronic Cash Ledger</td></tr><tr><td>Document preparation</td><td>3-7 working days</td></tr><tr><td>Admission hearing</td><td>Subject to Pune bench listing schedule</td></tr><tr><td>Order pronouncement</td><td>Within 30 days of final hearing</td></tr></tbody></table></div><div style="margin-top:24px;padding:20px;background:var(--orange-lighter);border-radius:var(--radius-md);border-left:4px solid var(--orange);"><p style="margin:0;font-weight:600;">Get a case-specific estimate for your Pune bench proceedings. Call <a href="tel:+919459456700">+91 945 945 6700</a> | <a href="https://wa.me/919459456700?text=Hello%2C%20I%20just%20visited%20your%20GSTAT%20Appeal%20Filing%20in%20Pune%20page.%20I%20would%20like%20to%20know%20more%20about%20it." target="_blank" rel="noopener">WhatsApp</a></p></div></div>
@@ -621,7 +621,7 @@
 </section>
 
 <!-- SECTION 13: COMPARISON TABLE -->
-<section class="content-section" id="comparison-section">
+<section class="content-section" id="comparison-section" data-slot="comparison">
     <div class="content-container">
         <div class="text-content">
                 <h2 class="section-title">Patron vs Alternatives - Pune Bench Comparison</h2><div class="content-text"><div class="table-responsive-wrapper"><table class="table-comparison"><thead><tr><th>Factor</th><th>Patron Accounting</th><th>General CA / Self-Filing</th></tr></thead><tbody><tr><td>GSTAT experience</td><td>Dedicated practice across 32 benches</td><td>Limited or no GSTAT experience</td></tr><tr><td>Pune bench knowledge</td><td>Local Pune office with MGST/CGST Pune Zone expertise</td><td>Generic national approach</td></tr><tr><td>Pre-deposit advisory</td><td>Strategic S.112(8) computation, hardship waiver support</td><td>Basic computation</td></tr><tr><td>Hearing representation</td><td>Of-counsel specialists, 15+ years indirect tax</td><td>CA without tribunal experience</td></tr><tr><td>Pan-India coverage</td><td>32 benches, 4 offices</td><td>Single city operation</td></tr></tbody></table></div></div>
@@ -639,7 +639,7 @@
 </section>
 
 <!-- SECTION 15A: LEGAL FRAMEWORK / STATUTORY REFERENCE -->
-<section class="content-section" id="legal-section">
+<section class="content-section" id="legal-section" data-slot="legal-framework">
     <div class="content-container">
         <div class="text-content">
                 <h2 class="section-title">Legal Framework for GSTAT Appeals - Pune Bench</h2><div class="content-text"><div class="table-responsive-wrapper"><table><thead><tr><th>Provision</th><th>Section</th><th>Key Requirement</th></tr></thead><tbody><tr><td>Constitution of GSTAT</td><td>Section 109, CGST Act</td><td>Pune bench is one of three Maharashtra benches (alongside Mumbai and Nagpur).</td></tr><tr><td>Appeals to GSTAT</td><td>Section 112, CGST Act</td><td>3-month limitation under S.112(1). Pre-deposit 20% under S.112(8), cap Rs 50 crore each.</td></tr><tr><td>Appeal to High Court</td><td>Section 113, CGST Act</td><td>Appeal to Bombay HC on substantial questions of law. GSTAT is final on facts.</td></tr><tr><td>CGST Amendment</td><td>CGST (Amendment) Act, 2023</td><td>Amendments to S.109 and S.110 for GSTAT constitution and bench composition.</td></tr><tr><td>Procedural rules</td><td>GSTAT (Procedure) Rules, 2025</td><td>E-filing mandatory. All documents required at filing. Orders within 30 days.</td></tr><tr><td>State GST law</td><td>Maharashtra GST Act, 2017</td><td>Mirrors CGST provisions. Maharashtra PT Act 1975 creates additional compliance obligations.</td></tr></tbody></table></div><p>External references: <a href="https://efiling.gstat.gov.in" target="_blank" rel="noopener">GSTAT e-filing portal</a> | <a href="https://www.cbic.gov.in" target="_blank" rel="noopener">CBIC portal</a> | <a href="https://mahagst.gov.in" target="_blank" rel="noopener">Maharashtra GST portal</a></p></div>
@@ -648,7 +648,7 @@
 </section>
 
 <!-- SECTION 16: FAQ ACCORDION -->
-<section class="content-section" id="faq-section">
+<section class="content-section" id="faq-section" data-slot="faq">
     <div class="content-container">
         <div class="text-content">
             <div class="faq-expanded">

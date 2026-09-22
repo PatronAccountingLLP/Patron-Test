@@ -1641,7 +1641,7 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
 </div>
 
 <!-- SECTION 2: OVERVIEW / INTRO + TL;DR -->
-<section class="content-section" id="overview-section">
+<section class="content-section" id="overview-section" data-slot="overview">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Making Every Asset Findable</h2>
@@ -1663,7 +1663,7 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
 </section>
 
 <!-- SECTION 3: WHAT IS GSTAT APPEAL FILING -->
-<section class="content-section" id="what-section">
+<section class="content-section" id="what-section" data-slot="what-is">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
@@ -1707,7 +1707,7 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
 </section>
 
 <!-- SECTION 5: OUR SERVICES -->
-<section class="content-section" id="services-section">
+<section class="content-section" id="services-section" data-slot="services">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Scope, Deliverables and the Tag Format You Receive</h2>
@@ -1729,7 +1729,7 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
 </section>
 
 <!-- SECTION 7: 7-STEP PROCESS -->
-<section class="steps-section" id="procedure-section">
+<section class="steps-section" id="procedure-section" data-slot="process">
     <div class="section-container">
         <header class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow">Our Process</span>
@@ -1748,7 +1748,7 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
 
 
 <!-- SECTION 8: DOCUMENTS REQUIRED -->
-<section class="content-section" id="documents-section">
+<section class="content-section" id="documents-section" data-slot="documents">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">What We Need to Start</h2>
@@ -1764,7 +1764,7 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
 </section>
 
 <!-- SECTION 9: CHALLENGES -->
-<section class="content-section" id="challenges-section">
+<section class="content-section" id="challenges-section" data-slot="challenges">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Where Tagging Programmes Fail</h2>
@@ -1788,7 +1788,7 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
 
 <!-- SECTION 10: FEES -->
 
-<section class="content-section" id="fees-section">
+<section class="content-section" id="fees-section" data-slot="fees">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">What Drives the Fee</h2>
@@ -1873,7 +1873,7 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
 </section>
 
 <!-- SECTION 13: SELF-FILING vs PROFESSIONAL COMPARISON -->
-<section class="content-section" id="comparison-section">
+<section class="content-section" id="comparison-section" data-slot="comparison">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Barcode vs QR vs RFID</h2>
@@ -1912,7 +1912,7 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
 </section>
 
 <!-- SECTION 15A: LEGAL FRAMEWORK -->
-<section class="content-section" id="legal-section">
+<section class="content-section" id="legal-section" data-slot="legal-framework">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Reconciling Tags Back to the Register</h2>
@@ -1926,7 +1926,7 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
 </section>
 
 <!-- FAQ SECTION -->
-<section id="faq-section" class="content-section" style="background-color: #ffffff;">
+<section id="faq-section" data-slot="faq" class="content-section" style="background-color: #ffffff;">
     <div class="content-container">
         <div class="text-content">
             
@@ -1973,7 +1973,7 @@ a.pa-rel-card:hover .pa-rel-go{color:var(--blue,#14365F)}
 <a href="https://www.patronaccounting.com/blog/asset-tagging-process" class="pa-read-card">Asset Tagging Process: From Numbering Convention to Register Reconciliation<span class="pa-read-go">&rarr;</span></a>
 <a href="https://www.patronaccounting.com/blog/ghost-assets" class="pa-read-card">Ghost Assets: What They Cost and How Asset Tagging Removes Them<span class="pa-read-go">&rarr;</span></a></div></div></div></section>
 <!-- CONCLUSION + CTA BLOCK (Dark) -->
-<section class="content-section" style="background: var(--blue) !important;">
+<section class="content-section" style="background: var(--blue) !important;" data-slot="conclusion">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title" style="color:#FFFFFF !important;">Starting a Tagging Programme</h2>

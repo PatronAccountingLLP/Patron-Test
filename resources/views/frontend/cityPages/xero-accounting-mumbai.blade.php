@@ -477,7 +477,7 @@
 </div>
 
 
-<section class="content-section" id="overview-section">
+<section class="content-section" id="overview-section" data-slot="overview">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">What Xero Accounting Costs and Covers for Mumbai Businesses</h2>
@@ -494,7 +494,7 @@
 </section>
 
 
-<section class="content-section" id="what-section">
+<section class="content-section" id="what-section" data-slot="what-is">
     <div class="content-container">
         <div class="two-column">
             <div class="column-content">
@@ -542,7 +542,7 @@
 </section>
 
 
-<section class="pa-logos-section"><div class="pa-logos-wrap"><p class="pa-logos-title">The software and platforms we work with</p><div class="pa-logos-cards" data-count="3"><a class="pa-logo-card" href="/xero-accounting" title="Xero accounting services"><img src="/images/accounting-cluster/_platform-logos/xero.webp" alt="Xero" loading="lazy"></a><a class="pa-logo-card" href="/zoho-books-accounting" title="Zoho Books accounting services"><img src="/images/accounting-cluster/_platform-logos/zoho-books.webp" alt="Zoho Books" loading="lazy"></a><a class="pa-logo-card" href="/tally-accounting" title="Tally accounting services"><img src="/images/accounting-cluster/_platform-logos/tally.webp" alt="Tally" loading="lazy"></a></div></div></section><section class="content-section" id="services-section">
+<section class="pa-logos-section"><div class="pa-logos-wrap"><p class="pa-logos-title">The software and platforms we work with</p><div class="pa-logos-cards" data-count="3"><a class="pa-logo-card" href="/xero-accounting" title="Xero accounting services"><img src="/images/accounting-cluster/_platform-logos/xero.webp" alt="Xero" loading="lazy"></a><a class="pa-logo-card" href="/zoho-books-accounting" title="Zoho Books accounting services"><img src="/images/accounting-cluster/_platform-logos/zoho-books.webp" alt="Zoho Books" loading="lazy"></a><a class="pa-logo-card" href="/tally-accounting" title="Tally accounting services"><img src="/images/accounting-cluster/_platform-logos/tally.webp" alt="Tally" loading="lazy"></a></div></div></section><section class="content-section" id="services-section" data-slot="services">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Xero Accounting Included for Mumbai Businesses</h2>
@@ -567,7 +567,7 @@
 </section>
 
 
-<section class="steps-section" id="procedure-section">
+<section class="steps-section" id="procedure-section" data-slot="process">
     <div class="section-container">
         <header class="section-header" style="text-align:center;margin-bottom:48px;">
             <span class="section-eyebrow">Our Process</span>
@@ -638,7 +638,7 @@
 
 
 
-<section class="content-section" id="documents-section">
+<section class="content-section" id="documents-section" data-slot="documents">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Documents Required for Xero Accounting</h2>
@@ -723,7 +723,7 @@
 </section>
 <!-- ============ /CLIENT PORTAL ============ -->
 
-<section class="content-section" id="challenges-section">
+<section class="content-section" id="challenges-section" data-slot="challenges">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Xero Accounting Challenges Specific to Mumbai: BKC Corporate Reporting, SEEPZ SEZ Units and LBT History</h2>
@@ -748,7 +748,7 @@
 
 
 
-<section class="content-section" id="fees-section">
+<section class="content-section" id="fees-section" data-slot="fees">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Xero Accounting Fees in Mumbai</h2>
@@ -773,7 +773,7 @@
 </section>
 
 
-<section class="content-section" id="timeline-section">
+<section class="content-section" id="timeline-section" data-slot="timeline">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Xero Accounting Compliance Calendar 2026 for Mumbai Businesses</h2>
@@ -871,7 +871,7 @@
 
 
 
-<section class="content-section" id="comparison-section">
+<section class="content-section" id="comparison-section" data-slot="comparison">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title">Xero vs Zoho Books for Indian Businesses: for Mumbai Businesses</h2>
@@ -918,7 +918,7 @@
 </section>
 
 
-<section id="faq-section" class="content-section" style="background-color: #ffffff;">
+<section id="faq-section" data-slot="faq" class="content-section" style="background-color: #ffffff;">
     <div class="content-container">
         <div class="text-content">
             
@@ -1004,7 +1004,7 @@
 </section>
 
 
-<section class="content-section" style="background: var(--blue) !important;">
+<section class="content-section" style="background: var(--blue) !important;" data-slot="conclusion">
     <div class="content-container">
         <div class="text-content">
             <h2 class="section-title" style="color:#FFFFFF !important;">Start Your Xero Accounting in Mumbai with Patron Accounting</h2>

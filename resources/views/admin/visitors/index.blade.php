@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="csrf-token" content="{{ csrf_token() }}">
 <title>Patron Web Analytics</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -560,7 +561,7 @@ tr.xp td{background:var(--surface-2);padding:18px 20px 22px;border-bottom:1px so
       <div class="head">
         <h2 id="h-daily">Daily report</h2>
         <p class="lead">One row per day: how many people visited, how many sent an enquiry, how many hit an error, and the page that drew the most visits.</p>
-        <p class="from"><b>Computed live from your own data</b> · last 30 days · a nightly job will freeze each day’s report later; for now the figures are worked out when you open this screen · <button type="button" class="btn link" id="dailyRefresh">Refresh</button></p>
+        <p class="from"><b>Computed live from your own data</b> · last 30 days · <button type="button" class="btn link" id="dailyRollup">Roll up now</button> freezes today’s and yesterday’s totals into the saved daily report (handy on a server with no nightly job) · <button type="button" class="btn link" id="dailyRefresh">Refresh</button> <span id="dailyRollupMsg" class="mono" style="margin-left:6px;color:var(--text-2)"></span></p>
         <div class="export">
           <button type="button" class="btn primary exp-btn" aria-haspopup="true" aria-expanded="false">Export ▾</button>
           <div class="exp-menu" hidden>
@@ -808,6 +809,17 @@ tr.xp td{background:var(--surface-2);padding:18px 20px 22px;border-bottom:1px so
     return fetch(url, {credentials:"same-origin", headers:{"Accept":"application/json"}, cache:"no-store"}).then(function(r){
       if(!r.ok) throw new Error("HTTP " + r.status);
       return r.json();
+    });
+  }
+  /* POST with the page's CSRF token (admin routes run the web middleware). Used
+     by the on-demand "Roll up now" trigger; everything else here is read-only. */
+  function postJSON(url, body){
+    var tok = (document.querySelector('meta[name="csrf-token"]') || {}).content || "";
+    return fetch(url, {method:"POST", credentials:"same-origin", cache:"no-store",
+      headers:{"Accept":"application/json","Content-Type":"application/json","X-CSRF-TOKEN":tok,"X-Requested-With":"XMLHttpRequest"},
+      body: JSON.stringify(body || {})}).then(function(r){
+        if(!r.ok) throw new Error("HTTP " + r.status);
+        return r.json();
     });
   }
 
@@ -1819,6 +1831,21 @@ tr.xp td{background:var(--surface-2);padding:18px 20px 22px;border-bottom:1px so
   });
   $("errRefresh").addEventListener("click", function(){ state.sessions = null; loadErrors(); });
   $("dailyRefresh").addEventListener("click", loadDaily);
+  (function(){
+    var btn = $("dailyRollup"); if(!btn) return;
+    btn.addEventListener("click", function(){
+      var msg = $("dailyRollupMsg");
+      btn.disabled = true; if(msg) msg.textContent = "rolling up…";
+      postJSON("/admin/visitors/rollup-now", {}).then(function(d){
+        if(msg) msg.textContent = "done · " + ((d && d.page_daily_rows != null) ? fmtN(d.page_daily_rows) + " page-day rows saved" : "saved");
+        state.daily = null; loadDaily();
+      }).catch(function(){
+        if(msg) msg.textContent = "could not roll up — try again";
+      }).then(function(){
+        btn.disabled = false; setTimeout(function(){ if(msg) msg.textContent = ""; }, 6000);
+      });
+    });
+  })();
   document.addEventListener("click", function(e){
     var t = e.target.closest(".exp-btn");
     if(t){ var m = t.nextElementSibling, was = !m.hidden; closeMenus(); m.hidden = was; t.setAttribute("aria-expanded", String(!was)); expOpener = t; return; }

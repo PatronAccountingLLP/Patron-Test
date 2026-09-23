@@ -1738,7 +1738,13 @@ tr.xp td{background:var(--surface-2);padding:18px 20px 22px;border-bottom:1px so
      reports export as CSV (opens directly in Excel/Sheets); the nested Page
      analysis screen shows a short note instead of a single flat sheet. */
   var expOpener = null;
-  function csvCell(v){ v = (v==null?"":String(v)).replace(/ /g," ").replace(/\s+/g," ").trim(); return /[",\n]/.test(v) ? '"'+v.replace(/"/g,'""')+'"' : v; }
+  function csvCell(v){
+    v = (v==null?"":String(v)).replace(/\u00a0/g," ").replace(/\s+/g," ").trim();
+    /* Neutralise spreadsheet formula injection: a cell that opens with = + - @
+       or a tab/CR runs as a formula in Excel/Sheets, so prefix it with an apostrophe. */
+    if(/^[=+\-@\t\r]/.test(v)) v = "'" + v;
+    return /[",\n]/.test(v) ? '"'+v.replace(/"/g,'""')+'"' : v;
+  }
   function downloadCsv(name, rows){
     var csv = "﻿" + rows.map(function(r){ return r.map(csvCell).join(","); }).join("\r\n");
     var url = URL.createObjectURL(new Blob([csv], {type:"text/csv;charset=utf-8"}));

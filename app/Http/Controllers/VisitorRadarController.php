@@ -328,7 +328,10 @@ class VisitorRadarController extends Controller
             ->get()
             ->map(fn ($s) => $this->sessionRow($s));
 
-        $since = Carbon::today();
+        // "Today" is an IST bucket to match the rest of this tool and the site's
+        // audience. config('app.timezone') is UTC, so Carbon::today() would begin
+        // the day 5.5h late; convert IST-midnight to the stored (app-tz) instant.
+        $since = Carbon::today(self::IST_TZ)->setTimezone(config('app.timezone'));
 
         return response()->json([
             'now'        => now()->toIso8601String(),
@@ -434,11 +437,11 @@ class VisitorRadarController extends Controller
         $days = min(90, max(1, (int) $request->input('days', 7)));
         $from = now()->subDays($days - 1)->startOfDay();
 
-        // Human visits only - bots would drown the signal.
-        $humanSids = VisitorSession::where('started_at', '>=', $from)->where('is_bot', false)->pluck('session_id');
-
+        // Human visits only - bots would drown the signal. The bot filter is a
+        // subquery so it runs in SQL: plucking every session id and handing the
+        // list to whereIn() blows the SQLite variable cap (999) past ~1k sessions.
         $events = VisitorEvent::where('created_at', '>=', $from)
-            ->whereIn('session_id', $humanSids)
+            ->whereIn('session_id', VisitorSession::where('started_at', '>=', $from)->where('is_bot', false)->select('session_id'))
             ->get();
 
         $rows = [];
@@ -505,10 +508,13 @@ class VisitorRadarController extends Controller
         $days = min(90, max(1, (int) $request->input('days', 7)));
         $from = now()->subDays($days - 1)->startOfDay();
 
-        $humanSids = VisitorSession::where('started_at', '>=', $from)->where('is_bot', false)->pluck('session_id');
-        $sessions  = VisitorSession::whereIn('session_id', $humanSids)->get()->keyBy('session_id');
+        // Query the human sessions directly, and filter events by a subquery, so
+        // no id list is loaded into PHP or passed to whereIn() (SQLite caps bound
+        // variables at 999, which a plucked list overruns past ~1k sessions).
+        $sessions  = VisitorSession::where('started_at', '>=', $from)->where('is_bot', false)->get()->keyBy('session_id');
         $events    = VisitorEvent::where('created_at', '>=', $from)
-            ->whereIn('session_id', $humanSids)->orderBy('id')->get();
+            ->whereIn('session_id', VisitorSession::where('started_at', '>=', $from)->where('is_bot', false)->select('session_id'))
+            ->orderBy('id')->get();
 
         $bySession = $events->groupBy('session_id');
 
@@ -666,8 +672,11 @@ class VisitorRadarController extends Controller
     {
         $days = min(90, max(1, (int) $request->input('days', 7)));
         $from = now()->subDays($days - 1)->startOfDay();
-        $humanSids = VisitorSession::where('started_at', '>=', $from)->where('is_bot', false)->pluck('session_id');
-        $ev = VisitorEvent::where('created_at', '>=', $from)->whereIn('session_id', $humanSids)->get();
+        // Bot filter as a SQL subquery (a plucked id list overruns SQLite's 999
+        // bound-variable cap once there are more than ~1k human sessions).
+        $ev = VisitorEvent::where('created_at', '>=', $from)
+            ->whereIn('session_id', VisitorSession::where('started_at', '>=', $from)->where('is_bot', false)->select('session_id'))
+            ->get();
 
         $fileExt = '/\.(pdf|docx?|xlsx?|pptx?|csv|zip|rtf|txt)(\?|#|$)/i';
         $count = [];
@@ -731,7 +740,18 @@ class VisitorRadarController extends Controller
      */
     public function rollupNow(Request $request)
     {
-        $date = $request->input('date') ?: Carbon::now(self::IST_TZ)->format('Y-m-d');
+        // Default to today (IST). A caller-supplied date is validated so a
+        // malformed value falls back to today rather than throwing a 500 at the
+        // Carbon::parse for "yesterday" below.
+        $input = $request->input('date');
+        $date = Carbon::now(self::IST_TZ)->format('Y-m-d');
+        if (is_string($input) && preg_match('/^\d{4}-\d{2}-\d{2}$/', $input)) {
+            try {
+                $date = Carbon::createFromFormat('Y-m-d', $input, self::IST_TZ)->format('Y-m-d');
+            } catch (\Throwable $e) {
+                // keep today
+            }
+        }
         $codeToday = \Illuminate\Support\Facades\Artisan::call('radar:rollup', ['date' => $date]);
         $out = trim(\Illuminate\Support\Facades\Artisan::output());
         // Also fold in yesterday, in case a visit crossed midnight while testing.
@@ -885,7 +905,9 @@ class VisitorRadarController extends Controller
         }
         // Of those, the ones that did NOT submit on this page.
         $submitted = VisitorEvent::where('path', $url)->where('type', 'form_submit')
-            ->whereIn('session_id', $sids)->distinct()->pluck('session_id')->flip();
+            ->whereIn('session_id', VisitorEvent::where('path', $url)->where('type', 'field_focus')
+                ->whereBetween('created_at', [$startUtc, $endUtc])->select('session_id'))
+            ->distinct()->pluck('session_id')->flip();
 
         $tally = [];
         foreach ($sids as $sid) {
@@ -911,16 +933,23 @@ class VisitorRadarController extends Controller
     private function clickHeatmap(string $url, string $from, string $to): array
     {
         [$startUtc, $endUtc] = $this->istBounds($from, $to);
-        $humanSids = VisitorSession::where('is_bot', false)->pluck('session_id');   // bounded below
+        // Bot filter as a SQL subquery: plucking every human session id (all time)
+        // and handing it to whereIn() overruns SQLite's 999 bound-variable cap.
         $points = VisitorEvent::where('path', $url)->where('type', 'click')
             ->whereNotNull('el_x')->whereNotNull('el_y')
             ->whereBetween('created_at', [$startUtc, $endUtc])
-            ->whereIn('session_id', $humanSids)
+            ->whereIn('session_id', VisitorSession::where('is_bot', false)->select('session_id'))
             ->limit(5000)
             ->get(['session_id', 'element_key', 'el_x', 'el_y']);
 
-        $deviceOf = VisitorSession::whereIn('session_id', $points->pluck('session_id')->unique())
-            ->pluck('device', 'session_id');
+        // Device per session, resolved in chunks so this whereIn also stays under
+        // the SQLite cap (up to 5000 points -> up to 5000 distinct sessions).
+        $deviceOf = [];
+        foreach ($points->pluck('session_id')->unique()->chunk(500) as $chunk) {
+            foreach (VisitorSession::whereIn('session_id', $chunk)->pluck('device', 'session_id') as $sid => $dev) {
+                $deviceOf[$sid] = $dev;
+            }
+        }
 
         $out = ['mobile' => [], 'desktop' => [], 'tablet' => []];
         foreach ($points as $p) {
@@ -975,18 +1004,23 @@ class VisitorRadarController extends Controller
     public function daily(Request $request)
     {
         $days = min(90, max(1, (int) $request->input('days', 30)));
-        $from = now()->subDays($days - 1)->startOfDay();
+        // Days are IST buckets, to match the UI, the roll-up and pageReport.
+        // config('app.timezone') is UTC, so plain now()/toDateString() would split
+        // each day 5.5h off IST; convert the window start and every timestamp to
+        // IST before taking its date.
+        $tz   = self::IST_TZ;
+        $from = Carbon::now($tz)->subDays($days - 1)->startOfDay()->setTimezone(config('app.timezone'));
 
         $sessions = VisitorSession::where('started_at', '>=', $from)->get();
         $errorsByDay = VisitorEvent::whereIn('type', ['error', 'page_error'])
             ->where('created_at', '>=', $from)
             ->get()
-            ->groupBy(fn ($e) => optional($e->created_at)->toDateString());
+            ->groupBy(fn ($e) => $e->created_at ? $e->created_at->copy()->setTimezone($tz)->toDateString() : null);
 
         $rows = [];
         for ($i = 0; $i < $days; $i++) {
-            $day = now()->subDays($i)->toDateString();
-            $daySessions = $sessions->filter(fn ($s) => optional($s->started_at)->toDateString() === $day);
+            $day = Carbon::now($tz)->subDays($i)->toDateString();
+            $daySessions = $sessions->filter(fn ($s) => $s->started_at && $s->started_at->copy()->setTimezone($tz)->toDateString() === $day);
             $humans = $daySessions->where('is_bot', false);
             $rows[] = [
                 'date'       => $day,
@@ -1124,8 +1158,13 @@ class VisitorRadarController extends Controller
             }
         }
         if (str_contains($ip, ':')) {                 // IPv6 -> /48
-            $g = explode(':', $ip);
-            return implode(':', array_slice($g, 0, 3)) . '::';
+            $bin = @inet_pton($ip);
+            if ($bin === false || strlen($bin) !== 16) {
+                return $ip;                           // not a well-formed IPv6
+            }
+            // Keep the first 48 bits (6 bytes), zero the rest, then re-compress.
+            // (explode(':') mangles compressed forms like ::1 into ::1::.)
+            return inet_ntop(substr($bin, 0, 6) . str_repeat("\0", 10)) ?: $ip;
         }
         return $ip;
     }

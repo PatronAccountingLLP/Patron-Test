@@ -565,7 +565,7 @@ tr.xp td{background:var(--surface-2);padding:18px 20px 22px;border-bottom:1px so
           <button type="button" class="btn primary exp-btn" aria-haspopup="true" aria-expanded="false">Export ▾</button>
           <div class="exp-menu" hidden>
             <button type="button" data-kind="daily" data-fmt="csv">CSV file <small>.csv</small></button>
-            <button type="button" data-kind="daily" data-fmt="xlsx">Excel workbook <small>.xlsx</small></button>
+            <button type="button" data-kind="daily" data-fmt="csv">Excel (opens CSV) <small>.csv</small></button>
           </div>
         </div>
       </div>
@@ -597,7 +597,7 @@ tr.xp td{background:var(--surface-2);padding:18px 20px 22px;border-bottom:1px so
           <button type="button" class="btn primary exp-btn" aria-haspopup="true" aria-expanded="false">Export ▾</button>
           <div class="exp-menu" hidden>
             <button type="button" data-kind="pages" data-fmt="csv">CSV file <small>.csv</small></button>
-            <button type="button" data-kind="pages" data-fmt="xlsx">Excel workbook <small>.xlsx</small></button>
+            <button type="button" data-kind="pages" data-fmt="csv">Excel (opens CSV) <small>.csv</small></button>
           </div>
         </div>
       </div>
@@ -622,7 +622,7 @@ tr.xp td{background:var(--surface-2);padding:18px 20px 22px;border-bottom:1px so
           <button type="button" class="btn primary exp-btn" aria-haspopup="true" aria-expanded="false">Export ▾</button>
           <div class="exp-menu" hidden>
             <button type="button" data-kind="deep" data-fmt="csv">CSV file <small>.csv</small></button>
-            <button type="button" data-kind="deep" data-fmt="xlsx">Excel workbook <small>.xlsx</small></button>
+            <button type="button" data-kind="deep" data-fmt="csv">Excel (opens CSV) <small>.csv</small></button>
           </div>
         </div>
       </div>
@@ -647,7 +647,7 @@ tr.xp td{background:var(--surface-2);padding:18px 20px 22px;border-bottom:1px so
           <button type="button" class="btn primary exp-btn" aria-haspopup="true" aria-expanded="false">Export ▾</button>
           <div class="exp-menu" hidden>
             <button type="button" data-kind="events" data-fmt="csv">CSV file <small>.csv</small></button>
-            <button type="button" data-kind="events" data-fmt="xlsx">Excel workbook <small>.xlsx</small></button>
+            <button type="button" data-kind="events" data-fmt="csv">Excel (opens CSV) <small>.csv</small></button>
           </div>
         </div>
       </div>
@@ -1721,35 +1721,57 @@ tr.xp td{background:var(--surface-2);padding:18px 20px 22px;border-bottom:1px so
     Array.prototype.forEach.call(body.querySelectorAll("[data-rpdev]"), function(b){ b.addEventListener("click", function(){ state.rp.dev = this.dataset.rpdev; rpDraw(); }); });
   }
 
-  /* export: downloads do not run inside the admin frame, so the panel describes the file exactly */
+  /* export: build the file from what's on screen and download it. The tool opens
+     in its own browser tab, so a client-side Blob download works fine here. All
+     reports export as CSV (opens directly in Excel/Sheets); the nested Page
+     analysis screen shows a short note instead of a single flat sheet. */
   var expOpener = null;
+  function csvCell(v){ v = (v==null?"":String(v)).replace(/ /g," ").replace(/\s+/g," ").trim(); return /[",\n]/.test(v) ? '"'+v.replace(/"/g,'""')+'"' : v; }
+  function downloadCsv(name, rows){
+    var csv = "﻿" + rows.map(function(r){ return r.map(csvCell).join(","); }).join("\r\n");
+    var url = URL.createObjectURL(new Blob([csv], {type:"text/csv;charset=utf-8"}));
+    var a = document.createElement("a"); a.href = url; a.download = name;
+    document.body.appendChild(a); a.click();
+    setTimeout(function(){ URL.revokeObjectURL(url); if(a.parentNode) a.parentNode.removeChild(a); }, 1500);
+  }
+  /* Read a rendered <table> into rows[] (last header row + body rows that match
+     its column count, so expandable/detail rows are skipped). */
+  function tableToRows(id){
+    var t = document.getElementById(id); if(!t) return [];
+    var heads = t.querySelectorAll("thead tr"), headRow = heads.length ? heads[heads.length-1] : null;
+    if(!headRow) return [];
+    var hc = headRow.querySelectorAll("th,td"), n = hc.length, rows = [], hr = [];
+    Array.prototype.forEach.call(hc, function(c){ hr.push(c.textContent); });
+    rows.push(hr);
+    Array.prototype.forEach.call(t.querySelectorAll("tbody tr"), function(tr){
+      var cells = tr.querySelectorAll("th,td");
+      if(cells.length !== n) return;
+      var r = []; Array.prototype.forEach.call(cells, function(c){ r.push(c.textContent); });
+      rows.push(r);
+    });
+    return rows;
+  }
+  function eventsRows(){
+    var ev = ((state.events && state.events.events) || []).filter(function(e){ return e && e.event; });
+    var groupOf = {}; (typeof EV_GROUPS !== "undefined" ? EV_GROUPS : []).forEach(function(g){ (g.names||[]).forEach(function(nm){ groupOf[nm] = g.name; }); });
+    var rows = [["Event","Group","Count"]];
+    ev.slice().sort(function(a,b){ return (+b.count||0)-(+a.count||0); }).forEach(function(e){
+      rows.push([e.event, groupOf[e.event] || "Other", (+e.count||0)]);
+    });
+    return rows;
+  }
   function openExport(kind, fmt){
-    var today = new Date().toISOString().slice(0,10), isX = fmt === "xlsx", spec;
-    if(kind === "events"){
-      var evs = (state.events && state.events.events) || [], ed = (state.events && state.events.days) || state.evDays;
-      spec = {title:"Events", name:"patron-events-"+ed+"-days-"+today, covers: evs.length ? "The last "+ed+" days, one row per GA4-style event name ("+fmtN(evs.length)+" types)" : "No events yet", rows:evs.length,
-              cols:"Event (GA4-style name) · Group (Page & session / Interactions / Forms & leads / Business conversions / Other) · Count", src:"events.json"};
-    } else if(kind === "deep"){
-      var dp = (state.deep && state.deep.pages) || [], dd = (state.deep && state.deep.days) || state.deepDays;
-      var blocks = dp.reduce(function(n,p){ return n + 1 + (p.engaging_sections||[]).length + (p.hover_lines||[]).length + (p.top_clicks||[]).length + (p.left_to||[]).reduce(function(m,t){ return m + Math.max(1, (t.via||[]).length); }, 0); }, 0);
-      spec = {title:"Page analysis", name:"patron-page-analysis-"+dd+"-days-"+today, covers: dp.length ? "The last "+dd+" days, one block per page ("+fmtN(dp.length)+" pages)" : "No page behaviour yet", rows:blocks,
-              cols:"One block per page, one row per item: Page · Views · Entered here · Left site here · Exit rate (%) · Exit scroll (%) · Kind (section / hover line / click / went next / form) · Label (section name, hovered line, click label, next path) · Detail (element, region, via link or card) · Value (seconds, samples or count)", src:"pages-deep.json"};
-    } else if(kind === "pages"){
-      var pg = (state.pages && state.pages.pages) || [], nd = (state.pages && state.pages.days) || state.pagesDays;
-      spec = {title:"Page report", name:"patron-page-report-"+nd+"-days-"+today, covers: pg.length ? "The last "+nd+" days, one row per page ("+fmtN(pg.length)+" pages)" : "No page data yet", rows:pg.length,
-              cols:"Page · Views · Visitors · Average scroll depth (%) · Clicks · Enquiries · Dead clicks · JS errors · 404 hits · Top clicks (label × count) · Dead-click elements (label × count) · Errors (message · where × count)", src:"pages.json"};
-    } else {
-      var days = (state.daily && state.daily.days) || [];
-      spec = {title:"Daily report", name:"patron-daily-report-30-days-"+today, covers: days.length ? "The last "+days.length+" day"+(days.length===1?"":"s")+", "+niceDate(days[days.length-1].date)+" to "+niceDate(days[0].date) : "No days recorded yet", rows:days.length,
-              cols:"Date · Visitors · Bots · Page views · Enquiries submitted · Errors · Average time on site (seconds) · Top page", src:"daily.json"};
+    var today = new Date().toISOString().slice(0,10), rows, name;
+    if(kind === "pages"){ rows = tableToRows("pagesTable"); name = "patron-page-report-"+today+".csv"; }
+    else if(kind === "events"){ rows = eventsRows(); name = "patron-events-"+today+".csv"; }
+    else if(kind === "deep"){
+      $("expTitle").textContent = "Export — Page analysis";
+      $("expBody").innerHTML = '<p style="font-size:15px;line-height:1.6;margin:0 0 10px">Page analysis is a nested report — sections, hover lines, clicks and exits <em>per page</em> — so it does not fit a single spreadsheet cleanly.</p><p style="font-size:15px;line-height:1.6;margin:0">For a per-page table you can export right now, use <b>Page report → Export</b>. Ask the team if you also need a dedicated Page-analysis export.</p>';
+      $("expOverlay").hidden = false; $("expClose").focus(); return;
     }
-    $("expTitle").textContent = "Export — " + spec.title;
-    $("expBody").innerHTML =
-      '<div class="fname">'+spec.name+(isX ? ".xlsx" : ".csv")+'</div>'
-      + '<dl><dt>Format</dt><dd>'+(isX ? "Excel workbook, one sheet" : "CSV file, one table")+'</dd><dt>Covers</dt><dd>'+spec.covers+'</dd><dt>Rows</dt><dd>'+spec.rows+'</dd></dl>'
-      + '<h4 style="font-size:15px;margin:0 0 8px">Columns</h4><p style="font-size:14.5px;color:var(--text-2)">'+spec.cols+'</p>'
-      + '<div class="note"><b>Downloads are not wired in this screen yet.</b> The file is described here so the developer can produce it from <span class="mono">'+spec.src+'</span> with these columns.</div>';
-    $("expOverlay").hidden = false; $("expClose").focus();
+    else { rows = tableToRows("dailyTable"); name = "patron-daily-report-"+today+".csv"; }
+    if(!rows || rows.length < 2){ alert("Nothing to export yet — this report has no rows for the selected period. Try Refresh, then Export again."); return; }
+    downloadCsv(name, rows);
   }
   function closeExport(){ $("expOverlay").hidden = true; if(expOpener && expOpener.focus) expOpener.focus(); }
   function closeMenus(){ Array.prototype.forEach.call(document.querySelectorAll(".exp-menu"), function(m){ m.hidden = true; }); Array.prototype.forEach.call(document.querySelectorAll(".exp-btn"), function(b){ b.setAttribute("aria-expanded","false"); }); }
